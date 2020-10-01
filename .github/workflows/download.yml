@@ -29,3 +29,4 @@ jobs:
         github_token: ${{ secrets.API_TOKEN_GITHUB }}
         repository: kostajh/mediawiki-all-extensions-all-skins
         directory: core
+        force: true
