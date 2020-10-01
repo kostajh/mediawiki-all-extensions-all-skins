@@ -20,7 +20,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        cd core
+        mv core/* .
         git add .
         git commit -m "Latest changes" -a
     - name: Push changes
@@ -28,5 +28,4 @@ jobs:
       with:
         github_token: ${{ secrets.API_TOKEN_GITHUB }}
         repository: kostajh/mediawiki-all-extensions-all-skins
-        directory: core
         force: true
