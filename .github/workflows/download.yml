@@ -21,6 +21,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         cd core
+        git add .
         git commit -m "Latest changes" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
