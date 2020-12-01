@@ -1,0 +1,21 @@
+{
+	"--title": "Wikispeech - Documentation",
+	"--processes": "0",
+	"--external": [
+		"QUnit.*",
+		"jQuery",
+		"jQuery.Promise",
+		"OO.ui.*"
+	],
+	"--warnings-exit-nonzero": true,
+	"--warnings": [
+		"-nodoc(class,public)",
+		"-global"
+	],
+	"--output": "js-docs",
+	"--tags": "../../maintenance/jsduck/custom_tags.rb",
+	"--categories": "jsduck-categories.json",
+	"--": [
+		"modules"
+	]
+}

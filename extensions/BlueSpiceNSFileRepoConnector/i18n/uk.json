@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-nsfrc-desc": "Інтегрує NSFileRepo в низку розширень BlueSpice (потребує NSFileRepo)",
+	"bs-nsfrc-namespacestore-label": "Простір назв",
+	"bs-nsfrc-namespacecombo-emptytext": "Виберіть простір назв",
+	"bs-nsfrc-unprefixedfilename-label": "Назва",
+	"bs-nsfrc-uploaddialog-selector-label": "Цільовий простір назв",
+	"apihelp-bs-nsfrc-tasks-summary": "Кінцева точка API для розширення BlueSpiceNSFileRepoConnector",
+	"apihelp-bs-nsfilerepo-connector-summary": "Кінцева точка API для розширення BlueSpiceNSFileRepoConnector"
+}

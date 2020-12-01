@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Conky77"
+		]
+	},
+	"bs-countthings-words-label": "Paròle",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "paròle",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "caràteri e paròle",
+	"bs-countthings-error-invalid-mode": "Ƚa modalità \"$1\" no ƚa xe mìa valida. Uxa \"chars\", \"words\", o \"pages\"."
+}

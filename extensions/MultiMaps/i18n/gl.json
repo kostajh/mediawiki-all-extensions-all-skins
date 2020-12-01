@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"multimaps-desc": "Permite aos usuarios amosar mapas e coordenadas mediante varios servizos cartográficos",
+	"multimaps-loading-map": "Cargando o mapa...",
+	"multimaps-mapservices-must-not-empty-array": "A variable \"$1\" non pode ser unha táboa baleira",
+	"multimaps-had-following-errors": "Durante o proceso de análise, os elementos analizados produciron os seguintes erros:",
+	"multimaps-element-illegal-value": "especificouse o valor ilegal \"$2\" para o parámetro \"$1\". Os valores válidos son: $3",
+	"multimaps-element-more-parameters": "O elemento de mapa \"$1\" pasou máis parámetros dos esperados:",
+	"multimaps-element-parameters-not-processed": "non se procesaron os seguintes parámetros: $1",
+	"multimaps-circle-radius-not-defined": "cómpre definir o radio da circunferencia",
+	"multimaps-circle-wrong-number-parameters": "cómpre definir unicamente dous parámetros para a circunferencia, as coordenadas do centro e o radio. Pero {{PLURAL:$1|especificouse un parámetro|especificáronse $1 parámetros}}",
+	"multimaps-marker-incorrect-icon": "Proporcionouse o nome de ficheiro incorrecto \"$1\" para a icona de marcador.",
+	"multimaps-marker-incorrect-icon-url": "Proporcionouse o enderezo URL incorrecto \"$1\" para a icona de marcador.",
+	"multimaps-marker-incorrect-icon-size": "Proporcionouse o tamaño incorrecto \"$1\" para a icona de marcador \"$2\".",
+	"multimaps-marker-incorrect-icon-anchor": "Proporcionouse a áncora incorrecta \"$1\" para a icona de marcador \"$2\".",
+	"multimaps-marker-incorrect-shadow-file": "Proporcionouse o nome de ficheiro incorrecto \"$1\" para a sombra da icona.",
+	"multimaps-marker-incorrect-shadow-url": "Proporcionouse o enderezo URL incorrecto \"$1\" para a sombra da icona.",
+	"multimaps-marker-incorrect-shadow-size": "Proporcionouse o tamaño incorrecto \"$1\" para a sombra da icona \"$2\".",
+	"multimaps-marker-incorrect-shadow-anchor": "Proporcionouse a áncora incorrecta \"$1\" para a sombra da icona \"$2\".",
+	"multimaps-passed-unavailable-service": "Non se atopou o nome de servizo \"$1\" na lista de servizos dispoñibles ($2). Úsase o servizo por defecto \"$3\"",
+	"multimaps-square-wrong-number-points": "as coordenadas da zona deben conter unicamente dous puntos, pero {{PLURAL:$1|especificouse un punto|especificáronse $1 puntos}}",
+	"multimaps-unable-create-element": "Non se pode crear o elemento de mapa \"$1\"",
+	"multimaps-unable-parse-coordinates": "non se poden analizar as coordenadas xeográficas \"$1\"",
+	"multimaps-unable-parse-parameter": "non se pode analizar o parámetro \"$1\" cuxo valor é \"$2\"",
+	"multimaps-unable-parse-radius": "o radio da circunferencia debe ser un valor numérico, pero especificouse \"$1\"",
+	"multimaps-unknown-class-for-service": "Non se pode atopar a clase \"$1\" definida para o servizo.",
+	"multimaps-unknown-parameter": "Parámetro descoñecido: \"$1\"",
+	"multimaps-error-incorrect-class-for-service": "Non se pode utilizar a clase \"$1\" definida para o servizo.",
+	"multimaps-method-error-unknown-action": "$1: Acción descoñecida",
+	"multimaps-method-error-unexpected-result": "$1: Resultado inesperado dunha función"
+}

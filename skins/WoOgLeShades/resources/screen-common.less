@@ -1,0 +1,547 @@
+/* Common styling for the WoOgleShades skin */
+
+@import 'variables.less';
+
+// Page layout
+
+body {
+	font-family: @fonts;
+	color: @grey5;
+	font-size: 0.975em;
+	background-color: @grey5;
+	color: @grey0;
+}
+
+#mw-wrapper {
+	background-color: @grey6;
+}
+
+#mw-navigation {
+	padding-top: 0.5em;
+}
+
+#p-personal h3 {
+	font-size: 1em;
+}
+
+#searchInput,
+.searchButton {
+	border-radius: 2px;
+	padding: .4em 1em 0.3em;
+	font-size: 0.85em;
+}
+
+#searchInput {
+	border: solid 1px @grey6;
+	background: @grey6;
+	box-shadow: 0 3px 7px inset rgba( 0, 0, 0, 0.15 );
+}
+
+.searchButton {
+	border: solid 1px @grey3;
+	background: @grey5;
+	box-shadow: 0 1px 6px rgba( 0, 1, 0, 0.15 ),
+		0 0 0.5em inset rgba( 0, 0, 0, 0.015 );
+	color: @grey0;
+	font-weight: bold;
+	text-shadow: 0 -2px 0 @grey6;
+	margin-left: 0.25em;
+}
+
+#global-navigation {
+	h3 {
+		margin: 0;
+		font-weight: normal;
+
+		a {
+			color: @grey0;
+		}
+	}
+}
+
+#mw-navigation-outer {
+	background: @grey1;
+	box-shadow: 0 0 2em inset rgba( 0, 0, 0, 0.125 );
+}
+
+#mw-navigation-outer {
+	color: @grey6;
+
+	a {
+		color: @grey6;
+	}
+}
+
+#p-logo {
+	// Make logo image visible
+	// The class sets the background image from $wgLogo, but we still need to give it a size in order to show up
+	a.mw-wiki-logo {
+		display: block;
+		content: '';
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: contain;
+	}
+}
+
+#p-banner {
+	display: inline-block;
+	font-size: 1.125em;
+	margin: 0.25em 0 0 0;
+
+	a {
+		color: @grey0;
+	}
+}
+
+#page-tools {
+	padding-bottom: 1em;
+}
+
+#p-namespaces,
+#p-views {
+	display: inline-block;
+
+	.mw-portlet-body {
+		display: inline-block;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		list-style: none;
+	}
+
+	li {
+		display: inline-block;
+		margin-right: 1.25em;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	h3 {
+		.hidden;
+	}
+}
+
+#page-tools-left,
+#page-tools-right {
+	background: @grey6;
+	display: inline-block;
+	box-shadow: 0 1px 6px rgba( 0, 1, 0, 0.15 ),
+		0 0 1.5em inset rgba( 0, 0, 0, 0.05 );
+	border: 1px @grey3;
+	border-style: none solid solid;
+	border-radius: 0 0 3px 3px;
+	padding: 0.25em 1em;
+}
+
+#page-tools-left {
+	float: left;
+}
+
+#page-tools-right {
+	float: right;
+
+	.mw-portlet > h3 {
+		font-size: 1em;
+		font-weight: normal;
+		display: inline-block;
+	}
+
+	#p-actions,
+	#p-variants,
+	#p-lang {
+		display: inline-block;
+	}
+}
+
+#ca-watch a {
+	.ca-icon( 'images/star' );
+	.ca-icon-only();
+}
+
+#ca-unwatch a {
+	.ca-icon( 'images/star-filled' );
+	.ca-icon-only();
+}
+
+#p-lang > h3,
+#p-variants > h3 {
+	width: 1em;
+	height: 1em;
+	overflow: hidden;
+
+	&:before {
+		content: '';
+		height: 1.6em;
+	}
+}
+
+#p-lang > h3::before {
+	.ca-icon( 'images/languages' );
+}
+
+#p-variants > h3::before {
+	.ca-icon( 'images/variants' );
+}
+
+#siteSub {
+	display: none;
+}
+
+#content .firstHeading {
+	margin: 0;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+#content-outer {
+	padding-bottom: 1.5em;
+}
+
+#content {
+	position: relative;
+	z-index: 1;
+}
+
+#footer-outer-outer {
+	border-top: solid 4px @primarybold-light;
+}
+
+#footer-outer {
+	position: relative;
+	z-index: 0;
+	background: @grey5;
+	color: @grey0;
+	border-top: solid 1px @grey6;
+	box-shadow: 0 15px 20px -10px inset rgba( 0, 0, 0, 0.15 );
+}
+
+#footer {
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+
+	ul,
+	li {
+		margin: 1em 0;
+		list-style: none;
+		padding: 0;
+	}
+
+	ul {
+		font-size: 90%;
+	}
+
+	.footer-icons {
+		float: right;
+		margin: 0 0 0 1em;
+
+		div {
+			margin: 0 0 1em 0;
+		}
+	}
+
+	#footer-places li {
+		display: inline;
+		padding-right: 1em;
+	}
+
+	#lastmod,
+	#credits,
+	#copyright {
+		display: block;
+	}
+}
+
+.mw-body {
+	position: relative;
+	word-wrap: break-word;
+	box-sizing: border-box;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	dt {
+		margin: 1.5em 0 0.25em;
+		font-weight: normal;
+	}
+
+	dt {
+		line-height: 1.125;
+		margin: 1.5em 0 0.5em;
+		margin-bottom: 0.1em;
+	}
+
+	dl {
+		margin: 0.2em 0 0.5em;
+	}
+
+	form dt {
+		margin: 0 0.5em 0 0;
+	}
+
+	h1.firstHeading {
+		margin: 0 0 0.5em;
+		border-bottom: solid 3px @grey2;
+	}
+
+	h1 {
+		font-size: 1.8em;
+		border-bottom: solid 2px @grey4;
+	}
+
+	h2 {
+		font-size: 1.6em;
+		border-bottom: solid 2px @grey4;
+	}
+
+	h3 {
+		font-size: 1.4em;
+	}
+
+	h4 {
+		font-size: 1.2em;
+	}
+
+	h5 {
+		font-size: 1.1em;
+	}
+
+	h6 {
+		font-size: 1em;
+	}
+
+	dt {
+		margin-top: 1em;
+	}
+
+	dd {
+		margin-bottom: 1em;
+	}
+
+	.mw-changeslist-legend dt {
+		margin: 0 0.5em 0 0;
+	}
+
+	.mw-changeslist-legend dd {
+		margin-bottom: 0;
+	}
+
+	/* overflow:hidden on the header itself breaks tall scripts, but we need to hide
+	 * overflow on the border itself in output for proper thumb handling. Too weird to
+	 * change this everywhere, so we'll just do it for parser output for now.
+	 */
+	.mw-parser-output {
+		margin-bottom: 2em;
+
+		h1,
+		h2 {
+			border-bottom: 0;
+
+			&:after {
+				content: '';
+				display: block;
+				border-bottom: solid 2px @grey2;
+				overflow: hidden;
+			}
+		}
+	}
+}
+
+a {
+	text-decoration: none;
+	color: @primarybright;
+
+	&:hover {
+		color: darken( @primarybright, 20% );
+	}
+}
+
+// Some content stuff
+.mw-indicators {
+	float: right;
+	margin: 1.5em 0 0 1em;
+}
+
+.mw-indicator {
+	display: inline-block;
+}
+
+div.magnify a {
+	display: block;
+	text-indent: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 20px;
+	height: 20px;
+	margin: 0 0 0.5em 0.5em;
+	background-image: url( images/magnify-ltr.svg );
+}
+
+pre {
+	overflow: auto;
+	white-space: pre-wrap;
+}
+
+hr {
+	border-width: 1px;
+	border-color: @grey2;
+	border-style: solid none solid none;
+	margin: 0.5em 0;
+}
+
+.center,
+.center * {
+	margin: auto;
+	text-align: center;
+}
+
+.mw-empty-elt {
+	display: none;
+}
+
+.toc,
+.mw-warning {
+	display: table;
+	.box();
+	padding: 1.25em 1.75em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	min-width: 15em;
+}
+
+.toc {
+	line-height: 1.2;
+	padding: 1em;
+
+	ul {
+		list-style: none;
+		text-align: left;
+	}
+
+	li {
+		margin: 0.3em 0;
+
+		&:last-child {
+			margin-bottom: 0.5em;
+		}
+	}
+
+	a {
+		font-size: 90%;
+	}
+}
+
+.toctogglespan {
+	float: right;
+}
+
+.toctogglelabel {
+	color: @grey6;
+
+	&:hover {
+		color: lighten( @primarybright-light, 10% );
+	}
+}
+
+.mw-body .toctitle {
+	background: @grey1;
+	box-shadow: 0 1px 6px rgba( 0, 1, 0, 0.15 ),
+		0 0 1.5em inset rgba( 0, 0, 0, 0.125 ),
+		0 5px 10px rgba( 0, 0, 0, 0.125 );
+	border-radius: 3px 3px 0 0;
+	color: @grey6;
+	margin: -1em -1em 1em;
+	padding: 0.75em 1em 0.3em;
+	border-bottom: solid 3px @primarybold-light;
+
+	h2 {
+		font-size: 1em;
+		margin: 0;
+		display: inline;
+
+		&:after {
+			display: none;
+		}
+	}
+}
+
+#siteNotice {
+	font-size: 95%;
+	margin: 0.5em auto 1.5em;
+}
+
+#localNotice {
+	.box();
+	text-align: center;
+
+	p {
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+}
+
+#catlinks {
+	.box();
+	padding: 0.5em 0.75em;
+}
+
+/* Thumbnails */
+/* @noflip */
+.floatright,
+.tright {
+	margin: 0 0 0.5em 0.5em;
+	padding: 0 0 1em 1.5em;
+}
+
+/* @noflip */
+.floatleft,
+.tleft {
+	margin: 0 0.5em 0.5em 0;
+	padding: 0 1.5em 1em 0;
+}
+
+.thumbinner {
+	.box;
+	box-sizing: content-box;
+	padding: 0.5em;
+	/* Properly center framed thumbnail images (T219717) */
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.thumbcaption {
+	font-size: 90%;
+	padding: 0.5em 0 0;
+	/* For the magnify link on empty captions */
+	min-height: 1em;
+}
+
+.thumbinner .thumbimage,
+.thumbborder {
+	border: solid 1px @grey3;
+}
+
+.mw-body li.gallerybox div.thumb {
+	.box;
+	padding: 0;
+}
+
+textarea {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+// hidden
+#mw-navigation h2,
+#p-search h3 {
+	.hidden;
+}

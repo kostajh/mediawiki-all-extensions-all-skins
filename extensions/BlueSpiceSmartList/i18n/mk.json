@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"bs-smartlist-desc": "Ги прикажува последните пет промени на викито во список",
+	"prefs-smartlist": "Паметен список",
+	"bs-smartlist-recent-changes": "Скорешни промени",
+	"bs-smartlist-no-entries": "Не пронајдов ништо.",
+	"bs-smartlist-invalid-namespaces": "{{PLURAL:$1|Дадениот именски простор е|Дадените именски простори се}} неважечки: $2.",
+	"bs-smartlist-invalid-target": "Укажаната цел не претставува важечки наслов на страница",
+	"bs-smartlist-comment": "Коментар: $1.",
+	"bs-smartlist-sort-asc": "нагорно",
+	"bs-smartlist-sort-desc": "надолно",
+	"bs-smartlist-day": "Ден",
+	"bs-smartlist-week": "Седмица",
+	"bs-smartlist-month": "Месец",
+	"bs-smartlist-time": "Време",
+	"bs-smartlist-title": "Наслов",
+	"bs-smartlist-tag-smartlist-desc": "Прикажува прилагодливи информации за скорешните промени",
+	"bs-smartlist-tag-smartlist-example-rc": "Режим: Скорешни промени",
+	"bs-smartlist-tag-smartlist-example-whatlinkshere": "Режим: Што води овде",
+	"bs-smartlist-tag-newbies-desc": "Ги прикажува најновите корисници.",
+	"bs-smartlist-tag-toplist-desc": "Прикажува список на најпосетуваните страници.",
+	"bs-smartlist-mostvisitedpages": "Најпосетувани страници",
+	"bs-smartlist-mosteditedpages": "Најуредувани страници",
+	"bs-smartlist-mostactiveusers": "Најактивни корисници (по уредувања)",
+	"bs-smartlist-lastedits": "Мои уредувања",
+	"bs-smartlist-noedits": "Не пронајдов уредувања.",
+	"bs-smartlist-mostactiveusersdesc": "Список на најактивни корисници подредени по уредувања.",
+	"bs-smartlist-mosteditedpagesdesc": "Список на најуредувани страници подредени по уредувања.",
+	"bs-smartlist-mostvisitedpagesdesc": "Список на најпосетувани страници подредени по посети.",
+	"bs-smartlist-lasteditsdesc": "Список на страници што сте ги уредиле."
+}

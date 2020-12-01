@@ -1,0 +1,32 @@
+{
+	"name": "mediawiki/linkedwiki",
+	"description": "The LinkedWiki extension allows to print the Linked Data of Wikidata or another source with a SPARQL query on your Mediawiki.",
+	"type": "mediawiki-extension",
+	"require": {
+		"bordercloud/sparql": "dev-master"
+	},
+	"license": "Creative Commons",
+	"authors": [
+		{
+			"name": "Karima Rafes",
+			"email": "karima.rafes@gmail.com"
+		}
+	],
+	"require-dev": {
+		"mediawiki/mediawiki-codesniffer": "33.0.0",
+		"mediawiki/minus-x": "1.1.0",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"minus-x check .",
+			"phpcs -p -s"
+		],
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		]
+	}
+}

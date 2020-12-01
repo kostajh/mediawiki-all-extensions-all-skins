@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Diki Ananta",
+			"Sumbukompor"
+		]
+	},
+	"logentry-append": "Tambah",
+	"logentry-parserhook-desc": "Pengaya tag ini menyediakan sebuah formulir untuk menambahkan catatan ke halaman log",
+	"logentry-specialpage-desc": "Pengaya tag ini menyediakan proses untuk menambahkan catatan ke halaman log",
+	"logentry": "LogEntry",
+	"logentry-invalidpage": "Halaman tidak sah: $1",
+	"logentry-invalidtoken": "Token tidak sah"
+}

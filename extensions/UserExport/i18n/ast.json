@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"userexport-desc": "Permite esportar datos del usuariu a un ficheru CSV",
+	"userexport": "Esportar datos de los usuarios",
+	"userexport-submit": "Esportar",
+	"userexport-badtoken": "Pase d'edición inválidu",
+	"userexport-description": "Esta páxina permite esportar datos de los usuarios (nome y corréu del usuariu) de tolos usuarios rexistraos d'esta wiki a un ficheru CSV",
+	"right-userexport": "Esportar en masa los datos d'usuarios",
+	"action-userexport": "esportar datos d'usuarios d'esta wiki"
+}

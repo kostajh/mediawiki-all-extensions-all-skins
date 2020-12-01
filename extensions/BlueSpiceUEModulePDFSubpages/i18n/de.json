@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.biz>",
+			"Tobias Weichart <weichart@hallowelt.biz>"
+		]
+	},
+	"bs-uemodulepdfsubpages-extension-description": "Ermöglicht die Ausgabe von Artikeln und Unterartikeln im PDF Format.",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-text": "PDF Seite mit Unterseiten",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-title": "Diese und alle Unterseiten im PDF Format ausgeben.",
+	"action-uemodulepdfsubpages-export": "eine Seite inklusive aller Unterseiten nach PDF zu exportieren",
+	"right-uemodulepdfsubpages-export": "Eine Seite inklusive aller Unterseiten nach PDF exportieren"
+}

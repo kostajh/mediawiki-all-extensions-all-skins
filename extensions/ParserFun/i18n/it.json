@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"parserfun-desc": "Aggiunge una funzione parser <code>#parse</code> per l'analisi del wikitesto ed introduce il prefisso <code>THIS:</code> per le informazioni della pagina relative alle variabili",
+	"parserfun-invalid-caller-mode": "Nessun modo operativo valido o indice numerico indicato."
+}

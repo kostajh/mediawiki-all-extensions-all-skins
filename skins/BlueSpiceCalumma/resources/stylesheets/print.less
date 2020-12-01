@@ -1,0 +1,86 @@
+body.mediawiki:not( .navigation-main-collapse ):not( .sitetools-main-collapse ),
+body.mediawiki.navigation-main-collapse:not( .sitetools-main-collapse ),
+body.mediawiki.sitetools-main-collapse:not( .navigation-main-collapse ),
+body.mediawiki.navigation-main-collapse.sitetools-main-collapse {
+	nav.bs-custom-menu-header-container,
+	a.bs-custom-menu-header-button {
+		display: none;
+	}
+
+	header.main-header {
+		display: none;
+	}
+
+	#bs-top {
+		display: none;
+	}
+
+	.sidebar-toggle,
+	.bs-mobile-more-menu-button {
+		display: none;
+	}
+
+	aside.navigation-main,
+	aside.sitetools-main {
+		display: none;
+	}
+
+	.content-wrapper {
+		padding-left: 0px;
+		padding-top: 0px;
+		margin-left: 0px;
+		margin-top: 0px;
+
+		.bs-content.container {
+			padding-left: 0px;
+			padding-top: 0px;
+			margin-left: 0px;
+			margin-top: 0px;
+			width: 100%;
+		}
+
+		.loader-indicator {
+			display: none;
+		}
+
+		.bs-data-before-content,
+		.bs-data-after-content {
+			display: none;
+		}
+
+		#content {
+			padding-top: 10px;
+
+		}
+
+		footer  {
+			display: none;
+		}
+	}
+
+	/**
+	Here we are overriding the Bootstrap property that puts value of the link in parentheses
+	(more info: https://makandracards.com/makandra/29149-bootstrap-how-to-avoid-printing-link-urls)
+	(of course, stackoverflow: https://stackoverflow.com/questions/7301989/need-to-remove-href-values-when-printing-in-chrome)
+	 */
+	a[href]:after {
+		content: none !important;
+	}
+
+	.bs-mobile-featured-actions-button {
+		display: none;
+	}
+
+	.bs-page-breadcrumbs, .bs-page-namespaces {
+		display: none;
+	}
+	.bs-category-container-categories, .bs-category-add-category {
+		display: none;
+	}
+	#ca-watch, #ca-unwatch {
+		display: none;
+	}
+	.bs-page-info-element {
+		display: none;
+	}
+}

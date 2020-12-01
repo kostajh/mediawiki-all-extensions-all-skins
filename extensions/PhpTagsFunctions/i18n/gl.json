@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"phptagsfunctions-desc": "Inclúe as funcións internas do PHP nativo para a extensión PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "O delimitador non pode ser un carácter alfanumérico nin unha barra invertida",
+	"phptagsfunctions-preg-no-ending-delimiter": "Non se atopou o delimitador de fin \"$1\"",
+	"phptagsfunctions-preg-unknown-modifier": "Descoñécese o modificador \"$1\""
+}

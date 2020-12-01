@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Karl Wettin"
+		]
+	},
+	"wikispeech-speech-data-collector": "Wikispeech Speech Data Collector",
+	"wikispeech-speech-data-collector-desc": "A tool to record, review and annotate spoken voices.",
+	"right-wikispeech-speech-data-collector-record": "Record voice",
+	"action-wikispeech-speech-data-collector-record": "Record voice"
+}

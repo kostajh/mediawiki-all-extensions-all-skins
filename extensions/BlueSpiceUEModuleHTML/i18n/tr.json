@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "HTML'ye dışa aktarımı etkinleştirir",
+	"bs-uemodulehtml-pref-DefaultTemplate": "Standart şablon",
+	"bs-uemodulehtml-pref-SuppressNS": "HTML'de ad alanı önekini gizle",
+	"bs-uemodulehtml-pref-Backend": "Arka uç",
+	"bs-uemodulehtml-widgetlink-single-text": "HTML tek sayfa (arşivlendi)",
+	"bs-uemodulehtml-widgetlink-single-title": "Bu sayfayı, kaynak olarak arşiv olarak HTML olarak dışa aktar",
+	"bs-uemodulehtml-overview-title": "HTML belgesi (arşivlendi)",
+	"bs-uemodulehtml-overview-description": "Sayfaları (SpecialPages ve ContenPages) HTML'ye dışa aktarır."
+}

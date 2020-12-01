@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo"
+		]
+	},
+	"dynamicpagelistengine-desc": "Fornece listas dinámicas de páxinas con características configurables e extensibles para os [https://www.mediawiki.org/wiki/Extension:Scribunto módulos] e outras extensións",
+	"dple-tracking-category": "Páxinas que usan DynamicPageListEngine",
+	"dple-error-invalid-ns-index": "Erro de DynamicPageListEngine: Non existe un espazo de nomes con índice $1.",
+	"dple-error-no-criteria": "Erro de DynamicPageListEngine: Non se especificaron criterios de selección.",
+	"dple-error-too-expensive": "Erro de DynamicPageListEngine: Tentouse executar unha consulta costosa con $1 táboas de base de datos unidas, cando se permite só un máximo de $2.",
+	"dple-error-too-many-expensive-functions": "Erro de DynamicPageListEngine: Demasiadas funcións costosas utilizadas nesta páxina."
+}

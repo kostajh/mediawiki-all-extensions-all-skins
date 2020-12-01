@@ -1,0 +1,77 @@
+{
+	"name": "PageViewInfo",
+	"license-name": "GPL-3.0-or-later",
+	"author": [
+		"Kunal Mehta",
+		"Gergő Tisza"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PageViewInfo",
+	"descriptionmsg": "pvi-desc",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"Hooks": {
+		"InfoAction": [
+			"MediaWiki\\Extensions\\PageViewInfo\\Hooks::onInfoAction"
+		],
+		"ApiQuery::moduleManager": [
+			"MediaWiki\\Extensions\\PageViewInfo\\Hooks::onApiQueryModuleManager"
+		],
+		"APIQuerySiteInfoGeneralInfo": [
+			"MediaWiki\\Extensions\\PageViewInfo\\Hooks::onAPIQuerySiteInfoGeneralInfo"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extensions\\PageViewInfo\\": "includes/"
+	},
+	"MessagesDirs": {
+		"PageViewInfo": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ResourceModules": {
+		"ext.pageviewinfo": {
+			"scripts": [
+				"ext.pageviewinfo.js"
+			],
+			"messages": [
+				"pvi-close",
+				"pvi-range"
+			],
+			"dependencies": [
+				"ext.graph.vega2",
+				"oojs-ui"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "PageViewInfo/resources"
+	},
+	"ConfigRegistry": {
+		"PageViewInfo": "GlobalVarConfig::newInstance"
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"config": {
+		"PageViewInfoWikimediaEndpoint": {
+			"value": "https://wikimedia.org/api/rest_v1",
+			"description": "URL of the Wikimedia Pageview API - see https://wikitech.wikimedia.org/wiki/Analytics/PageviewAPI"
+		},
+		"PageViewInfoWikimediaDomain": {
+			"value": false,
+			"description": "Domain name to request data for from the Wikimedia Pageview API, or false to fall back to $wgServerName. This is mainly meant for testing."
+		},
+		"PageViewInfoWikimediaRequestLimit": {
+			"value": 5,
+			"description": "Max number of calls to make to the Wikimedia Pageview API in a single request (false for unlimited)."
+		},
+		"PageViewApiMaxDays": {
+			"value": 60,
+			"description": "Max number of days to return in the API."
+		}
+	},
+	"manifest_version": 2
+}

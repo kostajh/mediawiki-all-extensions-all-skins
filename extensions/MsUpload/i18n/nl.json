@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elroy",
+			"FabianRM",
+			"Mainframe98",
+			"Romaine",
+			"Sjoerddebruin"
+		]
+	},
+	"msu-desc": "Staat enkele of meerdere gelijktijdige uploads toe",
+	"msu-button-title": "Selecteer bestanden",
+	"msu-insert-link": "Koppeling invoegen",
+	"msu-insert-gallery": "Voeg in als galerij",
+	"msu-insert-files": "Voeg alle in als bestanden",
+	"msu-insert-links": "Voeg alle in als links",
+	"msu-insert-image": "Voeg in als afbeelding",
+	"msu-insert-video": "Video invoegen",
+	"msu-cancel-upload": "Uploaden annuleren",
+	"msu-continue": "Toch doorgaan?",
+	"msu-clean-all": "Lijst wissen",
+	"msu-ext-not-allowed": "Alleen {{PLURAL:$1|het volgende bestandstype is|de volgende bestandstypen zijn}} toegestaan:",
+	"msu-upload-this": "Dit bestand uploaden",
+	"msu-upload-all": "Alle bestanden uploaden",
+	"msu-upload-good": "$1 van $2 bestanden plaatsen",
+	"msu-dropzone": "Sleep hier bestanden heen",
+	"msu-comment": "Bestand is geüpload met MsUpload"
+}

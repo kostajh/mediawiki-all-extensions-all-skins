@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Jack Phoenix",
+			"Linnea",
+			"Pyscowicz",
+			"SuperPete"
+		]
+	},
+	"nimbus-desc": "Nimbus-ulkoasu",
+	"nimbus-advertise": "Mainosta",
+	"nimbus-contribute": "Muokkaa",
+	"nimbus-didyouknow": "Tiesitkö, että...",
+	"nimbus-editthispage": "Muokkaa tätä sivua",
+	"nimbus-featuredimage": "Suositeltu kuva",
+	"nimbus-featureduser": "Suositeltu käyttäjä",
+	"nimbus-login": "Kirjaudu sisään",
+	"nimbus-logout": "Kirjaudu ulos?",
+	"nimbus-more-actions": "Lisää toimintoja",
+	"nimbus-more-wikis": "Lisää wikejä",
+	"nimbus-pages-can-be-edited": "Tätä sivua voi muokata.<br />\nPuuttuuko sivulta jotain tai onko siinä virheitä?<br />\n<strong>Muokkaa sivua!</strong>",
+	"nimbus-profile": "Profiili",
+	"nimbus-recent-contributors": "Tämän sivun tuoreimmat muokkaajat",
+	"nimbus-recent-contributors-info": "Seuraavat henkilöt ovat muokanneet tätä artikkelia äskettäin.",
+	"nimbus-signup": "Rekisteröidy",
+	"nimbus-welcome": "{{GENDER:$2|Tervetuloa}} $1"
+}

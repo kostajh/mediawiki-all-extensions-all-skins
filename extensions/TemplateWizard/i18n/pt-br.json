@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"templatewizard-add-all": "Acrescentar todos os parâmetros",
+	"templatewizard-cancel": "Cancelar",
+	"templatewizard-close-dialog": "Sair do assistente?",
+	"templatewizard-close-dialog-body": "Sair do assistente resultará na perda dos dados que tenha adicionado à predefinição.",
+	"templatewizard-close-dialog-retry": "Descartar alterações",
+	"templatewizard-default": "Padrão: $1",
+	"templatewizard-desc": "Um suplemento para o WikiEditor que fornece um assistente de inserção de predefinições",
+	"templatewizard-dialog-title": "Inserir uma predefinição",
+	"templatewizard-help": "Saiba mais sobre o Assistente de Predefinições",
+	"templatewizard-help-title": "Leia as páginas de ajuda do Assistente de Predefinições em MediaWiki.org",
+	"templatewizard-insert": "Inserir",
+	"templatewizard-invalid-title": "Título inválido",
+	"templatewizard-invalid-values": "Uma ou mais das suas entradas não correspondem ao formato esperado. Você deseja editá-lo?",
+	"templatewizard-invalid-values-edit": "Editar predefinição",
+	"templatewizard-invalid-values-insert": "Inserir uma predefinição",
+	"templatewizard-no-description": "Não existe nenhuma descrição para esta predefinição.",
+	"templatewizard-no-params-with-td": "Não foi definido nenhum parâmetro na documentação [$1 TemplateData] desta predefinição. Pode inserir a predefinição sem parâmetros.",
+	"templatewizard-no-params-without-td": "Não foi possível determinar se esta predefinição tem parâmetros, devido à ausência de documentação [$1 TemplateData]. Pode inserir a predefinição sem parâmetros.",
+	"templatewizard-no-templatedata": "A predefinição  [$1 TemplateData] não pode ser usada no assistente de predefinições porque <strong>não tem etiquetas de  dados de predefinição. Corrija e tente novamente, por favor. Se acredita que encontrou um defeito, diga-nos na  página de ajuda.",
+	"templatewizard-opens-in-new-tab": "Abre numa aba nova",
+	"templatewizard-parameters-optional": "Parâmetros opcionais",
+	"templatewizard-parameters-required": "Parâmetros obrigatórios",
+	"templatewizard-parameters-suggested": "Parâmetros sugeridos",
+	"templatewizard-placeholder-default": "Padrão: $1",
+	"templatewizard-placeholder-example": "ex.: $1",
+	"templatewizard-remove-all": "Remover todos os parâmetros",
+	"templatewizard-remove-template": "Remover a predefinição?",
+	"templatewizard-remove-template-body": "A predefinição que está tentando remover contém dados que você introduziu. Remover a predefinição também removerá a informação que adicionou à predefinição. Esta operação é irreversível.",
+	"templatewizard-remove-template-retry": "Remover predefinição",
+	"templatewizard-search-placeholder": "Procurar uma predefinição",
+	"templatewizard-parambutton-add-title": "Adicione o parâmetro '$1'",
+	"templatewizard-parambutton-remove-title": "Remova o parâmetro '$1'",
+	"templatewizard-parambutton-required-title": "Parâmetro obrigatório '$1'",
+	"templatewizard-remove-template-title": "Remover predefinição",
+	"templatewizard-link-to-template-title": "Ver a predefinição",
+	"templatewizard-use": "Usar"
+}

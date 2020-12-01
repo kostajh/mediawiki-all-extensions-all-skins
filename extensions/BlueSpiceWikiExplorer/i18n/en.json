@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sebastian Ulbricht",
+			"Markus Glaser",
+			"Robert Vogel",
+			"Patric Wirth"
+		]
+	},
+	"bs-wikiexplorer-extension-description": "Sort articles by criteria",
+	"wikiexplorer": "WikiExplorer",
+	"bs-wikiexplorer-page-title": "Title",
+	"bs-wikiexplorer-page-namespace": "Namespace",
+	"bs-wikiexplorer-creation-date": "Creation date",
+	"bs-wikiexplorer-is-redirect": "Is redirect",
+	"bs-wikiexplorer-last-comment": "Last comment",
+	"bs-wikiexplorer-last-edit-time": "Last edit date",
+	"bs-wikiexplorer-page-size": "Size",
+	"bs-wikiexplorer-last-author": "Last editor",
+	"bs-wikiexplorer-categories": "Categories",
+	"bs-wikiexplorer-linked-files": "Linked files",
+	"bs-wikiexplorer-linked-pages": "Linked pages",
+	"apihelp-bs-wikiexplorer-store-description": "Provides all data for the extension WikiExplorer",
+	"apihelp-bs-wikiexplorer-store-param-metaLoaded": "API parameter to indicate whether the MetaData has already been loaded.",
+	"apihelp-bs-wikiexplorer-store-summary": "Provides all data for the extension WikiExplorer"
+}

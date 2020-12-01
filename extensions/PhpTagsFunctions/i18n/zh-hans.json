@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"phptagsfunctions-desc": "实现用于PhpTags的本地PHP内部功能",
+	"phptagsfunctions-preg-bad-delimiter": "分隔符不得为字母、数字或反斜杠",
+	"phptagsfunctions-preg-no-ending-delimiter": "未找到结束分隔符“$1”",
+	"phptagsfunctions-preg-unknown-modifier": "未知修饰符“$1”"
+}

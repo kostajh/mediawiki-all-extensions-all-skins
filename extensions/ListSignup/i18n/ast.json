@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"listsignup": "Llista d'inscripciones",
+	"listsignup-desc": "Formulariu personalizáu de llista d'inscripciones",
+	"listsignup-legend": "Escribe la to información de siguío.",
+	"listsignup-success": "Unvióse la to dirección de corréu.",
+	"listsignupdisplay": "Amosar la llista d'inscripciones",
+	"listsignuppurge": "Depurar la llista d'inscripciones",
+	"listsignuppurge-legend": "Depurar tola información de la llista d'inscripciones",
+	"listsignuppurge-pretext": "'''¡Atención!''' Esto va desaniciar toles direcciones de la llista. Esta aición nun puede desfacese.",
+	"listsignuppurge-success": "¡Depuróse la llista!",
+	"right-viewlistsignupdisplay": "Ver la llista d'inscripciones",
+	"right-purgelistsignupdisplay": "Depurar la llista d'inscripciones",
+	"action-viewlistsignupdisplay": "ver la llista d'inscripciones",
+	"action-purgelistsignupdisplay": "depurar la llista d'inscripciones"
+}

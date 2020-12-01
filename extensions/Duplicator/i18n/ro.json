@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andrei Stroe",
+			"KlaudiuMihaila",
+			"Stelistcristi"
+		]
+	},
+	"duplicator": "Duplică o pagină",
+	"duplicator-toolbox": "Duplică această pagină",
+	"duplicator-options": "Opțiuni",
+	"duplicator-source": "Sursă:",
+	"duplicator-dest": "Destinație:",
+	"duplicator-dotalk": "Duplică pagina de discuții (dacă este cazul)",
+	"duplicator-submit": "Duplică",
+	"duplicator-summary": "Copiat de la [[$1]], versiunea [[$2]]",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|versiune a fost|versiuni au fost}} copiate.",
+	"duplicator-success-talknotcopied": "Pagina de discuții nu a putut fi copiată.",
+	"duplicator-failed": "Pagina nu a putut fi duplicată.\nA apărut o eroare necunoscută.",
+	"right-duplicate": "Duplică pagini"
+}

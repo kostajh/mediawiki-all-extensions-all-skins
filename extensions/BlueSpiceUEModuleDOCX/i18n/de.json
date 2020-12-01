@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.biz>"
+		]
+	},
+	"bs-uemoduledocx-extension-description": "Ermöglicht das Exportieren nach DOCX",
+	"bs-uemoduledocx-pref-SuppressNS": "Namensraum im DOCX ausblenden",
+	"bs-uemoduledocx-widgetlink-single-text": "DOCX Einzelseite",
+	"bs-uemoduledocx-widgetlink-single-title": "Diese Seite im DOCX Format ausgeben.",
+	"bs-uemoduledocx-overview-title": "Microsoft&reg; Office Open XML (DOCX)",
+	"bs-uemoduledocx-overview-description": "Exportiert Seiten ins Microsoft DOCX Format.",
+	"bs-uemoduledocx-overview-webservice-state-not-ok": "nicht erreichbar",
+	"bs-uemoduledocx-overview-webservice-state-ok": "erreichbar",
+	"bs-uemoduledocx-overview-webservice-webadmin": "DOCXService (BShtml2DOCX) Webinterface",
+	"bs-uemoduledocx-overview-webservice-state": "Status des DOCXService (BShtml2DOCX)"
+}

@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Joseph",
+			"Karduelis",
+			"MuratTheTurkish",
+			"TmY e12",
+			"ToprakM"
+		]
+	},
+	"closewikis-desc": "Viki çiftliklerindeki viki sitelerini kapatmaya izin verir",
+	"closewikis-page": "Vikiyi kapat",
+	"closewikis-page-close": "Vikiyi kapat",
+	"closewikis-page-close-wiki": "Viki:",
+	"closewikis-page-close-dreason": "Sebep (gösterilen):",
+	"closewikis-page-close-reason": "Sebep (günlüklenmiş):",
+	"closewikis-page-close-submit": "Kapat",
+	"closewikis-page-close-success": "Viki kapatıldı",
+	"closewikis-page-reopen": "Vikiyi yeniden aç",
+	"closewikis-page-reopen-wiki": "Viki:",
+	"closewikis-page-reopen-reason": "Sebep:",
+	"closewikis-page-reopen-submit": "Yeniden aç",
+	"closewikis-page-reopen-success": "Viki yeniden açıldı",
+	"closewikis-page-err-nowiki": "Geçersiz viki belirtildi",
+	"closewikis-page-err-closed": "Viki zaten kapalı",
+	"closewikis-page-err-opened": "Viki kapalı değil",
+	"closewikis-list": "Kapalı viki listesi",
+	"closewikis-list-intro": "Bu liste, kâhyalar tarafından kapatılan vikileri içerir.",
+	"closewikis-list-header-wiki": "Viki",
+	"closewikis-list-header-by": "Kapatan",
+	"closewikis-list-header-timestamp": "Kapatılma tarihi",
+	"closewikis-list-header-dispreason": "Gösterilen sebep",
+	"closewikis-log": "Viki kapatma günlüğü",
+	"closewikis-log-header": "Bu, kâhyalar tarafından yapılan tüm viki kapatma ve tekrar açmalarının günlüğüdür",
+	"closewikis-log-close": "$2 vikisi kapatıldı",
+	"closewikis-log-reopen": "$2 vikisi yeniden açtı",
+	"action-editclosedwikis": "kapalı vikileri düzenle",
+	"right-editclosedwikis": "Kapalı vikileri düzenle",
+	"action-closewikis": "vikileri kapat",
+	"right-closewikis": "Vikileri kapat"
+}

@@ -1,0 +1,66 @@
+{
+	"name": "Google AdSense",
+	"namemsg": "googleadsense-extensionname",
+	"version": "3.0.0",
+	"author": [
+		"Siebrand Mazeland",
+		"Zoranzoki21"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Google_AdSense",
+	"descriptionmsg": "googleadsense-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"GoogleAdSense": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"GoogleAdSense": "GoogleAdSense.class.php"
+	},
+	"ResourceModules": {
+		"ext.googleadsense": {
+			"styles": "resources/ext.googleadsense.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "GoogleAdSense"
+	},
+	"Hooks": {
+		"SkinBuildSidebar": "GoogleAdSense::GoogleAdSenseInSidebar"
+	},
+	"config": {
+		"GoogleAdSenseClient": {
+			"value": "none"
+		},
+		"GoogleAdSenseSlot": {
+			"value": "none"
+		},
+		"GoogleAdSenseID": {
+			"value": "none"
+		},
+		"GoogleAdSenseWidth": {
+			"value": 120
+		},
+		"GoogleAdSenseHeight": {
+			"value": 240
+		},
+		"GoogleAdSenseLang": {
+			"value": "en"
+		},
+		"GoogleAdSenseEncoding": {
+			"value": "utf8"
+		},
+		"GoogleAdSenseSrc": {
+			"value": "//pagead2.googlesyndication.com/pagead/show_ads.js"
+		},
+		"GoogleAdSenseAnonOnly": {
+			"value": false
+		}
+	},
+	"manifest_version": 2
+}

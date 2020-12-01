@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-socialcomments-desc": "Funzione de commende pe BlueSpiceSocial",
+	"bs-socialcomments-type": "Commende",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Commende}} ($1)",
+	"bs-socialcomments-header-create": "Commende",
+	"bs-socialcomments-header": "[[User:$1|$2]] ave commendate \"[[$6|$7]]\"",
+	"bs-socialcomments-var-commentcount": "Condegge de le commende",
+	"echo-category-title-bs-social-comment-cat": "Commende sus a le endità condrollate",
+	"bs-social-notifications-comment-create": "L'utende {{GENDER:$1|$2 ave fatte}} 'nu commende nuève",
+	"bs-social-notifications-email-comment-create-subject": "L'utende {{GENDER:$1|$2 ave fatte}} 'nu commende nuève",
+	"bs-social-notifications-email-comment-create-body": "L'utende {{GENDER:$1|$2 ave commendate}} 'nu messàgge da $3 cu stu teste:\n\n$4",
+	"bs-social-notifications-web-comment-create-body": "L'utende {{GENDER:$1|$2 ave commendate}} 'nu messàgge da $3",
+	"bs-social-notifications-comment-edit": "L'utende {{GENDER:$1|$2 ave cangiate}} 'nu commende",
+	"bs-social-notifications-email-comment-edit-subject": "L'utende {{GENDER:$1|$2 ave cangiate}} 'nu commende",
+	"bs-social-notifications-email-comment-edit-body": "L'utende {{GENDER:$1|$2 ave cangiate}} 'nu commende sus a 'nu messàgge da $3. 'U commende nuève jè:\n$4",
+	"bs-social-notifications-web-comment-edit-body": "L'utende {{GENDER:$1|$2 ave cangiate}} 'nu commende sus a 'nu messàgge da $3.",
+	"bs-social-notifications-comment-delete": "L'utende {{GENDER:$1|$2 ave scangellate}} 'nu commende",
+	"bs-social-notifications-email-comment-delete-subject": "L'utende {{GENDER:$1|$2 ave scangellate}} 'nu commende",
+	"bs-social-notifications-email-comment-delete-body": "L'utende {{GENDER:$1|$2 ave scangellate}} 'nu commende sus a 'u messàgge da $3",
+	"bs-social-notifications-web-comment-delete-body": "L'utende {{GENDER:$1|$2 ave scangellate}} 'nu commende sus a 'u messàgge da $3",
+	"bs-social-notifications-comment-owner-create": "L'utende {{GENDER:$1|$2 ave fatte}} 'nu commende sus a 'u messàgge tune",
+	"bs-social-notifications-email-comment-owner-create-subject": "L'utende {{GENDER:$1|$2 ave fatte}} 'nu commende sus a 'u messàgge tune",
+	"bs-social-notifications-email-comment-owner-create-body": "L'utende {{GENDER:$1|$2 ave commendate}} 'nu messàgge tune cu stu teste:\n$3",
+	"bs-social-notifications-web-comment-owner-create-body": "L'utende {{GENDER:$1|$2 ave commendate}} 'nu messàgge tune",
+	"bs-social-notifications-comment-owner-edit": "L'utende {{GENDER:$1|$2 ave cangiate}} 'nu commende sus a 'u messàgge tune",
+	"bs-social-notifications-email-comment-owner-edit-subject": "L'utende {{GENDER:$1|$2 ave cangiate}} 'nu commende sus a 'u messàgge tune",
+	"bs-social-notifications-email-comment-owner-edit-body": "L'utende {{GENDER:$1|$2 ave cangiate}} 'nu commende sus a 'u messàgge tune. 'U commende nuève jè:\n$3",
+	"bs-social-notifications-web-comment-owner-edit-body": "L'utende {{GENDER:$1|$2 ave cangiate}} 'nu commende sus a 'u messàgge tune",
+	"bs-social-notifications-comment-owner-delete": "L'utende {{GENDER:$1|$2 ave scangellate}} 'nu commende sus a 'u messàgge tune",
+	"bs-social-notifications-email-comment-owner-delete-subject": "L'utende {{GENDER:$1|$2 ave scangellate}} 'nu commende sus a 'u messàgge tune",
+	"bs-social-notifications-email-comment-owner-delete-body": "L'utende {{GENDER:$1|$2 ave scangellate}} 'nu commende sus a 'u messàgge tune",
+	"bs-social-notifications-web-comment-owner-delete-body": "L'utende {{GENDER:$1|$2 ave scangellate}} 'nu commende sus a 'u messàgge tune",
+	"bs-social-notifications-comment-owner-edit-bundle": "Le commende sus a 'u messàgge tune onne state cangiate {{PLURAL:$1|$1 vote}}",
+	"bs-social-notification-comment-primary-link-label": "'Ndruche 'u commende",
+	"bs-social-notification-comment-parentowner-label": "ccrejatore d'u messàgge: $1",
+	"bs-social-notification-comment-parententity-label": "'Ndruche 'u messàgge"
+}

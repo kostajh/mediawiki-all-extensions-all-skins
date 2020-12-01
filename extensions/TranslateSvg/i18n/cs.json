@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Clon",
+			"Vks"
+		]
+	},
+	"translate-taskui-export-as-svg": "Uložte zpět do původní SVG souboru",
+	"translate-svg-nodesc": "(Popis souboru nebyl poskytnut.)",
+	"translate-svg-thumbnail": "Původní soubor",
+	"translate-svg-js-thumbnail": "(náhled se aktualizuje automaticky)",
+	"translate-page-description-legend-svgmg": "Informace o tomto souboru",
+	"translate-taction-mstats-svgmg": "Statistiky souboru",
+	"translate-taction-export-svgmg": "Nahrát aktualizovanou verzi souboru",
+	"translate-svg-table-header": "Identifikátor zprávy",
+	"translate-svg-filepage-caption": "Tento obraz je vykreslen jako PNG v těchto dalších jazycích: $1",
+	"translate-svg-filepage-edit": "upravit",
+	"translate-svg-filepage-finish": "dokončit",
+	"translate-svg-filepage-another": "další jazyk",
+	"translate-svg-filepage-other": "jiné jazyky",
+	"translate-svg-filepage-invite": "Tento soubor může být snadno přeložen do $1",
+	"translate-svg-chooselanguage-title": "Výběr jazyka",
+	"translate-svg-chooselanguage-desc": "Prosím zvolte jazyk, do kterého chcete přeložit tento SVG souborů:",
+	"translate-svg-instructions-title": "První překlad SVG souboru tímto způsobem?",
+	"translate-svg-new-title": "překlad SVG",
+	"translate-svg-new-label": "Jazyk:",
+	"translate-js-properties-legend": "Vlastnosti",
+	"translate-js-label-x": "souřadnice x:",
+	"translate-js-label-y": "souřadnice y:",
+	"translate-js-label-color": "Barva:",
+	"translate-js-label-font-family": "Písmo:",
+	"translate-js-label-bold": "Tučně",
+	"translate-js-label-italic": "Kurzíva",
+	"translate-js-label-underline": "Podtržení"
+}

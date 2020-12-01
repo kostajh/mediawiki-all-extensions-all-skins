@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player",
+			"Aefgh39622",
+			"Shirayuki",
+			"つぶあん派"
+		]
+	},
+	"bs-smartlist-desc": "ウィキの最近の変更を 5 件列挙する",
+	"prefs-smartlist": "スマート リスト",
+	"bs-smartlist-recent-changes": "最近の更新",
+	"bs-smartlist-no-entries": "見つかりませんでした。",
+	"bs-smartlist-invalid-namespaces": "指定した{{PLURAL:$1|名前空間}}は無効です: $2",
+	"bs-smartlist-comment": "コメント: $1。",
+	"bs-smartlist-sort-asc": "昇順",
+	"bs-smartlist-sort-desc": "降順",
+	"bs-smartlist-day": "日",
+	"bs-smartlist-week": "週",
+	"bs-smartlist-month": "月",
+	"bs-smartlist-time": "時刻",
+	"bs-smartlist-tag-newbies-desc": "ウィキの新しい利用者を表示します。リストは特定の数に制限することができます。",
+	"bs-smartlist-tag-toplist-desc": "最も訪問されたページを表示します。いくつかのパラメータで制限することができます。",
+	"bs-smartlist-mostvisitedpages": "最も閲覧されているページ",
+	"bs-smartlist-mosteditedpages": "最も編集されているページ",
+	"bs-smartlist-lastedits": "自分の編集",
+	"bs-smartlist-noedits": "編集が見つかりません。"
+}

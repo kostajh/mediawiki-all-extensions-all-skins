@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"AVIADOR",
+			"Agusbou2015",
+			"Fitoschido",
+			"Macofe",
+			"Ryo567"
+		]
+	},
+	"bs-saferedit-desc": "Proporciona advertencias si otros usuarios están editando la página",
+	"bs-saferedit-user-editing": "$1 está {{GENDER:$1|editando}} la página",
+	"bs-saferedit-someone-editing": "La página se está editando",
+	"bs-saferedit-pref-interval": "Intervalo de la versión de recuperación:",
+	"bs-saferedit-pref-shownameofeditinguser": "Mostrar el nombre del editor actual"
+}

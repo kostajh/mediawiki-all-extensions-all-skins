@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ankry",
+			"Beau",
+			"BeginaFelicysym",
+			"Chrumps",
+			"Jacenty359",
+			"Odder",
+			"Odie2",
+			"Olgak85",
+			"Przemub",
+			"Rzuwig",
+			"Woytecr"
+		]
+	},
+	"openstackmanager-desc": "Pozwala użytkownikom na zarządzanie Nova i Swift",
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Zarządzanie swoimi publicznymi kluczami SSH",
+	"specialpages-group-nova": "OpenStack Nova",
+	"openstackmanager-novakey": "Klucz Nova",
+	"openstackmanager-delete": "usuń",
+	"openstackmanager-actions": "Akcje",
+	"openstackmanager-notloggedin": "Wymagane logowanie",
+	"openstackmanager-mustbeloggedin": "Użytkownik musi być zalogowany do wykonania tej operacji.",
+	"openstackmanager-novapublickey": "Klucz publiczny SSH:",
+	"openstackmanager-prefs-novapublickey": "Klucze publiczne SSH:",
+	"openstackmanager-deletekey": "Usuń publiczny klucz SSH",
+	"openstackmanager-keylist": "Lista publicznych kluczy SSH",
+	"openstackmanager-addkey": "Dodaj publiczny klucz SSH",
+	"openstackmanager-name": "Nazwa",
+	"openstackmanager-fingerprint": "Odcisk palca",
+	"openstackmanager-keys": "Klucze",
+	"prefs-openstack": "OpenStack",
+	"prefs-openstack-keys": "Lista kluczy"
+}

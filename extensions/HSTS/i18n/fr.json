@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Seb35"
+		]
+	},
+	"hsts-desc": "HSTS (HTTP Strict Transport Security) configurable par utilisateur",
+	"hsts-tog": "Activer HTTP Strict Transport Security (HSTS)",
+	"hsts-https-tog": "Activer HTTP Strict Transport Security (HSTS)<br />Rechargez cette page avec HTTPS pour changer cette préférence",
+	"hsts-beta-feature-message": "Toujours utiliser une connexion sécurisée",
+	"hsts-beta-feature-description": "Ceci renforce votre sécurité sur ce site web en gardant une connexion sécurisée même après que vous vous soyez déconnecté et vous assure que personne ne peut vous espionner pendant votre navigation. Lorsque cette option est activée et que vous utilisez un navigateur récent avec cette technologie (HSTS), toute alerte de sécurité est très probablement une vraie attaque contre vous."
+}

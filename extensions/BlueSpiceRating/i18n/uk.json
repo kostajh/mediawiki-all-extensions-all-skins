@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Vlad5250",
+			"Ата"
+		]
+	},
+	"bs-rating-extension-description": "Надає рейтингову систему",
+	"bs-rating-types-page": "Рейтинг сторінки",
+	"bs-rating-types-pagelike": "Рекомендація сторінки",
+	"rating": "Рейтинги",
+	"recommendations": "Рекомендації",
+	"bs-rating-yourrating": "Ваш рейтинг: $1",
+	"bs-rating-special-rating-heading": "Рейтинги",
+	"bs-rating-articlelike-ratingtext": "Рекомендувати ($1)",
+	"bs-rating-articlelike-uratingtextservoted": "Рекомендовано ($1)",
+	"action-rating-viewspecialpage": "перегляд сторінок, які захищені з правом «Rating-Viewspecialpage»",
+	"action-rating-read": "читання рейтингів на сторінках",
+	"action-rating-write": "голосування на сторінках",
+	"action-rating-archive": "вилучення голосів зі сторінок",
+	"right-rating-viewspecialpage": "Перегляд сторінок, які захищені з правом «Rating-Viewspecialpage»",
+	"right-rating-read": "Читання рейтингів на сторінках",
+	"right-rating-write": "Голосування на сторінках",
+	"right-rating-archive": "Вилучення голосів зі сторінок",
+	"bs-rating-special-recommendations-heading": "Рекомендації",
+	"bs-rating-special-recommendations-label-recommendation": "Рекомендації",
+	"bs-rating-specialrating-label-namespace": "Простір назв",
+	"bs-rating-specialrating-titleTitle": "Назва",
+	"bs-rating-specialrating-titleRating": "Рейтинг",
+	"bs-rating-specialrating-titleVotes": "Кількість оцінок",
+	"apihelp-bs-rating-tasks-description": "Виконує звичайні завдання для розширення Рейтинг",
+	"apihelp-bs-rating-store-description": "Додає рейтинги для статей",
+	"bs-rating-nsm-label": "Рейтинг",
+	"bs-rating-nsm-label-recommendations": "Рекомендації",
+	"apihelp-bs-rating-tasks-summary": "Виконує звичайні завдання для розширення Рейтинг",
+	"apihelp-bs-ratingarticle-store-summary": "Додає рейтинги для статей",
+	"apihelp-bs-ratingarticlelike-store-summary": "Додає рекомендації до статей"
+}

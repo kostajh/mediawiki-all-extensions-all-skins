@@ -1,0 +1,30 @@
+{
+	"name": "PageDisqus",
+	"version": "0.7",
+	"author": [
+		"Michael Platzer",
+		"[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PageDisqus",
+	"descriptionmsg": "pagedisqus-desc",
+	"type": "other",
+	"config": {
+		"PageDisqusShortname": "",
+		"PageDisqusPageBlacklist": [],
+		"PageDisqusCategoryBlacklist": [],
+		"PageDisqusNamespaceWhitelist": [ 0 ]
+	},
+	"MessagesDirs": {
+		"PageDisqus": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"PageDisqus": "PageDisqus.class.php"
+	},
+	"Hooks": {
+		"SkinAfterContent": "PageDisqus::onSkinAfterContent",
+		"SkinAfterBottomScripts": "PageDisqus::onSkinAfterBottomScripts"
+	},
+	"manifest_version": 1
+}

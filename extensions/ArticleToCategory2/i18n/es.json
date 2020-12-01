@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danke7",
+			"Fitoschido",
+			"Sanbec"
+		]
+	},
+	"articletocategory2-desc": "Añade un cuadro de entrada en las páginas de las categorías para crear páginas nuevas que pertenezcan a esa categoría",
+	"articletocategory2-create-article-under-category-text": "Añadir una página a esta categoría",
+	"articletocategory2-create-article-under-category-button": "Crear",
+	"articletocategory2-create-category-under-category-text": "Añadir una categoría a esta categoría",
+	"articletocategory2-create-category-under-category-button": "Crear",
+	"action-ArticleToCategory2": "añadir una página a una categoría",
+	"right-ArticleToCategory2": "Añadir página a categoría",
+	"action-ArticleToCategory2AddCat": "añadir una categoría a otra categoría",
+	"right-ArticleToCategory2AddCat": "Añadir categoría a otra"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"minimumnamelength-desc": "允許強制指定最短使用者名稱長度",
+	"minimumnamelength-error": "您的使用者名稱太短。最短要求長度是 {{PLURAL:$1|1 個字元|$1 個字元}}。"
+}

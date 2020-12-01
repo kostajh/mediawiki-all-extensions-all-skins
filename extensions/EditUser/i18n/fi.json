@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Crt",
+			"Jack Phoenix",
+			"Mobe",
+			"Nike",
+			"Olli",
+			"Valtlait",
+			"ZeiP"
+		]
+	},
+	"edituser": "Muokkaa käyttäjää",
+	"edituser-desc": "Mahdollistaa oikeutettujen käyttäjien muokata toisten käyttäjien asetuksia.",
+	"edituser-username": "Käyttäjänimi:",
+	"edituser-dosearch": "Hae",
+	"edituser-nouser": "Käyttäjää ”$1” ei ole olemassa.",
+	"edituser-exempt": "Käyttäjää ”$1” ei voi muokata.",
+	"right-edituser": "Muokata muiden käyttäjien asetuksia",
+	"right-edituser-exempt": "Muut eivät voi muokata tämän käyttäjän asetuksia.",
+	"action-edituser": "muokata muiden käyttäjien asetuksia",
+	"action-edituser-exempt": "muokkaa tämän käyttäjän asetuksia"
+}

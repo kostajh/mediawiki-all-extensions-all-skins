@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-userinfo-description": "提供用於使用者圖片與連結的使用者資訊飛出視窗",
+	"apihelp-bs-userinfometa-description": "列出指定使用者的詮釋資訊資料",
+	"apihelp-bs-userinfometa-summary": "列出指定使用者的詮釋資訊資料",
+	"apihelp-bs-userinfometa-param-username": "使用者的名稱，會列出該位的詮釋資訊資料"
+}

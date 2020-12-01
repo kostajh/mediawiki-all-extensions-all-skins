@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2",
+			"Rotemliss",
+			"YaronSh"
+		]
+	},
+	"contributors": "תורמים",
+	"contributors-desc": "סיכום התורמים הראשיים לדף",
+	"contributors-toolbox": "התורמים לדף",
+	"contributors-legend": "הצגת רשימת התורמים הראשיים לדף",
+	"contributors-target": "כותרת:",
+	"contributors-submit": "הצגה",
+	"contributors-subtitle": "תורמים ראשיים לדף $1",
+	"contributors-others-long": "{{PLURAL:$1|ישנו תורם אחר אחד|ישנם $1 תורמים אחרים}} לדף זה.",
+	"contributors-others": "ו{{PLURAL:$1|אחד אחר|־$1 אחרים}}",
+	"contributors-badtitle": "כותרת בלתי תקינה.",
+	"contributors-nosuchpage": "הדף $1 אינו קיים.",
+	"contributors-filterip": "הסתרת כתובות IP",
+	"contributors-name": "שם משתמש",
+	"contributors-revisions": "מספר הגרסאות",
+	"contributors-first-edit": "תאריך העריכה הראשונה",
+	"contributors-last-edit": "תאריך העריכה האחרונה",
+	"contributors-add-subpages": "הוספת דפי משנה",
+	"apihelp-query+contributors-example-1": "הצגת התורמים לעמוד הראשי"
+}

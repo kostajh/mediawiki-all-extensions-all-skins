@@ -1,0 +1,29 @@
+.back-links {
+	margin: 0 0 10px 0;
+}
+
+.back-links a {
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.page-nav a {
+	font-weight: 700;
+}
+
+.ga-name {
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0 0 2px;
+}
+
+.ga-recent-title {
+	font-size: 14px;
+	font-weight: 700;
+	color: #777;
+	margin: 0 0 2px 0;
+}
+
+.ga-recent-item {
+	margin: 0 0 5px 0;
+}

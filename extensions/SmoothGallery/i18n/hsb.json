@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"smoothgallery": "SmoothGallery",
+	"smoothgallery-desc": "Dowola wužiwarjam galerije z wobrazami, kotrež su so naharali, wutworić. Dowola najwjace opcijow ze SmoothGallery",
+	"smoothgallery-title": "SmoothGallery",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery: $1",
+	"smoothgallery-error": "<b>SmoothGallery zmylk:</b>",
+	"smoothgallery-gallery-not-found": "Požadana galerija njeeksistuje.",
+	"smoothgallery-not-found": "Žane wobrazy njebuchu ke galeriji přidate. Prošu přidaj znajmjeńša jedyn wobraz.",
+	"smoothgallery-no-images": "W tutej galeriji njebuchu wobrazy namakane. Zawěsć, zo {{PLURAL:$3|požadany wobraz eksistuje|wšě $3 požadanej wobrazaj eksistujetej|wšě $3 požadane wobrazy eksistuja |wšěch $3 požadanych wobrazow eksistuje}}. {{PLURAL:$2|Slědowacy wobraz njebu namakany|Slědowacej wobrazaj njebuštej namakanej|Slědowace wobrazy njebuchu namakane|Slědowace wobraze njebuchu namakane}}: $1",
+	"smoothgallery-invalid-images": "{{PLURAL:$2|Slědowacy požadany wobraz ma|Slědowacej $2 požadanej wobrazaj matej|Slědowace $2 požadane wobrazy maja|Slědowaych $2 požadanych wobrazow ma}} njepłaćiwy typ: $1",
+	"smoothgallery-unexpected-error": "Běše njewočakowany zmylk. Prošu spisaj zmylkowu rozprawu.",
+	"smoothgallery-javascript-disabled": "Javascript je trjeba, zo by so tuta galerija prawje zwobrazniła."
+}

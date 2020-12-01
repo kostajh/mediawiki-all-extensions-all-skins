@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"accountinfo": "ინფორმაცია ანგარიშის შესახებ",
+	"accountinfo-ts": "თარიღი/დრო",
+	"accountinfo-ip": "IP-მისამართი",
+	"accountinfo-ua": "ბრაუზერი",
+	"accountinfo-xff": "XFF-სათაური",
+	"accountinfo-now": "ახლა"
+}

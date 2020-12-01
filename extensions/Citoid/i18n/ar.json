@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jdforrester",
+			"JoyfulEditing",
+			"Meno25",
+			"Mvolz",
+			"Shbib Al-Subaie",
+			"ديفيد",
+			"فلورانس",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"citoid-citation-widget-insert-button": "أدرج",
+	"citoid-citoiddialog-back": "رجوع",
+	"citoid-citoiddialog-credit": "مدعوم من $1",
+	"citoid-citoiddialog-lookup-button": "توليد",
+	"citoid-citoiddialog-mode-auto": "آلي",
+	"citoid-citoiddialog-mode-manual": "يدوي",
+	"citoid-citoiddialog-mode-reuse": "أعد الاستخدام",
+	"citoid-citoiddialog-search": "بحث",
+	"citoid-citoiddialog-search-label": "مسار أو معرف الوثيقة الرقمية أو رقم دولي معياري للكتاب أو معرف بوبميد أو معرف ويكي بيانات أو عنوان أو استشهاد",
+	"citoid-citoiddialog-search-placeholder": "مثال: http://www.example.com",
+	"citoid-citoiddialog-search-progress": "جارٍ البحث، برجاء الانتظار...",
+	"citoid-citoiddialog-title": "إضافة استشهاد",
+	"citoid-citoiddialog-title-replace": "استبدال الاستشهاد",
+	"citoid-citoiddialog-use-general-error-message": "لم نتمكن من صنع الاقتباس لك، يمكنك إنشاء واحد يدويا باستخدام التبويب \"{{int:citoid-citoiddialog-mode-manual}}\" أعلاه.",
+	"citoid-citoidtool-title": "استشهاد",
+	"citoid-citoidtool-title-othergroup": "اقتباس",
+	"citoid-desc": "يوفر نقطة وصول بين citoid وميدياويكي",
+	"citoid-referencecontextitem-convert-button": "حَوِّلْ",
+	"citoid-referencecontextitem-convert-message": "هذا المرجع يتكون من رابط خارجي فقط. يمكنك استخدام زر\"{{int:citoid-referencecontextitem-convert-button}}\" في الأسفل لتوليد مرجع منسق على نحو مناسب.",
+	"citoid-unknown-error": "حدث خطأ غير معلوم منعنا من إنشاء استشهاد. برجاء المحاولة في وقت لاحق.",
+	"citoid-wb-referenceview-tabs-automatic": "تلقائي",
+	"citoid-wb-referenceview-tabs-search": "بحث",
+	"citoid-wb-referenceview-tabs-search-label": "مسار أو معرف الوثيقة الرقمية أو الرقم الدولي المعياري للكتاب أو معرف ويكي بيانات:",
+	"citoid-wb-pendingdialog-error": "غير قادر على إنشاء مرجع من هذا الإدخال، استخدم علامة التبويب اليدوية، أو حاول مرة أخرى.",
+	"citoid-wb-pendingdialog-message": "جارٍ إنشاء مرجع لك ... الرجاء الانتظار ...",
+	"citoid-wb-pendingdialog-title": "جارٍ توليد الاقتباس"
+}

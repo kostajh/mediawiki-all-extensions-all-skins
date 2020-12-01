@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liangent",
+			"Mark85296341"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "因為受到短時間內註冊大量帳號的攻擊，帳號註冊被自動暫停。請稍等片刻後點擊瀏覽器的「重新載入」按鈕重新提交。",
+	"userthrottle-desc": "因受到短時間內大量帳戶登錄的影響，註冊功能被自動暫停。請稍等片刻後重試。"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Mirzali"
+		]
+	},
+	"viki-desc": "Viki sayfaları veya web sayfaları arasındaki bağlantıların bir ağ grafiğini çizer.",
+	"viki-error-title": "Hata:",
+	"viki-error-missing-pageTitle": "En az bir sayfa başlığı sağlamalısınız.",
+	"viki-timeout-content-namespace": "Wiki için içerik ad alanı getirme zaman aşımı: $1. Ana ad alanına varsayılan değer.",
+	"viki-error-content-namespace": "Wiki için içerik ad alanı getirilirken hata oluştu: $1. Ana ad alanına varsayılan değer.",
+	"viki-error-visit-node": "Düğümü ziyaret etmeye çalışırken hata: $1.",
+	"viki-error-external-links": "Sayfa için harici bağlantılar alınırken hata oluştu: $1.",
+	"viki-error-intrawiki-out": "Sayfa için intrawiki giden bağlantılar getirilirken hata oluştu: $1.",
+	"viki-error-intrawiki-in": "Sayfa için intrawiki geri bağlantıları alınırken hata oluştu: $1.",
+	"viki-error-https-node": "Düğüm hazırlama hatası: $1. HTTPS üzerinden çalışıyorsunuz; HTTPS üzerinden yalnızca diğer wikilere erişebilirsiniz.",
+	"viki-error-https-namespace": "Wiki için içerik ad alanı getirilirken hata oluştu: $1. HTTPS üzerinden çalışıyorsunuz; HTTPS üzerinden yalnızca diğer wikilere erişebilirsiniz.",
+	"apihelp-getContentNamespaces-description": "Bu viki için içerik ad alanlarının listesini alın.",
+	"apihelp-getContentNamespaces-summary": "Bu viki için içerik ad alanlarının listesini alın."
+}

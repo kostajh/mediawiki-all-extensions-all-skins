@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Dansita",
+			"Selven"
+		]
+	},
+	"bs-countthings-desc": "Fornisce contenuti in base a statistiche",
+	"bs-countthings-chars-label": "Caratteri",
+	"bs-countthings-words-label": "Parole",
+	"bs-countthings-files-label": "File",
+	"bs-countthings-pages-label": "Pagine",
+	"bs-countthings-ve-countcharacters-title": "Conta caratteri",
+	"bs-countthings-ve-countarticles-title": "Conta voci",
+	"bs-countthings-ve-countfiles-title": "Conta file",
+	"bs-countthings-ve-countusers-title": "Conta utenti",
+	"bs-countthings-ve-countthingsinspector-mode": "Modalità",
+	"bs-countthings-ve-countcharacters-mode-all": "tutto",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "caratteri",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "parole",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "caratteri e parole",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "pagine",
+	"bs-countthings-ve-countcharacters-input-label": "Pagine",
+	"bs-countthings-error-no-input": "Nessuna pagina fornita.",
+	"bs-countthings-error-invalid-mode": "La modalità \"$1\" non è valida. Utilizzare \"chars\", \"words\", o \"pages\".",
+	"bs-countthings-error-not-exist": "La pagina \"$1\" non esiste.",
+	"bs-countthings-tag-countarticles-desc": "Visualizza il numero di voci nel wiki.",
+	"bs-countthings-tag-countusers-desc": "Mostra il numero di utenti registrati.",
+	"bs-countthings-tag-countfiles-desc": "Visualizza il numero di file nel wiki.",
+	"bs-countthings-tag-countcharacters-example-1": "Numero di parole",
+	"bs-countthings-tag-countcharacters-example-2": "Numero di caratteri"
+}

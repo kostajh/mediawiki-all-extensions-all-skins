@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-groupmanager-desc": "'Nderfacce de amministrazione pe aggiungere, cangià e scangellà le gruppe utinde e le deritte lore",
+	"bs-groupmanager-grpexists": "'U gruppe già esiste.",
+	"bs-groupmanager-grpempty": "'U nome d'u gruppe non ge pò essere vacande.",
+	"bs-groupmanager-grpadded": "'U gruppe ha state aggiunde.",
+	"bs-groupmanager-grpedited": "'U gruppe ha state cangiate.",
+	"bs-groupmanager-grpremoved": "'U gruppe ha state luate.",
+	"bs-groupmanager-label": "Gestore de gruppe",
+	"bs-groupmanager-invalid-name": "'U nome d'u gruppe tène {{PLURAL:$1|'nu carattere|carattere}} non {{PLURAL:$1|valide}}: $2",
+	"bs-groupmanager-invalid-name-length": "'U nome d'u gruppe non ge pò essere cchiù luènghe de 255 carattere.",
+	"bs-groupmanager-invalid-name-numeric": "'U nome d'u gruppe tene abbesogne de tenè ninde ninde 'nu carattere.",
+	"bs-groupmanager-headergroup": "Gruppe",
+	"bs-groupmanager-tipremove": "Live {{PLURAL:$1|gruppe}}",
+	"bs-groupmanager-titlenewgroup": "Gruppe nuève",
+	"bs-groupmanager-titleeditgroup": "Cange 'u gruppe",
+	"bs-groupmanager-removegroup": "Sì secure de vulè ccu luà {{PLURAL:$1|stu|ste}} gruppe?",
+	"bs-groupmanager-removegroup-message-success": "{{PLURAL:$1|'U gruppe ha|le gruppe onne}} state scangellate: $2",
+	"bs-groupmanager-removegroup-message-failure": "{{PLURAL:$1|'U gruppe non ge pò|le gruppe non ge ponne}} essere scangellate: $2",
+	"bs-groupmanager-removegroup-message-unknown": "Ha assute 'n'errore, pruève arrete.",
+	"bs-groupmanager-lablename": "Nome d'u gruppe:",
+	"bs-groupmanager-msgnoteditable": "Quiste jè 'nu gruppe de sisteme e non ge pò essere renominate.",
+	"bs-groupmanager-msgnotremovable": "Quiste jè 'nu gruppe de sisteme e non ge pò essere luate.",
+	"bs-groupmanager-write-config-file-error": "'U file $1 non ge pò essere ccrejate o reggìstrate.",
+	"log-name-bs-group-manager": "Archivije d'u gestore de gruppe",
+	"log-description-bs-group-manager": "Quiste jè l'archivije de le cangiaminde de le gruppe de l'utinde.",
+	"log-show-hide-bs-group-manager": "$1 archivije d'u gestore de gruppe",
+	"logeventslist-bs-group-manager-log": "Archivije d'u gestore de gruppe",
+	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|ave ccrejate}} 'u gruppe $4",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|ave renomenate}} 'u gruppe $4 jndr'à $5",
+	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|ave luate}} 'u gruppe $4",
+	"apihelp-bs-groupmanager-description": "Dèje le attivitate pe l'estenzione GroupManager.",
+	"apihelp-bs-groupmanager-summary": "Dèje le attivitate pe l'estenzione GroupManager.",
+	"action-groupmanager-viewspecialpage": "'ndruche 'a pàgena speciale \"{{int:bs-groupmanager-label}}\"",
+	"groupmanager": "Gestore de gruppe",
+	"right-groupmanager-viewspecialpage": "Tràse jndr'à pàgena speciale [[Special:GroupManager]]"
+}

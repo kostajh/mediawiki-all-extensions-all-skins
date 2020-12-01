@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"nsfilerepo-desc": "يوفر خصائص معنمدة على النطاق للملفات المرفوعة",
+	"nsfilerepo-upload-target": "اسم الملف الهدف في النطاق",
+	"nsfilerepo-nsmain": "(رئيسي)",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext": "لا يمكن تعديل هذا الحقل عند إعادة رفع الملف",
+	"nsfilerepo-move-file-namespace-action-label": "تعيين نطاق الملف",
+	"nsfilerepo-move-file-namespace-dialog-title": "تعيين نطاق الملف",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "تم",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "إلغاء",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "النطاق"
+}

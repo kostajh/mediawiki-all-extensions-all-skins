@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Simartampua"
+		]
+	},
+	"updatemediawiki": "Pambaruan MediaWiki",
+	"updatemediawiki-desc": "Mamungkinkon mamparbarui MediaWiki lewat alaman husus",
+	"updatemediawiki-current": "Versi sonnari $1",
+	"updatemediawiki-update-nofound": "Inda adong pambaruan tarsadio",
+	"updatemediawiki-update-found": "Pambaruan baru nida:$1",
+	"updatemediawiki-update-downloading": "Mangunduh pambaruan nabaru",
+	"updatemediawiki-update-saved": "Unduhan iparbarui dot isimpan",
+	"updatemediawiki-update-exist": "Pambaruan madung iunduh",
+	"updatemediawiki-update-copyready": "Salinan salose",
+	"updatemediawiki-update-database": "Parbarui basis data sonnari?",
+	"updatemediawiki-update-updateready": "Salose iparbarui",
+	"updatemediawiki-update-install": "Pasang sonnari?",
+	"updatemediawiki-update-updated": "MediaWiki iparbarui tu versi $1",
+	"updatemediawiki-update-error": "Inda bisa mangida parubaan tarbaru",
+	"updatemediawiki-update-aborted": "Inda bisa manyimpan pambaruan tarbaru. Operasi ibotalkon"
+}

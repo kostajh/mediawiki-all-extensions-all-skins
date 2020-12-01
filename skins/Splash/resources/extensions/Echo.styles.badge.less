@@ -1,0 +1,21 @@
+@media screen {
+	// Make echo badges cooperate
+	#pt-notifications-alert,
+	#pt-notifications-notice {
+		.mw-echo-notifications-badge,
+		.mw-echo-notifications-badge {
+			top: 0;
+			text-indent: -99999px;
+		}
+	}
+
+	#pt-notifications-alert .mw-echo-notifications-badge::after,
+	#pt-notifications-notice .mw-echo-notifications-badge::after {
+		// Avoid padding issues with our fancy fonts
+		font-family: 'Noto Sans', 'Lato', 'Helvetica Neue', 'Liberation Sans', 'Helvetica', 'Nimbus Sans', 'Arial', sans-serif;
+		padding: 1px 3px 2px;
+		border-radius: 1em;
+		border: 0;
+		font-size: 66%;
+	}
+}

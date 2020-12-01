@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki",
+			"Mirin",
+			"Robin van der Vliet",
+			"Yekrats"
+		]
+	},
+	"edituser": "Redakti Uzanton",
+	"edituser-desc": "Rajtigas privilegiitaj uzantoj redakti preferojn de aliaj uzantoj",
+	"edituser-username": "Uzantnomo:",
+	"edituser-dosearch": "Serĉi",
+	"edituser-nouser": "La uzanto \"$1\" ne ekzistas.",
+	"edituser-exempt": "La uzanto \"$1\" ne estas redaktebla.",
+	"right-edituser": "Redakti la preferojn de aliaj uzantoj",
+	"right-edituser-exempt": "Aliaj ne povas redakti la preferojn de ĉi tiu uzanto",
+	"action-edituser": "redakti la preferojn de aliaj uzantoj",
+	"action-edituser-exempt": "redakti la preferojn de ĉi tiu uzanto"
+}

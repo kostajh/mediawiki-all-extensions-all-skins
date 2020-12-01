@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jack Phoenix"
+		]
+	},
+	"nobogususerpages-desc": "Rajoittaa käyttäjäsivujen luontia sellaisille käyttäjätunnuksille, joita ei ole olemassa",
+	"badaccess-bogususerpage": "Sitä käyttäjää, jonka käyttäjäsivu tämä on, ei ole olemassa. Sinulla ei ole oikeuksia luoda tarpeetonta käyttäjäsivua.",
+	"right-createbogususerpage": "Luoda käyttäjäsivuja käyttäjille, jotka eivät ole rekisteröityneet tähän wikiin"
+}

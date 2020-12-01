@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish",
+			"Vito Genovese"
+		]
+	},
+	"regexfunctions-desc": "Düzenli ifade ayrıştırıcı işlevleri",
+	"regexfunctions-arg-pattern": "desen",
+	"regexfunctions-arg-multiline": "satırlı",
+	"regexfunctions-arg-caseless": "kovansız",
+	"regexfunctions-arg-ungreedy": "aç gözsüz",
+	"regexfunctions-arg-extended": "genişletilmiş",
+	"regexfunctions-arg-dotall": "noktalı",
+	"regexfunctions-arg-then": "sonra",
+	"regexfunctions-arg-else": "değilse",
+	"regexfunctions-arg-piece": "parça",
+	"regexfunctions-arg-replacement": "değiştirme"
+}

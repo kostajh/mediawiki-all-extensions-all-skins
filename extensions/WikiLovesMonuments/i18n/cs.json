@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chmee2",
+			"Limojoe",
+			"Mormegil"
+		]
+	},
+	"wlm-extension-desc": "Přidává informace a zprávy související s fotografickou soutěží Wiki miluje památky",
+	"wlm-no-contest-year": "V roce $1 soutěž Wiki miluje památky neprobíhala.",
+	"wlm-no-url-bad-country": "Nepodařilo se najít soutěžní web pro danou lokalitu. $1 není platný kód země.",
+	"wlm-country-not-given": "Musíte zadat kód země.",
+	"wlm-country-not-participating-year": "„$1“ není účastníkem Wiki miluje památky $2",
+	"wlm-sidebar-portlet": "Ostatní země",
+	"wlm-international-contest": "Mezinárodní",
+	"wlm-text-contact": "Kontakt",
+	"wlm-text-contest": "Soutěž",
+	"wlm-text-donate": "Podpořte nás",
+	"wlm-text-faq": "Často kladené otázky",
+	"wlm-text-jury": "Porota",
+	"wlm-text-monuments": "Památky",
+	"wlm-text-news": "Novinky",
+	"wlm-text-participate": "Zapojte se!",
+	"wlm-text-prizes": "Ceny",
+	"wlm-text-rules": "Pravidla",
+	"wlm-text-sponsors": "Sponzoři",
+	"wlm-text-uploading": "Načítání"
+}

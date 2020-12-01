@@ -1,0 +1,40 @@
+{
+	"name": "SecureAuth",
+	"version": "1.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Jayprakash12345 Jayprakash]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SecureAuth",
+	"descriptionmsg": "secureauth-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"SecureAuth": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SecureAuthAlias": "SecureAuth.i18n.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialSecureAuthInfo": "include/SpecialSecureAuthInfo.php"
+	},
+	"SpecialPages": {
+		"SecureAuthInfo": "SpecialSecureAuthInfo"
+	},
+	"AvailableRights": [
+		"sa-access"
+	],
+	"GroupPermissions": {
+		"*": {
+			"sa-access": false
+		},
+		"user": {
+			"sa-access": true
+		}
+	},
+	"manifest_version": 2
+}

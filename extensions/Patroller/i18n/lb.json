@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"patrol": "Kontroll vun den Ännerungen",
+	"patrol-desc": "Erweiderten Interface fir d'Kontrolléiere vu Säiten an Zesummenaarbecht mat Aneren",
+	"patrol-endorse": "Bestätegen",
+	"patrol-revert": "Zrécksetzen",
+	"patrol-revert-reason": "Grond:",
+	"patrol-skip": "Iwwersprangen",
+	"patrol-reverting": "Zrécksetzen: $1",
+	"patrol-nonefound": "Et goufe keng passend Ännerunge fir z'iwerkucke fonnt.",
+	"patrol-endorsed-ok": "Dës Ännerung gouf als nogekuckt markéiert.",
+	"patrol-endorsed-failed": "D'Ännerung konnt net als kontolléiert markéiert ginn.",
+	"patrol-reverted-ok": "D'Ännerung gouf zréckgesat.",
+	"patrol-reverted-failed": "D'Ännerung konnt net zréck gesat ginn.",
+	"patrol-skipped-ok": "Ännerung ignoréieren",
+	"patrol-reasons": "* Einfache Vandalismus\n* Test vun engem neie Benotzer\n* Kuckt d'Diskussiounssäit",
+	"patrol-another": "Weis eng aner Ännerung, wann se disponibel ass",
+	"patrol-stopped": "Dir hutt decidéiert keng weider Ännerung ze kontrolléieren. $1",
+	"patrol-resume": "Hei clicke fir weiderzefueren.",
+	"group-patroller": "Kontrolleren",
+	"group-patroller-member": "{{GENDER:$1|Kontroller|Kontrollesch}}",
+	"grouppage-patroller": "{{ns:project}}:Kontroller",
+	"right-patroller": "Sàiten iwwerkucken"
+}

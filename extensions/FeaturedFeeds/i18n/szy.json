@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benel",
+			"Bunukwiki"
+		]
+	},
+	"ffeed-desc": "micunus Wiki sazumaay tuud  lacul a saupuay a saangangan",
+	"ffeed-no-feed": "caay patuzu’ay a Feed.",
+	"ffeed-feed-not-found": "cakatepa Feed $1.",
+	"ffeed-entry-not-found": "caay katepa $1 a Feed kasacacay.",
+	"ffeed-sidebar-section": "sazumaay lacul Feed",
+	"ffeed-invalid-timestamp": "la’cusay a nisulitan tu demiad.",
+	"ffeed-featured-title": "{{SITENAME}} a sazumaay ulic Feed",
+	"ffeed-featured-desc": "{{SITENAME}} nipabeliay a sakapahay a ulic",
+	"ffeed-featured-entry": "{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}} demiad pametekan a sulitan.",
+	"ffeed-good-title": "{{SITENAME}} kapahay ulic Feed",
+	"ffeed-good-desc": "{{SITENAME}} nipabeliay sakapahay a ulic",
+	"ffeed-good-entry": "{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}} demiad kapahay a sulitan.",
+	"ffeed-onthisday-title": "{{SITENAME}} \"nazipa’an ayza a demiad...\" Feed",
+	"ffeed-onthisday-desc": "tina demiad nazipa’an a kawaw",
+	"ffeed-onthisday-entry": "ayza a demiad: {{LOCALMONTHNAME}} {{LOCALDAY}} demiad",
+	"ffeed-dyk-title": "{{SITENAME}} \"matineng kisu haw?\" Feed",
+	"ffeed-dyk-short-title": "matineng kisu haw?",
+	"ffeed-dyk-desc": "namakay {{SITENAME}} sabaluhay a lacul",
+	"ffeed-dyk-entry": "matineng kisu haw?: {{LOCALMONTHNAME}} {{LOCALDAY}} demiad",
+	"ffeed-motd-title": "{{SITENAME}} paydemiad myiti Feed",
+	"ffeed-motd-desc": "{{SITENAME}} sakapahay a myiti",
+	"ffeed-motd-entry": "{{SITENAME}} i {{LOCALMONTHNAME}} {{LOCALDAY}} demiad a paydemiad myiti",
+	"ffeed-potd-title": "{{SITENAME}} paydemidemiad a zunga",
+	"ffeed-potd-desc": "{{SITENAME}} sakapahay a zunga",
+	"ffeed-potd-entry": "{{SITENAME}} i {{LOCALMONTHNAME}} {{LOCALDAY}} demiad a paydemiad zunga",
+	"ffeed-qotd-title": "{{SITENAME}} paydemiad cacay a kamu Feed",
+	"ffeed-qotd-desc": "{{SITENAME}} sakapahay a kapahay kamu",
+	"ffeed-qotd-entry": "{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}}demiad paydemiad cacay ku kamu.",
+	"ffeed-featuredtexts-title": "{{SITENAME}} pametekan lacul Feed",
+	"ffeed-featuredtexts-desc": "{{SITENAME}} nipabeli sakapahay a lacul",
+	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} sazumaay a pili’ lacul",
+	"ffeed-wotd-title": "Wiki sukudad paydemidemiad a sulit",
+	"ffeed-wotd-desc": "{{SITENAME}} cacay a sulit paydemiad",
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} demiad Paydemiad cacay ku kamu."
+}

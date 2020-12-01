@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"emaildiff-desc": "允许在通知电子邮件中发送文本差异",
+	"tog-emaildiff": "发送更改的差异",
+	"emaildiff-newpage": "这是一个新页面：\n\n$1",
+	"emaildiff-intro": "版本差异：$1"
+}

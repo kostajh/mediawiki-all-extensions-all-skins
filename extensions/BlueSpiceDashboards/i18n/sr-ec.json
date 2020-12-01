@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"bs-dashboards-desc": "Пружа радну таблу за кориснике и администраторе",
+	"bs-specialadmindashboard-label": "Управљачка табла",
+	"bs-dashboards-addportlet": "Додај портлет",
+	"bs-dashboards-portlets": "Портлети",
+	"prefs-dashboards": "Управљачке табле",
+	"bs-dashboards-pref-userdashboardonlogo": "Лого сајта повезује се са контролном таблом корисника",
+	"admindashboard": "Управљачка табла за администраторе",
+	"userdashboard": "Управљачка табла за кориснике",
+	"bs-dashboard-userportlet-calendar-title": "Календар",
+	"bs-dashboard-userportlet-calendar-description": "Календар",
+	"bs-dashboard-userportlet-wikipage-title": "Вики страница",
+	"bs-dashboard-userportlet-wikipage-description": "Користи вики страницу да дефинишете виџет",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "Вики страница",
+	"apihelp-bs-dashboard-task-param-dc": "Параметар за контролисање кеш меморије. Користите се од стране ExtJS.",
+	"apihelp-bs-dashboards-store-description": "Излистава све доступне портлете",
+	"apihelp-bs-dashboards-store-summary": "Излистава све доступне портлете",
+	"apihelp-bs-dashboards-tasks-description": "Чува конфигурацију управљачке табле",
+	"apihelp-bs-dashboards-tasks-summary": "Чува конфигурацију управљачке табле",
+	"apihelp-bs-dashboards-widgets-tasks-description": "Враћа садржај за неке виџете управљачких табли",
+	"apihelp-bs-dashboards-widgets-tasks-summary": "Враћа садржај за неке виџете управљачких табли",
+	"action-dashboards-viewspecialpage-userdashboard": "погледате посебну страницу „{{int:userdashboard}}”",
+	"right-dashboards-viewspecialpage-userdashboard": "приступ посебној страници [[Special:UserDashboard]]"
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"SVG"
+		]
+	},
+	"group-bot-global": "Globale Bots",
+	"group-bot-global-member": "{{GENDER:$1|Globaler Bot}}",
+	"grouppage-bot-global": "{{ns:project}}:Globale Bots",
+	"group-checkuser-global": "Globale Checkuser",
+	"group-checkuser-global-member": "{{GENDER:$1|Globaler Checkuser-Berechtigter|Globale Checkuser-Berechtigte}}",
+	"grouppage-checkuser-global": "{{ns:project}}:Globale Checkuser",
+	"group-helper-global": "Globale Helfer",
+	"group-helper-global-member": "{{GENDER:$1|Globaler Helfer|Globale Helferin}}",
+	"grouppage-helper-global": "{{ns:project}}:Globale Helfer",
+	"group-ipblock-exempt-g": "Globale IP-Sperren-Ausgenommene",
+	"group-ipblock-exempt-g-member": "{{GENDER:$1|Globaler IP-Sperren-Ausgenommener|Globale IP-Sperren-Ausgenommene}}",
+	"grouppage-ipblock-exempt-g": "{{ns:project}}:Globale IP-Sperren-Ausgenommene",
+	"group-rollback-global": "Globale Zurücksetzer",
+	"group-rollback-global-member": "{{GENDER:$1|Globaler Zurücksetzer|Globale Zurücksetzerin}}",
+	"grouppage-rollback-global": "{{ns:project}}:Globale Zurücksetzer",
+	"group-steward-global": "Globale Stewards",
+	"group-steward-global-member": "{{GENDER:$1|Globaler Steward|Globale Stewardess}}",
+	"grouppage-steward-global": "{{ns:project}}:Globale Stewards",
+	"group-sysadmin-global": "Globale Systemadministratoren",
+	"group-sysadmin-global-member": "{{GENDER:$1|Globaler Systemadministrator|Globale Systemadministratorin}}",
+	"grouppage-sysadmin-global": "{{ns:project}}:Globale Systemadministratoren",
+	"group-sysop-global": "Globale Administratoren",
+	"group-sysop-global-member": "{{GENDER:$1|Globaler Administrator|Globale Administratorin}}",
+	"grouppage-sysop-global": "{{ns:project}}:Globale Administratoren"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"LNDDYL",
+			"Liangent",
+			"Mark85296341",
+			"Oapbtommy",
+			"Wrightbus"
+		]
+	},
+	"indexfunc-desc": "建立自動重新導向與消歧義頁面的解析函式",
+	"indexfunc-badtitle": "無效標題：「$1」",
+	"indexfunc-editwarning": "警告：\n此標題是以下{{PLURAL:$2|頁面|頁面}}的索引標題：\n$1\n請確定您所要建立的頁面尚未存在於不同標題。\n若您想建立頁面，請在以上{{PLURAL:$2|頁面|頁面}}的  <nowiki>{{#index:}}</nowiki> 移除此標題。",
+	"indexfunc-index-exists": "「$1」頁面已存在",
+	"indexfunc-movewarn": "警告：\n\"$1\" 是以下{{PLURAL:$3|頁面|頁面}}的索引標題：\n$2\n請在以上{{PLURAL:$3|頁面|頁面}}的 <nowiki>{{#index:}}</nowiki> 裡移除 \"$1\"。",
+	"index": "索引搜尋",
+	"index-legend": "搜尋索引",
+	"index-search": "搜尋：",
+	"index-submit": "提交",
+	"index-disambig-start": "'''$1''' 可能相關數個頁面：",
+	"index-emptylist": "沒有與 \"$1\" 關聯的頁面",
+	"index-expand-detail": "顯示基於此標題索引的頁面",
+	"index-hide-detail": "隱藏頁面清單",
+	"index-no-results": "無任何搜尋結果",
+	"index-search-explain": "此頁面使用詞頭搜尋。\n\n輸入前幾個字元並按下送出鍵來搜尋開頭為搜尋字串的頁面標題與索引項目",
+	"index-details-explain": "帶有箭頭的項目為索引項目。\n請點擊箭頭來顯示基於標題索引的所有頁面。"
+}

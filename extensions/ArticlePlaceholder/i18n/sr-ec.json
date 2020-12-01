@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Milicevic01",
+			"Zoranzoki21"
+		]
+	},
+	"createtopicpage": "Прављење странице",
+	"articleplaceholder-abouttopic": "О теми",
+	"articleplaceholder-abouttopic-create-article-title": "Прављење новог чланка",
+	"articleplaceholder-abouttopic-create-article-label": "Наслов чланка",
+	"articleplaceholder-abouttopic-create-article-mandatory": "Наслов чланка је обавезан.",
+	"articleplaceholder-abouttopic-create-article-button": "Направи чланак",
+	"articleplaceholder-abouttopic-create-empty-article-button": "Направи нов чланак",
+	"articleplaceholder-abouttopic-translate-article-label": "Изворни језик:",
+	"articleplaceholder-abouttopic-translate-article-button": "Преведи чланак",
+	"articleplaceholder-abouttopic-create-article-submit-button": "Проследи",
+	"articleplaceholder-abouttopic-article-exists-error": "Чланак са овим именом већ постоји",
+	"articleplaceholder-abouttopic-lua-entity": "Ентитет",
+	"articleplaceholder-abouttopic-lua-reference": "Референца",
+	"articleplaceholder-abouttopic-lua-identifier": "Спољашњи ресурси",
+	"articleplaceholder-createpage-title": "Направи $1"
+}

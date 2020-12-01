@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"formelapplet-desc": "Дадае аплеты [http://wiki.formelapplet.de FormelApplet] да старонак.",
+	"formelapplet-nojava": "Калі ласка, усталюйце $1 для выкарыстаньня гэтай старонкі.",
+	"formelapplet-missing-parameter": "Адсутнічае парамэтар (width, height ці term/solution).",
+	"formelapplet-file-not-found": "Файл $1 ня знойдзены.",
+	"formelapplet-error": "Памылка ў пашырэньні FormelApplet для MediaWiki: <em>$1</em>"
+}

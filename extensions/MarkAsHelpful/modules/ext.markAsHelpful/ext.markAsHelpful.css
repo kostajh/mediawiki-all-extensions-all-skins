@@ -1,0 +1,20 @@
+.mw-mah-wrapper a {
+	cursor: pointer;
+}
+
+.mw-mah-wrapper .mah-helpful-state {
+	/* @embed */
+	background: transparent url( images/mah-helpful-dull.png ) no-repeat left center;
+	padding-left: 18px;
+}
+
+.mw-mah-wrapper .mah-helpful-state:hover {
+	/* @embed */
+	background: transparent url( images/mah-helpful-hover.png ) no-repeat left center;
+}
+
+.mw-mah-wrapper .mah-helpful-marked-state {
+	/* @embed */
+	background: transparent url( images/mah-helpful-marked.png ) no-repeat left center;
+	padding-left: 18px;
+}

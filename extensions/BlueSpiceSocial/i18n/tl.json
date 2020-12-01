@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brazal.dang"
+		]
+	},
+	"bs-social-pref-datedisplaymode-mode-age": "Ipakita ayon sa edad",
+	"bs-social-pref-datedisplaymode-mode-mw": "Ipakita ayon sa petsa",
+	"bs-social-var-id": "Pagkakakilanlan",
+	"bs-social-var-ownerid": "May-ari",
+	"bs-social-var-type": "Uri",
+	"bs-social-var-text": "Nilalaman",
+	"bs-social-var-timestampcreated": "Petsa ng paggawa",
+	"bs-social-var-timestamptouched": "Baguhin ang petsa",
+	"bs-social-option-orderby-label": "Pagbubukud-bukod",
+	"bs-social-option-direction-label": "Direksiyon",
+	"bs-social-option-direction-val-asc": "Tumataas",
+	"bs-social-option-direction-val-desc": "Pababa",
+	"bs-social-editor-advanced": "Mas mataas na antas",
+	"bs-social-editor-ok": "Ipaskil",
+	"bs-social-editor-cancel": "Huwag ituloy",
+	"bs-social-entityactions-label": "Mga galaw",
+	"bs-social-entityaction-edit": "Baguhin",
+	"bs-social-entityaction-delete": "Burahin",
+	"bs-social-entityaction-undelete": "Ibalik",
+	"bs-social-entity-fatalstatus-permission-unknownaction": "Hindi kilalang aksyon \"$1\"",
+	"bs-social-select2-overwrites-noresults": "Walang mga resulta",
+	"bs-extendedsearch-search-center-result-owner-label": "May-ari:",
+	"bs-social-entitylistmenufilter-quickfilter-addall": "Idagdag ang lahat",
+	"bs-social-entitylistmenufilter-quickfilter-removeall": "Tanggalin lahat",
+	"bs-social-entitylistmenufilter-quickfilter-removeall-date": "Ngayong araw na ito",
+	"bs-social-filter-owner-val-all": "Lahat",
+	"bs-social-filter-date-label-from": "$1 galing kay",
+	"bs-social-renderer-timestampprefix-created": "Nilikha",
+	"bs-social-renderer-timestampprefix-touched": "Binago",
+	"bs-social-entityspawner-button-tooltip": "Lumikha ng bago"
+}

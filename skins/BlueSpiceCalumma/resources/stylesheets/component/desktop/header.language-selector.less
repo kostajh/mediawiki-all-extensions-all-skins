@@ -1,0 +1,77 @@
+header{
+	.bs-language-selector {
+		position: absolute;
+		right: 2.4rem;
+		width: 1.5rem;
+		top: @theme-header-height;
+		float: right;
+
+		.bs-language-selector-current-language {
+			padding-left: 0.1875rem;
+			bottom: 0.3rem;
+			position: absolute;
+
+			i {
+				width: 1.2rem;
+				height: 0.8rem;
+				display: block;
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+		}
+
+		&.dropdown {
+			width: 3.125rem;
+			right: 0.75rem;
+
+			.dropdown-menu {
+				.mixin-box-shadow-secondary;
+				list-style: none;
+				padding: 0;
+				top: 1rem;
+				left: 0rem;
+				min-width: 3.125rem;
+
+				&::before {
+					font-size: 3rem;
+					font-family: 'fontawesome';
+					content: "\f0d8";
+					position: absolute;
+					top: -0.95em;
+					left: 0rem;
+					color: lighten( @bs-color-neutral, 28% );
+					height: 1em;
+					z-index: -1;
+				}
+
+				ul {
+					list-style: none;
+					padding-left: 0;
+					margin-top: 3px;
+					margin-bottom: 3px;
+
+					li a {
+						padding: 0.125rem 0.5625rem;
+						display: block;
+
+						&:hover {
+							background-color: lighten( @bs-color-neutral, 28% );
+						}
+					}
+				}
+
+				.bs-language-selector-text {
+					display: none;
+				}
+				.bs-language-selector-icon {
+					width: 100%;
+					height: 1.5rem;
+					display: block;
+					background-repeat: no-repeat;
+					background-size: contain;
+					background-position: center center;
+				}
+			}
+		}
+	}
+}

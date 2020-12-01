@@ -1,0 +1,38 @@
+{
+	"name": "ExtraLanguageLink",
+	"version": "1.0",
+	"author": [
+		"This, that and the other"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ExtraLanguageLink",
+	"descriptionmsg": "extralanguagelink-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"MessagesDirs": {
+		"ExtraLanguageLink": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ExtraLanguageLinkMagic": "ExtraLanguageLink.magic.php"
+	},
+	"AutoloadClasses": {
+		"ExtraLanguageLink": "includes/ExtraLanguageLink.php"
+	},
+	"Hooks": {
+		"SkinTemplateOutputPageBeforeExec": "ExtraLanguageLink::onSkinTemplateOutputPageBeforeExec",
+		"ParserFirstCallInit": "ExtraLanguageLink::onParserFirstCallInit",
+		"OutputPageParserOutput": "ExtraLanguageLink::onOutputPageParserOutput"
+	},
+	"config": {
+		"ExtraLanguageLinkAllowedPrefixes": {
+			"value": false
+		},
+		"ExtraLanguageLinkAllowedTitles": {
+			"value": false
+		}
+	},
+	"manifest_version": 2
+}

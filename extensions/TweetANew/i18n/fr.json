@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crochet.david",
+			"Gomoko",
+			"McDutchie",
+			"Verdy p"
+		]
+	},
+	"tweetanew-desc": "Tweeter lorsqu’une page est créée ou modifiée",
+	"tweetanew-newaction": "Tweeter à propos de cette nouvelle page",
+	"tweetanew-newtooltip": "Envoyer des informations sur cette nouvelle page sur Twitter",
+	"tweetanew-editaction": "Tweeter à propos de cette modification",
+	"tweetanew-edittooltip": "Envoyer des informations sur cette modification à Twitter",
+	"tweetanew-minoredit": "m",
+	"tweetanew-authorcredit": "par",
+	"tweetanew-newdefault": "NOUVELLE PAGE :  $1 - $2",
+	"tweetanew-new1": "Ressemble à $1 qui a été créé sur $2",
+	"tweetanew-new2": "$1 a été récemment créé sur $2",
+	"tweetanew-new3": "Vérifiez $2 - il y a une nouvelle page sur $1",
+	"tweetanew-editdefault": "PAGE MISE À JOUR :  $1 - $2",
+	"tweetanew-edit1": "Il semblerait que $1a été mis à jour sur $2",
+	"tweetanew-edit2": "$1 a été récemment modifié sur $2",
+	"tweetanew-edit3": "Vérifiez $2 - il y a du nouveau contenu sur $1"
+}

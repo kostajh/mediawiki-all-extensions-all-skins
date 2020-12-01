@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-uemodulepdf-desc": "يمكن ميدياويكي من تصدير الصفحات إلى صيغة PDF",
+	"prefs-uemodulepdf": "وحدة تصدير PDF العالمية",
+	"uemodulepdf": "وحدة تصدير PDF العالمية",
+	"bs-uemodulepdf-pref-suppressns": "إخفاء بادئة النطاق في PDF",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-text": "صفحة PDF واحدة",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-title": "تصدير هذه الصفحة كملف PDF.",
+	"bs-uemodulepdf-overview-title": "نسق المستندات المنقولة (PDF)",
+	"bs-uemodulepdf-overview-desc": "تصدير الصفحات (الصفحات الخاصة وصفحات المحتوى) إلى PDF.",
+	"bs-uemodulepdf-overview-webservice-state": "حالة النهاية الخلفية",
+	"bs-uemodulepdf-overview-webservice-state-ok": "متاح",
+	"bs-uemodulepdf-overview-webservice-state-not-ok": "غير متاح",
+	"soap-service-url-not-valid": "مسار خدمة إنشاء PDF على الويب غير صالح; يُرجَى التحقق من تكوين الويكي.",
+	"soap-service-url-not-set": "لم يتم تعيين مسار خدمة إنشاء PDF على الويب; يُرجَى التحقق من تكوين الويكي.",
+	"bs-uemodulepdf-overview-webservice-webadmin": "الواجهة الخلفية للويب",
+	"action-uemodulepdf-export": "تصدير صفحة إلى PDF",
+	"right-uemodulepdf-export": "تصدير صفحة إلى PDF"
+}

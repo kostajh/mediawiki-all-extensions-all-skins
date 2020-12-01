@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"rightfunctions-desc": "Mga tungkuling pambanghay na nakabatay sa kapahintulutan",
+	"rightfunctions-rest1": "$1 $2",
+	"rightfunctions-rest2": "$1 $2$5 $3 $4",
+	"rightfunctions-rest3": "$1 $2$7 $3 $4$7 $5 $6",
+	"rightfunctions-sep": ",",
+	"rightfunctions-casc": "(mula sa mga pinagmumulang baita-baitang)",
+	"rightfunctions-local": "(mula sa pampook/lokal na pahina)",
+	"rightfunctions-ns": "(mula sa pagsasanggalang ng espasyo ng pangalan)"
+}

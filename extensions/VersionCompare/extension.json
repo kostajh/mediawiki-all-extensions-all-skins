@@ -1,0 +1,40 @@
+{
+	"name": "VersionCompare",
+	"version": "1.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Cindy.cicalese Cindy Cicalese]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:VersionCompare",
+	"descriptionmsg": "version-compare-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"AutoloadClasses": {
+		"SpecialVersionCompare": "includes/SpecialVersionCompare.php"
+	},
+	"SpecialPages": {
+		"VersionCompare": "SpecialVersionCompare"
+	},
+	"MessagesDirs": {
+		"VersionCompare": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"VersionCompareAlias": "i18n/VersionCompare.i18n.alias.php"
+	},
+	"ResourceModules": {
+		"ext.VersionCompare": {
+			"styles": [
+				"VersionCompare.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "VersionCompare/resources"
+	},
+	"manifest_version": 2
+}

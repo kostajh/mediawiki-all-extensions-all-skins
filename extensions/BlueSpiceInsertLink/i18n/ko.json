@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Comjun04",
+			"Hwangjy9",
+			"Revi",
+			"Ykhwong"
+		]
+	},
+	"bs-insertlink-desc": "링크 입력을 위한 대화 상자",
+	"prefs-insertlink": "링크 넣기",
+	"bs-insertlink": "링크 넣기",
+	"bs-insertlink-pref-enable-java": "자바 애플릿 활성화",
+	"bs-insertlink-button-title": "링크 넣기/편집",
+	"bs-insertlink-dialog-title": "링크 넣기",
+	"bs-insertlink-tab-wiki-page": "위키 페이지",
+	"bs-insertlink-tab-ext-link": "외부 링크",
+	"bs-insertlink-tab-email": "이메일-링크",
+	"bs-insertlink-tab-file": "파일의 링크",
+	"bs-insertlink-label-page": "문서",
+	"bs-insertlink-label-link": "링크",
+	"bs-insertlink-label-mail": "이메일 주소",
+	"bs-insertlink-label-description": "설명",
+	"bs-insertlink-label-file": "파일",
+	"bs-insertlink-label-searchfile": "검색 ...",
+	"bs-insertlink-select-a-page": "대상 선택 ...",
+	"bs-insertlink-select-a-namespace": "(문서)",
+	"bs-insertlink-internal-file-link-button-label": "파일 선택",
+	"bs-insertlink-external-file-switch-label": "네트워크 공유 경로 (URI)"
+}

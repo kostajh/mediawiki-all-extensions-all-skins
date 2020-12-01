@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"indexfunc-desc": "Funkcia syntaktického analyzátora na automatickú tvorbu presmerovaní a rozlišovacích stránok",
+	"indexfunc-badtitle": "Neplatný názov: „$1“",
+	"indexfunc-editwarning": "Upozornenie: Tento názov je indexový názov {{PLURAL:$2|nasledovnej stránky|nasledovných stránok}}:\n$1\nUistite sa, že stránka, ktorú sa chystáte vytvoriť už neexistuje pod iným názvom.\nAk túto stránku vytvoríte, odstráňte jej názov z <nowiki>{{#index:}}</nowiki> v hore {{PLURAL:$2|uvedenej stránke|uvedených stránkach}}.",
+	"indexfunc-index-exists": "Stránka „$1“ už existuje",
+	"indexfunc-movewarn": "Upozornenie: „$1“ je indexový názov {{PLURAL:$3|nasledovnej stránky|nasledovných stránok}}:\n$2\nProsím, odstráňte „$1“ z <nowiki>{{#index:}}</nowiki> v hore {{PLURAL:$3|uvedenej stránke|uvedených stránkach}}.",
+	"index": "Index",
+	"index-legend": "Hľadať v indexe",
+	"index-search": "Hľadať:",
+	"index-submit": "Odoslať",
+	"index-disambig-start": "'''$1''' môže odkazovať na niekoľko stránok:",
+	"index-emptylist": "S „$1“ nesúvisia žiadne stránky",
+	"index-expand-detail": "Zobraziť stránky indexované pod týmto názvom",
+	"index-hide-detail": "Skryť zoznam stránok",
+	"index-no-results": "Hľadanie nevrátilo žiadne výsledky",
+	"index-search-explain": "Táto stránka používa predponu vyhľadávania.\n\nNapíšte niekoľko prvých znakov a stlačte tlačidlo odoslať. Vyhľadajú sa názvy stránok a položky indexu začínajúce zadaným reťazcom.",
+	"index-details-explain": "Položky s šípkami sú položky indexu.\nPo kliknutí na šípku sa zobrazia všetky stránky indexované pod daným názvom."
+}

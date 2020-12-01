@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"mediafunctions-desc": "Parserske funkcije za dobivanje informacija o medijskim datotekama",
+	"mediafunctions-invalid-title": "\"$1\" je nevaljan naslov",
+	"mediafunctions-not-exist": "\"$1\" ne postoji"
+}

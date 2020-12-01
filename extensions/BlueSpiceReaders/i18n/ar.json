@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"bs-readers-desc": "ينشئ قائمة بالأشخاص الذين يقرؤون صفحة",
+	"prefs-readers": "القراء",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|قارئ|قارئة}}|قراء}}",
+	"readers-user": "{{GENDER:$1|قرأ|قرأت}} الصفحات: $1",
+	"readers": "قراء \"$1\"",
+	"bs-readers-contentactions-label": "عرض القراء",
+	"bs-readers-pagenotexists": "الصفحة غير موجودة.",
+	"bs-readers-pref-active": "تنشيط القراء",
+	"bs-readers-pref-numofreaders": "عدد القراء الذين سيتم عرضهم:",
+	"bs-readers-emptyinput": "لم يتم تقديم أية صفحة.",
+	"bs-readers-header-username": "اسم المستخدم",
+	"bs-readers-header-readerspath": "قارئ",
+	"bs-readers-header-ts": "التاريخ",
+	"bs-readers-header-page": "الصفحة",
+	"apihelp-bs-readers-data-store-description": "احصل على معلومات القارئ لصفحة محددة.",
+	"apihelp-bs-readers-data-store-summary": "احصل على معلومات القارئ لصفحة محددة.",
+	"apihelp-bs-readers-users-store-description": "الحصول على جميع معلومات القراء لصفحة محددة.",
+	"apihelp-bs-readers-users-store-summary": "الحصول على جميع معلومات القراء لصفحة محددة.",
+	"apihelp-bs-readers-page-readers-store-summary": "يحصل على جميع قراء جميع الصفحات",
+	"action-viewreaders": "عرض قراء الصفحات",
+	"bs-readers-flyout-title": "قراء هذه الصفحة",
+	"right-viewreaders": "عرض قراء صفحة",
+	"bs-readers-privacy-transparency-working-readers": "قراء بلو سبيس - {{GENDER:$3|أنت}} قرأت الصفحة $1 في $2"
+}

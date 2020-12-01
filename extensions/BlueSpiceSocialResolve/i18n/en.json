@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-socialresolve-desc": "Resolve functionality for BlueSpiceSocial-entities",
+	"bs-socialresolve-status-resolved": "Resolved",
+	"bs-socialresolve-status-notresolved": "Unresolved",
+	"bs-socialresolve-var-resolved": "Resolve status",
+	"apihelp-bs-socialresolve-tasks-summary": "Provides tasks for editing the resolve status of entities"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"openstackmanager-delete": "മായ്ക്കുക",
+	"openstackmanager-actions": "പ്രവൃത്തികൾ",
+	"openstackmanager-notloggedin": "ലോഗിൻ ചെയ്യേണ്ടതുണ്ട്",
+	"openstackmanager-mustbeloggedin": "ഈ പ്രവൃത്തി ചെയ്യാൻ ലോഗിൻ ചെയ്യേണ്ടതുണ്ട്.",
+	"openstackmanager-novapublickey": "പൊതു എസ്.എസ്.എച്ച്. ചാവി",
+	"openstackmanager-name": "പേര്"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Indech"
+		]
+	},
+	"semanticinternalobjects-desc": "Configuração de objetos internos no MediaWiki Semântico",
+	"semanticinternalobjects-internalproperty": "Propriedade interna",
+	"semanticinternalobjects-mainpropertyname": "Nome da propriedade para ligar os campos desta predefinição ao resto da página:",
+	"semanticinternalobjects-propnamewarning": "(só deve ser usado se esta predefinição puder ter mais do que uma instância)"
+}

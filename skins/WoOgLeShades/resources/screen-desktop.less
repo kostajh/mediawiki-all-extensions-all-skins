@@ -1,0 +1,124 @@
+/* Styles appear on displays over 750 pixels wide */
+
+@import 'variables.less';
+
+// Override menu display from mobile toggling
+#p-global-links .mw-portlet-body,
+#mw-sidebar,
+#p-actions .mw-portlet-body,
+#p-lang .mw-portlet-body,
+#p-variants .mw-portlet-body {
+	display: block !important;
+}
+
+#p-personal {
+	display: inline !important;
+}
+
+.mw-portlet-body h3 {
+	display: none;
+}
+
+#mw-navigation,
+#mw-sidebar,
+#page-tools,
+#content-header,
+#content,
+#footer {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#user-tools {
+	float: right;
+}
+
+#p-personal,
+#p-personal h3,
+#p-personal-extra,
+#p-personal-extra ul,
+#p-personal-extra li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+#p-search {
+	float: right;
+	clear: right;
+	margin: 0.5em 0;
+}
+
+#searchInput {
+	min-width: 16em;
+}
+
+#site-navigation .mw-portlet h3 {
+	font-size: 1em;
+}
+
+#global-navigation {
+	max-height: 7em;
+	color: @grey0;
+
+	h3 {
+		font-size: 2em;
+	}
+
+	ul {
+		margin: -0.125em 0 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		display: inline-block;
+		margin-right: 1em;
+	}
+}
+
+#p-personal,
+#p-actions,
+#p-variants,
+#p-lang {
+	.dropdown();
+}
+
+
+#p-personal h3,
+#p-actions-label,
+#p-variants-label,
+#p-lang-label {
+	.dropdown-toggle();
+}
+
+#p-actions,
+#p-variants,
+#p-lang {
+	.mw-portlet-body {
+		margin-right: -1em;
+	}
+}
+
+#page-tools .selected a {
+	color: @grey0;
+}
+
+#p-personal h3 {
+	background-image: url( images/arrow-down-white.svg );
+}
+
+#p-logo {
+	text-align: center;
+	float: left;
+
+	// Make logo image visible
+	// The class sets the background image from $wgLogo, but we still need to give it a size in order to show up
+	a.mw-wiki-logo {
+		float: left;
+		width: 5em;
+		height: 5em;
+		margin: -0.5em 1em 0 0;
+	}
+}

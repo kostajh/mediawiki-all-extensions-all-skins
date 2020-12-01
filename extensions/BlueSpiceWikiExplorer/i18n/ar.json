@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-wikiexplorer-extension-description": "فرز المقالات حسب المعايير",
+	"bs-wikiexplorer-page-title": "عنوان",
+	"bs-wikiexplorer-page-namespace": "نطاق",
+	"bs-wikiexplorer-creation-date": "تاريخ الإنشاء",
+	"bs-wikiexplorer-is-redirect": "تحويلة",
+	"bs-wikiexplorer-last-comment": "آخر تعليق",
+	"bs-wikiexplorer-last-edit-time": "تاريخ التعديل الأخير",
+	"bs-wikiexplorer-page-size": "الحجم",
+	"bs-wikiexplorer-last-author": "آخر محرر",
+	"bs-wikiexplorer-categories": "تصنيفات",
+	"bs-wikiexplorer-linked-files": "الملفات المرتبطة",
+	"bs-wikiexplorer-linked-pages": "الصفحات المرتبطة",
+	"apihelp-bs-wikiexplorer-store-description": "يوفر جميع البيانات للامتداد WikiExplorer",
+	"apihelp-bs-wikiexplorer-store-param-metaLoaded": "وسط API للإشارة إلى ما إذا كان قد تم بالفعل تحميل البيانات الوصفية.",
+	"apihelp-bs-wikiexplorer-store-summary": "يوفر جميع البيانات للامتداد WikiExplorer"
+}

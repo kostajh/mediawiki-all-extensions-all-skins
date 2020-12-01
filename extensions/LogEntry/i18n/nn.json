@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"logentry-append": "Legg til",
+	"logentry-parserhook-desc": "Denne merkeutvidinga gjev eit skjema for å leggja til element etter/føre på loggsider",
+	"logentry-specialpage-desc": "Denne merkeutvidinga gjev handsaming for leggja til element på loggsider",
+	"logentry": "Loggelement",
+	"logentry-invalidpage": "Ugyldig side: $1",
+	"logentry-invalidtoken": "Ugyldig token"
+}

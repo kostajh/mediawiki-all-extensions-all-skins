@@ -1,0 +1,39 @@
+{
+	"name": "mediawiki/n-s-file-repo",
+	"type": "mediawiki-extension",
+	"description": "Provide namespace based features to uploaded files",
+	"authors": [
+		{
+			"name": "Jack D. Pond",
+			"role": "Developer"
+		},
+		{
+			"name": "Robert Vogel",
+			"role": "Developer"
+		}
+	],
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"mediawiki/minus-x": "1.1.0",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"NSFileRepo\\Tests\\": "tests/phpunit",
+			"NSFileRepo\\": "src"
+		}
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"minus-x check ."
+		],
+		"fix": [
+			"minus-x fix ."
+		]
+	}
+}

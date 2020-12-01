@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apihelp-parsoid-batch-description": "API de batch (pe Parsoid) pe ffà le richieste de masse pe l'API de MediaUicchi",
+	"apihelp-parsoid-batch-summary": "API de batch pe Parsoid",
+	"apihelp-parsoid-batch-param-batch": "Aziune de richieste de API (max 500 pe accocchiamende).",
+	"apierror-parsoid-batch-notallowed": "Indirizze IP d'u client ca non ge ste jndr'à ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "Batch invalide, adda essere 'na matrice.",
+	"apierror-parsoid-batch-batchtoolarge": "Batch troppe larie, 'u limite jè 500.",
+	"apierror-parsoid-batch-invalidaction": "Azione invalide jndr'à l'indice de vôsce $1.",
+	"apierror-parsoid-batch-texttoobig": "'U teste mise sbonne 'a dimenzione massime d'a pàgene.",
+	"apierror-parsoid-batch-invalidtitle": "Titole invalide: ($1).",
+	"apierror-parsoid-batch-mustbescalar": "'U parametre <var>$1</var> adda essere 'nu scalare.",
+	"apierror-parsoid-batch-mustbearray": "'U parametre <var>$1</var> adda essere 'na matrice."
+}

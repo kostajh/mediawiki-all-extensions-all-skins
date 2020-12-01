@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"securehtml": "Sicheres HTML",
+	"securehtml-desc": "Ermöglicht den Einschluss von beliebigem HTML auf sichere Weise",
+	"securehtml-nokeys": "Fehler: <code>$wgSecureHTMLSecrets</code> ist nicht eingetragen.",
+	"securehtml-hashrequired": "Fehler: Hash erforderlich.",
+	"securehtml-invalidhash": "Fehler: Ungültiger Hash.",
+	"securehtml-input-title": "HTML-Eingabe",
+	"securehtml-generatedoutput-title": "Erzeugte Ausgabe",
+	"securehtml-renderedhhtml-title": "Gerendertes HTML",
+	"securehtml-form-keyname": "Schlüsselname (optional)",
+	"securehtml-form-keysecret": "Schlüsselgeheimnis",
+	"securehtml-form-html": "Rohes HTML",
+	"securehtml-form-submit": "Übertragen",
+	"securehtml-inputinstructions": "Gib einen Schlüsselnamen (optional), ein Schlüsselgeheimnis und das gewünschte Roh-HTML ein.\nFalls kein Schlüsselname angegeben ist, wird der erste Schlüssel in <code>$wgSecureHTMLSecrets</code> angenommen.",
+	"securehtml-outputinstructions": "Kopiere den oben stehenden Code GENAU und füge ihn in den Wiki-Editor ein.\nFalls der erzeugte Code nicht funktioniert, versuche das Entfernen aller Zeilenvorschübe des Eingabe-HTML und versuche es erneut."
+}

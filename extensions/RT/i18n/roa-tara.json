@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"rt-desc": "Inderfacce de fandasìe a RT (Request Tracker)",
+	"rt-inactive": "L'estenzione RT non g'è attivate",
+	"rt-badquery": "L'estenzione RT ha acchiate 'n'errore quanne parlave cu 'u database RT.",
+	"rt-badlimit": "<code>LIMIT</code> invalide (<code>l</code>) l'argomende: adda essere 'nu numere.\nE' pruvate cu: '''$1'''",
+	"rt-badorderby": "<code>ORDER BY</code> invalide (<code>ob</code>) l'argomende: adda essere 'nu cambe standàrd ('ndruche 'a documendazione).\nE' pruvate cu: '''$1'''",
+	"rt-badstatus": "<code>status</code> (<code>s</code>) de l'argomende invalide: adda essere 'nu cambe standàrd ('ndruche 'a documendazione).\nTu è pruvate: \"$1\"",
+	"rt-badcfield": "L'argomende du cambe personalizzate jè invalide: adda essere 'na parola semblice ('ndruche 'a documendazione).\nTu è pruvate: \"$1\"",
+	"rt-badqueue": "<code>queue</code> (<code>q</code>) de l'argomende invalide: adda essere 'na parola semblice.\nTu è pruvate: \"$1\"",
+	"rt-badowner": "<code>owner</code> (<code>o</code>) de l'argomende invalide: adda essere 'nu nome utende valide.\nTu è pruvate: \"$1\"",
+	"rt-nomatches": "Nisciune ticket RT ha state acchiate."
+}

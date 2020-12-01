@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel"
+		]
+	},
+	"bs-visualdiff-extension-description": "Formatierte Darstellung der Unterschiede zwischen zwei Revisionen einer Seite.",
+	"bs-visualdiff-return-to-history": "Zur Versionsübersicht zurückkehren",
+	"bs-visualdiff-error-oldid-invalid": "Die angegebene Basisrevison ist ungültig.",
+	"bs-visualdiff-error-diff-invalid": "Die angegebene Vergleichsrevision ist ungültig.",
+	"bs-visualdiff-popup-next": "Nächste&nbsp;Änderung",
+	"bs-visualdiff-popup-prev": "Vorherige&nbsp;Änderung",
+	"bs-visualdiff-classicdiffengine-tab": "Klassisch",
+	"bs-visualdiff-htmldiffengine-tab": "Visuell",
+	"bs-visualdiff-unifiedtextdiffengine-tab": "WikiText",
+	"bs-visualdiff-removed-text": "Dieses Element wurde entfernt",
+	"bs-visualdiff-added-text": "Dieses Element wurde hinzugefügt",
+	"bs-visualdiff-changed-text": "Dieses Element hat sich verändert"
+}

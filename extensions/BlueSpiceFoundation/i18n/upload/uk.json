@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-upload-uploaddialogtitle": "Завантажити файл",
+	"bs-upload-uploadbuttontext": "Огляд",
+	"bs-upload-uploadfilefieldlabel": "Назва файлу",
+	"bs-upload-uploadfileemptytext": "Вставте новий файл...",
+	"bs-upload-uploaddestfilelabel": "Цільова назва файлу",
+	"bs-upload-allowedfiletypesare": "Допустимі типи файлів:",
+	"bs-upload-license": "Ліцензія",
+	"bs-upload-uploadwatchthislabel": "Спостерігати за цим файлом",
+	"bs-upload-uploadignorewarningslabel": "Ігнорувати всі попередження",
+	"bs-upload-categories": "Категорії",
+	"bs-upload-upload-waitmessage": "Триває завантаження ...",
+	"bs-upload-error": "Помилка",
+	"bs-upload-descfilelabel": "Опис",
+	"bs-upload-error-long": "Помилка в процесі завантаження",
+	"bs-upload-filetypenotsupported": "Тип файлу не підтримується",
+	"bs-upload-details": "Деталі",
+	"bs-upload-uploadwarningdialog-title": "Завантажити файл: Попередження",
+	"bs-upload-uploadwarningdialog-intro": "При спробі завантажити файл з'явилися такі попередження",
+	"bs-upload-uploadwarningdialog-outro": "Клацніть «{{int:bs-extjs-ok}}», щоб проігнорувати попередження й завантажити файл, або клацніть «{{int:bs-extjs-cancel}}», щоб повернутися до форми завантаження",
+	"bs-upload-uploadwarningdialog-warning-exists": "Файл з назвою «$1» вже існує",
+	"bs-upload-uploadwarningdialog-warning-duplicate": "Є {{PLURAL:$1|один дублікат|дублікати}} цього файлу",
+	"bs-upload-uploadwarningdialog-warning-unknown": "Невідоме попередження з кодом «$1»"
+}

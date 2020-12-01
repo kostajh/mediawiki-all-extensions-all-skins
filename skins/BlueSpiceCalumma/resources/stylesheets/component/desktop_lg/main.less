@@ -1,0 +1,19 @@
+body.mediawiki,
+body.mediawiki.x-body {
+	.center-col {
+		width: @theme-content-width;
+		padding: 0;
+	}
+	&:not( .navigation-main-collapse ):not( .sitetools-main-collapse ),
+	&.navigation-main-collapse.sitetools-main-collapse,
+	&:not( .navigation-main-collapse ).sitetools-main-collapse,
+	&:not( .sitetools-main-collapse ).navigation-main-collapse {
+		.west-col,
+		.east-col {
+			min-width: 380px;
+		}
+		.center-col {
+			max-width: calc(~"100vw - 760px");
+		}
+	}
+}

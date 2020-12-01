@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"accountinfo": "Información de la cuenta",
+	"accountinfo-desc": "Permite que los usuarios vean la información privada propia",
+	"accountinfo-ts": "Marca d'hora",
+	"accountinfo-ip": "Direición IP",
+	"accountinfo-ua": "Axente d'usuariu",
+	"accountinfo-xff": "Testera XFF",
+	"accountinfo-length": "La información ta retenida demientres $1.",
+	"accountinfo-now": "Agora"
+}

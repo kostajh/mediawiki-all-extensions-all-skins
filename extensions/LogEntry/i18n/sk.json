@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Vlad5250"
+		]
+	},
+	"logentry-append": "Pridať",
+	"logentry-parserhook-desc": "Toto rozšírenie poskytuje značku formulára na pridávanie k stránkam záznamov",
+	"logentry-specialpage-desc": "Toto rozšírenie poskytuje logiku pridávania k stránkam záznamov",
+	"logentry": "PoložkaZáznamu",
+	"logentry-invalidpage": "Neplatná stránka: $1.",
+	"logentry-invalidtoken": "Neplatný token"
+}

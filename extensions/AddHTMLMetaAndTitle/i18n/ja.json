@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kkairri",
+			"Yusuke1109"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "SEO（検索エンジンの最適化）を容易にする",
+	"addhtmlmetaandtitle-empty-attr": "&lt;seo&gt; タグには、一つ以上の空ではない \"title\", \"metak(eywords)\", \"metad(escription)\" 要素を含めなければなりません。"
+}

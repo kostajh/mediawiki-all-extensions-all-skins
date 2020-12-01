@@ -1,0 +1,123 @@
+@import 'mediawiki.mixins';
+@import '../mediainfo-variables.less';
+@import '../filepage/styles/mediainfo-filepage-statementpanel';
+
+.wbmi-statements-widget {
+	margin-bottom: @wbmi-spacing-sm;
+
+	@media screen and ( max-width: @width-breakpoint-tablet ) {
+		font-size: 0.9em;
+	}
+
+	// force all links (and links that act as button) to OOUI's primary color
+	a {
+		color: @color-primary;
+	}
+
+	h4.wbmi-entity-label {
+		.flex-display();
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+	}
+
+	// Statements header
+	h3.wbmi-statements-title {
+		.wbmi-filepage-panel-header();
+		margin-bottom: 0;
+
+		// the adjacent selector will make sure that this styling is *not* applied if
+		// a more elaborate .wbmi-statements-title title is missing, in which case
+		// all we have is this label, and it needs more emphasis
+		+ h4.wbmi-entity-label {
+			font-weight: normal;
+			font-style: italic;
+		}
+	}
+
+	.wbmi-statement-header {
+		.flex-display();
+		align-items: baseline;
+		margin-bottom: @wbmi-spacing-base;
+
+		// Panel edit button; only gets included on filepage (CSS is not needed
+		// to hide it elsewhere).
+		.wbmi-entityview-editButton {
+			.wbmi-filepage-panel-controls();
+			margin-right: 0;
+		}
+	}
+
+	.wbmi-statement-input {
+		// increased specificity is required to override default OOUI
+		// inputWidget margin styles for the wbmi-statement-input element.
+		/* stylelint-disable-next-line selector-class-pattern */
+		&.oo-ui-inputWidget {
+			margin-right: 0;
+		}
+
+		& input {
+			text-overflow: ellipsis;
+		}
+
+		// Added specificity here is needed to override default OOUI label
+		// behavior
+		/* stylelint-disable-next-line selector-class-pattern */
+		.wbmi-entityview-statementsGroup & > .oo-ui-labelElement-label {
+			display: none;
+
+			@media screen and ( min-width: @width-breakpoint-tablet ) {
+				display: initial;
+			}
+		}
+	}
+
+	.wbmi-statement-footer {
+		.flex();
+		.flex-display();
+		.flex-wrap();
+
+		> * {
+			.flex(1, 1, auto);
+			margin-top: 1em;
+		}
+
+		/* stylelint-disable-next-line selector-class-pattern */
+		.oo-ui-pendingElement-pending & {
+			display: none;
+		}
+	}
+
+	.wbmi-entity-data {
+		.flex-display();
+		.flex(1, 1, auto, 0);
+		align-items: baseline;
+
+		.wbmi-entity-title {
+			.flex(1, 1, auto, 0);
+
+			// MW global styles for heading elements need to be overridden here
+			.wbmi-entity-label {
+				position: relative;
+				margin: 0;
+				padding: 0;
+			}
+		}
+
+		@media screen and ( max-width: @width-breakpoint-tablet ) {
+			display: block;
+
+			.wbmi-entity-title {
+				width: auto;
+			}
+		}
+	}
+
+	.wbmi-statement-error-msg {
+		margin-bottom: 16px;
+	}
+
+	.wbmi-statement-error-msg--inline {
+		padding: 8px;
+	}
+}

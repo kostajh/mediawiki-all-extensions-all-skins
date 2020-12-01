@@ -1,0 +1,38 @@
+{
+	"name": "ChangeAuthor",
+	"version": "1.2.3",
+	"author": [
+		"Roan Kattouw"
+	],
+	"license-name": "GPL-3.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:ChangeAuthor",
+	"descriptionmsg": "changeauthor-desc",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"type": "specialpage",
+	"SpecialPages": {
+		"ChangeAuthor": "ChangeAuthor"
+	},
+	"MessagesDirs": {
+		"ChangeAuthor": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ChangeAuthorAliases": "ChangeAuthor.alias.php"
+	},
+	"LogTypes": [
+		"changeauth"
+	],
+	"LogActionsHandlers": {
+		"changeauth/*": "LogFormatter"
+	},
+	"AutoloadClasses": {
+		"ChangeAuthor": "includes/ChangeAuthor.php"
+	},
+	"AvailableRights": [
+		"changeauthor"
+	],
+	"manifest_version": 1
+}

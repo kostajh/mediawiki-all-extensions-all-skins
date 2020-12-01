@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"apihelp-parsoid-batch-summary": "Stapel-API für Parsoid",
+	"apihelp-parsoid-batch-param-batch": "Aktions-API-Anfragen (maximal 500 pro Treffer).",
+	"apierror-parsoid-batch-notallowed": "Die IP-Adresse des Clients ist nicht in ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "Ungültiger Stapel. Muss eine Reihe sein.",
+	"apierror-parsoid-batch-batchtoolarge": "Der Stapel ist zu groß. Das Limit ist 500.",
+	"apierror-parsoid-batch-invalidaction": "Ungültige Aktion in Objektindex $1.",
+	"apierror-parsoid-batch-texttoobig": "Der eingegebene Text überschreitet die maximale Seitengröße.",
+	"apierror-parsoid-batch-invalidtitle": "Ungültiger Titel ($1).",
+	"apierror-parsoid-batch-mustbescalar": "Der Parameter <var>$1</var> muss skalar sein.",
+	"apierror-parsoid-batch-mustbearray": "Der Parameter <var>$1</var> muss eine Reihe sein."
+}

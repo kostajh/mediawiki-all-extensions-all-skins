@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"BRUTE",
+			"David1010",
+			"MIKHEIL"
+		]
+	},
+	"openstackmanager": "OpenStackManager",
+	"openstackmanager-delete": "წაშლა",
+	"openstackmanager-actions": "მოქმედებები",
+	"openstackmanager-notloggedin": "შესვლა აუცილებელია",
+	"openstackmanager-novapublickey": "საჯარო SSH გასაღები",
+	"openstackmanager-deletekey": "საჯარო SSH გასაღების წაშლა",
+	"openstackmanager-keylist": "საჯარო SSH გასაღებების სია",
+	"openstackmanager-name": "სახელი",
+	"openstackmanager-keys": "გასაღებები",
+	"openstackmanager-deletedkey": "გასაღები წარმატებით წაიშალა."
+}

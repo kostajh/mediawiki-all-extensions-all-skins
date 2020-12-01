@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"emailauth-desc": "Condrolle le accesse sospette ausanne l'email",
+	"emailauth-token-label": "Codece de verifeche",
+	"emailauth-token-help": "Gettone 2FA one-time mannate pe email.",
+	"emailauth-email-subject": "'U codece de condrolle de accesse tune sus a $1",
+	"emailauth-email-body": "'U codece de condrolle de accesse tune sus a $1 jè $2",
+	"emailauth-login-message": "A condrollà l'accesse tune. 'Nu codece de verifeche ha state mannate a 'u 'ndirizze email tune ($1), mitte 'u codece aqquà.",
+	"emailauth-login-failure": "Codece de verifeche non valide!",
+	"emailauth-login-retry-limit": "Troppe tendative fallite!"
+}

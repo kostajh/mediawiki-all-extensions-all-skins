@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"StanProg",
+			"Vodnokon4e"
+		]
+	},
+	"lookupuser": "Преглед на потребителска информация",
+	"lookupuser-desc": "[[Special:LookupUser|Извлича информация]] за потребител - електронна поща, потребителски номер и др.",
+	"lookupuser-intro": "Въведете потребителско име за да видите предпочитанията на потребителя. Също може да бъде използван адрес на електронна поща, който ще покаже всички акаунти, използващи този пощенска кутия.",
+	"lookupuser-nonexistent": "Грешка: Потребителят не съществува",
+	"lookupuser-authenticated": "потвърден на $1",
+	"lookupuser-not-authenticated": "не е удостоверен",
+	"lookupuser-id": "Потребителски номер: <tt>#$1</tt>",
+	"lookupuser-email": "Е-поща: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-no-email": "не е посочена",
+	"lookupuser-realname": "Име и фамилия: $1",
+	"lookupuser-registration": "Дата на регистрация: $1",
+	"lookupuser-no-registration": "не е записана",
+	"lookupuser-touched": "Последна промяна на потребителските настройки: $1",
+	"lookupuser-info-authenticated": "Удостоверяване по електронна поща: $1",
+	"lookupuser-useroptions": "Потребителски настройки:",
+	"lookupuser-foundmoreusers": "Открити са повече от един потребител:",
+	"right-lookupuser": "Преглед на потребителските предпочитания",
+	"action-lookupuser": "Преглед на потребителските предпочитания"
+}

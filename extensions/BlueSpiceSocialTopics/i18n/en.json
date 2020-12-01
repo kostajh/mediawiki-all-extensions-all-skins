@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth <wirth@hallowelt.com>"
+		]
+	},
+	"bs-socialtopics-desc": "Topic and discussion entities for BlueSpiceSocial",
+	"bs-socialtopics-pref-skipcreatedialog": "Skip dialog on discussion creation",
+	"bs-socialtopics-toc-entalkpageautocreate": "Automatically create all discussion pages",
+	"bs-socialtopics-autocreated-discussionpage": "This discussion page was created automatically.",
+	"bs-socialtopics-autocreated-discussionpagefile": "This discussion page was created automatically.",
+	"bs-socialdiscussion-discussiontype": "Discussion",
+	"bs-socialdiscussion-topictype": "Discussion topic",
+	"bs-socialtopics-entitydiscussion-header": "[[$9]]",
+	"bs-socialtopics-entitydiscussion-header-create": "Create new discussion",
+	"bs-social-entitytopic-header-create": "New Topic",
+	"bs-social-entitytopic-header": "[[Special:Topics/$3|$9]]",
+	"bs-socialtopics-var-topictitle": "Title",
+	"bs-socialtopics-var-discussiontitleid": "Assigned discussion page",
+	"bs-socialtopics-entity-fatalstatus-save-notalkpage": "Not a valid discussion page",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "$1 started the topic:",
+	"topics": "Topics",
+	"bs-socialtopics-special-topics-heading": "All topics",
+	"bs-socialtopics-special-topics-heading-entry": "Topic/$1",
+	"bs-socialtopics-aftercontent-heading": "Discussions",
+	"bs-socialtopics-nodiscussionpage": "No discussion page has been created yet.",
+	"bs-socialtopics-nodiscussionpage-create": "Create new discussion page",
+	"bs-socialtopics-nodiscussion": "No discussion has been created yet.",
+	"bs-socialtopics-notopicsadded": "No topic has been created yet.",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "Save",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "Cancel",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "Content",
+	"bs-socialtopics-switch-nodiscussion-description": "Hides discussion on this page."
+}

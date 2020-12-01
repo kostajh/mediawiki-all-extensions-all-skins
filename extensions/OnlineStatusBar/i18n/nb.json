@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"onlinestatusbar-desc": "Statusfelt som viser hvorvidt en bruker er online på brukersiden deres",
+	"prefs-onlinestatus": "Onlinestatus",
+	"onlinestatusbar-used": "Vis onlinestatusen din på brukersiden din",
+	"onlinestatusbar-hide": "Skjul statusfeltet på brukersider for å i stedet bruke det magiske ordet (for avanserte brukere)",
+	"onlinestatusbar-away": "Behandle som borte etter angitt intervall",
+	"onlinestatusbar-purge": "Gjenoppfrisk brukerside hver gang du logger inn eller logger ut",
+	"onlinestatusbar-status": "Hvilken standardstatus ønsker du å bruke?",
+	"onlinestatusbar-away-time": "Hvor mange minutter før du merkes som borte?",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Online}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Opptatt}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Borte}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Skjult}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Offline}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Ukjent}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Denne brukeren}} er nå online",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Denne brukeren}} er opptatt og kan være utilgjengelig",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Denne brukeren}} er inaktiv og kan være utilgjengelig",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Denne brukeren}} er offline",
+	"onlinestatusbar-tooltip-unknown": "{{GENDER:$1|Denne brukerens}} status er ukjent",
+	"apihelp-query+onlinestatus-description": "Returnerer onlinestatus og kjønnet til brukeren",
+	"apihelp-query+onlinestatus-summary": "Returnerer onlinestatus og kjønnet til brukeren",
+	"apihelp-query+onlinestatus-param-user": "Brukernavnet til brukeren du vil hente status for",
+	"apihelp-query+onlinestatus-example": "Viser onlinestatus for Petrb"
+}

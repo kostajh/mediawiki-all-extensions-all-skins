@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"nukedpl": "Borrado masivo por petición LPD",
+	"nukedpl-desc": "Engade unha [[Special:NukeDPL|paxina especial]] para borrado masivo por petición LPD",
+	"nukedpl-intro": "\nEsta ferramenta permite o borrado masivo de páxinas seleccionadas por unha consulta DPL.\n\nInsira a consulta abaixo para xenerar unha lista de títulos a borrar.\n* Os títulos poden ser eliminados individualmente antes do borrado.\n* Lembre, os títulos de páxina son sensibles a maiúsculas e minúsculas\n* As consultas non deben estar rodeadas por etiquetas DPL ou corchetes\n* Para obter información sobre o significado dos parámetros, consulte o [http://semeb.com/dpldemo/index.php?title=DPL:Manual Manual de DPL].",
+	"nukedpl-candidatelist": "Ver lista de candidatos",
+	"nukedpl-nopages": "Non hai páxinas a borrar usando a petición LPD: <code>$1</code>",
+	"nukedpl-nuke": "Suprimir!",
+	"nukedpl-list": "{{PLURAL:$1|A seguinte páxina foi|as seguintes páxinas foron}} seleccionadas pola consulta DPL: <code>$2</code>\n\nPrema \"{{int:nukedpl-nuke}}\" para  {{PLURAL:$1|borrala|borralas}}.",
+	"nukedpl-defaultreason": "Borrado masivo de páxinas seleccionadas pola petición LPD: $1",
+	"right-nukedpl": "Borrar páxinas por peticións de Lista de Páxinas Dinámica"
+}

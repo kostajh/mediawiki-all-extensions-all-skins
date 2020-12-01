@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"NGC 54"
+		]
+	},
+	"bs-notifications-addaccount": "Utilizatorul „$1” a fost creat.",
+	"bs-notifications-registeruser": "Utilizatorul „$1” a creat un cont.",
+	"bs-notifications-edit": "Pagina „$1” a fost schimbată",
+	"bs-notifications-edit-bundle": "Pagina „$2” a fost schimbată {{PLURAL:$1|$1 dată|de $1 ori}}",
+	"bs-notifications-create": "Pagina „$1” a fost creată",
+	"bs-notifications-delete": "Pagina „$1” a fost ștearsă",
+	"bs-notifications-move": "Pagina „$1” a fost mutată"
+}

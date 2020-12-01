@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"gae-desc": "Овозможува подобрувања на викијата што работат на GoogleAppEngine",
+	"apihelp-gaejobqueue-description": "Внатрешен извршнички модул за работа на JobQueue. Надворешната употреба не е дозволена.",
+	"apihelp-gaejobqueue-summary": "Внатрешен извршнички модул во редицата на задачи. Надворешната употреба не е дозволена.",
+	"apihelp-gaejobqueue-param-namespace": "Бројчена назнака на именскиот простор",
+	"apihelp-gaejobqueue-param-titletext": "Текст на насловот без именски простор.",
+	"apihelp-gaejobqueue-param-type": "Вид задача.",
+	"apihelp-gaejobqueue-param-params": "Параметри на задачата серијализирани во PHP."
+}

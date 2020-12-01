@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Base",
+			"Vlad5250"
+		]
+	},
+	"logofunctions-desc": "Додає функцію парсеру для роботи з лого вікі",
+	"logofunctions-filenotexist": "Помилка: [[:File:$1]] не існує"
+}

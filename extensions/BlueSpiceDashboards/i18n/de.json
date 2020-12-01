@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwboehm",
+			"Metalhead64",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-dashboards-desc": "Stellt Dashboards für Benutzer und Administratoren zur Verfügung",
+	"bs-specialadmindashboard-label": "Dashboard",
+	"bs-dashboards-addportlet": "Portlet hinzufügen",
+	"bs-dashboards-portlets": "Portlets",
+	"prefs-dashboards": "Dashboards",
+	"bs-dashboards-pref-userdashboardonlogo": "Logo der Website verlinkt auf das Benutzerdashboard",
+	"admindashboard": "Admin-Dashboard",
+	"userdashboard": "Benutzer-Dashboard",
+	"bs-dashboard-userportlet-calendar-title": "Kalender",
+	"bs-dashboard-userportlet-calendar-description": "Kalender",
+	"bs-dashboard-userportlet-wikipage-title": "Seite",
+	"bs-dashboard-userportlet-wikipage-description": "Verwende eine Seite, um das Widget zu definieren",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "Seite",
+	"apihelp-bs-dashboard-task-param-dc": "Cache-Kontroll-Parameter. Verwendet von ExtJS.",
+	"apihelp-bs-dashboards-store-description": "Listet alle verfügbaren Portlets auf",
+	"apihelp-bs-dashboards-store-summary": "Listet alle verfügbaren Portlets auf",
+	"apihelp-bs-dashboards-tasks-description": "Speichert die Dashboard-Konfiguration",
+	"apihelp-bs-dashboards-tasks-summary": "Speichert die Dashboard-Konfiguration",
+	"apihelp-bs-dashboards-widgets-tasks-description": "Gibt den Inhalt für einige Dashboard-Widgets zurück",
+	"apihelp-bs-dashboards-widgets-tasks-summary": "Gibt den Inhalt für einige Dashboard-Widgets zurück",
+	"action-dashboards-viewspecialpage-userdashboard": "die Spezialseite „{{int:userdashboard}}“ anzusehen",
+	"right-dashboards-viewspecialpage-userdashboard": "Zugriff auf die Spezialseite [[Special:UserDashboard]]"
+}

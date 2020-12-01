@@ -1,0 +1,117 @@
+{
+	"name": "IPInfo",
+	"url": "https://www.mediawiki.org/wiki/Extension:IPInfo",
+	"license-name": "MIT",
+	"version": "0.0.0",
+	"namemsg": "ipinfo-extensionname",
+	"descriptionmsg": "ipinfo-desc",
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.36.0"
+	},
+	"MessagesDirs": {
+		"IPInfo": [ "i18n" ]
+	},
+	"type": "other",
+	"AutoloadNamespaces": {
+		"MediaWiki\\IPInfo\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\IPInfo\\Test\\Integration\\": "tests/phpunit/integration",
+		"MediaWiki\\IPInfo\\Test\\Unit\\": "tests/phpunit/unit"
+	},
+	"ServiceWiringFiles": [
+		"./ServiceWiring.php"
+	],
+	"AvailableRights": [
+		"ipinfo",
+		"ipinfo-any"
+	],
+	"DefaultUserOptions": {
+		"ipinfo-enable": 0
+	},
+	"RestRoutes": [
+		{
+			"path": "/ipinfo/v0/revision/{id}",
+			"method": "GET",
+			"services": [
+				"IPInfoInfoManager",
+				"RevisionLookup",
+				"PermissionManager",
+				"UserOptionsLookup",
+				"UserFactory"
+			],
+			"factory": "MediaWiki\\IPInfo\\RestHandler\\RevisionHandler::factory"
+		},
+		{
+			"path": "/ipinfo/v0/log/{id}",
+			"method": "GET",
+			"services": [
+				"IPInfoInfoManager",
+				"DBLoadBalancer",
+				"PermissionManager",
+				"UserOptionsLookup",
+				"UserFactory"
+			],
+			"factory": "MediaWiki\\IPInfo\\RestHandler\\LogHandler::factory"
+		},
+		{
+			"path": "/ipinfo/v0/ip",
+			"method": "POST",
+			"services": [
+				"IPInfoInfoManager",
+				"PermissionManager",
+				"UserOptionsLookup"
+			],
+			"factory": "MediaWiki\\IPInfo\\RestHandler\\IPHandler::factory"
+		}
+	],
+	"Hooks": {
+		"BeforePageDisplay": "popup",
+		"GetPreferences": "preferences"
+	},
+	"HookHandlers": {
+		"popup": {
+			"class": "MediaWiki\\IPInfo\\HookHandler\\PopupHandler",
+			"services": [
+				"PermissionManager",
+				"UserOptionsLookup"
+			]
+		},
+		"preferences": {
+			"class": "MediaWiki\\IPInfo\\HookHandler\\Preferences",
+			"services": [ "PermissionManager" ]
+		}
+	},
+	"ResourceModules": {
+		"ext.ipInfo": {
+			"localBasePath": "modules/ext.ipInfo",
+			"remoteExtPath": "IPInfo/modules/ext.ipInfo",
+			"scripts": [
+				"init.js",
+				"widget.js"
+			],
+			"styles": [
+				"ipinfo.less"
+			],
+			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui.styles.icons-content"
+			],
+			"messages": [
+				"ipinfo-source-geoip2",
+				"ipinfo-widget-source",
+				"ipinfo-widget-error-default",
+				"ipinfo-widget-error-no-data",
+				"ipinfo-widget-error-wrong-ip"
+			]
+		}
+	},
+	"config": {
+		"IPInfoGeoIP2Path": {
+			"value": false,
+			"description": "Path to the directory containing GeoIP2 database files"
+		}
+	},
+	"load_composer_autoloader": true
+}

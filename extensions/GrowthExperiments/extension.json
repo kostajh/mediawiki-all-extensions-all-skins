@@ -1,0 +1,1222 @@
+{
+	"name": "GrowthExperiments",
+	"descriptionmsg": "growthexperiments-desc",
+	"license-name": "GPL-3.0-or-later",
+	"author": [
+		"Stephane Bisson",
+		"Kosta Harlan",
+		"Roan Kattouw",
+		"Gergő Tisza"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GrowthExperiments",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AutoloadNamespaces": {
+		"GrowthExperiments\\": "includes/"
+	},
+	"TestAutoloadClasses": {
+		"GrowthExperiments\\Tests\\InvokedBetween": "tests/phpunit/InvokedBetween.php",
+		"GrowthExperiments\\Tests\\SearchTaskSuggesterFactoryTest": "tests/phpunit/unit/SearchTaskSuggesterFactoryTest.php"
+	},
+	"MessagesDirs": {
+		"GrowthExperiments": [
+			"i18n/extension",
+			"i18n/welcomesurvey",
+			"i18n/help",
+			"i18n/help/api",
+			"i18n/homepage",
+			"i18n/homepage/api",
+			"i18n/confirmemail",
+			"i18n/newcomertasks/api"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"GrowthExperimentsAlias": "GrowthExperiments.alias.php"
+	},
+	"ServiceWiringFiles": [
+		"ServiceWiring.php"
+	],
+	"ConfigRegistry": {
+		"GrowthExperiments": "GlobalVarConfig::newInstance"
+	},
+	"JobClasses": {
+		"newcomerTasksCacheRefreshJob": "GrowthExperiments\\NewcomerTasks\\TaskSuggester\\NewcomerTasksCacheRefreshJob"
+	},
+	"APIModules": {
+		"helppanelquestionposter": {
+			"class": "GrowthExperiments\\Api\\ApiHelpPanelPostQuestion",
+			"services": [ "GrowthExperimentsQuestionPosterFactory" ]
+		},
+		"homepagequestionstore": "GrowthExperiments\\Api\\ApiQuestionStore",
+		"growthsetmentor": {
+			"class": "GrowthExperiments\\Api\\ApiSetMentor",
+			"services": [ "GrowthExperimentsMentorManager" ]
+		}
+	},
+	"APIListModules": {
+		"growthtasks": {
+			"class": "GrowthExperiments\\Api\\ApiQueryGrowthTasks",
+			"services": [
+				"GrowthExperimentsTaskSuggesterFactory",
+				"GrowthExperimentsConfigurationLoader"
+			]
+		}
+	},
+	"RestRoutes": [
+		{
+			"path": "/growthexperiments/v0/quickstarttips/{skin}/{editor}/{tasktypeid}/{uselang}",
+			"method": "GET",
+			"class": "GrowthExperiments\\Rest\\Handler\\TipsHandler",
+			"services": [ "GrowthExperimentsTipsAssembler", "GrowthExperimentsConfigurationLoader" ]
+		},
+		{
+			"path": "/growthexperiments/v0/suggestions/addlink/{title}",
+			"method": "GET",
+			"class": "GrowthExperiments\\Rest\\Handler\\AddLinkSuggestionsHandler",
+			"services": [ "GrowthExperimentsLinkRecommendationProvider" ]
+		}
+	],
+	"HookHandlers": {
+		"welcomeSurvey": {
+			"class": "GrowthExperiments\\WelcomeSurveyHooks",
+			"services": [ "MainConfig", "LanguageNameUtils" ]
+		},
+		"homepage": {
+			"class": "GrowthExperiments\\HomepageHooks",
+			"services": [
+				"MainConfig",
+				"DBLoadBalancer",
+				"UserOptionsLookup",
+				"NamespaceInfo",
+				"StatsdDataFactory",
+				"GrowthExperimentsConfigurationLoader",
+				"GrowthExperimentsNewcomerTaskTrackerFactory",
+				"GrowthExperimentsExperimentUserManager",
+				"GrowthExperimentsHomepageModuleRegistry",
+				"GrowthExperimentsTaskSuggesterFactory",
+				"GrowthExperimentsNewcomerTasksUserOptionsLookup"
+			]
+		},
+		"mentor": {
+			"class": "GrowthExperiments\\Mentorship\\MentorHooks"
+		},
+		"tour": {
+			"class": "GrowthExperiments\\TourHooks",
+			"services": [
+				"UserOptionsLookup",
+				"GrowthExperimentsExperimentUserManager"
+			]
+		},
+		"schema": {
+			"class": "GrowthExperiments\\SchemaHooks"
+		}
+	},
+	"Hooks": {
+		"MobileMenu": [
+			"GrowthExperiments\\HomepageHooks::onMobileMenu"
+		],
+		"SpecialPage_initList": [
+			"welcomeSurvey",
+			"homepage"
+		],
+		"UserGetDefaultOptions": [
+			"GrowthExperiments\\HelpPanelHooks::onUserGetDefaultOptions",
+			"homepage",
+			"tour"
+		],
+		"LocalUserCreated": [
+			"GrowthExperiments\\HelpPanelHooks::onLocalUserCreated",
+			"homepage"
+		],
+		"GetPreferences": [
+			"welcomeSurvey",
+			"GrowthExperiments\\HelpPanelHooks::onGetPreferences",
+			"homepage",
+			"tour",
+			"mentor"
+		],
+		"BeforeWelcomeCreation": "welcomeSurvey",
+		"SiteNoticeAfter": "homepage",
+		"SpecialContributionsBeforeMainOutput": "homepage",
+		"SpecialPageAfterExecute": "homepage",
+		"BeforePageDisplay": [
+			"GrowthExperiments\\HelpPanelHooks::onBeforePageDisplay",
+			"homepage",
+			"tour"
+		],
+		"ConfirmEmailComplete": "homepage",
+		"SkinMinervaOptionsInit": [
+			"GrowthExperiments\\HomepageHooks::onSkinMinervaOptionsInit"
+		],
+		"ListDefinedTags": [
+			"GrowthExperiments\\HelpPanelHooks::onListDefinedTags",
+			"homepage"
+		],
+		"ChangeTagsListActive": [
+			"GrowthExperiments\\HelpPanelHooks::onListDefinedTags",
+			"homepage"
+		],
+		"RecentChange_save": "homepage",
+		"SkinTemplateNavigation::Universal": "homepage",
+		"PersonalUrls": "homepage",
+		"MessageCache::get": "homepage",
+		"AuthChangeFormFields": [
+			"GrowthExperiments\\ConfirmEmailHooks::onAuthChangeFormFields",
+			"homepage"
+		],
+		"UserSendConfirmationMail": [
+			"GrowthExperiments\\ConfirmEmailHooks::onUserSendConfirmationMail"
+		],
+		"ResourceLoaderRegisterModules": [
+			"tour"
+		],
+		"WikimediaEventsShouldSchemaEditAttemptStepOversample": [
+			"GrowthExperiments\\HomepageHooks::onWikimediaEventsShouldSchemaEditAttemptStepOversample"
+		],
+		"BeforeCreateEchoEvent": [
+			"GrowthExperiments\\HomepageHooks::onBeforeCreateEchoEvent"
+		],
+		"LoadExtensionSchemaUpdates": "schema",
+		"UnitTestsAfterDatabaseSetup": "schema"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "GrowthExperiments/modules"
+	},
+	"attributes": {
+		"EventLogging": {
+			"Schemas": {
+				"HelpPanel": 20146411,
+				"HomepageModule": 20514264,
+				"NewcomerTask": 20231400
+			}
+		}
+	},
+	"ResourceModules": {
+		"ext.growthExperiments.mobileMenu.icons": {
+			"class": "ResourceLoaderImageModule",
+			"selector": ".mw-ui-icon-minerva-{name}:before",
+			"defaultColor": "#4A4F53",
+			"images": {
+				"newspaper": {
+					"file": {
+						"ltr": "../images/newspaper-ltr.svg",
+						"rtl": "../images/newspaper-rtl.svg"
+					}
+				}
+			}
+		},
+		"ext.growthExperiments.SuggestedEditSession": {
+			"packageFiles": [
+				"homepage/suggestededits/ext.growthExperiments.SuggestedEditSession.js",
+				"utils/ext.growthExperiments.Utils.js"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"dependencies": [
+				"oojs",
+				"mediawiki.Title",
+				"mediawiki.Uri",
+				"mediawiki.user",
+				"mediawiki.util",
+				"mediawiki.storage"
+			]
+		},
+		"ext.growthExperiments.Homepage.ConfirmEmail": {
+			"packageFiles": [ "homepage/ext.growthExperiments.Homepage.ConfirmEmail.js" ],
+			"messages": [
+				"confirmemail_loggedin"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.Homepage.ConfirmEmail.styles": {
+			"styles": "homepage/ext.growthExperiments.Homepage.ConfirmEmail.less",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.Homepage.Discovery.styles": {
+			"styles": [
+				"homepage/ext.growthExperiments.Homepage.Discovery.less",
+				"homepage/ext.growthExperiments.Homepage.Discovery.Mobile.less"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.Homepage.Discovery.scripts": {
+			"scripts": [
+				"homepage/ext.growthExperiments.Homepage.Discovery.Mobile.js"
+			],
+			"targets": [
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.Homepage.Mobile": {
+			"packageFiles": [
+				"homepage/ext.growthExperiments.Homepage.Mobile.js",
+				"homepage/ext.growthExperiments.Homepage.MobileOverlay.js",
+				"homepage/suggestededits/ext.growthExperiments.SuggestedEdits.SmallTaskCard.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.GrowthTasksApi.js",
+				"homepage/suggestededits/ext.growthExperiments.NewcomerTaskLogger.js",
+				"utils/ext.growthExperiments.Utils.js",
+				{
+					"name": "homepage/TaskTypes.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getTaskTypesJson" ]
+				},
+				{
+					"name": "homepage/config.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getSuggestedEditsConfigJson" ]
+				}
+			],
+			"messages": [
+				"growthexperiments-homepage-suggestededits-more-info",
+				"growthexperiments-homepage-welcome-notice-header",
+				"growthexperiments-homepage-welcome-notice-body-variant-c",
+				"growthexperiments-homepage-welcome-notice-body-variant-d",
+				"growthexperiments-homepage-welcome-notice-button-text-variant-c",
+				"growthexperiments-homepage-welcome-notice-button-text-variant-d"
+			],
+			"targets": [
+				"mobile"
+			],
+			"dependencies": [
+				"ext.growthExperiments.Homepage.Logger"
+			]
+		},
+		"ext.growthExperiments.HelpPanel.icons": {
+			"class": "ResourceLoaderImageModule",
+			"selectorWithVariant": ".oo-ui-image-{variant}.oo-ui-icon-{name}",
+			"selectorWithoutVariant": ".oo-ui-icon-{name}",
+			"images": {
+				"askQuestion": {
+					"file": {
+						"ltr": "../images/askQuestion-ltr.svg",
+						"rtl": "../images/askQuestion-rtl.svg"
+					}
+				},
+				"suggestedEdits": {
+					"file": "../images/suggestededits/Topic-general-64w.svg"
+				}
+			}
+		},
+		"ext.growthExperiments.welcomeSurvey.styles": {
+			"styles": [
+				"welcomesurvey/ext.growthExperiments.welcomeSurvey.less"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.HelpPanelCta.styles": {
+			"styles": [
+				"helppanel/ext.growthExperiments.HelpPanelCta.less"
+			],
+			"skinStyles": {
+				"minerva": [ "homepage/suggestededits/ext.growthExperiments.SuggestedEdits.Guidance.minerva.less" ],
+				"vector": [ "homepage/suggestededits/ext.growthExperiments.SuggestedEdits.Guidance.vector.less" ]
+			},
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.Homepage.Logger": {
+			"packageFiles": [
+				"homepage/ext.growthExperiments.Homepage.Logger.js",
+				"utils/ext.growthExperiments.Utils.js"
+			],
+			"dependencies": [
+				"oojs-ui-core",
+				"mediawiki.user"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.Homepage.Logging": {
+			"packageFiles": [
+				"homepage/ext.growthExperiments.Homepage.Logging.js"
+			],
+			"dependencies": [
+				"ext.growthExperiments.Homepage.Logger",
+				"mediawiki.Uri"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.Homepage.RecentQuestions": {
+			"packageFiles": [
+				"homepage/ext.growthExperiments.Homepage.RecentQuestions.js"
+			],
+			"messages": [
+				"growthexperiments-homepage-recent-questions-header"
+			],
+			"dependencies": [
+				"mediawiki.api"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.Homepage.Impact": {
+			"packageFiles": [
+				"homepage/ext.growthExperiments.Homepage.Impact.js"
+			],
+			"messages": [
+				"growthexperiments-homepage-impact-empty-pageviews-tooltip-button"
+			],
+			"dependencies": [
+				"ext.growthExperiments.Homepage.Logger",
+				"oojs-ui-windows"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.Homepage.Mentorship": {
+			"packageFiles": [
+				"homepage/ext.growthExperiments.Homepage.Mentorship.js",
+				"homepage/ext.growthExperiments.Homepage.QuestionPoster.js"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"dependencies": [
+				"ext.growthExperiments.Help",
+				"ext.growthExperiments.SuggestedEditSession",
+				"mediawiki.jqueryMsg",
+				"mediawiki.router"
+			]
+		},
+		"ext.growthExperiments.Homepage.Topics": {
+			"packageFiles": [
+				"homepage/ext.growthExperiments.Homepage.Topics.js",
+				"homepage/ext.growthExperiments.Homepage.TopicSelectionWidget.js",
+				"homepage/ext.growthExperiments.Homepage.SuggestionWidget.js",
+				"homepage/ext.growthExperiments.Homepage.SuggestionGroupWidget.js",
+				{
+					"name": "homepage/Topics.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getTopicsJson" ]
+				}
+			],
+			"styles": [
+				"homepage/ext.growthExperiments.Homepage.SuggestionWidget.less",
+				"homepage/ext.growthExperiments.Homepage.SuggestionGroupWidget.less"
+			],
+			"messages": [
+				"growthexperiments-homepage-suggestededits-topics-more",
+				"growthexperiments-homepage-suggestededits-topics-selectall",
+				"growthexperiments-homepage-suggestededits-topics-unselectall"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"dependencies": [
+				"oojs-ui-widgets"
+			]
+		},
+		"ext.growthExperiments.Homepage.SuggestedEdits": {
+			"packageFiles": [
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEditCardWidget.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.EndOfQueueWidget.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.NoResultsWidget.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.ErrorCardWidget.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.TaskExplanationWidget.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEditPagerWidget.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEditsPreviousNextWidget.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.FiltersWidget.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.TaskTypeSelectionWidget.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.DifficultyFiltersDialog.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.TopicFiltersDialog.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.GrowthTasksApi.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.ArticleCountWidget.js",
+				"homepage/suggestededits/ext.growthExperiments.NewcomerTaskLogger.js",
+				"helppanel/ext.growthExperiments.SuggestedEditsPeek.js",
+				"utils/ext.growthExperiments.Utils.js",
+				{
+					"name": "homepage/suggestededits/TaskTypes.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getTaskTypesJson" ]
+				},
+				{
+					"name": "homepage/suggestededits/AQSConfig.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getAQSConfigJson" ]
+				},
+				{
+					"name": "homepage/suggestededits/config.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getSuggestedEditsConfigJson" ]
+				},
+				{
+					"name": "homepage/suggestededits/DefaultTaskTypes.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getDefaultTaskTypesJson" ]
+				}
+			],
+			"styles": [
+				"homepage/suggestededits/ext.growthExperiments.Homepage.ArticleCountWidget.less",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.TaskTypeSelectionWidget.less"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"dependencies": [
+				"mediawiki.api",
+				"mediawiki.jqueryMsg",
+				"mediawiki.pulsatingdot",
+				"mediawiki.language",
+				"mediawiki.Uri",
+				"oojs-ui-widgets",
+				"oojs-ui.styles.icons-media",
+				"oojs-ui-windows",
+				"ext.growthExperiments.Homepage.Topics",
+				"ext.growthExperiments.Homepage.Logger"
+			],
+			"messages": [
+				"comma-separator",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-easy-label",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-medium-label",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-hard-label",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-easy-description-header",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-medium-description-header",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-hard-description-header",
+				"growthexperiments-homepage-suggestededits-pager",
+				"growthexperiments-homepage-suggestededits-pager-end",
+				"growthexperiments-homepage-suggestededits-pageviews",
+				"growthexperiments-homepage-suggestededits-previous-card",
+				"growthexperiments-homepage-suggestededits-next-card",
+				"growthexperiments-homepage-suggestededits-no-results",
+				"growthexperiments-homepage-suggestededits-no-more-results",
+				"growthexperiments-homepage-suggestededits-error-title",
+				"growthexperiments-homepage-suggestededits-error-description",
+				"growthexperiments-homepage-suggestededits-select-other-difficulty",
+				"growthexperiments-homepage-suggestededits-select-other-topics-difficulty",
+				"growthexperiments-homepage-suggestededits-tasktype-name-copyedit",
+				"growthexperiments-homepage-suggestededits-tasktype-name-references",
+				"growthexperiments-homepage-suggestededits-tasktype-name-links",
+				"growthexperiments-homepage-suggestededits-tasktype-name-update",
+				"growthexperiments-homepage-suggestededits-tasktype-name-expand",
+				"growthexperiments-homepage-suggestededits-tasktype-description-copyedit",
+				"growthexperiments-homepage-suggestededits-tasktype-description-references",
+				"growthexperiments-homepage-suggestededits-tasktype-description-update",
+				"growthexperiments-homepage-suggestededits-tasktype-description-expand",
+				"growthexperiments-homepage-suggestededits-tasktype-description-links",
+				"growthexperiments-homepage-suggestededits-tasktype-learn-more",
+				"growthexperiments-homepage-suggestededits-tasktype-shortdescription-copyedit",
+				"growthexperiments-homepage-suggestededits-tasktype-shortdescription-references",
+				"growthexperiments-homepage-suggestededits-tasktype-shortdescription-update",
+				"growthexperiments-homepage-suggestededits-tasktype-shortdescription-expand",
+				"growthexperiments-homepage-suggestededits-tasktype-shortdescription-links",
+				"growthexperiments-homepage-suggestededits-tasktype-label-copyedit",
+				"growthexperiments-homepage-suggestededits-tasktype-label-references",
+				"growthexperiments-homepage-suggestededits-tasktype-label-update",
+				"growthexperiments-homepage-suggestededits-tasktype-label-expand",
+				"growthexperiments-homepage-suggestededits-tasktype-label-links",
+				"growthexperiments-homepage-suggestededits-tasktype-label-create",
+				"growthexperiments-homepage-suggestededits-difficulty-filter-label",
+				"growthexperiments-homepage-suggestededits-difficulty-filter-label-mobile",
+				"growthexperiments-homepage-suggestededits-difficulty-filter-label-easy",
+				"growthexperiments-homepage-suggestededits-difficulty-filter-label-medium",
+				"growthexperiments-homepage-suggestededits-difficulty-filter-label-hard",
+				"growthexperiments-homepage-suggestededits-difficulty-indicator-label-easy",
+				"growthexperiments-homepage-suggestededits-difficulty-indicator-label-medium",
+				"growthexperiments-homepage-suggestededits-difficulty-indicator-label-hard",
+				"growthexperiments-homepage-suggestededits-difficulty-filters-title",
+				"growthexperiments-homepage-suggestededits-difficulty-filters-close",
+				"growthexperiments-homepage-suggestededits-difficulty-filters-article-count",
+				"growthexperiments-homepage-suggestededits-tasktype-time-links",
+				"growthexperiments-homepage-suggestededits-tasktype-time-copyedit",
+				"growthexperiments-homepage-suggestededits-tasktype-time-references",
+				"growthexperiments-homepage-suggestededits-tasktype-time-update",
+				"growthexperiments-homepage-suggestededits-tasktype-time-expand",
+				"growthexperiments-homepage-suggestededits-create-article-additional-message",
+				"growthexperiments-homepage-suggestededits-difficulty-filter-error",
+				"growthexperiments-homepage-suggestededits-topic-filter-select-interests",
+				"growthexperiments-homepage-suggestededits-topics-button-topic-count",
+				"growthexperiments-homepage-startediting-dialog-intro-topic-selector-header",
+				"growthexperiments-homepage-startediting-dialog-intro-topic-selector-subheader",
+				"growthexperiments-homepage-suggestededits-topic-filters-title",
+				"growthexperiments-homepage-suggestededits-topic-filters-close",
+				"growthexperiments-homepage-topic-filters-dialog-intro-topic-selector-header",
+				"growthexperiments-homepage-topic-filters-dialog-intro-topic-selector-subheader"
+			]
+		},
+		"ext.growthExperiments.Homepage.StartEditing": {
+			"packageFiles": [
+				"homepage/ext.growthExperiments.Homepage.StartEditing.js",
+				"homepage/ext.growthExperiments.Homepage.StartEditingDialog.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.GrowthTasksApi.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.ArticleCountWidget.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.TaskTypeSelectionWidget.js",
+				"utils/ext.growthExperiments.Utils.js",
+				{
+					"name": "homepage/config.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getSuggestedEditsConfigJson" ]
+				},
+				{
+					"name": "homepage/suggestededits/TaskTypes.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getTaskTypesJson" ]
+				},
+				{
+					"name": "homepage/suggestededits/DefaultTaskTypes.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getDefaultTaskTypesJson" ]
+				}
+			],
+			"styles": [
+				"homepage/ext.growthExperiments.Homepage.StartEditingDialog.less",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.ArticleCountWidget.less",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.TaskTypeSelectionWidget.less"
+			],
+			"messages": [
+				"growthexperiments-homepage-startediting-dialog-header",
+				"growthexperiments-homepage-startediting-dialog-progress",
+				"growthexperiments-homepage-startediting-dialog-intro-back",
+				"growthexperiments-homepage-startediting-dialog-intro-forward",
+				"growthexperiments-homepage-startediting-dialog-intro-title",
+				"growthexperiments-homepage-startediting-dialog-intro-header",
+				"growthexperiments-homepage-startediting-dialog-intro-subheader",
+				"growthexperiments-homepage-startediting-dialog-intro-response-add-image",
+				"growthexperiments-homepage-startediting-dialog-intro-response-edit-info-add-change",
+				"growthexperiments-homepage-startediting-dialog-intro-response-edit-typo",
+				"growthexperiments-homepage-startediting-dialog-intro-response-new-page",
+				"growthexperiments-homepage-startediting-dialog-intro-topic-selector-header",
+				"growthexperiments-homepage-startediting-dialog-intro-topic-selector-subheader",
+				"growthexperiments-homepage-startediting-dialog-intro-topic-description-header",
+				"growthexperiments-homepage-startediting-dialog-intro-topic-description-subheader",
+				"growthexperiments-homepage-startediting-dialog-difficulty-back",
+				"growthexperiments-homepage-startediting-dialog-difficulty-forward",
+				"growthexperiments-homepage-startediting-dialog-difficulty-forward-mobile",
+				"growthexperiments-homepage-startediting-dialog-difficulty-forward-noactivate",
+				"growthexperiments-homepage-startediting-dialog-difficulty-header",
+				"growthexperiments-homepage-startediting-dialog-difficulty-subheader",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-easy-label",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-medium-label",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-hard-label",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-easy-description-header",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-medium-description-header",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-hard-description-header",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-easy-description-body",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-medium-description-body",
+				"growthexperiments-homepage-startediting-dialog-difficulty-level-hard-description-body",
+				"growthexperiments-homepage-suggestededits-difficulty-filter-error",
+				"growthexperiments-homepage-suggestededits-difficulty-filters-article-count",
+				"growthexperiments-homepage-suggestededits-tasktype-label-create",
+				"growthexperiments-homepage-suggestededits-create-article-additional-message",
+				"vector-view-edit"
+			],
+			"dependencies": [
+				"mediawiki.api",
+				"mediawiki.Title",
+				"mediawiki.jqueryMsg",
+				"mediawiki.router",
+				"mediawiki.util",
+				"oojs-ui-widgets",
+				"oojs-ui-windows",
+				"ext.growthExperiments.Homepage.Topics",
+				"ext.growthExperiments.Homepage.Logger"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.Homepage.icons": {
+			"class": "ResourceLoaderImageModule",
+			"selectorWithVariant": ".oo-ui-image-{variant}.oo-ui-icon-{name}",
+			"selectorWithoutVariant": ".oo-ui-icon-{name}",
+			"images": {
+				"difficulty-outline": {
+					"file": {
+						"ltr": "../images/levels-outline-ltr.svg",
+						"rtl": "../images/levels-outline-rtl.svg"
+					}
+				},
+				"difficulty-easy": {
+					"file": {
+						"ltr": "../images/difficulty-easy-ltr.svg",
+						"rtl": "../images/difficulty-easy-rtl.svg"
+					}
+				},
+				"difficulty-medium": {
+					"file": {
+						"ltr": "../images/difficulty-medium-ltr.svg",
+						"rtl": "../images/difficulty-medium-rtl.svg"
+					}
+				},
+				"difficulty-hard": {
+					"file": {
+						"ltr": "../images/difficulty-hard-ltr.svg",
+						"rtl": "../images/difficulty-hard-rtl.svg"
+					}
+				},
+				"info-unpadded": "../images/info-unpadded.svg",
+				"live-broadcast": "../images/live-broadcast.svg",
+				"mentor": {
+					"file": {
+						"ltr": "../images/mentor-ltr.svg",
+						"rtl": "../images/mentor-rtl.svg"
+					}
+				}
+			}
+		},
+		"ext.growthExperiments.Homepage.contribs.styles": {
+			"styles": "homepage/ext.growthExperiments.Homepage.contribs.less",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.welcomeSurveyLanguage": {
+			"localBasePath": "modules/welcomesurvey",
+			"remoteExtPath": "extensions/GrowthExperiments/modules/welcomesurvey",
+			"packageFiles": [
+				"ext.growthExperiments.welcomeSurveyLanguage.js",
+				"ext.growthExperiments.ULSTagMultiselectWidget.js"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"messages": [
+				"welcomesurvey-question-languages-placeholder",
+				"welcomesurvey-question-languages-maximum"
+			],
+			"dependencies": [
+				"oojs-ui-widgets",
+				"mediawiki.router"
+			]
+		},
+		"ext.growthExperiments.Help": {
+			"styles": [
+				"help/ext.growthExperiments.HelpPanelProcessDialog.less",
+				"help/ext.growthExperiments.HelpPanelSearchWidget.less",
+				"help/ext.growthExperiments.HelpPanelHomeButtonWidget.less"
+			],
+			"packageFiles": [
+				"help/ext.growthExperiments.Help.js",
+				"help/ext.growthExperiments.HelpPanelLogger.js",
+				"homepage/suggestededits/ext.growthExperiments.NewcomerTaskLogger.js",
+				"utils/ext.growthExperiments.Utils.js",
+				"help/ext.growthExperiments.HelpPanelSearchWidget.js",
+				"help/ext.growthExperiments.HelpPanelHomeButtonWidget.js",
+				"help/ext.growthExperiments.HelpPanelProcessDialog.js",
+				"help/ext.growthExperiments.HelpPanelProcessDialog.SuggestedEditsPanel.js",
+				"help/ext.growthExperiments.HelpPanelProcessDialog.SwitchEditorPanel.js",
+				"helppanel/ext.growthExperiments.SuggestedEditsPeek.js",
+				"helppanel/ext.growthExperiments.SuggestedEdits.QuickStartTips.js",
+				"helppanel/ext.growthExperiments.SuggestedEdits.QuickStartTipsTabPanelLayout.js",
+				{
+					"name": "help/data.json",
+					"callback": [ "GrowthExperiments\\HelpPanelHooks", "getModuleData" ]
+				},
+				{
+					"name": "help/TaskTypes.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getTaskTypesJson" ]
+				}
+			],
+			"dependencies": [
+				"mediawiki.jqueryMsg",
+				"mediawiki.storage",
+				"mediawiki.Uri",
+				"mediawiki.user",
+				"mediawiki.util",
+				"oojs-ui.styles.icons-alerts",
+				"oojs-ui.styles.icons-interactions",
+				"oojs-ui.styles.icons-user",
+				"oojs-ui.styles.icons-editing-core",
+				"oojs-ui.styles.icons-editing-citation",
+				"oojs-ui.styles.icons-editing-advanced",
+				"oojs-ui-widgets",
+				"oojs-ui-windows",
+				"ext.growthExperiments.Homepage.icons"
+			],
+			"messages": [
+				"growthexperiments-help-panel-question-button-text",
+				"growthexperiments-help-panel-submit-question-button-text",
+				"growthexperiments-help-panel-return-home-button-text",
+				"growthexperiments-help-panel-editing-help-links-widget-header",
+				"growthexperiments-help-panel-editing-help-links-widget-view-more-link",
+				"growthexperiments-help-panel-question-widget-header",
+				"growthexperiments-help-panel-question-placeholder",
+				"growthexperiments-help-panel-back-home",
+				"growthexperiments-help-panel-close",
+				"growthexperiments-help-panel-home-title",
+				"growthexperiments-help-panel-questionreview-title",
+				"growthexperiments-help-panel-questionreview-title-mentor",
+				"growthexperiments-help-panel-questionreview-header",
+				"growthexperiments-help-panel-questionreview-label",
+				"growthexperiments-help-panel-questionreview-include-article-title",
+				"growthexperiments-help-panel-question-subject-template",
+				"growthexperiments-help-panel-question-subject-template-with-title",
+				"growthexperiments-help-panel-question-subject-template-from-homepage",
+				"growthexperiments-help-panel-question-post-error",
+				"growthexperiments-help-panel-general-help-title",
+				"growthexperiments-help-panel-suggestededits-title",
+				"growthexperiments-help-panel-suggestededits-quick-start-tips",
+				"growthexperiments-help-panel-suggestededits-footer-desktop",
+				"vector-view-edit",
+				"growthexperiments-help-panel-suggestededits-footer-mobile",
+				"growthexperiments-help-panel-questioncomplete-title",
+				"growthexperiments-help-panel-questioncomplete-header",
+				"growthexperiments-help-panel-questioncomplete-confirmation-text",
+				"growthexperiments-help-panel-questioncomplete-view-link-text",
+				"growthexperiments-help-panel-questioncomplete-notifications-section-header",
+				"growthexperiments-help-panel-questioncomplete-notifications-wiki",
+				"growthexperiments-help-panel-questioncomplete-notifications-email",
+				"growthexperiments-help-panel-questioncomplete-notifications-email-change",
+				"growthexperiments-help-panel-questioncomplete-notifications-email-unconfirmed",
+				"growthexperiments-help-panel-questioncomplete-notifications-email-unconfirmed-confirm",
+				"growthexperiments-help-panel-questioncomplete-notifications-email-missing",
+				"growthexperiments-help-panel-questioncomplete-notifications-email-missing-add",
+				"growthexperiments-help-panel-questioncomplete-more-about-this-feature-text",
+				"growthexperiments-help-panel-tog-help-panel",
+				"growthexperiments-help-panel-settings-cog-preferences-link",
+				"growthexperiments-help-panel-questioncomplete-first-edit",
+				"growthexperiments-help-panel-search-label",
+				"growthexperiments-help-panel-search-no-results",
+				"ellipsis",
+				"growthexperiments-homepage-suggestededits-tasktype-name-copyedit",
+				"growthexperiments-homepage-suggestededits-tasktype-name-references",
+				"growthexperiments-homepage-suggestededits-tasktype-name-update",
+				"growthexperiments-homepage-suggestededits-tasktype-name-links",
+				"growthexperiments-homepage-suggestededits-tasktype-name-expand",
+				"growthexperiments-help-panel-button-preheader-suggested-edits",
+				"growthexperiments-help-panel-button-header-ask-help",
+				"growthexperiments-help-panel-button-header-ask-help-mentor",
+				"growthexperiments-help-panel-button-header-general-help",
+				"growthexperiments-help-panel-button-subheader-general-help",
+				"growthexperiments-help-panel-button-subheader-ask-help",
+				"growthexperiments-help-panel-button-subheader-suggested-edits",
+				"growthexperiments-help-panel-button-subsubheader-ask-help-mentor",
+				"growthexperiments-help-panel-suggested-edits-faq-link-text",
+				"growthexperiments-help-panel-suggested-edits-switch-editor-to-visualeditor",
+				"growthexperiments-help-panel-suggested-edits-switch-editor-to-visualeditor-link-text",
+				"growthexperiments-help-panel-suggested-edits-switch-editor-to-wikitext",
+				"growthexperiments-help-panel-suggested-edits-switch-editor-to-wikitext-link-text",
+				"growthexperiments-homepage-mentorship-dialog-title",
+				"growthexperiments-homepage-mentorship-questionreview-header",
+				"growthexperiments-homepage-mentorship-questionreview-header-mentor-talk-link-text",
+				"growthexperiments-homepage-mentorship-confirmation-text",
+				"growthexperiments-homepage-mentorship-view-question-text"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.HelpPanel": {
+			"styles": [
+				"helppanel/ext.growthExperiments.HelpPanelPopup.less",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.TaskExplanation.less"
+			],
+			"packageFiles": [
+				"helppanel/ext.growthExperiments.HelpPanel.cta.js",
+				"helppanel/ext.growthExperiments.SuggestedEditsPeek.js",
+				"homepage/suggestededits/ext.growthExperiments.SuggestedEdits.Guidance.js",
+				"utils/ext.growthExperiments.Utils.js",
+				{
+					"name": "helppanel/TaskTypes.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getTaskTypesJson" ]
+				}
+			],
+			"dependencies": [
+				"ext.growthExperiments.Help",
+				"ext.growthExperiments.HelpPanel.icons",
+				"ext.growthExperiments.HelpPanelCta.styles",
+				"ext.growthExperiments.SuggestedEditSession",
+				"mediawiki.pulsatingdot",
+				"oojs-ui.styles.icons-movement"
+			],
+			"messages": [
+				"growthexperiments-help-panel-cta-button-text",
+				"growthexperiments-homepage-suggestededits-mobile-peek-more-about-this-edit",
+				"growthexperiments-homepage-suggestededits-difficulty-indicator-label-easy",
+				"growthexperiments-homepage-suggestededits-difficulty-indicator-label-medium",
+				"growthexperiments-homepage-suggestededits-difficulty-indicator-label-hard"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.HelpPanel.init": {
+			"scripts": "helppanel/ext.growthExperiments.HelpPanel.init.js",
+			"dependencies": [
+				"ext.growthExperiments.SuggestedEditSession"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.PostEdit": {
+			"styles": [
+				"help/ext.growthExperiments.PostEdit.less",
+				"homepage/suggestededits/ext.growthExperiments.SuggestedEdits.SmallTaskCard.less"
+			],
+			"packageFiles": [
+				"help/ext.growthExperiments.PostEdit.js",
+				"help/ext.growthExperiments.PostEditPanel.js",
+				"help/ext.growthExperiments.PostEditDialog.js",
+				"homepage/suggestededits/ext.growthExperiments.SuggestedEdits.SmallTaskCard.js",
+				"help/ext.growthExperiments.HelpPanelLogger.js",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.GrowthTasksApi.js",
+				"homepage/suggestededits/ext.growthExperiments.NewcomerTaskLogger.js",
+				"utils/ext.growthExperiments.Utils.js",
+				{
+					"name": "homepage/suggestededits/TaskTypes.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getTaskTypesJson" ]
+				},
+				{
+					"name": "homepage/suggestededits/AQSConfig.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getAQSConfigJson" ]
+				},
+				{
+					"name": "homepage/suggestededits/config.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getSuggestedEditsConfigJson" ]
+				},
+				{
+					"name": "help/data.json",
+					"callback": [ "GrowthExperiments\\HelpPanelHooks", "getModuleData" ]
+				},
+				{
+					"name": "homepage/suggestededits/DefaultTaskTypes.json",
+					"callback": [ "GrowthExperiments\\HomepageHooks", "getDefaultTaskTypesJson" ]
+				}
+			],
+			"dependencies": [
+				"oojs-ui-windows",
+				"oojs-ui.styles.icons-media",
+				"ext.growthExperiments.Homepage.icons",
+				"ext.growthExperiments.SuggestedEditSession"
+			],
+			"messages": [
+				"growthexperiments-help-panel-postedit-success-message-published",
+				"growthexperiments-help-panel-postedit-success-message-saved",
+				"growthexperiments-help-panel-postedit-header",
+				"growthexperiments-help-panel-postedit-subheader",
+				"growthexperiments-help-panel-postedit-footer",
+				"growthexperiments-help-panel-postedit-footer2",
+				"growthexperiments-homepage-suggestededits-pageviews"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.confirmEmail.createAccount.styles": {
+			"styles": "confirmemail/ext.confirmEmail.createAccount.less",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.Homepage.styles": {
+			"class": "GrowthExperiments\\ResourceLoaderFileModuleWithLessVars",
+			"styles": [
+				"homepage/ext.growthExperiments.BaseModule.less",
+				"homepage/ext.growthExperiments.HelpModule.less",
+				"homepage/ext.growthExperiments.ImpactModule.less",
+				"homepage/ext.growthExperiments.MentorshipModule.less",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.less",
+				"homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.TaskExplanation.less",
+				"homepage/suggestededits/ext.growthExperiments.SuggestedEdits.SmallTaskCard.less",
+				"homepage/ext.growthExperiments.StartModule.less",
+				"homepage/ext.growthExperiments.StartEmailModule.less",
+				"homepage/ext.growthExperiments.Homepage.less",
+				"homepage/ext.growthExperiments.Homepage.StartEditing.less"
+			],
+			"lessCallback": [ "GrowthExperiments\\HomepageHooks", "lessCallback" ],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.growthExperiments.confirmEmail.createAccount": {
+			"scripts": "confirmemail/ext.confirmEmail.createAccount.js",
+			"messages": [
+				"growthexperiments-confirmemail-emailwarning"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"QUnitTestModule": {
+		"localBasePath": "",
+		"remoteExtPath": "GrowthExperiments",
+		"packageFiles": [
+			"tests/qunit/index.js",
+			"modules/utils/ext.growthExperiments.Utils.js",
+			"tests/qunit/utils/ext.growthExperiments.Utils.test.js",
+			"modules/help/ext.growthExperiments.HelpPanelLogger.js",
+			"tests/qunit/help/ext.growthExperiments.HelpPanelLogger.test.js",
+			"modules/help/ext.growthExperiments.HelpPanelProcessDialog.SwitchEditorPanel.js",
+			"tests/qunit/help/ext.growthExperiments.HelpPanelProcessDialog.SwitchEditorPanel.test.js",
+			"modules/homepage/ext.growthExperiments.Homepage.Logger.js",
+			"tests/qunit/homepage/ext.growthExperiments.Homepage.Logger.test.js",
+			"modules/homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEditPagerWidget.js",
+			"tests/qunit/homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEditPagerWidget.test.js",
+			"modules/homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.ErrorCardWidget.js",
+			"tests/qunit/homepage/suggestededits/ext.growthExperiments.Homepage.SuggestedEdits.ErrorCardWidget.test.js"
+		],
+		"dependencies": [
+			"oojs-ui",
+			"mediawiki.qunit-testrunner",
+			"mediawiki.base",
+			"sinonjs"
+		]
+	},
+	"config": {
+		"GEDatabaseCluster": {
+			"description": "Which database claster to use. False means the cluster of the current wiki will be used. The database name will be the database name configured for the wiki, regardless of this setting. Only set this if you manage the DB schema manually.",
+			"value": false
+		},
+		"GEHomepageTutorialTitle": {
+			"description": "MediaWiki title to link to in the Tutorial button in the homepage Start module.",
+			"value": "Main_Page"
+		},
+		"GEHelpPanelReadingModeNamespaces": {
+			"description": "Numerical IDs of the MediaWiki namespaces in which to show the help panel in reading mode. Specifying a namespace will also include its talk namespace. Defaults to NS_PROJECT and NS_HELP namespaces.",
+			"value": [ 2, 4, 12 ]
+		},
+		"GEHelpPanelExcludedNamespaces": {
+			"description": "MediaWiki namespaces that the help panel will be excluded from.",
+			"value": []
+		},
+		"GEHelpPanelNewAccountEnableWithHomepage": {
+			"description": "By default, the help panel is enabled for new accounts in lockstep with the homepage, controlled by GEHomepageNewAccountEnablePercentage. To disable this behavior and use GEHelpPanelNewAccountEnablePercentage instead, set this to false.",
+			"value": true
+		},
+		"GEHelpPanelNewAccountEnablePercentage": {
+			"description": "Percentage of new accounts to enable help panel for. Must be a whole number. Ignored by default, only used if GEHelpPanelNewAccountEnableWithHomepage is false.",
+			"value": 100
+		},
+		"GEHelpPanelHelpDeskTitle": {
+			"description": "Mediawiki title for help panel CTA when users have disabled JS. Templates or magic words contained in this string will be expanded.",
+			"value": "Talk:Main_Page"
+		},
+		"GEHelpPanelHelpDeskPostOnTop": {
+			"description": "Whether to post new questions on the top of the help desk. Default is to post on the bottom (like section=new does). Only affects wikitext pages.",
+			"value": false
+		},
+		"GEHelpPanelViewMoreTitle": {
+			"description": "MediaWiki title for view more articles on help link.",
+			"value": "Main_Page"
+		},
+		"GEHelpPanelEnabled": {
+			"description": "Global ON/OFF switch for the help panel feature.",
+			"value": true
+		},
+		"GEHelpPanelLoggingEnabled": {
+			"description": "ON/OFF switch for the help panel event logging feature.",
+			"value": true
+		},
+		"GEHelpPanelLinks": {
+			"description": "List of links to display in the help panel.",
+			"merge_strategy": "array_plus",
+			"value": [ {
+				"title": "Project:Help",
+				"text": "Site help",
+				"id": "help"
+			} ]
+		},
+		"GEHelpPanelSearchNamespaces": {
+			"description": "List of namespaces to include in the search for help content.",
+			"value": [ 4, 12 ]
+		},
+		"GEHelpPanelSearchForeignAPI": {
+			"description": "api.php URL of a foreign wiki to search instead of the current wiki. Used for testing/development to get more/better results.",
+			"value": false
+		},
+		"GEHelpPanelSuggestedEditsPreferredEditor": {
+			"description": "The preferred editor interface for suggested edits. Either 'visualeditor' or 'wikitext'.",
+			"value": "visualeditor"
+		},
+		"GEHelpPanelAskMentor": {
+			"description": "When using the help panel's question-asking functionality, post on the mentor's talk page instead of on the help desk page.",
+			"value": false
+		},
+		"WelcomeSurveyEnabled": {
+			"description": "Global ON/OFF switch for the Welcome survey feature.",
+			"value": true
+		},
+		"WelcomeSurveyAllowFreetextResponses": {
+			"description": "If set to true, freetext responses with the welcome survey are allowed.",
+			"value": false
+		},
+		"WelcomeSurveyPrivacyPolicyUrl": {
+			"description": "URL of the privacy policy to be used on the Welcome survey.",
+			"value": "https://meta.wikimedia.org/wiki/Data_retention_guidelines#Exceptions_to_these_guidelines"
+		},
+		"GEHomepageEnabled": {
+			"description": "Global ON/OFF switch for the Homepage feature.",
+			"value": true
+		},
+		"GEHomepageNewAccountEnablePercentage": {
+			"description": "Percentage of new accounts to enable homepage for. Must be a whole number.",
+			"value": 100
+		},
+		"GEHomepageNewAccountVariants": {
+			"description": "Which percentage of new accounts that get the homepage to assign which variant. Percentages must be whole numbers. If the percentages don't add up to 100, some new accounts will not be assigned a variant. Those accounts will fall back on GEHomepageDefaultVariant.",
+			"value": {
+				"C": 0,
+				"D": 0
+			}
+		},
+		"GEHomepageDefaultVariant": {
+			"description": "Variant to use for users who weren't assigned a variant at account creation time. Must be one of C, D.",
+			"value": "D"
+		},
+		"GEHomepageLoggingEnabled": {
+			"description": "ON/OFF switch for the homepage event logging feature.",
+			"value": true
+		},
+		"GEHomepageMentorsList": {
+			"description": "Title of the wiki page that contains the list of auto-assigned mentors (cf. GEHomepageManualAssignmentMentorsList).",
+			"value": "Main_Page"
+		},
+		"GEHomepageManualAssignmentMentorsList": {
+			"description": "Title of the wiki page that contains the list of manually assigned mentors (cf. GEHomepageMentorsList)",
+			"value": null
+		},
+		"GEHomepageSuggestedEditsEnabled": {
+			"description": "Global ON/OFF switch for the suggested edits feature on the homepage.",
+			"value": true
+		},
+		"GEHomepageSuggestedEditsRequiresOptIn": {
+			"description": "If true, the suggested edits feature will only be displayed to users who have the (hidden) preference for it enabled. If false (default), it will be displayed to everyone.",
+			"value": false
+		},
+		"GEHomepageSuggestedEditsIntroLinks": {
+			"description": "Titles of local help pages linked from the suggested edits intro dialog.",
+			"value": {
+				"create": "Help:Creating pages",
+				"image": "Help:Images"
+			}
+		},
+		"GEHomepageSuggestedEditsEnableTopics": {
+			"description": "Enable topic filters for suggested edits",
+			"value": true
+		},
+		"GEHomepageSuggestedEditsTopicsRequiresOptIn": {
+			"description": "If true, the topic filters for suggested edits will only be displayed to users who have the (hidden) preference for it enabled. If false (default), they will be displayed to everyone.",
+			"value": false
+		},
+		"GEConfirmEmailEnabled": {
+			"description": "Global ON/OFF switch for the email confirmation changes.",
+			"value": true
+		},
+		"GENewcomerTasksConfigTitle": {
+			"description": "Title of a MediaWiki page which contains suggested edits configuration. If the title has an interwiki prefix, then its content will be loaded remotely via an HTTP request. Should have JSON content type and contain a map of task type -> task configuration where task configuration consists of the following fields: group - 'easy', 'medium' or 'hard'; templates - an array of template names (without namespace) for the maintenance templates used to tag this task type (redirects do not need to be declared manually). The system messages growthexperiments-homepage-suggestededits-tasktype-name-<tasktype> and growthexperiments-homepage-suggestededits-tasktype-description-<tasktype> will be used for task name and description; both must exist.",
+			"value": "MediaWiki:NewcomerTasks.json"
+		},
+		"GENewcomerTasksTopicType": {
+			"description": "How the topic of an article is identified. One of: morelike - use CirrusSearch morelikethis search with a predefined set of representetative articles for each topic; ores - use ORES articletopic predictions.",
+			"value": "morelike"
+		},
+		"GENewcomerTasksOresTopicConfigTitle": {
+			"description": "Title of a MediaWiki page which contains ORES topic configuration for suggested edits. If the title has an interwiki prefix, then its content will be loaded remotely via an HTTP request. Should have JSON content type and contain an object like { topics: <topics>, groups: <groups> }. <topics> is a map of topic id -> topic configuration, with each topic an object with the properties 'group' (for grouping topics visually; each section name corresponds with a growthexperiments-homepage-suggestededits-topic-group-name-<id> system message which must exist) and 'oresTopics' (list of ORES topic IDs to use for this topic, ie. the values to use with the articletopic: search keyword). The system message growthexperiments-homepage-suggestededits-topic-name-<id> will be used for human-readable topic name and must exist. <groups> is a list of the group ids used in the topics section, to define the order of groups.",
+			"value": "MediaWiki:NewcomerTopicsOres.json"
+		},
+		"GENewcomerTasksTopicConfigTitle": {
+			"description": "Title of a MediaWiki page which contains morelike topic configuration for suggested edits. If the title has an interwiki prefix, then its content will be loaded remotely via an HTTP request. Should have JSON content type and contain a map of topic id -> topic configuration, which is an object with the properties 'titles' (list of mainspace page names of pages which are considered representative of the topic, to be used for text similarity comparision) and 'label' (human-readable name).",
+			"value": "MediaWiki:NewcomerTopics.json"
+		},
+		"GENewcomerTasksRemoteApiUrl": {
+			"description": "URL of a remote API (ending with 'api.php') to use for identifying suggested edits. This is meant for developer setups.",
+			"value": null
+		},
+		"GENewcomerTasksRemoteArticleOrigin": {
+			"description": "Origin to append suggested article URLs to (e.g. 'https://en.wikipedia.org'). This is meant for developer setups.",
+			"value": null
+		},
+		"GENewcomerTasksGuidanceEnabled": {
+			"description": "Global ON/OFF switch for the newcomer tasks guidance feature.",
+			"value": true
+		},
+		"GENewcomerTasksGuidanceRequiresOptIn": {
+			"description": "If true, the guidance feature will only be displayed to users who have the (hidden) preference for it enabled. If false (default), it will be displayed to everyone.",
+			"value": false
+		},
+		"GERestbaseUrl": {
+			"description": "URL of the RESTBase service (PCS Summary API - see https://www.mediawiki.org/wiki/Page_Content_Service#/page/summary) used for task cards. Autogenerated from the wiki URL when not set.",
+			"value": false
+		},
+		"GELinkRecommendationServiceUrl": {
+			"description": "Root URL of the link recommendation service.",
+			"value": false
+		},
+		"WelcomeSurveyExperimentalGroups": {
+			"description": "List of experimental groups. A group is defined with a range to randomly match users and the list of questions they will see on the survey.",
+			"merge_strategy": "array_plus_2d",
+			"value": {
+				"exp1_group1": {
+					"range": "x",
+					"format": "specialpage",
+					"questions": [
+						"reason",
+						"edited",
+						"email"
+					]
+				},
+				"exp1_group2": {
+					"range": "x",
+					"questions": []
+				},
+				"exp2_control": {
+					"range": "x",
+					"questions": []
+				},
+				"exp2_target_specialpage": {
+					"range": "x",
+					"format": "specialpage",
+					"questions": [
+						"reason",
+						"edited",
+						"email",
+						"languages"
+					]
+				}
+			}
+		}
+	},
+	"LogTypes": [
+		"growthexperiments"
+	],
+	"LogNames": {
+		"growthexperiments": "growthexperiments-log-name"
+	},
+	"LogHeaders": {
+		"growthexperiments": "growthexperiments-log-header"
+	},
+	"LogActionsHandlers": {
+		"growthexperiments/*": "GrowthExperiments\\Mentorship\\MentorChangeLogFormatter"
+	},
+	"AvailableRights": [
+		"setmentor"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"setmentor": true
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"configmanager-admintool-label": "Кіраваньне канфігурацыяй",
+	"action-configmanager-viewspecialpage": "прагляд спэцыяльнай старонкі «{{int:configmanager}}»",
+	"configmanager": "Кіраваньне канфігурацыяй",
+	"configmanager-desc": "Дае магчымасьць адміністратарам наладзіць усю вікі з адной спэцыяльнай старонкі",
+	"configmanager-discardchanges": "Скасаваць зьмены?",
+	"configmanager-noentry": "Запіс ня знойдзены",
+	"apihelp-configmanager-tasks-summary": "Кіраваньне заданьнямі",
+	"apihelp-configmanager-store-summary": "Кіраваньне сховішчамі",
+	"right-configmanager-viewspecialpage": "Доступ да спэцыяльнай старонкі [[Special:ConfigManager]]."
+}

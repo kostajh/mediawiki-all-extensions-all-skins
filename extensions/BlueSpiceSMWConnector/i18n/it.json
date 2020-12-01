@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Selven"
+		]
+	},
+	"bs-bssmwconnector-desc": "Integra SemanticMediaWiki in BlueSpice",
+	"bs-bssmwconnector-srf-printername-bsgrid": "Griglia di BlueSpice",
+	"bs-dlg-choosesmwprop-label": "Proprietà",
+	"bs-dlg-choosesmwprop-type-smwprop": "Proprietà semantica",
+	"bs-extendedsearch-add-filter-group-smwproperty-label": "Proprietà semantiche",
+	"bs-extendedsearch-search-center-result-smwproperty-label": "Proprietà semantiche:",
+	"bs-smwconnector-extendedsearch-boolean-property-true": "Sì",
+	"bs-smwconnector-extendedsearch-boolean-property-false": "No"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"pagelanguage-desc": "Define a lingua da páxina en cada páxina",
+	"pagelanguage-invalid": "'''Atención:''' Ignórase o código de lingua \"$1\" non válido para a lingua da páxina.",
+	"pagelanguage-duplicate": "'''Atención:''' A lingua \"$2\" da páxina sobrescribe a anterior lingua \"$1\" da páxina."
+}

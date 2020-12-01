@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"html2wiki": "Importar o contido HTML",
+	"html2wiki-collection-name": "Nome da colección; ou ruta pai:",
+	"html2wiki-comment": "Ficheiro importado con [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Html2Wiki Html2Wiki]",
+	"html2wiki-desc": "Importar un contido HTML na súa wiki",
+	"html2wiki-dry-run": "Simular:",
+	"html2wiki-dry-run-heading": "Só é unha vista previa! O contido non se gardou:",
+	"html2wiki-summary": "Importar páxinas HTML na wiki",
+	"html2wiki-importbtn": "Importar",
+	"html2wiki-intro": "Use este formulario para importar contido HTML na súa wiki.\n\nSe sube un ficheiro zip, o campo de nome colección úsase para diferenciar a colección dunha versión posterior. Tamén todos os ficheiros agruparanse nunha categoría co mesmo nome. Por exemplo, digamos que está a importar unha colección de ficheiros HTML de saída do seu sistema de documentación software, vostede indicará un identificador único de colección como 'FluxCapacitor-v1.1' co que toda a colección impórtase nunha xerarquía de artigos comezando con 'FluxCapacitor-v1.1'. Desta forma dez coleccións diferentes poden importarse sen machacarse as unhas ás outras.\n\nEspecificando un nome de colección xa existente (ou camiño ó pai), actualizará o contido wiki existente.\n\nSe quere importar un ficheiro único nunha xerarquía de artigos existente, simplemente especifique o seu 'pai' como o nome da colección.\n\nPor exemplo, se quere importar un novo 'advanced_topics.html' que debería existir en <code>'FluxCapacitor-v1.1/docs/advanced_topics.html'</code>, o pai debería ser 'FluxCapacitor-v1.1/docs/'",
+	"html2wiki-title": "Importar HTML",
+	"html2wiki-fieldset-legend": "Importar o contido HTML",
+	"html2wiki_filenotfound": "Ficheiro ($1) non atopado",
+	"html2wiki-text": "Admítense tanto HTML (.html) individuais como comprimidos. Estes poden ser .gz, .tar, .tar.gz, .tgz ou .zip. As imaxes trataranse automaticamente desde os comprimidos.",
+	"html2wiki-filename": "Nome do ficheiro:",
+	"html2wiki-not-allowed": "Sentímolo, debe ser un administrador ou ter permisos de importación para usar este formulario.",
+	"html2wiki-log-name": "Rexistro de importación de HTML",
+	"html2wiki-log-description": "Abaixo móstrase unha lista das importacións de HTML máis recentes.",
+	"html2wiki_multiple_body": "Atopáronse máis dun par de etiquetas <body> en $1",
+	"html2wiki_uploaderror": "Houbo un erro ó xestionar a suba do ficheiro:\n$1",
+	"html2wiki_parse-error": "QueryPath (http://querypath.org/) non puido analizar o contido subministrado en $1",
+	"logentry-html2wiki": "$1 {{GENDER:$2|importou}} a páxina $3"
+}

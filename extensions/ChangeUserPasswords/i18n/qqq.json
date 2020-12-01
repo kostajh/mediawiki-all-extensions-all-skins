@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"changeuserpasswords": "Name of the special page on [[Special:SpecialPages]]",
+	"changeuserpassword-desc": "{{desc|name=Change User Passwords|url=https://www.mediawiki.org/wiki/Extension:ChangeUserPasswords}}",
+	"changeuserpassword-pagename": "Used as pagename message",
+	"changeuserpassword-topheader": "Used as topheader message",
+	"changeuserpassword-success": "Used as success message",
+	"changeuserpassword-title": "Used as title message",
+	"changeuserpassword-intro": "Used as intro message",
+	"action-changeuserpasswords": "{{doc-action|changeuserpasswords}}",
+	"right-changeuserpasswords": "{{doc-right|changeuserpasswords}}"
+}

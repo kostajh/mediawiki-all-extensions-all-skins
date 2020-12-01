@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ankita Shukla"
+		]
+	},
+	"spellingdictionary": "Spelling Dictionary",
+	"spellingdictionaryadmin": "Spelling Dictionary Admin",
+	"viewall": "View All Words",
+	"viewbylanguage": "View Words by language",
+	"desc": "This is the Spelling Dictionary extension.",
+	"title-special": "Spelling Dictionary",
+	"title-special-admin": "Spelling Dictionary Admin Dashboard",
+	"title-view-all": "View All Words",
+	"title-view-by-language": "View Words by language",
+	"intro-paragraph": "This is the landing special page of the Spelling Dictionary extension.",
+	"intro-paragraph-admin": "This is the admin page for the Spelling Dictionary extension.",
+	"spell-dict-word": "Enter word",
+	"spell-dict-language": "What language does the word belong to?",
+	"add-word-form-submit": "Submit word",
+	"sd-admin-browse-edit": "Browse and edit",
+	"sd-admin-add-more-spellings": "Add more spellings",
+	"sd-admin-viewall": "Browse all words",
+	"view-all-intro": "View all the words that have been submitted to Spelling Dictionary",
+	"sd-admin-view-by-lang": "View by language",
+	"view-by-lang-intro": "View words sorted by language.",
+	"sd-admin-importexport": "Import and export",
+	"sd-admin-select-language": "Select language to view spellings",
+	"sd-admin-view-selected-language": "View spellings",
+	"view-by-lang-section-chooselanguage": "Choose language",
+	"add-word-section-addword": "Add a new word",
+	"action-spelladmin": "edit and delete user-posted spellings",
+	"right-spelladmin": "Edit and delete user-posted spellings"
+}

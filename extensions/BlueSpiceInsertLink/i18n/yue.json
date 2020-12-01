@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kc kennylau",
+			"Ktchankt",
+			"Moon0319",
+			"Yueman"
+		]
+	},
+	"bs-insertlink-desc": "輸入連結嘅對話盒",
+	"prefs-insertlink": "插連結",
+	"bs-insertlink": "插入連結",
+	"bs-insertlink-pref-enable-java": "啟用Java applet",
+	"bs-insertlink-button-title": "加或者改拎",
+	"bs-insertlink-dialog-title": "插入連結",
+	"bs-insertlink-tab-wiki-page": "維基頁面",
+	"bs-insertlink-tab-ext-link": "外部拎",
+	"bs-insertlink-tab-email": "電郵連結",
+	"bs-insertlink-tab-file": "連去快勞",
+	"bs-insertlink-label-page": "版",
+	"bs-insertlink-label-link": "拎",
+	"bs-insertlink-label-mail": "電郵地址",
+	"bs-insertlink-label-description": "描述",
+	"bs-insertlink-label-file": "快勞",
+	"bs-insertlink-label-searchfile": "揾……",
+	"bs-insertlink-select-a-page": "揀目標……",
+	"bs-insertlink-select-a-namespace": "（頁）",
+	"bs-insertlink-empty-field-text": "想插入一個連結嘅話，你需要作出描述。",
+	"bs-insertlink-no-applet": "載入唔到程式。請檢查下你個Java安裝情況。"
+}

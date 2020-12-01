@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Trockya"
+		]
+	},
+	"pagelanguage-desc": "Her sayfanın sayfa dilini tanımlayın",
+	"pagelanguage-invalid": "'''Uyarı:''' Sayfa dili için \"$1\" geçersiz dil kodu dikkate alınmıyor.",
+	"pagelanguage-duplicate": "'''Uyarı:''' \"$2\" sayfa dili önceki \"$1\" sayfa dilini geçersiz kılar."
+}

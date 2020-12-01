@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"eucc-country-picker-placeholder": "Valitse maasi",
+	"eucc-email-user-info": "Nimeni on $1 $2 ja asun maassa $3.",
+	"eucc-email-first-name-input-placeholder": "Etunimi",
+	"eucc-email-last-name-input-placeholder": "Sukunimi",
+	"eucc-email-email-input-placeholder": "Sähköpostiosoite",
+	"eucc-thank-you-header": "Kiitos!",
+	"eucc-mail-dialog-target-rep": "$1 $2"
+}

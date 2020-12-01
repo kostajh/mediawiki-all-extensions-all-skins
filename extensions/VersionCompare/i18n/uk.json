@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"versioncompare": "Порівняння версій",
+	"version-compare-desc": "Показати порівняння базових компонентів та версій розширень між двома вікі",
+	"version-compare-database-label": "База даних",
+	"version-compare-url-error": "Виникла помилка при отриманні даних з $1.",
+	"version-compare-url-field-help-1": "URL-адреса API (закінчується на api.php) першої вікі для порівняння. Якщо залишити порожнім, буде використано поточну вікі.",
+	"version-compare-url-field-help-2": "URL-адреса API (закінчується на api.php) другої вікі для порівняння. Якщо залишити порожнім, буде використано поточну вікі.",
+	"version-compare-diff-field-label": "Показати лише відмінності"
+}

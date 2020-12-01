@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"phabtaskgraph-author-field-label": "Autore",
+	"phabtaskgraph-owner-field-label": "Proprietario",
+	"phabtaskgraph-tasks-field-label": "Attività",
+	"phabtaskgraph-projects-field-label": "Progetti",
+	"phabtaskgraph-status-field-label": "Stato",
+	"phabtaskgraph-width-field-label": "Larghezza",
+	"phabtaskgraph-height-field-label": "Altezza",
+	"phabtaskgraph-tasks-field-help": "elenco di ID task separati da virgola (\"T\" iniziale facoltativa); ad esempio: 'T123456, T654321'",
+	"phabtaskgraph-projects-field-help": "elenco di nomi progetto separati da virgola; ad esempio: 'MediaWiki-Platform-Team, Epic'",
+	"phabtaskgraph-status-open": "Aperto",
+	"phabtaskgraph-status-resolved": "Risolto",
+	"phabtaskgraph-status-invalid": "Non valido",
+	"phabtaskgraph-status-duplicate": "Duplicato"
+}

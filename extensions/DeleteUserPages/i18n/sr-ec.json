@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"deleteuserpages-desc": "Даје могућност корисницима да бришу сопствене корисничке странице",
+	"action-delete-rootuserpages": "обриши своју корисничку страницу и страницу за разговор",
+	"right-delete-rootuserpages": "Може брисати личне корисничке странице и њихове странице за разговор",
+	"action-delete-usersubpages": "обриши подстранице личне корисничке странице",
+	"right-delete-usersubpages": "Може брисати подстранице њихових личних корисничких страница"
+}

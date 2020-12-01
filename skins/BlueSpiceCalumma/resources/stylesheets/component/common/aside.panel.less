@@ -1,0 +1,132 @@
+.panel,
+.bs-panel {
+	margin-bottom:  10px;
+
+	&.panel-default {
+		padding: 0;
+		border: none;
+		border-radius: 0;
+		background-color: transparent;
+		box-shadow: none;
+
+		.panel-heading {
+			padding: 0;
+			border: none;
+			border-radius: 0;
+			background-color: transparent;
+
+			a,
+			a.visited{
+				width: 100%;
+				text-decoration: none;
+				display: inline-flex;
+				justify-content: space-between;
+				background-color: transparent;
+			}
+			a:hover{
+				background-color: transparent;
+				text-decoration: none;
+			}
+
+			.panel-title {
+				display: inline-flex;
+				justify-content: space-between;
+				width: 100%;
+				a {
+					width: 100%;
+				}
+			}
+
+			.bs-panel-title {
+				display: inline-flex;
+				justify-content: space-between;
+				width: 100%;
+				background-color: transparent;
+				margin-top: 0;
+				margin-bottom: 0;
+
+				.badge {
+						margin: 0 5px 0 5px;
+				}
+
+				a.tool{
+					width: 32px;
+					&:empty {
+						display: none;
+					}
+				}
+				a.tool:empty ~ a.title {
+					width: 100%;
+				}
+
+				a.title {
+					width: calc( ~"100% - 32px" );
+					float: right;
+					display: inline-block;
+					text-align: left;
+
+					span.title{
+						background-color: transparent;
+						display: block;
+						height: auto;
+					}
+				}
+
+				.trigger.flyout{
+					i.trigger-icon::before,
+					i.trigger-icon::after {
+						font-style: normal;
+					}
+				}
+			}
+
+
+
+			&.dynamic-graphical-list-visible .bs-panel-title {
+				.trigger.flyout{
+					display: inline;
+					i.trigger-icon::before,
+					i.trigger-icon::after {
+						font-style: normal;
+					}
+				}
+			}
+		}
+	}
+
+	.panel-collapse.collapse.in {
+		margin-bottom: 20px;
+
+		&:empty {
+			display: none;
+		}
+	}
+
+	/* list-group-item */
+	.list-group {
+		a.list-group-item {
+			height: 32px;
+			line-height: 32px;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			background-color: transparent;
+			border: none;
+			border-radius: 0;
+
+			span {
+				display: inline-block;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				max-width: 80%;
+				max-height: 100%;
+				margin-left: 24px;
+				line-height: 28px;
+			}
+
+			i {
+				float: left;
+				line-height: 28px;
+			}
+		}
+	}
+}

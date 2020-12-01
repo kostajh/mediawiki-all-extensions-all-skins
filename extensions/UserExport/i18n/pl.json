@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"userexport-desc": "Umożliwia eksportowanie danych użytkowników do pliku CSV",
+	"userexport": "Eksport danych użytkownika",
+	"userexport-submit": "Eksportuj",
+	"userexport-badtoken": "Nieprawidłowy kod weryfikacyjny edycji (token).",
+	"userexport-description": "Ta strona umożliwia wyeksporotwanie danych (nazwa i adres e-mail) wszystkich zarejestrowanych na tej wiki użytkowników do pliku CSV.",
+	"right-userexport": "Masowe eksporotwanie danych użytkowników",
+	"action-userexport": "eksportowania danych użytkowników z tej wiki"
+}

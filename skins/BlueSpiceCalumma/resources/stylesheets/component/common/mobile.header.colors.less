@@ -1,0 +1,44 @@
+body.mediawiki header.main-header {
+	.calumma-mobile-visible.calumma-tablet-visible {
+		.bs-logo a {
+			background-size: contain;
+		}
+		.sidebar-toggle {
+			i::before {
+				color: @theme-header-fg-color;
+			}
+			&:hover i::before {
+				color: @theme-header-fg-color-hover;
+			}
+		}
+		#bs-extendedsearch-mobile-box {
+			.mobile-search-button {
+				padding-top: 0;
+				&::before {
+					color: @theme-header-fg-color;
+				}
+				&:hover::before {
+					color: @theme-header-fg-color-hover;
+				}
+			}
+
+			&.open {
+				.dropdown-menu {
+					background-color: @theme-header-bg-color;
+				}
+			}
+		}
+
+		.mobile-notifications-button {
+			padding-top: 0.3em;
+			&:not( .active ){
+				i.mobile-notifications-button:not( .active )::before {
+					color: @theme-header-fg-color;
+				}
+				&:hover i.mobile-notifications-button::before {
+					color: @theme-header-fg-color-hover;
+				}
+			}
+		}
+	}
+}

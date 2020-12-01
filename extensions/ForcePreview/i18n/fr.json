@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Grondin",
+			"PieRRoMaN",
+			"Verdy p"
+		]
+	},
+	"forcepreview": "$1 (prévisualiser au préalable)",
+	"forcepreview-desc": "Force la prévisualisation pour les utilisateurs ne disposant d'aucun privilège",
+	"action-forcepreviewexempt": "peut enregistrer sans utiliser Afficher l’aperçu",
+	"right-forcepreviewexempt": "Peut publier sans utiliser la prévisualisation"
+}

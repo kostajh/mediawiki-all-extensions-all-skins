@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"safedelete": "Borrado seguro",
+	"safedelete-desc": "Borrar una página solo si no hay páginas en los espacios de nombres especificados que apunten a ella",
+	"safedelete-title": "Borrar «$1»",
+	"safedelete-missingpagename": "Falta el nombre de la página.",
+	"safedelete-missingnamespaces": "No está configurada la lista de espacios de nombres de borrado.",
+	"safedelete-cannotdelete": "La página \"$1\" no puede eliminarse ya que hay enlaces o redirecciones a ella de {{PLURAL:$2|la siguiente página|las siguientes páginas}}:"
+}

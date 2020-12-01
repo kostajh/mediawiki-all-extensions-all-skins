@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"prefs-onlinestatus": "Online status",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Online}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Optaget}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Ikke tilstede}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Skjult}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Offline}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Ukendt}}"
+}

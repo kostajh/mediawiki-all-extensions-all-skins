@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"extralanguagelink-desc": "Amiesta más enllaces de llingua na seición «N'otres llingües» de la barra llateral",
+	"extralanguagelink-param-class": "clase",
+	"extralanguagelink-param-hreflang": "llinghref",
+	"extralanguagelink-param-lang": "lling",
+	"extralanguagelink-param-style": "estilu",
+	"extralanguagelink-param-title": "títulu",
+	"extralanguagelink-badinterwiki": "El prefixu d'interwiki «$1:» nun ta na llista de prefixos d'interwiki permitíos.",
+	"extralanguagelink-badtitle": "Nun pudo analizase'l títulu de la páxina «$1»."
+}

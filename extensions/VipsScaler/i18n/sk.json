@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Luky001",
+			"Robert Važan"
+		]
+	},
+	"vipstest": "Test zmenšovania obrázkov VIPS",
+	"vipsscaler-desc": "Vytvára náhľady pomocou VIPS"
+}

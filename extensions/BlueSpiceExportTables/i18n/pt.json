@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mansil alfalb"
+		]
+	},
+	"bs-exporttables-extension-description": "Permite a exportação de tabelas para Excel e CSV",
+	"bs-exporttables-menu": "Exportar tabela",
+	"bs-exporttables-menu-csv": "Valores separados por vírgula (CSV)",
+	"bs-exporttables-ve-exportable-option": "Exportável"
+}

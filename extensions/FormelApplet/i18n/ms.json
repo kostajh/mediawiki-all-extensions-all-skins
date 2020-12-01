@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"formelapplet-desc": "Menambah applet [http://wiki.formelapplet.de FormelApplet] pada halaman.",
+	"formelapplet-nojava": "Sila pasang $1 untuk menggunakan halaman ini.",
+	"formelapplet-missing-parameter": "Parameter tertinggal (width atau height atau term/solution).",
+	"formelapplet-file-not-found": "Fail $1 tidak dijumpai.",
+	"formelapplet-error": "Ralat pada sambungan MediaWiki FormelApplet: <em>$1</em>"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Araceletorres",
+			"Felipe L. Ewald"
+		]
+	},
+	"bouncehandler-desc": "Ajuda no tratamento de e-mail devolvido para o MediaWiki",
+	"bouncehandler-notify_subject": "Retornando devolução temporariamente",
+	"notification-bouncehandler": "{{GENDER:$1|Seu}} endereço de e-mail registrado não é mais válido.",
+	"notification-bouncehandler-flyout": "{{GENDER: $2|Seu}} endereço de e-mail registrado $1 foi cancelado devido a várias falhas de entrega de mensagens. Você pode [[Special:ConfirmEmail|verificar {{GENDER:$2|seu}} endereço de e-mail novamente]].",
+	"notification-link-text-change-email": "Mudar o seu endereço de e-mail",
+	"notification-header-unsubscribe-bouncehandler": "O {{GENDER:$4|seu}} seu endereço de e-mail registrado $3 foi cancelado devido a várias falhas de entrega de mensagens. Você pode verificar {{GENDER:$4|seu}} endereço de e-mail novamente."
+}

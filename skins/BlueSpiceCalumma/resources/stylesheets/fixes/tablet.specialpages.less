@@ -1,0 +1,91 @@
+/* Special:Notifications */
+
+body.ns-special.mw-special-Notifications #mw-content-text {
+	.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-notificationsInboxWidget {
+		width: 90vw;
+		.mw-echo-ui-notificationsInboxWidget-toolbarWrapper {
+			.mw-echo-ui-notificationsInboxWidget-row {
+				width: 80vw;
+			}
+		}
+	}
+	.oo-ui-widget.oo-ui-widget-enabled.mw-echo-ui-datedNotificationsWidget {
+		width: 90vw;
+		.mw-echo-ui-datedSubGroupListWidget-title {
+			font-size: 75%;
+		}
+	}
+}
+
+
+/* Special:Preferences */
+
+body.ns-special.mw-special-Preferences #mw-content-text {
+	#preftoc {
+		li a {
+			border: 1px solid @bs-color-primary;
+			border-radius: 1.5rem;
+			height: 2rem;
+			line-height: 0.625rem;
+			color: black;
+			margin-bottom: 0.3125rem;
+			margin-right: 0.3125rem;
+		}
+		li:nth-child( odd ) {
+			float: right;
+			margin-left: 0.3125rem;
+			margin-right: 0.625rem;
+		}
+	}
+
+	#mw-prefs-form {
+		td.mw-label {
+			float: left;
+			label {
+				white-space: nowrap;
+			}
+		}
+		td.mw-input {
+			float: left;
+			width: 90%;
+			//max-width: 90%;
+			select {
+				white-space: nowrap;
+				max-width: 90%;
+			}
+			input {
+				max-width: 90%;
+			}
+		}
+	}
+}
+
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active > .oo-ui-buttonElement-button
+{
+	color: #fff !important;
+}
+
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary > .oo-ui-buttonElement-button {
+	color: #fff !important;
+}
+
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
+	color: #fff !important;
+}
+
+.x-tab-default-focus {
+	background-color: #527dd4 !important;
+}
+
+/*Special:AllPages*/
+body.ns-special .mw-allpages-body {
+	columns: 32em 2;
+	-moz-columns: 32em 2;
+	-webkit-columns: 32em 2;
+}
+
+/*Special:CategoryTree*/
+body.mw-special-CategoryTree .oo-ui-defaultOverlay {
+	z-index: 200;
+}
+

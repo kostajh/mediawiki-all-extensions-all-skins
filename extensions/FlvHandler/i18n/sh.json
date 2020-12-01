@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"flvhandler_desc": "Dozvoli dodavanje Flash-вideo (.flv) datoteka kao standardne datoteke (npr. <nowiki>[[</nowiki>{{ns:file}}:Movie.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Flash-video, $1 × $2 piksela, veličina datoteke: $3"
+}

@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac",
+			"Katunchik"
+		]
+	},
+	"bs-socialtopics-desc": "Данные тем и обсуждений для BlueSpiceSocial",
+	"bs-socialtopics-pref-skipcreatedialog": "Не указывать флажок диалога при создании обсуждения",
+	"bs-socialtopics-toc-entalkpageautocreate": "Автоматически создавать все страницы обсуждения",
+	"bs-socialtopics-autocreated-discussionpage": "Страница обсуждения была создана автоматически.",
+	"bs-socialtopics-autocreated-discussionpagefile": "Страница обсуждения была создана автоматически.",
+	"bs-socialdiscussion-discussiontype": "Обсуждение",
+	"bs-socialdiscussion-topictype": "Тема обсуждения",
+	"bs-socialtopics-entitydiscussion-header-create": "Создать новое обсуждение",
+	"bs-social-entitytopic-header-create": "Новая тема",
+	"bs-socialtopics-var-topictitle": "Заголовок",
+	"bs-socialtopics-var-discussiontitleid": "Страница, присвоенная обсуждению",
+	"bs-socialtopics-entity-fatalstatus-save-notalkpage": "Недействительная страница обсуждения",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "$1 создал тему:",
+	"topics": "Темы",
+	"bs-socialtopics-special-topics-heading": "Все темы",
+	"bs-socialtopics-special-topics-heading-entry": "Тема/$1",
+	"bs-socialtopics-aftercontent-heading": "Обсуждения",
+	"bs-socialtopics-nodiscussionpage": "Страница обсуждения ещё не создана.",
+	"bs-socialtopics-nodiscussionpage-create": "Создать новую страницу обсуждения",
+	"bs-socialtopics-nodiscussion": "Обсуждения ещё не созданы.",
+	"bs-socialtopics-notopicsadded": "Темы еще не созданы.",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "Сохранить",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "Отмена",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "Контент",
+	"bs-socialtopics-switch-nodiscussion-description": "Скрыть обсуждение на этой странице"
+}

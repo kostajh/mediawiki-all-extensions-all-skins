@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Salvador alc"
+		]
+	},
+	"multimaps-loading-map": "Cargando el mapa…",
+	"multimaps-mapservices-must-not-empty-array": "La variable «$1» no debe ser una matriz vacía",
+	"multimaps-marker-incorrect-icon-url": "Una dirección URL incorrecta \"$1\" fue proporcionada por el icono de marcador.",
+	"multimaps-marker-incorrect-icon-anchor": "Un ancla incorrecto \" $1 \"fue proporcionado por el icono marcador\" $2 \"."
+}

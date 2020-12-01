@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"namespaces_1": "si",
+	"namespaces_0": "no",
+	"namespaces_error": "La tabella degli namespaces è vuota.",
+	"namespaces_edit": "Modifica",
+	"namespaces_reasonfield": "Motivo",
+	"namespaces_defaultreason": "nessuna motivazione indicata",
+	"namespaces_delquestion": "Cancello \"$1\"",
+	"namespaces_deleting": "Stai cancellando il \"$1\"",
+	"namespaces_deleted": "Il \"$1\" è stato cancellato con successo dalla tabella degli namespaces.",
+	"namespaces_delfailed": "Rimozione del \"$1\" dalla tabella degli namespaces fallita.",
+	"namespaces_addtext": "Aggiungi un namespace",
+	"namespaces_addintro": "Sta per essere aggiunto un nuovo namespace.",
+	"namespaces_addbutton": "Aggiungi",
+	"namespaces_edittext": "Modifica di namespaces",
+	"namespaces_edited": "Il \"$1\" è stato modificato.",
+	"namespaces_logpagename": "Registro tabella namespaces",
+	"namespaces_log_added": "ha aggiunto \"$2\" ($3) (canonical: $4) (default: $5) alla namespaces",
+	"namespaces_log_edited": "ha modificato \"$2\" : ($3) (canonical: $4) (default: $5) nella namespaces",
+	"namespaces_log_deleted": "ha rimosso \"$2\" dalla namespaces",
+	"namespaces_logpagetext": "Registro dei cambiamenti apportati alla [[Special:Namespaces|namespaces]].",
+	"right-namespaces": "Modifica i dati namespaces",
+	"action-namespaces": "modificare questo namespaces"
+}

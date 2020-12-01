@@ -1,0 +1,326 @@
+@import 'mediawiki.ui/variables';
+@import 'mediawiki.mixins';
+@import 'ext.growthExperiments.variables.less';
+
+.growthexperiments-homepage-container {
+	.flex-display();
+}
+
+.growthexperiments-homepage-overlay-container {
+	display: none;
+}
+
+.mw-body-content,
+.overlay-content,
+.content {
+	.growthexperiments-homepage-module-help,
+	.growthexperiments-homepage-module-mentorship {
+		ul {
+			list-style-image: none;
+			list-style-type: none;
+			margin: 0.3em 0 0 1em;
+
+			li:before {
+				content: '\2022';
+				color: #0645ad;
+				margin-right: 0.3em;
+				margin-left: -0.6em;
+			}
+		}
+	}
+
+	.recent-questions-growthexperiments-mentor-questions {
+		background-color: @colorGray15;
+		margin: 16px -16px;
+		padding: 16px;
+
+		h3 {
+			margin-top: 0;
+		}
+	}
+
+	.recent-questions-growthexperiments-help-questions {
+		h3 {
+			margin-top: 1.4em;
+		}
+	}
+
+	.recent-questions-growthexperiments-help-questions,
+	.recent-questions-growthexperiments-mentor-questions {
+		h3 {
+			font-family: @homepageHeaderFont;
+			font-size: 1em;
+			color: @colorGray5;
+			padding-top: 0;
+		}
+
+		.question-link-wrapper {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: inline;
+			margin-left: 0.2em;
+		}
+
+		.question-archived .question-text {
+			font-style: italic;
+			color: @colorGray5;
+		}
+
+		.question-posted-on {
+			font-size: 0.85em;
+			color: @colorGray7;
+			display: block;
+			margin-left: 0.3em;
+			margin-bottom: 0.6em;
+			line-height: 1.3em;
+		}
+	}
+
+	.recent-questions-growthexperiments-mentor-questions:empty,
+	.recent-questions-growthexperiments-help-questions:empty {
+		display: none;
+	}
+}
+
+body.mw-special-Homepage {
+	&.growthexperiments-homepage-mobile-summary {
+		// Enforce a minimum width to avoid breaking the connecting lines of the start modules.
+		min-width: 320px;
+
+		#content #section_0 {
+			// Need !important to override the other !important in
+			// skins/MinervaNeue/skinStyles/mobile.special.styles/minerva.less
+			font-family: 'Linux Libertine', 'Georgia', 'Times', serif !important; // stylelint-disable-line declaration-no-important
+			font-size: 1.7em;
+			font-weight: normal;
+		}
+
+		.minerva__tab-container {
+			border-bottom: 1px solid @colorGray14;
+		}
+
+		.growthexperiments-homepage-container {
+			flex-direction: column;
+
+			> a {
+				text-decoration: none;
+			}
+
+			> .growthexperiments-homepage-module,
+			> a > .growthexperiments-homepage-module {
+				margin: 1em 0 0 0;
+				padding: 0 1em 1em 1em;
+				.box-shadow( none );
+
+				h2.growthexperiments-homepage-module-section-header {
+					padding: 0;
+					margin: 0.625em 0;
+
+					.growthexperiments-homepage-module-header-text {
+						font-size: 0.729em;
+						line-height: 1.429em;
+						padding: 0;
+					}
+				}
+			}
+		}
+	}
+
+	&.growthexperiments-homepage-desktop {
+		.growthexperiments-homepage-container {
+			align-items: start;
+
+			&-user-variant-C,
+			&-user-variant-D {
+				.flex-wrap();
+			}
+
+			&-user-variant-A {
+				min-width: 800px;
+				max-width: 1600px;
+			}
+
+			.growthexperiments-homepage-group-sidebar {
+				&-user-variant-C,
+				&-user-variant-D {
+					.flex( 1, 1, 300px );
+					.flex-display();
+					.flex-wrap();
+				}
+
+				&-user-variant-A {
+					width: 25%;
+				}
+
+				&-subgroup-primary,
+				&-subgroup-secondary {
+					&-user-variant-C,
+					&-user-variant-D {
+						.flex( 1, 0, 300px );
+					}
+				}
+
+				.growthexperiments-homepage-module {
+					margin-right: 0;
+				}
+			}
+
+			.growthexperiments-homepage-group-main {
+				&-user-variant-C,
+				&-user-variant-D {
+					.flex( 1, 0, 480px );
+				}
+
+				&-user-variant-A {
+					width: 75%;
+					// Set a minimum width to avoid issues with the wide-format
+					// suggested edit module. Variants C / D will resize correctly
+					// to accommodate the wide-format module, but variant A never
+					// had correct responsive resizing (and appears to have none
+					// currently).
+					// Make sure the sidebar has always at least 300px (in modern
+					// browsers - sorry IE). This is a hack but it is only needed
+					// by variant A so it will be good enough for the short time
+					// it exists.
+					min-width: 1200px;
+					min-width: ~'min( 1200px, 100% - 300px )';
+				}
+
+				&-subgroup-primary {
+					.flex-display();
+					.flex-wrap();
+
+					.growthexperiments-homepage-module-impact.growthexperiments-homepage-module-user-variant-A,
+					.growthexperiments-homepage-module-mentorship.growthexperiments-homepage-module-user-variant-A,
+					.growthexperiments-homepage-module-suggested-edits.growthexperiments-homepage-module-user-variant-A {
+						// 1.5* instead of 2* because the leftmost module doesn't have a left margin
+						width: calc( 50% ~'-'1.5 * @homepageModuleMargin );
+						// Define a minimum height so as to avoid height change once the
+						// card/controls/pager etc are loaded.
+						min-height: 621.7px;
+					}
+
+					.growthexperiments-homepage-module-suggested-edits.growthexperiments-homepage-module-user-variant-C,
+					.growthexperiments-homepage-module-suggested-edits.growthexperiments-homepage-module-user-variant-D {
+						width: calc( 100% ~'-'1.5 * @homepageModuleMargin );
+					}
+
+					.growthexperiments-homepage-module-start {
+						width: 100%;
+					}
+
+					.growthexperiments-homepage-module-start,
+					> .growthexperiments-homepage-module:nth-child( 2 ) {
+						margin-left: 0;
+					}
+				}
+
+				&-subgroup-secondary {
+					.growthexperiments-homepage-module-suggested-edits.growthexperiments-homepage-module-user-variant-C,
+					.growthexperiments-homepage-module-suggested-edits.growthexperiments-homepage-module-user-variant-D {
+						// Define a minimum height so as to avoid height change once the
+						// card/controls/pager etc are loaded.
+						min-height: 631.533px;
+					}
+				}
+			}
+		}
+	}
+
+	&.growthexperiments-homepage-mobile-details {
+		.heading-holder {
+			display: none;
+		}
+
+		#content {
+			padding-bottom: 0;
+
+			#bodyContent {
+				margin: 0;
+			}
+		}
+	}
+
+	.overlay-header .overlay-title {
+		// This padding is the same size as the back button on the left.
+		// Adding it makes the title centered on the screen instead of
+		// on the space between the back button and the right edge.
+		padding-right: 56px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.overlay-content {
+		// Don't use padding-top here, because MinervaNeue already sets padding-top (T233163)
+		margin-top: 1em;
+	}
+
+	.overlay-content .growthexperiments-homepage-module-mobile-overlay,
+	.growthexperiments-homepage-container > .growthexperiments-homepage-module-mobile-details {
+		border: 0;
+		box-shadow: none;
+		margin: 0;
+		padding: 0 0 2em 0;
+		width: 100%;
+		background-color: unset;
+
+		.growthexperiments-homepage-module-section-header {
+			text-align: center;
+			font-weight: normal;
+			font-size: 1.2em;
+			margin-top: 0;
+			margin-bottom: 0;
+
+			.growthexperiments-homepage-module-header-text {
+				margin-right: 2em;
+			}
+
+			.growthexperiments-homepage-module-header-icon {
+				.oo-ui-iconElement {
+					left: 0;
+				}
+			}
+		}
+
+		> .growthexperiments-homepage-module-section {
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+
+		.question-posted-on {
+			font-size: 0.8em;
+		}
+	}
+
+	&.growthexperiments-homepage-user-variant-A {
+		@media all and ( max-width: @homepageLayoutNarrowBreakpoint ) {
+			.growthexperiments-homepage-container {
+				flex-direction: column;
+
+				.growthexperiments-homepage-group-main {
+					width: 100%;
+				}
+
+				.growthexperiments-homepage-group-sidebar {
+					width: 100%;
+
+					&-subgroup-primary,
+					&-subgroup-secondary {
+						.flex-display();
+					}
+
+					.growthexperiments-homepage-module {
+						// Same width as the other non-start modules
+						width: calc( 50% ~'-' 1.5 * ( @homepageModuleMargin + 6px ) );
+						margin-left: @homepageModuleMargin;
+						margin-right: @homepageModuleMargin;
+
+						&:first-child {
+							margin-left: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

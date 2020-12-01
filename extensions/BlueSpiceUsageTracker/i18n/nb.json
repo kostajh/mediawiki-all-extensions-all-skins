@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-usagetracker-desc": "Holder statistiske data om utvidelsesbruk",
+	"prefs-usagetracker": "Brukssporer",
+	"usagetracker": "Brukssporer",
+	"bs-usagetracker-startjobs": "Oppdater nå",
+	"bs-usagetracker-create-statistics": "Oppdater bruksstatistikk",
+	"bs-usagetracker-col-identifier": "Identifikator",
+	"bs-usagetracker-col-desc": "Beskrivelse",
+	"bs-usagetracker-col-count": "Antall",
+	"bs-usagetracker-col-last-updated": "Sist oppdatert",
+	"bs-usagetracker-caution": "OBS: Å oppdatere bruksstatistikk kan ta tid og ressurser. Bare sett i gang en oppdatering når du virkelig trenger oppdaterte data. Denne oppdateringen gjøres via køede jobber, så det kan hende du må laste på nytt flere ganger før alle dataene er samlet.",
+	"bs-usagetracker-base-collector-desc": "Antall sider som bruker $1",
+	"bs-usagetracker-tag-collector-desc": "Antall sider som bruker taggen <$1>",
+	"bs-usagetracker-db-collector-desc": "Antall $1",
+	"bs-usagetracker-open-tasks": "Sideanalyse pågår. {{PLURAL:$1|Én analyse|$1 analyser}} er fortsatt {{PLURAL:$1|åpen|åpne}}. <a href=\"$2\">(Oppdater)</a>",
+	"apihelp-bs-usagetracker-store-summary": "Holder statistisk data om utvidelsesbruk",
+	"action-usagetracker-update": "kjøre oppdateringsprosessen som samler alle sporede data på spesialsiden [[Special:UsageTracker]] på nytt",
+	"right-usagetracker-update": "Tilgang til å kjøre oppdateringsprosessen som samler alle sporede data på [[Special:UsageTracker]] på nytt."
+}

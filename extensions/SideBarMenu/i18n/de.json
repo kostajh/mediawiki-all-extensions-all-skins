@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"Purodha"
+		]
+	},
+	"sidebarmenu-desc": "Ergänzt den Tag <code lang=\"en\">&lt;sidebarmenu&gt;</code> zum Einbinden ausklappbarer Menüs und Untermenüs in die Seitenleiste",
+	"sidebarmenu-parser-input-error": "Der Parser hat den folgenden Fehler ausgegeben: $1",
+	"sidebarmenu-parser-syntax-error": "„$1“ konnte nicht verarbeitet werden. Bitte sicherstellen, dass die Syntax richtig ist.",
+	"sidebarmenu-js-init-error": "Das Laden der JavaScripte ist gescheitert.",
+	"sidebarmenu-edit": "Menü bearbeiten",
+	"sidebarmenu-parser-menuitem-expanded-null": "Es wurde ein ungültiger Wert angegeben. Es sollte entweder „true“ oder „false“, bzw. nichts angegeben sein.",
+	"sidebarmenu-parser-config-error": "Beim Überprüfen der Eingabeparameter sind Fehler aufgetreten",
+	"sidebarmenu-parser-subpage-error-title-not-found": "Der referenzierte Unterseitentitel konnte nicht gefunden werden"
+}

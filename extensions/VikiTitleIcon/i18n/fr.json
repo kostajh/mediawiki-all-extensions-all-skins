@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"vikititleicon-desc": "Greffon VIKI pour afficher le logo à partir des pages qui utilisent l'extension de l'icône de titre",
+	"vikititleicon-error-fetch": "Erreur lors de l'accès aux données concernant l'icône de titre pour le nœud: $1.",
+	"apihelp-getTitleIcons-description": "Obtenir les URL de toutes les icônes titre, si ces URL existent.",
+	"apihelp-getTitleIcons-summary": "Obtenir les URL de toutes les icônes de titre de la page, s’il y en a.",
+	"apihelp-getTitleIcons-param-pageTitle": "titre de la page dont vous souhaitez récupérer les icônes titres."
+}

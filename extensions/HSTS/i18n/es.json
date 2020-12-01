@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"hsts-desc": "HSTS (''HTTP Strict Transport Security'') en función de cada usuario",
+	"hsts-tog": "Activar el modo de seguridad de transporte estricta de HTTP (HSTS)",
+	"hsts-beta-feature-message": "Usar siempre una conexión segura"
+}

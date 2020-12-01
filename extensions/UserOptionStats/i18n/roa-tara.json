@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"useroptionstats": "Statisteche sus a le opziune de l'utende",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Pàgena speciale]] pe segnalà l'ause de le opziune de l'utende sus a MediaUicchi",
+	"uos-warn": "PHPlot non g'è installate!",
+	"uos-choose": "Scacchie une de le opziune de l'utende seguende: $1",
+	"uos-choose-hidden": "Scacchie une de le opziune de l'utende scunnute ca seguone: $1",
+	"uos-unknown": "*De base",
+	"uos-other": "*Otre",
+	"uos-title": "Distribuzzione de le valore de le opzione utende $1"
+}

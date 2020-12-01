@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Ronel1",
+			"Steeve815"
+		]
+	},
+	"graphviz-desc": "מאפשרת הטמעת סימון [http://www.graphviz.org Graphviz] ומייצרת תמונות מתוך הטקסט",
+	"graphviz-reload": "המקור של תמונת הגרף השתנה. יש לרענן את הדף כדי להציג את הגרף המעודכן.",
+	"graphviz-no-input": "מקור הגרף חסר.",
+	"graphviz-dot-invalid-image": "המאפיין dot $1 צריך להיות השם של הקובץ שהועלה.",
+	"graphviz-dot-attr-forbidden": "המאפיין dot $1 אסור.",
+	"graphviz-read-src-failed": "אין אפשרות לקרוא את טקסט הגרף ממערכת הקבצים.",
+	"graphviz-write-src-failed": "אין אפשרות לקרוא את טקסט הגרף ממערכת הקבצים.",
+	"graphviz-write-map-failed": "אין אפשרות לכתוב את מפת הגרף למערכת הקבצים.",
+	"graphviz-mkdir-failed": "אין אפשרות ליצור תיקייה במערכת הקבצים.",
+	"graphviz-delete-reason": "קובץ זמני זה נמחק על ידי ההרחבה GraphViz.",
+	"graphviz-alt": "זהו גרף עם גבולות וצמתים שיכולים להכיל קישורים.",
+	"graphviz-uploaddisabledtext": "יצירת תמונת הגרף אינו אינה אפשרית מכיוון שהעלאת קבצים כבויה.",
+	"graphviz-upload-not-permitted": "יצירת תמונת גרף דורשת אישור העלאה.",
+	"graphviz-user-blocked": "יצירת תמונת הגרף אסורה למשתמשים חסומים.",
+	"graphviz-read-only": "יצירת תמונת גרף אינה מותרת כיוון שהוויקי נמצא במצב קריאה בלבד.",
+	"graphviz-uploaderror": "טעינה של תמונה גרף נכשלה עבור קובץ: $1",
+	"graphviz-upload-comment": "חולל באמצעות [[Special:Version#Installed_extensions|ההרחבה]] מהדף [[$1]]",
+	"graphviz-map-desc": "= ImageMap =\nבעת הוספת תמונה זו לדף ויקי, יש להשתמש בסימון הבא להפעלת קישורים:\n <nowiki>\n<imagemap>\nFile:$1\n$2</imagemap>\n</nowiki>\nלקבלת מידע נוסף, ראה [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ImageMap ImageMap]."
+}

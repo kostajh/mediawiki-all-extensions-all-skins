@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Selven",
+			"ValeJappo"
+		]
+	},
+	"bs-permissionmanager-desc": "Interfaccia di amministrazione per modificare i diritti utente",
+	"prefs-permissionmanager": "Gestione autorizzazioni",
+	"bs-permissionmanager-label": "Gestione autorizzazioni",
+	"bs-permissionmanager-grouping-global": "Autorizzazioni indipendenti del namespace",
+	"bs-permissionmanager-btn-group-label": "Gruppo:",
+	"bs-permissionmanager-header-permissions": "Permessi",
+	"bs-permissionmanager-header-global": "Wiki",
+	"bs-permissionmanager-header-namespaces": "Namespace",
+	"bs-permissionmanager-header-group": "Gruppo",
+	"bs-permissionmanager-btn-save-label": "Salva",
+	"bs-permissionmanager-btn-save-in-progress-label": "Salvataggio...",
+	"bs-permissionmanager-save-success": "Autorizzazioni salvate.",
+	"bs-permissionmanager-pref-max-backups": "Numero massimo di backup",
+	"action-permissionmanager-viewspecialpage": "visualizzare la pagina speciale \"{{int:bs-permissionmanager-label}}\"",
+	"permissionmanager": "Gestione autorizzazioni",
+	"bs-permissionmanager-affected-by-explicit": "Bloccato da $1",
+	"bs-permissionmanager-affected-by-inherited": "Ereditato da $1",
+	"bs-permissionmanager-affected-by-notset": "Non impostato",
+	"bs-permissionmanager-affected-by-explicitlyset": "Impostato esplicitamente",
+	"bs-permissionmanager-group-all": "tutto",
+	"bs-permissionmanager-hint": "Questo ruolo include {{PLURAL:$2|la seguente autorizzazione: $1|le seguenti autorizzazioni: $1}}",
+	"bs-permissionmanager-header-role": "Ruolo",
+	"right-permissionmanager-viewspecialpage": "Accede alla pagina speciale [[Special:PermissionManager]]",
+	"bs-permissionmanager-role-permissions-column-permission": "Permessi",
+	"bs-permissionmanager-role-permissions-column-permission-desc": "Descrizione",
+	"bs-premissionmanager-reset-button-label": "Reimposta",
+	"logentry-bs-permission-manager-global-add": "$1 {{GENDER:$2|ha}} aggiunto {{PLURAL:$6|il ruolo|i ruoli}} $5 al gruppo $4",
+	"logentry-bs-permission-manager-global-remove": "$1 {{GENDER:$2|ha}} rimosso {{PLURAL:$6|il ruolo|i ruoli}} $5 dal gruppo $4",
+	"logentry-bs-permission-manager-ns-add": "$1 {{GENDER:$2|ha}} aggiunto {{PLURAL:$6|il ruolo|i ruoli}} $5 nel namespace $7 al gruppo $4",
+	"logentry-bs-permission-manager-ns-remove": "$1 {{GENDER:$2|ha}} rimosso {{PLURAL:$6|il ruolo|i ruoli}} $5 nel namespace $7 dal gruppo $4",
+	"bs-permissionmanager-preset-private-label": "Wiki privato",
+	"bs-permissionmanager-preset-protected-label": "Wiki protetto",
+	"bs-permissionmanager-preset-public-label": "Wiki pubblico"
+}

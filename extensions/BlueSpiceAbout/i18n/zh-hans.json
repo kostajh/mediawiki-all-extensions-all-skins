@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"科劳"
+		]
+	},
+	"bs-bluespiceabout-desc": "有关BlueSpice的信息",
+	"bs-bluespiceabout-about-bluespice": "关于BlueSpice",
+	"bluespiceabout": "关于BlueSpice",
+	"prefs-bluespiceabout": "关于BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "在主菜单显示链接“{{int:bs-bluespiceabout-about-bluespice}}”",
+	"action-bluespiceabout-viewspecialpage": "查看特殊页面“{{int:bs-bluespiceabout-about-bluespice}}”",
+	"right-bluespiceabout-viewspecialpage": "访问页面[[Special:BlueSpiceAbout]]的权限。"
+}

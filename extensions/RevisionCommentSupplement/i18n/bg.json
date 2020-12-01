@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"Spiritia",
+			"StanProg",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"logentry-revisioncommentsupplement-hidehistory": "$1 {{GENDER:$2|промени}} видимостта на записа в историята $7 с придружаващ коментар на редакция $4: $9",
+	"revcs-error": "Грешка: $1",
+	"revcs-history-rcsh-reason": "Причина",
+	"revcs-list-extended-supplement-all": "всички",
+	"revcs-list-extended-supplement-empty": "празно",
+	"revcs-list-rcs-rev-id-edit": "Редактиране",
+	"revcs-list-rcs-user-text": "Потребител",
+	"revcs-list-submit": "Показване",
+	"revcs-show-reason": "Причина: $1"
+}

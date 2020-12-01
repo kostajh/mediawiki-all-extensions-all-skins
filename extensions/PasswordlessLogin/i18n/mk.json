@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"passwordlesslogin": "Најава без лозинка",
+	"passwordlesslogin-desc": "Дава начин на најава без лозинка, потврдувајќи ја најавата преку поврзан уред.",
+	"passwordlesslogin-verify-request": "Потврдете ја најавата на вашиот телефон.",
+	"passwordlesslogin-error-no-authentication-workflow": "Текот на заверката неочекувано запре.",
+	"passwordlesslogin-no-challenge": "Нема активна прашанка за потврда. Обидете се повторно.",
+	"passwordlesslogin-verification-pending": "Заверката сè уште не готова. Потврдете го барањето за јанава на поврзаниот уред.",
+	"passwordlesslogin-pair-device-step": "Проследете го упатството за да го поврзете новиот уред.",
+	"passwordlesslogin-no-device-paired": "Сè уште немате поврзан уред.",
+	"passwordlesslogin-verify-pair": "Испративме барање за најава на вашиот уред, за да потврдите дека е исправно пријавен. ПОтврдете го барањето, па продолжете.",
+	"passwordlesslogin-pair-device": "Поврзете го уредот за најава без лозинка",
+	"passwordlesslogin-login": "Најавете се со паметниот телефон",
+	"passwordlesslogin-pair-step-1": "1. Преземете го прилогот за најава без лозинка (PasswordlessLogin)",
+	"passwordlesslogin-pair-step-2": "2. Отчитајте го QR-кодот со прилогот",
+	"passwordlesslogin-pair-step-3": "3. Штом ќе заврши поставката на прилогот, прејдете на следниот чекор",
+	"passwordlesslogin-authentication-app": "Прилог за заверка",
+	"apihelp-passwordlesslogin-summary": "Пријавете нов уред за претходно зададена шифра на поврзување (спарување).",
+	"apihelp-passwordlesslogin-param-pairToken": "Претходно зададената шифра за поврзување за да се утврди на кој уред да се пријави корисникот.",
+	"apihelp-passwordlesslogin-param-deviceId": "Единствена назнака на уредот која служи за негово препознавање и испраќање на известувања со вообичаениот систем за пораки на уредот (на пр. Firebase Cloud Messaging за уреди со Андроид).",
+	"apihelp-passwordlesslogin-param-secret": "Тајна создадена на уредот со која ќе се прашанките испратени на него. Оваа тајна се употребува за заверка на одговор на прашанка и затоа треба да се чува во тајност.",
+	"apihelp-passwordlesslogin-verify-challenge-summary": "Потврди барање за најава испратено на уред.",
+	"apihelp-passwordlesslogin-verify-challenge-param-challenge": "Прашанката испратена на уредот, која треба да се реши.",
+	"apihelp-passwordlesslogin-verify-challenge-param-response": "Одговорот (решението) на прашанката. Решението треба да биде:<br />&#160;1. HMAC со SHA512 како потписен алгоритам<br />&#160;2. Претходно споделена тајна со несиметричен клучен материјал<br />&#160;3. Податоците MAC се прашанката во облик на бајтов строј<br />&#160;4. Одговорот треба да биде шеснаесетеречна низа<br />&#160;5. Одговорот треба да биде со мали букви",
+	"apihelp-passwordlesslogin-verify-login-summary": "Провери дали барањето за најава е веќе заверено од уредот."
+}

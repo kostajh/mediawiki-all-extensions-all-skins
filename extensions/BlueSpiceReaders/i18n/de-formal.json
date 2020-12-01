@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwboehm",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-readers-emptyinput": "Sie müssen eine Seite angeben.",
+	"bs-readers-privacy-transparency-working-readers": "BlueSpiceReaders – {{GENDER:$3|Sie}} haben die Seite $1 am $2 gelesen"
+}

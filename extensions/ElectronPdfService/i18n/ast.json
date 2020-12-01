@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Amiesta encontu pa la renderización de PDF nel navegador col serviciu Electron PDF",
+	"electronpdfservice-special-page-headline": "Descargar como PDF",
+	"electronpdfservice-download-label": "Descargar como PDF",
+	"electronpdfservice-download-button": "Descargar",
+	"electronpdfservice-sidebar-portlet-heading": "Imprentar/esportar",
+	"electronpdfservice-sidebar-portlet-print-text": "Descargar como PDF",
+	"electronpdfservice-invalid-page-title": "Páxina inválida",
+	"electronpdfservice-invalid-page-text": "La páxina especificada nun ye válida."
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Pan Cube",
+			"Vengir",
+			"WTM"
+		]
+	},
+	"accountinfo": "Informacje o koncie",
+	"accountinfo-desc": "Pozwala użytkownikowi na przeglądanie prywatnych danych na jego temat",
+	"accountinfo-ts": "Sygnatura czasowa",
+	"accountinfo-ip": "Adres IP",
+	"accountinfo-ua": "Aplikacja klienta",
+	"accountinfo-xff": "Nagłówek XFF",
+	"accountinfo-length": "Informacja ta jest przechowywana przez $1.",
+	"accountinfo-now": "Teraz"
+}

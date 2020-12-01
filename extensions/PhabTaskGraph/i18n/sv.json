@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bengtsson96",
+			"WikiPhoenix"
+		]
+	},
+	"phabtaskgraph-author-field-label": "Författare",
+	"phabtaskgraph-owner-field-label": "Ägare",
+	"phabtaskgraph-tasks-field-label": "Uppgifter",
+	"phabtaskgraph-projects-field-label": "Projekt",
+	"phabtaskgraph-status-field-label": "Status",
+	"phabtaskgraph-width-field-label": "Bredd",
+	"phabtaskgraph-height-field-label": "Höjd",
+	"phabtaskgraph-tasks-field-help": "kommaseparerad lista över uppgifter ID:n (börjar valfritt med \"T\"); d.v.s. 'T123456, T654321'",
+	"phabtaskgraph-projects-field-help": "kommaseparerad lista över projektnamn; d.v.s. 'MediaWiki-Platform-Team, Epic'",
+	"phabtaskgraph-width-field-help": "standard: 800",
+	"phabtaskgraph-height-field-help": "standard: 800",
+	"phabtaskgraph-status-open": "Öppen",
+	"phabtaskgraph-status-stalled": "Stoppad",
+	"phabtaskgraph-status-resolved": "Löst",
+	"phabtaskgraph-status-invalid": "Ogiltig",
+	"phabtaskgraph-status-declined": "Avböjd",
+	"phabtaskgraph-status-duplicate": "Duplicera"
+}

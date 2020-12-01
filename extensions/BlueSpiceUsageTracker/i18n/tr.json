@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Mirzali",
+			"Sayginer"
+		]
+	},
+	"bs-usagetracker-desc": "Uzantı kullanımı ile ilgili istatistiksel verileri tutar",
+	"prefs-usagetracker": "Kullanım İzleyici",
+	"usagetracker": "Kullanım İzleyici",
+	"bs-usagetracker-startjobs": "Şimdi güncelle",
+	"bs-usagetracker-create-statistics": "Kullanım istatistiklerini güncelle",
+	"bs-usagetracker-col-identifier": "Tanımlayıcı",
+	"bs-usagetracker-col-desc": "Açıklama",
+	"bs-usagetracker-col-count": "Sayı",
+	"bs-usagetracker-col-last-updated": "Son güncelleme",
+	"bs-usagetracker-caution": "Dikkat: Kullanım istatistiklerini güncellemek biraz zaman ve kaynak gerektirebilir. Güncellemeyi yalnızca güncel verilere gerçekten ihtiyacınız olduğunda tetikleyin. Güncelleme ertelenmiş işler aracılığıyla yapılır, bu nedenle veriler tamamen toplanana kadar birkaç kez yeniden yüklemeniz gerekebilir.",
+	"bs-usagetracker-base-collector-desc": "$1 kullanan sayfa sayısı",
+	"bs-usagetracker-tag-collector-desc": "<$1> etiketini kullanan sayfa sayısı",
+	"bs-usagetracker-db-collector-desc": "$1 sayısı",
+	"bs-usagetracker-open-tasks": "Site analizi şu anda devam ediyor. {{PLURAL:$1|Bir analiz|$1 analiz}} hala açık. <a href='$2'>(Yenile)</a>",
+	"apihelp-bs-usagetracker-store-summary": "Uzantı kullanımı ile ilgili istatistiksel verileri tutar",
+	"action-usagetracker-update": "[[Special:UsageTracker]] özel sayfasındaki izlenen tüm verileri toplayan güncelleme işlemini yeniden çalıştırın",
+	"right-usagetracker-update": "[[Special:UsageTracker]] özel sayfasında izlenen tüm verileri toplayan güncelleme işlemini yeniden çalıştırmak için erişin."
+}

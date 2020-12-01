@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"categorywatch-desc": "Nagpapalawak ng katungkulang pangtalaan ng binabantayan upang maisama ang pagpapahayag ng hinggil sa mga pagbabago sa kasapian ng pinagmamatyagang mga kaurian",
+	"categorywatch-emailsubject": "Galaw na kasangkot ang binabantayang kauriang \"$1\"",
+	"categorywatch-catmovein": "inilipat ang $1 patungo sa kauriang $2 na nagmula sa $3",
+	"categorywatch-catmoveout": "inilipat ang $1 palabas mula sa kauriang $2 patungo sa $3",
+	"categorywatch-catadd": "idinagdag ang $1 patungo sa kauriang $2",
+	"categorywatch-catsub": "tinanggal ang $1 magmula sa kauriang $2",
+	"categorywatch-autocat": "Kusang minatyagan ni $1"
+}

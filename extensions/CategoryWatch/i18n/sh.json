@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"categorywatch-desc": "Proširuje mogućnosti funkcija spiska praćenih stranica s obavještavanjem o promjena u članstvu u praćenim kategorijama",
+	"categorywatch-emailsubject": "Aktivnosti koje uključuju praćenu kategoriju \"$1\"",
+	"categorywatch-catmovein": "premješteno $1 u kategoriju $2 iz $3",
+	"categorywatch-catmoveout": "premješteno $1 iz kategorije $2 u $3",
+	"categorywatch-catadd": "dodano $1 u kategoriju $2",
+	"categorywatch-catsub": "obrisano $1 iz kategorije $2",
+	"categorywatch-autocat": "Automatski nadgledana od $1",
+	"categorywatch-notification-link": "Kategorija: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] je stavljena u [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] je stavljena u [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] je stavio [[:$3|$3]] u [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] je uklonjena iz [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] je uklonjena u [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] je uklonio [[:$3|$3]] iz [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 promjena u kategorizaciji na {{SITENAME}}",
+	"categorywatch-add-title": "Naslov je stavljen u nadgledanu kategoriju",
+	"categorywatch-remove-title": "Naslov je uklonjen iz nadgledane kategorije",
+	"categorywatch-page-watch-pref": "Dodaj sve stranice iz određene kategorije u praćene kada dodaje se kategorija",
+	"echo-category-title-categorywatch": "Kategorijsko praćenje",
+	"echo-pref-tooltip-categorywatch": "Obavijesti me kad netko stavi ili ukloni stranicu u kategoriju što nadgledam."
+}

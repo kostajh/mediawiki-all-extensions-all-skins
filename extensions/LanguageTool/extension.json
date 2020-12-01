@@ -1,0 +1,44 @@
+{
+	"name": "LanguageTool",
+	"version": "0.0.0",
+	"author": [
+		"Ankita Kumari",
+		"Amir E. Aharoni",
+		"Eran Rosenthal"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LanguageTool",
+	"descriptionmsg": "languagetool-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"MessagesDirs": {
+		"LanguageTool": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.LanguageTool": {
+			"scripts": [
+				"ext.LanguageTool.js",
+				"ext.LanguageToolCommand.js",
+				"ext.LanguageToolDialog.js"
+			],
+			"messages": [
+				"languagetool-toolbar-item-title"
+			],
+			"styles": [
+				"ext.LanguageTool.css"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "LanguageTool/modules"
+	},
+	"VisualEditorPluginModules": [
+		"ext.LanguageTool"
+	],
+	"manifest_version": 1
+}

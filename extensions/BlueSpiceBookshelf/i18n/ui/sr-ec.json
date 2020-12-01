@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Вукан Ц"
+		]
+	},
+	"bookshelfbookui": "Уређивач књига",
+	"bs-bookshelfui-editor-title": "Уређивач књига: $1",
+	"bs-bookshelfui-widget-editor-link-text": "Уреди ову књигу",
+	"bs-bookshelfui-new-book-text": "Наслов књиге",
+	"bs-bookshelfui-delete-book-text": "Желите ли заиста да избришете ову књигу? Ознаке „полица” се <em>неће</em> аутоматски уклонити са повезаних вики страницама!",
+	"bs-bookshelfui-bookui-savingprogress-title": "Чување књиге",
+	"bs-bookshelfui-manager-deletingprogress-title": "Брисање…",
+	"bs-bookshelfui-dlg-choosewikipage-cbxArticleLabel": "Вики страница",
+	"bs-bookshelfui-ctxmnu-tag-edit": "Уредите подешавања",
+	"bs-bookshelfui-dlg-tagsettings-title": "Подешавања ознаке",
+	"bs-bookshelfui-dlg-copy-name-addition": "(копирај)",
+	"bs-bookshelfui-nothingtoexport-text": "Ваш избор је празан",
+	"bs-bookshelfui-dlg-choosecategory-label": "Категорија",
+	"bs-bookshelfui-dlg-choosepc-label": "Збирка страница",
+	"bs-bookshelfui-nav-link-title-all-books": "Опште књиге",
+	"bs-bookshelfui-flyout-title": "Списак књига",
+	"bs-bookshelfui-flyout-intro": "Овде можете видети све доступне књиге. Да бисте додали нову, идите на [[Special:Bookmanager|управљач књигама]].",
+	"bs-bookshelfui-book-title-link-edit": "Уреди књигу",
+	"bs-bookshelfui-book-title-link-edit-text": "Уреди књигу",
+	"bs-bookshelfui-export-book-text": "Сачекајте док се књига прави.",
+	"bs-bookshelfui-bookmanager-deletion-error-permission": "Немате одговарајуће дозволе за извршавање ове радње.",
+	"bs-bookshelfui-bookmetatag-author1": "Аутор 1",
+	"bs-bookshelfui-bookmetatag-version": "Верзија",
+	"bs-bookshelfui-extjs-tooltip-copy": "Копирај",
+	"bs-bookshelfui-chapterpager-previous": "Претходна",
+	"bs-bookshelfui-chapterpager-next": "Следећа"
+}

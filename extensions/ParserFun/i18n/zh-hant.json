@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"parserfun-desc": "添加用於解析 wiki 文字與引入相關魔術字變數頁面訊息的字首 <code>THIS:</code> 之解析函式 <code>#parse</code>",
+	"parserfun-invalid-caller-mode": "未提供有效的運作模式或數字索引。"
+}

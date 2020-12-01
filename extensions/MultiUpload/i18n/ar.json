@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"Mido",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"multiupload": "رفع ملفات متعددة",
+	"multiupload-desc": "[[Special:MultiUpload|صفحة خاصة لرفع عدة ملفات في وقت واحد]]",
+	"multiupload-text": "استخدم النموذج أدناه لرفع ملفات متعددة. \nلعرض أو البحث عن ملفات تم رفعها مسبقا انتقل إلى [[Special:FileList|list of uploaded files]]، يتم تسجيل (إعادة)المرفوعات في [[Special:Log/upload|سجل الرفع]]، عمليات الحذف في [[Special:Log/delete|سجل الحذف]].\n\nلتضمين ملف في صفحة; استخدم ارتباطا بأحد النماذج التالية: \n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.jpg]]</nowiki></code></strong> لاستخدام الإصدار الكامل للملف\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.png|200px|thumb|left|alt text]]</nowiki></code></strong> لاستخدام عرض واسع 200 بكسل في صندوق في الهامش الأيسر مع \"نص بديل\" كوصف\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:File.ogg]]</nowiki></code></strong> للربط مباشرةً بالملف دون عرض الملف.\n\nبمجرد تحديد ملف، ستتوسع هذه الصفحة، مما يسمح لك بتحديد المزيد من الملفات قبل الرفع.\n\nلفك  ملف <code>.zip</code> أو <code>.tar</code> أو <code>.tar.gz</code> أو <code>.tgz</code> ورفع الملفات المضمنة فيها; حدد ملف الحزمة ثم استخدم الزر \"{{int:multiupload-unpack-button}}\" الذي يظهر.",
+	"multipleupload": "رفع ملفات",
+	"multipleupload-toolbox": "رفع ملفات متعددة",
+	"multiupload-submit": "رفع الملفات",
+	"multiupload-uploadedto": "تم رفع الملف $1.",
+	"multiupload-row": "الملف $1",
+	"multiupload-unpack-button": "فك",
+	"multiupload-notify-ok": "أوافق",
+	"multiupload-upload-package-error": "خطأ في تحميل ملف الحزمة",
+	"multiupload-unpack-error": "خطأ في فك حزمة ملف الحزمة",
+	"multiupload-unreadable-package": "لا يمكن قراءة الملف $1",
+	"multiupload-http-error": "تعذر الاتصال بالخادم.",
+	"multiupload-file-unpacked-from": "الملف <b>$1</b> من الحزمة <b>$2</b>",
+	"apihelp-multiupload-unpack-description": "فك ملف ZIP أو tar قبل استيراد محتوياته.",
+	"apihelp-multiupload-unpack-summary": "فك ملف ZIP أو tar قبل استيراد محتوياته.",
+	"apihelp-multiupload-unpack-param-key": "\"filekey\" الذي تم الحصول عليه عند تحميل ملف الحزمة للتخبئة",
+	"apihelp-multiupload-unpack-param-filename": "اسم ملف الحزمة"
+}

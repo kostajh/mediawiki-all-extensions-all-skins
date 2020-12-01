@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"onlinestatusbar-desc": "La bara dë stat che a mostra quand n'utent a l'é an linia dzora soa pàgina utent",
+	"prefs-onlinestatus": "Stat an linia",
+	"onlinestatusbar-used": "Smon-e sò statù an linia dzora soe pàgina utent",
+	"onlinestatusbar-hide": "Stërmé la bara dë stat an sle pàgine d'utent për dovré mach la paròla màgica (Për j'utent avansà)",
+	"onlinestatusbar-away": "Trata com automaticament assent apress n'antërval definì",
+	"onlinestatusbar-purge": "Dësvujdé la pàgina utent tute le vire che chiel a intra o a seurt dal sistema",
+	"onlinestatusbar-status": "Col ch'a l'é lë stat predefinì ch'it veule dovré?",
+	"onlinestatusbar-away-time": "Vàire minute prima ch'it sie marcà com lontan?",
+	"onlinestatusbar-title-online": "{{GENDER:$1|An linia}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Ocupà}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Lontan}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Stërmà}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Fòra 'd linia}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Pa conossù}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|St'utent}} a l'é adess an linia",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|St'utent}} a l'é ocupà e a peul esse nen disponìbil",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|St'utent}} a l'é lontan e a peul esse pa disponìbil",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|St'utent}} a l'é nen colegà",
+	"onlinestatusbar-tooltip-unknown": "Lë stat dë {{GENDER:$1|st'utent}} a l'é sconossù"
+}

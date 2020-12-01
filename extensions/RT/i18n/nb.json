@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Nghtwlkr"
+		]
+	},
+	"rt-desc": "Fancy grensesnitt til RT (Request Tracker)",
+	"rt-inactive": "RT-utvidelsen er ikke aktiv",
+	"rt-badquery": "RT-utvidelsen støtte på en feil når den forsøkte å kommunisere med RT-databasen",
+	"rt-badlimit": "Ugyldig <code>LIMIT</code>-argument (<code>l</code>): må være et tall.\nDu prøvde: '''$1'''",
+	"rt-badorderby": "Ugyldig <code>ORDER BY</code>argument (<code>ob</code>): må være et standardfelt (se dokumentasjonen).\nDu prøvde: '''$1'''",
+	"rt-badstatus": "Ugyldig <code>status</code>-argument (<code>s</code>): må være et standardfelt (se dokumentasjonen).\nDu prøvde: '''$1'''",
+	"rt-badcfield": "Ugyldig egendefinert feltargument: må være et enkelt ord (se dokumentasjonen).\nDu prøvde: '''$1'''",
+	"rt-badqueue": "Ugyldig <code>queue</code>-argument (<code>q</code>): må være et enkelt ord.\nDu prøvde: '''$1'''",
+	"rt-badowner": "Ugyldig <code>owner</code>-argument (<code>o</code>): må være et gyldig brukernavn.\nDu prøvde: '''$1'''",
+	"rt-nomatches": "Ingen matchende RT-billetter ble funnet"
+}

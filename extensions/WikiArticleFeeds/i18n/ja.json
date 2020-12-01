@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dude1717",
+			"Fryed-peach",
+			"Shirayuki"
+		]
+	},
+	"wikiarticlefeeds-desc": "MediaWiki のページから生成されたフィードを発行する",
+	"wikiarticlefeeds-tracking-category": "RSSフィードを生成するページ",
+	"wikiarticlefeeds-tracking-category-desc": "ページの RSS フィードを生成します。",
+	"wikiarticlefeeds_combined_description": "これは合成されたフィードであり、複数のフィード元からの項目を含んでいます。"
+}

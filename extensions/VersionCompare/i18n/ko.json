@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"versioncompare": "판 비교",
+	"version-compare-database-label": "데이터베이스",
+	"version-compare-url-error": "$1(으)로부터 데이터를 가져오는 중 오류가 발생했습니다.",
+	"version-compare-url-field-help-1": "비교할 첫 번째 위키의 API URL(api.php로 끝남)입니다. 비어있으면 현재의 위키를 사용합니다.",
+	"version-compare-url-field-help-2": "비교 대상이 되는 (api.php로 끝나는) 두 번째 위키의 API URL입니다. 빈 칸으로 두면 현재의 위키를 사용합니다.",
+	"version-compare-diff-field-label": "차이만 보기"
+}

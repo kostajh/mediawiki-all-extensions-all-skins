@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"apihelp-query+globalusage-param-limit": "Koliko linkova dati.",
+	"apihelp-query+globalusage-param-filterlocal": "Filtriraj lokalnu upotrebu datoteke.",
+	"apihelp-query+globalusage-example-1": "Daj upotrebu datoteke [[:File:Example.jpg]]"
+}

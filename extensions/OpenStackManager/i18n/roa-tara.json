@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras",
+			"Reder"
+		]
+	},
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Gestisce le chiave pubbleche SSH tune",
+	"specialpages-group-nova": "OpenStack Gestore de l'autendicazione",
+	"openstackmanager-novakey": "Chiave de Nova",
+	"openstackmanager-delete": "scangille",
+	"openstackmanager-actions": "Aziune",
+	"openstackmanager-notloggedin": "T'a collegà pe forze",
+	"openstackmanager-mustbeloggedin": "Tu a trasè pe fà st'azione.",
+	"openstackmanager-novapublickey": "Chièje pubbleche SSH",
+	"openstackmanager-prefs-novapublickey": "Chiave SSH pubbleche:",
+	"openstackmanager-deletekey": "Scangelle 'a chiave pubbleche SSH",
+	"openstackmanager-keylist": "Elenghe de le chiave pubbleche SSH",
+	"openstackmanager-name": "Nome",
+	"openstackmanager-fingerprint": "'Mbronde diggitale",
+	"openstackmanager-keys": "Chiave"
+}

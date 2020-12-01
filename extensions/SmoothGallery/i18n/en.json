@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"smoothgallery": "SmoothGallery",
+	"smoothgallery-desc": "Allows users to create galleries with images that have been uploaded.\nAllows most options of SmoothGallery",
+	"smoothgallery-title": "SmoothGallery",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery: $1",
+	"smoothgallery-pagetext": "",
+	"smoothgallery-error": "<b>SmoothGallery error:</b>",
+	"smoothgallery-gallery-not-found": "The gallery requested does not exist.",
+	"smoothgallery-not-found": "No images were added into the gallery.\nPlease add at least one image.",
+	"smoothgallery-no-images": "No images were found in this gallery.\nMake sure {{PLURAL:$3|the image requested exists|all images requested exist}}.\nThe following {{PLURAL:$2|image was|images were}} not found: $1",
+	"smoothgallery-invalid-images": "The following requested {{PLURAL:$2|image was|images were}} of an invalid type: $1",
+	"smoothgallery-unexpected-error": "There was an unexpected error.\nPlease file a bug report.",
+	"smoothgallery-javascript-disabled": "JavaScript is required to view this gallery properly."
+}

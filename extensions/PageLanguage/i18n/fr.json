@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094"
+		]
+	},
+	"pagelanguage-desc": "Définir la langue de la page par page",
+	"pagelanguage-invalid": "'''Attention :''' Code de langue « $1 » non valide pour la langue de la page.",
+	"pagelanguage-duplicate": "'''Attention :''' La langue de la page « $2 » écrase la précédente langue de la page « $1 »."
+}

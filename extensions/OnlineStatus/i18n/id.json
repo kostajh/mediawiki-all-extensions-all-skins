@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin"
+		]
+	},
+	"onlinestatus-desc": "Menambahkan preferensi untuk menunjukkan pengguna ini sedang hadir atau tidak di wiki",
+	"onlinestatus-js-anon": "Galat: Anda harus masuk log untuk menggunakan fitur ini",
+	"onlinestatus-js-changed": "Status Anda telah diganti menjadi \"$1\"",
+	"onlinestatus-js-error": "Tidak dapat mengganti status, nilai \"$1\" tidak sah",
+	"onlinestatus-subtitle-offline": "Pengguna ini sedang luring",
+	"onlinestatus-subtitle-online": "Pengguna ini sedang daring",
+	"onlinestatus-tab": "Status",
+	"onlinestatus-toggles-desc": "Status Anda:",
+	"onlinestatus-toggles-explain": "Fitur ini mengizinkan pengguna lain untuk mengetahui status daring atau luring Anda dengan melihat halaman pengguna Anda.",
+	"onlinestatus-toggles-show": "Tunjukkan status daring pada halaman pengguna saya",
+	"onlinestatus-toggle-offline": "Luring",
+	"onlinestatus-toggle-online": "Daring",
+	"onlinestatus-pref-onlineonlogin": "Ganti status saya menjadi daring (di dalam jaringan) jika masuk log",
+	"onlinestatus-pref-offlineonlogout": "Ganti status saya menjadi luring (di luar jaringan) jika keluar log"
+}

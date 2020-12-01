@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matěj Grabovský",
+			"Mormegil"
+		]
+	},
+	"group-patroller": "Strážci",
+	"group-patroller-member": "{{GENDER:$1|strážce|strážkyně}}",
+	"grouppage-patroller": "{{ns:project}}:Strážci"
+}

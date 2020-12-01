@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"emailauthorization-desc": "Autorizacija korisnika pomoću adrese e-pošte",
+	"emailauthorizationconfig": "Konfiguriranje autorizacije e-poštom",
+	"emailauthorization-config-instructions": "Da dodate ili opozovete sve adrese na jednoj domeni, koristite ''@domena'', gdje se ''domena'' odnosi na domenu e-pošte. Ovo neće uticati na druge adrese e-pošte koje su izričito dodane za tu domenu.",
+	"emailauthorization-config-authorized": "''$1'' je autorizirana.",
+	"emailauthorization-config-notauthorized": "''$1'' nije autorizirana.",
+	"emailauthorization-config-added": "Uspješno autorizirana ''$1''.",
+	"emailauthorization-config-alreadyauthorized": "''$1'' je već autorizirana.",
+	"emailauthorization-config-revoked": "Uspješno opozvana autorizacija sa ''$1''.",
+	"emailauthorization-config-noauthfound": "Nisu pronađene autorizirane adrese e-pošte niti domene.",
+	"emailauthorization-config-nousersfound": "Nije pronađen nijedan korisnik.",
+	"emailauthorization-config-invalidemail": "''$1'' nije ispravna adresa e-pošte niti domena.",
+	"emailauthorization-config-label-email": "E-pošta",
+	"emailauthorization-config-label-username": "Korisničko ime",
+	"emailauthorization-config-label-realname": "Pravo ime",
+	"emailauthorization-config-label-userpage": "Korisnička stranica",
+	"emailauthorization-config-label-authorized": "Autorizacija",
+	"emailauthorization-config-value-domain": "svi korisnici čije adrese e-pošte završavaju na $1",
+	"emailauthorization-config-value-yes": "da",
+	"emailauthorization-config-value-no": "ne",
+	"emailauthorization-config-legend-search": "Pronađi adrese e-pošte",
+	"emailauthorization-config-legend-add": "Dodaj autoriziranu adresu e-pošte ili domenu",
+	"emailauthorization-config-legend-revoke": "Opozovi autoriziranu adresu e-pošte ili domenu",
+	"emailauthorization-config-button-next": "Sljedeće",
+	"emailauthorization-config-button-previous": "Prethodno",
+	"emailauthorization-config-button-search": "Traži",
+	"emailauthorization-config-button-add": "Dodaj",
+	"emailauthorization-config-button-revoke": "Opozovi",
+	"emailauthorization-config-button-showauth": "Prikaži autorizirane adrese e-pošte i domene",
+	"emailauthorization-config-button-showall": "Prikaži sve korisnike wikija",
+	"right-emailauthorizationconfig": "Konfiguriranje autorizacije korisnika pomoću adrese e-pošte",
+	"action-emailauthorizationconfig": "konfigurirate autorizaciju e-poštom"
+}

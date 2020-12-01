@@ -1,0 +1,29 @@
+{
+	"name": "Number of wikis",
+	"version": "0.4.1",
+	"author": [
+		"Jack Phoenix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NumberOfWikis",
+	"descriptionmsg": "numberofwikis-desc",
+	"type": "variable",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"MessagesDirs": {
+		"NumberOfWikis": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"NumberOfWikisMagic": "NumberOfWikis.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"NumberOfWikis": "NumberOfWikis.class.php"
+	},
+	"Hooks": {
+		"ParserGetVariableValueSwitch": "NumberOfWikis::assignValue",
+		"MagicWordwgVariableIDs": "NumberOfWikis::variableIds"
+	},
+	"manifest_version": 1
+}

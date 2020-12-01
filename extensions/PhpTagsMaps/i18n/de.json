@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"multimaps-desc": "Ermöglicht es Benutzern, Karten und Koordinatendaten mithilfe mehrerer Kartierungsdienste anzuzeigen",
+	"multimaps-loading-map": "Lade Karte …",
+	"multimaps-mapservices-must-not-empty-array": "Die Variable „$1“ darf kein leeres Array sein.",
+	"multimaps-had-following-errors": "Beim Parsen hatten die übergebenen Parameter folgende Fehler:",
+	"multimaps-element-illegal-value": "Für den Parameter „$1“ wurde der ungültige Wert „$2“ angegeben. Gültige Werte sind: $3",
+	"multimaps-element-more-parameters": "Für das Kartenelement „$1“ wurden mehr Parameter übergeben als erwartet:",
+	"multimaps-element-parameters-not-processed": "Die folgenden Parameter wurden nicht verarbeitet: $1",
+	"multimaps-circle-radius-not-defined": "Für den Kreis muss ein Radius angegeben werden.",
+	"multimaps-circle-wrong-number-parameters": "Für den Kreis sollten nur zwei Parameter angegeben werden: Die Koordinaten des Mittelpunkts und der Radius. Du hast jedoch {{PLURAL:$1|nur einen|$1}} Parameter angegeben.",
+	"multimaps-marker-incorrect-icon": "Für die Markierung wurde ein falscher Dateiname „$1“ angegeben",
+	"multimaps-marker-incorrect-icon-url": "Es wurde eine falsche URL „$1“ für die Markierung angegeben.",
+	"multimaps-marker-incorrect-icon-size": "Es wurde eine falsche Größe „$1“ für die Markierung „$2“ angegeben.",
+	"multimaps-marker-incorrect-icon-anchor": "Es wurde ein falscher Anker „$1“ für die Markierung „$2“ angegeben.",
+	"multimaps-marker-incorrect-shadow-file": "Es wurde ein falscher Dateiname „$1“ für den Symbolschatten angegeben.",
+	"multimaps-marker-incorrect-shadow-url": "Es wurde eine falsche URL „$1“ für den Symbolschatten angegeben.",
+	"multimaps-marker-incorrect-shadow-size": "Es wurde eine falsche Größe „$1“ für den Symbolschatten „$2“ angegeben.",
+	"multimaps-marker-incorrect-shadow-anchor": "Es wurde ein falscher Anker „$1“ für den Symbolschatten „$2“ angegeben.",
+	"multimaps-passed-unavailable-service": "Der Dienstname „$1“ wurde nicht in der Liste der verfügbaren Dienste gefunden ($2). Es wird der Standarddienst „$3“ verwendet.",
+	"multimaps-square-wrong-number-points": "Die Koordinaten des Platzes sollten nur zwei Punkte enthalten. Du hast jedoch {{PLURAL:$1|einen Punkt|$1 Punkte}} angegeben.",
+	"multimaps-unable-create-element": "Das Kartenelement „$1“ kann nicht erstellt werden",
+	"multimaps-unable-parse-coordinates": "Die geografischen Koordinaten „$1“ konnten nicht geparst werden",
+	"multimaps-unable-parse-parameter": "Der Parameter „$1“ mit dem Wert „$2“ konnte nicht geparst werden",
+	"multimaps-unable-parse-radius": "Der Radius des Kreises muss ein numerischer Wert sein. Du hast jedoch „$1“ angegeben.",
+	"multimaps-unknown-class-for-service": "Die für den Dienst angegebene Klasse „$1“ kann nicht gefunden werden.",
+	"multimaps-unknown-parameter": "Unbekannter Parameter: „$1“",
+	"multimaps-error-incorrect-class-for-service": "Die für den Dienst angegebene Klasse „$1“ kann nicht verwendet werden.",
+	"multimaps-method-error-unknown-action": "$1: Unbekannte Aktion",
+	"multimaps-method-error-unexpected-result": "$1: Ein unerwartetes Ergebnis einer Funktion"
+}

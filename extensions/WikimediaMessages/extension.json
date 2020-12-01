@@ -1,0 +1,104 @@
+{
+	"name": "WikimediaMessages",
+	"author": [
+		"Tim Starling",
+		"Siebrand Mazeland",
+		"James D. Forrester",
+		"Multichill"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WikimediaMessages",
+	"descriptionmsg": "wikimediamessages-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"WikimediaMessages": [
+			"i18n/contactpage",
+			"i18n/wikimedia",
+			"i18n/wikimediainterwikisearchresults",
+			"i18n/temporary",
+			"i18n/wikimediaoverrides",
+			"i18n/wikimediaoverridesnotranslate",
+			"i18n/wikimediaprojectnames",
+			"i18n/licensetexts",
+			"i18n/cclicensetexts",
+			"i18n/codeofconduct",
+			"i18n/wikitech"
+		]
+	},
+	"RawHtmlMessages": [
+		"wikimedia-mobile-license-links",
+		"wikimedia-copyright",
+		"wikimedia-commons-copyright",
+		"wikidata-copyright",
+		"wikimedia-feedback-termsofuse"
+	],
+	"AutoloadClasses": {
+		"WikimediaMessagesHooks": "includes/WikimediaMessagesHooks.php"
+	},
+	"ResourceModules": {
+		"ext.wikimediamessages.contactpage.affcomusergroup": {
+			"styles": "ext.wikimediamessages.contactpage.affcomusergroup.css"
+		},
+		"mediawiki.special.block.feedback.request": {
+			"styles": "mediawiki.special.block.feedback.request.less"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "WikimediaMessages/modules"
+	},
+	"callback": "WikimediaMessagesHooks::onRegistration",
+	"HookHandlers": {
+		"WikimediaMessagesHooks": {
+			"class": "WikimediaMessagesHooks",
+			"factory": "WikimediaMessagesHooks::factory",
+			"services": [
+				"MainConfig",
+				"UserOptionsManager"
+			]
+		}
+	},
+	"Hooks": {
+		"MessageCache::get": "WikimediaMessagesHooks::onMessageCacheGet",
+		"SkinCopyrightFooter": {
+			"handler": "WikimediaMessagesHooks"
+		},
+		"EditPageCopyrightWarning": {
+			"handler": "WikimediaMessagesHooks"
+		},
+		"MobileLicenseLink": "WikimediaMessagesHooks::onMobileLicenseLink",
+		"SkinAddFooterLinks": {
+			"handler": "WikimediaMessagesHooks"
+		},
+		"TorBlockBlockedMsg": "WikimediaMessagesHooks::onTorBlockBlockedMsg",
+		"GlobalBlockingBlockedIpMsg": "WikimediaMessagesHooks::onGlobalBlockingBlockedIpMsg",
+		"GlobalBlockingBlockedIpRangeMsg": "WikimediaMessagesHooks::onGlobalBlockingBlockedIpRangeMsg",
+		"GlobalBlockingBlockedIpXffMsg": "WikimediaMessagesHooks::onGlobalBlockingBlockedIpXffMsg",
+		"UploadForm:initial": {
+			"handler": "WikimediaMessagesHooks"
+		},
+		"ChangesListSpecialPageStructuredFilters": {
+			"handler": "WikimediaMessagesHooks"
+		},
+		"LocalUserCreated": {
+			"handler": "WikimediaMessagesHooks"
+		},
+		"ResourceLoaderRegisterModules": {
+			"handler": "WikimediaMessagesHooks"
+		},
+		"GetPreferences": {
+			"handler": "WikimediaMessagesHooks"
+		},
+		"SpecialPageBeforeExecute": {
+			"handler": "WikimediaMessagesHooks"
+		},
+		"CheckUserSubtitleLinks": "WikimediaMessagesHooks::onCheckUserSubtitleLinks"
+	},
+	"DefaultUserOptions": {
+		"rcenhancedfilters-seen-highlight-button-counter": 0
+	},
+	"manifest_version": 2
+}

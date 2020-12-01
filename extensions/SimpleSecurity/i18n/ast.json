@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"security": "Rexistru de seguridá",
+	"security-desc": "Enanta la protección d'artículos de MediaWiki pa permitir acutar la vista del conteníu de la páxina",
+	"security-logpage": "Rexistru de seguridá",
+	"security-logpagetext": "Esti ye'l rexistru de les aiciones bloquiaes pola [https://www.mediawiki.org/wiki/Extension:SimpleSecurity estensión SimpleSecurity].",
+	"badaccess-read": "'''Alvertencia:''' «$1» ta referenciao equí, pero nun tienes permisos d'accesu abondo.",
+	"security-info": "Hai $1 nesta páxina",
+	"security-info-toggle": "restricciones de seguridá",
+	"security-inforestrict": "$1 ta acutao pa $2",
+	"security-desc-LS": "(aplícase porque esta páxina ta en $1 «$2»)",
+	"security-desc-PR": "(aplicar dende la llingüeta «protexer»)",
+	"security-infosysops": "Nun hai restricciones actives porque yes miembru del grupu «alministradores»",
+	"security-manygroups": "grupos $1 y $2",
+	"security-unchain": "Camudar aiciones individualmente",
+	"security-type-category": "la categoría",
+	"security-type-namespace": "l'espaciu de nomes",
+	"security-restricttogroup": "Accesu al conteníu acutáu a miembros de \"$1\"",
+	"restriction-read": "Lleer"
+}

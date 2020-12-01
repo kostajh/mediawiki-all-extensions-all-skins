@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Red Winged Duck",
+			"Zedlik"
+		]
+	},
+	"smoothgallery": "Плыўная галерэя",
+	"smoothgallery-desc": "Дазваляе ўдзельнікам ствараць галерэі з выявамі, якія яны загрузілі.\nПадтрымлівае большасьць наладаў плыўнай галерэі",
+	"smoothgallery-title": "Плыўная галерэя",
+	"smoothgallery-smoothgallerytitle": "Плыўная галерэя: $1",
+	"smoothgallery-error": "<b>Памылка плыўнай галерэі:</b>",
+	"smoothgallery-gallery-not-found": "Запатрабаваная галерэя не існуе.",
+	"smoothgallery-not-found": "Выявы не былі дададзеныя ў галерэю.\nКалі ласка, дадайце хаця б адну.",
+	"smoothgallery-no-images": "У гэтай галерэі не было знойдзена выяваў.\nУпэўніцеся, што {{PLURAL:$3|1=запытаная выява існуе|запытаныя выявы існуюць}}.\n{{PLURAL:$2|1=Наступная выява ня знойдзеная|Наступныя выявы ня знойдзеныя}}: $1",
+	"smoothgallery-invalid-images": "{{PLURAL:$2|1=Наступная запытаная выява мае|Наступныя запытаныя выявы маюць}} няслушны тып: $1",
+	"smoothgallery-unexpected-error": "Адбылася нечаканая памылка.\nКалі ласка, дашліце паведамленьне пра памылку.",
+	"smoothgallery-javascript-disabled": "Для прагляду гэтай галерэі неабходны JavaScript."
+}

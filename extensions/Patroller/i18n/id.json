@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ivan Lanin",
+			"Kenrick95",
+			"Rex"
+		]
+	},
+	"patrol": "Patroli suntingan",
+	"patrol-desc": "Antarmuka patroli yang ditingkatkan dengan pembagian beban kerja",
+	"patrol-endorse": "Setujui",
+	"patrol-revert": "Kembalikan",
+	"patrol-revert-reason": "Alasan:",
+	"patrol-skip": "Lewati",
+	"patrol-reverting": "Mengembalikan: $1",
+	"patrol-nonefound": "Tidak ada suntingan yang dapat dipatroli.",
+	"patrol-endorsed-ok": "Suntingan ini ditandai telah dipatroli.",
+	"patrol-endorsed-failed": "Suntingan ini tidak dapat ditandai telah dipatroli.",
+	"patrol-reverted-ok": "Suntingan dikembalikan.",
+	"patrol-reverted-failed": "Suntingan tidak dapat dikembalikan.",
+	"patrol-skipped-ok": "Suntingan diabaikan.",
+	"patrol-reasons": "* Vandalisme sederhana\n* Pengujian pemula\n* Lihat halaman pembicaraan",
+	"patrol-another": "Tampilkan suntingan lain jika tersedia.",
+	"patrol-stopped": "Anda telah memilih untuk tidak mengontrol suntingan lain. $1",
+	"patrol-resume": "Klik di sini untuk melanjutkan.",
+	"group-patroller": "Pematroli",
+	"group-patroller-member": "{{GENDER:$1|Pematroli}}",
+	"grouppage-patroller": "{{ns:project}}:Pematroli",
+	"right-patroller": "Melakukan patroli atas halaman-halaman"
+}

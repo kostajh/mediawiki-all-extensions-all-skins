@@ -1,0 +1,45 @@
+{
+	"name": "EditUser",
+	"namemsg": "edituser-extensionname",
+	"version": "1.9.0",
+	"author": [
+		"Ryan Schmidt",
+		"Paladox"
+	],
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"url": "https://www.mediawiki.org/wiki/Extension:EditUser",
+	"descriptionmsg": "edituser-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"GroupPermissions": {
+		"bureaucrat": {
+			"edituser": true
+		},
+		"sysop": {
+			"edituser-exempt": true
+		}
+	},
+	"AvailableRights": [
+		"edituser",
+		"edituser-exempt"
+	],
+	"MessagesDirs": {
+		"EditUser": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"EditUserAliases": "EditUser.alias.php"
+	},
+	"SpecialPages": {
+		"EditUser": "EditUser"
+	},
+	"AutoloadClasses": {
+		"EditUser": "EditUser_body.php",
+		"EditUserPreferencesForm": "EditUserPreferencesForm.php"
+	},
+	"config": {},
+	"manifest_version": 1
+}

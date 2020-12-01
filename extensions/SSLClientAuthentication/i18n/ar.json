@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"sslauth-desc": "يسمح للمستخدمين برفع شهادات SSL ليتم استخدامها للمصادقة",
+	"sslauth-title-enable": "تمكين مصادقة عميل SSL",
+	"sslauth-title-disable": "تعطيل مصادقة عميل SSL",
+	"sslauth-enable": "تمكين",
+	"sslauth-disable": "تعطيل",
+	"sslauth-cn": "الاسم الشائع",
+	"sslauth-email": "عنوان البريد الإلكتروني",
+	"sslauth-serial": "الرقم التسلسلي",
+	"sslauth-response-enable": "تم تمكين مصادقة SSL; الآن عندما تتصل بـ {{SITENAME}} عبر HTTPS بشهادة العميل، سيتم تسجيل دخولك تلقائيًا.",
+	"sslauth-response-disable": "تم تعطيل مصادقة SSL.",
+	"sslauth-invalidrequest-title": "طلب غير صالح",
+	"sslauth-invalidrequest": "يجب تقديم شهادة عميل SSL صالحة لهذه الصفحة لتكون مفيدة.",
+	"clientssl-legend": "مصادقة SSL",
+	"clientssl-text": "استخدم هذه الصفحة لتمكين/تعطيل المصادقة باستخدام شهادات SSL الخاصة بالعميل.",
+	"sslauth-prefs-name": "مصادقة SSL",
+	"sslauth-prefs-linktospecial": "تمكين/تعطيل شهادات العميل"
+}

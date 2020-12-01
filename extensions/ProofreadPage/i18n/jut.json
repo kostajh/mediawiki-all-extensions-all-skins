@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huslåke",
+			"Jyllanj",
+			"Ælsån"
+		]
+	},
+	"proofreadpage_desc": "Mulidjör nemm sammelliikneng å tekst mä inscanntje originali",
+	"proofreadpage_image": "Bilj",
+	"proofreadpage_index": "Indeks",
+	"proofreadpage_nextpage": "Nästi siid",
+	"proofreadpage_prevpage": "Förri siid",
+	"proofreadpage_header": "Sidehwoet (inkludiirs ett):",
+	"proofreadpage_body": "Sidens inholj (som skal inkludiirs):",
+	"proofreadpage_footer": "Sidefued (inkludiirs ett):",
+	"proofreadpage_toggleheaders": "Slo synlihede å sidehwoet å -fued til å fra",
+	"proofreadpage_quality0_category": "Uen tekst",
+	"proofreadpage_quality1_category": "Ett korrekturläsen",
+	"proofreadpage_quality2_category": "Problematisk",
+	"proofreadpage_quality3_category": "Korrekturläsen",
+	"proofreadpage_quality4_category": "Validiirtj",
+	"proofreadpage_quality1_message": "Denn siid ä intj bløwen korrekturläsen",
+	"proofreadpage_index_listofpages": "List öwe side",
+	"proofreadpage_image_message": "Link te indekssiden",
+	"proofreadpage_page_status": "Sidestatus",
+	"proofreadpage_js_attributes": "Forfatte Titel Or Utdjie",
+	"proofreadpage_index_attributes": "Forfatte\nTitel\nOr|Utdjielsor\nUtdjie\nTjelj\nBilj|Titelbla\nSide||20\nBemärknenge||10"
+}

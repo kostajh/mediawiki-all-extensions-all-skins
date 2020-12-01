@@ -1,0 +1,61 @@
+.bs-signhere {
+	border-top: 1px dashed #555;
+	padding: 0.1em;
+	margin: 0.5em 0;
+	font-size: 80%;
+	text-align: center;
+	font-style: oblique;
+	cursor: pointer;
+	&:hover {
+		color: @bs-color-secondary;
+		border-color: @bs-color-secondary;
+	}
+}
+
+.bs-signhere-icon {
+	display: inline-block;
+	margin-right: 0.1em;
+
+	&:before {
+		font-family: 'icomoon';
+		content: '\e907';
+		font-size: 120%;
+		font-style: normal;
+	}
+}
+
+@-moz-keyframes bs-signhere-spin-anim {
+	from { -moz-transform: rotate( 0deg ); }
+	to { -moz-transform: rotate( 360deg ); }
+}
+
+@-webkit-keyframes bs-signhere-spin-anim {
+	from { -webkit-transform: rotate( 0deg ); }
+	to { -webkit-transform: rotate( 360deg ); }
+}
+
+@-moz-keyframes bs-signhere-spin-anim {
+	from { -moz-transform: rotate( 0deg ); }
+	to { -moz-transform: rotate( 360deg ); }
+}
+
+@-o-keyframes bs-signhere-spin-anim {
+	from { -o-transform: rotate( 0deg ); }
+	to { -o-transform: rotate( 360deg ); }
+}
+
+@keyframes bs-signhere-spin-anim {
+	from { transform: rotate( 0deg ); }
+	to { transform: rotate( 360deg ); }
+}
+
+.bs-signhere-spin {
+	-webkit-animation: bs-signhere-spin-anim 2s infinite linear;
+	-moz-animation: bs-signhere-spin-anim 2s infinite linear;
+	-o-animation: bs-signhere-spin-anim 2s infinite linear;
+	animation: bs-signhere-spin-anim 2s infinite linear;
+	&:before {
+		font-family: 'fontawesome';
+		content: '\f1ce';
+	}
+}

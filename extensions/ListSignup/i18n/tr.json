@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"listsignup": "Liste kaydı",
+	"listsignup-desc": "Özel liste kayıt formu",
+	"listsignup-legend": "Bilgilerinizi aşağıya girin.",
+	"listsignup-success": "E-posta adresiniz gönderildi.",
+	"listsignupdisplay": "Liste kayıt ekranı",
+	"listsignuppurge": "Liste kayıt temizlemesi",
+	"listsignuppurge-legend": "Kayıt listesindeki tüm bilgileri temizle",
+	"listsignuppurge-pretext": "'''Uyarı!''' Bu, tüm adresleri listeden kaldıracak. Bu işlem geri alınamaz.",
+	"listsignuppurge-success": "Liste temizlendi!",
+	"right-viewlistsignupdisplay": "Kayıt listesini görüntüle",
+	"right-purgelistsignupdisplay": "Kayıt listesini temizle",
+	"action-viewlistsignupdisplay": "kayıt listesini görüntüle",
+	"action-purgelistsignupdisplay": "kayıt listesini temizle"
+}

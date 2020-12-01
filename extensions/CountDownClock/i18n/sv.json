@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"countDownClock-days": "$1 {{PLURAL:$1|dag|dagar}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|timme|timmar}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|minut|minuter}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|sekund|sekunder}}",
+	"countDownClock-expired": "Utgången"
+}

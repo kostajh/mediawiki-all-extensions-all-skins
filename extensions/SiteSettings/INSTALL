@@ -1,0 +1,34 @@
+[[Site Settings 0.8-alpha]]
+
+Contents:
+* Disclaimer
+* Requirements
+* Installation
+* Contact
+
+== Disclaimer ==
+
+There is no guarantee that any of Site Settings' functionality will
+work on your system.
+
+For a proper legal disclaimer, see the file "COPYING".
+
+== Requirements ==
+
+The extension requires an install of MediaWiki 1.25 or greater.
+
+== Installation ==
+
+(1) Extract the archive to obtain the directory "SiteSettings" that contains
+    all relevant files. Copy this directory (or extract/download it) to
+    "[wikipath]/extensions/".
+(2) Insert the following line into the file "[wikipath]/LocalSettings.php":
+      include_once( 'extensions/SiteSetting/SiteSettings.php' );
+(3) Call a database update, such as by calling the following script, within
+    MediaWiki's /maintenance directory:
+      php update.php
+
+== Contact ==
+
+If you have any issues or questions, please send them to
+yaron57@gmail.com.

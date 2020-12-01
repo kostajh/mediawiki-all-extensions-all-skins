@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"bs-interwikilinks-desc": "ממשק ניהולי להוספת, עריכת ומחיקת קישורי בינוויקי",
+	"bs-interwikilinks-invalid-pfx-spc": "התחילית אינה תקינה. נא לא להשתמש ברווחים.",
+	"bs-interwikilinks-invalid-url-spc": "כתובת ה־URL אינה תקינה. נא לא להשתמש ברווחים.",
+	"bs-interwikilinks-label": "קישורי בינוויקי",
+	"bs-interwikilinks-link-created": "קישור הבינוויקי נוצר.",
+	"bs-interwikilinks-link-added": "קישור הבינוויקי נוסף.",
+	"bs-interwikilinks-link-deleted": "קישור הבינוויקי נמחק.",
+	"bs-interwikilinks-nooldpfx": "התחילית הקודמת לא נמצאה.",
+	"bs-interwikilinks-nopfx": "נא לספק תחילית.",
+	"bs-interwikilinks-nourl": "נא לספק כתובת URL.",
+	"bs-interwikilinks-pfxtoolong": "התחילית ארוכה מדי. יש להשתמש ב־32 תווים לכל היותר.",
+	"bs-interwikilinks-pfxexists": "התחילית כבר קיימת.",
+	"bs-interwikilinks-headerprefix": "תחילית",
+	"bs-interwikilinks-headerurl": "כתובת URL",
+	"bs-interwikilinks-titleaddinterwikilink": "הוספת קישור בינוויקי",
+	"bs-interwikilinks-titleeditinterwikilink": "עריכת קישור בינוויקי",
+	"bs-interwikilinks-labelprefix": "תחילית",
+	"bs-interwikilinks-labelurl": "כתובת URL",
+	"bs-interwikilinks-titledeleteinterwikilink": "מחיקת קישור בינוויקי",
+	"bs-interwikilinks-confirmdeleteinterwikilink": "האם ברצונך למחוק את קישור הבינוויקי הזה?",
+	"bs-interwikilinks-insertlink-tabtitle": "קישור לאתר ויקי אחר",
+	"bs-interwikilinks-insertlink-labelprefix": "תחילית",
+	"bs-interwikilink-select-a-prefix": "נא לבחור תחילית",
+	"bs-interwikilinks-link-edited": "קישור הבינוויקי שוּנה",
+	"apihelp-bs-interwikilinks-tasks-description": "אספקת המשימות עבור ההרחבה InterWikiLinks.",
+	"apihelp-bs-interwikilinks-tasks-summary": "אספקת המשימות עבור ההרחבה InterWikiLinks.",
+	"action-interwikilinks-viewspecialpage": "לצפות בדף המיוחד \"{{int:bs-interwikilinks-label}}\"",
+	"interwikilinks": "קישורי בינוויקי"
+}

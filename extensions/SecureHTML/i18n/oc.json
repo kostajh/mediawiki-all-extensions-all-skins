@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"securehtml": "HTML securizat",
+	"securehtml-desc": "Vos permet d’inclure de còdi HTML arbitrari dins un quadre autorizat e securizat",
+	"securehtml-nokeys": "Error : <code>$wgSecureHTMLSecrets</code> es pas completat.",
+	"securehtml-invalidhash": "Error : Hachage invalid.",
+	"securehtml-input-title": "Entrada HTML",
+	"securehtml-generatedoutput-title": "Sortida generada",
+	"securehtml-renderedhhtml-title": "HTML restituit",
+	"securehtml-form-keyname": "Nom de la clau (facultatiu)",
+	"securehtml-form-keysecret": "Clau secreta",
+	"securehtml-form-html": "HTML brut",
+	"securehtml-form-submit": "Mandar",
+	"securehtml-inputinstructions": "Entratz un nom de clau (facultatiu), una clau secreta, e lo HTML brut desirat.\nSe cap de nom de clau es pas especificat, la primièra clau dins <code>$wgSecureHTMLSecrets</code> serà presa per defaut."
+}

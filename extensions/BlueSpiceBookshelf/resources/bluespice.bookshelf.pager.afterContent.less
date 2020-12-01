@@ -1,0 +1,60 @@
+.bs-data-after-content {
+    .bs-data-after-content-bookshelfui-chapterpager {
+        padding: 15px 10px;
+
+        .bookshelfui-chapterpager-heading {
+            text-align: center;
+            border-bottom: 1px solid currentColor;
+
+            .book-title {
+                margin-top: 0;
+            }
+        }
+
+        .bookshelfui-chapterpager {
+            display: flex;
+            justify-content: space-between;
+
+            a,
+            a:link,
+            a:visited {
+                cursor: pointer;
+                line-height: 32px;
+
+                &.disabled {
+                    visibility: hidden;
+                }
+
+                &.prev-chapter,
+                &.next-chapter{
+                    padding: 0 10px;
+                    width: auto;
+                    display: flex;
+
+                    span {
+                        line-height: 32px;
+                        height: 100%;
+                        display: inline-block;
+                    }
+
+                    i {
+                        height: 100%;
+                        display: inline-block;
+                    }
+                }
+                &.prev-chapter::before {
+                    content: "\e922";
+                    font-family: "entypo";
+                }
+                &.next-chapter::after {
+                    content: "\e923";
+                    font-family: "entypo";
+                }
+            }
+        }
+    }
+
+    .bs-data-after-content-bookshelfui-chapterpager .bookshelfui-chapterpager-heading {
+        display: none;
+    }
+}

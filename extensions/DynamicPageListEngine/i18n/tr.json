@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"MuratTheTurkish"
+		]
+	},
+	"dynamicpagelistengine-desc": "[[mw:Special:MyLanguage/Extension:Scribunto|Modüller]] ve diğer uzantılara yapılandırılabilir ve genişletilebilir özellikler içeren dinamik sayfa listeleri sağlayın",
+	"dple-tracking-category": "DynamicPageListEngine kullanan sayfalar",
+	"dple-error-invalid-ns-index": "DynamicPageListEngine hatası: $1 endeksine sahip herhangi bir ad alanı yok.",
+	"dple-error-no-criteria": "DynamicPageListEngine hatası: Hiçbir seçim kriteri belirtilmemiş.",
+	"dple-error-too-expensive": "DynamicPageListEngine hatası: En fazla $2 sınıra kadar izin verilirken birleştirilmiş $1 veritabanı tablosundan pahalı bir sorgulama yapmayı deneyin.",
+	"dple-error-too-many-expensive-functions": "DynamicPageListEngine hatası: Bu sayfada çok fazla pahalı işlev kullanıldı."
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Deathkon",
+			"Func",
+			"Liuxinyu970226",
+			"列维劳德",
+			"铁桶"
+		]
+	},
+	"bs-echoconnector-extension-description": "连接BlueSpice和Echo",
+	"echo-category-title-bs-admin-cat": "管理任务",
+	"echo-pref-tooltip-bs-admin-cat": "当创建一个新用户账户时通知我",
+	"echo-pref-tooltip-bs-page-create-cat": "当创建了一个新页面时提醒我",
+	"echo-category-title-bs-page-actions-cat": "监视列表中页面上的操作",
+	"echo-category-title-bs-page-create-cat": "页面创建",
+	"prefs-namespace-notifications": "名字空间活动上的通知",
+	"prefs-category-notifications": "分类的通知"
+}

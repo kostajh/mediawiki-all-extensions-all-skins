@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"SkyDaisy9",
+			"Whym"
+		]
+	},
+	"graphviz-desc": "[http://www.graphviz.org Graphviz] 記法の埋め込みができるようにし、インライン画像を生成する",
+	"graphviz-read-src-failed": "ファイル システムからグラフ テキストを読み取れません。",
+	"graphviz-write-src-failed": "ファイル システムにグラフ テキストを書き込めません。",
+	"graphviz-mkdir-failed": "ファイル システムにディレクトリを作成できません。",
+	"graphviz-upload-not-permitted": "グラフ画像の作成にはアップロード権限が必要です。",
+	"graphviz-unrecognized-preparse-value": "preparse値の「$1」は認識されていません。",
+	"graphviz-category-desc": "$1にはGraphViz拡張によって作成されたページが含まれています。",
+	"graphviz-subcategory-desc": "$1には$2コマンドを用いて作られたページが含まれています。"
+}

@@ -1,0 +1,51 @@
+/* Blue Theme 2004 by Martin Hense ::: www.lounge7.de */
+
+/* Following are the presentation styles -- edit away!
+   Note that the 'body' font size may have to be changed if the resolution is
+    different than expected. */
+
+.body {background: #000294 url(bluebottom.gif) right bottom no-repeat; color: #fff; font-size: 1.8em;}
+:link, :visited {text-decoration: none; color: #F8B73E;}
+#controls :active {color: #88A !important;}
+#controls :focus {outline: 1px dotted #227;}
+
+.slide code {color: #AAABF8;}
+.slide code.bad, code del {color: red;}
+.slide code.old {color: silver;}
+
+div.header, div.footer {background: #005; color: #9183BF;
+  font-family: Verdana, Helvetica, sans-serif;}
+div.header {background: #005 url(bodybg.gif) -16px 0 no-repeat; height: 20%;
+  line-height: 1px;}
+div.footer {height: 36px; border-top: 1px solid #08093F; background: #000136 url(bluefooter.gif) top right no-repeat; }
+
+.slide {
+  font-family: georgia, Times, 'Times New Roman', serif;
+  background: transparent url(bluebg.gif) repeat-x;
+}
+.slide h1 {position: absolute; left: 87px; z-index: 1;
+ white-space: nowrap;
+ text-transform: capitalize;
+ top: 1em; width: 80%;
+ margin: 0 auto; text-align: center; padding: 0;
+ font: 150%/1em georgia, Times, 'Times New Roman', serif;
+ color: #fff; background: transparent;
+}
+.slide h3 {font-size: 130%;}
+
+#controls #navLinks a {background: #000136; color: #779;}
+#controls #navList #jumplist {background: #DDD; color: #227;}
+
+#currentSlide {text-align: center; font-size: 20pt; color: #9183BF; font-family: Verdana, Helvetica, sans-serif;}
+
+#slide0 {padding-top: 3.5em; font-size: 90%;}
+#slide0 h1 {position: static; margin: 1em 0 1.33em; padding: 0;
+   white-space: normal;
+   background: transparent;
+margin: 0 auto; width: 75%; text-align: center;
+   font: 2.5em Georgia, Times, 'Times New Roman', serif; height: 281px;
+   color: #fff;}
+#slide0 h3 {font-size: 1.5em;}
+#slide0 h4 {font-size: 1em;}
+#slide0 h3, #slide0 h4, #slide0 p {margin: 0; text-align: center; color: #fff;}
+#slide0 p {margin-top: 0.7em;}

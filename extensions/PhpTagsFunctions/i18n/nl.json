@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti"
+		]
+	},
+	"phptagsfunctions-desc": "Voor de uitvoering van de interne functies van native PHP voor de uitbreiding PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "Scheidingsteken moet niet worden alfanumerieke of een backslash",
+	"phptagsfunctions-preg-no-ending-delimiter": "Geen einde delimiter \"$1\" is gevonden",
+	"phptagsfunctions-preg-unknown-modifier": "Niet bekende modifier $1"
+}

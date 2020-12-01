@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shaleych",
+			"Vlad5250"
+		]
+	},
+	"bs-smartlist-ve-smartlistinspector-count": "Количество",
+	"bs-smartlist-ve-smartlistinspector-ns": "Пространства имён",
+	"bs-smartlist-ve-smartlistinspector-cat": "Категория",
+	"bs-smartlist-ve-smartlistinspector-minor": "Показать малые правки",
+	"bs-smartlist-ve-smartlistinspector-catmode": "Режим категории",
+	"bs-smartlist-ve-smartlistinspector-period": "Период",
+	"bs-smartlist-ve-smartlistinspector-new": "Показать только новые статьи",
+	"bs-smartlist-ve-smartlistinspector-heading": "Заголовок",
+	"bs-smartlist-ve-smartlistinspector-showtext": "Показать текст",
+	"bs-smartlist-ve-smartlistinspector-sort": "Сортировать по",
+	"bs-smartlist-ve-smartlistinspector-order": "Порядок сортировки",
+	"bs-smartlist-ve-smartlistinspector-showns": "Показать пространства имён",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "Число с текстом",
+	"bs-smartlist-ve-smartlistinspector-meta": "Мета",
+	"bs-smartlist-ve-smartlistinspector-target": "Цель",
+	"bs-smartlist-ve-smartlistinspector-excludens": "Исключить пространства имён",
+	"bs-smartlist-ve-period-day-label": "День",
+	"bs-smartlist-ve-period-week-label": "Неделя",
+	"bs-smartlist-ve-period-month-label": "Месяц",
+	"bs-smartlist-ve-sort-time-label": "Время",
+	"bs-smartlist-ve-sort-title-label": "Название",
+	"bs-smartlist-ve-newbies-title": "Новички",
+	"bs-smartlist-ve-newbiesinspector-count": "Количество",
+	"bs-smartlist-ve-toplistinspector-count": "Количество",
+	"bs-smartlist-ve-toplistinspector-ns": "Пространства имён",
+	"bs-smartlist-ve-toplistinspector-cat": "Категория",
+	"bs-smartlist-ve-toplistinspector-period": "Период",
+	"bs-smartlist-ve-mode-recentchanges-label": "Свежие правки",
+	"bs-smartlist-ve-mode-changesofweek-label": "Изменения за неделю"
+}

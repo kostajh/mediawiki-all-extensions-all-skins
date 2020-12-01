@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"LEEJACK",
+			"Liuxinyu970226"
+		]
+	},
+	"bs-contextmenu-desc": "為各式連結提供上下文選單",
+	"prefs-contextmenu": "上下文選單",
+	"bs-contextmenu-pref-modus": "開啟上下文選單（不適用於手機）：",
+	"bs-contextmenu-pref-modus-just-right-mouse": "點擊滑鼠右鍵（按下 CTRL 鍵將會顯示預設的瀏覽器上下文選單）",
+	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "點擊滑鼠右鍵並按下 CTRL 鍵（僅按滑鼠右鍵將會顯示預設的瀏覽器選單）",
+	"bs-contextmenu-page-edit": "編輯頁面",
+	"bs-contextmenu-page-delete": "刪除頁面",
+	"bs-contextmenu-page-move": "移動頁面",
+	"bs-contextmenu-page-history": "檢視頁面歷史",
+	"bs-contextmenu-page-protect": "保護頁面",
+	"bs-contextmenu-page-purge": "清空快取並檢視頁面",
+	"bs-contextmenu-page-info": "檢視頁面資訊",
+	"bs-contextmenu-media-reupload": "上傳新版本",
+	"bs-contextmenu-media-view-page": "檢視檔案描述頁面與檔案歷史",
+	"bs-contextmenu-user-mail": "傳送電子郵件",
+	"bs-contextmenu-user-talk": "在對話頁留言",
+	"bs-contextmenu-file-download": "下載檔案",
+	"apihelp-bs-contextmenu-tasks-description": "提供上下文裡在提供上下文選單項目",
+	"apihelp-bs-contextmenu-tasks-summary": "提供上下文裡在提供上下文選單項目"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"securesessions-desc": "Torna as sessões dos utilizadores e o início de sessão mais seguras",
+	"securesessions-personalurl": "Sessões iniciadas ($1)",
+	"securesessions-ipsession": "Terminar todas as outras sessões.",
+	"securesessions-iprestrict": "Restringir sessão a este endereço IP,",
+	"securesessions-uarestrict": "Restringir sessão a este navegador.",
+	"securesessions-sessions": "Sessões",
+	"securesessions-sessions-legend": "Informação de sessão",
+	"securesessions-sessions-text": "Abaixo estão todas as sessões abertas para a sua conta e respetiva informação. Pode terminar todas as sessões ao utilizar o botão abaixo. O asterisco (*) denota a sessão atual.",
+	"securesessions-sessions-ip": "Endereço IP:",
+	"securesessions-sessions-activity": "Última atividade:",
+	"securesessions-sessions-clear": "Terminar todas as outras sessões.",
+	"securesessions-prefs-country": "Início de sessão restrito por país:",
+	"securesessions-prefs-tor": "Não permitir inícios de sessão através de nós de saída Tor.",
+	"securesessions-disallowedcountry": "Esta conta não está autorizada a iniciar sessão a partir deste país.",
+	"securesessions-disallowedtor": "Esta conta não está autorizada a iniciar sessão a partir de nós de saída Tor."
+}

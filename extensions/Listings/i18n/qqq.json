@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Nemo bis",
+			"Purodha",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"listings-desc": "{{desc|name=Listings|url=https://www.mediawiki.org/wiki/Extension:Listings}}",
+	"listings-unknown": "Used when the name is not specified, instead of name.",
+	"listings-phone": "Used as label for \"phone\" output.\n\nSee also:\n* {{msg-mw|Listings-phone-symbol|Optional message}}\n{{Identical|Phone}}",
+	"listings-phone-symbol": "{{Optional}}",
+	"listings-fax": "Used as label for \"fax\" output.\n{{Identical|Fax}}",
+	"listings-fax-symbol": "{{ignored}}",
+	"listings-email": "Used as label for \"email\" output.\n{{Identical|E-mail}}",
+	"listings-email-symbol": "{{ignored}}",
+	"listings-tollfree": "Used as label for \"toll-free\" output.",
+	"listings-tollfree-symbol": "{{ignored}}",
+	"listings-checkin": "Parameters:\n* $1 - check-in, i.e. a check-in time of the hotels\nSee also:\n* {{msg-mw|Listings-checkout}}",
+	"listings-checkout": "Parameters:\n* $1 - Latest check-out-time allowed by the hotels.\nSee also:\n* {{msg-mw|Listings-checkin}}",
+	"listings-position": "Parameters:\n* $1 - {{msg-mw|listings-position-template}}\nIf the message {{msg-mw|listings-position-template}} is empty, this message is unused.\n{{Identical|Position}}",
+	"listings-position-template": "{{ignored}}"
+}

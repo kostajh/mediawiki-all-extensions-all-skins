@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mar(c)",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"bs-contextmenu-desc": "Biedt contextmenu's voor verschillende koppelingen",
+	"prefs-contextmenu": "Contextmenu",
+	"bs-contextmenu-pref-modus": "Contextmenu openen door (niet voor mobiel):",
+	"bs-contextmenu-pref-modus-just-right-mouse": "Klik op rechtermuisknop. (Rechtermuisknopklik met CTRL ingedrukt opent standaard contextmenu van browser.)",
+	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "Klik op rechtermuisknop met CTRL ingedrukt. (Normale rechtermuisknopklik opent standaard contextmenu van browser.)",
+	"bs-contextmenu-page-edit": "Pagina bewerken",
+	"bs-contextmenu-page-delete": "Pagina verwijderen",
+	"bs-contextmenu-page-move": "Pagina hernoemen",
+	"bs-contextmenu-page-history": "Paginageschiedenis bekijken",
+	"bs-contextmenu-page-protect": "Pagina beveiligen",
+	"bs-contextmenu-page-purge": "Cache leegmaken en pagina bekijken",
+	"bs-contextmenu-page-info": "Paginagegevens bekijken",
+	"bs-contextmenu-media-reupload": "Nieuwe versie uploaden",
+	"bs-contextmenu-media-view-page": "Bestandsbeschrijvingspagina en bestandsgeschiedenis bekijken",
+	"bs-contextmenu-user-mail": "E-mail verzenden",
+	"bs-contextmenu-user-talk": "Bericht achterlaten op overlegpagina",
+	"bs-contextmenu-file-download": "Bestand downloaden"
+}

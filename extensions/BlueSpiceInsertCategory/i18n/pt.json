@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"Hamilton Abreu",
+			"Mansil alfalb",
+			"Vitorvicentevalente"
+		]
+	},
+	"bs-insertcategory-desc": "Diálogo para inserir uma hiperligação para uma categoria",
+	"bs-insertcategory-insertcat": "Inserir categoria",
+	"prefs-insertcategory": "Inserir categoria",
+	"bs-insertcategory-pref-withparents": "Inserir categoria com as suas parentes",
+	"bs-insertcategory-pref-uploadpanelintegration": "Definir categorias de página por padrão no diálogo de carregamento",
+	"bs-insertcategory-title": "Inserir categoria",
+	"bs-insertcategory-cat-label": "Atribuição:",
+	"bs-insertcategory-success": "Categoria adicionada",
+	"bs-insertcategory-failure": "Erro",
+	"bs-insertcategory-hint": "Nota: para adicionar uma categoria, deve pressionar \"enter\".",
+	"bs-insertcategory-panel-title": "Categorias",
+	"bs-insertcategory-category-editor-title": "Categorias",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Categorias implícitas",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Essas categorias não estão definidas no conteúdo de texto wiki da página. É provável que sejam definidas dentro de uma predefinição.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Remover todas",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "editar",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Editar as categorias desta página",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Editar as categorias desta página"
+}

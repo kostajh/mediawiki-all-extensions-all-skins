@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"userexport-desc": "Ermöglicht den Export verschiedener Benutzerdaten in eine CSV-Datei",
+	"userexport": "Benutzerdaten exportieren",
+	"userexport-submit": "Exportieren",
+	"userexport-badtoken": "Der Bearbeitungstoken ist ungültig.",
+	"userexport-description": "Diese Seite ermöglicht den Export der Benutzerdaten (Benutzername und E-Mail-Adresse) der auf dem Wiki registrierten Benutzer in eine CSV-Datei.",
+	"right-userexport": "Benutzerdaten gesammelt exportieren",
+	"action-userexport": "Benutzerdaten gesammelt zu exportieren"
+}

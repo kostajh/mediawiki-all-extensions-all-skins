@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"Raymond",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"selecttag-desc": "{{desc|name=Select Tag|url=https://www.mediawiki.org/wiki/Extension:SelectTag}}",
+	"selecttag-sourceattr-unspecified": "Message shown to the user when the _source attribute in the <select /> tag is missing."
+}

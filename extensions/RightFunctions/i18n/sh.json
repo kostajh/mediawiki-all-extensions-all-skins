@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"rightfunctions-desc": "Parser funkcije na temelju dopuštenja",
+	"rightfunctions-casc": "(iz kaskadnih izvora)",
+	"rightfunctions-local": "(sa lokalne stranice)",
+	"rightfunctions-ns": "(od zaštite imenskog prostora)"
+}

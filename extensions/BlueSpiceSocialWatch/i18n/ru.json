@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Katunchik"
+		]
+	},
+	"bs-socialwatch-desc": "Функциональность отслеживания основных данных для BlueSpiceSocial",
+	"bs-socialwatch-watchtext": "Отслеживать",
+	"bs-socialwatch-unwatchtext": "Не отслеживать",
+	"bs-socialwatch-var-watch": "Отслеживать",
+	"apihelp-bs-socialwatch-tasks-summary": "Даёт возможность редактирования состояния отслеживания основных данных"
+}

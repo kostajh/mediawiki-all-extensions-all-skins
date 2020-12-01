@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"bs-socialblog-type": "Blog",
+	"blog": "Блог",
+	"bs-socialblog-entityblog-header-create": "Нов блог",
+	"bs-socialblog-var-blogtitle": "Наслов",
+	"bs-socialblog-entityblog-content-more-btn-more": "Повеќе",
+	"bs-socialblog-entityblog-content-more-btn-less": "Помалку",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notifications-blog-create": "Корисникот {{GENDER:$1|$2 создаде}} нов блог „$3”",
+	"bs-social-notifications-email-blog-create-subject": "Корисникот {{GENDER:$1|$2 создаде}} нов блог „$3”",
+	"bs-social-notifications-email-blog-create-body": "Корисникот {{GENDER:$1|$2 создаде}} нов блог „$3” со следниов текст:\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2 создаде}} нов блог „$3”",
+	"bs-social-notification-blog-primary-link-label": "Преглед на блогот"
+}

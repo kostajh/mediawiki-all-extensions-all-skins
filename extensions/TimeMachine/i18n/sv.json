@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"timemachine": "Tidsmaskin",
+	"timemachine-desc": "Efter att ha angivit ett datum i [[Special:TimeMachine]] kan du bläddra wikins innehåll som den var på detta datum.",
+	"timemachine-p1": "Ange ett datum nedan för att bläddra i wikin som den var på detta datum.",
+	"timemachine-button1": "Gå till detta datum",
+	"timemachine-p2": "Observera att endast innehållet i wikin förändras. Stilen, sidfältet, sidhuvudet och andra element på wikin förblir oförändrade.",
+	"timemachine-p3": "För att återgå till att bläddra i wikin som vanligt, klicka på knappen nedan eller rensa dina kakor.",
+	"timemachine-button2": "Tillbaka till nutid"
+}

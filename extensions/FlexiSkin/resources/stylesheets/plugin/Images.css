@@ -1,0 +1,8 @@
+body.mediawiki #mw-content-text #fs-logo-input input {
+    width: 268px !important;
+    height: 64px;
+}
+body.mediawiki #mw-content-text #fs-favicon-input input {
+    width: 32px !important;
+    height: 32px;
+}

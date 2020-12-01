@@ -1,0 +1,47 @@
+<!-- 
+     page taken from 
+     https://www.mediawiki.org/wiki/Extension:DataTable2/Configuration
+-->  
+== Configuration ==
+
+=== Rights ===
+
+The extension defines a new right <code>datatable2-specialpages</code> needed to use the [[{{NAMESPACE}}:{{BASEPAGENAME}}#Special pages|special pages]], which is assigned by default to all registered users. You might decide to restrict this if you have so many DataTable2 data that use of the special pages degrades performance.
+
+It is pointless to restrict this for security reasons since all DataTable2 data can be extracted using the &lt;dt2-showtable&gt; tag anyway. The extension does not intend to impose any restrictions on the use of these data.
+
+=== LocalSettings.php ===
+
+There is a number of parameters that can be customized in [[LocalSettings.php]]. They all have defaults which are likely to fit for many cases, so you can skip this section when installing the extension for the first time.
+
+; $wgDataTable2WriteDest
+: Name of the database table where data is written to.
+; $wgDataTable2ReadSrc
+: Name of the database table where data is read from.
+: You might set this to a view which is a union of <code>$wgDataTable2Write</code> and data from other sources which can then be read but not modified through this extension. In such a case, the data from other sources should leave the <code>dtd_page</code> column empty (NULL).
+; $wgDataTable2MetaWriteDest
+: Name of the database table where meta data is written to.
+; $wgDataTable2MetaReadSrc
+: Name of the database table where meta data is read from.
+: You might set this to a view which is a union of <code>$wgDataTable2MetaWriteDest</code> and data from other sources which can then be read but not modified through this extension.
+; $wgDataTable2Args
+: Default arguments for <code>[[{{NAMESPACE}}:{{BASEPAGENAME}}#&lt;datatable2&gt;|&lt;datatable2&gt;]]</code> tags.
+; $wgDataTable2SqlWhiteList
+: Array of identifiers that may be used in WHERE and ORDER BY clauses, in addition to column names.
+: Unquoted identifiers in <code>where</code> and <code>order-by</code> arguments are converted to uppercase, hence the items in <code>$wgDataTable2SqlWhiteList</code> should be uppercase unless they are deliberately case-sensitive. The default contains only some rather portable SQL functions, which are probably a small subset of those available in your database backend. Hence you are most likely to add functions to this. Since the extension uses a parser which considers the dot as part of an identifier, you may add qualified names like functions in packages or other schemas.
+; $wgSpecialDataTable2PageParSep
+: Separator for parameters passed to special pages.
+: Parameters can be passed to special pages as subpage components. When more than one parameter is possible and a parameter could be a page name with a subpage, the slash cannot be used to separate the parameters. There is no obvious choice for the best separator since the characters which by default are not allowed in page titles cannot be used in internal links, either.
+: If you modify this, you will have to modify any messages which contain links to DataTable2 special pages passing more than one parameter. In the default configuration, this is the case for the message <code>datatable2pages-row</code>.
+; $wgSpecialDataTable2DataClasses
+: List of css classes for the table used in [[Special:DataTable2Data]].
+
+=== Messages ===
+
+Since the extension defines a lot of messages which are constantly evolving with further development, they are not documented here. Please refer to <code>i18n/qqq.json</code>.
+
+=== Database ===
+
+By default, the extension allows up to 30 columns in a table. In the unlikely case that you would like to enlarge the maximum number of columns, you need to add columns to the table <code>datatable2_data</code> defined in the file <code>datatable2_data.sql</code> and to adapt the class constant <code>DataTable2Database::MAX_FIELDS</code> in the file <code>DataTable2Database.php</code>.
+
+By default, the first 10 columns are indexed. In order to index more (or less) columns, you need to create (or drop) indexes; see file <code>datatable2_data.sql</code>.

@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amikeco",
+			"Daniel Mietchen",
+			"Facenapalm",
+			"Kareyac",
+			"Meerrahtar",
+			"Megakott",
+			"Okras",
+			"Pacha Tchernof",
+			"Арсен Асхат"
+		]
+	},
+	"bs-bookshelf-positive-integer-validation-not-approved": "Разрешены только положительные целые значения.",
+	"bs-bookshelf-tagerror-attribute-float-not-valid": "Пожалуйста, используйте <i>left</i> или <i>right</i>.",
+	"bs-bookshelf-specialpage-title": "Книги",
+	"bs-bookshelf-specialpage-allpages-ns-book-text": "Библиотека",
+	"bs-bookshelf-tag-next": "Следующая",
+	"bs-bookshelf-tag-prev": "Предыдущая",
+	"bs-bookshelf-tag-edit-book": "Редактировать книгу",
+	"bs-bookshelf-personal-books-page-prefix": "$1/Книги/",
+	"bs-bookshelf-add-to-book-label": "Добавить книгу",
+	"bs-bookshelf-add-to-book-label-book": "Книга",
+	"bs-bookshelf-add-to-book-label-alias": "Псевдоним",
+	"bs-bookshelf-setting-path-feature": "Книга",
+	"bs-bookshelf-empty-selection": "Ничего не выбрано",
+	"bs-bookshelf-grouping-template-type-user_book": "Собственные книги",
+	"bs-bookshelf-edit-title": "Редактирование $1",
+	"bs-bookshelf-book-grid-title": "Книги",
+	"bookshelf": "Книжная полка",
+	"bs-bookshelf-prof-defaultview": "Вид по умолчанию",
+	"bs-bookshelf-prof-defaultview-grid": "Сетка",
+	"bs-bookshelf-prof-defaultview-images": "Изображения",
+	"bs-bookshelf-action-save-to-local-storage": "Сохранение в локальном хранилище"
+}

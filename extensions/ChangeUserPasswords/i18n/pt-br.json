@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"changeuserpasswords": "Alterar senhas de usuários",
+	"changeuserpassword-desc": "Esta extensão permite alterar senha dos usuários, exceto algumas indicadas por administradores.",
+	"changeuserpassword-pagename": "AlterarSenhaDosUsuários",
+	"changeuserpassword-topheader": "Por favor, selecione os nomes de usuário para quem as senhas devem ser alteradas. Todos os usuários são selecionados por padrão. Por favor, desmarque os nomes de usuário para os quais você não deseja alterar a senha.",
+	"changeuserpassword-success": "Senhas de usuários alteradas!",
+	"changeuserpassword-title": "Alterar senha",
+	"changeuserpassword-intro": "Esta é uma extensão para alterar senhas de usuários, exceto algumas indicadas por administradores.",
+	"action-changeuserpasswords": "alterar senhas de usuários",
+	"right-changeuserpasswords": "Alterar senha"
+}

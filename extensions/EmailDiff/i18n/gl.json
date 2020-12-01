@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"emaildiff-desc": "Permitir o envío de diferencias de texto nos correos electrónicos de notificación",
+	"tog-emaildiff": "Enviar unha diferencia de texto dos cambios",
+	"emaildiff-newpage": "Esta é unha páxina nova:\n\n$1",
+	"emaildiff-intro": "Diferenzas da versión:\n$1"
+}

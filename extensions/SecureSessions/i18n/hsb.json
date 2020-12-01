@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"securesessions-desc": "Powyša wěstotu wužiwarskich posedźenjow a posedźenskeje awtentifikacije",
+	"securesessions-personalurl": "Wočinjene posedźenja ($1)",
+	"securesessions-ipsession": "Wšě druhe posedźenja wotzjewić.",
+	"securesessions-iprestrict": "Posedźenje na tutu IP-adresu wobmjezować.",
+	"securesessions-uarestrict": "Posedźenje na tutón wobhladowak wobmjezować",
+	"securesessions-sessions": "Posedźenja",
+	"securesessions-sessions-legend": "Posedźenske informacije",
+	"securesessions-sessions-text": "Deleka widźiš wšě wočinjene  posedźenja za twoje konto a informacije wo nich. Móžeš wšě druhe posedźenja z pomocu slědowacym tłóčatkom začinić. Hwěžka (*) woznamjenja aktualne posedźenje.",
+	"securesessions-sessions-ip": "IP-adresa:",
+	"securesessions-sessions-activity": "Poslednja aktiwita:",
+	"securesessions-sessions-clear": "Wšě druhe posedźenja wotzjewić",
+	"securesessions-prefs-country": "Přizjewjenje po kraju wobmjezować:",
+	"securesessions-prefs-tor": "Přizjewjenja z wuchadnych sukow Tor zakazać.",
+	"securesessions-disallowedcountry": "Tute konto njesmě so z tutoho kraja přizjewić.",
+	"securesessions-disallowedtor": "Tute konto njesmě so z wuchadnych sukow Tor přizjewić."
+}

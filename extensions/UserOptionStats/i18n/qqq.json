@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Fryed-peach",
+			"Nike",
+			"Purodha",
+			"SPQRobin",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"useroptionstats": "{{doc-special|UserOptionStats}}",
+	"useroptionstats-desc": "{{desc|name=User Option Stats|url=https://www.mediawiki.org/wiki/Extension:UserOptionStats}}",
+	"uos-warn": "Used as error message (not warning).\n\n<code>PHPlot</code> is a graph library to create various graphs from a PHP application. See http://www.phplot.com/",
+	"uos-choose": "Used in [[Special:UserOptionStats]]. Parameters:\n* $1 - list of options (comma-separated, with links)\nSee also:\n* {{msg-mw|Uos-choose-hidden}}",
+	"uos-choose-hidden": "Used in [[Special:UserOptionStats]].\n\n\"hidden\" refers to the options, as in \"hidden preferences\".\n\nParameters:\n* $1 - list of hidden options (comma-separated, with links)\nSee also:\n* {{msg-mw|Uos-choose}}",
+	"uos-unknown": "See example: [[Special:UserOptionStats/ajaxsearch]]\n\nThis message is followed by number of the users using the default settings.\n{{Identical|Default}}",
+	"uos-other": "See example: [[Special:UserOptionStats/translate-editlangs]].\n\nThis message is followed by {{msg-mw|Word-separator}} and {{msg-mw|Parentheses}} (<code>$1</code> is number of users).\n{{Identical|Other}}",
+	"uos-title": "If the translation is longer than the English string, break it into multiple lines not much longer than the English text each.\n\nParameters:\n* $1 - option name"
+}

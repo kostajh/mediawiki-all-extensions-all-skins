@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"bs-interwikilinks-label": "Σύνδεσμοι interwiki",
+	"bs-interwikilinks-link-created": "Ο διαγλωσσικός σύνδεσμος έχει δημιουργηθεί.",
+	"bs-interwikilinks-link-added": "Ο διαγλωσσικός σύνδεσμος έχει προστεθεί.",
+	"bs-interwikilinks-link-deleted": "Ο διαγλωσσικός σύνδεσμος έχει διαγραφεί.",
+	"bs-interwikilinks-nooldpfx": "Το προηγούμενο πρόθεμα δεν βρέθηκε.",
+	"bs-interwikilinks-nopfx": "Παρακαλούμε παρέχετε ένα πρόθεμα.",
+	"bs-interwikilinks-nourl": "Παρακαλούμε παρέχετε μια διεύθυνση URL.",
+	"bs-interwikilinks-pfxtoolong": "Το πρόθεμα είναι πολύ μεγάλο. Παρακαλούμε χρησιμοποιήστε ένα μέγιστο όριο έως 32 χαρακτήρες.",
+	"bs-interwikilinks-pfxexists": "Το πρόθεμα υπάρχει ήδη.",
+	"bs-interwikilinks-headerprefix": "Πρόθεμα",
+	"bs-interwikilinks-titleaddinterwikilink": "Πρόσθεση διαγλωσσικού σύνδεσμου",
+	"bs-interwikilinks-titleeditinterwikilink": "Επεξεργασία διαγλωσσικού σύνδεσμου",
+	"bs-interwikilinks-labelprefix": "Πρόθεμα",
+	"bs-interwikilinks-titledeleteinterwikilink": "Διαγραφή διαγλωσσικού σύνδεσμου",
+	"bs-interwikilinks-confirmdeleteinterwikilink": "Είστε σίγουρος ότι θέλετε να διαγράψετε αυτό το διαγλωσσικό σύνδεσμο;",
+	"bs-interwikilinks-insertlink-tabtitle": "Σύνδεσμος σε άλλο βίκι",
+	"bs-interwikilinks-insertlink-labelprefix": "Πρόθεμα",
+	"bs-interwikilink-select-a-prefix": "Επιλογή προθέματος",
+	"bs-interwikilinks-link-edited": "Ο διαγλωσσικός σύνδεσμος έχει επεξεργαστεί",
+	"interwikilinks": "Σύνδεσμοι interwiki"
+}

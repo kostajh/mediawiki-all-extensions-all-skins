@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Le Duy Quang"
+		]
+	},
+	"imageCompare-desc": "Compare two images with an interactive slider.",
+	"imageCompare-error-noimg": "<span style='color:red'>ImageCompare: Please provide 2 images to compare.</span>",
+	"imageCompare-error-imginvalid": "<span style='color:red'>ImageCompare: One or both images are not found or invalid.</span>",
+	"imageCompare-error-numberinvalid": "<span style='color:red'>ImageCompare: One attribute is not a number where a number is expected.</span>"
+}

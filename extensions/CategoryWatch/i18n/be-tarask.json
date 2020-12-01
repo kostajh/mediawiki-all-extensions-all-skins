@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by"
+		]
+	},
+	"categorywatch-desc": "Пашырае функцыянальнасьць сьпісу назіраньняў магчымасьцю паведамленьняў пра зьмены ў старонках, якія ўваходзяць у склад катэгорыяў са сьпісу назіраньня",
+	"categorywatch-emailsubject": "Зьмены, зьвязаныя з  катэгорыяй «$1» са сьпісу назіраньня",
+	"categorywatch-catmovein": "$1 перанесеная ў катэгорыю $2 з $3",
+	"categorywatch-catmoveout": "$1 перанесеная з катэгорыі $2 у $3",
+	"categorywatch-catadd": "$1 дададзеная ў катэгорыю $2",
+	"categorywatch-catsub": "$1 выдаленая з катэгорыі $2",
+	"categorywatch-autocat": "Аўтаматычна назіраецца $1"
+}

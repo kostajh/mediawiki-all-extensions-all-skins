@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"electronpdfservice": "Dịch vụ Electron PDF",
+	"electronpdfservice-desc": "Kết xuất PDF hoàn toàn trong trình duyệt dùng dịch vụ Electron PDF",
+	"electronpdfservice-special-page-headline": "Tải về PDF",
+	"electronpdfservice-download-label": "Tải về PDF",
+	"electronpdfservice-download-button": "Tải về",
+	"electronpdfservice-sidebar-portlet-heading": "In/xuất ra",
+	"electronpdfservice-sidebar-portlet-print-text": "Tải về PDF",
+	"electronpdfservice-invalid-page-title": "Trang không hợp lệ",
+	"electronpdfservice-invalid-page-text": "Trang đã chỉ định là không hợp lệ."
+}

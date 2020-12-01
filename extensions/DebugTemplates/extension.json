@@ -1,0 +1,57 @@
+{
+	"name": "DebugTemplates",
+	"version": "0.6",
+	"author": "Clark Verbrugge",
+	"url": "https://www.mediawiki.org/wiki/Extension:DebugTemplates",
+	"descriptionmsg": "debugtemplates-desc",
+	"license-name": "CC-BY-SA-3.0",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"APIModules": {
+		"expandframe": "ApiDebugTemplates"
+	},
+	"SpecialPages": {
+		"DebugTemplates": "SpecialDebugTemplates"
+	},
+	"MessagesDirs": {
+		"DebugTemplates": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"DebugTemplatesAlias": "DebugTemplates.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialDebugTemplates": "SpecialDebugTemplates.php",
+		"ApiDebugTemplates": "ApiDebugTemplates.php"
+	},
+	"ResourceModules": {
+		"ext.debugTemplates": {
+			"scripts": [
+				"ext.debugTemplates.js"
+			],
+			"styles": "ext.debugTemplates.css",
+			"messages": [
+				"debugtemplates-error-parse",
+				"debugtemplates-error-button",
+				"debugtemplates-error-eval",
+				"debugtemplates-error-arg-eval",
+				"debugtemplates-warning-template-not-a-template",
+				"debugtemplates-warning-template-not-found",
+				"debugtemplates-error-template-name",
+				"debugtemplates-error-template-revisions",
+				"debugtemplates-error-template-page",
+				"debugtemplates-args-constructed",
+				"debugtemplates-args-eval-all"
+			],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "DebugTemplates"
+	},
+	"manifest_version": 2
+}

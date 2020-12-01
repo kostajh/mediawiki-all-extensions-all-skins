@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"gotoshell": "Idi na ljusku",
+	"gotoshell-desc": "Primijenjuje [[Special:GoToShell|službenu stranicu]] koji vodi korisnika do ljuske i natrag",
+	"gotoshell-notallowed": "Vaš račun nema dozvolu za idi na ljusku.",
+	"gotoshell-disabled": "Ne mogu pokrenuti vanjske programe jer je proc_open() onemogućen.",
+	"gotoshell-command": "Komanda:",
+	"gotoshell-result": "Ishod:",
+	"action-gotoshell": "izvršavanje komanda obvivke putem službene stranice GoToShell",
+	"right-gotoshell": "Izvršavanje komanda obvivke putem službene stranice GoToShell"
+}

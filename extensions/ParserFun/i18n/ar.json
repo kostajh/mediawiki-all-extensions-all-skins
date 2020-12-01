@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"parserfun-desc": "يضيف دالة محلل <code>#parse</code> لتحليل نص الويكي وتقديم بادئة <code>THIS:</code> للمتغيرات السحرية ذات الصلة بمعلومات الصفحة",
+	"parserfun-invalid-caller-mode": "لا يوجد وضع تشغيل صالح أو فهرس رقمي معطى."
+}

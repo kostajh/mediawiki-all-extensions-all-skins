@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"AlimOmar"
+		]
+	},
+	"jade-proposalexists": "بىر تەكلىپ بەلگىلەنگەن سانلىق مەلۇماتلار بىلەن ئاللىبۇرۇن مەۋجۇت. ھازىر بار بولغان تەكلىپ  ('+1') نى  ئويلىشىپ بېقىڭ .",
+	"jade-updateproposal-autocomment": "تەكلىپ يېڭىلاندى:",
+	"jade-deleteendorsement-autocomment": "'' 'تەستىق ئۆچۈرۈلدى:' ''",
+	"jade-endorseproposal-autocomment": "تەستىقلانغان تەكلىپ:",
+	"jade-setpreference-autocomment": "'' 'مايىللىق توپلىمى:' ''",
+	"jade-moveendorsement-autocomment": "قوللاش تەستىقلاندى:",
+	"jade-number-of-endorsements-autocomment": "'' '($1{{PLURAL: $1 | قوللاش | تەستىق}}):' ''",
+	"jade-damaging-good-faith-comment": "بۇزۇلۇش / ياخشى نىيەت",
+	"jade-by-ip-address-comment": "[[Special:Contributions/$1|$1]] قىلدى",
+	"jade-by-id-number-comment": "[[User:$1|$1]] قىلدى"
+}

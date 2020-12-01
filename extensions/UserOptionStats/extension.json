@@ -1,0 +1,26 @@
+{
+	"name": "User Option Statistics",
+	"version": "3.0.1",
+	"author": "Niklas Laxström",
+	"url": "https://www.mediawiki.org/wiki/Extension:UserOptionStats",
+	"descriptionmsg": "useroptionstats-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"load_composer_autoloader": true,
+	"AutoloadClasses": {
+		"FCFontFinder": "includes/FCFontFinder.php",
+		"SpecialUserOptionStats": "SpecialUserOptionStats.php"
+	},
+	"ExtensionMessagesFiles": {
+		"UserOptionStatsAlias": "UserOptionStats.alias.php"
+	},
+	"MessagesDirs": {
+		"UserOptionStats": [
+			"i18n"
+		]
+	},
+	"SpecialPages": {
+		"UserOptionStats": "SpecialUserOptionStats"
+	},
+	"manifest_version": 1
+}

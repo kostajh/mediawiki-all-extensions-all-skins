@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Ohgi",
+			"Schu",
+			"Shirayuki"
+		]
+	},
+	"inlinecategorizer-desc": "ページから直接カテゴリ リンクを変更/追加/除去できるようにする JavaScript モジュール",
+	"inlinecategorizer-add-category": "カテゴリを追加",
+	"inlinecategorizer-add-category-submit": "追加",
+	"inlinecategorizer-add-category-summary": "カテゴリ「$1」を追加",
+	"inlinecategorizer-api-error": "API がエラーを返しました: $1: $2",
+	"inlinecategorizer-api-unknown-error": "API が不明なエラーを返しました。",
+	"inlinecategorizer-cancel": "編集をキャンセル",
+	"inlinecategorizer-cancel-all": "すべての変更をキャンセル",
+	"inlinecategorizer-category-already-present": "このページは既にカテゴリ「$1」に属しています",
+	"inlinecategorizer-category-hook-error": "ローカル関数の変更は保存できません。",
+	"inlinecategorizer-category-question": "以下の変更が必要である理由:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "保存",
+	"inlinecategorizer-confirm-save-all": "すべての変更を保存",
+	"inlinecategorizer-confirm-title": "操作の確認",
+	"inlinecategorizer-edit-category": "カテゴリを編集",
+	"inlinecategorizer-edit-category-error": "カテゴリ「$1」を編集できませんでした。\nこのエラーは通常、テンプレートによってページに追加されたカテゴリである場合に発生します。",
+	"inlinecategorizer-edit-category-summary": "カテゴリを「$1」から「$2」に変更",
+	"inlinecategorizer-error-title": "エラー",
+	"inlinecategorizer-remove-category": "カテゴリを除去",
+	"inlinecategorizer-remove-category-error": "カテゴリ「$1」を除去できませんでした。\nこのエラーは通常、テンプレートによってページに追加されたカテゴリである場合に発生します。",
+	"inlinecategorizer-remove-category-summary": "カテゴリ「$1」を除去"
+}

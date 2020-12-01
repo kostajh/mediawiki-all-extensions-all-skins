@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjälten",
+			"WikiPhoenix"
+		]
+	},
+	"jade-desc": "Bedömnings- och dialogmotor",
+	"jade-damaging-scale-true-label": "Skadlig",
+	"jade-damaging-scale-false-label": "Inte skadlig",
+	"jade-goodfaith-scale-true-label": "God avsikt",
+	"jade-goodfaith-scale-false-label": "Ond avsikt",
+	"jade-contentquality-scale-3-label": "C-klass artikel",
+	"jade-contentquality-scale-4-label": "B-klass artikel",
+	"jade-contentquality-scale-5-label": "Bra artikel",
+	"jade-contentquality-scale-6-label": "Utmärkt artikel",
+	"jade-contentquality-generic": "Innehållskvalitet \"$1\"",
+	"jade-delete": "Radera",
+	"jade-bad-title-format": "Ogiltigt titelformat",
+	"jade-user-ip-invalid": "IP-adressen ''$1'' är ogiltig.",
+	"jade-cannot-create-page": "Du kan inte skapa denna sida.",
+	"jade-cannot-edit-page": "Du kan inte redigera denna sida.",
+	"jade-db-error": "Databasfel: $1",
+	"jade-user": "Användare",
+	"jade-editquality-is-comment": "Redigeringskvaliteten är",
+	"jade-by-ip-address-comment": "av [[Special:Contributions/$1|$1]]",
+	"jade-by-id-number-comment": "av [[User:$1|$1]]",
+	"prefs-betafeatures": "Betafunktioner"
+}

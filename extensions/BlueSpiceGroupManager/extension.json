@@ -1,0 +1,112 @@
+{
+	"name": "BlueSpiceGroupManager",
+	"license-name":"GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:GroupManager",
+	"author": [
+		"Markus Glaser",
+		"Sebastian Ulbricht"
+	],
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceGroupManager/resources"
+	},
+	"descriptionmsg": "bs-groupmanager-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceGroupManager": {
+					"className": "\\BlueSpice\\GroupManager\\Extension",
+					"extPath": "/BlueSpiceGroupManager"
+				}
+			},
+			"PermissionRegistry": {
+				"groupmanager-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"accountmanager",
+						"admin",
+						"maintenanceadmin"
+					]
+				}
+			},
+			"AdminToolRegistry": {
+				"bs-group-manager": "BlueSpice\\GroupManager\\AdminTool"
+			},
+			"DynamicSettingsRegistry": {
+				"GroupManager": "BlueSpice\\GroupManager\\DynamicSettings\\GmSettings::factory"
+			}
+		}
+	},
+	"GroupPermissions": {
+		"*": {
+			"groupmanager-viewspecialpage": false
+		},
+		"user": {
+			"groupmanager-viewspecialpage": false
+		},
+		"sysop": {
+			"groupmanager-viewspecialpage": true
+		}
+	},
+	"AvailableRights": [
+		"groupmanager-viewspecialpage"
+	],
+	"SpecialPages": {
+		"GroupManager": "SpecialGroupManager"
+	},
+	"LogTypes": [
+		"bs-group-manager"
+	],
+	"FilterLogTypes": {
+		"bs-group-manager": true
+	},
+	"LogActionsHandlers": {
+		"bs-group-manager/*": "LogFormatter"
+	},
+	"APIModules": {
+		"bs-groupmanager": "BSApiTasksGroupManager"
+	},
+	"MessagesDirs": {
+		"GroupManager": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SpecialGroupManagerAlias": "includes/specials/SpecialGroupManager.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\GroupManager\\" : "src/"
+	},
+	"AutoloadClasses": {
+		"BSApiTasksGroupManager": "includes/api/BSApiTasksGroupManager.php",
+		"SpecialGroupManager": "includes/specials/SpecialGroupManager.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.groupManager": {
+			"scripts": "bluespice.groupManager.js",
+			"dependencies": "ext.bluespice.extjs",
+			"messages": [
+				"bs-groupmanager-headergroup",
+				"bs-groupmanager-tipremove",
+				"bs-groupmanager-titlenewgroup",
+				"bs-groupmanager-titleeditgroup",
+				"bs-groupmanager-removegroup",
+				"bs-groupmanager-lablename",
+				"bs-groupmanager-msgnoteditable",
+				"bs-groupmanager-msgnotremovable",
+				"bs-groupmanager-removegroup-message-success",
+				"bs-groupmanager-removegroup-message-failure"
+			]
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

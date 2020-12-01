@@ -1,0 +1,1 @@
+moved from https://gerrit.wikimedia.org/r/#/admin/projects/mediawiki/extensions/BlueSpiceConfigManager

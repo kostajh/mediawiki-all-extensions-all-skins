@@ -1,0 +1,5 @@
+cd <mw-installdir>/extensions/BlueSpiceExtendedStatistics/
+php maintenance/ExportCollection.php --src=doc/exportAggregatedStatsExamples/pagehits.json --output=doc/exportAggregatedStatsExamples/pagehits.xlsx
+
+cd <mw-installdir>/extensions/BlueSpiceExtendedStatistics/
+php maintenance/ExportCollection.php --src=doc/exportAggregatedStatsExamples/assignments.json --output=doc/exportAggregatedStatsExamples/assignments.xlsx

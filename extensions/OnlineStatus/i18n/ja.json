@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Hosiryuhosi",
+			"Rxy",
+			"Shirayuki"
+		]
+	},
+	"onlinestatus-desc": "利用者が現在そのウィキ上にいるかどうかを表示できるように、{{int:preferences}}に設定項目を追加する",
+	"onlinestatus-js-anon": "エラー: この機能を利用するにはログインしている必要があります",
+	"onlinestatus-js-changed": "あなたの状態が「$1」に変更されました",
+	"onlinestatus-js-error": "状態を変更できません。値「$1」は無効です",
+	"onlinestatus-subtitle-offline": "現在、この利用者はオフラインです",
+	"onlinestatus-subtitle-online": "現在、この利用者はオンラインです",
+	"onlinestatus-tab": "状態",
+	"onlinestatus-toggles-desc": "あなたの状態:",
+	"onlinestatus-toggles-explain": "これによって、他の利用者があなたの利用者ページを見た際に、あなたがオンラインであるかどうか伝えることができます。",
+	"onlinestatus-toggles-show": "自分の利用者ページでオンライン状態を表示する",
+	"onlinestatus-toggle-offline": "オフライン",
+	"onlinestatus-toggle-online": "オンライン",
+	"onlinestatus-pref-onlineonlogin": "ログイン時に、自分の状態をオンラインに変更する",
+	"onlinestatus-pref-offlineonlogout": "ログアウト時に、自分の状態をオフラインに変更する"
+}

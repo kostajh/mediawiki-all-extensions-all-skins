@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"EugeneZelenko",
+			"Liuxinyu970226",
+			"Purodha",
+			"Shirayuki",
+			"Siebrand",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"onlinestatus-desc": "{{desc|name=Online Status|url=https://www.mediawiki.org/wiki/Extension:OnlineStatus}}",
+	"onlinestatus-js-anon": "Used as error message for Ajax requests.",
+	"onlinestatus-js-changed": "Parameters:\n* $1 - any one of the following messages:\n** {{msg-mw|onlinestatus-toggle-offline}}\n** {{msg-mw|onlinestatus-toggle-online}}\nSee also:\n* {{msg-mw|onlinestatus-js-error}}",
+	"onlinestatus-js-error": "Parameters:\n* $1 - invalid status. Valid statuses are {{msg-mw|Onlinestatus-toggle-offline}} and {{msg-mw|Onlinestatus-toggle-online}}.\n\nSee also:\n* {{msg-mw|Onlinestatus-js-changed}}",
+	"onlinestatus-levels": "{{notranslate}}",
+	"onlinestatus-subtitle-offline": "Parameters:\n* $1 - (Optional) username, can be used for GENDER support\nSee also:\n* {{msg-mw|Onlinestatus-subtitle-online}}",
+	"onlinestatus-subtitle-online": "Parameters:\n* $1 - (Optional) username, can be used for GENDER support\nSee also:\n* {{msg-mw|Onlinestatus-subtitle-offline}}",
+	"onlinestatus-tab": "{{Identical|Status}}",
+	"onlinestatus-toggles-desc": "{{Identical|Your status}}",
+	"onlinestatus-toggles-explain": "Used as help message for the checkbox which has a label {{msg-mw|onlinestatus-toggles-show}}.",
+	"onlinestatus-toggles-show": "Toggle in [[Special:Preferences|preferences]]. {{Gender}}",
+	"onlinestatus-toggle-offline": "Used as radio button label etc.\n\nAlso used as <code>$1</code> in {{msg-mw|Onlinestatus-js-changed}}.\n\nSee also:\n* {{msg-mw|Onlinestatus-toggle-online}}\n{{Identical|Offline}}",
+	"onlinestatus-toggle-online": "Used as radio button label etc.\n\nAlso used as <code>$1</code> in {{msg-mw|Onlinestatus-js-changed}}.\n\nSee also:\n* {{msg-mw|Onlinestatus-toggle-offline}}\n{{Identical|Online}}",
+	"onlinestatus-pref-onlineonlogin": "Used as checkbox label in [[Special:Preferences]].\n\nSee also:\n* {{msg-mw|Onlinestatus-pref-offlineonlogout}}",
+	"onlinestatus-pref-offlineonlogout": "Used as checkbox label in [[Special:Preferences]].\n\nSee also:\n* {{msg-mw|Onlinestatus-pref-onlineonlogin}}"
+}

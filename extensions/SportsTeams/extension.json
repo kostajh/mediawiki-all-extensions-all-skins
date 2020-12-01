@@ -1,0 +1,123 @@
+{
+	"name": "SportsTeams",
+	"version": "3.7.0",
+	"author": [
+		"Aaron Wright",
+		"Ashish Datta",
+		"David Pean",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"url": "https://www.mediawiki.org/wiki/Extension:SportsTeams",
+	"descriptionmsg": "sportsteams-desc",
+	"type": "other",
+	"GroupPermissions": {
+		"sysop": {
+			"sportsteamsmanager": true
+		},
+		"staff": {
+			"sportsteamsmanager": true
+		}
+	},
+	"AvailableRights": [
+		"sportsteamsmanager"
+	],
+	"SpecialPages": {
+		"AddFan": "AddFan",
+		"FanHome": "FanHome",
+		"RemoveFan": "RemoveFan",
+		"SimilarFans": "SimilarFans",
+		"SportsManagerLogo": "SportsManagerLogo",
+		"SportsTeamsManager": "SportsTeamsManager",
+		"SportsTeamsManagerLogo": "SportsTeamsManagerLogo",
+		"TopNetworks": "TopNetworks",
+		"UpdateFavoriteTeams": "UpdateFavoriteTeams",
+		"ViewFans": "ViewFans"
+	},
+	"APIModules": {
+		"sportsteams": "ApiSportsTeams"
+	},
+	"MessagesDirs": {
+		"SportsTeams": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SportsTeamsAlias": "includes/SportsTeams.alias.php"
+	},
+	"AutoloadClasses": {
+		"SportsTeams": "includes/SportsTeams.class.php",
+		"SportsTeamsUserProfile": "includes/SportsTeamsUserProfile.class.php",
+		"AddFan": "includes/specials/SpecialAddFan.php",
+		"FanHome": "includes/specials/SpecialFanHome.php",
+		"RemoveFan": "includes/specials/SpecialRemoveFan.php",
+		"SimilarFans": "includes/specials/SpecialSimilarFans.php",
+		"SportsManagerLogo": "includes/specials/SpecialSportsManagerLogo.php",
+		"SportsTeamsManager": "includes/specials/SpecialSportsTeamsManager.php",
+		"SportsTeamsManagerLogo": "includes/specials/SpecialSportsTeamsManagerLogo.php",
+		"TopNetworks": "includes/specials/SpecialTopNetworks.php",
+		"UpdateFavoriteTeams": "includes/specials/SpecialUpdateFavoriteTeams.php",
+		"ViewFans": "includes/specials/SpecialViewFans.php",
+		"ApiSportsTeams": "includes/api/ApiSportsTeams.php",
+		"SportsTeamsHooks": "includes/SportsTeams.hooks.php"
+	},
+	"ResourceModules": {
+		"ext.sportsTeams": {
+			"styles": "resources/css/SportsTeams.css"
+		},
+		"ext.sportsTeams.fanHome": {
+			"scripts": "resources/js/FanHome.js",
+			"dependencies": [ "mediawiki.api" ]
+		},
+		"ext.sportsTeams.doubleCombo": {
+			"scripts": "resources/js/DoubleCombo.js"
+		},
+		"ext.sportsTeams.manager": {
+			"styles": "resources/css/SportsTeamsManager.css"
+		},
+		"ext.sportsTeams.userProfile": {
+			"scripts": "resources/js/SportsTeamsUserProfile.js",
+			"messages": [
+				"sportsteams-profile-button-add",
+				"sportsteams-profile-button-cancel",
+				"sportsteams-profile-latest-thought",
+				"sportsteams-profile-view-all",
+				"sportsteams-profile-characters-remaining",
+				"sportsteams-profile-characters-remaining-hack"
+			],
+			"dependencies": [ "mediawiki.api" ]
+		},
+		"ext.sportsTeams.updateFavoriteTeams": {
+			"scripts": [
+				"resources/js/DoubleCombo.js",
+				"resources/js/UpdateFavoriteTeams.js"
+			]
+		},
+		"ext.sportsTeams.userprofile.module.favoriteteams.css": {
+			"styles": "resources/css/ext.sportsTeams.userprofile.module.favoriteteams.css"
+		},
+		"ext.sportsTeams.userprofile.module.latestthoughts.css": {
+			"styles": "resources/css/ext.sportsTeams.userprofile.module.latestthoughts.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SportsTeams"
+	},
+	"Hooks": {
+		"UserProfileBeginLeft": [
+			"SportsTeamsUserProfile::showLatestThought",
+			"SportsTeamsUserProfile::showFavoriteTeams"
+		],
+		"LocalUserCreated": "SportsTeamsHooks::addFavoriteTeam",
+		"BeforePageDisplay": "SportsTeamsHooks::addSportsTeamsToSignupPage",
+		"LoadExtensionSchemaUpdates": "SportsTeamsHooks::onLoadExtensionSchemaUpdates"
+	},
+	"config": {
+		"SportsTeamsGoogleAPIKey": "ABQIAAAAnfs7bKE82qgb3Zc2YyS-oBT2yXp_ZAY8_ufC3CFXhHIE1NvwkxSySz_REpPq-4WZA27OwgbtyR3VcA"
+	},
+	"manifest_version": 1
+}

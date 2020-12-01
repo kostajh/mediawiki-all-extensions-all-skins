@@ -1,0 +1,54 @@
+.main-footer{
+	clear:both;
+	margin-top: 1.25rem;
+	border-top: 1px solid;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	#footer-places {
+		padding-left: 0.3125rem;
+		padding-top: 0.75rem;
+		padding-bottom: 0.75rem;
+
+		li {
+			word-break: keep-all;
+			white-space: nowrap;
+			margin-top: 0.3125rem;
+			padding: 0px;
+			&:first-child {
+				border-left: none;
+				padding-left: 0rem;
+			}
+
+			&:first-child {
+				&:before {
+					content: "";
+				}
+			}
+
+			&::before {
+				content: " \2022 ";
+				color: blue;
+				font-size: 85%;
+				padding-right: 0.2rem;
+			}
+
+			&:last-child  {
+				&:after {
+					content: "";
+				}
+			}
+		}
+	}
+
+	#footer-icons {
+		padding-left: 0.3125rem;
+		padding-top: 0.75rem;
+		padding-bottom: 0.75rem;
+
+		li{
+			padding: 0px;
+		}
+	}
+}

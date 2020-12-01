@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"disqustag-desc": "Legger til en <code>&lt;disqus&gt;</code>-tagg for å sette inn en inline-lenke som popper opp [http://disqus.com Disqus]-diskusjoner"
+}

@@ -1,0 +1,39 @@
+{
+	"name": "mediawiki/google-analytics-metrics",
+	"type": "mediawiki-extension",
+	"description": "The GoogleAnalyticsMetrics extension gets various metrics from Google Analytics and inserts them into a wiki page using a parser function.",
+	"keywords": [
+		"Google Analytics Metrics",
+		"Wiki",
+		"MediaWiki"
+	],
+	"homepage": "https://www.mediawiki.org/wiki/Extension:GoogleAnalyticsMetrics",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Ike Hecht",
+			"role": "Developer"
+		},
+		{
+			"name": "Nischay Nahata",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"google/apiclient": "2.2.1"
+	},
+	"require-dev": {
+		"mediawiki/minus-x": "1.1.0",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"minus-x check ."
+		],
+		"fix": [
+			"minus-x fix ."
+		]
+	}
+}

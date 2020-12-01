@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"ldapprovider-desc": "Stellt eine gemeinsame Infrastruktur zur Verfügung, um eine LDAP-Quelle zu verbinden und Abfragen auszuführen.",
+	"ldapprovider-config-clientregistry": "Ermöglicht die Registrierung benutzerdefinierter Clients",
+	"ldapprovider-config-domainconfigs": "Speichert Konfigurationen pro Domain",
+	"ldapprovider-domain-config-not-found": "Auf die Konfigurationsdatei „$1“ konnte nicht zugegriffen werden!\n\nSetze bitte eine Domainkonfigurationsdatei für die Erweiterung „LDAPProvider“ auf.",
+	"ldapprovider-more-than-one": "Es wurde mehr als ein Benutzer für „$1“ gefunden",
+	"ldapprovider-config-domainconfigprovider": "Gibt den Mechanismus zum Abruf der Domainkonfiguration an",
+	"ldapprovider-config-defaultdomain": "Gibt an, welche Domain für einen Benutzer gewählt werden soll, wenn keine Zuordnung aus der Datenbank verfügbar ist"
+}

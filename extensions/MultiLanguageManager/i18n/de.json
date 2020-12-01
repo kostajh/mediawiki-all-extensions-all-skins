@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"multilanguagemanager": "Verwaltung mehrerer Sprachen",
+	"mlm-desc": "Ermöglicht die Verwaltung mehrerer Sprachen in einem Wiki",
+	"action-language": "Übersetzungen mit der MultiLanguageManager-Oberfläche hinzuzufügen, zu bearbeiten und zu löschen",
+	"mlm-error-title-invalid": "Ungültiger Seitenname",
+	"mlm-error-title-notexists": "Die Seite „$1“ ist nicht vorhanden",
+	"mlm-error-title-istalkpage": "„$1“. Diskussionsseiten können nicht übersetzt werden.",
+	"mlm-error-title-nsnotallowed": "„$1“. Ungültiger Namensraum zur Übersetzung",
+	"mlm-error-title-isalreadytranslation": "Die Seite „$1“ ist bereits eine Übersetzung",
+	"mlm-error-title-isalreadysource": "Die Seite „$1“ ist bereits eine Quelle",
+	"mlm-error-title-isnottranslation": "Die Seite „$1“ ist keine Übersetzung",
+	"mlm-error-lang-invalid": "Ungültige Sprache",
+	"mlm-error-lang-notallowed": "Die Sprache „$1“ wurde nicht zur Übersetzung freigegeben.",
+	"mlm-error-lang-alreadytraslated": "Es gibt bereits eine Übersetzung für die Sprache „$1“",
+	"mlm-input-label-sourcetitle": "Quellseite",
+	"mlm-input-label-translationtitles": "{{PLURAL:$1|Übersetzungsseite|Übersetzungsseiten}}",
+	"mlm-input-label-add": "Übersetzung hinzufügen",
+	"mlm-input-label-save": "Speichern",
+	"mlm-input-label-delete": "Alle Übersetzungen löschen",
+	"mlm-input-label-cancel": "Abbrechen",
+	"mlm-contentaction-label": "Übersetzungen verwalten",
+	"right-language": "Übersetzungen mit der MultiLanguageManager-Oberfläche hinzufügen, bearbeiten und löschen",
+	"apihelp-mlm-tasks-summary": "Verwaltet Übersetzungsaufgaben",
+	"apihelp-mlm-tasks-param-task": "Die Aufgabe, die ausgeführt werden soll.",
+	"apihelp-mlm-tasks-param-taskData": "JSON-zeichenfolgekodiertes Objekt mit beliebigen Daten für die Aufgabe",
+	"apihelp-mlm-tasks-param-format": "Das Format des Ergebnisses",
+	"mlm-input-label-sourcetitle-section": "Die Übersetzungen definieren von:",
+	"mlm-input-label-translationtitles-section": "In der folgenden Sprache:"
+}

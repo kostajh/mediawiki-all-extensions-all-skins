@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseph",
+			"Karduelis",
+			"MuratTheTurkish",
+			"Vito Genovese"
+		]
+	},
+	"randomincategory": "Kategorideki rastgele sayfa",
+	"randomincategory-desc": "Kategoride rastgele bir sayfa için [[Special:Randompageincategory|özel sayfa]]",
+	"randomincategory-toolbox": "Rastgele sayfa",
+	"randomincategory-nocategory": "$1 kategorisi mevcut değil veya boş",
+	"randomincategory-label": "Kategori:",
+	"randomincategory-submit": "Git"
+}

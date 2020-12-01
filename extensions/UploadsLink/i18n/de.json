@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Perhelion"
+		]
+	},
+	"uploadslink-desc": "Ergänzt im Menü mit den persönlichen Funktionen des Benutzers und im Werkzeugkasten einen Link zur Liste mit den hochgeladenen Dateien des Benutzers.",
+	"uploadslink-portlet-label": "Dateien",
+	"tooltip-pt-uploads": "Liste der Dateien, die du hochgeladen hast",
+	"uploadslink-toobox-label": "Hochgeladene Dateien {{GENDER:$1|des Benutzers|der Benutzerin}}",
+	"tooltip-tb-uploads": "Eine Liste der hochgeladenen Dateien von {{GENDER:$1|diesem Benutzer|dieser Benutzerin}}"
+}

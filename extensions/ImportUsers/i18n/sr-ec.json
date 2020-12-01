@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01",
+			"Rancher",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић",
+			"Сербијана"
+		]
+	},
+	"importusers": "Увези кориснике",
+	"importusers-uploadfile": "Отпреми датотеку",
+	"importusers-form-caption": "Унесите датотеку:",
+	"importusers-file-structure": "Структура:",
+	"importusers-file-format": "Формат:",
+	"importusers-form-replace-present": "Пиши преко података постојећих корисника",
+	"importusers-form-add-to-group": "Додај кориснике у постојеће групе",
+	"importusers-form-button": "Увоз",
+	"importusers-user-added": "{{GENDER:$1|Корисник „$1“ је додат|Корисница „$1“ је додата}}.",
+	"importusers-user-present-update": "{{GENDER:$1|Корисник|Корисница}} „$1“ већ постоји и {{GENDER:$1|ажуриран|ажурирана}} је.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Корисник|Корисница}} „$1“ већ постоји и није {{GENDER:$1|ажуриран|ажурирана}}.",
+	"importusers-user-invalid-format": "Кориснички подаци у линији #$1 су неисправно форматирани или су празни, па су прескочени.",
+	"importusers-log": "Дневник увоза корисника",
+	"importusers-log-summary": "Опис увоза:",
+	"importusers-log-summary-all": "Укупно {{PLURAL:$1|корисника}}: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Корисника}}}} додано: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Корисника}} ажурирано: $1",
+	"importusers-login-name": "Корисничко име",
+	"importusers-password": "лозинка",
+	"importusers-email": "имејл",
+	"importusers-realname": "право име"
+}

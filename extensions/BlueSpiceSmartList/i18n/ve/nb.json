@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Kingu"
+		]
+	},
+	"bs-smartlist-ve-smartlist-title": "Smartliste",
+	"bs-smartlist-ve-smartlistinspector-count": "Antall",
+	"bs-smartlist-ve-smartlistinspector-ns": "Navnerom",
+	"bs-smartlist-ve-smartlistinspector-cat": "Kategori",
+	"bs-smartlist-ve-smartlistinspector-minor": "Vis mindre",
+	"bs-smartlist-ve-smartlistinspector-catmode": "Kategorimodus",
+	"bs-smartlist-ve-smartlistinspector-period": "Periode",
+	"bs-smartlist-ve-smartlistinspector-new": "Vis kun nye artikler",
+	"bs-smartlist-ve-smartlistinspector-heading": "Overskrift",
+	"bs-smartlist-ve-smartlistinspector-trim": "Beskjær",
+	"bs-smartlist-ve-smartlistinspector-showtext": "Vis tekst",
+	"bs-smartlist-ve-smartlistinspector-trimtext": "Beskjær tekst",
+	"bs-smartlist-ve-smartlistinspector-sort": "Sorter etter",
+	"bs-smartlist-ve-smartlistinspector-order": "Sorteringsrekkefølge",
+	"bs-smartlist-ve-smartlistinspector-showns": "Vis navnerom",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "Nummer med tekst",
+	"bs-smartlist-ve-smartlistinspector-meta": "Meta",
+	"bs-smartlist-ve-smartlistinspector-target": "Mål",
+	"bs-smartlist-ve-smartlistinspector-excludens": "Ekskluder navnerom",
+	"bs-smartlist-ve-period-day-label": "Dag",
+	"bs-smartlist-ve-period-week-label": "Uke",
+	"bs-smartlist-ve-period-month-label": "Måned",
+	"bs-smartlist-ve-sort-time-label": "Tid",
+	"bs-smartlist-ve-sort-title-label": "Tittel",
+	"bs-smartlist-ve-newbies-title": "Nybegynnere",
+	"bs-smartlist-ve-newbiesinspector-count": "Antall",
+	"bs-smartlist-ve-toplist-title": "Toppliste",
+	"bs-smartlist-ve-toplistinspector-count": "Antall",
+	"bs-smartlist-ve-toplistinspector-ns": "Navnerom",
+	"bs-smartlist-ve-toplistinspector-cat": "Kategori",
+	"bs-smartlist-ve-toplistinspector-period": "Periode",
+	"bs-smartlist-ve-toplistinspector-portletperiod": "Portletperiode",
+	"bs-smartlist-ve-mode-recentchanges-label": "Siste endringer",
+	"bs-smartlist-ve-mode-changesofweek-label": "Ukens endringer"
+}

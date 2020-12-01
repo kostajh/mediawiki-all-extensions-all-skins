@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Orf3us",
+			"Tarjeimo"
+		]
+	},
+	"bs-readers-desc": "Oppretter en liste over personer som har lest en side",
+	"prefs-readers": "Lesere",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|Leser}}|Lesere}}",
+	"readers-user": "Sider {{GENDER:$1|lest}} av: $1",
+	"readers": "Lesere av «$1»",
+	"bs-readers-contentactions-label": "Vis lesere",
+	"bs-readers-pagenotexists": "Siden finnes ikke.",
+	"bs-readers-pref-active": "Aktiver lesere",
+	"bs-readers-pref-numofreaders": "Antall lesere som skal vises:",
+	"bs-readers-emptyinput": "Ingen side har blitt angitt.",
+	"bs-readers-header-username": "Brukernavn",
+	"bs-readers-header-readerspath": "Leser",
+	"bs-readers-header-ts": "Dato",
+	"bs-readers-header-page": "Side",
+	"apihelp-bs-readers-data-store-description": "Hent leserinformasjon for en spesifikk side.",
+	"apihelp-bs-readers-data-store-summary": "Hent leserinformasjon for en spesifikk side.",
+	"apihelp-bs-readers-users-store-description": "Hent all leserinformasjon for en spesifikk side.",
+	"apihelp-bs-readers-users-store-summary": "Hent all leserinformasjon for en spesifikk side.",
+	"apihelp-bs-readers-page-readers-store-summary": "Henter alle lesere for alle sider",
+	"apihelp-bs-readers-revision-readers-store-summary": "Henter alle lesere av alle revisjoner av en side",
+	"apihelp-bs-readers-tasks-summary": "Gir felles operasjoner for lesere",
+	"action-viewreaders": "vise leserne av sider",
+	"action-viewrevisionreaders": "vise leserne til enkeltrevisjoner av sider",
+	"bs-readers-flyout-title": "Lesere av denne siden",
+	"right-viewreaders": "Se en sides lesere",
+	"right-viewrevisionreaders": "Vise leserne til enkeltrevisjoner av sider",
+	"bs-readers-privacy-transparency-working-readers": "BlueSpiceReaders – {{GENDER:$3|Du}} leste siden $1 $2",
+	"bs-readers-flyout-header-read-by": "Lest av",
+	"bs-readers-flyout-header-revision-id": "Revisjons-ID",
+	"bs-readers-flyout-header-revision-date": "Revisjonsdato",
+	"bs-readers-flyout-header-read-on": "Lest",
+	"bs-readers-revision-flyout-title": "Lesere etter revisjon",
+	"revisionreaders": "Lesere etter revisjon av «$1»"
+}

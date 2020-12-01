@@ -1,0 +1,90 @@
+== SWB- 2017_08_02 ==
+* removed I18n php shim
+* provided COPYING file and license information
+
+== SWB- 2016_01_03 ==
+* Replace wfMsg* calls
+
+== SWB- 2014_04_03 ==
+* Fix global name to $wgMessagesDirs
+
+== SWB- 2014_04_01 ==
+* Migrate to JSON i18n
+
+== SWB- 2013_12_16 ==
+* bug fixed: mapping from predicate to Property-page works properly now
+
+== SWB- 2013_11_11 ==
+* bug fixed: Wiki Namespace of a resource (e.g. Category) is displayed correctly if used as equivalent URI
+* blacklisted URIs are shown as strings without being linked to a page in the Wiki
+* outgoing properties are checked if they are blacklisted and replaced if applicable
+* bux fixed: URIs containing an underscore can be browsed
+
+== SWB- 2013_11_07 ==
+* error message is more precise
+
+== SWB- 2013_10_21 ==
+* new method loadGraphAndGetHtml ($uri_array, $leftside) to improve code readability
+* try-catch inserted for loading the graph for robust use
+* robust use for URIs which shall be browsed containing special characters. Therefore inserted following code: count( $this->subject->getErrors())==0)
+
+== SWB- 2013_10_15 ==
+* Upgrade to EasyRDF 0.7.2
+* Bug fixed: funtion getInternalMapping working properly again
+
+== SWB- 2013_10_07 ==
+* wfMsg (deprecated) replaced by wfMessage
+* Changed the name of the special page from "BrowseWiki" to "BrowseSW"
+* Bug fixed: special page is shown in the list of all special pages again
+
+== SWB - migrated to Git 2013-02-04 ==
+* URI: https://gerrit.wikimedia.org/r/p/mediawiki/extensions/SemanticWebBrowser.git
+
+== SWB - commit 2012-03-27 ==
+// Info: In front of host, we had // before, but those seem not needed, any more.
+//(!isset( $info['host'])    ) ? $host     = "" : $host     = "//".$info['host'];
+
+== SWB - commit 2011-09-19 - 08:36 ==
+* Changelog added
+* Release-notes added
+
+== SWB- 2011_01_12 ==
+*hide incoming properties and show incoming properties work after correction in method "linkHere"
+there is a mistake in SMW in special page " Browse Wiki" in hide properties
+*replace all tab to space
+*messages declaration is in 'qqq'
+
+== SWB- 2011_11_20 ==
+*incoming properties can be rename, if there is a page in wiki
+*if page exist show blue link otherwise red
+*incoming links also
+
+== SWB- 2011_11_16 ==
+*Title is shown with "_" without blanc
+
+==SWB-  2011_11_14 ==
+*incoming link has blanc instead of "_", for get the right page name add "_" instead of blanc , 
+look for this in SMWDIWikiPage
+*check the title of the page: page shown not right, but dbkey is right
+
+==SWB- 2011_11_13 ==
+* "get incoming links"  works
+* check why no eye isn't shown, find the mistake 
+
+==SWB- 2011_10_20 ==
+1. Check for EURI if page exist, show the name of the page
+2. Page show now outgoing and incoming Links 
+3. programm clear of echo-print   
+
+== SWB - for commit 2011-10-13 ==
+"Browse Wiki & Semantic Web" works in toolbox as "Browse Properties"
+
+== SWB - commit 2011-10-05 ==
+*copy the SWB_Setup into SemanticWebBrowser.php
+*Some Bugs are fixed
+*Modified some methods in SWB_SpecialBrowseWiki.php
+*Clear the structure of SemanticWebBrowser
+
+== SWB - commit before 2011-09-19 ==
+* Basis functionality of browsing implemented based on browse wiki
+*property of wikipage for search SWB is shown 

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"bs-saferedit-desc": "Gravación intermedia dos cambios da wiki",
+	"bs-saferedit-user-editing": "$1 está {{GENDER:$1|editando}} a páxina",
+	"bs-saferedit-someone-editing": "A páxina está a ser editada",
+	"bs-saferedit-pref-interval": "Intervalo da versión de recuperación:",
+	"bs-saferedit-pref-shownameofeditinguser": "Amosar o nome do editor actual"
+}

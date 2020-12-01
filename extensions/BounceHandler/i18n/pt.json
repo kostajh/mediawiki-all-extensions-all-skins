@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"bouncehandler-desc": "Ajuda no tratamento de devoluções de correio eletrónico, para o MediaWiki",
+	"bouncehandler-notify_subject": "Devolução temporária repetida",
+	"notification-bouncehandler": "{{GENDER:$1|O seu}} endereço de correio eletrónico registado já não é válido.",
+	"notification-bouncehandler-flyout": "{{GENDER:$2|O seu}} endereço de correio eletrónico registado $1 foi cancelado devido a falha contínua na entrega de mensagens. Pode [[Special:ConfirmEmail|verificar {{GENDER:$2|o seu}} endereço novamente]].",
+	"notification-link-text-change-email": "Alterar o seu endereço de correio eletrónico",
+	"notification-header-unsubscribe-bouncehandler": "{{GENDER:$4|O seu}} endereço de correio eletrónico registado $3 foi cancelado devido a falha contínua na entrega de mensagens. Pode verificar {{GENDER:$4|o seu}} endereço novamente."
+}

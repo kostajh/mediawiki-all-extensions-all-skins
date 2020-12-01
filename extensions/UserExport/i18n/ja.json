@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume"
+		]
+	},
+	"userexport-desc": "利用者のデータを CSV ファイルへエクスポートする",
+	"userexport": "利用者データをエクスポート",
+	"userexport-submit": "エクスポート",
+	"userexport-badtoken": "編集トークンが無効です",
+	"userexport-description": "このページでは、このウィキのすべての登録利用者データ (利用者名とメールアドレス) を CSV ファイルにエクスポートすることができます。",
+	"right-userexport": "利用者データの一括エクスポート",
+	"action-userexport": "このウィキからの利用者データのエクスポート"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"securehtml": "HTML seguru",
+	"securehtml-desc": "Permite incluir HTML arbitrariu d'una manera autorizada y segura",
+	"securehtml-nokeys": "Error: <code>$wgSecureHTMLSecrets</code> nun ta configurada.",
+	"securehtml-hashrequired": "Error: Hash riquíu.",
+	"securehtml-invalidhash": "Error: hash inválidu.",
+	"securehtml-input-title": "Entrada HTML",
+	"securehtml-generatedoutput-title": "Salida xenerada",
+	"securehtml-renderedhhtml-title": "HTML presentáu",
+	"securehtml-form-keyname": "Nome de la clave (opcional)",
+	"securehtml-form-keysecret": "Secretu de clave",
+	"securehtml-form-html": "HTML en bruto",
+	"securehtml-form-submit": "Unviar",
+	"securehtml-inputinstructions": "Escriba un nome de clave (opcional), un secretu de clave, ya'l HTML en bruto deseáu.\nSi nun se da un nome de clave, asumirá la primera de <code>$wgSecureHTMLSecrets</code>.",
+	"securehtml-outputinstructions": "Copie'l códigu d'arriba EXACTAMENTE y apéguelu nel editor wiki.\nSi¡l códigu xeneráu nun funciona, intente quitar tolos saltos de llinia de la entrada HTML y rexenérelu."
+}

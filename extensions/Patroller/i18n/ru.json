@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ferrer",
+			"Illusion",
+			"Александр Сигачёв"
+		]
+	},
+	"patrol": "Патрулирование",
+	"patrol-desc": "Усовершенствованный интерфейс патрулирования с распределением рабочей нагрузки",
+	"patrol-endorse": "Подтвердить",
+	"patrol-revert": "Откатить",
+	"patrol-revert-reason": "Причина:",
+	"patrol-skip": "Отложить",
+	"patrol-reverting": "Откат: $1",
+	"patrol-nonefound": "Невозможно найти соответствующих правок для патрулирования.",
+	"patrol-endorsed-ok": "Правка подтверждена.",
+	"patrol-endorsed-failed": "Не удалось подтвердить правку.",
+	"patrol-reverted-ok": "Правка откачена.",
+	"patrol-reverted-failed": "Не удалось откатить правку.",
+	"patrol-skipped-ok": "Правка отложена.",
+	"patrol-reasons": "* Просто вандализм\n* Тест новичка\n* См. страницу обсуждения",
+	"patrol-another": "Вывести ещё одну правку, если имеется.",
+	"patrol-stopped": "Вы решили не патрулировать другую правку. $1",
+	"patrol-resume": "Нажмите здесь для продолжения.",
+	"group-patroller": "Патрулирующие",
+	"group-patroller-member": "{{GENDER:$1|патрулирующий|патрулирующая}}",
+	"grouppage-patroller": "{{ns:project}}:Патрулирование",
+	"right-patroller": "Патрулирование страниц"
+}

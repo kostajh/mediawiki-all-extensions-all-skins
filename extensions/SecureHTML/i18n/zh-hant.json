@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"securehtml": "安全的 HTML",
+	"securehtml-desc": "讓您以授權及安全的方式來包含任意 HTML 內容",
+	"securehtml-nokeys": "錯誤：<code>$wgSecureHTMLSecrets</code>不能填充。",
+	"securehtml-hashrequired": "錯誤：需要雜湊值。",
+	"securehtml-invalidhash": "錯誤：無效雜湊值。",
+	"securehtml-input-title": "HTML鍵入",
+	"securehtml-generatedoutput-title": "已生成輸出",
+	"securehtml-renderedhhtml-title": "呈現的 HTML",
+	"securehtml-form-keyname": "密鑰名（可選）",
+	"securehtml-form-keysecret": "密鑰安全內容",
+	"securehtml-form-html": "原始 HTML",
+	"securehtml-form-submit": "送出",
+	"securehtml-inputinstructions": "輸入密鑰名稱（選用）、密鑰安全內容，以及所需的原始 HTML。\n如果未指定密鑰名稱，會採用在 <code>$wgSecureHTMLSecrets</code> 的優先密鑰。",
+	"securehtml-outputinstructions": "請精準地複製上方的代碼來貼到 wiki 編輯器裡。\n如果所產生的代碼無法運作，請嘗試移除所輸入的 HTML 裡所有換行符號並再重新產生。"
+}

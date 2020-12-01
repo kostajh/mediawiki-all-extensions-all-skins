@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"logentry-revisioncommentsupplement-create": "$1 {{GENDER:$2|kreis}} suplementala komento, $6 ye la revizo $4",
+	"logentry-revisioncommentsupplement-delete": "$1 {{GENDER:$2|efacis}} suplementala komento, $5 ye la revizo $4",
+	"logentry-revisioncommentsupplement-modify": "$1 {{GENDER:$2|modifikis}} suplementala komento de $5 a $6 ye la revizo $4",
+	"revcs-list-rcs-rev-id-edit": "Redaktar",
+	"revcs-list-sort": "Ordinar segun:",
+	"revcs-log-nosupplement": "(nulo)"
+}

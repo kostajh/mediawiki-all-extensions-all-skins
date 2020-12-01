@@ -1,0 +1,434 @@
+@import 'mediawiki.mixins';
+
+#eucc-form-container {
+	.eeuc-process-layout {
+		width: 100%;
+
+		.eucc-selection-layout {
+			margin-bottom: 25px;
+
+			.oo-ui-fieldLayout {
+				width: 260px;
+				margin-right: 1.5em;
+				margin-top: 25px;
+
+				.oo-ui-fieldLayout-header label {
+					font-weight: bold;
+				}
+
+				.oo-ui-dropdownWidget {
+					width: 100%;
+					background-color: #fff;
+
+					.oo-ui-dropdownWidget-handle {
+						background-color: #fff;
+					}
+				}
+			}
+		}
+
+		.eucc-content-layout {
+			.oo-ui-fieldLayout-body {
+				.oo-ui-fieldLayout-header label {
+					font-weight: bold;
+				}
+			}
+
+			.eucc-contact-widget {
+				.eucc-contact-top-alternatives {
+					margin: 20px;
+					margin-bottom: 10px;
+
+					span.oo-ui-buttonWidget {
+						margin: 0;
+						padding-bottom: 2px;
+
+						a {
+							padding: 0;
+							vertical-align: top;
+						}
+					}
+				}
+
+				.eucc-contact-text-container-outer {
+					background-color: #fff;
+					overflow: auto;
+					margin-bottom: 20px;
+				}
+
+				.eucc-contact-text-container {
+					margin: 20px;
+					outline: 0;
+					line-height: 1.6em;
+
+					p:first-child {
+						margin-bottom: 30px;
+					}
+
+					p:last-of-type {
+						margin-top: 30px;
+					}
+
+					.oo-ui-textInputWidget {
+						width: 150px;
+						display: inline-block;
+						margin-left: 5px;
+
+						input,
+						textarea {
+							height: 20px;
+							border: 0;
+							padding: 0;
+							border-bottom: 2px solid #bfbfbf;
+
+							&:focus {
+								outline: 0;
+								-webkit-box-shadow: none;
+								box-shadow: none;
+							}
+						}
+
+						.oo-ui-indicator-required {
+							display: none;
+						}
+
+						&.oo-ui-textInputWidget-type-email {
+							width: 230px;
+							margin-left: 0;
+						}
+
+						&:first-of-type {
+							margin-right: 10px;
+						}
+
+						&.oo-ui-flaggedElement-invalid {
+							input {
+								border-bottom: 2px solid #f00;
+							}
+						}
+					}
+
+					.oo-ui-checkboxInputWidget {
+						vertical-align: top;
+					}
+
+					.eucc-multiline-text-input {
+						width: 100%;
+						margin: 0;
+
+						textarea {
+							height: 60px;
+						}
+					}
+
+					.eucc-checkbox-multioption-text-widget {
+						border-top: 1px solid #bfbfbf;
+						padding-top: 10px;
+						padding-bottom: 10px;
+
+						.oo-ui-checkboxInputWidget {
+							span.oo-ui-checkboxInputWidget-checkIcon {
+								margin-top: 3px;
+							}
+						}
+
+						.oo-ui-labelElement-label {
+							padding-left: 20px;
+							display: block;
+							font-weight: bold;
+						}
+
+						.eucc-checkbox-multioption-text-widget-text {
+							padding-left: 20px;
+							display: block;
+							font-size: 0.8em;
+						}
+					}
+
+					.eucc-email-newsletter-container {
+						font-size: 0.9em;
+						margin-top: 25px;
+
+						label {
+							display: inline;
+						}
+
+						a {
+							margin-right: 3px;
+						}
+					}
+				}
+
+				.oo-ui-buttonElement-frameless {
+					&:focus {
+						box-shadow: none;
+						border: 0;
+						-webkit-box-shadow: none;
+					}
+				}
+
+				.oo-ui-horizontalLayout {
+					.oo-ui-buttonElement-frameless {
+						&:before {
+							content: '\02022';
+							vertical-align: middle;
+							margin-right: 10px;
+							margin-left: 10px;
+							color: #5f5f5f;
+						}
+					}
+				}
+			}
+		}
+
+		.eucc-call-layout {
+			margin-top: 25px;
+
+			.oo-ui-fieldLayout-body {
+				.oo-ui-fieldLayout-header label {
+					font-weight: bold;
+				}
+			}
+		}
+
+		.eucc-thank-you-layout {
+			background-color: #fff;
+			overflow: auto;
+
+			.eucc-thank-you-icon {
+				margin: 40px 0 20px 20px;
+				display: inline-block;
+				vertical-align: top;
+				width: 50px;
+				text-align: right;
+
+				.oo-ui-icon-eucc-check {
+					/* @embed */
+					background-image: url( images/checkmark-done.svg );
+					width: 50px;
+					height: 35px;
+				}
+			}
+
+			.eucc-thank-you-content {
+				display: inline-block;
+				vertical-align: top;
+				margin: 40px 20px 40px 20px;
+				max-width: 550px;
+
+				.eucc-thank-you-header {
+					display: block;
+					font-size: 1.2em;
+					font-weight: bold;
+					color: #00af89;
+					margin-bottom: 5px;
+				}
+
+				.eucc-thank-you-text {
+					display: block;
+					font-size: 0.8em;
+					text-align: justify;
+				}
+
+				.eucc-thank-you-tweet-container {
+					margin-top: 40px;
+
+					.oo-ui-labelWidget {
+						display: block;
+						font-weight: bold;
+						font-size: 1.2em;
+					}
+
+					.eucc-share-tweet-text {
+						width: 250px;
+						font-size: 0.8em;
+						border: 2px solid #bfbfbf;
+						word-wrap: normal;
+						height: auto;
+						display: block;
+						padding: 10px;
+						margin-top: 10px;
+						margin-bottom: 10px;
+						line-height: 1.4em;
+
+						a {
+							display: inline-block;
+
+							&.policy-link:before {
+								content: '\01F449';
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.label-first-name,
+.label-last-name,
+.label-email {
+	.mixin-screen-reader-text();
+}
+
+// Country picker
+.eucc-country-picker-widget.oo-ui-iconElement .oo-ui-iconElement-icon {
+	background-size: auto;
+	min-width: 23px; // Flags are 23 x 14px
+}
+
+// Dialogs
+.eucc-mail-dialog {
+	.oo-ui-processDialog-actions-other {
+		.oo-ui-buttonElement-frameless {
+			&:focus {
+				-webkit-box-shadow: none;
+				box-shadow: none;
+				border: 0;
+			}
+		}
+	}
+
+	.oo-ui-window-body {
+		overflow: hidden;
+		bottom: 50px;
+	}
+
+	.oo-ui-window-foot {
+		height: 50px;
+	}
+
+	.oo-ui-panelLayout {
+		padding-bottom: 10px;
+		overflow: none;
+
+		.eucc-mail-dialog-top-label {
+			font-weight: bold;
+			display: block;
+		}
+
+		.eucc-mail-dialog-rep-info {
+			margin-bottom: 10px;
+
+			span {
+				color: #215db7;
+				font-weight: bold;
+			}
+		}
+
+		.oo-ui-textInputWidget {
+			margin-bottom: 30px;
+		}
+
+		textarea[ readonly ] {
+			resize: none;
+			background-color: #fff;
+		}
+
+		.eucc-copy-to-clipboard-status {
+			margin-bottom: 10px;
+			font-size: 0.8em;
+			color: #808080;
+		}
+	}
+}
+
+.eucc-call-dialog {
+	.oo-ui-window-body {
+		overflow: auto;
+	}
+
+	.oo-ui-panelLayout {
+		margin: 20px;
+	}
+
+	.eucc-call-dialog-contact-info {
+		display: inline-block;
+		margin-bottom: 20px;
+		width: 240px;
+		vertical-align: top;
+		margin-right: 10px;
+
+		label {
+			font-size: 0.9em;
+			margin-top: 20px;
+			display: block;
+
+			&.eucc-call-dialog-contact-info-name {
+				font-size: 1em;
+				font-weight: bold;
+				margin-top: 0;
+				margin-bottom: 10px;
+			}
+		}
+
+		.eucc-call-dialog-phone-pill {
+			padding: 10px;
+			background-color: #eaf3ff;
+			width: auto;
+			height: 25px;
+			margin-top: 5px;
+			border-radius: 30px;
+			display: inline-block;
+
+			span.oo-ui-iconWidget.oo-ui-icon-call {
+				/* @embed */
+				background-image: url( images/call.svg );
+				margin-left: 10px;
+			}
+
+			label {
+				margin-top: 0;
+				margin-right: 15px;
+				color: #36c;
+				font-weight: bold;
+				display: inline-block;
+
+				a:visited {
+					color: #36c;
+				}
+			}
+		}
+	}
+
+	.eucc-call-dialog-call-script {
+		display: inline-block;
+		max-width: 570px;
+		margin-bottom: 30px;
+		padding-left: 20px;
+		border-left: 1px solid #c8c8c8;
+		vertical-align: top;
+
+		label {
+			font-weight: bold;
+		}
+	}
+}
+
+.eucc-twitter-dialog {
+	.oo-ui-window-body {
+		overflow: hidden;
+	}
+
+	textarea {
+		resize: none;
+		margin-bottom: 15px;
+	}
+
+	.oo-ui-buttonWidget {
+		margin-bottom: 25px;
+	}
+}
+
+#eucc-call-script {
+	display: none;
+
+	ol {
+		margin: 0.3em 0 0 1.2em;
+
+		ul {
+			list-style-type: disc;
+			margin-left: 17px;
+		}
+	}
+}

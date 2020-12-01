@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"bs-social-notifications-email-entity-create-body": "Användaren {{GENDER:$1|$2 har skapat}} en ny \"$3\"",
+	"bs-social-notifications-email-entity-create-text-body": "Användaren {{GENDER:$1|$2 har skapat}} en ny \"$3\" med följande text:\n$4",
+	"bs-social-notifications-web-entity-create-body": "Användaren {{GENDER:$1|$2 har skapat}} en ny \"$3\""
+}

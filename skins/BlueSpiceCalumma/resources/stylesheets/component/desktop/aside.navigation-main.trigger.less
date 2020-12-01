@@ -1,0 +1,41 @@
+body .navigation-main {
+	.sidebar-toggle[data-toggle~="navigation-main-collapse"]{
+		display: block;
+		position: fixed;
+		width: 48px;
+		padding: 1em;
+		left: @navigation-main-width;
+		top: @theme-header-height;
+		transition: left .3s;
+		z-index: 12;
+		i.navigation-main-collapse::before{
+			font-family: 'bs-button';
+			content: "\e902";
+			font-style: normal;
+			font-size: 21px;
+			line-height: 33px;
+			transition: font-size .1s;
+			transition-delay: .3s;
+			float: left;
+		}
+		&:hover{
+			text-decoration: none;
+			background-color: transparent;
+		}
+		&:focus{
+			text-decoration: none;
+		}
+	}
+}
+
+body.navigation-main-collapse {
+	.sidebar-toggle[data-toggle~="navigation-main-collapse"]{
+		left: 0;
+		transition: left .3s;
+		i.navigation-main-collapse::before{
+			font-size: 32px;
+			transition: font-size .1s;
+			transition-delay: .3s;
+		}
+	}
+}

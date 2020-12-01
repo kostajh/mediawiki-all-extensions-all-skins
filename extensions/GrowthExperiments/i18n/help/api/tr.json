@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"ToprakM"
+		]
+	},
+	"apihelp-helppanelquestionposter-summary": "Geçerli kullanıcı için yardım panelinden gönderilen soruları ele alın.",
+	"apihelp-helppanelquestionposter-param-body": "Kullanıcı tarafından gönderilen soru metni.",
+	"apihelp-helppanelquestionposter-param-source": "Sorunun gönderilme yöntemi.",
+	"apihelp-helppanelquestionposter-paramvalue-source-helpdesk": "\"Danışma masasına sorun\" paneli",
+	"apihelp-helppanelquestionposter-paramvalue-source-mentor-homepage": "Yeni gelen ana sayfada \"Danışmanınıza sorun\" paneli",
+	"apihelp-helppanelquestionposter-paramvalue-source-mentor-helppanel": "Yardım panelindeki \"Danışmanınıza\" ekranı",
+	"apihelp-helppanelquestionposter-paramvalue-source-helppanel": "\"Danışma masasına sorun\" paneli (eski ad)",
+	"apihelp-helppanelquestionposter-paramvalue-source-homepage-mentorship": "Yeni gelen ana sayfadaki \"Danışmanınıza\" paneli (eski ad)",
+	"apihelp-helppanelquestionposter-param-relevanttitle": "Seçiliyse, soruya dahil etmek için ilgili başlık.",
+	"apierror-mustbeloggedin-helppanelquestionposter": "Soru sormak için giriş yapmalısınız."
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"testlanguagenamegrammar": "Тестові граматичні форми з назвами мов",
+	"testlanguagenamegrammar-desc": "Додає [[Special:TestLanguageNameGrammar|спеціальну сторінку]] для тестування граматичних форм з назвами мов.",
+	"testlanguagenamegrammar-language": "Мова",
+	"testlanguagenamegrammar-grammarform": "Граматична форма",
+	"testlanguagenamegrammar-submit": "Надіслати"
+}

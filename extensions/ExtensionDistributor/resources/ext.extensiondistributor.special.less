@@ -1,0 +1,34 @@
+/* make it look the same width as the input fields */
+.mw-extdist-continue {
+	max-width: 50em;
+}
+
+/* use display: table to create two columns */
+.mw-extdist-container {
+	width: 100%;
+	display: table;
+}
+
+.mw-extdist-form {
+	width: 60%;
+	display: table-cell;
+}
+
+.mw-extdist-popular {
+	width: 40%;
+	display: table-cell;
+}
+
+.mw-extdist-download {
+	display: inline-block;
+	font-size: 150%;
+	padding: 10px 0 10px 50px;
+	background-image: url( download.svg );
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+/* hide submit button for JS users */
+.client-js .mw-extdist-ext-submit {
+	display: none;
+}

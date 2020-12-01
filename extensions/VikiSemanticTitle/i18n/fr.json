@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"vikisemantictitle-desc": "Module VIKI pour gérer les pages du wiki en utilisant l’extension Titre Sémantique.",
+	"vikisemantictitle-error-displaytitle-fetch": "Erreur d'accès aux données concernant le titre à afficher pour le nœud: $1."
+}

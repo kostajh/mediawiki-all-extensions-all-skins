@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"pluggablesso-desc": "Koristi SSO koji pruža veb-server u $REMOTE_USER zajedno s PluggableAuth",
+	"pluggablesso-no-session": "Nisam dobio korisničko ime. Sesija nekako nije uspjela.",
+	"pluggablesso-username-mismatch": "Korisničko ime ne odgovara sesiji"
+}

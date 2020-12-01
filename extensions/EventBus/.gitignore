@@ -1,0 +1,11 @@
+.svn
+*~
+*.kate-swp
+.*.swp
+/composer.lock
+/node_modules/
+/vendor/
+.idea/
+.vscode/
+.eslintcache
+.api-testing.config.json

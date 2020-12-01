@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Verdy p"
+		]
+	},
+	"bs-socialarticleactions-desc": "Ajoute les entrées d’action de base de l’article à ''BlueSpiceSocial''",
+	"bs-socialarticleactions-type-articlesave": "Modification de l’article",
+	"bs-socialarticleactions-type-articlecreate": "Création de l’article",
+	"bs-socialarticleactions-type-articledelete": "Suppression de l’article",
+	"bs-socialarticleactions-type-filesave": "Modification de fichier",
+	"bs-socialarticleactions-type-filecreate": "Création de fichier",
+	"bs-socialarticleactions-type-filedelete": "Suppression de fichier",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] a modifié l’article [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] a créé l’article [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] a supprimé l’article [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] a ajouté une nouvelle version du fichier [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] a téléchargé le fichier [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] a supprimé le fichier [[:$6|$6]]"
+}

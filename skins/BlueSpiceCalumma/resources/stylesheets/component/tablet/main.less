@@ -1,0 +1,71 @@
+body.mediawiki,
+body.mediawiki.x-body {
+	&:not( .navigation-main-collapse ):not( .sitetools-main-collapse ) {
+		.west-col,
+		.east-col {
+			min-width: 380px;
+		}
+		.center-col {
+			width: @theme-content-width;
+			max-width: calc(~"100vw - 760px");
+		}
+	}
+
+	/* collapsing elements */
+	&.navigation-main-collapse.sitetools-main-collapse {
+		.west-col,
+		.east-col {
+			min-width: 0;
+		}
+		.center-col {
+			width: @theme-content-width;
+			max-width: 100vw;
+		}
+	}
+
+	&:not( .navigation-main-collapse ).sitetools-main-collapse {
+		.west-col {
+			min-width: 380px;
+		}
+		.east-col {
+			min-width: 0;
+		}
+		.center-col {
+			width: @theme-content-width;
+			max-width: calc(~"100vw - 380px");
+		}
+	}
+
+	&:not( .sitetools-main-collapse ).navigation-main-collapse {
+		.west-col {
+			min-width: 0;
+		}
+		.east-col {
+			min-width: 380px;
+		}
+		.center-col {
+			width: @theme-content-width;
+			max-width: calc(~"100vw - 380px");
+		}
+	}
+
+	.wrapper > .main-content.container {
+		padding: 0;
+		padding-top: @theme-header-mobile-height;
+		max-width: 100% !important;
+		& > .row {
+			max-width: 100%;
+			margin-left: 0;
+			margin-right: 0;
+			.center-col {
+				width: @theme-content-width;
+				padding: 0 15px !important;
+			}
+			.west-col,
+			.east-col {
+				width: 0;
+				padding: 0;
+			}
+		}
+	}
+}

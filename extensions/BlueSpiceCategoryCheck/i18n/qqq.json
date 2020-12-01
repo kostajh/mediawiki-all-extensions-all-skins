@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"MuratTheTurkish",
+			"Robert Vogel <vogel@hallowelt.com>"
+		]
+	},
+	"bs-categorycheck-extension-description": "{{desc|name=BlueSpiceCategoryCheck}}",
+	"bs-categorycheck-insertcategory-no-category": "Error message in save dialog when no category was assigned to the current page",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Short label for checkbox that - when checked - ignores any problem with the assigned categories in the save dialog\n{{Identical|Ignore}}",
+	"bs-categorycheck-insertcategory-category-list": "Short header for the list of categories, that are assigned for the current page",
+	"bs-categorycheck-insertcategory-confirm-categories": "Short info text, that indicates, that there is no problem with the assigned categories for the current page.",
+	"bs-categorycheck-nsm-label-categorycheck": "Label for checkbox option to activate the category check functionality for a specific namespace."
+}

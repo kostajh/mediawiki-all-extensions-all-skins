@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cacycle",
+			"Guycn2",
+			"תומר ט"
+		]
+	},
+	"wiked-diff-empty": "(אין הבדלים)",
+	"wiked-diff-same": "אין הבדל בין הגרסאות",
+	"wiked-diff-ins": "נוסף",
+	"wiked-diff-del": "נמחק",
+	"wiked-diff-block-left": "◀ עבר",
+	"wiked-diff-block-right": "הועבר ◄",
+	"wiked-diff-block-left-nounicode": "< הועבר",
+	"wiked-diff-block-right-nounicode": "הועבר >",
+	"wiked-diff-error": "שגיאה: נתוני wikEdDiff לא תואמים לגרסאות המקוריות!"
+}

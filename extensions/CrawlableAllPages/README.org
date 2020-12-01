@@ -1,0 +1,34 @@
+* CrawlableAllPages
+
+This extension overrides =Special:AllPages= by changing the HTML header of the page.  This is a relatively easy way to allow a search engine crawler to index all the pages in your wiki.
+
+The HTML removed is simply:
+#+BEGIN_SRC html
+<meta name="robots" content="noindex,nofollow"/>
+#+END_SRC
+
+** Installation without composer
+
+- [[https://gerrit.wikimedia.org/r/plugins/gitiles/mediawiki/extensions/CrawlableAllPages/+archive/master.tar.gz][Download]] and place the files in a directory called =CrawlableAllPages= in your =extensions/= folder.
+- Add the following code at the bottom of your =LocalSettings.php=:
+#+BEGIN_SRC php
+ wfLoadExtension( 'CrawlableAllPages' );
+#+END_SRC
+- ✓ Done – Navigate to =Special:Version= on your wiki to verify that the extension is successfully installed.
+
+** Installation with composer
+
+- If you do not have a =composer.local.json= file in your MediaWiki installation, create one:
+#+BEGIN_SRC sh
+  echo '{require: { "mediawiki/crawlable-all-pages": "dev-master" }' > composer.local.json
+#+END_SRC
+- If you have [[https://stedolan.github.io/jq/][jq]] and [[https://joeyh.name/code/moreutils/][moreutils]]' [[https://eklitzke.org/sponge][sponge]] installed and an existing =composer.local.json=, you can use the following command to add this extension to your =composer.local.json= file:
+#+BEGIN_SRC sh
+  jq '.require += { "mediawiki/crawlable-all-pages": "dev-master" }' \
+     composer.local.json | sponge composer.local.json
+#+END_SRC
+- Run =composer update=
+#+BEGIN_SRC sh
+  composer update
+#+END_SRC
+- ✓ Done – Navigate to =Special:Version= on your wiki to verify that the extension is successfully installed.

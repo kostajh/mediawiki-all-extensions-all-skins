@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"bs-bookshelf-positive-integer-validation-not-approved": "Alleen positieve gehele getallen zijn toegestaan.",
+	"bs-bookshelf-tagerror-attribute-float-not-valid": "Gebruik <i>left</i> of <i>right</i>.",
+	"bs-bookshelf-specialpage-title": "Boeken",
+	"bs-bookshelf-specialpage-allpages-ns-book-text": "Bibliotheek",
+	"bs-bookshelf-pref-SupressBookNS": "Verberg het naamruimtevoorvoegsel van boekartikelen in de uitvoer",
+	"bs-bookshelf-tag-next": "Volgende",
+	"bs-bookshelf-tag-prev": "Vorige",
+	"bs-bookshelf-tag-edit-book": "Boek bewerken",
+	"bs-bookshelf-personal-books-page-prefix": "$1/Boeken/",
+	"bs-bookshelf-add-to-book-label": "Aan een boek toevoegen",
+	"bs-bookshelf-add-to-book-label-book": "Boek",
+	"bs-bookshelf-add-to-book-added": "De pagina is aan het boek '$1' toegevoegd.",
+	"bs-bookshelf-setting-path-feature": "Boek",
+	"bs-bookshelf-empty-selection": "Niets geselecteerd",
+	"bs-bookshelf-grouping-template-type-ns_book": "Algemene boeken",
+	"bs-bookshelf-grouping-template-type-user_book": "Eigen boeken",
+	"bookshelf": "Boekenplank",
+	"right-bookshelf-viewspecialpage": "De speciale pagina [[Special:Bookshelf]] bekijken",
+	"action-bookshelf-viewspecialpage": "de speciale pagina [[Special:Bookshelf]] te bekijken"
+}

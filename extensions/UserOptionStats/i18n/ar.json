@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"DRIHEM",
+			"Meno25",
+			"OsamaK"
+		]
+	},
+	"useroptionstats": "إحصاءات خيارات المساهمين",
+	"useroptionstats-desc": "[[Special:UserOptionStats|صفحة خاصة]] للإبلاغ عن استخدام خيارات مستخدمي ميدياويكي",
+	"uos-warn": "PHPlot غير مثبّت!",
+	"uos-choose": "اختر واحدة من خيارات المستخدم التالية: $1",
+	"uos-choose-hidden": "اختر واحدة من خيارات المستخدم المخفية التالية: $1",
+	"uos-unknown": "*افتراضي",
+	"uos-other": "*أخرى",
+	"uos-title": "توزيع القيم لخيار المستخدم $1"
+}

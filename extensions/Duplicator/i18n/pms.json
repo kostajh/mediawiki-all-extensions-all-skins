@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bèrto 'd Sèra",
+			"Dragonòt"
+		]
+	},
+	"duplicator": "Dupliché na pàgina",
+	"duplicator-desc": "Crea [[Special:Duplicate|còpie andipendente ëd na pàgina]] con stòria completa dle modìfiche",
+	"duplicator-toolbox": "Dùplica sta pàgina-sì",
+	"duplicator-header": "Sta pàgina-sì a përmëtt la duplicassion completa ëd n'artìcol, ën fasend-ne ëdcò la còpia dla stòria. \nA ven motobin a taj për sdobié na pàgina, e via fòrt.",
+	"duplicator-options": "Opsion",
+	"duplicator-source": "Sorgiss:",
+	"duplicator-dest": "Destinassion:",
+	"duplicator-dotalk": "Dupliché ëdcò la pàgina ëd discussion (s'a-i é)",
+	"duplicator-submit": "Dùplica",
+	"duplicator-summary": "Copià da [[$1]]",
+	"duplicator-success": "La pàgina [[$1]] a l'é staita sdobià con la còpia neuva an [[$2]].",
+	"duplicator-success-revisions": "$1 revision {{PLURAL:$1|a l'é staita|a son ëstaite}} copià.",
+	"duplicator-success-talknotcopied": "La pàgina ëd discussion a l'é pa podusse sdobié.",
+	"duplicator-failed": "Sta pàgina a l'é pa podusse dupliché. A l'é riva-ie n'eror nen identificà.",
+	"duplicator-source-invalid": "Për piasì ch'a-i buta un tìtol bon ant la sorgiss",
+	"duplicator-source-notexist": "[[$1]] a-i é pa. Për piasì, ch'a buta ël tìtol ëd na pàgina ch'a-i sia.",
+	"duplicator-dest-invalid": "Për piasì, ch'a-i buta un tìtol bon ant la destinassion",
+	"duplicator-dest-exists": "[[$1]] a-i é già. Për piasì, ch'a buta un tìtol ch'a-i sia anco' nen.",
+	"right-duplicate": "Sdobia pàgine"
+}

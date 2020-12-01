@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"onlinestatus-desc": "Adde un preferentia pro monstrar si le usator al momento es presente in le wiki o non",
+	"onlinestatus-js-anon": "Error: tu debe aperir un session pro poter usar iste function",
+	"onlinestatus-js-changed": "Tu stato ha essite cambiate a \"$1\"",
+	"onlinestatus-js-error": "Impossibile cambiar de stato, le valor \"$1\" es invalide",
+	"onlinestatus-subtitle-offline": "Iste usator es actualmente foras de linea",
+	"onlinestatus-subtitle-online": "Iste usator es actualmente in linea",
+	"onlinestatus-tab": "Stato",
+	"onlinestatus-toggles-desc": "Tu stato:",
+	"onlinestatus-toggles-explain": "Isto te permitte monstrar a altere usatores si tu es in linea in tu pagina de usator.",
+	"onlinestatus-toggles-show": "Monstrar mi stato de connexion in mi pagina de usator",
+	"onlinestatus-toggle-offline": "Foras de linea",
+	"onlinestatus-toggle-online": "In linea",
+	"onlinestatus-pref-onlineonlogin": "Cambiar mi stato a in linea quando io aperi un session",
+	"onlinestatus-pref-offlineonlogout": "Cambiar mi stato a foras de linea quando io claude mi session"
+}

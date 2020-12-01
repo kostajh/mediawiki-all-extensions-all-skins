@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"bs-socialblog-desc": "Сутність блогів для BlueSpiceSocial",
+	"bs-socialblog-type": "Блог",
+	"blog": "Блог",
+	"bs-socialblog-entityblog-header-create": "Новий блог",
+	"bs-socialblog-var-blogtitle": "Назва",
+	"bs-socialblog-entityblog-content-more-btn-more": "Більше",
+	"bs-socialblog-entityblog-content-more-btn-less": "Менше",
+	"bs-socialblog-toc-useblogteaser": "Тизер-текст користувача для блогових дописів у хронології",
+	"bs-socialblog-special-blog-heading": "Блог",
+	"bs-socialblog-special-blog-heading-entry": "Блог/$1",
+	"bs-social-notifications-blog-create": "{{GENDER:$1|Користувач $2 створив|Користувачка $2 створила}} новий блог «$3»",
+	"bs-social-notifications-email-blog-create-subject": "{{GENDER:$1|Користувач $2 створив|Користувачка $2 створила}} новий блог «$3»",
+	"bs-social-notifications-email-blog-create-body": "{{GENDER:$1|Користувач $2 створив|Користувачка $2 створила}} новий блог «$3» з таким текстом:\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2 створив| $2 створила}} новий блог «$3»",
+	"bs-social-notifications-blog-edit": "{{GENDER:$1|Користувач $2 відредагував|Користувачка $2 відредагувала}} блог «$3»",
+	"bs-social-notifications-email-blog-edit-subject": "{{GENDER:$1|Користувач $2 відредагував|Користувачка $2 відредагувала}} блог «$3»",
+	"bs-social-notifications-email-blog-edit-body": "{{GENDER:$1|Користувач $2 відредагував|Користувачка $2 відредагувала}} блог «$3». Новий текст:\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2 відредагував|$2 відредагувала}} блог «$3»",
+	"bs-social-notifications-blog-delete": "{{GENDER:$1|Користувач $2 вилучив|Користувачка $2 вилучила}} блог «$3»",
+	"bs-social-notifications-email-blog-delete-subject": "{{GENDER:$1|Користувач $2 вилучив|Користувачка $2 вилучила}} блог «$3»",
+	"bs-social-notifications-email-blog-delete-body": "{{GENDER:$1|Користувач $2 вилучив|Користувачка $2 вилучила}} блог «$3»",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 вилучив|$2 вилучила}} блог «$3»",
+	"bs-social-notification-blog-primary-link-label": "Переглянути блог"
+}

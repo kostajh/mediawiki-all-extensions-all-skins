@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mainframe98",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"bs-watchlist-desc": "Voegt een volglijstwidget en -label toe",
+	"bs-watchlist-title-sidebar": "Volglijst",
+	"bs-watchlist-pref-sort-time": "Tijd",
+	"bs-watchlist-pref-sort-title": "Naam",
+	"bs-watchlist-tag-watchlist-desc": "Maakt een lijst van pagina's op uw volglijst met ongecontroleerde wijzigingen.",
+	"bs-watchlist-window-watchlist-title": "Volglijst",
+	"bs-watchlist-grid-watchlist-column-link-header": "Pagina",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Onbezochte wijzigingen",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Wijzigingen inspecteren",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Overlegpagina",
+	"bs-watchlist-grid-watchlist-label-filter": "Filteren"
+}

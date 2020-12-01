@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"phabtaskgraph": "Graf for Phabricator-oppgave",
+	"phabtaskgraph-desc": "Visualiserer Phabricator-oppgaverelasjoner i en graf",
+	"phabtaskgraph-author-field-label": "Forfatter",
+	"phabtaskgraph-owner-field-label": "Eier",
+	"phabtaskgraph-tasks-field-label": "Oppgaver",
+	"phabtaskgraph-projects-field-label": "Prosjekter",
+	"phabtaskgraph-status-field-label": "Status",
+	"phabtaskgraph-width-field-label": "Bredde",
+	"phabtaskgraph-height-field-label": "Høyde",
+	"phabtaskgraph-tasks-field-help": "liste over oppgaver-ID-er atskilt med komma («T»-en i begynnelsen en valgfri); f.eks. «T123456, T654321»",
+	"phabtaskgraph-projects-field-help": "prosjektnavn atskilt av komma; f.eks. «MediaWiki-Platform-Team, Epic»",
+	"phabtaskgraph-width-field-help": "standard: 800",
+	"phabtaskgraph-height-field-help": "standard: 800",
+	"phabtaskgraph-status-open": "Åpen",
+	"phabtaskgraph-status-stalled": "Avventende",
+	"phabtaskgraph-status-resolved": "Løst",
+	"phabtaskgraph-status-invalid": "Ugyldig",
+	"phabtaskgraph-status-declined": "Avvist",
+	"phabtaskgraph-status-duplicate": "Duplikat"
+}

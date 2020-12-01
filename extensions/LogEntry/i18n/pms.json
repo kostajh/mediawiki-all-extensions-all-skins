@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dragonòt"
+		]
+	},
+	"logentry-append": "Gionta",
+	"logentry-parserhook-desc": "Sta estension-sì dël tag a da na forma për gionté a fin/inissi dle pàgine dij registr",
+	"logentry-specialpage-desc": "Sta estension-sì dël tag a da un process për gionté a le pàgine dij registr",
+	"logentry": "LogEntry",
+	"logentry-invalidpage": "Pàgina pa bon-a: $1",
+	"logentry-invalidtoken": "Token pa bon"
+}

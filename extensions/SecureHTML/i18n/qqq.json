@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"securehtml": "{{doc-special|SecureHTML}}",
+	"securehtml-desc": "{{desc|name=Secure HTML|url=https://www.mediawiki.org/wiki/Extension:SecureHTML}}",
+	"securehtml-nokeys": "{{doc-important|Do not translate \"<code>$wgSecureHTMLSecrets</code>\"; is a global variable.}}\nRendered by the shtml tag when the extension is not configured.",
+	"securehtml-hashrequired": "Rendered by the shtml tag when the required option \"hash\" is not provided.",
+	"securehtml-invalidhash": "Rendered by the shtml tag when an invalid hash is calculated.",
+	"securehtml-input-title": "Special:SecureHTML: The title sub-header for the HTML input form section.",
+	"securehtml-generatedoutput-title": "Special:SecureHTML: The title sub-header for the calculated code output of the user input.",
+	"securehtml-renderedhhtml-title": "Special:SecureHTML: The title sub-header for the rendered output of the user input.",
+	"securehtml-form-keyname": "Special:SecureHTML: Input form item title for the hash key name.",
+	"securehtml-form-keysecret": "Special:SecureHTML: Input form item title for the hash key secret.",
+	"securehtml-form-html": "Special:SecureHTML: Input form item title for the HTML input box.",
+	"securehtml-form-submit": "Special:SecureHTML: Input form submit button text.\n{{Identical|Submit}}",
+	"securehtml-inputinstructions": "Special:SecureHTML: Instructions for filling in the input form.  \"wgSecureHTMLSecrets\" is a global variable and should not be translated.",
+	"securehtml-outputinstructions": "Special:SecureHTML: Instructions using the output returned by filling in the input form."
+}

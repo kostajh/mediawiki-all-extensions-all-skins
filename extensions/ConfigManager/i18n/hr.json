@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Neptune, the Mystic"
+		]
+	},
+	"action-configmanager-viewspecialpage": "pogledaj posebnu stranicu „{{int:configmanager}}”",
+	"configmanager-desc": "Administratorima omogućuje konfigurirati cijelu wiki služeći se jednom posebnom stranicom",
+	"configmanager-discardchanges": "Zanemariti izmjene?",
+	"configmanager-noentry": "Nisu pronađeni unosi",
+	"right-configmanager-viewspecialpage": "Pristup posebnoj stranici [[Special:ConfigManager]]"
+}

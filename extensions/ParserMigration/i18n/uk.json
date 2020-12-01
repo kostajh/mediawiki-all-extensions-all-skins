@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Base",
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"parsermigration-desc": "Інструмент міграції парсеру",
+	"parsermigration-edit-subtitle": "за допомогою інструменту міграції парсеру",
+	"parsermigration-current": "Старий",
+	"parsermigration-new": "Новий",
+	"parsermigration-pref-label": "Увімкнути інструмент міграції парсеру",
+	"parsermigration-pref-help": "Це додає посилання на бічну панель, яке дає доступ до [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration інструменту] для міграції тексту сторінки до нових версій парсера MediaWiki.",
+	"parsermigration-toolbox-label": "Редагувати за допомогою інструменту міграції"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Base"
+		]
+	},
+	"listings-desc": "Додати теґи для переліку місць",
+	"listings-unknown": "Невідоме місце",
+	"listings-phone": "телефон",
+	"listings-fax": "факс",
+	"listings-email": "електронна пошта",
+	"listings-tollfree": "безкоштовно",
+	"listings-checkin": "Заїзд: $1",
+	"listings-checkout": "виїзд: $1",
+	"listings-position": "розташування: $1"
+}

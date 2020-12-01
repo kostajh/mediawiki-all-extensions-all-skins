@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benfutbol10",
+			"Fitoschido"
+		]
+	},
+	"helppages-desc": "Obtiene automáticamente páginas de ayuda desde [https://www.mediawiki.org mediawiki.org]",
+	"helppages-notice": "La página se descargó de [https://www.mediawiki.org/?oldid=$1 mediawiki.org] y puede modificarse aquí.",
+	"helppages-edit-tab": "Editar en MediaWiki.org"
+}

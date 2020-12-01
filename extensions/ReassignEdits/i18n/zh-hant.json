@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
+			"Simon Shek"
+		]
+	},
+	"reassignedits": "重新分配使用者編輯內容",
+	"reassignedits-desc": "允許從舊有使用者至新的使用者，來重新分配使用者編輯內容",
+	"reassignedits-error-invalid": "使用者名稱 \"$1\" 無效。",
+	"reassignedits-new": "新使用者名稱",
+	"reassignedits-old": "舊使用者名稱",
+	"reassignedits-submit": "送出",
+	"reassignedits-success": "\"$1\" 做出的編輯內容已重新指定為 \"$2\"。",
+	"reassignedits-summary": "從舊有使用者至新的使用者來重新分配編輯內容。",
+	"reassignedits-updatelog-title": "在日誌標題來更新使用者名稱",
+	"reassignedits-updatelog-user": "在日誌來更新執行的使用者",
+	"action-reassignedits": "從舊有使用者至新的使用者來重新分配編輯內容",
+	"right-reassignedits": "從舊有使用者至新的使用者來重新分配編輯內容"
+}

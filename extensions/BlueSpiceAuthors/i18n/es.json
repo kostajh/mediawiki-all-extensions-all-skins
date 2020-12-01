@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carlosmg.dg",
+			"Fitoschido",
+			"Macofe",
+			"Mcervera"
+		]
+	},
+	"bs-authors-desc": "Muestra las imágenes de perfil de los autores de una página",
+	"prefs-authors": "Autores de esta página",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Autor|Autora}}|Autores}}",
+	"bs-authors-profileimage": "Imagen de perfil",
+	"bs-authors-profileimage-change": "Cambiar imagen de perfil",
+	"bs-authors-show-all-authors": "Más autores disponibles",
+	"bs-authors-pref-show": "Mostrar autores",
+	"bs-authors-switch-description": "Oculta los autores de esta página.",
+	"bs-authors-navigation-link-title": "Autores de esta página",
+	"bs-authors-navigation-link-text": "Autores",
+	"bs-authors-flyout-title": "Autores de esta página",
+	"bs-authors-author-type-originator": "Autor original",
+	"bs-authors-author-type-editor": "Editor"
+}

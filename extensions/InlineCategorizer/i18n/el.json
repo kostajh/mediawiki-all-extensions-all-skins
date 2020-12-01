@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Kiolalis",
+			"Nikosgranturismogt",
+			"Omnipaedista",
+			"ZaDiak"
+		]
+	},
+	"inlinecategorizer-desc": "Δομοστοιχείο JavaScript που επιτρέπει την άμεση αλλαγή, προσθήκη και αφαίρεση συνδέσμων κατηγορίας από μια σελίδα",
+	"inlinecategorizer-add-category": "Προσθήκη κατηγορίας",
+	"inlinecategorizer-add-category-submit": "Προσθήκη",
+	"inlinecategorizer-add-category-summary": "Προσθήκη κατηγορίας \"$1\"",
+	"inlinecategorizer-api-error": "Το API επέστρεψε ένα σφάλμα:  $1: $2.",
+	"inlinecategorizer-api-unknown-error": "Το API επέστρεψε ένα άγνωστο σφάλμα.",
+	"inlinecategorizer-cancel": "Ακύρωση επεξεργασίας",
+	"inlinecategorizer-cancel-all": "Ακύρωση όλων των αλλαγών",
+	"inlinecategorizer-category-already-present": "Η σελίδα αυτή ανήκει ήδη στην κατηγορία \"$1\"",
+	"inlinecategorizer-category-hook-error": "Μια τοπική λειτουργία απέτρεψε την αποθήκευση των αλλαγών.",
+	"inlinecategorizer-category-question": "Γιατί θέλετε να κάνετε τις ακόλουθες αλλαγές:",
+	"inlinecategorizer-confirm-ok": "Εντάξει",
+	"inlinecategorizer-confirm-save": "Αποθήκευση",
+	"inlinecategorizer-confirm-save-all": "Αποθήκευση όλων των αλλαγών",
+	"inlinecategorizer-confirm-title": "Επιβεβαίωση ενέργειας",
+	"inlinecategorizer-edit-category": "Επεξεργασία κατηγορίας",
+	"inlinecategorizer-edit-category-error": "Δεν ήταν δυνατή η επεξεργασία της κατηγορίας \"$1\".\nΑυτό συμβαίνει συνήθως όταν η κατηγορία έχει προστεθεί στη σελίδα σε ένα πρότυπο.",
+	"inlinecategorizer-edit-category-summary": "Αλλαγή κατηγορίας από \"$1\" σε \"$2\"",
+	"inlinecategorizer-error-title": "Σφάλμα",
+	"inlinecategorizer-remove-category": "Αφαίρεση κατηγορίας",
+	"inlinecategorizer-remove-category-error": "Δεν ήταν δυνατή η αφαίρεση να αφαιρεθεί η κατηγορία \"$1\".\nΑυτό συνήθως συμβαίνει όταν η κατηγορία έχει προστεθεί στη σελίδα από ένα πρότυπο.",
+	"inlinecategorizer-remove-category-summary": "Αφαίρεση κατηγορίας \"$1\""
+}

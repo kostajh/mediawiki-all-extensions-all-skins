@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Codenstory",
+			"Ykhwong"
+		]
+	},
+	"pageexchange-desc": "미리 정의된 위키 문서의 \"패키지\" 설치 허용",
+	"packages": "패키지",
+	"right-pageexchange": "페이지 교환 동작 실행",
+	"action-pageexchange": "페이지 교환 동작 실행",
+	"pageexchange-logname": "문서 교환 기록",
+	"pageexchange-logdesc": "이것은 페이지 교환 확장 기능과 관련된 동작 기록입니다.",
+	"pageexchange-installed": "설치함",
+	"pageexchange-available": "사용 가능",
+	"pageexchange-installpackage": "패키지 설치: $1",
+	"pageexchange-updatepackage": "패키지 업데이트: $1",
+	"pageexchange-uninstallpackage": "패키지 제거: $1",
+	"pageexchange-installpackagelog": "$3님이 만든 $2 패키지를 설치했습니다",
+	"pageexchange-updatepackagelog": "$3님이 만든 $2 패키지를 업데이트했습니다",
+	"pageexchange-uninstallpackagelog": "$3님이 만든 $2 패키지를 제거했습니다",
+	"pageexchange-package-website": "웹사이트:",
+	"pageexchange-package-publisher": "게시자:",
+	"pageexchange-package-author": "작성자:",
+	"pageexchange-package-version": "버전:",
+	"pageexchange-package-pages": "문서:",
+	"pageexchange-package-language": "언어:",
+	"pageexchange-package-requiredextensions": "필요한 확장 기능:",
+	"pageexchange-package-requiredpackages": "필요 패키지:",
+	"pageexchange-package-morerecent": "이 위키에 설치된 것보다 더 최근 버전의 패키지가 있습니다.",
+	"pageexchange-package-install": "설치",
+	"pageexchange-package-update": "업데이트",
+	"pageexchange-package-uninstall": "제거",
+	"pageexchange-package-deleteallpages": "관련된 모든 위키 페이지 삭제",
+	"pageexchange-pagehaschanged": "이 페이지의 최신판은 로컬 사본과 다릅니다.",
+	"pageexchange-latestvalue": "(최신 값: $1)",
+	"pageexchange-uninstallablepackage": "이 패키지는 다음의 이유로 설치할 수 없습니다:",
+	"pageexchange-inappropriatepackage": "이 패키지는 당신의 위키에 적절하지 않을 수 있습니다. 아래를 참고하십시오.",
+	"pageexchange-packageinstalled": "이 패키지를 설치했습니다.",
+	"pageexchange-packageuninstalled": "이 패키지를 제거하였습니다.",
+	"pageexchange-packageupdated": "이 패키지를 업데이트했습니다."
+}

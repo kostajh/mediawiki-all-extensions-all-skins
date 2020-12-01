@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"V.narsikar"
+		]
+	},
+	"accountinfo": "खात्याची माहिती",
+	"accountinfo-desc": "सदस्यास त्याच्याबद्दलची माहिती बघण्यास परवानगी देते",
+	"accountinfo-ts": "वेळशिक्का",
+	"accountinfo-ip": "अंकपत्ता",
+	"accountinfo-ua": "सदस्य प्रतिनीधी",
+	"accountinfo-xff": "XFF हेडर",
+	"accountinfo-length": "$1 साठी माहिती राखून ठेवली आहे.",
+	"accountinfo-now": "आत्ता"
+}

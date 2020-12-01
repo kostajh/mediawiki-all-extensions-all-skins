@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094",
+			"Urhixidur",
+			"Wladek92"
+		]
+	},
+	"bs-notifications-addaccount": "L’utilisateur « $1 » a été créé.",
+	"bs-notifications-email-addaccount-subject": "{{GENDER:$1|Utilisateur|Utilisatrice}} « $2 » {{GENDER:$1|créé|créée}}",
+	"bs-notifications-email-addaccount-body": "L’{{GENDER:$1|utilisateur|utilisatrice}} $2 a été {{GENDER:$1|créé|créée}}.\n\nVous pouvez visiter {{GENDER:$1|sa}} page utilisateur en suivant le lien ci-dessous",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|L’utilisateur $2 a été créé|L’utilisatrice $2 a été créée}}.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Créateur|Créatrice}} : $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Créateur|Créatrice}}: $1",
+	"bs-notifications-registeruser": "L’utilisateur « $1 » a créé un compte.",
+	"bs-notifications-email-registeruser-subject": "L’{{GENDER:$1|utilisateur|utilisatrice}} « $2 » a créé un compte",
+	"bs-notifications-email-registeruser-body": "L’{{GENDER:$1|utilisateur|utilisatrice}} $2 a créé un compte.\n\nVous pouvez aller sur la page utilisateur en suivant le lien ci-dessous",
+	"bs-notifications-web-registeruser-body": "L’{{GENDER:$1|utilisateur|utilisatrice}} $2 a créé un compte.",
+	"bs-notifications-edit": "La page « $1 » a été modifiée",
+	"bs-notifications-edit-bundle": "La page « $2 » a été modifiée {{PLURAL:$1|$1 fois}}",
+	"bs-notifications-email-edit-subject": "Page « $1 » {{GENDER:$2|modifiée}} le $4 par $3",
+	"bs-notifications-email-edit-body": "La page « $1 » a été {{GENDER:$2|modifiée}} le $5 par $4.\n\nCommentaire :\n$3",
+	"bs-notifications-web-edit-body": "La page « $1 » a été {{GENDER:$2|modifiée}} par $3.",
+	"bs-notifications-create": "La page « $1 » a été créée",
+	"bs-notifications-email-create-subject": "Page « $1 » {{GENDER:$2|créée}} le $4 par $3",
+	"bs-notifications-email-create-body": "La page « $1 » a été {{GENDER:$2|créée}} le $5 par $3.\n\nCommentaire :\n$4 \nVous pouvez consulter cette page en suivant le lien ci-dessous",
+	"bs-notifications-web-create-body": "La page « $1 » a été {{GENDER:$2|créée}} par $3.",
+	"bs-notifications-delete": "La page « $1 » a été supprimée",
+	"bs-notifications-email-delete-subject": "Page « $1 » {{GENDER:$2|supprimée}} le $4 par $3",
+	"bs-notifications-email-delete-body": "La page « $1 » a été {{GENDER:$2|supprimée}} le $5 par $3.\n\nEn voici le motif :\n$4",
+	"bs-notifications-web-delete-body": "La page « $1 » a été supprimé{{GENDER:$2|e|e}} par $3 .",
+	"bs-notifications-move": "La page « $1 » a été déplacée",
+	"bs-notifications-email-move-subject": "Page « $1 » {{GENDER:$2|déplacée}} vers « $3 » le $5 par $4",
+	"bs-notifications-email-move-body": "La page « $1 » a été {{GENDER:$2|déplacée}} en « $3 » le $6 par $4.\n\nLa raison en est :\n$5\n\nLa page est accessible en suivant le lien ci-dessous",
+	"bs-notifications-web-move-body": "La page « $1 » a été {{GENDER:$2|déplacée}} vers « $3 » par $4",
+	"bs-notifications-edit-difflink-label": "Voir la différence",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Bonjour}} $1",
+	"bs-notifications-htmlmail-sender-info": "Système de notification de $1",
+	"bs-notifications-mail-additional-links-label": "Liens supplémentaires"
+}

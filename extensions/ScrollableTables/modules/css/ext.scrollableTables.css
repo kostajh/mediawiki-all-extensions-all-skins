@@ -1,0 +1,4 @@
+tbody.scrollableTable {
+	display: inline-block;
+	overflow-y: scroll;
+}

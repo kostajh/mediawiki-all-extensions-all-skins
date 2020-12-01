@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Christian List"
+		]
+	},
+	"pagelanguage-desc": "Angive indstillinger for sprog per side",
+	"pagelanguage-invalid": "'''Advarsel:''' ignorerer ugyldig sprogkode \"$1\" for sproget på siden.",
+	"pagelanguage-duplicate": "'''Advarsel:''' sproget \"$2\" tilsidesætter det tidligere sprog på siden \"$1\"."
+}

@@ -1,0 +1,162 @@
+{
+	"name": "BlueSpiceDashboards",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:Dashboards",
+	"author": [
+		"Robert Vogel",
+		"Stephan Muggli",
+		"Peter Böhm"
+	],
+	"descriptionmsg": "bs-dashboards-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceDashboards": {
+					"className": "\\BlueSpice\\Dashboards\\Extension",
+					"extPath": "/BlueSpiceDashboards"
+				}
+			},
+			"PermissionRegistry": {
+				"dashboards-viewspecialpage-userdashboard": {
+					"type": "global",
+					"roles": [
+						"accountmanager",
+						"admin",
+						"author",
+						"commenter",
+						"editor",
+						"maintenanceadmin",
+						"reader",
+						"reviewer",
+						"structuremanager"
+					]
+				}
+			}
+		}
+	},
+	"GroupPermissions": {
+		"*": {
+			"dashboards-viewspecialpage-userdashboard": false
+		},
+		"user": {
+			"dashboards-viewspecialpage-userdashboard": true
+		},
+		"sysop": {
+			"dashboards-viewspecialpage-userdashboard": true
+		}
+	},
+	"AvailableRights": [
+		"dashboards-viewspecialpage-userdashboard"
+	],
+	"SpecialPages": {
+		"AdminDashboard": "SpecialAdminDashboard",
+		"UserDashboard": "SpecialUserDashboard"
+	},
+	"APIModules": {
+		"bs-dashboards-tasks": "BSApiDashboardTasks",
+		"bs-dashboards-store": "BSApiDashboardStore",
+		"bs-dashboards-widgets-tasks": "BSApiDashboardWidgetsTasks"
+	},
+	"MessagesDirs": {
+		"BlueSpiceDashboards": [
+			"i18n"
+		]
+	},
+	"DefaultUserOptions": {
+		"bs-dashboards-userdashboardonlogo" : false
+	},
+	"ExtensionMessagesFiles": {
+		"DashboardsAlias": "languages/Dashboards.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Dashboards\\": "src/"
+	},
+	"AutoloadClasses": {
+		"SpecialDashboard": "includes/specials/SpecialDashboard.php",
+		"SpecialAdminDashboard": "includes/specials/SpecialAdminDashboard.php",
+		"SpecialUserDashboard": "includes/specials/SpecialUserDashboard.php",
+		"BSApiDashboardTasks": "includes/api/BSApiDashboardTasks.php",
+		"BSApiDashboardStore": "includes/api/BSApiDashboardStore.php",
+		"BSApiDashboardWidgetsTasks": "includes/api/BSApiDashboardWidgetsTasks.php",
+		"BSDashBoardsClearConfigMaintenance": "maintenance/clearConfigs.php",
+		"BsDashboardsUpdateRSSUrl": "maintenance/updateRSSUrl.php",
+		"BSDashboardsConvertToTwoColumns": "maintenance/convertToTwoColumns.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.dashboards": {
+			"scripts": [
+				"bluespice.dashboards.main.js"
+			],
+			"messages": [
+				"tooltip-p-logo"
+			],
+			"dependencies": [
+				"mediawiki.util"
+			]
+		},
+		"ext.bluespice.dashboards.styles": {
+			"styles": [
+				"bluespice.dashboards.css"
+			]
+		},
+		"ext.bluespice.dashboards.portletCatalog": {
+			"scripts": [
+				"bluespice.dashboards.portletcatalog.js"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs.BS.portal"
+			],
+			"messages": [
+				"bs-dashboards-addportlet",
+				"bs-dashboards-portlets",
+				"bs-dashboard-userportlet-wikipage-wiki-article"
+			]
+		},
+		"ext.bluespice.dashboards.userDashboard": {
+			"scripts": [
+				"bluespice.dashboards.userDashboard.js"
+			],
+			"dependencies": [
+				"ext.bluespice.dashboards.portletCatalog"
+			],
+			"messages": [
+				"bs-dashboard-userportlet-calendar-title",
+				"bs-dashboard-userportlet-calendar-description"
+			]
+		},
+		"ext.bluespice.dashboards.adminDashboard": {
+			"scripts": [
+				"bluespice.dashboards.adminDashboard.js"
+			],
+			"dependencies": [
+				"ext.bluespice.dashboards.portletCatalog"
+			],
+			"messages": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceDashboards/resources"
+	},
+	"Hooks": {
+		"GetPreferences": "\\BlueSpice\\Dashboards\\Hook\\GetPreferences\\AddUserDashboardOnLogo::callback",
+		"PersonalUrls": "\\BlueSpice\\Dashboards\\Hook\\PersonalUrls\\AddDashboardUrls::callback",
+		"BeforePageDisplay": "\\BlueSpice\\Dashboards\\Hook\\BeforePageDisplay\\AddModules::callback",
+		"BSDashboardsUserDashboardPortalConfig": "\\BlueSpice\\Dashboards\\Hook\\UserDashboardPortalConfig\\AddConfig::callback",
+		"BSDashboardsUserDashboardPortalPortlets": "\\BlueSpice\\Dashboards\\Hook\\UserDashboardPortalPortlets\\AddPortlets::callback",
+		"LoadExtensionSchemaUpdates":  [
+			"\\BlueSpice\\Dashboards\\Hook\\LoadExtensionSchemaUpdates\\AddDashboardConfigsTable::callback",
+			"\\BlueSpice\\Dashboards\\Hook\\LoadExtensionSchemaUpdates\\AddPostDatabaseUpdateMaintenance::callback"
+		]
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

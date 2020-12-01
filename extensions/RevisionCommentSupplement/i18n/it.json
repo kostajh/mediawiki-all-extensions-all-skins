@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Darth Kule",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"revcs-edit-preview": "Visualizza anteprima",
+	"revcs-error": "Errore: $1",
+	"revcs-error-unexpected": "Si è verificato un errore imprevisto.",
+	"revcs-hidehistory-submit": "Applica",
+	"revcs-history-hidden-user": "(nome utente nascosto)",
+	"revcs-list-extended-supplement-all": "tutti",
+	"revcs-list-extended-supplement-empty": "vuota",
+	"revcs-list-rcs-rev-id-edit": "Modifica",
+	"revcs-list-rcs-rev-id-log": "Registro",
+	"revcs-list-rcs-user-text": "Utente",
+	"revcs-list-reset": "Reimposta",
+	"revcs-list-sort": "Ordina per:",
+	"revcs-list-submit": "Mostra",
+	"revcs-log-nosupplement": "(nessuno)",
+	"revcs-show-revision": "Versione: $1",
+	"revcs-show-revision-id": "ID versione: $1 ($2)",
+	"revcs-show-timestamp": "Data e ora modifica: $1 ($2)",
+	"revcs-show-user": "Utente: $1 $2 (ID utente: $3)",
+	"revcs-warning": "Attenzione: $1"
+}

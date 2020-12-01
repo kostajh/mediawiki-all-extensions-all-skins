@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Nikosgranturismogt"
+		]
+	},
+	"multiupload-desc": "[[Special:MultiUpload|Ειδική σελίδα για την φόρτωση πολλών αρχείων με τη μία]]",
+	"multipleupload": "Επιφόρτωση αρχείων",
+	"multipleupload-toolbox": "Επιφόρτωση πολλαπλών αρχείων",
+	"multiupload-submit": "Ανέβασμα αρχείων",
+	"multiupload-uploadedto": "Ανεβασμένο αρχείο $1.",
+	"multiupload-row": "Αρχείο $1",
+	"multiupload-unpack-button": "Ξεπακετάρισμα",
+	"multiupload-notify-ok": "Εντάξει",
+	"multiupload-unreadable-package": "Δεν μπόρεσε να διαβάσει το αρχείο $1",
+	"multiupload-http-error": "Δεν ήταν δυνατή η σύνδεση στο διακομιστή."
+}

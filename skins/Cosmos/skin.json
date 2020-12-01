@@ -1,0 +1,376 @@
+{
+	"name": "Cosmos",
+	"version": "3.6.4",
+	"author": "Created by Universal Omega<br />Uses code by Isarra Yos, Daniel Beard, Jack Phoenix, Inez Korczynski, Sean Colombo, and Christian Williams",
+	"url": "https://www.mediawiki.org/wiki/Skin:Cosmos",
+	"descriptionmsg": "cosmos-desc",
+	"namemsg": "skinname-cosmos",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"ValidSkinNames": {
+		"cosmos": "Cosmos"
+	},
+	"MessagesDirs": {
+		"Cosmos": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinCosmos": "includes/SkinCosmos.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Skin\\Cosmos\\": "includes/"
+	},
+	"ConfigRegistry": {
+		"cosmos": "GlobalVarConfig::newInstance"
+	},
+	"ResourceModules": {
+		"skins.cosmos": {
+			"class": "MediaWiki\\Skin\\Cosmos\\ResourceLoaderLessModule",
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"styles": {
+				"resources/libraries/normalise.css": {
+					"media": "screen"
+				},
+				"resources/forms.less": {
+					"media": "screen"
+				},
+				"resources/screen-common.less": {
+					"media": "screen"
+				},
+				"resources/screen-responsive.less": {},
+				"resources/screen-desktop.less": {
+					"media": "screen and (min-width: 851px)"
+				},
+				"resources/screen-desktop-mid.less": {
+					"media": "screen and (min-width: 1100px) and (max-width: 1339px)"
+				},
+				"resources/screen-desktop-small.less": {
+					"media": "screen and (min-width: 851px) and (max-width: 1099px)"
+				},
+				"resources/screen-mobile.less": {
+					"media": "screen and (max-width: 850px)"
+				}
+			}
+		},
+		"skins.cosmos.legacy": {
+			"class": "ResourceLoaderSkinModule",
+			"features": [
+				"legacy"
+			]
+		},
+		"skins.cosmos.rail": {
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"styles": {
+				"resources/CosmosRail.less": {}
+			}
+		},
+		"skins.cosmos.portableinfobox": {
+			"class": "MediaWiki\\Skin\\Cosmos\\ResourceLoaderLessModule",
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"styles": {
+				"resources/extensions/PortableInfobox/PortableInfobox.less": {
+					"media": "screen"
+				}
+			}
+		},
+		"skins.cosmos.portableinfobox.default": {
+			"class": "MediaWiki\\Skin\\Cosmos\\ResourceLoaderLessModule",
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"styles": {
+				"resources/extensions/PortableInfobox/PortableInfoboxDefaultTheme.less": {}
+			}
+		},
+		"skins.cosmos.portableinfobox.europa": {
+			"class": "MediaWiki\\Skin\\Cosmos\\ResourceLoaderLessModule",
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"styles": {
+				"resources/extensions/PortableInfobox/PortableInfoboxEuropaTheme.less": {}
+			}
+		},
+		"skins.cosmos.socialprofile": {
+			"class": "MediaWiki\\Skin\\Cosmos\\ResourceLoaderLessModule",
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"styles": {
+				"resources/extensions/SocialProfile/profile-common.less": {
+					"media": "screen"
+				}
+			}
+		},
+		"skins.cosmos.profiletabs": {
+			"class": "MediaWiki\\Skin\\Cosmos\\ResourceLoaderLessModule",
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"styles": {
+				"resources/extensions/SocialProfile/profiletabs.less": {
+					"media": "screen"
+				}
+			}
+		},
+		"skins.cosmos.profileavatar": {
+			"class": "MediaWiki\\Skin\\Cosmos\\ResourceLoaderLessModule",
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"styles": {
+				"resources/extensions/SocialProfile/profileavatar.less": {
+					"media": "screen"
+				}
+			}
+		},
+		"skins.cosmos.profileeditcount": {
+			"class": "MediaWiki\\Skin\\Cosmos\\ResourceLoaderLessModule",
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"styles": {
+				"resources/extensions/SocialProfile/profileeditcount.less": {
+					"media": "screen"
+				}
+			}
+		},
+		"skins.cosmos.profiletags": {
+			"class": "MediaWiki\\Skin\\Cosmos\\ResourceLoaderLessModule",
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"styles": {
+				"resources/extensions/SocialProfile/profiletags.less": {
+					"media": "screen"
+				}
+			}
+		},
+		"skins.cosmos.profilebio": {
+			"class": "MediaWiki\\Skin\\Cosmos\\ResourceLoaderLessModule",
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"styles": {
+				"resources/extensions/SocialProfile/profilebio.less": {
+					"media": "screen"
+				}
+			}
+		},
+		"skins.cosmos.js": {
+			"targets": [
+				"desktop"
+			],
+			"scripts": [
+				"resources/main.js"
+			],
+			"dependencies": [
+				"mediawiki.cookie"
+			]
+		},
+		"skins.cosmos.mobile": {
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"scripts": [
+				"resources/mobile.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Cosmos"
+	},
+	"ResourceModuleSkinStyles": {
+		"cosmos": {
+			"+oojs-ui-core.styles": "resources/ooui.less",
+			"+ext.echo.styles.badge": "resources/extensions/Echo.less",
+			"+ext.visualEditor.core": "resources/extensions/VisualEditor.core.less",
+			"+ext.CodeMirror.visualEditor.init": "resources/extensions/VisualEditor.CodeMirror.less",
+			"+ext.dummyfandoommainpagetags.styles": "resources/extensions/DummyFandoomMainpageTags.less"
+		}
+	},
+	"config": {
+		"CosmosBannerBackgroundColor": {
+			"value": "#c0c0c0",
+			"path": false,
+			"public": true
+		},
+		"CosmosBannerLogo": {
+			"value": null,
+			"path": false,
+			"public": true
+		},
+		"CosmosWikiHeaderWordmark": {
+			"value": null,
+			"path": false,
+			"public": true
+		},
+		"CosmosWikiHeaderBackgroundImage": {
+			"value": null,
+			"path": false,
+			"public": true
+		},
+		"CosmosWikiHeaderBackgroundColor": {
+			"value": "#c0c0c0",
+			"path": false,
+			"public": true
+		},
+		"CosmosBackgroundImage": {
+			"value": null,
+			"path": false,
+			"public": true
+		},
+		"CosmosMainBackgroundColor": {
+			"value": "#1A1A1A",
+			"path": false,
+			"public": true
+		},
+		"CosmosContentBackgroundColor": {
+			"value": "#ffffff",
+			"path": false,
+			"public": true
+		},
+		"CosmosBackgroundImageSize": {
+			"value": "cover",
+			"path": false,
+			"public": true
+		},
+		"CosmosLinkColor": {
+			"value": "#0645ad",
+			"path": false,
+			"public": true
+		},
+		"CosmosButtonColor": {
+			"value": "#c0c0c0",
+			"path": false,
+			"public": true
+		},
+		"CosmosToolbarColor": {
+			"value": "#000000",
+			"path": false,
+			"public": true
+		},
+		"CosmosFooterColor": {
+			"value": "#c0c0c0",
+			"path": false,
+			"public": true
+		},
+		"CosmosFontFamily": {
+			"value": null,
+			"path": false,
+			"public": true
+		},
+		"CosmosFontStyle": {
+			"value": null,
+			"path": false,
+			"public": true
+		},
+		"CosmosSocialProfileModernTabs": {
+			"value": true,
+			"path": false,
+			"public": true
+		},
+		"CosmosSocialProfileRoundAvatar": {
+			"value": true,
+			"path": false,
+			"public": true
+		},
+		"CosmosSocialProfileShowEditCount": {
+			"value": true,
+			"path": false,
+			"public": true
+		},
+		"CosmosSocialProfileAllowBio": {
+			"value": true,
+			"path": false,
+			"public": true
+		},
+		"CosmosSocialProfileShowGroupTags": {
+			"value": true,
+			"path": false,
+			"public": true
+		},
+		"CosmosUseSocialProfileAvatar": {
+			"value": true,
+			"path": false,
+			"public": true
+		},
+		"CosmosEnablePortableInfoboxEuropaTheme": {
+			"value": true,
+			"path": false,
+			"public": true
+		},
+		"CosmosUseMessageforToolbar": {
+			"value": false,
+			"path": false,
+			"public": true
+		},
+		"CosmosBackgroundImageNorepeat": {
+			"value": true,
+			"path": false,
+			"public": true
+		},
+		"CosmosBackgroundImageFixed": {
+			"value": true,
+			"path": false,
+			"public": true
+		},
+		"CosmosProfileTagGroups": {
+			"value": [ "bureaucrat", "bot", "sysop", "interface-admin", "suppressor" ],
+			"path": false,
+			"public": true
+		},
+		"CosmosNumberofGroupTags": {
+			"value": 2,
+			"path": false,
+			"public": true
+		},
+		"CosmosContentOpacityLevel": {
+			"value": 100,
+			"path": false,
+			"public": true
+		}
+
+	},
+	"HookHandlers": {
+		"CosmosHookHandlers": {
+			"class": "MediaWiki\\Skin\\Cosmos\\CosmosHooks"
+		}
+	},
+	"Hooks": {
+		"AdminLinks": "MediaWiki\\Skin\\Cosmos\\CosmosHooks::addToAdminLinks",
+		"GetPreferences": {
+			"handler": "CosmosHookHandlers"
+		},
+		"OutputPageBodyAttributes": {
+			"handler": "CosmosHookHandlers"
+		}
+	},
+	"DefaultUserOptions": {
+		"cosmos-mobile-responsiveness": 1
+	},
+	"manifest_version": 2
+}

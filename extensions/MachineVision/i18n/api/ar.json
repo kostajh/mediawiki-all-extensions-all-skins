@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"HitomiAkane",
+			"ديفيد"
+		]
+	},
+	"apihelp-reviewimagelabels-summary": "مراجعة تسميات الصور التي اقترحها الجهاز.",
+	"apihelp-reviewimagelabels-param-filename": "اسم الصورة (بدون بادئة النطاق).",
+	"apihelp-reviewimagelabels-param-label": "معرف ويكي بيانات للتسمية المقترحة (مع بادئة Q).",
+	"apihelp-reviewimagelabels-param-review": "نتيجة المراجعة.",
+	"apihelp-reviewimagelabels-param-batch": "دفعة بيانات لمراجعة اقتراحات التسمية المتعددة لصورة في طلب واحد، في شكل مصفوفة JSON مع كائن واحد أو أكثر مع حقلي <var>label</var> و<var>review</var>.",
+	"apihelp-reviewimagelabels-paramvalue-review-accept": "الاقتراح صحيح.",
+	"apihelp-reviewimagelabels-paramvalue-review-reject": "الاقتراح غير صحيح.",
+	"apihelp-reviewimagelabels-example-1": "تعليم <kbd>Q123</kbd> كاقتراح صحيح ل<kbd>Example.png</kbd>.",
+	"apihelp-reviewimagelabels-example-2": "قبول <kbd>Q1</kbd> ورفض <kbd>Q2</kbd> كاقتراحات ل<kbd>Example.png</kbd>.",
+	"apierror-reviewimagelabels-batch-invalid-json": "JSON غير صالح للوسيط <var>batch</var>: $1",
+	"apierror-reviewimagelabels-batch-invalid-structure": "إدخال غير صالح للوسيط <var>batch</var>: يجب أن يحتوي على مجموعة من الكائنات التي لها قيم عددية.",
+	"apierror-reviewimagelabels-batch-missingparam-at-least-one-of": "في كل كائن داخل الإدخال <var>batch</var> input, {{PLURAL:$2|الحقل|أحد الحقول على الأقل}} $1 مطلوب.",
+	"apierror-reviewimagelabels-batch-toomanyvalues": "إدخال غير صالح للوسيط <var>batch</var>:الكثير من الإدخالات؛ الحد الأقصى المسموح به هو $1",
+	"apierror-reviewimagelabels-invalidfile": "<kbd>$1</kbd> ليس اسم ملف صالحا.",
+	"apierror-reviewimagelabels-invalidlabel": "الملف <kbd>$1</kbd> ليست له تسمية <kbd>$2</kbd>.",
+	"apierror-reviewimagelabels-invalidstate": "<kbd>$3</kbd> ليس إجراءً صالحا للتسمية <kbd>$2</kbd> للملف <kbd>$1</kbd>.",
+	"apiwarn-reviewimagelabels-setlabelstate-failed": "فشل في تخزين حالة التسمية <kbd>$1</kbd> للتسمية <kbd>$2</kbd>",
+	"apiwarn-reviewimagelabels-depicts-exists": "البيان '$1 ($2): $3' موجود بالفعل للملف $4",
+	"apihelp-query+imagelabels-summary": "إظهار تسميات الصور التي اقترحها الجهاز.",
+	"apihelp-query+imagelabels-param-state": "سرد التسميات في حالات المراجعة هذه فقط",
+	"apihelp-query+imagelabels-paramvalue-state-unreviewed": "التسميات التي لم تتم مراجعتها بعد.",
+	"apihelp-query+imagelabels-paramvalue-state-accepted": "التسميات التي تم تحديدها بأنها صحيحة.",
+	"apihelp-query+imagelabels-paramvalue-state-rejected": "التسميات التي تم تحديدها على أنها غير صحيحة.",
+	"apihelp-query+imagelabels-paramvalue-state-withheld": "تسميات لصورة تم حجبها عن العرض التقديمي في الوسم باستخدام الحاسوب.",
+	"apihelp-query+imagelabels-example-1": "إظهار تسميات الصور التي اقترحها الجهاز لـ<kbd>Example.png</kbd>.",
+	"apihelp-query+unreviewedimagelabels-summary": "عرض العناوين مع تسميات الصور المقترحة التي تحتاج إلى مراجعة.",
+	"apihelp-query+unreviewedimagelabels-param-uploader": "إرجاع النتائج المرفوعة من قبل هذا المستخدم فقط.",
+	"apihelp-query+unreviewedimagelabels-param-limit": "عدد عناصر النتيجة للعودة.",
+	"apihelp-query+unreviewedimagecount-summary": "عرض عدد الصور ذات اقتراحات التسمية في انتظار المراجعة، بشكل عام و(في حالة تسجيل الدخول) للمستخدم الحالي.",
+	"apihelp-query+unreviewedimagecount-example": "الحصول على أعداد الصور غير المراجعة."
+}

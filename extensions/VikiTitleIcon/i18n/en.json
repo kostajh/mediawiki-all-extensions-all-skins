@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"vikititleicon-desc": "VIKI plugin to show logo from pages using Title Icon extension",
+	"vikititleicon-error-fetch": "Error fetching title icon data for node: $1.",
+	"apihelp-getTitleIcons-description": "Get the URLs of all Title Icons for the page, if any exist.",
+	"apihelp-getTitleIcons-summary": "Get the URLs of all Title Icons for the page, if any exist.",
+	"apihelp-getTitleIcons-param-pageTitle": "title of the page whose title icons you wish to retrieve"
+}

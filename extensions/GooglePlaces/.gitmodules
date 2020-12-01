@@ -1,0 +1,3 @@
+[submodule "lib/google-places"]
+	path = lib/google-places
+	url = https://github.com/anthony-mills/google-places.git

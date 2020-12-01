@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"gpgmail-desc": "GPG সহ এনক্রিপ্ট ইমেইল",
+	"gpgmail-pref-enable": "GPG সহ এনক্রিপ্ট ইমেইল",
+	"gpgmail-pref-key": "GPG পাবলিক চাবি",
+	"gpgmail-pref-key-help": "একটি পাবলিক চাবি পেতে সাহায্যের জন্য, [https://help.ubuntu.com/community/GnuPrivacyGuardHowto উবুন্টুর 'কিভাবে' পাতা] দেখুন।",
+	"gpgmail-encrypt-error": "ইমেল এনক্রিপ্ট করার সময় একটি ত্রুটি হয়েছিল।"
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"onlinestatusbar-desc": "Ermöglicht die Anzeige des Onlinestatus eines Benutzers auf dessen Benutzerseite",
+	"prefs-onlinestatus": "Onlinestatus",
+	"onlinestatusbar-used": "Deinen Online-Status auf deiner Benutzerseite anzeigen",
+	"onlinestatusbar-hide": "Die Statusleiste auf Benutzerseiten ausblenden, um stattdessen lediglich das ''magische Wort'' zu nutzen? (Für fortgeschrittene Benutzer)",
+	"onlinestatusbar-away": "Nach einem festgelegten Zeitraum automatisch als „abwesend“ einstufen",
+	"onlinestatusbar-purge": "Den Cache der Benutzerseite jedes Mal leeren, wenn du dich an- oder abmeldest",
+	"onlinestatusbar-status": "Welchen Status möchtest du standardmäßig nutzen?",
+	"onlinestatusbar-away-time": "Minuten, die vergehen sollen, um als „abwesend“ eingestuft zu werden:",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Online}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Beschäftigt}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Abwesend}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Versteckt}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Offline}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Unbekannt}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Dieser Benutzer|Diese Benutzerin}} ist gerade online",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Dieser Benutzer|Diese Benutzerin}} ist beschäftigt und möglicherweise nicht anwesend",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Dieser Benutzer|Diese Benutzerin}} ist inaktiv und möglichweise nicht anwesend",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Dieser Benutzer|Diese Benutzerin}} ist offline",
+	"onlinestatusbar-tooltip-unknown": "Der Status {{GENDER:$1|dieses Benutzers|dieser Benutzerin}} ist unbekannt",
+	"apihelp-query+onlinestatus-description": "Gibt den Onlinestatus und das Geschlecht des Benutzers zurück",
+	"apihelp-query+onlinestatus-summary": "Gibt den Onlinestatus und das Geschlecht des Benutzers zurück",
+	"apihelp-query+onlinestatus-param-user": "Name des Benutzers, für den du den Status abrufen möchtest.",
+	"apihelp-query+onlinestatus-example": "Zeigt den Onlinestatus für Petrb an"
+}

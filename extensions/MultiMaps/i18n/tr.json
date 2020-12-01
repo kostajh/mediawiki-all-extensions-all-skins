@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"multimaps-desc": "Kullanıcıların birden fazla harita hizmeti kullanarak haritaları görüntülemesine ve verileri koordine etmesine olanak tanır",
+	"multimaps-loading-map": "Harita yükleniyor...",
+	"multimaps-mapservices-must-not-empty-array": "\"$1\" değişkeni boş bir dizi olmamalıdır",
+	"multimaps-undefined-service-for-layout": "$egMultiMaps_MapServices içinde \"$1\" düzeni için tanımlanmamış hizmet parametresi",
+	"multimaps-wrong-service-for-layout": "\"$1\" düzeni için \"$2\" tanımlı ancak $egMultiMaps_MapServices öğesinde mevcut değil",
+	"multimaps-layout-defined-for-layout": "\"$1\" düzeni için $egMultiMaps_MapServices içindeki hizmet yerine başka bir \"$2\" düzeni tanımladı",
+	"multimaps-leaflet-undefined-parameters-for-layer": "$ EgMultiMaps_MapServices içinde \"$1\" katmanı için \"source\" ve \"attribution\" parametreleri sağlanmalıdır",
+	"multimaps-had-following-errors": "Geçirilen parametreleri ayrıştırırken aşağıdaki hatalar oluştu:",
+	"multimaps-element-illegal-value": "\"$1\" parametresi için \"$2\" geçersiz değeri belirtildi. Geçerli değerler: $3",
+	"multimaps-element-more-parameters": "Bu harita öğesi için \"$1\" beklenenden daha fazla parametre geçti:",
+	"multimaps-element-parameters-not-processed": "şu parametreler işlenmedi: $1",
+	"multimaps-circle-radius-not-defined": "daire yarıçapı tanımlanmalıdır",
+	"multimaps-circle-wrong-number-parameters": "daire için sadece iki parametre tanımlanmalıdır, merkez ve yarıçap koordinatları. Ancak {{PLURAL:$1|bir parametre|$1 parametre}} belirtildi",
+	"multimaps-marker-incorrect-icon": "İşaretçi simgesi için yanlış bir dosya adı \"$1\" sağlandı.",
+	"multimaps-marker-incorrect-icon-url": "İşaretçi simgesi için yanlış bir \"$1\" URL'si sağlandı.",
+	"multimaps-marker-incorrect-icon-size": "İşaretçi simgesi \"$2\" için yanlış boyutta \"$1\" sağlandı.",
+	"multimaps-marker-incorrect-icon-anchor": "İşaretçi simgesi \"$2\" için yanlış bir \"$1\" bağlantısı sağlandı.",
+	"multimaps-marker-incorrect-shadow-file": "Simge gölgesi için yanlış bir dosya adı \"$1\" sağlandı.",
+	"multimaps-marker-incorrect-shadow-url": "Simge gölgesi için yanlış bir \"$1\" URL'si sağlandı.",
+	"multimaps-marker-incorrect-shadow-size": "\"$2\" simge gölgesi için yanlış bir \"$1\" boyutu sağlandı.",
+	"multimaps-marker-incorrect-shadow-anchor": "\"$2\" simge gölgesi için yanlış bir \"$1\" bağlantısı sağlandı.",
+	"multimaps-passed-unavailable-service": "\"$1\" hizmet adı, kullanılabilir hizmetler listesinde ($2) bulunamadı. Varsayılan hizmet \"$3\" kullanıldı",
+	"multimaps-square-wrong-number-points": "karenin koordinatları yalnızca iki nokta içermelidir, ancak {{PLURAL:$1|bir nokta|$1 nokta}} belirtildi",
+	"multimaps-unable-create-element": "\"$1\" harita öğesi oluşturulamıyor",
+	"multimaps-unable-parse-coordinates": "\"$1\" coğrafi koordinatları ayrıştırılamıyor",
+	"multimaps-unable-parse-parameter": "\"$1\" parametresi \"$2\" ayrıştırılamıyor",
+	"multimaps-unable-parse-radius": "dairenin yarıçapı sayısal bir değer olmalı, ancak \"$1\" belirtilmelidir",
+	"multimaps-unknown-class-for-service": "Hizmet için tanımlanan \"$1\" sınıfı bulunamadı.",
+	"multimaps-unknown-parameter": "Bilinmeyen parametre: \"$1\"",
+	"multimaps-error-incorrect-class-for-service": "Hizmet için tanımlanan \"$1\" sınıfı kullanılamaz.",
+	"multimaps-method-error-unknown-action": "$1: Bilinmeyen işlem",
+	"multimaps-method-error-unexpected-result": "$1: Bir işlevin beklenmedik bir sonucu"
+}

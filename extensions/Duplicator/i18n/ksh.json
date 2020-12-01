@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"duplicator": "En Sigg verdubbelle",
+	"duplicator-desc": "Määt extra [[Special:Duplicate|Kopije fun Sigge]] met all ier ahle Versione.",
+	"duplicator-toolbox": "Di Sigg heh verdubbelle",
+	"duplicator-header": "Hee di Extra Sigg määd ed möjjelesch, en Sigg ze verdubbelle,\nun dobei fun all ier Väsjohne bes jätz en eijen Kopie aanzelääje.\nDat es nötzlesch, wam_mer di zwei en ungerscheidlische Reeschtonge\nwigger beärbeide, allsu opdeile, well.",
+	"duplicator-options": "Ennschtällonge",
+	"duplicator-source": "De Övverschreff fun de Quälle_Sigg:",
+	"duplicator-dest": "De Zihl-Sigg iere Övverschreff:",
+	"duplicator-dotalk": "Donn de Klaafsigg met koppeere, wann möjjelesch",
+	"duplicator-dosubpages": "Donn de Ongersigge met koppehre, wann_er doh sin.",
+	"duplicator-dohistory": "Donn de jannze vörreje Väsjohne vun dä Sigg verdubbelle.",
+	"duplicator-submit": "Kopeere!",
+	"duplicator-summary": "Kopehrt fun de Väsjohn [[$2]] vun dä Sigg „[[$1]]“",
+	"duplicator-success": "„[[$1]]“ es op „[[$2]]“ kopeet wode.",
+	"duplicator-success-revisions": "{{PLURAL:$1|Eijn Version es|$1 Versione sin|Kein Versione sin}} kopeet wode.",
+	"duplicator-success-talknotcopied": "De Klaafsigg kunnt nit kopeet wäde.",
+	"duplicator-failed": "Hee di Sigg kunnte mer leider nit verdubbelle.\nEne unklohre Fähler es opjetrodde.",
+	"duplicator-failed-toolong": "Di Sigg „[[$1]]“ kunnte mer nit koppehre, weil de Övverschreff söns ze lang jewoode wöhr.",
+	"duplicator-failed-dest-exists": "[[$1]] is nit duplezehrt woode, et Zihl [[$2]] jidd_et ald.",
+	"duplicator-source-invalid": "Beß esu joot, un jif en johde Övverschreff för de Quäll fum Kopeere aan.",
+	"duplicator-source-notexist": "En Sigg „[[$1]]“ ham_mer nit. Jiff ene Tittel aan fun en Sigg, di och doh es.",
+	"duplicator-dest-invalid": "Beß esu joht, un jif en jode Övverschreff för et Zihl fum Kopehre aan.",
+	"duplicator-dest-exists": "De Sigg „[[$1]]“ es ald doh. Jiff en Övverschreff aan fun en Sigg, di et noch nit jitt.",
+	"right-duplicate": "Sigge verdubbelle"
+}

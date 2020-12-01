@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"revcs-action-history-supplement": "[Συμπλήρωμα: $1]",
+	"revcs-edit-preview": "Εμφάνιση προεπισκόπησης",
+	"revcs-edit-preview-reason": "Προεπισκόπηση της αιτίας: $1",
+	"revcs-edit-reason": "Αιτία:",
+	"revcs-edit-revision-id": "Αναγνωριστικό αναθεώρησης:",
+	"revcs-error": "Σφάλμα: $1",
+	"revcs-hidehistory-submit": "Υποβάλετε αίτηση",
+	"revcs-history-hidden-user": "(όνομα χρήστη κρυμμένο)",
+	"revcs-history-rcsh-reason": "Αιτιολογία",
+	"revcs-list-extended-offset": "Πρότυπο σύγκρισης:",
+	"revcs-list-extended-property": "Ιδιότητες σύγκρισης:",
+	"revcs-list-extended-supplement-all": "όλα",
+	"revcs-list-extended-supplement-empty": "κενή",
+	"revcs-list-extended-supplement-notempty": "μη κενό",
+	"revcs-list-limit": "Αριθμός ανά σελίδα:",
+	"revcs-list-rcs-rev-id": "Αναγνωριστικό αναθεώρησης",
+	"revcs-list-rcs-rev-id-edit": "Επεξεργασία",
+	"revcs-list-rcs-rev-id-log": "Μητρώο",
+	"revcs-list-rcs-user-text": "Χρήστης",
+	"revcs-list-reset": "Επαναφορά",
+	"revcs-list-sort": "Ταξινόμηση κατά:",
+	"revcs-list-submit": "Εμφάνιση",
+	"revcs-log-nosupplement": "(κανένα)",
+	"revcs-show-history-id": "Αναγνωριστικό ιστορικού: $1 ($2)",
+	"revcs-show-reason": "Αιτία: $1",
+	"revcs-show-revision": "Έκδοση: $1",
+	"revcs-show-revision-id": "Αναγνωριστικό θεώρησης: $1 ($2)",
+	"revcs-show-user": "Χρήστης: $1 $2 (Αναγνωριστικό χρήστη: $3)",
+	"revcs-warning": "Προειδοποίηση: $1"
+}

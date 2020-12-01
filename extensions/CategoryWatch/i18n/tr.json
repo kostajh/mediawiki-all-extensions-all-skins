@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"Homonihilis",
+			"Sayginer"
+		]
+	},
+	"categorywatch-desc": "İzlenen kategoriler altındaki sayfaların kategori değişikliklerini bildirmek yoluyla izleme listesi işlevselliğini artırır.",
+	"categorywatch-emailsubject": "İzlenen \"$1\" kategorisini içeren değişiklik",
+	"categorywatch-catmovein": "$1 sayfası, $3 altından $2 altına taşındı",
+	"categorywatch-catmoveout": "$1 sayfası, $2 altından çıkarılıp $3 altına taşındı",
+	"categorywatch-catadd": "$1 sayfası $2 altına eklendi",
+	"categorywatch-catsub": "$1 sayfası, $2 altından çıkarıldı",
+	"categorywatch-autocat": "$1 tarafından otomatik olarak izleniyor",
+	"categorywatch-notification-link": "Kategori: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]], [[:$3|$4]] eklendi",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]], [[:$5|$6]] eklendi",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]], [[:$3|$3]] ile [[:$4|$4]] ekledi",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]], [[:$3|$4]] kaldırıldı",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]], [[:$5|$6]] kaldırıldı",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]], [[:$3|$3]] ile [[:$4|$4]] kaldırdı",
+	"categorywatch-notification-bundle": "{{SITENAME}} üzerinde kategorizasyonda $1 değişiklik",
+	"categorywatch-add-title": "İzlenen kategoriye başlık eklendi",
+	"categorywatch-remove-title": "İzlenen kategoriden başlık kaldırıldı",
+	"categorywatch-page-watch-pref": "Bir kategori eklediğinizde kategorideki tüm sayfaları izleme listenize ekleyin",
+	"echo-category-title-categorywatch": "Kategori izle",
+	"echo-pref-tooltip-categorywatch": "Bir kullanıcı, bir sayfası izlediğim bir kategoriye ekler veya kategoriden çıkarırsa bana bildirim gönder."
+}

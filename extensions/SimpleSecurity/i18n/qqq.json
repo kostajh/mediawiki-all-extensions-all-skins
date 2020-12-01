@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aursani",
+			"Fryed-peach",
+			"Lokal Profil",
+			"Macofe",
+			"Purodha",
+			"Shirayuki",
+			"Siebrand",
+			"Umherirrender"
+		]
+	},
+	"security": "{{doc-important|The translation for this message cannot be equal to that of {{msg-mw|protectlogpage}}!}}",
+	"security-desc": "{{desc|name=Simple Security|url=https://www.mediawiki.org/wiki/Extension:SimpleSecurity}}",
+	"security-logpage": "Used as log name",
+	"security-logpagetext": "Used as log page text",
+	"security-logentry": "{{notranslate}}",
+	"badaccess-read": "Used as warning if unreadable. Parameters:\n* $1 - a page title that is restricted to access",
+	"security-info": "Parameters:\n* $1 - {{msg-mw|Security-info-toggle}} with a link",
+	"security-info-toggle": "Used as toggle to show more or less information",
+	"security-inforestrict": "Parameters:\n* $1 - an action name\n* $2 - user group name(s)",
+	"security-desc-LS": "Parameters:\n* $1 - {{msg-mw|Security-type-category}} or {{msg-mw|Security-type-namespace}}\n* $2 - the name of a category or namespace",
+	"security-desc-PR": "Used as further description",
+	"security-infosysops": "Used as info text",
+	"security-manygroups": "Used to show list of groups. $2 is tail of the group, and $1 is everything else.\n* $1 - list of groups (1 or more groups, comma separated)\n* $2 - tail of the group list\nIf number of groups is 1, not-localized string \"the '''$1''' group\" is used instead.",
+	"security-unchain": "Used as action link",
+	"security-type-category": "Used as <code>$1</code> in {{msg-mw|Security-desc-LS}}\n{{Identical|Category}}",
+	"security-type-namespace": "Used as <code>$1</code> in {{msg-mw|Security-desc-LS}}\n{{Identical|Namespace}}",
+	"security-restricttogroup": "Parameters:\n* $1 - extra group name",
+	"restriction-read": "{{Identical|Read}}"
+}

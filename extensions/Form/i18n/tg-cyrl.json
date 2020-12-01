@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibrahim"
+		]
+	},
+	"form-no-name-text": "Шумо бояд номи формро, ба монанди \"Special:Form/Nameofform\" пешниҳод кунед.",
+	"form-bad-name": "Номи форми номуносиб",
+	"form-bad-name-text": "Ҳеҷ форме бо он ном нест.",
+	"form-save": "Захира кардан",
+	"form-article-exists": "Саҳифа вуҷуд дорад",
+	"form-article-existstext": "Саҳифа [[$1]] аллакай вуҷуд дорад.",
+	"form-bad-page-name": "Номи саҳифа номуносиб",
+	"form-bad-page-name-text": "Додаи форме, ки шумо ворид кардаед номи номуносибе ба саҳифа, \"$1\" мекунад.",
+	"form-save-error": "Хато дар ҳоли захираи форм",
+	"form-save-error-text": "Дар ҳоли захираи саҳифаи '$1' хатои ношиносе буд."
+}

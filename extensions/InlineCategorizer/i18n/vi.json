@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"Vinhtantran"
+		]
+	},
+	"inlinecategorizer-add-category": "Thêm thể loại",
+	"inlinecategorizer-add-category-submit": "Thêm",
+	"inlinecategorizer-add-category-summary": "Thêm thể loại “$1”",
+	"inlinecategorizer-api-error": "API cho ra lỗi: $1: $2",
+	"inlinecategorizer-api-unknown-error": "API cho ra một lỗi bất ngờ.",
+	"inlinecategorizer-cancel": "Hủy bỏ các sửa đổi",
+	"inlinecategorizer-cancel-all": "Hủy bỏ tất cả thay đổi",
+	"inlinecategorizer-category-already-present": "Trang này đã nằm trong thể loại “$1”.",
+	"inlinecategorizer-category-hook-error": "Một hàm địa phương năng đã chặn không lưu được những thay đổi",
+	"inlinecategorizer-category-question": "Tại sao bạn muốn thực hiện những thay đổi sau:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Lưu",
+	"inlinecategorizer-confirm-save-all": "Lưu tất cả thay đổi",
+	"inlinecategorizer-confirm-title": "Xác nhận tác vụ",
+	"inlinecategorizer-edit-category": "Sửa thể loại",
+	"inlinecategorizer-edit-category-error": "Không thể sửa đổi thể loại “$1”.\nĐiều này thường xảy ra khi thể loại được thêm vào trang thông qua một bản mẫu.",
+	"inlinecategorizer-edit-category-summary": "Thay thể loại “$1” bằng “$2”",
+	"inlinecategorizer-error-title": "Lỗi",
+	"inlinecategorizer-remove-category": "Gỡ thể loại",
+	"inlinecategorizer-remove-category-error": "Không thể gỡ bỏ thể loại “$1”.\nĐiều này thường xảy ra khi thể loại được thêm vào trang thông qua một bản mẫu.",
+	"inlinecategorizer-remove-category-summary": "Gỡ thể loại “$1”"
+}

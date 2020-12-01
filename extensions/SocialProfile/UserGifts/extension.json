@@ -1,0 +1,94 @@
+{
+	"name": "UserGifts",
+	"author": [
+		"Aaron Wright",
+		"David Pean",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"descriptionmsg": "usergifts-desc",
+	"type": "other",
+	"MessagesDirs": {
+		"UserGifts": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"UserGiftsAlias": "includes/UserGifts.alias.php"
+	},
+	"AutoloadClasses": {
+		"MigrateOldGiftsUserColumnsToActor": "maintenance/migrateOldGiftsUserColumnsToActor.php",
+		"MigrateOldUserGiftsUserColumnsToActor": "maintenance/migrateOldUserGiftsUserColumnsToActor.php",
+		"Gifts": "includes/Gifts.php",
+		"UserGiftCount": "includes/UserGiftCount.php",
+		"UserGiftIcon": "includes/UserGiftIcon.php",
+		"UserGiftListLookup": "includes/UserGiftListLookup.php",
+		"UserGifts": "includes/UserGifts.php",
+		"UserGiftsHooks": "includes/UserGiftsHooks.php",
+		"GiveGift": "includes/specials/SpecialGiveGift.php",
+		"ViewGifts": "includes/specials/SpecialViewGifts.php",
+		"ViewGift": "includes/specials/SpecialViewGift.php",
+		"GiftManager": "includes/specials/SpecialGiftManager.php",
+		"GiftManagerLogo": "includes/specials/SpecialGiftManagerLogo.php",
+		"RemoveMasterGift": "includes/specials/SpecialRemoveMasterGift.php",
+		"RemoveGift": "includes/specials/SpecialRemoveGift.php",
+		"EchoUserGiftPresentationModel": "includes/EchoUserGiftPresentationModel.php"
+	},
+	"Hooks": {
+		"BeforeCreateEchoEvent": "UserGiftsHooks::onBeforeCreateEchoEvent",
+		"EchoGetDefaultNotifiedUsers": "UserGiftsHooks::onEchoGetDefaultNotifiedUsers",
+		"EchoGetBundleRules": "UserGiftsHooks::onEchoGetBundleRules"
+	},
+	"DefaultUserOptions": {
+		"echo-subscriptions-web-social-gift": true,
+		"echo-subscriptions-email-social-gift": false
+	},
+	"SpecialPages": {
+		"GiveGift": "GiveGift",
+		"ViewGifts": "ViewGifts",
+		"ViewGift": "ViewGift",
+		"GiftManager": "GiftManager",
+		"GiftManagerLogo": "GiftManagerLogo",
+		"RemoveMasterGift": "RemoveMasterGift",
+		"RemoveGift": "RemoveGift"
+	},
+	"ResourceModules": {
+		"ext.socialprofile.usergifts.css": {
+			"styles": "css/UserGifts.css"
+		},
+		"ext.socialprofile.special.giftmanager.css": {
+			"styles": "css/SpecialGiftManager.css"
+		},
+		"ext.socialprofile.special.givegift.css": {
+			"styles": "css/SpecialGiveGift.css"
+		},
+		"ext.socialprofile.special.viewgift.css": {
+			"styles": "css/SpecialViewGift.css"
+		},
+		"ext.socialprofile.special.viewgifts.css": {
+			"styles": "css/SpecialViewGifts.css"
+		},
+		"ext.socialprofile.usergifts.js": {
+			"scripts": "js/UserGifts.js",
+			"messages": [
+				"g-select-gift"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "SocialProfile/UserGifts/resources"
+	},
+	"AvailableRights": [
+		"giftadmin"
+	],
+	"GroupPermissions": {
+		"staff": {
+			"giftadmin": true
+		},
+		"sysop": {
+			"giftadmin": true
+		}
+	},
+	"manifest_version": 1
+}

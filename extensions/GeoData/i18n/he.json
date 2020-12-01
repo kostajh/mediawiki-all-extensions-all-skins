@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Fitoschido",
+			"Guycn2",
+			"Inkbug",
+			"YaronSh"
+		]
+	},
+	"geodata-desc": "מוסיף אפשרות לאכסון ואחזור של נקודות ציון גאוגרפיות",
+	"geodata-bad-input": "פרמטרים בלתי־תקינים הועברו לפונקציה <nowiki>{{#coordinates:}}</nowiki>",
+	"geodata-bad-latitude": "<nowiki>{{#coordinates:}}</nowiki>: קו רוחב בלתי־תקין",
+	"geodata-bad-longitude": "<nowiki>{{#coordinates:}}</nowiki>: קו אורך בלתי־תקין",
+	"geodata-bad-type": "<nowiki>{{#coordinates:}}</nowiki>: סוג לא מוּכר \"$1\"",
+	"geodata-bad-globe": "<nowiki>{{#coordinates:}}</nowiki>: כדור לא מוּכר \"$1\"",
+	"geodata-bad-region": "<nowiki>{{#coordinates:}}</nowiki>: תסדיר קוד אזור בלתי־תקין",
+	"geodata-multiple-primary": "<nowiki>{{#coordinates:}}</nowiki>: אי־אפשר שיהיה יותר מתג ראשי אחד בכל דף",
+	"geodata-limit-exceeded": "נחצתה המגבלה של {{PLURAL:|תג <nowiki>{{#coordinates:}}</nowiki> אחד|$1 תגי <nowiki>{{#coordinates:}}</nowiki>}} לדף",
+	"geodata-broken-tags-category": "דפים עם תגי נקודות ציון פגומים",
+	"geodata-broken-tags-category-desc": "בדף הזה יש תג <code dir=\"ltr\"><nowiki>{{#coordinates:}}</nowiki></code> פגום.",
+	"geodata-unknown-type-category": "דפים עם סוג בלתי־ידוע של נקודות ציון",
+	"geodata-unknown-type-category-desc": "הדף הזה משתמש בערך בלתי־ידוע של פרמטר <code>type</code> לנקודות ציון.",
+	"geodata-unknown-globe-category": "דפים עם ערך כדור בלתי־ידוע",
+	"geodata-unknown-globe-category-desc": "הדף הזה משתמש בערך בלתי־ידוע של פרמטר <code>globe</code> לנקודות ציון.",
+	"geodata-unknown-region-category": "דפים עם ערך אזור בלתי־ידוע",
+	"geodata-unknown-region-category-desc": "הדף הזה משתמש בערך בלתי־ידוע של פרמטר <code>region</code> לנקודות ציון.",
+	"geodata-api-help-coordinates-format": "תסדיק: קו־רוחב וקו־אורך מופרדים במקל (<kbd>|</kbd>).",
+	"geodata-search-feature-invalid-coordinates": "נקודות הציון הגאוגרפיות \"$2\" שסופקו ל־\"$1\" לא יכלו להתפענח.",
+	"geodata-search-feature-invalid-distance": "המרחק הגאוגרפי \"$2\" שסופק ל־\"$1\" לא יכול להתפענח.",
+	"geodata-search-feature-unknown-title": "הכותרת \"$2\" שסופקה ל־\"$1\" אינה קיימת.",
+	"geodata-search-feature-title-no-coordinates": "בכותרת \"$2\" שסופקה ל־\"$1\" אין שום נקודות ציון.",
+	"geodata-search-timeout": "חיפוש נתונים גאוגרפיים לא החזיר תוצאות בזמן הרצוי. זמינות רק תוצאות חלקיות."
+}

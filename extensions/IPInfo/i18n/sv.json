@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga",
+			"WikiPhoenix"
+		]
+	},
+	"ipinfo-widget-source": "Källa: $1",
+	"ipinfo-preference-enable": "Se information om en IP-adress",
+	"ipinfo-rest-ip-invalid": "Angivna IP-adressen är ogiltig",
+	"ipinfo-source-geoip2": "GeoIp2",
+	"prefs-ipinfo": "IP-information"
+}

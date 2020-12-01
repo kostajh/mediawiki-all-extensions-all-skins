@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Melancholie"
+		]
+	},
+	"logentry-append": "Anfügen",
+	"logentry-parserhook-desc": "Diese Tag-Erweiterung bietet ein Formular zur Anhängung/Voranstellung in Logbuchseiten",
+	"logentry-specialpage-desc": "Diese Tag-Erweiterung bietet die Aufbereitung für Anhängungen an Logbuchseiten",
+	"logentry": "Logbucheintrag",
+	"logentry-invalidpage": "Ungültige Seite: $1",
+	"logentry-invalidtoken": "Ungültiges Token"
+}

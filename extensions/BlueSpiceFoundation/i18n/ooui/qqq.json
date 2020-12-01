@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Dejan Savuljesku",
+			"Raymond",
+			"Robby"
+		]
+	},
+	"bs-ooui-field-tagmultiselect-input-placeholder": "Placeholder for input field of OOUI TagMultiselectWidget",
+	"bs-ooui-key-value-input-widget-key-label": "Label for input field holding the key of a value in KeyValueInputWidget\n{{Identical|Key}}",
+	"bs-ooui-key-value-input-widget-value-label": "Label for input field holding the value of a value in KeyValueInputWidget\n{{Identical|Value}}",
+	"bs-ooui-key-value-input-widget-add-button-label": "Label for button used to add new values to KeyValueInputWidget",
+	"bs-ooui-key-value-input-widget-add-form-label": "Label for add new entry form in KeyValueInputWidget",
+	"bs-ooui-key-value-input-widget-error-message": "Message showing when validation failed on KeyValueInputWidget",
+	"bs-ooui-key-value-input-widget-no-values-label": "Message text showing when no values are set in KeyValueInputWidget",
+	"bs-ooui-btn-dismiss-alert-title": "Title text for the button to dismiss the site notice alert",
+	"bs-ooui-key-value-input-widget-section-label": "Label for input field holding the section key in MultiKeyValueInputWidget",
+	"bs-ooui-key-value-input-widget-add-section-label": "Label for add new entry section in MultiKeyValueInputWidget"
+}

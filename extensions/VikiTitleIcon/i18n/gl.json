@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"vikititleicon-desc": "Complemento VIKI para amosar icona nas páxinas que usan a extensión Title Icon",
+	"vikititleicon-error-fetch": "Erro ó obter os datos da icona do título para o nodo: $1.",
+	"apihelp-getTitleIcons-description": "Obter as URLs de tódalas iconas título da páxina, se hai algunha.",
+	"apihelp-getTitleIcons-param-pageTitle": "título da páxina das que quere obter as iconas de título"
+}

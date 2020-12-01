@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-uemoduledocx-extension-description": "Slår på eksporteringer til DOCX",
+	"bs-uemoduledocx-pref-SuppressNS": "Skjul navneromsprefikset i DOCX",
+	"bs-uemoduledocx-widgetlink-single-text": "DOCX-enkeltside",
+	"bs-uemoduledocx-widgetlink-single-title": "Eksporter denne siden som DOCX.",
+	"bs-uemoduledocx-overview-title": "Microsoft&reg; Office Open XML (DOCX)",
+	"bs-uemoduledocx-overview-description": "Eksporterer sider til Microsoft DOCX.",
+	"bs-uemoduledocx-overview-webservice-state-not-ok": "ikke tilgjengelig",
+	"bs-uemoduledocx-overview-webservice-state-ok": "tilgjengelig",
+	"bs-uemoduledocx-overview-webservice-webadmin": "Nettgrensesnitt for DOCXService (BShtml2DOCX)",
+	"bs-uemoduledocx-overview-webservice-state": "Status for DOCXService (BShtml2DOCX)"
+}

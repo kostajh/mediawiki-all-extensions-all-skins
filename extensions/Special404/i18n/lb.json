@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"special404-desc": "Erméiglecht eng Zilsäit fir \"404 Net fonnt\"-Feeler",
+	"error404": "404 Net fonnt",
+	"special404-body": "Déi URL, déi Dir gefrot hutt gouf net fonnt.\n\nWollt Dir wierklech {{fullurl:$1}} tippen?\n\nVläicht wëllt Dir op der:\n* [[{{MediaWiki:Mainpage}}|Haaptsäit]] kucken"
+}

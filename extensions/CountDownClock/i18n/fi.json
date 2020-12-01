@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"countDownClock-days": "$1 {{PLURAL:$1|päivä|päivää}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|tunti|tuntia}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|minuutti|minuuttia}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|sekunti|sekuntia}}"
+}

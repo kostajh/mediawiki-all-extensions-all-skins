@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"bs-bluespiceabout-desc": "ข้อมูลเกี่ยวกับ BlueSpice",
+	"bs-bluespiceabout-about-bluespice": "เกี่ยวกับ BlueSpice",
+	"bluespiceabout": "เกี่ยวกับ BlueSpice",
+	"prefs-bluespiceabout": "เกี่ยวกับ BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "แสดงลิงก์ \"{{int:bs-bluespiceabout-about-bluespice}}\" ในเมนูหลัก",
+	"action-bluespiceabout-viewspecialpage": "ดูหน้าพิเศษ \"{{int:bs-bluespiceabout-about-bluespice}}\"",
+	"right-bluespiceabout-viewspecialpage": "การเข้าถึงหน้าพิเศษ [[Special:BlueSpiceAbout]]"
+}

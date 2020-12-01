@@ -1,0 +1,9 @@
+{
+	"extends": [
+		"wikimedia/qunit"
+	],
+	"rules": {
+		"no-implicit-globals": "off",
+		"max-len": "off"
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"name": "Amethyst",
+	"version": "1.0.0-alpha",
+	"author": [
+		"Samantha Nguyen"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Amethyst",
+	"descriptionmsg": "amethyst-desc",
+	"license-name": "GPL-2.0+",
+	"type": "skin",
+	"ValidSkinNames": {
+		"amethyst": "Amethyst"
+	},
+	"MessagesDirs": {
+		"Amethyst": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Amethyst"
+	},
+	"ResourceModules": {
+		"skins.amethyst": {
+			"scripts": [
+				"resources/main.js"
+			]
+		},
+		"skins.amethyst.styles": {
+			"styles": {
+				"resources/screen-common.less": {
+					"media": "screen"
+				}
+			}
+		}
+	},
+	"AutoloadClasses": {
+		"SkinAmethyst": "includes/SkinAmethyst.php",
+		"AmethystTemplate": "includes/AmethystTemplate.php"
+	},
+	"manifest_version": 1
+}

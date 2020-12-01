@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2",
+			"Steeve815"
+		]
+	},
+	"bs-saferedit-desc": "מספקת אזהרות אם משתמשים אחרים עורכים את הדף",
+	"bs-saferedit-user-editing": "$1 {{GENDER:$1|עורך|עורכת}} את הדף",
+	"bs-saferedit-someone-editing": "הדף נערך כרגע",
+	"bs-saferedit-pref-interval": "לאחר כמה זמן לשמור גרסת גיבוי:",
+	"bs-saferedit-pref-shownameofeditinguser": "הצגת שם העורך הנוכחי"
+}

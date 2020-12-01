@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Libattery"
+		]
+	},
+	"multiboilerplate-desc": "문서 편집시 편집 폼 위에 상용 문구를 선택하는 드랍 다운 메뉴를 보여줍니다",
+	"multiboilerplate-legend": "상용 문구를 선택하십시오",
+	"multiboilerplate-submit": "입력",
+	"boilerplates": "상용 문구 목록",
+	"multiboilerplate-special-pagetext": "이 틀은 문서 생성시에 사전 입력됩니다. (<span class=plainlinks>[{{fullurl:Project:상용 문구 예문|action=edit}} 예문 보기]</span>)",
+	"multiboilerplate-special-define-in-interface": "상용 문구가 [[MediaWiki:Multiboilerplate]]에 정의되었습니다.",
+	"multiboilerplate-special-no-boilerplates": "어디에도 상용 문구가 정의되지 않았습니다.",
+	"multiboilerplate-nonexistant-page": "상용 문구 문서가 존재하지 않습니다: \"$1\""
+}

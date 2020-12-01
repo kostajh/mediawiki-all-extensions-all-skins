@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"pluggablesso-desc": "PluggableAuth-এর সাথে সংযুক্ত $REMOTE_USER-এর মধ্যে ওয়েব সার্ভার দ্বারা সরবরাহিত SSO ব্যবহার করে",
+	"pluggablesso-no-session": "কোন ব্যবহারকারীর নাম নেই, কোনভাবে সেশন ব্যর্থ হয়েছে।",
+	"pluggablesso-username-mismatch": "ব্যবহারকারী নাম সেশনের সাথে মিলছে না"
+}

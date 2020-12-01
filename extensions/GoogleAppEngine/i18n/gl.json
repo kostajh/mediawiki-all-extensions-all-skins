@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"gae-desc": "Proporciona melloras ás wikis que están a executarse sobre GoogleAppEngine",
+	"apihelp-gaejobqueue-description": "Módulo API interno para executar a lista de traballos (JobQueue). Non está permitido o uso dende o exterior.",
+	"apihelp-gaejobqueue-summary": "Módulo interno da API para executar a cola de tarefas JobQueue. O uso externo non está permitido.",
+	"apihelp-gaejobqueue-param-namespace": "Identificador numérico do espazo de nomes.",
+	"apihelp-gaejobqueue-param-titletext": "Texto do título sen o espazo de nomes.",
+	"apihelp-gaejobqueue-param-type": "Tipo de traballo.",
+	"apihelp-gaejobqueue-param-params": "Parámetros PHP serializados para o traballo."
+}

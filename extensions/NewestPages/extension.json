@@ -1,0 +1,32 @@
+{
+	"name": "Newest Pages",
+	"version": "1.22",
+	"author": [
+		"Rob Church"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:Newest_Pages",
+	"descriptionmsg": "newestpages-desc",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"config": {
+		"NewestPagesLimit": 50
+	},
+	"SpecialPages": {
+		"NewestPages": "SpecialNewestPages"
+	},
+	"MessagesDirs": {
+		"NewestPages": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"NewestPagesAlias": "NewestPages.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialNewestPages": "SpecialNewestPages.php"
+	},
+	"manifest_version": 1
+}

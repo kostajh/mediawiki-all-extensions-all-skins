@@ -1,0 +1,577 @@
+{
+	"name": "FlaggedRevs",
+	"namemsg": "flaggedrevs",
+	"author": [
+		"Aaron Schulz",
+		"Joerg Baach"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:FlaggedRevs",
+	"descriptionmsg": "flaggedrevs-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.36.0"
+	},
+	"callback": "FlaggedRevsHooks::onRegistration",
+	"ExtensionFunctions": [
+		"FlaggedRevsHooks::onExtensionFunctions"
+	],
+	"ActionFilteredLogs": {
+		"review": {
+			"accept": [
+				"approve",
+				"approve2",
+				"approve-i",
+				"approve2-i"
+			],
+			"autoaccept": [
+				"approve-a",
+				"approve-ia"
+			],
+			"unaccept": [
+				"unapprove",
+				"unapprove2"
+			]
+		},
+		"stable": {
+			"config": [
+				"config"
+			],
+			"modify": [
+				"modify"
+			],
+			"reset": [
+				"reset"
+			],
+			"move_stable": [
+				"move_stable"
+			]
+		}
+	},
+	"AddGroups": {
+		"sysop": [
+			"editor",
+			"autoreview"
+		]
+	},
+	"APIListModules": {
+		"oldreviewedpages": "ApiQueryOldreviewedpages"
+	},
+	"APIModules": {
+		"review": "ApiReview",
+		"reviewactivity": "ApiReviewActivity",
+		"flagconfig": "ApiFlagConfig"
+	},
+	"APIPropModules": {
+		"flagged": "ApiQueryFlagged"
+	},
+	"AvailableRights": [
+		"review",
+		"validate",
+		"autoreview",
+		"autoreviewrestore",
+		"unreviewedpages",
+		"movestable",
+		"stablesettings"
+	],
+	"DefaultUserOptions": {
+		"flaggedrevssimpleui": 1,
+		"flaggedrevsstable": 0,
+		"flaggedrevseditdiffs": true,
+		"flaggedrevsviewdiffs": false
+	},
+	"FilterLogTypes": {
+		"review": true
+	},
+	"GrantPermissions": {
+		"basic": {
+			"autoreview": true,
+			"autoreviewrestore": true,
+			"unreviewedpages": true
+		},
+		"patrol": {
+			"review": true,
+			"validate": true
+		},
+		"protect": {
+			"stablesettings": true
+		},
+		"editprotected": {
+			"movestable": true
+		}
+	},
+	"GroupPermissions": {
+		"editor": {
+			"review": true,
+			"autoreview": true,
+			"autoconfirmed": true,
+			"editsemiprotected": true,
+			"unreviewedpages": true
+		},
+		"reviewer": {
+			"validate": true,
+			"review": true,
+			"autoreview": true,
+			"autoconfirmed": true,
+			"editsemiprotected": true,
+			"unreviewedpages": true
+		},
+		"sysop": {
+			"autoreview": true,
+			"stablesettings": true,
+			"movestable": true
+		},
+		"autoreview": {
+			"autoreview": true
+		},
+		"bot": {
+			"autoreview": true
+		}
+	},
+	"JobClasses": {
+		"flaggedrevs_CacheUpdate": "FRExtraCacheUpdateJob"
+	},
+	"LogActions": {
+		"rights/erevoke": "rights-editor-revoke"
+	},
+	"LogActionsHandlers": {
+		"review/approve": "FlaggedRevsReviewLogFormatter",
+		"review/approve2": "FlaggedRevsReviewLogFormatter",
+		"review/approve-i": "FlaggedRevsReviewLogFormatter",
+		"review/approve2-i": "FlaggedRevsReviewLogFormatter",
+		"review/approve-a": "FlaggedRevsReviewLogFormatter",
+		"review/approve2-a": "FlaggedRevsReviewLogFormatter",
+		"review/approve-ia": "FlaggedRevsReviewLogFormatter",
+		"review/approve2-ia": "FlaggedRevsReviewLogFormatter",
+		"review/unapprove": "FlaggedRevsReviewLogFormatter",
+		"review/unapprove2": "FlaggedRevsReviewLogFormatter",
+		"stable/config": "FlaggedRevsStableLogFormatter",
+		"stable/modify": "FlaggedRevsStableLogFormatter",
+		"stable/reset": "FlaggedRevsStableLogFormatter",
+		"stable/move_stable": "FlaggedRevsStableLogFormatter"
+	},
+	"LogHeaders": {
+		"review": "review-logpagetext",
+		"stable": "stable-logpagetext"
+	},
+	"LogNames": {
+		"review": "review-logpage",
+		"stable": "stable-logpage"
+	},
+	"LogTypes": [
+		"review",
+		"stable"
+	],
+	"RemoveGroups": {
+		"sysop": [
+			"editor",
+			"autoreview"
+		]
+	},
+	"MessagesDirs": {
+		"FlaggedRevs": [
+			"i18n/flaggedrevs",
+			"i18n/revisionreview",
+			"i18n/stabilization",
+			"i18n/reviewedversions",
+			"i18n/unreviewedpages",
+			"i18n/pendingchanges",
+			"i18n/problemchanges",
+			"i18n/reviewedpages",
+			"i18n/stablepages",
+			"i18n/configuredpages",
+			"i18n/qualityoversight",
+			"i18n/validationstatistics",
+			"i18n/api"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"FlaggedRevsMagic": "frontend/language/FlaggedRevs.i18n.magic.php",
+		"FlaggedRevsAliases": "frontend/language/FlaggedRevs.alias.php"
+	},
+	"AutoloadClasses": {
+		"FlaggedRevsSetup": "FlaggedRevsSetup.php",
+		"FlaggedRevs": "backend/FlaggedRevs.php",
+		"FRUserCounters": "backend/FRUserCounters.php",
+		"FRUserActivity": "backend/FRUserActivity.php",
+		"FRPageConfig": "backend/FRPageConfig.php",
+		"FlaggedRevsLog": "backend/FlaggedRevsLog.php",
+		"FRInclusionCache": "backend/FRInclusionCache.php",
+		"FlaggedRevsStats": "backend/FlaggedRevsStats.php",
+		"FRExtraCacheUpdate": "backend/FRExtraCacheUpdate.php",
+		"FRExtraCacheUpdateJob": "backend/FRExtraCacheUpdateJob.php",
+		"FRDependencyUpdate": "backend/FRDependencyUpdate.php",
+		"FRStableVersionUpdate": "backend/FRStableVersionUpdate.php",
+		"FRInclusionManager": "backend/FRInclusionManager.php",
+		"FlaggableWikiPage": "backend/FlaggableWikiPage.php",
+		"FlaggedRevision": "backend/FlaggedRevision.php",
+		"FRGenericSubmitForm": "business/FRGenericSubmitForm.php",
+		"RevisionReviewForm": "business/RevisionReviewForm.php",
+		"PageStabilityForm": "business/PageStabilityForm.php",
+		"PageStabilityGeneralForm": "business/PageStabilityGeneralForm.php",
+		"PageStabilityProtectForm": "business/PageStabilityProtectForm.php",
+		"FlaggablePageView": "frontend/FlaggablePageView.php",
+		"FlaggedRevsHookRunner": "backend/hook/FlaggedRevsHookRunner.php",
+		"FlaggedRevsFRGenericSubmitFormReadyHook": "backend/hook/FlaggedRevsFRGenericSubmitFormReadyHook.php",
+		"FlaggedRevsRevisionReviewFormAfterDoSubmitHook": "backend/hook/FlaggedRevsRevisionReviewFormAfterDoSubmitHook.php",
+		"FlaggedRevsReviewLogFormatter": "frontend/FlaggedRevsReviewLogFormatter.php",
+		"FlaggedRevsStableLogFormatter": "frontend/FlaggedRevsStableLogFormatter.php",
+		"FlaggedRevsXML": "frontend/FlaggedRevsXML.php",
+		"RevisionReviewFormUI": "frontend/RevisionReviewFormUI.php",
+		"RejectConfirmationFormUI": "frontend/RejectConfirmationFormUI.php",
+		"RevisionReview": "frontend/specialpages/actions/RevisionReview.php",
+		"Stabilization": "frontend/specialpages/actions/Stabilization.php",
+		"ReviewedVersions": "frontend/specialpages/reports/ReviewedVersions.php",
+		"ReviewedVersionsPager": "frontend/specialpages/reports/ReviewedVersionsPager.php",
+		"UnreviewedPages": "frontend/specialpages/reports/UnreviewedPages.php",
+		"UnreviewedPagesPager": "frontend/specialpages/reports/UnreviewedPagesPager.php",
+		"PendingChanges": "frontend/specialpages/reports/PendingChanges.php",
+		"PendingChangesPager": "frontend/specialpages/reports/PendingChangesPager.php",
+		"ProblemChanges": "frontend/specialpages/reports/ProblemChanges.php",
+		"ProblemChangesPager": "frontend/specialpages/reports/ProblemChangesPager.php",
+		"ReviewedPages": "frontend/specialpages/reports/ReviewedPages.php",
+		"ReviewedPagesPager": "frontend/specialpages/reports/ReviewedPagesPager.php",
+		"StablePages": "frontend/specialpages/reports/StablePages.php",
+		"StablePagesPager": "frontend/specialpages/reports/StablePagesPager.php",
+		"ConfiguredPages": "frontend/specialpages/reports/ConfiguredPages.php",
+		"ConfiguredPagesPager": "frontend/specialpages/reports/ConfiguredPagesPager.php",
+		"QualityOversight": "frontend/specialpages/reports/QualityOversight.php",
+		"ValidationStatistics": "frontend/specialpages/reports/ValidationStatistics.php",
+		"ApiReview": "api/actions/ApiReview.php",
+		"ApiReviewActivity": "api/actions/ApiReviewActivity.php",
+		"ApiStabilize": "api/actions/ApiStabilize.php",
+		"ApiStabilizeGeneral": "api/actions/ApiStabilizeGeneral.php",
+		"ApiStabilizeProtect": "api/actions/ApiStabilizeProtect.php",
+		"ApiQueryOldreviewedpages": "api/reports/ApiQueryOldreviewedpages.php",
+		"ApiQueryUnreviewedpages": "api/reports/ApiQueryUnreviewedpages.php",
+		"ApiQueryReviewedpages": "api/reports/ApiQueryReviewedpages.php",
+		"ApiQueryConfiguredpages": "api/reports/ApiQueryConfiguredpages.php",
+		"ApiQueryFlagged": "api/reports/ApiQueryFlagged.php",
+		"ApiFlagConfig": "api/reports/ApiFlagConfig.php",
+		"FlaggedRevsScribuntoLuaLibrary": "scribunto/FlaggedRevsScribuntoLuaLibrary.php",
+		"FlaggedRevsHooks": "backend/FlaggedRevsHooks.php",
+		"FlaggedRevsUIHooks": "frontend/FlaggedRevsUIHooks.php",
+		"FlaggedRevsApiHooks": "api/FlaggedRevsApiHooks.php",
+		"FlaggedRevsUpdaterHooks": "backend/schema/FlaggedRevsUpdaterHooks.php"
+	},
+	"TestAutoloadClasses": {
+		"FlaggedRevsTestHooks": "tests/phpunit/FlaggedRevsTestHooks.php"
+	},
+	"ResourceModules": {
+		"ext.flaggedRevs.basic": {
+			"skinStyles": {
+				"default": [
+					"ext.flaggedRevs.basic.css"
+				],
+				"minerva": [
+					"ext.flaggedRevs.basic.minerva.css"
+				]
+			},
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.flaggedRevs.advanced": {
+			"scripts": [
+				"ext.flaggedRevs.advanced.js"
+			],
+			"messages": [
+				"revreview-toggle-show",
+				"revreview-toggle-hide",
+				"revreview-diff-toggle-show",
+				"revreview-diff-toggle-hide",
+				"revreview-log-toggle-show",
+				"revreview-log-toggle-hide",
+				"revreview-log-details-show",
+				"revreview-log-details-hide"
+			],
+			"dependencies": [
+				"mediawiki.util"
+			]
+		},
+		"ext.flaggedRevs.review": {
+			"scripts": [
+				"ext.flaggedRevs.review.js"
+			],
+			"messages": [
+				"publishchanges",
+				"tooltip-publish",
+				"savearticle",
+				"tooltip-save",
+				"revreview-submitedit",
+				"revreview-submitedit-title",
+				"revreview-submit-review",
+				"revreview-submit-unreview",
+				"revreview-submit-reviewed",
+				"revreview-submit-unreviewed",
+				"revreview-submitting",
+				"actioncomplete",
+				"actionfailed",
+				"revreview-adv-reviewing-p",
+				"revreview-adv-reviewing-c",
+				"revreview-sadv-reviewing-p",
+				"revreview-sadv-reviewing-c",
+				"revreview-adv-start-link",
+				"revreview-adv-stop-link"
+			],
+			"dependencies": [
+				"mediawiki.util",
+				"mediawiki.user",
+				"mediawiki.jqueryMsg"
+			]
+		},
+		"ext.flaggedRevs.review.styles": {
+			"styles": [
+				"ext.flaggedRevs.review.css"
+			]
+		},
+		"ext.flaggedRevs.icons": {
+			"class": "ResourceLoaderOOUIIconPackModule",
+			"variants": {},
+			"icons": [
+				"block",
+				"check",
+				"eye",
+				"articleSearch",
+				"articleCheck"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "frontend/modules",
+		"remoteExtPath": "FlaggedRevs/frontend/modules"
+	},
+	"Hooks": {
+		"APIGetAllowedParams": "FlaggedRevsApiHooks::addApiRevisionParams",
+		"APIQueryAfterExecute": "FlaggedRevsApiHooks::addApiRevisionData",
+		"ArticleDeleteComplete": "FlaggedRevsHooks::onArticleDelete",
+		"ArticleMergeComplete": "FlaggedRevsHooks::onArticleMergeComplete",
+		"ArticleRevisionVisibilitySet": "FlaggedRevsHooks::onRevisionDelete",
+		"ArticleUndelete": "FlaggedRevsHooks::onArticleUndelete",
+		"ArticleUpdateBeforeRedirect": "FlaggedRevsUIHooks::injectPostEditURLParams",
+		"ArticleViewHeader": "FlaggedRevsUIHooks::onArticleViewHeader",
+		"AutopromoteCondition": "FlaggedRevsHooks::checkAutoPromoteCond",
+		"BeforePageDisplay": "FlaggedRevsUIHooks::onBeforePageDisplay",
+		"BeforeParserFetchFileAndTitle": "FlaggedRevsHooks::parserFetchStableFile",
+		"BeforeRevertedTagUpdate": "FlaggedRevsHooks::onBeforeRevertedTagUpdate",
+		"CategoryPageView": "FlaggedRevsUIHooks::onCategoryPageView",
+		"ChangesListInsertArticleLink": "FlaggedRevsUIHooks::addToChangeListLine",
+		"ChangesListSpecialPageQuery": "FlaggedRevsUIHooks::modifyChangesListSpecialPageQuery",
+		"ChangesListSpecialPageStructuredFilters": "FlaggedRevsUIHooks::addHideReviewedFilter",
+		"ContribsPager::getQueryInfo": "FlaggedRevsUIHooks::addToContribsQuery",
+		"ContributionsLineEnding": "FlaggedRevsUIHooks::addToContribsLine",
+		"DeleteAccount": "FlaggedRevsHooks::onDeleteAccount",
+		"DifferenceEngineViewHeader": "FlaggedRevsUIHooks::onDifferenceEngineViewHeader",
+		"EchoGetDefaultNotifiedUsers": "FlaggedRevsHooks::onEchoGetDefaultNotifiedUsers",
+		"EditPage::showEditForm:fields": "FlaggedRevsUIHooks::addRevisionIDField",
+		"EditPage::showEditForm:initial": "FlaggedRevsUIHooks::addToEditView",
+		"EditPageBeforeEditButtons": "FlaggedRevsUIHooks::onBeforeEditButtons",
+		"EditPageGetCheckboxesDefinition": "FlaggedRevsUIHooks::onEditPageGetCheckboxesDefinition",
+		"EditPageNoSuchSection": "FlaggedRevsUIHooks::onNoSuchSection",
+		"FileUpload": "FlaggedRevsHooks::onFileUpload",
+		"GetPreferences": "FlaggedRevsUIHooks::onGetPreferences",
+		"getUserPermissionsErrors": "FlaggedRevsHooks::onGetUserPermissionsErrors",
+		"GoogleNewsSitemap::Query": "FlaggedRevsHooks::gnsmQueryModifier",
+		"ImagePageFileHistoryLine": "FlaggedRevsUIHooks::addToFileHistLine",
+		"ImagePageFindFile": "FlaggedRevsUIHooks::onImagePageFindFile",
+		"InitializeArticleMaybeRedirect": "FlaggedRevsUIHooks::overrideRedirect",
+		"LoadExtensionSchemaUpdates": "FlaggedRevsUpdaterHooks::addSchemaUpdates",
+		"LocalFile::getHistory": "FlaggedRevsUIHooks::addToFileHistQuery",
+		"MagicWordwgVariableIDs": "FlaggedRevsHooks::onMagicWordwgVariableIDs",
+		"MakeGlobalVariablesScript": "FlaggedRevsUIHooks::onMakeGlobalVariablesScript",
+		"MergeAccountFromTo": "FlaggedRevsHooks::onMergeAccountFromTo",
+		"NewDifferenceEngine": "FlaggedRevsUIHooks::checkDiffUrl",
+		"RevisionFromEditComplete": [
+			"FlaggedRevsHooks::incrementReverts",
+			"FlaggedRevsHooks::maybeMakeEditReviewed"
+		],
+		"PageSaveComplete": [
+			"FlaggedRevsHooks::maybeNullEditReview",
+			"FlaggedRevsHooks::onPageSaveComplete"
+		],
+		"PageHistoryBeforeList": "FlaggedRevsUIHooks::addToHistView",
+		"PageHistoryLineEnding": "FlaggedRevsUIHooks::addToHistLine",
+		"PageHistoryPager::getQueryInfo": "FlaggedRevsUIHooks::addToHistQuery",
+		"PageMoveComplete": "FlaggedRevsHooks::onPageMoveComplete",
+		"ParserFirstCallInit": "FlaggedRevsHooks::onParserFirstCallInit",
+		"ParserGetVariableValueSwitch": "FlaggedRevsHooks::onParserGetVariableValueSwitch",
+		"ParserTestTables": "FlaggedRevsTestHooks::onParserTestTables",
+		"ProtectionForm::buildForm": "FlaggedRevsUIHooks::onProtectionForm",
+		"ProtectionForm::save": "FlaggedRevsUIHooks::onProtectionSave",
+		"ProtectionForm::showLogExtract": "FlaggedRevsUIHooks::insertStabilityLog",
+		"RecentChange_save": "FlaggedRevsHooks::autoMarkPatrolled",
+		"RevisionDataUpdates": "FlaggedRevsHooks::onRevisionDataUpdates",
+		"RevisionUndeleted": "FlaggedRevsHooks::onRevisionRestore",
+		"RollbackComplete": "FlaggedRevsHooks::incrementRollbacks",
+		"ScribuntoExternalLibraries": "FlaggedRevsHooks::onScribuntoExternalLibraries",
+		"SkinAfterContent": "FlaggedRevsUIHooks::onSkinAfterContent",
+		"SkinTemplateNavigation::Universal": "FlaggedRevsUIHooks::onSkinTemplateNavigationUniversal",
+		"SpecialNewpagesConditions": "FlaggedRevsUIHooks::modifyNewPagesQuery",
+		"SpecialNewPagesFilters": "FlaggedRevsUIHooks::addHideReviewedUnstructuredFilter",
+		"SpecialPage_initList": "FlaggedRevsUIHooks::onSpecialPageInitList",
+		"TitleGetEditNotices": "FlaggedRevsUIHooks::getEditNotices",
+		"UserGetRights": "FlaggedRevsHooks::onUserGetRights",
+		"UserLoadAfterLoadFromSession": "FlaggedRevsHooks::setSessionKey",
+		"UserMergeAccountFields": "FlaggedRevsHooks::onUserMergeAccountFields",
+		"WikiExporter::dumpStableQuery": "FlaggedRevsHooks::stableDumpQuery"
+	},
+	"config": {
+		"SimpleFlaggedRevsUI": {
+			"description": "This will only distinguish \"checked\", \"quality\", and unreviewed. A small icon will show in the upper right hand corner",
+			"value": true
+		},
+		"FlaggedRevsLowProfile": {
+			"description": "For visitors, only show tags/icons for unreviewed/outdated pages",
+			"value": true
+		},
+		"FlaggedRevsNamespaces": {
+			"description": "Allowed namespaces of reviewable pages",
+			"value": [
+				0,
+				6,
+				10
+			]
+		},
+		"FlaggedRevsWhitelist": {
+			"description": "Pages exempt from reviewing. No flagging UI will be shown for them",
+			"value": []
+		},
+		"FlaggedRevsOverride": {
+			"description": "Is a \"stable version\" used as the default display version for all pages in reviewable namespaces?",
+			"value": true
+		},
+		"FlaggedRevsExceptions": {
+			"description": "Below are groups that see the current revision by default. This makes editing easier since the users always start off viewing the latest version of pages.",
+			"value": [
+				"user"
+			]
+		},
+		"FlaggedRevsAutoReview": {
+			"description": [
+				"Auto-review settings for edits/new pages:",
+				"0 - (FR_AUTOREVIEW_NONE)",
+				"  Don't auto-review any edits or new pages",
+				"1 - (FR_AUTOREVIEW_CHANGES)",
+				"  Auto-review the following types of edits (to existing pages):",
+				"  (a) changes directly to the stable version by users with 'autoreview'/'bot'",
+				"  (b) reversions to old reviewed versions by users with 'autoreview'/'bot'",
+				"  (c) self-reversions back to the stable version by any user",
+				"2 - (FR_AUTOREVIEW_CREATION)",
+				"  Auto-review new pages as minimally \"checked\"",
+				"3 - (FR_AUTOREVIEW_CREATION_AND_CHANGES)",
+				"  Combines FR_AUTOREVIEW_CHANGES (1) and FR_AUTOREVIEW_CREATION (2)"
+			],
+			"value": 3
+		},
+		"FlaggedRevsTags": {
+			"description": [
+				"Define the tags we can use to rate an article, number of levels, and set the minimum level to have it become a \"quality\" or \"pristine\" version.",
+				"NOTE: When setting up new dimensions or levels, you will need to add some MediaWiki messages for the UI to show properly; any sysop can do this."
+			],
+			"value": {
+				"accuracy": {
+					"levels": 3,
+					"quality": 2,
+					"pristine": 4
+				},
+				"depth": {
+					"levels": 3,
+					"quality": 1,
+					"pristine": 4
+				},
+				"style": {
+					"levels": 3,
+					"quality": 1,
+					"pristine": 4
+				}
+			}
+		},
+		"FlaggedRevsTagsRestrictions": {
+			"description": [
+				"For each tag, define the highest tag level that is unlocked by having certain rights. For example, having 'review' rights may allow for \"depth\" to be rated up to second level.",
+				"NOTE: Users cannot lower revision tags from a level they can't set",
+				"NOTE: Users with 'validate' (Reviewers) can set all tags to all levels"
+			],
+			"value": {
+				"accuracy": {
+					"review": 1,
+					"autoreview": 1
+				},
+				"depth": {
+					"review": 2,
+					"autoreview": 2
+				},
+				"style": {
+					"review": 3,
+					"autoreview": 3
+				}
+			}
+		},
+		"FlaggedRevsTagsAuto": {
+			"description": "For each tag, what is the highest level that it can be auto-reviewed to? $wgFlaggedRevsAutoReview must be enabled for this to apply",
+			"value": {
+				"accuracy": 1,
+				"depth": 1,
+				"style": 1
+			}
+		},
+		"FlaggedRevsRestrictionLevels": {
+			"description": "Restriction levels for 'autoreview'/'review' rights. When a level is selected for a page, an edit made by a user will not be auto-reviewed if the user lacks the specified permission. Levels are set at the Stabilization special page.",
+			"value": [
+				"",
+				"sysop"
+			]
+		},
+		"FlaggedRevsProtection": {
+			"description": [
+				"Set this to use FlaggedRevs *only* as a protection-like mechanism.",
+				"This will disable Stabilization and show the above restriction levels on the protection form of pages. Each level has the stable version shown by default.",
+				"A \"none\" level will appear in the form as well, to disable the review process.",
+				"Pages will only be reviewable if manually restricted to a level above \"none\"."
+			],
+			"value": false
+		},
+		"FlaggedRevsAutopromote": {
+			"description": "Define when users get automatically promoted to Editors. Set as false to disable. Once users meet these requirements they will be promoted, unless previously demoted.",
+			"value": false
+		},
+		"FlaggedRevsAutoconfirm": {
+			"description": "Define when users get to have their own edits auto-reviewed. Set to false to disable. This can be used for newer, semi-trusted users to improve workflow. It is done by granting some users the implicit 'autoreview' group.",
+			"value": false
+		},
+		"FlaggedRevsOversightAge": {
+			"description": "How far the logs for overseeing quality revisions and depreciations go",
+			"value": 2592000
+		},
+		"FlaggedRevsStatsAge": {
+			"description": "How long before Special:ValidationStatistics is updated. Set to false to disable (perhaps using a cron job instead).",
+			"value": 7200
+		},
+		"FlaggedRevsStats": {
+			"description": [
+				"Configurable information to collect and display at Special:ValidationStatistics",
+				" topReviewersCount - how many top reviewers to list",
+				" topReviewersHours - how many hours of the last reviews to count"
+			],
+			"value": {
+				"topReviewersCount": 5,
+				"topReviewersHours": 1
+			}
+		},
+		"FlaggedRevsHandleIncludes": {
+			"description": [
+				"How to handle templates and files used in stable versions:",
+				"0 - (FR_INCLUDES_CURRENT)",
+				"  Always use the current version of templates/files",
+				"1 - (FR_INCLUDES_FREEZE)",
+				"  Use the version of templates/files that the page used when reviewed",
+				"2 - (FR_INCLUDES_STABLE)",
+				"  For each template/file, check if a version of it was used when the page was reviewed and if the template/file itself has a stable version; use the newest those versions",
+				"NOTE: We may have templates that do not have stable version. Also, given situational inclusion of templates (e.g. parser functions selecting template X or Y based on date) there may also be no \"review time version\" revision ID for a template used on a page. In such cases, we select the current (unreviewed) revision. Likewise for files."
+			],
+			"value": 2
+		}
+	},
+	"manifest_version": 2
+}

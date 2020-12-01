@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Firilacroco",
+			"NGC 54"
+		]
+	},
+	"grouppage-oversight": "{{ns:project}}:Supraveghetori",
+	"group-oversight": "Supraveghetori",
+	"group-oversight-member": "{{GENDER:$1|supraveghetor|supraveghetoare|supraveghetor}}"
+}

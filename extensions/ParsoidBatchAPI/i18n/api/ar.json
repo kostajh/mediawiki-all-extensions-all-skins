@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"apihelp-parsoid-batch-description": "تجميع API (لـParsoid) لجعل طلبات API ميدياويكي مجمعة",
+	"apihelp-parsoid-batch-summary": "دفعة API لـParsoid",
+	"apihelp-parsoid-batch-param-batch": "طلبات API الإجراء (500 كحد أقصى لكل مطابقة).",
+	"apierror-parsoid-batch-notallowed": "عنوان أيبي العميل ليس في ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "دفعة غير صالحة; يجب أن تكون مجموعة.",
+	"apierror-parsoid-batch-batchtoolarge": "الدفعة الكبيرة جدا; الحد 500.",
+	"apierror-parsoid-batch-invalidaction": "إجراء غير صالح في فهرس العناصر $1.",
+	"apierror-parsoid-batch-texttoobig": "نص الإدخال يتجاوز الحد الأقصى لحجم الصفحة.",
+	"apierror-parsoid-batch-invalidtitle": "عنوان غير صالح ($1).",
+	"apierror-parsoid-batch-mustbescalar": "يجب أن يكون الوسيط <var>$1</var> مفردا.",
+	"apierror-parsoid-batch-mustbearray": "يجب أن يكون الوسيط <var>$1</var> مصفوفة."
+}

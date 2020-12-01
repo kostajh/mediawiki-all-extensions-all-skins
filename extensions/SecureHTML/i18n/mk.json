@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"securehtml": "Безбеден HTML",
+	"securehtml-desc": "Овозможува вклучување на произволен HTML на повластен и безбеден начин",
+	"securehtml-nokeys": "Грешка: <code>$wgSecureHTMLSecrets</code> е празен.",
+	"securehtml-hashrequired": "Грешка: Треба тараба.",
+	"securehtml-invalidhash": "Грешка: Неважечка тараба.",
+	"securehtml-input-title": "HTML-внос",
+	"securehtml-generatedoutput-title": "Создаден извод",
+	"securehtml-renderedhhtml-title": "Испишан HTML",
+	"securehtml-form-keyname": "Име на клучот (незадолжително)",
+	"securehtml-form-keysecret": "Клучна тајна",
+	"securehtml-form-html": "Сиров HTML",
+	"securehtml-form-submit": "Поднеси",
+	"securehtml-inputinstructions": "Внесете клучно име (незадолжително), клучна тајна и саканиот сиров HTML.\nАко не се назначи клучно име, ќе се користи првиот клуч во <code>$wgSecureHTMLSecrets</code>.",
+	"securehtml-outputinstructions": "Прекопирајте го гореприкажаниот код ТОЧНО и ставете го во уредникот.\nАко создадениот код не работи, отстранете ги сите каналски редови од вносниот HTML и пресоздајте го."
+}

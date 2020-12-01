@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Mansil alfalb",
+			"Vitorvicentevalente"
+		]
+	},
+	"bs-socialblog-desc": "Entidade de blogue para BlueSpiceSocial",
+	"bs-socialblog-type": "Blogue",
+	"blog": "Blogue",
+	"bs-socialblog-entityblog-header-create": "Blogue novo",
+	"bs-socialblog-var-blogtitle": "Título",
+	"bs-socialblog-entityblog-content-more-btn-more": "Mais",
+	"bs-socialblog-entityblog-content-more-btn-less": "Menos",
+	"bs-socialblog-toc-useblogteaser": "Usar texto promocional para entradas de blogue na linha cronológica",
+	"bs-socialblog-special-blog-heading": "Blogue",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notifications-blog-create": "{{GENDER:$1|O utilizador|A utilizadora}} $2 criou o novo blogue \"$3\"",
+	"bs-social-notifications-email-blog-create-subject": "{{GENDER:$1|O utilizador|A utilizadora}} $2 criou o novo blogue \"$3\"",
+	"bs-social-notifications-email-blog-create-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 criou o novo blogue \"$3\" com o seguinte texto:\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 criou o novo blogue \"$3\"",
+	"bs-social-notifications-blog-edit": "{{GENDER:$1|O utilizador|A utilizadora}} $2 editou o blogue \"$3\"",
+	"bs-social-notifications-email-blog-edit-subject": "{{GENDER:$1|O utilizador|A utilizadora}} $2 editou o blogue \"$3\"",
+	"bs-social-notifications-email-blog-edit-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 editou o blogue \"$3\". O novo texto é:\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 editou o blogue \"$3\"",
+	"bs-social-notifications-blog-delete": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou o blogue \"$3\"",
+	"bs-social-notifications-email-blog-delete-subject": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou o blogue \"$3\"",
+	"bs-social-notifications-email-blog-delete-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou o blogue \"$3\"",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou o blogue \"$3\"",
+	"bs-social-notification-blog-primary-link-label": "Ver blogue"
+}

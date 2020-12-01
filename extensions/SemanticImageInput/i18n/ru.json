@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diman Russkov",
+			"Pastakhov"
+		]
+	},
+	"sii-desc": "Добавляет поле для загрузки изображений из Wikipedia в [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms формы страниц]",
+	"sii-imageinput-loading": "Идёт загрузка изображения…"
+}

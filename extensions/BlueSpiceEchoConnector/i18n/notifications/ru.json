@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diman Russkov",
+			"DmitTrix",
+			"Facenapalm",
+			"Movses",
+			"Okras",
+			"Romanko Mikhail",
+			"Vlad5250"
+		]
+	},
+	"bs-notifications-addaccount": "Участник \"$1\" был создан.",
+	"bs-notifications-email-addaccount-subject": "{{GENDER:$1|Создан участник|Создана участница}} с именем $2",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|Создан участник|Создана участница}} с именем $2.\n\nВы можете посетить {{GENDER:$1|его|её}} страницу, перейдя по ссылке ниже",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Создатель|Создательница}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Создатель|Создательница}}: $1",
+	"bs-notifications-registeruser": "Пользователь \"$1\" создал аккаунт.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|Участник|Участница}} \"$2\" {{GENDER:$1|создал|создала}} аккаунт",
+	"bs-notifications-edit": "Страница «$1» была изменена",
+	"bs-notifications-email-edit-subject": "Страница «$1» отредактирована $4 {{GENDER:$2|участником|участницей}} $3",
+	"bs-notifications-email-edit-body": "Страница «$1» была отредактирована $5 {{GENDER:$2|участником|участницей}} $4.\n\nКомментарий:\n$3",
+	"bs-notifications-web-edit-body": "Страница «$1» была {{GENDER:$2|отредактирована}} $3.",
+	"bs-notifications-create": "Страница \"$1\" была создана",
+	"bs-notifications-email-create-subject": "Страница «$1» была создана  $4 {{GENDER:$2|участником|участницей}} $3.",
+	"bs-notifications-email-create-body": "Страница «$1» была создана $5 {{GENDER:$2|участником|участницей}} $3.\n\nКомментарий:\n$4\nЧтобы посетить страницу, перейдите по ссылке ниже",
+	"bs-notifications-web-create-body": "Страница «$1» была {{GENDER:$2|создана}} $3.",
+	"bs-notifications-delete": "Страница «$1» была удалена",
+	"bs-notifications-email-delete-subject": "Страница «$1» была удалена $4 {{GENDER:$2|участником|участницей}} $3",
+	"bs-notifications-email-delete-body": "Страница «$1» была удалена $5 {{GENDER:$2|участником|участницей}} $3.\n\nПричина:\n$4",
+	"bs-notifications-web-delete-body": "Страница «$1» была {{GENDER:$2|удалена}} $3.",
+	"bs-notifications-move": "Страница «$1» была перемещена",
+	"bs-notifications-email-move-subject": "Страница «$1» была перемещена в «$3» $5 {{GENDER:$2|участником|участницей}} $4",
+	"bs-notifications-email-move-body": "Страница «$1» была перемещена в «$3» $6 {{GENDER:$2|участником|участницей}} $4. \n\nПричиной указано:\n$5\n\nВы можете посетить страницу по ссылке ниже",
+	"bs-notifications-edit-difflink-label": "Показать отличия",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Добро пожаловать}}, $1",
+	"bs-notifications-mail-additional-links-label": "Дополнительные ссылки"
+}

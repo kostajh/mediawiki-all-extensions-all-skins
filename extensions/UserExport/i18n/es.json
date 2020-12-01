@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Macofe",
+			"MarcoAurelio"
+		]
+	},
+	"userexport-desc": "Permite exportar datos de usuarios a un archivo CSV",
+	"userexport": "Exportar datos de usuario",
+	"userexport-submit": "Exportar",
+	"userexport-badtoken": "Token de edición inválido",
+	"userexport-description": "Esta página permite exportar el nombre de usuario y el correo electrónico de todos los usuarios registrados en este wiki a un archivo con formato CSV.",
+	"right-userexport": "Exportar datos de usuarios en masa",
+	"action-userexport": "exportar datos de usuarios de este wiki"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alirezaaa",
+			"Armin1392",
+			"FarsiNevis",
+			"Mjbmr"
+		]
+	},
+	"reassignedits": "دوباره گماشتن ویرایش‌های کاربر",
+	"reassignedits-desc": "اجازهٔ دوباره گماشتن ویرایش‌ها از یک کاربر قدیمی به یک کاربر جدید",
+	"reassignedits-error-invalid": "نام کاربری \"$1\" نامعتبر است.",
+	"reassignedits-new": "نام کاربری تازه",
+	"reassignedits-old": "نام کاربری قدیمی",
+	"reassignedits-submit": "ثبت",
+	"reassignedits-success": "ویرایش‌ها توسط \"$1\" به \"$2\" دوباره گماشته شد.",
+	"reassignedits-summary": "دوباره گماشتن ویرایش‌ها از یک کاربر قدیمی به یک کاربر تازه.",
+	"reassignedits-updatelog-title": "روزآمدسازی نام کاربری در عنوان سیاهه‌ها",
+	"reassignedits-updatelog-user": "روزآمدسازی کاربر اجراکننده در سیاهه‌ها",
+	"right-reassignedits": "دوباره گماشتن ویرایش‌ها از یک کاربر قدیمی به یک کاربر جدید."
+}

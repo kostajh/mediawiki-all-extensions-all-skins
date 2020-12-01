@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"bs-watchlist-desc": "Додава елемент и ознака за список на набљудувања",
+	"bs-watchlist-title-sidebar": "Набљудувања",
+	"bs-watchlist-pref-sort-time": "Време",
+	"bs-watchlist-pref-sort-title": "Наслов",
+	"bs-watchlist-tag-watchlist-desc": "Прикажува список на страници кои имаат најскорешни промени и се во вашите набљудувани.",
+	"bs-watchlist-window-watchlist-title": "Набљудувања",
+	"bs-watchlist-grid-watchlist-column-link-header": "Страница",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Непрочитани промени",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Разговорна страница",
+	"bs-watchlist-grid-watchlist-label-filter": "Филтер"
+}

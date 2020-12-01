@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"sia-description": "Annoter bilder semantisk og kjør spørringer mot annoteringer",
+	"sia-comment": "kommentar",
+	"sia-buttonannotate": "Annoter dette bildet",
+	"sia-resize": "Endre størrelsen på bildet"
+}

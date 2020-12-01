@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-contextmenu-desc": "Gir kontekstmenyer for diverse lenker",
+	"prefs-contextmenu": "Kontekstmeny",
+	"bs-contextmenu-pref-modus": "Åpne kontekstmeny ved å (ikke for mobil):",
+	"bs-contextmenu-pref-modus-just-right-mouse": "Klikke på høyre museknapp (å trykke <kbd>Ctrl</kbd> vil gi nettleserens kontekstmeny)",
+	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "Klikke på høyre museknapp mens du holder <kbd>Ctrl</kbd> (vanlig klikk med høyre museknapp vil vise nettleserens kontekstmeny)",
+	"bs-contextmenu-page-edit": "Rediger side",
+	"bs-contextmenu-page-delete": "Slett side",
+	"bs-contextmenu-page-move": "Flytt side",
+	"bs-contextmenu-page-history": "Vis sidehistorikk",
+	"bs-contextmenu-page-protect": "Beskytt side",
+	"bs-contextmenu-page-purge": "Gjenoppfrisk mellomlageret og vis side",
+	"bs-contextmenu-page-info": "Vis sideinformasjon",
+	"bs-contextmenu-media-reupload": "Last opp ny versjon",
+	"bs-contextmenu-media-view-page": "Vis filbeskrivelsesside og filhistorikk",
+	"bs-contextmenu-user-mail": "Send epost",
+	"bs-contextmenu-user-talk": "Legg igjen beskjed på diskusjonsside",
+	"bs-contextmenu-file-download": "Last ned fil",
+	"apihelp-bs-contextmenu-tasks-description": "Gir kontekstmenyelementer i kontekst",
+	"apihelp-bs-contextmenu-tasks-summary": "Gir kontekstmenyelementer i kontekst"
+}

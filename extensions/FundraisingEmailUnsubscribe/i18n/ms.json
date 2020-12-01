@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"fundraiserunsubscribe-desc": "Membolehkan pengguna untuk berhenti melanggan senarai mel tabung derma yang dikonfigurasikan.",
+	"fundraiserunsubscribe": "Berhenti melanggan E-mel Tabung Derma Wikimedia",
+	"fundraiserunsubscribe-query": "Benarkah anda mahu berhenti melanggan '''''$1'''''?",
+	"fundraiserunsubscribe-info": "Ini akan mengecualikan anda dari e-mel yang dihantar oleh Yayasan Wikimedia kepada anda selaku penderma. Anda masih boleh menerima e-mel ke alamat e-mel ini asalkan ia dikaitkan dengan sebarang akaun pada sebarang projek kami. Jika anda ada sebarang soalan, sila hubungi [mailto:$1 $1].",
+	"fundraiserunsubscribe-submit": "Berhenti melanggan",
+	"fundraiserunsubscribe-cancel": "Batalkan",
+	"fundraiserunsubscribe-errormsg": "Berlakunya ralat ketika cubaan untuk memproses pemohonan anda. Sila hubungi [mailto:$1 $1].",
+	"fundraiserunsubscribe-success": "Anda telah digugurkan dari senarai mel kami.",
+	"fundraiserunsubscribe-sucesswarning": "Sila berikan sehingga (4) hari untuk perubahan dilaksanakan. Kami memohon maaf atas sebarang e-mel yang anda terima dalam jangka masa ini. Jika anda ada sebarang soalan, sila hubungi [mailto:$1 $1]."
+}

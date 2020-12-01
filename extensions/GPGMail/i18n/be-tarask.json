@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"gpgmail-desc": "Шыфруе лісты электроннай пошты з дапамогай GPG",
+	"gpgmail-pref-enable": "Шыфраваць лісты электроннай пошты з дапамогай GPG",
+	"gpgmail-pref-key": "Адкрыты ключ GPG",
+	"gpgmail-pref-key-help": "Глядзіце [https://help.ubuntu.com/community/GnuPrivacyGuardHowto старонку даведкі Ubuntu] для дапамогі з атрыманьнем адкрытага ключа.",
+	"gpgmail-encrypt-error": "Падчас шыфраваньня электроннай пошты адбылася памылка."
+}

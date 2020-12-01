@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"odbcdatabase": "База Odbc",
+	"odbcdatabase-desc": "Двигател што користи PHP-библиотека <code>odbc_*</code> на наредби за поддршка на додатокот за надворешни податоци",
+	"odbcdatabase-odbc-missing": "Функциите за ODBC недостасуваат. Треба да имате воспоставено <code>PHP:ODBC</code>.",
+	"odbcdatabase-connection-error": "Грешка при поврзување со опслужувачот [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Не можам да го ослободам исходот од ODBC",
+	"odbcdatabase-fetch-object-error": "Грешка при добивањето на предметот: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Грешка при добивањето на редот: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "Функцијата insertId() не е поддржана.",
+	"odbcdatabase-unknown-server-version": "Непозната верзија на ODBC-опслужувач."
+}

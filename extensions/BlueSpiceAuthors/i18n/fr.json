@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Pols12",
+			"Wladek92",
+			"Zarisi"
+		]
+	},
+	"bs-authors-desc": "Affiche l’image de profil des auteurs d’une page",
+	"prefs-authors": "Auteurs de cette page",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Auteur|Autrice}}|Auteurs}}",
+	"bs-authors-profileimage": "Photo de profil",
+	"bs-authors-profileimage-change": "Modifier la photo de profil",
+	"bs-authors-show-all-authors": "Plus d’auteurs disponibles",
+	"bs-authors-pref-show": "Afficher les auteurs",
+	"bs-authors-switch-description": "Masque les auteurs sur cette page.",
+	"bs-authors-navigation-link-title": "Auteurs de cette page",
+	"bs-authors-navigation-link-text": "Auteurs",
+	"bs-authors-flyout-title": "Auteurs de cette page",
+	"bs-authors-author-type-originator": "Auteur originel",
+	"bs-authors-author-type-editor": "Éditeur",
+	"apihelp-bs-pageauthors-store-summary": "Lister tous les auteurs d’une page fournie dans le contexte"
+}

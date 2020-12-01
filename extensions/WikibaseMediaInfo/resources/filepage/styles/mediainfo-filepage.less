@@ -1,0 +1,75 @@
+@import 'mediawiki.mixins';
+@import '../../mediainfo-variables.less';
+
+// Top-level layout for tabs and tabs-container
+// ---------------------------------------------------------
+
+// Disable default headers
+.wbmi-captions-header,
+.wbmi-structured-data-header {
+	display: none;
+}
+
+/* stylelint-disable selector-class-pattern */
+.client-nojs {
+	.wbmi-tabs .oo-ui-menuLayout-menu {
+		display: none;
+	}
+
+	.wbmi-captions-header,
+	.wbmi-structured-data-header {
+		display: block;
+	}
+
+	.wbmi-tabs-container .oo-ui-indexLayout-stackLayout > .oo-ui-panelLayout.wbmi-tab {
+		min-height: auto;
+	}
+}
+
+.wbmi-tabs-container {
+	margin-top: @wbmi-spacing-base;
+
+	// Override default OOUI styles, even highly specific ones
+	.wbmi-tab,
+	.wbmi-tab.oo-ui-panelLayout {
+		margin: @wbmi-spacing-base 0;
+		padding: 0;
+		// maintain enough space for the depicts input dropdown
+		min-height: 37em;
+	}
+
+	/* Some OOUI styles are loaded inline - add some here to prevent FOUC */
+	.oo-ui-panelLayout-framed {
+		border: @border-base;
+		border-radius: 2px;
+
+		&:target {
+			border: @wbmi-border-panel--target;
+		}
+	}
+}
+/* stylelint-enable selector-class-pattern */
+
+// stylelint-disable-next-line selector-class-pattern
+.wbmi-entityview-editButton.oo-ui-buttonElement.oo-ui-buttonElement-frameless.oo-ui-labelElement {
+	margin-right: 0;
+
+	// stylelint-disable-next-line selector-class-pattern
+	> .oo-ui-buttonElement-button {
+		min-height: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		border: 0;
+		vertical-align: baseline;
+	}
+}
+
+// Error message styles used across all panels
+.wbmi-statement-publish-error-msg {
+	background-color: @background-color-error--framed;
+	border: solid 1px @background-color-base--hover;
+	color: @color-error;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding: @wbmi-spacing-sm @wbmi-spacing-base;
+}

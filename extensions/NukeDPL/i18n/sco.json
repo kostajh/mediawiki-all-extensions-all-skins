@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"John Reid"
+		]
+	},
+	"nukedpl": "Mass delyte bi the DPL querie",
+	"nukedpl-desc": "Eiks ae [[Special:NukeDPL|byordiair page]] fer the mass delytion bi the DPL querie",
+	"nukedpl-intro": "This tuil permits mass delytions o pages selectit bi ae DPL querie.\n\nEnter ae querie ablo tae generate ae leet o titles tae delyte.\n* Titles can be indiveeduallie remuivved afore delytinie.\n* Mynd, page titles ar case-sensiteeve.\n* Queries shidna be surroundit bi onie DPL tags or braces.\n* Fer information aneat the boondin meanins, see the [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL Manual].",
+	"nukedpl-candidatelist": "See the candidate leet",
+	"nukedpl-nopages": "Nae pages tae delyte uisin the DPL querie: <code>$1</code>",
+	"nukedpl-nuke": "Nuke!",
+	"nukedpl-list": "The follaein {{PLURAL:$1|page wis|pages were}} selectit bi the DPL querie: <code>$2</code>\n\nHit \"{{int:nukedpl-nuke}}\" tae delyte {{PLURAL:$1|it|thaim}}.",
+	"nukedpl-defaultreason": "Mass remuival o pages selectit bi ae DPL querie: $1",
+	"right-nukedpl": "Nuke pages bi the Dynameec Page Leet queries"
+}

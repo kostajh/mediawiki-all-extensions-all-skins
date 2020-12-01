@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bishnu Saikia"
+		]
+	},
+	"translatorsignup": "অনুবাদক ৰূপে পঞ্জীয়ন",
+	"translationnotifications-info": "সদস্যৰ তথ্য",
+	"translationnotifications-username": "সদস্য নাম:",
+	"translationnotifications-emailstatus": "ই-মেইলৰ স্থিতি:",
+	"translationnotifications-email-confirmed": "আপোনাৰ ইমেইল ঠিকনা নিশ্চিত হ’ল",
+	"translationnotifications-email-unconfirmed": "$1, আপোনাৰ ইমেইল ঠিকনা নিশ্চিত কৰা হোৱা নাই।",
+	"translationnotifications-languages": "ভাষাসমূহ",
+	"translationnotifications-lang": "ভাষা #$1",
+	"translationnotifications-nolang": "ভাষা নির্বাচন কৰক",
+	"translationnotifications-contact": "যোগাযোগ প্ৰক্ৰিয়াৰ বাবে নিৰ্বাচিত পছন্দসমূহ",
+	"translationnotifications-cmethod-email": "ই-মেইল",
+	"translationnotifications-cmethod-talkpage": "আলোচনা পৃষ্ঠা",
+	"translationnotifications-cmethod-talkpage-elsewhere": "অন্য ৱিকিৰ আলোচনা পৃষ্ঠা",
+	"translationnotifications-cmethod-feed": "ভুক্তি",
+	"translationnotifications-frequency": "সদায়েই যোগাযোগ ৰাখক",
+	"translationnotifications-freq-always": "যেতিয়াই নতুন কিবা ভাঙনিৰ কাম থাকে",
+	"translationnotifications-freq-week": "সপ্তাহত কমেও এবাৰকৈ",
+	"translationnotifications-freq-month": "মাহত কমেও এবাৰকৈ",
+	"translationnotifications-freq-weekly": "সাপ্তাহিক ভূক্তি",
+	"translationnotifications-freq-monthly": "মাহিলী ভূক্তি",
+	"translationnotifications-submit": "পছন্দসমূহ সাঁচি ৰাখক",
+	"translationnotifications-signup-success": "আপোনাৰ ভাঙনিৰ জাননীসমূহৰ পছন্দ সাঁচি ৰখা হৈছে",
+	"notifytranslators": "ভাঙনিকৰ্তাক জনাওক",
+	"translationnotifications-send-notification-button": "ভাঙনিকৰ্তালৈ জাননী প্ৰেৰণ কৰক",
+	"translationnotifications-priority": "প্ৰাথমিকতা",
+	"translationnotifications-priority-high": "উচ্চ",
+	"translationnotifications-priority-medium": "মধ্যম",
+	"translationnotifications-priority-low": "নিম্ন",
+	"translationnotifications-notification-url-listitem": "$1’লৈ ভাঙনি",
+	"translationnotifications-edit-summary": "ভাঙনিৰ জাননী: $1",
+	"translationnotifications-log-alllanguages": "সকলোবোৰ ভাষা",
+	"translationnotifications-nodeadline": "একো নাই"
+}

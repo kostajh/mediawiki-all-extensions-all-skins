@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"pageexchange-desc": "Permite instalar \"pacotes\" de páginas wiki predefinidas",
+	"packages": "Pacotes",
+	"right-pageexchange": "Executar ações de troca de páginas",
+	"action-pageexchange": "executar ações de troca de páginas",
+	"pageexchange-logname": "Registro de troca de páginas",
+	"pageexchange-logdesc": "Este é o registro de ações relacionadas à extensão Page Exchange.",
+	"pageexchange-installed": "Instalado",
+	"pageexchange-available": "Disponível",
+	"pageexchange-installpackage": "Instalar o pacote: $1",
+	"pageexchange-updatepackage": "Pacote de atualização: $1",
+	"pageexchange-uninstallpackage": "Desinstalar pacote: $1",
+	"pageexchange-installpackagelog": "instalou o pacote $2, por $3",
+	"pageexchange-updatepackagelog": "atualizou o pacote $2, por $3",
+	"pageexchange-uninstallpackagelog": "desinstalou o pacote $2, por $3",
+	"pageexchange-package-website": "Site:",
+	"pageexchange-package-publisher": "Editor:",
+	"pageexchange-package-author": "Autor:",
+	"pageexchange-package-version": "Versão:",
+	"pageexchange-package-pages": "Páginas:",
+	"pageexchange-package-language": "Idioma:",
+	"pageexchange-package-requiredextensions": "Extensões necessárias:",
+	"pageexchange-package-requiredpackages": "Pacotes necessários:",
+	"pageexchange-package-morerecent": "Existe uma versão mais recente deste pacote do que a atualmente instalada neste wiki.",
+	"pageexchange-package-install": "Instalar",
+	"pageexchange-package-update": "Atualizar",
+	"pageexchange-package-uninstall": "Desinstalar",
+	"pageexchange-package-deleteallpages": "Excluir todas as páginas wiki associadas",
+	"pageexchange-pagehaschanged": "a versão mais recente desta página difere da cópia local.",
+	"pageexchange-latestvalue": "(valor mais recente: $1)",
+	"pageexchange-uninstallablepackage": "Este pacote não pode ser instalado pelos seguintes motivos:",
+	"pageexchange-inappropriatepackage": "Este pacote pode não ser apropriado para a sua wiki; ver abaixo.",
+	"pageexchange-packageinstalled": "Este pacote foi instalado.",
+	"pageexchange-packageuninstalled": "Este pacote foi desinstalado.",
+	"pageexchange-packageupdated": "Este pacote foi atualizado."
+}

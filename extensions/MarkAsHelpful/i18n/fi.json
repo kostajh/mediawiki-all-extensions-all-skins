@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nedergard"
+		]
+	},
+	"markashelpful-desc": "Tarjoaa käyttöliittymän, jonka avulla kommentteja voidaan merkitä hyödyllisiksi",
+	"mah-mark-text": "Merkitse hyödylliseksi",
+	"mah-you-marked-text": "Omasta mielestäsi tämä on hyödyllinen",
+	"mah-someone-marked-text": "{{GENDER:$1|Käyttäjän $1 mielestä tämä on hyödyllinen}}",
+	"mah-undo-mark-text": "kumoa",
+	"mah-action-error": "Toiminnon suorittamisessa tapahtui virhe"
+}

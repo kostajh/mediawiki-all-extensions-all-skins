@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cimon Avaro",
+			"Crt",
+			"ZeiP"
+		]
+	},
+	"indexfunc-desc": "Jäsenninfunktio automaattisten ohjauksien ja täsmennyssivujen luomiseen.",
+	"indexfunc-badtitle": "Epäkelpo otsikko: ”$1”",
+	"indexfunc-editwarning": "Varoitus: \nTämä otsikko on indeksiotsikko {{PLURAL:$2|seuraavalle sivulle|seuraaville sivuille}}:\n$1\nTarkista ettei sivua, jota olet luomassa ole jo olemassa toisella otsikolla.\nJos luot tämän sivun, poista otsikko <nowiki>{{#index:}}</nowiki>-tagista {{PLURAL:$2|yllä olevalla sivulla|yllä olevilla sivuilla}}.",
+	"indexfunc-index-exists": "Sivu ”$1” on jo olemassa",
+	"indexfunc-movewarn": "Virhe: \n”$1” on indeksiotsikko {{PLURAL:$3|seuraavalle sivulle|seuraaville sivuille}}:\n$2\nPoista ”$1” <nowiki>{{#index:}}</nowiki>-tagista {{PLURAL:$3|yllä olevilla sivuilla|yllä olevalla sivulla}}.",
+	"index": "Indeksihaku",
+	"index-legend": "Hae indeksistä",
+	"index-search": "Etsi:",
+	"index-submit": "Lähetä",
+	"index-disambig-start": "'''$1''' voi tarkoittaa useaa eri sivua:",
+	"index-emptylist": "Yhtään sivua ei ole liitetty sanaan ”$1”",
+	"index-expand-detail": "Näytä tämän otsikon alle indeksoidut sivut",
+	"index-hide-detail": "Piilota sivulistaus",
+	"index-no-results": "Haku ei palauttanut tuloksia",
+	"index-search-explain": "Tämä sivu käyttää etuliitehakua.\n\nKirjoita pari ensimmäistä kirjainta ja napsauta lähetä-nappia hakeaksesi sivujen otsikoista ja indeksimerkinnöistä, jotka alkavat hakusanalla.",
+	"index-details-explain": "Nuolin varustetut merkinnät ovat indeksimerkintöjä. \nNapsauta nuolta näyttääksesi kaikki sivut, jotka on indeksoitu otsikon alle."
+}

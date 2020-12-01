@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Frokor",
+			"Harald Khan",
+			"Jon Harald Søby",
+			"Njardarlogar"
+		]
+	},
+	"form-desc": "Eit [[Special:Form|skjema]] for å opprette nye sider",
+	"form": "Skjema",
+	"form-no-name": "Skjemanamn finst ikkje",
+	"form-no-name-text": "Du må gje eit skjemanamn, som «Special:Form/Skjemanamn».",
+	"form-bad-name": "Ugyldig skjemanamn",
+	"form-bad-name-text": "Det finst ingen skjema med det namnet.",
+	"form-pattern": "$1-skjema",
+	"form-save": "Lagre",
+	"form-index-mismatch-title": "Namnemønster- og malfeil",
+	"form-index-mismatch": "Dette skjemaet har upassande namnemønster og malar som startar på indeks $1.",
+	"form-article-exists": "Sida eksisterer",
+	"form-article-existstext": "Sida [[$1]] eksisterer alt.",
+	"form-bad-page-name": "Ugyldig sidenamn",
+	"form-bad-page-name-text": "Skjemadataa du skreiv inn utgjevr eit ugyldig sidenamn, «$1».",
+	"form-required-field-error": "{{PLURAL:$2|Feltet $1 er påkravd |Felta $1 er påkravde}} for dette skjemaet. Ver venleg og fyll {{PLURAL:$2|det|dei}} inn.",
+	"form-save-summary": "Ny side vha. [[Special:Form/$1|skjemaet $1]]",
+	"form-save-error": "Feil under skjemalagring",
+	"form-save-error-text": "Det var ein ukjend feil under lagring av sida ‘$1’."
+}

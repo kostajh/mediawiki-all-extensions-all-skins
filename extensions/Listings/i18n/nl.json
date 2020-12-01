@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"listings-desc": "Voegt labels toe voor adressen",
+	"listings-unknown": "Onbekende bestemming",
+	"listings-phone": "telefoonnummer",
+	"listings-fax": "fax",
+	"listings-email": "e-mailadres",
+	"listings-tollfree": "gratis nummer",
+	"listings-checkin": "Ingecheckt: $1",
+	"listings-checkout": "Uitgecheckt: $1",
+	"listings-position": "positie: $1"
+}

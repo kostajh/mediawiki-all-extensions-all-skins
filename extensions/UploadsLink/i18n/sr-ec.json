@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01"
+		]
+	},
+	"uploadslink-portlet-label": "Отпремања",
+	"tooltip-pt-uploads": "Списак датотека које сте послали",
+	"uploadslink-toobox-label": "{{GENDER:$1|Отпремања корисника|Отпремања кориснице|Корисничка отпремања}}"
+}

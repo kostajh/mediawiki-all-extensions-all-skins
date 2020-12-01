@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31",
+			"ChrisPtDe"
+		]
+	},
+	"form-desc": "Una [[Special:Form|entèrface de formulèro]] por comenciér des pâges novèles.",
+	"form": "Formulèro",
+	"form-no-name": "Gins de nom de formulèro",
+	"form-bad-name": "Crouyo nom de formulèro",
+	"form-bad-name-text": "Nion formulèro ègziste desot cél nom.",
+	"form-pattern": "formulèro-$1",
+	"form-save": "Sôvar",
+	"form-article-exists": "La pâge ègziste",
+	"form-article-existstext": "La pâge [[$1]] ègziste ja.",
+	"form-bad-page-name": "Crouyo nom de pâge",
+	"form-bad-page-name-text": "Les balyês buchiês fôrmont un crouyo nom de pâge, « $1 ».",
+	"form-required-field-error": "{{PLURAL:$2|Lo champ $1 est nècèssèro|Los champs $1 sont nècèssèros}} dens ceti formulèro.\nVos lo{{PLURAL:$2||s}} dête remplir."
+}

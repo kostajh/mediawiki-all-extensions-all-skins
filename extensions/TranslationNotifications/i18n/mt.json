@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli"
+		]
+	},
+	"translationnotifications-info": "Informazzjoni dwar l-utent",
+	"translationnotifications-username": "Isem tal-utent:",
+	"translationnotifications-emailstatus": "Stat tal-indirizz elettroniku:",
+	"translationnotifications-email-confirmed": "L-indirizz elettroniku ġie kkonfermat",
+	"translationnotifications-email-disablemail": "L-indirizz elettroniku ġie kkonfermat, imma fil-[[Special:Preferences|preferenzi tiegħek]] inti tlabt li tirċievi posta elettronika.",
+	"translationnotifications-email-unconfirmed": "L-indirizz elettroniku ma ġiex ikkonfermat. $1",
+	"translationnotifications-email-notset": "Inti ma pprovdejtx indirizz elettroniku. Tista' tagħmel dan fil-[[Special:Preferences|preferenzi tiegħek]].",
+	"translationnotifications-languages": "Lingwi",
+	"translationnotifications-lang": "Lingwa #$1",
+	"translationnotifications-nolang": "Agħżel lingwa",
+	"translationnotifications-contact": "Metodi ta' kuntatti preferuti",
+	"translationnotifications-cmethod-email": "Indirizz elettroniku",
+	"translationnotifications-cmethod-talkpage": "Paġna ta' diskussjoni",
+	"translationnotifications-cmethod-talkpage-elsewhere": "Paġna ta' diskussjoni fuq wiki oħra",
+	"translationnotifications-cmethod-feed": "Feed",
+	"translationnotifications-frequency": "Frekwenza ta' kuntatt",
+	"translationnotifications-freq-always": "Meta hemm xi ħaġa ġdida x'tittraduċi",
+	"translationnotifications-priority": "Prijorità:",
+	"translationnotifications-priority-high": "għoli",
+	"translationnotifications-priority-medium": "medju",
+	"translationnotifications-priority-low": "baxx"
+}

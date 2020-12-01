@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Micke",
+			"WikiPhoenix"
+		]
+	},
+	"wikiarticlefeeds-desc": "Producerar feeds som genereras av MediaWikisidor",
+	"wikiarticlefeeds-tracking-category": "Sidor som genererar RSS-flöden",
+	"wikiarticlefeeds-tracking-category-desc": "Denna sida genererar ett RSS-flöde.",
+	"wikiarticlefeeds_combined_description": "Detta är en kombinerad feed som innehåller artiklar från flera källor."
+}

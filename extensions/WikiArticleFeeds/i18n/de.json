@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Umherirrender",
+			"Wikinaut"
+		]
+	},
+	"wikiarticlefeeds-desc": "Erzeugt aus MediaWiki-Seiten Feeds",
+	"wikiarticlefeeds-tracking-category": "RSS-Feeds erzeugende Seiten",
+	"wikiarticlefeeds-tracking-category-desc": "Die Seite erzeugt einen RSS-Feed.",
+	"wikiarticlefeeds_combined_description": "Dies ist ein kombinierter Feed, mit Elementen aus verschiedenen Quellen."
+}

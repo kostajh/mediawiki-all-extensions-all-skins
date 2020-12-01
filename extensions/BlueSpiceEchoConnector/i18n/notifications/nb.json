@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-notifications-addaccount": "Brukeren «$1» ble opprettet.",
+	"bs-notifications-email-addaccount-subject": "Brukeren «$2» {{GENDER:$1|opprettet}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|Brukeren}} $2 ble opprettet.\n\nDu kan besøke brukersida {{GENDER:$1|hans|hennes|til vedkommende}} ved å følge lenka nedenfor",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|Brukeren}} $2 ble opprettet.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Opprettet av}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Opprettet av}}: $1",
+	"bs-notifications-registeruser": "Brukeren «$1» har opprettet en konto.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|Brukeren}} «$2» har opprettet en konto",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|Brukeren}} $2 har opprettet en konto.\n\nDu kan besøke brukersida {{GENDER:$1|hans|hennes|til vedkommende}} ved å følge lenka nedenfor",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|Brukeren}} $2 har opprettet en konto.",
+	"bs-notifications-edit": "Siden «$1» har blitt endret",
+	"bs-notifications-edit-bundle": "Siden «$2» har blitt endret {{PLURAL:$1|én gang|$1 ganger}}",
+	"bs-notifications-email-edit-subject": "Siden «$1» {{GENDER:$2|redigert}} $4 av $3",
+	"bs-notifications-email-edit-body": "Siden «$1» ble {{GENDER:$2|redigert}} $5 av $4.\n\nKommentar:\n$3",
+	"bs-notifications-web-edit-body": "Siden «$1» ble {{GENDER:$2|redigert}} av $3.",
+	"bs-notifications-create": "Siden «$1» ble opprettet",
+	"bs-notifications-email-create-subject": "Siden «$1» {{GENDER:$2|opprettet}} $4 av $3",
+	"bs-notifications-email-create-body": "Siden «$1» ble {{GENDER:$2|opprettet}} $5 av $3.\n\nKommentar:\n$4\nDu kan besøke siden ved å følge lenka nedenfor",
+	"bs-notifications-web-create-body": "Siden «$1» ble {{GENDER:$2|opprettet}} av $3.",
+	"bs-notifications-delete": "Siden «$1» har blitt slettet",
+	"bs-notifications-email-delete-subject": "Siden «$1» {{GENDER:$2|slettet}} $4 av $3",
+	"bs-notifications-email-delete-body": "Siden «$1» ble {{GENDER:$2|slettet}} $5 av $3.\n\nDette var årsaken:\n$4",
+	"bs-notifications-web-delete-body": "Siden «$1» ble {{GENDER:$2|slettet}} av $3.",
+	"bs-notifications-move": "Siden «$1» har blitt flyttet",
+	"bs-notifications-email-move-subject": "Siden «$1» {{GENDER:$2|flyttet}} til «$3» $5 av $4",
+	"bs-notifications-email-move-body": "Siden «$1» ble {{GENDER:$2|flyttet}} til «$3» $6 av $4.\n\nÅrsaken var:\n$5\n\nDu kan besøke siden ved å følge lenka nedenfor",
+	"bs-notifications-web-move-body": "Siden «$1» ble {{GENDER:$2|flyttet}} til «$3» av $4",
+	"bs-notifications-edit-difflink-label": "Se forskjellen",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Hei}}, $1",
+	"bs-notifications-htmlmail-sender-info": "{{GRAMMAR:genitive|$1}} varslingssystem",
+	"bs-notifications-mail-additional-links-label": "Ekstra lenker"
+}

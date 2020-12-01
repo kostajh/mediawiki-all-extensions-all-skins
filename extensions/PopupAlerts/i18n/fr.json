@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"popupalerts-desc": "Permet d’insérer une fenêtre popup dans une page wiki en utilisant les balises.",
+	"popupalerts-expiration-info": "La prochaine fois, cette fenêtre sera affichée après $1 {{PLURAL:$1|jour|jours}}."
+}

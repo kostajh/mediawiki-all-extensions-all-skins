@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094",
+			"Urhixidur",
+			"Wladek92"
+		]
+	},
+	"semanticpageseries-desc": "Créer une série de pages depuis un [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms formulaire de page]",
+	"spssuccesstitle": "Créer $1 pages",
+	"spssuccess": "{{PLURAL:$1|Une page sera créée|$1 pages seront créées}}.",
+	"spssuccess-returntoorigin": "Revenir à $1",
+	"spserror": "Une erreur est survenue",
+	"spserror-diffnotsupported": "L’action diff n’est pas prise en charge pour les séries de pages.",
+	"spserror-previewnotsupported": "L’action de prévisualisation n’est pas prise en charge pour les séries de pages.",
+	"spserror-noiteratorname": "Aucun itérateur n'a été spécifié. Vous devez définir le paramètre « iterator » dans l'appel à la fonction #serieslink de l'analyseur.",
+	"spserror-iteratorunknown": "L’itérateur « $1 » n’existe pas. Vous devez corriger le paramètre « iterator » dans l’appel à la fonction #serieslink de l’analyseur.",
+	"spserror-noformname": "Aucun nom de formulaire n'a été fourni. Vous devez définir le paramètre \"form\" dans la fonction #serieslink de l'analyseur.",
+	"spserror-formunknown": "Le formulaire \"$1\" n'existe pas.",
+	"spserror-notargetformname": "Aucun nom de formulaire cible n'a été fourni. Vous devez définir le paramètre \"target form\" dans l'appel à la fonction #serieslink de l'analyseur.",
+	"spserror-notargetfieldname": "Aucun nom de champ cible n'a été fourni. Vous devez définir le paramètre \"target field\" dans l'appel à la fonction #serieslink de l'analyseur.",
+	"spserror-iteratorparammissing": "Les paramètres suivants de l'itérateur sont absents dans l'appel à #serieslink:\n$1",
+	"spserror-noiteratordata": "Aucun paramètre de l'itérateur n'a été trouvé dans les données envoyées.",
+	"spserror-pagegenerationlimitexeeded": "Vous avez essayé de générer {{PLURAL:$1|une page|$1 pages}}. Cela dépasse votre limite autorisée de {{PLURAL:$2|une page|$2 pages}}.",
+	"spserror-date-startdatemissing": "La date de début est manquante.",
+	"spserror-date-internalerror": "Une erreur s'est produite lors de la création des dates : $1",
+	"spserror-count-startvaluemalformed": "La valeur de départ n'est pas un nombre.",
+	"spserror-count-endvaluemalformed": "La valeur de fin n'est pas un nombre.",
+	"spserror-count-stepvaluemalformed": "La valeur de l'incrément n'est pas un nombre.",
+	"spserror-count-digitsvaluemalformed": "La valeur des chiffres n'est pas un nombre."
+}

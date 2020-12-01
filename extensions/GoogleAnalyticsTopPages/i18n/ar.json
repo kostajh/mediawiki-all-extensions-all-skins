@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد",
+			"سامي الرحيلي"
+		]
+	},
+	"googleanalyticstoppages-desc": "يقدم قائمة أعلى الصفحات مع استخدام تحليلات قوقل بيانات",
+	"apihelp-googlepagestatsupdate-param-key": "قيمة [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "يحدث قائمة الصفحات الرئيسية (مدعومة بالبيانات التي يوفرها تحليلات جوجل)",
+	"apihelp-googlepagestatsupdate-summary": "يحدث قائمة الصفحات الرئيسية (مدعومة بالبيانات التي يوفرها تحليلات جوجل)"
+}

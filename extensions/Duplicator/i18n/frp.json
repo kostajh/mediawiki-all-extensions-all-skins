@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"duplicator": "Duplicar una pâge",
+	"duplicator-toolbox": "Duplicar ceta pâge",
+	"duplicator-options": "Chouèx",
+	"duplicator-source": "Sôrsa :",
+	"duplicator-dest": "Dèstinacion :",
+	"duplicator-dotalk": "Duplicar la pâge de discussion (s’ègziste)",
+	"duplicator-submit": "Duplicar",
+	"duplicator-summary": "Copiyê dês [[$1]]",
+	"duplicator-success": "[[$1]] at étâ copiyê vers [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|vèrsion at étâ copiyê|vèrsions ont étâ copiyês}}.",
+	"right-duplicate": "Duplicar des pâges"
+}

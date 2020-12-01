@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"gotoshell": "Vèje jndr'à shell",
+	"gotoshell-desc": "'Mblemende [[Special:GoToShell|'na pàgena speciale]] ca carresche l'utende jndr'à shell e rrete",
+	"gotoshell-notallowed": "'U cunde tune non ge tène le permesse pe trasè jndr'à shell.",
+	"gotoshell-disabled": "Non ge se ponne eseguì programme de fore, proc_open() jè inattive.",
+	"gotoshell-command": "Comande:",
+	"gotoshell-result": "Resultate:",
+	"action-gotoshell": "esegue le cumande d'a shell ausanne 'a pàgena speciale GoToShell",
+	"right-gotoshell": "Eseguie le comande d'a shell ausanne 'a pàgena speciale GoToShell"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"RV1971"
+		]
+	},
+	"dynamicpagelistengine-desc": "{{desc}}",
+	"dple-tracking-category": "Name of the [[mw:Special:MyLanguage/Help:Tracking categories|tracking category]] where pages using [[mw:Special:MyLanguage/Extension:DynamicPageListEngine|Extension:DynamicPageListEngine]] data are listed.",
+	"dple-error-invalid-ns-index": "Error message indicating that an invalid namespace index was specified. Parameters:\n* $1: specified namespace index.",
+	"dple-error-no-criteria": "Error message indicating that no selection criteria were specified at all.",
+	"dple-error-too-expensive": "Error message indicating that the specified database query is not executed because it would be too expensive in terms of database load. Parameters:\n* $1: numfber of joined tables that would be equivalent to the specified database query\n* $2: the configured limit for this number.",
+	"dple-error-too-many-expensive-functions": "DynamicPageListEngine error: Too many expensive functions used on this page."
+}

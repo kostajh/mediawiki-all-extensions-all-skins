@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"pagelanguage-desc": "{{desc|name=Page Language|url=https://www.mediawiki.org/wiki/Extension:PageLanguage}}",
+	"pagelanguage-invalid": "Error message when an invalid language is used. Parameters:\n* $1 - the language code which is used",
+	"pagelanguage-duplicate": "Error message when a different language is set overriding a previous one.\n\nParameters:\n* $1 - the language code set previously\n* $2 - the language code being set now"
+}

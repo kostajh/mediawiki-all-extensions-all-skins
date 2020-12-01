@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-insertlink-desc": "Dijaloški okvir za unos veze",
+	"prefs-insertlink": "Umetni vezu",
+	"bs-insertlink": "Umetni vezu",
+	"bs-insertlink-pref-enable-java": "Omogući aplet Jave",
+	"bs-insertlink-button-title": "Umetni/Izmeni vezu",
+	"bs-insertlink-dialog-title": "Umetni vezu",
+	"bs-insertlink-tab-wiki-page": "Viki stranica",
+	"bs-insertlink-tab-ext-link": "Spoljašnja veza",
+	"bs-insertlink-tab-email": "Imejl-veza",
+	"bs-insertlink-tab-file": "Veza ka datoteci",
+	"bs-insertlink-label-page": "Stranica",
+	"bs-insertlink-label-link": "Veza",
+	"bs-insertlink-label-mail": "Imejl adresa",
+	"bs-insertlink-label-description": "Opis",
+	"bs-insertlink-label-file": "Datoteka",
+	"bs-insertlink-label-searchfile": "Pretraži…",
+	"bs-insertlink-select-a-page": "Izaberi cilj...",
+	"bs-insertlink-select-a-namespace": "(Stranice)",
+	"bs-insertlink-empty-field-text": "Da biste umetnuli vezu, morate navesti odredište.",
+	"bs-insertlink-no-applet": "Ne mogu da učitam aplet. Proverite svoju instalaciju Jave.",
+	"bs-insertlink-internal-file-link-button-label": "Izaberi datoteku"
+}

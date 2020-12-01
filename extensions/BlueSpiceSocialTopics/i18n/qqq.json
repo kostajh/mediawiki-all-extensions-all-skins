@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth <wirth@hallowelt.com>",
+			"Umherirrender"
+		]
+	},
+	"bs-socialtopics-desc": "{{desc|name=BlueSpiceSocialTopics}}",
+	"bs-socialtopics-pref-skipcreatedialog": "Label for the the skip dialog checkbox on discussion creation in user preferences.",
+	"bs-socialtopics-toc-entalkpageautocreate": "Label for the checkbox on [[Special:BlueSpiceConfigManager]] that activates the automatically creation of all discussion pages",
+	"bs-socialtopics-autocreated-discussionpage": "Content of a discussion page that was created automatically",
+	"bs-socialtopics-autocreated-discussionpagefile": "Content of a discussion page of a file that was created automatically",
+	"bs-socialdiscussion-discussiontype": "Label for option \"discussion\" in entry field \"type\"{{Identical|Discussion}}",
+	"bs-socialdiscussion-topictype": "Label for option \"topic\" in entry field \"type\"{{Identical|Discussion topic}}",
+	"bs-socialtopics-entitydiscussion-header": "{{notranslate}}\nHeadline for a \"discussion\" entry. Must link to discussion page [[$9|$9]]\n* $1 - Username of the owner of this entry\n* $2 - Real name of the owner of this entry\n* $3 - Main part of title of the source page, this entry is saved in as json data\n* $4 - Namespace number of the page, this entry is saved in as json data\n* $5 - Namespace name of the page, this entry is saved in as json data\n* $6 - Main title part of the discussion page, this entry refferes to\n* $7 - Namespace number of the discussion page, this entry refferes to\n* $8 - Namespace text of the discussion page, this entry refferes to\n* $9 - Full title of the discussion page, this entry refferes to",
+	"bs-socialtopics-entitydiscussion-header-create": "Header for a discussion entry, that is not yet existing{{Identical|Create new discussion}}",
+	"bs-social-entitytopic-header-create": "Header for a topic entry, that is not yet existing{{Identical|New Topic}}",
+	"bs-social-entitytopic-header": "{{notranslate}}\nHeadline for a \"topic\" entry. Must link to special page [[Special:Topics/$3|Special:Topics/$3]]\n* $1 - Username of the owner of this entry\n* $2 - Real name of the owner of this entry\n* $3 - Main part of title of the source page, this entry is saved in as json data\n* $4 - Namespace number of the page, this entry is saved in as json data\n* $5 - Namespace name of the page, this entry is saved in as json data",
+	"bs-socialtopics-var-topictitle": "Label for entry field \"topictitle\".\n{{Identical|Title}}",
+	"bs-socialtopics-var-discussiontitleid": "Label for entry field \"discussiontitleid\".\n{{Identical|Assigned discussion page}}",
+	"bs-socialtopics-entity-fatalstatus-save-notalkpage": "Error text that is showen, when an entry is not assigned to a valid discussion page",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "Default text for the \"topictitle\" field when migrated from Shoutbox extension that states who created it.\n* $1 - Name of the user, who created it",
+	"topics": "Special page name for [[Special:Topics]] special page.\n{{Identical|Topics}}",
+	"bs-socialtopics-special-topics-heading": "Special page header for [[Special:Topics]] special page.\n{{Identical|All topics}}",
+	"bs-socialtopics-special-topics-heading-entry": "Special page header for [[Special:Topics]] special page, when a topic id was given as a subpage.\n{{Identical|Topic/$1}}\n* $1 - Title of the topic, that was given",
+	"bs-socialtopics-aftercontent-heading": "Label of the discussions section of a pages content\n{{Identical|Discussions}}",
+	"bs-socialtopics-nodiscussionpage": "Text that shows when no discussion page has been created yet.",
+	"bs-socialtopics-nodiscussionpage-create": "Label for the buttons, that lets the user create a new discussion page",
+	"bs-socialtopics-nodiscussion": "Text that shows when no discussion entry has been created yet.",
+	"bs-socialtopics-notopicsadded": "Text that shows when no topic has been created yet.",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "Short label for the save button in the dialog, that creates a new discussion page\n{{Identical|Save}}",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "Short label for the cancel button in the dialog, that creates a new discussion page\n{{Identical|Cancel}}",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "Label for page content textarea in the dialog, that creates a new discussion page\n{{Identical|Content}}",
+	"bs-socialtopics-switch-nodiscussion-description": "Description for behavior switch \"<nowiki>__NODISCUSSION__</nowiki>\" that hides the discussion after the page."
+}

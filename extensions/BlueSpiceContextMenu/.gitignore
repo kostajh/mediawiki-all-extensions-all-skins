@@ -1,0 +1,8 @@
+*~
+*.kate-swp
+.*.swp
+Thumbs.db
+
+/node_modules/
+/vendor/
+/composer.lock

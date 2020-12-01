@@ -1,0 +1,38 @@
+{
+	"name": "PanScroll",
+	"version": "0.3.0",
+	"author": "Mathias Lidal",
+	"url": "https://www.mediawiki.org/wiki/Extension:PanScroll",
+	"descriptionmsg": "panscroll-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"PanScroll": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"PanScrollHooks": "PanScroll.hooks.php"
+	},
+	"ResourceModules": {
+		"ext.panscroll.core": {
+			"scripts": [
+				"js/panscroll.js"
+			],
+			"styles": [
+				"css/panscroll.css"
+			],
+			"group": "ext.panscroll"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources/",
+		"remoteExtPath": "PanScroll/resources/"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "PanScrollHooks::init"
+	},
+	"manifest_version": 2
+}

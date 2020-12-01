@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"reassignedits": "Ännerunge vu Benotzer iwwerdroen",
+	"reassignedits-desc": "Erlaabt et fir Ännerunge vun engem ale Benotzer op en neien z'iwwerdroen",
+	"reassignedits-error-invalid": "De Benotzernumm \"$1\" ass net valabel.",
+	"reassignedits-new": "Neie Benotzernumm",
+	"reassignedits-old": "Ale Benotzernumm",
+	"reassignedits-submit": "Späicheren",
+	"reassignedits-success": "D'Ännerunge vum \"$1\" goufen dem \"$2\" assignéiert.",
+	"reassignedits-summary": "Ännerunge vun engem ale Benotzer op en neien iwwerdroen.",
+	"reassignedits-updatelog-title": "Benotzernumm an de Logicher aktualiséieren",
+	"reassignedits-updatelog-user": "Benotzernumm vum aktive Benotzer an de Logbicher aktualiséieren",
+	"right-reassignedits": "Ännerunge vun engem ale Benotzer op en neie Benotzer iwwerdroen"
+}

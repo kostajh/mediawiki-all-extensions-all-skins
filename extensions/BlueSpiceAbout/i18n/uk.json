@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Vlad5250"
+		]
+	},
+	"bs-bluespiceabout-desc": "Інформація про BlueSpice.",
+	"bs-bluespiceabout-about-bluespice": "Про BlueSpice",
+	"bluespiceabout": "Про BlueSpice",
+	"prefs-bluespiceabout": "Про BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Показати посилання «{{int:bs-bluespiceabout-about-bluespice}}» в головному меню",
+	"action-bluespiceabout-viewspecialpage": "перегляд спеціальної сторінки «{{int:bs-bluespiceabout-about-bluespice}}»",
+	"right-bluespiceabout-viewspecialpage": "доступ до спеціальної сторінки [[Special:BlueSpiceAbout]]",
+	"bs-bluespiceabout-pref-showmenulinks-help": "Додає до головної навігації посилання на сторінку Special:BlueSpiceAbout. Сторінка, на яку веде це посилання, показує інформацію та корисні посилання про BlueSpice pro."
+}

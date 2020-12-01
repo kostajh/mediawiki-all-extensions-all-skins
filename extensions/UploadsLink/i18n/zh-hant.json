@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"uploadslink-desc": "添加至個人工具選單的目前使用者上傳清單連結；以及至側邊工具選單的相關使用者上傳清單連結",
+	"uploadslink-portlet-label": "上傳",
+	"tooltip-pt-uploads": "您已上傳檔案的清單",
+	"uploadslink-toobox-label": "{{GENDER:$1|使用者}}上傳",
+	"tooltip-tb-uploads": "由此 {{GENDER:$1|使用者}}的已上傳檔案清單"
+}

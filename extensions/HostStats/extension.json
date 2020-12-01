@@ -1,0 +1,39 @@
+{
+	"name": "HostStats",
+	"version": "2.0.0",
+	"author": [
+		"Hydriz",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:HostStats",
+	"descriptionmsg": "hoststats-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"AvailableRights": [
+		"hoststats"
+	],
+	"SpecialPages": {
+		"HostStats": "SpecialHostStats"
+	},
+	"MessagesDirs": {
+		"HostStats": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"HostStatsAlias": "HostStats.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialHostStats": "SpecialHostStats.php"
+	},
+	"config": {
+		"HostStatsCommands": {
+			"value": [
+			]
+		}
+	},
+	"manifest_version": 2
+}

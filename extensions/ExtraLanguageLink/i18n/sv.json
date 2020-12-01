@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil"
+		]
+	},
+	"extralanguagelink-desc": "Lägg till extra språklänkar i \"på andra språk\"-avsnittet i sidpanelen",
+	"extralanguagelink-param-class": "klass",
+	"extralanguagelink-param-hreflang": "hreflang",
+	"extralanguagelink-param-lang": "språk",
+	"extralanguagelink-param-style": "stil",
+	"extralanguagelink-param-title": "titel",
+	"extralanguagelink-badinterwiki": "Interwiki-prefixet \"$1:\" är inte med på listan över tillåtna interwiki-prefix.",
+	"extralanguagelink-badtitle": "Sidtiteln \"$1\" kunde inte tolkas."
+}

@@ -1,0 +1,31 @@
+{
+	"manifest_version": 1,
+	"name": "EmailDiff",
+	"type": "other",
+	"author": [
+		"Greg Sabino Mullane"
+	],
+	"version": "1.8",
+	"url": "https://www.mediawiki.org/wiki/Extension:EmailDiff",
+	"descriptionmsg": "emaildiff-desc",
+	"license-name": "MIT",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"AutoloadClasses": {
+		"EmailDiff": "EmailDiff.php"
+	},
+	"Hooks": {
+		"SendNotificationEmail": "EmailDiff::SendNotificationEmailDiff",
+		"GetPreferences": "EmailDiff::SetEmailDiffPref"
+	},
+	"MessagesDirs": {
+		"EmailDiff": [
+			"i18n"
+		]
+	},
+	"config": {
+		"EmailDiffCommand": "/usr/bin/diff -u OLDFILE NEWFILE | /usr/bin/tail --lines=+3 > DIFFFILE",
+		"EmailDiffSubjectSuffix": " (diff)"
+	}
+}

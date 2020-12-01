@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"onlinestatusbar-desc": "Statusowa lejstwa, kótaraž pokazujo na wužywarskem boku, lěc wužywaŕ jo online",
+	"prefs-onlinestatus": "Onlinestatus",
+	"onlinestatusbar-used": "Twój onlinestatus na twójich wužywarskich bokach pokazaś",
+	"onlinestatusbar-hide": "Statusowu kšomu na wužywarskich bokach schowaś, aby se jano magiske słowo wužywało (za pókšacanych wužywarjow)",
+	"onlinestatusbar-away": "Pó póstajonem interwalu awtomatiski za \"njeśibytny\" měś",
+	"onlinestatusbar-purge": "Cache wužywarskego boka kuždy raz wuprozniś, gaž se pśizjawjaš abo wótzjawjaš",
+	"onlinestatusbar-status": "Standardny status, kótaryž coš wužywaś?",
+	"onlinestatusbar-away-time": "Licba minutow, nježli až maš se ako \"njepśibytny\" markěrowaś:",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Online}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Zabrany|Zabrana}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Njepśibytny|Njepśibytna}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Schowany|Schowana}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Offline}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Njeznaty|Njeznata}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Toś ten wužywaŕ|Toś ta wužywarka}} jo něnto online",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Toś ten wužywaŕ|Toś ta wužywarka}} źěła a njejo snaź {{GENDER:$1|pśibytny|pśibytna}}",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Toś ten wužywaŕ|Toś ta wužywarka}} njejo {{GENDER:$1|aktiwny|aktiwna}} a njejo snaź {{GENDER:$1|pśibytny|pśibytna}}",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Toś ten wužywaŕ|Toś ta wužywarka}} jo offline",
+	"onlinestatusbar-tooltip-unknown": "Status {{GENDER:$1|toś togo wužywarja|toś teje wužywarki}} jo njeznaty"
+}

@@ -1,0 +1,144 @@
+{
+	"name": "MathSearch",
+	"version": "0.2.0",
+	"author": "Moritz Schubotz",
+	"url": "https://www.mediawiki.org/wiki/Extension:MathSearch",
+	"descriptionmsg": "mathsearch-desc",
+	"license-name": "GPL-2.0-or-later",
+	"callback": "MathSearchHooks::registerExtension",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.32.0",
+		"extensions": {
+			"Math": ">= 3.0.0"
+		}
+	},
+	"AutoloadClasses": {
+		"MathSearchHooks": "includes/MathSearchHooks.php",
+		"SpecialMathSearch": "includes/specials/SpecialMathSearch.php",
+		"SpecialMlpEval": "includes/specials/SpecialMlpEval.php",
+		"FormulaInfo": "includes/FormulaInfo.php",
+		"MathObject": "includes/MathObject.php",
+		"MathQueryObject": "includes/MathQueryObject.php",
+		"GetEquationsByQuery": "includes/GetEquationsByQuery.php",
+		"SpecialMathDebug": "includes/specials/SpecialMathDebug.php",
+		"SpecialMathIndex": "includes/specials/SpecialMathIndex.php",
+		"SpecialDisplayTopics": "includes/specials/SpecialDisplayTopics.php",
+		"MathEngineMws": "includes/engines/MathEngineMws.php",
+		"MathEngineBaseX": "includes/engines/MathEngineBaseX.php",
+		"MathEngineRest": "includes/engines/MathEngineRest.php",
+		"ImportCsv": "includes/ImportCsv.php",
+		"MathSearchUtils": "includes/MathSearchUtils.php",
+		"MathSearchTerm": "includes/MathSearchTerm.php",
+		"MwsDumpWriter": "includes/MwsDumpWriter.php",
+		"SpecialLaTeXTranslator": "includes/specials/SpecialLaTeXTranslator.php",
+		"LaTeXTranslator": "includes/LaTeXTranslator.php",
+		"SpecialUploadResult": "includes/specials/SpecialUploadResult.php",
+		"SpecialMathDownloadResult": "includes/specials/SpecialMathDownloadResult.php",
+		"MathoidDriver": "includes/MathoidDriver.php",
+		"MathosphereDriver": "includes/MathosphereDriver.php",
+		"MathIdGenerator": "includes/MathIdGenerator.php",
+		"MathHighlighter": "includes/MathHighlighter.php",
+		"MlpEvalForm": "includes/MlpEvalForm.php",
+		"WikidataDriver": "includes/WikidataDriver.php",
+		"ContentMathValidator": "includes/content/ContentMathValidator.php",
+		"ContentMathFormatter": "includes/content/ContentMathFormatter.php",
+		"ContentMathWikidataHook": "includes/content/ContentMathWikidataHook.php",
+		"ContentMathMLRdfBuilder": "includes/content/ContentMathMLRdfBuilder.php"
+	},
+	"AvailableRights": [
+		"mathwmcsubmit"
+	],
+	"ExtensionMessagesFiles": {
+		"MathSearchAlias": "MathSearch.alias.php"
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"mathwmcsubmit": true
+		}
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "MathSearchHooks::onLoadExtensionSchemaUpdates",
+		"MathFormulaPostRender": "MathSearchHooks::addLinkToFormulaInfoPage",
+		"ParserFirstCallInit": "MathSearchHooks::onParserFirstCallInit",
+		"ArticleDeleteComplete": "MathSearchHooks::onArticleDeleteComplete",
+		"WikibaseClientDataTypes": "ContentMathWikidataHook::onWikibaseClientDataTypes",
+		"WikibaseRepoDataTypes": "ContentMathWikidataHook::onWikibaseRepoDataTypes"
+	},
+	"config": {
+		"MathAnalysisTableName": "mathlatexml",
+		"MathDebug": false,
+		"MathSearchBaseXBackendUrl": "http://localhost:10043/",
+		"MathSearchMWSUrl": "http://localhost:9090/",
+		"MathSearchTranslationUrl": "http://vmext-demo.wmflabs.org/math/translation",
+		"MathUpdateObservations": false,
+		"MathUploadEnabled": false,
+		"MathWmcMaxResults": 10000,
+		"MathWmcServer": false,
+		"MathSearchWikidataUrl": "https://wikidata.org",
+		"ContentMathEnableWikibaseDataType": true,
+		"MathSearchContentTexMaxLength": 5000
+	},
+	"MessagesDirs": {
+		"MathSearch": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.mathsearch.styles": {
+			"styles": "ext.mathsearch.css",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.math-svg.styles": {
+			"styles": "ext.math-svg.css",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.math-mathml.styles": {
+			"styles": "ext.math-mathml.css",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "MathSearch/resources"
+	},
+	"SpecialPages": {
+		"MathSearch": "SpecialMathSearch",
+		"MlpEval": "SpecialMlpEval",
+		"FormulaInfo": "FormulaInfo",
+		"GetEquationsByQuery": "GetEquationsByQuery",
+		"MathDebug": "SpecialMathDebug",
+		"MathIndex": "SpecialMathIndex",
+		"DisplayTopics": "SpecialDisplayTopics",
+		"LaTeXTranslator": "SpecialLaTeXTranslator",
+		"MathUpload": "SpecialUploadResult",
+		"MathDownload": "SpecialMathDownloadResult"
+	},
+	"AutoloadNamespaces": {
+		"MathSearch\\StackExchange\\": "includes/stackexchange",
+		"MediaWiki\\Extension\\MathSearch\\Rest\\": "includes/rest"
+	},
+	"JobClasses": {
+		"SeLineReader" : "\\MathSearch\\StackExchange\\LineReaderJob"
+	},
+	"RestRoutes": [
+		{
+			"path": "/math/v0/arq/getPost/{fId}",
+			"method": "GET",
+			"class": "\\MediaWiki\\Extension\\MathSearch\\Rest\\ArqTask\\GetPostId",
+			"services": [
+				"DBLoadBalancer"
+			]
+		}
+	],
+	"manifest_version": 1
+}

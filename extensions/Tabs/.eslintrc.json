@@ -1,0 +1,18 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"globals": {
+		"jQuery": false
+	},
+	"rules": {
+		"one-var": "warn",
+		"vars-on-top": "warn",
+		"max-statements-per-line": "warn",
+		"no-jquery/no-class-state": "warn",
+		"no-jquery/no-global-selector": "warn"
+	}
+}

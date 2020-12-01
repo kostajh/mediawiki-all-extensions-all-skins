@@ -1,0 +1,65 @@
+{
+	"name": "LDAPAuthentication2",
+	"version": "1.0.1",
+	"author": [
+		"Cindy Cicalese",
+		"[https://mediawiki.org/wiki/User:MarkAHershberger Mark A. Hershberger]",
+		"[https://mediawiki.org/wiki/User:Osnard Robert Vogel]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LDAPAuthentication2",
+	"descriptionmsg": "ldapauthentication2-desc",
+	"license-name": "GPL-2.0",
+	"type": "other",
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\LDAPAuthentication2\\" : "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extension\\LDAPAuthentication2\\Tests\\" : "tests/phpunit/"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"LDAPProvider": "1.*",
+			"PluggableAuth": "*"
+		}
+	},
+	"MessagesDirs": {
+		"LDAPAuthentication2": [
+			"i18n"
+		]
+	},
+	"ExtensionFunctions": [
+		"MediaWiki\\Extension\\LDAPAuthentication2\\Setup::init"
+	],
+	"config_prefix": "",
+	"config": {
+		"LDAPAuthentication2AllowLocalLogin": {
+			"value": false,
+			"path": false,
+			"description": "Allow users without an LDAP-backed ID to log into the wiki.",
+			"public": true
+		},
+		"LDAPAuthentication2UsernameNormalizer": {
+			"value": "",
+			"path": false,
+			"description": "Use this function for normalizing username for LDAP, for example 'strtolower'. Needed after migration from earlier Version.",
+			"public": true
+		},
+		"wgPluggableAuth_Class": {
+			"value": "MediaWiki\\Extension\\LDAPAuthentication2\\PluggableAuth"
+		}
+	},
+	"attributes": {
+		"LDAPProvider": {
+			"DefaultSettings": {
+				"authentication": {
+					"usernameattribute": "samaccountname",
+					"realnameattribute": "cn",
+					"emailattribute": "mail"
+				}
+			}
+		}
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

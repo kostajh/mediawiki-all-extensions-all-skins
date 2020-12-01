@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"googleanalyticstoppages-desc": "Паказвае сьпіс найбольш папулярных старонак паводле зьвестак Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Значэньне [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Абнаўляе сьпіс найбольш папулярных старонак (паводле зьвестак Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Абнаўляе сьпіс найпапулярнейшых старонак (грунтуецца на зьвестках атрыманых ад Google Analytics)."
+}

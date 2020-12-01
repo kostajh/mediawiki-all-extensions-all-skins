@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Antur",
+			"Dferg",
+			"Locos epraix",
+			"Macofe",
+			"MarcoAurelio"
+		]
+	},
+	"webchat": "Web chat",
+	"webchat-desc": "Añade una [[Special:WebChat|página especial]] usada para chatear en vivo con otros usuarios del proyecto",
+	"webchat-header": "Esta página especial te permite colaborar en tiempo real con otros usuarios de la wiki.\nPara conectarse simplemente oprime el botón \"Connect\".\nSi has iniciado sesión, tu nombre de usuario estará preseleccionado.\nLos usuarios anónimos obtienen un usuario generado automáticamente, que puede modificarse.",
+	"right-webchat": "Usar [[Special:WebChat|chat web]]"
+}

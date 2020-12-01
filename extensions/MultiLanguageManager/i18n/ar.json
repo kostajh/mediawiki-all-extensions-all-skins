@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"Sonic N800",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"multilanguagemanager": "مدير تعدد اللغات",
+	"mlm-desc": "امتداد ميدياويكي لإدارة عدة لغات في ميدياويكي واحد.",
+	"action-language": "إضافة وتحرير وحذف الترجمات باستخدام واجهة مدير تعدد اللغات",
+	"mlm-error-title-invalid": "اسم الصفحة غير صالح",
+	"mlm-error-title-notexists": "الصفحة «$1» غير موجودة",
+	"mlm-error-title-istalkpage": "\"$1\"، لا يمكن ترجمة صفحات النقاش",
+	"mlm-error-title-nsnotallowed": "\"$1\"، نطاق غير صالح للترجمة",
+	"mlm-error-title-isalreadytranslation": "الصفحة \"$1\" بالفعل ترجمة",
+	"mlm-error-title-isalreadysource": "الصفحة «$1» مصدر بالفعل",
+	"mlm-error-title-isnottranslation": "الصفحة «$1» ليست ترجمة",
+	"mlm-error-lang-invalid": "لغة غير صالحة",
+	"mlm-error-lang-notallowed": "اللغة \"$1\" غير مسموح بها للترجمة",
+	"mlm-error-lang-alreadytraslated": "هناك بالفعل ترجمة للغة \"$1\"",
+	"mlm-input-label-sourcetitle": "صفحة المصدر",
+	"mlm-input-label-translationtitles": "{{plural:$1|صفحة||صفحات}} ترجمة",
+	"mlm-input-label-add": "إضافة ترجمة",
+	"mlm-input-label-save": "حفظ",
+	"mlm-input-label-delete": "حذف كل الترجمات",
+	"mlm-input-label-cancel": "إلغاء",
+	"mlm-contentaction-label": "إدارة الترجمات",
+	"right-language": "إضافة وتحرير وحذف الترجمات باستخدام واجهة مدير تعدد اللغات",
+	"apihelp-mlm-tasks-summary": "إدارة مهام الترجمة",
+	"apihelp-mlm-tasks-param-task": "المهمة التي يجب تنفيذها",
+	"apihelp-mlm-tasks-param-taskData": "كائن سلسلة JSON مشفر ببيانات عشوائية للمهمة",
+	"apihelp-mlm-tasks-param-format": "تنسيق النتيجة",
+	"mlm-input-label-sourcetitle-section": "يحدد ترجمات:",
+	"mlm-input-label-translationtitles-section": "باللغة التالية:"
+}

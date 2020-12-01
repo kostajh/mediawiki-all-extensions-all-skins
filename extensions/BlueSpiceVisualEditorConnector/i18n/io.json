@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"bs-visualeditorconnector-cancel-edit-no-unsaved-changes": "Abrogar redakturo",
+	"bs-visualeditorconnector-cancel-edit": "Abrogar redakturo. Modifikuri ne konservata eliminesos",
+	"bs-visualeditorconnector-cancel-edit-confirm-message": "Ka tu fakte deziras abrogar la redakturo? Vua modifikuri nekonservata eliminesos.",
+	"bs-vec-table-style-cell-text-vert-align-bottom": "Infrajo",
+	"bs-vec-table-style-cell-text-vert-align-middle": "Mezo",
+	"bs-vec-table-style-cell-text-hor-align": "Rektajo dil texto",
+	"bs-vec-table-border-borders": "Marjini di celulo",
+	"bs-vec-table-border-styles": "Stili di bordumi",
+	"bs-vec-table-border-left": "Sinistre",
+	"bs-vec-table-border-bottom": "Infrajo",
+	"bs-vec-table-border-roundhorizontal": "Rondatra e horizontala",
+	"bs-vec-table-border-roundvertical": "Rondatra e vertikala",
+	"bs-vec-table-border-double": "Duopla"
+}

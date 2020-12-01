@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"countDownClock-days": "$1 {{PLURAL:$1|dag|dagen}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|uur|uren}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|minuut|minuten}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|seconde|seconden}}",
+	"countDownClock-expired": "Verlopen"
+}

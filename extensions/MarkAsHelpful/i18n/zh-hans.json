@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Anakmalaysia",
+			"Liuxinyu970226",
+			"Yanmiao liu",
+			"Yfdyh000"
+		]
+	},
+	"markashelpful-desc": "提供用户界面标记评论为有帮助",
+	"mah-mark-text": "标记为有帮助",
+	"mah-you-marked-text": "您认为有帮助",
+	"mah-someone-marked-text": "$1认为有帮助",
+	"mah-undo-mark-text": "撤销",
+	"mah-action-error": "执行此操作时出错",
+	"apihelp-getmarkashelpfulitem-description": "获取一个对象项目全部的有帮助状态列表。",
+	"apihelp-getmarkashelpfulitem-summary": "获取一个对象项目全部的有帮助状态列表。",
+	"apihelp-getmarkashelpfulitem-param-type": "标记为有帮助的对象类型。",
+	"apihelp-getmarkashelpfulitem-param-item": "标记为有标注的对象项目。",
+	"apihelp-getmarkashelpfulitem-param-prop": "要获取的属性。",
+	"apihelp-getmarkashelpfulitem-param-page": "请求项目的页面。",
+	"apihelp-markashelpful-description": "允许用户在网站中标记或取消标记一个项目为有帮助。",
+	"apihelp-markashelpful-summary": "允许用户在网站中标记或取消标记一个项目为有帮助。",
+	"apihelp-markashelpful-param-mahaction": "是否标记或取消标记一个项目为有帮助。",
+	"apihelp-markashelpful-param-page": "要被标记项目的页面。",
+	"apihelp-markashelpful-param-type": "标记为有帮助的对象类型。",
+	"apihelp-markashelpful-param-item": "标记为有标注的对象项目。",
+	"apihelp-markashelpful-param-useragent": "浏览器的用户代理标头。",
+	"apihelp-markashelpful-param-system": "使用的操作系统。",
+	"apihelp-markashelpful-param-locale": "使用的区域设置。"
+}

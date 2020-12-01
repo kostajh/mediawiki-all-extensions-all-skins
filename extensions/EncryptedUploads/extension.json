@@ -1,0 +1,105 @@
+{
+	"name": "EncryptedUploads",
+	"version": "0.0.1",
+	"author": [
+		"Alexey"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:EncryptedUploads",
+	"descriptionmsg": "encrypteduploads-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"AutoloadClasses": {
+		"EncryptedUploads\\EncryptedUploads": "EncryptedUploads.php",
+		"EncryptedUploads\\EncryptedUploadsHooks": "EncryptedUploadsHooks.php",
+		"EncryptedUploads\\EncryptedActionDecrypt": "EncryptedActionDecrypt.php"
+	},
+	"config": {
+		"EncryptedUploadsSendMail": false,
+		"EncryptedUploadsSMWBasedRestrictionsEnabled": false,
+		"EncryptedUploadsSMWFilePropertyName": "",
+		"$wgEncryptedUploadsSMWFilePropertyNameDeep": false,
+		"EncryptedUploadsSMWTargetPropertiesNames": []
+	},
+	"Hooks": {
+		"UploadComplete": [
+			"EncryptedUploads\\EncryptedUploadsHooks::onUploadComplete"
+		],
+		"UploadForm:initial": [
+			"EncryptedUploads\\EncryptedUploadsHooks::onUploadFormInitial"
+		],
+		"UploadForm:BeforeProcessing": [
+			"EncryptedUploads\\EncryptedUploadsHooks::onUploadFormBeforeProcessing"
+		],
+		"LoadExtensionSchemaUpdates": [
+			"EncryptedUploads\\EncryptedUploadsHooks::onLoadExtensionSchemaUpdates"
+		],
+		"ArticleDeleteComplete": [
+			"EncryptedUploads\\EncryptedUploadsHooks::onArticleDeleteComplete"
+		],
+		"FileUpload": [
+			"EncryptedUploads\\EncryptedUploadsHooks::onFileUpload"
+		],
+		"ImageOpenShowImageInlineBefore": [
+			"EncryptedUploads\\EncryptedUploadsHooks::onImageOpenShowImageInlineBefore"
+		],
+		"APIAfterExecute":  [
+			"EncryptedUploads\\EncryptedUploadsHooks::onAPIAfterExecute"
+		],
+		"BeforePageDisplay": [
+			"EncryptedUploads\\EncryptedUploadsHooks::onBeforePageDisplay"
+		],
+		"ParserFirstCallInit": [
+			"EncryptedUploads\\EncryptedUploadsHooks::onParserFirstCallInit"
+		]
+	},
+	"MessagesDirs": {
+		"EncryptedUploads": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"EncryptedUploads\\EncryptedUploadsMagic": "EncryptedUploadsMagic.i18n.php"
+	},
+	"ResourceModules": {
+		"ext.encrypteduploads.main": {
+			"scripts": [
+				"modules/ext.EncryptedUploads.js"
+			],
+			"styles": [
+				"modules/ext.EncryptedUploads.less"
+			]
+		},
+		"ext.encrypteduploads.uploadwizard": {
+			"scripts": [
+				"modules/ext.EncryptedUploads.UploadWizard.js"
+			],
+			"styles": [
+
+			],
+			"messages": [
+				"mwe-upwiz-encrypt",
+				"mwe-upwiz-thanks-secret"
+			],
+			"dependencies": [
+				"ext.uploadWizard"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "EncryptedUploads"
+	},
+	"Actions": {
+		"decrypt": "EncryptedUploads\\EncryptedActionDecrypt"
+	},
+	"AvailableRights": [
+		"read-encrypted-files"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"read-encrypted-files": true
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1
+}

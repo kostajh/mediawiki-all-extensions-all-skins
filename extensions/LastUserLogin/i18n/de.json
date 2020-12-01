@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"The Evil IP address"
+		]
+	},
+	"lastuserlogin": "Letzte Anmeldung von Benutzern",
+	"lastuserlogin-desc": "Ermöglicht die Anzeige der letzten Anmeldung von Benutzern",
+	"lastuserlogin-userid": "Benutzername",
+	"lastuserlogin-username": "Bürgerlicher Name",
+	"lastuserlogin-useremail": "E-Mail-Adresse",
+	"lastuserlogin-lastlogin": "Letzte Anmeldung",
+	"lastuserlogin-daysago": "vor Tagen",
+	"lastuserlogin-nousers": "Keine Benutzer gefunden.",
+	"action-lastlogin": "anzusehen, wann sich ein Benutzer letztmalig angemeldet hat",
+	"right-lastlogin": "Ansehen, wann sich ein Benutzer letztmalig angemeldet hat"
+}

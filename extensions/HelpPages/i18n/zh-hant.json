@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"helppages-desc": "自動從 [https://www.mediawiki.org mediawiki.org] 索取幫助頁面",
+	"helppages-notice": "本頁面是從 [https://www.mediawiki.org/?oldid=$1 mediawiki.org] 所下載，並且可以在此編輯。",
+	"helppages-edit-tab": "在 MediaWiki.org 上編輯"
+}

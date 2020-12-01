@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz",
+			"Silvonen"
+		]
+	},
+	"bs-insertfile-insert-image": "Lisää kuva",
+	"bs-insertfile-insert-file": "Lisää tiedosto",
+	"bs-insertfile-button-image-title": "Lisää tai muokkaa kuvaa",
+	"bs-insertfile-button-file-title": "Lisää tai muokkaa tiedostoa",
+	"bs-insertfile-nomatch": "Ei tuloksia",
+	"bs-insertfile-filename": "Tiedostonimi",
+	"bs-insertfile-filesize": "Tiedostokoko",
+	"bs-insertfile-lastmodified": "Tuoreet muutokset",
+	"bs-insertfile-labelupload": "Tallenna",
+	"bs-insertfile-details-title": "Tiedot",
+	"bs-insertfile-labellink": "Linkki",
+	"bs-insertfile-alignnone": "ei mitään",
+	"bs-insertfile-alignleft": "vasen",
+	"bs-insertfile-alignright": "oikea",
+	"bs-insertfile-typenone": "ei mitään",
+	"bs-insertfile-typethumb": "pienoiskuva",
+	"bs-insertfile-typeframe": "kehys",
+	"bs-insertfile-titlefile": "Lisää tiedosto",
+	"bs-insertfile-tipkeepratio": "Säilytä mittasuhteet",
+	"bs-insertfile-select-a-link": "Valitse tai syötä linkki",
+	"bs-insertfile-no-link": "Ei linkkiä",
+	"bs-insertfile-error-no-medialink": "Medialinkkiä ei valittuna.",
+	"bs-insertfile-error-no-imagelink": "Kuvalinkkiä ei valittuna.",
+	"bs-insertfile-nstextfile": "Tiedosto",
+	"bs-insertfile-nstextfile-image": "Näytä kuva",
+	"bs-insertfile-nstextmedia": "Näytä latauslinkki",
+	"bs-insertfile-advanced-search-panel-label": "Laajennettu haku"
+}

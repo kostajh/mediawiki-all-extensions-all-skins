@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"timemachine": "Tidsmaskin",
+	"timemachine-desc": "Etter å ha satt en dato i [[Special:TimeMachine]] kan man bla gjennom innholdet på wikien som det var på den datoen.",
+	"timemachine-p1": "Skriv inn en dato nedenfor for å bla gjennom wikien som den var på den datoen.",
+	"timemachine-button1": "Gå til denne datoen",
+	"timemachine-p2": "Merk at bare innholdet på wikien blir endret. Stilen, sidemenyen og andre elementer forblir uforandret.",
+	"timemachine-p3": "For å gå tilbake til vanlig modus, trykk på knappen nedenfor eller tøm informasjonskapslene dine.",
+	"timemachine-button2": "Tilbake til nåtiden"
+}

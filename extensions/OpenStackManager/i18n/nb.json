@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danmichaelo",
+			"Event",
+			"Jon Harald Søby",
+			"Nghtwlkr"
+		]
+	},
+	"openstackmanager-desc": "Lar brukere registrere shell-kontoer og behandle SSH-nøklene sine",
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Behandle de offentlige SSH-nøklene dine",
+	"specialpages-group-nova": "OpenStack Manager-autentisering",
+	"openstackmanager-novakey": "Nova-nøkkel",
+	"openstackmanager-delete": "slett",
+	"openstackmanager-hiera-disabled": "Disse sidene brukes ikke lenger av cloud-vps. Puppet- og hiera-konfigurasjon kan endres i Horizon.",
+	"openstackmanager-actions": "Handlinger",
+	"openstackmanager-notloggedin": "Innlogging kreves",
+	"openstackmanager-mustbeloggedin": "Du må være logget inn før å utføre dette.",
+	"openstackmanager-novapublickey": "Offentlig SSH-nøkkel:",
+	"openstackmanager-prefs-novapublickey": "Offentlige SSH-nøkler:",
+	"openstackmanager-deletekey": "Slett offentlig SSH-nøkkel",
+	"openstackmanager-deletekeyconfirm": "ER du sikker på at du ønsker å slette nøkkelen ovenfor?",
+	"openstackmanager-keylist": "Liste over offentlige SSH-nøkler",
+	"openstackmanager-addkey": "Legg til offentlig SSH-nøkkel",
+	"openstackmanager-name": "Navn",
+	"openstackmanager-fingerprint": "Fingeravtrykk",
+	"openstackmanager-keys": "Nøkler",
+	"openstackmanager-keypairimportfailed": "Kunne ikke importere nøkkelpar.",
+	"openstackmanager-keypairimported": "Importerte nøkkelpar.",
+	"openstackmanager-keypairimportedfingerprint": "Importerte nøkkelparet $1 med fingeravtrykket $2.",
+	"openstackmanager-keypairformatwrong": "Den gitte SSH-nøkkelen var feil eller i ukjent format.",
+	"openstackmanager-keypairformatconverted": "Formatet til SSH-nøkkelen har blitt konvertert automatisk.",
+	"openstackmanager-deletedkey": "Slettet nøkkel.",
+	"openstackmanager-deletedkeyfailed": "Kunne ikke slette nøkkel.",
+	"openstackmanager-shellaccountname": "Instansens shell-kontonavn",
+	"openstackmanager-shellaccountname-pref": "Instansens shell-kontonavn:",
+	"openstackmanager-shellaccountnamehelp": "Et shell-kontonavn er påkrevd.\nDet må begynne med a-z, og kan kun inneholde små bokstaver a-z, 0-0 og tegnet -.",
+	"openstackmanager-shellaccountvalidationfail": "Shell-kontonavnet ditt er ugyldig.\nDet må begynne med a-z, og kan kun inneholde små bokstaver a-z, 0-9 og tegnet -.",
+	"openstackmanager-shellaccountexists": "Det shell-kontonavnet er allerede i bruk.",
+	"prefs-openstack-keys": "Nøkkelliste"
+}

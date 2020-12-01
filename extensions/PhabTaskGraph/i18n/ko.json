@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Revi",
+			"Ykhwong"
+		]
+	},
+	"phabtaskgraph": "파브리케이터 작업 그래프",
+	"phabtaskgraph-author-field-label": "저자",
+	"phabtaskgraph-owner-field-label": "소유자",
+	"phabtaskgraph-tasks-field-label": "작업",
+	"phabtaskgraph-projects-field-label": "프로젝트",
+	"phabtaskgraph-status-field-label": "상태",
+	"phabtaskgraph-width-field-label": "너비",
+	"phabtaskgraph-height-field-label": "높이",
+	"phabtaskgraph-tasks-field-help": "작업의 쉼표 구분 목록 (\"T\"로 시작하는 것은 선택사항, 예: 'T123456, T654321')",
+	"phabtaskgraph-projects-field-help": "프로젝트 이름의 쉼표 구분 목록 (예: 미디어위키-플랫폼-팀, 에픽)",
+	"phabtaskgraph-width-field-help": "기본값: 800",
+	"phabtaskgraph-height-field-help": "기본값: 800",
+	"phabtaskgraph-status-open": "열림",
+	"phabtaskgraph-status-resolved": "해결됨",
+	"phabtaskgraph-status-invalid": "유효하지 않음",
+	"phabtaskgraph-status-declined": "거부됨",
+	"phabtaskgraph-status-duplicate": "중복"
+}

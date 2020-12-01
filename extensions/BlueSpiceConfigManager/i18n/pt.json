@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"bs-bluespiceconfigmanager-admintool-label": "Gestor da configuração",
+	"action-bluespiceconfigmanager-viewspecialpage": "ver página especial \"{{int:bluespiceconfigmanager}}\"",
+	"bluespiceconfigmanager": "Gestor da configuração",
+	"bs-configmanager-desc": "Oferece a possibilidade aos administradores de configurar uma wiki por completo numa única página especial",
+	"bs-configmanager-discardchanges": "Descartar mudanças?",
+	"bs-configmanager-noentry": "Não foi encontrada nenhuma entrada",
+	"apihelp-bs-configmanager-tasks-summary": "Gerir tarefas",
+	"apihelp-bs-configmanager-store-summary": "Gerir armazenamento",
+	"right-bluespiceconfigmanager-viewspecialpage": "Acesso à página especial [[Special:BlueSpiceConfigManager]]"
+}

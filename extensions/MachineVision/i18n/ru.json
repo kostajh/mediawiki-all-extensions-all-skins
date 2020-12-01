@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexander Yukal",
+			"Diman Russkov",
+			"Kareyac",
+			"Katunchik",
+			"Movses",
+			"Pacha Tchernof",
+			"Марио"
+		]
+	},
+	"machinevision-machineaidedtagging": "Предлагаемые теги",
+	"machinevision-machineaidedtagging-intro": "Просмотрите предложенные метки [[Project:Depicts|объектов]] изображений. К изображениям добавляются только подтверждённые пользователем метки. Для получения дополнительной информации, посмотрите [[Project:Structured_data/Computer-aided_tagging|страницу проекта]] и [[Project_talk:Structured_data/Computer-aided_tagging|оставьте отзыв]] о том, как сделать этот инструмент более полезным!",
+	"machinevision-machineaidedtagging-tabs-heading": "Изображения для просмотра",
+	"machinevision-machineaidedtagging-popular-tab": "Популярные",
+	"machinevision-machineaidedtagging-user-tab": "Личные загрузки",
+	"machinevision-machineaidedtagging-license-information": "Лицензия CC0 для вкладок тегов. Нажав «Опубликовать», вы соглашаетесь с [[wmf:Terms_of_Use|условиями использования]] и безотзывно соглашаетесь публиковать свой вклад на условиях [https://creativecommons.org/publicdomain/zero/1.0/ лицензии Creative Commons CC0].",
+	"machinevision-publish": "Опубликовать",
+	"machinevision-skip": "Пропустить",
+	"machinevision-skip-title": "Пропустить предложения для \"$1\"?",
+	"machinevision-suggestion-confirm-title": "Подтвердить предложение $1?",
+	"machinevision-suggestion-confirm-undo-title": "Отменить подтверждение предложения $1?",
+	"machinevision-loading-message": "Загрузка изображений…",
+	"machinevision-failure-message": "Мы сожалеем, но что-то пошло не так. Пожалуйста, зайдите позже или [[Project_talk:Structured_data/Computer-aided_tagging|свяжитесь с нами]].",
+	"machinevision-confirm-tags-dialog-confirm-action": "ОК",
+	"machinevision-confirm-tags-dialog-cancel-action": "Отменить",
+	"machinevision-onboarding-dialog-close-label": "Закрыть",
+	"machinevision-categories-label": "Категории:",
+	"machinevision-add-custom-tag-dialog-add-action": "Добавить",
+	"machinevision-add-custom-tag-dialog-cancel-action": "Отменить",
+	"echo-machinevision-suggestions-ready-notification-primary-link": "Проверить теги"
+}

@@ -1,0 +1,18 @@
+.panscroll-element {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    border: 1px solid grey;
+}
+
+.panscroll-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: move;
+}

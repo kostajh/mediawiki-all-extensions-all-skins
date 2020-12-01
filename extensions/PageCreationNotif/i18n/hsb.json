@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"page-creation-notif-desc": "Sćele e-mejlowe zdźělenje, hdyž so nowe strony wutworjeja",
+	"page-creation-notification": "E-mejlku pósłać, hdyž so nowa strona wutworja",
+	"page-creation-email-subject": "Nowa strona - $3 je $1 na $2 {{GENDER:$3|wutworił|wutworiła}}",
+	"page-creation-email-body": "Witaj $1,\n\nTo je zdźělenje wot {{GRAMMAR:genitiw|{{SITENAME}}}}, zo je wužiwar $3 nowu stronu $2 {{GENDER:$3|wutworił|wutworiła}}.\n\nMóžeš ju tu widźeć\n$4\n\nTekst strony je:\n$5\n\nTwój přećelski zdźělenski system projekta {{SITENAME}}.\n\nZo by swoje nastajenja za e-mejlowe zdźělenje změnił, wopytaj\n{{canonicalurl:{{#special:Preferences}}}}"
+}

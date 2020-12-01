@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck",
+			"Renessaince"
+		]
+	},
+	"betafeatures-auto-enroll": "Аўтаматычна ўключаць большасьць тэставых магчымасьцяў",
+	"betafeatures-auto-enroll-help": "Некаторыя тэставыя магчымасьці могуць прынесьці нечаканыя зьмены, таму лепей {{GENDER:|вы}} ўключайце іх уручную.",
+	"betafeatures-desc": "Дазваляе карыстальніку ўключаць ці адключаць магчымасьці, якія яшчэ цалкам не дапрацаваныя",
+	"betafeatures-extension-type": "Бэта-функцыі",
+	"betafeatures-section-desc": "{{PLURAL:$1|1=Зьявілася новая магчымасьць|Зьявіліся новыя магчымасьці}}, якія мы плянуем для {{SITENAME}}. Калі ласка, паспрабуйце {{PLURAL:$1|1=яе|іх}} і выкажыце нам сваё меркаваньне, каб мы палепшылі {{PLURAL:$1|1=яе|іх}} паводле Вашых заўвагаў.",
+	"betafeatures-toplink": "Бэта",
+	"mw-ui-feature-discuss": "Абмеркаваньне",
+	"mw-ui-feature-info": "Інфармацыя",
+	"mw-ui-feature-requirements-betafeatures": "Для гэтай магчымасьці неабходна ўключыць {{PLURAL:$1|наступную магчымасьць|наступныя магчымасьці}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Гэты браўзэр|Гэтыя браўзэры}} не падтрымліваюцца:",
+	"mw-ui-feature-requirements-javascript": "Гэтая магчымасьць патрабуе JavaScript.",
+	"mw-ui-feature-requirements-skins": "Гэтая магчымасьць працуе толькі пад {{PLURAL:$1|наступнай тэмай|наступнымі тэмамі}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|$1 удзельнік уключыў|$1 удзельнікі ўключылі|$1 удзельнікаў уключылі|0=Ніхто з удзельнікаў не ўключыў}} гэтую функцыю.",
+	"prefs-betafeatures": "Тэставыя магчымасьці",
+	"tooltip-pt-betafeatures": "Бэта-функцыі"
+}

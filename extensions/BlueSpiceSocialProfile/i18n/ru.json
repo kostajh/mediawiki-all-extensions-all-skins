@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Katunchik"
+		]
+	},
+	"bs-socialprofile-desc": "Основные данные профиля для BlueSpiceSocial",
+	"bs-socialprofile-type": "Профиль",
+	"bs-socialprofile-entityaction-changeimage": "Фото профиля",
+	"bs-social-entityaction-editprofilefields": "Данные профиля",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "Задан недопустимый 'пользователь'",
+	"bs-social-profile-field-name": "Имя",
+	"bs-social-profile-field-email": "Электронная почта",
+	"bs-social-profile-field-title": "Заголовок",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|М|Ж|}}",
+	"bs-social-profile-field-department": "Подразделение",
+	"bs-social-profile-field-function": "Функция",
+	"bs-social-profile-field-location": "Местоположение",
+	"bs-social-profile-field-phone": "Телефон",
+	"bs-social-profile-field-validate-no-integer": "$1 должно быть числом",
+	"bs-socialprofile-special-profiles-heading": "Профили",
+	"bs-social-profile-infoshowemail": "Показывать адрес электронной почты в профиле",
+	"socialprofiles": "Профили",
+	"bs-socialprofile-switch-classicprofile-label": "Классический профиль",
+	"bs-socialprofile-switch-modernprofile-label": "Современный профиль",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Переключиться на классический профиль",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Переключиться на современный профиль",
+	"action-social-editothersprofile": "редактировать профиль других пользователей",
+	"right-social-editothersprofile": "Редактировать профиль других пользователей",
+	"action-socialprofile-viewspecialpage": "посмотреть специальную страницу \"{{int:socialprofiles}}\"",
+	"right-socialprofile-viewspecialpage": "Посмотреть специальную страницу \"{{int:socialprofiles}}\""
+}

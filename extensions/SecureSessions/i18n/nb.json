@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"securesessions-desc": "Gjør brukerøkter og øktautentisering sikrere",
+	"securesessions-personalurl": "Åpne økter ($1)",
+	"securesessions-ipsession": "Logg ut alle andre økter.",
+	"securesessions-iprestrict": "Begrens økten til denne IP-adressa.",
+	"securesessions-uarestrict": "Begrens økten til denne nettleseren.",
+	"securesessions-sessions": "Økter",
+	"securesessions-sessions-legend": "Øktinformasjon",
+	"securesessions-sessions-text": "Nedenfor er en liste over de åpne øktene for kontoen din og informasjon om dem. Du kan stenge alle andre økter ved å bruke knappen nedenfor. En stjerne (*) angir den nåværende økten.",
+	"securesessions-sessions-ip": "IP-adresse:",
+	"securesessions-sessions-activity": "Siste aktivitet:",
+	"securesessions-sessions-clear": "Logg ut fra alle andre økter",
+	"securesessions-prefs-country": "Begrens innlogging per land:",
+	"securesessions-prefs-tor": "Nekt innlogging fra Tor-utgangsnoder.",
+	"securesessions-disallowedcountry": "Denne kontoen har ikke tillatelse til å logge inn fra dette landet.",
+	"securesessions-disallowedtor": "Denne kontoen har ikke tillatelse til å logge inn fra Tor-utgangsnoder."
+}

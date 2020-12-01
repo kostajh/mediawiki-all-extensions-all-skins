@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derugon",
+			"Eric.LEWIN",
+			"Gomoko",
+			"Kareyac",
+			"Verdy p"
+		]
+	},
+	"material-desc": "Le langage ''Material Design'' (« ''conception de la matérialisation'' ») créé par Google, capturé dans le logiciel MediaWiki",
+	"material.css": "/* Le CSS placé ici affectera les utilisateurs de l’habillage Material. */",
+	"material.js": "/* Tout JavaScript ici sera chargé pour les utilisateurs utilisant l’habillage Material */",
+	"material-guest": "Invité"
+}

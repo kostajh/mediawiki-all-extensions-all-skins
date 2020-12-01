@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail"
+		]
+	},
+	"bs-usagetracker-desc": "Przechowuje dane statystyczne na temat wykorzystania rozszerzeń",
+	"prefs-usagetracker": "Śledzenie wykorzystywania rozszerzeń",
+	"usagetracker": "Śledzenie wykorzystywania rozszerzeń",
+	"bs-usagetracker-startjobs": "Zaktualizuj",
+	"bs-usagetracker-create-statistics": "Zaktualizuj statystyki wykorzystywania",
+	"bs-usagetracker-col-identifier": "Identyfikator",
+	"bs-usagetracker-col-desc": "Opis",
+	"bs-usagetracker-col-count": "Licznik",
+	"bs-usagetracker-col-last-updated": "Ostatnia aktualizacja",
+	"bs-usagetracker-base-collector-desc": "Liczba stron używających $1",
+	"bs-usagetracker-tag-collector-desc": "Liczba stron używających tagu <$1>",
+	"bs-usagetracker-db-collector-desc": "Liczba $1",
+	"action-usagetracker-update": "ponownego uruchomienia procesu aktualizacji, zbierającego wszystkie śledzone dane na stronie specjalnej [[Special:UsageTracker]]",
+	"right-usagetracker-update": "Dostęp do ponownego uruchomienia procesu aktualizacji, zbierającego wszystkie śledzone dane na stronie specjalnej [[Special:UsageTracker]]."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"gotoshell": "Go to shell",
+	"gotoshell-desc": "Implementuje [[Special:GoToShell|stronę specjalną]], która zabiera użytkownika do powłoki shell i z powrotem.",
+	"gotoshell-notallowed": "Twoje konto nie posiada uprawnień, aby wejść do powłoki shell.",
+	"gotoshell-disabled": "Nie można uruchomić programów zewnętrznych, proc_open() jest wyłączony.",
+	"gotoshell-command": "Komenda:",
+	"gotoshell-result": "Wynik:",
+	"right-gotoshell": "Wykonywanie poleceń shell przy użyciu strony specjalnej GoToShell"
+}

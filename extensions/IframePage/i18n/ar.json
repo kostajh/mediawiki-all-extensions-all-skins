@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"iframepage": "صفحة إطار مضمن",
+	"iframepage-desc": "يتيح تضمين إطار مضمن في صفحة خاصة",
+	"iframepage-error-wgifsrc": "يجب تعيين المتغير <code>$wgIframePageSrc</code> في <code>LocalSettings.php</code>."
+}

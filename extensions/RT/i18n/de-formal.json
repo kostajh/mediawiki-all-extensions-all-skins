@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Umherirrender"
+		]
+	},
+	"rt-badlimit": "Parameter „LIMIT (l)“ ungültig: Muss eine Zahl sein.\nIhre Eingabe: '''$1'''",
+	"rt-badqueue": "Parameter „queue (q)“ ungültig: Muss ein einfaches Wort sein.\nIhre Eingabe: '''$1'''",
+	"rt-badowner": "Parameter „owner (o)“ ungültig: Muss ein gültiger Benutzername sein.\nIhre Eingabe: '''$1'''"
+}

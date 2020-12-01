@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.com>"
+		]
+	},
+	"ldapuserinfo-desc": "Allows to synchronize user information and preferences with a LDAP resource"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Nghtwlkr"
+		]
+	},
+	"categorywatch-desc": "Utvider overvåkningslistens funsjonalitet til å også omfatte innholdet i kategorier",
+	"categorywatch-emailsubject": "Aktivitet i den overvåkede kategorien «$1»",
+	"categorywatch-catmovein": "flyttet $1 til kategorien $2 fra $3",
+	"categorywatch-catmoveout": "flyttet $1 fra kategorien $2 til $3",
+	"categorywatch-catadd": "la til $1 i kategori $2",
+	"categorywatch-catsub": "fjernet $1 fra kategori $2",
+	"categorywatch-autocat": "Automatisk overvåket av $1",
+	"categorywatch-notification-link": "Kategori: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] la til [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] lagt til i [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] la til [[:$3|$3]] i [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] fjernet fra [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] fjernet fra [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] fjernet [[:$3|$3]] fra [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 endringer i kategorisering på {{SITENAME}}",
+	"categorywatch-add-title": "Tittel lagt til i overvåket kategori",
+	"categorywatch-remove-title": "Tittel fjernet fra overvåket kategori",
+	"categorywatch-page-watch-pref": "Legg til alle sider i en kategori til overvåkningslisten din når du legger til en kategori",
+	"echo-category-title-categorywatch": "Kategoriovervåkning",
+	"echo-pref-tooltip-categorywatch": "Varsle meg når noen kategoriserer (eller fjerner kategorisering for) en side i en kategori jeg overvåker."
+}

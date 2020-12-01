@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"listsignup": "列表登记",
+	"listsignup-desc": "定制列表登记表单",
+	"listsignup-legend": "在下方输入您的信息。",
+	"listsignup-success": "您的邮件地址已提交。",
+	"listsignupdisplay": "列表登记显示",
+	"listsignuppurge": "列表登记刷新",
+	"listsignuppurge-legend": "从登记列表刷新一切信息",
+	"listsignuppurge-pretext": "'''警告！'''这将移除列表中所有地址。此操作不能撤销。",
+	"listsignuppurge-success": "列表已刷新！",
+	"right-viewlistsignupdisplay": "查看登记列表",
+	"right-purgelistsignupdisplay": "刷新登记列表",
+	"action-viewlistsignupdisplay": "查看登记列表",
+	"action-purgelistsignupdisplay": "刷新登记列表"
+}

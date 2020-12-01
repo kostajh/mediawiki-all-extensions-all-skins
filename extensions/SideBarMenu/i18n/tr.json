@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"sidebarmenu-desc": "Katlanabilir/genişletilebilir menüler ve alt menüler oluşturan basit bir kenar çubuğu menü ayrıştırıcısı",
+	"sidebarmenu-parser-input-error": "Ayrıştırıcı hatayla döndü: $1",
+	"sidebarmenu-parser-syntax-error": "\"$1\" ayrıştırılamadı, sözdiziminin doğru olduğundan emin olun.",
+	"sidebarmenu-js-init-error": "JavaScript kaynakları yüklenemedi.",
+	"sidebarmenu-edit": "Menüyü düzenle",
+	"sidebarmenu-parser-menuitem-expanded-null": "Belirtilen geçersiz değer, değer null,true,false olmalıdır.",
+	"sidebarmenu-parser-config-error": "Giriş parametrelerini doğrularken hatalar oluştu",
+	"sidebarmenu-parser-subpage-error-title-not-found": "Başvurulan alt sayfa başlığı bulunamadı"
+}

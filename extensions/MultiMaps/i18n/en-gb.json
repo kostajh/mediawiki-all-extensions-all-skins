@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"multimaps-circle-wrong-number-parameters": "for the circle should be defined only two parameters, the coordinates of the centre and the radius. But specified {{PLURAL:$1|one parameter|$1 parameters}}"
+}

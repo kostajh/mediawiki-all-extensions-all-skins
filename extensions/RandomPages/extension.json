@@ -1,0 +1,28 @@
+{
+	"name": "RandomPages",
+	"version": "0.6.0",
+	"author": [
+		"Aurelian Oancea",
+		"Krishna Maheshwari",
+		"Zoranzoki21"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Random_Pages",
+	"descriptionmsg": "randompages-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"RandomPages": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"RandomPagesHooks": "RandomPagesHooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "RandomPagesHooks::aoRandomPagesInit"
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.com>"
+		]
+	},
+	"bs-categorycheck-extension-description": "Checks for assigned category before an article gets saved",
+	"bs-categorycheck-insertcategory-no-category": "Please assign a category to the article",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Ignore",
+	"bs-categorycheck-insertcategory-category-list": "The following categories are set",
+	"bs-categorycheck-insertcategory-confirm-categories": "Categories are correct",
+	"bs-categorycheck-nsm-label-categorycheck": "CategoryCheck"
+}

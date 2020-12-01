@@ -1,0 +1,41 @@
+{
+	"name": "UserActivity",
+	"author": [
+		"Aaron Wright",
+		"David Pean",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"descriptionmsg": "useractivity-desc",
+	"type": "other",
+	"MessagesDirs": {
+		"UserActivity": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"UserActivityAlias": "includes/UserActivity.alias.php"
+	},
+	"AutoloadClasses": {
+		"SiteActivityHook": "includes/SiteActivityHook.php",
+		"UserActivity": "includes/UserActivity.php",
+		"UserActivityIcon": "includes/UserActivityIcon.php",
+		"UserHome": "includes/specials/UserActivity.body.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "SiteActivityHook::onParserFirstCallInit"
+	},
+	"SpecialPages": {
+		"UserActivity": "UserHome"
+	},
+	"ResourceModules": {
+		"ext.socialprofile.useractivity.css": {
+			"styles": "css/UserActivity.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "SocialProfile/UserActivity/resources"
+	},
+	"manifest_version": 1
+}

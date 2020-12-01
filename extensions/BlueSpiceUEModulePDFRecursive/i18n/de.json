@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mglaser",
+			"Robert Vogel <vogel@hallowelt.biz>",
+			"Schmackes"
+		]
+	},
+	"bs-uemodulepdfrecursive-extension-description": "Ermöglicht die Ausgabe von Artikeln und verlinkten Artikel im PDF Format.",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-text": "PDF Seite mit Verlinkungen",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-title": "Diese und alle verlinkten Seiten im PDF Format ausgeben.",
+	"right-uemodulepdfrecursive-export": "Exportieren einer Seite einschließlich aller verlinkten Seiten als PDF-Datei",
+	"action-uemodulepdfrecursive-export": "eine Seite einschließlich aller verlinkten Seiten als PDF-Datei zu exportieren"
+}

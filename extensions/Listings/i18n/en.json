@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"listings-desc": "Add tags for listing locations",
+	"listings-unknown": "Unknown destination",
+	"listings-phone": "phone",
+	"listings-phone-symbol": "☎",
+	"listings-fax": "fax",
+	"listings-fax-symbol": "",
+	"listings-email": "email",
+	"listings-email-symbol": "",
+	"listings-tollfree": "toll-free",
+	"listings-tollfree-symbol": "",
+	"listings-checkin": "Check-in: $1",
+	"listings-checkout": "check-out: $1",
+	"listings-position": "position: $1",
+	"listings-position-template": ""
+}

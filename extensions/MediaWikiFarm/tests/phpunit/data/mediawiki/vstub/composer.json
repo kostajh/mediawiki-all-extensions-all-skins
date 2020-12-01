@@ -1,0 +1,11 @@
+{
+	"keywords": [],
+	"require": {
+		"mediawiki/page-forms": "*",
+		"mediawiki/semantic-forms-select": "*",
+		"mediawiki/chameleon-skin": "*"
+	},
+	"require-dev": {
+		"mediawiki/page-forms": "*"
+	}
+}

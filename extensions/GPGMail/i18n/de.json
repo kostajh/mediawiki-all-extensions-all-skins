@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"gpgmail-desc": "Verschlüsselt E-Mails mit GPG",
+	"gpgmail-pref-enable": "Verschlüsselt E-Mails mit GPG",
+	"gpgmail-pref-key": "Öffentlicher GPG-Schlüssel",
+	"gpgmail-pref-key-help": "Siehe [https://help.ubuntu.com/community/GnuPrivacyGuardHowto die How-To-Seite von Ubuntu] für Hilfe zum Erhalten eines öffentlichen Schlüssels.",
+	"gpgmail-encrypt-error": "Es gab einen Fehler beim Verschlüsseln der E-Mail."
+}

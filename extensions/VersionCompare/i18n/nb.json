@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"versioncompare": "Versjonssammenligning",
+	"version-compare-desc": "Vis sammenligning mellom kjernekomponenten og utvidelsesversjonen mellom to wikier",
+	"version-compare-database-label": "Database",
+	"version-compare-url-error": "Feil under henting av data fra $1.",
+	"version-compare-url-field-label-1": "API-URL #1:",
+	"version-compare-url-field-help-1": "API-URL (slutter på api.php) til den første wikien som skal sammenlignes. Bruk den gjeldende wikien hvis den er tom.",
+	"version-compare-url-field-label-2": "API-URL #2:",
+	"version-compare-url-field-help-2": "API-URL (slutter på api.php) til den andre wikien som skal sammenlignes. Bruk den gjeldende wikien hvis den er tom.",
+	"version-compare-diff-field-label": "Vis bare forskjeller"
+}

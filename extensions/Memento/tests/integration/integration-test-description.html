@@ -1,0 +1,537 @@
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Integration_Test_Cases"><span class="tocnumber">1</span> <span class="toctext">Integration Test Cases</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#MementoTest.testDirectMementoResponse"><span class="tocnumber">1.1</span> <span class="toctext">MementoTest.testDirectMementoResponse</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#MementoTest.testDirectMementoResponseWithRecommendedHeaders"><span class="tocnumber">1.2</span> <span class="toctext">MementoTest.testDirectMementoResponseWithRecommendedHeaders</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#MementoTest.testDirectOriginalResourceResponse"><span class="tocnumber">1.3</span> <span class="toctext">MementoTest.testDirectOriginalResourceResponse</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#MementoTest.testDirectOriginalResourceWithRecommendedHeaders"><span class="tocnumber">1.4</span> <span class="toctext">MementoTest.testDirectOriginalResourceWithRecommendedHeaders</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#MementoTest.test302StyleTimeGateResponse"><span class="tocnumber">1.5</span> <span class="toctext">MementoTest.test302StyleTimeGateResponse</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#MementoTest.test302StyleTimeGateResponseWithRecommendedHeaders"><span class="tocnumber">1.6</span> <span class="toctext">MementoTest.test302StyleTimeGateResponseWithRecommendedHeaders</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#MementoTest.test200StyleTimeGateMementoResponse"><span class="tocnumber">1.7</span> <span class="toctext">MementoTest.test200StyleTimeGateMementoResponse</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#MementoTest.test200StyleTimeGateMementoResponseWithRecommendedHeaders"><span class="tocnumber">1.8</span> <span class="toctext">MementoTest.test200StyleTimeGateMementoResponseWithRecommendedHeaders</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#MementoTest.testEditPage"><span class="tocnumber">1.9</span> <span class="toctext">MementoTest.testEditPage</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#MementoTest.testDiffPage"><span class="tocnumber">1.10</span> <span class="toctext">MementoTest.testDiffPage</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#ErrorStateTest.test400TimeGateTraditionalError"><span class="tocnumber">1.11</span> <span class="toctext">ErrorStateTest.test400TimeGateTraditionalError</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#ErrorStateTest.test400TimeGateFriendlyError"><span class="tocnumber">1.12</span> <span class="toctext">ErrorStateTest.test400TimeGateFriendlyError</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#ErrorStateTest.test404TimeMapTraditionalError"><span class="tocnumber">1.13</span> <span class="toctext">ErrorStateTest.test404TimeMapTraditionalError</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#ErrorStateTest.test404TimeMapFriendlyError"><span class="tocnumber">1.14</span> <span class="toctext">ErrorStateTest.test404TimeMapFriendlyError</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Test_Dataset_Documentation"><span class="tocnumber">2</span> <span class="toctext">Test Dataset Documentation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#time-negotiation-testdata.csv"><span class="tocnumber">2.1</span> <span class="toctext">time-negotiation-testdata.csv</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#memento-diffpage-testdata.csv"><span class="tocnumber">2.2</span> <span class="toctext">memento-diffpage-testdata.csv</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#memento-editpage-testdata.csv"><span class="tocnumber">2.3</span> <span class="toctext">memento-editpage-testdata.csv</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#timegate-dneurls-testdata.csv"><span class="tocnumber">2.4</span> <span class="toctext">timegate-dneurls-testdata.csv</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#timemap-dneurls-testdata.csv"><span class="tocnumber">2.5</span> <span class="toctext">timemap-dneurls-testdata.csv</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Integration_Test_Cases">Integration Test Cases</span></h1>
+<h2><span class="mw-headline" id="MementoTest.testDirectMementoResponse">MementoTest.testDirectMementoResponse</span></h2>
+<p><b>TestDescription:</b>  Ensure that the oldid (URI-M) page has the correct Memento headers.
+</p><p><b>Test Data File:</b>  <a href="#time-negotiation-testdata.csv">time-negotiation-testdata.csv</a>
+</p><p><b>Memento MediaWiki Extension Settings Required</b>
+</p>
+<ul>
+<li> $wgMementoRecommendedRelations = false  (default)
+</li>
+</ul>
+<p><b>Test Verification Steps</b>
+</p>
+<ol>
+<li> response contains 200 status code
+</li>
+<li> response contains <i>Link</i> header
+</li>
+<li> response contains <i>Memento-Datetime</i> header
+</li>
+<li> response's <i>Link</i> header contains a <i>timegate</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>timegate</i> relation contains the correct URI
+</li>
+<li> response's <i>Link</i> header contains a <i>original latest-version</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>original latest-version</i> relation contains the correct URI
+</li>
+<li> response's <i>Link</i> header contains a <i>timemap</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>timemap</i> relation contains the correct URI
+</li>
+<li> response contains no PHP errors, notices, or warnings
+</li>
+</ol>
+<h2><span class="mw-headline" id="MementoTest.testDirectMementoResponseWithRecommendedHeaders">MementoTest.testDirectMementoResponseWithRecommendedHeaders</span></h2>
+<p><b>TestDescription:</b>  Ensure that the oldid (URI-M) page has the correct Memento headers.  Ensure that when recommended relations are turned on, those additional entries in the Link header show up and are correct.
+</p><p><b>Test Data File:</b>  <a href="#time-negotiation-testdata.csv">time-negotiation-testdata.csv</a>
+</p><p><b>Memento MediaWiki Extension Settings Required</b>
+</p>
+<ul>
+<li> $wgMementoRecommendedRelations = true
+</li>
+</ul>
+<p><b>Test Verification Steps</b>
+</p>
+<ol>
+<li> response contains 200 status code
+</li>
+<li> response contains <i>Link</i> header
+</li>
+<li> response contains <i>Memento-Datetime</i> header
+</li>
+<li> response's <i>Link</i> header contains a <i>timegate</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>timegate</i> relation contains the correct URI
+</li>
+<li> response's <i>Link</i> header contains a <i>original latest-version</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>original latest-version</i> relation contains the correct URI
+</li>
+<li> response's <i>Link</i> header contains a <i>timemap</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>timemap</i> relation contains the correct URI
+</li>
+<li> response contains no PHP errors, notices, or warnings
+</li>
+<li> depending the number of mementos for this resource
+<ul>
+<li> response's <i>Link</i> header contains a <i>first memento</i> relation and response's <i>Link</i> header contains a <i>last memento</i> relation, and these relations point the correct URIs
+</li>
+<li> <b>-OR-</b>
+</li>
+<li> response's <i>Link</i> header contains a <i>first last memento</i> relation, and these relations point to the correct URIs
+</li>
+</ul>
+</li>
+</ol>
+<h2><span class="mw-headline" id="MementoTest.testDirectOriginalResourceResponse">MementoTest.testDirectOriginalResourceResponse</span></h2>
+<p><b>TestDescription:</b>  Ensure that the article (URI-R) page has the correct Memento headers.
+</p><p><b>Test Data File:</b>  <a href="#time-negotiation-testdata.csv">time-negotiation-testdata.csv</a>
+</p><p><b>Memento MediaWiki Extension Settings Required</b>
+</p>
+<ul>
+<li> $wgMementoRecommendedRelations = false  (default)
+</li>
+</ul>
+<p><b>Test Verification Steps</b>
+</p>
+<ol>
+<li> response contains 200 status code
+</li>
+<li> response contains <i>Link</i> header
+</li>
+<li> response's <i>Link</i> header contains a <i>timegate</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>timegate</i> relation contains the correct URI
+</li>
+<li> response's <i>Link</i> header contains a <i>original latest-version</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>original latest-version</i> relation contains the correct URI
+</li>
+<li> response's <i>Link</i> header contains a <i>timemap</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>timemap</i> relation contains the correct URI
+</li>
+<li> response contains no PHP errors, notices, or warnings
+</li>
+</ol>
+<h2><span class="mw-headline" id="MementoTest.testDirectOriginalResourceWithRecommendedHeaders">MementoTest.testDirectOriginalResourceWithRecommendedHeaders</span></h2>
+<p><b>TestDescription:</b>  Ensure that the article (URI-R) page has the correct Memento headers.  Ensure that when recommended relations are turned on, those additional entries in the Link header show up and are correct.
+</p><p><b>Test Data File:</b>  <a href="#time-negotiation-testdata.csv">time-negotiation-testdata.csv</a>
+</p><p><b>Memento MediaWiki Extension Settings Required</b>
+</p>
+<ul>
+<li> $wgMementoRecommendedRelations = true
+</li>
+</ul>
+<p><b>Test Verification Steps</b>
+</p>
+<ol>
+<li> response contains 200 status code
+</li>
+<li> response contains <i>Link</i> header
+</li>
+<li> response's <i>Link</i> header contains a <i>timegate</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>timegate</i> relation contains the correct URI
+</li>
+<li> response's <i>Link</i> header contains a <i>original latest-version</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>original latest-version</i> relation contains the correct URI
+</li>
+<li> response's <i>Link</i> header contains a <i>timemap</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>timemap</i> relation contains the correct URI
+</li>
+<li> response contains no PHP errors, notices, or warnings
+</li>
+<li> depending the number of mementos for this resource
+<ul>
+<li> response's <i>Link</i> header contains a <i>first memento</i> relation and response's <i>Link</i> header contains a <i>last memento</i> relation, and these relations point the correct URIs
+</li>
+<li> <b>-OR-</b>
+</li>
+<li> response's <i>Link</i> header contains a <i>first last memento</i> relation, and these relations point to the correct URIs
+</li>
+</ul>
+</li>
+</ol>
+<h2><span class="mw-headline" id="MementoTest.test302StyleTimeGateResponse">MementoTest.test302StyleTimeGateResponse</span></h2>
+<p><b>TestDescription:</b>  Ensure that the TimeGate (URI-G) response has the correct Memento headers.
+</p><p><b>Test Data File:</b>  <a href="#time-negotiation-testdata.csv">time-negotiation-testdata.csv</a>
+</p><p><b>Memento MediaWiki Extension Settings Required</b>
+</p>
+<ul>
+<li> $wgMementoRecommendedRelations = false (default)
+</li>
+<li> $wgMementoTimeNegotiation = 302 (default)
+</li>
+</ul>
+<p><b>Test Verification Steps</b>
+</p>
+<ol>
+<li> response contains 302 status code
+</li>
+<li> response contains <i>Link</i> header
+</li>
+<li> response contains <i>Vary</i> header
+</li>
+<li> response contains <i>Location</i> header
+</li>
+<li> <i>Location</i> header contains correct oldid page URI (URI-M)
+</li>
+<li> <i>Vary</i> header contains the entry <i>Accept-Datetime</i>
+</li>
+<li> response's <i>Link</i> header contains a <i>original latest-version</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>original latest-version</i> relation contains the correct URI
+</li>
+<li> response's <i>Link</i> header contains a <i>timemap</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>timemap</i> relation contains the correct URI
+</li>
+<li> response contains no PHP errors, notices, or warnings
+</li>
+<li> response contains no entity
+</li>
+</ol>
+<h2><span class="mw-headline" id="MementoTest.test302StyleTimeGateResponseWithRecommendedHeaders">MementoTest.test302StyleTimeGateResponseWithRecommendedHeaders</span></h2>
+<p><b>TestDescription:</b>  Ensure that the TimeGate (URI-G) response has the correct Memento headers. Ensure that when recommended relations are turned on, those additional entries in the Link header show up and are correct.
+</p><p><b>Test Data File:</b>  <a href="#time-negotiation-testdata.csv">time-negotiation-testdata.csv</a>
+</p><p><b>Memento MediaWiki Extension Settings Required</b>
+</p>
+<ul>
+<li> $wgMementoRecommendedRelations = true
+</li>
+<li> $wgMementoTimeNegotiation = 302 (default)
+</li>
+</ul>
+<p><b>Test Verification Steps</b>
+</p>
+<ol>
+<li> response contains 302 status code
+</li>
+<li> response contains <i>Link</i> header
+</li>
+<li> response contains <i>Vary</i> header
+</li>
+<li> response contains <i>Location</i> header
+</li>
+<li> <i>Location</i> header contains correct oldid page URI (URI-M)
+</li>
+<li> <i>Vary</i> header contains the entry <i>Accept-Datetime</i>
+</li>
+<li> response's <i>Link</i> header contains a <i>original latest-version</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>original latest-version</i> relation contains the correct URI
+</li>
+<li> response's <i>Link</i> header contains a <i>timemap</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>timemap</i> relation contains the correct URI
+</li>
+<li> response contains no PHP errors, notices, or warnings
+</li>
+<li> response contains no entity
+</li>
+<li> depending the number of mementos for this resource
+<ul>
+<li> response's <i>Link</i> header contains a <i>first memento</i> relation and response's <i>Link</i> header contains a <i>last memento</i> relation, and these relations point the correct URIs
+</li>
+<li> <b>-OR-</b>
+</li>
+<li> response's <i>Link</i> header contains a <i>first last memento</i> relation, and these relations point to the correct URIs
+</li>
+</ul>
+</li>
+</ol>
+<h2><span class="mw-headline" id="MementoTest.test200StyleTimeGateMementoResponse">MementoTest.test200StyleTimeGateMementoResponse</span></h2>
+<p><b>TestDescription:</b>  Ensure that the TimeGate (URI-G) response has the correct Memento headers when the original resource and TimeGate are the same URI.
+</p><p><b>Test Data File:</b>  <a href="#time-negotiation-testdata.csv">time-negotiation-testdata.csv</a>
+</p><p><b>Memento MediaWiki Extension Settings Required</b>
+</p>
+<ul>
+<li> $wgMementoRecommendedRelations = false (default)
+</li>
+<li> $wgMementoTimeNegotiation = 200
+</li>
+</ul>
+<p><b>Test Verification Steps</b>
+</p>
+<ol>
+<li> response contains 200 status code
+</li>
+<li> response contains <i>Link</i> header
+</li>
+<li> response contains <i>Memento-Datetime</i> header
+</li>
+<li> response contains <i>Vary</i> header
+</li>
+<li> response contains <i>Content-Location</i> header
+</li>
+<li> <i>Content-Location</i> header contains correct oldid page URI (URI-M)
+</li>
+<li> response's <i>Link</i> header contains a <i>original latest-version</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>original latest-version</i> relation contains the correct URI
+</li>
+<li> response's <i>Link</i> header contains a <i>timemap</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>timemap</i> relation contains the correct URI
+</li>
+<li> <i>Vary</i> header contains the entry <i>Accept-Datetime</i>
+</li>
+<li> response contains no PHP errors, notices, or warnings
+</li>
+</ol>
+<h2><span class="mw-headline" id="MementoTest.test200StyleTimeGateMementoResponseWithRecommendedHeaders">MementoTest.test200StyleTimeGateMementoResponseWithRecommendedHeaders</span></h2>
+<p><b>TestDescription:</b>  Ensure that the TimeGate (URI-G) response has the correct Memento headers when the original resource and TimeGate are the same URI.  Ensure that when recommended relations are turned on, those additional entries in the Link header show up and are correct.
+</p><p><b>Test Data File:</b>  <a href="#time-negotiation-testdata.csv">time-negotiation-testdata.csv</a>
+</p><p><b>Memento MediaWiki Extension Settings Required</b>
+</p>
+<ul>
+<li> $wgMementoRecommendedRelations = true
+</li>
+<li> $wgMementoTimeNegotiation = 200
+</li>
+</ul>
+<p><b>Test Verification Steps</b>
+</p>
+<ol>
+<li> response contains 200 status code
+</li>
+<li> response contains <i>Link</i> header
+</li>
+<li> response contains <i>Memento-Datetime</i> header
+</li>
+<li> response contains <i>Vary</i> header
+</li>
+<li> response contains <i>Content-Location</i> header
+</li>
+<li> <i>Content-Location</i> header contains correct oldid page URI (URI-M)
+</li>
+<li> response's <i>Link</i> header contains a <i>original latest-version</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>original latest-version</i> relation contains the correct URI
+</li>
+<li> response's <i>Link</i> header contains a <i>timemap</i> relation
+</li>
+<li> response's <i>Link</i> header's <i>timemap</i> relation contains the correct URI
+</li>
+<li> <i>Vary</i> header contains the entry <i>Accept-Datetime</i>
+</li>
+<li> response contains no PHP errors, notices, or warnings
+</li>
+<li> depending the number of mementos for this resource
+<ul>
+<li> response's <i>Link</i> header contains a <i>first memento</i> relation and response's <i>Link</i> header contains a <i>last memento</i> relation, and these relations point the correct URIs
+</li>
+<li> <b>-OR-</b>
+</li>
+<li> response's <i>Link</i> header contains a <i>first last memento</i> relation, and these relations point to the correct URIs
+</li>
+</ul>
+</li>
+</ol>
+<h2><span class="mw-headline" id="MementoTest.testEditPage">MementoTest.testEditPage</span></h2>
+<p><b>Test Description:</b> Regression Test to ensure given Edit Page generates 200 status code and entity contains no PHP errors.
+</p><p><b>Requirements Source</b>
+Mediawiki Default Behavior (Regression)
+</p><p><b>Test Data File:</b>  <a href="#memento-editpage-testdata.csv">memento-editpage-testdata.csv</a>
+</p><p><b>Memento Mediawiki Extension Settings Required</b>
+</p>
+<ul>
+<li> any
+</li>
+</ul>
+<p><b>Test verification steps</b>
+</p>
+<ol>
+<li> Given URI response contains 200 status code
+</li>
+<li> Response entity body contains no PHP errors, notices, or warnings
+</li>
+</ol>
+<h2><span class="mw-headline" id="MementoTest.testDiffPage">MementoTest.testDiffPage</span></h2>
+<p><b>Test Description:</b> Regression Test to ensure given Diff Page contains no errors
+</p><p><b>Requirements Source</b>
+</p>
+<ul>
+<li> Mediawiki Default Behavior (Regression)
+</li>
+</ul>
+<p><b>Test Data File:</b> <a href="#memento-diffpage-testdata.csv">memento-diffpage-testdata.csv</a>
+</p><p><b>Memento Mediawiki Extension Settings Required</b>
+</p>
+<ul>
+<li> any
+</li>
+</ul>
+<p><b>Test Verification Steps</b>
+</p>
+<ol>
+<li> Given URI response contains 200 status code
+</li>
+<li> Response entity body contains no PHP errors, notices, or warnings
+</li>
+</ol>
+<h2><span class="mw-headline" id="ErrorStateTest.test400TimeGateTraditionalError">ErrorStateTest.test400TimeGateTraditionalError</span></h2>
+<p><b>Test Description:</b> Ensure that an incorrect Accept-Datetime value sent to a TimeGate generates a 400 status response with the correct error message.
+</p><p><b>Test Data File:</b>  <a href="#time-negotiation-testdata.csv">time-negotiation-testdata.csv</a>
+</p><p><b>Memento MediaWiki Extension Settings Required</b>
+</p>
+<ul>
+<li> $wgMementoErrorPageType = 'traditional'
+</li>
+</ul>
+<p><b>Test verification steps</b>
+</p>
+<ol>
+<li> Given URI response contains 400 status code
+</li>
+<li> response contains <i>Vary</i> header
+</li>
+<li> <i>Vary</i> header contains the entry <i>Accept-Datetime</i>
+</li>
+<li> response contains no PHP errors, notices, or warnings
+</li>
+<li> response contains the correct error message for an invalid Accept-Datetime
+</li>
+</ol>
+<h2><span class="mw-headline" id="ErrorStateTest.test400TimeGateFriendlyError">ErrorStateTest.test400TimeGateFriendlyError</span></h2>
+<p><b>Test Description:</b> Ensure that an incorrect Accept-Datetime value sent to a TimeGate generates a 200 status response with the correct error message.
+</p><p><b>Test Data File:</b>  <a href="#time-negotiation-testdata.csv">time-negotiation-testdata.csv</a>
+</p><p><b>Memento MediaWiki Extension Settings Required</b>
+</p>
+<ul>
+<li> $wgMementoErrorPageType = 'friendly' (default)
+</li>
+</ul>
+<p><b>Test verification steps</b>
+</p>
+<ol>
+<li> Given URI response contains 200 status code
+</li>
+<li> response contains <i>Vary</i> header
+</li>
+<li> <i>Vary</i> header contains the entry <i>Accept-Datetime</i>
+</li>
+<li> response contains no PHP errors, notices, or warnings
+</li>
+<li> response contains the correct error message for an invalid Accept-Datetime
+</li>
+</ol>
+<h2><span class="mw-headline" id="ErrorStateTest.test404TimeMapTraditionalError">ErrorStateTest.test404TimeMapTraditionalError</span></h2>
+<p><b>Test Description:</b>  Ensure that an incorrect article name generates a 404 status response with the correct error message.
+</p><p><b>Test Data File:</b> <a href="#timemap-dneurls-testdata">timemap-dneurls-testdata</a>
+</p><p><b>Memento MediaWiki Extension Settings Required</b>
+</p>
+<ul>
+<li> $wgMementoErrorPageType = 'traditional'
+</li>
+</ul>
+<p><b>Test verification steps</b>
+</p>
+<ol>
+<li> Given URI response contains 404 status code
+</li>
+<li> response contains no PHP errors, notices, or warnings
+</li>
+<li> response contains the correct message for an invalid article name
+</li>
+</ol>
+<h2><span class="mw-headline" id="ErrorStateTest.test404TimeMapFriendlyError">ErrorStateTest.test404TimeMapFriendlyError</span></h2>
+<p><b>Test Description:</b>  Ensure that an incorrect article name generates a 200 status response with the correct error message.
+</p><p><b>Test Data File:</b> <a href="#timemap-dneurls-testdata">timemap-dneurls-testdata</a>
+</p><p><b>Memento MediaWiki Extension Settings Required</b>
+</p>
+<ul>
+<li> $wgMementoErrorPageType = 'friendly' (default)
+</li>
+</ul>
+<p><b>Test verification steps</b>
+</p>
+<ol>
+<li> Given URI response contains 404 status code
+</li>
+<li> response contains no PHP errors, notices, or warnings
+</li>
+<li> response contains the correct message for an invalid article name
+</li>
+</ol>
+<h1><span class="mw-headline" id="Test_Dataset_Documentation">Test Dataset Documentation</span></h1>
+<h2><span class="mw-headline" id="time-negotiation-testdata.csv">time-negotiation-testdata.csv</span></h2>
+<p>Fields:
+</p>
+<ol>
+<li> <b>Identifier</b> - Identifier for the test data entry
+</li>
+<li> <b>Accept-Datetime</b> - value passed in Accept-Datetime header for requests
+</li>
+<li> <b>URI-R</b> - original resource URI value
+</li>
+<li> <b>original latest-version</b> - expected value of the URI reference from the <i>original latest-version</i> relation in the <i>Link</i> header
+</li>
+<li> <b>first memento</b> - expected value of the URI reference from the <i>first memento</i> relation in the <i>Link</i> header
+</li>
+<li> <b>last memento</b> - expected value of the URI reference from the <i>last memento</i> relation in the <i>Link</i> header
+</li>
+<li> <b>prev predecessor-version memento</b> - expected value of the URI reference from the <i>prev predecessor-version memento</i> relation in the <i>Link</i> header
+</li>
+<li> <b>next successor-version memento</b> - expected value of the URI reference from the <i>next successor-version memento</i> relation in the <i>Link</i> header
+</li>
+<li> <b>URI-M</b> - expected URI value for the <i>memento</i> relation
+</li>
+<li> <b>URI-G</b> - expected URI value for the <i>timegate</i> relation (only used for tests with 302-style negotiation)
+</li>
+<li> <b>Comment</b> - comment on row in dataset indicating why it was chosen
+</li>
+</ol>
+<h2><span class="mw-headline" id="memento-diffpage-testdata.csv">memento-diffpage-testdata.csv</span></h2>
+<p>This dataset just contains a newline-separated list of diff pages to use for regression testing.
+</p>
+<h2><span class="mw-headline" id="memento-editpage-testdata.csv">memento-editpage-testdata.csv</span></h2>
+<p>This dataset just contains a newline-separated list of edit pages to use for regression testing.
+</p>
+<h2><span class="mw-headline" id="timegate-dneurls-testdata.csv">timegate-dneurls-testdata.csv</span></h2>
+<p>This dataset contains a newline-separated list of TimeGate URIs that should not exist on the wiki for 404 testing.
+</p>
+<h2><span class="mw-headline" id="timemap-dneurls-testdata.csv">timemap-dneurls-testdata.csv</span></h2>
+<p>This dataset contains a newline-separated list of URIs that should generate 404 errors.
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.020 seconds
+Real time usage: 0.021 seconds
+Preprocessor visited node count: 82/1000000
+Preprocessor generated node count: 88/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key mw:pcache:idhash:6-1!*!*!!en!*!* and timestamp 20140614143121 and revision id 41
+ -->

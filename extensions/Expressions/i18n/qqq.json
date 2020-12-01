@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Marijn van Wezel"
+		]
+	},
+	"expressions-extensionname": "The name of the extension.",
+	"expressions-desc": "The description of the extension as shown on Special:Version.",
+	"expressions-empty-string": "{{notranslate}}",
+	"expressions-unidentified-token-message": "Error message shown to the user when they entered an unknown token.",
+	"expressions-unidentified-token-submessage": "Error submessage shown to the user when they entered an unknown token.",
+	"expressions-unidentified-token-hint": "Hint message shown to the user when they entered an unknown token.",
+	"expressions-invalid-type-message": "Error message shown to the user when the evaluator came across a type it did not expect.",
+	"expressions-invalid-type-submessage": "Error submessage shown to the user when the evaluator came across a type it did not expect.",
+	"expressions-invalid-type-hint": "Hint message shown to the user when the evaluator came across a type it did not expect.",
+	"expressions-binary-left-type-exception": "Reason shown to the user why a type error occurred when it occurred on a binary operator on its left side.",
+	"expressions-binary-right-type-exception": "Reason shown to the user why a type error occurred when it occurred on a binary operator on its right side.",
+	"expressions-unary-type-exception": "Reason shown to the user why a type error occurred when it occurred on a unary operator.",
+	"expressions-unclosed-paren-message": "Error message shown to the user when there is an unclosed parentheses.",
+	"expressions-unclosed-paren-hint": "Hint message shown to the user when there is an unclosed parentheses.",
+	"expressions-unexpected-token-message": "Error message shown to the user when the parser came across a token it did not expect.",
+	"expressions-unexpected-token-submessage": "Error submessage shown to the user when the parser came across a token it did not expect.",
+	"expressions-unexpected-token-value-hint": "Hint shown after an unexpected token exception when a value was expected.",
+	"expressions-unexpected-token-operator-hint": "Hint shown after an unexpected token exception when an operator was expected.",
+	"expressions-unexpected-token-rightparen-hint": "Hint shown after an unexpected token exception when a value was expected, but a right parenthesis was given.",
+	"expressions-expected-operator-after": "Message shown in the 'unexpected-token-exception' when a value followed by an operator was expected.",
+	"expressions-expected-operator-before": "Message shown in the 'unexpected-token-exception' when a value preceded by an operator was expected.",
+	"expressions-expected-value-after": "Message shown in the 'unexpected-token-exception' when an operator followed by a value was expected.",
+	"expressions-expected-value-before": "Message shown in the 'unexpected-token-exception' when an operator preceded by a value was expected.",
+	"expressions-expected-value": "Message shown in the 'unexpected-token-exception' when a value was expected.",
+	"expressions-before": "The word 'before'",
+	"expressions-after": "The word 'after'"
+}

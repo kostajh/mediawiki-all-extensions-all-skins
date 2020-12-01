@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"phptagsfunctions-desc": "'Mblemende le funziune 'nderne de PHP native pe l'estenzione PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "'U delimitatore non g'adda essere alfanumere o backslash",
+	"phptagsfunctions-preg-no-ending-delimiter": "Nisciune delimitatore finale \"$1\" acchiate",
+	"phptagsfunctions-preg-unknown-modifier": "Cangiatore scanusciute \"$1\""
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-countthings-desc": "Pruža statistiku zasnovanu na sadržaju",
+	"bs-countthings-chars-label": "Znakovi",
+	"bs-countthings-words-label": "Reči",
+	"bs-countthings-files-label": "Datoteke",
+	"bs-countthings-pages-label": "Stranice",
+	"bs-countthings-ve-countcharacters-title": "Broj znakova",
+	"bs-countthings-ve-countarticles-title": "Broj članaka",
+	"bs-countthings-ve-countfiles-title": "Broj datoteka",
+	"bs-countthings-ve-countusers-title": "Broj korisnika",
+	"bs-countthings-ve-countthingsinspector-mode": "Režim",
+	"bs-countthings-ve-countcharacters-mode-all": "sve",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "znakovi",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "reči",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "znakovi i reči",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "stranice",
+	"bs-countthings-ve-countcharacters-input-label": "Stranice",
+	"bs-countthings-error-no-input": "Nije navedena stranica.",
+	"bs-countthings-error-invalid-mode": "Režim „$1” nije važeći. Koristite „chars”, „words” ili „pages”.",
+	"bs-countthings-error-not-exist": "Stranica „$1” ne postoji.",
+	"bs-countthings-tag-countarticles-desc": "Prikazuje broj članaka na vikiju.",
+	"bs-countthings-tag-countusers-desc": "Prikazuje broj registrovanih korisnika.",
+	"bs-countthings-tag-countfiles-desc": "Prikazuje broj datoteka na vikiju.",
+	"bs-countthings-tag-countcharacters-example-1": "Broj reči",
+	"bs-countthings-tag-countcharacters-example-2": "Broj znakova"
+}

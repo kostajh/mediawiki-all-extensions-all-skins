@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justincheng12345",
+			"Kly",
+			"LNDDYL",
+			"Shirayuki"
+		]
+	},
+	"sidebarmenu-desc": "一個簡單的，可用於建立可摺疊式/可展開式選單及子選單的側邊列選單解析器",
+	"sidebarmenu-parser-input-error": "解析器返回錯誤：$1",
+	"sidebarmenu-parser-syntax-error": "無法解析\"$1\"，請確認語法是否正確。",
+	"sidebarmenu-js-init-error": "JavaScript 資源載入失敗。",
+	"sidebarmenu-edit": "編輯選單",
+	"sidebarmenu-parser-menuitem-expanded-null": "提供的數值無效，數值應為 null、true，或 false。",
+	"sidebarmenu-parser-config-error": "輸入參數在驗證時發生錯誤",
+	"sidebarmenu-parser-subpage-error-title-not-found": "找不到所引用的子頁面標題"
+}

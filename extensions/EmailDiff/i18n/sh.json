@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"emaildiff-desc": "Omogućuje ispraćanje razlika u tekstu u obavijestima preko e-pošte",
+	"tog-emaildiff": "Pošalji razliku u promjeni",
+	"emaildiff-newpage": "Ovo je nova stranica:\n\n$1",
+	"emaildiff-intro": "Razlike u verzijama:\n$1"
+}

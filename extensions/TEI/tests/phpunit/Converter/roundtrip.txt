@@ -1,0 +1,592 @@
+!! Version 2
+
+!! test
+Basic full file
+!! wikitext
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<body>
+		<div>
+			<p>Foo</p>
+		</div>
+	</body>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<section data-tei-tag="body">
+		<section data-tei-tag="div">
+			<p data-tei-tag="p">Foo</p>
+		</section>
+	</section>
+</article>
+!!end
+
+!! test
+Unknown tag
+!! wikitext
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<unknown>foo</unknown>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<span data-tei-tag="unknown">foo</span>
+</article>
+!!end
+
+!! test
+Unknown attribute
+!! wikitext
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<body unknown="true">foo</body>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<section data-tei-tag="body" data-tei-unknown="true">foo</section>
+</article>
+!!end
+
+!! test
+<section> root
+!! wikitext
+<body xmlns="http://www.tei-c.org/ns/1.0">
+	<p>Foo</p>
+</body>
+!! html/php
+<section data-tei-tag="body">
+	<p data-tei-tag="p">Foo</p>
+</section>
+!!end
+
+!! test
+Comment
+!! wikitext
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<!-- comment -->
+	<body>
+		<div>
+			<p>Foo</p>
+		</div>
+	</body>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<!-- comment -->
+	<section data-tei-tag="body">
+		<section data-tei-tag="div">
+			<p data-tei-tag="p">Foo</p>
+		</section>
+	</section>
+</article>
+!!end
+
+!! test
+XML Attributes
+!! wikitext
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<body xml:lang="en" xml:id="foo">
+		<div xml:lang="es" xml:id="bar">
+			<p xml:lang="pt" xml:id="baz">Foo</p>
+		</div>
+	</body>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<section data-tei-tag="body" lang="en" id="foo">
+		<section data-tei-tag="div" lang="es" id="bar">
+			<p data-tei-tag="p" lang="pt" id="baz">Foo</p>
+		</section>
+	</section>
+</article>
+!!end
+
+!! test
+Front and Back
+!! wikitext
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<front><div><p>Front</p></div></front>
+	<body><div><p>Body</p></div></body>
+	<back><div><p>Back</p></div></back>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<header data-tei-tag="front"><section data-tei-tag="div"><p data-tei-tag="p">Front</p></section></header>
+	<section data-tei-tag="body"><section data-tei-tag="div"><p data-tei-tag="p">Body</p></section></section>
+	<footer data-tei-tag="back"><section data-tei-tag="div"><p data-tei-tag="p">Back</p></section></footer>
+</article>
+!!end
+
+!! test
+Head
+!! wikitext
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<body>
+		<div>
+			<head>Foo</head>
+			<div>
+				<head>Bar</head>
+			</div>
+			<head>Baz</head>
+		</div>
+	</body>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<section data-tei-tag="body">
+		<section data-tei-tag="div">
+			<h1 data-tei-tag="head">Foo</h1>
+			<section data-tei-tag="div">
+				<h2 data-tei-tag="head">Bar</h2>
+			</section>
+			<h1 data-tei-tag="head">Baz</h1>
+		</section>
+	</section>
+</article>
+!!end
+
+!! test
+Head with <div1>
+!! wikitext
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<body>
+		<div1>
+			<head>Foo</head>
+			<div3>
+				<head>Bar</head>
+			</div3>
+			<head>Baz</head>
+		</div1>
+	</body>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<section data-tei-tag="body">
+		<section data-tei-tag="div1">
+			<h1 data-tei-tag="head">Foo</h1>
+			<section data-tei-tag="div3">
+				<h3 data-tei-tag="head">Bar</h3>
+			</section>
+			<h1 data-tei-tag="head">Baz</h1>
+		</section>
+	</section>
+</article>
+!!end
+
+!! test
+<lb>
+!! wikitext
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<body><p>Foo<lb/>Bar</p></body>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<section data-tei-tag="body"><p data-tei-tag="p">Foo<br data-tei-tag="lb">Bar</p></section>
+</article>
+!!end
+
+!! test
+Unordered list
+!! wikitext
+<list xmlns="http://www.tei-c.org/ns/1.0" type="unordered">
+	<item>Foo</item>
+</list>
+!! html/php
+<ul data-tei-tag="list" data-tei-type="unordered">
+	<li data-tei-tag="item">Foo</li>
+</ul>
+!!end
+
+!! test
+Ordered list
+!! wikitext
+<list xmlns="http://www.tei-c.org/ns/1.0" type="ordered">
+	<item>Foo</item>
+</list>
+!! html/php
+<ol data-tei-tag="list" data-tei-type="ordered">
+	<li data-tei-tag="item">Foo</li>
+</ol>
+!!end
+
+!! test
+Hi
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <hi>Bar</hi></p>
+!! html/php
+<p data-tei-tag="p">Foo <span data-tei-tag="hi">Bar</span></p>
+!!end
+
+!! test
+Hi bold
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <hi rend="bold">Bar</hi></p>
+!! html/php
+<p data-tei-tag="p">Foo <b data-tei-tag="hi" class="tei-rend-bold">Bar</b></p>
+!!end
+
+!! test
+Hi italic
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <hi rend="italic">Bar</hi></p>
+!! html/php
+<p data-tei-tag="p">Foo <i data-tei-tag="hi" class="tei-rend-italic">Bar</i></p>
+!!end
+
+!! test
+Hi sub
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <hi rend="sub">Bar</hi></p>
+!! html/php
+<p data-tei-tag="p">Foo <sub data-tei-tag="hi" class="tei-rend-sub">Bar</sub></p>
+!!end
+
+!! test
+Hi sup
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <hi rend="sup">Bar</hi></p>
+!! html/php
+<p data-tei-tag="p">Foo <sup data-tei-tag="hi" class="tei-rend-sup">Bar</sup></p>
+!!end
+
+!! test
+Hi small
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <hi rend="small">Bar</hi></p>
+!! html/php
+<p data-tei-tag="p">Foo <small data-tei-tag="hi" class="tei-rend-small">Bar</small></p>
+!!end
+
+!! test
+Hi var
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <hi rend="var">Bar</hi></p>
+!! html/php
+<p data-tei-tag="p">Foo <var data-tei-tag="hi" class="tei-rend-var">Bar</var></p>
+!!end
+
+!! test
+Table
+!! wikitext
+<table xmlns="http://www.tei-c.org/ns/1.0">
+	<row>
+		<cell role="label">Label</cell>
+		<cell role="data">Foo</cell>
+		<cell>Bar</cell>
+	</row>
+</table>
+!! html/php
+<table data-tei-tag="table">
+	<tr data-tei-tag="row">
+		<th data-tei-tag="cell" data-tei-role="label">Label</th>
+		<td data-tei-tag="cell" data-tei-role="data">Foo</td>
+		<td data-tei-tag="cell">Bar</td>
+	</tr>
+</table>
+!!end
+
+!! test
+Table with cols and rows
+!! wikitext
+<table xmlns="http://www.tei-c.org/ns/1.0">
+	<row>
+		<cell rows="2" role="label">Label</cell>
+		<cell>Foo</cell>
+		<cell>Bar</cell>
+	</row>
+	<row>
+		<cell role="label">Label</cell>
+		<cell cols="2">Foo</cell>
+	</row>
+</table>
+!! html/php
+<table data-tei-tag="table">
+	<tr data-tei-tag="row">
+		<th data-tei-tag="cell" rowspan="2" data-tei-role="label">Label</th>
+		<td data-tei-tag="cell">Foo</td>
+		<td data-tei-tag="cell">Bar</td>
+	</tr>
+	<tr data-tei-tag="row">
+		<th data-tei-tag="cell" data-tei-role="label">Label</th>
+		<td data-tei-tag="cell" colspan="2">Foo</td>
+	</tr>
+</table>
+!!end
+
+!! test
+Abbr
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <abbr>TEI</abbr></p>
+!! html/php
+<p data-tei-tag="p">Foo <abbr data-tei-tag="abbr">TEI</abbr></p>
+!!end
+
+!! test
+<foreign>
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <foreign xml:lang="en">TEI</foreign></p>
+!! html/php
+<p data-tei-tag="p">Foo <span data-tei-tag="foreign" lang="en">TEI</span></p>
+!!end
+
+!! test
+Del
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <del>Bar</del></p>
+!! html/php
+<p data-tei-tag="p">Foo <del data-tei-tag="del">Bar</del></p>
+!!end
+
+!! test
+Arbitrary rend
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0" rend="foo bar">Foo</p>
+!! html/php
+<p data-tei-tag="p" class="tei-rend-foo tei-rend-bar">Foo</p>
+!!end
+
+!! test
+Style
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0" style="font-size: 120%;">Foo</p>
+!! html/php
+<p data-tei-tag="p" style="font-size: 120%;">Foo</p>
+!!end
+
+!! test
+<address>
+!! wikitext
+<address xmlns="http://www.tei-c.org/ns/1.0">
+ <addrLine>Line 1</addrLine>
+</address>
+!! html/php
+<address data-tei-tag="address">
+ <p data-tei-tag="addrLine">Line 1</p>
+</address>
+!!end
+
+!! test
+<anchor>
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo<anchor xml:id="foo"/></p>
+!! html/php
+<p data-tei-tag="p">Foo<span data-tei-tag="anchor" id="foo"></span></p>
+!!end
+
+!! test
+<argument>
+!! wikitext
+<argument xmlns="http://www.tei-c.org/ns/1.0">
+ <p>Monte Video — Maldonado — Excursion
+   to R Polanco — Lazo and Bolas — Partridges —
+   Absence of Trees — Deer — Capybara, or River Hog —
+   Tucutuco — Molothrus, cuckoo-like habits — Tyrant
+   Flycatcher — Mocking-bird — Carrion Hawks —
+   Tubes formed by Lightning — House struck</p>
+</argument>
+!! html/php
+<div data-tei-tag="argument">
+ <p data-tei-tag="p">Monte Video — Maldonado — Excursion
+   to R Polanco — Lazo and Bolas — Partridges —
+   Absence of Trees — Deer — Capybara, or River Hog —
+   Tucutuco — Molothrus, cuckoo-like habits — Tyrant
+   Flycatcher — Mocking-bird — Carrion Hawks —
+   Tubes formed by Lightning — House struck</p>
+</div>
+!!end
+
+!! test
+<bibl>
+!! wikitext
+<bibl xmlns="http://www.tei-c.org/ns/1.0">
+ <title level="a">The Interesting story of the Children in the Wood</title>. In
+<author>Victor E Neuberg</author>, <title>The Penny Histories</title>.
+<publisher>OUP</publisher>
+ <date>1968</date>,
+ <biblScope>pp 12–34</biblScope>.
+</bibl>
+!! html/php
+<cite data-tei-tag="bibl">
+ <span data-tei-tag="title" data-tei-level="a">The Interesting story of the Children in the Wood</span>. In
+<span data-tei-tag="author">Victor E Neuberg</span>, <span data-tei-tag="title">The Penny Histories</span>.
+<span data-tei-tag="publisher">OUP</span>
+ <time data-tei-tag="date">1968</time>,
+ <span data-tei-tag="biblScope">pp 12–34</span>.
+</cite>
+!!end
+
+!! test
+<listBibl>
+!! wikitext
+<listBibl xmlns="http://www.tei-c.org/ns/1.0">
+ <bibl>Blain, Clements and Grundy: Feminist Companion to
+   Literature in English (Yale, 1990)
+ </bibl>
+</listBibl>
+!! html/php
+<ul data-tei-tag="listBibl">
+ <li data-tei-tag="bibl">Blain, Clements and Grundy: Feminist Companion to
+   Literature in English (Yale, 1990)
+ </li>
+</ul>
+!!end
+
+!! test
+<choice>
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Lastly, That, upon his solemn oath for the support of <choice><sic>1724</sic><corr>1728</corr></choice> of our subjects.</p>
+!! html/php
+<p data-tei-tag="p">Lastly, That, upon his solemn oath for the support of <span data-tei-tag="choice"><span data-tei-tag="sic">1724</span><span data-tei-tag="corr">1728</span></span> of our subjects.</p>
+!!end
+
+!! test
+<cit>
+!! wikitext
+<cit xmlns="http://www.tei-c.org/ns/1.0">
+  <p>I contend that we are both atheists. I just believe in one fewer
+  god than you do. When you understand why you dismiss all the other
+  possible gods, you will understand why I dismiss yours.</p>
+  — <bibl>Stephen Roberts</bibl>
+</cit>
+!! html/php
+<blockquote data-tei-tag="cit">
+  <p data-tei-tag="p">I contend that we are both atheists. I just believe in one fewer
+  god than you do. When you understand why you dismiss all the other
+  possible gods, you will understand why I dismiss yours.</p>
+  — <cite data-tei-tag="bibl">Stephen Roberts</cite>
+</blockquote>
+!!end
+
+!! test
+<date>
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <date when="2009-03">March 2009</date></p>
+!! html/php
+<p data-tei-tag="p">Foo <time data-tei-tag="date" datetime="2009-03">March 2009</time></p>
+!!end
+
+!! test
+<formula>
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0"><formula>C<hi rend="sup">2</hi></formula></p>
+!! html/php
+<p data-tei-tag="p"><span data-tei-tag="formula">C<sup data-tei-tag="hi" class="tei-rend-sup">2</sup></span></p>
+!!end
+
+!! test
+LaTeX <formula>
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0"><formula notation="tex">C</formula></p>
+!! html/php
+<p data-tei-tag="p"><span data-tei-tag="formula" data-tei-notation="tex" data-tei-content="C"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle C}">
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>C</mi>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle C}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4fc55753007cd3c18576f7933f6f089196732029" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.338ex; width:1.766ex; height:2.176ex;" alt="{\displaystyle C}"></img></span></span></p>
+!!end
+
+!! test
+<figure>
+!! wikitext
+<figure xmlns="http://www.tei-c.org/ns/1.0">
+	<graphic url="FooBar.jpg" width="100" height="100"/>
+	<figDesc>Foo</figDesc>
+</figure>
+!! html/php
+<figure data-tei-tag="figure">
+	<img data-tei-tag="graphic" data-tei-url="FooBar.jpg" alt="" src="http://example.com/file/FooBar.jpg" decoding="async" width="100" height="100">
+	<figcaption data-tei-tag="figDesc">Foo</figcaption>
+</figure>
+!!end
+
+!! test
+<figure> not existing
+!! wikitext
+<figure xmlns="http://www.tei-c.org/ns/1.0">
+	<graphic width="100" height="100" url="Unknown.jpg"/>
+	<figDesc>Foo</figDesc>
+</figure>
+!! html/php
+<figure data-tei-tag="figure">
+	<img data-tei-tag="graphic" width="100" height="100" data-tei-url="Unknown.jpg">
+	<figcaption data-tei-tag="figDesc">Foo</figcaption>
+</figure>
+!!end
+
+!! test
+<note>
+!! wikitext
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<body>
+		<div>
+			<p>Foo<note><hi>bar</hi></note></p>
+		</div>
+	</body>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<section data-tei-tag="body">
+		<section data-tei-tag="div">
+			<p data-tei-tag="p">Foo<a data-tei-tag="note" href="#mw-note-1" role="doc-noteref" id="mw-note-1-ref">1</a></p>
+		</section>
+	</section>
+<aside id="mw-note-1" role="doc-footnote"><a href="#mw-note-1-ref" role="doc-backlink">↑</a><span data-tei-tag="hi">bar</span></aside></article>
+!!end
+
+!! test
+<note n>
+!! wikitext
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<body>
+		<div>
+			<p>Foo<note n="foo"><hi>bar</hi></note></p>
+		</div>
+	</body>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<section data-tei-tag="body">
+		<section data-tei-tag="div">
+			<p data-tei-tag="p">Foo<a data-tei-tag="note" href="#mw-note-1" role="doc-noteref" id="mw-note-1-ref" data-tei-n="foo">foo</a></p>
+		</section>
+	</section>
+<aside id="mw-note-1" role="doc-footnote"><a href="#mw-note-1-ref" role="doc-backlink">↑</a><span data-tei-tag="hi">bar</span></aside></article>
+!!end
+
+!! test
+<note xml:id xml:lang>
+!! wikitext
+<text xmlns="http://www.tei-c.org/ns/1.0">
+	<body>
+		<div>
+			<p>Foo<note xml:id="foo" xml:lang="bar"><hi>bar</hi></note></p>
+		</div>
+	</body>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<section data-tei-tag="body">
+		<section data-tei-tag="div">
+			<p data-tei-tag="p">Foo<a data-tei-tag="note" href="#foo" role="doc-noteref" id="mw-note-1-ref">1</a></p>
+		</section>
+	</section>
+<aside id="foo" lang="bar" role="doc-footnote"><a href="#mw-note-1-ref" role="doc-backlink">↑</a><span data-tei-tag="hi">bar</span></aside></article>
+!!end
+
+!! test
+<q>
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <q>Bar</q></p>
+!! html/php
+<p data-tei-tag="p">Foo <q data-tei-tag="q">Bar</q></p>
+!!end
+
+!! test
+<ref>
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0">Foo <ref target="Foo" targetLang="de">Bar</ref></p>
+!! html/php
+<p data-tei-tag="p">Foo <a data-tei-tag="ref" href="Foo" hreflang="de">Bar</a></p>
+!!end

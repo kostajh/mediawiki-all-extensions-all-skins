@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"passwordlesslogin": "Entrada sem senha",
+	"passwordlesslogin-desc": "Fornece uma maneira de entrar sem uma senha, confirmando o login em um dispositivo conectado.",
+	"passwordlesslogin-verify-request": "Por favor, verifique a sua entrada no seu telefone.",
+	"passwordlesslogin-error-no-authentication-workflow": "O fluxo de trabalho de autenticação terminou inesperadamente.",
+	"passwordlesslogin-no-challenge": "Nenhum desafio ativo para confirmar, por favor, tente autenticar novamente.",
+	"passwordlesslogin-verification-pending": "A autenticação ainda não foi verificada. Por favor, verifique o seu pedido de entrada no seu dispositivo conectado.",
+	"passwordlesslogin-pair-device-step": "Por favor, siga as instruções para emparelhar o seu novo dispositivo.",
+	"passwordlesslogin-no-device-paired": "Ainda não há nenhum dispositivo emparelhado.",
+	"passwordlesslogin-verify-pair": "Enviamos uma solicitação de login ao seu dispositivo para verificar se ele está registrado corretamente. Por favor, confirme o pedido e continue.",
+	"passwordlesslogin-pair-device": "Parear dispositivo para entrar sem senha",
+	"passwordlesslogin-login": "Entrar com seu smartphone",
+	"passwordlesslogin-pair-step-1": "1. Baixe o aplicativo MediaWiki PasswordlessLogin",
+	"passwordlesslogin-pair-step-2": "2. Digitalize o QR Code com o aplicativo",
+	"passwordlesslogin-pair-step-3": "3. Quando a configuração do aplicativo estiver concluída, continue com a próxima etapa",
+	"passwordlesslogin-authentication-app": "Aplicativo de autenticação",
+	"apihelp-passwordlesslogin-summary": "Registre um novo dispositivo para um par gerado anteriormente",
+	"apihelp-passwordlesslogin-param-pairToken": "O token de par gerado anteriormente para identificar a qual usuário o dispositivo deve ser registrado.",
+	"apihelp-passwordlesslogin-param-deviceId": "Um identificador de dispositivo exclusivo que pode ser usado para identificar um dispositivo, além de enviar notificações para ele com o sistema de mensagens padrão do dispositivo (por exemplo, Firebase Cloud Messaging para dispositivos Android).",
+	"apihelp-passwordlesslogin-param-secret": "Um segredo gerado no dispositivo que será usado para assinar os desafios enviados ao dispositivo. Esse segredo está sendo usado para verificar uma resposta de desafio de solicitação de login e precisa ser mantido em segredo.",
+	"apihelp-passwordlesslogin-verify-challenge-summary": "Verifique se uma solicitação de entrada é enviada para um dispositivo.",
+	"apihelp-passwordlesslogin-verify-challenge-param-challenge": "O desafio que foi enviado para o dispositivo e que está sendo resolvido.",
+	"apihelp-passwordlesslogin-verify-challenge-param-response": "A resposta (solução) ao desafio. A solução precisa ser:<br />&#160;1. Um HMAC com SHA512 como um algoritmo de assinatura<br />&#160;2. O segredo pré-compartilhado como um material de chave simétrica<br />&#160;3. Os dados do MAC são o desafio como um byte array<br />&#160;4. A resposta precisa ser um hexadecimal string<br />&#160;5. A resposta precisa ser minúscula",
+	"apihelp-passwordlesslogin-verify-login-summary": "Verifique se uma solicitação de login já foi verificada pelo dispositivo."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Artsiom91",
+			"Yury Tarasievich"
+		]
+	},
+	"inlinecategorizer-add-category": "Дадаць катэгорыю",
+	"inlinecategorizer-add-category-submit": "Дадаць",
+	"inlinecategorizer-add-category-summary": "Дадаць катэгорыю \"$1\"",
+	"inlinecategorizer-confirm-save": "Запісаць",
+	"inlinecategorizer-confirm-title": "Пацверджанне",
+	"inlinecategorizer-error-title": "Памылка",
+	"inlinecategorizer-remove-category-error": "Немагчыма выдаліць катэгорыю \"$1\".\nТак звычайна бывае, калі катэгорыя дададзеная ў старонку праз шаблон.",
+	"inlinecategorizer-remove-category-summary": "Выдаліць катэгорыю \"$1\""
+}

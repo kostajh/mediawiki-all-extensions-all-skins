@@ -1,0 +1,37 @@
+{
+	"name": "AutoCategoriseUploads",
+	"version": "2.0.1",
+	"author": [
+		"Ryan Schmidt"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:AutoCategoriseUploads",
+	"namemsg": "autocatuploads",
+	"descriptionmsg": "autocatuploads-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "variable",
+	"MessagesDirs": {
+		"AutoCategoriseUploads": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ACUMagic": "AutoCategoriseUploads.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"AutoCatUploads\\Hooks": "Hooks.php"
+	},
+	"Hooks": {
+		"MagicWordwgVariableIDs": "AutoCatUploads\\Hooks::onMagicWordwgVariableIDs",
+		"ParserGetVariableValueSwitch": "AutoCatUploads\\Hooks::onParserGetVariableValueSwitch",
+		"UploadForm:getInitialPageText": "AutoCatUploads\\Hooks::onGetInitialPageText"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"platform": {
+			"ext-SimpleXML": "*",
+			"ext-zlib": "*"
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

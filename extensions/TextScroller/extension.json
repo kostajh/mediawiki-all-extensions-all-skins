@@ -1,0 +1,41 @@
+{
+	"name": "txtscrl",
+	"version": "1.1",
+	"author": [
+		"Jordan Small"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:TextScroller",
+	"descriptionmsg": "textscroller-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"MessagesDirs": {
+		"TextScroller": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"TextScrollerMagic": "TextScroller.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"TextScroller": "TextScroller.body.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "TextScroller::setParserFunction"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "TextScroller/modules"
+	},
+	"ResourceModules": {
+		"ext.textscroller.styles": {
+			"styles": "textscroller.css"
+		},
+		"ext.textscroller.scripts": {
+			"scripts": "textscroller.js"
+		}
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,25 @@
+{
+	"name": "WantedPagesFromNS",
+	"version": "1.2.0",
+	"author": "Kazimierz Król",
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:WantedPagesFromNS",
+	"descriptionmsg": "wpfromns-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"MessagesDirs": {
+		"WantedPagesFromNS": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"WantedPagesFromNS": "WantedPagesFromNS.body.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "WantedPagesFromNS::onParserFirstCallInit"
+	},
+	"manifest_version": 2
+}
+

@@ -1,0 +1,14 @@
+.*.swp
+*~
+/.project
+/.idea
+/composer.lock
+/vendor
+/node_modules
+.eslintcache
+.DS_Store
+.env
+/tests/selenium/log/
+/.nyc_output/
+/coverage
+/.vscode/

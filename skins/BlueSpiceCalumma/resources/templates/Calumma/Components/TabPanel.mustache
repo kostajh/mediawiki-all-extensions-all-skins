@@ -1,0 +1,18 @@
+<div id="{{id}}" class='bs-tabs' {{#data}}data-{{key}}="{{value}}"{{/data}}>
+	<ul class="nav nav-pills" role="tablist">
+		{{#panels}}
+		<li role="presentation" class="{{#active}}active {{/active}} {{#class}}{{.}} {{/class}}">
+			<a id="{{id}}-link" href="#{{id}}" aria-controls="home" role="tab" data-toggle="tab" title="{{{title}}}">
+				<i></i><span>{{{title}}}</span>
+			</a>
+		</li>
+		{{/panels}}
+	</ul>
+	<div class="tab-content">
+		{{#panels}}
+		<div role="tabpanel" class="tab-pane {{#active}}active{{/active}} {{#class}}{{.}} {{/class}}" id="{{id}}">
+			{{{body}}}
+		</div>
+		{{/panels}}
+	</div>
+</div>

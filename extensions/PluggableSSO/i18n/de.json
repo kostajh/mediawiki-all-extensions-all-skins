@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"pluggablesso-extensionname": "PluggableSSO",
+	"pluggablesso-desc": "Verwendet SSO, das durch den Webserver in $REMOTE_USER zur Verfügung gestellt wird in Verbindung mit PluggableAuth",
+	"pluggablesso-no-session": "Keinen Benutzernamen erhalten, Sitzung irgendwie fehlgeschlagen.",
+	"pluggablesso-username-mismatch": "Der Benutzername entspricht nicht der Sitzung"
+}

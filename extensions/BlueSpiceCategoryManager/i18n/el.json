@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"GR",
+			"Nikosgranturismogt",
+			"Protnet"
+		]
+	},
+	"bluespicecategorymanager": "Διαχειριστής κατηγοριών",
+	"bluespicecategorymanager-desc": "Οπτικό εργαλείοο για τη διαχείριση κατηγοριών",
+	"action-categorymanager-viewspecialpage": "Προβολή διαχειριστή κατηγοριών",
+	"bs-categorymanager-draganddrop-text": "Επιλέξτε και σύρτε για αναοργάνωση",
+	"bs-categorymanager-label": "Διαχειριστής κατηγοριών",
+	"bs-categorymanager-dlg-new-title": "Δημιουργία κατηγορίας",
+	"bs-categorymanager-dlg-new-prompt": "Παρακαλούμε εισαγάγετε το όνομα:",
+	"bs-categorymanager-removecategoryconfirm-text": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή τη κατηγορία;",
+	"bs-categorymanager-removecategoryconfirm-title": "Αφαιρέστε κατηγορία",
+	"bs-categorymanager-addcategory-dialog-error-title": "Η δημιουργία της κατηγορίας απέτυχε",
+	"bs-categorymanager-action-show-category": "Εμφάνιση κατηγορίας"
+}

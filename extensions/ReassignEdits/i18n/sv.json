@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil",
+			"Wikimon"
+		]
+	},
+	"reassignedits": "Överför användarredigeringar",
+	"reassignedits-desc": "Tillåt överföring av redigeringar från en gammal användare till en ny",
+	"reassignedits-error-invalid": "Användarnamnet \"$1\" är ogiltigt.",
+	"reassignedits-new": "Nytt användarnamn",
+	"reassignedits-old": "Gammalt användarnamn",
+	"reassignedits-submit": "Skicka",
+	"reassignedits-success": "Redigeringarna av \"$1\" överfördes till \"$2\".",
+	"reassignedits-summary": "Överför redigeringar från en gammal användare till en ny.",
+	"reassignedits-updatelog-title": "Uppdatera användarnamn i loggtitlar",
+	"reassignedits-updatelog-user": "Uppdatera utförande användare i loggar",
+	"right-reassignedits": "Överför redigeringar från en gammal användare till en ny"
+}

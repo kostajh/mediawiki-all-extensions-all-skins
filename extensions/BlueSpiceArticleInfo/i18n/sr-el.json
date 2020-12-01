@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-articleinfo-desc": "Pruža informacije o stranici u statusnoj traci",
+	"prefs-articleinfo": "Informacije o stranici",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Interval ažuriranja u sekundama:",
+	"bs-articleinfo-flyout-title": "Informacije o stranici",
+	"bs-articleinfo-flyout-intro": "Ovde možete pronaći informacije vezane za stranicu. Možete da proverite njen kvalitet i ažurnost i videte kako se odnosi na druge stranice na vikiju.",
+	"bs-articleinfo-nav-link-title": "Informacije o stranici",
+	"bs-articleinfo-flyout-categorylinks-title": "Kategorije",
+	"bs-articleinfo-flyout-templatelinks-title": "Šabloni korišćeni na stranici",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Nema dodeljenih kategorija",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Nema korišćenih šablona",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Poslednja izmena",
+	"bs-articleinfo-flyout-lastediteduser-text": "Poslednji urednik",
+	"bs-articleinfo-newrevision-info-text": "Dostupna je nova verzija ove stranice. Osvežite stranicu da bi ste videli trenutni sadržaj.",
+	"bs-articleinfo-newrevision-info-text-reload": "Postoji nova verzija ove stranice. Molimo [[:$1|osvežite]] stranicu da bi ste videli njen trenutni sadržaj.",
+	"bs-articleinfo-flyout-subpages-title": "Podstranice",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Podstranice",
+	"bs-articleinfo-dialog-subpages-title": "Podstranice"
+}

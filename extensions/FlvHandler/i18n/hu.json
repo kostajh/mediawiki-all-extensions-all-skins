@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Glanthor Reviol"
+		]
+	},
+	"flvhandler_desc": "Lehetővé teszi flash videó fájlok (.flv) használatát, hasonlóképpen a többi fájlhoz (pl. <nowiki>[[</nowiki>{{ns:file}}:Movie.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Flash videó, $1 × $2 képpont, fájlméret: $3"
+}

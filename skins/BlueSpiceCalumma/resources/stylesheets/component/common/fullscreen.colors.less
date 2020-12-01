@@ -1,0 +1,18 @@
+.calumma-full-screen-button {
+	&.bs-full-screen-mode {
+		i::before {
+			color: @theme-header-fullscreen-button-fg-color-active;
+		}
+	}
+
+	i::before {
+		color: @theme-header-fullscreen-button-fg-color;
+	}
+
+	&:hover {
+		&.bs-full-screen-mode i::before,
+		i::before {
+			color: @theme-header-fullscreen-button-fg-color-hover;
+		}
+	}
+}

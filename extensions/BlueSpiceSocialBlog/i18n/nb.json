@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-socialblog-desc": "Bloggentitet for BlueSpiceSocial",
+	"bs-socialblog-type": "Blogg",
+	"blog": "Blogg",
+	"bs-socialblog-entityblog-header-create": "Ny blogg",
+	"bs-socialblog-var-blogtitle": "Tittel",
+	"bs-socialblog-entityblog-content-more-btn-more": "Mer",
+	"bs-socialblog-entityblog-content-more-btn-less": "Mindre",
+	"bs-socialblog-toc-useblogteaser": "Bruk smaksprøvetekst for bloggoppføringer i tidslinjen",
+	"bs-socialblog-special-blog-heading": "Blogg",
+	"bs-socialblog-special-blog-heading-entry": "Blogg/$1",
+	"bs-social-notifications-blog-create": "Brukeren {{GENDER:$1|$2}} opprettet ny blogg «$3»",
+	"bs-social-notifications-email-blog-create-subject": "Brukeren {{GENDER:$1|$2}} opprettet ny blogg «$3»",
+	"bs-social-notifications-email-blog-create-body": "Brukeren {{GENDER:$1|$2}} opprettet ny blogg «$3» med følgende tekst:\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2}} opprettet ny blogg «$3»",
+	"bs-social-notifications-blog-edit": "Brukeren {{GENDER:$1|$2}} redigerte bloggen «$3»",
+	"bs-social-notifications-email-blog-edit-subject": "Brukeren {{GENDER:$1|$2}} redigerte bloggen «$3»",
+	"bs-social-notifications-email-blog-edit-body": "Brukeren {{GENDER:$1|$2}} redigerte bloggen «$3». Ny tekst er:\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2}} redigerte bloggen «$3»",
+	"bs-social-notifications-blog-delete": "Brukeren {{GENDER:$1|$2}} slettet bloggen «$3»",
+	"bs-social-notifications-email-blog-delete-subject": "Brukeren {{GENDER:$1|$2}} slettet bloggen «$3»",
+	"bs-social-notifications-email-blog-delete-body": "Brukeren {{GENDER:$1|$2}} slettet bloggen «$3»",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2}} slettet bloggen «$3»",
+	"bs-social-notification-blog-primary-link-label": "Vis blogg"
+}

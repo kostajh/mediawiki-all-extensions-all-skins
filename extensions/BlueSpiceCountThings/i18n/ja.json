@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Otokoume",
+			"Shirayuki"
+		]
+	},
+	"bs-countthings-desc": "コンテンツベースの統計を提供します",
+	"bs-countthings-chars-label": "文字",
+	"bs-countthings-words-label": "単語",
+	"bs-countthings-files-label": "ファイル",
+	"bs-countthings-pages-label": "ページ",
+	"bs-countthings-ve-countarticles-title": "記事を数える",
+	"bs-countthings-ve-countfiles-title": "ファイルを数える",
+	"bs-countthings-ve-countthingsinspector-mode": "モード",
+	"bs-countthings-ve-countcharacters-mode-all": "すべて",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "文字",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "単語",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "文字と単語",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "ページ",
+	"bs-countthings-ve-countcharacters-input-label": "ページ",
+	"bs-countthings-error-no-input": "ページを指定していません。",
+	"bs-countthings-error-invalid-mode": "モード「$1」は無効です。「chars」、「words」、または「pages」を使用してください。",
+	"bs-countthings-error-not-exist": "ページ「$1」は存在しません。",
+	"bs-countthings-tag-countarticles-desc": "このウィキの記事数を表示する。",
+	"bs-countthings-tag-countusers-desc": "登録利用者数を表示する。",
+	"bs-countthings-tag-countfiles-desc": "このウィキのファイル数を表示する。",
+	"bs-countthings-tag-countcharacters-desc": "指定したページの本文の統計を表示する。利用できる属性:",
+	"bs-countthings-tag-countcharacters-example-1": "記事数",
+	"bs-countthings-tag-countcharacters-example-2": "文字数"
+}

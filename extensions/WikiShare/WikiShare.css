@@ -1,0 +1,35 @@
+/**
+* Stylesheet for WIkiShare extension.
+*
+* You may modify the CSS code on the MediaWiki:Common.css
+* page to adjust padding, alignment, etc.
+*
+* @wikisharegroup Extensions
+* @license GPL
+*/
+
+#wikisharetoolbar {
+	float: right;
+	padding: 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#wikishareheader {
+	float: right;
+	padding: 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#wikisharesidebar {
+	padding-top: 5px;
+}
+
+.wikishare_icon {
+	margin: 2px;
+}

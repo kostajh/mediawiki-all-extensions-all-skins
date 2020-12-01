@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo.mps"
+		]
+	},
+	"pipeescape-desc": "Função do analisador (parser) <code>#!</code> para quando se pretende que um caractere barra vertical (\"pipe\") seja apenas um caractere barra vertical."
+}

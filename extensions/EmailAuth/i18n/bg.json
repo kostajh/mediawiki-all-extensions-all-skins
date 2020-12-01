@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac",
+			"ShockD",
+			"StanProg"
+		]
+	},
+	"emailauth-desc": "Проверява подозрителни потребителски имена по ел. поща",
+	"emailauth-token-label": "Код за потвърждение",
+	"emailauth-token-help": "Еднократен 2FA маркер, изпращан по ел. поща.",
+	"emailauth-email-subject": "Вашият код за потвърждение за $1",
+	"emailauth-email-body": "Вашият код за потвърждение на $1 е $2",
+	"emailauth-login-message": "Трябва да потвърдите данните си за вход. Код за потвърждение бе изпратен на вашия адрес на електронна поща ($1), моля въведете този код тук.",
+	"emailauth-login-failure": "Неправилен код за потвърждение!",
+	"emailauth-login-retry-limit": "Твърде много провали!"
+}

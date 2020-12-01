@@ -1,0 +1,33 @@
+.mixin-mobile-menu( @color, @bg-color, @color-hover, @bg-color-hover ) {
+	margin-left: 0;
+	width: 100%;
+	background-color: @bg-color;
+	border-radius: 0;
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin-bottom: 0;
+		li{
+			border: none;
+			width: 100%;
+			a {
+				width: 100%;
+				color: @color;
+				text-decoration: none;
+				display: block;
+				padding-left: 0.625rem;
+				padding-right: 0.625rem;
+				padding-top: 0.1875rem;
+				height: 2rem;
+				line-height: 1.75rem;
+
+				&:hover{
+					background-color:  @bg-color-hover;
+					color: @color-hover;
+				}
+			}
+
+		}
+	}
+}

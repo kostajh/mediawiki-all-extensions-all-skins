@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"SandroHc"
+		]
+	},
+	"tweetanew-desc": "Publica um tweet quando uma página é criada ou editada",
+	"tweetanew-newaction": "Criar um tweet sobre esta página nova",
+	"tweetanew-newtooltip": "Enviar informação sobre esta página nova para o Twitter",
+	"tweetanew-editaction": "Criar um tweet sobre esta edição",
+	"tweetanew-edittooltip": "Enviar informação sobre esta edição para o Twitter",
+	"tweetanew-minoredit": "m",
+	"tweetanew-authorcredit": "por",
+	"tweetanew-newdefault": "NOVA PÁGINA: $1 - $2",
+	"tweetanew-new1": "Parece que $1 foi criado em $2",
+	"tweetanew-new2": "$1 foi recentemente criado em $2",
+	"tweetanew-new3": "Visite $2 - tem uma página nova em $1",
+	"tweetanew-editdefault": "PÁGINA ATUALIZADA: $1 - $2",
+	"tweetanew-edit1": "Parece que $1 foi atualizado em $2",
+	"tweetanew-edit2": "$1 foi recentemente alterado em $2",
+	"tweetanew-edit3": "Visite $2 - tem conteúdo novo em $1"
+}

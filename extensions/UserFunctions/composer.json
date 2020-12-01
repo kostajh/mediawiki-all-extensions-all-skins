@@ -1,0 +1,37 @@
+{
+	"name": "mediawiki/user-functions",
+	"type": "mediawiki-extension",
+	"description": "Enhance parser with user functions",
+	"keywords": [
+		"MediaWiki",
+		"User"
+	],
+	"homepage": "https://www.mediawiki.org/wiki/Extension:UserFunctions",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"php": ">=5.3.0",
+		"composer/installers": "1.*,>=1.0.1"
+	},
+	"autoload": {
+		"files": [
+			"UserFunctions.php"
+		],
+		"classmap": [
+			"UserFunctions_body.php"
+		]
+	},
+	"require-dev": {
+		"mediawiki/minus-x": "1.1.0",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"minus-x check ."
+		],
+		"fix": [
+			"minus-x fix ."
+		]
+	}
+}

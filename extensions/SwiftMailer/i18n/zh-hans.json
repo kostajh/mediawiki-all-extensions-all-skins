@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"swiftmailer-desc": "提供SwiftMailer作为替代电邮联系",
+	"swiftmailer-smtp-error": "设置SwiftMailer的SMTP时出错：$1",
+	"swiftmailer-send-error": "使用SwiftMailer发送邮件时出错：$1"
+}

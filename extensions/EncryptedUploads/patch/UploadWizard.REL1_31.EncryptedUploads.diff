@@ -1,0 +1,143 @@
+diff --git a/extension.json b/extension.json
+index 4c8887ff..34d360a4 100644
+--- a/extension.json
++++ b/extension.json
+@@ -498,7 +498,8 @@
+ 				"mwe-upwiz-dialog-yes",
+ 				"mwe-upwiz-dialog-no",
+ 				"mwe-upwiz-dialog-title",
+-				"colon-separator"
++				"colon-separator",
++				"mwe-upwiz-encrypt"
+ 			],
+ 			"targets": [ "desktop", "mobile" ],
+ 			"group": "ext.uploadWizard"
+@@ -711,7 +712,8 @@
+ 				"mwe-upwiz-thanks-explain",
+ 				"mwe-upwiz-thanks-wikitext",
+ 				"mwe-upwiz-objref-notice-update-delay",
+-				"mwe-upwiz-thanks-url"
++				"mwe-upwiz-thanks-url",
++				"mwe-upwiz-thanks-secret"
+ 			],
+ 			"targets": [ "desktop", "mobile" ],
+ 			"group": "ext.uploadWizard"
+diff --git a/i18n/en.json b/i18n/en.json
+index a7cec859..c8eade02 100644
+--- a/i18n/en.json
++++ b/i18n/en.json
+@@ -172,11 +172,13 @@
+ 	"mwe-upwiz-autoconverted": "This file was automatically converted to the $1 format",
+ 	"mwe-upwiz-other": "Other information",
+ 	"mwe-upwiz-source": "Source",
++	"mwe-upwiz-encrypt": "\uD83D\uDD12 Encrypt upload with a password",
+ 	"mwe-upwiz-thanks-intro": "Thanks for uploading!",
+ 	"mwe-upwiz-thanks-explain": "You can now use {{PLURAL:$1|this file|these files}} on wikis, or link to {{PLURAL:$1|it|them}} on the web.",
+ 	"mwe-upwiz-thanks-wikitext": "To use the file in a wiki, copy this text into a page:",
+ 	"mwe-upwiz-thanks-update-delay": "Inserting the image into the list page may take up to five minutes.",
+ 	"mwe-upwiz-thanks-url": "To link to it in HTML, copy this URL:",
++	"mwe-upwiz-thanks-secret": "\uD83D\uDD12 Secret decryption password:",
+ 	"mwe-upwiz-upload-error-bad-filename-extension": "This wiki does not accept filenames that end in the extension \".$1\".",
+ 	"mwe-upwiz-upload-error-bad-filename-no-extension": "This wiki requires that files have an extension — like \".JPG\" at the end of the filename.",
+ 	"mwe-upwiz-upload-error-duplicate-filename-error": "You are already uploading the file \"$1\".",
+diff --git a/resources/mw.UploadWizardDetails.js b/resources/mw.UploadWizardDetails.js
+index 7ab60b85..12b75b47 100644
+--- a/resources/mw.UploadWizardDetails.js
++++ b/resources/mw.UploadWizardDetails.js
+@@ -138,6 +138,13 @@
+ 			} );
+ 			this.mainFields.push( this.locationInputField );
+ 
++			this.encryptionField = new OO.ui.CheckboxInputWidget( {} );
++			this.encryptionFieldLayout = new uw.FieldLayout( this.encryptionField, {
++				label: mw.message( 'mwe-upwiz-encrypt' ).text(),
++				required: false,
++				align: 'inline'
++			} );
++
+ 			/* Build the form for the file upload */
+ 			this.$form = $( '<form id="mwe-upwiz-detailsform' + this.upload.index + '"></form>' ).addClass( 'detailsForm' );
+ 			this.$form.append(
+@@ -146,7 +153,8 @@
+ 				this.descriptionsDetailsField.$element,
+ 				this.deedChooserDetailsField.$element,
+ 				this.dateDetailsField.$element,
+-				this.categoriesDetailsField.$element
++				this.categoriesDetailsField.$element,
++				this.encryptionFieldLayout.$element
+ 			);
+ 
+ 			this.$form.on( 'submit', function ( e ) {
+@@ -998,6 +1006,12 @@
+ 			}
+ 
+ 			params.text = this.getWikiText();
++
++			if ( this.encryptionField.isSelected() ) {
++				params.encrypt = true;
++				this.upload.encrypted = true;
++			}
++
+ 			return this.submitWikiTextInternal( params );
+ 		},
+ 
+@@ -1071,6 +1085,9 @@
+ 				// rejected by now (either by HTTP status code, or in validateWikiTextSubmitResult)
+ 				.then( function ( result ) {
+ 					details.upload.extractImageInfo( result.upload.imageinfo );
++					if ( 'encrypted' in details.upload && 'encryption' in result ) {
++						details.upload.extractEncryptionInfo( result.encryption );
++					}
+ 					details.upload.thisProgress = 1.0;
+ 					details.upload.state = 'complete';
+ 					return result;
+diff --git a/resources/mw.UploadWizardUpload.js b/resources/mw.UploadWizardUpload.js
+index 0ed8a644..46da2923 100644
+--- a/resources/mw.UploadWizardUpload.js
++++ b/resources/mw.UploadWizardUpload.js
+@@ -302,6 +302,10 @@
+ 
+ 	};
+ 
++	mw.UploadWizardUpload.prototype.extractEncryptionInfo = function( info ) {
++		this.password = info.secret;
++	};
++
+ 	/**
+ 	 * Extract image info into our upload object
+ 	 * Image info is obtained from various different API methods
+diff --git a/resources/ui/steps/uw.ui.Thanks.js b/resources/ui/steps/uw.ui.Thanks.js
+index 26ec8233..fe5ccc19 100644
+--- a/resources/ui/steps/uw.ui.Thanks.js
++++ b/resources/ui/steps/uw.ui.Thanks.js
+@@ -123,9 +123,8 @@
+ 			.text( upload.details.getTitle().getMainText() )
+ 			.appendTo( $thumbnailCaption );
+ 
+-		$( '<div>' )
++		var inputs = $( '<div>' )
+ 			.addClass( 'mwe-upwiz-data' )
+-			.appendTo( $thanksDiv )
+ 			.append(
+ 				$( '<p>' )
+ 					.text( mw.message( 'mwe-upwiz-thanks-wikitext' ).text() )
+@@ -140,6 +139,19 @@
+ 					)
+ 			);
+ 
++		if ( 'encrypted' in upload && 'password' in upload ) {
++			inputs.append(
++				$( '<p>' )
++					.text( mw.message( 'mwe-upwiz-thanks-secret' ).text() )
++					.append(
++						$( '<br />' ),
++						this.makeReadOnlyInput( upload.password )
++					)
++			);
++		}
++
++		inputs.appendTo( $thanksDiv );
++
+ 		upload.getThumbnail().done( function ( thumb ) {
+ 			mw.UploadWizard.placeThumbnail( $thumbnailDiv, thumb );
+ 		} );

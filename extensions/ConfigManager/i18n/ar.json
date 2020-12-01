@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"configmanager-admintool-label": "مدير التهيئة",
+	"action-configmanager-viewspecialpage": "عرض الصفحة الخاصة \"{{int:configmanager}}\"",
+	"configmanager": "مدير التهيئة",
+	"configmanager-desc": "يوفر إمكانية للإداريين; لتكوين ويكي بأكمله من صفحة خاصة واحدة",
+	"configmanager-discardchanges": "تجاهل التغييرات؟",
+	"configmanager-noentry": "لم يتم العثور على إدخال",
+	"apihelp-configmanager-tasks-summary": "إدارة المهام",
+	"apihelp-configmanager-store-summary": "إدارة المتاجر",
+	"right-configmanager-viewspecialpage": "الوصول إلى الصفحة الخاصة [[Special:ConfigManager]]."
+}

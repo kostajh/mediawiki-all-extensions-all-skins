@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bináris",
+			"Glanthor Reviol"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "A felhasználói fiókok készítését automatikusan szüneteltetjük pár másodpercig, hogy csökkentsük a tömeges regisztrációs támadásokat.\nKérlek, várj egy kicsit, majd nyomd meg az „újratöltés” gombot a böngésződben az újbóli elküldéshez.",
+	"userthrottle-desc": "Felhasználói fiókok készítésének szabályozása"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armin1392"
+		]
+	},
+	"multimaps-loading-map": "در حال بارگذاری نقشه...",
+	"multimaps-mapservices-must-not-empty-array": "متغیر \"$1\" نباید یک آرایهٔ خالی باشد",
+	"multimaps-element-illegal-value": "برای پارامتر \"$1\" مقدار غیرقانونی \"$2\" تعیین شده‌ بود. مقادیر معتبر عبارتند از: $3",
+	"multimaps-element-parameters-not-processed": "پارامترهای زیر پردازش نشده بودند: $1",
+	"multimaps-marker-incorrect-icon": "نام پوشهٔ‌ نادرست \"$1\" برای نماد شاخص ارائه شده بود.",
+	"multimaps-marker-incorrect-icon-url": "یوآرال نادرست \"$1\" برای نماد شاخص ارائه شده بود.",
+	"multimaps-marker-incorrect-icon-size": "اندازهٔ نادرست \"$1\" برای نماد شاخص \"$2\" ارائه شده بود.",
+	"multimaps-unable-create-element": "بخش نقشهٔ \"$1\" نمی تواند ایجاد شود",
+	"multimaps-unable-parse-coordinates": "قادر به تجزیهٔ‌ مختصات جغرافیایی \"$1\" نیست",
+	"multimaps-unable-parse-parameter": "قادر به تجزیهٔ پارامتر \"$1\" که مقدارش \"$2\" است، نیست",
+	"multimaps-unknown-class-for-service": "کلاس \"$1\" که برای سرویس تعریف شده است، نمی‌تواند پیدا شود.",
+	"multimaps-unknown-parameter": "پارامتر ناشناخته: \"$1\"",
+	"multimaps-error-incorrect-class-for-service": "کلاس \"$1\" که برای سرویس تعریف شده‌است، نمی‌تواند استفاده شود.",
+	"multimaps-method-error-unknown-action": "$1: عمل ناشناخته",
+	"multimaps-method-error-unexpected-result": "$1: نتیجهٔ یک عملیات غیرمنتظره"
+}

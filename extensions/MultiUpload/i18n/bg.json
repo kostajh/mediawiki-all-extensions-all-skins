@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"StanProg",
+			"Ted Masters",
+			"Vlad5250",
+			"Vodnokon4e"
+		]
+	},
+	"multiupload": "Качване на повече файлове наведнъж",
+	"multiupload-desc": "[[Special:MultiUpload|Специална страница за качване по няколко файла наведнъж]]",
+	"multiupload-text": "Формулярът по-долу служи за качване на няколко файла наведнъж.\nЗа преглеждане и търсене на вече качените файлове, използвайте [[Special:FileList|списъка с качени файлове]], качванията се записват в [[Special:Log/upload|дневника на качванията]], а изтриванията в [[Special:Log/delete|дневника на изтриванията]].\n\nЗа включване на файл в страница, може да се използва някой от следните синтаксиси:\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.jpg]]</nowiki></code></strong> за използване пълната версия на файла\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.png|200px|thumb|left|alt text]]</nowiki></code></strong> за определяне на широчина от 200 пиксела, ляво позициониране и „alt text“ за описание\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:File.ogg]]</nowiki></code></strong>, за да поставите директна препратка, без файлът да бъде показван на страницата.\n\nСлед като изберете файл, страницата ще се разшири, позволявайки Ви да изберете още файлове преди качване.\n\nЗа да разархивирате файлове .zip, .tar, .tar.gz или .tgz и да качите файловете в архива, изберете пакетния файл и натиснете бутона „{{int:multiupload-unpack-button}}“, който ще се появи.",
+	"multipleupload": "Качване на файлове",
+	"multipleupload-toolbox": "Качване на няколко файла",
+	"multiupload-submit": "Качване на файлове",
+	"multiupload-uploadedto": "Качен файлът $1.",
+	"multiupload-row": "Файл $1",
+	"multiupload-notify-ok": "ОК",
+	"multiupload-upload-package-error": "Грешка при качването на пакетния файл",
+	"multiupload-unpack-error": "Грешка при качването на пакетния файл",
+	"multiupload-unreadable-package": "Файлът $1 не може да бъде прочетен",
+	"multiupload-http-error": "Невъзможно е свързване със сървъра.",
+	"multiupload-file-unpacked-from": "Файл <b>$1</b> от пакета <b>$2</b>",
+	"apihelp-multiupload-unpack-param-key": "„filekey“ е получен при качване на пакетния файл в склада",
+	"apihelp-multiupload-unpack-param-filename": "Файловото име на пакета"
+}

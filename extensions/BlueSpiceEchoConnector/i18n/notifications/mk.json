@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"bs-notifications-addaccount": "Корисникот „$1“ е создаден.",
+	"bs-notifications-email-addaccount-subject": "Корисникот „$2“ е {{GENDER:$1|создаден}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|Корисникот}} $2 е создаден.\n\nМожете да ја посетите {{GENDER:$1|неговата корисничка страница|нејзината корисничка страница|корисничката страница}} на врската подолу",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|Корисникот}} $2 е создаден.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Творец}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Творец}}: $1",
+	"bs-notifications-registeruser": "Корисникот „$1“ има создадено сметка.",
+	"bs-notifications-edit": "Страницата „$1“ е изменета",
+	"bs-notifications-email-edit-subject": "Страницата „$1“ е {{GENDER:$2|изменета}} од $3",
+	"bs-notifications-email-edit-body": "Страницата „$1“ е {{GENDER:$2|изменета}} од $4.\n\nКоментар:\n $3",
+	"bs-notifications-web-edit-body": "Страницата „$1“ е {{GENDER:$2|изменета}} од $3.",
+	"bs-notifications-create": "Страницата „$1“ е создадена",
+	"bs-notifications-email-create-subject": "Страницата „$1“ е {{GENDER:$2|создадена}} од $3",
+	"bs-notifications-email-create-body": "Страницата „$1“ е {{GENDER:$2|создадена}} од $3.\n\nКоментар:\n $4 \nМожете да ја посетите страницата на врската подолу",
+	"bs-notifications-web-create-body": "Страницата „$1“ е {{GENDER:$2|создадена}} од $3.",
+	"bs-notifications-delete": "Страницата „$1“ е избришана",
+	"bs-notifications-email-delete-subject": "Страницата „$1“ е {{GENDER:$2|избришана}} од $3",
+	"bs-notifications-email-delete-body": "Страницата „$1“ е {{GENDER:$2|избришана}} од $3.\n\nНаведена е следнава причина:\n$4",
+	"bs-notifications-web-delete-body": "Страницата „$1“ е {{GENDER:$2|избришана}} од $3.",
+	"bs-notifications-move": "Страницата „$1“ е преместена",
+	"bs-notifications-email-move-subject": "Страницата „$1“ е {{GENDER:$2|преместена}} на „$3“ од $4",
+	"bs-notifications-email-move-body": "Страницата „$1“ е {{GENDER:$2|преместена}} на „$3“ од $4. \n\nНаведена е следнава причина:\n$5\n\nМожете да ја посетите страницата на врската подолу",
+	"bs-notifications-web-move-body": "Страницата „$1“ е {{GENDER:$2|преместена}} на „$3“ од $4",
+	"bs-notifications-edit-difflink-label": "Види разлика",
+	"bs-notifications-mail-additional-links-label": "Дополнителни врски"
+}

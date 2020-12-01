@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby",
+			"Soued031"
+		]
+	},
+	"welcomesurvey": "{{GENDER:$1|Wëllkomm}} $1!",
+	"welcomesurvey-save-confirmation-title": "Merci! Är Äntwerte goufe gespäichert.",
+	"welcomesurvey-save-btn": "Fäerdeg maachen",
+	"welcomesurvey-skip-btn": "Dës Ëmfro {{GENDER:$1|iwwersprangen}}",
+	"welcomesurvey-sidebar-privacy-title": "Mir respektéieren Är Privatsphär",
+	"welcomesurvey-privacy-policy-link-text": "Fir méi iwwer Date vun neien Editeuren ze wëssen",
+	"welcomesurvey-sidebar-editing-title": "Ufänken mat änneren",
+	"welcomesurvey-sidebar-editing-link1-text": "Uleedung",
+	"welcomesurvey-sidebar-editing-link1-title": "Wikipedia:Uleedung",
+	"welcomesurvey-question-reason-label": "Firwat hutt Dir Äre Benotzerkont haut ugeluecht?",
+	"welcomesurvey-dropdown-option-select-label": "Sicht wgl. eraus..",
+	"welcomesurvey-question-reason-option-edit-typo-label": "Fir en Tippfeeler oder e Feeler an engem Wikipedia -Artikel ze verbesseren",
+	"welcomesurvey-question-reason-option-new-page-label": "Fir en neie Wikipedia Artikel unzeleeën",
+	"welcomesurvey-question-reason-option-read-label": "Fir Wikipedia ze liesen",
+	"welcomesurvey-question-reason-option-other-no-freetext-label": "Anerer",
+	"welcomesurvey-question-reason-option-other-label": "Anerer (wgl. beschreiwen)",
+	"welcomesurvey-question-reason-other-placeholder": "Anere Grond {{GENDER:$1|aginn}}...",
+	"welcomesurvey-question-mentor-label": "Jo, {{GENDER:$1|ech sinn interesséiert}}",
+	"welcomesurvey-question-edited-label": "Hutt Dir schonn Ännerungen op Wikipedia gemaach?",
+	"welcomesurvey-question-edited-option-yes-many-label": "Jo, ganz dacks",
+	"welcomesurvey-question-edited-option-yes-few-label": "Jo, een oder zweemol",
+	"welcomesurvey-question-edited-option-no-dunno-label": "Neen, Ech wousst net datt ech Wikipedia ännere kann",
+	"welcomesurvey-question-edited-option-no-other-label": "Neen, aus anere Grënn",
+	"welcomesurvey-question-edited-option-dont-remember-label": "Ech ka mech net erënneren",
+	"welcomesurvey-question-email-label": "E-Mail-Adress (fakultativ)",
+	"welcomesurvey-question-email-placeholder": "Gitt Är E-Mail-Adress an...",
+	"welcomesurvey-question-languages-placeholder": "Setzt bis zu {{PLURAL:$1|enger Sprooch|$1 Sproochen}} derbäi...",
+	"welcomesurvey-question-languages-maximum": "Dir hutt déi maximal Zuel vu Sproochen derbäigesat."
+}

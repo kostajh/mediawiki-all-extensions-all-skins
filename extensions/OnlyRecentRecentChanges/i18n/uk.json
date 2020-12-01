@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia"
+		]
+	},
+	"onlyrecentrecentchanges-desc": "Показувати сторінки в списку останніх змін тільки, коли вони були недавно змінені",
+	"onlyrecentrecentchanges-option": "Показати тільки останні зміни будь-якої зміненої сторінки (в межах ''{{int:prefs-displayrc}}'' як показано вище)"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"bs-notifications-edit": "De Sigg [[:$1]] wood jeänndert",
+	"bs-notifications-email-edit-subject": "De Sigg „$1“ verändert {{GENDER:$2|vum|vum|vumm Metmaacher|vun dä|vum}} $3",
+	"bs-notifications-create": "De Sigg [[:$1]] wood aanjelaht",
+	"bs-notifications-email-create-subject": "De Sigg „$1“ aanjalaat {{GENDER:$2|vum|vum|vumm Metmaacher|vun dä|vum}} $3.",
+	"bs-notifications-email-create-body": "De Sigg „$1“ wood aanjelaat {{GENDER:$2|vum|vum|vumm Metmaacher|vun dä|vum}} $6.\n\n{{int:summary}}:\n $3\nMer kann se övver heh dä Lengk belohre:\n$4",
+	"bs-notifications-delete": "De Sigg [[:$1]] wood fott jeschmeße",
+	"bs-notifications-email-delete-subject": "De Sigg „$1“ fottjeschmeße {{GENDER:$2|vum|vum|vumm Metmaacher|vun dä|vum}} $3",
+	"bs-notifications-move": "De Sigg [[:$1]] wood ömjenannt",
+	"bs-notifications-email-move-subject": "De Sigg „$1“ ömjenannt {{GENDER:$2|vum|vum|vumm Metmaacher|vun dä|vum}} $4.",
+	"bs-notifications-email-move-body": "De Sigg „$1“ ömjenannt op „$3“ {{GENDER:$2|vum|vum|vumm Metmaacher|vun dä|vum}} $5. Mer kann övver dä Lengk $4 belohre."
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset>
+	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
+		<exclude name="Generic.Files.LineLength.TooLong" />
+		<exclude name="MediaWiki.Commenting.FunctionAnnotations.UnrecognizedAnnotation" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.ExtraParamComment" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.MissingReturn" />
+		<exclude name="MediaWiki.Commenting.FunctionComment.WrongStyle" />
+		<exclude name="MediaWiki.Commenting.PropertyDocumentation.MissingDocumentationPrivate" />
+		<exclude name="MediaWiki.Commenting.PropertyDocumentation.MissingVar" />
+		<exclude name="MediaWiki.Commenting.PropertyDocumentation.WrongStyle" />
+		<exclude name="MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName" />
+		<exclude name="MediaWiki.Usage.AssignmentInReturn.AssignmentInReturn" />
+		<exclude name="MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment" />
+		<exclude name="Squiz.Classes.ValidClassName.NotCamelCaps" />
+	</rule>
+	<file>.</file>
+	<arg name="extensions" value="php,php5,inc"/>
+	<arg name="encoding" value="UTF-8"/>
+</ruleset>

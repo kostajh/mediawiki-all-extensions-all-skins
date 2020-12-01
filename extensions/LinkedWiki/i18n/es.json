@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"linkedwiki-refresh": "Actualizar",
+	"linkedwiki-duration": "Duración de consulta",
+	"specialpages-group-linkedwiki_group": "Herramientas para SPARQL y RDF",
+	"linkedwiki-speciallinkedwikiconfig": "Configuración de LinkedWiki",
+	"linkedwiki-specialrdfsave": "Actualizar base de datos",
+	"linkedwiki-specialsparqlquery": "Editor de SPARQL",
+	"linkedwiki-specialsparqlquery_categorysparqlquery": "Consulta de SPARQL",
+	"linkedwiki-specialsparqlquery_query": "Consulta",
+	"linkedwiki-specialsparqlquery_sendquery": "Ejecutar consulta",
+	"linkedwiki-specialsparqlquery_options": "Opciones",
+	"linkedwiki-specialsparqlquery_loglevel": "Nivel de registros",
+	"linkedwiki-specialsparqlquery_visualization": "Visualización",
+	"linkedwiki-specialsparqlquery_result": "Resultado"
+}

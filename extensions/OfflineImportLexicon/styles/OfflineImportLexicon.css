@@ -1,0 +1,227 @@
+﻿.header{
+  	display: block;
+ 	width: 354px;
+	font-size: 100%;
+  	margin: 0px 10px 10px 20px;
+  	padding-bottom: 20px;
+}
+.import-init{
+  	float:left;
+ 	width: 360px;
+	font-size: 100%;
+  	margin: 0px 10px 10px 20px;
+  	padding-top: 20px;
+}
+.offline-import{
+ 	width: 100%;
+	font-size: 100%;
+  	margin: 10px 10px 10px 20px;
+  	padding-top: 10px;
+}
+
+.import-new{
+	float: right;
+ 	width: 550px;
+	font-size: 100%;
+  	/*margin: 0px 10px 10px 400px;*/
+	background-color: #ffffe1;
+  	padding-top: 20px;
+}
+.error{
+  	display: none;
+	font-size: 80%;
+  	font-color: red;
+	padding: 5px;
+}
+
+.header input {
+	font-size: 100%;
+    	border-color:#ffc51a;
+    	border-width: 1px;
+	padding: 5px;
+    	border-style: solid;
+}
+
+
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+
+.rightArea {
+	display: none;
+	float: left;
+  	width: 400px;
+  	height: auto;
+  	margin: 0 0 10px 10px;
+  	padding: 5px;
+  	border: 1px solid #666666;
+  	background-color: #ffffe1;
+  	color: #666666;
+}
+
+#lexicon {
+	display: block;
+  	width: 350px;
+  	height: auto;
+  	margin: 0 0 10px 10px;
+  	padding: 5px;
+  	border: 1px solid #666666;
+  	background-color: #ffffe1;
+  	color: #666666;
+}
+
+#volume {
+	display: none;
+  	width: 350px;
+  	height: auto;
+  	margin: 0 0 10px 10px;
+  	padding: 5px;
+  	border: 1px solid #666666;
+  	background-color: #ffffe1;
+  	color: #666666;
+}
+
+
+.rightArea li a { 
+	text-decoration:none;
+	display: block;
+	color: #000000;
+	border-bottom:solid 1px #ffc51a;
+	padding: 2px;
+}
+
+.import-new table input, table textarea, table select{
+    	font-size: 100%;
+	width:300px;
+    	border-color:#ffc51a;
+    	border-width: 1px;
+	padding: 5px;
+    	border-style: solid;
+    }
+
+#lexicon_template {
+  display: none;
+  width: 460px;
+  margin: 0px 10px 10px 10px;
+  border: 1px solid #666666;
+  padding: 10px;
+  
+}
+
+
+#lexicon_template label {
+	width: 140px;
+	text-align: right;
+	
+    	font-style: normal; color: #666666; 
+}
+
+#volume_template {
+  display: none;
+  width: 460px;
+ /* margin: 0px 50px 10px 400px;*/
+  border: 1px solid #666666;
+  padding: 10px;
+}
+
+
+#volume_template label {
+	width: 140px;
+	float: left;
+	text-align: right;
+	/*margin: 5px 10px 0 -260px;*/
+    	font-style: normal; color: #666666; 
+}
+
+#lemmata_template {
+  display: none;
+  width: 500px;
+  border: 1px solid #666666;
+ /* margin: 0px 50px 10px 400px;*/
+  padding: 20px;
+}
+
+
+#lemmata_template label {
+	width: 140px;
+	float: left;
+	text-align: right;
+	/*margin: 5px 10px 0 -160px;*/
+    	font-style: normal; color: #666666; 
+}
+
+#nextBunch {
+	display:none;
+	font-size: 100%;
+	width:60px;
+	border-color:#ffc51a;
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+}
+
+#addVolume  {
+	display:none;
+}
+
+#addimagesbutton {
+	display:none;
+}
+
+* html legend{
+    position:absolute;
+    top: -.5em;
+    left: .5em;
+}
+
+* html fieldset {
+    position: relative;
+    margin-top:1em;
+    padding-top:.75em;
+}
+
+.statusbar{    
+	position: fixed;    
+	bottom: 5px;    
+	left: 0px;    
+	right: 0px;    
+	height: 16px;        
+	padding: 5px;     
+	background: blue;    
+	color: white;        
+	border: solid 1px lightgray;     
+	opacity: .70;        
+	filter: alpha(opacity="70");    
+	z-index: 200;     
+	overflow: hidden;    
+	overflow-y: auto; 
+}
+.statusbarhighlight{    
+	font-weight: bold;    
+	background-color: khaki;    
+	color: Maroon;    	
+	border: solid 1px silver;
+}
+em {
+	 color: red; 
+}
+.tooltip-content {
+	display: none;        /* required */
+	position: absolute;   /* required */
+	width: 250px;
+	padding: 10px;
+	border: 3px solid #AF8A31;
+	background-color: #FFC848;
+	text-align: center;
+	color: black; 
+	font-size: 80%;
+}
+.fancy-content {
+	border: none;
+	background: url('http://s3.amazonaws.com/theezpzway/files/1/original.png');
+	width: 277px;
+	height: 96px;
+} 

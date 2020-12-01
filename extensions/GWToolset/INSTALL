@@ -1,0 +1,149 @@
+GWToolset Install
+=================
+
+1. Licensing
+2. Target Wiki
+3. Required Software
+4. Recommended MediaWiki Templates
+5. Recommended Extensions
+6. Configuration
+   a. php.ini
+   b. DefaultSettings.php
+   c. LocalSettings.php
+      i.   enable uploads and url uploading
+      ii.  load the extension
+      iii. add/remove groups
+      iv.  FileBackend
+   d. FileBackend Security
+   e. Assign Users
+   f. Image Folder Permissions
+7. Hidden Categories
+
+
+Licensing
+---------
+Licensed under GNU GPL. See LICENSE.txt for more license information.
+
+
+Target Wiki
+-----------
+GWToolset was designed with the intention of running on http://commons.wikimedia.org, thus, if
+you are installing it on another wiki you may need to first install extensions and import
+MediaWiki templates used on Commons.
+
+
+Required Software
+-----------------
+* MediaWiki >= 1.21
+* PHP >= 5.3.3
+* [PHP cURL support]( http://www.php.net/manual/en/curl.setup.php )
+* [PHP finfo extension]( http://www.php.net/manual/en/fileinfo.setup.php )
+
+
+Recommended MediaWiki Templates
+--------------------------------
+In order for GWToolset to map metadata with a MediaWiki template, the MediaWiki
+template must be installed in the wiki. Below are examples of some MediaWiki
+templates you can use. We recommend that you at least import the Artwork template
+using Special:Export on commons and Special:Import on your local wiki.
+
+* [Artwork] ( http://commons.wikimedia.org/wiki/Template:Artwork )
+* [Book] ( http://commons.wikimedia.org/wiki/Template:Book )
+* [Musical work] ( http://commons.wikimedia.org/wiki/Template:Musical_work )
+* [Photograph] ( http://commons.wikimedia.org/wiki/Template:Photograph )
+* [Specimen] ( http://commons.wikimedia.org/wiki/Template:Specimen )
+
+
+Recommended Extensions
+----------------------
+Installing these extensions will give GWToolset the ability to use the most up to date
+MediaWiki template parameters as long as that template provides TemplateData.
+
+* [Scribunto] ( https://www.mediawiki.org/wiki/Extension:Scribunto )
+* [TemplateData] ( https://www.mediawiki.org/wiki/Extension:TemplateData )
+
+
+Configuration
+-------------
+### `php.ini`
+the following can also be set in httpd.conf, httpd-vhosts.conf, or in .htaccess
+instead of in php.ini
+
+* `memory_limit = '256M'`
+
+
+### `DefaultSettings.php`
+The following values are usually in the wiki’s `DefaultSettings.php`; if they
+are not set as indicated, you can make the changes in the `LocalSettings.php`
+file.
+
+* `$wgMaxImageArea = 6.4e7`; // when not using ImageMagick, otherwise leave it as is
+
+
+### `LocalSettings.php`
+The following settings should be added or already present in the
+`LocalSettings.php` file :
+
+_enable uploads and url uploading_
+* `$wgEnableUploads  = true;`
+* `$wgAllowCopyUploads = true;`
+
+_load the extension_
+* `require_once "$IP/extensions/GWToolset/GWToolset.php";`
+
+_FileBackend_
+The extension makes use of a file backend to temporarily store metada files for processing.
+Once the extension finishes processing the metadata file, a cleanup job is run in order to
+delete the metadata file from the file backend. Sometimes orphaned files can remain in the file
+backend; the maintenace script GWToolset\maintenance\cleanupGWTFileBackend.php can be run to
+remove those files. $wgGWTFBMaxAge, a php relative time value, is used as an age threshold to
+determine which files to delete.
+
+The file backend can be on a local file system or in an online object store.
+
+You’ll need to set-up a FileBackend configuration for the extension in LocalSettings.php. The
+configuration below can be used as a default local file system backend.
+
+$wgFileBackends[] = array(
+	'name'           => 'gwtoolset-backend',
+	'class'          => 'FSFileBackend',
+	'lockManager'    => 'nullLockManager',
+	'fileMode'       => 0644,
+	'basePath'       => $IP . '/images/gwtoolset'
+);
+
+$wgGWTFileBackend = 'gwtoolset-backend';
+$wgGWTFBMaxAge = '1 week';
+
+
+### FileBackend security
+The extension attempts to secure the FileBackend the FileBackend::prepare() method and
+passing in noAccess, and noListing parameters, however this security is limited to
+apache web servers that allow .htaccess files. please make sure you set-up the appropriate
+security for this directory so that the web server can access the files stored under it,
+but not the public.
+
+
+### Assign Users
+Assign users to the gwtoolset group as appropriate. You can do this on the
+Special:UserRights page.
+
+
+### Image folder permissions
+Make sure the wiki’s image folder can be written to by the web server.
+
+
+Hidden Categories
+-----------------
+GWToolset adds the following categories to media file uploads. You may want to
+add these as hidden categories to your wiki. If this is the case, then add the
+behaviour switch __HIDDENCAT__ to the top of the category page for the following:
+
+// category automatically assigned to saved metadata mappings
+Category:GWToolset_Metadata_Mappings
+
+// category automatically added to items uploaded by GWToolset
+Category:GWToolset_Batch_Upload
+
+// category automatically assigned to metadata files uploaded by GWToolset
+Category:GWToolset_Metadata_Sets

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ike Hecht",
+			"Shirayuki"
+		]
+	},
+	"listsignup": "The name of the extension's entry in Special:SpecialPages",
+	"listsignup-desc": "{{desc}}",
+	"listsignup-legend": "Legend on list signup page",
+	"listsignup-success": "Successful email submission message",
+	"listsignupdisplay": "Title of the display page",
+	"listsignuppurge": "Title of the purge page",
+	"listsignuppurge-legend": "Legend on purge page. Also link on bottom of display page",
+	"listsignuppurge-pretext": "Warning that list will be purged",
+	"listsignuppurge-success": "Successful email purge message",
+	"right-viewlistsignupdisplay": "{{doc-right|viewlistsignupdisplay}}",
+	"right-purgelistsignupdisplay": "{{doc-right|purgelistsignupdisplay}}",
+	"action-viewlistsignupdisplay": "{{doc-action|viewlistsignupdisplay}}",
+	"action-purgelistsignupdisplay": "{{doc-action|purgelistsignupdisplay}}"
+}

@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derugon",
+			"Gomoko",
+			"Kc kennylau",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"bs-insertlink-desc": "Boîte de dialogue pour saisir un lien",
+	"prefs-insertlink": "Insérer un lien",
+	"bs-insertlink": "Insérer un lien",
+	"bs-insertlink-pref-enable-java": "Activer l’applet Java",
+	"bs-insertlink-button-title": "Insérer/modifier un lien",
+	"bs-insertlink-dialog-title": "Insérer un lien",
+	"bs-insertlink-tab-wiki-page": "Page wiki",
+	"bs-insertlink-tab-ext-link": "Lien externe",
+	"bs-insertlink-tab-email": "Lien de courriel",
+	"bs-insertlink-tab-file": "Lien vers un fichier",
+	"bs-insertlink-label-page": "Page",
+	"bs-insertlink-label-link": "Lien",
+	"bs-insertlink-label-mail": "Adresse de courriel",
+	"bs-insertlink-label-description": "Description",
+	"bs-insertlink-label-file": "Fichier",
+	"bs-insertlink-label-searchfile": "Rechercher...",
+	"bs-insertlink-select-a-page": "Choisir la cible...",
+	"bs-insertlink-select-a-namespace": "(Pages)",
+	"bs-insertlink-empty-field-text": "Pour insérer un lien, vous devez spécifier une destination.",
+	"bs-insertlink-no-applet": "L’applet n’a pas pu être chargé. Veuillez vérifier votre installation de Java.",
+	"bs-insertlink-internal-file-link-button-label": "Sélectionner un fichier",
+	"bs-insertlink-external-file-switch-label": "Chemin de partage sur le réseau (URI)",
+	"bs-insertlink-pref-filesystemmap": "Emplacements de fichiers externes autorisés",
+	"bs-insertlink-pref-filesystemmap-fs-prefix": "Préfixe de protocole des fichiers systèmes",
+	"bs-insertlink-pref-filesystemmap-web-prefix": "Préfixe de protocole accessible Internet",
+	"bs-insertlink-pref-allowunmapped": "Autoriser les liens sans protocole reconnu"
+}

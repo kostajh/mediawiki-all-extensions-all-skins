@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"Servien"
+		]
+	},
+	"inlinecategorizer-desc": "JavaScript-module die t plaotsen, vortdoon en wiezigen van kategorieverwiezingen drekt vanuut de zied meugelik maakt",
+	"inlinecategorizer-add-category": "Kategorie derbie zetten",
+	"inlinecategorizer-add-category-submit": "Derbie zetten",
+	"inlinecategorizer-add-category-summary": "Kategorie \"$1\" derbie doon",
+	"inlinecategorizer-api-error": "De API gaf n foutmelding: $1: $2",
+	"inlinecategorizer-api-unknown-error": "De API gaf n onbekende foutmelding.",
+	"inlinecategorizer-cancel": "Bewarkingen ofbreken",
+	"inlinecategorizer-cancel-all": "Alle wysigingen afbreaken",
+	"inlinecategorizer-category-already-present": "Disse zied steet al in de kategorie $1",
+	"inlinecategorizer-category-hook-error": "n Lokale funksie verhinderden t opslaon van de wiezigingen",
+	"inlinecategorizer-category-question": "Waorumme wi'j de volgende wiezigingen anbrengen:",
+	"inlinecategorizer-confirm-ok": "Oké",
+	"inlinecategorizer-confirm-save": "Opslaon",
+	"inlinecategorizer-confirm-save-all": "Alle wiezigingen opslaon",
+	"inlinecategorizer-confirm-title": "Haandeling bevestigen",
+	"inlinecategorizer-edit-category": "Bewark kategorie",
+	"inlinecategorizer-edit-category-error": "t Was niet meugelik um de kategorie \"$1\" te wiezigen.\nDit gebeurt meestentieds as de kategorie via n mal op de zied ezet is.",
+	"inlinecategorizer-edit-category-summary": "Wiezig kategorie \"$1\" naor \"$2\"",
+	"inlinecategorizer-error-title": "Fout",
+	"inlinecategorizer-remove-category": "Kategorie vortdoon",
+	"inlinecategorizer-remove-category-error": "Kon de kategorie \"$1\" niet vortdoon.\nDit gebeurt meestentieds as de kategorie via n mal op de zied ezet is.",
+	"inlinecategorizer-remove-category-summary": "Kategorie \"$1\" vortdoon"
+}

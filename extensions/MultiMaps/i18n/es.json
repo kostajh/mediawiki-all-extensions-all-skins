@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Macofe",
+			"Salvador alc"
+		]
+	},
+	"multimaps-loading-map": "Cargando el mapa…",
+	"multimaps-mapservices-must-not-empty-array": "La variable «$1» no debe ser una matriz vacía",
+	"multimaps-had-following-errors": "Ocurrieron los errores siguientes al analizar los parámetros:",
+	"multimaps-element-parameters-not-processed": "no se procesaron los parámetros siguientes: $1",
+	"multimaps-marker-incorrect-icon-url": "Se proporcionó un URL incorrecto \"$1\" para el icono del marcador.",
+	"multimaps-marker-incorrect-icon-anchor": "Se proporcionó un ancla incorrecta \"$1\" para el icono del marcador \"$2\".",
+	"multimaps-marker-incorrect-shadow-url": "Se proporcionó un URL incorrecto «$1» para la sombra del icono.",
+	"multimaps-passed-unavailable-service": "No se encontró el nombre de servicio «$1» en la lista de servicios disponibles ($2). Se usó el servicio predeterminado «$3».",
+	"multimaps-unable-create-element": "No se puede crear el elemento del mapa «$1»",
+	"multimaps-unknown-class-for-service": "No se pudo encontrar la clase «$1» que se definió para el servicio.",
+	"multimaps-unknown-parameter": "Parámetro desconocido: «$1»",
+	"multimaps-error-incorrect-class-for-service": "No se puede utilizar la clase «$1» definida para el servicio.",
+	"multimaps-method-error-unknown-action": "$1: acción desconocida",
+	"multimaps-method-error-unexpected-result": "$1: resultado de función inesperado"
+}

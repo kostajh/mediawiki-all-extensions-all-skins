@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder"
+		]
+	},
+	"security": "Sicherheits-Logbuech",
+	"security-desc": "Erwyteret dr Mediawiki-Syteschutz, zum Aaluege vum Syteinhalt yyzschränke",
+	"security-logpage": "Sicherheits-Logbuech",
+	"security-logpagetext": "Des isch s Logbuech vu dr Aktione, wu gsperrt sin dur d [https://www.mediawiki.org/wiki/Extension:SimpleSecurity SimpleSecurity-Erwyterig].",
+	"badaccess-read": "Warnig: \"$1\" isch do aagee, aber Du hesch nit d netig Berächtigung go die Syte aaluege.",
+	"security-info": "Uf däre Syte het s $1",
+	"security-info-toggle": "Sicherheitsyyschränkige",
+	"security-inforestrict": "$1 isch yygschränkt uf $2",
+	"security-desc-LS": "(giltet, wel die Syte in dr „$2 $1“ isch)''",
+	"security-desc-PR": "(gsetzt iber dr Regischtercharte „Syteschutz“)",
+	"security-infosysops": "Fir Dii git s kei Yyschränkige, wel Du zue dr Gruppe „Ammann“ ghersch",
+	"security-manygroups": "Gruppe $1 un $2",
+	"security-unchain": "Aktione einzeln ändere",
+	"security-type-category": "Kategorii",
+	"security-type-namespace": "Namensruum",
+	"security-restricttogroup": "Zuegriff uf Inhalt bschränkt uf Mitgliider vu „$1“",
+	"restriction-read": "Läse"
+}

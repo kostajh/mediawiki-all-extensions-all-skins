@@ -1,0 +1,19 @@
+#mw-vipstest-default-thumb,
+#mw-vipstest-vips-thumb {
+	float: left;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+.uc-caption {
+	/** Overrides ucompare caption position from bottom (bottom:10px) to top */
+	top: 10px;
+	bottom: auto;
+}
+
+.uc-mask {
+	/* Remove annoying shadow */
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}

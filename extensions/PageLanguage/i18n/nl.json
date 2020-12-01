@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"pagelanguage-desc": "Paginataal per pagina instellen",
+	"pagelanguage-invalid": "<strong>Warning:<strong> de ongeldige taalcode \"$1\" voor paginataal wordt genegeerd.",
+	"pagelanguage-duplicate": "<strong>Waarschuwing:</strong> de paginataal \"$2\"overschrijft de eerder paginataal \"$1\"."
+}

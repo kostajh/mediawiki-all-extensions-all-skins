@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"sslauth-desc": "Allows users to upload SSL certificates to be used for authentication",
+	"sslauth-title-enable": "Enable SSL Client Authentication",
+	"sslauth-title-disable": "Disable SSL Client Authentication",
+	"sslauth-enable": "Enable",
+	"sslauth-disable": "Disable",
+	"sslauth-cn": "Common name",
+	"sslauth-email": "Email address",
+	"sslauth-serial": "Serial number",
+	"sslauth-response-enable": "SSL Authentication has been enabled. Now whenever you connect to {{SITENAME}} over HTTPS with your client certificate, you will be automatically logged in.",
+	"sslauth-response-disable": "SSL Authentication has been disabled.",
+	"sslauth-invalidrequest-title": "Invalid request",
+	"sslauth-invalidrequest": "A valid SSL client certificate must be provided for this page to be useful.",
+	"clientssl-legend": "SSL Authentication",
+	"clientssl-text": "Use this page to enable/disable authentication with client SSL certificates.",
+	"sslauth-prefs-name": "SSL Authentication",
+	"sslauth-prefs-linktospecial": "Enable/Disable client certificates"
+}

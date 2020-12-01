@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"Okras"
+		]
+	},
+	"testlanguagenamegrammar": "Тестировать грамматические формы с названиями языков",
+	"testlanguagenamegrammar-desc": "Добавляет [[Special:TestLanguageNameGrammar|служебную страницу]] для тестирования грамматических форм с названиями языков.",
+	"testlanguagenamegrammar-language": "Язык",
+	"testlanguagenamegrammar-grammarform": "Грамматическая форма",
+	"testlanguagenamegrammar-submit": "Отправить"
+}

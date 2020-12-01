@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Derbeth",
+			"Masti",
+			"Rail",
+			"Railfail536",
+			"Sp5uhe"
+		]
+	},
+	"contributors": "Autorzy",
+	"contributors-desc": "Podsumowanie głównych autorów strony",
+	"contributors-toolbox": "Autorzy strony",
+	"contributors-legend": "Lista głównych autorów artykułu",
+	"contributors-target": "Tytuł:",
+	"contributors-submit": "Pokaż",
+	"contributors-subtitle": "Główni autorzy $1",
+	"contributors-others-long": "Jest $1 {{PLURAL:$1|inny autor|innych autorów}} tej strony.",
+	"contributors-others": "i $1 {{PLURAL:$1|inny|innych}}",
+	"contributors-badtitle": "Niepoprawny tytuł.",
+	"contributors-nosuchpage": "Strona $1 nie istnieje.",
+	"contributors-filterip": "Ukryj adresy IP",
+	"contributors-name": "Nazwa użytkownika",
+	"contributors-revisions": "Liczba wersji",
+	"contributors-first-edit": "Data pierwszej edycji",
+	"contributors-last-edit": "Data ostatniej edycji",
+	"contributors-add-subpages": "Dodaj podstrony",
+	"apihelp-query+contributors-example-1": "Pokaż współtwórców strony głównej"
+}

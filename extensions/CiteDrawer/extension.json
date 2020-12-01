@@ -1,0 +1,66 @@
+{
+	"name": "CiteDrawer",
+	"version": "1.0.0",
+	"author": [
+		"WikiWorks team"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:CiteDrawer",
+	"descriptionmsg": "citedrawer-desc",
+	"license-name": "MIT",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"type": "other",
+	"AutoloadClasses": {
+		"CiteDrawerHooks": "CiteDrawerHooks.php"
+	},
+	"config": {
+		"CiteDrawerEnableDesktop": {
+			"value": true
+		},
+		"CiteDrawerEnableMobile": {
+			"value": true
+		},
+		"CiteDrawerTheme": {
+			"value": "dark"
+		}
+	},
+	"ExtensionMessagesFiles": {
+		"CiteDrawerAlias": "CiteDrawer.i18n.alias.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "CiteDrawerHooks::onBeforePageDisplay",
+		"MakeGlobalVariablesScript": "CiteDrawerHooks::onMakeGlobalVariablesScript"
+	},
+	"MessagesDirs": {
+		"CiteDrawer": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.citedrawer.main": {
+			"scripts": [
+				"modules/ext.CiteDrawer.class.js",
+				"modules/ext.CiteDrawer.js"
+			],
+			"styles": [
+				"modules/ext.CiteDrawer.less"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "CiteDrawer"
+	},
+	"QUnitTestModule": {
+		"scripts": [
+			"ext.CiteDrawer.class.test.js"
+		],
+		"dependencies": [
+			"ext.citedrawer.main"
+		],
+		"localBasePath": "tests/qunit",
+		"remoteExtPath": "CiteDrawer/tests/qunit"
+	},
+	"manifest_version": 2
+}

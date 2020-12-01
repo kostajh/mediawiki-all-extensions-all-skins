@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"gpgmail-desc": "تشفير رسائل البريد الإلكتروني باستخدام GPG",
+	"gpgmail-pref-enable": "تشفير رسائل البريد الإلكتروني باستخدام GPG",
+	"gpgmail-pref-key": "المفتاح العام لـGPG",
+	"gpgmail-pref-key-help": "راجع [https://help.ubuntu.com/community/GnuPrivacyGuardHowto صفحة كيفية Ubuntu] للحصول على مساعدة بشأن الحصول على مفتاح عام.",
+	"gpgmail-encrypt-error": "حدث خطأ أثناء تشفير البريد الإلكتروني."
+}

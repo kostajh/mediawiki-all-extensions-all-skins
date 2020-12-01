@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"bs-uemodulepdf-overview-webservice-state-ok": "disponibile",
+	"bs-uemodulepdf-overview-webservice-state-not-ok": "non disponibile",
+	"action-uemodulepdf-export": "esportare una pagina in PDF",
+	"right-uemodulepdf-export": "Esporta le pagine in PDF"
+}

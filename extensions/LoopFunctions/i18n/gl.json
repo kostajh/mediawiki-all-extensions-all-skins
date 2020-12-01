@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"loopfunc-desc": "Fornece funcionalidade limitada de bucles no texto wiki",
+	"loopfunc_max_loops": "Alcanzado o número máximo de bucles autorizados"
+}

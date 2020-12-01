@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"bs-namespacecss-desc": "名字空间细节样式",
+	"bluespicenamespacecssmanager": "名字空间-CSS管理器",
+	"bs-namespacecss-specialmanager-label-namespacename": "名字空间",
+	"bs-namespacecss-specialmanager-label-sourcepage": "来源页面",
+	"apihelp-bs-namespacecss-store-summary": "列举名字空间及其可能的CSS来源页面。执行ExtJS存储的参数。"
+}

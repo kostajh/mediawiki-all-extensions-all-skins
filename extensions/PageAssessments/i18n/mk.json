@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"pageassessments-desc": "Овој додаток служи за складирање на оценки во табела на базата со помош на расчленувачка функција.",
+	"pageassessments-special": "Проверка на страници",
+	"pageassessments-project": "Проект",
+	"pageassessments-page-namespace": "Именски простор на страницата",
+	"pageassessments-page-title": "Наслов на страницата",
+	"pageassessments-search": "Пребарај",
+	"pageassessments-importance": "Важност",
+	"pageassessments-class": "Класа",
+	"pageassessments-timestamp": "Време и датум",
+	"pageassessments-total-results": "Вкупен исход: $1",
+	"pageassessments-error-namespace-filter": "Внесете име на проект или наслов на страница."
+}

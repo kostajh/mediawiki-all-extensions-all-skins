@@ -1,0 +1,61 @@
+.bs-page-namespaces {
+	vertical-align: middle;
+	height: auto;
+
+	a {
+		&.btn {
+			border: none;
+			padding: 0;
+			line-height: 1.4rem;
+		}
+
+		& + a {
+			margin-left: 1.125rem;
+		}
+
+		&.selected {
+			font-weight: @font-weight-bold;
+		}
+	}
+
+
+	.dropdown {
+		border: none;
+
+		& > span {
+			cursor: default;
+		}
+
+		.dropdown-toggle {
+			line-height: 1rem;
+		}
+		.dropdown-menu {
+			.mixin-box-shadow-secondary();
+
+			width: auto;
+			margin-top: 0.8rem;
+			margin-left: calc(~"-100% - 2rem");
+
+			&::before {
+				display: none;
+			}
+		}
+	}
+
+	.dropdown.open {
+		&::before {
+				font-size: 3em;
+				font-family: 'fontawesome';
+				content: "\f0d8";
+				position: absolute;
+				bottom: -2.2rem;
+				right: -0.3rem;
+			}
+	}
+
+	#bs-page-discussion-button {
+		margin-left: 1.125rem;
+		display: inline-block;
+		line-height: 1.4rem;
+	}
+}

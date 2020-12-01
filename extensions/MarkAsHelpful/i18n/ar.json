@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"markashelpful-desc": "يوفر واجهة مستخدم لتعليم التعليقات على أنها مفيدة",
+	"mah-mark-text": "علم كمفيد",
+	"mah-you-marked-text": "أنت تعتقد أن هذا مفيد",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 يعتقد|$1 تعتقد}} أن هذا مفيد",
+	"mah-undo-mark-text": "رجوع",
+	"mah-action-error": "حدث خطأ أثناء تنفيذ هذا الإجراء",
+	"apihelp-getmarkashelpfulitem-description": "احصل على قائمة بجميع الحالات المفيدة لعنصر كائن.",
+	"apihelp-getmarkashelpfulitem-summary": "احصل على قائمة بجميع الحالات المفيدة لعنصر كائن.",
+	"apihelp-getmarkashelpfulitem-param-type": "نوع الكائن الذي يتم تعليمه كمفيد.",
+	"apihelp-getmarkashelpfulitem-param-item": "عنصر الكائن الذي يتم تعليمه كمفيد.",
+	"apihelp-getmarkashelpfulitem-param-prop": "أي الخصائص ستحصل عليها.",
+	"apihelp-getmarkashelpfulitem-param-page": "الصفحة التي تطلب العنصر.",
+	"apihelp-markashelpful-description": "يسمح للمستخدمين بتعليم أو إلغاء تعليم عنصر كائن في الموقع كمفيد.",
+	"apihelp-markashelpful-summary": "يسمح للمستخدمين بتعليم أو إلغاء تعليم عنصر كائن في الموقع كمفيد.",
+	"apihelp-markashelpful-param-mahaction": "ما إذا كان سيتم تعليم أو إلغاء تعليم عنصر كمفيد.",
+	"apihelp-markashelpful-param-page": "الصفحة حيث يتم تعليم العنصر.",
+	"apihelp-markashelpful-param-type": "نوع الكائن الذي يتم تعليمه كمفيد.",
+	"apihelp-markashelpful-param-item": "عنصر الكائن الذي يتم تعليمه كمفيد.",
+	"apihelp-markashelpful-param-useragent": "عنوان وكيل المستخدم للمتصفح.",
+	"apihelp-markashelpful-param-system": "نظام التشغيل المستخدم.",
+	"apihelp-markashelpful-param-locale": "اللغة المستخدمة."
+}

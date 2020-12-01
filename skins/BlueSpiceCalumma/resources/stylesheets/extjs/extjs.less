@@ -1,0 +1,25 @@
+@import 'extjs.colors.less';
+
+body.mediawiki.x-body,
+body.mediawiki.x-body #content #bodyContent {
+	.x-btn:not( .mwext-cancel ) {
+		&.x-btn-default-small {
+			background-color: @x-btn-progressive-small-bg-color;
+			border-color: @x-btn-progressive-small-border-color;
+
+			.x-btn-inner-default-small {
+				color: @x-btn-progressive-small-text-color;
+			}
+
+			&:hover,
+			&:focus {
+				background-color: @x-btn-progressive-small-bg-color-hover;
+				border-color: @x-btn-progressive-small-border-color-hover;
+
+				.x-btn-inner-default-small {
+					color: @x-btn-progressive-small-text-color-hover;
+				}
+			}
+		}
+	}
+}

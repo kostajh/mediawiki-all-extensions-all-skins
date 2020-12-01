@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"bs-groupmanager-desc": "Административни интерфејс за додавање, уређивање и брисање корисничких група и њихових права",
+	"bs-groupmanager-grpexists": "Ова група већ постоји.",
+	"bs-groupmanager-grpempty": "Име групе не може бити празно.",
+	"bs-groupmanager-grpadded": "Група је додата.",
+	"bs-groupmanager-grpedited": "Група је измењена.",
+	"bs-groupmanager-grpremoved": "Група је уклоњена.",
+	"bs-groupmanager-label": "Менаџер група",
+	"bs-groupmanager-invalid-name": "Назив групе садржи {{PLURAL:$1|невалидан|невалидне}} {{PLURAL:$1|карактер|карактере}}: $2",
+	"bs-groupmanager-invalid-name-length": "Назив групе не може бити дужи од 255 карактера.",
+	"bs-groupmanager-invalid-name-numeric": "Назив круге мора имати најмање један карактер.",
+	"bs-groupmanager-headergroup": "Група",
+	"bs-groupmanager-tipremove": "Уклони {{PLURAL:$1|групу|групе}}",
+	"bs-groupmanager-titlenewgroup": "Нова група",
+	"bs-groupmanager-titleeditgroup": "Измени групу",
+	"bs-groupmanager-removegroup": "Желите ли заиста да уклоните {{PLURAL:$1|ову групу|ове групе}}?",
+	"bs-groupmanager-removegroup-message-success": "{{PLURAL:$1|Наведена група је обрисана|Наведене групе су обрисане}}: $2",
+	"bs-groupmanager-removegroup-message-failure": "{{PLURAL:$1|Наведена група не може бити обрисана|Наведене групе не могу бити обрисане}}: $2",
+	"bs-groupmanager-removegroup-message-unknown": "Дошло је до неочекиване грешке, покушајте поново.",
+	"bs-groupmanager-lablename": "Име групе:",
+	"bs-groupmanager-msgnoteditable": "Ова група је системска група и не може биити преименована.",
+	"bs-groupmanager-msgnotremovable": "Ова група је системска група и не може бити уклоњена.",
+	"bs-groupmanager-write-config-file-error": "Датотеку $1 није могуће креирати или сачувати.",
+	"log-name-bs-group-manager": "Дневник менаџера група",
+	"log-description-bs-group-manager": "Ово је дневник промена корисничких права.",
+	"log-show-hide-bs-group-manager": "$1 дневник менаџера група",
+	"logeventslist-bs-group-manager-log": "Дневник менаџера група",
+	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|је направио|је направила}} групу $4",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|преименовао|преименовала|преименовао/-ла}} је групу $4 на $5",
+	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|је уклонио|је уклонила}} групу $4",
+	"apihelp-bs-groupmanager-description": "Пружа задатке за екстензију GroupManager.",
+	"apihelp-bs-groupmanager-summary": "Пружа задатке за екстензију GroupManager.",
+	"action-groupmanager-viewspecialpage": "види специјану страницу \"{{int:bs-groupmanager-label}}\"",
+	"groupmanager": "Менаџер група",
+	"right-groupmanager-viewspecialpage": "приступ посебној страници [[Special:GroupManager]]"
+}

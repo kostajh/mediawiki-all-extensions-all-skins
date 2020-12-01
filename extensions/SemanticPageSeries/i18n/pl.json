@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"spssuccesstitle": "Tworzenie $1 stron",
+	"spssuccess": "{{PLURAL:$1|Zostanie utworzona jedna strona|Zostaną utworzone $1 strony|Zostanie utworzonych $1 stron}}.",
+	"spssuccess-returntoorigin": "Powrót do $1",
+	"spserror": "Wystąpił błąd",
+	"spserror-pagegenerationlimitexeeded": "Próbowano utworzyć {{PLURAL:$1|jedną stronę|$1 strony|$1 stron}}. To przekracza dopuszczalny limit {{PLURAL:$2|jednej strony|$2 stron}}.",
+	"spserror-date-startdatemissing": "Brakuje daty początkowej.",
+	"spserror-date-internalerror": "Wystąpił błąd podczas tworzenia dat: $1",
+	"spserror-count-startvaluemalformed": "Wartość początkowa nie jest liczbą.",
+	"spserror-count-endvaluemalformed": "Wartość końcowa nie jest liczbą.",
+	"spserror-count-stepvaluemalformed": "Wartość kroku nie jest liczbą."
+}

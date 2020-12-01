@@ -1,0 +1,25 @@
+#bs-bookshelfui-chapter-nav {
+	#bs-bookshelfui-book-toc {
+		#bs-bookshelfui-book-toc-tree {
+			padding-left: 1em;
+			li.bs-treenodeitem {
+				&.expandable {
+					span.bs-icon::before {
+						color: white;
+					}
+					span.bs-icon:hover::before {
+						border-radius: 1em;
+						background-color: white;
+						color: rgb( 62, 83, 137 );
+					}
+				}
+			}
+		}
+	}
+
+	.bs-link-edit-bookshelfui-book:hover,
+	.bs-link-edit-bookshelfui-book:hover span {
+		background-color: transparent;
+	}
+}
+

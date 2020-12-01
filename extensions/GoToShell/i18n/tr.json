@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"gotoshell": "Kabuğa git",
+	"gotoshell-desc": "Kullanıcıyı [[Special:GoToShell| özel bir sayfa]] uygular ve geri gelir",
+	"gotoshell-notallowed": "Hesabınız kabuğa gitme iznine sahip değil.",
+	"gotoshell-disabled": "Dış programlar çalıştırılamıyor, proc_open() devre dışı.",
+	"gotoshell-command": "Komut:",
+	"gotoshell-result": "Sonuç:",
+	"action-gotoshell": "GoToShell özel sayfası üzerinden kabuk komutlarını yürütün",
+	"right-gotoshell": "GoToShell özel sayfası üzerinden kabuk komutlarını yürütün"
+}

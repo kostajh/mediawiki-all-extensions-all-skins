@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Katunchik"
+		]
+	},
+	"bs-socialwikipage-desc": "Основные данные и функциональность WikiPage для BlueSpiceSocial",
+	"bs-socialwikipage-type": "Вики-страница",
+	"bs-socialwikipage-entitywikipage-header-create": "Создать новую область вложений",
+	"bs-socialwikipage-nowikipageentity": "Область вложений еще не создана",
+	"bs-socialwikipage-noattachmentsadded": "Вложение еще не добавлено",
+	"bs-socialwikipage-stashtype": "Вложения",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]] добавил вложение",
+	"bs-socialwikipage-entitystash-header-create": "Новое вложение",
+	"bs-socialwikipage-special-stash-heading": "Вложения",
+	"bs-socialwikipage-aftercontent-heading": "Вложения",
+	"wikipagestash": "Вложения",
+	"bs-socialwikipage-var-wikipageid": "Присвоенная страница",
+	"bs-socialwikipage-switch-nostash-description": "Скрывает область вложения на этой странице.",
+	"bs-socialwikipage-stash-insertfiledialog-title": "Добавить файл",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "Добавить",
+	"bs-socialwikipage-stash-editor-attachedfiles": "Вложенные файлы",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "Удалить",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "Добавить",
+	"apihelp-bs-socialstash-tasks-summary": "Дает возможность редактировать связанные страницы основных данных"
+}

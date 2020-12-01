@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"Hamilton Abreu",
+			"Imperadeiro98",
+			"Ldacosta",
+			"Vitorvicentevalente"
+		]
+	},
+	"bs-articleinfo-desc": "Fornece informação acerca de uma página na barra de status",
+	"prefs-articleinfo": "Informações da página",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalo de atualização em segundos:",
+	"bs-articleinfo-flyout-title": "Informações da página",
+	"bs-articleinfo-flyout-intro": "Encontra aqui informações relativas à página. Pode verificar a qualidade e a atualidade da mesma e ver como ela está relacionada com outras páginas da wiki.",
+	"bs-articleinfo-nav-link-title": "Informações da página",
+	"bs-articleinfo-flyout-categorylinks-title": "Categorias",
+	"bs-articleinfo-flyout-templatelinks-title": "Predefinições utilizadas na página",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Não foi atribuída nenhuma categoria",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Não foi utilizada nenhuma predefinição",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Última edição",
+	"bs-articleinfo-flyout-lastediteduser-text": "Último editor",
+	"bs-articleinfo-newrevision-info-text": "Está disponível uma nova versão desta página. Por favor, recarregue a página para ver o novo conteúdo.",
+	"bs-articleinfo-newrevision-info-text-reload": "Está disponível uma nova versão desta página. [[:$1|Recarregue]] a página para ver o conteúdo atual, por favor.",
+	"bs-articleinfo-flyout-subpages-title": "Subpáginas",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáginas",
+	"bs-articleinfo-dialog-subpages-title": "Subpáginas",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Define a taxa de atualização para o valor \"Última edição\". Este valor é apresentado nas informações da página, nas ferramentas de gestão da qualidade."
+}

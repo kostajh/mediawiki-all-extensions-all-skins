@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"updatemediawiki": "تحديث ميدياويكي",
+	"updatemediawiki-desc": "يسمح بتحديث ميدياويكي عبر صفحة خاصة",
+	"updatemediawiki-current": "الإصدار الحالي $1",
+	"updatemediawiki-update-nofound": "لا يوجد تحديث متاح",
+	"updatemediawiki-update-found": "تم العثور على تحديث جديد: $1",
+	"updatemediawiki-update-downloading": "جارٍ تحميل تحديث جديد",
+	"updatemediawiki-update-saved": "تم تحميل وحفظ التحديث",
+	"updatemediawiki-update-exist": "التحديث تم تنزيله بالفعل",
+	"updatemediawiki-update-copyready": "النسخة جاهزة",
+	"updatemediawiki-update-database": "تحديث قاعدة البيانات الآن؟",
+	"updatemediawiki-update-updateready": "التحديث جاهز",
+	"updatemediawiki-update-install": "تثبيت الآن؟",
+	"updatemediawiki-update-updated": "تم تحديث ميدياويكي إلى الإصدار $1",
+	"updatemediawiki-update-error": "لا يمكن العثور على أحدث الإصدارات",
+	"updatemediawiki-update-aborted": "لا يمكن حفظ تحديث جديد; تم إحباط العملية"
+}

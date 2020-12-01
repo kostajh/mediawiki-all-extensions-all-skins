@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"minimumnamelength-desc": "Face respettà 'na lunghezze minime a 'u nome de l'utende",
+	"minimumnamelength-error": "'U nome ca è scacchiate jè troppe curte. 'A lunghezze addà essere almene de {{PLURAL:$1|'nu carattere|$1 carattere}}."
+}

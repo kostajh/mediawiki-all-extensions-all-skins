@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mobe",
+			"Nike"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "Käyttäjätunnusten rekisteröitymishyökkäysten torjumiseksi tunnusten luominen on automaattisesti estetty muutamaksi sekunniksi.\nOle hyvä ja odota hetki. Päivitä avoin sivu selaimessa ja lähetä lomake uudelleen.",
+	"userthrottle-desc": "Rajoita käyttäjien luontia"
+}

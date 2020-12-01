@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derugon",
+			"Gomoko",
+			"Jean-Frédéric",
+			"Thibaut120094",
+			"Verdy p"
+		]
+	},
+	"browsesw": "Naviguer sur le wiki et le web sémantique",
+	"swb_desc": "Ajouter une page spéciale [[Special:BrowseSW|Naviguer sur le wiki et le web sémantique]]",
+	"swb_browse_article": "Entrez le nom de la page à partir de laquelle commencer la navigation sémantique.",
+	"swb_browse_go": "Aller",
+	"swb_browse_show_incoming": "afficher les propriétés entrantes qui pointent ici",
+	"swb_browse_hide_incoming": "masquer les propriétés entrantes qui pointent ici",
+	"swb_browse_no_outgoing": "Cette page n’a aucune propriété.",
+	"swb_browse_no_incoming": "Aucune propriété ne pointe vers cette page.",
+	"swb_inverse_label_property": "Libellé de la propriété inverse",
+	"swb_inverse_label_default": "$1 de",
+	"swb_browse_more": "…",
+	"swb_browse_error": "Les données sémantiques n’ont pu être chargées avec le Navigateur Web Sémantique en raison d’une erreur :"
+}

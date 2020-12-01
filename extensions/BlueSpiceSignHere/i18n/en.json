@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.com>"
+		]
+	},
+	"bs-signhere-desc": "Provides a tag to quickly add a signature to a page",
+	"bs-signhere-signatures": "Signatures",
+	"bs-signhere-edit-summary": "Added signature",
+	"bs-signhere-tooltip": "Click here to add your signature above the line",
+	"bs-signhere-tag-signhere-title": "Signatures",
+	"bs-signhere-tag-signhere-desc": "Adds a button to sign this page"
+}

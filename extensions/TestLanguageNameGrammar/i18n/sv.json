@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"testlanguagenamegrammar": "Testa grammatikformer med språknamn",
+	"testlanguagenamegrammar-desc": "Lägger till en [[Special:TestLanguageNameGrammar|specialsida]] för att testa grammatikformer med språknamn.",
+	"testlanguagenamegrammar-language": "Språk",
+	"testlanguagenamegrammar-grammarform": "Grammatikform",
+	"testlanguagenamegrammar-submit": "Skicka"
+}

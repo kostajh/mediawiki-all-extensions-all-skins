@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"onlinestatus-desc": "Legg til eit val som gjer det mogleg å visa om brukaren er pålogga eller ikkje",
+	"onlinestatus-js-anon": "Feil: du må vera innlogga for å nytta denne funksjonen",
+	"onlinestatus-js-changed": "Statusen din er endra til «$1»",
+	"onlinestatus-js-error": "Kunne ikkje endra status, verdien «$1» er ugyldig",
+	"onlinestatus-subtitle-offline": "Denne brukaren er ikkje pålogga",
+	"onlinestatus-subtitle-online": "Denne brukaren er pålogga",
+	"onlinestatus-tab": "Status",
+	"onlinestatus-toggles-desc": "Din status:",
+	"onlinestatus-toggles-explain": "Dette lèt deg visa andre brukarar om du er pålogga eller ikkje ved at dei vitjar brukarsida di.",
+	"onlinestatus-toggles-show": "Vis påloggingsstatus på brukarsida mi",
+	"onlinestatus-toggle-offline": "Ikkje pålogga",
+	"onlinestatus-toggle-online": "Logga på",
+	"onlinestatus-pref-onlineonlogin": "Endra statusen min til pålogga når eg loggar inn",
+	"onlinestatus-pref-offlineonlogout": "Endra statusen min til ikkje pålogga når eg loggar ut"
+}

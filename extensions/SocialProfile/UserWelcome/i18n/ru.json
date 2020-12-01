@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ferrer",
+			"MuratTheTurkish",
+			"Rubin",
+			"Rubin16",
+			"Александр Сигачёв"
+		]
+	},
+	"userwelcome-desc": "Добавляет тег <code>&lt;welcomeUser&gt;</code> для отображения зарегистрированным участникам социальной информации",
+	"mp-userlevels-link": "Уровни участников",
+	"mp-welcome-upload": "Загрузить",
+	"mp-welcome-points": "$1 {{PLURAL:$1|очко|очка|очков}}",
+	"mp-welcome-needed-points": "Для продвижения на [[$1|'''$2''']] требуется ещё ''$3'' {{PLURAL:$3|очко|очка|очков}}!",
+	"mp-welcome-logged-in": "Привет, $1",
+	"mp-requests-title": "Запросы",
+	"mp-requests-message": "У вас есть следующие запросы.",
+	"mp-request-new-message": "новое сообщение",
+	"mp-request-new-award": "$1 {{PLURAL:$1|новая награда|новых награды|новых наград}}",
+	"mp-request-new-gift": "$1 {{PLURAL:$1|новый подарок|новых подарка|новых подарков}}",
+	"mp-request-new-foe": "$1 {{PLURAL:$1|новый недруг|новых недруга|новых недругов}}",
+	"mp-request-new-friend": "$1 {{PLURAL:$1|новый друг|новых друга|новых друзей}}"
+}

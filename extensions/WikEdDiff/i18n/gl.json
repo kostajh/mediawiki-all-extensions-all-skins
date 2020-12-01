@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cacycle",
+			"Elisardojm"
+		]
+	},
+	"wiked-diff-desc": "Motor de diferenzas de estilo en liña con soporte de movemento de bloques",
+	"wiked-diff-empty": "(Sen diferenzas.)",
+	"wiked-diff-same": "Sen diferenzas entre versións",
+	"wiked-diff-ins": "Inserido",
+	"wiked-diff-del": "Borrado",
+	"wiked-diff-block-left": "◀ Movidos",
+	"wiked-diff-block-right": "Movidos ▶",
+	"wiked-diff-block-left-nounicode": "< Movidos",
+	"wiked-diff-block-right-nounicode": "Movidos >",
+	"wiked-diff-error": "Erro: a saída de wikEdDiff non é consistente coas versións orixinais!"
+}

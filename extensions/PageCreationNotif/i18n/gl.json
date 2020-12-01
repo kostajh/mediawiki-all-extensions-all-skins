@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"page-creation-notif-desc": "Envía unha notificación por correo electrónico cando se crean novas páxinas",
+	"page-creation-notification": "Enviádeme un correo electrónico cando se cree unha páxina nova",
+	"page-creation-email-subject": "Nova páxina – \"$1\" {{GENDER:$3|creada}} en $2 por $3",
+	"page-creation-email-body": "Boas, $1:\n\nEsta é unha notificación de {{SITENAME}} para informar de que {{GENDER:$3|o usuario|a usuaria}} $3 creou a páxina \"$2\".\n\nPode botarlle unha ollada en\n$4\n\nO texto da páxina é:\n$5\n\nO sistema de notificación de {{SITENAME}}.\n\nPara modificar as opcións de notificación por correo electrónico, visite\n{{canonicalurl:{{#special:Preferences}}}}"
+}

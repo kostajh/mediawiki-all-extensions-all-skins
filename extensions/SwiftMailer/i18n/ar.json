@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"swiftmailer-desc": "يوفر SwiftMailer كمرسل بريد بديل",
+	"swiftmailer-smtp-error": "خطأ في إعداد النقل SMTP لـSwiftMailer: $1",
+	"swiftmailer-send-error": "خطأ في إرسال البريد الإلكتروني باستخدام SwiftMailer: $1"
+}

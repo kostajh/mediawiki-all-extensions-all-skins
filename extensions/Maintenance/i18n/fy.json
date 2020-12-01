@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"PiefPafPier",
+			"Robin van der Vliet",
+			"Robin0van0der0vliet"
+		]
+	},
+	"maintenance": "Underhâldsskripts útfiere",
+	"maintenance-generic-username": "Meidochnamme",
+	"maintenance-generic-password": "Wachtwurd",
+	"maintenance-generic-reason": "Reden",
+	"maintenance-option-optional": "(opsjoneel)",
+	"maintenance-cleanupSpam-output-blanking": "leechmeitsjen",
+	"maintenance-error": "Flater: $1"
+}

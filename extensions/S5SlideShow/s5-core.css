@@ -1,0 +1,24 @@
+/* Do not edit or override these styles! The system will likely break if you do. */
+
+div.header, div.footer, div#controls, .slide {position: absolute;}
+html>body div.header, html>body div.footer,
+  html>body div#controls, html>body .slide {position: fixed;}
+.handout, .notes {display: none;}
+.layout {display: block;}
+.slide, .hideme, .incremental {visibility: hidden;}
+.slide embed, .hideme embed, .incremental embed,
+.slide iframe, .hideme iframe, .incremental iframe {visibility: hidden;}
+.visible {visibility: visible;}
+.anim.over .incremental, .anim.over .previous {display: none;}
+.notitle .slidecontent {margin: auto; display: table;}
+
+.slide, .incremental {visibility: visible; opacity: 0; z-index: -1;}
+.anim .current, .visible {opacity: 1;}
+.anim .current embed, .visible embed,
+.anim .current iframe, .visible iframe {visibility: visible; padding-left: 1px; /* work around bug with blank swf */}
+.anim .current, .slide {
+    transition: opacity 150ms ease-out 0s;
+    -moz-transition: opacity 150ms ease-out 0s;
+    -o-transition: opacity 150ms ease-out 0s;
+    -webkit-transition: opacity 150ms ease-out 0s;
+}

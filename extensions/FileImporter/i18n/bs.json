@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"fileimporter": "Uvoznik datoteka",
+	"fileimporter-desc": "Lagan uvoz datoteka s drugih sajtova",
+	"fileimporter-specialpage": "Uvoz datoteke",
+	"fileimporter-cantparseurl": "Ne mogu raščlaniti dati URL",
+	"fileimporter-cantimporturl": "Ne mogu uvesti s datog URL-a",
+	"fileimporter-filenameerror-notallowed": "Pokušavati uvesti datoteku s nastavkom <code>$1</code>. Takve datoteke nisu dozvoljene na ovom wikiju. Dozvoljeni nastavci su: $2.",
+	"fileimporter-exampleprefix": "Primjer",
+	"fileimporter-submit": "Pošalji",
+	"fileimporter-import": "Uvezi"
+}

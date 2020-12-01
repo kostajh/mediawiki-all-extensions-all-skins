@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paucabot"
+		]
+	},
+	"flvhandler_desc": "Permet afegir fitxers de vídeo en Flash (.flv) que s'afegiran com arxius estàndard (per exemple, <nowiki>[[</nowiki>{{ns:file}}:Film.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Vídeo en Flash, $1 × $2 píxels, mida del fitxer: $3"
+}

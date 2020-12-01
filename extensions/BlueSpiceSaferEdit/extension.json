@@ -1,0 +1,93 @@
+{
+	"name": "BlueSpiceSaferEdit",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SaferEdit",
+	"author": [ "Markus Glaser ", "Tobias Weichart" ],
+	"descriptionmsg": "bs-saferedit-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSaferEdit": {
+					"className": "\\BlueSpice\\SaferEdit\\Extension",
+					"extPath": "/BlueSpiceSaferEdit",
+					"configDefinitions": {
+						"SaferEditInterval": "\\BlueSpice\\SaferEdit\\ConfigDefinition\\Interval::getInstance",
+						"SaferEditShowNameOfEditingUser": "\\BlueSpice\\SaferEdit\\ConfigDefinition\\ShowNameOfEditingUser::getInstance"
+					}
+				}
+			},
+			"AlertProviderRegistry": {
+				"bs-saferedit-warning": "\\BlueSpice\\SaferEdit\\AlertProvider\\EditWarning::factory"
+			}
+		},
+		"BlueSpicePrivacy": {
+			"Handlers": [
+				"\\BlueSpice\\SaferEdit\\Privacy\\Handler"
+			]
+		},
+		"BlueSpiceSaferEdit": {
+			"EnvironmentCheckers": {
+				"standardEdit": "\\BlueSpice\\SaferEdit\\EnvironmentChecker\\StandardEdit::factory"
+			}
+		}
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"MessagesDirs": {
+		"BlueSpiceSaferEdit": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\SaferEdit\\" : "src/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.saferedit.init": {
+			"scripts": [
+				"bs.saferEdit.Save.js",
+				"bs.saferEdit.Warning.js",
+				"bs.saferEdit.init.js"
+			],
+			"dependencies": [
+				"ext.bluespice",
+				"oojs"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSaferEdit/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"SaferEditInterval": {
+			"value": 10,
+			"descriptionmsg": "bs-saferedit-pref-interval"
+		},
+		"SaferEditShowNameOfEditingUser": {
+			"value": true,
+			"descriptionmsg": "bs-saferedit-pref-shownameofeditinguser"
+		}
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "\\BlueSpice\\SaferEdit\\Hook\\LoadExtensionSchemaUpdates\\AddSaferEditTable::callback",
+		"BeforePageDisplay": "\\BlueSpice\\SaferEdit\\Hook\\BeforePageDisplay\\AddModules::callback",
+		"BsAdapterAjaxPingResult": [
+			"\\BlueSpice\\SaferEdit\\Hook\\BsAdapterAjaxPingResult\\HandleSaferEditIsSomeoneEditing::callback",
+			"\\BlueSpice\\SaferEdit\\Hook\\BsAdapterAjaxPingResult\\HandleSaferEditSave::callback"
+		],
+		"PageSaveComplete": "\\BlueSpice\\SaferEdit\\Hook\\PageSaveComplete\\ClearSaferEdit::callback",
+		"EditPage::showEditForm:initial": "\\BlueSpice\\SaferEdit\\Hook\\EditPage_showEditForm_initial\\SetEditSection::callback"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

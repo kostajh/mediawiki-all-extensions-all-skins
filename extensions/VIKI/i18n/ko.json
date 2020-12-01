@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Revi",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"viki-desc": "위키 문서 또는 웹 문서에서 오는 링크 모음을 그래프로 표현합니다",
+	"viki-error-title": "오류:",
+	"viki-error-missing-pageTitle": "최소한 하나의 제목을 제공해야 합니다.",
+	"apihelp-getContentNamespaces-summary": "이 위키의 콘텐츠 이름공간의 목록을 가져옵니다."
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Darth Kule"
+		]
+	},
+	"logentry-append": "Aggiungi",
+	"logentry-parserhook-desc": "Questa estensione tag fornisce un modulo per aggiungere del testo all'inizio o alla fine della pagine dei registri",
+	"logentry-specialpage-desc": "Questa estensione tag fornisce un processo per aggiungere alle pagine dei registri",
+	"logentry": "LogEntry",
+	"logentry-invalidpage": "Pagina non valida: $1",
+	"logentry-invalidtoken": "Token non valido"
+}

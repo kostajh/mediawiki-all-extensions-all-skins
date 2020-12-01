@@ -1,0 +1,59 @@
+{
+	"name": "mediawiki/pipeescape",
+	"type": "mediawiki-extension",
+	"description": "The only standard solution to translate any kind of text with an avant-garde web interface within MediaWiki, including your documentation and software",
+	"keywords": [
+		"wiki",
+		"MediaWiki",
+		"extension",
+		"pipe character",
+		"Pipe Escape"
+	],
+	"homepage": "https://www.mediawiki.org/wiki/Extension:Pipe_Escape",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "David M. Sledge",
+			"role": "Original author"
+		},
+		{
+			"name": "Purodha Blissenbach",
+			"email": "purodha@tools.wmflabs.org",
+			"role": "Maintainer"
+		}
+	],
+	"support": {
+		"issues": "https://phabricator.wikimedia.org/tag/mediawiki-extensions-pipeescape/",
+		"wiki": "https://www.mediawiki.org/wiki/Extension:Pipe_Escape",
+		"forum": "https://www.mediawiki.org/wiki/Extension_talk:Pipe_Escape",
+		"source": "https://phabricator.wikimedia.org/diffusion/EPIE/"
+	},
+	"require": {
+		"php": ">=5.0.0",
+		"composer/installers": ">=1.0.1"
+	},
+	"autoload": {
+		"files": [
+			"PipeEscape.php"
+		]
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"prepend-autoloader": false
+	},
+	"suggest": {},
+	"require-dev": {
+		"mediawiki/minus-x": "1.1.0",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"minus-x check ."
+		],
+		"fix": [
+			"minus-x fix ."
+		]
+	}
+}

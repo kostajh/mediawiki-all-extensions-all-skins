@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Urhixidur",
+			"Wladek92"
+		]
+	},
+	"pluggablesso-desc": "Utilise le SSO fourni par le serveur web en $REMOTE_USER, en lien avec PluggableAuth",
+	"pluggablesso-no-session": "Aucun nom d’utilisateur obtenu, la session a échoué d’une manière ou d’une autre.",
+	"pluggablesso-username-mismatch": "Le nom d’utilisateur ne correspond pas à la session"
+}

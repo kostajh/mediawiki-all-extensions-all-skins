@@ -1,0 +1,26 @@
+{
+	"name": "Whitelist Pages",
+	"version": "0.5.1",
+	"author": [
+		"Jack Phoenix",
+		"Misza"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Whitelist_Pages",
+	"descriptionmsg": "whitelistpages-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"MessagesDirs": {
+		"WhitelistPages": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"WhitelistPages": "WhitelistPages.php"
+	},
+	"Hooks": {
+		"TitleReadWhitelist": "WhitelistPages::onTitleReadWhitelist"
+	},
+	"manifest_version": 1
+}

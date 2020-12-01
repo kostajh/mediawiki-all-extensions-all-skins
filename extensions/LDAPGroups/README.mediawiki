@@ -1,0 +1,40 @@
+== Extension:LDAPGroups ==
+
+This extension provides an way to map group membership information from a directory service (such as LDAP or Active Directory) to MediaWiki groups using the interface provided by LDAPProvider.
+
+=== Configuration ===
+
+There are two synchronization mechanisms:
+* Mapped: "Sync only specifically defined groups and apply a mapping"
+* All: "Sync all groups from LDAP, except from some that are managed by the wiki itself"
+
+==Mapped==
+<syntaxhighlight lang="json">
+{
+	"LDAP": {
+		...
+		"groupsync": {
+			"mechanism": "MediaWiki\\Extension\\LDAPGroups\\SyncMechanism\\MappedGroups::factory",
+			"mapping": {
+				"mathematicans": "ou=mathematicans,dc=example,dc=com"
+				"scientists": "ou=scientists,dc=example,dc=com"
+			}
+		},
+		...
+	}
+}
+</syntaxhighlight>
+
+==All==
+<syntaxhighlight lang="json">
+{
+	"LDAP": {
+		...
+		"groupsync": {
+			"mechanism": "MediaWiki\\Extension\\LDAPGroups\\SyncMechanism\\AllGroups::factory",
+			"locally-managed": [ "sysop" ]
+		},
+		...
+	}
+}
+</syntaxhighlight>

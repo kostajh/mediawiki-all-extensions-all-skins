@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"bs-countthings-desc": "Fornece estatísticas com base no conteúdo",
+	"bs-countthings-chars-label": "Caracteres",
+	"bs-countthings-words-label": "Palavras",
+	"bs-countthings-files-label": "Ficheiros",
+	"bs-countthings-pages-label": "Páginas",
+	"bs-countthings-ve-countcharacters-title": "Contar caracteres",
+	"bs-countthings-ve-countarticles-title": "Contar artigos",
+	"bs-countthings-ve-countfiles-title": "Contar ficheiros",
+	"bs-countthings-ve-countusers-title": "Contar utilizadores",
+	"bs-countthings-ve-countthingsinspector-mode": "Modo",
+	"bs-countthings-ve-countcharacters-mode-all": "todos",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "caracteres",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "palavras",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "caracteres e palavras",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "páginas",
+	"bs-countthings-ve-countcharacters-input-label": "Páginas",
+	"bs-countthings-error-no-input": "Não foi fornecida nenhuma página.",
+	"bs-countthings-error-invalid-mode": "O modo \"$1\" é inválido. Por favor, utilize \"caracteres\", \"palavras\" ou \"páginas\".",
+	"bs-countthings-error-not-exist": "A página \"$1\" não existe.",
+	"bs-countthings-tag-countarticles-desc": "Mostra o número de artigos na wiki.",
+	"bs-countthings-tag-countusers-desc": "Mostra o número de utilizadores registados.",
+	"bs-countthings-tag-countfiles-desc": "Apresenta o número de ficheiros na wiki.",
+	"bs-countthings-tag-countcharacters-desc": "Gera metadados sobre o conteúdo do artigo indicado. O resultado é uma caixa informativa que pode ser integrada num artigo. Usando o parâmetro \"mode\" pode mostrar-se vários tipos de informação.",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>modo</code>: Devem ser contados <code>caracteres</code> (caracteres), <code>palavras</code> (palavras) ou <code>páginas</code> (páginas).",
+	"bs-countthings-tag-countcharacters-example-1": "Número de palavras",
+	"bs-countthings-tag-countcharacters-example-2": "Número de caracteres"
+}

@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094",
+			"Wladek92"
+		]
+	},
+	"bs-tagcloud-desc": "Afficher différents nuages de balises",
+	"bs-tagcloud-error-tagtype": "La valeur donnée « $1 » n'est pas un magasin valide.",
+	"bs-tagcloud-error-tagrenderer": "La valeur fournie « $1 » n'est pas un moteur de rendu valide.",
+	"bs-tagcloud-tag-tagcloud-name": "Balise nuage",
+	"bs-tagcloud-tag-tagcloud-title": "Balise nuage",
+	"bs-tagcloud-tag-tagcloud-desc": "Rend une balise nuage selon les catégories ou les termes de la recherche",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Type",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "Sélectionner comment la balise nuage sera rendue",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Texte",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "Liste",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "Enregistrer",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "Sélectionner les données à utiliser",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Catégories",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Termes de recherche",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Largeur",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "Largeur de la balise nuage en pourcentage",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "Afficher le nombre",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "Afficher le nombre d’éléments entre parenthèses",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Taille minimale de la police",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "Taille de police pour l’entrée avec le moins d’éléments",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Taille maximale de la police",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "Taille de police pour l’entrée avec le plus d’éléments",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Exclure les pages",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "Ne pas afficher ces pages dans la balise nuage. Pour plus de pages, utiliser une liste séparée par des virgules, par ex. « Page principale, Test, MaPage »"
+}

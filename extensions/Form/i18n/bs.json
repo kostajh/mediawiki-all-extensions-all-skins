@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"form-desc": "[[Special:Form|Interfejs obrazac]] za započinjanje novih stranica",
+	"form": "Obrazac",
+	"form-no-name": "Nema imena obrasca",
+	"form-no-name-text": "Morate navesti naziv obrasca, poput \"Special:Form/Nameofform\".",
+	"form-bad-name": "Loš naziv obrasca",
+	"form-bad-name-text": "Ne postoji obrazac s takvim imenom.",
+	"form-pattern": "$1-obrazac",
+	"form-save": "Sačuvaj",
+	"form-index-mismatch-title": "Naslov šeme i šablona se ne podudaraju",
+	"form-index-mismatch": "Ovaj obrazac ne odgovara šemi imena i šablona koja započinje indeksom $1.",
+	"form-article-exists": "Stranica postoji",
+	"form-article-existstext": "Stranica [[$1]] već postoji.",
+	"form-bad-page-name": "Loš naziv stranice",
+	"form-bad-page-name-text": "Podaci iz obrasca koje ste unijeli su napravili pogrešno ime stranice, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|Polje $1 je neophodno|Polja $1 su neophodna}} za ovaj obrazac.\nMolimo popunite {{PLURAL:$2|ga|ih}}.",
+	"form-save-summary": "Nova stranica koristeći [[Special:Form/$1|obrazac $1]]",
+	"form-save-error": "Greška pri spremanju obrasca",
+	"form-save-error-text": "Desila se nepoznata greška pri spremanju stranice '$1'."
+}

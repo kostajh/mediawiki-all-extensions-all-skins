@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Umherirrender"
+		]
+	},
+	"updatemediawiki": "{{doc-special}}",
+	"updatemediawiki-desc": "{{desc|name=Update MediaWiki|url=https://www.mediawiki.org/wiki/Extension:UpdateMediaWiki}}",
+	"updatemediawiki-current": "A header message",
+	"updatemediawiki-update-nofound": "A hint message",
+	"updatemediawiki-update-found": "A hint message",
+	"updatemediawiki-update-downloading": "A hint message",
+	"updatemediawiki-update-saved": "A hint message",
+	"updatemediawiki-update-exist": "A hint message",
+	"updatemediawiki-update-copyready": "A hint message",
+	"updatemediawiki-update-database": "A hint message",
+	"updatemediawiki-update-updateready": "A hint message",
+	"updatemediawiki-update-install": "A link text",
+	"updatemediawiki-update-updated": "A success message",
+	"updatemediawiki-update-error": "An error message",
+	"updatemediawiki-update-aborted": "An error message"
+}

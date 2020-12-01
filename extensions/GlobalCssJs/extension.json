@@ -1,0 +1,61 @@
+{
+	"name": "GlobalCssJs",
+	"version": "3.4.0",
+	"author": [
+		"Ryan Schmidt",
+		"Szymon Świerkosz",
+		"Kunal Mehta"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GlobalCssJs",
+	"descriptionmsg": "globalcssjs-desc",
+	"namemsg": "globalcssjs-extensionname",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "MediaWiki\\GlobalCssJs\\Hooks::onBeforePageDisplay",
+		"ResourceLoaderRegisterModules": "MediaWiki\\GlobalCssJs\\Hooks::onResourceLoaderRegisterModules",
+		"EditPage::showEditForm:initial": "MediaWiki\\GlobalCssJs\\Hooks::onEditPageshowEditForminitial",
+		"GetPreferences": "MediaWiki\\GlobalCssJs\\Hooks::onGetPreferences"
+	},
+	"MessagesDirs": {
+		"GlobalCssJs": [
+			"i18n/core"
+		]
+	},
+	"config": {
+		"UseGlobalSiteCssJs": {
+			"value": true
+		},
+		"GlobalCssJsConfig": {
+			"value": {
+				"baseurl": false,
+				"wiki": false,
+				"source": false
+			}
+		}
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PreloadModules": [
+				"ext.globalCssJs.site",
+				"ext.globalCssJs.user"
+			]
+		}
+	},
+	"ExtensionFunctions": [
+		"MediaWiki\\GlobalCssJs\\Hooks::onExtensionFunctions"
+	],
+	"AutoloadNamespaces": {
+		"MediaWiki\\GlobalCssJs\\": "includes/"
+	},
+	"TestAutoloadClasses": {
+		"MediaWiki\\GlobalCssJs\\Test\\ResourceLoaderGlobalModuleTestTrait": "tests/phpunit/ResourceLoaderGlobalModuleTestTrait.php"
+	},
+	"ConfigRegistry": {
+		"globalcssjs": "GlobalVarConfig::newInstance"
+	},
+	"manifest_version": 2
+}

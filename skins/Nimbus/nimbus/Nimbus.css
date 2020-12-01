@@ -1,0 +1,288 @@
+/*
+** MediaWiki 'Nimbus' style sheet for CSS2-capable browsers.
+** License: GPL (http://www.gnu.org/copyleft/gpl.html)
+*/
+
+body {
+	background: #FFFFFF;
+	text-align: center;
+	margin: 0px;
+	font-family: Arial;
+	font-size: 10px;
+}
+
+/**
+ * Revert https://gerrit.wikimedia.org/r/#/c/151395/ because it's ugly and
+ * unwanted for this skin, but we get it as a "nice" side-effect of loading
+ * MonoBook's main RL module...
+ */
+div.mw-body-content {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0pt;
+	text-align: left;
+}
+
+#siteNotice {
+	border: 0;
+	padding: 0px;
+}
+
+/* Interwiki Styling */
+#article-text a.extiw,
+#article-text a.extiw:active {
+	color: #36b;
+}
+
+/* External links */
+#article-text a.external {
+	color: #36b;
+}
+
+/* Hide [[MediaWiki:Tagline]] by default, just like how MonoBook & friends do it */
+p.subtitle {
+	display: none;
+}
+
+/* Styling for [[MediaWiki:Noarticletext]], the message shown on nonexistent pages */
+div.noarticletext {
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: .2em 1em;
+	color: #000;
+}
+
+/** Buttons **/
+#more-wikis-menu {
+	background-color: #FFF;
+	border-bottom: 1px solid #D4DFD7;
+	border-left: 1px solid #D4DFD7;
+	border-right: 1px solid #D4DFD7;
+	left: 8px;
+	position: absolute;
+	top: 35px;
+	width: 292px;
+	z-index: 6;
+	padding: 5px 10px;
+	font-size: 13px;
+}
+
+#more-wikis-menu a {
+	display: block;
+	border-bottom: 1px dashed #EAF0F1;
+	float: left;
+	width: 144px;
+	color: #0099D9;
+	line-height: 20px;
+}
+
+/** Header **/
+#header {
+	position: relative;
+	background-color: #687F79;
+	height: 35px;
+	width: 100%;
+	z-index: 10;
+}
+
+/** Site Header **/
+#site-header {
+	z-index: 5;
+	position: relative;
+	width: 100%;
+}
+
+/**
+ * Center the logo image (ShoutWiki Bugzilla bug #236) and enforce a minimum
+ * height to prevent the navbar from obscuring content action tabs
+ * @see https://phabricator.shoutwiki.com/T60
+ */
+#site-logo {
+	min-height: 150px;
+	width: 200px !important;
+}
+
+#site-logo img {
+	display: block;
+	margin: auto;
+}
+
+#top-ad {
+	position: absolute;
+	top: 53px;
+	left: 278px;
+	z-index: 6;
+}
+
+/** Body **/
+#body-container {
+	margin: -120px 10px 0px 220px;
+	position: relative;
+	z-index: 7;
+}
+
+#body {
+	top: 0px;
+}
+
+#article {
+	font-family: sans-serif;
+	background-color :#FFF;
+	font-size: 127%;
+	line-height: 1.5em;
+	width: 100%;
+}
+
+#article-body {
+	padding: 10px;
+	border-left: 1px solid #D4DFD7;
+	border-right: 1px solid #D4DFD7;
+	border-bottom: 1px solid #D4DFD7;
+}
+
+#article-text {
+	position: relative;
+	width: 100%;
+}
+
+/** Side Bar **/
+#side-bar {
+	position: absolute;
+	/*top: 163px;*/
+	left: 10px;
+	width: 200px;
+	z-index: 10;
+}
+
+#search-box {
+	margin: 0px 0px 5px 0px;
+	padding: 0px 0px 0px 5px;
+}
+
+#search-title {
+	color: #333;
+	font-size: 14px;
+	margin: 0px 0px 5px 0px;
+}
+
+input.search-field {
+	float: left;
+	width: 145px;
+	height: 22px;
+	border: 1px solid #D4DFD7;
+	color: #687F79;
+	padding: 2px 0px 0px 3px;
+	margin: 0px 0px 0px 0px;
+}
+
+#searchInput {
+	width: 10em;
+}
+
+input.search-button {
+	float: left;
+}
+
+/* Make the search suggestions readable, the default font size is too small */
+.suggestions {
+	font-size: 127% !important;
+}
+
+/** MENU **/
+#menu {
+	border-left: 1px solid #d4dfd7;
+	border-right: 1px solid #d4dfd7;
+}
+
+.menu-item {
+	position: relative;
+	border-bottom: 1px dashed #EAF0F1;
+	padding: 4px 0px 4px 5px;
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.menu-item a {
+	color: #0099D9;
+	text-decoration: none;
+}
+
+.menu-item a:visited {
+	color: #0099D9;
+	text-decoration: none;
+}
+
+.menu-item a:hover {
+	color: #01405B;
+	text-decoration: none;
+}
+
+.menu-item .sub-menu-button {
+	position: absolute;
+	top: 8px;
+	right: 5px;
+}
+
+.sub-menu-item .sub-menu-button {
+	position: absolute;
+	right: 5px;
+	top: 7px;
+}
+
+.border-fix {
+	border-bottom: 0 !important;
+}
+
+.sub-menu {
+	position: absolute;
+	top: -2px;
+	right: -135px;
+	background-color: #FFF;
+	border: 1px solid #D4DFD7;
+	padding: 5px 0px;
+	width: 130px;
+	z-index: 1000;
+}
+
+.sub-menu-item {
+	border-bottom: 1px dashed #EAF0F1;
+	color: #333333;
+	font-size: 12px;
+	padding: 4px 10px;
+	position: relative;
+}
+
+.sub-sub-menu {
+	position: absolute;
+	top: -27px;
+	right: -300px;
+	background-color: #FFF;
+	padding: 5px 10px;
+	border: 1px solid #D4DFD7;
+	width: 130px;
+	z-index: 1000;
+}
+
+.sub-sub-menu-item {
+	border-bottom: 1px dashed #EAF0F1;
+	color: #333333;
+	font-size: 12px;
+}
+
+/** Legacy **/
+#title-linktabs {
+	position: absolute;
+	top: 5px;
+	right: 0px;
+}
+
+#title-linktabs img {
+	margin: 0px 0px 0px 3px;
+}

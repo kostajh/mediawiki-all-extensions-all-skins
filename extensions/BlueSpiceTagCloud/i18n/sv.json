@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjälten",
+			"WikiPhoenix"
+		]
+	},
+	"bs-tagcloud-tag-tagcloud-name": "Taggmoln",
+	"bs-tagcloud-tag-tagcloud-title": "Taggmoln",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Typ",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Text",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "Lista",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "Spara",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Kategorier",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Sökord",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Bredd",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "Visa antal",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Minimal typsnittsstorlek",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Maximal typsnittsstorlek",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Exkludera sidor:"
+}

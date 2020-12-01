@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matěj Grabovský"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "Tvorba účtů byla na několik sekund automaticky vypnuta z důvodů zabránění útoku hromadné registrace. Prosím, chvíli počkejte a znovu odešlete formulář kliknutím na tlačítko „Znovu načíst“ ve vašem prohlížeči.",
+	"userthrottle-desc": "Omezí rychlost vytváření uživatelských účtů"
+}

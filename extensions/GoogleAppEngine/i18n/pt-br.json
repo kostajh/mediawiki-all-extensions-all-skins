@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"gae-desc": "Fornece aprimoramentos para wikis em execução GoogleAppEngine",
+	"apihelp-gaejobqueue-description": "Módulo interno da API para executar a fila de tarefas (JobQueue). Não é permitido o uso externo.",
+	"apihelp-gaejobqueue-summary": "Módulo interno da API para executar a fila de tarefas (JobQueue). Não é permitido o uso externo.",
+	"apihelp-gaejobqueue-param-namespace": "Identificador numérico do espaço nominal.",
+	"apihelp-gaejobqueue-param-titletext": "Texto do título sem o espaço nominal.",
+	"apihelp-gaejobqueue-param-type": "Tipo de tarefa.",
+	"apihelp-gaejobqueue-param-params": "Parâmetros PHP seriados para a tarefa."
+}

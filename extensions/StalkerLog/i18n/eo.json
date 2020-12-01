@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"stalkerlog-desc": "Alsonas [[Special:Log/stalkerlog|protokolon]] de ensalutoj kaj elsalutoj de uzantoj",
+	"stalkerlog-log-login": "ensalutis.",
+	"stalkerlog-log-logout": "elsalutis.",
+	"stalkerlog-log-type": "Protokolo pri aŭtentokontrolo",
+	"stalkerlog-log-text": "Jen protokolo pri ensalutoj kaj elsaltuoj de uzantoj."
+}

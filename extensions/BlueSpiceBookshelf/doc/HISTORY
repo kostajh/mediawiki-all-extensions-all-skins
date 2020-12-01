@@ -1,0 +1,24 @@
+Changelog
+v1.20.0
+- Added auto-adding of bookshelf tags
+- Removed EventDispatcher
+- "in document"-Linking
+v1.1.0
+- Completely new backend
+- Added a bunch of Hooks
+- Completely new Export Template System
+- Now using UEModulePDF Components
+- Added new tag "booklist"
+- New UI to create, edit and export books
+- New BookManger SpecialPage
+- Book namespace is now configurable
+v1.0.3
+- Hook into UniversalExport for numberation
+- Fixed json tree bug with special chars in article titles
+v1.0.2
+- BookMetaTag now adds data to Statebar
+v1.0.1
+- Added switchable support for legacy portlet (requires "BsSkinTemplateNavigation" hook in skin)
+- Fixed bug in BsBook::applyMarkupFixes()
+v1.0.0
+- Initial commit

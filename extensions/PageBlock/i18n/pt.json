@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"pageblock-desc": "Permite impor restrições sobre páginas ou utilizadores",
+	"pageblock": "Restringir utilizador",
+	"pageblock-legend": "Restringir utilizador",
+	"pageblock-form-title": "Nome da página",
+	"pageblock-form-user": "Nome de utilizador",
+	"pageblock-form-edit": "Impedir o utilizador de editar",
+	"pageblock-form-sameformove": "Aplicar as mesmas restrições para a movimentação",
+	"pageblock-form-move": "Impedir o utilizador de movimentar",
+	"pageblock-form-reason": "Motivo",
+	"pageblock-success": "$1 foi impedido de alterar $2.",
+	"listrestrictions": "Listar restrições",
+	"listrestrictions-legend": "Listar restrições",
+	"pageblock-list-title": "Nome da página",
+	"pageblock-list-user": "Nome de utilizador",
+	"pageblock-list-indefonly": "Mostrar só as restrições por tempo indeterminado",
+	"pageblock-restricted-edit-indef": "$1 está impedido de editar $2 por tempo indeterminado.",
+	"pageblock-restricted-edit": "$1 está impedido de editar $2 até $3.",
+	"pageblock-restricted-move-indef": "$1 está impedido de movimentar $2 por tempo indeterminado.",
+	"pageblock-restricted-move": "$1 está impedido de movimentar $2 até $3.",
+	"pageblock-blocked-edit-indef": "Está {{GENDER:$1|impedido|impedida}} de editar $2 por tempo indeterminado.",
+	"pageblock-blocked-edit": "Está {{GENDER:$1|impedido|impedida}} de editar $2 até $3.",
+	"pageblock-blocked-move-indef": "Está {{GENDER:$1|impedido|impedida}} de movimentar $2 por tempo indeterminado.",
+	"pageblock-blocked-move": "Está {{GENDER:$1|impedido|impedida}} de fazer movimentações até $3.",
+	"logentry-restrict-add-edit-move": "$1 {{GENDER:$2|restringiu}} $3 de editar e movimentar $4",
+	"logentry-restrict-add-edit": "$1 {{GENDER:$2|restringiu}} $3 de editar $4",
+	"logentry-restrict-add-move": "$1 {{GENDER:$2|restringiu}} $3 de movimentar $4",
+	"action-page-block": "aplicar, modificar ou remover restrições sobre páginas ou utilizadores",
+	"right-page-block": "Aplicar, modificar ou remover restrições sobre páginas ou utilizadores"
+}

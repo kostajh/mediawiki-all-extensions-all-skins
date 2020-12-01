@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"hsts-desc": "HSTS (HTTP Strict Transport Security) activáu pol usuariu",
+	"hsts-tog": "Activar HTTP Strict Transport Security (HSTS)",
+	"hsts-https-tog": "Activar HTTP Strict Transport Security (HSTS)<br />Recarga esta páxina con HTTPS pa cambiar esta preferencia.",
+	"hsts-beta-feature-message": "Usar siempre una conexón segura",
+	"hsts-beta-feature-description": "Esto refuerza la to seguridá nesti sitiu web calteniéndote seguru incluso anque zarres la sesión, y asegura que naide pueda espiate demientres la navegación. Con esta opción activada y un restolador reciente con sofitu pa esta teunoloxía (HSTS), cualquier alerta de seguridá ye mui probablemente un ataque auténticu escontra ti."
+}

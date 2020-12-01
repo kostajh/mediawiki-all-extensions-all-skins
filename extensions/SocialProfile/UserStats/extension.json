@@ -1,0 +1,97 @@
+{
+	"name": "UserStats",
+	"author": [
+		"Aaron Wright",
+		"David Pean",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"descriptionmsg": "userstats-desc",
+	"type": "other",
+	"MessagesDirs": {
+		"UserStats": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MigrateOldUserPointsArchiveUserColumnToActor": "maintenance/migrateOldUserPointsArchiveUserColumnToActor.php",
+		"MigrateOldUserPointsMonthlyUserColumnToActor": "maintenance/migrateOldUserPointsMonthlyUserColumnToActor.php",
+		"MigrateOldUserPointsWeeklyUserColumnToActor": "maintenance/migrateOldUserPointsWeeklyUserColumnToActor.php",
+		"MigrateOldUserStatsUserColumnsToActor": "maintenance/migrateOldUserStatsUserColumnsToActor.php",
+		"MigrateOldUserSystemMessagesUserColumnToActor": "maintenance/migrateOldUserSystemMessagesUserColumnToActor.php",
+		"EchoUserLevelAdvancePresentationModel": "includes/EchoUserLevelAdvancePresentationModel.php",
+		"GenerateTopUsersReport": "includes/specials/GenerateTopUsersReport.php",
+		"TopFansByStat": "includes/specials/TopFansByStat.php",
+		"TopFansRecent": "includes/specials/TopFansRecent.php",
+		"TopUsersPoints": "includes/specials/TopUsers.php",
+		"RandomFeaturedUser": "includes/RandomFeaturedUser.php",
+		"TopUsersListLookup": "includes/TopUsersListLookup.php",
+		"UpdateEditCounts": "includes/specials/SpecialUpdateEditCounts.php",
+		"UserLevel": "includes/UserLevel.php",
+		"UserStatsTrack": "includes/UserStatsTrack.php",
+		"UserStats": "includes/UserStats.php",
+		"UserStatsHooks": "includes/UserStatsHooks.php",
+		"UserSystemMessage": "includes/UserSystemMessage.php"
+	},
+	"Hooks": {
+		"BeforeCreateEchoEvent":"UserStatsHooks::onBeforeCreateEchoEvent",
+		"EchoGetBundleRules": "UserStatsHooks::onEchoGetBundleRules",
+		"ParserFirstCallInit": "UserStatsHooks::onParserFirstCallInit"
+	},
+	"DefaultUserOptions": {
+		"echo-subscriptions-web-social-level-up": true,
+		"echo-subscriptions-email-social-level-up": false
+	},
+	"SpecialPages": {
+		"GenerateTopUsersReport": "GenerateTopUsersReport",
+		"TopFansByStatistic": "TopFansByStat",
+		"TopUsers": "TopUsersPoints",
+		"TopUsersRecent": "TopFansRecent",
+		"UpdateEditCounts": "UpdateEditCounts"
+	},
+	"config": {
+		"UserStatsTrackWeekly": false,
+		"UserStatsTrackMonthly": false,
+		"UserStatsPointValues": {
+			"edit": 50,
+			"vote": 0,
+			"comment": 0,
+			"comment_plus": 0,
+			"comment_ignored": 0,
+			"opinions_created": 0,
+			"opinions_pub": 0,
+			"referral_complete": 0,
+			"friend": 0,
+			"foe": 0,
+			"gift_rec": 0,
+			"gift_sent": 0,
+			"points_winner_weekly": 0,
+			"points_winner_monthly": 0,
+			"user_image": 1000,
+			"poll_vote": 0,
+			"quiz_points": 0,
+			"quiz_created": 0
+		},
+		"NamespacesForEditPoints": [
+			0
+		],
+		"RandomFeaturedUser": {
+			"about": true,
+			"avatar": true,
+			"points": true
+		}
+	},
+	"ResourceModules": {
+		"ext.socialprofile.userstats.css": {
+			"styles": "css/TopList.css"
+		},
+		"ext.socialprofile.userstats.randomfeatureduser.styles": {
+			"styles": "css/RandomFeaturedUser.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "SocialProfile/UserStats/resources"
+	},
+	"manifest_version": 1
+}

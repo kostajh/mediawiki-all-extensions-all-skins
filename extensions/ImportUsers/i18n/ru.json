@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ferrer",
+			"Kaganer",
+			"Okras",
+			"Александр Сигачёв"
+		]
+	},
+	"importusers": "Импортирование участников",
+	"importusers-desc": "Позволяет [[Special:ImportUsers|импортировать большое количество учётных записей]] из CSV-файла в кодировке UTF-8",
+	"importusers-uploadfile": "Загрузить файл",
+	"importusers-form-caption": "Входной файл:",
+	"importusers-file": "Структура и формат входного файла:",
+	"importusers-file-structure": "Структура:",
+	"importusers-file-format": "Формат:",
+	"importusers-form-replace-present": "Заменять существующих участников",
+	"importusers-form-add-to-group": "Добавить участников к существующей группе",
+	"importusers-form-button": "Импортировать",
+	"importusers-user-added": "{{GENDER:$1|Участник|Участница}} «$1» был добавлен.",
+	"importusers-user-present-update": "{{GENDER:$1|Участник|Участница}} «$1» уже существует и был обновлён.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Участник|Участница}} «$1» уже существует и не был обновлён.",
+	"importusers-user-invalid-format": "Данные участника в строке #$1 имеют неправильный формат или пусты и поэтому были пропущены.",
+	"importusers-log": "Журнал импорта участников",
+	"importusers-log-list": "Импортированные или обновлённые участники:",
+	"importusers-log-summary": "Описание импорта:",
+	"importusers-log-summary-all": "Всего: $1 участник{{PLURAL:$1||а|ов}}",
+	"importusers-log-summary-added": "Добавлено: $1 {{PLURAL:$1|{{GENDER:$2|участник|участница}}|участников|участника}}",
+	"importusers-log-summary-updated": "Обновлено: $1 участник{{PLURAL:$1||а|ов}}",
+	"importusers-login-name": "Имя учётной записи",
+	"importusers-password": "пароль",
+	"importusers-email": "эл. почта",
+	"importusers-realname": "настоящее имя",
+	"importusers-group": "группа участника",
+	"importusers-utf8": "В кодировке UTF-8",
+	"importusers-comma": "отделяйте поля запятыми",
+	"importusers-noquotes": "без двойных кавычек в тексте",
+	"right-import_users": "импортировать сразу несколько участников",
+	"action-import_users": "импортирование участников в эту вики"
+}

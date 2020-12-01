@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"securesessions-desc": "利用者セッションおよびセッション認証のセキュリティを高める",
+	"securesessions-personalurl": "セッション ($1)",
+	"securesessions-ipsession": "他のセッションをすべてログアウトする。",
+	"securesessions-iprestrict": "セッションをこの IP アドレスに制限する。",
+	"securesessions-uarestrict": "セッションをこのブラウザーに制限する。",
+	"securesessions-sessions": "セッション",
+	"securesessions-sessions-legend": "セッションの情報",
+	"securesessions-sessions-text": "以下の一覧は、あなたのアカウントの有効なセッションとその情報です。下のボタンで、他のセッションをすべてログアウトさせることができます。「*」印は現在のセッションを意味しています。",
+	"securesessions-sessions-ip": "IP アドレス:",
+	"securesessions-sessions-activity": "最終活動日時:",
+	"securesessions-sessions-clear": "他のセッションをすべてログアウト"
+}

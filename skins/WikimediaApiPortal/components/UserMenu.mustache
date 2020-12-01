@@ -1,0 +1,15 @@
+{{#isAnon}}
+	<a class="btn wm-button wm-header-item" href="{{login-href}}">{{login-label}}</a>
+{{/isAnon}}
+{{^isAnon}}
+	<div class="wm-header-item wm-user-menu">
+		<div class="user-menu">
+			{{{user-menu-label}}}
+			<div class="d-none">
+				{{#each user-menu-items}}
+					{{{.}}}
+				{{/each}}
+			</div>
+		</div>
+	</div>
+{{/isAnon}}

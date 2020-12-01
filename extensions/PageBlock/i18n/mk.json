@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"pageblock-desc": "Овозможува кориснички оневозможувања по поединечни страници",
+	"pageblock": "Оневозможи корисник",
+	"pageblock-legend": "Оневозможи корисник",
+	"pageblock-form-title": "Име на страницата",
+	"pageblock-form-user": "Корисничко име",
+	"pageblock-form-edit": "Оневозможи уредување на корисник",
+	"pageblock-form-sameformove": "Примени ги истите оневозможувања за преместување",
+	"pageblock-form-move": "Оневозможи корисник да преместува",
+	"pageblock-form-reason": "Причина",
+	"pageblock-success": "На $1 му е оневозможено $2.",
+	"listrestrictions": "Наведи оневозможувања",
+	"listrestrictions-legend": "Наведи оневозможувања",
+	"pageblock-list-title": "Име на страницата",
+	"pageblock-list-user": "Корисничко име",
+	"pageblock-list-indefonly": "Прикажи само трајни оневозможувања",
+	"pageblock-restricted-edit-indef": "На $1 му е трајно оневозможено да ја уредува $2.",
+	"pageblock-restricted-edit": "На $1 му е оневозможено да ја уредува $2 до $3.",
+	"pageblock-restricted-move-indef": "На $1 му е трајно оневозможено да ја преместува $2.",
+	"pageblock-restricted-move": "На $1 му е оневозможено да ја преместува $2 до $3..",
+	"pageblock-blocked-edit-indef": "Уредувањето на $2 {{GENDER:$1|ви}} е трајно оневозможено.",
+	"pageblock-blocked-edit": "Уредувањето на $2 {{GENDER:$1|ви}} е оневозможено до $3.",
+	"pageblock-blocked-move-indef": "Преместувањето на $2 {{GENDER:$1|ви}} е трајно оневозможено.",
+	"pageblock-blocked-move": "Преместувањето на $2 {{GENDER:$1|ви}} е оневозможено до $3.",
+	"logentry-restrict-add-edit-move": "$1 {{GENDER:$2|му оневозможи}} на $3 да ја уредува и преместува $4",
+	"logentry-restrict-add-edit": "$1 {{GENDER:$2|му оневозможи}} на $3 да ја уредува $4",
+	"logentry-restrict-add-move": "$1 {{GENDER:$2|му оневозможи}} на $3 да ја преместува $4",
+	"action-page-block": "примена, измена или отстранување на страница, или пак според напатствијата за даден корисник",
+	"right-page-block": "Примена, измена или отстранување на страница, или пак според напатствијата за даден корисник"
+}

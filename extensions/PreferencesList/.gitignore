@@ -1,0 +1,9 @@
+.*.swp
+*~
+/.project
+/composer.lock
+/vendor
+/node_modules
+/nbproject
+.directory
+/.eslintcache

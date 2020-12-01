@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"northway"
+		]
+	},
+	"shibboleth-desc": "Shibboleth azonosítás PluggableAuth-al",
+	"shibboleth-wg-empty-displayname": "A wgShibboleth_DisplayName paraméter üres a LocalSettings.php-ban",
+	"shibboleth-wg-empty-email": "A wgShibboleth_Email paraméter üres a LocalSettings.php-ban",
+	"shibboleth-wg-empty-username": "A wgShibboleth_Username paraméter üres a LocalSettings.php-ban",
+	"shibboleth-wg-empty-groupmap-attr": "A wgShibboleth_GroupMap hibás vagy nem található a LocalSettings.php-ban",
+	"shibboleth-attr-empty-username": "Shibboleth: felhasználónév attribútum nem található",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: a GroupMap-hez szükséges attribútum nem található vagy hibás"
+}

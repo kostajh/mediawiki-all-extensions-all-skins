@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gunnernett",
+			"Ranveig"
+		]
+	},
+	"inlinecategorizer-add-category": "Legg til kategori",
+	"inlinecategorizer-add-category-submit": "Legg til",
+	"inlinecategorizer-add-category-summary": "Legg til kategorien \"$1\"",
+	"inlinecategorizer-confirm-save": "Lagre",
+	"inlinecategorizer-confirm-title": "Stadfest handling",
+	"inlinecategorizer-error-title": "Feil",
+	"inlinecategorizer-remove-category-error": "Det var ikkje mogleg å fjerna kategorien.\nDet skuldast som oftast at kategorien er vorte lagd til i sida inni ein mal.",
+	"inlinecategorizer-remove-category-summary": "Fjern kategorien \"$1\""
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"bs-expiry-header-pagename": "Side",
+	"bs-expiry-header-comment": "Kommentar",
+	"bs-expiry-article-label": "Side",
+	"bs-expiry-comment-label": "Kommentar",
+	"bs-expiry-unknown-page-msg": "Siden findes ikke.",
+	"bs-expiry-flyout-next-expired": "Denne side er udløbet!",
+	"bs-expiry-edit-grid-header-username": "Bruger",
+	"bs-expiry-edit-grid-header-date": "Dato",
+	"bs-expiry-pageinfoelement-expired-label": "udløb",
+	"bs-expiry-pageinfoelement-expired-tooltip": "Denne side er udløbet",
+	"bs-expiry-create-reminder-label": "Opret påmindelse"
+}

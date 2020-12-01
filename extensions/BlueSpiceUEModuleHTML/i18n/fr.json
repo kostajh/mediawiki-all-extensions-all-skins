@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derugon",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "Activer l’export en HTML",
+	"bs-uemodulehtml-pref-DefaultTemplate": "Modèle standard",
+	"bs-uemodulehtml-pref-SuppressNS": "Masquer le préfixe de l’espace de noms en HTML",
+	"bs-uemodulehtml-pref-Backend": "Moteur",
+	"bs-uemodulehtml-widgetlink-single-text": "Page HTML simple (archivée)",
+	"bs-uemodulehtml-widgetlink-single-title": "Exporter cette page en HTML avec ses ressources en archive",
+	"bs-uemodulehtml-overview-title": "Document HTML (archivé)",
+	"bs-uemodulehtml-overview-description": "Exporter des pages (pages de contenus ou spéciales) en HTML."
+}

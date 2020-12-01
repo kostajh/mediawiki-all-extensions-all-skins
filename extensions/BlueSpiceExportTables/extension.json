@@ -1,0 +1,108 @@
+{
+	"name": "BlueSpiceExportTables",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:ExportTables",
+	"author": [
+		"Patric Wirth",
+		"Robert Vogel"
+	],
+	"descriptionmsg": "bs-exporttables-extension-description",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceUEModuleTable2Excel": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceExportTables": {
+					"className": "\\BlueSpice\\ExportTables\\Extension",
+					"extPath": "/BlueSpiceExportTables",
+					"package": "BlueSpice Pro",
+					"status": "beta"
+				}
+			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"PluginModules": [
+				"ext.bluespice.exportTables.visualEditorPlugin"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceExportTables": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\ExportTables\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.exportTables.contentTables.styles": {
+			"styles": [
+				"bluespice.exportTables.less"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		},
+		"ext.bluespice.exportTables.contentTables": {
+			"dependencies": [
+				"ext.bluespice"
+			],
+			"scripts": [
+				"bluespice.exportTables.contentTables.js"
+			],
+			"messages": [
+				"bs-exporttables-menu",
+				"bs-exporttables-menu-csv",
+				"bs-exporttables-menu-xls",
+				"bs-exporttables-menu-xlsx"
+			]
+		},
+		"ext.bluespice.exportTables.CRUDGridPanel.button.styles": {
+			"styles": [
+				"bluespice.exportTables.less"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		},
+		"ext.bluespice.exportTables.CRUDGridPanel.button": {
+			"dependencies": [
+				"mediawiki.util"
+			],
+			"scripts": [
+				"bluespice.exportTables.CRUDGridPanel.button.js"
+			],
+			"messages": [
+				"bs-exporttables-menu",
+				"bs-exporttables-menu-csv",
+				"bs-exporttables-menu-xls",
+				"bs-exporttables-menu-xlsx"
+			]
+		},
+		"ext.bluespice.exportTables.visualEditorPlugin": {
+			"scripts": [
+				"bs.exptbl/ui/plugin/ExportableOption.js"
+			],
+			"messages": [
+				"bs-exporttables-ve-exportable-option"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceExportTables/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"ExportTablesMenuTargetSelector": {
+			"value": "#mw-content-text table.bs-exportable, .mw-datatable"
+		}
+	},
+	"Hooks": {
+		"BeforePageDisplay": "\\BlueSpice\\ExportTables\\Hook\\BeforePageDisplay\\AddResources::callback"
+	},
+	"manifest_version": 2
+}

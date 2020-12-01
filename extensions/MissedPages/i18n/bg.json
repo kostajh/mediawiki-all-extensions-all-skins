@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg",
+			"Vlad5250"
+		]
+	},
+	"missedpages": "Пропуснати страници",
+	"missedpages-desc": "Обобщава грешките 404 (страницата не е намерена) и предоставя бърз начин за тяхно пренасочване или игнориране.",
+	"missedpages-special-page-title": "Пропуснати страници",
+	"missedpages-count": "Брой",
+	"missedpages-page": "Страница",
+	"missedpages-actions": "Действия",
+	"missedpages-redirect": "Пренасочване",
+	"missedpages-redirect-desc": "Добавяне на пренасочване на страницата.",
+	"missedpages-redirect-comment": "Добавено пренасочване с Отсъстващи страници",
+	"missedpages-delete": "Изтриване",
+	"missedpages-delete-desc": "Изтриване на записите за страницата от дневника.",
+	"missedpages-ignore": "Игнориране",
+	"missedpages-ignore-desc": "Игнориране на страницата в бъдеще, ако връща грешка 404."
+}

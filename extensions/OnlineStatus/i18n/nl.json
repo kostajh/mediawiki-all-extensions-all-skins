@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"onlinestatus-desc": "Voegt een voorkeur toe om aan te kunnen geven of een gebruiker aanwezig is op de wiki of niet",
+	"onlinestatus-js-anon": "Fout: u moet aangemeld zijn om deze optie te kunnen gebruiken",
+	"onlinestatus-js-changed": "Uw status is gewijzigd naar \"$1\"",
+	"onlinestatus-js-error": "De status kan niet gewijzigd worden. Waarde \"$1\" is ongeldig",
+	"onlinestatus-subtitle-offline": "Deze gebruiker is offline",
+	"onlinestatus-subtitle-online": "Deze gebruiker is online",
+	"onlinestatus-tab": "Status",
+	"onlinestatus-toggles-desc": "Uw status:",
+	"onlinestatus-toggles-explain": "Hiermee kunt u andere gebruikers op uw gebruikerspagina aangeven of u online of offline bent.",
+	"onlinestatus-toggles-show": "Onlinestatus weergeven op mijn gebruikerspagina",
+	"onlinestatus-toggle-offline": "Offline",
+	"onlinestatus-toggle-online": "Online",
+	"onlinestatus-pref-onlineonlogin": "Mijn status naar online wijzigen als ik me aanmeld",
+	"onlinestatus-pref-offlineonlogout": "Mijn status naar offline wijzigen als ik me afmeld"
+}

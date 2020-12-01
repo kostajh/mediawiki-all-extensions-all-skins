@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"special404-desc": "Fornisce una destinazione per l'errore 404 non trovato",
+	"error404": "404 non trovato",
+	"special404-body": "L'URL richiesto non è stato trovato.\n\nForse volevi scrivere {{fullurl:$1}}?\n\nForse ti piacerebbe dare un'occhiata alla:\n* [[{{MediaWiki:Mainpage}}|La pagina principale]]"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10"
+		]
+	},
+	"hsts-desc": "HSTS (HTTP Strict Transport Security) käyttäjäkohtaisesti",
+	"hsts-tog": "Ota käyttöön HTTP Strict Transport Security (HSTS)",
+	"hsts-https-tog": "Ota käyttöön HTTP Strict Transport Security (HSTS)<br />Lataa tämä sivu uudelleen HTTPS-yhteydellä muuttaaksesi tätä asetusta",
+	"hsts-beta-feature-message": "Käytä aina suojattua yhteyttä"
+}

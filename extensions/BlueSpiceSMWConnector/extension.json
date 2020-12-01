@@ -1,0 +1,245 @@
+{
+	"name": "BlueSpiceSMWConnector",
+	"descriptionmsg": "bs-bssmwconnector-desc",
+	"license-name": "GPL-3.0-only",
+	"type": "bluespice",
+	"version": "4.1.0-alpha",
+	"author": [
+		"Robert Vogel",
+		"Leonid Verhovskij"
+	],
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SMWConnector",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceExtendedSearch": {
+			"Sources": {
+				"wikipage": "\\BlueSpice\\SMWConnector\\ExtendedSearch\\Source\\SMWWikiPage::create"
+			},
+			"LookupModifierRegistry": {
+				"smw-source-fields": "\\BlueSpice\\SMWConnector\\ExtendedSearch\\Source\\LookupModifier\\AddSourceFields::factory",
+				"smw-aggregation": "\\BlueSpice\\SMWConnector\\ExtendedSearch\\Source\\LookupModifier\\AddSMWAggregation::factory",
+				"smw-filter-parser": "\\BlueSpice\\SMWConnector\\ExtendedSearch\\Source\\LookupModifier\\ParseSMWFilters::factory"
+			}
+		},
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSMWConnector": {
+					"className": "\\BlueSpice\\SMWConnector\\Extension",
+					"extPath": "/BlueSpiceSMWConnector",
+					"package": "BlueSpice Pro"
+				}
+			},
+			"PermissionRegistry": {
+				"createclass": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"author",
+						"editor",
+						"maintenanceadmin"
+					]
+				},
+				"editrestrictedfields": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"editor",
+						"maintenanceadmin"
+					]
+				},
+				"geocode": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"author",
+						"editor",
+						"maintenanceadmin"
+					]
+				},
+				"smw-admin": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin"
+					]
+				},
+				"viewedittab": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"editor",
+						"maintenanceadmin",
+						"structuremanager"
+					]
+				}
+			}
+		},
+		"BlueSpiceBookshelfUI": {
+			"MassAddHandlerRegistry": {
+				"smwproperty": "BSSMWPropertyPageProvider::factory"
+			}
+		},
+		"BlueSpiceSMWConnector": {
+			"ExtraPropertyRegistry": {
+				"usermentions": "BlueSpice\\SMWConnector\\PropertyValueProvider\\UserMentions::factory"
+			}
+		}
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"smw-admin": true,
+			"smw-patternedit": true,
+			"smw-pageedit": true,
+			"geocode": true,
+			"editrestrictedfields": true
+		},
+		"*": {
+			"viewedittab": true
+		},
+		"user": {
+			"createclass": true
+		}
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\SMWConnector\\": "src/"
+	},
+	"AutoloadClasses": {
+		"BSSMWConnectorHooks": "includes/BSSMWConnectorHooks.php",
+		"BSSMWCNamespaceManager": "includes/BSSMWCNamespaceManager.php",
+		"BSGridResultPrinter": "includes/formats/Grid/BSGridResultPrinter.php",
+		"BSSMWCPageTemplates": "includes/BSSMWCPageTemplates.php",
+		"BSSMWPropertyPageProvider": "includes/BSSMWPropertyPageProvider.php",
+		"ApiSMWPropertyStore": "includes/api/ApiSMWPropertyStore.php"
+	},
+	"APIModules": {
+		"bs-smw-connector-smw-property-store": "ApiSMWPropertyStore"
+	},
+	"MessagesDirs": {
+		"BSSMWConnectorHooks": "i18n"
+	},
+	"ExtensionFunctions": [
+		"BlueSpice\\SMWConnector\\Extension::setup",
+		"BlueSpice\\SMWConnector\\PropertyValueProvidersRegistration::addExtensions"
+	],
+	"Hooks": {
+		"BeforePageDisplay": [
+			"BSSMWConnectorHooks::onBeforePageDisplay",
+			"BlueSpice\\SMWConnector\\Hook\\BeforePageDisplay\\AddModules::callback"
+		],
+		"PageForms::FormPrinterSetup": [
+			"BlueSpice\\SMWConnector\\Hook\\PFFormPrinterSetup\\RegisterInputTypes::callback"
+		],
+		"BSBookshelfNodeTag": "BSSMWConnectorHooks::onBSBookshelfNodeTag",
+		"BSBookshelfExportTag": "BSSMWConnectorHooks::onBSBookshelfExportTag",
+		"NamespaceManager::getMetaFields": "BSSMWCNamespaceManager::onGetMetaFields",
+		"BSApiNamespaceStoreMakeData": "BSSMWCNamespaceManager::onGetNamespaceData",
+		"NamespaceManager::editNamespace": "BSSMWCNamespaceManager::onEditNamespace",
+		"NamespaceManager::writeNamespaceConfiguration": "BSSMWCNamespaceManager::onWriteNamespaceConfiguration",
+		"BSPageTemplatesBeforeRender": "BSSMWCPageTemplates::onBSPageTemplatesBeforeRender",
+		"PageSaveComplete": "BSSMWConnectorHooks::onPageSaveComplete",
+		"SMW::Store::AfterQueryResultLookupComplete": "BlueSpice\\SMWConnector\\Hook\\SMWStoreAfterQueryResultLookupComplete\\ApplySecurityTrimming::callback",
+		"ChameleonSkinTemplateOutputPageBeforeExec": "BlueSpice\\SMWConnector\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddFormEditAction::callback",
+		"BSUEModulePDFcollectMetaData": "BlueSpice\\SMWConnector\\Hook\\BSUEModulePDFcollectMetaData\\AddSemanitcMetaData::callback"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSMWConnector/resources"
+	},
+	"ResourceModules": {
+		"ext.BSSMWConnector.styles": {
+			"styles": [
+				"ext.BSSMWConnector.css"
+			]
+		},
+		"ext.BSSMWConnector.BookshelfUI": {
+			"scripts": [
+				"ext.BSSMWConnector.BookshelfUI.js"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			],
+			"messages": [
+				"bs-dlg-choosesmwprop-label",
+				"bs-dlg-choosesmwprop-type-smwprop"
+			]
+		},
+		"ext.BSSMWConnector": {
+			"scripts": [
+				"ext.BSSMWConnector.smwc.js",
+				"ext.BSSMWConnector.util.js"
+			],
+			"messages": [
+				"bs-extendedsearch-add-filter-group-smwproperty-label",
+				"bs-extendedsearch-search-center-result-smwproperty-label"
+			],
+			"dependencies": [
+				"ext.bluespice",
+				"ext.smw.api"
+			]
+		},
+		"ext.BSSMWConnector.visualEditor": {
+			"scripts": [
+				"ext.BSSMWConnector.smwc.ve.init.js"
+			],
+			"dependencies": [
+				"ext.bluespice"
+			]
+		},
+		"ext.BSSMWConnector.PF.Inputs.MWVisualEditor": {
+			"scripts": [
+				"ext.BSSMWConnector.PF.Inputs.MWVisualEditor.js"
+			]
+		},
+		"ext.BSSMWConnector.PF.Input.Grid": {
+			"scripts": [
+				"ext.BSSMWConnector.PF.Inputs.Grid.js"
+			]
+		},
+		"ext.BSSMWConnector.PF.Input.UserCombo": {
+			"scripts": [
+				"ext.BSSMWConnector.PF.Inputs.UserCombo.js"
+			]
+		},
+		"ext.BSSMWConnector.PF.Input.UserTags": {
+			"scripts": [
+				"ext.BSSMWConnector.PF.Inputs.UserTags.js"
+			]
+		},
+		"ext.srf.bsextjsgrid": {
+			"scripts": [
+				"ext.srf.bsextjsgrid.js"
+			],
+			"dependencies": [
+				"ext.BSSMWConnector",
+				"ext.smw.api",
+				"ext.bluespice.extjs",
+				"ext.extjsbase.ux"
+			]
+		},
+		"ext.BSSMWConnector.PageForms.DateTimePicker.fix": {
+			"scripts": [
+				"ext.BSSMWConnector.PageForms.DateTimePicker.fix.js"
+			]
+		}
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"UEModulePDFsmwProperties": {
+			"value": {}
+		},
+		"ESSMWPropertyFilter": {
+			"description": "Which SMW properties to offer as filters. List of regex-es. Properties are matched against the names as written in ES filter list",
+			"value": {
+				"type": "blacklist",
+				"props": []
+			}
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"tweetanew-desc": "Твітить, коли створюються або редагуються сторінки.",
+	"tweetanew-newaction": "Твітнути про цю нову сторінку",
+	"tweetanew-newtooltip": "Надіслати інформацію про цю нову сторінку до Твітера",
+	"tweetanew-editaction": "Твітнути про це редагування",
+	"tweetanew-edittooltip": "Надіслати інформацію про це нове редагування до Твітера",
+	"tweetanew-minoredit": "м",
+	"tweetanew-authorcredit": "Автор:",
+	"tweetanew-newdefault": "Нова сторінка: $1 — $2",
+	"tweetanew-new1": "Схоже, створили сторінку $1 — $2",
+	"tweetanew-new2": "Нещодавно було створено сторінку $1 — $2",
+	"tweetanew-new3": "Подивіться на $2 — там нова сторінка, $1",
+	"tweetanew-editdefault": "Оновлена сторінка: $1 — $2",
+	"tweetanew-edit1": "Схоже, сторінку $1 оновили: $2",
+	"tweetanew-edit2": "Нещодавно було оновлено сторінку $1 — $2",
+	"tweetanew-edit3": "Подивіться на $2 — там оновилась сторінка, $1"
+}

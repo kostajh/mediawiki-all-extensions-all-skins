@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"special404-desc": "Procura un destination pro le errores \"404 Non trovate\"",
+	"error404": "404 Non trovate",
+	"special404-body": "Le URL que tu requestava non esseva trovate.\n\nVoleva tu scriber {{fullurl:$1}}?\n\nSi non, tu pote consultar:\n* [[{{MediaWiki:Mainpage}}|Le pagina principal]]"
+}

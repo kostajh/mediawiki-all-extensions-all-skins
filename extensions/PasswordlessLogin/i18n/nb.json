@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"passwordlesslogin": "Passordløs innlogging",
+	"passwordlesslogin-desc": "Gir en måte å logge inn uten passord ved å bekrefte innloggingen på en tilkoblet enhet.",
+	"passwordlesslogin-verify-request": "Bekreft innloggingen din på telefonen din.",
+	"passwordlesslogin-error-no-authentication-workflow": "Autentiseringsarbeidsflyt ble uventet avsluttet.",
+	"passwordlesslogin-no-challenge": "Ingen aktiv utfordring å bekrefte, prøv å autentisere igjen.",
+	"passwordlesslogin-verification-pending": "Autentiseringen har ikke blitt bekreftet ennå. Bekreft innloggingsforespørselen på den tilkoblede enheten din.",
+	"passwordlesslogin-pair-device-step": "Følg instruksjonene for å koble til den nye enheten din.",
+	"passwordlesslogin-no-device-paired": "Det er ennå ingen tilkoblet enhet.",
+	"passwordlesslogin-verify-pair": "Vi har sendt enn innloggingsforespørsel til enheten din for å bekrefte at den er registrert riktig. Bekreft forespørselen og fortsett.",
+	"passwordlesslogin-pair-device": "Koble til enhet for passordløs innlogging",
+	"passwordlesslogin-login": "Logg inn med smarttelefonen din",
+	"passwordlesslogin-pair-step-1": "1. Last ned appen MediaWiki PasswordlessLogin",
+	"passwordlesslogin-pair-step-2": "2. Skann QR-koden med appen",
+	"passwordlesslogin-pair-step-3": "3. Når oppsettet av appen er fullført, fortsett til neste steg",
+	"passwordlesslogin-authentication-app": "Autentiseringsapp",
+	"apihelp-passwordlesslogin-summary": "Registrer en ny enhet for en tidligere generert parnøkkel.",
+	"apihelp-passwordlesslogin-param-pairToken": "Den tidligere genererte parnøkkelen for å identifisere hvilken bruker enheten skal registreres på.",
+	"apihelp-passwordlesslogin-param-deviceId": "En unik enhets-ID kan brukes for å identifisere enheten samt sende varsler til den med enhetens standard varslingssystem (f.eks. Firebase Cloud Messaging for Android-enheter).",
+	"apihelp-passwordlesslogin-param-secret": "En hemmelighet generert på enheten som skal brukes for å signere utfordringer sendt til enheten. Hemmeligheten brukes for å bekrefte at en utfordring til innlogging og må holdes hemmelig.",
+	"apihelp-passwordlesslogin-verify-challenge-summary": "Bekreft en innloggingsforespørsel sendt til en enhet.",
+	"apihelp-passwordlesslogin-verify-challenge-param-challenge": "Utfordringen som ble sendt til enheten og som skal løses.",
+	"apihelp-passwordlesslogin-verify-challenge-param-response": "Responsen (løsningen) til utfordringen. Løsningen må være:<br />&#160;1. En HMAC med SHA512 som signaturalgoritme<br />&#160;2. Den forhåndsdelte hemmeligheten som symmetrisk nøkkelmaterial<br />&#160;3. MAC-dataene er utfordringen som bytetabell<br />&#160;4. Responsen må være en heksadesimal streng<br />&#160;5. Responsen må være i små bokstaver",
+	"apihelp-passwordlesslogin-verify-login-summary": "Sjekk om en innloggingsforespørsel allerede har blitt bekreftet av denne enheten."
+}

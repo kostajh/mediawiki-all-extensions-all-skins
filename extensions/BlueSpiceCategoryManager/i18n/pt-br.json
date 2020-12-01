@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bluespicecategorymanager": "Gerente de categoria",
+	"bluespicecategorymanager-desc": "Ferramenta visual para gerenciar categorias",
+	"action-categorymanager-viewspecialpage": "Exibir o Gerenciador de categorias",
+	"bs-categorymanager-draganddrop-text": "Arrastar e largar para reorganizar",
+	"bs-categorymanager-label": "Gerente de categoria",
+	"bs-categorymanager-dlg-new-title": "Criar categoria",
+	"bs-categorymanager-dlg-new-prompt": "Introduza o nome:",
+	"bs-categorymanager-removecategoryconfirm-text": "Tem a certeza de que pretende eliminar esta categoria?",
+	"bs-categorymanager-removecategoryconfirm-title": "Remover categoria",
+	"bs-categorymanager-addcategory-dialog-error-title": "A criação da categoria falhou",
+	"bs-categorymanager-action-show-category": "Mostrar categoria",
+	"right-categorymanager-viewspecialpage": "Acesso à página especial [[Special:BlueSpiceCategoryManager]].",
+	"bs-categorymanager-collection-type-categorizedpages": "Alocação de categoria",
+	"bs-categorymanager-collection-var-namespacename": "Espaço nominal",
+	"bs-categorymanager-collection-var-categorizedpages": "Páginas com categorias",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Páginas sem categorias"
+}

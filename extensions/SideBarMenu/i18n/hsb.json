@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"sidebarmenu-desc": "Jednory menijowy parser za bóčnicu, kotryž fałdujomne/rozfałdujomne menije a podmenij twori",
+	"sidebarmenu-parser-input-error": "Parser je zmylk wróćił: $1",
+	"sidebarmenu-parser-syntax-error": "\"$1\" njeda so parsować, zawěsćće, zo syntaksa je korektna.",
+	"sidebarmenu-js-init-error": "Začitowanje JavaScriptowych resursow je so njeporadźiło.",
+	"sidebarmenu-edit": "Meni wobdźěłać",
+	"sidebarmenu-parser-menuitem-expanded-null": "Njepłaćiwa hódnota podata, hódnota dyrbjała pak \"null\", \"true\" pak \"false\" być."
+}

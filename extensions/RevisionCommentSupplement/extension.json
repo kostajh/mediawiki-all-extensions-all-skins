@@ -1,0 +1,87 @@
+{
+	"name": "RevisionCommentSupplement",
+	"version": "0.5.0",
+	"author": [
+		"Burthsceh",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:RevisionCommentSupplement",
+	"descriptionmsg": "revcs-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"AvailableRights": [
+		"supplementcomment",
+		"supplementcomment-restricted"
+	],
+	"GroupPermissions": {
+		"supplementcomment": {
+			"supplementcomment": true,
+			"supplementcomment-restricted": true
+		},
+		"sysop": {
+			"supplementcomment": true
+		}
+	},
+	"LogActionsHandlers": {
+		"revisioncommentsupplement/create": "RevisionCommentSupplementLogFormatter",
+		"revisioncommentsupplement/delete": "RevisionCommentSupplementLogFormatter",
+		"revisioncommentsupplement/modify": "RevisionCommentSupplementLogFormatter",
+		"revisioncommentsupplement/create2": "LogFormatter",
+		"revisioncommentsupplement/delete2": "LogFormatter",
+		"revisioncommentsupplement/modify2": "LogFormatter",
+		"revisioncommentsupplement/hidehistory": "RevisionCommentSupplementHideHistoryLogFormatter",
+		"suppress/revcommentsupplementhidehistory": "RevisionCommentSupplementHideHistoryLogFormatter"
+	},
+	"LogTypes": [
+		"revisioncommentsupplement"
+	],
+	"SpecialPages": {
+		"RevisionCommentSupplement": "SpecialRevisionCommentSupplement",
+		"RevisionCommentSupplementList": "SpecialRevisionCommentSupplementList"
+	},
+	"MessagesDirs": {
+		"RevisionCommentSupplement": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"RevisionCommentSupplementAlias": "RevisionCommentSupplement.alias.php"
+	},
+	"AutoloadClasses": {
+		"RevisionCommentSupplementSetting": "RevisionCommentSupplementSetting.php",
+		"RevisionCommentSupplementHook": "RevisionCommentSupplement.hook.php",
+		"RevisionCommentSupplementLogFormatter": "RevisionCommentSupplementLogFormatter.php",
+		"RevisionCommentSupplementHideHistoryLogFormatter": "RevisionCommentSupplementLogFormatter.php",
+		"SpecialRevisionCommentSupplement": "special/SpecialRevisionCommentSupplement.php",
+		"SpecialRevisionCommentSupplementList": "special/SpecialRevisionCommentSupplementList.php"
+	},
+	"ResourceModules": {
+		"ext.RevisionCommentSupplement.special": {
+			"styles": "ext.RevisionCommentSupplement.special.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "RevisionCommentSupplement"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "RevisionCommentSupplementHook::runUpdates",
+		"PageHistoryLineEnding": "RevisionCommentSupplementHook::onPageHistoryLineEnding",
+		"LogLine": "RevisionCommentSupplementHook::onLogLine"
+	},
+	"config_prefix": "eg",
+	"config": {
+		"RevisionCommentSupplementSettings": {
+			"value": {
+				"history": "true",
+				"log": "true",
+				"logsupplement": "false",
+				"logpublish": "false"
+			},
+			"description": "Settings of RevisionCommentSupplement. See RevisionCommentSupplementSetting.php"
+		}
+	},
+	"manifest_version": 2
+}

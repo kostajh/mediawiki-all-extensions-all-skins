@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"uploadslink-portlet-label": "Files incargate",
+	"tooltip-pt-uploads": "Lista del files que tu ha incargate",
+	"uploadslink-toobox-label": "Incargamentos del {{GENDER:$1|usator}}",
+	"tooltip-tb-uploads": "Un lista de files incargate per iste {{GENDER:$1|usator}}"
+}

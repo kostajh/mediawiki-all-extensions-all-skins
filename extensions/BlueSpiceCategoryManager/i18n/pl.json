@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"InternerowyGołąb",
+			"Rail",
+			"Railfail536",
+			"WaldiSt"
+		]
+	},
+	"bluespicecategorymanager": "Menedżer kategorii",
+	"bluespicecategorymanager-desc": "Narzędzie wizualne do zarządzania kategoriami",
+	"bs-categorymanager-label": "Menedżer kategorii",
+	"bs-categorymanager-dlg-new-title": "Utwórz kategorię",
+	"bs-categorymanager-dlg-new-prompt": "Podaj nazwę:",
+	"bs-categorymanager-removecategoryconfirm-title": "Usuń kategorię",
+	"bs-categorymanager-addcategory-dialog-error-title": "Tworzenie kategorii nie powiodło się",
+	"bs-categorymanager-action-show-category": "Pokaż kategorię",
+	"right-categorymanager-viewspecialpage": "Dostęp do strony specjalnej [[Special:BlueSpiceCategoryManager]].",
+	"bs-categorymanager-collection-var-namespacename": "Przestrzeń nazw",
+	"bs-categorymanager-collection-var-categorizedpages": "Strony z kategoriami",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Strony bez kategorii"
+}

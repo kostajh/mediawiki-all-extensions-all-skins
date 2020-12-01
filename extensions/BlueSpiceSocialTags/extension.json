@@ -1,0 +1,125 @@
+{
+	"name": "BlueSpiceSocialTags",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SocialTags",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-socialtags-desc",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceSocial": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocialTags": {
+					"className": "\\BlueSpice\\Social\\Tags\\Extension",
+					"extPath": "/BlueSpiceSocialTags",
+					"status": "beta",
+					"package": "BlueSpiceSocial"
+				}
+			},
+			"PermissionRegistry": {
+				"social-tagging": {
+					"type": "namespace",
+					"roles": [
+						"admin",
+						"author",
+						"commenter",
+						"editor",
+						"maintenanceadmin",
+						"reviewer"
+					]
+				}
+			}
+		}
+	},
+	"callback": "\\BlueSpice\\Social\\Tags\\Extension::onRegistration",
+	"MessagesDirs": {
+		"BlueSpiceSocialTags": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceSocialTagsAlias": "languages/Tags.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\Tags\\": "src/"
+	},
+	"APIModules": {
+		"bs-socialtags-tasks": "\\BlueSpice\\Social\\Tags\\Api\\Task\\Tags"
+	},
+	"GroupPermissions": {
+		"*": {
+			"social-tagging": false
+		},
+		"user": {
+			"social-tagging": true
+		},
+		"sysop": {
+			"social-tagging": true
+		}
+	},
+	"AvailableRights": [
+		"social-tagging"
+	],
+	"SpecialPages": {
+		"SocialTags": "\\BlueSpice\\Social\\Tags\\Special\\Tags"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"SocialTagsTimelineAfterContentNamespaceBlackList": {
+			"value": []
+		},
+		"SocialTagsTimelineAfterContentShow": {
+			"value": false
+		}
+	},
+	"ResourceModules": {
+		"ext.bluespice.social.tags.styles": {
+			"styles": [
+				"bluespice.social.tags.less"
+			],
+			"class": "\\MWStake\\MediaWiki\\Component\\CommonUserInterface\\ResourceLoader\\LessVars"
+		},
+		"ext.bluespice.social.tags": {
+			"dependencies": [
+				"ext.bluespice.social.entity"
+			],
+			"scripts": [
+				"EntityActionMenu/Tags.js",
+				"bluespice.social.tags.js",
+				"EntityListMenu/Filter/Tags.js"
+			],
+			"messages": [
+				"bs-socialtags-var-tags",
+				"bs-socialtags-tagstext"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocialTags/resources"
+	},
+	"Hooks": {
+		"BSSocialModuleDepths": "\\BlueSpice\\Social\\Tags\\Hook\\BSSocialModuleDepths\\AddModules::callback",
+		"BSEntitySetValuesByObject": "\\BlueSpice\\Social\\Tags\\Hook\\BSEntitySetValuesByObject\\SetTags::callback",
+		"BSEntityGetFullData": "\\BlueSpice\\Social\\Tags\\Hook\\BSEntityGetFullData\\AddTags::callback",
+		"BSEntityConfigDefaults": [
+			"\\BlueSpice\\Social\\Tags\\Hook\\BSEntityConfigDefaults\\IsTagable::callback",
+			"\\BlueSpice\\Social\\Tags\\Hook\\BSEntityConfigDefaults\\TagPermission::callback"
+		],
+		"BSSocialEntityOutputRenderBeforeContent": "\\BlueSpice\\Social\\Tags\\Hook\\BSSocialEntityOutputRenderBeforeContent\\AddTagInfo::callback",
+		"BSEntityConfigAttributeDefinitions": "\\BlueSpice\\Social\\Tags\\Hook\\BSEntityConfigAttributeDefinitions\\AddTags::callback",
+		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\Social\\Tags\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddTimeline::callback",
+		"BSSocialEntityListInitialized": "\\BlueSpice\\Social\\Tags\\Hook\\BSSocialEntityListInitialized\\ReplaceDiscussionPageListFilter::callback",
+		"TitleMoveComplete": "\\BlueSpice\\Social\\Tags\\Hook\\TitleMoveComplete\\UpdateTags::callback",
+		"BSFoundationRendererMakeTagAttribs": "\\BlueSpice\\Social\\Tags\\Hook\\BSFoundationRendererMakeTagAttribs\\AddForeignTopicClassToEntityRenderer::callback",
+		"BSSocialEntityGetActions": "\\BlueSpice\\Social\\Tags\\Hook\\BSSocialEntityGetActions\\AddTags::callback"
+	},
+	"manifest_version": 2
+}

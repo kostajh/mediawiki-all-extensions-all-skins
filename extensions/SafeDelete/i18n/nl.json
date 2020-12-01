@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mainframe98",
+			"Sjoerddebruin"
+		]
+	},
+	"safedelete": "Veilig verwijderen",
+	"safedelete-desc": "Verwijder pagina's alleen als er geen pagina's in de aangegeven naamruimten naar verwijzen",
+	"safedelete-title": "\"$1\" verwijderen",
+	"safedelete-missingpagename": "Paginanaam ontbreekt.",
+	"safedelete-missingnamespaces": "Lijst van Speciale Verwijderen naamruimten is niet ingesteld.",
+	"safedelete-cannotdelete": "Pagina \"$1\" kan niet verwijderd worden omdat er naar gekoppeld of doorverwezen wordt vanaf een va de volgende {{PLURAL:$2|pagina|pagina's}}:"
+}

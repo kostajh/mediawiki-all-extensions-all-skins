@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"bs-socialblog-desc": "Entité de blogue pour ''BlueSpiceSocial''",
+	"bs-socialblog-type": "Blogue",
+	"blog": "Blogue",
+	"bs-socialblog-entityblog-header-create": "Nouveau blogue",
+	"bs-socialblog-var-blogtitle": "Titre",
+	"bs-socialblog-entityblog-content-more-btn-more": "Plus",
+	"bs-socialblog-entityblog-content-more-btn-less": "Moins",
+	"bs-socialblog-toc-useblogteaser": "Utiliser l’extrait de texte pour les entrées de blogue de l’agenda",
+	"bs-socialblog-special-blog-heading": "Blogue",
+	"bs-socialblog-special-blog-heading-entry": "Blogue/$1",
+	"bs-social-notifications-blog-create": "L’{{GENDER:$1|utilisateur|utilisatrice}} $2 a créé un nouveau blogue « $3 »",
+	"bs-social-notifications-email-blog-create-subject": "L’{{GENDER:$1|utilisateur|utilisatrice}} $2 a créé un nouveau blogue « $3 »",
+	"bs-social-notifications-email-blog-create-body": "L’{{GENDER:$1|utilisateur|utilisatrice}} $2 a créé un nouveau blogue « $3 » avec le texte suivant :\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2}} a créé le nouveau blogue « $3 »",
+	"bs-social-notifications-blog-edit": "L’{{GENDER:$1|utilisateur|utilisatrice}} $2 a modifié le blogue « $3 »",
+	"bs-social-notifications-email-blog-edit-subject": "L’{{GENDER:$1|utilisateur|utilisatrice}} $2 a modifié le blogue « $3 »",
+	"bs-social-notifications-email-blog-edit-body": "L’{{GENDER:$1|utilisateur|utilisatrice}} $2 a modifié le blogue « $3 ». Le nouveau texte est :\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2}} a modifié le blogue « $3 »",
+	"bs-social-notifications-blog-delete": "{{GENDER:$1|L'utilisateur $2 a supprimé|L'utilisatrice $2 a supprimé}} le blogue « $3 »",
+	"bs-social-notifications-email-blog-delete-subject": "L’{{GENDER:$1|utilisateur|utilisatrice}} $2 a supprimé le blogue « $3 »",
+	"bs-social-notifications-email-blog-delete-body": "L’{{GENDER:$1|utilisateur|utilisatrice}} $2 a supprimé le blogue « $3 »",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 a supprimé}} le blogue « $3 »",
+	"bs-social-notification-blog-primary-link-label": "Afficher le blogue"
+}

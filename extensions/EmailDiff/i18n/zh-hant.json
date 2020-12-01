@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"emaildiff-desc": "允許寄送在通知電子郵件裡的文字差異內容",
+	"tog-emaildiff": "寄送變動的差別內容",
+	"emaildiff-newpage": "此為新頁面：\n\n$1",
+	"emaildiff-intro": "版本差異：\n$1"
+}

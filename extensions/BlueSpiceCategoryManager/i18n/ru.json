@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"DevilishSkull",
+			"Facenapalm",
+			"Kareyac",
+			"Mailman",
+			"Vlad5250"
+		]
+	},
+	"bluespicecategorymanager": "Менеджер категорий",
+	"bluespicecategorymanager-desc": "Инструмент для управления группами",
+	"action-categorymanager-viewspecialpage": "просмотр менеджера категорий",
+	"bs-categorymanager-draganddrop-text": "Переделывайте с помощью drag-and-drop",
+	"bs-categorymanager-label": "Менеджер категорий",
+	"bs-categorymanager-dlg-new-title": "Создать категорию",
+	"bs-categorymanager-dlg-new-prompt": "Пожалуйста, введите имя:",
+	"bs-categorymanager-removecategoryconfirm-text": "Вы уверены, что хотите удалить эту категорию?",
+	"bs-categorymanager-removecategoryconfirm-title": "Удалить категорию",
+	"bs-categorymanager-addcategory-dialog-error-title": "Не удалось создать категорию",
+	"bs-categorymanager-action-show-category": "Показать категорию",
+	"right-categorymanager-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Размещение категории",
+	"bs-categorymanager-collection-var-namespacename": "Пространство имён",
+	"bs-categorymanager-collection-var-categorizedpages": "Страницы с категориями",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Страницы без категорий"
+}

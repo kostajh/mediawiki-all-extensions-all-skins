@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"gae-desc": "Omogućuje poboljšanja wikijata što rade na GoogleAppEngine",
+	"apihelp-gaejobqueue-description": "Unutrašnji извршнички modul za rad JobQueue-a. Vanjska uporaba nije dozvoljena.",
+	"apihelp-gaejobqueue-summary": "Unutrašnji извршнички modul u redu poslova. Vanjska uporaba nije dozvoljena.",
+	"apihelp-gaejobqueue-param-namespace": "Numerička naznaka imenskog prostora",
+	"apihelp-gaejobqueue-param-titletext": "Tekst naslova bez imenski prostora.",
+	"apihelp-gaejobqueue-param-type": "Vrsta zadatka.",
+	"apihelp-gaejobqueue-param-params": "Parametri zadatka serijalizirani u PHP."
+}

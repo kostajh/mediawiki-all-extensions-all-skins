@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"form-desc": "Isang [[Special:Form|ugnayang-hangganan ng pormularyo]] upang makapagsimula ng bagong mga pahina",
+	"form": "Pormularyo",
+	"form-no-name": "Walang pangalan ng pormularyo",
+	"form-no-name-text": "Dapat kang magbigay ng isang pangalan ng pormularyo, katulad ng \"Special:Form/Pangalanngpormularyo\".",
+	"form-bad-name": "Masamang pangalan ng pormularyo",
+	"form-bad-name-text": "Walang pormularyong may ganyang pangalan.",
+	"form-pattern": "Pormularyong $1",
+	"form-save": "Sagipin",
+	"form-index-mismatch-title": "Maling pagtutugma ng kabuoan ng pangalan at suleras",
+	"form-index-mismatch": "Ang pormularyong ito ay mayroong hindi magkakatugmang mga kabuoan ng pangalan at mga suleras na nagsisimula sa paksaan/indeks na $1.",
+	"form-article-exists": "Umiiral na ang pahina",
+	"form-article-existstext": "Umiiral na ang pahinang [[$1]].",
+	"form-bad-page-name": "Masamang pangalan ng pahina",
+	"form-bad-page-name-text": "Ang ipinasok mong dato sa pormularyo ay gumagawa ng isang masamang pangalan ng pahina, \"$1\".",
+	"form-required-field-error": "Ang {{PLURAL:$2|hanay na $1 ay|mga hanay na $1 ay}} kailangan para sa pormularyong ito.\nPakipunuan {{PLURAL:$2|ito|sila}} ng laman.",
+	"form-save-summary": "Bagong pahinang gumagamit ng [[Special:Form/$1|pormularyong $1]]",
+	"form-save-error": "Kamalian sa pagsagip ng pormularyo",
+	"form-save-error-text": "Nagkaroon ng isang hindi nalalamang kamalian habang sinasagip ang pahinang '$1'."
+}

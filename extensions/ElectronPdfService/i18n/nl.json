@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hex",
+			"Mainframe98",
+			"Sjoerddebruin"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-special-page-headline": "Als PDF downloaden",
+	"electronpdfservice-download-label": "Als PDF downloaden",
+	"electronpdfservice-download-button": "Downloaden",
+	"electronpdfservice-sidebar-portlet-heading": "Afdrukken/exporteren",
+	"electronpdfservice-sidebar-portlet-print-text": "Als PDF downloaden",
+	"electronpdfservice-invalid-page-title": "Ongeldige pagina",
+	"electronpdfservice-invalid-page-text": "De opgegeven pagina is ongeldig."
+}

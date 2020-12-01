@@ -1,0 +1,22 @@
+/* Some of the padding is best dispatched with */
+#main,
+#top-wrap h1,
+#tagline,
+#nav,
+#footer-wrap-inner,
+.message {
+	width: 100%;
+	border: 0;
+}
+
+#bodyContent,
+.message *,
+#footer {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#bodyContent {
+	padding-top: 1em;
+	padding-bottom: 0em;
+}

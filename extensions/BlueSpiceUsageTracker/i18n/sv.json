@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Technic2",
+			"WikiPhoenix"
+		]
+	},
+	"prefs-usagetracker": "Användningsspårare",
+	"usagetracker": "Användningsspårare",
+	"bs-usagetracker-startjobs": "Uppdatera nu",
+	"bs-usagetracker-create-statistics": "Uppdatera användningsstatistik",
+	"bs-usagetracker-col-identifier": "Identifierare",
+	"bs-usagetracker-col-desc": "Beskrivning",
+	"bs-usagetracker-col-count": "Antal",
+	"bs-usagetracker-col-last-updated": "Senast uppdaterad",
+	"bs-usagetracker-base-collector-desc": "Antal sidor som använder $1",
+	"bs-usagetracker-tag-collector-desc": "Antal sidor som använder taggen <$1>",
+	"bs-usagetracker-db-collector-desc": "Antal $1",
+	"right-usagetracker-update": "Åtkomst för att köra uppdateringsprocessen igen som samlar in all spårad data på specialsidan [[Special:UsageTracker]]."
+}

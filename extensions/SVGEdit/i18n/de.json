@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Purodha"
+		]
+	},
+	"svgedit-editbutton-edit": "Datei bearbeiten",
+	"svgedit-summary-label": "Zusammenfassung",
+	"svgedit-summary-default": "/* Mit SVG-edit geändert */",
+	"svgedit-editor-save-close": "Speichern und schließen",
+	"svgedit-editor-close": "Abbrechen",
+	"svgedit-desc": "Ermöglicht das Bearbeiten einer SVG-Datei mit [http://code.google.com/p/svg-edit/ SVG-edit]",
+	"svgedit-edit-tab": "Zeichnung bearbeiten",
+	"svgedit-edit-tab-tooltip": "Diese SVG-Zeichnung kann im Browser bearbeitet werden",
+	"svgedit-toolbar-insert": "SVG-Zeichnung"
+}

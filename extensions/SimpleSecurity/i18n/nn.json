@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gunnernett",
+			"Harald Khan",
+			"Nghtwlkr",
+			"Njardarlogar"
+		]
+	},
+	"security": "Tryggingslogg",
+	"security-desc": "Utvidar MediaWiki sin funksjon for sidevern til å gje høve til å sperra mot innsyn i sideinnhald",
+	"security-logpage": "Tryggingslogg",
+	"security-logpagetext": "Dette er ein logg over handlingar som er blokkerte av [https://www.mediawiki.org/wiki/Extension:SimpleSecurity SimpleSecurity-utvidinga].",
+	"badaccess-read": "'''Åtvaring''': «$1» er synt til her, men du har ikkje turvande løyve til å få tilgjenge.",
+	"security-info": "Det finst $1 på denne sida",
+	"security-info-toggle": "tryggingsrelaterte avgrensingar",
+	"security-inforestrict": "$1 er avgrensa til $2",
+	"security-infosysops": "Ingen avgrensingar er verksame etter di du er ein medlem av administratorgruppa",
+	"security-manygroups": "gruppene $1 og $2",
+	"security-unchain": "Endra handlingar individuelt",
+	"security-type-category": "kategori",
+	"security-type-namespace": "namnerom",
+	"restriction-read": "Les"
+}

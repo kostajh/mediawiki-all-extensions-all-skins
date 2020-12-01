@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Qiyue2001"
+		]
+	},
+	"hsts-desc": "根据个人设置启用HSTS（HTTP 严格传输安全）",
+	"hsts-tog": "启用 HTTP 严格传输安全（HSTS）",
+	"hsts-https-tog": "启用HTTP严格访问机制（HSTS）<br />通过HTTPS重新加载此页面以更改此选项。",
+	"hsts-beta-feature-message": "总是使用安全链接",
+	"hsts-beta-feature-description": "这通过退出后保持您的安全访问加固您访问此网站的安全性，并确保在您浏览时没人可以暗中监视您。通过激活此选项并使用现有的支持此技术（HSTS）的浏览器，任何安全警报非常可能是对您的一次真正攻击。"
+}

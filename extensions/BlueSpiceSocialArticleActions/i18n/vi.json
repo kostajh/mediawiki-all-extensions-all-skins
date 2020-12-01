@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Awdsweq123"
+		]
+	},
+	"bs-socialarticleactions-type-filesave": "Chỉnh sửa tập tin",
+	"bs-socialarticleactions-type-filecreate": "Tạo tài liệu",
+	"bs-socialarticleactions-type-filedelete": "Xóa tập tin",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] đã thêm phiên bảo tài liệu mới [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] đã tải lên tập tin [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] Đã xóa tài liệu [[:$6|$6]]"
+}

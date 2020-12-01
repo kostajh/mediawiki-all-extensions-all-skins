@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"form-desc": "[[Special:Form|Sučelje]] za započinjanje novih stranica",
+	"form": "Započni novu stranicu",
+	"form-captcha-error": "Greška u sličici za provjeru",
+	"form-pick-form": "Izaberite koju stranicu želite izraditi putem obrascota.",
+	"form-no-name": "Nema imena obrasca",
+	"form-no-name-text": "Morate navesti ime obrasca, poput \"Special:Form/ИмеНаОбразец\"",
+	"form-bad-name": "Loše ime obrasca",
+	"form-bad-name-text": "Ne postoji obrazac s tim imenom.",
+	"form-pattern": "$1-obrazac",
+	"form-title-pattern": "Dodaj novu $1",
+	"form-save": "Sačuvaj",
+	"form-index-mismatch-title": "Neodgovorno ime i šablon",
+	"form-index-mismatch": "Ovaj obrazac ima neodgovorna imena i šablona u poziciji $1.",
+	"form-article-exists": "Stranica postoji",
+	"form-article-existstext": "Stranica [[$1]] već postoji.",
+	"form-bad-page-name": "Loše ime stranice",
+	"form-bad-page-name-text": "Podaci iz obrasca koje ste unijeli su napravili pogrešni naziv stranice, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|Polje $1 je neophodno u ovom obrascu|Polja $1 su neophodna u ovom obrascu}}.\nMolimo popunite {{PLURAL:$2|ga|ih}}.",
+	"form-save-summary": "Nova stranica, koristeći [[Special:Form/$1|obrazac $1]]",
+	"form-save-error": "Greška pri spremanju obrasca",
+	"form-save-error-text": "Desila se nepoznata greška pri spremanju stranice '$1'."
+}

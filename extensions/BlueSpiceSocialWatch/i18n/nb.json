@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-socialwatch-desc": "Overvåkningsfunksjonalitet for BlueSpiceSocial-entiteter",
+	"bs-socialwatch-watchtext": "Overvåk",
+	"bs-socialwatch-unwatchtext": "Avslutt overvåkning",
+	"bs-socialwatch-var-watch": "Overvåk",
+	"apihelp-bs-socialwatch-tasks-summary": "Tilbyr oppgaver for å redigere overvåkningsstatusen til entiteter"
+}

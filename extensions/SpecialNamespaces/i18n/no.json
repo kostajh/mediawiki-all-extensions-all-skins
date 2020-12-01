@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"namespaces": "Vis og manipuler namespaces",
+	"namespaces-title-norights": "Vis namespaces",
+	"namespaces-desc": "Legger til en [[Special:Namespaces|spesialside]] som gjør at man kan se og redigere namespaces.",
+	"namespaces_intro": "Dette er en oversikt over namespaces. Betydningene til dataene i kolonnene:",
+	"namespaces_1": "ja",
+	"namespaces_0": "nei",
+	"namespaces_error": "Namespacestabellen er tom.",
+	"namespaces_reasonfield": "Årsak",
+	"namespaces_defaultreason": "ingen grunn gitt",
+	"namespaces_delquestion": "Sletter «$1»",
+	"namespaces_deleting": "Du sletter prefikset «$1».",
+	"namespaces_deleted": "Prefikset «$1» ble fjernet fra namespaces.",
+	"namespaces_delfailed": "Prefikset «$1» kunne ikke fjernes fra namespaces.",
+	"namespaces_addtext": "Legg til et namespace.",
+	"namespaces_addintro": "Du legger til et nytt namespace.",
+	"namespaces_addbutton": "Legg til",
+	"namespaces_added": "Prefikset «$1» ble lagt til i namespaces.",
+	"namespaces_addfailed": "Prefikset «$1» kunne ikke legges til i namespacestabellen. Det er kanskje brukt der fra før.",
+	"namespaces_edittext": "Redigerer et namespacesprefiks",
+	"namespaces_editintro": "Du redigerer et namespacesprefiks. Merk at dette kan ødelegge eksisterende lenker.",
+	"namespaces_edited": "Prefikset «$1» ble endret i namespacestabellen.",
+	"namespaces_editerror": "Prefikset «$1» kan ikke endres i namespaces.",
+	"namespaces_logpagename": "Namespacestabellogg",
+	"namespaces_log_added": "La til «$2» ($3) (canonical: $4) (default: $5) til namespaces",
+	"namespaces_log_edited": "endret prefikset «$2»: ($3) (canonical: $4) (default: $5) i namespaces",
+	"namespaces_log_deleted": "Fjernet prefikset «$2» fra namespaces",
+	"namespaces_logpagetext": "Dette er en logg over endringer i [[Special:Namespaces|namespaces]].",
+	"right-namespaces": "Redigere namespacesdata"
+}

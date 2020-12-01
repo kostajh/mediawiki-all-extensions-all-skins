@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226",
+			"Mark85296341"
+		]
+	},
+	"multiupload": "上傳多個檔案",
+	"multiupload-desc": "[[Special:MultiUpload|可一次上傳多個檔案的特殊頁面]]",
+	"multiupload-text": "使用下列表單來上傳多個檔案。\n要檢視或搜尋先前所上傳檔案，請至[[Special:FileList|已上傳檔案清單]]。其中（重新）上傳內容會被記錄在[[Special:Log/upload|上傳日誌]]裡，刪除的檔案則是在[[Special:Log/delete|刪除日誌]]。\n\n要在頁面裡包含檔案，請使用以下連結形式之一：\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.jpg]]</nowiki></code></strong> 以檔案完整大小呈現\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.png|200px|thumb|left|alt text]]</nowiki></code></strong> 會放置在左側邊以 200 像素寬度大小的方框呈現，其中替代文字（alt text）一項是用來填入有關檔案的描述\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:File.ogg]]</nowiki></code></strong> 直接連結檔案，但不展示播放檔案內容。\n\n一旦您選擇了檔案，此頁面將會擴展開，這能讓您在上傳前選擇更多的檔案。\n\n要解壓縮 <code>.zip</code>、<code>.tar</code>、<code>.tar.gz</code>，或是 <code>.tgz</code> 檔案以及上傳有包含這些項目的檔案，請選擇封裝包檔案，然後使用所跳出的「{{int:multiupload-unpack-button}}」按鍵。",
+	"multipleupload": "上傳檔案",
+	"multipleupload-toolbox": "上傳多個檔案",
+	"multiupload-submit": "上傳檔案",
+	"multiupload-uploadedto": "已上傳檔案 $1。",
+	"multiupload-row": "檔案 $1",
+	"multiupload-unpack-button": "解壓縮",
+	"multiupload-notify-ok": "確定",
+	"multiupload-upload-package-error": "解壓縮封裝包檔案出錯",
+	"multiupload-unpack-error": "解壓縮封裝包檔案出錯",
+	"multiupload-unreadable-package": "無法讀取檔案 $1",
+	"multiupload-http-error": "無法連接至伺服器。",
+	"multiupload-file-unpacked-from": "來自封裝包 <b>$2</b> 的檔案 <b>$1</b>",
+	"apihelp-multiupload-unpack-description": "在匯入內容前，請先解壓縮 ZIP 或 tar 檔。",
+	"apihelp-multiupload-unpack-summary": "在匯入內容前，請先解壓縮 ZIP 或 tar 檔。",
+	"apihelp-multiupload-unpack-param-key": "當上傳封裝包檔案至暫存時可取得「filekey」",
+	"apihelp-multiupload-unpack-param-filename": "封裝包檔案名稱"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ciencia Al Poder",
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"page-creation-notif-desc": "Envía una notificación por correo electrónico cuando se crean páginas nuevas",
+	"page-creation-notification": "Enviarme un mensaje cuando se cree una página nueva",
+	"page-creation-email-subject": "Página nueva: $1 creada el $2 por $3",
+	"page-creation-email-body": "Hola, $1:\n\nesta es una notificación de {{SITENAME}} de que una página nueva, $2, fue creada por el usuario $3.\n\nPuedes verla en\n$4\n\nEl texto de la página es:\n$5\n\nEl sistema de notificación de {{SITENAME}}.\n\nPara cambiar tu configuración de notificación por correo electrónico, visita\n{{canonicalurl:{{#special:Preferences}}}}"
+}

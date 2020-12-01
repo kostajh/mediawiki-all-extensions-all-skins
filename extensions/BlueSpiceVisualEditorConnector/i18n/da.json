@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"bs-visualeditorconnector-upload-type-simple": "Simpel",
+	"bs-visualeditorconnector-cancel-edit": "Fortryd redigering. Ikke gemte ændringer vil blive kasseret",
+	"bs-visualeditor-nsm-label": "Visuel redigering",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Almindelig",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Avanceret",
+	"bs-visualeditorconnector-text-style-tool-color-label": "Tekstfarve",
+	"bs-vec-table-inspector-column": "Kolonne",
+	"bs-vec-table-inspector-row": "Række",
+	"bs-vec-table-inspector-cell": "Celle",
+	"bs-vec-dialog-table-create-number-of-rows": "Antal rækker",
+	"bs-vec-dialog-table-create-number-of-columns": "Antal kolonner",
+	"bs-vec-dialog-action-done": "Udført",
+	"bs-vec-dialog-action-safe": "Annullér",
+	"bs-vec-dialog-create-table-title": "Indsæt tabel",
+	"bs-vec-dialog-media-change-file": "Ændre fil",
+	"bs-visualeditor-linkcontext-label-change": "Ændre etiket",
+	"bs-visualeditor-linkcontext-label-label": "Etiket",
+	"bs-vec-table-style-cell-text-vert-align-bottom": "Bund",
+	"bs-vec-table-style-cell-text-vert-align-middle": "Midt",
+	"bs-vec-table-style-cell-text-hor-align-left": "Venstre",
+	"bs-vec-table-style-cell-text-hor-align-right": "Højre",
+	"bs-vec-table-border-none": "Ingen",
+	"bs-vec-table-border-left": "Venstre",
+	"bs-vec-table-border-right": "Højre",
+	"bs-vec-table-border-bottom": "Bund",
+	"bs-vec-table-border-all": "Alle"
+}

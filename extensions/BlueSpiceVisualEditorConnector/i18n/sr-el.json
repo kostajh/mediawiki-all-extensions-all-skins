@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-visualeditorconnector-desc": "Povezuje Parsoid sa Vizelnim uređivačem",
+	"bs-visualeditorconnector-enable-visualeditor": "Omogući vizuelni uređivač za dodatke BlueSpice-a",
+	"bs-visualeditorconnector-cancel-edit": "Otkaži uređivanje",
+	"bs-visualeditor-nsm-label": "Vizuelni uređivač",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Opšte",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Napredno",
+	"bs-vec-table-inspector-row": "Red",
+	"bs-vec-contextitem-table-additional-options": "Dodatne opcije",
+	"bs-vec-dialog-table-create-number-of-rows": "Broj redova"
+}

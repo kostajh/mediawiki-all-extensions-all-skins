@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"logofunctions-desc": "{{desc|name=Logo Functions|url=https://www.mediawiki.org/wiki/Extension:LogoFunctions}}",
+	"logofunctions-filenotexist": "Used as error message. Parameters:\n* $1 - filename of the logo"
+}

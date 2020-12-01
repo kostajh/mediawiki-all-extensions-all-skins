@@ -1,0 +1,960 @@
+/*
+Theme Name: Bouquet
+Theme URI: http://wordpress.org/extend/themes/bouquet
+Author: Automattic
+Author URI: http://automattic.com/
+Description: Bouquet is an elegant, simple theme inspired by the beauty found in flowers. Notable features include two floral schemes, a responsive layout structure that adapts to smaller devices, a right sidebar, a full-width template, support for post formats, custom background, and custom header.
+Version: 1.2.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue, orange, pink, white, light, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-menu, full-width-template, post-formats, rtl-language-support, translation-ready
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+:focus {/* Remember to define focus styles! */
+	outline: 0;
+}
+body {
+	background: #fff;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {/* Tables still need 'cellspacing="0"' in the markup. */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before,
+blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+
+/* =Clear
+-------------------------------------------------------------- */
+
+.clear {
+	clear:both;
+	display:block;
+}
+.clear-fix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+/* =Structure
+-------------------------------------------------------------- */
+
+#page {
+	display: block;
+	margin: .9em auto;
+	max-width: 1100px;
+	padding: 0 20px;
+}
+#main {
+	margin: 0.9em auto;
+	max-width: 1100px;
+}
+#primary {
+	float: left;
+	margin: 0 -29.2434% 0 0;
+	width: 100%;
+}
+#secondary-wrapper {
+	float: right;
+	width: 29.2434%;
+}
+#content,
+#secondary-wrapper {
+	box-shadow:
+		5px 5px 5px -5px rgba(0, 0, 0, 0.5),
+		-5px 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+#content-wrapper {
+	clear: both;
+	 margin: 0 30.4% 0 0;
+}
+#content {
+	background: #ffebf2;
+	border-top-width: 0;
+}
+#content,
+#main .widget-area {
+	border: 5px solid #fff;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	padding: 1em;
+}
+#main .widget-area {
+	background: #ffd8e8;
+	padding-top: 2em;
+}
+#colophon {
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text,
+.assistive-text {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* =Global
+-------------------------------------------------------------- */
+
+body,
+input,
+textarea {
+	color: #333;
+	font: 300 13px/* /1.625*/ Verdana, sans-serif; /* ashley was here! */
+	font-weight: normal;
+}
+body {
+	/* @embed */
+	background: url(images/body-bg.png) #891e42;
+	background-attachment: fixed;
+	direction: ltr; /* Needed for RTL flipping */
+	unicode-bidi: embed;
+}
+
+
+/* =Forms
+-------------------------------------------------------------- */
+
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+	background: #fafafa;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+	border: 1px solid #e7d9b9;
+	border-radius: 3px;
+	color: #777;
+	margin-bottom: 0.5em;
+	padding: 0.3em;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+	color: #4a4a49;
+}
+textarea {
+	width: 98%;
+}
+.searchform label {
+	display: none;
+}
+/* ashley: changed #s -> #searchInput for the below two rules */
+input#searchInput, input#searchInputTop {
+	/* @embed */
+	background: #e9cbd3 url(images/search-bg.png) no-repeat scroll 10px 8px;
+	border: 1px solid #c0758b;
+	border-radius: 15px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+	color: #c0758b;
+	line-height: 1.2em;
+	padding: 0.5em 0 0.5em 2em;
+	width: 77%;
+}
+#primary input#searchInput, #primary input#searchInputTop {
+	/* @embed */
+	background: #fafafa url("images/search-bg.png") no-repeat scroll 10px 8px;
+	border: 1px solid #e7d9b9;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+input#searchsubmit {
+	display: none;
+}
+/* Links */
+a {
+	color: #bb5974;
+	text-decoration: none;
+}
+a:focus,
+a:active,
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* =Header
+-------------------------------------------------------------- */
+
+#branding {
+	background-color: #fff;
+	background-repeat: no-repeat;
+	/*background: url(images/pink-header.png) no-repeat #fff;*/
+	border-radius: 4px;
+	box-shadow:
+		5px 5px 5px -5px rgba(0, 0, 0, 0.5),
+		-5px 0 5px -5px rgba(0, 0, 0, 0.5);
+	min-height: 180px;
+	margin: .9em 0;
+}
+#branding hgroup {
+	padding: 3em 0 0 0.5em;
+}
+#branding .header-link {
+	display: table-cell;
+	position: absolute;
+	width: 80%;
+	min-height: 180px;
+}
+#site-title {
+	font: 50px "Sorts Mill Goudy", "Times New Roman", serif;
+	margin-bottom: .2em;
+	text-transform: uppercase;
+}
+#site-title a,
+#site-title a:hover {
+	color: #891e42;
+	margin: 0 0 0 -0.4em;
+	padding: 0 0.7em;
+	text-decoration: none;
+}
+#site-title a {
+	background: rgba(255, 255, 255, 0.6);
+	display: inline-block;
+	position: relative;
+	/*z-index: 9999;*/ /* ashley: uhh yeah, maybe not */
+}
+#site-title a:hover {
+	background: rgba(255, 255, 255, 0.8);
+	-webkit-transition: background 0.2s linear;
+	-moz-transition:    background 0.2s linear;
+	-o-transition:      background 0.2s linear;
+}
+#site-description {
+	color: #b14562;
+	font: 13px "Sorts Mill Goudy", serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 .8em 1.9em;
+	text-transform: uppercase;
+}
+
+
+/* =Menu and Search Area
+-------------------------------------------------------------- */
+
+#access {
+	background: #b14562;
+	box-shadow: 5px -5px 5px -5px rgba(0, 0, 0, 0.5);
+	display: block;
+	float: left;
+	margin: 0 auto;
+	width: 69.6%;
+}
+.menu {
+	margin-left: 1em;
+}
+#access ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+#access li {
+	float: left;
+	position: relative;
+}
+#access a {
+	color: #fff4f9;
+	display: block;
+	font-size: 13px;
+	line-height: 2em;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+#access a:hover {
+	background: #90364e;
+	color: #ffcce3;
+	-webkit-transition: background 0.2s linear;
+	-moz-transition:    background 0.2s linear;
+	-o-transition:      background 0.2s linear;
+}
+#access ul ul {
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+	-moz-box-shadow:    0 3px 3px rgba(0,0,0,0.2);
+	box-shadow:         0 3px 3px rgba(0,0,0,0.2);
+	display: none;
+	float: left;
+	position: absolute;
+	top: 2.5em;
+	left: 0;
+	z-index: 99999;
+}
+#access ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access ul ul a {
+	background: #90364e;
+	color: #fff4f9;
+	line-height: 1.5em;
+	padding: .5em .5em .5em 1em;
+	width: 11em;
+	height: auto;
+}
+#access li:hover > a,
+#access ul ul :hover > a {
+	background: #90364e;
+	color: #ffcce3;
+}
+#access ul ul a:hover {
+	background: #90364e;
+	color: #ffcce3;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+#search-area {
+	background: #cf8c9e;
+	margin: 0 auto;
+	padding: 0.2em 1em;
+	text-align: center;
+}
+#access,
+#search-area {
+	border-radius: 4px 4px 0 0;
+}
+
+/* Small menu */
+.menu-toggle {
+	display: none;
+	color: #fff;
+	cursor: pointer;
+	font: 20px/2 'Sorts Mill Goudy',serif;
+	padding: 1em 1em 0.8em;
+	text-align: center;
+}
+
+.main-small-navigation ul {
+	display: none;
+}
+
+/* =Content
+-------------------------------------------------------------- */
+
+#content article {
+	/* @embed */
+	background: transparent url(images/post-ornament.png) no-repeat center bottom;
+	margin: 0 0 3em;
+	padding: 1.5em .6em 4em;
+	position: relative;
+}
+.archive-title {
+	color: #3b4a26;
+	font: 300 13px/13px 'Sorts Mill Goudy', serif;
+	padding: 1.5em .6em 0.6em;
+	text-shadow: 1px 1px 0 #fff;
+	text-transform: uppercase;
+}
+.entry-header,
+.entry-header .entry-meta {
+	padding: 0.6em 0;
+}
+.entry-title {
+	font: 33px/41px 'Sorts Mill Goudy', serif;
+	margin-bottom: 0.3em;
+	text-shadow: 1px 1px 0 rgba(255,255,255,1);
+	word-wrap: break-word;
+}
+.entry-title a {
+	color: #a23855;
+}
+.entry-title a:hover {
+	color: #891e42;
+	text-decoration: none;
+}
+.entry-date {
+	background: #f8e3ea;
+	border: 5px solid #fff;
+	border-right-width: 0;
+	border-radius: 10px 0 0 10px;
+	padding: .2em 0;
+	position: absolute;
+	left: -5.2em;
+	line-height: 3.1em;
+	text-align: center;
+	top: 1em;
+	height: 55px;
+	width: 50px;
+}
+.entry-date a {
+	color: #63724b;
+	display: block;
+	font-family: 'Sorts Mill Goudy', 'Times New Roman', serif;
+	margin-top: -6px;
+}
+.entry-date a:hover {
+	text-decoration: none;
+}
+.entry-date b {
+	display: block;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 0;
+}
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+	clear: both;
+	font-family: 'Sorts Mill Goudy', Georgia, 'Times New Roman', serif;
+	margin-bottom: 0.4em;
+}
+.entry-content h1 {
+	font-size: 24px;
+}
+.entry-content h2 {
+	font-size: 22px;
+}
+.entry-content h3 {
+	font-size: 18px;
+}
+.entry-content h4 {
+	font-size: 16px;
+}
+.entry-content h5 {
+	font-size: 14px;
+}
+.entry-content h6 {
+	font-size: 12px;
+}
+.entry-content p,
+.entry-content ul,
+.entry-content ol,
+.entry-content dd,
+.entry-content pre,
+.entry-content address {
+	margin-bottom: 15px;
+}
+.entry-content ul ul,
+.entry-content ol ol,
+.entry-content ul ol,
+.entry-content ol ul  {
+	margin-bottom: 0;
+}
+.entry-content ul {
+	list-style: disc;
+	margin-left: 16px;
+}
+.entry-content ol {
+	list-style: decimal;
+	margin-left: 32px;
+}
+
+.entry-content ol ol {
+	list-style: upper-alpha;
+}
+.entry-content ol ol ol {
+	list-style: lower-roman;
+}
+.entry-content ol ol ol ol {
+	list-style: lower-alpha;
+}
+.entry-content dt {
+	font-weight: bold;
+}
+.entry-content strong {
+	font-weight: bold;
+}
+.entry-content cite,
+.entry-content em,
+.entry-content i,
+.entry-content .quote-caption {
+	font-style: italic;
+}
+.entry-content blockquote cite,
+.entry-content blockquote em,
+.entry-content blockquote i {
+	font-style: normal;
+	background-repeat: repeat-y;
+}
+.quote-caption {
+	text-align: right;
+}
+.entry-content big {
+	font-size: 131.25%;
+}
+.entry-content ins {
+	background: #f0d4db;
+	text-decoration: none;
+}
+.entry-content abbr,
+.entry acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+.entry-content sup,
+.entry-content sub {
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+}
+.entry-content sup {
+	bottom: 1ex;
+}
+.entry-content sub {
+	top: .5ex;
+}
+.entry-content p a[href$=jpg],
+.entry-content p a[href$=jpeg],
+.entry-content p a[href$=jpe],
+.entry-content p a[href$=png],
+.entry-content p a[href$=gif],
+.entry-content p a[href*=attachment],
+.entry-content p a[rel*=attachment] {
+	border-bottom: 0 none;
+}
+.entry-content table {
+	border: 1px solid #c8acb6;
+	margin: 0 -1px 25px 0;
+	text-align: left;
+	width: 100%;
+}
+.entry-content tr th,
+.entry-content thead th {
+	font-weight: bold;
+	line-height: 21px;
+	padding: 6px 15px;
+}
+.entry-content tr td {
+	border-top: 1px solid #c8acb6;
+	padding: 6px 15px;
+}
+.entry-content tr.odd td {
+	background: #f0d4db;
+}
+.entry-content blockquote,
+.entry-content blockquote[class*="align"],
+.comment-content blockquote {
+	font-style: italic;
+	line-height: 1.5;
+	margin-left: 15px;
+	padding-left: 10px;
+}
+.entry-content pre {
+	background: #f0d4db;
+	font: 13px Monaco, Courier New, Courier, monospace;
+	line-height: 1.5;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+.entry-content sup,
+.entry-content sub {
+	font-size: 10px;
+}
+.entry-content hr {
+	background-color: #f0d4db;
+	border: 0;
+	height: 1px;
+	margin: 0 0 13px 0;
+}
+#content nav {
+	display: block;
+	overflow: hidden;
+}
+#content nav .nav-previous {
+	float: left;
+	width: 50%;
+}
+#content nav .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+#content nav .nav-previous a,
+#content nav .nav-next a {
+	background: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 1em;
+	position: relative;
+	bottom: 0;
+}
+#nav-below {
+	margin: 1em 0 0;
+	position: relative;
+	top: 1em;
+}
+.single #nav-below {
+	top: 0;
+}
+.single #content nav .nav-previous a,
+.single #content nav .nav-next a {
+	background: none;
+	padding: 0;
+}
+.page-link {
+	clear: both;
+	margin: 0 0 1em;
+}
+
+/* =Images
+-------------------------------------------------------------- */
+
+a img {
+	border: none;
+}
+p img {
+	margin-bottom: 0.5em; /* A small bottom margin prevents content floating under images. */
+}
+
+.widget-area img {
+	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
+	height: auto; /* Override height to match resized width for correct aspect ratio. */
+}
+/* ashley: commented out, looks stupid
+.entry-content img,
+.post-format-content img {
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+*/
+.entry-content embed {
+	max-width: 100%;
+}
+
+/* =Forms
+-------------------------------------------------------------- */
+
+.searchform label {
+	display: none;
+}
+.searchform input#searchInput, .searchform input#searchInputTop {
+	width: 90%;
+}
+input[type=text],
+input[type=email],
+input#searchInput,
+input#searchInputTop {
+	margin: 0.3em 1em 0.3em 0;
+	width: 60%;
+}
+textarea {
+	width: 80%;
+}
+
+/* Class for labelling required form items. */
+.required {
+	color: #cc0033;
+}
+
+/* =Widgets
+-------------------------------------------------------------- */
+
+.widget {
+	display: block;
+	font-size: 11px;
+	margin: 1.7em 0;
+	padding-bottom: 2em;
+	word-wrap: break-word;
+}
+.widget-title,
+.widget-title a {
+	color: #3b4a26;
+	font: bold 13px/13px 'Sorts Mill Goudy', serif;
+	margin-bottom: 1em;
+	text-shadow: 1px 0px 0px #fff;
+	text-transform: uppercase;
+}
+.widget ul {
+	list-style: none;
+	margin: 0;
+}
+.widget ul li {
+	border-bottom: 1px solid #e9c2d2;
+	padding: 0.5em 0;
+}
+.widget-area .widget_search {
+	overflow: hidden;
+}
+.widget-area .widget_search input {
+	float: left;
+}
+.widget-area .widget_search input#searchInput,
+.widget-area .widget_search input#searchInputTop {
+	border: 0;
+	float: left;
+}
+
+/* Cloud Widgets */
+.widget_tag_cloud div {
+	line-height: 1.5;
+	padding: 3px 0;
+}
+
+/* Menu & Categories Widgets (With Sub-Items) */
+.widget-area .sub-menu,
+.widget-area .children {
+	margin-left:  1.5em;
+}
+.widget-area .sub-menu li,
+.widget-area .children li {
+	border-width:  0;
+}
+
+/* Blogroll */
+.widget-area .blogroll li {
+	font-style: italic;
+	text-shadow: none;
+}
+.widget-area .blogroll li a {
+	font-style: normal;
+}
+
+/* =Footer
+-------------------------------------------------------------- */
+
+#colophon {
+	font-size: 11px;
+	line-height: 2;
+	padding-top: 127px;
+}
+#site-generator-wrapper {
+	background: rgba(255, 216, 232, 0.1);
+	width: 100%;
+}
+#site-generator {
+	color: #ffd8e8;
+	margin: 0 6em;
+	padding: 1em 0;
+	text-align: center; /* ashley */
+}
+#site-generator a {
+	color: #fa87a1;
+}
+
+/** ashley's additions for MediaWiki */
+/* @see http://wordpress.org/support/topic/w3c-validation-fails-on-hgroup */
+header#branding span {
+	border: 0;
+	display: block;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0.8em 0 0 0.5em;
+	vertical-align: baseline;
+}
+
+/* more of the same... */
+#site-title a, #site-title a:hover {
+	padding-left: 0.3em;
+}
+
+/* Make the site name in the header white instead of black, which is the default for the h1 element */
+header#branding h1 {
+	color: #FFF;
+}
+
+/* Hide [[MediaWiki:Tagline]] by default */
+h2#site-description {
+	display: none;
+}
+
+/* Bump the search buttons down a tad bit */
+.searchButton {
+	margin-top: 5px;
+}
+
+/* Make sure that the Go button doesn't touch the Search button */
+#searchGoButton {
+	margin-right: 5px;
+}
+
+/* Footer icons' positioning */
+footer#colophon #f-copyrightico {
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+footer#colophon #f-poweredbyico {
+	float: right;
+	padding-right: 5px;
+}
+
+/* Custom tweak specific to this skin */
+div#preferences table.mw-htmlform-nolabel {
+	border: none;
+	margin: 0;
+}
+
+/* noarticletext */
+div.noarticletext {
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: .2em 1em;
+	color: #000;
+}
+
+div.noarticletext p {
+	margin: 5px;
+}
+
+/* Diffs */
+table.diff {
+	background-color: transparent;
+}
+
+/** CSS fixes for social tools -- verbatim copypasta from /skins/Dusk/resources/css/main.css */
+/* Special:GiveGift */
+div.g-give-container {
+	width: auto;
+}
+
+/* Don't let SocialProfile's CSS files mess up the skin's logo image */
+header.clearfix {
+	display: block !important;
+}
+
+div#content .clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+div#content .clearfix {
+	display: inline-block;
+}
+
+/** Comments */
+div#allcomments .full,
+div#allcomments .reply {
+	width: auto;
+}
+
+textarea#comment {
+	width: 100% !important;
+}
+
+div.c-item {
+	padding-bottom: 0px;
+}
+
+/** FanBoxes */
+/* Special:UserBoxes */
+td#fanBoxLeftSideContainer, td#fanBoxRightSideContainer {
+	padding: 0;
+}
+
+td#fanBoxLeftSideContainer table, td#fanBoxRightSideContainer table {
+	border: none;
+	padding: 0;
+}
+
+/* Special:TopUserboxes */
+div.top-fanbox-users tr td {
+	border: none;
+	padding: 0;
+}
+
+/* "Add this box to/Remove this box from your user page?" prompts */
+div.fanbox-pop-up-box table,
+div.fanbox-pop-up-box table tr td {
+	border: none;
+	margin: 0;
+}
+
+div.fanbox-pop-up-box table tr td {
+	text-align: center;
+}
+
+/** PollNY */
+div.create-poll-top {
+	width: auto;
+}
+
+/** SportsTeams/UserStatus */
+span.top-fan-num, /* Special:TopUsers (a part of core SocialProfile) */
+span.network-number, /* Special:TopNetworks */
+div.view-poll-number /* Special:ViewPoll */ {
+	color: #000;
+}
+
+/* Special:FanHome */
+div.fan-top-right {
+	width: auto;
+}
+
+/* Special:TopNetworks */
+div.top-networks {
+	width: 550px;
+}
+
+div.top-networks-navigation {
+	width: 150px;
+}
+
+/* Special:UpdateFavoriteTeams */
+p.profile-update-unit {
+	width: auto;
+}
+
+/* Special:UpdateFavoriteTeams & Special:UpdateProfile */
+div.profile-tab {
+	margin-bottom: 5px;
+}

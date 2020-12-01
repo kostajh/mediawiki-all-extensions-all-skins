@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"googleanalyticstoppages-desc": "Gir en toppsideliste med bruk av data fra Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Verdien til [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Oppdaterer listen over toppsider (støttes av data fra Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Oppdaterer listen over toppsider (drives av data fra Google Analytics)."
+}

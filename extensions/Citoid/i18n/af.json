@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fwolff",
+			"Naudefj",
+			"Neil P. Quinn"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Voeg in",
+	"citoid-citoiddialog-back": "Terug",
+	"citoid-citoiddialog-credit": "Aangedryf deur $1",
+	"citoid-citoiddialog-lookup-button": "Maak",
+	"citoid-citoiddialog-mode-auto": "Outomaties",
+	"citoid-citoiddialog-mode-manual": "Handmatig",
+	"citoid-citoiddialog-mode-reuse": "Hergebruik",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, titel, of aanhaling",
+	"citoid-citoiddialog-search-placeholder": "bv. http://www.example.com",
+	"citoid-citoidtool-title": "Haal aan",
+	"citoid-citoidtool-title-othergroup": "Aanhaling",
+	"citoid-desc": "Verskaf toegangspunte tussen die \"citoid\"-diens en MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Skakel om"
+}

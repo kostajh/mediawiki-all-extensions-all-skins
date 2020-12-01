@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Yusuke1109"
+		]
+	},
+	"changeuserpasswords": "利用者のパスワードの変更",
+	"changeuserpassword-pagename": "利用者のパスワードを変更",
+	"changeuserpassword-topheader": "パスワードを変更する利用者名を選択してください。既定ではすべての利用者が選択されています。パスワードを変更しない利用者名の選択を解除してください。",
+	"changeuserpassword-success": "利用者のパスワードを変更しました!",
+	"changeuserpassword-title": "利用者のパスワードを変更",
+	"action-changeuserpasswords": "利用者のパスワードの変更",
+	"right-changeuserpasswords": "利用者のパスワードを変更"
+}

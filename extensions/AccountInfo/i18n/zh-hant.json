@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"EagerLin",
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226"
+		]
+	},
+	"accountinfo": "帳號資訊",
+	"accountinfo-desc": "允許使用者檢視自己的私人資訊",
+	"accountinfo-ts": "日期時間",
+	"accountinfo-ip": "IP 位址",
+	"accountinfo-ua": "使用者代理",
+	"accountinfo-xff": "XFF 標頭",
+	"accountinfo-length": "資訊已保留 $1。",
+	"accountinfo-now": "現在"
+}

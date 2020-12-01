@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"multiupload": "Prześlij wiele plików",
+	"multiupload-desc": "[[Special:MultiUpload|Strona specjalna do przesyłania wielu plików za jednym razem]]",
+	"multiupload-text": "Użyj poniższego formularza do przesłania wielu plików.\nJeśli chcesz przejrzeć lub przeszukać dotychczas przesłane pliki, przejdź do [[Special:FileList|listy plików]]. Każde przesłanie zostaje odnotowane w [[Special:Log/upload|rejestrze przesyłanych plików]], a usunięcie w [[Special:Log/delete|rejestrze usuniętych]].\n\nPlik pojawi się na stronie, jeśli użyjesz linku według jednego z następujących wzorów:\n* '''<code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Plik.jpg]]</nowiki></code>''' pokaże plik w pełnej postaci\n* '''<code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Plik.png|200px|thumb|left|podpis grafiki]]</nowiki></code>''' pokaże szeroką na 200 pikseli miniaturkę umieszczoną przy lewym marginesie, otoczoną ramką, z podpisem „podpis grafiki”\n* '''<code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:Plik.ogg]]</nowiki></code>''' utworzy bezpośredni link do pliku bez wyświetlania samego pliku\n\nGdy wybierzesz plik, ta strona zostanie rozszerzona, pozwalając ci wybrać więcej plików do przesłania.\n\nAby rozpakować plik <code>.zip</code>, <code>.tar</code>, <code>.tar.gz</code>, lub <code>.tgz</code> i przesłać pliki które są w nich zawarte należy wybrać plik pakietu i kliknąć pojawiający się wówczas przycisk „{{int:multiupload-unpack-button}}”.",
+	"multipleupload": "Prześlij pliki",
+	"multipleupload-toolbox": "‎Prześlij wiele plików",
+	"multiupload-submit": "Prześlij pliki",
+	"multiupload-uploadedto": "Przesłany plik $1.",
+	"multiupload-row": "Plik $1",
+	"multiupload-unpack-button": "Rozpakuj",
+	"multiupload-notify-ok": "OK",
+	"multiupload-upload-package-error": "Podczas przesyłania pliku pakietu wystąpił błąd",
+	"multiupload-unpack-error": "Podczas rozpakowywania pliku pakietu wystąpił błąd",
+	"multiupload-unreadable-package": "Nie można odczytać pliku $1",
+	"multiupload-http-error": "Nie można połączyć się z serwerem.",
+	"multiupload-file-unpacked-from": "Plik <b>$1</b> z pakietu <b>$2</b>",
+	"apihelp-multiupload-unpack-description": "Rozpakuj plik ZIP lub tar przed importowaniem jego zawartości.",
+	"apihelp-multiupload-unpack-summary": "Rozpakuj plik ZIP lub tar przed importowaniem jego zawartości."
+}

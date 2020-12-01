@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gunnernett",
+			"Harald Khan",
+			"Jon Harald Søby",
+			"Njardarlogar"
+		]
+	},
+	"duplicator": "Kopier ei side",
+	"duplicator-desc": "Opprett sjølvstendige [[Special:Duplicate|kopiar av sider]] med full endringshistorikk",
+	"duplicator-toolbox": "Kopier denne sida",
+	"duplicator-header": "Denne sida mogleggjer fullstendig kopiering av ei sida, med sjølvstendige kopiar av all historikk. \nDette er nyttig for oppdeling av sider, etc.",
+	"duplicator-options": "Val",
+	"duplicator-source": "Kjelde:",
+	"duplicator-dest": "Mål:",
+	"duplicator-dotalk": "Kopier diskusjonssida (om mogleg)",
+	"duplicator-submit": "Kopier",
+	"duplicator-summary": "Kopiert frå [[$1]]",
+	"duplicator-success": "[[$1]] blei kopiert til [[$2]].",
+	"duplicator-success-revisions": "{{PLURAL:$1|Éin versjon blei kopiert|$1 versjonar blei kopierte}}.",
+	"duplicator-success-talknotcopied": "Diskusjonssida kunne ikkje bli kopiert.",
+	"duplicator-failed": "Sida kunne ikkje bli kopiert då ein ukjend feil oppstod.",
+	"duplicator-source-invalid": "Oppgje ein gyldig kjeldetittel.",
+	"duplicator-source-notexist": "[[$1]] finst ikkje. Oppgje tittelen til ei eksisterande sida.",
+	"duplicator-dest-invalid": "Oppgje ein gyldig måltittel.",
+	"duplicator-dest-exists": "[[$1]] finst allereie. Oppgje ein måltittel som ikkje finst.",
+	"right-duplicate": "Ta kopi av sidene"
+}

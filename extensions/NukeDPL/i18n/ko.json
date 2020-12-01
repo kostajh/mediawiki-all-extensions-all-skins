@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hym411",
+			"Revi",
+			"아라"
+		]
+	},
+	"nukedpl": "DPL 쿼리를 통한 대량 삭제",
+	"nukedpl-desc": "DPL 쿼리를 통한 대량 삭제를 위한 [[Special:NukeDPL|특수 문서]]를 추가합니다",
+	"nukedpl-candidatelist": "후보 목록 보기",
+	"nukedpl-nuke": "대량 삭제!",
+	"nukedpl-defaultreason": "DPL 쿼리에 의해 선택된 문서의 대량 삭제: $1"
+}

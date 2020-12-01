@@ -1,0 +1,19 @@
+The '''MagicNumberedHeadings''' extension adds magic word <tt>__NUMBEREDHEADINGS_</tt> to force autonumbering of the headings of a page. This extension was created to resolve [https://bugzilla.wikimedia.org/3254 Bug 3254].
+
+If an article contains this magic word, automatic numbering of the headings in this page is performed, regardless of the user preference setting.
+
+When this is used, the headings will be numbered such that this page would read "1 Usage" instead of just "Usage" here:
+
+== Usage ==
+* Add "<tt>__NUMBEREDHEADINGS_</tt>" to any article.
+
+== Changes to LocalSettings.php ==
+Add this line towards the end of your [https://mediawiki.org/wiki/Manual:LocalSettings.php LocalSettings.php]:
+<source lang="php">wfLoadExtension('MagicNumberedHeadings');</source>
+
+
+== See also ==
+Related extensions:
+* [https://mediawiki.org/wiki/Extension:MagicNoNumberedHeadings Extension:MagicNoNumberedHeadings]
+* [https://mediawiki.org/wiki/Extension:PSINoTocNum Extension:PSINoTocNum]
+* [https://bugzilla.wikimedia.org/3254 Bug 3254 - Request: Per page setting for numbering headers]

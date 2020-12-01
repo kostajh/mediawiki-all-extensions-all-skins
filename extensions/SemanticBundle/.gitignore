@@ -1,0 +1,13 @@
+node_modules/
+vendor/
+composer.lock
+.eslintcache
+
+.*
+*~
+*.kate-swp
+.*.swp
+
+!.eslintrc.json
+!.gitignore
+!.gitreview

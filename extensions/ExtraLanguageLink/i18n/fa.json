@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reza1615"
+		]
+	},
+	"extralanguagelink-desc": "پیوند زبان‌های دیگر را به بخش «به دیگر زبان‌ها» در نوار کناری بیافزائید",
+	"extralanguagelink-param-class": "رده",
+	"extralanguagelink-param-hreflang": "زبانی که صفحهٔ مقصد با آن نوشته شده‌است",
+	"extralanguagelink-param-lang": "زبان",
+	"extralanguagelink-param-style": "سبک",
+	"extralanguagelink-param-title": "عنوان",
+	"extralanguagelink-badinterwiki": "پیشوند میان‌ویکی «$1:» در فهرست میان‌ویکی‌های مجاز موجود نیست.",
+	"extralanguagelink-badtitle": "عنوان صفحهٔ «$1» تجزیه نشد."
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"hierarchybuilder-desc": "Viser og muliggjør redigering av og utvalgt fra sidehierarkier",
+	"hierarchybuilder-reveal-editmessage": "Hvordan bruker jeg dette?",
+	"hierarchybuilder-editmessage": "Hierarkirotlista inneholder hierarkiet som blir tatt vare på når du lagrer. Lista over ubrukte sider inneholder sider i kategorien $1 som for tiden ikke er i hierarkiet. Du kan omarrangere hierarkirotlista ved å dra rader opp og ned samt endre innrykket deres. Du kan legge til sider fra lista over ubrukte sider ved å dra og slippe dem hvor du vil ha dem i hierarkirotlista. Du kan fjerne sider fra hierarkiet ved å dra dem fra hierarkirotlista og slippe dem hvor som helst i lista over ubrukte sider.",
+	"hierarchybuilder-edit-error-message": "Dette hierarkiet kan ikke redigeres fordi både hierarkidataene og kategorien det hentes ubrukte sider fra er tomme. Sjekk at minst én av disse datakildene er befolket.",
+	"hierarchybuilder-hierarchyroot": "Hierarkirot",
+	"hierarchybuilder-unusedpages": "Ubrukte sider",
+	"hierarchybuilder-category-desc": "Dette er kategorien alle sider i hierarkiet må høre til.",
+	"hierarchybuilder-missing-category": "Kategoriargumentet mangler.",
+	"hierarchybuilder-hierarchy-desc": "Dette er et wikitekstformatert hierarki.",
+	"hierarchybuilder-pagename-desc": "Dette er navnet på siden som inneholder hierarkiet.",
+	"hierarchybuilder-propertyname-desc": "Dette er navnet på egenskapen som inneholder hierarkiet.",
+	"hierarchybuilder-collapsed-desc": "Hvis denne parameteren gis bør hierarkiet vises i sammenslått form når det først vises.",
+	"hierarchybuilder-missing-page-name": "Sidenavnargumentet mangler.",
+	"hierarchybuilder-missing-property-name": "Egenskapsnavnargumentet mangler.",
+	"hierarchybuilder-invalid-collapsed": "Verdien til sammenslåttargumentet er ugyldig."
+}

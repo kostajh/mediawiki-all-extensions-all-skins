@@ -1,0 +1,69 @@
+{
+	"name": "SharedHelpPages",
+	"version": "0.7",
+	"author": [
+		"Kunal Mehta",
+		"Jack Phoenix"
+	],
+	"license-name": "Unlicense",
+	"url": "https://www.mediawiki.org/wiki/Extension:SharedHelpPages",
+	"descriptionmsg": "sharedhelppages-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"config": {
+		"SharedHelpPagesDevelopmentMode": false,
+		"SharedHelpPagesCacheExpiry": 604800,
+		"SharedHelpPagesAPIUrl": "http://www.shoutwiki.com/w/api.php",
+		"SharedHelpPagesTimeout": 10,
+		"SharedHelpLanguages": [
+			"en",
+			"fi",
+			"fr",
+			"nl"
+		]
+	},
+	"MessagesDirs": {
+		"SharedHelpPages": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SharedHelpPagesHooks": "SharedHelpPages.hooks.php",
+		"SharedHelpPage": "SharedHelpPage.body.php",
+		"SharedHelpPagePage": "SharedHelpPagePage.php",
+		"SharedHelpPageCacheInvalidator": "SharedHelpPageCacheInvalidator.php",
+		"SharedHelpPageLocalJobSubmitJob": "SharedHelpPageLocalJobSubmitJob.php",
+		"LocalSharedHelpPageCacheUpdateJob": "LocalSharedHelpPageCacheUpdateJob.php"
+	},
+	"Hooks": {
+		"EditPage::showEditForm:initial": "SharedHelpPagesHooks::displayMessageOnEditPage",
+		"BeforePageDisplay": "SharedHelpPagesHooks::onBeforePageDisplay",
+		"SkinTemplateNavigation::Universal": "SharedHelpPagesHooks::onSkinTemplateNavigationUniversal",
+		"TitleIsAlwaysKnown": "SharedHelpPagesHooks::onTitleIsAlwaysKnown",
+		"ArticleFromTitle": "SharedHelpPagesHooks::onArticleFromTitle",
+		"LinksUpdateComplete": "SharedHelpPagesHooks::onLinksUpdateComplete",
+		"PageSaveComplete": "SharedHelpPagesHooks::onPageSaveComplete",
+		"ArticleDeleteComplete": "SharedHelpPagesHooks::onArticleDeleteComplete",
+		"WikiPageFactory": "SharedHelpPagesHooks::onWikiPageFactory",
+		"WantedPages::getQueryInfo": "SharedHelpPagesHooks::modifyWantedPagesSQL"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SharedHelpPages"
+	},
+	"ResourceModules": {
+		"ext.SharedHelpPages": {
+			"styles": "ext.SharedHelpPages.css"
+		}
+	},
+	"JobClasses": {
+		"SharedHelpPageLocalJobSubmitJob": "SharedHelpPageLocalJobSubmitJob",
+		"LocalSharedHelpPageCacheUpdateJob": "LocalSharedHelpPageCacheUpdateJob"
+	},
+	"ConfigRegistry": {
+		"sharedhelppages": "GlobalVarConfig::newInstance"
+	},
+	"manifest_version": 1
+}

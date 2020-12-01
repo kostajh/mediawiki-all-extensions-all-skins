@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michaello",
+			"Milicevic01",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић",
+			"Сербијана"
+		]
+	},
+	"stabilization-tab": "konfig.",
+	"stabilization": "Stabilizacija stranice",
+	"stabilization-text": "'''Promenite podešavanja ispod da biste podesili kako će se stabilna verzija stranice [[:$1|$1]] izabrati i prikazati.'''",
+	"stabilization-perm": "Vaš nalog nema dozvolu za promenu podešavanja za stabilne verzije.\nOvde su trenutna podešavanja za [[:$1|$1]]:",
+	"stabilization-page": "Naziv stranice:",
+	"stabilization-leg": "Potvrdi podešavanja za stabilnu izmenu",
+	"stabilization-def": "Revizija prikazana na podrazumevanom prikazu stranice.",
+	"stabilization-def1": "Stabilna verzija; ako ne postoji, onda poslednja izmena",
+	"stabilization-def2": "Poslednja izmena",
+	"stabilization-restrict": "Ograničenja provere/samoprovere",
+	"stabilization-restrict-none": "Bez dodatnih ograničenja",
+	"stabilization-submit": "Prihvati",
+	"stabilization-notexists": "Nema stranice pod nazivom „[[:$1|$1]]“.\nKonfiguracija nije moguća.",
+	"stabilization-notcontent": "Ne mogu da pregledam stranicu „[[:$1|$1]]“.\nKonfiguracija nije moguća.",
+	"stabilization-comment": "Razlog:",
+	"stabilization-otherreason": "Drugi razlog:",
+	"stabilization-expiry": "Ističe:",
+	"stabilization-othertime": "Drugo vreme:",
+	"stabilization-def-short": "Podrazumevano",
+	"stabilization-def-short-0": "Aktuelno",
+	"stabilization-def-short-1": "Stabilno",
+	"stabilize_page_invalid": "Naslov ciljane strane je neispravan.",
+	"stabilize_page_notexists": "Ciljna stranica ne postoji.",
+	"stabilize_page_unreviewable": "Odredišna stranica nije u imenskom prostoru koji je podložan proveri.",
+	"stabilize_invalid_autoreview": "Neispravno ograničenje automatskih provera.",
+	"stabilize_invalid_level": "Nevažeći nivo zaštite.",
+	"stabilize_expiry_invalid": "Loš datum isticanja.",
+	"stabilize_expiry_old": "Vreme isticanja je već prošlo.",
+	"stabilize_denied": "Pristup je odbijen.",
+	"stabilize-expiring": "ističe $1 (UTC)",
+	"stabilization-review": "Označi trenutnu izmenu kao proverenu"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Purodha",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"wikiarticlefeeds-desc": "{{desc|name=Wiki Article Feeds|url=https://www.mediawiki.org/wiki/Extension:WikiArticleFeeds}}",
+	"wikiarticlefeeds-tracking-category": "Used as category name.\nThe name of a category for all pages which use the WikiArticleFeeds parser extension. The category is automatically added unless the feature is disabled.",
+	"wikiarticlefeeds-tracking-category-desc": "Description on [[Special:TrackingCategories]] for the {{msg-mw|wikiarticlefeeds-tracking-category}} tracking category.",
+	"wikiarticlefeeds_combined_description": "Used as description for the feed, if the description is not defined, while parsing feeds."
+}

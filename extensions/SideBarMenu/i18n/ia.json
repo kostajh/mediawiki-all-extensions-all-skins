@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"sidebarmenu-desc": "Un analysator syntactic simple pro le menu del barra lateral que crea menus e submenus plicabile/displicabile",
+	"sidebarmenu-parser-input-error": "Le analysator syntactic retornava un error: $1",
+	"sidebarmenu-parser-syntax-error": "Non poteva interpretar \"$1\". Assecura que le syntaxe es correcte.",
+	"sidebarmenu-js-init-error": "Le cargamento de ressources JavaScript ha fallite.",
+	"sidebarmenu-edit": "Modificar menu",
+	"sidebarmenu-parser-menuitem-expanded-null": "Le valor specificate es invalide. Debe esser null, true o false.",
+	"sidebarmenu-parser-config-error": "Errores occurreva durante le validation del parametros de entrata",
+	"sidebarmenu-parser-subpage-error-title-not-found": "Non pote trovar le titulo de subpagina referentiate"
+}

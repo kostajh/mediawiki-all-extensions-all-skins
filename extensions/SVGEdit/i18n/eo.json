@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brion Vibber <brion@pobox.com>",
+			"Robin van der Vliet"
+		]
+	},
+	"svgedit-editbutton-edit": "Redakti desegnon",
+	"svgedit-editor-save-close": "Konservi kaj reveni",
+	"svgedit-editor-close": "Nuligi",
+	"svgedit-desc": "Redakti desegnojn SVG en foliumilo per [http://code.google.com/p/svg-edit/ SVG-Edit]"
+}

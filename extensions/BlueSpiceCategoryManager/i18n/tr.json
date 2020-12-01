@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bluespicecategorymanager": "Kategori yöneticisi",
+	"bluespicecategorymanager-desc": "Kategorileri yönetmek için görsel araç",
+	"action-categorymanager-viewspecialpage": "Kategori yöneticisini görüntüle",
+	"bs-categorymanager-draganddrop-text": "Yeniden düzenlemek için sürükleyip bırakın",
+	"bs-categorymanager-label": "Kategori yöneticisi",
+	"bs-categorymanager-dlg-new-title": "Kategori oluştur",
+	"bs-categorymanager-dlg-new-prompt": "Lütfen adı girin:",
+	"bs-categorymanager-removecategoryconfirm-text": "Bu kategoriyi silmek istediğinizden emin misiniz?",
+	"bs-categorymanager-removecategoryconfirm-title": "Kategoriyi kaldır",
+	"bs-categorymanager-addcategory-dialog-error-title": "Kategori oluşturulamadı",
+	"bs-categorymanager-action-show-category": "Kategori göster",
+	"right-categorymanager-viewspecialpage": "Özel sayfaya erişim [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Kategori tahsisi",
+	"bs-categorymanager-collection-var-namespacename": "Ad alanı",
+	"bs-categorymanager-collection-var-categorizedpages": "Kategorili sayfalar",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Kategorisiz sayfalar"
+}

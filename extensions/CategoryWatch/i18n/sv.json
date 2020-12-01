@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boivie",
+			"Najami",
+			"WikiPhoenix"
+		]
+	},
+	"categorywatch-desc": "Utökar bevakningslistans funktion för att även meddela om ändringar av innehållet i bevakade kategorier",
+	"categorywatch-emailsubject": "Aktivitet i bevakad kategori \"$1\"",
+	"categorywatch-catmovein": "flyttade $1 till kategori $2 från $3",
+	"categorywatch-catmoveout": "flyttade $1 från kategori $2 till $3",
+	"categorywatch-catadd": "la till $1 i kategori $2",
+	"categorywatch-catsub": "tog bort $1 från kategori $2",
+	"categorywatch-autocat": "Automatiskt bevakad av $1",
+	"categorywatch-notification-link": "Kategori: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] lades till i [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] lades till i [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] lade till [[:$3|$3]] i [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] togs bort från [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] togs bort från [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] tog bort [[:$3|$3]] från [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 ändringar i kategoriseringen på {{SITENAME}}",
+	"categorywatch-add-title": "Titel lades till i bevakad kategori",
+	"categorywatch-remove-title": "Titel togs bort från bevakad kategori",
+	"categorywatch-page-watch-pref": "Lägg till alla sidor i en kategori i din bevakningslista när du lägger till en kategori",
+	"echo-category-title-categorywatch": "Kategoribevakning",
+	"echo-pref-tooltip-categorywatch": "Meddela mig när någon kategoriserar en sida till eller från en kategori som jag bevakar."
+}

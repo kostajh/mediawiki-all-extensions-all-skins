@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carlosmg.dg",
+			"DannyS712",
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"bs-bluespiceconfigmanager-admintool-label": "Gestor de configuración",
+	"action-bluespiceconfigmanager-viewspecialpage": "ver la página especial «{{int:bluespiceconfigmanager}}»",
+	"bluespiceconfigmanager": "Gestor de configuración",
+	"bs-configmanager-desc": "Permite a los administradores configurar todo el wiki desde una única página especial",
+	"bs-configmanager-discardchanges": "¿Quieres descartar los cambios?",
+	"bs-configmanager-noentry": "No se encontró ninguna entrada",
+	"apihelp-bs-configmanager-tasks-summary": "Gestionar tareas",
+	"apihelp-bs-configmanager-store-summary": "Administrar roles",
+	"right-bluespiceconfigmanager-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceConfigManager]]"
+}

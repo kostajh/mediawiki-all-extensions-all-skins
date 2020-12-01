@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Firilacroco",
+			"KlaudiuMihaila",
+			"Minisarm",
+			"Strainu"
+		]
+	},
+	"edituser": "Modificare utilizator",
+	"edituser-desc": "Permite utilizatorilor privilegiați să modifice preferințele altor utilizatori",
+	"edituser-username": "Nume de utilizator",
+	"edituser-dosearch": "Caută",
+	"edituser-nouser": "Utilizatorul „$1” nu există.",
+	"edituser-exempt": "Utilizatorul „$1” nu poate fi modificat.",
+	"right-edituser": "Modifică preferințele altor utilizatori",
+	"right-edituser-exempt": "Preferințele acestui utilizator nu pot fi modificate de către altcineva",
+	"action-edituser": "modificați preferințele altor utilizatori",
+	"action-edituser-exempt": "modificați preferințele acestui utilizator"
+}

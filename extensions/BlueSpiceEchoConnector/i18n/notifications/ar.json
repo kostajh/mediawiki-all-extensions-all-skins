@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"bs-notifications-addaccount": "تم إنشاء المستخدم \"$1\".",
+	"bs-notifications-email-addaccount-subject": "تم إنشاء {{GENDER:$1|المستخدم|المستخدمة}} \"$2\"",
+	"bs-notifications-email-addaccount-body": "تم إنشاء {{GENDER:$1|المستخدم|المستخدمة}} \"$2\"\n\nيمكنك زيارة صفحة المستخدم الخاصة {{GENDER:$1|به|بها|بـ}} بواسطة اتباع الرابط أدناه",
+	"bs-notifications-web-addaccount-body": "تم إنشاء {{GENDER:$1|المستخدم|المستخدمة}} \"$2\"",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|منشئ|منشئة}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|منشئ|منشئة}}: $1",
+	"bs-notifications-registeruser": "أنشأ المستخدم \"$1\" حسابا.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|المستخدم|المستخدمة}} \"$2\" قد {{GENDER:$1|أنشأ|أنشأ}} حسابا",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|المستخدم|المستخدمة}} \"$2\" قد {{GENDER:$1|أنشأ|أنشأ}} حسابا\n\nيمكنك زيارة صفحة المستخدم الخاصة {{GENDER:$1|به|بها}} من خلال اتباع الرابط أدناه",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|المستخدم|المستخدمة}} \"$2\" قد {{GENDER:$1|أنشأ|أنشأ}} حسابا",
+	"bs-notifications-edit": "تم تعديل الصفحة \"$1\"",
+	"bs-notifications-edit-bundle": "تم تعديل الصفحة \"$2\" {{PLURAL:$1|$1 مرة|$1 مرات}}",
+	"bs-notifications-email-edit-subject": "تم تعديل الصفحة $1 بواسطة {{GENDER:$2|المستخدم|المستخدمة}} \"$3\"",
+	"bs-notifications-email-edit-body": "تم تعديل الصفحة $1 بواسطة {{GENDER:$2|المستخدم|المستخدمة}} \"$4\"\n\nالتعليق:\n $3",
+	"bs-notifications-web-edit-body": "تم تعديل الصفحة $1 بواسطة {{GENDER:$2|المستخدم|المستخدمة}} \"$3\"",
+	"bs-notifications-create": "تم إنشاء الصفحة \"$1\"",
+	"bs-notifications-email-create-subject": "تم إنشاء الصفحة $1 بواسطة {{GENDER:$2|المستخدم|المستخدمة}} \"$3\"",
+	"bs-notifications-email-create-body": "تم إنشاء الصفحة $1 بواسطة {{GENDER:$2|المستخدم|المستخدمة}} \"$3\"\n\nالتعليق:\n$4 \n\nيمكنك زيارة الصفحة التالية باتباع الرابط أدناه",
+	"bs-notifications-web-create-body": "تم إنشاء الصفحة $1 بواسطة {{GENDER:$2|المستخدم|المستخدمة}} \"$3\"",
+	"bs-notifications-delete": "تم حذف الصفحة \"$1\"",
+	"bs-notifications-email-delete-subject": "تم حذف الصفحة $1 بواسطة {{GENDER:$2|المستخدم|المستخدمة}} \"$3\"",
+	"bs-notifications-email-delete-body": "تم حذف الصفحة $1 بواسطة {{GENDER:$2|المستخدم|المستخدمة}} $3.\n\nكان السبب:\n$4",
+	"bs-notifications-web-delete-body": "تم حذف الصفحة $1 بواسطة {{GENDER:$2|المستخدم|المستخدمة}} $3",
+	"bs-notifications-move": "تم نقل الصفحة \"$1\"",
+	"bs-notifications-email-move-subject": "تم نقل الصفحة $1 إلى \"$3\" بواسطة {{GENDER:$2|المستخدم|المستخدمة}} $4",
+	"bs-notifications-email-move-body": "تم إنشاء الصفحة $1 إلى \"$3\" بواسطة {{GENDER:$2|المستخدم|المستخدمة}} $4\n\nكان السبب:\n$5 \n\nيمكنك زيارة الصفحة التالية باتباع الرابط أدناه",
+	"bs-notifications-web-move-body": "تم نقل الصفحة $1 إلى \"$3\" بواسطة {{GENDER:$2|المستخدم|المستخدمة}} $4",
+	"bs-notifications-edit-difflink-label": "انظر الفرق",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|مرحبا بك}} $1",
+	"bs-notifications-htmlmail-sender-info": "نظام الإخطار $1",
+	"bs-notifications-mail-additional-links-label": "وصلات إضافية"
+}

@@ -1,0 +1,36 @@
+@import 'mediawiki.mixins';
+@import '../../mediainfo-variables.less';
+@import './mediainfo-filepage-mixins.less';
+
+// Statements panel
+// ---------------------------------------------------------
+.wbmi-entityview-statementsGroup {
+	.wbmi-filepage-panel();
+
+	// Secondary buttons
+	.wbmi-statement-footer-buttons {
+		text-align: right;
+	}
+
+	// separate multiple statement groups
+	+ .wbmi-entityview-statementsGroup {
+		margin-top: @wbmi-spacing-base;
+	}
+
+	// indication that we don't support editing of the statement
+	// (because we haven't implemented an interface for editing this type of property value)
+	&.wbmi-entityview-statementsGroup-unsupported:not( .wbmi-entityview-editable ) {
+		opacity: 0.5;
+	}
+
+	.wbmi-constraints-report {
+		position: relative;
+		margin-left: @wbmi-spacing-sm;
+
+		/* stylelint-disable-next-line selector-class-pattern */
+		.wbqc-reports-button {
+			position: absolute;
+			top: -@wbmi-spacing-xs;
+		}
+	}
+}

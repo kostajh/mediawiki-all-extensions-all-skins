@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Snævar",
+			"Sveinn í Felli"
+		]
+	},
+	"translationnotifications-info": "Upplýsingar um notanda",
+	"translationnotifications-username": "Notandanafn:",
+	"translationnotifications-languages": "Tungumál",
+	"translationnotifications-lang": "Tungumál #$1",
+	"translationnotifications-cmethod-email": "Tölvupóstur",
+	"translationnotifications-cmethod-feed": "Streymi",
+	"translationnotifications-priority": "Forgangur:",
+	"translationnotifications-priority-high": "hár",
+	"translationnotifications-priority-medium": "meðal",
+	"translationnotifications-priority-low": "lágur",
+	"translationnotifications-priority-unset": "(ekki sett)",
+	"translationnotifications-notification-url-listitem": "þýða á $1",
+	"translationnotifications-log-alllanguages": "öll tungumál",
+	"translationnotifications-nodeadline": "ekkert"
+}

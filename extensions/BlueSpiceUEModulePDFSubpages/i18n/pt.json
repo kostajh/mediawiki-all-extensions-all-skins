@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"bs-uemodulepdfsubpages-extension-description": "Permite a exportação recursiva de páginas para formato PDF com as subpáginas.",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-text": "Página e subpáginas para PDF",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-title": "Exportar esta página e todas as subpáginas como PDF.",
+	"action-uemodulepdfsubpages-export": "exportar uma página, incluindo todas as subpáginas, para PDF",
+	"right-uemodulepdfsubpages-export": "Exportar uma página, incluindo todas as subpáginas, para PDF"
+}

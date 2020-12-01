@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ruleset>
+	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
+		<exclude name="MediaWiki.Commenting.FunctionComment.MissingDocumentationPublic" />
+		<exclude name="MediaWiki.Commenting.PropertyDocumentation.MissingVar" />
+	</rule>
+	<rule ref="MediaWiki.NamingConventions.ValidGlobalName">
+		<properties>
+			<property name="ignoreList" type="array" value="$IP" />
+		</properties>
+	</rule>
+	<rule ref="MediaWiki.NamingConventions.PrefixedGlobalFunctions">
+		<properties>
+			<property name="ignoreList" type="array" value="showProgress" />
+		</properties>
+	</rule>
+	<file>.</file>
+	<arg name="extensions" value="php" />
+	<arg name="encoding" value="UTF-8" />
+	<!-- The file OOMs CodeSniffer's Tokenizer (as of June 2020). -->
+	<exclude-pattern>trusted-hosts\.php</exclude-pattern>
+</ruleset>

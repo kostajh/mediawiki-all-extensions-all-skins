@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pols12",
+			"Thibaut120094",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"changeuserpasswords": "Modifier les mots de passe des utilisateurs",
+	"changeuserpassword-desc": "Ceci est une extension pour modifier les mots de passe des utilisateurs, sauf certains définis par l’administrateur.",
+	"changeuserpassword-pagename": "ChangeUserPasswords/fr",
+	"changeuserpassword-topheader": "Veuillez sélectionner les noms des utilisateurs dont les mots de passe doivent être changés. Tous les utilisateurs sont sélectionnés par défaut. Veuillez retirer de la sélection les noms des utilisateurs pour lesquels vous ne voulez pas changer le mot de passe.",
+	"changeuserpassword-success": "Les mots de passe utilisateur ont été modifiés !",
+	"changeuserpassword-title": "modifier les mots de passe des utilisateurs",
+	"changeuserpassword-intro": "Ceci est une extension pour modifier les mots de passe des utilisateurs, sauf certains définis par l’administrateur.",
+	"action-changeuserpasswords": "modifier les mots de passe des utilisateurs",
+	"right-changeuserpasswords": "Modifier les mots de passe des utilisateurs"
+}

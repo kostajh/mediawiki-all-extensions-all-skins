@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"stalkerlog-desc": "Legger til en [[Special:Log/stalkerlog|logg]] over når brukere logger inn eller ut.",
+	"stalkerlog-log-login": "logget inn.",
+	"stalkerlog-log-logout": "logget ut.",
+	"stalkerlog-log-type": "Logg over inn- og utlogginger",
+	"stalkerlog-log-text": "Dett er en logg over inn- og utlogginger.",
+	"action-stalkerlog-view-log": "vise logger over brukeres inn- og utlogginger",
+	"right-stalkerlog-view-log": "Vise logger over brukeres inn- og utlogginger"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"securesessions-desc": "Pówušujo wěstotu wužywarskich pósejźenjow a pósejźeńskeje awtentifikacije",
+	"securesessions-personalurl": "Wócynjone pósejźenja ($1)",
+	"securesessions-ipsession": "Wšykne druge pósejźenja wótzjawiś.",
+	"securesessions-iprestrict": "Pósejźenje na toś tu IP-adresu wobgranicowaś.",
+	"securesessions-uarestrict": "Pósejźenje na toś ten wobglědowak wobgranicowaś.",
+	"securesessions-sessions": "Pósejźenja",
+	"securesessions-sessions-legend": "Pósejźeńske informacije",
+	"securesessions-sessions-text": "Dołojce wiźiš wšykne wócynjene pósejźenja za twójo konto a informacije wó nich. Móžoš wšykne druge pósejźenja z pomocu slědujucym tłocaškom zacyniś. Gwězdka (*) wóznamjenjujo aktualne pósejźenje.",
+	"securesessions-sessions-ip": "IP-adresa:",
+	"securesessions-sessions-activity": "Slědna aktiwita:",
+	"securesessions-sessions-clear": "Wšykne druge pósejźenja wótzjawiś",
+	"securesessions-prefs-country": "Pśizjawjenje pó kraju wobgranicowaś:",
+	"securesessions-prefs-tor": "Pśizjawjenja z wuchadnych sukow Tor zakazaś.",
+	"securesessions-disallowedcountry": "Toś to konto njesmějo se z toś togo kraja pśizjawiś.",
+	"securesessions-disallowedtor": "Toś to konto njesmějo se z wuchadnych sukow Tor pśizjawiś."
+}

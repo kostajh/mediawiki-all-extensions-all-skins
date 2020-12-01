@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-socialtags-desc": "Adds tagging functionality to social entities",
+	"bs-socialtags-tagstext": "Linked {{plural:$1|page|pages}} ($1)",
+	"bs-socialtags-var-tags": "Linked pages",
+	"socialtags": "Linked pages",
+	"bs-socialtags-special-heading": "Linked pages",
+	"apihelp-bs-socialtags-tasks-summary": "Provides tasks for editing the linked pages of entities",
+	"action-social-tagging": "edit linked pages",
+	"right-social-tagging": "Edit linked pages"
+}

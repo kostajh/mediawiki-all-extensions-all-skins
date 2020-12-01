@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Tyler Romeo",
+			"Umherirrender"
+		]
+	},
+	"securesessions-desc": "{{desc|name=Secure Sessions|url=https://www.mediawiki.org/wiki/Extension:SecureSessions}}",
+	"securesessions-personalurl": "Used as text for the link which points to [[Special:Sessions]], next to the Logout link at the top of the page.\n\nParameters:\n* $1 - the current number of open sessions",
+	"securesessions-ipsession": "Label for the checkbox of whether the user wants to log out all other sessions when they log in.",
+	"securesessions-iprestrict": "Label for the checkbox of whether the user wants to restrict their login session to the IP address they are using.",
+	"securesessions-uarestrict": "Label for the checkbox of whether the user wants to restrict their login to the browser (user agent) they are using.",
+	"securesessions-sessions": "{{doc-special|Sessions|unlisted=1}}\n{{Identical|Session}}",
+	"securesessions-sessions-legend": "Label for the fieldset on Special:Sessions.",
+	"securesessions-sessions-text": "Introductory text at the top of Special:Sessions. It briefly explains the purpose of the page.",
+	"securesessions-sessions-ip": "Label for the IP address of a session description.\n{{Identical|IP address}}",
+	"securesessions-sessions-activity": "Label for the last activity time of a session description.",
+	"securesessions-sessions-clear": "Label for the submit button on Special:Sessions that closes all sessions.",
+	"securesessions-prefs-country": "Label for the user option restricting login to a certain country",
+	"securesessions-prefs-tor": "Label for the user option restricting login from Tor exit nodes",
+	"securesessions-disallowedcountry": "Message for logins that are aborted because the user is not allowed to log in from that country",
+	"securesessions-disallowedtor": "Message for logins that are aborted because the user tried to log in from a Tor exit node."
+}

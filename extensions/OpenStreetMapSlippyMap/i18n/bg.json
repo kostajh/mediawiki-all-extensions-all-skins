@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI"
+		]
+	},
+	"slippymap_desc": "Позволява използването на етикета <tt><nowiki>&lt;slippymap&gt;</nowiki></tt> за показване на OpenLayers slippy карти. Картите са от [http://openstreetmap.org openstreetmap.org]",
+	"slippymap_zoommissing": "Липсваща стойност z (за степен на приближаване).",
+	"slippymap_zoomsmall": "стойността за приближаване (z) не може да бъде отрицателно число",
+	"slippymap_zoombig": "стойността за приближаване (z) не може да бъде по-голяма от 17.",
+	"slippymap_invalidlayer": "Невалидна стойност на 'слоя' '$1'",
+	"slippymap_maperror": "Грешка в картата:",
+	"slippymap_osmtext": "Преглеждане на картата в OpenStreetMap.org",
+	"slippymap_code": "Уикикод за тази карта:"
+}

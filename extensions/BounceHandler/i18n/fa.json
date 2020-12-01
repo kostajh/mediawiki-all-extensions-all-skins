@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ladsgroup"
+		]
+	},
+	"notification-bouncehandler": "نشانی ایمیل {{GENDER:$1|شما}} دیگر معتبر نیست.",
+	"notification-link-text-change-email": "آدرس رایانامه‌تان را تغییر دهید"
+}

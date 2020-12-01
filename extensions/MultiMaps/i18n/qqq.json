@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nemo bis",
+			"Shirayuki",
+			"Umherirrender",
+			"pastakhov"
+		]
+	},
+	"multimaps-desc": "{{desc|name=Multi Maps|url=https://www.mediawiki.org/wiki/Extension:MultiMaps}}",
+	"multimaps-loading-map": "The text is displayed instead of the map, and informs that the data needed to display the maps are not loaded yet",
+	"multimaps-mapservices-must-not-empty-array": "Error message, Parameters:\n* $1 - variable name",
+	"multimaps-undefined-service-for-layout": "There is no defined map service for \"$1\" in $egMultiMaps_MapServices.",
+	"multimaps-wrong-service-for-layout": "The chosen map layout \"$1\" was defined using service \"$2\" but this does not exist in $egMultiMaps_MapServices.",
+	"multimaps-layout-defined-for-layout": "The entered map layout \"$1\" defined another layout \"$2\" instead of service in $egMultiMaps_MapServices.",
+	"multimaps-leaflet-undefined-parameters-for-layer": "Parameters \"source\" and \"attribution\" must be provided for \"$1\" layer in $egMultiMaps_MapServices.",
+	"multimaps-had-following-errors": "This message goes before list of error messages",
+	"multimaps-element-illegal-value": "Error message, Parameters:\n* $1 - name of the parameter\n* $2 - user-specified value\n* $3 - comma separated list of valid values",
+	"multimaps-element-more-parameters": "Error message, Parameters:\n* $1 - name of map element",
+	"multimaps-element-parameters-not-processed": "This message goes after \"multimaps-element-more-parameters\", Parameters:\n* $1 - comma separated list of user-specified values",
+	"multimaps-circle-radius-not-defined": "Error message, when for circle (map element) not defined radius",
+	"multimaps-circle-wrong-number-parameters": "Error message, when for circle defined too many parameters. Parameters:\n* $1 – number of passed parameters (always more than two)",
+	"multimaps-marker-incorrect-icon": "Error message. Parameters:\n* $1 - user-specified value\n{{Related|Multimaps-marker-incorrect}}",
+	"multimaps-marker-incorrect-icon-url": "Error message. Parameters:\n* $1 - user-specified value\n{{Related|Multimaps-marker-incorrect}}",
+	"multimaps-marker-incorrect-icon-size": "Error message. Parameters:\n* $1 - user-specified size of the icon\n* $2 - user-specified value\n{{Related|Multimaps-marker-incorrect}}",
+	"multimaps-marker-incorrect-icon-anchor": "Error message. Parameters:\n* $1 - user-specified anchor point for the icon\n* $2 - user-specified value\n{{Related|Multimaps-marker-incorrect}}",
+	"multimaps-marker-incorrect-shadow-file": "Error message. Parameters:\n* $1 - user-specified value\n{{Related|Multimaps-marker-incorrect}}",
+	"multimaps-marker-incorrect-shadow-url": "Error message. Parameters:\n* $1 - user-specified value\n{{Related|Multimaps-marker-incorrect}}",
+	"multimaps-marker-incorrect-shadow-size": "Error message. Parameters:\n* $1 - user-specified size of the shadow\n* $2 - user-specified value\n{{Related|Multimaps-marker-incorrect}}",
+	"multimaps-marker-incorrect-shadow-anchor": "Error message. Parameters:\n* $1 - user-specified anchor point for the shadow\n* $2 - user-specified value\n{{Related|Multimaps-marker-incorrect}}",
+	"multimaps-passed-unavailable-service": "Informational message warns that the specified service is not available and service is used by default.\n\nParameters:\n* $1 - user-specified service\n* $2 - comma separated list of available services\n* $3 - name of default service, which is currently in use",
+	"multimaps-square-wrong-number-points": "Error message, when for square (map element) specified more or less than two parameters. Parameters:\n* $1 - the number of user-specified coordinates for the square",
+	"multimaps-unable-create-element": "An error occurred while creating the map element. $1 - the name of the element, such as a \"marker\", \"line\", \"polygon\", etc.",
+	"multimaps-unable-parse-coordinates": "Error message, $1 - geographic coordinates that cannot be parsed",
+	"multimaps-unable-parse-parameter": "An error message is displayed when the given parameter can not be processed. Parameters:\n* $1 - name of the parameter\n* $2 - its value",
+	"multimaps-unable-parse-radius": "Error message, Parameters:\n* $1 - user-specified value",
+	"multimaps-unknown-class-for-service": "An error that occurs when the key in array $egMultiMapsServices_showmap is name of unknown class. Parameters:\n* $1 - class name",
+	"multimaps-unknown-parameter": "Used as error message. Parameters:\n* $1 - parameter name\n{{Identical|Unknown parameter}}",
+	"multimaps-error-incorrect-class-for-service": "An error that occurs when the key in array $egMultiMapsServices_showmap is name of class, which can not be used to display the map.\n\nParameters:\n* $1 - class name",
+	"multimaps-method-error-unknown-action": "Error message when passed to function value that it does not expect. Parameters:\n* $1 - function name and value",
+	"multimaps-method-error-unexpected-result": "An error message informs you that the function does not perform the expected actions. Parameters:\n* $1 - function name and values"
+}

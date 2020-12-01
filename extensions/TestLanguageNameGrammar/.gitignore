@@ -1,0 +1,13 @@
+node_modules/
+
+*~
+.*.swp
+*.kate-swp
+.classpath
+.idea
+.metadata*
+.project
+.settings
+*.bak
+/composer.lock
+/vendor

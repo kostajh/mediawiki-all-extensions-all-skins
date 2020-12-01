@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Oop",
+			"Pikne"
+		]
+	},
+	"inlinecategorizer-add-category": "Lisa kategooria",
+	"inlinecategorizer-add-category-submit": "Lisa",
+	"inlinecategorizer-add-category-summary": "Kategooria \"$1\" lisamine",
+	"inlinecategorizer-api-error": "Rakendus andis veateate: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "Rakendus andis tundmatu veateate.",
+	"inlinecategorizer-cancel": "Loobu muudatusest",
+	"inlinecategorizer-cancel-all": "Loobu kõigist muudatustest",
+	"inlinecategorizer-category-already-present": "See lehekülg on juba kategoorias $1.",
+	"inlinecategorizer-category-question": "Miks tahad teha järgmisi muudatusi:",
+	"inlinecategorizer-confirm-ok": "Sobib",
+	"inlinecategorizer-confirm-save": "Salvesta",
+	"inlinecategorizer-confirm-save-all": "Salvesta kõik muudatused",
+	"inlinecategorizer-confirm-title": "Toimingu kinnitamine",
+	"inlinecategorizer-edit-category": "Muuda kategooriat",
+	"inlinecategorizer-edit-category-error": "Kategooriat \"$1\" pole võimalik muuta.\nHarilikult juhtub nii, kui kategooria on lisatud malliga.",
+	"inlinecategorizer-edit-category-summary": "Kategooria \"$1\" asendamine kategooriaga \"$2\"",
+	"inlinecategorizer-error-title": "Tõrge",
+	"inlinecategorizer-remove-category": "Eemalda kategooria",
+	"inlinecategorizer-remove-category-error": "Kategooriat \"$1\" pole võimalik eemaldada.\nTõrge ilmneb harilikult siis, kui kategooria on lisatud malliga.",
+	"inlinecategorizer-remove-category-summary": "Kategooria \"$1\" eemaldamine"
+}

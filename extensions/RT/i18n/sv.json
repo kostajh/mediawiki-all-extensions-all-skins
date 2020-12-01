@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fluff",
+			"WikiPhoenix"
+		]
+	},
+	"rt-desc": "Fint gränssnitt för RT (Request Tracker)",
+	"rt-inactive": "RT-tillägget är inte aktivt",
+	"rt-badquery": "RT-tillägget stötte på ett fel i kommunikationen med RT-databasen",
+	"rt-badlimit": "Ogiltig LIMIT (l) argument: måste vara ett nummer.\nDu försökte: '''$1'''",
+	"rt-badorderby": "Argumentet <code>ORDER BY</code> (<code>ob</code>) är ogiltigt: Det måste vara ett standardfält (se dokumentationen).\nDu försökte: '''$1'''",
+	"rt-badstatus": "Ogiltig status (s) argument: måste vara ett standardfält (se dokumentationen).\nDu försökte: '''$1'''",
+	"rt-badcfield": "Ogiltigt anpassat fältargument: måste vara ett enkelt ord (se dokumentationen).\nDu försökte: '''$1'''",
+	"rt-badqueue": "Ogiltigt queue (q) argument: måste vara ett enkelt ord.\nDu försökte: '''$1'''",
+	"rt-badowner": "Ogiltigt owner (o) argument: måste vara ett giltigt användarnamn.\nDu försökte: '''$1'''",
+	"rt-nomatches": "Inga matchande RT-tickets hittades"
+}

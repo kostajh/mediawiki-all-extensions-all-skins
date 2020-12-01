@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"apihelp-parsoid-batch-summary": "파소이드를 위한 배치 API",
+	"apierror-parsoid-batch-notallowed": "클라이언트 IP 주소가 ParsoidBatchAPI_AllowedIPs에 없습니다.",
+	"apierror-parsoid-batch-texttoobig": "입력 텍스트가 최대 문서 크기를 초과합니다.",
+	"apierror-parsoid-batch-invalidtitle": "유효하지 않은 제목 ($1).",
+	"apierror-parsoid-batch-mustbescalar": "<var>$1</var> 변수는 스칼라여야 합니다."
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"versioncompare": "版本比较",
+	"version-compare-desc": "显示两个wiki之间核心组件和扩展版本的比较",
+	"version-compare-database-label": "数据库",
+	"version-compare-url-error": "从$1获取数据时出错。",
+	"version-compare-url-field-help-1": "要做比较的首个wiki的API URL（以api.php结尾）。如果留空将使用当前wiki。",
+	"version-compare-url-field-help-2": "要做比较的第二个wiki的API URL（以api.php结尾）。如果留空将使用当前wiki。",
+	"version-compare-diff-field-label": "只显示差异"
+}

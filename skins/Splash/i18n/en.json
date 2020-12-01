@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Isarra"
+		]
+	},
+	"splash-skin-desc": "Splash skin for MediaWiki, as designed for zaori.org",
+	"splash-loggedinas": "$1",
+	"splash-notloggedin": "Not logged in",
+	"splash-userpage": "User page",
+	"splash-talkpage": "Talk page",
+	"splash-page-tools": "Page tools",
+	"splash-talk": "Discuss",
+	"splash-jumptonavigation": "Jump to navigation",
+	"splash-jumptocontent": "Jump to content",
+	"splash-jumptosearch": "Jump to search",
+	"splash-toolbox": "Other tools",
+	"site-banner": "$1",
+	"global-links-menu": "",
+	"global-links": "Other navigation",
+	"content-footer": ""
+}

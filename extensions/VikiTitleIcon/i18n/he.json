@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"apihelp-getTitleIcons-description": "לקבל את כתובות ה־URL של כל סמלי הכותרות בדף, אם קיימות.",
+	"apihelp-getTitleIcons-param-pageTitle": "שם הדף שעבורו יוחזרו סמלי הכותרות"
+}

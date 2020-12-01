@@ -1,0 +1,333 @@
+/* Styles appear on displays 750 pixels wide and below */
+
+@import 'variables.less';
+
+#p-logo {
+	// Make the logo smaller because we're dealing with less space here
+	// Note that background-size doesn't necessarily work in older browsers, but whatever
+	a.mw-wiki-logo {
+		width: 3em;
+		height: 3em;
+	}
+}
+
+#global-navigation {
+	position: absolute;
+	top: 1.25em;
+	left: 4.25em;
+
+	h3 {
+		background-image: url( images/arrow-down-white.svg );
+		margin: -0.5em -0.35em -0.5em 0;
+		padding: 0.5em 1em 0.5em 0;
+		background-repeat: no-repeat;
+		background-position: right 0.7em;
+		font-size: 135%;
+		cursor: pointer;
+	}
+}
+
+#mw-navigation-outer {
+	border-bottom: solid 3px @primarybold-light;
+	box-shadow: 0 0 20px inset rgba( 0, 0, 0, 0.25 );
+}
+
+#mw-navigation-outer-outer {
+	border-bottom: solid 1px @grey6;
+	box-shadow: 0 0 20px rgba( 0, 0, 0, 0.25 );
+}
+
+#mw-navigation,
+#mw-sidebar,
+#page-tools,
+#content-header,
+#content,
+#footer {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+
+}
+
+// popup menus
+#p-personal,
+#p-global-links .mw-portlet-body,
+#mw-sidebar,
+#p-actions .mw-portlet-body,
+#p-variants .mw-portlet-body,
+#p-lang .mw-portlet-body {
+	.hidden();
+	z-index: 9000;
+
+	.box;
+	.nav();
+	min-width: 60%;
+	padding: 1.5em 1.5em 0;
+}
+
+#mw-sidebar {
+	h3,
+	li {
+		padding: 0.5em 0em;
+	}
+
+	h3 {
+		padding-bottom: 0;
+		border-bottom: solid 3px @grey2;
+		font-weight: normal;
+		font-size: 1.25em;
+	}
+}
+
+#p-actions .mw-portlet-body h3,
+#p-lang .mw-portlet-body h3,
+#p-variants .mw-portlet-body h3,
+#p-global-links .mw-portlet-body h3,
+#p-personal-label,
+#p-banner {
+		background: @grey1;
+		box-shadow: 0 1px 6px rgba( 0, 1, 0, 0.15 ),
+			0 0 1.5em inset rgba( 0, 0, 0, 0.125 ),
+			0 5px 10px rgba( 0, 0, 0, 0.125 );
+		border-radius: 3px 3px 0 0;
+		font-weight: normal;
+		padding: 1em 1.5em 0.2em;
+		margin: -1.5em -1.5em 0;
+		border-bottom: solid 3px @primarybold-light;
+		font-size: 100%;
+		display: block;
+		color: @grey6;
+
+		a {
+			color: @grey6;
+			font-size: 1.25em;
+
+			&:hover {
+				color: @grey6;
+			}
+		}
+};
+
+#p-actions .mw-portlet-body ul,
+#p-variants .mw-portlet-body ul,
+#p-lang .mw-portlet-body ul,
+#p-global-links .mw-portlet-body ul,
+#p-personal .mw-portlet-body,
+#site-navigation {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	margin-left: -1.5em;
+	margin-right: -1.5em;
+	border-top: solid 1px @grey5;
+}
+
+#p-global-links .mw-portlet-body ul {
+	margin-top: 0;
+}
+
+#p-actions .mw-portlet-body ul,
+#p-variants .mw-portlet-body ul,
+#p-lang .mw-portlet-body ul,
+#p-global-links .mw-portlet-body ul,
+#p-personal .mw-portlet-body {
+	margin-top: 0;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+
+	li {
+		padding: 0.5em 0em;
+	}
+}
+
+#p-global-links .mw-portlet-body.toggled {
+	left: -3.25em;
+	top: -0.25em;
+}
+
+#mw-sidebar.toggled {
+	left: 1em;
+	top: 1em;
+}
+
+#p-personal,
+#p-actions .mw-portlet-body,
+#p-variants .mw-portlet-body,
+#p-lang .mw-portlet-body {
+	&.toggled {
+		left: unset;
+		right: 1em;
+		top: 1em;
+	}
+}
+
+// header: sidebar, p-personal, global-links
+// all cactions dropdowns
+
+#menus-cover {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9000;
+	background: @grey6;
+	opacity: .85;
+	overflow: hidden;
+}
+
+#main-menu-toggle,
+#personal-menu-toggle {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+#main-menu-toggle {
+	background-image: url( images/menu-large.svg );
+	position: absolute;
+	left: 0.5em;
+	top: 4.1em;
+}
+
+#personal-menu-toggle {
+	background-image: url( images/user-large.svg );
+	position: absolute;
+	right: 0.5em;
+	top: 1em;
+}
+
+#p-personal-extra {
+	white-space: nowrap;
+	position: absolute;
+	top: 1.55em;
+	right: 3.5em;
+
+	ul {
+		margin: 0;
+	}
+
+	li {
+		list-style: none;
+		display: inline;
+	}
+}
+
+#p-search {
+	margin: 0.75em 4.5em 0.75em 40px;
+}
+
+#searchInput {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#searchGoButton {
+	margin-right: -5.25em;
+	width: 5em;
+	box-sizing: border-box;
+}
+
+#p-actions > h3,
+#p-variants > h3,
+#p-lang > h3 {
+	.dropdown-toggle();
+}
+
+#p-actions > h3 {
+	width: 1em;
+	height: 1em;
+	overflow: hidden;
+
+	&:before {
+		content: '';
+		height: 1.6em;
+	}
+}
+
+#p-actions > h3::before {
+	.ca-icon( 'images/gear' );
+}
+
+#ca-edit 	{
+	.ca-icon-wat( 'images/pencil' );
+
+}
+
+#ca-history {
+	.ca-icon-wat( 'images/clock' );
+}
+
+#ca-talk {
+	.ca-icon-wat( 'images/talk' );
+}
+
+#ca-addsection {
+	.ca-icon-wat( 'images/plus' );
+}
+
+#ca-viewsource {
+	.ca-icon-wat( 'images/brackets' );
+}
+
+#ca-view {
+	.hidden();
+}
+
+li[ id^='ca-nstab-' ] {
+	.ca-icon-wat( 'images/page' );
+}
+
+#ca-edit a,
+#ca-history a,
+#ca-talk a,
+#ca-addsection a,
+#ca-viewsource a,
+#ca-view a,
+li[ id^='ca-nstab-' ] a {
+	.ca-icon-only();
+}
+
+// Full-width thumbnails (to avoid having really squished text around them)
+
+div.thumb {
+	float: none;
+}
+
+.thumb {
+	margin: 1em auto;
+}
+
+.floatright,
+.tright {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.floatleft,
+.tleft {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.thumbinner {
+	width: 100% !important;
+	box-sizing: border-box;
+}
+
+.thumbimage {
+	display: block;
+	margin: 0 auto 0.5em;
+}
+
+// Keep images from overflowing
+.mw-body-content a > img {
+	height: auto !important;
+	max-width: 100% !important;
+}
+
+.nomobile {
+	display: none;
+}

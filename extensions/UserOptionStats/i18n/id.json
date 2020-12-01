@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Daud I.F. Argana"
+		]
+	},
+	"useroptionstats": "Statistik pilihan pengguna",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Halaman istimewa]] untuk melaporkan ke MediaWiki pemakaian pilihan pengguna",
+	"uos-warn": "PHPlot belum terpasang!",
+	"uos-choose": "Pilih salah satu dari pilihan pengguna berikut: $1",
+	"uos-choose-hidden": "Pilih salah satu dari pilihan pengguna tersembunyi berikut: $1",
+	"uos-unknown": "*Baku",
+	"uos-other": "*Lain-lain",
+	"uos-title": "Distribusi nilai pilihan pengguna $1"
+}

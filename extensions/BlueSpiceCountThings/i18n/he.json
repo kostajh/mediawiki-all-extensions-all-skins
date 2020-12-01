@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erelon",
+			"Guycn2",
+			"LaG roiL",
+			"Steeve815"
+		]
+	},
+	"bs-countthings-desc": "אספקת סטטיסטיקות המבוססות על תוכן",
+	"bs-countthings-chars-label": "תווים",
+	"bs-countthings-words-label": "מילים",
+	"bs-countthings-files-label": "קבצים",
+	"bs-countthings-pages-label": "דפים",
+	"bs-countthings-ve-countthingsinspector-mode": "מצב",
+	"bs-countthings-ve-countcharacters-mode-all": "הכול",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "תווים",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "מילים",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "מילים ואותיות",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "דפים",
+	"bs-countthings-ve-countcharacters-input-label": "דפים",
+	"bs-countthings-error-no-input": "לא צוין דף.",
+	"bs-countthings-error-invalid-mode": "המצב \"$1\" אינו תקין. יש להשתמש באחד המצבים \"chars\",&rlm; \"words\" או \"pages\".",
+	"bs-countthings-error-not-exist": "הדף \"$1\" אינו קיים.",
+	"bs-countthings-tag-countarticles-desc": "הצגת מספר דפי התוכן באתר.",
+	"bs-countthings-tag-countusers-desc": "הצגת מספר המשתמשים הרשומים.",
+	"bs-countthings-tag-countfiles-desc": "מציג את מספר הקבצים באתר.",
+	"bs-countthings-tag-countcharacters-desc": "יצירת מטא־נתונים עם התוכן של ערך מסוים. הפלט הוא תיבת מידע שניתן לשלבהּ בערך. אפשר להציג סוגים שונים של מידע באמצעות הפרמטר \"mode\".",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: מה צריך לספור – <code>chars</code> (תווים), <code>words</code> (מילים) או <code>pages</code> (דפים).",
+	"bs-countthings-tag-countcharacters-example-1": "מספר המילים",
+	"bs-countthings-tag-countcharacters-example-2": "מספר התווים"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Janezdrilc"
+		]
+	},
+	"uploadslink-portlet-label": "Nalaganja",
+	"tooltip-pt-uploads": "Seznam datotek, ki si jih naložil",
+	"uploadslink-toobox-label": "{{GENDER:$1|Uporabnikova|Uporabničina}} nalaganja",
+	"tooltip-tb-uploads": "Seznam nalaganj tega {{GENDER:$1|uporabnika}}"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Identifikasjonsnøkkelgenerator og editor",
+	"apihelp-query+LifeWeb-description": "Data-downlink for LifeBase.",
+	"apihelp-query+LifeWeb-summary": "Datanedlastingslenke for LifeBase.",
+	"apihelp-query+LifeWeb-param-what": "Hvilken dataliste som skal hentes.",
+	"apihelp-query+LifeWeb-param-clearCache": "Hvorvidt mellomlageret skal tømmes under datahenting.",
+	"apihelp-query+LifeWeb-example-1": "Taksonliste",
+	"apihelp-query+LifeWeb-example-2": "Spørsmålsliste, fintrykk"
+}

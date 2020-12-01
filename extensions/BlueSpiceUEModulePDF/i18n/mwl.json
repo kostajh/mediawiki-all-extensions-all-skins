@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"MokaAkashiyaPT"
+		]
+	},
+	"bs-uemodulepdf-desc": "Premite que l MediaWiki sporte páiginas an formato PDF",
+	"prefs-uemodulepdf": "Módulo de sportaçon ounibersal PDF",
+	"uemodulepdf": "Módulo de sportaçon ounibersal PDF",
+	"bs-uemodulepdf-pref-suppressns": "Scunder l prefixo de l domínio ne l PDF",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-text": "Páigina única an PDF",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-title": "Sportar esta páigina pa l formato PDF.",
+	"bs-uemodulepdf-overview-title": "Formato de Decumiento Portátil (PDF)",
+	"bs-uemodulepdf-overview-desc": "Sporta páiginas (páiginas speciales i de cuntenido) pa PDF.",
+	"bs-uemodulepdf-overview-webservice-state": "Stado de l serbidor",
+	"bs-uemodulepdf-overview-webservice-state-ok": "çponible",
+	"bs-uemodulepdf-overview-webservice-state-not-ok": "nó çponible",
+	"soap-service-url-not-valid": "La morada eiletrónica pa l serbício eiletrónico de giraçon de PDF nó ye bálida. Cunsulte la cunfiguraçon de la biqui (wiki), por fabor.",
+	"soap-service-url-not-set": "La morada eiletrónica pa l serbício eiletrónico de giraçon de PDF nó stá defenida. Cunsulte la cunfiguraçon de la biqui (wiki), por fabor.",
+	"bs-uemodulepdf-overview-webservice-webadmin": "Çpositibo eiletrónico de l serbidor"
+}

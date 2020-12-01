@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"newsticker": "شريط الأخبار",
+	"newsticker-desc": "يضيف كلمة سحرية تعرض شريط أخبار يمكن تهيئته من صفحة خاصة.",
+	"newsticker-summary": "صفحة خاصة لتعيين محتوى وصفحات شريط الأخبار",
+	"newsticker-general": "عام",
+	"newsticker-news": "الأخبار",
+	"newsticker-class": "الصنف",
+	"newsticker-style": "النمط",
+	"newsticker-pages": "الصفحات",
+	"newsticker-page1": "الصفحة 1",
+	"newsticker-page2": "الصفحة 2",
+	"newsticker-page3": "الصفحة 3",
+	"newsticker-page4": "الصفحة 4",
+	"newsticker-page5": "الصفحة 5",
+	"newsticker-page6": "الصفحة 6",
+	"newsticker-page7": "الصفحة 7",
+	"newsticker-page8": "الصفحة 8",
+	"newsticker-page9": "الصفحة 9",
+	"newsticker-title": "العنوان",
+	"newsticker-add-page": "إضافة صفحة",
+	"newsticker-default-news-help": "تعيين الأخبار الافتراضية لجميع الأشرطة الإخبارية، خبر واحد لكل سطر، نص الويكي مسموح به.",
+	"newsticker-default-class-help": "تعيين فئات CSS الافتراضية لجميع مؤشرات الأخبار.",
+	"newsticker-default-style-help": "قم بتعيين التصميم الافتراضي لـCSS لجميع مؤشرات الأخبار.",
+	"newsticker-pages-help": "تعيين عدد الصفحات التي ستعرض شريط الأخبار، بحيث تظهر هذه الصفحة الخاصة قسما واحدا لكل صفحة، تنبيه! إذا قمت بتقليل عدد الصفحات، فستفقد بيانات الصفحات المتبقية!",
+	"newsticker-title-help": "تعيين عنوان الصفحة لإظهار شريط الأخبار هذا.",
+	"newsticker-news-help": "تعيين الأخبار لشريط الأخبار هذا، تجاوز الأخبار الافتراضية.",
+	"newsticker-class-help": "تعيين فئات CSS لشريط الأخبار هذا، مع تجاوز فئات CSS الافتراضية.",
+	"newsticker-style-help": "تعيين تصميم CSS لشريط الأخبار هذا، مع تجاوز تصميم CSS الافتراضي.",
+	"right-newsticker": "التحكم بأشرطة الأخبار",
+	"action-newsticker": "إدارة مؤشرات الأخبار"
+}

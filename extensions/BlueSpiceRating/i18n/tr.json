@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"Mirzali"
+		]
+	},
+	"bs-rating-extension-description": "Bir derecelendirme sistemi sağlar",
+	"bs-rating-types-page": "Sayfa derecelendirmesi",
+	"bs-rating-types-pagelike": "Sayfa önerisi",
+	"rating": "Derecelendirmeler",
+	"recommendations": "Öneriler",
+	"bs-rating-yourrating": "Sizin dereceniz: $1",
+	"bs-rating-special-rating-heading": "Derecelendirmeler",
+	"bs-rating-articlelike-ratingtext": "Önerilen ($1)",
+	"bs-rating-articlelike-uratingtextservoted": "Önerilen ($1)",
+	"action-rating-viewspecialpage": "\"Derecelendirme Görünümü\" hakkına sahip korunan sayfaları görüntüle",
+	"action-rating-read": "sayfalardaki derecelendirmeleri oku",
+	"action-rating-write": "sayfalarda oy ver",
+	"action-rating-archive": "oyları sayfalardan kaldır",
+	"right-rating-viewspecialpage": "\"Derecelendirme Görünümü\" hakkına sahip korunan sayfaları görüntüle",
+	"right-rating-read": "Sayfalardaki derecelendirmeleri oku",
+	"right-rating-write": "Sayfalara oy ver",
+	"right-rating-archive": "Oyları sayfalardan kaldır",
+	"bs-rating-special-recommendations-heading": "Öneriler",
+	"bs-rating-special-recommendations-label-recommendation": "Öneriler",
+	"bs-rating-specialrating-label-namespace": "Ad alanı",
+	"bs-rating-specialrating-titleTitle": "Başlık",
+	"bs-rating-specialrating-titleRating": "Derecelendirme",
+	"bs-rating-specialrating-titleVotes": "Derecelendirme sayısı",
+	"apihelp-bs-rating-tasks-description": "Uzantı değerlendirmesi için genel görevleri yürütür",
+	"apihelp-bs-rating-store-description": "Maddeler derecelendirmesi sunar",
+	"bs-rating-nsm-label": "Derecelendirme",
+	"bs-rating-nsm-label-recommendations": "Öneriler",
+	"apihelp-bs-rating-tasks-summary": "Derecelendirme uzantısı için genel görevleri yürütür",
+	"apihelp-bs-ratingarticle-store-summary": "Maddeler için derecelendirme sunar",
+	"apihelp-bs-ratingarticlelike-store-summary": "Maddeler için öneriler sunar"
+}

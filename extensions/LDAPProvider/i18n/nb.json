@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"ldapprovider-desc": "Gir en felles infrastruktur for å koble til en LDAP-ressurs og kjøre spørringer mot den",
+	"ldapprovider-config-clientregistry": "Gjør det mulig å registrere egendefinerte klienter",
+	"ldapprovider-config-domainconfigs": "Lagere per domenekonfigurasjoner",
+	"ldapprovider-domain-config-not-found": "Kunne ikke få tilgang til konfigurasjonsfilen «$1»!\n\nSett opp en domenekonfigurasjonsfil for LDAPProvider-utvidelsen.",
+	"ldapprovider-more-than-one": "Fant mer enn én bruker for «$1»",
+	"ldapprovider-config-domainconfigprovider": "Angir mekanismen for å hente domenekonfigurasjonen",
+	"ldapprovider-config-defaultdomain": "Angir hvilket domene som skal velges for en bruker, hvis ingen mapping fra databasen er tilgjengelig"
+}

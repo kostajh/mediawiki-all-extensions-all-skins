@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"RV1971"
+		]
+	},
+	"dynamicpagelistengine-desc": "Implementa liste di pagine create dinamicamente in base a criteri di selezione configurabili ed estensibili; le liste possono essere utilizzate da moduli creati con l'estensione [[mw:Special:MyLanguage/Extension:Scribunto|Scribunto]] o da altre estensioni",
+	"dple-tracking-category": "Pagine che utilizzano DynamicPageListEngine",
+	"dple-error-invalid-ns-index": "Errore DynamicPageListEngine: Namespace numero $1 non esiste.",
+	"dple-error-no-criteria": "Errore DynamicPageListEngine: Nessun criterio di selezione specificato.",
+	"dple-error-too-expensive": "Errore DynamicPageListEngine error: query dispendioso quanto $1 tabelle combinate, mentre il massimo consentito è di $2.",
+	"dple-error-too-many-expensive-functions": "Errore DynamicPageListEngine: la pagina usa troppe funzioni dispendiose."
+}

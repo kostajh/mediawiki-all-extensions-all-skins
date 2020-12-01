@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Singhalawap",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"openstackmanager": "විවෘතරාක්කකළමනාකරු",
+	"novakey": "ඔබේ පොදු SSH යතුරු කළමනාකරණය කරන්න",
+	"specialpages-group-nova": "විවෘතරාක්ක නවතරුව",
+	"openstackmanager-novakey": "නවතරු යතුර",
+	"openstackmanager-delete": "මකන්න",
+	"openstackmanager-actions": "කාර්යයන්",
+	"openstackmanager-notloggedin": "ප්‍රවිෂ්ට වී සිටීම අවශ්‍යයි",
+	"openstackmanager-mustbeloggedin": "මෙම ක්‍රියාව ඉටු කිරීම සඳහා ඔබ ප්‍රවිෂ්ට වී සිටිය යුතුයි.",
+	"openstackmanager-novapublickey": "පොදු SSH යතුර",
+	"openstackmanager-deletekey": "යතුර මකන්න",
+	"openstackmanager-deletekeyconfirm": "කලින් කී යතුර මැකීම පිලිබඳ ඔබට විශ්වාසද?",
+	"openstackmanager-keylist": "යතුරු ලැයිස්තුව",
+	"openstackmanager-name": "නම",
+	"openstackmanager-fingerprint": "ඇඟිලිසලකුණ",
+	"openstackmanager-keys": "යතුරු",
+	"openstackmanager-keypairimportfailed": "යතුරුයුගල ආයාත කිරීමට අපොහොසත් වුණි.",
+	"openstackmanager-keypairimported": "යතුරුයුගල ආයාත කරන ලදී.",
+	"openstackmanager-deletedkey": "යතුර සාර්ථකව මකන ලදී.",
+	"openstackmanager-deletedkeyfailed": "යතුර මැකීමට අපොහොසත් වුණි.",
+	"openstackmanager-shellaccountname": "දෘෂ්ටාන්ත කවච ගිණුම් නාමය"
+}

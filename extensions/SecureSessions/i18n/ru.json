@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agilight",
+			"Okras"
+		]
+	},
+	"securesessions-desc": "Делает сеансы пользователей и сессии аутентификации более безопасными",
+	"securesessions-personalurl": "Открытые сеансы ($1)",
+	"securesessions-ipsession": "Выйти из всех остальных сеансов.",
+	"securesessions-iprestrict": "Ограничить сессии этим IP-адресом,",
+	"securesessions-uarestrict": "Ограничить сессии этим браузером.",
+	"securesessions-sessions": "Сессии",
+	"securesessions-sessions-legend": "Информация о сессии",
+	"securesessions-sessions-text": "Ниже приведены все открытые сеансы для вашей учётной записи и сведения о них. Вы можете закрыть все другию сеансы, используя кнопку, расположенную ниже. Звёздочка (*) обозначает текущий сеанс.",
+	"securesessions-sessions-ip": "IP-адрес:",
+	"securesessions-sessions-activity": "Последняя активность:",
+	"securesessions-sessions-clear": "Выйти из всех остальных сеансов",
+	"securesessions-prefs-country": "Ограничение входа в систему по странам:",
+	"securesessions-prefs-tor": "Запретить вход в систему из узлов сети Tor.",
+	"securesessions-disallowedcountry": "Этой учётной записи не разрешён вход из данной страны.",
+	"securesessions-disallowedtor": "Этой учётной записи не разрешен вход из узлов сети Tor."
+}

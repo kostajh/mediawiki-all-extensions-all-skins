@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chase me ladies, I'm the Cavalry"
+		]
+	},
+	"nukedpl": "Mass delete by DPL query",
+	"nukedpl-desc": "Adds a [[Special:NukeDPL|special page]] for mass deletion by DPL query",
+	"nukedpl-intro": "This tool allows for mass deletions of pages selected by a DPL query.\n\nEnter a query below to generate a list of titles to delete.\n* Titles can be individually removed before deleting.\n* Remember, page titles are case-sensitive.\n* Queries shouldn't be surrounded by any DPL tags or braces.\n* For information about the parameter meanings, see the [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL Manual].",
+	"nukedpl-candidatelist": "View candidate list",
+	"nukedpl-nopages": "No pages to delete using DPL query: <code>$1</code>",
+	"nukedpl-nuke": "Nuke!",
+	"nukedpl-list": "The following {{PLURAL:$1|page was|pages were}} selected by DPL query: <code>$2</code>\n\nHit \"{{int:nukedpl-nuke}}\" to delete {{PLURAL:$1|it|them}}.",
+	"nukedpl-defaultreason": "Mass removal of pages selected by DPL query: $1",
+	"right-nukedpl": "Nuke pages by Dynamic Page List queries"
+}

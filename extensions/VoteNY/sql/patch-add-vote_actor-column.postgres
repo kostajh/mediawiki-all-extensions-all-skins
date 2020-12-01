@@ -1,0 +1,4 @@
+ALTER TABLE "Vote" ADD COLUMN vote_actor integer NOT NULL;
+
+CREATE INDEX actoridx ON "Vote" (vote_actor);
+

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"timemachine": "Time Machine",
+	"timemachine-desc": "After setting a date in [[Special:TimeMachine]], allows to browse the content of the wiki as it was on that date.",
+	"timemachine-p1": "Enter a date below to browse the wiki as it was on that date.",
+	"timemachine-button1": "Go to this date",
+	"timemachine-p2": "Note that only the content of the wiki will change. The style, sidebar, footer and other elements of the wiki will remain unchanged.",
+	"timemachine-p3": "To return to browsing the wiki normally, click the button below, or empty your cookies.",
+	"timemachine-button2": "Back to the present"
+}

@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2",
+			"SGTTechnologicBunny",
+			"Steeve815",
+			"YaronSh"
+		]
+	},
+	"bs-insertlink-desc": "תיבת דו־שיח להזנת קישור",
+	"prefs-insertlink": "הוספת קישור",
+	"bs-insertlink": "הוספת קישור",
+	"bs-insertlink-pref-enable-java": "הפעלת יישומון Java",
+	"bs-insertlink-button-title": "הוספת/עריכת קישור",
+	"bs-insertlink-dialog-title": "הוספת קישור",
+	"bs-insertlink-tab-wiki-page": "דף ויקי",
+	"bs-insertlink-tab-ext-link": "קישור חיצוני",
+	"bs-insertlink-tab-email": "קישור דוא״ל",
+	"bs-insertlink-tab-file": "קשר לקובץ",
+	"bs-insertlink-label-page": "דף",
+	"bs-insertlink-label-link": "קישור",
+	"bs-insertlink-label-mail": "כתובת דוא\"ל",
+	"bs-insertlink-label-description": "תיאור",
+	"bs-insertlink-label-file": "קובץ",
+	"bs-insertlink-label-searchfile": "חיפוש...",
+	"bs-insertlink-select-a-page": "נא לבחור יעד...",
+	"bs-insertlink-select-a-namespace": "(דפים)",
+	"bs-insertlink-empty-field-text": "כדי להוסיף קישור, יש לציין יעד.",
+	"bs-insertlink-no-applet": "לא ניתן היה לטעון את היישומון. נא לבדוק את התקנת ה־Java שלך.",
+	"bs-insertlink-internal-file-link-button-label": "בחירת קובץ",
+	"bs-insertlink-pref-filesystemmap-fs-prefix": "קידומת מערכת קבצים",
+	"bs-insertlink-pref-filesystemmap-web-prefix": "קידומת נגישה מהאינטרנט",
+	"bs-insertlink-pref-allowunmapped": "לאפשר קישורים לא ממופים"
+}

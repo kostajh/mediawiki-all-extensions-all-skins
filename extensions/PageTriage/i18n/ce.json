@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Исмаил Садуев",
+			"Умар"
+		]
+	},
+	"pagetriage-reviewed": "Теллина",
+	"pagetriage-hist": "истори",
+	"pagetriage-bytes": "$1 {{PLURAL:$1|байт}}",
+	"pagetriage-no-reference": "Билгалдаккхар яц",
+	"pagetriage-author-blocked": "Блоктоьхна",
+	"pagetriage-author-bot": "Бот",
+	"pagetriage-triage": "Хьажа",
+	"pagetriage-filter-type-show-heading": "Тайпа:",
+	"pagetriage-filter-unreviewed-edits": "Талланза агӀонаш",
+	"pagetriage-filter-username": "Декъашхочун цӀе",
+	"pagetriage-filter-ns-all": "Массо",
+	"pagetriage-more": "Дукха",
+	"pagetriage-filter-stat-type": "Тайпа",
+	"pagetriage-filter-stat-all": "Массо",
+	"pagetriage-filter-stat-nominated-for-deletion": "дӀаяха кховдинарш",
+	"pagetriage-filter-stat-blocked": "блоктоьхна декъашхой",
+	"pagetriage-filter-stat-username": "декъашхочун цӀе: $1",
+	"pagetriage-welcome": "Дехар до, лахарчу керла агӀонашка хьажар а уьш таян а {{SITENAME}}. [$1 Мадарра] · [$2 Язде хьайна хетарг]",
+	"pagetriage-note-reviewed": "ХӀара агӀо теллина ю.",
+	"pagetriage-note-not-reviewed": "ХӀара агӀо хӀинца а талланза ю.",
+	"pagetriage-button-edit-details": "Хийца мадарра дерш",
+	"pagetriage-tags-cat-common-label": "Викиларма",
+	"pagetriage-del-tags-dbg7-label": "Авторо доьху дӀаяккхар",
+	"pagetriage-tags-param-free-yes-label": "ХӀаъ",
+	"pagetriage-info-title": "АгӀонах лаьцна хаам",
+	"pagetriage-info-history-header": "Истори",
+	"pagetriage-info-help": "гӀо",
+	"pagetriage-info-problem-no-categories-desc": "ХӀокху агӀона цхьаа категори яц.",
+	"pagetriage-toolbar-learn-more": "Цул совнаха хаа »",
+	"pagetriage-del-tooltip": "Кховдае хӀара агӀо дӀаяккхаре",
+	"pagetriage-afc-state-all": "Ерриге"
+}

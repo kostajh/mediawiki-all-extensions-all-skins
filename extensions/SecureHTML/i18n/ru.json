@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"securehtml": "Безопасный HTML",
+	"securehtml-desc": "Позволяет включать произвольный HTML разрешённым и безопасным способом",
+	"securehtml-nokeys": "Ошибка: <code>$wgSecureHTMLSecrets</code> не заполнен.",
+	"securehtml-hashrequired": "Ошибка: требуется хэш.",
+	"securehtml-invalidhash": "Ошибка: недопустимый хэш.",
+	"securehtml-input-title": "Ввод HTML",
+	"securehtml-generatedoutput-title": "Сгенерированный результат",
+	"securehtml-renderedhhtml-title": "Обработанный HTML",
+	"securehtml-form-keyname": "Имя ключа (необязательно)",
+	"securehtml-form-keysecret": "Код ключа",
+	"securehtml-form-html": "Необработанный HTML",
+	"securehtml-form-submit": "Отправить",
+	"securehtml-inputinstructions": "Введите имя ключа (необязательно), код ключа, необходимый исходный HTML-код.\nЕсли имя ключа не указано, будет принят первый ключ в <code>$wgSecureHTMLSecrets</code>.",
+	"securehtml-outputinstructions": "Скопируйте В ТОЧНОСТИ приведённый выше код и вставьте его в вики-редактор.\nЕсли созданный код не работает, попробуйте удалить все символы перевода строки из исходного HTML и повторить генерацию."
+}

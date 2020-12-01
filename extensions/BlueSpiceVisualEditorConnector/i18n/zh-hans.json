@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian",
+			"A Retired User",
+			"Josephine W.",
+			"Shuiwater",
+			"Viztor",
+			"予弦",
+			"佛壁灯",
+			"沈澄心",
+			"神樂坂秀吉",
+			"科劳"
+		]
+	},
+	"bs-visualeditorconnector-desc": "将 VisualEditor 与 BlueSpice 相连",
+	"bs-visualeditorconnector-enable-visualeditor": "为 BlueSpice 扩展启用 VisualEditor",
+	"bs-visualeditorconnector-upload-type-simple": "简单",
+	"bs-visualeditorconnector-cancel-edit-no-unsaved-changes": "取消编辑",
+	"bs-visualeditorconnector-cancel-edit": "取消编辑。未保存的编辑将被舍弃",
+	"bs-visualeditorconnector-cancel-edit-confirm-message": "你真的要取消这次的编辑吗？你未保存的部分将被销毁。",
+	"bs-visualeditor-nsm-label": "可视化编辑器",
+	"bs-visualeditorconnector-inspector-tab-common-name": "普通",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "高级",
+	"bs-visualeditorconnector-ve-style-option-description": "选择表格样式",
+	"bs-visualeditorconnector-ve-style-option": "表格样式",
+	"bs-visualeditorconnector-upload-dialog-type": "MediaDialog 的文件上传工作流",
+	"bs-visualeditorconnector-text-style-tool-color-label": "文本颜色",
+	"bs-vec-table-inspector-column": "列",
+	"bs-vec-table-inspector-row": "行",
+	"bs-vec-table-inspector-cell": "单元格",
+	"bs-vec-table-style-column-width": "列宽",
+	"bs-vec-table-style-row-height": "行高（像素）",
+	"bs-vec-dialog-action-done": "完成",
+	"bs-vec-dialog-action-safe": "取消",
+	"bs-vec-dialog-media-change-file": "改变文件",
+	"bs-vec-ve-table-width-value-auto": "自动",
+	"bs-vec-table-border-none": "无",
+	"bs-vec-table-border-left": "左边",
+	"bs-vec-table-border-bottom": "底部",
+	"bs-vec-table-border-double": "两倍"
+}

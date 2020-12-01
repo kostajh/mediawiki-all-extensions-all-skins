@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"D41D8CD98F",
+			"Liuxinyu970226",
+			"佛壁灯",
+			"科劳"
+		]
+	},
+	"deleteuserpages-desc": "让用户删除其自己的用户页",
+	"action-delete-rootuserpages": "删除自己的用户页和用户讨论页",
+	"right-delete-rootuserpages": "删除自己的用户页和用户讨论页",
+	"action-delete-usersubpages": "删除其用户页的子页面",
+	"right-delete-usersubpages": "删除其自己用户页的子页面"
+}

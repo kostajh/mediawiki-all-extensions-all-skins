@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"formelapplet-desc": "문서에 [http://wiki.formelapplet.de FormelApplet] 애플릿을 추가합니다.",
+	"formelapplet-nojava": "이 문서를 사용하려면 $1을(를) 설치하세요.",
+	"formelapplet-missing-parameter": "변수(width 또는 height 또는 term/solution)가 없습니다.",
+	"formelapplet-file-not-found": "$1 파일을 찾을 수 없습니다.",
+	"formelapplet-error": "FormelApplet 미디어위키 확장 기능에 오류가 났습니다: <em>$1</em>"
+}

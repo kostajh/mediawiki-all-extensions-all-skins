@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjälten",
+			"Sabelöga"
+		]
+	},
+	"gpgmail-desc": "Kryptera epost med GPG",
+	"gpgmail-pref-enable": "Krypterar e-post med GPG",
+	"gpgmail-pref-key": "Offentlig GPG-nyckel",
+	"gpgmail-pref-key-help": "Läs [https://help.ubuntu.com/community/GnuPrivacyGuardHowto Ubuntus instruktioner] fför att få hjälp med att att hämta en offentlig nyckel.",
+	"gpgmail-encrypt-error": "Ett fel uppstod när e-posten krypterades."
+}

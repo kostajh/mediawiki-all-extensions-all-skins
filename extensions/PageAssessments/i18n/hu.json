@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"pageassessments-desc": "A cikkek értékelésének tárolása adatbázistáblában egy feldolgozófüggvény segítségével",
+	"pageassessments-special": "Cikkértékelés",
+	"pageassessments-project": "Műhely",
+	"pageassessments-page-namespace": "Lap névtere",
+	"pageassessments-page-title": "Lap címe",
+	"pageassessments-search": "Keresés",
+	"pageassessments-importance": "Fontosság",
+	"pageassessments-class": "Besorolás",
+	"pageassessments-timestamp": "Időbélyeg",
+	"pageassessments-total-results": "Összes találat: $1",
+	"pageassessments-error-namespace-filter": "A névtér szerinti szűréshez műhely vagy lapcím szerinti szűrés is szükséges."
+}

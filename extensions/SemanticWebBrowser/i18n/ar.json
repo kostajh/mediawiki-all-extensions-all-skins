@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"browsesw": "تصفح الويكي والويب الدلالي",
+	"swb_desc": "يضيف الصفحة الخاصة [[Special:BrowseSW|تصفح الويكي والويب الدلالي]]",
+	"swb_browse_article": "أدخل اسم الصفحة لبدء التصفح الدلالي منها.",
+	"swb_browse_go": "اذهب",
+	"swb_browse_show_incoming": "إظهار الخصائص الواردة التي تربط هنا",
+	"swb_browse_hide_incoming": "إخفاء الخصائص الواردة التي تربط هنا",
+	"swb_browse_no_outgoing": "هذه الصفحة ليست لها خصائص.",
+	"swb_browse_no_incoming": "لا توجد خصائص تربط إلى هذه الصفحة.",
+	"swb_inverse_label_property": "تسمية خاصية عكسية",
+	"swb_inverse_label_default": "$1 من",
+	"swb_browse_error": "تعذر تحميل البيانات الدلالية باستخدام متصفح الويب الدلالي بسبب خطأ:"
+}

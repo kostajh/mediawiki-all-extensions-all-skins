@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"popupalerts-desc": "Permite inserir uma janela pop-up em uma página wiki usando marcação.",
+	"popupalerts-expiration-info": "Da próxima vez, este pop-up será exibido após $1 {{PLURAL:$1|dia|dias}}."
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"bs-social-notifications-email-entity-create-body": "Корисникот {{GENDER:$1|$2 има создадено}} нова „$3”",
+	"bs-social-notifications-email-entity-create-text-body": "Корисникот {{GENDER:$1|$2 има создадено}} нова „$3” со следниов текст:\n$4",
+	"bs-social-notifications-web-entity-create-body": "Корисникот {{GENDER:$1|$2 има создадено}} нова „$3”",
+	"bs-social-notification-primary-link-label": "Прегледај единица"
+}

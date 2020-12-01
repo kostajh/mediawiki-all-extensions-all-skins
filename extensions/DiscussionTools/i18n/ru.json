@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ailbeve",
+			"Alexander Yukal",
+			"Ed g2s",
+			"Iniquity",
+			"Kareyac",
+			"MuratTheTurkish",
+			"Okras",
+			"Pacha Tchernof",
+			"Sunpriat",
+			"Умар"
+		]
+	},
+	"discussiontools": "Инструменты обсуждения",
+	"discussiontools-defaultsummary-reply": "Ответ",
+	"discussiontools-preference-label": "Инструменты обсуждения",
+	"discussiontools-preference-description": "Включить новый рабочий процесс для [//www.mediawiki.org/wiki/Talk_pages_project/replying replying to specific comments] на страницах обсуждения.\n\nПожалуйста обратите внимание, что со временем будут добавлены новые инструменты для взаимодействия со страницами обсуждения.\n\nОбновления об этих функциях будут размещены на [//www.mediawiki.org/wiki/Talk_pages_project/Updates talk pages project's updates page].",
+	"discussiontools-replywidget-cancel": "Отмена",
+	"discussiontools-replywidget-loading": "Загрузка…",
+	"discussiontools-replywidget-mention-tool-title": "Упомянуть участника",
+	"discussiontools-replywidget-mode-source": "Источник",
+	"discussiontools-replywidget-mode-visual": "Визуальный",
+	"discussiontools-replywidget-placeholder-reply": "Ответить {{BIDI:$1}}",
+	"discussiontools-replywidget-preview": "Предпросмотр",
+	"discussiontools-replywidget-reply": "Ответить",
+	"discussiontools-replywidget-terms-click": "Нажимая $1, вы соглашаетесь с условиями использования этой вики.",
+	"discussiontools-replywidget-transcluded": "Ваш комментарий на [[$1]] будет сохранен.",
+	"discussiontools-error-comment-is-transcluded": "На этот комментарий нельзя ответить с помощью этого инструмента. Пожалуйста, попробуйте использовать полный редактор страниц.",
+	"discussiontools-error-comment-is-transcluded-title": "На этот комментарий (пока) нельзя ответить, потому что он загружен с другой страницы. Пожалуйста, перейдите на [[$1]], чтобы ответить на него.",
+	"tag-discussiontools-description": "Правка совершена с помощью DiscussionTools",
+	"tag-discussiontools-edit": "Редактировать комментарий",
+	"tag-discussiontools-edit-description": "Пользователь отредактировал существующий комментарий с помощью DiscussionTools",
+	"tag-discussiontools-newtopic": "Новая тема",
+	"tag-discussiontools-newtopic-description": "Пользователь добавил новую тему на страницу с помощью DiscussionTools",
+	"tag-discussiontools-reply": "[{{int:discussiontools-replywidget-reply-link}} Ответ]",
+	"tag-discussiontools-reply-description": "Пользователь ответил на комментарий с помощью DiscussionTools",
+	"tag-discussiontools-source": "Источник",
+	"tag-discussiontools-visual-description": "DiscussionTools было в визуальном режиме"
+}

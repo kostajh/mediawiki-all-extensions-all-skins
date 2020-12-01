@@ -1,0 +1,174 @@
+{
+	"name": "ExternalGuidance",
+	"version": "1.0.0",
+	"author": [
+		"Santhosh Thottingal",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ExternalGuidance",
+	"descriptionmsg": "externalguidance-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.32.0",
+		"extensions": {
+			"MobileFrontend": ">= 2.1.0",
+			"UniversalLanguageSelector": "*"
+		}
+	},
+	"ExtensionMessagesFiles": {
+		"ExternalGuidanceAliases": "ExternalGuidance.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ExternalGuidance\\": "includes/"
+	},
+	"SpecialPages": {
+		"ExternalGuidance": "MediaWiki\\Extension\\ExternalGuidance\\SpecialExternalGuidance"
+	},
+	"ConfigRegistry": {
+		"ExternalGuidance": "GlobalVarConfig::newInstance"
+	},
+	"config": {
+		"ExternalGuidanceMTReferrers": {
+			"value": [],
+			"description": "Host names of machine translation services"
+		},
+		"ExternalGuidanceSiteTemplates": {
+			"value": {
+				"view": "//$1.wikipedia.org/wiki/$2",
+				"action": "//$1.wikipedia.org/w/index.php?title=$2",
+				"api": "//$1.wikipedia.org/w/api.php"
+			},
+			"description": "URL templates for sites corresponding to other languages"
+		},
+		"ExternalGuidanceDomainCodeMapping": {
+			"value": {
+				"be-tarask": "be-x-old",
+				"bho": "bh",
+				"crh-latn": "crh",
+				"gsw": "als",
+				"lzh": "zh-classical",
+				"nan": "zh-min-nan",
+				"nb": "no",
+				"rup": "roa-rup",
+				"sgs": "bat-smg",
+				"vro": "fiu-vro",
+				"yue": "zh-yue"
+			},
+			"description": "Language to domain name mapping"
+		},
+		"ExternalGuidanceKnownServices": {
+			"value": ["Google"],
+			"description": "Valid list of service names"
+		},
+		"ExternalGuidanceEnableContextDetection": {
+			"value": true,
+			"description": "Enable external context detection in the wiki where this is deployed. If not enabled, the Special:ExternalGuidance will be present, so that users can come from a different wiki where context detection is enabled."
+		}
+	},
+	"Hooks": {
+		"BeforePageDisplay": "MediaWiki\\Extension\\ExternalGuidance\\Hooks::addModules",
+		"ResourceLoaderGetConfigVars": "MediaWiki\\Extension\\ExternalGuidance\\Hooks::addConfig"
+	},
+	"MessagesDirs": {
+		"ExternalGuidance": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"mw.externalguidance.init": {
+			"targets": [ "desktop", "mobile" ],
+			"skinScripts": {
+				"minerva": [ "mw.externalguidance.init/init.js" ]
+			},
+			"dependencies": [
+				"mediawiki.Uri"
+			]
+		},
+		"mw.externalguidance": {
+			"targets": [ "desktop", "mobile" ],
+			"skinScripts": {
+				"minerva": [
+					"mw.externalguidance/core.js",
+					"mw.externalguidance/sitemapper.js",
+					"mw.externalguidance/mtinfo.js"
+				]
+			},
+			"skinStyles": {
+				"minerva": [
+					"mw.externalguidance/main.less",
+					"mw.externalguidance/mtinfo.less"
+				]
+			},
+			"messages": [
+				"externalguidance-machine-translation-heading",
+				"externalguidance-machine-translation-contribute",
+				"externalguidance-machine-translation-page-exist",
+				"externalguidance-machine-translation-page-missing",
+				"externalguidance-machine-translation-provider-info-title",
+				"externalguidance-machine-translation-provider-info",
+				"externalguidance-machine-translation-provider-terms",
+				"externalguidance-machine-translation-access-source-title",
+				"externalguidance-machine-translation-access-source-page-missing",
+				"externalguidance-machine-translation-access-source-page-exist",
+				"externalguidance-machine-translation-contribute-link"
+			],
+			"dependencies": [
+				"mobile.startup",
+				"mediawiki.ForeignApi",
+				"mw.externalguidance.icons",
+				"oojs-ui.styles.icons-editing-core"
+			]
+		},
+		"mw.externalguidance.icons": {
+			"class": "ResourceLoaderImageModule",
+			"selector": ".mw-ui-icon-eg-{name}:before",
+			"images": {
+				"robot": "images/robot.svg",
+				"user": "images/userAvatar.svg"
+			}
+		},
+		"mw.externalguidance.special": {
+			"targets": [ "desktop", "mobile" ],
+			"scripts": [
+				"mw.externalguidance/sitemapper.js",
+				"mw.externalguidance.special/createpage.js"
+			],
+			"styles": [
+				"mw.externalguidance.special/specialpage.less",
+				"mw.externalguidance.special/createpage.less"
+			],
+			"messages": [
+				"externalguidance-specialpage-createpage-title",
+				"externalguidance-specialpage-createpage-title-label",
+				"externalguidance-specialpage-createpage-button-label",
+				"externalguidance-specialpage-createpage-button-label-edit",
+				"externalguidance-specialpage-createpage-desc",
+				"externalguidance-specialpage-createpage-page-exist",
+				"externalguidance-specialpage-createpage-methods-header",
+				"externalguidance-specialpage-createpage-create-from-scratch",
+				"externalguidance-specialpage-createpage-create-from-translation"
+			],
+			"dependencies": [
+				"mobile.startup",
+				"mediawiki.ui.radio",
+				"mediawiki.jqueryMsg",
+				"jquery.uls.data",
+				"mediawiki.ForeignApi",
+				"mw.externalguidance.icons"
+			]
+		}
+	},
+	"attributes": {
+		"EventLogging": {
+			"Schemas": {
+				"ExternalGuidance": 18903973
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "ExternalGuidance/modules"
+	},
+	"manifest_version": 2
+}

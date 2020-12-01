@@ -1,0 +1,41 @@
+{
+	"require": {
+		"dan-coulter/phpflickr": "dev-master"
+	},
+	"require-dev": {
+		"mediawiki/mediawiki-codesniffer": "33.0.0",
+		"mediawiki/minus-x": "1.1.0",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude node_modules --exclude vendor",
+			"phpcs -p -s",
+			"minus-x check ."
+		],
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		]
+	},
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "dan-coulter/phpflickr",
+				"version": "dev-master",
+				"source": {
+					"url": "https://github.com/dan-coulter/phpflickr.git",
+					"type": "git",
+					"reference": "bc4f2092b15d347e3d40c19fe0dbff8759fc8e51"
+				},
+				"autoload": {
+					"classmap": [
+						"phpFlickr.php"
+					]
+				}
+			}
+		}
+	]
+}

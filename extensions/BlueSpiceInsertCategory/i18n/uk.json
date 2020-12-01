@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Movses",
+			"Piramidion",
+			"Viiictorrr",
+			"Ата"
+		]
+	},
+	"bs-insertcategory-desc": "Діалог введення посилання на категорію",
+	"bs-insertcategory-insertcat": "Вставити категорію",
+	"prefs-insertcategory": "Вставити категорію",
+	"bs-insertcategory-pref-withparents": "Вставити категорію з її батьківськими категоріями",
+	"bs-insertcategory-pref-uploadpanelintegration": "Встановити категорії сторінок за замовчуванням у діалоговому вікні завантаження",
+	"bs-insertcategory-title": "Вставити категорію",
+	"bs-insertcategory-cat-label": "Призначення:",
+	"bs-insertcategory-success": "Категорію додано",
+	"bs-insertcategory-failure": "Помилка",
+	"bs-insertcategory-hint": "Примітка: щоб додати категорію, необхідно натиснути клавішу enter.",
+	"bs-insertcategory-panel-title": "Категорії",
+	"bs-insertcategory-category-editor-title": "Категорії",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Неявні категорії",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Ці категорії не визначаються в межах вікірозмітки сторінки. Найімовірніше, вони встановлюються шаблоном.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Вилучити всі",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "редагувати",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Редагувати категорії сторінки",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Редагування категорій цієї сторінки"
+}

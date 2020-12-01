@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"smoothgallery": "SmoothGallery (\"Makinis na Tanghalan/Galerya\")",
+	"smoothgallery-desc": "Nagpapahintulot sa mga tagagamit na makalikha ng mga galerya/tanghalan ng naikarga/ikinargang mga larawan.\nNagpapahintulot sa lahat ng mga pilian (opsyon) ng SmoothGallery (\"Makinis na Tanghalan/Galerya\")",
+	"smoothgallery-title": "SmoothGallery (\"Makinis na Tanghalan/Galerya\")",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery (\"Makinis na Tanghalan/Galerya\"): $1",
+	"smoothgallery-error": "<b>Kamalian sa SmoothGallery:</b>",
+	"smoothgallery-gallery-not-found": "Hindi umiiral ang hiniling na tanghalan/galerya.",
+	"smoothgallery-not-found": "Walang mga larawang naidagdag patungo sa tanghalan/galerya.\nMagdagdag po ng kahit na isang larawan lamang.",
+	"smoothgallery-no-images": "Walang mga larawang natagpuan mula sa loob ng tanghalan/galeryang ito.\nPakitiyak lamang na umiiral nga {{PLURAL:$3|ang larawan|ang mga larawang}}g hiniling.\nHindi natagpuan ang sumusunod na {{PLURAL:$2|larawan|mga larawan}}: $1",
+	"smoothgallery-invalid-images": "Ang sumusunod na hiniling na {{PLURAL:$2|larawan ay|mga larawan ay}} isang hindi tanggap na uri: $1",
+	"smoothgallery-unexpected-error": "Nagkaroon ng isang hindi inaasahang kamalian.\nMagpadala/magpasa lamang po ng isang ulat (report) ng depekto (''bug'').",
+	"smoothgallery-javascript-disabled": "Kinakailangan ang Javascript upang matanaw/matingnan ng tama/wasto ang galerya/tanghalang ito."
+}

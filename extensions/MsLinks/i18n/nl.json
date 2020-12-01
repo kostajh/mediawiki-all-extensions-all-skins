@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mainframe98",
+			"Siebrand"
+		]
+	},
+	"msl-desc": "Maakt koppelingen voor het weergeven of downloaden van bestanden met behulp van pictogrammen, geschikt voor het bestandstype",
+	"msl-tooltip": "Directe koppeling",
+	"msl-example-filename": "Bestandsnaam.ext"
+}

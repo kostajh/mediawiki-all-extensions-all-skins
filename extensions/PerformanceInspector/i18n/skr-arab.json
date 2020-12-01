@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"performanceinspector-dialog-summary": "خلاصہ",
+	"performanceinspector-dialog-cancel": "منسوخ",
+	"performanceinspector-modules-size-name": "ماڈیول سائز",
+	"performanceinspector-modules-size-label": "ماڈیول سائز",
+	"performanceinspector-modules-css-column-module": "ماڈیول",
+	"performanceinspector-modules-css-column-source": "ماخذ",
+	"performanceinspector-modules-localstorage-name": "مقامی ذخیرہ",
+	"performanceinspector-modules-localstorage-label": "مقامی ذخیرہ",
+	"performanceinspector-modules-localstorage-disabled": "مقامی ذخیرہ فعال کائنی",
+	"performanceinspector-modules-localstorage-expired": "مُک ڳیا",
+	"performanceinspector-modules-localstorage-totalsize": "کل سائز",
+	"performanceinspector-imagesize-name": "فوٹو دا سائز",
+	"performanceinspector-imagesize-label": "فوٹو دا سائز",
+	"performanceinspector-imagesize-column-image-name": "ناں",
+	"performanceinspector-imagesize-column-size": "سائز",
+	"performanceinspector-imagesize-column-image-extra": "فالتو",
+	"performanceinspector-imagesize-too-big": "ݙراوا",
+	"performanceinspector-newpp-walltime": "وقت دا اصل استعمال",
+	"performanceinspector-newpp-column-name": "ناں",
+	"performanceinspector-newpp-column-value": "قدر",
+	"performanceinspector-newpp-template-time-report-column-name": "ناں",
+	"performanceinspector-newpp-template-time-report-column-real": "اصلی",
+	"performanceinspector-newpp-cachereport-now": "ہُݨ"
+}

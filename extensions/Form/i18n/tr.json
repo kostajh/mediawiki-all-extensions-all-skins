@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Karduelis",
+			"MuratTheTurkish",
+			"Vito Genovese"
+		]
+	},
+	"form-desc": "Yeni sayfalara başlamak için [[Special:Form|form arayüzü]]",
+	"form": "Yeni bir sayfa başlat",
+	"form-captcha-error": "CAPTCHA hatası",
+	"form-pick-form": "Form üzerinden oluşturmak istediğiniz sayfanın türünü seçin.",
+	"form-no-name": "Form adı yok",
+	"form-no-name-text": "\"Special:Form/Formadı\" gibi bir form adı sağlamalısınız.",
+	"form-bad-name": "Geçersiz form adı",
+	"form-bad-name-text": "Bu adında bir form yok.",
+	"form-pattern": "$1-form",
+	"form-title-pattern": "Yeni $1 ekle",
+	"form-save": "Kaydet",
+	"form-index-mismatch-title": "Ad kalıbı ve şablon uyuşmazlığı",
+	"form-index-mismatch": "Bu formda eşleşmeyen ad kalıpları ve $1 dizininden başlayan şablonlar var.",
+	"form-article-exists": "Sayfa mevcut",
+	"form-article-existstext": "[[$1]] sayfası zaten var.",
+	"form-bad-page-name": "Geçersiz madde adı",
+	"form-bad-page-name-text": "Girdiğiniz form verileri, \"$1\" hatalı sayfa adı yapıyor.",
+	"form-required-field-error": "Bu form için {{PLURAL:$2|$1 alan|$1 alan}} gerekir.\nLütfen bunu doldurun.",
+	"form-save-summary": "[[Special:Form/$1|Form $1]] kullanarak yeni sayfa",
+	"form-save-error": "Formu kaydetmede hata",
+	"form-save-error-text": "'$1' sayfası kaydedilirken bilinmeyen bir hata oluştu."
+}

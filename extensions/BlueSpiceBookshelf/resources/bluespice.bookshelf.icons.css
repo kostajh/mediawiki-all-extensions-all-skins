@@ -1,0 +1,64 @@
+.icon-page_edit {
+	/*@embed*/
+	background-image: url('images/page_edit.png');
+}
+
+.icon-page_white_acrobat {
+	/*@embed*/
+	background-image: url('images/page_white_acrobat.png');
+}
+
+.icon-fff-delete {
+	/*@embed*/
+	background-image: url('images/delete.png');
+}
+
+.icon-fff-add {
+	/*@embed*/
+	background-image: url('images/add.png');
+}
+
+.icon-disk {
+	/*@embed*/
+	background-image: url('images/disk.png');
+}
+
+.icon-book {
+	/*@embed*/
+	background-image: url('images/book.png') !important;
+}
+
+.icon-book_open {
+	/*@embed*/
+	background-image: url('images/book_open.png') !important;
+}
+
+.icon-page, .icon-wikipage {
+	/*@embed*/
+	background-image: url('images/page.png') !important;
+}
+
+.icon-book_edit {
+	/*@embed*/
+	background-image: url('images/book_edit.png') !important;
+}
+
+.icon-book_link {
+	/*@embed*/
+	background-image: url('images/book_link.png') !important;
+}
+
+.icon-book_delete {
+	/*@embed*/
+	background-image: url('images/book_delete.png') !important;
+}
+
+.icon-text {
+	/*@embed*/
+	background-image: url('images/textfield_rename.png') !important;
+}
+
+.icon-tag {
+	/*@embed*/
+	background-image: url('images/tag.png') !important;
+}

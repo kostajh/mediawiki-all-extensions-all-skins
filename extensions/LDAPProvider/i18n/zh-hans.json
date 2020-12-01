@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Angrydog001",
+			"大小李子"
+		]
+	},
+	"ldapprovider-desc": "提供到LDAP资源的共用基础连接，并对其运行查询",
+	"ldapprovider-config-clientregistry": "允许注册自定义客户端",
+	"ldapprovider-domain-config-not-found": "无法访问配置文件“$1”！\n\n请为LDAPProvider扩展创建一个域配置文件。"
+}

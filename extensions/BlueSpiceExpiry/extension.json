@@ -1,0 +1,235 @@
+{
+	"name": "BlueSpiceExpiry",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:Expiry",
+	"author": ["Sebastian Ulbricht", "Markus Glaser"],
+	"descriptionmsg": "bs-expiry-extension-description",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceReminder": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceExpiry": {
+					"className": "\\BlueSpice\\Expiry\\Extension",
+					"extPath": "/BlueSpiceExpiry",
+					"package": "BlueSpice Pro",
+					"configDefinitions": {
+						"ExpiryEnablePDFWatermark": "\\BlueSpice\\Expiry\\ConfigDefinition\\EnablePDFWatermark::getInstance",
+						"ExpiryEnablePageWatermark": "\\BlueSpice\\Expiry\\ConfigDefinition\\EnablePageWatermark::getInstance",
+						"ExpiryEnablePrintWatermark": "\\BlueSpice\\Expiry\\ConfigDefinition\\EnablePrintWatermark::getInstance"
+					}
+				}
+			},
+			"PermissionRegistry": {
+				"expirearticle": {
+					"type": "namespace",
+					"roles": [
+						"admin",
+						"editor",
+						"maintenanceadmin"
+					]
+				},
+				"expiry-delete": {
+					"type": "namespace",
+					"roles": [
+						"admin",
+						"editor",
+						"maintenanceadmin"
+					]
+				}
+			},
+			"@AlertProviderRegistry": {
+				"bs-expiry-expired": "\\BlueSpice\\Expiry\\AlertProvider\\ExpiryState::factory"
+			},
+			"PageInfoElementRegistry": {
+				"bs-expiry-expired": "\\BlueSpice\\Expiry\\PageInfoElement\\Expired::factory"
+			},
+			"NotificationRegistrationFunctions": [
+				"\\BlueSpice\\Expiry\\Notification\\Expiry::registerNotifications"
+			],
+			"RunJobsTriggerHandlerRegistry": {
+				"bs-expiry-send-daily": "\\BlueSpice\\Expiry\\RunJobsTriggerHandler\\SendNotification\\Daily::factory",
+				"bs-expiry-send-weekly": "\\BlueSpice\\Expiry\\RunJobsTriggerHandler\\SendNotification\\Weekly::factory"
+			}
+		},
+		"BlueSpiceEchoConnector": {
+			"NotificationIcons": {
+				"expiry": {
+					"path": "BlueSpiceExpiry/resources/images/bs-infobar-expired.png"
+				}
+			}
+		},
+		"BlueSpiceReminder": {
+			"Registry": {
+				"expiry": "\\BlueSpice\\Expiry\\Reminder\\Expiry::factory"
+			}
+		},
+		"BlueSpiceSMWConnector": {
+			"ExtraPropertyRegistry": {
+				"expirationdate": "BlueSpice\\Expiry\\SMWConnector\\PropertyValueProvider\\ExpirationDate::factory",
+				"isexpired": "BlueSpice\\Expiry\\SMWConnector\\PropertyValueProvider\\IsExpired::factory"
+			}
+		}
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"GroupPermissions": {
+		"*": {
+			"expirearticle": false,
+			"expiry-delete": false
+		},
+		"user": {
+			"expirearticle": true,
+			"expiry-delete": true
+		},
+		"sysop": {
+			"expirearticle": true,
+			"expiry-delete": true
+		}
+	},
+	"AvailableRights": [
+		"expirearticle",
+		"expiry-delete"
+	],
+	"SpecialPages": {
+		"Expiry": "SpecialExpiry"
+	},
+	"APIModules": {
+		"bs-expiry-tasks": "ApiExpiryTasks",
+		"bs-expiry-store": "ApiExpiryStore"
+	},
+	"MessagesDirs": {
+		"BlueSpiceExpiry": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ExpiryAlias": "languages/SpecialExpiry.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Expiry\\": "src/"
+	},
+	"AutoloadClasses": {
+		"SpecialExpiry": "includes/specials/SpecialExpiry.php",
+		"ApiExpiryTasks": "includes/api/ApiExpiryTasks.php",
+		"ApiExpiryStore": "includes/api/ApiExpiryStore.php",
+		"ExpiryHooks": "includes/ExpiryHooks.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.expiry.special": {
+			"scripts": "bluespice.expiry.special.js",
+			"messages": [
+				"bs-expiry-header-pagename",
+				"bs-expiry-header-date",
+				"bs-expiry-text-delete",
+				"bs-expiry-title-delete",
+				"bs-expiry-header-comment"
+			],
+			"dependencies": "ext.bluespice.extjs"
+		},
+		"ext.bluespice.expiry.special.styles": {
+			"styles": "bluespice.expiry.less",
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		},
+		"ext.bluespice.Expiry.Highlight": {
+			"styles": "bluespice.expiry.highlight.less",
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		},
+		"ext.bluespice.expiry.pageinfo.flyout": {
+			"scripts": "bluespice.expiry.pageinfo.flyout.js",
+			"dependencies": [
+				"mediawiki.jqueryMsg",
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.Expiry": {
+			"scripts": "bluespice.expiry.js",
+			"messages": [
+				"bs-expiry-dialog-title",
+				"bs-expiry-date-label",
+				"bs-expiry-delete-error-unknown",
+				"bs-expiry-comment-label",
+				"bs-expiry-article-label",
+				"bs-expiry-create-reminder-label"
+			],
+			"dependencies": "ext.bluespice"
+		},
+		"ext.bluespice.expiry.flyout": {
+			"scripts": "bluespice.expiry.flyout.js",
+			"messages": [
+				"bs-expiry-nav-link-title-expiry",
+				"bs-expiry-flyout-title",
+				"bs-expiry-flyout-intro",
+				"bs-expiry-flyout-form-title",
+				"bs-expiry-flyout-next-expired",
+				"bs-expiry-flyout-next-current",
+				"bs-expiry-flyout-expiry-not-set",
+				"bs-expiry-do-unexpire-article",
+				"bs-expiry-flyout-next-comment",
+				"bs-expiry-flyout-manager-button-label",
+				"bs-expiry-edit-grid-header-username",
+				"bs-expiry-edit-grid-header-date",
+				"bs-expiry-edit-grid-header-comment",
+				"bs-expiry-edit-grid-title",
+				"bs-expiry-edit-grid-empty",
+				"bs-expiry-do-updateexpirydate-article"
+			],
+			"dependencies": [
+				"mediawiki.jqueryMsg",
+				"ext.bluespice.Expiry",
+				"ext.bluespice.extjs",
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.expiry.watermark.styles": {
+			"styles": "bluespice.expiry.watermark.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceExpiry/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"ExpiryEnablePDFWatermark": {
+			"value": true,
+			"descriptionmsg": "bs-expiry-pref-enablepdfwatermark",
+			"public": true
+		},
+		"ExpiryEnablePageWatermark": {
+			"value": true,
+			"descriptionmsg": "bs-expiry-pref-enablepagewatermark",
+			"public": true
+		},
+		"ExpiryEnablePrintWatermark": {
+			"value": true,
+			"descriptionmsg": "bs-expiry-pref-enableprintwatermark",
+			"public": true
+		}
+	},
+	"Hooks": {
+		"SkinTemplateNavigation::Universal": "\\BlueSpice\\Expiry\\Hook\\SkinTemplateNavigationUniversal\\AddExpiryCreateEntry::callback",
+		"BeforePageDisplay": [
+			"\\BlueSpice\\Expiry\\Hook\\BeforePageDisplay\\AddResources::callback",
+			"\\BlueSpice\\Expiry\\Hook\\BeforePageDisplay\\AddPageWatermark::callback",
+			"\\BlueSpice\\Expiry\\Hook\\BeforePageDisplay\\AddPrintWatermark::callback"
+		],
+		"ChameleonSkinTemplateOutputPageBeforeExec": [
+			"\\BlueSpice\\Expiry\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddToGlobalActions::callback",
+			"\\BlueSpice\\Expiry\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddExpiredInfo::callback"
+		],
+		"BSUEModulePDFgetPage": "\\BlueSpice\\Expiry\\Hook\\BSUEModulePDFgetPage\\AddPDFWatermarkClass::callback",
+		"BSUEModulePDFBeforeAddingStyleBlocks": "\\BlueSpice\\Expiry\\Hook\\BSUEModulePDFBeforeAddingStyleBlocks\\AddPDFWatermarkStyles::callback",
+		"QueryPages": "ExpiryHooks::onQueryPages",
+		"LoadExtensionSchemaUpdates": "\\BlueSpice\\Expiry\\Hook\\LoadExtensionSchemaUpdates\\AddExpiryTable::callback"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,9 @@
+# emacs
+*~
+\#*\#
+.\#*
+.tramp_history
+PHPTAGS.sqlite
+node_modules/
+vendor/
+composer.lock

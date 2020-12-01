@@ -1,0 +1,51 @@
+{
+	"name": "WikiLovesMonuments",
+	"version": "0.2.0",
+	"author": "[https://www.mediawiki.org/wiki/User:Platonides Platonides]",
+	"url": "https://www.mediawiki.org/wiki/Extension:WikiLovesMonuments",
+	"descriptionmsg": "wlm-extension-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"ExtensionFunctions": [
+		"WikiLovesMonumentsHooks::init"
+	],
+	"MessagesDirs": {
+		"WikiLovesMonuments": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"WikiLovesMonumentsMagic": "WikiLovesMonuments.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"WikiLovesMonuments": "WikiLovesMonuments_body.php",
+		"WikiLovesMonumentsHooks": "WikiLovesMonuments_hooks.php"
+	},
+	"ResourceModules": {
+		"ext.WikiLovesMonuments.piwik": {
+			"scripts": "piwik.js"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "WikiLovesMonuments"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "WikiLovesMonumentsHooks::registerParserFunctions"
+	},
+	"config": {
+		"WikiLovesMonumentsCountryPortlet": {
+			"value": false
+		},
+		"WikiLovesMonumentsCentralisedStatsId": {
+			"value": false
+		},
+		"PiwikCustomJS": {
+			"value": ""
+		}
+	},
+	"manifest_version": 2
+}

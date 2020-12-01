@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"phptagsfunctions-desc": "PhpTags uzantısı için yerel PHP'nin iç işlevlerini uygular",
+	"phptagsfunctions-preg-bad-delimiter": "Sınırlayıcı alfanümerik veya ters eğik çizgi olmamalıdır",
+	"phptagsfunctions-preg-no-ending-delimiter": "Son sınırlayıcı \"$1\" bulunamadı",
+	"phptagsfunctions-preg-unknown-modifier": "Bilinmeyen değiştirici \"$1\""
+}

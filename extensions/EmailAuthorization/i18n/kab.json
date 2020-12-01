@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mastanabal",
+			"Nacy",
+			"SlimaneAmiri"
+		]
+	},
+	"emailauthorization-config-label-email": "Tansa imayl",
+	"emailauthorizationrequest": "Suter amiḍan",
+	"emailauthorization-request-label-email": "Tansa imayl",
+	"emailauthorization-request-button-submit": "Azen",
+	"emailauthorization-request-requested": "yettwasuter amiḍan i tansa n imayl $1.",
+	"emailauthorization-request-invalidemail": "Tansa imayl d tarameγtut: $1",
+	"emailauthorization-request-error": "Teḍra-d tucḍa di lawan n usuter n umiḍan i $1.",
+	"notification-header-emailauthorization-account-request": "Yella-d usuter i umiḍan amaynut.",
+	"emailauthorization-approve-label-email": "Tansa imayl",
+	"emailauthorization-approve-label-action": "Tigawin",
+	"emailauthorization-approve-button-approve": "Qbel",
+	"emailauthorization-approve-button-reject": "Agwi",
+	"emailauthorization-approve-button-next": "Ar zdat",
+	"emailauthorization-approve-button-previous": "izrin",
+	"emailauthorization-approve-approved": "$1 ittwaqbel"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"bs-pageassignments-pref-lockdowngroups": "Gruppos que se bloca pro un pagina quando le usator non es assignate",
+	"bs-pageassignments-secure-lockdown-reason": "Le action \"$1\" es solmente disponibile pro le {{PLURAL:$2|assignato|assignatos}} $3",
+	"bs-pageassignments-group-lockdown-reason": "Tu non es assignate al pagina $1"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"sslauth-desc": "Ermöglicht es Benutzern, SSL-Zertifikate zur Authentifizierung hochzuladen",
+	"sslauth-title-enable": "SSL-Client-Authentifizierung aktivieren",
+	"sslauth-title-disable": "SSL-Client-Authentifizierung deaktivieren",
+	"sslauth-enable": "Aktivieren",
+	"sslauth-disable": "Deaktivieren",
+	"sslauth-cn": "Allgemeiner Name",
+	"sslauth-email": "E-Mail-Adresse",
+	"sslauth-serial": "Seriennummer",
+	"sslauth-response-enable": "Die SSL-Authentifizierung wurde erfolgreich aktiviert. Immer, wenn du dich mit deinem Clientzertifikat auf {{SITENAME}} über HTTPS verbindest, wirst du automatisch angemeldet.",
+	"sslauth-response-disable": "Die SSL-Authentifizierung wurde erfolgreich deaktiviert.",
+	"sslauth-invalidrequest-title": "Ungültige Anfrage",
+	"sslauth-invalidrequest": "Für diese Seite muss ein gültiges SSL-Zertifikat angegeben werden.",
+	"clientssl-legend": "SSL-Authentifizierung",
+	"clientssl-text": "Verwende diese Seite, um die Authentifizierung mit Client-SSL-Zertifikaten zu aktivieren/deaktivieren.",
+	"sslauth-prefs-name": "SSL-Authentifizierung",
+	"sslauth-prefs-linktospecial": "Clientzertifikate aktivieren/deaktivieren"
+}

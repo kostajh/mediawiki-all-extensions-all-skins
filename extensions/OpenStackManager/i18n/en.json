@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ryan Lane <rlane@wikimedia.org>",
+			"Sam Reed <reedy@wikimedia.org>"
+		]
+	},
+	"openstackmanager-desc": "Lets users register shell accounts and manage their SSH keys",
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Manage your public SSH keys",
+	"specialpages-group-nova": "OpenStack Manager authentication",
+	"openstackmanager-novakey": "Nova key",
+	"openstackmanager-delete": "delete",
+	"openstackmanager-hiera-disabled": "These pages are no longer used by cloud-vps. Puppet and hiera config can be modified in Horizon.",
+	"openstackmanager-actions": "Actions",
+	"openstackmanager-notloggedin": "Login required",
+	"openstackmanager-mustbeloggedin": "You must be logged in to perform this action.",
+	"openstackmanager-novapublickey": "Public SSH key:",
+	"openstackmanager-prefs-novapublickey": "Public SSH keys:",
+	"openstackmanager-deletekey": "Delete public SSH key",
+	"openstackmanager-deletekeyconfirm": "Are you sure you wish to delete the above key?",
+	"openstackmanager-keylist": "Public SSH key list",
+	"openstackmanager-addkey": "Add public SSH key",
+	"openstackmanager-name": "Name",
+	"openstackmanager-fingerprint": "Fingerprint",
+	"openstackmanager-keys": "Keys",
+	"openstackmanager-keypairimportfailed": "Failed to import keypair.",
+	"openstackmanager-keypairimported": "Imported keypair.",
+	"openstackmanager-keypairimportedfingerprint": "Imported keypair $1 with fingerprint $2.",
+	"openstackmanager-keypairformatwrong": "The provided SSH key was wrong or in unknown format.",
+	"openstackmanager-keypairformatconverted": "The format of the SSH key has been automatically converted.",
+	"openstackmanager-deletedkey": "Deleted key.",
+	"openstackmanager-deletedkeyfailed": "Failed to delete key.",
+	"openstackmanager-shellaccountname": "Instance shell account name",
+	"openstackmanager-shellaccountname-pref": "Instance shell account name:",
+	"openstackmanager-shellaccountnamehelp": "A shell account name is required.\nIt must start with a-z, and can only contain lowercase a-z, 0-9, and - characters.",
+	"openstackmanager-shellaccountvalidationfail": "Your shell account name is invalid.\nIt must start with a-z, and can only contain lowercase a-z, 0-9, and - characters.",
+	"openstackmanager-shellaccountexists": "That shell account name is already in use.",
+	"prefs-openstack": "OpenStack",
+	"prefs-openstack-keys": "Key list"
+}

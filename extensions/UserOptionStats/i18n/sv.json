@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fluff",
+			"Lokal Profil",
+			"Per",
+			"WikiPhoenix"
+		]
+	},
+	"useroptionstats": "Statistik för användarinställningar",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Specialsida]] för rapportering om användandet av MediaWiki:s användarinställningar",
+	"uos-warn": "PHPlot är inte installerat!",
+	"uos-choose": "Välj en av följande användarinställningar: $1",
+	"uos-choose-hidden": "Välj en av följande dolda användarinställningar: $1",
+	"uos-unknown": "*Standard",
+	"uos-other": "*Annat",
+	"uos-title": "Fördelning av värden för användarinställningar $1"
+}

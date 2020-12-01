@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"bs-smartlist-ve-smartlist-title": "ListaInteligente",
+	"bs-smartlist-ve-smartlistinspector-count": "Número",
+	"bs-smartlist-ve-smartlistinspector-ns": "Espaços nominais",
+	"bs-smartlist-ve-smartlistinspector-cat": "Categoria",
+	"bs-smartlist-ve-smartlistinspector-minor": "Mostrar edições menores",
+	"bs-smartlist-ve-smartlistinspector-catmode": "Modo de categoria",
+	"bs-smartlist-ve-smartlistinspector-period": "Período",
+	"bs-smartlist-ve-smartlistinspector-new": "Mostrar só artigos novos",
+	"bs-smartlist-ve-smartlistinspector-heading": "Cabeçalho",
+	"bs-smartlist-ve-smartlistinspector-trim": "Remoção de espaços supérfluos",
+	"bs-smartlist-ve-smartlistinspector-showtext": "Mostrar texto",
+	"bs-smartlist-ve-smartlistinspector-trimtext": "Remover espaços supérfluos do texto",
+	"bs-smartlist-ve-smartlistinspector-sort": "Ordenar por",
+	"bs-smartlist-ve-smartlistinspector-order": "Sentido da ordenação",
+	"bs-smartlist-ve-smartlistinspector-showns": "Mostrar espaços nominais/domínios",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "Número com texto",
+	"bs-smartlist-ve-smartlistinspector-meta": "Metadados",
+	"bs-smartlist-ve-smartlistinspector-target": "Destino",
+	"bs-smartlist-ve-smartlistinspector-excludens": "Excluir espaços nominais",
+	"bs-smartlist-ve-period-day-label": "Dia",
+	"bs-smartlist-ve-period-week-label": "Semana",
+	"bs-smartlist-ve-period-month-label": "Mês",
+	"bs-smartlist-ve-sort-time-label": "Hora",
+	"bs-smartlist-ve-sort-title-label": "Título",
+	"bs-smartlist-ve-newbies-title": "Novatos",
+	"bs-smartlist-ve-newbiesinspector-count": "Número",
+	"bs-smartlist-ve-toplist-title": "Lista dos melhores",
+	"bs-smartlist-ve-toplistinspector-count": "Número",
+	"bs-smartlist-ve-toplistinspector-ns": "Espaços nominais",
+	"bs-smartlist-ve-toplistinspector-cat": "Categoria",
+	"bs-smartlist-ve-toplistinspector-period": "Período",
+	"bs-smartlist-ve-toplistinspector-portletperiod": "Período do ''portlet''",
+	"bs-smartlist-ve-mode-recentchanges-label": "Mudanças recentes",
+	"bs-smartlist-ve-mode-changesofweek-label": "Mudanças da semana"
+}

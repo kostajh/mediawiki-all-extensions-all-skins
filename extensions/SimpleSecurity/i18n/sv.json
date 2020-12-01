@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fluff",
+			"Lokal Profil",
+			"Per",
+			"Rotsee",
+			"WikiPhoenix"
+		]
+	},
+	"security": "Säkerhetslogg",
+	"security-desc": "Utökar MediaWikis sidskydd genom att tillåta begränsning av att sidinnehållet visas.",
+	"security-logpage": "Säkerhetslogg",
+	"security-logpagetext": "Detta är en logg över åtgärder blockerade av [https://www.mediawiki.org/wiki/Extension:SimpleSecurity SimpleSecurity-tillägget].",
+	"badaccess-read": "'''Varning:''' \"$1\" hänvisas till här, men du saknar tillräcklig behörighet för att komma åt den.",
+	"security-info": "Det finns $1 på denna sida",
+	"security-info-toggle": "säkerhetsbegränsningar",
+	"security-inforestrict": "$1 är begränsad till $2",
+	"security-desc-LS": "(gäller eftersom denna sida är i \"$2\"-$1)",
+	"security-desc-PR": "(satt från \"skydda\"-fliken)",
+	"security-infosysops": "Inga restriktioner är aktiva eftersom du tillhör gruppen \"Administratörer\"",
+	"security-manygroups": "grupperna $1 och $2",
+	"security-unchain": "Ändra åtgärderna individuellt",
+	"security-type-category": "kategorin",
+	"security-type-namespace": "namnrymden",
+	"security-restricttogroup": "Tillgång till innehållet är begränsat till medlemmar av \"$1\"",
+	"restriction-read": "Läs"
+}

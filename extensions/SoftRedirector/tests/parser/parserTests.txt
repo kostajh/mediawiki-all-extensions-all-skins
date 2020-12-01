@@ -1,0 +1,21 @@
+!! article
+Softredir
+!! text
+This is a softredir page.
+__SOFTREDIR__
+!! endarticle
+
+!! article
+Normal
+!! text
+This is a normal page.
+!! endarticle
+
+!! test
+Link to softredir and non-softredir page
+!! input
+I am linking to [[Softredir]] and [[Normal]].
+!! result
+<p>I am linking to <a href="/wiki/Softredir" class="mw-softredir" title="Softredir">Softredir</a> and <a href="/wiki/Normal" title="Normal">Normal</a>.
+</p>
+!! end

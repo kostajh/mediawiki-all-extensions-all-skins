@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Yfdyh000",
+			"乌拉跨氪"
+		]
+	},
+	"multimaps-desc": "允许用户使用多个地图服务显示地图和坐标数据",
+	"multimaps-loading-map": "加载地图中……",
+	"multimaps-mapservices-must-not-empty-array": "变量“$1”不能为空数组",
+	"multimaps-had-following-errors": "解析时所传递的参数有以下错误：",
+	"multimaps-element-illegal-value": "参数“$1”指定了无效的值“$2”。有效值为：$3",
+	"multimaps-element-more-parameters": "此地图元素“$1”传递了比预期更多的参数：",
+	"multimaps-element-parameters-not-processed": "未处理以下参数：$1",
+	"multimaps-circle-radius-not-defined": "圆必须定义半径。",
+	"multimaps-circle-wrong-number-parameters": "对于圆形，只应定义两个参数：圆心的坐标及半径。但却指定了$1个参数",
+	"multimaps-marker-incorrect-icon": "提供标记图标的文件名“$1”不正确。",
+	"multimaps-marker-incorrect-icon-url": "提供标记图标的URL“$1”不正确。",
+	"multimaps-marker-incorrect-icon-size": "为标记图标“$2”提供了不正确的大小“$1”。",
+	"multimaps-marker-incorrect-icon-anchor": "为标记图标“$2”提供了不正确的锚点“$1”。",
+	"multimaps-marker-incorrect-shadow-file": "图标阴影使用了不正确的文件名“$1”。",
+	"multimaps-marker-incorrect-shadow-url": "提供图标阴影的URL“$1”不正确。",
+	"multimaps-marker-incorrect-shadow-size": "为图标阴影“$2”提供了不正确的大小“$1”。",
+	"multimaps-marker-incorrect-shadow-anchor": "为图标阴影“$2”提供了不正确的锚点“$1”。",
+	"multimaps-passed-unavailable-service": "服务名“$1”在可用服务列表 ($2) 中未找到。已采用默认的服务“$3”",
+	"multimaps-square-wrong-number-points": "方形应该只有两个坐标，但却指定了{{PLURAL:$1|一个点|$1个点}}",
+	"multimaps-unable-create-element": "无法创建地图元素“$1”",
+	"multimaps-unable-parse-coordinates": "无法解析地理坐标“$1”",
+	"multimaps-unable-parse-parameter": "无法解析值为$2的参数$1",
+	"multimaps-unable-parse-radius": "圆的半径必须是一个数值，但却指定了“$1”",
+	"multimaps-unknown-class-for-service": "找不到为服务定义的级别“$1”。",
+	"multimaps-unknown-parameter": "未知参数：“$1”",
+	"multimaps-error-incorrect-class-for-service": "为服务定义的级别“$1”不能被使用。",
+	"multimaps-method-error-unknown-action": "$1：未知的操作",
+	"multimaps-method-error-unexpected-result": "$1：函数出现意外的结果"
+}

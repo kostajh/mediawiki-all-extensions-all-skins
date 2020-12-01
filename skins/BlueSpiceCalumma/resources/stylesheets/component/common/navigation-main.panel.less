@@ -1,0 +1,89 @@
+.navigation-main {
+	.panel,
+	.bs-panel {
+		&.panel-default {
+			padding: 0;
+			background-color: transparent;
+
+			.panel-heading {
+				padding: 0;
+				border: none;
+				border-radius: 0;
+				background-color: transparent;
+
+				.panel-title {
+					a::after {
+						content: "\e92c";
+						font-family: "entypo";
+						float: right;
+						padding-right: 1em;
+					}
+					a.collapsed::after {
+						content: "\e921";
+						font-family: "entypo";
+						float: right;
+						padding-right: 1em;
+					}
+				}
+
+				.bs-panel-title {
+					.trigger.flyout{
+						i.trigger-icon::after{
+							content: "\e923";
+							font-family: "entypo";
+							float: right;
+							margin-right: 10px;
+						}
+					}
+
+					.trigger.body{
+						float: right;
+						height: 100%;
+						i.trigger-icon::after{
+							content: "\e92c";
+							font-family: "entypo";
+							float: right;
+							font-style: normal;
+							padding-right: 1em;
+							line-height: 12px;
+						}
+					}
+
+					.collapsed .trigger.body{
+						i.trigger-icon::after{
+							content: "\e921";
+						}
+					}
+				}
+
+				.panel-title,
+				.bs-panel-title {
+					a {
+						padding: 10px 0 10px 10px;
+					}
+				}
+
+				&.dynamic-graphical-list-visible .bs-panel-title {
+					.trigger.flyout{
+						i.trigger-icon::after{
+							content: "\e922";
+							font-family: "entypo";
+							float: right;
+							margin-right: 10px;
+							line-height: 12px;
+						}
+					}
+				}
+			}
+		}
+
+		/* list-group-item */
+		.list-group {
+			a.list-group-item {
+				i {
+					float: left;
+				}
+			}
+		}
+	}
+}

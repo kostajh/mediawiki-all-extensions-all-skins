@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hamilton Abreu",
+			"Liuxinyu970226",
+			"Lucie-Aimée Kaffee",
+			"Raymond"
+		]
+	},
+	"createtopicpage": "Title of [[Special:CreateTopicPage]].\n{{Identical|Create page}}",
+	"articleplaceholder-desc": "{{desc|what=extension|name=ArticlePlaceholder|url=https://www.mediawiki.org/wiki/Extension:ArticlePlaceholder}}\n<nowiki>{{WBREPONAME}}</nowiki> is a variable of the repository name of Wikidata (it has replaced the string 'Wikidata').",
+	"articleplaceholder-abouttopic": "Title of Special:AboutTopic.",
+	"articleplaceholder-abouttopic-intro": "Intro paragraph shown on Special:AboutTopic.\n\n<nowiki>{{WBREPONAME}}</nowiki> is a variable of the repository name of Wikidata (it has replaced the string 'Wikidata').",
+	"articleplaceholder-abouttopic-entityid": "Text to encourage the user to enter an item id.",
+	"articleplaceholder-abouttopic-submit": "Label on the submit button.",
+	"articleplaceholder-abouttopic-no-entity-error": "Error message in case of an invalid item id.",
+	"articleplaceholder-abouttopic-create-article-title": "Title of the popup window encouraging the user to create a new article.",
+	"articleplaceholder-abouttopic-create-article-label": "Label of the article page title input in the 'Create article' popup.",
+	"articleplaceholder-abouttopic-create-article-mandatory": "Used as an error message in the 'Create article', if the article title wasn't supplied.",
+	"articleplaceholder-abouttopic-create-article-button": "Label on create article button",
+	"articleplaceholder-abouttopic-create-empty-article-button": "Label on create new empty article",
+	"articleplaceholder-abouttopic-translate-article-label": "Label of the source language input in the 'Translate article' popup.\n{{Identical|Source language}}",
+	"articleplaceholder-abouttopic-translate-article-button": "Label of the Translate button to start translating the article/item.",
+	"articleplaceholder-abouttopic-create-article-submit-button": "Label on submit button\n{{Identical|Submit}}",
+	"articleplaceholder-abouttopic-article-exists-error": "Error to indicate the given article title already exists",
+	"articleplaceholder-abouttopic-lua-entity": "Header of the entity section\n{{Identical|Entity}}",
+	"articleplaceholder-abouttopic-lua-reference": "Header of the reference section\n{{Identical|Reference}}",
+	"articleplaceholder-abouttopic-lua-identifier": "Header of the identifier section",
+	"articleplaceholder-search-header": "Header in the search for the results of Special:AboutTopic generated pages",
+	"articleplaceholder-createpage-title": "Used as a page Title for [[Special:CreateTopicPage]].\n* $1 - Page title\n{{Identical|Create}}",
+	"articleplaceholder-createpage-alreadyexists": "Description message that the page, the user want to create, already exists, explaining, that the user should choose another title.\n* $1 - The currently used title",
+	"articleplaceholder-createpage-notitleprovided": "Description message on [[Special:CreateTopicPage]], which explains, that no title was given and the user should provide the title of the page to create.",
+	"articleplaceholder-createpage-invalidtitleprovided": "Description message on [[Special:CreateTopicPage]], which explains, that an invalid title was given and the user should provide a valid title of the page to create."
+}

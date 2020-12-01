@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"pageexchange-desc": "Umożliwia instalowanie „pakietów” predefiniowanych stron wiki",
+	"packages": "Pakiety",
+	"right-pageexchange": "Uruchamianie akcji wymiany stron",
+	"action-pageexchange": "uruchamiania akcji wymiany stron",
+	"pageexchange-logname": "Rejestr wymiany stron",
+	"pageexchange-logdesc": "Rejestr akcji związanych z rozszerzeniem Page Exchange.",
+	"pageexchange-installed": "Zainstalowane",
+	"pageexchange-available": "Dostępne",
+	"pageexchange-installpackage": "Zainstaluj pakiet: $1",
+	"pageexchange-updatepackage": "Zaktualizuj pakiet: $1",
+	"pageexchange-uninstallpackage": "Odinstaluj pakiet: $1",
+	"pageexchange-installpackagelog": "zainstalował(a) pakiet $2 autorstwa $3",
+	"pageexchange-updatepackagelog": "zaktualizował(a) pakiet $2 autorstwa $3",
+	"pageexchange-uninstallpackagelog": "odinstalował(a) pakiet $2 autorstwa $3",
+	"pageexchange-package-website": "Strona internetowa:",
+	"pageexchange-package-publisher": "Wydawca:",
+	"pageexchange-package-author": "Autor:",
+	"pageexchange-package-version": "Wersja:",
+	"pageexchange-package-pages": "Strony:",
+	"pageexchange-package-language": "Język:",
+	"pageexchange-package-requiredextensions": "Wymagane rozszerzenia:",
+	"pageexchange-package-requiredpackages": "Wymagane pakiety:",
+	"pageexchange-package-morerecent": "Istnieje nowsza wersja tego pakietu od wersji, która jest obecnie zainstalowana na tej wiki.",
+	"pageexchange-package-install": "Instaluj",
+	"pageexchange-package-update": "Aktualizuj",
+	"pageexchange-package-uninstall": "Odinstaluj",
+	"pageexchange-package-deleteallpages": "Usuń wszystkie powiązane strony",
+	"pageexchange-pagehaschanged": "ostatnia wersja tej strony różni się od lokalnej kopii.",
+	"pageexchange-latestvalue": "(ostatnia wartość: $1)",
+	"pageexchange-uninstallablepackage": "Pakiet nie może zostać zainstalowany. Powód:",
+	"pageexchange-inappropriatepackage": "Ten pakiet może nie być odpowiedni dla Twojej wiki; zobacz poniżej.",
+	"pageexchange-packageinstalled": "Pakiet został zainstalowany.",
+	"pageexchange-packageuninstalled": "Pakiet został odinstalowany.",
+	"pageexchange-packageupdated": "Pakiet został zaktualizowany."
+}

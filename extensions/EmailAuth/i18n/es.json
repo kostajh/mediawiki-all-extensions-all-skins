@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"emailauth-desc": "Verifica accesos sospechosos a través del correo electrónico.",
+	"emailauth-token-label": "Código de verificación",
+	"emailauth-token-help": "Se ha enviado por correo una ficha de autenticación en dos pasos de un solo uso.",
+	"emailauth-email-subject": "Tu código de verificación de acceso para $1",
+	"emailauth-email-body": "Tu código de verificación de acceso para $1 es $2",
+	"emailauth-login-message": "Es necesario que verifiques tu acceso. Te hemos enviado a tu correo electrónico ($1) un código de verificación que deberás copiar aquí.",
+	"emailauth-login-failure": "El código de verificación no es válido.",
+	"emailauth-login-retry-limit": "¡Demasiados errores!"
+}

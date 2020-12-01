@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"userexport-desc": "允许导出用户数据成CSV文件",
+	"userexport": "导出用户数据",
+	"userexport-submit": "导出",
+	"userexport-badtoken": "无效的编辑令牌",
+	"userexport-description": "此页面允许导出所有在该wiki注册用户的用户数据（用户名及用户电子邮件）成CSV文件。",
+	"right-userexport": "大量导出用户数据",
+	"action-userexport": "导出来自该wiki的用户数据"
+}

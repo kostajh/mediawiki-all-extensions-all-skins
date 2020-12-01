@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R.",
+			"Ruthven"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Nzèrta",
+	"citoid-citoiddialog-back": "Arreto",
+	"citoid-citoiddialog-lookup-button": "Genera",
+	"citoid-citoiddialog-mode-auto": "Automatico",
+	"citoid-citoiddialog-mode-manual": "Manuale",
+	"citoid-citoiddialog-mode-reuse": "Re-ausà",
+	"citoid-citoiddialog-search-label": "URL, DOI o PMID",
+	"citoid-citoiddialog-search-placeholder": "p'esempie http://www.example.com",
+	"citoid-citoidtool-title": "Citazione",
+	"citoid-citoidtool-title-othergroup": "Citaziona",
+	"citoid-desc": "Dà punte 'acciesso nfra 'o servizio citoid e MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Scagna",
+	"citoid-referencecontextitem-convert-message": "Stu riferimento è fatto 'a nu cullegamento 'e fore. Putite ausà pure 'o buttóne \"{{int:citoid-referencecontextitem-convert-button}}\" ccà abbascio pe' puté crià nu riferimento furmatato buono.",
+	"citoid-unknown-error": "S'è scummigliato n'errore ca nun ce permettesse 'e crià 'a citaziona. Pe' piacere tentate cchiù tarde.."
+}

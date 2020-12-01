@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2",
+			"Steeve815",
+			"YaronSh"
+		]
+	},
+	"bs-groupmanager-desc": "ממשק ניהול עבור הוספת, עריכת ומחיקת קבוצות משתמש והרשאותיהן",
+	"bs-groupmanager-grpexists": "קבוצה זו כבר קיימת.",
+	"bs-groupmanager-grpempty": "שם הקבוצה לא יכול להיות ריק.",
+	"bs-groupmanager-grpadded": "הקבוצה נוספה.",
+	"bs-groupmanager-grpedited": "הקבוצה שונתה.",
+	"bs-groupmanager-grpremoved": "הקבוצה הוסרה.",
+	"bs-groupmanager-label": "ניהול קבוצות",
+	"bs-groupmanager-invalid-name": "שם הקבוצה מכיל {{PLURAL:$1|תו בלתי־תקין|תווים בלתי־תקינים}}: $2",
+	"bs-groupmanager-invalid-name-length": "שם הקבוצה לא יכול להיות ארוך מ־255 תווים.",
+	"bs-groupmanager-invalid-name-numeric": "שם הקבוצה צריך להכיל תו אחד לפחות.",
+	"bs-groupmanager-headergroup": "קבוצה",
+	"bs-groupmanager-tipremove": "הסרת {{PLURAL:$1|קבוצה|קבוצות}}",
+	"bs-groupmanager-titlenewgroup": "קבוצה חדשה",
+	"bs-groupmanager-titleeditgroup": "עריכת קבוצה",
+	"bs-groupmanager-removegroup": "האם ברצונך להסיר {{PLURAL:$1|קבוצה זו|קבוצות אלה}}?",
+	"bs-groupmanager-removegroup-message-success": "{{PLURAL:$1|הקבוצה הבאה|הקבוצות הבאות}} נמחקו: $2",
+	"bs-groupmanager-removegroup-message-failure": "לא ניתן היה למחוק את {{PLURAL:$1|הקבוצה הבאה|הקבוצות הבאות}}: $2",
+	"bs-groupmanager-removegroup-message-unknown": "אירעה שגיאה בלתי־צפויה, נא לנסות שוב.",
+	"bs-groupmanager-lablename": "שם הקבוצה:",
+	"bs-groupmanager-msgnoteditable": "זוהי קבוצת מערכת, ולא ניתן לשנות את שמה.",
+	"bs-groupmanager-msgnotremovable": "זוהי קבוצת מערכת, ולא ניתן להסיר אותה.",
+	"bs-groupmanager-write-config-file-error": "לא ניתן ליצור או לשמור את הקובץ $1.",
+	"log-name-bs-group-manager": "יומן ניהול קבוצות",
+	"log-description-bs-group-manager": "יומן זה מציג את השינויים בקבוצות המשתמשים.",
+	"log-show-hide-bs-group-manager": "$1 יומן ניהול קבוצות",
+	"logeventslist-bs-group-manager-log": "יומן ניהול קבוצות",
+	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|יצר|יצרה}} את הקבוצה \"$4\"",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|שינה|שינתה}} את שם הקבוצה \"$4\" לשם \"$5\"",
+	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|הסיר|הסירה}} את הקבוצה \"$4\"",
+	"apihelp-bs-groupmanager-description": "אספקת המשימות עבור ההרחבה GroupManager.",
+	"apihelp-bs-groupmanager-summary": "אספקת המשימות עבור ההרחבה GroupManager.",
+	"action-groupmanager-viewspecialpage": "לצפות בדף המיוחד \"{{int:bs-groupmanager-label}}\"",
+	"groupmanager": "ניהול קבוצות"
+}

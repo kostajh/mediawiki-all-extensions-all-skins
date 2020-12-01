@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"PiotrAntosz",
+			"Rail",
+			"Railfail536",
+			"Saper"
+		]
+	},
+	"debugtemplates": "Debuger szablonów",
+	"debugtemplates-form": "Formularz wprowadzania",
+	"debugtemplates-desc": "Proste narzędzie do debugowania szablonów",
+	"debugtemplates-api": "Adres URL do zapytań do API",
+	"debugtemplates-title": "Nazwa strony (opcjonalne)",
+	"debugtemplates-args-title": "Parametry",
+	"debugtemplates-args-name": "Nazwa",
+	"debugtemplates-args-value": "Wartość",
+	"debugtemplates-args-set-toggle": "Zaznacz/Odznacz wszystko",
+	"debugtemplates-args-value-clear": "Wyczyść wszystko",
+	"debugtemplates-error-button": "Usuń komunikaty o błędach",
+	"debugtemplates-error-template-name": "Błąd, nie można określić nazwy szablonu:",
+	"debugtemplates-error-template-page": "Błąd, nie udało się załadować strony szablonu:",
+	"debugtemplates-input": "Tekst wejściowy",
+	"debugtemplates-intro": "Ta strona zawiera interfejs służący do debugowania i testowania szablonów. Zauważ, że ta funkcja jest wciąż w fazie rozwoju, ale możesz ją wypróbować wpisując „<nowiki>{{Coś|tam}}</nowiki>” w polu wprowadzania tekstu.",
+	"debugtemplates-radio-select": "nic",
+	"debugtemplates-warning-template-not-a-template": "Nie można znaleźć szablonu:",
+	"debugtemplates-warning-template-not-found": "Nieznany lub wbudowany szablon:",
+	"apihelp-expandframe-param-title": "Tytuł strony w kontekście."
+}

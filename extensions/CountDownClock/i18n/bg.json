@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"countDownClock-desc": "Добавя парсерна функция за показване на таймер за обратно отброяване",
+	"countDownClock-invalidtime": "Моля, въведете валиден параметър за endTime",
+	"countDownClock-days": "$1 {{PLURAL:$1|Ден|Дни}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|Час|Часове}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|Минута|Минути}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|Секунда|Секунди}}",
+	"countDownClock-expired": "Изтекъл"
+}

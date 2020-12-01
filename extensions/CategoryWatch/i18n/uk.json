@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"AS",
+			"Piramidion"
+		]
+	},
+	"categorywatch-desc": "Дозволяє спостерігати за змінами приналженості сторінок до певної категорії",
+	"categorywatch-emailsubject": "Зміни, пов'язані зі спостережуваною категорією \"$1\"",
+	"categorywatch-catmovein": "переніс $1 з $3 до $2",
+	"categorywatch-catmoveout": "переніс $1 з $2 до $3",
+	"categorywatch-catadd": "додав $1 в категорію $2",
+	"categorywatch-catsub": "вилучив $1 з $2",
+	"categorywatch-autocat": "Автоматично спостерігається $1",
+	"categorywatch-notification-link": "Категорія: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] додано до [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] додано до [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] {{GENDER:$1|додав|додала}} [[:$3|$3]] до [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] вилучено з [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] вилучено з [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] {{GENDER:$1|вилучив|вилучила}} [[:$3|$3]] з [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 {{PLURAL:$1|зміна в|зміни в|змін у}} категоризації в проекті {{SITENAME}}",
+	"categorywatch-add-title": "Назву додано до спостережуваної категорії",
+	"categorywatch-remove-title": "Назву вилучено зі спостережуваної категорії",
+	"categorywatch-page-watch-pref": "Додати всі сторінки в категорії до Вашого списку спостереження, коли Ви додаєте категорію",
+	"echo-category-title-categorywatch": "Спостереження за категоріями",
+	"echo-pref-tooltip-categorywatch": "Повідомляти мені, коли хтось додає чи вилучає якусь сторінку з категорії, за якою я спостерігаю."
+}

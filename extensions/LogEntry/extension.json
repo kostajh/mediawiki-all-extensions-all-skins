@@ -1,0 +1,45 @@
+{
+	"name": "LogEntry",
+	"author": "Trevor Parscal",
+	"url": "https://www.mediawiki.org/wiki/Extension:LogEntry",
+	"descriptionmsg": "logentry-parserhook-desc",
+	"license-name": "GPL-2.0-only",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"SpecialPages": {
+		"LogEntry": "SpecialLogEntry"
+	},
+	"MessagesDirs": {
+		"LogEntry": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"LogEntryAlias": "LogEntry.alias.php"
+	},
+	"AutoloadClasses": {
+		"LogEntryHooks": "includes/LogEntryHooks.php",
+		"SpecialLogEntry": "includes/specials/SpecialLogEntry.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "LogEntryHooks::register"
+	},
+	"config_prefix": "eg",
+	"config": {
+		"LogEntryTimeStamp": {
+			"value": true
+		},
+		"LogEntryUserName": {
+			"value": true
+		},
+		"LogEntryMultiLine": {
+			"value": false
+		},
+		"LogEntryMultiLineRows": {
+			"value": 3
+		}
+	},
+	"manifest_version": 2
+}

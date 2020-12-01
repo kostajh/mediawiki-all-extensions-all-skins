@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jango",
+			"Revi",
+			"Ykhwong"
+		]
+	},
+	"fundraiserunsubscribe-desc": "구성된 모금 메일링 리스트의 회원을 사용자가 관리할 수 있게 합니다",
+	"fundraiserunsubscribe": "위키미디어 모금 이메일 구독 해제",
+	"fundraiserunsubscribe-query": "정말로 '''''$1'''''을 구독 해제하시겠습니까?",
+	"fundraiserunsubscribe-errormsg": "당신의 요청을 처리하던 중 오류가 발생했습니다. [mailto:$1 $1]에게 문의해주시기 바랍니다.",
+	"fundraisersubscribe-fail": "요청 처리를 시도하는 동안 오류가 발생했습니다. [mailto:$1 $1]에 문의해 주십시오.",
+	"fundraisersubscribe-success": "감사합니다!"
+}

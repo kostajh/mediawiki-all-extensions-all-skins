@@ -1,0 +1,102 @@
+{
+	"name": "ExtensionDistributor",
+	"author": [
+		"Tim Starling",
+		"Sam Reed",
+		"Chad Horohoe",
+		"Kunal Mehta"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ExtensionDistributor",
+	"descriptionmsg": "extensiondistributor-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"config": {
+		"ExtDistAPIConfig": {
+			"value": false
+		},
+		"ExtDistListFile": {
+			"value": false
+		},
+		"ExtDistSnapshotRefs": {
+			"value": []
+		},
+		"ExtDistDefaultSnapshot": {
+			"value": "master"
+		},
+		"ExtDistCandidateSnapshot": {
+			"value": false
+		},
+		"ExtDistGraphiteRenderApi": {
+			"value": null
+		},
+		"ExtDistPopularExtList": {
+			"value": []
+		},
+		"ExtDistPopularSkinList": {
+			"value": []
+		}
+	},
+	"ExtensionMessagesFiles": {
+		"ExtensionDistributorAliases": "ExtensionDistributor.alias.php"
+	},
+	"APIListModules": {
+		"extdistrepos": "ApiListExtDistRepos",
+		"extdistbranches": "ApiListExtDistBranches"
+	},
+	"MessagesDirs": {
+		"ExtensionDistributor": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"Hooks": {
+		"APIQuerySiteInfoGeneralInfo": "ExtensionDistributorHooks::onAPIQuerySiteInfoGeneralInfo"
+	},
+	"SpecialPages": {
+		"ExtensionDistributor": "SpecialExtensionDistributor",
+		"SkinDistributor": "SpecialSkinDistributor"
+	},
+	"AutoloadClasses": {
+		"ExtensionDistributorHooks": "includes/ExtensionDistributorHooks.php",
+		"SpecialBaseDistributor": "includes/specials/SpecialBaseDistributor.php",
+		"SpecialExtensionDistributor": "includes/specials/SpecialExtensionDistributor.php",
+		"SpecialSkinDistributor": "includes/specials/SpecialSkinDistributor.php",
+		"ExtDistProvider": "includes/providers/ExtDistProvider.php",
+		"GerritExtDistProvider": "includes/providers/GerritExtDistProvider.php",
+		"GithubExtDistProvider": "includes/providers/GithubExtDistProvider.php",
+		"ApiListExtDistRepos": "includes/api/ApiListExtDistRepos.php",
+		"ApiListExtDistBranches": "includes/api/ApiListExtDistBranches.php",
+		"ExtDistGraphiteStats": "includes/stats/ExtDistGraphiteStats.php"
+	},
+	"ResourceModules": {
+		"ext.extensiondistributor.special.styles": {
+			"styles": "ext.extensiondistributor.special.less"
+		},
+		"ext.extensiondistributor.special": {
+			"scripts": "ext.extensiondistributor.special.js",
+			"dependencies": [
+				"mediawiki.api",
+				"mediawiki.jqueryMsg",
+				"oojs-ui"
+			],
+			"messages": [
+				"extdist-choose-version-extensions",
+				"extdist-choose-version-skins",
+				"extdist-submit-version",
+				"extdist-no-versions-extensions",
+				"extdist-no-versions-skins",
+				"extdist-branch-alpha",
+				"extdist-branch-stable",
+				"extdist-branch-candidate"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ExtensionDistributor/resources"
+	},
+	"manifest_version": 2
+}

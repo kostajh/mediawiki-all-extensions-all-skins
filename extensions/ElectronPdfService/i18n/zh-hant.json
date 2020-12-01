@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"A2093064",
+			"Cwlin0416",
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
+			"Wwycheuk"
+		]
+	},
+	"electronpdfservice": "Electron PDF 服務",
+	"electronpdfservice-desc": "透過 Electron PDF 服務，來添加瀏覽器基於 PDF 呈現的支援",
+	"electronpdfservice-special-page-headline": "下載成 PDF",
+	"electronpdfservice-download-label": "下載成 PDF",
+	"electronpdfservice-download-button": "下載",
+	"electronpdfservice-sidebar-portlet-heading": "列印/匯出",
+	"electronpdfservice-sidebar-portlet-print-text": "下載為 PDF",
+	"electronpdfservice-invalid-page-title": "無效頁面",
+	"electronpdfservice-invalid-page-text": "指定的頁面無效。"
+}

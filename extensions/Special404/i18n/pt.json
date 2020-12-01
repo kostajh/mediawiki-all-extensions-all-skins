@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Waldir",
+			"Waldyrious"
+		]
+	},
+	"special404-desc": "Fornece um destino para os erros \"404 Não encontrado\"",
+	"error404": "404 Não encontrado",
+	"special404-body": "O URL solicitado não foi encontrado. \n\nPretendia escrever {{fullurl:$1}}? \n\nTalvez queira visitar:\n* [[{{MediaWiki:Mainpage}}|A página principal]]"
+}

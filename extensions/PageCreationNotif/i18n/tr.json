@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"page-creation-notif-desc": "Yeni sayfalar oluşturulduğunda e-posta bildirimi gönderir",
+	"page-creation-notification": "Yeni bir sayfa oluşturulduğunda bana e-posta gönder",
+	"page-creation-email-subject": "Yeni sayfa – $2'de $1 sayfası $3 tarafından {{GENDER:$3|oluşturuldu}}",
+	"page-creation-email-body": "Sevgili $1,\n\nBu, {{SITENAME}} adlı kişiden $3 adlı kullanıcının yeni bir $2 sayfasının {{GENDER:$3|oluşturdu}}.\n\nŞurada görebilirsiniz\n$4\n\nSayfanın metni:\n$5\n\nArkadaşınız {{SITENAME}} bildirim sisteminiz.\n\nE-posta bildirim ayarlarınızı değiştirmek için, {{canonicalurl:{{#special:Preferences}}}} adresini ziyaret edin."
+}

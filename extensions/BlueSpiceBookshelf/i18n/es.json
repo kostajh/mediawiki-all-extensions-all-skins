@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"DannyS712",
+			"Fitoschido"
+		]
+	},
+	"bs-bookshelf-tag-bookshelf-desc": "Inserta la navegación de capítulo de un libro en una página de este. Mediante esta etiqueta, los artículos mencionados se incluyen en el libro. La numeración se adapta automáticamente al sumario.",
+	"bs-bookshelf-tagerror-article-title-not-valid": "No existe el artículo de origen proporcionado («$1»).",
+	"bs-bookshelf-tagerror-article-content-not-valid": "El artículo de origen proporcionado («$1») contiene datos no válidos.",
+	"bs-bookshelf-positive-integer-validation-not-approved": "Se permiten solo enteros positivos.",
+	"bs-bookshelf-specialpage-title": "Libros",
+	"bs-bookshelf-specialpage-allpages-ns-book-text": "Biblioteca",
+	"bs-bookshelf-tag-next": "Siguiente",
+	"bs-bookshelf-tag-prev": "Anterior",
+	"bs-bookshelf-tag-edit-book": "Editar libro",
+	"bs-bookshelf-personal-books-page-prefix": "$1/Libros/",
+	"bs-bookshelf-add-to-book-label": "Añadir a un libro",
+	"bs-bookshelf-add-to-book-label-book": "Libro",
+	"bs-bookshelf-add-to-book-label-alias": "Alias",
+	"bs-bookshelf-add-to-book-added": "Se añadió la página al libro «$1».",
+	"bs-bookshelf-setting-path-feature": "Libro",
+	"bs-bookshelf-empty-selection": "No se ha seleccionado nada",
+	"bs-bookshelf-grouping-template-type-local_storage": "Libros temporales",
+	"bs-bookshelf-grouping-template-type-ns_book": "Libros generales",
+	"bs-bookshelf-grouping-template-type-user_book": "Libros propios",
+	"bs-bookshelf-action-export-book": "Exportar libro",
+	"bs-bookshelf-error-invalid-type": "El tipo de libro especificado no es válido",
+	"bs-bookshelf-editor-no-title-provided": "No se proporcionó ningún título de libro válido",
+	"bs-bookshelf-book-grid-title": "Libros",
+	"bookshelf": "Estantería",
+	"bookshelf-summary": "Libros generales",
+	"bs-bookshelf-prof-defaultview": "Vista predeterminada",
+	"bs-bookshelf-prof-defaultview-grid": "Cuadrícula",
+	"bs-bookshelf-prof-defaultview-images": "Imágenes"
+}

@@ -1,0 +1,88 @@
+{
+	"name": "FundraiserLandingPage",
+	"author": [
+		"Peter Gehres",
+		"Ryan Kaldari"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:FundraiserLandingPage",
+	"descriptionmsg": "fundraiserlandingpage-desc",
+	"version": "1.1.0",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"extensions": {
+			"EventLogging": "*"
+		}
+	},
+	"AutoloadClasses": {
+		"FundraiserLandingPage": "includes/specials/FundraiserLandingPage.php",
+		"FundraiserRedirector": "includes/specials/FundraiserRedirector.php",
+		"FundraiserLandingPageHooks": "includes/FundraiserLandingPageHooks.php"
+	},
+	"ResourceModules": {
+		"ext.fundraiserLandingPage.LogPageview": {
+			"dependencies": [
+				"mediawiki.Uri",
+				"ext.eventLogging"
+			],
+			"scripts": "ext.fundraiserLandingPage.LogPageview.js"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "/resources",
+		"remoteExtPath": "FundraiserLandingPage/resources"
+	},
+	"MessagesDirs": {
+		"FundraiserLandingPage": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "FundraiserLandingPageHooks::onParserFirstCallInit",
+		"BeforePageDisplay": "FundraiserLandingPageHooks::onBeforePageDisplay",
+		"ResourceLoaderGetConfigVars": "FundraiserLandingPageHooks::onResourceLoaderGetConfigVars"
+	},
+	"ExtensionMessagesFiles": {
+		"FundraiserLandingPageAlias": "FundraiserLandingPage.alias.php",
+		"FundraiserLandingPageMagic": "FundraiserLandingPage.i18n.magic.php"
+	},
+	"SpecialPages": {
+		"FundraiserLandingPage": "FundraiserLandingPage",
+		"FundraiserRedirector": "FundraiserRedirector"
+	},
+	"attributes": {
+		"EventLogging": {
+			"Schemas": {
+				"LandingPageImpression": 18146199
+			}
+		}
+	},
+	"config": {
+		"FundraiserLPDefaults": {
+			"value": {
+				"template": "Lp-layout-default",
+				"appeal": "Appeal-default",
+				"appeal-template": "Appeal-template-default",
+				"form-template": "Form-template-default",
+				"form-countryspecific": "Form-countryspecific-control",
+				"country": "XX"
+			},
+			"merge_strategy": "array_plus"
+		},
+		"FundraiserLandingPageChapters": {
+			"value": {
+				"CH": "fundraiserlandingpage-wmch-landing-page",
+				"DE": "fundraiserlandingpage-wmde-landing-page"
+			},
+			"merge_strategy": "array_plus"
+		},
+		"FundraiserLandingPageMaxAge": {
+			"value": 600
+		},
+		"FundraiserLandingPageELSampleRate": {
+			"value": 0.01
+		}
+	},
+	"manifest_version": 2
+}

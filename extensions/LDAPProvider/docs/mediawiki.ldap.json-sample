@@ -1,0 +1,90 @@
+{
+	"testADdomain": {
+		"@note": "Configuration for Extension:LDAPProvider",
+		"connection": {
+			"server": "testADserver.AD.example.com",
+			"options": {
+				"LDAP_OPT_DEREF": 1
+			},
+			"port": 1389,
+			"enctype": "tls",
+			"basedn": "dc=AD,dc=example,dc=com",
+			"groupbasedn": "ou=Domain Groups,dc=AD,dc=example,dc=com",
+			"userbasedn": "ou=Domain Users,dc=AD,dc=example,dc=com"
+		},
+
+		"@note": "Configuration for Extension:LDAPUserInfo",
+		"userinfo": {
+			"attributes-map": {
+				"email": "mail",
+				"realname": "cn",
+				"nickname": "samaccountname"
+			}
+		},
+
+		"@note": "Configuration for Extension:LDAPAuthorization",
+		"authorization": {
+			"rules": {
+				"groups": {
+					"required": [
+						"cn=testgroup,ou=groups,dc=AD,dc=example,dc=com"
+					],
+					"excluded": [
+						"cn=evilgroup,ou=groups,dc=AD,dc=example,dc=com"
+					]
+				}
+			}
+		},
+
+		"@note": "Configuration for Extension:LDAPGroups",
+		"groupsync": {
+			"localy-managed": [
+				"adtestgroup",
+				"adtestgroup2"
+			]
+		}
+	},
+	"testLDAPdomain": {
+		"connection": {
+			"server": "testLDAPserver.LDAP.example.com testLDAPserver2.LDAP.example.com",
+			"user": "cn=proxyagent,ou=profile,dc=LDAP,dc=example,dc=com",
+			"pass": "S0M3L0ngP@$$w0r6ofS0meV@rie222y!",
+			"options": {
+				"LDAP_OPT_DEREF": 1
+			},
+			"port": 1636,
+			"enctype": "clear",
+			"basedn": "dc=LDAP,dc=example,dc=com",
+			"groupbasedn": "ou=group,dc=LDAP,dc=example,dc=com",
+			"userbasedn": "ou=people,dc=LDAP,dc=example,dc=com"
+		},
+		"userinfo": {
+			"attributes-map": {
+				"email": "mail",
+				"realname": "displayname",
+				"nickname": "cn",
+				"language": "preferredlanguage"
+			}
+		},
+		"authorization": {
+			"rules": {
+				"groups": {
+					"required": [
+						"cn=testgroup,ou=groups,dc=LDAP,dc=example,dc=com",
+						"cn=testgroup2,ou=groups,dc=LDAP,dc=example,dc=com"
+					],
+					"excluded": [
+						"cn=evilgroup,ou=groups,dc=LDAP,dc=example,dc=com",
+						"cn=evilgroup2,ou=groups,dc=LDAP,dc=example,dc=com"
+					]
+				}
+			}
+		},
+		"groupsync": {
+			"locally-managed": [
+				"ldaptestgroup",
+				"ldaptestgroup2"
+			]
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"userexport-desc": "Uvijek izvezi koristničke podatke u CSV datoteku",
+	"userexport": "Izvezi korisničke podatke",
+	"userexport-submit": "Izvezi / Извези",
+	"userexport-badtoken": "Pogrešan žeton za izmjenu",
+	"userexport-description": "Ova stranica omogućuje izvoz korisničkih podataka (korisničkog imena i e-pošte) svih korisnika registriranih na ovom wikiju u CSV datoteci.",
+	"right-userexport": "Grupni izvoz korisničkih podataka",
+	"action-userexport": "grupni izvoz korisničkih podataka"
+}

@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby",
+			"Soued031"
+		]
+	},
+	"jade-damaging-scale-true-label": "Schiedlech",
+	"jade-damaging-scale-false-label": "Net schiedlech",
+	"jade-goodfaith-scale-true-label": "Gutt Absicht",
+	"jade-goodfaith-scale-false-label": "Schlecht Absicht",
+	"jade-contentquality-scale-3-label": "C-Klass-Artikel",
+	"jade-contentquality-scale-4-label": "B-Klass-Artikel",
+	"jade-contentquality-scale-5-label": "Gudden Artikel",
+	"jade-delete": "Läschen",
+	"jade-user-ip-invalid": "D'IP-Adress \"$1\" ass net valabel.",
+	"jade-cannot-edit-page": "Dir kënnt dës Säit net änneren.",
+	"jade-db-error": "Datebank Feeler: $1",
+	"jade-user": "Benotzer",
+	"jade-updateendorsement": "Dir hutt eng Ënnerstëtzung aktualiséiert",
+	"jade-updateproposal": "Dir hutt e Virschlag aktualiséiert",
+	"jade-deleteendorsement": "Dir hutt eng Ënnerstëtzung geläscht",
+	"jade-deleteproposal": "Dir hutt e Virschlag geläscht",
+	"jade-endorse": "Dir hutt e Virschlag ënnertstëtzt",
+	"jade-createandendorse": "Dir hutt e Virschlag ugeluecht an ënnerstëtzt",
+	"jade-setpreference": "Dir hutt e Virschlag promovéiert",
+	"jade-moveendorsement": "Dir hutt eng Ënnerstëtzung geréckelt",
+	"jade-by-id-number-comment": "vum [[User:$1|$1]]",
+	"jade-rcfilters-group-whats-this-header": "Iwwer Qualitéitsetikette vu Kontributiounen",
+	"jade-rcfilters-group-whats-this-link-text": "Fir méi ze wëssen",
+	"jade-rcfilters-group-unlabeled-label": "Ouni Etikett",
+	"jade-rcfilters-group-unlabeled-desc": "Dës Ännerungen hunn nach keng Etikett kritt.",
+	"prefs-betafeatures": "Beta Funktionalitéiten"
+}

@@ -1,0 +1,31 @@
+{
+	"name": "PageTools",
+	"version": "2.2.0-alpha",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Jldupont Jean-Lou Dupont]",
+		"[https://www.mediawiki.org/wiki/User:F.trott Stephan Gambke]"
+	],
+	"license-name": "GPL-3.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:PageTools",
+	"descriptionmsg": "pagetools-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"PageTools": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PageToolsMagic": "PageTools.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"PageTools": "includes/PageTools.php",
+		"PageToolsHooks": "includes/PageToolsHooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "PageToolsHooks::onPageToolsSetupParserFunction"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Indunil Chamara",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"security": "ආරක්ෂණ ලොගය",
+	"security-logpage": "ආරක්ෂණ ලොගය",
+	"security-info": "මෙම පිටුව මත $1 ඇත",
+	"security-info-toggle": "ආරක්ෂණ සීමා කිරීම්",
+	"security-inforestrict": "$1 $2 වෙත සීමා කර ඇත",
+	"security-desc-PR": "(\"ආරක්ෂණය\" ටැබයෙන් සකසන්න)",
+	"security-manygroups": "$1 සමූහ සහ $2",
+	"security-unchain": "ක්‍රියාවන් තනි තනිව වෙනස් කරන්න",
+	"security-type-category": "ප්‍රවර්ගය",
+	"security-type-namespace": "නාම අවකාශය",
+	"restriction-read": "කියවන්න"
+}

@@ -1,0 +1,8 @@
+div#allcomments .full,
+div#allcomments .reply {
+	width: auto;
+}
+
+textarea#comment {
+	width: 495px !important;
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"gae-desc": "Dèje de le meglioraminde a le uicchi ca avènene langiate cu GoogleAppEngine",
+	"apihelp-gaejobqueue-description": "Modelu 'nderne de API pe langià 'nu JobQueue. Ause pe fòre non g'è conzendite.",
+	"apihelp-gaejobqueue-summary": "Modelu 'nderne de API pe langià 'nu JobQueue. Ause pe fòre non g'è conzendite.",
+	"apihelp-gaejobqueue-param-namespace": "ID numereche d'u namespace.",
+	"apihelp-gaejobqueue-param-titletext": "Teste d'u titole senze namespace.",
+	"apihelp-gaejobqueue-param-type": "Tipe de fatìe.",
+	"apihelp-gaejobqueue-param-params": "Parametre serializzate de PHP pa fatìe."
+}

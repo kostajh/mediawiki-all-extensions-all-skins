@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yfdyh000"
+		]
+	},
+	"parserfun-desc": "添加解析器函数<code>#parse</code>用于解析wikitext和引入<code>THIS:</code>前缀，对页面信息相关的魔术字变量",
+	"parserfun-invalid-caller-mode": "没有提供有效的操作模式或数字索引。"
+}

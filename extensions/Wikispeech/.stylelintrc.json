@@ -1,0 +1,7 @@
+{
+	"extends": "stylelint-config-wikimedia",
+	"rules": {
+		"font-family-no-missing-generic-family-keyword": null,
+		"function-disallowed-list": null
+	}
+}

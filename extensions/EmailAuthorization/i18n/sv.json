@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjälten",
+			"Technic2",
+			"Umeaboy",
+			"WikiPhoenix"
+		]
+	},
+	"emailauthorization-desc": "Auktorisera användare via e-postadress",
+	"emailauthorizationconfig": "Kontrollpanel för e-postauktorisering",
+	"emailauthorization-config-instructions": "För att lägga till eller återkalla e-postadresser i en domän, använd ''@domain'' där ''domain'' är e-postdomänen. Detta påverkar inte andra e-postadresser som uttryckligen läggs till i domänen.",
+	"emailauthorization-config-authorized": "''$1'' är auktoriserad.",
+	"emailauthorization-config-notauthorized": "''$1'' är inte auktoriserad.",
+	"emailauthorization-config-added": "Auktoriserade \"$1\".",
+	"emailauthorization-config-alreadyauthorized": "''$1'' är redan auktoriserad.",
+	"emailauthorization-config-revoked": "Återkallade auktorisering från \"$1\".",
+	"emailauthorization-config-noauthfound": "Inga auktoriserade e-postadresser eller domäner hittades.",
+	"emailauthorization-config-nousersfound": "Inga användare funna.",
+	"emailauthorization-config-invalidemail": "''$1'' är inte en giltig e-postadress eller domän.",
+	"emailauthorization-config-label-email": "E-postadress",
+	"emailauthorization-config-label-username": "Användarnamn",
+	"emailauthorization-config-label-realname": "Riktigt namn",
+	"emailauthorization-config-label-userpage": "Användarsida",
+	"emailauthorization-config-label-authorized": "Auktoriserade",
+	"emailauthorization-config-value-domain": "alla användare med e-postadresser som slutar med $1",
+	"emailauthorization-config-value-yes": "ja",
+	"emailauthorization-config-value-no": "nej",
+	"emailauthorization-config-legend-search": "Sök efter e-postadresser",
+	"emailauthorization-config-legend-add": "Lägg till auktoriserad e-postadress eller domän.",
+	"emailauthorization-config-legend-revoke": "Återkalla auktoriserad e-postadress eller domän.",
+	"emailauthorization-config-button-next": "Nästa",
+	"emailauthorization-config-button-previous": "Föregående",
+	"emailauthorization-config-button-search": "Sök",
+	"emailauthorization-config-button-add": "Lägg till",
+	"emailauthorization-config-button-revoke": "Återkalla",
+	"emailauthorization-config-button-showauth": "Visa auktoriserade e-postadresser och domäner",
+	"emailauthorization-config-button-showall": "Visa alla wikianvändare",
+	"emailauthorization-approve-button-next": "Nästa",
+	"emailauthorization-approve-button-previous": "Föregående"
+}

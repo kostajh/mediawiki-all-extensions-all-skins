@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Omotecho",
+			"Otokoume",
+			"Shirayuki"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "エレクトロン PDF サービスを介して、ブラウザによるPDFレンダリング支援を付加",
+	"electronpdfservice-special-page-headline": "PDF形式で書き出す",
+	"electronpdfservice-download-label": "PDFとしてダウンロード",
+	"electronpdfservice-download-button": "ダウンロード",
+	"electronpdfservice-sidebar-portlet-heading": "印刷/書き出し",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF形式で書き出す",
+	"electronpdfservice-invalid-page-title": "無効なページ",
+	"electronpdfservice-invalid-page-text": "指定されたページは有効ではありません。"
+}

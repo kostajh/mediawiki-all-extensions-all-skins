@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil",
+			"Skalman"
+		]
+	},
+	"hsts-desc": "HSTS (HTTP Strict Transport Security) på en per-användare-basis",
+	"hsts-tog": "Aktivera HTTP Strict Transport Security (HSTS)",
+	"hsts-https-tog": "Aktivera HTTP Strict Transport Security (HSTS)<br />Ladda om denna sida med HTTPS för att ändra denna inställning.",
+	"hsts-beta-feature-message": "Använd alltid en säker anslutning",
+	"hsts-beta-feature-description": "Detta förstärker din säkerhet på denna webbplats genom att hålla dig säkert även efter det att du loggar ut, och försäkrar att ingen kan spionera på dig när du surfar. Med detta alternativ aktiverat och en ny webbläsare som stöder denna teknik (HSTS), är eventuella säkerhetsvarningar sannolikt en sann attack mot dig."
+}

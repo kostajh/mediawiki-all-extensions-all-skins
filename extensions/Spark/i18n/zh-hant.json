@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"spark-desc": "添加 <code><nowiki><spark /></nowiki></code> 標籤來啟用嵌入 [http://km.aifb.kit.edu/sites/spark/ Spark] 功能混搭",
+	"spark-missing-query": "您需要指定使用「data-spark-query」參數的查詢。"
+}

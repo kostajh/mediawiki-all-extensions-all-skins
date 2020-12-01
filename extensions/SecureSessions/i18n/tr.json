@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"securesessions-desc": "Kullanıcı oturumlarını ve oturum kimlik doğrulamasını daha güvenli hale getirir",
+	"securesessions-personalurl": "Açık oturumlar ($1)",
+	"securesessions-ipsession": "Diğer tüm oturumları kapatın.",
+	"securesessions-iprestrict": "Oturumu bu IP adresiyle kısıtla,",
+	"securesessions-uarestrict": "Oturumu bu tarayıcıyla kısıtla.",
+	"securesessions-sessions": "Oturumlar",
+	"securesessions-sessions-legend": "Oturum bilgisi",
+	"securesessions-sessions-text": "Aşağıda hesabınızla ilgili tüm açık oturumlar ve bu hesaplarla ilgili bilgiler bulunmaktadır. Aşağıdaki düğmeyi kullanarak diğer tüm oturumları kapatabilirsiniz. Yıldız işareti (*) geçerli oturumu belirtir.",
+	"securesessions-sessions-ip": "IP adresi:",
+	"securesessions-sessions-activity": "Son aktivite:",
+	"securesessions-sessions-clear": "Diğer tüm oturumları kapatın",
+	"securesessions-prefs-country": "Ülkeye göre girişi kısıtla:",
+	"securesessions-prefs-tor": "Tor çıkış düğümlerinden girişlere izin verme.",
+	"securesessions-disallowedcountry": "Bu hesabın bu ülkeden giriş yapmasına izin verilmiyor.",
+	"securesessions-disallowedtor": "Bu hesabın Tor çıkış düğümlerinden giriş yapmasına izin verilmiyor."
+}

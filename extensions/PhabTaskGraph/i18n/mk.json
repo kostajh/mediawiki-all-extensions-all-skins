@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"phabtaskgraph": "Графикон на задачи на Фабрикатор",
+	"phabtaskgraph-desc": "Го исцртува односот помеѓу задачите на Фабрикатор во графикон",
+	"phabtaskgraph-author-field-label": "Автор",
+	"phabtaskgraph-owner-field-label": "Сопственик",
+	"phabtaskgraph-tasks-field-label": "Задачи",
+	"phabtaskgraph-projects-field-label": "Проекти",
+	"phabtaskgraph-status-field-label": "Статус",
+	"phabtaskgraph-width-field-label": "Ширина",
+	"phabtaskgraph-height-field-label": "Висина",
+	"phabtaskgraph-tasks-field-help": "список на назнаки на задачи одделени со запирка (почетното „T“ е незадолжително); на пр. „T123456“",
+	"phabtaskgraph-projects-field-help": "список на назнаки на проектни имиња одделени со запирка; на пр. „MediaWiki-Platform-Team, Epic“",
+	"phabtaskgraph-width-field-help": "по основно: 800",
+	"phabtaskgraph-height-field-help": "по основно: 800",
+	"phabtaskgraph-status-open": "Отворени",
+	"phabtaskgraph-status-stalled": "Запрени",
+	"phabtaskgraph-status-resolved": "Решени",
+	"phabtaskgraph-status-invalid": "Неважечки",
+	"phabtaskgraph-status-declined": "Одбиени",
+	"phabtaskgraph-status-duplicate": "Дуплирани"
+}

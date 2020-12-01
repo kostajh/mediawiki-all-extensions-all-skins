@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjh21",
+			"Chase me ladies, I'm the Cavalry",
+			"Shirayuki"
+		]
+	},
+	"fundraiserunsubscribe-desc": "Allows users to manage their membership in configured fundraising mailing lists",
+	"fundraiserunsubscribe": "Unsubscribe from Wikimedia Foundation Fundraising Emails",
+	"fundraiserunsubscribe-query": "Are you sure you want to unsubscribe '''''$1'''''?",
+	"fundraiserunsubscribe-info": "This will opt you out of emails from the Wikimedia Foundation sent to you as a donor. You may still receive emails to this email address if it is associated with an account on one of our projects. If you have any questions, please contact [mailto:$1 $1].",
+	"fundraiserunsubscribe-submit": "Unsubscribe",
+	"fundraiserunsubscribe-cancel": "Cancel",
+	"fundraiserunsubscribe-errormsg": "An error occurred while attempting to process your request. Please contact [mailto:$1 $1].",
+	"fundraiserunsubscribe-success": "You have successfully been removed from our mailing list.",
+	"fundraiserunsubscribe-sucesswarning": "Please allow up to four (4) days for the changes to take effect. We apologise for any emails you receive during this time. If you have any questions, please contact [mailto:$1 $1].",
+	"fundraisersubscribe-photo-license": "All images are licensed under the [$1 Creative Commons Attribution-Share Alike 4.0 International] licence."
+}

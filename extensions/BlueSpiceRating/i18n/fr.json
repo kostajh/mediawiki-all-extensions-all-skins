@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094",
+			"Wladek92"
+		]
+	},
+	"bs-rating-extension-description": "Fournit un système de notation",
+	"bs-rating-types-page": "Évaluation des pages",
+	"bs-rating-types-pagelike": "Recommandation de page",
+	"rating": "Évaluations",
+	"recommendations": "Recommendations",
+	"bs-rating-yourrating": "Votre note : $1",
+	"bs-rating-special-rating-heading": "Évaluations",
+	"bs-rating-articlelike-ratingtext": "Recommandé ($1)",
+	"bs-rating-articlelike-uratingtextservoted": "Recommandé ($1)",
+	"action-rating-viewspecialpage": "afficher les pages qui sont protégées avec le droit « Rating-Viewspecialpage »",
+	"action-rating-read": "lire les notes sur les pages",
+	"action-rating-write": "voter sur les pages",
+	"action-rating-archive": "supprimer les votes des pages",
+	"right-rating-viewspecialpage": "Afficher les pages qui sont protégées avec le droit « Rating-Viewspecialpage »",
+	"right-rating-read": "Lire la notation des pages",
+	"right-rating-write": "Voter sur les pages",
+	"right-rating-archive": "Supprimer les votes des pages",
+	"bs-rating-special-recommendations-heading": "Recommandations",
+	"bs-rating-special-recommendations-label-recommendation": "Recommandations",
+	"bs-rating-specialrating-label-namespace": "Espace de noms",
+	"bs-rating-specialrating-titleTitle": "Titre",
+	"bs-rating-specialrating-titleRating": "Évaluation",
+	"bs-rating-specialrating-titleVotes": "Nombre de notes",
+	"apihelp-bs-rating-tasks-description": "Exécute les tâches courantes pour l’extension Rating",
+	"apihelp-bs-rating-store-description": "Fournit des notes pour les articles",
+	"bs-rating-nsm-label": "Évaluation",
+	"bs-rating-nsm-label-recommendations": "Recommendations",
+	"apihelp-bs-rating-tasks-summary": "Exécute les tâches courantes pour l’extension Rating",
+	"apihelp-bs-ratingarticle-store-summary": "Fournit des notes pour les articles",
+	"apihelp-bs-ratingarticlelike-store-summary": "Fournit des recommandations pour les articles"
+}

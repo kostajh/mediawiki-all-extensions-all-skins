@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"Veeven"
+		]
+	},
+	"inlinecategorizer-add-category": "వర్గాన్ని చేర్చండి",
+	"inlinecategorizer-add-category-submit": "చేర్చు",
+	"inlinecategorizer-add-category-summary": "\"$1\" వర్గాన్ని చేర్చండి",
+	"inlinecategorizer-cancel": "మార్పుని రద్దు చేయి",
+	"inlinecategorizer-cancel-all": "అన్ని మార్పులను రద్దు చేయి",
+	"inlinecategorizer-category-already-present": "ఈ పుట ఇప్పటికీ \"$1\" వర్గంలో ఉంది",
+	"inlinecategorizer-category-question": "మీరు ఈ క్రింది మార్పులను ఎందుకు చేయాలనుకుంటున్నారు:",
+	"inlinecategorizer-confirm-ok": "సరే",
+	"inlinecategorizer-confirm-save": "భద్రపరచు",
+	"inlinecategorizer-confirm-save-all": "అన్ని మార్పులను భద్రపరచు",
+	"inlinecategorizer-confirm-title": "చర్యని నిర్ధారించండి",
+	"inlinecategorizer-edit-category": "వర్గాన్ని మార్చండి",
+	"inlinecategorizer-edit-category-summary": "వర్గాన్ని \"$1\" నుండి \"$2\"కి మార్చు",
+	"inlinecategorizer-error-title": "లోపం",
+	"inlinecategorizer-remove-category": "వర్గాన్ని తొలగించు",
+	"inlinecategorizer-remove-category-error": "\"$1\" వర్గాన్ని తొలగించడం సాధ్యం కాలేదు.\nపేజీకి ఆ వర్గం ఒక మూస ద్వారా చేరినప్పుడు సాధారణంగా ఇలా జరుగుతుంది.",
+	"inlinecategorizer-remove-category-summary": "\"$1\" వర్గాన్ని తొలగించండి"
+}

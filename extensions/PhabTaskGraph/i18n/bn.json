@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"Rasal Lia",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"phabtaskgraph": "ফ্যাব্রিকেটর কার্য গ্রাফ",
+	"phabtaskgraph-desc": "একটি জোরপূর্বক পরিচালিত গ্রাফের মধ্যে ফ্যাব্রিকেটর কার্যের সম্পর্ক দৃশ্যমান করে",
+	"phabtaskgraph-author-field-label": "প্রণেতা",
+	"phabtaskgraph-owner-field-label": "মালিক",
+	"phabtaskgraph-tasks-field-label": "কার্যগুলি",
+	"phabtaskgraph-projects-field-label": "প্রকল্পসমূহ",
+	"phabtaskgraph-status-field-label": "অবস্থা",
+	"phabtaskgraph-width-field-label": "প্রস্থ",
+	"phabtaskgraph-height-field-label": "উচ্চতা",
+	"phabtaskgraph-tasks-field-help": "কমা দ্বারা পৃথক করা কার্যের আইডিগুলোর তালিকা (ঐচ্ছিকভাবে \"T\" দিয়ে শুরু) উদাহরণস্বরূপ 'T123456, T654321'",
+	"phabtaskgraph-projects-field-help": "কমা দ্বারা পৃথক করা প্রকল্পের নামগুলির তালিকা; উদাহরণস্বরূপ 'MediaWiki-Platform-Team, Epic'",
+	"phabtaskgraph-width-field-help": "পূর্বনির্ধারিত: 800",
+	"phabtaskgraph-height-field-help": "পূর্বনির্ধারিত: 800",
+	"phabtaskgraph-status-open": "খোলা",
+	"phabtaskgraph-status-stalled": "স্থগিত",
+	"phabtaskgraph-status-resolved": "মীমাংসিত",
+	"phabtaskgraph-status-invalid": "অবৈধ",
+	"phabtaskgraph-status-declined": "প্রত্যাখ্যাত",
+	"phabtaskgraph-status-duplicate": "সদৃশ"
+}

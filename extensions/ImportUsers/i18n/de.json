@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder",
+			"Kghbln",
+			"MF-Warburg",
+			"Metalhead64",
+			"The Evil IP address"
+		]
+	},
+	"importusers": "Benutzer importieren",
+	"importusers-desc": "Erweitert das Wiki um eine [[Special:ImportUsers|Spezialseite]] zum Import von Benutzern aus Dateien im CSV-Format (UTF-8)",
+	"importusers-uploadfile": "Datei hochladen",
+	"importusers-form-caption": "Importdatei:",
+	"importusers-file": "Aufbau und Formatierung der CSV-Importdatei:",
+	"importusers-file-structure": "Struktur:",
+	"importusers-file-format": "Formatierung:",
+	"importusers-form-replace-present": "Bestehende Benutzer ersetzen",
+	"importusers-form-add-to-group": "Benutzer einer vorhandenen Benutzergruppe zuordnen",
+	"importusers-form-button": "Benutzer importieren",
+	"importusers-user-added": "{{GENDER:$1|Benutzer|Benutzerin}} „$1“ wurde importiert.",
+	"importusers-user-present-update": "{{GENDER:$1|Benutzer|Benutzerin}} „$1“ ist bereits vorhanden und wurde aktualisiert.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Benutzer|Benutzerin}} „$1“ ist bereits vorhanden und wurde nicht aktualisiert.",
+	"importusers-user-invalid-format": "Die Benutzerdaten in Zeile $1 haben ein ungültiges Format oder sind leer und wurden nicht importiert oder aktualisiert.",
+	"importusers-log": "Benutzerimport-Logbuch",
+	"importusers-log-list": "Importierte oder aktualisierte Benutzer:",
+	"importusers-log-summary": "Zusammenfassung des Benutzerimports:",
+	"importusers-log-summary-all": "{{PLURAL:$1|Benutzer}} insgesamt: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Benutzer|Benutzerin}}|Benutzer}} hinzugefügt: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Benutzer}} aktualisiert: $1",
+	"importusers-login-name": "Benutzername",
+	"importusers-password": "Passwort",
+	"importusers-email": "E-Mail-Adresse",
+	"importusers-realname": "Bürgerlicher Name",
+	"importusers-group": "Benutzergruppe",
+	"importusers-utf8": "Zeichensatzkodierung in UTF-8",
+	"importusers-comma": "Kommata als Feldtrenner",
+	"importusers-noquotes": "keine Texttrenner",
+	"right-import_users": "Benutzerdaten in großem Umfang importieren",
+	"action-import_users": "Benutzer in dieses Wiki zu importieren"
+}

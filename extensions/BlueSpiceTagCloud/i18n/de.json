@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Patric Wirth"
+		]
+	},
+	"bs-tagcloud-desc": "Zeigt verschiedene Tag-Clouds",
+	"bs-tagcloud-error-tagtype": "Der angegebene Wert „$1“ ist kein gültiger Speicher.",
+	"bs-tagcloud-error-tagrenderer": "Der angegebene Wert „$1“ ist kein gültiger Renderer.",
+	"bs-tagcloud-tag-tagcloud-name": "Tag Cloud",
+	"bs-tagcloud-tag-tagcloud-title": "Tag Cloud",
+	"bs-tagcloud-tag-tagcloud-desc": "Erstellt eine Tag Cloud auf Basis von Kategorien oder Suchanfragen",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Typ",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "Legt fest, wie die Tag Cloud dargestellt werden soll",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Text",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "Liste",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "Datenbasis",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "Legt fest, aus welchen Daten die Tag Cloud erstellt werden soll",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Kategorien",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Suchanfragen",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Breite",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "Breite der Tag Cloud in Prozent",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "Anzahl zeigen",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "Zeigt die Anzahl der Elemente in Klammern",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Min. Schriftgröße",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "Schriftgröße für den Eintrag mit den wenigsten Elementen",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Max. Schriftgröße",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "Schriftgröße für den Eintrag mit den meisten Elementen",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Seiten ausnehmen",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "Zeigt diese Seiten nicht in der Tag Cloud an. Für mehrere Seiten kann eine kommasepartierte Liste verwendet werden, z.B. \"Hauptseite, Test, MeineSeite\""
+}

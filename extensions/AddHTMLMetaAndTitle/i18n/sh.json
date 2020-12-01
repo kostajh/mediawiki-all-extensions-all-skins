@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "Omogućuje lakšu optimizciju tražilice",
+	"addhtmlmetaandtitle-empty-attr": "Oznaka &lt;seo&gt; mora sadržavati brem jedan atribut što nije prazan: \"title\", \"metak(eywords)\" ili \"metad(escription)\"."
+}

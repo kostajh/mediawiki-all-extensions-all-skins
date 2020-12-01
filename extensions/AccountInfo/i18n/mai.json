@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"बिप्लब आनन्द"
+		]
+	},
+	"accountinfo": "खाता जानकारी देखु",
+	"accountinfo-desc": "प्रयोगकर्तालाई तिनको बारेमा सङ्ग्रहित निजी जानकारी हेर्ने अनुमति दिने",
+	"accountinfo-ts": "समएकाल",
+	"accountinfo-ip": "आइ.पि.पता",
+	"accountinfo-ua": "प्रयोगकर्ता एजेन्ट",
+	"accountinfo-xff": "एक्सएफएफ हेडर",
+	"accountinfo-length": "$1 को लागि जानकारी राखिएको छ।",
+	"accountinfo-now": "अखन"
+}

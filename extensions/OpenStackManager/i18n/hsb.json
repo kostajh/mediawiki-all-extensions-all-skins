@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Zjawne SSH-kluče zrjadować",
+	"specialpages-group-nova": "OpenStack Nova",
+	"openstackmanager-novakey": "Nova-kluč",
+	"openstackmanager-delete": "zhašeć",
+	"openstackmanager-actions": "Akcije",
+	"openstackmanager-notloggedin": "Přizjewjenje trěbne",
+	"openstackmanager-mustbeloggedin": "Dyrbiš přizjewjeny być, zo by tutu akciju wuwjedł.",
+	"openstackmanager-novapublickey": "Zjawny SSH-kluč",
+	"openstackmanager-prefs-novapublickey": "Zjawne SSH-kluče:",
+	"openstackmanager-deletekey": "Zjawny SSH-kluč zhašeć",
+	"openstackmanager-deletekeyconfirm": "Chceš horni kluč woprawdźe zhašeć?",
+	"openstackmanager-keylist": "Lisćina zjawnych SSH-klučow",
+	"openstackmanager-addkey": "Zjawny SSH-kluč přidać",
+	"openstackmanager-name": "Mjeno",
+	"openstackmanager-fingerprint": "Porstowy wotćišć",
+	"openstackmanager-keys": "Kluče",
+	"openstackmanager-keypairimportfailed": "Klučowy por njeda so importować.",
+	"openstackmanager-keypairimported": "Klučowy por importowany.",
+	"openstackmanager-keypairformatwrong": "Podaty SSH-kluč bě wopak abo w njeznatym formaće.",
+	"openstackmanager-keypairformatconverted": "Format SSH-kluča je so awtomatisce konwertował.",
+	"openstackmanager-deletedkey": "Kluč je so wuspěšnje zhašał.",
+	"openstackmanager-deletedkeyfailed": "Kluč njeda so zhašeć.",
+	"prefs-openstack-keys": "Lisćina klučow"
+}

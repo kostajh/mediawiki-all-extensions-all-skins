@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"KediÇobanı",
+			"Sayginer"
+		]
+	},
+	"prefs-avatars": "Avatarlar",
+	"bs-avatars-desc": "Genel ve bireysel kullanıcı resimleri sağlar",
+	"bs-avatars-pref-generator": "Jeneratör:",
+	"bs-avatars-pref-defaultsize": "Piksel cinsinden varsayılan boyut:",
+	"bs-avatars-pref-userimage": "Kullanıcı resmi:",
+	"bs-avatars-pref-userimage-img-alt": "Mevcut kullanıcı resminiz",
+	"bs-avatars-upload-complete": "Resim yüklendi.",
+	"bs-avatars-generate-complete": "Yeni bir avatar oluşturuldu.",
+	"bs-avatars-upload-title": "Profil resmini değiştir",
+	"bs-avatars-upload-label": "Resim",
+	"bs-avatars-generate-new-label": "Yeni avatar oluştur",
+	"bs-avatars-warning-title": "Uyarı",
+	"bs-avatars-warning-text": "Tercihlerinizde bir kullanıcı resmi belirlediniz. Avatarların kullanılması bu ayarı temizleyecektir. Devam etmek istiyor musunuz?",
+	"bs-avatars-userimage-title": "Viki veya resim URL'sinden resim",
+	"bs-avatars-userimage-help": "ör. Örnek.jpg veya http://localhost/Picture.gif",
+	"bs-avatars-userimage-alt": "\"$1\" adlı kullanıcının profil görüntüsü",
+	"bs-avatars-set-userimage-failed": "Vikiden geçerli bir URL veya resim değil.",
+	"bs-avatars-set-userimage-saved": "Kullanıcı resmi kaydedildi.",
+	"bs-avatars-file-upload-fieldset-title": "Resim yükleme",
+	"bs-avatars-auto-generate-fieldset-title": "Otomatik avatar oluştur",
+	"apihelp-bs-avatars-tasks-description": "Kullanıcı avatarlarını yükleme, oluşturma ve ayarlama",
+	"apihelp-bs-avatars-tasks-summary": "Kullanıcı avatarlarını yükleme, oluşturma ve ayarlama",
+	"bs-avatars-tag-profileimage-error-invalidusername": "\"Kullanıcı adı\" parametresi gerekli ve geçerli bir kullanıcı adı içermelidir"
+}

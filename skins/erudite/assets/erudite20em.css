@@ -1,0 +1,4 @@
+/* Disable text justification (user preference) */
+#bodyContent {
+	text-align: left !important;
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"readinglists-desc": "Им овозможува на корисниците да раководат со приватни списоци на статии како обележувачи или „За читање подоцна“.",
+	"readinglists-db-error-not-set-up": "Нема поставени списоци за читање за овој корисник.",
+	"readinglists-db-error-already-set-up": "Веќе се поставен и списоци за читање за овој корисник.",
+	"readinglists-db-error-cannot-delete-default-list": "Основниот список не може да се избрише.",
+	"readinglists-db-error-cannot-update-default-list": "Основниот список не може да се избрише.",
+	"readinglists-db-error-no-such-list": "Списокот $1 не постои.",
+	"readinglists-db-error-no-such-list-entry": "Ставката $1 не постои.",
+	"readinglists-db-error-not-own-list": "Списокот $1 му припаѓа на друг корисник.",
+	"readinglists-db-error-not-own-list-entry": "Ставката $1 му припаѓа на друг корисник.",
+	"readinglists-db-error-list-deleted": "Списокот $1 е избришан.",
+	"readinglists-db-error-list-entry-deleted": "Ставката $1 е избришана.",
+	"readinglists-db-error-duplicate-list": "Веќе постои список со тоа име.",
+	"readinglists-db-error-duplicate-page": "Страницата е веќе во списокот.",
+	"readinglists-db-error-empty-list-ids": "Параметарот со списочни назнаки не постои.",
+	"readinglists-db-error-user-required": "Не може да се повика овој начин без да се укаже корисник.",
+	"readinglists-db-error-list-limit": "Корисниците не можат да имаат повеќе од $1 {{PLURAL:$1|список|списоци}}.",
+	"readinglists-db-error-entry-limit": "Списокот $1 не може да има повеќе од $2 {{PLURAL:$2|ставка|ставки}}.",
+	"readinglists-db-error-too-long": "Вреднсота за полето $1 не може да е подолга од $2 бајти.",
+	"readinglists-db-error-no-such-project": "„$1“ не е признаен проект.",
+	"readinglists-browser-add-entry-success": "„$1“ е зачувана во вашите набљудувани",
+	"readinglists-browser-login-prompt": "Најавете се за да зачувувате статии",
+	"readinglists-browser-error-intro": "Се појави грешка: $1",
+	"readinglists-browser-enable-sync-prompt": "Овозможете усогласување на вашиот прилог за Википедија за да почнете со зачувување на статиите",
+	"readinglists-browser-extension-info-link-text": "Дознајте повеќе",
+	"readinglists-browser-list-entry-limit-exceeded": "Статијата не може да се зачува. Ја достигнавте границата од $1 статии по список",
+	"readinglists-browser-extension-product-title": "Списоци за читање на Википедија",
+	"readinglists-browser-page-not-supported": "$1 не ја поддржува страницава"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Base"
+		]
+	},
+	"onlinestatus-desc": "Додає настройку, яка вказує чи користувач зараз присутній на вікі",
+	"onlinestatus-js-anon": "Помилка: Ви повинні увійти до системи, щоб використовувати цю функцію",
+	"onlinestatus-js-changed": "Ваш статус було змінено на «$1»",
+	"onlinestatus-js-error": "Неможливо змінити статус, значення «$1» є неправильним",
+	"onlinestatus-subtitle-offline": "{{GENDER:$1|Цей користувач|Ця користувачка}} наразі офлайн",
+	"onlinestatus-subtitle-online": "{{GENDER:$1|Цей користувач|Ця користувачка}} наразі онлайн",
+	"onlinestatus-tab": "Статус",
+	"onlinestatus-toggles-desc": "Ваш статус:",
+	"onlinestatus-toggles-explain": "Це дозволяє Вам показувати іншим користувачам, чи Ви наразі онлайн або ні під час перегляду Вашої сторінки користувача.",
+	"onlinestatus-toggles-show": "Показувати онлайн статус на моїй сторінці користувача",
+	"onlinestatus-toggle-offline": "Офлайн",
+	"onlinestatus-toggle-online": "Онлайн",
+	"onlinestatus-pref-onlineonlogin": "Змінювати мій статус на онлайн під час входу до системи",
+	"onlinestatus-pref-offlineonlogout": "Змінювати мій статус на офлайн під час виходу із системи"
+}

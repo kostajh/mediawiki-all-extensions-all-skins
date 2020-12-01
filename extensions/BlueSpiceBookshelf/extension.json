@@ -1,0 +1,446 @@
+{
+	"name": "BlueSpiceBookshelf",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:Bookshelf",
+	"author": [
+		"Robert Vogel",
+		"Sebastian Ulbricht"
+	],
+	"descriptionmsg": "bs-bookshelf-extension-description",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceBookshelf": {
+					"className": "\\BlueSpice\\Bookshelf\\Extension",
+					"extPath": "/BlueSpiceBookshelf",
+					"package": "BlueSpice Pro",
+					"status": "stable",
+					"configDefinitions": {
+						"BookshelfSupressBookNS": "\\BlueSpice\\Bookshelf\\ConfigDefinition\\SupressBookNS::getInstance",
+						"BookshelfTitleDisplayText": "\\BlueSpice\\Bookshelf\\ConfigDefinition\\TitleDisplayText::getInstance",
+						"BookshelfPrependPageTOCNumbers": "\\BlueSpice\\Bookshelf\\ConfigDefinition\\PrependPageTOCNumbers::getInstance"
+					}
+				}
+			},
+			"SettingPathRegistry": {
+				"book": "bs-bookshelf-setting-path-feature"
+			},
+			"TagRegistry": {
+				"bookmeta": "\\BlueSpice\\Bookshelf\\Tag\\BookshelfMeta"
+			},
+			"DynamicFileRegistry": {
+				"bookshelfimage": "\\BlueSpice\\Bookshelf\\DynamicFileDispatcher\\BookshelfImage"
+			},
+			"LessVarsRegistry": {
+				"bs-bookshelf-navtab-icon-active": "@bs-color-tertiary",
+				"bs-extjs-bui-panel-header-background": "transparent",
+				"bs-extjs-bui-panel-header-text": "#000000",
+				"bs-extjs-bui-panel-header-horizontal-border": "0px solid #3e538a",
+				"bs-extjs-bui-panel-header-horizontal-background": "#FFFFFF",
+				"bs-extjs-bui-panel-header-vertical-border": "1px solid #3e538a",
+				"bs-extjs-bui-panel-header-vertical-background": "#FFFFFF",
+				"bs-extjs-bui-panel-default-border": "1px solid #3e538a",
+				"bs-extjs-bui-grid-header-ct-border": "1px solid silver",
+				"bs-extjs-bui-tool-img-image": "url( 'images/globalnav-sprite.png' )",
+				"bs-extjs-bui-tool-img-background": "transparent"
+			},
+			"PermissionRegistry": {
+				"bookshelfbookmanager-viewspecialpage": {
+					"type": "global",
+					"roles": [ "reader" ]
+				},
+				"bookshelf-viewspecialpage": {
+					"type": "global",
+					"roles": [ "reader" ]
+				}
+			}
+
+		},
+		"BlueSpiceBookshelf": {
+			"LineProcessors": {
+				"plain-text": "\\BlueSpice\\Bookshelf\\LineProcessor\\PlainText::factory",
+				"tag": "\\BlueSpice\\Bookshelf\\LineProcessor\\Tag::factory",
+				"wikitext-link": "\\BlueSpice\\Bookshelf\\LineProcessor\\WikiTextLink::factory"
+			},
+			"MassAddHandlerRegistry": {
+				"subpages": "BlueSpice\\Bookshelf\\MassAdd\\Handler\\Subpage::factory",
+				"category": "BlueSpice\\Bookshelf\\MassAdd\\Handler\\Category::factory",
+				"pagecollection": "BlueSpice\\Bookshelf\\MassAdd\\Handler\\PageCollection::factory"
+			}
+		}
+	},
+	"GroupPermissions": {
+		"*": {
+			"bookshelfbookmanager-viewspecialpage": true,
+			"bookshelf-viewspecialpage": true
+		}
+	},
+	"AvailableRights": [
+		"bookshelfbookmanager-viewspecialpage",
+		"bookshelf-viewspecialpage"
+	],
+	"callback": "BlueSpice\\Bookshelf\\Extension::onRegistration",
+	"APIModules": {
+		"bs-bookshelf-store": "ApiBookshelfStore",
+		"bs-bookshelf-bookstore": "ApiBookshelfBookStore",
+		"bs-bookshelf-manage": "ApiBookshelfManage",
+		"bs-bookshelf-page-collection-store": "ApiBookshelfPageCollectionStore",
+		"bs-bookshelf-mass-add-page-store": "ApiBookshelfMassAddPageStore"
+	},
+	"APIListModules": {
+		"bsbookshelf": "ApiQueryBookshelf"
+	},
+	"MessagesDirs": {
+		"BlueSpiceBookshelf": [
+			"i18n",
+			"i18n/ui"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BookshelfNamespaces": "languages/Bookshelf.namespaces.php",
+		"BookshelfSpecialAlias": "languages/Bookshelf.special.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Bookshelf\\": "src/"
+	},
+	"AutoloadClasses": {
+		"PageHierarchyProvider": "includes/PageHierarchyProvider.php",
+		"DynamicPageHierarchyProvider": "includes/DynamicPageHierarchyProvider.php",
+		"ApiQueryBookshelf": "includes/api/ApiQueryBookshelf.php",
+		"ApiBookshelfStore": "includes/api/ApiBookshelfStore.php",
+		"ApiBookshelfBookStore": "includes/api/ApiBookshelfBookStore.php",
+		"ConvertContentModel": "maintenance/convertContentModel.php",
+		"ApiBookshelfManage": "includes/api/ApiBookshelfManage.php",
+		"ApiBookshelfPageCollectionStore": "includes/api/ApiBookshelfPageCollectionStore.php",
+		"ApiBookshelfMassAddPageStore": "includes/api/ApiBookshelfMassAddPageStore.php"
+	},
+	"ContentHandlers": {
+		"book": "\\BlueSpice\\Bookshelf\\ContentHandler\\BookContentHandler"
+	},
+	"ResourceModules": {
+		"ext.bluespice.bookshelf": {
+			"scripts": [
+				"bluespice.bookshelf.js"
+			],
+			"messages": [
+				"bs-bookshelf-tag-next",
+				"bs-bookshelf-tag-prev",
+				"bs-bookshelf-tag-edit-book"
+			],
+			"dependencies": [
+				"ext.bluespice.bookshelf.storageLocation",
+				"user.options",
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.bookshelf.addToBook": {
+			"scripts": [
+				"bluespice.bookshelf.addToBook.js"
+			],
+			"messages": [
+				"bs-bookshelf-add-to-book-label",
+				"bs-bookshelf-add-to-book-label-book",
+				"bs-bookshelf-add-to-book-label-alias",
+				"bs-bookshelf-add-to-book-label-mod-bstag",
+				"bs-bookshelf-add-to-book-added",
+				"bs-bookshelf-add-to-book-mod-bstag",
+				"bs-bookshelf-empty-selection"
+			],
+			"dependencies": [
+				"ext.bluespice.bookshelf.storageLocation"
+			]
+		},
+		"ext.bluespice.bookshelf.styles": {
+			"styles": "bluespice.bookshelf.css"
+		},
+		"ext.bluespice.bookshelf.storageLocation": {
+			"scripts": [
+				"bluespice.bookshelf.storageLocation.js",
+				"storageLocation/WikiPage.js",
+				"storageLocation/BookNamespace.js",
+				"storageLocation/UserBook.js",
+				"storageLocation/LocalStorage.js",
+				"LocalBookRepo.js"
+			],
+			"messages": [
+				"bs-bookshelf-grouping-template-type-ns_book",
+				"bs-bookshelf-grouping-template-type-user_book",
+				"bs-bookshelf-grouping-template-type-local_storage"
+			],
+			"dependencies": [
+				"ext.bluespice",
+				"oojs"
+			]
+		},
+		"ext.bluespice.bookshelf.editor": {
+			"scripts": [
+				"bluespice.bookshelf.editor.js"
+			],
+			"styles": [
+				"bluespice.bookshelf.editor.css",
+				"bluespice.bookshelf.icons.css"
+			],
+			"messages": [
+				"bs-bookshelfui-save-and-modify",
+				"bs-bookshelfui-dlg-choosewikipage-title",
+				"bs-bookshelfui-dlg-choosewikipage-cbxArticleLabel",
+				"bs-bookshelfui-dlg-choosewikipage-tfDisplayName",
+				"bs-bookshelfui-dlg-choosecategory-label",
+				"bs-bookshelfui-ctxmnu-open",
+				"bs-bookshelfui-ctxmnu-edit",
+				"bs-bookshelfui-ctxmnu-delete",
+				"bs-bookshelfui-ctxmnu-tag-edit",
+				"bs-bookshelfui-dlg-metadata-title",
+				"bs-bookshelfui-dlg-tagsettings-title",
+				"bs-bookshelfui-confirm-delete-title",
+				"bs-bookshelfui-confirm-delete-text",
+				"bs-bookshelfui-override-tag-title",
+				"bs-bookshelfui-override-tag-text",
+				"bs-bookshelfui-bookui-savingprogress-title",
+				"bs-bookshelfui-bookui-savingprogress-text",
+				"bs-bookshelfui-empty-selection",
+				"bs-bookshelfui-extjs-tooltip-add-mass",
+				"bs-bookshelfui-dlg-addmass-title",
+				"bs-bookshelfui-dlg-type-label",
+				"bs-bookshelfui-type-category",
+				"bs-bookshelfui-type-subpages",
+				"bs-bookshelfui-dlg-choosepc-label",
+				"bs-bookshelfui-type-pagecollection",
+				"bs-bookshelf-action-save-to-local-storage"
+			],
+			"dependencies": [
+				"ext.bluespice.bookshelf.storageLocation",
+				"ext.bluespice.extjs",
+				"ext.bookshelf.booktreeexport"
+			]
+		},
+		"ext.bluespice.bookshelf.ui.styles": {
+			"styles": "bluespice.bookshelf.UI.less",
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		},
+		"ext.bluespice.bookshelf.UI": {
+			"messages": [
+				"bs-deferred-action-status-pending",
+				"bs-deferred-action-status-running",
+				"bs-deferred-action-status-done",
+				"bs-deferred-action-status-error",
+				"bs-deferred-action-apicopypage-description",
+				"bs-deferred-action-apieditpage-description",
+				"bs-deferred-batch-title",
+				"bs-deferred-batch-progress-desc",
+				"bs-deferred-batch-actions",
+				"bs-deferred-batch-description",
+				"bs-deferred-batch-status",
+				"bs-bookshelf-specialpage-allpages-ns-book-text"
+			],
+			"dependencies": [
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.bookshelf.pager.navigation.styles": {
+			"styles": [
+				"bluespice.bookshelf.pager.navigation.less"
+			]
+		},
+		"ext.bluespice.bookshelf.pager.before-content.styles": {
+			"styles": [
+				"bluespice.bookshelf.pager.beforeContent.less"
+			]
+		},
+		"ext.bluespice.bookshelf.pager.after-content.styles": {
+			"styles": [
+				"bluespice.bookshelf.pager.afterContent.less"
+			]
+		},
+		"ext.bluespice.bookshelf.navigationTab.styles": {
+			"styles": [
+				"bluespice.bookshelf.navigationTab.less"
+			],
+			"skinStyles": {
+				"bluespicecalumma": "bluespice.bookshelf.Calumma.less"
+			}
+		},
+		"ext.bluespice.bookshelf.navigationTab": {
+			"scripts": [
+				"bluespice.bookshelf.contextMenu.js"
+			],
+			"messages": [
+				"bs-bookshelfui-widget-editor-link-text",
+				"bs-bookshelf-grouping-template-type-ns_book"
+			],
+			"dependencies": [
+				"ext.bluespice.bookshelf.UI"
+			]
+		},
+		"ext.bluespice.bookshelf.flyout": {
+			"scripts": [
+				"bluespice.bookshelf.flyout.js"
+			],
+			"messages": [
+				"bs-bookshelfui-manager-title"
+			],
+			"dependencies": [
+				"ext.bluespice.bookshelf.UI",
+				"ext.bluespice.extjs"
+			]
+		},
+		"ext.bluespice.bookshelf.manager": {
+			"scripts": "bluespice.bookshelf.manager.js",
+			"messages": [
+				"bs-bookshelfui-new-book-title",
+				"bs-bookshelfui-new-book-text",
+				"bs-bookshelfui-delete-book-title",
+				"bs-bookshelfui-delete-book-text",
+				"bs-bookshelfui-manager-title",
+				"bs-bookshelfui-manager-deletingprogress-text",
+				"bs-bookshelfui-manager-deletingprogress-title",
+				"bs-bookshelfui-manager-deletionsuccess-title",
+				"bs-bookshelfui-manager-deletionsuccess-text",
+				"bs-bookshelfui-manager-deletionfailure-title",
+				"bs-bookshelfui-manager-deletionfailure-text",
+				"bs-bookshelfui-dlg-copy-title",
+				"bs-bookshelfui-dlg-copy-target-name-label",
+				"bs-bookshelfui-dlg-copy-name-addition",
+				"bs-bookshelfui-dlg-copy-target-namespace-qtip",
+				"bs-bookshelfui-grouping-template-books",
+				"bs-bookshelfui-book-type",
+				"bs-bookshelf-personal-books-page-prefix"
+			],
+			"dependencies": [
+				"ext.bluespice.bookshelf.storageLocation",
+				"mediawiki.Title",
+				"ext.bluespice.bookshelf.UI",
+				"ext.bluespice.bookshelf.extjs.i18n",
+				"ext.bluespice.extjs"
+			]
+		},
+		"ext.bluespice.bookshelf.extjs.i18n": {
+			"messages": [
+				"bs-bookshelfui-extjs-tooltip-copy"
+			]
+		},
+		"ext.bluespice.bookshelf.special": {
+			"scripts": [
+				"bluespice.bookshelf.special.js"
+			],
+			"styles": [
+				"bluespice.bookshelf.special.css"
+			],
+			"dependencies": [
+				"ext.bluespice.bookshelf.flyout"
+			]
+		},
+		"ext.bluespice.bookshelf.view": {
+			"scripts": [
+				"bluespice.bookshelf.view.js"
+			],
+			"styles": [
+				"bluespice.bookshelf.editor.css",
+				"bluespice.bookshelf.icons.css"
+			],
+			"messages": [
+				"bs-bookshelfui-ctxmnu-open",
+				"bs-bookshelfui-ctxmnu-edit",
+				"bs-bookshelfui-ctxmnu-delete",
+				"bs-bookshelfui-ctxmnu-tag-edit"
+			],
+			"dependencies": [
+				"ext.bookshelf.booktreeexport"
+			]
+		},
+		"ext.bookshelf.booktreeexport": {
+			"scripts": [
+				"BookTreeExport.js"
+			],
+			"messages": [
+				"bs-bookshelfui-export-selection",
+				"bs-bookshelfui-nothingtoexport-text",
+				"bs-bookshelfui-export-book-text"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceBookshelf/resources"
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"config_prefix": "bsg",
+	"config": {
+		"BookshelfSupressBookNS": {
+			"value": true,
+			"descriptionmsg": "bs-bookshelf-pref-SupressBookNS",
+			"public": true
+		},
+		"BookshelfTitleDisplayText": {
+			"value": true,
+			"descriptionmsg": "bs-bookshelf-pref-TitleDisplayText",
+			"public": true
+		},
+		"BookshelfPrependPageTOCNumbers": {
+			"value": true,
+			"descriptionmsg": "bs-bookshelf-pref-PrependPageTOCNumbers",
+			"public": true
+		},
+		"BookShelfDefaultCoverImage": {
+			"value": "resources/images/assets/coverimage/dummy.png",
+			"path": true
+		},
+		"BookShelfShowChapterNavigationPagerBeforeContent": {
+			"value": false
+		},
+		"BookShelfShowChapterNavigationPagerAfterContent": {
+			"value": false
+		}
+	},
+	"SpecialPages": {
+		"BookshelfBookManager": "\\BlueSpice\\Bookshelf\\Special\\BookshelfBookManager",
+		"BookshelfBookEditor": "\\BlueSpice\\Bookshelf\\Special\\BookshelfBookEditor",
+		"Bookshelf": "\\BlueSpice\\Bookshelf\\Special\\Bookshelf"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "\\BlueSpice\\Bookshelf\\Hook\\BeforePageDisplay\\AddResources::callback",
+		"BSInsertMagicAjaxGetData": [
+			"\\BlueSpice\\Bookshelf\\Hook\\BSInsertMagicAjaxGetData\\AddBookshelfTag::callback",
+			"\\BlueSpice\\Bookshelf\\Hook\\BSInsertMagicAjaxGetData\\AddBookmetaTag::callback",
+			"\\BlueSpice\\Bookshelf\\Hook\\BSInsertMagicAjaxGetData\\AddBooklistTag::callback"
+		],
+		"ContentHandlerDefaultModelFor": "BlueSpice\\Bookshelf\\Hook\\ContentHandlerDefaultModelFor\\GetBookContentHandler::callback",
+		"LoadExtensionSchemaUpdates": "BlueSpice\\Bookshelf\\Hook\\LoadExtensionSchemaUpdates\\AddConvertContentModel::callback",
+		"ChameleonSkinTemplateOutputPageBeforeExec": [
+			"BlueSpice\\Bookshelf\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\SetBookContentModelActions::callback",
+			"BlueSpice\\Bookshelf\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddChapterPager::callback",
+			"BlueSpice\\Bookshelf\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddBookshelfUI::callback",
+			"BlueSpice\\Bookshelf\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddToBookTool::callback"
+		],
+		"ParserFirstCallInit": "BlueSpice\\Bookshelf\\Hook\\ParserFirstCallInit\\SetParserHooks::callback",
+		"BSUEModulePDFbeforeGetPage": "\\BlueSpice\\Bookshelf\\Hook\\BSUEModulePDFbeforeGetPage\\AdaptPageTitle::callback",
+		"BSUEModulePDFgetPage": "\\BlueSpice\\Bookshelf\\Hook\\BSUEModulePDFgetPage\\ModifyForExport::callback",
+		"BSUEModulePDFcollectMetaData": [
+			"\\BlueSpice\\Bookshelf\\Hook\\BSUEModulePDFcollectMetaData\\SupressBookNS::callback",
+			"\\BlueSpice\\Bookshelf\\Hook\\BSUEModulePDFcollectMetaData\\AddBookMeta::callback"
+		],
+		"BSBookshelfGetBookData": "\\BlueSpice\\Bookshelf\\Hook\\BSBookshelfGetBookData\\RunLegacyHook::callback",
+		"GetPreferences": "\\BlueSpice\\Bookshelf\\Hook\\GetPreferences\\BookshelfDefaultView::callback"
+	},
+	"Actions": {
+		"editbooksource": "\\BlueSpice\\Bookshelf\\Action\\BookEditSourceAction"
+	},
+	"DefaultUserOptions": {
+		"bs-bookshelf-defaultview": "gridviewpanel"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

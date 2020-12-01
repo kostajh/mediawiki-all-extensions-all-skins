@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"swiftmailer-desc": "Дазваляе выкарыстоўваць SwiftMailer у якасьці альтэрнатыўнага паштовага кліенту",
+	"swiftmailer-smtp-error": "Памылка пры наладцы SMTP-транспарту для SwiftMailer: $1",
+	"swiftmailer-send-error": "Памылка пры адпраўцы электроннай пошты з дапамогай SwiftMailer: $1"
+}

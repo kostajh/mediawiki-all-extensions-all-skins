@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Steve.rusyn",
+			"SteveR",
+			"Ата"
+		]
+	},
+	"smoothgallery": "Плавна галерея",
+	"smoothgallery-desc": "Дозволяє користувачам створювати галереї із завантажених ними зображень\nДозволяє більшість опцій SmoothGallery",
+	"smoothgallery-title": "Плавна галерея",
+	"smoothgallery-smoothgallerytitle": "Плавна галерея: $1",
+	"smoothgallery-error": "<b>Помилка плавної галереї:</b>",
+	"smoothgallery-gallery-not-found": "Запитувана галерея не існує.",
+	"smoothgallery-not-found": "До галереї не було додано жодного зображення. Будь ласка, додайте принаймні одне.",
+	"smoothgallery-no-images": "Не було знайдено жодних зображень у цій галереї.\nПереконайтеся, що {{PLURAL:$3|1=запитуване зображення існує|запитувані зображення існують}}.\nБуло знайдено {{PLURAL:$2|1=таке зображення|такі зображення}}: $1",
+	"smoothgallery-invalid-images": "{{PLURAL:$2|1=Запитуване зображення має|Такі запитувані зображення мають}} неприпустимий тип: $1",
+	"smoothgallery-unexpected-error": "Сталася неочікувана помилка.\nБудь ласка, надішліть звіт про помилку.",
+	"smoothgallery-javascript-disabled": "Для належного перегляду галереї необхідний JavaScript."
+}

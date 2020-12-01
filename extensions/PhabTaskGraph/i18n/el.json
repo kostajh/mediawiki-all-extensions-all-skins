@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"phabtaskgraph": "Phabricator Task Graph",
+	"phabtaskgraph-desc": "Οπτικοποιεί σχέσεις εργασιών του Phabricator σε ένα κατευθυνόμενο γράφημα δύναμης",
+	"phabtaskgraph-author-field-label": "Συγγραφέας",
+	"phabtaskgraph-owner-field-label": "Ιδιοκτήτης",
+	"phabtaskgraph-tasks-field-label": "Εργασίες",
+	"phabtaskgraph-projects-field-label": "Εγχειρήματα",
+	"phabtaskgraph-status-field-label": "Κατάσταση",
+	"phabtaskgraph-width-field-label": "Πλάτος",
+	"phabtaskgraph-height-field-label": "Ύψος",
+	"phabtaskgraph-width-field-help": "προεπιλεγμένο: 800",
+	"phabtaskgraph-height-field-help": "προεπιλεγμένο: 800",
+	"phabtaskgraph-status-open": "Ανοιχτό",
+	"phabtaskgraph-status-stalled": "Σταματήθηκε",
+	"phabtaskgraph-status-resolved": "Επιλυμένος",
+	"phabtaskgraph-status-invalid": "Μη έγκυρο",
+	"phabtaskgraph-status-declined": "Απορρίφθηκε",
+	"phabtaskgraph-status-duplicate": "Διπλότυπο"
+}

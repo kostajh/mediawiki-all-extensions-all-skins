@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"gotoshell": "셸로 이동",
+	"gotoshell-notallowed": "계정은 셸로 이동할 권한이 없습니다.",
+	"gotoshell-disabled": "외부 프로그램을 실행할 수 없습니다. proc_open()이 비활성화되어 있습니다.",
+	"gotoshell-command": "명령어:",
+	"gotoshell-result": "결과:",
+	"right-gotoshell": "GoToShell 특수 문서를 통해 셸 명령어 실행"
+}

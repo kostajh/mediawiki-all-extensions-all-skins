@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"SimondR"
+		]
+	},
+	"phabtaskgraph": "Граф завдань на Фабрикаторі",
+	"phabtaskgraph-desc": "Візуалізує зв'язки між завданнями на Фабрикаторі у формі графу з примусовим спрямуванням",
+	"phabtaskgraph-author-field-label": "Автор",
+	"phabtaskgraph-owner-field-label": "Власник",
+	"phabtaskgraph-tasks-field-label": "Завдання",
+	"phabtaskgraph-projects-field-label": "Проекти",
+	"phabtaskgraph-status-field-label": "Статус",
+	"phabtaskgraph-width-field-label": "Ширина",
+	"phabtaskgraph-height-field-label": "Висота",
+	"phabtaskgraph-tasks-field-help": "список ідентифікаторів завдань, відокремлених комою (Початкова літера «T» є необов'язковою); напр., 'T123456, T654321'",
+	"phabtaskgraph-projects-field-help": "список назв проектів, відокремлених комою; напр., 'MediaWiki-Platform-Team, Epic'",
+	"phabtaskgraph-width-field-help": "стандартно: 800",
+	"phabtaskgraph-height-field-help": "стандартно: 800",
+	"phabtaskgraph-status-open": "Відкрите",
+	"phabtaskgraph-status-stalled": "Відкладене",
+	"phabtaskgraph-status-resolved": "Вирішено",
+	"phabtaskgraph-status-invalid": "Недійсний",
+	"phabtaskgraph-status-declined": "Відхилили",
+	"phabtaskgraph-status-duplicate": "Дублікат"
+}

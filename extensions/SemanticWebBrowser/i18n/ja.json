@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"browsesw": "ウィキとセマンティック Web をブラウズ",
+	"swb_desc": "特別ページ[[Special:BrowseSW|ウィキとセマンティック Web をブラウズ]]を追加する",
+	"swb_browse_article": "セマンティックブラウズを開始するページの名前を入力してください。",
+	"swb_browse_go": "実行",
+	"swb_browse_show_incoming": "このページにリンクしているプロパティを表示",
+	"swb_browse_hide_incoming": "このページにリンクしているプロパティを隠す",
+	"swb_browse_no_outgoing": "このページにはプロパティはありません。",
+	"swb_browse_no_incoming": "このページは、他のプロパティからリンクされていません。",
+	"swb_inverse_label_property": "プロパティのラベルを反転",
+	"swb_inverse_label_default": "$1である",
+	"swb_browse_error": "エラーが発生したため、セマンティックWebブラウザーで意味的データを読み込めませんでした:"
+}

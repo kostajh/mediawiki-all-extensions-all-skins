@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-uemodulepdf-desc": "Abbilite MediaUicchi a esporà pàggene jndr'à 'u formate PDF",
+	"prefs-uemodulepdf": "Module de esportazione universale de PDF",
+	"uemodulepdf": "Module de esportazione universale de PDF",
+	"bs-uemodulepdf-pref-suppressns": "Scunne 'u prefisse d'u namespace jndr'à 'u PDF",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-text": "PDF cu 'na pàgena sole",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-title": "Esporte sta pàgene cumme PDF.",
+	"bs-uemodulepdf-overview-title": "Portable Document Format (PDF)",
+	"bs-uemodulepdf-overview-desc": "Esporte le pàggene (pàggene speciale e pàggene de condenute) jndr'à 'nu PDF.",
+	"bs-uemodulepdf-overview-webservice-state": "State d'u server",
+	"bs-uemodulepdf-overview-webservice-state-ok": "disponibbile",
+	"bs-uemodulepdf-overview-webservice-state-not-ok": "non disponibbile",
+	"soap-service-url-not-valid": "L'URL a 'u web service de generazione d'u PDF  non g'è valide. Pe piacere condrolle 'a configurazione d'a uicchi.",
+	"soap-service-url-not-set": "L'URL a 'u web service de generazione d'u PDF  non g'è 'mbostate. Pe piacere condrolle 'a configurazione d'a uicchi.",
+	"bs-uemodulepdf-overview-webservice-webadmin": "'Nderfacce web d'u server",
+	"action-uemodulepdf-export": "stoche a esporte 'na pàgene cumme PDF",
+	"right-uemodulepdf-export": "Esporte 'na pàgene cumme PDF"
+}

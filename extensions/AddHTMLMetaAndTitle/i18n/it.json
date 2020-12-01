@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "Consente una più facile SEO (ottimizzazione per i motori di ricerca)",
+	"addhtmlmetaandtitle-empty-attr": "Il tag &lt;seo&gt; deve contenere almeno un attributo \"title\" o \"metak(eywords)\" o \"metad(escription)\" non vuoto."
+}

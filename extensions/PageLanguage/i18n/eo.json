@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"pagelanguage-desc": "Difini lingvon de individua paĝo",
+	"pagelanguage-invalid": "'''Averto:''' Ignorante ne validan lingvokodon \"$1\" por paĝa lingvo",
+	"pagelanguage-duplicate": "'''Warning:''' Paĝa lingvo \"$2\" transpasas pli frue difinitan paĝan lingvon \"$1\"."
+}

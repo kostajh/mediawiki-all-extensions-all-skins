@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Cimon Avaro",
+			"Crt",
+			"Nike",
+			"Silvonen",
+			"Str4nd",
+			"Valtlait"
+		]
+	},
+	"security": "Tietoturvaloki",
+	"security-desc": "Laajentaa MediaWikin sivujen suojausta myös sivujen sisällön katsomisen rajoittamiseen",
+	"security-logpage": "Tietoturvaloki",
+	"security-info": "Tällä sivulla on $1",
+	"security-info-toggle": "turvallisuusrajoitukset",
+	"security-inforestrict": "$1 on rajoitettu ryhmälle $2",
+	"security-desc-LS": "(soveltuu, koska tämä sivu on $1 ”$2”)",
+	"security-infosysops": "Rajoitukset eivät koske sinua, koska kuulut ylläpitäjäryhmään",
+	"security-manygroups": "ryhmät $1 ja $2",
+	"security-type-category": "luokassa",
+	"security-type-namespace": "nimiavaruudessa",
+	"restriction-read": "Lue"
+}

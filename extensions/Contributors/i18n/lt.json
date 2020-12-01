@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Manvydasz"
+		]
+	},
+	"contributors": "Autoriai",
+	"contributors-desc": "Apibendrina pagrindinius puslapio autorius",
+	"contributors-toolbox": "Puslapio autoriai",
+	"contributors-legend": "Pagrindinių puslapio autorių sąrašas",
+	"contributors-target": "Pavadinimas:",
+	"contributors-submit": "Rodyti",
+	"contributors-subtitle": "Pagrindiniai $1 autoriai",
+	"contributors-others-long": "Yra {{PLURAL:$1|vienas šio puslapio autorius|$1 šio puslapio autoriai|$1 šio puslapio autorių}}.",
+	"contributors-others": "ir {{PLURAL:$1|vienas kitas|$1 kiti|$1 kitų}}",
+	"contributors-badtitle": "Neleistinas pavadinimas.",
+	"contributors-nosuchpage": "Puslapis $1 neegzistuoja.",
+	"contributors-filterip": "Slėpti IP adresus",
+	"contributors-name": "Vartotojo vardas",
+	"contributors-revisions": "Versijų skaičius",
+	"contributors-first-edit": "Pirmojo keitimo data",
+	"contributors-last-edit": "Paskutinio keitimo data",
+	"contributors-add-subpages": "Įtraukti antrinius puslapius",
+	"apihelp-query+contributors-example-1": "Rodyti įnašus į pagrindinį puslapį"
+}

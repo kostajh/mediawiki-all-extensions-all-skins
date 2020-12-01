@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"SVG"
+		]
+	},
+	"group-bot-global": "Global Bots",
+	"group-bot-global-member": "{{GENDER:$1|global bot}}",
+	"grouppage-bot-global": "{{ns:project}}:Global Bots",
+	"group-checkuser-global": "Global Check users",
+	"group-checkuser-global-member": "{{GENDER:$1|global check user}}",
+	"grouppage-checkuser-global": "{{ns:project}}:Global Check users",
+	"group-helper-global": "Global Helpers",
+	"group-helper-global-member": "{{GENDER:$1|global helper}}",
+	"grouppage-helper-global": "{{ns:project}}:Global Helpers",
+	"group-ipblock-exempt-g": "Global IP block exemptions",
+	"group-ipblock-exempt-g-member": "{{GENDER:$1|global IP block exempt}}",
+	"grouppage-ipblock-exempt-g": "{{ns:project}}:Global IP block exemptions",
+	"group-rollback-global": "Global Rollbackers",
+	"group-rollback-global-member": "{{GENDER:$1|global rollbacker}}",
+	"grouppage-rollback-global": "{{ns:project}}:Global Rollbackers",
+	"group-steward-global": "Global Stewards",
+	"group-steward-global-member": "{{GENDER:$1|global steward|global stewardess}}",
+	"grouppage-steward-global": "{{ns:project}}:Global Stewards",
+	"group-sysadmin-global": "Global System administrators",
+	"group-sysadmin-global-member": "{{GENDER:$1|global system administrator}}",
+	"grouppage-sysadmin-global": "{{ns:project}}:Global System administrators",
+	"group-sysop-global": "Global Administrators",
+	"group-sysop-global-member": "{{GENDER:$1|global administrator}}",
+	"grouppage-sysop-global": "{{ns:project}}:Global Administrators"
+}

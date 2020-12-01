@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fnielsen",
+			"Saederup92"
+		]
+	},
+	"createtopicpage": "Opret side",
+	"articleplaceholder-abouttopic": "Om emne",
+	"articleplaceholder-abouttopic-create-article-title": "Opret en ny artikel",
+	"articleplaceholder-abouttopic-create-article-label": "Artikeltitel",
+	"articleplaceholder-abouttopic-create-article-mandatory": "Artiklens titel er obligatorisk",
+	"articleplaceholder-abouttopic-create-article-button": "Opret et nyt emne",
+	"articleplaceholder-abouttopic-create-empty-article-button": "Start en ny artikel",
+	"articleplaceholder-abouttopic-translate-article-label": "Oprindelige sprog:",
+	"articleplaceholder-abouttopic-translate-article-button": "Oversæt artikel",
+	"articleplaceholder-abouttopic-create-article-submit-button": "Indsend",
+	"articleplaceholder-abouttopic-article-exists-error": "En artikel med dette navn eksisterer allerede",
+	"articleplaceholder-abouttopic-lua-reference": "Reference",
+	"articleplaceholder-abouttopic-lua-identifier": "Eksterne ressourcer",
+	"articleplaceholder-createpage-title": "Opret $1"
+}

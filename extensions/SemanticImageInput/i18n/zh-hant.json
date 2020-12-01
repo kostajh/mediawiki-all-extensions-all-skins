@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"sii-desc": "添加圖片輸入，將圖片從維基百科推送至 [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Page Forms]",
+	"sii-imageinput-loading": "加載圖像..."
+}

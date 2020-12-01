@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"rt-desc": "請求追蹤（Request Tracker、RT）的特有介面",
+	"rt-inactive": "RT 擴充功能未啟用。",
+	"rt-badquery": "RT 擴充功能在與 RT 資料庫交談時發生錯誤。",
+	"rt-badlimit": "無效的 <code>LIMIT</code>(<code>l</code>) 參數：必須是數字。\n您所採用的是：'''$1'''",
+	"rt-badorderby": "無效 <code>ORDER BY</code> (<code>ob</code>) 參數：必須是標準欄位（請參閱文件）。\n您所採用的是：'''$1'''",
+	"rt-badstatus": "無效 <code>status</code> (<code>s</code>) 參數：必須是標準欄位（請參閱文件）。\n您所採用的是：'''$1'''",
+	"rt-badcfield": "無效的自定義欄位參數：必須是簡易字詞（請參閱文件）。\n您所採用的是：'''$1'''",
+	"rt-badqueue": "無效的 <code>queue</code> (<code>q</code>) 參數：必須是簡易字詞。\n您所採用的是：'''$1'''",
+	"rt-badowner": "無效的 <code>owner</code> (<code>o</code>) 參數：必須是數字。\n您所用的是：'''$1'''",
+	"rt-nomatches": "找不到符合的 RT 結果。"
+}

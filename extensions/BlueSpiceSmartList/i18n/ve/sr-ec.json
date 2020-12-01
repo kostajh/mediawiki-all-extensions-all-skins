@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"bs-smartlist-ve-smartlistinspector-ns": "Именски простор(и)",
+	"bs-smartlist-ve-smartlistinspector-cat": "Категорија",
+	"bs-smartlist-ve-smartlistinspector-catmode": "Режим категорије",
+	"bs-smartlist-ve-smartlistinspector-period": "Период",
+	"bs-smartlist-ve-smartlistinspector-new": "Прикажи само нове чланке",
+	"bs-smartlist-ve-smartlistinspector-heading": "Наслов",
+	"bs-smartlist-ve-smartlistinspector-showtext": "Прикажи текст",
+	"bs-smartlist-ve-smartlistinspector-trimtext": "Скрати текст",
+	"bs-smartlist-ve-smartlistinspector-sort": "Поређај по",
+	"bs-smartlist-ve-smartlistinspector-order": "Начин ређања",
+	"bs-smartlist-ve-smartlistinspector-showns": "Прикажи именске просторе",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "Број са текстом",
+	"bs-smartlist-ve-smartlistinspector-meta": "Мета",
+	"bs-smartlist-ve-smartlistinspector-target": "Циљ",
+	"bs-smartlist-ve-smartlistinspector-excludens": "Искључи именски(е) простор(е)",
+	"bs-smartlist-ve-period-day-label": "Дан",
+	"bs-smartlist-ve-period-week-label": "Недеља",
+	"bs-smartlist-ve-period-month-label": "Месец",
+	"bs-smartlist-ve-sort-time-label": "Време",
+	"bs-smartlist-ve-sort-title-label": "Наслов",
+	"bs-smartlist-ve-newbiesinspector-count": "Број",
+	"bs-smartlist-ve-toplist-title": "Топ-листа",
+	"bs-smartlist-ve-toplistinspector-count": "Број",
+	"bs-smartlist-ve-toplistinspector-ns": "Именски простор(и)",
+	"bs-smartlist-ve-toplistinspector-cat": "Категорија",
+	"bs-smartlist-ve-toplistinspector-period": "Период",
+	"bs-smartlist-ve-mode-recentchanges-label": "Недавне промене",
+	"bs-smartlist-ve-mode-changesofweek-label": "Промене недеље"
+}

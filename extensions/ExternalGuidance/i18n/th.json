@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"B20180",
+			"Horus"
+		]
+	},
+	"externalguidance-specialpage-title": "ปรับปรุงเนื้อหาอัตโนมัติ",
+	"externalguidance-specialpage-mt-pageexist": "มีเวอร์ชันของหน้านี้ที่เริ่มด้วยมือโดยผู้แก้ไขใน $1 ซึ่งคุณสามารถช่วยขยายได้",
+	"externalguidance-specialpage-intro-machine": "การแปลอัตโนมัติให้ภาพรวมที่เป็นประโยชน์ แต่ไม่แม่นยำเสมอไป",
+	"externalguidance-specialpage-intro-human": "มันจะดีกว่ามากหากมีบทความที่มนุษย์สร้างขึ้น !",
+	"externalguidance-specialpage-contribute-title": "วิธีมีส่วนร่วม",
+	"externalguidance-specialpage-contribute-create-action": "เริ่มบทความสำหรับหัวข้อนี้",
+	"externalguidance-specialpage-contribute-expand-action": "ขยายบทความที่มีอยู่",
+	"externalguidance-specialpage-contribute-improve-source": "การปรับปรุงบทความต้นฉบับจะช่วยให้ผู้คนอ่านคำแปลได้",
+	"externalguidance-specialpage-contribute-improve-source-action": "แก้ไขเวอร์ชันต้นฉบับใน $1",
+	"externalguidance-machine-translation-page-exist": "เนื้อหาที่สร้างโดยชุมชนในหัวข้อนี้ [$1 ยังมีอยู่]",
+	"externalguidance-machine-translation-page-missing": "ไม่พบใน $1",
+	"externalguidance-machine-translation-provider-info-title": "การแปลอัตโนมัติจาก $1",
+	"externalguidance-machine-translation-provider-terms": "ตรวจสอบภาวะเฉพาะส่วนตัวและข้อกำหนด",
+	"externalguidance-machine-translation-access-source-title": "เข้าถึง $1",
+	"externalguidance-machine-translation-contribute-link": "เรียนรู้วิธีที่คุณสามารถมีส่วนร่วม",
+	"externalguidance-specialpage-createpage-title": "สร้างหน้าใหม่",
+	"externalguidance-specialpage-createpage-title-label": "ชื่อเรื่อง",
+	"externalguidance-specialpage-createpage-button-label": "สร้างหน้าใหม่",
+	"externalguidance-specialpage-createpage-page-exist": "มีหน้าที่ใช้ชื่อเรื่องนี้แล้ว"
+}

@@ -1,0 +1,16 @@
+/**
+ * CSS file for the Site Settings extension.
+ *
+ * @author Yaron Koren
+ */
+
+/* override some properties of MW's successbox and errorbox */
+div.successbox {
+	float: none;
+	font-weight: bold;
+}
+
+div.errorbox {
+	float: none;
+	font-weight: bold;
+}

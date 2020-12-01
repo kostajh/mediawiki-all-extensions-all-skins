@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Karthi.dr",
+			"Shanmugamp7"
+		]
+	},
+	"onlinestatusbar-used": "உங்கள் இணைப்பிலுள்ள நிலையை உங்கள் பயனர் பக்கத்தில் தெரிவிக்கவும்",
+	"onlinestatusbar-status": "நீங்கள் பயன்படுத்த விரும்பும் இயல்புநிலை நிலை என்ன?",
+	"onlinestatusbar-title-online": "இணைப்பில்",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|வேலையாகவுள்ளார்}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|வெளியே சென்றுள்ளார்}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|மறைக்கப்பட்டது}}",
+	"onlinestatusbar-title-offline": "இணைப்பிலில்லை",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|அறியப்படாதது}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|இந்தப் பயனர்}} இப்போது இணைப்பிலுள்ளார்",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|இந்தப் பயனர்}} வேலையாகவுள்ளார், மேலும் இப்போது கிடைக்காமலிருக்கலாம்",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|இந்தப் பயனர்}} இப்போது இணைப்பிலில்லை"
+}

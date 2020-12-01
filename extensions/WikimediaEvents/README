@@ -1,0 +1,13 @@
+WikimediaEvents houses Wikimedia-specific event logging code utilizing
+EventLogging.
+
+This extension was previously known as 'CoreEvents'; it was renamed so that its
+name properly reflects its scope, which is not specific to MediaWiki core.
+
+WikimediaEvents is distributed under the GNU General Public License, Version 2,
+or, at your discretion, any later version. The GNU General Public License
+is available via the Web at <http://www.gnu.org/licenses/gpl-2.0.html>.
+
+Although the code in this extension was developed with Wikimedia use-cases in
+mind, you may find that the functionality it implements is useful. You are
+welcome to use and adapt this extension under the terms of its license.

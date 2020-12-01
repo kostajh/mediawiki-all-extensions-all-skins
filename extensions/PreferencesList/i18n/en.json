@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"tosfos"
+		]
+	},
+	"preferenceslist-desc": "Generates a list of all user settings for a particular preference",
+	"preferenceslist-preferenceslist": "Preferences list",
+	"preferenceslist-preferenceslist-intro": "Below is a list of preferences. Choose one or more to see a list of all the users with their preference.",
+	"preferenceslist": "Preferences list",
+	"action-preferenceslist": "list all users' preferences",
+	"preferenceslist-csv": "Download as CSV",
+	"preferenceslist-nofields": "No fields were selected.",
+	"right-preferenceslist": "Open the Special:PreferencesList page"
+}

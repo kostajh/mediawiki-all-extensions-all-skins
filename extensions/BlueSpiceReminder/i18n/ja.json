@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Tmv",
+			"そらたこ"
+		]
+	},
+	"reminder": "リマインダー",
+	"bs-reminder-header-username": "利用者",
+	"bs-reminder-date-format": "Y-m-d",
+	"bs-reminder-header-comment": "コメント",
+	"bs-reminder-article-label": "ページ",
+	"bs-reminder-navigation-link-title": "リマインダー",
+	"right-remindereditall": "他の利用者のリマインダーを編集",
+	"action-remindereditall": "他の利用者のリマインダーの編集",
+	"bs-reminder-header-type": "入力",
+	"bs-reminder-type-page": "ページ"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.com>"
+		]
+	},
+	"bs-signhere-desc": "Stellt ein Tag bereit, um schnell eine Signatur auf einer Seite einzufügen",
+	"bs-signhere-signatures": "Unterschriften",
+	"bs-signhere-edit-summary": "Unterschrift hinzugefügt",
+	"bs-signhere-tooltip": "Hier klicken, um oberhalb der Linie eine Unterschrift einzufügen",
+	"bs-signhere-tag-signhere-title": "Unterschriften",
+	"bs-signhere-tag-signhere-desc": "Fügt einen Knopf hinzu, um diese Seite zu unterschreiben"
+}

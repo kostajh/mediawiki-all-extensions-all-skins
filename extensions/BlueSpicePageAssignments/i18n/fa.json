@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"FarsiNevis"
+		]
+	},
+	"bs-pageassignments-column-title": "عنوان صفحه",
+	"notification-bs-pageassignments-page-move-subject": "$2 منتقل شد",
+	"notification-bs-pageassignments-page-edit-subject": "$2 ویرایش شد",
+	"notification-bs-pageassignments-page-edit-body": "$1 صفحهٔ $2 را {{GENDER:$2|ویرایش کرد}}.",
+	"notification-bs-pageassignments-page-delete-summary": "$3 را $1 {{GENDER:$2|حذف کرد}}",
+	"notification-bs-pageassignments-page-delete-subject": "$2 حذف شد",
+	"notification-bs-pageassignments-page-delete-body": "$1 صفحهٔ $2 را {{GENDER:$2|حذف کرد}}.",
+	"notification-bs-pageassignments-user-group-add-summary": "شما به گروه $4 افزوده شدید",
+	"notification-bs-pageassignments-user-group-add-subject": "به گروه $4 افزوده شد",
+	"bs-pageassignments-assignee-special-everyone-label": "همه‌کس",
+	"bs-pageassignments-assignee-type-everyone": "همه‌کس",
+	"bs-pageassignments-assignee-type-user": "کاربر",
+	"bs-pageassignments-assignee-type-group": "گروه",
+	"bs-pageassignments-collection-var-namespacename": "فضای نام"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094"
+		]
+	},
+	"listsignup": "Inscription à la liste",
+	"listsignup-desc": "Formulaire personnalisé d’inscription à la liste",
+	"listsignup-legend": "Entrez vos informations ci-dessous.",
+	"listsignup-success": "Votre adresse de courriel a été envoyée.",
+	"listsignupdisplay": "Affichage de l’inscription à la liste",
+	"listsignuppurge": "Purge des inscriptions à la liste",
+	"listsignuppurge-legend": "Purger toutes les informations de la liste d’inscription",
+	"listsignuppurge-pretext": "'''Attention !''' Cela supprimera toutes les adresses de la liste. Cette action ne peut pas être annulée.",
+	"listsignuppurge-success": "La liste a été purgée !",
+	"right-viewlistsignupdisplay": "Afficher la liste d’inscription",
+	"right-purgelistsignupdisplay": "Purger la liste d’inscription",
+	"action-viewlistsignupdisplay": "afficher la liste d’inscription",
+	"action-purgelistsignupdisplay": "purger la liste d’inscription"
+}

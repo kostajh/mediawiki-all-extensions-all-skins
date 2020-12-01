@@ -1,0 +1,52 @@
+.bs-rating-articlelike {
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+.bs-rating-articlelike-button, .bs-rating-articlelike-numvotes {
+	display: inline-block;
+	cursor: pointer;
+	color: #666666;
+}
+.bs-rating-articlelike-button::after {
+	content: '\e9a9';
+	font-family: 'icomoon';
+	font-size: 13px;
+	color: #666666;
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 5px;
+}
+.bs-rating-articlelike-button.uservoted::after {
+	color: #0060df !important;
+}
+
+.bs-rating-articlelike-numvotes,
+.bs-rating-articlelike-numvotes.uservoted {
+	color: #0060df !important;
+}
+.bs-rating-articlelike .bs-rating-articlelike-uservoted::after{
+	content: '\ea10';
+	font-family: 'icomoon';
+	font-size: 14px;
+	color: green;
+	padding-left: 5px;
+}
+.firstHeading .bs-rating-articlelike {
+	margin-right: 10px;
+	line-height: initial;
+}
+.firstHeading .bs-rating-articlelike-numvotes,
+.firstHeading .bs-rating-articlelike-numvotes.uservoted {
+	font-size: 0.875rem;
+	vertical-align: middle;
+}
+.firstHeading .bs-rating-articlelike-button::after {
+	font-size:0.875rem;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	vertical-align: middle;
+}
+.firstHeading .bs-rating-articlelike .bs-rating-articlelike-uservoted::after{
+	display: none;
+}

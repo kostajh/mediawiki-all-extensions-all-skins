@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-insertcategory-desc": "Dialog to enter a category link",
+	"bs-insertcategory-insertcat": "Insert category",
+	"prefs-insertcategory": "Insert category",
+	"bs-insertcategory-pref-withparents": "Insert category with its parents",
+	"bs-insertcategory-pref-uploadpanelintegration": "Set page categories as default in upload dialog",
+	"bs-insertcategory-title": "Insert category",
+	"bs-insertcategory-cat-label": "Assigned:",
+	"bs-insertcategory-success": "The category was added",
+	"bs-insertcategory-failure": "Error",
+	"bs-insertcategory-hint": "Note: to add a category, you have to press enter.",
+	"bs-insertcategory-panel-title": "Categories",
+	"bs-insertcategory-category-editor-title":"Categories",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Implicit categories",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Those categories are not defined within the wikitext content of the page. Most likely they are set from within a template.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Remove all",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "edit",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Edit the categories of this page",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Edit the categories of this page"
+}

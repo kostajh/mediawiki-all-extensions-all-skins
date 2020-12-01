@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"rt-desc": "Šikwany interfejs za RT (Request Tracker)",
+	"rt-inactive": "Rozšěrjenje RT aktiwne njeje",
+	"rt-badquery": "Rozšěrjenje RT je při komunikaciji z datowej banku RT zmylk namakało",
+	"rt-badlimit": "Njepłaćiwy argument LIMIT (l): dyrbi ličba być.\nSy spytał: '''$1'''",
+	"rt-badorderby": "Njepłaćiwy argument ORDER BY (ob): dyrbi standardne polo być (hlej dokumentaciju).\nSy spytał: '''$1'''",
+	"rt-badstatus": "Njepłaćiwy argument status (s): dyrbi standardne polo być (hlej dokumentaciju).\nSy spytał: '''$1'''",
+	"rt-badcfield": "Njepłaćiwy swójski pólny argument: dyrbi jednore słowo (hlej dokumentaciju). Sy spytał: '''$1'''",
+	"rt-badqueue": "Njepłaćiwy argument queue (q): dyrbi jednore słowo być.\nSy spytał: '''$1'''",
+	"rt-badowner": "Njepłaćiwy argument owner (o): dyrbi płaćiwe wužiwarske mjeno być.\nSy spytał: '''$1'''",
+	"rt-nomatches": "Wotpowědne naležnosće RT njebuchu namakane"
+}

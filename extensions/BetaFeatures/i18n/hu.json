@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bencemac",
+			"Macofe",
+			"Misibacsi",
+			"Tacsipacsi",
+			"Tgr"
+		]
+	},
+	"betafeatures-auto-enroll": "Automatikusan kapcsoljon be a legtöbb új béta funkció",
+	"betafeatures-auto-enroll-help": "Néhány béta funkció meglepő változásokkal is járhat, ezért {{GENDER:|neked}} kell bekapcsolnod ezeket manuálisan.",
+	"betafeatures-desc": "Lehetővé teszi az egyes felhasználóknak az olyan funkciók be- és kikapcsolását, amik még nem készültek el teljesen.",
+	"betafeatures-extension-type": "Béta funkciók",
+	"betafeatures-section-desc": "Itt {{PLURAL:$1|egy|néhány}} olyan új funkciót látsz, amit idővel be szeretnénk vezetni a(z) {{SITENAME}} wikin. Próbáld {{PLURAL:$1|ki|ki őket}}, és mondd el a véleményed, hogy javítani tudjunk {{PLURAL:$1|rajta|rajtuk}} a visszajelzésed alapján.",
+	"betafeatures-toplink": "Béta",
+	"betafeatures-feature-autoenrolled": "Automatikusan bekapcsolt funkció",
+	"mw-ui-feature-discuss": "megbeszélés",
+	"mw-ui-feature-info": "Információ",
+	"mw-ui-feature-requirements-betafeatures": "A használatához be kell kapcsolni {{PLURAL:$1|ezt a funkciót|ezeket a funkciókat}} is:",
+	"mw-ui-feature-requirements-browser": "Nem működik {{PLURAL:$1|ezzel a böngészővel|ezekkel a böngészőkkel}}:",
+	"mw-ui-feature-requirements-javascript": "JavaScript szükséges hozzá.",
+	"mw-ui-feature-requirements-skins": "Csak {{PLURAL:$1|ezzel a felülettel|ezekkel a felületekkel}} működik:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Egy felhasználó|$1 felhasználó|0=Még senki sem}} használja ezt a funkciót.",
+	"prefs-betafeatures": "Béta funkciók",
+	"tooltip-pt-betafeatures": "Béta funkciók"
+}

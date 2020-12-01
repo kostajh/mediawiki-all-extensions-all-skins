@@ -1,0 +1,45 @@
+{
+    "title" : {
+        "topic" : "Topic",
+        "taxonEditor" : "Taxon Editor",
+        "questionEditor" : "Question Editor",
+        "questions" : "Questions",
+        "question" : "Question",
+        "required-equipment" : "Required Equipment",
+        "characters" : "Characters",
+        "character-editor" : "Character Editor",
+        "component" : "Component",
+        "ranges" : "Ranges",
+        "taxon-tree" : "Taxonomic Tree"
+    },
+    "button" : {
+        "+add" : "+ Add",
+        "save" : "Save",
+        "delete" : "Delete",
+        "cancel" : "Cancel",
+        "taxa" : "Taxa",
+        "settings" : "Settings",
+        "about" : "About",
+        "newIdentification" : "New Identification",
+        "search" : "Search"
+    },
+    "ui" : {
+        "select-topic" : "Select topic",
+        "matching-taxa" : "Matching taxa",
+        "question-order" : "Question order",
+        "equipment" : "Equipment",
+        "taxon-rating" : "Taxon rating",
+        "still-matching" : "__valid__ of __total__ taxa could still match.",
+        "reset-selection" : "Reset selection"
+    },
+    "lw" : {
+        "exact" : "Exact",
+        "exact-desc" : "Exact matcher, no errors are allowed.",
+        "error-tolerant" : "Error tolerant",
+        "normal" : "Normal",
+        "simple" : "Simple",
+        "most-used" : "Most used",
+        "hierarchical" : "Hierarchical",
+        "performance" : "Performance"
+    }
+}

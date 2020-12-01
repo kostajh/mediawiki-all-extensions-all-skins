@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alex00728",
+			"Hwangjy9",
+			"Ykhwong"
+		]
+	},
+	"debugtemplates-form": "입력 공간",
+	"debugtemplates-title": "문서 제목 (선택적, 문맥을 위해서만)",
+	"debugtemplates-args-title": "변수",
+	"debugtemplates-args-name": "이름",
+	"debugtemplates-args-value": "값",
+	"debugtemplates-args-eval-all": "평가",
+	"debugtemplates-args-set-toggle": "모두 체크/체크 해제",
+	"debugtemplates-args-unused": "미사용 변수 숨기기/보이기",
+	"debugtemplates-args-value-clear": "모두 초기화",
+	"debugtemplates-args-constructed": "이름 없음",
+	"debugtemplates-crumb-reset": "스택을 지웁니다.",
+	"debugtemplates-error-button": "오류 메시지 초기화",
+	"debugtemplates-error-template-name": "오류: 틀 이름을 결정하지 못했습니다.",
+	"debugtemplates-input": "텍스트 입력",
+	"debugtemplates-warning-template-not-a-template": "틀을 찾을 수 없음:"
+}

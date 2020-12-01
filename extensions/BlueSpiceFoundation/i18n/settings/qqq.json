@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Patric Wirth",
+			"Wladek92"
+		]
+	},
+	"bs-setting-path-feature": "\"feature/..\" main section in a settings path, used for sorting and filtering\n{{Identical|Feature}}",
+	"bs-setting-path-extension": "\"extension/..\" main section in a settings path, used for sorting and filtering\n{{Identical|Extension}}",
+	"bs-setting-path-package": "\"package/..\" main section in a settings path, used for sorting and filtering\n{{Identical|Package}}\nFor translators : this is a different notion than the paquet used for transmission.",
+	"bs-setting-path-system": "\"../system/..\" subsection in a settings path, used for sorting and filtering\n{{Identical|System}}",
+	"bs-setting-path-dataanalysis": "\"../dataanalysis/..\" subsection in a settings path, used for sorting and filtering\n{{Identical|Data analysis}}",
+	"bs-setting-path-editor": "\"../editor/..\" subsection in a settings path, used for sorting and filtering\n{{Identical|Editor}}",
+	"bs-setting-path-search": "\"../search/..\" subsection in a settings path, used for sorting and filtering\n{{Identical|Searching and Navigation}}",
+	"bs-setting-path-personalisation": "\"../personalisation/..\" subsection in a settings path, used for sorting and filtering\n{{Identical|Personalization}}",
+	"bs-setting-path-skinning": "\"../skinning/..\" subsection in a settings path, used for sorting and filtering\n{{Identical|Skinning}}",
+	"bs-setting-path-customizing": "\"../customizing/..\" subsection in a settings path, used for sorting and filtering\n{{Identical|Customizing}}",
+	"bs-setting-path-contentstructuring": "\"../contentstructuring/..\" subsection in a settings path, used for sorting and filtering.",
+	"bs-setting-path-communication": "\"../communication/..\" subsection in a settings path, used for sorting and filtering\n{{Identical|Communication}}",
+	"bs-setting-path-administration": "\"../administration/..\" subsection in a settings path, used for sorting and filtering\n{{Identical|Administration}}",
+	"bs-setting-path-qualityassurance": "\"../qualityassurance/..\" subsection in a settings path, used for sorting and filtering\n{{Identical|Quality assurance}}",
+	"bs-setting-path-export": "\"../export/..\" subsection in a settings path, used for sorting and filtering\n{{Identical|Export}}"
+}

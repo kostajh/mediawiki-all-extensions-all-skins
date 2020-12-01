@@ -1,0 +1,14 @@
+#firstHeading,
+#content h1.firstHeading,
+.bs-page-breadcrumbs,
+#content .bs-page-breadcrumbs,
+#contentSub,
+.bs-page-before-header,
+.bs-page-header,
+#content .bs-page-separator,
+.bs-firstHeading-container,
+.bs-page-after-header,
+#siteNotice
+{
+	display: none;
+}

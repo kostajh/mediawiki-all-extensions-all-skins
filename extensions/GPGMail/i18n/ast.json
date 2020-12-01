@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"gpgmail-desc": "Cifrar correos electrónicos con GPG",
+	"gpgmail-pref-enable": "Cifrar correos electrónicos con GPG",
+	"gpgmail-pref-key": "Clave pública GPG",
+	"gpgmail-pref-key-help": "Consulta [https://help.ubuntu.com/community/GnuPrivacyGuardHowto la páxina del Cómo d'Ubuntu] pa llograr ayuda sobre consiguir una clave pública.",
+	"gpgmail-encrypt-error": "Hubo un error al cifrar el corréu electrónicu."
+}

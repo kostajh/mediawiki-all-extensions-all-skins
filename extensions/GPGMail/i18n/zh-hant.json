@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"gpgmail-desc": "以 GPG 加密電子郵件",
+	"gpgmail-pref-enable": "以 GPG 加密電子郵件",
+	"gpgmail-pref-key": "GPG 公鑰",
+	"gpgmail-pref-key-help": "查看[https://help.ubuntu.com/community/GnuPrivacyGuardHowto Ubuntu 的說明頁面]來了解如何取得公鑰。",
+	"gpgmail-encrypt-error": "加密電子郵件時發生錯誤。"
+}

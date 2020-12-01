@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"indexfunc-desc": "Foncion del parser per crear de paginas de redireccion e d'omonimia automaticament",
+	"indexfunc-badtitle": "Títol invalid : « $1»",
+	"indexfunc-editwarning": "Atencion : aqueste títol es un títol d'indèx per {{PLURAL:$2|la pagina seguenta|las paginas seguentas}} :\n$1\nSiatz segur(a) que la pagina que sètz a mand de crear existís pas jos un autre títol.\nSe creatz aquesta pagina, levatz-la de <nowiki>{{#index:}}</nowiki> {{PLURAL:$2|de la pagina|de las paginas}} çaisús.",
+	"indexfunc-index-exists": "La pagina « $1 » existís ja",
+	"indexfunc-movewarn": "Atencion : « $1 »  es un títol d'indèx per {{PLURAL:$3|la pagina seguenta|las paginas seguentas}} :\n$2\nLevatz « $1 » de <nowiki>{{#index:}}</nowiki> {{PLURAL:$3|de la pagina|de las paginas}} çaisús.",
+	"index": "Indèx",
+	"index-legend": "Recercar dins l’indèx",
+	"index-search": "Cercar :",
+	"index-submit": "Mandar",
+	"index-disambig-start": "'''$1''' se pòt referir a mai d'una pagina :",
+	"index-emptylist": "I a pas de paginas ligadas a « $1 »",
+	"index-expand-detail": "Afichar las paginas indexadas jos aqueste títol",
+	"index-hide-detail": "Amaga la lista de las paginas",
+	"index-no-results": "La recèrca a pas tornat cap de resultat",
+	"index-search-explain": "Aquesta pagina utiliza una recèrca per prefix.\n\nPicatz los primièrs caractèrs e quichatz sul boton de somission per cercar los títols de las paginas que començan amb la cadena de recèrca.",
+	"index-details-explain": "Las entradas amb de sagetas son d'entradas d'indèx, clicatz sus la sageta per veire totas las paginas indexadas jos aqueste títol."
+}

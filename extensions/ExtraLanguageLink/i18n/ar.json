@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"extralanguagelink-desc": "إضافة وصلات لغات إضافية لقسم الشريط الجانبي \"بلغات أخرى\"",
+	"extralanguagelink-param-class": "رتبة",
+	"extralanguagelink-param-hreflang": "لغة الفرط المرجعية",
+	"extralanguagelink-param-lang": "لغ",
+	"extralanguagelink-param-style": "نمط",
+	"extralanguagelink-param-title": "العنوان",
+	"extralanguagelink-badinterwiki": "لا توجد بادئة الإنترويكي \"$1:\" في قائمة بادئات الإنترويكي المسموح بها.",
+	"extralanguagelink-badtitle": "لا يمكن تحليل عنوان الصفحة \"$1\"."
+}

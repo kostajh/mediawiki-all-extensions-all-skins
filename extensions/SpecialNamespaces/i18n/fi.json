@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"namespaces_1": "kyllä",
+	"namespaces_0": "ei",
+	"namespaces_error": "Virhe: Namespaces-taulu on tyhjä tai jokin muu meni pieleen.",
+	"namespaces_edit": "Muokkaa",
+	"namespaces_reasonfield": "Syy",
+	"namespaces_defaultreason": "ei annettua syytä",
+	"namespaces_addbutton": "Lisää",
+	"namespaces_edittext": "Muokataan namespaces",
+	"namespaces_edited": "Etuliitettä ”$1” muokattiin onnistuneesti namespaces.",
+	"namespaces_editerror": "Etuliitettä ”$1” ei voi muokata namespaces.",
+	"namespaces_logpagename": "Namespacestaululoki",
+	"namespaces_logpagetext": "Tämä on loki muutoksista [[Special:Namespaces|namespaces]].",
+	"right-namespaces": "Muokata namespaces",
+	"action-namespaces": "muokata tätä namespaces"
+}

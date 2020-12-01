@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"multiboilerplate-desc": "Овозможува да биде избран подготвен текст од паѓачко мени сместено над полето за уредување, при уредувањето на страници",
+	"multiboilerplate-legend": "Избор на подготвен текст",
+	"multiboilerplate-submit": "Вчитај",
+	"boilerplates": "Подготвени текстови",
+	"multiboilerplate-special-pagetext": "Овие предлошки можат да се вчитаат како готови при создавањето на страници. (<span class=plainlinks>[{{fullurl:This page does not exist|action=edit}} пример]</span>)",
+	"multiboilerplate-special-define-in-localsettings": "Подготвените текстови се определени во LocalSettings.",
+	"multiboilerplate-special-define-in-interface": "Подготвените текстови се определени на [[MediaWiki:Multiboilerplate]].",
+	"multiboilerplate-special-no-boilerplates": "Никаде нема зададено подготвени текстови.",
+	"multiboilerplate-nonexistant-page": "Страницата за подг. текст не постои: „$1“"
+}

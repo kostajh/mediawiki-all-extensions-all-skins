@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"MaGa"
+		]
+	},
+	"performanceinspector-newpp-ppgeneratednodes": "Broj pretprocesiranih generiranih čvorova",
+	"performanceinspector-newpp-templateargumentsize": "Veličina argumenta predloška (bajtova)",
+	"performanceinspector-newpp-expansiondepth": "Najveća dubina proširenja",
+	"performanceinspector-newpp-expensivefunctioncount": "Broj složenih funkcija raščlanjivača"
+}

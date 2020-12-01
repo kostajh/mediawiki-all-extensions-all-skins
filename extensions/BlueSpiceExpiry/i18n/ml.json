@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adithyak1997",
+			"Praveenp"
+		]
+	},
+	"bs-expiry-extension-description": "താളുകൾ കാലഹരണപ്പെട്ടതായി അടയാളപ്പെടുത്താം.",
+	"specialexpiry": "കാലഹരണപ്പെട്ട ലേഖനങ്ങൾ",
+	"prefs-expiry": "കാലാവധി അവസാനിക്കുന്നത്",
+	"bs-expiry-unexpire-article": "താൾ കാലഹരണപ്പെട്ടു",
+	"bs_expiry-unexpire-unsuccess": "താൾ കാലഹരണപ്പെടാൻ പാടില്ല",
+	"bs-expiry-header-pagename": "താൾ",
+	"bs-expiry-header-comment": "അഭിപ്രായം",
+	"bs-expiry-dialog-title": "കാലഹരണം തിരുത്തുക",
+	"bs-expiry-article-label": "താൾ",
+	"bs-expiry-comment-label": "അഭിപ്രായം",
+	"bs-expiry-delete-error-unknown": "കാലഹരണം ഒഴിവാക്കാൻ സാധിച്ചില്ല.",
+	"bs-expiry-unknown-page-msg": "താൾ നിലവിലില്ല.",
+	"bs-expiry-update-error": "കാലഹരണം ഒഴിവാക്കാൻ സാധിച്ചില്ല",
+	"bs-expiry-unexpire-success": "കാലഹരണം വിജയകരമായി ഒഴിവാക്കിയിരിക്കുന്നു",
+	"bs-expiry-title-delete": "കാലഹരണം ഒഴിവാക്കുക",
+	"bs-expiry-flyout-next-expired": "താൾ കാലഹരണപ്പെട്ടു!",
+	"bs-expiry-edit-grid-header-username": "ഉപയോക്താവ്",
+	"bs-expiry-edit-grid-header-date": "തീയതി",
+	"bs-expiry-edit-grid-header-comment": "അഭിപ്രായം",
+	"bs-expiry-edit-grid-title": "താൾ കാലഹരണപ്പെട്ടത് മുതലുള്ള തിരുത്തലുകൾ",
+	"bs-expiry-flyout-body-hint-expired": "$1-നു കാലഹരണപ്പെട്ടു",
+	"bs-expiry-flyout-body-hint-expires": "$1-നു കാലഹരണപ്പെടുന്നു",
+	"bs-expiry-pageinfoelement-expired-label": "കാലഹരണപ്പെട്ടു",
+	"bs-expiry-pageinfoelement-expired-tooltip": "താൾ കാലഹരണപ്പെട്ടു"
+}

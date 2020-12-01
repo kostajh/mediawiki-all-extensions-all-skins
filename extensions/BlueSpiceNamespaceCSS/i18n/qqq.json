@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Umherirrender"
+		]
+	},
+	"bs-namespacecss-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of namespace css extension",
+	"bluespicenamespacecssmanager": "Page title for special page of namespace css manager\n{{Identical|Namespace-CSS Manager}}",
+	"bs-namespacecss-specialmanager-label-namespacename": "Column headline for namespace name in ExtJS manager\n{{Identical|Namespace}}",
+	"bs-namespacecss-specialmanager-label-sourcepage": "Column headline for source page in ExtJS manager\n{{Identical|Source page}}",
+	"apihelp-bs-namespacecss-store-summary": "{{doc-apihelp-summary|bs-namespacecss-store}}"
+}

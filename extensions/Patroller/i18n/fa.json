@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ebraminio",
+			"Huji",
+			"Mjbmr",
+			"Sahim",
+			"ZxxZxxZ"
+		]
+	},
+	"patrol": "گشت‌زنی ویرایش‌ها",
+	"patrol-desc": "رابط بهبودیافتهٔ گشت با امکان به اشتراک گذاری پرونده بارگذاری‌شده",
+	"patrol-endorse": "تأیید",
+	"patrol-revert": "واگردانی",
+	"patrol-revert-reason": "دلیل:",
+	"patrol-skip": "گذشتن",
+	"patrol-reverting": "واگردانی: $1",
+	"patrol-nonefound": "ویرایش مناسب برای گشت‌زنی پیدا نشد.",
+	"patrol-endorsed-ok": "ویرایش برچسب گشت خورد.",
+	"patrol-endorsed-failed": "نشد به ویرایش برچسب گشت زد.",
+	"patrol-reverted-ok": "ویرایش واگردانی شد.",
+	"patrol-reverted-failed": "ویرایش را نمی‌شد واگردانی کرد.",
+	"patrol-skipped-ok": "ویرایش نادیده گرفته شد.",
+	"patrol-reasons": "* خرابکاری ساده\n* آزمایش تازه‌کار\n* رجوع شود به صفحهٔ بحث",
+	"patrol-another": "ویرایشی دیگر را در صورت وجود نمایش بده.",
+	"patrol-stopped": "شما انتخاب کردید که ویرایشی دیگر را گشت نزنید. $1",
+	"patrol-resume": "برای ادامه اینجا کلیک کنید.",
+	"group-patroller": "گشت‌زنان",
+	"group-patroller-member": "گشت‌زن",
+	"grouppage-patroller": "{{ns:project}}:گشت‌زن",
+	"right-patroller": "گشت‌زنی صفحه‌ها"
+}

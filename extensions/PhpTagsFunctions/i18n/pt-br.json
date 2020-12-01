@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"phptagsfunctions-desc": "Implementa as funções internas do PHP nativo na extensão PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "O delimitador não deve ser alfanumérico nem a barra invertida",
+	"phptagsfunctions-preg-no-ending-delimiter": "Não foi encontrado nenhum delimitador final \"$1\"",
+	"phptagsfunctions-preg-unknown-modifier": "Modificador desconhecido \"$1\""
+}

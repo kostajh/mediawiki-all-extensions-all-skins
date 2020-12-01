@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-exporttables-extension-description": "Gjør det mulig å eksportere tabeller til Excel og CSV",
+	"bs-exporttables-menu": "Eksporter tabell",
+	"bs-exporttables-menu-csv": "Kommaseparerte verdier (CSV)",
+	"bs-exporttables-ve-exportable-option": "Kan eksporteres"
+}

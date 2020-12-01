@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aleksandrit",
+			"Ата",
+			"Тест"
+		]
+	},
+	"spamdifftool": "Управління чорним списком спаму",
+	"spamdifftool-desc": "Дозволяє легко додавати нові записи в чорний список спаму зі сторінок порівняння версій",
+	"spamdifftool-block": "Блокування:",
+	"spamdifftool-cant-edit": "Вибачте, у вас немає дозволу змінювати чорний список спаму.",
+	"spamdifftool-confirm": "Підтвердіть, що Ви хочете додати ці записи в чорний список спаму. (<a href='$1' target='new'>Повідомити про проблему</a>.)",
+	"spamdifftool-no-text": "Немає тексту для додавання в чорний список спаму.\n<a href='$1'>Продовжити</a>.",
+	"spamdifftool-no-title": "'''Помилка:''' назву сторінки не зазначено.",
+	"spamdifftool-no-urls-detected": "Не виявлено URL. <a href='$1'>Повернутися</a>.",
+	"spamdifftool-option-domain": "все з цього домену",
+	"spamdifftool-option-subdomain": "все з цього субдомену",
+	"spamdifftool-option-directory": "цього субдомену і директорії",
+	"spamdifftool-option-none": "нічого",
+	"spamdifftool-spam-link-text": "додати в спам",
+	"spamdifftool-submit": "Відправити",
+	"spamdifftool-summary": "Додати до чорного списку спаму",
+	"spamdifftool-tool": "Spam Tool",
+	"spamdifftool-urls-detected": "У редагування були виявлені такі URL-адреси, які з них слід додати в чорний список спаму? \nНалаштування розташовані в порядку від найбільш суворих обмежень до менш строгих, блокування всього домену заблокує всі посилання, що ведуть на будь-яку адресу в цьому домені.\n\nПереконайтеся, що Ви не блокуєте домен, який містить сторінки різних користувачів, наприклад, blogspot.com, shoutwiki.com і подібні."
+}

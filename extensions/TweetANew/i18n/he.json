@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eburcat",
+			"Steeve815"
+		]
+	},
+	"tweetanew-desc": "מצייץ כאשר דף נוצר או נערך.",
+	"tweetanew-newaction": "צייץ אודות דף חדש זה",
+	"tweetanew-newtooltip": "שלח מידע אודות דף חדש זה לטוויטר",
+	"tweetanew-editaction": "צייץ אודות עריכה זו",
+	"tweetanew-edittooltip": "שלח מידע אודות עריכה זו לטוויטר",
+	"tweetanew-minoredit": "מ",
+	"tweetanew-authorcredit": "מאת",
+	"tweetanew-newdefault": "דף חדש: $1 - $2",
+	"tweetanew-new1": "נראה ש $1 נוצר ב $2",
+	"tweetanew-new2": "$1 נוצר לאחרונה ב $2",
+	"tweetanew-new3": "תבדקו את $2 - ישנו דף חדש אודות $1",
+	"tweetanew-editdefault": "עריכה בדף: $1 - $2",
+	"tweetanew-edit1": "נראה ש $1 עודכן ב $2",
+	"tweetanew-edit2": "$1 נערך לאחרונה ב $2",
+	"tweetanew-edit3": "תבדקו את $2 - יש תוכן חדש ב $1"
+}

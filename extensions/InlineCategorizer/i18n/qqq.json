@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darth Kule",
+			"EugeneZelenko",
+			"Fryed-peach",
+			"Lloffiwr",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"inlinecategorizer-desc": "{{desc|name=Inline Categorizer|url=https://www.mediawiki.org/wiki/Extension:InlineCategorizer}}",
+	"inlinecategorizer-add-category": "{{doc-actionlink}}\n{{Identical|Add category}}",
+	"inlinecategorizer-add-category-submit": "{{Identical|Add}}",
+	"inlinecategorizer-add-category-summary": "See {{msg-mw|inlinecategorizer-category-question}}.\n\nParameters:\n* $1 - a category name",
+	"inlinecategorizer-api-error": "API = [https://en.wikipedia.org/wiki/Application_programming_interface Application programming interface].\n\n\"returned\" here means \"reported\".\n\nParameters:\n* $1 - error code\n* $2 - error message",
+	"inlinecategorizer-api-unknown-error": "Used as error message",
+	"inlinecategorizer-cancel": "Used as label for the button.\n\nSee also:\n* {{msg-mw|Inlinecategorizer-remove-category}}",
+	"inlinecategorizer-cancel-all": "Used as label or tooltip for the \"Cancel all\" button",
+	"inlinecategorizer-category-already-present": "Error message. Parameters:\n* $1 - the category name",
+	"inlinecategorizer-category-hook-error": "Used as error message. Parameters:\n* $1 - category (Unused)",
+	"inlinecategorizer-category-question": "Question the user is asked before submit. It's followed by a list of the changes.",
+	"inlinecategorizer-confirm-ok": "{{Identical|OK}}",
+	"inlinecategorizer-confirm-save": "Used as label for the Submit button.\n{{Identical|Save}}",
+	"inlinecategorizer-confirm-save-all": "Submit button to save all changes",
+	"inlinecategorizer-confirm-title": "Title for a dialog box in which the user is asked for an edit summary.\n{{Identical|Confirm action}}",
+	"inlinecategorizer-edit-category": "Tooltip for the edit link displayed after each category at the foot of a page. Refers to the specific category. \"Edit this category\" is also correct.\n{{Identical|Edit category}}",
+	"inlinecategorizer-edit-category-error": "Used as error message. Parameters:\n* $1 - ...",
+	"inlinecategorizer-edit-category-summary": "See {{msg-mw|inlinecategorizer-category-question}}.\n\nParameters:\n* $1 - category name\n* $2 - category name",
+	"inlinecategorizer-error-title": "Used as title for a dismissable error dialog.\n{{Identical|Error}}",
+	"inlinecategorizer-remove-category": "Tooltip for link to remove a category from the page, displayed after each category at the foot of a page. Refers to the specific category. \"Remove this category\" is also correct.\n{{Identical|Remove category}}",
+	"inlinecategorizer-remove-category-error": "Used as error message. Parameters:\n* $1 - ...",
+	"inlinecategorizer-remove-category-summary": "See {{msg-mw|inlinecategorizer-category-question}}.\n\nParameters:\n* $1 - a category name\n{{Identical|Remove category}}"
+}

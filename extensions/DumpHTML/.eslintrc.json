@@ -1,0 +1,24 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery"
+	],
+	"globals": {
+		"mediaWiki": false,
+		"mw": false,
+		"jQuery": false
+	},
+	"rules": {
+		"one-var": "warn",
+		"vars-on-top": "warn",
+		"no-bitwise": "warn",
+		"no-unused-vars": "warn",
+		"no-use-before-define": "warn",
+		"no-useless-escape": "warn",
+		"camelcase": "warn",
+		"max-statements-per-line": "warn",
+		"no-underscore-dangle": "warn",
+		"no-implicit-globals": "warn"
+	}
+}

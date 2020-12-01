@@ -1,0 +1,88 @@
+{
+	"name": "Refreshed",
+	"version": "4.0.4",
+	"author": [
+		"Adam Carter",
+		"Drew1200",
+		"George Barnick",
+		"Jack Phoenix",
+		"Lewis Cawte",
+		"MacFan4000",
+		"MtMNC",
+		"Samantha Nguyen",
+		"Seaside98",
+		"ShermanTheMythran",
+		"SirComputer"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Refreshed",
+	"descriptionmsg": "refreshed-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"ValidSkinNames": {
+		"refreshed": "Refreshed"
+	},
+	"MessagesDirs": {
+		"SkinRefreshed": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinRefreshed": "includes/SkinRefreshed.php",
+		"RefreshedTemplate": "includes/RefreshedTemplate.php"
+	},
+	"Hooks": {
+		"EchoCanAbortNewMessagesAlert": "SkinRefreshed::onEchoCanAbortNewMessagesAlert",
+		"PageSaveComplete": "SkinRefreshed::onPageSaveComplete"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Refreshed"
+	},
+	"ResourceModules": {
+		"skins.refreshed": {
+			"styles": {
+				"refreshed/styles/screen/common.less": {
+					"media": "screen"
+				},
+				"refreshed/styles/screen/small.less": {},
+				"refreshed/styles/screen/medium.less": {},
+				"refreshed/styles/screen/big.less": {},
+				"refreshed/styles/screen/config-default.less": {},
+				"refreshed/styles/screen/custom.less": {},
+				"refreshed/styles/print/print.less": {
+					"media": "print"
+				}
+			}
+		},
+		"skins.refreshed.js": {
+			"scripts": [
+				"refreshed/scripts/refreshed.js"
+			],
+			"dependencies": [
+				"mediawiki.api",
+				"mediawiki.util"
+			]
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"refreshed": {
+			"ext.echo.styles.notifications": "refreshed/extensions/Echo/echo.notifications.less",
+			"ext.echo.ui.desktop": "refreshed/extensions/Echo/echo.ui.NotificationBadgeWidget.less",
+			"ext.echo.ui": "refreshed/extensions/Echo/echo.ui.overlay.less",
+			"+mediawiki.action.history.styles": "refreshed/mediawiki/action.history.styles.css",
+			"+mediawiki.action.view.filepage": "refreshed/mediawiki/action.view.filepage.css",
+			"+mediawiki.diff.styles": "refreshed/mediawiki/diff.styles.css",
+			"+mediawiki.skinning.interface": "refreshed/mediawiki/skinning.interface.css",
+			"+mediawiki.special.changeslist.enhanced": "refreshed/mediawiki/special.changeslist.enhanced.css",
+			"+mediawiki.special.preferences.styles": "refreshed/mediawiki/special.preferences.styles.css",
+			"+mediawiki.special.userlogin.common.styles": "refreshed/mediawiki/special.userlogin.common.css"
+		}
+	},
+	"config": {
+		"RefreshedEchoCanAbortNewMessagesAlert": true
+	},
+	"manifest_version": 1
+}

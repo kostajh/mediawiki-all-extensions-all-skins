@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"gae-desc": "يوفر تحسينات للويكيات التي تعمل على GoogleAppEngine",
+	"apihelp-gaejobqueue-description": "وحدة API الداخلية لتشغيل JobQueue، الاستخدام الخارجي غير مسموح به.",
+	"apihelp-gaejobqueue-summary": "وحدة API الداخلية لتشغيل JobQueue، الاستخدام الخارجي غير مسموح به.",
+	"apihelp-gaejobqueue-param-namespace": "معرف نطاق اسمي.",
+	"apihelp-gaejobqueue-param-titletext": "نص العنوان بدون نطاق.",
+	"apihelp-gaejobqueue-param-type": "نوع الوظيفة.",
+	"apihelp-gaejobqueue-param-params": "وسائط PHP التسلسلية لهذه الوظيفة."
+}

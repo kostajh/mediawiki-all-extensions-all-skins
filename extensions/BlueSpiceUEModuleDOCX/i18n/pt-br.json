@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-uemoduledocx-extension-description": "Permite exportar para DOCX",
+	"bs-uemoduledocx-pref-SuppressNS": "Ocultar o prefixo do espaço nominal no DOCX",
+	"bs-uemoduledocx-widgetlink-single-text": "Página única do DOCX",
+	"bs-uemoduledocx-widgetlink-single-title": "Exportar esta página como DOCX.",
+	"bs-uemoduledocx-overview-title": "Microsoft&reg; Office Open XML (DOCX)",
+	"bs-uemoduledocx-overview-description": "Exporta páginas para o Microsoft DOCX.",
+	"bs-uemoduledocx-overview-webservice-state-not-ok": "não disponível",
+	"bs-uemoduledocx-overview-webservice-state-ok": "disponível",
+	"bs-uemoduledocx-overview-webservice-webadmin": "Interface Web do serviço DOCX (BS html2 DOCX)",
+	"bs-uemoduledocx-overview-webservice-state": "Estado DOCXService (BShtml2DOCX)"
+}

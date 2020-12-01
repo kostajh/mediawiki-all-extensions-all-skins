@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizardist"
+		]
+	},
+	"wlm-extension-desc": "Дадае інфармацыю і паведамленьні, датычныя конкурсу «Вікі любіць славутасьці»",
+	"wlm-no-contest-year": "Конкурс «Вікі любіць славутасьці» ў $1 годзе не праводзіўся.",
+	"wlm-no-url-bad-country": "У нас няма адрасу вэб-сайта мясцовага конкурсу. $1 — няслушны код краіны.",
+	"wlm-country-not-given": "Неабходна пазначыць код краіны.",
+	"wlm-country-not-participating-year": "$1 ня ўзяла ўдзелу ў «Вікі любіць славутасьці $2»",
+	"wlm-sidebar-portlet": "Іншыя краіны",
+	"wlm-international-contest": "Міжнародны",
+	"wlm-text-contact": "Кантакты",
+	"wlm-text-contest": "Конкурс",
+	"wlm-text-donate": "Ахвяраваньні",
+	"wlm-text-faq": "Пытаньні і адказы",
+	"wlm-text-jury": "Журы",
+	"wlm-text-monuments": "Славутасьці",
+	"wlm-text-news": "Навіны",
+	"wlm-text-participate": "Удзельнічаць!",
+	"wlm-text-prizes": "Прызы",
+	"wlm-text-rules": "Правілы",
+	"wlm-text-sponsors": "Спонсары",
+	"wlm-text-uploading": "Загрузка здымкаў"
+}

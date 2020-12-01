@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-articleinfo-desc": "Gir informasjon om en side i statusfeltet",
+	"prefs-articleinfo": "Sideinformasjon",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Oppdateringsintervall i sekunder:",
+	"bs-articleinfo-flyout-title": "Sideinformasjon",
+	"bs-articleinfo-flyout-intro": "Her kan du finne informasjon som er relevant for siden. Du kan sjekke kvaliteten og hvor oppdatert den er og se hvordan den relateres til andre sider på wikien.",
+	"bs-articleinfo-nav-link-title": "Sideinformasjon",
+	"bs-articleinfo-flyout-categorylinks-title": "Kategorier",
+	"bs-articleinfo-flyout-templatelinks-title": "Maler brukt på siden",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Ingen kategorier tildelt",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Ingen maler brukt",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Siste redigering",
+	"bs-articleinfo-flyout-lastediteduser-text": "Siste bidragsyter",
+	"bs-articleinfo-newrevision-info-text": "En ny versjon av siden er tilgjengelig. Last siden på nytt for å vise det nåværende innholdet.",
+	"bs-articleinfo-newrevision-info-text-reload": "En ny versjon av siden er tilgjengelig. [[:$1|Last siden på nytt]] for å vise det nåværende innholdet.",
+	"bs-articleinfo-flyout-subpages-title": "Undersider",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Undersider",
+	"bs-articleinfo-dialog-subpages-title": "Undersider",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Setter oppdateringsraten for verdien «Siste redigering». Denne verdien vises under sideinformasjon under kvalitetsbehandlingsverktøyene."
+}

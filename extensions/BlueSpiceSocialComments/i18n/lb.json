@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"bs-socialcomments-desc": "Bemierkungs-Funktionalitéit fir BlueSpiceSocial",
+	"bs-socialcomments-type": "Bemierkung",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1| Bemierkung|Bemierkungen}} ($1)",
+	"bs-socialcomments-header-create": "Bemierkung",
+	"bs-socialcomments-header": "[[User:$1|$2]] huet \"[[$6|$7]]\" kommentéiert",
+	"bs-socialcomments-var-commentcount": "Zuel vun de Bemierkungen",
+	"echo-category-title-bs-social-comment-cat": "Bemierkungen op iwwerwaachten Eenheeten",
+	"bs-social-notifications-comment-create": "Benotzer {{GENDER:$1|$2 huet}} eng nei Bemierkung gemaach",
+	"bs-social-notifications-email-comment-create-subject": "Benotzer {{GENDER:$1|$2 huet}} eng nei Bemierkung gemaach",
+	"bs-social-notifications-email-comment-edit-subject": "Benotzer {{GENDER:$1|$2 huet}} eng Bemierkung geännert",
+	"bs-social-notifications-comment-delete": "Benotzer {{GENDER:$1|$2 huet}} eng Bemierkung geläscht",
+	"bs-social-notifications-email-comment-delete-subject": "Benotzer {{GENDER:$1|$2 huet}} eng nei Bemierkung geläscht",
+	"bs-social-notification-comment-primary-link-label": "Bemierkung weisen"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Matteocng"
+		]
+	},
+	"pageassessments-desc": "Questa estensione è per memorizzare le valutazioni di pagina in una tabella di database con l'aiuto di una funzione parser",
+	"pageassessments-project": "Progetto",
+	"pageassessments-page-title": "Titolo della pagina",
+	"pageassessments-search": "Cerca",
+	"pageassessments-importance": "Importanza",
+	"pageassessments-class": "Classe",
+	"pageassessments-timestamp": "Data e ora",
+	"pageassessments-total-results": "Totale risultati: $1"
+}

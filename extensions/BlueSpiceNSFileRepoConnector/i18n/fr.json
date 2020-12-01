@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eihel",
+			"Verdy p"
+		]
+	},
+	"bs-nsfrc-desc": "Intègre NSFileRepo dans une gamme d’extensions BlueSpice (requière NSFileRepo)",
+	"bs-nsfrc-namespacestore-label": "Espace de noms",
+	"bs-nsfrc-namespacecombo-emptytext": "Sélectionnez un espace de noms",
+	"bs-nsfrc-unprefixedfilename-label": "Titre",
+	"bs-nsfrc-uploaddialog-selector-label": "Espace de noms ciblé",
+	"apihelp-bs-nsfrc-tasks-summary": "Point de terminaison de l’API pour l’extension BlueSpiceNSFileRepoConnector",
+	"apihelp-bs-nsfilerepo-connector-summary": "Point de terminaison de l’API pour l’extension BlueSpiceNSFileRepoConnector"
+}

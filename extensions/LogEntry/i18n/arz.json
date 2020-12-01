@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"logentry-append": "إضافة",
+	"logentry-parserhook-desc": "امتداد الوسم هذا يوفر استمارة للإضافة/التخطيط لصفحات السجلات",
+	"logentry-specialpage-desc": "امتداد الوسم هذا يوفر معالجة للإضافة لصفحات السجلات",
+	"logentry": "مدخلة سجل",
+	"logentry-invalidpage": "صفحة غير صحيحة: $1",
+	"logentry-invalidtoken": "نص غير صحيح"
+}

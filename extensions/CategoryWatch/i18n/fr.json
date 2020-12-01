@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Grondin",
+			"IAlex",
+			"Verdy p",
+			"Wladek92",
+			"Zetud"
+		]
+	},
+	"categorywatch-desc": "Étend la fonctionnalité de la liste de suivi afin d’y inclure la notification des modifications de la liste des membres des catégories suivies.",
+	"categorywatch-emailsubject": "Activité concernant la catégorie suivie « $1 »",
+	"categorywatch-catmovein": "a inclu la page $1 dans la catégorie $2 en la retirant de $3",
+	"categorywatch-catmoveout": "a retiré la page $1 de la catégorie $2 en l’incluant dans $3",
+	"categorywatch-catadd": "a inclu la page $1 dans la catégorie $2",
+	"categorywatch-catsub": "a retiré la page $1 de la catégorie $2",
+	"categorywatch-autocat": "Suivie automatiquement par $1",
+	"categorywatch-notification-link": "Catégorie : [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] ajouté à [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] ajouté à [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] a ajouté [[:$3|$3]] à [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] supprimé de [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] supprimé de [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] a supprimé [[:$3|$3]] de [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 modifications de catégorisation sur {{SITENAME}}",
+	"categorywatch-add-title": "Titre ajouté aux catégories suivies",
+	"categorywatch-remove-title": "Titre supprimé des catégories suivies",
+	"categorywatch-page-watch-pref": "Ajouter toutes les pages d’une catégorie à votre liste de suivi, quand vous ajoutez une catégorie",
+	"echo-category-title-categorywatch": "Catégorie suivie",
+	"echo-pref-tooltip-categorywatch": "Me notifier quand quelqu'un catégorise ou sort une page des catégories que je suis."
+}

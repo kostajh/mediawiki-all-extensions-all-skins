@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Siebrand",
+			"Tvdm",
+			"Xbaked potatox"
+		]
+	},
+	"form-desc": "Een [[Special:Form|formulierinterface]] om nieuwe pagina's te starten",
+	"form": "Een nieuwe pagina starten",
+	"form-captcha-error": "CAPTCHA-fout",
+	"form-no-name": "Geen formuliernaam",
+	"form-no-name-text": "Geef een formuliernaam op, bijvoorbeeld \"Special:Form/Formuliernaam\".",
+	"form-bad-name": "Ongeldige formuliernaam",
+	"form-bad-name-text": "Er bestaat geen formulier met die naam.",
+	"form-pattern": "$1-formulier",
+	"form-save": "Opslaan",
+	"form-index-mismatch-title": "Naampatroon- en sjabloonmismatch",
+	"form-index-mismatch": "Dit formulier heeft ongekoppelde naampatronen en sjablonen vanaf index $1.",
+	"form-article-exists": "Pagina bestaat al",
+	"form-article-existstext": "De pagina [[$1]] bestaat al.",
+	"form-bad-page-name": "Onjuiste paginanaam",
+	"form-bad-page-name-text": "De formuliergegevens die u hebt opgegeven zorgen voor een onjuiste pagina, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|Het veld $1 is|De velden $1 zijn}} benodigd voor dit formulier.\nVul {{PLURAL:$2|dit|deze}} alstublieft in.",
+	"form-save-summary": "Nieuwe pagina via [[Special:Form/$1|formulier $1]]",
+	"form-save-error": "Fout bij opslaan formulier",
+	"form-save-error-text": "Er is een onbekende fout opgetreden bij het opslaan van pagina '$1'."
+}

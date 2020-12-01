@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"uploadslink-desc": "개인 도구 메뉴에 현재 사용자의 업로드 목록의 링크를 추가하고 사이드바 도구 메뉴에는 관련된 사용자의 업로드 목록의 링크를 추가합니다",
+	"uploadslink-portlet-label": "업로드",
+	"tooltip-pt-uploads": "사용자가 올린 파일 목록",
+	"uploadslink-toobox-label": "{{GENDER:$1|사용자}} 업로드",
+	"tooltip-tb-uploads": "이 {{GENDER:$1|사용자}}가 올린 파일 목록"
+}

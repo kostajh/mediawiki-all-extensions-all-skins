@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Djiboun",
+			"Gomoko",
+			"Grondin",
+			"IAlex",
+			"Lepticed",
+			"Meithal",
+			"Peter17",
+			"PieRRoMaN",
+			"Thibaut120094",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"globalusage": "Usage global du fichier",
+	"globalusage-for": "Usage global pour « $1 »",
+	"globalusage-filename": "Nom de fichier :",
+	"globalusage-desc": "[[Special:GlobalUsage|Page spéciale]] pour voir l’usage global d’une image",
+	"globalusage-ok": "Rechercher",
+	"globalusage-text": "Rechercher l’usage global du fichier",
+	"globalusage-no-results": "[[:$1]] n’est pas utilisé sur d’autres wikis.",
+	"globalusage-on-wiki": "Utilisation sur $2",
+	"globalusage-of-file": "Les autres wikis suivants utilisent ce fichier :",
+	"globalusage-more": "Voir [[{{#Special:GlobalUsage}}/$1|davantage sur l’utilisation globale]] de ce fichier.",
+	"globalusage-filterlocal": "Ne pas montrer l’utilisation locale",
+	"mostgloballylinkedfiles": "Fichiers les plus globalement liés",
+	"mostgloballylinkedfiles-summary": "Liste des fichiers qui ont été inclus le plus grand nombre de fois dans tous les wikis. Pour la liste équivalente ne prenant en compte que les utilisations sur {{SITENAME}}, voyez [[{{#special:MostLinkedFiles}}]].",
+	"globallywantedfiles": "Fichiers globalement demandés",
+	"globallywantedfiles-summary": "Liste des fichiers qui ont été inclus le plus grand nombre de fois dans tous les wikis, bien que n’existant pas. Pour la liste équivalente ne prenant en compte que les utilisations sur {{SITENAME}}, voyez [[{{#special:WantedFiles}}]]. Les utilisations de fichier pour les wikis sensibles à la casse de la première lettre peuvent être signalés à tort comme attendus.",
+	"globallywantedfiles-foreign-repo": "<strong>Attention :</strong> Ce wiki utilise un dépôt de fichiers externe. Les fichiers du dépôt externe qui sont utilisés s’afficheront dans cette liste comme des liens bleus bloqués, bien qu’ils existent.",
+	"globalusage-header": "Cette page indique où un fichier est utilisé sur d'autres wikis. Vous pouvez également trouver cette information au bas de la page de description du fichier.",
+	"globallyunusedfiles": "Fichiers globalement non utilisés",
+	"globallyunusedfilestext": "Les fichiers suivants existent mais ne sont inclus dans aucune page sur aucun wiki.",
+	"globallyunusedfiles-error-nonsharedrepo": "Ce wiki n’est pas sur le dépôt partagé"
+}

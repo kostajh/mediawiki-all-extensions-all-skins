@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Smeira"
+		]
+	},
+	"form-desc": "[[Special:Form|Fomet]] ad primön padis nulik",
+	"form": "Fomet",
+	"form-no-name": "Fometanem nonik",
+	"form-no-name-text": "Mutol penön fometanemi, a.s. „Special:Form/Fometanem“.",
+	"form-bad-name": "Fometanem no lonöföl",
+	"form-bad-name-text": "No dabinon fomet labü nem at.",
+	"form-pattern": "fomet-$1",
+	"form-save": "Dakipön",
+	"form-article-exists": "Pad dabinon",
+	"form-article-existstext": "Pad at: [[$1]] ya dabinon.",
+	"form-bad-page-name": "Padanem no lonöföl",
+	"form-bad-page-name-text": "Fometanünods fa ol pepenöls jafons padanemi no lonöföl: „$1“.",
+	"form-required-field-error": "Fel: $1 paflagon in fomet at.\nFulükolös oni.",
+	"form-save-summary": "Pad nulik me [[Special:Form/$1|fomet: $1]]",
+	"form-save-error": "Pöl pö dakip fometa",
+	"form-save-error-text": "Pöl nesevädik ejenon dü dakip pada: „$1“."
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"vikisemantictitle-desc": "VIKI-programtillegg for å håndtere wikisider med Semantic Title-utvidelsen",
+	"vikisemantictitle-error-displaytitle-fetch": "Feil under henting av visningstitteldata for node: $1."
+}

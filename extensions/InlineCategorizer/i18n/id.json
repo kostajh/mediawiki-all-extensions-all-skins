@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Farras",
+			"Irwangatot"
+		]
+	},
+	"inlinecategorizer-add-category": "Tambah kategori",
+	"inlinecategorizer-add-category-submit": "Tambah",
+	"inlinecategorizer-add-category-summary": "Tambah kategori \"$1\"",
+	"inlinecategorizer-api-error": "API mengembalikan kesalahan : $1: $2.",
+	"inlinecategorizer-api-unknown-error": "API mengembalikan kesalahan tak dikenal.",
+	"inlinecategorizer-cancel": "Batalkan suntingan",
+	"inlinecategorizer-cancel-all": "Batalkan semua perubahan",
+	"inlinecategorizer-category-already-present": "Halaman ini sudah masuk dalam kategori \"$1\"",
+	"inlinecategorizer-category-hook-error": "Fungsi setempat mencegah perubahan disimpan.",
+	"inlinecategorizer-category-question": "Sebab Anda melakukan perubahan berikut:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Simpan",
+	"inlinecategorizer-confirm-save-all": "Simpan semua perubahan",
+	"inlinecategorizer-confirm-title": "Konfirmasi aksi",
+	"inlinecategorizer-edit-category": "Sunting kategori",
+	"inlinecategorizer-edit-category-error": "Tidak mungkin menyunting kategori \"$1\".\nIni biasanya terjadi ketika kategori ditambahkan ke halaman melalui templat.",
+	"inlinecategorizer-edit-category-summary": "Ubah kategori \"$1\" menjadi \"$2\"",
+	"inlinecategorizer-error-title": "Kesalahan",
+	"inlinecategorizer-remove-category": "Hapus kategori",
+	"inlinecategorizer-remove-category-error": "Tidak mungkin menghapus kategori \"$1\".\nIni biasanya terjadi ketika kategori ditambahkan ke halaman melalui templat.",
+	"inlinecategorizer-remove-category-summary": "Hapus kategori \"$1\""
+}

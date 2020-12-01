@@ -1,0 +1,49 @@
+{
+	"name": "ForcePreview",
+	"version": "2.0.0",
+	"author": [
+		"Ryan Schmidt"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ForcePreview",
+	"descriptionmsg": "forcepreview-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.27.0"
+	},
+	"MessagesDirs": {
+		"ForcePreview": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"EditPageBeforeEditButtons": "ForcePreview::onEditPageBeforeEditButtons",
+		"BeforePageDisplay": "ForcePreview::onBeforePageDisplay",
+		"ResourceLoaderGetConfigVars": "ForcePreview::onResourceLoaderGetConfigVars"
+	},
+	"AutoloadClasses": {
+		"ForcePreview": "ForcePreview.php"
+	},
+	"AvailableRights": [
+		"forcepreviewexempt"
+	],
+	"ResourceModules": {
+		"ext.ForcePreview.livePreview": {
+			"scripts": "ext.ForcePreview.livePreview.js",
+			"messages": [
+				"publishpage",
+				"publishchanges",
+				"savearticle",
+				"savechanges"
+			],
+			"dependencies": [
+				"oojs-ui-core"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "ForcePreview/modules"
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,875 @@
+@import 'fonts.less';
+@import 'mixins.less';
+
+.splash-standard #mw-navigation h2,
+#p-search h3,
+#p-namespaces h3,
+#p-views h3,
+.mw-jump-link {
+	.hidden();
+}
+
+/* GENERAL PAGE SETUP */
+
+body {
+	// Specific colour to match footer image
+	background: #c5c5c5;
+	color: @grey0;
+	font-family: @fonts-main;
+	// Override browser settings to ensure things line up... sorry, not sorry
+	font-size: 16px;
+
+	// Possible class applied via js to low-res windows devices
+	&.windows-fonts {
+		font-family: @fonts-main-windows;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: @blue;
+
+	&:hover,
+	&:visited {
+		color: @blue-dark;
+	}
+
+	&.new,
+	.new & {
+		color: @red-bright;
+
+		&:hover,
+		&:visited {
+			color: @red;
+		}
+	}
+}
+
+.mw-parser-output a.extiw,
+.mw-parser-output a.extiw:active,
+.mw-parser-output a.external {
+	color: @purple;
+
+	&:hover,
+	&:visited {
+		color: @purple-dark;
+	}
+}
+
+a.mw-selflink {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: inherit;
+}
+
+ul {
+	.list-style-image( 'images/blut-ltr.svg' );
+}
+
+#mw-wrapper {
+	background: url( images/splash-top-ltr.gif ) no-repeat 50% 0;
+	// Specific colour to match background images
+	background-color: #dbdbdb;
+}
+
+#container-bottom {
+	background: url( images/splash-bottom.gif ) repeat-x 50% 100%;
+}
+
+#container-content {
+	position: relative;
+	.box-sizing( border-box );
+	word-wrap: break-word;
+}
+
+.splash-overlay #container-content-overlay:before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 27px;
+	left: -349px;
+	z-index: 0;
+	height: 602px;
+	width: 749px;
+	background-image: url( images/daji-stupid-ltr.svg );
+}
+
+#container-content-overlay:after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -125px;
+	z-index: 0;
+	background: url( images/splash-top-over-ltr.png );
+	background-position: left top;
+	height: 187px;
+	width: 800px;
+}
+
+#header,
+#footer,
+#page-tools {
+	line-height: 1.125;
+}
+
+.mw-portlet.emptyPortlet,
+#page-tools-dropdowns .mw-portlet.emptyPortlet {
+	display: none;
+}
+
+// loluls
+#page-tools-dropdowns #p-lang.emptyPortlet {
+	display: inherit;
+}
+
+/* HEADER */
+
+#header {
+	// We have to force a pixel-value height so we can line up the images...
+	height: @header-height;
+	position: relative;
+	z-index: 10;
+	white-space: nowrap;
+
+	#p-banner {
+		display: inline-block;
+		padding: 0.3em 0 0.1em 0.5em;
+		text-shadow: 0 -0.5px 0 @grey6, 0 -1px 0 @grey6, // Avoid visible gaps on HiDPI
+			0 1px 0 @grey0,
+			0 3px 3px @grey0;
+		color: @grey3;
+	}
+}
+
+.splash-standard {
+	#p-global-links .mw-portlet-body h3,
+	#p-personal .mw-portlet-body h3 {
+		display: none;
+	}
+}
+
+.mw-wiki-title {
+	font-family: @fonts-banner;
+	font-size: 250%;
+}
+
+#p-search input {
+	padding: 0.35em 1em 0.25em;
+	border: none;
+}
+
+#searchInput {
+	.box-sizing( border-box );
+	background: @grey4;
+	.box-shadow( 0 2px 7px -3px @grey0 inset );
+	margin: 0;
+	border-radius: 0;
+}
+
+.splash-standard #searchGoButton {
+	color: @grey1;
+	border-radius: 3px;
+	margin: 0 0 0 0.5em;
+	.box-shadow( 0 1px 2px rgba( 64, 64, 64, 0.1 ) );
+	text-shadow: 0 1px 0 @grey6;
+	.vertical-gradient( @grey6, @grey3 );
+
+	&:active {
+		.vertical-gradient( @grey6, @grey5 );
+	}
+
+	&:active,
+	&:hover {
+		color: @grey0;
+	}
+}
+
+.suggestions {
+	.box-shadow( 0px 4px 7px rgba( 0, 0, 0, 0.25 ) );
+
+	.suggestions-results,
+	.suggestions-special {
+		background-color: rgba( 255, 255, 255, 0.85 );
+		border: 0;
+	}
+
+	.suggestions-special,
+	.suggestions-result {
+		padding: 0.25em 1em;
+		border: 0;
+
+		&:hover {
+			background-color: rgba( 70, 40, 120, 0.85 );
+		}
+	}
+
+	.suggestions-special {
+		padding: 0.65em 1em;
+		border-top: solid 1px @grey3;
+	}
+
+	.suggestions-result-current {
+		background-color: rgba( 70, 40, 120, 0.9 );
+	}
+}
+
+/* FOOTER */
+
+.mw-footer {
+	color: @grey6;
+	font-size: @text-resize;
+	padding: 0 0 1em;
+	text-shadow: 0 0.5px 0 rgba( 0, 0, 0, 0.35 ), 0 1px 0 rgba( 0, 0, 0, 0.35 ), // Avoid visible gaps on HiDPI
+		0 1px 1px rgba( 0, 0, 0, 0.25 ),
+		0 -0.5px 1px rgba( 0, 0, 0, 0.45 ),
+		0 2px 2px rgba( 0, 0, 0, 0.35 );
+
+	div {
+		margin-bottom: 0.25em;
+	}
+
+	a {
+		color: lighten( @blue, 50% );
+
+		&:hover {
+			color: @grey6;
+		}
+	}
+
+	ul {
+		padding: 0;
+	}
+
+	li {
+		list-style: none;
+	}
+}
+
+#footer-places li {
+	display: inline;
+	margin: 0.75em;
+	font-variant: small-caps;
+}
+
+.footer-icons {
+	float: right;
+	margin: 0 0 0.75em 1em;
+	opacity: 0.85;
+
+	img {
+		.box-shadow( 0 1px 3px rgba( 0, 0, 0, 0.3 ) );
+		border-radius: 3px;
+	}
+}
+
+#footer-info li {
+	margin: 0.25em 0;
+}
+
+/* CONTENT */
+
+#content-container {
+	background-image: url( images/splash-corner-ltr.png );
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-color: @grey6;
+}
+
+.splash-overlay #content-container-upper {
+	background-image: url( images/daji-stupid-overlay-ltr.svg );
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.splash-standard {
+	#page-tools {
+		div:empty {
+			display: none;
+		}
+	}
+
+	.page-tools-inline {
+		li {
+			list-style: none;
+			margin-left: 0.75em;
+
+			&.selected a {
+				color: @grey0;
+			}
+		}
+
+		ul {
+			padding: 0;
+			margin: 0;
+		}
+	}
+
+	.mw-indicators,
+	.mw-indicator,
+	#page-tools-dropdowns,
+	#page-tools-dropdowns .mw-portlet,
+	#page-tools-right,
+	.page-tools-inline,
+	.page-tools-inline ul,
+	.page-tools-inline li {
+		display: inline-block;
+	}
+
+	.mw-indicators,
+	#page-tools-dropdowns h3,
+	.page-tools-inline {
+		font-variant: small-caps;
+		text-shadow: 0 -1px 0 #fff, 0 1px 2px #aaa;
+	}
+
+	#page-tools-dropdowns {
+		.mw-portlet {
+			padding-left: 0.5em;
+
+			&:before {
+				content: '';
+				display: inline-block;
+				width: 16px;
+				height: 14px;
+				background-image: url( images/arrow-down-red.svg );
+				background-position: left top;
+				opacity: 0.9;
+			}
+
+			> h3 {
+				.dropdown-header();
+				.icon( 'images/page-misc' );
+				.icon-only();
+				font-size: 100%;
+				color: @red-dark;
+				margin: 0;
+			}
+		}
+
+		#p-lang > h3 {
+			.icon( 'images/languages' );
+		}
+
+		.emptyPortlet {
+			&:before {
+				display: none;
+			}
+
+			h3:hover {
+				cursor: unset;
+			}
+		}
+	}
+
+	.mw-indicator {
+		margin-left: 1em;
+		opacity: 0.9;
+	}
+
+	#ca-view {
+		.hidden();
+	}
+
+	#ca-watch a {
+		.icon( 'images/star' );
+		.icon-only();
+	}
+
+	#ca-unwatch a {
+		.icon( 'images/star-filled' );
+		.icon-only();
+	}
+}
+
+#content-inner {
+	min-height: 375px;
+}
+
+.splash-overlay .mw-content-blob {
+	background-image: url( images/daji-corner.svg );
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.mw-content-blob {
+	position: relative;
+	z-index: 1;
+}
+
+.mw-body {
+	position: relative;
+	word-wrap: break-word;
+	line-height: 1.35;
+	margin: 0 auto 1em;
+	padding: 1em 1.75em 1.5em;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	dt {
+		margin: 1.5em 0 0.5em;
+		font-weight: normal;
+		font-variant: small-caps;
+		text-shadow: 0 -1px 0 @grey6, 0 1px 1px @grey2;
+		color: @red-dark;
+		font-family: @fonts-main;
+		line-height: 1;
+	}
+
+	h1,
+	h2 {
+		.line();
+		padding: 0 0 0.125em;
+	}
+
+	dt {
+		line-height: 1.125;
+		margin: 1.5em 0 0.5em;
+		margin-bottom: 0.1em;
+	}
+
+	dl {
+		margin: 0.2em 0 0.5em;
+	}
+
+	form dt {
+		margin: 0 0.5em 0 0;
+	}
+
+	.firstHeading h1 {
+		margin: 0.5em 0 0.75em;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.8em;
+	}
+
+	h3 {
+		font-size: 1.6em;
+	}
+
+	h4 {
+		font-size: 1.4em;
+	}
+
+	h5 {
+		font-size: 1.2em;
+	}
+
+	h6 {
+		font-size: 1em;
+	}
+
+	dt {
+		margin-top: 1em;
+	}
+
+	dd {
+		margin-bottom: 1em;
+	}
+
+	.mw-changeslist-legend dt {
+		margin: 0 0.5em 0 0;
+	}
+
+	.mw-changeslist-legend dd {
+		margin-bottom: 0;
+	}
+
+	/* overflow:hidden on the header itself breaks tall scripts, but we need to hide
+	* overflow on the border itself in output for proper thumb handling. Too weird to
+	* change this everywhere, so we'll just do it for parser output for now.
+	*/
+	.mw-parser-output {
+		margin-bottom: 2em;
+
+		h1,
+		h2 {
+			background-image: unset;
+			padding-bottom: 0;
+
+			&:after {
+				content: '';
+				display: block;
+				height: 0.125em;
+				.line();
+				overflow: hidden;
+			}
+		}
+	}
+
+	hr {
+		.line();
+		border: none;
+		height: 1px;
+		padding: 0;
+		margin: 0.5em 0;
+	}
+
+	.mw_metadata,
+	.mw-datatable,
+	.wikitable {
+		border-color: @grey5;
+		background-color: rgba( 255, 255, 255, 0.65 );
+		.box-shadow( 0 1px 5px 1px rgba( 0, 0, 0, 0.15 ) );
+		margin: 0.5em 0 1em;
+
+		> tr > th,
+		> tr > td,
+		> * > tr > th,
+		> * > tr > td {
+			border: 1px solid @grey5;
+			padding: 0.4em 0.5em;
+		}
+
+		th,
+		caption {
+			font-variant: small-caps;
+		}
+	}
+
+	.mw_metadata th,
+	.mw-datatable th,
+	.wikitable th {
+		background-color: lighten( @grey5, 2.5% );
+	}
+}
+
+div.mw-content-ltr {
+	ol,
+	ul {
+		/* @noflip */
+		margin: 0.25em 0 0.25em 2em;
+	}
+}
+
+div.mw-content-rtl {
+	ol,
+	ul {
+		/* @noflip */
+		margin: 0.25em 3em 0.25em 0;
+	}
+}
+
+.mw-content-ltr,
+.mw-content-rtl,
+#content-footer {
+	li {
+		margin: 0.35em 0;
+	}
+}
+
+#siteSub {
+	display: none;
+	margin: -0.75em 0 1.5em;
+	color: @grey1;
+	font-style: italic;
+}
+
+#contentSub {
+	margin: -0.85em 0 1em;
+	color: @grey1;
+	font-style: italic;
+
+	// Subpages!
+	.subpages {
+		color: transparent;
+		display: inline-block;
+		.icon( 'images/arrow-large-rtl' );
+		margin: 0 1em 0.5em 0;
+		padding-left: 0.5em;
+		top: 0;
+
+		a {
+			display: inline-block;
+			padding-left: 1.25em;
+			.icon( 'images/arrow-rtl' );
+			background-position: left 60%;
+			margin-left: -0.75em;
+			top: 0;
+
+			&:first-child {
+				background-image: unset;
+				padding: 0;
+				margin: 0;
+			}
+		}
+
+		&:empty {
+			display: none;
+		}
+	}
+
+	p:empty {
+		display: none;
+	}
+}
+
+.center,
+.center * {
+	margin: auto;
+	text-align: center;
+}
+
+.mw-empty-elt {
+	display: none;
+}
+
+div.magnify a {
+	display: block;
+	text-indent: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 20px;
+	height: 20px;
+	margin: 0 0 0.5em 0.5em;
+	background-image: url( images/magnify-ltr.svg );
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: @fonts-mono;
+}
+
+pre {
+	overflow: auto;
+	white-space: pre-wrap;
+}
+
+.messagebox,
+.errorbox,
+.warningbox,
+.successbox {
+	.box();
+}
+
+.toc {
+	.box();
+	margin-top: 1em;
+	margin-bottom: 1em;
+	min-width: 15em;
+	line-height: 1.125;
+	padding: 1em;
+
+	li {
+		margin: 0.3em 0;
+		list-style: none;
+
+		&:last-child {
+			margin-bottom: 0.5em;
+		}
+	}
+
+	a {
+		font-size: @text-resize;
+	}
+}
+
+div.toc ul {
+	// Reset from our generic content list margins
+	margin-left: 0;
+}
+
+.toctitle {
+	margin-bottom: 0.75em;
+}
+
+.toctogglespan {
+	float: right;
+}
+
+.toctogglelabel {
+	color: @blue;
+	font-variant: small-caps;
+	font-weight: normal;
+
+	&:hover {
+		color: lighten( @blue-dark, 10% );
+		text-decoration: none;
+	}
+}
+
+// Hide brackets on toctoggle
+:not(:checked) > .toctogglespan::after,
+:not(:checked) > .toctogglespan::before {
+	content: '';
+}
+
+.mw-changeslist-legend,
+.mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend {
+	.box();
+	border: 0;
+	padding: 1em 1.5em;
+
+	// No other element for title ...
+	strong {
+		font-weight: normal;
+		font-variant: small-caps;
+		text-shadow: 0 -1px 0 @grey6, 0 1px 1px @grey2;
+		color: @red-dark;
+		font-size: 115%;
+	}
+
+	.mw-collapsible-content {
+		margin-top: 0.75em;
+	}
+}
+
+.mw-collapsible-toggle {
+	font-variant: small-caps;
+}
+
+.oo-ui-menuSelectWidget {
+	// How about we don't randomly override this inline and break things?
+	// See: recent changes filters
+	z-index: 4 !important;
+}
+
+.mw-editsection-divider,
+.mw-editsection-bracket {
+	display: none;
+}
+
+.mw-editsection a {
+	margin-right: 1em;
+	font-size: 125%;
+
+	.windows-fonts & {
+		font-family: @fonts-main-windows;
+	}
+}
+
+.mw-body .toctitle {
+	.line();
+
+	h2 {
+		font-size: 1em;
+		margin: 0;
+		display: inline;
+
+		&:after {
+			display: none;
+		}
+	}
+}
+
+#siteNotice {
+	margin: 0.5em auto 1.25em;
+}
+
+#localNotice {
+	.box();
+	padding: 0.5em 1em;
+	text-align: center;
+	font-variant: small-caps;
+
+	p {
+		margin: 0.5em 1em;
+	}
+}
+
+.catlinks {
+	.box();
+	padding: 0.5em 1.5em;
+	font-variant: small-caps;
+
+	div > a {
+		color: @red-dark;
+
+		&:hover {
+			color: @grey0;
+		}
+	}
+
+	ul li {
+		border-left: 0;
+	}
+}
+
+/* Thumbnails */
+/* @noflip */
+.floatright,
+.tright {
+	margin: 0 0 0.5em 0.5em;
+	padding: 0 0 1em 1.5em;
+}
+
+/* @noflip */
+.floatleft,
+.tleft {
+	margin: 0 0.5em 0.5em 0;
+	padding: 0 1.5em 1em 0;
+}
+
+.thumbinner {
+	.box;
+	.box-sizing( content-box );
+	padding: 0.75em;
+	/* Properly center framed thumbnail images (T219717) */
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.thumbcaption {
+	font-size: @text-resize;
+	line-height: 1.125;
+	color: @grey1;
+	padding: 0.5em 0 0;
+	/* For the magnify link on empty captions */
+	min-height: 1em;
+}
+
+.thumbinner .thumbimage,
+.thumbborder {
+	border: solid 1px @grey3;
+}
+
+#content li.gallerybox div.thumb {
+	.box;
+	padding: 0;
+	margin: 0;
+}
+
+li.gallerybox {
+	margin-bottom: 1.5em;
+}
+
+ul.gallery {
+	margin: 1em auto;
+	padding: 0;
+	text-align: center;
+}
+
+div.gallerytext {
+	text-align: left;
+	font-size: @text-resize;
+}
+
+// Keep images from overflowing
+.mw-body a > img,
+.mw-body .floatnone > img {
+	height: auto !important;
+	max-width: 100% !important;
+}
+
+#content-footer {
+	color: @grey1;
+	margin: 1em auto -1.5em;
+	line-height: 1.125;
+	font-size: @text-resize;
+
+	p {
+		margin: 0.85em 0 0.75em;
+	}
+}

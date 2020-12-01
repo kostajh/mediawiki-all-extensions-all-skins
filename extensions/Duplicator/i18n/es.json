@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benfutbol10",
+			"Crazymadlover",
+			"Fitoschido",
+			"Imre",
+			"Macofe",
+			"Sanbec"
+		]
+	},
+	"duplicator": "Duplicar una página",
+	"duplicator-desc": "Crear [[Special:Duplicate|copias independientes de página]] con historiales completos de ediciones",
+	"duplicator-toolbox": "Duplicar esta página",
+	"duplicator-header": "Esta página permite el duplicado completo de una página, creando copias independientes de todos los historiales.\nEsto es útil para la bifurcación de páginas, etc.",
+	"duplicator-options": "Opciones",
+	"duplicator-source": "Origen:",
+	"duplicator-dest": "Destino:",
+	"duplicator-dotalk": "Duplicar página de discusión (si es aplicable)",
+	"duplicator-dosubpages": "Duplicar subpáginas (si las hay)",
+	"duplicator-dohistory": "Duplicar historial de página completo",
+	"duplicator-submit": "Duplicar",
+	"duplicator-summary": "Copiado de [[$1]], revisión [[$2]]",
+	"duplicator-success": "[[$1]] fue copiado a [[$2]].",
+	"duplicator-success-revisions": "Se {{PLURAL:$1|copió $1 revisión|copiaron $1 revisiones}}.",
+	"duplicator-success-talknotcopied": "La página de discusión no pudo copiarse.",
+	"duplicator-failed": "La página no se pudo duplicar.\nOcurrió un error desconocido.",
+	"duplicator-failed-toolong": "[[$1]] no fue duplicado. El título de destino es demasiado largo.",
+	"duplicator-failed-dest-exists": "[[$1]] no fue duplicado. El destino [[$2]] ya existe.",
+	"duplicator-source-invalid": "Proporciona un título de origen válido.",
+	"duplicator-source-notexist": "[[$1]] no existe. Proporciona el título de una página que exista.",
+	"duplicator-dest-invalid": "Proporciona un título de destino válido.",
+	"duplicator-dest-exists": "[[$1]] ya existe. Proporciona un título de destino que no exista.",
+	"right-duplicate": "Duplicar páginas"
+}

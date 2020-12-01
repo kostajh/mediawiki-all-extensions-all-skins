@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cindy Cicalese"
+		]
+	},
+	"safedelete": "Safe Delete",
+	"safedelete-desc": "Delete page only if there are no pages in the specified namespaces linking to it",
+	"safedelete-title": "Delete \"$1\"",
+	"safedelete-missingpagename": "Page name is missing.",
+	"safedelete-missingnamespaces": "List of Special Delete namespaces is not set.",
+	"safedelete-cannotdelete": "Page \"$1\" cannot be deleted since there are links or redirects to it from the following {{PLURAL:$2|page|pages}}:"
+}

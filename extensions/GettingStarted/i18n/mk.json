@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Matma Rex"
+		]
+	},
+	"gettingstarted": "Како да почнете",
+	"gettingstarted-desc": "Помогнете им на новодојдените да станат уредници",
+	"gettingstarted-task-toolbar-editing-help-text": "Покажи ми како",
+	"gettingstarted-task-toolbar-editing-help-title": "Прикажи водич за уредување",
+	"gettingstarted-task-toolbar-try-another-text": "Пробајте друга страница ►",
+	"gettingstarted-task-toolbar-close-title": "Затвори го алатников",
+	"gettingstarted-task-toolbar-no-suggested-page": "За жал, не можев да најдам уште страници за подобрување. Обидете се малку подоцна или пребарајте теми што ве интересираат.",
+	"gettingstarted-task-copyedit-toolbar-description": "Страницата може да има правописни или граматички грешки што можете да ги поправите.",
+	"gettingstarted-task-copyedit-toolbar-try-another-title": "Оди на случајна страница што бара коректура",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-title": "Да почнеме",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-description": "Другите корисници на {{SITENAME}} дека на страницава ѝ требаат подобрувања. Не мора да сте стручни на таа тема за да помогнете.",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-title": "Идеи - што да правите",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-description": "Овие разгласи ги посочуваат проблемите во страницава. Не мора да ги решите сите — едноставно стиснете на она што не ви делува тешко.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-title": "Уреди ја целата страница...",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-description": "Стиснете на „$1“ за да измените содржина некаде во страницата.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-title": "Или пак уредете во некој поднаслов",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-description": "Ако сакате да уредите даден поднаслов, стиснете на врската „{{int:editsection}}“ до него.",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-title": "Направете ги промените и зачувајте",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-description": "Сега можете да ја уредите содржината на страницата. Кога ќе завршите, стиснете на „{{int:publishchanges}}“ за да ги прегледате и зачувате промените.",
+	"guidedtour-tour-gettingstarted-click-preview-title": "Преглед (незадолжително)",
+	"guidedtour-tour-gettingstarted-click-preview-description": "Ако стиснете на „{{int:showpreview}}“ ќе видите како ќе изгледа страницата со вашите измени. Само не заборавајте да ги зачувате.",
+	"guidedtour-tour-gettingstarted-click-save-title": "Речиси сте готови!",
+	"guidedtour-tour-gettingstarted-click-save-description": "Стиснете на „{{int:publishchanges}}“ и измените ќе бидат видливи.",
+	"gettingstarted-cta-close": "Затвори",
+	"gettingstarted-cta-heading": "Помогнете ни во подобрувањето на {{SITENAME}}",
+	"gettingstarted-cta-text": "Можете да придонесувате на {{SITENAME}} на различни начини",
+	"gettingstarted-cta-edit-page": "Уредете ја страницава",
+	"gettingstarted-cta-edit-page-sub": "Ќе ви покажеме како",
+	"gettingstarted-cta-fix-pages": "Уредете предложена страница",
+	"gettingstarted-cta-fix-pages-sub": "Ќе одбереме нешто лесно",
+	"gettingstarted-cta-leave": "Не благодарам. Можеби подоцна."
+}

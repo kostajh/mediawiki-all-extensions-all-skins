@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nirajan pant",
+			"बिप्लब आनन्द"
+		]
+	},
+	"bs-notifications-email-addaccount-subject": "प्रयोगकर्ता $2 {{GENDER:$1|सृजना गरियो}}",
+	"bs-notifications-edit": "यो पृष्ठ [[:$1]] परिवर्तन गरियो",
+	"bs-notifications-create": "पृष्ठ \"$1\" निर्माण गरियो",
+	"bs-notifications-delete": "यो पृष्ठ [[:$1]] मेटियो",
+	"bs-notifications-move": "यो पृष्ठ [[:$1]] सारियो",
+	"bs-notifications-edit-difflink-label": "भिन्नता हेर्नुहोस्",
+	"bs-notifications-mail-additional-links-label": "थप लिङ्कहरू"
+}

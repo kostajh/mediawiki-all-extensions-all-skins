@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaustubh"
+		]
+	},
+	"duplicator": "पन्ने की कापी बनायें",
+	"duplicator-desc": "पूरे अवतरण इतिहास के साथ अलग अलग कापीयाँ बनायें",
+	"duplicator-toolbox": "इस पन्ने को कापी करें",
+	"duplicator-options": "विकल्प",
+	"duplicator-source": "स्रोत:",
+	"duplicator-dest": "लक्ष्य:",
+	"duplicator-dotalk": "वार्ता पॄष्ठ की कापी करें (अगर जरूरी हैं तो)",
+	"duplicator-submit": "कापी",
+	"duplicator-summary": "[[$1]] से कापी किया",
+	"duplicator-success": "[[$1]] की [[$2]] यह कापी बना दी गई हैं।",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|अवतरणकी|अवतरणोंकी}} कापी बनाई।",
+	"duplicator-success-talknotcopied": "वार्ता पृष्ठ की कापी नहीं बना सकें।",
+	"duplicator-failed": "इस पन्नेकी कापी नहीं कर पाये हैं।\nअज्ञात गलती पाई गई हैं।",
+	"duplicator-source-invalid": "कृपया स्रोत के लिये एक वैध शीर्षक दें।",
+	"duplicator-source-notexist": "[[$1]] अस्तित्वमें नहीं हैं। कृपया अस्तित्वमें होनेवाले पन्नेका शीर्षक दें।",
+	"duplicator-dest-invalid": "कृपया वैध लक्ष्य शीर्षक दें।",
+	"duplicator-dest-exists": "[[$1]] पहलेसे अस्तित्वमें हैं। कृपया अस्तित्वमें ना होनेवाला शीर्षक दें।"
+}

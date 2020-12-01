@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bencmq",
+			"Hydra",
+			"Yfdyh000"
+		]
+	},
+	"logentry-append": "追加",
+	"logentry-parserhook-desc": "此标签扩展提供一个表单以添加或追加内容到日志页面",
+	"logentry-specialpage-desc": "此标签扩展提供了添加内容到日志页面的程序步骤",
+	"logentry": "日志条目",
+	"logentry-invalidpage": "无效页面：$1",
+	"logentry-invalidtoken": "无效的标记"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Mar(c)"
+		]
+	},
+	"parsermigration-desc": "Parsermigratiehulpmiddel",
+	"parsermigration-edit-subtitle": "met parsermigratiehulpmiddel",
+	"parsermigration-current": "Oud",
+	"parsermigration-new": "Nieuw",
+	"parsermigration-pref-label": "Parsermigratiehulpmiddel inschakelen",
+	"parsermigration-pref-help": "Hiermee wordt een zijbalkkoppeling toegevoegd die toegang geeft tot een [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration hulpmiddel] voor het migreren van paginatekst naar nieuwe versies van de MediaWiki-parser.",
+	"parsermigration-toolbox-label": "Bewerken met migratiehulpmiddel"
+}

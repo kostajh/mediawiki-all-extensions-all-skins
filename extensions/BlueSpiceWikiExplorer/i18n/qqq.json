@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish",
+			"Patric Wirth",
+			"Umherirrender"
+		]
+	},
+	"bs-wikiexplorer-extension-description": "{{desc|name=BlueSpiceWikiExplorer}}",
+	"wikiexplorer": "{{doc-special}}\n{{optional}}",
+	"bs-wikiexplorer-page-title": "Short label for row in ExtJS manager that displays the page title.\n{{Identical|Title}}",
+	"bs-wikiexplorer-page-namespace": "Short label for row in ExtJS manager that displays the page namespace.\n{{Identical|Namespace}}",
+	"bs-wikiexplorer-creation-date": "Short label for row in ExtJS manager that displays the pages creation date.",
+	"bs-wikiexplorer-is-redirect": "Short label for row in ExtJS manager that displays if the page is a redirect.\n{{Identical|Is redirect}}",
+	"bs-wikiexplorer-last-comment": "Short label for row in ExtJS manager that displays the pages last edit comment.\n{{Identical|Last comment}}",
+	"bs-wikiexplorer-last-edit-time": "Short label for row in ExtJS manager that displays the pages last edit date.\n{{Identical|Last edit date}}",
+	"bs-wikiexplorer-page-size": "Short label for row in ExtJS manager that displays the page size.\n{{Identical|Size}}",
+	"bs-wikiexplorer-last-author": "Short label for row in ExtJS manager that displays the pages last editor.\n{{Identical|Last editor}}",
+	"bs-wikiexplorer-categories": "Short label for row in ExtJS manager that displays the page categories.\n{{Identical|Categories}}",
+	"bs-wikiexplorer-linked-files": "Short label for row in ExtJS manager that displays the pages linked files.\n{{Identical|Linked files}}",
+	"bs-wikiexplorer-linked-pages": "Short label for row in ExtJS manager that displays the pages that link to this page.",
+	"apihelp-bs-wikiexplorer-store-description": "{{doc-apihelp-description|bs-wikiexplorer-store}}\nDescription of the API endpoint that provides all data for the extension WikiExplorer",
+	"apihelp-bs-wikiexplorer-store-param-metaLoaded": "{{doc-apihelp-param|bs-wikiexplorer-store|metaLoaded}}\nDescription of the API parameter to indicate whether the MetaData has already been loaded.",
+	"apihelp-bs-wikiexplorer-store-summary": "{{doc-apihelp-summary|bs-wikiexplorer-store}}"
+}

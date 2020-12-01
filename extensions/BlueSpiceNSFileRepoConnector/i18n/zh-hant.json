@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xiplus"
+		]
+	},
+	"bs-nsfrc-desc": "將NSFileRepo整合到一系列的BlueSpice擴充功能中（需要NSFileRepo）",
+	"bs-nsfrc-namespacestore-label": "命名空間",
+	"bs-nsfrc-namespacecombo-emptytext": "選擇命名空間",
+	"bs-nsfrc-unprefixedfilename-label": "標題",
+	"bs-nsfrc-uploaddialog-selector-label": "目標命名空間",
+	"apihelp-bs-nsfrc-tasks-summary": "BlueSpiceNSFileRepoConnector擴充功能的API端點",
+	"apihelp-bs-nsfilerepo-connector-summary": "BlueSpiceNSFileRepoConnector擴充功能的API端點"
+}

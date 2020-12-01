@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ilimanaq29",
+			"Matěj Grabovský"
+		]
+	},
+	"categorywatch-desc": "Rozšiřuje možnosti seznamu sledovaných stránek na upozornění o změně členství sledovaných kategorií",
+	"categorywatch-emailsubject": "Aktivita týkající se sledování kategorie „$1”",
+	"categorywatch-catmovein": "přesunul $1 do kategorie $2 z $3",
+	"categorywatch-catmoveout": "přesunul $1 z kategorie $2 do $3",
+	"categorywatch-catadd": "přidal $1 do kategorie $2",
+	"categorywatch-catsub": "odstranil $1 z kategorie $2",
+	"categorywatch-autocat": "Automaticky sledováno uživatelem $1",
+	"categorywatch-notification-link": "Kategorie: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] přidáno do [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] přidáno do [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] přidal/a [[:$3|$3]] do [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] bylo odstraněno z [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] odstraněno z [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] odstranil [[:$3|$3]] z [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 mění kategorizaci na {{SITENAME}}",
+	"categorywatch-add-title": "Název přidán do sledované kategorie",
+	"categorywatch-remove-title": "Název odstraněn ze sledované kategorie",
+	"echo-category-title-categorywatch": "Sledování kategorií",
+	"echo-pref-tooltip-categorywatch": "Upozorněte mě, pokud někdo kategorizuje stránku do nebo ven z kategorie, kterou sleduji."
+}

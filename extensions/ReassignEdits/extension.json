@@ -1,0 +1,37 @@
+{
+	"name": "ReassignEdits",
+	"version": "0.3.0",
+	"author": [
+		"Tim Weyer"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ReassignEdits",
+	"descriptionmsg": "reassignedits-desc",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"AvailableRights": [
+		"reassignedits"
+	],
+	"GroupPermissions": {
+		"bureaucrat": {
+			"reassignedits": true
+		}
+	},
+	"SpecialPages": {
+		"ReassignEdits": "SpecialReassignEdits"
+	},
+	"MessagesDirs": {
+		"ReassignEdits": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ReassignEditsAliases": "ReassignEdits.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialReassignEdits": "includes/specials/SpecialReassignEdits.php",
+		"ReassignEditsSQL": "includes/ReassignEditsSQL.php"
+	},
+	"manifest_version": 2
+}

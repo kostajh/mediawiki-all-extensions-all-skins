@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eneelk",
+			"Gomoko"
+		]
+	},
+	"chessbrowser-desc": "Ajoute la balise pgn pour rendre la notation de jeu d’échec interactive.",
+	"chessbrowser-invalid-message": "Le PGN spécifié n’est pas valide",
+	"chessbrowser-invalid-category": "Pages avec des PGN spécifiés non valides",
+	"chessbrowser-invalid-category-desc": "Les balises PGN sur la page incluent un jeu non valide",
+	"chessbrowser-expand-button": "Développer",
+	"chessbrowser-game-detail": "Détails du jeu",
+	"chessbrowser-event-label": "Événement",
+	"chessbrowser-site-label": "Lieu",
+	"chessbrowser-date-label": "Date",
+	"chessbrowser-round-label": "Ronde",
+	"chessbrowser-white-label": "Blanc",
+	"chessbrowser-black-label": "Noir",
+	"chessbrowser-result-label": "Résultat",
+	"chessbrowser-beginning-of-game": "Aller au premier coup",
+	"chessbrowser-previous-move": "Coup précédent",
+	"chessbrowser-slow-autoplay": "Plus lent",
+	"chessbrowser-play-pause-button": "Jouer/Mettre en pause",
+	"chessbrowser-fast-autoplay": "Plus rapide",
+	"chessbrowser-next-move": "Coup suivant",
+	"chessbrowser-end-of-game": "Aller au dernier coup",
+	"chessbrowser-flip-board": "Faire pivoter l’échiquier",
+	"chessbrowser-no-javascript": "JavaScript n’est pas activé sur cette page. Pour voir le jeu de manière interactive, veuillez activer JavaScript."
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Harvest"
+		]
+	},
+	"bs-rating-extension-description": "Proporciona un sistema de valoraciones",
+	"bs-rating-types-page": "Valoración de página",
+	"bs-rating-types-pagelike": "Recomendación de página",
+	"rating": "Valoraciones",
+	"recommendations": "Recomendaciones",
+	"bs-rating-yourrating": "Tu valoración: $1",
+	"bs-rating-special-rating-heading": "Valoraciones",
+	"bs-rating-articlelike-ratingtext": "Recomendar ($1)",
+	"bs-rating-articlelike-uratingtextservoted": "Recomendado ($1)",
+	"bs-rating-special-recommendations-heading": "Recomendaciones",
+	"bs-rating-special-recommendations-label-recommendation": "Recomendaciones",
+	"bs-rating-specialrating-label-namespace": "Espacio de nombres",
+	"bs-rating-specialrating-titleTitle": "Título",
+	"bs-rating-specialrating-titleRating": "Valoración",
+	"bs-rating-specialrating-titleVotes": "Número de valoraciones",
+	"bs-rating-nsm-label-recommendations": "Recomendaciones"
+}

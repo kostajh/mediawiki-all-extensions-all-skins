@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Pitke"
+		]
+	},
+	"notification-bouncehandler": "{{GENDER:$1|Sähköpostiosoitteesi}} ei ole enää voimassa.",
+	"notification-link-text-change-email": "Vaihda sähköpostiosoitteesi"
+}

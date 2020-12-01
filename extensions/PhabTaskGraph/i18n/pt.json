@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu"
+		]
+	},
+	"phabtaskgraph": "Gráfico de tarefas Phabricator",
+	"phabtaskgraph-desc": "Apresenta as relações das tarefas Phabricator num grafo orientado",
+	"phabtaskgraph-author-field-label": "Autor",
+	"phabtaskgraph-owner-field-label": "Proprietário",
+	"phabtaskgraph-tasks-field-label": "Tarefas",
+	"phabtaskgraph-projects-field-label": "Projetos",
+	"phabtaskgraph-status-field-label": "Estado",
+	"phabtaskgraph-width-field-label": "Largura",
+	"phabtaskgraph-height-field-label": "Altura",
+	"phabtaskgraph-tasks-field-help": "lista de identificadores de tarefas separados por vírgulas (o \"T\" inicial é opcional); por exemplo, 'T123456, T654321'",
+	"phabtaskgraph-projects-field-help": "lista de nomes de projetos separados por vírgulas; por exemplo, 'MediaWiki-Platform-Team, Epic'",
+	"phabtaskgraph-width-field-help": "predefinido: 800",
+	"phabtaskgraph-height-field-help": "predefinido: 800",
+	"phabtaskgraph-status-open": "Aberta",
+	"phabtaskgraph-status-stalled": "Parada",
+	"phabtaskgraph-status-resolved": "Resolvida",
+	"phabtaskgraph-status-invalid": "Inválida",
+	"phabtaskgraph-status-declined": "Declinada",
+	"phabtaskgraph-status-duplicate": "Duplicada"
+}

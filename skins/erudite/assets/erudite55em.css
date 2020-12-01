@@ -1,0 +1,37 @@
+/* Replace menu with a menu button */
+#menubutton {
+	display: block;
+	position: absolute;
+	right: 0.5em;
+	top: 0.75em;
+	padding: 0.25em 0.5em;
+	background-color: #333333;
+	background-color: rgba(50, 50, 50, 0.7);
+	color: white;
+	font-family: 'Linux Biolinum', corbel, 'gill sans', 'gill sans mt', sans-serif;
+	font-size: large;
+	text-transform: uppercase;
+}
+
+/* Ensure header doesn't overlap with menu button */
+#top-wrap h1 {
+	margin-right: 2em;
+}
+
+/* Hide menu unless it's the target, and set its background-color
+ * solid to avoid unexpected banner image tiling */
+#menu {
+	display: none;
+}
+
+#menu:target {
+	display: block;
+	background-color: #333333;
+}
+
+/* Stack top menu items */
+#menu:target li {
+	float: none;
+	padding: 0em;
+	text-align: center;
+}

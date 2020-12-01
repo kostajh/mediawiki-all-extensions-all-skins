@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-socialtopics-desc": "Emne- og diskusjonsentiteter for BlueSpiceSocial",
+	"bs-socialtopics-pref-skipcreatedialog": "Hopp over dialog ved diskusjonsopprettelse",
+	"bs-socialtopics-toc-entalkpageautocreate": "Opprett alle diskusjonssider automatisk",
+	"bs-socialtopics-autocreated-discussionpage": "Denne diskusjonssiden ble opprettet automatisk.",
+	"bs-socialtopics-autocreated-discussionpagefile": "Denne diskusjonssiden ble opprettet automatisk.",
+	"bs-socialdiscussion-discussiontype": "Diskusjon",
+	"bs-socialdiscussion-topictype": "Diskusjonsemne",
+	"bs-socialtopics-entitydiscussion-header-create": "Opprett ny diskusjon",
+	"bs-social-entitytopic-header-create": "Opprett emne",
+	"bs-socialtopics-var-topictitle": "Tittel",
+	"bs-socialtopics-var-discussiontitleid": "Tildelt diskusjonsside",
+	"bs-socialtopics-entity-fatalstatus-save-notalkpage": "Ikke en gyldig diskusjonsside",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "$1 startet emnet:",
+	"topics": "Emner",
+	"bs-socialtopics-special-topics-heading": "Alle emner",
+	"bs-socialtopics-special-topics-heading-entry": "Emne/$1",
+	"bs-socialtopics-aftercontent-heading": "Diskusjoner",
+	"bs-socialtopics-nodiscussionpage": "Ingen diskusjonsside har blitt opprettet ennå.",
+	"bs-socialtopics-nodiscussionpage-create": "Opprett ny diskusjonsside",
+	"bs-socialtopics-nodiscussion": "Ingen diskusjon har blitt opprettet ennå.",
+	"bs-socialtopics-notopicsadded": "Ingen emner har blitt opprettet ennå.",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "Lagre",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "Avbryt",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "Innhold",
+	"bs-socialtopics-switch-nodiscussion-description": "Skjuler diskusjoner på denne siden."
+}

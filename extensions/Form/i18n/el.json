@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Consta",
+			"Dada",
+			"Nikosgranturismogt",
+			"Omnipaedista",
+			"ZaDiak",
+			"Απεργός"
+		]
+	},
+	"form-desc": "Μια [[Special:Form|φόρμα επιφάνειας]] για έναρξη νέων σελίδων",
+	"form": "Ξεκινήστε μια νέα σελίδα",
+	"form-captcha-error": "Σφάλμα CAPTCHA",
+	"form-no-name": "Κανένα όνομα φόρμας",
+	"form-bad-name": "Κακό όνομα φόρμας",
+	"form-bad-name-text": "Δεν υπάρχει καμιά φόρμα με αυτό το όνομα.",
+	"form-pattern": "$1-φόρμα",
+	"form-title-pattern": "Προσθήκη νέου $1",
+	"form-save": "Αποθηκεύστε",
+	"form-index-mismatch-title": "Αναντιστοιχία μεταξύ μοτίβου ονόματος και προτύπου",
+	"form-index-mismatch": "Αυτή η φόρμα παρουσιάζει αναντιστοιχία μεταξύ μοτίβου ονόματος και προτύπου στον δείκτη $1.",
+	"form-article-exists": "Η σελίδα υπάρχει",
+	"form-article-existstext": "Η σελίδα [[$1]] υπάρχει ήδη.",
+	"form-bad-page-name": "Κακό όνομα σελίδας",
+	"form-save-summary": "Νέα σελίδα που χρησιμοποιεί τη [[Special:Form/$1|φόρμα $1]]",
+	"form-save-error": "Σφάλμα στην αποθήκευση της φόρμας",
+	"form-save-error-text": "Παρουσιάστηκε άγνωστο σφάλμα κατά την αποθήκευση της σελίδας $1."
+}

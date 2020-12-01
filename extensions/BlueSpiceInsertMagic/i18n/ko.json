@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwangjy9",
+			"Ykhwong"
+		]
+	},
+	"bs-insertmagic-notoc": "목차를 숨깁니다.",
+	"bs-insertmagic-currenttime": "시간(24시간 HH:mm 형식).",
+	"bs-insertmagic-currentweek": "주(숫자).",
+	"bs-insertmagic-currenttimestamp": "YYYYMMDDHHmmss 포맷의 타임스탬프입니다.",
+	"bs-insertmagic-sitename": "위키의 사이트 이름입니다.",
+	"bs-insertmagic-server": "도메인 URL입니다.",
+	"bs-insertmagic-servername": "도메인 이름입니다.",
+	"bs-insertmagic-currentversion": "위키의 미디어위키 버전입니다.",
+	"bs-insertmagic-contentlanguage": "위키의 기본 인터페이스 언어입니다.",
+	"bs-insertmagic-pageid": "문서 식별자를 반환합니다.",
+	"bs-insertmagic-revisionid": "고유한 판 ID입니다.",
+	"bs-insertmagic-revisionyear": "연도가 변경되었습니다.",
+	"bs-insertmagic-type-tags": "태그",
+	"bs-insertmagic-type-variables": "변수",
+	"bs-insertmagic-type-quickaccess": "빠른 접근",
+	"bs-insertmagic-label-first": "1. 태그 또는 특수 명령을 선택합니다",
+	"bs-insertmagic-label-second": "2. 코드를 수정합니다",
+	"bs-insertmagic-label-desc": "설명",
+	"bs-insertmagic-label-examples": "예시",
+	"bs-insertmagic-label-see-also": "같이 보기",
+	"apihelp-bs-insertmagic-data-store-description": "InsertMagic 대화 상자의 모든 항목을 나열합니다",
+	"apihelp-bs-insertmagic-data-store-summary": "InsertMagic 대화상자의 모든 항목을 나열합니다",
+	"bs-insertmagic-ve-insertmagic-title": "특수 명령"
+}

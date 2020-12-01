@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derugon",
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"bs-echoconnector-extension-description": "Se connecte à BlueSpice avec Echo",
+	"echo-category-title-bs-admin-cat": "Tâches administratives",
+	"echo-pref-tooltip-bs-admin-cat": "M’avertir lorsqu’un nouveau compte utilisateur est créé",
+	"echo-pref-tooltip-bs-page-actions-cat": "M’avertir lorsque quelqu’un modifie, déplace ou supprime une page que je suis",
+	"echo-pref-tooltip-bs-page-create-cat": "M'avertir lorsqu'une nouvelle page est créée",
+	"echo-category-title-bs-page-actions-cat": "Actions sur les pages de la liste de suivi",
+	"echo-category-title-bs-page-create-cat": "Création de page",
+	"prefs-namespace-notifications": "Notifications sur les événements d’espace de nom",
+	"prefs-category-notifications": "Notifications sur les catégories",
+	"echo-category-title-bs-namespace-category-notify-cat": "Modifications dans les espaces de noms et les catégories souscrites"
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"bs-groupmanager-desc": "添加、編輯，以及刪除使用者群組與權限的管理介面",
+	"bs-groupmanager-grpexists": "群組已存在。",
+	"bs-groupmanager-grpempty": "群組名稱不可為空。",
+	"bs-groupmanager-grpadded": "已新增群組。",
+	"bs-groupmanager-grpedited": "已編輯群組。",
+	"bs-groupmanager-grpremoved": "已移除群組。",
+	"bs-groupmanager-label": "群組管理者",
+	"bs-groupmanager-invalid-name": "群組名稱包含{{PLURAL:$1|一個|}}無效{{PLURAL:$1|字元|字元}}：$2",
+	"bs-groupmanager-invalid-name-length": "群組名稱不可超過 255 個字元。",
+	"bs-groupmanager-invalid-name-numeric": "群組名稱至少需要 1 個字元。",
+	"bs-groupmanager-headergroup": "群組",
+	"bs-groupmanager-tipremove": "移除{{PLURAL:$1|群組|群組}}",
+	"bs-groupmanager-titlenewgroup": "新增群組",
+	"bs-groupmanager-titleeditgroup": "編輯群組",
+	"bs-groupmanager-removegroup": "您是否要移除{{PLURAL:$1|此群組|此群組}}？",
+	"bs-groupmanager-removegroup-message-success": "已刪除以下{{PLURAL:$1|群組|群組}}：$2",
+	"bs-groupmanager-removegroup-message-failure": "無法刪除以下{{PLURAL:$1|群組|群組}}：$2",
+	"bs-groupmanager-removegroup-message-unknown": "發生預期之外的錯誤，請再試一次。",
+	"bs-groupmanager-lablename": "群組名稱：",
+	"bs-groupmanager-msgnoteditable": "此群組為系統群組，無法重新命名。",
+	"bs-groupmanager-msgnotremovable": "此群組為系統群組，無法移除。",
+	"bs-groupmanager-write-config-file-error": "檔案$1無法被創建或儲存。",
+	"log-name-bs-group-manager": "群組管理者日誌",
+	"log-description-bs-group-manager": "此為變更使用者群組的日誌。",
+	"log-show-hide-bs-group-manager": "$1群組管理員日誌",
+	"logeventslist-bs-group-manager-log": "群組管理者日誌",
+	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|已建立}}群組 $4",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|已重新命名}}群組 $4 成 $5",
+	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|已移除}}群組 $4",
+	"apihelp-bs-groupmanager-description": "為 GroupManager 擴充提供任務。",
+	"apihelp-bs-groupmanager-summary": "為 GroupManager 擴充提供任務。",
+	"action-groupmanager-viewspecialpage": "檢視特定頁面「{{int:bs-groupmanager-label}}」",
+	"groupmanager": "群組管理者",
+	"right-groupmanager-viewspecialpage": "存取特殊頁面 [[Special:GroupManager]] 的權限。"
+}

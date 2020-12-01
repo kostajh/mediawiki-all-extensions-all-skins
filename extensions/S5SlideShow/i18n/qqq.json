@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Umherirrender"
+		]
+	},
+	"s5slide-name": "{{name}}",
+	"s5slide-desc": "{{desc|name=S5SlideShow|url=https://www.mediawiki.org/wiki/Extension:S5SlideShow}}",
+	"special-s5SlideShow-title": "Used as page title of [[Special:S5SlideShow]]",
+	"special-s5SlideShow-intro": "{{notranslate}}\nUsed as intro of [[Special:S5SlideShow]]",
+	"s5slide-header-title": "Used as table header",
+	"s5slide-header-subtitle": "Used as table header",
+	"s5slide-header-footer": "Used as table header",
+	"s5slide-header-subfooter": "Used as table header",
+	"s5slide-header-author": "Used as table header"
+}

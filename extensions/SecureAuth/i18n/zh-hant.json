@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"secureauth-desc": "允許使用者添加他們專門用來登入的 IP，並不允許使用其它 IP 登入。",
+	"secureauthinfo": "SecureAuthInfo",
+	"special-secureauth-info": "安全驗證資訊",
+	"secureauth-info-userinfo": "使用者資訊",
+	"secureauth-current-ip": "您目前的登入 IP：",
+	"secureauth-whitelist-ip": "用於您的使用者名稱登入之白名單 IP：",
+	"action-sa-access": "存取 SecureAuthInfo",
+	"right-sa-access": "允許使用者存取 [[Special:SecureAuthInfo|SecureAuthInfo]]"
+}

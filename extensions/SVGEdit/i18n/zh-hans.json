@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hydra",
+			"Yfdyh000"
+		]
+	},
+	"svgedit-editbutton-edit": "编辑绘图",
+	"svgedit-summary-label": "编辑摘要",
+	"svgedit-summary-default": "/* 在 svg-edit 中修改 */",
+	"svgedit-editor-save-close": "保存和关闭",
+	"svgedit-editor-close": "取消",
+	"svgedit-desc": "在浏览器中用[http://code.google.com/p/svg-edit/ SVG-Edit]编辑SVG矢量图",
+	"svgedit-edit-tab": "编辑绘图",
+	"svgedit-edit-tab-tooltip": "您可以在您的浏览器中编辑此SVG绘图",
+	"svgedit-toolbar-insert": "SVG绘图"
+}

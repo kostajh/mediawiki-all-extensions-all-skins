@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"securehtml": "HTML seguro",
+	"securehtml-desc": "Permite incluír HTML arbitrario dun modo autorizado e seguro",
+	"securehtml-nokeys": "Erro: <code>$wgSecureHTMLSecrets</code> non está cheo.",
+	"securehtml-hashrequired": "Erro : Hash obrigatorio.",
+	"securehtml-invalidhash": "Erro: Hash non válido.",
+	"securehtml-input-title": "Entrada HTML",
+	"securehtml-generatedoutput-title": "Saída xerada",
+	"securehtml-renderedhhtml-title": "HTML renderizado",
+	"securehtml-form-keyname": "Nome da clave (opcional)",
+	"securehtml-form-keysecret": "Clave secreta",
+	"securehtml-form-html": "HTML en bruto",
+	"securehtml-form-submit": "Enviar",
+	"securehtml-inputinstructions": "Insira un nome de clave (opcional), unha clave secreta e o HTML en bruto desexado.\nSe non se especifica un nome, asúmese a primeira clave en <code>$wgSecureHTMLSecrets</code>.",
+	"securehtml-outputinstructions": "Copie EXACTAMENTE o código superior e pégueo no editor wiki.\nSe o código xerado non funciona, intente eliminar todos os saltos de liña da entrada HTML e volva xerar o código."
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Angrydog001",
+			"Liangent",
+			"Linforest"
+		]
+	},
+	"smoothgallery": "SmoothGallery",
+	"smoothgallery-desc": "允许用户采用已经上载的图片创建画廊。\n允许SmoothGallery的大多数选项",
+	"smoothgallery-title": "SmoothGallery",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery：$1",
+	"smoothgallery-error": "<b>SmoothGallery错误：</b>",
+	"smoothgallery-gallery-not-found": "所请求的画廊并不存在。",
+	"smoothgallery-not-found": "该画廊当中尚未添加图片。\n请添加至少一幅图片。",
+	"smoothgallery-no-images": "在该画廊之中并未找到任何图片。\n请确保存在所请求的{{PLURAL:$3|图片|所有图片}}。\n未找到下列{{PLURAL:$2|图片|图片}}：$1",
+	"smoothgallery-invalid-images": "所请求的下列{{PLURAL:$2|图片|图片}}属于无效类型：$1",
+	"smoothgallery-unexpected-error": "存在一个意外错误。\n请提出一份缺陷报告。",
+	"smoothgallery-javascript-disabled": "需要JavaScript以正常查看本画廊。"
+}

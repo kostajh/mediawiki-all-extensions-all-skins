@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent",
+			"Cainamarques"
+		]
+	},
+	"pagelanguage-desc": "Define o idioma por página",
+	"pagelanguage-invalid": "'''Aviso''': ignorando o código de idioma inválido \"$1\" para o idioma da página.",
+	"pagelanguage-duplicate": "'''Aviso''': o idioma da página \"$2\" sobrepõe-se ao idioma anterior da página \"$1\"."
+}

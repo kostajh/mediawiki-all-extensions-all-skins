@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"pagelanguage-desc": "定義各頁的頁面語言",
+	"pagelanguage-invalid": "'''警告：'''忽略用於頁面語言的語言代碼「$1」。",
+	"pagelanguage-duplicate": "'''警告：'''頁面語言「$2」覆蓋了較早的頁面語言「$1」。"
+}

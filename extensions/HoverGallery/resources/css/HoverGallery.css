@@ -1,0 +1,9 @@
+.hoverimage {
+	padding: 1em;
+	pointer-events: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+	z-index: 2147483647; /* Max possible value */
+}

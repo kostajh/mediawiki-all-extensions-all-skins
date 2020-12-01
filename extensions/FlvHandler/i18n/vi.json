@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaganer",
+			"Minh Nguyen"
+		]
+	},
+	"flvhandler_desc": "Cho phép thêm video Flash (.flv) như tập tin bình thường (thí dụ <nowiki>[[</nowiki>{{ns:file}}:Phim.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "video Flash, $1×$2 điểm ảnh, kích thước: $3"
+}

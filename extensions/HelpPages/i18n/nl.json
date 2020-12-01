@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"helppages-desc": "Haalt automatisch hulppagina's op van [https://www.mediawiki.org mediawiki.org]",
+	"helppages-notice": "Deze pagina is gedownload van [https://www.mediawiki.org/?oldid=$1 mediawiki.org] en kan daar bewerkt worden.",
+	"helppages-edit-tab": "Bewerken op MediaWiki.org"
+}

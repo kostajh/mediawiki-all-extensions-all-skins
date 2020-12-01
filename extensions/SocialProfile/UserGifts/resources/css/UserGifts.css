@@ -1,0 +1,69 @@
+.back-links {
+	margin: 0 0 10px 0;
+}
+
+.back-links a {
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.g-title {
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0 0 8px 0;
+}
+
+.g-from {
+	font-size: 11px;
+	font-weight: 700;
+}
+
+.g-actions {
+	font-size: 10px;
+}
+
+.g-actions a {
+	font-size: 10px;
+}
+
+.g-delete {
+	margin: 0 0 0 12px;
+}
+
+.page-nav a {
+	font-weight: 700;
+}
+
+.g-name {
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0 0 2px;
+}
+
+.g-user-message {
+	color: #666;
+	font-weight: 700;
+	margin: 8px 0;
+}
+
+.g-container {
+	margin: 15px 0 0 0;
+}
+
+.g-container img {
+	border: 1px solid #dcdcdc;
+	background-color: #fff;
+	padding: 3px;
+	display: block;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.g-buttons {
+	padding: 15px 0 0 0;
+}
+
+.g-describe {
+	font-size: 11px;
+	line-height: 12px !important;
+}

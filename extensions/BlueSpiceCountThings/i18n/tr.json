@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Sayginer",
+			"ToprakM"
+		]
+	},
+	"bs-countthings-desc": "İçeriğe dayalı istatistikler sağlar",
+	"bs-countthings-chars-label": "Karakterler",
+	"bs-countthings-words-label": "Kelimeler",
+	"bs-countthings-files-label": "Dosyalar",
+	"bs-countthings-pages-label": "Sayfalar",
+	"bs-countthings-ve-countcharacters-title": "Karakter say",
+	"bs-countthings-ve-countarticles-title": "Maddeleri say",
+	"bs-countthings-ve-countfiles-title": "Dosyaları say",
+	"bs-countthings-ve-countusers-title": "Kullanıcıları say",
+	"bs-countthings-ve-countthingsinspector-mode": "Mod",
+	"bs-countthings-ve-countcharacters-mode-all": "hepsi",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "karakterler",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "kelimeler",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "karakterler ve kelimeler",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "sayfalar",
+	"bs-countthings-ve-countcharacters-input-label": "Sayfalar",
+	"bs-countthings-error-no-input": "Hiçbir sayfa sağlanmadı.",
+	"bs-countthings-error-invalid-mode": "\"$1\" modu geçersiz. Lütfen \"chars\", \"words\" veya \"pages\" kullanın.",
+	"bs-countthings-error-not-exist": "\"$1\" sayfası mevcut değil.",
+	"bs-countthings-tag-countarticles-desc": "Vikideki madde sayısını görüntüler.",
+	"bs-countthings-tag-countusers-desc": "Kayıtlı kullanıcı sayısını gösterir.",
+	"bs-countthings-tag-countfiles-desc": "Vikideki dosya sayısını görüntüler.",
+	"bs-countthings-tag-countcharacters-desc": "Belirtilen makalenin içeriği hakkında meta veriler oluşturur. Çıktı, bir makaleye entegre edilebilecek bir bilgi kutusudur. \"mode\" parametresi ile farklı türde bilgiler görüntülenebilir.",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Ne sayılmalıdır <code>chars</code> (karakterler), <code>words</code> (kelimeler) veya <code>pages</code> (sayfalar).",
+	"bs-countthings-tag-countcharacters-example-1": "Kelime sayısı",
+	"bs-countthings-tag-countcharacters-example-2": "Karakter sayısı"
+}

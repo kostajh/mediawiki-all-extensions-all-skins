@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-tagcloud-desc": "顯示各個標籤雲",
+	"bs-tagcloud-error-tagtype": "指定值「$1」不是有效的儲存。",
+	"bs-tagcloud-error-tagrenderer": "指定值「$1」不是有效的呈現。",
+	"bs-tagcloud-tag-tagcloud-name": "標籤雲",
+	"bs-tagcloud-tag-tagcloud-title": "標籤雲",
+	"bs-tagcloud-tag-tagcloud-desc": "基於分類或搜尋項來呈現標籤雲",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "類型",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "選擇標籤雲應如何呈現",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "文字",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "列出",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "儲存",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "選擇要使用的資料",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "分類",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "搜尋項",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "寬度",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "標籤雲寬度百分比",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "顯示次數",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "顯示在括號內的項目數量",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "最小字型大小",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "用於帶最少項目的項之字體大小",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "最大字型大小",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "用於帶最多項目的項之字體大小",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "排除的頁面",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "請不要在標籤雲顯示這些頁面。要更多頁面請使用逗號分隔的清單，例如：Main Page, Test, MyPage"
+}

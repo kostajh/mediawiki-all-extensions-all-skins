@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Orlodrim"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "Facilite la SEO (optimisation pour les moteurs de recherche)",
+	"addhtmlmetaandtitle-empty-attr": "La balise &lt;seo&gt; doit contenir au moins un attribut non vide parmi « title », « metak(eywords) » ou « metad(escription) »."
+}

@@ -1,0 +1,117 @@
+{
+	"name": "BlueSpiceTagCloud",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:TagCloud",
+	"author": [
+		"Patric Wirth"
+	],
+	"descriptionmsg": "bs-tagcloud-desc",
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceTagCloud": {
+					"className": "\\BlueSpice\\TagCloud\\Extension",
+					"extPath": "/BlueSpiceTagCloud",
+					"package": "BlueSpice Pro",
+					"status": "beta"
+				}
+			},
+			"TagRegistry": {
+				"tagcloud": "\\BlueSpice\\TagCloud\\Tag\\TagCloud"
+			},
+			"RendererRegistry": {
+				"tagcloudtext": "\\BlueSpice\\TagCloud\\Renderer\\TagCloud\\Text::factory",
+				"tagcloudlist": "\\BlueSpice\\TagCloud\\Renderer\\TagCloud\\LinkList::factory",
+				"tagcloudcanvas3d": "\\BlueSpice\\TagCloud\\Renderer\\TagCloud\\Canvas3D::factory"
+			}
+		},
+		"BlueSpiceTagCloud": {
+			"StoreRegistry": {
+				"category": "\\BlueSpice\\TagCloud\\Data\\TagCloud\\Category\\Store"
+			},
+			"RendererRegistry": {
+				"text": "tagcloudtext",
+				"list": "tagcloudlist",
+				"canvas3d": "tagcloudcanvas3d"
+			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"TagDefinitions": [
+				"ext.bluespice.tagcloud.visualEditorPlugin"
+			]
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"MessagesDirs": {
+		"BlueSpiceTagCloud": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\TagCloud\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.tagcloud.text.styles": {
+			"styles": "bluespice.tagCloud.textView.css"
+		},
+		"ext.bluespice.tagcloud.canvas3d": {
+			"scripts": [
+				"jQuery.tagCanvas/jQuery.tagcanvas.2.9.min.js",
+				"bluespice.canvas3DTagCloud.js"
+			],
+			"dependencies": [
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.tagcloud.visualEditorPlugin": {
+			"scripts": [
+				"bs.tgcld/util/tag/TagCloudDefinition.js"
+			],
+			"styles": [
+				"bs.tgcld/oojs.icon.css"
+			],
+			"messages": [
+				"bs-tagcloud-tag-tagcloud-name",
+				"bs-tagcloud-tag-tagcloud-title",
+				"bs-tagcloud-tag-tagcloud-desc",
+				"bs-tagcloud-tag-tagcloud-attr-renderer-label",
+				"bs-tagcloud-tag-tagcloud-attr-renderer-help",
+				"bs-tagcloud-tag-tagcloud-attr-renderer-option-text",
+				"bs-tagcloud-tag-tagcloud-attr-renderer-option-list",
+				"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d",
+				"bs-tagcloud-tag-tagcloud-attr-store-label",
+				"bs-tagcloud-tag-tagcloud-attr-store-help",
+				"bs-tagcloud-tag-tagcloud-attr-store-option-category",
+				"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats",
+				"bs-tagcloud-tag-tagcloud-attr-width-label",
+				"bs-tagcloud-tag-tagcloud-attr-width-help",
+				"bs-tagcloud-tag-tagcloud-attr-showcount-label",
+				"bs-tagcloud-tag-tagcloud-attr-showcount-help",
+				"bs-tagcloud-tag-tagcloud-attr-minsize-label",
+				"bs-tagcloud-tag-tagcloud-attr-minsize-help",
+				"bs-tagcloud-tag-tagcloud-attr-maxsize-label",
+				"bs-tagcloud-tag-tagcloud-attr-maxsize-help",
+				"bs-tagcloud-tag-tagcloud-attr-exclude-label",
+				"bs-tagcloud-tag-tagcloud-attr-exclude-help"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceTagCloud/resources"
+	},
+	"Hooks": {
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\TagCloud\\Hook\\BSInsertMagicAjaxGetData\\TagCloud::callback"
+	},
+	"manifest_version": 2
+}

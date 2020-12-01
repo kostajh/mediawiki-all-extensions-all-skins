@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"bs-socialcomments-type": "Commento",
+	"bs-socialcomments-header-create": "Commento",
+	"bs-social-notifications-comment-create": "Le usator {{GENDER:$1|$2 ha facite}} un nove commento",
+	"bs-social-notifications-email-comment-edit-subject": "Le usator {{GENDER:$1|$2 ha modificate}} un commento",
+	"bs-social-notifications-comment-delete": "Le usator {{GENDER:$1|$2 ha delite}} un commento",
+	"bs-social-notifications-web-comment-delete-body": "Le usator {{GENDER:$1|$2 ha delite}} un commento sur un articulo de $3",
+	"bs-social-notifications-comment-owner-create": "Le usator {{GENDER:$1|$2 ha facite}} un nove commento sur tu entrata",
+	"bs-social-notifications-email-comment-owner-edit-subject": "Le usator {{GENDER:$1|$2 ha modificate}} un commento sur tu articulo",
+	"bs-social-notifications-web-comment-owner-delete-body": "Le usator {{GENDER:$1|$2 ha delite}} un commento sur tu entrata",
+	"bs-social-notifications-comment-owner-edit-bundle": "Le commentos sur tu entrata ha essite modificate {{PLURAL:$1|$1 vice|$1 vices}}",
+	"bs-social-notification-comment-primary-link-label": "Vider commento",
+	"bs-social-notification-comment-parententity-label": "Vider entrata"
+}

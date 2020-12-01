@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"bs-social-notifications-email-entity-create-body": "L'utente {{GENDER:$1|$2 ha creato}} un nuovo \"$3\"",
+	"bs-social-notifications-email-entity-create-text-body": "L'utente {{GENDER:$1|$2 ha creato}} un nuovo \"$3\" con il seguente testo:\n$4",
+	"bs-social-notifications-web-entity-create-body": "L'utente {{GENDER:$1|$2 ha creato}} un nuovo \"$3\""
+}

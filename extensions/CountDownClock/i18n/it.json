@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"countDownClock-days": "$1 {{PLURAL:$1|giorno|giorni}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|ora|ore}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|minuto|minuti}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|secondo|secondi}}",
+	"countDownClock-expired": "Scaduto"
+}

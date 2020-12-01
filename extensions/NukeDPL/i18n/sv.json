@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil"
+		]
+	},
+	"nukedpl": "Massradering genom DPL-förfrågan",
+	"nukedpl-desc": "Lägger till en [[Special:NukeDPL|specialsida]] för massradering genom DPL-förfrågan.",
+	"nukedpl-intro": "Detta verktyg gör det möjligt att massradera sidor valda genom en DPL-förfrågan.\n\nAnge en förfrågan nedan för att generera en lista över alla titlar som ska raderas.\n* Titlar kan tas bort individuellt innan radering.\n* Kom ihåg att sidtitlar är skiftlägeskänsliga.\n* Förfrågningar bör inte omges av DPL-taggar eller klammerparenteser.\n* För information om parametrarnas betydelser, se  [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL-manualen].",
+	"nukedpl-candidatelist": "Visa kandidatlistan",
+	"nukedpl-nopages": "Inga sidor att radera med DPL-förfrågan: <code>$1</code>",
+	"nukedpl-nuke": "Radera!",
+	"nukedpl-list": "Följande {{PLURAL:$1|sida|sidor}} valdes av DPL-förfrågan: <code>$2</code>\n\nTryck \"{{int:nukedpl-nuke}}\" för att radera {{PLURAL:$1|den|dem}}.",
+	"nukedpl-defaultreason": "Massradering av sidor utifrån DPL-förfrågan: $1",
+	"right-nukedpl": "Massradera sidor genom \"Dynamic Page List\"-förfrågningar"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"semanticpageseries-desc": "Bir [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Sayfa Formundan] bir dizi sayfa oluşturma",
+	"spssuccesstitle": "$1 sayfa oluşturma",
+	"spssuccess": "{{PLURAL:$1|Bir sayfa|$1 sayfa}} oluşturacaktır.",
+	"spssuccess-returntoorigin": "$1 geri dön",
+	"spserror": "Bir hata oluştu",
+	"spserror-diffnotsupported": "Fark eylemi, sayfa serileri için desteklenmez.",
+	"spserror-previewnotsupported": "Önizleme eylemi sayfa serileri için desteklenmez.",
+	"spserror-noiteratorname": "Yineleyici belirtilmedi. #serieslink ayrıştırıcısı işlev çağrısında \"iterator\" parametresini ayarlamanız gerekir.",
+	"spserror-iteratorunknown": "Yineleyici \"$1\" mevcut değil. #Serieslink ayrıştırıcı işlev çağrısında \"iterator\" parametresini düzeltmeniz gerekir.",
+	"spserror-noformname": "Form adı belirtilmedi. #serieslink ayrıştırıcı işlevinde \"form\" parametresini ayarlamanız gerekir.",
+	"spserror-formunknown": "\"$1\" formu mevcut değil.",
+	"spserror-notargetformname": "Hedef form adı belirtilmedi. #Serieslink ayrıştırıcı işlev çağrısında \"target form\" parametresini ayarlamanız gerekir.",
+	"spserror-notargetfieldname": "Hedef alan adı belirtilmedi. #serieslink ayrıştırıcı işlev çağrısında \"target field\" parametresini ayarlamanız gerekir.",
+	"spserror-iteratorparammissing": "#serieslink çağrısında aşağıdaki yineleyici parametreleri eksik:\n$1",
+	"spserror-noiteratordata": "Gönderilen verilerde yineleyici parametresi bulunamadı.",
+	"spserror-pagegenerationlimitexeeded": "{{PLURAL:$1|Bir sayfa|$1 sayfa}} oluşturmaya çalıştınız. Bu, {{PLURAL:$2|bir sayfa|$2 sayfa}} için izin verilen sınırınızı aşıyor.",
+	"spserror-date-startdatemissing": "Başlangıç tarihi eksik.",
+	"spserror-date-internalerror": "Tarihler oluşturulurken bir hata oluştu: $1",
+	"spserror-count-startvaluemalformed": "Başlangıç değeri bir sayı değil.",
+	"spserror-count-endvaluemalformed": "Bitiş değeri bir sayı değil.",
+	"spserror-count-stepvaluemalformed": "The step value is not a number.",
+	"spserror-count-digitsvaluemalformed": "Basamak değeri bir sayı değildir."
+}

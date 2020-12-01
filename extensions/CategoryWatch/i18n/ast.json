@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"categorywatch-desc": "Enanta'l funcionamientu de la llista de siguimientu pa incluir avisos sobre los cambeos nos miembros de les categoríes siguíes",
+	"categorywatch-emailsubject": "Actividá rellacionada cola categoría siguía «$1»",
+	"categorywatch-catmovein": "$1 treslladóse a la categoría $2 dende $3",
+	"categorywatch-catmoveout": "$1 treslladóse dende la categoría $2 a $3",
+	"categorywatch-catadd": "amestáu $1 amestóse a categoría $2",
+	"categorywatch-catsub": "$1 quitóse de la categoría $2",
+	"categorywatch-autocat": "Siguío automáticamente por $1",
+	"categorywatch-notification-link": "Categoría: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] amestada a [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] amestada a [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] amestó [[:$3|$3]] a [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] desaniciada de [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] desaniciada de [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] desanició [[:$3|$3]] de [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 cambios na categorización en {{SITENAME}}",
+	"categorywatch-add-title": "Títulu amestáu a la categoría siguía",
+	"categorywatch-remove-title": "Títulu desaniciáu de la categoría siguía",
+	"categorywatch-page-watch-pref": "Añadir toles páxines d'una categoría a la llista de siguimientu cuando añadas una categoría",
+	"echo-category-title-categorywatch": "Siguimientu de categoríes",
+	"echo-pref-tooltip-categorywatch": "Avisame cuando daquién añada o quite una páxina d'una categoría que tea nel mio siguimientu."
+}

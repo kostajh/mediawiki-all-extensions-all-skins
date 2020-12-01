@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-bluespiceabout-desc": "關於 BlueSpice 的資訊",
+	"bs-bluespiceabout-about-bluespice": "關於 BlueSpice",
+	"bluespiceabout": "關於 BlueSpice",
+	"prefs-bluespiceabout": "關於 BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "在主選單顯示連結「{{int:bs-bluespiceabout-about-bluespice}}」",
+	"action-bluespiceabout-viewspecialpage": "檢視特殊頁面「{{int:bs-bluespiceabout-about-bluespice}}」",
+	"right-bluespiceabout-viewspecialpage": "存取特殊頁面 [[Special:BlueSpiceAbout]] 的權限。",
+	"bs-bluespiceabout-pref-showmenulinks-help": "添加連結到頁面 Special:BlueSpiceAbout 至主要導航。連結頁面會顯示有關 BlueSpice 專業版的資訊與說明連結。"
+}

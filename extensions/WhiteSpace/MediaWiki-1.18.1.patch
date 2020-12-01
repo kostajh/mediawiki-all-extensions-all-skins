@@ -1,0 +1,28 @@
+Index: docs/hooks.txt
+===================================================================
+--- docs/hooks.txt	(revision 114104)
++++ docs/hooks.txt	(working copy)
+@@ -1335,6 +1335,11 @@
+ $text: text to parse
+ $stripState: StripState instance being used
+ 
++'ParserBeforePreprocess': called at the beginning of Parser::preprocessToDom()
++$parser: Parser object
++&$text: text to preprocess, hook is allowed to change it
++$flags: flags
++
+ 'ParserBeforeStrip': Called at start of parsing time
+ (no more strip, deprecated ?)
+ $parser: parser object
+Index: includes/parser/Parser.php
+===================================================================
+--- includes/parser/Parser.php	(revision 114104)
++++ includes/parser/Parser.php	(working copy)
+@@ -2801,6 +2801,7 @@
+ 	 * @return PPNode
+ 	 */
+ 	function preprocessToDom( $text, $flags = 0 ) {
++		wfRunHooks( 'ParserBeforePreprocess', array( $this, &$text, $flags ) );
+ 		$dom = $this->getPreprocessor()->preprocessToObj( $text, $flags );
+ 		return $dom;
+ 	}

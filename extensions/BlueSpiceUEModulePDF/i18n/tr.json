@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"Sayginer"
+		]
+	},
+	"bs-uemodulepdf-desc": "MediaWiki'nin sayfaları PDF biçiminde dışa aktarmasını sağlar",
+	"prefs-uemodulepdf": "Evrensel dışa aktarma PDF modülü",
+	"uemodulepdf": "Evrensel dışa aktarma PDF modülü",
+	"bs-uemodulepdf-pref-suppressns": "PDF'de ad alanı önekini gizle",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-text": "PDF tek sayfa",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-title": "Bu sayfayı PDF olarak dışa aktar.",
+	"bs-uemodulepdf-overview-title": "Portable Document Format (PDF)",
+	"bs-uemodulepdf-overview-desc": "Sayfaları (özel sayfalar ve içerik sayfaları) PDF'ye dışa aktarır.",
+	"bs-uemodulepdf-overview-webservice-state": "Arka uç durumu",
+	"bs-uemodulepdf-overview-webservice-state-ok": "mevcut",
+	"bs-uemodulepdf-overview-webservice-state-not-ok": "mevcut değil",
+	"soap-service-url-not-valid": "PDF üreten web hizmetinin URL'si geçerli değil. Lütfen viki yapılandırmasını kontrol edin.",
+	"soap-service-url-not-set": "PDF üreten web hizmetinin URL'si ayarlanmadı. Lütfen viki yapılandırmasını kontrol edin.",
+	"bs-uemodulepdf-overview-webservice-webadmin": "Arka uç web arayüzü",
+	"action-uemodulepdf-export": "bir sayfayı PDF'ye dışa aktarma",
+	"right-uemodulepdf-export": "Bir sayfayı PDF'ye dışa aktar"
+}

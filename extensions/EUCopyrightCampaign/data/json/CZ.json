@@ -1,0 +1,214 @@
+{
+	"representatives": [
+		{
+			"firstName": "Dita",
+			"lastName": "Charanzov\u00e1",
+			"email": "dita.charanzova@europarl.europa.eu",
+			"membershipInDelegations": "DMER",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45506",
+			"strasbourgPhone": "+33(0)3 88 1 75506",
+			"twitter": "@charanzova"
+		},
+		{
+			"firstName": "Martina",
+			"lastName": "Dlabajov\u00e1",
+			"email": "martina.dlabajova@europarl.europa.eu",
+			"membershipInDelegations": "D-ZA",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45857",
+			"strasbourgPhone": "+33(0)3 88 1 75857",
+			"twitter": "@Mdlabajova"
+		},
+		{
+			"firstName": "Petr",
+			"lastName": "Je\u017eek",
+			"email": "petr.jezek@europarl.europa.eu",
+			"membershipInDelegations": "D-JP",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45415",
+			"strasbourgPhone": "+33(0)3 88 1 75415",
+			"twitter": "@@JezekCZ"
+		},
+		{
+			"firstName": "Jan",
+			"lastName": "Keller",
+			"email": "jan.keller@europarl.europa.eu",
+			"membershipInDelegations": "D-CA",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45425",
+			"strasbourgPhone": "+33(0)3 88 1 75425",
+			"twitter": ""
+		},
+		{
+			"firstName": "Jarom\u00edr",
+			"lastName": "Kohl\u00ed\u010dek",
+			"email": "jaromir.kohlicek@europarl.europa.eu",
+			"membershipInDelegations": "D-UA",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45907",
+			"strasbourgPhone": "+33(0)3 88 1 75907",
+			"twitter": ""
+		},
+		{
+			"firstName": "Kate\u0159ina",
+			"lastName": "Kone\u010dn\u00e1",
+			"email": "katerina.konecna@europarl.europa.eu",
+			"membershipInDelegations": "DSCA",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45168",
+			"strasbourgPhone": "+33(0)3 88 1 75168",
+			"twitter": ""
+		},
+		{
+			"firstName": "Ji\u0159\u00ed",
+			"lastName": "Ma\u0161t\u00e1lka",
+			"email": "jiri.mastalka@europarl.europa.eu",
+			"membershipInDelegations": "D-RU",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45905",
+			"strasbourgPhone": "+33(0)3 88 1 75905",
+			"twitter": ""
+		},
+		{
+			"firstName": "Lud\u011bk",
+			"lastName": "Niedermayer",
+			"email": "ludek.niedermayer@europarl.europa.eu",
+			"membershipInDelegations": "D-US",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45574",
+			"strasbourgPhone": "+33(0)3 88 1 75574",
+			"twitter": "@ludeknie"
+		},
+		{
+			"firstName": "Ji\u0159\u00ed",
+			"lastName": "Payne",
+			"email": "jiri.payne@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45501",
+			"strasbourgPhone": "+33(0)3 88 1 75501",
+			"twitter": ""
+		},
+		{
+			"firstName": "Pavel",
+			"lastName": "Poc",
+			"email": "pavel.poc@europarl.europa.eu",
+			"membershipInDelegations": "DCAS",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45411",
+			"strasbourgPhone": "+33(0)3 88 1 75411",
+			"twitter": "@pavelpoc"
+		},
+		{
+			"firstName": "Miroslav",
+			"lastName": "Poche",
+			"email": "miroslav.poche@europarl.europa.eu",
+			"membershipInDelegations": "D-CN",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45328",
+			"strasbourgPhone": "+33(0)3 88 1 75328",
+			"twitter": "@pochemep"
+		},
+		{
+			"firstName": "Stanislav",
+			"lastName": "Pol\u010d\u00e1k",
+			"email": "stanislav.polcak@europarl.europa.eu",
+			"membershipInDelegations": "D-CN",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45485",
+			"strasbourgPhone": "+33(0)3 88 1 75485",
+			"twitter": "@stanislavpolcak"
+		},
+		{
+			"firstName": "Ji\u0159\u00ed",
+			"lastName": "Posp\u00ed\u0161il",
+			"email": "jiri.pospisil@europarl.europa.eu",
+			"membershipInDelegations": "D-IR",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45586",
+			"strasbourgPhone": "+33(0)3 88 1 75586",
+			"twitter": "@Pospisil_Jiri"
+		},
+		{
+			"firstName": "Olga",
+			"lastName": "Sehnalov\u00e1",
+			"email": "olga.sehnalova@europarl.europa.eu",
+			"membershipInDelegations": "D-IL",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45417",
+			"strasbourgPhone": "+33(0)3 88 1 75417",
+			"twitter": "@OlgaSehnalova"
+		},
+		{
+			"firstName": "Michaela",
+			"lastName": "\u0160ojdrov\u00e1",
+			"email": "michaela.sojdrova@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45565",
+			"strasbourgPhone": "+33(0)3 88 1 75565",
+			"twitter": "@msojdrova"
+		},
+		{
+			"firstName": "Jarom\u00edr",
+			"lastName": "\u0160t\u011btina",
+			"email": "jaromir.stetina@europarl.europa.eu",
+			"membershipInDelegations": "DSCA",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45492",
+			"strasbourgPhone": "+33(0)3 88 1 75492",
+			"twitter": "@StetinaEP"
+		},
+		{
+			"firstName": "Pavel",
+			"lastName": "Svoboda",
+			"email": "pavel.svoboda@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45303",
+			"strasbourgPhone": "+33(0)3 88 1 75303",
+			"twitter": "@1PavelSvoboda"
+		},
+		{
+			"firstName": "Pavel",
+			"lastName": "Teli\u010dka",
+			"email": "pavel.telicka@europarl.europa.eu",
+			"membershipInDelegations": "D-IL",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45787",
+			"strasbourgPhone": "+33(0)3 88 1 75787",
+			"twitter": "@Telicka"
+		},
+		{
+			"firstName": "Ev\u017een",
+			"lastName": "To\u0161enovsk\u00fd",
+			"email": "evzen.tosenovsky@europarl.europa.eu",
+			"membershipInDelegations": "D-CN",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45717",
+			"strasbourgPhone": "+33(0)3 88 1 75717",
+			"twitter": ""
+		},
+		{
+			"firstName": "Jan",
+			"lastName": "Zahradil",
+			"email": "jan.zahradil@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45666",
+			"strasbourgPhone": "+33(0)3 88 1 75666",
+			"twitter": ""
+		},
+		{
+			"firstName": "Tom\u00e1\u0161",
+			"lastName": "Zdechovsk\u00fd",
+			"email": "tomas.zdechovsky@europarl.europa.eu",
+			"membershipInDelegations": "D-CN",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45780",
+			"strasbourgPhone": "+33(0)3 88 1 75780",
+			"twitter": "@TomZdechovsky"
+		}
+	]
+}

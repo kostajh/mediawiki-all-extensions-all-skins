@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benedikt Kämpgen",
+			"SPQRobin",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"browsesw": "{{doc-special|BrowseSW}}",
+	"swb_desc": "{{desc|name=Semantic Web Browser|url=https://www.mediawiki.org/wiki/Extension:SemanticWebBrowser}}",
+	"swb_browse_article": "Text above \"go\" window",
+	"swb_browse_go": "Title of button \"go\".\n{{Identical|Go}}",
+	"swb_browse_show_incoming": "Title of properties",
+	"swb_browse_hide_incoming": "Title of properties",
+	"swb_browse_no_outgoing": "Used in the table in [[Special:BrowseSW]] if there are no results.\n\nSee also:\n* {{msg-mw|Swb browse no incoming}}",
+	"swb_browse_no_incoming": "Used in the table in [[Special:BrowseSW]] if there are no results.\n\nSee also:\n* {{msg-mw|Swb browse no outgoing}}",
+	"swb_inverse_label_property": "Name of a special property",
+	"swb_inverse_label_default": "Inverse label default, $1 is a place marker",
+	"swb_browse_more": "{{optional}}\nBrowse more details",
+	"swb_browse_error": "Unused at this time."
+}

@@ -1,0 +1,32 @@
+/* OnlineStatusBar stylesheet for all skins */
+
+.onlinestatusbar-pagetop {
+	float: left;
+	margin-right: 0.25em;
+	background: no-repeat center bottom;
+	padding-top: 1em;
+	height: 0;
+	width: 16px;
+	overflow: hidden;
+}
+
+.onlinestatusbar-status-online {
+	/* @embed */
+	background-image: url( images/status-on.png );
+}
+
+.onlinestatusbar-status-busy,
+.onlinestatusbar-status-away {
+	/* @embed */
+	background-image: url( images/status-clock.png );
+}
+
+.onlinestatusbar-status-offline {
+	/* @embed */
+	background-image: url( images/status-cross.png );
+}
+
+.onlinestatusbar-status-unknown {
+	/* @embed */
+	background-image: url( images/status-off.png );
+}

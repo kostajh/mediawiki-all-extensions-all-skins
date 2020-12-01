@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"emailauth-desc": "{{desc|name=EmailAuth|url=https://www.mediawiki.org/wiki/Extension:EmailAuth}}",
+	"emailauth-token-label": "Label of the verification token input field.",
+	"emailauth-token-help": "API help message for the verification token field.",
+	"emailauth-email-subject": "Subject of the email containing the verification code. $1 is the site name.",
+	"emailauth-email-body": "Body of the email containing the verification code. $1 is the site name, $2 is the code.",
+	"emailauth-login-message": "Message telling the user that a verification email has been sent. $1 is the email address.",
+	"emailauth-login-failure": "Error message when the entered verification code was wrong.",
+	"emailauth-login-retry-limit": "Error message when the verification code was entered incorrectly too many times. (The user will be forced to restart the login process.)"
+}

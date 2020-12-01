@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ilimanaq29",
+			"Jaroslav Cerny",
+			"Ján Kepler",
+			"Matěj Suchánek",
+			"Mormegil"
+		]
+	},
+	"deleteuserpages-desc": "Povolit uživatelům, aby mohli mazat svoje vlastní uživatelské stránky",
+	"action-delete-rootuserpages": "smazat vlastní uživatelskou a diskusní stránku",
+	"right-delete-rootuserpages": "Smazání vlastní uživatelské a diskusní stránky",
+	"action-delete-usersubpages": "mazat podstránky své vlastní uživatelské stránky",
+	"right-delete-usersubpages": "Mazání podstránek své vlastní uživatelské stránky"
+}

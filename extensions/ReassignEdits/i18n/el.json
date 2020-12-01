@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"reassignedits": "Επανανάθεση επεξεργασιών χρήστη",
+	"reassignedits-desc": "Επιτρέπει την επανανάθεση επεξεργασιών από ένα παλιό χρήστη σε ένα καινούριο.",
+	"reassignedits-error-invalid": "Το όνομα χρήστη \"$1\" δεν είναι έγκυρο.",
+	"reassignedits-new": "Νέο όνομα χρήστη",
+	"reassignedits-old": "Παλιό όνομα χρήστη",
+	"reassignedits-submit": "Υποβολή",
+	"reassignedits-success": "Οι επεξεργασίες από τον \"$1\" επανανατέθηκαν στον \"$2\".",
+	"reassignedits-summary": "Επανανάθεση επεξεργασιών από ένα παλιό χρήστη σε ένα καινούριο.",
+	"reassignedits-updatelog-title": "Ενημέρωση ονόματος χρήστη σε τίτλους μητρώου",
+	"reassignedits-updatelog-user": "Ενημέρωση δράττοντα χρήστη στα μητρώα",
+	"right-reassignedits": "Επανανάθεση επεξεργασιών από ένα παλιό χρήστη σε ένα καινούριο"
+}

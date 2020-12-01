@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalanTul"
+		]
+	},
+	"inlinecategorizer-add-category": "Категория эбии",
+	"inlinecategorizer-add-category-submit": "Эп",
+	"inlinecategorizer-add-category-summary": "«$1» категория эбилиннэ",
+	"inlinecategorizer-api-error": "API алҕаһы төннөрдө (көрдөрдө): $1: $2",
+	"inlinecategorizer-api-unknown-error": "API биллибэт алҕаһы булла..",
+	"inlinecategorizer-cancel": "Уларытыылары суох гын",
+	"inlinecategorizer-cancel-all": "Уларытыылары барыларын суох гын",
+	"inlinecategorizer-category-already-present": "Бу сирэй уруккуттан \"$1\" категорияҕа киирэр эбит",
+	"inlinecategorizer-category-hook-error": "Уларытыы оҥоһулларыгар олохтоох (локал) функция мэһэй буолла.",
+	"inlinecategorizer-category-question": "Бу уларытыылары тоҕо оҥороору гынаҕыный:",
+	"inlinecategorizer-confirm-ok": "Сөп",
+	"inlinecategorizer-confirm-save": "Бигэргэт",
+	"inlinecategorizer-confirm-save-all": "Уларытыылары барыларын бигэргэт",
+	"inlinecategorizer-confirm-title": "Дьайыыны бигэргэт",
+	"inlinecategorizer-edit-category": "Категорияны уларыт",
+	"inlinecategorizer-edit-category-error": "«$1» категория сатаан уларыйбата.\nҮксүгэр категория халыып көмөтүнэн эбиллибит буоллаҕына маннык буолар.",
+	"inlinecategorizer-edit-category-summary": "\"$1\" категорияны \"$2\" категорияҕа уларыт",
+	"inlinecategorizer-error-title": "Алҕас",
+	"inlinecategorizer-remove-category": "Категорияны сот",
+	"inlinecategorizer-remove-category-error": "Бу \"$1\" категорияны сотор табыллыбата.\nҮксүгэр категория халыып нөҥүө эбиллибит түгэнигэр итинник буолар.",
+	"inlinecategorizer-remove-category-summary": "«$1» категория сотулунна"
+}

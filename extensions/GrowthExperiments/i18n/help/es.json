@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArenaL5",
+			"Carlosmg.dg",
+			"Fitoschido",
+			"Johnny243",
+			"Johny Weissmuller Jr",
+			"Tiberius1701"
+		]
+	},
+	"growthexperiments-help-panel-cta-button-text": "Obtener ayuda para editar",
+	"growthexperiments-help-panel-question-button-text": "Continuar",
+	"growthexperiments-help-panel-submit-question-button-text": "Publicar",
+	"growthexperiments-help-panel-return-home-button-text": "Hecho",
+	"growthexperiments-help-panel-back-home": "Regresar",
+	"growthexperiments-help-panel-close": "Hecho",
+	"growthexperiments-help-panel-home-title": "Obtener ayuda para editar",
+	"growthexperiments-help-panel-questionreview-title": "Formular una pregunta",
+	"growthexperiments-help-panel-questionreview-header": "Cuando envías una pregunta, se <strong>comparte públicamente</strong> con tu nombre de usuario («$2») en $1, donde otro voluntario tratará de responderte en un plazo aproximado de un día.",
+	"growthexperiments-help-panel-questionreview-label": "Tu pregunta",
+	"growthexperiments-help-panel-question-post-error": "Se produjo un error al tratar de publicar tu pregunta. Puedes intentarlo de nuevo o visitar $1 en el navegador y añadir la pregunta manualmente.",
+	"growthexperiments-help-panel-suggestededits-title": "Ediciones sugeridas",
+	"growthexperiments-help-panel-questioncomplete-title": "Formular una pregunta",
+	"growthexperiments-help-panel-questioncomplete-header": "Se ha publicado la pregunta.",
+	"growthexperiments-help-panel-questioncomplete-notifications-email-unconfirmed": "Para recibir notificaciones también por correo electrónico, confirma {{GENDER:$2|tu}} dirección ahora: $1",
+	"growthexperiments-help-panel-questioncomplete-notifications-email-unconfirmed-confirm": "confirma tu correo",
+	"growthexperiments-help-panel-questioncomplete-more-about-this-feature-text": "Más información sobre esta característica",
+	"growthexperiments-help-panel-settings-cog-preferences-link": "Desactiva esta herramienta en Preferencias",
+	"growthexperiments-help-panel-questionposter-invalid-title": "El título no es válido.",
+	"growthexperiments-help-panel-community-help-desk-text": "Asistencia comunitaria",
+	"growthexperiments-help-panel-search-label": "Busca ayuda",
+	"tag-help_panel_question": "Pregunta del panel de ayuda",
+	"growthexperiments-help-panel-button-preheader-suggested-edits": "Ediciones sugeridas",
+	"growthexperiments-help-panel-button-header-general-help": "Ayuda general sobre la edición",
+	"growthexperiments-help-panel-button-subheader-suggested-edits": "Consejos de inicio rápido",
+	"growthexperiments-help-panel-suggested-edits-switch-editor-to-wikitext-link-text": "Cambiar al editor de código"
+}

@@ -1,0 +1,35 @@
+{
+	"name": "MessageCommons",
+	"version": "2.0",
+	"author": [
+		"Daniel Friesen",
+		"Nathaniel Herman",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:MessageCommons",
+	"descriptionmsg": "messagecommons-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"MessagesDirs": {
+		"MessageCommons": [
+			"i18n"
+		]
+	},
+	"callback": "MessageCommons::onRegistration",
+	"config": {
+		"MessageCommonsDatabase": "mwmsgwiki",
+		"MessageCommonsLang": "en",
+		"MessageCommonsIsCommons": false
+	},
+	"AutoloadClasses": {
+		"MessageCommons": "src/MessageCommons.php"
+	},
+	"Hooks": {
+		"MessagesPreLoad": "MessageCommons::onMessagesPreLoad",
+		"EditPage::showEditForm:initial": "MessageCommons::onEditPage"
+	},
+	"manifest_version": 1
+}

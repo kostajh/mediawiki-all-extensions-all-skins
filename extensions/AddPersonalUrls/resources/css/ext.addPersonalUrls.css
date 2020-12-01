@@ -1,0 +1,66 @@
+#p-personal li.active {
+	font-weight: bold;
+}
+
+#pt-addpersonalurls-userpages {
+	/* @embed */
+	background: url(../images/13px-Nuvola_apps_kpager.png) left top no-repeat;
+	padding-left: 15px !important;
+	text-transform: none;
+}
+
+#pt-addpersonalurls-home {
+	/* @embed */
+	background: url(../images/13px-Nuvola_filesystems_folder_home.png) left top no-repeat;
+	padding-left: 15px !important;
+	text-transform: none;
+}
+
+#pt-addpersonalurls-favorites {
+	/* @embed */
+	background: url(../images/13px-Nuvola_apps_mozilla.png) left top no-repeat;
+	padding-left: 15px !important;
+	text-transform: none;
+}
+
+#pt-addpersonalurls-sandbox {
+	/* @embed */
+	background: url(../images/13px-Nuvola_apps_kbackgammon_engine.png) left top no-repeat;
+	padding-left: 15px !important;
+	text-transform: none;
+}
+
+#pt-addpersonalurls-notes {
+	/* @embed */
+	background: url(../images/13px-Nuvola_apps_package_editors.png) left top no-repeat;
+	padding-left: 15px !important;
+	text-transform: none;
+}
+
+#pt-mytalk {
+	/* @embed */
+	background: url(../images/13px-Nuvola_apps_chat.png) left top no-repeat;
+	padding-left: 15px !important;
+	text-transform: none;
+}
+
+#pt-preferences {
+	/* @embed */
+	background: url(../images/13px-Nuvola_apps_package_settings.png) left top no-repeat;
+	padding-left: 15px !important;
+	text-transform: none;
+}
+
+#pt-watchlist {
+	/* @embed */
+	background: url(../images/13px-Nuvola-ddipisa_Icona_occchiali.png) left top no-repeat;
+	padding-left: 15px !important;
+	text-transform: none;
+}
+
+#pt-mycontris {
+	/* @embed */
+	background: url(../images/13px-Nuvola_apps_edu_miscellaneous.png) left top no-repeat;
+	padding-left: 15px !important;
+	text-transform: none;
+}

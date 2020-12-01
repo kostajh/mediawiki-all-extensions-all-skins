@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01",
+			"Obsuser",
+			"Rancher"
+		]
+	},
+	"linkapprove": "Одобравање веза",
+	"linkfilter-login-title": "Нисте пријављени",
+	"linkfilter-url": "Адреса",
+	"linkfilter-time-seconds": "{{PLURAL:$1|1 секунда|$1 секунда|$1 секунди}}"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"categorywatch-desc": "Extende le functionalitate del observatorio con le notification del modificationes in paginas que pertine al categorias observate",
+	"categorywatch-emailsubject": "Activitate involvente le categoria observate \"$1\"",
+	"categorywatch-catmovein": "displaciava $1 in categoria $2 ex $3",
+	"categorywatch-catmoveout": "displaciava $1 ex le categoria $2 in $3",
+	"categorywatch-catadd": "addeva $1 al categoria $2",
+	"categorywatch-catsub": "retirava $1 del categoria $2",
+	"categorywatch-autocat": "Automaticamente observate per $1"
+}

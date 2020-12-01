@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"accountinfo": "Informacions del compte",
+	"accountinfo-desc": "Permet a un utilizaire de veire d'informacions privadas emmaazinadas sus el",
+	"accountinfo-ts": "Orodatatge",
+	"accountinfo-ip": "Adreça IP",
+	"accountinfo-ua": "Agent utilizaire",
+	"accountinfo-xff": "Entèsta XFF",
+	"accountinfo-length": "L’informacion es conservada per $1.",
+	"accountinfo-now": "Ara"
+}

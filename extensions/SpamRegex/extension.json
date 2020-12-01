@@ -1,0 +1,69 @@
+{
+	"name": "Regular Expression Spam Block",
+	"version": "1.7",
+	"author": [
+		"Bartek Łapiński",
+		"Alexandre Emsenhuber",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:SpamRegex",
+	"descriptionmsg": "spamregex-desc",
+	"type": "antispam",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"SpecialPages": {
+		"SpamRegex": "SpecialSpamRegex"
+	},
+	"MessagesDirs": {
+		"SpamRegex": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SpamRegexAliases": "SpamRegex.alias.php"
+	},
+	"AutoloadClasses": {
+		"ApiSpamRegex": "includes/api/ApiSpamRegex.php",
+		"SpamRegex": "includes/backend/SpamRegex.php",
+		"spamRegexForm": "includes/backend/spamRegexForm.php",
+		"spamRegexList": "includes/backend/spamRegexList.php",
+		"SpamRegexUITemplate": "templates/ui.tmpl.php",
+		"SpecialSpamRegex": "includes/backend/SpecialSpamRegex.php",
+		"SpamRegexHooks": "includes/backend/SpamRegexHooks.php"
+	},
+	"APIModules": {
+		"spamregex": "ApiSpamRegex"
+	},
+	"Hooks": {
+		"EditFilter": "SpamRegexHooks::onEditFilter",
+		"MovePageCheckPermissions": "SpamRegexHooks::onMovePageCheckPermissions",
+		"LoadExtensionSchemaUpdates": "SpamRegexHooks::onLoadExtensionSchemaUpdates",
+		"RenameUserComplete": "SpamRegexHooks::onRenameUserComplete"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SpamRegex"
+	},
+	"ResourceModules": {
+		"ext.spamRegex.js": {
+			"scripts": "resources/js/ext.spamRegex.js",
+			"messages": [
+				"spamregex-error-unblocking"
+			],
+			"dependencies": [
+				"mediawiki.api"
+			]
+		}
+	},
+	"AvailableRights": [
+		"spamregex"
+	],
+	"GroupPermissions": {
+		"staff": {
+			"spamregex": true
+		}
+	},
+	"manifest_version": 1
+}

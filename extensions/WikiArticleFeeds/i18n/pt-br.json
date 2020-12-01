@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent",
+			"Eduardo.mps"
+		]
+	},
+	"wikiarticlefeeds-desc": "Produz \"feeds\" gerados a partir de artigos do MediaWiki",
+	"wikiarticlefeeds-tracking-category": "Páginas que geram feeds RSS",
+	"wikiarticlefeeds-tracking-category-desc": "A página gera um feed RSS.",
+	"wikiarticlefeeds_combined_description": "Esse é um \"feed\" combinado, contendo itens de várias fontes de \"feeds\"."
+}

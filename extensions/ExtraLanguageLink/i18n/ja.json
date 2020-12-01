@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume",
+			"Shirayuki"
+		]
+	},
+	"extralanguagelink-desc": "サイドバーの「他言語版」の節に言語間リンクを追加する",
+	"extralanguagelink-param-class": "クラス",
+	"extralanguagelink-param-hreflang": "リンク先言語",
+	"extralanguagelink-param-lang": "言語",
+	"extralanguagelink-param-style": "スタイル",
+	"extralanguagelink-param-title": "タイトル",
+	"extralanguagelink-badinterwiki": "インターウィキ接頭辞「$1:」は、使用できるインターウィキ接頭辞の一覧にありません。",
+	"extralanguagelink-badtitle": "ページ名「$1」を構文解析できませんでした。"
+}

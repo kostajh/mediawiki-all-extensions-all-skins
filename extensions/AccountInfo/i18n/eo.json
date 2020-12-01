@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"YvesNevelsteen"
+		]
+	},
+	"accountinfo": "Kontaj informoj",
+	"accountinfo-desc": "Permesas al uzantoj vidi konservitajn privatajn informojn pri ili",
+	"accountinfo-ts": "Tempindiko",
+	"accountinfo-ip": "IP-adreso",
+	"accountinfo-ua": "Klienta aplikaĵo",
+	"accountinfo-xff": "XFF-titolo",
+	"accountinfo-length": "Informoj estas konservitaj por $1.",
+	"accountinfo-now": "Nun"
+}

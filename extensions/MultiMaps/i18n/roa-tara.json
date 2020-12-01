@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"multimaps-desc": "Permette a l'utinde de fà vedè le mappe e le coordinate ausanne servizie de mappature multiple",
+	"multimaps-loading-map": "Stoche a careche 'a mappe...",
+	"multimaps-mapservices-must-not-empty-array": "'A variabbile \"$1\" non g'adda essere 'na matrice vacande",
+	"multimaps-undefined-service-for-layout": "Parametre de servizie indefinite pu layout \"$1\" jndr'à $egMultiMaps_MapServices",
+	"multimaps-wrong-service-for-layout": "Pu layout \"$1\" definite 'u servizie \"$2\" ma non g'esiste jndr'à $egMultiMaps_MapServices",
+	"multimaps-layout-defined-for-layout": "Pu layout \"$1\" definite 'n'otre layout \"$2\" invece d'u servizie jndr'à $egMultiMaps_MapServices",
+	"multimaps-leaflet-undefined-parameters-for-layer": "Le parametre \"source\" e \"attribution\" onna essere date pu layer \"$1\" jndr'à $egMultiMaps_MapServices",
+	"multimaps-had-following-errors": "Quanne agghie analizzate le parametre passate agghie avute ste errore:",
+	"multimaps-element-illegal-value": "pu parametre \"$1\" ha state specificate 'nu valore illegale \"$2\". Le valore valide sonde: $3",
+	"multimaps-element-more-parameters": "Pe stu elemende d'a mappe \"$1\" passate cchiù parametre de chidde ca s'aspettave:",
+	"multimaps-element-parameters-not-processed": "le parametre seguende non ge onne state processate: $1",
+	"multimaps-circle-radius-not-defined": "pu cerchie addà essere definite 'u ragge",
+	"multimaps-circle-wrong-number-parameters": "pu cerchie avessera essere definite sulamende doje parametre, le coordinate d'u cendre e 'u ragge. Ma è specificate {{PLURAL:$1|'nu parametre|$1 parametre}}",
+	"multimaps-marker-incorrect-icon": "Pu marcatore de l'icone ha state date 'nu nome de file sbagghiate \"$1\"",
+	"multimaps-marker-incorrect-icon-url": "'Nu URL scorrette \"$1\" ha state date pe l'icone ca segne.",
+	"multimaps-marker-incorrect-icon-size": "'Na dimenzione scorrette \"$1\" ha state date pe l'icone ca segne \"$2\".",
+	"multimaps-marker-incorrect-icon-anchor": "'Na angore scorrette \"$1\" ha state date pe l'icone ca segne \"$2\".",
+	"multimaps-marker-incorrect-shadow-file": "'Nu nome de file scorrette \"$1\" ha state date pe l'icone ombra.",
+	"multimaps-marker-incorrect-shadow-url": "'Nu URL scorrette \"$1\" ha state date pe l'icone ombra.",
+	"multimaps-marker-incorrect-shadow-size": "'Na dimenzione scorrette \"$1\" ha state date pe l'icone ombra \"$2\".",
+	"multimaps-marker-incorrect-shadow-anchor": "'Na angore scorrette \"$1\" ha state date pe l'icone ombra \"$2\".",
+	"multimaps-passed-unavailable-service": "'U nome d'u servizie \"$1\" non ha state acchiate jndr'à l'elenghe de le servizie disponibbile ($2). Ausate 'u servizie de base \"$3\"",
+	"multimaps-square-wrong-number-points": "le coordinate d'u quadrate avessera tenè sulamende doje punde, ma è specificate {{PLURAL:$1|'nu punde|$1 punde}}",
+	"multimaps-unable-create-element": "Elemende d'a mappe \"$1\" non ge pò essere ccrejate",
+	"multimaps-unable-parse-coordinates": "non ge riesche a analizzà le coordinate sciugrafeche \"$1\"",
+	"multimaps-unable-parse-parameter": "non ge pozze analizzà 'u parametre \"$1\" 'u valore jè \"$2\"",
+	"multimaps-unable-parse-radius": "'u ragge d'u cerchie adda essere 'nu valore numeriche, ma è specificate \"$1\"",
+	"multimaps-unknown-class-for-service": "'A classe \"$1\" ca è definite pu servizie non ge pò essere acchiate.",
+	"multimaps-unknown-parameter": "Parametre scanusciute: \"$1\"",
+	"multimaps-error-incorrect-class-for-service": "'A classe \"$1\" ca è definite pu servizie non ge pò essere ausate.",
+	"multimaps-method-error-unknown-action": "$1: Azione scanusciute",
+	"multimaps-method-error-unexpected-result": "$1: 'Nu resultate inaspettate de 'na funzione"
+}

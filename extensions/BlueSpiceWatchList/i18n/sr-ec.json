@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Милан Јелисавчић"
+		]
+	},
+	"bs-watchlist-window-watchlist-title": "Списак надгледања",
+	"bs-watchlist-grid-watchlist-column-link-header": "Страница",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Непрочитане промене",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Испитајте промене",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Страница за разговор",
+	"bs-watchlist-grid-watchlist-label-filter": "Филтер"
+}

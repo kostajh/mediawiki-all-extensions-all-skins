@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"prefs-onlinestatus": "Online-Status",
+	"onlinestatusbar-used": "Ären online-Status op Ärer Benotzer-Säit weisen",
+	"onlinestatusbar-away": "Automatesch als net-do weisen no enger definéierter Zäit",
+	"onlinestatusbar-purge": "De'Benotzersäit all kéier wann Dir Iech eran oder erausloggt eidel maachen",
+	"onlinestatusbar-status": "Wéi ass de Standard-Status deen Dir benotze wëllt?",
+	"onlinestatusbar-away-time": "Minutte bis Dir als 'net do' markéiert gitt:",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Online}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Beschäftegt}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Net do}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Verstoppt}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Offline}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Onbekannt}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Dëse Benotzer}} ass elo online",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Dëse Benotzer}} ass beschäftegt a méiglecherweis net disponibel",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Dëse Benotzer}} ass net aktiv a méiglecherweis net disponibel",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Dëse Benotzer}} ass offline",
+	"onlinestatusbar-tooltip-unknown": "De Status vun {{GENDER:$1|dësem Benotzer}} ass onbekannt",
+	"apihelp-query+onlinestatus-description": "Gëtt den Online-Status an d'Geschlecht vum Benotzer zréck",
+	"apihelp-query+onlinestatus-param-user": "Benotzernumm vum Benotzer vun deem Dir de Status kréie wëllt"
+}

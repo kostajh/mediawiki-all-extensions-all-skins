@@ -1,0 +1,34 @@
+{
+	"name": "Wikisource",
+	"author": [
+		"Thomas Pellissier Tanon",
+		"Sam Wilson"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Wikisource",
+	"descriptionmsg": "wikisource-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"MessagesDirs": {
+		"Wikisource": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Wikisource\\": "includes/"
+	},
+	"Hooks": {
+		"WikibaseClientSiteLinksForItem": "MediaWiki\\Extension\\Wikisource\\WikibaseClientSiteLinksForItemHandler::provideSiteLinks"
+	},
+	"config": {
+		"WikisourceWikibaseEditionProperty": {
+			"value": "P747"
+		},
+		"WikisourceWikibaseEditionOfProperty": {
+			"value": "P629"
+		}
+	},
+	"manifest_version": 2
+}

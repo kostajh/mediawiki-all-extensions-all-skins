@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kim Eik",
+			"Nemo bis",
+			"Shirayuki",
+			"Siebrand",
+			"Umherirrender"
+		]
+	},
+	"sidebarmenu-desc": "{{desc|name=Side Bar Menu|url=https://www.mediawiki.org/wiki/Extension:SideBarMenu}}",
+	"sidebarmenu-parser-input-error": "Error message on parser error. Parameters:\n* $1 is the error message returned.",
+	"sidebarmenu-parser-syntax-error": "Error message on parsing. Parameters:\n* $1 is the line which failed to be parsed.",
+	"sidebarmenu-js-init-error": "General error message.",
+	"sidebarmenu-edit": "Action link. The text of the link which points to the edit page wherever the sidebarmenu is declared.",
+	"sidebarmenu-parser-menuitem-expanded-null": "The value of the expanded property of a menuitem",
+	"sidebarmenu-parser-config-error": "Config parameters passed to the extension is incorrect (wrong parameter key or value)",
+	"sidebarmenu-parser-subpage-error-title-not-found": "Error message, title of subpage not found"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"RV1971"
+		]
+	},
+	"dynamicpagelistengine-desc": "Stellt dynamisch erzeugte Listen von Seiten zur Verfügung, die in [[mw:Special:MyLanguage/Extension:Scribunto|Scribunto-Modulen]] oder anderen Erweiterungen verwendet werden können. Die Auswahlkriterien sind konfigurierbar und erweiterbar.",
+	"dple-tracking-category": "Seiten, die DynamicPageListEngine verwenden",
+	"dple-error-invalid-ns-index": "DynamicPageListEngine-Fehler: Es gibt keinen Namensraum mit der Nummer $1.",
+	"dple-error-no-criteria": "DynamicPageListEngine-Fehler: Es wurden keine Auswahlkriterien angegeben.",
+	"dple-error-too-expensive": "DynamicPageListEngine-Fehler: Die Suche würde so aufwändig sein wie die Kombination von $1 Datenbanktabellen, aber höchstens $2 sind erlaubt.",
+	"dple-error-too-many-expensive-functions": "DynamicPageListEngine-Fehler: Zu viele aufwändige Parserfunktionen auf dieser Seite."
+}

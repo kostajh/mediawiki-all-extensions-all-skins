@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Dianakc",
+			"Eduardo Addad de Oliveira",
+			"Jaideraf",
+			"Luckas",
+			"Luckas Blade"
+		]
+	},
+	"semanticgenealogy-desc": "Fornece a habilidade de ver árvores genealógicas e importar/exportar arquivos GEDCOM",
+	"semanticgenealogy-gedcomexport-desc": "Exportação em GEDCOM",
+	"semanticgenealogy-specialfamilytree-title": "Criar árvore genealógica",
+	"semanticgenealogy-specialfamilytree-button-submit": "Criar",
+	"semanticgenealogy-specialfamilytree-type-ancestors": "Antepassados",
+	"semanticgenealogy-specialfamilytree-type-descendant": "Descendente",
+	"semanticgenealogy-specialfamilytree-type-link": "Link",
+	"semanticgenealogy-specialfamilytree-decorator-simple": "Simple",
+	"semanticgenealogy-specialfamilytree-decorator-box": "Caixas",
+	"semanticgenealogy-specialfamilytree-displayname-fullname": "Nome completo",
+	"semanticgenealogy-specialfamilytree-displayname-pagename": "Nome da página",
+	"semanticgenealogy-specialfamilytree-label-page": "Pessoa base",
+	"semanticgenealogy-specialfamilytree-label-page2": "Outra pessoa",
+	"semanticgenealogy-specialfamilytree-label-type": "Tipo",
+	"semanticgenealogy-specialfamilytree-label-decorator": "Estilo",
+	"semanticgenealogy-specialfamilytree-label-displayname": "Nome a ser exibido",
+	"semanticgenealogy-specialfamilytree-label-gen": "Número de geração",
+	"semanticgenealogy-specialfamilytree-label-insert-code": "Para inserir esta árvore numa página, adicione o seguinte código wiki:",
+	"semanticgenealogy-specialfamilytree-error-nosecondpagename": "Você deve fornecer um nome de uma página de uma pessoa no campo \"{{int:semanticgenealogy-specialfamilytree-label-page2}}\".",
+	"semanticgenealogy-specialfamilytree-error-nolinkfound": "Nenhuma relação encontrada entre [[$1]] e [[$2]].",
+	"semanticgenealogy-specialfamilytree-error-unknowntype": "O tipo $1 é desconhecido.",
+	"specialpages-group-genealogy": "Genealogia"
+}

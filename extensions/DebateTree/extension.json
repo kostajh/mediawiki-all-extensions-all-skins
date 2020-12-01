@@ -1,0 +1,39 @@
+{
+	"name": "DebateTree",
+	"version": "4.0",
+	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]",
+	"url": "https://www.mediawiki.org/wiki/Extension:DebateTree",
+	"descriptionmsg": "debatetree-desc",
+	"type": "other",
+	"license-name": "GPL-3.0-only",
+	"MessagesDirs": {
+		"DebateTree": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"DebateTree": "DebateTree.php"
+	},
+	"ResourceModules": {
+		"ext.DebateTree.css": {
+			"styles": "DebateTree.css"
+		},
+		"ext.DebateTree": {
+			"scripts": "DebateTree.js",
+			"messages": [
+				"debatetree-sustained",
+				"debatetree-refuted",
+				"debatetree-counts"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "DebateTree"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "DebateTree::onBeforePageDisplay",
+		"ParserFirstCallInit": "DebateTree::onParserFirstCallInit"
+	},
+	"manifest_version": 1
+}

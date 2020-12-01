@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2",
+			"Inkbug"
+		]
+	},
+	"accountinfo": "פרטי חשבון",
+	"accountinfo-desc": "מתן אפשרות למשתמשים לראות מידע פרטי שמור על עצמם",
+	"accountinfo-ts": "תאריך ושעה",
+	"accountinfo-ip": "כתובת IP",
+	"accountinfo-ua": "סוכן לקוח",
+	"accountinfo-xff": "כותרת XFF",
+	"accountinfo-length": "המידע נשמר למשך $1.",
+	"accountinfo-now": "עכשיו"
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian",
+			"Liuxinyu970226"
+		]
+	},
+	"pageblock-desc": "启用按页面/用户限制",
+	"pageblock": "限制用户",
+	"pageblock-legend": "限制用户",
+	"pageblock-form-title": "页面名称",
+	"pageblock-form-user": "用户名",
+	"pageblock-form-edit": "限制用户编辑",
+	"pageblock-form-sameformove": "为移动操作应用系统限制",
+	"pageblock-form-move": "限制用户移动",
+	"pageblock-form-reason": "原因",
+	"pageblock-success": "$1已被限制在$2上操作。",
+	"listrestrictions": "列举限制",
+	"listrestrictions-legend": "列举限制",
+	"pageblock-list-title": "页面名称",
+	"pageblock-list-user": "用户名",
+	"pageblock-list-indefonly": "只显示无限期限制",
+	"pageblock-restricted-edit-indef": "$1已被无限期限制编辑$2。",
+	"pageblock-restricted-edit": "$1已被限制编辑$2，直到$3。",
+	"pageblock-restricted-move-indef": "$1已被无限期限制移动$2。",
+	"pageblock-restricted-move": "$1已被限制移动$2，直到$3。",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|您}}已被无限期限制编辑$2。",
+	"pageblock-blocked-edit": "{{GENDER:$1|您}}已被限制编辑$2，直到$3。",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|您}}已被无限期限制移动$2。",
+	"pageblock-blocked-move": "{{GENDER:$1|您}}已被限制移动，直到$3。",
+	"logentry-restrict-add-edit-move": "$1{{GENDER:$2|限制}}了$3对$4的编辑与移动",
+	"logentry-restrict-add-edit": "$1{{GENDER:$2|限制}}了$3对$4的编辑",
+	"logentry-restrict-add-move": "$1{{GENDER:$2|限制}}了$3对$4的移动",
+	"right-page-block": "应用、修改或删除页面或每个用户的限制"
+}

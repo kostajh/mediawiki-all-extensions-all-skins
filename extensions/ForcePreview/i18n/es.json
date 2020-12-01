@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Fitoschido"
+		]
+	},
+	"forcepreview": "$1 (previsualiza primero)",
+	"forcepreview-desc": "Forzar prevista para usuarios no privilegiados",
+	"right-forcepreviewexempt": "Puede guardar sin utilizar «Mostrar previsualización»"
+}

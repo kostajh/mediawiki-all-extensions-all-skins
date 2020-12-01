@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"bs-tagcloud-desc": "يعرض سحب الوسوم المختلفة",
+	"bs-tagcloud-error-tagtype": "القيمة المعطاة \"$1\" ليست متجرا صحيحا.",
+	"bs-tagcloud-error-tagrenderer": "القيمة المعطاة \"$1\" ليست عارضا صحيحا.",
+	"bs-tagcloud-tag-tagcloud-name": "سحابة وسم",
+	"bs-tagcloud-tag-tagcloud-title": "سحابة وسم",
+	"bs-tagcloud-tag-tagcloud-desc": "تعرض سحابة وسم استنادا إلى التصنيفات أو مصطلحات البحث",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "النوع",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "حدد كيفية تقديم سحابة الوسم",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "نص",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "قائمة",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "ثلاثي الأبعاد",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "متجر",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "اختر أية بيانات لاستخدامها",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "تصنيفات",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "مصطلحات البحث",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "العرض",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "عرض سحابة الوسم في المئة",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "إظهار العد",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "عرض عدد العناصر الموجودة بين قوسين",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "الحد الأدنى لحجم الخط",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "حجم الخط للإدخال مع أقل عدد من العناصر",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "حجم الخط الأقصى",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "حجم الخط للإدخال مع أكثر العناصر",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "استبعاد الصفحات",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "لا تعرض هذه الصفحات في سحابة الوسم، لمزيد من الصفحات; استخدم قائمة مفصولة بفواصل، مثل \"الصفحة الرئيسية، تجربة، صفحتي\""
+}

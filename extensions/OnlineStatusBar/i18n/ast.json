@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"onlinestatusbar-desc": "Barra d'estáu qu'amuesa si un usuario ta coneutáu na so páxina d'usuariu",
+	"prefs-onlinestatus": "Estáu de conexón",
+	"onlinestatusbar-used": "Amosar el to estáu de conexón nes tos páxines d'usuariu",
+	"onlinestatusbar-hide": "Anubrir la barra d'estáu nes páxines d'usuariu pa usar sólo la palabra máxica (pa usuarios avanzaos)",
+	"onlinestatusbar-away": "Tratar automáticamente como ausente tres un intervalu definíu",
+	"onlinestatusbar-purge": "Purgar la páxina d'usuariu cada vez qu'anicies o zarres sesión",
+	"onlinestatusbar-status": "¿Cuál ye l'estáu predetermináu que quies usar?",
+	"onlinestatusbar-away-time": "¿Cuántos minutos fasta que te marque como ausente?",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Conectáu|Conectada}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Ocupáu|Ocupada}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Ausente}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Tapecíu|Tapecida}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Desconectáu|Desconectada}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Desconocíu}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Esti usuariu|Esta usuaria}} ta en llinia",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Esti usuariu|Esta usuaria}} ta {{GENDER:$1|ocupáu|ocupada}} y pue que nun tea disponible",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Esti usuariu ta inactivu|Esta usuaria ta inactiva}} y pue que nun tea disponible",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Esti usuariu ta desconectáu|Esta usuaria ta desconectada}}",
+	"onlinestatusbar-tooltip-unknown": "L'estau d'{{GENDER:$1|esti usuariu|esta usuaria}} ye desconocíu",
+	"apihelp-query+onlinestatus-description": "Devuelve l'estáu de conexón y xéneru del usuariu",
+	"apihelp-query+onlinestatus-summary": "Devuelve l'estáu de conexón y xéneru del usuariu",
+	"apihelp-query+onlinestatus-param-user": "Nome del usuariu del que quies saber l'estáu",
+	"apihelp-query+onlinestatus-example": "Ver l'estáu de conexón de Petrb"
+}

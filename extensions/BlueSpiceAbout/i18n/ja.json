@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player",
+			"Shirayuki",
+			"Sujiniku",
+			"Suyama"
+		]
+	},
+	"bs-bluespiceabout-desc": "BlueSpice についての情報。",
+	"bs-bluespiceabout-about-bluespice": "BlueSpice について",
+	"bluespiceabout": "BlueSpice について",
+	"prefs-bluespiceabout": "BlueSpice について",
+	"bs-bluespiceabout-show-menu-links": "「{{int:bs-bluespiceabout-about-bluespice}}」リンクをページ上部とメインメニューに表示する",
+	"action-bluespiceabout-viewspecialpage": "特別ページ「{{int:bs-bluespiceabout-about-bluespice}}」の閲覧",
+	"right-bluespiceabout-viewspecialpage": "特別ページ [[Special:BlueSpiceAbout]] を利用"
+}

@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisiPK",
+			"Metalhead64",
+			"Purodha",
+			"Raimond Spekking"
+		]
+	},
+	"right-addpagetoanywatchlist": "[[Special:WhoIsWatching|Seiten zu Beobachtungslisten anderer Benutzer hinzufügen]]",
+	"action-addpagetoanywatchlist": "Seiten zu Beobachtungslisten anderer Benutzer hinzuzufügen",
+	"right-removepagefromanywatchlist": "[[Special:WhoIsWatching|Seiten von Beobachtungslisten anderer Benutzer entfernen]]",
+	"action-removepagefromanywatchlist": "Seiten von Beobachtungslisten anderer Benutzer zu entfernen",
+	"right-seepagewatchers": "Ansehen, [[Special:WhoIsWatching|welche Benutzer eine Seite beobachten]]",
+	"action-seepagewatchers": "anzusehen, welche Benutzer eine Seite beobachten",
+	"echo-category-title-whoiswatching": "Änderungen an meiner Beobachtungsliste",
+	"echo-pref-tooltip-whoiswatching": "Benachrichtige mich, wenn jemand eine Seite zu meiner Beobachtungsliste hinzufügt.",
+	"whoiswatching": "Wer beobachtet eine Seite",
+	"whoiswatching-desc": "Zeigt eine Liste von Benutzern an, die eine Seite beobachten",
+	"specialwhoiswatchingpage": "Beobachter von [[:$1]]",
+	"specialwhoiswatchingusage": "Diese Spezialseite ist nicht auf sich allein gestellt einsetzbar.",
+	"specialwhoiswatchingaddusers": "Füge Benutzer zum Beobachten der Seite hinzu",
+	"specialwhoiswatchingaddbtn": "Füge Benutzer hinzu",
+	"whoiswatching_users_pageview": "[{{fullurl:Special:WhoIsWatching/$2}} {{PLURAL:$1|Ein beobachtender|$1 beobachtende}} Benutzer]",
+	"whoiswatching-not-possible-title": "Seite kann nicht beobachtet werden",
+	"whoiswatching-not-possible": "Es ist nicht möglich, die Seite [[$1]] zu beobachten.",
+	"whoiswatching-usage-title": "Wie diese Seite verwendet wird",
+	"whoiswatching-user-editname": "Einen Benutzernamen eingeben:",
+	"whoiswatching-adduser": "Benutzer hinzufügen",
+	"whoiswatching-deluser": "Benutzer entfernen",
+	"whoiswatching-lookup-user": "Benutzersuche",
+	"whoiswatching-permission-denied-title": "Zugriff verweigert",
+	"whoiswatching-permission-denied": "Du kannst nichts auf dieser Seite machen.\n\nMindestens eine dieser Berechtigungen sind erforderlich: $1",
+	"whoiswatching-lookup-title": "Titelsuche",
+	"whoiswatching-title": "Einen Titel eingeben",
+	"whoiswatching-select-title": "Siehe Beobachtungsliste",
+	"whoiswatching-notification-whoiswatching-remove-header": "Seite von der Beobachtungsliste entfernt",
+	"whoiswatching-notification-whoiswatching-remove-body": "$1 entfernte $4 von deiner Beobachtungsliste.",
+	"whoiswatching-notification-whoiswatching-add-header": "Seite zur Beobachtungsliste hinzugefügt",
+	"whoiswatching-notification-whoiswatching-add-body": "$1 fügte $4 zu deiner Beobachtungsliste hinzu.",
+	"whoiswatching-notification-bundle": "$1 Änderungen an der Beobachtungsliste"
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gregory Varnum",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"tweetanew-desc": "{{desc|name=Tweet A New|url=https://www.mediawiki.org/wiki/Extension:TweetANew}}",
+	"tweetanew-accesskey": "{{doc-accesskey}}",
+	"tweetanew-newaction": "Used in editpage as description for option to tweet, if auto-tweet is disabled for new page",
+	"tweetanew-newtooltip": "Tooltip describing option to tweet about new page from edit page, if otherwise enabled",
+	"tweetanew-editaction": "Used in editpage as description for option to tweet, if auto-tweet is disabled for edits",
+	"tweetanew-edittooltip": "Tooltip describing option to tweet about edit from edit page, if otherwise enabled",
+	"tweetanew-minoredit": "Indicator used when edit is marked as minor, if minor edits are not already skipped - skip following indicator can be removed using MinorSpace setting",
+	"tweetanew-authorcredit": "Used to provide credit to author of edit or new page.\n{{Identical|By}}",
+	"tweetanew-newdefault": "Default tweet message used for new page, if random messages are disabled. Parameters:\n* $1 is title of the new page\n* $2 is the final URL of the new page - shortened if a service is enabled via this extension\n{{Identical|New page}}",
+	"tweetanew-new1": "First random tweet message used for new pages, if random messages are enabled. Parameters:\n* $1 is title of the new page\n* $2 is the final URL of the new page - shortened if a service is enabled via this extension",
+	"tweetanew-new2": "Second random tweet message used for new pages, if random messages are enabled. Parameters:\n* $1 is title of the new page\n* $2 is the final URL of the new page - shortened if a service is enabled via this extension",
+	"tweetanew-new3": "Third random tweet message used for new pages, if random messages are enabled. Parameters:\n* $1 is title of the new page\n* $2 is the final URL of the new page - shortened if a service is enabled via this extension",
+	"tweetanew-editdefault": "Default tweet message used for edited pages, if random messages are disabled. Parameters:\n* $1 is title of the new page\n* $2 is the final URL of the new page - shortened if a service is enabled via this extension",
+	"tweetanew-edit1": "First random tweet message used for edited pages, if random messages are enabled. Parameters:\n* $1 is title of the new page\n* $2 is the final URL of the new page - shortened if a service is enabled via this extension",
+	"tweetanew-edit2": "Second random tweet message used for edited pages, if random messages are enabled. Parameters:\n* $1 is title of the new page\n* $2 is the final URL of the new page - shortened if a service is enabled via this extension",
+	"tweetanew-edit3": "Third random tweet message used for edited pages, if random messages are enabled. Parameters:\n* $1 is title of the new page\n* $2 is the final URL of the new page - shortened if a service is enabled via this extension"
+}

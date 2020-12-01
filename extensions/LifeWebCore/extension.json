@@ -1,0 +1,76 @@
+{
+	"name": "LifeWebCore",
+	"version": "0.0.2",
+	"author": "Simon A. Eugster",
+	"url": "https://www.mediawiki.org/wiki/Extension:LifeWebCore",
+	"descriptionmsg": "lifewebcore-desc",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"LifeWebCore": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.LifeWebCore.handlebars": {
+			"scripts": [
+				"resources/script/handlebars.js"
+			],
+			"styles": [],
+			"messages": [],
+			"dependencies": []
+		},
+		"ext.LifeWebCore.core": {
+			"scripts": [
+				"resources/script/i18next-1.6.3.js",
+				"resources/script/svg.js",
+				"resources/script/libLWUI.js",
+				"resources/script/libLW.js",
+				"resources/script/libLWF.js",
+				"resources/script/lweUI.js",
+				"resources/script/treeUI.js"
+			],
+			"styles": [
+				"resources/style/lwuiStyle.css"
+			],
+			"messages": [],
+			"dependencies": [
+				"ext.LifeWebCore.handlebars"
+			]
+		},
+		"ext.LifeWebCore.filter": {
+			"scripts": [],
+			"styles": [
+				"resources/style/tree.css"
+			],
+			"messages": [],
+			"dependencies": [
+				"ext.LifeWebCore.core"
+			]
+		},
+		"ext.LifeWebCore.editor": {
+			"scripts": [],
+			"styles": [
+				"resources/style/lweStyle.css"
+			],
+			"messages": [],
+			"dependencies": [
+				"ext.LifeWebCore.core"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "LifeWebCore"
+	},
+	"config": {
+		"LWSettings": {
+			"value": {
+				"topicIDs": []
+			}
+		}
+	},
+	"manifest_version": 2
+}

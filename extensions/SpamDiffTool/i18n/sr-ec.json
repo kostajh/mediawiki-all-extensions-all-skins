@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01",
+			"Sasa Stefanovic",
+			"Михајло Анђелковић",
+			"Сербијана"
+		]
+	},
+	"spamdifftool-block": "Блок:",
+	"spamdifftool-no-urls-detected": "Нису пронађене веб-адресе. <a href='$1'>Назад</a>.",
+	"spamdifftool-option-domain": "све од овог домена",
+	"spamdifftool-option-subdomain": "све од овог поддомена",
+	"spamdifftool-option-directory": "овај поддомен и директоријум",
+	"spamdifftool-option-none": "ништа",
+	"spamdifftool-spam-link-text": "додај као спам",
+	"spamdifftool-submit": "Пошаљи"
+}

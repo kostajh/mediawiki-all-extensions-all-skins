@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"securesessions-desc": "Fai que as sesións de usuario e a autenticación da sesión sexa máis segura",
+	"securesessions-personalurl": "Sesións abertas ($1)",
+	"securesessions-ipsession": "Saír das outras sesións.",
+	"securesessions-iprestrict": "Restrinxir a sesión a este enderezo IP.",
+	"securesessions-uarestrict": "Restrinxir a sesión a este navegador.",
+	"securesessions-sessions": "Sesións",
+	"securesessions-sessions-legend": "Información da sesión",
+	"securesessions-sessions-text": "A continuación están as sesións abertas da súa conta e a información sobre elas. Pode pechar as outras sesións usando o botón inferior. Un asterisco (*) denota a sesión actual.",
+	"securesessions-sessions-ip": "Enderezo IP:",
+	"securesessions-sessions-activity": "Última actividade:",
+	"securesessions-sessions-clear": "Saír das outras sesións",
+	"securesessions-prefs-country": "Restrinxir o acceso por país:",
+	"securesessions-prefs-tor": "Impedir os accesos desde os nodos de saída Tor.",
+	"securesessions-disallowedcountry": "Esta conta non ten permiso para acceder desde este país.",
+	"securesessions-disallowedtor": "Esta conta non ten permiso para acceder desde nodos de saída Tor."
+}

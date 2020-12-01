@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"gotoshell": "Gå till shell",
+	"gotoshell-desc": "Implementerar [[Special:GoToShell|en specialsida]] som leder användaren till shell och tillbaka",
+	"gotoshell-notallowed": "Ditt konto har inte behörighet att gå till shell.",
+	"gotoshell-command": "Kommando:",
+	"gotoshell-result": "Resultat:"
+}

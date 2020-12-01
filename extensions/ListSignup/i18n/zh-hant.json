@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"LNDDYL"
+		]
+	},
+	"listsignup": "列出註冊",
+	"listsignup-desc": "自訂清單註冊表單",
+	"listsignup-legend": "請在下方輸入您的訊息。",
+	"listsignup-success": "您的電子郵件地址已提交。",
+	"listsignupdisplay": "列出註冊顯示",
+	"listsignuppurge": "列出註冊清除",
+	"listsignuppurge-legend": "從註冊清單清除所有訊息",
+	"listsignuppurge-pretext": "'''警告！'''這將會移除清單上所有地址，而且操作後不可還原。",
+	"listsignuppurge-success": "清單已清除！",
+	"right-viewlistsignupdisplay": "檢視註冊清單",
+	"right-purgelistsignupdisplay": "清除註冊清單",
+	"action-viewlistsignupdisplay": "檢視註冊清單",
+	"action-purgelistsignupdisplay": "清除註冊清單"
+}

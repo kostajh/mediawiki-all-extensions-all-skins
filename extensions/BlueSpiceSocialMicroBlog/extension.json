@@ -1,0 +1,60 @@
+{
+	"name": "BlueSpiceSocialMicroBlog",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SocialMicroBlog",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-socialmicroblog-desc",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceSocial": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocialMicroBlog": {
+					"className": "\\BlueSpice\\Social\\MicroBlog\\Extension",
+					"extPath": "/BlueSpiceSocialMicroBlog",
+					"status": "beta",
+					"package": "BlueSpiceSocial"
+				}
+			},
+			"EntityRegistry": {
+				"microblog": "\\BlueSpice\\Social\\MicroBlog\\EntityConfig\\MicroBlog"
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceSocialMicroBlog": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\MicroBlog\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.socialmicroblog.styles": {
+			"styles": [
+				"bluespice.socialmicroblog.css"
+			]
+		},
+		"ext.bluespice.social.entity.microblog": {
+			"dependencies": [
+				"ext.bluespice.social",
+				"ext.bluespice.social.entity"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.MicroBlog.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocialMicroBlog/resources"
+	},
+	"manifest_version": 2
+}

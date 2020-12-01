@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"graphviz-desc": "Permette de 'ngapsulà [http://www.graphviz.org Graphviz] segnalatore e ccreje immaggine in linèe",
+	"graphviz-reload": "L'immaggine sorgende d'u grafeche ave cangiate. Careche arrete 'a pàgene pe 'ndrucà l'immaggine d'u grafeche aggiornate.",
+	"graphviz-no-input": "Manghe 'a sorgende d'u grafeche.",
+	"graphviz-dot-invalid-image": "L'attribute d'u punde $1 adda essere 'nu nome de 'nu file carecate.",
+	"graphviz-dot-attr-forbidden": "L'attribute d'u punde $1 jè vietate.",
+	"graphviz-read-src-failed": "'Mbossibbilitate a leggere 'u teste d'u grafeche da 'u file system.",
+	"graphviz-write-src-failed": "'Mbossibbilitate a scrivere 'u teste d'u grafeche sus a 'u file system.",
+	"graphviz-write-map-failed": "'Mbossibbilitate a scrivere 'a mappe d'u grafeche sus a 'u file system.",
+	"graphviz-mkdir-failed": "'Mbossibbilitate a ccrejà 'na cartelle jndr'à 'u file system.",
+	"graphviz-delete-reason": "Stu file temboranèe ha state scangellate da l'estenzione GraphViz.",
+	"graphviz-alt": "Quiste jè 'nu grafeche cu borde e node ca ponne tenè collegaminde.",
+	"graphviz-uploaddisabledtext": "'A ccrejazione de l'immaggine d'u grafeche non g'è permesse purcé 'u carecamende de le file jè disabbilitate.",
+	"graphviz-upload-not-permitted": "'A ccrejazione de l'immaggine d'u grafeche vole permesse de carecamende.",
+	"graphviz-user-blocked": "'A ccrejazione de l'immaggine d'u grafeche non g'è permesse pe le utinde bloccate.",
+	"graphviz-read-only": "'A ccrejazione de l'immaggine d'u grafeche non g'è permesse purcé 'a uicchi ste in modalità de sola letture.",
+	"graphviz-uploaderror": "Carecamende de l'immaggine d'u grafeche fallite pu file: $1",
+	"graphviz-upload-comment": "generate da l'[[Special:Version#Installed_extensions|estenzione]] GraphViz da 'a pàgene [[$1]]",
+	"graphviz-unrecognized-preparse-value": "'U valore preanalizzate \"$1\" non g'è canusciute.",
+	"graphviz-category-desc": "$1 tène pàggene ccrejate da l'estenzione GraphViz.",
+	"graphviz-subcategory-desc": "$1 tène pàggene ccrejate ausanne 'u comande $2.",
+	"graphviz-map-desc": "= ImageMap =\nQuanne 'nglude ste immaggine jndr'à 'na pàgene uicchi, ause stu mark-up pe abbilità le collegaminde:\n <nowiki>\n<imagemap>\nFile:$1\n$2</imagemap>\n</nowiki>\n'Ndruche [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ImageMap ImageMap] pe cchiù 'mbormaziune.",
+	"graphviz-upload-user": "GraphViz",
+	"graphviz-setting-execpath": "'U percorse binarie de l'eseguibbele de GraphViz.",
+	"graphviz-setting-mscgenpath": "'U percorse binarie de l'eseguibbele de mscgen de GraphViz.",
+	"graphviz-setting-defaultimg": "'U tipe de immaggine finale predefinite pe GraphViz."
+}

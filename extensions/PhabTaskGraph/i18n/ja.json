@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hinaloe",
+			"Phantomize"
+		]
+	},
+	"phabtaskgraph-author-field-label": "作者",
+	"phabtaskgraph-owner-field-label": "所有者",
+	"phabtaskgraph-tasks-field-label": "タスク",
+	"phabtaskgraph-projects-field-label": "プロジェクト",
+	"phabtaskgraph-width-field-label": "幅",
+	"phabtaskgraph-height-field-label": "高さ",
+	"phabtaskgraph-status-open": "開く",
+	"phabtaskgraph-status-resolved": "解決済",
+	"phabtaskgraph-status-invalid": "無効",
+	"phabtaskgraph-status-duplicate": "複製"
+}

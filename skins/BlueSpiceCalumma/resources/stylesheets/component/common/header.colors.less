@@ -1,0 +1,102 @@
+body.mediawiki header.main-header {
+	background-color: @theme-header-bg-color;
+
+	/* featured action buttons */
+	.bs-featured-actions .dropdown {
+		.btn.btn-primary {
+			.icon::before {
+				color: @theme-header-button-fg-color;
+				background-color: @theme-header-button-bg-color;
+			}
+
+			&:hover .icon::before {
+				color: @theme-header-button-fg-color-hover;
+				background-color: @theme-header-button-bg-color-hover;
+			}
+
+			&.disabled .icon::before {
+				color: @theme-header-button-fg-color-disabled;
+				background-color: @theme-header-button-bg-color-disabled;
+			}
+		}
+
+		.btn.dropdown-toggle {
+			&::after {
+				color: @theme-header-fg-color;
+			}
+			&:hover {
+				&::after {
+					color: @theme-header-fg-color-hover;
+				}
+			}
+		}
+
+		&.open {
+			.btn.dropdown-toggle {
+				&::after {
+					color: @theme-header-dropdown-bg-color;
+				}
+				&:hover {
+					&::after {
+						color: @theme-header-fg-color-hover;
+					}
+				}
+			}
+			.dropdown-menu {
+				background-color: @theme-header-dropdown-bg-color;
+
+				&::before {
+					color: @theme-header-dropdown-bg-color;
+					top: -36px;
+				}
+
+				ul li a {
+					color: @theme-header-dropdown-fg-color;
+					&:hover {
+						color: @theme-header-dropdown-fg-color-hover;
+						background-color: @theme-header-dropdown-bg-color-hover;
+					}
+				}
+			}
+		}
+	}
+
+	/* user container */
+	.bs-button-user.dropdown {
+		.bs-userbutton-notifications-badge {
+			background-color: @theme-notification-inverted-bg;
+			color: @theme-notification-inverted-fg;
+		}
+
+		.bs-personal-not-loggedin {
+			color: @theme-header-fg-color;
+			&:hover {
+				color: @theme-header-fg-color-hover;
+			}
+		}
+		.bs-personal-menu-container {
+			background-color: @theme-header-dropdown-bg-color;
+
+			&::before {
+				color: @theme-header-dropdown-bg-color;
+			}
+
+			ul li a {
+				color: @theme-header-dropdown-fg-color;
+				&:hover {
+					color: @theme-header-dropdown-fg-color-hover;
+					background-color: @theme-header-dropdown-bg-color-hover;
+				}
+			}
+
+			.bs-userbutton-notifications-link::after{
+				content: attr(data-notifications-badge-text);
+				color: @theme-notification-fg;
+			}
+
+			#bs-personal-menu .separator {
+				border-bottom-color: @theme-header-dropdown-bg-color;
+			}
+		}
+	}
+}

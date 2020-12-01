@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"hierarchybuilder-desc": "Renders and allows editing of and selection from page hierarchies",
+	"hierarchybuilder-reveal-editmessage": "How do I use this?",
+	"hierarchybuilder-editmessage": "The Hierarchy Root list contains the hierarchy that will be preserved when you save. The Unused Pages list contains pages in category $1 that are not currently in the hierarchy. You may rearrange the Hierarchy Root list by dragging rows up and down as well as changing their indentation. You may add pages from the Unused Pages list to the hierarchy by dragging and dropping them where you want them in the Hierarchy Root list. You may remove pages from the hierarchy by dragging them from the Hierarchy Root list and dropping them anywhere in the Unused Pages list.",
+	"hierarchybuilder-edit-error-message": "This hierarchy cannot be edited because both the hierarchy data and the category from which to draw unused pages are empty. Please ensure that at least one of these data sources is populated.",
+	"hierarchybuilder-hierarchyroot": "Hierarchy root",
+	"hierarchybuilder-unusedpages": "Unused pages",
+	"hierarchybuilder-category-desc": "This is the category to which pages in the hierarchy must belong.",
+	"hierarchybuilder-missing-category": "The category argument is missing.",
+	"hierarchybuilder-hierarchy-desc": "This is a wikitext formatted hierarchy.",
+	"hierarchybuilder-pagename-desc": "This is the name of the page containing the hierarchy.",
+	"hierarchybuilder-propertyname-desc": "This is the name of the property containing the hierarchy.",
+	"hierarchybuilder-collapsed-desc": "If this parameter is provided, the hierarchy should be rendered collapsed when it is first displayed.",
+	"hierarchybuilder-missing-page-name": "The page name argument is missing.",
+	"hierarchybuilder-missing-property-name": "The property name argument is missing.",
+	"hierarchybuilder-invalid-collapsed": "The value of the collapsed argument is invalid."
+}

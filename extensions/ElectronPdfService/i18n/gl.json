@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"electronpdfservice": "Servizo Pdf Electron",
+	"electronpdfservice-desc": "Engade ao navegador soporte de renderización PDF a través do servizo Electron PDF",
+	"electronpdfservice-special-page-headline": "Descargar como PDF",
+	"electronpdfservice-download-label": "Descargar como PDF",
+	"electronpdfservice-download-button": "Descargar",
+	"electronpdfservice-sidebar-portlet-heading": "Imprimir/exportar",
+	"electronpdfservice-sidebar-portlet-print-text": "Descargar como PDF",
+	"electronpdfservice-invalid-page-title": "Páxina non válida",
+	"electronpdfservice-invalid-page-text": "A páxina especificada non é válida."
+}

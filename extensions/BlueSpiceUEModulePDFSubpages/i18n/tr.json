@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-uemodulepdfsubpages-extension-description": "Sayfaların özyinelemeli olarak alt sayfalarla PDF biçiminde dışa aktarılmasını sağlar.",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-text": "Alt sayfalara sahip PDF sayfası",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-title": "Bu sayfayı ve tüm alt sayfaları PDF olarak dışa aktar.",
+	"action-uemodulepdfsubpages-export": "tüm alt sayfalar dahil bir sayfayı PDF'ye dışa aktarma",
+	"right-uemodulepdfsubpages-export": "Tüm alt sayfalar dahil bir sayfayı PDF'ye dışa aktar"
+}

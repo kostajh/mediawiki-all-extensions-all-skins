@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"addpersonalurls-desc": "添加一些項目至個人 URL",
+	"addpersonalurls-preload": "這會運作像是其它 wiki 頁面，特別的是其他使用者可以查看和編輯它。",
+	"addpersonalurls-userpages": "我的頁面",
+	"addpersonalurls-home": "首頁",
+	"addpersonalurls-home-preload": "您可以使用此頁面作為您的個人首頁。",
+	"addpersonalurls-favorites": "個人最愛",
+	"addpersonalurls-favorites-preload": "您可以使用此頁面來儲存您的個人最愛。",
+	"addpersonalurls-sandbox": "沙盒",
+	"addpersonalurls-sandbox-preload": "您可以使用此頁面來測試 wiki 代碼。",
+	"addpersonalurls-notes": "備註",
+	"addpersonalurls-notes-preload": "您可以使用此頁面來用於您的個人備註。"
+}

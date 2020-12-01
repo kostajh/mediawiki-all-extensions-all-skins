@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Reiwa period",
+			"Schu",
+			"Shirayuki",
+			"マツムシ"
+		]
+	},
+	"advancedmeta-desc": "ページ毎のメタ設定（ロボット、キーワード、説明）とタイトルを変更できるようにする",
+	"advancedmeta-metasettings": "メタ設定",
+	"advancedmeta-titlealias": "タイトル別名：",
+	"advancedmeta-navigation-contentaction-label": "検索エンジン最適化",
+	"advancedmeta-dialog-btn-label-save": "保存",
+	"advancedmeta-dialog-btn-label-cancel": "キャンセル",
+	"advancedmeta-dialog-btn-label-delete": "削除",
+	"advancedmeta-dialog-input-label-description": "説明",
+	"advancedmeta-dialog-input-label-follow": "フォロー",
+	"advancedmeta-dialog-input-label-index": "目次",
+	"advancedmeta-dialog-input-label-keywords": "キーワード",
+	"advancedmeta-dialog-input-help-keywords": "キーワードのカンマ区切りリスト。例: keyword1, keyword2, keyword3",
+	"apihelp-advancedmeta-tasks-description": "AdvancedMetaに共通の操作を提供します",
+	"apihelp-advancedmeta-tasks-summary": "AdvancedMetaの削除や編集などの操作を提供します",
+	"apihelp-advancedmeta-tasks-param-task": "実行する必要のタスク",
+	"apihelp-advancedmeta-tasks-param-taskdata": "タスクの任意のデータを含むJSON文字列エンコードオブジェクト",
+	"apihelp-advancedmeta-tasks-param-format": "出力の形式 (JSONまたはフォーマット済みJSONのみ)",
+	"action-advancedmeta-edit": "ページまたは名前空間メタ要素の編集",
+	"right-advancedmeta-edit": "ページまたは名前空間メタ要素を編集"
+}

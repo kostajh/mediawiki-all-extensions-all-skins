@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dvorapa",
+			"Mormegil"
+		]
+	},
+	"parsermigration-desc": "Nástroj pro migraci parseru",
+	"parsermigration-edit-subtitle": "s nástrojem pro migraci parseru",
+	"parsermigration-current": "Původní",
+	"parsermigration-new": "Nová",
+	"parsermigration-pref-label": "Povolit nástroj pro migraci parseru",
+	"parsermigration-pref-help": "Přidává odkaz do postranního panelu, který zpřístupňuje [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration nástroj] pro migraci textu stránky na nové verze parseru MediaWiki.",
+	"parsermigration-toolbox-label": "Editovat s migračním nástrojem"
+}

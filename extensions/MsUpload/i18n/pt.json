@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Fúlvio",
+			"Hamilton Abreu",
+			"Macofe",
+			"Vitorvicentevalente"
+		]
+	},
+	"msu-desc": "Permite a transferência fácil de um ficheiro ou de vários ficheiros em simultâneo",
+	"msu-button-title": "Selecionar ficheiros",
+	"msu-insert-link": "Inserir hiperligação",
+	"msu-insert-gallery": "Inserir todos como galeria",
+	"msu-insert-files": "Inserir todos como ficheiros",
+	"msu-insert-links": "Inserir todos como hiperligações",
+	"msu-insert-image": "Inserir como imagem",
+	"msu-insert-video": "Inserir vídeo",
+	"msu-cancel-upload": "Cancelar carregamento",
+	"msu-continue": "Continuar mesmo assim?",
+	"msu-clean-all": "Limpar lista",
+	"msu-ext-not-allowed": "Só {{PLURAL:$1|é permitido o seguinte tipo de ficheiro|são permitidos os seguintes tipos de ficheiro}}:",
+	"msu-upload-this": "Carregar este ficheiro",
+	"msu-upload-all": "Carregar todos os ficheiros",
+	"msu-upload-good": "Carregar $1 de $2 {{PLURAL:$2|ficheiro|ficheiros}}",
+	"msu-dropzone": "Solte os ficheiros aqui",
+	"msu-comment": "Ficheiro carregado com MsUpload"
+}

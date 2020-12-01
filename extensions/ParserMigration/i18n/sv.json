@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fader",
+			"WikiPhoenix"
+		]
+	},
+	"parsermigration-current": "Gammal",
+	"parsermigration-new": "Ny",
+	"parsermigration-pref-help": "Detta lägger till en länk i sidofältet som går till [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration ett verktyg] för att migrera sidtext till nya versioner av MediaWiki-parsern.",
+	"parsermigration-toolbox-label": "Redigera med migreringsverktyget"
+}

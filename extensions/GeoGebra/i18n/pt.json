@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"He7d3r",
+			"Helder.wiki",
+			"Vitorvicentevalente"
+		]
+	},
+	"geogebra-desc": "Acrescenta <i>gadgets</i> do [http://www.geogebra.org GeoGebra] às páginas",
+	"geogebra-nojava": "Instale $1 para usar esta página, por favor.",
+	"geogebra-missing-parameter": "Falta um parâmetro (\"width\", \"height\" ou \"ggbBase64\").",
+	"geogebra-file-not-found": "Ficheiro $1 não encontrado.",
+	"geogebra-error": "Erro na extensão GeoGebra do Media Wiki: <em>$1</em>"
+}

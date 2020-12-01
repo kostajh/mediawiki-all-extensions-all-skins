@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Milicevic01",
+			"Vlad5250",
+			"Zoranzoki21"
+		]
+	},
+	"openstackmanager-novakey": "Ključ Nove",
+	"openstackmanager-delete": "obriši",
+	"openstackmanager-actions": "Radnje",
+	"openstackmanager-notloggedin": "Potrebna je prijava",
+	"openstackmanager-mustbeloggedin": "Morate biti prijavljeni da biste izvršili ovu radnju.",
+	"openstackmanager-novapublickey": "Javni SSH ključ",
+	"openstackmanager-deletekey": "Brisanje javnog SSH ključa",
+	"openstackmanager-deletekeyconfirm": "Želite li da obrišete gorenavedeni ključ?",
+	"openstackmanager-keylist": "Spisak javnih SSH ključeva",
+	"openstackmanager-addkey": "Dodaj javni SSH ključ",
+	"openstackmanager-name": "Naziv",
+	"openstackmanager-fingerprint": "Otisak",
+	"openstackmanager-keys": "Ključevi",
+	"openstackmanager-keypairimportfailed": "Došlo je do greške prilikom uvoza ključa.",
+	"openstackmanager-keypairimported": "Ključ je uspešno uvezen.",
+	"openstackmanager-deletedkey": "Ključ je uspešno obrisan.",
+	"openstackmanager-deletedkeyfailed": "Ne mogu da obrišem ključ.",
+	"prefs-openstack-keys": "Spisak ključeva"
+}

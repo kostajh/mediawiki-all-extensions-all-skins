@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-socialrating-desc": "Rating functionality for BlueSpiceSocial-entities",
+	"bs-socialrating-aftercontent-ratingtext": "Recommend ($1)",
+	"bs-socialrating-var-rating": "Recommended"
+}

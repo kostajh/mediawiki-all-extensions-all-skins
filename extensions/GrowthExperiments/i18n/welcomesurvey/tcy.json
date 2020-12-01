@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ravi Mundkur"
+		]
+	},
+	"welcomesurvey": "{{GENDER:$1|ಸ್ವಾಗತ}},$1!",
+	"welcomesurvey-save-confirmation-title": "ಧನ್ಯವಾದೊಲು! ಇರೆನ ಜವಾಬು(ಪ್ರತಿಕ್ರಿಯೆ)ಲೆನ್ ಒರಿಪಾದುಂಡು.",
+	"welcomesurvey-subtitle": "ಕೆಲವು ಐಚ್ಚಿಕ ಪ್ರಶ್ನೆಲೆಗ್ ಉತ್ತರ ಕೊರ್ಪಿನ ಮೂಲಕ ಇರೆನಂಚಿನ ಪೊಸ ಬಳಕೆದಾರೆರೆಗ್ ವಿಕಿಪೀಡಿಯಾನ್ ಸುಧಾರಿಸಾವರೆ ಸಹಾಯ ಮಲ್ಪುಲೆ.",
+	"welcomesurvey-save-btn": "ಮುಗಿಪು",
+	"welcomesurvey-skip-btn": "ಸಮೀಕ್ಷೆ ಬುಡುಲೆ",
+	"welcomesurvey-close-btn": "ಮುಚ್ಚಿದ್ ಬೊಕ $1 ಗ್ ಪಿರ ಫೋಲೆ",
+	"welcomesurvey-sidebar-privacy-title": "ಎಂಕುಲು ಇರೆನ ಖಾಸಗಿತೆನ್ ಮಾನಿಸಾವಾ.",
+	"welcomesurvey-privacy-policy-link-text": "ಖಾಸಗಿತನ ಹೇಳಿಕೆ",
+	"welcomesurvey-sidebar-editing-title": "ಸಂಪಾದರೆ ಸುರು ಮಲ್ಪುನಿ",
+	"welcomesurvey-sidebar-editing-link1-text": "ಬೋಧಕ",
+	"welcomesurvey-sidebar-editing-link1-title": "ವಿಕಿಪೀಡಿಯಾ:ಬೋಧಕ",
+	"welcomesurvey-sidebar-editing-link2-text": "ಸಹಾಯ ಮೇಜಿ",
+	"welcomesurvey-sidebar-editing-link2-title": "ವಿಕಿಪೀಡಿಯ: ಸಹಾಯ-ಮೇಜಿ",
+	"welcomesurvey-question-reason-label": "ಇನಿ ಇರೆನ ಖಾತೆನ್ ಈರ್ ದಾಯೆಗ್ ರಚಿಸಾಯರ್?",
+	"welcomesurvey-dropdown-option-select-label": "ದಯಮಲ್ತ್ ಆಯ್ಕೆ ಮಲ್ಪುಲೆ(ಜಪ್ಪುಲೆ)..",
+	"welcomesurvey-question-reason-option-edit-typo-label": "ಒಂಜಿ ವಿಕಿಪೀಡಿಯ ಲೇಖನೊಡು ಒಂಜಿ ಬರೆತಪ್ಪು ಇಜಿಂಡ ದೋಷೊನು ಸರಿ ಮಲ್ಪರೆ",
+	"welcomesurvey-question-reason-option-new-page-label": "ಪೊಸ ವಿಕಿಪೀಡಿಯ ಲೇಖನ ರಚಿಸಾವರೆ",
+	"welcomesurvey-question-reason-option-read-label": "ವಿಕಿಪೀಡಿಯ ಓದರೆ",
+	"welcomesurvey-question-reason-option-other-label": "ಬೇತೆ (ದಯಮಲ್ತ್ ವಿವರಿಸಾಲೆ)",
+	"welcomesurvey-question-reason-other-placeholder": "ಬೇತೆ ಕಾರಣ ಕೊರುಲೆ (ಸೇರಾಲೆ)..",
+	"welcomesurvey-question-mentor-label": "ಅಂದ್, ಎಂಕ್ ಆಸಕ್ತಿ ಉಂಡು.",
+	"welcomesurvey-question-edited-label": "ಈರ್ ಏಪಾಂಡಲಾ ವಿಕಿಪೀಡಿಯ ಸಂಪಾದಿತಿದರಾ?",
+	"welcomesurvey-question-edited-option-yes-many-label": "ಅಂದ್,ದಿಂಜ ಸರ್ತಿ",
+	"welcomesurvey-question-edited-option-yes-few-label": "ಅಂದ್,ಒರ ಇಜಿಂಡ ಇರ್ವೊಲು",
+	"welcomesurvey-question-edited-option-no-dunno-label": "ಇಜ್ಜಿ,ಯಾನ್ ವಿಕಿಪೀಡಿಯ ಸಂಪಾದಿಪೆ ಇಂದ್ ಎಂಕ್ ಗೊತ್ತಿತ್ತಿಜಿ.",
+	"welcomesurvey-question-edited-option-no-other-label": "ಇಜ್ಜಿ,ಬೇತೆ ಕಾರಣೊಲೆಗಾದ್",
+	"welcomesurvey-question-edited-option-dont-remember-label": "ಎಂಕ್ ನೆನಪಿಜ್ಜಿ.",
+	"welcomesurvey-question-email-label": "ಇಮೇಲ್ ವಿಳಾಸ (ಐಚ್ಚಿಕ)",
+	"welcomesurvey-question-email-placeholder": "ಇರೆನ ಇಮೇಲ್ ವಿಳಾಸ ಸೇರಾಲೆ.."
+}

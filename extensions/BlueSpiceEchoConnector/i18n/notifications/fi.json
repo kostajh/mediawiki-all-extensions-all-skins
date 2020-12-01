@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"bs-notifications-create": "Sivu \"$1\" luotiin",
+	"bs-notifications-email-delete-subject": "$3 {{GENDER:$2|poisti}} sivun \"$1\" $4"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Creepario",
+			"Kghbln",
+			"Lib2know",
+			"Metalhead64",
+			"Tiin"
+		]
+	},
+	"bouncehandler-desc": "Hilft bei der Handhabung von E-Mail-Rückläufern",
+	"bouncehandler-notify_subject": "Rücksendung eines temporären Rückläufers",
+	"notification-bouncehandler": "{{GENDER:$1|Deine}} registrierte E-Mail-Adresse ist nicht mehr gültig.",
+	"notification-bouncehandler-flyout": "{{GENDER:$2|Deine}} registrierte E-Mail-Adresse $1 wurde abgemeldet, da mehrere Nachrichtenversendungen fehlschlugen. Du kannst [[Special:ConfirmEmail|erneut {{GENDER:$2|deine}} E-Mail-Adresse verifizieren]].",
+	"notification-link-text-change-email": "Deine E-Mail-Adresse ändern",
+	"notification-header-unsubscribe-bouncehandler": "{{GENDER:$4|Deine}} registrierte E-Mail-Adresse $3 wurde aufgrund mehrerer Nachrichtenversandfehler ausgetragen. Du kannst erneut {{GENDER:$4|deine}} E-Mail-Adresse verifizieren."
+}

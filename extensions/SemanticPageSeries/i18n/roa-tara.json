@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"semanticpageseries-desc": "Ccreje 'na serie de pàggene da 'nu [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Module Semandeche]",
+	"spssuccesstitle": "Stoche a ccreje $1 pàggene",
+	"spssuccess": "{{PLURAL:$1|'Na pàgene|$1 pàggene}} onna essere ccrejate.",
+	"spssuccess-returntoorigin": "Tuèrne a $1",
+	"spserror": "Ave assute 'n'errore",
+	"spserror-diffnotsupported": "L'azione de differenze non g'è supportate pe le serie de pàggene.",
+	"spserror-previewnotsupported": "L'azione de andeprime non g'è supportate pe le serie de pàggene.",
+	"spserror-noiteratorname": "Nisciune iteratore specificate. Jè necessarie 'mbostà 'u parametre \"iterator\" jndr'à chiamate a 'a funzione analizzatrice #serieslink.",
+	"spserror-iteratorunknown": "Iteratore \"$1\" non g'esiste. Jè necessarie 'mbostà 'u parametre \"iterator\" jndr'à chiamate a 'a funzione analizzatrice #serieslink.",
+	"spserror-noformname": "Nisciune nome d'u module specificate. Jè necessarie 'mbostà 'u parametre \"form\" jndr'à chiamate a 'a funzione analizzatrice #serieslink.",
+	"spserror-formunknown": "Form \"$1\" non g'esiste.",
+	"spserror-notargetformname": "Nisciune nome de module de destinazione specificate. Jè necessarie 'mbostà 'u parametre \"target form\" jndr'à chiamate a 'a funzione analizzatrice #serieslink.",
+	"spserror-notargetfieldname": "Nisciune nome de cambe de destinazione specificate. Jè necessarie 'mbostà 'u parametre \"target field\" jndr'à chiamate a 'a funzione analizzatrice #serieslink.",
+	"spserror-iteratorparammissing": "Le parametre de iterazione mangane jndr'à chiamate a 'a funzione #serieslink:\n$1",
+	"spserror-noiteratordata": "Nisciune parametre de iterazione acchiate jndr'à le date mannate.",
+	"spserror-pagegenerationlimitexeeded": "Ste pruève a generà {{PLURAL:$1|'na pàgene|$1 pàggene}}. Quiste supere 'u limite conzendite de {{PLURAL:$2|'na pàgene|$2 pàggene}}.",
+	"spserror-date-startdatemissing": "Manghe 'a date de inizie.",
+	"spserror-date-internalerror": "Ha assute 'n'errore quanne ste ccreje le date: $1",
+	"spserror-count-startvaluemalformed": "'U valore iniziale non g'è 'nu numere.",
+	"spserror-count-endvaluemalformed": "'U valore finale non g'è 'nu numere.",
+	"spserror-count-stepvaluemalformed": "'U valore d'u passe non g'è 'nu numere.",
+	"spserror-count-digitsvaluemalformed": "'U valore digitale non g'è 'nu numere."
+}

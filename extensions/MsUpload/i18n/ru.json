@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iniquity",
+			"Movses",
+			"Okras",
+			"Shaleych",
+			"Vlad5250",
+			"alexandr"
+		]
+	},
+	"msu-desc": "Позволяет удобно загружать один или несколько файлов одновременно",
+	"msu-button-title": "Выберите файлы",
+	"msu-insert-link": "Вставить ссылку",
+	"msu-insert-gallery": "Вставить картинки как галерея",
+	"msu-insert-files": "Вставить всё как файлы",
+	"msu-insert-links": "Вставить всё как ссылки",
+	"msu-insert-image": "Вставить как изображение",
+	"msu-insert-video": "Вставить видео",
+	"msu-cancel-upload": "Отменить загрузку",
+	"msu-continue": "Всё равно продолжить?",
+	"msu-clean-all": "Очистить список",
+	"msu-ext-not-allowed": "Разрешен{{PLURAL:$1||ы}} только {{PLURAL:$1|следующий тип|следующие типы}} файлов:",
+	"msu-upload-this": "Загрузить этот файл",
+	"msu-upload-all": "Загрузить все файлы",
+	"msu-upload-good": "Загрузить $1 із $2 {{PLURAL:$2|файла|файлов}}",
+	"msu-dropzone": "Перетащите файлы сюда",
+	"msu-comment": "Файл, загруженный с помощью MsUpload"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"securesessions-personalurl": "Otvorene sjednice ($1)",
+	"securesessions-ipsession": "Odjava sa svih ostalih sjednica",
+	"securesessions-iprestrict": "Restriktiraj sjednicu na ovu IP adresu,",
+	"securesessions-uarestrict": "Restriktiraj sjednicu na ovom pregledniku.",
+	"securesessions-sessions": "Sjednice",
+	"securesessions-sessions-legend": "Informacije o sjednici",
+	"securesessions-sessions-text": "Ispod su sve otvorene sjednice Vašeg računa i informacijete o njih. Možete zatvoriti sve ostale sjednice dugmetom ispod. Trenutna sjednica je označena zvjezdicom (*).",
+	"securesessions-sessions-ip": "IP adresa:",
+	"securesessions-sessions-activity": "Posljednja #aktivnost:",
+	"securesessions-sessions-clear": "Odjava sa svih ostalih sjednica"
+}

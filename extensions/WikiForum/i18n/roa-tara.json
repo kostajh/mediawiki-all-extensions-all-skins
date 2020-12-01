@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"wikiforum-anonymous": "Anonime",
+	"wikiforum-description": "Descrizione:",
+	"wikiforum-forum-name": "Forum $1",
+	"wikiforum-name": "Nome:",
+	"wikiforum-button-preview": "Andeprime",
+	"wikiforum-preview": "Andeprime",
+	"wikiforum-preview-with-title": "Andeprime: $1",
+	"wikiforum-save": "Reggìstre",
+	"wikiforum-search-thread": "Argomende: $1",
+	"wikiforum-topic-name": "Forum $1",
+	"wikiforum-write-thread": "Argomende nuève",
+	"wikiforum-replies": "Resposte",
+	"wikiforum-views": "Visite",
+	"wikiforum-thread": "Argomende",
+	"wikiforum-threads": "Argomende",
+	"wikiforum-latest-reply": "L'urtema resposte",
+	"wikiforum-latest-thread": "L'urteme argomende",
+	"wikiforum-forum": "Forum: $1 > $2",
+	"wikiforum-overview": "Panorameche",
+	"wikiforum-pages": "{{PLURAL:$1|Pàgene|Pàggene}}:",
+	"wikiforum-thread-closed": "'Ngazzamende achiuse",
+	"wikiforum-sticky": "'Ngazzamende evidenziate",
+	"wikiforum-new-thread": "'Ngazzamende nuève",
+	"wikiforum-edit-thread": "Cange 'u 'ngazzamende",
+	"wikiforum-delete-thread": "Scangille 'u 'ngazzamende",
+	"wikiforum-close-thread": "Achiude 'u 'ngazzamende",
+	"wikiforum-reopen-thread": "Riapre 'u 'ngazzamende",
+	"wikiforum-write-reply": "Scrive 'na resposte",
+	"wikiforum-edit-reply": "Cange 'a resposte",
+	"wikiforum-delete-reply": "Scangille 'a resposte",
+	"wikiforum-save-thread": "Reggistre 'u 'ngazzamende",
+	"wikiforum-save-reply": "Reggistre 'a resposte",
+	"wikiforum-thread-title": "Titole d'u 'ngazzamende tune",
+	"wikiforum-error-search": "Errore de ricerche"
+}

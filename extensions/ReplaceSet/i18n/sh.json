@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"replaceset-desc": "Dodaje parsersku  funkciju nowiki>{{#replaceset}}</nowiki> koja koristi se za zamjenu odeljaka teksta sa formatiranim podacima",
+	"replaceset-error-calllimit": "Dostignuta je granica ($1) broja poziva ReplaceSeta.",
+	"replaceset-error-regexnoend": "U šemi „$1“ regularnoga izraza nedostaje završni razdjelnik „$2“",
+	"replaceset-error-regexbadmodifier": "Modifikator „$1“ regularnoga izraza je nevaljan."
+}

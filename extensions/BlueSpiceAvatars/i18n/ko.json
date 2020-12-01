@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"HDNua",
+			"Hwangjy9",
+			"Tyey",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"prefs-avatars": "아바타",
+	"bs-avatars-pref-defaultsize": "픽셀의 기본 크기:",
+	"bs-avatars-pref-userimage": "사용자 그림:",
+	"bs-avatars-pref-userimage-img-alt": "현재 사용자 그림",
+	"bs-avatars-upload-complete": "사진이 업로드되었습니다.",
+	"bs-avatars-generate-complete": "새 아바타가 만들어졌습니다.",
+	"bs-avatars-upload-title": "프로필 사진 바꾸기",
+	"bs-avatars-upload-label": "사진",
+	"bs-avatars-generate-new-label": "새 아바타 만들기",
+	"bs-avatars-warning-title": "경고",
+	"bs-avatars-warning-text": "환경 설정에 사용자 사진이 설정되어 있습니다. 아바타를 사용하면 이 설정이 삭제됩니다. 계속하시겠습니까?",
+	"bs-avatars-userimage-title": "위키 또는 사진 URL의 사진",
+	"bs-avatars-userimage-help": "예: Picture.jpg 또는 http://localhost/Picture.gif",
+	"bs-avatars-userimage-alt": "사용자 \"$1\"의 프로파일 그림",
+	"bs-avatars-set-userimage-failed": "위키에서 유효한 URL 또는 사진이 아닙니다.",
+	"bs-avatars-set-userimage-saved": "사용자 사진이 저장되었습니다.",
+	"bs-avatars-file-upload-fieldset-title": "사진 올리기",
+	"bs-avatars-auto-generate-fieldset-title": "아바타 자동 생성",
+	"apihelp-bs-avatars-tasks-description": "사용자 아바타의 업로드, 생성, 설정",
+	"apihelp-bs-avatars-tasks-summary": "사용자 아바타의 업로드, 생성, 설정",
+	"bs-avatars-tag-profileimage-error-invalidusername": "\"username\" 변수는 필수이며 유효한 사용자 이름이 포함되어야 합니다"
+}

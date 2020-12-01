@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vks"
+		]
+	},
+	"security-type-category": "kategorie",
+	"security-type-namespace": "jmenný prostor",
+	"restriction-read": "Čtení"
+}

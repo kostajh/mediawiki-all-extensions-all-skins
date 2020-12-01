@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"multiupload": "Carica più file",
+	"multiupload-desc": "[[Special:MultiUpload|Pagina speciale per caricare più file contemporaneamente]]",
+	"multipleupload": "Carica file",
+	"multipleupload-toolbox": "Carica più file",
+	"multiupload-submit": "Carica file",
+	"multiupload-row": "File $1",
+	"multiupload-notify-ok": "OK",
+	"multiupload-http-error": "Impossibile connettersi al server."
+}

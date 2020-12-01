@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"gpgmail-desc": "GPG ile e-postaları şifrele",
+	"gpgmail-pref-enable": "GPG ile e-postaları şifrele",
+	"gpgmail-pref-key": "GPG genel anahtarı",
+	"gpgmail-pref-key-help": "Açık anahtar alma konusunda yardım için [https://help.ubuntu.com/community/GnuPrivacyGuardHowto Ubuntu nasıl yapılır sayfasına] bakınız.",
+	"gpgmail-encrypt-error": "E-posta şifrelenirken bir hata oluştu."
+}

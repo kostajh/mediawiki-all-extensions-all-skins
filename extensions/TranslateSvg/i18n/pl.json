@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"Chrumps",
+			"The Polish"
+		]
+	},
+	"translate-svg-thumbnail": "Oryginalny plik",
+	"translate-page-description-legend-svgmg": "Informacje na temat tego pliku",
+	"translate-taction-mstats-svgmg": "Statystyki pliku",
+	"translate-taction-export-svgmg": "Prześlij zaktualizowaną wersję pliku",
+	"translate-svg-table-header": "Identyfikator wiadomości",
+	"translate-svg-filepage-edit": "edycja",
+	"translate-svg-filepage-another": "inny język",
+	"translate-svg-filepage-other": "inne języki",
+	"translate-svg-filepage-invite": "Ten plik może łatwo przetłumaczyć na $1",
+	"translate-svg-upload-comment": "Aktualizacja tłumaczeń (rozpoczęte: $1; zmienione/rozszerzone: $2)",
+	"translate-svg-chooselanguage-title": "Wybór języka",
+	"translate-svg-chooselanguage-desc": "Wybierz język, na który chcesz przetłumaczyć ten plik SVG:",
+	"translate-svg-instructions-title": "Po raz pierwszy tłumaczysz w ten sposób plik SVG?",
+	"translate-svg-warn-inner": "zapisuje te zmiany z powrotem w oryginalnym pliku",
+	"translate-svg-new-title": "Tłumaczenie SVG",
+	"translate-svg-new-label": "Język:",
+	"translate-js-properties-legend": "Właściwości",
+	"translate-js-label-x": "Współrzędna X:",
+	"translate-js-label-y": "Współrzędna Y:",
+	"translate-js-label-color": "Kolor:",
+	"translate-js-label-font-family": "Czcionka:",
+	"translate-js-label-bold": "Pogrubienie",
+	"translate-js-label-italic": "Kursywa",
+	"translate-js-label-underline": "Podkreślenie"
+}

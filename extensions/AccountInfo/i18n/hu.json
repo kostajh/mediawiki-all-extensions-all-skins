@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dj",
+			"Dorgan",
+			"Misibacsi",
+			"Wolf Rex"
+		]
+	},
+	"accountinfo": "Fiókinformációk",
+	"accountinfo-desc": "Lehetőséget biztosít a felhasználók számára a róluk tárolt privát információk megtekintésére",
+	"accountinfo-ts": "Időbélyeg",
+	"accountinfo-ip": "IP-cím",
+	"accountinfo-ua": "Böngésző típusa",
+	"accountinfo-xff": "XFF-fejléc",
+	"accountinfo-length": "Információ megtartás időtartama: $1.",
+	"accountinfo-now": "Most"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"emailauthorization-config-label-username": "Потребителско име",
+	"emailauthorization-config-label-realname": "Истинско име",
+	"emailauthorization-config-value-yes": "да",
+	"emailauthorization-config-value-no": "не",
+	"emailauthorization-config-button-add": "Добавяне",
+	"emailauthorization-request-button-submit": "Изпращане",
+	"emailauthorization-approve-button-next": "Следваща"
+}

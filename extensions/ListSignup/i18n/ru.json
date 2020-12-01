@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexandr Efremov"
+		]
+	},
+	"listsignup": "Подписаться на список",
+	"listsignup-desc": "Форма подписания отдельного список",
+	"listsignup-legend": "Введите вашу информацию ниже.",
+	"listsignup-success": "Ваш адрес электронной почты был добавлен.",
+	"listsignupdisplay": "Отображение списка регистрации",
+	"listsignuppurge": "Очистка списка регистрации",
+	"listsignuppurge-legend": "Очистить всю информацию из регистрационного списка",
+	"listsignuppurge-pretext": "'''Внимание!''' Это удалит все адреса из списка. \nЭто действие не может быть отменено.",
+	"listsignuppurge-success": "Список был очищен!",
+	"right-viewlistsignupdisplay": "Просмотр списка регистрации",
+	"right-purgelistsignupdisplay": "Очистить список регистрации",
+	"action-viewlistsignupdisplay": "просмотр списка регистрации",
+	"action-purgelistsignupdisplay": "очистить список регистрации"
+}

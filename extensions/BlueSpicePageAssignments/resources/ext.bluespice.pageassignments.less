@@ -1,0 +1,88 @@
+#sbb-PageAssignments-Body-text ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+span.bs-icon-specialeveryone:before {
+	content: "\f013";
+	font-family: 'fontawesome' !important;
+	color: @bs-pageassignments-icon-specialeveryone-color;
+}
+
+#content {
+	#bs-pageassignments-manager,
+	#bs-pageassignments-overview {
+		span.bs-typeicon::before {
+			color: #333;
+		}
+		span.bs-icon-specialeveryone:before {
+			color: @bs-pageassignments-icon-specialeveryone-color;
+		}
+	}
+}
+.grapicallist-pageassignments-body {
+	span.section {
+		border-bottom: 1px solid white;
+		margin-top: 10px;
+	}
+	div.bs-pageassignment-assignment-graphicallistitem {
+		min-width: 200px;
+		min-height: 50px;
+		display: flex;
+		.bs-pageassignments-assignment-image {
+			width: 50px;
+			float: left;
+			.bs-userminiprofile, .bs-groupminiprofile {
+				display: inline;
+				img {
+					width: 48px;
+					height: 48px;
+					border-radius: 128px;
+					margin-right: 5px;
+					margin-bottom: 5px;
+				}
+			}
+			span[class^='bs-icon-']:before {
+				font-size: 48px;
+			}
+		}
+		.bs-pageassignments-assignment-content {
+			h3 {
+				font-size: 1.1em;
+			}
+		}
+	}
+}
+
+.bs-pageassignments-flyout-grid {
+	.x-grid-row {
+		height: 47px;
+	}
+	.bs-pageassignments-flyout-grid-item {
+		.bs-userminiprofile, .bs-groupminiprofile{
+			display: inline-block;
+			width: 40px;
+			.bs-userhelpful {
+				position: absolute;
+				width: 30%;
+				margin-right: 5px;
+				position: absolute;
+				top: 10px;
+				right: 0px;
+				height: 30px;
+			}
+		}
+		span {
+			font-weight: bold;
+		}
+		span.assignee-type {
+			font-weight: normal;
+			&:before {
+				content: "(";
+			}
+			&:after {
+				content: ")";
+			}
+		}
+	}
+}

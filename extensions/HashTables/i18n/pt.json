@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"hashtables-desc": "Funções do analisador sintático que permitem trabalhar com tabelas de dispersão (<i>hash tables</i>) num contexto limitado ao âmbito de uma página"
+}

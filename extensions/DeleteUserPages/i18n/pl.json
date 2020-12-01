@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"deleteuserpages-desc": "Pozwala użytkownikom kasować ich własne strony użytkownika",
+	"action-delete-rootuserpages": "kasowania własnych stron i dyskusji użytkownika",
+	"right-delete-rootuserpages": "Kasowanie własnych stron i dyskusji użytkownika",
+	"action-delete-usersubpages": "kasowania podstron własnych stron użytkownika",
+	"right-delete-usersubpages": "Kasowanie podstron własnych stron użytkownika"
+}

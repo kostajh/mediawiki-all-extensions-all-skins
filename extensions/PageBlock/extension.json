@@ -1,0 +1,60 @@
+{
+	"name": "PageBlock",
+	"version": "0.2.0",
+	"author": [
+		"Kunal Mehta"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PageBlock",
+	"descriptionmsg": "pageblock-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"AutoloadClasses": {
+		"PageBlockHooks": "includes/PageBlockHooks.php",
+		"PageBlock": "includes/PageBlock.php",
+		"PageBlockLogFormatter": "includes/PageBlockLogFormatter.php",
+		"SpecialPageBlock": "includes/specials/SpecialPageBlock.php",
+		"SpecialListRestrictions": "includes/specials/SpecialListRestrictions.php",
+		"RestrictionsPager": "includes/RestrictionsPager.php"
+	},
+	"AvailableRights": [
+		"page-block"
+	],
+	"ExtensionMessagesFiles": {
+		"PageBlockAlias": "PageBlock.alias.php"
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"page-block": true
+		}
+	},
+	"Hooks": {
+		"getUserPermissionsErrorsExpensive": "PageBlockHooks::onGetUserPermissionsErrorsExpensive"
+	},
+	"LogActionsHandlers": {
+		"restrict/*": "PageBlockLogFormatter"
+	},
+	"MessagesDirs": {
+		"PageBlock": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.PageBlock.special": {
+			"scripts": [
+				"ext.PageBlock.special.js"
+			],
+			"dependencies": [
+				"mediawiki.htmlform"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "PageBlock/resources"
+	},
+	"SpecialPages": {
+		"PageBlock": "SpecialPageBlock",
+		"ListRestrictions": "SpecialListRestrictions"
+	},
+	"manifest_version": 1
+}

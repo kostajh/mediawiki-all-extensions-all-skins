@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diralik",
+			"Kaganer",
+			"Okras",
+			"Pastakhov"
+		]
+	},
+	"multimaps-desc": "Позволяет пользователям отображать карты и координатные данные, используя несколько картографических сервисов",
+	"multimaps-loading-map": "Идёт загрузка карты…",
+	"multimaps-mapservices-must-not-empty-array": "Переменная «$1» не должна быть пустым массивом",
+	"multimaps-had-following-errors": "При обработке переданных параметров возникли следующие ошибки:",
+	"multimaps-element-illegal-value": "Для параметра «$1» было указанно недопустимое значение «$2». Допустимыми значениями являются: $3",
+	"multimaps-element-more-parameters": "Для этого элемента карты « $1 » передано больше параметров, чем ожидалось:",
+	"multimaps-element-parameters-not-processed": "следующие параметры не были обработаны: $1",
+	"multimaps-circle-radius-not-defined": "для окружности должен быть определен радиус",
+	"multimaps-circle-wrong-number-parameters": "для круга должно быть определено только два параметра, координаты центра и радиус. Однако, сейчас {{PLURAL:$1|указан один параметр|указано $1 параметра|указано $1 параметров}}",
+	"multimaps-marker-incorrect-icon": "Для значка маркера указано неправильное имя файла « $1 »",
+	"multimaps-marker-incorrect-icon-url": "Для значка маркера был указан неправильный URL-адрес «$1».",
+	"multimaps-marker-incorrect-icon-size": "Для значка маркера «$2» был указан неверный размер «$1».",
+	"multimaps-marker-incorrect-icon-anchor": "Для значка маркера «$2» был указан неверный якорь «$1».",
+	"multimaps-marker-incorrect-shadow-file": "Для тени значка было указано неверное имя файла «$1».",
+	"multimaps-marker-incorrect-shadow-url": "Для тени значка был указан неверный адрес «$1».",
+	"multimaps-marker-incorrect-shadow-size": "Для тени значка «$2» был указан неверный размер «$1».",
+	"multimaps-marker-incorrect-shadow-anchor": "Для тени значка «$2» был указан неверный якорь «$1».",
+	"multimaps-passed-unavailable-service": "Имя службы «$1» не найдено в списке доступных служб ($2). Была использована служба по умолчанию «$3»",
+	"multimaps-square-wrong-number-points": "координаты квадрата должны состоять только из двух точек, однако сейчас {{PLURAL:$1|указана одна точка|указано $1 точки|указано $1 точек}}",
+	"multimaps-unable-create-element": "Элемент карты « $1 » не может быть создан",
+	"multimaps-unable-parse-coordinates": "не удаётся выполнить разбор географических координат « $1 »",
+	"multimaps-unable-parse-parameter": "не удаётся выполнить разбор параметра « $1 » значение « $2 »",
+	"multimaps-unable-parse-radius": "радиус круга должен быть числовым значением, но указанно « $1 »",
+	"multimaps-unknown-class-for-service": "Класс « $1 », который определен для службы, не может быть найден.",
+	"multimaps-unknown-parameter": "Неизвестный параметр: « $1 »",
+	"multimaps-error-incorrect-class-for-service": "Класс « $1 », который определен для службы, не может быть использован.",
+	"multimaps-method-error-unknown-action": "$1: Неизвестное действие",
+	"multimaps-method-error-unexpected-result": "$1: Неожиданный результат функции"
+}

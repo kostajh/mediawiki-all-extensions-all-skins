@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg",
+			"Vodnokon4e",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"translatorsignup": "Регистрация за преводач",
+	"translatorsignup-summary": "Използвайте тази страница, за да посочите на кои езици можете да превеждате и как предпочитате да се свържем с вас при нови заявки за превод.",
+	"translationnotifications-username": "Потребителско име:",
+	"translationnotifications-email-confirmed": "Адресът на електронната Ви поща е потвърден",
+	"translationnotifications-languages": "Езици",
+	"translationnotifications-lang": "Език № $1",
+	"translationnotifications-nolang": "Изберете език",
+	"translationnotifications-contact": "Предпочитан начин за връзка",
+	"translationnotifications-cmethod-email": "Е-поща",
+	"translationnotifications-cmethod-talkpage": "Беседа",
+	"translationnotifications-cmethod-talkpage-elsewhere": "Беседа на друго уики",
+	"translationnotifications-frequency": "Периодичност на контактите",
+	"translationnotifications-freq-always": "Когато има нещо ново за превод",
+	"translationnotifications-freq-week": "Максимум веднъж в седмицата",
+	"translationnotifications-freq-month": "Максимум веднъж в месеца",
+	"translationnotifications-freq-weekly": "Седмично резюме",
+	"translationnotifications-freq-monthly": "Месечно резюме",
+	"translationnotifications-submit": "Актуализиране на настройките",
+	"translationnotifications-send-notification-button": "Изпращане на известие до преводачите",
+	"translationnotifications-log-alllanguages": "всички езици"
+}

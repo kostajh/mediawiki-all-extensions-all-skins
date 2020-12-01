@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"LNDDYL"
+		]
+	},
+	"bs-insertTemplate-desc": "用來插入模板的對話框",
+	"bs-insertTemplate-button-template-title": "插入或編輯模板",
+	"bs-insertTemplate-dialog-title": "插入模板",
+	"bs-insertTemplate-dialog-label-choose": "選擇模板",
+	"bs-insertTemplate-dialog-label-modify": "修改模板",
+	"bs-insertTemplate-dialog-label-preview": "預覽",
+	"apihelp-bs-inserttemplate-store-description": "列出所有模板。允許排序、篩選，以及分頁。執行 ExtJS 所儲存的變數。",
+	"apihelp-bs-inserttemplate-store-summary": "列出所有模板。允許排序、篩選，以及分頁。執行 ExtJS 所儲存的變數。"
+}

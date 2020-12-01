@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"gotoshell": "Ir a la consola",
+	"gotoshell-desc": "Implementa [[Special:GoToShell|una página especial]] que permite a los usuarios utilizar el intérprete de órdenes",
+	"gotoshell-notallowed": "Tu cuenta no tiene permiso de utilizar la consola.",
+	"gotoshell-command": "Orden:",
+	"gotoshell-result": "Resultado:"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"hierarchybuilder-desc": "Procesa e permite a edición e selección a partir da páxina de xerarquías",
+	"hierarchybuilder-reveal-editmessage": "Como uso isto?",
+	"hierarchybuilder-editmessage": "A lista da Raíz de Xerarquía contén a xerarquía que se manterá cando vostede grave. A lista de Páxinas sen Uso contén as páxinas na categoría $1 que non están actualmente na xerarquía. Vostede pode reorganizar a lista da Raíz de Xerarquía arrastrando filas arriba e abaixo e tamén cambiando a súa sangría. Pode engadir páxinas da lista de Páxinas sen Uso á xerarquía arrastrándoas e soltándoas onde quera na lista da Raíz de Xerarquía. Pode eliminar páxinas da xerarquía arrastrándoas da lista da Raíz de Xerarquía e soltándoas en calquera lado na lista de Páxinas sen Uso.",
+	"hierarchybuilder-edit-error-message": "Esta xerarquía non pode ser editada porque os datos da xerarquía e a categoría da que obter as páxinas sen uso están baleiras. Por favor, asegúrese de que polo menos unha destas fontes ten datos.",
+	"hierarchybuilder-hierarchyroot": "Raiz da xerarquía",
+	"hierarchybuilder-unusedpages": "Páxinas sen uso",
+	"hierarchybuilder-category-desc": "Esta é a categoría na que deben estar as páxinas da xerarquía.",
+	"hierarchybuilder-missing-category": "Falta o argumento da categoría.",
+	"hierarchybuilder-hierarchy-desc": "Esta é unha xerarquía formateada en texto wiki.",
+	"hierarchybuilder-pagename-desc": "Este é o nome da páxina que contén a xerarquía.",
+	"hierarchybuilder-propertyname-desc": "Ese é o nome da propiedade que contén a xerarquía.",
+	"hierarchybuilder-collapsed-desc": "Se se proporciona este parámetro, a xerarquía será procesada de forma pregada cando se visualice a primeira vez.",
+	"hierarchybuilder-missing-page-name": "Falta o argumento do nome da páxina.",
+	"hierarchybuilder-missing-property-name": "Falta o argumento da propiedade do nome.",
+	"hierarchybuilder-invalid-collapsed": "O valor do argumento pregado é incorrecto."
+}

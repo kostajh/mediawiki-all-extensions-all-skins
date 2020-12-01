@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"jsbreadcrumbs-desc": "Dodaje trag za navigaciju putem mrvica ispod trake sa jezičcima",
+	"prefs-jsbreadcrumbs": "Mrvice",
+	"prefs-jsbreadcrumbs-showcrumbs": "Prikaži mrvice",
+	"prefs-jsbreadcrumbs-numberofcrumbs": "Broj mrvica",
+	"prefs-jsbreadcrumbs-showsite": "Uključuje ime sajta u mrvice (korisno kad se koristi među wikijima)"
+}

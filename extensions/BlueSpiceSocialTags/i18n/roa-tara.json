@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-socialtags-desc": "Aggiunge 'a funzione de tag a le endità suggiale",
+	"bs-socialtags-tagstext": "{{plural:$1|Pàgene|Pàggene}} collegate ($1)",
+	"bs-socialtags-var-tags": "Pàggene collegate",
+	"socialtags": "Pàggene collegate",
+	"bs-socialtags-special-heading": "Pàggene collegate",
+	"apihelp-bs-socialtags-tasks-summary": "Dèje combite pu cangiamende de le state de le pàggene collegate de l'endità",
+	"action-social-tagging": "cange le pàggene collegate",
+	"right-social-tagging": "Cange le pàggene collegate"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"multiupload": "Meerdere bestanden uploaden",
+	"multiupload-desc": "[[Special:MultiUpload|Special pagina om meerdere bestanden in één keer te uploaden]]",
+	"multipleupload": "Bestanden uploaden",
+	"multipleupload-toolbox": "Meerdere bestande uploaden",
+	"multiupload-submit": "Bestanden uploaden",
+	"multiupload-uploadedto": "Bestand $1 geupload.",
+	"multiupload-row": "Bestand $1",
+	"multiupload-unpack-button": "Uitpakken",
+	"multiupload-notify-ok": "OK",
+	"multiupload-unreadable-package": "Kan bestand $1 niet lezen",
+	"multiupload-http-error": "Er kan geen verbinding gemaakt worden met de server.",
+	"apihelp-multiupload-unpack-description": "Pak een ZIP of tar archief uit alvorens de inhoud te importeren.",
+	"apihelp-multiupload-unpack-summary": "Pak een ZIP of tar archief uit alvorens de inhoud te importeren."
+}

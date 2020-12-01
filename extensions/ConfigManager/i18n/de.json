@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwboehm",
+			"Metalhead64",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"configmanager-admintool-label": "Konfigurationsverwaltung",
+	"action-configmanager-viewspecialpage": "die Spezialseite „{{int:configmanager}}“ anzusehen",
+	"configmanager": "Konfigurationsverwaltung",
+	"configmanager-desc": "Bietet die Möglichkeit für Administratoren, das ganze Wiki mit einer einzigen Spezialseite zu konfigurieren",
+	"configmanager-discardchanges": "Änderungen verwerfen?",
+	"configmanager-noentry": "Keinen Eintrag gefunden",
+	"apihelp-configmanager-tasks-summary": "Verwaltet Aufgaben",
+	"apihelp-configmanager-store-summary": "Verwaltet Speicher",
+	"right-configmanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:ConfigManager]]"
+}

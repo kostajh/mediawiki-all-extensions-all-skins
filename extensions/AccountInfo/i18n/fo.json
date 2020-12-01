@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"EileenSanda"
+		]
+	},
+	"accountinfo": "Kunning um konto",
+	"accountinfo-desc": "Loyvir brúkarum at síggja goymda privata kunning um tey",
+	"accountinfo-ts": "Tíðarstempul",
+	"accountinfo-ip": "IP-adressa",
+	"accountinfo-xff": "XFF yvirskrift",
+	"accountinfo-length": "Kunning er varðveitt fyri $1.",
+	"accountinfo-now": "Nú"
+}

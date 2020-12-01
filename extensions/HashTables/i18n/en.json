@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel Werner"
+		]
+	},
+	"hashtables-desc": "Parser functions allowing to work with hash tables in a page scoped context"
+}

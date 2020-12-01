@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Mguix"
+		]
+	},
+	"bookshelfbookui": "Editor de llibres",
+	"bs-bookshelfui-editor-title": "Editor de llibres: $1",
+	"bs-bookshelfui-widget-editor-link-text": "Edita aquest llibre",
+	"bs-bookshelfui-bookui-savingprogress-text": "Espereu mentre el llibre es desa al servidor",
+	"bs-bookshelfui-manager-title": "Títol",
+	"bs-bookshelfui-manager-deletionsuccess-text": "S’ha suprimit el llibre correctament.",
+	"bs-bookshelfui-dlg-metadata-title": "Metadades",
+	"bs-bookshelfui-dlg-copy-title": "Copia «$1»",
+	"bs-bookshelfui-dlg-copy-name-addition": " (còpia)",
+	"bs-bookshelfui-dlg-copy-target-namespace-qtip": "Es copiaran totes les pàgines del llibre en aquest espai de noms. Se’n adaptaran els enllaços.",
+	"bs-bookshelfui-dlg-choosecategory-label": "Categoria",
+	"bs-bookshelfui-type-category": "Totes les pàgines d’una categoria",
+	"bs-bookshelfui-dlg-choosepc-label": "Col·lecció de pàgines",
+	"bs-bookshelfui-type-pagecollection": "Col·lecció de pàgines",
+	"bs-bookshelfui-nav-link-title-all-books": "Llibres generals",
+	"bs-bookshelfui-flyout-title": "Llista de llibres",
+	"bs-bookshelfui-book-title-link-edit": "Edita el llibre",
+	"bs-bookshelfui-book-title-link-edit-text": "Edita el llibre",
+	"bs-bookshelfui-export-book-text": "Aguarde mientras se crea el libro.",
+	"bs-bookshelfui-bookmetatag-title": "Títol",
+	"bs-bookshelfui-bookmetatag-subtitle": "Subtítol",
+	"bs-bookshelfui-bookmetatag-docummenttype": "Tipus de document",
+	"bs-bookshelfui-bookmetatag-department": "Departament",
+	"bs-bookshelfui-extjs-tooltip-copy": "Copia",
+	"bookshelf": "Prestatgeria",
+	"bookshelf-summary": "Llibres generals",
+	"bs-bookshelfui-prof-defaultview": "Vista per defecte",
+	"bs-bookshelfui-prof-defaultview-grid": "Graella",
+	"bs-bookshelfui-prof-defaultview-images": "Imatges",
+	"bs-bookshelfui-chapterpager-previous": "Anterior",
+	"bs-bookshelfui-chapterpager-next": "Següent"
+}

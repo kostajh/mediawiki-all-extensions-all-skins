@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ghaly",
+			"Meno25"
+		]
+	},
+	"categorywatch-desc": "يمدد وظيفة قائمة المراقبة لتشمل الإخطارات حول تغييرات العضوية للتصنيفات المراقبة",
+	"categorywatch-emailsubject": "النشاط الذى يشمل التصنيف المراقب \"$1\"",
+	"categorywatch-catmovein": "نقل $1 إلى التصنيف $2 من $3",
+	"categorywatch-catmoveout": "نقل $1 من التصنيف $2 إلى $3",
+	"categorywatch-catadd": "أضاف $1 إلى التصنيف $2",
+	"categorywatch-catsub": "ازال $1 من التصنيف $2"
+}

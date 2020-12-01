@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"globalusage": "Ause d'u file globale",
+	"globalusage-for": "Ause globale pe \"$1\"",
+	"globalusage-filename": "Nome d'u file:",
+	"globalusage-desc": "[[Special:GlobalUsage|Pàgena speciale]] pe vedè l'ause de le file globale",
+	"globalusage-ok": "Cirche",
+	"globalusage-text": "Cirche le file de ause globale",
+	"globalusage-no-results": "[[:$1]] non g'è ausate jndr'à otre Uicchi.",
+	"globalusage-on-wiki": "Ause sus a $2",
+	"globalusage-of-file": "Le seguende Uicchi ausane stu file:",
+	"globalusage-more": "Vide [[{{#Special:GlobalUsage}}/$1|ause globale]] de stu file.",
+	"globalusage-filterlocal": "No fà vedè l'ause locale",
+	"mostgloballylinkedfiles": "Le file cchiù collegate globbalmende",
+	"mostgloballylinkedfiles-summary": "Elenghe de le file ca onne state 'ngapsulate 'u cchiù ierte numere de vote sus a tutte le uicchi. Pe l'elenghe uguale ca pigghie da le cunde sulamende l'ause sus a {{SITENAME}}, 'ndruche [[{{#special:MostLinkedFiles}}]].",
+	"globallywantedfiles": "Le file cchiù cercate globbalmende",
+	"globallywantedfiles-summary": "Elenghe de le file ca onne state 'ngluse cchiù vote jndr'à tutte le uicchi, pure ca non ge esistone. Pe l'elenghe equivalende, ca tène cunde sulamende de l'ause sus a {{SITENAME}}, ve 'ndruche  [[{{#special:WantedFiles}}]]. Le ause de le file da uicchi sensibbile a le maiuscole sus 'a prima lettere ponne essere repurtate jndr'à 'nu mode sbagliate xumme cercate.",
+	"globallywantedfiles-foreign-repo": "<strong>Attenziò:</strong> stu uicchi ause 'n'archivije de fiel de fore. Le file da l'archivije de fore ca avènene ausate pò avenene fatte 'ndrucà jndr'à stu elenghe cu 'nu collegamende blu sbarrate, pure ca lore stonne.",
+	"globalusage-header": "Sta pàgene face 'ndrucà addò 'u file avène ausate jndr'à otre uicchi. Tu puè pure acchià sta 'mbormazione jndr'à pàgene de descrizione d'u file.",
+	"globallyunusedfiles": "Le file non ausate globbalmende",
+	"globallyunusedfilestext": "Le seguende file esistone ma non g'onne state mise jndr'à nisciuna pàgene de nisciuna uicchi.",
+	"globallyunusedfiles-error-nonsharedrepo": "Sta uicchi non ge se iacchie sus a 'u repo condivise"
+}

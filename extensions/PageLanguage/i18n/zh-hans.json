@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Qiyue2001"
+		]
+	},
+	"pagelanguage-desc": "定义每页的网页语言",
+	"pagelanguage-invalid": "'' 警告: '' 将忽略使用无效的语言代码“$1”定义网页语言。",
+	"pagelanguage-duplicate": "'' 警告: '' 页面语言“$2”将覆盖之前的页面语言“$1”。"
+}

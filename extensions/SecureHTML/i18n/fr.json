@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boniface",
+			"Gomoko"
+		]
+	},
+	"securehtml": "HTML sécurisé",
+	"securehtml-desc": "Vous permet d’inclure du code HTML arbitraire dans un cadre autorisé et sécurisé",
+	"securehtml-nokeys": "Erreur: <code>$wgSecureHTMLSecrets</code> n’est pas renseigné.",
+	"securehtml-hashrequired": "Erreur : Hash obligatoire.",
+	"securehtml-invalidhash": "Erreur: Hachage non valide.",
+	"securehtml-input-title": "Entrée HTML",
+	"securehtml-generatedoutput-title": "Sortie générée",
+	"securehtml-renderedhhtml-title": "HTML restitué",
+	"securehtml-form-keyname": "Nom de la clé (facultatif)",
+	"securehtml-form-keysecret": "Clé secrète",
+	"securehtml-form-html": "HTML brut",
+	"securehtml-form-submit": "Envoyer",
+	"securehtml-inputinstructions": "Entrez un nom de clé (facultatif), une clé secrète, et le HTML brut souhaité.\nSi aucun nom de clé n’est spécifié, la première clé dans <code>$wgSecureHTMLSecrets</code> sera prise par défaut.",
+	"securehtml-outputinstructions": "Copiez le code ci-dessous EXACTEMENT et collez-le dans l’éditeur wiki.\nSi le code généré ne fonctionne pas, essayez de supprimer tous les retours à la ligne du HTML d’entrée et générez de nouveau."
+}

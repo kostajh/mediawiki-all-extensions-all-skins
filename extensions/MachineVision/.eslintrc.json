@@ -1,0 +1,54 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"globals": {
+		"wikibase": "readonly"
+	},
+	"rules": {
+		"jsdoc/no-undefined-types": [
+			"warn",
+			{
+				"definedTypes": [
+					"VueComponent",
+					"dataValues"
+				]
+			}
+		]
+	},
+	"overrides": [
+		{
+			"files": [
+				"**/*.vue"
+			],
+			"rules": {
+				"no-jquery/variable-pattern": "warn",
+				"vue/html-self-closing": [
+					"error",
+					{
+						"html": {
+							"void": "never",
+							"normal": "never",
+							"component": "never"
+						}
+					}
+				],
+				"vue/v-bind-style": [
+					"warn",
+					"shorthand"
+				],
+				"vue/v-on-style": [
+					"warn",
+					"shorthand"
+				],
+				"vue/v-slot-style": [
+					"warn",
+					"shorthand"
+				]
+			}
+		}
+	]
+}

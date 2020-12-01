@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kuwaity26",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"accountinfo": "معلومات الحساب",
+	"accountinfo-desc": "يسمح للمستخدمين بعرض معلومات خاصة عنهم.",
+	"accountinfo-ts": "الطابع الزمني",
+	"accountinfo-ip": "عنوان الآيبي",
+	"accountinfo-ua": "وكيل المستخدم",
+	"accountinfo-xff": "رأس XFF",
+	"accountinfo-length": "Iيتم الاحتفاظ بالمعلومات لمدة $1.",
+	"accountinfo-now": "الآن"
+}

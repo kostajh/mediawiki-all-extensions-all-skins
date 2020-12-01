@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexandr Efremov",
+			"Mouse21"
+		]
+	},
+	"sia-description": "Семантически аннотированные изображения и запрос аннотаций",
+	"sia-comment": "комментарий",
+	"sia-buttonannotate": "Аннотировать это изображение",
+	"sia-resize": "Изменить размер изображения"
+}

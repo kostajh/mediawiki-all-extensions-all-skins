@@ -1,0 +1,108 @@
+{
+	"name": "ArticlePlaceholder",
+	"author": [
+		"Lucie-Aimée Kaffee"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ArticlePlaceholder",
+	"descriptionmsg": "articleplaceholder-desc",
+	"type": "other",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"SpecialPages": {
+		"AboutTopic": "ArticlePlaceholder\\Specials\\SpecialAboutTopic::newFromGlobalState",
+		"CreateTopicPage": "ArticlePlaceholder\\Specials\\SpecialCreateTopicPage"
+	},
+	"MessagesDirs": {
+		"ArticlePlaceholder": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"ArticlePlaceholder\\": "includes/"
+	},
+	"ExtensionMessagesFiles": {
+		"ArticlePlaceholderAliases": "ArticlePlaceholder.alias.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "ArticlePlaceholder/modules"
+	},
+	"ResourceModules": {
+		"ext.articleplaceholder.createArticle": {
+			"scripts": [
+				"ext.articleplaceholder.createArticle/ext.articleplaceholder.createArticle.js",
+				"ext.articleplaceholder.createArticle/ext.articleplaceholder.createArticleTranslation.js",
+				"ext.articleplaceholder.createArticle/ext.articleplaceholder.newArticle.js"
+			],
+			"styles": "ext.articleplaceholder.createArticle/ext.articleplaceholder.createArticle.css",
+			"dependencies": [
+				"oojs-ui",
+				"mediawiki.api",
+				"mediawiki.Title"
+			],
+			"messages": [
+				"articleplaceholder-abouttopic-create-article-title",
+				"articleplaceholder-abouttopic-article-exists-error",
+				"articleplaceholder-abouttopic-create-article-submit-button",
+				"articleplaceholder-abouttopic-create-article-label",
+				"articleplaceholder-abouttopic-create-article-mandatory",
+				"articleplaceholder-abouttopic-create-empty-article-button",
+				"articleplaceholder-abouttopic-translate-article-button",
+				"articleplaceholder-abouttopic-translate-article-label",
+				"cancel"
+			]
+		},
+		"ext.articleplaceholder.defaultDisplay": {
+			"styles": {
+				"0": "ext.articleplaceholder.defaultDisplay/ext.articleplaceholder.defaultDisplay.css",
+				"ext.articleplaceholder.defaultDisplay/ext.articleplaceholder.defaultDisplaySmall.css": {
+					"media": "(max-width: 880px)"
+				},
+				"ext.articleplaceholder.defaultDisplay/ext.articleplaceholder.defaultDisplayMobile.css": {
+					"media": "only screen and (max-device-width: 880px)"
+				}
+			},
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"QUnitTestModule": {
+		"localBasePath": "tests/qunit",
+		"remoteExtPath": "ArticlePlaceholder/tests/qunit",
+		"dependencies": [
+			"ext.articleplaceholder.createArticle"
+		],
+		"scripts": [
+			"ext.articleplaceholder.createArticle/createArticle.test.js",
+			"ext.articleplaceholder.createArticle/createArticleTranslation.test.js"
+		]
+	},
+	"Hooks": {
+		"SidebarBeforeOutput": "ArticlePlaceholder\\SidebarBeforeOutputHookHandler::onSidebarBeforeOutput",
+		"ScribuntoExternalLibraries": "ArticlePlaceholder\\Hooks::onScribuntoExternalLibraries",
+		"ScribuntoExternalLibraryPaths": "ArticlePlaceholder\\Hooks::registerScribuntoExternalLibraryPaths",
+		"SpecialSearchResultsAppend": "ArticlePlaceholder\\SearchHookHandler::onSpecialSearchResultsAppend"
+	},
+	"config": {
+		"ArticlePlaceholderImageProperty": {
+			"value": "P18"
+		},
+		"ArticlePlaceholderReferencesBlacklist": {
+			"value": "P143"
+		},
+		"ArticlePlaceholderSearchEngineIndexed": {
+			"value": false
+		},
+		"ArticlePlaceholderSearchIntegrationEnabled": {
+			"value": true
+		},
+		"ArticlePlaceholderRepoApiUrl": {
+			"value": "https://www.wikidata.org/w/api.php"
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"versioncompare": "Comparación de versiones",
+	"version-compare-desc": "Mostrar una comparación de las versiones de los componentes centrales y de las extensiones de dos wikis",
+	"version-compare-database-label": "Base de datos",
+	"version-compare-url-error": "Error al obtener datos de $1.",
+	"version-compare-url-field-help-1": "URL de la API (termina en api.php) del primer wiki que se comparará. Se utilizará el wiki actual si se deja en blanco.",
+	"version-compare-url-field-help-2": "URL de la API (termina en api.php) del segundo wiki que se comparará. Se utilizará el wiki actual si se deja en blanco.",
+	"version-compare-diff-field-label": "Mostrar solo las diferencias"
+}

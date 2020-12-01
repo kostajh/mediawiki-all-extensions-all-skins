@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Diyapazon",
+			"Joseph",
+			"MuratTheTurkish",
+			"Uncitoyen"
+		]
+	},
+	"multiupload": "Birden fazla dosya yükle",
+	"multiupload-desc": "[[Special:MultiUpload|Tek seferde birden fazla dosya yüklemek için özel sayfa]]",
+	"multiupload-text": "Birden fazla dosya yüklemek için aşağıdaki formu kullanın.\nÖnceden yüklenen dosyaları görüntülemek veya aramak için [[Special:FileList|yüklenen dosyaların listesine]] gidin, (yeniden) yüklemeler de [[Special:Log/upload|güncelleme günlüğünde]] kaydedilir, silinmeleri [[Special:Log/delete|silme günlüğüdedir]].\n\nSayfaya dosya eklemek için aşağıdaki formlardan birinde bir bağlantı kullanın:\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Dosya.jpg]]</nowiki></code></strong> dosyasının tam sürümünü kullanma\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Dosya.png|200px|thumb|left|alt metin]]</nowiki></code></strong> açıklama olarak \"alt metin\" ile sol kenar boşluğundaki bir kutuda 200 piksel genişliğinde bir yorumlama nasıl kullanılır\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:Dosya.ogg]]</nowiki></code></strong> dosyayı görüntülemeden doğrudan dosyaya bağlamak için.\n\nBir dosya seçtikten sonra, bu sayfa yüklenerek yüklemeden önce daha fazla dosya seçmenize izin verir.\n\nBir <code>.zip</code>, <code>.tar</code>, <code>.tar.gz</code> veya <code>.tgz</code> dosyasını açmak ve dosyaları yüklemek için içinde bulunan paket dosyasını seçin ve sonra görünen \"{{int:multiupload-unpack-button}}\" düğmesini kullanın.",
+	"multipleupload": "Çoklu dosya yükle",
+	"multipleupload-toolbox": "Birden fazla dosya yükle",
+	"multiupload-submit": "Dosya yükle",
+	"multiupload-uploadedto": "$1 dosyası yüklendi.",
+	"multiupload-row": "Dosya $1",
+	"multiupload-unpack-button": "Aç",
+	"multiupload-notify-ok": "Tamam",
+	"multiupload-upload-package-error": "Paket dosyası yüklenirken hata oluştu",
+	"multiupload-unpack-error": "Paket dosyası açılırken hata oluştu",
+	"multiupload-unreadable-package": "$1 dosyası okunamıyor",
+	"multiupload-http-error": "Sunucuya bağlanılamadı.",
+	"multiupload-file-unpacked-from": "<b>$2</b> paketinden <b>$1</b> dosyasını",
+	"apihelp-multiupload-unpack-description": "İçeriğini içe aktarmadan önce bir ZIP veya tar dosyasını açın.",
+	"apihelp-multiupload-unpack-summary": "İçeriğini içe aktarmadan önce bir ZIP veya tar dosyasını açın.",
+	"apihelp-multiupload-unpack-param-key": "\"filekey\" paket dosyası saklanırken elde edilir",
+	"apihelp-multiupload-unpack-param-filename": "Paketin dosya adı"
+}

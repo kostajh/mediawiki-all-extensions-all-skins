@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"nukedpl": "DPL sorgusu ile toplu sil",
+	"nukedpl-desc": "DPL sorgusuna göre toplu silme için [[Special:NukeDPL|özel sayfa]] ekler",
+	"nukedpl-intro": "Bu araç, bir DPL sorgusu tarafından seçilen sayfaların toplu olarak silinmesine izin verir.\n\nSilinecek başlıkların bir listesini oluşturmak için aşağıya bir sorgu girin.\n* Silmeden önce başlıklar ayrı ayrı kaldırılabilir.\n* Unutmayın, sayfa başlıkları büyük/küçük harf duyarlıdır.\n* Sorgular, herhangi bir DPL etiketi veya parantez ile çevrelenmemelidir.\n* Parametre anlamları hakkında bilgi için [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL Manüel] sayfasına bakın.",
+	"nukedpl-candidatelist": "Aday listesini görüntüle",
+	"nukedpl-nopages": "DPL sorgusu kullanılarak silinecek sayfa yok: <code>$1</code>",
+	"nukedpl-nuke": "Nük!",
+	"nukedpl-list": "Aşağıdaki {{PLURAL:$1|sayfa|sayfalar}}, DPL sorgusu tarafından seçildi: <code>$2</code>\n\n{{PLURAL:$1|Bunu|Bunları}} silmek için \"{{int:nukedpl-nuke}}\" tuşuna basın.",
+	"nukedpl-defaultreason": "DPL sorgusu tarafından seçilen sayfaların toplu olarak kaldırılması: $1",
+	"action-nukedpl": "Dinamik Sayfa Listesi sorgularına göre nük sayfaları",
+	"right-nukedpl": "Dinamik Sayfa Listesi sorgularına göre nük sayfaları"
+}

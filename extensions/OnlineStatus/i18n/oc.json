@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"onlinestatus-desc": "Apond una preferéncia per mostrar se l'utilizaire es present o pas",
+	"onlinestatus-js-anon": "Error : vos cal èsser connectat per utilizar aquesta foncionalitat",
+	"onlinestatus-js-changed": "Vòstre estatut es estat cambiat a « $1 »",
+	"onlinestatus-js-error": "Impossible de cambiar l'estatut, la valor « $1 » es invalida",
+	"onlinestatus-subtitle-offline": "Aqueste utilizaire es actualament fòra de linha",
+	"onlinestatus-subtitle-online": "Aqueste utilizaire actualament es en linha",
+	"onlinestatus-tab": "Estatut",
+	"onlinestatus-toggles-desc": "Vòstre estatut :",
+	"onlinestatus-toggles-explain": "Aquò permet als autres utilizaires de saber se actualament sètz present en agachant vòstra pagina d'utilizaire.",
+	"onlinestatus-toggles-show": "Far veire mon estatut sus ma pagina d'utilizaire",
+	"onlinestatus-toggle-offline": "Absent",
+	"onlinestatus-toggle-online": "Present",
+	"onlinestatus-pref-onlineonlogin": "Cambiar mon estatut a en linha quand me connècti",
+	"onlinestatus-pref-offlineonlogout": "Cambiar mon estatut a fòra linha quand me desconnècti"
+}

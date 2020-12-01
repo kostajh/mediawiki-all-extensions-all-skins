@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "Facilita la SEO (optimización de motores de búsqueda)",
+	"addhtmlmetaandtitle-empty-attr": "La etiqueta &lt;seo&gt; debe contener al menos un \"title\" o un atributo \"metak(eywords)\" o \"metad(escription)\" no vacíos."
+}

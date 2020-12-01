@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pizza1016"
+		]
+	},
+	"accountinfo": "Maklumat akaun",
+	"accountinfo-desc": "Membolehkan seorang pengguna untuk melihat maklumat peribadi yang tersimpan tentang mereka",
+	"accountinfo-ts": "Cap masa",
+	"accountinfo-ip": "Alamat IP",
+	"accountinfo-ua": "User agent",
+	"accountinfo-xff": "Tajuk XFF",
+	"accountinfo-length": "Maklumat telah dikekalkan untuk $1.",
+	"accountinfo-now": "Sekarang"
+}

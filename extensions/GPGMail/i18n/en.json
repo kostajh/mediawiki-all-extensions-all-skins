@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": ["Gergő Tisza"]
+	},
+	"gpgmail-desc": "Encrypt emails with GPG",
+	"gpgmail-pref-enable": "Encrypt emails with GPG",
+	"gpgmail-pref-key": "GPG public key",
+	"gpgmail-pref-key-help": "See [https://help.ubuntu.com/community/GnuPrivacyGuardHowto Ubuntu's how-to page] for help on getting a public key.",
+	"gpgmail-encrypt-error": "There was an error while encrypting the email."
+}

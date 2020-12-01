@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"J. 'mach' wust",
+			"Kghbln",
+			"MF-Warburg",
+			"Metalhead64",
+			"Raimond Spekking",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"edituser": "Benutzer bearbeiten",
+	"edituser-extensionname": "EditUser",
+	"edituser-desc": "Erlaubt berechtigten Benutzern, die Einstellungen anderer Benutzer zu bearbeiten",
+	"edituser-username": "Benutzername:",
+	"edituser-dosearch": "Suchen",
+	"edituser-nouser": "Der Benutzer „$1“ ist nicht vorhanden.",
+	"edituser-exempt": "{{GENDER:$1|Der Benutzer|Die Benutzerin}} „$1“ kann nicht bearbeitet werden.",
+	"right-edituser": "Einstellungen anderer Benutzer bearbeiten",
+	"right-edituser-exempt": "Einstellungen können nicht durch Dritte bearbeitet werden",
+	"action-edituser": "Einstellungen anderer Benutzer zu bearbeiten",
+	"action-edituser-exempt": "die Einstellungen dieses Benutzers zu bearbeiten"
+}

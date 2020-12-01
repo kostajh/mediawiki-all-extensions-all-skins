@@ -1,0 +1,158 @@
+{
+	"name": "ShoutWikiAds",
+	"version": "0.4.8",
+	"author": [
+		"Jack Phoenix"
+	],
+	"namemsg": "shoutwikiads-extensionname",
+	"descriptionmsg": "shoutwikiads-desc",
+	"type": "other",
+	"url": "https://www.mediawiki.org/wiki/Extension:ShoutWiki_Ads",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"ShoutWikiAds": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"ShoutWikiAds": "ShoutWikiAds.class.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "ShoutWikiAds::setupAdCSS",
+		"SkinAfterBottomScripts": "ShoutWikiAds::onSkinAfterBottomScripts",
+		"AuroraLeftSidebar": "ShoutWikiAds::onAuroraLeftSidebar",
+		"SkinAfterContent": "ShoutWikiAds::onSkinAfterContent",
+		"SkinAfterPortlet": "ShoutWikiAds::onSkinAfterPortlet",
+		"DuskAfterToolbox": "ShoutWikiAds::onDuskAfterToolbox",
+		"HomeAfterEverything": "ShoutWikiAds::onHomeAfterEverything",
+		"GamesSideBox": "ShoutWikiAds::onGamesSideBox",
+		"MetrolookRightPanel": "ShoutWikiAds::onMetrolookRightPanel",
+		"MetrolookAfterToolbox": "ShoutWikiAds::onMetrolookAfterToolbox",
+		"MonacoSetupSkinUserCss": "ShoutWikiAds::setupAdCSS",
+		"MonacoSidebar": "ShoutWikiAds::onMonacoSidebar",
+		"MonacoFooter": "ShoutWikiAds::onMonacoFooter",
+		"NimbusLeftSide": "ShoutWikiAds::onNimbusLeftSide",
+		"QuartzSidebarWidgets": "ShoutWikiAds::onQuartzSidebarWidgets",
+		"QuartzSidebarWidgetAdvertiser": "ShoutWikiAds::onQuartzSidebarWidgetAdvertiser",
+		"RefreshedFooter": "ShoutWikiAds::onRefreshedFooter",
+		"RefreshedInSidebar": "ShoutWikiAds::onRefreshedInSidebar",
+		"TruglassInContent": "ShoutWikiAds::renderTruglassAd",
+		"SiteNoticeAfter": "ShoutWikiAds::onSiteNoticeAfter"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "ShoutWikiAds"
+	},
+	"ResourceModules": {
+		"ext.ShoutWikiAds.aurora.leaderboard": {
+			"styles": "css/aurora/aurora-leaderboard-ad.css"
+		},
+		"ext.ShoutWikiAds.aurora.skyscraper": {
+			"styles": "css/aurora/aurora-skyscraper-ad.css"
+		},
+		"ext.ShoutWikiAds.cologneblue.leaderboard": {
+			"styles": "css/cologneblue/cologneblue-leaderboard-ad.css"
+		},
+		"ext.ShoutWikiAds.home.leaderboard-bottom": {
+			"styles": "css/home/home-leaderboard-bottom-ad.css"
+		},
+		"ext.ShoutWikiAds.home.skyscraper": {
+			"styles": "css/home/home-skyscraper-ad.css"
+		},
+		"ext.ShoutWikiAds.metrolook.button": {
+			"styles": "css/metrolook/metrolook-button-ad.css"
+		},
+		"ext.ShoutWikiAds.metrolook.leaderboard": {
+			"styles": "css/metrolook/metrolook-leaderboard-ad.css"
+		},
+		"ext.ShoutWikiAds.metrolook.wide-skyscraper": {
+			"styles": "css/metrolook/metrolook-wide-skyscraper-ad.less"
+		},
+		"ext.ShoutWikiAds.modern.button": {
+			"styles": "css/modern/modern-button-ad.css"
+		},
+		"ext.ShoutWikiAds.modern.leaderboard": {
+			"styles": "css/modern/modern-leaderboard-ad.css"
+		},
+		"ext.ShoutWikiAds.monaco": {
+			"styles": "css/monaco/monaco-ads.css"
+		},
+		"ext.ShoutWikiAds.monobook.button": {
+			"styles": "css/monobook/monobook-button-ad.css"
+		},
+		"ext.ShoutWikiAds.monobook.skyscraper": {
+			"styles": {
+				"css/monobook/monobook-skyscraper-ad.css": {
+					"media": "screen and (min-width: 551px)"
+				},
+				"css/monobook/monobook-skyscraper-ad-mobile.css": {
+					"media": "screen and (max-width: 550px)"
+				}
+			}
+		},
+		"ext.ShoutWikiAds.quartz.square": {
+			"styles": "css/quartz/quartz-square-ad.css"
+		},
+		"ext.ShoutWikiAds.refreshed": {
+			"styles": "css/refreshed/refreshed.css"
+		},
+		"ext.ShoutWikiAds.refreshed.sidebar": {
+			"styles": "css/refreshed/refreshed-button-ad.css"
+		},
+		"ext.ShoutWikiAds.vector.button": {
+			"styles": "css/vector/vector-button-ad.css"
+		},
+		"ext.ShoutWikiAds.vector.skyscraper": {
+			"styles": "css/vector/vector-skyscraper-ad.css"
+		},
+		"ext.ShoutWikiAds.truglass.leaderboard": {
+			"styles": "css/truglass/truglass-leaderboard-ad.css"
+		}
+	},
+	"config": {
+		"AdConfig": {
+			"enabled": true,
+			"adsense-client": "",
+			"namespaces": [
+				0,
+				1
+			],
+			"mode": "static",
+			"debug": false,
+			"monaco-leaderboard-ad-slot": "",
+			"monaco-small-square-ad-slot": "",
+			"monaco-button-ad-slot": "",
+			"monobook-skyscraper-ad-slot": "",
+			"truglass-leaderboard-ad-slot": "",
+			"vector-button-ad-slot": "",
+			"vector-skyscraper-ad-slot": "",
+			"aurora": {
+				"leaderboard": true,
+				"leaderboard-bottom": true,
+				"skyscraper": true
+			},
+			"cologneblue": {
+				"banner": true,
+				"toolbox": true
+			},
+			"modern": {
+				"leaderboard": true
+			},
+			"monobook": {
+				"sidebar": true,
+				"leaderboard": true
+			},
+			"truglass": {
+				"leaderboard": true
+			},
+			"vector": {
+				"leaderboard": true,
+				"skyscraper": true,
+				"toolbox": true
+			}
+		}
+	},
+	"manifest_version": 1
+}

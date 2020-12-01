@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"odbcdatabase": "ODBC-Datenbank",
+	"odbcdatabase-desc": "Ergänzt einen Treiber, der die PHP-<code>odbc_*</code>-Kommandobibliothek zur Unterstützung der externen Datenerweiterung verwendet",
+	"odbcdatabase-odbc-missing": "Die ODBC-Funktionen fehlen. Stelle sicher, dass <code>PHP:ODBC</code> installiert ist.",
+	"odbcdatabase-connection-error": "Fehler beim Verbinden mit dem Server [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Das ODBC-Ergebnis konnte nicht befreit werden",
+	"odbcdatabase-fetch-object-error": "Fehler beim Abrufen des Objekts: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Fehler beim Abrufen der Zeile: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "Die Funktion insertId() wird nicht unterstützt.",
+	"odbcdatabase-unknown-server-version": "Unbekannte ODBC-Serverversion."
+}

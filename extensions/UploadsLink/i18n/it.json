@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Horcrux92"
+		]
+	},
+	"uploadslink-desc": "Aggiunge un collegamento all'elenco dei caricamenti dell'utente attuale nel menu degli strumenti personali, e un collegamento all'elenco dei caricamenti rilevanti dell'utente nella casella Strumenti della barra laterale.",
+	"uploadslink-portlet-label": "caricamenti",
+	"tooltip-pt-uploads": "Elenco dei file che hai caricato",
+	"uploadslink-toobox-label": "Caricamenti {{GENDER:$1|utente}}",
+	"tooltip-tb-uploads": "Un elenco di caricamenti di questo {{GENDER:$1|utente}}"
+}

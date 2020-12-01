@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"slippymap_desc": "Permitte le uso del etiquetta <tt><nowiki>&lt;slippymap&gt;</nowiki></tt> pro monstrar un carta glissante de OpenLayers. Le cartas proveni de [http://openstreetmap.org openstreetmap.org]",
+	"slippymap_latmissing": "Valor lat mancante (pro le latitude).",
+	"slippymap_lonmissing": "Valor lon mancante (pro le longitude).",
+	"slippymap_zoommissing": "Valor z mancante (pro le nivello de zoom).",
+	"slippymap_longdepreciated": "Per favor usa 'lon' in loco de 'long' (le parametro ha essite renominate).",
+	"slippymap_widthnan": "Le valor '$1' del latitude (w) non es un numero integre valide",
+	"slippymap_heightnan": "Le valor '$1' del altitude (h) non es un numero integre valide",
+	"slippymap_zoomnan": "Le valor '$1' del zoom (z) non es un numero integre valide",
+	"slippymap_latnan": "Le valor '$1' del latitude (lat) non es un numero valide",
+	"slippymap_lonnan": "Le valor '$1' del longitude (lon) non es un numero valide",
+	"slippymap_widthbig": "Le valor del latitude (w) non pote exceder 1000",
+	"slippymap_widthsmall": "Le valor del latitude (w) non pote esser minus de 100",
+	"slippymap_heightbig": "Le valor del altitude (h) non pote esser plus de 1000",
+	"slippymap_heightsmall": "Le valor del altitude (h) non pote esser minus de 100",
+	"slippymap_latbig": "Le valor del latitude (lat) non pote exceder 90",
+	"slippymap_latsmall": "Le valor del latitude (lat) non pote esser minus de -90",
+	"slippymap_lonbig": "Le valor del longitude (lon) non pote exceder 100",
+	"slippymap_lonsmall": "Le valor del longitude (lon) non pote esser minus de -100",
+	"slippymap_zoomsmall": "Le valor del zoom (z) non pote esser minus de zero",
+	"slippymap_zoom18": "Le valor del zoom (z) non pote exceder 17. Nota que iste extension de MediaWiki se installa in le strato 'osmarender' de OpenStreetMap, le qual non excede le nivello de zoom 17. Le strato Mapnik disponibile in openstreetmap.org ha un nivello de zoom maxime de 18.",
+	"slippymap_zoombig": "Le valor del zoom (z) non pote exceder 17.",
+	"slippymap_invalidlayer": "Valor de 'strato' invalide '$1'",
+	"slippymap_maperror": "Error de carta:",
+	"slippymap_osmtext": "Vider iste carta in OpenStreetMap.org",
+	"slippymap_code": "Codice Wiki pro iste vista del carta:",
+	"slippymap_button_code": "Obtener codice wiki",
+	"slippymap_resetview": "Reinitialisar vista"
+}

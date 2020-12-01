@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm",
+			"Osnard"
+		]
+	},
+	"bs-smartlist-desc": "Amosa os últimos cinco cambios da wiki nunha lista",
+	"prefs-smartlist": "Lista intelixente",
+	"bs-smartlist-recent-changes": "Cambios recentes",
+	"bs-smartlist-no-entries": "Non se atopou ningún resultado.",
+	"bs-smartlist-invalid-namespaces": "{{PLURAL:$1|O espazo de nomes dado non é válido|Os espazos de nomes dados non son válidos}}: $2.",
+	"bs-smartlist-invalid-target": "El obxectivo dado non é un título de páxina válido",
+	"bs-smartlist-comment": "Commentario: $1.",
+	"bs-smartlist-sort-asc": "ascendente",
+	"bs-smartlist-sort-desc": "descendente",
+	"bs-smartlist-day": "Día",
+	"bs-smartlist-week": "Semana",
+	"bs-smartlist-month": "Mes",
+	"bs-smartlist-time": "Hora",
+	"bs-smartlist-title": "Título",
+	"bs-smartlist-tag-smartlist-desc": "Amosa automaticamente listas xeradas de artigos. A configuración funciona a través de varios modos e parámetros.",
+	"bs-smartlist-tag-smartlist-example-rc": "Modo: cambios recentes",
+	"bs-smartlist-tag-smartlist-example-whatlinkshere": "Modo: o que liga aquí",
+	"bs-smartlist-tag-newbies-desc": "Amosa os usuarios novos da wiki. A lista pode restrinxirse a un número determinado.",
+	"bs-smartlist-tag-toplist-desc": "Amosa as páxinas máis visitadas. Pode limitarse por varios parámetros.",
+	"bs-smartlist-mostvisitedpages": "Páxinas máis vistas",
+	"bs-smartlist-mosteditedpages": "Páxinas máis editadas",
+	"bs-smartlist-mostactiveusers": "Usuarios máis activos (por edicións)",
+	"bs-smartlist-lastedits": "As miñas edicións",
+	"bs-smartlist-noedits": "Non se atoparon edicións.",
+	"bs-smartlist-mostactiveusersdesc": "Lista de usuarios máis activos ordenados polas súas edicións.",
+	"bs-smartlist-mosteditedpagesdesc": "Lista das páxinas máis editadas ordenadas polas súas edicións.",
+	"bs-smartlist-mostvisitedpagesdesc": "Lista das páxinas máis vistas ordenadas polo número de visitas.",
+	"bs-smartlist-lasteditsdesc": "Lista das páxinas que editou.",
+	"bs-smartlist-hitcounter-missing": "A extensión <a target='blank' href='https://www.mediawiki.org/wiki/Extension:HitCounters'>HitCounters</a> debe estar instalada.",
+	"apihelp-bs-smartlist-tasks-description": "Funcións da API para proporcionar os datos de portlet para as páxinas e as estatísticas de usuario."
+}

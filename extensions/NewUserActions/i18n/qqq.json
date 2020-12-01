@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sébastien Santoro aka Dereckson"
+		]
+	},
+	"newuseractions-desc": "{{desc|name=NewUserActions|url=https://www.mediawiki.org/wiki/Extension:NewUserActions}}",
+	"newuseractions-userpage-template": "In-wiki configuration setting. Specify a template to use as default new user page.",
+	"newuseractions-userpage-summary": "In-wiki configuration setting. Edit summary for the recent changes entry of a new users message. Always in content language.",
+	"newuseractions-editor": "In-wiki configuration setting. Set the username of the user that makes the edits. If this user does not exist, 'MediaWiki default' will show up as editing user. The user set here is marked as reserved and won't be able to login."
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"Spiritia",
+			"StanProg"
+		]
+	},
+	"duplicator-desc": "Създава независими [[Special:Duplicate|копия на страниците]] с пълните им редакционни истории",
+	"duplicator-options": "Настройки",
+	"duplicator-source": "Източник:",
+	"duplicator-dest": "Цел:",
+	"duplicator-summary": "Копирано от [[$1]], версия [[$2]]",
+	"duplicator-success": "Страница [[$1]] беше копирана като [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|редакция беше копирана|редакции бяха копирани}}.",
+	"duplicator-success-talknotcopied": "Беседата не можа да бъде копирана.",
+	"duplicator-source-invalid": "Необходимо е да се посочи валидно изходно заглавие.",
+	"duplicator-source-notexist": "Не съществува страница [[$1]]. Необходимо е да се посочи заглавие, което съществува.",
+	"duplicator-dest-invalid": "Необходимо е валидно целево заглавие.",
+	"duplicator-dest-exists": "Вече съществува страница [[$1]]. Необходимо е да се посочи целево заглавие, което не съществува."
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"countDownClock-desc": "Добавляет парсерную функцию для показа таймера",
+	"countDownClock-invalidtime": "Введите корректный параметр окончания отсчета",
+	"countDownClock-days": "$1 {{PLURAL:$1|день|дня|дней}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|час|часа|часов}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|минута|минуты|минут}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|секунда|секунды|секунд}}",
+	"countDownClock-expired": "Истекло"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"debatetree-desc": "{{desc|name=DebateTree|url=https://www.mediawiki.org/wiki/Extension:DebateTree}}",
+	"debatetree-counts": "Objection counts",
+	"debatetree-balance": "Text before the balance of a debate option",
+	"debatetree-conclusion": "Text before the conclusion of a debate",
+	"debatetree-undecided": "Tag for undecided debates",
+	"debatetree-refuted": "Tag for refuted arguments",
+	"debatetree-sustained": "Tag for sustained arguments",
+	"debatetree-weight": "Text before the weight of an argument"
+}

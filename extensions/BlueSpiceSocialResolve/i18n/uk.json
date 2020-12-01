@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-socialresolve-desc": "Функціонал для зазначення статусу вирішеності сутностей BlueSpiceSocial",
+	"bs-socialresolve-status-resolved": "Вирішено",
+	"bs-socialresolve-status-notresolved": "Невирішено",
+	"bs-socialresolve-var-resolved": "Статус вирішеності",
+	"apihelp-bs-socialresolve-tasks-summary": "Надає завдання для редагування статусу вирішеності сутностей"
+}

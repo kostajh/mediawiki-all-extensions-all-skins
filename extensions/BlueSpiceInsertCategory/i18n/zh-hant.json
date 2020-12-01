@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"EagerLin",
+			"Kly",
+			"LNDDYL"
+		]
+	},
+	"bs-insertcategory-desc": "對話方塊中輸入分類連結",
+	"bs-insertcategory-insertcat": "插入分類",
+	"prefs-insertcategory": "插入分類",
+	"bs-insertcategory-pref-withparents": "插入分類與其父分類",
+	"bs-insertcategory-pref-uploadpanelintegration": "設定頁面分類為上傳對話框的預設值",
+	"bs-insertcategory-title": "插入分類",
+	"bs-insertcategory-cat-label": "已分配：",
+	"bs-insertcategory-success": "已加入分類",
+	"bs-insertcategory-failure": "錯誤",
+	"bs-insertcategory-hint": "註：您必須按下 enter 要加入分類。",
+	"bs-insertcategory-panel-title": "分類",
+	"bs-insertcategory-category-editor-title": "分類",
+	"bs-insertcategory-category-editor-implicit-categories-title": "固有分類",
+	"bs-insertcategory-category-editor-implicit-categories-help": "這些分類尚未以頁面的 wiki 文字內容定義。它們有可能是從模版所設定。",
+	"bs-insertcategory-category-editor-button-label-clear-all": "全部移除",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "編輯",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "編輯此頁面的分類",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "編輯此頁面的分類"
+}

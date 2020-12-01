@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"gae-desc": "Bietet Erweiterungen für Wikis, die auf der GoogleAppEngine laufen",
+	"apihelp-gaejobqueue-description": "Internes API-Modul, um die Auftragswarteschlange auszuführen. Externe Verwendung ist nicht erlaubt.",
+	"apihelp-gaejobqueue-summary": "Internes API-Modul, um die Auftragswarteschlange auszuführen. Externe Nutzung ist nicht erlaubt.",
+	"apihelp-gaejobqueue-param-namespace": "Numerische Namensraumkennung.",
+	"apihelp-gaejobqueue-param-titletext": "Text des Titels ohne Namensraum.",
+	"apihelp-gaejobqueue-param-type": "Auftragstyp.",
+	"apihelp-gaejobqueue-param-params": "PHP-serialisierte Parameter für den Auftrag."
+}

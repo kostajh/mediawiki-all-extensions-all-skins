@@ -1,0 +1,88 @@
+{
+	"name": "Translatewiki.net main page",
+	"version": "2016-02-21",
+	"author": [
+		"Niklas Laxström",
+		"Santhosh Thottingal"
+	],
+	"descriptionmsg": "twnmp-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"AutoloadClasses": {
+		"CachedStat": "includes/CachedStat.php",
+		"CachedStatJob": "includes/CachedStatJob.php",
+		"ProjectHandler": "includes/ProjectHandler.php",
+		"ResourceLoaderProjectIconsModule": "includes/ResourceLoaderProjectIconsModule.php",
+		"SpecialTwnMainPage": "includes/specials/SpecialTwnMainPage.php",
+		"TwnMainPageHooks": "includes/TwnMainPageHooks.php",
+		"TwnUserStats": "includes/TwnUserStats.php"
+	},
+	"ExtensionFunctions": [
+		"TwnMainPageHooks::setup"
+	],
+	"ExtensionMessagesFiles": {
+		"MainPageAlias": "MainPage.alias.php"
+	},
+	"JobClasses": {
+		"CachedStatJob": "CachedStatJob"
+	},
+	"config": {
+		"MainPageImages": []
+	},
+	"MessagesDirs": {
+		"MainPage": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.translate.mainpage": {
+			"scripts": "resources/js/ext.translate.mainpage.js",
+			"dependencies": [
+				"ext.translate.base",
+				"ext.translate.statsbar",
+				"ext.uls.interface",
+				"ext.uls.pt",
+				"mediawiki.Uri",
+				"mediawiki.language",
+				"mediawiki.util"
+			],
+			"messages": [
+				"percent",
+				"twnmp-show-more-projects"
+			]
+		},
+		"ext.translate.mainpage.signup": {
+			"scripts": "resources/js/ext.translate.mainpage.signup.js",
+			"dependencies": [
+				"ext.uls.mediawiki",
+				"mediawiki.api"
+			],
+			"messages": [
+				"twnmp-signup-error-invalidemail",
+				"twnmp-signup-error-invalidpassword",
+				"twnmp-signup-error-invalidusername",
+				"twnmp-signup-error-nonfreeusername",
+				"twnmp-signup-error-other",
+				"twnmp-signup-error-unknown"
+			]
+		},
+		"ext.translate.mainpage.styles": {
+			"targets": [ "desktop", "mobile" ],
+			"styles": "resources/css/ext.translate.mainpage.css"
+		},
+		"ext.translate.mainpage.icons": {
+			"class": "ResourceLoaderProjectIconsModule"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "TwnMainPage"
+	},
+	"SpecialPages": {
+		"TwnMainPage": "SpecialTwnMainPage"
+	},
+	"manifest_version": 1
+}

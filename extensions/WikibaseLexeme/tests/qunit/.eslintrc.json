@@ -1,0 +1,16 @@
+{
+	"extends": [
+		"wikimedia/qunit"
+	],
+	"globals": {
+		"sinon": "readonly"
+	},
+	"rules": {
+		"max-len": "off",
+		"no-new": "off",
+		"qunit/no-assert-equal": "off",
+		"qunit/resolve-async": "off",
+	  	"qunit/require-expect": "off",
+		"no-jquery/no-parse-html-literal": "off"
+	}
+}

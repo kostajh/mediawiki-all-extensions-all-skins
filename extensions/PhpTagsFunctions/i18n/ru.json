@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"phptagsfunctions-desc": "Реализует внутренние функции PHP для расширения PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "Разделитель не должен быть буквенно-цифровым символом или обратной косой чертой",
+	"phptagsfunctions-preg-no-ending-delimiter": "Не найден символ конца строки «$1»",
+	"phptagsfunctions-preg-unknown-modifier": "Неизвестный модификатор «$1»"
+}

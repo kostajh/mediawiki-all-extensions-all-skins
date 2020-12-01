@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"newsticker": "NewsTicker",
+	"newsticker-desc": "Aggiunge 'na parola mageche ca face 'ndrucà le notizie ca ponne essere configurate da 'na pàgene speciale.",
+	"newsticker-summary": "Pàgene speciale pe 'mbostà 'u condenute e le pàggene d'u scrivende de le notizie",
+	"newsticker-general": "Generale",
+	"newsticker-news": "Notizie",
+	"newsticker-class": "Classe",
+	"newsticker-style": "Stile",
+	"newsticker-pages": "Pàggene",
+	"newsticker-page1": "Pàgene 1",
+	"newsticker-page2": "Pàgene 2",
+	"newsticker-page3": "Pàgene 3",
+	"newsticker-page4": "Pàgene 4",
+	"newsticker-page5": "Pàgene 5",
+	"newsticker-page6": "Pàgene 6",
+	"newsticker-page7": "Pàgene 7",
+	"newsticker-page8": "Pàgene 8",
+	"newsticker-page9": "Pàgene 9",
+	"newsticker-title": "Titole",
+	"newsticker-add-page": "Aggiunge 'na pàgene",
+	"newsticker-default-news-help": "'Mboste le notizie predefinite pe tutte le scrivende de le notizie. Na notizie pe linèe, uicchiteste permesse.",
+	"newsticker-default-class-help": "'Mboste le classe CSS predefinite pe tutte le scrivende de le notizie.",
+	"newsticker-default-style-help": "'Mboste le stile CSS predefinite pe tutte le scrivende de le notizie.",
+	"newsticker-pages-help": "'Mboste 'u numere de pàggene ca fanne 'ndrucà 'u scrivende de le notizie, in mode ca sta pàgena speciale pò fà 'ndrucà 'na sezione pe ogne pàgene. Iapre l'uecchije! Ce avasce 'u numere de pàggene, le date de le pàggene lassate vonne perdute!",
+	"newsticker-title-help": "'Mboste 'u titole d'a pàgene addò fà 'ndrucà sta notizie.",
+	"newsticker-news-help": "'Mboste 'a notizie pe stu scrivende de notizie, sovrascrivenne 'a notizie predefinite.",
+	"newsticker-class-help": "'Mboste le classe CSS pe stu scrivende de notizie, sovrascrivenne le classe CSS predefinite.",
+	"newsticker-style-help": "'Mboste le stile CSS pe stu scrivende de notizie, sovrascrivenne le stile CSS predefinite.",
+	"right-newsticker": "Gestisce le scrivende de le notizie",
+	"action-newsticker": "gestisce le scrivende de le notizie"
+}

@@ -1,0 +1,31 @@
+{
+	"name": "MagicNumberedHeadings",
+	"version": "1.13",
+	"author": [
+		"Purodha Blissenbach",
+		"[//mwstake.org Mark A. Hershberger]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:MagicNumberedHeadings",
+	"descriptionmsg": "magicnumberedheadings-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"AutoloadClasses": {
+		"MagicNumberedHeadings": "src/MagicNumberedHeadings.php"
+	},
+	"MessagesDirs": {
+		"MagicNumberedHeadings": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"MagicNumberedHeadingsMagic": "MagicNumberedHeadings.i18n.magic.php"
+	},
+	"Hooks": {
+		"MagicWordMagicWords": "MagicNumberedHeadings::onMagicWordMagicWords",
+		"MagicWordwgVariableIDs": "MagicNumberedHeadings::onMagicWordwgVariableIDs",
+		"ParserBeforeInternalParse": "MagicNumberedHeadings::onParserBeforeInternalParse"
+	},
+	"manifest_version": 1
+}

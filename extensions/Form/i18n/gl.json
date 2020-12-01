@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"Banjo",
+			"Toliño",
+			"Xosé"
+		]
+	},
+	"form-desc": "Un [[Special:Form|interface de formulario]] para comezar páxinas novas",
+	"form": "Comezar unha nova páxina",
+	"form-captcha-error": "Erro de CAPTCHA",
+	"form-pick-form": "Escoller o tipo de páxina que desexa crear por medio dun formulario.",
+	"form-no-name": "Formulario sen nome",
+	"form-no-name-text": "Cómpre dar un nome ao formulario, como \"Special:Form/Nomedoformulario\".",
+	"form-bad-name": "Nome de formulario incorrecto",
+	"form-bad-name-text": "Non hai ningún formulario con ese nome.",
+	"form-pattern": "Formulario de $1",
+	"form-title-pattern": "Engadir novo $1",
+	"form-save": "Gardar",
+	"form-index-mismatch-title": "O nome do patrón e o modelo son incompatibles",
+	"form-index-mismatch": "Este formulario ten nomes de patróns e modelos que non coinciden, comezando por $1.",
+	"form-article-exists": "A páxina existe",
+	"form-article-existstext": "A páxina \"[[$1]]\" xa existe.",
+	"form-bad-page-name": "Nome de páxina incorrecto",
+	"form-bad-page-name-text": "Os datos que introduciu no formulario resultaron nun nome de páxina incorrecto, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|O campo $1 é obrigatorio|Os campos $1 son obrigatorios}} neste formulario.\nPor favor, {{PLURAL:$2|énchao|énchaos}}.",
+	"form-save-summary": "Nova páxina usando [[Special:Form/$1|o formulario $1]]",
+	"form-save-error": "Erro ao gardar o formulario",
+	"form-save-error-text": "Houbo un erro descoñecido ao gardar a páxina \"$1\"."
+}

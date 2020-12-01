@@ -1,0 +1,99 @@
+{
+	"name": "BlueSpiceCountThings",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:CountThings",
+	"author": [
+		"Markus Glaser",
+		"Mathias Scheer",
+		"Peter Boehm"
+	],
+	"descriptionmsg": "bs-countthings-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceCountThings": {
+					"className": "\\BlueSpice\\CountThings\\Extension",
+					"extPath": "/BlueSpiceCountThings"
+				}
+			},
+			"TagRegistry": {
+				"countfiles": "BlueSpice\\CountThings\\Tag\\CountFiles",
+				"countarticles": "BlueSpice\\CountThings\\Tag\\CountArticles",
+				"countusers": "BlueSpice\\CountThings\\Tag\\CountUsers",
+				"countcharacters": "BlueSpice\\CountThings\\Tag\\CountCharacters"
+			},
+			"RendererRegistry": {
+				"countthings-countcharacters": "BlueSpice\\CountThings\\Renderer\\CountCharacters::factory"
+			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"TagDefinitions": [
+				"ext.bluespice.countthings.visualEditorTagDefinition"
+			]
+		}
+	},
+	"ResourceModules": {
+		"ext.bluespice.countthings.visualEditorTagDefinition": {
+			"scripts": [
+				"bs.cntthngs/util/tag/CountArticlesDefinition.js",
+				"bs.cntthngs/util/tag/CountCharactersDefinition.js",
+				"bs.cntthngs/util/tag/CountFilesDefinition.js",
+				"bs.cntthngs/util/tag/CountUsersDefinition.js"
+			],
+			"messages": [
+				"bs-countthings-tag-countcharacters-desc",
+				"bs-countthings-ve-countthingsinspector-mode",
+				"bs-countthings-ve-countcharacters-title",
+				"bs-countthings-ve-countcharacters-input-label",
+				"bs-countthings-tag-countcharacters-desc-param-mode",
+				"bs-countthings-ve-countcharacters-mode-all",
+				"bs-countthings-ve-countcharacters-mode-charsonly",
+				"bs-countthings-ve-countcharacters-mode-wordsonly",
+				"bs-countthings-ve-countcharacters-mode-wordsandchars",
+				"bs-countthings-ve-countcharacters-mode-pagesonly",
+				"bs-countthings-ve-countarticles-title",
+				"bs-countthings-tag-countarticles-desc",
+				"bs-countthings-ve-countfiles-title",
+				"bs-countthings-tag-countfiles-desc",
+				"bs-countthings-ve-countusers-title",
+				"bs-countthings-tag-countusers-desc"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceCountThings": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\CountThings\\": "src/"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceCountThings/resources"
+	},
+	"Hooks": {
+		"BSInsertMagicAjaxGetData": [
+			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountArticles::callback",
+			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountUsers::callback",
+			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountFiles::callback",
+			"\\BlueSpice\\CountThings\\Hook\\BSInsertMagicAjaxGetData\\CountCharacters::callback"
+		],
+		"BSUsageTrackerRegisterCollectors": [
+			"\\BlueSpice\\CountThings\\Hook\\BSUsageTrackerRegisterCollectors\\AddCountArticlesTag::callback",
+			"\\BlueSpice\\CountThings\\Hook\\BSUsageTrackerRegisterCollectors\\AddCountCaractersTag::callback",
+			"\\BlueSpice\\CountThings\\Hook\\BSUsageTrackerRegisterCollectors\\AddCountFilesTag::callback",
+			"\\BlueSpice\\CountThings\\Hook\\BSUsageTrackerRegisterCollectors\\AddCountUsersTag::callback"
+		]
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Umherirrender"
+		]
+	},
+	"safedelete": "Used as title on [[Special:SafeDelete]]",
+	"safedelete-desc": "{{desc|name=SafeDelete|url=https://www.mediawiki.org/wiki/Extension:Safe_Delete}}",
+	"safedelete-title": "{{Identical|Delete}}",
+	"safedelete-missingpagename": "Used as error message on [[Special:SafeDelete]]",
+	"safedelete-missingnamespaces": "Used as error message on [[Special:SafeDelete]]",
+	"safedelete-cannotdelete": "$1 - a page title, $2 - the number of list items following this message for PLURAL use."
+}

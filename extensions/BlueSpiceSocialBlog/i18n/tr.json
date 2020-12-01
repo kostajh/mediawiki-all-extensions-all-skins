@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Incelemeelemani",
+			"Sezgin İbiş"
+		]
+	},
+	"bs-socialblog-desc": "BlueSpiceSocial için blog varlığı",
+	"bs-socialblog-type": "Blog",
+	"blog": "Blog",
+	"bs-socialblog-entityblog-header-create": "Yeni Blog",
+	"bs-socialblog-var-blogtitle": "Başlık",
+	"bs-socialblog-entityblog-content-more-btn-more": "Daha fazla",
+	"bs-socialblog-entityblog-content-more-btn-less": "Daha az",
+	"bs-socialblog-toc-useblogteaser": "Zaman çizelgesindeki blog girişleri için teaser metni kullanma",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notifications-blog-create": "{{GENDER:$1|$2}} kullanıcı yeni \"$3\" blogu oluşturdu",
+	"bs-social-notifications-email-blog-create-subject": "{{GENDER:$1|$2}} kullanıcı yeni \"$3\" blogu oluşturdu",
+	"bs-social-notifications-email-blog-create-body": "{{GENDER:$1|$2}} kullanıcı yeni \"$3\" blog oluşturduğu altındaki metin sayfası:\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2}}, yeni \"$3\" blogu oluşturdu",
+	"bs-social-notifications-blog-edit": "{{GENDER:$1|$2}} kullanıcı yeni \"$3\" blogu düzenledi",
+	"bs-social-notifications-email-blog-edit-subject": "{{GENDER:$1|$2}} kullanıcı yeni \"$3\" blogu düzenledi",
+	"bs-social-notifications-email-blog-edit-body": "{{GENDER:$1|$2}} kullanıcı \"$3\" blogu düzenledi. Yeni metin:\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2}} \"$3\" blogunu düzenledi",
+	"bs-social-notifications-blog-delete": "{{GENDER:$1|$2}} kullanıcı \"$3\" blogunu sildi",
+	"bs-social-notifications-email-blog-delete-subject": "{{GENDER:$1|$2}} kullanıcı \"$3\" blogunu sildi",
+	"bs-social-notifications-email-blog-delete-body": "{{GENDER:$1|$2}} kullanıcı \"$3\" blogunu sildi",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2}}, \"$3\" blogunu sildi",
+	"bs-social-notification-blog-primary-link-label": "Blogu görüntüle"
+}

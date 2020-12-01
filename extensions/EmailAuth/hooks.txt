@@ -1,0 +1,8 @@
+'EmailAuthRequireToken': Require login verification via an emailed token (and optionally modify
+  the messaging).
+$user: The user trying to log in.
+&$verificationRequired: (bool) Change this to true to enable verification.
+&$formMessage: (Message) Message telling the user they need to do an extra verification step.
+&$subjectMessage: (Message) subject of the email with the verification code
+&$bodyMessage: (Message) body of the email with the verification code; last parameter must be the
+  token and will be set later

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"globalprefs-desc": "Овозможува корисниците да прават глобални нагодувања",
+	"globalprefs-set-local-exception": "Постави месен исклучок за ова [[Special:GlobalPreferences#$1|глобално нагодување]].",
+	"globalprefs-has-local-exception": "Оваа глобална поставка има [[Special:Preferences#$1|месен исклучок на ова вики]].",
+	"tooltip-globalprefs-check-label": "Направи ја поставкава глобална",
+	"globalprefs-error-header": "Грешка",
+	"globalprefs-notglobal": "Сметката не ви е глобална и затоа не можете да задавате глобални нагодувања.",
+	"globalpreferences": "Глобални нагодувања",
+	"globalprefs-info-label": "Глобални нагодувања:",
+	"globalprefs-info-link": "Задај глобални нагодувања",
+	"globalprefs-info-help": "Нагодувањата зададени преку страницата за глобални нагодувања  ќе се однесуваат на сите викија.",
+	"globalprefs-reset-intro": "Страницава служи за оневозможување на сите глобални нагодувања на сите викија за повраток на месните нагодувања. Ова не ги засега месните нагодувања. Дејството е неповратно.",
+	"globalprefs-restoreprefs": "Отстрани ги сите глобални нагодувања (во сите оддели)",
+	"globalprefs-select-all": "Избери/поништи сè",
+	"globalprefs-col-header": "Изберете можности под глобалните"
+}

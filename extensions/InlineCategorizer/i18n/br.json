@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup",
+			"Y-M D"
+		]
+	},
+	"inlinecategorizer-desc": "Modulenn JavaScript a dalvez da cheñch, ouzhpennañ ha lemel kuit war-eeun liammoù rummata adalek ur bajenn",
+	"inlinecategorizer-add-category": "Ouzhpennañ ur rummad",
+	"inlinecategorizer-add-category-submit": "Ouzhpennañ",
+	"inlinecategorizer-add-category-summary": "Ouzhpennañ ar rummad \"$1\"",
+	"inlinecategorizer-api-error": "Distroet ez eus ur fazi gant an API : $1: $2.",
+	"inlinecategorizer-api-unknown-error": "Distroet ez eus ur fazi dianav gant an API.",
+	"inlinecategorizer-cancel": "Nullañ ar c'hemmoù",
+	"inlinecategorizer-cancel-all": "Nullañ an holl gemmoù",
+	"inlinecategorizer-category-already-present": "Er rummad \"$1\" emañ ar bajenn-mañ c'hoazh.",
+	"inlinecategorizer-category-hook-error": "Un arc'hwel lec'hel a vir ouzh ar c'hemmoù da vezañ enrollet.",
+	"inlinecategorizer-category-question": "Perak e fell deoc'h ober ar c'hemmoù da-heul :",
+	"inlinecategorizer-confirm-ok": "Mat eo",
+	"inlinecategorizer-confirm-save": "Enrollañ",
+	"inlinecategorizer-confirm-save-all": "Enrollañ an holl gemmoù",
+	"inlinecategorizer-confirm-title": "Kadarnaat an oberiadenn",
+	"inlinecategorizer-edit-category": "Kemmañ ur rummad",
+	"inlinecategorizer-edit-category-error": "N'eus ket bet gallet degas kemmoù er rummad \"$1\". \nC'hoarvezout a ra p'eo bet ouzhpennet ar rummad er bajenn dre ur patrom",
+	"inlinecategorizer-edit-category-summary": "Cheñch ar rummad eus \"$1\" da \"$2\"",
+	"inlinecategorizer-error-title": "Fazi",
+	"inlinecategorizer-remove-category": "Tennañ ar rummad kuit",
+	"inlinecategorizer-remove-category-error": "N'eus ket bet gallet diverkañ ar rummad \"$1\". \nC'hoarvezout a ra p'eo bet ouzhpennet ar rummad er bajenn dre ur patrom",
+	"inlinecategorizer-remove-category-summary": "Diverkañ ar rummad \"$1\""
+}

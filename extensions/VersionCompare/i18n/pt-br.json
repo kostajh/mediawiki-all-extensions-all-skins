@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"versioncompare": "Comparação de versões",
+	"version-compare-desc": "Mostrar uma comparação do componente central e das versões das extensões entre duas wikis",
+	"version-compare-database-label": "Base de dados",
+	"version-compare-url-error": "Falha na obtenção de dados de $1.",
+	"version-compare-url-field-help-1": "URL da API (termina com api.php) da primeira wiki para ser comparada. Por omissão, será usada a wiki atual.",
+	"version-compare-url-field-help-2": "URL da API (termina com api.php) da segunda wiki para ser comparada. Por omissão, será usada a wiki atual.",
+	"version-compare-diff-field-label": "Mostrar só as diferenças"
+}

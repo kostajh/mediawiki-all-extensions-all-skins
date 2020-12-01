@@ -1,0 +1,83 @@
+{
+	"name": "Page Exchange",
+	"namemsg": "pageexchange-extensionname",
+	"version": "0.2.2",
+	"author": [
+		"Yaron Koren"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Page_Exchange",
+	"descriptionmsg": "pageexchange-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29"
+	},
+	"AvailableRights": [
+		"pageexchange"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"pageexchange": true
+		}
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "PXHooks::describeDBSchema",
+		"ResourceLoaderSiteModulePages": "PXHooks::loadJSPages",
+		"ResourceLoaderSiteStylesModulePages": "PXHooks::loadCSSPages",
+		"AdminLinks": "PXHooks::addToAdminLinks"
+	},
+	"SpecialPages": {
+		"Packages": "SpecialPackages"
+	},
+	"JobClasses": {
+		"pageExchangeCreatePage": "PXCreatePageJob"
+	},
+	"LogTypes": [
+		"pageexchange"
+	],
+	"LogNames": {
+		"pageexchange": "pageexchange-logname"
+	},
+	"LogHeaders": {
+		"pageexchange": "pageexchange-logdesc"
+	},
+	"LogActions": {
+		"pageexchange/installpackage": "pageexchange-installpackagelog",
+		"pageexchange/updatepackage": "pageexchange-updatepackagelog",
+		"pageexchange/uninstallpackage": "pageexchange-uninstallpackagelog"
+	},
+	"MessagesDirs": {
+		"PageExchange": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PageExchangeAlias": "PageExchange.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialPackages": "includes/specials/SpecialPackages.php",
+		"PXHooks": "includes/PXHooks.php",
+		"PXPackageFile": "includes/PXPackageFile.php",
+		"PXPackage": "includes/PXPackage.php",
+		"PXRemotePackage": "includes/PXRemotePackage.php",
+		"PXInstalledPackage": "includes/PXInstalledPackage.php",
+		"PXPage": "includes/PXPage.php",
+		"PXCreatePageJob": "includes/PXCreatePageJob.php"
+	},
+	"ResourceModules": {
+		"ext.pageexchange": {
+			"scripts": "resources/PageExchange.js",
+			"styles": "resources/PageExchange.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "PageExchange"
+	},
+	"config": {
+		"PageExchangePackageFiles": {
+			"value": []
+		}
+	},
+	"manifest_version": 2
+}

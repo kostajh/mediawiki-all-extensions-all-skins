@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"rt-desc": "Pěkny interfejs za RT (Request Tracker)",
+	"rt-inactive": "Rozšyrjenje RT njejo aktiwne",
+	"rt-badquery": "Rozšyrjenje RT jo namakało zmólku pśi komunikaciji z datoweju banku RT",
+	"rt-badlimit": "Njepłaśiwy argument LIMIT (l): musy licba byś.\nSy wopytał: '''$1'''",
+	"rt-badorderby": "Njepłaśiwy argument ORDER BY (ob): musy standardne pólo byś (glědaj dokumentaciju).\nSy wopytał: '''$1'''",
+	"rt-badstatus": "Njepłaśiwy argument status (s): musy standardne pólo byś (glědaj dokumentaciju).\nSy wopytał: '''$1'''",
+	"rt-badcfield": "Njepłaśiwy swójski pólny argument: musy jadnore słowo byś (glědaj dokumentaciju).\nSy wopytał: '''$1'''",
+	"rt-badqueue": "Njepłaśiwy argument queue (q): musy jadnore słowo byś.\nSy wopytał: '''$1'''",
+	"rt-badowner": "Njepłaśiwy argument owner (o): musy płaśiwe wužywarske mě byś.\nSy wopytał: '''$1'''",
+	"rt-nomatches": "Wótpowědne nastupnosće RT njejsu se namakali"
+}

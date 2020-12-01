@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geitost"
+		]
+	},
+	"page-creation-email-body": "Hallo $1!\n\nDies ist eine Benachrichtigung von {{SITENAME}}, um dir mitzuteilen, dass die neue Seite «$2» {{GENDER:$3|vom Benutzer|von der Benutzerin}} $3 erstellt wurde.\n\nDu kannst sie hier sehen:\n$4\n\nDer Text der Seite ist:\n$5\n\nDein freundliches {{SITENAME}}-Benachrichtigungssystem.\n\nUm deine E-Mail-Benachrichtigungseinstellungen zu ändern, besuche bitte\n{{canonicalurl:{{#special:Preferences}}}}."
+}

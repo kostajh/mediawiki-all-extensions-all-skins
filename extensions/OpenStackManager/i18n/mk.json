@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"openstackmanager-desc": "Му овозможува на корисникот да создава лушпени сметки и да раководи со неговите SSH-клучеви",
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Раководство со вашите јавни SSH-клучеви",
+	"specialpages-group-nova": "Заверка за OpenStack Manager",
+	"openstackmanager-novakey": "Клуч на Nova",
+	"openstackmanager-delete": "избриши",
+	"openstackmanager-hiera-disabled": "Овие страници повеќе не се користат од облачниот VPS. Марионетите и чиноследните поставки можат да се изменат во Хоризонт.",
+	"openstackmanager-actions": "Дејства",
+	"openstackmanager-notloggedin": "Мора да се најавите",
+	"openstackmanager-mustbeloggedin": "Мора да сте најавени за да ја извршите оваа постапка.",
+	"openstackmanager-novapublickey": "Јавен SSH-клуч",
+	"openstackmanager-prefs-novapublickey": "Јавни SSH-клучеви:",
+	"openstackmanager-deletekey": "Избриши јавен SSH-клуч",
+	"openstackmanager-deletekeyconfirm": "Дали сте сигурни дека сакате да го избришете горенаведениот клуч?",
+	"openstackmanager-keylist": "Список на јавни SSH-клучеви",
+	"openstackmanager-addkey": "Додај јавен SSH-клуч",
+	"openstackmanager-name": "Име",
+	"openstackmanager-fingerprint": "Отпечаток",
+	"openstackmanager-keys": "Клучеви",
+	"openstackmanager-keypairimportfailed": "Не успеав да го увезам парот клучеви.",
+	"openstackmanager-keypairimported": "Парот клучеви е увезен.",
+	"openstackmanager-keypairimportedfingerprint": "Увезен е парот клучеви $1 со отпечаток $2.",
+	"openstackmanager-keypairformatwrong": "Наведениот SSH-клуч е погрешен или во непознат формат.",
+	"openstackmanager-keypairformatconverted": "Форматот на SSH-клучот е автоматски претворен.",
+	"openstackmanager-deletedkey": "Клучот е избришан.",
+	"openstackmanager-deletedkeyfailed": "Не успеав да го избришам клучот.",
+	"openstackmanager-shellaccountname": "Име на сметката за лушпата на примерокот",
+	"openstackmanager-shellaccountname-pref": "Име на сметката за лушпата на примерокот:",
+	"openstackmanager-shellaccountnamehelp": "Името на сметката на лушпата е задолжително. \nМора да почнува со латинични букви (од a до z), и може да содржи само мали латинични букви, бројки (од 0 до 9), како и знакот „-“.",
+	"openstackmanager-shellaccountvalidationfail": "Името на сметката за лушпата е неважечко.\nМора да почнува со буква (a-z), а може да содржи само мали букви, бројки (0-9) и цртички (-).",
+	"openstackmanager-shellaccountexists": "Тоа корисничко име за лушпа е зафатено.",
+	"prefs-openstack": "OpenStack",
+	"prefs-openstack-keys": "Список на клучеви"
+}

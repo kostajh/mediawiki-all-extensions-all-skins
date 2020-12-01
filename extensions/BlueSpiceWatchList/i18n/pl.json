@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail"
+		]
+	},
+	"bs-watchlist-desc": "Dodaje widżet i tag listy obserwowanych",
+	"bs-watchlist-title-sidebar": "Obserwowane",
+	"bs-watchlist-pref-sort-time": "Czas",
+	"bs-watchlist-pref-sort-title": "Tytuł",
+	"bs-watchlist-tag-watchlist-desc": "Pokazuje ostatnio edytowane artykuły z twojej listy obserwowanych",
+	"bs-watchlist-window-watchlist-title": "Obserwowane",
+	"bs-watchlist-window-watchlist-intro": "To jest podgląd wszystkich stron w twojej liście obserwowanych. Możesz także przejść do [[Special:Watchlist|klasycznej listy]].",
+	"bs-watchlist-grid-watchlist-column-link-header": "Strona",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Nieprzejrzane zmiany",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Przejrzyj zmiany",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Strona dyskusji",
+	"bs-watchlist-grid-watchlist-label-filter": "Filtr"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"RV1971"
+		]
+	},
+	"dynamicpagelistengine-desc": "Provide dynamic page lists with configurable and extensible features to [[mw:Special:MyLanguage/Extension:Scribunto|modules]] and to other extensions",
+	"dple-tracking-category": "Pages using DynamicPageListEngine",
+	"dple-error-invalid-ns-index": "DynamicPageListEngine error: No namespace with index $1.",
+	"dple-error-no-criteria": "DynamicPageListEngine error: No selection criteria specified.",
+	"dple-error-too-expensive": "DynamicPageListEngine error: Attempt to perform a query as expensive as $1 joined database tables, while at most $2 are allowed.",
+	"dple-error-too-many-expensive-functions": "DynamicPageListEngine error: Too many expensive functions used on this page."
+}

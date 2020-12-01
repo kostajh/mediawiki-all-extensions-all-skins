@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Darth Kule",
+			"Marco 27",
+			"Nemo bis"
+		]
+	},
+	"security": "Registro di sicurezza",
+	"security-desc": "Estende la protezione delle pagine di MediaWiki per permettere di limitare la visualizzazione del contenuto di pagine",
+	"security-logpage": "Registro di sicurezza",
+	"security-logpagetext": "Di seguito sono elencate le azioni bloccate dall'[https://www.mediawiki.org/wiki/Extension:SimpleSecurity estensione SimpleSecurity].",
+	"badaccess-read": "'''Attenzione:''' la pagina \"$1\" è richiamata qui, ma non si dispone di permessi sufficienti per accedervi.",
+	"security-info": "Sono presenti $1 in questa pagina",
+	"security-info-toggle": "restrizioni di sicurezza",
+	"security-inforestrict": "L'azione $1 è limitata a $2",
+	"security-desc-LS": "(si applica perché questa pagina è $1 \"$2\")",
+	"security-desc-PR": "(impostato dalla scheda \"proteggi\")",
+	"security-infosysops": "Non sono applicate restrizioni perché sei un membro del gruppo \"sysop\"",
+	"security-manygroups": "gruppi $1 e $2",
+	"security-unchain": "Modificare azioni individualmente",
+	"security-type-category": "nella categoria",
+	"security-type-namespace": "nel namespace",
+	"security-restricttogroup": "Accesso al contenuto riservato ai membri di \"$1\"",
+	"restriction-read": "Leggi"
+}

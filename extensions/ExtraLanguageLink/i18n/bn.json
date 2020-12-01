@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftab1995",
+			"Aftabuzzaman",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"extralanguagelink-desc": "পার্শ্বদণ্ডের \"অন্যান্য ভাষায়\" অনুচ্ছেদে অতিরিক্ত ভাষা লিঙ্ক যুক্ত করে",
+	"extralanguagelink-param-class": "শ্রেণী",
+	"extralanguagelink-param-hreflang": "hreflang",
+	"extralanguagelink-param-lang": "lang",
+	"extralanguagelink-param-style": "শৈলী",
+	"extralanguagelink-param-title": "শিরোনাম",
+	"extralanguagelink-badinterwiki": "আন্তঃউইকি উপসর্গ \"$1:\" অনুমোদিত আন্তঃউইকির উপসর্গের তালিকায় নেই।",
+	"extralanguagelink-badtitle": "পাতার শিরোনাম \"$1\" পার্স করা যায়নি।"
+}

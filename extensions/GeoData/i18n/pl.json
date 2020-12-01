@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"Chrumps",
+			"Matma Rex",
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"geodata-desc": "Dodaje funkcje przechowywania i pobierania współrzędnych geograficznych",
+	"geodata-bad-input": "Nieprawidłowe argumenty zostały przekazane do funkcji <nowiki>{{#coordinates:}}</nowiki>",
+	"geodata-bad-latitude": "<nowiki>{{#coordinates:}}</nowiki>: nieprawidłowa szerokość geograficzna",
+	"geodata-bad-longitude": "<nowiki>{{#coordinates:}}</nowiki>: nieprawidłowa długość geograficzna",
+	"geodata-bad-type": "<nowiki>{{#coordinates:}}</nowiki>: nieprawidłowy typ \"$1\"",
+	"geodata-bad-globe": "<nowiki>{{#coordinates:}}</nowiki>: nierozpoznany glob \"$1\"",
+	"geodata-bad-region": "<nowiki>{{#coordinates:}}</nowiki>: nieprawidłowy format kodu regionu",
+	"geodata-multiple-primary": "<nowiki>{{#coordinates:}}</nowiki>: nie można podać więcej niż jednego tagu podstawowego na stronie",
+	"geodata-limit-exceeded": "Ograniczenie $1 {{PLURAL:$1|znacznika|znaczników|znaczników}} <nowiki>{{#coordinates:}}</nowiki>  na stronie zostało przekroczone",
+	"geodata-broken-tags-category": "Strony z niepoprawnymi znacznikami współrzędnych geograficznych",
+	"geodata-broken-tags-category-desc": "Strona posiada niepoprawny tag <code><nowiki>{{#coordinates:}}</nowiki></code>.",
+	"geodata-unknown-type-category": "Strony ze współrzędnymi nieznanego typu",
+	"geodata-unknown-type-category-desc": "Strona używa nieznanej wartości parametru <code>type</code>.",
+	"geodata-unknown-globe-category": "Strony z nieznaną wartością globu",
+	"geodata-unknown-globe-category-desc": "Strona używa nieznanej wartości parametru <code>globe</code>.",
+	"geodata-unknown-region-category": "Strony z nieprawidłową wartością regionu",
+	"geodata-unknown-region-category-desc": "Strona używa nieznanej wartości parametru <code>region</code>.",
+	"geodata-api-help-coordinates-format": "Format: szerokość i długość geograficzna oddzielone pionową kreską (<kbd>|</ kbd>).",
+	"geodata-search-feature-invalid-coordinates": "Współrzędne geograficzne „$2” wprowadzone do „$1” nie mogły zostać przetworzone.",
+	"geodata-search-feature-invalid-distance": "Dystans geograficzny „$2” wprowadzony do „$1” nie mógł zostać przetworzony.",
+	"geodata-search-feature-unknown-title": "Tytuł „$2” wprowadzony do „$1” nie istnieje.",
+	"geodata-search-feature-title-no-coordinates": "Tytuł „$2” wprowadzony do „$1” nie zawiera żadnych współrzędnych.",
+	"geodata-search-timeout": "Upłynął limit czasu wyszukiwania danych. Dostępne są tylko częściowe wyniki."
+}

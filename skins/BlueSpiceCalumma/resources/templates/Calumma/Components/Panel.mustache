@@ -1,0 +1,11 @@
+<div class="bs-panel panel-default{{#classes}} {{.}}{{/classes}}" id="{{panelid}}"{{#data}} data-{{key}}="{{value}}"{{/data}}>
+	<div class="panel-heading" role="tab">
+		<h4 class="bs-panel-title">
+			<a class="tool {{#icon-cls}} icon-{{.}} {{/icon-cls}}" title="{{tooltip}}">{{label}}</a>
+			<a href="#pnl-{{id}}" class="title{{#collapse}} collapsed{{/collapse}}" role="button" aria-expanded="{{#collapse}}false{{/collapse}}{{^collapse}}true{{/collapse}}" {{#toggle-collapse}}data-toggle="collapse" aria-controls="{{id}}"{{/toggle-collapse}}>
+				<span class="trigger {{trigger-type}}"><i class="trigger-icon"></i></span><i class="icon-{{icon}}"></i><span class="title">{{title}}</span><span class="badge">{{badge}}</span>
+			</a>
+		</h4>
+	</div>
+	<div class="panel-collapse collapse {{^collapse}} in{{/collapse}}" role="tabpanel" id="pnl-{{id}}" aria-labelledby="{{id}}" aria-expanded="{{#collapse}}false{{/collapse}}{{^collapse}}true{{/collapse}}">{{{body}}}</div>
+</div>

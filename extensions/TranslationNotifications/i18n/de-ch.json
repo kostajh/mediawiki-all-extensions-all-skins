@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Filzstift",
+			"Geitost"
+		]
+	},
+	"translationnotifications-email-body": "Hallo $1,\n\ndu erhältst dieses E-Mail, da du dich als {{GENDER:$10|Übersetzer|Übersetzerin}} für die {{PLURAL:$9|Sprache|Sprachen}} $2 bei {{SITENAME}} registriert hast.\n\nEs gibt dort eine übersetzende Seite: $3.\nSie kann nach einem Klick auf den folgenden Link übersetzt werden:\n$4\n\n$5\n$6\n\n$7\n\nDeine Hilfe wird sehr geschätzt. Übersetzer wie du helfen dabei, dass {{SITENAME}} als wirklich mehrsprachige Gemeinschaft fungiert.\n\nVielen Dank,\ndie Übersetzungskoordinatoren von {{SITENAME}}\n\n----\n\nDu erhältst dieses E-Mail, da du dich für den Empfang von E-Mails für Übersetzungen bei {{SITENAME}} registriert hast. Zum Abmelden oder Ändern deiner Benachrichtigungseinstellungen für Übersetzungen besuche bitte $8.",
+	"translationnotifications-talkpage-body": "Hallo $2,\n\ndu erhältst dieses E-Mail, da du dich als {{GENDER:$1|Übersetzer|Übersetzerin}} {{PLURAL:$9|für}} $3 bei {{SITENAME}} registriert hast.\nDie Seite [[$4]] ist zum Übersetzen vorhanden. Du kannst sie hier übersetzen:\n$5\n\n$6\n$7\n\n$8\n\nDeine Hilfe wird sehr geschätzt. Übersetzer wie du helfen dabei, dass {{SITENAME}}\nals wirklich mehrsprachige Gemeinschaft fungiert.\n\nVielen Dank,\ndie Übersetzungskoordinatoren von {{SITENAME}}",
+	"translationnotifications-digestemail-body": "Hallo $1,\n\ndu erhältst dieses E-Mail, da du dich als Übersetzer(in) für $2 bei {{SITENAME}} {{GENDER:$1|registriert}} hast.\nEs {{PLURAL:$3|ist eine Seite|sind $3 Seiten}} zum Übersetzen vorhanden. Einzelheiten sind unten angegeben:\n\n$4\n\nDeine Hilfe wird sehr geschätzt. Übersetzer wie du helfen dabei, dass {{SITENAME}}\nals wirklich mehrsprachige Gemeinschaft fungiert.\n\nVielen Dank,\ndie Übersetzungsadministratoren von {{SITENAME}}\n\n----\n\nDu erhältst dieses E-Mail, da du dich zum Empfang von E-Mails bezüglich der Übersetzungen bei {{SITENAME}} registriert hast. Zum Abmelden oder Ändern deiner Benachrichtigungseinstellungen für Übersetzungen besuche bitte <$5>."
+}

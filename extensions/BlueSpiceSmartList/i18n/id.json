@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rachmat.Wahidi",
+			"Rachmat04",
+			"Sonic Speedy"
+		]
+	},
+	"bs-smartlist-desc": "Menampilkan lima perubahan terakhir wiki dalam daftar",
+	"prefs-smartlist": "Daftar pintar",
+	"bs-smartlist-recent-changes": "Perubahan terbaru",
+	"bs-smartlist-no-entries": "Tidak ada hasil yang ditemukan.",
+	"bs-smartlist-invalid-target": "Target yang diberikan bukan judul halaman yang valid",
+	"bs-smartlist-comment": "Komentar: $1.",
+	"bs-smartlist-sort-asc": "Menaik",
+	"bs-smartlist-sort-desc": "Menurun",
+	"bs-smartlist-day": "Hari",
+	"bs-smartlist-week": "Minggu",
+	"bs-smartlist-month": "Bulan",
+	"bs-smartlist-time": "Waktu",
+	"bs-smartlist-title": "Judul",
+	"bs-smartlist-tag-smartlist-desc": "Tampilkan otomatis daftar artikel yang dibuat. Setelan ini bekerja dengan beberapa mode dan parameter",
+	"bs-smartlist-tag-smartlist-example-rc": "Mode: Perubahan terbaru",
+	"bs-smartlist-tag-smartlist-example-whatlinkshere": "Mode: Pranala balik",
+	"bs-smartlist-tag-newbies-desc": "Menampilkan pengguna baru di wiki. Daftar ini dapat dibatasi menjadi beberapa nomor.",
+	"bs-smartlist-tag-toplist-desc": "Menampilkan halaman yang sering dikunjungi. Dapat dibatasi dengan beberapa parameter.",
+	"bs-smartlist-mostvisitedpages": "Halaman yang sering dikunjungi",
+	"bs-smartlist-mosteditedpages": "Halaman yang disunting teratas",
+	"bs-smartlist-mostactiveusers": "Pengguna paling aktif (menurut pengeditan)",
+	"bs-smartlist-lastedits": "Suntingan saya",
+	"bs-smartlist-noedits": "Tidak ada hasil yang ditemukan.",
+	"bs-smartlist-mostactiveusersdesc": "Daftar pengguna paling aktif yang diurutkan berdasarkan editan mereka.",
+	"bs-smartlist-mosteditedpagesdesc": "Daftar halaman yang paling banyak diedit diurutkan berdasarkan hasil editnya.",
+	"bs-smartlist-mostvisitedpagesdesc": "Daftar halaman yang paling banyak dilihat diurutkan berdasarkan tampilan mereka.",
+	"bs-smartlist-lasteditsdesc": "Daftar halaman yang telah Anda edit.",
+	"apihelp-bs-smartlist-tasks-description": "API berfungsi untuk menyajikan data portlet untuk halaman dan statistik pengguna.",
+	"apihelp-bs-smartlist-tasks-summary": "API berfungsi untuk menyajikan data portlet untuk halaman dan statistik pengguna."
+}

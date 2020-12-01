@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"dynamicpagelistengine-desc": "Dèje l'elenghe de pàggene ccrejate dinamecamende in base a criterie de scacchiamende configurabbele e spandibbele de le [[mw:Special:MyLanguage/Extension:Scribunto|module]] e a otre estenziune.",
+	"dple-tracking-category": "Pàggene ca ausane DynamicPageListEngine",
+	"dple-error-invalid-ns-index": "Errore de DynamicPageListEngine: Nisciune namespace cu l'indice $1.",
+	"dple-error-no-criteria": "Errore de DynamicPageListEngine: Nisciune criterie de scacchiamende specificate.",
+	"dple-error-too-expensive": "Errore de DynamicPageListEngine: 'Nderrogazione pesande purcé stonne $1 tabbelle combinate, invece 'u massime conzendite jè $2.",
+	"dple-error-too-many-expensive-functions": "Errore de DynamicPageListEngine: Troppe funziune pesande ausate sus a sta pàgene."
+}

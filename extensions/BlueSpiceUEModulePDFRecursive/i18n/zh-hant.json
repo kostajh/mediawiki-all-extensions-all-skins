@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-uemodulepdfrecursive-extension-description": "啟用頁面遞迴匯出成 PDF 格式。",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-text": "帶有連結頁面的 PDF 頁面",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-title": "匯出此頁面以及所有連結到的頁面為 PDF。",
+	"right-uemodulepdfrecursive-export": "匯出頁面、包含所有連結到的頁面成為 PDF。",
+	"action-uemodulepdfrecursive-export": "匯出頁面、包含所有連結到的頁面成為 PDF。"
+}

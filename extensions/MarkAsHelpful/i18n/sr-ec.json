@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Rancher"
+		]
+	},
+	"markashelpful-desc": "Обезбеђује кориснички интерфејс за означавање коментара корисним",
+	"mah-mark-text": "Означи као корисно",
+	"mah-you-marked-text": "Сматрате да је ово корисно",
+	"mah-someone-marked-text": "{{GENDER:$1|$1}} мисли да је ово корисно",
+	"mah-undo-mark-text": "врати",
+	"mah-action-error": "Дошло је до грешке при извршавању ове радње"
+}

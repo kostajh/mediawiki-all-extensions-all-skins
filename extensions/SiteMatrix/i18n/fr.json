@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Framafan",
+			"Gomoko",
+			"Grondin",
+			"IAlex",
+			"Od1n",
+			"Seb35",
+			"Sherbrooke",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"sitematrix": "Liste des wikis de Wikimedia",
+	"sitematrix-summary": "Cette page spéciale affiche tous les wikis de la Wikimedia Foundation.",
+	"sitematrix-desc": "Affiche une [[Special:SiteMatrix|liste de wikis de la Fondation Wikimedia]]",
+	"sitematrix-language": "Langue",
+	"sitematrix-project": "Nom du projet, lien interprojet et lien interwiki",
+	"sitematrix-others": "Autres projets de Wikimedia Foundation",
+	"sitematrix-other-projects": "Autres projets",
+	"sitematrix-other-projects-language": "Langue",
+	"sitematrix-total": "'''Total du compte : $1'''",
+	"sitematrix-sitetotal": "Total",
+	"sitematrix-closed": "pas d'accès en écriture, accès total en lecture",
+	"sitematrix-private": "accès restreint en lecture et écriture",
+	"sitematrix-fishbowl": "accès restreint en écriture, accès complet en lecture",
+	"sitematrix-nonglobal": "public, mais inscription obligatoire"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"special404-desc": "Omogućava odredište za greške tipa 404 Nije pronađeno",
+	"error404": "404 Nije pronađeno",
+	"special404-body": "URL koji ste zahtijevali nije pronađen.\n\nDa li ste mislili na {{fullurl:$1}}?\n\nMožda bi ste željeli da pogledate:\n* [[{{MediaWiki:Mainpage}}|Početnu stranu]]"
+}

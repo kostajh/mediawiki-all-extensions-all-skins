@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"spark-desc": "Ergänzt das <code><nowiki><spark /></nowiki></code>-Tag zum Einbetten von [http://km.aifb.kit.edu/sites/spark/ Spark]-Mashups",
+	"spark-missing-query": "Es muss eine eine Abfrage mit dem Parameter „data-spark-query“ erstellt werden."
+}

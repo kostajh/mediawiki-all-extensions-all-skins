@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-socialwikipage-desc": "كيان صفحة ويكي ووظيفة لBlueSpiceSocial",
+	"bs-socialwikipage-type": "صفحة الويكي",
+	"bs-socialwikipage-entitywikipage-header-create": "إنشاء منطقة مرفق جديدة",
+	"bs-socialwikipage-nowikipageentity": "لم يتم إنشاء منطقة مرفق بعد",
+	"bs-socialwikipage-noattachmentsadded": "لم تتم إضافة أي مرفق بعد",
+	"bs-socialwikipage-stashtype": "المرفقات",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]] مرفق",
+	"bs-socialwikipage-entitystash-header-create": "مرفق جديد",
+	"bs-socialwikipage-special-stash-heading": "المرفقات",
+	"bs-socialwikipage-aftercontent-heading": "المرفقات",
+	"wikipagestash": "المرفقات",
+	"bs-socialwikipage-var-wikipageid": "الصفحة المخصصة",
+	"bs-socialwikipage-switch-nostash-description": "يخفي مساحة المرفق في هذه الصفحة.",
+	"bs-socialwikipage-stash-insertfiledialog-title": "إضافة ملف",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "إضافة",
+	"bs-socialwikipage-stash-editor-attachedfiles": "الملفات المرفقة",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "حذف",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "إضافة",
+	"apihelp-bs-socialstash-tasks-summary": "يوفر مهام لتحرير صفحات الكيانات المرتبطة"
+}

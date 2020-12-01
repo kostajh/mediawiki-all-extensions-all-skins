@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Devwebtel",
+			"Woytecr"
+		]
+	},
+	"safedelete": "Bezpieczne Usuwanie",
+	"safedelete-desc": "Usuń stronę tylko wtedy, gdy nie ma strony w określonej przestrzeni nazw linkującej do niej",
+	"safedelete-title": "Usuwanie „$1”",
+	"safedelete-missingpagename": "Brakuje nazwy strony.",
+	"safedelete-missingnamespaces": "Nie ustawiono listy przestrzeni nazw dla Specjalnego Usuwania.",
+	"safedelete-cannotdelete": "Strony „$1” nie można usunąć, ponieważ istnieją do niej linki lub przekierowania z {{PLURAL:$2|następującej strony|następujących stron}}:"
+}

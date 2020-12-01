@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-socialprofile-desc": "Profile entity for BlueSpiceSocial",
+	"bs-socialprofile-type": "Profile",
+	"bs-socialprofile-entityprofile-header": "[[$6|$2]]",
+	"bs-socialprofile-entityaction-changeimage": "Userimage",
+	"bs-social-entityaction-editprofilefields": "Profile data",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "Invalid 'User' given",
+	"bs-social-profile-field-name": "Name",
+	"bs-social-profile-field-email": "Email",
+	"bs-social-profile-field-title": "Title",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Mr.|Mrs.|}}",
+	"bs-social-profile-field-department": "Department",
+	"bs-social-profile-field-function": "Function",
+	"bs-social-profile-field-location": "Location",
+	"bs-social-profile-field-phone": "Telephone",
+	"bs-social-profile-field-validate-no-integer": "$1 must be a number",
+	"bs-socialprofile-special-profiles-heading": "Profiles",
+	"bs-social-profile-infoshowemail": "Show email address in profile",
+	"socialprofiles": "Profiles",
+	"bs-socialprofile-switch-classicprofile-label": "Classic profile",
+	"bs-socialprofile-switch-modernprofile-label": "Modern profile",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Switch to classic profile",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Switch to modern profile",
+	"action-social-editothersprofile": "edit other users profile",
+	"right-social-editothersprofile": "Edit other users profile",
+	"action-socialprofile-viewspecialpage": "view the special page \"{{int:socialprofiles}}\"",
+	"right-socialprofile-viewspecialpage": "View the special page \"{{int:socialprofiles}}\""
+}

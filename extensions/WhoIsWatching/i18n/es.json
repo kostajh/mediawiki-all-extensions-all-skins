@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Fex25",
+			"Sanbec"
+		]
+	},
+	"action-addpagetoanywatchlist": "Añadir páginas a listas de otros usuarios",
+	"action-seepagewatchers": "ver qué usuarios están viendo una página",
+	"whoiswatching": "Quien está vigilando una página",
+	"whoiswatching-desc": "Proporciona una lista de usuarios que vigilan una página de la wiki.",
+	"specialwhoiswatchingusage": "Esta página especial no puede ser usada por sí sola.",
+	"specialwhoiswatchingaddusers": "Añade usuarios para que vigilen la página",
+	"specialwhoiswatchingaddbtn": "Añade los usuarios seleccionados",
+	"whoiswatching-adduser": "Añadir usuario",
+	"whoiswatching-deluser": "Eliminar usuario",
+	"whoiswatching-permission-denied-title": "Permiso denegado",
+	"whoiswatching-title": "Escriba un título"
+}

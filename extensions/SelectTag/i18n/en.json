@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Khaled El Mansoury"
+		]
+	},
+	"selecttag-desc": "Adds customizable &lt;select&gt; for inserting text via database fetching",
+	"selecttag-sourceattr-unspecified": "Error: Source attribute not specified."
+}

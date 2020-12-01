@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eneelk"
+		]
+	},
+	"shibboleth-desc": "Fournit une authentification utilisant Shibboleth conjointement avec PluggableAuth",
+	"shibboleth-wg-empty-displayname": "La variable de configuration <var>wgShibboleth_DisplayName</var> est vide dans LocalSettings.php",
+	"shibboleth-wg-empty-email": "La variable de configuration <var>wgShibboleth_Email</var> est vide dans LocalSettings.php",
+	"shibboleth-wg-empty-username": "La variable de configuration <var>wgShibboleth_Username</var> est vide dans LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "La variable de configuration <var>wgShibboleth_GroupMap</var> est vide dans LocalSettings.php",
+	"shibboleth-attr-empty-username": "Shibboleth : l’attribut du nom d'utilisateur n’est pas défini",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth : impossible de trouver l’attribut GroupMap"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Ontsed",
+			"Selven"
+		]
+	},
+	"extralanguagelink-desc": "Aggiunge ulteriori collegamenti nella sezione \"In altre lingue\" della barra laterale",
+	"extralanguagelink-param-class": "classe",
+	"extralanguagelink-param-hreflang": "hreflang",
+	"extralanguagelink-param-lang": "lingua",
+	"extralanguagelink-param-style": "stile",
+	"extralanguagelink-param-title": "titolo",
+	"extralanguagelink-badinterwiki": "Il prefisso interwiki \"$1:\" non è nell'elenco dei prefissi interwiki consentiti.",
+	"extralanguagelink-badtitle": "Il titolo della pagina \"$1\" non può essere elaborato."
+}

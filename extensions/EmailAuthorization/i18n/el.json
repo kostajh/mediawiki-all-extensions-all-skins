@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"emailauthorization-config-nousersfound": "Δεν βρέθηκε χρήστης.",
+	"emailauthorization-config-label-email": "Διεύθυνση ηλεκτρονικού ταχυδρομείου",
+	"emailauthorization-config-label-username": "Όνομα χρήστη",
+	"emailauthorization-config-label-realname": "Ονοματεπώνυμο",
+	"emailauthorization-config-label-userpage": "Σελίδα χρήστη",
+	"emailauthorization-config-label-authorized": "Εξουσιοδοτημένος",
+	"emailauthorization-config-value-domain": "όλοι οι χρήστες με διευθύνσεις ηλ. ταχυδρομείου που ξεκινούν με $1",
+	"emailauthorization-config-value-yes": "ναι",
+	"emailauthorization-config-value-no": "όχι",
+	"emailauthorization-config-legend-search": "Αναζήτηση για διευθύνσεις ηλεκτρονικού ταχυδρομείου",
+	"emailauthorization-config-button-next": "Επόμενο",
+	"emailauthorization-config-button-previous": "Προηγούμενο",
+	"emailauthorization-config-button-search": "Αναζήτηση",
+	"emailauthorization-config-button-add": "Προσθήκη",
+	"emailauthorization-config-button-revoke": "Ανάκληση",
+	"emailauthorization-config-button-showall": "Εμφάνιση όλων των χρηστών του βίκι",
+	"emailauthorizationrequest": "Αίτηση λογαριασμού",
+	"emailauthorization-request-label-email": "Διεύθυνση ηλεκτρονικού ταχυδρομείου",
+	"emailauthorization-request-button-submit": "Υποβολή",
+	"echo-category-title-emailauthorization-notification-category": "Νέα αιτήματα λογαριασμών",
+	"notification-subject-emailauthorization-account-request": "Νέο αίτημα λογαριασμού.",
+	"notification-body-emailauthorization-account-request": "Ο $1 έχει ζητήσει ένα λογαριασμό.",
+	"emailauthorizationapprove": "Έγκριση αιτήσεων λογαριασμού",
+	"emailauthorization-approve-label-email": "Διεύθυνση ηλεκτρονικού ταχυδρομείου",
+	"emailauthorization-approve-label-extra": "Πρόσθετα πεδία",
+	"emailauthorization-approve-label-action": "Ενέργειες",
+	"emailauthorization-approve-button-approve": "Έγκριση",
+	"emailauthorization-approve-button-reject": "Απόρριψη",
+	"emailauthorization-approve-button-next": "Επόμενο",
+	"emailauthorization-approve-button-previous": "Προηγούμενο",
+	"emailauthorization-approve-norequestsfound": "Δεν βρέθηκαν αιτήσεις λογαριασμών.",
+	"emailauthorization-approve-approved": "Εγκρίθηκε $1.",
+	"emailauthorization-approve-rejected": "Απορρίφθηκε $1."
+}

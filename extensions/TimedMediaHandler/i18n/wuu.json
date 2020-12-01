@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Poiuyt",
+			"飞舞回堂前"
+		]
+	},
+	"timedmedia-hours": "{{PLURAL:$1|$1个钟头}}",
+	"timedmedia-source-file": "$1原始文件",
+	"timedmedia-source-audio-file-desc": "原始$1文件 ($2)"
+}

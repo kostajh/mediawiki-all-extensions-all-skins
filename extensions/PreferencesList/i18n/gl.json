@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArenaL5"
+		]
+	},
+	"preferenceslist-desc": "Xera unha lista de todos os axustes de usuario para unha preferencia particular",
+	"preferenceslist-preferenceslist": "Lista de preferencias",
+	"preferenceslist-preferenceslist-intro": "Abaixo hai unha lista de preferencias. Escolla unha ou máis para ver unha lista de todos os usuarios con cadansúa preferencia.",
+	"preferenceslist": "Lista de preferencias",
+	"action-preferenceslist": "enumerar as preferencias de todos os usuarios",
+	"preferenceslist-csv": "Descargar como CSV",
+	"preferenceslist-nofields": "Non se seleccionou nengún campo.",
+	"right-preferenceslist": "Abrir a páxina Special:PreferencesList"
+}

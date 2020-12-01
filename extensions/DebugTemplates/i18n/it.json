@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexmar983",
+			"Beta16",
+			"Federico Mugnaini",
+			"Macofe"
+		]
+	},
+	"debugtemplates": "Debugga le sagome",
+	"debugtemplates-desc": "Un semplice debugger per le sagome",
+	"debugtemplates-summary": "Aggiunge una [[special:DebugTemplates|pagina speciale]] che fornisce un'interfaccia per il debugging delle espansione dei template.",
+	"debugtemplates-api": "L'URL per comporre delle chiamate API (solo come informazione)",
+	"debugtemplates-title": "Titolo pagina (opzionale, solo per il contesto)",
+	"debugtemplates-args-title": "Parametri",
+	"debugtemplates-args-name": "Nome",
+	"debugtemplates-args-value": "Valuta",
+	"debugtemplates-args-eval-all": "Eval",
+	"debugtemplates-args-set-toggle": "Impostare/Non impostare tutto",
+	"debugtemplates-args-value-clear": "Cancella Tutto",
+	"debugtemplates-args-constructed": "No nome",
+	"debugtemplates-crumb-reset": "Cancellare lo stack",
+	"debugtemplates-error-button": "Pulisci i messaggi di errore",
+	"debugtemplates-error-arg-eval": "Errore, non è stato valutato l'argomento per il modello:",
+	"debugtemplates-error-parse": "Errore, testo di ingresso non trovato",
+	"debugtemplates-error-template-name": "Errore, non è stato determinato il nome della sagoma",
+	"debugtemplates-error-template-revisions": "Errore, non esistono revisioni della pagina per il template:",
+	"debugtemplates-input": "Inserisci il testo",
+	"debugtemplates-radio-intro": "Cliccare sul modello o lo faranno i parametri",
+	"debugtemplates-radio-select": "niente",
+	"debugtemplates-radio-eval": "valutare",
+	"debugtemplates-warning-template-not-a-template": "Sagoma non trovata:",
+	"debugtemplates-warning-template-not-found": "Sconosciuto o costruito nella sagoma",
+	"debugtemplates-output": "Pannello di debug",
+	"apihelp-expandframe-param-text": "Il testo wiki da espandere."
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-categorycheck-extension-description": "Proverava dodeljenu kategoriju pre nego što se članak sačuva",
+	"bs-categorycheck-insertcategory-no-category": "Molimo dodelite kategoriju članku",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Zanemari",
+	"bs-categorycheck-insertcategory-category-list": "Sledeće kategorije su postavljene",
+	"bs-categorycheck-insertcategory-confirm-categories": "Kategorije su korektne",
+	"bs-categorycheck-nsm-label-categorycheck": "Provera kategorija"
+}

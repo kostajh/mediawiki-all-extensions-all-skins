@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Darth Kule",
+			"F. Cosoleto"
+		]
+	},
+	"wlm-extension-desc": "Aggiunge informazioni e messaggi riguardanti il concorso fotografico Wiki Loves Monuments",
+	"wlm-no-contest-year": "Non c'è stato nessun concorso di Wiki Loves Monuments nel $1.",
+	"wlm-no-url-bad-country": "Non è stato trovare il sito web per la competizione locale, $1 non è un valido codice nazionale.",
+	"wlm-country-not-given": "Devi fornire il codice di un paese.",
+	"wlm-country-not-participating-year": "«$1» non partecipa a Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "Altri paesi",
+	"wlm-international-contest": "Internazionale",
+	"wlm-text-contact": "Contatti",
+	"wlm-text-contest": "Concorso",
+	"wlm-text-donate": "Fai una donazione",
+	"wlm-text-faq": "FAQ",
+	"wlm-text-jury": "Giuria",
+	"wlm-text-monuments": "Monumenti",
+	"wlm-text-news": "Notizie",
+	"wlm-text-participate": "Partecipa!",
+	"wlm-text-prizes": "Premi",
+	"wlm-text-rules": "Regole",
+	"wlm-text-sponsors": "Sponsor",
+	"wlm-text-uploading": "Carica"
+}

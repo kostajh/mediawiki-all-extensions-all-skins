@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jaideraf",
+			"Luckas",
+			"Luckas Blade"
+		]
+	},
+	"browsesw": "Navegar pelo Wiki e pela Web Semântica",
+	"swb_desc": "Adiciona uma página especial [[Special:BrowseSW|Navegar pelo Wiki e pela Web Semântica]]",
+	"swb_browse_article": "Introduza o nome da página a partir da qual deseja começar a navegação.",
+	"swb_browse_go": "Ir",
+	"swb_browse_show_incoming": "exibir propriedades que apontam para cá",
+	"swb_browse_hide_incoming": "ocultar propriedades que apontam para cá",
+	"swb_browse_no_outgoing": "Esta página não possui propriedades.",
+	"swb_browse_no_incoming": "Nenhuma propriedade aponta para esta página.",
+	"swb_inverse_label_property": "Nome de propriedade inversa",
+	"swb_inverse_label_default": "$1 de",
+	"swb_browse_error": "Os dados semânticos não puderam ser carregados com o Semantic Web Browser por causa de um erro:"
+}

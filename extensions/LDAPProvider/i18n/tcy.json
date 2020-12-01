@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ravi Mundkur"
+		]
+	},
+	"ldapprovider-desc": " ಒಂಜಿ  LDAP  ಸಂಪನ್ಮೂಲ ಜೋಡಾವರೆ ಬೋಡಾಯಿನ ಒಂಜಿ ಸಾಮಾನ್ಯ ತಳರಚನೆ ಕೊರ್ಪುಂಡು ಬೊಕ ಅಯಿತ ಮಿತ್ತ್ ಕೇಣಿಲೆನ್ ನಡಪಾವುನಿ",
+	"ldapprovider-config-clientregistry": "ಶಿಷ್ಟ ಗಿರಾಕಿಲೆನ ನೋಂದಣಿ ಆಪುಂಡು",
+	"ldapprovider-config-domainconfigs": "ಪ್ರಾಂತ ಸಂರಚನೆ ಕಾಪುಂಡು",
+	"ldapprovider-domain-config-not-found": "\n\n'$1' ಸಂರಚನೆ ಕಡತದ  ಸಾದಿ ತಿಕ್ಕುಜಿ !\n\nದಯಮಲ್ತ್  LDAPProvider  ವಿಸ್ತರಣೆಗ್ ಒಂಜಿ ಪ್ರಾಂತ ಸಂರಚನೆ ಕಡತ ಜೋಡಿಸಾಲೆ.",
+	"ldapprovider-more-than-one": "'$1'ಡು ಒಂಜೆರ್ದ್ ಹೆಚ್ಚ ಬಳಕೆದಾರೆರ್ ತಿಕಿಯೆರ್.",
+	"ldapprovider-config-domainconfigprovider": "ಪ್ರಾಂತ ಸಂರಚನೆ ಗೆತೊಣುನ ವಿಧಾನ ತೆರಿಪಾವುಂಡು"
+}

@@ -1,0 +1,56 @@
+{
+	"name": "BlueSpiceUEModulePDFSubpages",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:UEModulePDFSubpages",
+	"author": [
+		"Robert Vogel",
+		"Tobias Weichart"
+	],
+	"descriptionmsg": "bs-uemodulepdfsubpages-extension-description",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceUniversalExport": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceUEModulePDFSubpages": {
+					"className": "UEModulePDFSubpages",
+					"extPath": "/BlueSpiceUEModulePDFSubpages",
+					"package": "BlueSpice Pro",
+					"status": "stable"
+				}
+			},
+			"PermissionRegistry": {
+				"uemodulepdfsubpages-export": {
+					"type": "namespace",
+					"roles": [
+						"reader"
+					]
+				}
+			}
+		}
+	},
+	"GroupPermissions": {
+		"*": {
+			"uemodulepdfsubpages-export": true
+		}
+	},
+	"AvailableRights": [
+		"uemodulepdfsubpages-export"
+	],
+	"MessagesDirs": {
+		"BlueSpiceUEModulePDFSubpages": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"UEModulePDFSubpages": "UEModulePDFSubpages.class.php"
+	},
+	"manifest_version": 2
+}

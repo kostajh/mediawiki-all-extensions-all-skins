@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-socialprofile-desc": "Profilentitet for BlueSpiceSocial",
+	"bs-socialprofile-type": "Profil",
+	"bs-socialprofile-entityaction-changeimage": "Brukerbilde",
+	"bs-social-entityaction-editprofilefields": "Profildata",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "Ugyldig «bruker» gitt",
+	"bs-social-profile-field-name": "Navn",
+	"bs-social-profile-field-email": "Epost",
+	"bs-social-profile-field-title": "Tittel",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|}}",
+	"bs-social-profile-field-department": "Avdeling",
+	"bs-social-profile-field-function": "Funksjon",
+	"bs-social-profile-field-location": "Sted",
+	"bs-social-profile-field-phone": "Telefon",
+	"bs-social-profile-field-validate-no-integer": "$1 må være et tall",
+	"bs-socialprofile-special-profiles-heading": "Profiler",
+	"bs-social-profile-infoshowemail": "Vis epostadresser i profil",
+	"socialprofiles": "Profiler",
+	"bs-socialprofile-switch-classicprofile-label": "Klassisk profil",
+	"bs-socialprofile-switch-modernprofile-label": "Moderne profil",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Bytt til klassisk profil",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Bytt til moderne profil",
+	"action-social-editothersprofile": "redigere andres profiler",
+	"right-social-editothersprofile": "Redigere andres profiler",
+	"action-socialprofile-viewspecialpage": "vise spesialsiden «{{int:socialprofiles}}»",
+	"right-socialprofile-viewspecialpage": "Vise spesialsiden «{{int:socialprofiles}}»"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"odbcdatabase": "OdbcDatabase",
+	"odbcdatabase-desc": "Controlador que usa a biblioteca de comandos PHP <code>odbc_*</code> para suportar a extensão de dados externos",
+	"odbcdatabase-odbc-missing": "Faltam funções ODBC. Verifique que <code>PHP:ODBC</code> está instalado.",
+	"odbcdatabase-connection-error": "Erro ao ligar ao servidor [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Não foi possível libertar um resultado ODBC",
+	"odbcdatabase-fetch-object-error": "Erro ao obter o objeto: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Erro ao obter a linha: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "A função insertId() não é suportada.",
+	"odbcdatabase-unknown-server-version": "A versão do servidor ODBC é desconhecida."
+}

@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"YaronSh"
+		]
+	},
+	"expiry": "תפוגה",
+	"specialexpiry": "ערכים שתוקפם פג",
+	"prefs-expiry": "תפוגה",
+	"bs-expiry-unexpire-article": "תוקף הדף פג",
+	"bs-expiry-do-unexpire-article": "למחוק תאריך תפוגה",
+	"bs_expiry-unexpire-success": "תפוגת הדף הוסרה בהצלחה",
+	"bs-expiry-header-pagename": "דף",
+	"bs-expiry-dialog-title": "עריכת תפוגה",
+	"bs-expiry-article-label": "דף",
+	"bs-expiry-comment-label": "הערה",
+	"bs-expiry-delete-error-unknown": "לא ניתן למחוק את מועד התפוגה.",
+	"bs-expiry-unknown-page-msg": "העמוד לא קיים.",
+	"bs-expiry-create-error": "לא ניתן ליצור את הרשומה.",
+	"bs-expiry-update-error": "לא ניתן לעדכן את מועד התפוגה.",
+	"bs-expiry-update-success": "מועד התפוגה עודכן",
+	"bs-expiry-save-success": "התפוגה נוצרה",
+	"bs-expiry-unexpire-success": "התפוגה נמחקה",
+	"bs-expiry-unexpire-unsuccess": "מזהה התפוגה לא נמצא",
+	"bs-expiry-menu-entry-create": "תפוגה",
+	"bs-expiry-title-delete": "הסרת תפוגה",
+	"bs-expiry-nav-link-title-expiry": "תפוגה",
+	"bs-expiry-flyout-title": "תפוגת דף",
+	"bs-expiry-flyout-next-expired": "תוקף הדף פג!",
+	"bs-expiry-flyout-manager-button-label": "מנהל תפוגה",
+	"bs-expiry-edit-grid-header-username": "משתמש",
+	"bs-expiry-edit-grid-header-date": "תאריך",
+	"bs-expiry-edit-grid-header-comment": "הערה",
+	"bs-expiry-edit-grid-title": "עריכות מאז תפוגת העמוד",
+	"bs-expiry-edit-grid-empty": "אין עריכות מאז תפוגת העמוד",
+	"bs-expiry-reminder-type-expiry": "תפוגה",
+	"bs-expiry-do-updateexpirydate-article": "החלפת תאריך תפוגה",
+	"bs-expiry-smwpropertyvalueprovider-expirationdate-alias": "תפוגה/תאריך תפוגה",
+	"bs-expiry-smwpropertyvalueprovider-expirationdate-desc": "תאריך תפוגת הדף",
+	"bs-expiry-smwpropertyvalueprovider-isexpired-alias": "תפוגה/האם התוקף פג"
+}

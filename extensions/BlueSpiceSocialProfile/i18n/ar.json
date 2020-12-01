@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-socialprofile-desc": "كيان الملف الشخصي لـBlueSpiceSocial",
+	"bs-socialprofile-type": "الملف الشخصي",
+	"bs-socialprofile-entityaction-changeimage": "صورة المستخدم",
+	"bs-social-entityaction-editprofilefields": "بيانات الملف الشخصي",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "تم إعطاء \"مستخدم\" غير صالح",
+	"bs-social-profile-field-name": "الاسم",
+	"bs-social-profile-field-email": "البريد الإلكتروني",
+	"bs-social-profile-field-title": "العنوان",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|السيد|السيدة|}}",
+	"bs-social-profile-field-department": "القسم",
+	"bs-social-profile-field-function": "الوظيفة",
+	"bs-social-profile-field-location": "الموقع",
+	"bs-social-profile-field-phone": "الهاتف",
+	"bs-social-profile-field-validate-no-integer": "يجب أن يكون $1 رقمًا",
+	"bs-socialprofile-special-profiles-heading": "الملفات الشخصية",
+	"bs-social-profile-infoshowemail": "إظهار عنوان البريد الإلكتروني في الملف الشخصي",
+	"socialprofiles": "الملفات الشخصية",
+	"bs-socialprofile-switch-classicprofile-label": "الملف الشخصي الكلاسيكي",
+	"bs-socialprofile-switch-modernprofile-label": "الملف الشخصي الحديث",
+	"bs-socialprofile-switch-classicprofile-tooltip": "تحويل إلى الملف الشخصي الكلاسيكي",
+	"bs-socialprofile-switch-modernprofile-tooltip": "تحويل إلى الملف الشخصي الحديث",
+	"action-social-editothersprofile": "تحرير ملف تعريف المستخدمين الآخرين",
+	"right-social-editothersprofile": "تحرير ملف تعريف المستخدمين الآخرين",
+	"action-socialprofile-viewspecialpage": "عرض الصفحة الخاصة \"{{int:socialprofiles}}\"",
+	"right-socialprofile-viewspecialpage": "عرض الصفحة الخاصة \"{{int:socialprofiles}}\""
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"sslauth-desc": "Consente agli utenti di caricare i certificati SSL da utilizzare per l'autenticazione",
+	"sslauth-title-enable": "Abilita autenticazione client SSL",
+	"sslauth-title-disable": "Disabilita autenticazione client SSL",
+	"sslauth-enable": "Abilita",
+	"sslauth-disable": "Disabilita",
+	"sslauth-cn": "Nome comune",
+	"sslauth-email": "Indirizzo email",
+	"sslauth-serial": "Numero di serie",
+	"sslauth-response-enable": "L'autenticazione SSL è stata attivata. Ora ogni volta che ti connetti a {{SITENAME}} su HTTPS con il tuo certificato client, verrà effettuato automaticamente l'accesso.",
+	"sslauth-response-disable": "L'autenticazione SSL è stata disabilitata.",
+	"sslauth-invalidrequest-title": "Richiesta non valida",
+	"sslauth-invalidrequest": "Deve essere fornito un certificato client SSL valido per rendere utilizzabile questa pagina.",
+	"clientssl-legend": "Autenticazione SSL",
+	"clientssl-text": "Utilizza questa pagina per attivare o disattivare l'autenticazione con certificati SSL client.",
+	"sslauth-prefs-name": "Autenticazione SSL",
+	"sslauth-prefs-linktospecial": "Attiva/disattiva certificati client"
+}

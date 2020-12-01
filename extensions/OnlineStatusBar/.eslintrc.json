@@ -1,0 +1,14 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"rules": {
+		"no-jquery/no-global-selector": "off",
+		"no-jquery/no-in-array": "off",
+		"mediawiki/class-doc": "warn",
+		"mediawiki/msg-doc": "warn"
+	}
+}

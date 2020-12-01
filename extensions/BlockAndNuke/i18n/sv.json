@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjälten",
+			"Technic2",
+			"WikiPhoenix"
+		]
+	},
+	"action-blockandnuke": "Blockera och rensa",
+	"blockandnuke": "Blockera och rensa",
+	"blockandnuke-nopages": "Inga nya sidor av [[Special:Contributions/$1|$1]] bland de senaste ändringarna.",
+	"blockandnuke-defaultreason": "Massborttagning av sidor tillagd av $1",
+	"blockandnuke-submit-user": "Blockera användare",
+	"blockandnuke-submit-delete": "Blockera och förstör",
+	"blockandnuke-block": "Utvalda användare har blockerats and deras bidrag har raderats",
+	"blockandnuke-message": "Användare som blockerats av BlockandNuke.",
+	"blockandnuke-banhammer": "För att blockera utvalda användare och radera deras bidrag klicka knappen nedan",
+	"blockandnuke-nothing-to-do": "Inget att göra!",
+	"blockandnuke-banning": "Bannlyser...",
+	"blockandnuke-deleted-page": "Raderade $1",
+	"blockandnuke-banned-ip": "Bannlyste IP-adressen $1",
+	"blockandnuke-ip-addresses": "IP-adresser",
+	"blockandnuke-users": "Användare",
+	"blockandnuke-pages": "Sidor",
+	"right-blockandnuke": "Blockera en lista över användare och radera alla deras bidrag"
+}

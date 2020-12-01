@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Murma174"
+		]
+	},
+	"special404-desc": "Dü könst en sidj fäästlei, wan di HTTP-feeler „404 Ei fünjen“ föörkomt.",
+	"error404": "404 Ei fünjen",
+	"special404-body": "Detdiar URL as ei fünjen wurden.\n\nMendst dü ferlicht {{fullurl:$1}}?\n\nFerlicht wel dü ans diar luke:\n* [[{{MediaWiki:Mainpage}}|Hoodsidj]]"
+}

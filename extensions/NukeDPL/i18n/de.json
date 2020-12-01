@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"nukedpl": "Massenlöschung mittels DPL query",
+	"nukedpl-desc": "Erweitert das Wiki um eine [[Special:NukeDPL|Spezialseite]] zum massenhaften Löschen von Seiten aufgrund einer Abfrage durch die Softwareerweiterung „DynamicPageList“",
+	"nukedpl-intro": "Diese Spezialseite erlaubt das Löschen von Seiten, die mittels einer DPL-Query ausgewählt wurden.\n\nGeben Sie unten eine DPL-Query ein, um eine Liste mit den zu löschenden Seiten zu generieren.\n* Seiten können aus der Liste der zu löschenden Seiten vor dem Löschen noch individuell entfernt werden\n* Seitentitel sind case-sensitive!\n* Queries werden nicht durch DPL Tags oder Klammern umschlossen!\n* Erklärungen zu den Parametern finden Sie auf der Seite [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL Manual].",
+	"nukedpl-candidatelist": "Anzeige der Löschkandidaten",
+	"nukedpl-nopages": "Keine Seiten zum Löschen bei folgendem DPL-Query: <code>$1</code>",
+	"nukedpl-nuke": "Löschen!",
+	"nukedpl-list": "Die {{PLURAL:$1|folgende Seite wurde|folgenden Seiten wurden}} gefunden. DPL-Abfrage: <code>$2</code>\n\n„{{int:nukedpl-nuke}}“ drücken, um diese zu löschen.",
+	"nukedpl-defaultreason": "Massenlöschung von Seiten mittels DPL-Query: $1",
+	"action-nukedpl": "massenhaft Seiten mithilfe von „Dynamic Page List“-Abfragen zu löschen",
+	"right-nukedpl": "Massenlöschung von Seiten mithilfe „Dynamic Page List“-Abfragen"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"prefs-avatars": "Avatarer",
+	"bs-avatars-desc": "Tilbyr generiske og individuelle brukerbilder",
+	"bs-avatars-pref-generator": "Generator:",
+	"bs-avatars-pref-defaultsize": "Standardstørrelse i piksler:",
+	"bs-avatars-pref-userimage": "Brukerbilde:",
+	"bs-avatars-pref-userimage-img-alt": "Ditt nåværende brukerbilde",
+	"bs-avatars-upload-complete": "Bildet ble lastet opp.",
+	"bs-avatars-generate-complete": "En ny avatar ble generert.",
+	"bs-avatars-upload-title": "Endre profilbilde",
+	"bs-avatars-upload-label": "Bilde",
+	"bs-avatars-generate-new-label": "Generer ny avatar",
+	"bs-avatars-warning-title": "Advarsel",
+	"bs-avatars-warning-text": "Du har satt et brukerbilde i innstillingene dine. Hvis du bruker avatarer vil dette bildet fjernes. Ønsker du å fortsette?",
+	"bs-avatars-userimage-title": "Bilde fra wikien eller URL til bildet",
+	"bs-avatars-userimage-help": "f.eks. Bilde.jpg eller http://localhost/Bilde.gif",
+	"bs-avatars-userimage-alt": "Profilbildet til brukeren «$1»",
+	"bs-avatars-set-userimage-failed": "Ikke en gyldig URL eller bilde fra wikien.",
+	"bs-avatars-set-userimage-saved": "Brukerbildet ble lagret.",
+	"bs-avatars-file-upload-fieldset-title": "Bildeopplasting",
+	"bs-avatars-auto-generate-fieldset-title": "Autogenerer avatar",
+	"apihelp-bs-avatars-tasks-description": "Laster opp, genererer og setter brukeravatarer",
+	"apihelp-bs-avatars-tasks-summary": "Laster opp, genererer og setter brukeravatarer",
+	"bs-avatars-tag-profileimage-error-invalidusername": "Parameteren «username» er påkrevd og må inneholde et gyldig brukernavn"
+}

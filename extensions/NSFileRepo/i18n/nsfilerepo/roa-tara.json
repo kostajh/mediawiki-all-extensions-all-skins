@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"nsfilerepo-desc": "Prevede namespace ca se basene sus a le funziune pe carecà le file",
+	"nsfilerepo-upload-target": "Nome d'u file de destinazione jndr'à 'u namespace",
+	"nsfilerepo-nsmain": "(Prengepàle)",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext": "Stu cambe non ge pò essre zumbate quanne careche arrete 'nu file",
+	"nsfilerepo-move-file-namespace-action-label": "'Mboste 'u namespace d'u file",
+	"nsfilerepo-move-file-namespace-dialog-title": "'Mboste 'u namespace d'u file",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "Fatte",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "Annulle",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "Namespace"
+}

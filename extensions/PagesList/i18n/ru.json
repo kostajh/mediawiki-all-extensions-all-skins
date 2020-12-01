@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Evs",
+			"Okras"
+		]
+	},
+	"pageslist-desc": "Показывает список страниц",
+	"pageslist": "Список страниц",
+	"pageslistquerypage": "Страница запроса списка страниц",
+	"pageslist-legend": "Настройка списка страниц",
+	"pageslist-categories": "Категория:",
+	"pageslist-title": "Заголовок",
+	"pageslist-last-modified": "Последнее изменение",
+	"pageslist-last-user": "Изменена",
+	"pageslist-basepage": "Подстраницы (включая пространство имён):",
+	"apihelp-pageslist-description": "Показывает список страниц, содержащихся в вики.",
+	"apihelp-pageslist-summary": "Показывает список страниц, содержащихся в вики.",
+	"apihelp-pageslist-param-draw": "Значение, обеспечивающее соответствие ответа этому запросу",
+	"apihelp-pageslist-param-start": "Смещение итога, отсчитываемое от нуля",
+	"apihelp-pageslist-param-length": "Количество возвращаемых результатов",
+	"apihelp-pageslist-example": "Получить результаты 10-19 из PagesList"
+}

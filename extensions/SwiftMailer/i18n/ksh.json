@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"swiftmailer-desc": "Bränk dä <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„Schnällversand“\">SwiftMailer</i> als en uohsälesch Projramm för de <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„de eläktrohnesche Poß“\">e-mail</i> en et Wikki.",
+	"swiftmailer-smtp-error": "Ene Fähler es opjetrodde beim Opsäze vu enem Wääsch för de <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„de eläktrohnesche Poß“\">e-mail</i> övver et <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Simple Mail Transfer Protocol\">SMTP</i> för der <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„Schnällversand“\">SwiftMailer</i>. Jemälldt wood: $1",
+	"swiftmailer-send-error": "Ene Fähler es opjetrodde beim <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„de eläktrohnesche Poß“\">e-mail</i>-Verschecke mem <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„Schnällversand“\">SwiftMailer</i>. Jemälldt wood: $1"
+}

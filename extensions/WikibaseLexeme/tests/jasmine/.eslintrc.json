@@ -1,0 +1,17 @@
+{
+	"root": true,
+	"env": {
+		"shared-node-browser": true,
+		"jasmine": true
+	},
+	"globals": {
+		"beforeEach": false,
+		"Promise": false,
+		"require": false
+	},
+	"rules": {
+		"mediawiki/valid-package-file-require": "off",
+		"no-global-assign": "error",
+		"no-restricted-globals": [ "error", "global" ]
+	}
+}

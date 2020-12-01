@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<structure xmlns="https://cmln.github.io/chameleon/schema/1.0/layout.rng">
+	<component type="\BlueSpice\Calumma\Components\CustomMenu" data-menu="header" class="bs-custom-menu-container calumma-desktop-visible navbar-fixed-top" hide-if-noread="true">
+		<component type="\BlueSpice\Calumma\Components\ToggleButton" data-toggle="bs-custom-menu-header-container-collapse" class="bs-custom-menu-header-button calumma-desktop-visible"/>
+	</component>
+	<component type="\BlueSpice\Calumma\Components\Wrapper">
+		<component type="\BlueSpice\Calumma\Components\Header" class="bs-menu-top">
+			<component type="\BlueSpice\Calumma\Components\Nav" class="calumma-desktop-visible">
+				<component type="\BlueSpice\Calumma\Components\Logo"/>
+				<component type="\BlueSpice\Calumma\Components\SearchForm" hide-if-noread="true"/>
+				<component type="\BlueSpice\Calumma\Components\FeaturedActions" hide-if-noread="true"/>
+				<component type="\BlueSpice\Calumma\Components\UserButton"/>
+				<component type="\BlueSpice\Calumma\Components\LanguageSelector"/>
+				<component type="\BlueSpice\Calumma\Components\FullScreenButton"/>
+			</component>
+			<component type="\BlueSpice\Calumma\Components\MobileNav" class="calumma-mobile-visible calumma-tablet-visible">
+				<component type="\BlueSpice\Calumma\Components\SidebarToggle" data-toggle="navigation-main-collapse" hide-if-noread="true"/>
+				<component type="\BlueSpice\Calumma\Components\Logo"/>
+				<component type="\BlueSpice\Calumma\Components\MobileSearchForm" hide-if-noread="true"/>
+				<component type="\BlueSpice\Calumma\Components\MobileNotificationsButton" class="mobile-notifications-button" hide-if-noread="true"/>
+				<component type="\BlueSpice\Calumma\Components\MobileLoginButton" class="mobile-login-button" />
+				<component type="\BlueSpice\Calumma\Components\SidebarToggle" data-toggle="sitetools-main-collapse"/>
+			</component>
+		</component>
+		<grid class="main-content">
+			<row>
+				<cell class="west-col" span="1">
+					<component type="\BlueSpice\Calumma\Components\Aside" data-toggle-by='navigation-main-collapse' class="navigation-main" hide-if-noread="true">
+						<component type="\BlueSpice\Calumma\Components\SidebarToggle" data-toggle="navigation-main-collapse" class="calumma-desktop-visible calumma-mobile-visible-close-only"/>
+						<component type="BlueSpice\Calumma\Components\SiteNavTabs" data-flyout-direction="east" />
+					</component>
+				</cell>
+				<cell class="center-col" span="6">
+				<component type="\BlueSpice\Calumma\Components\Content">
+						<row>
+							<cell span="12" class="bs-content">
+								<component type="\BlueSpice\Calumma\Components\DataBeforeContent">
+								</component>
+								<component type="BlueSpice\Calumma\Components\PageLayout">
+									<component type="BlueSpice\Calumma\Components\PageHeader" />
+									<component type="BlueSpice\Calumma\Components\PageContent" />
+								</component>
+								<component type="\BlueSpice\Calumma\Components\DataAfterContent">
+								</component>
+							</cell>
+						</row>
+						<row>
+							<cell span="12" class="hidden-xs hidden-sm">
+								<component type="\BlueSpice\Calumma\Components\Footer">
+									<component type="FooterPlaces"/>
+									<component type="FooterIcons"/>
+								</component>
+							</cell>
+						</row>
+					</component>
+				</cell>
+				<cell class="east-col" span="1">
+					<component type="\BlueSpice\Calumma\Components\Aside" data-toggle-by='sitetools-main-collapse' class="sitetools-main calumma-mobile-hidden" hide-if-noread="true">
+						<component type="\BlueSpice\Calumma\Components\SidebarToggle" data-toggle="sitetools-main-collapse" class="calumma-desktop-visible"/>
+						<component type="BlueSpice\Calumma\Components\ToolPaneTabs" data-flyout-direction="west" />
+					</component>
+				</cell>
+			</row>
+		</grid>
+		<component type="\BlueSpice\Calumma\Components\MobileMoreMenu" class="calumma-mobile-visible calumma-tablet-visible calumma-desktop-hidden"/>
+		<component type="\BlueSpice\Calumma\Components\MobileFeaturedActionsButton" data-type="new" data-action="new-page" class="calumma-mobile-visible calumma-tablet-visible calumma-desktop-hidden"/>
+	</component>
+</structure>

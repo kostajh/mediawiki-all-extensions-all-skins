@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin",
+			"Psychoslave",
+			"Robin van der Vliet"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Aldoni TTT-legilan PDF-bildigan subtenon per PDF-servo de Electron",
+	"electronpdfservice-special-page-headline": "Elŝuti kiel PDF",
+	"electronpdfservice-download-label": "Elŝuti kiel PDF",
+	"electronpdfservice-download-button": "Elŝuti",
+	"electronpdfservice-sidebar-portlet-heading": "Presi/elporti",
+	"electronpdfservice-sidebar-portlet-print-text": "Elŝuti kiel PDF",
+	"electronpdfservice-invalid-page-title": "Ne valida paĝo",
+	"electronpdfservice-invalid-page-text": "La specifita paĝo ne estas valida."
+}

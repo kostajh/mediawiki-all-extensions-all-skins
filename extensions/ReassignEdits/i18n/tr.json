@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Suelnur",
+			"Violetanka"
+		]
+	},
+	"reassignedits": "Kullanıcı düzenlemelerini yeniden ata",
+	"reassignedits-desc": "Eski bir kullanıcıdan yeni bir kullanıcıya düzenlemeleri yeniden atanır",
+	"reassignedits-error-invalid": "\"$1\" kullanıcı adı geçersiz.",
+	"reassignedits-new": "Yeni kullanıcı adı",
+	"reassignedits-old": "Eski kullanıcı adı",
+	"reassignedits-submit": "Gönder",
+	"reassignedits-success": "\"$1\" tarafından yapılan düzenlemeler \"$2\"'ye aktarılmıştır.",
+	"reassignedits-summary": "Eski bir kullanıcıdan yeni bir düzenlemeye yeniden atan.",
+	"reassignedits-updatelog-title": "Günlük başlıklarında kullanıcı adını güncelle",
+	"reassignedits-updatelog-user": "Kayıtlarda performans gösteren kullanıcıyı güncelle",
+	"action-reassignedits": "düzenlemeleri eski bir kullanıcıdan yenisine yeniden atan",
+	"right-reassignedits": "Eski bir kullanıcıdan yeni bir düzenlemeye yeniden atan"
+}

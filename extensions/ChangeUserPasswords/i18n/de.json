@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ankita Mandal",
+			"Metalhead64",
+			"Mirco Zick"
+		]
+	},
+	"changeuserpasswords": "Benutzerkennwörter ändern",
+	"changeuserpassword-desc": "Dies ist eine Erweiterung zum Ändern von Benutzerkennwörtern. Die zu ändernden Benutzer(kennwörter) können durch den Admin festgelegt werden.",
+	"changeuserpassword-pagename": "NutzerKennwörterÄndern",
+	"changeuserpassword-topheader": "Bitte wählen Sie jene Benutzer aus, für die die Passwörter geändert werden sollen. Standardmäßig sind alle Benutzer ausgewählt. Bitte de-selektieren Sie die Benutzer, für die die Passwörter nicht geändert werden sollen.",
+	"changeuserpassword-success": "Benutzerkennwörter geändert!",
+	"changeuserpassword-title": "Benutzerkennwörter ändern",
+	"changeuserpassword-intro": "Dies ist eine Erweiterung zum Ändern von Benutzerkennwörtern. Die zu ändernden Benutzer(kennwörter) können durch den Admin festgelegt werden.",
+	"action-changeuserpasswords": "Benutzerkennwörter zu ändern",
+	"right-changeuserpasswords": "Benutzerkennwörter ändern"
+}

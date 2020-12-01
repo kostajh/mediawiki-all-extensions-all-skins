@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"apihelp-parsoid-batch-description": "產生大量 MediaWiki API 請求的批次 API（用於 Parsoid）",
+	"apihelp-parsoid-batch-summary": "用於 Parsoid 的批次 API",
+	"apihelp-parsoid-batch-param-batch": "操作 API 請求（各批次最大為 500）。",
+	"apierror-parsoid-batch-notallowed": "客戶端 IP 位址未在 ParsoidBatchAPI_AllowedIPs 裡。",
+	"apierror-parsoid-batch-invalidbatch": "無效的批次，必須是陣列。",
+	"apierror-parsoid-batch-batchtoolarge": "批次太大，上限為 500。",
+	"apierror-parsoid-batch-invalidaction": "在項目索引 $1 裡的無效操作。",
+	"apierror-parsoid-batch-texttoobig": "輸入的文字超過最大頁面大小。",
+	"apierror-parsoid-batch-invalidtitle": "無效標題（$1）。",
+	"apierror-parsoid-batch-mustbescalar": "<var>$1</var> 參數必須是純量變數。",
+	"apierror-parsoid-batch-mustbearray": "<var>$1</var> 參數必須是陣列。"
+}

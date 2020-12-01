@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "Slår på eksporteringer til HTML",
+	"bs-uemodulehtml-pref-DefaultTemplate": "Standardmal",
+	"bs-uemodulehtml-pref-SuppressNS": "Skjuler navneromsprefiks i HTML",
+	"bs-uemodulehtml-pref-Backend": "Bakstykke",
+	"bs-uemodulehtml-widgetlink-single-text": "HTML-enkeltside (arkivert)",
+	"bs-uemodulehtml-widgetlink-single-title": "Eksporter denne siden som HTML sammen med ressursene dens som et arkiv",
+	"bs-uemodulehtml-overview-title": "HTML-dokument (arkivert)",
+	"bs-uemodulehtml-overview-description": "Eksporterer sider (spesialsider og innholdssider) til HTML."
+}

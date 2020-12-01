@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Ans",
+			"Patsagorn Y."
+		]
+	},
+	"closewikis-desc": "อนุญาตให้ปิดไซต์วิกิที่อยู่ในฟาร์มวิกิได้",
+	"closewikis-page": "ปิดวิกิ",
+	"closewikis-page-close": "ปิดวิกิ",
+	"closewikis-page-close-wiki": "วิกิ:",
+	"closewikis-page-close-dreason": "เหตุผล (ที่จะถูกแสดงผล):",
+	"closewikis-page-close-reason": "เหตุผล (ที่จะถูกบันทึกในปูม):",
+	"closewikis-page-close-submit": "ปิด",
+	"closewikis-page-close-success": "วิกินี้ถูกปิดแล้ว",
+	"closewikis-page-reopen": "เปิดวิกิใหม่",
+	"closewikis-page-reopen-wiki": "วิกิ:",
+	"closewikis-page-reopen-reason": "เหตุผล:",
+	"closewikis-page-reopen-submit": "เปิดใหม่",
+	"closewikis-page-reopen-success": "วิกิถูกเปิดอีกครั้งแล้ว",
+	"closewikis-page-err-nowiki": "ระบุวิกิไม่ถูกต้อง",
+	"closewikis-page-err-closed": "วิกิถูกปิดไปแล้ว",
+	"closewikis-page-err-opened": "วิกิไม่ได้ถูกปิด",
+	"closewikis-list": "รายการวิกิที่ถูกปิด",
+	"closewikis-list-intro": "รายการนี้ประกอบด้วยวิกิที่ถูกปิดโดยผู้จัดการโครงการ",
+	"closewikis-list-header-wiki": "วิกิ",
+	"closewikis-list-header-by": "ถูกปิดโดย",
+	"closewikis-list-header-timestamp": "ถูกปิดเมื่อ",
+	"closewikis-list-header-dispreason": "เหตุผลที่แสดง",
+	"closewikis-log": "ปูมการปิดวิกิ",
+	"closewikis-log-close": "ถูกปิดเมื่อ $2",
+	"closewikis-log-reopen": "ถูกเปิดใหม่เมื่อ $2",
+	"right-editclosedwikis": "แก้ไขวิกิที่ถูกปิดแล้ว",
+	"right-closewikis": "ปิดวิกิ"
+}

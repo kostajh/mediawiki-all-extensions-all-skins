@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"gotoshell": "Gehe zu Shell",
+	"gotoshell-desc": "Implementiert [[Special:GoToShell|eine Spezialseite]], die den Benutzer zur Shell und wieder zurück bringt.",
+	"gotoshell-notallowed": "Dein Benutzerkonto hat nicht die Berechtigung, zur Shell zu gehen.",
+	"gotoshell-disabled": "Externe Programme konnten nicht ausgeführt werden, proc_open() ist deaktiviert.",
+	"gotoshell-command": "Befehl:",
+	"gotoshell-result": "Ergebnis:",
+	"action-gotoshell": "Shell-Befehle über die Spezialseite „GoToShell“ auszuführen",
+	"right-gotoshell": "Shell-Befehle über die Spezialseite „GoToShell“ ausführen"
+}

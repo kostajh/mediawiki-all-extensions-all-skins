@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Red Winged Duck",
+			"Zedlik"
+		]
+	},
+	"duplicator": "Капіяваць старонку",
+	"duplicator-desc": "Стварае незалежныя [[Special:Duplicate|копіі старонак]] з поўнай гісторыяй зьменаў",
+	"duplicator-toolbox": "Капіяваць гэтую старонку",
+	"duplicator-header": "Гэтая старонка дазваляе скончыць капіяваньне старонкі і стварыць незалежную копію ўсёй гісторыі.\nГэта карысна для разгалінаваньня старонкі, і г.д.",
+	"duplicator-options": "Налады",
+	"duplicator-source": "Крыніца:",
+	"duplicator-dest": "Мэтавая старонка:",
+	"duplicator-dotalk": "Капіяваць старонку абмеркаваньня (калі магчыма)",
+	"duplicator-dosubpages": "Дубляваць падстаронкі (калі ёсьць)",
+	"duplicator-dohistory": "Дубляваць усю гісторыю старонкі",
+	"duplicator-submit": "Капіяваць",
+	"duplicator-summary": "Копія вэрсіі [[$2]] артыкула [[$1]]",
+	"duplicator-success": "[[$1]] была скапіяваная ў [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|рэдагаваньне было скапіяванае|рэдагаваньні былі скапіяваныя|рэдагаваньняў былі скапіяваныя}}.",
+	"duplicator-success-talknotcopied": "Старонка абмеркаваньня не магла быць скапіяваная.",
+	"duplicator-failed": "Старонка ня можа быць скапіяваная.\nНевядомая памылка.",
+	"duplicator-failed-toolong": "[[$1]] не была дубляваная. Новая назва занадта доўгая.",
+	"duplicator-failed-dest-exists": "[[$1]] не была дубляваная. Старонка з назвай [[$2]] ужо існуе.",
+	"duplicator-source-invalid": "Калі ласка, увядзіце слушную назву крыніцы.",
+	"duplicator-source-notexist": "Старонка [[$1]] не існуе. Калі ласка, увядзіце назву старонкі, якая існуе.",
+	"duplicator-dest-invalid": "Калі ласка, увядзіце слушную назву мэтавай старонкі.",
+	"duplicator-dest-exists": "[[$1]] ужо існуе. Калі ласка, увядзіце назву старонкі, якой яшчэ няма.",
+	"action-duplicate": "дубляваньне старонак",
+	"right-duplicate": "капіяваньне старонак"
+}

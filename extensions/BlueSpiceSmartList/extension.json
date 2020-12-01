@@ -1,0 +1,155 @@
+{
+	"name": "BlueSpiceSmartList",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SmartList",
+	"author": [
+		"Markus Glaser",
+		"Robert Vogel",
+		"Patric Wirth",
+		"Stephan Muggli",
+		"Leonid Verhovskij"
+	],
+	"descriptionmsg": "bs-smartlist-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSmartList": {
+					"className": "SmartList",
+					"extPath": "/BlueSpiceSmartList"
+				}
+			}
+		},
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.bluespice.smartList.visualEditor",
+				"ext.bluespice.smartList.newbies.visualEditor",
+				"ext.bluespice.smartList.toplist.visualEditor"
+			]
+		},
+		"BlueSpiceUserSidebar": {
+			"Widgets": {
+				"YOUREDITS": {
+					"callback": "\\BlueSpice\\SmartList\\Panel\\YourEdits::factory",
+					"default": true
+				}
+			}
+		}
+	},
+	"APIModules": {
+		"bs-smartlist-tasks": "BSApiTasksSmartList"
+	},
+	"MessagesDirs": {
+		"BlueSpiceSmartList": [
+			"i18n", "i18n/ve"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\SmartList\\" : "src/"
+	},
+	"AutoloadClasses": {
+		"SmartList": "SmartList.class.php",
+		"BSApiTasksSmartList": "includes/api/BSApiTasksSmartList.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.smartList.visualEditor": {
+			"scripts": [
+				"ve/ve.ce.SmartListNode.js",
+				"ve/ve.dm.SmartListNode.js",
+				"ve/ve.ui.SmartListInspector.js",
+				"ve/ve.ui.SmartListInspectorTool.js"
+			],
+			"messages": [
+				"bs-smartlist-ve-smartlist-title",
+				"bs-smartlist-ve-mode-recentchanges-label",
+				"bs-smartlist-ve-mode-changesofweek-label",
+				"bs-smartlist-ve-smartlistinspector-count",
+				"bs-smartlist-ve-smartlistinspector-ns",
+				"bs-smartlist-ve-smartlistinspector-cat",
+				"bs-smartlist-ve-smartlistinspector-minor",
+				"bs-smartlist-ve-smartlistinspector-catmode",
+				"bs-smartlist-ve-smartlistinspector-period",
+				"bs-smartlist-ve-smartlistinspector-mode",
+				"bs-smartlist-ve-smartlistinspector-new",
+				"bs-smartlist-ve-smartlistinspector-heading",
+				"bs-smartlist-ve-smartlistinspector-trim",
+				"bs-smartlist-ve-smartlistinspector-showtext",
+				"bs-smartlist-ve-smartlistinspector-trimtext",
+				"bs-smartlist-ve-smartlistinspector-sort",
+				"bs-smartlist-ve-smartlistinspector-order",
+				"bs-smartlist-ve-smartlistinspector-showns",
+				"bs-smartlist-ve-smartlistinspector-numwithtext",
+				"bs-smartlist-ve-smartlistinspector-meta",
+				"bs-smartlist-ve-smartlistinspector-target",
+				"bs-smartlist-ve-smartlistinspector-excludens",
+				"bs-smartlist-ve-period-day-label",
+				"bs-smartlist-ve-period-week-label",
+				"bs-smartlist-ve-period-month-label",
+				"bs-smartlist-ve-sort-time-label",
+				"bs-smartlist-ve-sort-title-label"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			]
+		},
+		"ext.bluespice.smartList.newbies.visualEditor": {
+			"scripts": [
+				"ve/ve.ce.NewbiesNode.js",
+				"ve/ve.dm.NewbiesNode.js",
+				"ve/ve.ui.NewbiesInspector.js",
+				"ve/ve.ui.NewbiesInspectorTool.js"
+			],
+			"messages": [
+				"bs-smartlist-ve-newbies-title",
+				"bs-smartlist-ve-newbiesinspector-count"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			]
+		},
+		"ext.bluespice.smartList.toplist.visualEditor": {
+			"scripts": [
+				"ve/ve.ce.TopListNode.js",
+				"ve/ve.dm.TopListNode.js",
+				"ve/ve.ui.TopListInspector.js",
+				"ve/ve.ui.TopListInspectorTool.js"
+			],
+			"messages": [
+				"bs-smartlist-ve-toplist-title",
+				"bs-smartlist-ve-toplistinspector-count",
+				"bs-smartlist-ve-toplistinspector-ns",
+				"bs-smartlist-ve-toplistinspector-cat",
+				"bs-smartlist-ve-toplistinspector-period",
+				"bs-smartlist-ve-toplistinspector-portletperiod"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSmartList/resources"
+	},
+	"Hooks": {
+		"BSInsertMagicAjaxGetData": [
+			"\\BlueSpice\\SmartList\\Hook\\BSInsertMagicAjaxGetData\\AddSmartListTag::callback",
+			"\\BlueSpice\\SmartList\\Hook\\BSInsertMagicAjaxGetData\\AddNewbiesTag::callback",
+			"\\BlueSpice\\SmartList\\Hook\\BSInsertMagicAjaxGetData\\AddToplistTag::callback"
+		],
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\SmartList\\Hook\\BSUsageTrackerRegisterCollectors\\AddSmartlistTag::callback",
+		"BSDashboardsAdminDashboardPortalPortlets": "\\BlueSpice\\SmartList\\Hook\\BSDashboardsAdminDashboardPortalPortlets\\AddPortlets::callback",
+		"BSDashboardsAdminDashboardPortalConfig": "\\BlueSpice\\SmartList\\Hook\\BSDashboardsAdminDashboardPortalConfig\\AddConfigs::callback",
+		"BSDashboardsUserDashboardPortalPortlets": "\\BlueSpice\\SmartList\\Hook\\BSDashboardsUserDashboardPortalPortlets\\AddPortlets::callback",
+		"BSDashboardsUserDashboardPortalConfig": "\\BlueSpice\\SmartList\\Hook\\BSDashboardsUserDashboardPortalConfig\\AddConfigs::callback"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

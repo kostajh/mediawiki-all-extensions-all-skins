@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"FarsiNevis",
+			"Huji",
+			"Reza1615"
+		]
+	},
+	"googleanalyticstoppages-desc": "تهیهٔ فهرست صفحات با استفاده از اطلاعات گوگل آنالیتیکز",
+	"apihelp-googlepagestatsupdate-param-key": "مقدار [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "فهرست پربازدیدترین صفحه‌ها را روزآمدسازی می‌کند (به‌کمک اطلاعات به‌دست‌آمده از «گوگل آنالیتیکس»)."
+}

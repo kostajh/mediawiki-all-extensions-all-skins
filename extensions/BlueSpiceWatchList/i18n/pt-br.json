@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
+		]
+	},
+	"bs-watchlist-desc": "Adiciona um widget de páginas vigiadas e etiqueta",
+	"bs-watchlist-title-sidebar": "Páginas vigiadas",
+	"bs-watchlist-pref-sort-time": "Tempo",
+	"bs-watchlist-pref-sort-title": "Título",
+	"bs-watchlist-tag-watchlist-desc": "Mostra os artigos que têm as alterações mais recentes e estão na sua lista de páginas vigiadas.",
+	"bs-watchlist-window-watchlist-title": "Páginas vigiadas",
+	"bs-watchlist-window-watchlist-intro": "Esta é uma visão geral de todas as páginas de sua lista de vigiados. Você também pode mudar para o [[Special:Watchlist|página de lista de vigiados]].",
+	"bs-watchlist-grid-watchlist-column-link-header": "Página",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Alterações não lidas",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Inspecione as alterações",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Página de discussão",
+	"bs-watchlist-grid-watchlist-label-filter": "Filtrar"
+}

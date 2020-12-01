@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"gpgmail-desc": "Шифрирање на е-пошта со GPG",
+	"gpgmail-pref-enable": "Шифрирај ја е-поштата со GPG",
+	"gpgmail-pref-key": "Отворен GPG-клуч",
+	"gpgmail-pref-key-help": "Погледајте ја [https://help.ubuntu.com/community/GnuPrivacyGuardHowto помошната страница на Убунту] за да видите како се добива јавниот клуч.",
+	"gpgmail-encrypt-error": "Се јави грешка при шифрирањето на е-поштата."
+}

@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"pageblock-desc": "تمكن قيودا لكل مستخدم/صفحة",
+	"pageblock": "تقييد المستخدم",
+	"pageblock-legend": "تقييد المستخدم",
+	"pageblock-form-title": "اسم الصفحة",
+	"pageblock-form-user": "اسم المستخدم",
+	"pageblock-form-edit": "تقييد المستخدم من التحرير",
+	"pageblock-form-sameformove": "تطبيق نفس القيود على النقل",
+	"pageblock-form-move": "تقييد المستخدم من النقل",
+	"pageblock-form-reason": "السبب",
+	"pageblock-success": "تم تقييد $1 من $2.",
+	"listrestrictions": "قيود القائمة",
+	"listrestrictions-legend": "قيود القائمة",
+	"pageblock-list-title": "اسم الصفحة",
+	"pageblock-list-user": "اسم المستخدم",
+	"pageblock-list-indefonly": "إظهار القيود غير المحددة فقط",
+	"pageblock-restricted-edit-indef": "$1 مقيد من تحرير $2 لأجل غير مسمى.",
+	"pageblock-restricted-edit": "$1 مقيد من تحرير $2 حتى $3",
+	"pageblock-restricted-move-indef": "$1 مقيد من نقل $2 لأجل غير مسمى.",
+	"pageblock-restricted-move": "$1 مقيد من نقل $2 حتى $3.",
+	"pageblock-blocked-edit-indef": "أنت {{GENDER:$1|مقيد|مقيدة}} من تحرير $2 لأجل غير مسمى.",
+	"pageblock-blocked-edit": "أنت {{GENDER:$1|مقيد|مقيدة}} من تحرير $2 حتى $3.",
+	"pageblock-blocked-move-indef": "أنت {{GENDER:$1|مقيد|مقيدة}} من نقل $2 لأجل غير مسمى.",
+	"pageblock-blocked-move": "أنت {{GENDER:$1|مقيد|مقيدة}} من النقل حتى $3.",
+	"logentry-restrict-add-edit-move": "$1 {{GENDER:$2|قيد|قيدت}} $3 من تحرير ونقل $4.",
+	"logentry-restrict-add-edit": "$1 {{GENDER:$2|قيد|قيدت}} $3 من تحرير $4.",
+	"logentry-restrict-add-move": "$1 {{GENDER:$2|قيد|قيدت}} $3 من نقل $4.",
+	"action-page-block": "تطبيق أو تعديل أو إزالة قيود الصفحة أو المستخدم",
+	"right-page-block": "تطبيق أو تعديل أو إزالة قيود الصفحة أو المستخدم"
+}

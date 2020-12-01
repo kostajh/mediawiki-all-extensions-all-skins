@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikel Ibaiba"
+		]
+	},
+	"bs-pageassignments-dlg-title": "Eginkizunak",
+	"bs-pageassignments-dlg-fldlabel": "Eginkizunak",
+	"bs-pageassignments-menu-label": "Eginkizuna aldatu",
+	"bs-pageassignments-action-apiedit-description": "$1-ren eginkizunak aldatu",
+	"bs-pageassignments-column-title": "Orrialde izenburua",
+	"bs-pageassignments-column-assignments": "Eginkizunak",
+	"bs-pageassignments-column-assignedby": "Nork esleitua:",
+	"bs-pageassignments-no-assignments": "Eginkizunik ez",
+	"bs-pageassignments-action-log": "Eginkizun erregistroa",
+	"bs-pageassignments-action-delete-confirm": "Eginkizuna ezabatu?",
+	"bs-pageassignments-api-error": "Errore bat gertatu da",
+	"bs-pageassignments-api-error-no-page": "Orria ez da zehaztu",
+	"echo-category-title-bs-pageassignments-action-cat": "Orri eginkizunak",
+	"prefs-pageassign": "Eginkizuna",
+	"bs-pageassignments-assignee-special-everyone-label": "Denak"
+}

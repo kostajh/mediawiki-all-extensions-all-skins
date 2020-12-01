@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andrei Stroe",
+			"Firilacroco",
+			"KlaudiuMihaila"
+		]
+	},
+	"form": "Începe o pagină nouă",
+	"form-no-name": "Niciun nume pentru formular",
+	"form-bad-name": "Nume incorect",
+	"form-save": "Salvează",
+	"form-article-exists": "Pagina există",
+	"form-article-existstext": "Pagina [[$1]] deja există.",
+	"form-save-error": "Eroare la salvarea formularului",
+	"form-save-error-text": "A intervenit o eroare necunoscută la salvarea paginii '$1'."
+}

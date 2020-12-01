@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"gotoshell": "Ir para a shell",
+	"gotoshell-desc": "Implementa [[Special:GoToShell|uma página especial]] que leva o utilizador à shell e de volta",
+	"gotoshell-notallowed": "A sua conta não tem permissão para entrar na shell.",
+	"gotoshell-disabled": "Não é possível executar programas externos, o procedimento proc_open() está desativado.",
+	"gotoshell-command": "Comando:",
+	"gotoshell-result": "Resultado:",
+	"action-gotoshell": "execute comandos shell através da página especial GoToShell",
+	"right-gotoshell": "Executar comandos da ''shell'' através da página especial GoToShell"
+}

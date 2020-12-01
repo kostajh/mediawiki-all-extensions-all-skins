@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"uploadslink-portlet-label": "Üleslaadimised",
+	"tooltip-pt-uploads": "Sinu üles laaditud failide loend",
+	"uploadslink-toobox-label": "Üleslaaditud {{GENDER:$1|failid}}",
+	"tooltip-tb-uploads": "Selle {{GENDER:$1|kasutaja}} üles laaditud failide loend"
+}

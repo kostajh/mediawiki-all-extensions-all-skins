@@ -1,0 +1,64 @@
+// Colors for use in mediawiki.ui and elsewhere
+
+// Although this defines many shades, be parsimonious in your own use of grays.
+// Prefer semantic color names such as `@colorText` below.
+@colorGray1: #000; // darkest
+@colorGray2: #222;
+@colorGray4: #444;
+@colorGray5: #54595d;
+@colorGray7: #72777d;
+@colorGray10: #a2a9b1;
+@colorGray12: #c8ccd1;
+@colorGray14: #eaecf0;
+@colorGray15: #f8f9fa; // lightest
+@colorBaseInverted: #fff;
+
+// Semantic colors
+// Blue; for contextual use of a continuing action
+// hw: i.e. login
+@colorProgressive: @theme-mw-color-progessive; //custom
+@colorProgressiveHighlight: @theme-mw-color-progessive-highlight; //custom
+@colorProgressiveActive: @theme-mw-color-progessive-active; //custom
+@colorProgressiveText: @theme-mw-color-progessive-text; //custom, new variable
+@colorProgressiveTextHighlight: @theme-mw-color-progessive-text-highlight; //custom, new variable
+@colorProgressiveTextActive: @theme-mw-color-progessive-text-active; //custom, new variable
+
+// Orange; for contextual use of returning to a past action
+@colorRegressive: #ff5d00;
+// Red; for contextual use of a negative action of high severity
+@colorDestructive: #d33;
+@colorDestructiveHighlight: #ff4242;
+@colorDestructiveActive: #b32424;
+// Orange; for contextual use of a potentially negative action of medium severity
+@colorMediumSevere: #ff5d00;
+// Yellow; for contextual use of a potentially negative action of low severity
+@colorLowSevere: #fc3;
+
+// Used in mixins to darken contextual colors by the same amount (eg. focus)
+@colorDarkenPercentage: 13.5%;
+// Used in mixins to lighten contextual colors by the same amount (eg. hover)
+@colorLightenPercentage: 13.5%;
+
+// Text colors
+@colorText: @colorGray2;
+@colorTextLight: @colorGray5;
+@colorButtonText: @colorGray2;
+@colorButtonTextHighlight: @colorGray4;
+@colorButtonTextActive: @colorGray1;
+@colorDisabledText: @colorGray12;
+@colorErrorText: #d33;
+@colorWarningText: #705000;
+
+// UI colors
+@backgroundColorInputBinaryChecked: @colorProgressive;
+@backgroundColorInputBinaryActive: @colorProgressiveActive;
+@colorFieldBorder: #a2a9b1;
+
+// Border colors
+@borderColorInputBinaryChecked: @colorProgressive;
+@boxShadowProgressiveFocus: inset 0 0 0 1px @colorProgressive, inset 0 0 0 2px @colorBaseInverted;
+@borderColorInputBinaryActive: @colorProgressiveActive;
+
+// Box shadows
+@boxShadowWidgetFocus: inset 0 0 0 1px @colorProgressive;
+@boxShadowInputBinaryActive: inset 0 0 0 1px @colorProgressiveActive;

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"nukedpl": "Scangellazzione massive cu 'n'inderrogazione DPL",
+	"nukedpl-desc": "Agigunge 'na [[Special:NukeDPL|pàgena speciale]] p'a scangellazzione massive cu 'n'inderrogazione DPL",
+	"nukedpl-intro": "Stu strumende face fà le scangellaziune de masse de le pàggene scacchiate da 'n'inderrogazione DPL.\n\nMitte 'na 'nderrogazione aqquà sotte pe ccrejà 'n'elenghe de titole da scangellà.\n* Le titole ponne essere luate a une a une apprime d'a scangellazione.\n* Arrecuèrde, le titole d'a pàgene sò senzibbele a le lettre maiuscole e minuscole.\n* Le 'nderrogaziune non ge ponne essere avvrazzate da tag o parendesi de DPL.\n* Pe 'mbormaizune sus a 'u segnefecate d'u parametre, 'ndruche 'u [http://semeb.com/dpldemo/index.php?title=DPL:Manual Manuale d'u DPL].",
+	"nukedpl-candidatelist": "'Ndruche l'elenghe de le candidate",
+	"nukedpl-nopages": "Nisciuna pàgene da scangellà ausanne l'inderrogazione DPL: <code>$1</code>",
+	"nukedpl-nuke": "Nuke!",
+	"nukedpl-list": "{{PLURAL:$1|'A seguende pàgene ha|Le seguende pàggene onne}} state scacchiate da 'n'inderrogazione DPL: <code>$2</code>\n\nCazze \"{{int:nukedpl-nuke}}\" pe {{PLURAL:$1|scangellarle}}.",
+	"nukedpl-defaultreason": "Scagellazzione de masse de le pàggene scacchiate cu l'inderrogazione DPL: $1",
+	"action-nukedpl": "pàggene da scangellà cu le 'nderrogaziune a Dynamic Page List",
+	"right-nukedpl": "Scangìlle de pàggene cu le 'nderrogaziune a Dynamic Page List"
+}

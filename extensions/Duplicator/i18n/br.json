@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup"
+		]
+	},
+	"duplicator": "Eilañ ur pajenn",
+	"duplicator-desc": "Krouiñ [[Special:Duplicate|eiladoù a-ziforc'h eus pajennoù]] gant istor klok ar c'hemmoù.",
+	"duplicator-toolbox": "Eilañ ar bajenn-mañ",
+	"duplicator-header": "Dre ar bajenn-mañ e c'haller eilañ ur bajenn penn-da-benn ha sevel stummoù a-ziforc'h evit pep kemm degaset. Talvoudus eo evit diforc'hañ pennadoù, da skouer.",
+	"duplicator-options": "Dibarzhioù",
+	"duplicator-source": "Mammenn :",
+	"duplicator-dest": "Lec'h-kas :",
+	"duplicator-dotalk": "Eilañ ar bajenn gaozeal (mar galler)",
+	"duplicator-dosubpages": "Eiladiñ an ispajennoù (ma vez anezho)",
+	"duplicator-dohistory": "Eiladiñ istor ar bajenn a-bezh",
+	"duplicator-submit": "Eilañ",
+	"duplicator-summary": "Eilet eus [[$1]], adwel [[$2]]",
+	"duplicator-success": "Eilet eo bet [[$1]] war [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|kemm|kemm}} zo bet eilet.",
+	"duplicator-success-talknotcopied": "N'eus ket bet gallet eilañ ar bajenn gaozeal.",
+	"duplicator-failed": "N'eus ket bet gallet eilañ ar bajenn-mañ. C'hoarvezet ez eus ur fazi digomprenus.",
+	"duplicator-source-invalid": "Mar plij, lakait anv ur pennad zo anezhañ c'hoazh.",
+	"duplicator-source-notexist": "N'eus ket eus [[$1]]. Lakait titl ur pennad zo anezhañ mar plij",
+	"duplicator-dest-invalid": "Merkit un titl reizh evel lec'h-kas, mar plij",
+	"duplicator-dest-exists": "Bez' ez eus eus [[$1]] c'hoazh. Merkit titl ul lec'h-kas n'eo ket bet krouet c'hoazh.",
+	"right-duplicate": "Eilañ pajennoù"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Christian List"
+		]
+	},
+	"markashelpful-desc": "Giver en brugergrænseflade til at markere kommentarer som hjælpsomme",
+	"mah-mark-text": "Markér som hjælpsomt",
+	"mah-you-marked-text": "Du syntes at dette er hjælpsomt",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 syntes at dette er hjælpsomt}}",
+	"mah-undo-mark-text": "fortryd",
+	"mah-action-error": "Der opstod en fejl under udførelse af denne handling"
+}

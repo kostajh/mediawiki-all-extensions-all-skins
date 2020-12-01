@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Glavkos",
+			"Nikosgranturismogt"
+		]
+	},
+	"jade-damaging-scale-true-label": "Επιζήμια",
+	"jade-damaging-scale-false-label": "Μη ζημιοφόρο",
+	"jade-goodfaith-scale-true-label": "Καλής πίστης",
+	"jade-goodfaith-scale-false-label": "Κακής πίστης",
+	"jade-contentquality-scale-1-label": "Λήμματα τάξης προς επέκταση",
+	"jade-contentquality-scale-2-label": "Λήμματα τάξης Έναρξη",
+	"jade-contentquality-scale-3-label": "Λήμμα Τάξης Γ",
+	"jade-contentquality-scale-4-label": "Λήμματα τάξης Β",
+	"jade-contentquality-scale-5-label": "Καλό λήμμα",
+	"jade-contentquality-scale-6-label": "Προβεβλημένο λήμμα",
+	"jade-delete": "Διαγραφή",
+	"prefs-betafeatures": "Δοκιμαστικές λειτουργίες"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg",
+			"Vlad5250"
+		]
+	},
+	"changeuserpasswords": "Промяна на потребителски пароли",
+	"changeuserpassword-desc": "Това разширение служи за промяна на потребителски пароли, освен на някои, както е указано от администратора.",
+	"changeuserpassword-pagename": "Промяна на потребителски пароли",
+	"changeuserpassword-success": "Потребителските пароли са променени!",
+	"changeuserpassword-title": "Промяна на потребителски пароли",
+	"changeuserpassword-intro": "Това разширение служи за промяна на потребителски пароли, освен няколко указани от администратор.",
+	"right-changeuserpasswords": "Промяна на потребителски пароли"
+}

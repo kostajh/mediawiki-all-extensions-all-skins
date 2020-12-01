@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armin1392",
+			"Reza1615"
+		]
+	},
+	"securehtml": "ایمن کردن اچ‌تی‌ام‌ال",
+	"securehtml-desc": "به شما اجازه می‌دهد شامل اچ‌تی‌ام ال دلخواه تصویب شده و راه امنی باشد",
+	"securehtml-nokeys": "خطا: <code>$wgSecureHTMLSecrets</code> ساکن نشده‌است.",
+	"securehtml-invalidhash": "خطا: هش نامعتبر.",
+	"securehtml-input-title": "ورودی اچ‌تی‌ام‌ال",
+	"securehtml-generatedoutput-title": "خروجی تولید شده",
+	"securehtml-renderedhhtml-title": "ارائهٔ اچ‌تی‌ام‌ال",
+	"securehtml-form-keyname": "نام کلید (اختیاری)",
+	"securehtml-form-keysecret": "کلید مخفی",
+	"securehtml-form-html": "اچ‌تی‌ام‌ال خام",
+	"securehtml-form-submit": "ثبت",
+	"securehtml-inputinstructions": "یک نام کلید (اختیاری) و اچ‌تی‌ام‌ال خام مورد نظر را وارد کنید.\nاگر هیچ نام کلیدی مشخص نشده‌است، اولین کلید در <code>$wgSecureHTMLSecrets</code> فرض گرفته می‌شود.",
+	"securehtml-outputinstructions": "کد بالا را دقیقاً کپی کنید و آن را در ویرایشگر ویکی بچسبانید.\nاگر کد تولید شده کار نمی‌کند، سعی کنید همه سرورهای خط را از اچ‌تی‌ام‌ال ورودی حذف کنید و دوباره تولید کنید."
+}

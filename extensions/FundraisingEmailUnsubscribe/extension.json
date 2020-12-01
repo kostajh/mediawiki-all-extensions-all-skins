@@ -1,0 +1,121 @@
+{
+	"name": "FundraisingEmailUnsubscribe",
+	"version": "2.1.0",
+	"author": [
+		"Matt Walker",
+		"Elliott Eggleston",
+		"Adam Roses Wight"
+	],
+	"license-name": "GPL-2.0-only",
+	"url": "https://www.mediawiki.org/wiki/Extension:FundraiserUnsubscribe",
+	"descriptionmsg": "fundraiserunsubscribe-desc",
+	"type": "specialpage",
+	"require": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"SpecialPages": {
+		"FundraiserUnsubscribe": "SpecialFundraiserUnsubscribe",
+		"FundraiserSubscribe": "SpecialFundraiserSubscribe"
+	},
+	"MessagesDirs": {
+		"FundraisingEmailUnsubscribe": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"FundraisingEmailUnsubscribeAlias": "FundraisingEmailUnsubscribe.alias.php"
+	},
+	"AutoloadClasses": {
+		"FundraiserSubscriptionPage": "FundraiserSubscriptionPage.php",
+		"SpecialFundraiserSubscribe": "SpecialFundraiserSubscribe.php",
+		"SpecialFundraiserUnsubscribe": "SpecialFundraiserUnsubscribe.php",
+		"Logger": "includes/Logger.php",
+		"FundraiserEmailQueue": "includes/FundraiserEmailQueue.php",
+		"MediaWikiTwig": "includes/MediaWikiTwig.php",
+		"MediaWikiTwigCallbacks": "includes/MediaWikiTwig.php",
+		"XmlTransactionProcessor": "includes/XmlTransactionProcessor.php",
+		"SubscriptionMethod": "methods/SubscriptionMethod.php",
+		"FundraiserUnsubscribeThankYou": "methods/FundraiserUnsubscribeThankYou.php",
+		"FundraiserUnsubscribeSilverpop": "methods/FundraiserUnsubscribeSilverpop.php",
+		"FundraiserSubscribe": "methods/FundraiserSubscribe.php",
+		"ISubscriptionValidator": "methods/ISubscriptionValidator.php",
+		"MediaWikiTwigLoader": "includes/MediaWikiTwigLoader.php"
+	},
+	"ResourceModules": {
+		"fundraiserUnsubscribe.skinOverride": {
+			"styles": "skinOverride.css",
+			"scripts": "skinOverride.js"
+		},
+		"fundraiserUnsubscribe.lightGallery": {
+			"scripts": [
+				"lightgallery.js",
+				"lg-hash.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "FundraisingEmailUnsubscribe/modules"
+	},
+	"config": {
+		"FundraisingEmailUnsubscribeSessionKey": "fr-unsub",
+		"FundraisingEmailUnsubscribeCancelUri": "https://www.wikimediafoundation.org/",
+		"FundraisingEmailUnsubscribeHelpEmail": "donate@wikimedia.org",
+		"FundraisingEmailUnsubscribeHashSecretKey": "",
+		"FundraisingEmailUnsubscribeSilverpopUsername": null,
+		"FundraisingEmailUnsubscribeSilverpopPassword": null,
+		"FundraisingEmailUnsubscribeSilverpopTimeout": 5,
+		"FundraisingEmailUnsubscribeSilverpopURL": null,
+		"FundraisingEmailUnsubscribeLogFacility": 8,
+		"FundraisingEmailUnsubscribeLogXmlTransactions": false,
+		"FundraisingEmailUnsubscribeQueueClass": "PHPQueue\\Backend\\Predis",
+		"FundraisingEmailUnsubscribeQueueParameters": {
+			"unsubscribe": {},
+			"opt-in": {}
+		},
+		"FundraisingEmailUnsubscribeProcesses": {
+			"thankyou": [
+				"FundraiserUnsubscribeThankYou"
+			],
+			"silverpop": [
+				"FundraiserUnsubscribeThankYou",
+				"FundraiserUnsubscribeSilverpop"
+			],
+			"optin": [
+				"FundraiserSubscribe"
+			]
+		},
+		"FundraisingEmailUnsubscribeVarMap": {
+			"thankyou": {
+				"email": [
+					"FundraiserUnsubscribeThankYou::decodeEmail",
+					"e"
+				],
+				"contribution-id": "c",
+				"hash": "h"
+			},
+			"silverpop": {
+				"email": [
+					"FundraiserUnsubscribeSilverpop::decodeEmail",
+					"e"
+				],
+				"contribution-id": "c",
+				"hash": "h",
+				"mailing-id": "m",
+				"recipient-id": "r",
+				"job-id": "j",
+				"list-id": "l"
+			},
+			"optin": {
+				"email": [
+					"FundraiserUnsubscribeThankYou::decodeEmail",
+					"e"
+				]
+			}
+		},
+		"TwigCachePath": "/tmp/twig",
+		"TwigCacheExpiry": 300
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Glanthor Reviol"
+		]
+	},
+	"indexfunc-desc": "Elemzőfüggvény átirányítások és egyértelműsítő lapok automatikus készítésére",
+	"indexfunc-badtitle": "Érvénytelen cím: „$1”",
+	"indexfunc-editwarning": "Figyelem:\nEz a cím egy indexcím a következő {{PLURAL:$2|laphoz|lapokhoz}}:\n$1\nBizonyosodj meg róla, hogy a lap amit készülsz létrehozni nem létezik-e már más cím alatt.\nHa létrehozod a lapot, távolítsd el ezt a címet az <nowiki>{{#index:}}</nowiki>-ből a fenti {{PLURAL:$2|lapon|lapokon}}.",
+	"indexfunc-index-exists": "A(z) „$1” lap már létezik",
+	"indexfunc-movewarn": "Figyelem:\nA(z) „$1” egy indexcím a következő {{PLURAL:$3|laphoz|lapokhoz}}:\n$2\nKérlek távolítsd el a(z) „$1” címet az <nowiki>{{#index:}}</nowiki>-ből a fenti {{PLURAL:$3|lapon|lapokon}}.",
+	"index": "Index keresés",
+	"index-legend": "Keresés az indexben",
+	"index-search": "Keresés:",
+	"index-submit": "Elküldés",
+	"index-disambig-start": "A(z) '''$1''' számos lapra utalhat:",
+	"index-emptylist": "Nincsenek a(z) „$1” laphoz kapcsolódó lapok",
+	"index-expand-detail": "Mutasd az ilyen címmel indexelt lapokat",
+	"index-hide-detail": "Lapok listájának elrejtése",
+	"index-no-results": "A keresés nem hozott eredményt",
+	"index-search-explain": "Ez a lap előtag szerinti keresést használ.\n\nÍrd be az első néhány karaktert, és kattints az elküldés gombra azon lapcímek és indexbejegyzések kereséséhez, amelyek a megadott karakterekkel kezdődnek",
+	"index-details-explain": "A nyíllal jelölt sorok indexbejegyzések.\nKattints a nyílra minden azon a címen indexelt lap megjelenítéséhez."
+}

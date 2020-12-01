@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"phabtaskgraph": "مهمة الرسم البياني في فبريكاتور",
+	"phabtaskgraph-desc": "يتصور علاقات مهمة فبريكاتور في رسم بياني موجه بالقوة",
+	"phabtaskgraph-author-field-label": "المؤلف",
+	"phabtaskgraph-owner-field-label": "المالك",
+	"phabtaskgraph-tasks-field-label": "المهام",
+	"phabtaskgraph-projects-field-label": "المشاريع",
+	"phabtaskgraph-status-field-label": "الحالة",
+	"phabtaskgraph-width-field-label": "العرض",
+	"phabtaskgraph-height-field-label": "الارتفاع",
+	"phabtaskgraph-tasks-field-help": "قائمة مفصولة بفواصل لمعرفات المهام (بداية \"T\" اختيارية)، على سبيل المثال \"T123456، T654321\"",
+	"phabtaskgraph-projects-field-help": "قائمة مفصولة بفواصل بأسماء المشاريع، على سبيل المثال \"MediaWiki-Platform-Team، Epic\"",
+	"phabtaskgraph-width-field-help": "الافتراضي: 800",
+	"phabtaskgraph-height-field-help": "الافتراضي: 800",
+	"phabtaskgraph-status-open": "فتح",
+	"phabtaskgraph-status-stalled": "متوقف",
+	"phabtaskgraph-status-resolved": "محلولة",
+	"phabtaskgraph-status-invalid": "غير صالح",
+	"phabtaskgraph-status-declined": "مرفوض",
+	"phabtaskgraph-status-duplicate": "مكرر"
+}

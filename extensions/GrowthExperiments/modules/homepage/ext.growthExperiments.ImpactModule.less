@@ -1,0 +1,99 @@
+@import 'mediawiki.ui/variables';
+@import 'mediawiki.mixins';
+
+.growthexperiments-homepage-module-impact {
+	&-activated .growthexperiments-homepage-module-body {
+		display: table;
+		margin: 1em -5px;
+	}
+
+	p {
+		margin: 1em 0 0.5em 0;
+	}
+
+	.impact-row {
+		display: table-row;
+
+		.article-image {
+			display: table-cell;
+			padding: 3px 0 3px 3px;
+
+			.placeholder-image,
+			.real-image {
+				height: 40px;
+				width: 40px;
+				border-radius: @borderRadius;
+			}
+
+			.real-image {
+				background-position: center;
+			}
+
+			.placeholder-image {
+				opacity: 0.38;
+				background-color: @colorGray14;
+				background-size: 20px;
+			}
+		}
+
+		.article-title {
+			display: table-cell;
+			vertical-align: middle;
+			word-break: break-word;
+			padding: 0 10px 0 10px;
+			width: 100%;
+			color: @colorGray2;
+		}
+
+		.pageviews,
+		.empty-pageviews {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: right;
+		}
+
+		.pageviews {
+			padding-right: 9px;
+			font-size: 1.15em;
+		}
+
+		.empty-pageviews {
+			padding-right: 3px;
+		}
+
+		a.pageviews:hover {
+			font-weight: bold;
+		}
+
+		&:nth-child( 2n-1 ) {
+			background-color: @colorGray15;
+		}
+	}
+
+	&.growthexperiments-homepage-module-mobile-summary {
+		.growthexperiments-homepage-module-body {
+			display: flex;
+			align-items: flex-end;
+		}
+
+		.growthexperiments-homepage-impact-column-text {
+			flex-grow: 1;
+		}
+
+		.growthexperiments-homepage-impact-subheader-text {
+			line-height: 1.3em;
+			margin-top: 0.8em;
+		}
+
+		.growthexperiments-homepage-impact-column-pageviews {
+			line-height: 1;
+			font-size: 2em;
+			color: @colorProgressive;
+			padding-left: 10px;
+
+			.empty-pageviews-summary {
+				font-size: 0.5em;
+			}
+		}
+	}
+}

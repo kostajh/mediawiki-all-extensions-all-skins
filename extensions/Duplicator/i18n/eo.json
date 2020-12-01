@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin",
+			"Tlustulimu",
+			"Yekrats"
+		]
+	},
+	"duplicator": "Duobligi paĝon",
+	"duplicator-desc": "Krei sendependajn [[Special:Duplicate|kopiojn de paĝoj]] kun plenaj redakto-historioj",
+	"duplicator-toolbox": "Duobligi ĉi tiun paĝon",
+	"duplicator-header": "Ĉi tiu paĝo permesas la tutan dupklikatadon de paĝo, kreante sendependajn kopiojn de ĉiuj historioj. \nEstus utila por disigo de artikoloj, ktp.",
+	"duplicator-options": "Preferoj",
+	"duplicator-source": "Fonto:",
+	"duplicator-dest": "Destino:",
+	"duplicator-dotalk": "Duobligi diskutan paĝon (se estas aplikebla)",
+	"duplicator-dosubpages": "Kopii subpaĝojn (se iuj ekzistas)",
+	"duplicator-dohistory": "Kopii plenan historion de paĝo",
+	"duplicator-submit": "Duobligi",
+	"duplicator-summary": "Kopiita de [[$1]], revizio [[$2]]",
+	"duplicator-success": "[[$1]] estas kopiita al [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|revizio|revizioj}} estas {{PLURAL:$1|kopiita|kopiitaj}}.",
+	"duplicator-success-talknotcopied": "La diskuta paĝo ne povis esti kopiita.",
+	"duplicator-failed": "La paĝo ne povis esti duobligita. Nekonata eraro okazis.",
+	"duplicator-failed-toolong": "[[$1]] ne estis duobligita. La cela titolo estas tro longa.",
+	"duplicator-failed-dest-exists": "[[$1]] ne estis duobligita. La celo [[$2]] jam ekzistas.",
+	"duplicator-source-invalid": "Bonvolu provizi validan fontan titolon.",
+	"duplicator-source-notexist": "[[$1]] ne ekzistas. Bonvolu provizi la titolon de paĝo kiu ekzistas.",
+	"duplicator-dest-invalid": "Bonvolu provizi validan destinan titolon.",
+	"duplicator-dest-exists": "[[$1]] jam ekzistas. Bonvolu provizi destinan titolon kiu ne ekzistas.",
+	"action-duplicate": "duobligi paĝojn",
+	"right-duplicate": "Duobligi paĝojn"
+}

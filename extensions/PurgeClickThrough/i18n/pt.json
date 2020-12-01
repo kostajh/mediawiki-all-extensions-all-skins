@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"purgeclickthrough-desc": "Não redirecionar as páginas com \"?action=purge\"; pelo contrário, realizar um clique efetivo (para despiste de erros)"
+}

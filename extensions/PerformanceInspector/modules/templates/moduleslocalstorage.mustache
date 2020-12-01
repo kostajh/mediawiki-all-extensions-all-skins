@@ -1,0 +1,18 @@
+<p>
+	{{#msg}}performanceinspector-modules-localstorage-description{{/msg}}
+</p>
+{{#store.enabled}}
+	<ul>
+		<li>
+			{{#msg}}performanceinspector-modules-localstorage-hits{{/msg}} {{store.hits}}</li>
+		<li>
+			{{#msg}}performanceinspector-modules-localstorage-misses{{/msg}} {{store.misses}}</li>
+		<li>
+			{{#msg}}performanceinspector-modules-localstorage-expired{{/msg}} {{store.expired}}</li>
+		<li>
+			{{#msg}}performanceinspector-modules-localstorage-totalsize{{/msg}} {{store.totalSize}}</li>
+	</ul>
+{{/store.enabled}}
+{{^store.enabled}}
+{{#msg}}performanceinspector-modules-localstorage-disabled{{/msg}}
+{{/store.enabled}}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"bs-uemoduledocx-extension-description": "Овозможува извоз во DOCX",
+	"bs-uemoduledocx-pref-SuppressNS": "Скривај ја претставката за именски простор во DOCX",
+	"bs-uemoduledocx-widgetlink-single-title": "Извези ја оваа страница како DOCX.",
+	"bs-uemoduledocx-overview-description": "Извезува страници во Microsoft DOCX.",
+	"bs-uemoduledocx-overview-webservice-state-not-ok": "недостапна",
+	"bs-uemoduledocx-overview-webservice-state-ok": "достапна"
+}

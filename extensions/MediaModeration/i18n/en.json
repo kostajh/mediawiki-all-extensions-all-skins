@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wikimedia Core Platform & Trust and Safety teams"
+		]
+	},
+	"mediamoderation-desc": "Service for detecting matches against known child exploitation image hash datasets.",
+	"mediamoderation-email-body": "Possible match against known child exploitation image hash in file $1.",
+	"mediamoderation-email-subject": "Hash match"
+}

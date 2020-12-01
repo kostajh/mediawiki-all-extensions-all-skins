@@ -1,0 +1,29 @@
+{
+	"name": "bluespice/uemoduledocx",
+	"type": "mediawiki-extension",
+	"description": "Enables BlueSpice to export to docx",
+	"license": "GPL-3.0-only",
+	"extra": {
+		"installer-name": "BlueSpiceUEModuleDOCX"
+	},
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"mediawiki/mediawiki-codesniffer": "33.0.0",
+		"mediawiki/minus-x": "1.1.0",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"minus-x check .",
+			"phpcs -sp"
+		],
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		]
+	}
+}

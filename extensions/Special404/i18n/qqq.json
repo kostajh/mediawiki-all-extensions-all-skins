@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"special404-desc": "{{desc|name=Special 404|url=https://www.mediawiki.org/wiki/Extension:Special404}}",
+	"error404": "{{doc-special|Error404|unlisted=1}}",
+	"special404-body": "Used as the 404 page's body.\n\nRefers to {{msg-mw|Mainpage}}.\n\nParameters:\n* $1 - URL which has been formatted (trimmed or urldecoded)"
+}

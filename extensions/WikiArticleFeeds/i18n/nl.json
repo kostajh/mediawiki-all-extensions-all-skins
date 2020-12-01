@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Siebrand",
+			"Southparkfan"
+		]
+	},
+	"wikiarticlefeeds-desc": "Produceert feeds gegenereerd vanuit MediaWiki-pagina's",
+	"wikiarticlefeeds-tracking-category": "Pagina's die RSS-feeds genereren",
+	"wikiarticlefeeds-tracking-category-desc": "De pagina genereert een RSS-feed.",
+	"wikiarticlefeeds_combined_description": "Dit is een gecombineerde feed, met items objecten uit verschillende bronnen."
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"BRUTE",
+			"David1010",
+			"MIKHEIL",
+			"Silovan"
+		]
+	},
+	"citoid-citation-widget-insert-button": "ჩასმა",
+	"citoid-citoiddialog-back": "უკან",
+	"citoid-citoiddialog-credit": "მხარდამჭერი $1",
+	"citoid-citoiddialog-lookup-button": "გენერატორი",
+	"citoid-citoiddialog-mode-auto": "ავტომატური",
+	"citoid-citoiddialog-mode-manual": "ხელით",
+	"citoid-citoiddialog-mode-reuse": "ხელახლა გამოყენება",
+	"citoid-citoiddialog-search-label": "URL, DOI ან PMID",
+	"citoid-citoiddialog-search-placeholder": "მაგ. http://www.example.com",
+	"citoid-citoidtool-title": "ციტირება",
+	"citoid-citoidtool-title-othergroup": "ციტირება",
+	"citoid-desc": "უზრუნველყოფს კავშირს citoid-ის მომსახურებსა MediaWiki-ს შორის",
+	"citoid-referencecontextitem-convert-button": "კონვერტაცია",
+	"citoid-referencecontextitem-convert-message": "ეს სქოლიო მარტივი შიდა ბმულისაგან შედგება. სწორად ჩამოყალიბებული სქოლიოს შესაქმნელად, თქვენ შეგიძლიათ გამოიყენოთ ღილაკი „{{int:citoid-referencecontextitem-convert-button}}“.",
+	"citoid-unknown-error": "უცნობი შეცდომა არ იძლეოდა ციტატის შექმნის საშუალებას. გთხოვთ, მოგვიანებით სცადეთ."
+}

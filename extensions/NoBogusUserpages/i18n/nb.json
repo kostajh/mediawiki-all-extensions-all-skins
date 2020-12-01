@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"nobogususerpages-desc": "Begrenser oppretting av brukersider for brukere som ikke finnes",
+	"badaccess-bogususerpage": "Brukeren som skulle ha hatt denne brukersiden finnes ikke. Du har ikke tillatelse til å opprette fiktive brukersider.",
+	"action-createbogususerpage": "opprette brukersider for brukere som ikke er registrert på denne wikien",
+	"right-createbogususerpage": "Opprette brukersider for brukere som ikke er reigstrert på denne wikien"
+}

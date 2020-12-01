@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"WikiPhoenix"
+		]
+	},
+	"skinname-apex": "Apex",
+	"apex-desc": "Modern version av Vektor med ett nytt utseende och flera användarvänlighetsförbättringar",
+	"apex.css": "/* CSS som skrivs här kommer att påverka alla användare av utseendet Apex */",
+	"apex.js": "/* JavaScript här kommer att laddas för dem som använder utseendet Apex */",
+	"apex-action-addsection": "Lägg till ämne",
+	"apex-action-delete": "Radera",
+	"apex-action-move": "Flytta",
+	"apex-action-protect": "Skrivskydda",
+	"apex-action-undelete": "Återställ",
+	"apex-action-unprotect": "Ändra skrivskydd",
+	"apex-view-create": "Skapa",
+	"apex-view-edit": "Redigera",
+	"apex-view-history": "Visa historik",
+	"apex-view-view": "Läs",
+	"apex-view-viewsource": "Visa källa"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques"
+		]
+	},
+	"formelapplet-desc": "Adiciona aplicativos [http://wiki.formelapplet.de FormelApplet] às páginas.",
+	"formelapplet-nojava": "Por favor, instale $1 para utilizar esta página.",
+	"formelapplet-missing-parameter": "Parâmetro em falta (width ou height ou term/solution).",
+	"formelapplet-file-not-found": "Arquivo $1 não encontrado.",
+	"formelapplet-error": "Erro na extensão FormelApplet: <em>$1</em>"
+}

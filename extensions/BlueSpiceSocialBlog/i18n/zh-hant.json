@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"一個正常人"
+		]
+	},
+	"bs-socialblog-desc": "用於 BlueSpiceSocial 的部落格單元",
+	"bs-socialblog-type": "部落格",
+	"blog": "部落格",
+	"bs-socialblog-entityblog-header-create": "新部落格",
+	"bs-socialblog-var-blogtitle": "標題",
+	"bs-socialblog-entityblog-content-more-btn-more": "更多",
+	"bs-socialblog-entityblog-content-more-btn-less": "較少",
+	"bs-socialblog-toc-useblogteaser": "在時間軸使用用於部落格單元的要點文字",
+	"bs-socialblog-special-blog-heading": "部落格",
+	"bs-socialblog-special-blog-heading-entry": "部落格/$1",
+	"bs-social-notifications-blog-create": "使用者{{GENDER:$1|$2已建立}}新的部落格「$3」",
+	"bs-social-notifications-email-blog-create-subject": "使用者{{GENDER:$1|$2已建立}}新的部落格「$3」",
+	"bs-social-notifications-email-blog-create-body": "使用者以下列文字{{GENDER:$1|$2建立}}新的部落格「$3」：\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2已建立}}新的部落格「$3」",
+	"bs-social-notifications-blog-edit": "使用者{{GENDER:$1|$2已編輯}}部落格「$3」",
+	"bs-social-notifications-email-blog-edit-subject": "使用者{{GENDER:$1|$2已編輯}}部落格「$3」",
+	"bs-social-notifications-email-blog-edit-body": "使用者{{GENDER:$1|$2已編輯}}部落格「$3」，新文字為：\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2已編輯}}部落格「$3」",
+	"bs-social-notifications-blog-delete": "使用者{{GENDER:$1|$2已刪除}}部落格「$3」",
+	"bs-social-notifications-email-blog-delete-subject": "使用者{{GENDER:$1|$2已刪除}}部落格「$3」",
+	"bs-social-notifications-email-blog-delete-body": "使用者{{GENDER:$1|$2已刪除}}部落格「$3」",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2已刪除}}部落格「$3」",
+	"bs-social-notification-blog-primary-link-label": "檢視部落格"
+}

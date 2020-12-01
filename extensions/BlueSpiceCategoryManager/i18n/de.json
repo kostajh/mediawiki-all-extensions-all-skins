@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dejan Savuljesku",
+			"Ferdinand0101",
+			"Ljonka",
+			"Metalhead64",
+			"Mglaser",
+			"Tiin"
+		]
+	},
+	"bluespicecategorymanager": "Kategorieverwaltung",
+	"bluespicecategorymanager-desc": "Manager zur Verwaltung von Kategorien",
+	"action-categorymanager-viewspecialpage": "{{int:bluespicecategorymanager}} ansehen",
+	"bs-categorymanager-draganddrop-text": "Drag and Drop, um die Kategorien neu zu organisieren",
+	"bs-categorymanager-label": "Kategorieverwaltung",
+	"bs-categorymanager-dlg-new-title": "Kategorie erstellen",
+	"bs-categorymanager-dlg-new-prompt": "Bitte gib den Namen ein:",
+	"bs-categorymanager-removecategoryconfirm-text": "Bist du sicher, dass du diese Kategorie löschen willst?",
+	"bs-categorymanager-removecategoryconfirm-title": "Kategorie löschen",
+	"bs-categorymanager-addcategory-dialog-error-title": "Die Erstellung der Kategorie ist fehlgeschlagen",
+	"bs-categorymanager-action-show-category": "Kategorie anzeigen",
+	"right-categorymanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Kategoriezuweisung",
+	"bs-categorymanager-collection-var-namespacename": "Namensraum",
+	"bs-categorymanager-collection-var-categorizedpages": "Seiten mit Kategorien",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Seiten ohne Kategorien"
+}

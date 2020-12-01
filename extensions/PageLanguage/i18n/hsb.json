@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"pagelanguage-desc": "Rěč strony na stronu definować",
+	"pagelanguage-invalid": "'''Warnowanje:''' Njepłaćiwy rěčny kod \"$1\" za rěč strony so ignoruje.",
+	"pagelanguage-duplicate": "'''Warnowanje:''' Rěč strony \"$2\" přepisuje předchadnu rěč strony \"$1\"."
+}

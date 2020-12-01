@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume",
+			"Sujiniku"
+		]
+	},
+	"html2wiki-importbtn": "取り込む",
+	"html2wiki-title": "HTMLを取り込む",
+	"html2wiki-filename": "ファイル名:",
+	"logentry-html2wiki": "$1 がページ「$3」を{{GENDER:$2|インポートしました}}"
+}

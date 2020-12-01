@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"multimaps-loading-map": "Φόρτωση χάρτη...",
+	"multimaps-unable-create-element": "Το στοιχείο χάρτη \"$1\" δεν μπορεί να δημιουργηθεί",
+	"multimaps-unknown-parameter": "Άγνωστη παράμετρος: \"$1\"",
+	"multimaps-method-error-unknown-action": "$1: Άγνωστη ενέργεια",
+	"multimaps-method-error-unexpected-result": "$1: Ένα απροσδόκητο αποτέλεσμα μιας λειτουργίας"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"timemachine": "时间机器",
+	"timemachine-desc": "在[[Special:TimeMachine]]设置日期后，可允许浏览对应日期的wiki内容。",
+	"timemachine-p1": "在下方输入日期以浏览在该日期wiki上的内容。",
+	"timemachine-button1": "前往该日期",
+	"timemachine-p2": "注意只有wiki内容将会更改。样式、边栏、页脚和其他wiki元素将保持不变。",
+	"timemachine-p3": "要返回正常浏览wiki，请点击下方按钮，或清空您的cookie。",
+	"timemachine-button2": "返回现时"
+}

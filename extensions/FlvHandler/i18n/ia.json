@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"flvhandler_desc": "Permitte le insertion de files video Flash (.flv) como files normal (p.ex. <nowiki>[[</nowiki>{{ns:file}}:Movie.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Video Flash, $1 × $2 pixeles, grandor del file: $3"
+}

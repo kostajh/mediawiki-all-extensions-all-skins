@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Malafaya"
+		]
+	},
+	"stalkerlog-desc": "Adiciona [[Special:Log/stalkerlog|um registo]] das entradas e saídas de utilizadores",
+	"stalkerlog-log-login": "entrou.",
+	"stalkerlog-log-logout": "saiu.",
+	"stalkerlog-log-type": "Registo de autenticação de utilizadores",
+	"stalkerlog-log-text": "Este é um registo de entradas e saídas de utilizadores.",
+	"action-stalkerlog-view-log": "ver registos de entradas e saídas de utilizadores",
+	"right-stalkerlog-view-log": "Ver registos de entradas e saídas de utilizadores"
+}

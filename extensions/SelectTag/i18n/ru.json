@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"selecttag-desc": "Добавляет настраиваемый тег &lt;select&gt; для вставки текста с помощью выборки из базы данных",
+	"selecttag-sourceattr-unspecified": "Ошибка: Исходный атрибут не указан."
+}

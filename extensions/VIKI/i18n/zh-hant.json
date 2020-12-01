@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"viki-desc": "在 wiki 頁面或網頁之間繪製網路連結圖表",
+	"viki-error-title": "錯誤：",
+	"viki-error-missing-pageTitle": "您必須提供至少一個頁面標題。",
+	"viki-timeout-content-namespace": "索取 wiki 的內容名稱空間逾時：$1。預設為主名稱空間",
+	"viki-error-content-namespace": "索取 wiki 的內容名稱空間錯誤：$1。預設為主名稱空間",
+	"viki-error-visit-node": "在嘗試訪問節點時出錯：$1。",
+	"viki-error-external-links": "在索取用於頁面的外部連結時出錯：$1。",
+	"viki-error-intrawiki-out": "在索取用於頁面的內部 wiki 導向連結時出錯：$1。",
+	"viki-error-intrawiki-in": "在索取用於頁面的內部 wiki 反向連結時出錯：$1。",
+	"viki-error-https-node": "闡述節點錯誤：$1。您正透過 HTTPS 運作，您僅能以 HTTPS 來存取其它 wiki。",
+	"viki-error-https-namespace": "索取用於此 wiki 的內容名稱空間錯誤：$1。您正透過 HTTPS 運作，您僅能以 HTTPS 來存取其它 wiki。",
+	"apihelp-getContentNamespaces-description": "取得用於此 wiki 的內容名稱空間清單。",
+	"apihelp-getContentNamespaces-summary": "取得用於此 wiki 的內容名稱空間清單。"
+}

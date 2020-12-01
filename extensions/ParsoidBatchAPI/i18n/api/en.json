@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tim Starling"
+		]
+	},
+	"apihelp-parsoid-batch-description": "Batching API (for Parsoid) to make MediaWiki API requests in bulk",
+	"apihelp-parsoid-batch-summary": "Batch API for Parsoid",
+	"apihelp-parsoid-batch-param-batch": "Action API requests (max 500 per match).",
+	"apierror-parsoid-batch-notallowed": "Client IP address not in ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "Invalid batch, must be array.",
+	"apierror-parsoid-batch-batchtoolarge": "Batch too large, limit is 500.",
+	"apierror-parsoid-batch-invalidaction": "Invalid action in item index $1.",
+	"apierror-parsoid-batch-texttoobig": "Input text exceeds maximum page size.",
+	"apierror-parsoid-batch-invalidtitle": "Invalid title ($1).",
+	"apierror-parsoid-batch-mustbescalar": "The <var>$1</var> parameter must be a scalar.",
+	"apierror-parsoid-batch-mustbearray": "The <var>$1</var> parameter must be an array."
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Verdy p"
+		]
+	},
+	"bs-categorycheck-extension-description": "Vérifie la catégorie affectée avant d’enregistrer un article",
+	"bs-categorycheck-insertcategory-no-category": "Veuillez affecter une catégorie à l’article",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Ignorer",
+	"bs-categorycheck-insertcategory-category-list": "Les catégories suivantes sont positionnées",
+	"bs-categorycheck-insertcategory-confirm-categories": "Les catégories sont correctes",
+	"bs-categorycheck-nsm-label-categorycheck": "VérificationDeCatégorie"
+}

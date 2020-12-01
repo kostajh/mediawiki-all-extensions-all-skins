@@ -1,0 +1,50 @@
+{
+	"name": "OAuthRateLimiter",
+	"version": "0.0.1",
+	"author": [
+		"Clara Andrew-Wani"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:OAuthRateLimiter",
+	"descriptionmsg": "oauthratelimiter-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "hooks",
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"extensions": {
+			"OAuth": ">= 1.1.0"
+		}
+	},
+	"MessagesDirs": {
+		"OAuthRateLimiter": [ "i18n" ]
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\OAuthRateLimiter\\": "includes/"
+	},
+	"HookHandlers": {
+		"OAuthRateLimiterHooks": {
+			"class": "MediaWiki\\Extension\\OAuthRateLimiter\\Hooks",
+			"services": [ "OAuthRateLimiterTierManager" ]
+		},
+		"LoadExtensionSchemaUpdatesHookHandler": {
+			"class": "MediaWiki\\Extension\\OAuthRateLimiter\\LoadExtensionSchemaUpdatesHookHandler"
+		}
+	},
+	"Hooks": {
+		"OAuthClaimStoreGetClaims": "OAuthRateLimiterHooks",
+		"LoadExtensionSchemaUpdates": "LoadExtensionSchemaUpdatesHookHandler"
+	},
+	"config": {
+		"OAuthRateLimiterDefaultClientTier": {
+			"description": "Default client tier name used when there is no tier name in database",
+			"value": "default"
+		},
+		"OAuthRateLimiterTierConfig": {
+			"description": "Rate limit tiers for clients",
+			"value": {}
+		}
+	},
+	"manifest_version": 2
+}

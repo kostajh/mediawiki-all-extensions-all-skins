@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diman Russkov",
+			"Kaganer",
+			"Okras"
+		]
+	},
+	"semanticpageseries-desc": "Создание серии страниц из одной [https://www.mediawiki.org/wiki//Special:MyLanguageExtension:Page_Forms формы]",
+	"spssuccesstitle": "Создание $1 страниц",
+	"spssuccess": "{{PLURAL:$1|Будет создана $1 страница|Будут созданы $1 страницы|Будет создано $1 страниц|1=Будет создана страница}}.",
+	"spssuccess-returntoorigin": "Вернуться к $1",
+	"spserror": "Произошла ошибка",
+	"spserror-diffnotsupported": "Сравнение версий не поддерживается для серии страниц.",
+	"spserror-previewnotsupported": "Предварительный просмотр не поддерживается для серии страниц.",
+	"spserror-noiteratorname": "Итератор не указан. Вы должны установить значение параметра «iterator» в вызове функции анализатора #serieslink.",
+	"spserror-iteratorunknown": "Итератор «$1» не существует. Вы должны исправить параметр «iterator» в вызове функции анализатора #serieslink.",
+	"spserror-noformname": "Не задано имя формы. Вам нужно установить параметр «form» при вызове функции анализатора #serieslink.",
+	"spserror-formunknown": "Форма «$1» не существует.",
+	"spserror-notargetformname": "Не задано имя целевой формы. Вам нужно установить параметр «target form» при вызове функции анализатора #serieslink.",
+	"spserror-notargetfieldname": "Не задано имя целевого поля. Вам нужно установить параметр «target field» при вызове функции анализатора #serieslink.",
+	"spserror-iteratorparammissing": "Следующие параметры итератор отсутствуют при вызове #serieslink:\n$1",
+	"spserror-noiteratordata": "Параметры итератора не найдены в отправленных данных.",
+	"spserror-pagegenerationlimitexeeded": "Вы пытались создать {{PLURAL:$1|$1 страницу|$1 страницы|$1 страниц|1=страницу}}. Это превышает допустимый предел в {{PLURAL:$2|$2 страницу|$2 страницы|$2 страниц|1=одну страницу}}.",
+	"spserror-date-startdatemissing": "Начальная дата отсутствует.",
+	"spserror-date-internalerror": "Произошла ошибка при создании дат: $1",
+	"spserror-count-startvaluemalformed": "Начальное значение — не число.",
+	"spserror-count-endvaluemalformed": "Конечное значение — не число.",
+	"spserror-count-stepvaluemalformed": "Значение шага — не число.",
+	"spserror-count-digitsvaluemalformed": "Значение разряда — не число."
+}

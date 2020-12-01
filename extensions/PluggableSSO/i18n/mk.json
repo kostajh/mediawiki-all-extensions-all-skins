@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"pluggablesso-desc": "Го користи SSO укажано од опслужувачот во $REMOTE_USER заедно со PluggableAuth",
+	"pluggablesso-no-session": "Не добив корисничко име. Седницата некако не успеа.",
+	"pluggablesso-username-mismatch": "Корисничкото име не одговара на седницата."
+}

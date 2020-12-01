@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"onlyrecentrecentchanges-desc": "Mostra le pagine nell'elenco delle ultime modifiche una sola volta, quando sono state modificate recentemente",
+	"onlyrecentrecentchanges-option": "Mostra solo l'ultima modifica di una pagina modificata (nei limiti delle ''{{int:prefs-displayrc}}'', come mostrato sopra)"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Yfdyh000"
+		]
+	},
+	"reassignedits": "重新分配用户编辑",
+	"reassignedits-desc": "允许重新分配编辑从一个老用户到一个新用户",
+	"reassignedits-error-invalid": "用户名“$1”无效。",
+	"reassignedits-new": "新用户名",
+	"reassignedits-old": "旧用户名",
+	"reassignedits-submit": "提交",
+	"reassignedits-success": "“$1”作出的编辑已重新分配到“$2”。",
+	"reassignedits-summary": "重新分配一个老用户的编辑到一个新用户。",
+	"reassignedits-updatelog-title": "更新日志标题中的用户名",
+	"reassignedits-updatelog-user": "更新日志中的执行用户",
+	"right-reassignedits": "重新分配编辑从一个老用户到一个新用户"
+}

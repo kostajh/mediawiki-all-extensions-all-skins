@@ -1,0 +1,23 @@
+/* copy of tablet */
+
+.sidebar-toggle[data-toggle~="navigation-main-collapse"]{
+	position: absolute;
+	padding: 0.3em 1em 0.2em 1em;
+	top: 0;
+	left: 0;
+	z-index: 12;
+	i.navigation-main-collapse::before{
+		font-family: 'bs-button';
+		content: "\e902";
+		font-size: 2em;
+		font-style: normal;
+		float: left;
+	}
+	&:hover{
+		text-decoration: none;
+	}
+	&:focus{
+		text-decoration: none;
+	}
+}
+

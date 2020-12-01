@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-hidetitle-desc": "Legger til det magiske ordet <code><nowiki>__HIDETITLE__</nowiki></code> for å skjule sidens tittel",
+	"bs-hidetitle-ve-dialog-meta-settings-showtitle": "Vis",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle": "Skjul",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-label": "Tittelsynlighet",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-help": "Du kan definere her hvorvidt tittelen skal vises eller ikke."
+}

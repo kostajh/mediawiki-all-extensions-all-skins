@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"markashelpful-desc": "Menyediakan antara muka pengguna untuk menandai komen sebagai membantu",
+	"mah-mark-text": "Tanda sebagai membantu",
+	"mah-you-marked-text": "Anda berpendapat bahawa ini membantu",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 berpendapat bahawa ini membantu}}",
+	"mah-undo-mark-text": "buat asal",
+	"mah-action-error": "Ralat terjadi ketika melakukan tindakan ini"
+}

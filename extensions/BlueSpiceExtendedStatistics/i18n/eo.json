@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Druesenfieber",
+			"Mirin"
+		]
+	},
+	"bs-statistics-grain": "Intervalo",
+	"bs-statistics-mode": "Reĝimo",
+	"bs-statistics-absolute": "absoluta",
+	"bs-statistics-year": "Jaro",
+	"bs-statistics-month": "Monato",
+	"bs-statistics-week": "Kalendara semajno",
+	"bs-statistics-day": "Tago",
+	"bs-statistics-list": "Listo",
+	"bs-statistics-finish": "Krei diagramon",
+	"bs-statistics-filters": "Filtriloj",
+	"bs-statistics-label-name": "Nomo",
+	"bs-statistics-label-registration": "Registrado",
+	"bs-statistics-label-page": "Paĝo",
+	"bs-statistics-label-creator": "Kreinto",
+	"bs-statistics-label-time": "Tempo",
+	"bs-statistics-filter-category": "Kategorio",
+	"bs-statistics-portlet-numberofusers": "Nombro de uzantoj",
+	"bs-statistics-portlet-numberofedits": "Nombro de redaktoj",
+	"bs-statistics-portlet-numberofpages": "Nombro de paĝoj",
+	"bs-statistics-portletconfig-periodday": "Hieraŭ",
+	"bs-statistics-panel-title-result": "Rezulto",
+	"bs-statistics-datasource-label": "Datumfonto"
+}

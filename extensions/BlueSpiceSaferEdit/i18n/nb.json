@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-saferedit-desc": "Gir advarsler om andre brukere redigerer siden",
+	"bs-saferedit-user-editing": "$1 {{GENDER:$1|redigerer}} siden",
+	"bs-saferedit-someone-editing": "Siden blir redigert",
+	"bs-saferedit-pref-interval": "Intervall for når det skal sjekkes for samtidige redigeringer:",
+	"bs-saferedit-pref-shownameofeditinguser": "Vis navnet på aktuel bidragsyter"
+}

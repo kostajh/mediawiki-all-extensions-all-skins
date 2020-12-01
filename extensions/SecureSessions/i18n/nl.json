@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kippenvlees1",
+			"Siebrand"
+		]
+	},
+	"securesessions-desc": "Maakt gebrukerssessies en sessieverificatie veiliger",
+	"securesessions-personalurl": "Open sessies ($1)",
+	"securesessions-ipsession": "Afmelden van alle andere sessies.",
+	"securesessions-iprestrict": "Sessie tot dit IP adres beperken.",
+	"securesessions-uarestrict": "Sessie tot deze browser beperken.",
+	"securesessions-sessions": "Sessies",
+	"securesessions-sessions-legend": "Sessiegegevens",
+	"securesessions-sessions-text": "Hieronder staan alle open sessies voor uw gebruiken en de bijbehorende gegevens. U kunt alle andere sessies afmelden via de knop hieronder. De huidige sessie wordt met een asterisk (*) opgegeven.",
+	"securesessions-sessions-ip": "IP-adres:",
+	"securesessions-sessions-activity": "Laatste activiteit:",
+	"securesessions-sessions-clear": "Afmelden van alle andere sessies",
+	"securesessions-prefs-country": "Aanmelden beperken op land:",
+	"securesessions-prefs-tor": "Aanmelden vanaf Tor-exitnodes weigeren.",
+	"securesessions-disallowedcountry": "Deze gebruiker mag niet aanmelden vanuit dit land.",
+	"securesessions-disallowedtor": "Deze gebruiker mag zich niet aanmelden vanaf Tor-exitnodes."
+}

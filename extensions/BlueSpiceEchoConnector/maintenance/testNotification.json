@@ -1,0 +1,287 @@
+{
+	"bs-adduser": {
+		"class": "\\BlueSpice\\EchoConnector\\Notification\\AddUserNotification",
+		"requires": "BlueSpiceEchoConnector",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"createdUser": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			}
+		}
+	},
+	"bs-registeruser": {
+		"class": "\\BlueSpice\\EchoConnector\\Notification\\RegisterUserNotification",
+		"requires": "BlueSpiceEchoConnector",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"createdUser": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			}
+		}
+	},
+	"bs-create": {
+		"class": "\\BlueSpice\\EchoConnector\\Notification\\CreateNotification",
+		"requires": "BlueSpiceEchoConnector",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"summary": {
+				"value": "test summary of this creation"
+			}
+		}
+	},
+	"bs-delete": {
+		"class": "\\BlueSpice\\EchoConnector\\Notification\\DeleteNotification",
+		"requires": "BlueSpiceEchoConnector",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"reason": {
+				"value": "test reason of this deletion"
+			}
+		}
+	},
+	"bs-edit": {
+		"class": "\\BlueSpice\\EchoConnector\\Notification\\EditNotification",
+		"requires": "BlueSpiceEchoConnector",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"revision": {
+				"value": false
+			},
+			"summary": {
+				"value": "test summary of this edit"
+			}
+		}
+	},
+	"bs-move": {
+		"class": "\\BlueSpice\\EchoConnector\\Notification\\TitleMoveNotification",
+		"requires": "BlueSpiceEchoConnector",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"oldTitle": {
+				"callback": "$val = \\Title::newFromText( 'oldMainpage' );"
+			},
+			"reason": {
+				"value": "test summary of this edit"
+			}
+		}
+	},
+	"bs-pageassignments-assignment-change-add": {
+		"class": "\\BlueSpice\\PageAssignments\\Notifications\\AssignmentChangeAdd",
+		"requires": "BlueSpicePageAssignments",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"affectedUsers": {
+				"callback": "$val = [ 0 => \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser()->getId() ];"
+			}
+		}
+	},
+	"bs-pageassignments-assignment-change-remove": {
+		"class": "\\BlueSpice\\PageAssignments\\Notifications\\AssignmentChangeRemove",
+		"requires": "BlueSpicePageAssignments",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"affectedUsers": {
+				"callback": "$val = [ 0 => \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser()->getId() ];"
+			}
+		}
+	},
+	"bs-pageassignments-user-group-add": {
+		"class": "\\BlueSpice\\PageAssignments\\Notifications\\GroupsAdd",
+		"requires": "BlueSpicePageAssignments",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"user": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"groupsAdded": {
+				"callback": "$val = \\User::getAllGroups();"
+			}
+		}
+	},
+	"bs-pageassignments-user-group-remove": {
+		"class": "\\BlueSpice\\PageAssignments\\Notifications\\GroupsRemove",
+		"requires": "BlueSpicePageAssignments",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"user": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"groupsRemoved": {
+				"callback": "$val = \\User::getAllGroups();"
+			}
+		}
+	},
+	"notification-bs-reminder-one-week": {
+		"class": "\\BlueSpice\\Reminder\\Notification\\OneWeekNotification",
+		"requires": "BlueSpiceReminder",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"comment": {
+				"value": "The reminders comment"
+			}
+		}
+	},
+	"notification-bs-reminder-today": {
+		"class": "\\BlueSpice\\Reminder\\Notification\\TodayNotification",
+		"requires": "BlueSpiceReminder",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"comment": {
+				"value": "The reminders comment"
+			}
+		}
+	},
+	"bs-review-assign": {
+		"class": "\\BlueSpice\\Review\\Notifications\\ReviewAssign",
+		"requires": "BlueSpiceReview",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"nextUsers": {
+				"callback": "$val = [ 0 => \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser()->getId() ];"
+			}
+		}
+	},
+	"bs-review-accept": {
+		"class": "\\BlueSpice\\Review\\Notifications\\ReviewAccept",
+		"requires": "BlueSpiceReview",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"owner": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"comment": {
+				"value": "testMail comment"
+			}
+		}
+	},
+	"bs-review-deny": {
+		"class": "\\BlueSpice\\Review\\Notifications\\ReviewDeny",
+		"requires": "BlueSpiceReview",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"owner": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"comment": {
+				"value": "testMail comment"
+			}
+		}
+	},
+	"bs-review-deny-and-restart": {
+		"class": "\\BlueSpice\\Review\\Notifications\\ReviewDenyAndRestart",
+		"requires": "BlueSpiceReview",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"owner": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"comment": {
+				"value": "testMail comment"
+			}
+		}
+	},
+	"bs-review-finish": {
+		"class": "\\BlueSpice\\Review\\Notifications\\ReviewFinish",
+		"requires": "BlueSpiceReview",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"owner": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"comment": {
+				"value": "testMail comment"
+			}
+		}
+	},
+	"bs-review-finish-and-autoflag": {
+		"class": "\\BlueSpice\\Review\\Notifications\\ReviewFinishAndAutoflag",
+		"requires": "BlueSpiceReview",
+		"params": {
+			"agent": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"title": {
+				"callback": "$val = \\Title::newMainPage();"
+			},
+			"owner": {
+				"callback": "$val = \\MediaWiki\\MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )->getMaintenanceUser()->getUser();"
+			},
+			"comment": {
+				"value": "testMail comment"
+			}
+		}
+	}
+}

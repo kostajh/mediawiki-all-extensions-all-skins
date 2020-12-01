@@ -1,0 +1,112 @@
+{
+	"name": "TranslationNotifications",
+	"version": "2018-08-05",
+	"author": [
+		"Niklas Laxström",
+		"Amir E. Aharoni",
+		"Santhosh Thottingal",
+		"Siebrand Mazeland",
+		"Jon Harald Søby"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:TranslationNotifications",
+	"descriptionmsg": "translationnotifications-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.34.0",
+		"extensions": {
+			"MassMessage": "*",
+			"Translate": "*"
+		}
+	},
+	"DefaultUserOptions": {
+		"translationnotifications-lang-1": "",
+		"translationnotifications-lang-2": "",
+		"translationnotifications-lang-3": ""
+	},
+	"SpecialPages": {
+		"TranslatorSignup": "SpecialTranslatorSignup",
+		"NotifyTranslators": "SpecialNotifyTranslators"
+	},
+	"JobClasses": {
+		"TranslationNotificationsEmailJob": "TranslationNotificationsEmailJob",
+		"TranslationNotificationsSubmitJob": "TranslationNotificationsSubmitJob"
+	},
+	"LogTypes": [
+		"notifytranslators"
+	],
+	"LogActionsHandlers": {
+		"notifytranslators/sent": "TranslationNotificationsLogFormatter"
+	},
+	"MessagesDirs": {
+		"TranslationNotifications": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"TranslationNotificationsAlias": "TranslationNotifications.alias.php"
+	},
+	"AutoloadClasses": {
+		"DigestEmailer": "scripts/DigestEmailer.php",
+		"GenericTranslationNotificationsJob": "includes/Jobs/GenericTranslationNotificationsJob.php",
+		"NotificationMessageBuilder": "includes/Utilities/NotificationMessageBuilder.php",
+		"SpecialNotifyTranslators": "includes/SpecialNotifyTranslators.php",
+		"SpecialTranslatorSignup": "includes/SpecialTranslatorSignup.php",
+		"TranslationNotificationsEmailJob": "includes/Jobs/TranslationNotificationsEmailJob.php",
+		"TranslationNotificationsSubmitJob": "includes/Jobs/TranslationNotificationsSubmitJob.php",
+		"TranslationNotificationsHooks": "includes/TranslationNotificationsHooks.php",
+		"TranslationNotificationsLogFormatter": "includes/TranslationNotificationsLogFormatter.php",
+		"TranslationNotifyUser": "includes/Utilities/TranslationNotifyUser.php"
+	},
+	"ResourceModules": {
+		"ext.translationnotifications.notifytranslators": {
+			"scripts": [
+				"resources/ext.translationnotifications.multiselectautocomplete.js",
+				"resources/ext.translationnotifications.notifytranslators.js"
+			],
+			"dependencies": [
+				"mediawiki.jqueryMsg",
+				"mediawiki.Uri",
+				"mediawiki.api",
+				"mediawiki.user",
+				"jquery.ui"
+			],
+			"messages": [
+				"translationnotifications-preview-notification-button",
+				"translationnotifications-talkpage-body",
+				"translationnotifications-generic-languages",
+				"translationnotifications-email-priority",
+				"translationnotifications-email-deadline"
+			]
+		},
+		"ext.translationnotifications.translatorsignup": {
+			"scripts": "resources/ext.translationnotifications.translatorsignup.js"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "TranslationNotifications"
+	},
+	"Hooks": {
+		"GetPreferences": [
+			"TranslationNotificationsHooks::onGetPreferences"
+		]
+	},
+	"config": {
+		"TranslationNotificationsContactMethods": {
+			"value": {
+				"email": true,
+				"talkpage": true,
+				"talkpage-elsewhere": false,
+				"feed": false
+			}
+		},
+		"TranslationNotificationsSignupLegalMessage": {
+			"value": "translationnotifications-signup-legal"
+		},
+		"TranslationNotificationsAlwaysHttpsInEmail": {
+			"value": false
+		}
+	},
+	"manifest_version": 2
+}

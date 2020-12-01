@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Comjun04",
+			"Hwangjy9",
+			"Maoue",
+			"Ykhwong"
+		]
+	},
+	"bs-countthings-desc": "콘텐츠에 기반한 통계를 제공합니다",
+	"bs-countthings-chars-label": "글자",
+	"bs-countthings-words-label": "낱말",
+	"bs-countthings-files-label": "파일",
+	"bs-countthings-pages-label": "문서",
+	"bs-countthings-ve-countthingsinspector-mode": "모드",
+	"bs-countthings-ve-countcharacters-mode-all": "모두",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "글자",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "단어",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "문자와 단어",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "문서",
+	"bs-countthings-ve-countcharacters-input-label": "페이지",
+	"bs-countthings-error-no-input": "페이지가 제공되지 않았습니다.",
+	"bs-countthings-error-invalid-mode": "\"$1\" 모드는 잘못되었습니다. \"chars\", \"words\", 또는 \"pages\"를 사용해 주세요.",
+	"bs-countthings-error-not-exist": "\"$1\" 문서가 존재하지 않습니다.",
+	"bs-countthings-tag-countarticles-desc": "이 위키의 문서 수를 표시합니다.",
+	"bs-countthings-tag-countusers-desc": "등록된 사용자 수를 표시합니다.",
+	"bs-countthings-tag-countfiles-desc": "위키의 파일 수를 표시합니다.",
+	"bs-countthings-tag-countcharacters-example-1": "단어의 수",
+	"bs-countthings-tag-countcharacters-example-2": "문자 수"
+}

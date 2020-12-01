@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexandr Efremov",
+			"Movses",
+			"Vlad5250"
+		]
+	},
+	"autocatuploads": "AutoCategoriseUploads",
+	"autocatuploads-desc": "Автоматическое добавление категорий на основе метаданных файлов."
+}

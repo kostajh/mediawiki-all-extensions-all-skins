@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder"
+		]
+	},
+	"form-desc": "E [[Special:Form|Yygabmaschke]] zum Aalege vu neje Syte",
+	"form": "Formular",
+	"form-no-name": "Kei Formularname",
+	"form-no-name-text": "Du muesch e Formularnamen aagee, z. B. „{{ns:Special}}:Form/Formularname“.",
+	"form-bad-name": "Falscher Formularname",
+	"form-bad-name-text": "S git kei Formular mit däm Name.",
+	"form-pattern": "$1-Formular",
+	"form-save": "Spychere",
+	"form-index-mismatch-title": "Uuglyychgwicht zwische Namemuschter un Vorlage",
+	"form-index-mismatch": "Des Formular het e Uuglyychgwicht zwische Namemuschter un Vorlagen, wu aafangt bim Index $1.",
+	"form-article-exists": "Syt git s scho",
+	"form-article-existstext": "D Syte „[[$1]]“ git s scho.",
+	"form-bad-page-name": "Nit zuelässige Sytename",
+	"form-bad-page-name-text": "D Formulardate, wu yygee wore sin, gän e nit zuelässige Sytename: „$1“.",
+	"form-required-field-error": "{{PLURAL:$2|S Fäld $1 isch e Pfichtfäld|D Fälder $1 sin Pfichtfälder}}.\nBitte fill {{PLURAL:$2|s|si}} uus.",
+	"form-save-summary": "Neji Syte, wu uf em [[Special:Form/$1|Formular $1]] basiert",
+	"form-save-error": "Fähler bim Spychere vum Formular",
+	"form-save-error-text": "S het e nit bekannte Fähler gee bim Spychere vu dr Syte „$1“."
+}

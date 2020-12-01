@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"pageassessments-desc": "Овај додатак је за складиштење процена страница у табели базе података уз помоћ могућности рашчлањивача",
+	"pageassessments-special": "Процене странице",
+	"pageassessments-project": "Пројекат",
+	"pageassessments-page-namespace": "Именски простор странице",
+	"pageassessments-page-title": "Наслов странице",
+	"pageassessments-search": "Претражи",
+	"pageassessments-importance": "Значај",
+	"pageassessments-class": "Класа",
+	"pageassessments-timestamp": "Временска ознака",
+	"pageassessments-total-results": "Укупно резултата: $1",
+	"pageassessments-error-namespace-filter": "Молимо унесите назив пројекта или странице."
+}

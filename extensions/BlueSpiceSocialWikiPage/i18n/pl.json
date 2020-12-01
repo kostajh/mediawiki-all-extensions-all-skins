@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"bs-socialwikipage-type": "Strona wiki",
+	"bs-socialwikipage-stashtype": "Załączniki",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]] {{GENDER:$1|załączył|załączyła}}",
+	"bs-socialwikipage-entitystash-header-create": "Nowy załącznik",
+	"bs-socialwikipage-special-stash-heading": "Załączniki",
+	"bs-socialwikipage-aftercontent-heading": "Załączniki",
+	"wikipagestash": "Załączniki",
+	"bs-socialwikipage-var-wikipageid": "Powiązana strona",
+	"bs-socialwikipage-stash-insertfiledialog-title": "Dodaj plik",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "Dodaj",
+	"bs-socialwikipage-stash-editor-attachedfiles": "Załączone pliki",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "Usuń",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "Dodaj"
+}

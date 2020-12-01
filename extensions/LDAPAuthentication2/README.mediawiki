@@ -1,0 +1,9 @@
+== Extension:LDAPAuthentication2 ==
+
+This extension provides a way to authenticate users against an LDAP store.
+
+It relies on [[mw:Extension:LDAPProvider|the LDAPProvider]] extension and
+extends then syntax of its domain configuration file.
+
+=== Configuration ===
+

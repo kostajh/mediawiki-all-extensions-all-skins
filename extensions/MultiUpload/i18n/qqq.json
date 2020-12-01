@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justin Du",
+			"Liuxinyu970226",
+			"Robby"
+		]
+	},
+	"multiupload": "Message displayed on the legend in Special:MultiUpload",
+	"multiupload-desc": "{{desc|name=MultiUpload|url=https://www.mediawiki.org/wiki/Extension:MultiUpload}}",
+	"multiupload-text": "Pretext shown in an UploadForm instance of MultiUpload.",
+	"multipleupload": "Alias for multiupload\n{{Identical|Upload file}}",
+	"multipleupload-toolbox": "Seems unused",
+	"multiupload-submit": "Message shown on the submit button of the MultiUpload form.\n{{Identical|Upload file}}",
+	"multiupload-uploadedto": "Success message shown when a file has been successfully uploaded using Special:MultiUpload.",
+	"multiupload-row": "Used as legend of a dialog in javascript\n{{Identical|File}}",
+	"multiupload-unpack-button": "Label message for the unpack button.",
+	"multiupload-notify-ok": "Message shown in a dialog displayed to the user.\n{{Identical|OK}}",
+	"multiupload-upload-package-error": "Error message shown when a package has failed to upload.",
+	"multiupload-unpack-error": "Error message shown when a package has failed to be unpacked on the server.",
+	"multiupload-unreadable-package": "Seems unused",
+	"multiupload-http-error": "HTTP Connection error message.",
+	"multiupload-file-unpacked-from": "Message shown when filed have successfully been unpacked.",
+	"apihelp-multiupload-unpack-description": "{{doc-apihelp-description|multiupload-unpack}}",
+	"apihelp-multiupload-unpack-summary": "{{doc-apihelp-summary|multiupload-unpack}}",
+	"apihelp-multiupload-unpack-param-key": "{{doc-apihelp-param|multiupload-unpack|key}}",
+	"apihelp-multiupload-unpack-param-filename": "{{doc-apihelp-param|multiupload-unpack|filename}}"
+}

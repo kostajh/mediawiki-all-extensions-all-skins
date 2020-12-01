@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mglaser",
+			"Patric Wirth"
+		]
+	},
+	"bs-socialtags-desc": "Fügt Tagging-Funktionalität für BlueSpiceSocial-Entitäten hinzu",
+	"bs-socialtags-tagstext": "{{plural:$1|Verknüpfter|Verknüpfte}} Artikel ($1)",
+	"bs-socialtags-var-tags": "Verknüpfte Artikel",
+	"socialtags": "Verknüpfte Artikel",
+	"bs-socialtags-special-heading": "Verknüpfte Artikel",
+	"apihelp-bs-socialtags-tasks-summary": "Stellt Aufgaben für die Bearbeitung verlinkter Seiten von Entities bereit",
+	"action-social-tagging": "verlinkte Seiten zu bearbeiten",
+	"right-social-tagging": "Verlinkte Seiten bearbeiten"
+}

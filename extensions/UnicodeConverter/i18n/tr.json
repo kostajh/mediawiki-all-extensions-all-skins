@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Joseph",
+			"Karduelis",
+			"Vito Genovese"
+		]
+	},
+	"unicodeconverter": "Unicode dönüştürücüsü",
+	"unicodeconverter-desc": "Basit bir özel sayfa modülü örneği. [[Special:UnicodeConverter|Bir UTF-8 dizgisi verildiğinde]], bunu bir ISO 8859-1 web sayfası için uygun HTML varlığına dönüştürür",
+	"unicodeconverter-ok": "Dönüştür",
+	"unicodeconverter-oldtext": "Orjinal metin:",
+	"unicodeconverter-newtext": "Dönüştürülmüş metin:"
+}

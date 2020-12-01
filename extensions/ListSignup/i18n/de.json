@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"listsignup": "Listenregistrierung",
+	"listsignup-desc": "Ermöglicht ein benutzerdefiniertes Listenregistrierungsformular",
+	"listsignup-legend": "Gib unten deine Informationen ein.",
+	"listsignup-success": "Deine E-Mail-Adresse wurde übermittelt.",
+	"listsignupdisplay": "Listenregistrierungsanzeige",
+	"listsignuppurge": "Listenregistrierungslöschung",
+	"listsignuppurge-legend": "Lösche alle Informationen von der Registrierungsliste",
+	"listsignuppurge-pretext": "'''Warnung!''' Dies entfernt alle Adressen aus der Liste. Diese Aktion kann nicht rückgängig gemacht werden.",
+	"listsignuppurge-success": "Die Liste wurde gelöscht!",
+	"right-viewlistsignupdisplay": "Registrierungsliste ansehen",
+	"right-purgelistsignupdisplay": "Registrierungsliste löschen",
+	"action-viewlistsignupdisplay": "die Registrierungsliste anzusehen",
+	"action-purgelistsignupdisplay": "die Registrierungsliste zu löschen"
+}

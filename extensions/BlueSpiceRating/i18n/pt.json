@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"bs-rating-extension-description": "Fornece um sistema de avaliação",
+	"bs-rating-types-page": "Avaliação de página",
+	"bs-rating-types-pagelike": "Recomendação de página",
+	"rating": "Avaliações",
+	"recommendations": "Recomendações",
+	"bs-rating-yourrating": "A sua avaliação: $1",
+	"bs-rating-special-rating-heading": "Avaliações",
+	"bs-rating-articlelike-ratingtext": "Recomendar ($1)",
+	"bs-rating-articlelike-uratingtextservoted": "Recomendada ($1)",
+	"action-rating-viewspecialpage": "ver páginas protegidas com a permissão \"Rating-Viewspecialpage\"",
+	"action-rating-read": "ler as avaliações nas páginas",
+	"action-rating-write": "votar nas páginas",
+	"action-rating-archive": "remover votos das páginas",
+	"right-rating-viewspecialpage": "Ver páginas protegidas com a permissão \"Rating-Viewspecialpage\"",
+	"right-rating-read": "Ler as avaliações nas páginas",
+	"right-rating-write": "Votar nas páginas",
+	"right-rating-archive": "Remover votos das páginas",
+	"bs-rating-special-recommendations-heading": "Recomendações",
+	"bs-rating-special-recommendations-label-recommendation": "Recomendações",
+	"bs-rating-specialrating-label-namespace": "Espaço nominal",
+	"bs-rating-specialrating-titleTitle": "Título",
+	"bs-rating-specialrating-titleRating": "Avaliação",
+	"bs-rating-specialrating-titleVotes": "Número de avaliações",
+	"apihelp-bs-rating-tasks-description": "Executa tarefas comuns, para a extensão Rating",
+	"apihelp-bs-rating-store-description": "Fornece avaliações de artigos",
+	"bs-rating-nsm-label": "Avaliação",
+	"bs-rating-nsm-label-recommendations": "Recomendações",
+	"apihelp-bs-rating-tasks-summary": "Executa tarefas comuns, para a extensão Rating",
+	"apihelp-bs-ratingarticle-store-summary": "Fornece avaliações de artigos",
+	"apihelp-bs-ratingarticlelike-store-summary": "Fornece recomendações de artigos"
+}

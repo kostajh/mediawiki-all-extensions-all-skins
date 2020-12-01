@@ -1,0 +1,327 @@
+
+
+#lwfFilter,
+#lwfTaxon {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Component */
+.lwfComponent h3 {
+    cursor: pointer;
+}
+.lwfComponent.hidden {
+    opacity: 0.5;
+}
+.lwfComponent.hidden .questions {
+    display: none;
+}
+.lwfComponent .title {
+    position: relative;
+}
+.lwfComponent .title .status {
+    font-size: 0.8em;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.lwfComponent .gallery > img,
+.lwfComponent .gallery > object {
+    max-height: 400px;
+    max-width: 400px;
+}
+.lwfComponent .text {
+    line-height: 150%;
+    padding-bottom: 1em;
+}
+.lwfComponent.hidden .componentDescription {
+    display: none;
+}
+
+/* Question */
+.lwfQuestion.hidden {
+    height: 12px;
+    overflow: hidden;
+}
+.lwfQuestion.tile.hidden {
+    padding: 0;
+    margin-top: 2px;
+    display: none;
+}
+.lwfQuestion.tile.hidden div {
+    display: none;
+}
+.lwfQuestion.tile.hidden h4 {
+    color: #444444;
+    font-size: 10px;
+    margin: 1px 0 0 4px;
+    display: block;
+}
+.lwfQuestion.tile.hidden .description,
+.lwfQuestion.tile.hidden .equipment {
+    display: none;
+}
+.lwfQuestion .equipment {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+.lwfQuestion .questionDescription {
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+#lwfFilter .tile {
+    max-width: none;
+}
+
+
+
+/* Character */
+.lwfCharacter {
+    border: 1px solid transparent;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    cursor: pointer;
+    max-width: 200px;
+}
+
+.lwfCharacter.selected {
+    background-color: #b9d19b;
+}
+.lwfCharacter:hover {
+    background-color: #b9d19b;
+}
+.lwfCharacter img {
+    max-width: 200px;
+    max-height: 200px;
+}
+.lwfCharacter.hidden {
+    opacity: .5;
+}
+
+.lwfCharacter .description {
+    font-size: .8em;
+}
+
+/* Filter */
+.lwfFilter .name {
+    color: #5d7a38;
+}
+
+.lwfDisabled {
+    display: none;
+}
+
+/* Taxon */
+.lwfTaxon {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 20em;
+    padding: .5em;
+    margin: .5em;
+
+    border: 1px solid #999999;
+    background-color: #fff;
+}
+.lwfTaxon.hidden {
+    opacity: .5;
+    display: none;
+}
+.lwfTaxon .latin {
+    color: #5d7a38;
+    font-weight: bold;
+}
+.lwfTaxon .gallery img {
+    max-width: 100%;
+    max-height: 20em;
+}
+.lwfTaxon .description {
+    display: none;
+}
+
+
+/* Temporary */
+.ratingDetails {
+    position: relative;
+    text-align: right;
+}
+.ratingDetails .rating {
+    display: inline-block;
+    padding-left: 2px;
+}
+.ratingDetails .items {
+    background-color: #333333;
+    border: 1px solid #111111;
+    color: #DDDDDD;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    top: 1em;
+    width: 310px;
+}
+.ratingDetails .number {
+    border: 1px solid #999999;
+    font-size: 12px;
+    height: 12px;
+    padding: 2px;
+    text-align: center;
+    width: 1em;
+}
+.ratingDetails .okCharacter .number {
+    background-color: #b9d19b;
+    border-color: #5d7a38;
+}
+.ratingDetails .wrongCharacter .number {
+    background-color: #f28a64;
+    border-color: #b4461d;
+}
+.ratingDetails .unknownCharacter .number {
+    background-color: #dddddd;
+    border-color: #999999;
+}
+
+.ratingDetails .rating .items {
+    display: none;
+}
+.ratingDetails .rating:hover .items {
+    display: block;
+}
+.ratingDetails .rating:hover .items:empty {
+    display: none;
+}
+
+
+.info {
+    background-color: #FFFFFF;
+    bottom: 0;
+    color: #333333;
+    font-size: 0.8em;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+.lwfCharacter .info {
+    bottom: -5px;
+    right: auto;
+    z-index: 1;
+}
+
+#lwfOptions {
+    background-color: #333333;
+    color: #EEEEEE;
+    cursor: pointer;
+    font-size: 0.8em;
+    padding: 2px 10px 10px;
+    position: fixed;
+    right: 0;
+    text-align: right;
+    top: 60px;
+}
+#lwfOptions > h4 {
+    border-bottom: 2px solid #EEEEEE;
+}
+#lwfOptions ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#lwfOptions .lwuiToolButton {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+
+/* Taxon details */
+#lwfTaxonDetails .lwfTaxonDetailsContainer {
+    width: 100%;
+    height: 100%;
+    background: url(black50.png) left top repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#lwfTaxonDetails .lwfTaxonDetailsContainer .lwfTaxonDetails {
+    background-color: #FFFFFF;
+    border: 2px solid #333333;
+    left: 0;
+    margin: 10%;
+    max-height: 80%;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    width: 80%;
+}
+#lwfTaxonDetails .lwfTaxonDetailsContainer .lwfTaxonDetails .content {
+    margin: 1em;
+}
+
+#lwfTaxonDetails img {
+    max-width: 200px;
+}
+.description > ul li {
+    display: inline;
+    padding-right: 1em;
+}
+.lwfTaxon .latin {
+    cursor: pointer;
+}
+
+
+
+/* Ranges */
+.lwfRange .content > div {
+    display: inline-block;
+    height: 2em;
+    vertical-align: top;
+    width: 50%;
+    cursor: pointer;
+}
+.lwfRange .content .selectable {
+    background-color: #EEEEEE;
+    border: 1px solid #888888;
+    height: 100%;
+    margin: 1px;
+    opacity: 0.7;
+    padding-right: 5px;
+}
+.lwfRange .content .selectable.selected {
+    background-color: #B9D19B;
+    opacity: 1;
+}
+.lwfRange input.confirm {
+    float: right;
+}
+.unknownContainer {
+    text-align: center;
+}
+
+
+/* Tree Matrix */
+#lwfTaxonTree {
+    position: relative;
+}
+#lwfTaxonTree .lwuiTreeMatrix {
+    left: 40px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#lwfTaxonTree.hidden .lwuiTreeMatrix {
+    height: 40px;
+}
+#lwfTaxonTree .bVisibility {
+    background-color: #333333;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 35px;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    vertical-align: middle;
+    width: 40px;
+}

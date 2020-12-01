@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"gae-desc": "为在GoogleAppEngine上运行的wiki提供增强功能",
+	"apihelp-gaejobqueue-description": "运行工作队列的内部API模块。不允许外部使用。",
+	"apihelp-gaejobqueue-summary": "运行作业队列的内部API模块。不允许外部使用。",
+	"apihelp-gaejobqueue-param-namespace": "数字名字空间id。",
+	"apihelp-gaejobqueue-param-titletext": "不带名字空间的标题文本。",
+	"apihelp-gaejobqueue-param-type": "工作类型。",
+	"apihelp-gaejobqueue-param-params": "工作的PHP序列化参数。"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"changeuserpasswords": "تغيير كلمات سر المستخدمين",
+	"changeuserpassword-desc": "هذا امتداد لتغيير كلمات سر المستخدمين، متوقعا القليل كما هو مشار إليه بواسطة الإداري.",
+	"changeuserpassword-pagename": "تغيير كلمات سر المستخدمين",
+	"changeuserpassword-topheader": "من فضلك اختر أسماء المستخدمين لتغيير كلمات السر الخاصة بهم. كل المستخدمين مختارين افتراضيا. من فضلك اختر أسماء المستخدمين الذين لا تود تغيير كلمات السر الخاصة بهم.",
+	"changeuserpassword-success": "تم تغيير كلمات سر المستخدمين!",
+	"changeuserpassword-title": "تغيير كلمات سر المستخدمين",
+	"changeuserpassword-intro": "هذا امتداد لتغيير كلمات سر المستخدمين، متوقعا القليل كما هو مشار إليه بواسطة الإداري.",
+	"action-changeuserpasswords": "تغيير كلمات سر المستخدمين",
+	"right-changeuserpasswords": "تغيير كلمات سر المستخدمين"
+}

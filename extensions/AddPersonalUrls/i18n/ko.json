@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Garam",
+			"Ykhwong"
+		]
+	},
+	"addpersonalurls-desc": "일부 항목을 개인 URL로 추가",
+	"addpersonalurls-preload": "다른 위키 문서처럼 동작합니다. 특히 다른 사용자들이 읽거나 편집할 수 있습니다.",
+	"addpersonalurls-userpages": "내 문서",
+	"addpersonalurls-home": "홈",
+	"addpersonalurls-home-preload": "개인 홈페이지를 위해 이 문서를 사용할 수 있습니다.",
+	"addpersonalurls-favorites": "즐겨찾기",
+	"addpersonalurls-favorites-preload": "즐겨찾기 저장을 위해 이 문서를 사용할 수 있습니다.",
+	"addpersonalurls-sandbox": "연습장",
+	"addpersonalurls-sandbox-preload": "위키 코드 테스트를 위해 이 문서를 사용할 수 있습니다.",
+	"addpersonalurls-notes": "비고",
+	"addpersonalurls-notes-preload": "개인 메모를 위해 이 문서를 사용할 수 있습니다."
+}

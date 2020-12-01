@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"markashelpful-desc": "Dèje 'n'inderfacce utende pe marcà le commende cumme utile",
+	"mah-mark-text": "Signe cumme utile",
+	"mah-you-marked-text": "Tu pinze ca jè utile",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 penze ca jè utile}}",
+	"mah-undo-mark-text": "annulle",
+	"mah-action-error": "S'ha verificate 'n'errore facenne st'azione",
+	"apihelp-getmarkashelpfulitem-description": "Pigghie l'elenghe de tutte le state utile pe 'nu oggette.",
+	"apihelp-getmarkashelpfulitem-summary": "Pigghie l'elenghe de tutte le state utile pe 'nu oggette.",
+	"apihelp-getmarkashelpfulitem-param-type": "'U tipe de l'oggette ca ste avène signate cumme utile.",
+	"apihelp-getmarkashelpfulitem-param-item": "L'oggette ca ste avène signate cumme utile.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Ce probbietà agghia pigghià.",
+	"apihelp-getmarkashelpfulitem-param-page": "'A pàgene addò ste cirche 'a vôsce.",
+	"apihelp-markashelpful-description": "Permette a le utinde de signà o luà 'n'oggette jndr'à 'u site cumme utile.",
+	"apihelp-markashelpful-summary": "Permette a le utinde de signà o luà 'n'oggette jndr'à 'u site cumme utile.",
+	"apihelp-markashelpful-param-mahaction": "Ce signe o live 'n'oggette cumme utile.",
+	"apihelp-markashelpful-param-page": "'A pàgene addò 'a vôsce jè signate.",
+	"apihelp-markashelpful-param-type": "'U tipe de l'oggette ca ste avène signate cumme utile.",
+	"apihelp-markashelpful-param-item": "L'oggette ca ste avène signate cumme utile.",
+	"apihelp-markashelpful-param-useragent": "'A 'ndestazione utende-agende d'u browser.",
+	"apihelp-markashelpful-param-system": "'U sisteme operative ca ste ause.",
+	"apihelp-markashelpful-param-locale": "'A localizzazzione ca ste ause."
+}

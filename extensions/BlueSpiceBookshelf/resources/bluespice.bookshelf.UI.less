@@ -1,0 +1,99 @@
+/* TODO: Rewrite as LESS source */
+#bs-nav-section-bs-bookshelfui.bs-nav-tab.ui-tabs-panel.ui-widget-content,
+#bs-nav-section-bs-bookshelfui.bs-nav-tab {
+	padding: 0;
+}
+
+#bs-nav-section-bs-bookshelfui.bs-nav-tab.ui-tabs-panel.ui-widget-content .x-grid-cell,
+#bs-nav-section-bs-bookshelfui.bs-nav-tab.ui-tabs-panel.ui-widget-content .x-grid-body,
+#bs-nav-section-bs-bookshelfui.bs-nav-tab.ui-tabs-panel.ui-widget-content .x-panel-body,
+#bs-nav-section-bs-bookshelfui.bs-nav-tab.ui-tabs-panel.ui-widget-content .x-panel-header,
+#bs-nav-section-bs-bookshelfui.bs-nav-tab.ui-tabs-panel.ui-widget-content .x-toolbar{
+	background-color: transparent;
+}
+
+#bs-nav-section-bs-bookshelfui.bs-nav-tab.ui-tabs-panel.ui-widget-content .x-grid-with-row-lines .x-grid-td,
+#bs-nav-section-bs-bookshelfui.bs-nav-tab.ui-tabs-panel.ui-widget-content .x-grid-with-row-lines .x-grid-table {
+	border: none;
+}
+
+#bs-nav-section-bs-bookshelfui.bs-nav-tab.ui-tabs-panel.ui-widget-content .x-grid-row-selected {
+	background-color: #eee;
+}
+
+#bs-tab-link-bs-bookshelfui.bs-booktab-in-book::before {
+	color: @bs-bookshelf-navtab-icon-active;
+}
+
+/*
+#bs-nav-section-bs-bookshelfui.bs-nav-tab.ui-tabs-panel.ui-widget-content .x-accordion-hd .x-panel-header-text-container {
+	text-transform: uppercase;
+	font-weight: normal;
+}
+*/
+
+.bs-bookshelf-toc[data-bs-number] {
+	display: none;
+}
+
+.bs-bookshelfui-globalnav-book {
+	border-top: 1px solid #ccc;
+}
+
+.bs-bookshelfui-globalnav-book .x-panel-header-text,
+.bs-bookshelfui-globalnav-book .icon {
+	color: @bs-color-primary;
+	font-size: 1.1em;
+}
+
+.bs-bookshelfui-globalnav-allbooks .x-panel-header-text {
+	color: #666;
+}
+
+.bs-bookshelfui-globalnav-allbooks .x-panel-header {
+	cursor: pointer;
+}
+
+.bs-bookshelfui-globalnav-allbooks .x-tool-collapse-top,
+.bs-bookshelfui-globalnav-allbooks .x-tool-expand-bottom {
+	/*@embed*/
+	background-image: url(images/globalnav-sprite.png);
+	background-color: transparent;
+}
+
+.bs-bookshelfui-globalnav-allbooks .x-tool-gear {
+	background-image: none;
+	background-color: transparent;
+}
+.bs-bookshelfui-globalnav-allbooks .bs-bookshelf-edit-book-tool::before {
+	font-family: "entypo";
+	content: "\e970";
+	font-size: 120%;
+	color: #666;
+}
+
+.bs-globalactions-items.bs-globalaction-ns_special-specialbookshelfbookmanager::before{
+	content: '\e91f';
+	font-family: 'icomoon';
+}
+
+/* Alternative implemantation */
+#bs-bookshelfui-book-toc {
+	height: 400px;
+}
+
+#bs-bookshelfui-book-toc-tree {
+	padding-left: 1em;
+	.bs-treenode-value .active {
+		font-weight: bold;
+	}
+}
+
+.bs-bookshelfui-book-list-body {
+	height: 200px;
+	overflow-y: auto;
+
+	.active {
+		font-weight: bold;
+	}
+}

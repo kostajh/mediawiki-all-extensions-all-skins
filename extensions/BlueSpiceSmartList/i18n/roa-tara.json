@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-smartlist-desc": "Face 'ndrucà le urteme cinghe cangiaminde d'a uicchi jndr'à 'n'elenghe",
+	"prefs-smartlist": "Elenghe 'ndelliggende",
+	"bs-smartlist-recent-changes": "Urteme cangiaminde",
+	"bs-smartlist-no-entries": "Nisciune resultate acchiate.",
+	"bs-smartlist-invalid-namespaces": "{{PLURAL:$1|'U namespace scacchiate jè|Le namespace scacchiate sò}} invalide: $2.{{PLURAL:$1|}}",
+	"bs-smartlist-invalid-target": "'A destinazione specificate non ge tène 'nu titole de pàgene valide",
+	"bs-smartlist-comment": "Commende: $1.",
+	"bs-smartlist-sort-asc": "inghiananne",
+	"bs-smartlist-sort-desc": "scennènne",
+	"bs-smartlist-day": "Sciúrne",
+	"bs-smartlist-week": "Sumáne",
+	"bs-smartlist-month": "Mese",
+	"bs-smartlist-time": "Orarie",
+	"bs-smartlist-title": "Titole",
+	"bs-smartlist-tag-smartlist-desc": "Fà 'ndrucà automatecamende le elenghe de vôsce generate. 'A configurazione fatìe cu diverse modalità e parametre.",
+	"bs-smartlist-tag-smartlist-example-rc": "Modalità: Urteme cangiaminde",
+	"bs-smartlist-tag-smartlist-example-whatlinkshere": "Modalità: Ce apponde aqquà",
+	"bs-smartlist-tag-newbies-desc": "Fà 'ndrucà le utinde nuève d'a uicchi. Stu elenghe pò essere ristrette a 'nu certe numere.",
+	"bs-smartlist-tag-toplist-desc": "Fà 'ndrucà le pàggene cchiù 'ndrucate. Pò essere limitate da diverse parametre.",
+	"bs-smartlist-mostvisitedpages": "Pàggene cchiù 'ndrucate",
+	"bs-smartlist-mosteditedpages": "Pàggene cchiù cangiate",
+	"bs-smartlist-mostactiveusers": "Utinde cchiù attive (pe cangiaminde)",
+	"bs-smartlist-lastedits": "Cangiaminde mie",
+	"bs-smartlist-noedits": "Nisciune cangiamende acchiate.",
+	"bs-smartlist-mostactiveusersdesc": "Elenghe de le utinde cchiù attive ordenate pe le cangiaminde lore.",
+	"bs-smartlist-mosteditedpagesdesc": "Elenghe de le pàggene cchiù cangiate ordenate pe le cangiaminde lore.",
+	"bs-smartlist-mostvisitedpagesdesc": "Elenghe de le pàggene cchiù 'ndrucate ordenate pe le 'ndrucaminde lore.",
+	"bs-smartlist-lasteditsdesc": "Elenghe de le pàggene ca è cangiate.",
+	"bs-smartlist-hitcounter-missing": "L'estenzione <a target='blank' href='https://www.mediawiki.org/wiki/Extension:HitCounters'>HitCounters</a> adda essere installate.",
+	"apihelp-bs-smartlist-tasks-description": "Funziune API ca servene le date de le portlet pa pàgene e pe le statisteche de l'utende.",
+	"apihelp-bs-smartlist-tasks-summary": "Funziune API ca servene le date de le portlet pa pàgene e pe le statisteche de l'utende."
+}

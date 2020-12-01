@@ -1,0 +1,74 @@
+{
+	"name": "BlueSpiceWikiExplorer",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:WikiExplorer",
+	"author": [
+		"Sebastian Ulbricht",
+		"Patric Wirth"
+	],
+	"descriptionmsg": "bs-wikiexplorer-extension-description",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceWikiExplorer": {
+					"className": "\\BlueSpice\\WikiExplorer\\Extension",
+					"extPath": "/BlueSpiceWikiExplorer",
+					"package": "BlueSpice Pro"
+				}
+			}
+		}
+	},
+	"APIModules": {
+		"bs-wikiexplorer-store": "BSApiWikiExplorerStore"
+	},
+	"SpecialPages": {
+		"WikiExplorer": "SpecialWikiExplorer"
+	},
+	"MessagesDirs": {
+		"BlueSpiceWikiExplorer": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"WikiExplorerAlias": "languages/SpecialWikiExplorer.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\WikiExplorer\\": "src/"
+	},
+	"AutoloadClasses": {
+		"BSApiWikiExplorerStore": "includes/api/BSApiWikiExplorerStore.php",
+		"SpecialWikiExplorer": "includes/specials/SpecialWikiExplorer.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.wikiExplorer": {
+			"scripts": [
+				"bluespice.wikiExplorer.js"
+			],
+			"dependencies": "ext.bluespice.extjs"
+		},
+		"ext.bluespice.wikiExplorer.styles": {
+			"styles": [
+				"bluespice.wikiExplorer.icons.less",
+				"bluespice.wikiExplorer.less"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceWikiExplorer/resources"
+	},
+	"Hooks": {
+		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\WikiExplorer\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddWikiExplorer::callback",
+		"BSUserSidebarGlobalActionsWidgetGlobalActions" : "WikiExplorer::onBSUserSidebarGlobalActionsWidgetGlobalActions",
+		"BeforePageDisplay": "\\BlueSpice\\WikiExplorer\\Hook\\BeforePageDisplay\\AddModuleStyles::callback"
+	},
+	"manifest_version": 2
+}

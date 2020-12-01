@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"multiupload": "Subir varios ficheiros",
+	"multiupload-desc": "Permítelles aos usuarios [[Special:MultipleUpload|cargar varios ficheiros á vez]]",
+	"multipleupload": "Cargar ficheiros",
+	"multiupload-submit": "Subir ficheiros",
+	"multiupload-row": "Ficheiro $1",
+	"multiupload-unpack-button": "Descomprimir",
+	"multiupload-notify-ok": "Aceptar",
+	"multiupload-unreadable-package": "Non se pode ler o ficheiro $1",
+	"multiupload-http-error": "Non se puido conectar ó servidor."
+}

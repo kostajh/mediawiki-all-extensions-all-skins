@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"categorywatch-desc": "নজরে রাখা বিষয়শ্রেণীগুলির সদস্যপদ পরিবর্তন সম্পর্কে বিজ্ঞপ্তি অন্তর্ভুক্ত করার জন্য নজরদারির কার্যকারিতা প্রসারিত করে",
+	"categorywatch-emailsubject": "নজরে রাখা বিষয়শ্রেণী \"$1\" সম্পর্কিত কার্যকলাপ",
+	"categorywatch-catmovein": "$1 কে $3 থেকে $2-এ স্থানান্তর করেছেন",
+	"categorywatch-catmoveout": "$1 কে $2 থেকে $3-এ স্থানান্তর করেছেন",
+	"categorywatch-catadd": "$1 কে $2-এ যোগ করেছেন",
+	"categorywatch-catsub": "$1 কে $2 থেকে সরিয়েছেন",
+	"categorywatch-autocat": "$1 দ্বারা স্বয়ংক্রিয়ভাবে নজরকৃত",
+	"categorywatch-notification-link": "বিষয়শ্রেণী: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$3|$4]]-এ [[:$1|$2]] যোগ করা হয়েছে",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$5|$6]]-এ [[:$3|$4]] যোগ করা হয়েছে",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] [[:$4|$4]]-এ [[:$3|$3]] যোগ করেছেন",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$3|$4]] থেকে [[:$1|$2]] সরানো হয়েছে",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$5|$6]] থেকে [[:$3|$4]] সরানো হয়েছে",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] [[:$4|$4]] থেকে [[:$3|$3]] সরিয়েছেন",
+	"categorywatch-add-title": "নজরে রাখা বিষয়শ্রেণীতে শিরোনাম যোগ",
+	"echo-pref-tooltip-categorywatch": "আমার নজরে রাখা বিষয়শ্রেণীতে কেউ কোন পাতা যোগ করলে বা সরালে আমাকে অবহিত করুন।"
+}

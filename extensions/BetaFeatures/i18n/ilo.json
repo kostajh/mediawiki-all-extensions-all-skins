@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"betafeatures-auto-enroll": "Automatiko a mangpakabael kadagiti amin a baro a beta a langa",
+	"betafeatures-desc": "Mangipalubos a mangpakabael ti agar-aramat wenno mangbaldado kadagiti langa iti wiki a saan pay a makasagana para iti kangrunaan a panawen",
+	"betafeatures-extension-type": "Dagiti beta a langa",
+	"betafeatures-section-desc": "Ditoy {{PLURAL:$1|ket ti baro a langa|ket dagiti baro a langa}} a panpanunotenmi para iti {{SITENAME}}. Pangngaasi a padasen {{PLURAL:$1|daytoy|dagitoy}} ken agited kaniami dagiti panunotyo, tapno mapasayaatmi {{PLURAL:$1|daytoy|dagitoy}} a maibatay iti bukodmo a feedback.",
+	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "Pagtungtungan",
+	"mw-ui-feature-info": "Pakaammo",
+	"mw-ui-feature-requirements-betafeatures": "Daytoy a langa ket masapulna ti sumaganad a {{PLURAL:$1|langa|lang-langa}} tapno mapakabaelan:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Ti sumaganad a pagbasabasa|Dagiti sumaganad a pagbasabasa}} ket saan a masuportaran:",
+	"mw-ui-feature-requirements-javascript": "Daytoy a langa ket masapulna ti JavaScript.",
+	"mw-ui-feature-requirements-skins": "Daytoy a langa ket mabalin {{PLURAL:$1|iti sumaganad a kudil|kadagiti sumaganad a kudil}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Maysa nga agar-aramat ket|$1 kadagiti agar-aramat ket|0=Awan kadagiti agar-aramat ket}} mangpadpadas daytoy a langa.",
+	"prefs-betafeatures": "Dagiti beta a langa",
+	"tooltip-pt-betafeatures": "Dagiti beta a langa"
+}

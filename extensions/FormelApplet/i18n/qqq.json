@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Garrett Brown/Rudolf Grossmann",
+			"Kghbln",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"formelapplet-desc": "{{desc|name=Formel Applet|url=https://www.mediawiki.org/wiki/Extension:FormelApplet}}",
+	"formelapplet-nojava": "Error message if Java not installed with link where to get from.\n\nParameters:\n* $1 - \"Java\" (with link which points to http://java.com); hard-coded",
+	"formelapplet-missing-parameter": "Error message if parameter width or height or term/solution missing.\n\n{{doc-important|Do not translate the parameters \"width\", \"height\" or \"term/solution\".}}",
+	"formelapplet-file-not-found": "Error message if file not found. Parameters:\n* $1 - filename\n{{Identical|File not found}}",
+	"formelapplet-error": "General part of error message. Parameters:\n* $1 - error message"
+}

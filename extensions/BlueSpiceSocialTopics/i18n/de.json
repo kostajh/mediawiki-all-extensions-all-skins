@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth <wirth@hallowelt.com>"
+		]
+	},
+	"bs-socialtopics-desc": "Diskussionsfunktion für BlueSpiceSocial",
+	"bs-socialtopics-pref-skipcreatedialog": "Dialog beim Anlegen der Diskussionen überspringen",
+	"bs-socialtopics-toc-entalkpageautocreate": "Alle Diskussionsseiten automatisch erstellen",
+	"bs-socialtopics-autocreated-discussionpage": "Diese Diskussionsseite wurde automatisch angelegt.",
+	"bs-socialtopics-autocreated-discussionpagefile": "Diese Diskussionsseite wurde automatisch angelegt.",
+	"bs-socialdiscussion-discussiontype": "Diskussion",
+	"bs-socialdiscussion-topictype": "Diskussionsthema",
+	"bs-socialtopics-entitydiscussion-header-create": "Neue Diskussion anlegen",
+	"bs-social-entitytopic-header-create": "Neues Thema",
+	"bs-socialtopics-var-topictitle": "Titel",
+	"bs-socialtopics-var-discussiontitleid": "Zugeordnete Diskussionsseite",
+	"bs-socialtopics-entity-fatalstatus-save-notalkpage": "Keine gültige Diskussionsseite",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "$1 erstellte das Thema:",
+	"topics": "Themen",
+	"bs-socialtopics-special-topics-heading": "Alle Themen",
+	"bs-socialtopics-special-topics-heading-entry": "Thema/$1",
+	"bs-socialtopics-aftercontent-heading": "Diskussionen",
+	"bs-socialtopics-nodiscussionpage": "Es wurde noch keine Diskussionsseite angelegt.",
+	"bs-socialtopics-nodiscussionpage-create": "Neue Diskussionsseite erstellen",
+	"bs-socialtopics-nodiscussion": "Es wurde noch keine Diskussion angelegt",
+	"bs-socialtopics-notopicsadded": "Es wurde noch kein Thema angelegt",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "Speichern",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "Abbrechen",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "Seiteninhalt",
+	"bs-socialtopics-switch-nodiscussion-description": "Diskussionen werden auf dieser Seite nicht angezeigt."
+}

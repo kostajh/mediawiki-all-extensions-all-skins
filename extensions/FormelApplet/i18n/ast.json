@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rudolf.Grossmann",
+			"Xuacu"
+		]
+	},
+	"formelapplet-desc": "Amestar les miniaplicaciones [http://wiki.formelapplet.de FormelApplet] \nnes páxines.",
+	"formelapplet-nojava": "Instale $1 pa usar esta páxina.",
+	"formelapplet-missing-parameter": "Falta un parámetru (\"width\" o \"height\" o \"term/solution\").",
+	"formelapplet-file-not-found": "Nun s'alcontró el ficheru $1.",
+	"formelapplet-error": "Error na estensión FormelApplet de MediaWiki: <em>$1</em>"
+}

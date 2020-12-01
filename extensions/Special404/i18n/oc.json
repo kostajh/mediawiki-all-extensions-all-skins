@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"special404-desc": "Ofrís una pagina per defaut per las errors 404 introbablas",
+	"error404": "404 introbable",
+	"special404-body": "L'URL qu'avètz demandada es pas estada trobada.\n\nVoliatz picar {{fullurl:$1}} ?\n\nBenlèu que volètz anar a la\n* [[{{MediaWiki:Mainpage}}|Pagina d'acuèlh]] ?"
+}

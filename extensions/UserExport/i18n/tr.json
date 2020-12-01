@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"userexport-desc": "Kullanıcı verilerini bir CSV dosyasına vermeyi sağlar",
+	"userexport": "Kullanıcı verilerini dışa aktar",
+	"userexport-submit": "Dışa aktar",
+	"userexport-badtoken": "Geçersiz düzenleme simgesi",
+	"userexport-description": "Bu sayfa, bu wikide kayıtlı tüm kullanıcıların kullanıcı verilerini (kullanıcı adı ve kullanıcı e-postası) bir CSV dosyasına vermeyi sağlar.",
+	"right-userexport": "Kullanıcı verilerini toplu olarak dışa aktar",
+	"action-userexport": "kullanıcı verilerini bu wikiden dışa aktar"
+}

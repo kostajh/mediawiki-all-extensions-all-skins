@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz"
+		]
+	},
+	"apihelp-gaejobqueue-param-namespace": "Identificador numérico del espacio de nombres.",
+	"apihelp-gaejobqueue-param-titletext": "Texto del título sin el espacio de nombres.",
+	"apihelp-gaejobqueue-param-type": "Tipo de trabajo.",
+	"apihelp-gaejobqueue-param-params": "Parámetros PHP serializados para el trabajo."
+}

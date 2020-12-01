@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"multiupload": "একাধিক ফাইল আপলোড করুন",
+	"multiupload-desc": "[[Special:MultiUpload|একযোগে একাধিক ফাইল আপলোড করার জন্য বিশেষ পাতা]]",
+	"multiupload-text": "একাধিক ফাইল আপলোড করার জন্য নীচের ফর্মটি ব্যবহার করুন।\nপূর্বে আপলোড করা ফাইলগুলি দেখতে বা অনুসন্ধান করতে [[Special:FileList|আপলোডকৃত ফাইলের তালিকায়]] যান, এছাড়া (পুনঃ)আপলোডগুলি [[Special:Log/upload|আপলোড লগে]], অপসারণগুলি [[Special:Log/delete|অপসারণ লগে]] লিপিবদ্ধ করা।\n\nএকটি পৃষ্ঠায় একটি ফাইল অন্তর্ভুক্ত করতে, নিম্নলিখিত ধরনগুলির একটি লিঙ্ক ব্যবহার করুন:\n* ফাইলের পূর্ণ সংস্করণ ব্যবহার করতে <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.jpg]]</nowiki></code></strong> দিন\n* বিবরণ হিসাবে \"alt text\" সহ বাম প্রান্তের বাক্সে একটি ২০০ পিক্সেল প্রশস্তের উপস্থাপনা ব্যবহার করতে <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.png|200px|thumb|left|alt text]]</nowiki></code></strong> দিন\n* ফাইলটি দেখানো ছাড়াই সরাসরি ফাইলের সাথে সংযুক্ত করার জন্য <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:File.ogg]]</nowiki></code></strong> দিন।\n\nযখন আপনি একটি ফাইল নির্বাচন করবেন, তখন এই পৃষ্ঠাটি প্রসারিত হবে, যা আপনাকে আপলোড করার আগে আরও ফাইল নির্বাচন করার অনুমতি দেয়।\n\nএকটি <code>.zip</code>, <code>.tar</code>, <code>.tar.gz</code>, বা <code>.tgz</code> ফাইলের প্যাক খোলার জন্য ও তাতে উপস্থিত ফাইল আপলোড করতে, প্যাকেজ ফাইলটি নির্বাচন করুন ও তারপর \"{{int:multiupload-unpack-button}}\" বোতামটি ব্যবহার করুন।",
+	"multipleupload": "ফাইল আপলোড করুন",
+	"multipleupload-toolbox": "একাধিক ফাইল আপলোড করুন",
+	"multiupload-submit": "ফাইল আপলোড করুন",
+	"multiupload-uploadedto": "ফাইল $1 আপলোড হয়েছে।",
+	"multiupload-row": "ফাইল $1",
+	"multiupload-unpack-button": "প্যাক খুলুন",
+	"multiupload-notify-ok": "ঠিক আছে",
+	"multiupload-upload-package-error": "প্যাকেজ ফাইল আপলোড করার সময় ত্রুটি",
+	"multiupload-unpack-error": "প্যাকেজ ফাইলের প্যাক খোলার সময় ত্রুটি",
+	"multiupload-unreadable-package": "ফাইল $1 পড়া যাচ্ছে না",
+	"multiupload-http-error": "সার্ভারে সংযোগ করা যায়নি।",
+	"multiupload-file-unpacked-from": "<b>$2</b> প্যাকেজ থেকে ফাইল <b>$1</b>",
+	"apihelp-multiupload-unpack-param-filename": "প্যাকেজ ফাইলের নাম"
+}

@@ -1,0 +1,27 @@
+{
+	"name": "CrawlableAllPages",
+	"version": "0.1.0",
+	"author": [
+		"[https://meta.wikimedia.org/wiki/User:MarkAHershberger Mark A. Hershberger]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:CrawlableAllPages",
+	"descriptionmsg": "crawlableallpages-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "other",
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\CrawlableAllPages\\Special": "src/Special.php"
+	},
+	"SpecialPages": {
+		"Allpages": "MediaWiki\\Extension\\CrawlableAllPages\\Special",
+		"CrawlableAllPages": "MediaWiki\\Extension\\CrawlableAllPages\\Special"
+	},
+	"MessagesDirs": {
+		"CrawlableAllPages": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"CrawlableAllPagesAlias": "i18n/CrawlableAllPages.alias.php"
+	},
+	"manifest_version": 1
+}

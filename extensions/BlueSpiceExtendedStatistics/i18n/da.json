@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"bs-statistics-from": "Fra",
+	"bs-statistics-to": "Til",
+	"bs-statistics-mode": "Tilstand",
+	"bs-statistics-year": "År",
+	"bs-statistics-month": "Måned",
+	"bs-statistics-week": "Kalenderuge",
+	"bs-statistics-day": "Dag",
+	"bs-statistics-list": "Liste",
+	"bs-statistics-diag-number-of-users": "Antal brugere oprettet",
+	"bs-statistics-label-name": "Navn",
+	"bs-statistics-label-registration": "Registrering",
+	"bs-statistics-diag-number-of-pages": "Antal sider oprettet",
+	"bs-statistics-diag-number-of-pages-mw": "Antal indholdssider oprettet",
+	"bs-statistics-label-page": "Side",
+	"bs-statistics-label-creator": "Skaber",
+	"bs-statistics-diag-number-of-edits": "Antal redigeringer",
+	"bs-statistics-diag-edits-per-user": "Redigeringer per bruger",
+	"bs-statistics-filter-category": "Kategori",
+	"bs-statistics-filter-user": "Ekskluderede brugere",
+	"bs-statistics-pref-excludeusers": "Ekskluder disse brugere:",
+	"bs-statistics-portlet-numberofusers": "Antal brugere",
+	"bs-statistics-portlet-numberofedits": "Antal redigeringer",
+	"bs-statistics-portlet-numberofpages": "Antal sider",
+	"bs-statistics-portlet-numberofarticles": "Antal af indholdsider",
+	"bs-statistics-portlet-numberofusersdesc": "Statistik over antallet af brugere.",
+	"bs-statistics-portlet-numberofeditsdesc": "Statistik over antallet af redigeringer",
+	"bs-statistics-portlet-numberofpagesdesc": "Statistik over antallet af sider.",
+	"bs-statistics-portlet-numberofarticlesdesc": "Statistik over antallet af indholdssider.",
+	"bs-statistics-portletconfig-periodday": "I går",
+	"bs-statistics-button-label-export": "Eksporter",
+	"bs-statistics-panel-title-result": "Resultat",
+	"bs-extendedstatistics-collection-fatalstatus-unknownaction": "Ukendt handling \"$1\".",
+	"bs-extendedstatistics-collection-var-type": "Kildetype",
+	"bs-statistics-datasource-label": "Datakilde",
+	"bs-statistics-targets-label": "Mål",
+	"bs-statistics-paging-page-size": "Sidestørrelse"
+}

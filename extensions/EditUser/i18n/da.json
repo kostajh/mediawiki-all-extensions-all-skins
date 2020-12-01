@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Saederup92"
+		]
+	},
+	"edituser": "Rediger bruger",
+	"edituser-username": "Brugernavn:",
+	"edituser-dosearch": "Søg",
+	"edituser-nouser": "Brugeren \"$1\" findes ikke.",
+	"edituser-exempt": "Brugeren $1 kan ikke redigeres."
+}

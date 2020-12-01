@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwboehm",
+			"Liuxinyu970226",
+			"佛壁灯",
+			"科劳"
+		]
+	},
+	"configmanager-admintool-label": "配置管理器",
+	"action-configmanager-viewspecialpage": "查看特殊页面“{{int:configmanager}}”",
+	"configmanager": "配置管理器",
+	"configmanager-desc": "为管理员通过单一特殊页面配置整个wiki提供可能",
+	"configmanager-discardchanges": "放弃更改么？",
+	"configmanager-noentry": "找不到记录",
+	"apihelp-configmanager-tasks-summary": "管理任务",
+	"apihelp-configmanager-store-summary": "管理商店",
+	"right-configmanager-viewspecialpage": "访问页面 [[Special:ConfigManager]] 的权限。"
+}

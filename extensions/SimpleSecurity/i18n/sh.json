@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"security": "Evidencija sigurnosti",
+	"security-desc": "Proširuje zaštitu stranica „MediaWiki“, omogućujući ograničavanje pregledanja sadržajâ stranice",
+	"security-logpage": "Evidencija sigurnosti",
+	"security-logpagetext": "Ovo je evidencija radnji blokiranih putem [https://www.mediawiki.org/wiki/Extension:SimpleSecurity SimpleSecurity dodatka].",
+	"badaccess-read": "'''Upozorenje''': \"$1\" je navedena ovdje, ali nemate dovoljno privilegija da otvorite je.",
+	"security-info": "Na ovom članku postoji $1",
+	"security-info-toggle": "sigurnosna ograničenja",
+	"security-inforestrict": "$1 je onemogućen na $2",
+	"security-desc-LS": "(vrijedi jer ova stranica se nalazi u $2 \"$1\")",
+	"security-desc-PR": "(postavljeno preko kartice \"zaštite\")",
+	"security-infosysops": "Ne vrijede nikakva ograničenja jer članujete u grupi \"sysop\"",
+	"security-manygroups": "grupe $1 i $2",
+	"security-unchain": "Mijenjaj akcije zasebno",
+	"security-type-category": "kategoriji",
+	"security-type-namespace": "imenskom prostoru",
+	"security-restricttogroup": "Otvori sadržaj onemogućen članovima \"$1\"",
+	"restriction-read": "Pročitaj"
+}

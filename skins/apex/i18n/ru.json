@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helpau",
+			"Kaganer",
+			"Okras",
+			"SmartNart12"
+		]
+	},
+	"skinname-apex": "Apex",
+	"apex-desc": "Современная версия темы оформления «Векторное» с обновлённым оформлением и многими улучшениями в юзабилити",
+	"apex-action-addsection": "Добавить тему",
+	"apex-action-delete": "Удалить",
+	"apex-action-move": "Переименовать",
+	"apex-action-protect": "Защитить",
+	"apex-action-undelete": "Отменить удаление",
+	"apex-action-unprotect": "Изменить защиту",
+	"apex-view-create": "Создать",
+	"apex-view-edit": "Править",
+	"apex-view-history": "Посмотреть историю",
+	"apex-view-view": "Читать",
+	"apex-view-viewsource": "Просмотр кода"
+}

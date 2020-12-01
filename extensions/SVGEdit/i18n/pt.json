@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Waldir",
+			"Waldyrious"
+		]
+	},
+	"svgedit-editbutton-edit": "Editar desenho",
+	"svgedit-summary-label": "Resumo da edição",
+	"svgedit-summary-default": "/* Modificado no svg-edit */",
+	"svgedit-editor-save-close": "Gravar e fechar",
+	"svgedit-editor-close": "Cancelar",
+	"svgedit-desc": "Edição de desenhos SVG no próprio browser, com o [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Editar desenho",
+	"svgedit-edit-tab-tooltip": "Pode editar este desenho SVG no seu browser",
+	"svgedit-toolbar-insert": "Desenho SVG"
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abijeet Patro",
+			"Roovinn"
+		]
+	},
+	"tinymce-upload-link": "लिंक",
+	"tinymce-horizontal-align-left": "बाएँ ओर",
+	"tinymce-horizontal-align-right": "दाएँ ओर",
+	"tinymce-upload-title-image": "छवि",
+	"tinymce-upload-summary-label": "सारांश",
+	"tinymce-upload-vertalign-middle-text": "मध्य",
+	"tinymce-upload-horizontalalign-left-text": "बाएँ ओर",
+	"tinymce-upload-button-label-overwrite": "पुनर्लेखन करें",
+	"tinymce-upload-button-label-use": "प्रयोग करें",
+	"tinymce-link-title-label": "शीर्षक",
+	"tinymce-link-target-label": "लक्ष्य",
+	"tinymce-link-type-internal": "अन्दरूनी",
+	"tinymce-link-type-label": "प्रकार",
+	"tinymce-link-link-list-none": "कोई नहीं",
+	"tinymce-yes": "हाँ",
+	"tinymce-no": "नहीं",
+	"tinymce-ok": "ठीक है"
+}

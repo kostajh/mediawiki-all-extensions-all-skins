@@ -1,0 +1,77 @@
+{
+	"name": "BlueSpiceExtendedFilelist",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:ExtendedFilelist",
+	"author": [
+		"Dejan Savuljesku"
+	],
+	"descriptionmsg": "bs-extendedfilelist-desc",
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceExtendedFilelist": {
+					"className": "\\BlueSpice\\ExtendedFilelist\\Extension",
+					"extPath": "/BlueSpiceExtendedFilelist"
+				}
+			}
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"MessagesDirs":{
+		"BlueSpiceExtendedFilelist":[
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceExtendedFilelistAlias": "BlueSpiceExtendedFilelist.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\ExtendedFilelist\\": "src/"
+	},
+	"AutoloadClasses": {
+		"SpecialBlueSpiceExtendedFilelist": "includes/specials/SpecialBlueSpiceExtendedFilelist.php",
+		"BlueSpiceExtendedFilelistHooks": "includes/BlueSpiceExtendedFilelistHooks.php"
+	},
+	"Hooks": {
+		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\ExtendedFilelist\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddExtendedFilelist::callback",
+		"ResourceLoaderRegisterModules": "BlueSpiceExtendedFilelistHooks::onResourceLoaderRegisterModules",
+		"SpecialPage_initList": "BlueSpiceExtendedFilelistHooks::onSpecialPage_initList"
+	},
+	"SpecialPages":{
+		"BlueSpiceExtendedFilelist": "SpecialBlueSpiceExtendedFilelist"
+	},
+	"ResourceModules":{
+		"ext.bluespice.extendedFilelist": {
+			"scripts": "bluespice.extendedFilelist.js",
+			"dependencies": [
+				"ext.bluespice.extjs",
+				"ext.bluespice.upload",
+				"ext.bluespice.extjs.filerepo"
+			]
+		},
+		"ext.bluespice.extendedFilelist.styles": {
+			"styles": "bluespice.extendedFilelist.css"
+		}
+	},
+	"ResourceFileModulePaths":{
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceExtendedFilelist/resources"
+	},
+	"config_prefix":"bsg",
+	"config": {
+		"EFLOverrideStandardFilelist": {
+			"value": false
+		},
+		"EFLPluginModules": {
+			"value": []
+		}
+	},
+	"manifest_version": 2
+}

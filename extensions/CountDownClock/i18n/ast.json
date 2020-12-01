@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"countDownClock-desc": "Amiesta una función analítica p'amosar un reló de cuenta atrás",
+	"countDownClock-invalidtime": "Indica un valor válidu pal parámetru endTime",
+	"countDownClock-days": "$1 {{PLURAL:$1|día|díes}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|hora|hores}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|minutu|minutos}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|segundu|segundos}}",
+	"countDownClock-expired": "Caducáu"
+}

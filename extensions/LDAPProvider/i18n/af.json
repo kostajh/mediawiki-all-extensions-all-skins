@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joris Darlington Quarshie"
+		]
+	},
+	"ldapprovider-config-defaultdomain": "Spesifiseer watter domein vir 'n gebruiker moet gekies word, indien geen kartering uit die databasis beskikbaar is nie"
+}

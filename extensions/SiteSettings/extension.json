@@ -1,0 +1,72 @@
+{
+	"name": "Site Settings",
+	"version": "0.8-alpha",
+	"author": "Yaron Koren",
+	"url": "https://www.mediawiki.org/wiki/Extension:Site_Settings",
+	"descriptionmsg": "sitesettings-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"AvailableRights": [
+		"sitesettings"
+	],
+	"ExtensionFunctions": [
+		"SSUtils::initializeSite"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"sitesettings": true
+		}
+	},
+	"SpecialPages": {
+		"SiteSettings": "SpecialSiteSettings"
+	},
+	"MessagesDirs": {
+		"SiteSettings": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SiteSettingsAliases": "SiteSettings.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialSiteSettings": "specials/SpecialSiteSettings.php",
+		"SiteSettings": "includes/SiteSettings_body.php",
+		"SSUtils": "includes/SS_Utils.php",
+		"SSFieldLevel": "includes/SS_FieldLevel.php",
+		"SSStore": "includes/SS_Store.php"
+	},
+	"ResourceModules": {
+		"ext.sitesettings.main": {
+			"styles": [
+				"resources/SiteSettings.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SiteSettings"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "SSUtils::describeDBSchema",
+		"PersonalUrls": "SSUtils::addTopSiteSettingsLink",
+		"UserGetRights": "SSUtils::blockFromReading"
+	},
+	"config": {
+		"SiteSettingsScriptPath": {
+			"value": "/extensions/SiteSettings"
+		},
+		"SiteSettingsResourceTemplate": {
+			"value": {
+				"localBasePath": "",
+				"remoteExtPath": "SiteSettings"
+			},
+			"path": true
+		},
+		"SiteSettingsDB": {
+			"value": null
+		}
+	},
+	"manifest_version": 2
+}

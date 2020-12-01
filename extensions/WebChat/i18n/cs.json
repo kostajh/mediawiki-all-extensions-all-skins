@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matěj Grabovský",
+			"Mormegil",
+			"Patriccck"
+		]
+	},
+	"webchat": "Webový chat",
+	"webchat-desc": "Přidává [[Special:WebChat|speciální stránku]] pro konverzaci v reálném čase s ostatními uživateli wiki",
+	"webchat-header": "Tato speciální stránka vám umožňuje v reálném čase spolupracovat s ostatními uživateli wiki.\nPřipojíte se jednoduše stisknutím tlačítka „Připojit“.\nPokud jste přihlášeni, vaše přezdívka bude předvyplněna.\nNeregistrovaní uživatelé dostanou automaticky vytvořenou přezdívku, ale je možné ji změnit.",
+	"right-webchat": "Používání [[Special:WebChat|webové diskuse]]"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"multiupload": "Подигање на повеќе податотеки наеднаш",
+	"multiupload-desc": "[[Special:MultiUpload|Службена страница за подигање на повеќе податотеки наеднаш]]",
+	"multiupload-text": "Образецот подолу служи за подигање на повеќе податотеки наеднаш.\nЗа да ги видите или пребарате претходно подигнатите податотеки, појдете на [[Special:FileList|списокот на подигнати податотеки]], (пре)подигањата се заведуваат и во [[Special:Log/upload|дневник на подигања]], а бришењата се заведени во [[Special:Log/delete|дневникот на бришења]].\n\nЗа да ставите податотека во страница, ставете ја како врска во еден од следниве облици:\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Податотека.jpg]]</nowiki></code></strong> за да ја ставите полната верзија на податотеката\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Податотека.png|200п|мини|лево|алтернативен текст]]</nowiki></code></strong> за да ја ставите во квадрат лево, во ширина од 200 пиксели со алтернативен текст како опис\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:Податотека.ogg]]</nowiki></code></strong> за да ставите непосредна врска до o податотеката без самата таа да се прикажува на страницата.\n\nОткако ќе изберете податотека, оваа страница ќе се прошири, овозможувајќи ви да изберете уште податотеки пред да подигате.\n\nЗа да отпакувате податотека од видот <code>.zip</code>, <code>.tar</code>, <code>.tar.gz</code> или <code>.tgz</code> и да ги подигнете податотеките во неа, одберете ја пакетната податотека, па стиснете на копчето „{{int:multiupload-unpack-button}}“ што ќе ви се појави.",
+	"multipleupload": "Подигање на податотеки",
+	"multipleupload-toolbox": "Подигање на повеќе податотеки",
+	"multiupload-submit": "Подигни",
+	"multiupload-uploadedto": "Подигната податотеката $1.",
+	"multiupload-row": "Податотека $1",
+	"multiupload-unpack-button": "Отпакувај",
+	"multiupload-notify-ok": "ОК",
+	"multiupload-upload-package-error": "Грешка при подигањето на пакетната податотека",
+	"multiupload-unpack-error": "Грешка при отпакувањето на пакетната податотека",
+	"multiupload-unreadable-package": "Не можам да ја прочитам податотеката $1",
+	"multiupload-http-error": "Не можам да се поврзам со опслужувачот.",
+	"multiupload-file-unpacked-from": "Податотека <b>$1</b> од пакетот <b>$2</b>",
+	"apihelp-multiupload-unpack-description": "Откапувај ZIP или tar податотека пред увоз на нејзината содржина.",
+	"apihelp-multiupload-unpack-summary": "Откапувај ZIP или tar податотека пред увоз на нејзината содржина.",
+	"apihelp-multiupload-unpack-param-key": "Се добива „filekey“ при подигање на пакетната податотека во складот",
+	"apihelp-multiupload-unpack-param-filename": "Податочно име на пакетот"
+}

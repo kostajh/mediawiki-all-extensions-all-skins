@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"bs-bookshelfui-widget-editor-link-text": "Dëst Buch änneren",
+	"bs-bookshelfui-new-book-text": "Buchtitel",
+	"bs-bookshelfui-delete-book-title": "Buch läschen",
+	"bs-bookshelfui-bookui-savingprogress-title": "Buch späicheren",
+	"bs-bookshelfui-manager-title": "Titel",
+	"bs-bookshelfui-manager-deletingprogress-title": "Läschen...",
+	"bs-bookshelfui-manager-deletionsuccess-title": "Geläscht!",
+	"bs-bookshelfui-manager-deletionfailure-title": "Feeler beim Läschen!",
+	"bs-bookshelfui-dlg-choosewikipage-title": "WikiSäit",
+	"bs-bookshelfui-dlg-choosewikipage-cbxArticleLabel": "WikiSäit",
+	"bs-bookshelfui-dlg-copy-name-addition": "(Kopie)",
+	"bs-bookshelfui-dlg-copy-target-name-label": "Zilnumm",
+	"bs-bookshelfui-confirm-delete-title": "Kapitel ewechhuelen",
+	"bs-bookshelfui-dlg-choosecategory-label": "Kategorie",
+	"bs-bookshelfui-dlg-type-label": "Quell",
+	"bs-bookshelfui-type-category": "All Säite vun enger Kategorie",
+	"bs-bookshelfui-type-subpages": "All Ënnersäite vun enger Säit",
+	"bs-bookshelfui-flyout-title": "Lëscht vun de Bicher",
+	"bs-bookshelfui-book-title-link-edit": "Buch änneren",
+	"bs-bookshelfui-book-title-link-edit-text": "Buch änneren",
+	"bs-bookshelfui-bookmetatag-title": "Titel",
+	"bs-bookshelfui-bookmetatag-subtitle": "Ënnertitel",
+	"bs-bookshelfui-bookmetatag-author1": "Auteur 1",
+	"bs-bookshelfui-bookmetatag-author2": "Auteur 2",
+	"bs-bookshelfui-bookmetatag-docummentidentifier": "Dokument-ID",
+	"bs-bookshelfui-bookmetatag-department": "Departement",
+	"bs-bookshelfui-bookmetatag-version": "Versioun",
+	"bs-bookshelfui-extjs-tooltip-copy": "Kopéieren",
+	"bookshelf-summary": "Allgemeng Bicher",
+	"bs-bookshelfui-prof-defaultview-images": "Biller",
+	"bs-bookshelfui-chapterpager-previous": "Vireg",
+	"bs-bookshelfui-chapterpager-next": "Nächst"
+}

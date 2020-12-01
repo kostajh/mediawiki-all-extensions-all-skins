@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"iframepage": "Iframe 頁面",
+	"iframepage-desc": "允許內嵌 iframe 至特殊頁面",
+	"iframepage-error-wgifsrc": "<code>$wgIframePageSrc</code> 變數必須在\n <code>LocalSettings.php</code> 裡設定。"
+}

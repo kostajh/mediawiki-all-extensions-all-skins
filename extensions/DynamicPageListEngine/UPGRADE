@@ -1,0 +1,13 @@
+<!-- 
+     page taken from 
+     https://www.mediawiki.org/wiki/Extension:DynamicPageListEngine/Upgrading
+-->  
+== Upgrading ==
+
+To upgrade, simply [[{{NAMESPACE}}:{{BASEPAGENAME}}#Installation|install]] the most recent version.
+
+=== Upgrading from 0.3 or earlier ===
+
+With version 1.0.0, almost all configuration parameters and messages names have been changed. If you have customized any of them, you need to adapt your configuration.
+
+Since version 1.0.0, pages using DynamicPageListEngine are assigned to a [[mw:Help:Tracking_categories|tracking category]]. If you already have such pages, you can fix the categories either by performing a [[mw:Manual:Purge#Null_edits|null edit]] on each page or by executing the script <code>maintenance/refreshLinks.php</code>. Note that the latter may take a considerable amount of time.

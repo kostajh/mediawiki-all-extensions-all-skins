@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "允許更簡易的 SEO（搜尋引擎最佳化）",
+	"addhtmlmetaandtitle-empty-attr": "&lt;seo&gt;標籤必須至少包含一個不為空的「title」或「metak(eywords)」或「metad(escription)」屬性。"
+}

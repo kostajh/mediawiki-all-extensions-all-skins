@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"updatemediawiki": "Päivitä MeetiaWiki",
+	"updatemediawiki-desc": "Mahollistaa MeetiaWikin päivityksen spesiaalisivun kautta",
+	"updatemediawiki-current": "Nykynen versuuni $1",
+	"updatemediawiki-update-nofound": "Päivitystä ei ole saatavilla",
+	"updatemediawiki-update-found": "Uusi päivitys löyetty: $1",
+	"updatemediawiki-update-downloading": "Ladathaan uutta päivitystä",
+	"updatemediawiki-update-saved": "Päivitys ladattu ja säästetty",
+	"updatemediawiki-update-database": "Päivitetäänkö taattapaasi ny?",
+	"updatemediawiki-update-install": "Asennetaanko ny?",
+	"updatemediawiki-update-updated": "MeetiaWiki päivitetty versuuniin $1",
+	"updatemediawiki-update-error": "Viimesimpiä julkasuja ei löyetty",
+	"updatemediawiki-update-aborted": "Uutta päivitystä ei voitu säästää. Toiminto keskeytetty"
+}

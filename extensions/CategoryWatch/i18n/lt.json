@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Manvydasz"
+		]
+	},
+	"categorywatch-emailsubject": "Veikla stebimoje kategorijoje \"$1\"",
+	"categorywatch-catmovein": "$1 buvo perkeltas į $2 iš $3",
+	"categorywatch-catmoveout": "$1 buvo perkeltas iš $2 į $3",
+	"categorywatch-catadd": "$1 buvo pridėtas į $2",
+	"categorywatch-catsub": "$1 buvo pašalintas iš $2",
+	"categorywatch-autocat": "Automatiškai stebima $1"
+}

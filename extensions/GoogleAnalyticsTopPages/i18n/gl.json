@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"googleanalyticstoppages-desc": "Provee unha lista de páxinas empregando datos de Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Valor de [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Actualiza a lista das páxinas principais (datos proporcionados por Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Actualiza a lista das páxinas principais (datos proporcionados por Google Analytics)."
+}

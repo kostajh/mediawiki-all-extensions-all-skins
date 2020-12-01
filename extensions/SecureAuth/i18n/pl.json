@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"secureauth-desc": "Umożliwia użytkownikowi dodanie jego adresu IP do logowania. Próby logowania z innego adresu będą odrzucane",
+	"secureauth-info-userinfo": "Informacje o użytkowniku",
+	"secureauth-current-ip": "Twoje obecne IP logowania:"
+}

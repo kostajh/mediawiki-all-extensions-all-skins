@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"helppages-desc": "Автоматически извлекает страницы справки с [https://www.mediawiki.org mediawiki.org]",
+	"helppages-notice": "Эта страница была загружена с [https://www.mediawiki.org/?oldid=$1 mediawiki.org] и может быть теперь отредактирована.",
+	"helppages-edit-tab": "Редактировать на MediaWiki.org"
+}

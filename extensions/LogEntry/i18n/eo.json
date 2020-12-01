@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"KuboF",
+			"Melancholie",
+			"Robin van der Vliet",
+			"Yekrats"
+		]
+	},
+	"logentry-append": "Almeti",
+	"logentry-parserhook-desc": "Ĉi tiu etikeda etendilo provizas paĝon por aldoni al la fino aux komenco de protokolaj paĝoj",
+	"logentry-specialpage-desc": "Ĉi tiu etikeda etendilo provizas procesado por aldonado al protokolaj paĝoj",
+	"logentry": "LogEntry",
+	"logentry-invalidpage": "Nevalida paĝo: $1",
+	"logentry-invalidtoken": "Nevalida ĵetono"
+}

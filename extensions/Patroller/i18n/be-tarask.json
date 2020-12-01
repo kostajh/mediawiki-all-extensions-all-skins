@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Wizardist"
+		]
+	},
+	"patrol": "Патруляваныя рэдагаваньні",
+	"patrol-desc": "Пашыраны інтэрфэйс патруляваньня з падзелам працоўнай нагрузкі",
+	"patrol-endorse": "Пацьвердзіць",
+	"patrol-revert": "Адмяніць",
+	"patrol-revert-reason": "Прычына:",
+	"patrol-skip": "Прапусьціць",
+	"patrol-reverting": "Адкат: $1",
+	"patrol-nonefound": "Немагчыма знайсьці адпаведныя рэдагаваньні для патруляваньня.",
+	"patrol-endorsed-ok": "Рэдагаваньне было пазначанае як патруляванае.",
+	"patrol-endorsed-failed": "Рэдагаваньне ня можа быць пазначанае як патруляванае.",
+	"patrol-reverted-ok": "Рэдагаваньне было адмененае.",
+	"patrol-reverted-failed": "Рэдагаваньне ня можа быць адмененае.",
+	"patrol-skipped-ok": "Рэдагаваньне прапушчана.",
+	"patrol-reasons": "* Просты вандалізм\n* Тэст новага ўдзельніка\n* Глядзіце старонку абмеркаваньня",
+	"patrol-another": "Паказаць іншае рэдагаваньне, калі яно існуе.",
+	"patrol-stopped": "Вы вырашылі не патруляваць іншае рэдагаваньне. $1",
+	"patrol-resume": "Націсьніце тут, каб працягваць.",
+	"group-patroller": "Патруліруючыя",
+	"group-patroller-member": "{{GENDER:$1|патрулюючы|патрулюючая}}",
+	"grouppage-patroller": "{{ns:project}}:Патруліруючыя",
+	"right-patroller": "патруляваньне старонак"
+}

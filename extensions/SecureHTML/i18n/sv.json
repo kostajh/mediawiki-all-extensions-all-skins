@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil",
+			"WikiPhoenix"
+		]
+	},
+	"securehtml": "Säker HTML",
+	"securehtml-desc": "Låter dig inkludera godtycklig HTML på ett auktoriserat och säkert sätt",
+	"securehtml-nokeys": "Fel: <code>$wgSecureHTMLSecrets</code> är inte ifyllt.",
+	"securehtml-invalidhash": "Fel: Ogiltig hash.",
+	"securehtml-input-title": "HTML-indata",
+	"securehtml-generatedoutput-title": "Genererad utdata",
+	"securehtml-renderedhhtml-title": "Renderad HTML",
+	"securehtml-form-keyname": "Nyckelnamn (valfritt)",
+	"securehtml-form-keysecret": "Nyckelhemlighet",
+	"securehtml-form-html": "Rå HTML",
+	"securehtml-form-submit": "Skicka",
+	"securehtml-inputinstructions": "Ange ett nyckelnamn (valfritt), nyckel-hemlighet, och önskad rå HTML.\nOm inget nyckelnamn anges, kommer den första nyckeln i <code>$wgSecureHTMLSecrets</code> att antas.",
+	"securehtml-outputinstructions": "Kopiera koden ovan EXAKT och klistra in i wiki-redigeraren.\nOm den genererade koden inte fungerar, prova att ta bort alla radbrytningar från HTML-indatat och generera igen."
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"bs-socialarticleactions-desc": "Adde entratas basic de action de articulos a BlueSpiceSocial",
+	"bs-socialarticleactions-type-articlesave": "Modification de articulos",
+	"bs-socialarticleactions-type-articlecreate": "Creation de articulos",
+	"bs-socialarticleactions-type-articledelete": "Deletion de articulos",
+	"bs-socialarticleactions-type-filesave": "Modification de files",
+	"bs-socialarticleactions-type-filecreate": "Creation de files",
+	"bs-socialarticleactions-type-filedelete": "Deletion de files",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] ha modificate le articulo [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] ha create le articulo [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] ha delite le articulo [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] ha addite un nove version del file [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] ha incargate le file [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] ha delite le file [[:$6|$6]]"
+}

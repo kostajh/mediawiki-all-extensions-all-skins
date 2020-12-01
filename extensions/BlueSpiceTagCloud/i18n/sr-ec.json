@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog"
+		]
+	},
+	"bs-tagcloud-desc": "Приказује разне облаке са ознакама",
+	"bs-tagcloud-error-tagtype": "Задата вредност „$1” није важеће складиште.",
+	"bs-tagcloud-error-tagrenderer": "Задата вредност „$1” није важећи рендерер.",
+	"bs-tagcloud-tag-tagcloud-name": "Облак са ознакама",
+	"bs-tagcloud-tag-tagcloud-title": "Облак са ознакама",
+	"bs-tagcloud-tag-tagcloud-desc": "Рендерује облак са ознакама заснован на категоријама или терминима за претрагу.",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Тип",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "Изаберите како се треба рендеровати облак са ознакама",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Текст",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "Списак",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "Ускладишти",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "Изаберите податке за коришћење",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Категорије",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Термини за претрагу",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Ширина",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "Ширина облака са ознакама у процентима",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "Прикажи бројање",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "Прикажите број ставки у заградама",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Најмања величина фонта",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "Величина фонта за унос са најмање ставки",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Највећа величина фонта",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "Величина фонта за унос са највише ставки",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Изузми странице",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "Не приказујте ове странице у облаку са ознакама. За више страница, користите листу раздвојену зарезима, нпр. „Главна страна”, Тест, Моја страница”"
+}

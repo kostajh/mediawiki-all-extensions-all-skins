@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bluespicecategorymanager": "분류 관리자",
+	"bluespicecategorymanager-desc": "분류 관리를 위한 시각 도구",
+	"action-categorymanager-viewspecialpage": "분류 관리자 보기",
+	"bs-categorymanager-draganddrop-text": "다시 정리하려면 끌어 놓으십시오",
+	"bs-categorymanager-label": "분류 관리자",
+	"bs-categorymanager-dlg-new-title": "분류 만들기",
+	"bs-categorymanager-dlg-new-prompt": "이름을 입력하십시오:",
+	"bs-categorymanager-removecategoryconfirm-text": "이 분류를 삭제하겠습니까?",
+	"bs-categorymanager-removecategoryconfirm-title": "분류 제거",
+	"bs-categorymanager-addcategory-dialog-error-title": "분류 만들기를 실패했습니다",
+	"bs-categorymanager-action-show-category": "분류 표시",
+	"right-categorymanager-viewspecialpage": "[[Special:BlueSpiceCategoryManager]] 특수 문서로 접근",
+	"bs-categorymanager-collection-type-categorizedpages": "분류 할당",
+	"bs-categorymanager-collection-var-namespacename": "이름공간",
+	"bs-categorymanager-collection-var-categorizedpages": "분류가 있는 문서",
+	"bs-categorymanager-collection-var-uncategorizedpages": "분류가 없는 문서"
+}

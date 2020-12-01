@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esbardu",
+			"Xuacu"
+		]
+	},
+	"forcepreview": "$1 (usa entever primero)",
+	"forcepreview-desc": "Fuercia la previsualización pa usuarios ensin privilexos",
+	"action-forcepreviewexempt": "poder guardar ensin Entever",
+	"right-forcepreviewexempt": "Poder guardar ensin amosar previsualización"
+}

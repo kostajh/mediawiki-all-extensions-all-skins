@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"countDownClock-desc": "Дадае функцыю парсэру для паказу зваротнага адліку",
+	"countDownClock-invalidtime": "Калі ласка, падайце слушны парамэтар endTime",
+	"countDownClock-days": "$1 {{PLURAL:$1|дзень|дні|дзён}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|гадзіна|гадзіны|гадзінаў}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|хвіліна|хвіліны|хвілінаў}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|сэкунда|сэкунды|сэкундаў}}",
+	"countDownClock-expired": "Скончыўся"
+}

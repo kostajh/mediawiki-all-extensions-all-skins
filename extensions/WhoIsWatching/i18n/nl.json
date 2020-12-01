@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hex",
+			"Mainframe98",
+			"PiefPafPier",
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"right-addpagetoanywatchlist": "[[Special:WhoIsWatching|Voeg pagina's toe aan volglijsten van andere gebruikers]]",
+	"action-addpagetoanywatchlist": "pagina's aan de volglijsten van andere gebruiker toe te voegen",
+	"right-removepagefromanywatchlist": "[[Special:WhoIsWatching|Pagina's verwijderen van volglijsten van andere gebruikers]]",
+	"action-removepagefromanywatchlist": "pagina's van de volglijsten van andere gebruikers te verwijderen",
+	"right-seepagewatchers": "Bekijk [[Special:WhoIsWatching|welke gebruikers een pagina volgen]]",
+	"action-seepagewatchers": "bekijk welke gebruikers een pagina volgen",
+	"echo-category-title-whoiswatching": "Wijzigingen aan mijn volglijst",
+	"echo-pref-tooltip-whoiswatching": "Meld mij wanneer iemand anders een pagina aan mijn volglijst toevoegt.",
+	"whoiswatching": "Wie volgen een pagina",
+	"whoiswatching-desc": "Levert een lijst met gebruikers die een wikipagina op hun volglijst hebben",
+	"specialwhoiswatchingpage": "Volgers op [[:$1]]",
+	"specialwhoiswatchingusage": "Deze speciale pagina kan niet op zichzelf gebruikt worden.",
+	"specialwhoiswatchingaddusers": "Deze pagina op de volglijst van gebruikers toevoegen",
+	"specialwhoiswatchingaddbtn": "Geselecteerde gebruikers toevoegen",
+	"whoiswatching_users_pageview": "[{{fullurl:Special:WhoIsWatching/$2}} $1 {{PLURAL:$1|gebruiker|gebruikers}} die de pagina {{PLURAL:$1|volgt|volgen}}]",
+	"whoiswatching-not-possible-title": "Onmogelijke pagina om te volgen",
+	"whoiswatching-not-possible": "Het is niet mogelijk om de pagina [[$1]] te volgen.",
+	"whoiswatching-usage-title": "Het gebruik van deze pagina",
+	"whoiswatching-user-editname": "Voer een gebruikersnaam in:",
+	"whoiswatching-adduser": "Gebruiker toevoegen",
+	"whoiswatching-deluser": "Gebruiker verwijderen",
+	"whoiswatching-permission-denied-title": "Toegang geweigerd",
+	"whoiswatching-permission-denied": "U kunt niets doen op deze pagina.\n\nTen minste één van de volgende machtigingen zijn nodig: $1",
+	"whoiswatching-title": "Voer een titel in",
+	"whoiswatching-select-title": "Bekijk volglijst",
+	"whoiswatching-notification-whoiswatching-remove-header": "Pagina van de volglijst verwijderd",
+	"whoiswatching-notification-whoiswatching-remove-body": "$1 heeft $4 van uw volglijst verwijderd.",
+	"whoiswatching-notification-whoiswatching-add-header": "Pagina aan de volglijst toegevoegd",
+	"whoiswatching-notification-whoiswatching-add-body": "$1 heeft $4 aan uw volglijst toegevoegd.",
+	"whoiswatching-notification-bundle": "$1 volglijstwijzigingen"
+}

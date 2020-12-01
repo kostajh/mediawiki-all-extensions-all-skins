@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav"
+		]
+	},
+	"useroptionstats": "Statistika odabira suradničkih opcija",
+	"uos-warn": "PHPlot nije instaliran!",
+	"uos-choose": "Izaberite jednu od sljedećih suradničkih opcija: $1",
+	"uos-choose-hidden": "Izaberite jednu od sljedećih skrivenih suradničkih opcija: $1",
+	"uos-unknown": "*Predodređeno",
+	"uos-other": "*Drugo",
+	"uos-title": "Razdioba vrijednosti parametara suradničke opcije $1"
+}

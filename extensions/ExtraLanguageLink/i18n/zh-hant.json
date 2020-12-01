@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"extralanguagelink-desc": "添加額外語言連結在「其它語言」側邊區塊",
+	"extralanguagelink-param-class": "類",
+	"extralanguagelink-param-hreflang": "基礎語言",
+	"extralanguagelink-param-lang": "語言",
+	"extralanguagelink-param-style": "樣式",
+	"extralanguagelink-param-title": "標題",
+	"extralanguagelink-badinterwiki": "跨 wiki 字首「$1:」未出現在被允許的跨 wiki 字首清單裡。",
+	"extralanguagelink-badtitle": "頁面標題「$1」無法解析。"
+}

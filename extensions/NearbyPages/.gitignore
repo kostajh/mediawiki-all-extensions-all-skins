@@ -1,0 +1,10 @@
+/.cache
+/composer.lock
+/coverage/
+/dev/index.html
+/dist/
+/docs/*
+/.DS_Store
+/.eslintcache
+/node_modules/
+/vendor/

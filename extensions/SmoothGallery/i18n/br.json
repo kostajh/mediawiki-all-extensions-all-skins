@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Y-M D"
+		]
+	},
+	"smoothgallery": "SmoothGallery",
+	"smoothgallery-desc": "Aotren an implijerien da grouiñ palieroù gant skeudennoù karget.\nAotren an darn vrasañ eus dibarzhioù SmoothGallery",
+	"smoothgallery-title": "SmoothGallery",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery: $1",
+	"smoothgallery-error": "<b>Fazi gant ar SmoothGallery :</b>",
+	"smoothgallery-gallery-not-found": "N'eus ket eus ar palier goulennet.",
+	"smoothgallery-not-found": "N'eus bet ouzhpennet skeudenn ebet d'ar palier.\nOuzhpennit ur skeudenn da nebeutañ, mar plij.",
+	"smoothgallery-no-images": "N'eus bet kavet skeudenn ebet er skeudennaoueg-mañ.\nGwiriit mat ez eus eus {{PLURAL:$3|ar skeudenn|an holl skeudennoù}}-se.\nN'eo ket bet kavet ar {{PLURAL:$2|skeudenn|skeudennoù}} da-heul : $1",
+	"smoothgallery-invalid-images": "Ur furmad direizh a oa gant {{PLURAL:$2|ar skeudenn|ar skeudennoù}} da-heul : $1",
+	"smoothgallery-unexpected-error": "Ur fazi dic'hortoz zo bet.\nLeugnit un danevell draen, mar plij.",
+	"smoothgallery-javascript-disabled": "Rekis eo JavaScript evit gwelet ervat ar skeudennaoueg."
+}

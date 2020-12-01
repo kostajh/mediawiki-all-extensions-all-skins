@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-tagcloud-desc": "Displays various tag clouds",
+	"bs-tagcloud-error-tagtype": "Given value \"$1\" is not a valid store.",
+	"bs-tagcloud-error-tagrenderer": "Given value \"$1\" is not a valid renderer.",
+	"bs-tagcloud-tag-tagcloud-name": "Tag cloud",
+	"bs-tagcloud-tag-tagcloud-title": "Tag cloud",
+	"bs-tagcloud-tag-tagcloud-desc": "Renders a tag cloud based on categories or search terms",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Type",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "Select how the tag cloud should be rendered",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Text",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "List",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "Store",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "Select which data to use",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Categories",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Search terms",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Width",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "Width of the tag cloud in percent",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "Show count",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "Display the number of items in parentheses",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Min font size",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "Font size for the entry with the fewest items",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Max font size",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "Font size for the entry with the most items",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Exclude pages",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "Do not show these pages in the tag cloud. For more pages, use a comma separated list, e.g. \"Main Page, Test, MyPage\""
+}

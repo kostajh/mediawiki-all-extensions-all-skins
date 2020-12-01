@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"accountinfo": "Benotzerkontinformatioun",
+	"accountinfo-desc": "Erlaabt et engem Benotzer fir seng gespäichert privat Informatioune  ze gesinn",
+	"accountinfo-ts": "Zäitstempel",
+	"accountinfo-ip": "IP-Adress",
+	"accountinfo-ua": "Browser",
+	"accountinfo-xff": "XFF-Header",
+	"accountinfo-length": "D'Informatioune gi während $1 versuergt.",
+	"accountinfo-now": "Elo"
+}

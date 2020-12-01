@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-countthings-desc": "Dèje condenute in base a statisteche",
+	"bs-countthings-chars-label": "Carattere",
+	"bs-countthings-words-label": "Parole",
+	"bs-countthings-files-label": "File",
+	"bs-countthings-pages-label": "Pàggene",
+	"bs-countthings-ve-countcharacters-title": "Conde le carattere",
+	"bs-countthings-ve-countarticles-title": "Conde le vôsce",
+	"bs-countthings-ve-countfiles-title": "Conde le file",
+	"bs-countthings-ve-countusers-title": "Conde le utinde",
+	"bs-countthings-ve-countthingsinspector-mode": "Mode",
+	"bs-countthings-ve-countcharacters-mode-all": "tutte",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "carattere",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "parole",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "carattere e parole",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "pàggene",
+	"bs-countthings-ve-countcharacters-input-label": "Pàggene",
+	"bs-countthings-error-no-input": "Nisicuna pàgene date.",
+	"bs-countthings-error-invalid-mode": "'A modalità \"$1\" non g'è valide. Ausà \"chars\", \"words\", o \"pages\".",
+	"bs-countthings-error-not-exist": "'A pàgene \"$1\" non g'esiste.",
+	"bs-countthings-tag-countarticles-desc": "Face 'ndrucà 'u numere de vôsce jndr'à uicchi.",
+	"bs-countthings-tag-countusers-desc": "Face 'ndrucà 'u numere de le utinde reggistrate.",
+	"bs-countthings-tag-countfiles-desc": "Face 'ndrucà 'u numere de le file jndr'à uicchi.",
+	"bs-countthings-tag-countcharacters-desc": "Genere le metadate sus a 'u condenute d'a vôsce specificate. 'U resultate jè 'na sckatole de 'mbormaziune ca pò essere indegrate jndr'à vôsce. Cu 'u parametre \"mode\" diverse tipe de 'mbormaziune ponne essere fatte 'ndrucà.",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Ce adda essere cundate <code>chars</code> (carattere), <code>words</code> (parole) o <code>pages</code> (pàggene).",
+	"bs-countthings-tag-countcharacters-example-1": "Numere de parole",
+	"bs-countthings-tag-countcharacters-example-2": "Numere de carattere"
+}

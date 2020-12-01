@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Acamicamacaraca",
+			"BadDog",
+			"Kizule",
+			"Milicevic01",
+			"Rancher",
+			"Zoranzoki21",
+			"Михајло Анђелковић",
+			"Сербијана"
+		]
+	},
+	"duplicator": "Дуплира чланак",
+	"duplicator-desc": "Прави независне [[Special:Duplicate|копије чланака]] са потпуним историјама измена",
+	"duplicator-toolbox": "Дуплирај овај чланак",
+	"duplicator-header": "Ова страна омогућава потпуно дуплирање странице, прављењем независних копија свих историја.\nОво је корисно за дељење странице на два дела и сл.",
+	"duplicator-options": "Опције",
+	"duplicator-source": "Извор:",
+	"duplicator-dest": "Циљ:",
+	"duplicator-dotalk": "Дуплирај страну за разговор (ако је могуће)",
+	"duplicator-dosubpages": "Дуплирај подстранице (ако је могуће)",
+	"duplicator-dohistory": "Дуплирај целу историју странице",
+	"duplicator-submit": "Дуплирај",
+	"duplicator-summary": "Копирано са [[$1]], измена [[$2]]",
+	"duplicator-success": "[[$1]] је ископиран у [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|измена је ископирана|измена је ископирано}}.",
+	"duplicator-success-talknotcopied": "Страна за разговор није могла бити ископирана.",
+	"duplicator-failed": "Чланак није могао бити дуплиран.\nДошло је до непозанте грешке.",
+	"duplicator-source-invalid": "Наведете важећи изворни наслов.",
+	"duplicator-source-notexist": "[[$1]] не постоји. Молимо Вас да наведете наслов постојећег чланка.",
+	"duplicator-dest-invalid": "Наведете валидан наслов одредишта.",
+	"duplicator-dest-exists": "[[$1]] већ постоји. Молимо Вас да наведете незаузет циљани наслов.",
+	"right-duplicate": "Дуплиране стране"
+}

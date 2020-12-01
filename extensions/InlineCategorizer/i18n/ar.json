@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexknight12",
+			"Houcinee1",
+			"Meno25",
+			"OsamaK",
+			"ديفيد"
+		]
+	},
+	"inlinecategorizer-desc": "وحدة جافا سكريبت التي تمكن من تغيير وإضافة وإزالة وصلات التصنيفات مباشرة من الصفحة",
+	"inlinecategorizer-add-category": "أضف تصنيفا",
+	"inlinecategorizer-add-category-submit": "أضف",
+	"inlinecategorizer-add-category-summary": "إضافة التصنيف \"$1\"",
+	"inlinecategorizer-api-error": "API أرجعت خطأ: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "API أرجعت خطأ غير معروف.",
+	"inlinecategorizer-cancel": "إلغاء عمليات التحرير",
+	"inlinecategorizer-cancel-all": "إلغاء جميع التغييرات",
+	"inlinecategorizer-category-already-present": "هذه الصفحة بالفعل تنتمي إلى تصنيف \"$1\"",
+	"inlinecategorizer-category-hook-error": "دالة محلية منعت التغييرات من أن يتم حفظها.",
+	"inlinecategorizer-category-question": "لماذا تريد القيام بالتغييرات التالية:",
+	"inlinecategorizer-confirm-ok": "موافق",
+	"inlinecategorizer-confirm-save": "حفظ",
+	"inlinecategorizer-confirm-save-all": "حفظ كافة التغييرات",
+	"inlinecategorizer-confirm-title": "أكد الإجراء",
+	"inlinecategorizer-edit-category": "عدل التصنيف",
+	"inlinecategorizer-edit-category-error": "تعذر تعديل تصنيف \"$1\".\nيحدث هذا عادة عندما يضاف التصنيف إلى الصفحة عبر قالب.",
+	"inlinecategorizer-edit-category-summary": "تغيير التصنيف \"$1\" إلى \"$2\"",
+	"inlinecategorizer-error-title": "خطأ",
+	"inlinecategorizer-remove-category": "أزل التصنيف",
+	"inlinecategorizer-remove-category-error": "تعذرت إزالة تصنيف \"$1\".\nيحدث هذا عادة عندما يضاف التصنيف إلى الصفحة عبر قالب.",
+	"inlinecategorizer-remove-category-summary": "إزالة التصنيف \"$1\""
+}

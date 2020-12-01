@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin"
+		]
+	},
+	"smoothgallery": "SmoothGallery",
+	"smoothgallery-desc": "Mengizinkan pengguna membuat galeri dengan berkas yang telah dimuat.",
+	"smoothgallery-title": "SmoothGallery",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery: $1",
+	"smoothgallery-error": "<b>Galat pada SmoothGallery:</b>",
+	"smoothgallery-gallery-not-found": "Galeri yang Anda cari tidak ditemukan.",
+	"smoothgallery-not-found": "Tidak ada gambar yang ditambahkan ke galeri.\nTambahkan paling tidak sebuah gambar.",
+	"smoothgallery-no-images": "Tidak ada gambar yang ditemukan di galeri ini.\nPastikan {{PLURAL:$3|gambar|gambar}} yang Anda cari ada.\n{{PLURAL:$2|Gambar|Gambar}} berikut tidak ditemukan: $1",
+	"smoothgallery-invalid-images": "Tipe {{PLURAL:$2|gambar|gambar}} yang diminta tidak sah: $1",
+	"smoothgallery-unexpected-error": "Terdapat kesalahan yang tidak terduga.\nMohon kirimkan sebuah laporan bug.",
+	"smoothgallery-javascript-disabled": "Penjelajah Anda membutuhkan JavaScript untuk menampilkan galeri ini dengan benar."
+}

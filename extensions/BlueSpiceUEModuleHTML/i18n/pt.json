@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "Permite a exportação para HTML",
+	"bs-uemodulehtml-pref-DefaultTemplate": "Modelo padrão",
+	"bs-uemodulehtml-pref-SuppressNS": "Esconder o prefixo do espaço nominal no HTML",
+	"bs-uemodulehtml-pref-Backend": "Servidor",
+	"bs-uemodulehtml-widgetlink-single-text": "Página única em HTML (arquivada)",
+	"bs-uemodulehtml-widgetlink-single-title": "Exportar esta página como HTML, em conjunto com os correspondentes recursos, como um arquivo",
+	"bs-uemodulehtml-overview-title": "Documento HTML (arquivado)",
+	"bs-uemodulehtml-overview-description": "Exporta páginas (páginas especiais e de conteúdo) para HTML."
+}

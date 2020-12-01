@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <filter id="filter1015" x="-.070312" y="-.080357" width="1.1406" height="1.1607" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.46875"/>
+  </filter>
+ </defs>
+ <g transform="translate(0,1)" filter="url(#filter1015)" opacity=".5" stroke-linecap="round" stroke-width="3">
+  <rect x="2" y="3" width="16" height="2" ry="1"/>
+  <rect x="2" y="15" width="16" height="2" ry="1"/>
+  <rect x="2" y="9" width="16" height="2" ry="1"/>
+ </g>
+ <g transform="translate(0,-1)" fill="#fff" stroke-linecap="round" stroke-width="3">
+  <rect x="2" y="3" width="16" height="2" ry="1"/>
+  <rect x="2" y="15" width="16" height="2" ry="1"/>
+  <rect x="2" y="9" width="16" height="2" ry="1"/>
+ </g>
+ <g fill="#722" stroke-linecap="round" stroke-width="3">
+  <rect x="2" y="3" width="16" height="2" ry="1"/>
+  <rect x="2" y="15" width="16" height="2" ry="1"/>
+  <rect x="2" y="9" width="16" height="2" ry="1"/>
+ </g>
+</svg>

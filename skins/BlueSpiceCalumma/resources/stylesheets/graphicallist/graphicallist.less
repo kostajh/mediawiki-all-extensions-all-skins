@@ -1,0 +1,106 @@
+@import "../dimensions.less";
+@import "../fonts.less";
+@import "graphicallist.extjs.less";
+@import "graphicallist.preview.less";
+@import "graphicallist.list.less";
+@import "graphicallist.twocolumns.less";
+@import "graphicallist.component.less";
+
+.dynamic-graphical-list-outer {
+	z-index: 19;
+	box-sizing: border-box;
+	position: fixed;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	overflow: hidden;
+}
+
+.dynamic-graphical-list-body.loading {
+	background-image: linear-gradient(
+		to right,
+		rgba( 255,255,255,0.0 ) 10%,
+		rgba( 255,255,255,0.1 ) 55%,
+		rgba( 255,255,255,0.2 ) 90%,
+		rgba( 255,255,255,0.0 ) 92%
+	);
+	min-height: 100%;
+	background-size: 50%;
+	background-position: 100%;
+
+	-webkit-animation: bs-loader 3s infinite linear;
+	-moz-animation:    bs-loader 3s infinite linear;
+	-o-animation:      bs-loader 3s infinite linear;
+	animation:         bs-loader 3s infinite linear;
+}
+
+.dynamic-graphical-list-hidden {
+	display: none;
+}
+
+.dynamic-graphical-list-outer-west {
+	margin-right: -2px;
+}
+
+.dynamic-graphical-list-outer .dynamic-graphical-list-inner .dynamic-graphical-list-header{
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	.dynamic-graphical-list-title{
+		font-size: 1.25rem;
+		font-weight: @font-weight-regular;
+		padding-top: 0.9375rem;
+		padding-left: 1.25rem;
+	}
+	.dynamic-graphical-list-intro{
+		font-size: 1em;
+		padding-left: 1.25rem;
+		a{
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+	.dynamic-graphical-list-actions{
+		a{
+			line-height: @theme-header-mobile-height;
+			font-size: 150%;
+			padding-left: 0.3125rem;
+			padding-right: 0.3125rem;
+		}
+		a::before {
+			cursor: pointer;
+		}
+		a:hover{
+			text-decoration: none;
+		}
+		a[data-target~="graphical-list-action-close"]::before{
+			font-family: fontawesome;
+			content: '\f00d';
+		}
+		a[data-target~="graphical-list-action-preview"]::before{
+			font-family: fontawesome;
+			content: '\f009';
+		}
+		a[data-target~="graphical-list-action-list"]::before{
+			font-family: fontawesome;
+			content: '\f03a';
+		}
+	}
+}
+
+.dynamic-graphical-list-body {
+	overflow: auto;
+	height: calc(~"100vh - 12.5rem");
+	.intro {
+		margin-bottom: 1.25rem;
+		.title {
+			display: block;
+			font-size: 1rem;
+			font-weight: bold;
+			margin-bottom: 0.3125rem;
+		}
+		.body{
+			display: block;
+			font-size: 0.875rem;
+		}
+	}
+}

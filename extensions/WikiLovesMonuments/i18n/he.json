@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"ערן"
+		]
+	},
+	"wlm-extension-desc": "הוספת מידע והודעות בנושא תחרות ויקי אוהבת אתרי מורשת",
+	"wlm-no-contest-year": "אין תחרות ויקי אוהבת אתרי מורשת ב־$1",
+	"wlm-no-url-bad-country": "לא הצלחנו להשיג את האתר של התחרות המקומית. $1 הוא לא קוד מדינה תקין.",
+	"wlm-country-not-given": "יש לציין קוד מדינה.",
+	"wlm-country-not-participating-year": "$1 אינה משתתפת בתחרות ויקי אוהבת אתרי מורשת $2",
+	"wlm-sidebar-portlet": "מדינות אחרות",
+	"wlm-international-contest": "בין־לאומית",
+	"wlm-text-contact": "יצירת קשר",
+	"wlm-text-contest": "תחרות",
+	"wlm-text-donate": "תרומה",
+	"wlm-text-faq": "שאלות נפוצות",
+	"wlm-text-jury": "חבר השופטים",
+	"wlm-text-monuments": "אתרי מורשת",
+	"wlm-text-news": "חדשות",
+	"wlm-text-participate": "להשתתף!",
+	"wlm-text-prizes": "פרסים",
+	"wlm-text-rules": "חוקים",
+	"wlm-text-sponsors": "נותני חסות",
+	"wlm-text-uploading": "העלאה"
+}

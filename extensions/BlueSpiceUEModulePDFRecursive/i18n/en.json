@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.biz>"
+		]
+	},
+	"bs-uemodulepdfrecursive-extension-description": "Enables recursive export of pages into PDF format.",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-text": "PDF page with linked pages",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-title": "Export this page and all linked pages as PDF.",
+	"right-uemodulepdfrecursive-export": "Export a page, including all linked pages, to PDF",
+	"action-uemodulepdfrecursive-export": "export a page, including all linked pages, to PDF"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"odbcdatabase": "OdbcDatabase",
+	"odbcdatabase-desc": "Driver ca ause 'a libbrerie PHP de commande <code>odbc_*</code> pe supportà le estenziune de le date de fore",
+	"odbcdatabase-odbc-missing": "Funziune ODBC ca mangane. Condrolle ca <code>PHP:ODBC</code> ha state installate.",
+	"odbcdatabase-connection-error": "Errore duranne 'a connessione a 'u server [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "'Mbossibbele libberà 'u resultate ODBC",
+	"odbcdatabase-fetch-object-error": "Errore duranne 'u recupere de 'n'oggette: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Errore duranne 'u recupere de 'na righe: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "'A funzione insertId() non g'è supportate.",
+	"odbcdatabase-unknown-server-version": "Versione server ODBC scanusciute."
+}

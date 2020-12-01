@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Luky001",
+			"Patriccck"
+		]
+	},
+	"wminc-desc": "Testovací wiki systém pre Inkubátor Wikimedia",
+	"wminc-testwiki": "Testovacia wiki:",
+	"wminc-testwiki-none": "Žiadna/všetky",
+	"wminc-prefinfo-language": "Jazyk vášho rozhrania - nezávisle od vašej testovacej wiki",
+	"wminc-prefinfo-code": "ISO 639 kód jazyka, na ktorom tu pracujete",
+	"wminc-prefinfo-project": "Vybrať wikimedický projekt, na ktorom tu pracujete",
+	"wminc-prefinfo-error": "Vybrali ste projekt, ktorý potrebuje kód jazyka.",
+	"randombytest": "Náhodná stránka z testovacej wiki",
+	"randombytest-nopages": "Vo vašej testovacej wiki neexistujú stránky v mennom priestore $1.",
+	"wminc-viewuserlang": "Vyhľadať jazyk používateľa a testovaciu wiki",
+	"wminc-viewuserlang-user": "Používateľské meno:",
+	"wminc-viewuserlang-go": "Vykonať",
+	"right-viewuserlang": "Zobraziť jazyk používateľa a testovaciu wiki",
+	"wminc-searchwiki-selectproject": "Hľadať:",
+	"wminc-searchwiki-inputlanguage": "V jazyku:",
+	"wminc-searchwiki-multiplematches": "Vášmu hľadaniu zodpovedajú nasledujúce jazyky:",
+	"wminc-searchwiki-match-langcode": "„$1“ je kód pre jazyk $2 podľa ISO 639.",
+	"wminc-searchwiki-match-userlangname": "$1 je názov jazyka.",
+	"wminc-searchwiki-match-englishname": "„$1“ je anglický názov pre jazyk $2.",
+	"wminc-searchwiki-match-nativename": "„$1“ je názov pre jazyk $2 v tomto jazyku.",
+	"wminc-infopage-title-p": "Wikipédia $1"
+}

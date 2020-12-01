@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"bs-watchlist-desc": "Adiciona um <i>widget</i> e um elemento (<i>tag</i>) para as páginas vigiadas",
+	"bs-watchlist-title-sidebar": "Páginas vigiadas",
+	"bs-watchlist-pref-sort-time": "Hora",
+	"bs-watchlist-pref-sort-title": "Título",
+	"bs-watchlist-tag-watchlist-desc": "Mostra os artigos que têm as alterações mais recentes e estão na sua lista de páginas vigiadas.",
+	"bs-watchlist-window-watchlist-title": "Páginas vigiadas",
+	"bs-watchlist-window-watchlist-intro": "Este é um resumo de todas as páginas que estão na sua lista de páginas vigiadas. Também pode mudar para a [[Special:Watchlist|página clássica]].",
+	"bs-watchlist-grid-watchlist-column-link-header": "Página",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Mudanças ainda não vistas",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Inspecionar as mudanças",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Página de discussão",
+	"bs-watchlist-grid-watchlist-label-filter": "Filtrar"
+}

@@ -1,0 +1,27 @@
+{
+	"name": "RandomArea",
+	"version": "2.0.0",
+	"author": [
+		"Thomas Stock",
+		"Zoranzoki21"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:RandomArea",
+	"descriptionmsg": "randomarea-desc",
+	"license-name": "CC-BY-NC-SA-2.5",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"RandomArea": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"RandomAreaHooks": "RandomAreaHooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "RandomAreaHooks::init"
+	},
+	"manifest_version": 2
+}

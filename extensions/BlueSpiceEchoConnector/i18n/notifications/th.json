@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"bs-notifications-addaccount": "สร้างผู้ใช้ \"$1\" แล้ว",
+	"bs-notifications-registeruser": "ผู้ใช้ \"$1\" ได้สร้างบัญชี",
+	"bs-notifications-edit": "หน้า \"$1\" ได้ถูกเปลี่ยนแปลงแล้ว",
+	"bs-notifications-edit-bundle": "หน้า \"$2\" ได้ถูกเปลี่ยนแปลงแล้ว {{PLURAL:$1|$1 ครั้ง}}",
+	"bs-notifications-create": "สร้างหน้า \"$1\" แล้ว",
+	"bs-notifications-delete": "หน้า \"$1\" ได้ถูกลบแล้ว",
+	"bs-notifications-move": "หน้า \"$1\" ได้ถูกย้ายแล้ว"
+}

@@ -1,0 +1,26 @@
+{
+	"name": "YotpoReviews",
+	"namemsg": "yotporeviews-extensionname",
+	"version": "0.4",
+	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Felipe Schenone]",
+	"url": "https://www.mediawiki.org/wiki/Extension:YotpoReviews",
+	"descriptionmsg": "yotporeviews-desc",
+	"license-name": "GPL-3.0-only",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"YotpoReviews": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"YotpoReviews": "YotpoReviews.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "YotpoReviews::onParserFirstCallInit",
+		"SkinAfterContent": "YotpoReviews::onSkinAfterContent"
+	},
+	"config": {
+		"YotpoAppKey": "your-yotpo-app-key"
+	},
+	"manifest_version": 1
+}

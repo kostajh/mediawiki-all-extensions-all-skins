@@ -1,0 +1,10 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/selenium"
+	],
+	"rules": {
+		"max-len": "off",
+		"node/no-missing-require": "warn"
+	}
+}

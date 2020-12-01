@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"spage"
+		]
+	},
+	"gettingstarted": "Getting started",
+	"gettingstarted-desc": "Helps new users become editors",
+	"gettingstarted-task-toolbar-editing-help-text": "Show me how",
+	"gettingstarted-task-toolbar-editing-help-title": "Show a guide on how to edit",
+	"gettingstarted-task-toolbar-try-another-text": "Try another page ►",
+	"gettingstarted-task-toolbar-close-title": "Close this toolbar",
+	"gettingstarted-task-toolbar-no-suggested-page": "Sorry. We couldn't find more pages to be improved at the moment. Try again in a moment or search for your own topics of interest.",
+	"gettingstarted-task-copyedit-toolbar-description": "This page may have spelling or grammar errors you can fix.",
+	"gettingstarted-task-copyedit-toolbar-try-another-title": "Go to a random page you can improve by copyediting",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-title": "Let's get started",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-description": "This page is identified by other {{SITENAME}} users as needing improvement. You don't have to be an expert in the subject to help.",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-title": "Ideas on what to do",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-description": "These banners identify problems with this page. You don't need to fix them all, just stick with what you're comfortable doing.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-title": "Edit the whole page…",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-description": "Click \"$1\" to change content anywhere in the page.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-title": "Or edit a section",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-description": "If you want to edit a specific section, you can click on the \"{{int:editsection}}\" link near each section's title.",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-title": "Make your changes and save",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-description": "You can now edit the page contents. When you are done, click \"{{int:publishchanges}}\" to review and save your changes.",
+	"guidedtour-tour-gettingstarted-click-preview-title": "Preview (optional)",
+	"guidedtour-tour-gettingstarted-click-preview-description": "Clicking \"{{int:showpreview}}\" allows you to see what the page will look like with your changes. Just don't forget to save.",
+	"guidedtour-tour-gettingstarted-click-save-title": "You're almost finished!",
+	"guidedtour-tour-gettingstarted-click-save-description": "Click \"{{int:publishchanges}}\" and your changes will be visible.",
+	"gettingstarted-cta-close": "Close",
+	"gettingstarted-cta-heading": "Help improve {{SITENAME}}",
+	"gettingstarted-cta-text": "You can contribute to {{SITENAME}} in different ways",
+	"gettingstarted-cta-edit-page": "Edit this page",
+	"gettingstarted-cta-edit-page-sub": "We'll show you how",
+	"gettingstarted-cta-fix-pages": "Edit a suggested page",
+	"gettingstarted-cta-fix-pages-sub": "We'll pick something easy",
+	"gettingstarted-cta-leave": "No thanks, maybe later"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexander Yukal",
+			"Piramidion",
+			"Vlad5250"
+		]
+	},
+	"bs-ooui-field-tagmultiselect-input-placeholder": "Додати новий...",
+	"bs-ooui-key-value-input-widget-key-label": "Ключ",
+	"bs-ooui-key-value-input-widget-value-label": "Значення",
+	"bs-ooui-key-value-input-widget-add-button-label": "Додати",
+	"bs-ooui-key-value-input-widget-add-form-label": "Додати новий запис",
+	"bs-ooui-key-value-input-widget-error-message": "Усі обов'язкові поля слід заповнити!",
+	"bs-ooui-key-value-input-widget-no-values-label": "Не задано значень!",
+	"bs-ooui-btn-dismiss-alert-title": "Відхилити"
+}

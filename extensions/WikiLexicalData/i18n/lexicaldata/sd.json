@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aursani",
+			"Mehtab ahmed",
+			"Tweety"
+		]
+	},
+	"ow_save": "سانڍيو",
+	"ow_transaction_previous_version": "پويون ورزن",
+	"ow_TextAttributeValues": "سادا اکر",
+	"ow_TranslatedText": "ترجمايل متن",
+	"ow_removed": "ھٽايو",
+	"ow_class_attr_type_plain": "سادا اکر",
+	"ow_suggest_previous": "پويون",
+	"ow_suggest_next": "اڳيون",
+	"ow-special-stat-languages-avail": "موجود {{PLURAL:$1|ٻولي|ٻوليون}}",
+	"ow-special-stat-languages-used": "{{PLURAL:$1|ٻولي|ٻوليون}} اظهارن سان",
+	"ow-stat-header": "لغوي اعداد جا انگ انکر",
+	"ow-stat-overview-link": "سرسري نظر",
+	"ow-stat-expressions-link": "اظهار",
+	"ow-stat-expressions": "{{PLURAL:$1|اظهار}}",
+	"ow-stat-meanings-link": "معنائون",
+	"ow-stat-meanings": "{{PLURAL:$1|معنيٰ|معنائون}}",
+	"ow-stat-languages": "{{PLURAL:$1|ٻولي|ٻوليون}}",
+	"ow-stat-all-is": "سڀ = $1"
+}

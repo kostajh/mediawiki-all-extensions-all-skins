@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Siebrand"
+		]
+	},
+	"petition-form-name": "Naam",
+	"petition-form-email": "E-mailadres",
+	"petition-form-country": "Land",
+	"petition-form-message": "Persoonlijk bericht (optioneel)",
+	"petition-num-signatures": "Er is al $1 keer {{PLURAL:$1|getekend}}",
+	"petition-form-required": "Dit is een verplicht veld",
+	"petition-data-download": "Downloaden als CSV",
+	"log-name-petition": "Logboek petitiehandtekeningen"
+}

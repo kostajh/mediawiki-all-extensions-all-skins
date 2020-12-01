@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Maoue",
+			"Ykhwong"
+		]
+	},
+	"deleteuserpages-desc": "사용자가 자신의 사용자 문서를 삭제할 수 있게 합니다",
+	"action-delete-rootuserpages": "자신의 사용자 및 사용자 토론 문서를 삭제합니다",
+	"right-delete-rootuserpages": "자신의 사용자 및 사용자 토론 문서를 삭제합니다",
+	"action-delete-usersubpages": "자신의 사용자 문서의 하위 문서를 지웁니다",
+	"right-delete-usersubpages": "자신의 사용자 문서의 하위 문서를 지웁니다"
+}

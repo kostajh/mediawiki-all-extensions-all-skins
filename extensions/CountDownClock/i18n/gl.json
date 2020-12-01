@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo"
+		]
+	},
+	"countDownClock-desc": "Engade unha función analítica para amosar unha conta atrás",
+	"countDownClock-invalidtime": "Por favor, indique un valor válido para o parámetro endTime",
+	"countDownClock-days": "$1 {{PLURAL:$1|Día|Días}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|Hora|Horas}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|Minuto|Minutos}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|Segundo|Segundos}}",
+	"countDownClock-expired": "Expirado"
+}

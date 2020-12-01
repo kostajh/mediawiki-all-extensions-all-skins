@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"smoothgallery": "<i lang=\"en\">SmoothGallery</i>",
+	"smoothgallery-desc": "Määd et möjjelesch, Jallerieje met huhjelade Bellder opzebouwe, met de miehßte Enschtällonge fun <i lang=\"en\">SmoothGallery</i>.",
+	"smoothgallery-title": "<i lang=\"en\">SmoothGallery</i>",
+	"smoothgallery-smoothgallerytitle": "<i lang=\"en\">SmoothGallery</i>: $1",
+	"smoothgallery-error": "<b><i lang=\"en\">SmoothGallery</i> hät ene Fähler jefonge:</b>",
+	"smoothgallery-gallery-not-found": "Di Jallerih jidd et nit.",
+	"smoothgallery-not-found": "En dä Jalleri sen kein Bellder dren.\nBes esu joot, un donn winnichstens ein dobei!",
+	"smoothgallery-no-images": "En dä Jalleri sen kein Belder dren.\nBes de secher, dat et {{PLURAL:$3|dat Beld|di Belder|—}} övverhoup jitt?\nHeh {{PLURAL:$2|dat Beld wohr|di Belder wohre|—}} nit ze fenge: $1",
+	"smoothgallery-invalid-images": "{{PLURAL:$2|Heh dat Beld es en|Heh di Belder hatte de|Keij Belld hät en}} verkeehte Zoot Datteij: $1",
+	"smoothgallery-unexpected-error": "Ene Fähler es opjetrodde, wo mer nit automattesch met önjonn künne.\nBes esu joot, un donn dä Fähler melde.",
+	"smoothgallery-javascript-disabled": "Do moß JavaSkrep aanjeschalldt han, öm di Jalleri öhndlesch ze sinn ze krijje."
+}

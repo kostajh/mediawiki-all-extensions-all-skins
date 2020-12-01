@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"dynamicpagelistengine-desc": "Pruža dinamičke spiskove stranica s podesivim i proširivim značajkama u [https://www.mediawiki.org/wiki/Extension:Scribunto modulima] i drugim dodacima",
+	"dple-tracking-category": "Stranice koje koriste Pogon za dinamičke spiskove stranica",
+	"dple-error-invalid-ns-index": "Greška u Pogonu za dinamičke spiskove stranica: Nema imenskog prostora s indeksom $1.",
+	"dple-error-no-criteria": "Greška u Pogonu za dinamičke spiskove stranica: Nema ukazanih kriterija za izbor.",
+	"dple-error-too-expensive": "Greška u Pogonu za dinamičke spiskove stranica: Pokušaj je podnijeti upit s opterećenjem u iznosu od $1 spojenih baznih tabela, ali dozvoljene su najviše $2.",
+	"dple-error-too-many-expensive-functions": "Greška u Pogonu za dinamičke spiskove stranica: Na ovoj se stranici koriste značajke preopterećenja."
+}

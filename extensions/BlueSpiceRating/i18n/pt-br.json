@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-rating-extension-description": "Fornece um sistema de classificação",
+	"bs-rating-types-page": "Avaliação da página",
+	"bs-rating-types-pagelike": "Recomendação de página",
+	"rating": "Classificações",
+	"recommendations": "Recomendações",
+	"bs-rating-yourrating": "Sua avaliação: $1",
+	"bs-rating-special-rating-heading": "Classificações",
+	"bs-rating-articlelike-ratingtext": "Recomende ($1)",
+	"bs-rating-articlelike-uratingtextservoted": "Recomendado ($1)",
+	"action-rating-viewspecialpage": "visualizar páginas protegidas com o direito \"Rating-Viewspecialpage\"",
+	"action-rating-read": "leia classificações em páginas",
+	"action-rating-write": "votar nas páginas",
+	"action-rating-archive": "remover votos de páginas",
+	"right-rating-viewspecialpage": "Visualizar páginas protegidas com o direito \"Rating-Viewspecialpage\"",
+	"right-rating-read": "Ler classificações em páginas",
+	"right-rating-write": "Votar nas páginas",
+	"right-rating-archive": "Remover votos de páginas",
+	"bs-rating-special-recommendations-heading": "Recomendações",
+	"bs-rating-special-recommendations-label-recommendation": "Recomendações",
+	"bs-rating-specialrating-label-namespace": "Espaço nominal",
+	"bs-rating-specialrating-titleTitle": "Título",
+	"bs-rating-specialrating-titleRating": "Avaliação",
+	"bs-rating-specialrating-titleVotes": "Número de avaliações",
+	"apihelp-bs-rating-tasks-description": "Executa tarefas comuns para extensão Rating",
+	"apihelp-bs-rating-store-description": "Fornece classificações para artigos",
+	"bs-rating-nsm-label": "Avaliação",
+	"bs-rating-nsm-label-recommendations": "Recomendações",
+	"apihelp-bs-rating-tasks-summary": "Executa tarefas comuns para extensão Rating",
+	"apihelp-bs-ratingarticle-store-summary": "Fornece classificações para artigos",
+	"apihelp-bs-ratingarticlelike-store-summary": "Oferecer recomendações para artigos"
+}

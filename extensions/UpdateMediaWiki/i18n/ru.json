@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Evs",
+			"Movses",
+			"Redredsonia"
+		]
+	},
+	"updatemediawiki": "Обновить MediaWiki",
+	"updatemediawiki-desc": "Позволяет обновлять MediaWiki через специальную страницу",
+	"updatemediawiki-current": "Текущая версия $1",
+	"updatemediawiki-update-nofound": "Нет обновлений",
+	"updatemediawiki-update-found": "Найдено новое обновление: $1",
+	"updatemediawiki-update-downloading": "Загрузка нового обновления",
+	"updatemediawiki-update-saved": "Обновление загружено и сохранено",
+	"updatemediawiki-update-exist": "Обновление уже загружено",
+	"updatemediawiki-update-copyready": "Копия готова",
+	"updatemediawiki-update-database": "Обновить базу данных сейчас?",
+	"updatemediawiki-update-updateready": "Обновление готово",
+	"updatemediawiki-update-install": "Установить сейчас?",
+	"updatemediawiki-update-updated": "MediaWiki обновлён до версии $1",
+	"updatemediawiki-update-error": "Не удалось найти последние выпуски",
+	"updatemediawiki-update-aborted": "Не удалось сохранить новое обновление. Операция прервана"
+}

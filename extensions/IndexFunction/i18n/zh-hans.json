@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bencmq",
+			"Hydra",
+			"Hzy980512",
+			"Liuxinyu970226",
+			"Yfdyh000"
+		]
+	},
+	"indexfunc-desc": "用以自动创建重定向和消歧义页面的解析器函数",
+	"indexfunc-badtitle": "无效标题：“$1”",
+	"indexfunc-editwarning": "警告：\n此标题是下列$2个页面中的一个索引标题：\n$1\n请确定您要创建的页面不存在于下列页面的子标题中。\n如果您要创建此页面，在上述页面中的<nowiki>{{#index:}}</nowiki>中移除此标题。",
+	"indexfunc-index-exists": "“$1”页面已存在",
+	"indexfunc-movewarn": "警告：“$1”是以下$3个页面的索引标题：$2\n请在以上页面的<nowiki>{{#index:}}</nowiki>部分移除“$1”。",
+	"index": "索引搜索",
+	"index-legend": "搜索索引",
+	"index-search": "搜索：",
+	"index-submit": "提交",
+	"index-disambig-start": "'''$1'''可能指几个页面：",
+	"index-emptylist": "没有页面与“$1”关联。",
+	"index-expand-detail": "显示此标题索引的页面",
+	"index-hide-detail": "隐藏页面列表",
+	"index-no-results": "无任何搜索结果",
+	"index-search-explain": "此页面使用前缀搜索。\n输入前几个字符并按提交按钮以搜索指定字符串开头的页面标题和索引记录",
+	"index-details-explain": "带有箭头的记录是记录索引。点击箭头以显示此标题下的页面。"
+}

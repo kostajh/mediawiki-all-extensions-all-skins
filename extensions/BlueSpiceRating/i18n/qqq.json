@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-rating-extension-description": "{{desc}}",
+	"bs-rating-types-page": "Label tor the rating item of the type \"article\"\n{{Identical|Page rating}}",
+	"bs-rating-types-pagelike": "Label tor the rating item of the type \"articlelike\"\n{{Identical|Page recommendation}}",
+	"rating": "Page title for special page [[Special:Rating]]",
+	"recommendations": "Page title for special page [[Special:Recommendations]]",
+	"bs-rating-yourrating": "Label for the users rating value.\n* $1 - The users value. String or number",
+	"bs-rating-special-rating-heading": "Heading for [[Special:Rating]] special page",
+	"bs-rating-articlelike-ratingtext": "Short label for the button that sets a recommendation when the user has not voted yet.\n* $1 - Count of all recommendations",
+	"bs-rating-articlelike-uratingtextservoted": "Short label for the button that removes the users recommendation.\n* $1 - Count of all recommendations",
+	"action-rating-viewspecialpage": "{{doc-action|rating-viewspecialpage}}",
+	"action-rating-read": "{{doc-action|rating-read}}",
+	"action-rating-write": "{{doc-action|rating-write}}",
+	"action-rating-archive": "{{doc-action|rating-archive}}",
+	"right-rating-viewspecialpage": "{{doc-right|rating-viewspecialpage}}",
+	"right-rating-read": "{{doc-right|rating-read}}",
+	"right-rating-write": "{{doc-right|rating-write}}",
+	"right-rating-archive": "{{doc-right|rating-archive}}",
+	"bs-rating-special-recommendations-heading": "Heading for [[Special:Recommendations]] special page",
+	"bs-rating-special-recommendations-label-recommendation": "Title of the ExtJS manager for recommendations",
+	"bs-rating-specialrating-label-namespace": "Short label for the column that lists namespaces in the ExtJS manager",
+	"bs-rating-specialrating-titleTitle": "Short label for the column that lists page titles in the ExtJS manager",
+	"bs-rating-specialrating-titleRating": "Short label for the column that lists the current rating in the ExtJS manager",
+	"bs-rating-specialrating-titleVotes": "Short label for the column that lists the number of votes in the ExtJS manager",
+	"apihelp-bs-rating-tasks-description": "{{doc-apihelp-description|bs-rating-tasks}}",
+	"apihelp-bs-rating-store-description": "{{doc-apihelp-description|bs-rating-store}}",
+	"bs-rating-nsm-label": "Label for field in BlueSpiceNamespaceManager used to select namespaces in which rating is enabled. {{Identical|Rating}}",
+	"bs-rating-nsm-label-recommendations": "Label for field in BlueSpiceNamespaceManager used to select namespaces in which recommendations is enabled. {{Identical|Recommendations}}",
+	"apihelp-bs-rating-tasks-summary": "{{doc-apihelp-summary|bs-rating-tasks}}",
+	"apihelp-bs-ratingarticle-store-summary": "{{doc-apihelp-summary|bs-ratingarticle-store}}",
+	"apihelp-bs-ratingarticlelike-store-summary": "{{doc-apihelp-summary|bs-ratingarticlelike-store}}"
+}

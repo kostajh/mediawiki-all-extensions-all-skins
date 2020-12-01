@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"electronpdfservice": "خدمة PDF الإلكترونية",
+	"electronpdfservice-desc": "يضيف دعم عرض PDF بالاعتماد على المتصفح من خلال خدمة Electron PDF",
+	"electronpdfservice-special-page-headline": "تحميل بصيغة PDF",
+	"electronpdfservice-download-label": "تحميل بصيغة PDF",
+	"electronpdfservice-download-button": "تنزيل",
+	"electronpdfservice-sidebar-portlet-heading": "طباعة/تصدير",
+	"electronpdfservice-sidebar-portlet-print-text": "تحميل بصيغة PDF",
+	"electronpdfservice-invalid-page-title": "صفحة غير صالحة",
+	"electronpdfservice-invalid-page-text": "الصفحة المحددة غير صحيحة."
+}

@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Marijn van Wezel"
+		]
+	},
+	"expressions-extensionname": "Expressions",
+	"expressions-desc": "Enhances the parser with boolean algebra.",
+	"expressions-empty-string": "",
+	"expressions-unidentified-token-message": "I got stuck at the following character:",
+	"expressions-unidentified-token-submessage": "I did not recognize the highlighted character.",
+	"expressions-unidentified-token-hint": "Try removing the character to see if that helps",
+	"expressions-invalid-type-message": "I got stuck at the following location:",
+	"expressions-invalid-type-submessage": "I was expecting to see a <b>$1</b> at the highlighted location, because $3, but instead I got a <b>$2</b>.",
+	"expressions-invalid-type-hint": "Try using a different operator or make sure the operand has the correct type.",
+	"expressions-binary-left-type-exception": "the operator `<b>$1</b>` only accepts a <b>$2</b> as its left operand",
+	"expressions-binary-right-type-exception": "the operator `<b>$1</b>` only accepts a <b>$2</b> as its right operand",
+	"expressions-unary-type-exception": "the operator `<b>$1</b>` only accepts a <b>$2</b> as its operand",
+	"expressions-unclosed-paren-message": "I was expecting a closing parenthesis, because the highlighted parenthesis was not closed, but instead I reached the end of the expression:",
+	"expressions-unclosed-paren-hint": "Try adding a '<b>)</b>' at the end of the expression to see if that helps.",
+	"expressions-unexpected-token-message": "I got stuck at the following token:",
+	"expressions-unexpected-token-submessage": "I was expecting to see $2, but instead I got '<b>$1</b>'.",
+	"expressions-unexpected-token-value-hint": "Try adding a <b>value</b> $1 the highlighted token to see if that helps.",
+	"expressions-unexpected-token-operator-hint": "Try adding an <b>operator</b> $1 the highlighted token to see if that helps.",
+	"expressions-unexpected-token-rightparen-hint": "Try removing the highlighted parenthesis to see if that helps.",
+	"expressions-expected-operator-after": "a <b>value</b> followed by an <b>operator</b>",
+	"expressions-expected-operator-before": "a <b>value</b> preceded by an <b>operator</b>",
+	"expressions-expected-value-after": "an <b>operator</b> followed by a <b>value</b>",
+	"expressions-expected-value-before": "an <b>operator</b> preceded by a <b>value</b>",
+	"expressions-expected-value": "a <b>value</b>",
+	"expressions-before": "before",
+	"expressions-after": "after"
+}

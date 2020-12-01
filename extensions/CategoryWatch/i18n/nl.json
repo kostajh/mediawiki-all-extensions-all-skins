@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Siebrand"
+		]
+	},
+	"categorywatch-desc": "Breidt de functie van de volglijst uit met meldingen over wijzigingen in categorielidmaatschap van categorieën op de volglijst",
+	"categorywatch-emailsubject": "Activiteit met betrekking tot categorie \"$1\" op volglijst",
+	"categorywatch-catmovein": "$1 van categorie $3 naar $2 heeft verplaatst",
+	"categorywatch-catmoveout": "$1 van categorie $2 naar $3 heeft verplaatst",
+	"categorywatch-catadd": "$1 aan categorie $2 heeft toegevoegd",
+	"categorywatch-catsub": "$1 uit categorie $2 heeft verwijderd.",
+	"categorywatch-autocat": "Automatisch gevolgd door $1",
+	"categorywatch-notification-link": "Categorie: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] toegevoegd aan [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] toegevoegd aan [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] heeft [[:$3|$3]] toegevoegd aan [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] verwijderd van [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] verwijderd van [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] heeft [[:$3|$3]] verwijderd van [[:$4|$4]]"
+}

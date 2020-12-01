@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"sslauth-desc": "A përmët a j'utent ëd carié dij sertificà SSl da dovré për l'autenticassion",
+	"sslauth-title-enable": "Abìlita l'Autenticassion Client SSL",
+	"sslauth-title-disable": "Disabìlita l'Autenticassion Client SSL",
+	"sslauth-enable": "Abìlita",
+	"sslauth-disable": "Disabìlita",
+	"sslauth-cn": "Nòm comun",
+	"sslauth-email": "Adrëssa ëd pòsta eletrònica",
+	"sslauth-serial": "Nùmer ëd serie",
+	"sslauth-response-enable": "L'Autenticassion SSL a l'é stàita abilità da bin. Adess quand ch'as colega a {{SITENAME}} an HTTPS con sò sertificà client, a intrerà automaticament ant ël sistema.",
+	"sslauth-response-disable": "L'Autenticassion SSL a l'é stàita disabilità",
+	"sslauth-invalidrequest-title": "Arcesta pa bon-a",
+	"sslauth-invalidrequest": "Un sertificà client SSL bon a dev esse fornì për che costa pàgina a sia ùtil.",
+	"clientssl-legend": "Autenticassion SSL",
+	"clientssl-text": "Dovré costa pàgina për abilité/disabilité l'autenticassion con ij sertificà client SSL.",
+	"sslauth-prefs-name": "Autenticassion SSL",
+	"sslauth-prefs-linktospecial": "Abìlité/Disabilité ij sertificà client"
+}

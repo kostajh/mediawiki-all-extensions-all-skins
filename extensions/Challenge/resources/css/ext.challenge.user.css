@@ -1,0 +1,53 @@
+.challenge-user-top {
+	padding-bottom: 15px;
+}
+
+.challenge-user-title {
+	color: #78ba5d;
+	font-size: 15px;
+	font-weight: 800;
+	padding-bottom: 4px;
+}
+
+.challenge-field {
+	padding-bottom: 10px;
+}
+
+.challenge-label {
+	color: #666;
+}
+
+.challenge-user-info {
+	padding-bottom: 20px;
+	width: 400px;
+}
+
+.challenge-info {
+	border: 1px solid #ccc;
+	float: right;
+	width: 200px;
+	padding: 5px;
+}
+
+.challenge-user-top a {
+	font-size: 12px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.challenge-user-avatar {
+	float: left;
+	width: 75px;
+}
+
+.challenge-user-stats {
+	float: right;
+}
+
+.challenge-user-or {
+	margin: 10px 0;
+}
+
+.challenge-buttons input[name="wpMyProfile"] {
+	margin-left: 5px;
+}

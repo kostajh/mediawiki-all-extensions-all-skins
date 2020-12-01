@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avjoska",
+			"Pikne"
+		]
+	},
+	"openstackmanager-delete": "kustuta",
+	"openstackmanager-notloggedin": "Vajalik on sisselogimine",
+	"openstackmanager-mustbeloggedin": "Sa pead olema sisselogitud, et seda toimingut sooritada.",
+	"openstackmanager-deletekey": "Kustuta avalik SSH-võti",
+	"openstackmanager-deletekeyconfirm": "Kas oled kindel, et soovid selle võtme kustutada?",
+	"openstackmanager-keylist": "Avalik SSH-võtmete loetelu",
+	"openstackmanager-name": "Nimi",
+	"openstackmanager-fingerprint": "Sõrmejälg",
+	"openstackmanager-keys": "Võtmed",
+	"openstackmanager-keypairimported": "Imporditud võtmepaar.",
+	"openstackmanager-deletedkey": "Võti kustutatud.",
+	"openstackmanager-deletedkeyfailed": "Võtme kustutamine ebaõnnestus."
+}

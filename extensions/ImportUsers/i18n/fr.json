@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"IAlex",
+			"PieRRoMaN",
+			"Sherbrooke",
+			"Thibaut120094",
+			"Urhixidur",
+			"Verdy p"
+		]
+	},
+	"importusers": "Importer des utilisateurs",
+	"importusers-desc": "Permet d’[[Special:ImportUsers|importer des utilisateurs]] en masse depuis un fichier CSV encodé en UTF-8",
+	"importusers-uploadfile": "Téléverser le fichier",
+	"importusers-form-caption": "Fichier d’entrée :",
+	"importusers-file": "Structure et format du fichier d’entrée :",
+	"importusers-file-structure": "Structure :",
+	"importusers-file-format": "Format :",
+	"importusers-form-replace-present": "Remplacer les utilisateurs existants",
+	"importusers-form-add-to-group": "Ajouter des utilisateurs aux groupes existants",
+	"importusers-form-button": "Importer",
+	"importusers-user-added": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} « $1 » a été {{GENDER:$1|ajouté|ajoutée}}.",
+	"importusers-user-present-update": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} « $1 » existe déjà et a été {{GENDER:$1|mis|mise}} à jour.",
+	"importusers-user-present-no-update": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} « $1 » existe déjà et n’a pas été {{GENDER:$1|mis|mise}} à jour.",
+	"importusers-user-invalid-format": "Les données utilisateur de la ligne #$1 n’ont pas un format correct ou sont vides, et ont été ignorées.",
+	"importusers-log": "Journal des importations d'utilisateurs",
+	"importusers-log-list": "Utilisateurs importés ou mis à jour :",
+	"importusers-log-summary": "Résumé de l’importation :",
+	"importusers-log-summary-all": "Nombre total d’{{PLURAL:$1|utilisateurs}}: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Utilisateur ajouté|Utilisatrice ajoutée}}|{{GENDER:$2|Utilisateurs ajoutés|Utilisatrices ajoutées}}}} : $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Utilisateur|Utilisateurs}} mis à jour : $1",
+	"importusers-login-name": "Nom d’utilisateur",
+	"importusers-password": "mot de passe",
+	"importusers-email": "courriel",
+	"importusers-realname": "nom réel",
+	"importusers-group": "groupe utilisateur",
+	"importusers-utf8": "encodé en UTF-8",
+	"importusers-comma": "champs séparés par des virgules",
+	"importusers-noquotes": "pas de guillemets anglais pour le texte",
+	"right-import_users": "Importer des utilisateurs en masse",
+	"action-import_users": "importer des utilisateurs en masse"
+}

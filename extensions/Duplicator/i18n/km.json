@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chhorran",
+			"Lovekhmer",
+			"Thearith",
+			"គីមស៊្រុន"
+		]
+	},
+	"duplicator": "ច្បាប់ចម្លង​ទំព័រ​មួយ",
+	"duplicator-options": "ជម្រើសនានា",
+	"duplicator-source": "ប្រភព៖",
+	"duplicator-dest": "គោលដៅ៖",
+	"duplicator-submit": "ច្បាប់ចម្លង",
+	"duplicator-summary": "បានចម្លងពី [[$1]] កំណែ [[$2]]",
+	"duplicator-success": "[[$1]] បាន​ត្រូវ​ចម្លង​ទៅ [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|ការពិនិត្យឡើងវិញ​ត្រូវ​បាន|ការពិនិត្យឡើងវិញ​ត្រូវ​បាន}} ចម្លង​។",
+	"duplicator-success-talknotcopied": "ទំព័រ​ពិភាក្សា​មិន​អាច​ត្រូវ​បាន​ចម្លង​ទេ​។",
+	"duplicator-source-invalid": "សូមផ្ដល់មកនូវចំណងជើងប្រភពត្រឹមត្រូវ។"
+}

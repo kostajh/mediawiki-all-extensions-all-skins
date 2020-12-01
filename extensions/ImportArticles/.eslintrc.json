@@ -1,0 +1,14 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"rules": {
+		"no-implicit-globals": "off",
+		"computed-property-spacing": "off",
+		"no-unused-vars": "warn",
+		"no-jquery/no-is-array": "warn"
+	}
+}

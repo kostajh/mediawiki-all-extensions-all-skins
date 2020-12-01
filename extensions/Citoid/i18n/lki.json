@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hosseinblue"
+		]
+	},
+	"citoid-citation-widget-insert-button": "قرار دائن",
+	"citoid-citoiddialog-back": "گِل آوردن/برگشت",
+	"citoid-citoiddialog-lookup-button": "تولید",
+	"citoid-citoiddialog-mode-auto": "خودکار",
+	"citoid-citoiddialog-mode-manual": "کتابچه راهنمای",
+	"citoid-citoiddialog-mode-reuse": "استفادهٔ مجدد",
+	"citoid-citoiddialog-search-label": "URL یا DOI",
+	"citoid-citoiddialog-search-placeholder": "مثلاً http://www.example.com",
+	"citoid-citoidtool-title": "Cite",
+	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
+	"citoid-referencecontextitem-convert-button": "تبدیل",
+	"citoid-referencecontextitem-convert-message": "This reference consists of just an external link. You can use the \"{{int:citoid-referencecontextitem-convert-button}}\" button below to generate a properly formatted reference.",
+	"citoid-unknown-error": "خطای نامشخصی اجازه ساخت یادکرد را نمی‌دهد. لطفاً بعداً تلاش کنید."
+}

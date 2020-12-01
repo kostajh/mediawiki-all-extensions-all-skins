@@ -1,0 +1,30 @@
+/* stylelint-disable no-descending-specificity */
+li#ca-wikilove {
+	line-height: 1.4em; /* account for scripts with tall ascenders */
+}
+
+#ca-wikilove.icon a {
+	display: block;
+	width: 28px;
+	padding: 15px 5px 0;
+	overflow: hidden;
+	outline: 0;
+}
+
+/* icon style */
+/* Only use icon if the menu item is not collapsed into the "More" dropdown
+ * (in which case it is inside #p-cactions not #p-views). */
+#p-views #ca-wikilove.icon a:before {
+	content: '';
+	display: block;
+	width: 16px;
+	height: 16px;
+	margin-bottom: 15px;
+	background-image: url( images/heart-icons-red.svg );
+	background-position: -24px 0;
+}
+
+#ca-wikilove.icon a:hover:before,
+#ca-wikilove.icon a:focus:before {
+	background-position: 0 0;
+}

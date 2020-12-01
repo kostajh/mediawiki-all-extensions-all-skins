@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"onlinestatus-js-changed": "สถานะของคุณได้ถูกเปลี่ยนเป็น \"$1\"",
+	"onlinestatus-subtitle-offline": "ผู้ใช้นี้ออฟไลน์อยู่ในขณะนี้",
+	"onlinestatus-subtitle-online": "ผู้ใช้นี้ออฟไลน์อยู่ในขณะนี้",
+	"onlinestatus-tab": "สถานะ",
+	"onlinestatus-toggles-desc": "สถานะของคุณ:",
+	"onlinestatus-toggles-show": "แสดงสถานะออนไลน์บนหน้าผู้ใช้ของฉัน",
+	"onlinestatus-toggle-offline": "ออฟไลน์",
+	"onlinestatus-toggle-online": "ออนไลน์",
+	"onlinestatus-pref-onlineonlogin": "เปลี่ยนสถานะของฉันเป็นออนไลน์เมื่อเข้าสู่ระบบ",
+	"onlinestatus-pref-offlineonlogout": "เปลี่ยนสถานะของฉันเป็นออฟไลน์เมื่อออกจากระบบ"
+}

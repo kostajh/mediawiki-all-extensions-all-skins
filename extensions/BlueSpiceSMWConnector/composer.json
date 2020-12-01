@@ -1,0 +1,54 @@
+{
+	"name": "bluespice/smwconnector",
+	"type": "mediawiki-extension",
+	"description": "Connector for Semantic MediaWiki and BlueSpice. Provide tar package builder and some custom functions.",
+	"keywords": [
+		"SMW",
+		"Semantic MediaWiki",
+		"Wiki",
+		"MediaWiki",
+		"properties",
+		"special properties",
+		"BlueSpice MediaWiki"
+	],
+	"homepage": "https://www.mediawiki.org/wiki/Extension:BlueSpiceSMWConnector",
+	"license": "GPL-3.0-only",
+	"authors": [
+		{
+			"name": "Robert Vogel"
+		},
+		{
+			"name": "Leonid Verhovskij"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"composer/installers": "1.*,>=1.0.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"BlueSpice\\SMWConnector\\Tests\\": "tests/phpunit",
+			"BlueSpice\\SMWConnector\\": "src"
+		}
+	},
+	"require-dev": {
+		"mediawiki/mediawiki-codesniffer": "33.0.0",
+		"mediawiki/minus-x": "1.1.0",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules --exclude extensions",
+			"minus-x check .",
+			"phpcs -p -s"
+		],
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceSMWConnector"
+	}
+}

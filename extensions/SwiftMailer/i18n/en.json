@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tony Thomas"
+		]
+	},
+	"swiftmailer-desc": "Provides SwiftMailer as alternate mailer",
+	"swiftmailer-smtp-error": "Error setting up SMTP transport for SwiftMailer: $1",
+	"swiftmailer-send-error": "Error sending email using SwiftMailer: $1"
+}

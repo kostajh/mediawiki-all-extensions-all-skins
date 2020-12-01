@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jayprakash12345"
+		]
+	},
+	"countDownClock-desc": "{{desc|name=CountDownClock|url=https://www.mediawiki.org/wiki/Extension:CountDownClock}}",
+	"countDownClock-invalidtime": "Warning message when pass invalid endTime parameter in {{#countDownClock:endTime}}",
+	"countDownClock-days": "Days string which will see in Count down time",
+	"countDownClock-hours": "Hours string which will see in Count down time",
+	"countDownClock-minutes": "Minutes string which will see in Count down time",
+	"countDownClock-seconds": "Seconds string which will see in Count down time",
+	"countDownClock-expired": "Message when count down time has expired"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Winston Sung"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "啟用匯出到 HTML",
+	"bs-uemodulehtml-pref-DefaultTemplate": "標準模板",
+	"bs-uemodulehtml-pref-SuppressNS": "隱藏在 HTML 的命名空間字首",
+	"bs-uemodulehtml-pref-Backend": "後端",
+	"bs-uemodulehtml-widgetlink-single-text": "HTML 單一頁面（已存檔）",
+	"bs-uemodulehtml-widgetlink-single-title": "匯出此頁面為 HTML，並將其資源匯成存檔",
+	"bs-uemodulehtml-overview-title": "HTML 文件（已存檔）",
+	"bs-uemodulehtml-overview-description": "匯出頁面（特殊頁面與內容頁面）至 HTML。"
+}

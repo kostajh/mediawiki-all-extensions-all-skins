@@ -1,0 +1,165 @@
+{
+	"name": "Newsletter",
+	"version": "1.2.1",
+	"author": [
+		"Siebrand Mazeland",
+		"Tina Johnson",
+		"Tony Thomas"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Newsletter",
+	"descriptionmsg": "newsletter-extension-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"type": "other",
+	"AvailableRights": [
+		"newsletter-create",
+		"newsletter-delete",
+		"newsletter-manage",
+		"newsletter-restore"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"newsletter-create": true,
+			"newsletter-delete": true,
+			"newsletter-manage": true,
+			"newsletter-restore": true
+		}
+	},
+	"RateLimits": {
+		"newsletter": {
+			"user": [ 3, 3600 ]
+		},
+		"newsletter-announce": {
+			"user": [ 2, 1800 ]
+		}
+	},
+	"SpecialPages": {
+		"NewsletterCreate": "SpecialNewsletterCreate",
+		"Newsletters": "SpecialNewsletters",
+		"Newsletter": "SpecialNewsletter"
+	},
+	"APIModules": {
+		"newslettersubscribe": "ApiNewsletterSubscribe"
+	},
+	"MessagesDirs": {
+		"Newsletter": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"LogTypes": [
+		"newsletter"
+	],
+	"LogActionsHandlers": {
+		"newsletter/*": "NewsletterLogFormatter"
+	},
+	"ActionFilteredLogs": {
+		"newsletter": {
+			"issue-added": [ "issue-added" ],
+			"newsletter-added": [ "newsletter-added" ],
+			"newsletter-removed": [ "newsletter-removed" ],
+			"publisher-added": [ "publisher-added" ],
+			"publisher-removed": [ "publisher-removed" ]
+		}
+	},
+	"ExtensionMessagesFiles": {
+		"NewsletterAlias": "Newsletter.alias.php",
+		"NewsletterNamespaces": "Newsletter.namespaces.php"
+	},
+	"ContentHandlers": {
+		"NewsletterContent": "NewsletterContentHandler"
+	},
+	"AutoloadClasses": {
+		"Newsletter": "includes/Newsletter.php",
+		"NewsletterDb": "includes/NewsletterDb.php",
+		"NewsletterEditPage": "includes/NewsletterEditPage.php",
+		"NewsletterStore": "includes/NewsletterStore.php",
+		"NewsletterHooks": "includes/NewsletterHooks.php",
+		"NewsletterValidator": "includes/NewsletterValidator.php",
+		"NewsletterLogFormatter": "includes/logging/NewsletterLogFormatter.php",
+		"NewsletterLogger": "includes/logging/NewsletterLogger.php",
+		"SpecialNewsletter": "includes/specials/SpecialNewsletter.php",
+		"SpecialNewsletters": "includes/specials/SpecialNewsletters.php",
+		"SpecialNewsletterCreate": "includes/specials/SpecialNewsletterCreate.php",
+		"NewsletterTablePager": "includes/specials/pagers/NewsletterTablePager.php",
+		"ApiNewsletterSubscribe": "includes/api/ApiNewsletterSubscribe.php",
+		"NewsletterContent": "includes/content/NewsletterContent.php",
+		"NewsletterContentHandler": "includes/content/NewsletterContentHandler.php",
+		"NewsletterDataUpdate": "includes/content/NewsletterDataUpdate.php",
+		"NewsletterDiffEngine": "includes/content/NewsletterDiffEngine.php",
+		"EchoNewsletterUserLocator": "includes/Echo/EchoNewsletterUserLocator.php",
+		"BaseNewsletterPresentationModel": "includes/Echo/BaseNewsletterPresentationModel.php",
+		"EchoNewsletterPresentationModel": "includes/Echo/EchoNewsletterPresentationModel.php",
+		"EchoNewsletterPublisherAddedPresentationModel": "includes/Echo/EchoNewsletterPublisherAddedPresentationModel.php",
+		"EchoNewsletterPublisherRemovedPresentationModel": "includes/Echo/EchoNewsletterPublisherRemovedPresentationModel.php",
+		"EchoNewsletterUnsubscribedPresentationModel": "includes/Echo/EchoNewsletterUnsubscribedPresentationModel.php",
+		"EchoNewsletterSubscribedPresentationModel": "includes/Echo/EchoNewsletterSubscribedPresentationModel.php"
+	},
+	"DefaultUserOptions": {
+		"echo-subscriptions-web-newsletter": true,
+		"echo-subscriptions-email-newsletter": true
+	},
+	"ResourceModules": {
+		"ext.newsletter.newsletters": {
+			"scripts": "ext.newsletter.newsletters.js",
+			"dependencies": [
+				"mediawiki.api",
+				"oojs-ui"
+			],
+			"messages": [
+				"newsletter-subscribe-button",
+				"newsletter-unsubscribe-button",
+				"newsletter-unsubscribing",
+				"newsletter-subscribing",
+				"newsletter-subscribe-success",
+				"newsletter-subscribe-error",
+				"newsletter-unsubscribe-error",
+				"newsletter-unsubscribe-success"
+			]
+		},
+		"ext.newsletter.newsletters.styles": {
+			"styles": "ext.newsletter.newsletters.styles.css"
+		},
+		"ext.newsletter.newsletter.styles": {
+			"styles": "ext.newsletter.newsletter.styles.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "Newsletter/modules"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "NewsletterHooks::onLoadExtensionSchemaUpdates",
+		"BeforeCreateEchoEvent": "NewsletterHooks::onBeforeCreateEchoEvent",
+		"LoginFormValidErrorMessages": "NewsletterHooks::onLoginFormValidErrorMessages",
+		"UserMergeAccountFields": "NewsletterHooks::onUserMergeAccountFields",
+		"AlternateEdit": "NewsletterHooks::onAlternateEdit",
+		"CustomEditor": "NewsletterHooks::onCustomEditor",
+		"ArticleDelete": "NewsletterHooks::onArticleDelete",
+		"UndeleteForm::undelete": "NewsletterHooks::onUndeleteForm",
+		"TitleMove": "NewsletterHooks::onTitleMove",
+		"ContentModelCanBeUsedOn": "NewsletterHooks::onContentModelCanBeUsedOn",
+		"EditFilterMergedContent": "NewsletterHooks::onEditFilterMergedContent",
+		"SkinTemplateNavigation::Universal": "NewsletterHooks::onSkinTemplateNavigationUniversal"
+	},
+	"namespaces": [
+		{
+			"id": 5500,
+			"constant": "NS_NEWSLETTER",
+			"name": "Newsletter",
+			"protection": [
+				"newsletter-manage",
+				"newsletter-create"
+			],
+			"defaultcontentmodel": "NewsletterContent"
+		},
+		{
+			"id": 5501,
+			"constant": "NS_NEWSLETTER_TALK",
+			"name": "Newsletter_talk"
+		}
+	],
+	"manifest_version": 2
+}

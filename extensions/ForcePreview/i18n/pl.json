@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Leinad",
+			"Sp5uhe"
+		]
+	},
+	"forcepreview": "$1 (najpierw sprawdź podgląd)",
+	"forcepreview-desc": "Wymusza na nieuprawnionych użytkownikach użycie podglądu przed zapisaniem strony",
+	"right-forcepreviewexempt": "Możliwość zapisywania bez użycia „Pokaż podgląd”"
+}

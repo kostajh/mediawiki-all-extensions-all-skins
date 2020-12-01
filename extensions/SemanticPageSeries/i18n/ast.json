@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"semanticpageseries-desc": "Crear una serie de páxines a partir d'un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulariu semánticu]",
+	"spssuccesstitle": "Creando $1 páxines",
+	"spssuccess": "Va {{PLURAL:$1|crease una páxina|n crease $1 páxines}}.",
+	"spssuccess-returntoorigin": "Volver a $1",
+	"spserror": "Hebo un error",
+	"spserror-diffnotsupported": "L'aición diff nun tien encontu pa series de páxines.",
+	"spserror-previewnotsupported": "L'aición de previsualizar nun tien encontu pa series de páxines.",
+	"spserror-noiteratorname": "Nun s'especificó nengún iterador. Tienes de definir el parámetru «iterator» na llamada a la función #serieslink del analizador (parser).",
+	"spserror-iteratorunknown": "Nun esiste'l iterador «$1». Tienes de correxir el parámetru «iterator» na llamada a la función #serieslink del analizador (parser).",
+	"spserror-noformname": "Nun se dio'l nome d'un formulariu. Tienes de definir el parámetru «form» na llamada a la función #serieslink del analizador (parser).",
+	"spserror-formunknown": "El formulariu «$1» nun esiste.",
+	"spserror-notargetformname": "Nun se dio'l nome d'un formulariu de destín. Tienes de definir el parámetru «target form» na llamada a la función #serieslink del analizador (parser).",
+	"spserror-notargetfieldname": "Nun se dio'l nome d'un campu de destín. Tienes de definir el parámetru «target field» na llamada a la función #serieslink del analizador (parser).",
+	"spserror-iteratorparammissing": "Falten los siguientes parámetros del iterador na llamada a #serieslink:\n$1",
+	"spserror-noiteratordata": "Nun s'atoparon parámetros del iterador nos datos unviaos.",
+	"spserror-pagegenerationlimitexeeded": "Intentasti xenerar {{PLURAL:$1|una páxina|$1 páxines}}. Esto supera la llende permitida {{PLURAL:$2|d'una páxina|de $2 páxines}}.",
+	"spserror-date-startdatemissing": "Falta la fecha d'entamu.",
+	"spserror-date-internalerror": "Hebo un error al crear les feches: $1",
+	"spserror-count-startvaluemalformed": "El valor d'entamu nun ye un númberu.",
+	"spserror-count-endvaluemalformed": "El valor de fin nun ye un númberu.",
+	"spserror-count-stepvaluemalformed": "El valor de pasu nun ye un númberu.",
+	"spserror-count-digitsvaluemalformed": "El valor de los díxitos nun ye un númberu."
+}

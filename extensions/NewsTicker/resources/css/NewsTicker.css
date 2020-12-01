@@ -1,0 +1,21 @@
+.news-ticker-wrapper {
+	display: table;
+	width: 100%;
+}
+
+.news-ticker {
+	border: 1px solid #ccc;
+	display: table-cell;
+	overflow: hidden;
+	padding: 1em;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.news-ticker .news {
+	display: none;
+}
+
+.news-ticker .initial {
+	display: block;
+}

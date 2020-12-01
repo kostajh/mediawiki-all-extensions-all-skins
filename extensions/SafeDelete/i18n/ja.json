@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume"
+		]
+	},
+	"safedelete-desc": "特定の名前空間にリンクしていないページのみを削除する",
+	"safedelete-title": "「$1」の削除",
+	"safedelete-cannotdelete": "ページ「$1」は次の{{PLURAL:$2|ページ}}からリンクまたはリダイレクトされているため、削除することはできません:"
+}

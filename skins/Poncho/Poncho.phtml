@@ -1,0 +1,104 @@
+<?php $this->html( 'headelement' ); ?>
+
+<div id="header-wrapper">
+	<div id="header">
+		<div id="logo-wrapper">
+
+			<a id="logo" <?php $this->logoAttributes(); ?>><?php $this->siteName(); ?></a>
+
+		</div><div id="header-menu-wrapper">
+
+			<ul id="header-menu">
+				<?php if ( ExtensionRegistry::getInstance()->isLoaded( 'Echo' ) ): ?>
+				<li class="header-menu-item">
+					<div class="header-menu-icon" id="bell-icon"></div>
+					<ul class="header-menu-list">
+						<?php foreach ( $this->getNotifications() as $key => $value ) echo $this->makeListItem( $key, $value ); ?>
+					</ul>
+				</li>
+				<?php endif; ?>
+				<li class="header-menu-item">
+					<div class="header-menu-icon" id="user-icon"></div>
+					<ul class="header-menu-list">
+						<?php foreach ( $this->getUserMenu() as $key => $value ) echo $this->makeListItem( $key, $value ); ?>
+					</ul>
+				</li>
+				<li class="header-menu-item">
+					<div class="header-menu-icon" id="menu-icon"></div>
+					<ul class="header-menu-list">
+						<?php foreach ( $this->getMainMenu() as $key => $value ) echo $this->makeListItem( $key, $value ); ?>
+					</ul>
+				</li>
+			</ul>
+
+		</div><div id="search-form-wrapper">
+
+			<form id="search-form" action="<?php $this->text( 'wgScript' ); ?>"><?php $this->searchInput(); ?></form>
+
+		</div>
+	</div>
+</div>
+
+<div id="content-wrapper">
+
+	<div id="content">
+
+		<?php if ( $this->data['sitenotice'] ): ?>
+		<div id="siteNotice"><?php $this->html( 'sitenotice' ); ?></div>
+		<?php endif; ?>
+
+		<?php echo $this->getIndicators(); ?>
+
+		<h1 id="firstHeading" class="firstHeading"><?php $this->html( 'title' ) ?></h1>
+
+		<ul id="actions">
+			<?php foreach ( $this->getMainActions() as $key => $value ) echo $this->makeListItem( $key, $value ); ?>
+			<?php if ( $this->getMoreActions() ): ?>
+			<li id="more-actions-menu">
+				<span id="more-actions-icon">...</span>
+				<ul id="more-actions-list">
+					<?php foreach ( $this->getMoreActions() as $key => $value ) echo $this->makeListItem( $key, $value ); ?>
+				</ul>
+			</li>
+			<?php endif; ?>
+		</ul>
+
+		<div id="siteSub"><?php $this->msg( 'tagline' ) ?></div>
+
+		<?php if ( $this->data['subtitle'] ): ?>
+		<div id="contentSub"><?php $this->html( 'subtitle' ) ?></div>
+		<?php endif; ?>
+
+		<?php if ( $this->data['undelete'] ): ?>
+		<div id="contentSub2"><?php $this->html( 'undelete' ) ?></div>
+		<?php endif; ?>
+
+		<?php if ( $this->data['newtalk'] ): ?>
+		<div class="usermessage"><?php $this->html( 'newtalk' )  ?></div>
+		<?php endif; ?>
+
+		<?php $this->html( 'bodytext' ) ?>
+
+		<?php $this->html( 'catlinks' ); ?>
+
+		<?php $this->html( 'dataAfterContent' ); ?>
+
+		<?php $this->html( 'debughtml' ); ?>
+
+	</div>
+
+</div>
+
+<div id="footer-wrapper">
+	<div id="footer">
+		<ul class="footer-tools">
+			<?php foreach ( $this->getToolbox() as $key => $value ) echo $this->makeListItem( $key, $value ); ?>
+		</ul>
+		<?php echo $this->getFooter(); ?>
+	</div>
+</div>
+
+<?php $this->printTrail(); ?>
+
+</body>
+</html>

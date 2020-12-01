@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"flvhandler_desc": "Permet als fichièrs vidèo Flash (.flv) d'èsser utilizats coma de fichièrs estandards (per exemple <nowiki>[[</nowiki>{{ns:file}}:Movie.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Vidèo flash, $1 × $2 pixèls, talha del fichièr : $3"
+}

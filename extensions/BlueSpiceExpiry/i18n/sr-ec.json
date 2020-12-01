@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Вукан Ц"
+		]
+	},
+	"prefs-expiry": "Истиче",
+	"bs-expiry-header-comment": "Коментар",
+	"bs-expiry-article-label": "Страница",
+	"bs-expiry-comment-label": "Коментар",
+	"bs-expiry-unknown-page-msg": "Страница не постоји",
+	"bs-expiry-flyout-next-comment": "Коментар: $1",
+	"bs-expiry-edit-grid-header-date": "Датум",
+	"right-expirearticle": "Извоз страница",
+	"right-expiry-delete": "уклањање истека са страница",
+	"bs-expiry-create-reminder-label": "Направи подсетник",
+	"bs-expiry-do-updateexpirydate-article": "Промените датум истека"
+}

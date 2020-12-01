@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dejan Savuljesku",
+			"Patric Wirth",
+			"Umherirrender"
+		]
+	},
+	"bs-socialblog-desc": "{{desc|name=BlueSpiceSocialBlog}}",
+	"bs-socialblog-type": "Label for option \"blog\" in entry field \"type\"",
+	"blog": "{{doc-special}}",
+	"bs-socialblog-entityblog-header-create": "Header for a blog entry, that is not yet existing{{Identical|New Blog}}",
+	"bs-socialblog-entityblog-header": "{{notranslate}}\nHeadline for a \"blog\" entry. Must link to special page [[Special:Blog/$3|Special:Blog/$3]]\n* $1 - Username of the owner of this entry\n* $2 - Real name of the owner of this entry\n* $3 - Main part of title of the source page, this entry is saved in as json data\n* $4 - Namespace number of the page, this entry is saved in as json data\n* $5 - Namespace name of the page, this entry is saved in as json data\n* $6 - Title of the blog entry",
+	"bs-socialblog-var-blogtitle": "Label for entry field \"blogtitle\".\n{{Identical|Title}}",
+	"bs-socialblog-entityblog-content-more-btn-more": "Short label for button that expands the content of the blog entry.\n{{Identical|More}}",
+	"bs-socialblog-entityblog-content-more-btn-less": "Short label for button that shrinks the content of the blog entry to a teaser.\n{{Identical|Less}}",
+	"bs-socialblog-toc-useblogteaser": "User option in [[Special:Preferences]] that allowes the user to de-/activate, that expandable teaser text is used for blog entries in the timeline",
+	"bs-socialblog-special-blog-heading": "{{doc-special}}\nSpecial page header for [[Special:Blog]] special page.",
+	"bs-socialblog-special-blog-heading-entry": "Special page header for [[Special:Blog]] special page when a single blog entry parameter is given as a subpage.\n* $1 - Title of the blog entry",
+	"bs-social-notifications-blog-create": "Short message when blog is created. $1 - username, $2 - user realname, $3 - Blog name",
+	"bs-social-notifications-email-blog-create-subject": "Email subject when blog is created. $1 - username, $2 - user realname, $3 - Blog name",
+	"bs-social-notifications-email-blog-create-body": "Email body message when blog is created. $1 - username, $2 - user realname, $3 - Blog name, $4 - Text of the blog",
+	"bs-social-notifications-web-blog-create-body": "Web message when blog is created. For now, its empty, because there are no more information to show than already in header message. $1 - username, $2 - user realname, $3 - Blog name",
+	"bs-social-notifications-blog-edit": "Short message when blog is edited. $1 - username, $2 - user realname, $3 - Blog name",
+	"bs-social-notifications-email-blog-edit-subject": "Email subject when blog is edited. $1 - username, $2 - user realname, $3 - Blog name",
+	"bs-social-notifications-email-blog-edit-body": "Email body message when blog is edited. $1 - username, $2 - user realname, $3 - Blog name, $4 - Text of the blog",
+	"bs-social-notifications-web-blog-edit-body": "Web message when blog is edited. For now, its empty, because there are no more information to show than already in header message. $1 - username, $2 - user realname, $3 - Blog name",
+	"bs-social-notifications-blog-delete": "Short message when blog is deleted. $1 - username, $2 - user realname, $3 - Blog name",
+	"bs-social-notifications-email-blog-delete-subject": "Email subject when blog is edited. $1 - username, $2 - user realname, $3 - Blog name",
+	"bs-social-notifications-email-blog-delete-body": "Email body message when blog is created. $1 - username, $2 - user realname, $3 - Blog name",
+	"bs-social-notifications-web-blog-delete-body": "Web message when blog is deleted. For now, its empty, because there are no more information to show than already in header message. $1 - username, $2 - user realname, $3 - Blog name",
+	"bs-social-notification-blog-primary-link-label": "Label for primary link button, leading to blog page"
+}

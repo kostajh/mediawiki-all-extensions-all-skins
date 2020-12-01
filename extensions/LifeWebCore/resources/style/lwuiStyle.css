@@ -1,0 +1,241 @@
+
+/* Tile */
+.lwuiTile {
+    background-color: #FFFFFF;
+    color: #444444;
+    margin: 4px;
+    padding: 1em .5em .5em;
+    position: relative;
+    border: 1px solid #999999;
+    cursor: default;
+}
+.lwuiTile.lwuiNew {
+    background-color: #b9d19b;
+}
+.lwuiTile.lwuiModified {
+    background-color: #e8d16e;
+}
+.lwuiTile.lwuiFailed {
+    background-color: #f28a64;
+}
+
+.lwuiTile .id {
+    position: absolute;
+    top: 0px; left: 0px;
+    font-size: .8em;
+    color: #999999;
+    display: none;
+}
+.lwuiTile.lwuiFailed .id {
+    color: #fff;
+}
+.lwuiTile:hover .id {
+    display: block;
+}
+.lwuiTileData,
+.lwuiTileButtons {
+    display: inline-block;
+    vertical-align: top;
+}
+.lwuiTileData {
+    width: 85%;
+}
+.lwuiTileButtons {
+    width: 15%;
+}
+
+
+/* Selectable */
+.lwuiSelectable {
+    width: 18em;
+    text-align: right;
+}
+.lwuiSelectable select {
+    margin-left: .5em;
+    border: 1px solid transparent;
+    background-color: transparent;
+    width: 12em;
+}
+.lwuiSelectable:hover select,
+.lwuiSelectable:focus select {
+    border: 1px solid #999999;
+    background-color: #dddddd;
+}
+
+
+/* Row */
+.lwuiRow > div {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+
+/* Bool */
+.lwuiCheckable .val {
+    color: #b4461d;
+}
+.lwuiCheckable .val[checked] {
+    color: #5d7a38;
+}
+.lwuiTile:hover .lwuiCheckable .val {
+    background-color: #eee;
+}
+
+
+/* Button */
+.lwuiButton {
+    padding: 2px;
+    background-color: #ddd;
+    color: #444;
+    border: 1px solid #999;
+    border-radius: 2px;
+    text-align: center;
+    margin: 0 2px 2px 2px;
+    cursor: pointer;
+}
+.lwuiButton:hover:not([disabled]) {
+    color: #000;
+    border-color:  #444;
+}
+.lwuiButton[disabled] {
+    cursor: default;
+    color: #999999;
+}
+
+
+/* Editable */
+.lwuiEditable {
+    text-align: right;
+    width: 18em;
+}
+.lwuiEditable input {
+    margin-left: .5em;
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+    width: 12em;
+    padding: 0 .2em;
+}
+.lwuiEditable input:hover,
+.lwuiEditable input:focus {
+    border: 1px solid #999999;
+    background-color: #dddddd;
+}
+
+
+/* Checkable */
+.lwuiCheckable {
+    display: inline-block;
+    padding-right: .5em;
+}
+.lwuiCheckable label {
+    cursor: pointer;
+}
+.lwuiCheckable:hover {
+    background-color: #b9d19b;
+}
+
+
+/* Progress bar */
+.lwuiProgressBar {
+    height: 20px;
+    position: relative;
+}
+.lwuiProgressBar .done {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #5d7a38;
+}
+.lwuiProgressBar .remaining {
+    width: 0%;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #b4461d;
+}
+.lwuiProgressBar .text {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+    font-size: 14px;
+    color: #fff;
+    line-height: 14px;
+    padding: 3px 0;
+}
+
+
+/* Tool button */
+.lwuiToolButton {
+    cursor: pointer;
+    opacity: .7;
+    border: 1px solid transparent;
+    padding: 1px;
+    width: 18px;
+    height: 18px;
+}
+.lwuiToolButton:hover {
+    background-color: #dce5f3;
+}
+.lwuiToolButton.checked {
+    background-color: #dce5f3;
+    border-color: #7892b9;
+    opacity: 1;
+}
+
+/* Bar Chart */
+.lwuiBarChart svg text {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.lwuiBarChart svg text:hover {
+    fill: #fa0;
+}
+.lwuiBarChart svg text.dataValue {
+    fill: #fff;
+}
+.lwuiBarChart svg line {
+    stroke-width: 1px;
+    stroke: #aaa;
+}
+.lwuiBarChart svg rect.colRect {
+    fill: #0faf0a;
+}
+.lwuiBarChart svg rect.highlightRect {
+    fill: #bac7d6;
+}
+
+
+/* Tree Matrix */
+svg.lwuiTreeMatrix rect.bg-even {
+    fill: #efefef;
+}
+svg.lwuiTreeMatrix rect.bg-odd {
+    fill: #d1dde4;
+}
+svg.lwuiTreeMatrix line,
+svg.lwuiTreeMatrix polyline {
+    stroke: #555;
+    fill: none;
+    stroke-width: 2px;
+}
+svg.lwuiTreeMatrix text.title {
+    font-weight: bold;
+}
+svg.lwuiTreeMatrix g.items text {
+    cursor: pointer;
+}
+svg.lwuiTreeMatrix g.items text:hover {
+    fill: #fa0;
+}
+svg.lwuiTreeMatrix g.items.childrenSelected text {
+    fill: #aaa;
+}
+svg.lwuiTreeMatrix g.items text.selected {
+    fill: #000;
+}

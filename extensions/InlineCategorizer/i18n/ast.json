@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"inlinecategorizer-desc": "Módulu JavaScript que permite camudar, amestar y desaniciar enllaces de categoríes direutamente dende una páxina",
+	"inlinecategorizer-add-category": "Amestar categoría",
+	"inlinecategorizer-add-category-submit": "Amestar",
+	"inlinecategorizer-add-category-summary": "Amestar la categoría \"$1\"",
+	"inlinecategorizer-api-error": "La API devolvió un fallu: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "La API devolvió un fallu desconocíu.",
+	"inlinecategorizer-cancel": "Encaboxar la edición",
+	"inlinecategorizer-cancel-all": "Encaboxar tolos cambios",
+	"inlinecategorizer-category-already-present": "Esta páxina yá pertenez a la categoría \"$1\"",
+	"inlinecategorizer-category-hook-error": "Una función llocal torgó que se guardaren los cambios",
+	"inlinecategorizer-category-question": "Por qué quies facer los cambios darréu:",
+	"inlinecategorizer-confirm-ok": "Aceutar",
+	"inlinecategorizer-confirm-save": "Guardar",
+	"inlinecategorizer-confirm-save-all": "Guardar tolos cambios",
+	"inlinecategorizer-confirm-title": "Confirmar l'aición",
+	"inlinecategorizer-edit-category": "Editar categoría",
+	"inlinecategorizer-edit-category-error": "Nun se pudo editar la categoría \"$1\".\nEsto ocurre de vezu cuando la categoría s'amestó a la páxina nuna plantía.",
+	"inlinecategorizer-edit-category-summary": "Camudar la categoría \"$1\" a \"$2\"",
+	"inlinecategorizer-error-title": "Error",
+	"inlinecategorizer-remove-category": "Desaniciar categoría",
+	"inlinecategorizer-remove-category-error": "Nun se pudo desaniciar la categoría \"$1\".\nEsto ocurre de vezu cuando la categoría s'amestó a la páxina nuna plantía.",
+	"inlinecategorizer-remove-category-summary": "Desaniciar la categoría \"$1\""
+}

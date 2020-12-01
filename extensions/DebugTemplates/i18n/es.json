@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Macofe",
+			"Ncontinanza"
+		]
+	},
+	"debugtemplates": "Depuración de plantillas",
+	"debugtemplates-form": "Área de entrada",
+	"debugtemplates-desc": "Un depurador simple de plantillas",
+	"debugtemplates-summary": "Añade una [[special:DebugTemplates|página especial]] que proporciona una interfaz para depurar expansiones de plantillas.",
+	"debugtemplates-api": "URL para hacer llamadas a la API (de carácter informativo)",
+	"debugtemplates-title": "Título de la página (opcional, sólo para contexto)",
+	"debugtemplates-args-title": "Parámetros",
+	"debugtemplates-args-name": "Nombre",
+	"debugtemplates-args-eval": "Evaluar todos",
+	"debugtemplates-args-set": "¿Setear?",
+	"debugtemplates-args-value": "Valor",
+	"debugtemplates-args-eval-all": "Evaluar",
+	"debugtemplates-args-unused": "Ocultar/mostrar los que no se usan",
+	"debugtemplates-args-value-clear": "Borrar todos",
+	"debugtemplates-args-constructed": "sinnombre",
+	"debugtemplates-crumb-reset": "Vaciar la pila.",
+	"debugtemplates-error-button": "Borrar mensajes de errores",
+	"debugtemplates-error-eval": "Error: no se pudo evaluar el texto de entrada",
+	"debugtemplates-error-template-name": "Error: no se pudo determinar el nombre de la plantilla.",
+	"debugtemplates-error-template-page": "Error: no se pudo cargar la página de la plantilla.",
+	"debugtemplates-error-template-revisions": "Error: no existen revisiones de página para la plantilla.",
+	"debugtemplates-eval": "Evaluar todos",
+	"debugtemplates-input": "Texto de entrada",
+	"debugtemplates-intro": "Esta página ofrece una interfaz para depurar la expansión de plantilla de algún texto. Observa que esto está en desarrollo. Pero puedes probarlo escribiendo \"<nowiki>{{foo|abc}}</nowiki>\" en el área de entrada de texto.",
+	"debugtemplates-radio-select": "nada",
+	"debugtemplates-radio-eval": "evaluar",
+	"debugtemplates-reset": "Deshacer todas las evaluaciones",
+	"debugtemplates-undo": "Deshacer evaluación",
+	"debugtemplates-warning-template-not-a-template": "No se puede encontrar la plantilla:",
+	"debugtemplates-warning-template-not-found": "Plantilla desconocida o incorporada:",
+	"debugtemplates-output": "Panel de depuración",
+	"apihelp-expandframe-param-text": "El wikitexto que expandir."
+}

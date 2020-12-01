@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Hosiryuhosi",
+			"Shirayuki",
+			"Whym",
+			"青子守歌"
+		]
+	},
+	"patrol": "編集を巡回",
+	"patrol-desc": "負荷共有機能を持つ、巡回機能の拡張インターフェイス",
+	"patrol-endorse": "承認",
+	"patrol-revert": "差し戻し",
+	"patrol-revert-reason": "理由:",
+	"patrol-skip": "スキップ",
+	"patrol-reverting": "差し戻し中: $1",
+	"patrol-nonefound": "巡回すべき編集は見つかりませんでした。",
+	"patrol-endorsed-ok": "編集を巡回済みにしました。",
+	"patrol-endorsed-failed": "編集を巡回済みにできませんでした。",
+	"patrol-reverted-ok": "編集を差し戻しました。",
+	"patrol-reverted-failed": "編集を差し戻せませんでした。",
+	"patrol-skipped-ok": "編集を無視しています。",
+	"patrol-reasons": "* 単なる荒らし\n* 新規参加者によるテスト\n* ノートを参照",
+	"patrol-another": "あれば別の編集を表示する。",
+	"patrol-stopped": "あなたは別の編集を巡回しないよう設定しています。$1",
+	"patrol-resume": "再開するにはここをクリックしてください。",
+	"group-patroller": "巡回者",
+	"group-patroller-member": "{{GENDER:$1|巡回者}}",
+	"grouppage-patroller": "{{ns:project}}:巡回者",
+	"right-patroller": "ページを巡回",
+	"group-patroller.css": "/* ここに記述したCSSは巡回者のみに影響します */",
+	"group-patroller.js": "/* ここに記述したJSは巡回者のみに影響します */"
+}

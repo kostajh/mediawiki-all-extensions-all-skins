@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"ldapprovider-desc": "Забясьпечвае агульную інфраструктуру для злучэньня з LDAP-рэсурсам і запуску запытаў да яго",
+	"ldapprovider-config-clientregistry": "Дазваляе рэгістрацыю пэрсанальных кліентаў",
+	"ldapprovider-config-domainconfigs": "Захоўвае канфігурацыі для дамэнаў",
+	"ldapprovider-domain-config-not-found": "\n\nНяма доступу да канфігурацыйнага файлу «$1»!\n\nКалі ласка, правядзіце наладку канфігурацыйнага файлу дамэну для пашырэньня LDAPProvider.",
+	"ldapprovider-more-than-one": "Знойдзены больш чым адзін удзельнік для «$1»",
+	"ldapprovider-config-domainconfigprovider": "Вызначае мэханізм атрыманьня канфігурацыі дамэну"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"preferenceslist-desc": "產生用於特定偏好設定的所有使用者設置清單",
+	"preferenceslist-preferenceslist": "偏好設定清單",
+	"preferenceslist-preferenceslist-intro": "以下為偏好設定清單。請挑選一個或多個，來查看帶有相關偏好設定的所有使用者清單。",
+	"preferenceslist": "偏好設定清單",
+	"action-preferenceslist": "列出所有使用者的偏好設定",
+	"preferenceslist-csv": "下載成 CSV",
+	"preferenceslist-nofields": "沒有選擇欄位。",
+	"right-preferenceslist": "開啟 Special:PreferencesList 頁面"
+}

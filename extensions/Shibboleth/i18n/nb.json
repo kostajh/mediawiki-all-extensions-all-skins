@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"shibboleth-desc": "Tilbyr autentisering med Shibboleth i forbindelse med PluggableAuth",
+	"shibboleth-wg-empty-displayname": "Konfigurasjonsvariabelen <var>wgShibboleth_DisplayName</var> er tom i LocalSettings.php",
+	"shibboleth-wg-empty-email": "Konfigurasjonsvariabelen <var>wgShibboleth_Email</var> er tom i LocalSettings.php",
+	"shibboleth-wg-empty-username": "Konfigurasjonsvariabelen <var>wgShibboleth_Username</var> er tom i LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "Konfigurasjonsvariabelen <var>wgShibboleth_GroupMap</var> er tom i LocalSettings.php",
+	"shibboleth-attr-empty-username": "Shibboleth: brukernavnsattributt ikke satt",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: kan ikke finne GroupMap-attributt"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"DePlusJean",
+			"Gomoko",
+			"Thibaut120094",
+			"Urhixidur",
+			"Wladek92"
+		]
+	},
+	"multiupload": "Téléverser de multiples fichiers",
+	"multiupload-desc": "[[Special:MultiUpload|Page spéciale pour téléverser plusieurs fichiers en une seule fois]]",
+	"multiupload-text": "Utiliser le formulaire ci-dessous pour téléverser plusieurs fichiers.\nPour visualiser ou rechercher des fichiers précédemment téléversés, aller sur la [[Special:FileList|liste des fichiers téléversés]] ; les (re)téléversements sont aussi tracés dans le [[Special:Log/upload|journal des téléversements]], les suppressions le sont dans le [[Special:Log/delete|journal des suppressions]].\n\nPour inclure un fichier dans une page, utiliser un lien dans un des formulaires suivants :\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.jpg]]</nowiki></code></strong> pour utiliser la version complète du fichier\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.png|200px|thumb|left|texte alt]]</nowiki></code></strong> pour utiliser un rendu de 200 pixels de large dans un cadre avec une marge à gauche et « texte alt » comme description\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:File.ogg]]</nowiki></code></strong> pour lier directement avec le fichier sans l’afficher.\n\nUne fois le fichier sélectionné, cette page sera développée, vous permettant de sélectionner plus de fichiers avant un téléversement.\n\nPour déballer un fichier <code>.zip</code>, <code>.tar</code>, <code>.tar.gz</code>, ou <code>.tgz</code> et téléverser les fichiers qu’il contient, sélectionner le fichier du paquet puis utiliser le bouton « {{int:multiupload-unpack-button}} » qui apparaît.",
+	"multipleupload": "Téléverser des fichiers",
+	"multipleupload-toolbox": "Téléverser des fichiers multiples",
+	"multiupload-submit": "Téléverser des fichiers",
+	"multiupload-uploadedto": "Téléverser le fichier « $1 ».",
+	"multiupload-row": "Fichier « $1 »",
+	"multiupload-unpack-button": "Décompresser",
+	"multiupload-notify-ok": "OK",
+	"multiupload-upload-package-error": "Erreur durant le téléversement du fichier applicatif",
+	"multiupload-unpack-error": "Erreur durant la décompression du fichier",
+	"multiupload-unreadable-package": "Impossible de lire le fichier « $1 »",
+	"multiupload-http-error": "Impossible de se connecter au serveur.",
+	"multiupload-file-unpacked-from": "Fichier <b>$1</b> du paquet <b>$2</b>",
+	"apihelp-multiupload-unpack-description": "Décompresser un fichier ZIP ou tar avant d'importer son contenu.",
+	"apihelp-multiupload-unpack-summary": "Décompresser un fichier ZIP ou tar avant d'importer son contenu.",
+	"apihelp-multiupload-unpack-param-key": "\"clé de fichier\"(filekey) obtenue lors du téléversement vers la réserve, du fichier représentant associé au paquet",
+	"apihelp-multiupload-unpack-param-filename": "Nom de fichier du paquet"
+}

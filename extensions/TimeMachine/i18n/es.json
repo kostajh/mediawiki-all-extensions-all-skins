@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Sophivorus"
+		]
+	},
+	"timemachine": "Máquina del tiempo",
+	"timemachine-desc": "Luego de seleccionar una fecha en [[Especial:MáquinaDelTiempo]], permite navegar el contenido de la wiki como era en esa fecha.",
+	"timemachine-p1": "Indica una fecha más abajo para ver el wiki tal como era entonces.",
+	"timemachine-button1": "Ir a esta fecha",
+	"timemachine-p2": "Observa que solo el contenido del wiki cambiará. El estilo, la barra lateral, el pie de página y otros elementos del wiki permanecerán iguales.",
+	"timemachine-p3": "Para volver a explorar el wiki normalmente, pulsa en el botón siguiente o vacía tus «cookies».",
+	"timemachine-button2": "Volver al presente"
+}

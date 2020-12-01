@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup"
+		]
+	},
+	"special404-desc": "Pourchas a ra ur bajenn 404 dre ziouer evit ar fazioù dianav",
+	"error404": "404 dianav",
+	"special404-body": "N'eo ket bet kavet an URL goulennet ganeoc'h.\n\nHa fellout a rae deoc'h skrivañ {{fullurl:$1}}?\n\nMarteze ho po c'hoant da sellet ouzh :\n* [[{{MediaWiki:Mainpage}}|Ar bajenn degemer]]"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"action-supplementcomment": "rađenje dopunskim komentarima",
+	"action-supplementcomment-restricted": "rađenje dopunskim komentarima s ograničenim radnjama",
+	"group-supplementcomment": "DopunskiKomentari",
+	"group-supplementcomment-member": "{{GENDER:$1|DopunskiKomentari}}",
+	"grouppage-supplementcomment": "{{ns:project}}:DopunskiKomentari",
+	"log-name-revisioncommentsupplement": "Evidencija dopunskih komentara"
+}

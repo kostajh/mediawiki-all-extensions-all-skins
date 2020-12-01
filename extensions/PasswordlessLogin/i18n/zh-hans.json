@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian"
+		]
+	},
+	"passwordlesslogin": "无密码登录",
+	"passwordlesslogin-desc": "通过确认已连接设备上的登录，提供无密码登录的方法。",
+	"passwordlesslogin-verify-request": "请核实您的手机登录。",
+	"passwordlesslogin-error-no-authentication-workflow": "身份验证工作流程意外结束。",
+	"passwordlesslogin-no-challenge": "没有需要确认的主动挑战，请尝试再次验证。",
+	"passwordlesslogin-verification-pending": "身份验证尚未验证。请在您连接的设备上验证您的登录请求。",
+	"passwordlesslogin-pair-device-step": "请按照说明配对您的新设备。",
+	"passwordlesslogin-no-device-paired": "目前还没有设备配对。",
+	"passwordlesslogin-pair-device": "用于无密码登录的对设备",
+	"passwordlesslogin-login": "用您的智能手机登录"
+}

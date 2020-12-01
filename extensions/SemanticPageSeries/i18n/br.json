@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup"
+		]
+	},
+	"spssuccesstitle": "O krouiñ $1 pajenn",
+	"spssuccess": "{{PLURAL:$1|Ur bajenn|$1 a bajennoù}} a vo krouet.",
+	"spssuccess-returntoorigin": "Distreiñ da $1",
+	"spserror": "Ur fazi zo bet",
+	"spserror-formunknown": "N'eus ket eus ar stumm \"$1\"."
+}

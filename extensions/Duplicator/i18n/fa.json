@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alireza",
+			"Armin1392",
+			"Ebraminio"
+		]
+	},
+	"duplicator": "تکثیر یک صفحه",
+	"duplicator-desc": "ایجاد [[Special:Duplicate|copies of pages]] مستقل با سابقهٔ ویرایش کامل",
+	"duplicator-toolbox": "تکثیر این صفحه",
+	"duplicator-header": "این صفحه به تکثیر کامل یک صفحه، ایجاد نسخه‌های مستقل از همهٔ سوابق، اجازه می‌دهد.\nاین برای چند شاخه شدن و غیره مفید است.",
+	"duplicator-options": "تنظیمات",
+	"duplicator-source": "منبع:",
+	"duplicator-dest": "مقصد:",
+	"duplicator-dotalk": "تکثیر صفحهٔ بحث (اگر عملی باشد)",
+	"duplicator-dosubpages": "تکثیر صفحات زیرین ( اگر هر)",
+	"duplicator-dohistory": "تکثیر سوابق کامل صفحه",
+	"duplicator-submit": "تکراری",
+	"duplicator-summary": "کپی شده از [[$1]]، تجدید نظر [[$2]]",
+	"duplicator-success": "<big>'''[[$1]] کپی شده در [[$2]].'''</big>",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|revision was|revisions were}} کپی شده.",
+	"duplicator-success-talknotcopied": "صفحهٔ گفتگو نتوانست کپی شود.",
+	"duplicator-failed": "صفحه نتوانست تکثیر شود.\nیک خطای ناشناخته رخ داده است.",
+	"duplicator-failed-toolong": "[[$1]] تکثیر نبود. عنوان مقصد خیلی طولانی است.",
+	"duplicator-failed-dest-exists": "[[$1]] تکثیر نبود. مقصد [[$2]] در حال حاضر وجود دارد.",
+	"duplicator-source-invalid": "لطفاً یک عنوان منبع معتبر ارائه دهید.",
+	"duplicator-source-notexist": "[[$1]] وجود ندارد. لطفاً عنوان یک صفحهٔ موجود را ارائه دهید.",
+	"duplicator-dest-invalid": "لطفاً یک عنوان مقصد معتبر ارائه دهید.",
+	"duplicator-dest-exists": "[[$1]] در حال حاضر وجود دارد. لطفاً عنوان مقصدی را ارائه دهید، که موجود نیست.",
+	"right-duplicate": "صفحات تکراری"
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"basehooks-desc": "Legg til strenger eller filer før slutten av <code><nowiki><body></nowiki></code>-taggen"
+}

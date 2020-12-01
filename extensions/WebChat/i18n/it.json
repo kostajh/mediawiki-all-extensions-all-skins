@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darth Kule"
+		]
+	},
+	"webchat": "Web chat",
+	"webchat-desc": "Aggiunge una [[Special:WebChat|pagina speciale]] usata per chattare in tempo reale con altri utenti wiki",
+	"webchat-header": "Questa pagina speciale consente di collaborare in tempo reale con altri utenti del sito.\nPer connettersi premere semplicemente il pulsante \"Connect\".\nSe si è effettuato l'accesso verrà preinserito il proprio nickname.\nAgli utenti anonimi ne viene assegnato uno generato automaticamente che è possibile cambiare.",
+	"right-webchat": "Autorizzato a usare la [[Special:WebChat|web chat]]"
+}

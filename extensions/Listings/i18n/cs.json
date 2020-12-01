@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil",
+			"Vks"
+		]
+	},
+	"listings-desc": "Přidává značky pro uvádění míst",
+	"listings-unknown": "Neznámý cíl",
+	"listings-phone": "telefon",
+	"listings-fax": "fax",
+	"listings-email": "e-mail",
+	"listings-tollfree": "bezplatně",
+	"listings-checkin": "Ubytování: $1",
+	"listings-checkout": "odjezd: $1",
+	"listings-position": "pozice: $1"
+}

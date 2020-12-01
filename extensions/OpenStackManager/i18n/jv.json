@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"NoiX180"
+		]
+	},
+	"openstackmanager-desc": "Benaké panganggo nata Nova lan Swift",
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Tata kunci SSH umum Sampéyan",
+	"specialpages-group-nova": "Nova OpenStack",
+	"openstackmanager-novakey": "kunci Nova",
+	"openstackmanager-delete": "busak",
+	"openstackmanager-actions": "Laku",
+	"openstackmanager-notloggedin": "Kudu mlebu log",
+	"openstackmanager-mustbeloggedin": "Sampéyan kudu mlebu log kanggo nglakokaké iki.",
+	"openstackmanager-novapublickey": "Kunci SSH publik",
+	"openstackmanager-deletekey": "Busak kunci",
+	"openstackmanager-deletekeyconfirm": "Sampéyan yakin arep mbusak kunci nèng ndhuwur?",
+	"openstackmanager-keylist": "Daptar kunci",
+	"openstackmanager-name": "Jeneng",
+	"openstackmanager-fingerprint": "Sidhik driji",
+	"openstackmanager-keys": "Kunci",
+	"openstackmanager-deletedkey": "Suksès mbusak kunci.",
+	"openstackmanager-deletedkeyfailed": "Gagal mbusak kunci."
+}

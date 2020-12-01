@@ -1,0 +1,36 @@
+{
+	"name": "ScrollableTables",
+	"version": "0.3.0",
+	"author": [
+		"Clark Verbrugge"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ScrollableTables",
+	"descriptionmsg": "scrollabletables-desc",
+	"license-name": "CC0-1.0",
+	"type": "other",
+	"Hooks": {
+		"BeforePageDisplay": "ScrollableTablesHooks::registerModules"
+	},
+	"AutoloadClasses": {
+		"ScrollableTablesHooks": "ScrollableTablesHooks.php"
+	},
+	"MessagesDirs": {
+		"ScrollableTables": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.scrollableTables": {
+			"scripts": [
+				"js/ext.scrollableTables.thead.js",
+				"js/ext.scrollableTables.js"
+			],
+			"styles": "css/ext.scrollableTables.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "ScrollableTables/modules"
+	},
+	"manifest_version": 1
+}

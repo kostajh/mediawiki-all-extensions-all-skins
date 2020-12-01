@@ -1,0 +1,26 @@
+#bs-readconfirmation-container {
+
+	h3 {
+		margin: 0;
+		margin-bottom: 15px;
+	}
+
+	label {
+		padding: 0 0.5em;
+	}
+
+	#bs-rc-btn-ack {
+		visibility: hidden;
+		margin-left: 0.5em;
+	}
+}
+
+body.mediawiki #content {
+	.bs-extjs-actioncolumn-icon.bs-readconfirmation-action-log,
+	.bs-extjs-actioncolumn-icon.bs-readconfirmation-action-remind {
+		&[class*='icon-']:after,
+		&[class*='icon-']:before {
+			color: blue;
+		}
+	}
+}

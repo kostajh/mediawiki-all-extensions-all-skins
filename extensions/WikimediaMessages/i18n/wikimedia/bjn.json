@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ezagren",
+			"Mnam23",
+			"Nemo bis"
+		]
+	},
+	"sitesupport": "Manyumbang",
+	"tooltip-n-sitesupport": "Dukung kami",
+	"group-abusefilter": "Editor filter panyalahgunaan",
+	"group-bigexport": "Ikspurtir ganal",
+	"wikimedia-copyright": "Naskah tasadia di bawah <a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.id\">Lisensi Atribusi-BerbagiSerupa Creative Commons</a>; katantuan tambahan mungkin balaku. Itihi <a href=\"https://foundation.wikimedia.org/wiki/Terms_of_Use/id\">Katantuan Pamakaian</a> gasan labih jalasnya.",
+	"wikimedia-copyrightwarning": "Lawan manyimpan paubahan, pian hakun lawan [https://foundation.wikimedia.org/wiki/Terms_of_Use Katantuan Pamakaian], wan pian hakun haja malapas sumbangan pian dibawah [https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License Lisansi CC BY-SA 3.0] wan [https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License GFDL].\nPian satuju pambarian pranala atawa URL sudah dirasa mayu gasan atribusi dibawah Lisansi Creative Commons.",
+	"wikibase-sitelinks-wikinews": "Wikihabar",
+	"wikibase-sitelinks-wikiquote": "Wikikutip",
+	"wikibase-sitelinks-wikisource": "Wikipamulaan",
+	"wikibase-sitelinks-wikivoyage": "Wikiwisata",
+	"wikimedia-developers": "Pangambang",
+	"wikimedia-globalblocking-ipblocked": "'''Alamat IP Pian sudah [[m:Special:MyLanguage/Global blocks|diblukir pada samunyaan wiki]].'''\n\nPamblukiran digawi ulih $1 ($2).\nAlasan nang dibariakan adalah ''$3''.\n\n*Mulai diblukir: $4\n*Kadaluarsa blukir: $5\n\nAlamat IP Pian damini adalah $6.\nHarap sartaakan samunyaan rincian di atas dalam saban patakunan Pian.\n\nAmun Pian yakin Pian diblukir marupakan kasalahan, Pian kawa mahagai maklumat tambahan wan patunjuk di Kabijakan glubal [[m:Special:MyLanguage/No open proxies|kadada proksi tabuka]].\nJakanya kada, gasan mamandirakan hal ngini, silakan [[m:Steward requests/Global|mangirim parmintaan gasan dipariksa di Méta-Wiki]].",
+	"wikimedia-globalblocking-ipblocked-xff": "'''Asa atawa labih server proksi dipakai dalam kahandak pian [[m:Special:MyLanguage/Global blocks|diblokir pada samunyaan wiki]].'''\n\n\nPamblukiran digawi ulih $1 ($2).\nAlasannya \"$3\".\n\n* Mulai diblukir: $4\n* Ampih diblukir: $5\n\n\nAlamat pruksi nang diblukir adalah $6.\nMuhun buati samunyaan rarincian di atas dalam sabarataan takunan pian.\n\n\nAmun pian yakin pian diblukir maraga tasalah, pian kawa batamu panjalasan tambahan wan patunjuk di kabijakan global [[m:Special:MyLanguage/No open proxies|tanpa pruksi tabuka]].\nAmun kada, gasan mamandirakan pamblukiran ngini, muhun [[m:Steward requests/Global|kirim kahandak dipariksa di Meta-Wiki]]."
+}

@@ -1,0 +1,38 @@
+.mixin-link-color( @color, @color-hover ) {
+	color: @color;
+
+	&:hover{
+		color: @color-hover;
+	}
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+.mixin-link-title-color( @color, @color-hover, @color-new, @color-new-hover ) {
+	&,
+	&:link {
+		&:not( .new ) {
+			color: @color;
+
+			&:hover {
+				color: @color-hover;
+			}
+		}
+
+		&.new {
+			color: @color-new;
+
+			&:hover{
+				color: @color-new-hover;
+			}
+		}
+
+		&:hover,
+		&:focus {
+			text-decoration: none;
+		}
+	}
+}

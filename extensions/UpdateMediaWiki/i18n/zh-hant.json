@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"updatemediawiki": "更新 MediaWiki",
+	"updatemediawiki-desc": "允許透過特殊頁面更新 MediaWiki",
+	"updatemediawiki-current": "目前版本 $1",
+	"updatemediawiki-update-nofound": "沒有可用的更新",
+	"updatemediawiki-update-found": "找到新版本：$1",
+	"updatemediawiki-update-downloading": "下載新的更新內容中",
+	"updatemediawiki-update-saved": "更新下載並儲存完畢",
+	"updatemediawiki-update-exist": "更新已下載",
+	"updatemediawiki-update-copyready": "準備複製",
+	"updatemediawiki-update-database": "現在更新資料庫嗎？",
+	"updatemediawiki-update-updateready": "準備更新",
+	"updatemediawiki-update-install": "現在安裝？",
+	"updatemediawiki-update-updated": "MediaWiki 更新為版本 $1",
+	"updatemediawiki-update-error": "無法找出最新的釋出內容",
+	"updatemediawiki-update-aborted": "無法儲存新的更新。已停止處理流程"
+}

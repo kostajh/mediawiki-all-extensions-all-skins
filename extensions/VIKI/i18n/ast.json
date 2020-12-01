@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"viki-desc": "Dibuxa una gráfica de rede d'enllaces entre páxines wiki u páxines web",
+	"viki-error-title": "Error:",
+	"viki-error-missing-pageTitle": "Tienes de dar polo menos un títulu de páxina.",
+	"viki-timeout-content-namespace": "Escosó'l tiempu pa traer l'espaciu de nomes de conteníu pa la wiki: $1. Usando l'espaciu de nomes principal predetermináu.",
+	"viki-error-content-namespace": "Error al traer l'espaciu de nomes de conteníu pa la wiki: $1. Usando l'espaciu de nomes principal predetermináu.",
+	"viki-error-visit-node": "Error al intentar visitar la páxina: $1.",
+	"viki-error-external-links": "Error al traer los enllaces esternos de la páxina: $1.",
+	"viki-error-intrawiki-out": "Error al traer los enllaces de salida interwiki pa la páxina: $1.",
+	"viki-error-intrawiki-in": "Error al traer los enllaces de vuelta interwiki de la páxina: $1.",
+	"viki-error-https-node": "Error al ellaborar el nodu: $1. Tas trabayando sobre HTTPS; sólo tienes accesu a otres wikis per HTTPS.",
+	"viki-error-https-namespace": "Error al algamar l'espaciu de nomes de conteníu de la wiki: $1. Tas trabayando sobre HTTPS, sólo tienes accesu a otres wikis per HTTPS.",
+	"apihelp-getContentNamespaces-description": "Llograr la llista de los espacios de nomes de conteníu pa esta wiki.",
+	"apihelp-getContentNamespaces-summary": "Recibir la llista d'espacios de nomes de conteníu d'esta wiki."
+}

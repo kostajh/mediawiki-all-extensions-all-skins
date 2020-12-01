@@ -1,0 +1,132 @@
+{
+	"name": "LinkFilter",
+	"version": "3.8.0",
+	"author": [
+		"Aaron Wright",
+		"David Pean",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:LinkFilter",
+	"descriptionmsg": "linkfilter-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"config": {
+		"LinkFilterTypes": {
+			"1": "Arrest Report",
+			"2": "Awesome",
+			"3": "Cool",
+			"4": "Funny",
+			"6": "Interesting",
+			"7": "Obvious",
+			"8": "OMG WTF?!?",
+			"9": "Rumor",
+			"10": "Scary",
+			"11": "Stupid"
+		},
+		"LinkPageDisplay": {
+			"leftcolumn": true,
+			"rightcolumn": false,
+			"author": true,
+			"left_ad": false,
+			"popular_articles": false,
+			"in_the_news": false,
+			"comments_of_day": true,
+			"games": true,
+			"new_links": false
+		}
+	},
+	"SpecialPages": {
+		"LinkApprove": "LinkApprove",
+		"LinkEdit": "LinkEdit",
+		"LinksHome": "LinksHome",
+		"LinkRedirect": "LinkRedirect",
+		"LinkSubmit": "LinkSubmit"
+	},
+	"MessagesDirs": {
+		"LinkFilter": [
+			"i18n"
+		]
+	},
+	"namespaces": [
+		{
+			"id": 700,
+			"constant": "NS_LINK",
+			"name": "Link"
+		},
+		{
+			"id": 701,
+			"constant": "NS_LINK_TALK",
+			"name": "Link_talk"
+		}
+	],
+	"APIModules": {
+		"linkfilter": "ApiLinkFilter"
+	},
+	"ExtensionMessagesFiles": {
+		"LinkFilterAlias": "includes/LinkFilter.alias.php",
+		"LinkNamespaces": "includes/LinkFilter.namespaces.php"
+	},
+	"AutoloadClasses": {
+		"ApiLinkFilter": "includes/api/ApiLinkFilter.php",
+		"Link": "includes/Link.class.php",
+		"LinkList": "includes/LinkList.class.php",
+		"LinkPage": "includes/LinkPage.class.php",
+		"LinkFeed": "includes/LinkFeed.class.php",
+		"LinkStatus": "includes/LinkStatus.php",
+		"LinkFilterHooks": "includes/LinkFilter.hooks.php",
+		"LinkApprove": "includes/specials/SpecialLinkApprove.php",
+		"LinkEdit": "includes/specials/SpecialLinkEdit.php",
+		"LinksHome": "includes/specials/SpecialLinksHome.php",
+		"LinkRedirect": "includes/specials/SpecialLinkRedirect.php",
+		"LinkSubmit": "includes/specials/SpecialLinkSubmit.php"
+	},
+	"Hooks": {
+		"TitleMoveComplete": "LinkFilterHooks::updateLinkFilter",
+		"ArticleDelete": "LinkFilterHooks::deleteLinkFilter",
+		"ArticleFromTitle": "LinkFilterHooks::linkFromTitle",
+		"ParserFirstCallInit": "LinkFilterHooks::registerLinkFilterHook",
+		"LoadExtensionSchemaUpdates": "LinkFilterHooks::applySchemaChanges",
+		"CanonicalNamespaces": "LinkFilterHooks::onCanonicalNamespaces",
+		"Comment::add": "LinkFilterHooks::onCommentAdd",
+		"Comment::delete": "LinkFilterHooks::onCommentDelete"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "LinkFilter"
+	},
+	"ResourceModules": {
+		"ext.linkFilter.styles": {
+			"styles": "resources/css/LinkFilter.css"
+		},
+		"ext.linkFilter.scripts": {
+			"scripts": "resources/js/LinkFilter.js",
+			"dependencies": [
+				"mediawiki.api",
+				"mediawiki.util"
+			],
+			"messages": [
+				"linkfilter-admin-accept-success", "linkfilter-admin-reject-success",
+				"linkfilter-submit-no-title", "linkfilter-submit-no-type",
+				"linkfilter-submit-no-desc", "linkfilter-submit-no-url"
+			]
+		}
+	},
+	"AvailableRights": [
+		"linkadmin"
+	],
+	"GroupPermissions": {
+		"linkadmin": {
+			"linkadmin": true
+		},
+		"staff": {
+			"linkadmin": true
+		},
+		"sysop": {
+			"linkadmin": true
+		}
+	},
+	"manifest_version": 1
+}

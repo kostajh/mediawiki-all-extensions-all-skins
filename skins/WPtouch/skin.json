@@ -1,0 +1,53 @@
+{
+	"name": "WPtouch",
+	"version": "1.2",
+	"author": [
+		"Dale Mugford",
+		"Duane Storey",
+		"Dan Flores",
+		"Jack Phoenix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:WPtouch",
+	"license-name": "GPL-2.0-or-later",
+	"descriptionmsg": "wptouch-desc",
+	"type": "skin",
+	"ValidSkinNames": {
+		"wptouch": "WPtouch"
+	},
+	"MessagesDirs": {
+		"SkinWPtouch": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinWPtouch": "SkinWPtouch.php",
+		"WPtouchTemplate": "WPtouchTemplate.php",
+		"WPtouchHooks": "WPtouchHooks.php"
+	},
+	"Hooks": {
+		"OutputPageBodyAttributes": "WPtouchHooks::onOutputPageBodyAttributes"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "WPtouch"
+	},
+	"ResourceModules": {
+		"skins.wptouch": {
+			"styles": {
+				"resources/css/main.css": {
+					"media": "screen"
+				},
+				"resources/css/really-small.css": {
+					"media": "all and (max-width: 350px)"
+				}
+			}
+		},
+		"skins.wptouch.js": {
+			"scripts": [
+				"resources/javascript/core.js",
+				"resources/javascript/url-bar.js"
+			]
+		}
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Araceletorres",
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald",
+			"Luckas"
+		]
+	},
+	"openstackmanager-desc": "Permite que os usuários registrem contas shell e gerenciem suas chaves SSH",
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Gerenciar suas chaves SSH públicas",
+	"specialpages-group-nova": "Autenticação do OpenStack Manager",
+	"openstackmanager-novakey": "Chave do Nova",
+	"openstackmanager-delete": "excluir",
+	"openstackmanager-hiera-disabled": "Essas páginas não são mais usadas pelo cloud-vps. A configuração de marionetes e hiera pode ser modificada no Horizon.",
+	"openstackmanager-actions": "Ações",
+	"openstackmanager-notloggedin": "Login necessário",
+	"openstackmanager-mustbeloggedin": "Você deve estar logado para realizar esta ação.",
+	"openstackmanager-novapublickey": "Chave SSH pública:",
+	"openstackmanager-prefs-novapublickey": "Chaves SSH públicas:",
+	"openstackmanager-deletekey": "Excluir chave SSH pública",
+	"openstackmanager-deletekeyconfirm": "Tem certeza de que deseja excluir a chave acima?",
+	"openstackmanager-keylist": "Lista de chaves SSH públicas",
+	"openstackmanager-addkey": "Adicionar chave SSH pública",
+	"openstackmanager-name": "Nome",
+	"openstackmanager-fingerprint": "Impressão digital",
+	"openstackmanager-keys": "Chaves",
+	"openstackmanager-keypairimportfailed": "Falha ao importar keypair.",
+	"openstackmanager-keypairimported": "Keypair importado.",
+	"openstackmanager-keypairimportedfingerprint": "Importado keypair $1 com impressão digital $2.",
+	"openstackmanager-keypairformatwrong": "A chave SSH fornecida estava errada ou em formato desconhecido.",
+	"openstackmanager-keypairformatconverted": "O formato da chave SSH foi convertido automaticamente.",
+	"openstackmanager-deletedkey": "Chave excluída.",
+	"openstackmanager-deletedkeyfailed": "Falha ao excluir chave.",
+	"openstackmanager-shellaccountname": "Nome da conta do shell da instância",
+	"openstackmanager-shellaccountname-pref": "Nome da conta do shell da instância:",
+	"openstackmanager-shellaccountnamehelp": "É necessário um nome de conta de shell.\nDeve começar com a-z e pode conter apenas caracteres a-z, 0-9 e - minúsculos.",
+	"openstackmanager-shellaccountvalidationfail": "O nome da conta do shell não é válido.\nDeve começar com a-z e pode conter apenas caracteres a-z, 0-9 e - minúsculos.",
+	"openstackmanager-shellaccountexists": "Esse nome de conta de shell já está em uso.",
+	"prefs-openstack": "Openstack",
+	"prefs-openstack-keys": "Lista de chaves"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justincheng12345",
+			"Kly"
+		]
+	},
+	"nsfilerepo-desc": "為上傳的檔案提供基於名稱空間的特性",
+	"nsfilerepo-upload-target": "在名稱空間的目標檔案名稱",
+	"nsfilerepo-nsmain": "（主）",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext": "此欄位在重新上傳檔案時不可變動",
+	"nsfilerepo-move-file-namespace-action-label": "設定檔案命名空間",
+	"nsfilerepo-move-file-namespace-dialog-title": "設定檔案命名空間",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "完成",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "取消",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "命名空間"
+}

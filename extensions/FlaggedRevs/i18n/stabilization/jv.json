@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"NoiX180",
+			"Sumbukompor"
+		]
+	},
+	"stabilization-tab": "cèk",
+	"stabilization": "Stabilisasi kaca",
+	"stabilization-text": "'''Owahi setèlan ngisor iki saperlu nglarasaké carané milih lan macak vèrsi stabil [[:$1|$1]].'''",
+	"stabilization-perm": "Akuné panjenengan ora kawogan ngowahi konfigurasi vèrsi stabil.\nMangkéné setèlan saiki ngenani [[:$1|$1]]:",
+	"stabilization-page": "Jeneng kaca:",
+	"stabilization-leg": "Konfirmasi setèlan vèrsi stabil",
+	"stabilization-def": "Révisi sing dipacak ing sesawangan kaca gawan",
+	"stabilization-def1": "Vèrsi stabil; yèn ora ana, ya révisi sing anyar dhéwé",
+	"stabilization-def2": "Révisi pungkasan",
+	"stabilization-restrict": "Priksa/swapriksa watesan",
+	"stabilization-restrict-none": "Ora ana watesan tambahan",
+	"stabilization-submit": "Konfirmasi",
+	"stabilization-notexists": "Ora ana kaca ajeneng \"[[:$1|$1]]\".\nOra bisa dikonfigurasi.",
+	"stabilization-notcontent": "Kaca \"[[:$1|$1]]\" ora bisa dipriksa.\nOra bisa dikonfigurasi.",
+	"stabilization-comment": "Alesan:",
+	"stabilization-otherreason": "Alesan liya:",
+	"stabilization-expiry": "Kadaluwarsa:",
+	"stabilization-othertime": "Wektu liya:",
+	"stabilization-def-short": "Gawan",
+	"stabilization-def-short-0": "Saiki",
+	"stabilization-def-short-1": "Stabil",
+	"stabilize_page_invalid": "Sesirah kaca tujuan ora trep.",
+	"stabilize_page_notexists": "Kaca tujuan ora ana.",
+	"stabilize_page_unreviewable": "Kaca jujugan ora ana ing mandhala aran kang bisa kapriksa.",
+	"stabilize_invalid_autoreview": "Watesan swapriksa ora trep.",
+	"stabilize_invalid_level": "Tataran rereksan ora trep.",
+	"stabilize_expiry_invalid": "Tanggal kadaluwarsa ora trep.",
+	"stabilize_expiry_old": "Wektu kadaluwarsa iki wis kapungkur.",
+	"stabilize_denied": "Idin ditulak.",
+	"stabilize-expiring": "kadaluwarsa $1 (UTC)",
+	"stabilization-review": "Cénthangi révisi saiki"
+}

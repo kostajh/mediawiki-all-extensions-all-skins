@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Steve.rusyn",
+			"SteveR",
+			"Vlad5250",
+			"Ата"
+		]
+	},
+	"reassignedits": "Перепризначити редагування користувача",
+	"reassignedits-desc": "Дозволяє перепризначення редагувань від старого користувача до нового",
+	"reassignedits-error-invalid": "Недопустиме ім'я користувача: $1.",
+	"reassignedits-new": "Нове ім'я:",
+	"reassignedits-old": "Старе ім'я:",
+	"reassignedits-submit": "Відправити",
+	"reassignedits-success": "Редагування \"$1\" було перепризначено \"$2\".",
+	"reassignedits-summary": "Перепризначає редагування від старого користувача до нового",
+	"reassignedits-updatelog-title": "Оновити ім'я користувача у назві журналу",
+	"reassignedits-updatelog-user": "Оновити даного користувача у журналах",
+	"action-reassignedits": "перепризначення редагувань від старого користувача до нового",
+	"right-reassignedits": "Перепризначення редагувань від старого користувача до нового"
+}

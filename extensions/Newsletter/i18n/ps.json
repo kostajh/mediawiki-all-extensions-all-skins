@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
+	"newsletter-name": "د خبرليک نوم",
+	"newsletter-desc": "څرگندونه",
+	"newsletter-title": "د لومړي مخ سرليک",
+	"newslettercreate": "خبرليک جوړول",
+	"newsletter-create-submit": "خبرليک جوړول",
+	"newsletter-subtitlelinks-list": "د خبرليکونو لړليک",
+	"newsletter-subtitlelinks-create": "يو نوی خبرليک جوړول",
+	"newsletter-subtitlelinks-unsubscribe": "له ونډې وتل",
+	"newsletter-subtitlelinks-subscribe": "ونډه کښل",
+	"newsletter-subtitlelinks-announce": "خبرول",
+	"newsletter-subtitlelinks-manage": "مهارول",
+	"newsletters": "خبرليکونه",
+	"newsletter-view-description": "څرگندونه:",
+	"newsletter-announce-button": "خبرول",
+	"newsletter-announce-submit": "خبرول",
+	"newsletter-manage-name": "د خبرليک نوم:",
+	"newsletter-manage-title": "د لومړي مخ سرليک",
+	"newsletter-manage-description": "څرگندونه:",
+	"newsletter-subscribe-button-label": "هو",
+	"newsletter-unsubscribe-button-label": "نه",
+	"echo-category-title-newsletter": "خبرليکونه",
+	"newsletter-notification-link-text-view-newsletter": "خبرليک کتل",
+	"newsletter-header-name": "نوم",
+	"newsletter-header-description": "څرگندونه",
+	"newsletter-header-subscriber_count": "ونډه وال",
+	"right-newsletter-create": "خبرليکونه جوړول",
+	"action-newsletter-create": "خبرليکونه جوړول",
+	"action-newsletter-delete": "خبرليکونه ړنگول",
+	"action-newsletter-manage": "خبرليکونه مهارول",
+	"newsletter-list-option-all": "ټول خبرليکونه",
+	"newsletter-list-go-button": "ورځه",
+	"log-action-filter-newsletter-newsletter-added": "خبرليک جوړېدنه"
+}

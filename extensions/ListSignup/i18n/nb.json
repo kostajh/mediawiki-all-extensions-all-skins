@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"listsignup": "Listeregistrering",
+	"listsignup-desc": "Egendefinert skjema for listeregistrering",
+	"listsignup-legend": "Skriv inn informasjonen din nedenfor.",
+	"listsignup-success": "Epostadressen din ble sendt inn.",
+	"listsignupdisplay": "Visning av listeregistrering",
+	"listsignuppurge": "Gjenoppfrisk listeregistrering",
+	"listsignuppurge-legend": "Gjenoppfrisk all informasjon fra registreringslisten",
+	"listsignuppurge-pretext": "'''Advarsel!''' Dette vil fjerne alle adresser fra listen. Denne handlingen kan ikke angres.",
+	"listsignuppurge-success": "Listen ble gjenoppfrisken!",
+	"right-viewlistsignupdisplay": "Vis registreringslisten",
+	"right-purgelistsignupdisplay": "Gjenoppfrisk registreringslisten",
+	"action-viewlistsignupdisplay": "vise registreringslisten",
+	"action-purgelistsignupdisplay": "gjenoppfriske registreringslisten"
+}

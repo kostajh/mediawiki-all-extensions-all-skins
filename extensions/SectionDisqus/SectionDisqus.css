@@ -1,0 +1,9 @@
+.disqus_button {
+	cursor: pointer;
+	font-size: small;
+	font-weight: normal;
+}
+
+#disqus_dialog {
+	display: none;
+}

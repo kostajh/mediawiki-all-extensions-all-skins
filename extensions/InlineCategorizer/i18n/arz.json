@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"Ramsis II"
+		]
+	},
+	"inlinecategorizer-add-category": "ضيف تصنيف",
+	"inlinecategorizer-add-category-submit": "ضيف",
+	"inlinecategorizer-add-category-summary": "حط التصنيف \"$1\"",
+	"inlinecategorizer-confirm-save": "سييف",
+	"inlinecategorizer-confirm-title": "تأكيد العمليه",
+	"inlinecategorizer-error-title": "غلط",
+	"inlinecategorizer-remove-category-error": "مانفعش نشيل التصنيف دا \"$1\".\nدا بيحصل عادة لما التصنيف بيتحط فى الصفحه عن طريق القالب",
+	"inlinecategorizer-remove-category-summary": "شيل التصنيف \"$1\""
+}

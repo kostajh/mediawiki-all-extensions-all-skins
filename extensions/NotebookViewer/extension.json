@@ -1,0 +1,32 @@
+{
+	"name": "NotebookViewer",
+	"version": "0.0.1",
+	"author": [
+		"Yuvi Panda"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NotebookViewer",
+	"descriptionmsg": "notebookviewer-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"AutoloadClasses": {
+		"NotebookContent": "NotebookContent.php",
+		"NotebookContentHandler": "NotebookContentHandler.php"
+	},
+	"MessagesDirs": {
+		"NotebookViewer": [
+			"i18n"
+		]
+	},
+	"namespaces": [
+		{
+			"id": 486,
+			"constant": "NS_NOTEBOOK",
+			"name": "Notebook",
+			"defaultcontentmodel": "Notebook"
+		}
+	],
+	"ContentHandlers": {
+		"Notebook": "NotebookContentHandler"
+	},
+	"manifest_version": 1
+}

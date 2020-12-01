@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazy1880",
+			"Inkowik",
+			"Metalhead64"
+		]
+	},
+	"apifeatureusage": "API-Funktionsverwendung",
+	"apifeatureusage-desc": "Ermöglicht den Abruf einer Zusammenfassung protokollierter API-Funktionsverwendungen für einen Benutzeragenten",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch-Fehler: $1",
+	"apifeatureusage-legend": "API-Funktionsverwendung",
+	"apifeatureusage-agent-label": "Benutzeragent:",
+	"apifeatureusage-startdate-label": "Startdatum:",
+	"apifeatureusage-enddate-label": "Enddatum:",
+	"apifeatureusage-submit": "Daten abrufen",
+	"apifeatureusage-no-indexes": "Für den angegebenen Datumsbereich sind keine Daten verfügbar.",
+	"apifeatureusage-missing-indexes": "Für einen Teil des angegebenen Datumsbereichs sind keine Daten verfügbar.",
+	"apifeatureusage-warnings": "Warnung: $1",
+	"apifeatureusage-column-feature": "Funktion",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-column-uses": "Verwendet",
+	"apihelp-query+featureusage-description": "Ruft eine Zusammenfassung protokollierter API-Funktionsverwendungen für einen Benutzeragenten ab.",
+	"apihelp-query+featureusage-summary": "Ruft eine Zusammenfassung protokollierter API-Funktionsverwendungen für einen Benutzeragenten ab.",
+	"apihelp-query+featureusage-param-start": "Beginn des Datumsbereich für die Anfrage.",
+	"apihelp-query+featureusage-param-end": "Ende des Datumsbereichs für die Anfrage.",
+	"apihelp-query+featureusage-param-agent": "Anzufragender Benutzeragent. Falls nicht angegeben, wird der Agent in der Anfrage abgefragt.",
+	"apihelp-query+featureusage-param-features": "Falls angegeben, gibt Einzelheiten nur zu diesen Funktionen zurück.",
+	"apihelp-query+featureusage-example-simple": "Funktionsverwendung für den aktuellen Benutzeragenten abfragen",
+	"apierror-apifeatureusage-emptyagent": "Es kann kein leerer Benutzeragent abgefragt werden.",
+	"apifeatureusage-deprecation-help": "Verwende [[Special:ApiFeatureUsage]], um die Nutzung veralteter Funktionen deiner Anwendung anzusehen."
+}

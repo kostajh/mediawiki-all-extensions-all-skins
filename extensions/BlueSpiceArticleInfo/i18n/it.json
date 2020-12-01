@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Dansita",
+			"Nemo bis"
+		]
+	},
+	"bs-articleinfo-desc": "Fornisce informazioni sulla pagina nella barra di stato",
+	"prefs-articleinfo": "Informazioni sulla pagina",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Intervallo di aggiornamento in secondi:",
+	"bs-articleinfo-flyout-title": "Informazioni sulla pagina",
+	"bs-articleinfo-flyout-intro": "Qui trovi le informazioni relative alla pagina. Puoi verificarne la qualità e l'attualità e vedere come si relaziona ad altre pagine nel wiki.",
+	"bs-articleinfo-nav-link-title": "Informazioni pagina",
+	"bs-articleinfo-flyout-categorylinks-title": "Categorie",
+	"bs-articleinfo-flyout-templatelinks-title": "Template utilizzati nella pagina",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Nessuna categoria assegnata",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Nessun template utilizzato",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Ultima modifica",
+	"bs-articleinfo-flyout-lastediteduser-text": "Ultima modifica",
+	"bs-articleinfo-newrevision-info-text": "È disponibile una nuova versione di questa pagina. Ricarica la pagina per visualizzare il contenuto attuale.",
+	"bs-articleinfo-flyout-subpages-title": "Sottopagine",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Sottopagine",
+	"bs-articleinfo-dialog-subpages-title": "Sottopagine"
+}

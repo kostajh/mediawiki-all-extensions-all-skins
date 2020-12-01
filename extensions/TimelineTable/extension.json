@@ -1,0 +1,48 @@
+{
+	"name": "TimelineTable",
+	"version": "2.1",
+	"author": "Thibault Marin",
+	"url": "https://www.mediawiki.org/wiki/Extension:TimelineTable",
+	"descriptionmsg": "timelinetable-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"TimelineTable": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"TimelineTableHooks": "includes/TimelineTableHooks.php",
+		"TimelineTableEvent": "includes/TimelineTableEvent.php",
+		"TimelineTableDepthDesc": "includes/TimelineTableDepthDesc.php",
+		"TimelineTableDateDiffHelper": "includes/TimelineTableDateDiffHelper.php",
+		"TimelineTableTable": "includes/TimelineTableTable.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "TimelineTableHooks::efTimelineTableParserInit",
+		"ParserAfterTidy": "TimelineTableHooks::efTimelineTableAfterTidy"
+	},
+	"config": {
+		"TimelineTableLineSeparator": {
+			"value": "\n"
+		},
+		"TimelineTableFieldSeparator": {
+			"value": "|"
+		},
+		"TimelineTableEventSeparator": {
+			"value": "#"
+		},
+		"TimelineTableDateSeparator": {
+			"value": "-"
+		},
+		"TimelineTableAbbrMonth": {
+			"value": false
+		},
+		"TimelineTableShortMonthLen": {
+			"value": 1
+		}
+	},
+	"manifest_version": 2
+}

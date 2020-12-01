@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094"
+		]
+	},
+	"simplesort-desc": "Tri simple d’une chaîne d’éléments basée sur un délimiteur donné.",
+	"simplesort-err": "Option non reconnue pour SimpleSort : « $1 »"
+}

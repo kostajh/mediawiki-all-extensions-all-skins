@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"rt-desc": "Fancy interface to RT (Request Tracker)",
+	"rt-inactive": "The RT extension is not active.",
+	"rt-badquery": "The RT extension encountered an error when talking to the RT database.",
+	"rt-badlimit": "Invalid <code>LIMIT</code> (<code>l</code>) arg: must be a number.\nYou tried: '''$1'''",
+	"rt-badorderby": "Invalid <code>ORDER BY</code> (<code>ob</code>) arg: must be a standard field (see documentation).\nYou tried: '''$1'''",
+	"rt-badstatus": "Invalid <code>status</code> (<code>s</code>) arg: must be a standard field (see documentation).\nYou tried: '''$1'''",
+	"rt-badcfield": "Invalid custom field arg: must be a simple word (see documentation).\nYou tried: '''$1'''",
+	"rt-badqueue": "Invalid <code>queue</code> (<code>q</code>) arg: must be a simple word.\nYou tried: '''$1'''",
+	"rt-badowner": "Invalid <code>owner</code> (<code>o</code>) arg: must be a valid username.\nYou tried: '''$1'''",
+	"rt-nomatches": "No matching RT tickets were found."
+}

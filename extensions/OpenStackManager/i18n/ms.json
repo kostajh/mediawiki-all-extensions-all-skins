@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Jeluang Terluang",
+			"Pizza1016"
+		]
+	},
+	"openstackmanager-desc": "Izinkan pengguna menguruskan Nova dan Swift",
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Uruskan kunci SSH awam anda",
+	"specialpages-group-nova": "OpenStack Nova",
+	"openstackmanager-novakey": "Kunci Nova",
+	"openstackmanager-delete": "hapuskan",
+	"openstackmanager-actions": "Tindakan",
+	"openstackmanager-notloggedin": "Log masuk diperlukan",
+	"openstackmanager-mustbeloggedin": "Anda mesti log masuk untuk melakukan tindakan ini.",
+	"openstackmanager-novapublickey": "Kunci SSH awam",
+	"openstackmanager-prefs-novapublickey": "Kunci SSH awam:",
+	"openstackmanager-deletekey": "Hapuskan kunci SSH awam",
+	"openstackmanager-deletekeyconfirm": "Adakah anda betul-betul ingin menghapuskan kunci di atas?",
+	"openstackmanager-keylist": "Senarai kunci SSH awam",
+	"openstackmanager-addkey": "Tambah kunci SSH awam",
+	"openstackmanager-name": "Nama",
+	"openstackmanager-fingerprint": "Cap jari",
+	"openstackmanager-keys": "Kunci",
+	"openstackmanager-keypairimportfailed": "Pasangan kunci gagal diimport.",
+	"openstackmanager-keypairimported": "Pasangan kunci diimport.",
+	"openstackmanager-keypairimportedfingerprint": "Pasangan kunci $1 diimport dengan cap jari $2.",
+	"openstackmanager-keypairformatwrong": "Kunci SSH yang diberikan itu salah atau tidak dikenali formatnya.",
+	"openstackmanager-keypairformatconverted": "Kunci SSH yang diberikan itu telah diubah secara automatik.",
+	"openstackmanager-deletedkey": "Kunci berjaya dihapuskan.",
+	"openstackmanager-deletedkeyfailed": "Kunci gagal dihapuskan.",
+	"openstackmanager-shellaccountname": "Nama akaun kekerang tika",
+	"openstackmanager-shellaccountname-pref": "Nama akaun kekerang tika:",
+	"openstackmanager-shellaccountnamehelp": "Nama akaun kekerang diperlukan.\n\nNama akaun bermula dengan a-z, dan mengandungi huruf kecil a-z, nombor 0-9, dan dan tanda - sahaja.",
+	"prefs-openstack": "OpenStack",
+	"prefs-openstack-keys": "Senarai kunci"
+}

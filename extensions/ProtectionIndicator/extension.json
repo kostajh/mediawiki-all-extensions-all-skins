@@ -1,0 +1,61 @@
+{
+	"name": "ProtectionIndicator",
+	"author": [
+		"Sohom Datta"
+	],
+	"version": "0.1",
+	"url": "https://www.mediawiki.org/wiki/Extension:ProtectionIndicator",
+	"descriptionmsg": "protectionindicator-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ProtectionIndicator\\": "includes/"
+	},
+	"config": {
+		"ShowIconsOnMainPage": {
+			"description": "Config to show icons on Main Page",
+			"value": false
+		},
+		"ShowLogInPopup": {
+			"description": "Config to show the latest protection entry in the popup",
+			"value": true
+		}
+	},
+	"Hooks": {
+		"ArticleViewHeader": "MediaWiki\\Extension\\ProtectionIndicator\\ProtectionIndicatorHooks::onArticleViewHeader",
+		"ParserFirstCallInit": "MediaWiki\\Extension\\ProtectionIndicator\\ProtectionIndicatorHooks::onParserFirstCallInit",
+		"ContentAlterParserOutput": "MediaWiki\\Extension\\ProtectionIndicator\\ProtectionIndicatorHooks::onContentAlterParserOutput"
+	},
+	"MessagesDirs": {
+		"ProtectionIndicator": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ProtectionIndicator/resources"
+	},
+	"ResourceModules": {
+		"ext.protectionIndicator": {
+			"dependencies": [
+				"oojs-ui-core",
+				"mediawiki.api",
+				"mediawiki.jqueryMsg"
+			],
+			"messages": [],
+			"styles": [
+				"ext.protectionIndicator/init.css"
+			],
+			"scripts": [
+				"ext.protectionIndicator/init.js"
+			]
+		},
+		"ext.protectionIndicator.custom": {
+			"class": "MediaWiki\\Extension\\ProtectionIndicator\\CustomProtectionIndicator"
+		}
+	},
+	"manifest_version": 2
+}

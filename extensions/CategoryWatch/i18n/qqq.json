@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Purodha",
+			"Shirayuki",
+			"Siebrand",
+			"The Evil IP address"
+		]
+	},
+	"categorywatch-desc": "{{desc}}",
+	"categorywatch-emailsubject": "Subject of notification E-mail\n* $1 - page title",
+	"categorywatch-catmovein": "Substituted as $5 in {{msg-mw|categorywatch-emailbody}}.\n* $1 is a page name\n* $2 is the target category name\n* $3 is the source category name",
+	"categorywatch-catmoveout": "Substituted as $5 in {{msg-mw|categorywatch-emailbody}}.\n* $1 is a page name\n* $2 is the source category name\n* $3 is the target category name",
+	"categorywatch-catadd": "Substituted as $5 in {{msg-mw|categorywatch-emailbody}}.\n* $1 is a page name\n* $2 is a category name",
+	"categorywatch-catsub": "Substituted as $5 in {{msg-mw|categorywatch-emailbody}}.\n* $1 is a page name\n* $2 is a category name",
+	"categorywatch-autocat": "If the \"automatically watching\" feature is enabled, this message is used as a page title in the watchlist.\n* $1 is a username (or a realname)",
+	"categorywatch-notification-link": "Category: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "Header for when a page is added to the category",
+	"categorywatch-notification-categorywatch-add-summary": "Summary when a page is added to the category",
+	"categorywatch-notification-categorywatch-add-body": "Tell which user added a page to the category",
+	"categorywatch-notification-categorywatch-remove-header": "Header for when a page is removed from the category",
+	"categorywatch-notification-categorywatch-remove-summary": "Summary for when a page is removed from the category",
+	"categorywatch-notification-categorywatch-remove-body": "Tell which user removed a page from the category",
+	"categorywatch-notification-bundle": "Name of bundle for CategoryWatch notifications",
+	"categorywatch-add-title": "Title added to watched category",
+	"categorywatch-remove-title": "Title removed from watched category",
+	"categorywatch-page-watch-pref": "String to display for the preference to add all pages added to the watched categories to the watchlist",
+	"echo-category-title-categorywatch": "Membership changes in categories watched",
+	"echo-pref-tooltip-categorywatch": "Tooltip for categorywatch notification preference"
+}

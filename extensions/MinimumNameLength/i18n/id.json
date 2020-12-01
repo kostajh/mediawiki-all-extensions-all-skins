@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana"
+		]
+	},
+	"minimumnamelength-desc": "Memungkinkan penetapan panjang nama pengguna minimum",
+	"minimumnamelength-error": "Nama pengguna Anda terlalu pendek. Panjang minimum yang dibolehkan adalah {{PLURAL:$1|satu karakter|$1 karakter}}."
+}

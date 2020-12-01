@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"phptagsfunctions-desc": "Implementerer de interne funksjonene i PHP for utvidelsen PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "Avgrensningstegnet kan ikke være alfanumerisk eller omvendt skråstrek",
+	"phptagsfunctions-preg-no-ending-delimiter": "Ingen avsluttende avgrensningstegn «$1» funnet",
+	"phptagsfunctions-preg-unknown-modifier": "Ukjent modifikator «$1»"
+}

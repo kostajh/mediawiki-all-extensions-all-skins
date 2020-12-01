@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Sayginer",
+			"Vito Genovese"
+		]
+	},
+	"bs-contextmenu-desc": "Çeşitli bağlantılar için bağlam menüleri sağlar",
+	"prefs-contextmenu": "Bağlam menüsü",
+	"bs-contextmenu-pref-modus": "Bağlam menüsünü şununla aç (mobil cihazlar için değil):",
+	"bs-contextmenu-pref-modus-just-right-mouse": "Sağ fare düğmesine tıklayın (CTRL tuşuna basıldığında varsayılan tarayıcı bağlam menüsü gösterilir)",
+	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "Sağ fare düğmesine tıklayın ve CTRL düğmesine basın (Normal sağ fare düğmesi varsayılan tarayıcı menüsünü gösterir)",
+	"bs-contextmenu-page-edit": "Sayfayı düzenle",
+	"bs-contextmenu-page-delete": "Sayfayı sil",
+	"bs-contextmenu-page-move": "Sayfayı taşı",
+	"bs-contextmenu-page-history": "Sayfa geçmişini görüntüle",
+	"bs-contextmenu-page-protect": "Sayfayı korumaya al",
+	"bs-contextmenu-page-purge": "Ön belleği temizle ve sayfayı görüntüle",
+	"bs-contextmenu-page-info": "Sayfa bilgilerini görüntüle",
+	"bs-contextmenu-media-reupload": "Yeni sürüm yükle",
+	"bs-contextmenu-media-view-page": "Dosya açıklama sayfası ve geçmişini görüntüle",
+	"bs-contextmenu-user-mail": "E-posta gönder",
+	"bs-contextmenu-user-talk": "İletiyi tartışma sayfasında bırak",
+	"bs-contextmenu-file-download": "Dosyayı indir",
+	"apihelp-bs-contextmenu-tasks-description": "Bağlam menüsü öğelerini bağlam içinde sağlar",
+	"apihelp-bs-contextmenu-tasks-summary": "Bağlam menüsü öğelerini bağlam içinde sağlar"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"SVG"
+		]
+	},
+	"reassignedits": "Reassign user edits",
+	"reassignedits-desc": "Allows reassigning edits from an old user to a new one",
+	"reassignedits-error-invalid": "The username \"$1\" is invalid.",
+	"reassignedits-new": "New username",
+	"reassignedits-old": "Old username",
+	"reassignedits-submit": "Submit",
+	"reassignedits-success": "The edits by \"$1\" were reassigned to \"$2\".",
+	"reassignedits-summary": "Reassign edits from an old user to a new one.",
+	"reassignedits-updatelog-title": "Update username in log titles",
+	"reassignedits-updatelog-user": "Update performing user in logs",
+	"action-reassignedits": "reassign edits from an old user to a new one",
+	"right-reassignedits": "Reassign edits from an old user to a new one"
+}

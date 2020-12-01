@@ -1,0 +1,42 @@
+{
+	"name": "HelpPages",
+	"version": "0.4.0",
+	"author": "Kunal Mehta",
+	"url": "https://www.mediawiki.org/wiki/Extension:HelpPages",
+	"descriptionmsg": "helppages-desc",
+	"license-name": "Unlicense",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"HelpPages": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"HelpPages": "HelpPages.body.php",
+		"HelpPagesHooks": "HelpPages.hooks.php"
+	},
+	"ResourceModules": {
+		"ext.HelpPages": {
+			"styles": "ext.HelpPages.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "HelpPages"
+	},
+	"Hooks": {
+		"ShowMissingArticle": "HelpPagesHooks::onShowMissingArticle",
+		"SkinTemplateNavigation::Universal": "HelpPagesHooks::onSkinTemplateNavigationUniversal",
+		"ArticlePurge": "HelpPagesHooks::onArticlePurge",
+		"HtmlPageLinkRendererBegin": "HelpPagesHooks::onHtmlPageLinkRendererBegin"
+	},
+	"config": {
+		"HelpPagesExpiry": {
+			"value": 604800
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,51 @@
+{
+	"name": "ImageCompare",
+	"author": [
+		"Le Duy Quang"
+	],
+	"version": "0.0.3",
+	"url": "https://www.mediawiki.org/wiki/Extension:ImageCompare",
+	"descriptionmsg": "imageCompare-desc",
+	"license-name": "MIT",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"ImageCompare": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"ImageCompare": "ImageCompare_main.php",
+		"ImageCompareException": "ImageCompare_exception.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "ImageCompare::onParserInit"
+	},
+	"ResourceModules": {
+		"ext.imageCompare": {
+			"scripts": "ext.imageCompare.js",
+			"localBasePath": "resources",
+			"remoteExtPath": "ImageCompare/resources"
+		},
+		"ext.imageCompare.styles": {
+			"styles": "ext.imageCompare.styles.css",
+			"localBasePath": "resources",
+			"remoteExtPath": "ImageCompare/resources"
+		},
+		"ext.imageCompare.mobile": {
+			"targets": "mobile",
+			"scripts": "ext.imageCompare.mobile.js",
+			"localBasePath": "resources",
+			"remoteExtPath": "ImageCompare/resources"
+		},
+		"ext.imageCompare.styles.mobile": {
+			"targets": "mobile",
+			"styles": "ext.imageCompare.styles.mobile.css",
+			"localBasePath": "resources",
+			"remoteExtPath": "ImageCompare/resources"
+		}
+	},
+	"manifest_version": 2
+}

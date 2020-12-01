@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"bs-socialtopics-toc-entalkpageautocreate": "Автоматски создавај ги сите разговорни страници",
+	"bs-socialdiscussion-discussiontype": "Разговор",
+	"bs-socialdiscussion-topictype": "Тема на разговор",
+	"bs-socialtopics-entitydiscussion-header-create": "Создај нов разговор",
+	"bs-social-entitytopic-header-create": "Нова тема",
+	"bs-socialtopics-var-topictitle": "Наслов",
+	"topics": "Теми",
+	"bs-socialtopics-special-topics-heading": "Сите теми",
+	"bs-socialtopics-special-topics-heading-entry": "Тема/$1",
+	"bs-socialtopics-aftercontent-heading": "Разговори",
+	"bs-socialtopics-nodiscussionpage-create": "Создај нова разговорна страница",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "Зачувај",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "Откажи",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "Содржина"
+}

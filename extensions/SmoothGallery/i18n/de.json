@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"MF-Warburg",
+			"Purodha",
+			"Raimond Spekking",
+			"Umherirrender"
+		]
+	},
+	"smoothgallery": "SmoothGallery",
+	"smoothgallery-desc": "Ermöglicht die Erstellung von interaktiven Bildgalerien",
+	"smoothgallery-title": "SmoothGallery",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery: $1",
+	"smoothgallery-error": "<b>SmoothGallery-Fehler:</b>",
+	"smoothgallery-gallery-not-found": "Die angeforderte Galerie ist nicht vorhanden.",
+	"smoothgallery-not-found": "Die Galerie enthält keine Bilder. Bitte mindestens ein Bild hinzufügen.",
+	"smoothgallery-no-images": "In dieser Galerie sind keine Bilder zu finden. {{PLURAL:$3|Ist das angeforderte Bild|Sind alle angeforderten Bilder}} vorhanden? Es {{PLURAL:$2|fehlt|fehlen}}: $1",
+	"smoothgallery-invalid-images": "{{PLURAL:$2|Das folgende Bild hat|Die folgenden Bilder haben}} einen ungültigen Typ: $1",
+	"smoothgallery-unexpected-error": "Es ist ein unerwarteter Fehler aufgetreten. Bitte schreibe eine Fehlermeldung.",
+	"smoothgallery-javascript-disabled": "JavaScript wird benötigt, um die Galerie darzustellen."
+}

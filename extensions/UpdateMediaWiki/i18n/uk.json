@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"updatemediawiki": "Оновлення MediaWiki",
+	"updatemediawiki-desc": "Дає змогу оновлювати MediaWiki через спеціальну сторінку",
+	"updatemediawiki-current": "Поточна версія $1",
+	"updatemediawiki-update-nofound": "Немає доступних оновлень",
+	"updatemediawiki-update-found": "Знайдено нове оновлення: $1",
+	"updatemediawiki-update-downloading": "Завантаження нового оновлення",
+	"updatemediawiki-update-saved": "Оновлення завантажено і збережено",
+	"updatemediawiki-update-exist": "Оновлення вже завантажено",
+	"updatemediawiki-update-copyready": "Копія готова",
+	"updatemediawiki-update-database": "Оновити базу даних прямо зараз?",
+	"updatemediawiki-update-updateready": "Оновлення готове",
+	"updatemediawiki-update-install": "Встановити прямо зараз?",
+	"updatemediawiki-update-updated": "MediaWiki оновлено до версії $1",
+	"updatemediawiki-update-error": "Не вдалося знайти останні випуски",
+	"updatemediawiki-update-aborted": "Не вдалося зберегти нове оновлення. Операцію перервано"
+}

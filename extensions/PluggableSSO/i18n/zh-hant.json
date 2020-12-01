@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"pluggablesso-desc": "使用 $REMOTE_USER 有與 PluggableAuth 連接的網頁伺服器所提供的單點登錄",
+	"pluggablesso-no-session": "沒取得使用者名稱，因某些原因產生 session 錯誤。",
+	"pluggablesso-username-mismatch": "使用者名稱不符合 session 內容"
+}

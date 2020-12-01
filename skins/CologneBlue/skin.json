@@ -1,0 +1,79 @@
+{
+	"name": "Cologne Blue",
+	"author": [
+		"Lee Daniel Crocker",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Cologne_Blue",
+	"descriptionmsg": "cologneblue-desc",
+	"namemsg": "skinname-cologneblue",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"ValidSkinNames": {
+		"cologneblue": {
+			"class": "SkinCologneBlue",
+			"args": [
+				{
+					"name": "cologneblue",
+					"styles": [
+						"skins.cologneblue.i18n",
+						"skins.cologneblue"
+					]
+				}
+			]
+		}
+	},
+	"MessagesDirs": {
+		"CologneBlue": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"skins.cologneblue.i18n": {
+			"class": "ResourceLoaderLessVarFileModule",
+			"lessMessages": [
+				"pipe-separator"
+			],
+			"styles": [
+				"resources/skins.cologneblue.i18n.less"
+			],
+			"targets": [
+				"desktop", "mobile"
+			]
+		},
+		"skins.cologneblue": {
+			"class": "ResourceLoaderSkinModule",
+			"features": {
+				"legacy": true
+			},
+			"styles": {
+				"resources/oldshared.css": {},
+				"resources/screen.css": {
+					"media": "screen"
+				},
+				"resources/print.css": {
+					"media": "print"
+				}
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "CologneBlue"
+	},
+	"ResourceModuleSkinStyles": {
+		"cologneblue": {
+			"+oojs-ui-core.styles": "resources/ooui.less",
+			"+ext.echo.styles.badge": "resources/ext.echo.styles.badge.css",
+			"mediawiki.sectionAnchor": "resources/sectionAnchor.css"
+		}
+	},
+	"AutoloadClasses": {
+		"SkinCologneBlue": "includes/SkinCologneBlue.php",
+		"CologneBlueTemplate": "includes/CologneBlueTemplate.php"
+	},
+	"manifest_version": 2
+}

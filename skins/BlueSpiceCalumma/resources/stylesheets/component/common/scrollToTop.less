@@ -1,0 +1,19 @@
+#bs-top {
+	font-size: 300%;
+	position: fixed;
+	z-index: 19;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+	-moz-transition: opacity .3s 0s, visibility 0s .3s;
+	transition: opacity .3s 0s, visibility 0s .3s;
+}
+#bs-top.bs-top-is-visible, .bs-top-is-visible, .bs-top:hover {
+	-webkit-transition: opacity .3s 0s, visibility 0s 0s;
+	-moz-transition: opacity .3s 0s, visibility 0s 0s;
+	transition: opacity .3s 0s, visibility 0s 0s;
+}
+#bs-top.bs-top-is-visible, .bs-top-is-visible {
+	visibility: visible;
+	opacity: 1;
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"svgedit-editbutton-edit": "Uredi crtež",
+	"svgedit-summary-label": "Uredi sažetak",
+	"svgedit-summary-default": "/* Izmijenjeno u svg-edit */",
+	"svgedit-editor-save-close": "Sačuvaj i zatvori",
+	"svgedit-editor-close": "Otkaži",
+	"svgedit-desc": "Uređivanje u pregledniku SVG crteža pomoću [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Uredi crtež",
+	"svgedit-edit-tab-tooltip": "Možete uređivati ovaj SVG crtež u vašem pregledniku",
+	"svgedit-toolbar-insert": "SVG crtež"
+}

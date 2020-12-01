@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Inkowik",
+			"Kghbln",
+			"Man77",
+			"Metalhead64",
+			"Purodha"
+		]
+	},
+	"markashelpful-desc": "Ermöglicht das Markieren von Kommentaren als hilfreich",
+	"mah-mark-text": "Als hilfreich markieren",
+	"mah-you-marked-text": "Du meinst, dass dieser Kommentar hilfreich ist.",
+	"mah-someone-marked-text": "{{GENDER:$1|$1}} meint, dass dieser Kommentar hilfreich sei.",
+	"mah-undo-mark-text": "rückgängig machen",
+	"mah-action-error": "Beim Ausführen dieser Aktion ist ein Fehler aufgetreten.",
+	"apihelp-getmarkashelpfulitem-description": "Ruft eine Liste aller hilfreichen Statusse für ein Objektelement ab.",
+	"apihelp-getmarkashelpfulitem-param-type": "Der Objekttyp, der als hilfreich markiert wurde.",
+	"apihelp-getmarkashelpfulitem-param-item": "Das Objektelement, das als hilfreich markiert wurde.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Zurückzugebende Eigenschaft:",
+	"apihelp-getmarkashelpfulitem-param-page": "Die Seite, die das Objekt anfragt.",
+	"apihelp-markashelpful-description": "Erlaubt es Benutzern, ein Objektelement in der Website als hilfreich zu markieren oder entmarkieren.",
+	"apihelp-markashelpful-summary": "Erlaubt Benutzern, ein Objekt in der Website als nützlich zu markieren oder nicht.",
+	"apihelp-markashelpful-param-mahaction": "Ob ein Element als hilfreich markiert wird oder nicht.",
+	"apihelp-markashelpful-param-page": "Die Seite, auf der das Element markiert wurde.",
+	"apihelp-markashelpful-param-type": "Der Objekttyp, der als hilfreich markiert wurde.",
+	"apihelp-markashelpful-param-item": "Das Objektelement, das als hilfreich markiert wurde.",
+	"apihelp-markashelpful-param-useragent": "Der User-Agent-Header des Browsers.",
+	"apihelp-markashelpful-param-system": "Verwendetes Betriebssystem.",
+	"apihelp-markashelpful-param-locale": "Die verwendete Sprachumgebung."
+}

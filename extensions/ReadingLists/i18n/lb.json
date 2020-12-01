@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"readinglists-db-error-cannot-delete-default-list": "D'Standardlëscht däerf net geläscht ginn.",
+	"readinglists-db-error-cannot-update-default-list": "D'Standardlëscht kann net aktualiséiert ginn.",
+	"readinglists-db-error-no-such-list": "Lëscht $1 gëtt et net.",
+	"readinglists-db-error-not-own-list": "D'Lëscht $1 gehéiert engem anere Benotzer.",
+	"readinglists-db-error-list-deleted": "Lëscht $1 gouf geläscht.",
+	"readinglists-db-error-duplicate-list": "Et gëtt schonn eng Lëscht mat deem Numm.",
+	"readinglists-db-error-duplicate-page": "Déi Säit ass schonn an där Lëscht.",
+	"readinglists-db-error-list-limit": "Benotzer däerfen net méi wéi  {{PLURAL:$1|en Lëscht|$1 Lëschten}} hunn.",
+	"readinglists-db-error-entry-limit": "Lëscht $1 däerf net méi wéi {{PLURAL:$2|een Element|$2 Elementer}} hunn.",
+	"readinglists-db-error-too-long": "De Wäert fir d'Feld $1 däerf net méi grouss wéi $2 Byten.",
+	"readinglists-db-error-no-such-project": "'$1' ass keen unerkannte Projet.",
+	"readinglists-browser-add-entry-success": "$1 op Ärer Lieslëscht gespäichert",
+	"readinglists-browser-login-prompt": "Alogge fir Artikelen ze späicheren",
+	"readinglists-browser-error-intro": "Et ass e Feeler geschitt: $1",
+	"readinglists-browser-extension-info-link-text": "Fir méi ze wëssen",
+	"readinglists-browser-list-entry-limit-exceeded": "Artikel kann net gespäichert ginn. Dir hutt d'Limitt vu(n) $1 Artikele pro Lëscht erreecht",
+	"readinglists-browser-extension-product-title": "Wikipedia-Lieslëschten",
+	"readinglists-browser-page-not-supported": "$1 ënnerstëtzt dës Säit net"
+}

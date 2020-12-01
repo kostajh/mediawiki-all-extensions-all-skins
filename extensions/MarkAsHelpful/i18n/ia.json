@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"markashelpful-desc": "Forni un interfacie usator pro marcar commentos como utile",
+	"mah-mark-text": "Marcar como utile",
+	"mah-you-marked-text": "Tu pensa que isto es utile",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 pensa que isto es utile}}",
+	"mah-undo-mark-text": "disfacer",
+	"mah-action-error": "Un error occurreva durante le execution de iste action"
+}

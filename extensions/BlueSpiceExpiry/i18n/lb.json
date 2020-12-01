@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"bs-expiry-header-pagename": "Säit",
+	"bs-expiry-header-comment": "Bemierkung",
+	"bs-expiry-article-label": "Säit",
+	"bs-expiry-comment-label": "Bemierkung",
+	"bs-expiry-unknown-page-msg": "Säit gëtt et net.",
+	"bs-expiry-flyout-next-comment": "Bemierkung: $1",
+	"bs-expiry-edit-grid-header-username": "Benotzer",
+	"bs-expiry-edit-grid-header-date": "Datum",
+	"bs-expiry-edit-grid-header-comment": "Bemierkung"
+}

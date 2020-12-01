@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nischayn22"
+		]
+	},
+	"page-creation-notif-desc": "Sends email notification when new pages are created",
+	"page-creation-notification": "Email me when a new page is created",
+	"page-creation-email-subject": "New page – $1 {{GENDER:$3|created}} on $2 by $3",
+	"page-creation-email-body": "Dear $1,\n\nThis is a notification from {{SITENAME}} that a new page $2 has been {{GENDER:$3|created}} by user $3.\n\nYou can see it at\n$4\n\nThe text of the page is:\n$5\n\nYour friendly {{SITENAME}} notification system.\n\nTo change your email notification settings, visit\n{{canonicalurl:{{#special:Preferences}}}}"
+}

@@ -1,0 +1,294 @@
+{
+	"name": "BlueSpiceExtendedStatistics",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:ExtendedStatistics",
+	"author": [
+		"Markus Glaser",
+		"Patric Wirth",
+		"Oleksandr Pinchuk"
+	],
+	"descriptionmsg": "bs-statistics-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceExtendedSearch": ">= 4.1"
+		},
+		"platform": {
+			"php": ">= 7.2",
+			"ext-ctype": "*",
+			"ext-dom": "*",
+			"ext-gd": "*",
+			"ext-iconv": "*",
+			"ext-fileinfo": "*",
+			"ext-libxml": "*",
+			"ext-mbstring": "*",
+			"ext-SimpleXML": "*",
+			"ext-xml": "*",
+			"ext-xmlreader": "*",
+			"ext-xmlwriter": "*",
+			"ext-zip": "*",
+			"ext-zlib": "*"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceExtendedStatistics": {
+					"className": "\\BlueSpice\\ExtendedStatistics\\Extension",
+					"extPath": "/BlueSpiceExtendedStatistics",
+					"configDefinitions": {
+						"StatisticsExcludeUsers": "\\BlueSpice\\ExtendedStatistics\\ConfigDefinition\\ExcludeUsers::getInstance",
+						"StatisticsMaxNumberOfIntervals": "\\BlueSpice\\ExtendedStatistics\\ConfigDefinition\\MaxNumberOfIntervals::getInstance"
+					}
+				}
+			},
+			"PermissionRegistry": {
+				"statistic-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin"
+					]
+				},
+				"extendedstatistics-viewspecialpage-aggregated": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin"
+					]
+				}
+			},
+			"EntityRegistry": {
+				"snapshot": "\\BlueSpice\\ExtendedStatistics\\EntityConfig\\Snapshot"
+			},
+			"RunJobsTriggerHandlerRegistry": {
+				"bs-extendedstatistics-snapshot-daily": "\\BlueSpice\\ExtendedStatistics\\RunJobsTriggerHandler\\CreateDailySnapshot::factory"
+			},
+			"TagRegistry": {
+				"progress": "\\BlueSpice\\ExtendedStatistics\\Tag\\Progress"
+			}
+		},
+		"BlueSpiceExtendedSearch": {
+			"Sources": {
+				"extended_statistics":  "\\BlueSpice\\ExtendedStatistics\\ExtendedSearch\\Snapshots::create"
+			}
+		},
+		"BlueSpiceExtendedStatistics": {
+			"SnapshotDataCollectorRegistry": {},
+			"DiagramRegistry": {
+				"BsDiagramNumberOfUsers": "\\BsDiagramNumberOfUsers::factory",
+				"BsDiagramNumberOfPages": "\\BsDiagramNumberOfPages::factory",
+				"BsDiagramNumberOfArticles": "\\BsDiagramNumberOfArticles::factory",
+				"BsDiagramNumberOfEdits": "\\BsDiagramNumberOfEdits::factory",
+				"BsDiagramEditsPerUser": "\\BsDiagramEditsPerUser::factory",
+				"BsDiagramSearches": "\\BsDiagramSearches::factory"
+			}
+		}
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"GroupPermissions": {
+		"*": {
+			"statistic-viewspecialpage": false,
+			"extendedstatistics-viewspecialpage-aggregated": false
+		},
+		"user": {
+			"statistic-viewspecialpage": true,
+			"extendedstatistics-viewspecialpage-aggregated": false
+		},
+		"sysop": {
+			"statistic-viewspecialpage": true,
+			"extendedstatistics-viewspecialpage-aggregated": true
+		}
+	},
+	"AvailableRights": [
+		"statistic-viewspecialpage",
+		"extendedstatistics-viewspecialpage-aggregated"
+	],
+	"SpecialPages": {
+		"ExtendedStatistics": "SpecialExtendedStatistics",
+		"AggregatedStatistic": "\\BlueSpice\\ExtendedStatistics\\Special\\AggregatedStatistic",
+		"ExtendedStatisticsSnapshots": "\\BlueSpice\\ExtendedStatistics\\Special\\Snapshot"
+	},
+	"JobClasses": {
+		"updateCollectionIndex": "\\BlueSpice\\ExtendedStatistics\\ExtendedSearch\\Job\\Snapshot"
+	},
+	"APIModules": {
+		"bs-statistics-search-options-store": "BSApiStatisticsSearchOptionsStore",
+		"bs-statistics-available-diagrams-store": "BSApiStatisticsAvailableDiagramsStore",
+		"bs-statistics-tasks": "BSApiStatisticsTasks",
+		"bs-extendedstatistics-collection-store": "\\BlueSpice\\ExtendedStatistics\\Api\\Store\\Collection"
+	},
+	"MessagesDirs": {
+		"BlueSpiceExtendedStatistics": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\ExtendedStatistics\\": "src/"
+	},
+	"AutoloadClasses": {
+		"BsStatisticsFilter": "includes/StatisticsFilter.class.php",
+		"BsSelectFilter": "includes/SelectFilter.class.php",
+		"BsMultiSelectFilter": "includes/MultiSelectFilter.class.php",
+		"BsDiagram": "includes/Diagram.class.php",
+		"BsFilterUsers": "includes/FilterUsers.class.php",
+		"BsFilterNamespace": "includes/FilterNamespace.class.php",
+		"BsFilterCategory": "includes/FilterCategory.class.php",
+		"BsDiagramNumberOfUsers": "includes/DiagramNumberOfUsers.class.php",
+		"BsDiagramNumberOfPages": "includes/DiagramNumberOfPages.class.php",
+		"BsDiagramNumberOfArticles": "includes/DiagramNumberOfArticles.class.php",
+		"BsDiagramNumberOfEdits": "includes/DiagramNumberOfEdits.class.php",
+		"BsDiagramEditsPerUser": "includes/DiagramEditsPerUser.class.php",
+		"BsDiagramSearches": "includes/DiagramSearches.class.php",
+		"MySQLDbReader": "includes/MySQLDbReader.class.php",
+		"StatsDataProvider": "includes/StatsDataProvider.class.php",
+		"Interval": "includes/Interval.class.php",
+		"BsCharting": "includes/Charting.class.php",
+		"SpecialExtendedStatistics": "includes/specials/SpecialExtendedStatistics.class.php",
+		"BSApiStatisticsSearchOptionsStore": "includes/api/BSApiStatisticsSearchOptionsStore.php",
+		"BSApiStatisticsAvailableDiagramsStore": "includes/api/BSApiStatisticsAvailableDiagramsStore.php",
+		"BSApiStatisticsTasks": "includes/api/BSApiStatisticsTasks.php"
+	},
+	"ExtensionMessagesFiles": {
+		"ExtendedStatisticsAlias": "languages/ExtendedStatistics.alias.php"
+	},
+	"load_composer_autoloader" : true,
+	"Hooks": {
+		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\ExtendedStatistics\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddExtendedStatistics::callback",
+		"BeforePageDisplay": "\\BlueSpice\\ExtendedStatistics\\Hook\\BeforePageDisplay\\AddResources::callback",
+		"LoadExtensionSchemaUpdates": "\\BlueSpice\\ExtendedStatistics\\Hook\\LoadExtensionSchemaUpdates\\AddSnapshotTable::callback",
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\ExtendedStatistics\\Hook\\BSUsageTrackerRegisterCollectors\\AddStatisticsProgressTag::callback",
+		"BSDashboardsAdminDashboardPortalConfig": "\\BlueSpice\\ExtendedStatistics\\Hook\\BSDashboardsAdminDashboardPortalConfig\\AddConfigs::callback",
+		"BSDashboardsAdminDashboardPortalPortlets": "\\BlueSpice\\ExtendedStatistics\\Hook\\BSDashboardsAdminDashboardPortalPortlets\\AddPortlets::callback",
+		"BSDashboardsUserDashboardPortalConfig": "\\BlueSpice\\ExtendedStatistics\\Hook\\BSDashboardsUserDashboardPortalConfig\\AddConfigs::callback",
+		"BSDashboardsUserDashboardPortalPortlets": "\\BlueSpice\\ExtendedStatistics\\Hook\\BSDashboardsUserDashboardPortalPortlets\\AddPortlets::callback"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"StatisticsExcludeUsers": {
+			"value": [ "WikiSysop" ],
+			"descriptionmsg": "bs-statistics-pref-excludeusers"
+		},
+		"StatisticsMaxNumberOfIntervals": {
+			"value": 366,
+			"descriptionmsg": "bs-statistics-pref-maxnumberofintervals"
+		},
+		"StatisticsAvailableGrains": {
+			"value": {
+				"Y": "bs-statistics-year",
+				"m": "bs-statistics-month",
+				"W": "bs-statistics-week",
+				"d": "bs-statistics-day"
+			},
+			"descriptionmsg": "bs-statistics-pref-AvailableGrains"
+		}
+	},
+	"ResourceModules": {
+		"ext.bluespice.statistics": {
+			"scripts": [
+				"/bluespice.statistics.js"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs",
+				"ext.extjsbase.charts"
+			],
+			"messages": [
+				"bs-statistics-filters",
+				"bs-statistics-finish",
+				"bs-statistics-diagram",
+				"bs-statistics-from",
+				"bs-statistics-to",
+				"bs-statistics-filter-user",
+				"bs-statistics-filter-searchscope",
+				"bs-ns",
+				"bs-statistics-filter-category",
+				"bs-statistics-mode",
+				"bs-statistics-absolute",
+				"bs-statistics-aggregated",
+				"bs-statistics-list",
+				"bs-statistics-grain",
+				"bs-statistics-year",
+				"bs-statistics-month",
+				"bs-statistics-week",
+				"bs-statistics-day",
+				"bs-statistics-label-count",
+				"bs-statistics-label-time",
+				"bs-statistics-button-label-export",
+				"bs-statistics-panel-title-result",
+				"bs-statistics-paging-page-size"
+			]
+		},
+		"ext.bluespice.statisticsPortlets": {
+			"scripts": [
+				"bluespice.statisticsPortlets.js"
+			],
+			"messages": [
+				"bs-statistics-label-count",
+				"bs-statistics-portlet-numberofusers",
+				"bs-statistics-portlet-numberofedits",
+				"bs-statistics-portlet-numberofpages",
+				"bs-statistics-portlet-numberofarticles",
+				"bs-extjs-portal-timespan",
+				"bs-statistics-portletconfig-periodday",
+				"bs-statistics-week",
+				"bs-statistics-month",
+				"bs-statistics-label-time"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs",
+				"ext.extjsbase.charts"
+			]
+		},
+		"ext.bluespice.statistics.styles": {
+			"styles": "bluespice.statistics.css"
+		},
+		"ext.bluespice.snapshotstatistics": {
+			"scripts": [
+				"bluespice.snapshotStatistics.js"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs",
+				"ext.extjsbase.charts",
+				"ext.bluespice.snapshotstatistics.styles"
+			],
+			"messages": [
+				"bs-statistics-label-count",
+				"bs-ns",
+				"bs-statistics-button-label-export",
+				"bs-statistics-button-label-apply",
+				"bs-statistics-label-bar-chart",
+				"bs-statistics-label-line-chart",
+				"bs-statistics-year",
+				"bs-statistics-month",
+				"bs-statistics-week",
+				"bs-statistics-day",
+				"bs-statistics-grain",
+				"bs-statistics-datasource-label",
+				"bs-statistics-filters",
+				"bs-statistics-aggregationmode-label",
+				"bs-statistics-aggregationfield-label",
+				"bs-statistics-aggregationtype-label",
+				"bs-statistics-targets-label"
+			]
+		},
+		"ext.bluespice.snapshotstatistics.styles": {
+			"styles": "bluespice.snapshotStatistics.css"
+		},
+		"ext.bluespice.extendedstatistics.collection": {
+			"messages": [
+				"bs-extendedstatistics-collection-var-type",
+				"bs-extendedstatistics-collection-var-timestampcreated"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceExtendedStatistics/resources"
+	},
+	"manifest_version": 2
+}

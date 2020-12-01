@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-socialresolve-desc": "وظيفة حل لكيانات BlueSpiceSocial",
+	"bs-socialresolve-status-resolved": "تم الحل",
+	"bs-socialresolve-status-notresolved": "غير محلول",
+	"bs-socialresolve-var-resolved": "حالة الحل",
+	"apihelp-bs-socialresolve-tasks-summary": "يوفر مهام لتحرير حالة حل الكيانات"
+}

@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Dansita",
+			"Gianfranco",
+			"Luca.favorido",
+			"TheRukk",
+			"Tizven"
+		]
+	},
+	"bs-bookshelf-positive-integer-validation-not-approved": "Sono consentiti solo interi positivi.",
+	"bs-bookshelf-tagerror-attribute-float-not-valid": "Per favore, usa <i>sinistra</i> o <i>destra</i>.",
+	"bs-bookshelf-specialpage-title": "Libri",
+	"bs-bookshelf-specialpage-allpages-ns-book-text": "Libreria",
+	"bs-bookshelf-tag-next": "Successivo",
+	"bs-bookshelf-tag-prev": "Precedente",
+	"bs-bookshelf-tag-edit-book": "Modifica libro",
+	"bs-bookshelf-personal-books-page-prefix": "$1/Libri/",
+	"bs-bookshelf-add-to-book-label": "Aggiungi a un libro",
+	"bs-bookshelf-add-to-book-label-book": "Libro",
+	"bs-bookshelf-add-to-book-label-alias": "Alias",
+	"bs-bookshelf-add-to-book-label-mod-bstag": "Modifica il tag 'scaffale' nella pagina (nuova versione)",
+	"bs-bookshelf-add-to-book-added": "La pagina è stata aggiunta al libro '$1'.",
+	"bs-bookshelf-setting-path-feature": "Libro",
+	"bs-bookshelf-empty-selection": "Nessuna selezione",
+	"bs-bookshelf-grouping-template-type-local_storage": "Libri temporanei",
+	"bs-bookshelf-grouping-template-type-ns_book": "Libri generali",
+	"bs-bookshelf-grouping-template-type-user_book": "Libri personali",
+	"bs-bookshelf-action-editbooksource": "Modifica fonte del libro",
+	"bs-bookshelf-action-editbooksource-create": "Crea fonte libro",
+	"bs-bookshelf-action-export-book": "Esporta libro",
+	"bs-bookshelf-edit-title": "Modifica di $1",
+	"bs-bookshelf-error-invalid-type": "Il tipo di libro specificato non è valido",
+	"bs-bookshelf-editor-no-title-provided": "Nessun titolo valido fornito per il libro",
+	"bs-bookshelf-book-grid-title": "Libri",
+	"bookshelf": "Scaffale",
+	"bookshelf-summary": "Libri generali",
+	"bs-bookshelf-prof-defaultview": "Vista predefinita",
+	"bs-bookshelf-prof-defaultview-grid": "Griglia",
+	"bs-bookshelf-prof-defaultview-images": "Immagini"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Byrial",
+			"Emilkris33",
+			"Peter Alberti"
+		]
+	},
+	"inlinecategorizer-add-category": "Tilføj kategori",
+	"inlinecategorizer-add-category-submit": "Tilføj",
+	"inlinecategorizer-add-category-summary": "Tilføj kategorien \"$1\"",
+	"inlinecategorizer-api-error": "API gav en fejlbesked: $1: $2",
+	"inlinecategorizer-api-unknown-error": "API'en returnerede en ukendt fejl.",
+	"inlinecategorizer-cancel": "Fortryd redigeringer",
+	"inlinecategorizer-cancel-all": "Fortryd alle ændringer",
+	"inlinecategorizer-category-already-present": "Denne side er allerede i kategorien $1",
+	"inlinecategorizer-category-hook-error": "En lokal funktion forhindrede at ændringerne blev gemt",
+	"inlinecategorizer-category-question": "Hvorfor ønsker du at foretage følgende ændringer:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Gem",
+	"inlinecategorizer-confirm-save-all": "Gem alle ændringer",
+	"inlinecategorizer-confirm-title": "Bekræft handling",
+	"inlinecategorizer-edit-category": "Rediger kategori",
+	"inlinecategorizer-edit-category-error": "Det var ikke muligt at redigere kategorien \"$1\".\nDen mest almindelige grund til denne fejl er, at kategorien er blevet tilføjet til siden via en skabelon.",
+	"inlinecategorizer-edit-category-summary": "Skift kategori \"$1\" til \"$2\"",
+	"inlinecategorizer-error-title": "Fejl",
+	"inlinecategorizer-remove-category": "Fjern kategori",
+	"inlinecategorizer-remove-category-error": "Det var ikke muligt at fjerne kategorien \"$1\".\nDet skyldes oftest at kategorien er blevet tilføjet til siden i en skabelon.",
+	"inlinecategorizer-remove-category-summary": "Fjern kategorien \"$1\""
+}

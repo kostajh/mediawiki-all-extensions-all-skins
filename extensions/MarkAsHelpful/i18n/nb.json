@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Event",
+			"Jon Harald Søby"
+		]
+	},
+	"markashelpful-desc": "Gir et grensesnitt for å merke kommentarer som nyttige",
+	"mah-mark-text": "Merk som nyttig",
+	"mah-you-marked-text": "Du syns dette er nyttig",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 syns dette er nyttig}}",
+	"mah-undo-mark-text": "angre",
+	"mah-action-error": "Det oppsto en feil da handlingen skulle utføres",
+	"apihelp-getmarkashelpfulitem-description": "Hent en liste over hjelpsomhetsstatusen til et objektelement.",
+	"apihelp-getmarkashelpfulitem-summary": "Hent en liste over all hjelpsomhetsstatus for et objektelement.",
+	"apihelp-getmarkashelpfulitem-param-type": "Objekttypen som merkes som hjelpsom.",
+	"apihelp-getmarkashelpfulitem-param-item": "Objektelementet som merkes som hjelpfullt.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Hvilken egenskap som skal hentes.",
+	"apihelp-getmarkashelpfulitem-param-page": "Siden som ber om elementet.",
+	"apihelp-markashelpful-description": "Lar brukere merke eller fjerne merking av et objektelement på nettstedet som hjelpsomt.",
+	"apihelp-markashelpful-summary": "Lar brukere merke eller fjerne merking av et objektelement på nettstedet som hjelpsomt.",
+	"apihelp-markashelpful-param-mahaction": "Hvirvidt elementet skal merkes eller avmerkes som hjelpsomt.",
+	"apihelp-markashelpful-param-page": "Siden elementet som skal merkes ligger på.",
+	"apihelp-markashelpful-param-type": "Objekttypen som merkes som hjelpsom.",
+	"apihelp-markashelpful-param-item": "Objektelementet som merkes som hjelpsomt.",
+	"apihelp-markashelpful-param-useragent": "Nettleserens User-Agent-header.",
+	"apihelp-markashelpful-param-system": "Operativsystemet som brukes.",
+	"apihelp-markashelpful-param-locale": "Lokalet som brukes."
+}

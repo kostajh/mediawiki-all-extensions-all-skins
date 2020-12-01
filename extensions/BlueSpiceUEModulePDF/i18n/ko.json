@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jerrykim306",
+			"Ykhwong"
+		]
+	},
+	"bs-uemodulepdf-pref-suppressns": "PDF에서 이름공간 접두어 숨김",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-text": "PDF 단일 문서",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-title": "이 페이지를 PDF로 내보냅니다.",
+	"bs-uemodulepdf-overview-title": "이동 가능 문서 형식 (PDF)",
+	"bs-uemodulepdf-overview-desc": "PDF로 문서(특수 문서와 콘텐츠 문서)를 내보냅니다.",
+	"bs-uemodulepdf-overview-webservice-state": "백엔드 상태",
+	"bs-uemodulepdf-overview-webservice-state-ok": "사용 가능",
+	"bs-uemodulepdf-overview-webservice-state-not-ok": "사용 불가",
+	"soap-service-url-not-valid": "PDF 생성 웹 서비스의 URL이 유효하지 않습니다. 위키 구성을 확인해 주십시오.",
+	"soap-service-url-not-set": "PDF 생성 웹 서비스의 URL이 설정되어 있지 않습니다. 위키 구성을 확인해 주십시오.",
+	"bs-uemodulepdf-overview-webservice-webadmin": "백엔드 웹 인터페이스",
+	"action-uemodulepdf-export": "문서를 PDF로 내보내기",
+	"right-uemodulepdf-export": "문서를 PDF로 내보내기"
+}

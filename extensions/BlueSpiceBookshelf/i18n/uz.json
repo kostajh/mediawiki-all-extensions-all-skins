@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zafar Shamsiddinov"
+		]
+	},
+	"bs-bookshelf-grouping-template-type-local_storage": "Vaqtinchalik kitoblar",
+	"bs-bookshelf-action-editbooksource": "Kitob manbaini o‘zgartirmoq",
+	"bs-bookshelf-action-editbooksource-create": "Kitob manbaini tuzmoq",
+	"bs-bookshelf-action-export-book": "Kitobni eksport qilmoq",
+	"bs-bookshelf-edit-title": "$1’ni tahrirlash",
+	"bs-bookshelf-error-invalid-type": "Kitob turi shikastlangan",
+	"bs-bookshelf-error-type-title-mismatch": "Ko‘rsatilgan nomi kitob turiga mos emas",
+	"bs-bookshelf-editor-no-title-provided": "Haqiqiy kitob nomi ko‘rsatilmagan",
+	"bs-bookshelf-book-grid-title": "Kitoblar",
+	"prefs-bookshelf": "Maxsus kitob javoni sahifasi",
+	"bs-bookshelf-prof-defaultview": "Odatiy ko‘rinish",
+	"bs-bookshelf-prof-defaultview-grid": "To‘r",
+	"bs-bookshelf-prof-defaultview-images": "Rasmlar",
+	"bs-bookshelf-action-save-to-local-storage": "Mahalliy xotiraga saqlash"
+}

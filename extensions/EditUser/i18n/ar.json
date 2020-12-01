@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Loya",
+			"Meno25",
+			"Mutarjem horr",
+			"OsamaK",
+			"ديفيد"
+		]
+	},
+	"edituser": "تعديل مستخدم",
+	"edituser-extensionname": "عدل المستخدم",
+	"edituser-desc": "يسمح للمستخدمين ذوي الصلاحية بتعديل تفضيلات المستخدمين الآخرين",
+	"edituser-username": "اسم المستخدم:",
+	"edituser-dosearch": "بحث",
+	"edituser-nouser": "المستخدم \"$1\" غير موجود.",
+	"edituser-exempt": "لا يمكن تحرير أي شيئ للمستخدم \"$1\" .",
+	"right-edituser": "تعديل تفضيلات المستخدمين الآخرين",
+	"right-edituser-exempt": "لا يمكن تعديل تفضيلاتهم بواسطة الآخرين",
+	"action-edituser": "تعديل تفضيلات المستخدمين الآخرين",
+	"action-edituser-exempt": "تحرير تفضيلات هذا المستخدم"
+}

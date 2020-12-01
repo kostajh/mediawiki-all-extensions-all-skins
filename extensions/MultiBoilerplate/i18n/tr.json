@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Karduelis",
+			"MuratTheTurkish"
+		]
+	},
+	"multiboilerplate-desc": "Sayfaları düzenlerken, bir basmakalıp düzenleme formunun yukarısındaki açılır bir kutudan seçilmesine izin verir",
+	"multiboilerplate-legend": "Basmakalıbı seç",
+	"multiboilerplate-submit": "Yükle",
+	"boilerplates": "Basmakalıplar",
+	"multiboilerplate-special-pagetext": "Bu şablonlar, sayfa oluşturma işlemine önceden yüklenebilir. (<span class=plainlinks>[{{fullurl:Bu sayfa mevcut değil|action=edit}} demo]</span>)",
+	"multiboilerplate-special-define-in-localsettings": "Basmakalıpları LocalSettings'te tanımlanmıştır.",
+	"multiboilerplate-special-define-in-interface": "Basmakalıpları [[MediaWiki:Multiboilerplate]] içinde tanımlanmıştır.",
+	"multiboilerplate-special-no-boilerplates": "Hiçbir yerde tanımlanmış basmakalıpları yok.",
+	"multiboilerplate-nonexistant-page": "Basmakalıbı sayfası mevcut değil: \"$1\""
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erdemaslancan",
+			"Mirzali"
+		]
+	},
+	"prefs-onlinestatus": "Weziyetê çerxmiyani",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Çerxmiyan}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Meşğul}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Duri}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Nımıte}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Çerxteber}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Nêzanaye}}"
+}

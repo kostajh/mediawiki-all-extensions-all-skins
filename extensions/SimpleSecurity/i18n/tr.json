@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"Joseph",
+			"Sucsuzz",
+			"Vito Genovese"
+		]
+	},
+	"security": "Güvenlik günlüğü",
+	"security-desc": "Sayfa içeriğinin görüntülenmesini kısıtlamaya izin vermek için MediaWiki sayfa korumasını genişletir",
+	"security-logpage": "Güvenlik günlüğü",
+	"security-logpagetext": "Bu, [https://www.mediawiki.org/wiki/Extension:SimpleSecurity/tr SimpleSecurity uzantısıyla] engellenen işlemlerin günlüğüdür.",
+	"badaccess-read": "'''Uyarı:''' \"$1\", burada belirtilmiştir ancak buna erişmek için yeterli izne sahip değilsiniz.",
+	"security-info": "Bu sayfada $1 mevcut",
+	"security-info-toggle": "güvenlik kısıtlamaları",
+	"security-inforestrict": "$1, $2 ile sınırlıdır",
+	"security-desc-LS": "(bu sayfa $1 \"$2\" olduğundan geçerlidir)",
+	"security-desc-PR": "(\"koruma\" sekmesinden ayarla)",
+	"security-infosysops": "\"Hizmetli\" grubunun bir üyesi olduğunuz için hiçbir kısıtlama yoktur.",
+	"security-manygroups": "gruplar $1 ve $2",
+	"security-unchain": "İşlemleri ayrı ayrı değiştir",
+	"security-type-category": "kategori",
+	"security-type-namespace": "ad alanı",
+	"security-restricttogroup": "Erişim içeriği \"$1\" üyelerine sınırlı",
+	"restriction-read": "Oku"
+}

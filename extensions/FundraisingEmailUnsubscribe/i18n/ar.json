@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"fundraiserunsubscribe-desc": "يسمح للمستخدمين بالتحكم باشتراكهم في القوائم البريدية المكونة لجمع التبرعات",
+	"fundraiserunsubscribe": "إلغاء الاشتراك من بريد ويكيميديا الإلكتروني لجمع التبرعات",
+	"fundraiserunsubscribe-query": "هل أنت متأكد من أنك تريد إلغاء الاشتراك في '''''$1'''''؟",
+	"fundraiserunsubscribe-info": "سيؤدي هذا إلى إلغاء اشتراكك في رسائل البريد الإلكتروني الواردة من مؤسسة ويكيميديا ​​لك كمانح، قد تستمر في تلقي رسائل البريد الإلكتروني إلى عنوان البريد الإلكتروني هذا إذا كان مرتبطا بحساب في أحد مشروعاتنا، إذا كانت لديك أية أسئلة، يُرجَى الاتصال بـ[mailto:$1 $1].",
+	"fundraiserunsubscribe-submit": "إلغاء الاشتراك",
+	"fundraiserunsubscribe-cancel": "إلغاء",
+	"fundraiserunsubscribe-errormsg": "حدث خطأ أثناء محاولة معالجة طلبك; يُرجَى الاتصال بـ[mailto:$1 $1].",
+	"fundraiserunsubscribe-success": "لقد تمت إزالتك بنجاح من قائمتنا البريدية.",
+	"fundraiserunsubscribe-sucesswarning": "يُرجَى الانتظار لمدة أربعة (4) أيام حتى تصبح التغييرات سارية المفعول، نعتذر عن أية رسائل بريد إلكتروني تتلقاها خلال هذا الوقت، إذا كانت لديك أية أسئلة، يُرجَى الاتصال بـ[mailto:$1 $1].",
+	"fundraisersubscribe": "اشتراك",
+	"fundraisersubscribe-fail": "حدث خطأ أثناء محاولة معالجة طلبك; يُرجَى الاتصال بـ[mailto:$1 $1].",
+	"fundraisersubscribe-success": "شكرا لك!",
+	"fundraisersubscribe-opt-in-continue-001": "نعم، سأشترك",
+	"fundraisersubscribe-page-title-001": "ويكي يهوى الأرض",
+	"fundraisersubscribe-page-subtitle-001": "اكتشف أسرار عالمنا الطبيعي الموجودة على ويكيميديا ​​كومنز، استكشف أفضل 15 صورة لعام 2018، تم التقاطها ومشاركتها واختيارها من قبل متطوعي ويكيميديا.",
+	"fundraisersubscribe-appeal-headline-001": "مثل ماذا ترى؟",
+	"fundraisersubscribe-appeal-text-001": "نريد أن نرسل لك تحديثات من حين لآخر بصور مثل هذه، وطرق لتقديم الدعم أو المشورة في المستقبل، وأكثر مما تحب من ويكيبيديا.",
+	"fundraisersubscribe-privacy-text-001": "سيتضمن كل بريد إلكتروني تتلقاه خيارا سهلا لإلغاء الاشتراك، تتم معالجة معلوماتك وفقا [$1 لسياسة خصوصية المانحين] الخاصة بنا.",
+	"fundraisersubscribe-photo-credit": "بواسطة $1",
+	"fundraisersubscribe-photo-caption-M69961168": "الفظ الكاذب على جزيرة نورثبروك، الحديقة الوطنية الروسية في القطب الشمالي، تم التقاط الصورة كجزء من الحملة على خطى قبطان من قبل جمعية التراث البحري",
+	"fundraisersubscribe-photo-caption-M69960916": "بازلت عمودي، بعد الغروب في رأس ستولشباتي، جزيرة كوناشير، محمية كوريلس الطبيعية، روسيا",
+	"fundraisersubscribe-photo-caption-M68724727": "تشكيل الصخور النيزكية مع الأديرة فوقه",
+	"fundraisersubscribe-photo-caption-M68822431": "منتزه تاسيلي نجير الوطني، الجزائر",
+	"fundraisersubscribe-photo-caption-M69954711": "شاطئ سولت لايك إلتون، فولجوجراد أوبلاست، روسيا",
+	"fundraisersubscribe-photo-caption-M69692176": "نسر أبو ذقن أثناء الطيران، حديقة غران باراديسو الوطنية",
+	"fundraisersubscribe-photo-caption-M69116544": "الخريف في ازدهاره في وادي هونزا ألتيت، جيلجيت بالتستان",
+	"fundraisersubscribe-photo-caption-M69591978": "طاحونة الرمل الخشبية (Tringa glareola) عبارة عن خندق صغير في حديقة بانجاباندهو شيخ مجيب سفاري",
+	"fundraisersubscribe-photo-caption-M69594652": "حديقة ساتشاري الوطنية",
+	"fundraisersubscribe-photo-caption-M69924253": "مستنقع السرو (Taxodium distichum) بالقرب من سوكو، كراسنودار كراي، روسيا",
+	"fundraisersubscribe-photo-caption-M69595567": "زرزور كستنائي الذيل (Sturnia Malabarica)، حديقة ساتشاري الوطنية",
+	"fundraisersubscribe-photo-caption-M70051605": "منتزه هوغار الوطني، أسكريم، تمنراست، الجزائر",
+	"fundraisersubscribe-photo-caption-M70155469": "غروب الشمس في لو غراندي السفلى ، واحة في وسط منتزه لينسويس مارنيانسيس الوطني",
+	"fundraisersubscribe-photo-caption-M69609122": "نحام أكبر في بحيرة تونس",
+	"fundraisersubscribe-photo-caption-M69961161": "جرس جزيرة فرانز جوزيف لاند وإيرا لودج أوف بنجامين لي سميث، منتزه روسيا في المحيط المتجمد الشمالي، تم التقاط الصورة كجزء من الحملة على خطى قبطان من قبل جمعية التراث البحري",
+	"fundraisersubscribe-photo-license": "جميع الصور مرخصة بموجب ترخيص [$1 رخصة المشاع الإبداعي: النسبة-الترخيص بالمثل 4.0]."
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Jon Harald Søby"
+		]
+	},
+	"slippymap_desc": "Tillater bruk av taggen <tt>&lt;slippymap&gt;</tt> for å vise et «slippy map» fra OpenLayers. Kartene kommer fra [http://openstreetmap.org openstreetmap.org]",
+	"slippymap_latmissing": "Mangler «lat»-verdi (for breddegraden).",
+	"slippymap_lonmissing": "Mangler «lon»-verdi (for lengdegraden).",
+	"slippymap_zoommissing": "Mangler «z»-verdi (for zoom-nivået).",
+	"slippymap_longdepreciated": "Bruk «lon» i stedet for «long» (parameteret fikk nytt navn).",
+	"slippymap_widthnan": "breddeverdien («w») «$1» er ikke et gyldig heltall",
+	"slippymap_heightnan": "høydeverdien («h») «$1» er ikke et gyldig heltall",
+	"slippymap_zoomnan": "zoomverdien («z») «$1» er ikke et gyldig heltall",
+	"slippymap_latnan": "breddegradsverdien («lat») «$1» er ikke et gyldig tall",
+	"slippymap_lonnan": "lengdegradsverdien («lon») «$1» er ikke et gyldig tall",
+	"slippymap_widthbig": "breddeverdien («w») kan ikke være større enn 1000",
+	"slippymap_widthsmall": "breddeverdien («w») kan ikke være mindre enn 100",
+	"slippymap_heightbig": "høydeverdien («h») kan ikke være større enn 1000",
+	"slippymap_heightsmall": "høydeverdien («h») kan ikke være mindre enn 100",
+	"slippymap_latbig": "breddegradsverdien («lat») kan ikke være større enn 90",
+	"slippymap_latsmall": "breddegradsverdien («lat») kan ikke være mindre enn –90",
+	"slippymap_lonbig": "lengdegradsverdien («lon») kan ikke være større enn 180",
+	"slippymap_lonsmall": "lengdegradsverdien («lon») kan ikke være mindre enn –180",
+	"slippymap_zoomsmall": "zoomverdien («z») kan ikke være mindre enn null",
+	"slippymap_zoom18": "zoomverdien («z») kan ikke være større enn 17. Merk at denne MediaWiki-utvidelsen bruker OpenStreetMap-laget «osmarender», som ikke kan zoome mer enn til nivå 17. «Mapnik»-laget på openstreetmap.org går til zoomnivå 18.",
+	"slippymap_zoombig": "zoomverdien («z») kan ikke være større enn 17.",
+	"slippymap_invalidlayer": "Ugyldig «layer»-verdi «$1»",
+	"slippymap_maperror": "Kartfeil:",
+	"slippymap_osmtext": "Se dette kartet på OpenStreetMap.org",
+	"slippymap_code": "Wikikode for denne kartvisningen:",
+	"slippymap_button_code": "Hent wikikode",
+	"slippymap_resetview": "Tilbakestill visning"
+}

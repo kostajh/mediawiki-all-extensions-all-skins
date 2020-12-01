@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"bs-exporttables-extension-description": "Позволява изнасяне на таблици към Excel и CSV",
+	"bs-exporttables-menu": "Изнасяне на таблица",
+	"bs-exporttables-menu-csv": "Стойности, разделени със запетая (CSV)",
+	"bs-exporttables-ve-exportable-option": "Изнесуема"
+}

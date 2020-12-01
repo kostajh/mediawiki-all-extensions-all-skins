@@ -1,0 +1,164 @@
+<!-- checks correct markup of latin text. -->
+<testcase>
+	<text>
+<![CDATA[
+Lorem ipsum dolor sit amet, pri admodum alienum at, decore facete ei cum,
+discere admodum dissentias quo et. Ex iusto antiopam sed, ius eu stet periculis
+complectitur. Quas apeirian complectitur nec no. Nam omnes nullam ex. Ne sed
+eros homero, utroque pertinacia eam eu, in est ubique latine minimum. Vel
+invidunt intellegat scripserit ei, essent dolorem prodesset eu mea.
+
+Putent nemore vituperata vel an, ut iuvaret delicata quaerendum est. Quas
+viderer civibus an cum. Vidisse efficiantur nam ut. Id sed aeque similique
+definitionem, in fugit partem copiosae eum. Sit diceret repudiare ne, ea ius
+alii laboramus.
+
+Brute viris propriae vis ad. Cu modus pericula eum. Qui ne quot recusabo
+eloquentiam, ex quod hinc veritus per, vix at putent molestie consequuntur. His
+in omnes gloriatur, propriae posidonium duo ne. Convenire consulatu definitiones
+et quo, mea autem fabulas epicuri ne. Erant percipit petentium ne qui, ad
+volumus facilisi mei.
+
+Epicurei mandamus te mei. Pri ea nisl stet fugit. Eum eu novum omnesque, porro
+scriptorem reprehendunt qui ad. Dicat nostrud oportere vix no. Cu falli
+philosophia pri.
+
+Equidem consequuntur eu sed, ne justo partiendo sea, facilis apeirian eos te. Et
+fabellas rationibus nam. Nullam offendit eam et. Ea nostrum assueverit ius,
+copiosae tincidunt ullamcorper quo eu.
+
+Ex vocent molestiae nam, in usu aliquip assentior. Sensibus dissentiunt
+intellegebat in mea. Cum id iudico integre. An per solet viderer dolorem.
+
+Te per laudem graecis conclusionemque. No mel lorem eligendi appellantur. Ut usu
+duis legendos hendrerit. Oportere liberavisse duo te. Eum et quis ullum
+scaevola, nam duis voluptua et, vel ei nostrud veritus. Eam ut erat integre,
+rebum accusam noluisse ne vis.
+
+Oblique feugiat rationibus sit te, ius erat facilisi accusamus ei. Eu eum noster
+nostro. Detracto argumentum te pri. His meis periculis vituperata te, vix ei
+etiam omittam reformidans. Usu ex dolores erroribus abhorreant. Ea vidit atqui
+philosophia duo, ius ad vide tritani appareat. Enim timeam nonumes ius no.
+
+No prima audire quo, ei ubique mucius scribentur eos, cu duis harum philosophia
+usu. Detracto recusabo antiopam cu mea. An petentium appellantur vix, te eum
+elitr quidam doctus, et errem malorum omnesque sed. Nam cu errem dictas
+concludaturque, quo illud dolores ut. Has te nibh velit concludaturque, quod
+erant iuvaret est an, ius ex lorem molestie pertinax.
+
+Ius at sonet incorrupte. Ei sea honestatis complectitur, ei vim quando persius
+epicuri. Mei duis percipit no, postea pericula prodesset mel ex. Ea vix nostrud
+officiis similique, ad est civibus nominati. Pro suas principes at, ea mea
+audire corpora explicari, etiam nihil perfecto sit ut. His id fugit zril, no has
+alii soluta.
+]]>
+	</text>
+	<expected>
+<![CDATA[
+<div class="mw-parser-output"><p>Lorem <span class="mw-lingo-term" data-lingo-term-id="e78f5438b48b39bcbdea61b73679449d">ipsum</span> dolor sit amet, pri admodum alienum at, decore facete ei cum,
+discere admodum dissentias quo et. Ex iusto antiopam sed, <span class="mw-lingo-term" data-lingo-term-id="689c4f6017e042e16a6315622d4fc11d">ius</span> eu stet periculis
+complectitur. Quas apeirian complectitur nec no. Nam <span class="mw-lingo-term" data-lingo-term-id="5ebcdbfc8779f1ac8898f70672713e85">omnes</span> nullam ex. Ne sed
+eros homero, utroque pertinacia eam eu, in est ubique latine minimum. Vel
+invidunt intellegat scripserit ei, essent dolorem prodesset eu mea.
+</p><p>Putent nemore vituperata <span class="mw-lingo-term" data-lingo-term-id="5e68ca8a651d80d2a005ac825ede6b8c">vel</span> an, ut iuvaret delicata quaerendum est. Quas
+viderer civibus an cum. Vidisse efficiantur nam ut. Id sed aeque similique
+definitionem, in fugit partem copiosae eum. Sit diceret repudiare ne, ea <span class="mw-lingo-term" data-lingo-term-id="689c4f6017e042e16a6315622d4fc11d">ius</span>
+alii laboramus.
+</p><p>Brute viris propriae vis ad. Cu <span class="mw-lingo-term" data-lingo-term-id="ba5a0644c570e926b7bf6a031c40c36b">modus</span> pericula eum. Qui ne quot recusabo
+eloquentiam, ex quod hinc veritus per, vix at putent molestie consequuntur. His
+in <span class="mw-lingo-term" data-lingo-term-id="5ebcdbfc8779f1ac8898f70672713e85">omnes</span> gloriatur, propriae posidonium duo ne. Convenire consulatu definitiones
+et quo, mea autem fabulas epicuri ne. Erant percipit petentium ne qui, ad
+volumus facilisi mei.
+</p><p>Epicurei <span class="mw-lingo-term" data-lingo-term-id="9b90d6093e09c14bb7f88c2815e5d4cc">mandamus</span> te mei. Pri ea nisl stet fugit. Eum eu novum omnesque, porro
+scriptorem reprehendunt qui ad. Dicat nostrud oportere vix no. Cu falli
+philosophia pri.
+</p><p>Equidem consequuntur eu sed, ne justo partiendo sea, facilis apeirian eos te. Et
+fabellas rationibus nam. Nullam offendit eam et. Ea nostrum assueverit <span class="mw-lingo-term" data-lingo-term-id="689c4f6017e042e16a6315622d4fc11d">ius</span>,
+copiosae tincidunt ullamcorper quo eu.
+</p><p>Ex vocent molestiae nam, in usu aliquip assentior. Sensibus dissentiunt
+intellegebat in mea. Cum id iudico integre. An per solet viderer dolorem.
+</p><p>Te per laudem graecis conclusionemque. No mel lorem eligendi appellantur. Ut usu
+duis legendos hendrerit. Oportere liberavisse duo te. Eum et quis ullum
+scaevola, nam duis voluptua et, <span class="mw-lingo-term" data-lingo-term-id="5e68ca8a651d80d2a005ac825ede6b8c">vel</span> ei nostrud veritus. Eam ut erat integre,
+rebum accusam noluisse ne vis.
+</p><p>Oblique feugiat rationibus sit te, <span class="mw-lingo-term" data-lingo-term-id="689c4f6017e042e16a6315622d4fc11d">ius</span> erat facilisi accusamus ei. Eu eum noster
+nostro. Detracto argumentum te pri. His meis periculis vituperata te, vix ei
+etiam omittam reformidans. Usu ex dolores erroribus abhorreant. Ea vidit atqui
+philosophia duo, <span class="mw-lingo-term" data-lingo-term-id="689c4f6017e042e16a6315622d4fc11d">ius</span> ad vide tritani appareat. Enim timeam nonumes <span class="mw-lingo-term" data-lingo-term-id="689c4f6017e042e16a6315622d4fc11d">ius</span> no.
+</p><p>No prima audire quo, ei ubique mucius scribentur eos, cu duis harum philosophia
+usu. Detracto recusabo antiopam cu mea. An petentium appellantur vix, te eum
+elitr quidam doctus, et errem malorum omnesque sed. Nam cu errem dictas
+concludaturque, quo illud dolores ut. Has te nibh velit concludaturque, quod
+erant iuvaret est an, <span class="mw-lingo-term" data-lingo-term-id="689c4f6017e042e16a6315622d4fc11d">ius</span> ex lorem molestie pertinax.
+</p><p>Ius at sonet incorrupte. Ei sea honestatis complectitur, ei vim quando persius
+epicuri. Mei duis percipit no, postea pericula prodesset mel ex. Ea vix nostrud
+officiis similique, ad est civibus nominati. Pro suas principes at, ea mea
+audire corpora explicari, etiam nihil perfecto sit ut. His id fugit zril, no <span class="mw-lingo-term" data-lingo-term-id="3309a7a7941818e131b4dfb9a6349914">has</span>
+alii soluta.
+</p></div><div class="mw-lingo-tooltip" id="e78f5438b48b39bcbdea61b73679449d"><div class="mw-lingo-definition"><div class="mw-lingo-definition-text">
+<p>ipsum-def
+</p>
+</div></div>
+</div><div class="mw-lingo-tooltip" id="689c4f6017e042e16a6315622d4fc11d"><div class="mw-lingo-definition"><div class="mw-lingo-definition-text">
+<p>ius-def
+</p>
+</div></div>
+</div><div class="mw-lingo-tooltip" id="5ebcdbfc8779f1ac8898f70672713e85"><div class="mw-lingo-definition"><div class="mw-lingo-definition-text">
+<p>omnes-def
+</p>
+</div></div>
+</div><div class="mw-lingo-tooltip" id="5e68ca8a651d80d2a005ac825ede6b8c"><div class="mw-lingo-definition"><div class="mw-lingo-definition-text">
+<p>vel-def
+</p>
+</div></div><div class="mw-lingo-definition"><div class="mw-lingo-definition-text">
+<p>vel-def
+</p>
+</div></div>
+</div><div class="mw-lingo-tooltip" id="ba5a0644c570e926b7bf6a031c40c36b"><div class="mw-lingo-definition"><div class="mw-lingo-definition-text">
+<p>modus-def
+</p>
+</div></div>
+</div><div class="mw-lingo-tooltip" id="9b90d6093e09c14bb7f88c2815e5d4cc"><div class="mw-lingo-definition"><div class="mw-lingo-definition-text">
+<p>mandamus-def
+</p>
+</div></div>
+</div><div class="mw-lingo-tooltip" id="3309a7a7941818e131b4dfb9a6349914"><div class="mw-lingo-definition"><div class="mw-lingo-definition-text">
+<p>has-def
+</p>
+</div></div>
+</div>
+]]>
+	</expected>
+	<glossary-entry>
+		<term>ipsum</term>
+		<definition>ipsum-def</definition>
+	</glossary-entry>
+	<glossary-entry>
+		<term>vel</term>
+		<definition>vel-def</definition>
+	</glossary-entry>
+	<glossary-entry>
+		<term>vel</term>
+		<definition>vel-def</definition>
+	</glossary-entry>
+	<glossary-entry>
+		<term>mandamus</term>
+		<definition>mandamus-def</definition>
+	</glossary-entry>
+	<glossary-entry>
+		<term>ius</term>
+		<definition>ius-def</definition>
+	</glossary-entry>
+	<glossary-entry>
+		<term>modus</term>
+		<definition>modus-def</definition>
+	</glossary-entry>
+	<glossary-entry>
+		<term>omnes</term>
+		<definition>omnes-def</definition>
+	</glossary-entry>
+	<glossary-entry>
+		<term>has</term>
+		<definition>has-def</definition>
+	</glossary-entry>
+</testcase>

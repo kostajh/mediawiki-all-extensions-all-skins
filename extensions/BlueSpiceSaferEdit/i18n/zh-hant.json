@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly"
+		]
+	},
+	"bs-saferedit-desc": "若其他使用者在編輯頁面時提供警告",
+	"bs-saferedit-user-editing": "$1 正在{{GENDER:$1|編輯}}頁面",
+	"bs-saferedit-someone-editing": "頁面正被編輯",
+	"bs-saferedit-pref-interval": "查看同時編輯的間隔：",
+	"bs-saferedit-pref-shownameofeditinguser": "顯示目前編輯者的名稱"
+}

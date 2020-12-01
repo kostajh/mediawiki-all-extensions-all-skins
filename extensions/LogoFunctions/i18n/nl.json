@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"logofunctions-desc": "Voegt een parserfunctie toe om het logo van de wiki in te stellen",
+	"logofunctions-filenotexist": "Fout: [[:File:$1]] bestaat niet."
+}

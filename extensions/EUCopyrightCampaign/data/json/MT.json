@@ -1,0 +1,64 @@
+{
+	"representatives": [
+		{
+			"firstName": "David",
+			"lastName": "Casa",
+			"email": "david.casa@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45445",
+			"strasbourgPhone": "+33(0)3 88 1 75445",
+			"twitter": "@DavidCasaMEP"
+		},
+		{
+			"firstName": "Miriam",
+			"lastName": "Dalli",
+			"email": "miriam.dalli@europarl.europa.eu",
+			"membershipInDelegations": "DMAG",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45635",
+			"strasbourgPhone": "+33(0)3 88 1 75635",
+			"twitter": "@Miriamdalli"
+		},
+		{
+			"firstName": "Roberta",
+			"lastName": "Metsola",
+			"email": "roberta.metsola@europarl.europa.eu",
+			"membershipInDelegations": "D-US",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45686",
+			"strasbourgPhone": "+33(0)3 88 1 75686",
+			"twitter": "@RobertaMetsola"
+		},
+		{
+			"firstName": "Marlene",
+			"lastName": "Mizzi",
+			"email": "marlene.mizzi@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45235",
+			"strasbourgPhone": "+33(0)3 88 1 75235",
+			"twitter": "@MarleneMizzi"
+		},
+		{
+			"firstName": "Alfred",
+			"lastName": "Sant",
+			"email": "alfred.sant@europarl.europa.eu",
+			"membershipInDelegations": "D-US",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45287",
+			"strasbourgPhone": "+33(0)3 88 1 75287",
+			"twitter": "@SantAlfred"
+		},
+		{
+			"firstName": "Francis",
+			"lastName": "Zammit Dimech",
+			"email": "francis.zammitdimech@europarl.europa.eu",
+			"membershipInDelegations": "DPAL\nDMAG",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45835",
+			"strasbourgPhone": "+33(0)3 88 1 75835",
+			"twitter": "@franciszd"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
+	"bs-notifications-addaccount": "အသုံးပြုသူ \"$1\" ကို ဖန်တီးခဲ့သည်။",
+	"bs-notifications-email-addaccount-subject": "အသုံးပြုသူ \"$2\" ကို {{GENDER:$1|ဖန်တီးခဲ့သည်}}",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|ဖန်တီးသူ}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|ဖန်တီးသူ}}: $1",
+	"bs-notifications-edit": "စာမျက်နှာ \"$1\" သည် ပြောင်းလဲသွားသည်",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|မင်္ဂလာပါ}} $1။",
+	"bs-notifications-htmlmail-sender-info": "$1 အသိပေးစနစ်"
+}

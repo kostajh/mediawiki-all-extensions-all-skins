@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexander Yukal",
+			"Base",
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"bs-articleinfo-desc": "Надає інформацію про сторінку у рядку стану",
+	"prefs-articleinfo": "Інформація про сторінку",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Інтервал оновлення (у секундах):",
+	"bs-articleinfo-flyout-title": "Інформація про сторінку",
+	"bs-articleinfo-flyout-intro": "Тут Ви можете знайти інформацію, пов'язану зі сторінкою. Ви можете перевірити її якість та актуальність і побачити, як вона пов'язана з іншими сторінками в цій вікі.",
+	"bs-articleinfo-nav-link-title": "Інформація про сторінку",
+	"bs-articleinfo-flyout-categorylinks-title": "Категорії",
+	"bs-articleinfo-flyout-templatelinks-title": "Шаблони, що використовуються на сторінці",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Нема призначених категорій",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Нема використовуваних шаблонів",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Останнє редагування",
+	"bs-articleinfo-flyout-lastediteduser-text": "Останній редактор",
+	"bs-articleinfo-newrevision-info-text": "Доступна нова версія цієї сторінки. Будь ласка, перезавантажте сторінку, щоб переглянути поточний її вміст.",
+	"bs-articleinfo-newrevision-info-text-reload": "Доступна нова версія цієї сторінки. Будь ласка, [[:$1|перезавантажте]] сторінку, щоб переглянути її поточний вміст.",
+	"bs-articleinfo-flyout-subpages-title": "Підсторінки",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Підсторінки",
+	"bs-articleinfo-dialog-subpages-title": "Підсторінки",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Задає частоту оновлення для значення \"Last edit\". Це значення відображається на сторінці інформації під інструментом управління якістю."
+}

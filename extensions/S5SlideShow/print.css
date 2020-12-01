@@ -1,0 +1,19 @@
+/**
+ * Generated dynamically:
+ * @page {size: 297mm 210mm;}
+ * .body {width: 1122px; height: 793px;}
+ */
+@page {margin: 0;}
+html, body, .body {font-size: 24px;}
+.slide, ul {page-break-inside: avoid;}
+h1 {page-break-after: avoid;}
+.body {page-break-inside: avoid; position: relative !important;}
+#controls, #currentSlide {display: none;}
+.slide {position: absolute !important;}
+.layout {height: 100%; position: relative;}
+.header, .footer {position: absolute !important;}
+
+.slide, .hideme, .incremental {visibility: visible !important;}
+.slide embed, .hideme embed, .incremental embed,
+.slide iframe, .hideme iframe, .incremental iframe {visibility: visible !important;}
+.slide, .incremental {opacity: 1 !important; z-index: 1 !important;}

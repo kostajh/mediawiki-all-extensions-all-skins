@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-exporttables-extension-description": "Allows export of tables to Excel and CSV",
+	"bs-exporttables-menu": "Export table",
+	"bs-exporttables-menu-csv": "Comma seperated values (CSV)",
+	"bs-exporttables-menu-xls": "Microsoft Office Excel 2003 (XLS)",
+	"bs-exporttables-menu-xlsx": "Microsoft Office Open XML (XLSX)",
+	"bs-exporttables-ve-exportable-option": "Exportable"
+}

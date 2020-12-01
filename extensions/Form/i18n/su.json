@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Irwangatot",
+			"Kandar"
+		]
+	},
+	"form": "Formulir",
+	"form-no-name": "Formulir can dingaranan",
+	"form-no-name-text": "Formulir anjeun kudu boga ngaran, misalna waé \"Husus:Formulir/Ngaranformulir\".",
+	"form-bad-name": "Ngaran formulirna teu payus.",
+	"form-bad-name-text": "Euweuh formulir nu ngaranna kitu.",
+	"form-pattern": "Formulir-$1",
+	"form-save": "Simpen",
+	"form-index-mismatch": "Ieu formulir mibanda pola jeung citakan ngaran nu pasalia ti indéks $1 ka handap.",
+	"form-article-exists": "Kaca Aya",
+	"form-article-existstext": "Kaca [[$1]] geus aya.",
+	"form-bad-page-name": "Ngaran judul goréng",
+	"form-bad-page-name-text": "Data formulir nu diasupkeun ngahasilkeun ngaran kaca nu teu payus, \"$1\".",
+	"form-save-error-text": "Aya éror nu teu kanyahoan nalika nyimpen kaca '$1'."
+}

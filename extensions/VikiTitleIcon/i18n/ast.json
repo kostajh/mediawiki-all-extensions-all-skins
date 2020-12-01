@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"vikititleicon-desc": "Complementu VIKI p'amosar el logo de les páxines qu'usen la estensión Title Icon",
+	"vikititleicon-error-fetch": "Error al algamar datos del iconu de títulu pal nuedu: $1.",
+	"apihelp-getTitleIcons-description": "Llograr les URL de tolos iconos de títulu de la páxina, si esiste dalgunu.",
+	"apihelp-getTitleIcons-summary": "Llograr les URLs de tolos Iconos de Títulu de la páxina, si esiste dalgunu.",
+	"apihelp-getTitleIcons-param-pageTitle": "títulu de la páxina de la que quies llograr los iconos de títulos"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Markus Glaser",
+			"Patric Wirth",
+			"Robert Vogel"
+		]
+	},
+	"bs-nsfrc-desc": "{{desc|name=BlueSpiceNSFileRepoConnector}}",
+	"bs-nsfrc-namespacestore-label": "Short label for namespace selection combobox.\n{{Identical|Namespace}}",
+	"bs-nsfrc-namespacecombo-emptytext": "Placeholder text for the namespace selection combobox.\n{{Identical|Select namespace}}",
+	"bs-nsfrc-unprefixedfilename-label": "Label text to be shown in the upload dialog for file name input",
+	"bs-nsfrc-uploaddialog-selector-label": "Label for the namespace selector in VisualEditor upload dialog",
+	"apihelp-bs-nsfrc-tasks-summary": "{{doc-apihelp-summary|bs-nsfrc-tasks}}",
+	"apihelp-bs-nsfilerepo-connector-summary": "{{doc-apihelp-summary|bs-nsfilerepo-connector}}"
+}

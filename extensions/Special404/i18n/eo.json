@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"special404-desc": "Provizas paĝon por eraroj de la tipo \"404 Ne Trovita\"",
+	"error404": "404 Ne trovita",
+	"special404-body": "La retadreso petita de vi ne troviĝis.\n\nĈu vi intencis tajpi {{fullurl:$1}}?\n\nEble vi volas iri al:\n* [[{{MediaWiki:Mainpage}}|La ĉefpaĝo]]"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2"
+		]
+	},
+	"apihelp-editmassmessagelist-description": "עריכה רשימת מסירת הודעות המוניות.",
+	"apihelp-editmassmessagelist-summary": "עריכה של רשימת מסירה המונית.",
+	"apihelp-editmassmessagelist-param-spamlist": "כותרת רשימת המסירה שצריך לעדכן.",
+	"apihelp-editmassmessagelist-param-add": "כותרות שיתווספו לרשימה.",
+	"apihelp-editmassmessagelist-param-remove": "כותרות שיוסרו מהרשימה.",
+	"apihelp-editmassmessagelist-param-description": "תיאור חדש לרשימת המסירה.",
+	"apihelp-editmassmessagelist-example-1": "הוספת [[User talk:Foo]] ו־[[Talk:Bar]] לרשימת המסירה [[Example]] והסרת [[Talk:Baz]] ממנה",
+	"apihelp-editmassmessagelist-example-2": "הגדרת תיאור לרשימת המסירה [[Example]] למחרוזת \"FooBar delivery services\"",
+	"apihelp-massmessage-description": "שליחת הודעה לרשימת דפים.",
+	"apihelp-massmessage-summary": "שליחת הודעה לרשימת דפים.",
+	"apihelp-massmessage-param-spamlist": "דף שמכיל רשימה של דפים שתושאר בהם הודעה.",
+	"apihelp-massmessage-param-subject": "שורת הנושא של ההודעה.",
+	"apihelp-massmessage-param-message": "טקסט גוף ההודעה.",
+	"apihelp-massmessage-param-page-message": "הדף שיישלח יחד עם גוף ההודעה.",
+	"apihelp-massmessage-example-1": "שליחת הודעה לרשימה ב־[[Signpost Spamlist]] עם הנושא \"New Signpost\", וגוף ההודעה \"Please read it\".",
+	"apihelp-massmessage-example-2": "שליחת הודעה לרשימה ב־[[Signpost Spamlist]] עם הנושא \"New Signpost\", וההודעה שהיא התוכן של הדף \"Help Page\".",
+	"apihelp-massmessage-example-3": "שליחת הודעה לרשימה ב־[[Signpost Spamlist]] עם הנושא \"New Signpost\", וגוף ההודעה \"Please read it\" שמחובר אליו התוכן של הדף \"Help Page\".",
+	"apihelp-query+mmsites-description": "שירות בקשות השלמה אוטומטית לשדה אתר בהודעות המוניות.",
+	"apihelp-query+mmsites-summary": "שירות בקשות השלמה אוטומטית לשדה האתר בהודעות המוניות.",
+	"apihelp-query+mmsites-param-term": "איזו תחילית לחפש.",
+	"apihelp-query+mmsites-example-1": "השלמה אוטומטית של \"en\"",
+	"apierror-massmessage-invalidspamlist": "רשימת הספאם שצוינה אינה תקינה."
+}

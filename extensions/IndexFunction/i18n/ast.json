@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"indexfunc-desc": "Función analítica pa crear redireiciones y páxines de dixebra automátiques",
+	"indexfunc-badtitle": "Títulu inválidu: \"$1\"",
+	"indexfunc-editwarning": "Avisu:\nEsti títulu ye un índiz de {{PLURAL:$2|la siguiente páxina|les siguientes páxines}}:\n$1\nAsegúrese de que la páxina que ta a piques de crear nun esiste yá con un títulu diferente.\nSi crea esta páxina, desanicie esti títulu del <nowiki>{{#index:}}</nowiki> de {{PLURAL:$2|la páxina|les páxines}} de más arriba.",
+	"indexfunc-index-exists": "La páxina \"$1\" yá esiste",
+	"indexfunc-movewarn": "Avisu: \"$1\" ye un títulu d'índiz pa {{PLURAL:$3|la siguiente páxina|les siguientes páxines}}:\n$2\nPor favor, desanicie \"$1\" del <nowiki>{{#index:}}</nowiki> de {{PLURAL:$3|la páxina|les páxines}} de más arriba.",
+	"index": "Gueta nel índiz",
+	"index-legend": "Guetar nel índiz",
+	"index-search": "Guetar:",
+	"index-submit": "Unviar",
+	"index-disambig-start": "'''$1''' puede referise a delles páxines:",
+	"index-emptylist": "Nun hai páxines asociaes con \"$1\"",
+	"index-expand-detail": "Ver les páxines indexaes baxo esti títulu",
+	"index-hide-detail": "Tapecer la llista de páxines",
+	"index-no-results": "La gueta nun devolvió resultaos",
+	"index-search-explain": "Esta páxina usa una gueta por prefixos.  \n\nEscriba los primeros caráuteres y calque nel botón \"Unviar\" pa buscar títulos de páxines y entraes del índiz que principien cola cadena de gueta",
+	"index-details-explain": "Les entraes con fleches son entraes del índiz.\nCalque na flecha pa ver toles páxines indexaes con esi títulu."
+}

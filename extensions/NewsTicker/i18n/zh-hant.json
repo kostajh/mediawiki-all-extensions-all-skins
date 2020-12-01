@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"newsticker": "NewsTicker",
+	"newsticker-desc": "添加顯示出新聞跑馬燈的魔術字，可從特殊頁面來設置。",
+	"newsticker-summary": "設定新聞跑馬燈頁面與內容的特殊頁面。",
+	"newsticker-general": "一般",
+	"newsticker-news": "新聞",
+	"newsticker-class": "類別",
+	"newsticker-style": "樣式",
+	"newsticker-pages": "頁面",
+	"newsticker-page1": "第 1 頁",
+	"newsticker-page2": "第 2 頁",
+	"newsticker-page3": "第 3 頁",
+	"newsticker-page4": "第 4 頁",
+	"newsticker-page5": "第 5 頁",
+	"newsticker-page6": "第 6 頁",
+	"newsticker-page7": "第 7 頁",
+	"newsticker-page8": "第 8 頁",
+	"newsticker-page9": "第 9 頁",
+	"newsticker-title": "標題",
+	"newsticker-add-page": "新增頁面",
+	"newsticker-default-news-help": "設定用於新聞跑馬燈的預設新聞，一行一個新聞、可使用 wiki 文字。",
+	"newsticker-default-class-help": "設定用於所有新聞跑馬燈的預設 CSS 類別。",
+	"newsticker-default-style-help": "設定用於所有新聞跑馬燈的預設 CSS 樣式。",
+	"newsticker-pages-help": "設定會顯示新聞跑馬燈的頁面數，這樣此特殊頁面便可顯示各頁面的一個段落。注意！如果您減少頁面數，遺留的頁面資料將會不見！",
+	"newsticker-title-help": "設定顯示此新聞跑馬燈的頁面標題。",
+	"newsticker-news-help": "設定此此新聞跑馬燈的新聞（預設新聞會覆蓋掉）。",
+	"newsticker-class-help": "設定用於此新聞跑馬燈的 CSS 類別，會覆蓋預設 CSS 類別。",
+	"newsticker-style-help": "設定用於此新聞跑馬燈的 CSS 樣式，會覆蓋預設 CSS 樣式。",
+	"right-newsticker": "管理新聞跑馬燈",
+	"action-newsticker": "管理新聞跑馬燈"
+}

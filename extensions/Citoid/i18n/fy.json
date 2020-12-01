@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jdforrester",
+			"PiefPafPier",
+			"Robin0van0der0vliet"
+		]
+	},
+	"citoid-action-replace": "Referinsjetype wizigje",
+	"citoid-citation-widget-insert-button": "Ynfoegje",
+	"citoid-citoiddialog-back": "Werom",
+	"citoid-citoiddialog-credit": "Fieden troch $1",
+	"citoid-citoiddialog-lookup-button": "Generearje",
+	"citoid-citoiddialog-mode-auto": "Automatysk",
+	"citoid-citoiddialog-mode-manual": "Hânmjittich",
+	"citoid-citoiddialog-mode-reuse": "Werbrûk",
+	"citoid-citoiddialog-search": "Sykje",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, titel as sitaat",
+	"citoid-citoiddialog-search-placeholder": "bgl. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Sykjen, efkes wachtsje ...",
+	"citoid-citoiddialog-title": "In sitaat tafoegje",
+	"citoid-citoiddialog-title-replace": "Sitaat ferfange",
+	"citoid-citoiddialog-use-general-error-message": "Wy koene jo sitaat net oanmeitsje. Jo kinne de tab \"{{int:citoid-citoiddialog-mode-manual}}\" hjirboppe brûke, en meitsje ien mei de hân.",
+	"citoid-citoidtool-title": "Sitearje",
+	"citoid-citoidtool-title-othergroup": "Sitaat",
+	"citoid-desc": "Jout tagongspunten tusken de citoid-tsjinst en MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Omsette",
+	"citoid-referencecontextitem-convert-message": "Dizze referinsje is allinnich mar in eksterne ferwizing. Jo kinne de knop \"{{int:citoid-referencecontextitem-convert-button}}\" hjirûnder brûke, en generearje in referinsje mei de goede opmaak.",
+	"citoid-unknown-error": "In ûnbekende flater die him foar, dy't ús it oanmeitsjen fan 't sitaat behindere. Besykje it letter nochris.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatysk",
+	"citoid-wb-referenceview-tabs-search": "sykje",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN as QID:",
+	"citoid-wb-pendingdialog-error": "Kin gjin referinsje generearje fan dizze ynfier. Brûk de hânmjittige tab, of besykje it nochris.",
+	"citoid-wb-pendingdialog-message": "Jo referinsje generearjen ... efkes wachtsje ...",
+	"citoid-wb-pendingdialog-title": "Sitaat generearje"
+}

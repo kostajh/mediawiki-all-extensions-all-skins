@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftab1995",
+			"Aftabuzzaman",
+			"Bellayet",
+			"Wikitanvir",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"openstackmanager": "ওপেনস্ট্যাকম্যানেজার",
+	"specialpages-group-nova": "ওপেনস্ট্যাক নোভা",
+	"openstackmanager-delete": "অপসারণ",
+	"openstackmanager-actions": "কার্যসমূহ",
+	"openstackmanager-notloggedin": "লগ-ইন প্রয়োজন",
+	"openstackmanager-mustbeloggedin": "এই অ্যাকশনটি পরিচালনা করতে আপনাকে অবশ্যই প্রবেশ করতে হবে।",
+	"openstackmanager-novapublickey": "পাবলিক এসএসএইচ কি",
+	"openstackmanager-deletekey": "পাবলিক SSH কি অপসারণ করুন",
+	"openstackmanager-deletekeyconfirm": "আপনি কি নিশ্চিত যে আপনি ওপরের কি টা অপসারণ করতে ইচ্ছুক?",
+	"openstackmanager-keylist": "পাবলিক SSH কি'র তালিকা",
+	"openstackmanager-name": "নাম",
+	"openstackmanager-fingerprint": "ফিঙ্গারপ্রিন্ট",
+	"openstackmanager-keys": "কিসমূহ"
+}

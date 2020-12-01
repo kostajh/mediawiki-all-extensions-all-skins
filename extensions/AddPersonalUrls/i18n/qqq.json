@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"RV1971",
+			"Robby",
+			"Umherirrender"
+		]
+	},
+	"addpersonalurls-desc": "{{desc|name=AddPersonalUrls|url=https://www.mediawiki.org/wiki/Extension:AddPersonalUrls}}",
+	"addpersonalurls-preload": "When a user clicks on a personal URL and the corresponding page does not exist, the result is a create-page screen with this text preloaded.",
+	"addpersonalurls-userpages": "Description of the link which displays the subpages of User:$username where $username is the user currently logged in.",
+	"addpersonalurls-home": "Description of the link which displays the subpage User:$username/Home where $username is the user currently logged in.\n{{Identical|Home}}",
+	"addpersonalurls-home-preload": "When a user clicks on the addpersonalurls-home link and the corresponding page does not exist, the result is a create-page screen with the text of {{msg-mw|addpersonalurls-preload}} plus this text preloaded.",
+	"addpersonalurls-favorites": "Description of the link which displays the subpage User:$username/Favorites where $username is the user currently logged in.\n{{Identical|Favorite}}",
+	"addpersonalurls-favorites-preload": "When a user clicks on the addpersonalurls-favorites link and the corresponding page does not exist, the result is a create-page screen with the text of {{msg-mw|addpersonalurls-preload}} plus this text preloaded.",
+	"addpersonalurls-sandbox": "Description of the link which displays the subpage User:$username/Sandbox where $username is the user currently logged in.\n\n{{Identical|Sandbox}}",
+	"addpersonalurls-sandbox-preload": "When a user clicks on the addpersonalurls-sandbox link and the corresponding page does not exist, the result is a create-page screen with the text of {{msg-mw|addpersonalurls-preload}} plus this text preloaded.",
+	"addpersonalurls-notes": "Description of the link which displays the subpage User:$username/Notes where $username is the user currently logged in.\n{{Identical|Notes}}",
+	"addpersonalurls-notes-preload": "When a user clicks on the addpersonalurls-notes link and the corresponding page does not exist, the result is a create-page screen with the text of {{msg-mw|addpersonalurls-preload}} plus this text preloaded."
+}

@@ -1,0 +1,12 @@
+<div class="panel panel-default" id="{{id}}">
+	<div class="panel-heading" role="tab">
+		<h4 class="panel-title">
+			<a href="#pnl-{{id}}" class="title {{#collapse}} collapsed{{/collapse}}" role="button" data-toggle="collapse" aria-expanded="{{#collapse}}false{{/collapse}}{{^collapse}}true{{/collapse}}" aria-controls="collapse-{{id}}">
+				{{title}}
+			</a>
+		</h4>
+	</div>
+	<div class="panel-collapse collapse {{^collapse}} in{{/collapse}}" role="tabpanel" id="pnl-{{id}}" aria-labelledby="collapse-{{id}}" aria-expanded="{{#collapse}}false{{/collapse}}{{^collapse}}true{{/collapse}}">
+		{{{content}}}
+	</div>
+</div>

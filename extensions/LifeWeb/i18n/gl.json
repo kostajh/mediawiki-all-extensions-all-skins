@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Xerador e editor de claves de identificación",
+	"apihelp-query+LifeWeb-param-what": "Lista de datos a recuperar.",
+	"apihelp-query+LifeWeb-example-1": "Lista de taxóns"
+}

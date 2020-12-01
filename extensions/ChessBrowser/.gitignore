@@ -1,0 +1,8 @@
+.eslintcache
+docs/*
+node_modules/*
+vendor/*
+*.orig
+*~
+composer.lock
+*.bak

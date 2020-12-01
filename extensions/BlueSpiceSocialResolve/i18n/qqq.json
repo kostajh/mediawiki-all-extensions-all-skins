@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Patric Wirth"
+		]
+	},
+	"bs-socialresolve-desc": "{{desc|name=BlueSpiceSocialResolve}}",
+	"bs-socialresolve-status-resolved": "Status label for when an entry is currenlty marked as resolved.\n{{Identical|Resolved}}",
+	"bs-socialresolve-status-notresolved": "Status label for when an entry is currenlty marked as unresolved.\n{{Identical|Unresolved}}",
+	"bs-socialresolve-var-resolved": "Label for entry field \"resolved\".\n{{Identical|Resolve status}}",
+	"apihelp-bs-socialresolve-tasks-summary": "{{doc-apihelp-summary|bs-socialresolve-tasks}}"
+}

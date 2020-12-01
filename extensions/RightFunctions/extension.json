@@ -1,0 +1,50 @@
+{
+	"name": "RightFunctions",
+	"version": "1.13.0",
+	"author": [
+		"Ryan Schmidt",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:RightFunctions",
+	"descriptionmsg": "rightfunctions-desc",
+	"license-name": "Unlicense",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.33.0"
+	},
+	"MessagesDirs": {
+		"RightFunctions": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"RightFunctionsMagic": "RightFunctions.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"ExtRightFunctions": "ExtRightFunctions.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "ExtRightFunctions::onParserFirstCallInit"
+	},
+	"config": {
+		"RightFunctionsUserGroups": {
+			"value": [
+				"*",
+				"user",
+				"autoconfirmed",
+				"sysop",
+				"bureaucrat"
+			]
+		},
+		"RightFunctionsAllowExpensiveQueries": {
+			"value": true
+		},
+		"RightFunctionsAllowCaching": {
+			"value": false
+		},
+		"RightFunctionsDisableFunctions": {
+			"value": []
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,73 @@
+{
+	"name": "GlobalUserPage",
+	"version": "0.11.1",
+	"author": [
+		"Kunal Mehta",
+		"Jack Phoenix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GlobalUserPage",
+	"descriptionmsg": "globaluserpage-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"GlobalUserPage": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"GlobalUserPageMagic": "GlobalUserPage.i18n.magic.php"
+	},
+	"Hooks": {
+		"TitleIsAlwaysKnown": "MediaWiki\\GlobalUserPage\\Hooks::onTitleIsAlwaysKnown",
+		"ArticleFromTitle": "MediaWiki\\GlobalUserPage\\Hooks::onArticleFromTitle",
+		"LinksUpdateComplete": "MediaWiki\\GlobalUserPage\\Hooks::onLinksUpdateComplete",
+		"PageSaveComplete": "MediaWiki\\GlobalUserPage\\Hooks::onPagesaveComplete",
+		"ArticleDeleteComplete": "MediaWiki\\GlobalUserPage\\Hooks::onArticleDeleteComplete",
+		"TitleGetEditNotices": "MediaWiki\\GlobalUserPage\\Hooks::onTitleGetEditNotices",
+		"GetDoubleUnderscoreIDs": "MediaWiki\\GlobalUserPage\\Hooks::onGetDoubleUnderscoreIDs",
+		"WikiPageFactory": "MediaWiki\\GlobalUserPage\\Hooks::onWikiPageFactory"
+	},
+	"config": {
+		"GlobalUserPageCacheExpiry": {
+			"value": 604800
+		},
+		"GlobalUserPageAPIUrl": {
+			"value": "https://example.org/w/api.php"
+		},
+		"GlobalUserPageTimeout": {
+			"value": 10
+		},
+		"GlobalUserPageFooterKey": {
+			"value": "globaluserpage-footer"
+		},
+		"GlobalUserPageDBname": {
+			"value": "examplewiki"
+		}
+	},
+	"ResourceModules": {
+		"ext.GlobalUserPage": {
+			"styles": "ext.GlobalUserPage.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "GlobalUserPage"
+	},
+	"JobClasses": {
+		"GlobalUserPageLocalJobSubmitJob": "MediaWiki\\GlobalUserPage\\LocalJobSubmitJob",
+		"LocalGlobalUserPageCacheUpdateJob": "MediaWiki\\GlobalUserPage\\LocalCacheUpdateJob"
+	},
+	"DefaultUserOptions": {
+		"globaluserpage": true
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\GlobalUserPage\\": "includes/"
+	},
+	"ConfigRegistry": {
+		"globaluserpage": "GlobalVarConfig::newInstance"
+	},
+	"manifest_version": 2
+}

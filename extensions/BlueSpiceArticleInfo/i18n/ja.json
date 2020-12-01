@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player",
+			"Aefgh39622",
+			"Shirayuki"
+		]
+	},
+	"bs-articleinfo-desc": "ステータス バーにページについての情報を提供する",
+	"prefs-articleinfo": "ページ情報",
+	"bs-articleinfo-pref-CheckRevisionInterval": "更新間隔 (秒):",
+	"bs-articleinfo-flyout-title": "ページ情報",
+	"bs-articleinfo-nav-link-title": "ページ情報",
+	"bs-articleinfo-flyout-categorylinks-title": "カテゴリ",
+	"bs-articleinfo-flyout-templatelinks-title": "ページで使用されているテンプレート",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "カテゴリが割り当てられていません",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "テンプレートは使用されていません",
+	"bs-articleinfo-flyout-lasteditedtime-text": "最終編集",
+	"bs-articleinfo-flyout-lastediteduser-text": "最終編集者",
+	"bs-articleinfo-newrevision-info-text": "このページの新しいバージョンが利用可能です。現在のコンテンツを表示するには、ページを再読み込みしてください。",
+	"bs-articleinfo-flyout-subpages-title": "下位ページ",
+	"bs-articleinfo-pagetool-subpages-tooltip": "下位ページ",
+	"bs-articleinfo-dialog-subpages-title": "下位ページ"
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"OsamaK",
+			"ديفيد",
+			"روخو"
+		]
+	},
+	"security": "سجل الأمن",
+	"security-desc": "يمدد حماية المقالات في ميدياويكي للسماح بتحديد رؤية محتوى المقالات",
+	"security-logpage": "سجل الأمن",
+	"security-logpagetext": "هذا سجل بالأفعال الممنوعة بواسطة [https://www.mediawiki.org/wiki/Extension:SimpleSecurity امتداد الأمن البسيط].",
+	"badaccess-read": "تحذير: \"$1\" ترجع إلى هنا، لكنك لا تمتلك سماحات كافية للوصول إليها.",
+	"security-info": "توجد $1 على هذه المقالة",
+	"security-info-toggle": "ضوابط الأمن",
+	"security-inforestrict": "$1 مضبوط إلى $2",
+	"security-desc-LS": "(ينطبق لأن هذه الصفحة موجودة في \"$2 $1\")",
+	"security-desc-PR": "(اضبط من لسان \"الحماية\")",
+	"security-infosysops": "لا قيود مفعّلة لأنك عضو في مجموعة \"sysop\"",
+	"security-manygroups": "المجموعات $1 و $2",
+	"security-unchain": "عدل الأفعال بشكل فردي",
+	"security-type-category": "تصنيف",
+	"security-type-namespace": "نطاق",
+	"security-restricttogroup": "الوصول إلى المحتوى مُقيّد لأعضاء \"$1\"",
+	"restriction-read": "اقرأ"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"emailauth-desc": "Comprueba accesos sospechosos al traviés del corréu electrónicu.",
+	"emailauth-token-label": "Códigu de comprobación",
+	"emailauth-token-help": "Unvióse per corréu un pase d'autenticación en dos pasos d'un solu usu.",
+	"emailauth-email-subject": "El códigu de comprobación d'accesu a $1",
+	"emailauth-email-body": "El códigu de comprobación d'accesu a $1 ye $2",
+	"emailauth-login-message": "Ríquese que compruebes l'accesu. Unviámoste al corréu electrónicu ($1) un códigu de comprobación que tendrás de copiar equí.",
+	"emailauth-login-failure": "Códigu de comprobación inválidu.",
+	"emailauth-login-retry-limit": "Demasiaos fallos."
+}

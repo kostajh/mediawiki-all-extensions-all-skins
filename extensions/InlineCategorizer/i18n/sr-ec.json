@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Rancher",
+			"Slaven Kosanovic",
+			"Zoranzoki21"
+		]
+	},
+	"inlinecategorizer-desc": "Јаваскрипт модул који омогућава промену, додавање и уклањање веза из категорија директно са странице",
+	"inlinecategorizer-add-category": "Додај категорију",
+	"inlinecategorizer-add-category-submit": "Додај",
+	"inlinecategorizer-add-category-summary": "Додај категорију \"$1\"",
+	"inlinecategorizer-api-error": "АПИ је пријавио грешку: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "АПИ је пријавио непознату грешку.",
+	"inlinecategorizer-cancel": "Откажи уређивање",
+	"inlinecategorizer-cancel-all": "Откажи све измене",
+	"inlinecategorizer-category-already-present": "Ова страница већ припада категорији „$1“",
+	"inlinecategorizer-category-hook-error": "Локална функција је спречила да се измене сачувају.",
+	"inlinecategorizer-category-question": "Разлог за стварање измена:",
+	"inlinecategorizer-confirm-ok": "У реду",
+	"inlinecategorizer-confirm-save": "Сачувај",
+	"inlinecategorizer-confirm-save-all": "Сачувај све измене",
+	"inlinecategorizer-confirm-title": "Потврди акцију",
+	"inlinecategorizer-edit-category": "Уреди категорију",
+	"inlinecategorizer-edit-category-error": "Не могу да променим категорију „$1“.\nОво се обично дешава када је категорија додата на страницу преко шаблона.",
+	"inlinecategorizer-edit-category-summary": "Промени категорију „$1“ у „$2“",
+	"inlinecategorizer-error-title": "Грешка",
+	"inlinecategorizer-remove-category": "Уклони категорију",
+	"inlinecategorizer-remove-category-error": "Не могу да уклоним категорију „$1“.\nОво се обично дешава када је категорија додата на страницу преко шаблона.",
+	"inlinecategorizer-remove-category-summary": "Уклони категорију \"$1\""
+}

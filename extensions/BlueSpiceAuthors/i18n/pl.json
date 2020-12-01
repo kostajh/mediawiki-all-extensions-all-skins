@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Vengir"
+		]
+	},
+	"prefs-authors": "Autorzy tej strony",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Autor|Autorka}}|Autorów}}",
+	"bs-authors-profileimage": "Avatar",
+	"bs-authors-profileimage-change": "Zmień avatar",
+	"bs-authors-show-all-authors": "Więcej autorów…",
+	"bs-authors-pref-show": "Wyświetl autorów",
+	"bs-authors-switch-description": "Ukrywa autorów tej strony.",
+	"bs-authors-navigation-link-title": "Autorzy tej strony",
+	"bs-authors-navigation-link-text": "Autorzy",
+	"bs-authors-flyout-title": "Autorzy tej strony",
+	"bs-authors-author-type-editor": "Edytor"
+}

@@ -1,0 +1,74 @@
+/* Mixin form resources/src/mediawiki.less/mediawiki.mixins.less */
+
+/* stylelint-disable selector-no-vendor-prefix, at-rule-no-unknown */
+.mixin-placeholder( @rules ) {
+	// WebKit, Blink, Edge
+	&::-webkit-input-placeholder {
+		@rules();
+	}
+	// Internet Explorer 10-11
+	&:-ms-input-placeholder {
+		@rules();
+	}
+	// Firefox 19-
+	&::-moz-placeholder {
+		@rules();
+	}
+	// Firefox 4-18
+	&:-moz-placeholder {
+		@rules();
+	}
+	// W3C Standard Selectors Level 4
+	&::placeholder {
+		@rules();
+	}
+}
+
+// Inputs
+// Text inputs
+//
+// Apply the mw-ui-input class to input and textarea fields.
+//
+// Styleguide 1.
+
+// mw-ui-input
+//
+// Style an input using MediaWiki UI.
+// Currently in draft status and subject to change.
+// When focused a progressive highlight appears to the left of the field.
+//
+// Markup:
+// <input class="mw-ui-input" placeholder="Enter your name">
+// <textarea class="mw-ui-input">Text here</textarea>
+//
+// Styleguide 1.1.
+.mw-ui-input {
+	background-color: #fff;
+	color: @colorGray1;
+	border: 1px solid @colorFieldBorder;
+	box-shadow: inset 0 0 0 0.1em #fff;
+
+	// Normalize & style placeholder text, see T139034
+	/* stylelint-disable indentation */
+	.mixin-placeholder( {
+		color: @colorGray7;
+	} );
+	/* stylelint-enable indentation */
+
+	// Firefox: Remove red outline when `required` attribute set and invalid content.
+	// See https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid
+	// This should come before `:focus` so latter rules take preference.
+	&:hover {
+		border-color: @colorGray7;
+	}
+
+	&:focus {
+		border-color: @colorProgressive;
+		box-shadow: inset 0 0 0 1px @colorProgressive;
+	}
+
+	&:disabled {
+		border-color: @colorGray14;
+		color: @colorGray12;
+	}
+}

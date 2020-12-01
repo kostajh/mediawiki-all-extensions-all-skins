@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Macofe"
+		]
+	},
+	"onlinestatusbar-desc": "Barra de estado que muestra en la página de usuario si un usuario está conectado",
+	"prefs-onlinestatus": "Estado conectado",
+	"onlinestatusbar-used": "Mostrar si está conectado en sus páginas de usuario",
+	"onlinestatusbar-hide": "Ocultar la barra de estado en las páginas de usuario para usar únicamente la palabra mágica (para usuarios avanzados)",
+	"onlinestatusbar-away": "Considerarle automáticamente como ausente después de un intervalo definido",
+	"onlinestatusbar-purge": "Vaciar la página de usuario cada vez que accedas o salgas del sistema",
+	"onlinestatusbar-status": "¿Cuál es el estado predeterminado que quieres usar?",
+	"onlinestatusbar-away-time": "Cuántos minutos deben pasar antes de considerarle \"ausente\":",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Conectado|Conectada}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Ocupado|Ocupada}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Ausente}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Oculto|Oculta}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Desconectado|Desconectada}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Desconocido|Desconocida}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Este usuario|Esta usuaria}} está en línea",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Este usuario|Esta usuaria}} está {{GENDER:$1|ocupado|ocupada}} y puede no estar disponible",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Este usuario está inactivo|Esta usuaria está inactiva}} y puede no estar disponible",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Este usuario está desconectado|Esta usuaria está desconectada}}",
+	"onlinestatusbar-tooltip-unknown": "Se desconoce el estado de {{GENDER:$1|este usuario|esta usuaria}}"
+}

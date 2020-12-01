@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michaello"
+		]
+	},
+	"patrol": "Potroliranje izmena",
+	"patrol-revert": "Vrati",
+	"patrol-revert-reason": "Razlog:",
+	"patrol-skip": "Preskoči",
+	"patrol-reverting": "Vraćanje: $1",
+	"patrol-nonefound": "Nema izmena koje bi se mogle patrolirati",
+	"patrol-endorsed-ok": "Izmena je obeležena kao patrolisana.",
+	"patrol-endorsed-failed": "Izmena nije mogla biti obeležena kao patrolirana.",
+	"patrol-reverted-ok": "Izmena je vraćena.",
+	"patrol-reverted-failed": "Izmena nije mogla biti vraćena.",
+	"patrol-skipped-ok": "Ignorisanje izmene.",
+	"patrol-reasons": "* Običan vandalizam\n* Test početnika\n* Vidi stranu za razgovor",
+	"patrol-another": "Pokaži neku drugu izmenu, ako je dostupna.",
+	"patrol-resume": "Kliknite ovde da se vratite.",
+	"group-patroller": "Patroleri",
+	"group-patroller-member": "patroler",
+	"grouppage-patroller": "{{ns:project}}:Patroler",
+	"right-patroller": "Patroliranje strana"
+}

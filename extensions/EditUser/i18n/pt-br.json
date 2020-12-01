@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent",
+			"Eduardo Addad de Oliveira",
+			"Eduardo.mps",
+			"Giro720"
+		]
+	},
+	"edituser": "Editar Utilizador",
+	"edituser-desc": "Permite que utilizadores com privilégios editem as preferências de outros utilizadores",
+	"edituser-username": "Usuário:",
+	"edituser-dosearch": "Pesquisar",
+	"edituser-nouser": "O usuário \"$1\" não existe.",
+	"edituser-exempt": "O usuário \"$1\" não pode ser editado.",
+	"right-edituser": "Editar as preferências de outros utilizadores",
+	"right-edituser-exempt": "Outros não podem editar as preferências deste usuário",
+	"action-edituser": "editar as preferências de outros usuários",
+	"action-edituser-exempt": "editar as preferências deste usuário"
+}

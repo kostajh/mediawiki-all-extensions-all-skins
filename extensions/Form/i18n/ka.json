@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"form": "ფორმა",
+	"form-no-name": "ფორმის სახელი არ არის",
+	"form-bad-name": "ფორმის ცუდი სახელი",
+	"form-pattern": "$1-ფორმა",
+	"form-save": "შენახვა",
+	"form-article-exists": "გვერდი არსებობს",
+	"form-article-existstext": "გვერდი „[[$1]]“ უკვე არსებობს.",
+	"form-bad-page-name": "გვერდის ცუდი სახელი"
+}

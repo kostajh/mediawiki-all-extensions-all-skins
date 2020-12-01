@@ -1,0 +1,20 @@
+{
+	"name": "PHP highlight",
+	"author": "Alexandre Emsenhuber",
+	"url": "https://www.mediawiki.org/wiki/Extension:PhpHighlight",
+	"descriptionmsg": "phphighlight-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"PhpHighlight": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"PhpHighlightHooks": "PhpHighlightHooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "PhpHighlightHooks::efSetPhp"
+	},
+	"manifest_version": 1
+}

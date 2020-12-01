@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"prefs-avatars": "الصور الرمزية",
+	"bs-avatars-desc": "يوفر الصور العامة والفردية للمستخدم",
+	"bs-avatars-pref-generator": "المولد:",
+	"bs-avatars-pref-defaultsize": "الحجم الافتراضي بالبكسل:",
+	"bs-avatars-pref-userimage": "صورة المستخدم:",
+	"bs-avatars-pref-userimage-img-alt": "صورة المستخدم الحالية الخاصة بك",
+	"bs-avatars-upload-complete": "رفعت الصورة.",
+	"bs-avatars-generate-complete": "تم إنشاء صورة رمزية جديدة.",
+	"bs-avatars-upload-title": "تغيير صورة الملف الشخصي",
+	"bs-avatars-upload-label": "الصورة",
+	"bs-avatars-generate-new-label": "توليد صورة رمزية جديدة",
+	"bs-avatars-warning-title": "تحذير",
+	"bs-avatars-warning-text": "لقد قمت بتعيين صورة مستخدم في تفضيلاتك، سيؤدي استخدام الصور الرمزية إلى مسح هذا الإعدا، هل تريد المتابعة؟",
+	"bs-avatars-userimage-title": "صورة من موقع ويكي أو مسار صورة",
+	"bs-avatars-userimage-help": "على سبيل المثال Picture.jpg أو http://localhost/Picture.gif",
+	"bs-avatars-userimage-alt": "صورة الملف الشخصي للمستخدم \"$1\"",
+	"bs-avatars-set-userimage-failed": "ليس مسارا أو صورة من ويكي صالحة.",
+	"bs-avatars-set-userimage-saved": "حفظت صورة المستخدم",
+	"bs-avatars-file-upload-fieldset-title": "رفع الصورة",
+	"bs-avatars-auto-generate-fieldset-title": "توليد تلقائي للصورة الرمزية",
+	"apihelp-bs-avatars-tasks-description": "رفع وتوليد وإعداد الصور الرمزية للمستخدم",
+	"apihelp-bs-avatars-tasks-summary": "رفع وتوليد وإعداد الصور الرمزية للمستخدم",
+	"bs-avatars-tag-profileimage-error-invalidusername": "الوسيط \"اسم المستخدم\" مطلوب ويجب أن يحتوي على اسم مستخدم صالح"
+}

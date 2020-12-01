@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume",
+			"Shirayuki"
+		]
+	},
+	"tweetanew-desc": "ページの作成/編集時にツイートする",
+	"tweetanew-newaction": "この新しいページについてツイート",
+	"tweetanew-newtooltip": "この新しいページについて Twitter に情報を送信",
+	"tweetanew-editaction": "この編集についてツイート",
+	"tweetanew-edittooltip": "この編集について Twitter に情報を送信",
+	"tweetanew-minoredit": "細",
+	"tweetanew-authorcredit": "by",
+	"tweetanew-newdefault": "新しいページ: $1 - $2",
+	"tweetanew-new1": "$1 が作成されたようです: $2",
+	"tweetanew-new2": "$1 が作成しました: $2",
+	"tweetanew-new3": "チェックしてください: $2 - 新しいページ「$1」があります",
+	"tweetanew-editdefault": "更新されたページ: $1 - $2",
+	"tweetanew-edit1": "「$1」が更新されたようです: $2",
+	"tweetanew-edit2": "最近「$1」が更新されました: $2",
+	"tweetanew-edit3": "チェックしてください $2 - 「$1」の内容が更新されました"
+}

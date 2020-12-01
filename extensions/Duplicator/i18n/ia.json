@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"duplicator": "Duplicar un pagina",
+	"duplicator-desc": "Crear [[Special:Duplicate|copias independente de paginas]] con historias complete de modificationes",
+	"duplicator-toolbox": "Duplicar iste pagina",
+	"duplicator-header": "Iste pagina permitte le duplication complete de un pagina, creante copias independente de tote le historias.\nIsto es utile pro le bifurcation de paginas, etc.",
+	"duplicator-options": "Optiones",
+	"duplicator-source": "Origine:",
+	"duplicator-dest": "Destination:",
+	"duplicator-dotalk": "Duplicar etiam le pagina de discussion (si existe)",
+	"duplicator-dosubpages": "Duplicar subpaginas (si existe)",
+	"duplicator-dohistory": "Duplicar le historia complete del pagina",
+	"duplicator-submit": "Duplicar",
+	"duplicator-summary": "Copiate ab [[$1]], version [[$2]]",
+	"duplicator-success": "[[$1]] ha essite copiate verso [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|version|versiones}} ha essite copiate.",
+	"duplicator-success-talknotcopied": "Le pagina de discussion non poteva esser copiate.",
+	"duplicator-failed": "Le pagina non poteva esser duplicate.\nUn error incognite occurreva.",
+	"duplicator-failed-toolong": "[[$1]] non ha essite duplicate. Le titulo de destination es troppo longe.",
+	"duplicator-failed-dest-exists": "[[$1]] non ha essite duplicate. Le titulo de destination [[$2]] jam existe.",
+	"duplicator-source-invalid": "Per favor entra un titulo de origine valide.",
+	"duplicator-source-notexist": "[[$1]] non existe. Per favor entra le titulo de un pagina existente.",
+	"duplicator-dest-invalid": "Per favor entra un titulo de destination valide.",
+	"duplicator-dest-exists": "[[$1]] existe ja. Per favor entra un titulo de destination non ancora existente.",
+	"right-duplicate": "Duplicar paginas"
+}

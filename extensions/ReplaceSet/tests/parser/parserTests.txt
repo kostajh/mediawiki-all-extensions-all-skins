@@ -1,0 +1,28 @@
+!! Version 2
+
+!! test
+Basic #replaceset usage
+!! wikitext
+{{#replaceset:Text to replace|/(\w+)/i="\1"|to=2}}
+!! html
+<p>"Text" "2" "replace"
+</p>
+!! end
+
+!! test
+Simple text replacement of equals in nowiki
+!! wikitext
+{{#replaceset:Foo=bar=baz|<nowiki>=</nowiki>=!}}
+!! html
+<p>Foo!bar!baz
+</p>
+!! end
+
+!! test
+Regexp text replacement of equals in nowiki
+!! wikitext
+{{#replaceset:Foo=bar=baz|<nowiki>/=/</nowiki>=!}}
+!! html
+<p>Foo!bar!baz
+</p>
+!! end

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crochet.david",
+			"Gomoko",
+			"Seb35",
+			"Sherbrooke"
+		]
+	},
+	"securesessions-desc": "Sécurise davantage les sessions utilisateur et l’authentification de session",
+	"securesessions-personalurl": "Ouvrir des sessions ($1)",
+	"securesessions-ipsession": "Terminer toutes les autres sessions.",
+	"securesessions-iprestrict": "Restreindre la session à cette adresse IP,",
+	"securesessions-uarestrict": "Restreindre la session à ce navigateur Web.",
+	"securesessions-sessions": "Sessions",
+	"securesessions-sessions-legend": "Informations sur la session",
+	"securesessions-sessions-text": "Ci-dessous se trouvent toutes les sessions actives de votre compte et des informations sur elles. Vous pouvez terminer toutes les autres sessions en cliquant sur le bouton plus bas. Une astérique (*) indique la session active.",
+	"securesessions-sessions-ip": "Adresse IP :",
+	"securesessions-sessions-activity": "Dernière activité :",
+	"securesessions-sessions-clear": "Terminer toutes les autres sessions.",
+	"securesessions-prefs-country": "Restreindre la connexion par pays :",
+	"securesessions-prefs-tor": "Interdire les connexions depuis les nœuds de sortie de Tor.",
+	"securesessions-disallowedcountry": "Ce compte n’est pas autorisé à se connecter depuis ce pays.",
+	"securesessions-disallowedtor": "Ce compte n’est pas autorisé à se connecter depuis des nœuds de sortie de Tor."
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"securesessions-desc": "Fà le sessiune utende e l'autendicazione d'a sessione cchiù secure",
+	"securesessions-personalurl": "Iapre le sessiune ($1)",
+	"securesessions-ipsession": "Isse da tutte le otre sessiune.",
+	"securesessions-iprestrict": "Sessione ristrette a stu indirizze IP,",
+	"securesessions-uarestrict": "Sessione ristrette a stu browser.",
+	"securesessions-sessions": "Sessiune",
+	"securesessions-sessions-legend": "'Mbormaziune sus a sessione",
+	"securesessions-sessions-text": "Aqquà sotte stonne tutte le sessiune aperte pu cunde tune e le 'mbormaziune sus a lore. Tu puè achiudere tutte le otre sessiune ausanne 'u buttone aqquà sotte. 'N'asterische (*) te dice 'a sessione de mò.",
+	"securesessions-sessions-ip": "Indirizze IP:",
+	"securesessions-sessions-activity": "Urtema attività:",
+	"securesessions-sessions-clear": "Isse da tutte le otre sessiune.",
+	"securesessions-prefs-country": "Restringe 'a trasute pe paese:",
+	"securesessions-prefs-tor": "Nò permettere 'a trasute da node ca esistene de Tor.",
+	"securesessions-disallowedcountry": "Stu cunde non g'è abbilitate a trasè da stu paese.",
+	"securesessions-disallowedtor": "Stu cunde non g'è abbilitate a trasè da 'nu node esistende de Tor."
+}

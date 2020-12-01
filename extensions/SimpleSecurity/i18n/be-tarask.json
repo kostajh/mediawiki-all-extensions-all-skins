@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Red Winged Duck"
+		]
+	},
+	"security": "Журнал бясьпекі",
+	"security-desc": "Пашырае магчымасьці абароны старонак MediaWiki і дазваляе абмяжоўваць прагляд зьместу старонак",
+	"security-logpage": "Журнал бясьпекі",
+	"security-logpagetext": "Гэта журнал дзеяньняў не дазволеных з дапамогай [https://www.mediawiki.org/wiki/Extension:SimpleSecurity пашырэньня SimpleSecurity].",
+	"badaccess-read": "Увага: «$1» спасылаецца сюды, але Вы ня маеце адпаведных правоў для доступу.",
+	"security-info": "Гэтая старонка мае $1",
+	"security-info-toggle": "абмежаваньні бясьпекі",
+	"security-inforestrict": "$1 забаронены для $2",
+	"security-desc-LS": "(дастасаванае, бо гэтая старонка знаходзіцца ў $1 «$2»)",
+	"security-desc-PR": "(устаноўленая з '''закладкі абароны''')''",
+	"security-infosysops": "Ніякія абмежаваньні ня будуць дзейнічаць, таму што Вы зьяўляецеся '''адміністратарам'''",
+	"security-manygroups": "групы $1 і $2",
+	"security-unchain": "Зьмяніць дзеяньні індывідуальна",
+	"security-type-category": "катэгорыя",
+	"security-type-namespace": "прастора назваў",
+	"security-restricttogroup": "Доступ да зьместу абмежаваны для групы «$1»",
+	"restriction-read": "Чытаць"
+}

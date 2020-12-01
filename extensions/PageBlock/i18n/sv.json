@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"pageblock-desc": "Aktiverar sid-/användardefinierade begränsningar",
+	"pageblock": "Begränsa användare",
+	"pageblock-legend": "Begränsa användare",
+	"pageblock-form-title": "Sidnamn",
+	"pageblock-form-user": "Användarnamn",
+	"pageblock-form-edit": "Begränsa användare från att redigera",
+	"pageblock-form-sameformove": "Tillämpa samma begränsningar för flytt",
+	"pageblock-form-move": "Begränsa användare från att flytta",
+	"pageblock-form-reason": "Anledning",
+	"pageblock-success": "$1 har begränsats från $2.",
+	"listrestrictions": "Lista begränsningar",
+	"listrestrictions-legend": "Lista begränsningar",
+	"pageblock-list-title": "Sidnamn",
+	"pageblock-list-user": "Användarnamn",
+	"pageblock-list-indefonly": "Visa endast obestämda begränsningar",
+	"pageblock-restricted-edit-indef": "$1 begränsas från att redigera $2 på obestämd tid.",
+	"pageblock-restricted-edit": "$1 begränsas från att redigera $2 tills $3.",
+	"pageblock-restricted-move-indef": "$1 begränsas från att flytta $2 på obestämd tid.",
+	"pageblock-restricted-move": "$1 begränsas från att flytta $2 tills $3.",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|Du}} begränsas från att redigera $2 på obestämd tid.",
+	"pageblock-blocked-edit": "{{GENDER:$1|Du}} begränsas från att redigera $2 tills $3.",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|Du}} begränsas från att flytta $2 på obestämd tid.",
+	"pageblock-blocked-move": "{{GENDER:$1|Du}} begränsas från att flytta tills $3.",
+	"logentry-restrict-add-edit-move": "$1 {{GENDER:$2|begränsade}} $3 från att redigera och flytta $4",
+	"logentry-restrict-add-edit": "$1 {{GENDER:$2|begränsade}} $3 från att redigera $4",
+	"logentry-restrict-add-move": "$1 {{GENDER:$2|begränsade}} $3 från att flytta $4",
+	"right-page-block": "Tillämpa, modifiera eller ta bort sidor eller begränsningar för varje användare"
+}

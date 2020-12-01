@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Imre",
+			"Kghbln"
+		]
+	},
+	"duplicator-source-invalid": "Bitte geben Sie eine gültige Quell-Seite an.",
+	"duplicator-source-notexist": "Die Seite [[$1]] ist nicht vorhanden. Bitte geben Sie eine vorhandene Seite an.",
+	"duplicator-dest-invalid": "Bitte geben Sie eine gültige Ziel-Seite an.",
+	"duplicator-dest-exists": "Die Seite [[$1]] ist bereits vorhanden. Bitte geben Sie eine Zielseite an, die nicht vorhanden ist."
+}

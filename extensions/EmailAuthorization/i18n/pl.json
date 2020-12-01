@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"InternerowyGołąb",
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"emailauthorization-desc": "Autoryzuje użytkowników przez adresy e-mail",
+	"emailauthorization-config-authorized": "\"$1\" jest autoryzowany.",
+	"emailauthorization-config-notauthorized": "$1 nie jest autoryzowany.",
+	"emailauthorization-config-added": "Pomyślnie zautoryzowano \"$1\".",
+	"emailauthorization-config-noauthfound": "Nie znaleziono autoryzowanych adresów poczty elektronicznej lub domen.",
+	"emailauthorization-config-nousersfound": "Nie znaleziono żadnego użytkownika.",
+	"emailauthorization-config-invalidemail": "\"$1\" nie jest prawidłowym adresem poczty elektronicznej lub domeną.",
+	"emailauthorization-config-label-email": "Adres e-mail",
+	"emailauthorization-config-label-username": "Nazwa użytkownika",
+	"emailauthorization-config-label-realname": "Imię i nazwisko",
+	"emailauthorization-config-label-userpage": "Strona użytkownika",
+	"emailauthorization-config-label-authorized": "Autoryzowany",
+	"emailauthorization-config-value-yes": "Tak",
+	"emailauthorization-config-value-no": "nie",
+	"emailauthorization-config-button-next": "Następny",
+	"emailauthorization-config-button-previous": "Poprzedni",
+	"emailauthorization-config-button-search": "Szukaj",
+	"emailauthorization-config-button-add": "Dodaj",
+	"emailauthorization-config-button-showall": "Pokaż wszystkich użytkowników wiki",
+	"right-emailauthorizationconfig": "Konfiguruj autoryzację użytkownika poprzez adres poczty elektronicznej.",
+	"emailauthorization-request-label-email": "Adres e-mail",
+	"emailauthorization-request-button-submit": "Wyślij",
+	"emailauthorization-request-invalidemail": "Nieprawidłowy adres e-mail: $1",
+	"emailauthorization-approve-label-email": "Adres e-mail",
+	"emailauthorization-approve-label-extra": "Pola dodatkowe.",
+	"emailauthorization-approve-label-action": "Działania",
+	"emailauthorization-approve-button-approve": "Akceptuj",
+	"emailauthorization-approve-button-reject": "Odrzuć",
+	"emailauthorization-approve-approved": "Zaakceptowano $1.",
+	"emailauthorization-approve-rejected": "Odrzucono $1."
+}

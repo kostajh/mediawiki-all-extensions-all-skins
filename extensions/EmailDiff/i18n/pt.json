@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"emaildiff-desc": "Permitir o envio de listas de diferenças de texto nas notificações por correio eletrónico",
+	"tog-emaildiff": "Enviar uma lista de diferenças das mudanças",
+	"emaildiff-newpage": "Esta é uma página nova:\n\n$1",
+	"emaildiff-intro": "Diferenças da versão:\n$1"
+}

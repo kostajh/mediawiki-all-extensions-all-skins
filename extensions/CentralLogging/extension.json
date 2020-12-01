@@ -1,0 +1,32 @@
+{
+	"name": "CentralLogging",
+	"version": "1.1",
+	"author": "[https://www.mediawiki.org/wiki/User:Legoktm Kunal Mehta]",
+	"url": "https://www.mediawiki.org/wiki/Extension:CentralLogging",
+	"descriptionmsg": "centrallogging-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"JobClasses": {
+		"centrallogJob": "includes/CentralLogJob"
+	},
+	"MessagesDirs": {
+		"CentralLogging": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"CentralLogEntry": "includes/CentralLogEntry.php",
+		"CentralLogFormatter": "includes/CentralLogFormatter.php",
+		"CentralLogJob": "includes/CentralLogJob.php",
+		"CentralLoggingHooks": "includes/CentralLoggingHooks.php"
+	},
+	"config": {
+		"CentralWiki": {
+			"value": "metawiki"
+		}
+	},
+	"manifest_version": 2
+}

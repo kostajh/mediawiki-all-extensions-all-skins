@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Thibaut120094",
+			"Verdy p"
+		]
+	},
+	"bs-socialtopics-desc": "Entités de fils de discussion pour ''BlueSpiceSocial''",
+	"bs-socialtopics-pref-skipcreatedialog": "Sauter le dialogue à la création d’une discussion",
+	"bs-socialtopics-toc-entalkpageautocreate": "Créer automatiquement toutes les pages de discussion",
+	"bs-socialtopics-autocreated-discussionpage": "Cette page de discussion a été créée automatiquement.",
+	"bs-socialtopics-autocreated-discussionpagefile": "Cette page de discussion a été créée automatiquement.",
+	"bs-socialdiscussion-discussiontype": "Discussion",
+	"bs-socialdiscussion-topictype": "Sujet de discussion",
+	"bs-socialtopics-entitydiscussion-header-create": "Créer une nouvelle discussion",
+	"bs-social-entitytopic-header-create": "Nouveau sujet",
+	"bs-socialtopics-var-topictitle": "Titre",
+	"bs-socialtopics-var-discussiontitleid": "Page de discussion assignée",
+	"bs-socialtopics-entity-fatalstatus-save-notalkpage": "Ce n’est pas une page de discussion valide",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "$1 a démarré le sujet :",
+	"topics": "Sujets",
+	"bs-socialtopics-special-topics-heading": "Tous les sujets",
+	"bs-socialtopics-special-topics-heading-entry": "Sujet/$1",
+	"bs-socialtopics-aftercontent-heading": "Discussions",
+	"bs-socialtopics-nodiscussionpage": "Aucune page de discussion n’a encore été créée.",
+	"bs-socialtopics-nodiscussionpage-create": "Créer une nouvelle page de discussion",
+	"bs-socialtopics-nodiscussion": "Aucune discussion n’a encore été créée.",
+	"bs-socialtopics-notopicsadded": "Aucun sujet n’a encore été traité.",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "Enregistrer",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "Annuler",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "Contenu",
+	"bs-socialtopics-switch-nodiscussion-description": "Masquer la discussion sur cette page."
+}

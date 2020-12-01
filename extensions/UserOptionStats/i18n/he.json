@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Rotemliss",
+			"YaronSh"
+		]
+	},
+	"useroptionstats": "סטטיסטיקות אפשרויות המשתמש",
+	"useroptionstats-desc": "[[Special:UserOptionStats|דף מיוחד]] לדיווח על השימוש באפשרויות המשתמש במדיה־ויקי",
+	"uos-warn": "PHPlot אינה מותקנת!",
+	"uos-choose": "בחרו באחת מאפשרויות המשתמש הבאות: $1",
+	"uos-choose-hidden": "נא לבחור אחת מאפשרויות המשתמש המוסתרות: $1",
+	"uos-unknown": "*ברירת מחדל",
+	"uos-other": "*אחר",
+	"uos-title": "הפצת הערכים של אפשרות המשתמש $1"
+}

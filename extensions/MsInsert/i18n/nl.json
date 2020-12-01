@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mainframe98",
+			"Siebrand"
+		]
+	},
+	"msi-desc": "Voegt een dropdownmenu toe voor het invoegen van de inhoud van bepaalde pagina's",
+	"msi-insert-template": "Een sjabloon invoegen"
+}

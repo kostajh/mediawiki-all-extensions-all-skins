@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mglaser",
+			"Patric Wirth"
+		]
+	},
+	"bs-socialcomments-desc": "Kommentarfunktion für BlueSpiceSocial",
+	"bs-socialcomments-type": "Kommentar",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Kommentar|Kommentare}} ($1)",
+	"bs-socialcomments-header-create": "Kommentieren",
+	"bs-socialcomments-header": "[[User:$1|$2]] kommentierte \"[[$6|$7]]\"",
+	"bs-socialcomments-var-commentcount": "Anzahl Kommentare",
+	"echo-category-title-bs-social-comment-cat": "Kommentare zu beobachteten Entitäten",
+	"bs-social-notifications-comment-create": "Benutzer {{GENDER:$1|$2 gab}} einen neuen Kommentar ab",
+	"bs-social-notifications-email-comment-create-subject": "Benutzer {{GENDER:$1|$2 gab}} einen neuen Kommentar ab",
+	"bs-social-notifications-email-comment-create-body": "Benutzer {{GENDER:$1|$2 kommentierte}} einen Beitrag von $3 mit dem folgenden Text: $4",
+	"bs-social-notifications-web-comment-create-body": "Benutzer {{GENDER:$1|$2 kommentierte}} einen Beitrag von $3",
+	"bs-social-notifications-comment-edit": "Benutzer {{GENDER:$1|$2 bearbeitete}} einen Kommentar",
+	"bs-social-notifications-email-comment-edit-subject": "Benutzer {{GENDER:$1|$2 bearbeitete}} einen Kommentar",
+	"bs-social-notifications-email-comment-edit-body": "Benutzer {{GENDER:$1|$2 bearbeitete}} einen Kommentar zu einem Beitrag von $3. Der neue Kommentar ist:\n$4",
+	"bs-social-notifications-web-comment-edit-body": "Benutzer {{GENDER:$1|$2 bearbeitete}} einen Kommentar zu einem Beitrag von $3",
+	"bs-social-notifications-comment-delete": "Benutzer {{GENDER:$1|$2 löschte}} einen Kommentar",
+	"bs-social-notifications-email-comment-delete-subject": "Benutzer {{GENDER:$1|$2 löschte}} einen Kommentar",
+	"bs-social-notifications-email-comment-delete-body": "Benutzer {{GENDER:$1|$2 löschte}} einen Kommentar zu einem Beitrag von $3",
+	"bs-social-notifications-web-comment-delete-body": "Benutzer {{GENDER:$1|$2 löschte}} einen Kommentar zu einem Beitrag von $3",
+	"bs-social-notifications-comment-owner-create": "Benutzer {{GENDER:$1|$2 gab}} einen neuen Kommentar zu deinem Beitrag ab",
+	"bs-social-notifications-email-comment-owner-create-subject": "Benutzer {{GENDER:$1|$2 gab}} einen neuen Kommentar zu deinem Beitrag ab",
+	"bs-social-notifications-email-comment-owner-create-body": "Benutzer {{GENDER:$1|$2 kommentierte}} deinen Beitrag mit dem folgenden Text:\n$3",
+	"bs-social-notifications-web-comment-owner-create-body": "Benutzer {{GENDER:$1|$2 kommentierte}} deinen Beitrag",
+	"bs-social-notifications-comment-owner-edit": "Benutzer {{GENDER:$1|$2 bearbeitete}} einen Kommentar zu deinem Beitrag",
+	"bs-social-notifications-email-comment-owner-edit-subject": "Benutzer {{GENDER:$1|$2 bearbeitete}} einen Kommentar zu deinem Beitrag",
+	"bs-social-notifications-email-comment-owner-edit-body": "Benutzer {{GENDER:$1|$2 bearbeitete}} einen Kommentar zu deinem Beitrag. Der neue Kommentar ist:\n$3",
+	"bs-social-notifications-web-comment-owner-edit-body": "Benutzer {{GENDER:$1|$2 bearbeitete}} einen Kommentar zu deinem Beitrag",
+	"bs-social-notifications-comment-owner-delete": "Benutzer {{GENDER:$1|$2 löschte}} einen Kommentar zu deinem Beitrag",
+	"bs-social-notifications-email-comment-owner-delete-subject": "Benutzer {{GENDER:$1|$2 löschte}} einen Kommentar zu deinem Beitrag",
+	"bs-social-notifications-email-comment-owner-delete-body": "Benutzer {{GENDER:$1|$2 löschte}} einen Kommentar zu deinem Beitrag",
+	"bs-social-notifications-web-comment-owner-delete-body": "Benutzer {{GENDER:$1|$2 löschte}} einen Kommentar zu deinem Beitrag",
+	"bs-social-notifications-comment-owner-edit-bundle": "Kommentare zu deinem Beitrag wurden {{PLURAL:$1|einmal|$1 mal}} bearbeitet",
+	"bs-social-notification-comment-primary-link-label": "Kommentar anzeigen",
+	"bs-social-notification-comment-parentowner-label": "Ersteller des Beitrags: $1",
+	"bs-social-notification-comment-parententity-label": "Beitrag ansehen"
+}

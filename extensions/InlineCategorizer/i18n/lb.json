@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby",
+			"Soued031"
+		]
+	},
+	"inlinecategorizer-desc": "JavaScript deen et erlaabt fir Kategorien direkt op enger Säit z'änneren, dobäizesetzen oder erofzehuelen",
+	"inlinecategorizer-add-category": "Kategorie dobäisetzen",
+	"inlinecategorizer-add-category-submit": "Derbäisetzen",
+	"inlinecategorizer-add-category-summary": "Kategorie \"$1\" dobäisetzen",
+	"inlinecategorizer-api-error": "Den API huet e Feeler signaliséiert: $1: $2",
+	"inlinecategorizer-api-unknown-error": "D'API huet een onbekannte Feeler zréckgeschéckt.",
+	"inlinecategorizer-cancel": "Ännerungen annuléieren",
+	"inlinecategorizer-cancel-all": "All Ännerungen annulléieren",
+	"inlinecategorizer-category-already-present": "Dës Säit ass schonn an der Kategorie $1",
+	"inlinecategorizer-category-hook-error": "Eng lokal Funktioun huet verhënnert datt d'Ännerunge gespäichert goufen",
+	"inlinecategorizer-category-question": "Firwat wëllt Dir dës Ännerunge maachen:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Späicheren",
+	"inlinecategorizer-confirm-save-all": "All Ännerunge späicheren",
+	"inlinecategorizer-confirm-title": "Aktioun confirméieren",
+	"inlinecategorizer-edit-category": "Kategorie änneren",
+	"inlinecategorizer-edit-category-error": "Et war net méiglech d'Kategorie $1 z'änneren.\nDat geschitt gewéinlech wann d'Kategorie duerch eng Schabloun op d'Säit dobäigesat gouf.",
+	"inlinecategorizer-edit-category-summary": "Kategorie \"$1\" op \"$2\" änneren",
+	"inlinecategorizer-error-title": "Feeler",
+	"inlinecategorizer-remove-category": "Kategorie ewechhuelen",
+	"inlinecategorizer-remove-category-error": "Et war net méiglech d'Kategorie $1 ewechzehuelen.\nDëst geschitt gewéinlech da wann eng Kategorie duerch eng Schabloun op d'Säit dobäigesat gouf.",
+	"inlinecategorizer-remove-category-summary": "Kategorie \"$1\" ewechhuelen"
+}

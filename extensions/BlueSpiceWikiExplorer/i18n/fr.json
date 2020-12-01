@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Verdy p"
+		]
+	},
+	"bs-wikiexplorer-extension-description": "Trier les articles par critères",
+	"bs-wikiexplorer-page-title": "Titre",
+	"bs-wikiexplorer-page-namespace": "Espace de noms",
+	"bs-wikiexplorer-creation-date": "Date de création",
+	"bs-wikiexplorer-is-redirect": "Est une redirection",
+	"bs-wikiexplorer-last-comment": "Dernier commentaire",
+	"bs-wikiexplorer-last-edit-time": "Dernière date de modification",
+	"bs-wikiexplorer-page-size": "Taille",
+	"bs-wikiexplorer-last-author": "Dernier modificateur",
+	"bs-wikiexplorer-categories": "Catégories",
+	"bs-wikiexplorer-linked-files": "Fichiers liés",
+	"bs-wikiexplorer-linked-pages": "Pages liées",
+	"apihelp-bs-wikiexplorer-store-description": "Fournit toutes les données pour l’extension WikiExplorer",
+	"apihelp-bs-wikiexplorer-store-param-metaLoaded": "Paramètre API pour indiquer si les métadonnées ont déjà été chargées.",
+	"apihelp-bs-wikiexplorer-store-summary": "Fournit toutes les données pour l’extension WikiExplorer"
+}

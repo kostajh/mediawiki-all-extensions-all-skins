@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lloffiwr"
+		]
+	},
+	"fundraiserunsubscribe-desc": "Yn galluogi defnyddwyr i ddad-danysgrifio o restri ebostio i godi arian",
+	"fundraiserunsubscribe": "Dad-danysgrifio o Ebyst Codi Arian Wikimedia",
+	"fundraiserunsubscribe-query": "Ydych chi wir am ddad-danysgrifio '''''$1'''''?",
+	"fundraiserunsubscribe-info": "Ni fyddwch yn derbyn ebyst oddi wrth Sefydliad Wikimedia yn sgil bod yn gyfrannwr ariannol. Hwyrach y byddwch yn derbyn ebyst i'r cyfeiriad hwn os yw ynghlwm wrth gyfrif ar un o'n prosiectau. Os ydych am holi cwestiwn, cysylltwch â [mailto:$1 $1].",
+	"fundraiserunsubscribe-submit": "Dad-danysgrifio",
+	"fundraiserunsubscribe-cancel": "Diddymer",
+	"fundraiserunsubscribe-errormsg": "Cafwyd gwall wrth geisio eich dad-danysgrifio. Cysylltwch â [mailto:$1 $1].",
+	"fundraiserunsubscribe-success": "Llwyddwyd eich tynnu i ffwrdd o'n rhestr ebostio.",
+	"fundraiserunsubscribe-sucesswarning": "Gall newidiadau gymryd pedwar (4) diwrnod i ddod i rym. Ymddiheurwn os derbyniwch e-byst yn ystod y cyfnod hwn. Os oes cwestiynau gennych, cysylltwch â [mailto:$1 $1]."
+}

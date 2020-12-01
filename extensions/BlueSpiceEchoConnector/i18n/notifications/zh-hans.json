@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"WQL",
+			"佛壁灯",
+			"列维劳德"
+		]
+	},
+	"bs-notifications-addaccount": "用户“$1”已创建。",
+	"bs-notifications-email-addaccount-subject": "用户“$2”{{GENDER:$1|已创建}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|用户}}$2被创建。\n\n您可以通过下方的链接访问{{GENDER:$1|他的|她的|其}}用户页",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|用户}}$2已创建。",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|创建者}}：$1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|创建者}}：$1",
+	"bs-notifications-registeruser": "用户 \"$1\" 已创建账户。",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|用户}} \"$2\" 已经{{GENDER:$1|创建了}}一个账户",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|用户}}$2已{{GENDER:$1|创建}}一个账户。\n\n您可以点击下面的链接来访问{{GENDER:$1|他|她|该用户}}的用户页",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|用户}} $2 已经{{GENDER:$1|创建了}}一个账户。",
+	"bs-notifications-edit": "页面“$1”已更改",
+	"bs-notifications-edit-bundle": "页面“$2”已更改{{PLURAL:$1|$1次}}",
+	"bs-notifications-email-edit-subject": "页面“$1”已在$4由$3{{GENDER:$2|编辑}}",
+	"bs-notifications-email-edit-body": "页面“$1”已在$5由$4{{GENDER:$2|编辑}}。\n\n评论：\n $3",
+	"bs-notifications-web-edit-body": "页面“$1”已由$3{{GENDER:$2|编辑}}。",
+	"bs-notifications-create": "页面“$1”已创建",
+	"bs-notifications-email-create-subject": "页面“$1”已在$4由$3{{GENDER:$2|创建}}",
+	"bs-notifications-email-create-body": "页面“$1”已在$5由$3{{GENDER:$2|创建}}。\n\n评论：\n $4\n您可通过下方的链接访问页面",
+	"bs-notifications-web-create-body": "页面“$1”已由$3{{GENDER:$2|创建}}。",
+	"bs-notifications-delete": "页面“$1”已删除",
+	"bs-notifications-email-delete-subject": "页面“$1”已在$4由$3{{GENDER:$2|删除}}",
+	"bs-notifications-email-delete-body": "页面“$1”已在$5由$3{{GENDER:$2|删除}}。\n\n这是删除原因：\n$4",
+	"bs-notifications-web-delete-body": "页面“$1”已由$3{{GENDER:$2|删除}}。",
+	"bs-notifications-move": "页面“$1”已移动",
+	"bs-notifications-email-move-subject": "页面“$1”已在$5由$4{{GENDER:$2|移动}}至“$3”",
+	"bs-notifications-email-move-body": "页面“$1”已在$6由$4{{GENDER:$2|移动}}至“$3”。\n\n原因是：\n$5\n\n您可通过下方的链接访问页面",
+	"bs-notifications-web-move-body": "页面“$1”已由$4{{GENDER:$2|移动}}至“$3”",
+	"bs-notifications-edit-difflink-label": "查看差异",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|您好}}$1",
+	"bs-notifications-htmlmail-sender-info": "$1通知系统",
+	"bs-notifications-mail-additional-links-label": "额外链接"
+}

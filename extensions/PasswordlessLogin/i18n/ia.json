@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-passwordlesslogin-param-deviceId": "Un identificator unic que pote esser usate pro identificar un dispositivo e pro inviar notificationes a illo con le systema de messageria standard del dispositivo (p.ex. Firebase Cloud Messaging pro dispositivos Android).",
+	"apihelp-passwordlesslogin-verify-challenge-param-challenge": "Le defia que ha essite inviate al dispositivo e que debe esser resolvite."
+}

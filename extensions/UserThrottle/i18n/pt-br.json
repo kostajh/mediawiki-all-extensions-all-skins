@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo.mps"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "A criação de contas foi automaticamente suspensa por alguns segundos para reduzir os ataques de registro em massa.\nPor favor, aguarde um momento e clique em 'atualizar' no seu navegador para reenviar os dados.",
+	"userthrottle-desc": "Restringir a criação de utilizadores"
+}

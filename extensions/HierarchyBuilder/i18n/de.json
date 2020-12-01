@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"Purodha"
+		]
+	},
+	"hierarchybuilder-desc": "Ermöglicht das Anzeigen sowie Bearbeiten von und das Auswählen aus Seitenhierarchien",
+	"hierarchybuilder-reveal-editmessage": "Wie verwende ich dies?",
+	"hierarchybuilder-editmessage": "Die Hierarchiestammliste enthält die Hierarchie, die beim Speichern beibehalten wird. Die Liste „Nicht verwendete Seiten“ enthält die Seiten in der Kategorie $1, die derzeit nicht in der Hierarchie enthalten sind. Die Hierarchiestammliste kann angepasst werden, indem einzelne Zeilen nach oben oder unten verschoben bzw. deren Ebene geändert werden. In der Liste „Nicht verwendete Seiten“ enthaltenen Seiten können der Hierarchie hinzugefügt werden, indem sie verschoben und an einer beliebigen Stelle innnerhalb der Hierarchiestammliste abgelegt werden. Ebenso können Seiten aus der Hierarchiestammliste entfernt werden, indem sie an eine beliebige Stelle in der Liste „Nicht verwendete Seiten“ verschoben werden.",
+	"hierarchybuilder-edit-error-message": "Diese Hierarchie kann nicht bearbeitet werden, da sowohl die Hierarchiedaten als auch die Kategorie, von der unbenutzte Seiten aufgezeichnet werden, leer sind. Stelle bitte sicher, dass mindestens eine dieser Datenquellen ausgefüllt ist.",
+	"hierarchybuilder-hierarchyroot": "Hierarchiestamm",
+	"hierarchybuilder-unusedpages": "Nicht verwendete Seiten",
+	"hierarchybuilder-category-desc": "Dies ist die Kategorie, zu der Seiten in der Hierarchie gehören müssen.",
+	"hierarchybuilder-missing-category": "Der Parameter „Kategorie“ wurde nicht angegeben.",
+	"hierarchybuilder-hierarchy-desc": "Dies ist eine wikitextformatierte Hierarchie.",
+	"hierarchybuilder-pagename-desc": "Dies ist der Name der Seite, die die Hierarchie enthält.",
+	"hierarchybuilder-propertyname-desc": "Dies ist der Name des Attributs, das die Hierarchie enthält.",
+	"hierarchybuilder-collapsed-desc": "Sofern dieser Parameter angegeben wird, wird die Seitenhierarchie zunächst eingeklappt angezeigt.",
+	"hierarchybuilder-missing-page-name": "Der Parameter „Seite“ wurde nicht angegeben.",
+	"hierarchybuilder-missing-property-name": "Der Parameter „Attribut“ wurde nicht angegeben.",
+	"hierarchybuilder-invalid-collapsed": "Der Wert zum Parameter „<code>collapsed</code>“ ist ungültig."
+}

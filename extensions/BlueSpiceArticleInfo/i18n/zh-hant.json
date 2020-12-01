@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226"
+		]
+	},
+	"bs-articleinfo-desc": "提供有關狀態列中之頁面資訊",
+	"prefs-articleinfo": "頁面資訊",
+	"bs-articleinfo-pref-CheckRevisionInterval": "更新間隔 (秒)：",
+	"bs-articleinfo-flyout-title": "頁面資訊",
+	"bs-articleinfo-flyout-intro": "在此您可以找出關聯頁面的資訊。您可以檢查該品質與更新狀況，並查看如何與 wiki 上其它頁面關聯。",
+	"bs-articleinfo-nav-link-title": "頁面資訊",
+	"bs-articleinfo-flyout-categorylinks-title": "分類",
+	"bs-articleinfo-flyout-templatelinks-title": "使用在頁面的模板",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "沒有分類被分配",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "未有使用模板",
+	"bs-articleinfo-flyout-lasteditedtime-text": "最新編輯",
+	"bs-articleinfo-flyout-lastediteduser-text": "最後的編輯者",
+	"bs-articleinfo-newrevision-info-text": "此頁面有新版本可用。請重新載入頁面來檢視目前內容。",
+	"bs-articleinfo-newrevision-info-text-reload": "此頁面有新版本可用。請[[:$1|重新載入]]頁面來檢視目前內容。",
+	"bs-articleinfo-flyout-subpages-title": "子頁面",
+	"bs-articleinfo-pagetool-subpages-tooltip": "子頁面",
+	"bs-articleinfo-dialog-subpages-title": "子頁面",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "設定對於「最新編輯」值的重新整理比率。該值會顯示在品質管理工具下的頁面資訊。"
+}

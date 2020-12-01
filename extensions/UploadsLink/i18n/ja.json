@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afaz",
+			"Darklanlan"
+		]
+	},
+	"uploadslink-desc": "現在の利用者のアップロード一覧へのリンクを個人用ツールメニューに追加し、関連する利用者のアップロード一覧へのリンクをサイドバーのツールメニューに追加する",
+	"uploadslink-portlet-label": "ファイル",
+	"tooltip-pt-uploads": "アップロードしたファイルの一覧",
+	"uploadslink-toobox-label": "{{GENDER:$1|利用者}}のファイル",
+	"tooltip-tb-uploads": "{{GENDER:$1|この利用者}}によるファイルの一覧"
+}

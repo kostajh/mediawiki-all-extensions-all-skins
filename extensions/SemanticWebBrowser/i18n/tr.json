@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda"
+		]
+	},
+	"browsesw": "Viki ve Semantic Web'e Göz Atın",
+	"swb_desc": "[[Special:BrowseSW|Viki ve Semantic Web'e Göz Atma]] özel bir sayfa ekler",
+	"swb_browse_article": "Anlamsal olarak göz atmaya başlamak için sayfanın adını girin.",
+	"swb_browse_go": "Git",
+	"swb_browse_show_incoming": "buraya bağlanan gelen özellikleri göster",
+	"swb_browse_hide_incoming": "buraya bağlanan yeni özellikleri gizle",
+	"swb_browse_no_outgoing": "Bu sayfada hiçbir özellik yok.",
+	"swb_browse_no_incoming": "Bu sayfaya hiçbir özellik bağlantısı yok.",
+	"swb_inverse_label_property": "Ters özellik etiketi",
+	"swb_inverse_label_default": "$1",
+	"swb_browse_error": "Semantic veriler bir hata nedeniyle Semantic Web Tarayıcısı ile yüklenemedi:"
+}

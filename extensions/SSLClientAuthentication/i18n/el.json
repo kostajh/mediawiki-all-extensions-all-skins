@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"sslauth-enable": "Ενεργοποίηση",
+	"sslauth-disable": "Απενεργοποίηση",
+	"sslauth-cn": "Κοινό όνομα",
+	"sslauth-email": "Διεύθυνση ηλεκτρονικού ταχυδρομείου",
+	"sslauth-serial": "Σειριακός αριθμός",
+	"sslauth-invalidrequest-title": "Μη έγκυρο αίτημα",
+	"clientssl-legend": "Ταυτοποίηση SSL",
+	"sslauth-prefs-name": "Ταυτοποίηση SSL"
+}

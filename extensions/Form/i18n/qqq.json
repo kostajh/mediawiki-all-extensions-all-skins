@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Jon Harald Søby",
+			"Purodha",
+			"Raymond",
+			"The Evil IP address"
+		]
+	},
+	"form-desc": "{{desc|name=Form|url=https://www.mediawiki.org/wiki/Extension:Form}}",
+	"form": "{{doc-special}}",
+	"form-captcha-error": "An error message",
+	"form-pick-form": "A description message",
+	"form-no-name": "Used as page title",
+	"form-no-name-text": "An error message",
+	"form-bad-name": "Used as page title",
+	"form-bad-name-text": "An error message",
+	"form-pattern": "The pattern of page names of form definitions. $1 is a given name for a form definition.",
+	"form-template-pattern": "{{notranslate}}",
+	"form-title-pattern": "Used as default title for an empty form",
+	"form-save": "{{Identical|Save}}",
+	"form-index-mismatch-title": "Used as page title",
+	"form-index-mismatch": "An error message",
+	"form-article-exists": "Used as page title",
+	"form-article-existstext": "form-article-exists",
+	"form-bad-page-name": "Used as page title",
+	"form-bad-page-name-text": "An error message",
+	"form-required-field-error": "An error message\n* $1 is a comma separated list of missing fields\n* $2 is the number of missing fields",
+	"form-save-summary": "An edit summary",
+	"form-save-error": "Used as page title",
+	"form-save-error-text": "An error message"
+}

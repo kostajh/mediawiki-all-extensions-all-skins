@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Garam",
+			"Ykhwong"
+		]
+	},
+	"updatemediawiki": "미디어위키 업데이트",
+	"updatemediawiki-desc": "특수 문서를 통해 미디어위키를 업데이트할 수 있게 합니다",
+	"updatemediawiki-current": "현재 판 $1",
+	"updatemediawiki-update-nofound": "사용 가능한 업데이트 없음",
+	"updatemediawiki-update-found": "새로운 업데이트가 있습니다: $1",
+	"updatemediawiki-update-downloading": "새로운 업데이트를 다운로드하는 중",
+	"updatemediawiki-update-saved": "업데이트를 다운로드하고 저장함",
+	"updatemediawiki-update-exist": "업데이트를 이미 다운로드했습니다",
+	"updatemediawiki-update-copyready": "복사 준비",
+	"updatemediawiki-update-database": "지금 데이터베이스를 업데이트하시겠습니까?",
+	"updatemediawiki-update-updateready": "업데이트 준비",
+	"updatemediawiki-update-install": "지금 설치하시겠습니까?",
+	"updatemediawiki-update-updated": "미디어위키를 $1 버전으로 업데이트했습니다",
+	"updatemediawiki-update-error": "최신 릴리스를 찾을 수 없습니다",
+	"updatemediawiki-update-aborted": "새로운 업데이트를 저장하지 못했습니다. 작업을 중단했습니다"
+}

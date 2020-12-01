@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cquoi",
+			"Tititou36",
+			"Wladek92"
+		]
+	},
+	"formelapplet-desc": "Ajoutez des applets [http://wiki.formelapplet.de FormelApplet] aux pages",
+	"formelapplet-nojava": "Vous devez installer $1 pour utiliser cette page.",
+	"formelapplet-missing-parameter": "Paramètre manquant (width or height or term/solution).",
+	"formelapplet-file-not-found": "Fichier  $1  introuvable.",
+	"formelapplet-error": "Erreur dans l'extension  MediaWiki FormelApplet : <em>$1</em>"
+}

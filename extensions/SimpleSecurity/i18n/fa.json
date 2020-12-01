@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alirezaaa",
+			"Armin1392",
+			"Dalba",
+			"Mjbmr"
+		]
+	},
+	"security": "سیاههٔ امنیتی",
+	"security-desc": "گسترش حمایت صفحه مدیاویکی برای محدود کردن مشاهده محتوای صفحه اجازه می‌دهد",
+	"security-logpage": "سیاههٔ امنیتی",
+	"security-logpagetext": "این سیاهه‌ای از عملیات جلوگیری‌شده توسط [https://www.mediawiki.org/wiki/Extension:SimpleSecurity افزونهٔ SimpleSecurity] است.",
+	"badaccess-read": "'''هشدار:''' \"$1\" به اینجا ارجاع شده، اما شما مجوز کافی برای دسترسی به آن را ندارید.",
+	"security-info": "$1 در این صفحه وجود دارد",
+	"security-info-toggle": "محدودیت‌های امنیتی",
+	"security-inforestrict": "$1 محدود شده‌است به $2",
+	"security-desc-LS": "(اعمال می‌شود زیرا این صفحه در $1 «$2» است)",
+	"security-desc-PR": "(نصب از تب \"حفاظت\")",
+	"security-infosysops": "هیچ محدودیتی تحت تأثیر نیستند، زیرا شما عضو گروه \"سیساپ\" هستید",
+	"security-manygroups": "گروه‌های $1 و $2",
+	"security-unchain": "اصلاح عملیات به طور جداگانه",
+	"security-type-category": "این رده",
+	"security-type-namespace": "این فضای نام",
+	"security-restricttogroup": "دسترسی به محتوای محدود شده به اعضای \"$1\"",
+	"restriction-read": "خواندن"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-uemoduledocx-extension-description": "يتيح التصدير إلى DOCX",
+	"bs-uemoduledocx-pref-SuppressNS": "إخفاء بادئة النطاق في DOCX",
+	"bs-uemoduledocx-widgetlink-single-text": "صفحة DOCX واحدة",
+	"bs-uemoduledocx-widgetlink-single-title": "تصدير هذه الصفحة كملف DOCX.",
+	"bs-uemoduledocx-overview-title": "مايكروسوفت &reg; XML المكتب المفتوح (DOCX)",
+	"bs-uemoduledocx-overview-description": "يصدر الصفحات إلى Microsoft DOCX.",
+	"bs-uemoduledocx-overview-webservice-state-not-ok": "غير متاح",
+	"bs-uemoduledocx-overview-webservice-state-ok": "متاح",
+	"bs-uemoduledocx-overview-webservice-webadmin": "واجهة الويب خدمة DOCX (BShtml2DOCX)",
+	"bs-uemoduledocx-overview-webservice-state": "حالة خدمة DOCX (BShtml2DOCX)"
+}

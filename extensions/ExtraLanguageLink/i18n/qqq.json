@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"This, that and the other",
+			"Umherirrender"
+		]
+	},
+	"extralanguagelink-desc": "{{desc|name=ExtraLanguageLink|url=https://www.mediawiki.org/wiki/Extension:ExtraLanguageLink}}\n\n\"in other languages\" should be consistent with {{msg-mw|Otherlanguages}}.",
+	"extralanguagelink-param-class": "Localised name for the \"class=\" parameter for the <code><nowiki>{{extralanguagelink}}</nowiki></code> magic word.\n{{Identical|Class}}",
+	"extralanguagelink-param-hreflang": "Localised name for the \"hreflang=\" parameter for the <code><nowiki>{{extralanguagelink}}</nowiki></code> magic word.\n\n\"hreflang\" is short for \"hyper-reference language\" and means \"language in which the target page is written\".",
+	"extralanguagelink-param-lang": "Localised name for the \"lang=\" parameter for the <code><nowiki>{{extralanguagelink}}</nowiki></code> magic word.\n{{Identical|Language}}",
+	"extralanguagelink-param-style": "Localised name for the \"style=\" parameter for the <code><nowiki>{{extralanguagelink}}</nowiki></code> magic word.\n{{Identical|Style}}",
+	"extralanguagelink-param-title": "Localised name for the \"title=\" parameter for the <code><nowiki>{{extralanguagelink}}</nowiki></code> magic word.\n\nThis \"title\" means \"link title (hover) text\".\n{{Identical|Title}}",
+	"extralanguagelink-badinterwiki": "An error message. Parameters:\n* $1 - an interwiki prefix (e.g. <code>w</code> or <code>commons</code>), which should be followed by a colon (<code>:</code>)",
+	"extralanguagelink-badtitle": "An error message. Parameters:\n* $1 - some user-supplied piece of text, supposed to be a page title or link"
+}

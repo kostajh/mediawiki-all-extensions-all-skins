@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"bs-smartlist-desc": "يعرض آخر خمس تغييرات في الويكي في قائمة",
+	"prefs-smartlist": "القائمة الذكية",
+	"bs-smartlist-recent-changes": "أحدث التغييرات",
+	"bs-smartlist-no-entries": "لم يتم العثور على نتائج.",
+	"bs-smartlist-invalid-namespaces": " {{PLURAL:$1|النطاق المعطى غير صالح|النطاقات المعطاة غير صالحة}}: $2.",
+	"bs-smartlist-invalid-target": "الهدف المحدد ليس عنوان صفحة صالحا",
+	"bs-smartlist-comment": "تعليق: $1.",
+	"bs-smartlist-sort-asc": "تصاعديا",
+	"bs-smartlist-sort-desc": "تنازليا",
+	"bs-smartlist-day": "يوم",
+	"bs-smartlist-week": "أسبوع",
+	"bs-smartlist-month": "شهر",
+	"bs-smartlist-time": "الزمن",
+	"bs-smartlist-title": "العنوان",
+	"bs-smartlist-tag-smartlist-desc": "يظهر قوائم المقالات التي تم إنشاؤها تلقائيا. يعمل التكوين من خلال عدة أوضاع ووسائط.",
+	"bs-smartlist-tag-smartlist-example-rc": "الوضع: أحدث التغييرات",
+	"bs-smartlist-tag-smartlist-example-whatlinkshere": "الوضع: ماذا يصل هنا",
+	"bs-smartlist-tag-newbies-desc": "يعرض المستخدمين الجدد للويكي، يمكن أن تقتصر القائمة على رقم معين.",
+	"bs-smartlist-tag-toplist-desc": "يعرض الصفحات الأكثر زيارة، يمكن أن يكون محدودا من قبل عدة وسائط.",
+	"bs-smartlist-mostvisitedpages": "أكثر الصفحات زيارة",
+	"bs-smartlist-mosteditedpages": "أكثر الصفحات تعديلا",
+	"bs-smartlist-mostactiveusers": "أكثر المستخدمين نشاطا (حسب التعديلات)",
+	"bs-smartlist-lastedits": "تعديلاتي",
+	"bs-smartlist-noedits": "لم يتم العثور على تعديلات.",
+	"bs-smartlist-mostactiveusersdesc": "قائمة المستخدمين الأكثر نشاطا مرتبين حسب تعديلاتهم.",
+	"bs-smartlist-mosteditedpagesdesc": "قائمة أكثر الصفحات تعديلا مرتبة حسب تعديلاتها.",
+	"bs-smartlist-mostvisitedpagesdesc": "قائمة أكثر الصفحات مشاهدة مرتبة حسب وجهات مشاهداتها.",
+	"bs-smartlist-lasteditsdesc": "قائمة الصفحات التي قمت بتحريرها.",
+	"bs-smartlist-hitcounter-missing": "يجب تثبيت الإضافة <a target='blank' href='https://www.mediawiki.org/wiki/Extension:HitCounters'>HitCounters</a>.",
+	"apihelp-bs-smartlist-tasks-description": "وظائف API لعرض بيانات المدخل لإحصاءات الصفحات والمستخدم.",
+	"apihelp-bs-smartlist-tasks-summary": "وظائف API لعرض بيانات المدخل لإحصاءات الصفحات والمستخدم."
+}

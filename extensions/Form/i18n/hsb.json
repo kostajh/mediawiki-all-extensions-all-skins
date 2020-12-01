@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"form-desc": "[[Special:Form|Formularny interfejs]] za wutworjenje nowych stronow",
+	"form": "Formular",
+	"form-no-name": "Žane formularne mjeno",
+	"form-no-name-text": "Dyrbiš formularne mjeno podać, na př. „{{ns:Special}}:Form/Formularnemjeno“.",
+	"form-bad-name": "Wopačne formularne mjeno",
+	"form-bad-name-text": "Njeje formular z tutym mjenom",
+	"form-pattern": "$1 formular",
+	"form-save": "Składować",
+	"form-index-mismatch-title": "Mjenowy muster a předłoha so njewotpowědujetej",
+	"form-index-mismatch": "Tutón formular ma njejenake mjenowe mustry a předłohi wot indeksa $1.",
+	"form-article-exists": "Nastawk hižo eksistuje",
+	"form-article-existstext": "Nastawk [[$1]] hižo eksistuje.",
+	"form-bad-page-name": "Njedowolene mjeno strony",
+	"form-bad-page-name-text": "Zapodate formularne daty tworja njedowolene mjeno strony: \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|Polo $1 je trěbne|Poli $1 stej trěbnej|Pola $1 su trěbne|Pola $1 su trěbne}} za tutón formular. Prošu wupjelń {{PLURAL:$2|jo|jej|je|je}}.",
+	"form-save-summary": "Nowa strona, kotraž [[Special:Form/$1|formular $1]] wužiwa.",
+	"form-save-error": "Zmylk při składowanju formulara",
+	"form-save-error-text": "Bě njeznaty zmylk při składowanju nastawka \"$1\"."
+}

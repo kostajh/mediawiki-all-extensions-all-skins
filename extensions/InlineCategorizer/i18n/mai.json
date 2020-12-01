@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Umeshberma"
+		]
+	},
+	"inlinecategorizer-add-category": "संवर्ग जोड़ू",
+	"inlinecategorizer-add-category-submit": "जोडू",
+	"inlinecategorizer-add-category-summary": "जोड़ू संवर्ग \"$1\"",
+	"inlinecategorizer-api-error": "ए.पी.आइ. सँ भ्रम आएल:: $1: $2",
+	"inlinecategorizer-api-unknown-error": "ए.पी.आइ. एकटा अनिश्चित भ्रम देलक।",
+	"inlinecategorizer-cancel": "सम्पादन रद्द करू",
+	"inlinecategorizer-cancel-all": "सभ परिवर्त्तनकेँ रद्द करू",
+	"inlinecategorizer-category-already-present": "ई पन्ना पहिनहियेसँ संवर्ग \"$1\" मे अछि।",
+	"inlinecategorizer-category-hook-error": "कोनो स्थानीय प्रकार्य ऐ परिवर्तन सभक सुरक्षामे बाधक बनल।",
+	"inlinecategorizer-category-question": "अहाँ ई सभ परिवर्तन किए करए चाहै छी:",
+	"inlinecategorizer-confirm-ok": "ठीक अछि",
+	"inlinecategorizer-confirm-save": "सुरक्षित करू",
+	"inlinecategorizer-confirm-save-all": "अपन सभ परिवर्त्तनकेँ सुरक्षित करू",
+	"inlinecategorizer-confirm-title": "क्रिया संपुष्टि",
+	"inlinecategorizer-edit-category": "संवर्ग सम्पादित करू",
+	"inlinecategorizer-edit-category-error": "संवर्ग \"$1\" क सम्पादन सम्भव नै छल।\nई तखने होइए जखन कोनो नमूनामे संवर्ग जोड़ल जाइए।",
+	"inlinecategorizer-edit-category-summary": "संवर्ग \"$1\" केँ \"$2\" मे बदलू",
+	"inlinecategorizer-error-title": "भ्रम",
+	"inlinecategorizer-remove-category": "संवर्ग हटाउ",
+	"inlinecategorizer-remove-category-error": "संवर्ग \"$1\" केँ हटेनाइ सम्भव नै छल।\nई तखने होइए जखन कोनो नमूनामे संवर्ग जोड़ल जाइए।",
+	"inlinecategorizer-remove-category-summary": "संवर्ग \"$1\" हटाउ"
+}

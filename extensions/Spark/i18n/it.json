@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"spark-desc": "Aggiunge il tag <code><nowiki><spark /></nowiki></code> che permette di incorporare [http://km.aifb.kit.edu/sites/spark/ Spark] mash-up",
+	"spark-missing-query": "Devi specificare una query utilizzando il parametro \"data-spark-query\"."
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"testlanguagenamegrammar": "Τεστάρει τις γραμματικές μορφές με τα ονόματα γλωσσών",
+	"testlanguagenamegrammar-desc": "Προσθέτει μια [[Special:TestLanguageNameGrammar|ειδική σελίδα]] για την δοκιμή γραμματικών μορφών με γλωσσικά ονόματα",
+	"testlanguagenamegrammar-language": "Γλώσσα",
+	"testlanguagenamegrammar-grammarform": "Γραμματική φορμή",
+	"testlanguagenamegrammar-submit": "Υποβολή"
+}

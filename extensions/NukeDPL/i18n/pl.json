@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"nukedpl": "Masowe usuwanie z zapytania DPL",
+	"nukedpl-desc": "Dodaje [[Special:NukeDPL|stronę specjalną]] do masowego usuwania z zapytania DPL",
+	"nukedpl-intro": "To narzędzie umożliwia masowe kasowanie stron znalezionych w wywołaniu DPL.\n\nWprowadź zapytanie poniżej aby wygenerować listę stron do usunięcia.\n* Strony mogą być indywidualnie usuwane z listy przed uruchomieniem narzędzia.\n* Pamiętaj że wielkość liter w tytułach ma znaczenie.\n* Zapytania nie powinny być zamknięte w żadnych tagach ani nawiasach DPL.\n* Aby uzyskać więcej informacji na temat znaczenia parametrów sprawdź [http://semeb.com/dpldemo/index.php?title=DPL:Manual dokumentację rozszerzenia DPL].",
+	"nukedpl-candidatelist": "Zobacz listę stron",
+	"nukedpl-nopages": "Nie znaleziono żadnych stron do usunięcia przy użyciu zapytania DPL: <code>$1</code>",
+	"nukedpl-nuke": "Usuń!",
+	"nukedpl-list": "{{PLURAL:$1|Poniższa strona została znaleziona|Poniższe strony zostały znalezione}} w zapytaniu DPL: <code>$2</code>\n\nKliknij przycisk „{{int:nukedpl-nuke}}” aby {{PLURAL:$1|ją|je}} usunąć.",
+	"nukedpl-defaultreason": "Masowe usuwanie stron znalezionych w zapytaniu DPL: $1",
+	"action-nukedpl": "masowego usuwania stron przy użyciu zapytań Dynamic Page List",
+	"right-nukedpl": "Masowe usuwanie stron przy użyciu zapytań Dynamic Page List"
+}

@@ -1,0 +1,66 @@
+#contentSub {
+	.subpages {
+		display: none;
+	}
+	/* Now displayed by "VersionPager" */
+	.mw-revision {
+		display: none;
+	}
+}
+
+#content {
+	#bodyContent {
+		margin-top: 1.5rem;
+		font-family: @content-font-family;
+	}
+	p {
+		font-size: @content-font-size;
+		font-weight: @content-font-weight;
+		line-height: 1.375rem;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+	pre {
+		font-size: @content-font-size;
+		margin: 2em 0;
+	}
+	[class^="mw-content-"] ul,
+	[class^="mw-content-"] ol {
+		margin: 0 0 0 2em;
+		padding: 0;
+
+		& ul,
+		& ol {
+			margin: 0 0 0 1.5em;
+		}
+
+		& > li {
+			margin-left: 0em;
+			font-size: @content-font-size;
+			font-weight: @content-font-weight;
+			margin-top: 0.1875rem;
+			margin-bottom: 0.1875rem;
+		}
+	}
+
+	[class^="mw-content-"] ul:not( .redirectText ) {
+	}
+
+	[class^="mw-content-"] .floatleft + ul,
+	[class^="mw-content-"] .floatleft + ol {
+		display: inline-block;
+	}
+
+	.external {
+		background-position: center right;
+		background-repeat: no-repeat;
+		padding-right: 0.8125rem;
+	}
+}
+
+/* Link icon doubling fix (SemanticGlossary) */
+.mw-lingo-definition-link {
+	a.external::before {
+		content: none !important;
+	}
+}

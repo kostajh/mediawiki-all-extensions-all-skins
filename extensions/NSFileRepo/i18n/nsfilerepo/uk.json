@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Prima klasy4na",
+			"Vlad5250"
+		]
+	},
+	"nsfilerepo-desc": "Додає особливості завантаження файлів в залежності від простору назв",
+	"nsfilerepo-upload-target": "Цільова назва файлу в просторі назв",
+	"nsfilerepo-nsmain": "(Основний)",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext": "Це поле не можна змінювати при повторному завантаженні файлу",
+	"nsfilerepo-move-file-namespace-action-label": "Встановити файловий простір назв",
+	"nsfilerepo-move-file-namespace-dialog-title": "Встановити файловий простір назв",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "Готово",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "Скасувати",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "Простір назв"
+}

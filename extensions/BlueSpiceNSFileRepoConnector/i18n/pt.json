@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"bs-nsfrc-desc": "Integra NSFileRepo numa gama de extensões BlueSpice (requer NSFileRepo)",
+	"bs-nsfrc-namespacestore-label": "Espaço nominal",
+	"bs-nsfrc-namespacecombo-emptytext": "Selecionar espaço nominal",
+	"bs-nsfrc-unprefixedfilename-label": "Título",
+	"bs-nsfrc-uploaddialog-selector-label": "Espaço nominal de destino",
+	"apihelp-bs-nsfrc-tasks-summary": "Ponto de terminação da API para a extensão BlueSpiceNSFileRepoConnector",
+	"apihelp-bs-nsfilerepo-connector-summary": "Ponto de terminação da API para a extensão BlueSpiceNSFileRepoConnector"
+}

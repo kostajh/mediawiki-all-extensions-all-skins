@@ -1,0 +1,29 @@
+{
+	"name": "Safe Delete",
+	"version": "1.2",
+	"author": "[https://www.mediawiki.org/wiki/User:Cindy.cicalese Cindy Cicalese]",
+	"url": "https://www.mediawiki.org/wiki/Extension:Safe_Delete",
+	"descriptionmsg": "safedelete-desc",
+	"type": "special",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"SpecialPages": {
+		"SafeDelete": "SafeDelete"
+	},
+	"MessagesDirs": {
+		"SafeDelete": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SafeDeleteAlias": "i18n/SafeDelete.alias.php"
+	},
+	"AutoloadClasses": {
+		"SafeDelete": "includes/SafeDelete.php"
+	},
+	"Hooks": {
+		"SkinTemplateNavigation": "SafeDelete::checkLink"
+	},
+	"manifest_version": 2
+}

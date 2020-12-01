@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"formelapplet-desc": "Legg til [http://wiki.formelapplet.de FormelApplet] på sider.",
+	"formelapplet-nojava": "Installer $1 for å bruke denne siden.",
+	"formelapplet-missing-parameter": "Manglende parameter (bredde eller høyde eller term/løsning).",
+	"formelapplet-file-not-found": "Filen $1 ikke funnet.",
+	"formelapplet-error": "Feil i FormelApplet-utvidelsen til MediaWiki: <em>$1</em>"
+}

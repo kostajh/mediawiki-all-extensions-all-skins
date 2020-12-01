@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent",
+			"Cainamarques",
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"spark-desc": "Acrescenta uma etiqueta <code><nowiki><spark /></nowiki></code> que permite incorporar mash-ups [http://km.aifb.kit.edu/sites/spark/ Spark].",
+	"spark-missing-query": "Você deve especificar uma consulta utilizando o parâmetro \"data-spark-query\"."
+}

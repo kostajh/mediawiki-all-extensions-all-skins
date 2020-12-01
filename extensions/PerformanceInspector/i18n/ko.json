@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"performanceinspector-dialog-summary": "요약",
+	"performanceinspector-dialog-cancel": "취소",
+	"performanceinspector-modules-summary-total-size": "모든 모듈의 전체 크기",
+	"performanceinspector-modules-size-name": "모듈 크기",
+	"performanceinspector-modules-size-label": "모듈 크기",
+	"performanceinspector-modules-css-column-module": "모듈",
+	"performanceinspector-modules-css-used-selectors-values": "$1 ($3 중 $2)",
+	"performanceinspector-imagesize-column-image-name": "이름",
+	"performanceinspector-imagesize-column-size": "크기",
+	"performanceinspector-imagesize-column-image-extra": "기타",
+	"performanceinspector-imagesize-too-big": "경고",
+	"performanceinspector-imagesize-description": "여기에 이 문서에 로드된 모든 그림이 있습니다.",
+	"performanceinspector-newpp-summary": "이 문서에는 비용이 많이 드는 $1개의 함수 {{PLURAL:$1|호출}}이 있습니다.",
+	"performanceinspector-newpp-column-name": "이름",
+	"performanceinspector-newpp-template-time-report-column-name": "이름",
+	"performanceinspector-newpp-cachereport-now": "지금",
+	"performanceinspector-pagesize-summary": "HTML 크기는 $1입니다 (압축된 크기는 $2)"
+}

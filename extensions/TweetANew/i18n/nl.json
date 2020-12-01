@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Inholland",
+			"MarcoSwart",
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"tweetanew-desc": "Verstuurt tweets wanneer een pagina wordt aangemaakt of bewerkt.",
+	"tweetanew-newaction": "Tweeten over deze nieuwe pagina",
+	"tweetanew-newtooltip": "Gegevens over deze nieuwe pagina naar Twitter verzenden",
+	"tweetanew-editaction": "Tweeten over deze bewerking",
+	"tweetanew-edittooltip": "Gegevens over deze bewerking naar Twitter verzenden",
+	"tweetanew-minoredit": "k",
+	"tweetanew-authorcredit": "door",
+	"tweetanew-newdefault": "NIEUWE PAGINA: $1 ($2)",
+	"tweetanew-new1": "$1 is aangemaakt ($2)",
+	"tweetanew-new2": "$1 is onlangs aangemaakt ($2)",
+	"tweetanew-new3": "Kijk eens op de nieuwe pagina $1 ($2)",
+	"tweetanew-editdefault": "BIJGEWERKTE PAGINA:  $1 ($2)",
+	"tweetanew-edit1": "$1 is bijgewerkt op $2",
+	"tweetanew-edit2": "$1 is onlangs aangepast op $2",
+	"tweetanew-edit3": "Kijk eens op de aangepaste pagina $1 ($2)"
+}

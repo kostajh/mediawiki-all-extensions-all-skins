@@ -1,0 +1,96 @@
+{
+	"name": "BlueSpiceArticleInfo",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:ArticleInfo",
+	"author": [
+		"Markus Glaser",
+		"Stephan Muggli"
+	],
+	"descriptionmsg": "bs-articleinfo-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceArticleInfo": {
+					"className": "\\BlueSpice\\ArticleInfo\\Extension",
+					"extPath": "/BlueSpiceArticleInfo",
+					"configDefinitions": {
+						"ArticleInfoCheckRevisionInterval": "\\BlueSpice\\ArticleInfo\\ConfigDefinition\\CheckRevisionInterval::getInstance"
+					}
+				}
+			}
+		},
+		"BlueSpiceArticleInfo": {
+			"FlyoutModules": {}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceArticleInfo": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\ArticleInfo\\" : "src/"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"ArticleInfoCheckRevisionInterval": {
+			"value": 10,
+			"descriptionmsg": "bs-articleinfo-pref-CheckRevisionInterval",
+			"public": true
+		}
+	},
+	"ResourceModules": {
+		"ext.bluespice.articleinfo.general": {
+			"scripts": [
+				"bluespice.articleInfo.general.js"
+			],
+			"dependencies": [
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.articleinfo.flyout": {
+			"scripts": "bluespice.articleInfo.flyout.js",
+			"messages": [
+				"bs-articleinfo-flyout-title",
+				"bs-articleinfo-flyout-intro",
+				"bs-articleinfo-nav-link-title",
+				"bs-articleinfo-flyout-categorylinks-title",
+				"bs-articleinfo-flyout-templatelinks-title",
+				"bs-articleinfo-flyout-subpages-title",
+				"bs-articleinfo-flyout-categorylinks-emptytext",
+				"bs-articleinfo-flyout-templatelinks-emptytext",
+				"bs-articleinfo-flyout-lasteditedtime-text",
+				"bs-articleinfo-flyout-lastediteduser-text"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs",
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.articleinfo.flyout.styles": {
+			"styles": [
+				"bluespice.articleInfo.flyout.less"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceArticleInfo/resources"
+	},
+	"Hooks": {
+		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\ArticleInfo\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddFlyout::callback",
+		"BeforePageDisplay": "\\BlueSpice\\ArticleInfo\\Hook\\BeforePageDisplay\\AddModules::callback",
+		"BsAdapterAjaxPingResult": "\\BlueSpice\\ArticleInfo\\Hook\\BsAdapterAjaxPingResult\\HandleArticleInfo::callback"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

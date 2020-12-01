@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amitie 10g",
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"bs-watchlist-desc": "Añade un widget de Lista de seguimiento y lo marca",
+	"bs-watchlist-title-sidebar": "Lista de seguimiento",
+	"bs-watchlist-pref-sort-time": "Hora",
+	"bs-watchlist-pref-sort-title": "Título",
+	"bs-watchlist-tag-watchlist-desc": "Muestra los artículos que tienen la mayoría de los cambios recientes y están en su lista de seguimiento.",
+	"bs-watchlist-window-watchlist-title": "Lista de seguimiento",
+	"bs-watchlist-grid-watchlist-column-link-header": "Página",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Cambios no leídos",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Inspeccionar cambios",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Página de discusión",
+	"bs-watchlist-grid-watchlist-label-filter": "Filtro"
+}

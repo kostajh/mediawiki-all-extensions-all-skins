@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda"
+		]
+	},
+	"changeuserpasswords": "Kullanıcı Parolasını Değiştir",
+	"changeuserpassword-desc": "Bu, hizmetli tarafından belirtildiği gibi birkaç istisna dışında kullanıcı parolalarını değiştirmek için bir uzantıdır.",
+	"changeuserpassword-pagename": "KullanıcıParolasınıDeğiştir",
+	"changeuserpassword-topheader": "Lütfen, parolası değiştirilmesi gereken kullanıcı adlarını seçiniz. Tüm kullanıcılar varsayılan olarak seçilidir. Lütfen parolasını değiştirmek istemediğiniz kullanıcı isimlerini kaldırın.",
+	"changeuserpassword-success": "Kullanıcı parolası değişti!",
+	"changeuserpassword-title": "Kullanıcı parolasını değiştir",
+	"changeuserpassword-intro": "Bu, hizmetli tarafından belirtildiği gibi birkaç istisna dışında kullanıcı parolalarını değiştirmek için bir uzantıdır.",
+	"action-changeuserpasswords": "kullanıcı parolasını değiştir",
+	"right-changeuserpasswords": "Kullanıcı parolasını değiştir"
+}

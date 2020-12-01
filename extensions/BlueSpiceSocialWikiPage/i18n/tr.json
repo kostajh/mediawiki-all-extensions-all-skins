@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-socialwikipage-desc": "BlueSpiceSocial için WikiPage varlığı ve işlevselliği",
+	"bs-socialwikipage-type": "Vikisayfa",
+	"bs-socialwikipage-entitywikipage-header-create": "Yeni ek alanı oluştur",
+	"bs-socialwikipage-nowikipageentity": "Henüz hiçbir ek alanı oluşturulmadı",
+	"bs-socialwikipage-noattachmentsadded": "Henüz ek eklenmedi",
+	"bs-socialwikipage-stashtype": "Ekler",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]] ekli",
+	"bs-socialwikipage-entitystash-header-create": "Yeni ek",
+	"bs-socialwikipage-special-stash-heading": "Ekler",
+	"bs-socialwikipage-aftercontent-heading": "Ekler",
+	"wikipagestash": "Ekler",
+	"bs-socialwikipage-var-wikipageid": "Atanan sayfa",
+	"bs-socialwikipage-switch-nostash-description": "Bu sayfanın ek alanını gizler.",
+	"bs-socialwikipage-stash-insertfiledialog-title": "Dosya ekle",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "Ekle",
+	"bs-socialwikipage-stash-editor-attachedfiles": "Ekli dosyalar",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "Sil",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "Ekle",
+	"apihelp-bs-socialstash-tasks-summary": "Bağlantılı varlık sayfalarını düzenlemek için görevler sağlar"
+}

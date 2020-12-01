@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"securehtml": "Ligtas na HTML",
+	"securehtml-desc": "Nagpapahintulot sa iyo na magsama ng nagkataong HTML sa isang paraang pinayagan at ligtas",
+	"securehtml-nokeys": "Kamalian: hindi naparami ang <code>$wgSecureHTMLSecrets</code>.",
+	"securehtml-invalidhash": "Kamalian: Hindi katanggap-tanggap na kahaluan o ''hash''.",
+	"securehtml-input-title": "Paloob na lahok ng HTML",
+	"securehtml-generatedoutput-title": "Nagawang kinalabasan",
+	"securehtml-renderedhhtml-title": "Naiharap na HTML",
+	"securehtml-form-keyname": "Pangalan ng susi (maaaring wala)",
+	"securehtml-form-keysecret": "Susing lihim",
+	"securehtml-form-html": "Hilaw ng HTML",
+	"securehtml-form-submit": "Ipasa",
+	"securehtml-inputinstructions": "Magpasok ng isang pangalan ng susi (maaaring hindi), lihim na susi, at ninanais na hilaw na HTML. Kapag walang tinukoy na pangalan ng susi, ang unang susi na nasa loob ng <code>$wgSecureHTMLSecrets</code> ang ipapalagay.",
+	"securehtml-outputinstructions": "Kopyahin nang TUMPAK ang kodigong nasa itaas at idikit iyon sa loob ng patnugot ng wiki.\nKapag hindi gumana ang nalikhang kodigo, subukang tanggalin ang lahat ng mga pinakain na guhit magmula sa panglahok na HTML at muling likhain."
+}

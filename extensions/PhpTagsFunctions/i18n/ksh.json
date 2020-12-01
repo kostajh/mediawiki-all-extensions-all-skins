@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"phptagsfunctions-desc": "Deiht de Fonxjuhne vun ennerhallef vum <i xml:lang=\"en\" lang=\"en\">PHP</i> em Wiki övver dat Zohsazprojramm <i xml:lang=\"en\" lang=\"en\">PhpTags</i> enreeschte.",
+	"phptagsfunctions-preg-bad-delimiter": "Ene Bejränzer darref keine Bohchschtahbe udder Zeffer sin, un keine Ongerschtresch.",
+	"phptagsfunctions-preg-no-ending-delimiter": "Dä Bejränzer „$1“ fähld aam Ängk.",
+	"phptagsfunctions-preg-unknown-modifier": "Ene onbikannte Veränderer „$1“ wood jevonge."
+}

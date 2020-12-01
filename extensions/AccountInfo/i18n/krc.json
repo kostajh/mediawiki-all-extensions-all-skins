@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ernác",
+			"Iltever"
+		]
+	},
+	"accountinfo": "Аккаунтну юсюнден информация",
+	"accountinfo-desc": "Къошулуучугъа, кесини юсюнден сакъланнган билгилени кёрюрге эркинлик береди",
+	"accountinfo-ts": "Дата/заман",
+	"accountinfo-ip": "IP-адрес",
+	"accountinfo-ua": "Браузер",
+	"accountinfo-xff": "XFF-башлыкъ",
+	"accountinfo-length": "Информация, $1 чакълы бир сакъланады.",
+	"accountinfo-now": "Бусагъатда"
+}

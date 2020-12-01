@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sturban",
+			"WikiPhoenix"
+		]
+	},
+	"bs-articleinfo-desc": "Tillhandahåller information om en sida i statusfältet",
+	"prefs-articleinfo": "Sidinformation",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Uppdateringsintervall i sekunder:",
+	"bs-articleinfo-flyout-title": "Sidinformation",
+	"bs-articleinfo-flyout-intro": "Här hittar du information om sidan. Du kan kontrollera dess kvalitet och uppdatering och se hur den relaterar till andra sidor i wikin.",
+	"bs-articleinfo-nav-link-title": "Sidinformation",
+	"bs-articleinfo-flyout-categorylinks-title": "Kategorierer",
+	"bs-articleinfo-flyout-templatelinks-title": "Mallar som används på sidan",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Inga tilldelade kategorier",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Inga mallar används",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Senaste redigering",
+	"bs-articleinfo-flyout-lastediteduser-text": "Senaste redigerare",
+	"bs-articleinfo-newrevision-info-text": "En ny version av denna sida är tillgänglig. Uppdatera sidan för att visa det aktuella innehållet.",
+	"bs-articleinfo-newrevision-info-text-reload": "En ny version av denna sida är tillgänglig. [[:$1|Uppdatera]] sidan för att visa det aktuella innehållet.",
+	"bs-articleinfo-flyout-subpages-title": "Undersidor",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Undersidor",
+	"bs-articleinfo-dialog-subpages-title": "Undersidor"
+}

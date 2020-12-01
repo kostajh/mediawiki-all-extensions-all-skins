@@ -1,0 +1,23 @@
+/**
+ * Style tweaks for page-wide Banner in WikidataPageBanner extension for Skin Minerva.
+ */
+@import 'mediawiki.ui/variables';
+@import 'mediawiki.mixins';
+
+.wpb-topbanner {
+	max-height: none;
+	height: 180px;
+	overflow: hidden;
+	background-color: @colorGray15;
+	border-bottom: 1px solid rgba( 0, 0, 0, 0.2 );
+
+	&.wpb-banner-image-panorama .wpb-banner-image {
+		width: auto;
+		height: 100%;
+	}
+}
+
+.ext-wpb-pagebanner {
+	clear: both;
+	margin: 0;
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Xiaomingyan"
+		]
+	},
+	"accountinfo": "账户信息",
+	"accountinfo-desc": "允许用户查看已存储的关于他们的私人信息",
+	"accountinfo-ts": "时间戳",
+	"accountinfo-ip": "IP地址",
+	"accountinfo-ua": "用户代理",
+	"accountinfo-xff": "XFF标头",
+	"accountinfo-length": "信息已保留$1。",
+	"accountinfo-now": "现在"
+}

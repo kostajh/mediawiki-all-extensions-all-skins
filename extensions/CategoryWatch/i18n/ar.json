@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"OsamaK",
+			"ديفيد"
+		]
+	},
+	"categorywatch-desc": "يمدد وظيفة قائمة المراقبة لتشمل الإخطارات حول تغييرات العضوية للتصنيفات المراقبة",
+	"categorywatch-emailsubject": "النشاط الذي يشمل التصنيف المراقب \"$1\"",
+	"categorywatch-catmovein": "نقل $1 إلى التصنيف $2 من $3",
+	"categorywatch-catmoveout": "نقل $1 من التصنيف $2 إلى $3",
+	"categorywatch-catadd": "أضاف $1 إلى التصنيف $2",
+	"categorywatch-catsub": "أزال $1 من التصنيف $2",
+	"categorywatch-autocat": "مراقبة تلقائيا بواسطة $1",
+	"categorywatch-notification-link": "تصنيف: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "تمت إضافة [[:$1|$2]] إلى [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "تمت إضافة [[:$3|$4]] إلى [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] أضاف [[:$3|$3]] إلى [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] تمت إزالتها من [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] تمت إزالتها من [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] أزال [[:$3|$3]] من [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 تغييرات في التصنيف في {{SITENAME}}",
+	"categorywatch-add-title": "تمت إضافة العنوان إلى تصنيف مُراقَب",
+	"categorywatch-remove-title": "تمت إزالة العنوان من تصنيف مُراقَب",
+	"categorywatch-page-watch-pref": "أضف جميع الصفحات في إحدى التصنيفات إلى قائمة مراقبتك عند إضافة تصنيف",
+	"echo-category-title-categorywatch": "مراقبة التصنيف",
+	"echo-pref-tooltip-categorywatch": "إشعاري عند تصنيف أحد الأشخاص لصفحة ما أو خارجها ضمن تصنيف أراقبه."
+}

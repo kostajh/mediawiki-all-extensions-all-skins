@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cûndûllah el-Kurdî",
+			"Ghybu"
+		]
+	},
+	"emailauthorization-config-label-email": "Navnîşana E-nameyê",
+	"emailauthorization-config-value-yes": "Erê",
+	"emailauthorization-config-value-no": "na",
+	"emailauthorization-config-button-next": "Pêşve",
+	"emailauthorization-request-label-email": "Navnîşana E-nameyê",
+	"emailauthorization-request-button-submit": "Biweşîne",
+	"emailauthorization-approve-label-email": "Navnîşana E-nameyê",
+	"emailauthorization-approve-label-action": "Çalakî",
+	"emailauthorization-approve-button-reject": "Nepejirîne",
+	"emailauthorization-approve-button-next": "Pêşve",
+	"emailauthorization-approve-button-previous": "« Yê berê",
+	"emailauthorization-approve-approved": "$1 hat sepandin"
+}

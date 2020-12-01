@@ -1,0 +1,104 @@
+/** Stylesheet inspired by TEI simplePrint ODD */
+
+*[ data-tei-tag='address' ] {
+	margin: 2em;
+}
+
+*[ data-tei-tag='addrLine' ] {
+	white-space: nowrap;
+}
+
+*[ data-tei-tag='argument' ] {
+	margin-bottom: 0.5em;
+}
+
+*[ data-tei-tag='closer' ] {
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+*[ data-tei-tag='core' ]:before {
+	content: '[';
+}
+
+*[ data-tei-tag='core' ]:after {
+	content: ']';
+}
+
+*[ data-tei-tag='docTitle' ] {
+	font-size: larger;
+}
+
+*[ data-tei-tag='foreign' ] {
+	font-style: italic;
+}
+
+a[ data-tei-tag='note' ] {
+	vertical-align: super;
+	line-height: normal;
+	font-size: smaller;
+}
+
+*[ data-tei-tag='signed' ] {
+	text-align: right;
+}
+
+*[ data-tei-tag='speaker' ] {
+	font-style: italic;
+}
+
+*[ data-tei-tag='stage' ] {
+	color: #14866d;
+}
+
+*[ data-tei-tag='titlePage' ] {
+	text-align: center;
+}
+
+*[ data-tei-tag='trailer' ] {
+	color: #14866d;
+}
+
+*[ data-tei-tag='trailer' ]:after {
+	content: ' [?] ';
+}
+
+*[ data-tei-tag='unclear' ]:after {
+	content: ' [?] ';
+}
+
+.tei-rend-big {
+	font-size: 120%;
+}
+
+.tei-rend-bold {
+	font-weight: bold;
+}
+
+.tei-rend-italic {
+	font-style: italic;
+}
+
+.tei-rend-line-through {
+	text-decoration: line-through;
+}
+
+.tei-rend-oblique {
+	font-style: oblique;
+}
+
+.tei-rend-overline {
+	text-decoration: overline;
+}
+
+.tei-rend-small {
+	font-size: 80%;
+}
+
+.tei-rend-small-caps {
+	font-variant: small-caps;
+}
+
+.tei-rend-underline {
+	text-decoration: underline;
+}

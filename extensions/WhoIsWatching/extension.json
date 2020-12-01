@@ -1,0 +1,92 @@
+{
+	"name": "WhoIsWatching",
+	"version": "0.13.0",
+	"license-name": "GPL-2.0-only",
+	"author": [
+		"Paul Grinberg",
+		"Siebrand Mazeland",
+		"Vitaliy Filippov",
+		"[http://web.nichework.com Mark A. Hershberger]"
+	],
+	"requires": {
+		"MediaWiki": ">= 1.32.0",
+		"extensions": {
+			"Echo": "*"
+		}
+	},
+	"url": "https://www.mediawiki.org/wiki/Extension:WhoIsWatching",
+	"descriptionmsg": "whoiswatching-desc",
+	"type": "specialpage",
+	"SpecialPages": {
+		"WhoIsWatching": "MediaWiki\\Extension\\WhoIsWatching\\SpecialPage"
+	},
+	"MessagesDirs": {
+		"WhoIsWatching": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"WhoIsWatchingAlias": "src/i18n/Alias.php",
+		"WhoIsWatchingMagic": "src/i18n/Magic.php"
+	},
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\WhoIsWatching\\Manager": "src/Manager.php",
+		"MediaWiki\\Extension\\WhoIsWatching\\EchoEventPresentationModel": "src/EchoEventPresentationModel.php",
+		"MediaWiki\\Extension\\WhoIsWatching\\SpecialPage": "src/SpecialPage.php",
+		"MediaWiki\\Extension\\WhoIsWatching\\Hook": "src/Hook.php"
+	},
+	"Hooks": {
+		"BeforeCreateEchoEvent": [
+			"MediaWiki\\Extension\\WhoIsWatching\\Hook::onBeforeCreateEchoEvent"
+		],
+		"EchoGetBundleRules": [
+			"MediaWiki\\Extension\\WhoIsWatching\\Hook::onEchoGetBundleRules"
+		],
+		"SkinAddFooterLinks": [
+			"MediaWiki\\Extension\\WhoIsWatching\\Hook::onSkinAddFooterLinks"
+		],
+		"ParserFirstCallInit": [
+			"MediaWiki\\Extension\\WhoIsWatching\\Hook::onParserSetup"
+		]
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"addpagetoanywatchlist": true,
+			"removepagefromanywatchlist": true,
+			"seepagewatchers": true
+		}
+	},
+	"AvailableRights": [
+		"addpagetoanywatchlist",
+		"removepagefromanywatchlist",
+		"seepagewatchers"
+	],
+	"ResourceModules": {
+		"ext.whoIsWatching": {
+			"styles": [
+				"ext.whoIsWatching.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "WhoIsWatching/modules"
+	},
+	"DefaultUserOptions": {
+		"echo-subscriptions-email-whoiswatching": true,
+		"echo-subscriptions-web-whoiswatching": true
+	},
+	"config": {
+		"_prefix": "whoiswatching_",
+		"nametype": "RealName",
+		"allowaddingpeople": false,
+		"showifzero": true,
+		"showwatchingusers": false,
+		"maxPicklistUsers": 10,
+		"notificationTypes": {
+			"add": true,
+			"remove": true
+		}
+	},
+	"manifest_version": 1
+}

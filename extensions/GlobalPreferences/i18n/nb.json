@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"globalprefs-desc": "Lar brukere sette globale innstillinger",
+	"globalprefs-set-local-exception": "Sett et lokalt unntak for denne [[Special:GlobalPreferences#$1|globale innstillingen]].",
+	"globalprefs-has-local-exception": "Denne globale innstillingen har et [[Special:Preferences#$1|lokalt unntak på denne wikien]].",
+	"tooltip-globalprefs-check-label": "Gjør denne innstillingen global",
+	"globalprefs-error-header": "Feil",
+	"globalprefs-notglobal": "Kontoen din er ikke en global konto, og kan derfor ikke sette innstillinger globalt.",
+	"globalpreferences": "Globale innstillinger",
+	"globalprefs-info-label": "Globale innstillinger:",
+	"globalprefs-info-link": "Sett dine globale innstillinger",
+	"globalprefs-info-help": "Innstillinger som er satt via siden for globale innstillinger vil gjelde alle wikier.",
+	"globalprefs-reset-intro": "Du ka bruke denne siden for å slå av alle globale innstillinger på alle wikier og komme tilbake til dine lokale innstillinger.\nDette påvirker ikke lokale innstillinger på enkeltwikiene. Dette kan ikke gjøres om.",
+	"globalprefs-restoreprefs": "Fjern alle globale innstillinger (i alle seksjoner)",
+	"globalprefs-select-all": "Slå alle avmerkingsbokser på eller av",
+	"globalprefs-col-header": "Velg hvilke innstillinger som skal være globale"
+}

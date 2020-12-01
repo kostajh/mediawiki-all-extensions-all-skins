@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Centerlink",
+			"Cimon Avaro",
+			"Crt",
+			"Jack Phoenix",
+			"Pyscowicz",
+			"Valtlait",
+			"ZeiP"
+		]
+	},
+	"form-desc": "[[Special:Form|Lomake]] uusien sivujen luomiseen",
+	"form": "Aloita uusi sivu",
+	"form-captcha-error": "CAPTCHA-virhe",
+	"form-pick-form": "Valitse luotavan sivun tyyppi.",
+	"form-no-name": "Ei lomakkeen nimeä",
+	"form-no-name-text": "Sinun tulee antaa lomakkeen nimi, kuten ”Special:Form/Lomakkeennimi”.",
+	"form-bad-name": "Huono lomakkeen nimi",
+	"form-bad-name-text": "Haluamallasi nimellä ei ole lomaketta.",
+	"form-pattern": "$1-lomake",
+	"form-title-pattern": "Lisää uusi $1",
+	"form-save": "Tallenna",
+	"form-index-mismatch-title": "Nimimalli- ja mallinetäsmäämättömyys",
+	"form-index-mismatch": "Tällä lomakkeella on yhteensopimattomat nimi- ja mallinekaavat alkaen riviltä $1.",
+	"form-article-exists": "Sivu on jo olemassa",
+	"form-article-existstext": "Sivu [[$1]] on jo olemassa.",
+	"form-bad-page-name": "Huono sivun nimi",
+	"form-bad-page-name-text": "Antamasi lomakkeen tiedot tekevät huonon sivun nimen, ”$1”.",
+	"form-required-field-error": "{{PLURAL:$2|Kenttä $1 on|Kentät $1 ovat}} pakollisia tässä lomakkeessa.\nOle hyvä ja täytä {{PLURAL:$2|se|ne}}.",
+	"form-save-summary": "Uusi sivu käyttäen [[Special:Form/$1]]",
+	"form-save-error": "Virhe lomaketta tallennettaessa",
+	"form-save-error-text": "Tuntematon virhe tapahtui sivua '$1' tallennettaessa."
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Tititou36",
+			"Verdy p"
+		]
+	},
+	"markashelpful-desc": "Fournit une interface utilisateur pour marquer les commentaires comme utiles",
+	"mah-mark-text": "Marquer comme utile",
+	"mah-you-marked-text": "Vous pensez que cela est utile",
+	"mah-someone-marked-text": "{{GENDER:$1|}}$1 pense que cela est utile",
+	"mah-undo-mark-text": "annuler",
+	"mah-action-error": "Une erreur est survenue en exécutant cette action",
+	"apihelp-getmarkashelpfulitem-description": "Obtenir une liste de tous les états utiles pour un élément objet.",
+	"apihelp-getmarkashelpfulitem-summary": "Obtenir une liste de tous les états utiles pour un élément objet.",
+	"apihelp-getmarkashelpfulitem-param-type": "Le type d’objet qui a été marqué comme utile.",
+	"apihelp-getmarkashelpfulitem-param-item": "L’élément objet qui est marqué comme utile.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Quelle propriété obtenir.",
+	"apihelp-getmarkashelpfulitem-param-page": "La page qui demande l’élément.",
+	"apihelp-markashelpful-description": "Permet aux utilisateurs de marquer ou ne plus marquer un élément objet dans le site comme utile.",
+	"apihelp-markashelpful-summary": "Permet aux utilisateurs de marquer ou non un élément objet comme utile dans le site.",
+	"apihelp-markashelpful-param-mahaction": "S’il faut marquer ou ne plus marquer un élément comme utile.",
+	"apihelp-markashelpful-param-page": "La page sur laquelle se trouve l’élément à marquer.",
+	"apihelp-markashelpful-param-type": "Le type d’objet qui est marqué comme utile.",
+	"apihelp-markashelpful-param-item": "L’élément objet qui est marqué comme utile.",
+	"apihelp-markashelpful-param-useragent": "L’entête User-Agent du navigateur.",
+	"apihelp-markashelpful-param-system": "Le système d’exploitation utilisé.",
+	"apihelp-markashelpful-param-locale": "Les paramètres régionaux utilisés."
+}

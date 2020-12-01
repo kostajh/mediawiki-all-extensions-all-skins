@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Mansil alfalb"
+		]
+	},
+	"bs-socialwatch-desc": "Funcionalidade de vigilância para entidades BlueSpiceSocial",
+	"bs-socialwatch-watchtext": "Vigiar",
+	"bs-socialwatch-unwatchtext": "Remover vigia",
+	"bs-socialwatch-var-watch": "Vigiar",
+	"apihelp-bs-socialwatch-tasks-summary": "Fornece tarefas para editar o estado de vigilância de entidades"
+}

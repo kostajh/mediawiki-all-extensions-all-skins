@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Corainn",
+			"Kly",
+			"Liuxinyu970226",
+			"Mark85296341",
+			"Oapbtommy",
+			"Shirayuki",
+			"Wrightbus"
+		]
+	},
+	"security": "安全日誌",
+	"security-desc": "擴充的 MediaWiki 頁面保護，用來允許限制檢視頁面內容",
+	"security-logpage": "安全日誌",
+	"security-logpagetext": "這是[https://www.mediawiki.org/wiki/Extension:SimpleSecurity SimpleSecurity extension]封鎖操作的日誌。",
+	"badaccess-read": "'''警告：'''「$1」被引用於此，但您沒有足夠的權限來存取。",
+	"security-info": "此頁面有$1",
+	"security-info-toggle": "安全限制",
+	"security-inforestrict": "$1 被限制於 $2",
+	"security-desc-LS": "（因為此頁面位於 $1「$2」而適用）",
+	"security-desc-PR": "（從「保護」分頁設定）",
+	"security-infosysops": "因為您是「sysop」群組成員之一，所以不受限制影響",
+	"security-manygroups": "群組 $1 與 $2",
+	"security-unchain": "分別修改操作",
+	"security-type-category": "分類",
+	"security-type-namespace": "命名空間",
+	"security-restricttogroup": "存取內容被限制於「$1」的成員",
+	"restriction-read": "讀"
+}

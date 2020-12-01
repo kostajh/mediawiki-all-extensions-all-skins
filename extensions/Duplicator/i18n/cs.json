@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jkjk",
+			"Michaelbrabec",
+			"Mormegil"
+		]
+	},
+	"duplicator": "Duplikovat stránku",
+	"duplicator-desc": "Vytvořit [[Special:Duplicate|kopie stránek]] s plnou historií úprav",
+	"duplicator-toolbox": "Duplikovat tuto stránku",
+	"duplicator-header": "Tato stránka umožňuje vytvořit kompletní kopii stránky, včetně celé historie. \nTo je užitečné např. při větvení projektů.",
+	"duplicator-options": "Nastavení",
+	"duplicator-source": "Zdroj:",
+	"duplicator-dest": "Cíl:",
+	"duplicator-dotalk": "Duplikovat i diskusní stránku (pokud existuje)",
+	"duplicator-dohistory": "Duplikovat celou historii stránky",
+	"duplicator-submit": "Duplikovat",
+	"duplicator-summary": "Zkopírováno z [[$1]], revize [[$2]]",
+	"duplicator-success": "[[$1]] bylo zkopírováno do [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|revize byla zkopírována|revize byly zkopírovány|revizí bylo zkopírováno}}.",
+	"duplicator-success-talknotcopied": "Nebylo možné zkopírovat diskuzní stránku",
+	"duplicator-failed": "Tuto stránku nebylo možné zkopírovat.\nDošlo k neznámé chybě.",
+	"duplicator-source-invalid": "Zadejte platný titulek zdroje.",
+	"duplicator-source-notexist": "[[$1]] neexistuje. Zadejte název stránky, která existuje.",
+	"right-duplicate": "Duplikování stránek"
+}

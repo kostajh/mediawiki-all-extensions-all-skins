@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"slippymap_desc": "Umožňuje použitie značky <tt><nowiki>&lt;slippymap&gt;</nowiki></tt> na zobrazenie posuvnej mapy OpenLayers. Mapy sú z [http://openstreetmap.org openstreetmap.org]",
+	"slippymap_latmissing": "Chýba hodnota lat (rovnobežka).",
+	"slippymap_lonmissing": "Chýba hodnota lon (poludník).",
+	"slippymap_zoommissing": "Chýba hodnota z (úroveň priblíženia)",
+	"slippymap_longdepreciated": "Prosím, použite „lon” namiesto „long” (názov parametra sa zmenil).",
+	"slippymap_widthnan": "hodnota šírky (w) „$1” nie je platné celé číslo",
+	"slippymap_heightnan": "hodnota výšky (h) „$1” nie je platné celé číslo",
+	"slippymap_zoomnan": "hodnota úrovne priblíženia (z) „$1” nie je platné celé číslo",
+	"slippymap_latnan": "hodnota zemepisnej šírky (lat) „$1” nie je platné celé číslo",
+	"slippymap_lonnan": "hodnota zemepisnej dĺžky (lon) „$1” nie je platné celé číslo",
+	"slippymap_widthbig": "hodnota šírky (w) nemôže byť väčšia ako 1000",
+	"slippymap_widthsmall": "hodnota šírky (w) nemôže byť menšia ako 100",
+	"slippymap_heightbig": "hodnota výšky (h) nemôže byť väčšia ako 1000",
+	"slippymap_heightsmall": "hodnota výšky (h) nemôže byť menšia ako 100",
+	"slippymap_latbig": "hodnota zemepisnej dĺžky (h) nemôže byť väčšia ako 90",
+	"slippymap_latsmall": "hodnota zemepisnej dĺžky (h) nemôže byť menšia ako -90",
+	"slippymap_lonbig": "hodnota zemepisnej šírky (lon) nemôže byť väčšia ako 180",
+	"slippymap_lonsmall": "hodnota zemepisnej dĺžky (lon) nemôže byť menšia ako -180",
+	"slippymap_zoomsmall": "hodnota úrovne priblíženia (lon) nemôže byť menšia ako nula",
+	"slippymap_zoom18": "hodnota úrovne priblíženia (lon) nemôže byť väčšia ako 17. Toto rozšírenie MediaWiki využíva vrstvu „osmarender” OpenStreetMap, ktorá umožňuje úroveň priblíženia po 17. Vrstva Mapnik na openstreetmap.org umožňuje priblíženie do úrovne 18.",
+	"slippymap_zoombig": "hodnota úrovne priblíženia (lon) nemôže byť väčšia ako 17.",
+	"slippymap_invalidlayer": "Neplatná hodnota „layer” „$1”",
+	"slippymap_maperror": "Chyba mapy:",
+	"slippymap_osmtext": "Pozrite si túto mapu na OpenStreetMap.org",
+	"slippymap_code": "Wikikód tohto pohľadu na mapu:",
+	"slippymap_button_code": "Zobraziť zdrojový kód",
+	"slippymap_resetview": "Obnoviť zobrazenie"
+}

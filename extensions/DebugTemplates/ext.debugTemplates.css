@@ -1,0 +1,142 @@
+/* The debug bar for reporting error messages. */
+.dt-error {
+  font-size: 9pt;
+  color: #DD3333;
+}
+
+/* A little button to clear the message area. */
+.dt-error-button {
+  float: right;
+  transform: scale(0.8);
+}
+
+/* For the value of an unset parameter in the parameter list. */
+.dt-arg-set-no {
+  color: #888888;
+}
+
+/* For columns in the parameter table that should be centered. */
+.dt-arg-centered {
+  text-align: center;
+}
+
+/* The stack trace area, and properties of non-leaf entries. */
+.dt-crumbs {
+  font-family: monospace;
+  font-weight: bold;
+  background-color: #EEEEEE;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.dt-crumb-visited {
+  color: #2222DD;
+  cursor: pointer;
+}
+
+/* The radio buttons and labels above the debug pane. */
+.dt-radio-buttons {
+  margin-left: 0.5em;
+  vertical-align: middle;
+}
+.dt-radio-label {
+  vertical-align: bottom;
+}
+
+/* The interactive debug pane wrapper. */
+.dt-debug-output-wrapper {
+  background-color: #eeeeee;
+  border: 1px solid #888888;
+  white-space:pre-wrap;
+}
+
+/* The interactive debug pane wrapper itself. */
+.dt-debug-output {
+  padding:3px;
+}
+
+/* All of the nodes in the interactive debug pane have this style. */
+.dt-node { }
+
+/* Specific styles for specific kinds of nodes according to their role in the parse tree. */
+.dt-node-template { }
+.dt-node-arg { }
+.dt-node-title { }
+.dt-node-value { }
+.dt-node-name { }
+.dt-node-tplarg { }
+.dt-node-comment {
+  color: #777777
+}
+.dt-node-ignore {
+  color: #777777
+}
+.dt-node-multiline { }
+.dt-node-ext {
+  color: red;
+}
+.dt-node-ext-nowiki {
+  color: #A52A2A;
+}
+.dt-node-ext-pre {
+  font-family: Courier,monospace;
+  color: black;
+  background-color: #FFFACD;
+}
+
+/* Mouseover styles for the various components of the nodes. */
+.dt-emphasize, .dt-emphasize-template-in, .dt-emphasize-template-out {
+  font-weight: bold;
+  font-stretch: ultra-condensed;
+}
+.dt-emphasize-template-name {
+  color: #006400;
+}
+.dt-emphasize-template-args {
+  color: #4169E1;
+}
+.dt-emphasize-template-pipe {
+  font-weight: bold;
+  color: black;
+}
+.dt-emphasize-tplarg-in, .dt-emphasize-tplarg-out {
+  font-weight: bold;
+  font-stretch: ultra-condensed;
+}
+.dt-emphasize-tplarg-name {
+  color: #800080;
+}
+.dt-emphasize-tplarg-args {
+  color: #8B4513;
+}
+.dt-emphasize-tplarg-pipe {
+  font-weight: bold;
+  color:black;
+}
+
+/* Temporarily unshown nodes. */
+.dt-node-invisible {
+  display: none;
+}
+
+/* A node that has been evaluated to base wikitext, normal and on mouseover. */
+.dt-node-evaluated {
+  font-family: Courier,monospace;
+}
+.dt-node-emphasize-evaluated {
+  text-decoration: underline;
+}
+
+/* For the debug pane, to indicate it is currently evaluating something. */
+.dt-busy {
+  cursor: wait ! important;
+}
+/* For the debug pane, to indicate descend mode. */
+.dt-descend {
+  cursor: pointer;
+}
+
+/* Used during the brief highlighting of text being replaced due to an eval. */
+.dt-fading {
+  background-color: rgba(255,0,0,0.4);
+}
+

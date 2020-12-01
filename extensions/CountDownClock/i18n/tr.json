@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda",
+			"MuratTheTurkish"
+		]
+	},
+	"countDownClock-desc": "Geri sayım süresini göstermek için bir ayrıştırıcı işlevi ekler",
+	"countDownClock-invalidtime": "Lütfen geçerli bir endTime parametresi sağlayın",
+	"countDownClock-days": "$1 Gün",
+	"countDownClock-hours": "$1 Saat",
+	"countDownClock-minutes": "$1 Dakika",
+	"countDownClock-seconds": "$1 Saniye",
+	"countDownClock-expired": "Süre doldu"
+}

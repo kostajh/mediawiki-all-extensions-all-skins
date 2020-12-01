@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"indexfunc-desc": "Function del analysator syntactic pro le creation automatic de redirectiones e paginas de disambiguation",
+	"indexfunc-badtitle": "Titulo invalide: \"$1\"",
+	"indexfunc-editwarning": "Attention: Iste titulo es un titulo de indice pro le sequente {{PLURAL:$2|pagina|paginas}}:\n$1\nAssecura te que le pagina que tu va crear non ja existe sub un altere titulo.\nSi tu crea iste pagina, remove iste titulo del <nowiki>{{#index:}}</nowiki> in le {{PLURAL:$2|pagina|paginas}} ci supra.",
+	"indexfunc-index-exists": "Le pagina \"$1\" ja existe",
+	"indexfunc-movewarn": "Attention: Iste titulo es un titulo de indice pro le sequente {{PLURAL:$3|pagina|paginas}}:\n$2\nPer favor remove \"$1\" del <nowiki>{{#index:}}</nowiki> in le {{PLURAL:$3|pagina|paginas}} ci supra.",
+	"index": "Recerca con indice",
+	"index-legend": "Cercar in le indice",
+	"index-search": "Cerca:",
+	"index-submit": "Submitter",
+	"index-disambig-start": "'''$1''' pote referer a plure paginas:",
+	"index-emptylist": "Il non ha paginas associate con \"$1\"",
+	"index-expand-detail": "Monstrar paginas indexate sub iste titulo",
+	"index-hide-detail": "Celar le lista de paginas",
+	"index-no-results": "Le recerca retornava nulle resultato",
+	"index-search-explain": "Iste pagina usa un recerca de prefixo.\n\nEntra le prime poc characteres e preme le button de submission pro cercar titulos de paginas e entratas de indice que comencia per le catena de recerca",
+	"index-details-explain": "Entratas con sagittas es entratas de indice.\nClicca super le sagitta pro revelar tote le paginas indexate sub ille titulo."
+}

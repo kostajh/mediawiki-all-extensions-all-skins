@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"nukedpl": "Deletion in massa per consulta DPL",
+	"nukedpl-desc": "Adde un [[Special:NukeDPL|pagina special]] pro deletion in massa per consulta DPL",
+	"nukedpl-intro": "Iste instrumento permitte le deletion in massa de paginas seligite per un consulta DPL.\n\nInsere un consulta hic infra pro generar un lista de titulos a deler.\n* Le titulos pote esser individualmente removite del lista ante de deler.\n* Non oblida que le titulos de paginas distingue inter majusculas e minusculas.\n* Le consultas non debe esser circumferite per etiquettas DPL ni per {accolladas}.\n* Pro obtener information sur le significato de parametros, vide le [http://semeb.com/dpldemo/index.php?title=DPL:Manual manual de DPL].",
+	"nukedpl-candidatelist": "Vider lista de candidatos",
+	"nukedpl-nopages": "Il non ha paginas a deler con iste consulta DPL: <code>$1</code>",
+	"nukedpl-nuke": "Annihilar!",
+	"nukedpl-list": "Le sequente {{PLURAL:$1|pagina|paginas}} ha essite seligite per le consulta DPL: <code>$2</code>\n\nPreme sur \"{{int:nukedpl-nuke}}\" pro deler {{PLURAL:$1|lo|los}}.",
+	"nukedpl-defaultreason": "Deletion in massa de paginas seligite per le consulta DPL: $1",
+	"action-nukedpl": "deler paginas in massa per consultas DPL (Dynamic Page List)",
+	"right-nukedpl": "Deler paginas in massa per consultas DPL (Dynamic Page List)"
+}

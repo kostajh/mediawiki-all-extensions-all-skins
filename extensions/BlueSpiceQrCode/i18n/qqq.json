@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Josef Konrad"
+		]
+	},
+	"bs-qr-code-extension-description": "Describes the BlueSpiceQrCode extension.",
+	"bs-qr-code-title": "Title of the QrCode toolbox panel",
+	"bs-qr-code-text": "Text that says user can scan the qr code for viewing this article on a mobile device."
+}

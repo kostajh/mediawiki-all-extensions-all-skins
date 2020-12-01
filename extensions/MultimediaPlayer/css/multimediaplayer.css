@@ -1,0 +1,54 @@
+#multimediaplayer-frame {
+	margin: 15px;
+}
+#multimediaplayer-container {
+	text-align: center;
+}
+#multimediaplayer-description {
+	margin-top: 5px;
+	text-align: center;
+}
+
+/* DailyMotion, Vimeo & YouTube */
+.mm-DailyMotion #multimediaplayer-container,
+.mm-Vimeo #multimediaplayer-container,
+.mm-YouTube #multimediaplayer-container {
+	height: 0;
+	height: auto;
+	max-width: 100%;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+.mm-DailyMotion #multimediaplayer-container iframe, .mm-DailyMotion #multimediaplayer-container object, .mm-DailyMotion #multimediaplayer-container embed,
+.mm-Vimeo #multimediaplayer-container iframe, .mm-Vimeo #multimediaplayer-container object, .mm-Vimeo #multimediaplayer-container embed,
+.mm-YouTube #multimediaplayer-container iframe, .mm-YouTube #multimediaplayer-container object, .mm-YouTube #multimediaplayer-container embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+
+/* Instagram & Vine */
+.mm-Instagram #multimediaplayer-container,
+.mm-Vine #multimediaplayer-container {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 100%;
+	position: relative;
+}
+.mm-Instagram #multimediaplayer-container iframe, .mm-Instagram #multimediaplayer-container object, .mm-Instagram #multimediaplayer-container embed,
+.mm-Vine #multimediaplayer-container iframe, .mm-Vine #multimediaplayer-container object, .mm-Vine #multimediaplayer-container embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+/* Instagram */
+.mm-Instagram #multimediaplayer-container {
+	padding-bottom: 120%;
+}

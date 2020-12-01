@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby",
+			"Rudolf.Grossmann",
+			"Soued031"
+		]
+	},
+	"formelapplet-desc": "Setzt d'[http://wiki.formelapplet.de FormelApplet]-Applets op Säiten der\nbei",
+	"formelapplet-nojava": "Installéiert wgl. $1 fir dës Säit ze benotzen.",
+	"formelapplet-missing-parameter": "Et feelt e Parameter ('width' oder 'height' oder 'term/solution').",
+	"formelapplet-file-not-found": "De Fichier $1 gouf net fonnt.",
+	"formelapplet-error": "Feeler an der MediaWiki-Erweiderung FormalApplet: <em>$1</em>"
+}

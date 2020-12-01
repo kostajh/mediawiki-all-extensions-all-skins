@@ -1,0 +1,29 @@
+{
+	"name": "LanguageTag",
+	"version": "1.2.0",
+	"author": "István Király",
+	"url": "https://www.mediawiki.org/wiki/Extension:LanguageTag",
+	"descriptionmsg": "languagetag-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"LanguageTag": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"LanguageTag": "src/LanguageTag.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "LanguageTag::onParserFirstCallInit"
+	},
+	"config": {
+		"LanguageTagLanguages": {
+			"value": [],
+			"description": "Adjust that array to set what language tag's should be parsed. E.g. 'en', 'hu'"
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dror S. [FFS]",
+			"MinuteElectron",
+			"Purodha",
+			"RobertL"
+		]
+	},
+	"multiboilerplate": "{{notranslate}} This is used for configuration",
+	"multiboilerplate-desc": "{{desc|name=MultiBoilerplate|url=https://www.mediawiki.org/wiki/Extension:MultiBoilerplate}}",
+	"multiboilerplate-label": "{{notranslate}} Empty by default. This allows the user to specify a for the boilerplate selection drop-down box",
+	"multiboilerplate-legend": "Title of the form used for selecting a boilerplate in edit mode",
+	"multiboilerplate-submit": "The text displayed on the button that loads the boilerplate into the edit box.\n\n{{Identical|Load}}",
+	"boilerplates": "{{Doc-special|Boilerplates}}",
+	"multiboilerplate-special-pagetext": "Introduction text on the special page.\nDo not translate <code>&lt;span class=plainlinks>[{<nowiki />{fullurl:</code> and <code>|action=edit}}</code> and <code>]&lt;/span></code>",
+	"multiboilerplate-special-define-in-localsettings": "Tells the user that the extension was configured through LocalSettings.php",
+	"multiboilerplate-special-define-in-interface": "Tells the user that the extension was configured through [[MediaWiki:Multiboilerplate]].",
+	"multiboilerplate-special-no-boilerplates": "Error message on the special page to inform the user that no boilerplates were defined",
+	"multiboilerplate-nonexistant-page": "Error message displayed when the user tries to use a boilerplate but the associated page doesn't exist."
+}

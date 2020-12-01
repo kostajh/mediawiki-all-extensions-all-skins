@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"A2y4",
+			"Aefgh39622",
+			"Shirayuki"
+		]
+	},
+	"bs-bookshelf-tagerror-attribute-float-not-valid": "<i>left</i> または <i>right</i> を使用してください。",
+	"bs-bookshelf-specialpage-title": "書籍",
+	"bs-bookshelf-specialpage-allpages-ns-book-text": "ライブラリ",
+	"bs-bookshelf-tag-next": "次へ",
+	"bs-bookshelf-tag-prev": "前へ",
+	"bs-bookshelf-tag-edit-book": "書籍を編集",
+	"bs-bookshelf-personal-books-page-prefix": "$1/書籍/",
+	"bs-bookshelf-add-to-book-label": "書籍に追加する",
+	"bs-bookshelf-add-to-book-label-book": "書籍",
+	"bs-bookshelf-add-to-book-label-alias": "別名",
+	"bs-bookshelf-add-to-book-added": "ページが書籍「$1」に追加されました。",
+	"bs-bookshelf-setting-path-feature": "書籍",
+	"bs-bookshelf-empty-selection": "何も選択されていません",
+	"bs-bookshelf-grouping-template-type-ns_book": "一般書籍",
+	"bs-bookshelf-grouping-template-type-user_book": "自分の書籍",
+	"bs-bookshelf-edit-title": "「$1」を編集中",
+	"bs-bookshelf-book-grid-title": "本",
+	"bookshelf": "本棚",
+	"bookshelf-summary": "一般書籍",
+	"bs-bookshelf-prof-defaultview-grid": "グリッド",
+	"bs-bookshelf-prof-defaultview-images": "画像",
+	"right-bookshelf-viewspecialpage": "特別ページ [[Special:Bookshelf]] にアクセス",
+	"action-bookshelf-viewspecialpage": "特別ページ [[Special:Bookshelf]] へのアクセス"
+}

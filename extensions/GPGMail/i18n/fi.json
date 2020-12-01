@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"gpgmail-desc": "Salaa sähköpostit GPG:llä",
+	"gpgmail-pref-enable": "Salaa sähköpostit GPG:llä",
+	"gpgmail-pref-key": "GPG julkinen avain",
+	"gpgmail-pref-key-help": "Katso [https://help.ubuntu.com/community/GnuPrivacyGuardHowto Ubuntu's how-to page] -sivulta apua julkisen avaimen saamiseen.",
+	"gpgmail-encrypt-error": "Tapahtui virhe salatessa sähköpostia."
+}

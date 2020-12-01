@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"bs-visualeditorconnector-upload-type-original": "Original",
+	"bs-visualeditorconnector-upload-type-simple": "Einfach",
+	"bs-visualeditorconnector-cancel-edit-no-unsaved-changes": "Ännerung annuléieren",
+	"bs-visualeditorconnector-cancel-edit": "Ännerung annuléieren. Net gespäichert Ännerunge ginn ignoréiert",
+	"bs-visualeditor-nsm-label": "Visuellen Editeur",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Gemeinsam",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Erweidert",
+	"bs-vec-table-inspector-column": "Kolonn",
+	"bs-vec-table-inspector-row": "Rei",
+	"bs-vec-table-inspector-cell": "Zell",
+	"bs-vec-contextitem-row-style-add-options-title": "Optioune vun de Reien",
+	"bs-vec-contextitem-table-additional-options": "Zousätzlech Optiounen",
+	"bs-vec-dialog-table-create-number-of-rows": "Zuel vun de Reien",
+	"bs-vec-dialog-table-create-number-of-columns": "Zuel vun de Kolonnen",
+	"bs-vec-dialog-action-done": "Fäerdeg",
+	"bs-vec-dialog-action-safe": "Ofbriechen",
+	"bs-vec-dialog-create-table-title": "Tabell drasetzen",
+	"bs-vec-widget-text-direction-tooltip": "Vertikalen Text",
+	"bs-vec-dialog-media-change-file": "Fichier änneren",
+	"bs-visualeditor-linkcontext-label-change": "Etikett änneren",
+	"bs-visualeditor-linkcontext-label-label": "Etikett",
+	"bs-vec-table-style-cell-text-vert-align-top": "Uewen",
+	"bs-vec-table-style-cell-text-hor-align-left": "Lenks",
+	"bs-vec-table-style-cell-text-hor-align-right": "Riets",
+	"bs-vec-table-border-left": "Lenks",
+	"bs-vec-table-border-top": "Uewen",
+	"bs-vec-table-border-bottom": "Ënnen",
+	"bs-vec-table-border-double": "Duebel"
+}

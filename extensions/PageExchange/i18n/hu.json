@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Csega"
+		]
+	},
+	"packages": "Csomagok",
+	"pageexchange-installed": "Telepítve",
+	"pageexchange-available": "Elérhető",
+	"pageexchange-installpackage": "Csomag telepítése: $1",
+	"pageexchange-updatepackage": "Csomag frissítése: $1",
+	"pageexchange-package-website": "Weboldal:",
+	"pageexchange-package-publisher": "Közzétevő:",
+	"pageexchange-package-author": "Szerző:",
+	"pageexchange-package-version": "Verzió:",
+	"pageexchange-package-pages": "Lapok:",
+	"pageexchange-package-language": "Nyelv:",
+	"pageexchange-package-requiredextensions": "Szükséges kiterjesztések:",
+	"pageexchange-package-requiredpackages": "Szükséges csomagok:",
+	"pageexchange-package-install": "Telepítés",
+	"pageexchange-package-update": "Frissítés",
+	"pageexchange-package-uninstall": "Eltávolítás",
+	"pageexchange-uninstallablepackage": "Ezt a csomagot nem tudtuk telepíteni a következő okokból:",
+	"pageexchange-packageupdated": "A csomag frissítve lett."
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Looong"
+		]
+	},
+	"bs-uemoduledocx-extension-description": "开启导出到DOCX功能",
+	"bs-uemoduledocx-pref-SuppressNS": "在DOCX中隐藏名字空间前缀",
+	"bs-uemoduledocx-widgetlink-single-text": "DOCX单页",
+	"bs-uemoduledocx-widgetlink-single-title": "将当前页导出为DOCX文件",
+	"bs-uemoduledocx-overview-title": "Micorsoft&reg;办公公开XML（DOCS）",
+	"bs-uemoduledocx-overview-description": "导出页到Microsoft DOCX",
+	"bs-uemoduledocx-overview-webservice-state-not-ok": "不可行",
+	"bs-uemoduledocx-overview-webservice-state-ok": "可行的",
+	"bs-uemoduledocx-overview-webservice-webadmin": "DOCXService(BShtml2DOCS)网络借口",
+	"bs-uemoduledocx-overview-webservice-state": "DOCXService (BShtml2DOCX)状态"
+}

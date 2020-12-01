@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]]님이 [[:$6|$6]] 문서를 편집했습니다",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]]님이 [[:$6|$6]] 문서를 만들었습니다",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]]님이 [[:$6|$6]] 문서를 삭제했습니다",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]]님이 새 판의 [[:$6|$6]] 파일을 추가했습니다",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]]님이 [[:$6|$6]] 파일을 업로드했습니다",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]]님이 [[:$6|$6]] 파일을 삭제했습니다"
+}

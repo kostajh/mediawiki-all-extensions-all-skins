@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"formelapplet-desc": "إضافة بريمجات [http://wiki.formelapplet.de FormelApplet] إلى الصفحات",
+	"formelapplet-nojava": "الرجاء تثبيت $1 لاستخدام هذه الصفحة.",
+	"formelapplet-missing-parameter": "وسيط مفقود (عرض أو ارتفاع أو شرط/حل).",
+	"formelapplet-file-not-found": "الملف $1 غير موجود.",
+	"formelapplet-error": "خطأ في ملحق ميدياويكي FormelApplet: <em>$1</em>"
+}

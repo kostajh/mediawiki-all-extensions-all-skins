@@ -1,0 +1,52 @@
+/* fullscreen */
+
+.calumma-full-screen-button {
+	height: 15px;
+	line-height: 10px;
+	padding-top: 2px;
+	top: 22px;
+	position: absolute;
+	z-index: 101;
+	cursor: pointer;
+	display: block;
+	right: 40px;
+
+	&.bs-full-screen-mode {
+		i::before {
+			content: "\f066";
+			font-family: "fontawesome" !important;
+			font-style: normal;
+			padding-left: 3px;
+			padding-right: 3px;
+		}
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		&:focus {
+			text-decoration: none;
+		}
+
+	}
+
+	i::before {
+		content: "\f065";
+		font-family: "fontawesome" !important;
+		font-style: normal;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+body.mediawiki.bs-full-screen-mode .center-col {
+	width: 100vw !important;
+}

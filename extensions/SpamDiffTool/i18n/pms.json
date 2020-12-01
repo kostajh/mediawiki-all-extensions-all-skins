@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"spamdifftool": "Gëstiss la blacklist dë spam",
+	"spamdifftool-desc": "A dà na manera base ëd gionté neuve intrade a la blacklist dë spam da pàgine diferente",
+	"spamdifftool-block": "Blòca:",
+	"spamdifftool-cant-edit": "An dëspias - a l'ha pa ël përmess ëd modifiché la lista nèira dla rumenta.",
+	"spamdifftool-confirm": "Ch'a conferma ch'a veul gionté coste vos a la lista nèira dla rumenta. (Ch'a sgnaca <a href='$1' target='new'>ambelessì</a> për arporté un problema.)",
+	"spamdifftool-no-text": "A-i é gnun test da gionté a la lista nèira dla rumenta. Ch'a sgnaca <a href='$1'>ambelessì</a> për andé anans.",
+	"spamdifftool-no-title": "'''Eror:''' gnun tìtol ëd pàgina a l'é stàit specificà.",
+	"spamdifftool-no-urls-detected": "Gnun-a adrëssa a l'é stàita trovà. Ch'a sgnaca <a href='$1'>ambelessì</a> për torné andré.",
+	"spamdifftool-option-domain": "tut da sto domini-sì",
+	"spamdifftool-option-subdomain": "tut da cost sot-domini-sì",
+	"spamdifftool-option-directory": "ës sot-domini e ës dossié-sì",
+	"spamdifftool-option-none": "gnente",
+	"spamdifftool-spam-link-text": "gionté a la rumenta",
+	"spamdifftool-submit": "Spediss",
+	"spamdifftool-summary": "Gionté a la lista nèira dla rumenta.",
+	"spamdifftool-urls-detected": "J'adrësse sì-dapress a son ëstàite trovà ant le modìfiche.\nCola ch'a veul gionté a la lista nèira dla rumenta?\nSte opsion-sì a son ordinà da la pì restritiva a la meno restritiva, bloché tut ël domini a blocherà tùit ij colegament a tut lòn ch'a riva da col domini.\n\nCh'as sigura ëd nen bloché dij domini antregh che a òspito dij cont d'utent, com blogspot.com, shoutwiki.com, e via fòrt."
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Nghtwlkr"
+		]
+	},
+	"form-desc": "Et [[Special:Form|skjema]] for å opprette nye sider",
+	"form": "Start en ny side",
+	"form-captcha-error": "CAPTCHA-feil",
+	"form-pick-form": "Velg sidetypen du ønsker å opprette via et skjema",
+	"form-no-name": "Intet skjemanavn",
+	"form-no-name-text": "Du må angi et skjemanavn, som «Special:Form/Skjemanavn».",
+	"form-bad-name": "Ugyldig skjemanavn",
+	"form-bad-name-text": "Det er ingen skjema ved det navnet.",
+	"form-pattern": "$1-skjema",
+	"form-title-pattern": "Legg til ny $1",
+	"form-save": "Lagre",
+	"form-index-mismatch-title": "Navnemønster og malfeil",
+	"form-index-mismatch": "Dette skjemaet har upassende navnemønstre og maler som starter på indeks $1.",
+	"form-article-exists": "Siden eksisterer",
+	"form-article-existstext": "Siden [[$1]] eksisterer allerede.",
+	"form-bad-page-name": "Ugyldig sidenavn",
+	"form-bad-page-name-text": "Skjemadataene du skrev inn utgjør et ugyldig sidenavn, «$1».",
+	"form-required-field-error": "{{PLURAL:$2|Feltet $1 er obligatorisk|Feltene $1 er obligatoriske}} for dette skjemaet. Vær vennlig og fyll {{PLURAL:$2|det|dem}} ut.",
+	"form-save-summary": "Ny side vha. [[Special:Form/$1|skjemaet $1]]",
+	"form-save-error": "Feil under skjemalagring",
+	"form-save-error-text": "Det var en ukjent feil under lagring av siden ‘$1’."
+}

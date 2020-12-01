@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Artsiom91"
+		]
+	},
+	"echo-category-title-login-fail": "Няўдалыя спробы ўваходу",
+	"echo-pref-tooltip-login-fail": "Паведамляць мне, калі былі здзейсненыя няўдалыя спробу ўваходу пад маім уліковым запісам.",
+	"echo-category-title-login-success": "Уваход з незнаёмай прылады",
+	"echo-pref-tooltip-login-success": "Паведамляць мне, калі нехта ўваходзіць у мой уліковы запіс з незнаймай прылады ці IP-адраса.",
+	"loginnotify-primary-link": "Даведка"
+}

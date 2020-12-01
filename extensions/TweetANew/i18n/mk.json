@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"tweetanew-desc": "Прави објава на Твитер кога ќе се создаде или уреди некоја страница",
+	"tweetanew-newaction": "Објави за новава страница на Twitter",
+	"tweetanew-newtooltip": "Испратете информации за оваа нова страница на Twitter",
+	"tweetanew-editaction": "Објави за уредувањево на Twitter",
+	"tweetanew-edittooltip": "Испратете информации за ова уредување на Twitter",
+	"tweetanew-minoredit": "с",
+	"tweetanew-authorcredit": "од",
+	"tweetanew-newdefault": "НОВА СТРАНИЦА: $1 - $2",
+	"tweetanew-new1": "Се чини дека на $2 ја создадоа страницата $1",
+	"tweetanew-new2": "На $2 неодамна ја создадоа страницата $1",
+	"tweetanew-new3": "Погледајте ја $2 - има нова страница за $1",
+	"tweetanew-editdefault": "ПОДНОВЕНА СТРАНИЦА: $1 - $2",
+	"tweetanew-edit1": "Се чини дека на $2 ја подновија страницата $1",
+	"tweetanew-edit2": "На $2 неодамна ја изменија страницата $1",
+	"tweetanew-edit3": "Погледајте ја $2 - има некои нови содржини за $1"
+}

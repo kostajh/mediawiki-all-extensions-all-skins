@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alex00728",
+			"Hwangjy9",
+			"Jerrykim306",
+			"Revi",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"smitespam-delete": "삭제",
+	"smitespam-delete-page-success-msg": "\"$1\" 문서를 삭제했습니다.",
+	"smitespam-delete-page-failure-msg": "\"$1\" 문서 삭제에 실패했습니다.",
+	"smitespam-created-by": "$1님이 {{GENDER:$1|만듦}}",
+	"smitespam-deleted-reason": "SmiteSpam 확장 기능에 의해 스팸으로 판별되었습니다.",
+	"action-smitespam": "SmiteSpam 확장 기능 사용하기",
+	"smitespam-probability-low": "낮음",
+	"smitespam-probability-medium": "중간",
+	"smitespam-probability-high": "높음",
+	"smitespam-probability-very-high": "매우 높음",
+	"smitespam-select": "선택:",
+	"smitespam-trust": "신뢰합니다",
+	"smitespam-trusted": "신뢰된 사용자",
+	"smitespam-timestamp": "타임스탬프",
+	"smitespam-block": "차단하기",
+	"smitespam-blocked": "차단됨",
+	"smitespam-block-failed": "차단 실패",
+	"smitespam-blocked-user-failure-msg": "{{GENDER:$1|사용자}} \"$1\" 차단 실패.",
+	"apihelp-smitespamanalyze-summary": "Extension:SmiteSpam에서 잠재적인 스팸 문서의 목록을 가져옵니다.",
+	"apihelp-smitespamtrustuser-summary": "SmiteSpam이 사용자가 만든 문서를 무시하도록 사용자를 신뢰합니다."
+}

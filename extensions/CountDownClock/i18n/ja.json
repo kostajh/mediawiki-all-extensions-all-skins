@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"countDownClock-desc": "カウントダウン時間を表示するパーサー関数を追加する",
+	"countDownClock-invalidtime": "有効な終了日時パラメーターを指定してください",
+	"countDownClock-days": "$1 {{PLURAL:$1|日}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|時間}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|分}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|秒}}",
+	"countDownClock-expired": "期限切れ"
+}

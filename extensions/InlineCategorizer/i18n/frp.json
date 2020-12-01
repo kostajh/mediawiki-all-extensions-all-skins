@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"inlinecategorizer-add-category": "Apondre una catègorie",
+	"inlinecategorizer-add-category-submit": "Apondre",
+	"inlinecategorizer-add-category-summary": "Apondre la catègorie « $1 »",
+	"inlinecategorizer-api-error": "L’API at retornâ una èrror : $1 : $2",
+	"inlinecategorizer-api-unknown-error": "L’API at retornâ una èrror encognua",
+	"inlinecategorizer-cancel": "Anular des changements",
+	"inlinecategorizer-cancel-all": "Anular tôs los changements",
+	"inlinecategorizer-category-already-present": "Ceta pâge est ja a la catègorie $1",
+	"inlinecategorizer-category-hook-error": "Una fonccion locala at empachiê d’encartar los changements",
+	"inlinecategorizer-category-question": "Porquè voléd-vos fâre cetos changements :",
+	"inlinecategorizer-confirm-ok": "D’acôrd",
+	"inlinecategorizer-confirm-save": "Sôvar",
+	"inlinecategorizer-confirm-save-all": "Encartar tôs los changements",
+	"inlinecategorizer-confirm-title": "Confirmar l’accion",
+	"inlinecategorizer-edit-category": "Changiér la catègorie",
+	"inlinecategorizer-edit-category-error": "O at pas étâ possiblo de changiér la catègorie « $1 ».\nEn g·ènèral, cen arreve quand la catègorie at étâ apondua a la pâge dens un modèlo.",
+	"inlinecategorizer-edit-category-summary": "Changiér la catègorie « $1 » a « $2 »",
+	"inlinecategorizer-error-title": "Èrror",
+	"inlinecategorizer-remove-category": "Enlevar la catègorie",
+	"inlinecategorizer-remove-category-error": "O at pas étâ possiblo d’enlevar la catègorie « $1 ».\nEn g·ènèral, cen arreve quand la catègorie at étâ apondua a la pâge avouéc un modèlo.",
+	"inlinecategorizer-remove-category-summary": "Enlevar la catègorie « $1 »"
+}

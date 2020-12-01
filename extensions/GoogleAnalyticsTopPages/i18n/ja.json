@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume"
+		]
+	},
+	"googleanalyticstoppages-desc": "Google Analytics のデータを使用して、トップページの一覧を提供します",
+	"apihelp-googlepagestatsupdate-param-key": "[[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]の値"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rob Church",
+			"Kghbln"
+		]
+	},
+	"minimumnamelength-desc": "Allows to enforce a minimum username length",
+	"minimumnamelength-error": "Your username is too short. The minimum required length is {{PLURAL:$1|one character|$1 characters}}."
+}

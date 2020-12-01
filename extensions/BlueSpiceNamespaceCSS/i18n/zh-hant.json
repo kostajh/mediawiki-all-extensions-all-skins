@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Wehwei"
+		]
+	},
+	"bs-namespacecss-desc": "命名空間指定樣式",
+	"bluespicenamespacecssmanager": "命名空間 CSS 管理",
+	"bs-namespacecss-specialmanager-label-namespacename": "命名空間",
+	"bs-namespacecss-specialmanager-label-sourcepage": "來源頁面",
+	"apihelp-bs-namespacecss-store-summary": "列出命名空間和它們可能的 CSS 來源頁面。實行 ExtJS 儲存參數。"
+}

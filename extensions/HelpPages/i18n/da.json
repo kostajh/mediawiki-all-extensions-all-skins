@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"helppages-desc": "Henter automatisk hjælpesider fra [https://www.mediawiki.org/ mediawiki.org]",
+	"helppages-notice": "Siden blev hentet fra [https://www.mediawiki.org/?oldid=$1 mediawiki.org] og kan redigeres her.",
+	"helppages-edit-tab": "Rediger på MediaWiki.org"
+}

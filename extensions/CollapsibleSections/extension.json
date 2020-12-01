@@ -1,0 +1,60 @@
+{
+	"name": "CollapsibleSections",
+	"version": "0.0.1",
+	"author": [
+		"WikiWorks team"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:CollapsibleSections",
+	"descriptionmsg": "collapsiblesections-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.36.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\CollapsibleSections\\": "includes/"
+	},
+	"config": {
+		"CollapsibleSectionsCollapsedByDefault": {
+			"value": true
+		},
+		"CollapsibleSectionsEnableDesktop": {
+			"value": false
+		},
+		"CollapsibleSectionsTag": {
+			"value": "h2"
+		}
+	},
+	"HookHandlers": {
+		"CollapsibleSections": {
+			"class": "MediaWiki\\Extension\\CollapsibleSections\\CollapsibleSectionsHooks"
+		}
+	},
+	"Hooks": {
+		"BeforePageDisplay": {
+			"handler": "CollapsibleSections"
+		},
+		"ResourceLoaderGetConfigVars": {
+			"handler": "CollapsibleSections"
+		}
+	},
+	"MessagesDirs": {
+		"CollapsibleSections": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.collapsiblesections.main": {
+			"localBasePath": "modules",
+			"remoteExtPath": "CollapsibleSections/modules",
+			"scripts": [
+				"CollapsibleSections.Section.js",
+				"CollapsibleSections.js"
+			],
+			"styles": [
+				"CollapsibleSections.less"
+			]
+		}
+	},
+	"manifest_version": 2
+}

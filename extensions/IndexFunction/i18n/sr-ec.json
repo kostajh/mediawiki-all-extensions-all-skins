@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић"
+		]
+	},
+	"indexfunc-badtitle": "Неважећи наслов: „$1“",
+	"index": "Индекс",
+	"index-search": "Претрага:",
+	"index-submit": "Пошаљи",
+	"index-emptylist": "Нема страница повезаних са „$1“",
+	"index-expand-detail": "Покажи стране индексиране под овим насловом",
+	"index-hide-detail": "Сакриј списак страница",
+	"index-no-results": "Претрага није дала никакве резултате"
+}

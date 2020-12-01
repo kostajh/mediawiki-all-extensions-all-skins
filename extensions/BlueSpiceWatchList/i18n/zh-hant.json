@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"bs-watchlist-desc": "添加監視清單小工具與標籤",
+	"bs-watchlist-title-sidebar": "監視清單",
+	"bs-watchlist-pref-sort-time": "時間",
+	"bs-watchlist-pref-sort-title": "標題",
+	"bs-watchlist-tag-watchlist-desc": "顯示在您監視清單裡最近有被修改最多次的條目。",
+	"bs-watchlist-window-watchlist-title": "監視清單",
+	"bs-watchlist-window-watchlist-intro": "此為在您監視清單的所有頁面概要。您可以切回成[[Special:Watchlist|經典監視清單頁面]]。",
+	"bs-watchlist-grid-watchlist-column-link-header": "頁面",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "未讀變更",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "檢查變更",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "對話頁面",
+	"bs-watchlist-grid-watchlist-label-filter": "篩選"
+}

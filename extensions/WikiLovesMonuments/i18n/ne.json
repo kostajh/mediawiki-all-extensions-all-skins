@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"बिप्लब आनन्द",
+			"राम प्रसाद जोशी"
+		]
+	},
+	"wlm-extension-desc": "विकि लभ्स मोन्युमेन्ट्स सम्बन्धित जानकारी र सन्देशहरू जोड्नुहोस्।",
+	"wlm-no-contest-year": "$1 मा कुनै विकि लभ्स मोन्युमेन्ट्स प्रतियोगिता भइरहेको छैन।",
+	"wlm-no-url-bad-country": "हामी स्थानीय प्रतियोगिताको लागि वेबसाइट प्राप्त गर्न सकेनौं। $1 एउटा अमान्य राष्ट्रिय कोड हो।",
+	"wlm-country-not-given": "तपाईंले राष्ट्रिय कोड दिनु पर्ने हुन्छ।",
+	"wlm-country-not-participating-year": "«$1» विकि लभ्स मोन्युमेन्ट्समा सहभागी भएको छैन $2",
+	"wlm-sidebar-portlet": "अन्य राष्ट्रहरू",
+	"wlm-international-contest": "अन्तर्राष्ट्रिय",
+	"wlm-text-contact": "सम्पर्क",
+	"wlm-text-contest": "प्रतियोगिता",
+	"wlm-text-donate": "दान गर्ने",
+	"wlm-text-faq": "धैरै सोधिएका प्रश्नहरू",
+	"wlm-text-jury": "निर्णायक मण्डल",
+	"wlm-text-monuments": "मोन्युमेन्ट्स",
+	"wlm-text-news": "समाचार",
+	"wlm-text-participate": "सहभागी हुने!",
+	"wlm-text-prizes": "पुरस्कार",
+	"wlm-text-rules": "नियमहरु",
+	"wlm-text-sponsors": "प्रायोजक",
+	"wlm-text-uploading": "अपलोड गरिदै"
+}

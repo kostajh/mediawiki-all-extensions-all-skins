@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-socialwikipage-desc": "Сутність та функціонал WikiPage для BlueSpiceSocial",
+	"bs-socialwikipage-type": "Вікісторінка",
+	"bs-socialwikipage-entitywikipage-header-create": "Створити нову область вкладень",
+	"bs-socialwikipage-nowikipageentity": "Області вкладень ще не створено",
+	"bs-socialwikipage-noattachmentsadded": "Жодного вкладення ще не додано",
+	"bs-socialwikipage-stashtype": "Вкладення",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]] {{GENDER:$1|додав вкладення|додала вкладення}}",
+	"bs-socialwikipage-entitystash-header-create": "Нове вкладення",
+	"bs-socialwikipage-special-stash-heading": "Вкладення",
+	"bs-socialwikipage-aftercontent-heading": "Вкладення",
+	"wikipagestash": "Вкладення",
+	"bs-socialwikipage-var-wikipageid": "Призначена сторінка",
+	"bs-socialwikipage-switch-nostash-description": "Приховує область вкладення для цієї сторінки.",
+	"bs-socialwikipage-stash-insertfiledialog-title": "Додати файл",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "Додати",
+	"bs-socialwikipage-stash-editor-attachedfiles": "Вкладені файли",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "Вилучити",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "Додати",
+	"apihelp-bs-socialstash-tasks-summary": "Надає завдання для редагування пов'язаних сторінок сутностей"
+}

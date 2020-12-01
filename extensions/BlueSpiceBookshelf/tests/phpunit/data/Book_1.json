@@ -1,0 +1,195 @@
+[
+	{
+		"text": "1. Lorem ipsum",
+		"id": "1",
+		"articleNumber": "1",
+		"articleType": "wikilink",
+		"articleTitle": "Lorem ipsum",
+		"articleDisplayTitle": "Lorem ipsum",
+		"articleId": 0,
+		"articleIsRedirect": false,
+		"bookshelf": {
+			"type": "wikipage",
+			"page_id": 0,
+			"page_namespace": 0,
+			"page_title": "Lorem ipsum"
+		},
+		"children": [
+		]
+	},
+	{
+		"text": "2. amet",
+		"id": "2",
+		"articleNumber": "2",
+		"articleType": "wikilink-with-alias",
+		"articleTitle": "Dolor sit",
+		"articleDisplayTitle": "amet",
+		"articleId": 0,
+		"articleIsRedirect": false,
+		"bookshelf": {
+			"type": "wikipage",
+			"page_id": 0,
+			"page_namespace": 0,
+			"page_title": "Dolor sit"
+		},
+		"children": [
+			{
+				"text": "2.1. \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0bae\u0bca\u0bb4\u0bbf",
+				"id": "2.1",
+				"articleNumber": "2.1",
+				"articleType": "plain-text",
+				"articleTitle": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0bae\u0bca\u0bb4\u0bbf",
+				"articleDisplayTitle": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0bae\u0bca\u0bb4\u0bbf",
+				"articleId": -1,
+				"articleIsRedirect": -1,
+				"bookshelf": {
+					"type": "text"
+				},
+				"children": [
+					{
+						"text": "2.1.1. Test",
+						"id": "2.1.1",
+						"articleNumber": "2.1.1",
+						"articleType": "wikilink-with-alias",
+						"articleTitle": "\u12e8\u12a8\u1348\u1270\u12cd\u1295",
+						"articleDisplayTitle": "Test",
+						"articleId": 0,
+						"articleIsRedirect": false,
+						"bookshelf": {
+							"type": "wikipage",
+							"page_id": 0,
+							"page_namespace": 0,
+							"page_title": "\u12e8\u12a8\u1348\u1270\u12cd\u1295"
+						},
+						"children": [
+						]
+					},
+					{
+						"text": "2.1.2. Media:Test \u30c6\u30b9\u30c8.xls",
+						"id": "2.1.2",
+						"articleNumber": "2.1.2",
+						"articleType": "wikilink",
+						"articleTitle": "Media:Test \u30c6\u30b9\u30c8.xls",
+						"articleDisplayTitle": "Media:Test \u30c6\u30b9\u30c8.xls",
+						"articleId": 0,
+						"articleIsRedirect": false,
+						"bookshelf": {
+							"type": "wikipage",
+							"page_id": 0,
+							"page_namespace": -2,
+							"page_title": "Test \u30c6\u30b9\u30c8.xls"
+						},
+						"children": [
+						]
+					},
+					{
+						"text": "2.1.3. Colontest",
+						"id": "2.1.3",
+						"articleNumber": "2.1.3",
+						"articleType": "wikilink-with-alias",
+						"articleTitle": "Some page with leading color",
+						"articleDisplayTitle": "Colontest",
+						"articleId": 0,
+						"articleIsRedirect": false,
+						"bookshelf": {
+							"type": "wikipage",
+							"page_id": 0,
+							"page_namespace": 0,
+							"page_title": "Some page with leading color"
+						},
+						"children": [
+						]
+					}
+				]
+			},
+			{
+				"text": "2.2. [http://www.example.com]",
+				"id": "2.2",
+				"articleNumber": "2.2",
+				"articleType": "plain-text",
+				"articleTitle": "[http://www.example.com]",
+				"articleDisplayTitle": "[http://www.example.com]",
+				"articleId": -1,
+				"articleIsRedirect": -1,
+				"bookshelf": {
+					"type": "text"
+				},
+				"children": [
+				]
+			},
+			{
+				"text": "2.3. Semantic",
+				"id": "2.3",
+				"articleNumber": "2.3",
+				"articleType": "tag",
+				"articleTitle": "Semantic",
+				"articleDisplayTitle": "Semantic",
+				"articleId": -1,
+				"articleIsRedirect": -1,
+				"bookshelf": {
+					"type": "tag",
+					"text": "Semantic",
+					"arguments": {
+						"type": "ask",
+						"conditions": "Modification date::+",
+						"printouts": "Modification date",
+						"parameters": "sort=Modification date|order=desc"
+					}
+				},
+				"children": [
+				]
+			},
+			{
+				"text": "2.4. Image:Hello World.jpg",
+				"id": "2.4",
+				"articleNumber": "2.4",
+				"articleType": "wikilink",
+				"articleTitle": "File:Hello World.jpg",
+				"articleDisplayTitle": "Image:Hello World.jpg",
+				"articleId": 0,
+				"articleIsRedirect": false,
+				"bookshelf": {
+					"type": "wikipage",
+					"page_id": 0,
+					"page_namespace": 6,
+					"page_title": "Hello World.jpg"
+				},
+				"children": [
+				]
+			}
+		]
+	},
+	{
+		"text": "3. Special:Allpages",
+		"id": "3",
+		"articleNumber": "3",
+		"articleType": "wikilink",
+		"articleTitle": "Special:Allpages",
+		"articleDisplayTitle": "Special:Allpages",
+		"articleId": 0,
+		"articleIsRedirect": false,
+		"bookshelf": {
+			"type": "wikipage",
+			"page_id": 0,
+			"page_namespace": -1,
+			"page_title": "Allpages"
+		},
+		"children": [
+			{
+				"text": "3.1. [[Category:Something|Test]",
+				"id": "3.1",
+				"articleNumber": "3.1",
+				"articleType": "plain-text",
+				"articleTitle": "[[Category:Something|Test]",
+				"articleDisplayTitle": "[[Category:Something|Test]",
+				"articleId": -1,
+				"articleIsRedirect": -1,
+				"bookshelf": {
+					"type": "text"
+				},
+				"children": [
+				]
+			}
+		]
+	}
+]

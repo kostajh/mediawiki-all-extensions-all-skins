@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent",
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"nobogususerpages-desc": "Restringe a criação de páginas de usuário quando o usuário em questão não existir",
+	"badaccess-bogususerpage": "O usuário desta página não existe. Você não possui permissão para criar uma página de usuário falsa.",
+	"action-createbogususerpage": "criar páginas de usuário para usuários que não estão registrados nessa wiki",
+	"right-createbogususerpage": "Criar páginas de usuário para usuários que não estão registrados nessa wiki"
+}

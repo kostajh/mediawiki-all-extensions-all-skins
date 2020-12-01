@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"phabtaskgraph-author-field-label": "Auteur",
+	"phabtaskgraph-owner-field-label": "Besëtzer",
+	"phabtaskgraph-tasks-field-label": "Aufgaben",
+	"phabtaskgraph-projects-field-label": "Projeten",
+	"phabtaskgraph-status-field-label": "Status",
+	"phabtaskgraph-width-field-label": "Breet",
+	"phabtaskgraph-height-field-label": "Héicht",
+	"phabtaskgraph-width-field-help": "Standard: 800",
+	"phabtaskgraph-height-field-help": "Standard: 800",
+	"phabtaskgraph-status-open": "Opmaachen",
+	"phabtaskgraph-status-resolved": "Geléist",
+	"phabtaskgraph-status-invalid": "Net valabel",
+	"phabtaskgraph-status-duplicate": "Eng Kopie maachen"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nirajan pant"
+		]
+	},
+	"emailauthorizationconfig": "इमेल पुष्टीकरण ड्यासबोर्ड",
+	"emailauthorization-config-label-email": "इमेल ठेगाना",
+	"emailauthorizationrequest": "एउटा खाता अनुरोध गर्नुहोस्",
+	"emailauthorization-request-label-email": "इमेल ठेगाना",
+	"emailauthorization-request-button-submit": "पेश",
+	"emailauthorization-request-invalidemail": "अमान्य इमेल ठेगाना: $1",
+	"echo-category-title-emailauthorization-notification-category": "नयाँ खाता अनुरोधहरू",
+	"notification-subject-emailauthorization-account-request": "नयाँ खाता अनुरोध गरिएको छ।",
+	"notification-body-emailauthorization-account-request": "$1ले एउटा खाता अनुरोध गर्नुभएको छ।",
+	"emailauthorization-approve-label-email": "इमेल ठेगाना",
+	"emailauthorization-approve-label-extra": "अतिरिक्त क्षेत्रहरू",
+	"emailauthorization-approve-label-action": "कारवाहीहरू",
+	"emailauthorization-approve-button-approve": "अनुमोदन",
+	"emailauthorization-approve-button-reject": "अस्वीकार",
+	"emailauthorization-approve-button-next": "अर्को",
+	"emailauthorization-approve-button-previous": "अघिल्लो",
+	"emailauthorization-approve-norequestsfound": "कुनै पनि खाता अनुरोधहरू भेटिएन।",
+	"emailauthorization-approve-approved": "$1 स्वीकृत।",
+	"emailauthorization-approve-rejected": "$1 अस्वीकृत।"
+}

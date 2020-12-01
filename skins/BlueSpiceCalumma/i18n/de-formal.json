@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Mglaser"
+		]
+	},
+	"bs-action-new-please-login-title": "Bitte melden Sie sich an, um eine neue Seite hinzuzufügen",
+	"bs-action-edit-please-login-title": "Bitte melden Sie sich an, um die Seite zu bearbeiten",
+	"bs-action-new-disabled-title": "{{GENDER:|Sie}} sind nicht berechtigt, diese Seite zu erstellen",
+	"bs-action-edit-disabled-title": "{{GENDER:|Sie}} sind nicht berechtigt, diese Seite zu bearbeiten",
+	"bs-calumma-recentchanges-intro": "In dieser Liste finden Sie alle letzten Seitenbearbeitungen und neu erstellte Seiten.",
+	"bs-calumma-breadcrumbs-pages": "Sie sind hier",
+	"bs-calumma-breadcrumbs-pages-title": "Sie sehen gerade \\\"$1\\\"",
+	"bs-calumma-notification-logged-in": "Sie sind jetzt angemeldet",
+	"bs-calumma-alert-oldpage": "Sie betrachten eine alte Version der Seite. [[Special:Redirect/page/$1|Zur neuesten Version gehen]]."
+}

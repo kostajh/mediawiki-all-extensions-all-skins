@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"[https://meta.wikimedia.org/wiki/User:MarkAHershberger Mark A. Hershberger]"
+		]
+	},
+	"crawlableallpages": "All Pages (Crawlable)",
+	"crawlableallpages-desc": "Adds the CrawlableAllPages functionality.",
+	"crawlableallpages-summary": "This All Pages Listing is crawlable by bots."
+}

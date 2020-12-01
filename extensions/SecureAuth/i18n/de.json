@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"secureauth-desc": "Ermöglicht es Benutzern, ihre IP-Adresse zur Anmeldung hinzuzufügen. Anmeldungen von anderen Adressen schlagen fehl.",
+	"secureauthinfo": "Informationen zur sicheren Authentifizierung",
+	"special-secureauth-info": "Informationen zur sicheren Authentifizierung",
+	"secureauth-info-userinfo": "Benutzerinformationen",
+	"secureauth-current-ip": "Deine aktuelle Anmelde-IP-Adresse:",
+	"secureauth-whitelist-ip": "IP-Adressen auf der weißen Liste für deine Benutzernamen-Anmeldung:",
+	"action-sa-access": "auf SecureAuthInfo zuzugreifen",
+	"right-sa-access": "Dem Benutzer den Zugriff auf [[Special:SecureAuthInfo]] erlauben"
+}

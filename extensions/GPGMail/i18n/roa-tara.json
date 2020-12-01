@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"gpgmail-desc": "Cripte le email cu GPG",
+	"gpgmail-pref-enable": "Cripte le email cu GPG",
+	"gpgmail-pref-key": "Chiave pubbleche GPG",
+	"gpgmail-pref-key-help": "'Ndruche [https://help.ubuntu.com/community/GnuPrivacyGuardHowto 'A pàgene de Ubuntu pe accumme fà] pe 'n'aijute a pigghià 'a chiave pubbleche.",
+	"gpgmail-encrypt-error": "Ha assute 'n'errore mendre criptave l'email."
+}

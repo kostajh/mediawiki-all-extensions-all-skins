@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"Okras"
+		]
+	},
+	"googleanalyticstoppages-desc": "Обеспечивает список самых популярных страниц на основании данных Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Значение [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Обновляет список наиболее популярных страниц (на основе данных, предоставленных Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Обновляет список наиболее популярных страниц (на основе данных, предоставленных Google Analytics)."
+}

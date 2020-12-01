@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"swiftmailer-desc": "Позволяет использовать SwiftMailer в качестве альтернативной почтовой программы",
+	"swiftmailer-smtp-error": "Ошибка установки SMTP-транспорта для SwiftMailer: $1",
+	"swiftmailer-send-error": "Ошибка при отправке электронной почты с помощью SwiftMailer: $1"
+}

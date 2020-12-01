@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"onlinestatus-desc": "Aggiugne 'na preferenze pe fà vedè ce l'utende ste presende o none sus a sta uicchi",
+	"onlinestatus-js-anon": "Errore: tu à trasè pe ausà sta funzionalità",
+	"onlinestatus-js-changed": "'U state tune ha cangiate a \"$1\"",
+	"onlinestatus-js-error": "Imbossibbile cangià 'u state, 'u valore \"$1\" non g'è valide",
+	"onlinestatus-subtitle-offline": "Stu utende pe mò ste fore linèe",
+	"onlinestatus-subtitle-online": "Stu utende pe mò ste in linèe",
+	"onlinestatus-tab": "State",
+	"onlinestatus-toggles-desc": "'U state tue:",
+	"onlinestatus-toggles-explain": "Quiste te permette de fà vedè a l'otre utinde ce tu ste pe mò in linèe o none pe 'ndrucà 'a pàgene utende toje.",
+	"onlinestatus-toggles-show": "Fà vedè 'u state in linèe sus 'a pàgena utende meje",
+	"onlinestatus-toggle-offline": "Fore linèe",
+	"onlinestatus-toggle-online": "In linèe",
+	"onlinestatus-pref-onlineonlogin": "Cange 'u state mije in linèe quanne ije trasche",
+	"onlinestatus-pref-offlineonlogout": "Cange 'u state mije fore linèe quanne ije iesche"
+}

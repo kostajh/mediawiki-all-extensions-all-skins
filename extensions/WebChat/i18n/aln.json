@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mdupont"
+		]
+	},
+	"webchat": "Web Chat",
+	"webchat-desc": "Adds a [[Special:WebChat|faqe posaçëm]] përdoret për të bisedojnë në kohë reale me përdorues të tjerë wiki",
+	"webchat-header": "Kjo faqe ju lejon të veçantë për të bashkëpunuar në kohë reale me përdorues të tjerë të wiki. T'u lidhur thjesht shtypni \"Connect\" button. Nëse ju jeni të regjistruar në pseudonimin tuaj, do të ketë qenë prefilled. Përdoruesit anonim u jepet një e gjeneruar automatikisht, por ajo mund të ndryshohet.",
+	"right-webchat": "Lejohet të përdorë [[Special:WebChat|web chat]]"
+}

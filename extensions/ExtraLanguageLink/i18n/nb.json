@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"extralanguagelink-desc": "Legger til ekstra språklenker i «På andre språk»-seksjonen i sidemenyen",
+	"extralanguagelink-param-class": "klasse",
+	"extralanguagelink-param-hreflang": "hreflang",
+	"extralanguagelink-param-lang": "lang",
+	"extralanguagelink-param-style": "style",
+	"extralanguagelink-param-title": "title",
+	"extralanguagelink-badinterwiki": "Interwikiprefikset «$1» er ikke i lista over tillatte interwikiprefiks.",
+	"extralanguagelink-badtitle": "Sidetittelen «$1» kunne ikke parses."
+}

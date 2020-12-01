@@ -1,0 +1,94 @@
+/*extjs*/
+
+/*tabs*/
+.dynamic-graphical-list-body .bs-flyout-tabbed-data-view {
+	.x-tab-bar-body.x-tab-bar-body-default {
+		.x-tab {
+			background: @theme-navigation-main-grapicallist-preview-tab-bg-color;
+			border: 1px solid @theme-navigation-main-grapicallist-preview-tab-fg-color;
+			span[data-ref~="btnIconEl"]::before{
+				color: @theme-navigation-main-grapicallist-preview-tab-fg-color;
+			}
+		}
+		.x-tab:hover {
+			background-color: @theme-navigation-main-grapicallist-preview-tab-bg-color-hover;
+			border-color: @theme-navigation-main-grapicallist-preview-tab-fg-color-hover;
+			span[data-ref~="btnIconEl"]::before{
+				color: @theme-navigation-main-grapicallist-preview-tab-fg-color-hover;
+			}
+		}
+		.x-tab.x-tab-active,
+		.x-tab.x-tab-default-focus.x-tab-active,
+		.x-tab-default-focus {
+			background-color: @theme-navigation-main-grapicallist-preview-tab-bg-color-active !important;
+			border-color: @theme-navigation-main-grapicallist-preview-tab-fg-color-active;
+			span[data-ref~="btnIconEl"]::before{
+				color: @theme-navigation-main-grapicallist-preview-tab-fg-color-active;
+			}
+		}
+	}
+	.list {
+		.x-grid-with-row-lines {
+			.x-grid-item {
+				border-color: @theme-navigation-main-grapicallist-preview-grid-border-color;
+				background-color: @theme-navigation-main-grapicallist-preview-grid-bg-color;
+				color: @theme-navigation-main-grapicallist-preview-grid-fg-color;
+				.x-grid-row {
+					a,
+					.title a,
+					.actions a {
+						color: @theme-navigation-main-grapicallist-preview-grid-link-fg-color;
+						&:hover {
+							color: @theme-navigation-main-grapicallist-preview-grid-link-fg-color-hover;
+						}
+					}
+				}
+
+				&.x-grid-item-over .x-grid-row,
+				&.x-grid-item-selected .x-grid-row {
+					background-color: @theme-navigation-main-grapicallist-preview-grid-bg-color-hover;
+					color: @theme-navigation-main-grapicallist-preview-grid-fg-color-hover;
+					a,
+					.title a,
+					.actions a {
+						color: @theme-navigation-main-grapicallist-preview-grid-selected-link-fg-color;
+						&:hover {
+							color: @theme-navigation-main-grapicallist-preview-grid-selected-link-fg-color-hover;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.dynamic-graphical-list-outer-west.dynamic-graphical-list-outer {
+	.dynamic-graphical-list-body .bs-flyout-two-columns {
+		.x-panel-header {
+			.x-title.x-panel-header-title .x-title-item.x-title-text.x-title-text-default {
+				color: @theme-sitetools-main-grapicallist-fg-color;
+
+				& > a,
+				& > a:hover {
+					color: @theme-sitetools-main-grapicallist-link-fg-color;
+				}
+			}
+		}
+		.x-panel-body-default {
+			color: @theme-sitetools-main-grapicallist-fg-color;
+
+			a {
+				color: @theme-sitetools-main-grapicallist-link-fg-color;
+				&:hover {
+					color: @theme-sitetools-main-grapicallist-link-fg-color-hover;
+				}
+				&.new {
+					color: @theme-content-link-new-fg;
+					&:hover {
+						color: @theme-content-link-new-fg-hover;
+					}
+				}
+			}
+		}
+	}
+}

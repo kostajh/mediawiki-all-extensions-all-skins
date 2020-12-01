@@ -1,0 +1,29 @@
+[
+	{
+		"name": "oauth_ratelimit_client_tier",
+		"comment": "The table stores client tier names that are used to assign ratelimit configuration to clients",
+		"columns": [
+			{
+				"name": "oarct_id",
+				"type": "integer",
+				"options": { "unsigned": true, "notnull": true, "autoincrement": true }
+			},
+			{
+				"name": "oarct_client_id",
+				"comment": "Key to oauth_registered_consumer.oarc_consumer_key",
+				"type": "string",
+				"options": { "length": 32, "notnull": true }
+			},
+			{
+				"name": "oarct_tier_name",
+				"comment": "Ratelimit tier name",
+				"type": "string",
+				"options": { "length": 255, "notnull": true }
+			}
+		],
+		"indexes": [
+			{ "name": "oarct_client_id", "columns": [ "oarct_client_id" ], "unique": true }
+		],
+		"pk": [ "oarct_id" ]
+	}
+]

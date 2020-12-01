@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"bs-qr-code-extension-description": "Affiche un code QR avec un lien vers la page actuelle dans la barre d’outils.",
+	"bs-qr-code-title": "Code QR",
+	"bs-qr-code-text": "Scanner un code QR pour ouvrir cette page sur un appareil mobile"
+}

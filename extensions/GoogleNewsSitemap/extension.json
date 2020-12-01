@@ -1,0 +1,52 @@
+{
+	"name": "GoogleNewsSitemap",
+	"version": "2.1.0",
+	"author": [
+		"Amgine",
+		"[https://www.mediawiki.org/wiki/User:Bawolff Brian Wolff]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GoogleNewsSitemap",
+	"descriptionmsg": "googlenewssitemap-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"SpecialPages": {
+		"GoogleNewsSitemap": "GoogleNewsSitemap"
+	},
+	"MessagesDirs": {
+		"GoogleNewsSitemap": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"GoogleNewsSitemapAlias": "GoogleNewsSitemap.alias.php"
+	},
+	"AutoloadClasses": {
+		"GoogleNewsSitemap": "includes/specials/GoogleNewsSitemap.php",
+		"FeedSMItem": "includes/FeedSMItem.php",
+		"SitemapFeed": "includes/SitemapFeed.php"
+	},
+	"FeedClasses": {
+		"sitemap": "SitemapFeed"
+	},
+	"config": {
+		"GNSMmaxCategories": {
+			"value": 6
+		},
+		"GNSMmaxResultCount": {
+			"value": 50
+		},
+		"GNSMfallbackCategory": {
+			"value": "Published"
+		},
+		"GNSMsmaxage": {
+			"value": 1800
+		},
+		"GNSMcommentNamespace": {
+			"value": true
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geraki"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Προσθέτει υποστήριξη απόδοσης ως PDF βασισμένη στον browser μέσω υπηρεσίας Electron PDF",
+	"electronpdfservice-special-page-headline": "Κατέβασμα ως PDF",
+	"electronpdfservice-download-label": "Κατέβασμα ως PDF",
+	"electronpdfservice-download-button": "Λήψη",
+	"electronpdfservice-sidebar-portlet-heading": "Εκτύπωση/εξαγωγή",
+	"electronpdfservice-sidebar-portlet-print-text": "Κατέβασμα ως PDF",
+	"electronpdfservice-invalid-page-title": "Μη έγκυρη σελίδα",
+	"electronpdfservice-invalid-page-text": "Η καθορισμένη σελίδα δεν είναι έγκυρη."
+}

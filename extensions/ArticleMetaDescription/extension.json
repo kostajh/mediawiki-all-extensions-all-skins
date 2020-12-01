@@ -1,0 +1,26 @@
+{
+	"name": "ArticleMetaDescription",
+	"version": "1.3.1",
+	"author": [
+		"Adrian Wieczorek"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ArticleMetaDescription",
+	"descriptionmsg": "articlemetadescription-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"MessagesDirs": {
+		"ArticleMetaDescription": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"ArticleMetaDescription": "ArticleMetaDescription.php"
+	},
+	"Hooks": {
+		"OutputPageBeforeHTML": "ArticleMetaDescription::onOutputPageBeforeHTML"
+	},
+	"manifest_version": 1
+}

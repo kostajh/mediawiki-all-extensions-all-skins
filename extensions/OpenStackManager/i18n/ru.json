@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010",
+			"Diralik",
+			"Eleferen",
+			"Haffman",
+			"Kaganer",
+			"Megakott",
+			"Meshkov.a",
+			"Okras",
+			"Vlad5250",
+			"Yurik",
+			"Александр Сигачёв",
+			"Тест"
+		]
+	},
+	"openstackmanager-desc": "Позволяет пользователям управлять Nova и Swift",
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Управление вашими открытыми SSH-ключами",
+	"specialpages-group-nova": "Менеджер авторизации OpenStack",
+	"openstackmanager-novakey": "Nova ключ",
+	"openstackmanager-delete": "удалить",
+	"openstackmanager-actions": "Действия",
+	"openstackmanager-notloggedin": "Требуется авторизация",
+	"openstackmanager-mustbeloggedin": "Для выполнения этого действия вы должны быть авторизованы.",
+	"openstackmanager-novapublickey": "Публичный SSH-ключ:",
+	"openstackmanager-prefs-novapublickey": "Публичные SSH-ключи:",
+	"openstackmanager-deletekey": "Удалить публичный SSH ключ",
+	"openstackmanager-keylist": "Список публичных SSH-ключей",
+	"openstackmanager-addkey": "Добавить публичный SSH-ключ",
+	"openstackmanager-name": "Имя",
+	"openstackmanager-keys": "Ключи",
+	"openstackmanager-deletedkey": "Удалённый ключ.",
+	"openstackmanager-deletedkeyfailed": "Не удалось удалить ключ.",
+	"prefs-openstack-keys": "Список ключей"
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"Liangent",
+			"Liuxinyu970226",
+			"Mark85296341",
+			"Shinjiman",
+			"Waihorace"
+		]
+	},
+	"contributors": "貢獻者",
+	"contributors-desc": "將主要參與者匯總到一頁",
+	"contributors-toolbox": "頁面貢獻者",
+	"contributors-legend": "列示這篇條目的主要貢獻者",
+	"contributors-target": "標題：",
+	"contributors-submit": "顯示",
+	"contributors-subtitle": "$1的主要貢獻者",
+	"contributors-others-long": "在這一頁中還有$1位更多的貢獻者。",
+	"contributors-others": "以及另外$1位",
+	"contributors-badtitle": "不正確的標題。",
+	"contributors-nosuchpage": "條目$1不存在。",
+	"contributors-filterip": "隱藏IP地址",
+	"contributors-name": "使用者名稱",
+	"contributors-revisions": "修訂的數目",
+	"contributors-first-edit": "首次編輯日期",
+	"contributors-last-edit": "最後編輯日期",
+	"contributors-add-subpages": "增加子頁面",
+	"apihelp-query+contributors-example-1": "顯示對於首頁的貢獻"
+}

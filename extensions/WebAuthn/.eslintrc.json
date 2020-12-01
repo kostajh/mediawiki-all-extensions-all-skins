@@ -1,0 +1,14 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/language/es6.json",
+		"wikimedia/mediawiki"
+	],
+	"rules": {
+		"no-prototype-builtins": "off",
+		"no-jquery/no-global-selector": "off",
+		"mediawiki/msg-doc": "off"
+	}
+}

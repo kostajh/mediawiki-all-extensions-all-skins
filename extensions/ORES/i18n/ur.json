@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muhammad Shuaib",
+			"Zainab Meher"
+		]
+	},
+	"ores-damaging-filter": "ممکنہ طور پر بہتر ترامیم کو $1",
+	"ores-damaging-letter": "ر",
+	"ores-damaging-title": "اس ترمیم کی نظر ثانی درکار ہے",
+	"ores-damaging-legend": "شاید اس ترمیم میں کچھ مسائل ہیں اس لیے اس کی نظر ثانی درکار ہے ([[:mw:Special:MyLanguage/ORES review tool|مزید تفصیلات]])",
+	"ores-hide-nondamaging-filter": "ممکنہ طور پر بہتر ترامیم کو چھپائیں",
+	"ores-pref-damaging": "دہلیز پیشین گوئی",
+	"ores-rcfilters-whats-this-link-text": "مزید تفصیلات"
+}

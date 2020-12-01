@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"openstackmanager-desc": "Lassa che j'utent a gestisso Nova e Swift",
+	"openstackmanager": "Mansé OpenStack",
+	"novakey": "Gestì soe ciav pùbliche SSH",
+	"specialpages-group-nova": "OpenStack Nova",
+	"openstackmanager-novakey": "Ciav Nova",
+	"openstackmanager-delete": "scancelé",
+	"openstackmanager-actions": "Assion",
+	"openstackmanager-notloggedin": "A venta rintré ant ël sistema",
+	"openstackmanager-mustbeloggedin": "A dev esse intrà ant ël sistema për fé st'assion.",
+	"openstackmanager-novapublickey": "Ciav SSH pùblica",
+	"openstackmanager-deletekey": "Scancelé la ciav",
+	"openstackmanager-deletekeyconfirm": "É-lo sigur ëd vorèj scancelé la ciav sì-dzora?",
+	"openstackmanager-keylist": "Lista dle ciav",
+	"openstackmanager-name": "Nòm",
+	"openstackmanager-fingerprint": "Ampronta",
+	"openstackmanager-keys": "Ciav",
+	"openstackmanager-keypairimportfailed": "Falì a importé la cobia ëd ciav.",
+	"openstackmanager-keypairimported": "Cobia ëd ciav importà.",
+	"openstackmanager-keypairimportedfingerprint": "Importà la cobia ëd ciav $1 con ampronta $2.",
+	"openstackmanager-keypairformatwrong": "La ciav SSH dàita a l'é pa bon-a o ant un formà pa conossù.",
+	"openstackmanager-keypairformatconverted": "Ël formà dla ciav SSH a l'é stàit convertì automaticament.",
+	"openstackmanager-deletedkey": "Ciav scancelà për da bin.",
+	"openstackmanager-deletedkeyfailed": "Falì a scancelé la ciav.",
+	"openstackmanager-shellaccountname": "Nòm dël cont dla nos dl'istansa",
+	"openstackmanager-shellaccountnamehelp": "Ël nòm dël cont dla nos dl'istansa a l'é obligatòri.\nA dev ancaminé con a-z, e a peul mach conten-e ij caràter a-z, 0-9, e -."
+}

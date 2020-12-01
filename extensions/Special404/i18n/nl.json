@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"special404-desc": "Biedt een doelpagina voor foutmeldingen van het type \"404 Niet gevonden\"",
+	"error404": "404 Niet gevonden",
+	"special404-body": "De URL die u hebt opgevraagd is niet aangetroffen.\n\nBedoelde u {{fullurl:$1}}?\n\nMisschien wilt u de [[{{MediaWiki:Mainpage}}|hoofdpagina]] bekijken."
+}

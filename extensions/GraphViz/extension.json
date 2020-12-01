@@ -1,0 +1,63 @@
+{
+	"name": "GraphViz",
+	"version": "3.0.0",
+	"type": "parserhook",
+	"author": [
+		"Keith Welter",
+		"[https://meta.wikimedia.org/wiki/User:Coffman Victor Fariña]",
+		"[https://www.mediawiki.org/wiki/User:Matthewpearson Matthew Pearson]",
+		"[https://www.mediawiki.org/wiki/User:Hummel-riegel Thomas Hummel]",
+		"Gregory Szorc"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GraphViz",
+	"descriptionmsg": "graphviz-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"ImageMap": "*"
+		}
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\GraphViz\\": "includes/"
+	},
+	"MessagesDirs": {
+		"GraphViz": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "MediaWiki\\Extension\\GraphViz\\GraphViz::onParserInit",
+		"ArticleDeleteComplete": "MediaWiki\\Extension\\GraphViz\\GraphViz::onArticleDeleteComplete",
+		"PageContentSave": "MediaWiki\\Extension\\GraphViz\\GraphViz::onPageContentSave",
+		"RejectParserCacheValue": "MediaWiki\\Extension\\GraphViz\\GraphViz::onRejectParserCacheValue",
+		"UserGetReservedNames": "MediaWiki\\Extension\\GraphViz\\GraphViz::onUserGetReservedNames"
+	},
+	"config": {
+		"GraphVizExecPath": {
+			"description": "The executable binary path of GraphViz.",
+			"descriptionmsg": "graphviz-setting-execpath",
+			"value": null,
+			"path": false,
+			"public": true
+		},
+		"GraphVizMscgenPath": {
+			"description": "The executable binary path of mscgen for GraphViz.",
+			"descriptionmsg": "graphviz-setting-mscgenpath",
+			"value": "",
+			"path": false,
+			"public": true
+		},
+		"GraphVizDefaultImageType": {
+			"description": "The default output image type for GraphViz.",
+			"descriptionmsg": "graphviz-setting-defaultimg",
+			"value": "png",
+			"path": false,
+			"public": true
+		}
+	},
+	"ConfigRegistry": {
+		"GraphViz": "GlobalVarConfig::newInstance"
+	},
+	"manifest_version": 2
+}

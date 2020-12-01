@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Evropi",
+			"Geraki",
+			"Protnet",
+			"ZaDiak"
+		]
+	},
+	"wikilove": "ΒικιΑγάπη",
+	"wikilove-tab-text": "ΒικιΑγάπη",
+	"wikilove-select-type": "Επιλογή τύπου",
+	"wikilove-get-started-header": "Ας αρχίσουμε!",
+	"wikilove-get-started-list-3": "Στείλτε τη ΒικιΑγάπη σας!",
+	"wikilove-add-details": "Προσθήκη λεπτομερειών",
+	"wikilove-image": "Εισαγάγετε όνομα αρχείου εικόνας:",
+	"wikilove-select-image": "Επιλέξτε μια εικόνα:",
+	"wikilove-header": "Εισαγάγετε μια επικεφαλίδα:",
+	"wikilove-enter-message": "Εισαγάγετε μήνυμα:",
+	"wikilove-omit-sig": "(χωρίς υπογραφή)",
+	"wikilove-button-preview": "Προεπισκόπηση",
+	"wikilove-preview": "Προεπισκόπηση",
+	"wikilove-notify": "Ειδοποίηση του χρήστη μέσω e-mail",
+	"wikilove-button-send": "Αποστολή ΒικιΑγάπης",
+	"wikilove-type-food": "Τρόφιμα και ποτά",
+	"wikilove-type-kittens": "Γατάκια",
+	"wikilove-type-makeyourown": "Κάντε δικό σας",
+	"wikilove-err-header": "Παρακαλούμε εισαγάγετε επικεφαλίδα.",
+	"wikilove-err-title": "Παρακαλούμε εισαγάγετε τίτλο.",
+	"wikilove-err-image": "Παρακαλώ επιλέξτε μια εικόνα.",
+	"wikilove-err-image-bad": "Η εικόνα δεν υπάρχει.",
+	"wikilove-err-gallery-again": "Δοκιμάστε ξανά",
+	"wikilove-err-invalid-token": "Λυπούμαστε, δεν μπορούσαμε να στείλουμε Βικιαγάπη λόγω απώλειας δεδομένων της περιόδου σύνδεσης. Δοκιμάστε να επαναφορτώσετε τη σελίδα ή να αποσυνδεθείτε και να συνδεθείτε ξανά.",
+	"wikilove-err-not-logged-in": "Δεν είστε συνδεδεμένος. Παρακαλούμε συνδεθείτε για να χρησιμοποιήσετε το WikiLove.",
+	"wikilove-err-invalid-username": "Το όνομα χρήστη δεν είναι έγκυρο.",
+	"wikilove-what-is-this": "Τι είναι αυτό;",
+	"wikilove-anon-warning": "Σημείωση: Αυτός ο χρήστης δεν είναι εγγεγραμμένος, μπορεί να μην παρατηρήσει αυτό το μήνυμα.",
+	"wikilove-commons-text": "Μπορείτε να βρείτε εικόνες από την περιήγηση στο $1."
+}

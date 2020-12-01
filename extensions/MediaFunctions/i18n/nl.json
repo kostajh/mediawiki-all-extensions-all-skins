@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"mediafunctions-desc": "Parserfuncties voor het ophalen van informatie over mediabestanden",
+	"mediafunctions-invalid-title": "\"$1\" is geen geldige titel",
+	"mediafunctions-not-exist": "\"$1\" bestaat niet"
+}

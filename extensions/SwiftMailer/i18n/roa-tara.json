@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"swiftmailer-desc": "Dèje SwiftMailer cumme programme de poste alternative",
+	"swiftmailer-smtp-error": "Errore duranne 'a 'mbostaziune d'u carresciamende SMTP pe SwiftMailer : $1",
+	"swiftmailer-send-error": "Errore de invie de 'na mail ausanne SwiftMailer : $1"
+}

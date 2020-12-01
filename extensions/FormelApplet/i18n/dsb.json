@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"formelapplet-desc": "Bokam aplety [http://wiki.formelapplet.de FormelApplet] pśidaś",
+	"formelapplet-nojava": "Pšosym instalěruj $1, aby toś ten bok wužywał.",
+	"formelapplet-missing-parameter": "Felujucy parameter (\"width\", \"height\" abo \"term/solution\").",
+	"formelapplet-file-not-found": "Dataja $1 njejo se namakała.",
+	"formelapplet-error": "Zmólka w rozšyrjenju MediaWiki FormelApplet: <em>$1</em>"
+}

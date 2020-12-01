@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Михајло Анђелковић"
+		]
+	},
+	"categorywatch-desc": "Проширује функционалност списка праћења на обавештавање о променама садржаја категорија",
+	"categorywatch-emailsubject": "Активност која укључује надгледану категорију \"$1\"",
+	"categorywatch-catmovein": "$1 је премештен у $2 из $3",
+	"categorywatch-catmoveout": "$1 је премештен из $2 у $3",
+	"categorywatch-catadd": "$1 је додат у $2",
+	"categorywatch-catsub": "$1 је избачен из $2",
+	"categorywatch-autocat": "Аутоматски надгледано од $1"
+}

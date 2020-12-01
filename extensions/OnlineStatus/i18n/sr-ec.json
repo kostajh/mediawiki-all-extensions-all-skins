@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01",
+			"Rancher",
+			"Михајло Анђелковић"
+		]
+	},
+	"onlinestatus-desc": "Додаје подешавања да би се показивало да ли је корисник трентно присутан на викију или не.",
+	"onlinestatus-js-anon": "Грешка: морате бити пријављени да бисте користили ову могућност",
+	"onlinestatus-js-changed": "Ваш статус је промењен на „$1“",
+	"onlinestatus-js-error": "Не могу да променим статус. Вредност „$1“ је неисправна",
+	"onlinestatus-subtitle-offline": "{{GENDER:|Овај корисник|Ова корисница}} је тренутно офлајн",
+	"onlinestatus-subtitle-online": "{{GENDER:$1|Овај корисник|Ова корисница}} је тренутно онлајн",
+	"onlinestatus-tab": "Статус",
+	"onlinestatus-toggles-desc": "Ваш статус:",
+	"onlinestatus-toggles-explain": "Уз помоћ овога, други корисници на вашој страници могу да виде да ли сте тренутно онлајн.",
+	"onlinestatus-toggles-show": "Приказуј присутност на мојој корисничкој страници",
+	"onlinestatus-toggle-offline": "Офлајн",
+	"onlinestatus-toggle-online": "Онлајн",
+	"onlinestatus-pref-onlineonlogin": "Промени мој статус на „онлајн“ када се пријавим",
+	"onlinestatus-pref-offlineonlogout": "Промени мој статус на „офлајн“ када се одјавим"
+}

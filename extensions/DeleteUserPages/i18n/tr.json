@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"MuratTheTurkish"
+		]
+	},
+	"deleteuserpages-desc": "Kullanıcıların kendi kullanıcı sayfalarını silmesine izin verin",
+	"action-delete-rootuserpages": "kendi kullanıcı ve kullanıcı mesaj sayfasını sil",
+	"right-delete-rootuserpages": "Kendi kullanıcı ve kullanıcı mesaj sayfasını sil",
+	"action-delete-usersubpages": "kendi kullanıcı sayfasının alt sayfalarını sil",
+	"right-delete-usersubpages": "Kendi kullanıcı sayfasının alt sayfalarını sil"
+}

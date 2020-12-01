@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Verdy p"
+		]
+	},
+	"bs-socialtags-desc": "Ajoute une fonctionnalité d’étiquetage aux entités sociales",
+	"bs-socialtags-tagstext": "Page{{PLURAL:$1||s}} liée{{PLURAL:$1||s}} ($1)",
+	"bs-socialtags-var-tags": "Pages liées",
+	"socialtags": "Pages liées",
+	"bs-socialtags-special-heading": "Pages liées",
+	"apihelp-bs-socialtags-tasks-summary": "Fournit des tâches pout modifier les pages liées des entités",
+	"action-social-tagging": "modifier les pages liées",
+	"right-social-tagging": "Modifier les pages liées"
+}

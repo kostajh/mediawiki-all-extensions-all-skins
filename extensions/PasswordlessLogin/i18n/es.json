@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"passwordlesslogin": "Acceso sin contraseña",
+	"passwordlesslogin-desc": "Brinda un mecanismo para acceder sin contraseña mediante la confirmación del acceso con un dispositivo conectado.",
+	"passwordlesslogin-verify-request": "Verifica el acceso en el teléfono.",
+	"passwordlesslogin-verification-pending": "Todavía no se ha verificado la autenticación. Verifica la solicitud de acceso en el dispositivo conectado.",
+	"passwordlesslogin-pair-device-step": "Sigue las instrucciones para emparejar el dispositivo nuevo.",
+	"passwordlesslogin-no-device-paired": "Todavía no hay ningún dispositivo emparejado.",
+	"passwordlesslogin-verify-pair": "Hemos enviado una solicitud de acceso al dispositivo para comprobar que se haya registrado correctamente. Confirma la solicitud para continuar.",
+	"passwordlesslogin-login": "Accede con el teléfono",
+	"passwordlesslogin-pair-step-1": "1. Descarga la aplicación MediaWiki PasswordlessLogin",
+	"passwordlesslogin-pair-step-2": "2. Escanea el código QR con la aplicación",
+	"passwordlesslogin-pair-step-3": "3. Cuando termine de configurarse la aplicación, prosigue con el siguiente paso",
+	"passwordlesslogin-authentication-app": "Aplicación para autenticar"
+}

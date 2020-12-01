@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Gianfranco",
+			"Macofe"
+		]
+	},
+	"safedelete": "Cancellazione Sicura",
+	"safedelete-desc": "Elimina la pagina solo se non ci sono pagine nei namespace selezionati che si colleghino ad essa",
+	"safedelete-title": "Cancella \"$1\"",
+	"safedelete-missingpagename": "Manca il nome della pagina.",
+	"safedelete-missingnamespaces": "L'elenco dei namespace abilitati alla Cancellazione Speciale non è impostato.",
+	"safedelete-cannotdelete": "La pagina \"$1\" non può essere cancellata perché ci sono collegamenti o reindirizzamenti ad essa {{PLURAL:$2|dalla pagina seguente|dalle pagine seguenti}}:"
+}

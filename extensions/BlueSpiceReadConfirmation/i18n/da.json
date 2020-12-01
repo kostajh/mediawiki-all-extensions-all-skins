@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"bs-readconfirmation-not-read": "ikke læst",
+	"bs-readconfirmation-confirm-read-button-label": "Bekræft",
+	"bs-readconfirmation-action-apiread-confirm-description": "Marker $1 som læst",
+	"bs-readconfirmation-disabled-ns-short": "Deaktiveret"
+}

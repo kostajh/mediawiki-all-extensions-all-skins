@@ -1,0 +1,36 @@
+/**
+ * Styles for badges on client wikis in the Vector skin
+ *
+ * @since 0.1
+ *
+ * @license GPL-2.0-or-later
+ * @author Bene* < benestar.wikimedia@gmail.com >
+ */
+
+.badge-goodarticle,
+.badge-goodlist,
+.badge-recommendedarticle {
+	list-style-image: url( ../../images/badge-silver-star.png );
+}
+
+.badge-featuredarticle,
+.badge-featuredportal,
+.badge-featuredlist {
+	list-style-image: url( ../../images/badge-golden-star.png );
+}
+
+.badge-problematic {
+	list-style-image: url( ../../images/badge-problematic.png );
+}
+
+.badge-proofread {
+	list-style-image: url( ../../images/badge-proofread.png );
+}
+
+.badge-validated {
+	list-style-image: url( ../../images/badge-validated.png );
+}
+
+.badge-digitaldocument {
+	list-style-image: url( ../../images/badge-digitaldocument.png );
+}

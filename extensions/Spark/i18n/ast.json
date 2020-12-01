@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"spark-desc": "Amiesta la etiqueta <code><nowiki><spark /></nowiki></code> que permite incrustar entemezos ''(mash-ups)'' de [http://km.aifb.kit.edu/sites/spark/ Spark]",
+	"spark-missing-query": "Fai falta qu'especifiques una consulta usando'l parámetru «data-spark-query»."
+}

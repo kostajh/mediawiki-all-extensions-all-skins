@@ -1,0 +1,35 @@
+{
+	"name": "NamespacePopups",
+	"version": "0.0.4",
+	"author": [
+		"Victor Porton"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NamespacePopups",
+	"license-name": "GPL-2.0-or-later",
+	"descriptionmsg": "namespacepopups-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.32.0",
+		"extensions": {
+			"PagePopups": ">= 0.0.1"
+		}
+	},
+	"MessagesDirs": {
+		"NamespacePopups": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"NamespacePopupsHooks": "NamespacePopups.hooks.php"
+	},
+	"Hooks": {
+		"HtmlPageLinkRendererEnd": "NamespacePopupsHooks::onHtmlPageLinkRendererEnd",
+		"ParserAfterTidy": "NamespacePopupsHooks::onParserAfterTidy"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "NamespacePopups"
+	},
+	"config": {},
+	"manifest_version": 1
+}

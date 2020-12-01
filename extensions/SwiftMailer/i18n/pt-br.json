@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent"
+		]
+	},
+	"swiftmailer-desc": "Fornece o SwiftMailer como serviço de e-mail alternativo",
+	"swiftmailer-smtp-error": "Erro de configuração do SMTP para o SwiftMailer: $1",
+	"swiftmailer-send-error": "Erro a enviar o e-mail ao usar o SwiftMailer: $1"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"rightfunctions-desc": "Functiones pro le analysator syntactic a base de permissiones",
+	"rightfunctions-rest1": "$1 $2",
+	"rightfunctions-rest2": "$1 $2$5 $3 $4",
+	"rightfunctions-rest3": "$1 $2$7 $3 $4$7 $5 $6",
+	"rightfunctions-sep": ",",
+	"rightfunctions-casc": "(ab fontes in cascada)",
+	"rightfunctions-local": "(ab un pagina local)",
+	"rightfunctions-ns": "(ab le protection de spatios de nomines)"
+}

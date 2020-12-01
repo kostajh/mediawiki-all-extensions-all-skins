@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-authors-desc": "Fà 'ndrucà le immaggine d'u profile pe le auture de 'na pàgene",
+	"prefs-authors": "Auture de sta pàgene",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Autore}}|Auture}}",
+	"bs-authors-profileimage": "Immaggine d'u profile",
+	"bs-authors-profileimage-change": "Cange l'immaggine d'u profile",
+	"bs-authors-show-all-authors": "Cchiù auture disponibbile",
+	"bs-authors-pref-show": "Fà 'ndrucà le auture",
+	"bs-authors-switch-description": "Scunne le auture sus a sta pàgene.",
+	"bs-authors-navigation-link-title": "Auture de sta pàgene",
+	"bs-authors-navigation-link-text": "Auture",
+	"bs-authors-flyout-title": "Auture de sta pàgene",
+	"bs-authors-author-type-originator": "Autore origgenale",
+	"bs-authors-author-type-editor": "Cangiatore",
+	"apihelp-bs-pageauthors-store-summary": "Elenghe de tutte le auture de 'na pàgene date jndr'à 'u condeste"
+}

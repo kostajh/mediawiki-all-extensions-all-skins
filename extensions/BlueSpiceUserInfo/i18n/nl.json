@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"PonkoSasuke"
+		]
+	},
+	"apihelp-bs-userinfometa-description": "Lijst de gegeven user meta informatiedata op",
+	"apihelp-bs-userinfometa-summary": "Lijst de gegeven user meta informatiedata op",
+	"apihelp-bs-userinfometa-param-username": "Naam van de user, wiens meta informatiedata zal opgelijst worden"
+}

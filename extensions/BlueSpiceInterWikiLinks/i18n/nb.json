@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-interwikilinks-desc": "Administrasjonsgrensesnitt for å legge til, redigere og slette interwikilenker",
+	"bs-interwikilinks-invalid-pfx-spc": "Prefiksen er ugyldig. Ikke bruk mellomrom.",
+	"bs-interwikilinks-invalid-url-spc": "URL-en er ugyldig. Ikke bruk mellomrom.",
+	"bs-interwikilinks-label": "Interwikilenker",
+	"bs-interwikilinks-link-created": "Interwikilenken har blitt opprettet.",
+	"bs-interwikilinks-link-added": "Interwikilenken har blitt lagt til.",
+	"bs-interwikilinks-link-deleted": "Interwikilenken har blitt slettet.",
+	"bs-interwikilinks-nooldpfx": "Det forrige prefikset ble ikke funnet.",
+	"bs-interwikilinks-nopfx": "Oppgi et prefiks.",
+	"bs-interwikilinks-nourl": "Oppgi en URL.",
+	"bs-interwikilinks-pfxtoolong": "Prefikset er for langt. Bruk maksimalt 32 tegn.",
+	"bs-interwikilinks-pfxexists": "Prefikset finnes allerede.",
+	"bs-interwikilinks-headerprefix": "Prefiks",
+	"bs-interwikilinks-titleaddinterwikilink": "Legg til interwikilenke",
+	"bs-interwikilinks-titleeditinterwikilink": "Rediger interwikilenke",
+	"bs-interwikilinks-labelprefix": "Prefiks",
+	"bs-interwikilinks-titledeleteinterwikilink": "Slett interwikilenke",
+	"bs-interwikilinks-confirmdeleteinterwikilink": "Er du sikker på at du vil slette denne interwikilenken?",
+	"bs-interwikilinks-insertlink-tabtitle": "Lenk til en annen wiki",
+	"bs-interwikilinks-insertlink-labelprefix": "Prefiks",
+	"bs-interwikilink-select-a-prefix": "Velg prefiks",
+	"bs-interwikilinks-link-edited": "Interwikilenken har blitt redigert",
+	"apihelp-bs-interwikilinks-tasks-description": "Gir oppgaver for utvidelsen InterWikiLinks.",
+	"apihelp-bs-interwikilinks-tasks-summary": "Gir oppgaver for utvidelsen InterWikiLinks.",
+	"action-interwikilinks-viewspecialpage": "vise spesialsiden «{{int:bs-interwikilinks-label}}»",
+	"interwikilinks": "Interwikilenker",
+	"right-interwikilinks-viewspecialpage": "Tilgang til spesialsiden [[Special:InterWikiLinks]]."
+}

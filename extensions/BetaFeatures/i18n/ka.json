@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"BRUTE",
+			"David1010",
+			"Dawid Deutschland",
+			"Otogi",
+			"Tokoko"
+		]
+	},
+	"betafeatures-auto-enroll": "ავტომატურად ჩაირთოს ყველა ახალი ბეტა შესაძლებლობა",
+	"betafeatures-auto-enroll-help": "ზოგიერთი ბეტა-ფუნქცია შეიძლება მოულოდნელად შეიცვალოს, ამიტომ თქვენ ისინი ხელით უნდა მართოთ.",
+	"betafeatures-extension-type": "ბეტა შესაძლებლობები",
+	"betafeatures-section-desc": "{{PLURAL:$1|გამოჩნდა ახალი ფუნქცია, რომელსაც|გამოჩნდა რამდენიმე ახალი ფუნქცია, რომელთაც}} ჩვენ განვიხილავთ პროექტისათვის {{SITENAME}}. გთხოვთ, მოსინჯოთ {{PLURAL:$1|ის|ისინი}} და გამოთქვათ თქვენი მოსაზრება, რათა თქვენ გამოხმაურებებზე დაყრდნობით ჩვენ შევძლოთ ამ სიახლის გაუმჯობესება.",
+	"betafeatures-toplink": "ბეტა",
+	"mw-ui-feature-discuss": "განხილვა",
+	"mw-ui-feature-info": "ინფორმაცია",
+	"mw-ui-feature-requirements-betafeatures": "ამ ხელსაწყოს ასამოქმედებლად საჭიროა უკვე გააქტიურებული იყოს შემდეგი {{PLURAL:$1|ხელსაწყო|ხელსაწყოები}}:",
+	"mw-ui-feature-requirements-browser": "შემდეგ {{PLURAL:$1|ბრაუზერს არ აქვს|ბრაუზერებს არ აქვთ}} მხარდაჭერა:",
+	"mw-ui-feature-requirements-javascript": "ეს ფუნქცია ითხოვს JavaScript-ს",
+	"mw-ui-feature-requirements-skins": "ეს შესაძლებლობა მუშაობს მხოლოდ შემდეგ {{PLURAL:$1|იერსახესთან|იერსახეებთან}}:",
+	"mw-ui-feature-user-count": "ამ შესაძლებლობას {{PLURAL:$1|ერთი მომხმარებელი|$1 მომხმარებელი|0=არავინ არ}} იყენებს.",
+	"prefs-betafeatures": "ბეტა შესაძლებლობები",
+	"tooltip-pt-betafeatures": "ბეტა შესაძლებლობები"
+}

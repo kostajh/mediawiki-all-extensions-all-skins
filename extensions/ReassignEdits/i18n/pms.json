@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"reassignedits": "Atribuì torna le modìfiche dl'utent",
+	"reassignedits-desc": "A përmëtt l'atribussion ëd le modìfiche da n'utent vej a un neuv",
+	"reassignedits-error-invalid": "Lë stranòm \"$1\" a va nen bin.",
+	"reassignedits-new": "Stranòm neuv",
+	"reassignedits-old": "Stranòm vej",
+	"reassignedits-submit": "Spediss",
+	"reassignedits-success": "Le modìfiche ëd «$1» a son ëstàite atribuìe a «$2».",
+	"reassignedits-summary": "Cangé l'atribussion ëd le modìfiche da n'utent vej a un neuv.",
+	"reassignedits-updatelog-title": "Agiorné lë stranòm ant ij tìtoj dij registr",
+	"reassignedits-updatelog-user": "Agiorna l'utent ch'a l'ha travajà ant ij registr",
+	"right-reassignedits": "Cangé l'atribussion ëd le modìfiche da n'utent vej a un neuv"
+}

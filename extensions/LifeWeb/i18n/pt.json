@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Hamilton Abreu"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Gerador e editor de chaves de identificação",
+	"apihelp-query+LifeWeb-description": "''Downlink'' de dados para LifeBase.",
+	"apihelp-query+LifeWeb-summary": "''Downlink'' de dados para LifeBase.",
+	"apihelp-query+LifeWeb-param-what": "A lista de dados a ser obtida.",
+	"apihelp-query+LifeWeb-param-clearCache": "Se a cache será limpa durante a extração de dados, ou não.",
+	"apihelp-query+LifeWeb-example-1": "Lista de táxons",
+	"apihelp-query+LifeWeb-example-2": "Lista de perguntas, com realce sintático"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armin1392"
+		]
+	},
+	"smoothgallery": "گالری اسموت",
+	"smoothgallery-desc": "به کاربران برای ایجاد گالری‌هایی با تصاویری که انتقال شدند، اجازه می‌دهد.\nاجازه بیشترین گزینه‌های اسموت‌گالری",
+	"smoothgallery-title": "گالری اسموت",
+	"smoothgallery-smoothgallerytitle": "گالری اسموت: $1",
+	"smoothgallery-error": "<b> خطای گالری اسموت:<b>",
+	"smoothgallery-gallery-not-found": "گالری درخواست شده وجود ندارد.",
+	"smoothgallery-not-found": "هیچ تصویر به گالری عکس اضافه نشد.\nلطفاً حداقل یک تصویر اضافه کنید.",
+	"smoothgallery-no-images": "هیچ تصویر در این گالری پیدا نشد.\nمطمئن شوید که {{PLURAL:$3|تصویر درخواست شده وجود دارد|همه تصاویر درخواست شده وجود دارند}}.\nدر زیر {{PLURAL:$2|تصویری|تصاویری}} پیدا نشد:$1",
+	"smoothgallery-invalid-images": "درخواست زیر {{PLURAL:$2|تصویر|تصاویر}} از نوع نامعتبر بود: $1",
+	"smoothgallery-unexpected-error": "یک خطای غیرمنتظره بود.\nلطفاً گزارش اشکال را بایگانی کنید.",
+	"smoothgallery-javascript-disabled": "جاوا‌اسکریپت برای مشاهده این گالری به‌درستی، مورد نیاز است."
+}

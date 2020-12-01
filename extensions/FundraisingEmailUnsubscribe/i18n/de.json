@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"fundraiserunsubscribe-desc": "Ermöglicht es Benutzern, ihre Mitgliedschaft in konfigurierten Mailinglisten zur Spendensammlung zu verwalten.",
+	"fundraiserunsubscribe": "E-Mails zur Wikimedia-Spendensammlung abbestellen",
+	"fundraiserunsubscribe-query": "Möchten Sie '''''$1''''' wirklich abbestellen?",
+	"fundraiserunsubscribe-info": "Diese Aktion meldet Sie vom Empfang von E-Mails der Wikimedia Foundation ab, die Sie als Spender erhalten. Sie könnten weiterhin E-Mails an diese Adresse erhalten, falls diese mit einem unserer Projekte verknüpft ist. Falls Sie Fragen haben, kontaktieren Sie bitte [mailto:$1 $1].",
+	"fundraiserunsubscribe-submit": "Abbestellen",
+	"fundraiserunsubscribe-cancel": "Abbrechen",
+	"fundraiserunsubscribe-errormsg": "Beim Versuch, Ihre Anfrage zu verarbeiten, ist ein Fehler aufgetreten. Bitte senden Sie eine E-Mail an [mailto:$1 $1].",
+	"fundraiserunsubscribe-success": "Sie wurden erfolgreich aus unserer Mailingliste entfernt.",
+	"fundraiserunsubscribe-sucesswarning": "Bitte geben Sie uns für die Änderungen vier (4) Tage Zeit. Wir entschuldigen uns für alle E-Mails, die Sie in dieser Zeit erhalten. Falls Sie Fragen haben, kontaktieren Sie bitte [mailto:$1 $1].",
+	"fundraisersubscribe": "Abonnieren",
+	"fundraisersubscribe-fail": "Beim Versuch, Ihre Anfrage zu verarbeiten, ist ein Fehler aufgetreten. Bitte kontaktieren Sie [mailto:$1 $1].",
+	"fundraisersubscribe-success": "Danke!",
+	"fundraisersubscribe-opt-in-continue-001": "Ja, ich werde beitreten",
+	"fundraisersubscribe-page-title-001": "Wiki Loves Earth",
+	"fundraisersubscribe-page-subtitle-001": "Entdecken Sie Geheimnisse unserer Natur, die auf Wikimedia Commons gefunden wurden. Entdecken Sie die 15 besten Bilder aus dem Jahr 2018, aufgenommen, geteilt und von Freiwilligen der Wikimedia ausgewählt.",
+	"fundraisersubscribe-appeal-headline-001": "Mögen Sie das, was Sie sehen?",
+	"fundraisersubscribe-appeal-text-001": "Wir möchten Ihnen gelegentliche Aktualisierungen mit Bildern wie diese senden, Wege für Unterstützung oder Ratschläge in der Zukunft und mehr von dem, was Sie an Wikipedia lieben.",
+	"fundraisersubscribe-privacy-text-001": "Jede E-Mail, die Sie bekommen, enthält eine einfache Option zur Abmeldung. Ihre Informationen werden in Übereinstimmung mit unserer [$1 Datenschutzrichtlinie für Spender] behandelt.",
+	"fundraisersubscribe-photo-credit": "von $1",
+	"fundraisersubscribe-photo-caption-M69961168": "Walrosse liegen auf Northbrook Island. Russischer Arktis-Nationalpark. Das Bild wurde als Teil der Expedition „In the footsteps of two captains“ der Maritime Heritage Associations aufgenommen.",
+	"fundraisersubscribe-photo-caption-M69960916": "Säulenbasalt nach dem Sonnenuntergang bei Cape Stolbchaty, Kunashir Island, Kurils Nature Reserve, Russland",
+	"fundraisersubscribe-photo-caption-M68724727": "Meteora-Felsformation mit Klöstern darauf",
+	"fundraisersubscribe-photo-caption-M68822431": "Tassili n'Ajjer National Park, Algerien",
+	"fundraisersubscribe-photo-caption-M69954711": "Die Küste von Salt Lake Elton, Volgograd Oblast, Russland",
+	"fundraisersubscribe-photo-caption-M69692176": "Gypaetus barbatus im Flug. Gran Paradiso National Park",
+	"fundraisersubscribe-photo-caption-M69116544": "Herbst und sein Boom im Tal von Hunza Altit Valley, Gilgit Baltistan",
+	"fundraisersubscribe-photo-caption-M69591978": "Der Bruchwasserläufer (Tringa glareola) ist ein kleiner Watvogel im Bangabandhu Sheikh Mujib Safari Park",
+	"fundraisersubscribe-photo-caption-M69594652": "Satchari National Park",
+	"fundraisersubscribe-photo-caption-M69924253": "Sumpfzypresse (Taxodium distichum) in der Nähe von Sukko, Krasnodar Krai, Russland",
+	"fundraisersubscribe-photo-caption-M69595567": "Chestnut-tailed Starling, Sturnia malabarica, Satchari National Park",
+	"fundraisersubscribe-photo-caption-M70051605": "Hoggar National Park, Assekrem, Tamanrasset, Algerien",
+	"fundraisersubscribe-photo-caption-M70155469": "Sonnenuntergang in Baixa Grande, eine Oase in der Mitte des Nationalparks Lençóis Maranhenses",
+	"fundraisersubscribe-photo-caption-M69609122": "Phoenicopterus roseus am See von Tunis",
+	"fundraisersubscribe-photo-caption-M69961161": "Bell Island von Franz-Josef-Land und Eira Lodge der Benjamin-Leigh-Smith-Expedition, Russischer Arktis-Nationalpark. Das Bild wurde als Teil der Expedition „In the footsteps of two captains“ von Maritime Heritage Associations aufgenommen.",
+	"fundraisersubscribe-photo-license": "Alle Bilder sind lizenziert unter der Creative-Commons-Lizenz [$1 „Namensnennung – Weitergabe unter gleichen Bedingungen“]."
+}

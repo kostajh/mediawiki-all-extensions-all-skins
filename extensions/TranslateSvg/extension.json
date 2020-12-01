@@ -1,0 +1,227 @@
+{
+	"name": "TranslateSVG",
+	"version": "2.1.0",
+	"author": "Harry Burt",
+	"url": "https://www.mediawiki.org/wiki/Extension:TranslateSvg/2.0",
+	"license-name": "GPL-2.0-or-later",
+	"descriptionmsg": "translatesvg-desc",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"extensions": {
+			"Translate": "*"
+		}
+	},
+	"SpecialPages": {
+		"TranslateNewSVG": "SpecialTranslateNewSVG"
+	},
+	"MessagesDirs": {
+		"TranslateSvg": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"TranslateSvgAlias": "TranslateSvg.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialTranslateNewSVG": "SpecialTranslateNewSVG.php",
+		"SVGFile": "SVGFile.php",
+		"SVGFormatWriter": "SVGFormatWriter.php",
+		"SVGMessageGroup": "SVGMessageGroup.php",
+		"TranslateSvgUtils": "TranslateSvgUtils.php",
+		"TranslateSvgHooks": "TranslateSvgHooks.php",
+		"ExportSVGMessagesTask": "TranslateSvgTasks.php",
+		"TranslateSvgUpload": "SVGFormatWriter.php"
+	},
+	"TestAutoloadClasses": {
+		"TranslateSvgTestCase": "tests/phpunit/TranslateSvgTestCase.php"
+	},
+	"ResourceModules": {
+		"jquery.colorpicker": {
+			"scripts": [
+				"resources/jquery.colorpicker.js"
+			],
+			"styles": [
+				"resources/jquery.colorpicker.css"
+			]
+		},
+		"ext.translatesvg": {
+			"scripts": [
+				"resources/ext.translatesvg.core.js"
+			],
+			"dependencies": [
+				"jquery.form",
+				"jquery.ui",
+				"jquery.colorpicker"
+			],
+			"messages": [
+				"translate-taction-mstats-svgmg",
+				"translate-taction-export-svgmg",
+				"translate-page-description-legend-svgmg"
+			]
+		},
+		"ext.translatesvg.filepage": {
+			"scripts": [
+				"resources/ext.translatesvg.filepage.js"
+			],
+			"dependencies": [
+				"mediawiki.Uri"
+			],
+			"messages": [
+				"translate-svg-filepage-caption",
+				"translate-svg-filepage-caption-translator",
+				"translate-svg-filepage-edit",
+				"translate-svg-filepage-finish",
+				"translate-svg-filepage-item",
+				"translate-svg-filepage-another",
+				"translate-svg-filepage-other",
+				"translate-svg-filepage-invite",
+				"comma-separator"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "TranslateSvg"
+	},
+	"callback": "TranslateSvgHooks::onRegistration",
+	"Hooks": {
+		"BeforePageDisplay": "TranslateSvgHooks::updateFileDescriptionPages",
+		"LoadExtensionSchemaUpdates": "TranslateSvgHooks::schemaUpdates",
+		"MakeGlobalVariablesScript": [
+			"TranslateSvgHooks::makeFilePageGlobalVariables",
+			"TranslateSvgHooks::exposeTranslateSvgTemplateName"
+		],
+		"TranslateBeforeAddModules": [
+			"TranslateSvgHooks::addModules",
+			"TranslateSvgHooks::addModules"
+		],
+		"TranslateGetBoxes": [
+			"TranslateSvgHooks::addThumbnail",
+			"TranslateSvgHooks::removeQQQ",
+			"TranslateSvgHooks::removeSuggestions"
+		],
+		"TranslateGetSpecialTranslateOptions": "TranslateSvgHooks::makeExportAsSvgOptionDefault",
+		"TranslatePrefillTranslation": "TranslateSvgHooks::getDefaultPropertiesFromGroup",
+		"TranslateGetExtraInputs": "TranslateSvgHooks::propertiesToExtraInputs",
+		"TranslateFormatMessageBeforeTable": "TranslateSvgHooks::stripPropertyString",
+		"TranslateGetAPIMessageGroupsPropertyDescs": "TranslateSvgHooks::addAPIProperties",
+		"TranslateGetAPIMessageGroupsParameterDescs": "TranslateSvgHooks::addAPIParamDescs",
+		"TranslateGetAPIMessageGroupsParameterList": "TranslateSvgHooks::addAPIParams",
+		"TranslatePostInitGroups": "TranslateSvgHooks::loadSVGGroups",
+		"TranslateProcessAPIMessageGroupsProperties": "TranslateSvgHooks::processAPIProperties"
+	},
+	"config": {
+		"TranslateSvgTypefaces": {
+			"value": [
+				"serif",
+				"sans-serif",
+				"monospace"
+			],
+			"description": "List of typefaces (or keywords) that can safely be incorporated into SVG images, not including \"(inherit)\", the default."
+		},
+		"TranslateSvgTemplateName": {
+			"value": "Translation properties"
+		},
+		"TranslateSvgDirectory": {
+			"value": false,
+			"description": "Directory where TranslateSvg's \"live\" (temporary) thumbnails should be stored. If left false, defaults to \"{$wgUploadDirectory}/translatesvg\""
+		},
+		"TranslateSvgPath": {
+			"value": false,
+			"description": "Server path equivalent to $wgTranslateSvgDirectory. If left false, defaults to \"{$wgUploadPath}/translatesvg\""
+		},
+		"TranslateSvgColors": {
+			"value": [
+				"#ffffff",
+				"#ffccc9",
+				"#ffce93",
+				"#fffc9e",
+				"#ffffc7",
+				"#9aff99",
+				"#96fffb",
+				"#cdffff",
+				"#cbcefb",
+				"#cfcfcf",
+				"#fd6864",
+				"#fe996b",
+				"#fffe65",
+				"#fcff2f",
+				"#67fd9a",
+				"#38fff8",
+				"#68fdff",
+				"#9698ed",
+				"#c0c0c0",
+				"#fe0000",
+				"#f8a102",
+				"#ffcc67",
+				"#f8ff00",
+				"#34ff34",
+				"#68cbd0",
+				"#34cdf9",
+				"#6665cd",
+				"#9b9b9b",
+				"#cb0000",
+				"#f56b00",
+				"#ffcb2f",
+				"#ffc702",
+				"#32cb00",
+				"#00d2cb",
+				"#3166ff",
+				"#6434fc",
+				"#656565",
+				"#9a0000",
+				"#ce6301",
+				"#cd9934",
+				"#999903",
+				"#009901",
+				"#329a9d",
+				"#3531ff",
+				"#6200c9",
+				"#343434",
+				"#680100",
+				"#963400",
+				"#986536",
+				"#646809",
+				"#036400",
+				"#34696d",
+				"#00009b",
+				"#303498",
+				"#000000",
+				"#330001",
+				"#643403",
+				"#663234",
+				"#343300",
+				"#013300",
+				"#003532",
+				"#010066"
+			]
+		},
+		"TranslateSvgBotName": {
+			"value": "SVG translation updater"
+		},
+		"TranslateSvgDefaultProperties": {
+			"value": {
+				"x": "",
+				"y": "",
+				"font-family": "other",
+				"font-size": "",
+				"units": "other",
+				"color": "",
+				"underline": "",
+				"italic": "",
+				"bold": ""
+			}
+		},
+		"TranslateSvgOptionalProperties": {
+			"value": [
+				"id",
+				"data-children",
+				"xml:space",
+				"sodipodi:role",
+				"sodipodi:linespacing"
+			]
+		}
+	},
+	"manifest_version": 2
+}

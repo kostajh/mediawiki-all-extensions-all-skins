@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minisarm",
+			"Stelistcristi"
+		]
+	},
+	"securesessions-personalurl": "Deschide sesiunile ($1)",
+	"securesessions-ipsession": "Închide toate celelalte sesiuni.",
+	"securesessions-sessions": "Sesiuni",
+	"securesessions-sessions-legend": "Informații despre sesiune",
+	"securesessions-sessions-ip": "Adresă IP:",
+	"securesessions-sessions-activity": "Ultima activitate:",
+	"securesessions-sessions-clear": "Închide toate celelalte sesiuni"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"onlinestatus-desc": "Додава прилагодување кое прикажува дали корисникот е моментално присутен на викито",
+	"onlinestatus-js-anon": "Грешка: морате да сте најавени за да ја користите оваа можност",
+	"onlinestatus-js-changed": "Вашиот статус е променет на „$1“",
+	"onlinestatus-js-error": "Невозможно е да се измени статусот, вредноста „$1“ е погрешна",
+	"onlinestatus-subtitle-offline": "Овој корисник е моментално исклучен",
+	"onlinestatus-subtitle-online": "Овој корисник е моментално вклучен",
+	"onlinestatus-tab": "Статус",
+	"onlinestatus-toggles-desc": "Вашиот статус:",
+	"onlinestatus-toggles-explain": "Со ова другите корисници на вашата страница можат да видат дали сте всушност на линија.",
+	"onlinestatus-toggles-show": "Прикажувај дали сум на линија на мојата корисничка страница",
+	"onlinestatus-toggle-offline": "Вонмрежно",
+	"onlinestatus-toggle-online": "Вклучен",
+	"onlinestatus-pref-onlineonlogin": "Промени ми го статусот во „вклучен“ кога се најавувам",
+	"onlinestatus-pref-offlineonlogout": "Промени ми го статусот во „исклучен“ кога се одјавувам"
+}

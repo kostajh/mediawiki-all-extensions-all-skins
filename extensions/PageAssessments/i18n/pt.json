@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"pageassessments-desc": "Esta extensão permite armazenar avaliações de páginas numa tabela de base de dados com a ajuda de uma função do analisador sintático.",
+	"pageassessments-special": "Avaliações de páginas",
+	"pageassessments-project": "Projeto",
+	"pageassessments-page-namespace": "Espaço nominal da página",
+	"pageassessments-page-title": "Título da página",
+	"pageassessments-search": "Pesquisar",
+	"pageassessments-importance": "Importância",
+	"pageassessments-class": "Classe",
+	"pageassessments-timestamp": "Data e hora",
+	"pageassessments-total-results": "Número total de resultados: $1",
+	"pageassessments-error-namespace-filter": "Introduza um nome de projeto ou um título de página, por favor."
+}

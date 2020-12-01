@@ -1,0 +1,58 @@
+select[name="status"] {
+	font-size: 10px;
+}
+
+.client-js .nojs-submit-btn {
+	display: none;
+}
+
+.challenge-nav {
+	max-width: 740px;
+	padding-bottom: 25px;
+}
+
+.challenge-history-table {
+	border: 0;
+	border-collapse: collapse;
+	max-width: 830px;
+	padding: 3px;
+}
+
+.challenge-history-header {
+	color: #666;
+	font-size: 12px;
+	font-weight: 700;
+	padding-right: 5px;
+}
+
+.challenge-history-empty {
+	font-size: 11px;
+}
+
+.challenge-data {
+	border-bottom: 1px solid #eee;
+	font-size: 11px;
+	vertical-align: top;
+	padding: 5px;
+}
+
+.challenge-data img {
+	padding: 2px;
+}
+
+.challenge-data-description {
+	width: 150px;
+}
+
+.challenge-history-filter {
+	float: right;
+}
+
+.challenge-link {
+	float: left;
+}
+
+.challenge-link a {
+	font-size: 15px;
+	font-weight: 700;
+}

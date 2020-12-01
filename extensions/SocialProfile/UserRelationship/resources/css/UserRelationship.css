@@ -1,0 +1,115 @@
+.back-links {
+	margin: 0 0 10px 0;
+}
+
+.back-links a {
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.relationship-count {
+	margin: 0 0 15px 0;
+}
+
+.relationship-item {
+	border: 1px solid #d7dee8;
+	padding: 7px;
+	float: left;
+	margin: 0 15px 15px 0;
+	width: 350px;
+}
+
+.relationship-item a {
+	text-decoration: none;
+}
+
+.relationship-item img {
+	border: 1px solid #dcdcdc;
+	background-color: #fff;
+	padding: 3px;
+	display: block;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.relationship-name {
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0 0 2px 0;
+}
+
+.relationship-actions {
+	font-size: 10px;
+}
+
+.relationship-actions a {
+	font-size: 10px;
+}
+
+.relationship-delete {
+	margin: 0 0 0 12px;
+}
+
+.page-nav a {
+	font-weight: 700;
+}
+
+.relationship-error-message {
+	margin: 0 0 15px 0;
+}
+
+.relationship-action {
+	color: #888;
+	font-weight: 700;
+	width: 500px;
+	margin: 15px 0;
+}
+
+.relationship-action img {
+	float: left;
+	background-color: #fff;
+	border: 1px solid #dcdcdc;
+	padding: 3px;
+	margin: 0 15px 0 0;
+	display: block;
+}
+
+.relationship-buttons {
+	padding: 10px 0 0 0;
+}
+
+.client-nojs .relationship-buttons form {
+	display: inline-block;
+}
+
+.client-js .relationship-buttons form {
+	display: inline;
+}
+
+.relationship-textbox-title {
+	font-size: 13px;
+	font-weight: 700;
+	margin: 0 0 5px 0;
+}
+
+.relationship-message {
+	color: #888 !important;
+	font-size: 14px;
+	margin: 10px 0 0 0;
+}
+
+.black-text {
+	color: #333 !important;
+}
+
+.red-text {
+	color: #f00 !important;
+}
+
+/* Responsive stuff for mobile devices */
+@media screen and (max-width: 750px) and (orientation: portrait) {
+	/* "Add/Remove friend/foe" pages */
+	div.relationship-action p {
+		max-width: 60%;
+	}
+}

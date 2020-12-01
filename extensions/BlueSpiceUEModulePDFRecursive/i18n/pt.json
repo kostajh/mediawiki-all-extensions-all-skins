@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"Hamilton Abreu"
+		]
+	},
+	"bs-uemodulepdfrecursive-extension-description": "Permite a exportação recursiva de páginas para o formato PDF.",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-text": "Página e páginas a ela hiperligadas em PDF",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-title": "Exportar esta página e todas as páginas a ela hiperligadas como PDF.",
+	"right-uemodulepdfrecursive-export": "exportar uma página, incluindo todas as páginas a ela hiperligadas, para PDF",
+	"action-uemodulepdfrecursive-export": "Exportar uma página, incluindo todas as páginas a ela hiperligadas, como PDF."
+}

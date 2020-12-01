@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paul Beppler"
+		]
+	},
+	"accountinfo": "Benutzerkonteinformation",
+	"accountinfo-ts": "Zeitstempel",
+	"accountinfo-ip": "IP-Adress",
+	"accountinfo-ua": "Browser",
+	"accountinfo-xff": "XFF-Header",
+	"accountinfo-length": "Die Informatione werre bereitgestellt für $1.",
+	"accountinfo-now": "Jetzt"
+}

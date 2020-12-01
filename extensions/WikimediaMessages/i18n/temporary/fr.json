@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"DavidL",
+			"Framawiki",
+			"Gomoko",
+			"Hercule",
+			"Linedwell",
+			"Metroitendo",
+			"Niridya",
+			"PhilW",
+			"Pols12",
+			"Quentinv57",
+			"Thibaut120094",
+			"Trizek (WMF)",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"wikimediamessages-desc": "Messages temporaires spécifiques de Wikimedia",
+	"grouppage-oversight": "{{ns:project}}:Masquage de modifications",
+	"group-oversight": "Masqueurs de modifications",
+	"group-oversight-member": "{{GENDER:$1|masqueur|masqueuse}} de modifications",
+	"hello": "Bonjour",
+	"please-translate": "Aidez-nous à traduire dans votre langue",
+	"thank-you": "{{GENDER:$1|Merci.}}",
+	"specialblockfeedback": "Commentaire",
+	"specialinvestigate-feedback": "laisser les commentaires"
+}

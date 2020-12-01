@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Qiyue2001"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "识别密钥生成器和编辑器",
+	"apihelp-query+LifeWeb-description": "用于LifeBase的数据下载链接。",
+	"apihelp-query+LifeWeb-summary": "用于LifeBase的数据下载链接。",
+	"apihelp-query+LifeWeb-param-what": "要检索的数据列表。",
+	"apihelp-query+LifeWeb-param-clearCache": "缓存是否将在数据检索期间被清空",
+	"apihelp-query+LifeWeb-example-1": "分类单元列表",
+	"apihelp-query+LifeWeb-example-2": "优质打印的问题列表"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac",
+			"Link2xt"
+		]
+	},
+	"bs-tagcloud-tag-tagcloud-name": "Облако меток",
+	"bs-tagcloud-tag-tagcloud-title": "Облако меток",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Тип",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Текст",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "Список",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Категории",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Ширина",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "Показать количество",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Минимальный размер шрифта",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Максимальный размер шрифта",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Исключить страницы"
+}

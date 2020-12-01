@@ -1,0 +1,55 @@
+Page Creation Notification Extension
+
+	Version 0.1 beta
+	Author Nischay Nahata < nischayn22@gmail.com >
+
+This is free software licenced under the GNU General Public Licence. Please
+see http://www.gnu.org/copyleft/gpl.html for further details, including the
+full text and terms of the license.
+
+== Overview ==
+
+	1. Introduction
+	2. Installation requirements
+	3. Installing the extension
+	4. Editing the notification email
+	5. Further configuration
+	6. Feedback
+	
+== 1. Introduction ==
+
+This simple extension sends emails to users on creation of new pages a.k.a articles.
+Users can set their preferences to recieve or not recieve emails at Special:Preferences.
+This extension was created by Nischay Nahata as a consultant for Wikiworks.com for Texas Instruments
+
+== 2. Installation requirements ==
+
+This extension requires MediaWiki 1.19.0 or later.
+
+== 3. Installing the extension ==
+
+To install the extension, place the extension directory in your MediaWiki's extensions/ directory,
+then edit LocalSettings.php and add the following line
+
+	include_once("$IP/extensions/PageCreationNotif/PageCreationNotif.php");
+
+Then run the update script:
+	php maintenance/update.php
+
+== 4. Configuration ==
+
+The behaviour of the extension can be tweaked using configuration
+variables. To override the defaults for these, set them in LocalSettings.php
+underneath the call to the extension file.
+
+$wgPCNSender
+	Email address of the sender of the email
+	Defaults to the value of $wgPasswordSender
+
+$wgPCNSenderName
+	Name of the sender of the email
+	Defaults to the value of $wgPasswordSenderName
+
+== 5. Feedback ==
+
+All feedback, bug reports, etc. welcome at <nischayn22@gmail.com>.

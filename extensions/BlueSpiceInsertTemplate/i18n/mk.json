@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"bs-insertTemplate-desc": "Дијалог за вметнување на предлошка",
+	"bs-insertTemplate-button-template-title": "Вметни или уреди предлошка",
+	"bs-insertTemplate-dialog-title": "Вметни предлошка",
+	"bs-insertTemplate-dialog-label-choose": "Изберете предлошка",
+	"bs-insertTemplate-dialog-label-modify": "Измени ја предлошката",
+	"bs-insertTemplate-dialog-label-preview": "Преглед",
+	"apihelp-bs-inserttemplate-store-description": "Ги наведува сите предлошки. Овозможува подредување, филтрирање и страничење. Применува параметри за ExtJS Store.",
+	"apihelp-bs-inserttemplate-store-summary": "Ги наведува сите предлошки. Овозможува подредување, филтрирање и страничење. Применува параметри за ExtJS Store."
+}

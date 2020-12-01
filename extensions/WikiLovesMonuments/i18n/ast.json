@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"wlm-extension-desc": "Amiesta información y mensaxes rellacionaos col concursu fotográficu Wiki Loves Monuments",
+	"wlm-no-contest-year": "Nun hubo concursu Wiki Loves Monument en $1.",
+	"wlm-no-url-bad-country": "Nun pudimos alcontrar el sitiu web de la competición llocal. $1 nun ye un códigu de país válidu.",
+	"wlm-country-not-given": "Tienes que dar un códigu de país.",
+	"wlm-country-not-participating-year": "«$1» nun participa en Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "Otros paises",
+	"wlm-international-contest": "Internacional",
+	"wlm-text-contact": "Contautu",
+	"wlm-text-contest": "Concursu",
+	"wlm-text-donate": "Donativos",
+	"wlm-text-faq": "EMF (entrugues más frecuentes)",
+	"wlm-text-jury": "Xuráu",
+	"wlm-text-monuments": "Monumentos",
+	"wlm-text-news": "Noticies",
+	"wlm-text-participate": "¡Participa!",
+	"wlm-text-prizes": "Premios",
+	"wlm-text-rules": "Regles",
+	"wlm-text-sponsors": "Patrocinadores",
+	"wlm-text-uploading": "Cargar fotos"
+}

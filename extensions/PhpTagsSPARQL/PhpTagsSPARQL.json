@@ -1,0 +1,34 @@
+{
+	"objects": {
+		"Endpoint": {
+			"class": "SparqlEndpoint",
+			"METHODS": {
+				"__construct" : {
+					"parameters": [
+						{ "type": "string", "name": "endpoint", "default": "null" },
+						{ "type": "boolean", "name": "usePostHttpMethod", "default": "true"}
+					],
+					"return": "Object",
+					"desc": "Returns new object"
+				},
+				"query": {
+					"parameters": [
+						{ "type": "string", "name": "query" }
+					],
+					"return": "array",
+					"desc": "Parse a SPARQL query, send the query and parse the SPARQL result in a array"
+				},
+				"getErrors": {
+					"parameters": [],
+					"return": "array",
+					"desc": "Returns errors"
+				},
+				"resetErrors": {
+					"parameters": [],
+					"return": "null",
+					"desc": "Reset errors"
+				}
+			}
+		}
+	}
+}

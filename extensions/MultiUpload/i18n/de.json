@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"multiupload": "Mehrere Dateien hochladen",
+	"multiupload-desc": "Erweitert das Wiki um eine [[Special:MultiUpload|Spezialseite]] zum gleichzeitigen Hochladen mehrerer Dateien",
+	"multiupload-text": "Verwende das unten stehende Formular, um mehrere Dateien hochzuladen.\nUm kürzlich hochgeladene Dateien anzusehen oder zu suchen, gehe zur [[Special:FileList|Liste der hochgeladenen Dateien]]. (Erneut) hochgeladene Dateien werden auch im [[Special:Log/upload|Datei-Logbuch]] und Löschungen im [[Special:Log/delete|Lösch-Logbuch]] aufgezeichnet.\n\nUm eine Datei auf einer Seite einzubinden, verwende einen Link in einer der folgenden Formen:\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Datei.jpg]]</nowiki></code></strong>, um die volle Version der Datei zu verwenden.\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Datei.png|200px|thumb|left|Alternativtext]]</nowiki></code></strong>, um eine 200 Pixel breite Wiedergabe in einem Kasten am linken Rand mit „Alternativtext“ als Beschreibung zu verwenden.\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:Datei.ogg]]</nowiki></code></strong> zum direkten Verlinken ohne Anzeige der Datei.\n\nSobald du eine Datei auswählst, wird diese Seite erweitert, das dir die Auswahl mehrerer Dateien vor dem Hochladen ermöglicht.\n\nUm eine Datei mit dem Typ <code>.zip</code>, <code>.tar</code>, <code>.tar.gz</code> oder <code>.tgz</code> zu entpacken und die darin enthaltenen Dateien hochzuladen, wähle die Paketdatei aus und verwende die erscheinende Schaltfläche „{{int:multiupload-unpack-button}}“.",
+	"multipleupload": "Dateien hochladen",
+	"multipleupload-toolbox": "Mehrere Dateien hochladen",
+	"multiupload-submit": "Dateien hochladen",
+	"multiupload-uploadedto": "Datei $1 hochgeladen.",
+	"multiupload-row": "Datei $1",
+	"multiupload-unpack-button": "Entpacken",
+	"multiupload-notify-ok": "Okay",
+	"multiupload-upload-package-error": "Fehler beim Hochladen der Paketdatei",
+	"multiupload-unpack-error": "Fehler beim Entpacken der Paketdatei",
+	"multiupload-unreadable-package": "Die Datei $1 konnte nicht gelesen werden",
+	"multiupload-http-error": "Es konnte keine Verbindung mit dem Server hergestellt werden.",
+	"multiupload-file-unpacked-from": "Datei <b>$1</b> aus dem Paket <b>$2</b>",
+	"apihelp-multiupload-unpack-description": "Entpackt eine ZIP- oder TAR-Datei vor dem Importieren ihrer Inhalte.",
+	"apihelp-multiupload-unpack-summary": "Entpackt eine ZIP- oder TAR-Datei, bevor ihre Inhalte importiert werden.",
+	"apihelp-multiupload-unpack-param-filename": "Dateiname des Pakets"
+}

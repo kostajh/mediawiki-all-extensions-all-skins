@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"duplicator": "Duplicar una páxina",
+	"duplicator-desc": "Crear [[Special:Duplicate|copies independientes de les páxines]] colos historiales d'edición completos",
+	"duplicator-toolbox": "Duplicar esta páxina",
+	"duplicator-header": "Esta páxina permite la duplicación completa d'una páxina creando copies independientes de tolos historiales. Ye afayadizo pa subdividir páxines, etc.",
+	"duplicator-options": "Opciones",
+	"duplicator-source": "Fonte:",
+	"duplicator-dest": "Destín:",
+	"duplicator-dotalk": "Duplicar la páxina d'alderique (si ye aplicable)",
+	"duplicator-dosubpages": "Duplicar sub-páxines (si hai)",
+	"duplicator-dohistory": "Duplicar l'historial completu de la páxina",
+	"duplicator-submit": "Duplicar",
+	"duplicator-summary": "Copiao de [[$1]], revisión [[$2]]",
+	"duplicator-success": "<big>'''[[$1]] copióse a [[$2]].'''</big>",
+	"duplicator-success-revisions": "Se {{PLURAL:$1|copió|copiaron}} $1 {{PLURAL:$1|revisión|revisiones}}.",
+	"duplicator-success-talknotcopied": "Nun pudo copiase la páxina d'alderique.",
+	"duplicator-failed": "Nun pudo duplicase la páxina. Asocedió un error desconocíu.",
+	"duplicator-failed-toolong": "[[$1]] nun se duplicó. El títulu de destín ye demasiao llargu.",
+	"duplicator-failed-dest-exists": "[[$1]] nun se duplicó. El destín [[$2]] yá esiste.",
+	"duplicator-source-invalid": "Por favor proporcione un títulu d'orixe válidu.",
+	"duplicator-source-notexist": "[[$1]] nun esiste. Proporcione un títulu de páxina qu'esista.",
+	"duplicator-dest-invalid": "Proporcione un títulu de destín válidu.",
+	"duplicator-dest-exists": "[[$1]] yá esiste. Proporcione un títulu de destín que nun esista.",
+	"action-duplicate": "duplicar páxines",
+	"right-duplicate": "Duplicar páxines"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"safedelete": "安全删除",
+	"safedelete-desc": "只在没有链接到它的特定名字空间的页面时删除页面",
+	"safedelete-title": "删除“$1”",
+	"safedelete-missingpagename": "页面名称丢失。",
+	"safedelete-missingnamespaces": "特殊删除名字空间的列表未设置。",
+	"safedelete-cannotdelete": "由于页面“$1”有来自以下{{PLURAL:$2|页面}}的链接或重定向，它不能被删除："
+}

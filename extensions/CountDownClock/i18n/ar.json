@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"countDownClock-desc": "يضيف دالة محلل لإظهار وقت العد التنازلي",
+	"countDownClock-invalidtime": "يُرجَى تقديم وسيط وقت نهاية صالح",
+	"countDownClock-days": "$1 {{PLURAL:$1|يوم|أيام}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|ساعة|ساعات}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|دقيقة|دقائق}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|ثانية|ثوانٍ}}",
+	"countDownClock-expired": "انتهى"
+}

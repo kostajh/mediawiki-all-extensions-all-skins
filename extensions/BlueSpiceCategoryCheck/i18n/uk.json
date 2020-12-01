@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"bs-categorycheck-extension-description": "Перевіряє на наявність призначеної категорії перед збереженням статті",
+	"bs-categorycheck-insertcategory-no-category": "Будь ласка, призначте категорію для статті",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Ігнорувати",
+	"bs-categorycheck-insertcategory-category-list": "Встановлено вказані категорії",
+	"bs-categorycheck-insertcategory-confirm-categories": "Категорії коректні",
+	"bs-categorycheck-nsm-label-categorycheck": "Перевірка категорій"
+}

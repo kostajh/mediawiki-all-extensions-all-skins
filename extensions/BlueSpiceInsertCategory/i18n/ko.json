@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"HDNua",
+			"Hwangjy9",
+			"Tyey",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"bs-insertcategory-insertcat": "분류 넣기",
+	"prefs-insertcategory": "분류 넣기",
+	"bs-insertcategory-title": "분류 넣기",
+	"bs-insertcategory-success": "카테고리가 추가되었습니다.",
+	"bs-insertcategory-failure": "오류",
+	"bs-insertcategory-panel-title": "분류",
+	"bs-insertcategory-category-editor-title": "분류",
+	"bs-insertcategory-category-editor-implicit-categories-help": "해당 분류는 문서의 위키텍스트 내용 안에 정의되어 있지 않습니다. 틀 안에 정의되어 있을 가능성이 높습니다.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "모두 제거",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "편집",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "이 문서의 분류를 편집합니다",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "이 문서의 분류를 편집합니다"
+}

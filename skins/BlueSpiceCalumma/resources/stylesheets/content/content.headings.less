@@ -1,0 +1,71 @@
+	#content {
+	#firstHeading {
+		font-family: @content-font-family;
+		font-weight: @font-weight-medium;
+		font-size: 2.5rem;
+		border-bottom: none;
+		margin-top: 1.25rem;
+		margin-bottom: 1.5rem;
+		line-height: 3.2rem;
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: inherit;
+		line-height: 1.1;
+
+		.mw-editsection {
+			visibility: hidden;
+			opacity: 0;
+			transition: visibility 0s, opacity 0.5s linear;
+		}
+
+		&:hover .mw-editsection {
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+
+	h1 {
+		margin-bottom: 0.9375rem;
+		margin-top: 2rem;
+		font-size: @content-h1-font-size;
+		font-weight: @content-h1-font-weight;
+		border-bottom: @content-h1-border;
+	}
+	h2 {
+		margin-top: 1.8rem;
+		margin-bottom: 0.9375rem;
+		background-color: transparent;
+		font-size: @content-h2-font-size;
+		font-weight: @content-h2-font-weight;
+		border-bottom: @content-h2-border;
+	}
+	h3 {
+		margin-top: 1.6rem;
+		margin-bottom: 0.9375rem;
+		font-size: @content-h3-font-size;
+		font-weight: @content-h3-font-weight;
+		border-bottom: @content-h3-border;
+	}
+	h4 {
+		margin-top: 1.4rem;
+		margin-bottom: 0.9375rem;
+		font-size: @content-h4-font-size;
+		font-weight: @content-h4-font-weight;
+		border-bottom: @content-h4-border;
+	}
+	h5 {
+		margin-top: 1.25rem;
+		font-size: @content-h5-font-size;
+		font-weight: @content-h5-font-weight;
+		border-bottom: @content-h5-border;
+	}
+	h6 {
+		margin-top: 1.0625rem;
+		font-size: @content-h6-font-size;
+		font-weight: @content-h6-font-weight;
+		border-bottom: @content-h6-border;
+	}
+}

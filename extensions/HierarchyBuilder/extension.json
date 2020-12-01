@@ -1,0 +1,79 @@
+{
+	"name": "HierarchyBuilder",
+	"version":"7.0.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Cindy.cicalese Cindy Cicalese]",
+		"[https://www.mediawiki.org/wiki/User:Kevin.ji Kevin Ji]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:HierarchyBuilder",
+	"descriptionmsg": "hierarchybuilder-desc",
+	"license-name": "MIT",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.31",
+		"extensions": {
+			"SemanticMediaWiki": ">=3.1.0",
+			"PageForms": ">=3.7.0"
+		}
+	},
+	"MessagesDirs": {
+		"HierarchyBuilder": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"HierarchyBuilderMagic": "HierarchyBuilder.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"HierarchyBuilder": "HierarchyBuilder.php",
+		"HierarchyBuilderHooks": "HierarchyBuilderHooks.php",
+		"HierarchyFormInput": "/includes/HierarchyFormInput.php",
+		"HierarchySelectFormInput": "/includes/HierarchySelectFormInput.php",
+		"HierarchyTree": "/includes/HierarchyTree.php",
+		"TreeNode": "/includes/TreeNode.php"
+	},
+	"ResourceModules": {
+		"ext.HierarchyBuilder.jstree": {
+			"styles": "themes/apple/style.css",
+			"scripts": "/resources/jquery.jstree.js"
+		},
+		"ext.HierarchyBuilder.render": {
+			"scripts": "/resources/renderHierarchy.js",
+			"styles": "/resources/renderHierarchy.css",
+			"dependencies": [
+				"ext.HierarchyBuilder.jstree"
+			]
+		},
+		"ext.HierarchyBuilder.renderSelected": {
+			"scripts": "/resources/renderHierarchySelected.js",
+			"styles": "/resources/renderHierarchySelected.css",
+			"dependencies": [
+				"ext.HierarchyBuilder.jstree"
+			]
+		},
+		"ext.HierarchyBuilder.edit": {
+			"scripts": "/resources/editHierarchy.js",
+			"styles": "/resources/editHierarchy.css",
+			"dependencies": [
+				"ext.HierarchyBuilder.jstree",
+				"ext.pageforms.main"
+			]
+		},
+		"ext.HierarchyBuilder.select": {
+			"scripts": "/resources/selectFromHierarchy.js",
+			"styles": "/resources/selectFromHierarchy.css",
+			"dependencies": [
+				"ext.HierarchyBuilder.jstree",
+				"ext.pageforms.main"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "HierarchyBuilder"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "HierarchyBuilderHooks::efHierarchyBuilderSetup"
+	},
+	"manifest_version": 1
+}

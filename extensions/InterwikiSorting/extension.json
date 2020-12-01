@@ -1,0 +1,48 @@
+{
+	"name": "InterwikiSorting",
+	"author": [
+		"Addshore",
+		"Nikola Smolenski",
+		"Katie Filbert",
+		"Thiemo Kreuz"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:InterwikiSorting",
+	"descriptionmsg": "interwikisorting-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"config": {
+		"InterwikiSortingSort": {
+			"description": "The default sort order to use. 'code' is build in and orders alphabetically by interwiki code.",
+			"value": "code"
+		},
+		"InterwikiSortingSortPrepend": {
+			"description": "Codes that should appear at the start of the list of interwiki links.",
+			"value": []
+		},
+		"InterwikiSortingInterwikiSortOrders": {
+			"description": "Definition of sort orders. Each sort order key should be the sort order name, for example 'alphabetical'. Each key should have a value of an array of interwiki codes in the order to be sorted.",
+			"value": []
+		}
+	},
+	"AutoloadNamespaces": {
+		"InterwikiSorting\\": "src/"
+	},
+	"HookHandlers": {
+		"LanguageLinksHandler": {
+			"class": "InterwikiSorting\\LanguageLinksHandler",
+			"factory": "InterwikiSorting\\LanguageLinksHandler::newFromGlobalState"
+		}
+	},
+	"Hooks": {
+		"LanguageLinks": "LanguageLinksHandler"
+	},
+	"MessagesDirs": {
+		"InterwikiSorting": [
+			"i18n"
+		]
+	},
+	"manifest_version": 2
+}

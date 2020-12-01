@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cindy Cicalese"
+		]
+	},
+	"phabtaskgraph": "Phabricator Task Graph",
+	"phabtaskgraph-desc": "Visualizes phabricator task relationships in a force directed graph",
+	"phabtaskgraph-author-field-label": "Author",
+	"phabtaskgraph-owner-field-label": "Owner",
+	"phabtaskgraph-tasks-field-label": "Tasks",
+	"phabtaskgraph-projects-field-label": "Projects",
+	"phabtaskgraph-status-field-label": "Status",
+	"phabtaskgraph-width-field-label": "Width",
+	"phabtaskgraph-height-field-label": "Height",
+	"phabtaskgraph-tasks-field-help": "comma-separated list of task IDs (starting \"T\" optional); e.g. 'T123456, T654321'",
+	"phabtaskgraph-projects-field-help": "comma-separated list of project names; e.g. 'MediaWiki-Platform-Team, Epic'",
+	"phabtaskgraph-width-field-help": "default: 800",
+	"phabtaskgraph-height-field-help": "default: 800",
+	"phabtaskgraph-status-open": "Open",
+	"phabtaskgraph-status-stalled": "Stalled",
+	"phabtaskgraph-status-resolved": "Resolved",
+	"phabtaskgraph-status-invalid": "Invalid",
+	"phabtaskgraph-status-declined": "Declined",
+	"phabtaskgraph-status-duplicate": "Duplicate"
+}

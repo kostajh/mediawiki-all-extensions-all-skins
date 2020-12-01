@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Toliño"
+		]
+	},
+	"spark-desc": "Engade unha etiqueta <code><nowiki><spark /></nowiki></code> que permite a incorporación de mash-ups de [http://km.aifb.kit.edu/sites/spark/ Spark].",
+	"spark-missing-query": "Cómpre especificar unha pescuda a través do parámetro \"data-spark-query\"."
+}

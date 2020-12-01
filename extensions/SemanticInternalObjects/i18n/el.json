@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Omnipaedista",
+			"Protnet"
+		]
+	},
+	"semanticinternalobjects-desc": "Καθορισμός εσωτερικών αντικειμένων στο Σημασιολογικό MediaWiki",
+	"semanticinternalobjects-internalproperty": "Εσωτερική ιδιότητα",
+	"semanticinternalobjects-mainpropertyname": "Όνομα ιδιότητας που να συνδέει τα πεδία αυτού του προτύπου με το υπόλοιπο της σελίδας:",
+	"semanticinternalobjects-propnamewarning": "(πρέπει να χρησιμοποιείται μόνο εάν αυτό το πρότυπο μπορεί να έχει πολλά στιγμιότυπα)"
+}

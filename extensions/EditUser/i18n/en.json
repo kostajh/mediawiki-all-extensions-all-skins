@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ryan Schmidt"
+		]
+	},
+	"edituser": "Edit user",
+	"edituser-extensionname": "EditUser",
+	"edituser-desc": "Allows privileged users to edit other user's preferences",
+	"edituser-username": "Username:",
+	"edituser-dosearch": "Search",
+	"edituser-nouser": "The user \"$1\" does not exist.",
+	"edituser-exempt": "The user \"$1\" cannot be edited.",
+	"right-edituser": "Edit the preferences of other users",
+	"right-edituser-exempt": "Others cannot edit this user's preferences",
+	"action-edituser": "edit the preferences of other users",
+	"action-edituser-exempt": "edit the preferences of this user"
+}

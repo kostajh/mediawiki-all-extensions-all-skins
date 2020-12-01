@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Winston Sung"
+		]
+	},
+	"deleteuserpages-desc": "讓使用者刪除自己的使用者頁面",
+	"action-delete-rootuserpages": "刪除自己的使用者頁面與使用者討論頁面",
+	"right-delete-rootuserpages": "刪除自己的使用者頁面與使用者討論頁面",
+	"action-delete-usersubpages": "刪除他們的使用者頁面下的子頁面",
+	"right-delete-usersubpages": "刪除自己的使用者頁面下的子頁面"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shijualex"
+		]
+	},
+	"form": "ഫോം",
+	"form-no-name": "ഫോമിനു പേരില്ല",
+	"form-no-name-text": "ഫോമിനു ഒരു പേരു നിർബന്ധമായും കൊടുക്കണം, ഉദാ: \"Special:Form/Nameofform\".",
+	"form-bad-name": "അസാധുവായ ഫോം നാമം",
+	"form-bad-name-text": "ആ പേരിൽ ഒരു ഫോമില്ല.",
+	"form-pattern": "$1-ഫോം",
+	"form-save": "സേവ് ചെയ്യുക",
+	"form-article-exists": "താൾ നിലവിലുണ്ട്",
+	"form-article-existstext": "[[$1]] എന്ന താൾ നിലവിലുണ്ട്.",
+	"form-bad-page-name": "അസാധുവായ താൾ നാമം"
+}

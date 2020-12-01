@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"sslauth-enable": "ჩართვა",
+	"sslauth-disable": "გამორთვა",
+	"sslauth-email": "ელ. ფოსტის მისამართი",
+	"sslauth-serial": "სერიული ნომერი",
+	"sslauth-invalidrequest-title": "არასწორი მოთხოვნა"
+}

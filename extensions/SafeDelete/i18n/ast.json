@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"safedelete": "Desaniciu seguru",
+	"safedelete-desc": "Borrar la páxina sólo si nos espacios de nomes indicaos nun hai páxines qu'enllacen con ella",
+	"safedelete-title": "Desaniciar «$1»",
+	"safedelete-missingpagename": "Falta'l nome de la páxina.",
+	"safedelete-missingnamespaces": "La llista d'espacios de nomes de Desaniciu Especial nun ta configurada.",
+	"safedelete-cannotdelete": "Nun pué desaniciase la páxina «$1» porque hai enllaces o redireiciones a ella dende {{PLURAL:$2|la páxina siguiente|les páxines siguientes}}:"
+}

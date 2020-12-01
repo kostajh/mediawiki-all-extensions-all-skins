@@ -1,0 +1,80 @@
+{
+	"name": "BlueSpiceSocialRating",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SocialRating",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-socialrating-desc",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceSocial": ">= 4.1",
+			"BlueSpiceRating": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocialRating": {
+					"className": "\\BlueSpice\\Social\\Rating\\Extension",
+					"extPath": "/BlueSpiceSocialRating",
+					"status": "beta",
+					"package": "BlueSpiceSocial"
+				}
+			}
+		},
+		"BlueSpiceRating": {
+			"RatingRegistry": {
+				"bssocial": "\\BlueSpice\\Social\\Rating\\RatingConfig\\Entity"
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceSocialRating": [
+			"i18n"
+		]
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\Rating\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.ratingItemBSSocial": {
+			"scripts": [
+				"EntityActionMenu/Rating.js",
+				"bluespice.social.rating.js",
+				"bluespice.ratingItemBSSocial.js"
+			],
+			"dependencies": [
+				"ext.bluespice.rating",
+				"ext.bluespice.ratingItem"
+			],
+			"messages": [
+				"bs-rating-yourrating",
+				"bs-socialrating-aftercontent-ratingtext",
+				"bs-socialrating-var-rating"
+			]
+		},
+		"ext.bluespice.ratingItemBSSocial.styles": {
+			"styles": [
+				"bluespice.social.rating.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocialRating/resources"
+	},
+	"Hooks": {
+		"BSEntityConfigDefaults": "\\BlueSpice\\Social\\Rating\\Hook\\BSEntityConfigDefaults\\IsRateable::callback",
+		"BSEntityGetFullData": "\\BlueSpice\\Social\\Rating\\Hook\\BSEntityGetFullData\\AddRating::callback",
+		"BSSocialModuleDepths": "\\BlueSpice\\Social\\Rating\\Hook\\BSSocialModuleDepths\\AddModules::callback",
+		"BSEntityConfigAttributeDefinitions": "\\BlueSpice\\Social\\Rating\\Hook\\BSEntityConfigAttributeDefinitions\\AddRating::callback",
+		"BSSocialEntityGetActions": "\\BlueSpice\\Social\\Rating\\Hook\\BSSocialEntityGetActions\\AddRating::callback"
+	},
+	"manifest_version": 2
+}

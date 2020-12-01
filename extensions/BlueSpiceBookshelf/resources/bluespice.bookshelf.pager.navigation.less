@@ -1,0 +1,69 @@
+.navigation-main #bs-sitenavtabs div.tab-content #bs-bookshelfui-chapter-chapterpager {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    .panel-collapse {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .panel-heading {
+        display: none;
+    }
+
+    .bookshelfui-chapterpager-heading {
+        margin-top: 30px;
+        .book-title {
+            text-align: left;
+            padding: 0 10px;
+            font-weight: bold;
+        }
+    }
+    .bookshelfui-chapterpager {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+
+        a,
+        a:link,
+        a:visited {
+            color: white;
+            cursor: pointer;
+            line-height: 32px;
+
+            &.disabled {
+                visibility: hidden;
+            }
+
+            &.prev-chapter,
+            &.next-chapter{
+                padding: 0 10px;
+                width: auto;
+                display: flex;
+
+                span {
+                    line-height: 32px;
+                    height: 100%;
+                    display: inline-block;
+                }
+            }
+            &.prev-chapter::before {
+                content: "\e922";
+                font-family: "entypo";
+            }
+            &.next-chapter::after {
+                content: "\e923";
+                font-family: "entypo";
+            }
+        }
+    }
+
+    #bs-bookshelfui-chapter-chapterpager + #bs-bookshelfui-chapter-nav {
+        .bs-bookshelfui-book {
+            display: none;
+        }
+    }
+}

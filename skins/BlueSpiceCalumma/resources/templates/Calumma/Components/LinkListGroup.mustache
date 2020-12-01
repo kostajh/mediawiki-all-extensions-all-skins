@@ -1,0 +1,12 @@
+<div class="list-group">
+	{{#links}}
+	<a id="{{id}}" href="{{href}}" class="list-group-item pull-right-container {{#class}} {{.}} {{/class}} {{#active}} active{{/active}}" {{#target}}target="{{.}}"{{/target}} title="{{title}}"{{#data}} data-{{key}}="{{value}}"{{/data}}{{#rel}} rel="{{.}}"{{/rel}}>
+		<i class="{{^iconClass}} bs-icon-linklist-default {{/iconClass}} {{#iconClass}} {{.}} {{/iconClass}}" style="width:0;"></i>
+		<span style="width:auto;">{{text}}</span>
+		{{#badge}}
+		<span class="badge">{{badge}}</span>
+		{{/badge}}
+		<i class="bs-chevron pull-right" style="width:0;"></i>
+	</a>
+	{{/links}}
+</div>

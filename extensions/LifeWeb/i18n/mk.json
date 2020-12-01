@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Создавач и уредник на назнаки",
+	"apihelp-query+LifeWeb-description": "Надолна врска за податоците од LifeBase.",
+	"apihelp-query+LifeWeb-summary": "Надолна врска за податоците од LifeBase.",
+	"apihelp-query+LifeWeb-param-what": "Кои податоци да се добијат.",
+	"apihelp-query+LifeWeb-param-clearCache": "Дали да се исчисти меѓускладот при добивањето на податоците",
+	"apihelp-query+LifeWeb-example-1": "Таксонски список",
+	"apihelp-query+LifeWeb-example-2": "Список на прашања, убаво испечатен"
+}

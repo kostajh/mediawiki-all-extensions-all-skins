@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Romaine",
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "Het aanmaken van gebruikers is automatisch voor enige tijd geblokkeerd om een overvloed aan registraties te voorkomen.\nWacht even en klik dan op \"Huidige pagina vernieuwen\" in uw browser om het opnieuw te proberen.",
+	"userthrottle-desc": "Aanmaken gebruikers beperken"
+}

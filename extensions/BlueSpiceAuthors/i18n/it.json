@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albe Albe460",
+			"Beta16",
+			"Nemo bis"
+		]
+	},
+	"bs-authors-desc": "Visualizza l'immagine del profilo per gli autori di una pagina",
+	"prefs-authors": "Autori di questa pagina",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Autore|Autrice}}|Autori}}",
+	"bs-authors-profileimage": "Immagine profilo",
+	"bs-authors-profileimage-change": "Cambia immagine del profilo",
+	"bs-authors-show-all-authors": "Altri autori disponibili",
+	"bs-authors-pref-show": "Visualizza autori",
+	"bs-authors-switch-description": "Nasconde gli autori su questa pagina.",
+	"bs-authors-navigation-link-title": "Autori di questa pagina",
+	"bs-authors-navigation-link-text": "Autori",
+	"bs-authors-flyout-title": "Autori di questa pagina",
+	"bs-authors-author-type-originator": "Autore originale",
+	"bs-authors-author-type-editor": "Editore"
+}

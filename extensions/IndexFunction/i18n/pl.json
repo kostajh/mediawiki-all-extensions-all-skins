@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sp5uhe"
+		]
+	},
+	"indexfunc-desc": "Funkcja parsera automatycznie tworząca przekierowania i strony ujednoznaczniające",
+	"indexfunc-badtitle": "Niepoprawny tytuł „$1”",
+	"indexfunc-editwarning": "Uwaga.\nTen tytuł jest tytułem indeksu {{PLURAL:$2|strony|następujących stron:}}\n$1\nUpewnij się, że strona, którą chcesz utworzyć nie istnieje pod inną nazwą. \nJeśli utworzysz tę stronę, usuń tytułu z <nowiki>{{#index:}}</nowiki> dla {{PLURAL:$2|powyższej strony|powyższych stron}}.",
+	"indexfunc-index-exists": "Strona „$1” już istnieje",
+	"indexfunc-movewarn": "Uwaga.\n\n„$1” jest tytułem indeksu dla następujących stron:\n$2\nUsuń „$1” z <nowiki>{{#index:}}</nowiki> z {{PLURAL:$3|powyższej strony|powyższych stron}}.",
+	"index": "Indeks",
+	"index-legend": "Szukaj w indeksie",
+	"index-search": "Szukaj",
+	"index-submit": "Zapisz",
+	"index-disambig-start": "'''$1''' może odnosić się do wielu stron:",
+	"index-emptylist": "Nie ma strony związanej z „$1”",
+	"index-expand-detail": "Pokaż strony indeksowane tym tytułem",
+	"index-hide-detail": "Ukryj listę stron",
+	"index-no-results": "Brak wyników wyszukiwania",
+	"index-search-explain": "Ta strona korzysta z wyszukiwania przedrostka.\n\nWpisz kilka początkowych znaków i wciśnij przycisk „{{int:index-submit}}”, aby wyszukać tytuły stron i wpisy w indeksie rozpoczynające się od poszukiwanego ciągu znaków",
+	"index-details-explain": "Wpisy ze strzałkami to hasła indeksowe.\nKliknij strzałkę, aby zobaczyć wszystkie strony zaindeksowane tym tytułem."
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"swiftmailer-desc": "Tilbyr SwiftMailer som en alternativ epostklient",
+	"swiftmailer-smtp-error": "Feil under oppsett av SMTP-transport for SwiftMailer: $1",
+	"swiftmailer-send-error": "Feil under sending av epost med SwiftMailer: $1"
+}

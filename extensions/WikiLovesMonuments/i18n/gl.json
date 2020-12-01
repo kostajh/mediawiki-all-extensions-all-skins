@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Platonides",
+			"Toliño"
+		]
+	},
+	"wlm-extension-desc": "Engade información e mensaxes en relación ao concurso fotográfico Wiki Loves Monuments",
+	"wlm-no-contest-year": "Non houbo concurso de Wiki Loves Monuments ningún no ano $1.",
+	"wlm-no-url-bad-country": "Non puidemos obter a páxina web da competición local. \"$1\" non é un código de país válido.",
+	"wlm-country-not-given": "Cómpre achegar un código de país.",
+	"wlm-country-not-participating-year": "\"$1\" non participou no Wiki Loves Monuments do ano $2",
+	"wlm-sidebar-portlet": "Outros países",
+	"wlm-international-contest": "Internacional",
+	"wlm-text-contact": "Contacto",
+	"wlm-text-contest": "Concurso",
+	"wlm-text-donate": "Doar",
+	"wlm-text-faq": "Preguntas frecuentes",
+	"wlm-text-jury": "Xurado",
+	"wlm-text-monuments": "Monumentos",
+	"wlm-text-news": "Novidades",
+	"wlm-text-participate": "Participa!",
+	"wlm-text-prizes": "Premios",
+	"wlm-text-rules": "Regulamento",
+	"wlm-text-sponsors": "Patrocinadores",
+	"wlm-text-uploading": "Cargar fotos"
+}

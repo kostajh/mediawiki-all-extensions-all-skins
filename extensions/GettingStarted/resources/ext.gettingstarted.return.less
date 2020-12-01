@@ -1,0 +1,164 @@
+@import 'mediawiki.ui/variables';
+@import 'mediawiki.mixins';
+
+/* Specific elements */
+#mw-gettingstarted-cta-other-page {
+	min-width: 280px;
+	max-width: 365px;
+}
+
+/* Remove right margin on right-most buttons */
+#mw-gettingstarted-editable-main-fix-pages,
+#mw-gettingstarted-other-fix-pages {
+	margin-right: 0;
+}
+
+.mw-gettingstarted-cta-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
+	/* One z-index above guiders */
+	z-index: 100000006;
+
+	/*
+	   TODO (mattflaschen, 2013-10-03): Our approach to widths and wrapping
+	   needs further thought when we try to generalize this CSS.
+	*/
+	.mw-ui-button {
+		min-width: 210px;
+	}
+}
+
+.mw-gettingstarted-cta-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.5;
+	-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(opacity=50)';
+	z-index: -1;
+}
+
+.mw-gettingstarted-cta-container {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+/*
+   Classes that could (in theory at least) be used for more than
+   one element
+*/
+.mw-gettingstarted-cta {
+	background-color: #fff;
+	border: 1px solid @colorGray10;
+	border-radius: @borderRadius;
+	margin: auto;
+	padding: 20px 30px;
+	overflow: auto;
+	/* One z-index above overlay above */
+	z-index: 100000007;
+	display: inline-block;
+	text-align: left;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+	.mw-ui-button {
+		vertical-align: top;
+		text-align: inherit;
+		margin-right: 20px;
+		margin-bottom: 0;
+		margin-top: 15px;
+
+		&.mw-gettingstarted-cta-secondary {
+			.mw-gettingstarted-cta-button-icon-copyedit {
+				opacity: 0.87; // = `#222` on `background-color: #fff`, closest to `#202122`
+				.transition( opacity 100ms );
+			}
+
+			&:hover {
+				.mw-gettingstarted-cta-button-icon-copyedit {
+					opacity: 0.74; // = `#424242` on `background-color: #fff`, closest to `#404244`.
+				}
+			}
+
+			&:active {
+				.mw-gettingstarted-cta-button-icon-copyedit {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+.mw-gettingstarted-cta-body {
+	margin-bottom: 5px;
+	color: @colorGray2;
+}
+
+.mw-gettingstarted-cta-close {
+	background-image: url( images/close.svg );
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin-top: 4px;
+	margin-left: 20px; /* Prevents text from getting close */
+	opacity: 0.87; // = `#222` on `background-color: #fff`, closest to `#202122`.
+	.transition( opacity 100ms );
+
+	&:hover {
+		opacity: 0.74; // = `#424242` on `background-color: #fff`, closest to `#404244`.
+	}
+
+	&:active {
+		opacity: 1;
+	}
+}
+
+.mw-gettingstarted-cta-heading {
+	font-weight: bold;
+	font-size: 1.33em;
+	color: @colorGray2;
+}
+
+.mw-gettingstarted-cta-button-sub {
+	display: block;
+	font-weight: normal;
+	font-size: 0.8em;
+}
+
+/* Button icons */
+.mw-gettingstarted-cta-button-icon {
+	float: left;
+	margin: 10px 10px 10px 0;
+	width: 28px;
+	height: 28px;
+}
+
+.mw-gettingstarted-cta-button-icon-edit {
+	background-image: url( images/edit-invert.svg );
+	background-size: 28px;
+}
+
+.mw-gettingstarted-cta-button-icon-copyedit {
+	background-image: url( images/light_bulb_dark_gray.svg );
+	margin: 2px 0 2px -10px;
+	height: 43px;
+	width: 43px;
+}
+
+.mw-ui-progressive {
+	.mw-gettingstarted-cta-button-icon-copyedit {
+		background-image: url( images/light_bulb_white.svg );
+	}
+}
+
+.mw-gettingstarted-cta-leave-link {
+	margin-top: 20px;
+	font-size: 0.8em;
+	display: block;
+}

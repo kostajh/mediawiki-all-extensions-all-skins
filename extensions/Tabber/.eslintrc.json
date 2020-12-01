@@ -1,0 +1,18 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"rules": {
+		"eqeqeq": "off",
+		"no-jquery/no-global-selector": "off",
+		"no-jquery/variable-pattern": "off",
+		"no-script-url": "off",
+		"no-undef": "off",
+		"one-var": "off",
+		"vars-on-top": "off",
+		"valid-jsdoc": "off"
+	}
+}

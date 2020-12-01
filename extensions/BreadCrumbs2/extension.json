@@ -1,0 +1,39 @@
+{
+	"name": "BreadCrumbs2",
+	"version": "2.1.1",
+	"author": [
+		"Eric Hartwell",
+		"Ike Hecht"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:BreadCrumbs2",
+	"descriptionmsg": "breadcrumbs2-desc",
+	"license-name": "CC-BY-3.0",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"BreadCrumbs2": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"BreadCrumbs2": "BreadCrumbs2.class.php",
+		"BreadCrumbs2Hooks": "BreadCrumbs2.hooks.php"
+	},
+	"Hooks": {
+		"SkinSubPageSubtitle": "BreadCrumbs2Hooks::onSkinSubPageSubtitle",
+		"SidebarBeforeOutput": "BreadCrumbs2Hooks::onSidebarBeforeOutput"
+	},
+	"config": {
+		"BreadCrumbs2RemoveBasePageLink": {
+			"description": "If breadcrumbs are defined for this page, remove the link back to the base page.",
+			"value": false
+		},
+		"BreadCrumbs2HideUnmatched": {
+			"description": "If no breadcrumbs are defined for this page, show nothing.",
+			"value": false
+		}
+	},
+	"manifest_version": 2
+}

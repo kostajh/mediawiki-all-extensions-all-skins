@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"Kareyac",
+			"Okras"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Добавляет поддержку основанного на браузере рендера PDF через сервис Electron PDF",
+	"electronpdfservice-special-page-headline": "Скачать как PDF",
+	"electronpdfservice-download-label": "Скачать как PDF",
+	"electronpdfservice-download-button": "Скачать",
+	"electronpdfservice-sidebar-portlet-heading": "Печать/экспорт",
+	"electronpdfservice-sidebar-portlet-print-text": "Скачать как PDF",
+	"electronpdfservice-invalid-page-title": "Некорректная страница",
+	"electronpdfservice-invalid-page-text": "Указана неверная страница."
+}

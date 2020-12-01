@@ -1,0 +1,17 @@
+==SuperList.class.php==
+
+'WikiExplorer::queryPagesWithFilter':
+$filters:
+ &$tables:
+ &$fields:
+ &$conditions:
+ &$joins:
+
+'WikiExplorer::buildDataSets':
+&$output['rows']:
+
+'WikiExplorer::getFieldDefinitions':
+&$output['fields']:
+
+'WikiExplorer::getColumnDefinitions':
+&$aColumns:

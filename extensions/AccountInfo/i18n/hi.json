@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Innocentbunny",
+			"Jayprakash12345",
+			"Sfic"
+		]
+	},
+	"accountinfo": "खाता संसूचना",
+	"accountinfo-desc": "उपयोगकर्ता को उनके बारे में संग्रहीत निजी जानकारी देखने की अनुमति है",
+	"accountinfo-ts": "टाइमस्टैम्प",
+	"accountinfo-ip": "आइपी पता",
+	"accountinfo-ua": "सदस्य एजेंट",
+	"accountinfo-xff": "XFF हेडर",
+	"accountinfo-length": "$1 के लिए सूचना बरकरार रखा गया।",
+	"accountinfo-now": "अभी"
+}

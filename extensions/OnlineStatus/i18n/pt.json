@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Lijealso",
+			"Malafaya",
+			"Waldir",
+			555
+		]
+	},
+	"onlinestatus-desc": "Adiciona uma preferência para mostrar se o utilizador está ligado à wiki ou não",
+	"onlinestatus-js-anon": "Erro: tem que estar autenticado para usar esta funcionalidade",
+	"onlinestatus-js-changed": "O seu estado foi alterado para \"$1\"",
+	"onlinestatus-js-error": "Impossível alterar estado, o valor \"$1\" é inválido",
+	"onlinestatus-subtitle-offline": "Este utilizador encontra-se offline",
+	"onlinestatus-subtitle-online": "Este utilizador encontra-se online",
+	"onlinestatus-tab": "Estado",
+	"onlinestatus-toggles-desc": "O seu estado:",
+	"onlinestatus-toggles-explain": "Isto permite-lhe mostrar a quem consulte a sua página de utilizador se está, ou não, ligado.",
+	"onlinestatus-toggles-show": "Mostrar o estado da minha ligação na minha página de utilizador",
+	"onlinestatus-toggle-offline": "Desligado",
+	"onlinestatus-toggle-online": "Ligado",
+	"onlinestatus-pref-onlineonlogin": "Alterar o meu estado para ligado, quando me autenticar",
+	"onlinestatus-pref-offlineonlogout": "Alterar o meu estado para desligado, quando me desautenticar"
+}

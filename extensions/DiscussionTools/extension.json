@@ -1,0 +1,359 @@
+{
+	"name": "DiscussionTools",
+	"license-name": "MIT",
+	"version": "0.0.0",
+	"url": "https://www.mediawiki.org/wiki/Extension:DiscussionTools",
+	"namemsg": "discussiontools",
+	"descriptionmsg": "discussiontools-desc",
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"extensions": {
+			"VisualEditor": ">= 0.1.2",
+			"Linter": "*"
+		}
+	},
+	"MessagesDirs": {
+		"DiscussionTools": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"callback": "\\MediaWiki\\Extension\\DiscussionTools\\Hooks::onRegistration",
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "DiscussionTools/modules"
+	},
+	"ResourceModules": {
+		"ext.discussionTools.init.styles": {
+			"styles": "dt.init.less"
+		},
+		"ext.discussionTools.init": {
+			"packageFiles": [
+				"dt.init.js",
+				"controller.js",
+				{
+					"name": "controller/contLangMessages.json",
+					"callback": "\\MediaWiki\\Extension\\DiscussionTools\\Data::getContentLanguageMessages",
+					"callbackParam": [
+						"discussiontools-defaultsummary-reply",
+						"discussiontools-replywidget-feedback-link",
+						"discussiontools-replywidget-mention-prefix",
+						"discussiontools-signature-prefix"
+					]
+				},
+				{
+					"name": "config.json",
+					"config": {
+						"enable": "DiscussionToolsEnable",
+						"enable2017Wikitext": "DiscussionToolsEnable2017Wikitext"
+					}
+				},
+				"CommentController.js",
+				"logger.js",
+				"modifier.js",
+				"utils.js",
+				"Parser.js",
+				"ThreadItem.js",
+				"CommentItem.js",
+				"HeadingItem.js",
+				"lib/moment-timezone/moment-timezone-with-data-1970-2030.js",
+				{
+					"name": "parser/data.json",
+					"callback": "\\MediaWiki\\Extension\\DiscussionTools\\Data::getLocalData"
+				}
+			],
+			"dependencies": [
+				"moment",
+				"rangefix",
+				"oojs-ui-windows",
+				"mediawiki.Title",
+				"mediawiki.Uri",
+				"mediawiki.util",
+				"mediawiki.storage",
+				"mediawiki.String",
+				"mediawiki.cookie",
+				"ext.visualEditor.core.utils.parsing"
+			],
+			"messages": [
+				"discussiontools-error-comment-conflict",
+				"discussiontools-error-comment-disappeared",
+				"discussiontools-error-comment-is-transcluded",
+				"discussiontools-error-comment-is-transcluded-title",
+				"discussiontools-error-lint",
+				"discussiontools-error-noswitchtove",
+				"discussiontools-error-noswitchtove-extension",
+				"discussiontools-error-noswitchtove-table",
+				"discussiontools-error-noswitchtove-template",
+				"discussiontools-error-noswitchtove-title",
+				"discussiontools-replylink",
+				"discussiontools-replywidget-loading"
+			]
+		},
+		"ext.discussionTools.debug": {
+			"packageFiles": [
+				"dt.debug.js",
+				"highlighter.js"
+			],
+			"styles": "highlighter.css",
+			"dependencies": [
+				"ext.discussionTools.init"
+			]
+		},
+		"ext.discussionTools.ReplyWidget": {
+			"packageFiles": [
+				"dt.ui.ReplyWidget.js"
+			],
+			"styles": [
+				"dt.ui.ReplyWidget.less"
+			],
+			"messages": [
+				"discussiontools-replywidget-abandon",
+				"discussiontools-replywidget-abandon-discard",
+				"discussiontools-replywidget-abandon-keep",
+				"discussiontools-replywidget-advanced",
+				"discussiontools-replywidget-anon-warning",
+				"discussiontools-replywidget-cancel",
+				"discussiontools-replywidget-feedback",
+				"discussiontools-replywidget-mention-tool-header",
+				"discussiontools-replywidget-mention-tool-title",
+				"discussiontools-replywidget-mode-source",
+				"discussiontools-replywidget-mode-visual",
+				"discussiontools-replywidget-placeholder-reply",
+				"discussiontools-replywidget-preview",
+				"discussiontools-replywidget-reply",
+				"discussiontools-replywidget-summary",
+				"discussiontools-replywidget-terms-click",
+				"discussiontools-replywidget-transcluded",
+				"visualeditor-key-ctrl",
+				"visualeditor-key-enter",
+				"visualeditor-key-escape"
+			],
+			"dependencies": [
+				"oojs-ui-widgets",
+				"oojs-ui.styles.indicators",
+				"ext.discussionTools.init",
+				"mediawiki.widgets.AbandonEditDialog",
+				"mediawiki.widgets.visibleLengthLimit"
+			],
+			"optionalDependencies": {
+				"ConfirmEdit": "ext.confirmEdit.CaptchaInputWidget"
+			},
+			"factory": "\\MediaWiki\\Extension\\DiscussionTools\\Data::addOptionalDependencies"
+		},
+		"ext.discussionTools.ReplyWidgetPlain": {
+			"packageFiles": [
+				"dt.ui.ReplyWidgetPlain.js"
+			],
+			"dependencies": [
+				"ext.discussionTools.ReplyWidget",
+				"mediawiki.editfont.styles",
+				"mediawiki.user",
+				"mediawiki.jqueryMsg"
+			]
+		},
+		"ext.discussionTools.ReplyWidgetVisual": {
+			"packageFiles": [
+				"dt.ui.ReplyWidgetVisual.js",
+				"dt-ve/CommentTarget.js",
+				"dt-ve/CommentTargetWidget.js",
+				"dt-ve/dt.dm.MWSignatureNode.js",
+				"dt-ve/dt.ce.MWSignatureNode.js",
+				"dt-ve/dt.ui.MWSignatureContextItem.js",
+				"dt-ve/dt.ui.registries.js",
+				"dt-ve/dt.ui.UsernameCompletionAction.js",
+				"dt-ve/dt.ui.UsernameCompletionTool.js",
+				"dt-ve/dt.dm.PingNode.js",
+				"dt-ve/dt.ce.PingNode.js"
+			],
+			"styles": [
+				"dt-ve/CommentTargetWidget.less"
+			],
+			"messages": [
+				"discussiontools-replywidget-signature-title",
+				"discussiontools-replywidget-signature-body"
+			],
+			"dependencies": [
+				"ext.discussionTools.ReplyWidget",
+				"ext.visualEditor.mwcore",
+				"ext.visualEditor.mwsignature",
+				"ext.visualEditor.mwwikitext",
+				"ext.visualEditor.core.desktop",
+				"ext.visualEditor.desktopTarget",
+				"ext.visualEditor.mwextensions.desktop"
+			]
+		}
+	},
+	"QUnitTestModule": {
+		"localBasePath": "tests",
+		"remoteExtPath": "DiscussionTools/tests",
+		"packageFiles": [
+			"qunit/index.js",
+			"qunit/testUtils.js",
+			{
+				"name": "data-en.json",
+				"callback": "\\MediaWiki\\Extension\\DiscussionTools\\Data::getLocalData",
+				"callbackParam": "en"
+			},
+			"data/arwiki-config.json",
+			"data/arwiki-data.json",
+			"data/ckbwiki-config.json",
+			"data/ckbwiki-data.json",
+			"data/enwiki-config.json",
+			"data/enwiki-data.json",
+			"data/frwiki-config.json",
+			"data/frwiki-data.json",
+			"data/huwiki-config.json",
+			"data/huwiki-data.json",
+			"data/itwiki-config.json",
+			"data/itwiki-data.json",
+			"data/nlwiki-config.json",
+			"data/nlwiki-data.json",
+			"data/plwiki-config.json",
+			"data/plwiki-data.json",
+			"data/srwiki-config.json",
+			"data/srwiki-data.json",
+			"cases/authors.json",
+			"cases/comments.json",
+			"cases/transcluded.json",
+			"cases/modified.json",
+			"cases/reply.json",
+			"cases/unwrap.json",
+			"cases/isWikitextSigned.json",
+			"cases/isHtmlSigned.json",
+			"cases/sanitize-wikitext-linebreaks.json",
+			"cases/timestamp-regex.json",
+			"cases/timestamp-parser.json",
+			"cases/timestamp-parser-dst.json",
+			"cases/en-big-oldparser/en-big-oldparser.json",
+			"cases/en-big-parsoid/en-big-parsoid.json",
+			"cases/en-big-parsoid/en-big-parsoid-transcludedFrom.json",
+			"cases/ckb-big-oldparser/ckb-big-oldparser.json",
+			"cases/ckb-big-parsoid/ckb-big-parsoid.json",
+			"cases/en-bigafd-parsoid/en-bigafd-parsoid-transcludedFrom.json",
+			"cases/transclusions/transclusions-transcludedFrom.json",
+			"cases/pl-big-oldparser/pl-big-oldparser.json",
+			"cases/pl-big-parsoid/pl-big-parsoid.json",
+			"cases/ar-no-paragraph-oldparser/ar-no-paragraph-oldparser.json",
+			"cases/ar-no-paragraph-parsoid/ar-no-paragraph-parsoid.json",
+			"cases/ar-nbsp-timezone-oldparser/ar-nbsp-timezone-oldparser.json",
+			"cases/ar-nbsp-timezone-parsoid/ar-nbsp-timezone-parsoid.json",
+			"cases/fr-unsigned-oldparser/fr-unsigned-oldparser.json",
+			"cases/fr-unsigned-parsoid/fr-unsigned-parsoid.json",
+			"cases/fr-unsigned-parsoid/fr-unsigned-parsoid-transcludedFrom.json",
+			"cases/it-unsigned-oldparser/it-unsigned-oldparser.json",
+			"cases/it-unsigned-parsoid/it-unsigned-parsoid.json",
+			"cases/it-unsigned-parsoid/it-unsigned-parsoid-transcludedFrom.json",
+			"cases/sr-ec/sr-ec.json",
+			"cases/sr-el/sr-el.json",
+			"cases/no-heading/no-heading.json",
+			"cases/lrm-signature/lrm-signature.json",
+			"cases/fallback-encoding-link/fallback-encoding-link.json",
+			"cases/parsoid-sections/parsoid-sections-transcludedFrom.json",
+			"cases/signatures-funny/signatures-funny.json",
+			"qunit/modifier.test.js",
+			"qunit/parser.test.js",
+			"qunit/ThreadItem.test.js"
+		],
+		"templates": [
+			"cases/en-big-oldparser/en-big-oldparser.html",
+			"cases/en-big-oldparser/en-big-oldparser-modified.html",
+			"cases/en-big-oldparser/en-big-oldparser-reply.html",
+			"cases/en-big-parsoid/en-big-parsoid.html",
+			"cases/en-big-parsoid/en-big-parsoid-modified.html",
+			"cases/ckb-big-oldparser/ckb-big-oldparser.html",
+			"cases/ckb-big-parsoid/ckb-big-parsoid.html",
+			"cases/en-bigafd-parsoid/en-bigafd-parsoid.html",
+			"cases/transclusions/transclusions.html",
+			"cases/pl-big-oldparser/pl-big-oldparser.html",
+			"cases/pl-big-oldparser/pl-big-oldparser-modified.html",
+			"cases/pl-big-oldparser/pl-big-oldparser-reply.html",
+			"cases/pl-big-parsoid/pl-big-parsoid.html",
+			"cases/pl-big-parsoid/pl-big-parsoid-modified.html",
+			"cases/ar-no-paragraph-oldparser/ar-no-paragraph-oldparser.html",
+			"cases/ar-no-paragraph-oldparser/ar-no-paragraph-oldparser-modified.html",
+			"cases/ar-no-paragraph-oldparser/ar-no-paragraph-oldparser-reply.html",
+			"cases/ar-no-paragraph-parsoid/ar-no-paragraph-parsoid.html",
+			"cases/ar-no-paragraph-parsoid/ar-no-paragraph-parsoid-modified.html",
+			"cases/ar-nbsp-timezone-oldparser/ar-nbsp-timezone-oldparser.html",
+			"cases/ar-nbsp-timezone-parsoid/ar-nbsp-timezone-parsoid.html",
+			"cases/fr-unsigned-oldparser/fr-unsigned-oldparser.html",
+			"cases/fr-unsigned-oldparser/fr-unsigned-oldparser-reply.html",
+			"cases/fr-unsigned-parsoid/fr-unsigned-parsoid.html",
+			"cases/it-unsigned-oldparser/it-unsigned-oldparser.html",
+			"cases/it-unsigned-parsoid/it-unsigned-parsoid.html",
+			"cases/sr-ec/sr-ec.html",
+			"cases/sr-el/sr-el.html",
+			"cases/no-heading/no-heading.html",
+			"cases/lrm-signature/lrm-signature.html",
+			"cases/fallback-encoding-link/fallback-encoding-link.html",
+			"cases/parsoid-sections/parsoid-sections.html",
+			"cases/split-list/split-list.html",
+			"cases/split-list/split-list-modified.html",
+			"cases/split-list2/split-list2.html",
+			"cases/split-list2/split-list2-modified.html",
+			"cases/mixed-indentation/mixed-indentation.html",
+			"cases/mixed-indentation/mixed-indentation-modified.html",
+			"cases/wrappers/wrappers.html",
+			"cases/wrappers/wrappers-modified.html",
+			"cases/signatures-funny/signatures-funny.html",
+			"cases/signatures-funny/signatures-funny-modified.html",
+			"cases/signatures-funny/signatures-funny-reply.html",
+			"cases/signatures-comments/signatures-comments.html",
+			"cases/signatures-comments/signatures-comments-modified.html"
+		],
+		"dependencies": [
+			"ext.discussionTools.init"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\DiscussionTools\\": "includes/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extension\\DiscussionTools\\Tests\\": "tests/phpunit/"
+	},
+	"APIModules": {
+		"discussiontools": "MediaWiki\\Extension\\DiscussionTools\\ApiDiscussionTools",
+		"discussiontoolsedit": "MediaWiki\\Extension\\DiscussionTools\\ApiDiscussionToolsEdit"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "\\MediaWiki\\Extension\\DiscussionTools\\Hooks::onBeforePageDisplay",
+		"ResourceLoaderGetConfigVars": "\\MediaWiki\\Extension\\DiscussionTools\\Hooks::onResourceLoaderGetConfigVars",
+		"GetBetaFeaturePreferences": "\\MediaWiki\\Extension\\DiscussionTools\\Hooks::onGetBetaPreferences",
+		"GetPreferences": "\\MediaWiki\\Extension\\DiscussionTools\\Hooks::onGetPreferences",
+		"ListDefinedTags": "\\MediaWiki\\Extension\\DiscussionTools\\Hooks::onListDefinedTags",
+		"OutputPageBeforeHTML": "\\MediaWiki\\Extension\\DiscussionTools\\Hooks::onOutputPageBeforeHTML",
+		"ChangeTagsListActive": "\\MediaWiki\\Extension\\DiscussionTools\\Hooks::onListDefinedTags",
+		"RecentChange_save": "\\MediaWiki\\Extension\\DiscussionTools\\Hooks::onRecentChangeSave"
+	},
+	"DefaultUserOptions": {
+		"discussiontools-editmode": "",
+		"discussiontools-replytool": 1
+	},
+	"config": {
+		"DiscussionToolsEnable": {
+			"value": true,
+			"description": "Enable DiscussionTools on talk pages."
+		},
+		"DiscussionToolsBeta": {
+			"value": false,
+			"description": "Make DiscussionTools a BetaFeature."
+		},
+		"DiscussionToolsEnable2017Wikitext": {
+			"value": false,
+			"description": "Enable the 2017 wikitext editor for wikitext replies (not yet supported)."
+		},
+		"DTSchemaEditAttemptStepSamplingRate": {
+			"value": false,
+			"description": "Rate at which to sample sessions for instrumentation; overrides WikimediaEvents rate if set"
+		},
+		"DTSchemaEditAttemptStepOversample": {
+			"value": false,
+			"description": "Oversample EditAttemptStep logging; distinct from rate tuning, as it'll flag the events as being oversampled"
+		}
+	},
+	"ConfigRegistry": {
+		"discussiontools": "GlobalVarConfig::newInstance"
+	},
+	"type": "other"
+}

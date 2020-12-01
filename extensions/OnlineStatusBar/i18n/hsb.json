@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"onlinestatusbar-desc": "Statusowa lajsta, kotraž pokazuje, hač wužiwar je na swojej wužiwarskej stronje online",
+	"prefs-onlinestatus": "Onlinestatus",
+	"onlinestatusbar-used": "Waš onlinestatus na wašich wužiwarskich stronach pokazać",
+	"onlinestatusbar-hide": "Statusowu lajstu na wužiwarskich stronach schować, zo by so jenož magiske słowo wužiwało (za pokročenych wužiwarjow)",
+	"onlinestatusbar-away": "Po postajenym interwalu awtomatisce za \"njepřitomny\" měć",
+	"onlinestatusbar-purge": "Pufrowak wužiwarskeje strony kóždy raz wuprózdnić, hdyž so přizjewješ abo wotzjewješ",
+	"onlinestatusbar-status": "Što je standardny status, kotryž chceće wužiwać?",
+	"onlinestatusbar-away-time": "Ličba mjeńšin, prjedy hač maće so jako \"njepřitomny\" markěrować:",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Online}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Ma}} dźěło",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Njepřitomny|Njepřitomna}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Schowany|Schowana}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Offline}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Njeznaty|Njeznata}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Tutón wužiwar|Tuta wužiwarka}} je nětko online",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Tutón wužiwar|Tuta wužiwarka}} dźěła a njeje snano {{GENDER:$1|přitomny|přitomna}}",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Tutón wužiwar|Tuta wužiwarka}} njeje {{GENDER:$1|aktiwny|aktiwna}} a njeje snano {{GENDER:$1|přitomny|přitomna}}",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Tutón wužiwar|Tuta wužiwarka}} je offline",
+	"onlinestatusbar-tooltip-unknown": "Status {{GENDER:$1|tutoho wužiwarja|tuteje wužiwarki}}  je njeznaty"
+}

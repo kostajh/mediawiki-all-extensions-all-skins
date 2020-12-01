@@ -1,0 +1,42 @@
+{
+	"name": "ChangeUserPasswords",
+	"version": "0.1.0",
+	"author": [
+		"Ankita Mandal",
+		"Mirco Zick"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ChangeUserPasswords",
+	"descriptionmsg": "changeuserpassword-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"GroupPermissions": {
+		"sysop": {
+			"changeuserpasswords": true
+		}
+	},
+	"AvailableRights": [
+		"changeuserpasswords"
+	],
+	"AutoloadClasses": {
+		"ChangeUserPasswordsHooks": "includes/ChangeUserPasswordsHooks.php",
+		"SpecialChangeUserPasswords": "includes/specials/SpecialChangeUserPasswords.php"
+	},
+	"config": {
+		"ChangeUserPasswordsEnableFoo": true
+	},
+	"ExtensionMessagesFiles": {
+		"ChangeUserPasswordsAlias": "ChangeUserPasswords.i18n.alias.php"
+	},
+	"MessagesDirs": {
+		"ChangeUserPasswords": [
+			"i18n"
+		]
+	},
+	"SpecialPages": {
+		"ChangeUserPasswords": "SpecialChangeUserPasswords"
+	},
+	"Hooks": {
+		"AdminLinks": "ChangeUserPasswordsHooks::addToAdminLinks"
+	},
+	"manifest_version": 1
+}

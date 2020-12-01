@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Dansita"
+		]
+	},
+	"bs-hidetitle-desc": "Aggiunge la parola magica <code><nowiki>__HIDETITLE__</nowiki></code> per nascondere il titolo della pagina",
+	"bs-hidetitle-ve-dialog-meta-settings-showtitle": "Mostra",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle": "Nascondi",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-label": "Visibilità del titolo"
+}

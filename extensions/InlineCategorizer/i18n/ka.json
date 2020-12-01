@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010",
+			"გიორგიმელა"
+		]
+	},
+	"inlinecategorizer-add-category": "კატეგორიის ჩამატება",
+	"inlinecategorizer-add-category-submit": "დამატება",
+	"inlinecategorizer-add-category-summary": "ჩაემატა კატეგორია \"$1\".",
+	"inlinecategorizer-cancel": "რედაქტირების გაუქმება",
+	"inlinecategorizer-cancel-all": "ყველა ცვლილების გაუქმება",
+	"inlinecategorizer-confirm-ok": "კარგი",
+	"inlinecategorizer-confirm-save": "შენახვა",
+	"inlinecategorizer-confirm-save-all": "ყველა ცვლილების შენახვა",
+	"inlinecategorizer-confirm-title": "მოქმედების დადასტურება",
+	"inlinecategorizer-edit-category": "კატეგორიის რედაქტირება",
+	"inlinecategorizer-edit-category-summary": "კატეგორია „$1“-ს შეცვლა „$2“-ით.",
+	"inlinecategorizer-error-title": "შეცდომა",
+	"inlinecategorizer-remove-category": "კატეგორიის წაშლა",
+	"inlinecategorizer-remove-category-error": "კატეგორია „$1“ მოშორება ვერ მოხერხდა.\nჩვეულებრივ ეს ხდება მაშინ, როდესაც კატეგორია ჩამატებულია თარგიდან.",
+	"inlinecategorizer-remove-category-summary": "წაიშალა კატეგორია \"$1\"."
+}

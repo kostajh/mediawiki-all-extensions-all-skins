@@ -1,0 +1,115 @@
+{
+	"name": "NavigationTiming",
+	"author": [
+		"Patrick Reilly",
+		"Ori Livneh",
+		"Asher Feldman",
+		"Timo Tijhof",
+		"Ian Marlier",
+		"Gilles Dubuc"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NavigationTiming",
+	"descriptionmsg": "navigationtiming-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.33.0",
+		"extensions": {
+			"EventLogging": "*"
+		}
+	},
+	"MessagesDirs": {
+		"NavigationTiming": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"NavigationTimingHooks": "includes/NavigationTimingHooks.php",
+		"NavigationTimingConfig": "includes/NavigationTimingConfig.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "NavigationTiming/modules"
+	},
+	"ResourceModules": {
+		"ext.navigationTiming": {
+			"packageFiles": [
+				"ext.navigationTiming.js",
+				{
+					"name": "config.json",
+					"callback": "NavigationTimingConfig::getNavigationTimingConfigVars"
+				}
+			],
+			"dependencies": [
+				"jquery.cookie",
+				"ext.eventLogging",
+				"mediawiki.user"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.navigationTiming.rumSpeedIndex": {
+			"scripts": [
+				"RUM-SpeedIndex/rum-speedindex.js"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"QUnitTestModule": {
+		"localBasePath": "",
+		"remoteExtPath": "NavigationTiming",
+		"scripts": [
+			"tests/ext.navigationTiming.test.js"
+		],
+		"dependencies": [
+			"ext.navigationTiming",
+			"ext.navigationTiming.rumSpeedIndex"
+		]
+	},
+	"Hooks": {
+		"BeforePageDisplay": "NavigationTimingHooks::onBeforePageDisplay"
+	},
+	"attributes": {
+		"EventLogging": {
+			"Schemas": {
+				"NavigationTiming": 20521683,
+				"SaveTiming": 15396492,
+				"ResourceTiming": 20373861,
+				"CentralNoticeTiming": 18418286,
+				"CpuBenchmark": 20188971,
+				"RUMSpeedIndex": 18813781,
+				"PaintTiming": 19000009,
+				"ElementTiming": 19315761,
+				"LayoutShift": 20343429,
+				"FeaturePolicyViolation": 19120697,
+				"FirstInputTiming": 19842486
+			}
+		}
+	},
+	"config": {
+		"NavigationTimingSamplingFactor": {
+			"value": false
+		},
+		"NavigationTimingOversampleFactor": {
+			"value": false
+		},
+		"NavigationTimingSurveySamplingFactor": {
+			"value": false
+		},
+		"NavigationTimingSurveyAuthenticatedSamplingFactor": {
+			"value": false
+		},
+		"NavigationTimingSurveyName": {
+			"value": false
+		},
+		"NavigationTimingCpuBenchmarkSamplingFactor": {
+			"value": false
+		}
+	},
+	"manifest_version": 2
+}

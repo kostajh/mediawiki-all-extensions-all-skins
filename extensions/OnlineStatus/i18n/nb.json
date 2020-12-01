@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Nghtwlkr"
+		]
+	},
+	"onlinestatus-desc": "Legger til en innstilling for å vise om brukeren er logget på wikien eller ikke",
+	"onlinestatus-js-anon": "Feil: du må være logget inn for å bruke denne funksjonen",
+	"onlinestatus-js-changed": "Statusen din er endret til «$1»",
+	"onlinestatus-js-error": "Kunne ikke endre status, verdien «$1» er ugyldig",
+	"onlinestatus-subtitle-offline": "Denne brukeren er ikke logget på",
+	"onlinestatus-subtitle-online": "Denne brukeren er logget på",
+	"onlinestatus-tab": "Status",
+	"onlinestatus-toggles-desc": "Din status:",
+	"onlinestatus-toggles-explain": "Dette viser brukere om du er logget på eller ikke ved å se brukersiden din.",
+	"onlinestatus-toggles-show": "Vis innloggingsstatus på brukersiden min",
+	"onlinestatus-toggle-offline": "Ikke logget på",
+	"onlinestatus-toggle-online": "Logget på",
+	"onlinestatus-pref-onlineonlogin": "Endre statusen min til pålogget når jeg logger inn",
+	"onlinestatus-pref-offlineonlogout": "Endre statusen min til avlogget når jeg logger ut"
+}

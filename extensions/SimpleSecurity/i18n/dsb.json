@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"security": "Wěstotny protokol",
+	"security-desc": "Rozšyrja nastawkowy šćit MediaWiki wó móžnosć wobglědanje nastawkowego wopśimjeśa wobgranicowaś",
+	"security-logpage": "Wěstotny protokol",
+	"security-logpagetext": "To jo protokol akcijow blokěrowanych pséz [https://www.mediawiki.org/wiki/Extension:SimpleSecurity rozšyrjenje Simple Security].",
+	"badaccess-read": "Warnowanje: How se na \"$1\" póśěgujo, ale njamaš pšawa, aby měł na njen pśistup.",
+	"security-info": "Su $1 wó toś tom nastawku",
+	"security-info-toggle": "wěstotne wobgranicowanja",
+	"security-inforestrict": "$1 jo na $2 wobgranicowany",
+	"security-desc-LS": "(nałožujo se, dokulaž toś ten bok jo w \"$2 $1\")",
+	"security-desc-PR": "(ze \"šćitowego rejtarka\" stajony)",
+	"security-infosysops": "Njejsu žedne wobgranicowanja, dokulaž sy cłonk w kupce \"administratorow\"",
+	"security-manygroups": "kupce $1 a $2",
+	"security-unchain": "Akcije jadnotliwje změniś",
+	"security-type-category": "kategorija",
+	"security-type-namespace": "mjenjowy rum",
+	"security-restricttogroup": "Pśistup na wopśimjeśe na cłonkow kupki \"$1\" wobgranicowany",
+	"restriction-read": "Cytaś"
+}

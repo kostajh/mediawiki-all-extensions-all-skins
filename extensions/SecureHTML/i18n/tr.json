@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"securehtml": "Güvenli HTML",
+	"securehtml-desc": "Yetkili ve güvenli bir şekilde rastgele HTML eklemenizi sağlar",
+	"securehtml-nokeys": "Hata: <code>$wgSecureHTMLSecrets</code> doldurulmadı.",
+	"securehtml-hashrequired": "Hata: Karma gerekli.",
+	"securehtml-invalidhash": "Hata: Geçersiz karma.",
+	"securehtml-input-title": "HTML girişi",
+	"securehtml-generatedoutput-title": "Üretilen çıkış",
+	"securehtml-renderedhhtml-title": "Oluşturulan HTML",
+	"securehtml-form-keyname": "Anahtar adı (isteğe bağlı)",
+	"securehtml-form-keysecret": "Anahtar sırrı",
+	"securehtml-form-html": "Ham HTML",
+	"securehtml-form-submit": "Gönder",
+	"securehtml-inputinstructions": "Bir anahtar adı (isteğe bağlı), anahtar sırrı ve istediğiniz ham HTML'yi girin.\nHiçbir anahtar adı belirtilmezse, <code>$wgSecureHTMLSecrets</code> içindeki ilk anahtar kabul edilir.",
+	"securehtml-outputinstructions": "Yukarıdaki kodu TAM olarak kopyalayın ve wiki düzenleyicisine yapıştırın.\nOluşturulan kod çalışmazsa, tüm HTML satırlarını giriş HTML'sinden kaldırmayı ve yeniden oluşturmayı deneyin."
+}

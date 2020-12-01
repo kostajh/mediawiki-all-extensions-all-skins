@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume",
+			"Shirayuki"
+		]
+	},
+	"nukedpl": "DPLクエリで一括削除",
+	"nukedpl-desc": "DPL クエリで一括削除できる[[Special:NukeDPL|特別ページ]]を追加する",
+	"nukedpl-intro": "このツールでは、DPL クエリによって選択されたページの大量削除が可能になります。\n\n削除するタイトルのリストを生成するには、以下のクエリを入力します。\n* タイトルは、削除する前に個別に削除することができます。\n* ページのタイトルの大文字と小文字に注意してください。\n* クエリは、任意の DPL タグや中括弧で囲まれないようにしてください。\n* パラメーターの意味については、[http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL マニュアル]を参照してください。",
+	"nukedpl-candidatelist": "候補一覧を表示",
+	"nukedpl-nopages": "以下の DPL クエリでは削除するページが見つかりませんでした: <code>$1</code>",
+	"nukedpl-nuke": "一括削除!",
+	"nukedpl-list": "DPL クエリによって以下の{{PLURAL:$1|ページ}}が選択されました: <code>$2</code>\n\n{{PLURAL:$1|このページ|これらのページ}}を削除するには「{{int:nukedpl-nuke}}」を押してください。",
+	"nukedpl-defaultreason": "DPLクエリで選択したページを一括削除: $1",
+	"action-nukedpl": "Dynamic Page List クエリによるページの一括削除",
+	"right-nukedpl": "Dynamic Page List クエリによってページを一括削除"
+}

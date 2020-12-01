@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alvaro Vidal-Abarca",
+			"Fitoschido",
+			"McDutchie",
+			"SMP",
+			"Solde",
+			"Toniher"
+		]
+	},
+	"duplicator": "Duplica una pàgina",
+	"duplicator-desc": "Crea [[Special:Duplicate|còpies de pàgines]] mantenint l'historial d'edicions",
+	"duplicator-toolbox": "Duplica aquesta pàgina",
+	"duplicator-header": "Aquesta pàgina permet la duplicació completa d'una pàgina, creant còpies independents de tots els historials. Això és útil per a l'edició de nous articles a partir d'altres, etc.",
+	"duplicator-options": "Opcions",
+	"duplicator-source": "Origen:",
+	"duplicator-dest": "Destinació",
+	"duplicator-dotalk": "Duplica la pàgina de discussió (quan així es pugui)",
+	"duplicator-submit": "Duplica",
+	"duplicator-summary": "Copiat des de [[$1]], revisió [[$2]]",
+	"duplicator-success": "[[$1]] s'ha copiat a [[$2]].",
+	"duplicator-success-revisions": "{{PLURAL:$1|S'ha copiat una revisió|S'han copiat $1 revisions}}.",
+	"duplicator-success-talknotcopied": "La pàgina de discussió no s'ha pogut copiar.",
+	"duplicator-failed": "La pàgina no s'ha pogut duplicar. S'ha produït un error desconegut.",
+	"duplicator-source-invalid": "Proporcioneu un títol de pàgina original vàlid.",
+	"duplicator-source-notexist": "[[$1]] no existeix. Proporcioneu un títol d'una pàgina que existeixi.",
+	"duplicator-dest-invalid": "Proporcioneu un títol de destinació vàlid.",
+	"duplicator-dest-exists": "[[$1]] ja existeix. Proporcioneu un títol de destinació que no existeixi.",
+	"right-duplicate": "Duplicar pàgines"
+}

@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agbad",
+			"Guycn2",
+			"Rotemliss",
+			"YaronSh"
+		]
+	},
+	"changeauthor": "שינוי כותב של גרסה",
+	"changeauthor-desc": "מתן אפשרות לשינוי כותב של גרסה",
+	"changeauthor-title": "שינוי הכותב של גרסה",
+	"changeauthor-search-box": "חיפוש גרסאות",
+	"changeauthor-pagename-or-revid": "שם דף או מספר גרסה:",
+	"changeauthor-pagenameform-go": "הצגה",
+	"changeauthor-comment": "הערה:",
+	"changeauthor-changeauthors-multi": "שינוי {{PLURAL:$1|הכותב|הכותבים}}",
+	"changeauthor-explanation-multi": "ניתן להשתמש בטופס זה כדי לשנות כותבים של גרסאות.\nיש לשנות שם משתמש אחד או יותר ברשימה שלהלן, להוסיף הערה (לא חובה) ולאחר מכן ללחוץ על הכפתור \"שינוי הכותב(ים)\".",
+	"changeauthor-changeauthors-single": "שינוי הכותב",
+	"changeauthor-explanation-single": "ניתן להשתמש בטופס זה כדי לשנות כותב של גרסה.\nיש לשנות את שם המשתמש שלהלן, להוסיף הערה (לא חובה) ולאחר מכן ללחוץ על הכפתור \"שינוי הכותב\".",
+	"changeauthor-invalid-username": "שם משתמש שגוי \"$1\".",
+	"changeauthor-nosuchuser": "אין משתמש בשם \"$1\".",
+	"changeauthor-revview": "גרסה #$1 של $2",
+	"changeauthor-nosuchtitle": "אין דף בשם \"$1\".",
+	"changeauthor-weirderror": "אירעה שגיאה מוזרה ביותר.\nנא לנסות לשלוח את הבקשה שוב.\nאם שגיאה זו ממשיכה להופיע, כנראה שמסד הנתונים פגום.",
+	"changeauthor-invalidform": "יש להשתמש בטופס הנמצא ב[[Special:ChangeAuthor|דף המיוחד]] ולא בטופס מותאם אישית.",
+	"changeauthor-success": "בקשתך עובדה בהצלחה.",
+	"changeauthor-rev": "גרסה $1",
+	"log-name-changeauth": "יומן שינויי כותבים",
+	"log-description-changeauth": "יומן זה מציג את שינויי הכותבים של גרסאות.",
+	"logentry-changeauth-changeauth": "$1 שינה את הכותב של {{int:Changeauthor-rev|$4}} בדף $3 מ־$5 ל־$6",
+	"action-changeauthor": "לשנות כותבים של גרסאות",
+	"right-changeauthor": "שינוי כותבים של גרסאות"
+}

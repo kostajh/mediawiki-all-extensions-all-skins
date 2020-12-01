@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"popupalerts-desc": "允許使用標記來插入彈跳視窗到 wiki 頁面。",
+	"popupalerts-expiration-info": "此彈跳視窗下次會在 $1 {{PLURAL:$1|日}}後顯示。"
+}

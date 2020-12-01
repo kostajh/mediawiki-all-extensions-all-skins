@@ -1,0 +1,3701 @@
+{
+	"objects": {
+		"WebRequest": {
+			"class": "PhpTagsWebRequest",
+			"STATIC METHODS": {
+				"getArray": {
+					"parameters": [
+						{ "type": "string", "name": "name" },
+						{ "type": "array", "name": "default", "default": "null" }
+					],
+					"return": "array",
+					"desc": "Get an array or null if the parameter was not passed. If the parameter is a scalar, it will return an array with a single element"
+				},
+				"getBool": {
+					"parameters": [
+						{ "type": "string", "name": "name" },
+						{ "type": "bool", "name": "default", "default": "false" }
+					],
+					"return": "bool",
+					"desc": "Get a boolean or false if the parameter was not passed"
+				},
+				"getCheck": {
+					"parameters": [
+						{ "type": "string", "name": "name" }
+					],
+					"return": "bool",
+					"desc": "Return a boolean whether the parameter was passed, this is useful for checkboxes"
+				},
+				"getCookie": {
+					"parameters": [
+						{ "type": "string", "name": "name" },
+						{ "type": "mixed", "name": "default", "default": "null" }
+					],
+					"return": "mixed",
+					"desc": "Get a cookie from the $_COOKIE jar"
+				},
+				"getInt": {
+					"parameters": [
+						{ "type": "string", "name": "name" },
+						{ "type": "int", "name": "default", "default": "0" }
+					],
+					"return": "int",
+					"desc": "Get an integer or 0 if the parameter was not passed"
+				},
+				"getText": {
+					"parameters": [
+						{ "type": "string", "name": "name" },
+						{ "type": "string", "name": "default", "default": "" }
+					],
+					"return": "string",
+					"desc": "Fetch a text string from the given array or return $default if it's not set"
+				},
+				"getVal": {
+					"parameters": [
+						{ "type": "string", "name": "name" },
+						{ "type": "string", "name": "default", "default": "null" }
+					],
+					"return": "string",
+					"desc": "Get a scalar or null if the parameter was not passed"
+				},
+				"getValues": {
+					"parameters": [
+						{ "type": "string", "name": "..." }
+					],
+					"return": "string",
+					"desc": "Get a scalar or null if the parameter was not passed"
+				},
+				"wasPosted": {
+					"parameters": [],
+					"return": "bool",
+					"desc": "Returns true if the present request was reached by a POST operation false otherwise (GET, HEAD)"
+				}
+			}
+		},
+		"DateTime": {
+			"class": "PhpTagsFuncNativeObject",
+			"METHODS": {
+				"__construct": {
+					"parameters": [
+						{ "type": "string", "name": "time", "default": "now" },
+						{ "type": "DateTimeZone", "name": "timezone", "default": "NULL" }
+					],
+					"return": "DateTime",
+					"desc": "Returns new DateTime object"
+				},
+				"add": {
+					"parameters": [
+						{ "type": "DateInterval", "name": "interval" }
+					],
+					"return": "DateTime",
+					"desc": "Adds an amount of days, months, years, hours, minutes and seconds to a DateTime object"
+				},
+				"modify": {
+					"parameters": [
+						{ "type": "string", "name": "modify" }
+					],
+					"return": "DateTime",
+					"desc": "Alters the timestamp"
+				},
+				"setDate": {
+					"parameters": [
+						{ "type": "int", "name": "year" },
+						{ "type": "int", "name": "month" },
+						{ "type": "int", "name": "day" }
+					],
+					"return": "DateTime",
+					"desc": "Sets the date"
+				},
+				"setISODate": {
+					"parameters": [
+						{ "type": "int", "name": "year" },
+						{ "type": "int", "name": "week" },
+						{ "type": "int", "name": "day", "default": "1" }
+					],
+					"return": "DateTime",
+					"desc": "Sets the ISO date"
+				},
+				"setTime": {
+					"parameters": [
+						{ "type": "int", "name": "hour" },
+						{ "type": "int", "name": "minute" },
+						{ "type": "int", "name": "second", "default": "0" }
+					],
+					"return": "DateTime",
+					"desc": "Sets the time"
+				},
+				"setTimestamp": {
+					"parameters": [
+						{ "type": "int", "name": "unixtimestamp" }
+					],
+					"return": "DateTime",
+					"desc": "Sets the date and time based on an Unix timestamp"
+				},
+				"setTimezone": {
+					"parameters": [
+						{ "type": "DateTimeZone", "name": "unixtimestamp" }
+					],
+					"return": "DateTime",
+					"desc": "Sets the time zone for the DateTime object"
+				},
+				"sub": {
+					"parameters": [
+						{ "type": "DateInterval", "name": "interval" }
+					],
+					"return": "DateTime",
+					"desc": "Subtracts an amount of days, months, years, hours, minutes and seconds from a DateTime object"
+				},
+				"diff": {
+					"parameters": [
+						{ "type": "DateTime", "name": "$datetime2" },
+						{ "type": "bool", "name": "absolute", "default": "false" }
+					],
+					"return": "DateInterval",
+					"desc": "Returns the difference between two DateTime objects"
+				},
+				"format": {
+					"parameters": [
+						{ "type": "string", "name": "format" }
+					],
+					"return": "string",
+					"desc": "Returns date formatted according to given format"
+				},
+				"getOffset": {
+					"parameters": [],
+					"return": "int",
+					"desc": "Returns the timezone offset"
+				},
+				"getTimestamp": {
+					"parameters": [],
+					"return": "int",
+					"desc": "Gets the Unix timestamp"
+				},
+				"DateTimeZone": {
+					"parameters": [],
+					"return": "int",
+					"desc": "Return time zone relative to given DateTime"
+				}
+			},
+			"STATIC METHODS": {
+				"createFromFormat": {
+					"parameters": [
+						{ "type": "string", "name": "format" },
+						{ "type": "string", "name": "time" },
+						{ "type": "DateTimeZone", "name": "timezone", "default": "" }
+					],
+					"return": "DateTime",
+					"desc": "Returns new DateTime object formatted according to the specified format"
+				},
+				"getLastErrors": {
+					"parameters": [],
+					"return": "array",
+					"desc": "Returns the warnings and errors"
+				}
+			},
+			"CONSTANTS": {
+				"ATOM": { "type": "string" },
+				"COOKIE": { "type": "string" },
+				"ISO8601": { "type": "string" },
+				"RFC822": { "type": "string" },
+				"RFC850": { "type": "string" },
+				"RFC1036": { "type": "string" },
+				"RFC1123": { "type": "string" },
+				"RFC2822": { "type": "string" },
+				"RFC3339": { "type": "string" },
+				"RSS": { "type": "string" },
+				"W3C": { "type": "string" }
+			}
+		},
+		"DateTimeZone": {
+			"class": "PhpTagsFuncNativeObject",
+			"METHODS": {
+				"__construct": {
+					"parameters": [
+						{ "type": "string", "name": "timezone" }
+					],
+					"return": "DateTimeZone",
+					"desc": "Returns new DateTimeZone object"
+				},
+				"getLocation": {
+					"parameters": [],
+					"return": "array",
+					"desc": "Returns location information for a timezone"
+				},
+				"getName": {
+					"parameters": [],
+					"return": "string",
+					"desc": "Returns the name of the timezone"
+				},
+				"getOffset": {
+					"parameters": [
+						{ "type": "DateTime", "name": "datetime" }
+					],
+					"return": "int",
+					"desc": "Returns the timezone offset from GMT"
+				},
+				"getTransitions": {
+					"parameters": [
+						{ "type": "int", "name": "timestamp_begin", "default": "" },
+						{ "type": "int", "name": "timestamp_end", "default": "" }
+					],
+					"return": "array",
+					"desc": "Returns all transitions for the timezone"
+				}
+			},
+			"STATIC METHODS": {
+				"listAbbreviations": {
+					"parameters": [],
+					"return": "array",
+					"desc": "Returns associative array containing dst, offset and the timezone name"
+				},
+				"listIdentifiers": {
+					"parameters": [
+						{ "type": "int", "name": "what", "default": "DateTimeZone::ALL" },
+						{ "type": "string", "name": "country", "default": "NULL" }
+					],
+					"return": "array",
+					"desc": "Returns a numerically indexed array containing all defined timezone identifiers"
+				}
+			},
+			"CONSTANTS": {
+				"AFRICA": { "type": "int" },
+				"AMERICA": { "type": "int" },
+				"ANTARCTICA": { "type": "int" },
+				"ARCTIC": { "type": "int" },
+				"ASIA": { "type": "int" },
+				"ATLANTIC": { "type": "int" },
+				"AUSTRALIA": { "type": "int" },
+				"EUROPE": { "type": "int" },
+				"INDIAN": { "type": "int" },
+				"PACIFIC": { "type": "int" },
+				"UTC": { "type": "int" },
+				"ALL": { "type": "int" },
+				"ALL_WITH_BC": { "type": "int" },
+				"PER_COUNTRY": { "type": "int" }
+			}
+		},
+		"DateInterval": {
+			"class": "PhpTagsFuncNativeObject",
+			"METHODS": {
+				"__construct": {
+					"parameters": [
+						{ "type": "string", "name": "interval_spec" }
+					],
+					"return": "DateInterval",
+					"desc": "Returns new DateInterval object"
+				},
+				"format": {
+					"parameters": [
+						{ "type": "string", "name": "format" }
+					],
+					"return": "string",
+					"desc": "Formats the interval"
+				}
+			},
+			"STATIC METHODS": {
+				"createFromDateString": {
+					"parameters": [
+						{ "type": "string", "name": "time" }
+					],
+					"return": "DateInterval",
+					"desc": "Sets up a DateInterval from the relative parts of the string"
+				}
+			},
+			"PROPERTIES": {
+				"y": {
+					"type": "int",
+					"desc": "Number of years"
+				},
+				"m": {
+					"type": "int",
+					"desc": "Number of months"
+				},
+				"d": {
+					"type": "int",
+					"desc": "Number of days"
+				},
+				"h": {
+					"type": "int",
+					"desc": "Number of hours"
+				},
+				"i": {
+					"type": "int",
+					"desc": "Number of minutes"
+				},
+				"s": {
+					"type": "int",
+					"desc": "Number of seconds"
+				},
+				"invert": {
+					"type": "int",
+					"desc": "Is 1 if the interval represents a negative time period and 0 otherwise. See DateInterval::format()"
+				},
+				"days": {
+					"type": "int",
+					"desc": "If the DateInterval object was created by DateTime::diff(), then this is the total number of days between the start and end dates. Otherwise, days will be FALSE"
+				}
+			}
+		},
+		"DatePeriod": {
+			"class": "PhpTagsFuncNativeObject",
+			"METHODS": {
+				"__construct": {
+					"parameters": [
+						{ "type": "mixed", "name": "start_or_isostr" },
+						{ "type": "mixed", "name": "interval_or_options" },
+						{ "type": "mixed", "name": "recurrences_or_end", "default": "" },
+						{ "type": "int", "name": "options", "default": "" }
+					],
+					"return": "DatePeriod",
+					"desc": "Returns new DatePeriod object"
+				},
+				"format": {
+					"parameters": [
+						{ "type": "string", "name": "format" }
+					],
+					"return": "string",
+					"desc": "Formats the interval"
+				}
+			},
+			"CONSTANTS": {
+				"EXCLUDE_START_DATE": { "type": "int" }
+			}
+		}
+	},
+	"functions": {
+		"array_change_key_case": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" },
+				{ "type": "int", "name": "case", "default": "CASE_LOWER" }
+			],
+			"onfailure": "false",
+			"return": "array",
+			"desc": "Changes the case of all keys in an array"
+		},
+		"array_chunk": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" },
+				{ "type": "int", "name": "size" },
+				{ "type": "bool", "name": "preserve_keys", "default": "false" }
+			],
+			"onfailure": "null",
+			"return": "array",
+			"desc": "Split an array into chunks"
+		},
+		"array_combine": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "keys" },
+				{ "type": "array", "name": "values" }
+			],
+			"onfailure": "false",
+			"return": "array",
+			"desc": "Creates an array by using one array for keys and another for its values"
+		},
+		"array_count_values": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" }
+			],
+			"return": "array",
+			"desc": "Counts all the values of an array"
+		},
+		"array_diff_assoc": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array1" },
+				{ "type": "array", "name": "array2" },
+				{ "type": "array", "name": "..." }
+			],
+			"return": "array",
+			"desc": "Computes the difference of arrays with additional index check"
+		},
+		"array_diff_key": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array1" },
+				{ "type": "array", "name": "array2" },
+				{ "type": "array", "name": "..." }
+			],
+			"return": "array",
+			"desc": "Computes the difference of arrays using keys for comparison"
+		},
+		"array_diff": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array1" },
+				{ "type": "array", "name": "array2" },
+				{ "type": "array", "name": "..." }
+			],
+			"return": "array",
+			"desc": "Computes the difference of arrays"
+		},
+		"array_fill_keys": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "keys" },
+				{ "type": "mixed", "name": "value" }
+			],
+			"return": "array",
+			"desc": "Fill an array with values, specifying keys"
+		},
+		"array_fill": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "start_index" },
+				{ "type": "int", "name": "num" },
+				{ "type": "mixed", "name": "value" }
+			],
+			"onfailure": "false",
+			"return": "array",
+			"desc": "Fill an array with values"
+		},
+		"array_filter": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" }
+			]
+		},
+		"array_flip": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" }
+			],
+			"return": "array",
+			"desc": "Exchanges all keys with their associated values in an array"
+		},
+		"array_intersect_assoc": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array1" },
+				{ "type": "array", "name": "array2" },
+				{ "type": "array", "name": "..." }
+			],
+			"return": "array",
+			"desc": "Computes the intersection of arrays with additional index check"
+		},
+		"array_intersect_key": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array1" },
+				{ "type": "array", "name": "array2" },
+				{ "type": "array", "name": "..." }
+			],
+			"return": "array",
+			"desc": "Computes the intersection of arrays using keys for comparison"
+		},
+		"array_intersect": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array1" },
+				{ "type": "array", "name": "array2" },
+				{ "type": "array", "name": "..." }
+			],
+			"return": "array",
+			"desc": "Computes the intersection of arrays"
+		},
+		"array_key_exists": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "scalar", "name": "key" },
+				{ "type": "array", "name": "array" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Checks if the given key or index exists in the array"
+		},
+		"array_keys": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" },
+				{ "type": "mixed", "name": "search_value", "default": "null" },
+				{ "type": "bool", "name": "strict", "default": "false" }
+			],
+			"return": "array",
+			"desc": "Return all the keys or a subset of the keys of an array"
+		},
+		"array_merge_recursive": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array1" },
+				{ "type": "array", "name": "..." }
+			],
+			"return": "array",
+			"desc": "Merge two or more arrays recursively"
+		},
+		"array_merge": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array1" },
+				{ "type": "array", "name": "..." }
+			],
+			"return": "array",
+			"desc": "Merge one or more arrays"
+		},
+		"array_multisort": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array1", "refarray": "true" },
+				{ "type": "nonobject", "name": "array1_sort_order", "refarray": "1", "default": "SORT_ASC" },
+				{ "type": "nonobject", "name": "array1_sort_flags", "refarray": "1", "default": "SORT_REGULAR" },
+				{ "type": "nonobject", "name": "...", "refarray": "1" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Sort multiple or multi-dimensional arrays"
+		},
+		"array_pad": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" },
+				{ "type": "int", "name": "size" },
+				{ "type": "mixed", "name": "value" }
+			],
+			"return": "array",
+			"desc": "Pad array to the specified length with a value"
+		},
+		"array_pop": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" }
+			],
+			"return": "mixed",
+			"desc": "Pop the element off the end of array"
+		},
+		"array_product": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" }
+			],
+			"return": "number",
+			"desc": "Calculate the product of values in an array"
+		},
+		"array_push": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" },
+				{ "type": "mixed", "name": "value1" },
+				{ "type": "mixed", "name": "..." }
+			],
+			"return": "int",
+			"desc": "Push one or more elements onto the end of array"
+		},
+		"array_rand": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" },
+				{ "type": "int", "name": "num", "default": "1" }
+			],
+			"return": "mixed",
+			"desc": "Pick one or more random entries out of an array"
+		},
+		"array_replace_recursive": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array1" },
+				{ "type": "array", "name": "array2" },
+				{ "type": "array", "name": "..." }
+			],
+			"return": "array",
+			"desc": "Replaces elements from passed arrays into the first array recursively"
+		},
+		"array_replace": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array1" },
+				{ "type": "array", "name": "array2" },
+				{ "type": "array", "name": "..." }
+			],
+			"return": "array",
+			"desc": "Replaces elements from passed arrays into the first array"
+		},
+		"array_reverse": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" },
+				{ "type": "bool", "name": "preserve_keys", "default": "false" }
+			],
+			"return": "array",
+			"desc": "Return an array with elements in reverse order"
+		},
+		"array_search": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "needle" },
+				{ "type": "array", "name": "haystack" },
+				{ "type": "bool", "name": "strict", "default": "false" }
+			],
+			"return": "mixed",
+			"desc": "Searches the array for a given value and returns the corresponding key if successful"
+		},
+		"array_shift": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" }
+			],
+			"return": "mixed",
+			"desc": "Shift an element off the beginning of array"
+		},
+		"array_slice": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" },
+				{ "type": "int", "name": "offset" },
+				{ "type": "int", "name": "length", "default": "NULL" },
+				{ "type": "bool", "name": "preserve_keys", "default": "false" }
+			],
+			"return": "array",
+			"desc": "Extract a slice of the array"
+		},
+		"array_splice": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "input", "reference": "1" },
+				{ "type": "int", "name": "offset" },
+				{ "type": "int", "name": "length", "default": "NULL" },
+				{ "type": "mixed", "name": "replacement", "default": "array()" }
+			],
+			"return": "array",
+			"desc": "Remove a portion of the array and replace it with something else"
+		},
+		"array_sum": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" }
+			],
+			"return": "number",
+			"desc": "Calculate the sum of values in an array"
+		},
+		"array_unique": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" },
+				{ "type": "int", "name": "sort_flags", "default": "SORT_STRING" }
+			],
+			"return": "array",
+			"desc": "Removes duplicate values from an array"
+		},
+		"array_unshift": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" },
+				{ "type": "mixed", "name": "value1" },
+				{ "type": "mixed", "name": "..." }
+			],
+			"return": "int",
+			"desc": "Prepend one or more elements to the beginning of an array"
+		},
+		"array_values": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array" }
+			],
+			"return": "array",
+			"desc": "Return all the values of an array"
+		},
+		"arsort": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" },
+				{ "type": "int", "name": "sort_flags", "default": "SORT_REGULAR" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Sort an array in reverse order and maintain index association"
+		},
+		"asort": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" },
+				{ "type": "int", "name": "sort_flags", "default": "SORT_REGULAR" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Sort an array and maintain index association"
+		},
+		"count": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "array_or_countable" },
+				{ "type": "int", "name": "mode", "default": "COUNT_NORMAL" }
+			],
+			"return": "int",
+			"desc": "Count all elements in an array, or something in an object"
+		},
+		"current": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" }
+			],
+			"return": "mixed",
+			"desc": "Return the current element in an array"
+		},
+		"each": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" }
+			],
+			"return": "array",
+			"desc": "Return the current key and value pair from an array and advance the array cursor"
+		},
+		"end": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" }
+			],
+			"return": "mixed",
+			"desc": "Set the internal pointer of an array to its last element"
+		},
+		"in_array": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "needle" },
+				{ "type": "array", "name": "haystack" },
+				{ "type": "bool", "name": "strict", "default": "FALSE" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Checks if a value exists in an array"
+		},
+		"key_exists": {	"alias": "array_key_exists" },
+		"key": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" }
+			],
+			"return": "mixed",
+			"desc": "Fetch a key from an array"
+		},
+		"krsort": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" },
+				{ "type": "int", "name": "sort_flags", "default": "SORT_REGULAR" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Sort an array by key in reverse order"
+		},
+		"ksort": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" },
+				{ "type": "int", "name": "sort_flags", "default": "SORT_REGULAR" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Sort an array by key"
+		},
+		"natcasesort": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Sort an array using a case insensitive 'natural order' algorithm"
+		},
+		"natsort": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Sort an array using a 'natural order' algorithm"
+		},
+		"next": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" }
+			],
+			"onfailure": "false",
+			"return": "mixed",
+			"desc": "Advance the internal array pointer of an array"
+		},
+		"pos": { "alias": "current" },
+		"prev": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" }
+			],
+			"onfailure": "false",
+			"return": "mixed",
+			"desc": "Rewind the internal array pointer"
+		},
+		"range": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "scalar", "name": "start" },
+				{ "type": "scalar", "name": "end" },
+				{ "type": "float", "name": "step", "default": "1" }
+			],
+			"onfailure": "false",
+			"return": "array",
+			"desc": "Create an array containing a range of elements"
+		},
+		"reset": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" }
+			],
+			"onfailure": "false",
+			"return": "mixed",
+			"desc": "Set the internal pointer of an array to its first element"
+		},
+		"rsort": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" },
+				{ "type": "int", "name": "sort_flags", "default": "SORT_REGULAR" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Sort an array in reverse order"
+		},
+		"shuffle": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Shuffle an array"
+		},
+		"sizeof": { "alias": "count" },
+		"sort": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "array", "name": "array", "reference": "1" },
+				{ "type": "int", "name": "sort_flags", "default": "SORT_REGULAR" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Sort an array"
+		},
+		"preg_filter": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "nonobject", "name": "pattern" },
+				{ "type": "nonobject", "name": "replacement" },
+				{ "type": "nonobject", "name": "subject" },
+				{ "type": "int", "name": "limit", "default": "-1" },
+				{ "type": "int", "name": "count", "reference": "1", "default": "NULL" }
+			],
+			"return": "mixed",
+			"desc": "Perform a regular expression search and replace"
+		},
+		"preg_grep": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "pattern" },
+				{ "type": "array", "name": "input" },
+				{ "type": "int", "name": "flags", "default": "0" }
+			],
+			"return": "array",
+			"desc": "Return array entries that match the pattern"
+		},
+		"preg_last_error": {
+			"class": "PhpTagsFunc",
+			"parameters": [],
+			"return": "int",
+			"desc": "Returns the error code of the last PCRE regex execution"
+		},
+		"preg_match_all": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "pattern" },
+				{ "type": "string", "name": "subject" },
+				{ "type": "array", "name": "$matches", "reference": "1", "default": "NULL" },
+				{ "type": "int", "name": "flags", "default": "PREG_PATTERN_ORDER" },
+				{ "type": "int", "name": "offset", "default": "0" }
+			],
+			"onfailure": "false",
+			"return": "int",
+			"desc": "Perform a global regular expression match"
+		},
+		"preg_match": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "pattern" },
+				{ "type": "string", "name": "subject" },
+				{ "type": "array", "name": "$matches", "reference": "1", "default": "NULL" },
+				{ "type": "int", "name": "flags", "default": "0" },
+				{ "type": "int", "name": "offset", "default": "0" }
+			],
+			"onfailure": "false",
+			"return": "int",
+			"desc": "Perform a regular expression match"
+		},
+		"preg_quote": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "delimiter", "default": "NULL" }
+			],
+			"return": "string",
+			"desc": "Quote regular expression characters"
+		},
+		"preg_replace": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "nonobject", "name": "pattern" },
+				{ "type": "nonobject", "name": "replacement" },
+				{ "type": "nonobject", "name": "subject" },
+				{ "type": "int", "name": "limit", "default": "-1" },
+				{ "type": "int", "name": "count", "reference": "1", "default": "NULL" }
+			],
+			"return": "mixed",
+			"desc": "Perform a regular expression search and replace"
+		},
+		"preg_split": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "pattern" },
+				{ "type": "string", "name": "subject" },
+				{ "type": "int", "name": "limit", "default": "-1" },
+				{ "type": "int", "name": "flags", "default": "0" }
+			],
+			"return": "array",
+			"desc": "Split string by a regular expression"
+		},
+		"abs": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "float" }
+			],
+			"return": "number",
+			"desc": "Absolute value"
+		},
+		"acos": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Arc cosine"
+		},
+		"acosh": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Inverse hyperbolic cosine"
+		},
+		"asin": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Arc sine"
+		},
+		"asinh": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Inverse hyperbolic sine"
+		},
+		"atan2": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "y" },
+				{ "type": "float", "name": "x" }
+			],
+			"return": "float",
+			"desc": "Arc tangent of two variables"
+		},
+		"atan": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Arc tangent"
+		},
+		"atanh": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Inverse hyperbolic tangent"
+		},
+		"base_convert": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "number" },
+				{ "type": "int", "name": "frombase" },
+				{ "type": "int", "name": "tobase" }
+			],
+			"return": "string",
+			"desc": "Convert a number between arbitrary bases"
+		},
+		"bindec": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "binary_string" }
+			],
+			"return": "number",
+			"desc": "Binary to decimal"
+		},
+		"ceil": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Round fractions up"
+		},
+		"cos": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Cosine"
+		},
+		"cosh": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Hyperbolic cosine"
+		},
+		"decbin": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "float" }
+			],
+			"return": "string",
+			"desc": "Decimal to binary"
+		},
+		"dechex": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "float" }
+			],
+			"return": "string",
+			"desc": "Decimal to hexadecimal"
+		},
+		"decoct": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "float" }
+			],
+			"return": "string",
+			"desc": "Decimal to octal"
+		},
+		"deg2rad": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Converts the number in degrees to the radian equivalent"
+		},
+		"exp": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Calculates the exponent of e"
+		},
+		"expm1": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Returns exp(number) - 1"
+		},
+		"floor": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "value" }
+			],
+			"return": "float",
+			"desc": "Round fractions down"
+		},
+		"fmod": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "x" },
+				{ "type": "float", "name": "y" }
+			],
+			"return": "float",
+			"desc": "Returns the floating point remainder (modulo) of the division of the arguments"
+		},
+		"getrandmax": {
+			"class": "PhpTagsFunc",
+			"parameters": [],
+			"return": "int",
+			"desc": "Show largest possible random value"
+		},
+		"hexdec": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "hex_string" }
+			],
+			"return": "number",
+			"desc": "Hexadecimal to decimal"
+		},
+		"hypot": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "x" },
+				{ "type": "float", "name": "y" }
+			],
+			"return": "float",
+			"desc": "Calculate the length of the hypotenuse of a right-angle triangle"
+		},
+		"is_finite": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "val" }
+			],
+			"return": "bool",
+			"desc": "Finds whether a value is a legal finite number"
+		},
+		"is_infinite": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "val" }
+			],
+			"return": "bool",
+			"desc": "Finds whether a value is infinite"
+		},
+		"is_nan": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "val" }
+			],
+			"return": "bool",
+			"desc": "Finds whether a value is not a number"
+		},
+		"lcg_value": {
+			"class": "PhpTagsFunc",
+			"parameters": [],
+			"return": "float",
+			"desc": "Combined linear congruential generator"
+		},
+		"log10": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Base-10 logarithm"
+		},
+		"log1p": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "float" }
+			],
+			"return": "float",
+			"desc": "Returns log(1 + number)"
+		},
+		"log": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" },
+				{ "type": "float", "name": "base", "default": "M_E" }
+			],
+			"return": "float",
+			"desc": "Natural logarithm"
+		},
+		"max": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "nonobject", "name": "value" },
+				{ "type": "nonobject", "name": "value2", "default": "NULL" },
+				{ "type": "nonobject", "name": "..." }
+			],
+			"return": "mixed",
+			"desc": "Find highest value"
+		},
+		"min": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "nonobject", "name": "value" },
+				{ "type": "nonobject", "name": "value2", "default": "NULL" },
+				{ "type": "nonobject", "name": "..." }
+			],
+			"return": "mixed",
+			"desc": "Find lowest value"
+		},
+		"mt_getrandmax": {
+			"class": "PhpTagsFunc",
+			"parameters": [],
+			"return": "int",
+			"desc": "Show largest possible random value"
+		},
+		"mt_rand": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "min", "default": "NULL" },
+				{ "type": "int", "name": "max", "default": "NULL" }
+			],
+			"return": "int",
+			"desc": "Generate a better random value"
+		},
+		"mt_srand": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "seed", "default": "NULL" }
+			],
+			"return": "void",
+			"desc": "Seed the better random number generator"
+		},
+		"octdec": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "octal_string" }
+			],
+			"return": "number",
+			"desc": "Octal to decimal"
+		},
+		"pi": {
+			"class": "PhpTagsFunc",
+			"parameters": [],
+			"return": "float",
+			"desc": "Get value of pi"
+		},
+		"pow": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "base" },
+				{ "type": "float", "name": "exp" }
+			],
+			"return": "number",
+			"desc": "Exponential expression"
+		},
+		"rad2deg": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "float" }
+			],
+			"return": "float",
+			"desc": "Converts the radian number to the equivalent number in degrees"
+		},
+		"rand": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "min", "default": "NULL" },
+				{ "type": "int", "name": "max", "default": "NULL" }
+			],
+			"return": "int",
+			"desc": "Generate a random integer"
+		},
+		"round": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "val" },
+				{ "type": "int", "name": "precision", "default": "0" },
+				{ "type": "int", "name": "mode", "default": "PHP_ROUND_HALF_UP" }
+			],
+			"return": "float",
+			"desc": "Rounds a float"
+		},
+		"sin": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Sine"
+		},
+		"sinh": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Hyperbolic sine"
+		},
+		"sqrt": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Square root"
+		},
+		"srand": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "seed", "default": "NULL" }
+			],
+			"return": "void",
+			"desc": "Seed the random number generator"
+		},
+		"tan": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Tangent"
+		},
+		"tanh": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "arg" }
+			],
+			"return": "float",
+			"desc": "Hyperbolic tangent"
+		},
+		"boolval": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var" }
+			],
+			"return": "bool",
+			"desc": "Get the boolean value of a variable"
+		},
+		"floatval": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "nonobject", "name": "var" }
+			],
+			"return": "float",
+			"desc": "Get float value of a variable"
+		},
+		"doubleval": { "alias": "floatval" },
+		"get_defined_vars": {
+			"class": "PhpTagsFunc",
+			"parameters": [],
+			"return": "array",
+			"desc": "Returns an array of all defined variables"
+		},
+		"gettype": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var" }
+			],
+			"return": "string",
+			"desc": "Get the type of a variable"
+		},
+		"intval": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "nonobject", "name": "var" },
+				{ "type": "int", "name": "base", "default": "10" }
+			],
+			"return": "int",
+			"desc": "Get the integer value of a variable"
+		},
+		"is_array": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var" }
+			],
+			"return": "bool",
+			"desc": "Finds whether a variable is an array"
+		},
+		"is_bool": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var" }
+			],
+			"return": "bool",
+			"desc": "Finds out whether a variable is a boolean"
+		},
+		"is_float": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var" }
+			],
+			"return": "bool",
+			"desc": "Finds whether the type of a variable is float"
+		},
+		"is_double": { "alias": "is_float" },
+		"is_int": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var" }
+			],
+			"return": "bool",
+			"desc": "Find whether the type of a variable is integer"
+		},
+		"is_integer": { "alias": "is_int" },
+		"is_long": { "alias": "is_int" },
+		"is_null": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var" }
+			],
+			"return": "bool",
+			"desc": "Finds whether a variable is NULL"
+		},
+		"is_numeric": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var" }
+			],
+			"return": "bool",
+			"desc": "Finds whether a variable is a number or a numeric string"
+		},
+		"is_object": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var" }
+			],
+			"return": "bool",
+			"desc": "Finds whether a variable is an object"
+		},
+		"is_real": { "alias": "is_float" },
+		"is_scalar": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var" }
+			],
+			"return": "bool",
+			"desc": "Finds whether a variable is a scalar"
+		},
+		"is_string": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var" }
+			],
+			"return": "bool",
+			"desc": "Find whether the type of a variable is string"
+		},
+		"print_r": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "expression" },
+				{ "type": "bool", "name": "return", "default": "false" }
+			],
+			"return": "mixed",
+			"desc": "Prints human-readable information about a variable"
+		},
+		"settype": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var", "reference": "1" },
+				{ "type": "string", "name": "type" }
+			],
+			"return": "bool",
+			"desc": "Set the type of a variable"
+		},
+		"strval": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "var" }
+			],
+			"return": "string",
+			"desc": "Get string value of a variable"
+		},
+		"var_dump": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "expression" },
+				{ "type": "mixed", "name": "..." }
+			],
+			"return": "void",
+			"desc": "Dumps information about a variable"
+		},
+		"var_export": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "expression" },
+				{ "type": "bool", "name": "return", "default": "false" }
+			],
+			"return": "mixed",
+			"desc": "Outputs or returns a parsable string representation of a variable"
+		},
+		"get_defined_functions": {
+			"class": "PhpTagsFunc",
+			"parameters": [],
+			"return": "array",
+			"desc": "Returns an array of all defined functions"
+		},
+		"function_exists": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "function_name" }
+			],
+			"return": "bool",
+			"desc": "Return TRUE if the given function has been defined"
+		},
+		"addcslashes": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "charlist" }
+			],
+			"return": "string",
+			"desc": "Quote string with slashes in a C style"
+		},
+		"addslashes": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Quote string with slashes"
+		},
+		"bin2hex": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Convert binary data into hexadecimal representation"
+		},
+		"chr": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "ascii" }
+			],
+			"return": "string",
+			"desc": "Return a specific character"
+		},
+		"chunk_split": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "body" },
+				{ "type": "int", "name": "chunklen", "default": "76" },
+				{ "type": "string", "name": "end", "default": "\r\n" }
+			],
+			"return": "string",
+			"desc": "Split a string into smaller chunks"
+		},
+		"convert_cyr_string": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "from" },
+				{ "type": "string", "name": "to" }
+			],
+			"return": "string",
+			"desc": "Convert from one Cyrillic character set to another"
+		},
+		"convert_uudecode": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "data" }
+			],
+			"return": "string",
+			"desc": "Decode a uuencoded string"
+		},
+		"convert_uuencode": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "data" }
+			],
+			"return": "string",
+			"desc": "Uuencode a string"
+		},
+		"count_chars": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" },
+				{ "type": "int", "name": "mode", "default": "0" }
+			],
+			"return": "mixed",
+			"desc": "Return information about characters used in a string"
+		},
+		"crc32": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "int",
+			"desc": "Calculates the crc32 polynomial of a string"
+		},
+		"crypt": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "salt", "default": "" }
+			],
+			"return": "string",
+			"desc": "One-way string hashing"
+		},
+		"explode": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "delimiter" },
+				{ "type": "string", "name": "string" },
+				{ "type": "int", "name": "limit", "default": "" }
+			],
+			"return": "array",
+			"desc": "Split a string by string"
+		},
+		"get_html_translation_table": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "table", "default": "HTML_SPECIALCHARS" },
+				{ "type": "int", "name": "flags", "default": "ENT_COMPAT | ENT_HTML401" },
+				{ "type": "string", "name": "encoding", "default": "UTF-8" }
+			],
+			"return": "array",
+			"desc": "Returns the translation table used by htmlspecialchars() and htmlentities()"
+		},
+		"hebrev": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "hebrew_text" },
+				{ "type": "int", "name": "max_chars_per_line", "default": "0" }
+			],
+			"return": "string",
+			"desc": "Convert logical Hebrew text to visual text"
+		},
+		"hebrevc": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "hebrew_text" },
+				{ "type": "int", "name": "max_chars_per_line", "default": "0" }
+			],
+			"return": "string",
+			"desc": "Convert logical Hebrew text to visual text with newline conversion"
+		},
+		"html_entity_decode": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" },
+				{ "type": "int", "name": "flags", "default": "ENT_COMPAT | ENT_HTML401" },
+				{ "type": "string", "name": "encoding", "default": "ini_get('default_charset')" }
+			],
+			"return": "string",
+			"desc": "Convert all HTML entities to their applicable characters"
+		},
+		"htmlentities": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" },
+				{ "type": "int", "name": "flags", "default": "ENT_COMPAT | ENT_HTML401" },
+				{ "type": "string", "name": "encoding", "default": "ini_get('default_charset')" },
+				{ "type": "bool", "name": "double_encode", "default": "true" }
+			],
+			"return": "string",
+			"desc": "Convert all applicable characters to HTML entities"
+		},
+		"htmlspecialchars_decode": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" },
+				{ "type": "int", "name": "flags", "default": "ENT_COMPAT | ENT_HTML401" }
+			],
+			"return": "string",
+			"desc": "Convert special HTML entities back to characters"
+		},
+		"htmlspecialchars": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" },
+				{ "type": "int", "name": "flags", "default": "ENT_COMPAT | ENT_HTML401" },
+				{ "type": "string", "name": "encoding", "default": "ini_get('default_charset')" },
+				{ "type": "bool", "name": "double_encode", "default": "true" }
+			],
+			"return": "string",
+			"desc": "Convert special characters to HTML entities"
+		},
+		"implode": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "nonobject", "name": "glue_or_pieces" },
+				{ "type": "array", "name": "pieces", "default": "" }
+			],
+			"return": "string",
+			"desc": "Join array elements with a string"
+		},
+		"join": { "alias": "implode" },
+		"lcfirst": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Make a string's first character lowercase"
+		},
+		"levenshtein": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str1" },
+				{ "type": "string", "name": "str2" },
+				{ "type": "int", "name": "cost_ins", "default": "" },
+				{ "type": "int", "name": "cost_rep", "default": "" },
+				{ "type": "int", "name": "cost_del", "default": "" }
+			],
+			"return": "int",
+			"desc": "Calculate Levenshtein distance between two strings"
+		},
+		"ltrim": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "character_mask", "default": "NULL" }
+			],
+			"return": "string",
+			"desc": "Strip whitespace (or other characters) from the beginning of a string"
+		},
+		"md5": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "bool", "name": "raw_output", "default": "false" }
+			],
+			"return": "string",
+			"desc": "Calculate the md5 hash of a string"
+		},
+		"metaphone": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "int", "name": "phonemes", "default": "0" }
+			],
+			"return": "string",
+			"desc": "Calculate the metaphone key of a string"
+		},
+		"money_format": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "format" },
+				{ "type": "float", "name": "float" }
+			],
+			"return": "string",
+			"desc": "Formats a number as a currency string"
+		},
+		"nl_langinfo": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "item" }
+			],
+			"return": "string",
+			"desc": "Query language and locale information"
+		},
+		"nl2br": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" },
+				{ "type": "bool", "name": "is_xhtml", "default": "true" }
+			],
+			"return": "string",
+			"desc": "Inserts HTML line breaks before all newlines in a string"
+		},
+		"number_format": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "float", "name": "float" },
+				{ "type": "int", "name": "decimals", "default": "0" },
+				{ "type": "string", "name": "dec_point", "default": "." },
+				{ "type": "string", "name": "thousands_sep", "default": "," }
+			],
+			"return": "string",
+			"desc": "Format a number with grouped thousands"
+		},
+		"ord": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" }
+			],
+			"return": "int",
+			"desc": "Return ASCII value of character"
+		},
+		"printf": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "format" },
+				{ "type": "mixed", "name": "args", "default": "" },
+				{ "type": "mixed", "name": "..." }
+			],
+			"return": "int",
+			"desc": "Output a formatted string"
+		},
+		"quoted_printable_decode": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Convert a quoted-printable string to an 8 bit string"
+		},
+		"quoted_printable_encode": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Convert a 8 bit string to a quoted-printable string"
+		},
+		"quotemeta": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Quote meta characters"
+		},
+		"rtrim": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "character_mask", "default": "" }
+			],
+			"return": "string",
+			"desc": "Strip whitespace (or other characters) from the end of a string"
+		},
+		"chop": { "alias": "rtrim" },
+		"sha1": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "bool", "name": "raw_output", "default": "false" }
+			],
+			"return": "string",
+			"desc": "Calculate the sha1 hash of a string"
+		},
+		"similar_text": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "first" },
+				{ "type": "string", "name": "second" },
+				{ "type": "mixed", "name": "percent", "reference": "1", "default": "" }
+			],
+			"return": "int",
+			"desc": "Calculate the similarity between two strings"
+		},
+		"soundex": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Calculate the soundex key of a string"
+		},
+		"sprintf": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "format" },
+				{ "type": "nonobject", "name": "args", "default": "" },
+				{ "type": "nonobject", "name": "..." }
+			],
+			"return": "string",
+			"desc": "Return a formatted string"
+		},
+		"sscanf": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "format" },
+				{ "type": "nonobject", "name": "..." }
+			],
+			"return": "string",
+			"desc": "Parses input from a string according to a format"
+		},
+		"str_getcsv": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "input" },
+				{ "type": "string", "name": "delimiter", "default": "," },
+				{ "type": "string", "name": "enclosure", "default": "\"" },
+				{ "type": "string", "name": "escape", "default": "\\\\" }
+			],
+			"return": "array",
+			"desc": "Parse a CSV string into an array"
+		},
+		"str_ireplace": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "search" },
+				{ "type": "mixed", "name": "replace" },
+				{ "type": "mixed", "name": "subject" },
+				{ "type": "int", "name": "count", "reference": "1", "default": "" }
+			],
+			"return": "mixed",
+			"desc": "Case-insensitive version of str_replace()"
+		},
+		"str_pad": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "input" },
+				{ "type": "int", "name": "pad_length" },
+				{ "type": "string", "name": "pad_string", "default": " " },
+				{ "type": "int", "name": "pad_type", "default": "STR_PAD_RIGHT" }
+			],
+			"return": "string",
+			"desc": "Pad a string to a certain length with another string"
+		},
+		"str_repeat": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "input" },
+				{ "type": "int", "name": "multiplier" }
+			],
+			"return": "string",
+			"desc": "Repeat a string"
+		},
+		"str_replace": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "mixed", "name": "search" },
+				{ "type": "mixed", "name": "replace" },
+				{ "type": "mixed", "name": "subject" },
+				{ "type": "int", "name": "count", "reference": "1", "default": "" }
+			],
+			"return": "mixed",
+			"desc": "Replace all occurrences of the search string with the replacement string"
+		},
+		"str_rot13": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Perform the rot13 transform on a string"
+		},
+		"str_shuffle": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Randomly shuffles a string"
+		},
+		"str_split": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" },
+				{ "type": "int", "name": "split_length", "default": "1" }
+			],
+			"return": "array",
+			"desc": "Convert a string to an array"
+		},
+		"str_word_count": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" },
+				{ "type": "int", "name": "format", "default": "0" },
+				{ "type": "string", "name": "charlist", "default": "" }
+			],
+			"return": "mixed",
+			"desc": "Return information about words used in a string"
+		},
+		"strcasecmp": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str1" },
+				{ "type": "string", "name": "str2" }
+			],
+			"return": "int",
+			"desc": "Binary safe case-insensitive string comparison"
+		},
+		"strcmp": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str1" },
+				{ "type": "string", "name": "str2" }
+			],
+			"return": "int",
+			"desc": "Binary safe string comparison"
+		},
+		"strcoll": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str1" },
+				{ "type": "string", "name": "str2" }
+			],
+			"return": "int",
+			"desc": "Locale based string comparison"
+		},
+		"strcspn": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str1" },
+				{ "type": "string", "name": "str2" },
+				{ "type": "int", "name": "start", "default": "" },
+				{ "type": "int", "name": "length", "default": "" }
+			],
+			"return": "int",
+			"desc": "Find length of initial segment not matching mask"
+		},
+		"strip_tags": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "allowable_tags", "default": "" }
+			],
+			"return": "string",
+			"desc": "Strip HTML and PHP tags from a string"
+		},
+		"stripcslashes": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Un-quote string quoted with addcslashes()"
+		},
+		"stripslashes": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Un-quotes a quoted string"
+		},
+		"strnatcasecmp": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str1" },
+				{ "type": "string", "name": "str2" }
+			],
+			"return": "int",
+			"desc": "Case insensitive string comparisons using a \"natural order\" algorithm"
+		},
+		"strnatcmp": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str1" },
+				{ "type": "string", "name": "str2" }
+			],
+			"return": "int",
+			"desc": "String comparisons using a \"natural order\" algorithm"
+		},
+		"strncasecmp": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str1" },
+				{ "type": "string", "name": "str2" },
+				{ "type": "int", "name": "len" }
+			],
+			"return": "int",
+			"desc": "Binary safe case-insensitive string comparison of the first n characters"
+		},
+		"strncmp": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str1" },
+				{ "type": "string", "name": "str2" },
+				{ "type": "int", "name": "len" }
+			],
+			"return": "int",
+			"desc": "Binary safe string comparison of the first n characters"
+		},
+		"strpbrk": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "haystack" },
+				{ "type": "string", "name": "char_list" }
+			],
+			"return": "string",
+			"desc": "Search a string for any of a set of characters"
+		},
+		"strrev": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" }
+			],
+			"return": "string",
+			"desc": "Reverse a string"
+		},
+		"strspn": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "subject" },
+				{ "type": "string", "name": "mask" },
+				{ "type": "int", "name": "start", "default": "" },
+				{ "type": "int", "name": "length", "default": "" }
+			],
+			"return": "int",
+			"desc": "Finds the length of the initial segment of a string consisting entirely of characters contained within a given mask"
+		},
+		"strtok": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "token", "default": "" }
+			],
+			"return": "string",
+			"desc": "Tokenize string"
+		},
+		"strtolower": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" }
+			],
+			"return": "string",
+			"desc": "Make a string lowercase"
+		},
+		"strtoupper": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" }
+			],
+			"return": "string",
+			"desc": "Make a string uppercase"
+		},
+		"strtr": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "nonobject", "name": "from" },
+				{ "type": "string", "name": "to", "default": "" }
+			],
+			"return": "string",
+			"desc": "Translate characters or replace substrings"
+		},
+		"substr_compare": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "main_str" },
+				{ "type": "string", "name": "str" },
+				{ "type": "int", "name": "offset" },
+				{ "type": "int", "name": "length", "default": "" },
+				{ "type": "bool", "name": "case_insensitivity", "default": "false" }
+			],
+			"return": "int",
+			"desc": "Binary safe comparison of two strings from an offset, up to length characters"
+		},
+		"substr_count": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "haystack" },
+				{ "type": "string", "name": "needle" },
+				{ "type": "int", "name": "offset", "default": "0" },
+				{ "type": "int", "name": "length", "default": "" }
+			],
+			"return": "int",
+			"desc": "Count the number of substring occurrences"
+		},
+		"substr_replace": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "nonobject", "name": "string" },
+				{ "type": "nonobject", "name": "replacement" },
+				{ "type": "int", "name": "start" },
+				{ "type": "int", "name": "length", "default": "" }
+			],
+			"return": "mixed",
+			"desc": "Replace text within a portion of a string"
+		},
+		"trim": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "character_mask", "default": " \\t\\n\\r\\0\\x0B" }
+			],
+			"return": "string",
+			"desc": "Strip whitespace (or other characters) from the beginning and end of a string"
+		},
+		"ucfirst": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Make a string's first character uppercase"
+		},
+		"ucwords": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" }
+			],
+			"return": "string",
+			"desc": "Uppercase the first character of each word in a string"
+		},
+		"vprintf": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "format" },
+				{ "type": "array", "name": "args" }
+			],
+			"return": "int",
+			"desc": "Output a formatted string"
+		},
+		"vsprintf": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "format" },
+				{ "type": "array", "name": "args" }
+			],
+			"return": "string",
+			"desc": "Return a formatted string"
+		},
+		"wordwrap": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "int", "name": "width", "default": "75" },
+				{ "type": "string", "name": "break", "default": "\\n" },
+				{ "type": "bool", "name": "cut", "default": "false" }
+			],
+			"return": "string",
+			"desc": "Wraps a string to a given number of characters"
+		},
+		"mb_convert_case": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "int", "name": "mode" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "string",
+			"desc": "Perform case folding on a string"
+		},
+		"mb_detect_encoding": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "nonobject", "name": "encoding_list", "default": "mb_detect_order()" },
+				{ "type": "bool", "name": "strict", "default": "false" }
+			],
+			"return": "string",
+			"desc": "Detect character encoding"
+		},
+		"mb_split": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "pattern" },
+				{ "type": "string", "name": "string" },
+				{ "type": "int", "name": "limit", "default": "-1" }
+			],
+			"return": "string",
+			"desc": "Split multibyte string using regular expression"
+		},
+		"split": { "alias": "mb_split" },
+		"mb_strcut": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" },
+				{ "type": "int", "name": "start" },
+				{ "type": "int", "name": "length", "default": "NULL" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "string",
+			"desc": "Get part of string"
+		},
+		"mb_strimwidth": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "int", "name": "start" },
+				{ "type": "int", "name": "width" },
+				{ "type": "string", "name": "trimmarker", "default": "null" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "string",
+			"desc": "Get truncated string with specified width"
+		},
+		"mb_stripos": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "haystack" },
+				{ "type": "string", "name": "needle" },
+				{ "type": "int", "name": "offset", "default": "0" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "int",
+			"desc": "Finds position of first occurrence of a string within another, case insensitive"
+		},
+		"stripos": { "alias": "mb_stripos" },
+		"mb_stristr": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "haystack" },
+				{ "type": "string", "name": "needle" },
+				{ "type": "bool", "name": "before_needle", "default": "false" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "string",
+			"desc": "Finds first occurrence of a string within another, case insensitive"
+		},
+		"stristr": { "alias": "mb_stristr" },
+		"mb_strlen": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "string" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "int",
+			"desc": "Get string length"
+		},
+		"strlen": { "alias": "mb_strlen" },
+		"mb_strpos": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "haystack" },
+				{ "type": "string", "name": "needle" },
+				{ "type": "int", "name": "offset", "default": "0" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "int",
+			"desc": "Find position of first occurrence of string in a string"
+		},
+		"strpos": { "alias": "mb_strpos" },
+		"mb_strrchr": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "haystack" },
+				{ "type": "string", "name": "needle" },
+				{ "type": "bool", "name": "part", "default": "false" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "string",
+			"desc": "Finds the last occurrence of a character in a string within another"
+		},
+		"strrchr": { "alias": "mb_strrchr" },
+		"mb_strrichr": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "haystack" },
+				{ "type": "string", "name": "needle" },
+				{ "type": "bool", "name": "part", "default": "false" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "string",
+			"desc": "Finds the last occurrence of a character in a string within another, case insensitive"
+		},
+		"mb_strripos": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "haystack" },
+				{ "type": "string", "name": "needle" },
+				{ "type": "int", "name": "offset", "default": "0" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "int",
+			"desc": "Finds position of last occurrence of a string within another, case insensitive"
+		},
+		"strripos": { "alias": "mb_strripos" },
+		"mb_strrpos": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "haystack" },
+				{ "type": "string", "name": "needle" },
+				{ "type": "int", "name": "offset", "default": "0" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "int",
+			"desc": "Find position of last occurrence of a string in a string"
+		},
+		"strrpos": { "alias": "mb_strrpos" },
+		"mb_strstr": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "haystack" },
+				{ "type": "string", "name": "needle" },
+				{ "type": "bool", "name": "before_needle", "default": "false" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "string",
+			"desc": "Finds first occurrence of a string within another"
+		},
+		"strstr": { "alias": "mb_strstr" },
+		"strchr": { "alias": "mb_strstr" },
+		"mb_strtolower": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "string",
+			"desc": "Make a string lowercase"
+		},
+		"mb_strtoupper": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "string",
+			"desc": "Make a string uppercase"
+		},
+		"mb_strwidth": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "string",
+			"desc": "Return width of string"
+		},
+		"mb_substr_count": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "haystack" },
+				{ "type": "string", "name": "needle" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "int",
+			"desc": "Count the number of substring occurrences"
+		},
+		"mb_substr": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "str" },
+				{ "type": "int", "name": "start" },
+				{ "type": "int", "name": "length", "default": "NULL" },
+				{ "type": "string", "name": "encoding", "default": "mb_internal_encoding()" }
+			],
+			"return": "string",
+			"desc": "Get part of string"
+		},
+		"substr": { "alias": "mb_substr" },
+		"checkdate": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "month" },
+				{ "type": "int", "name": "day" },
+				{ "type": "int", "name": "year" }
+			],
+			"onfailure": "false",
+			"return": "bool",
+			"desc": "Validate a Gregorian date"
+		},
+		"date_add": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTime", "name": "object" },
+				{ "type": "DateInterval", "name": "interval" }
+			],
+			"onfailure": "false",
+			"return": "DateTime",
+			"desc": "Adds an amount of days, months, years, hours, minutes and seconds to a DateTime object"
+		},
+		"date_create_from_format": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "string", "name": "format" },
+				{ "type": "string", "name": "time" },
+				{ "type": "DateTimeZone", "name": "timezone", "default": "" }
+			],
+			"onfailure": "false",
+			"return": "DateTime",
+			"desc": "Returns new DateTime object formatted according to the specified format"
+		},
+		"date_create": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "string", "name": "time", "default": "now" },
+				{ "type": "DateTimeZone", "name": "timezone", "default": "NULL" }
+			],
+			"onfailure": "false",
+			"return": "DateTime",
+			"desc": "Returns new DateTime object"
+		},
+		"date_date_set": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTime", "name": "object" },
+				{ "type": "int", "name": "year" },
+				{ "type": "int", "name": "month" },
+				{ "type": "int", "name": "day" }
+			],
+			"onfailure": "false",
+			"return": "DateTime",
+			"desc": "Sets the date"
+		},
+		"date_default_timezone_get": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [],
+			"return": "string",
+			"desc": "Gets the default timezone used by all date/time functions in a script"
+		},
+		"date_diff": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTime", "name": "datetime1" },
+				{ "type": "DateTime", "name": "datetime2" },
+				{ "type": "bool", "name": "absolute", "default": "false" }
+			],
+			"onfailure": "false",
+			"return": "DateInterval",
+			"desc": "Returns the difference between two DateTime objects"
+		},
+		"date_format": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTime", "name": "object" },
+				{ "type": "string", "name": "format" }
+			],
+			"onfailure": "false",
+			"return": "string",
+			"desc": "Returns date formatted according to given format"
+		},
+		"date_get_last_errors": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [],
+			"return": "array",
+			"desc": "Returns the warnings and errors"
+		},
+		"date_interval_create_from_date_string": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "string", "name": "time" }
+			],
+			"onfailure": "false",
+			"return": "DateInterval",
+			"desc": "Sets up a DateInterval from the relative parts of the string"
+		},
+		"date_interval_format": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateInterval", "name": "object" },
+				{ "type": "string", "name": "format" }
+			],
+			"onfailure": "false",
+			"return": "string",
+			"desc": "Formats the interval"
+		},
+		"date_isodate_set": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTime", "name": "object" },
+				{ "type": "int", "name": "year" },
+				{ "type": "int", "name": "week" },
+				{ "type": "int", "name": "day", "default": "1" }
+			],
+			"onfailure": "false",
+			"return": "DateTime",
+			"desc": "Sets the ISO date"
+		},
+		"date_modify": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTime", "name": "object" },
+				{ "type": "string", "name": "modify" }
+			],
+			"onfailure": "false",
+			"return": "DateTime",
+			"desc": "Alters the timestamp"
+		},
+		"date_offset_get": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [],
+			"onfailure": "false",
+			"return": "int",
+			"desc": "Returns the timezone offset"
+		},
+		"date_parse_from_format": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "string", "name": "format" },
+				{ "type": "string", "name": "date" }
+			],
+			"onfailure": "false",
+			"return": "array",
+			"desc": "Get info about given date formatted according to the specified format"
+		},
+		"date_parse": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "string", "name": "date" }
+			],
+			"onfailure": "false",
+			"return": "array",
+			"desc": "Returns associative array with detailed info about given date"
+		},
+		"date_sub": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTime", "name": "object" },
+				{ "type": "DateInterval", "name": "interval" }
+			],
+			"onfailure": "false",
+			"return": "DateTime",
+			"desc": "Subtracts an amount of days, months, years, hours, minutes and seconds from a DateTime object"
+		},
+		"date_sun_info": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "int", "name": "time" },
+				{ "type": "float", "name": "latitude" },
+				{ "type": "float", "name": "longitude" }
+			],
+			"onfailure": "false",
+			"return": "array",
+			"desc": "Returns an array with information about sunset/sunrise and twilight begin/end"
+		},
+		"date_sunrise": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "int", "name": "timestamp" },
+				{ "type": "int", "name": "format", "default": "SUNFUNCS_RET_STRING" },
+				{ "type": "float", "name": "latitude", "default": "ini_get(\"date.default_latitude\")" },
+				{ "type": "float", "name": "longitude", "default": "ini_get(\"date.default_longitude\")" },
+				{ "type": "float", "name": "zenith", "default": "ini_get(\"date.default_zenith\")" },
+				{ "type": "float", "name": "gmt_offset", "default": "0" }
+			],
+			"onfailure": "false",
+			"return": "mixed",
+			"desc": "Returns time of sunrise for a given day and location"
+		},
+		"date_sunset": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "int", "name": "timestamp" },
+				{ "type": "int", "name": "format", "default": "SUNFUNCS_RET_STRING" },
+				{ "type": "float", "name": "latitude", "default": "ini_get(\"date.default_latitude\")" },
+				{ "type": "float", "name": "longitude", "default": "ini_get(\"date.default_longitude\")" },
+				{ "type": "float", "name": "zenith", "default": "ini_get(\"date.default_zenith\")" },
+				{ "type": "float", "name": "gmt_offset", "default": "0" }
+			],
+			"onfailure": "false",
+			"return": "mixed",
+			"desc": "Returns time of sunset for a given day and location"
+		},
+		"date_time_set": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTime", "name": "object" },
+				{ "type": "int", "name": "hour" },
+				{ "type": "int", "name": "minute" },
+				{ "type": "int", "name": "second ", "default": "0" }
+			],
+			"onfailure": "false",
+			"return": "DateTime",
+			"desc": "Sets the time"
+		},
+		"date_timestamp_get": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTime", "name": "object" }
+			],
+			"onfailure": "false",
+			"return": "int",
+			"desc": "Gets the Unix timestamp"
+		},
+		"date_timestamp_set": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTime", "name": "object" },
+				{ "type": "int", "name": "unixtimestamp" }
+			],
+			"onfailure": "false",
+			"return": "DateTime",
+			"desc": "Sets the date and time based on an Unix timestamp"
+		},
+		"date_timezone_get": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTime", "name": "object" }
+			],
+			"onfailure": "false",
+			"return": "DateTimeZone",
+			"desc": "Return time zone relative to given DateTime"
+		},
+		"date_timezone_set": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTime", "name": "object" },
+				{ "type": "DateTimeZone", "name": "timezone" }
+			],
+			"onfailure": "false",
+			"return": "DateTime",
+			"desc": "Sets the time zone for the DateTime object"
+		},
+		"date": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "format" },
+				{ "type": "int", "name": "timestamp", "default": "time()" }
+			],
+			"onfailure": "false",
+			"return": "string",
+			"desc": "Format a local time/date"
+		},
+		"getdate": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "timestamp", "default": "time()" }
+			],
+			"onfailure": "false",
+			"return": "array",
+			"desc": "Get date/time information"
+		},
+		"gettimeofday": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "bool", "name": "return_float", "default": "false" }
+			],
+			"onfailure": "false",
+			"return": "mixed",
+			"desc": "Get current time"
+		},
+		"gmdate": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "format" },
+				{ "type": "int", "name": "timestamp", "default": "time()" }
+			],
+			"onfailure": "false",
+			"return": "string",
+			"desc": "Format a GMT/UTC date/time"
+		},
+		"gmmktime": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "hour", "default": "gmdate(\"H\")" },
+				{ "type": "int", "name": "minute", "default": "gmdate(\"i\")" },
+				{ "type": "int", "name": "second", "default": "gmdate(\"s\")" },
+				{ "type": "int", "name": "month", "default": "gmdate(\"n\")" },
+				{ "type": "int", "name": "day", "default": "gmdate(\"j\")" },
+				{ "type": "int", "name": "year", "default": "gmdate(\"Y\")" },
+				{ "type": "int", "name": "is_dst", "default": "-1" }
+			],
+			"onfailure": "false",
+			"return": "int",
+			"desc": "Get Unix timestamp for a GMT date"
+		},
+		"gmstrftime": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "format" },
+				{ "type": "int", "name": "timestamp", "default": "time()" }
+			],
+			"onfailure": "false",
+			"return": "string",
+			"desc": "Format a GMT/UTC time/date according to locale settings"
+		},
+		"idate": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "format" },
+				{ "type": "int", "name": "timestamp", "default": "time()" }
+			],
+			"onfailure": "false",
+			"return": "int",
+			"desc": "Format a local time/date as integer"
+		},
+		"localtime": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "timestamp", "default": "time()" },
+				{ "type": "bool", "name": "is_associative", "default": "false" }
+			],
+			"onfailure": "false",
+			"return": "array",
+			"desc": "Get the local time"
+		},
+		"microtime": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "bool", "name": "get_as_float", "default": "false" }
+			],
+			"onfailure": "false",
+			"return": "mixed",
+			"desc": "Return current Unix timestamp with microseconds"
+		},
+		"mktime": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "hour", "default": "gmdate(\"H\")" },
+				{ "type": "int", "name": "minute", "default": "gmdate(\"i\")" },
+				{ "type": "int", "name": "second", "default": "gmdate(\"s\")" },
+				{ "type": "int", "name": "month", "default": "gmdate(\"n\")" },
+				{ "type": "int", "name": "day", "default": "gmdate(\"j\")" },
+				{ "type": "int", "name": "year", "default": "gmdate(\"Y\")" },
+				{ "type": "int", "name": "is_dst", "default": "-1" }
+			],
+			"onfailure": "false",
+			"return": "int",
+			"desc": "Get Unix timestamp for a date"
+		},
+		"strftime": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "format" },
+				{ "type": "int", "name": "timestamp", "default": "time()" }
+			],
+			"onfailure": "false",
+			"return": "int",
+			"desc": "Format a local time/date according to locale settings"
+		},
+		"strptime": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "date" },
+				{ "type": "string", "name": "format" }
+			],
+			"onfailure": "false",
+			"return": "array",
+			"desc": "Parse a time/date generated with strftime()"
+		},
+		"strtotime": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "time" },
+				{ "type": "int", "name": "now", "default": "time()" }
+			],
+			"onfailure": "false",
+			"return": "int",
+			"desc": "Parse about any English textual datetime description into a Unix timestamp"
+		},
+		"time": {
+			"class": "PhpTagsFunc",
+			"parameters": [],
+			"return": "int",
+			"desc": "Return current Unix timestamp"
+		},
+		"timezone_abbreviations_list": {
+			"class": "PhpTagsFunc",
+			"parameters": [],
+			"return": "array",
+			"desc": "Returns associative array containing dst, offset and the timezone name"
+		},
+		"timezone_identifiers_list": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "int", "name": "what", "default": "DateTimeZone::ALL" },
+				{ "type": "string", "name": "country", "default": "NULL" }
+			],
+			"return": "array",
+			"desc": "Returns a numerically indexed array containing all defined timezone identifiers"
+		},
+		"timezone_location_get": {
+			"class": "PhpTagsFunc",
+			"parameters": [],
+			"return": "array",
+			"desc": "Returns location information for a timezone"
+		},
+		"timezone_name_from_abbr": {
+			"class": "PhpTagsFunc",
+			"parameters": [
+				{ "type": "string", "name": "abbr" },
+				{ "type": "int", "name": "gmtOffset", "default": "-1" },
+				{ "type": "int", "name": "isdst", "default": "-1" }
+			],
+			"onfailure": "false",
+			"return": "string",
+			"desc": "Returns the timezone name from abbreviation"
+		},
+		"timezone_name_get": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTimeZone", "name": "object" }
+			],
+			"onfailure": "false",
+			"return": "string",
+			"desc": "Returns the name of the timezone"
+		},
+		"timezone_offset_get": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTimeZone", "name": "object" },
+				{ "type": "DateTime", "name": "datetime" }
+			],
+			"onfailure": "false",
+			"return": "int",
+			"desc": "Returns the timezone offset from GMT"
+		},
+		"timezone_open": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "string", "name": "timezone" }
+			],
+			"onfailure": "false",
+			"return": "DateTimeZone",
+			"desc": "Creates new DateTimeZone object"
+		},
+		"timezone_transitions_get": {
+			"class": "PhpTagsFuncNativeObject",
+			"parameters": [
+				{ "type": "DateTimeZone", "name": "object" },
+				{ "type": "int", "name": "timestamp_begin", "default": "" },
+				{ "type": "int", "name": "timestamp_end", "default": "" }
+			],
+			"onfailure": "false",
+			"return": "array",
+			"desc": "Returns all transitions for the timezone"
+		},
+		"timezone_version_get": {
+			"class": "PhpTagsFunc",
+			"parameters": [],
+			"return": "string",
+			"desc": "Gets the version of the timezonedb"
+		},
+		"uuid_create": {
+			"class": "PhpTagsFuncUseful",
+			"parameters": [],
+			"return": "string",
+			"desc": "Create random UUID"
+		},
+		"mw_json_decode": {
+			"class": "PhpTagsFuncUseful",
+			"parameters": [
+				{ "type": "string", "name": "value" }
+			],
+			"return": "mixed",
+			"desc": "Decodes a JSON string"
+		},
+		"mw_json_encode": {
+			"class": "PhpTagsFuncUseful",
+			"parameters": [
+				{ "type": "mixed", "name": "value" }
+			],
+			"onfailure": "false",
+			"return": "string",
+			"desc": "Returns the JSON representation of a value"
+		},
+		"get_arg": {
+			"class": "PhpTagsFuncUseful",
+			"parameters": [
+				{ "type": "nonobject", "name": "index" },
+				{ "type": "mixed", "name": "default", "default": "NULL" }
+			],
+			"return": "mixed",
+			"desc": "Return an item from the argument list"
+		},
+		"get_args": {
+			"class": "PhpTagsFuncUseful",
+			"parameters": [],
+			"onfailure": "false",
+			"return": "array",
+			"desc": "Returns an array comprising a template's argument list"
+		},
+		"num_args": {
+			"class": "PhpTagsFuncUseful",
+			"parameters": [],
+			"onfailure": "false",
+			"return": "int",
+			"desc": "Returns the number of arguments passed to the template"
+		},
+		"transclude": {
+			"class": "PhpTagsFuncUseful",
+			"parameters": [
+				{ "type": "mixed", "name": "title" },
+				{ "type": "array", "name": "parameters", "default": "array()" },
+				{ "type": "mixed", "name": "default", "default": "null" }
+			],
+			"onfailure": "false",
+			"return": "string",
+			"desc": "Returns text of a template after parse, or $default if the template doesn't exist and $default is not null"
+		}
+	},
+	"constants": {
+		"PHPTAGS_FUNCTIONS_VERSION": {
+			"desc": "The current version of the PhpTags Functions extension as a string",
+			"class": "PhpTagsFuncUseful",
+			"type": "string",
+			"link": "mw://Extension:PhpTags_Functions"
+		},
+		"PHP_VERSION": {
+			"desc": "The current PHP version as a string",
+			"type": "string",
+			"link": "php://reserved.constants.php"
+		},
+		"PHP_MAJOR_VERSION": {
+			"desc": "The current PHP 'major' version as an integer",
+			"type": "int",
+			"link": "php://reserved.constants.php"
+		},
+		"PHP_MINOR_VERSION": {
+			"desc": "The current PHP 'minor' version as an integer",
+			"type": "int",
+			"link": "php://reserved.constants.php"
+		},
+		"PHP_RELEASE_VERSION": {
+			"desc": "The current PHP 'release' version as an integer",
+			"type": "int",
+			"link": "php://reserved.constants.php"
+		},
+		"PHP_INT_MAX": {
+			"desc": "The largest integer supported in this build of PHP",
+			"type": "int",
+			"link": "php://reserved.constants.php"
+		},
+		"PHP_INT_SIZE": {
+			"type": "int",
+			"link": "php://reserved.constants.php"
+		},
+		"PHP_OS": {
+			"type": "string",
+			"link": "php://reserved.constants.php"
+		},
+		"DATE_ATOM": {
+			"type": "string",
+			"link": "php://class.datetime.php"
+		},
+		"DATE_COOKIE": {
+			"type": "string",
+			"link": "php://class.datetime.php"
+		},
+		"DATE_ISO8601": {
+			"type": "string",
+			"link": "php://class.datetime.php"
+		},
+		"DATE_RFC822": {
+			"type": "string",
+			"link": "php://class.datetime.php"
+		},
+		"DATE_RFC850": {
+			"type": "string",
+			"link": "php://class.datetime.php"
+		},
+		"DATE_RFC1036": {
+			"type": "string",
+			"link": "php://class.datetime.php"
+		},
+		"DATE_RFC1123": {
+			"type": "string",
+			"link": "php://class.datetime.php"
+		},
+		"DATE_RFC2822": {
+			"type": "string",
+			"link": "php://class.datetime.php"
+		},
+		"DATE_RFC3339": {
+			"type": "string",
+			"link": "php://class.datetime.php"
+		},
+		"DATE_RSS": {
+			"type": "string",
+			"link": "php://class.datetime.php"
+		},
+		"DATE_W3C": {
+			"type": "string",
+			"link": "php://class.datetime.php"
+		},
+		"SUNFUNCS_RET_TIMESTAMP": {
+			"type": "int",
+			"link": "php://datetime.constants.php"
+		},
+		"SUNFUNCS_RET_STRING": {
+			"type": "int",
+			"link": "php://datetime.constants.php"
+		},
+		"SUNFUNCS_RET_DOUBLE": {
+			"type": "int",
+			"link": "php://datetime.constants.php"
+		},
+		"CASE_LOWER": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"CASE_UPPER": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"COUNT_NORMAL": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"COUNT_RECURSIVE": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"ARRAY_FILTER_USE_BOTH": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"ARRAY_FILTER_USE_KEY": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"ASSERT_ACTIVE": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"ASSERT_CALLBACK": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"ASSERT_BAIL": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"ASSERT_WARNING": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"ASSERT_QUIET_EVAL": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"SORT_ASC": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"SORT_DESC": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"SORT_REGULAR": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"SORT_NUMERIC": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"SORT_STRING": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"SORT_LOCALE_STRING": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"SORT_NATURAL": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"SORT_FLAG_CASE": {
+			"type": "int",
+			"link": "php://array.constants.php"
+		},
+		"ABDAY_1": {
+			"type": "int",
+			"desc": "Abbreviated name of n-th day of the week",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABDAY_2": {
+			"type": "int",
+			"desc": "Abbreviated name of n-th day of the week",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABDAY_3": {
+			"type": "int",
+			"desc": "Abbreviated name of n-th day of the wee",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABDAY_4": {
+			"type": "int",
+			"desc": "Abbreviated name of n-th day of the week",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABDAY_5": {
+			"type": "int",
+			"desc": "Abbreviated name of n-th day of the week",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABDAY_6": {
+			"type": "int",
+			"desc": "Abbreviated name of n-th day of the week",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABDAY_7": {
+			"type": "int",
+			"desc": "Abbreviated name of n-th day of the week",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"DAY_1": {
+			"type": "int",
+			"desc": "Name of the n-th day of the week (DAY_1 = Sunday)",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"DAY_2": {
+			"type": "int",
+			"desc": "Name of the n-th day of the week (DAY_1 = Sunday)",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"DAY_3": {
+			"type": "int",
+			"desc": "Name of the n-th day of the week (DAY_1 = Sunday)",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"DAY_4": {
+			"type": "int",
+			"desc": "Name of the n-th day of the week (DAY_1 = Sunday)",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"DAY_5": {
+			"type": "int",
+			"desc": "Name of the n-th day of the week (DAY_1 = Sunday)",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"DAY_6": {
+			"type": "int",
+			"desc": "Name of the n-th day of the week (DAY_1 = Sunday)",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"DAY_7": {
+			"type": "int",
+			"desc": "Name of the n-th day of the week (DAY_1 = Sunday)",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABMON_1": {
+			"type": "int",
+			"desc": "Abbreviated name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABMON_2": {
+			"type": "int",
+			"desc": "Abbreviated name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABMON_3": {
+			"type": "int",
+			"desc": "Abbreviated name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABMON_4": {
+			"type": "int",
+			"desc": "Abbreviated name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABMON_5": {
+			"type": "int",
+			"desc": "Abbreviated name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABMON_6": {
+			"type": "int",
+			"desc": "Abbreviated name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABMON_7": {
+			"type": "int",
+			"desc": "Abbreviated name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABMON_8": {
+			"type": "int",
+			"desc": "Abbreviated name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABMON_9": {
+			"type": "int",
+			"desc": "Abbreviated name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABMON_10": {
+			"type": "int",
+			"desc": "Abbreviated name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABMON_11": {
+			"type": "int",
+			"desc": "Abbreviated name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ABMON_12": {
+			"type": "int",
+			"desc": "Abbreviated name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"MON_1": {
+			"type": "int",
+			"desc": "Name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"MON_2": {
+			"type": "int",
+			"desc": "Name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"MON_3": {
+			"type": "int",
+			"desc": "Name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"MON_4": {
+			"type": "int",
+			"desc": "Name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"MON_5": {
+			"type": "int",
+			"desc": "Name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"MON_6": {
+			"type": "int",
+			"desc": "Name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"MON_7": {
+			"type": "int",
+			"desc": "Name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"MON_8": {
+			"type": "int",
+			"desc": "Name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"MON_9": {
+			"type": "int",
+			"desc": "Name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"MON_10": {
+			"type": "int",
+			"desc": "Name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"MON_11": {
+			"type": "int",
+			"desc": "Name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"MON_12": {
+			"type": "int",
+			"desc": "Name of the n-th month of the year",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"AM_STR": {
+			"type": "int",
+			"desc": "String for Ante meridian",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"PM_STR": {
+			"type": "int",
+			"desc": "String for Post meridian",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"D_T_FMT": {
+			"type": "int",
+			"desc": "String that can be used as the format string for strftime() to represent time and date",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"D_FMT": {
+			"type": "int",
+			"desc": "String that can be used as the format string for strftime() to represent date",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"T_FMT": {
+			"type": "int",
+			"desc": "String that can be used as the format string for strftime() to represent time",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"T_FMT_AMPM": {
+			"type": "int",
+			"desc": "String that can be used as the format string for strftime() to represent time in 12-hour format with ante/post meridian",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ERA": {
+			"type": "int",
+			"desc": "Alternate era",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ERA_D_FMT": {
+			"type": "int",
+			"desc": "Date in alternate era format",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ERA_T_FMT": {
+			"type": "int",
+			"desc": "Time in alternate era format",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"ERA_D_T_FMT": {
+			"type": "int",
+			"desc": "Date and time in alternate era format",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"CODESET": {
+			"type": "int",
+			"desc": "Return a string with the name of the character encoding",
+			"link": "php://function.nl-langinfo.php"
+		},
+		"CRYPT_SALT_LENGTH": {
+			"type": "int",
+			"link": "php://function.crypt.php"
+		},
+		"CRYPT_STD_DES": {
+			"type": "int",
+			"link": "php://function.crypt.php"
+		},
+		"CRYPT_EXT_DES": {
+			"type": "int",
+			"link": "php://function.crypt.php"
+		},
+		"CRYPT_MD5": {
+			"type": "int",
+			"link": "php://function.crypt.php"
+		},
+		"CRYPT_BLOWFISH": {
+			"type": "int",
+			"link": "php://function.crypt.php"
+		},
+		"CRYPT_SHA256": {
+			"type": "int",
+			"link": "php://function.crypt.php"
+		},
+		"CRYPT_SHA512": {
+			"type": "int",
+			"link": "php://function.crypt.php"
+		},
+		"HTML_SPECIALCHARS": {
+			"type": "int"
+		},
+		"HTML_ENTITIES": {
+			"type": "int"
+		},
+		"ENT_COMPAT": {
+			"type": "int",
+			"desc": "Will convert double-quotes and leave single-quotes alone",
+			"link": "php://function.htmlentities.php"
+		},
+		"ENT_QUOTES": {
+			"type": "int",
+			"desc": "Will convert both double and single quotes",
+			"link": "php://function.htmlentities.php"
+		},
+		"ENT_NOQUOTES": {
+			"type": "int",
+			"desc": "Will leave both double and single quotes unconverted",
+			"link": "php://function.htmlentities.php"
+		},
+		"ENT_IGNORE": {
+			"type": "int",
+			"desc": "Silently discard invalid code unit sequences instead of returning an empty string",
+			"link": "php://function.htmlentities.php"
+		},
+		"ENT_SUBSTITUTE": {
+			"type": "int",
+			"desc": "Replace invalid code unit sequences with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD; (otherwise) instead of returning an empty string",
+			"link": "php://function.htmlentities.php"
+		},
+		"ENT_DISALLOWED": {
+			"type": "int",
+			"desc": "Replace invalid code points for the given document type with a Unicode Replacement Character U+FFFD (UTF-8) or &#FFFD;",
+			"link": "php://function.htmlentities.php"
+		},
+		"ENT_HTML401": {
+			"type": "int",
+			"desc": "Handle code as HTML 4.01",
+			"link": "php://function.htmlentities.php"
+		},
+		"ENT_XML1": {
+			"type": "int",
+			"desc": "Handle code as XML 1",
+			"link": "php://function.htmlentities.php"
+		},
+		"ENT_XHTML": {
+			"type": "int",
+			"desc": "Handle code as XHTML",
+			"link": "php://function.htmlentities.php"
+		},
+		"ENT_HTML5": {
+			"type": "int",
+			"desc": "Handle code as HTML 5",
+			"link": "php://function.htmlentities.php"
+		},
+		"CHAR_MAX": {
+			"type": "int"
+		},
+		"STR_PAD_LEFT": {
+			"type": "int",
+			"link": "php://function.str-pad.php"
+		},
+		"STR_PAD_RIGHT": {
+			"type": "int",
+			"link": "php://function.str-pad.php"
+		},
+		"STR_PAD_BOTH": {
+			"type": "int",
+			"link": "php://function.str-pad.php"
+		},
+		"M_PI": {
+			"type": "int",
+			"desc": "Pi",
+			"link": "php://math.constants.php"
+		},
+		"M_PI_2": {
+			"type": "int",
+			"desc": "pi/2",
+			"link": "php://math.constants.php"
+		},
+		"M_PI_4": {
+			"type": "int",
+			"desc": "pi/4",
+			"link": "php://math.constants.php"
+		},
+		"M_1_PI": {
+			"type": "int",
+			"desc": "1/pi",
+			"link": "php://math.constants.php"
+		},
+		"M_2_PI": {
+			"type": "int",
+			"desc": "2/pi",
+			"link": "php://math.constants.php"
+		},
+		"M_SQRTPI": {
+			"type": "int",
+			"desc": "sqrt(pi)",
+			"link": "php://math.constants.php"
+		},
+		"M_2_SQRTPI": {
+			"type": "int",
+			"desc": "2/sqrt(pi)",
+			"link": "php://math.constants.php"
+		},
+		"M_LNPI": {
+			"type": "int",
+			"desc": "log_e(pi)",
+			"link": "php://math.constants.php"
+		},
+		"M_EULER": {
+			"type": "int",
+			"desc": "Euler constant",
+			"link": "php://math.constants.php"
+		},
+		"M_SQRT2": {
+			"type": "int",
+			"desc": "sqrt(2)",
+			"link": "php://math.constants.php"
+		},
+		"M_SQRT1_2": {
+			"type": "int",
+			"desc": "1/sqrt(2)",
+			"link": "php://math.constants.php"
+		},
+		"M_SQRT3": {
+			"type": "int",
+			"desc": "sqrt(3)",
+			"link": "php://math.constants.php"
+		},
+		"INF": {
+			"type": "int",
+			"desc": "The infinite",
+			"link": "php://math.constants.php"
+		},
+		"NAN": {
+			"type": "int",
+			"desc": "Not A Number",
+			"link": "php://math.constants.php"
+		},
+		"PHP_ROUND_HALF_UP": {
+			"type": "int",
+			"desc": "Round halves up",
+			"link": "php://math.constants.php"
+		},
+		"PHP_ROUND_HALF_DOWN": {
+			"type": "int",
+			"desc": "Round halves down",
+			"link": "php://math.constants.php"
+		},
+		"PHP_ROUND_HALF_EVEN": {
+			"type": "int",
+			"desc": "Round halves to even numbers",
+			"link": "php://math.constants.php"
+		},
+		"PHP_ROUND_HALF_ODD": {
+			"type": "int",
+			"desc": "Round halves to odd numbers",
+			"link": "php://math.constants.php"
+		},
+		"M_E": {
+			"type": "int",
+			"desc": "e",
+			"link": "php://math.constants.php"
+		},
+		"M_LOG2E": {
+			"type": "int",
+			"desc": "log_2 e",
+			"link": "php://math.constants.php"
+		},
+		"M_LOG10E": {
+			"type": "int",
+			"desc": "log_10 e",
+			"link": "php://math.constants.php"
+		},
+		"M_LN2": {
+			"type": "int",
+			"desc": "log_e 2",
+			"link": "php://math.constants.php"
+		},
+		"M_LN10": {
+			"type": "int",
+			"desc": "log_e 10",
+			"link": "php://math.constants.php"
+		},
+		"PREG_PATTERN_ORDER": {
+			"type": "int",
+			"desc": "Orders results so that $matches[0] is an array of full pattern matches, $matches[1] is an array of strings matched by the first parenthesized subpattern, and so on",
+			"link": "php://pcre.constants.php"
+		},
+		"PREG_SET_ORDER": {
+			"type": "int",
+			"desc": "Orders results so that $matches[0] is an array of first set of matches, $matches[1] is an array of second set of matches, and so on",
+			"link": "php://pcre.constants.php"
+		},
+		"PREG_OFFSET_CAPTURE": {
+			"type": "int",
+			"desc": "If this flag is set, for every occurring match the appendant string offset will also be returned. Note that this changes the return values in an array where every element is an array consisting of the matched string at offset 0 and its string offset within subject at offset 1",
+			"link": "php://pcre.constants.php"
+		},
+		"PREG_SPLIT_NO_EMPTY": {
+			"type": "int",
+			"desc": "This flag tells preg_split() to return only non-empty pieces",
+			"link": "php://pcre.constants.php"
+		},
+		"PREG_SPLIT_DELIM_CAPTURE": {
+			"type": "int",
+			"desc": "This flag tells preg_split() to capture parenthesized expression in the delimiter pattern as well",
+			"link": "php://pcre.constants.php"
+		},
+		"PREG_SPLIT_OFFSET_CAPTURE": {
+			"type": "int",
+			"desc": "If this flag is set, for every occurring match the appendant string offset will also be returned. Note that this changes the return values in an array where every element is an array consisting of the matched string at offset 0 and its string offset within subject at offset 1",
+			"link": "php://pcre.constants.php"
+		},
+		"PREG_NO_ERROR": {
+			"type": "int",
+			"desc": "Returned by preg_last_error() if there were no errors",
+			"link": "php://pcre.constants.php"
+		},
+		"PREG_INTERNAL_ERROR": {
+			"type": "int",
+			"desc": "Returned by preg_last_error() if there was an internal PCRE error",
+			"link": "php://pcre.constants.php"
+		},
+		"PREG_BACKTRACK_LIMIT_ERROR": {
+			"type": "int",
+			"desc": "Returned by preg_last_error() if backtrack limit was exhausted",
+			"link": "php://pcre.constants.php"
+		},
+		"PREG_RECURSION_LIMIT_ERROR": {
+			"type": "int",
+			"desc": "Returned by preg_last_error() if recursion limit was exhausted",
+			"link": "php://pcre.constants.php"
+		},
+		"PREG_BAD_UTF8_ERROR": {
+			"type": "int",
+			"desc": "Returned by preg_last_error() if the last error was caused by malformed UTF-8 data",
+			"link": "php://pcre.constants.php"
+		},
+		"PCRE_VERSION": {
+			"type": "string",
+			"desc": "PCRE version and release date",
+			"link": "php://pcre.constants.php"
+		},
+		"PREG_GREP_INVERT": {
+			"type": "int",
+			"link": "php://function.preg-grep.php"
+		},
+		"MB_OVERLOAD_MAIL": {
+			"type": "int",
+			"link": "php://mbstring.constants.php"
+		},
+		"MB_OVERLOAD_STRING": {
+			"type": "int",
+			"link": "php://mbstring.constants.php"
+		},
+		"MB_OVERLOAD_REGEX": {
+			"type": "int",
+			"link": "php://mbstring.constants.php"
+		},
+		"MB_CASE_UPPER": {
+			"type": "int",
+			"link": "php://mbstring.constants.php"
+		},
+		"MB_CASE_LOWER": {
+			"type": "int",
+			"link": "php://mbstring.constants.php"
+		},
+		"MB_CASE_TITLE": {
+			"type": "int",
+			"link": "php://mbstring.constants.php"
+		},
+		"UUID": {
+			"type": "string",
+			"class": "PhpTagsFuncUseful",
+			"desc": "returns random UUID"
+		}
+	}
+}

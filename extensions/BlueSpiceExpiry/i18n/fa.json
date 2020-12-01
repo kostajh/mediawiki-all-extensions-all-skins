@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"FarsiNevis"
+		]
+	},
+	"expiry": "انقضا",
+	"specialexpiry": "مقاله‌های منقضی",
+	"prefs-expiry": "انقضا",
+	"bs-expiry-header-pagename": "صفحه",
+	"bs-expiry-dialog-title": "انقضای ویرایش",
+	"bs-expiry-date-label": "منقضی در",
+	"bs-expiry-article-label": "صفحه",
+	"bs-expiry-unknown-page-msg": "صفحه وجود ندارد.",
+	"bs-expiry-menu-entry-create": "انقضا",
+	"bs-expiry-nav-link-title-expiry": "انقضا",
+	"bs-expiry-flyout-title": "انقضای صفحه",
+	"bs-expiry-flyout-next-expired": "این صفحه منقضی شده است!",
+	"bs-expiry-edit-grid-header-username": "کاربر",
+	"bs-expiry-edit-grid-header-date": "تاریخ",
+	"bs-expiry-flyout-body-hint-expired": "منقضی‌شده در $1",
+	"bs-expiry-flyout-body-hint-expires": "منقضی در $1",
+	"bs-expiry-pageinfoelement-expired-label": "منقضی",
+	"bs-expiry-pageinfoelement-expired-tooltip": "این صفحه منقضی شده است!",
+	"notification-bs-expiry-today-subject": "صفحهٔ «$1» منقضی شده است"
+}

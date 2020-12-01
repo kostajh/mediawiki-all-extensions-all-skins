@@ -1,0 +1,80 @@
+{
+	"name": "WikiShare",
+	"version": "0.15042020",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Varnent Gregory Varnum]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WikiShare",
+	"descriptionmsg": "wikishare-desc",
+	"license-name": "GPL-2.0-only",
+	"type": "other",
+	"ExtensionMessagesFiles": {
+		"WikiShareMagic": "WikiShare.i18n.magic.php"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"WikiShare": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"WikiShare": "WikiShare.body.php"
+	},
+	"ResourceModules": {
+		"ext.WikiShare": {
+			"styles": "WikiShare.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "WikiShare"
+	},
+	"Hooks": {
+		"ArticleViewHeader": "WikiShare::WikiShareHeader",
+		"ParserFirstCallInit": "WikiShare::onParserFirstCallInit",
+		"SkinBuildSidebar": [ "WikiShare::WikiShareSidebar", "WikiShare::WikiShareFollowSidebar" ]
+	},
+	"config": {
+		"WikiShare": {
+			"value": {
+				"background": "#f6f6f6",
+				"border": "#a7d7f9",
+				"header": true,
+				"main": true,
+				"sidebar": true,
+				"follow": true
+			}
+		},
+		"WikiShareServices": {
+			"value": {
+				"facebook": {
+					"service": "Facebook",
+					"url" : "https://www.facebook.com/sharer.php?u=%url%&t=%title% - %wiki%",
+					"icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/40px-Facebook_f_logo_%282019%29.svg.png"
+				},
+				"twitter": {
+					"service": "Twitter",
+					"url" : "https://twitter.com/intent/tweet?text=Look%20what%20I%20found%20on%20%wiki%:%20%url%",
+					"icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Twitter_Logo.png/40px-Twitter_Logo.png"
+				}
+			}
+		},
+		"WikiShareFollow": {
+			"value": {
+				"facebook": {
+					"service": "Facebook",
+					"url" : "",
+					"icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/40px-Facebook_f_logo_%282019%29.svg.png"
+				},
+				"twitter": {
+					"service": "Twitter",
+					"url" : "",
+					"icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Twitter_Logo.png/40px-Twitter_Logo.png"
+				}
+			}
+		}
+	},
+	"manifest_version": 2
+}

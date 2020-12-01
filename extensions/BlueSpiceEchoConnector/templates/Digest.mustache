@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			body {
+				background-color: #fcfcfc;
+			}
+
+			.mail-container {
+				width: 80%;
+				max-width: 600px;
+				margin-left: auto;
+				margin-right: auto;
+				background-color: #e7e7e7;
+				padding: 30px;
+			}
+			.intro-header {
+				position:relative;
+				width: 80%;
+				max-width: 600px;
+				margin-left: auto;
+				margin-right: auto;
+				background-color: #3e5389;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+			.intro-header .sender-info {
+				position: absolute;
+				right: 10px;
+				top: 4px;
+				font-size: .6em;
+			}
+			.intro-header span{
+				color: white;
+			}
+			.actions {
+				margin-top: 50px;
+			}
+			.actions div {
+				margin-bottom: 15px;
+			}
+			.icon {
+				float: left;
+				padding-right: 20px;
+			}
+			.footer {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class='intro-header'>
+			<span>{{{greeting}}}</span>
+			<span class='sender-info'>{{sender-info}}</span>
+		 </div>
+		<div class='mail-container'>
+			<div class='digest-list'>
+				{{{digest-list}}}
+			</div>
+			<div class='actions'>
+				{{{action}}}
+			</div>
+		</div>
+		<div class='footer'>{{{footer}}}</div>
+	</body>
+</html>

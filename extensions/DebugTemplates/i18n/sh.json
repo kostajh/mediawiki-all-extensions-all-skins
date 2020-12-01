@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"debugtemplates-args-title": "Parametri",
+	"debugtemplates-args-name": "Ime",
+	"debugtemplates-args-eval": "Procijenana svih",
+	"debugtemplates-args-set": "Zadani?",
+	"debugtemplates-args-value": "Vrijednost",
+	"debugtemplates-args-eval-all": "Procijena",
+	"debugtemplates-args-set-toggle": "Zadaj/ukini sve",
+	"debugtemplates-args-constructed": "neimenovano",
+	"debugtemplates-eval": "Ocijeni sve",
+	"debugtemplates-radio-select": "ništa",
+	"debugtemplates-radio-eval": "ocijeni"
+}

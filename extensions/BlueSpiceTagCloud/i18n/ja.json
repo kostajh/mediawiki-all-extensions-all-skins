@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"bs-tagcloud-tag-tagcloud-name": "タグ クラウド",
+	"bs-tagcloud-tag-tagcloud-title": "タグ クラウド",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "テキスト",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "カテゴリ",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "最小フォント サイズ",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "最大フォント サイズ"
+}

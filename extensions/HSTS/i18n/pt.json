@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"hsts-desc": "HSTS (HTTP Strict Transport Security) em função de cada utilizador",
+	"hsts-tog": "Ativar HTTP Strict Transport Security (HSTS)",
+	"hsts-https-tog": "Ative o HTTP Strict Transport Security (HSTS)<br />Recarregue esta página com HTTPS para alterar esta preferência.",
+	"hsts-beta-feature-message": "Usar sempre uma ligação segura",
+	"hsts-beta-feature-description": "Isto reforça a sua segurança neste sítio, mantendo-o seguro, mesmo após o encerramento da sessão, e assegura que ninguém pode espiá-lo durante a navegação. Com esta opção ativada e um navegador recente que suporte esta tecnologia (HSTS), qualquer alerta de segurança é muito provavelmente um ataque verdadeiro contra si."
+}

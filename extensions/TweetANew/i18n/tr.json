@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bilalokms",
+			"By erdo can",
+			"Emperyan"
+		]
+	},
+	"tweetanew-desc": "Bir sayfa oluşturulduğunda veya düzenlendiğinde Tweetle",
+	"tweetanew-newaction": "Bu sayfa hakkında tweet atın",
+	"tweetanew-newtooltip": "Bu yeni sayfa hakkında bilgileri Twitter'a gönder",
+	"tweetanew-editaction": "Bu değişiklik hakkında tweetleyin",
+	"tweetanew-edittooltip": "Bu düzenleme ile ilgili bilgileri Twitter'a gönder",
+	"tweetanew-minoredit": "k",
+	"tweetanew-authorcredit": "tarafından",
+	"tweetanew-newdefault": "YENİ SAYFA: $1 - $2",
+	"tweetanew-new1": "Görünüşe göre $1, $2 olarak oluşturuldu",
+	"tweetanew-new2": "$1 yakın bir zamanda $2 olarak oluşturuldu",
+	"tweetanew-new3": "$2 sayfasına göz atın - $1 üzerinde yeni bir sayfa var",
+	"tweetanew-editdefault": "SAYFA GÜNCELLENDİ: $1 - $2",
+	"tweetanew-edit1": "Görünüşe göre $1, $2 olarak güncellendi",
+	"tweetanew-edit2": "$1 yakın bir zamanda $2 olarak değiştirildi",
+	"tweetanew-edit3": "$2 içeriğine göz atın - $1 üzerinde yeni içerik var"
+}

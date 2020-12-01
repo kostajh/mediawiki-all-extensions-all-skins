@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"configmanager-admintool-label": "Konfigurasjonsbehandler",
+	"action-configmanager-viewspecialpage": "vise spesialsiden «{{int:configmanager}}»",
+	"configmanager": "Konfigurasjonsbehandler",
+	"configmanager-desc": "Gir administratorer muligheten til å konfigurere hele wikien fra én enkel spesialside",
+	"configmanager-discardchanges": "Forkaste endringer?",
+	"configmanager-noentry": "Ingen post funnet",
+	"apihelp-configmanager-tasks-summary": "Behandle oppgaver",
+	"apihelp-configmanager-store-summary": "Behandle lagringer",
+	"right-configmanager-viewspecialpage": "Tilgang til spesialsiden [[Special:ConfigManager]]."
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kolega2357",
+			"Vlad5250"
+		]
+	},
+	"sitematrix": "Spisak svih wikija",
+	"sitematrix-summary": "Ova posebna strana navodi sve Wikimedijine wikije.",
+	"sitematrix-desc": "Prikazuje spisak [[Special:SiteMatrix|svih Wikimedijinih wikija]]",
+	"sitematrix-language": "Jezik",
+	"sitematrix-project": "Naziv projekta, međuprojektna veza i interwiki veza",
+	"sitematrix-others": "Drugi Wikimedijini projekti",
+	"sitematrix-other-projects": "Ostali projekti",
+	"sitematrix-other-projects-language": "Jezik",
+	"sitematrix-total": "'''Ukupno projekata: $1'''",
+	"sitematrix-sitetotal": "Ukupno",
+	"sitematrix-closed": "bez pristupa za pisanje, puni pristup za čitanje",
+	"sitematrix-private": "ograničen pristup za čitanje i pisanje",
+	"sitematrix-fishbowl": "ograničen pristup za pisanje, puni pristup za čitanje",
+	"sitematrix-nonglobal": "javno, ali treba registracija"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Ihojose",
+			"Maribel1507"
+		]
+	},
+	"extralanguagelink-desc": "Añade más enlaces interlingüísticos en la sección «En otros idiomas» de la barra lateral",
+	"extralanguagelink-param-class": "clase",
+	"extralanguagelink-param-hreflang": "hreflang",
+	"extralanguagelink-param-lang": "lang",
+	"extralanguagelink-param-style": "estilo",
+	"extralanguagelink-param-title": "título",
+	"extralanguagelink-badinterwiki": "El prefijo de interwiki \"$1:\" no está permitido en la lista de prefijos de interwiki.",
+	"extralanguagelink-badtitle": "No se pudo analizar el título de la página «$1»."
+}

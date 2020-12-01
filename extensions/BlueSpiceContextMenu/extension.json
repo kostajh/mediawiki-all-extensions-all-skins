@@ -1,0 +1,97 @@
+{
+	"name": "BlueSpiceContextMenu",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:ContextMenu",
+	"author": [
+		"Tobias Weichart",
+		"Robert Vogel",
+		"Peter Boehm"
+	],
+	"descriptionmsg": "bs-contextmenu-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceContextMenu": {
+					"className": "\\BlueSpice\\ContextMenu\\Extension",
+					"extPath": "/BlueSpiceContextMenu"
+				}
+			}
+		},
+		"BlueSpiceContextMenu": {
+			"ItemFactories": {
+				"edit": "BlueSpice\\ContextMenu\\MenuItem\\Edit::factory",
+				"delete": "BlueSpice\\ContextMenu\\MenuItem\\Delete::factory",
+				"history": "BlueSpice\\ContextMenu\\MenuItem\\History::factory",
+				"move": "BlueSpice\\ContextMenu\\MenuItem\\Move::factory",
+				"protect": "BlueSpice\\ContextMenu\\MenuItem\\Protect::factory",
+				"watch": "BlueSpice\\ContextMenu\\MenuItem\\Watch::factory",
+				"purge": "BlueSpice\\ContextMenu\\MenuItem\\Purge::factory",
+				"info": "BlueSpice\\ContextMenu\\MenuItem\\Info::factory",
+				"whatlinkshere": "BlueSpice\\ContextMenu\\MenuItem\\Whatlinkshere::factory",
+				"download": "BlueSpice\\ContextMenu\\MenuItem\\Download::factory",
+				"editusertalk": "BlueSpice\\ContextMenu\\MenuItem\\EditUserTalk::factory",
+				"mailuser": "BlueSpice\\ContextMenu\\MenuItem\\MailUser::factory",
+				"reupload": "BlueSpice\\ContextMenu\\MenuItem\\Reupload::factory",
+				"viewmedia": "BlueSpice\\ContextMenu\\MenuItem\\ViewMedia::factory"
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceContextMenu": [
+			"i18n"
+		]
+	},
+	"DefaultUserOptions": {
+		"bs-contextmenu-modus" : "ctrl"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\ContextMenu\\": "src/"
+	},
+	"AutoloadClasses": {
+		"BSApiContextMenuTasks": "includes/api/BSApiContextMenuTasks.php"
+	},
+	"Hooks": {
+		"GetPreferences": "\\BlueSpice\\ContextMenu\\Hook\\GetPreferences\\AddModus::callback",
+		"BeforePageDisplay": "\\BlueSpice\\ContextMenu\\Hook\\BeforePageDisplay\\AddModules::callback"
+	},
+	"APIModules": {
+		"bs-contextmenu-tasks": "BSApiContextMenuTasks"
+	},
+	"ResourceModules": {
+		"ext.bluespice.contextmenu": {
+			"scripts": "bluespice.contextmenu.js",
+			"messages": [
+				"bs-contextmenu-page-edit",
+				"bs-contextmenu-page-delete",
+				"bs-contextmenu-page-move",
+				"bs-contextmenu-page-history",
+				"bs-contextmenu-page-protect",
+				"bs-contextmenu-page-purge",
+				"bs-contextmenu-page-info",
+				"bs-contextmenu-media-reupload",
+				"bs-contextmenu-media-view-page",
+				"bs-contextmenu-user-mail",
+				"bs-contextmenu-user-talk",
+				"bs-contextmenu-file-download"
+			],
+			"dependencies": [
+				"user.options",
+				"ext.bluespice"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceContextMenu/resources"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

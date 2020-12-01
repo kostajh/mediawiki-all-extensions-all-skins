@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-insertcategory-desc": "Dijalog za unošenje linka ka kategoriji",
+	"bs-insertcategory-insertcat": "Unesi kategoriju",
+	"prefs-insertcategory": "Unesi kategoriju",
+	"bs-insertcategory-title": "Unesi kategoriju",
+	"bs-insertcategory-cat-label": "Dodeljeno:",
+	"bs-insertcategory-success": "Kategorija je dodata",
+	"bs-insertcategory-failure": "Greška",
+	"bs-insertcategory-hint": "Napomena: da bi ste uneli kategoriju, morate pritisnuti enter.",
+	"bs-insertcategory-panel-title": "Kategorije",
+	"bs-insertcategory-category-editor-title": "Kategorije",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Implicitne kategorije",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Ukloni sve",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "uredi",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Uredite kategorije ove stranice"
+}

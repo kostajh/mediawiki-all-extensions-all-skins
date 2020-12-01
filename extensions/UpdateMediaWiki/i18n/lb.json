@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"updatemediawiki": "MediaWiki aktualiséieren",
+	"updatemediawiki-desc": "Erméiglecht et fir MediaWiki iwwer eng Spezialsäit z'aktualiséieren",
+	"updatemediawiki-current": "Aktuell Versioun $1",
+	"updatemediawiki-update-nofound": "Keng Aktualiséierung disponibel",
+	"updatemediawiki-update-found": "Keng Aktualiséierung fonnt: $1",
+	"updatemediawiki-update-downloading": "Nei Aktualiséierung gëtt erofgelueden",
+	"updatemediawiki-update-saved": "Aktualiséierung erofgelueden a gespäichert",
+	"updatemediawiki-update-exist": "Aktualiséierung schonn erofgelueden",
+	"updatemediawiki-update-copyready": "Kopie ass fäerdeg",
+	"updatemediawiki-update-database": "D'Datebank elo aktualiséieren?",
+	"updatemediawiki-update-updateready": "Aktualiséierung prett",
+	"updatemediawiki-update-install": "Elo installéieren?",
+	"updatemediawiki-update-updated": "Mediawiki aktualiséiert op d'Versioun $1",
+	"updatemediawiki-update-error": "Déi neist Versioune konnten net fonnt ginn",
+	"updatemediawiki-update-aborted": "D'Aktualiséierung konnt net gespäichert ginn. Operatioun ofgebrach"
+}

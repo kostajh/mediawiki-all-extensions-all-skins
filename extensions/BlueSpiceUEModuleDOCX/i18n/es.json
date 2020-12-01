@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"bs-uemoduledocx-extension-description": "Permite la exportación a DOCX",
+	"bs-uemoduledocx-pref-SuppressNS": "Ocultar prefijo de espacio de nombres en el DOCX",
+	"bs-uemoduledocx-widgetlink-single-text": "Página única en DOCX",
+	"bs-uemoduledocx-widgetlink-single-title": "Exportar esta página como DOCX.",
+	"bs-uemoduledocx-overview-title": "Microsoft&reg; Office Open XML (DOCX)",
+	"bs-uemoduledocx-overview-description": "Exporta páginas al formato DOCX de Microsoft.",
+	"bs-uemoduledocx-overview-webservice-state-not-ok": "no disponible",
+	"bs-uemoduledocx-overview-webservice-state-ok": "disponible"
+}

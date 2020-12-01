@@ -1,0 +1,74 @@
+==UEModuleDOCX.php==
+
+'BSUEModuleDOCXBeforeCreateWidget':
+ $this:
+ $oSpecialPage:
+ &$aLinks:
+ $aCurrentQueryParams:
+
+==DOCXPageProvider.php==
+
+'BSUEModuleDOCXbeforeGetPage':
+&$aParams:
+
+'BSUEModuleDOCXgetPage':
+$oTitle:
+ &$aPage:
+ &$aParams:
+ $oDOMXPath:
+
+'BSUEModuleDOCXcollectMetaData':
+$oTitle:
+ $oPageDOM:
+ &$aParams:
+ $oDOMXPath:
+ &$aMeta:
+
+'BSUEModuleDOCXcleanUpDOM':
+$oTitle:
+ $oPageDOM:
+ &$aParams: 
+$oDOMXPath:
+ &$aClassesToRemove:
+
+==DOCXServlet.php==
+
+'BSUEModuleDOCXCreateDOCXBeforeSend':
+$this:
+ &$aOptions:
+ $oHtmlDOM:
+
+'BSUEModuleDOCXUploadFilesBeforeSend':
+$this:
+ &$aPostData:
+ $sType:
+
+'BSUEModuleDOCXFindFiles':
+$this:
+ $oImageElement:
+ $sAbsoluteFileSystemPath:
+ $sFileName:
+ 'images':
+
+'BSUEModuleDOCXWebserviceFindFiles':
+$this:
+ $oImageElement:
+ $sAbsoluteFileSystemPath:
+ $sFileName:
+ 'images':
+
+'BSUEModuleDOCXAfterFindFiles'.
+$this:
+ $oHtml:
+ &$aFiles:
+ $aParams:
+ $oDOMXPath:
+
+
+==ExportModuleDOCX.php==
+
+'BSUEModuleDOCXBeforeCreateDOCX':
+$this:
+&$sTemplate:
+$oCaller
+

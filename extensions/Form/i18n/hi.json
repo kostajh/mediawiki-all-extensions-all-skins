@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Smtchahal"
+		]
+	},
+	"form-captcha-error": "CAPTCHA त्रुटि",
+	"form-no-name": "कोई फ़ाॅर्म नाम नहीं",
+	"form-bad-name-text": "उस नाम का कोई फ़ाॅर्म नहीं है।",
+	"form-pattern": "$1-फ़ाॅर्म",
+	"form-title-pattern": "नया $1 जोड़ें",
+	"form-save": "सहेजें",
+	"form-article-existstext": "पृष्ठ [[$1]] पहले से मौजूद है।",
+	"form-save-summary": "[[Special:Form/$1|फ़ाॅर्म $1]] द्वारा नया पृष्ठ",
+	"form-save-error": "फ़ाॅर्म सहेजने में त्रुटि",
+	"form-save-error-text": "'$1' सहेजने में एक अज्ञात त्रुटि हुई।"
+}

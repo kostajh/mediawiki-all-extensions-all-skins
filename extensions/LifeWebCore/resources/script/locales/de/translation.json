@@ -1,0 +1,45 @@
+{
+    "title" : {
+        "topic" : "Thema",
+        "taxonEditor" : "Taxon-Editor",
+        "questionEditor" : "Fragen-Editor",
+        "questions" : "Fragen",
+        "question" : "Frage",
+        "required-equipment" : "Benötigte Ausrüstung",
+        "characters" : "Merkmale",
+        "character-editor" : "Merkmal-Editor",
+        "component" : "Komponente",
+        "ranges" : "Wertebereiche",
+        "taxon-tree" : "Taxonomischer Stammbaum"
+    },
+    "button" : {
+        "+add" : "+ Hinzufügen",
+        "save" : "Speichern",
+        "delete" : "Löschen",
+        "cancel" : "Abbrechen",
+        "taxa" : "Taxa",
+        "settings" : "Einstellungen",
+        "about" : "Über",
+        "newIdentification" : "Neue Bestimmung",
+        "search" : "Suchen"
+    },
+    "ui" : {
+        "select-topic" : "Thema auswählen",
+        "matching-taxa" : "Passende Taxa",
+        "question-order" : "Fragenreihenfolge",
+        "equipment" : "Ausrüstung",
+        "taxon-rating" : "Taxonbewertung",
+        "still-matching" : "__valid__ von __total__ Taxa können immer noch passen.",
+        "reset-selection" : "Auswahl zurücksetzen"
+    },
+    "lw" : {
+        "exact" : "Exakt",
+        "exact-desc" : "Exakte Bewertung, keine Fehler erlaubt",
+        "error-tolerant" : "Fehlertolerant",
+        "normal" : "Normal",
+        "simple" : "Einfach",
+        "most-used" : "Meistverwendet",
+        "hierarchical" : "Hierarchisch",
+        "performance" : "Performance"
+    }
+}

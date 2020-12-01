@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"blockandnuke-defaultreason": "$1님이 추가한 문서의 대량 삭제",
+	"blockandnuke-tools": "최근 기여했으나 화이트리스트에 없는 사용자 목록입니다:\n\n화이트리스트에 사용자를 추가하려면 extensions/BlockandNuke/whitelist.txt를 편집하십시오",
+	"blockandnuke-submit-user": "사용자 차단",
+	"blockandnuke-submit-delete": "BlockandNuke",
+	"blockandnuke-block": "선택된 사용자는 차단되었으며 기여는 삭제되었습니다.",
+	"blockandnuke-message": "사용자가 BlockandNuke에 의해 차단되었습니다.",
+	"blockandnuke-banhammer": "선택된 사용자를 차단하고 모든 기여를 삭제하려면 아래의 버튼을 클릭하십시오.",
+	"blockandnuke-nothing-to-do": "해야할 일이 없습니다!",
+	"blockandnuke-banning": "차단하는 중...",
+	"blockandnuke-deleted-page": "$1 문서를 삭제했습니다",
+	"blockandnuke-banned-ip": "$1 IP를 차단했습니다",
+	"blockandnuke-ip-addresses": "IP 주소",
+	"blockandnuke-users": "사용자",
+	"blockandnuke-pages": "페이지",
+	"right-blockandnuke": "사용자 목록을 차단하고 모든 기여를 삭제합니다"
+}

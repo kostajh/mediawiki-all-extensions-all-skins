@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31",
+			"Gomoko",
+			"Grondin",
+			"Urhixidur",
+			"Wladek92"
+		]
+	},
+	"stalkerlog-desc": "Ajoute [[Special:Log/stalkerlog|un journal]] des connexions des utilisateurs",
+	"stalkerlog-log-login": "connecté.",
+	"stalkerlog-log-logout": "déconnecté.",
+	"stalkerlog-log-type": "Journal d’authentification de l’utilisateur",
+	"stalkerlog-log-text": "Voici un journal des connexions et des déconnexions de l’utilisateur.",
+	"action-stalkerlog-view-log": "afficher les journaux des connexions et déconnexions utilisateur",
+	"right-stalkerlog-view-log": "Voir les journaux des connexion/déconnexions utilisateur"
+}

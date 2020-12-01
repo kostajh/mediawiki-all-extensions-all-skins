@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"bs-notifications-addaccount": "La uzanto \"$1\" kreiĝis.",
+	"bs-notifications-email-addaccount-subject": "La uzanto \"$2\" {{GENDER:$1|kreiĝis}}",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Kreinto}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Kreinto}}: $1",
+	"bs-notifications-registeruser": "La uzanto \"$1\" kreis konton.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|La uzanto}} \"$2\" {{GENDER:$1|kreis}} konton",
+	"bs-notifications-edit-difflink-label": "Vidi diferencon",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Saluton}}, $1",
+	"bs-notifications-mail-additional-links-label": "Pliaj ligiloj"
+}

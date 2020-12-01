@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Cimon Avaro",
+			"Crt",
+			"Pe3",
+			"Str4nd",
+			"Tarmo"
+		]
+	},
+	"quiz_desc": "Mahdollistaa kyselyiden luomisen.",
+	"quiz_addedPoints": "{{PLURAL:$1|Piste|Pisteitä}} lisätty oikeasta vastauksesta:",
+	"quiz_cutoffPoints": "{{PLURAL:$1|Piste|Pisteitä}} väärästä vastauksesta",
+	"quiz_ignoreCoef": "Jätä huomioimatta kysymysten kertoimet",
+	"quiz_shuffle": "Sekoita kysymykset",
+	"quiz_legend_correct": "Oikein",
+	"quiz_legend_incorrect": "Väärin",
+	"quiz_legend_unanswered": "Vastaamatta",
+	"quiz_legend_error": "Jäsennysvirhe",
+	"quiz_correction": "Lähetä",
+	"quiz_score": "Tuloksesi on $1 / $2",
+	"quiz_points": "$1 | {{PLURAL:$2|1 piste|$2 pistettä}}",
+	"quiz_reset": "Tyhjennä"
+}

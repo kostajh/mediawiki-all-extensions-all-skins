@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jack D. Pond",
+			"Robert Vogel"
+		]
+	},
+	"nsfilerepo-desc": "Provide namespace based features to uploaded files",
+	"nsfilerepo-upload-target" : "Target file name in namespace",
+	"nsfilerepo-nsmain" : "(Main)",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext" : "This field can not be modified when re-uploading a file",
+	"nsfilerepo-move-file-namespace-action-label" : "Set file namespace",
+	"nsfilerepo-move-file-namespace-dialog-title" : "Set file namespace",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "Done",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "Cancel",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "Namespace"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"passwordlesslogin": "Tràse senza passuord",
+	"passwordlesslogin-desc": "Dèje 'nu mode de trasè senze 'na passuord da confermà quanne se trase sus a 'nu dispositive connesse.",
+	"passwordlesslogin-verify-request": "Pe piacere condrolle l'accesse tune sus a 'u mobbile tune.",
+	"passwordlesslogin-error-no-authentication-workflow": "Flusse de fatìe de l'autendicazione ave spicciate inaspettatamende.",
+	"passwordlesslogin-no-challenge": "Nisciuna sfida attive da confermà, pe piacere pruève a autendicarte arrete.",
+	"passwordlesslogin-verification-pending": "L'autendicazione non g'ha state verificate angore. Pe piacere condrolle 'a richieste de l'accesse tune sus a 'u dispositive connesse.",
+	"passwordlesslogin-pair-device-step": "Segue le 'struziune pe accoppià 'u dispositive tune.",
+	"passwordlesslogin-no-device-paired": "Non ge ste 'nu dispositive accoppiate angore.",
+	"passwordlesslogin-verify-pair": "T'amme inviate 'na richieste de accesse a 'u dispositive tune pe condrollà ce t'è reggistrate correttamende. Conferme 'a richieste e condinue.",
+	"passwordlesslogin-pair-device": "Dispositive accoppiate pe l'accesse senza passuord",
+	"passwordlesslogin-login": "Tràse cu 'u smartfone tune",
+	"passwordlesslogin-pair-step-1": "1. Scareche l'app MediaUicchi PasswordLessLogin",
+	"passwordlesslogin-pair-step-2": "2. Scanzione 'u codece QR cu l'app",
+	"passwordlesslogin-pair-step-3": "3. 'Na vote ca l'app ste configurate è spicciate, condinue cu 'u prosseme passagge",
+	"passwordlesslogin-authentication-app": "App de autendicazione",
+	"apihelp-passwordlesslogin-summary": "Reggìstre 'nu dispositive nuève pe 'nu gettone de accoppiamende generate apprime.",
+	"apihelp-passwordlesslogin-param-pairToken": "'U gettone de accoppiamende generate apprime idendifeche c'è utende ste reggistrate sus a 'u dispositive.",
+	"apihelp-passwordlesslogin-param-deviceId": "'Nu idendificatore univoche d'u dispositive ca pò essere ausate pe idendificà 'nu dispositive e pe mannà notifeche cu 'u sisteme de messaggisteche predefinite d'u dispositive (pe esembie Firebase Cloud Messaging pe dispositive Android).",
+	"apihelp-passwordlesslogin-param-secret": "'Nu segrete generate sus a 'u dispositive ca avène ausate pe firmà le sfide mannate a 'u dispositive. Stu segrete avène ausate pe condrollà 'na resposte a 'a richeiste de accesse e adda essere tenute scunnute.",
+	"apihelp-passwordlesslogin-verify-challenge-summary": "Condrolle 'na richieste de accesse da mannà a 'nu dispositive.",
+	"apihelp-passwordlesslogin-verify-challenge-param-challenge": "'A sfide ca ha state mannate a 'u dispositive e ca ste avène resolte.",
+	"apihelp-passwordlesslogin-verify-challenge-param-response": "'A resposte (soluzione) a 'a sfide. 'A soluzione abbesogne de essere:<br />&#160;1. 'Nu HMAC cu SHA512 cumme 'nu algoritme de firme<br />&#160;2. 'U segrete pre-condivise cumme 'na chiave materiale simmetreche<br />&#160;3. 'A date d'u MAC jè 'a sfide cumme 'na matrice de byte<br />&#160;4. 'A resposte abbesogne de essere 'na stringhe esadecimale<br />&#160;5. 'A resposte abbesogne de essere minuscole",
+	"apihelp-passwordlesslogin-verify-login-summary": "Condrolle ce 'na richieste de trasè ha state ggià condrollate da 'u dispositive."
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"vikititleicon-desc": "VIKI-programtillegg for å vise logo fra sider med Title Icon-utvidelsen",
+	"vikititleicon-error-fetch": "Feil under henting av tittelikondata for node: $1.",
+	"apihelp-getTitleIcons-description": "Hent URL-ene til alle tittelikoner for siden, om noen finnes.",
+	"apihelp-getTitleIcons-summary": "Hent URL-ene til alle Title Icons for siden, om noen finnes.",
+	"apihelp-getTitleIcons-param-pageTitle": "Tittel på siden hvis tittelikoner du ønsker å hente"
+}

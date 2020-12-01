@@ -1,0 +1,50 @@
+{
+	"name": "Athena",
+	"version": "0.0.4",
+	"author": [
+		"Richard Cook"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Athena",
+	"descriptionmsg": "athena-desc",
+	"license-name": "GPL-3.0-only",
+	"type": "antispam",
+	"manifest_version": 1,
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"SpecialPages": {
+		"Athena": "SpecialAthena"
+	},
+	"MessagesDirs": {
+		"Athena": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"AthenaAlias": "Athena.alias.php"
+	},
+	"AutoloadClasses": {
+		"AthenaFilters": "AthenaFilters.php",
+		"AthenaHooks": "AthenaHooks.php",
+		"AthenaHelper": "AthenaHelper.php",
+		"SpecialAthena": "Athena_body.php"
+	},
+	"callback": "AthenaHooks::registerExtension",
+	"Hooks": {
+		"EditFilter": "AthenaHooks::editFilter",
+		"LoadExtensionSchemaUpdates": "AthenaHooks::createTables",
+		"ArticleDeleteComplete": "AthenaHooks::pageDeleted"
+	},
+	"config": {
+		"AthenaSpamThreshold": 0.5,
+		"AthenaTraining": false
+	},
+	"AvailableRights": [
+		"athena"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"athena": true
+		}
+	}
+}

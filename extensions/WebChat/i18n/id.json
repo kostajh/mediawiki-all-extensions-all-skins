@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Daud I.F. Argana"
+		]
+	},
+	"webchat": "Obrolan web",
+	"webchat-desc": "Menambahkan [[Special:WebChat|halaman istimewa]] yang digunakan untuk mengobrol secara langsung dengan pengguna wiki yang lain",
+	"webchat-header": "Halaman istimewa ini memampukan Anda untuk berkolaborasi dengan pengguna wiki yang lain.\nUntuk menyambung, tekan tombol \"Connect\".\nJika Anda sudah masuk log, nama pengguna Anda akan otomatis diisikan.\nPengguna anonim akan diberikan nama secara otomatis, dan namanya dapat diganti.",
+	"action-webchat": "dibolehkan menggunakan obrolan web",
+	"right-webchat": "Mengizinkan pengguna untuk menggunakan [[Special:WebChat|obrolan web]]"
+}

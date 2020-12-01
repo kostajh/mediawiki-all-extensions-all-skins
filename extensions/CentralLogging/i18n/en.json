@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kunal Mehta"
+		]
+	},
+	"centrallogging-desc": "Allows extensions to create log entries on a central wiki",
+	"centrallogging-queued-count": "Queued log entries"
+}

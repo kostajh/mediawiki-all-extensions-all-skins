@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"multiboilerplate-desc": "Permite seleicionar una plantiya d'un cuadru estenderexable asitiáu enriba del formulariu d'edición al editar les páxines",
+	"multiboilerplate-legend": "Escoyer plantiya",
+	"multiboilerplate-submit": "Cargar",
+	"boilerplates": "Plantiyes",
+	"multiboilerplate-special-pagetext": "Estes plantiyes pueden precargase al crear páxines. (<span class=plainlinks>[{{fullurl:Esta páxina nun esiste|action=edit}} demostración]</span>)",
+	"multiboilerplate-special-define-in-localsettings": "Les plantiyes tán definíes en LocalSettings.",
+	"multiboilerplate-special-define-in-interface": "Les plantiyes tán definíes en [[MediaWiki:Multiboilerplate]].",
+	"multiboilerplate-special-no-boilerplates": "Nun hai plantiyes definíes niundes.",
+	"multiboilerplate-nonexistant-page": "La páxina de plantiyes nun esiste: «$1»"
+}

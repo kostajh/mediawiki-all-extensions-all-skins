@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby",
+			"Shirayuki",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-articleinfo-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of article info extension",
+	"prefs-articleinfo": "Used in [{{canonicalurl:Special:WikiAdmin|mode=Preferences}} Special:WikiAdmin?mode=Preferences], headline for article information section in preferences.\n{{Identical|Page information}}",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Option in [{{canonicalurl:Special:WikiAdmin|mode=Preferences}} Special:WikiAdmin?mode=Preferences], timespan until article informations are updated in seconds:",
+	"bs-articleinfo-flyout-title": "Title of the flyout",
+	"bs-articleinfo-flyout-intro": "Sub-title of the flyout",
+	"bs-articleinfo-nav-link-title": "Label of the side menu entry",
+	"bs-articleinfo-flyout-categorylinks-title": "Title of the panel showing page categories\n{{Identical|Category}}",
+	"bs-articleinfo-flyout-templatelinks-title": "Title of the panel showing templates used on the page",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Text displayed if there are no categories assigned to the page",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Text displayed if there are no templates used on the page",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Label of the panel section showing the last time the article was edited",
+	"bs-articleinfo-flyout-lastediteduser-text": "Label of the panel section showing the last editor",
+	"bs-articleinfo-newrevision-info-text": "Message within an alert box, presented to the user when a new page revision is available",
+	"bs-articleinfo-newrevision-info-text-reload": "Message within an alert box, presented to the user when a new page revision is available. Link on the word 'reload'.",
+	"bs-articleinfo-flyout-subpages-title": "Title of the panel showing subpages of the page",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Tool tip for an icon above the page title. Shows a list tree of subpages",
+	"bs-articleinfo-dialog-subpages-title": "Title of a dialog window that shows a list of subpages",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Description for config variable \"ArticleInfoCheckRevisionInterval\""
+}

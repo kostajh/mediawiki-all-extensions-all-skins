@@ -1,0 +1,462 @@
+'use strict';
+
+/**
+ * Client and helper methods for the list=growthtasks API.
+ * Standalone, can be included into other modules.
+ */
+( function () {
+
+	/**
+	 * @typedef {Object} mw.libs.ge.TaskData
+	 * A POJO describing a newcomer task. Usually created via fetchTasks(), but sometimes exported
+	 * from PHP. Task data is partially lazy-loaded, and many fields are only present for some
+	 * articles or in certain setups. We differentiate between not yet loaded fields and fields
+	 * which we attempted to load but were not applicable for the given task by consistent usage of
+	 * undefined vs. null.
+	 *
+	 * @property {string} title Article title
+	 * @property {string} tasktype Task type ID.
+	 * @property {string} difficulty Task difficulty ('easy', 'medium' or 'hard').
+	 * @property {((string|number)[][])|null} Topics the task is in. Empty array when the user is not
+	 *   filtering for any topics, null with topic matching disabled entirely, otherwise an array
+	 *   of (topic ID, score) pairs.
+	 * @property {string[]|null} maintenanceTemplates List of maintenance templates on the article
+	 *   (ie. the templates that were used to identify it as appropriate for the task), without the
+	 *   namespace name. Null when the article does not exist.
+	 * @property {number|null|undefined} pageId Article page ID. Null when the article does not exist,
+	 *   which is common in some test/development setups where the returned titles are not local,
+	 *   and also in edge cases where the search index has not caught up with a page deletion yet.
+	 *   Can be undefined due to lazy-loading.
+	 * @property {number|null|undefined} revisionId ID of last revision. Null when the article does
+	 *   not exist. Can be undefined due to lazy-loading.
+	 * @property {string|null} url Custom article URL. This is used in some development setups
+	 *   (see $wgGENewcomerTasksRemoteArticleOrigin).
+	 * @property {string|null|undefined} thumbnailSource Thumbnail URL for the page image. Null when
+	 *   the article has no page image. Can be undefined due to lazy-loading.
+	 *   The width of the thumbnail is unspecified, it is left to the rendering code to transform it
+	 *   if needed.
+	 * @property {number|null|undefined} imageWidth Width of the page image (the original, not the
+	 *   thumbnail). Null / undefined when thumbnailSource is.
+	 * @property {string|null|undefined} description Short article description, e.g. from Wikidata.
+	 *   Null when the wiki or article is not connected to Wikidata or there is no description
+	 *   in the user's language, or the article does not exist, or when the GrowthTasksApi flag for
+	 *   including descriptions has not been set. Can be undefined due to lazy-loading.
+	 * @property {string|null|undefined} extract Article summary (from the RESTBase summary endpoint).
+	 *   Null when the article does not exist. Can be undefined due to lazy-loading, or when the
+	 *   wiki does not provide article summary information.
+	 * @property {number|null|undefined} pageviews Approximate number of page views in the last 60 days.
+	 *   Null when the article does not exist, or when no views have been processed for that article
+	 *   yet. Can be undefined due to lazy-loading, or when the wiki does not provide pageview
+	 *   information.
+	 */
+
+	/**
+	 * Code for dealing with the query+growthtasks API, and some REST APIs to fetch extra data from.
+	 * This is a stateless class, like mw.Api.
+	 *
+	 * @class mw.libs.ge.GrowthTasksApi
+	 * @constructor
+	 * @param {Object} config
+	 * @param {Object} [config.taskTypes] The list of task types, as returned by
+	 *    HomepageHooks::getTaskTypesJson. Can be omitted when the getPreferences
+	 *    method is not needed.
+	 * @param {Array} config.defaultTaskTypes The default task types as returned by HomepageHooks::getDefaultTaskTypes
+	 * @param {Object} [config.suggestedEditsConfig] An object with the values of some PHP globals,
+	 *   as returned by HomepageHooks::getSuggestedEditsConfigJson. Can be omitted when the
+	 *   getPreferences method and individual task data are not needed.
+	 * @param {string} config.suggestedEditsConfig.GERestbaseUrl
+	 * @param {Object} config.suggestedEditsConfig.GENewcomerTasksTopicFiltersPref
+	 * @param {string} [config.suggestedEditsConfig.GENewcomerTasksRemoteArticleOrigin]
+	 * @param {Object} config.aqsConfig Configuration for the AQS service, as returned by
+	 *   HomepageHooks::getAQSConfigJson. Used by the getExtraDataFromAqs method.
+	 * @param {string} config.aqsConfig.project Project domain name to get views for (might be
+	 *   different from the wiki's domain in local development setups).
+	 * @param {boolean} config.isMobile Whether the client is on a mobile device,
+	 *   used for performance instrumentation.
+	 * @param {string} config.logContext The context in which this GrowthTasksApi is used,
+	 *   used for performance instrumentation.
+	 */
+	function GrowthTasksApi( config ) {
+		this.taskTypes = config.taskTypes;
+		this.defaultTaskTypes = config.defaultTaskTypes;
+		this.suggestedEditsConfig = config.suggestedEditsConfig || {};
+		this.aqsConfig = config.aqsConfig;
+		this.isMobile = config.isMobile;
+		this.logContext = config.logContext;
+		this.thumbnailWidth = this.isMobile ? 260 : 332;
+		// FIXME remove once variant A is gone
+		if ( mw.user.options.get( 'growthexperiments-homepage-variant' ) === 'A' ) {
+			this.thumbnailWidth = 260;
+		}
+	}
+
+	/**
+	 * Fetch suggested edits from ApiQueryGrowthTasks.
+	 * Has no side effects.
+	 *
+	 * @param {string[]} taskTypes List of task IDs.
+	 * @param {string[]} [topics] List of topic IDs.
+	 * @param {Object} [config] Additional configuration.
+	 * @param {boolean} [config.getDescription] Include Wikidata description into the data.
+	 *   This probably won't work well with a large size setting.
+	 * @param {number} [config.size] Number of tasks to fetch. The returned number might be smaller
+	 *   as protected pages will be filtered out.
+	 * @param {number} [config.thumbnailWidth] Ideal thumbnail width. The actual width might be
+	 *   smaller if the original image itself is smaller.
+	 * @param {string} [config.context] The context in which this function was
+	 *   called, used for performance instrumentation. Overrides the context given in the constructor.
+	 *
+	 * @return {jQuery.Promise<{count: number, tasks: Array<mw.libs.ge.TaskData>}>} An abortable
+	 *   promise with two fields:
+	 *   - count: the number of tasks available. Note this is the full count, not the
+	 *     task list length (which is capped to 200).
+	 *     FIXME protection status is ignored by the count.
+	 *   - tasks: a list of task data objects
+	 */
+	GrowthTasksApi.prototype.fetchTasks = function ( taskTypes, topics, config ) {
+		var apiParams, actionApiPromise, finalPromise,
+			startTime = mw.now(),
+			self = this,
+			url = new mw.Uri( window.location.href );
+
+		config = $.extend( {
+			getDescription: false,
+			size: 250,
+			thumbnailWidth: this.thumbnailWidth
+		}, config || {} );
+
+		if ( !taskTypes.length ) {
+			// No point in doing the query if no task types are allowed.
+			return $.Deferred().resolve( {
+				count: 0,
+				tasks: []
+			} ).promise( {
+				abort: function () {}
+			} );
+		}
+
+		apiParams = {
+			action: 'query',
+			prop: 'info|revisions|pageimages' + ( config.getDescription ? '|description' : '' ),
+			inprop: 'protection',
+			rvprop: 'ids',
+			piprop: 'name|original|thumbnail',
+			pithumbsize: config.thumbnailWidth,
+			generator: 'growthtasks',
+			// Fetch more in case protected articles are in the result set, so that after
+			// filtering we can have 200.
+			// TODO: Filter out protected articles on the server side.
+			ggtlimit: config.size,
+			ggttasktypes: taskTypes.join( '|' ),
+			formatversion: 2,
+			uselang: mw.config.get( 'wgUserLanguage' )
+		};
+		if ( topics && topics.length ) {
+			apiParams.ggttopics = topics.join( '|' );
+		}
+		if ( 'debug' in url.query ) {
+			apiParams.ggtdebug = 1;
+		}
+
+		actionApiPromise = new mw.Api().get( apiParams );
+		finalPromise = actionApiPromise.then( function ( data ) {
+			var tasks = [];
+
+			function cleanUpData( item ) {
+				var task;
+
+				task = {
+					title: item.title,
+					pageId: item.pageid || null,
+					revisionId: item.revisions ? item.revisions[ 0 ].revid : null,
+					url: null,
+					// There is no way to tell whether the page has no page image or it is just
+					// missing due to API continuation.
+					thumbnailSource: item.thumbnail && item.thumbnail.source || undefined,
+					imageWidth: item.original && item.original.width || undefined,
+					tasktype: item.tasktype,
+					difficulty: item.difficulty,
+					topics: item.topics || null,
+					maintenanceTemplates: item.maintenancetemplates || null,
+					description: item.description || null
+				};
+				self.fixThumbnailWidth( task, config.thumbnailWidth );
+				self.setUrlOverride( task );
+				return task;
+			}
+			function filterOutProtectedArticles( result ) {
+				return result.protection.length === 0;
+			}
+			if ( data.query && data.query.pages ) {
+				tasks = data.query.pages
+					.filter( filterOutProtectedArticles )
+					.sort( function ( l, r ) {
+						return l.order - r.order;
+					} )
+					.map( cleanUpData )
+					// Maximum number of tasks in the queue is always 200.
+					.slice( 0, 200 );
+			}
+			if ( data.growthtasks.debug && data.growthtasks.debug.searchDebugUrls ) {
+				Object.keys( data.growthtasks.debug.searchDebugUrls ).forEach( function ( type ) {
+					var debugUrl = data.growthtasks.debug.searchDebugUrls[ type ],
+						// eslint-disable-next-line no-console
+						consoleInfo = console && console.info && console.info.bind( console ) ||
+							mw.log;
+					consoleInfo( 'GrowthExperiments ' + type + ' query:', debugUrl );
+				} );
+			}
+			self.logTiming( 'fetchTasks', startTime, config.context );
+			return {
+				count: data.growthtasks.totalCount,
+				tasks: tasks
+			};
+		} );
+
+		return finalPromise.catch( this.handleError.bind( this ) ).promise( {
+			abort: actionApiPromise.abort.bind( actionApiPromise )
+		} );
+	};
+
+	/**
+	 * Get lead section extracts and page images from the Page Content Service summary API.
+	 * Can be customized via $wgGERestbaseUrl (by default will be assumed to be local;
+	 * setting it to null will disable querying PCS make this method a no-op).
+	 *
+	 * @param {mw.libs.ge.TaskData} task A task object returned by fetchTasks. It will be extended with new data:
+	 *   - extract: the page summary
+	 *   - thumbnailSource: URL to the thumbnail of the page image (if one exists)
+	 * @param {Object} [config] Additional configuration. The object passed to fetchTasks() can be
+	 *   reused here.
+	 * @param {number} [config.thumbnailWidth] Ideal thumbnail width. The actual width might be
+	 *   smaller if the original image itself is smaller.
+	 * @param {string} [config.context] The context in which this function was
+	 *   called, used for performance instrumentation. Overrides the context given in the constructor.
+	 * @return {jQuery.Promise<mw.libs.ge.TaskData>} A promise with the task object.
+	 * @see https://www.mediawiki.org/wiki/Page_Content_Service#/page/summary
+	 * @see https://en.wikipedia.org/api/rest_v1/#/Page%20content/get_page_summary__title_
+	 */
+	GrowthTasksApi.prototype.getExtraDataFromPcs = function ( task, config ) {
+		var encodedTitle,
+			self = this,
+			title = task.title,
+			startTime = mw.now(),
+			apiUrlBase = this.suggestedEditsConfig.GERestbaseUrl;
+
+		config = $.extend( {
+			thumbnailWidth: this.thumbnailWidth
+		}, config || {} );
+
+		if ( task.extract !== undefined ) {
+			// The task already has PCS data, skip.
+			return $.Deferred().resolve( task ).promise();
+		} else if ( !apiUrlBase ) {
+			// Don't fail worse then we have to when RESTBase is not installed.
+			task.extract = null;
+			task.description = task.description || null;
+			task.thumbnailSource = task.thumbnailSource || null;
+			task.imageWidth = task.imageWidth || null;
+			return $.Deferred().resolve( task ).promise();
+		}
+		encodedTitle = encodeURIComponent( title.replace( / /g, '_' ) );
+		return $.get( apiUrlBase + '/page/summary/' + encodedTitle ).then( function ( data ) {
+			task.extract = data.extract || null;
+			task.description = data.description || null;
+			// Normally we use the thumbnail source from the action API, this is only a fallback.
+			// It is used for some beta wiki configurations and local setups, and also when the
+			// action API data is missing due to query+pageimages having a smaller max limit than
+			// query+growthtasks.
+			if ( task.thumbnailSource === undefined ) {
+				if ( data.thumbnail ) {
+					task.thumbnailSource = data.thumbnail.source;
+					task.imageWidth = data.originalimage.width;
+					self.fixThumbnailWidth( task, config.thumbnailWidth );
+				} else {
+					task.thumbnailSource = task.imageWidth = null;
+				}
+			}
+			self.logTiming( 'getExtraDataFromPcs', startTime, config.context );
+			return task;
+		} );
+	};
+
+	/**
+	 * Get pageview data from the Analytics Query Service.
+	 * Can be customized via $wgPageViewInfoWikimediaDomain (by default will use
+	 * the Wikimedia instance).
+	 *
+	 * @param {mw.libs.ge.TaskData} task A task object returned by fetchTasks. It will be extended with new data:
+	 *   - pageviews: number of views to the task's page in the last two months
+	 * @param {Object} [config] Additional configuration. The object passed to fetchTasks() can be
+	 *   reused here.
+	 * @param {string} [config.context] The context in which this function was
+	 *   called, used for performance instrumentation. Overrides the context given in the constructor.
+	 * @return {jQuery.Promise<mw.libs.ge.TaskData>} A promise with extra data to extend the task object with.
+	 * @see https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
+	 * @see https://w.wiki/J8K
+	 */
+	GrowthTasksApi.prototype.getExtraDataFromAqs = function ( task, config ) {
+		var encodedTitle, pageviewsApiUrl, day, firstPageviewDay, lastPageviewDay,
+			self = this,
+			startTime = mw.now(),
+			title = task.title;
+
+		if ( task.pageviews !== undefined ) {
+			// The task already has AQS data, skip.
+			return $.Deferred().resolve( task ).promise();
+		} else if ( !this.aqsConfig.project ) {
+			// No AQS support for this wiki
+			task.pageviews = null;
+			return $.Deferred().resolve( task ).promise();
+		}
+
+		encodedTitle = encodeURIComponent( title.replace( / /g, '_' ) );
+		// Get YYYYMMDD timestamps of 2 days ago (typically the last day that has full
+		// data in AQS) and 60+2 days ago, using Javascript's somewhat cumbersome date API
+		day = new Date();
+		day.setDate( day.getDate() - 2 );
+		lastPageviewDay = day.toISOString().replace( /-/g, '' ).split( 'T' )[ 0 ];
+		day.setDate( day.getDate() - 60 );
+		firstPageviewDay = day.toISOString().replace( /-/g, '' ).split( 'T' )[ 0 ];
+		pageviewsApiUrl = 'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/' +
+			this.aqsConfig.project + '/all-access/user/' + encodedTitle + '/daily/' +
+			firstPageviewDay + '/' + lastPageviewDay;
+
+		return $.get( pageviewsApiUrl ).then( function ( data ) {
+			var pageviews = 0;
+			( data.items || [] ).forEach( function ( item ) {
+				pageviews += item.views;
+			} );
+			// This will skip on 0 views. That's OK, we don't want to show that to the user.
+			task.pageviews = pageviews || null;
+			self.logTiming( 'getExtraDataFromAqs', startTime, config.context );
+			return task;
+		}, function () {
+			// AQS returns a 404 when the page has 0 view. Even for real errors, it's
+			// not worth replacing the task card with an error message just because we
+			// could not put a pageview count on it.
+			task.pageviews = null;
+			return task;
+		} );
+	};
+
+	// This doesn't really belong to the API class conceptually, but most callers of the API
+	// will need it.
+	/**
+	 * Get the task type and topic filter preferences of the current user.
+	 *
+	 * The topics value will be null if the user has never set topic filters, and an empty array if
+	 * they had previously set topic filters but currently don't have any.
+	 *
+	 * @return {{taskTypes: Array<string>, topics: Array<string>|null}}
+	 */
+	GrowthTasksApi.prototype.getPreferences = function () {
+		var defaultTaskTypes = this.defaultTaskTypes.filter( function ( taskType ) {
+				return taskType in this.taskTypes;
+			}.bind( this ) ),
+			savedTaskTypes = mw.user.options.get( 'growthexperiments-homepage-se-filters' ),
+			savedTopics = mw.user.options.get( this.suggestedEditsConfig.GENewcomerTasksTopicFiltersPref ),
+			taskTypes = savedTaskTypes ? JSON.parse( savedTaskTypes ) : defaultTaskTypes,
+			topics = savedTopics ? JSON.parse( savedTopics ) : null;
+
+		return { taskTypes: taskTypes, topics: topics };
+	};
+
+	/**
+	 * A rejection decorator which makes the error message for the rejection saner.
+	 * Intended to be used as a catch() handler.
+	 *
+	 * @param {string|Error} error Error code.
+	 * @param {string|Object} details Error details.
+	 * @return {jQuery.Promise} A rejected promise with a single error message string.
+	 *   When the message is null, the rejection was intentional (something aborted the query)
+	 *   and should not be treated as an error.
+	 * @see mw.Api.ajax
+	 * @see jQuery.ajax
+	 * @private
+	 */
+	GrowthTasksApi.prototype.handleError = function ( error, details ) {
+		var message,
+			isRealError = true;
+
+		if ( error === 'http' && details && details.textStatus === 'abort' ) {
+			// XHR abort, not a real error
+			message = null;
+			isRealError = false;
+		} else if ( error === 'http' ) {
+			// jQuery AJAX error; textStatus is AJAX status, exception is status code text
+			// from server
+			message = ( typeof details.exception === 'string' ) ? details.exception : details.textStatus;
+		} else if ( error === 'ok-but-empty' ) {
+			// maybe a PHP fatal; not much we can do
+			message = error;
+		} else if ( error instanceof Error ) {
+			// JS error in our own code
+			message = error.name + ': ' + error.message;
+		} else {
+			// API error code
+			message = error;
+			// DEBUG T238945
+			if ( !error ) {
+				// log a snippet from the API response. Errors are at the front so
+				// hopefully this will show what's going on.
+				message = JSON.stringify( details ).substr( 0, 1000 );
+			}
+		}
+
+		if ( isRealError ) {
+			mw.log.error( 'Fetching task suggestions failed: ' + message, error, details );
+		}
+
+		return $.Deferred().reject( message ).promise();
+	};
+
+	/**
+	 * Set the url field on the passed task data, if article URL overrides are configured.
+	 *
+	 * @param {mw.libs.ge.TaskData} task
+	 * @private
+	 */
+	GrowthTasksApi.prototype.setUrlOverride = function ( task ) {
+		if ( this.suggestedEditsConfig.GENewcomerTasksRemoteArticleOrigin ) {
+			task.url = this.suggestedEditsConfig.GENewcomerTasksRemoteArticleOrigin +
+				mw.util.getUrl( task.title );
+		}
+	};
+
+	/**
+	 * Log time spent since startTime to Statsd.
+	 *
+	 * @param {string} name Name of the thing (e.g. method call) that's timed.
+	 * @param {number} startTime Start timestamp, e.g. from mw.now().
+	 * @param {string} [contextOverride] Overrides the context provided in the constructor.
+	 * @private
+	 */
+	GrowthTasksApi.prototype.logTiming = function ( name, startTime, contextOverride ) {
+		mw.track(
+			'timing.growthExperiments.specialHomepage.growthTasksApi.' + name + '.' +
+				( contextOverride || this.logContext ) + '.' + ( this.isMobile ? 'mobile' : 'desktop' ),
+			mw.now() - startTime
+		);
+	};
+
+	/**
+	 * Change the thumbnail URL in the task data to be at least the given width (if possible).
+	 *
+	 * @param {mw.libs.ge.TaskData} task Task data, as returned by the other methods.
+	 * @param {number} newWidth Desired thumbnail width.
+	 * @private
+	 */
+	GrowthTasksApi.prototype.fixThumbnailWidth = function ( task, newWidth ) {
+		var data;
+
+		if ( task.thumbnailSource && task.imageWidth ) {
+			data = mw.util.parseImageUrl( task.thumbnailSource );
+			if ( data && data.resizeUrl && data.width < newWidth && task.imageWidth > newWidth ) {
+				task.thumbnailSource = data.resizeUrl( newWidth );
+			}
+		}
+	};
+
+	module.exports = GrowthTasksApi;
+}() );

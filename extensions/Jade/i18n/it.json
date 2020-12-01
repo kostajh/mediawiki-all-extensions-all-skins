@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"CloeRiva",
+			"Gianfranco",
+			"Nemo bis"
+		]
+	},
+	"jade-damaging-scale-false-label": "Non dannosa",
+	"jade-goodfaith-scale-true-label": "Buona fede",
+	"jade-goodfaith-scale-false-label": "Mala fede",
+	"jade-contentquality-scale-5-label": "Voce di qualità",
+	"jade-contentquality-scale-6-label": "Voce in vetrina",
+	"jade-delete": "Cancella",
+	"jade-bad-title-format": "Formato titolo non valido",
+	"jade-bad-entity-type": "Tipo di entità non valido ''$1''",
+	"jade-bad-content-generic": "Errori di sintassi nel contenuto JSON.",
+	"jade-user-local-id-invalid": "L'utente locale con ID ''$1'' non esiste.",
+	"jade-user-central-id-invalid": "L'utente centrale con ID ''$1'' non esiste.",
+	"jade-user-ip-invalid": "L'indirizzo IP ''$1'' non è valido.",
+	"jade-cannot-create-page": "Non puoi creare questa pagina.",
+	"jade-cannot-edit-page": "Non puoi modificare questa pagina.",
+	"jade-db-error": "Errore database: $1",
+	"jade-user": "Utente",
+	"jade-createandendorseproposal-autocomment": "Proposta creata:",
+	"jade-deleteproposal-autocomment": "'''Proposta cancellata'''",
+	"jade-updateproposal-autocomment": "Proposta aggiornata:",
+	"jade-setpreference-autocomment": "'''Preferenza impostata:'''",
+	"jade-damaging-good-faith-comment": "Danneggiante / buona fede",
+	"jade-damaging-bad-faith-comment": "Danneggiante / mala fede",
+	"jade-by-ip-address-comment": "di [[Special:Contributions/$1|$1]]",
+	"jade-by-id-number-comment": "di [[User:$1|$1]]",
+	"jade-rcfilters-group-whats-this-link-text": "Ulteriori informazioni",
+	"prefs-betafeatures": "Funzioni beta",
+	"prefs-jade": "Preferenze Jade"
+}

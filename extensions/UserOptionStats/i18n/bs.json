@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"useroptionstats": "Statistike korisničkih opcija",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Posebna stranica]] za izvještaje o korištenju MediaWiki korisničkih opcija",
+	"uos-warn": "PHPlot nije instaliran!",
+	"uos-choose": "Izaberite jednu od slijedećih korisničkih opcija: $1",
+	"uos-unknown": "*Pretpostavljeno",
+	"uos-other": "*Ostalo",
+	"uos-title": "Raspored vrijednosti korisničke opcije $1"
+}

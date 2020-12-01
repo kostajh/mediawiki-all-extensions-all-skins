@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"securesessions-desc": "Fai más segures les sesiones d'usuariu y la autenticación de sesión",
+	"securesessions-personalurl": "Sesiones abiertes ($1)",
+	"securesessions-ipsession": "Colar de les otres sesiones.",
+	"securesessions-iprestrict": "Llendar la sesión a esta direición IP.",
+	"securesessions-uarestrict": "Llendar la sesión a esti navegador.",
+	"securesessions-sessions": "Sesiones",
+	"securesessions-sessions-legend": "Información de la sesión",
+	"securesessions-sessions-text": "Abaxo tan les sesiones abiertes de la so cuenta y la información d'elles. Pue zarrar toles demás sesiones usando'l botón inferior. Un asteriscu (*) denota a sesión actual.",
+	"securesessions-sessions-ip": "Direición IP:",
+	"securesessions-sessions-activity": "Última actividá:",
+	"securesessions-sessions-clear": "Colar de les otres sesiones",
+	"securesessions-prefs-country": "Llendar l'accesu por país:",
+	"securesessions-prefs-tor": "Torgar los anicios de sesión dende noyos de salida Tor.",
+	"securesessions-disallowedcountry": "Esta cuenta nun tien permisu p'aniciar sesión dende esti país.",
+	"securesessions-disallowedtor": "Esta cuenta nun tien permisu p'aniciar sesión dende noyos de salida Tor."
+}

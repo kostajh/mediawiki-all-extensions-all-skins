@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Toliño"
+		]
+	},
+	"tweetanew-desc": "Fai un chío cando se crea ou edita unha páxina.",
+	"tweetanew-newaction": "Facer un chío sobre esta páxina nova",
+	"tweetanew-newtooltip": "Enviar información sobre esta páxina nova ao Twitter",
+	"tweetanew-editaction": "Facer un chío sobre esta edición",
+	"tweetanew-edittooltip": "Enviar información sobre esta edición ao Twitter",
+	"tweetanew-minoredit": "m",
+	"tweetanew-authorcredit": "por",
+	"tweetanew-newdefault": "PÁXINA NOVA: $1 - $2",
+	"tweetanew-new1": "Semella que se creou a páxina \"$1\" no enderezo $2",
+	"tweetanew-new2": "Creouse a páxina \"$1\" no enderezo $2",
+	"tweetanew-new3": "Bótalle unha ollada a \"$2\", unha nova páxina no enderezo $1",
+	"tweetanew-editdefault": "PÁXINA ACTUALIZADA: $1 - $2",
+	"tweetanew-edit1": "Semella que se actualizou a páxina \"$1\" no enderezo $2",
+	"tweetanew-edit2": "Actualizouse a páxina \"$1\" no enderezo $2",
+	"tweetanew-edit3": "Bótalle unha ollada a \"$2\", con novos contidos no enderezo $1"
+}

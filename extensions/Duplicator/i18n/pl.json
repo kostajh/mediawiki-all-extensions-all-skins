@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alan ffm",
+			"Chrumps",
+			"Derbeth",
+			"Maikking",
+			"Rail",
+			"Railfail536",
+			"Sp5uhe"
+		]
+	},
+	"duplicator": "Duplikowanie strony",
+	"duplicator-desc": "Tworzy niezależne [[Special:Duplicate|kopie stron]] z pełną historią edycji",
+	"duplicator-toolbox": "Duplikuj tę stronę",
+	"duplicator-header": "Ta strona pozwala na stworzenie kompletnego duplikatu artykułu, tworząc niezależne kopie aktualnej treści wraz z pełną historią zmian. Jest to przydatne przy rozwidlaniu (klonowaniu) artykułów itp.",
+	"duplicator-options": "Opcje",
+	"duplicator-source": "Źródło:",
+	"duplicator-dest": "Cel:",
+	"duplicator-dotalk": "Zduplikuj stronę dyskusji (jeśli istnieje)",
+	"duplicator-dosubpages": "Duplikowanie podstron (jeśli istnieją)",
+	"duplicator-dohistory": "Duplikowanie strony z pełną historią",
+	"duplicator-submit": "Duplikuj",
+	"duplicator-summary": "Skopiowano z [[$1]], wersja [[$2]]",
+	"duplicator-success": "Artykuł [[$1]] został skopiowany do [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|edycja została skopiowana|edycje zostały skopiowane|edycji zostało skopiowanych}}.",
+	"duplicator-success-talknotcopied": "Strona dyskusji nie mogła być skopiowana.",
+	"duplicator-failed": "Strona nie może zostać zduplikowana. Wystąpił nieznany błąd.",
+	"duplicator-failed-toolong": "Strona „[[$1]]” nie została zduplikowana. Tytuł docelowy jest zbyt długi.",
+	"duplicator-failed-dest-exists": "Strona „[[$1]]” nie została zduplikowana. Docelowa strona „[[$2]]” już istnieje.",
+	"duplicator-source-invalid": "Podaj poprawny tytuł źródła.",
+	"duplicator-source-notexist": "Artykuł [[$1]] nie istnieje. Podaj tytuł strony, która istnieje.",
+	"duplicator-dest-invalid": "Podaj poprawny tytuł celu.",
+	"duplicator-dest-exists": "Artykuł [[$1]] już istnieje. Wybierz tytuł celu, który nie jest używany przez istniejącą stronę.",
+	"right-duplicate": "Duplikowanie stron"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"changeuserpasswords": "更改使用者密碼",
+	"changeuserpassword-desc": "此擴充套件用來更改除了一些由管理員所指示之外的使用者密碼。",
+	"changeuserpassword-pagename": "ChangeUserPasswords",
+	"changeuserpassword-topheader": "請選擇要更改密碼的使用者名稱。因預設上會選擇所有的使用者，請取消選擇您不想更改密碼的使用者名稱。",
+	"changeuserpassword-success": "使用者密碼已更改！",
+	"changeuserpassword-title": "更改使用者密碼",
+	"changeuserpassword-intro": "此擴充套件用來更改除了一些由管理員所指示之外的使用者密碼。",
+	"action-changeuserpasswords": "更改使用者密碼",
+	"right-changeuserpasswords": "更改使用者密碼"
+}

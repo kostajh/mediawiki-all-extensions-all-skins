@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby",
+			"Soued031"
+		]
+	},
+	"smoothgallery": "SmoothGallerie",
+	"smoothgallery-desc": "Erméiglecht de Benotzer et fir Gallerie mat Biller unzelleën déi eropgeluede goufen.\nErméiglecht déi meescht Optioune vun SmoothGallerie",
+	"smoothgallery-title": "SmoothGallerie",
+	"smoothgallery-smoothgallerytitle": "SmoothGallerie: $1",
+	"smoothgallery-error": "<b>SmoothGallerie Feeler:</b>",
+	"smoothgallery-gallery-not-found": "Déi ugefrote Gallerie gëtt et net.",
+	"smoothgallery-not-found": "Et goufe keng Biller an d'Gallerie dobäigesat.\nSetzt wgl. mindestens ee Bild dobäi.",
+	"smoothgallery-no-images": "An dëser Gallerie goufe keng Biller fonnt.\nVergewëssert Iech datt et{{PLURAL:$3|dat ugefrote Bild|déi ugefrote Biller}} gëtt.\n{{PLURAL:$2|Dëst Bild gouf|Dës Biller goufe}} fonnt: $1",
+	"smoothgallery-invalid-images": "{{PLURAL:$2|Dëst ugefrote Bild ass|Dës ugefrote Biller sinn}} an engem net valabele Format: $1",
+	"smoothgallery-unexpected-error": "Et gouf en onerwaarte Feeler.\nFëllt wgl. eng Feelermeldung (bug report) aus.",
+	"smoothgallery-javascript-disabled": "JavaScriot gëtt gebraucht fir dës Gallerie korrekt ze gesinn."
+}

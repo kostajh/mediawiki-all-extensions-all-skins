@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian",
+			"Shuiwater",
+			"VulpesVulpes825",
+			"列维劳德",
+			"沈澄心",
+			"铁桶"
+		]
+	},
+	"expiry": "期限",
+	"specialexpiry": "过期条目",
+	"prefs-expiry": "期限",
+	"bs-expiry-header-pagename": "页面",
+	"bs-expiry-header-date": "结束于",
+	"bs-expiry-header-comment": "评论",
+	"bs-expiry-date-label": "结束于",
+	"bs-expiry-article-label": "页面",
+	"bs-expiry-comment-label": "评论",
+	"bs-expiry-unknown-page-msg": "页面不存在。",
+	"bs-expiry-create-error": "无法创建时满。",
+	"bs-expiry-update-error": "已过期不能更新",
+	"bs-expiry-update-success": "已成功更新有效期",
+	"bs-expiry-edit-grid-header-username": "用户",
+	"bs-expiry-edit-grid-header-date": "日期",
+	"bs-expiry-pref-enablepagewatermark": "在过期的页面上显示水印",
+	"bs-expiry-pageinfoelement-expired-label": "已过期",
+	"bs-expiry-create-reminder-label": "创建提示",
+	"bs-expiry-reminder-type-expiry": "期限"
+}

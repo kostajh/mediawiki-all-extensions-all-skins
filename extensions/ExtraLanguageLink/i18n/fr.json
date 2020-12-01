@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094"
+		]
+	},
+	"extralanguagelink-desc": "Ajouter des liens de langue supplémentaires à la section « dans d’autres langues » de la barre latérale",
+	"extralanguagelink-param-class": "classe",
+	"extralanguagelink-param-hreflang": "lien de langue",
+	"extralanguagelink-param-lang": "langue",
+	"extralanguagelink-param-style": "style",
+	"extralanguagelink-param-title": "titre",
+	"extralanguagelink-badinterwiki": "Le préfixe interwiki « $1: » ne fait pas partie de la liste des préfixes interwikis autorisés.",
+	"extralanguagelink-badtitle": "Le titre de page « $1 » n’a pas pu être analysé."
+}

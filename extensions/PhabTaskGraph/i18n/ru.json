@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac",
+			"Nk88"
+		]
+	},
+	"phabtaskgraph-author-field-label": "Автор",
+	"phabtaskgraph-owner-field-label": "Владелец",
+	"phabtaskgraph-tasks-field-label": "\nЗадачи",
+	"phabtaskgraph-status-field-label": "Состояние",
+	"phabtaskgraph-width-field-label": "Ширина",
+	"phabtaskgraph-height-field-label": "Высота",
+	"phabtaskgraph-status-open": "Открыто",
+	"phabtaskgraph-status-declined": "\nОтклонено"
+}

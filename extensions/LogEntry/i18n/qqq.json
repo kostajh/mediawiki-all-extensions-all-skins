@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Purodha",
+			"Shirayuki",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"logentry-append": "{{Identical|Append}}",
+	"logentry-parserhook-desc": "{{desc|name=Log Entry|url=https://www.mediawiki.org/wiki/Extension:LogEntry}}",
+	"logentry-specialpage-desc": "{{desc|name=Log Entry|url=https://www.mediawiki.org/wiki/Extension:LogEntry}}",
+	"logentry": "{{doc-special|LogEntry|unlisted=1}}",
+	"logentry-invalidpage": "Used as alert message. Parameters:\n* $1 - page title. But if the form was not submitted, $1 is undefined...",
+	"logentry-invalidtoken": "Used as alert when the Edit Token is invalid."
+}

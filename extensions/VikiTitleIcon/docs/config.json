@@ -1,0 +1,10 @@
+{
+    "--title": "VikiTitleIcon - Documentation",
+    "--warnings": ["-nodoc(class,public)"],
+    "--warnings-exit-nonzero": true,
+    "--footer": "Documentation for VikiTitleIcon. Generated on {DATE} by {JSDUCK} {VERSION}.",
+    "--output": "../docs/js",
+    "--": [
+        "../VikiTitleIcon.js"
+    ]
+}

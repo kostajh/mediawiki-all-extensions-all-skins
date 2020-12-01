@@ -1,0 +1,369 @@
+( function( mw, $, bs, d, undefined ){
+	bs.extendedSearch.SearchBar = function( cfg ) {
+		OO.EventEmitter.call( this );
+
+		this.init( cfg );
+	};
+
+	OO.initClass( bs.extendedSearch.SearchBar );
+	OO.mixinClass( bs.extendedSearch.SearchBar, OO.EventEmitter );
+
+	bs.extendedSearch.SearchBar.prototype.init = function( cfg ) {
+		cfg = cfg || {};
+
+		this.mobile = cfg.mobile || false;
+		this.value = '';
+		this.namespace = {};
+
+		this.useNamespacePills = true;
+		if( cfg.hasOwnProperty( 'useNamespacePills' ) && cfg.useNamespacePills === false ) {
+			this.useNamespacePills = false;
+		}
+		this.useSubpagePills = true;
+		if( cfg.hasOwnProperty( 'useSubpagePills' ) && cfg.useSubpagePills === false ) {
+			this.useSubpagePills = false;
+		}
+
+		if( bs.extendedSearch.utils.isMobile() ) {
+			this.mobile = true;
+			cfg.cntId = cfg.cntId || 'bs-extendedsearch-mobile-box';
+			cfg.inputId = cfg.inputId || 'bs-extendedsearch-mobile-input';
+		} else {
+			cfg.cntId = cfg.cntId || 'bs-extendedsearch-box';
+			cfg.inputId = cfg.inputId || 'bs-extendedsearch-input';
+		}
+
+		this.typingTimer = null;
+		this.typingDoneInterval = (typeof cfg.typingDoneInterval !== 'undefined' ) ?
+			cfg.typingDoneInterval : 200;
+
+		this.$searchContainer = $( '#' + cfg.cntId );
+		this.$searchForm = this.$searchContainer.find( 'form' );
+		this.$searchBox = $( '#' + cfg.inputId );
+		this.$searchButton = this.$searchForm.find( 'button' );
+
+		this.$searchBoxWrapper = $( '<div>' )
+			.addClass( 'bs-extendedsearch-searchbar-wrapper' )
+			.attr( 'id', cfg.cntId + '-wrapper' );
+
+		//Wrap search box input in another div to make it sizable when pill is added
+		var wrapperWidth = this.$searchForm.children( '.form-group' ).find( 'input' ).outerWidth();
+		this.$searchBoxWrapper.attr( 'style', 'width: ' + wrapperWidth + 'px' );
+		this.$searchBox.attr( 'style', 'display: table-cell;' );
+		this.$searchBox.wrap( this.$searchBoxWrapper );
+
+		//Wire the events
+		this.$searchBox.on( 'keydown', this.onKeyDown.bind( this ) );
+		this.$searchBox.on( 'keyup', this.onKeyUp.bind( this ) );
+		this.$searchBox.on( 'paste', this.onPaste.bind( this ) );
+	};
+
+	bs.extendedSearch.SearchBar.prototype.detectNamespace = function( value ) {
+		var parts = value.split( ':' );
+		if( parts.length === 1 ) {
+			this.namespace = this.namespace || {};
+			return value;
+		}
+		if( parts.length === 2 && parts[1] === '' ) {
+			this.namespace = {};
+			return '';
+		}
+
+		var newNamespace = parts.shift().replace( '_', ' ' );
+
+		if( !this.setNamespaceFromValue( newNamespace ) ) {
+			this.namespace = {};
+			return value;
+		} else {
+			value = parts.shift();
+			this.generateNamespacePill( value );
+			return value;
+		}
+	};
+
+	bs.extendedSearch.SearchBar.prototype.resetValue = function() {
+		this.removeNamespacePill( true );
+		this.removeSubpagePill( true );
+		this.value = '';
+	};
+
+	bs.extendedSearch.SearchBar.prototype.detectSubpage = function( value ) {
+		if ( this.mainpage ) {
+			value = [ this.mainpage, value ].join( '/' );
+		}
+		var parts = value.split( '/' );
+		if( parts.length === 1 ) {
+			this.mainpage = this.mainpage || '';
+			return value;
+		}
+		if( parts.length > 1 && parts[parts.length - 1] === '' ) {
+			return '';
+		}
+
+		value = parts.pop();
+		this.mainpage = parts.join( '/' );
+		this.generateSubpagePill( value );
+		return value;
+	};
+
+	bs.extendedSearch.SearchBar.prototype.setNamespaceFromValue = function( nsText ) {
+		if( nsText === '' ) {
+			// Explicitly main
+			this.namespace = {
+				id: 0,
+				text: mw.message( 'bs-ns_main' ).plain()
+			};
+			return true;
+		}
+
+		var namespaceId = this.findNamespace( bs.extendedSearch.utils.normalizeNamespaceName( nsText ) );
+		if ( namespaceId !== null ) {
+			this.namespace = {
+				id: namespaceId,
+				text: nsText,
+				values: bs.extendedSearch.utils.getNamespaceNames( this.namespaces, namespaceId )
+			};
+			return true;
+		}
+
+		//NS cannot be set
+		return false;
+	};
+
+	bs.extendedSearch.SearchBar.prototype.findNamespace = function( nsText ) {
+		if( !this.namespaces ) {
+			this.namespaces = bs.extendedSearch.utils.getNamespacesList();
+		}
+		nsText = bs.extendedSearch.utils.normalizeNamespaceName( nsText );
+		for ( var nsName in this.namespaces ) {
+			if ( !this.namespaces.hasOwnProperty( nsName ) ) {
+				continue;
+			}
+			if ( nsName.toLowerCase() === nsText) {
+				return this.namespaces[nsName];
+			}
+		}
+
+		return null;
+	};
+
+	bs.extendedSearch.SearchBar.prototype.generateNamespacePill = function( value ) {
+		value = value || this.value;
+		this.removeNamespacePill();
+		var sbW = this.$searchBox.outerWidth();
+
+		this.$pill = $( '<span>' )
+			.addClass( 'bs-extendedsearch-searchbar-pill namespace-pill' )
+			.html( this.namespace.text + ':' );
+		this.$searchBox.before( this.$pill );
+		this.setSearchBoxWidthInline( sbW - this.$pill.outerWidth() );
+
+		this.$searchBox.val( value );
+	};
+
+	bs.extendedSearch.SearchBar.prototype.generateSubpagePill = function( value ) {
+		value = value || this.value;
+		this.removeSubpagePill();
+
+		this.$pill = $( '<span>' )
+			.addClass( 'bs-extendedsearch-searchbar-pill subpage-pill' );
+
+		var mainpageBits = this.mainpage.split( '/' );
+		if ( mainpageBits.length > 1 && this.mainpage.length > 30 ) {
+			this.$pill.attr( 'title', this.mainpage );
+			this.$pill.html( '.../' + mainpageBits.pop() + '/' );
+		} else {
+			this.$pill.html( this.mainpage + '/' );
+		}
+
+		this.$searchBox.before( this.$pill );
+		var sbW = this.$searchBox.outerWidth();
+		this.setSearchBoxWidthInline( sbW - this.$pill.outerWidth() );
+		this.$searchBox.val( value );
+	};
+
+	bs.extendedSearch.SearchBar.prototype.removeNamespacePill = function( clearNamespace ) {
+		clearNamespace = clearNamespace || false;
+
+		if( clearNamespace ) {
+			this.namespace = {};
+		}
+
+		var pill = this.$searchContainer.find( '.bs-extendedsearch-searchbar-pill.namespace-pill' );
+		if( pill.length === 0 ) {
+			return false;
+		}
+		this.setSearchBoxWidthInline( this.$searchBox.outerWidth() + pill.outerWidth() );
+		pill.remove();
+		return true;
+	};
+
+	bs.extendedSearch.SearchBar.prototype.removeSubpagePill = function( clearMainpage ) {
+		clearMainpage = clearMainpage || false;
+
+		if( clearMainpage ) {
+			this.mainpage = '';
+		}
+
+		var pill = this.$searchContainer.find( '.bs-extendedsearch-searchbar-pill.subpage-pill' );
+		if( pill.length === 0 ) {
+			return false;
+		}
+		this.setSearchBoxWidthInline( this.$searchBox.outerWidth() + pill.outerWidth() );
+		pill.remove();
+		return true;
+	};
+
+	bs.extendedSearch.SearchBar.prototype.addClearButton = function() {
+		if( this.$searchContainer.find( '.bs-extendedsearch-searchbar-clear' ).length > 0 ) {
+			return;
+		}
+
+		var clearButton = new OO.ui.ButtonWidget( {
+			indicator: 'clear',
+			framed: false
+		} );
+
+		var sbW = this.$searchBox.outerWidth();
+
+		clearButton.$element.addClass( 'bs-extendedsearch-searchbar-clear' );
+		clearButton.$element.insertAfter( this.$searchBox );
+		clearButton.$element.on( 'click', this.onClearSearch.bind( this ) );
+		var cbW = clearButton.$element.outerWidth();
+
+		this.setSearchBoxWidthInline( sbW - cbW );
+		this.$searchBox.addClass( 'clear-present' );
+	};
+
+	bs.extendedSearch.SearchBar.prototype.removeClearButton = function() {
+		var $clearButton = this.$searchContainer.find( '.bs-extendedsearch-searchbar-clear' );
+		if( $clearButton.length === 0 ){
+			return;
+		}
+		this.setSearchBoxWidthInline( this.$searchBox.outerWidth() + $clearButton.outerWidth() );
+		$clearButton.remove();
+		this.$searchBox.removeClass( 'clear-present' );
+	};
+
+	bs.extendedSearch.SearchBar.prototype.setSearchBoxWidthInline = function( width ) {
+		var value = 'display: table-cell; width:' + width + 'px';
+
+		this.$searchBox.attr( 'style', value );
+	};
+
+	bs.extendedSearch.SearchBar.prototype.toggleClearButton = function( value ) {
+		var pillPresent =
+			this.$searchContainer.find( '.bs-extendedsearch-searchbar-pill' ).length != 0;
+
+		if( !this.useNamespacePills ) {
+			pillPresent = false;
+		}
+
+		if( value || pillPresent ) {
+			this.addClearButton();
+		} else {
+			this.removeClearButton();
+		}
+	};
+
+	bs.extendedSearch.SearchBar.prototype.onPaste = function( e ) {
+		var beforeValue = e.target.value;
+		var value = e.originalEvent.clipboardData.getData( 'Text' );
+		var isChanged = beforeValue !== value;
+		var shouldAbort = { abort: false };
+		this.emit( 'beforeValueChanged', e, shouldAbort );
+		if( shouldAbort.abort === true ) {
+			return;
+		}
+		if( !isChanged ) {
+			return;
+		}
+
+		//paste event is fired before value is actually changed
+		//in the input - give it some time to change
+		setTimeout( function() {
+			this.changeValue( value );
+		}.bind( this ), 200 );
+	};
+
+	bs.extendedSearch.SearchBar.prototype.onKeyUp = function( e ) {
+		var value = e.target.value;
+		var isChanged = this.valueBefore !== value;
+		var shouldAbort = { abort: false };
+		this.emit( 'beforeValueChanged', e, shouldAbort );
+		if( shouldAbort.abort === true ) {
+			return;
+		}
+		if( this.valueBefore === '' && value === '' && e.which === 8 ) {
+			//Backspacing on empty field
+			if( this.useSubpagePills ) {
+				if( this.removeSubpagePill( true ) ) {
+					isChanged = true;
+				}
+			}
+			if( this.useNamespacePills && isChanged === false ) {
+				if( this.removeNamespacePill( true ) ) {
+					isChanged = true;
+				}
+			}
+		}
+
+		if( !isChanged ) {
+			return;
+		}
+
+		//Fire value change only after user has finished
+		//typing - to avoid sending requests mid-typing
+		clearTimeout( this.typingTimer );
+		this.typingTimer = setTimeout( function() {
+			this.changeValue( value );
+		}.bind( this ), this.typingDoneInterval );
+	};
+
+	bs.extendedSearch.SearchBar.prototype.onKeyDown = function( e ) {
+		this.valueBefore = e.target.value;
+	};
+
+	bs.extendedSearch.SearchBar.prototype.onClearSearch = function( e ) {
+		this.emit( 'beforeClearSearch', e );
+
+		this.$searchBox.val( '' );
+		if( this.useNamespacePills ) {
+			this.removeNamespacePill( true );
+		}
+		if( this.useSubpagePills ) {
+			this.removeSubpagePill( true );
+		}
+		this.toggleClearButton( '' );
+
+		this.emit( 'clearSearch', e );
+	};
+
+	bs.extendedSearch.SearchBar.prototype.setValue = function( value ) {
+		this.$searchBox.val( value );
+		if( this.useNamespacePills ) {
+
+			value = this.detectNamespace( value );
+		}
+		if( this.useSubpagePills ) {
+			value = this.detectSubpage( value );
+		}
+
+		this.value = value;
+		this.toggleClearButton( value );
+	};
+
+	bs.extendedSearch.SearchBar.prototype.changeValue = function( value ) {
+		if( this.useNamespacePills && value ) {
+			value = this.detectNamespace( value );
+		} if( this.useSubpagePills && value ) {
+			value = this.detectSubpage( value );
+		}
+
+		this.value = value;
+
+		this.toggleClearButton( value );
+		// Emit only when value is actually changed
+		this.emit( 'valueChanged' );
+	};
+} )( mediaWiki, jQuery, blueSpice, document );

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amirsara",
+			"FarsiNevis",
+			"Ladsgroup",
+			"Reza1615",
+			"درفش کاویانی"
+		]
+	},
+	"jade-damaging-scale-true-label": "آسیب‌زننده",
+	"jade-damaging-scale-false-label": "آسیب‌زننده نیست",
+	"jade-goodfaith-scale-true-label": "حسن‌نیت",
+	"jade-goodfaith-scale-false-label": "سونیت",
+	"jade-contentquality-scale-1-label": "مقالهٔ سطح خُرد",
+	"jade-contentquality-scale-3-label": "مقالهٔ سطح پ",
+	"jade-contentquality-scale-4-label": "مقالهٔ سطح ب",
+	"jade-contentquality-scale-5-label": "مقالهٔ خوب",
+	"jade-contentquality-scale-6-label": "مقالهٔ برگزیده",
+	"jade-contentquality-generic": "کیفیت محتوا «$1»",
+	"jade-delete": "حذف",
+	"jade-user": "کاربر",
+	"jade-updateproposal": "شما یک پیشنهاده را روزآمد کردید",
+	"jade-deleteproposal": "شما یک پیشنهاده را حذف کردید",
+	"jade-createandendorseproposal-autocomment": "پیشنهاده ایجاد شد:",
+	"jade-deleteproposal-autocomment": "«پیشنهاده حذف شد»",
+	"jade-editquality-is-comment": "کیفیت ویزایش است",
+	"jade-by-id-number-comment": "توسط [[User:$1|$1]]",
+	"prefs-betafeatures": "ویژگی‌های آزمایشی"
+}

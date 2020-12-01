@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda",
+			"MuratTheTurkish",
+			"Vito Genovese"
+		]
+	},
+	"logentry-append": "Ekle",
+	"logentry-parserhook-desc": "Bu etiket uzantısı, sayfaların eklenmesi/doldurulması için bir form sunar",
+	"logentry-specialpage-desc": "Bu etiket uzantısı, günlük sayfalarına eklemek için işlem sağlar",
+	"logentry": "LogEntry",
+	"logentry-invalidpage": "Geçersiz sayfa: $1",
+	"logentry-invalidtoken": "Geçersiz anahtar"
+}

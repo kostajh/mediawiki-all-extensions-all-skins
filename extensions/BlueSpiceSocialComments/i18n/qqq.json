@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dejan Savuljesku",
+			"Patric Wirth"
+		]
+	},
+	"bs-socialcomments-desc": "{{desc|name=BlueSpiceSocialComments}}",
+	"bs-socialcomments-type": "Label for option \"comment\" in entry field \"type\"\n{{Identical|Comment}}",
+	"bs-socialcomments-commenttext": "Comments text. Use PLURAL.\n$1 is the number of comments",
+	"bs-socialcomments-header-create": "Header for a comment entry, that is not yet existing{{Identical|Comment}}",
+	"bs-socialcomments-header": "Headline for a \"comment\" entry. should link to the owners user page [[User:$1|User:$1]] and the source page of the entry [[$6|$6]] this comment was made on\n* $1 - Username of the owner of this entry\n* $2 - Real name of the owner of this entry\n* $3 - Main part of title of the source page, this entry is saved in as json data\n* $4 - Namespace number of the page, this entry is saved in as json data\n* $5 - Namespace name of the page, this entry is saved in as json data\n* $6 - Full text of the entries source page, the comment was made on.\n* $7 - Header of the entry, the comment was made on",
+	"bs-socialcomments-var-commentcount": "Label for entry field \"commentcount\".\n{{Identical|Comment count}}",
+	"echo-category-title-bs-social-comment-cat": "Checkbox label for mail and wiki notification subscription for comments on entities user watches",
+	"bs-social-notifications-comment-create": "Short message when new comment is created. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-create-subject": "Email subject when new comment is created. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-create-body": "Email body message when new comment is created. $1 - username, $2 - user realname, $3 - original post owner realname, $4 - Text of the comment",
+	"bs-social-notifications-web-comment-create-body": "Web message when comment is created. $1 - username, $2 - user realname, $3 - original post owner realname",
+	"bs-social-notifications-comment-edit": "Short message when comment is edited. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-edit-subject": "Email subject when comment is edited. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-edit-body": "Email body message when comment is edited. $1 - username, $2 - user realname, $3 - original post owner realname, $4 - Text of the comment",
+	"bs-social-notifications-web-comment-edit-body": "Web message when comment is edited. $1 - username, $2 - user realname, $3 - original post owner realname",
+	"bs-social-notifications-comment-delete": "Short message when comment is deleted. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-delete-subject": "Email subject when comment is deleted. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-delete-body": "Email body message when comment is deleted. $1 - username, $2 - user realname, $3 - original post owner realname",
+	"bs-social-notifications-web-comment-delete-body": "Web message when comment is deleted. $1 - username, $2 - user realname, $3 - original post owner realname",
+	"bs-social-notifications-comment-owner-create": "Short message to the owner of the post when new comment is created. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-owner-create-subject": "Email subject to the owner of the post when new comment is created. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-owner-create-body": "Email body to the owner of the post message when new comment is created. $1 - username, $2 - user realname, $3 - text of the comment",
+	"bs-social-notifications-web-comment-owner-create-body": "Web message to the owner of the post when comment is created. $1 - username, $2 - user realname",
+	"bs-social-notifications-comment-owner-edit": "Short message to the owner of the post when comment is edited. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-owner-edit-subject": "Email subject to the owner of the post when comment is edited. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-owner-edit-body": "Email body to the owner of the post message when comment is edited. $1 - username, $2 - user realname, $3 - text of the comment",
+	"bs-social-notifications-web-comment-owner-edit-body": "Web message to the owner of the post when comment is edited. $1 - username, $2 - user realname",
+	"bs-social-notifications-comment-owner-delete": "Short message to the owner of the post when comment is deleted. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-owner-delete-subject": "Email subject to the owner of the post when comment is deleted. $1 - username, $2 - user realname",
+	"bs-social-notifications-email-comment-owner-delete-body": "Email body to the owner of the post message when comment is deleted. $1 - username, $2 - user realname",
+	"bs-social-notifications-web-comment-owner-delete-body": "Web message to the owner of the post when comment is deleted. $1 - username, $2 - user realname",
+	"bs-social-notifications-comment-owner-edit-bundle": "Bundle message  to the owner of the post when same entity was edited multiple times. $1 - number of edits",
+	"bs-social-notification-comment-primary-link-label": "Label for primary link button. It leads to the comment page",
+	"bs-social-notification-comment-parentowner-label": "Label for secondary link, leads to userpage of post owner. $1 - Post owner realname",
+	"bs-social-notification-comment-parententity-label": "Label for secondary link, leads to the post page where comment is added"
+}

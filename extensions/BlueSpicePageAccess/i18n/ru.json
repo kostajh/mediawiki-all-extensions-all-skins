@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"DevilishSkull",
+			"Facenapalm",
+			"Kaganer",
+			"Kareyac",
+			"Meshkov.a",
+			"Movses",
+			"Okras",
+			"Striking Blue",
+			"Vlad5250"
+		]
+	},
+	"bs-pageaccess-desc": "Управление доступом на уровне страницы",
+	"bs-pageaccess-error-no-groups-given": "Группы не были указаны.",
+	"bs-pageaccess-error-not-member-of-given-groups": "Вы не входите в состав указанных групп. Чтобы уберечь вас от самоблокировки, сохранение было отключено.",
+	"bs-pageaccess-error-included-forbidden-template": "Вы пытались использовать шаблон «$1», к которому у вас нет доступа на чтение. Для того, чтобы предотвратить автоблокировку, сохранение было отключено.",
+	"bs-pageaccess-tag-groups-desc": "Определяет группы, которые должны иметь эксклюзивный доступ к странице. Несколько групп разделяются запятыми.",
+	"pageaccess": "Страница защищена с использованием PageAccess",
+	"log-name-bs-pageaccess": "Журнал доступа к страницам",
+	"log-description-bs-pageaccess": "Это журнал изменений в настройках доступа к страницам.",
+	"log-show-hide-bs-pageaccess": "$1 журнал доступа к страницам",
+	"logeventslist-bs-pageaccess-log": "Журнал доступа к страницам",
+	"logentry-bs-pageaccess-change": "$1 изменил{{GENDER:$2||а}} права доступа $3 на «$4»",
+	"action-pageaccess-viewspecialpage": "просмотр служебной страницы «{{int:pageaccess}}»",
+	"bs-pageaccess-column-title": "Заголовок статьи",
+	"bs-pageaccess-column-groups": "Группы",
+	"apihelp-bs-pageaccess-store-summary": "Управление доступом на уровне страницы",
+	"right-pageaccess-viewspecialpage": "доступ к служебной странице [[Special:PageAccess]]",
+	"bs-pageaccess-access-restricted": "Доступ к этой странице ограничен для {{PLURAL:$1|группы|групп}} <strong>$2</strong>.",
+	"bs-pageaccess-tag-pageaccess-title": "Доступ к странице",
+	"bs-pageaccess-tag-pageaccess-desc": "Ограничение доступа к чтению и записи страницы для указанных ниже групп",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Группы",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Только эти группы имеют доступ к странице",
+	"bs-pageaccess-blockactionsontag-lockdown-reason": "Действие «$1» доступно лишь для {{PLURAL:$2|группы|групп}} «$3»"
+}

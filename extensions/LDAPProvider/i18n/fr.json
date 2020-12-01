@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094",
+			"Wladek92"
+		]
+	},
+	"ldapprovider-desc": "Fournit une infrastructure commune pour connecter une ressource LDAP et y lancer des requêtes",
+	"ldapprovider-config-clientregistry": "Permet l’inscription de clients personnalisés",
+	"ldapprovider-config-domainconfigs": "Stocke par configurations de domaine",
+	"ldapprovider-domain-config-not-found": "Impossible d’accéder au fichier de configuration '$1' !\n\nVeuillez installer un fichier de configuration de domaine pour l’extension LDAPProvider.",
+	"ldapprovider-more-than-one": "Plus d’un utilisateur trouvé pour '$1'",
+	"ldapprovider-config-domainconfigprovider": "Spécifie le mécanisme pour obtenir la configuration du domaine",
+	"ldapprovider-config-defaultdomain": "Spécifie quel domaine choisir pour un utilisateur, si aucune correspondance de la base de données n’est disponible"
+}

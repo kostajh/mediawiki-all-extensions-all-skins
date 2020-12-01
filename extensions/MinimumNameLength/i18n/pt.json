@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"minimumnamelength-desc": "Permite impor um comprimento mínimo no nome de utilizador",
+	"minimumnamelength-error": "O seu nome de utilizador(a) é demasiado curto. O mínimo de caracteres permitidos é {{PLURAL:$1|um carácter|$1 caracteres}}."
+}

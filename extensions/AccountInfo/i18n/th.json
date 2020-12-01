@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Ans"
+		]
+	},
+	"accountinfo": "ข้อมูลบัญชี",
+	"accountinfo-desc": "อนุญาตให้ผู้ใช้ดูข้อมูลส่วนตัวที่เก็บไว้ของพวกเขา",
+	"accountinfo-ts": "วัน-เวลา",
+	"accountinfo-ip": "ที่อยู่ไอพี",
+	"accountinfo-ua": "ตัวแทนผู้ใช้",
+	"accountinfo-xff": "หัวเรื่อง XFF",
+	"accountinfo-length": "ข้อมูลถูกเก็บไว้สำหรับ $1",
+	"accountinfo-now": "ขณะนี้"
+}

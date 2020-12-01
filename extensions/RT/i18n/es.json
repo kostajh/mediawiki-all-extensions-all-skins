@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Antur",
+			"Crazymadlover",
+			"Indiralena",
+			"Macofe",
+			"Pertile",
+			"Translationista"
+		]
+	},
+	"rt-desc": "Interfaz bonita para el RT (Request Tracker)",
+	"rt-inactive": "La extensión RT no está activa.",
+	"rt-badquery": "La extensión RT encontró un error cuando se comunicaba con la base de datos de RT.",
+	"rt-badlimit": "El argumento <code>LIMIT</code> (<code>l</code>) no es válido: debe ser un número.\nHas intentado: '''$1'''",
+	"rt-badorderby": "El argumento <code>ORDER BY</code> (<code>ob</code>) no es válido: debe ser un campo estándar (ver documentación).\nHas intentado: '''$1'''",
+	"rt-badstatus": "El argumento <code>status</code> (<code>s</code>) no es válido: debe ser un campo estándar (ver documentación).\nHas intentado: '''$1'''",
+	"rt-badcfield": "El argumento de campo personalizado no es válido: debe ser una palabra simple (consulta la documentación).\nHas intentado: '''$1'''",
+	"rt-badqueue": "El argumento <code>queue</code> (<code>q</code>) no es válido: debe ser una palabra simple.\nHas intentado: '''$1'''",
+	"rt-badowner": "El argumento <code>owner</code> (<code>o</code>) no es válido: debe ser un nombre de usuario válido.\nHas intentado: '''$1'''",
+	"rt-nomatches": "No se encontraron tickets RT coincidentes."
+}

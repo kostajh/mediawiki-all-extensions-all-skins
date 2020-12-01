@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"AS",
+			"Base",
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"createtopicpage": "Створити сторінку",
+	"articleplaceholder-desc": "Надає спеціальну сторінку з інформацією з {{WBREPONAME}} про певну тему, із запрошенням створити статтю на цю тему",
+	"articleplaceholder-abouttopic": "Про тему",
+	"articleplaceholder-abouttopic-intro": "Ця спеціальна сторінка дає Вам коротке уявлення про тему на основі даних з {{GRAMMAR:genitive|{{WBREPONAME}}}}.",
+	"articleplaceholder-abouttopic-entityid": "Будь ласка, введіть ідентифікатор елемента, такий як Q12345",
+	"articleplaceholder-abouttopic-submit": "згенерувати",
+	"articleplaceholder-abouttopic-no-entity-error": "Цей ідентифікатор елемента некоректний.",
+	"articleplaceholder-abouttopic-create-article-title": "Створити нову статтю",
+	"articleplaceholder-abouttopic-create-article-label": "Назва статті",
+	"articleplaceholder-abouttopic-create-article-mandatory": "Назва статті є обов'язковою.",
+	"articleplaceholder-abouttopic-create-article-button": "Створити статтю",
+	"articleplaceholder-abouttopic-create-empty-article-button": "Створити нову статтю",
+	"articleplaceholder-abouttopic-translate-article-label": "Вихідна мова:",
+	"articleplaceholder-abouttopic-translate-article-button": "Перекласти статтю",
+	"articleplaceholder-abouttopic-create-article-submit-button": "Надіслати",
+	"articleplaceholder-abouttopic-article-exists-error": "Стаття з цією назвою вже існує",
+	"articleplaceholder-abouttopic-lua-entity": "Сутність",
+	"articleplaceholder-abouttopic-lua-reference": "Посилання на джерело",
+	"articleplaceholder-abouttopic-lua-identifier": "Зовнішні ресурси",
+	"articleplaceholder-search-header": "Ознайомитися з даними на цю тему",
+	"articleplaceholder-createpage-title": "Створити $1",
+	"articleplaceholder-createpage-alreadyexists": "Сторінка з назвою «$1» вже існує. Будь ласка, виберіть іншу.",
+	"articleplaceholder-createpage-notitleprovided": "Заголовка не вказано, будь ласка, введіть заголовок сторінки, яку Ви хочете створити.",
+	"articleplaceholder-createpage-invalidtitleprovided": "Заголовок, який Ви ввели, неприпустимий. Будь ласка, вкажіть дійсний заголовок."
+}

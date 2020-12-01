@@ -1,0 +1,72 @@
+{
+	"name": "UserStatus",
+	"version": "3.6.0",
+	"author": [
+		"Aaron Wright",
+		"David Pean",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:UserStatus",
+	"descriptionmsg": "userstatus-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"SpecialPages": {
+		"FanUpdates": "ViewFanUpdates",
+		"UserStatus": "ViewUserStatus",
+		"ViewThought": "ViewThought"
+	},
+	"MessagesDirs": {
+		"UserStatus": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"UserStatusAlias": "includes/UserStatus.alias.php"
+	},
+	"APIModules": {
+		"userstatus": "ApiUserStatus"
+	},
+	"AutoloadClasses": {
+		"ApiUserStatus": "includes/api/ApiUserStatus.php",
+		"UserStatus": "includes/UserStatus.class.php",
+		"UserStatusHooks": "includes/UserStatus.hooks.php",
+		"ViewFanUpdates": "includes/specials/SpecialFanUpdates.php",
+		"ViewUserStatus": "includes/specials/SpecialUserStatus.php",
+		"ViewThought": "includes/specials/SpecialViewThought.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "UserStatusHooks::onLoadExtensionSchemaUpdates"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "UserStatus"
+	},
+	"ResourceModules": {
+		"ext.userStatus.styles": {
+			"styles": "resources/css/UserStatus.css"
+		},
+		"ext.userStatus.scripts": {
+			"scripts": "resources/js/UserStatus.js",
+			"dependencies": [ "mediawiki.api" ],
+			"messages": [ "userstatus-confirm-delete" ]
+		},
+		"ext.userStatus.viewThought": {
+			"styles": "resources/css/ViewThought.css"
+		}
+	},
+	"AvailableRights": [
+		"delete-status-updates"
+	],
+	"GroupPermissions": {
+		"staff": {
+			"delete-status-updates": true
+		},
+		"sysop": {
+			"delete-status-updates": true
+		}
+	},
+	"manifest_version": 1
+}

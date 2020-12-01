@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010",
+			"Otogi"
+		]
+	},
+	"revcs-error": "შეცდომა: $1",
+	"revcs-hidehistory-submit": "გამოყენება",
+	"revcs-list-extended-supplement-all": "ყველა",
+	"revcs-list-extended-supplement-empty": "ცარიელი",
+	"revcs-list-extended-supplement-notempty": "არ არის ცარიელი",
+	"revcs-list-limit": "რაოდენობა გვერდზე:",
+	"revcs-list-rcs-rev-id-edit": "რედაქტირება",
+	"revcs-list-rcs-rev-id-log": "ჟურნალი",
+	"revcs-list-rcs-user-text": "მომხმარებელი",
+	"revcs-list-submit": "ჩვენება",
+	"revcs-log-nosupplement": "(არა)",
+	"revcs-show-revision": "ვერსია: $1",
+	"revcs-show-user": "მომხმარებელი: $1 $2 (მომხმარებლის ID: $3)",
+	"revcs-warning": "გაფრთხილება: $1"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mahitgar",
+			"V.narsikar"
+		]
+	},
+	"contributors": "योगदानकर्ते",
+	"contributors-desc": "पानाच्या मुख्य योगदानकर्त्यांची संक्षीप्तसूची",
+	"contributors-toolbox": "मुख्य योगदानकर्ते",
+	"contributors-legend": "पानाच्या मुख्य योगदानकर्त्यांची यादी द्या",
+	"contributors-target": "शीर्षक",
+	"contributors-submit": "दाखवा",
+	"contributors-subtitle": "$1चे मुख्य योगदानकर्ते",
+	"contributors-others-long": "या पानास {{PLURAL:$1|एक दुसरा योगदानकर्ता आहे|$1 दुसरे योगदानकर्ते आहेत}}.",
+	"contributors-others": "आणि {{PLURAL:$1|एक दुसरा|$1 दुसरे}}",
+	"contributors-badtitle": "अयोग्य शीर्षक",
+	"contributors-nosuchpage": "पान $1 अस्तीत्वात नाही.",
+	"contributors-filterip": "अंकपत्ते लपवा",
+	"contributors-name": "सदस्यनाम",
+	"contributors-revisions": "आवृत्त्यांची संख्या",
+	"contributors-first-edit": "प्रथम संपादनाचा दिनांक",
+	"contributors-last-edit": "शेवटच्या संपादनाचा दिनांक",
+	"contributors-add-subpages": "उपपाने जोडा",
+	"apihelp-query+contributors-example-1": "मुखपृष्ठावरील योगदाने दाखवा"
+}

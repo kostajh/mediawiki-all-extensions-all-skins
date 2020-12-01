@@ -1,0 +1,39 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"globals": {
+		"mediaWiki": false,
+		"jQuery": false,
+		"wikibase": false,
+		"LW": false,
+		"LWE": false,
+		"LWF": false,
+		"LWUI": false,
+		"i18n": false,
+		"Foo": false,
+		"console": true
+	},
+	"rules": {
+		"one-var": "warn",
+		"vars-on-top": "warn",
+		"no-console": "off",
+		"no-loop-func": "warn",
+		"no-redeclare": "warn",
+		"no-undef-init": "warn",
+		"no-shadow": "warn",
+		"no-alert": "warn",
+		"no-use-before-define": "warn",
+		"no-unsafe-negation": "warn",
+		"no-new": "warn",
+		"no-implicit-globals": "warn",
+		"max-statements-per-line": "warn",
+		"no-prototype-builtins": "warn",
+		"no-jquery/no-parse-html-literal": "warn",
+		"no-jquery/no-global-selector": "warn",
+		"no-jquery/variable-pattern": "warn"
+	}
+}

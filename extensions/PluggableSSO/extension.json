@@ -1,0 +1,39 @@
+{
+	"name": "PluggableSSO",
+	"namemsg": "pluggablesso-extensionname",
+	"version": "0.1",
+	"author": [
+		"[http://mwstake.org Mark A. Hershberger]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PluggableSSO",
+	"descriptionmsg": "pluggablesso-desc",
+	"type": "authentication",
+	"license-name": "GPL-3.0-or-later",
+	"MessagesDirs": {
+		"PluggableSSO": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"PluggableSSO\\PluggableSSO": "src/PluggableSSO.php",
+		"PluggableSSO\\SessionProvider": "src/SessionProvider.php",
+		"PluggableSSO\\Hook": "src/Hook.php"
+	},
+	"ExtensionFunctions": [
+		"PluggableSSO\\Hook::initExtension"
+	],
+	"SessionProviders": {
+		"PluggableSSO\\SessionProvider": {
+			"class": "PluggableSSO\\SessionProvider",
+			"args": [ {
+				"priority": 50,
+				"callUserSetCookiesHook": true
+			} ]
+		}
+	},
+	"config": {
+		"SSOHeader": "REMOTE_USER",
+		"AuthRemoteuserDomain": "example.wiki"
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"bs-uemoduledocx-extension-description": "Active l’exportation vers DOCX",
+	"bs-uemoduledocx-pref-SuppressNS": "Masquer le préfixe de l’espace de noms dans DOCX",
+	"bs-uemoduledocx-widgetlink-single-text": "Page unique DOCX",
+	"bs-uemoduledocx-widgetlink-single-title": "Exporter cette page en tant que DOCX.",
+	"bs-uemoduledocx-overview-title": "Microsoft&reg; Office Open XML (DOCX)",
+	"bs-uemoduledocx-overview-description": "Exporte les pages vers Microsoft DOCX.",
+	"bs-uemoduledocx-overview-webservice-state-not-ok": "non disponible",
+	"bs-uemoduledocx-overview-webservice-state-ok": "disponible",
+	"bs-uemoduledocx-overview-webservice-webadmin": "WebInterface de DOCXService (BShtml2DOCX)",
+	"bs-uemoduledocx-overview-webservice-state": "État de DOCXService (BShtml2DOCX)"
+}

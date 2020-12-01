@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"forcepreview": "$1 (استخدم عرض مسبق أولا)",
+	"forcepreview-desc": "إجبار المستخدمين غير الموثوقين على العرض المسبق",
+	"right-forcepreviewexempt": "يمكنه الحفظ بدون استخدام العرض المسبق"
+}

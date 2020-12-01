@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"phptagsfunctions-desc": "Implementiert die internen Funktionen von nativem PHP für die Erweiterung PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "Das Trennzeichen darf nicht alphanumerisch oder kein Backslash sein.",
+	"phptagsfunctions-preg-no-ending-delimiter": "Kein Schlusstrennzeichen „$1“ gefunden",
+	"phptagsfunctions-preg-unknown-modifier": "Unbekannter Modifikator „$1“"
+}

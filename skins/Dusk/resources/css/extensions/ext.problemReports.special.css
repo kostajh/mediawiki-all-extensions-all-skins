@@ -1,0 +1,10 @@
+/* Make the list of templated responses one percent smaller so that it fits
+(on individual problem report view) */
+#mailer #mailer-templates {
+	width: 24% !important;
+}
+
+/* To/From/Subject labels on the ProblemReports mailer form */
+#mailer .headers label {
+	width: 50px !important;
+}

@@ -1,0 +1,18 @@
+.bs-social-entityaftercontent-comment {
+	display: inline-block;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.bs-social-entityaftercontent-comment::before {
+	font-family: 'icomoon';
+	font-size: 13px;
+	color: #3e5389 !important;
+}
+.bs-social-entityaftercontent-comment:hover {
+	text-decoration: none !important;
+}
+.bs-social-entity-comment > .bs-social-entity-right div.bs-social-entity-title h3:before,
+.bs-social-entityaftercontent-comment::before,
+a.bs-social-entityspawner-comment:before {
+	content: '\e96f';
+}

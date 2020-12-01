@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-watchlist-desc": "Fügt ein Beobachtungsliste-Widget und Tag hinzu",
+	"bs-watchlist-title-sidebar": "Beobachtete Seiten",
+	"bs-watchlist-pref-sort-time": "Zeit",
+	"bs-watchlist-pref-sort-title": "Titel",
+	"bs-watchlist-tag-watchlist-desc": "Zeigt die Artikel an, die letzte Änderungen haben und die auf deiner Beobachtungsliste sind.",
+	"bs-watchlist-window-watchlist-title": "Beobachtungsliste",
+	"bs-watchlist-window-watchlist-intro": "Dies ist ein Überblick über alle Seiten auf deiner Beobachtungsliste. Du kannst auch auf die [[Special:Watchlist|klassische Ansicht wechseln]].",
+	"bs-watchlist-grid-watchlist-column-link-header": "Seite",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Ungelesene Änderungen",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Änderungen ansehen",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Diskussionsseite",
+	"bs-watchlist-grid-watchlist-label-filter": "Filter"
+}

@@ -1,0 +1,85 @@
+body.mediawiki {
+	.navigation-main #bs-sitenavtabs div.tab-content {
+		.panel,
+		.bs-panel {
+			.list-group a.list-group-item.dynamic-graphical-list-visible,
+			.list-group a.list-group-item.dynamic-graphical-list-visible:hover,
+			.panel-heading.dynamic-graphical-list-visible .bs-panel-title a,
+			.panel-heading.dynamic-graphical-list-visible .bs-panel-title a:hover {
+				color: @theme-navigation-main-grapicallist-visible-fg-color;
+				background-color: @theme-navigation-main-grapicallist-visible-bg-color;
+
+				span {
+					color: @theme-navigation-main-grapicallist-visible-fg-color;
+					background-color: transparent;
+				}
+			}
+		}
+	}
+	.sitetools-main {
+		.panel,
+		.bs-panel {
+			.list-group a.list-group-item.dynamic-graphical-list-visible,
+			.list-group a.list-group-item.dynamic-graphical-list-visible:hover,
+			.panel-heading.dynamic-graphical-list-visible .bs-panel-title a,
+			.panel-heading.dynamic-graphical-list-visible .bs-panel-title a:hover {
+				color: @theme-sitetools-main-grapicallist-visible-fg-color;
+				background-color: @theme-sitetools-main-grapicallist-visible-bg-color;
+
+				span {
+					color: @theme-navigation-main-grapicallist-visible-fg-color;
+					background-color: transparent;
+				}
+			}
+		}
+	}
+
+	.dynamic-graphical-list-outer {
+		&.dynamic-graphical-list-outer-east {
+			background-color: @theme-navigation-main-grapicallist-bg-color;
+
+			.dynamic-graphical-list-title {
+				color: @theme-navigation-main-grapicallist-fg-color;
+			}
+			.dynamic-graphical-list-intro {
+				color: @theme-navigation-main-grapicallist-fg-color;
+				a {
+					color: @theme-navigation-main-grapicallist-link-fg-color;
+				}
+				a:hover {
+					color: @theme-navigation-main-grapicallist-link-fg-color-hover;
+				}
+			}
+			.dynamic-graphical-list-actions {
+				a,
+				a:hover {
+					color: @theme-navigation-main-grapicallist-fg-color;
+				}
+			}
+		}
+
+		&.dynamic-graphical-list-outer-west {
+			background-color: @theme-sitetools-main-grapicallist-bg-color;
+
+			.dynamic-graphical-list-title {
+				color: @theme-sitetools-main-grapicallist-fg-color;
+			}
+			.dynamic-graphical-list-intro {
+				color: @theme-sitetools-main-grapicallist-fg-color;
+				a {
+					color: @theme-sitetools-main-grapicallist-link-fg-color;
+				}
+				a:hover {
+					color: @theme-sitetools-main-grapicallist-link-fg-color-hover;
+				}
+			}
+			.dynamic-graphical-list-actions {
+				a,
+				a:hover {
+					color: @theme-sitetools-main-grapicallist-fg-color;
+				}
+			}
+		}
+	}
+
+}

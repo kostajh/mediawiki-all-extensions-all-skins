@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"deleteuserpages-desc": "Lar brukere slette sine egne brukersider",
+	"action-delete-rootuserpages": "slette din egen bruker- og brukerdiskusjonssider",
+	"right-delete-rootuserpages": "Slette sin egen bruker- og brukerdiskusjonsside",
+	"action-delete-usersubpages": "slette undersider av din egen brukerside",
+	"right-delete-usersubpages": "Slette undersider av sin egen brukerside"
+}

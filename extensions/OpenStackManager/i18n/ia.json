@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"openstackmanager-desc": "Permitte al usatores de crear contos shell e gerer lor claves SSH",
+	"openstackmanager": "Gerentia de OpenStack",
+	"novakey": "Gerer tu claves SSH public",
+	"specialpages-group-nova": "Authentication pro OpenStack Manager",
+	"openstackmanager-novakey": "Clave de Nova",
+	"openstackmanager-delete": "deler",
+	"openstackmanager-actions": "Actiones",
+	"openstackmanager-notloggedin": "Identification necessari",
+	"openstackmanager-mustbeloggedin": "Es necessari aperir session pro exequer iste action.",
+	"openstackmanager-novapublickey": "Clave SSH public",
+	"openstackmanager-deletekey": "Deler clave SSH public",
+	"openstackmanager-deletekeyconfirm": "Es tu secur de voler deler le clave hic supra?",
+	"openstackmanager-keylist": "Lista de claves SSH public",
+	"openstackmanager-name": "Nomine",
+	"openstackmanager-fingerprint": "Impression digital",
+	"openstackmanager-keys": "Claves",
+	"openstackmanager-keypairimportfailed": "Falleva de importar par de claves.",
+	"openstackmanager-keypairimported": "Par de claves importate.",
+	"openstackmanager-keypairimportedfingerprint": "Par de claves $1 importate con impression digital $2.",
+	"openstackmanager-keypairformatwrong": "Le clave SSH fornite esseva incorrecte o in un formato incognite.",
+	"openstackmanager-keypairformatconverted": "Le formato del clave SSH ha essite convertite automaticamente.",
+	"openstackmanager-deletedkey": "Le clave ha essite delite.",
+	"openstackmanager-deletedkeyfailed": "Deletion de clave fallite.",
+	"openstackmanager-shellaccountname": "Nomine del conto de shell del instantia",
+	"openstackmanager-shellaccountnamehelp": "Le nomine de un conto de shell es requirite.\nIllo debe comenciar con a-z, e pote solmente continer le characteres a-z, 0-9 e -."
+}

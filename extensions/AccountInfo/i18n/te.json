@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"Ravichandra",
+			"Veeven"
+		]
+	},
+	"accountinfo": "ఖాతా సమాచారం",
+	"accountinfo-desc": "తన గురించిన గోప్య సమాచారాన్ని చూసేందుకు వాడుకరికి వీలు కలిగిస్తుంది",
+	"accountinfo-ts": "కాలముద్ర",
+	"accountinfo-ip": "ఐపీ చిరునామా",
+	"accountinfo-ua": "వాడుకరి ఏజెంటు",
+	"accountinfo-xff": "XFF శీర్షిక",
+	"accountinfo-length": "$1 సమాచారాన్ని అట్టేపెట్టి ఉంచుతాం.",
+	"accountinfo-now": "ఇప్పుడే"
+}

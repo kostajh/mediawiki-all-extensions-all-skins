@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kwj2772",
+			"아라"
+		]
+	},
+	"accountinfo": "계정 정보",
+	"accountinfo-desc": "사용자가 그 자신에 대해 저장된 개인정보를 볼 수 있게 합니다",
+	"accountinfo-ts": "시간 기록",
+	"accountinfo-ip": "IP 주소",
+	"accountinfo-ua": "유저 에이전트",
+	"accountinfo-xff": "XFF 헤더",
+	"accountinfo-length": "정보는 $1 동안 저장됩니다.",
+	"accountinfo-now": "지금"
+}

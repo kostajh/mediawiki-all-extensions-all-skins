@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Xbaked potatox"
+		]
+	},
+	"emailauthorization-config-nousersfound": "Geen gebruikers gevonden.",
+	"emailauthorization-config-label-email": "E-mailadres",
+	"emailauthorization-config-label-username": "Gebruikersnaam",
+	"emailauthorization-config-label-realname": "Volledige naam",
+	"emailauthorization-config-label-userpage": "Gebruikerspagina",
+	"emailauthorization-config-value-domain": "alle gebruikers met een e-mailadres eindigend met $1",
+	"emailauthorization-config-value-yes": "ja",
+	"emailauthorization-config-value-no": "nee",
+	"emailauthorization-config-legend-search": "Naar een e-mailadres zoeken",
+	"emailauthorization-config-button-next": "Volgende",
+	"emailauthorization-config-button-previous": "Vorige",
+	"emailauthorization-config-button-search": "Zoeken",
+	"emailauthorization-config-button-add": "Toevoegen",
+	"emailauthorization-config-button-revoke": "Intrekken",
+	"emailauthorizationrequest": "Account aanvragen",
+	"emailauthorization-request-label-email": "E-mailadres",
+	"emailauthorization-request-button-submit": "Verzenden",
+	"emailauthorization-request-requested": "Een account is aangevraagd voor het e-mailadres $1.",
+	"emailauthorization-request-invalidemail": "Ongeldig e-mailadres: $1",
+	"echo-category-title-emailauthorization-notification-category": "Nieuwe account aanvragen",
+	"notification-subject-emailauthorization-account-request": "Nieuwe account aanvraag.",
+	"notification-body-emailauthorization-account-request": "$1 heeft een account aangevraagd.",
+	"emailauthorization-approve-label-email": "E-mailadres",
+	"emailauthorization-approve-label-extra": "Extra velden",
+	"emailauthorization-approve-label-action": "Handelingen",
+	"emailauthorization-approve-button-approve": "Goedkeuren",
+	"emailauthorization-approve-button-reject": "Afwijzen",
+	"emailauthorization-approve-button-next": "Volgende",
+	"emailauthorization-approve-button-previous": "Vorige",
+	"emailauthorization-approve-norequestsfound": "Geen accountaanvragen gevonden.",
+	"emailauthorization-approve-approved": "$1 goedgekeurd.",
+	"emailauthorization-approve-rejected": "$1 afgewezen."
+}

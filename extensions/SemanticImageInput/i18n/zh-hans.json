@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Linforest",
+			"Liuxinyu970226",
+			"列维劳德"
+		]
+	},
+	"sii-desc": "添加图像输入功能，它从维基百科推送图片至[https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms 页面表单]",
+	"sii-imageinput-loading": "加载图像..."
+}

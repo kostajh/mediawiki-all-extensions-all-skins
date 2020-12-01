@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"emaildiff-desc": "Ermöglicht das Versenden von Textunterschieden in Benachrichtigungs-E-Mails",
+	"tog-emaildiff": "Einen Unterschied der Änderungen senden",
+	"emaildiff-newpage": "Dies ist eine neue Seite:\n\n$1",
+	"emaildiff-intro": "Versionsunterschiede:\n$1"
+}

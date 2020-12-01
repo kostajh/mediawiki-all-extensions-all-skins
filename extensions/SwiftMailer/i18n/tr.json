@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"swiftmailer-desc": "Alternatif mailler olarak SwiftMailer'i sağlar",
+	"swiftmailer-smtp-error": "SwiftMailer için SMTP aktarımını ayarlarken hata oluştu: $1",
+	"swiftmailer-send-error": "SwiftMailer kullanarak e-posta gönderirken hata oluştu: $1"
+}

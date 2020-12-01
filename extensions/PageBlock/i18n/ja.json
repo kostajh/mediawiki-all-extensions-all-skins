@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afaz",
+			"Omotecho",
+			"Otokoume",
+			"Shirayuki"
+		]
+	},
+	"pageblock-desc": "ページまたは利用者ごとに制限を設ける",
+	"pageblock": "利用者の制限",
+	"pageblock-legend": "利用者を制限",
+	"pageblock-form-title": "ページ名",
+	"pageblock-form-user": "利用者名",
+	"pageblock-form-edit": "利用者の編集を制限",
+	"pageblock-form-sameformove": "ページの移動にも適用",
+	"pageblock-form-move": "利用者のページ移動を制限",
+	"pageblock-form-reason": "理由",
+	"pageblock-success": "$1 は $2 から制限されました。",
+	"listrestrictions": "制限一覧",
+	"listrestrictions-legend": "制限一覧",
+	"pageblock-list-title": "ページ名",
+	"pageblock-list-user": "利用者名",
+	"pageblock-list-indefonly": "無期限の制限のみを表示",
+	"pageblock-restricted-edit-indef": "$1 は $2 の編集を無期限に制限されています。",
+	"pageblock-restricted-edit": "$1 は $2 の編集を$3まで制限されています。",
+	"pageblock-restricted-move-indef": "$1 は $2 の移動を無期限に制限されています。",
+	"pageblock-restricted-move": "$1 は $2 の移動を$3まで制限されています。",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|あなた}}は $2 の編集が無期限に制限されています。",
+	"pageblock-blocked-edit": "{{GENDER:$1|あなた}}は $2 の編集が$3まで制限されています。",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|あなた}}は $2 の移動が無期限に制限されています。",
+	"pageblock-blocked-move": "{{GENDER:$1|あなた}}の移動は$3まで制限されています。",
+	"logentry-restrict-add-edit-move": "$1 が $3 の編集および移動を{{GENDER:$2|制限されました}} $4",
+	"logentry-restrict-add-edit": "$1 が $3 の編集を{{GENDER:$2|制限されました}} $4",
+	"logentry-restrict-add-move": "$1 が $3 の移動を{{GENDER:$2|制限されました}} $4",
+	"action-page-block": "ページまたは利用者ごとの制限の適用/変更/除去",
+	"right-page-block": "ページまたは利用者ごとの制限を適用/変更/除去"
+}

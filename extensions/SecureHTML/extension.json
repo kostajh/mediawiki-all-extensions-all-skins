@@ -1,0 +1,37 @@
+{
+	"name": "Secure HTML",
+	"version": "3.0",
+	"author": "Ryan Finnie",
+	"url": "https://www.mediawiki.org/wiki/Extension:Secure_HTML",
+	"descriptionmsg": "securehtml-desc",
+	"type": "parserhook",
+	"license-name": "GPL-2.0-or-later",
+	"SpecialPages": {
+		"SecureHTML": "SpecialSecureHTML"
+	},
+	"MessagesDirs": {
+		"SecureHTML": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SecureHTMLAlias": "SecureHTML.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialSecureHTML": "SpecialSecureHTML.php",
+		"SecureHTML": "SecureHTML.hooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "SecureHTML::parserInit"
+	},
+	"config": {
+		"SecureHTMLSecrets": {},
+		"SecureHTMLSpecialRight": "edit",
+		"SecureHTMLSpecialDropdown": true,
+		"SecureHTMLTag": "shtml"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"manifest_version": 1
+}

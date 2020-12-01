@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"multimaps-unknown-parameter": "Parametro sconosciuto: \"$1\"",
+	"multimaps-error-incorrect-class-for-service": "La classe \"$1\" che è definita per il servizio non può essere usata.",
+	"multimaps-method-error-unknown-action": "$1: azione sconosciuta"
+}

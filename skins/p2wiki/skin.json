@@ -1,0 +1,40 @@
+{
+	"name": "P2 wiki",
+	"author": [
+		"[http://automattic.com/ Automattic]",
+		"[https://www.mediawiki.org/wiki/User:Dantman Daniel Friesen]"
+	],
+	"descriptionmsg": "p2wiki-desc",
+	"namemsg": "skinname-p2wiki",
+	"url": "https://www.mediawiki.org/wiki/Skin:P2_wiki",
+	"type": "skin",
+	"ValidSkinNames": {
+		"p2wiki": "P2wiki"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"AutoloadClasses": {
+		"SkinP2wiki": "P2wiki.skin.php",
+		"P2wikiTemplate": "P2wiki.skin.php"
+	},
+	"MessagesDirs": {
+		"SkinP2wiki": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "p2wiki"
+	},
+	"ResourceModules": {
+		"skins.p2wiki": {
+			"styles": {
+				"style/screen.css": {
+					"media": "screen"
+				}
+			}
+		}
+	},
+	"manifest_version": 1
+}

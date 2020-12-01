@@ -1,0 +1,87 @@
+.picgame-errors {
+	color: red;
+	font-weight: bold;
+}
+.imageOneUpload,
+.imageTwoUpload {
+	float: left;
+	width: 420px;
+}
+
+.imageTwoUpload {
+	margin-left: 50px;
+}
+
+.imageOneUpload iframe {
+	border: none;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.imageTwoUpload iframe {
+	border: none;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.uploadLeft {
+	width: 900px;
+}
+
+.uploadedImages {
+	width: 500px;
+}
+
+.uploadTitle {
+	margin: 0 0 18px 0;
+}
+
+.imageOneUpload h1,
+.imageTwoUpload h1,
+.uploadTitle h1,
+.uploadedImages h1 {
+	border: 0;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0 !important;
+}
+
+.imageOne, .imageTwo {
+	float: left;
+	width: 200px;
+}
+
+.imageOne img,
+.imageTwo img {
+	border: 1px solid #dcdcdc;
+	padding: 3px;
+}
+
+.imageOne p,
+.imageTwo p {
+	margin: 0 0 5px 0 !important;
+	font-size: 12px;
+}
+
+.pick-game-welcome-message {
+	background-color: #f2f4f7;
+	border: 1px solid #d7dee8;
+	padding: 8px;
+	margin: 0 0 25px;
+	width: 500px;
+}
+
+.pick-game-welcome-message h1 {
+	border: 0;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 10px 0 !important;
+}
+
+.startButton {
+	margin: 10px 0 0 0;
+}

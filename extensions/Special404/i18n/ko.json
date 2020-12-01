@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"special404-desc": "404 Not found 오류에 대한 대상 제공",
+	"error404": "404 찾을 수 없습니다",
+	"special404-body": "요청하신 URL을 찾을 수 없습니다.\n\n{{fullurl:$1}}을(를) 찾으셨나요?\n\n아마도 당신이 찾으려는 것일 수도 있습니다:\n* [[{{MediaWiki:Mainpage}}|대문]]"
+}

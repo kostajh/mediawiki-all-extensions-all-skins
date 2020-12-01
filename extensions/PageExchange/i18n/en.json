@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yaron Koren"
+		]
+	},
+	"pageexchange-extensionname": "Page Exchange",
+	"pageexchange-desc": "Allows for installing \"packages\" of pre-defined wiki pages",
+	"packages": "Packages",
+	"right-pageexchange": "Run Page Exchange actions",
+	"action-pageexchange": "run Page Exchange actions",
+	"pageexchange-logname": "Page Exchange log",
+	"pageexchange-logdesc": "This is the log of actions related to the Page Exchange extension.",
+	"pageexchange-installed": "Installed",
+	"pageexchange-available": "Available",
+	"pageexchange-installpackage": "Install package: $1",
+	"pageexchange-updatepackage": "Update package: $1",
+	"pageexchange-uninstallpackage": "Uninstall package: $1",
+	"pageexchange-installpackagelog": "installed the package $2, by $3",
+	"pageexchange-updatepackagelog": "updated the package $2, by $3",
+	"pageexchange-uninstallpackagelog": "uninstalled the package $2, by $3",
+	"pageexchange-package-website": "Website:",
+	"pageexchange-package-publisher": "Publisher:",
+	"pageexchange-package-author": "Author:",
+	"pageexchange-package-version": "Version:",
+	"pageexchange-package-pages": "Pages:",
+	"pageexchange-package-language": "Language:",
+	"pageexchange-package-requiredextensions": "Required extensions:",
+	"pageexchange-package-requiredpackages": "Required packages:",
+	"pageexchange-package-morerecent": "There is a more recent version of this package than the one currently installed on this wiki.",
+	"pageexchange-package-install": "Install",
+	"pageexchange-package-update": "Update",
+	"pageexchange-package-uninstall": "Uninstall",
+	"pageexchange-package-deleteallpages": "Delete all associated wiki pages",
+	"pageexchange-pagehaschanged": "the latest version of this page differs from the local copy.",
+	"pageexchange-latestvalue": "(latest value: $1)",
+	"pageexchange-uninstallablepackage": "This package cannot be installed, for the following reasons:",
+	"pageexchange-inappropriatepackage": "This package may not be appropriate for your wiki; see below.",
+	"pageexchange-packageinstalled": "This package was installed.",
+	"pageexchange-packageuninstalled": "This package was uninstalled.",
+	"pageexchange-packageupdated": "This package was updated."
+}

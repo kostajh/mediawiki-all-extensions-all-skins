@@ -1,0 +1,29 @@
+{
+	"name": "GoogleSiteSearch",
+	"version": "3.0",
+	"author": "Ryan Finnie",
+	"url": "https://www.mediawiki.org/wiki/Extension:GoogleSiteSearch",
+	"descriptionmsg": "googlesitesearch-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"MessagesDirs": {
+		"GoogleSiteSearch": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"GoogleSiteSearch": "src/GoogleSiteSearch.php"
+	},
+	"Hooks": {
+		"SpecialSearchResultsPrepend": "GoogleSiteSearch::searchPrepend"
+	},
+	"config": {
+		"GoogleSiteSearchCSEID": "",
+		"GoogleSiteSearchOnly": false,
+		"GoogleSiteSearchAttributes": []
+	},
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"manifest_version": 1
+}

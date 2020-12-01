@@ -1,0 +1,14 @@
+*~
+*#
+*.wip
+*.orig
+*.log
+
+composer.lock
+
+vendor
+node_modules
+php-docs
+js-docs
+coverage
+/.eslintcache

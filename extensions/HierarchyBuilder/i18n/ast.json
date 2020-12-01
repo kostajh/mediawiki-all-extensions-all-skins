@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"hierarchybuilder-desc": "Representa y permite editar y seleccionar a partir de xerarquíes de páxines",
+	"hierarchybuilder-reveal-editmessage": "¿Cómo uso esto?",
+	"hierarchybuilder-editmessage": "La llista Raíz de Xerarquía contien la xerarquía que se caltendrá cuando guardes. La llista de Páxines sin Usu contien les páxines de la categoría $1 que nun tan actualmente na xerarquía. Puedes reorganizar la llista Raíz de Xerarquía arrastrando fileres arriba y abaxo y tamién cambiando la sangría. Puedes añadir páxines de la llista de Páxines sin Usu a la xerarquía arrastrándoles y soltándoles onde quieras na llista de Raíz de Xerarquía. Puedes desaniciar páxines de la xerarquía arrastrándoles fuera de la llista de Raíz de Xerarquía y soltándoles en cualquier parte de la llista de Páxines sin Usu.",
+	"hierarchybuilder-edit-error-message": "Esta xerarquía nun puede editase porque tanto los datos de la xerarquía como la categoría de la que sacar les páxines sin usu tan en blancu. Por favor, asegúrate de que polo menos una d'estes fontes tien datos.",
+	"hierarchybuilder-hierarchyroot": "Raíz de la xerarquía",
+	"hierarchybuilder-unusedpages": "Páxines ensin usu",
+	"hierarchybuilder-category-desc": "Esta ye la categoría a la que tienen de pertenecer les páxines de la xerarquía.",
+	"hierarchybuilder-missing-category": "Falta l'argumentu de categoría.",
+	"hierarchybuilder-hierarchy-desc": "Esta ye una xerarquía con formatu de testu wiki.",
+	"hierarchybuilder-pagename-desc": "Esti ye'l nome de la páxina que contien la xerarquía.",
+	"hierarchybuilder-propertyname-desc": "Esti ye'l nome de la propiedá que contien la xerarquía.",
+	"hierarchybuilder-collapsed-desc": "Si se da esti parámetru, la xerarquía tien de representase contrayida cuando s'amuese la primera vegada.",
+	"hierarchybuilder-missing-page-name": "Falta l'argumentu de nome de páxina.",
+	"hierarchybuilder-missing-property-name": "Falta l'argumentu de nome de propiedá.",
+	"hierarchybuilder-invalid-collapsed": "El valor del argumentu contraíu nun ye válidu."
+}

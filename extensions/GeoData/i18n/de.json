@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"FF11",
+			"Fitoschido",
+			"Kghbln",
+			"Metalhead64",
+			"Predatorix",
+			"Tiin",
+			"Umherirrender"
+		]
+	},
+	"geodata-desc": "Ergänzt Funktionen zum Speichern und Abrufen geografischer Koordinaten",
+	"geodata-bad-input": "Es wurden ungültige Argumente an die Funktion <code><nowiki>{{#coordinates:}}</nowiki></code> übergeben.",
+	"geodata-bad-latitude": "<code><nowiki>{{#coordinates:}}</nowiki></code>: ungültige Längenangabe",
+	"geodata-bad-longitude": "<code><nowiki>{{#coordinates:}}</nowiki></code>: ungültige Breitenangabe",
+	"geodata-bad-type": "<code><nowiki>{{#coordinates:}}</nowiki></code>: unbekannter Koordinatentyp „$1“",
+	"geodata-bad-globe": "<code><nowiki>{{#coordinates:}}</nowiki></code>: unbekannter Globus „$1“",
+	"geodata-bad-region": "<code><nowiki>{{#coordinates:}}</nowiki></code>: ungültiges Regionscodeformat",
+	"geodata-multiple-primary": "<code><nowiki>{{#coordinates:}}</nowiki></code>: Es kann nicht mehr als eine primäre Auszeichnung angegeben werden.",
+	"geodata-limit-exceeded": "Die Begrenzung zur Funktion <code><nowiki>{{#coordinates:}}</nowiki></code> von {{PLURAL:$1|einer Auszeichnung|$1 Auszeichnungen}} je Seite, wurde überschritten.",
+	"geodata-broken-tags-category": "Seiten mit fehlerhaften Auszeichnungen zu Koordinaten",
+	"geodata-broken-tags-category-desc": "Die Seite hat ein fehlerhaftes <code><nowiki>{{#coordinates:}}</nowiki></code>-Tag.",
+	"geodata-unknown-type-category": "Seiten mit unbekanntem Koordinatentyp",
+	"geodata-unknown-type-category-desc": "Die Seite verwendet einen unbekannten Wert des <code>type</code>-Parameters für Koordinaten.",
+	"geodata-unknown-globe-category": "Seiten mit unbekanntem Codewert für den Globus",
+	"geodata-unknown-globe-category-desc": "Die Seite verwendet einen unbekannten Wert des <code>globe</code>-Parameters für Koordinaten.",
+	"geodata-unknown-region-category": "Seiten mit unbekanntem Codewert für die Region",
+	"geodata-unknown-region-category-desc": "Die Seite verwendet einen ungültigen Wert des <code>region</code>-Parameters für Koordinaten.",
+	"geodata-api-help-coordinates-format": "Format: Breitengrad und Längengrad, getrennt durch senkrechten Strich (<kbd>|</kbd>).",
+	"geodata-search-feature-invalid-coordinates": "Die Geokoordinaten „$2“, die in „$1“ angegeben wurden, konnten nicht geparst werden.",
+	"geodata-search-feature-invalid-distance": "Die Geodistanz „$2“, die in „$1“ angegeben wurde, konnte nicht geparst werden.",
+	"geodata-search-feature-unknown-title": "Der Titel „$2“, der in „$1“ angegeben wurde, ist nicht vorhanden.",
+	"geodata-search-feature-title-no-coordinates": "Der Titel „$2“, der in „$1“ angegeben wurde, besitzt keine Koordinaten.",
+	"geodata-search-timeout": "Die GeoData-Suche hat eine Zeitüberschreitng. Nur Teile des Ergebnisses sind verfügbar."
+}

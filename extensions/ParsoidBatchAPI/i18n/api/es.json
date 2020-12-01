@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"apierror-parsoid-batch-invalidbatch": "El lote no es válido; debe ser una matriz.",
+	"apierror-parsoid-batch-batchtoolarge": "El lote es demasiado grande; el límite es de 500.",
+	"apierror-parsoid-batch-invalidtitle": "Título no válido ($1).",
+	"apierror-parsoid-batch-mustbescalar": "El parámetro <var>$1</var> debe ser un escalar.",
+	"apierror-parsoid-batch-mustbearray": "El parámetro <var>$1</var> debe ser un vector."
+}

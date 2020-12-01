@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Enolp",
+			"Xuacu"
+		]
+	},
+	"html2wiki": "Importar conteníu HTML",
+	"html2wiki-collection-name": "Nome de coleción; o camín pá:",
+	"html2wiki-comment": "Ficheru importáu con [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Html2Wiki Html2Wiki]",
+	"html2wiki-desc": "Importar conteníu HTML na wiki",
+	"html2wiki-dry-run": "De prueba:",
+	"html2wiki-dry-run-heading": "¡Solo ye una vista previa! El conteníu nun se guardó:",
+	"html2wiki-summary": "Importar páxines HTML na wiki",
+	"html2wiki-importbtn": "Importar",
+	"html2wiki-intro": "Usa esti formulariu pa importar conteníu HTML na wiki.\n\nSi subes un archivu zip, el campu Nome de colección úsase pa estremar la colección d'una versión posterior. Tamién tolos ficheros agruparánse nuna categoría col mesmu nome. Por casu, digamos que vas importar una colección de ficheros HTML de salida dende un sistema de software de documentación, escribiríes un identificador únicu de colección como 'FluxCapacitor-v1.1' de mou que tola colección impórtase nuna xerarquía d'artículos que principia por 'FluxCapacitor-v1.1'. D'esta manera pueden importase diez coleiciones diferentes sin chocar unes con otres.\n\nEspecificar un nome de colección existiente (o un camín al pa), anovará'l conteníu wiki existiente.\n\nSi quies importar un únicu ficheru nuna xerarquía d'artículos que yá existe, simplemente especifica'l so 'pa' como Nome de colección.\n\nPor casu, si vas importar un 'advanced_topics.html' nuevu que tendría d'existir en <code>'FluxCapacitor-v1.1/docs/advanced_topics.html'</code>, el pa sedría 'FluxCapacitor-v1.1/docs/'",
+	"html2wiki-title": "Importar HTML",
+	"html2wiki-fieldset-legend": "Importar conteníu HTML",
+	"html2wiki_filenotfound": "Nun s'alcontró el ficheru ($1)",
+	"html2wiki-text": "Almítense lo mesmo HTML (.html) individuales como archivadores. Estos pueden ser .gz, .tar, .tar.gz, .tgz o .zip. Les imaxes xestionaránse automáticamente dende archivadores.",
+	"html2wiki-filename": "Nome del ficheru:",
+	"html2wiki-not-allowed": "Tienes de ser un alministrador o tener permisos d'importación pa usar esti formulariu.",
+	"html2wiki-log-name": "Rexistru d'importación de HTML",
+	"html2wiki-log-description": "De siguío amuésase una llista de les importaciones de HTML más recién.",
+	"html2wiki_multiple_body": "Atopóse más d'un par d'etiquetes <body> en \n$1",
+	"html2wiki_uploaderror": "Hebo un error al xestionar la xubida del ficheru:\n$1",
+	"html2wiki_parse-error": "QueryPath (http://querypath.org/) nun pudo analizar el conteníu suministráu en $1",
+	"logentry-html2wiki": "$1 {{GENDER:$2|importó}} la páxina $3"
+}

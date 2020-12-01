@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mglaser",
+			"Mirzali",
+			"Osnard",
+			"Patric Wirth"
+		]
+	},
+	"bs-rating-extension-description": "Stellt ein Bewertungssystem zur Verfügung.",
+	"bs-rating-types-page": "Artikel",
+	"bs-rating-types-pagelike": "Seitenempfehlung",
+	"rating": "Bewertungen",
+	"recommendations": "Empfehlungen",
+	"bs-rating-yourrating": "Deine Bewertung: $1",
+	"bs-rating-special-rating-heading": "Bewertungen",
+	"bs-rating-articlelike-ratingtext": "Empfehlen ($1)",
+	"bs-rating-articlelike-uratingtextservoted": "Empfohlen ($1)",
+	"action-rating-viewspecialpage": "Seiten, die durch das \"Rating-Viewspecialpage\" Recht geschützt sind, aufzurufen",
+	"action-rating-read": "die Bewertungen von Artikeln zu lesen",
+	"action-rating-write": "Stimmen Sie auf den Seiten ab",
+	"action-rating-archive": "Bewertungen von Artikeln zu entfernen",
+	"right-rating-viewspecialpage": "Seiten ansehen, die mit dem \"Rating-Viewspecialpage\"-Recht geschützt sind",
+	"right-rating-read": "Lies die Bewertungen auf den Seiten",
+	"right-rating-write": "Über Seiten abstimmen",
+	"right-rating-archive": "Abstimmungen von Seiten entfernen",
+	"bs-rating-special-recommendations-heading": "Empfehlungen",
+	"bs-rating-special-recommendations-label-recommendation": "Empfehlungen",
+	"bs-rating-specialrating-label-namespace": "Namensraum",
+	"bs-rating-specialrating-titleTitle": "Seite",
+	"bs-rating-specialrating-titleRating": "Bewertung",
+	"bs-rating-specialrating-titleVotes": "Anzahl der Bewertungen",
+	"apihelp-bs-rating-tasks-description": "Führt allgemeine Aufgaben für die Erweiterung Bewertungen aus",
+	"apihelp-bs-rating-store-description": "Liefert Bewertungen für Seiten",
+	"bs-rating-nsm-label": "Bewertung",
+	"bs-rating-nsm-label-recommendations": "Empfehlungen",
+	"apihelp-bs-rating-tasks-summary": "Führt allgemeine Aufgaben für die Erweiterung Rating durch",
+	"apihelp-bs-ratingarticle-store-summary": "Liefert Bewertungen für Artikel",
+	"apihelp-bs-ratingarticlelike-store-summary": "Liefert Empfehlungen für Artikel"
+}

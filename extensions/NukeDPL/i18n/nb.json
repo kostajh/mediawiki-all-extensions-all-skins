@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"nukedpl": "Masseslett med DPL-spørring",
+	"nukedpl-desc": "Legger til en [[Special:NukeDPL|spesialside]] for massesletting med DPL-spørring",
+	"nukedpl-intro": "Dette verktøyet gjør det mulig å masseslette sider valgt av en DPL-spørring.\n\nSkriv inn spørringen nedenfor for å generere en liste over titler som skal slettes.\n* Titler kan fjernes individuelt før sletting.\n* Husk at titler skiller mellom store og små bokstaver.\n* Spørringer kan ikke omgis av DPL-tagger eller krøllparenteser.\n* For informasjon om paramternes betydning, se [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL-manualen].",
+	"nukedpl-candidatelist": "Vis kandidatliste",
+	"nukedpl-nopages": "Ingen sider å slette med DPL-spørringen: <code>$1</code>",
+	"nukedpl-nuke": "Slett!",
+	"nukedpl-list": "Følgende {{PLURAL:$1|side|sider}} ble valgt av DPL-spørringen: <code>$2</code>\n\nTrykk «{{int:nukedpl-nuke}}» for å slette {{PLURAL:$1|den|dem}}.",
+	"nukedpl-defaultreason": "Massefjerning av sider valgt av DPL-spørring: $1",
+	"action-nukedpl": "masseslette sider med Dynamic Page List-spørringer",
+	"right-nukedpl": "Masseslette sider med Dynamic Page List-spørringer"
+}

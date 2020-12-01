@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
+		]
+	},
+	"bs-insertcategory-desc": "Campo para digitar um link de categoria",
+	"bs-insertcategory-insertcat": "Inserir categoria",
+	"prefs-insertcategory": "Inserir categoria",
+	"bs-insertcategory-pref-withparents": "Inserir categoria com seus parentes",
+	"bs-insertcategory-pref-uploadpanelintegration": "Definir categorias de página por padrão no diálogo de carregamento",
+	"bs-insertcategory-title": "Inserir categoria",
+	"bs-insertcategory-cat-label": "Atribuído:",
+	"bs-insertcategory-success": "A categoria foi adicionada",
+	"bs-insertcategory-failure": "Erro",
+	"bs-insertcategory-hint": "Nota: para adicionar uma categoria, deve pressionar \"enter\".",
+	"bs-insertcategory-panel-title": "Categorias",
+	"bs-insertcategory-category-editor-title": "Categorias",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Categorias implícitas",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Essas categorias não estão definidas no conteúdo do wikitext da página. O mais provável é que eles sejam definidos dentro de um modelo.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Remover todos",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "editar",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Edite as categorias desta página",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Edite as categorias desta página"
+}

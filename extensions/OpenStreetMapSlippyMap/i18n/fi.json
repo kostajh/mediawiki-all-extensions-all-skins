@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nike",
+			"Str4nd",
+			"Vililikku"
+		]
+	},
+	"slippymap_desc": "Mahdollistaa <tt><nowiki>&lt;slippymap&gt;</nowiki></tt>-elementin käytön OpenLayers slippy map -kartan näyttämiseen. Kartat ovat osoitteesta [http://openstreetmap.org openstreetmap.org].",
+	"slippymap_latmissing": "Puuttuva ”lat”-arvo leveysasteille.",
+	"slippymap_lonmissing": "Puuttuva ”lon”-arvo pituusasteille.",
+	"slippymap_zoommissing": "Puuttuva ”z”-arvo zoomaukselle.",
+	"slippymap_longdepreciated": "Käytä ”lon”-arvoa ”long”-arvon sijasta nimenmuutoksen vuoksi.",
+	"slippymap_widthnan": "leveysarvo (w) ”$1” ei ole kelvollinen kokonaisluku",
+	"slippymap_heightnan": "Korkeusarvo (h) ”$1” ei ole kelvollinen kokonaisluku",
+	"slippymap_zoomnan": "zoom-arvo (z) ”$1” ei ole kelvollinen kokonaisluku",
+	"slippymap_latnan": "leveysastearvo (lat) ”$1” ei ole kelvollinen luku",
+	"slippymap_lonnan": "Pituusastearvo ”$1” ei ole kelvollinen luku",
+	"slippymap_widthbig": "leveysarvo (w) ei voi olla yli 1000",
+	"slippymap_widthsmall": "leveysarvo (w) ei voi olla alle 100",
+	"slippymap_heightbig": "korkeusarvo (h) ei voi olla yli 1000",
+	"slippymap_heightsmall": "korkeusarvo (h) ei voi olla alle 100",
+	"slippymap_latbig": "leveysastearvo (lat) ei voi olla yli 90",
+	"slippymap_latsmall": "leveysastearvo (lat) ei voi olla alle -90",
+	"slippymap_lonbig": "pituusastearvo (lon) ei voi olla yli 180",
+	"slippymap_lonsmall": "pituusastearvo (lon) ei voi olla alle -180",
+	"slippymap_zoomsmall": "zoom-arvo (z) ei voi olla alle nollan",
+	"slippymap_zoom18": "Zoomaus (z) -arvo ei voi olla suurempi kuin 17. Tämä MediaWiki-laajennos hakee OpenStreetMapin Osmarender-tason, jota ei voi lähentää tasoa 17 enempää. Mapnik-taso, joka myös on käytettävissä openstreetmap.org:ssa, sisältää myös 18. lähennystason.",
+	"slippymap_zoombig": "zoom-arvo (z) ei voi olla yli 17.",
+	"slippymap_invalidlayer": "Virheellinen ”layer”-arvo ”$1”",
+	"slippymap_maperror": "Karttavirhe:",
+	"slippymap_osmtext": "Katso tämä kartta osoitteessa OpenStreetMap.org.",
+	"slippymap_code": "Wikikoodi tälle karttanäkymälle:",
+	"slippymap_button_code": "Hae wikikoodi",
+	"slippymap_resetview": "Palauta näkymä"
+}

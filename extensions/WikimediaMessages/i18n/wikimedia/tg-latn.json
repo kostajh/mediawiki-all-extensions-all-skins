@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liangent"
+		]
+	},
+	"wikimediamessages-desc": "Pajƣomhoi maxsusi Vikimedia",
+	"sitesupport": "Kūmaki molī",
+	"tooltip-n-sitesupport": "Moro dastgiri namoed",
+	"group-accountcreator": "Eçodgaroni hisob",
+	"group-accountcreator-member": "eçodkunandai hisob",
+	"grouppage-accountcreator": "{{ns:project}}:Sozandagoni hisobi korbarī",
+	"group-autopatrolled-member": "gaştzani xudkor",
+	"grouppage-autopatrolled": "{{ns:project}}:Gaştzanoni xudkor",
+	"group-founder": "Bunjodguzoron",
+	"group-founder-member": "asosguzor",
+	"grouppage-founder": "{{ns:project}}:Asosguzoron",
+	"group-import": "Voridkunandagon",
+	"group-import-member": "voridkunanda",
+	"grouppage-import": "{{ns:project}}:Voridkunandagon",
+	"group-ipblock-exempt": "Istisnoi qat'i dastrasiji nişonai IP",
+	"group-ipblock-exempt-member": "Istisnoi qat'i dastrasiji nişonai internetī",
+	"grouppage-ipblock-exempt": "{{ns:project}}:Istisnoi qat'i dastrasiji nişonai IP",
+	"group-rollbacker": "Vogardonikunandagon",
+	"group-rollbacker-member": "vogardonikunanda",
+	"grouppage-rollbacker": "{{ns:project}}:Vogardonikunandagon",
+	"group-transwiki": "Voridkunandagoni transviki",
+	"group-transwiki-member": "voridkunandai transviki",
+	"grouppage-transwiki": "{{ns:project}}:Voridkunandagoni transviki",
+	"group-global-bot": "Bothoi sarosarī",
+	"group-global-bot-member": "boti sarosarī",
+	"group-global-rollbacker": "Vogardonikunandagoni sarosarī",
+	"group-global-rollbacker-member": "vogardonikunandai sarosarī",
+	"group-steward": "Vikipedon",
+	"group-steward-member": "vikiped",
+	"group-sysadmin": "Mudironi sistem",
+	"group-sysadmin-member": "mudiri sistem"
+}

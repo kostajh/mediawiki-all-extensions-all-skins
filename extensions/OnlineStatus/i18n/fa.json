@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armin1392",
+			"Ebraminio",
+			"FarsiNevis",
+			"Mjbmr"
+		]
+	},
+	"onlinestatus-desc": "افزودن یک ترجیح برای نشان دادن این‌که آیا کاربر هم‌اکنون در ویکی حضور دارد یا نه",
+	"onlinestatus-js-anon": "خطا: شما برای استفاده از این ویژگی باید وارد شوید",
+	"onlinestatus-js-changed": "وضعیت شما به \"$1\" تغییر کرده‌است",
+	"onlinestatus-js-error": "تغییر وضعیت غیرممکن است، ارزش \"$1\" نامعتبر است",
+	"onlinestatus-subtitle-offline": "در حال حاضر این کاربر آفلاین است",
+	"onlinestatus-subtitle-online": "این کاربر هم‌اکنون برخط است",
+	"onlinestatus-tab": "وضعیت",
+	"onlinestatus-toggles-desc": "وضعیت شما:",
+	"onlinestatus-toggles-explain": "این به شما اجازه می‌دهد که با مشاهدهٔ صفحهٔ کاربر، کاربران دیگر را اگر درحقیقت آنلاین باشند یا نباشند، به شما نشان می‌دهد.",
+	"onlinestatus-toggles-show": "نمایش وضعیت آنلاین در صفحهٔ کاربر",
+	"onlinestatus-toggle-offline": "برون‌خط",
+	"onlinestatus-toggle-online": "برخط",
+	"onlinestatus-pref-onlineonlogin": "تغییر دادن وضعیت من به برخط هنگام ورود",
+	"onlinestatus-pref-offlineonlogout": "تغییر دادن وضعیت من به برون‌خط هنگام خروج"
+}

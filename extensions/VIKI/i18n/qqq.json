@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cindy Cicalese",
+			"Jason Ji",
+			"Purodha",
+			"Robby",
+			"Umherirrender"
+		]
+	},
+	"viki-desc": "{{desc|name=VIKI|url=https://www.mediawiki.org/wiki/Extension/VIKI}}",
+	"viki-error-title": "Title for the error div\n{{Identical|Error}}",
+	"viki-error-missing-pageTitle": "Error message when no pageTitles are supplied to the parser function",
+	"viki-timeout-content-namespace": "Error message for when a content namespace fetch has timed out",
+	"viki-error-content-namespace": "Error message, when data about the content namespaces could not be fetched from the wiki.",
+	"viki-error-visit-node": "Error message for a failure to visit a node. See [[mw:Extension:VIKI]] for context.\nIt is apropriate to translate \"node\" by an equivalent of \"wiki page\" if better wording is not available.",
+	"viki-error-external-links": "Error message for a failure to fetch external links for a page",
+	"viki-error-intrawiki-out": "Error message for a failure to fetch intra-wiki links, that is ones that go from a wiki page to other pages in the same wiki.",
+	"viki-error-intrawiki-in": "Error message for a failure to fetch intra-wiki links to a page, that is links from other pages in this wiki to the page $1 in this wiki.",
+	"viki-error-https-node": "Error message used in JavaScript\n* $1 - pagetitle of node",
+	"viki-error-https-namespace": "Error message used in JavaScript\n* $1 - wiki name",
+	"apihelp-getContentNamespaces-description": "{{doc-apihelp-description|getContentNamespaces}}",
+	"apihelp-getContentNamespaces-summary": "{{doc-apihelp-summary|getContentNamespaces}}"
+}

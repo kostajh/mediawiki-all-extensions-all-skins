@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu"
+		]
+	},
+	"secureauth-desc": "Permitir que o utilizador adicione o seu endereço IP para iniciar uma sessão. Entrar na wiki a partir de outro IP resultará numa falha.",
+	"secureauthinfo": "SecureAuthInfo",
+	"special-secureauth-info": "Informação de autenticação segura",
+	"secureauth-info-userinfo": "Informação do utilizador",
+	"secureauth-current-ip": "O seu endereço IP de início de sessão:",
+	"secureauth-whitelist-ip": "Endereços IP que estão na lista branca para o seu nome de utilizador:",
+	"action-sa-access": "aceder a SecureAuthInfo",
+	"right-sa-access": "Permitir que o utilizador aceda a [[Special:SecureAuthInfo|SecureAuthInfo]]"
+}

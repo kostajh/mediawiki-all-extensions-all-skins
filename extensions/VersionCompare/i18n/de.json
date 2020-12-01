@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"versioncompare": "Versionsvergleich",
+	"version-compare-desc": "Ermöglicht die Anzeige eines Vergleichs von Kernkomponenten und Softwareerweiterungsversionen zwischen zwei Wikis",
+	"version-compare-database-label": "Datenbank",
+	"version-compare-url-error": "Fehler beim Abruf der Daten von $1.",
+	"version-compare-url-field-label-1": "Erste API-URL:",
+	"version-compare-url-field-help-1": "API-URL (endet auf api.php) des ersten zu vergleichenden Wikis. Falls leer gelassen, wird das aktuelle Wiki verwendet.",
+	"version-compare-url-field-label-2": "Zweite API-URL:",
+	"version-compare-url-field-help-2": "API-URL (endet auf api.php) des zweiten zu vergleichenden Wikis. Falls leer gelassen, wird das aktuelle Wiki verwendet.",
+	"version-compare-diff-field-label": "Nur Unterschiede anzeigen"
+}

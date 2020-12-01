@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"Kareyac",
+			"Movses",
+			"Okras",
+			"Romanko Mikhail"
+		]
+	},
+	"bs-multiupload-desc": "Обеспечивает пакетную загрузку файлов",
+	"bs-upload-multiupload-link-label": "Загрузить файлы",
+	"bs-upload-multiuploaddialogtitle": "Загрузить файлы",
+	"bs-deferred-action-apiupload-description": "Загрузка «$1» в «$2»",
+	"bs-uploader-mime-images-label": "Изображения",
+	"bs-uploader-mime-files-label": "Файлы",
+	"bs-uploader-drop-or-click": "Перетащите файл или щёлкните его, чтобы выбрать для загрузки",
+	"bs-multiupload-tag-button-label-default": "Загрузить файл",
+	"bs-multiupload-tag-hint-reloadpage": "Сейчас страница будет перезагружена"
+}

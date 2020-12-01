@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"apihelp-parsoid-batch-description": "Batch-API (for Parsoid) forå  gjøre MediaWiki-API-forespørsler ''en masse''",
+	"apihelp-parsoid-batch-summary": "Batch-API for Parsoid",
+	"apihelp-parsoid-batch-param-batch": "Action API-forespørsler (maks 500 per treff).",
+	"apierror-parsoid-batch-notallowed": "Klientens IP-adresse er ikke i ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "Ugyldig batch, må være tabell.",
+	"apierror-parsoid-batch-batchtoolarge": "Batchen er for stor, grensa er 500.",
+	"apierror-parsoid-batch-invalidaction": "Ugyldig handling i elementindeks $1.",
+	"apierror-parsoid-batch-texttoobig": "Inndatatekst overskrider maksimal sidestørrelse.",
+	"apierror-parsoid-batch-invalidtitle": "Ugyldig tittel ($1).",
+	"apierror-parsoid-batch-mustbescalar": "Parameteren <var>$1</var> må være en skalar.",
+	"apierror-parsoid-batch-mustbearray": "Parameteren <var>$1</var> må være en tabell."
+}

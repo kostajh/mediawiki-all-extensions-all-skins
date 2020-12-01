@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"inlinecategorizer-add-category": "വർഗ്ഗം കൂട്ടിച്ചേർക്കുക",
+	"inlinecategorizer-add-category-submit": "കൂട്ടിച്ചേർക്കുക",
+	"inlinecategorizer-add-category-summary": "വർഗ്ഗം \"$1\" കൂട്ടിച്ചേർക്കുക",
+	"inlinecategorizer-api-error": "എ.പി.ഐ. പിഴവുണ്ടായതായി അറിയിച്ചിരിക്കുന്നു: $1: $2",
+	"inlinecategorizer-api-unknown-error": "എ.പി.ഐ. ഒരു തിരിച്ചറിയാത്ത പിഴവ് അയച്ചിരിക്കുന്നു.",
+	"inlinecategorizer-cancel": "തിരുത്ത് റദ്ദാക്കുക",
+	"inlinecategorizer-cancel-all": "എല്ലാ മാറ്റങ്ങളും റദ്ദ് ചെയ്യുക",
+	"inlinecategorizer-category-already-present": "ഈ താൾ ഇപ്പോൾ തന്നെ $1 എന്ന വർഗ്ഗത്തിലുണ്ട്",
+	"inlinecategorizer-category-hook-error": "ഒരു പ്രാദേശിക ഫങ്ഷൻ മാറ്റങ്ങൾ സേവ് ചെയ്യുന്നത് തടഞ്ഞിരിക്കുന്നു",
+	"inlinecategorizer-category-question": "എന്തുകൊണ്ടാണ് താഴെക്കൊടുത്തിരിക്കുന്ന മാറ്റങ്ങൾ വേണ്ടത്:",
+	"inlinecategorizer-confirm-ok": "ശരി",
+	"inlinecategorizer-confirm-save": "സേവ് ചെയ്യുക",
+	"inlinecategorizer-confirm-save-all": "എല്ലാ മാറ്റങ്ങളും സേവ് ചെയ്യുക",
+	"inlinecategorizer-confirm-title": "പ്രവൃത്തി സ്ഥിരീകരിക്കുക",
+	"inlinecategorizer-edit-category": "വർഗ്ഗം തിരുത്തുക",
+	"inlinecategorizer-edit-category-error": "\"$1\" എന്ന വർഗ്ഗത്തിൽ തിരുത്തലുകൾ സാദ്ധ്യമായില്ല.\nതാളിൽ ഫലകമുപയോഗിച്ചാണ് വർഗ്ഗം ചേർത്തിരിക്കുന്നതെങ്കിൽ ഇപ്രകാരം സംഭവിക്കാറുണ്ട്.",
+	"inlinecategorizer-edit-category-summary": "\"$1\" എന്ന വർഗ്ഗം \"$2\" എന്നാക്കി മാറ്റുക",
+	"inlinecategorizer-error-title": "പിഴവ്",
+	"inlinecategorizer-remove-category": "വർഗ്ഗം നീക്കംചെയ്യുക",
+	"inlinecategorizer-remove-category-error": "\"$1\" എന്ന വർഗ്ഗം നീക്കം ചെയ്യാൻ കഴിയില്ല.\nഫലകങ്ങളുപയോഗിച്ചാണ് വർഗ്ഗം ചേർത്തിരിക്കുന്നതെങ്കിൽ സാധാരണ ഇങ്ങനെ സംഭവിക്കാറുണ്ട്.",
+	"inlinecategorizer-remove-category-summary": "വർഗ്ഗം \"$1\" നീക്കംചെയ്യുക"
+}

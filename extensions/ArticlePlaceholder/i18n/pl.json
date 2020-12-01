@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"WaldiSt"
+		]
+	},
+	"createtopicpage": "Utwórz stronę",
+	"articleplaceholder-abouttopic": "O temacie",
+	"articleplaceholder-abouttopic-intro": "Ta strona specjalna daje szybki przegląd tematu w oparciu o dane z pochodzące z Wikidanych.",
+	"articleplaceholder-abouttopic-entityid": "Wprowadź identyfikator ID produktu, taki jak Q12345",
+	"articleplaceholder-abouttopic-create-article-title": "Utwórz nowy artykuł",
+	"articleplaceholder-abouttopic-create-article-label": "Tytuł artykułu",
+	"articleplaceholder-abouttopic-create-article-mandatory": "Tytuł artykułu jest obowiązkowy.",
+	"articleplaceholder-abouttopic-create-article-button": "Utwórz artykuł",
+	"articleplaceholder-abouttopic-create-empty-article-button": "Utwórz nowy artykuł",
+	"articleplaceholder-abouttopic-translate-article-label": "Język źródłowy:",
+	"articleplaceholder-abouttopic-translate-article-button": "Przetłumacz artykuł",
+	"articleplaceholder-abouttopic-create-article-submit-button": "Wyślij",
+	"articleplaceholder-abouttopic-article-exists-error": "Artykuł o tej nazwie już istnieje",
+	"articleplaceholder-abouttopic-lua-reference": "Przypis",
+	"articleplaceholder-abouttopic-lua-identifier": "Źródła zewnętrzne",
+	"articleplaceholder-createpage-title": "Tworzenie $1",
+	"articleplaceholder-createpage-alreadyexists": "Strona o tytule $1 już istnieje. Proszę wybrać inny tytuł.",
+	"articleplaceholder-createpage-notitleprovided": "Tytuł nie został wpisany. Wpisz tytuł strony, którą chcesz utworzyć.",
+	"articleplaceholder-createpage-invalidtitleprovided": "Tytuł jest nieprawidłowy. Podaj prawidłowy tytuł."
+}

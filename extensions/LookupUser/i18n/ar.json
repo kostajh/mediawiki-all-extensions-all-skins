@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"lookupuser": "ابحث عن معلومات المستخدم",
+	"lookupuser-desc": "[[Special:LookupUser|يعرض معلومات]] عن المستخدم مثل عنوان البريد الإلكتروني والرقم",
+	"lookupuser-intro": "أدخل اسم مستخدم لرؤية تفضيلات هذا المستخدم، ويمكن أيضًا استخدام عنوان بريد إلكتروني، وسوف تظهر جميع الحسابات التي تستخدم هذا البريد الإلكتروني.",
+	"lookupuser-nonexistent": "المستخدم غير موجود",
+	"lookupuser-authenticated": "تأكيد البريد الإلكتروني: $1",
+	"lookupuser-not-authenticated": "غير مرخص",
+	"lookupuser-id": "رقم المستخدم: <tt>#$1</tt>",
+	"lookupuser-email": "البريد الإلكتروني: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-no-email": "غير موفر",
+	"lookupuser-realname": "الاسم الحقيقي: $1",
+	"lookupuser-registration": "تاريخ التسجيل: $1",
+	"lookupuser-no-registration": "غير مسجل",
+	"lookupuser-touched": "سجل المستخدم تم تعديله آخر مرة في: $1",
+	"lookupuser-info-authenticated": "توكيد البريد الإلكتروني: $1",
+	"lookupuser-useroptions": "خيارات المستخدم:",
+	"lookupuser-foundmoreusers": "تم العثور على أكثر من مستخدم واحد:",
+	"right-lookupuser": "مطالعة تفضيلات المستخدم",
+	"action-lookupuser": "بحث عن تفضيلات المستخدم"
+}

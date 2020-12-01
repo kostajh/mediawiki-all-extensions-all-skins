@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"passwordlesslogin": "Connexion sans mot de passe",
+	"passwordlesslogin-desc": "Fournit un moyen de se connecter sans mot de passe en confirmant la connexion depuis un appareil connecté.",
+	"passwordlesslogin-verify-request": "Veuillez vérifier votre connexion sur votre téléphone.",
+	"passwordlesslogin-error-no-authentication-workflow": "Le flux de travail d’authentification s’est terminé de façon inattendue.",
+	"passwordlesslogin-no-challenge": "Aucun défi actif à confirmer, veuillez essayer de vous authentifier de nouveau.",
+	"passwordlesslogin-verification-pending": "L’authentification n’a pas encore été vérifiée. Veuillez vérifier votre requête de connexion sur votre appareil connecté.",
+	"passwordlesslogin-pair-device-step": "Veuillez suivre les instructions pour appairer votre nouvel appareil.",
+	"passwordlesslogin-no-device-paired": "Il n'y a pas encore d'appareil appairé.",
+	"passwordlesslogin-verify-pair": "Nous avons envoyé une demande de connexion à votre appareil pour vérifier qu’il est correctement enregistré. Veuillez confirmer la requête et continuer.",
+	"passwordlesslogin-pair-device": "Appairer l’appareil pour une connexion sans mot de passe",
+	"passwordlesslogin-login": "Connectez-vous avec votre Smartphone",
+	"passwordlesslogin-pair-step-1": "1. Télécharger l'application PasswordlessLogin de MediaWiki",
+	"passwordlesslogin-pair-step-2": "2. Scanner le QR Code avec l'application",
+	"passwordlesslogin-pair-step-3": "3. Une fois l’installation de l’application terminée, poursuivre à l’étape suivante.",
+	"passwordlesslogin-authentication-app": "Application d'authentification",
+	"apihelp-passwordlesslogin-summary": "Enregistrer un nouvel appareil pour un jeton de paire précédemment généré.",
+	"apihelp-passwordlesslogin-param-pairToken": "Le jeton de pair précédemment généré pour identifier pour quel utilisateur enregistrer l’appareil.",
+	"apihelp-passwordlesslogin-param-deviceId": "Un identifiant d’appareil unique qui peut être utilisé pour identifier un appareil aussi bien que pour lui envoyer des notifications avec le système de messages par défaut de l’appareil (par ex. Firebase Cloud Messaging pour les appareils Android).",
+	"apihelp-passwordlesslogin-param-secret": "Un secret généré sur l’appareil qui sera utilisé pour signer les défis envoyés à l’appareil. Ce secret est utilisé pour vérifier une réponse de défi de requête de connexion et doit être gardé secret.",
+	"apihelp-passwordlesslogin-verify-challenge-summary": "Vérifier une demande de connexion envoyée à un appareil.",
+	"apihelp-passwordlesslogin-verify-challenge-param-challenge": "Le défi qui a été envoyé à l’appareil et qui doit être résolu.",
+	"apihelp-passwordlesslogin-verify-challenge-param-response": "La réponse (solution) du défi. La solution doit être :<br />&#160;1. Un HMAC avec SHA512 comme algorithme de signature<br />&#160;2. Le secret pré-partagé comme matériau de clé symétrique<br />&#160;3. La donnée MAC est le défi sous forme de tableau d’octets<br />&#160;4. La réponse doit être une chaîne hexadécimale<br />&#160;5. La réponse doit être en minuscules",
+	"apihelp-passwordlesslogin-verify-login-summary": "Vérifie si une requête de connexion a déjà été vérifiée par l’appareil."
+}

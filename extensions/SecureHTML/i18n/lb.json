@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"securehtml": "Sécheren HTML",
+	"securehtml-desc": "Léisst Iech arbiträren HTML op eng autoriséiert a sécher Manéier abauen",
+	"securehtml-nokeys": "Feeler: <code>$wgSecureHTMLSecrets</code> ass net ausgefëllt.",
+	"securehtml-invalidhash": "Feeler: hash net valabel.",
+	"securehtml-form-keyname": "Numm vum Schlëssel (fakultativ)",
+	"securehtml-form-keysecret": "Geheime Schlëssel"
+}

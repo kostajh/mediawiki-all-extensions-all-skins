@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"performanceinspector-dialog-summary": "Resumé",
+	"performanceinspector-dialog-cancel": "Ofbriechen",
+	"performanceinspector-modules-summary-total-size": "D'Gesamtgréisst vun alle Moduler",
+	"performanceinspector-modules-css-column-module": "Modul",
+	"performanceinspector-modules-css-used-selectors-values": "$1 ($2 vu(n) $3)",
+	"performanceinspector-modules-css-column-source": "Quell",
+	"performanceinspector-modules-localstorage-hits": "Treffer",
+	"performanceinspector-modules-localstorage-totalsize": "Gesamtgréisst",
+	"performanceinspector-imagesize-name": "Gréisst vum Bild",
+	"performanceinspector-imagesize-label": "Gréisst vum Bild",
+	"performanceinspector-imagesize-column-image-name": "Numm",
+	"performanceinspector-imagesize-column-size": "Gréisst",
+	"performanceinspector-imagesize-column-image-extra": "Extra",
+	"performanceinspector-imagesize-too-big": "Warnung",
+	"performanceinspector-imagesize-description": "Hei sinn all D'Biller déi op dëser Säit geluede ginn.",
+	"performanceinspector-newpp-column-name": "Numm",
+	"performanceinspector-newpp-column-value": "Wäert",
+	"performanceinspector-newpp-template-time-report-column-name": "Numm",
+	"performanceinspector-newpp-template-time-report-column-real": "Reell",
+	"performanceinspector-newpp-cachereport-now": "Elo",
+	"performanceinspector-pagesize-summary": "D'HTML-Gréisst ass $1 ($2 kompriméiert)"
+}

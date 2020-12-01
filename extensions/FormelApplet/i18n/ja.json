@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"formelapplet-desc": "ページに数式アプレット [http://wiki.formelapplet.de FormelApplet] を追加する",
+	"formelapplet-nojava": "このページを使用するには $1 をインストールしてください。",
+	"formelapplet-missing-parameter": "パラメーター (width、height、term/solution のいずれか) がありません。",
+	"formelapplet-file-not-found": "ファイル $1 が見つかりません。",
+	"formelapplet-error": "FormelApplet MediaWiki 拡張機能でエラーが発生しました: <em>$1</em>"
+}

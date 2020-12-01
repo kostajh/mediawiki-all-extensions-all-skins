@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"gpgmail-desc": "Шифрує електронну пошту за допомогою GPG",
+	"gpgmail-pref-enable": "Шифрувати електронну пошту за допомогою GPG",
+	"gpgmail-pref-key": "Публічний ключ GPG",
+	"gpgmail-pref-key-help": "Див. [https://help.ubuntu.com/community/GnuPrivacyGuardHowto сторінку довідки для Ubuntu], аби дізнатися, як отримати публічного ключа.",
+	"gpgmail-encrypt-error": "Сталася помилка при шифруванні електронної пошти."
+}

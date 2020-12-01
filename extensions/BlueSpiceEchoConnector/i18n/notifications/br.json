@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno"
+		]
+	},
+	"bs-notifications-email-addaccount-subject": "Implijer $1 krouet",
+	"bs-notifications-email-addaccount-body": "An implijer $1, e wir anv $2, zo bet krouet.",
+	"bs-notifications-edit": "Kemmet eo bet ar bajenn [[:$1]]",
+	"bs-notifications-email-edit-subject": "Pajenn $1 {{GENDER:$2|aozet}} gant $2",
+	"bs-notifications-create": "Krouet eo bet ar bajenn [[:$1]]",
+	"bs-notifications-email-create-subject": "Pajenn $1 {{GENDER:$2|krouet}} gant $2",
+	"bs-notifications-delete": "Dilamet eo bet ar bajenn [[:$1]]",
+	"bs-notifications-email-delete-subject": "Pajenn $1 {{GENDER:$2|dilamet}} gant $2",
+	"bs-notifications-email-delete-body": "Ar bajenn \"$1\" a oa bet {{GENDER:$2|dilamet}} gant $2.\n\nSetu amañ an abeg :\n$3",
+	"bs-notifications-move": "Dilec'hiet eo bet ar bajenn [[:$1]]",
+	"bs-notifications-email-move-subject": "Pajenn $1 {{GENDER:$2|dilec'hiet}} gant $2"
+}

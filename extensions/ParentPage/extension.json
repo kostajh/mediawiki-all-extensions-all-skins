@@ -1,0 +1,20 @@
+{
+	"name": "ParentPage",
+	"version": "0.0.1",
+	"author": [
+		"Leonid Verhovskij"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ParentPage",
+	"descriptionmsg": "parentpage-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "semantic",
+	"AutoloadClasses": {
+		"ParentPage": "includes/ParentPage.class.php"
+	},
+	"MessagesDirs": {
+		"ParentPage": [
+			"i18n"
+		]
+	},
+	"manifest_version": 1
+}

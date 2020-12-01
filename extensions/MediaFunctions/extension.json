@@ -1,0 +1,31 @@
+{
+	"name": "MediaFunctions",
+	"version": "1.5.0",
+	"author": [
+		"Rob Church",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:MediaFunctions",
+	"descriptionmsg": "mediafunctions-desc",
+	"license-name": "BSD-2-Clause",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"MediaFunctions": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"MediaFunctionsMagic": "MediaFunctions.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"MediaFunctions": "src/MediaFunctions.php",
+		"MediaFunctionsHooks": "src/MediaFunctionsHooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "MediaFunctionsHooks::efMediaFunctionsSetup"
+	},
+	"manifest_version": 2
+}

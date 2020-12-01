@@ -1,0 +1,26 @@
+.bs-page-header {
+	 .bs-page-categories {
+		.bs-category-add-category {
+			color: @theme-content-link-fg;
+		}
+
+		.bs-category-container-add-category {
+			.x-form-text-default .x-tagfield-item {
+				border: 1px solid @bs-color-neutral3; //TODO: use theme variable
+			}
+		}
+
+		a {
+			.mixin-link-title-color(
+				@theme-page-header-link-fg-color,
+				@theme-page-header-link-fg-color-hover,
+				@theme-page-header-new-link-fg-color,
+				@theme-page-header-new-link-fg-color-hover
+			);
+
+			&.pill {
+				border: 1px solid @bs-color-neutral3; //TODO: use theme variable
+			}
+		}
+	}
+}

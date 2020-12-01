@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Robby"
+		]
+	},
+	"userexport-desc": "{{desc|name=User Export|url=https://www.mediawiki.org/wiki/Extension:UserExport}}",
+	"userexport": "This is the label of a link.",
+	"userexport-submit": "This is the label of a button.\n{{Identical|Export}}",
+	"userexport-badtoken": "This is an error message.",
+	"userexport-description": "This is amessage on a special page providing information.",
+	"right-userexport": "{{doc-right|userexport}}",
+	"action-userexport": "{{doc-action|userexport}}"
+}

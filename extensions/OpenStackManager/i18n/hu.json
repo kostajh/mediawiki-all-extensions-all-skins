@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Csega",
+			"Dani",
+			"Dj",
+			"Misibacsi",
+			"R-Joe",
+			"Tacsipacsi"
+		]
+	},
+	"openstackmanager-desc": "Lehetővé teszi, hogy a felhasználók kezeljék a Novát és Swiftet",
+	"openstackmanager": "OpenStack-kezelő",
+	"novakey": "Nyilvános SSH-kulcsaid kezelése",
+	"specialpages-group-nova": "OpenStack Nova",
+	"openstackmanager-novakey": "Nova kulcs",
+	"openstackmanager-delete": "törlés",
+	"openstackmanager-actions": "Műveletek",
+	"openstackmanager-notloggedin": "Bejelentkezés szükséges",
+	"openstackmanager-mustbeloggedin": "A művelet végrehajtásához be kell jelentkezned.",
+	"openstackmanager-novapublickey": "Nyilvános SSH-kulcs",
+	"openstackmanager-deletekey": "Nyilvános SSH kulcs törlése",
+	"openstackmanager-deletekeyconfirm": "Valóban törölni akarod a fenti kulcsot?",
+	"openstackmanager-keylist": "Nyilvános SSH kulcs lista",
+	"openstackmanager-name": "Név",
+	"openstackmanager-fingerprint": "Ujjlenyomat",
+	"openstackmanager-keys": "Kulcsok",
+	"openstackmanager-keypairimportfailed": "Nem sikerült importálni a kulcspárt.",
+	"openstackmanager-keypairimported": "Kulcspár importálva.",
+	"openstackmanager-keypairimportedfingerprint": "$1 kulcspár $2 ujjlenyomattal importálva.",
+	"openstackmanager-deletedkey": "Törölt kulcs.",
+	"openstackmanager-deletedkeyfailed": "Nem sikerült törölni a kulcsot."
+}

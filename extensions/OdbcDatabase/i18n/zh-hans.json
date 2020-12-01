@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"odbcdatabase": "ODBC数据库",
+	"odbcdatabase-desc": "使用PHP命令库<code>odbc_*</code>的驱动程序以支持外部数据扩展",
+	"odbcdatabase-odbc-missing": "缺少ODBC函数。确保<code>PHP:ODBC</code>已安装。",
+	"odbcdatabase-connection-error": "连接服务器[{{1}}]时出错：{{2}}",
+	"odbcdatabase-free-error": "无法释放ODBC结果",
+	"odbcdatabase-fetch-object-error": "获取对象时出错：[{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "获取行时出错：[{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "不支持函数insertId()。",
+	"odbcdatabase-unknown-server-version": "未知的ODBC服务器版本。"
+}

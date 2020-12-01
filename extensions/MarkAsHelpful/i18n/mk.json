@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"markashelpful-desc": "Овозможува кориснички посредник за означување на коментари како корисни",
+	"mah-mark-text": "Означи како корисно",
+	"mah-you-marked-text": "Сметате дека ова е корисно",
+	"mah-someone-marked-text": "{{GENDER:$1|$1}} смета дека ова е корисно",
+	"mah-undo-mark-text": "врати",
+	"mah-action-error": "Се појави грешка при извршувањето на дејството",
+	"apihelp-getmarkashelpfulitem-description": "Дај список на сите состојби „корисно“ за објектна ставка.",
+	"apihelp-getmarkashelpfulitem-summary": "Дај список на сите состојби „корисно“ за објектна ставка.",
+	"apihelp-getmarkashelpfulitem-param-type": "Објектниот тип што се означува како корисен.",
+	"apihelp-getmarkashelpfulitem-param-item": "Објектната ставка што се означува како корисна.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Кое својство да се даде.",
+	"apihelp-getmarkashelpfulitem-param-page": "Страницата што ја побарува ставката.",
+	"apihelp-markashelpful-description": "Им овозможува на корисниците да означат или одзначат објектна ставка на викито како корисна.",
+	"apihelp-markashelpful-summary": "Им овозможува на корисниците да означат или одзначат објектна ставка на викито како корисна.",
+	"apihelp-markashelpful-param-mahaction": "Дали да се означи или одзначи ставка како корисна.",
+	"apihelp-markashelpful-param-page": "На која страница да се означи ставката.",
+	"apihelp-markashelpful-param-type": "Објектниот тип што се означува како корисен.",
+	"apihelp-markashelpful-param-item": "Објектната ставка што се означува како корисна.",
+	"apihelp-markashelpful-param-useragent": "Заглавието „корисник-вршител“ на прелистувачот.",
+	"apihelp-markashelpful-param-system": "Кој оперативен систем се користи.",
+	"apihelp-markashelpful-param-locale": "Местоознаката што се користи."
+}

@@ -1,0 +1,72 @@
+{
+	"name": "SiteMatrix",
+	"version": "1.6.0",
+	"author": [
+		"Tim Starling",
+		"Brion Vibber",
+		"Victor Vasiliev",
+		"Alexandre Emsenhuber",
+		"Sam Reed"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SiteMatrix",
+	"descriptionmsg": "sitematrix-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.33.0"
+	},
+	"SpecialPages": {
+		"SiteMatrix": "MediaWiki\\Extension\\SiteMatrix\\SpecialSiteMatrix"
+	},
+	"APIModules": {
+		"sitematrix": "MediaWiki\\Extension\\SiteMatrix\\ApiSiteMatrix"
+	},
+	"MessagesDirs": {
+		"SiteMatrix": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SiteMatrixAlias": "SiteMatrix.alias.php",
+		"SiteMatrixMagic": "SiteMatrix.i18n.magic.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\SiteMatrix\\": "includes/"
+	},
+	"Hooks": {
+		"APIQuerySiteInfoGeneralInfo": [
+			"MediaWiki\\Extension\\SiteMatrix\\Hooks::onAPIQuerySiteInfoGeneralInfo"
+		],
+		"ParserGetVariableValueSwitch": [
+			"MediaWiki\\Extension\\SiteMatrix\\Hooks::onParserGetVariableValueSwitch"
+		],
+		"MagicWordwgVariableIDs": [
+			"MediaWiki\\Extension\\SiteMatrix\\Hooks::onMagicWordwgVariableIDs"
+		]
+	},
+	"config": {
+		"SiteMatrixFile": {
+			"description": "A file with the list of language codes used by the wikifarm (one per line).",
+			"value": null
+		},
+		"SiteMatrixSites": {
+			"description": "Configuration for project families (projects which are multilingual but each language is a separate wiki), in a <family> => [ 'name' => <human-readable name>, 'host' => <domain name>, 'prefix' => <interwiki prefix> ] format.",
+			"value": {},
+			"merge_strategy": "array_plus_2d"
+		},
+		"SiteMatrixPrivateSites": {
+			"description": "dbname list of private wikis.",
+			"value": null
+		},
+		"SiteMatrixFishbowlSites": {
+			"description": "dbname list of fishbowl wikis.",
+			"value": null
+		},
+		"SiteMatrixClosedSites": {
+			"description": "dbname list of closed wikis.",
+			"value": null
+		}
+	},
+	"manifest_version": 2
+}

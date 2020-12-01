@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArenaL5",
+			"Elisardojm"
+		]
+	},
+	"pageassessments-desc": "Esta extensión permite almacenar as avaliacións de páxinas nunha táboa dunha base de datos coa axuda dunha función de análise sintáctica.",
+	"pageassessments-special": "Asignacións da páxina",
+	"pageassessments-project": "Proxecto",
+	"pageassessments-page-namespace": "Espazo de nomes da páxina",
+	"pageassessments-page-title": "Título da páxina",
+	"pageassessments-search": "Procurar",
+	"pageassessments-importance": "Importancia",
+	"pageassessments-class": "Clase",
+	"pageassessments-timestamp": "Data e hora",
+	"pageassessments-total-results": "Resultados totais: $1",
+	"pageassessments-error-namespace-filter": "Por favor, introduza un nome de proxecto ou título de páxina."
+}

@@ -1,0 +1,68 @@
+{
+	"name": "PageAssessments",
+	"version": "1.1.0",
+	"author": [
+		"Niharika Kohli",
+		"Frances Hocutt",
+		"Ryan Kaldari",
+		"Sam Wilson"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PageAssessments",
+	"descriptionmsg": "pageassessments-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"APIListModules": {
+		"projectpages": "MediaWiki\\Extension\\PageAssessments\\Api\\ApiQueryProjectPages",
+		"projects": "MediaWiki\\Extension\\PageAssessments\\Api\\ApiQueryProjects"
+	},
+	"APIPropModules": {
+		"pageassessments": "MediaWiki\\Extension\\PageAssessments\\Api\\ApiQueryPageAssessments"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\PageAssessments\\": "src/"
+	},
+	"ExtensionMessagesFiles": {
+		"PageAssessmentsMagic": "PageAssessments.i18n.magic.php",
+		"PageAssessmentsAlias": "PageAssessments.i18n.alias.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "MediaWiki\\Extension\\PageAssessments\\Hooks::onParserFirstCallInit",
+		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\PageAssessments\\Hooks::onLoadExtensionSchemaUpdates",
+		"LinksUpdateComplete": "MediaWiki\\Extension\\PageAssessments\\Hooks::onLinksUpdateComplete",
+		"ArticleDeleteComplete": "MediaWiki\\Extension\\PageAssessments\\Hooks::onArticleDeleteComplete"
+	},
+	"MessagesDirs": {
+		"PageAssessments": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "examples/PageAssessments"
+	},
+	"ResourceModules": {
+		"ext.pageassessments.special": {
+			"scripts": "modules/ext.pageassessments.special.js",
+			"dependencies": [
+				"oojs-ui-core",
+				"jquery.suggestions"
+			]
+		}
+	},
+	"SpecialPages": {
+		"PageAssessments": "MediaWiki\\Extension\\PageAssessments\\SpecialPage"
+	},
+	"config": {
+		"PageAssessmentsOnTalkPages": {
+			"value": true
+		},
+		"PageAssessmentsSubprojects": {
+			"value": false
+		}
+	},
+	"manifest_version": 2
+}

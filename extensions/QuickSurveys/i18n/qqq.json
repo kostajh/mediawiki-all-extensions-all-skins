@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Bahodir Mansurov",
+			"Joaquin Hernandez",
+			"Jon Robson",
+			"Liuxinyu970226",
+			"Rob Moen",
+			"Robby",
+			"Umherirrender"
+		]
+	},
+	"quicksurveys-desc": "{{desc|name=QuickSurveys|url=https://www.mediawiki.org/wiki/Extension:QuickSurveys}}",
+	"ext-quicksurveys-example-internal-survey-question": "The question for the example internal survey",
+	"ext-quicksurveys-example-internal-survey-description": "Description of the example internal survey",
+	"ext-quicksurveys-example-internal-survey-answer-positive": "The positive answer for the example internal survey\n{{Identical|Yes}}",
+	"ext-quicksurveys-example-internal-survey-answer-neutral": "The neutral answer for the example internal survey",
+	"ext-quicksurveys-example-internal-survey-answer-negative": "The negative answer for the example internal survey\n{{Identical|No}}",
+	"ext-quicksurveys-example-internal-survey-freeform-text-label": "The label for the optional free form text input\n{{Identical|Other}}",
+	"ext-quicksurveys-example-external-survey-question": "The question for (title of) the example external survey",
+	"ext-quicksurveys-example-external-survey-description": "Description of the example external survey question",
+	"ext-quicksurveys-example-external-survey-privacy-policy": "The privacy policy of the example external survey",
+	"ext-quicksurveys-example-external-survey-link": "{{notranslate}}\nLink to the example external survey.",
+	"ext-quicksurveys-survey-privacy-policy-default-text": "Default disclaimer about submitting surveys.",
+	"ext-quicksurveys-survey-confirm-msg": "Confirmation message thanking user for their input.",
+	"ext-quicksurveys-survey-positive": "Default button label for user replying in affirmative.\n{{Identical|Yes}}",
+	"ext-quicksurveys-survey-negative": "Default button label for user replying neutrally.\n{{Identical|No}}",
+	"ext-quicksurveys-survey-neutral": "Default button label for user replying negatively.",
+	"ext-quicksurveys-internal-freeform-survey-submit-button": "label for the submit button for internal surveys",
+	"ext-quicksurveys-internal-freeform-survey-no-answer-alert": "alert message when the user tries to submit the form without providing an answer",
+	"ext-quicksurveys-external-survey-yes-button": "label of the link to the survey",
+	"ext-quicksurveys-external-survey-no-button": "decline button label\n{{Identical|No thanks}}"
+}

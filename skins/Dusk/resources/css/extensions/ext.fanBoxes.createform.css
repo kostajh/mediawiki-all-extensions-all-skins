@@ -1,0 +1,13 @@
+input#inputRightSide {
+	width: 300px !important;
+}
+
+div.category-section div.categorytext,
+textarea#pageCtg {
+	/* 97% would do for the categorytext, but need a bit less for the <textarea> */
+	width: 93% !important;
+}
+
+div.create-fanbox-image iframe {
+	width: 495px;
+}

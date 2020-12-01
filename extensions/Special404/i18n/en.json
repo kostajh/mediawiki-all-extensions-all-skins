@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel Friesen"
+		]
+	},
+	"special404-desc": "Provides a destination for 404 Not found errors",
+	"error404": "404 Not found",
+	"special404-body": "The URL you requested was not found.\n\nDid you mean to type {{fullurl:$1}}?\n\nMaybe you would like to look at:\n* [[{{MediaWiki:Mainpage}}|The main page]]"
+}

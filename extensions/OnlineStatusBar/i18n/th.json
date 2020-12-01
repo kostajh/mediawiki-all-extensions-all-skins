@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"prefs-onlinestatus": "สถานะออนไลน์",
+	"onlinestatusbar-title-online": "{{GENDER:$1|ออนไลน์}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|ไม่ว่าง}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|ไม่อยู่}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|ซ่อน}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|ออฟไลน์}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|ไม่ทราบ}}"
+}

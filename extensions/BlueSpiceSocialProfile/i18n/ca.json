@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"bs-socialprofile-type": "Perfil",
+	"bs-socialprofile-entityaction-changeimage": "Imatge d’usuari",
+	"bs-social-entityaction-editprofilefields": "Dades del perfil",
+	"bs-social-profile-field-name": "Nom",
+	"bs-social-profile-field-email": "Adreça electrònica",
+	"bs-social-profile-field-title": "Títol",
+	"bs-social-profile-field-department": "Departament",
+	"bs-social-profile-field-function": "Funció",
+	"bs-social-profile-field-location": "Ubicació",
+	"bs-social-profile-field-phone": "Telèfon",
+	"bs-socialprofile-special-profiles-heading": "Perfils",
+	"bs-social-profile-infoshowemail": "Mostra l’adreça electrònica al perfil",
+	"socialprofiles": "Perfils",
+	"bs-socialprofile-switch-classicprofile-label": "Perfil clàssic",
+	"bs-socialprofile-switch-modernprofile-label": "Perfil modern",
+	"action-socialprofile-viewspecialpage": "mostra la pàgina especial «{{int:socialprofiles}}»",
+	"right-socialprofile-viewspecialpage": "Mostra la pàgina especial «{{int:socialprofiles}}»"
+}

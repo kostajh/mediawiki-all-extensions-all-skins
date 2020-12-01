@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder"
+		]
+	},
+	"indexfunc-desc": "Parserfunktion go automatischi Wyterleitige un Begriffsklärige aalege",
+	"indexfunc-badtitle": "Nit giltige Titel „$1“",
+	"indexfunc-editwarning": "Warnig: Dää Titel isch e Verzeichnis-Titel fir die {{PLURAL:$2|Syte|Syte}}:\n$1\nStell sicher, ass es d Syte, wu Du grad aaleisch, nonig unter eme andere Titel git.\nWänn Du die Syte aaleisch, no nimm dää Titel us em <nowiki>{{#index:}}</nowiki> uf dr obe ufgfierte  {{PLURAL:$2|Syte|Syte}} use.",
+	"indexfunc-index-exists": "D Syte „$1“ git s scho.",
+	"indexfunc-movewarn": "Warnig: „$1“ isch e Verzeichnis-Titel fir die {{PLURAL:$3|Syte|Syte}}:\n$2\nBitte nimm „$1“ us em <nowiki>{{#index:}}</nowiki> uf dr obe ufgfierte  {{PLURAL:$3|Syte|Syte}} use.",
+	"index": "Verzeichnis",
+	"index-legend": "S Verzeichnis dursueche",
+	"index-search": "Suech:",
+	"index-submit": "Abschicke",
+	"index-disambig-start": "'''$1''' cha zue verschidene Syte ghere:",
+	"index-emptylist": "S git kei Syte, wu zue „$1“ ghere",
+	"index-expand-detail": "Syte aazeige, wu unter däm Titel ufglischtet sin",
+	"index-hide-detail": "D Sytelischt verstecke",
+	"index-no-results": "D Suechi het kei Ergebnis brocht",
+	"index-search-explain": "Die Syte verwändet e Präfixsuechi.  \n\nTipp di erschte paar Buehcstabe yy un druck dr „Abschicke“-Chnopf go Sytetitel un Verzeichnisyytreg suech, wu mit däre Zeichechette aafange",
+	"index-details-explain": "Yytreg mit Bege sin Verzeichnisyytreg.\nDruck uf dr Boge go alli Syte aazeige, wu unter däm Titel ufglischtet sin."
+}

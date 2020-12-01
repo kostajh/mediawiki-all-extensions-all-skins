@@ -1,0 +1,161 @@
+{
+	"name": "BlueSpiceSocialTopics",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SocialTopics",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-socialtopics-desc",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceSocial": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocialTopics": {
+					"className": "\\BlueSpice\\Social\\Topics\\Extension",
+					"extPath": "/BlueSpiceSocialTopics",
+					"status": "beta",
+					"package": "BlueSpiceSocial",
+					"configDefinitions": {
+						"SocialTopicsTalkPageAutoCreate": "\\BlueSpice\\Social\\Topics\\ConfigDefinition\\BSSocialTalkpageAutoCreate::getInstance"
+					}
+				}
+			},
+			"RendererRegistry": {
+				"social-topics-entity-discussion": "\\BlueSpice\\Social\\Topics\\Renderer\\Entity\\Discussion::factory",
+				"social-topics-entity-topic": "\\BlueSpice\\Social\\Topics\\Renderer\\Entity\\Topic::factory",
+				"social-topics-entitylist-newdiscussion": "\\BlueSpice\\Social\\Topics\\Renderer\\EntityList\\NewDiscussion::factory",
+				"social-topics-entitylist-topicsaftercontent": "\\BlueSpice\\Social\\Topics\\Renderer\\EntityList\\TopicsAfterContent::factory",
+				"social-topics-createnewdiscussion": "\\BlueSpice\\Social\\Topics\\Renderer\\CreateNewDiscussion::factory",
+				"social-topics-createnewdiscussionpage": "\\BlueSpice\\Social\\Topics\\Renderer\\CreateNewDiscussionPage::factory",
+				"social-topics-createfirsttopicaftercontent": "\\BlueSpice\\Social\\Topics\\Renderer\\CreateFirstTopicAfterContent::factory"
+			},
+			"EntityRegistry": {
+				"discussion": "\\BlueSpice\\Social\\Topics\\EntityConfig\\Discussion",
+				"topic": "\\BlueSpice\\Social\\Topics\\EntityConfig\\Topic"
+			}
+		}
+	},
+	"callback": "\\BlueSpice\\Social\\Topics\\Extension::onRegistration",
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"MessagesDirs": {
+		"BlueSpiceSocialTopics": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\Topics\\": "src/"
+	},
+	"AutoloadClasses": {
+		"BSMigrateShoutbox": "maintenance/BSMigrateShoutbox.php",
+		"BSMigrateRatedComments": "maintenance/BSMigrateRatedComments.php"
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceSocialTopicsAlias": "languages/Topics.alias.php",
+		"TopicsDiscussionMagic": "languages/TopicsDiscussion.i18n.magic.php"
+	},
+	"SpecialPages": {
+		"Topics": "\\BlueSpice\\Social\\Topics\\Special\\Topics"
+	},
+	"ResourceModules": {
+		"ext.bluespice.social.topics.styles": {
+			"styles": [
+				"bluespice.social.topics.less"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		},
+		"ext.bluespice.social.entity.topic": {
+			"scripts": [
+				"entities/bluespice.social.Entity.Topic.js"
+			],
+			"dependencies": [
+				"ext.bluespice.social.entity.text",
+				"ext.bluespice.oojs"
+			]
+		},
+		"ext.bluespice.social.entity.editor.topic": {
+			"scripts": [
+				"ui/EntityEditorTopic.js"
+			],
+			"dependencies": [
+				"ext.bluespice.social.entity.editor.text"
+			]
+		},
+		"ext.bluespice.social.entity.discussion": {
+			"dependencies": [
+				"ext.bluespice.social.entity",
+				"ext.bluespice.oojs"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.Discussion.js"
+			],
+			"messages": []
+		},
+		"ext.bluespice.social.creatediscussion": {
+			"dependencies": [
+				"ext.bluespice.social.entity",
+				"user.options"
+			],
+			"scripts": [
+				"bluespice.social.topics.createDiscussion.js",
+				"CreateDiscussion.js",
+				"EntityList/CreateDiscussionPage.js",
+				"EntityList/CreateDiscussionPage/Dialog.js"
+			],
+			"messages": [
+				"bs-socialtopics-dialog-creatediscussionpage-btn-label-save",
+				"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel",
+				"bs-socialtopics-dialog-creatediscussionpage-label-text",
+				"bs-socialtopics-autocreated-discussionpage",
+				"bs-socialtopics-autocreated-discussionpagefile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocialTopics/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"SocialTopicsTalkPageAutoCreate": {
+			"value": false,
+			"descriptionmsg": "bs-socialtopics-toc-entalkpageautocreate",
+			"public": true
+		},
+		"SocialTopicsTimelineAfterContentNamespaceBlackList": {
+			"value": []
+		},
+		"SocialTopicsTimelineAfterContentShow": {
+			"value": true
+		}
+	},
+	"DefaultUserOptions": {
+		"bs-social-topics-skipcreatedialog" : true
+	},
+	"Hooks": {
+		"ArticleViewHeader": "\\BlueSpice\\Social\\Topics\\Extension::onArticleViewHeader",
+		"PageSaveComplete": [
+			"\\BlueSpice\\Social\\Topics\\Hook\\PageSaveComplete\\AutoCreateDiscussionPage::callback",
+			"\\BlueSpice\\Social\\Topics\\Hook\\PageSaveComplete\\AutoCreateDiscussionEntity::callback"
+		],
+		"LoadExtensionSchemaUpdates": [
+			"\\BlueSpice\\Social\\Topics\\Hook\\LoadExtensionSchemaUpdates\\AddShoutboxMigrationMaintenanceScript::callback",
+			"\\BlueSpice\\Social\\Topics\\Hook\\LoadExtensionSchemaUpdates\\AddRatedCommentsMigrationMaintenanceScript::callback"
+		],
+		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\Social\\Topics\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddTimeline::callback",
+		"BSSocialTagsBeforeSetTags": "\\BlueSpice\\Social\\Topics\\Hook\\BSSocialTagsBeforeSetTags\\AddTopicTalkPageTag::callback",
+		"BSMigrateSettingsFromDeviatingNames": "\\BlueSpice\\Social\\Topics\\Hook\\BSMigrateSettingsFromDeviatingNames\\MigrateSettings::callback",
+		"BSSocialModuleDepths": "\\BlueSpice\\Social\\Topics\\Hook\\BSSocialModuleDepths\\AddModules::callback",
+		"GetDoubleUnderscoreIDs": "\\BlueSpice\\Social\\Topics\\Hook\\GetDoubleUnderscoreIDs\\AddNoDiscussion::callback",
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\Social\\Topics\\Hook\\BSInsertMagicAjaxGetData\\AddNoDiscussionSwitch::callback",
+		"GetPreferences": "\\BlueSpice\\Social\\Topics\\Hook\\GetPreferences\\AddSkipCreateDialoge::callback"
+	},
+	"manifest_version": 2
+}

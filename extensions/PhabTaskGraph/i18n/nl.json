@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Optilete"
+		]
+	},
+	"phabtaskgraph": "Phabricator Taakgrafieken",
+	"phabtaskgraph-author-field-label": "Auteur",
+	"phabtaskgraph-owner-field-label": "Eigenaar",
+	"phabtaskgraph-tasks-field-label": "Taken",
+	"phabtaskgraph-projects-field-label": "Projecten",
+	"phabtaskgraph-status-field-label": "Status",
+	"phabtaskgraph-width-field-label": "Breedte",
+	"phabtaskgraph-height-field-label": "Hoogte",
+	"phabtaskgraph-tasks-field-help": "door komma's gescheiden lijst van taak-IDs (optioneel beginnend met \"T\"); bijv. 'T123456, T654321'",
+	"phabtaskgraph-projects-field-help": "door komma's gescheiden lijst van projectnamen; bijv. 'MediaWiki-Platform-Team, Epic'",
+	"phabtaskgraph-width-field-help": "standaard: 800",
+	"phabtaskgraph-height-field-help": "standaard: 800",
+	"phabtaskgraph-status-open": "Open",
+	"phabtaskgraph-status-resolved": "Opgelost",
+	"phabtaskgraph-status-invalid": "Ongeldig",
+	"phabtaskgraph-status-declined": "Afgewezen",
+	"phabtaskgraph-status-duplicate": "Duplicaat"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Revi",
+			"Ykhwong"
+		]
+	},
+	"vikititleicon-desc": "제목 아이콘 확장 기능을 사용해 로고를 보여 주는 VIKI 플러그인",
+	"vikititleicon-error-fetch": "노드의 아이콘 데이터를 불러오는 중에 오류가 발생했습니다: $1",
+	"apihelp-getTitleIcons-summary": "존재할 경우 문서의 모든 제목 아이콘의 URL을 가져옵니다."
+}

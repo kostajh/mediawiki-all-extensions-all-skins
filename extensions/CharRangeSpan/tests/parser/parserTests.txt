@@ -1,0 +1,119 @@
+!! Version 2
+
+# Extra tests for parserTests.php, with the default configuration of CharRangeSpan
+#
+# Enable the extension, then test with:
+#   php tests/parserTests.php --file=extensions/CharRangeSpan/tests/parser/parserTests.txt
+
+!! test
+Only Greek text
+!! wikitext
+γενεαλογεῖται δὲ
+!! html
+<p><span lang="grc">γενεαλογεῖται δὲ</span>
+</p>
+!! end
+
+!! test
+Only English text
+!! wikitext
+Hello, world.
+!! html
+<p>Hello, world.
+</p>
+!! end
+
+!! test
+Greek then English text
+!! wikitext
+γενεαλογεῖται δὲ and hello world
+!! html
+<p><span lang="grc">γενεαλογεῖται δὲ</span> and hello world
+</p>
+!! end
+
+!! test
+Alternate Greek and English words
+!! wikitext
+γενεαλογεῖται hello δὲ world
+!! html
+<p><span lang="grc">γενεαλογεῖται</span> hello <span lang="grc">δὲ</span> world
+</p>
+!! end
+
+!! test
+Greek and English sentences, with 'maybe' characters (commas)
+!! wikitext
+τοῦ Ἀπελλίδος, τοῦ Μελανώπου. Hello, world.
+!! html
+<p><span lang="grc">τοῦ Ἀπελλίδος, τοῦ Μελανώπου</span>. Hello, world.
+</p>
+!! end
+
+!! test
+Greek and English, with bold through some of Greek
+!! wikitext
+hello, '''ωορ'''λδ.
+!! html
+<p>hello, <b><span lang="grc">ωορ</span></b><span lang="grc">λδ</span>.
+</p>
+!! end
+
+!! test
+Greek and English, with a list
+!! wikitext
+* hello
+* ωορ
+* λδ today.
+!! html
+<ul><li>hello</li>
+<li><span lang="grc">ωορ</span></li>
+<li><span lang="grc">λδ</span> today.</li></ul>
+!! end
+
+!! test
+Greek and English, with italic through both
+!! wikitext
+hel''lo, ωορ''λδ.
+!! html
+<p>hel<i>lo, <span lang="grc">ωορ</span></i><span lang="grc">λδ</span>.
+</p>
+!! end
+
+!! test
+Greek and English in a table
+!! wikitext
+{|
+|Hello||ωορλδ
+|-
+|Hello ωο||ρλδ
+|}
+!! html
+<table>
+<tbody><tr>
+<td>Hello</td>
+<td><span lang="grc">ωορλδ</span>
+</td></tr>
+<tr>
+<td>Hello <span lang="grc">ωο</span></td>
+<td><span lang="grc">ρλδ</span>
+</td></tr></tbody></table>
+!! end
+
+!! test
+Greek and English, with strike through both
+!! wikitext
+hel<strike>lo, ωορ</strike>λδ.
+!! html
+<p>hel<strike>lo, <span lang="grc">ωορ</span></strike><span lang="grc">λδ</span>.
+</p>
+!! end
+
+!! test
+Ignore attributes
+!! wikitext
+<span title="ωορ">normal text</span>
+!! html
+<p><span title="ωορ">normal text</span>
+</p>
+!!end

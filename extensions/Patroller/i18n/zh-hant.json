@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Frankou",
+			"KilluaZaoldyeck",
+			"Mark85296341",
+			"Shinjiman",
+			"Wrightbus"
+		]
+	},
+	"patrol": "複查編輯",
+	"patrol-desc": "分擔工作量以增強巡查介面",
+	"patrol-endorse": "批註",
+	"patrol-revert": "回退",
+	"patrol-revert-reason": "原因：",
+	"patrol-skip": "略過",
+	"patrol-reverting": "正在回退：$1",
+	"patrol-nonefound": "沒有複查修改的記錄。",
+	"patrol-endorsed-ok": "此編輯已標記複查記錄。",
+	"patrol-endorsed-failed": "此編輯無法標記複查記錄。",
+	"patrol-reverted-ok": "編輯被回退。",
+	"patrol-reverted-failed": "編輯無法回退。",
+	"patrol-skipped-ok": "忽略編輯。",
+	"patrol-reasons": "* 純粹破壞\n* 新人測試\n* 參見討論頁",
+	"patrol-another": "列出其他存在的編輯。",
+	"patrol-stopped": "你選擇不複查其他編輯。$1",
+	"patrol-resume": "點擊這裡繼續。",
+	"group-patroller": "巡查員",
+	"group-patroller-member": "{{GENDER:$1|巡查員}}",
+	"grouppage-patroller": "{{ns:project}}:巡邏員",
+	"right-patroller": "巡查頁面"
+}

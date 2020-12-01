@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"preferenceslist-desc": "Belirli bir tercih için tüm kullanıcı ayarlarının bir listesini oluşturur",
+	"preferenceslist-preferenceslist": "Tercih listesi",
+	"preferenceslist-preferenceslist-intro": "Aşağıda bir tercih listesi bulunmaktadır. Yaptıkları tercihleriyle birlikte tüm kullanıcıların listesini görmek için bir veya daha fazlasını seçin.",
+	"preferenceslist": "Tercih listesi",
+	"action-preferenceslist": "tüm kullanıcıların tercihlerini listele",
+	"preferenceslist-csv": "CSV olarak indir",
+	"preferenceslist-nofields": "Hiçbir alan seçilmedi.",
+	"right-preferenceslist": "Özel:TercihListesi sayfasını aç"
+}

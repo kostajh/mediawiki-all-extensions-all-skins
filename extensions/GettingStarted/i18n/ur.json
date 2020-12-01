@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matma Rex",
+			"Muhammad Shuaib",
+			"Noor2020"
+		]
+	},
+	"gettingstarted": "آغاز",
+	"gettingstarted-desc": "ترمیم کاری میں نئے صارفین کی معاونت کرتا ہے۔",
+	"gettingstarted-task-toolbar-editing-help-text": "مجھے دکھائیں کس طرح کرتے ہیں",
+	"gettingstarted-task-toolbar-editing-help-title": "ترمیم کا طریقہ دکھائیں",
+	"gettingstarted-task-toolbar-try-another-text": "دوسرا صفحہ دیکھیں",
+	"gettingstarted-task-toolbar-close-title": "خانہ آلات بند کریں",
+	"gettingstarted-task-toolbar-no-suggested-page": "معذرت، قابل اصلاح صفحات اس وقت نہیں مل سکے۔ دوبارہ کوشش کریں یا اپنے پسندیدہ موضوعات تلاش کریں۔",
+	"gettingstarted-task-copyedit-toolbar-description": "شاید اس صفحہ میں نحوی یا املائی اغلاط موجود ہیں، انھیں آپ درست کر سکتے ہیں۔",
+	"gettingstarted-task-copyedit-toolbar-try-another-title": "تصادفی صفحہ میں جائیں، وہاں آپ تصحیح و اصلاح کر سکتے ہیں۔",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-title": "چلیے شروع کرتے ہیں",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-description": "اس صفحہ کو {{SITENAME}} کے دیگر صارفین نے قابل اصلاح قرار دیا ہے۔ اس میں درستی کرنے کے لیے آپ کو موضوع سے مکمل واقف ہونا ضروری نہیں۔",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-title": "کرنے کے کام سے متعلق تجاویز",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-description": "یہ اعلانات صفحہ میں موجود مسائل بیان کرتے ہیں۔ آپ کے لیے ابھی انھیں درست کرنا ضروری نہیں، آپ اپنا پسندیدہ کام کر سکتے ہیں۔",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-title": "مکمل صفحہ کی ترمیم کریں۔۔۔",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-description": "صفحہ میں کسی بھی جگہ ترمیم کرنے کے لیے $1 پر کلک کریں۔",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-title": "یا کسی قطعہ میں ترمیم کریں",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-description": "اگر آپ کسی مخصوص قطعہ میں ترمیم کرنا چاہتے ہیں تو مطلوبہ قطعہ کی سرخی کے پاس موجود {{int:editsection}} ربط پر کلک کریں۔",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-title": "تبدیلیاں کریں اور محفوظ فرمائیں",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-description": "اب آپ صفحہ کے مواد میں ترمیم کر سکتے ہیں۔ جب ترمیم مکمل ہوجائے تو نظر ثانی اور محفوظ کرنے کے لیے {{int:publishchanges}} پر کلک کریں۔",
+	"guidedtour-tour-gettingstarted-click-preview-title": "نمائش (اختیاری)",
+	"guidedtour-tour-gettingstarted-click-preview-description": "{{int:showpreview}} پر کلک کرنے سے پتہ چلے گا کہ آپ کی تبدیلیوں کے بعد متعلقہ صفحہ کس طرح نظر آئے گا۔ اس کے بعد محفوظ کرنا نہ بھولیں۔",
+	"guidedtour-tour-gettingstarted-click-save-title": "آپ اختتام کے قریب ہیں!",
+	"guidedtour-tour-gettingstarted-click-save-description": "{{int:publishchanges}} پر کلک کریں، آپ کی تبدیلیاں شائع ہوجائے گی۔",
+	"gettingstarted-cta-close": "بند کریں",
+	"gettingstarted-cta-heading": "{{SITENAME}} کی ترقی میں معاونت فرمائیں",
+	"gettingstarted-cta-text": "آپ متعدد طریقوں سے {{SITENAME}} کی مدد کر سکتے ہیں",
+	"gettingstarted-cta-edit-page": "اس صفحہ میں ترمیم کریں",
+	"gettingstarted-cta-edit-page-sub": "ہم آپ کو اس کا طریقہ کار بتائیں گے",
+	"gettingstarted-cta-fix-pages": "تجویز کردہ صفحہ میں ترمیم کریں",
+	"gettingstarted-cta-fix-pages-sub": "ہم کچھ آسان چیز منتخب کرتے ہیں",
+	"gettingstarted-cta-leave": "نہیں، شکریہ! شاید بعد میں"
+}

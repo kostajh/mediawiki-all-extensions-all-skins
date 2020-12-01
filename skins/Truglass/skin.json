@@ -1,0 +1,57 @@
+{
+	"name": "Truglass",
+	"version": "4.1.7",
+	"author": [
+		"Elliott Franklin Cable",
+		"Jack Phoenix",
+		"Samantha Nguyen"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Truglass",
+	"descriptionmsg": "truglass-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"ConfigRegistry": {
+		"truglass": "GlobalVarConfig::newInstance"
+	},
+	"ValidSkinNames": {
+		"truglass": "Truglass"
+	},
+	"MessagesDirs": {
+		"SkinTruglass": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinTruglass": "includes/SkinTruglass.php",
+		"TruglassTemplate": "includes/TruglassTemplate.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Truglass"
+	},
+	"ResourceModules": {
+		"skins.truglass": {
+			"styles": {
+				"truglass/main.css": {
+					"media": "screen"
+				},
+				"truglass/handheld.css": {
+					"media": "handheld"
+				}
+			}
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"truglass": {
+			"+ext.echo.styles.badge": "truglass/echo.badge.css",
+			"+mediawiki.action.history.styles": "truglass/mediawiki.action.history.styles.css",
+			"+mediawiki.action.view.filepage": "truglass/mediawiki.action.view.filepage.css",
+			"+mediawiki.pager.tablePager": "truglass/mediawiki.pager.tablePager.css",
+			"+mediawiki.special.preferences.styles": "truglass/special.preferences.styles.css"
+		}
+	},
+	"config": {
+		"TruglassSidebarLinks": []
+	},
+	"manifest_version": 1
+}

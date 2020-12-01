@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"wikidatapagebanner-extensionname": "إعلان صفحة ويكي بيانات",
+	"wikidatapagebanner-desc": "لافتات تقديم في صفحات محددة من ويكي في بداية المقالات",
+	"wikidatapagebanner-invalid-arguments": "الوسائط التالية المستخدمة في PAGEBANNER غير صالحة أو غير معروفة: $1",
+	"wikidatapagebanner-invalid-arguments-cat": "WikidataPageBanner بمعلمات غير معروفة"
+}

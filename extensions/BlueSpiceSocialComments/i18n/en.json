@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth",
+			"Dejan Savuljesku"
+		]
+	},
+	"bs-socialcomments-desc": "Comment functionality for BlueSpiceSocial",
+	"bs-socialcomments-type": "Comment",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Comment|Comments}} ($1)",
+	"bs-socialcomments-header-create": "Comment",
+	"bs-socialcomments-header": "[[User:$1|$2]] commented \"[[$6|$7]]\"",
+	"bs-socialcomments-var-commentcount": "Comment count",
+	"echo-category-title-bs-social-comment-cat": "Comments on watched entities",
+	"bs-social-notifications-comment-create": "User {{GENDER:$1|$2 made}} a new comment",
+	"bs-social-notifications-email-comment-create-subject": "User {{GENDER:$1|$2 made}} a new comment",
+	"bs-social-notifications-email-comment-create-body": "User {{GENDER:$1|$2 commented}} on a post by $3 with following text:\n$4",
+	"bs-social-notifications-web-comment-create-body": "User {{GENDER:$1|$2 commented}} on a post by $3",
+	"bs-social-notifications-comment-edit": "User {{GENDER:$1|$2 edited}} a comment",
+	"bs-social-notifications-email-comment-edit-subject": "User {{GENDER:$1|$2 edited}} a comment",
+	"bs-social-notifications-email-comment-edit-body": "User {{GENDER:$1|$2 edited}} a comment on a post by $3. New comment is:\n$4",
+	"bs-social-notifications-web-comment-edit-body": "User {{GENDER:$1|$2 edited}} a comment on a post by $3",
+	"bs-social-notifications-comment-delete": "User {{GENDER:$1|$2 deleted}} a comment",
+	"bs-social-notifications-email-comment-delete-subject": "User {{GENDER:$1|$2 deleted}} a comment",
+	"bs-social-notifications-email-comment-delete-body": "User {{GENDER:$1|$2 deleted}} a comment on post by $3",
+	"bs-social-notifications-web-comment-delete-body": "User {{GENDER:$1|$2 deleted}} a comment on post by $3",
+	"bs-social-notifications-comment-owner-create": "User {{GENDER:$1|$2 made}} a new comment on your post",
+	"bs-social-notifications-email-comment-owner-create-subject": "User {{GENDER:$1|$2 made}} a new comment on your post",
+	"bs-social-notifications-email-comment-owner-create-body": "User {{GENDER:$1|$2 commented}} on your post with following text:\n$3",
+	"bs-social-notifications-web-comment-owner-create-body": "User {{GENDER:$1|$2 commented}} on your post",
+	"bs-social-notifications-comment-owner-edit": "User {{GENDER:$1|$2 edited}} a comment on your post",
+	"bs-social-notifications-email-comment-owner-edit-subject": "User {{GENDER:$1|$2 edited}} a comment on your post",
+	"bs-social-notifications-email-comment-owner-edit-body": "User {{GENDER:$1|$2 edited}} a comment on on your post. New comment is:\n$3",
+	"bs-social-notifications-web-comment-owner-edit-body": "User {{GENDER:$1|$2 edited}} a comment on your post",
+	"bs-social-notifications-comment-owner-delete": "User {{GENDER:$1|$2 deleted}} a comment on your post",
+	"bs-social-notifications-email-comment-owner-delete-subject": "User {{GENDER:$1|$2 deleted}} a comment on your post",
+	"bs-social-notifications-email-comment-owner-delete-body": "User {{GENDER:$1|$2 deleted}} a comment on your post",
+	"bs-social-notifications-web-comment-owner-delete-body": "User {{GENDER:$1|$2 deleted}} a comment on your post",
+	"bs-social-notifications-comment-owner-edit-bundle": "Comments on your post were edited {{PLURAL:$1|$1 time|$1 times}}",
+	"bs-social-notification-comment-primary-link-label": "View comment",
+	"bs-social-notification-comment-parentowner-label": "Post creator: $1",
+	"bs-social-notification-comment-parententity-label": "View post"
+}

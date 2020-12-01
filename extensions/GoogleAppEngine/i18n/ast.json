@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"gae-desc": "Proporciona ameyoramientos a les wikis que s'executen sobre GoogleAppEngine",
+	"apihelp-gaejobqueue-description": "Módulu internu de la API pa executar la llista de xeres (JobQueue). Nun se permite l'usu esternu.",
+	"apihelp-gaejobqueue-summary": "Módulu internu de la API pa executar la llista de xeres (JobQueue). Nun se permite l'usu esternu.",
+	"apihelp-gaejobqueue-param-namespace": "Númberu identificador del espaciu de nomes.",
+	"apihelp-gaejobqueue-param-titletext": "Testu del títulu ensin l'espaciu de nomes.",
+	"apihelp-gaejobqueue-param-type": "Tipu de xera.",
+	"apihelp-gaejobqueue-param-params": "Serie de parámetros PHP pa la xera."
+}

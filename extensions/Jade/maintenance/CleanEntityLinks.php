@@ -1,0 +1,255 @@
+<?php
+
+namespace Jade\Maintenance;
+
+use Jade\EntityLinkTableHelper;
+use Jade\EntitySummarizer;
+use Jade\EntityType;
+use Jade\JadeServices;
+use Jade\TitleHelper;
+use Maintenance;
+use MediaWiki\MediaWikiServices;
+use Title;
+use Wikimedia\Rdbms\IResultWrapper;
+use WikiPage;
+
+// @codeCoverageIgnoreStart
+require_once getenv( 'MW_INSTALL_PATH' ) !== false
+	? getenv( 'MW_INSTALL_PATH' ) . '/maintenance/Maintenance.php'
+	: __DIR__ . '/../../../maintenance/Maintenance.php';
+// @codeCoverageIgnoreEnd
+
+/**
+ * Script to enforce data integrity on the jade entity link tables.
+ *
+ * @ingroup Maintenance
+ *
+ * TODO: We're breaking the EntitiyIndexStorage abstraction here.
+ * Database operations could be extracted to a maintenance helper class
+ * instead.  However, I'm not sure yet whether an alternative storage backend
+ * would have the same concerns, so leaving to future work.
+ */
+class CleanEntityLinks extends Maintenance {
+
+	const DEFAULT_SQL_SELECT_SIZE = 1000;
+
+	public function __construct() {
+		parent::__construct();
+
+		$this->requireExtension( 'Jade' );
+		$this->addDescription( 'Clean up jade entity link tables, looking for orphaned ' .
+			'and missing links.' );
+		$this->addOption( 'dry-run', 'Search but don\'t make changes to the link tables.' );
+
+		$this->setBatchSize( self::DEFAULT_SQL_SELECT_SIZE );
+	}
+
+	public function execute() {
+		$this->output( "Starting Jade cleanup...\n" );
+
+		$this->findAndDeleteOrphanedLinks();
+		$this->findAndConnectUnlinkedEntities();
+
+		$this->output( "Done.\n" );
+	}
+
+	private function findAndDeleteOrphanedLinks() {
+		global $wgJadeEntityTypeNames;
+		$entityTypes = array_keys( $wgJadeEntityTypeNames );
+
+		foreach ( $entityTypes as $type ) {
+			$skipPastId = 0;
+			$status = EntityType::sanitizeEntityType( $type );
+			$entityType = $status->value;
+
+			do {
+				$orphans = $this->findOrphanedLinks( $entityType, $skipPastId );
+				if ( $orphans ) {
+					$this->deleteOrphanedLinks( $orphans, $entityType );
+					$skipPastId = $orphans[count( $orphans ) - 1];
+				}
+			} while ( count( $orphans ) );
+		}
+	}
+
+	/**
+	 * Find link entries for which the jade entity page is missing.
+	 *
+	 * @param EntityType $type Entity type for this batch.
+	 * @param int $skipPastId Search beginning with this primary key value.
+	 *
+	 * @return array List of primary keys for orphaned link table rows.
+	 */
+	private function findOrphanedLinks( $type, $skipPastId = 0 ) {
+		$tableHelper = new EntityLinkTableHelper( $type );
+
+		$dbr = MediaWikiServices::getInstance()
+			->getDBLoadBalancer()->getConnection( DB_REPLICA );
+		$orphans = $dbr->selectFieldValues(
+			[
+				$tableHelper->getLinkTable(),
+				'page',
+			],
+			$tableHelper->getIdColumn(),
+			[
+				'page_id' => null,
+				"{$tableHelper->getIdColumn()} > {$skipPastId}",
+			],
+			__METHOD__,
+			[
+				'LIMIT' => $this->getBatchSize(),
+				'ORDER BY' => $tableHelper->getIdColumn(),
+			],
+			[ 'page' => [
+				'LEFT JOIN', "page_id = {$tableHelper->getPageColumn()}",
+			] ]
+		);
+		return $orphans;
+	}
+
+	/**
+	 * Bulk delete link rows.
+	 *
+	 * @param array $orphans List of primary keys to link rows.
+	 * @param EntityType $type Entity type
+	 */
+	private function deleteOrphanedLinks( $orphans, $type ) {
+		$tableHelper = new EntityLinkTableHelper( $type );
+
+		$lbFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
+		$dbw = $lbFactory->getMainLB()->getConnection( DB_MASTER );
+		if ( !$this->getOption( 'dry-run' ) ) {
+			$dbw->delete(
+				$tableHelper->getLinkTable(),
+				[ $tableHelper->getIdColumn() => $orphans ],
+				__METHOD__
+			);
+			$lbFactory->waitForReplication();
+		}
+
+		$numDeleted = count( $orphans );
+		$message = "Deleted {$numDeleted} orphaned {$type} links.";
+		if ( $this->getOption( 'dry-run' ) ) {
+			$message .= ' (dry run)';
+		}
+		$this->output( "{$message}\n" );
+	}
+
+	private function findAndConnectUnlinkedEntities() {
+		global $wgJadeEntityTypeNames;
+		$entityTypes = array_keys( $wgJadeEntityTypeNames );
+
+		foreach ( $entityTypes as $type ) {
+			$skipPastId = 0;
+			do {
+				$status = EntityType::sanitizeEntityType( $type );
+				$entityType = $status->value;
+
+				$unlinked = $this->findUnlinkedEntities( $entityType, $skipPastId );
+				if ( $unlinked->numRows() > 0 ) {
+					$skipPastId = $this->connectUnlinkedEntities( $unlinked, $entityType );
+				}
+			} while ( $unlinked->numRows() > 0 );
+		}
+	}
+
+	/**
+	 * @param EntityType $type
+	 * @param int $skipPastId
+	 *
+	 * @return IResultWrapper
+	 */
+	private function findUnlinkedEntities( EntityType $type, $skipPastId ) {
+		$tableHelper = new EntityLinkTableHelper( $type );
+		$titlePrefix = $type->getLocalizedName();
+
+		// Find jade entities with no matching link row.
+		$dbr = MediaWikiServices::getInstance()
+			->getDBLoadBalancer()->getConnection( DB_REPLICA );
+		$unlinked = $dbr->select(
+			[
+				$tableHelper->getLinkTable(),
+				'page',
+			],
+			[ 'page_id', 'page_namespace', 'page_title', $tableHelper->getIdColumn() ],
+			[
+				'page_namespace = ' . intval( NS_JADE ),
+				'page_title ' . $dbr->buildLike( "{$titlePrefix}/", $dbr->anyString() ),
+				"page_id > {$skipPastId}",
+				$tableHelper->getPageColumn() => null,
+			],
+			__METHOD__,
+			[
+				'LIMIT' => $this->getBatchSize(),
+				'ORDER BY' => $tableHelper->getIdColumn(),
+			],
+			[ $tableHelper->getLinkTable() => [
+				'LEFT JOIN', "page_id = {$tableHelper->getPageColumn()}",
+			] ]
+		);
+
+		return $unlinked;
+	}
+
+	/**
+	 * Helper to make new links for a list of jade entity pages.
+	 *
+	 * @param IResultWrapper $unlinked jade entity pages to reconnect.
+	 * @param EntityType $entityType Entity type
+	 *
+	 * @return int Highest primary key touched in this batch.
+	 */
+	private function connectUnlinkedEntities(
+		IResultWrapper $unlinked,
+		EntityType $entityType
+	) {
+		$tableHelper = new EntityLinkTableHelper( $entityType );
+		$indexStorage = JadeServices::getEntityIndexStorage();
+		$lastId = 0;
+
+		foreach ( $unlinked as $row ) {
+			$title = Title::newFromRow( $row );
+			$status = TitleHelper::parseTitleValue( $title->getTitleValue() );
+			if ( !$status->isOK() ) {
+				$this->error( "Failed to parse {$title}: {$status}\n" );
+			} else {
+				$entityTarget = $status->value;
+				$entityPage = WikiPage::factory( $title );
+
+				// Rebuild the index.
+				if ( !$this->getOption( 'dry-run' ) ) {
+					$indexStorage->insertIndex( $entityTarget, $entityPage );
+				}
+
+				// Summarize jade entity.
+				$entityContent = $entityPage->getContent();
+				$status = EntitySummarizer::getSummaryFromContent( $entityContent );
+				if ( !$status->isOK() ) {
+					$this->error( "Can't summarize content for {$title}: {$status}" );
+				} else {
+					$summaryValues = $status->value;
+					if ( !$this->getOption( 'dry-run' ) ) {
+						$indexStorage->updateSummary( $entityTarget, $summaryValues );
+					}
+				}
+			}
+
+			$lastId = $row->page_id;
+		}
+		MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->waitForReplication();
+
+		$message = "Connected {$unlinked->numRows()} unlinked {$entityType} entities.";
+		if ( $this->getOption( 'dry-run' ) ) {
+			$message .= ' (dry run)';
+		}
+		$this->output( "{$message}\n" );
+
+		return $lastId;
+	}
+
+}
+
+// @codeCoverageIgnoreStart
+$maintClass = CleanEntityLinks::class;
+require_once RUN_MAINTENANCE_IF_MAIN;
+// @codeCoverageIgnoreEnd

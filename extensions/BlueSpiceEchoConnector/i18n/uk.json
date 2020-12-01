@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-echoconnector-extension-description": "З'єднує BlueSpice із Echo",
+	"echo-category-title-bs-admin-cat": "Адміністративні завдання",
+	"echo-pref-tooltip-bs-admin-cat": "Сповіщати мене в разі створення нового облікового запису користувача",
+	"echo-pref-tooltip-bs-page-actions-cat": "Сповіщати мене, коли хтось редагує, перейменовує чи вилучає сторінку, за якою я спостерігаю",
+	"echo-pref-tooltip-bs-page-create-cat": "Сповіщати мене, коли створюється нова сторінка",
+	"echo-category-title-bs-page-actions-cat": "Дії на сторінках зі списку спостереження",
+	"echo-category-title-bs-page-create-cat": "Створення сторінок",
+	"prefs-namespace-notifications": "Сповіщення про події з простором назв",
+	"prefs-category-notifications": "Сповіщення про категорії"
+}

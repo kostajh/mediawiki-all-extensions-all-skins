@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"markashelpful-desc": "Nagbibigay ng isang ugnayang-mukha ng tagagamit upang mamarkahan ang mga pagpuna bilang nakakatulong",
+	"mah-mark-text": "Markahan bilang nakakatulong",
+	"mah-you-marked-text": "Sa tingin mo ay nakakatulong ito",
+	"mah-someone-marked-text": "{{GENDER:$1|Iniisip ni $1 na ito ay nakakatulong}}",
+	"mah-undo-mark-text": "huwag nang isagawa",
+	"mah-action-error": "Nagkaroon ng kamalian sa pagsasagawa ng kilos na ito."
+}

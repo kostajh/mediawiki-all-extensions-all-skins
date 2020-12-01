@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armin1392",
+			"Ebraminio"
+		]
+	},
+	"phptagsfunctions-desc": "انجام عملیات داخلی پی‌اچ‌پی بومی برای توسعهٔ تگ‌های پی‌اچ‌پی",
+	"phptagsfunctions-preg-bad-delimiter": "محدودکننده نباید الفبایی یا ممیزی باشد",
+	"phptagsfunctions-preg-no-ending-delimiter": "هیچ پایان حائل «$1» یافت نشد",
+	"phptagsfunctions-preg-unknown-modifier": "تعدیل‌کنندهٔ ناشناختهٔ «$1»"
+}

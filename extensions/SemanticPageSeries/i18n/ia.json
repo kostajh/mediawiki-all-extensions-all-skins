@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"semanticpageseries-desc": "Crea un serie de paginas ab un sol [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulario semantic]",
+	"spssuccesstitle": "Crea $1 paginas",
+	"spssuccess": "{{PLURAL:$1|Un pagina|$1 paginas}} essera create.",
+	"spssuccess-returntoorigin": "Retornar a $1",
+	"spserror": "Un error ha occurrite",
+	"spserror-diffnotsupported": "Le action \"diff\" non es supportate pro series de paginas.",
+	"spserror-previewnotsupported": "Le action de previsualisation non es supportate pro series de paginas.",
+	"spserror-noiteratorname": "Nulle iterator specificate. Es necessari specificar le parametro \"iterator\" in le appello al function analysator #serieslink.",
+	"spserror-iteratorunknown": "Le iterator \"$1\" non existe. Es necessari corriger le parametro \"iterator\" in le appello al function analysator #serieslink.",
+	"spserror-noformname": "Nulle nomine de formulario specificate. Es necessari specificar le parametro \"form\" in le appello al function analysator #serieslink.",
+	"spserror-formunknown": "Le formulario \"$1\" non existe.",
+	"spserror-notargetformname": "Nulle nomine de formulario de destination specificate. Es necessari specificar le parametro \"target form\" in le appello al function analysator #serieslink.",
+	"spserror-notargetfieldname": "Nulle nomine de campo de destination specificate. Es necessari specificar le parametro \"target field\" in le appello al function analysator #serieslink.",
+	"spserror-iteratorparammissing": "Le sequente parametros de iterator manca in le appello #serieslink:\n$1",
+	"spserror-noiteratordata": "Nulle parametro de iterator trovate in le datos inviate.",
+	"spserror-pagegenerationlimitexeeded": "Tu tentava generar {{PLURAL:$1|un pagina|$1 paginas}}. Isto excede tu limite autorisate de {{PLURAL:$2|un pagina|$2 paginas}}.",
+	"spserror-date-startdatemissing": "Le data de initio es mancante.",
+	"spserror-date-internalerror": "Un error occurreva durante le creation del datas: $1",
+	"spserror-count-startvaluemalformed": "Le valor de initio non es un numero.",
+	"spserror-count-endvaluemalformed": "Le valor de fin non es un numero.",
+	"spserror-count-stepvaluemalformed": "Le valor de incremento non es un numero.",
+	"spserror-count-digitsvaluemalformed": "Le valor de cifras non es un numero."
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gregory Varnum"
+		]
+	},
+	"tweetanew-desc": "Tweets when a page is created or edited",
+	"tweetanew-accesskey": "e",
+	"tweetanew-newaction": "Tweet about this new page",
+	"tweetanew-newtooltip": "Send information about this new page to Twitter",
+	"tweetanew-editaction": "Tweet about this edit",
+	"tweetanew-edittooltip": "Send information about this edit to Twitter",
+	"tweetanew-minoredit": "m",
+	"tweetanew-authorcredit": "by",
+	"tweetanew-newdefault": "NEW PAGE: $1 - $2",
+	"tweetanew-new1": "Looks like $1 was created at $2",
+	"tweetanew-new2": "$1 was recently created at $2",
+	"tweetanew-new3": "Check out $2 - it has a new page on $1",
+	"tweetanew-editdefault": "UPDATED PAGE: $1 - $2",
+	"tweetanew-edit1": "Looks like $1 was updated at $2",
+	"tweetanew-edit2": "$1 was recently changed at $2",
+	"tweetanew-edit3": "Check out $2 - it has some new content on $1"
+}

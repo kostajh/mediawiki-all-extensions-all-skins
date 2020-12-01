@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"pluggablesso-desc": "Usa a autenticação unificada, fornecida pelo servidor da Internet em $REMOTE_USER em conjunto com PluggableAuth",
+	"pluggablesso-no-session": "Não foi obtido um nome de utilizador, a sessão falhou algures.",
+	"pluggablesso-username-mismatch": "O nome de utilizador não corresponde ao da sessão."
+}

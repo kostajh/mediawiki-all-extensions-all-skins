@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Lijealso",
+			"Malafaya"
+		]
+	},
+	"useroptionstats": "Estatísticas das opções de utilizador",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Página especial]] para reportar a utilização das opções de utilizador do MediaWiki",
+	"uos-warn": "PHPlot não está instalado!",
+	"uos-choose": "Escolha uma das seguintes opções de utilizador: $1",
+	"uos-choose-hidden": "Escolha uma das seguintes opções de utilizador ocultas: $1",
+	"uos-unknown": "*Padrão",
+	"uos-other": "*Outro",
+	"uos-title": "Distribuição de valores da opção de utilizador $1"
+}

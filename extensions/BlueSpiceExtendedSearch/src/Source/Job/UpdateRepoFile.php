@@ -1,0 +1,114 @@
+<?php
+
+namespace BS\ExtendedSearch\Source\Job;
+
+use File;
+use Hooks;
+use MediaWiki\MediaWikiServices;
+
+class UpdateRepoFile extends UpdateTitleBase {
+	/** @var string */
+	protected $sSourceKey = 'repofile';
+	/** @var File|null */
+	protected $file = null;
+	/** @var array */
+	protected $fileData = [];
+	/** @var string|null */
+	protected $canonicalURL = null;
+
+	/**
+	 *
+	 * @param \Title $title
+	 * @param array $params
+	 */
+	public function __construct( $title, $params = [] ) {
+		if ( isset( $params['filedata'] ) ) {
+			$this->fileData = $params['filedata'];
+		}
+
+		if ( isset( $params['action'] ) ) {
+			$this->action = $params['action'];
+		}
+
+		parent::__construct( 'updateRepoFileIndex', $title, $params );
+	}
+
+	/**
+	 *
+	 * @return string
+	 */
+	protected function getDocumentProviderUri() {
+		$this->setFileRepoFile();
+		return $this->fileData['canonicalUrl'] ?? $this->canonicalURL;
+	}
+
+	/**
+	 *
+	 * @return \SplFileInfo
+	 * @throws \Exception
+	 */
+	protected function getDocumentProviderSource() {
+		$this->setFileRepoFile();
+		if ( isset( $this->fileData['fsFile'] ) ) {
+			$fsFile = $this->fileData['fsFile'];
+		} elseif ( $this->file ) {
+			$this->setFileRepoFile();
+			$fileBackend = $this->file->getRepo()->getBackend();
+			$fsFile = $fileBackend->getLocalReference( [
+				'src' => $this->file->getPath()
+			] );
+
+			if ( $fsFile === null ) {
+				throw new \Exception(
+					"File '{$this->getTitle()->getPrefixedDBkey()}' not found on filesystem!"
+				);
+			}
+		}
+
+		if ( $fsFile instanceof \FSFile ) {
+			return new \SplFileInfo( $fsFile->getPath() );
+		}
+
+		throw new \Exception( "FSFile cannot be created" );
+	}
+
+	/**
+	 *
+	 * @throws \Exception
+	 */
+	protected function setFileRepoFile() {
+		if ( !empty( $this->fileData ) ) {
+			return;
+		}
+		if ( $this->file instanceof \File ) {
+			return;
+		}
+
+		$file = MediaWikiServices::getInstance()->getRepoGroup()->findFile( $this->getTitle() );
+		if ( $file === false ) {
+			throw new \Exception(
+				"File '{$this->getTitle()->getPrefixedDBkey()}' not found in any repo!"
+			);
+		}
+		$this->canonicalURL = $file->getCanonicalURL();
+		Hooks::run( 'BSExtendedSearchRepoFileGetRepoFile', [
+			&$file
+		] );
+
+		$this->file = $file;
+	}
+
+	/**
+	 *
+	 * @return bool
+	 */
+	protected function isDeletion() {
+		return !empty( $this->fileData );
+	}
+
+	public function __destruct() {
+		$this->file = null;
+		$this->fileData = [];
+		unset( $this->file );
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"pluggablesso-desc": "Ause 'u SSO date da 'u webserver jndr'à $REMOTE_USER in congiunzione cu PluggableAuth",
+	"pluggablesso-no-session": "Nisciune nome utende, sessione fallite.",
+	"pluggablesso-username-mismatch": "'U nome de l'utende non ge s'accocchie cu nisciuna sessione"
+}

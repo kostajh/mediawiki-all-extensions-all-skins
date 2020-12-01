@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Milicevic01",
+			"Zoranzoki21",
+			"Сербијана"
+		]
+	},
+	"translatorsignup": "Registracija prevodioca",
+	"translatorsignup-summary": "Koristite ovu stranicu da navedete na koje jezike možete da prevodite i kako želite da budete obavešteni kad god je potrebno prevođenje.",
+	"translationnotifications-desc": "Dozvoljava prevodiocima da se prijave za obaveštenja o prevodima",
+	"translationnotifications-email-disablemail": "Vaša imejl adresa je potvrđena, ali u [[Special:Preferences|Vašim podešavanjima]] podesili ste da ne primate imejl.",
+	"translationnotifications-email-unconfirmed": "Vaša imejl adresa nije potvrđena: $1",
+	"translationnotifications-languages": "Jezici",
+	"translationnotifications-contact": "Način obaveštavanja",
+	"translationnotifications-cmethod-talkpage-elsewhere": "Stranica za razgovor na drugom vikiju",
+	"translationnotifications-frequency": "Učestalost obaveštavanja",
+	"translationnotifications-freq-always": "Kad god ima nešto novo za prevođenje",
+	"translationnotifications-signup-success": "Vaša podešavanja obaveštenja su sačuvana.",
+	"translationnotifications-submit-ok": "Obaveštenja su dodata u red i isporučuju se u pozadini.",
+	"translationnotifications-preview-notification-button": "Prikaži pretpregled obaveštenja",
+	"translationnotifications-deadline-label": "Rok za označavanje u ovom obaveštenju:",
+	"translationnotifications-languages-to-notify-label": "Koji jezici da budu obavešteni:",
+	"translationnotifications-languages-to-notify-label-help-message": "Jezički kodovi se odvajaju zarezom; ostavite prazno da svi jezici budu obavešteni.",
+	"translationnotifications-translatablepage-title": "Naziv stranice za prevođenje:",
+	"translationnotifications-talkpage-body": "Zdravo $2,\n\nPrimate ovo obaveštenje zato što ste {{GENDER:$1|prijavljeni}} kao prevodilac {{PLURAL:$9|na}} $3 na {{SITENAME}}.\nPotrebno je prevesti stranicu [[$4]]. Možete je prevesti ovde:\n$5\n\n$6\n$7\n\n$8\n\nVaša pomoć je veoma cenjena. Prevodioci kao što ste vi omogućuju da {{SITENAME}} funkcioniše kao prava višejezična zajednica.\n\nVaša podešavanja obaveštenja možete promeniti [$10 ovde].\n\nHvala puno!\n\n{{SITENAME}} - kordinatori za prevođenje",
+	"translationnotifications-edit-summary": "Obaveštenje o prevodu: $1",
+	"translationnotifications-email-priority": "Prioritet ove stranice je $1.",
+	"translationnotifications-email-deadline": "Krajnji rok za prevod ove stranice je $1.",
+	"logentry-notifytranslators-sent": "$1 je {{GENDER:$2|poslao|poslala}} obaveštenje o prevodivoj stranici $3; {{PLURAL:$10|jezik|jezici}}: $4; rok: $5; prioritet: $6; poslato {{PLURAL:$7|jednom korisniku|$7 korisnika}}, nije poslato {{PLURAL:$8|jednom korisniku|$8 korisnika}}, preskočen {{PLURAL:$9|jedan korisnik|$9 korisnika}}",
+	"log-name-notifytranslators": "Dnevnik obaveštenja o prevodima",
+	"log-description-notifytranslators": "Dnevnik poslatih obaveštenja prevodiocima u vezi prevodivih stranica"
+}

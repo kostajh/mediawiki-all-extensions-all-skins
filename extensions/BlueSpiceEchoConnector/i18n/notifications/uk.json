@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Vlad5250",
+			"Ата"
+		]
+	},
+	"bs-notifications-addaccount": "Користувача «$1» створено.",
+	"bs-notifications-email-addaccount-subject": "Користувач{{GENDER:$1|а|ку}} «$2» створено",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|Користувача|Користувачку}} $2 створено.\n\nВи можете відвідати {{GENDER:$1|його|її}} сторінку користувача за посиланням нижче",
+	"bs-notifications-web-addaccount-body": "Користувач{{GENDER:$1|а|ку}} $2 створено.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Творець}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Творець}}: $1",
+	"bs-notifications-registeruser": "Користувач «$1» створив обліковий запис.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|Користувач|Користувачка}} «$2» {{GENDER:$1|створив|створила}} обліковий запис",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|Користувач|Користувачка}} $2 {{GENDER:$1|створив|створила}} обліковий запис.\n\nВи можете відвідати {{GENDER:$1|його|її}} сторінку користувача за наступним посиланням нижче",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|Користувач|Користувачка}} $2 {{GENDER:$1|створив|створила}} обліковий запис.",
+	"bs-notifications-edit": "Сторінку «$1» було змінено",
+	"bs-notifications-edit-bundle": "Сторінку «$2» змінювали {{PLURAL:$1|$1 раз|$1 рази|$1 разів}}",
+	"bs-notifications-email-edit-subject": "Сторінку «$1» {{GENDER:$2|редагував|редагувала}} $3 о $4",
+	"bs-notifications-email-edit-body": "Сторінку «$1» {{GENDER:$2|редагував|редагувала}} $4 о $5.\n\nКоментар:\n$3",
+	"bs-notifications-web-edit-body": "Сторінку «$1» {{GENDER:$2|редагував|редагувала}} $3.",
+	"bs-notifications-create": "Сторінку «$1» створено",
+	"bs-notifications-email-create-subject": "Сторінку «$1» {{GENDER:$2|створив|створила}} $3 о $4",
+	"bs-notifications-email-create-body": "Сторінку «$1» {{GENDER:$2|створив|створила}} $3 о $5.\n\nКоментар:\n$4 \nВи можете відвідати сторінку за посиланням нижче",
+	"bs-notifications-web-create-body": "Сторінку «$1» {{GENDER:$2|створив|створила}} $3.",
+	"bs-notifications-delete": "Сторінку «$1» вилучено",
+	"bs-notifications-email-delete-subject": "Сторінку «$1» {{GENDER:$2|вилучив|вилучила}} $3 о $4",
+	"bs-notifications-email-delete-body": "Сторінку «$1» {{GENDER:$2|вилучив|вилучила}} $3 о $5.\n\nВказана причина:\n$4",
+	"bs-notifications-web-delete-body": "Сторінку «$1» {{GENDER:$2|вилучив|вилучила}} $3.",
+	"bs-notifications-move": "Сторінку «$1» перейменовано",
+	"bs-notifications-email-move-subject": "$4 {{GENDER:$2|перейменував|перейменувала}} сторінку «$1» на «$3» о $5",
+	"bs-notifications-email-move-body": "$4 {{GENDER:$2|перейменував|перейменувала}} сторінку «$1» на «$3» о $6.\n\nВказана причина:\n$5\n\nВи можете відвідати сторінку за посиланням нижче",
+	"bs-notifications-web-move-body": "$4 {{GENDER:$2|перейменував|перейменувала}} сторінку «$1» на «$3»",
+	"bs-notifications-edit-difflink-label": "Показати різницю версій",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Привіт}}, $1",
+	"bs-notifications-htmlmail-sender-info": "Система сповіщень сайту $1",
+	"bs-notifications-mail-additional-links-label": "Додаткові посилання"
+}

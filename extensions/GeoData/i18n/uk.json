@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahonc",
+			"Base",
+			"DixonD",
+			"Fitoschido",
+			"Piramidion",
+			"Vlad5250",
+			"Ата"
+		]
+	},
+	"geodata-desc": "Додає можливість зберігати і отримувати географічні координати",
+	"geodata-bad-input": "Функції <nowiki>{{#coordinates:}}</nowiki> було передано некоректні аргументи",
+	"geodata-bad-latitude": "<nowiki>{{#coordinates:}}</nowiki>: недопустима широта",
+	"geodata-bad-longitude": "<nowiki>{{#coordinates:}}</nowiki>: недопустима довгота",
+	"geodata-bad-type": "<nowiki>{{#coordinates:}}</nowiki>: невпізнаний тип «$1»",
+	"geodata-bad-globe": "<nowiki>{{#coordinates:}}</nowiki>: невпізнаний глобус «$1»",
+	"geodata-bad-region": "<nowiki>{{#coordinates:}}</nowiki>: недопустимий формат коду регіону",
+	"geodata-multiple-primary": "<nowiki>{{#coordinates:}}</nowiki>: не можна мати більш ніж один первинний теґ на сторінку",
+	"geodata-limit-exceeded": "Було перевершено обмеження в $1 {{PLURAL:$1|теґ|теґи|теґів}} <nowiki>{{#coordinates:}}</nowiki> на сторінку",
+	"geodata-broken-tags-category": "Сторінки з некоректно вказаними координатами",
+	"geodata-broken-tags-category-desc": "На сторінці є неправильний теґ <code><nowiki>{{#coordinates:}}</nowiki></code>.",
+	"geodata-unknown-type-category": "Сторінки з невідомим типом координат",
+	"geodata-unknown-type-category-desc": "Сторінка використовує невідоме значення параметра <code>type</code> для координат.",
+	"geodata-unknown-globe-category": "Сторінки з невідомим глобусом",
+	"geodata-unknown-globe-category-desc": "Сторінка використовує невідоме значення параметра <code>globe</code> для координат.",
+	"geodata-unknown-region-category": "Сторінки з некоректним регіоном",
+	"geodata-unknown-region-category-desc": "Сторінка використовує недопустиме значення параметра <code>region</code> для координат.",
+	"geodata-api-help-coordinates-format": "Формат: Широта та довгота розділені вертикальною рискою (<kbd>|</kbd>).",
+	"geodata-search-feature-invalid-coordinates": "Географічні координати «$2», надані «$1» не вдалося обробити.",
+	"geodata-search-feature-invalid-distance": "Гегорафічну відстань «$2», надану «$1», не вдалося обробити.",
+	"geodata-search-feature-unknown-title": "Назва «$2», надана «$1», не існує.",
+	"geodata-search-feature-title-no-coordinates": "Назва «$2», надана «$1», не має жодних координатів.",
+	"geodata-search-timeout": "Час пошуку GeoData вийшов. Доступні лише часткові результати."
+}

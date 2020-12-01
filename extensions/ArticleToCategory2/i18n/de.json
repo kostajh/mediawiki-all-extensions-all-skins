@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danielbeerbonn",
+			"FriedhelmW",
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"articletocategory2-desc": "Ergänzt Kategorieseiten um ein Eingabefeld zum Erstellen von Seiten, die automatisch in die betreffende Kategorie eingeordnet werden",
+	"articletocategory2-create-article-under-category-text": "Eine Seite zu dieser Kategorie hinzufügen",
+	"articletocategory2-create-article-under-category-button": "Erstellen",
+	"articletocategory2-create-category-under-category-text": "Eine Kategorie zu dieser Kategorie hinzufügen",
+	"articletocategory2-create-category-under-category-button": "Erstellen",
+	"action-ArticleToCategory2": "die Seite zu einer Kategorie hinzuzufügen",
+	"right-ArticleToCategory2": "Seite zu Kategorie hinzufügen",
+	"action-ArticleToCategory2AddCat": "eine Kategorie zu einer Kategorie hinzuzufügen",
+	"right-ArticleToCategory2AddCat": "Kategorie zu einer Kategorie hinzufügen"
+}

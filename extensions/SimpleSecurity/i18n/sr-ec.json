@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Михајло Анђелковић"
+		]
+	},
+	"security-info-toggle": "сигурносна ограничења",
+	"security-manygroups": "групе $1 и $2",
+	"security-type-category": "категорија",
+	"security-type-namespace": "именски простор"
+}

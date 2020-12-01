@@ -1,0 +1,39 @@
+{
+	"name": "GoToShell",
+	"version": "1.0.1",
+	"author": "Nathan Larson",
+	"url": "https://www.mediawiki.org/wiki/Extension:GoToShell",
+	"descriptionmsg": "gotoshell-desc",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"AvailableRights": [
+		"gotoshell"
+	],
+	"GroupPermissions": {
+		"bureaucrat": {
+			"gotoshell": true
+		}
+	},
+	"SpecialPages": {
+		"GoToShell": "SpecialGoToShell"
+	},
+	"MessagesDirs": {
+		"GoToShell": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"GoToShellAlias": "GoToShell.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialGoToShell": "SpecialGoToShell.php"
+	},
+	"config": {
+		"GoToShellCommand": {
+			"value": "ls"
+		}
+	},
+	"manifest_version": 2
+}

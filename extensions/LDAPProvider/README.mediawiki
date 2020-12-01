@@ -1,0 +1,76 @@
+== Extension:LDAPProvider ==
+
+This extension provides a common infrastructure to connect to a LDAP resource
+and run queries against it.
+
+=== Installation ===
+
+This extension can be installed by creating a composer.local.json file in your MediaWiki's installation directory containing the following (or merging this into your current composer.local.json):
+
+<source lang="json">
+{
+	"require": {
+		"mediawiki/ldap-provider": "dev-master"
+	},
+	"config": {
+		"prefer": "source"
+	}
+}
+</source>
+
+Note that <code>"prefer": "source"</code> causes composer to use a clone of the git repository if it can.
+
+=== Configuration ===
+
+In the simplest case where you have a single LDAP server to query, you need to simply specify your LDAP server and the json file. By default LDAPProvider looks for this file in /etc/mediawiki/ldapprovider.json.  If LDAProvider is installed, but cannot find it configuration file, it will fail with an error message.
+
+LDAPProvider contains a sample configuration file that points to the [http://www.forumsys.com/ Forum Systems] [http://www.forumsys.com/tutorials/integration-how-to/ldap/online-ldap-test-server/ online ldap test server] in the included <code>ldapprovider.json</code>.  This file and the server (if it is accessible on your network) will allow you to test the extension without affecting production systems or configuring your own LDAP server.
+
+The contents of <code>ldapprovider.json</code> demonstrates a minimal configuration:
+
+<source lang="json">
+{
+	"LDAP Demo": {
+		"connection": {
+				"server": "10.5.5.1",
+				"user": "cn=read-only-admin,dc=example,dc=com",
+				"pass": "password",
+				"basedn": "dc=example,dc=com",
+				"searchstring": "uid=USER-NAME,dc=example,dc=com"
+		}
+	}
+</source>
+
+Other configurations are possible.
+
+If you just want to try out the sample configuration, adding the following to your LocalSettings.php should be all that is needed:
+
+<source lang="php">
+$LDAPProviderDomainConfigs = "$IP/extensions/LDAPProvider/ldapprovider.json";
+</source>
+
+==== Alternative configuration via PHP ====
+
+In <code>LocalSettings.php</code> add
+<syntaxhighlight lang="php">
+$LDAPProviderDomainConfigProvider = function( $ldapConfig ) {
+	return new \MediaWiki\Extension\LDAPProvider\DomainConfigProvider\InlinePHPArray( [
+		//Domain name
+		'LDAP' => [
+			'connection' => [
+					'server' => '10.5.5.1',
+					'user' => 'cn=read-only-admin,dc=example,dc=com',
+					'pass' => 'password',
+					'basedn' => 'dc=example,dc=com',
+					'searchstring' => 'uid=USER-NAME,dc=example,dc=com'
+				]
+			]
+	] );
+};
+</syntaxhighlight>
+
+=== Testing ===
+
+Tests are provided.  These can be run using the following in your MediaWiki's installation directory:
+
+	$ ./tests/phpunit/phpunit.php extensions/LDAPProvider

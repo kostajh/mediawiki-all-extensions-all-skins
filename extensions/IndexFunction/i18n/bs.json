@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"KWiki",
+			"Obsuser"
+		]
+	},
+	"indexfunc-desc": "Parserska funkcija za pravljenje automatskih preusmjerenja i čvor stranica",
+	"indexfunc-badtitle": "Nevaljan naslov: \"$1\"",
+	"indexfunc-editwarning": "Upozorenje: Ovaj naslov je naslov indeksa za {{PLURAL:$2|sljedeću stranicu|sljedeće stranice}}:\n$1\nProvjerite da stranica koju namjeravate napraviti ranije već ne postoji pod drugim naslovom.\nAko napravite ovu stranicu, uklonite ovaj naslov iz <nowiki>{{#index:}}</nowiki> sa {{PLURAL:$2|gornje stranice|gornjih stranica}}.",
+	"indexfunc-index-exists": "Stranica \"$1\" već postoji",
+	"indexfunc-movewarn": "Upozorenje: \"$1\" je naslov indeksa za {{PLURAL:$3|sljedeću stranicu|sljedeće stranice}}:\n$2\nMolimo uklonite \"$1\" iz <nowiki>{{#index:}}</nowiki> sa {{PLURAL:$3|gornje stranice|gornjih stranica}}.",
+	"index": "Indeks",
+	"index-legend": "Pretraživanje indeksa",
+	"index-search": "Traži:",
+	"index-submit": "Pošalji",
+	"index-disambig-start": "'''$1''' može se odnositi na nekoliko stranica:",
+	"index-emptylist": "Nema stranica povezanih sa \"$1\"",
+	"index-expand-detail": "Prikaži stranice koje su indeksirane pod tim naslovom",
+	"index-hide-detail": "Sakrij spisak stranica",
+	"index-no-results": "Pretraga nije dala rezultata",
+	"index-search-explain": "Ova stranica koristi pretragu po prefiksima.\n\nUpišite prvih par znakova i pritisnite dugme Pošalji za traženje naslova stranica i indeksiranih stavki koje počinju sa traženim izrazom",
+	"index-details-explain": "Stavke sa strelicama su stavke indeksa.\nKliknite na strelicu za prikaz svih stranica indeksiranih pod tim naslovom."
+}

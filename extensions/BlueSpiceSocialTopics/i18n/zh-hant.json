@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Winston Sung"
+		]
+	},
+	"bs-socialtopics-desc": "用於 BlueSpiceSocial 的主題與討論單元",
+	"bs-socialtopics-pref-skipcreatedialog": "跳過在討論建立時的對話框",
+	"bs-socialtopics-toc-entalkpageautocreate": "自動建立所有討論頁面",
+	"bs-socialtopics-autocreated-discussionpage": "此討論頁面已被自動建立。",
+	"bs-socialtopics-autocreated-discussionpagefile": "此討論頁面已被自動建立。",
+	"bs-socialdiscussion-discussiontype": "討論",
+	"bs-socialdiscussion-topictype": "討論主題",
+	"bs-socialtopics-entitydiscussion-header-create": "建立新的討論",
+	"bs-social-entitytopic-header-create": "新主題",
+	"bs-socialtopics-var-topictitle": "標題",
+	"bs-socialtopics-var-discussiontitleid": "已分配討論頁面",
+	"bs-socialtopics-entity-fatalstatus-save-notalkpage": "不是有效的討論頁面",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "$1已發起主題：",
+	"topics": "主題",
+	"bs-socialtopics-special-topics-heading": "所有主題",
+	"bs-socialtopics-special-topics-heading-entry": "主題/$1",
+	"bs-socialtopics-aftercontent-heading": "討論",
+	"bs-socialtopics-nodiscussionpage": "尚未建立討論頁面。",
+	"bs-socialtopics-nodiscussionpage-create": "建立新的討論頁面",
+	"bs-socialtopics-nodiscussion": "尚未建立討論。",
+	"bs-socialtopics-notopicsadded": "尚未有主題建立。",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "儲存",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "取消",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "內容",
+	"bs-socialtopics-switch-nodiscussion-description": "在此頁面隱藏討論。"
+}

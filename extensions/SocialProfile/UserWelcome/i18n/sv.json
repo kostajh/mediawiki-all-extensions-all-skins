@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Najami",
+			"Sabelöga"
+		]
+	},
+	"userwelcome-desc": "Lägger till <code>&lt;welcomeUser&gt;</code>-taggen för att visa användarspecifierad social information för inloggade användare",
+	"mp-userlevels-link": "Användarnivåer",
+	"mp-welcome-upload": "Ladda upp",
+	"mp-welcome-points": "$1 {{PLURAL:$1|poäng|poäng}}",
+	"mp-welcome-needed-points": "För att avancera till [[$1|'''$2''']], måste du samla ''$3'' {{PLURAL:$3|poäng}} till!",
+	"mp-welcome-logged-in": "Hej $1",
+	"mp-requests-title": "Efterfrågningar",
+	"mp-requests-message": "Du har följande efterfrågningar.",
+	"mp-request-new-message": "nytt meddelande",
+	"mp-request-new-award": "$1 {{PLURAL:$1|ny utmärkelse|nya utmärkelser}}",
+	"mp-request-new-gift": "$1 {{PLURAL:$1|ny present|nya presenter}}",
+	"mp-request-new-foe": "$1 {{PLURAL:$1|ny fiende|nya fiender}}",
+	"mp-request-new-friend": "$1 {{PLURAL:$1|ny vän|nya vänner}}"
+}

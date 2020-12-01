@@ -1,0 +1,45 @@
+{
+	"name": "ArticleToCategory2",
+	"version": "1.2",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:MikaelLindmark Mikael Lindmark]",
+		"[https://www.mediawiki.org/wiki/User:BiGreat Liang Chen]",
+		"Julien Devincre",
+		"[https://www.mediawiki.org/wiki/User:Cm~mediawikiwiki Cynthia Mattingly]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ArticleToCategory2",
+	"descriptionmsg": "articletocategory2-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"AutoloadClasses": {
+		"ArticleToCategory2Hooks": "ArticleToCategory2Hooks.php"
+	},
+	"MessagesDirs": {
+		"ArticleToCategory2": [
+			"i18n"
+		]
+	},
+	"config": {
+		"ArticleToCategory2ConfigBlacklist": {
+			"value": false,
+			"description": "Set this flag to true to enable the category blacklist in \"MediaWiki:Add Article to Category 2 excluded categories\" page (you need to create this page first)"
+		}
+	},
+	"AvailableRights": [
+		"ArticleToCategory2",
+		"ArticleToCategory2AddCat"
+	],
+	"GroupPermissions": {
+		"*": {
+			"ArticleToCategory2": true,
+			"ArticleToCategory2AddCat": false
+		}
+	},
+	"Hooks": {
+		"EditFormPreloadText": "ArticleToCategory2Hooks::wfAddCategory",
+		"CategoryPageView": "ArticleToCategory2Hooks::wfCategoryChange"
+	},
+	"manifest_version": 2
+}

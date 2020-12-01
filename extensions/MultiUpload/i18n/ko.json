@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"multiupload": "여러 개의 파일 업로드",
+	"multiupload-desc": "[[Special:MultiUpload|여러 개의 파일을 한 번에 업로드하는 특수 문서]]",
+	"multipleupload": "파일 올리기",
+	"multipleupload-toolbox": "여러 개의 파일 업로드",
+	"multiupload-submit": "파일 업로드",
+	"multiupload-uploadedto": "$1 파일을 업로드했습니다.",
+	"multiupload-row": "파일 $1",
+	"multiupload-unpack-button": "풀기",
+	"multiupload-notify-ok": "확인",
+	"multiupload-upload-package-error": "패키지 파일 업로드 오류",
+	"multiupload-unpack-error": "패키지 파일 풀기 오류",
+	"multiupload-unreadable-package": "$1 파일을 읽을 수 없습니다",
+	"multiupload-http-error": "서버에 연결할 수 없습니다",
+	"multiupload-file-unpacked-from": "<b>$2</b> 패키지의 <b>$1</b> 파일",
+	"apihelp-multiupload-unpack-description": "내용을 가져오기 전에 ZIP이나 tar 파일을 푸십시오.",
+	"apihelp-multiupload-unpack-summary": "내용을 가져오기 전에 ZIP이나 tar 파일을 푸십시오.",
+	"apihelp-multiupload-unpack-param-filename": "패키지의 파일 이름"
+}

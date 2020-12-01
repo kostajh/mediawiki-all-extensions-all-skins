@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Laaknor",
+			"Nghtwlkr"
+		]
+	},
+	"importusers": "Importer brukere",
+	"importusers-desc": "Gjør det mulig å [[Special:ImportUsers|importere brukere]] fra en UTF-8-kodet CSV-fil",
+	"importusers-uploadfile": "Last opp fil",
+	"importusers-form-caption": "Fil:",
+	"importusers-file": "Filstruktur og format:",
+	"importusers-file-structure": "Struktur:",
+	"importusers-file-format": "Format:",
+	"importusers-form-replace-present": "Erstatt eksisterende brukere",
+	"importusers-form-add-to-group": "Legg til brukere i eksisterende grupper",
+	"importusers-form-button": "Importer",
+	"importusers-user-added": "{{GENDER:$1|Brukeren}} '''$1''' har blitt lagt til.",
+	"importusers-user-present-update": "{{GENDER:$1|Brukeren}} '''$1''' finnes allerede og har blitt oppdatert.",
+	"importusers-user-present-no-update": "{{GENDER:$1|Brukeren}} «$1» finnes allerede og har ikke blitt oppdatert.",
+	"importusers-user-invalid-format": "Brukerdataene på linje #$1 har ugyldig format eller er blank, og ble hoppet over.",
+	"importusers-log": "Brukerimporteringslogg",
+	"importusers-log-list": "Importerte eller oppdaterte brukere:",
+	"importusers-log-summary": "Importeringssammendrag:",
+	"importusers-log-summary-all": "Totalt antall {{PLURAL:$1|brukere}}: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Bruker}}|Brukere}} lagt til: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Bruker|Brukere}} oppdatert: $1",
+	"importusers-login-name": "Innloggingsnavn",
+	"importusers-password": "passord",
+	"importusers-email": "e-post",
+	"importusers-realname": "virkelig navn",
+	"importusers-group": "brukergruppe",
+	"importusers-utf8": "UTF-8-kodet",
+	"importusers-comma": "atskill felter med komma",
+	"importusers-noquotes": "ingen doble sitattegn for tekst",
+	"right-import_users": "Importerer flere brukere samtidig",
+	"action-import_users": "importere brukere til wikien"
+}

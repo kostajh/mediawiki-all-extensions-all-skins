@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
+			"Winston Sung"
+		]
+	},
+	"bs-insertlink-desc": "輸入連結的對話框",
+	"prefs-insertlink": "插入連結",
+	"bs-insertlink": "插入連結",
+	"bs-insertlink-pref-enable-java": "啟用 Java 小應用程式",
+	"bs-insertlink-button-title": "插入/編輯連結",
+	"bs-insertlink-dialog-title": "插入連結",
+	"bs-insertlink-tab-wiki-page": "wiki 頁面",
+	"bs-insertlink-tab-ext-link": "外部連結",
+	"bs-insertlink-tab-email": "電子郵件連結",
+	"bs-insertlink-tab-file": "連結至檔案",
+	"bs-insertlink-label-page": "頁面",
+	"bs-insertlink-label-link": "連結",
+	"bs-insertlink-label-mail": "電子郵件地址",
+	"bs-insertlink-label-description": "描述",
+	"bs-insertlink-label-file": "檔案",
+	"bs-insertlink-label-searchfile": "搜尋 ...",
+	"bs-insertlink-select-a-page": "選擇目標 ...",
+	"bs-insertlink-select-a-namespace": "(頁面)",
+	"bs-insertlink-empty-field-text": "您需要指名一個目標來插入連結。",
+	"bs-insertlink-no-applet": "小應用程式無法載入。請檢察您的 Java 安裝內容。",
+	"bs-insertlink-internal-file-link-button-label": "選擇檔案",
+	"bs-insertlink-external-file-switch-label": "網路分享路徑（URI）",
+	"bs-insertlink-pref-filesystemmap": "外部檔案的允許位置",
+	"bs-insertlink-pref-filesystemmap-fs-prefix": "檔案系統字首",
+	"bs-insertlink-pref-filesystemmap-web-prefix": "網頁可存取字首",
+	"bs-insertlink-pref-allowunmapped": "允許非對應連結"
+}

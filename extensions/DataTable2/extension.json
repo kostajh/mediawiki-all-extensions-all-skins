@@ -1,0 +1,95 @@
+{
+	"name": "DataTable2",
+	"version": "1.1.0",
+	"type": "parserhook",
+	"author": "[https://www.mediawiki.org/wiki/User:RV1971 RV1971]",
+	"descriptionmsg": "datatable2-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:DataTable2",
+	"license-name": "GPL-3.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"AutoloadClasses": {
+		"DataTable2": "includes/DataTable2.php",
+		"DataTable2Database": "includes/DataTable2Database.php",
+		"DataTable2Exception": "includes/DataTable2Exception.php",
+		"DataTable2Parser": "includes/DataTable2Parser.php",
+		"DataTable2ParserWithRecords": "includes/DataTable2Parser.php",
+		"DataTable2SqlTransformer": "includes/DataTable2SqlTransformer.php",
+		"Scribunto_LuaDataTable2Library": "includes/Scribunto_LuaDataTable2Library.php",
+		"SpecialDataTable2": "includes/SpecialDataTable2.php",
+		"DataTable2Pager": "includes/SpecialDataTable2.php",
+		"SpecialDataTable2Data": "includes/SpecialDataTable2Data.php",
+		"DataTable2DataPager": "includes/SpecialDataTable2Data.php",
+		"SpecialDataTable2Pages": "includes/SpecialDataTable2Pages.php",
+		"DataTable2PagesPager": "includes/SpecialDataTable2Pages.php",
+		"SpecialDataTable2Tables": "includes/SpecialDataTable2Tables.php",
+		"DataTable2TablesPager": "includes/SpecialDataTable2Tables.php"
+	},
+	"ExtensionFunctions": [ "DataTable2::init" ],
+	"MessagesDirs": {
+		"DataTable2": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"DataTable2Alias": "includes/DataTable2.alias.php",
+		"DataTable2Magic": "includes/DataTable2.i18n.magic.php"
+	},
+	"AvailableRights": [ "datatable2-specialpages" ],
+	"GroupPermissions": {
+		"user": { "datatable2-specialpages": true }
+	},
+	"SpecialPages": {
+		"DataTable2Data": "SpecialDataTable2Data",
+		"DataTable2Pages": "SpecialDataTable2Pages",
+		"DataTable2Tables": "SpecialDataTable2Tables"
+	},
+	"config": {
+		"DataTable2WriteDest": {
+			"description": "Name of the database table where data is written to.",
+			"value": "datatable2_data"
+		},
+		"DataTable2ReadSrc": {
+			"description": "Name of the database table where data is read from.",
+			"value": "datatable2_data"
+		},
+		"DataTable2MetaWriteDest": {
+			"description": "Name of the database table where meta data is written to.",
+			"value": "datatable2_meta"
+		},
+		"DataTable2MetaReadSrc": {
+			"description": "Name of the database table where meta data is read from.",
+			"value": "datatable2_meta"
+		},
+		"DataTable2Args": {
+			"description": "Default arguments for datatable2 tags.",
+			"value": {
+				"fs": "|",
+				"rs": "/[\n\r]+/"
+			}
+		},
+		"DataTable2SqlWhiteList": {
+			"description": "Array of identifiers that may be used in WHERE and ORDER BY clauses, in addition to column names.",
+			"value": [
+				"ASC", "DESC", "NULLS", "FIRST", "LAST",
+				"AND", "NOT", "OR",
+				"BETWEEN", "IN", "IS", "LIKE", "NULL",
+				"CASE", "WHEN", "THEN", "ELSE", "END", "COALESCE", "NULLIF",
+				"CAST", "AS",
+				"EXTRACT", "FROM",
+				"ABS", "MOD", "LN", "EXP", "POWER", "SQRT", "FLOOR", "CEIL",
+				"SUBSTR", "SUBSTRING", "UPPER", "LOWER", "TRANSLATE", "TRIM"
+			]
+		},
+		"SpecialDataTable2PageParSep": {
+			"description": "Separator for parameters passed to special pages.",
+			"value": "//"
+		},
+		"SpecialDataTable2DataClasses": {
+			"description": "Array of css classes for the table used in Special:DataTable2Data.",
+			"value": [ "wikitable", "sortable" ]
+		}
+	},
+	"manifest_version": 2
+}

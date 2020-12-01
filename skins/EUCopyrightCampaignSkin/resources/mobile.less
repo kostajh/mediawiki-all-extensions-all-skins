@@ -1,0 +1,21 @@
+.inner {
+	width: 100%;
+	padding: 1em;
+}
+
+html:not( .client-nojs ) {
+	#buttons,
+	#intro-content {
+		.take-action-button.mobile {
+			display: inline-block;
+		}
+
+		.take-action-button.desktop {
+			display: none;
+		}
+	}
+
+	#wikimedia-header > a {
+		font-size: 100%;
+	}
+}

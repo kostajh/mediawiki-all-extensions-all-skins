@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alex Great",
+			"Facenapalm"
+		]
+	},
+	"gae-desc": "Предоставляет улучшения вики, работающие на GoogleAppEngine.",
+	"apihelp-gaejobqueue-description": "Внутренний модуль API для работы JobQueue. Внешнее использование не разрешено.",
+	"apihelp-gaejobqueue-summary": "Внутренний модуль API для запуска JobQueue. Внешнее использование не разрешено.",
+	"apihelp-gaejobqueue-param-namespace": "Числовой идентификатор пространства имён.",
+	"apihelp-gaejobqueue-param-titletext": "Содержимое заголовка без пространства имён.",
+	"apihelp-gaejobqueue-param-type": "Тип задания.",
+	"apihelp-gaejobqueue-param-params": "Параметры задания в формате PHP."
+}

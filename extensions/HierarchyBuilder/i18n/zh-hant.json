@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"hierarchybuilder-desc": "呈現並允許編輯來自頁面層次的區段",
+	"hierarchybuilder-reveal-editmessage": "我要如何使用？",
+	"hierarchybuilder-editmessage": "根層次清單包含著當您儲存後會保留下來的層次。未使用頁面清單包含著在分類$1裡且目前不在層次中的頁面。您可以透過將列上下拖拉來調整根層次的範圍，以及更改縮排。您也可以透過拖放方式從未使用頁面清單來添加頁面至層次中，若您希望這些出現在根層次清單裡的話。若要從層次裡移除頁面，您可以在根層次清單裡透過拖拉方式來丟放在未使用頁面清單裡頭。",
+	"hierarchybuilder-edit-error-message": "因層次資料與來自用於繪製未使用頁面的分類皆為空，所以此層次不可編輯。請確認至少有填充一項資料來源。",
+	"hierarchybuilder-hierarchyroot": "根層次",
+	"hierarchybuilder-unusedpages": "未使用的頁面",
+	"hierarchybuilder-category-desc": "此為在層次裡頭頁面應所屬的分類。",
+	"hierarchybuilder-missing-category": "缺少分類參數。",
+	"hierarchybuilder-hierarchy-desc": "此為 wiki 文字格式的層次。",
+	"hierarchybuilder-pagename-desc": "這是包含層次的頁面名稱。",
+	"hierarchybuilder-propertyname-desc": "這是包含層次的屬性名稱。",
+	"hierarchybuilder-collapsed-desc": "若提供此參數，當首次顯示時層次應以摺疊模樣呈現。",
+	"hierarchybuilder-missing-page-name": "缺少頁面名稱參數。",
+	"hierarchybuilder-missing-property-name": "缺少屬性名稱參數。",
+	"hierarchybuilder-invalid-collapsed": "摺疊參數的值無效。"
+}

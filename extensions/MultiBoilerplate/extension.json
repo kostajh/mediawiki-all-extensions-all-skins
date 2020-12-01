@@ -1,0 +1,35 @@
+{
+	"name": "MultiBoilerplate",
+	"version": "2.1.2",
+	"author": [
+		"Robert Leverington",
+		"Al Maghi",
+		"Dror S. [FFS] ([http://www.kolzchut.org.il Kol-Zchut])",
+		"Jhf2442"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:MultiBoilerplate",
+	"descriptionmsg": "multiboilerplate-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"callback": "MultiBoilerplateHooks::onRegistration",
+	"MessagesDirs": {
+		"MultiBoilerplate": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MultiBoilerplateHooks": "MultiBoilerplate.hooks.php"
+	},
+	"Hooks": {
+		"EditPage::showEditForm:initial": "MultiBoilerplateHooks::onEditPageShowEditFormInitial"
+	},
+	"config": {
+		"MultiBoilerplateOptions": null,
+		"MultiBoilerplateOverwrite": false,
+		"MultiBoilerplateDiplaySpecialPage": false
+	},
+	"manifest_version": 1
+}

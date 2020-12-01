@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach"
+		]
+	},
+	"parserfun-desc": "ウィキテキストの構文解析を行うパーサー関数 <code>#parse</code> を追加し、ページ情報に関連するマジック変数のための接頭辞 <code>THIS:</code> を導入する",
+	"parserfun-invalid-caller-mode": "有効な動作モードまたは数値が指定されていません。"
+}

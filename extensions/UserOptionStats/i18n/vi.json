@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"useroptionstats": "Thống kê tùy chọn người dùng",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Trang đặc biệt]] báo cáo thống kê về tùy chọn cá nhân trong MediaWiki",
+	"uos-warn": "Chưa cài đặt PHPlot!",
+	"uos-choose": "Hãy chọn một trong những tùy chọn cá nhân sau: $1",
+	"uos-unknown": "*Mặc định",
+	"uos-other": "*Khác",
+	"uos-title": "Phân phối giá trị tùy chọn cá nhân $1"
+}

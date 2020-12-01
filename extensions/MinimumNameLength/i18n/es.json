@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"minimumnamelength-desc": "Permite imponer una longitud mínima del nombre de usuario",
+	"minimumnamelength-error": "Tu nombre de usuario es demasiado corto. La longitud mínima requerida es {{PLURAL:$1|un carácter|$1 caracteres}}."
+}

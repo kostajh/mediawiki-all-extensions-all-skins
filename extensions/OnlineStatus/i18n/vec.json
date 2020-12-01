@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Candalua"
+		]
+	},
+	"onlinestatus-desc": "Zonta na preferensa par mostrar se l'utente el xe presente in sto momento su la wiki",
+	"onlinestatus-js-anon": "Eròr: te devi aver fato el login par doparar sta funsion",
+	"onlinestatus-js-changed": "El to stato el xe stà canbià a \"$1\"",
+	"onlinestatus-js-error": "No se pol canbiar el stato, el valor \"$1\" no'l xe vàlido",
+	"onlinestatus-subtitle-offline": "Sto utente desso no'l xe mìa in linea",
+	"onlinestatus-subtitle-online": "Sto utente desso el xe in linea",
+	"onlinestatus-tab": "Stato",
+	"onlinestatus-toggles-desc": "El to stato:",
+	"onlinestatus-toggles-explain": "Sta roba la te permete de mostrar ai altri utenti, vardando la to pagina utente, se te sì in linea o no in sto momento.",
+	"onlinestatus-toggles-show": "Mostra se son in linea o no su la me pagina utente",
+	"onlinestatus-toggle-offline": "Mìa in linea",
+	"onlinestatus-toggle-online": "In linea",
+	"onlinestatus-pref-onlineonlogin": "Canbia el me stato a \"online\" co fasso el login",
+	"onlinestatus-pref-offlineonlogout": "Canbia el me stato a \"offline\" co me desconéto"
+}

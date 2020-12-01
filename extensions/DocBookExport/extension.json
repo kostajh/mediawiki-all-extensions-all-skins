@@ -1,0 +1,42 @@
+{
+	"name": "DocBookExport",
+	"version": "1.0",
+	"author": [
+		"Nischayn22",
+		"WikiWorks"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:DocBookExport",
+	"license-name": "MIT",
+	"descriptionmsg": "docbookexport-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.30.0"
+	},
+	"AutoloadClasses": {
+		"DocBookExport": "DocBookExport.php",
+		"SpecialGetDocbook": "SpecialGetDocbook.php"
+	},
+	"config": {
+		"DocbookExportPandocServerPath": "",
+		"DocbookDownloadServerPath": "",
+		"DocBookExportXSLRepository": "",
+		"DocBookExportImportXSLRepoPathPDF": "",
+		"DocBookExportImportXSLRepoPathHTML": ""
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "DocBookExport::onParserSetup"
+	},
+	"SpecialPages": {
+		"GetDocbook": "SpecialGetDocbook"
+	},
+	"MessagesDirs": {
+		"DocBookExport": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"DocBookExportMagic": "DocBookExport.i18n.magic.php",
+		"DocBookExportAlias": "DocBookExport.i18n.alias.php"
+	},
+	"manifest_version": 1
+}

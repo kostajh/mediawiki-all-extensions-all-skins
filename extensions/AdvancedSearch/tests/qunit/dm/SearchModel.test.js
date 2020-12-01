@@ -1,0 +1,284 @@
+( function () {
+	var SearchModel,
+		sandbox;
+
+	QUnit.testStart( function () {
+		SearchModel = mw.libs.advancedSearch.dm.SearchModel;
+		sandbox = sinon.sandbox.create();
+	} );
+
+	QUnit.testDone( function () {
+		sandbox.restore();
+	} );
+
+	QUnit.module( 'ext.advancedSearch.dm.SearchModel' );
+
+	QUnit.test( 'Default model has no fields', function ( assert ) {
+		var model = new SearchModel();
+		assert.deepEqual( model.getFields(), {} );
+	} );
+
+	QUnit.test( 'There is no hardcoded namespace preset', function ( assert ) {
+		var model = new SearchModel();
+		assert.deepEqual( model.getNamespaces(), [] );
+	} );
+
+	QUnit.test( 'Fields that were set can be retrieved', function ( assert ) {
+		var model = new SearchModel();
+		model.storeField( 'not', 'octopi' );
+		model.storeField( 'prefix', 'Page' );
+		assert.deepEqual( model.getFields(), {
+			not: 'octopi',
+			prefix: 'Page'
+		} );
+	} );
+
+	QUnit.test( 'Retrieving an unset field with a default returns the default', function ( assert ) {
+		var model = new SearchModel( [], { not: [], prefix: '' } );
+
+		assert.deepEqual( model.getField( 'not' ), [] );
+		assert.strictEqual( model.getField( 'prefix' ), '' );
+		assert.strictEqual( typeof model.getField( 'prefix' ), 'string' );
+		assert.strictEqual( typeof model.getField( 'nonexisting' ), 'undefined' );
+	} );
+
+	QUnit.test( 'Retrieving reference type value gives a copy, to avoid modification', function ( assert ) {
+		var model = new SearchModel();
+		var fileHeightValuePair = [ '>', '2' ];
+		var someObject = { foo: 42 };
+
+		model.storeField( 'fileh', fileHeightValuePair );
+		model.storeField( 'someObject', someObject );
+
+		assert.notStrictEqual( model.getField( 'fileh' ), fileHeightValuePair, 'Arrays must be different references' );
+		assert.notStrictEqual( model.getField( 'someObject' ), someObject, 'Objects must be different references' );
+	} );
+
+	QUnit.test( 'Retrieving all values gives a copy of reference type values, to avoid modification', function ( assert ) {
+		var model = new SearchModel();
+		var fileHeightValuePair = [ '>', '2' ];
+		var someObject = { foo: 42 };
+
+		model.storeField( 'fileh', fileHeightValuePair );
+		model.storeField( 'someObject', someObject );
+		var options = model.getFields();
+
+		assert.notStrictEqual( options.fileh, fileHeightValuePair, 'Arrays must be different references' );
+		assert.notStrictEqual( options.someObject, someObject, 'Objects must be different references' );
+	} );
+
+	QUnit.test( 'When checking with undefined or empty value, hasOptionChange returns true for unset properties without defaults', function ( assert ) {
+		var model = new SearchModel();
+
+		assert.notOk( model.hasFieldChanged( 'not', undefined ) );
+		assert.notOk( model.hasFieldChanged( 'not', '' ) );
+		assert.ok( model.hasFieldChanged( 'not', 'not empty' ) );
+	} );
+
+	QUnit.test( 'When checking with unset value, hasOptionChange compares to default value', function ( assert ) {
+		var model = new SearchModel( [], { not: 'something' } );
+
+		assert.notOk( model.hasFieldChanged( 'not', 'something' ) );
+		assert.ok( model.hasFieldChanged( 'not', 'anything' ) );
+	} );
+
+	QUnit.test( 'When there is no change, hasOptionChange returns false', function ( assert ) {
+		var model = new SearchModel();
+
+		model.storeField( 'not', 'something' );
+
+		assert.notOk( model.hasFieldChanged( 'not', 'something' ) );
+		assert.ok( model.hasFieldChanged( 'not', 'anything' ) );
+	} );
+
+	function createModelWithValues() {
+		var model = new SearchModel();
+		model.storeField( 'not', 'octopi' );
+		model.storeField( 'prefix', 'Page' );
+		model.setNamespaces( [ '1', '3' ] );
+		return model;
+	}
+
+	QUnit.test( 'Setting values from empty JSON string does nothing', function ( assert ) {
+		var model = createModelWithValues(),
+			expected = createModelWithValues();
+		model.setAllFromJSON( '' );
+
+		assert.deepEqual( model.getFields(), expected.getFields() );
+		assert.deepEqual( model.getNamespaces(), expected.getNamespaces() );
+	} );
+
+	QUnit.test( 'Setting invalid JSON string does nothing', function ( assert ) {
+		var model = createModelWithValues(),
+			expected = createModelWithValues();
+		model.setAllFromJSON( '{ "unclosed_string": "str }' );
+
+		assert.deepEqual( model.getFields(), expected.getFields() );
+		assert.deepEqual( model.getNamespaces(), expected.getNamespaces() );
+	} );
+
+	QUnit.test( 'Setting valid JSON overrides previous state', function ( assert ) {
+		var model = createModelWithValues();
+		model.setAllFromJSON( '{"fields":{"or":[ "fish", "turtle" ],"prefix":"Sea"}}' );
+
+		assert.deepEqual( model.getFields(), {
+			or: [ 'fish', 'turtle' ],
+			prefix: 'Sea'
+		} );
+	} );
+
+	QUnit.test( 'Options are serialized to JSON', function ( assert ) {
+		var model = createModelWithValues();
+
+		assert.strictEqual(
+			model.toJSON(),
+			'{"fields":{"not":"octopi","prefix":"Page"}}'
+		);
+	} );
+
+	QUnit.test( 'Empty fields are not serialized to JSON', function ( assert ) {
+		assert.strictEqual(
+			new SearchModel().toJSON(),
+			'{}'
+		);
+	} );
+
+	QUnit.test( 'Setting namespaces to empty does not keep default namespace', function ( assert ) {
+		var model = new SearchModel();
+		model.setNamespaces( [] );
+
+		assert.deepEqual( model.getNamespaces(), [] );
+	} );
+
+	QUnit.test( 'File dimension data is reset on filetype change', function ( assert ) {
+		var model = new SearchModel();
+		model.storeField( 'filetype', 'jpeg' );
+		model.storeField( 'filew', [ '>', '1500' ] );
+		model.storeField( 'fileh', [ '', '800' ] );
+
+		model.storeField( 'filetype', 'random' );
+
+		assert.deepEqual( model.getField( 'filew' ), undefined );
+		assert.deepEqual( model.getField( 'fileh' ), undefined );
+	} );
+
+	QUnit.test( 'File dimension data containers reset on filetype remove', function ( assert ) {
+		var model = new SearchModel();
+		model.storeField( 'filetype', 'video' );
+		model.storeField( 'filew', [ '', '800' ] );
+		model.storeField( 'fileh', [ '', '600' ] );
+
+		model.removeField( 'filetype' );
+
+		assert.deepEqual( model.getField( 'filew' ), undefined );
+		assert.deepEqual( model.getField( 'fileh' ), undefined );
+	} );
+
+	QUnit.test( 'Image and Video file types support dimensions', function ( assert ) {
+		var model = new SearchModel();
+
+		assert.notOk( model.filetypeSupportsDimensions(), 'Images are not supported when filetype is not set' );
+
+		model.storeField( 'filetype', 'image' );
+		assert.ok( model.filetypeSupportsDimensions(), 'General image type must be supported' );
+
+		model.storeField( 'filetype', 'video' );
+		assert.ok( model.filetypeSupportsDimensions(), 'General video type must be supported' );
+
+		model.storeField( 'filetype', 'bitmap' );
+		assert.ok( model.filetypeSupportsDimensions(), 'File type of bitmap must be supported' );
+
+		model.storeField( 'filetype', 'drawing' );
+		assert.ok( model.filetypeSupportsDimensions(), 'File type of drawing must be supported' );
+
+		model.storeField( 'filetype', 'image/jpeg' );
+		assert.ok( model.filetypeSupportsDimensions(), 'Image MIME type must be supported' );
+
+		model.storeField( 'filetype', 'image/svg+xml', 'Complex image MIME types must be supported' );
+		assert.ok( model.filetypeSupportsDimensions() );
+
+		model.storeField( 'filetype', 'video/ogg', 'Video MIME types must be supported' );
+		assert.ok( model.filetypeSupportsDimensions() );
+
+		model.storeField( 'filetype', 'audio', 'Audio must not support dimensions' );
+		assert.notOk( model.filetypeSupportsDimensions() );
+
+		model.storeField( 'filetype', 'audio/wav', 'Audio MIME types must not support dimensions' );
+		assert.notOk( model.filetypeSupportsDimensions() );
+	} );
+
+	QUnit.test( 'Setting namespace to existing value does not trigger emitUpdate', function ( assert ) {
+		var model = new SearchModel();
+		model.setNamespaces( [ '1', '2', '3' ] );
+
+		var updateSpy = sandbox.spy( model, 'emitUpdate' );
+		model.setNamespaces( [ '1', '2', '3' ] );
+
+		assert.notOk( updateSpy.called );
+	} );
+
+	QUnit.test( 'Changing namespaces triggers emitUpdate', function ( assert ) {
+		var model = new SearchModel();
+		var updateSpy = sandbox.spy( model, 'emitUpdate' );
+
+		model.setNamespaces( [ '1', '2', '3' ] );
+		assert.ok( updateSpy.calledOnce );
+
+		model.setNamespaces( [ '1', '2' ] );
+		assert.ok( updateSpy.calledTwice );
+	} );
+
+	QUnit.test( 'Storing an option triggers emitUpdate', function ( assert ) {
+		var model = new SearchModel();
+		var updateSpy = sandbox.spy( model, 'emitUpdate' );
+
+		model.storeField( 'aaa', 'fff' );
+
+		assert.ok( updateSpy.calledOnce );
+	} );
+
+	QUnit.test( 'Storing an option with the same scalar value does not trigger emitUpdate', function ( assert ) {
+		var model = new SearchModel();
+		model.storeField( 'lorem', 'ipsum' );
+
+		var updateSpy = sandbox.spy( model, 'emitUpdate' );
+
+		model.storeField( 'lorem', 'ipsum' );
+
+		assert.notOk( updateSpy.called );
+	} );
+
+	QUnit.test( 'Storing an option with the same array value does not trigger emitUpdate', function ( assert ) {
+		var model = new SearchModel();
+		model.storeField( 'lorem', [ 'hakuna', 'matata' ] );
+
+		var updateSpy = sandbox.spy( model, 'emitUpdate' );
+
+		model.storeField( 'lorem', [ 'hakuna', 'matata' ] );
+
+		assert.notOk( updateSpy.called );
+	} );
+
+	QUnit.test( 'Removing an option triggers emitUpdate', function ( assert ) {
+		var model = new SearchModel();
+		model.storeField( 'lorem', 'ipsum' );
+
+		var updateSpy = sandbox.spy( model, 'emitUpdate' );
+
+		model.removeField( 'lorem' );
+
+		assert.ok( updateSpy.calledOnce );
+	} );
+
+	QUnit.test( 'Removing an unset option does not trigger emitUpdate', function ( assert ) {
+		var model = new SearchModel();
+		model.storeField( 'lorem', 'ipsum' );
+
+		var updateSpy = sandbox.spy( model, 'emitUpdate' );
+
+		model.removeField( 'amet' );
+
+		assert.notOk( updateSpy.called );
+	} );
+
+}() );

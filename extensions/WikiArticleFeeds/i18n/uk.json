@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Ата"
+		]
+	},
+	"wikiarticlefeeds-desc": "Створює канали на основі сторінок MediaWiki",
+	"wikiarticlefeeds-tracking-category": "Сторінки, що генерують RSS-канали",
+	"wikiarticlefeeds-tracking-category-desc": "Ця сторінка генерує RSS-канал.",
+	"wikiarticlefeeds_combined_description": "Це комбінований канал, що містить елементи з декількох джерел."
+}

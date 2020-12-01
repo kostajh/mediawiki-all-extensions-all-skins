@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"duplicator": "Dubliuoti puslapį",
+	"duplicator-desc": "Kurti nepriklausomas [[Special:Duplicate|puslapių kopijas]] su pilnomis keitimų istorijomis",
+	"duplicator-toolbox": "Dubliuoti šį puslapį",
+	"duplicator-options": "Parinktys",
+	"duplicator-source": "Šaltinis:",
+	"duplicator-dotalk": "Dubliuoti diskusijų puslapį (jei taikoma)",
+	"duplicator-dohistory": "Dubliuoti pilną puslapio istoriją",
+	"duplicator-submit": "Dublioti",
+	"duplicator-success": "[[$1]] buvo nukopijuotas į [[$2]].",
+	"duplicator-success-talknotcopied": "Aptarimų puslapis negali būti nukopijuotas.",
+	"duplicator-failed": "Puslapis negali būti dubliuojamas.\nĮvyko nežinoma klaida.",
+	"duplicator-failed-toolong": "[[$1]] nebuvo dubliuotas. Tikslo pavadinimas yra per ilgas.",
+	"duplicator-failed-dest-exists": "[[$1]] nebuvo dubliuotas. Tikslas [[$2]] jau egzistuoja.",
+	"duplicator-source-invalid": "Prašome pateikti galiojantį šaltinio pavadinimą.",
+	"duplicator-source-notexist": "[[$1]] neegzistuoja. Prašome nurodyti egzistuojanti puslapio pavadinimą.",
+	"duplicator-dest-invalid": "Prašome nurodyti galimą tikslo pavadinimą.",
+	"duplicator-dest-exists": "[[$1]] jau egzistuoja. Prašome nurodyti tikslo pavadinimą, kuris neegzistuoja.",
+	"right-duplicate": "Dubliuoti puslapius"
+}

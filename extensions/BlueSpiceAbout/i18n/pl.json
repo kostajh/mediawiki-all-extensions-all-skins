@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"bs-bluespiceabout-desc": "Informacje o BlueSpice",
+	"bs-bluespiceabout-about-bluespice": "O BlueSpice",
+	"bluespiceabout": "O BlueSpice",
+	"prefs-bluespiceabout": "O BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Wyświetlanie linku „{{int:bs-bluespiceabout-about-bluespice}}” w menu głównym",
+	"action-bluespiceabout-viewspecialpage": "zobacz stronę specjalną „{{int:bs-bluespiceabout-about-bluespice}}”",
+	"right-bluespiceabout-viewspecialpage": "Dostęp do strony specjalnej [[Special:BlueSpiceAbout]]."
+}

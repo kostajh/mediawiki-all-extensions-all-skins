@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"bs-userinfo-description": "Fornece listas de opções com informações do utilizador para imagens e hiperligações do utilizador",
+	"apihelp-bs-userinfometa-description": "Lista os metadados de informação dos utilizadores fornecidos",
+	"apihelp-bs-userinfometa-summary": "Lista os metadados de informação dos utilizadores fornecidos",
+	"apihelp-bs-userinfometa-param-username": "Nome do utilizador cujos metadados de informação serão listados"
+}

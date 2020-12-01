@@ -1,0 +1,23 @@
+{
+	"name": "GroupsSidebar",
+	"version": "0.3.0",
+	"author": "Church of emacs",
+	"url": "https://www.mediawiki.org/wiki/Extension:GroupsSidebar",
+	"descriptionmsg": "groupssidebar-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"GroupsSidebar": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"GroupsSidebar": "GroupsSidebar.php"
+	},
+	"Hooks": {
+		"SkinBuildSidebar": "GroupsSidebar::efHideSidebar"
+	},
+	"manifest_version": 2
+}

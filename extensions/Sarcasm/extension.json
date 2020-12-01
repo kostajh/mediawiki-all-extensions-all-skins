@@ -1,0 +1,23 @@
+{
+	"name": "Sarcasm",
+	"version": "1.2.0",
+	"author": "[http://sturmkrieg.de/User:Inquisitor_Ehrenstein Inquisitor Ehrenstein]",
+	"url": "https://www.mediawiki.org/wiki/Extension:Sarcasm",
+	"descriptionmsg": "sarcasm-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"Sarcasm": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"Sarcasm": "src/Sarcasm.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "Sarcasm::wfSarcasmParserInit"
+	},
+	"manifest_version": 2
+}

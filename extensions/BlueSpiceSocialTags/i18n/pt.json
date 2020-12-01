@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Mansil alfalb"
+		]
+	},
+	"bs-socialtags-desc": "Adiciona funcionalidade de etiquetagem às entidades sociais",
+	"bs-socialtags-tagstext": "{{plural:$1|Página afluente|Páginas afluentes}} ($1)",
+	"bs-socialtags-var-tags": "Páginas afluentes",
+	"socialtags": "Páginas afluentes",
+	"bs-socialtags-special-heading": "Páginas afluentes",
+	"apihelp-bs-socialtags-tasks-summary": "Fornece tarefas para editar as páginas afluentes das entidades",
+	"action-social-tagging": "editar páginas afluentes",
+	"right-social-tagging": "Editar páginas afluentes"
+}

@@ -1,0 +1,122 @@
+{
+	"name": "SecurePoll",
+	"author": [
+		"Tim Starling",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SecurePoll",
+	"descriptionmsg": "securepoll-desc",
+	"license-name": "GPL-2.0-or-later",
+	"version": "2.0.0",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AvailableRights": [
+		"securepoll-create-poll"
+	],
+	"ContentHandlers": {
+		"SecurePoll": "\\MediaWiki\\Extensions\\SecurePoll\\SecurePollContentHandler"
+	},
+	"SpecialPages": {
+		"SecurePoll": "\\MediaWiki\\Extensions\\SecurePoll\\SpecialSecurePoll"
+	},
+	"JobClasses": {
+		"securePollPopulateVoterList": "\\MediaWiki\\Extensions\\SecurePoll\\Jobs\\PopulateVoterListJob"
+	},
+	"APIModules": {
+		"strikevote": "\\MediaWiki\\Extensions\\SecurePoll\\Api\\ApiStrikeVote"
+	},
+	"MessagesDirs": {
+		"SecurePoll": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SecurePollAlias": "SecurePoll.alias.php",
+		"SecurePollNamespaces": "SecurePoll.namespaces.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extensions\\SecurePoll\\": "includes/"
+	},
+	"ResourceModules": {
+		"ext.securepoll.htmlform": {
+			"scripts": "ext.securepoll.htmlform.js"
+		},
+		"ext.securepoll": {
+			"styles": "ext.securepoll.css"
+		},
+		"ext.securepoll.special": {
+			"styles": "ext.securepoll.special.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "SecurePoll/modules"
+	},
+	"Hooks": {
+		"UserLogout": [
+			"\\MediaWiki\\Extensions\\SecurePoll\\Hooks::onUserLogout"
+		],
+		"LoadExtensionSchemaUpdates": [
+			"\\MediaWiki\\Extensions\\SecurePoll\\Hooks::onLoadExtensionSchemaUpdates"
+		],
+		"CanonicalNamespaces": [
+			"\\MediaWiki\\Extensions\\SecurePoll\\Hooks::onCanonicalNamespaces"
+		],
+		"TitleQuickPermissions": [
+			"\\MediaWiki\\Extensions\\SecurePoll\\Hooks::onTitleQuickPermissions"
+		]
+	},
+	"namespaces": [
+		{
+			"id": 830,
+			"name": "SecurePoll",
+			"constant": "NS_SECUREPOLL",
+			"subpages": true,
+			"defaultcontentmodel": "SecurePoll",
+			"conditional": true
+		},
+		{
+			"id": 831,
+			"name": "SecurePoll_talk",
+			"constant": "NS_SECUREPOLL_TALK",
+			"subpages": true,
+			"conditional": true
+		}
+	],
+	"config": {
+		"SecurePollGPGCommand": {
+			"value": "gpg"
+		},
+		"SecurePollTempDir": {
+			"value": "/tmp"
+		},
+		"SecurePollShowErrorDetail": {
+			"value": false
+		},
+		"SecurePollScript": {
+			"value": "extensions/SecurePoll/auth-api.php"
+		},
+		"SecurePollKeepPrivateInfoDays": {
+			"value": 90
+		},
+		"SecurePollCreateWikiGroupDir": {
+			"value": "/../"
+		},
+		"SecurePollCreateWikiGroups": {
+			"value": []
+		},
+		"SecurePollCreateRemoteScriptPath": {
+			"value": "https:$wgServer/w"
+		},
+		"SecurePollUseNamespace": {
+			"value": false
+		},
+		"SecurePollGpgSignKey": {
+			"value": null
+		}
+	},
+	"manifest_version": 2
+}

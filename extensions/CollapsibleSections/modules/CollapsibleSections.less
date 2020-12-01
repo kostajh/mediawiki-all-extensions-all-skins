@@ -1,0 +1,24 @@
+.collapsible-header {
+	margin-bottom: 0 !important; /* stylelint-disable-line declaration-no-important */
+
+	&:before {
+		content: '';
+		display: inline-block;
+		width: 18px;
+		height: 18px;
+		/* stylelint-disable-next-line function-url-quotes */
+		background: transparent /* @embed */ url( '../assets/caret.svg' ) center center no-repeat;
+		transform: rotate( 0deg );
+		margin-right: 4px;
+		transition: transform 0.15s linear;
+	}
+
+	&.collapsible-header--expanded:before {
+		transform: rotate( 90deg );
+	}
+
+	&.collapsible-header-content {
+		padding: 0.25em 0 0 0;
+		margin: 0;
+	}
+}

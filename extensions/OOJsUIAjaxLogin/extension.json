@@ -1,0 +1,58 @@
+{
+	"name": "OOJsUIAjaxLogin",
+	"version": "0.0.2",
+	"author": [
+		"Florian Schmidt"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:OOJsUIAjaxLogin",
+	"descriptionmsg": "oojsuiajaxlogin-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"MessagesDirs": {
+		"OOJsUIAjaxLogin": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"OOJsUIAjaxLoginHooks": "includes/OOJsUIAjaxLogin.hooks.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "OOJsUIAjaxLoginHooks::onBeforePageDisplay"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "OOJsUIAjaxLogin/resources"
+	},
+	"ResourceModules": {
+		"ext.OOJsUIAjaxLogin.init": {
+			"scripts": "ext.OOJsUIAjaxLogin.init/init.js",
+			"messages": [ "oojsuiajaxlogin-loading" ],
+			"templates": {
+				"loginLink.mustache": "ext.OOJsUIAjaxLogin.init/loginLink.mustache"
+			}
+		},
+		"ext.OOJsUIAjaxLogin.overlay": {
+			"dependencies": [
+				"oojs-ui",
+				"mediawiki.api",
+				"mediawiki.jqueryMsg"
+			],
+			"scripts": "ext.OOJsUIAjaxLogin.overlay/LoginOverlay.js",
+			"styles": "ext.OOJsUIAjaxLogin.overlay/LoginOverlay.less",
+			"messages": [
+				"login",
+				"wrongpassword",
+				"userlogin-yourname",
+				"userlogin-yourname-ph",
+				"userlogin-yourpassword",
+				"userlogin-yourpassword-ph",
+				"pt-login-button",
+				"userlogin-joinproject",
+				"cancel",
+				"welcomeuser",
+				"unknown-error"
+			]
+		}
+	},
+	"manifest_version": 1
+}

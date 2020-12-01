@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil",
+			"Mjälten",
+			"WikiPhoenix"
+		]
+	},
+	"bs-dashboards-desc": "Tillhandahåller kontrollpaneler för användare och administratörer",
+	"bs-specialadmindashboard-label": "Kontrollpanel",
+	"bs-dashboards-addportlet": "Lägg till portlet",
+	"bs-dashboards-portlets": "Portlets",
+	"prefs-dashboards": "Kontrollpaneler",
+	"bs-dashboards-pref-userdashboardonlogo": "Webbplatsens logotyp länkar till användarkontrollpanelen",
+	"admindashboard": "Admin-kontrollpanel",
+	"userdashboard": "Användar-kontrollpanel",
+	"bs-dashboard-userportlet-calendar-title": "Kalender",
+	"bs-dashboard-userportlet-calendar-description": "Kalender",
+	"bs-dashboard-userportlet-wikipage-title": "Wikisida",
+	"bs-dashboard-userportlet-wikipage-description": "Använd en wikisida för att definiera widget",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "Wikisida",
+	"apihelp-bs-dashboard-task-param-dc": "Kontrollparameter för mellanlagring. Användas av ExtJS.",
+	"apihelp-bs-dashboards-store-description": "Lista upp alla tillgängliga portletter",
+	"apihelp-bs-dashboards-store-summary": "Lista upp alla tillgängliga portletter",
+	"apihelp-bs-dashboards-tasks-description": "Bevarar kontrollpanelkonfiguration",
+	"apihelp-bs-dashboards-tasks-summary": "Bevarar kontrollpanelkonfiguration",
+	"apihelp-bs-dashboards-widgets-tasks-description": "Återkommer innehåll för någon kontrollpanelwidgeter",
+	"apihelp-bs-dashboards-widgets-tasks-summary": "Återkommer innehåll för någon kontrollpanelmojänger",
+	"action-dashboards-viewspecialpage-userdashboard": "visa specialsidan \"{{int:userdashboard}}\"",
+	"right-dashboards-viewspecialpage-userdashboard": "Åtkomst till specialsidan [[Special:UserDashboard]]."
+}

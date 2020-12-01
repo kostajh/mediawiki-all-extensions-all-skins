@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Skalman",
+			"WikiPhoenix"
+		]
+	},
+	"emaildiff-desc": "Gör det möjligt att skicka textdiffar i aviseringar via e-post",
+	"tog-emaildiff": "Skicka en diff över ändringar",
+	"emaildiff-newpage": "Det finns en ny sida:\n\n$1",
+	"emaildiff-intro": "Versionsskillnader:\n$1"
+}

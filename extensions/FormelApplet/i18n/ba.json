@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Айбикә",
+			"Ләйсән"
+		]
+	},
+	"formelapplet-desc": "Биттәргә [http://wiki.formelapplet.de FormelApplet] апплеттары өҫтәй.",
+	"formelapplet-nojava": "Был битте ҡулланыу өсөн $1 ҡуйығыҙ.",
+	"formelapplet-missing-parameter": "Параметрҙары юҡ (width, height или term/solution).",
+	"formelapplet-file-not-found": " $1 файлы табылманы.",
+	"formelapplet-error": "MediaWiki FormelApplet: <em>$1</em> ҡушымтаһында хата"
+}

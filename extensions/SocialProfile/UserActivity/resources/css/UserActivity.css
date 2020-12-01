@@ -1,0 +1,83 @@
+/* User Feed */
+.user-home-feed {
+	width: 60%;
+	padding-top: 15px;
+	float: left;
+}
+
+.user-home-links-container {
+	float: right;
+	padding-top: 15px;
+	width: 170px;
+	margin: 2px 0 0 0;
+}
+
+.user-home-links-container h2 {
+	color: #333;
+	font-size: 16px;
+	border-bottom: 1px solid #dcdcdc;
+	padding: 0 0 3px 0;
+	margin: 0 0 5px 0 !important;
+}
+
+.user-home-links-container a {
+	display: block;
+	padding: 4px 0 4px 0;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.user-home-links-container img {
+	margin: 0px 4px 0 0;
+	vertical-align: middle;
+}
+
+.user-home-friends-activity {
+	padding: 0 0 15px 0;
+}
+
+.user-home-friends-activity h2 {
+	letter-spacing: -1px;
+	color: #333;
+	font-size: 18px;
+	margin: 0 0 8px 0 !important;
+}
+
+.user-home-activity-timestamp {
+	color: #999;
+	font-size: 9px;
+	margin: 0 0 0 6px;
+}
+
+.user-home-activity {
+	border-bottom: 1px solid #dcdcdc;
+	padding: 7px 0;
+}
+
+.user-home-activity img {
+	vertical-align: middle;
+	margin: 0 5px 0 0;
+}
+
+.user-home-activity a {
+	text-decoration: none;
+}
+
+.border-fix {
+	border: 0 !important;
+}
+
+.item {
+	color: #666;
+	margin: 2px 25px;
+}
+
+.item a {
+	color: #666;
+}
+
+.item img {
+	border: 1px solid #dcdcdc;
+	padding: 1px;
+	background-color: #fff;
+}

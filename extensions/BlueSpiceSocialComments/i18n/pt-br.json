@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-socialcomments-desc": "Funcionalidade de comentário para BlueSpiceSocial",
+	"bs-socialcomments-type": "Comentário",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Comentário|Comentários}} ($1)",
+	"bs-socialcomments-header-create": "Comentário",
+	"bs-socialcomments-header": "[[User:$1|$2]] comentou \"[[$6|$7]]\"",
+	"bs-socialcomments-var-commentcount": "Contagem de comentários",
+	"echo-category-title-bs-social-comment-cat": "Comentários sobre entidades vigiadas",
+	"bs-social-notifications-comment-create": "Usuário {{GENDER:$1|$2 fez}} um novo comentário",
+	"bs-social-notifications-email-comment-create-subject": "Usuário {{GENDER:$1|$2 fez}} um novo comentário",
+	"bs-social-notifications-email-comment-create-body": "Usuário {{GENDER:$1|$2 comentou}} na sua postagem de $3 com o seguinte texto:\n$4",
+	"bs-social-notifications-web-comment-create-body": "Usuário {{GENDER:$1|$2 comentou}} na postagem de $3",
+	"bs-social-notifications-comment-edit": "Usuário {{GENDER:$1|$2 editou}} um comentário",
+	"bs-social-notifications-email-comment-edit-subject": "Usuário {{GENDER:$1|$2 editou}} um comentário",
+	"bs-social-notifications-email-comment-edit-body": "Usuário {{GENDER:$1|$2 editou}} um comentário em uma postagem de $3. Novo comentário é:\n$4",
+	"bs-social-notifications-web-comment-edit-body": "Usuário {{GENDER:$1|$2 editou}} um comentário na postagem de $3",
+	"bs-social-notifications-comment-delete": "Usuário {{GENDER:$1|$2 excluiu}} um comentário",
+	"bs-social-notifications-email-comment-delete-subject": "Usuário {{GENDER:$1|$2 excluiu}} um comentário",
+	"bs-social-notifications-email-comment-delete-body": "Usuário {{GENDER:$1|$2 excluiu}} um comentário na postagem de $3",
+	"bs-social-notifications-web-comment-delete-body": "Usuário {{GENDER:$1|$2 excluiu }} um comentário na postagem de $3",
+	"bs-social-notifications-comment-owner-create": "Usuário {{GENDER:$1|$2 fez}} um novo comentário em sua postagem",
+	"bs-social-notifications-email-comment-owner-create-subject": "Usuário {{GENDER:$1|$2 fez}} um novo comentário em sua postagem",
+	"bs-social-notifications-email-comment-owner-create-body": "Usuário {{GENDER:$1|$2 commented}} na sua postagem com o seguinte texto:\n$3",
+	"bs-social-notifications-web-comment-owner-create-body": "Usuário {{GENDER:$1|$2 comentou}} no sua postagem",
+	"bs-social-notifications-comment-owner-edit": "Usuário {{GENDER:$1|$2 editou}} um comentário na sua postagem",
+	"bs-social-notifications-email-comment-owner-edit-subject": "Usuário {{GENDER:$1|$2 editou}} um comentário na sua postagem",
+	"bs-social-notifications-email-comment-owner-edit-body": "Usuário {{GENDER:$1|$2 editou}} um comentário na sua postagem. Novo comentário é:\n$3",
+	"bs-social-notifications-web-comment-owner-edit-body": "Usuário {{GENDER:$1|$2 editou}} um comentário na sua postagem",
+	"bs-social-notifications-comment-owner-delete": "Usuário {{GENDER:$1|$2 excluiu}} um comentário na sua postagem",
+	"bs-social-notifications-email-comment-owner-delete-subject": "Usuário {{GENDER:$1|$2 excluiu}} um comentário na sua postagem",
+	"bs-social-notifications-email-comment-owner-delete-body": "Usuário {{GENDER:$1|$2 excluiu}} um comentário na sua postagem",
+	"bs-social-notifications-web-comment-owner-delete-body": "Usuário {{GENDER:$1|$2 excluiu}} um comentário na sua postagem",
+	"bs-social-notifications-comment-owner-edit-bundle": "Os comentários em sua postagem foram editados {{PLURAL:$1|$1 veze|$1 vezes}}",
+	"bs-social-notification-comment-primary-link-label": "Ver comentário",
+	"bs-social-notification-comment-parentowner-label": "Pós-criador: $1",
+	"bs-social-notification-comment-parententity-label": "Ver publicação"
+}

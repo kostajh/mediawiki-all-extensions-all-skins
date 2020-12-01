@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Consta",
+			"Crazymadlover",
+			"Glavkos",
+			"Nikosgranturismogt",
+			"Nikosguard",
+			"Omnipaedista",
+			"ZaDiak"
+		]
+	},
+	"security": "Αρχείο ασφαλείας",
+	"security-logpage": "Αρχείο ασφαλείας",
+	"security-info": "Υπάρχουν $1 σε αυτή τη σελίδα",
+	"security-info-toggle": "περιορισμοί ασφαλείας",
+	"security-inforestrict": "Ο $1 είναι περιορισμένος στο $2",
+	"security-desc-LS": "(ισχύει επειδή αυτή η σελίδα είναι σε  $1  \" $2 \")",
+	"security-desc-PR": "(έτοιμο από την καρτέλα \"προστασία\")",
+	"security-manygroups": "ομάδες $1 και $2",
+	"security-unchain": "Τροποποίηση ενεργειών ατομικά",
+	"security-type-category": "η κατηγορία",
+	"security-type-namespace": "ο ονοματοχώρος",
+	"restriction-read": "Ανάγνωση"
+}

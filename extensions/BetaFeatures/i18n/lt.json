@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albertas",
+			"Amire80",
+			"Eitvys200",
+			"Hugo.arg",
+			"Macofe",
+			"Manvydasz",
+			"Tomasdd"
+		]
+	},
+	"betafeatures-auto-enroll": "Automatiškai įjungti daugumą beta funkcijų",
+	"betafeatures-desc": "Leisti vartotojams įjungti ar išjungti viki funkcijas, kurios dar nėra paruoštos visuotiniam naudojimui",
+	"betafeatures-extension-type": "Beta funkcijos",
+	"betafeatures-section-desc": "Tai {{PLURAL:$1|yra nauja funkcija, kurią|yra naujos funkcijos, kurias|yra naujų funkcijų, kurias}} svarstome puslapiui {{SITENAME}}. Prašome išbandyti {{PLURAL:$1|ją|jas}} ir pateikti savo mintis, kad galėtumėme patobulinti {{PLURAL:$1|ją|jas}} remdamiesi jūsų atsiliepimu.",
+	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "Aptarimas",
+	"mw-ui-feature-info": "Informacija",
+	"mw-ui-feature-requirements-betafeatures": "Šiai funkcijai reikia, kad {{PLURAL:$1|ši funkcija būtų įgalinta|šios funkcijos būtų įgalintos}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Ši naršyklė nėra palaikoma|Šios naršyklės nėra palaikomos}}:",
+	"mw-ui-feature-requirements-javascript": "Šiai funkcijai reikia JavaScript.",
+	"mw-ui-feature-requirements-skins": "Ši funkcija veikia tik su {{PLURAL:$1|šia išvaizda|šiomis išvaizdomis}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Vienas naudotojas bando|$1 naudotojai bando|$1 naudotojų bando|0=Nėra naudotojų, kurie bando}} šią funkciją.",
+	"prefs-betafeatures": "Beta funkcijos",
+	"tooltip-pt-betafeatures": "Beta funkcijos"
+}

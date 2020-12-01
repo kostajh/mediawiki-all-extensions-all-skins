@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"tosfos"
+		]
+	},
+	"metamaster-desc": "A parser function that allows adding HTML <code><meta></code> tags to the page header"
+}

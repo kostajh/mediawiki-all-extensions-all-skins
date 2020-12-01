@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-socialcomments-desc": "Kommentarfunksjonalitet for BlueSpiceSocial",
+	"bs-socialcomments-type": "Kommentar",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Kommentar|Kommentarer}} ($1)",
+	"bs-socialcomments-header-create": "Kommentar",
+	"bs-socialcomments-header": "[[User:$1|$2]] kommenterte «[[$6|$7]]»",
+	"bs-socialcomments-var-commentcount": "Antall kommentarer",
+	"echo-category-title-bs-social-comment-cat": "Kommentarer på overvåkede entiteter",
+	"bs-social-notifications-comment-create": "Brukeren {{GENDER:$1|$2}} la inn en ny kommentar",
+	"bs-social-notifications-email-comment-create-subject": "Brukeren {{GENDER:$1|$2}} la inn en ny kommentar",
+	"bs-social-notifications-email-comment-create-body": "Brukeren {{GENDER:$1|$2}} kommenterte en post av $3 med følgende tekst:\n$4",
+	"bs-social-notifications-web-comment-create-body": "Brukeren {{GENDER:$1|$2}} kommenterte en post av $3",
+	"bs-social-notifications-comment-edit": "Brukeren {{GENDER:$1|$2}} redigerte en kommentar",
+	"bs-social-notifications-email-comment-edit-subject": "Brukeren {{GENDER:$1|$2}} redigerte en kommentar",
+	"bs-social-notifications-email-comment-edit-body": "Brukeren {{GENDER:$1|$2}} redigerte en kommentar på en post av $3. Den nye kommentaren er:\n$4",
+	"bs-social-notifications-web-comment-edit-body": "Brukeren {{GENDER:$1|$2}} redigerte en kommentar på en post av $3",
+	"bs-social-notifications-comment-delete": "Brukeren {{GENDER:$1|$2}} slettet en kommentar",
+	"bs-social-notifications-email-comment-delete-subject": "Brukeren {{GENDER:$1|$2}} slettet en kommentar",
+	"bs-social-notifications-email-comment-delete-body": "Brukeren {{GENDER:$1|$2}} slettet en kommentar på en post av $3",
+	"bs-social-notifications-web-comment-delete-body": "Brukeren {{GENDER:$1|$2}} slettet en kommentar på en post av $3",
+	"bs-social-notifications-comment-owner-create": "Brukeren {{GENDER:$1|$2}} la inn en kommentar på posten din",
+	"bs-social-notifications-email-comment-owner-create-subject": "Brukeren {{GENDER:$1|$2}} la inn en ny kommentar på posten din",
+	"bs-social-notifications-email-comment-owner-create-body": "Brukeren {{GENDER:$1|$2}} kommenterte posten din med følgende tekst:\n$3",
+	"bs-social-notifications-web-comment-owner-create-body": "Brukeren {{GENDER:$1|$2}} kommenterte posten din",
+	"bs-social-notifications-comment-owner-edit": "Brukeren {{GENDER:$1|$2}} redigerte en kommentar på posten din",
+	"bs-social-notifications-email-comment-owner-edit-subject": "Brukeren {{GENDER:$1|$2}} redigerte en kommentar på posten din",
+	"bs-social-notifications-email-comment-owner-edit-body": "Brukeren {{GENDER:$1|$2}} redigerte en kommentar på posten din. Ny kommentar er:\n$3",
+	"bs-social-notifications-web-comment-owner-edit-body": "Brukeren {{GENDER:$1|$2}} redigerte en kommentar på posten din",
+	"bs-social-notifications-comment-owner-delete": "Brukeren {{GENDER:$1|$2}} slettet en kommentar på posten din",
+	"bs-social-notifications-email-comment-owner-delete-subject": "Brukeren {{GENDER:$1|$2}} slettet en kommentar på posten din",
+	"bs-social-notifications-email-comment-owner-delete-body": "Brukeren {{GENDER:$1|$2}} slettet en kommentar på posten din",
+	"bs-social-notifications-web-comment-owner-delete-body": "Brukeren {{GENDER:$1|$2}} slettet en kommentar på posten din",
+	"bs-social-notifications-comment-owner-edit-bundle": "Kommentarer på posten din ble redigert {{PLURAL:$1|én gang|$1 ganger}}",
+	"bs-social-notification-comment-primary-link-label": "Vis kommentar",
+	"bs-social-notification-comment-parentowner-label": "Postoppretter: $1",
+	"bs-social-notification-comment-parententity-label": "Vis post"
+}

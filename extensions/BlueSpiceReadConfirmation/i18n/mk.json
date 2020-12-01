@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"bs-readconfirmation-column-read-at": "Прочитано на",
+	"bs-readconfirmation-not-read": "не е читано",
+	"bs-readconfirmation-action-remind": "Побарај потврда на читање",
+	"bs-readconfirmation-confirm-read-heading": "Потврда на читање",
+	"bs-readconfirmation-confirm-read-button-label": "Потврди",
+	"bs-readconfirmation-action-apiread-check-description": "провери потврда на читање за $1",
+	"bs-readconfirmation-action-apiread-confirm-description": "Означи го $1 како прочитано",
+	"bs-readconfirmation-action-apiread-remind-description": "Побарај потврда на читање за $1",
+	"bs-readconfirmation-api-error-no-page": "Не е дадена страница",
+	"bs-readconfirmation-api-error-no-non-minor-revision": "Не е пронајдена ниедна преработка",
+	"echo-category-title-bs-readconfirmation-cat": "Потврда на читање",
+	"bs-readconfirmation-label-ns-manager": "Потврда на читање",
+	"bs-readconfirmation-disabled-ns": "Потврда на читање не е овозможена",
+	"bs-readconfirmation-disabled-ns-short": "Оневозможено",
+	"bs-readconfirmation-graphicallist-btn-read": "Читај"
+}

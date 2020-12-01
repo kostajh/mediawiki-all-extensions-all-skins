@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"semanticpageseries-desc": "Crear una seria de paginas dempuèi un [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulari semantic]",
+	"spssuccesstitle": "Crear $1 paginas",
+	"spssuccess": "{{PLURAL:$1|Una pagina serà creada|$1 paginas seràn creadas}}.",
+	"spssuccess-returntoorigin": "Tornar a $1",
+	"spserror": "Una error s'es produita",
+	"spserror-diffnotsupported": "L'accion diff es pas suportada per las serias de pagina.",
+	"spserror-previewnotsupported": "L'accion de previsualizacion es pas suportada per las serias de pagina.",
+	"spserror-noiteratorname": "Cap d'iterator es pas estat especificat. Vos cal definir lo paramètre \"iterator\" dins l'apèl a la foncion #serieslink de l'analisador.",
+	"spserror-iteratorunknown": "L'iterator \"$1\" existís pas. Vos cal corregir lo paramètre \"iterator\" dins l'apèl a la foncion #serieslink de l'analisador.",
+	"spserror-noformname": "Cap de nom de formulari es pas estat provesit. Vos cal definir lo paramètre \"form\" dins la foncion #serieslink de l'analisador.",
+	"spserror-formunknown": "Lo formulari « $1 » existís pas.",
+	"spserror-notargetformname": "Cap de nom de formulari cibla es pas estat provesit. Vos cal definir lo paramètre \"target form\" dins l'apèl a la foncion #serieslink de l'analisador.",
+	"spserror-notargetfieldname": "Cap de nom de camp cibla es pas estat provesit. Vos cal definir lo paramètre \"target field\" dins l'apèl a la foncion #serieslink de l'analisador.",
+	"spserror-iteratorparammissing": "Los paramètres seguents de l'iterator son absents dins l'apèl a #serieslink:\n$1",
+	"spserror-noiteratordata": "Cap de paramètre de l'iterator es pas estat trobat dins las donadas mandadas.",
+	"spserror-pagegenerationlimitexeeded": "Avètz ensajat de generar {{PLURAL:$1|una pagina|$1 paginas}}. Aquò depassa vòstre limit autorizat de {{PLURAL:$2|una pagina|$2 paginas}}.",
+	"spserror-date-startdatemissing": "La data de començament es mancanta.",
+	"spserror-date-internalerror": "Una error s'es produita al moment de la creacion de las datas : $1",
+	"spserror-count-startvaluemalformed": "La valor de despart es pas un nombre.",
+	"spserror-count-endvaluemalformed": "La valor de fin es pas un nombre.",
+	"spserror-count-stepvaluemalformed": "La valor de l'increment es pas un nombre.",
+	"spserror-count-digitsvaluemalformed": "La valor de las chifras es pas un nombre."
+}

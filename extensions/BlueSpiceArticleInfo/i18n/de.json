@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Sebastian Wallroth",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-articleinfo-desc": "Zeigt Informationen über einen Artikel in der Statusleiste an",
+	"prefs-articleinfo": "Seiteninformationen",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Aktualisierungsintervall in Sekunden",
+	"bs-articleinfo-flyout-title": "Seiteninformationen",
+	"bs-articleinfo-flyout-intro": "Hier findest du auf die Seite bezogene Informationen. Du kannst ihre Qualität und Aktualität überprüfen und sehen, wie sie anderen Seiten im Wiki ähnelt.",
+	"bs-articleinfo-nav-link-title": "Seiteninformationen",
+	"bs-articleinfo-flyout-categorylinks-title": "Kategorien",
+	"bs-articleinfo-flyout-templatelinks-title": "Auf der Seite verwendete Vorlagen",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Keine Kategorien zugewiesen",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Keine Vorlagen verwendet",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Letzte Bearbeitung",
+	"bs-articleinfo-flyout-lastediteduser-text": "Letzter Bearbeiter",
+	"bs-articleinfo-newrevision-info-text": "Es liegt eine neue Version dieser Seite vor. Bitte aktualisiere die Seite, um den aktuellen Inhalt anzuzeigen.",
+	"bs-articleinfo-newrevision-info-text-reload": "Es ist eine neue Version dieser Seite verfügbar. [[:$1|Lade]] bitte die Seite neu, um den aktuellen Inhalt anzusehen.",
+	"bs-articleinfo-flyout-subpages-title": "Unterseiten",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Unterseiten",
+	"bs-articleinfo-dialog-subpages-title": "Unterseiten",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Legt die Aktualisierungsrate für den Wert \"Letzte Bearbeitung\" fest. Der Wert wird wird auf den Seiteninformationen in den Werkzeugen zum Qualitätsmanagement angezeigt."
+}

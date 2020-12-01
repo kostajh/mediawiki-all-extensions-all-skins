@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-insertTemplate-desc": "Dialogvindu for å sette inn en mal",
+	"bs-insertTemplate-button-template-title": "Sett inn eller rediger mal",
+	"bs-insertTemplate-dialog-title": "Sett inn mal",
+	"bs-insertTemplate-dialog-label-choose": "Velg mal",
+	"bs-insertTemplate-dialog-label-modify": "Endre mal",
+	"bs-insertTemplate-dialog-label-preview": "Forhåndsvis",
+	"apihelp-bs-inserttemplate-store-description": "Lister opp alle maler. Tillater sortering, filtrering og sideinndeling. Implementerer ExtJS Store-parametre.",
+	"apihelp-bs-inserttemplate-store-summary": "Lister opp alle maler. Tillater sortering, filtrering og sideinndeling. Implementerer ExtJS Store-parametre."
+}

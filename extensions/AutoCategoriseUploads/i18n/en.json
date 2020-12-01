@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ryan Schmidt"
+		]
+	},
+	"autocatuploads": "AutoCategoriseUploads",
+	"autocatuploads-desc": "Automatically add categories based on file metadata."
+}

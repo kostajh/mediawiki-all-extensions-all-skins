@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ryan Schmidt"
+		]
+	},
+	"forcepreview": "$1 (use preview first)",
+	"forcepreview-desc": "Force preview for unprivileged users",
+	"action-forcepreviewexempt": "may save without using Show preview",
+	"right-forcepreviewexempt": "May save without using Show preview"
+}

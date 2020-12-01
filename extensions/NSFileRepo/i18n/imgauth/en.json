@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jack D. Pond"
+		]
+	},
+	"img-auth-desc": "Image authorisation script",
+	"img-auth-accessdenied": "Access Denied",
+	"img-auth-nopathinfo": "Missing PATH_INFO. Your server is not set up to pass this information - may be CGI-based and can't support img_auth. See `Image Authorization` on MediaWiki.",
+	"img-auth-notindir": "Requested path not in upload directory.",
+	"img-auth-badtitle": "Unable to construct a valid Title from `$1`.",
+	"img-auth-nologinnWL": "Not logged in and `$1` not in whitelist.",
+	"img-auth-nofile": "`$1` does not exist.",
+	"img-auth-isdir": "`$1` is a directory.",
+	"img-auth-streaming": "Streaming `$1`.",
+	"img-auth-public": "The function of img_auth.php is to output files from a private wiki. This wiki is configured as a public wiki. For optimal security, img_auth.php is disabled for this case.",
+	"img-auth-noread": "User does not have access to read `$1`."
+}

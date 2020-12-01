@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milimetric"
+		]
+	},
+	"dashiki-desc": "Display and editing of dashboard configuration",
+	"dashiki-build": "Build a dashboard with this config using the command:",
+	"dashiki-annotate": "View and add annotations:",
+	"dashiki-configuration-doc-link-text": "see documentation"
+}

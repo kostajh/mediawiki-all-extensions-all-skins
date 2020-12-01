@@ -1,0 +1,31 @@
+.debatetree ul {
+	list-style: none;
+	margin: 0 !important;
+}
+
+.debatetree ul li {
+	background: #f8f9fa;
+	border: 1px solid #a2a9b1;
+	cursor: pointer;
+	margin: 1em 0 0 0 !important;
+	padding: 1em;
+}
+
+.debatetree-status {
+	float: right;
+	margin-left: 1em;
+	padding: 0 .5em;
+}
+
+.debatetree-sustained {
+	background: #5f5;
+}
+
+.debatetree-refuted {
+	background: #f55;
+}
+
+.debatetree-counts {
+	color: #a2a9b1;
+	font-size: small;
+}

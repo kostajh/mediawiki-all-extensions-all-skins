@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"OC Ripper",
+			"Vlad5250"
+		]
+	},
+	"mobileapp-desc": "Poslužuje stilove i skripte za uporabu u Wikimedijinim mobilnim izvršnicima",
+	"tag-mobile_app_edit": "Izmjena mobilnim izvršnikom",
+	"tag-mobile_app_edit-description": "Izmjene načinjene mobilnim izvršnicima",
+	"tag-android_app_edit": "uređivanje prilogom za Android",
+	"tag-android_app_edit-description": "Uređivanja načinjena uz mobilni prilog za Android",
+	"tag-ios_app_edit": "uređivanje prilogom za iOS",
+	"tag-ios_app_edit-description": "Uređivanja načinjena uz mobilni prilog za iOS",
+	"abusefilter-edit-builder-vars-user-app": "Je li korisnik uređuje iz mobilnoga priloga"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"bs-authors-desc": "يعرض صورة الملف الشخصي لمؤلفي الصفحة",
+	"prefs-authors": "مؤلفو هذه الصفحة",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|مؤلف|مؤلفة}}|مؤلفون}}",
+	"bs-authors-profileimage": "صورة الملف الشخصي",
+	"bs-authors-profileimage-change": "تغيير صورة الملف الشخصي",
+	"bs-authors-show-all-authors": "المزيد من الكتاب المتاحين",
+	"bs-authors-pref-show": "عرض المؤلفين",
+	"bs-authors-switch-description": "يخفي المؤلفين على هذه الصفحة.",
+	"bs-authors-navigation-link-title": "مؤلفو هذه الصفحة",
+	"bs-authors-navigation-link-text": "المؤلفون",
+	"bs-authors-flyout-title": "مؤلفو هذه الصفحة",
+	"bs-authors-author-type-originator": "المؤلف الأصلي",
+	"bs-authors-author-type-editor": "محرر",
+	"apihelp-bs-pageauthors-store-summary": "سرد جميع مؤلفي الصفحة المتوفرة في السياق"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"categorywatch-desc": "Rozšěrja funkcionalitu wobkedźbowanki wo zdźělenje wo změnach čłonstwa wobkedźbowanych kategorijow",
+	"categorywatch-emailsubject": "Aktiwita inkluziwnje wobkedźbowaneje kategorije \"$1\"",
+	"categorywatch-catmovein": "přesuny $1 do kategorije $2 z $3",
+	"categorywatch-catmoveout": "přesuny $1 z kategorije $2 do $3",
+	"categorywatch-catadd": "přida $1 kategoriji $2",
+	"categorywatch-catsub": "wotstroni $1 z kategorije $2",
+	"categorywatch-autocat": "Wot $1 awtomatisce wobkedźbowany"
+}

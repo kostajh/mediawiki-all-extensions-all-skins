@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"extralanguagelink-desc": "Додава уште јазични врски во лентата „на други јазици“",
+	"extralanguagelink-param-class": "класа",
+	"extralanguagelink-param-hreflang": "целен јазик",
+	"extralanguagelink-param-lang": "јазик",
+	"extralanguagelink-param-style": "стил",
+	"extralanguagelink-param-title": "наслов",
+	"extralanguagelink-badinterwiki": "Јазичната претставка „$1:“ не е на списокот на допуштени претставки за меѓујазични врски.",
+	"extralanguagelink-badtitle": "Не можев да го расчленам насловот „$1“."
+}

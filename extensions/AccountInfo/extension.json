@@ -1,0 +1,40 @@
+{
+	"name": "AccountInfo",
+	"version": "0.2.0",
+	"author": [
+		"Kunal Mehta",
+		"Benjamin Lees",
+		"Prateek Saxena"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:AccountInfo",
+	"descriptionmsg": "accountinfo-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"SpecialPages": {
+		"AccountInfo": "MediaWiki\\AccountInfo\\SpecialAccountInfo"
+	},
+	"MessagesDirs": {
+		"AccountInfo": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"AccountInfoAlias": "AccountInfo.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\AccountInfo\\": "includes/"
+	},
+	"ResourceModules": {
+		"ext.AccountInfo.special": {
+			"styles": "ext.AccountInfo.special.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "AccountInfo/modules"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"updatemediawiki": "Ενημέρωση του MediaWiki",
+	"updatemediawiki-desc": "Επιτρέπει την ενημέρωση του MediaWiki μέσω ειδικής σελίδας",
+	"updatemediawiki-current": "Τρέχουσα έκδοση $1",
+	"updatemediawiki-update-nofound": "Δεν υπάρχει διαθέσιμη αναβάθμιση",
+	"updatemediawiki-update-found": "Βρέθηκε νέα ενημέρωση: $1",
+	"updatemediawiki-update-downloading": "Λήψη νέας ενημέρωσης",
+	"updatemediawiki-update-saved": "Η ενηέρωση αντιγράφηκε και αποθηκεύτηκε",
+	"updatemediawiki-update-exist": "Η ενημέρωση έχει ήδη αναβαθμιστεί",
+	"updatemediawiki-update-copyready": "Αντιγραφή έτοιμου",
+	"updatemediawiki-update-database": "Ενημέρωση της βάσης δεδομένων τώρα;",
+	"updatemediawiki-update-updateready": "Η ενημέρωση είναι έτοιμη",
+	"updatemediawiki-update-install": "Εγκατάσταση τώρα;",
+	"updatemediawiki-update-updated": "Το MediaWiki ενημερώθηκε στην έκδοση $1",
+	"updatemediawiki-update-error": "Αποτυχία εύρεσης των πιο πρόσφατων αναβαθμίσεων",
+	"updatemediawiki-update-aborted": "Αποτυχία αποθήκευσης της νέας ενημέρωσης. Η λειτουργία εγκαταλείφθηκε"
+}

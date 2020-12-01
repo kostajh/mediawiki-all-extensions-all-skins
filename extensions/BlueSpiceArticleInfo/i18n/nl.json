@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"McDutchie",
+			"Niknetniko",
+			"Ribert",
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"bs-articleinfo-desc": "Geeft informatie over een pagina in een statusbalk",
+	"prefs-articleinfo": "Paginagegevens",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Interval voor bijwerken, in seconden:",
+	"bs-articleinfo-flyout-title": "Paginagegevens",
+	"bs-articleinfo-flyout-intro": "Overzicht van activiteiten op deze pagina",
+	"bs-articleinfo-nav-link-title": "Paginagegevens",
+	"bs-articleinfo-flyout-categorylinks-title": "Categorieën",
+	"bs-articleinfo-flyout-templatelinks-title": "Sjablonen gebruikt op de pagina",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Geen categorieën toegewezen",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Er worden geen sjablonen gebruikt",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Laatste bewerking",
+	"bs-articleinfo-flyout-lastediteduser-text": "Laatste bewerker",
+	"bs-articleinfo-flyout-subpages-title": "Subpagina's",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Subpagina's",
+	"bs-articleinfo-dialog-subpages-title": "Subpagina's"
+}

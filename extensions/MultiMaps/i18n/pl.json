@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail"
+		]
+	},
+	"multimaps-desc": "Umożliwia użytkownikom wyświetlenie map i współrzędnych przy użyciu wielu usług mapowania",
+	"multimaps-loading-map": "Wczytywanie mapy...",
+	"multimaps-mapservices-must-not-empty-array": "Zmienna „$1” nie może być pustą tablicą",
+	"multimaps-element-parameters-not-processed": "następujące ustawienia nie zostały przetworzone: $1",
+	"multimaps-circle-radius-not-defined": "dla okręgu powinien być określony promień",
+	"multimaps-unknown-parameter": "Nieznany parametr: „$1”",
+	"multimaps-method-error-unknown-action": "$1: Nieznana akcja",
+	"multimaps-method-error-unexpected-result": "$1: Nieoczekiwany wynik funkcji"
+}

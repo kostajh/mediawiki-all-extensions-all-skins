@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"configmanager-admintool-label": "Yapılandırma yöneticisi",
+	"action-configmanager-viewspecialpage": "\"{{int:configmanager}}\" özel sayfayı görüntüle",
+	"configmanager": "Yapılandırma yöneticisi",
+	"configmanager-desc": "Hizmetlilere, tüm vikiyi tek bir özel sayfadan yapılandırma imkanı sunar.",
+	"configmanager-discardchanges": "Değişiklikleri gözardı edilsin mi?",
+	"configmanager-noentry": "Giriş bulunamadı",
+	"apihelp-configmanager-tasks-summary": "Görevleri yönetin",
+	"apihelp-configmanager-store-summary": "Mağazaları yönetin",
+	"right-configmanager-viewspecialpage": "[[Special:ConfigManager]] özel sayfaya erişin"
+}

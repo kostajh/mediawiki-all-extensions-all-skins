@@ -1,0 +1,7 @@
+{
+	"@metadata": {},
+	"emaildiff-desc": "Allow sending of text diffs in notification emails",
+	"tog-emaildiff": "Send a diff of changes",
+	"emaildiff-newpage": "This is a new page:\n\n$1",
+	"emaildiff-intro": "Version differences:\n$1"
+}

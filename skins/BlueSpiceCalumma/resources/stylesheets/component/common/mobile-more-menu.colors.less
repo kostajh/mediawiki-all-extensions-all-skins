@@ -1,0 +1,50 @@
+body div.bs-mobile-more-menu {
+	a.bs-mobile-more-menu-button {
+		& > i,
+		& > i::before {
+			color: @theme-mobile-more-menu-button-open-fg-color;
+			background-color: @theme-mobile-more-menu-button-open-bg-color;
+		}
+		&:hover i,
+		&:hover i::before {
+			color: @theme-mobile-more-menu-button-open-fg-color-hover;
+			background-color: @theme-mobile-more-menu-button-open-bg-color-hover;
+		}
+	}
+	.dropdown-menu {
+		.mixin-mobile-menu(
+			@theme-mobile-more-menu-fg-color,
+			@theme-mobile-more-menu-bg-color,
+			@theme-mobile-more-menu-fg-color-hover,
+			@theme-mobile-more-menu-bg-color-hover
+		);
+		a.bs-mobile-more-menu-button.bs-mobile-more-menu-button {
+			& > i,
+			& > i::before {
+				color: @theme-mobile-more-menu-button-close-fg-color;
+				background-color: transparent;
+			}
+			&:hover > i {
+				&::before {
+					color: @theme-mobile-more-menu-button-close-fg-color-hover;
+					background-color: transparent;
+				}
+			}
+		}
+	}
+}
+
+.mixin-mobile-menu( @color, @bg-color, @color-hover, @bg-color-hover ) {
+	background-color: @bg-color;
+	ul {
+		li{
+			a {
+				color: @color;
+				&:hover{
+					background-color: @bg-color-hover;
+					color: @color-hover;
+				}
+			}
+		}
+	}
+}

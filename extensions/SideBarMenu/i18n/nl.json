@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"AvatarTeam",
+			"Rangekill",
+			"SPQRobin",
+			"Siebrand",
+			"Wiki13"
+		]
+	},
+	"sidebarmenu-desc": "Een eenvoudige menubalkparser waarmee in- en uiklapbare menu's en submenu's gemaakt kunnen worden",
+	"sidebarmenu-parser-input-error": "Er is een foutmelding uit de parser teruggekomen: $1",
+	"sidebarmenu-parser-syntax-error": "Het was niet mogelijk om \"$1\" te verwerken. Zorg ervoor dat de syntaxis correct is.",
+	"sidebarmenu-js-init-error": "Het laden van de JavaScriptbronnen is mislukt.",
+	"sidebarmenu-edit": "Menu bewerken",
+	"sidebarmenu-parser-menuitem-expanded-null": "Er is een ongeldige waarde opgegeven. De waarde moet null, waar of onwaar zijn."
+}

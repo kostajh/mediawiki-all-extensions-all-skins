@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dvorapa",
+			"Ilimanaq29"
+		]
+	},
+	"configmanager-admintool-label": "Nastavit manažera",
+	"action-configmanager-viewspecialpage": "Zobrazit speciální stránku \"{{int:configmanager}}\"",
+	"configmanager": "Konfigurační manažer",
+	"configmanager-discardchanges": "Zahodit změny?",
+	"configmanager-noentry": "Žádný záznam nenalezen"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"smoothgallery": "SmoothGallery",
+	"smoothgallery-desc": "Permite usuarios crear galerías con imágenes que han sido cargadas.\nPermite más opciones de SmoothGallery",
+	"smoothgallery-title": "SmoothGallery",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery: $1",
+	"smoothgallery-error": "<b>error SmoothGallery:</b>",
+	"smoothgallery-gallery-not-found": "La galería solicitada no existe.",
+	"smoothgallery-not-found": "No se agregó ninguna imagen a la galería.\nAgrega al menos una imagen.",
+	"smoothgallery-no-images": "Ninguna imagen se encontró en esta galería.\nAsegúrate que {{PLURAL:$3|la imagen solicitada exista|todas las imágenes solicitadas existan}}.\n{{PLURAL:$2|La siguientes imagen no se encontró|Las siguientes imágenes no se encontraron}}: $1",
+	"smoothgallery-invalid-images": "{{PLURAL:$2|La siguiente imagen solicitada fue|Las siguientes imágenes solicitadas fueron}} de un tipo inválido: $1",
+	"smoothgallery-unexpected-error": "Se produjo un error inesperado.\nEnvía un informe de fallo.",
+	"smoothgallery-javascript-disabled": "JavaScript es requerido para ver esta galería apropiadamente."
+}

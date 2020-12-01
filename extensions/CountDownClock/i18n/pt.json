@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"countDownClock-desc": "Adiciona uma função ao analisador sintático para mostrar uma contagem de tempo regressiva",
+	"countDownClock-invalidtime": "Forneça um parâmetro endTime (hora de fim) válido, por favor",
+	"countDownClock-days": "$1 {{PLURAL:$1|Dia|Dias}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|Hora|Horas}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|Minuto|Minutos}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|Segundo|Segundos}}",
+	"countDownClock-expired": "Expirado"
+}

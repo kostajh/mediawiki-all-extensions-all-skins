@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"SVG",
+			"Umherirrender"
+		]
+	},
+	"nobogususerpages-desc": "{{desc|name=NoBogusUserpages|url=https://www.mediawiki.org/wiki/Extension:NoBogusUserpages}}",
+	"badaccess-bogususerpage": "Error message which will be shown when an userpage does not exist and the user does not have permission to create a bogus userpage",
+	"action-createbogususerpage": "{{doc-action|createbogususerpage}}",
+	"right-createbogususerpage": "{{doc-right|createbogususerpage}}"
+}

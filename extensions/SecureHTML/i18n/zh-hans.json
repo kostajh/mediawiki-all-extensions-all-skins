@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arthur2e5",
+			"Li3939108",
+			"Liuxinyu970226",
+			"Yfdyh000"
+		]
+	},
+	"securehtml": "安全的HTML",
+	"securehtml-desc": "允许您在经授权和安全的方式中包含任意HTML",
+	"securehtml-nokeys": "错误：<code>$wgSecureHTMLSecrets</code>未填写。",
+	"securehtml-hashrequired": "错误：需要哈希值。",
+	"securehtml-invalidhash": "错误：无效的哈希值。",
+	"securehtml-input-title": "HTML输入",
+	"securehtml-generatedoutput-title": "生成的输出",
+	"securehtml-renderedhhtml-title": "呈现的HTML",
+	"securehtml-form-keyname": "键值名称（可选）",
+	"securehtml-form-keysecret": "密钥",
+	"securehtml-form-html": "原始HTML",
+	"securehtml-form-submit": "提交",
+	"securehtml-inputinstructions": "输入密钥名（可选）、密钥代码和所需的原始HTML。如果没有指定密钥名，则将假定第一密钥是<code>$wgSecureHTMLSecrets</code>。",
+	"securehtml-outputinstructions": "完全复制上面代码并将之粘贴于wiki编辑器。如果生成代码不工作，请尝试从载入的HTML中移除所有换行符并重新生成。"
+}

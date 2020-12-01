@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"bs-insertTemplate-desc": "مربع حوار لإدراج قالب",
+	"bs-insertTemplate-button-template-title": "أضف أو عدل قالبًا",
+	"bs-insertTemplate-dialog-title": "إدراج القالب",
+	"bs-insertTemplate-dialog-label-choose": "اختيار قالب",
+	"bs-insertTemplate-dialog-label-modify": "تعديل القالب",
+	"bs-insertTemplate-dialog-label-preview": "معاينة",
+	"apihelp-bs-inserttemplate-store-description": "يسرد جميع القوالب، يتيح الفرز والتصفية وترقيم الصفحات، ينفذ وسائط مخزن ExtJS.",
+	"apihelp-bs-inserttemplate-store-summary": "يسرد جميع القوالب، يتيح الفرز والتصفية وترقيم الصفحات، ينفذ وسائط مخزن ExtJS."
+}

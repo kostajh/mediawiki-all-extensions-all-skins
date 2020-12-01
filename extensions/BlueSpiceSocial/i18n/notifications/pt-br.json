@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"echo-category-title-bs-social-entity-cat": "Ações de entidade em páginas vigiadas",
+	"bs-social-notifications-entity-create": "Entidade social do tipo \"$1\" criada",
+	"bs-social-notifications-email-entity-create-subject": "Entidade social do tipo \"$1\" criada",
+	"bs-social-notifications-email-entity-create-body": "Usuário {{GENDER:$1|$2 criou}} um novo \"$3\"",
+	"bs-social-notifications-email-entity-create-text-body": "Usuário {{GENDER:$1|$2 editou}} um novo \"$3\" com o seguinte texto: $4",
+	"bs-social-notifications-web-entity-create-body": "Usuário {{GENDER:$1|$2 criou}} um novo \"$3\"",
+	"bs-social-notifications-entity-edit": "Entidade social do tipo \"$1\" foi editada",
+	"bs-social-notifications-email-entity-edit-subject": "Entidade social do tipo \"$1\" foi editada",
+	"bs-social-notifications-email-entity-edit-body": "Usuário {{GENDER:$1|$2 editou}} a entidade social do tipo \"$3\"",
+	"bs-social-notifications-email-entity-edit-text-body": "Usuário {{GENDER:$1|$2 editou}} a entidade social do tipo \"$3\" com o seguinte texto:\n$4",
+	"bs-social-notifications-web-entity-edit-body": "Usuário {{GENDER:$1|$2 editou}} a entidade social do tipo \"$3\"",
+	"bs-social-notifications-entity-delete": "Entidade social do tipo \"$1\" foi excluída",
+	"bs-social-notifications-email-entity-delete-subject": "Entidade social do tipo \"$1\" foi excluída",
+	"bs-social-notifications-email-entity-delete-body": "Usuário {{GENDER:$1|$2 excluiu}} a entidade social do tipo \"$3\"",
+	"bs-social-notifications-web-entity-delete-body": "Usuário {{GENDER:$1|$2 excluiu}} a entidade social do tipo \"$3\"",
+	"bs-social-notification-primary-link-label": "Ver entidade"
+}

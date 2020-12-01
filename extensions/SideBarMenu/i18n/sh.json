@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"sidebarmenu-parser-input-error": "Parser je dao pogrešku: $1",
+	"sidebarmenu-parser-syntax-error": "Nije moguće predati niz \"$1\". Molimo provijerite je li sintaksa ispravna.",
+	"sidebarmenu-js-init-error": "Učitavanje resursa JavaScripta nije uspjelo.",
+	"sidebarmenu-edit": "Uredi",
+	"sidebarmenu-parser-menuitem-expanded-null": "Zadana je nevažeća vrijednost. Treba da bude „true“, „false“ ili da stoji nezadana.",
+	"sidebarmenu-parser-config-error": "Desili su greške pri potvrđavanju unosnih parametara",
+	"sidebarmenu-parser-subpage-error-title-not-found": "Nisam mogao naći referencni naslov podstranice"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rangekill",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"security": "Paginabeveiligingslogboek",
+	"security-desc": "Breidt de paginabescherming van MediaWiki uit door het bekijken van pagina's te beperken",
+	"security-logpage": "Paginabeveiligingslogboek",
+	"security-logpagetext": "Dit is een logboek met de handelingen die geblokkeerd zijn door de uitbreiding [https://www.mediawiki.org/wiki/Extension:SimpleSecurity SimpleSecurity].",
+	"badaccess-read": "Waarschuwing: \"$1\" verwijst naar deze pagina, maar u hebt niet de toegangsrechten om deze pagina te bekijken.",
+	"security-info": "Er zijn $1 voor deze pagina",
+	"security-info-toggle": "beveiligingsbeperkingen",
+	"security-inforestrict": "$1 is alleen mogelijk door $2",
+	"security-desc-LS": "(dit is van toepassing omdat deze pagina zich in de $1 \"$2\" bevindt)",
+	"security-desc-PR": "(ingesteld vanuit de functie \"beveiligen\")",
+	"security-infosysops": "Beperkingen zijn niet van kracht zijn omdat u lid bent van de groep beheerders",
+	"security-manygroups": "groepen $1 en $2",
+	"security-unchain": "Handelingen individueel wijzigen",
+	"security-type-category": "de categorie",
+	"security-type-namespace": "de naamruimte",
+	"security-restricttogroup": "Toegang tot de inhoud is beperkt tot de leden van de groep \"$1\"",
+	"restriction-read": "Lezen"
+}

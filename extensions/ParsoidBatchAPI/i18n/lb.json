@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"apierror-parsoid-batch-batchtoolarge": "Batch ze grouss, d'Limite sinn der 500.",
+	"apierror-parsoid-batch-invalidtitle": "Net valabelen Titel ($1)."
+}

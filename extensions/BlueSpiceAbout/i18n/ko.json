@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jerrykim306",
+			"Revi",
+			"Ykhwong"
+		]
+	},
+	"bs-bluespiceabout-desc": "블루스파이스에 대한 정보.",
+	"bs-bluespiceabout-about-bluespice": "블루스파이스에 대하여",
+	"bluespiceabout": "블루스파이스에 대하여",
+	"prefs-bluespiceabout": "블루스파이스에 대하여",
+	"bs-bluespiceabout-show-menu-links": "메인 메뉴에 \"{{int:bs-bluespiceabout-about-bluespice}}\" 링크를 표시합니다",
+	"action-bluespiceabout-viewspecialpage": "\"{{int:bs-bluespiceabout-about-bluespice}}\"특수 문서 보기",
+	"right-bluespiceabout-viewspecialpage": "[[Special:BlueSpiceAbout]] 특수 문서로 접근"
+}

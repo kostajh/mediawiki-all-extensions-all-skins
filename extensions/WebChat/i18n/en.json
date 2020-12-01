@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Leverington <robert@rhl.me.uk>",
+			"Purodha <http://ksh.wikipedia.org/wiki/User:Purodha>"
+		]
+	},
+	"webchat": "Web chat",
+	"webchat-desc": "Adds a [[Special:WebChat|special page]] used to chat in real time with other wiki users",
+	"webchat-header": "This special page allows you to collaborate in real time with other users of the wiki.\nTo connect simply press the \"Connect\" button.\nIf you are logged in your nickname will have been prefilled.\nAnonymous users are given an automatically generated one, but it can be changed.",
+	"action-webchat": "allowed to use web chat",
+	"right-webchat": "Allowed to use [[Special:WebChat|web chat]]"
+}

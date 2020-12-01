@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Александр Сигачёв"
+		]
+	},
+	"logofunctions-desc": "Добавляет функцию парсера для работы с логотипом вики",
+	"logofunctions-filenotexist": "Ошибка. [[:File:$1]] не существует."
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"purgeclickthrough-desc": "No redirigir páginas con «?action=purge»; en su lugar, permitir clic efectivo (para propósitos de depuración)"
+}

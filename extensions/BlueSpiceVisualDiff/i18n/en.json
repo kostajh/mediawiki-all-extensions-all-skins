@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel"
+		]
+	},
+	"bs-visualdiff-extension-description": "Formatted display of differences between two revisions.",
+	"bs-visualdiff-return-to-history": "Return to history page",
+	"bs-visualdiff-error-oldid-invalid": "The provided base revision is invalid.",
+	"bs-visualdiff-error-diff-invalid": "The provided diff revision is invalid.",
+	"bs-visualdiff-popup-next": "Next&nbsp;change",
+	"bs-visualdiff-popup-prev": "Previous&nbsp;change",
+	"bs-visualdiff-classicdiffengine-tab": "Classic",
+	"bs-visualdiff-htmldiffengine-tab": "Visual",
+	"bs-visualdiff-unifiedtextdiffengine-tab": "WikiText",
+	"bs-visualdiff-removed-text": "This element has been removed",
+	"bs-visualdiff-added-text": "This element has been added",
+	"bs-visualdiff-changed-text": "This element has been changed"
+}

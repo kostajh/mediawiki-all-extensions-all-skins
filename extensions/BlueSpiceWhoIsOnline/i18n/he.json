@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2",
+			"Steeve815"
+		]
+	},
+	"bs-whoisonline-desc": "הצגת רשימה של המשתמשים המחוברים לאתר",
+	"bs-whoisonline-nousers": "אין משתמשים מחוברים.",
+	"bs-whoisonline-widget-title": "מי מחובר?",
+	"prefs-whoisonline": "מי מחובר?",
+	"bs-whoisonline-pref-limitcount": "המספר המרבי של המשתמשים להצגה:",
+	"bs-whoisonline-pref-orderby": "מיון לפי:",
+	"bs-whoisonline-pref-maxidletime": "מספר השניות שחולפות עד שהמשתמש מסומן כמשתמש שאינו מחובר:",
+	"bs-whoisonline-pref-orderby-time": "הזמן שחלף מאז הכניסה",
+	"bs-whoisonline-pref-orderby-name": "שם",
+	"bs-whoisonline-pref-interval": "כל כמה שניות לעדכן:",
+	"bs-whoisonline-tag-whoisonlinecount-desc": "הצגת מספר המשתמשים שהיו מחוברים לחשבון ב־10 הדקות האחרונות.",
+	"bs-whoisonline-tag-whoisonlinepopup-desc": "הצגת רשימת המשתמשים שהיו מחוברים לחשבון ב־10 הדקות האחרונות.",
+	"bs-whoisonline-collection-var-login": "כניסה"
+}

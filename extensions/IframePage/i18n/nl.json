@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mainframe98",
+			"Sjoerddebruin"
+		]
+	},
+	"iframepage": "Iframe-pagina",
+	"iframepage-desc": "Maakt het insluiten van een iframe in een speciale pagina mogelijk",
+	"iframepage-error-wgifsrc": "De <code>$wgIframePageSrc</code> variabele moet ingesteld zijn in <code>LocalSettings.php</code>."
+}

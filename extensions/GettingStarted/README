@@ -1,0 +1,64 @@
+extensions/GettingStarted
+https://www.mediawiki.org/wiki/Extension:GettingStarted
+
+The GettingStarted extension
+* Maintains lists of pages that need easy editing work based on article
+  categories such as 'Category:All articles needing copy edit'
+* Creates a new API, GettingStartedGetPages.  This can recommend an article
+  that needs work, based on the above lists
+* If the user chooses a task, it shows an article in that category with a taskbar
+  that
+  - invites the user to fix the article,
+  - offers to show help (using guided tours),
+  - links to another article in the same task.
+
+To use:
+* Put the extension files in your extension directory
+* Add the following line to your LocalSettings.php
+require_once( "$IP/extensions/GettingStarted/GettingStarted.php" );
+* Categorize some wiki articles in the main namespace with the categories in
+  $wgGettingStartedCategoriesForTaskTypes.
+* Create a new user to test.
+
+CentralAuth (https://www.mediawiki.org/wiki/Extension:CentralAuth) is supported,
+but not required.
+
+CirrusSearch and PageImages are required if you use the 'morelike'
+suggestion type (pages similar to a given page based on text).  This
+is used by the flyout and post-edit recommendations (currently an experiment).
+
+Dependencies
+
+* https://www.mediawiki.org/wiki/Extension:EventLogging - Used for logging
+* https://www.mediawiki.org/wiki/Extension:GuidedTour - Used for introductory
+tours
+* Read access to the MediaWiki API is required
+* phpredis extension installed on the same machine, and Redis installed on some
+machine that can be accessed.
+
+That means phpredis needs to be (re-)compiled against 2.6 if
+upgrading from 2.4.
+
+For the server, Ubuntu users can use the PPA at
+https://launchpad.net/~rwky/+archive/redis
+
+For phpredis, follow https://github.com/nicolasff/phpredis#installation
+
+Then add 'extension=redis.so' to php.ini and restart PHP-FPM (or other
+process running PHP)
+
+License
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.

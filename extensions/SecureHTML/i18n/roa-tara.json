@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"securehtml": "HTML secure",
+	"securehtml-desc": "Te lasse 'ngludere HTML aribtrarie jndr'à 'nu mode secure e autorizzate",
+	"securehtml-nokeys": "Errore: <code>$wgSecureHTMLSecrets</code> non g'ha state anghiute.",
+	"securehtml-hashrequired": "Errore: Richieste l'Hash.",
+	"securehtml-invalidhash": "Errore: Hash invalide.",
+	"securehtml-input-title": "HTML de ingresse",
+	"securehtml-generatedoutput-title": "Resultate generate",
+	"securehtml-renderedhhtml-title": "HTML renderizzate",
+	"securehtml-form-keyname": "Nome d'a chiave (opzionale)",
+	"securehtml-form-keysecret": "Chiave segrete",
+	"securehtml-form-html": "HTML grezze",
+	"securehtml-form-submit": "Conferme",
+	"securehtml-inputinstructions": "Mitte 'nu nome d'a chiave (facoltative), segrete d'a chiave, e l'HTML grezze desiderate.\nCe non ge stè 'u nome d'a chiave specificate, 'a prima chiave jndr'à <code>$wgSecureHTMLSecrets</code> avène pigghiate.",
+	"securehtml-outputinstructions": "Copie 'u codice de sus SATTE SATTE e 'ngollale jndr'à 'u cangiatore de uicchi.\nCe 'u codece generate non ge funzione, pruève a luà tutte le linèe da l'HTML de ingresse e riggenere."
+}

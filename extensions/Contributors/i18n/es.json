@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Baiji",
+			"Crazymadlover",
+			"Fitoschido",
+			"Imre",
+			"Kobazulo",
+			"Macofe",
+			"Sanbec",
+			"Tiberius1701"
+		]
+	},
+	"contributors": "Colaboradores",
+	"contributors-desc": "Resume los principales colaboradores en una página",
+	"contributors-toolbox": "Colaboradores de la página",
+	"contributors-legend": "Lista de los principales colaboradores en esta página",
+	"contributors-target": "Título:",
+	"contributors-submit": "Mostrar",
+	"contributors-subtitle": "Principales colaboradores en $1",
+	"contributors-others-long": "Hay {{PLURAL:$1|otro colaborador|otros $1 colaboradores}} en esta página.",
+	"contributors-others": "y {{PLURAL:$1|otro|otros $1}}",
+	"contributors-badtitle": "El título no es válido.",
+	"contributors-nosuchpage": "La página $1 no existe.",
+	"contributors-filterip": "Ocultar las direcciones IP",
+	"contributors-name": "Nombre de usuario",
+	"contributors-revisions": "Número de revisiones",
+	"contributors-first-edit": "Fecha de la primera edición",
+	"contributors-last-edit": "Fecha de la última edición",
+	"contributors-add-subpages": "Añadir subpáginas",
+	"apihelp-query+contributors-example-1": "Mostrar colaboradores de la página principal"
+}

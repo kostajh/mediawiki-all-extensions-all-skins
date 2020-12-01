@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
+			"Shirayuki"
+		]
+	},
+	"securesessions-desc": "讓使用者的 session 與 session 認證更安全",
+	"securesessions-personalurl": "開啟 session（$1）",
+	"securesessions-ipsession": "註銷掉所有其它 session。",
+	"securesessions-iprestrict": "限制 session 至此 IP 位址，",
+	"securesessions-uarestrict": "限制 session 至此瀏覽器。",
+	"securesessions-sessions": "會話",
+	"securesessions-sessions-legend": "Session 訊息",
+	"securesessions-sessions-text": "以下是您帳號所有開啟 session 以及相關訊息。您可以使用下列按鍵來關閉所有其它 session。帶有星號 (*) 代表著是目前的 session。",
+	"securesessions-sessions-ip": "IP 位址：",
+	"securesessions-sessions-activity": "最近活動：",
+	"securesessions-sessions-clear": "退出所有其它 session",
+	"securesessions-prefs-country": "依國家限制登入：",
+	"securesessions-prefs-tor": "不允許從 Tor 出口節點登入。",
+	"securesessions-disallowedcountry": "此帳號不允許從此國家登入。",
+	"securesessions-disallowedtor": "此帳號不允許從 Tor 出口節點登入。"
+}

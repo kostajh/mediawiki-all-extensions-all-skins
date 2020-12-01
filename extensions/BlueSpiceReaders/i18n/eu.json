@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikel Ibaiba",
+			"Subi"
+		]
+	},
+	"prefs-readers": "Irakurleak",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|Irakurlea}}|Irakurleak}}",
+	"bs-readers-header-username": "Erabiltzaile izena",
+	"bs-readers-header-readerspath": "Irakurlea",
+	"bs-readers-header-ts": "Data",
+	"bs-readers-header-page": "Orrialdea"
+}

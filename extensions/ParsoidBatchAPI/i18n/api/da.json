@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kenn.jensen"
+		]
+	},
+	"apihelp-parsoid-batch-description": "Batching API (til Parsoid) til at lave masse API anmodninger til MediaWiki",
+	"apihelp-parsoid-batch-summary": "Batch API til Parsoid",
+	"apihelp-parsoid-batch-param-batch": "Handlings API anmodninger (max 500 per match).",
+	"apierror-parsoid-batch-notallowed": "Klient IP Adresse er ikke i ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "Ugyldig batch, skal være array.",
+	"apierror-parsoid-batch-batchtoolarge": "Batch er for stor, grænsen er 500.",
+	"apierror-parsoid-batch-invalidaction": "Ugyldig handling i item index $1.",
+	"apierror-parsoid-batch-texttoobig": "Input tekst overskrider maksimal sidestørrelse.",
+	"apierror-parsoid-batch-invalidtitle": "Ugyldig titel ($1).",
+	"apierror-parsoid-batch-mustbescalar": "<var>$1</var> parameter skal være skalær.",
+	"apierror-parsoid-batch-mustbearray": "<var>$1</var> parameter skal være et array."
+}

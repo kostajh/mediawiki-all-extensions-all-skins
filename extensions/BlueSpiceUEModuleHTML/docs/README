@@ -1,0 +1,5 @@
+ATTENTION: This Module is very tight coupled to UEModulePDF! It uses the same 
+templates! There are several issues with that:
+
+* direct dependency
+* we need to modify some parts of the template/dom

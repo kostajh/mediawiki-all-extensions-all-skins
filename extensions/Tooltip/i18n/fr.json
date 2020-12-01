@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Grondin",
+			"Urhixidur"
+		]
+	},
+	"tooltip-desc": "Ajoute une balise <nowiki><tooltip></nowiki> et une fonction d’analyseur syntaxique <nowiki>{{#tooltip:}}</nowiki>"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"inlinecategorizer-desc": "Module JavaScript ca abbilite le cangiaminde, le aggiunde e le luaminde de le collegaminde de categorije direttamende da 'a pàgene",
+	"inlinecategorizer-add-category": "Aggiunge 'a categorije",
+	"inlinecategorizer-add-category-submit": "Aggiunge",
+	"inlinecategorizer-add-category-summary": "Aggiunge 'a categorije \"$1\"",
+	"inlinecategorizer-api-error": "L'API ha turnate 'n'errore: $1: $2",
+	"inlinecategorizer-api-unknown-error": "L'API ha turnate 'n'errore scanusciute",
+	"inlinecategorizer-cancel": "Annulle 'u cangiamende",
+	"inlinecategorizer-cancel-all": "Annulle tutte le cangiaminde",
+	"inlinecategorizer-category-already-present": "Sta pàgene già stè jndr'à categorije \"$1\"",
+	"inlinecategorizer-category-hook-error": "'Na funziona locale non ge face fà le cangiaminde apprime de reggistrarle",
+	"inlinecategorizer-category-question": "Purcè tu vuè ccu face ste cangiaminde:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Reggistre",
+	"inlinecategorizer-confirm-save-all": "Reggistre tutte le cangiaminde",
+	"inlinecategorizer-confirm-title": "Conferme l'azione",
+	"inlinecategorizer-edit-category": "Cange 'a categorije",
+	"inlinecategorizer-edit-category-error": "Non g'è possibbele cangià 'a categorije \"$1\".\nStu fatte normalmende succede quanne 'a categorije ha state aggiunde a 'a pàgene jndr'à 'nu template.",
+	"inlinecategorizer-edit-category-summary": "Cange 'a categorije \"$1\" jndr'à \"$2\"",
+	"inlinecategorizer-error-title": "Errore",
+	"inlinecategorizer-remove-category": "Live 'a categorije",
+	"inlinecategorizer-remove-category-error": "Non g'è possibbele luà 'a categorije \"$1\".\nStu fatte normalmende succede quanne 'a categorije ha state aggiunde a 'a pàgene jndr'à 'nu template.",
+	"inlinecategorizer-remove-category-summary": "Live 'a categorije \"$1\""
+}

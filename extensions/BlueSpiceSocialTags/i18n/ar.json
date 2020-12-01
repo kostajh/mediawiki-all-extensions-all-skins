@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-socialtags-desc": "يضيف وظيفة الوسم إلى الكيانات الاجتماعية",
+	"bs-socialtags-tagstext": " {{plural:$1|صفحة|صفحات}} ($1) مرتبطة",
+	"bs-socialtags-var-tags": "صفحات مرتبطة",
+	"socialtags": "صفحات مرتبطة",
+	"bs-socialtags-special-heading": "صفحات مرتبطة",
+	"apihelp-bs-socialtags-tasks-summary": "يوفر مهاما لتحرير صفحات الكيانات المرتبطة",
+	"action-social-tagging": "تحرير الصفحات المرتبطة",
+	"right-social-tagging": "تحرير الصفحات المرتبطة"
+}

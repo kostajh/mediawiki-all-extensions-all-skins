@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gorizon",
+			"Mirzali"
+		]
+	},
+	"poll-admin-closed": "Kerd kip",
+	"poll-admin-flagged": "Nışan biyo",
+	"poll-admin-open": "Ake",
+	"poll-admin-panel": "İdarekar",
+	"poll-cancel-button": "Bıtexelne",
+	"poll-category": "Anketi",
+	"poll-discuss": "werêne",
+	"poll-edit-button": "Pele qeyd ke",
+	"poll-prev": "verên",
+	"poll-skip": "Ravêre >",
+	"poll-view-popular": "Demane",
+	"poll-time-days": "{{PLURAL:$1|yew roce|$1 roci}}",
+	"poll-time-hours": "{{PLURAL:$1|yew saete|$1 saeti}}",
+	"specialpages-group-poll": "Anketi"
+}

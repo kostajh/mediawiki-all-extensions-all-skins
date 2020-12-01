@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"wlm-extension-desc": "Voegt gegevens en berichten toe over de fotowedstrijd Wiki Loves Monuments",
+	"wlm-no-contest-year": "Er was geen Wiki Loves Monumentswedstrijd in $1.",
+	"wlm-no-url-bad-country": "Het was niet mogelijk de website voor de lokale wedstrijd te vinden. $1 is geen geldige landcode.",
+	"wlm-country-not-given": "U moet een landcode opgeven.",
+	"wlm-country-not-participating-year": "\"$1\" neemt niet deel aan Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "Andere landen",
+	"wlm-international-contest": "Internationaal",
+	"wlm-text-contact": "Contact",
+	"wlm-text-contest": "Wedstrijd",
+	"wlm-text-donate": "Doneren",
+	"wlm-text-faq": "Veelgestelde vragen",
+	"wlm-text-jury": "Jury",
+	"wlm-text-monuments": "Monumenten",
+	"wlm-text-news": "Nieuws",
+	"wlm-text-participate": "Meedoen!",
+	"wlm-text-prizes": "Prijzen",
+	"wlm-text-rules": "Spelregels",
+	"wlm-text-sponsors": "Sponsoren",
+	"wlm-text-uploading": "Uploaden"
+}

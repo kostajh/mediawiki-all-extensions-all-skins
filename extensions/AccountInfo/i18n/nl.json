@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arent",
+			"JurgenNL",
+			"Mainframe98",
+			"Niknetniko",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"accountinfo": "Accountgegevens",
+	"accountinfo-desc": "Hiermee kan een gebruiker opgeslagen eigen privégegevens bekijken",
+	"accountinfo-ts": "Tijdstip",
+	"accountinfo-ip": "IP-adres",
+	"accountinfo-ua": "Useragent",
+	"accountinfo-xff": "XFF-header",
+	"accountinfo-length": "Informatie wordt bewaard voor $1.",
+	"accountinfo-now": "Nu"
+}

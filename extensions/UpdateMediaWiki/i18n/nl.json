@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"updatemediawiki": "MediaWiki bijwerken",
+	"updatemediawiki-desc": "Voegt de mogelijkheid to om MediaWiki bij te werken met een speciale pagina",
+	"updatemediawiki-current": "Huidige versie $1",
+	"updatemediawiki-update-nofound": "Geen update beschikbaar",
+	"updatemediawiki-update-found": "Nieuwe update beschikbaar: $1",
+	"updatemediawiki-update-downloading": "De nieuwe update wordt gedownload",
+	"updatemediawiki-update-saved": "Update gedownload en opgeslagen",
+	"updatemediawiki-update-exist": "Update is al gedownload",
+	"updatemediawiki-update-copyready": "Kopie klaar",
+	"updatemediawiki-update-database": "Database nu bijwerken?",
+	"updatemediawiki-update-updateready": "Update gereed",
+	"updatemediawiki-update-install": "Nu installeren?",
+	"updatemediawiki-update-updated": "MediaWiki is bijgewerkt naar versie $1"
+}

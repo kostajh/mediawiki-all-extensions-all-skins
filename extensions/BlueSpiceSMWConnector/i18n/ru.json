@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Evs",
+			"Facenapalm",
+			"Movses",
+			"Okras",
+			"Patrick Star",
+			"Vlad5250"
+		]
+	},
+	"bs-bssmwconnector-desc": "Интегрирует SemanticMediaWiki в BlueSpice",
+	"bs-bssmwconnector-srf-printername-bsgrid": "Таблица BlueSpice",
+	"bs-dlg-choosesmwprop-label": "Свойство",
+	"bs-dlg-choosesmwprop-type-smwprop": "Семантическое свойство",
+	"bs-extendedsearch-add-filter-group-smwproperty-label": "Семантические свойства",
+	"bs-extendedsearch-search-center-result-smwproperty-label": "Семантические свойства:",
+	"bs-smwconnector-extendedsearch-boolean-property-true": "Да",
+	"bs-smwconnector-extendedsearch-boolean-property-false": "Нет"
+}

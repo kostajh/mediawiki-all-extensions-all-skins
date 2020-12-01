@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diman Russkov",
+			"Vlad5250",
+			"Wirbel78"
+		]
+	},
+	"gotoshell": "Перейти к оболочке",
+	"gotoshell-desc": "Применяет [[Special:GoToShell|служебную страницу]], которая ведёт пользователя в оболочку и назад",
+	"gotoshell-notallowed": "Ваша учётная запись не имеет прав для перехода в оболочку.",
+	"gotoshell-disabled": "Невозможно запускать внешние программы, поскольку proc_open() отключено.",
+	"gotoshell-command": "Команда:",
+	"gotoshell-result": "Результат:",
+	"action-gotoshell": "Выполнение команд оболочки через служебную страницу GoToShell",
+	"right-gotoshell": "Выполнение команд оболочки через служебную страницу GoToShell"
+}

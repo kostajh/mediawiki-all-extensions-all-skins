@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"packages": "Paket",
+	"pageexchange-installed": "Installerad",
+	"pageexchange-available": "Tillgänglig",
+	"pageexchange-installpackage": "Installera paket: $1",
+	"pageexchange-updatepackage": "Uppdatera paket: $1",
+	"pageexchange-uninstallpackage": "Avinstallera paket: $1",
+	"pageexchange-installpackagelog": "installerade paketet $2, av $3",
+	"pageexchange-updatepackagelog": "uppdaterade paketet $2, av $3",
+	"pageexchange-uninstallpackagelog": "avinstallerade paketet $2, av $3",
+	"pageexchange-package-website": "Webbplats:",
+	"pageexchange-package-publisher": "Utgivare:",
+	"pageexchange-package-author": "Författare:",
+	"pageexchange-package-version": "Version:",
+	"pageexchange-package-pages": "Sidor:",
+	"pageexchange-package-language": "Språk:",
+	"pageexchange-package-requiredpackages": "Nödvändiga paket:",
+	"pageexchange-package-install": "Installera",
+	"pageexchange-package-update": "Uppdatera",
+	"pageexchange-package-uninstall": "Avinstallera",
+	"pageexchange-pagehaschanged": "den senaste versionen av denna sida skiljer sig från den lokala kopian",
+	"pageexchange-packageinstalled": "Paketet installerades.",
+	"pageexchange-packageuninstalled": "Detta paket avinstallerades.",
+	"pageexchange-packageupdated": "Detta paket uppdaterades."
+}

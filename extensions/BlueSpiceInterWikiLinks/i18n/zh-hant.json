@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"bs-interwikilinks-desc": "用於添加、編輯，以及刪除跨 wiki 連結的管理者介面",
+	"bs-interwikilinks-invalid-pfx-spc": "字首無效，請不要使用空格。",
+	"bs-interwikilinks-invalid-url-spc": "URL 無效，請不要使用空格。",
+	"bs-interwikilinks-label": "跨 wiki 連結",
+	"bs-interwikilinks-link-created": "跨 wiki 連結已建立。",
+	"bs-interwikilinks-link-added": "跨 wiki 連結已添加。",
+	"bs-interwikilinks-link-deleted": "跨 wiki 連結已刪除。",
+	"bs-interwikilinks-nooldpfx": "查無前一個字首。",
+	"bs-interwikilinks-nopfx": "請提供字首。",
+	"bs-interwikilinks-nourl": "請提供 URL。",
+	"bs-interwikilinks-pfxtoolong": "字首太長，最多只使用到 32 個字元。",
+	"bs-interwikilinks-pfxexists": "此字首已存在。",
+	"bs-interwikilinks-headerprefix": "字首",
+	"bs-interwikilinks-titleaddinterwikilink": "添加跨 wiki 連結",
+	"bs-interwikilinks-titleeditinterwikilink": "編輯跨 wiki 連結",
+	"bs-interwikilinks-labelprefix": "字首",
+	"bs-interwikilinks-titledeleteinterwikilink": "刪除跨 wiki 連結",
+	"bs-interwikilinks-confirmdeleteinterwikilink": "您確定真的要刪除此跨 wiki 連結嗎？",
+	"bs-interwikilinks-insertlink-tabtitle": "連結到其它 wiki",
+	"bs-interwikilinks-insertlink-labelprefix": "字首",
+	"bs-interwikilink-select-a-prefix": "挑選字首",
+	"bs-interwikilinks-link-edited": "跨 wiki 連結已編輯",
+	"apihelp-bs-interwikilinks-tasks-description": "提供用於 InterWikiLinks 擴充的任務。",
+	"apihelp-bs-interwikilinks-tasks-summary": "提供用於 InterWikiLinks 擴充的任務。",
+	"action-interwikilinks-viewspecialpage": "檢視特定頁面「{{int:bs-interwikilinks-label}}」",
+	"interwikilinks": "跨 wiki 連結",
+	"right-interwikilinks-viewspecialpage": "存取特殊頁面 [[Special:InterWikiLinks]] 的權限。"
+}

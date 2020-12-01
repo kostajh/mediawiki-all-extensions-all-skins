@@ -1,0 +1,37 @@
+{
+	"name": "Page Creation Notification",
+	"version": "0.3.0 beta",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Nischayn22 Nischay Nahata] for [http://www.wikiworks.com/ WikiWorks]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PageCreationNotif",
+	"descriptionmsg": "page-creation-notif-desc",
+	"type": "semantic",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"PageCreationNotif": [
+			"i18n"
+		]
+	},
+	"callback": "PageCreationNotifHooks::registerExtension",
+	"AutoloadClasses": {
+		"PageCreationNotifHooks": "PageCreationNotifHooks.php",
+		"PageCreationNotifEmailer": "includes/PageCreationNotifEmailer.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "PageCreationNotifHooks::onSchemaUpdate",
+		"GetPreferences": "PageCreationNotifHooks::onGetPreferences",
+		"UserSaveOptions": "PageCreationNotifHooks::onUserSaveOptions"
+	},
+	"config": {
+		"PCNSender": {
+			"value": null
+		},
+		"PCNSenderName": {
+			"value": null
+		}
+	},
+	"manifest_version": 2
+}

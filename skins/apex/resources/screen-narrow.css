@@ -1,0 +1,57 @@
+#p-cactions {
+	margin-left: -0.75em;
+}
+
+#p-cactions h5 span {
+	display: inline-block;
+	width: 0;
+	overflow: hidden;
+}
+
+#pt-userpage a {
+	width: 0;
+	display: inline-block;
+	overflow: hidden;
+	background-position: right center;
+	opacity: 0.75;
+}
+
+#p-personal:hover #pt-userpage a {
+	opacity: 1;
+}
+
+#ca-talk a {
+	display: inline-block;
+	background-image: url( images/icons/talk.png );
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-left: 2.5em;
+	padding-right: 0;
+	width: 0;
+	overflow: hidden;
+	opacity: 0.75;
+}
+
+#ca-talk a:hover {
+	opacity: 1;
+}
+
+.apex-content-wrapper {
+	margin: 6.5em 1.5em 3em 1.5em;
+}
+
+#p-logo {
+	margin-left: 1.5em;
+}
+
+#p-search {
+	margin-right: 1.5em;
+}
+
+#searchInput:focus {
+	width: 6em;
+}
+
+div#mw-js-message {
+	right: 1.5em;
+}

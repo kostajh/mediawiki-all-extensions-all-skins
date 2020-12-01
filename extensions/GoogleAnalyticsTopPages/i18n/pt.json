@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"googleanalyticstoppages-desc": "Fornece uma lista das páginas principais, usando dados do Google Analytics.",
+	"apihelp-googlepagestatsupdate-param-key": "Valor de [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Atualiza a lista das páginas principais (dados disponibilizados pelo Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Atualiza a lista das páginas principais (dados disponibilizados pelo Google Analytics)."
+}

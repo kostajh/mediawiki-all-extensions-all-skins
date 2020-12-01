@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Shirayuki"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "登録サービス不能攻撃を軽減させるため、アカウント作成は自動的にしばらく停止されています。\nしばらく待ってから、ブラウザーの再読み込みボタンを押して再送信してください。",
+	"userthrottle-desc": "アカウント作成数を制限する"
+}

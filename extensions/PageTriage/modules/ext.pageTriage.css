@@ -1,0 +1,35 @@
+/*
+ * CSS properties that are useful for the pageTriage application globally
+ */
+
+.shadow {
+	-moz-box-shadow: 0 0 30px 5px #aaa;
+	-webkit-box-shadow: 0 0 30px 5px #aaa;
+	box-shadow: 0 0 30px 5px #aaa;
+}
+
+.mwe-pt-author-info {
+	font-size: 0.8em;
+}
+
+/** CSS for AfC mode controls, hidden by default and shown by adding .mwe-pt-mode-afc to .mw-content-text */
+.mwe-pt-afc {
+	display: none;
+}
+
+.mwe-pt-mode-afc .mwe-pt-afc {
+	display: block;
+}
+
+.mwe-pt-mode-afc .mwe-pt-npp {
+	display: none;
+}
+
+.mwe-pt-mode-afc .mwe-pt-bottom-nav-stats {
+	display: none;
+}
+
+/** Ensure the filter panel is entirely visible even when there is no results */
+.mw-special-NewPagesFeed #mwe-pt-list {
+	min-height: 550px;
+}

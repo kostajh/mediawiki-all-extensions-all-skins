@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"nukedpl": "Eliminação em massa por consulta DPL",
+	"nukedpl-desc": "Adiciona uma [[Special:NukeDPL|página especial]] para eliminação em massa por consulta DPL",
+	"nukedpl-intro": "Esta ferramenta permite a eliminação em massa de páginas selecionadas por uma consulta DPL.\n\nInsira uma consulta abaixo para gerar uma lista de títulos a serem eliminados.\n* Os títulos podem ser removidos individualmente antes de serem eliminados.\n* Lembre-se, os títulos de página são sensíveis a maiúsculas e minúsculas.\n* As consultas não devem estar rodeadas por etiquetas ou parênteses de DPL.\n* Para obter informação sobre o significado dos parâmetros, consulte o [http://semeb.com/dpldemo/index.php?title=DPL:Manual Manual de DPL].",
+	"nukedpl-candidatelist": "Ver lista de candidatos",
+	"nukedpl-nopages": "Não há páginas para eliminar usando a consulta DPL: <code>$1</code>",
+	"nukedpl-nuke": "Eliminar!",
+	"nukedpl-list": "{{PLURAL:$1|A seguinte página foi selecionada|As seguintes páginas foram selecionadas}} pela consulta DPL: <code>$2</code>\n\nCarregue em \"{{int:nukedpl-nuke}}\" para {{PLURAL:$1|eliminá-la|eliminá-las}}.",
+	"nukedpl-defaultreason": "Eliminação em massa de páginas selecionadas pela consulta DPL: $1",
+	"action-nukedpl": "eliminar páginas em massa com consultas DPL (Lista Dinâmica de Páginas)",
+	"right-nukedpl": "Eliminar páginas em massa com consultas DPL (Lista Dinâmica de Páginas)"
+}

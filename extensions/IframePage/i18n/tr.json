@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"iframepage": "Iframe sayfası",
+	"iframepage-desc": "Bir iframe'in özel bir sayfaya gömülmesine izin verir",
+	"iframepage-error-wgifsrc": "<code>$wgIframePageSrc</code> değişkeninin <code>LocalSettings.php</code> konumunda ayarlanması gerekir."
+}

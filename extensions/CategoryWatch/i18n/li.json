@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes",
+			"Pahles"
+		]
+	},
+	"categorywatch-desc": "Breijd de funktie van de volglies oet mit meljinge euver aanpassinge in categorielidmaatsjap van categorieë op de volglies",
+	"categorywatch-emailsubject": "Aktiviteit mit betrèkking tot categorie \"$1\" op volglies",
+	"categorywatch-catmovein": "$1 is van categorie $3 nao $2 verplaats",
+	"categorywatch-catmoveout": "$1 is van categorie $2 nao $3 verplaats",
+	"categorywatch-catadd": "$1 is aan categorie $2 toegeveug",
+	"categorywatch-catsub": "$1 is oet categorie $2 eweggesjaf",
+	"categorywatch-autocat": "Otomatisch gevolg door $1",
+	"categorywatch-notification-link": "Categorie: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] tougeveug aan [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] tougeveug aan [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] veuge [[:$3|$3]] tou aan [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] eweggehaold oet [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] eweggehaold oet [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] haolde [[:$3|$3]] eweg oet [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 categorisatieverangeringe op {{SITENAME}}",
+	"categorywatch-add-title": "Titel tougeveug aan gevolgde categorie",
+	"categorywatch-remove-title": "Titel eweggehaold oet gevolgde categorie",
+	"echo-category-title-categorywatch": "Categorievolglies",
+	"echo-pref-tooltip-categorywatch": "Gaef mich besjeid wen eine 'n pagina touveug aan of eweghaolt oet 'n categorie die ich volg."
+}

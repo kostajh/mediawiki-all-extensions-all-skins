@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"googleanalyticstoppages-desc": "Дава список на најкотирани страници со употреба на податоци од Google Аналитика",
+	"apihelp-googlepagestatsupdate-param-key": "Вредност на [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Го подновува списокот на најпосетувани страници (со податоци од Google Аналитика).",
+	"apihelp-googlepagestatsupdate-summary": "Го подновува списокот на најпосетувани страници (со податоци од Google Аналитика)."
+}

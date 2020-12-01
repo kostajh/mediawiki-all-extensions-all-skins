@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"mintydocs-desc": "Um sistema de documentação simples",
+	"action-mintydocs-administer": "administrar todas as páginas de produto MintyDocs",
+	"right-mintydocs-administer": "Administrar todas as páginas de produto MintyDocs",
+	"action-mintydocs-edit": "editar todas as páginas MintyDocs",
+	"right-mintydocs-edit": "Editar todas as páginas MintyDocs",
+	"mintydocs-noparentpage": "Erro: todas as páginas do tipo $1 têm de ser subpáginas.",
+	"mintydocs-invalidparentpage": "Erro: a página \"$1\" tem de ser do tipo $2.",
+	"mintydocs-product-versionlist": "Clique em qualquer das seguintes para ver a documentação dessa versão:",
+	"mintydocs-version-desc": "Esta é a documentação da versão $1 do produto $2.",
+	"mintydocs-version-manuallist": "Aqui estão os manuais para esta versão:",
+	"mintydocs-manual-desc": "Este manual é para a versão $1 do produto $2.",
+	"mintydocs-manual-otherversions": "Para outras versões, leia este manual:",
+	"mintydocs-manual-contents": "Conteúdo:",
+	"mintydocs-topic-desc": "Este tópico faz parte do manual $1 para a versão $2 do produto $3.",
+	"mintydocs-topic-otherversions": "Para outras versões, leia este tópico:",
+	"mintydocspublish": "Publicar conteúdo MintyDocs",
+	"mintydocs-publish-button": "Publicar",
+	"mintydocs-publish-success": "Irão ser criadas ou modificadas as seguintes páginas: $1.",
+	"mintydocscreatedraft": "Criar página de rascunho MintyDocs",
+	"mintydocs-createdraft-button": "Criar rascunho",
+	"mintydocs-createdraft-success": "Irão ser criadas as seguintes páginas de rascunho: $1",
+	"mintydocscopy": "Copiar conteúdo MintyDocs",
+	"mintydocs-copy-button": "Copiar",
+	"mintydocs-copy-success": "Irão ser copiadas as seguintes páginas: $1",
+	"mintydocsdelete": "Eliminar conteúdo MintyDocs",
+	"mintydocs-tocinput-rename": "Alterar o nome",
+	"mintydocs-tocinput-changetype": "Mudar tipo",
+	"apihelp-mintydocspublish-description": "Publica uma página MintyDocs.",
+	"apihelp-mintydocspublish-summary": "Publica uma página MintyDocs, copiando-a do espaço nominal de rascunho para o espaço nominal principal.",
+	"apihelp-mintydocspublish-param-title": "O nome da página a publicar",
+	"apihelp-mintydocspublish-example-title": "Copiar o conteúdo da página de rascunho Draft:ABC123 para a página ABC123"
+}

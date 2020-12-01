@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"An13sa",
+			"Kobazulo",
+			"Mikel Ibaiba"
+		]
+	},
+	"duplicator": "Orrialde bat bikoiztu",
+	"duplicator-toolbox": "Orrialde hau bikoiztu",
+	"duplicator-options": "Aukerak",
+	"duplicator-source": "Jatorria:",
+	"duplicator-dest": "Helburua:",
+	"duplicator-dotalk": "Eztabaida orrialdea bikoiztu (egokia bada)",
+	"duplicator-submit": "Bikoiztu",
+	"duplicator-summary": "[[$1]]-tik kopiatua, [[$2]] berrikusketa",
+	"duplicator-success": "[[$1]] [[$2]] orrialdean kopiatu da.",
+	"duplicator-success-revisions": "{{PLURAL:$1|Berrikuspen bat kopiatu da|$1 berrikuspen kopiatu dira}}.",
+	"duplicator-success-talknotcopied": "Eztabaida orrialdea ezin izan da kopiatu.",
+	"duplicator-failed": "Ezin izan da orrialdea bikoiztu.\nErrore ezezagun bat jazo da.",
+	"duplicator-source-invalid": "Mesedez, iturburuaren baliozko izenburu bat eman.",
+	"duplicator-source-notexist": "[[$1]] ez da existitzen. Mesedez, existitzen den iturburu baten izenburua eman.",
+	"duplicator-dest-invalid": "Mesedez, helburuaren baliozko izenburu bat eman.",
+	"duplicator-dest-exists": "[[$1]] jada existitzen da. Mesedez, existitzen ez den helburu bat eman."
+}

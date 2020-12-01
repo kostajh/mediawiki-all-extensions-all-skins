@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Monte Hurd",
+			"Wikimedia Product Infrastructure Team"
+		]
+	},
+	"apihelp-reviewimagelabels-summary": "{{doc-apihelp-summary|reviewimagelabels}}",
+	"apihelp-reviewimagelabels-param-filename": "{{doc-apihelp-param|reviewimagelabels|filename}}",
+	"apihelp-reviewimagelabels-param-label": "{{doc-apihelp-param|reviewimagelabels|label}}",
+	"apihelp-reviewimagelabels-param-review": "{{doc-apihelp-param|reviewimagelabels|review}}",
+	"apihelp-reviewimagelabels-param-batch": "{{doc-apihelp-param|reviewimagelabels|batch}}",
+	"apihelp-reviewimagelabels-paramvalue-review-accept": "{{doc-apihelp-paramvalue|reviewimagelabels|review|accept}}",
+	"apihelp-reviewimagelabels-paramvalue-review-reject": "{{doc-apihelp-paramvalue|reviewimagelabels|review|reject}}",
+	"apihelp-reviewimagelabels-example-1": "{{doc-apihelp-example|reviewimagelabels}}",
+	"apihelp-reviewimagelabels-example-2": "{{doc-apihelp-example|reviewimagelabels}}",
+	"apierror-reviewimagelabels-batch-invalid-json": "{{doc-apierror}}\n\nParameters:\n* $1 - Error message from JSON decoder.",
+	"apierror-reviewimagelabels-batch-invalid-structure": "{{doc-apierror}}",
+	"apierror-reviewimagelabels-batch-missingparam-at-least-one-of": "{{doc-apierror}}\n\nParameters:\n* $1 - List of parameter names.\n* $2 - Number of parameters.",
+	"apierror-reviewimagelabels-batch-toomanyvalues": "{{doc-apierror}}\n\nParameters:\n* $1 - Maximum allowed number of items.",
+	"apierror-reviewimagelabels-invalidfile": "{{doc-apierror}}\n\nParameters:\n* $1 - File name",
+	"apierror-reviewimagelabels-invalidlabel": "{{doc-apierror}}\n\nParameters:\n* $1 - File name\n* $2 - Label",
+	"apierror-reviewimagelabels-invalidstate": "{{doc-apierror}}\n\nParameters:\n* $1 - File name\n* $2 - Label\n* $3 - State",
+	"apiwarn-reviewimagelabels-setlabelstate-failed": "{{doc-apierror}}\n\nParameters:\n* $1 - State\n* $2 - Label",
+	"apiwarn-reviewimagelabels-depicts-exists": "{{doc-apierror}}\n\nParameters:\n* $1 - Translated label for the 'depicts' concept\n* $2 - Property ID of the 'depicts' concept\n* $3 - Wikidata ID corresponding to the item that the image depicts\n* $4 - image filename",
+	"apihelp-query+imagelabels-summary": "{{doc-apihelp-summary|query+imagelabels}}",
+	"apihelp-query+imagelabels-param-state": "{{doc-apihelp-param|query+imagelabels|state}}",
+	"apihelp-query+imagelabels-paramvalue-state-unreviewed": "{{doc-apihelp-paramvalue|query+imagelabels|state|unreviewed}}",
+	"apihelp-query+imagelabels-paramvalue-state-accepted": "{{doc-apihelp-paramvalue|query+imagelabels|state|accepted}}",
+	"apihelp-query+imagelabels-paramvalue-state-rejected": "{{doc-apihelp-paramvalue|query+imagelabels|state|rejected}}",
+	"apihelp-query+imagelabels-paramvalue-state-withheld": "{{doc-apihelp-paramvalue|query+imagelabels|state|withheld}}",
+	"apihelp-query+imagelabels-example-1": "{{doc-apihelp-example|query+imagelabels}}",
+	"apihelp-query+unreviewedimagelabels-summary": "{{doc-apihelp-summary|query+unreviewedimagelabels}}",
+	"apihelp-query+unreviewedimagelabels-param-uploader": "{{doc-apihelp-param|query+unreviewedimagelabels|uploader}}",
+	"apihelp-query+unreviewedimagelabels-param-limit": "{{doc-apihelp-param|query+unreviewedimagelabels|limit}}",
+	"apihelp-query+unreviewedimagecount-summary": "{{doc-apihelp-summary|query+unreviewedimagecount}}",
+	"apihelp-query+unreviewedimagecount-example": "{{doc-apihelp-example|query+unreviewedimagecount}}"
+}

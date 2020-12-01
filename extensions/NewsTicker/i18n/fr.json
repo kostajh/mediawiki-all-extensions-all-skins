@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094",
+			"Wladek92"
+		]
+	},
+	"newsticker": "NewsTicker",
+	"newsticker-desc": "Ajoute un mot magique pour afficher un bandeau de nouvelles qui peut être configuré depuis une page spéciale.",
+	"newsticker-summary": "Page spéciale pour fixer le contenu et les pages du bandeau de nouvelles",
+	"newsticker-general": "Général",
+	"newsticker-news": "Actualités",
+	"newsticker-class": "Classe",
+	"newsticker-style": "Style",
+	"newsticker-pages": "Pages",
+	"newsticker-page1": "Page 1",
+	"newsticker-page2": "Page 2",
+	"newsticker-page3": "Page 3",
+	"newsticker-page4": "Page 4",
+	"newsticker-page5": "Page 5",
+	"newsticker-page6": "Page 6",
+	"newsticker-page7": "Page 7",
+	"newsticker-page8": "Page 8",
+	"newsticker-page9": "Page 9",
+	"newsticker-title": "Titre",
+	"newsticker-add-page": "Ajouter une page",
+	"newsticker-default-news-help": "Fixer les nouvelles par défaut pour tous les bandeaux de nouvelles. Une nouvelle par ligne, le wikitexte étant autorisé.",
+	"newsticker-default-class-help": "Définir les classes CSS par défaut pour tous les bandeaux de nouvelles.",
+	"newsticker-default-style-help": "Définir le style CSS par défaut pour tous les bandeaux de nouvelles.",
+	"newsticker-pages-help": "Fixer le nombre de pages qui afficheront le bandeau de nouvelles, afin que cette page spéciale puisse afficher une section pour chaque page. Attention ! Si vous réduisez le nombre de pages, les données des pages abandonnées seront perdues !",
+	"newsticker-title-help": "Fixer le titre de la page où afficher ce bandeau de nouvelles.",
+	"newsticker-news-help": "Fixer les nouvelles pour ce bandeau de nouvelles, écrasant les nouvelles par défaut.",
+	"newsticker-class-help": "Définir les classes CSS pour ce bandeau de nouvelles, écrasant les classes CSS par défaut.",
+	"newsticker-style-help": "Définir le style CSS pour ce bandeau de nouvelles, écrasant le style CSS par défaut.",
+	"right-newsticker": "Gérer des tickets d'actualités",
+	"action-newsticker": "gérer les bandeaux de nouvelles"
+}

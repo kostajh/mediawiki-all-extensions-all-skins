@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Lijealso",
+			"Luckas",
+			"Malafaya",
+			"Waldir"
+		]
+	},
+	"rt-desc": "Interface bonita para o RT (Request Tracker)",
+	"rt-inactive": "A extensão RT não está ativa.",
+	"rt-badquery": "A extensão RT encontrou um erro ao comunicar com a base de dados RT",
+	"rt-badlimit": "Parâmetro <code>LIMIT</code> (<code>l</code>) inválido: deve ser um número.\nTentou: '''$1'''",
+	"rt-badorderby": "Parâmetro <code>ORDER BY</code> (<code>ob</code>) inválido: deve ser um campo padrão (veja a documentação).\nTentou: '''$1'''",
+	"rt-badstatus": "Parâmetro <code>status</code> (<code>s</code>) inválido: deve ser um campo padrão (veja a documentação).\nTentou: '''$1'''",
+	"rt-badcfield": "Argumento inválido para o campo personalizado: tem de ser uma palavra simples (consulte a documentação).\nTentou: '''$1'''",
+	"rt-badqueue": "Parâmetro <code>queue</code> (<code>q</code>) inválido: deve ser uma palavra simples.\nTentou: '''$1'''",
+	"rt-badowner": "Parâmetro <code>owner</code> (<code>o</code>) inválido: deve ser um nome de utilizador válido.\nTentou: '''$1'''",
+	"rt-nomatches": "Não foram encontrados pedidos RT correspondentes"
+}

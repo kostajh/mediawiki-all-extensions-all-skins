@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"FocalPoint",
+			"Protnet"
+		]
+	},
+	"sii-desc": "Προσθέτει πλαίσιο εισαγωγής εικόνων που τραβά εικόνες από τη Βικιπαίδεια στις [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Φόρμες Σελίδων]",
+	"sii-imageinput-loading": "Φόρτωση εικόνας σε εξέλιξη..."
+}

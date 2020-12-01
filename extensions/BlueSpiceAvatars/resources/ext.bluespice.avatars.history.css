@@ -1,0 +1,8 @@
+.history-user .bs-userminiprofile {
+	padding-right: 0.5em;
+	display: inline-block;
+}
+.history-user .bs-userminiprofile img {
+	border: none;
+	border-radius: 0;
+}

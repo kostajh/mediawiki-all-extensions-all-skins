@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Base",
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"bs-authors-desc": "Відображає зображення профілів для авторів сторінки",
+	"prefs-authors": "Автори цієї сторіки",
+	"bs-authors-title": "{{GENDER:$2|Автор{{PLURAL:$1||ів|и}}}}",
+	"bs-authors-profileimage": "Зображення профілю",
+	"bs-authors-profileimage-change": "Змінити зображення профілю",
+	"bs-authors-show-all-authors": "Доступно більше авторів",
+	"bs-authors-pref-show": "Відобразити авторів",
+	"bs-authors-switch-description": "Приховує авторів цієї сторінки.",
+	"bs-authors-navigation-link-title": "Автори цієї сторінки",
+	"bs-authors-navigation-link-text": "Автори",
+	"bs-authors-flyout-title": "Автори цієї сторінки",
+	"bs-authors-author-type-originator": "Оригінальний автор",
+	"bs-authors-author-type-editor": "Редактор",
+	"apihelp-bs-pageauthors-store-summary": "Перелічити всіх авторів сторінки, поданої в контексті"
+}

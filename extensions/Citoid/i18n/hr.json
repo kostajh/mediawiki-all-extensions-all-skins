@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Acamicamacaraca",
+			"Bugoslav",
+			"MaGa"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Umetni",
+	"citoid-citoiddialog-back": "Natrag",
+	"citoid-citoiddialog-credit": "Pokreće $1",
+	"citoid-citoiddialog-lookup-button": "Generiraj",
+	"citoid-citoiddialog-mode-auto": "Automatski",
+	"citoid-citoiddialog-mode-manual": "Ručno",
+	"citoid-citoiddialog-mode-reuse": "Uporaba postojećeg",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN ili PMC/PMID",
+	"citoid-citoiddialog-search-placeholder": "npr. http://www.primjer.com",
+	"citoid-citoidtool-title": "Citiraj",
+	"citoid-citoidtool-title-othergroup": "Citat",
+	"citoid-desc": "Pruža pristupne točke između citoid usluge i MediaWikija",
+	"citoid-referencecontextitem-convert-button": "Pretvori",
+	"citoid-referencecontextitem-convert-message": "Ovaj citat se sastoji samo od vanjske poveznice. U nastavku možete upotrijebiti gumb \"{{int: citoid-referencecontextitem-convert-button}}\" kako biste generirali valjano oblikovanu referenciju.",
+	"citoid-unknown-error": "Došlo je do nepoznate pogreške koja nam je spriječila stvaranje citata. Molimo pokušajte ponovo kasnije."
+}

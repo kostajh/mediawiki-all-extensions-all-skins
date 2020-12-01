@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-socialprofile-desc": "Entidade de perfil para BlueSpiceSocial",
+	"bs-socialprofile-type": "Perfil",
+	"bs-socialprofile-entityaction-changeimage": "Imagem do usuário",
+	"bs-social-entityaction-editprofilefields": "Dados do perfil",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "\"Usuário\" inválido fornecido",
+	"bs-social-profile-field-name": "Nome",
+	"bs-social-profile-field-email": "E-mail",
+	"bs-social-profile-field-title": "Título",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Sr.|Sra.|}}",
+	"bs-social-profile-field-department": "Departamento",
+	"bs-social-profile-field-function": "Função",
+	"bs-social-profile-field-location": "Localização",
+	"bs-social-profile-field-phone": "Telefone",
+	"bs-social-profile-field-validate-no-integer": "$1 deve ser um número",
+	"bs-socialprofile-special-profiles-heading": "Perfis",
+	"bs-social-profile-infoshowemail": "Mostrar endereço de email no perfil",
+	"socialprofiles": "Perfis",
+	"bs-socialprofile-switch-classicprofile-label": "Perfil clássico",
+	"bs-socialprofile-switch-modernprofile-label": "Perfil moderno",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Mudar para o perfil clássico",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Mudar para o perfil moderno",
+	"action-social-editothersprofile": "editar o perfil de outros usuários",
+	"right-social-editothersprofile": "Editar perfil de outros usuários",
+	"action-socialprofile-viewspecialpage": "veja a página especial \"{{int:socialprofiles}}\"",
+	"right-socialprofile-viewspecialpage": "Ver a página especial \"{{int:socialprofiles}}\""
+}

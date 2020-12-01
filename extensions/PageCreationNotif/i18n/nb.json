@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"page-creation-notif-desc": "Sender epostvarsel når nye sider opprettes",
+	"page-creation-notification": "Send meg en epost når nye sider opprettes",
+	"page-creation-email-subject": "Ny side – $1 {{GENDER:$3|opprettet}} på $2 av $3",
+	"page-creation-email-body": "Kjære $1,\n\nDette er et varsel fra {{SITENAME}} om at en ny side, $2, har blitt {{GENDER:$3|opprettet}} av brukeren $3.\n\nDu kan se den på\n$4\n\nTeksten på siden er:\n$5\n\nMed venlig hilsen,\n{{GRAMMAR:genitive|{{SITENAME}}}} meldingssystem\n\nFor å endre epostvarselinnstillingene dine, besøk\n{{canonicalurl:{{#special:Preferences}}}}"
+}

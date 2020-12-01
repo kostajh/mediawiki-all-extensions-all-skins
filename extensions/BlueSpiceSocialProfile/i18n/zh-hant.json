@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-socialprofile-desc": "用於 BlueSpiceSocial 的個人檔案單元",
+	"bs-socialprofile-type": "個人檔案",
+	"bs-socialprofile-entityaction-changeimage": "使用者圖片",
+	"bs-social-entityaction-editprofilefields": "個人檔案資料",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "指定的「User」無效",
+	"bs-social-profile-field-name": "姓名",
+	"bs-social-profile-field-email": "電子郵件",
+	"bs-social-profile-field-title": "頭銜",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Mr.|Mrs.|}}",
+	"bs-social-profile-field-department": "部門",
+	"bs-social-profile-field-function": "職務",
+	"bs-social-profile-field-location": "位置",
+	"bs-social-profile-field-phone": "電話",
+	"bs-social-profile-field-validate-no-integer": "$1必須是數字",
+	"bs-socialprofile-special-profiles-heading": "個人檔案",
+	"bs-social-profile-infoshowemail": "在個人檔案顯示電子郵件位址",
+	"socialprofiles": "個人檔案",
+	"bs-socialprofile-switch-classicprofile-label": "典型個人檔案",
+	"bs-socialprofile-switch-modernprofile-label": "新型個人檔案",
+	"bs-socialprofile-switch-classicprofile-tooltip": "切換成典型個人檔案",
+	"bs-socialprofile-switch-modernprofile-tooltip": "切換成新型個人檔案",
+	"action-social-editothersprofile": "編輯其他人的個人檔案",
+	"right-social-editothersprofile": "編輯其他人的個人檔案",
+	"action-socialprofile-viewspecialpage": "檢視特殊頁面「{{int:socialprofiles}}」",
+	"right-socialprofile-viewspecialpage": "檢視特殊頁面「{{int:socialprofiles}}」"
+}

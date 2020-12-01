@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334"
+		]
+	},
+	"inlinecategorizer-desc": "Modul JavaScript, ki omogoča spreminjanje, dodajanje in odstranjevanje povezav kategorij neposredno s strani",
+	"inlinecategorizer-add-category": "Dodaj kategorijo",
+	"inlinecategorizer-add-category-submit": "Dodaj",
+	"inlinecategorizer-add-category-summary": "Dodati kategorijo »$1«",
+	"inlinecategorizer-api-error": "API je vrnil napako: $1: $2",
+	"inlinecategorizer-api-unknown-error": "API je vrnil neznano napako.",
+	"inlinecategorizer-cancel": "Prekliči urejanja",
+	"inlinecategorizer-cancel-all": "Prekliči vse spremembe",
+	"inlinecategorizer-category-already-present": "Stran že pripada kategoriji $1",
+	"inlinecategorizer-category-hook-error": "Lokalna funkcija je preprečila shranitev sprememb",
+	"inlinecategorizer-category-question": "Zakaj želite narediti naslednje spremembe:",
+	"inlinecategorizer-confirm-ok": "V redu",
+	"inlinecategorizer-confirm-save": "Shrani",
+	"inlinecategorizer-confirm-save-all": "Shrani vse spremembe",
+	"inlinecategorizer-confirm-title": "Potrdi dejanje",
+	"inlinecategorizer-edit-category": "Uredi kategorijo",
+	"inlinecategorizer-edit-category-error": "Kategorije »$1« ni bilo mogoče urediti.\nTo se po navadi zgodi, ko je kategorija dodana strani preko predloge.",
+	"inlinecategorizer-edit-category-summary": "Spremeniti kategorijo »$1« v »$2«",
+	"inlinecategorizer-error-title": "Napaka",
+	"inlinecategorizer-remove-category": "Odstrani kategorijo",
+	"inlinecategorizer-remove-category-error": "Kategorije »$1« ni bilo mogoče odstraniti.\nTo se po navadi zgodi, ko je kategorija dodana strani v predlogi.",
+	"inlinecategorizer-remove-category-summary": "Odstraniti kategorijo »$1«"
+}

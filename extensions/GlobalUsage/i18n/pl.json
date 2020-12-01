@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Holek",
+			"Leinad",
+			"Maikking",
+			"Rail",
+			"Railfail536",
+			"Sp5uhe",
+			"Woytecr"
+		]
+	},
+	"globalusage": "Globalne wykorzystanie pliku",
+	"globalusage-for": "Globalne wykorzystanie „$1”",
+	"globalusage-filename": "Nazwa pliku:",
+	"globalusage-desc": "[[Special:GlobalUsage|Strona specjalna]] pokazująca globalne wykorzystanie pliku",
+	"globalusage-ok": "Szukaj",
+	"globalusage-text": "Globalne wyszukiwanie wykorzystania pliku",
+	"globalusage-no-results": "[[:$1]] nie jest wykorzystywany w innych projektach wiki.",
+	"globalusage-on-wiki": "Wykorzystanie na $2",
+	"globalusage-of-file": "Ten plik jest wykorzystywany także w innych projektach wiki:",
+	"globalusage-more": "Pokaż [[{{#Special:GlobalUsage}}/$1|listę globalnego wykorzystania]] tego pliku.",
+	"globalusage-filterlocal": "Nie pokazuj lokalnego wykorzystania",
+	"mostgloballylinkedfiles": "Najczęściej globalnie linkowane pliki",
+	"mostgloballylinkedfiles-summary": "Lista plików, które zostały wykorzystane największą liczbę razy we wszystkich wiki. Równoważna lista, które uwzględnia użycie plików tylko w projekcie {{SITENAME}}, znajduje się na stronie [[{{#special:MostLinkedFiles}}]].",
+	"globallywantedfiles": "Pliki potrzebne globalnie",
+	"globallywantedfiles-summary": "Lista plików osadzanych najwięcej razy na wszystkich wiki, nawet jeżeli nie istnieją. Aby zobaczyć odpowiednik tej listy, biorącej pod uwagę tylko wykorzystanie na {{GRAMMAR:MS.lp|{{SITENAME}}}}, zobacz [[{{#special:WantedFiles}}]]. Użycie plików na wiki z rozróżnianiem wielkości pierwszej litery nazwy mogą być nieprawidłowo zgłaszane jako potrzebne.",
+	"globallywantedfiles-foreign-repo": "<strong>Ostrzeżenie:</strong> Ta wiki wykorzystuje zewnętrzne repozytorium plików. Pliki z zewnętrznego repozytorium, które są używane, będą wyświetlane na tej liście jako przekreślone niebieskie linki, bez względu na to czy istnieją.",
+	"globalusage-header": "Ta strona pokazuje, gdzie plik został wykorzystany na innych wiki. Te informacje wyświetlają się również w dolnej części strony opisu pliku.",
+	"globallyunusedfiles": "Globalnie nieużywane pliki",
+	"globallyunusedfilestext": "Następujące pliki istnieją, ale nie są osadzone na żadnej stronie żadnej wiki.",
+	"globallyunusedfiles-error-nonsharedrepo": "Ta wiki nie znajduje się w udostępnianym repozytorium"
+}

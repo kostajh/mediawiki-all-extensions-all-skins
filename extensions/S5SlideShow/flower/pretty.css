@@ -1,0 +1,46 @@
+/* Flower Theme 2004 by Martin Hense ::: www.lounge7.de */
+
+/* Following are the presentation styles -- edit away!
+   Note that the 'body' font size may have to be changed if the resolution is
+    different than expected. */
+
+.body {background: #fff url(blume.jpg) no-repeat; color: #222; font-size: 2em;}
+:link, :visited {text-decoration: none;}
+#controls :active {color: #88A !important;}
+#controls :focus {outline: 1px dotted #227;}
+.slide code {color: #533;}
+.slide code.bad, code del {color: red;}
+.slide code.old {color: silver;}
+.slide ul {margin-right: 7%; margin-left: 50px; padding: 0; list-style: circle;}
+.slide ul ul li {list-style: disc;}
+.slide img.leader {display: block; margin: 0 auto;}
+
+div.header, div.footer {background: transparent; color: #BA9384;
+  font-family: Verdana, Helvetica, sans-serif;}
+div.header {line-height: 1px;}
+div.footer {border-top: 1px solid #999999; background: #FFF0CF;}
+
+.slide {
+font-family: georgia, times, 'Times New Roman', serif; background: transparent url(blumerechts.jpg) right top no-repeat;
+}
+.slide h1 {position: absolute; z-index: 1;
+  margin: 0; padding: 0.3em 0 0 50px; white-space: nowrap;
+  text-transform: capitalize;
+  top: 35px; left: 60px; color: #4A040A;
+  font: 150%/1em georgia, times, 'Times New Roman', serif;
+  background: transparent;}
+.slide h3 {font-size: 130%;}
+
+#controls #navLinks a {background: #FFF0CF; color: #BA9384;}
+#controls #navList #jumplist {background: #DDD; color: #227;}
+
+#currentSlide {text-align: center; font-size: 20pt;
+color: #646587; font-family: Verdana, Helvetica, sans-serif; font-weight: bold;}
+
+#slide0 {padding-top: 3.5em; font-size: 90%;}
+#slide0 h1 {position: static; margin: 1em 0 1.33em; padding: 0;
+   white-space: normal;
+   color: #000; background: transparent;
+   font: 2em georgia, times, 'Times New Roman', serif;}
+#slide0 h3 {margin-top: 0.5em; font-size: 1.5em;}
+#slide0 h4 {margin-top: 0; font-size: 1em;}

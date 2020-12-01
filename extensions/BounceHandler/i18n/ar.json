@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bouncehandler-desc": "يساعد في التعامل مع ارتداد البريد الإلكتروني لميدياويكي",
+	"bouncehandler-notify_subject": "عودة الارتداد المؤقت",
+	"notification-bouncehandler": "لم يعد عنوان البريد الإلكتروني المسجل {{GENDER:$1|الخاص بك}} صالحا.",
+	"notification-bouncehandler-flyout": "تم إلغاء اشتراك عنوان البريد الإلكتروني المسجل {{GENDER:$2|الخاص بك}} $1 بسبب إخفاقات تسليم الرسائل المتعددة، يمكنك [[Special:ConfirmEmail|التحقق من عنوان البريد الإلكتروني {{GENDER:$2|الخاص بك مرة أخرى}}]].",
+	"notification-link-text-change-email": "تغيير عنوان البريد الإلكتروني الخاص بك",
+	"notification-header-unsubscribe-bouncehandler": "تم إلغاء اشتراك عنوان البريد الإلكتروني المسجل {{GENDER:$4|الخاص بك}} $3 بسبب إخفاقات تسليم الرسائل المتعددة، يمكنك لتحقق من عنوان البريد الإلكتروني {{GENDER:$4|الخاص بك}} مرة أخر."
+}

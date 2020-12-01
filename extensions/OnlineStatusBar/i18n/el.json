@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"prefs-onlinestatus": "Κατάσταση εντός σύνδεσης",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Εντός σύνδεσης}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Απασχολημένος}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Μακριά}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Κρυφό}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Εκτός σύνδεσης}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Άγνωστο}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Αυτός ο χρήστης}} είναι τώρα συνδεδεμένος",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Αυτός ο χρήστης}} είναι απασχολημένος και μπορεί να μην είναι διαθέσιμος",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Αυτός ο χρήστης}} είναι τώρα αποσυνδεδεμένος",
+	"apihelp-query+onlinestatus-example": "Εμφανίζει κατάσταση εντός σύνδεσης για το Petrb"
+}

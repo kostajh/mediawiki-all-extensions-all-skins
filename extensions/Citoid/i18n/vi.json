@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anh88",
+			"Dinhxuanduyet",
+			"Minh Nguyen",
+			"Nguyên Lê"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Chèn",
+	"citoid-citoiddialog-back": "Quay lại",
+	"citoid-citoiddialog-credit": "Hoạt động do $1",
+	"citoid-citoiddialog-lookup-button": "Phát sinh",
+	"citoid-citoiddialog-mode-auto": "Tự động",
+	"citoid-citoiddialog-mode-manual": "Thủ công",
+	"citoid-citoiddialog-mode-reuse": "Tái sử dụng",
+	"citoid-citoiddialog-search-label": "URL, DOI, hoặc PMID",
+	"citoid-citoidtool-title": "Chú thích",
+	"citoid-citoidtool-title-othergroup": "Trích dẫn",
+	"citoid-desc": "Cung cấp các điểm truy cập giữa dịch vụ citoid và MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Chuyển đổi",
+	"citoid-referencecontextitem-convert-message": "Chú thích này chỉ là một liên kết ngoài. Bấm nút “{{int:citoid-referencecontextitem-convert-button}}” bên dưới để tạo chú thích có định dạng đúng.",
+	"citoid-unknown-error": "Một lỗi không rõ đã xảy ra, khiến chúng tôi không thể tạo được một chú thích. Xin vui lòng thử lại sau."
+}

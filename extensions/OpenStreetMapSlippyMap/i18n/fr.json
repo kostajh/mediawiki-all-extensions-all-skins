@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31",
+			"Grondin"
+		]
+	},
+	"slippymap_desc": "Autorise l’utilisation de la balise <tt><nowiki>&lt;slippymap&gt;</nowiki></tt> pour afficher une carte glissante d’OpenLayers. Les cartes proviennent de [http://openstreetmap.org openstreetmap.org]",
+	"slippymap_latmissing": "Valeur lat manquante (pour la latitude).",
+	"slippymap_lonmissing": "Valeur lon manquante (pour la longitude).",
+	"slippymap_zoommissing": "Valeur z manquante (pour le niveau du zoom).",
+	"slippymap_longdepreciated": "Veuillez utiliser « lon » au lieu de « long » (le paramètre a été renommé).",
+	"slippymap_widthnan": "La largeur (w) ayant pour valeur « $1 » n’est pas un nombre entier correct.",
+	"slippymap_heightnan": "La hauteur (h) ayant pour valeur « $1 » n’est pas un nombre entier correct.",
+	"slippymap_zoomnan": "Le zoom (z) ayant pour valeur « $1 » n’est pas un nombre entier correct.",
+	"slippymap_latnan": "La latitude (lat) ayant pour valeur « $1 » n’est pas un nombre correct.",
+	"slippymap_lonnan": "La longitude (lon) ayant pour valeur « $1 » n’est pas un nombre correct.",
+	"slippymap_widthbig": "La valeur de la largeur (w) ne peut excéder 1000",
+	"slippymap_widthsmall": "La valeur de la largeur (w) ne peut être inférieure à 100",
+	"slippymap_heightbig": "La valeur de la hauteur (h) ne peut excéder 1000",
+	"slippymap_heightsmall": "La valeur de la hauteur (h) ne peut être inférieure à 100",
+	"slippymap_latbig": "La valeur de la latitude (lat) ne peut excéder 90",
+	"slippymap_latsmall": "La valeur de la latitude (lat) ne peut être inférieure à -90",
+	"slippymap_lonbig": "La valeur de la longitude (lon) ne peut excéder 180",
+	"slippymap_lonsmall": "La valeur de la longitude (lon) ne peut être inférieure à -180",
+	"slippymap_zoomsmall": "La valeur du zoom (z) ne peut être négative",
+	"slippymap_zoom18": "La valeur du zoom (z) ne peut excéder 17. Notez que ce crochet d’extension MediaWiki dans la couche « osmarender » de OpenStreetMap ne peut aller au-delà du niveau 17 du zoop. La couche Mapnik disponible sur openstreetmap.org, ne peut aller au-delà du niveau 18.",
+	"slippymap_zoombig": "La valeur du zoom (z) ne peut excéder 17.",
+	"slippymap_invalidlayer": "Valeur de « $1 » de la « couche » incorrecte",
+	"slippymap_maperror": "Erreur de carte :",
+	"slippymap_osmtext": "Voyez cette carte sur OpenStreetMap.org",
+	"slippymap_code": "Code Wiki pour le visionnement de cette cate :",
+	"slippymap_button_code": "Obtenir le code wiki",
+	"slippymap_resetview": "Réinitialiser le visionnement"
+}

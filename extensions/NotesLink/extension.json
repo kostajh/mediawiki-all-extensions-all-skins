@@ -1,0 +1,49 @@
+{
+	"name": "NotesLink",
+	"version": "2",
+	"author": [
+		"Unknown--",
+		"Patric Wirth"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NotesLink",
+	"descriptionmsg": "noteslink-desc",
+	"type": "parserhook",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"callback": "\\NotesLink\\Extension::onRegistration",
+	"AutoloadNamespaces": {
+		"NotesLink\\": "src/"
+	},
+	"MessagesDirs": {
+		"NotesLink": [
+			"i18n"
+		]
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"config": {
+		"_prefix": "noteslink",
+		"DocumentHost": "",
+		"ParserPatterns": {
+			"replica": "#<(?i)replica(?-i)[ >]([a-zA-Z0-9]{8}:[a-zA-Z0-9]{8}).*?[<>]#si",
+			"view": "#<(?i)view(?-i)[ >]([a-zA-Z0-9]{10}:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{10}:[a-zA-Z0-9]{8}).*?[<>]#si",
+			"note": "#<(?i)note(?-i)[ >]([a-zA-Z0-9]{10}:[a-zA-Z0-9]{8}-[a-zA-Z0-9]{10}:[a-zA-Z0-9]{8}).*?[<>]#si",
+			"hint": [
+				"#<(?i)hint(?-i)[ >].*?CN=(.*?)?[/<>]#si",
+				"#<(?i)hint(?-i)[ >](.*?)[<>]#si"
+			],
+			"rem": "#<(?i)rem(?-i)[ >](.*?)?[<>]#si"
+		}
+	},
+	"ConfigRegistry": {
+		"noteslink": "\\NotesLink\\Config::newInstance"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "\\NotesLink\\Hook\\ParserFirstCallInit\\AddNDLParserHook::callback"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1
+}

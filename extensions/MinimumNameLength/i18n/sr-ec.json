@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Milicevic01",
+			"Zoranzoki21"
+		]
+	},
+	"minimumnamelength-desc": "Омогућава примену минималне дужине корисничког имена",
+	"minimumnamelength-error": "Корисничко име је прекратко. Минимална дужина је {{PLURAL:$1|један карактер|$1 карактера}}."
+}

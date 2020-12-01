@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"wlm-extension-desc": "Προσθέτει πληροφορίες και μηνύματα σχετικά με τον φωτογραφικό διαγωνισμό Wiki Loves Monuments",
+	"wlm-no-contest-year": "Δεν υπήρχε διαγωνισμός Wiki Loves Monuments στο $1.",
+	"wlm-no-url-bad-country": "Δεν μπορέσαμε να βρούμε την ιστοσελίδα για τον τοπικό διαγωνισμό. Ο $1 δεν είναι έγκυρος κωδικός χώρας.",
+	"wlm-country-not-given": "Πρέπει να παράσχετε ένα κωδικό χώρας.",
+	"wlm-country-not-participating-year": "Το «$1» δεν συμμετέχει στο Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "Άλλες χώρες",
+	"wlm-international-contest": "Διεθνής",
+	"wlm-text-contact": "Επικοινωνία",
+	"wlm-text-contest": "Διαγωνισμός",
+	"wlm-text-donate": "Δωρεά",
+	"wlm-text-faq": "Συχνές ερωτήσεις",
+	"wlm-text-jury": "Κριτές",
+	"wlm-text-monuments": "Μνημεία",
+	"wlm-text-news": "Νέα",
+	"wlm-text-participate": "Συμμετέχετε!",
+	"wlm-text-prizes": "Βραβεία",
+	"wlm-text-rules": "Κανόνες",
+	"wlm-text-sponsors": "Χορηγοί",
+	"wlm-text-uploading": "Γίνεται ανέβασμα..."
+}

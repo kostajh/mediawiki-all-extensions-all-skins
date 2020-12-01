@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geitost",
+			"Metalhead64"
+		]
+	},
+	"page-creation-notif-desc": "Ermöglicht beim Erstellen neuer Seiten das Senden von E-Mail-Benachrichtigungen",
+	"page-creation-notification": "Mich per E-Mail benachrichtigen, wenn eine neue Seite erstellt wurde",
+	"page-creation-email-subject": "Neue Seite – $1 {{GENDER:$3|erstellt}} auf $2 von $3",
+	"page-creation-email-body": "Hallo $1!\n\nDies ist eine Benachrichtigung von {{SITENAME}}, um dir mitzuteilen, dass die neue Seite „$2“ {{GENDER:$3|vom Benutzer|von der Benutzerin}} $3 erstellt wurde.\n\nDu kannst sie hier sehen:\n$4\n\nDer Text der Seite ist:\n$5\n\nDein freundliches {{SITENAME}}-Benachrichtigungssystem.\n\nUm deine E-Mail-Benachrichtigungseinstellungen zu ändern, besuche bitte\n{{canonicalurl:{{#special:Preferences}}}}."
+}

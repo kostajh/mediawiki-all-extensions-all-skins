@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"apihelp-parsoid-batch-description": "API em segundo plano (para Parsoid) para fazer pedidos à API do MediaWiki em lotes",
+	"apihelp-parsoid-batch-summary": "API em segundo plano (''batch API'') para Parsoid",
+	"apihelp-parsoid-batch-param-batch": "Pedidos à API (máximo 500 por lote).",
+	"apierror-parsoid-batch-notallowed": "O endereço IP do cliente não está em ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "Lote inválido, tem de ser uma matriz.",
+	"apierror-parsoid-batch-batchtoolarge": "Lote demasiado grande, o limite é 500.",
+	"apierror-parsoid-batch-invalidaction": "Ação inválida no índice de elementos $1.",
+	"apierror-parsoid-batch-texttoobig": "O texto introduzido excede o tamanho máximo de página.",
+	"apierror-parsoid-batch-invalidtitle": "Título inválido ($1).",
+	"apierror-parsoid-batch-mustbescalar": "O parâmetro <var>$1</var> tem de ser um número.",
+	"apierror-parsoid-batch-mustbearray": "O parâmetro <var>$1</var> tem de ser uma matriz."
+}

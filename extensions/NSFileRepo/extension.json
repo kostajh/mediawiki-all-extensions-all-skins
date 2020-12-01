@@ -1,0 +1,89 @@
+{
+	"name": "NSFileRepo",
+	"version": "1.35.0",
+	"author": [
+		"Jack D. Pond",
+		"Robert Vogel"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NSFileRepo",
+	"descriptionmsg": "nsfilerepo-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "media",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"ExtensionFunctions": [
+		"NSFileRepoHooks::setup"
+	],
+	"callback": "NSFileRepoHooks::register",
+	"MessagesDirs": {
+		"NSFileRepo": [
+			"i18n/nsfilerepo"
+		],
+		"img_auth": [
+			"i18n/imgauth"
+		]
+	},
+	"AutoloadNamespaces": {
+		"NSFileRepo\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"NSFileRepo\\Tests\\": "tests/phpunit/"
+	},
+	"AutoloadClasses": {
+		"NSFileRepoHooks": "includes/NSFileRepoHooks.php",
+		"NSLocalRepo": "includes/filerepo/NSLocalRepo.php",
+		"NSLocalFile": "includes/filerepo/file/NSLocalFile.php",
+		"NSLocalFileMoveBatch": "includes/filerepo/file/NSLocalFile.php",
+		"NSOldLocalFile": "includes/filerepo/file/NSOldLocalFile.php",
+		"NSFileRepoFSFileBackend": "includes/filebackend/NSFileRepoFSFileBackend.php",
+		"NSFileRepoHelper": "includes/utility/NSFileRepoHelper.php"
+	},
+	"ResourceModules": {
+		"ext.nsfilerepo.special.upload": {
+			"scripts": [
+				"ext.nsfilerepo.special.upload.js"
+			]
+		},
+		"ext.nsfilerepo.filepage.bootstrap": {
+			"scripts": [
+				"ext.nsfilerepo.filepage.bootstrap.js"
+			]
+		},
+		"ext.nsfilerepo.filepage": {
+			"scripts": [
+				"nsfr/ui/dialog/ChangeFileNamespaceAssociation.js"
+			],
+			"messages": [
+				"nsfilerepo-move-file-namespace-dialog-title",
+				"nsfilerepo-move-file-namespace-dialog-button-done",
+				"nsfilerepo-move-file-namespace-dialog-button-cancel",
+				"nsfilerepo-move-file-namespace-dialog-namespaceselector-label"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "NSFileRepo/resources"
+	},
+	"Hooks": {
+		"UploadForm:BeforeProcessing": "NSFileRepo\\Hooks\\UploadFormBeforeProcessing::handle",
+		"userCan": "NSFileRepo\\Hooks\\UserCan::handle",
+		"BeforePageDisplay": "NSFileRepoHooks::onBeforePageDisplay",
+		"UploadFormInitDescriptor": "NSFileRepo\\Hooks\\UploadFormInitDescriptor::handle",
+		"ImgAuthBeforeCheckFileExists": "NSFileRepoHooks::onImgAuthBeforeCheckFileExists",
+		"ImgAuthBeforeStream": "NSFileRepoHooks::onImgAuthBeforeStream",
+		"UploadVerification": "NSFileRepoHooks::onUploadVerification",
+		"SkinTemplateNavigation::Universal": "NSFileRepo\\Hooks\\SkinTemplateNavigationUniversal::handle"
+	},
+	"config": {
+		"_prefix": "egNSFileRepo",
+		"@note NamespaceThreshold": "This should probably be 3000 as recommended by MediaWiki. But for backwards compatibility we'll stick with this default",
+		"NamespaceThreshold": 100,
+		"@note NamespaceBlacklist": "There are some widespread extensions that create namespaces. E.g. SemanticMediaWiki, PageForms, Widgets, Scribunto, ...",
+		"NamespaceBlacklist": [ 102, 104, 106, 108, 274, 828 ],
+		"SkipTalk": true,
+		"ForceDownload": [ "js", "css", "xml", "html", "htm", "xhtml" ]
+	},
+	"manifest_version": 1
+}

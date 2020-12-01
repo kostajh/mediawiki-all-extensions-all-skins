@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"fileimporter-illegalfilenamechars": "Pavadinimas, kurį bandote importuoti, turi negalimų simbolių failo pavadinime.",
+	"fileimporter-duplicatefilesdetected": "Failas, kurį bandote importuoti, jau egzistuoja šioje viki.",
+	"fileimporter-duplicatefilesdetected-prefix": "Dublikatai",
+	"fileimporter-resubmit": "Siųsti iš naujo",
+	"fileimporter-cancel": "Atšaukti",
+	"fileimporter-edittitle": "Redaguoti Pavadinimą",
+	"fileimporter-editinfo": "Redaguoti Failo Informaciją",
+	"fileimporter-extensionlabel": "Failo plėtinis:",
+	"fileimporter-newfilename": "Naujas failo pavadinimas:",
+	"fileimporter-newfilename-placeholder": "Kažkoks Failo Pavadinimas",
+	"fileimporter-editsummary": "Redaguoti santrauką:",
+	"fileimporter-heading-fileinfo": "Failo informacija",
+	"fileimporter-heading-filehistory": "Failo istorija"
+}

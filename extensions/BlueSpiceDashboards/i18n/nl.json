@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arg",
+			"Esketti",
+			"Mainframe98",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"bs-dashboards-desc": "Biedt dashboards voor gebruikers en beheerders",
+	"bs-specialadmindashboard-label": "Dashboard",
+	"bs-dashboards-addportlet": "Portlet toevoegen",
+	"bs-dashboards-portlets": "Portlets",
+	"prefs-dashboards": "Dashboards",
+	"bs-dashboards-pref-userdashboardonlogo": "Sitelogo wordt een koppeling naar het gebruikersdashboard",
+	"admindashboard": "Beheerdersdashboard",
+	"userdashboard": "Gebruikersdashboard",
+	"bs-dashboard-userportlet-calendar-title": "Kalender",
+	"bs-dashboard-userportlet-calendar-description": "Kalender",
+	"bs-dashboard-userportlet-wikipage-title": "Wikipagina",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "Wikipagina",
+	"action-dashboards-viewspecialpage-userdashboard": "bekijk de speciale pagina \"{{int:userdashboard}}\"",
+	"right-dashboards-viewspecialpage-userdashboard": "Toegang hebben tot de speciale pagina [[Special:UserDashboard]]"
+}

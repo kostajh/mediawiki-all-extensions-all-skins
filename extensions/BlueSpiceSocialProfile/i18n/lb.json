@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"bs-socialprofile-type": "Profil",
+	"bs-socialprofile-entityaction-changeimage": "Benotzerbild",
+	"bs-social-entityaction-editprofilefields": "Profildaten",
+	"bs-social-profile-field-name": "Numm",
+	"bs-social-profile-field-email": "E-Mail",
+	"bs-social-profile-field-title": "Titel",
+	"bs-social-profile-field-department": "Departement",
+	"bs-social-profile-field-function": "Funktioun",
+	"bs-social-profile-field-location": "Plaz",
+	"bs-social-profile-field-phone": "Telefon",
+	"bs-social-profile-field-validate-no-integer": "$1 muss eng Zuel sinn",
+	"bs-socialprofile-special-profiles-heading": "Profiller",
+	"socialprofiles": "Profiller",
+	"bs-socialprofile-switch-classicprofile-label": "Klassesche Profil",
+	"bs-socialprofile-switch-modernprofile-label": "Moderne Profil",
+	"right-social-editothersprofile": "Anere Benotzer hire Profil änneren"
+}

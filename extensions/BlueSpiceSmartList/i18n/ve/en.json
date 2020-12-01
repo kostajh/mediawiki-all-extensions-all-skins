@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dejan Savuljesku <savuljesku@hallowelt.com>"
+		]
+	},
+	"bs-smartlist-ve-smartlist-title": "SmartList",
+	"bs-smartlist-ve-smartlistinspector-count": "Count",
+	"bs-smartlist-ve-smartlistinspector-ns": "Namespace(s)",
+	"bs-smartlist-ve-smartlistinspector-cat": "Category",
+	"bs-smartlist-ve-smartlistinspector-minor": "Show minor",
+	"bs-smartlist-ve-smartlistinspector-catmode": "Category mode",
+	"bs-smartlist-ve-smartlistinspector-period": "Period",
+	"bs-smartlist-ve-smartlistinspector-new": "Show only new articles",
+	"bs-smartlist-ve-smartlistinspector-heading": "Heading",
+	"bs-smartlist-ve-smartlistinspector-trim": "Trim",
+	"bs-smartlist-ve-smartlistinspector-showtext": "Show text",
+	"bs-smartlist-ve-smartlistinspector-trimtext": "Trim text",
+	"bs-smartlist-ve-smartlistinspector-sort": "Sort by",
+	"bs-smartlist-ve-smartlistinspector-order": "Sort order",
+	"bs-smartlist-ve-smartlistinspector-showns": "Show namespaces",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "Number with text",
+	"bs-smartlist-ve-smartlistinspector-meta": "Meta",
+	"bs-smartlist-ve-smartlistinspector-target": "Target",
+	"bs-smartlist-ve-smartlistinspector-excludens": "Exclude namespace(s)",
+	"bs-smartlist-ve-period-day-label": "Day",
+	"bs-smartlist-ve-period-week-label": "Week",
+	"bs-smartlist-ve-period-month-label": "Month",
+	"bs-smartlist-ve-sort-time-label": "Time",
+	"bs-smartlist-ve-sort-title-label": "Title",
+	"bs-smartlist-ve-newbies-title": "Newbies",
+	"bs-smartlist-ve-newbiesinspector-count": "Count",
+	"bs-smartlist-ve-toplist-title": "TopList",
+	"bs-smartlist-ve-toplistinspector-count": "Count",
+	"bs-smartlist-ve-toplistinspector-ns": "Namespace(s)",
+	"bs-smartlist-ve-toplistinspector-cat": "Category",
+	"bs-smartlist-ve-toplistinspector-period": "Period",
+	"bs-smartlist-ve-toplistinspector-portletperiod": "Portlet period",
+	"bs-smartlist-ve-mode-recentchanges-label": "Recent changes",
+	"bs-smartlist-ve-mode-changesofweek-label": "Changes of the week"
+}

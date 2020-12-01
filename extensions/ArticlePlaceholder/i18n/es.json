@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Macofe",
+			"SinNovedades"
+		]
+	},
+	"createtopicpage": "Crear página",
+	"articleplaceholder-desc": "Proporciona una página especial de información de {{WBREPONAME}} acerca de un determinado tema, con invitación a crear un artículo para el tema",
+	"articleplaceholder-abouttopic": "Sobre el tema",
+	"articleplaceholder-abouttopic-intro": "Esta página especial te proporciona un resumen rápido de un tema basado en datos de {{WBREPONAME}}.",
+	"articleplaceholder-abouttopic-entityid": "Escribe un identificador de elemento, como Q12345",
+	"articleplaceholder-abouttopic-submit": "crear",
+	"articleplaceholder-abouttopic-no-entity-error": "Este identificador de elemento no es válido.",
+	"articleplaceholder-abouttopic-create-article-title": "Crear un artículo nuevo",
+	"articleplaceholder-abouttopic-create-article-label": "Título del artículo",
+	"articleplaceholder-abouttopic-create-article-mandatory": "El título del artículo es obligatorio.",
+	"articleplaceholder-abouttopic-create-article-button": "Crear un artículo",
+	"articleplaceholder-abouttopic-create-empty-article-button": "Empezar un nuevo artículo",
+	"articleplaceholder-abouttopic-translate-article-label": "Idioma de origen:",
+	"articleplaceholder-abouttopic-translate-article-button": "Traducir artículo",
+	"articleplaceholder-abouttopic-create-article-submit-button": "Enviar",
+	"articleplaceholder-abouttopic-article-exists-error": "Ya existe un arttículo con este nombre",
+	"articleplaceholder-abouttopic-lua-entity": "Entidad",
+	"articleplaceholder-abouttopic-lua-reference": "Referencia",
+	"articleplaceholder-abouttopic-lua-identifier": "Recursos externos",
+	"articleplaceholder-search-header": "Descubrir datos sobre el tema",
+	"articleplaceholder-createpage-title": "Crear $1",
+	"articleplaceholder-createpage-alreadyexists": "La página con el título $1 ya existe. Elige otro.",
+	"articleplaceholder-createpage-notitleprovided": "No se proporcionó ningún título. Escribe un título para la página que quieres crear.",
+	"articleplaceholder-createpage-invalidtitleprovided": "El título escrito no es válido. Proporciona un título válido."
+}

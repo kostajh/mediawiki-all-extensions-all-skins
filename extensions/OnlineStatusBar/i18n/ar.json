@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"onlinestatusbar-desc": "شريط الحالة التي توضح ما إذا كان المستخدم متصلا في صفحة المستخدم الخاصة به",
+	"prefs-onlinestatus": "حالة الاتصال بالإنترنت",
+	"onlinestatusbar-used": "عرض حالة اتصالك بالإنترنت على صفحات المستخدم الخاصة بك",
+	"onlinestatusbar-hide": "إخفاء شريط الحالة على صفحات المستخدمين من أجل استخدام الكلمة السحرية فقط (للمستخدمين المتقدمين)",
+	"onlinestatusbar-away": "التعامل كبعيد تلقائيا بعد فترة محددة",
+	"onlinestatusbar-purge": "تطهير صفحة المستخدم في كل مرة عند تسجيل دخولك أو خروجك",
+	"onlinestatusbar-status": "ما هي الحالة الافتراضية التي ترغب في استخدامها؟",
+	"onlinestatusbar-away-time": "كم دقيقة حتى يتم تعليمك كغائب؟",
+	"onlinestatusbar-title-online": "{{GENDER:$1|متصل|متصلة}} بالإنترنت",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|مشغول|مشغولة}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|غائب|غائبة}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|مخفي|مخفية}}",
+	"onlinestatusbar-title-offline": "غير {{GENDER:$1|متصل|متصلة}} بالإنترنت",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|غير معروف}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|هذا المستخدم متصل|هذه المستخدمة متصلة}} بالإنترنت الآن",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|هذا المستخدم مشغول وقد يكون غير متاح|هذه المستخدمة مشغولة وقد تكون غير متاحة}}",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|هذا المستخدم خامل وقد يكون غير متاح|هذه المستخدمة خاملة وقد تكون غير متاحة}}",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|هذا المستخدم غير متصل|هذه المستخدمة غير متصلة}} بالإنترنت",
+	"onlinestatusbar-tooltip-unknown": "حالة  {{GENDER:$1|هذا المستخدم|هذه المستخدمة}} غير معروفة",
+	"apihelp-query+onlinestatus-description": "إرجاع حالة الاتصال بالإنترنت وجنس المستخدم",
+	"apihelp-query+onlinestatus-summary": "إرجاع حالة الاتصال بالإنترنت وجنس المستخدم",
+	"apihelp-query+onlinestatus-param-user": "اسم المستخدم للمستخدم الذي تريد الحصول على حالة له",
+	"apihelp-query+onlinestatus-example": "إظهار حالة الاتصال بالإنترنت لبيتر بينا"
+}

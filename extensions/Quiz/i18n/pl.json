@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Derbeth",
+			"Maikking",
+			"Sp5uhe",
+			"Woytecr"
+		]
+	},
+	"quiz_desc": "Umożliwia tworzenie quizów",
+	"quiz_addedPoints": "{{PLURAL:$1|Punkt dodawany|Punkty dodawane|Punktów dodawanych}} za właściwą odpowiedź:",
+	"quiz_cutoffPoints": "{{PLURAL:$1|Punkt|Punkty}} za niewłaściwą odpowiedź:",
+	"quiz_ignoreCoef": "Ignoruj punktację pytań:",
+	"quiz_shuffle": "Losuj kolejność pytań",
+	"quiz_legend_correct": "Właściwa",
+	"quiz_legend_incorrect": "Niewłaściwa",
+	"quiz_legend_unanswered": "Brak odpowiedzi",
+	"quiz_legend_error": "Błąd składni",
+	"quiz_correction": "Wyślij",
+	"quiz_score": "Twoje punty to $1 na możliwych $2",
+	"quiz_points": "$1 | {{PLURAL:$2|1 punkt|$2 punkty|$2 punktów}}",
+	"quiz_reset": "Wyzeruj"
+}

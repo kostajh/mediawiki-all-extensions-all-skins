@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck",
+			"Wizardist"
+		]
+	},
+	"sidebarmenu-desc": "Просты парсэр для бакавога мэню, які дазваляе ствараць згортваемыя мэню і падмэню",
+	"sidebarmenu-parser-input-error": "Парсэр павярнуў памылку: $1",
+	"sidebarmenu-parser-syntax-error": "Не атрымалася разабраць «$1». Запэўніцеся, што сынтэкс карэктны.",
+	"sidebarmenu-js-init-error": "Не атрымалася загрузіць JavaScript-рэсурсы.",
+	"sidebarmenu-edit": "Рэдагаваць мэню",
+	"sidebarmenu-parser-menuitem-expanded-null": "Пададзенае няслушнае значэньне, слушнае — null, true, або false.",
+	"sidebarmenu-parser-config-error": "Пры праверцы ўваходных парамэтраў узьніклі памылкі",
+	"sidebarmenu-parser-subpage-error-title-not-found": "Не атрымалася знайсьці загаловак згаданай падстаронкі"
+}

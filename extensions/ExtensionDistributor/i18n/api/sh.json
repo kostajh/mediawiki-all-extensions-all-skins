@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"apihelp-query+extdistrepos-description": "Daje spisak repozitorijuma podržanih od ExtensionDistributor",
+	"apihelp-query+extdistrepos-summary": "Daje spisak repozitorijuma podržanih od ExtensionDistributor",
+	"apihelp-query+extdistrepos-example-1": "Ispiši repozitorije"
+}

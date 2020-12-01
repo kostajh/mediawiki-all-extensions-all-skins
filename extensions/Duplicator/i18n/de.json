@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Leon Weber",
+			"Metalhead64",
+			"Purodha",
+			"Revolus",
+			"Umherirrender"
+		]
+	},
+	"duplicator": "Seite duplizieren",
+	"duplicator-desc": "Legt unabhängige [[Special:Duplicate|Kopien von Seiten]] an mit ihrer Versionsgeschichte",
+	"duplicator-toolbox": "Diese Seite duplizieren",
+	"duplicator-header": "Mit dieser Spezialseite können Seiten komplett dupliziert werden. Dabei wird die gesamte Versionsgeschichte übernommen. Dies kann beispielsweise nützlich sein, um eine Seite in Unterseiten aufzuteilen.",
+	"duplicator-options": "Optionen",
+	"duplicator-source": "Quelle:",
+	"duplicator-dest": "Ziel:",
+	"duplicator-dotalk": "Diskussionsseite mitkopieren (wenn möglich)",
+	"duplicator-dosubpages": "Unterseiten duplizieren (falls verfügbar)",
+	"duplicator-dohistory": "Vollständige Versionsgeschichte duplizieren",
+	"duplicator-submit": "Seite duplizieren",
+	"duplicator-summary": "Kopiert von [[$1]], Version [[$2]]",
+	"duplicator-success": "[[$1]] wurde nach [[$2]] kopiert.",
+	"duplicator-success-revisions": "{{PLURAL:$1|1 Version wurde|$1 Versionen wurden}} dupliziert.",
+	"duplicator-success-talknotcopied": "Die Diskussionsseite konnte nicht dupliziert werden.",
+	"duplicator-failed": "Die Seite konnte nicht dupliziert werden, da ein unbekannter Fehler auftrat.",
+	"duplicator-failed-toolong": "[[$1]] wurde nicht dupliziert. Der Zieltitel ist zu lang.",
+	"duplicator-failed-dest-exists": "[[$1]] wurde nicht dupliziert. Das Ziel „[[$2]]“ ist bereits vorhanden.",
+	"duplicator-source-invalid": "Bitte gib eine gültige Quell-Seite an.",
+	"duplicator-source-notexist": "Die Seite [[$1]] ist nicht vorhanden. Bitte gib eine vorhandene Seite an.",
+	"duplicator-dest-invalid": "Bitte gib eine gültige Ziel-Seite an.",
+	"duplicator-dest-exists": "Die Seite [[$1]] ist bereits vorhanden. Bitte gib eine Zielseite an, die nicht vorhanden ist.",
+	"action-duplicate": "Seiten zu duplizieren",
+	"right-duplicate": "Seiten duplizieren"
+}

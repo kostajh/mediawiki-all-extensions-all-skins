@@ -1,0 +1,150 @@
+{
+	"name": "PerformanceInspector",
+	"version": "0.1.0",
+	"author": [ "Peter Hedenskog" ],
+	"url": "https://www.mediawiki.org/wiki/Extension:PerformanceInspector",
+	"descriptionmsg": "performanceinspector-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"Hooks": {
+		"BeforePageDisplay": [ "PerformanceInspectorHooks::onBeforePageDisplay" ],
+		"BaseTemplateToolbox": [ "PerformanceInspectorHooks::onBaseTemplateToolbox" ],
+		"GetPreferences": [ "PerformanceInspectorHooks::onGetPreferences" ]
+	},
+	"MessagesDirs": {
+		"PerformanceInspector": [ "i18n" ]
+	},
+	"ResourceModules": {
+		"ext.PerformanceInspector.startup": {
+			"scripts": "ext.PerformanceInspector.startup.js",
+			"messages": "performanceinspector-portlet-link"
+		},
+		"ext.PerformanceInspector.noscript": {
+			"styles": "css/ext.PerformanceInspector.noscript.css"
+		},
+		"ext.PerformanceInspector.analyze": {
+			"scripts": [
+				"ext.PerformanceInspector.setup.js",
+				"ext.PerformanceInspector.view.js",
+				"util/barChart.js",
+				"collectors/ext.PerformanceInspector.modulessize.js",
+				"collectors/ext.PerformanceInspector.modulescss.js",
+				"collectors/ext.PerformanceInspector.moduleslocalstorage.js",
+				"collectors/ext.PerformanceInspector.imagesize.js",
+				"collectors/ext.PerformanceInspector.newpp.js",
+				"collectors/ext.PerformanceInspector.pagesize.js"
+			],
+			"styles": [
+				"css/ext.PerformanceInspector.css"
+			],
+			"dependencies": [
+				"oojs",
+				"oojs-ui",
+				"moment"
+			],
+			"templates": {
+				"summary.mustache": "templates/summary.mustache",
+				"modulessize.mustache": "templates/modulessize.mustache",
+				"modulescss.mustache": "templates/modulescss.mustache",
+				"moduleslocalstorage.mustache": "templates/moduleslocalstorage.mustache",
+				"imagesize.mustache": "templates/imagesize.mustache",
+				"newpp.mustache": "templates/newpp.mustache"
+			},
+			"messages": [
+				"performanceinspector-dialog-title",
+				"performanceinspector-dialog-summary",
+				"performanceinspector-dialog-cancel",
+				"performanceinspector-modules-summary-total-size",
+				"performanceinspector-modules-css-name",
+				"performanceinspector-modules-css-label",
+				"performanceinspector-modules-css-description",
+				"performanceinspector-modules-css-url-description",
+				"performanceinspector-modules-css-embeds-description",
+				"performanceinspector-modules-css-column-module",
+				"performanceinspector-modules-css-column-used-selectors",
+				"performanceinspector-modules-css-column-source",
+				"performanceinspector-modules-css-column-used-embeds",
+				"performanceinspector-modules-css-used-selectors-values",
+				"performanceinspector-modules-css-column-url",
+				"performanceinspector-modules-css-show-details",
+				"performanceinspector-modules-localstorage-name",
+				"performanceinspector-modules-localstorage-label",
+				"performanceinspector-modules-localstorage-disabled",
+				"performanceinspector-modules-localstorage-hits",
+				"performanceinspector-modules-localstorage-misses",
+				"performanceinspector-modules-localstorage-expired",
+				"performanceinspector-modules-localstorage-totalsize",
+				"performanceinspector-modules-size-name",
+				"performanceinspector-modules-size-label",
+				"performanceinspector-imagesize-name",
+				"performanceinspector-imagesize-label",
+				"performanceinspector-imagesize-column-image-name",
+				"performanceinspector-imagesize-column-size",
+				"performanceinspector-imagesize-column-image-extra",
+				"performanceinspector-imagesize-too-big",
+				"performanceinspector-imagesize-description",
+				"performanceinspector-imagesize-warning-description",
+				"performanceinspector-modules-summary-images",
+				"performanceinspector-newpp-summary",
+				"performanceinspector-newpp-label",
+				"performanceinspector-newpp-column-name",
+				"performanceinspector-newpp-column-value",
+				"performanceinspector-newpp-template-time-report-column-name",
+				"performanceinspector-newpp-template-time-report-column-percentreal",
+				"performanceinspector-newpp-template-time-report-column-real",
+				"performanceinspector-newpp-template-time-report-column-calls",
+				"performanceinspector-newpp-cputime",
+				"performanceinspector-newpp-walltime",
+				"performanceinspector-newpp-ppvisitednodes",
+				"performanceinspector-newpp-ppgeneratednodes",
+				"performanceinspector-newpp-postexpandincludesize",
+				"performanceinspector-newpp-templateargumentsize",
+				"performanceinspector-newpp-expansiondepth",
+				"performanceinspector-newpp-expensivefunctioncount",
+				"performanceinspector-newpp-timingprofile",
+				"performanceinspector-newpp-name",
+				"performanceinspector-newpp-scribunto",
+				"performanceinspector-newpp-parsed-by",
+				"performanceinspector-newpp-cached-time",
+				"performanceinspector-newpp-parsed-ttl",
+				"performanceinspector-newpp-dynamic-content",
+				"performanceinspector-newpp-cachereport",
+				"performanceinspector-newpp-value-and-limit",
+				"performanceinspector-modules-localstorage-description",
+				"performanceinspector-modules-module-description",
+				"performanceinspector-newpp-description",
+				"performanceinspector-newpp-timingprofile-description",
+				"performanceinspector-newpp-scribunto-description",
+				"performanceinspector-newpp-cachereport-description",
+				"performanceinspector-newpp-cachereport-now",
+				"performanceinspector-newpp-missing-report",
+				"performanceinspector-pagesize-summary",
+				"size-bytes",
+				"size-kilobytes",
+				"size-megabytes",
+				"size-gigabytes"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "PerformanceInspector/modules"
+	},
+	"QUnitTestModule": {
+		"localBasePath": "tests/qunit",
+		"remoteExtPath": "PerformanceInspector/tests/qunit",
+		"scripts": [
+			"ext.performanceInspector.test.js"
+		],
+		"dependencies": [
+			"ext.PerformanceInspector.analyze"
+		]
+	},
+	"AutoloadClasses": {
+		"PerformanceInspectorHooks": "includes/PerformanceInspectorHooks.php"
+	},
+	"manifest_version": 2
+}

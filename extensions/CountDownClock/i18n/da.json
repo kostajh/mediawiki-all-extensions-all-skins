@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"countDownClock-days": "$1 {{PLURAL:$1|Dag|Dage}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|Time|Timer}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|Minut|Minutter}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|Sekund|Sekunder}}",
+	"countDownClock-expired": "Udløbet"
+}

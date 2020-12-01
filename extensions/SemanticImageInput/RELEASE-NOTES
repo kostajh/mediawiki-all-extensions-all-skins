@@ -1,0 +1,33 @@
+These are the release notes for the Semantic Image Input extension. See also
+the extension's page on mediawiki.org:
+
+* https://www.mediawiki.org/wiki/Extension:Semantic_Image_Input
+
+== Version 0.4.0 ==
+Released on 2017-08-01
+
+* Removed I18n php shim
+
+== Version 0.3.0 ==
+Released on 2014-04-01
+
+* Migrated to JSON i18n
+
+== Version 0.2.0 ==
+Release on 2011-12-13
+
+* Fixed some Internet Explorer specific JavaScript issues.
+* Fixed title of Special page does not contain "subpages"
+* Fixed anon functions not available in php pre5.3
+* Fixed width attrib of html elements must not contain unit (px)
+* Fixed width of wikitext image link must contain unit (px)
+* Tweaked jquery
+
+== Version 0.1.0 ==
+Released on 2011-11-10
+
+Initial release with these features:
+
+* Image input that automatically fetches the first image from a Wikipedia page.
+* Wikipedia redirect resolving.
+* Support for multiple instance templates in forms.

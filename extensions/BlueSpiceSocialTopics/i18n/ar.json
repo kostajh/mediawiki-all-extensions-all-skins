@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-socialtopics-desc": "كيانات الموضوع والمناقشة لBlueSpiceSocial",
+	"bs-socialtopics-pref-skipcreatedialog": "تخطي الحوار حول إنشاء المناقشة",
+	"bs-socialtopics-toc-entalkpageautocreate": "إنشاء جميع صفحات النقاش تلقائيا",
+	"bs-socialtopics-autocreated-discussionpage": "تم إنشاء صفحة النقاش هذه تلقائيا.",
+	"bs-socialtopics-autocreated-discussionpagefile": "تم إنشاء صفحة النقاش هذه تلقائيا.",
+	"bs-socialdiscussion-discussiontype": "نقاش",
+	"bs-socialdiscussion-topictype": "موضوع النقاش",
+	"bs-socialtopics-entitydiscussion-header-create": "إنشاء مناقشة جديدة",
+	"bs-social-entitytopic-header-create": "موضوع جديد",
+	"bs-socialtopics-var-topictitle": "العنوان",
+	"bs-socialtopics-var-discussiontitleid": "صفحة النقاش المخصصة",
+	"bs-socialtopics-entity-fatalstatus-save-notalkpage": "ليست صفحة مناقشة صالحة",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "$1 بدأ الموضوع:",
+	"topics": "مواضيع",
+	"bs-socialtopics-special-topics-heading": "جميع المواضيع",
+	"bs-socialtopics-special-topics-heading-entry": "موضوع/$1",
+	"bs-socialtopics-aftercontent-heading": "النقاشات",
+	"bs-socialtopics-nodiscussionpage": "لم يتم إنشاء صفحة مناقشة بعد.",
+	"bs-socialtopics-nodiscussionpage-create": "إنشاء صفحة نقاش جديدة",
+	"bs-socialtopics-nodiscussion": "لم يتم إنشاء صفحة مناقشة بعد.",
+	"bs-socialtopics-notopicsadded": "لم يتم إنشاء موضوع حتى الآن.",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "احفظ",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "إلغاء",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "المحتوى",
+	"bs-socialtopics-switch-nodiscussion-description": "يخفي المناقشة في هذه الصفحة."
+}

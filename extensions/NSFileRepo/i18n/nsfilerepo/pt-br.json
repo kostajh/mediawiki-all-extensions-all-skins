@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent",
+			"Eduardo Addad de Oliveira",
+			"Eduardo.mps"
+		]
+	},
+	"nsfilerepo-desc": "Provê funcionalidades de arquivos carregados, baseadas no domínio",
+	"nsfilerepo-upload-target": "Nome de destino do arquivo no domínio",
+	"nsfilerepo-nsmain": "(Principal)",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext": "Este campo não pode ser modificado ao recarregar um arquivo",
+	"nsfilerepo-move-file-namespace-action-label": "Definir espaço nominal de arquivos",
+	"nsfilerepo-move-file-namespace-dialog-title": "Definir espaço nominal de arquivos",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "Feito",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "Cancelar",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "Espaço nominal"
+}

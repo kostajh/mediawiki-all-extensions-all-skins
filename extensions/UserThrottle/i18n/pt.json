@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Malafaya",
+			"Waldir"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "A criação de contas foi automaticamente suspensa por alguns segundos para reduzir os ataques de registo em massa.\nPor favor, aguarde um momento e carregue em 'refrescar' no seu browser para reenviar os dados.",
+	"userthrottle-desc": "Restringir a criação de utilizadores"
+}

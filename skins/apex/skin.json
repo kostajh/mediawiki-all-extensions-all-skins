@@ -1,0 +1,68 @@
+{
+	"name": "Apex",
+	"author": [
+		"Trevor Parscal"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Apex",
+	"descriptionmsg": "apex-desc",
+	"namemsg": "skinname-apex",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"ValidSkinNames": {
+		"apex": {
+			"class": "SkinApex",
+			"args": [ {
+				"name": "Apex",
+				"responsive": false,
+				"styles": [
+					"mediawiki.skinning.interface",
+					"skins.apex.styles"
+				]
+			} ]
+		}
+	},
+	"SkinOOUIThemes": {
+		"apex": "Apex"
+	},
+	"MessagesDirs": {
+		"apex": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinApex": "SkinApex.php",
+		"ApexTemplate": "ApexTemplate.php"
+	},
+	"Hooks": {
+		"OutputPageBodyAttributes": "SkinApex::onOutputPageBodyAttributes"
+	},
+	"ResourceModules": {
+		"skins.apex": {
+			"scripts": "resources/apex.js"
+		},
+		"skins.apex.styles": {
+			"styles": {
+				"resources/screen.css": {
+					"media": "screen"
+				},
+				"resources/screen-narrow.css": {
+					"media": "screen and (max-width: 700px)"
+				},
+				"resources/screen-wide.css": {
+					"media": "screen and (min-width: 982px)"
+				}
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "apex"
+	},
+	"config": {
+		"ApexLogo": {
+			"1x": false,
+			"2x": false
+		}
+	},
+	"manifest_version": 1
+}

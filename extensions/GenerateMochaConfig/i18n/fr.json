@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"generatemochaconfig-desc": "Un script qui génère un JSON qui peut être utilisé pour lancer des tests Mocha pour toutes les extensions activées"
+}

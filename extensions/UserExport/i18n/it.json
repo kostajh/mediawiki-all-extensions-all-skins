@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"userexport-desc": "Consente di esportare i dati utente in un file CSV",
+	"userexport": "Esporta dati utente",
+	"userexport-submit": "Esporta",
+	"userexport-badtoken": "Token di modifica non valido",
+	"userexport-description": "Questa pagina consente di esportare i dati utente (nome utente ed email) di tutti gli utenti registrati in questo wiki in un file CSV.",
+	"action-userexport": "esportare i dati utente da questo wiki"
+}

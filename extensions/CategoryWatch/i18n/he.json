@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2",
+			"Rotemliss",
+			"YaronSh"
+		]
+	},
+	"categorywatch-desc": "הרחבת יכולות רשימת המעקב להכללת התראות אודות שינויים בדפים החברים בקטגוריות שבמעקב",
+	"categorywatch-emailsubject": "פעילויות בהן מעורבת הקטגוריה שבמעקב \"$1\"",
+	"categorywatch-catmovein": "הדף $1 עבר אל הקטגוריה $2 מהקטגוריה $3",
+	"categorywatch-catmoveout": "הדף $1 עבר מהקטגוריה $2 אל הקטגוריה $3",
+	"categorywatch-catadd": "הדף $1 נוסף לקטגוריה $2",
+	"categorywatch-catsub": "הדף $1 הוסר מהקטגוריה $2",
+	"categorywatch-autocat": "במעקב אוטומטי על־ידי $1",
+	"categorywatch-notification-link": "קטגוריה: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "הדף [[:$1|$2]] נוסף אל [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "הדף [[:$3|$4]] נוסף אל [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] {{GENDER:$1|הוסיף|הוסיפה}} את הדף [[:$3|$3]] אל [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "הדף [[:$1|$2]] הוסר מתוך [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "הדף [[:$3|$4]] הוסר מתוך [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] {{GENDER:$1|הסיר|הסירה}} את הדף [[:$3|$3]] מתוך [[:$4|$4]]",
+	"categorywatch-notification-bundle": "{{PLURAL:$1|שינוי אחד|$1 שינויים}} בקטגוריות באתר {{SITENAME}}",
+	"categorywatch-add-title": "הכותרת נוספה לקטגוריה במעקב",
+	"categorywatch-remove-title": "הכותרת הוסרה מקטגוריה במעקב",
+	"categorywatch-page-watch-pref": "בעת הוספת קטגוריה לרשימת המעקב, להוסיף גם כל הדפים שבה לרשימה",
+	"echo-category-title-categorywatch": "מעקב אחר קטגוריות",
+	"echo-pref-tooltip-categorywatch": "להודיע לי כשמישהו מוסיף דף לקטגוריה שנמצאת ברשימת המעקב שלי, או מסיר דף ממנה."
+}

@@ -1,0 +1,27 @@
+{
+	"name": "preferenceslist/preferences-list",
+	"description": "Generates a list of all user settings for a particular preference",
+	"type": "mediawiki-extension",
+	"license": "GPL-2.0-or-later",
+	"require-dev": {
+		"mediawiki/mediawiki-codesniffer": "33.0.0",
+		"mediawiki/minus-x": "1.1.0",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"phpcs -p -s",
+			"minus-x check ."
+		],
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		]
+	},
+	"require": {
+		"php": ">=5.6",
+		"composer/installers": "~1.0"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Vlad5250"
+		]
+	},
+	"countDownClock-desc": "Додає парсерну функцію для показу відліку часу",
+	"countDownClock-invalidtime": "Будь ласка, задайте дійсний параметр закінчення відліку (endTime)",
+	"countDownClock-days": "$1 {{PLURAL:$1|день|дні|днів}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|година|години|годин}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|хвилина|хвилини|хвилин}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|секунда|секунди|секунд}}",
+	"countDownClock-expired": "Час вийшов"
+}

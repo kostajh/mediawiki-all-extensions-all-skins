@@ -1,0 +1,22 @@
+{
+	"name": "BlueSpicePageVersion",
+	"version": "2.27.1-alpha",
+	"license-name": "GPL-2.0-or-later",
+	"author": [
+		"[https://www.hallowelt.com Hallo Welt! GmbH]"
+	],
+	"url": "https://bluespice.com",
+	"descriptionmsg": "bs-pageversion-desc",
+	"type": "variable",
+	"ExtensionFunctions": [
+		"BS\\PageVersion\\Setup::init"
+	],
+	"MessagesDirs": {
+		"BlueSpicePageVersion": [ "i18n" ]
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpicePageVersionMagic": "BlueSpicePageVersion.i18n.magic.php"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1
+}

@@ -1,0 +1,17 @@
+.svn
+*~
+*.kate-swp
+.*.swp
+/node_modules/
+/.eslintcache
+
+# IntelliJ #
+############
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Composer
+composer.lock
+vendor

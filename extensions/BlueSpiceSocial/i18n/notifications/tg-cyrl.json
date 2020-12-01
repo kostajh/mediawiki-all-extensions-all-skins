@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"ToJack"
+		]
+	},
+	"bs-social-notifications-email-entity-create-body": "Корбар \"$3\"-и ҷадид {{GENDER:$1|$2 сохт}}",
+	"bs-social-notifications-email-entity-create-text-body": "Корбар $3 нав {{GENDER:$1|$$2 сохт}} бо матни зерин:\n$4"
+}

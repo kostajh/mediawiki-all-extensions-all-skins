@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01",
+			"Obsuser",
+			"Rancher",
+			"Михајло Анђелковић"
+		]
+	},
+	"wikiarticlefeeds-desc": "Производи фидове генерисане из Медијавики страница",
+	"wikiarticlefeeds-tracking-category": "Странице које генеришу RSS фидове",
+	"wikiarticlefeeds-tracking-category-desc": "Страница генерише RSS фид.",
+	"wikiarticlefeeds_combined_description": "Ово је комбиновани фид који садржи ставке из неколико фид-извора."
+}

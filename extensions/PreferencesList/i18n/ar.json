@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"preferenceslist-desc": "يولد قائمة بجميع إعدادات المستخدم لتفضيل معين",
+	"preferenceslist-preferenceslist": "قائمة التفضيلات",
+	"preferenceslist-preferenceslist-intro": "أدناه قائمة التفضيلات، اختر واحدا أو أكثر لرؤية قائمة بجميع المستخدمين الذين يفضلونه.",
+	"preferenceslist": "قائمة التفضيلات",
+	"action-preferenceslist": "قائمة تفضيلات جميع المستخدمين",
+	"preferenceslist-csv": "تنزيل بصيغة CSV",
+	"preferenceslist-nofields": "لم يتم اختيار أية حقول.",
+	"right-preferenceslist": "افتح صفحة Special:PreferencesList"
+}

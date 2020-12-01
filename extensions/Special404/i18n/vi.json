@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"special404-desc": "Cung cấp trang xử lý các lỗi 404 Không tìm thấy",
+	"error404": "404 Không tìm thấy",
+	"special404-body": "Không tìm thấy địa chỉ URL mà bạn yêu cầu.\n\nCó phải bạn muốn xem “{{fullurl:$1}}”?\n\nXem thêm:\n* [[{{MediaWiki:Mainpage}}|Trang đầu]]"
+}

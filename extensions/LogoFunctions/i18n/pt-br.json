@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Giro720"
+		]
+	},
+	"logofunctions-desc": "Adiciona ao analisador sintático uma função relacionada com o logotipo da wiki",
+	"logofunctions-filenotexist": "Erro: o arquivo [[:File:$1]] não existe"
+}

@@ -1,0 +1,28 @@
+{
+	"name": "Page Language",
+	"author": [
+		"Liangent"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PageLanguage",
+	"descriptionmsg": "pagelanguage-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"PageLanguage": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PageLanguageMagic": "PageLanguage.magic.php"
+	},
+	"AutoloadClasses": {
+		"PageLanguage": "includes/PageLanguage.php"
+	},
+	"Hooks": {
+		"PageContentLanguage": "PageLanguage::onPageContentLanguage",
+		"ParserFirstCallInit": "PageLanguage::onParserFirstCallInit"
+	},
+	"manifest_version": 2
+}

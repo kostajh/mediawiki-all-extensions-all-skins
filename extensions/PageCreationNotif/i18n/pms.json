@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"page-creation-notif-desc": "A manda un mëssagi ëd notìfica quand che ëd neuve pàgine a son creà",
+	"page-creation-notification": "Mandeme un mëssagi quand na neuva pàgina a l'é creà",
+	"page-creation-email-subject": "Pàgine neuva - $1 creà dzor $2 da $3",
+	"page-creation-email-body": "Car $1,\n\nCosta a l'é na notìfica da {{SITENAME}} che na pàgina neuva $2 a l'é stàita {{Gender:$3|creà}} da l'utent $3.\n\nA peul vëddla a \n$4\n\nËl test ëd la pàgina a l'é:\n$5\n\nSò sistema ëd notificassion amichévol ëd {{SITENAME}}.\n\nPër modifiché soe ampostassion ëd notìfica për pòsta eletrònica, ch'a vìsita\n{{canonicalurl:{{#special:Preferences}}}}"
+}

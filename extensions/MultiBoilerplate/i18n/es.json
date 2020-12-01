@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Imre",
+			"Indiralena",
+			"Luzcaru",
+			"Translationista"
+		]
+	},
+	"multiboilerplate-desc": "Permite que, al editar las páginas, una repetición pueda ser seleccionada de un cuadro desplegable situado encima del formulario de edición",
+	"multiboilerplate-legend": "Seleccionar plantilla",
+	"multiboilerplate-submit": "Cargar",
+	"boilerplates": "Plantillas",
+	"multiboilerplate-special-pagetext": "Estas plantillas pueden ser precargadas en la creación de páginas. (<span class=plainlinks>[{{fullurl:Esta página no existe|action=edit}} demo]</span>)",
+	"multiboilerplate-special-define-in-localsettings": "Las repeticiones están definidas en ConfiguraciónLocal.",
+	"multiboilerplate-special-define-in-interface": "Las repeticiones se definen en el [[MediaWiki:Multiboilerplate]].",
+	"multiboilerplate-special-no-boilerplates": "No hay plantillas definidas en ninguna parte.",
+	"multiboilerplate-nonexistant-page": "La página de texto asociada no existe: \"$1\""
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-readers-desc": "독자 목록 만들기",
+	"prefs-readers": "독자",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|독자}}|독자들}}",
+	"bs-readers-pagenotexists": "문서가 존재하지 않습니다.",
+	"bs-readers-header-username": "사용자 이름",
+	"bs-readers-header-readerspath": "독자",
+	"bs-readers-header-ts": "날짜",
+	"bs-readers-header-page": "문서",
+	"apihelp-bs-readers-data-store-description": "특정 페이지의 독자 정보를 가져옵니다.",
+	"apihelp-bs-readers-data-store-summary": "특정 페이지의 독자 정보를 가져옵니다.",
+	"apihelp-bs-readers-users-store-description": "특정 페이지의 모든 독자 정보를 가져옵니다.",
+	"apihelp-bs-readers-users-store-summary": "특정 페이지의 모든 독자 정보를 가져옵니다.",
+	"apihelp-bs-readers-page-readers-store-summary": "모든 문서의 모든 독자를 가져옵니다",
+	"bs-readers-flyout-title": "이 문서의 독자",
+	"right-viewreaders": "문서의 열람자를 봅니다",
+	"bs-readers-flyout-header-revision-id": "판 ID",
+	"bs-readers-flyout-header-revision-date": "판 날짜"
+}

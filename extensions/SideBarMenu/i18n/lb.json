@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"sidebarmenu-parser-input-error": "Parser-Feeler: $1",
+	"sidebarmenu-parser-syntax-error": "\"$1\" konnt net verschafft ginn, vergewëssert Iech datt Syntax korrekt ass.",
+	"sidebarmenu-js-init-error": "De JavaScript konnt net geluede ginn.",
+	"sidebarmenu-parser-menuitem-expanded-null": "De Wäert ass net valabel, de Wäert soll entweder „true“ „false“ oder eidel (null) sinn."
+}

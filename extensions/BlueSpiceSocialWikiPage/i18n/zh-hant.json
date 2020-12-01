@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Winston Sung"
+		]
+	},
+	"bs-socialwikipage-desc": "BlueSpiceSocial 的 wiki 頁面單元與功能",
+	"bs-socialwikipage-type": "Wiki 頁面",
+	"bs-socialwikipage-entitywikipage-header-create": "建立新的附件區域",
+	"bs-socialwikipage-nowikipageentity": "尚未建立附件區域",
+	"bs-socialwikipage-noattachmentsadded": "尚未增加附件",
+	"bs-socialwikipage-stashtype": "附件",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]]已附上",
+	"bs-socialwikipage-entitystash-header-create": "新附件",
+	"bs-socialwikipage-special-stash-heading": "附件",
+	"bs-socialwikipage-aftercontent-heading": "附件",
+	"wikipagestash": "附件",
+	"bs-socialwikipage-var-wikipageid": "已分配頁面",
+	"bs-socialwikipage-switch-nostash-description": "隱藏此頁面的附件區域。",
+	"bs-socialwikipage-stash-insertfiledialog-title": "增加檔案",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "增加",
+	"bs-socialwikipage-stash-editor-attachedfiles": "附加檔案",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "刪除",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "增加",
+	"apihelp-bs-socialstash-tasks-summary": "提供用於編輯單元連結頁面的任務"
+}

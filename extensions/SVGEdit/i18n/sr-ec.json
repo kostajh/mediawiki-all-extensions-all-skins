@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Rancher",
+			"Zoranzoki21"
+		]
+	},
+	"svgedit-editbutton-edit": "Уреди цртеж",
+	"svgedit-summary-label": "Опис измене",
+	"svgedit-summary-default": "/* Измењено SVG уређивачем */",
+	"svgedit-editor-save-close": "Сачувај и затвори",
+	"svgedit-editor-close": "Откажи",
+	"svgedit-desc": "Уређивање SVG цртежа преко прегледача уз [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Уређивање цртежа",
+	"svgedit-edit-tab-tooltip": "Можете уредити SVG цртеж у свом прегледачу",
+	"svgedit-toolbar-insert": "SVG цртање"
+}

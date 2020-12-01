@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"generatemochaconfig-desc": "Etkinleştirilmiş tüm uzantılar için Mocha testlerini çalıştırmak için kullanılabilecek bir JSON üreten betik"
+}

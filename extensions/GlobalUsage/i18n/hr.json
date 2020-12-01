@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav",
+			"Ex13",
+			"Ivi104",
+			"MaGa",
+			"SpeedyGonsales"
+		]
+	},
+	"globalusage": "Globalna uporaba datoteke",
+	"globalusage-for": "Globalna uporaba za \"$1\"",
+	"globalusage-filename": "Ime datoteke:",
+	"globalusage-desc": "[[Special:GlobalUsage|Posebna stranica]] za pregled globalne uporabe datoteke",
+	"globalusage-ok": "Traži",
+	"globalusage-text": "Pretraga globalne uporabe datoteke",
+	"globalusage-no-results": "[[:$1]] se ne rabi na drugim wikijima.",
+	"globalusage-on-wiki": "Uporaba na $2",
+	"globalusage-of-file": "Sljedeći wikiji rabe ovu datoteku:",
+	"globalusage-more": "Pogledajte [[{{#Special:GlobalUsage}}/$1|globalnu uporabu]] ove datoteke.",
+	"globalusage-filterlocal": "Ne prikazuj lokalnu uporabu",
+	"globallywantedfiles": "Globalno tražene datoteke",
+	"globalusage-header": "Ova stranica prikazuje na kojim je sve wikijima uporabljena datoteka. Ovu informaciju možete pronaći i na dnu stranice s opisom."
+}

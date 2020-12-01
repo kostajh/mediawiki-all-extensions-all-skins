@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"webchat": "Chat web",
+	"webchat-desc": "Adde un [[Special:WebChat|paginas special]] usate pro chattar in tempore real con altere usatores del wiki",
+	"webchat-header": "Iste pagina special te permitte collaborar in tempore real con altere usatores del wiki.\nPro connecter te, clicca simplemente sur le button \"Connecter\".\nSi tu ha aperite session, tu nomine de usator essera usate como pseudonymo.\nPro usatores anonyme, un pseudonymo es generate automaticamente, ma pote esser cambiate.",
+	"right-webchat": "Pote usar le [[Special:WebChat|chat web]]"
+}

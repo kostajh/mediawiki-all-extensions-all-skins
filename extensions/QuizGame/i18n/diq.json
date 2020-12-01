@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirzali",
+			"Orbot707"
+		]
+	},
+	"quizgame-edit": "Bıvurne",
+	"quizgame-delete": "Bestere",
+	"quizgame-protect": "Bışevekne",
+	"quizgame-unprotect": "Nêşeveknaye",
+	"quizgame-flagged-reason": "Sebeb",
+	"quizgame-answers": "Cewabi",
+	"quizgame-save-page-button": "Pele qeyd ke",
+	"quizgame-cancel-button": "Bıtexelne",
+	"quizgame-main-page-button": "Pela seri",
+	"quizgame-login-button": "Cıkewtış",
+	"quizgame-leaderboard-link": "lista lideran",
+	"quizgame-skip": "Ravêre",
+	"quizgame-prev": "verên",
+	"quizgame-popular": "Demane",
+	"quizgame-permalink": "Gıreyo daimi",
+	"quizgame-pause-continue": "Dewam ke",
+	"quizgame-time-days": "{{PLURAL:$1|yew roce|$1 roci}}",
+	"quizgame-time-hours": "{{PLURAL:$1|yew saete|$1 saeti}}"
+}

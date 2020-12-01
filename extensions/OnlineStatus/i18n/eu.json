@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kobazulo"
+		]
+	},
+	"onlinestatus-js-anon": "Errorea: aplikazio hau erabiltzeko saioa irekita eduki behar duzu",
+	"onlinestatus-js-changed": "Zure egoera \"$1\" egoerara aldatu da",
+	"onlinestatus-js-error": "Ezinezkoa da egoera aldatzea, \"$1\" parametroa ez da baliozkoa",
+	"onlinestatus-subtitle-offline": "Erabiltzaile hau deskonektatuta dago orain",
+	"onlinestatus-subtitle-online": "Erabiltzaile hau konektatuta dago orain",
+	"onlinestatus-tab": "Egoera",
+	"onlinestatus-toggles-desc": "Zure egoera:",
+	"onlinestatus-toggles-show": "Erakutsi konexio egoera nire erabiltzaile orrialdean",
+	"onlinestatus-toggle-offline": "Deskonektatuta",
+	"onlinestatus-toggle-online": "Konektatuta",
+	"onlinestatus-pref-onlineonlogin": "Saioa hastean nire konexio-egoera konektatua jarri",
+	"onlinestatus-pref-offlineonlogout": "Saioa ixtean nire konexio-egoera deskonektatua jarri"
+}

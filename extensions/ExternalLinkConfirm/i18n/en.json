@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"externallinkconfirm-desc": "This extension requires users to confirm after clicking an external link, before being sent to the external site",
+	"externallinkconfirm-confirmation-message": "You are opening an external site. Please confirm.",
+	"externallinkconfirm-confirmation-accept": "Confirm",
+	"externallinkconfirm-confirmation-reject": "Cancel"
+}

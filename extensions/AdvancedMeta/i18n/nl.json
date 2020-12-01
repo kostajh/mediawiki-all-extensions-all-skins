@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Siebrand"
+		]
+	},
+	"advancedmeta-desc": "Maakt het mogelijk de meta-instellingen (robots, keywords, description) en de titel per pagina te veranderen",
+	"advancedmeta-metasettings": "Meta-instellingen",
+	"advancedmeta-titlealias": "Titel-alias:",
+	"advancedmeta-navigation-contentaction-label": "Zoekmachine optimalisatie",
+	"advancedmeta-dialog-btn-label-save": "Opslaan",
+	"advancedmeta-dialog-btn-label-cancel": "Annuleren",
+	"advancedmeta-dialog-btn-label-delete": "Verwijderen",
+	"advancedmeta-dialog-input-label-description": "Beschrijving",
+	"advancedmeta-dialog-input-label-follow": "Volg",
+	"advancedmeta-dialog-input-label-index": "Index",
+	"advancedmeta-dialog-input-label-keywords": "Trefwoorden",
+	"advancedmeta-dialog-input-help-keywords": "Een kommagescheiden lijst met sleutelwoorden. Bijvoorbeeld: sleutelwoord1, sleutelwoord2, sleutelwoord3",
+	"apihelp-advancedmeta-tasks-param-task": "De uit te voeren taak",
+	"apihelp-advancedmeta-tasks-param-format": "Het uitvoerformaat (alleen JSON of opgemaakte JSON)",
+	"action-advancedmeta-edit": "meta-elementen van pagina's of naamruimten te bewerken",
+	"right-advancedmeta-edit": "Meta-elementen van pagina's of naamruimten kunnen bewerken"
+}

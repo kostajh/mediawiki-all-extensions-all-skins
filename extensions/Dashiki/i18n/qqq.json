@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milimetric"
+		]
+	},
+	"dashiki-desc": "{{desc|name=Dashiki|url=https://www.mediawiki.org/wiki/Extension:Dashiki}}",
+	"dashiki-build": "Label shown next to the command used to build a Dashiki dashboard based on this configuration",
+	"dashiki-annotate": "Label shown when the configuration is an Annotation (by convention, if it starts with Dashiki:Annotations/)",
+	"dashiki-configuration-doc-link-text": "text of the link to the Dashiki configuration documentation"
+}

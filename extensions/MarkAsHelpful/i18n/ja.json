@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player",
+			"Fryed-peach",
+			"Otokoume",
+			"Shirayuki"
+		]
+	},
+	"markashelpful-desc": "コメントに「役に立つ」の印を付けるユーザーインターフェイスを提供する",
+	"mah-mark-text": "役に立つの印を付ける",
+	"mah-you-marked-text": "あなたはこれを役に立つと考えています",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 はこれを役に立つと考えています}}",
+	"mah-undo-mark-text": "取り消し",
+	"mah-action-error": "この操作の実行中にエラーが発生しました",
+	"apihelp-getmarkashelpfulitem-description": "オブジェクト項目のすべての便利なステータスのリストを取得します。",
+	"apihelp-getmarkashelpfulitem-param-type": "役立つとしてマークされているオブジェクトの種類",
+	"apihelp-getmarkashelpfulitem-param-item": "役立つとしてマークされているオブジェクトの項目",
+	"apihelp-getmarkashelpfulitem-param-prop": "どのプロパティを取得するか。",
+	"apihelp-getmarkashelpfulitem-param-page": "項目を要求しているページ",
+	"apihelp-markashelpful-description": "利用者が参考になったサイト内のオブジェクト項目を、マークまたはマーク解除できるようにします。",
+	"apihelp-markashelpful-param-mahaction": "参考になるような項目をマークまたはマーク解除するか否か",
+	"apihelp-markashelpful-param-page": "マークした項目が存在するページ",
+	"apihelp-markashelpful-param-type": "役立つとしてマークされているオブジェクトの種類。",
+	"apihelp-markashelpful-param-item": "役立つとしてマークされているオブジェクトの項目",
+	"apihelp-markashelpful-param-useragent": "ブラウザの User-Agent ヘッダー",
+	"apihelp-markashelpful-param-system": "オペレーティングシステムが使用されています。",
+	"apihelp-markashelpful-param-locale": "使用中のロケールです。"
+}

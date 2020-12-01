@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-socialrating-desc": "{{desc|name=BlueSpiceSocialRating}}",
+	"bs-socialrating-aftercontent-ratingtext": "Short label for the button that allowes recommending an entry and also show the number of how often the entry was recomended.\n* $1 - Number of recommendations",
+	"bs-socialrating-var-rating": "Label for entry field \"rating\".\n{{Identical|Recommended}}"
+}

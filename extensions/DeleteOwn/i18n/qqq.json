@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Raimond Spekking",
+			"Shirayuki"
+		]
+	},
+	"deleteown-desc": "{{desc|name=Delete Own|url=https://www.mediawiki.org/wiki/Extension:DeleteOwn}}",
+	"action-deleteown": "{{doc-action|deleteown}}",
+	"right-deleteown": "{{doc-right|deleteown}}"
+}

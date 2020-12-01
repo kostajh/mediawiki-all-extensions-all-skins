@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alirezaaa",
+			"Amirsara",
+			"FarsiNevis"
+		]
+	},
+	"bs-countthings-desc": "محتوا بر اساس آمار فراهم می‌کند",
+	"bs-countthings-chars-label": "کاراکترها",
+	"bs-countthings-words-label": "واژه‌ها",
+	"bs-countthings-files-label": "پرونده‌ها",
+	"bs-countthings-pages-label": "صفحات",
+	"bs-countthings-ve-countcharacters-title": "شمار نویسه‌ها",
+	"bs-countthings-ve-countarticles-title": "شمار مقاله‌ها",
+	"bs-countthings-ve-countfiles-title": "شمار پرونده‌ها",
+	"bs-countthings-ve-countusers-title": "شمار کاربران",
+	"bs-countthings-ve-countcharacters-mode-all": "همه",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "نویسه‌ها",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "واژه‌ها",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "نویسه‌ها و واژه‌ها",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "صفحات",
+	"bs-countthings-ve-countcharacters-input-label": "صفحات",
+	"bs-countthings-error-no-input": "هیچ صفحه‌ای ارائه نشده است.",
+	"bs-countthings-error-invalid-mode": "حالت «$1» نامعتبر است. لطفاً از «chars»، «words»، یا «pages» استفاده کنید.",
+	"bs-countthings-error-not-exist": "صفحهٔ «$1» وجود ندارد.",
+	"bs-countthings-tag-countarticles-desc": "تعداد مقاله‌های موجود در ویکی را نمایش می‌دهد.",
+	"bs-countthings-tag-countusers-desc": "تعداد کاربران را نمایش می‌دهد.",
+	"bs-countthings-tag-countfiles-desc": "شمار پرونده‌های موجود در ویکی را نمایش می‌دهد.",
+	"bs-countthings-tag-countcharacters-desc": "آمار محتوای صفحه داده‌شده را نشان می‌دهد. مشخصه پیکربندی در دسترس است:",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: آنچه باید شمارش شود <code>chars</code> (نویسه‌ها)، <code>words</code> (واژه‌ها) یا <code>pages</code> (صفحات).",
+	"bs-countthings-tag-countcharacters-example-1": "شمار واژه‌ها",
+	"bs-countthings-tag-countcharacters-example-2": "شمار نویسه‌ها"
+}

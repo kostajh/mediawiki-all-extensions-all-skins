@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Roger Cass"
+		]
+	},
+	"odbcdatabase": "OdbcDatabase",
+	"odbcdatabase-desc": "Driver that uses the PHP <code>odbc_*</code> library of commands to support the external data extension",
+	"odbcdatabase-odbc-missing": "ODBC functions missing. Ensure <code>PHP:ODBC</code> is installed.",
+	"odbcdatabase-connection-error": "Error connecting to server [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Unable to free ODBC result",
+	"odbcdatabase-fetch-object-error": "Error while fetching object: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Error while fetching row: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "Function insertId() is unsupported.",
+	"odbcdatabase-unknown-server-version": "Unknown ODBC server version."
+}

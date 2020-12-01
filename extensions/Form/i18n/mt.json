@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli"
+		]
+	},
+	"form": "Ibda paġna ġdida",
+	"form-bad-name-text": "M'hemm l-ebda formola b'dak l-isem.",
+	"form-pattern": "$1-formola",
+	"form-save": "Salva",
+	"form-article-exists": "Il-paġna teżisti",
+	"form-article-existstext": "Il-paġna [[$1]] diġà teżisti.",
+	"form-bad-page-name": "L-isem tal-paġna huwa ħażin"
+}

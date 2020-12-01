@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"MemphisA5",
+			"Priviet",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"sslauth-desc": "사용자가 인증하기 위해 SSL 인증서를 올릴 수 있게 합니다",
+	"sslauth-title-enable": "SSL 클라이언트 인증 활성화",
+	"sslauth-title-disable": "SSL 클라이언트 비활성화",
+	"sslauth-enable": "활성화",
+	"sslauth-disable": "비활성화",
+	"sslauth-cn": "공통 이름",
+	"sslauth-email": "이메일 주소",
+	"sslauth-serial": "일련 번호",
+	"sslauth-response-enable": "SSL 인증이 활성화됐습니다. 지금부터 클라이언트 인증서를 가지고 있으면 HTTPS를 통해 {{SITENAME}}에 접속할 때마다 자동으로 로그인됩니다.",
+	"sslauth-response-disable": "SSL 인증을 비활성화했습니다.",
+	"sslauth-invalidrequest-title": "유효하지 않은 요청",
+	"sslauth-invalidrequest": "이 문서를 사용하려면 유효한 SSl 클라이언트 증명서를 지정해야합니다.",
+	"clientssl-legend": "SSL 인증",
+	"clientssl-text": "클라이언트 SSL 증명서로 활성화/비활성화하기 위해 이 문서를 사용하기",
+	"sslauth-prefs-name": "SSL 인증서",
+	"sslauth-prefs-linktospecial": "클라이언트 증명서 활성화/비활성화"
+}

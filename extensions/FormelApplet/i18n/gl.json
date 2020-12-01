@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"formelapplet-desc": "Engade applets de [http://wiki.formelapplet.de FormelApplet] ás páxinas",
+	"formelapplet-nojava": "Instale o $1 para usar esta páxina.",
+	"formelapplet-missing-parameter": "Falta o parámetro (\"width\" ou \"height\" ou \"term/solution\").",
+	"formelapplet-file-not-found": "Non se atopou o ficheiro \"$1\".",
+	"formelapplet-error": "Erro na extensión FormelApplet de MediaWiki: <em>$1</em>"
+}

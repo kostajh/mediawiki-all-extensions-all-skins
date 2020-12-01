@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Izzudin"
+		]
+	},
+	"form-desc": "Sebuah [[Special:Form|antara muka borang]] untuk mulakan halaman baru",
+	"form": "Borang",
+	"form-no-name": "Borang tanpa nama",
+	"form-no-name-text": "Anda perlu meletakkan nama borang, seperti \"Special:Form/Namaborang\".",
+	"form-bad-name": "Nama borang tidak sesuai",
+	"form-bad-name-text": "Tiada borang dengan nama itu.",
+	"form-pattern": "borang $1",
+	"form-save": "Simpan",
+	"form-index-mismatch-title": "Pola nama dan templat tersalah padan",
+	"form-index-mismatch": "Borang ini telah tersalah padan pola nama dan templat yang bermula dari indeks $1.",
+	"form-article-exists": "Laman wujud",
+	"form-article-existstext": "Laman [[$1]] sudah wujud.",
+	"form-bad-page-name": "Nama laman salah",
+	"form-bad-page-name-text": "Data borang yang anda masukkan itu membuat nama laman yang tidak elok, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|Ruangan $1|Ruangan-ruangan $1}} wajib diisi untuk borang ini.\nSila {{PLURAL:$2|isinya|isi semuanya}}.",
+	"form-save-summary": "Laman baru yang menggunakan [[Special:Form/$1|borang $1]]",
+	"form-save-error": "Ralat ketika menyimpan borang",
+	"form-save-error-text": "Berlakunya ralat yang tidak dikenali sewaktu menyimpan laman '$1'."
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"jade-desc": "Máy xét xử và đối thoại",
+	"jade-damaging-scale-true-label": "Gây hại",
+	"jade-damaging-scale-false-label": "Không gây hại",
+	"jade-goodfaith-scale-true-label": "Thiện ý",
+	"jade-goodfaith-scale-false-label": "Ác ý",
+	"jade-notes-placeholder": "Ghi chú về xét xử",
+	"jade-delete": "Xóa",
+	"prefs-betafeatures": "Tính năng beta"
+}

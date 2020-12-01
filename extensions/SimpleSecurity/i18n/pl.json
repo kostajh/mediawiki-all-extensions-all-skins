@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Leinad",
+			"Sp5uhe"
+		]
+	},
+	"security": "Rejestr zabezpieczania",
+	"security-desc": "Dodaje do funkcjonalności zabezpieczania stron możliwość ograniczania wyświetlania zawartości strony",
+	"security-logpage": "Rejestr zabezpieczania",
+	"security-logpagetext": "Jest to rejestr działań zablokowanych przez [https://www.mediawiki.org/wiki/Extension:SimpleSecurity rozszerzenie SimpleSecurity].",
+	"badaccess-read": "Uwaga – nie masz wystarczających uprawnień dla dostępu do żądanej strony „$1”.",
+	"security-info": "Dostęp do tej strony jest $1",
+	"security-info-toggle": "ograniczony",
+	"security-inforestrict": "$1 jest ograniczone do $2",
+	"security-desc-LS": "(ma zastosowanie, ponieważ ta strona jest w $2 „$1”)",
+	"security-desc-PR": "(ustawione poprzez zakładkę „zabezpiecz”)",
+	"security-infosysops": "Brak obowiązujących ograniczeń, ponieważ jesteś członkiem grupy „administratorzy”.",
+	"security-manygroups": "grup $1 oraz $2",
+	"security-unchain": "Zmiana działania indywidualnie",
+	"security-type-category": "kategoria",
+	"security-type-namespace": "przestrzeń nazw",
+	"security-restricttogroup": "Dostęp do zawartości ograniczony do członków „$1”",
+	"restriction-read": "Czytaj"
+}

@@ -1,0 +1,13 @@
+/docs/js/
+/docs/ui/
+/docs/php/
+/.nyc_output/
+/node_modules/
+/vendor/
+/composer.lock
+/.eslintcache
+/.storybook/node_modules
+/.storybook/dist
+/.storybook/mocks/**/*.less
+/tests/selenium/log
+

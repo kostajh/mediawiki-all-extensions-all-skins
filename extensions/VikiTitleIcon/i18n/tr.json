@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"vikititleicon-desc": "Title Icon uzantısı kullanarak sayfalardan logo göstermek için VIKI eklentisi",
+	"vikititleicon-error-fetch": "Düğüm için başlık simgesi verileri alınırken hata oluştu: $1.",
+	"apihelp-getTitleIcons-description": "Varsa, sayfanın tüm Başlık Simgelerinin URL'lerini alın.",
+	"apihelp-getTitleIcons-summary": "Varsa, sayfanın tüm Başlık Simgelerinin URL'lerini alın.",
+	"apihelp-getTitleIcons-param-pageTitle": "başlık simgelerini almak istediğiniz sayfanın başlığı"
+}

@@ -1,0 +1,34 @@
+<!-- 
+     page taken from 
+     https://www.mediawiki.org/wiki/Extension:DynamicPageListEngine/Lua
+-->  
+== Lua library ==
+
+All functions explained below take a single argument which is an associative array of parameters. The recognized parameters are explained in [[{{NAMESPACE}}:{{BASEPAGENAME}}#Usage|Usage]].
+
+=== mw.ext.dpl.getFullpagenames ===
+
+<code>mw.ext.dpl.getFullpagenames{ parameters }</code>
+
+Select and sort pages according to the parameters and return an array of full page names. 
+
+=== mw.ext.dpl.getPagenames ===
+
+<code>mw.ext.dpl.getPagenames{ parameters }</code>
+
+Select and sort pages according to the parameters and return an array of page names without namespace. This is useful if you know the namespace in advance because you have specified it in the arguments.
+
+=== mw.ext.dpl.getPages ===
+
+<code>mw.ext.dpl.getPages{ parameters }</code>
+
+Select and sort pages according to the parameters and return an array of associative arrays, each of which represents a page. The latter contain the following items which have the same meaning as the corresponding properties of [[Extension:Scribunto/Lua_reference_manual#Title_objects|mw.title objects]]: <code>namespace, nsText, text, prefixedText, baseText, subpageText, canHaveTalkPage, isContentPage, isSubpage, isTalkPage, isRedirect</code>. In addition, the following items are provided:
+; withoutsuffix: Page name without suffix (useful for filenames, but always defined in order to simplify usage).
+; length: Uncompressed length in bytes of the page's current source text.
+; categoryadd: Timestamp of addition to the first category specified with the <code>category</code> parameter, if any.
+; categoryaddx: Timestamp of addition of the first page specified with the <code>contains</code> parameter, if any, to the selected category.
+; counter: Page view counter, unless counters are disabled.
+; sortkey: Sort key in the first category, if any, provided that [[{{NAMESPACE}}:{{BASEPAGENAME}}#Extra|DynamicPageListEngineFeatureExtra]] is enabled.
+; extra: Extra information given with sort key, if any, provided that [[{{NAMESPACE}}:{{BASEPAGENAME}}#Extra|DynamicPageListEngineFeatureExtra]] is enabled.
+; sortkeyx: Sort key in the category of the first page specified with the <code>contains</code> parameter, if any, provided that [[{{NAMESPACE}}:{{BASEPAGENAME}}#Extrax|DynamicPageListEngineFeatureExtrax]] is enabled.
+; extra: Extra information given with the sortkeyx sort key, if any, provided that [[{{NAMESPACE}}:{{BASEPAGENAME}}#Extrax|DynamicPageListEngineFeatureExtrax]] is enabled.

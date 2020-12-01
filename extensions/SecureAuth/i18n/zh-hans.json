@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"secureauth-desc": "允许用户页添加其IP以供登录。从另一IP登录将会失败。",
+	"secureauthinfo": "安全验证信息",
+	"special-secureauth-info": "安全验证信息",
+	"secureauth-info-userinfo": "用户信息",
+	"secureauth-current-ip": "您当前的登录IP：",
+	"secureauth-whitelist-ip": "为便于您的用户名登录，设置的白名单IP："
+}

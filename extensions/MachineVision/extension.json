@@ -1,0 +1,351 @@
+{
+	"name": "MachineVision",
+	"version": "0.1.0",
+	"author": [
+		"Wikimedia Product Infrastructure and Structured Data Teams"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:MachineVision",
+	"descriptionmsg": "machinevision-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35",
+		"extensions": {
+			"WikibaseMediaInfo": "*"
+		}
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\MachineVision\\": "src/"
+	},
+	"TestAutoloadClasses": {
+		"MediaWiki\\Extension\\MachineVision\\MockHelper": "tests/helper/MockHelper.php"
+	},
+	"AvailableRights": [
+		"imagelabel-review",
+		"imagelabel-test"
+	],
+	"GroupPermissions": {
+		"machinevision-tester": {
+			"imagelabel-test": true
+		},
+		"user": {
+			"imagelabel-review": true
+		}
+	},
+	"GrantPermissions": {
+		"editpage": {
+			"imagelabel-review": true
+		}
+	},
+	"Hooks": {
+		"UploadComplete": "MediaWiki\\Extension\\MachineVision\\Hooks::onUploadComplete",
+		"InfoAction": "MediaWiki\\Extension\\MachineVision\\Hooks::onInfoAction",
+		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\MachineVision\\Hooks::onLoadExtensionSchemaUpdates",
+		"UnitTestsAfterDatabaseSetup": "MediaWiki\\Extension\\MachineVision\\Hooks::onUnitTestsAfterDatabaseSetup",
+		"UnitTestsBeforeDatabaseTeardown": "MediaWiki\\Extension\\MachineVision\\Hooks::onUnitTestsBeforeDatabaseTeardown",
+		"GetPreferences": "MediaWiki\\Extension\\MachineVision\\Hooks::onGetPreferences",
+		"FileDeleteComplete": "MediaWiki\\Extension\\MachineVision\\Hooks::onFileDeleteComplete",
+		"PageSaveComplete": "MediaWiki\\Extension\\MachineVision\\Hooks::onPageSaveComplete",
+		"RollbackComplete": "MediaWiki\\Extension\\MachineVision\\Hooks::onRollbackComplete",
+		"ListDefinedTags": "MediaWiki\\Extension\\MachineVision\\Hooks::onRegisterTags",
+		"ChangeTagsListActive": "MediaWiki\\Extension\\MachineVision\\Hooks::onRegisterTags",
+		"BeforeCreateEchoEvent": "MediaWiki\\Extension\\MachineVision\\Hooks::onBeforeCreateEchoEvent",
+		"EchoGetBundleRules": "MediaWiki\\Extension\\MachineVision\\Hooks::onEchoGetBundleRules",
+		"SidebarBeforeOutput": "MediaWiki\\Extension\\MachineVision\\Hooks::onSidebarBeforeOutput",
+		"ChangeTagsAllowedAdd": "MediaWiki\\Extension\\MachineVision\\Hooks::onChangeTagsAllowedAdd"
+	},
+	"APIModules": {
+		"reviewimagelabels": {
+			"class": "MediaWiki\\Extension\\MachineVision\\Api\\ApiReviewImageLabels",
+			"factory": "MediaWiki\\Extension\\MachineVision\\Api\\ApiReviewImageLabels::factory"
+		}
+	},
+	"APIListModules": {
+		"unreviewedimagelabels": {
+			"class": "MediaWiki\\Extension\\MachineVision\\Api\\ApiQueryUnreviewedImageLabels",
+			"factory": "MediaWiki\\Extension\\MachineVision\\Api\\ApiQueryUnreviewedImageLabels::factory"
+		}
+	},
+	"APIPropModules": {
+		"imagelabels": {
+			"class": "MediaWiki\\Extension\\MachineVision\\Api\\ApiQueryImageLabels",
+			"factory": "MediaWiki\\Extension\\MachineVision\\Api\\ApiQueryImageLabels::factory"
+		}
+	},
+	"APIMetaModules": {
+		"unreviewedimagecount": {
+			"class": "MediaWiki\\Extension\\MachineVision\\Api\\ApiQueryUnreviewedImageCount",
+			"factory": "MediaWiki\\Extension\\MachineVision\\Api\\ApiQueryUnreviewedImageCount::factory"
+		}
+	},
+	"JobClasses": {
+		"fetchGoogleCloudVisionAnnotations": "MediaWiki\\Extension\\MachineVision\\Job\\FetchGoogleCloudVisionAnnotationsJob"
+	},
+	"SpecialPages": {
+		"SuggestedTags": "MediaWiki\\Extension\\MachineVision\\Special\\SpecialSuggestedTags"
+	},
+	"ServiceWiringFiles": [
+		"ServiceWiring.php"
+	],
+	"MessagesDirs": {
+		"MachineVision": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"MachineVisionAlias": "MachineVision.alias.php"
+	},
+	"ConfigRegistry": {
+		"MachineVision": "GlobalVarConfig::newInstance"
+	},
+	"config": {
+		"MachineVisionCluster": {
+			"value": false,
+			"description": "Database cluster to use for storing the data. False means the cluster of the current wiki will be used."
+		},
+		"MachineVisionDatabase": {
+			"value": false,
+			"description": "Database to use for storing the data. False means use the database of the current wiki. To use a table prefix, use '<database>-<prefix'>' format."
+		},
+		"MachineVisionHandlers": {
+			"value": {},
+			"description": "Configuration for the handlers. Keys are provider names, values are ObjectFactory specifications."
+		},
+		"MachineVisionRequestLabelsOnUploadComplete": {
+			"value": false,
+			"description": "Whether to request image labels from the configured provider(s) for image files on upload complete."
+		},
+		"MachineVisionRequestLabelsFromWikidataPublicApi": {
+			"value": false,
+			"description": "If true, request labels for item IDs from the Wikidata public API. Otherwise, look them up in the configured Wikibase repo. Public API usage is intended for testing only."
+		},
+		"MachineVisionMinImageWidth": {
+			"value": 150,
+			"description": "Minimum width (in px) of an image for the image to qualify for suggested tags."
+		},
+		"MachineVisionMaxExistingDepictsStatements": {
+			"value": 1,
+			"description": "Exclude images from suggested tags when more than this number of depicts (P180) statements already exist."
+		},
+		"MachineVisionCategoryBlacklist": {
+			"value": [],
+			"description": "Omit images with file pages linked to these categories from suggested tags. Category names should use underscores in place of spaces and include the 'Category:' prefix."
+		},
+		"MachineVisionTemplateBlacklist": {
+			"value": [],
+			"description": "Omit images with file pages linked to these templates from suggested tags. Template names should use underscores in place of spaces and include the 'Template:' prefix."
+		},
+		"MachineVisionWikidataIdBlacklist": {
+			"value": [],
+			"description": "Omit suggested tags corresponding with these Wikidata item (Q) ids."
+		},
+		"MachineVisionWithholdImageList": {
+			"value": [],
+			"description": "Withhold images with these Wikidata IDs as suggested labels from being served on Special:SuggestedTags."
+		},
+		"MachineVisionTestersOnly": {
+			"value": false,
+			"description": "If true, Special:SuggestedTags will be shown only to users with the 'imagelabel-test' user right."
+		},
+		"MachineVisionLabelRequestBackoffSeconds": {
+			"value": 0,
+			"description": "Number of seconds to wait upon receiving a 429 error before retrying a label suggestion request. Currently used only in the fetchSuggestions maintenance script."
+		},
+		"MachineVisionLabelRequestNumRetries": {
+			"value": 0,
+			"description": "Number of times to retry a label suggestion request upon catching a handled throwable. Currently used only in the fetchSuggestions maintenance script."
+		},
+		"MachineVisionHttpProxy": {
+			"value": false,
+			"description": "String containing the HTTP proxy setting to pass into outgoing HTTP requests, or false for no proxy."
+		},
+		"MachineVisionGoogleCredentialsFileLocation": {
+			"value": false,
+			"description": "Filesystem path to the Google credentials JSON file, or false for none."
+		},
+		"MachineVisionGoogleApiCredentials": {
+			"value": false,
+			"public": false,
+			"description": "Associative array containing a set of Cloud Vision API credentials obtained from the Google Cloud Platform."
+		},
+		"MachineVisionGCVSendFileContents": {
+			"value": false,
+			"description": "If true, send base64-encoded file contents in Google Cloud Vision requests, otherwise send the URL to be retrieved by Google."
+		},
+		"MachineVisionGoogleSafeSearchLimits": {
+			"value": [],
+			"description": "Associative array specifying the likelihood limits on various SafeSearch dimensions at which an image will be excluded from Computer-Aided Tagging. Possible keys are 'adult', 'spoof', 'medical', 'violence', and 'racy'. Possible values are 1 (very unlikely), 2 (unlikely), 3 (possible), 4 (likely), and 5 (very likely)."
+		},
+		"MachineVisionNewUploadLabelingJobDelay": {
+			"value": 0,
+			"description": "Delay, in seconds, to apply before running a labeling job for a newly uploaded file."
+		},
+		"MachineVisionShowUploadWizardCallToAction": {
+			"value": false,
+			"description": "Whether to show a CAT call to action when the user completes an upload in UploadWizard."
+		},
+		"MachineVisionAddToolboxLink": {
+			"value": false,
+			"description": "Whether to add a link to Special:SuggestedTags to the Tools section of the navigation sidebar."
+		}
+	},
+	"attributes": {
+		"EventLogging": {
+			"Schemas": {
+				"SuggestedTagsAction": 19624708
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "MachineVision/resources"
+	},
+	"ResourceModules": {
+		"ext.MachineVision.init": {
+			"styles": [
+				"init.css"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		},
+		"ext.MachineVision": {
+			"packageFiles": [
+				"init.js",
+				"polyfills/Array.prototype.find.js",
+				{
+					"name": "config.json",
+					"callback": [ "MediaWiki\\Extension\\MachineVision\\Hooks", "getJSConfig" ]
+				},
+				"components/base/Button.vue",
+				"components/base/Icon.vue",
+				"components/base/Message.vue",
+				"components/base/Suggestion.vue",
+				"components/base/Tabs.vue",
+				"components/base/Tab.vue",
+				"components/base/ToastNotification.vue",
+				"components/base/ToggleSwitch.vue",
+				"components/App.vue",
+				"components/CardStack.vue",
+				"components/CardStackPlaceholder.vue",
+				"components/CategoriesList.vue",
+				"components/FadeIn.vue",
+				"components/ImageCard.vue",
+				"components/ImageExclusionNotice.vue",
+				"components/Spinner.vue",
+				"components/SuggestionsGroup.vue",
+				"components/UserMessage.vue",
+				"components/PersonalUploadsCount.vue",
+				"widgets/base/TemplateRenderingDOMLessGroupWidget.js",
+				"widgets/base/DOMLessGroupWidget.js",
+				"widgets/base/FormatValueElement.js",
+				"widgets/OnboardingDialog.js",
+				"widgets/ConfirmTagsDialog.js",
+				"widgets/ConfirmTagsDialogContent.js",
+				"widgets/AddCustomTagDialog.js",
+				"widgets/EntityAutocompleteInputWidget.js",
+				"widgets/UserMessage.js",
+				"plugins/api.js",
+				"plugins/logger.js",
+				"store/index.js",
+				"store/state.js",
+				"store/mutations.js",
+				"store/getters.js",
+				"store/actions.js",
+				"store/utils.js",
+				"models/Image.js",
+				"models/Suggestion.js"
+			],
+			"styles": [
+				"widgets/UserMessage.less",
+				"widgets/AddCustomTagDialog.less",
+				"widgets/EntityAutocompleteWidget.less",
+				"widgets/OnboardingDialog.less",
+				"widgets/ConfirmTagsDialog.less",
+				"widgets/ConfirmTagsDialogContent.less"
+			],
+			"dependencies": [
+				"ext.eventLogging",
+				"oojs",
+				"oojs-ui-core",
+				"oojs-ui-widgets",
+				"oojs-ui-windows",
+				"mediawiki.template.mustache+dom",
+				"vue",
+				"vuex",
+				"wikibase.api.RepoApi",
+				"wikibase.datamodel",
+				"wikibase.serialization",
+				"wikibase.utilities.ClaimGuidGenerator"
+			],
+			"templates": [
+				"widgets/UserMessage.mustache+dom",
+				"widgets/ConfirmTagsDialogContent.mustache+dom",
+				"widgets/EntityAutocompleteInputWidgetLabel.mustache+dom",
+				"widgets/ConfirmTagsDialogContent.mustache+dom"
+			],
+			"messages": [
+				"machinevision-machineaidedtagging",
+				"machinevision-machineaidedtagging-intro",
+				"machinevision-machineaidedtagging-tabs-heading",
+				"machinevision-machineaidedtagging-popular-tab",
+				"machinevision-machineaidedtagging-user-tab",
+				"machinevision-machineaidedtagging-preferences-link",
+				"machinevision-machineaidedtagging-license-information",
+				"machinevision-autoconfirmed-message",
+				"machinevision-publish",
+				"machinevision-publish-title",
+				"machinevision-add-custom-tag",
+				"machinevision-add-custom-tag-title",
+				"machinevision-skip",
+				"machinevision-skip-title",
+				"machinevision-personal-uploads-count",
+				"machinevision-suggestion-confirm-title",
+				"machinevision-suggestion-confirm-undo-title",
+				"machinevision-loading-message",
+				"machinevision-failure-message",
+				"machinevision-confirm-tags-dialog-title",
+				"machinevision-confirm-tags-dialog-confirm-action",
+				"machinevision-confirm-tags-dialog-cancel-action",
+				"machinevision-confirm-tags-dialog-heading",
+				"machinevision-success-message",
+				"machinevision-success-message-with-warning",
+				"machinevision-publish-error-message",
+				"machinevision-onboarding-dialog-heading",
+				"machinevision-onboarding-dialog-text",
+				"machinevision-onboarding-dialog-cta",
+				"machinevision-onboarding-dialog-disclaimer",
+				"machinevision-onboarding-dialog-close-label",
+				"machinevision-cta-heading",
+				"machinevision-cta-text",
+				"machinevision-cta-cta",
+				"machinevision-no-uploads-cta-heading",
+				"machinevision-no-uploads-cta-text",
+				"machinevision-generic-no-images-heading",
+				"machinevision-generic-no-images-text",
+				"machinevision-categories-label",
+				"machinevision-add-custom-tag-dialog-title",
+				"machinevision-add-custom-tag-dialog-add-action",
+				"machinevision-add-custom-tag-dialog-cancel-action",
+				"machinevision-image-exclusion-notification",
+				"machinevision-image-exclusion-notification-dismiss",
+				"machinevision-detailed-tags-toggle-label",
+				"wikibasemediainfo-filepage-statement-no-results",
+				"wikibasemediainfo-statements-item-input-placeholder"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		}
+	},
+	"DefaultUserOptions": {
+		"wbmad-onboarding-dialog-dismissed": 0,
+		"wbmad-image-exclusion-notice-dismissed": 0,
+		"echo-subscriptions-web-machinevision": false
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-rating-extension-description": "يوفر نظام تقييم",
+	"bs-rating-types-page": "تقييم الصفحة",
+	"bs-rating-types-pagelike": "توصية الصفحة",
+	"rating": "التقييمات",
+	"recommendations": "توصيات",
+	"bs-rating-yourrating": "تقييمك: $1",
+	"bs-rating-special-rating-heading": "التقييمات",
+	"bs-rating-articlelike-ratingtext": "الموصى به ($1)",
+	"bs-rating-articlelike-uratingtextservoted": "الموصى به ($1)",
+	"action-rating-viewspecialpage": "عرض الصفحات المحمية باستخدام صلاحية \"Rating-Viewspecialpage\"",
+	"action-rating-read": "قراءة التقييمات على الصفحات",
+	"action-rating-write": "التصويت على الصفحات",
+	"action-rating-archive": "إزالة الأصوات من الصفحات",
+	"right-rating-viewspecialpage": "عرض الصفحات المحمية باستخدام صلاحية \"Rating-Viewspecialpage\"",
+	"right-rating-read": "قراءة التقييمات على الصفحات",
+	"right-rating-write": "التصويت على الصفحات",
+	"right-rating-archive": "إزالة الأصوات من الصفحات",
+	"bs-rating-special-recommendations-heading": "توصيات",
+	"bs-rating-special-recommendations-label-recommendation": "توصيات",
+	"bs-rating-specialrating-label-namespace": "نطاق",
+	"bs-rating-specialrating-titleTitle": "عنوان",
+	"bs-rating-specialrating-titleRating": "تقييم",
+	"bs-rating-specialrating-titleVotes": "عدد التقييمات",
+	"apihelp-bs-rating-tasks-description": "ينفذ المهام المشتركة لتمديد التقييم",
+	"apihelp-bs-rating-store-description": "يسلم تقييمات للمقالات",
+	"bs-rating-nsm-label": "تقييم",
+	"bs-rating-nsm-label-recommendations": "توصيات",
+	"apihelp-bs-rating-tasks-summary": "ينفذ المهام المشتركة لتمديد التقييم",
+	"apihelp-bs-ratingarticle-store-summary": "يسلم تقييمات للمقالات",
+	"apihelp-bs-ratingarticlelike-store-summary": "يسلم توصيات للمقالات"
+}

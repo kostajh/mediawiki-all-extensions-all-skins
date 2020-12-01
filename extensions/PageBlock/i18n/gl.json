@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"pageblock-desc": "Permite restricións por páxina e por usuario",
+	"pageblock": "Restrinxir a un usuario",
+	"pageblock-legend": "Restrinxir a un usuario",
+	"pageblock-form-title": "Nome da páxina",
+	"pageblock-form-user": "Nome de usuario",
+	"pageblock-form-edit": "Restrinxir as edicións dun usuario",
+	"pageblock-form-sameformove": "Aplicar as mesmas restricións para o renomeamento",
+	"pageblock-form-move": "Restrinxir a un usuario para os renomeamentos",
+	"pageblock-form-reason": "Motivo",
+	"listrestrictions": "Listar as restricións",
+	"listrestrictions-legend": "Listar as restricións",
+	"pageblock-list-title": "Nome da páxina",
+	"pageblock-list-user": "Nome de usuario",
+	"pageblock-list-indefonly": "Amosar só restricións indefinidas"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "Облегчает SEO (поисковую оптимизацию)",
+	"addhtmlmetaandtitle-empty-attr": "Тег &lt;seo&gt; должен содержать по крайней мере один непустой атрибут «title» (заголовок), «metak(eywords)» (мета-поисковые слова) или «metad(escription)» (мета-описание)."
+}

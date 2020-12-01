@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"vikititleicon-desc": "从使用标题图标扩展的页面显示标志的VIKI插件",
+	"vikititleicon-error-fetch": "获取用于节点的标题图标数据时出错：$1。",
+	"apihelp-getTitleIcons-description": "获取页面所有标题图标的URL，只要存在的话。",
+	"apihelp-getTitleIcons-summary": "为页面获取所有标题图标的URL，只要存在。",
+	"apihelp-getTitleIcons-param-pageTitle": "您希望检索标题图标的页面标题"
+}

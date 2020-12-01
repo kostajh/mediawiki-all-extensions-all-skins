@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"phptagsfunctions-preg-bad-delimiter": "Trennzeechen däerf net alphanumeeresch oder e 'Backslash' sinn",
+	"phptagsfunctions-preg-no-ending-delimiter": "Kee Schlusstrennzeechen \"$1\" fonnt"
+}

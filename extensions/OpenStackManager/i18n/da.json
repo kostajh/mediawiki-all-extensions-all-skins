@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Luckas",
+			"Saederup92"
+		]
+	},
+	"openstackmanager-delete": "slet",
+	"openstackmanager-actions": "Handlinger",
+	"openstackmanager-name": "Navn",
+	"openstackmanager-fingerprint": "Fingeraftryk",
+	"openstackmanager-keys": "Nøgler",
+	"openstackmanager-deletedkeyfailed": "Kunne ikke slette nøglen."
+}

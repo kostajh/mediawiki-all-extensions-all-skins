@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Tanımlama anahtarı oluşturucu ve düzenleyici",
+	"apihelp-query+LifeWeb-description": "LifeBase için veri indirme bağlantısı.",
+	"apihelp-query+LifeWeb-summary": "LifeBase için veri indirme bağlantısı.",
+	"apihelp-query+LifeWeb-param-what": "Alınacak veri listesi.",
+	"apihelp-query+LifeWeb-param-clearCache": "Veri alımı sırasında önbelleğin temizlenip temizlenmeyeceği",
+	"apihelp-query+LifeWeb-example-1": "Takson listesi",
+	"apihelp-query+LifeWeb-example-2": "Soru listesi, basılmış"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Acamicamacaraca",
+			"BadDog",
+			"Kizule",
+			"Milicevic01",
+			"Zoranzoki21"
+		]
+	},
+	"bs-articleinfo-desc": "Пружа информације о страници у статусној траци",
+	"prefs-articleinfo": "Информације о страници",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Интервал ажурирања у секундама:",
+	"bs-articleinfo-flyout-title": "Информације о страници",
+	"bs-articleinfo-flyout-intro": "Овде можете пронаћи информације везане за страницу. Можете да проверите њен квалитет и ажурност и видете како се односи на друге странице на викију.",
+	"bs-articleinfo-nav-link-title": "Информације о страници",
+	"bs-articleinfo-flyout-categorylinks-title": "Категорије",
+	"bs-articleinfo-flyout-templatelinks-title": "Шаблони коришћени на страници",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Нема додељених категорија",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Нема коришћених шаблона",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Последња измена",
+	"bs-articleinfo-flyout-lastediteduser-text": "Последњи уредник",
+	"bs-articleinfo-newrevision-info-text": "Доступна је нова верзија ове странице. Освежите страницу да би сте видели тренутни садржај.",
+	"bs-articleinfo-newrevision-info-text-reload": "Постоји нова верзија ове странице. Молимо [[:$1|освежите]] страницу да би сте видели њен тренутни садржај.",
+	"bs-articleinfo-flyout-subpages-title": "Подстранице",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Подстранице",
+	"bs-articleinfo-dialog-subpages-title": "Подстранице"
+}

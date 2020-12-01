@@ -1,0 +1,49 @@
+Page Exchange extension
+
+        Version 0.2.2
+        Yaron Koren
+
+This is free software licensed under the GNU General Public License. Please
+see http://www.gnu.org/copyleft/gpl.html for further details, including the
+full text and terms of the license.
+
+== Overview ==
+
+Page Exchange is an extension to MediaWiki that allows for defining "packages"
+of wiki pages that administrators can install (and un-install) on their wikis.
+
+Packages are defined in JSON files, which admins can make available for their
+wikis by adding those files' URLs to the $wgPageExchangePackageFiles global
+variable.
+
+For more information, see the extension homepage at:
+https://www.mediawiki.org/wiki/Extension:Page_Exchange
+
+== Requirements ==
+
+This version of the Page Exchange extension requires MediaWiki 1.29 or higher.
+
+== Installation ==
+
+To install the extension, place the entire 'PageExchange' directory within
+your MediaWiki 'extensions' directory, then add the following line to
+your 'LocalSettings.php' file:
+
+     wfLoadExtension( 'PageExchange' );
+
+Then, go to core MediaWiki's /maintenance directory, and call the
+following:
+
+     php update.php
+
+== Credits ==
+
+Page Exchange was created by Yaron Koren.
+
+== Contact ==
+
+Comments, questions, suggestions and bug reports can be sent to the
+MediaWiki mailing list:
+
+ https://lists.wikimedia.org/mailman/listinfo/mediawiki-l
+ 

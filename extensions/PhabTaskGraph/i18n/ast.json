@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"phabtaskgraph": "Gráficu de xeres de Phabricator",
+	"phabtaskgraph-desc": "Visualiza les rellaciones ente xeres en Phabricator nun gráficu dirixíu a la fuerza",
+	"phabtaskgraph-author-field-label": "Autor",
+	"phabtaskgraph-owner-field-label": "Propietariu",
+	"phabtaskgraph-tasks-field-label": "Xeres",
+	"phabtaskgraph-projects-field-label": "Proyeutos",
+	"phabtaskgraph-status-field-label": "Estáu",
+	"phabtaskgraph-width-field-label": "Anchor",
+	"phabtaskgraph-height-field-label": "Altor",
+	"phabtaskgraph-tasks-field-help": "llista d'IDs de xeres separaes con comes (la \"T\" al principiu ye opcional); p.ex. 'T123456, T654321'",
+	"phabtaskgraph-projects-field-help": "llista de nomes de proyeutos separaos con comes; p.ex. 'MediaWiki-Platform-Team, Epic'",
+	"phabtaskgraph-width-field-help": "predeterminao: 800",
+	"phabtaskgraph-height-field-help": "predeterminao: 800",
+	"phabtaskgraph-status-open": "Abierta",
+	"phabtaskgraph-status-stalled": "Retrasada",
+	"phabtaskgraph-status-resolved": "Resuelta",
+	"phabtaskgraph-status-invalid": "Inválida",
+	"phabtaskgraph-status-declined": "Refugada",
+	"phabtaskgraph-status-duplicate": "Duplicada"
+}

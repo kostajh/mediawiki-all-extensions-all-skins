@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"edituser": "تعديل مستخدم",
+	"edituser-desc": "يسمح للمستخدمين ذوى الصلاحية بتعديل تفضيلات المستخدمين الآخرين",
+	"edituser-username": "اسم",
+	"edituser-dosearch": "بحث",
+	"edituser-nouser": "المستخدم المحدد \"$1\" مش موجود",
+	"edituser-exempt": "المستخدم المحدد \"$1\" مش ممكن تعديله",
+	"right-edituser": "تعديل تفضيلات المستخدمين الآخرين",
+	"right-edituser-exempt": "لا يمكن تعديل تفضيلاتهم بواسطة الآخرين"
+}

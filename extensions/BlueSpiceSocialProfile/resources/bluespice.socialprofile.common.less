@@ -1,0 +1,122 @@
+.bs-social-entity-wrapper {
+	.bs-social-entity-beforecontent {
+		display: none;
+	}
+
+	.bs-social-entity-profileleftcolumn {
+		width: 100%;
+
+		.bs-social-entity-profilefields {
+			position: relative;
+
+			.bs-social-profile-info {
+				padding: 5px;
+			}
+
+			.bs-social-entity-profileimage {
+				padding: 5px;
+				margin: auto;
+				text-align: center;
+
+				.bs-userminiprofile > a {
+					img {
+						border: 6px solid @bs-color-lighten-information;
+						width: 112px;
+					}
+				}
+			}
+		}
+
+		.bs-social-entity-profilebasetitlecontent {
+			margin-bottom: 20px
+		}
+	}
+}
+
+div.bs-social-profileview {
+	overflow: auto;
+}
+
+div.bs-social-entity-profileleftcolumn {
+	float: left;
+}
+
+div.bs-social-entity-profilerightcolumn .bs-social-entity-actions {
+	margin-right: 5px;
+}
+
+.bs-social-entity-profilerightcolumn {
+	width: 240px;
+	margin-left: 10px;
+}
+
+.bs-social-entity-profilerightcolumn:after {
+	content: "";
+	display: table;
+}
+
+ul.bs-socialprofile-useroptions {
+	list-style-type: none;
+	margin: 0;
+	text-align: right;
+}
+
+.bs-social-entitylist-profile-children {
+	display: block;
+	margin: 0 !important;
+	list-style: none !important;
+}
+
+.bs-social-entity-action-classicprofile::before {
+	margin-right: 5px;
+	font-family: 'entypo';
+	content: '\ea26';
+}
+
+.bs-social-entity-action-changeimage::before {
+	margin-right: 5px;
+	font-family: 'icomoon';
+	content: '\e90d';
+}
+
+.bs-social-entity-action-editprofilefields::before {
+	margin-right: 5px;
+	font-family: 'icomoon';
+	content: "\e905";
+}
+
+.bs-social-entity-action-edituserpage::before {
+	margin-right: 5px;
+	font-family: 'entypo';
+	content: "\ea26";
+}
+
+.bs-social-entity-profile > .bs-social-entity-right div.bs-social-entity-title h3:before,
+a.bs-social-entityspawner-profile:before,
+.bs-social-entity.bs-social-entity-profile.bs-social-entity-output-Default .bs-social-entity-title h3:before {
+	font-family: icomoon;
+	content: "\e971";
+}
+
+.bs-social-entity-profileleftcolumn {
+	.bs-social-entity-profilefields {
+		background: none rgba(62, 83, 137, 0.1);
+		padding: 11px;
+		margin-bottom: 4px;
+	}
+}
+
+.bs-social-entity-profilefields table {
+	width: 100%
+}
+
+.bs-social-entity-profilefields table tr td:first-child {
+	width: 20%
+}
+
+.bs-social-entity.bs-social-entity-profile.bs-social-entity-output-Page {
+	.bs-social-entity-actions {
+		right: 5px;
+		top: 5px;
+	}
+}

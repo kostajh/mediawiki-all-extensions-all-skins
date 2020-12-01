@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"bs-notifications-addaccount": "Creóse l'usuariu $1.",
+	"bs-notifications-email-addaccount-subject": "Creóse {{GENDER:$1|l'usuariu|la usuaria}} «$2»",
+	"bs-notifications-email-addaccount-body": "Creóse {{GENDER:$1|l'usuariu|la usuaria}} «$2»\n\nPuedes visitar la so páxina d'{{GENDER:$1|usuariu|usuaria}} siguiendo l'enllaz de más abaxo",
+	"bs-notifications-web-addaccount-body": "Creóse {{GENDER:$1|l'usuariu|la usuaria}} «$2».",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Creador|Creadora}}: $1",
+	"bs-notifications-edit": "Cambióse la páxina «$1»",
+	"bs-notifications-edit-bundle": "Cambióse la páxina «$2» {{PLURAL:$1|una vegada|$1 vegaes}}",
+	"bs-notifications-email-edit-subject": "$3 {{GENDER:$2|editó}} la páxina «$1»",
+	"bs-notifications-email-edit-body": "$4 {{GENDER:$2|editó}} la páxina «$1».\n\nComentariu:\n $3",
+	"bs-notifications-web-edit-body": "La páxina «$1» foi {{GENDER:$2|editada}} por $3.",
+	"bs-notifications-create": "Creóse la páxina «$1»",
+	"bs-notifications-email-create-subject": "$3 {{GENDER:$2|creó}} la páxina «$1»",
+	"bs-notifications-edit-difflink-label": "Amosar les diferencies",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Bienveníu|Bienvenida}} $1",
+	"bs-notifications-htmlmail-sender-info": "Sistema de notificaciones de $1",
+	"bs-notifications-mail-additional-links-label": "Más enllaces"
+}

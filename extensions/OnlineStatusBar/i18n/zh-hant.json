@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ch.Andrew",
+			"Cwlin0416",
+			"Kly",
+			"Simon Shek"
+		]
+	},
+	"onlinestatusbar-desc": "狀態列在使用者頁面裡顯示使用者是否在線上",
+	"prefs-onlinestatus": "線上狀態",
+	"onlinestatusbar-used": "在您的使用者頁面顯示您的線上狀態",
+	"onlinestatusbar-hide": "在使用者頁面僅使用魔術字來隱藏狀態列（適用於進階使用者）",
+	"onlinestatusbar-away": "在超過所定義的時間後自動視為離開",
+	"onlinestatusbar-purge": "當您每次登入或登出時清除使用者頁面",
+	"onlinestatusbar-status": "您想使用哪個預設狀態？",
+	"onlinestatusbar-away-time": "您想要在幾分鐘後將狀態標記為離開？",
+	"onlinestatusbar-title-online": "{{GENDER:$1|線上}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|忙碌}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|離開}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|隱藏}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|離線}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|不明}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|此使用者}}目前在線上",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|此使用者}}目前為忙碌狀態，可能無法回應",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|此使用者}}目前為閒置狀態，可能無法回應",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|此使用者}}目前離線",
+	"onlinestatusbar-tooltip-unknown": "{{GENDER:$1|此使用者}}的狀態未知",
+	"apihelp-query+onlinestatus-description": "返回使用者的線上狀態與性別",
+	"apihelp-query+onlinestatus-summary": "返回使用者的線上狀態與性別",
+	"apihelp-query+onlinestatus-param-user": "您所想取得狀態的使用者名稱",
+	"apihelp-query+onlinestatus-example": "顯示 Petrb 的線上狀態"
+}

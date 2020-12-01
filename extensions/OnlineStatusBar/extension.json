@@ -1,0 +1,101 @@
+{
+	"name": "Online Status Bar",
+	"version": "1.2.0",
+	"author": [
+		"Petr Bena"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:OnlineStatusBar",
+	"descriptionmsg": "onlinestatusbar-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"APIPropModules": {
+		"onlinestatus": "ApiOnlineStatus"
+	},
+	"MessagesDirs": {
+		"OnlineStatusBar": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"OnlineStatusBarMagic": "OnlineStatusBar.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"OnlineStatusBar": "includes/OnlineStatusBar.body.php",
+		"OnlineStatusBar_StatusCheck": "includes/OnlineStatusBar.status.php",
+		"OnlineStatusBarHooks": "includes/OnlineStatusBar.hooks.php",
+		"ApiOnlineStatus": "includes/OnlineStatusBar.api.php"
+	},
+	"ResourceModules": {
+		"ext.OnlineStatusBar": {
+			"styles": "resources/ext.onlinestatusbar.css",
+			"scripts": "resources/ext.onlinestatusbar.js",
+			"dependencies": [
+				"mediawiki.jqueryMsg",
+				"mediawiki.util"
+			],
+			"messages": [
+				"onlinestatusbar-title-online",
+				"onlinestatusbar-title-busy",
+				"onlinestatusbar-title-away",
+				"onlinestatusbar-title-offline",
+				"onlinestatusbar-title-unknown",
+				"onlinestatusbar-tooltip-online",
+				"onlinestatusbar-tooltip-busy",
+				"onlinestatusbar-tooltip-away",
+				"onlinestatusbar-tooltip-offline",
+				"onlinestatusbar-tooltip-unknown"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "OnlineStatusBar"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "OnlineStatusBarHooks::ckSchema",
+		"UserLogout": "OnlineStatusBarHooks::logout",
+		"ArticleViewHeader": "OnlineStatusBarHooks::renderBar",
+		"UserLoginComplete": "OnlineStatusBarHooks::onUserLoginComplete",
+		"GetPreferences": "OnlineStatusBarHooks::preferencesHook",
+		"UserGetDefaultOptions": "OnlineStatusBarHooks::setDefaultOptions",
+		"MagicWordwgVariableIDs": "OnlineStatusBarHooks::magicWordSet",
+		"ParserGetVariableValueSwitch": "OnlineStatusBarHooks::parserGetVariable"
+	},
+	"config": {
+		"OnlineStatusBarTrackIpUsers": {
+			"value": false
+		},
+		"OnlineStatusBarAutoDelete": {
+			"value": true
+		},
+		"OnlineStatusBar_WriteTime": {
+			"value": 300
+		},
+		"OnlineStatusBarDefaultOnline": {
+			"value": "online"
+		},
+		"OnlineStatusBarDefaultOffline": {
+			"value": "offline"
+		},
+		"OnlineStatusBarDefaultEnabled": {
+			"value": false
+		},
+		"OnlineStatusBar_LogoutTime": {
+			"value": 3600
+		},
+		"OnlineStatusBar_AwayTime": {
+			"value": 15
+		},
+		"OnlineStatusBarCacheTime": {
+			"value": {
+				"online": 10,
+				"busy": 10,
+				"away": 10,
+				"offline": 60
+			}
+		}
+	},
+	"manifest_version": 2
+}

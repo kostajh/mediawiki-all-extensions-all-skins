@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-socialarticleactions-desc": "Fügt grundlegende Artikelaktionseinträge zu BlueSpiceSocial hinzu",
+	"bs-socialarticleactions-type-articlesave": "Artikelbearbeitung",
+	"bs-socialarticleactions-type-articlecreate": "Artikelerstellung",
+	"bs-socialarticleactions-type-articledelete": "Artikellöschung",
+	"bs-socialarticleactions-type-filesave": "Dateibearbeitung",
+	"bs-socialarticleactions-type-filecreate": "Dateierstellung",
+	"bs-socialarticleactions-type-filedelete": "Dateilöschung",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] hat den Artikel [[:$6|$6]] bearbeitet",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] hat den Artikel [[:$6|$6]] erstellt",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] hat den Artikel [[:$6|$6]] gelöscht",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] hat eine neue Version der Datei [[:$6|$6]] hochgeladen",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] hat die Datei [[:$6|$6]] hochgeladen",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] hat die Datei [[:$6|$6]] gelöscht"
+}

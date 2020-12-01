@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"bs-watchlist-desc": "Ajoute un widget et une balise de liste de suivi",
+	"bs-watchlist-title-sidebar": "Liste de suivi",
+	"bs-watchlist-pref-sort-time": "Horodatage",
+	"bs-watchlist-pref-sort-title": "Titre",
+	"bs-watchlist-tag-watchlist-desc": "Affiche les articles qui ont des modifications les plus récentes et sont sur votre liste de suivi.",
+	"bs-watchlist-window-watchlist-title": "Liste de suivi",
+	"bs-watchlist-window-watchlist-intro": "Ceci est un aperçu de toutes les pages de votre liste de suivi. Vous pouvez également aller voir la [[Special:Watchlist|page classique des suivis]].",
+	"bs-watchlist-grid-watchlist-column-link-header": "Page",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Modifications non relues",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Parcourir les modifications",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Page de discussion",
+	"bs-watchlist-grid-watchlist-label-filter": "Filtre"
+}

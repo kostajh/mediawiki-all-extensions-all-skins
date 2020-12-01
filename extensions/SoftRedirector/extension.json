@@ -1,0 +1,85 @@
+{
+	"name": "SoftRedirector",
+	"version": "0.138",
+	"author": [
+		"Ryan Kaldari",
+		"MJL"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SoftRedirector",
+	"descriptionmsg": "softredir-desc",
+	"license-name": "MIT",
+	"requires": {
+		"MediaWiki": ">= 1.33.0"
+	},
+	"type": "other",
+	"ExtensionMessagesFiles": {
+		"SoftRedirectorAlias": "SoftRedirector.i18n.alias.php",
+		"SoftRedirectorMagic": "SoftRedirector.i18n.magic.php"
+	},
+	"Hooks": {
+		"GetDoubleUnderscoreIDs": [
+			"SoftRedirectorHooks::onGetDoubleUnderscoreIDs"
+		],
+		"wgQueryPages": [
+			"SoftRedirectorHooks::onwgQueryPages"
+		],
+		"AncientPagesQuery": [
+			"SoftRedirectorHooks::onAncientPagesQuery"
+		],
+		"LonelyPagesQuery": [
+			"SoftRedirectorHooks::onLonelyPagesQuery"
+		],
+		"ShortPagesQuery": [
+			"SoftRedirectorHooks::onShortPagesQuery"
+		],
+		"RandomPageQuery": [
+			"SoftRedirectorHooks::onRandomPageQuery"
+		],
+		"GetLinkColours": [
+			"SoftRedirectorHooks::onGetLinkColours"
+		]
+	},
+	"MessagesDirs": {
+		"SoftRedirector": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.softredirector.visualEditor": {
+			"scripts": [
+				"visualEditorIntegration.js"
+			],
+			"messages": [
+				"visualeditor-dialog-meta-settings-softredirect-label"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwmeta",
+				"ext.visualEditor.mediawiki"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SoftRedirector"
+	},
+	"config": {
+		"SoftRedirectorIndicateLinks": true
+	},
+	"SpecialPages": {
+		"SoftRedirectPages": "SpecialSoftRedirectPages",
+		"SoftRedirectPageLinks": "SpecialSoftRedirectPageLinks"
+	},
+	"AutoloadClasses": {
+		"SoftRedirectorHooks": "includes/SoftRedirectorHooks.php",
+		"SpecialSoftRedirectPages": "includes/specials/SpecialSoftRedirectPages.php",
+		"SpecialSoftRedirectPageLinks": "includes/specials/SpecialSoftRedirectPageLinks.php"
+	},
+	"VisualEditorPluginModules": [
+		"ext.softredirector.visualEditor"
+	],
+	"manifest_version": 1
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"updatemediawiki": "Oppdater MediaWiki",
+	"updatemediawiki-desc": "Gjør det mulig å oppdatere MediaWiki via en spesialside",
+	"updatemediawiki-current": "Nåværende versjon $1",
+	"updatemediawiki-update-nofound": "Ingen oppdatering er tilgjengelig",
+	"updatemediawiki-update-found": "Ny oppdatering funnet: $1",
+	"updatemediawiki-update-downloading": "Laster ned ny oppdatering",
+	"updatemediawiki-update-saved": "Oppdatering lastet ned og lagret",
+	"updatemediawiki-update-exist": "Oppdateringen er allerede lastet ned",
+	"updatemediawiki-update-copyready": "Kopi klar",
+	"updatemediawiki-update-database": "Oppdatere databasen nå?",
+	"updatemediawiki-update-updateready": "Oppdatering klar",
+	"updatemediawiki-update-install": "Installere nå?",
+	"updatemediawiki-update-updated": "MediaWiki oppdatert til versjon $1",
+	"updatemediawiki-update-error": "Kunne ikke finne nyeste utgaver",
+	"updatemediawiki-update-aborted": "Kunne ikke lagre nå oppdatering. Handlingen ble avbrutt"
+}

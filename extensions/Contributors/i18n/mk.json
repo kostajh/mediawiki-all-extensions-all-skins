@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"contributors": "Учесници",
+	"contributors-desc": "Дава краток преглед на главните учесници на една страница",
+	"contributors-toolbox": "Учесници на страницата",
+	"contributors-legend": "Прикажувај список на главните учесници на една страница",
+	"contributors-target": "Наслов:",
+	"contributors-submit": "Прикажи",
+	"contributors-subtitle": "Главни учесници на $1",
+	"contributors-others-long": "{{PLURAL:$1|Постои уште еден учесник|постојат уште $1 други учесници}} на оваа страница.",
+	"contributors-others": "и {{PLURAL:$1|уште еден|$1 други}}",
+	"contributors-badtitle": "Погрешен наслов.",
+	"contributors-nosuchpage": "Страницата $1 не постои.",
+	"contributors-filterip": "Скриј IP-адреси",
+	"contributors-name": "Корисничко име",
+	"contributors-revisions": "Број на преработки",
+	"contributors-first-edit": "Датум на првото уредување",
+	"contributors-last-edit": "Датум на последното уредување",
+	"contributors-add-subpages": "Додај потстраници",
+	"apihelp-query+contributors-example-1": "Прикажи учесници на Главната страница"
+}

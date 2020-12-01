@@ -1,0 +1,27 @@
+{
+	"name": "Random in category",
+	"version": "2.2.0",
+	"author": [
+		"VasilievVV",
+		"Sam Reed"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:Random_In_Category",
+	"descriptionmsg": "randomincategory-desc",
+	"type": "specialpage",
+	"SpecialPages": {
+		"RandomPageInCategory": "RandomPageInCategory"
+	},
+	"MessagesDirs": {
+		"RandomInCategory": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"RandomInCategoryAlias": "RandomInCategory.alias.php"
+	},
+	"AutoloadClasses": {
+		"RandomPageInCategory": "src/RandomPageInCategory.php"
+	},
+	"manifest_version": 1
+}

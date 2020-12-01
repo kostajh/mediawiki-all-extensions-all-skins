@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Pxos",
+			"Pyscowicz",
+			"Silvonen",
+			"Stryn"
+		]
+	},
+	"betafeatures-auto-enroll": "Ota automaattisesti käyttöön useimmat beeta-ominaisuudet",
+	"betafeatures-auto-enroll-help": "Joissakin beeta-ominaisuuksissa voi olla yllättäviä muutoksia, joten {{GENDER:|sinun}} tulee ottaa ne käyttöön manuaalisesti.",
+	"betafeatures-desc": "Antaa käyttäjän ottaa käyttöön tai poistaa käytöstä ominaisuuksia wikissä, jotka ovat eivät ole vielä valmiita kaikkien käytettäväksi",
+	"betafeatures-extension-type": "Beeta-ominaisuudet",
+	"betafeatures-section-desc": "Tässä {{PLURAL:$1|on uusi ominaisuus, jota|on muutamia uusia ominaisuuksia, joita}} harkitsemme {{GRAMMAR:illative|{{SITENAME}}}}. Kokeile {{PLURAL:$1|sitä|niitä}} ja kerro mielipiteesi meille, jotta voimme parantaa {{PLURAL:$1|sitä|niitä}} palautteesi perusteella.",
+	"betafeatures-toplink": "Beeta",
+	"betafeatures-feature-autoenrolled": "Automaattisesti käyttöönotettu ominaisuus",
+	"mw-ui-feature-discuss": "Keskustelu",
+	"mw-ui-feature-info": "Tietoja",
+	"mw-ui-feature-requirements-betafeatures": "Tämä ominaisuus vaatii {{PLURAL:$1|seuraavaa ominaisuutta|seuraavia ominaisuuksia}} käyttöönotettavaksi:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Seuraava selain ei ole tuettu|Seuraavat selaimet eivät ole tuettuja}}:",
+	"mw-ui-feature-requirements-javascript": "Tämä ominaisuus vaatii JavaScriptin olevan käytössä.",
+	"mw-ui-feature-requirements-skins": "Tämä ominaisuus toimii ainoastaan {{PLURAL:$1|seuraavan ulkoasun|seuraavien ulkoasujen}} kanssa:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Yksi käyttäjä kokeilee tätä ominaisuutta.|$1 käyttäjää kokeilee tätä ominaisuutta.|0=Kukaan ei käytä tätä ominaisuutta.}}",
+	"prefs-betafeatures": "Beeta-ominaisuudet",
+	"tooltip-pt-betafeatures": "Beeta-ominaisuudet"
+}

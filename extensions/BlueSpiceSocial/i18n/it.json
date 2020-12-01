@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"activities": "Attività",
+	"bs-social-pref-datedisplaymode-mode-mw": "Mostra come data",
+	"bs-social-var-type": "Tipo",
+	"bs-social-var-archived": "Archiviato",
+	"bs-social-var-timestampcreated": "Data di creazione",
+	"bs-social-option-orderby-label": "Ordinamento",
+	"bs-social-option-direction-label": "Direzione",
+	"bs-social-editor-cancel": "Annulla",
+	"bs-social-entityactions-label": "Azioni",
+	"bs-social-entityaction-edit": "Modifica",
+	"bs-social-entityaction-delete": "Cancella",
+	"bs-social-entity-fatalstatus-save-emptyfield": "Il campo \"$1\" è vuoto",
+	"bs-social-entity-fatalstatus-save-invalidfieldvalue": "Valore per il campo \"$1\" non valido",
+	"bs-social-entity-fatalstatus-permission-unknownaction": "Azione sconosciuta \"$1\"",
+	"bs-social-select2-overwrites-noresults": "Nessun risultato",
+	"bs-extendedsearch-search-center-result-owner-label": "Proprietario:",
+	"bs-extendedsearch-search-center-result-entity_type-label": "Tipo entità:",
+	"bs-social-special-activities-heading": "Attività",
+	"bs-social-entitylistmenufilter-quickfilter-removeall": "Rimuovi tutto",
+	"bs-social-entitylistmenufilter-quickfilter-removeall-date": "Oggi",
+	"bs-social-renderer-timestampprefix-touched": "Modificato",
+	"bs-social-entityspawner-button-tooltip": "Crea nuovo",
+	"bs-social-specialpagelisting-socialentities-show": "Mostra",
+	"bs-social-specialpagelisting-socialentities-hide": "Nascondi",
+	"bs-socialactionsmw-autoeditsummary": "(Nessun oggetto)"
+}

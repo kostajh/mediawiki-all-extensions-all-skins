@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"SomeyaMako",
+			"列维劳德"
+		]
+	},
+	"packages": "程序包",
+	"pageexchange-logdesc": "这是与 Page Exchange 扩展相关的操作日志。",
+	"pageexchange-installed": "已安装",
+	"pageexchange-available": "可用",
+	"pageexchange-installpackage": "安装程序包：$1",
+	"pageexchange-updatepackage": "更新程序包：$1",
+	"pageexchange-uninstallpackage": "卸载程序包：$1",
+	"pageexchange-installpackagelog": "安装了由$3提供的软件包$2",
+	"pageexchange-updatepackagelog": "已更新由$3提供的软件包$2",
+	"pageexchange-uninstallpackagelog": "已卸载由$3提供的程序包$2",
+	"pageexchange-package-website": "网址：",
+	"pageexchange-package-publisher": "发布者：",
+	"pageexchange-package-author": "作者：",
+	"pageexchange-package-version": "版本：",
+	"pageexchange-package-pages": "页面：",
+	"pageexchange-package-language": "语言：",
+	"pageexchange-package-requiredextensions": "必需的扩展：",
+	"pageexchange-package-requiredpackages": "必需的程序包有：",
+	"pageexchange-package-morerecent": "此Wiki上安装的此程序包存在一个更新。",
+	"pageexchange-package-install": "安装",
+	"pageexchange-package-update": "更新",
+	"pageexchange-package-uninstall": "卸载",
+	"pageexchange-package-deleteallpages": "删除所有相关的Wiki页面",
+	"pageexchange-pagehaschanged": "页面的最新版本与本地的复制不一致。",
+	"pageexchange-uninstallablepackage": "该软件包由于以下原因不能被安装：",
+	"pageexchange-inappropriatepackage": "这个软件包可能不适用于您的Wiki，原因如下：",
+	"pageexchange-packageuninstalled": "该程序包已经卸载完毕。",
+	"pageexchange-packageupdated": "该程序包已经更新完毕。"
+}

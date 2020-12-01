@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"sslauth-desc": "Kullanıcıların kimlik doğrulama için kullanılacak SSL sertifikalarını yüklemelerine izin verir",
+	"sslauth-title-enable": "SSL İstemci Kimlik Doğrulamasını Etkinleştir",
+	"sslauth-title-disable": "SSL İstemci Kimlik Doğrulamasını Devre Dışı Bırak",
+	"sslauth-enable": "Etkinleştir",
+	"sslauth-disable": "Devre dışı bırak",
+	"sslauth-cn": "Genel adı",
+	"sslauth-email": "E-posta adresi",
+	"sslauth-serial": "Seri numarası",
+	"sslauth-response-enable": "SSL Kimlik Doğrulaması etkinleştirildi. Artık istemci sertifikanızla HTTPS üzerinden {{SITENAME}} ağına bağlandığınızda otomatik olarak giriş yapacaksınız.",
+	"sslauth-response-disable": "SSL Kimlik Doğrulaması devre dışı bırakıldı.",
+	"sslauth-invalidrequest-title": "Geçersiz istek",
+	"sslauth-invalidrequest": "Bu sayfanın yararlı olabilmesi için geçerli bir SSL istemci sertifikası sağlanmalıdır.",
+	"clientssl-legend": "SSL Kimlik Doğrulaması",
+	"clientssl-text": "İstemci SSL sertifikalarıyla kimlik doğrulamayı etkinleştirmek/devre dışı bırakmak için bu sayfayı kullanın.",
+	"sslauth-prefs-name": "SSL Kimlik Doğrulaması",
+	"sslauth-prefs-linktospecial": "İstemci sertifikalarını etkinleştirme/devre dışı bırak"
+}

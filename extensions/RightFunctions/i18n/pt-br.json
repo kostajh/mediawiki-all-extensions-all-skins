@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo.mps"
+		]
+	},
+	"rightfunctions-desc": "Funções do analisador (parser) baseadas em permissões",
+	"rightfunctions-casc": "(de fontes em cascata)",
+	"rightfunctions-local": "(de página local)",
+	"rightfunctions-ns": "(de proteção de espaços nominais)"
+}

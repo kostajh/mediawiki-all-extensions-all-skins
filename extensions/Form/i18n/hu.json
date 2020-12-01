@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Glanthor Reviol"
+		]
+	},
+	"form-desc": "[[Special:Form|Űrlap interfész]] új lapok létrehozásához",
+	"form": "Űrlap",
+	"form-no-name": "Nincs űrlapnév",
+	"form-no-name-text": "Meg kell adnod egy űrlapnevet, mint például „{{#special:Form}}/Űrlapneve”",
+	"form-bad-name": "Hibás űrlapnév",
+	"form-bad-name-text": "Nincs ilyen nevű űrlap.",
+	"form-pattern": "$1 űrlap",
+	"form-save": "Mentés",
+	"form-index-mismatch-title": "A név minta és a sablon nem egyezik",
+	"form-index-mismatch": "Ez az űrlap nem egyező névmintákat és sablonokat tartalmaz, a $1 indextől kezdve.",
+	"form-article-exists": "A lap már létezik",
+	"form-article-existstext": "A(z) [[$1]] lap már létezik.",
+	"form-bad-page-name": "Hibás lapnév",
+	"form-bad-page-name-text": "A beírt űrlapadat hibás lapcímet generál: „$1”.",
+	"form-required-field-error": "A {{PLURAL:$2|$1 mező|$1 mezők}} kitöltése kötelező ennél az űrlapnál.\nKérlek {{PLURAL:$2|töltsd ki|töltsd ki őket}}.",
+	"form-save-summary": "Új lap a(z) [[Special:Form/$1|$1 űrlap]] használatával",
+	"form-save-error": "Hiba az űrlap mentésekor",
+	"form-save-error-text": "A(z) „$1” lap mentésekor ismeretlen hiba történt."
+}

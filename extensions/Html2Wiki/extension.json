@@ -1,0 +1,76 @@
+{
+	"name": "Html2Wiki",
+	"version": "2017.07",
+	"author": [
+		"Greg Rundlett"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Html2Wiki",
+	"descriptionmsg": "html2wiki-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"type": "other",
+	"SpecialPages": {
+		"Html2Wiki": "SpecialHtml2Wiki"
+	},
+	"LogTypes": [
+		"html2wiki"
+	],
+	"LogNames": {
+		"html2wiki": "html2wiki-log-name"
+	},
+	"LogHeaders": {
+		"html2wiki": "html2wiki-log-description"
+	},
+	"LogActionsHandlers": {
+		"html2wiki/*": "LogFormatter"
+	},
+	"MessagesDirs": {
+		"Html2Wiki": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"Html2WikiAlias": "Html2Wiki.i18n.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialHtml2Wiki": "specials/SpecialHtml2Wiki.php"
+	},
+	"ResourceModules": {
+		"ext.Html2Wiki": {
+			"scripts": [
+				"modules/ext.Html2Wiki.js"
+			],
+			"styles": [
+				"modules/ext.Html2Wiki.css"
+			],
+			"messages": [
+				"html2wiki",
+				"html2wiki-desc",
+				"html2wiki-fieldset-legend",
+				"html2wiki-filename",
+				"html2wiki-intro",
+				"html2wiki-log-description",
+				"html2wiki-log-name",
+				"html2wiki-not-allowed",
+				"html2wiki-summary",
+				"html2wiki-text",
+				"html2wiki-title",
+				"html2wiki_uploaderror"
+			],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Html2Wiki/"
+	},
+	"config": {
+		"H2WEliminateDuplicateImages": false,
+		"H2WProcessImages": true
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1,
+	"callback": "SpecialHtml2Wiki::checkEnvironment"
+}

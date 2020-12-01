@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"translatorsignup": "Reggistrazione d'u traduttore",
+	"translatorsignup-summary": "Ause sta pàgene pe indicà jndr'à ce lènghe puè traducere, e cumme preferisce essere condattate pe le richieste de traduzione.",
+	"translationnotifications-info": "'Mbormaziune de l'utende",
+	"translationnotifications-username": "Nome de l'utende:",
+	"translationnotifications-emailstatus": "State d'a mail:",
+	"translationnotifications-email-confirmed": "Mò le 'nderizze e-mail jè state confermate",
+	"translationnotifications-languages": "Lènghe",
+	"translationnotifications-lang": "Lénghe #$1",
+	"translationnotifications-nolang": "Scacchie 'na lènghe",
+	"translationnotifications-cmethod-email": "E-mail",
+	"translationnotifications-cmethod-talkpage": "Pàgene de le 'ngazzaminde",
+	"translationnotifications-cmethod-feed": "Feed",
+	"translationnotifications-freq-week": "Assaije assije 'na vote a sumàne",
+	"translationnotifications-freq-month": "Assaije assije 'na vote a 'u mese",
+	"translationnotifications-freq-weekly": "Riepiloghe sumanale",
+	"translationnotifications-freq-monthly": "Riepiloghe mensile",
+	"translationnotifications-submit": "Aggiorne le 'mbostaziune",
+	"translationnotifications-languages-to-notify-label": "Pe ce lènghe vuè ccu mane le notifiche:",
+	"translationnotifications-priority": "Priorità:",
+	"translationnotifications-priority-high": "ierte",
+	"translationnotifications-priority-medium": "medie",
+	"translationnotifications-priority-low": "vasce",
+	"translationnotifications-priority-unset": "(none 'mbostate)",
+	"translationnotifications-notification-url-listitem": "traduce jndr'à $1",
+	"log-name-notifytranslators": "Archivije de le notifiche de traduzione",
+	"translationnotifications-log-alllanguages": "tutte le lènghe",
+	"translationnotifications-nodeadline": "ninde",
+	"translationnotifications-generic-languages": "&lt;lènghe>"
+}

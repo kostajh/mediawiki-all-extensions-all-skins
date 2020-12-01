@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"bs-countthings-desc": "提供內容的統計資訊",
+	"bs-countthings-chars-label": "字元",
+	"bs-countthings-words-label": "單字",
+	"bs-countthings-files-label": "檔案",
+	"bs-countthings-pages-label": "頁面",
+	"bs-countthings-ve-countcharacters-title": "計算字元",
+	"bs-countthings-ve-countarticles-title": "計算條目",
+	"bs-countthings-ve-countfiles-title": "計算檔案",
+	"bs-countthings-ve-countusers-title": "計算使用者",
+	"bs-countthings-ve-countthingsinspector-mode": "模式",
+	"bs-countthings-ve-countcharacters-mode-all": "全部",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "字元",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "單字",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "字元和單字",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "頁面",
+	"bs-countthings-ve-countcharacters-input-label": "頁面",
+	"bs-countthings-error-no-input": "未提供頁面。",
+	"bs-countthings-error-invalid-mode": "模式「$1」無效，請使用「chars」、「words」，或是「pages」。",
+	"bs-countthings-error-not-exist": "頁面 \"$1\" 不存在。",
+	"bs-countthings-tag-countarticles-desc": "顯示在 wiki 的條目數。",
+	"bs-countthings-tag-countusers-desc": "顯示已註冊使用者數。",
+	"bs-countthings-tag-countfiles-desc": "顯示在 wiki 的檔案數。",
+	"bs-countthings-tag-countcharacters-desc": "產生在指示出條目內容的詮釋資料。輸出內容為可整合在條目的訊息框，並以參數「mode」來顯示出不同種類訊息。",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>：指定要被計算在<code>chars</code>（字元）、<code>words</code>（單字），或是<code>pages</code>（頁面）的項目。",
+	"bs-countthings-tag-countcharacters-example-1": "字詞數",
+	"bs-countthings-tag-countcharacters-example-2": "字元數"
+}

@@ -1,0 +1,6 @@
+[gerrit]
+host=gerrit.wikimedia.org
+port=29418
+project=mediawiki/skins/p2wiki.git
+track=1
+defaultrebase=0

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Mirzali"
+		]
+	},
+	"apihelp-query+wikimediaeditortaskscounts-summary": "Oturum açan kullanıcı için özelliğe özgü düzenleme istatistikleri.",
+	"apihelp-query+wikimediaeditortaskscounts-example": "Oturum açan kullanıcı için göreve özgü sayımlar alın.",
+	"apihelp-query+wikimediaeditortaskssuggestions-summary": "Önceden tanımlanmış türlerin mikro sözleşme önerileri.",
+	"apihelp-query+wikimediaeditortaskssuggestions-example-1": "İtalyanca olmayan ancak Japonca olmayan açıklamalara sahip öğelere ilişkin Vikiveri varlık kimliklerini alın.",
+	"apihelp-query+wikimediaeditortaskssuggestions-example-2": "İtalyanca'da açıklamaları eksik olan öğeler için Vikiveri varlık kimliklerini alın ve bunları bir jeneratör olarak kullanın.",
+	"apihelp-query+wikimediaeditortaskssuggestions-example-3": "Japonca değil, İtalyanca dilinde etiketli öğeler için Vikiveri varlık kimliklerini alın.",
+	"apihelp-query+wikimediaeditortaskssuggestions-example-4": "İtalyanca etiketleri eksik olan öğeler için Vikiveri varlık kimliklerini alın ve bunları bir jeneratör olarak kullanın.",
+	"apihelp-query+wikimediaeditortaskssuggestions-example-5": "Dosya ad alanındaki öğeler için Vikveri varlık kimliklerini, İtalyanca'da ancak Japonca olmayan etiketlerle (resim yazıları olarak bilinir) alın.",
+	"apihelp-query+wikimediaeditortaskssuggestions-example-6": "İtalyanca'da Dosya ad alanı eksik etiketleri (başlıkları olarak bilinir) içindeki öğeler için Vikiveri varlık kimliklerini alın ve bunları bir jeneratör olarak kullanın.",
+	"apihelp-query+wikimediaeditortaskssuggestions-param-task": "Görev önerisi türü.",
+	"apihelp-query+wikimediaeditortaskssuggestions-param-source": "Çeviri türü görev önerileri için, belirli bir öğe için içeriğin bulunması gereken dilin wiki dili kodu.",
+	"apihelp-query+wikimediaeditortaskssuggestions-param-target": "Belirli bir öğe için içeriğin eksik olduğu dilin viki dili kodu.",
+	"apihelp-query+wikimediaeditortaskssuggestions-param-limit": "İstenilen sonuç sayısı. İstenilen sayıdan daha az sayıda sonuç varsa, daha az sonuç alınabileceğini unutmayın.",
+	"apihelp-query+wikimediaeditortaskssuggestions-param-namespace": "Yalnızca bu ad alanlarında arama yapın."
+}

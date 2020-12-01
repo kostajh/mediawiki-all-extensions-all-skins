@@ -1,0 +1,79 @@
+body .sitetools-main,
+body .sitetools-main.active {
+	.sidebar-toggle[data-toggle~="sitetools-main-collapse"] {
+		i.sitetools-main-collapse::before {
+			color: @theme-sitetools-main-button-fg-color;
+		}
+
+		&:hover i.sitetools-main-collapse::before {
+			color: @theme-sitetools-main-button-fg-color-hover;
+		}
+	}
+}
+
+body.mediawiki .sitetools-main {
+	background-color: @theme-sitetools-main-bg-color;
+	color: @theme-sitetools-main-fg-color;
+	border-left: @theme-sitetools-main-border;
+
+.nav.nav-pills {
+		background-color: @theme-sitetools-main-tabs-bg-color;
+
+		li a{
+			background-color: @theme-sitetools-main-tab-bg-color;
+			color: @theme-sitetools-main-tab-fg-color;
+		}
+		li.active a {
+			background-color: @theme-sitetools-main-tab-bg-color-active;
+			color: @theme-sitetools-main-tab-fg-color-active;
+		}
+		li a:hover,
+		li.active a:hover {
+			background-color: @theme-sitetools-main-tab-bg-color-hover;
+			color: @theme-sitetools-main-tab-fg-color-hover;
+		}
+	}
+
+	#bs-toolpanetabs {
+		div.tab-content{
+			color: @theme-sitetools-main-fg-color;
+			.panel,
+			.bs-panel {
+				.panel-heading {
+					.panel-title,
+					.bs-panel-title {
+						a,
+						a span {
+							color: @theme-sitetools-main-fg-color;
+						}
+						&:hover a{
+							background-color: @theme-sitetools-main-bg-color-hover;
+
+							span {
+								color: @theme-sitetools-main-fg-color-hover;
+							}
+						}
+					}
+				}
+				.list-group a.list-group-item {
+					&,
+					span,
+					i {
+						color: @theme-sitetools-main-fg-color;
+					}
+					&:hover {
+						background-color: @theme-sitetools-main-bg-color-hover;
+
+						&,
+						span,
+						i {
+							color: @theme-sitetools-main-fg-color-hover;
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+}

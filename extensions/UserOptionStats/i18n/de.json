@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Purodha",
+			"Umherirrender"
+		]
+	},
+	"useroptionstats": "Statistiken zu Benutzereinstellungen",
+	"useroptionstats-desc": "Erweitert das Wiki um eine [[Special:UserOptionStats|Spezialseite]] zur aggregierten Darstellung der von den Benutzern gewählten Einstellungen",
+	"uos-warn": "PHPlot ist nicht installiert!",
+	"uos-choose": "Wähle eine der folgenden Einstellungen: $1",
+	"uos-choose-hidden": "Wähle eine der folgenden versteckten Einstellungen: $1",
+	"uos-unknown": "*Standardeinstellung",
+	"uos-other": "*Sonstige",
+	"uos-title": "Verteilung der gewählten Werte zur Benutzereinstellung\n„$1“"
+}

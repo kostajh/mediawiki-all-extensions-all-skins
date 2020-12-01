@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"flvhandler_desc": "Povoliť Flash Video (.flv) na mieste obrázkov v štandardných značkách obrázkov (napr. <nowiki>[[</nowiki>{{ns:file}}:Movie.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Flash video, $1 × $2 pixlov, veľkosť súboru: $3"
+}

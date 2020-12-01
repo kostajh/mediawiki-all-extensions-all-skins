@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"echo-category-title-bs-social-entity-cat": "إجراءات الكيان على الصفحات المراقبة",
+	"bs-social-notifications-entity-create": "تم إنشاء كيان اجتماعي من النوع \"$1\"",
+	"bs-social-notifications-email-entity-create-subject": "تم إنشاء كيان اجتماعي من النوع \"$1\"",
+	"bs-social-notifications-email-entity-create-body": "{{GENDER:$1|المستخدم $2 قد أنشأ|المستخدمة $2 قد أنشأت}} \"$3\" جديدا",
+	"bs-social-notifications-email-entity-create-text-body": "{{GENDER:$1|المستخدم $2 قد أنشأ|المستخدمة $2 قد أنشأت}} \"$3\" جديدا بالنص التالي:\n$4",
+	"bs-social-notifications-web-entity-create-body": "{{GENDER:$1|المستخدم $2 قد أنشأ|المستخدمة $2 قد أنشأت}} \"$3\" جديدا",
+	"bs-social-notifications-entity-edit": "تم تعديل كيان اجتماعي من النوع \"$1\"",
+	"bs-social-notifications-email-entity-edit-subject": "تم تعديل كيان اجتماعي من النوع \"$1\"",
+	"bs-social-notifications-email-entity-edit-body": "{{GENDER:$1|المستخدم $2 قد عدل|المستخدمة $2 قد عدلت}} كيانا اجتماعيا من النوع \"$3\"",
+	"bs-social-notifications-email-entity-edit-text-body": "{{GENDER:$1|المستخدم $2 قد عدل|المستخدمة $2 قد عدلت}} كيانا اجتماعيا من النوع \"$3\" ب النص التالي:\n$4",
+	"bs-social-notifications-web-entity-edit-body": "{{GENDER:$1|المستخدم $2 قد عدل|المستخدمة $2 قد عدلت}} كيانا اجتماعيا من النوع \"$3\"",
+	"bs-social-notifications-entity-delete": "تم حذف كيان اجتماعي من النوع \"$1\"",
+	"bs-social-notifications-email-entity-delete-subject": "تم حذف كيان اجتماعي من النوع \"$1\"",
+	"bs-social-notifications-email-entity-delete-body": "{{GENDER:$1|المستخدم $2 قد حذف|المستخدمة $2 قد حذفت}} كيانا اجتماعيا من النوع \"$3\"",
+	"bs-social-notifications-web-entity-delete-body": "{{GENDER:$1|المستخدم $2 قد حذف|المستخدمة $2 قد حذفت}} كيانا اجتماعيا من النوع \"$3\"",
+	"bs-social-notification-primary-link-label": "عرض الكيان"
+}

@@ -1,0 +1,46 @@
+{
+	"name": "MobileApp",
+	"author": [
+		"Yuvi Panda"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:MobileApp",
+	"descriptionmsg": "mobileapp-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"MobileApp": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MobileAppHooks": "includes/MobileAppHooks.php"
+	},
+	"ResourceModules": {
+		"mobile.app": {
+			"styles": [
+				"styles/imageOverflow.less",
+				"styles/ipa.less"
+			]
+		},
+		"mobile.app.parsoid": {
+			"styles": [
+				"styles/parsoid/figure.less"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "MobileApp"
+	},
+	"Hooks": {
+		"ListDefinedTags": "MobileAppHooks::onListDefinedTags",
+		"ChangeTagsListActive": "MobileAppHooks::onListDefinedTags",
+		"RecentChange_save": "MobileAppHooks::onRecentChange_save",
+		"AbuseFilter-generateUserVars": "MobileAppHooks::onAbuseFilterGenerateUserVars",
+		"AbuseFilter-builder": "MobileAppHooks::onAbuseFilterBuilder"
+	},
+	"manifest_version": 2
+}

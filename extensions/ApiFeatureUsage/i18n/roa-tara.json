@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apifeatureusage": "Ause dettagliate de API",
+	"apifeatureusage-desc": "Pigghie 'nu riepiloghe de l'ause dettagliate de l'API de collegamende pe 'n'agente utende.",
+	"apifeatureusage-elasticsearch-error": "Errore de Elasticsearch: $1",
+	"apifeatureusage-legend": "Ause dettagliate de API",
+	"apifeatureusage-agent-label": "Utende agente:",
+	"apifeatureusage-startdate-label": "Date de inizie:",
+	"apifeatureusage-enddate-label": "Date de fine:",
+	"apifeatureusage-submit": "Pigghie le date",
+	"apifeatureusage-no-indexes": "Nisciune date disponibbile pe stu indervalle de date.",
+	"apifeatureusage-missing-indexes": "Nisciune date disponibbile pe 'na vanne de stu indervalle de date.",
+	"apifeatureusage-warnings": "Avvertimende: $1",
+	"apifeatureusage-column-feature": "Dettaglie",
+	"apifeatureusage-column-date": "Date",
+	"apifeatureusage-column-uses": "Ause",
+	"apihelp-query+featureusage-description": "Pigghie 'nu riepiloghe de l'ause dettagliate de l'API de collegamende pe 'n'agente utende.",
+	"apihelp-query+featureusage-summary": "Pigghie 'nu riepiloghe de l'ause dettagliate de l'API de collegamende pe 'n'agente utende.",
+	"apihelp-query+featureusage-param-start": "Inizie de l'indervalle de date da 'nderrogà.",
+	"apihelp-query+featureusage-param-end": "Fine de l'indervalle de date da 'nderrogà.",
+	"apihelp-query+featureusage-param-agent": "Utende agente da 'nderrogà. Ce no specificate, l'agente jndr'à richieste avène 'nderrogate.",
+	"apihelp-query+featureusage-param-features": "Ce specificate, torne le dettaglie sus a chiste funziune.",
+	"apihelp-query+featureusage-example-simple": "'Nderroghe l'ause de funzionalità pe l'utende agente",
+	"apierror-apifeatureusage-emptyagent": "Non ge puè 'nderrogà 'n'aggende utende vacande.",
+	"apifeatureusage-deprecation-help": "Ause [[Special:ApiFeatureUsage]] pe 'ndrucà le funziune ca non g'a ausà pe l'applicaziona toje."
+}

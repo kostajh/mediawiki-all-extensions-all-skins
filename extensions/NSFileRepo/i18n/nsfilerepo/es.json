@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Fitoschido",
+			"Macofe",
+			"Syum90"
+		]
+	},
+	"nsfilerepo-desc": "Proveer características basadas en espacio de nombres para archivos subidos",
+	"nsfilerepo-upload-target": "Nombre de archivo destino en el espacio de nombres",
+	"nsfilerepo-nsmain": "(Principal)",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext": "No se puede modificar este campo cuando se carga de nuevo un archivo",
+	"nsfilerepo-move-file-namespace-action-label": "Establecer espacio de nombres de archivos",
+	"nsfilerepo-move-file-namespace-dialog-title": "Establecer espacio de nombres de archivos",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "Hecho",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "Cancelar",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "Espacio de nombres"
+}

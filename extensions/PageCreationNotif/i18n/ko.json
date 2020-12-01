@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"아라"
+		]
+	},
+	"page-creation-notif-desc": "새 문서가 만들어질 때 이메일 알림을 보냅니다",
+	"page-creation-notification": "새 문서가 만들어질 때 내게 이메일 보내기",
+	"page-creation-email-subject": "새 문서 - $1 문서를 $3님이 $2에 {{GENDER:$3|만들었습니다}}",
+	"page-creation-email-body": "$1님,\n\n{{SITENAME}}에서 $3님이 $2 새 문서를 {{GENDER:$3|만들었음}}을 알립니다.\n\n다음에서 볼 수 있습니다\n$4\n\n문서의 텍스트는 다음과 같습니다:\n$5\n\n친절한 {{SITENAME}} 알림 시스템입니다.\n\n이메일 알림 설정을 바꾸려면 다음을 방문하세요\n{{canonicalurl:{{#special:Preferences}}}}"
+}

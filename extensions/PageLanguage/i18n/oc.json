@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"pagelanguage-desc": "Definir la lenga de la pagina per pagina",
+	"pagelanguage-invalid": "'''Atencion :''' Còdi de lenga « $1 » invalid per la lenga de la pagina.",
+	"pagelanguage-duplicate": "'''Atencion :''' La lenga de la pagina « $2 » espotís la precedenta lenga de la pagina « $1 »."
+}

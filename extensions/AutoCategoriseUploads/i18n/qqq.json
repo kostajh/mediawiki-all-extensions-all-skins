@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ryan Schmidt"
+		]
+	},
+	"autocatuploads": "{{name}}",
+	"autocatuploads-desc": "{{desc|name=AutoCategoriseUploads|url=https://www.mediawiki.org/wiki/Extension:AutoCategoriseUploads}}"
+}

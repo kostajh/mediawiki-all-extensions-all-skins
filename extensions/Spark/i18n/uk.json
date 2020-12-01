@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"spark-desc": "Додає тег <code><nowiki><spark /></nowiki></code>, який дає можливість вбудовування меш-апів [http://km.aifb.kit.edu/sites/spark/ Spark].",
+	"spark-missing-query": "Вам необхідно вказати в запиті параметр \"data-spark-query\"."
+}

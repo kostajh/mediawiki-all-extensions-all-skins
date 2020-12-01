@@ -1,0 +1,81 @@
+{
+	"name": "BlueSpiceWatchList",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:BlueSpiceWatchList",
+	"author": "Robert Vogel",
+	"descriptionmsg": "bs-watchlist-desc",
+	"type": "bluespice",
+	"license-name": "GPL-3.0-only",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceWatchList": {
+					"className": "\\BlueSpice\\WatchList\\Extension",
+					"extPath": "/BlueSpiceWatchList"
+				}
+			},
+			"TagRegistry": {
+				"watchlist": "\\BlueSpice\\WatchList\\Tag\\WatchList"
+			}
+		},
+		"BlueSpiceUserSidebar": {
+			"Widgets": {
+				"WATCHLIST": {
+					"callback": "\\BlueSpice\\WatchList\\Panel\\WatchList::factory",
+					"default": true
+				}
+			}
+		}
+	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"\\BlueSpice\\WatchList\\Hook\\BeforePageDisplay\\AddModules::callback"
+		],
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\WatchList\\Hook\\BSInsertMagicAjaxGetData\\AddWatchListTag::callback",
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\WatchList\\Hook\\BSUsageTrackerRegisterCollectors\\AddWatchListTag::callback"
+	},
+	"ResourceModules": {
+		"ext.bluespice.watchlist.styles": {
+			"styles": "bluespice.watchlist.css"
+		},
+		"ext.bluespice.watchlist.myWatchlistWindow.bootstrap": {
+			"scripts": [
+				"ext.bluespice.watchlist.myWatchlistWindow.bootstrap.js"
+			]
+		},
+		"ext.bluespice.watchlist.myWatchlistWindow": {
+			"styles": [
+				"ext.bluespice.watchlist.myWatchlistWindow.css"
+			],
+			"messages": [
+				"bs-watchlist-window-watchlist-title",
+				"bs-watchlist-window-watchlist-intro",
+				"bs-watchlist-grid-watchlist-column-link-header",
+				"bs-watchlist-grid-watchlist-column-hasunreadchanges-header",
+				"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip",
+				"bs-watchlist-grid-watchlist-label-filter",
+				"bs-watchlist-grid-watchlist-column-istalkpage-header"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceWatchList/resources"
+	},
+	"MessagesDirs": {
+		"BSWatchList": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\WatchList\\": "src/"
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

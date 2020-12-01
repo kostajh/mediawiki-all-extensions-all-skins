@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diman Russkov",
+			"Ole Yves",
+			"Stjn",
+			"Striking Blue"
+		]
+	},
+	"reassignedits": "Переназначить правки участника",
+	"reassignedits-desc": "Позволяет переназначение правок от старого пользователя к новому",
+	"reassignedits-error-invalid": "Имя пользователя «$1» не верно.",
+	"reassignedits-new": "Новое имя участника",
+	"reassignedits-old": "Старое имя участника",
+	"reassignedits-submit": "Отправить",
+	"reassignedits-success": "Правки, сделанные «$1», перезаписаны на участника «$2».",
+	"reassignedits-summary": "Переназначить правки со старого участника к новому.",
+	"reassignedits-updatelog-title": "Обновить имя участника в записях журналов",
+	"reassignedits-updatelog-user": "Обновить участника-исполнителя в журналах",
+	"action-reassignedits": "переназначить правки от старого пользователя новому",
+	"right-reassignedits": "Переназначить правки со старого участника к новому"
+}

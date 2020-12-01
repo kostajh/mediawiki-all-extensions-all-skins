@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"emailauth-desc": "Şüpheli girişleri e-posta ile doğrular",
+	"emailauth-token-label": "Doğrulama kodu",
+	"emailauth-token-help": "Bir defalık 2FA anahtarı e-posta ile gönderilir.",
+	"emailauth-email-subject": "Giriş doğrulama kodunuz $1",
+	"emailauth-email-body": "$1 olan giriş doğrulama kodunuz $2",
+	"emailauth-login-message": "Giriş bilgilerinizi doğrulamanız gerekir. Bir e-posta adresinize bir doğrulama kodu gönderildi ($1), lütfen bu kodu buraya girin.",
+	"emailauth-login-failure": "Geçersiz doğrulama kodu!",
+	"emailauth-login-retry-limit": "Çok fazla başarısızlık!"
+}

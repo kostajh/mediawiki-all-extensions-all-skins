@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"testlanguagenamegrammar": "Testowanie form gramatycznych z nazwami języków",
+	"testlanguagenamegrammar-desc": "Dodaje [[Special:TestLanguageNameGrammar|stronę specjalną]] do testowanie form gramatycznych z nazwami języków.",
+	"testlanguagenamegrammar-language": "Język",
+	"testlanguagenamegrammar-grammarform": "Forma gramatyczna",
+	"testlanguagenamegrammar-submit": "Wyślij"
+}

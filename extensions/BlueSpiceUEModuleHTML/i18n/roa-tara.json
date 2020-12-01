@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "Ebbilite l'esportazione jndr'à l'HTML",
+	"bs-uemodulehtml-pref-DefaultTemplate": "Template stàndàrd",
+	"bs-uemodulehtml-pref-SuppressNS": "Scunne 'u prefisse d'u namespace jndr'à l'HTML",
+	"bs-uemodulehtml-pref-Backend": "Backend",
+	"bs-uemodulehtml-widgetlink-single-text": "Pàgena singole jndr'à l'HTML (archiviate)",
+	"bs-uemodulehtml-widgetlink-single-title": "Esporte sta pàgene cumme HTML 'nzieme cu le resorse sue cumme a 'n'archivije",
+	"bs-uemodulehtml-overview-title": "Documende HTML (archiviate)",
+	"bs-uemodulehtml-overview-description": "Esporte le pàggene (SpecialPages e ContenPages) jndr'à l'HTML."
+}

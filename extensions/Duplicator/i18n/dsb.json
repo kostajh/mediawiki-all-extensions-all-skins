@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"duplicator": "Bok duplicěrowaś",
+	"duplicator-desc": "Njewótwisne [[Special:Duplicate|kopije bokow]] z jich dopołnymi stawiznami napóraś",
+	"duplicator-toolbox": "Toś ten bik duplicěrowaś",
+	"duplicator-header": "Toś ten bok zmóžnja kompletnu duplikaciju boka. Mimo togo napóraju se njewótwisne kopije wersijowych stawiznow. To móžo wužytne byś, aby rozrědował boki atd.",
+	"duplicator-options": "Opcije",
+	"duplicator-source": "Žrědło:",
+	"duplicator-dest": "Cel:",
+	"duplicator-dotalk": "Diskusijny bok duplicěrowaś (jolic móžno)",
+	"duplicator-submit": "Duplicěrowaś",
+	"duplicator-summary": "Z [[$1]] kopěrowany, wersija [[$2]]",
+	"duplicator-success": "[[$1]] jo se kopěrował do [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|wersija jo se kopěrowała|wersiji stej kopěrowałej|wersije su kopěrowali|wersijow jo kopěrowało}}.",
+	"duplicator-success-talknotcopied": "Diskusijny bok njejo se dał kopěrowaś.",
+	"duplicator-failed": "Bok njejo se dał duplicěrowaś.\nNjeznata zmólka jo nastała.",
+	"duplicator-source-invalid": "Pšosym pódaj płaśiwy žrědłowy titel.",
+	"duplicator-source-notexist": "[[$1]] njeeksistěrujo. Pšosym pódaj titel boka, kótaryž eksistěrujo.",
+	"duplicator-dest-invalid": "Pšosym pódaj płaśiwy celowy titel.",
+	"duplicator-dest-exists": "[[$1]] južo eksistěrujo. Pšosym pódaj celowy titel, kótaryž hyšći njeeksistěrujo.",
+	"right-duplicate": "Dwójne boki"
+}

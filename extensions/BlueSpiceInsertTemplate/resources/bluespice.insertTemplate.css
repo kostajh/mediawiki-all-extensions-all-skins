@@ -1,0 +1,9 @@
+a#bs-editButton-insertTemplate {
+	/*@embed*/
+	background-image: url(images/bs-inserttemplate-32.png);
+}
+
+i.mce-i-bstemplate {
+	/*@embed*/
+	background-image: url(images/bs-inserttemplate-16.png);
+}

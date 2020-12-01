@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Joseph",
+			"Mach",
+			"MuratTheTurkish"
+		]
+	},
+	"lookupuser": "Kullanıcı bilgisine bak",
+	"lookupuser-desc": "Bir kullanıcı hakkında e-posta adresi ve ID gibi [[Special:LookupUser|bilgileri al]]",
+	"lookupuser-intro": "Kullanıcıların tercihlerini görmek için bir kullanıcı adı girin. Bir e-posta adresi de kullanılabilir, o e-postayı kullanan tüm hesaplar gösterilir.",
+	"lookupuser-nonexistent": "Hata: Kullanıcı mevcut değil",
+	"lookupuser-authenticated": "$1 üzerinde doğrulandı",
+	"lookupuser-not-authenticated": "doğrulanmadı",
+	"lookupuser-id": "Kullanıcı kimliği: <tt>#$1</tt>",
+	"lookupuser-email": "E-posta: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-no-email": "sağlanmadı",
+	"lookupuser-realname": "Gerçek ad: $1",
+	"lookupuser-registration": "Kayıt tarihi: $1",
+	"lookupuser-no-registration": "kayıtlı değil",
+	"lookupuser-touched": "Kullanıcı kaydı son dokunuldu: $1",
+	"lookupuser-info-authenticated": "E-posta doğrulama: $1",
+	"lookupuser-useroptions": "Kullanıcı seçenekleri:",
+	"lookupuser-foundmoreusers": "Birden çok kullanıcı bulundu:",
+	"right-lookupuser": "Kullanıcı tercihlerine bak",
+	"action-lookupuser": "kullanıcı tercihlerine bak"
+}

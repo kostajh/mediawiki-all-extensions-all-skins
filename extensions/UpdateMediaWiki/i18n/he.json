@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"updatemediawiki": "עדכון תוכנת מדיה־ויקי",
+	"updatemediawiki-desc": "מתן אפשרות לעדכון תוכנת מדיה־ויקי באמצעות דף מיוחד",
+	"updatemediawiki-current": "הגרסה הנוכחית $1",
+	"updatemediawiki-update-nofound": "אין עדכון זמין",
+	"updatemediawiki-update-found": "קיים עדכון חדש: $1",
+	"updatemediawiki-update-downloading": "מתבצעת הורדה של עדכון חדש",
+	"updatemediawiki-update-saved": "העדכון הורד ונשמר",
+	"updatemediawiki-update-exist": "העדכון כבר הורד",
+	"updatemediawiki-update-copyready": "העותק מוכן",
+	"updatemediawiki-update-database": "לעדכן את בסיס הנתונים עכשיו?",
+	"updatemediawiki-update-updateready": "העדכון מוכן",
+	"updatemediawiki-update-install": "להתקין עכשיו?",
+	"updatemediawiki-update-updated": "תוכנת מדיה־ויקי עודכנה לגרסה $1",
+	"updatemediawiki-update-error": "לא ניתן היה למצוא את שחרורי הגרסה האחרונים",
+	"updatemediawiki-update-aborted": "לא ניתן היה לשמור את העדכון החדש. הפעולה בוטלה"
+}

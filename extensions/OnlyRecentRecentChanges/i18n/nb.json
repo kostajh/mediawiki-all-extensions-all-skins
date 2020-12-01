@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"onlyrecentrecentchanges-desc": "Vis sider i listen over siste endringer kun én gang når de har blitt endret nylig",
+	"onlyrecentrecentchanges-option": "Vis bare den siste endringen på endrede sider (innen grensa til «{{int:prefs-displayrc}}» som vist ovenfor)"
+}

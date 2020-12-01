@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"sslauth-email": "Adres e‐mail",
+	"sslauth-serial": "Numer seryjny",
+	"sslauth-response-disable": "Wyłączono autoryzację SSL.",
+	"clientssl-legend": "Uwierzytelnianie SSL",
+	"sslauth-prefs-name": "Uwierzytelnianie SSL"
+}

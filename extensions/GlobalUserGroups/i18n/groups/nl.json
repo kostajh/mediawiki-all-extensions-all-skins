@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand",
+			"SPQRobin",
+			"SVG",
+			"Tvdm"
+		]
+	},
+	"group-bot-global": "globale bots",
+	"group-bot-global-member": "{{GENDER:$1|globale robot}}",
+	"grouppage-bot-global": "{{ns:project}}:Globale bots",
+	"group-checkuser-global": "globale controlegebruikers",
+	"group-checkuser-global-member": "{{GENDER:$1|globale controlegebruiker}}",
+	"grouppage-checkuser-global": "{{ns:project}}:Globale controlegebruikers",
+	"group-helper-global": "globale helpers",
+	"group-helper-global-member": "{{GENDER:$1|globale helper}}",
+	"grouppage-helper-global": "{{ns:project}}:Globale helpers",
+	"group-ipblock-exempt-g": "globale uitgezonderden van IP-adresblokkades",
+	"group-ipblock-exempt-g-member": "{{GENDER:$1|globale uitgezonderde van IP-adresblokkades}}",
+	"grouppage-ipblock-exempt-g": "{{ns:project}}:Globale uitgezonderden van IP-adresblokkades",
+	"group-rollback-global": "globale terugdraaiers",
+	"group-rollback-global-member": "{{GENDER:$1|globale terugdraaier}}",
+	"grouppage-rollback-global": "{{ns:project}}:Globale terugdraaiers",
+	"group-steward-global": "globale stewards",
+	"group-steward-global-member": "{{GENDER:$1|globale steward}}",
+	"grouppage-steward-global": "{{ns:project}}:Globale stewards",
+	"group-sysadmin-global": "globale systeembeheerders",
+	"group-sysadmin-global-member": "{{GENDER:$1|globale systeembeheerder}}",
+	"grouppage-sysadmin-global": "{{ns:project}}:Globale systeembeheerders",
+	"group-sysop-global": "globale beheerders",
+	"group-sysop-global-member": "{{GENDER:$1|globale beheerder}}",
+	"grouppage-sysop-global": "{{ns:project}}:Globale beheerders"
+}

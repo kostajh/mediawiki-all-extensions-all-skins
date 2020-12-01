@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"dynamicpagelistengine-desc": "提供可設置以及在[[mw:Special:MyLanguage/Extension:Scribunto|模組]]和其它擴充方面可擴充功能的動態頁面清單",
+	"dple-tracking-category": "使用動態頁面清單引擎的頁面",
+	"dple-error-invalid-ns-index": "動態頁面清單引擎錯誤：沒有具索引 $1 的名稱空間。",
+	"dple-error-no-criteria": "動態頁面清單引擎錯誤：未選擇指定的標準。",
+	"dple-error-too-expensive": "動態頁面清單引擎錯誤：嘗試執行最多僅允許連結 $2 個資料庫表格的查詢時耗用了 $1 個。",
+	"dple-error-too-many-expensive-functions": "動態頁面清單引擎錯誤：在此頁面上使用了太多擴充功能。"
+}

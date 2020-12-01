@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Greis"
+		]
+	},
+	"createtopicpage": "Crea pagina",
+	"articleplaceholder-desc": "Fornisce una pagina speciale con informazioni da {{WBREPONAME}} su un certo argomento, con l'invito a creare una voce su di esso",
+	"articleplaceholder-abouttopic": "Sull'argomento",
+	"articleplaceholder-abouttopic-intro": "Questa pagina speciale ti fornisce una rapida panoramica di un argomento basata sui dati provenienti da {{WBREPONAME}}.",
+	"articleplaceholder-abouttopic-entityid": "Inserisci un ID elemento come Q12345",
+	"articleplaceholder-abouttopic-submit": "crea",
+	"articleplaceholder-abouttopic-no-entity-error": "Questo non è un ID elemento valido.",
+	"articleplaceholder-abouttopic-create-article-title": "Crea una nuova voce",
+	"articleplaceholder-abouttopic-create-article-label": "Titolo della voce",
+	"articleplaceholder-abouttopic-create-article-mandatory": "Il titolo della voce è obbligatorio.",
+	"articleplaceholder-abouttopic-create-article-button": "Crea una voce",
+	"articleplaceholder-abouttopic-create-empty-article-button": "Inizia una nuova voce",
+	"articleplaceholder-abouttopic-translate-article-label": "Lingua di partenza:",
+	"articleplaceholder-abouttopic-translate-article-button": "Traduci voce",
+	"articleplaceholder-abouttopic-create-article-submit-button": "Invia",
+	"articleplaceholder-abouttopic-article-exists-error": "Una voce con questo nome esiste già",
+	"articleplaceholder-abouttopic-lua-entity": "Entità",
+	"articleplaceholder-abouttopic-lua-reference": "Riferimento",
+	"articleplaceholder-abouttopic-lua-identifier": "Risorse esterne",
+	"articleplaceholder-search-header": "Scopri i dati sull'argomento",
+	"articleplaceholder-createpage-title": "Crea $1",
+	"articleplaceholder-createpage-alreadyexists": "La pagina con il titolo $1 esiste già. Scegline un altro.",
+	"articleplaceholder-createpage-notitleprovided": "Non è stato inserito alcun titolo; fornisci un titolo per la pagina che vuoi creare.",
+	"articleplaceholder-createpage-invalidtitleprovided": "Il titolo che hai inserito non è valido. Scegli un titolo valido."
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Fitoschido"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Generador y editor de claves de identificación",
+	"apihelp-query+LifeWeb-param-what": "Lista de datos que recuperar.",
+	"apihelp-query+LifeWeb-example-1": "Lista de taxones"
+}

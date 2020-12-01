@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"geogebra-desc": "Дадае аплеты [http://www.geogebra.org GeoGebra] на старонкі",
+	"geogebra-nojava": "Калі ласка, усталюйце $1, каб ужываць гэтую старонку.",
+	"geogebra-missing-parameter": "Адсутнічае парамэтар (width, ці height, ці ggbBase64).",
+	"geogebra-file-not-found": "Файл $1 ня знойдзены.",
+	"geogebra-error": "Памылка ў пашырэньні MediaWiki GeoGebra: <em>$1</em>"
+}

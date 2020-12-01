@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mainframe98",
+			"Mar(c)",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"hsts-desc": "HSTS (HTTP Strict Transport Security) per gebruiker",
+	"hsts-tog": "HTTP Strict Transport Security (HSTS) inschakelen",
+	"hsts-https-tog": "Schakel HTTP Strict Transport Security (HSTS) in<br />Herlaad deze pagina met HTTPS om deze voorkeur te wijzigen.",
+	"hsts-beta-feature-message": "Altijd een beveiligde verbinding gebruiken",
+	"hsts-beta-feature-description": "Dit versterkt uw veiligheid op deze website door u te beschermen, zelfs nadat u zich afmeldt, en verzekert u ervan dat niemand u kan bespioneren tijdens uw browsen. Met deze optie geactiveerd en een recente browser die deze technologie ondersteunt (HSTS), is elke beveiligingswaarschuwing zeer waarschijnlijk een echte aanval tegen u."
+}

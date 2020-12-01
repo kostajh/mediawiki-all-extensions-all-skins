@@ -1,0 +1,11 @@
+<div class="encrypted-files-warning-panel">
+	<b>{{ title }}</b>
+
+	{{& text }}
+
+	<form method="post">
+		<input type="text" placeholder="{{ placeholder }}" class="encrypted-secret" size="30" required name="secret" autocomplete="off" />
+		<input type="submit" value="{{ submit }}" />
+		<input type="hidden" name="action" value="decrypt" />
+	</form>
+</div>

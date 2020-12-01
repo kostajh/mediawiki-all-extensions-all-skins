@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boivie",
+			"Lejonel",
+			"M.M.S.",
+			"Najami",
+			"WikiPhoenix"
+		]
+	},
+	"form-desc": "Ett [[Special:Form|formulär]] för att börja på nya sidor",
+	"form": "Starta en ny sida",
+	"form-captcha-error": "CAPTCHA-fel",
+	"form-pick-form": "Välj den typ av sida du vill skapa via ett formulär.",
+	"form-no-name": "Formulärnamn saknas",
+	"form-no-name-text": "Du måste ange ett formulärnamn på formen \"Special:Form/Formulärnamn\".",
+	"form-bad-name": "Felaktigt formulärnamn",
+	"form-bad-name-text": "Det finns inget formulär med det namnet.",
+	"form-pattern": "$1-formulär",
+	"form-title-pattern": "Lägg till ny $1",
+	"form-save": "Spara",
+	"form-index-mismatch-title": "Namnmönster och mallfel",
+	"form-index-mismatch": "Det här formuläret har opassande namnmönster och mallar som startar på index $1.",
+	"form-article-exists": "Sidan existerar",
+	"form-article-existstext": "Sidan [[$1]] finns redan.",
+	"form-bad-page-name": "Dåligt sidnamn",
+	"form-bad-page-name-text": "Formulärdatan du skrev in utgör ett ogiltigt sidnamn, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|Fältet $1|Fälten $1}} behövs för det här formuläret.\nVar god fyll i {{PLURAL:$1|det|dem}}.",
+	"form-save-summary": "Ny sida använder [[Special:Form/$1|formuläret $1]]",
+	"form-save-error": "Fel under sparning av formuläret",
+	"form-save-error-text": "Det uppstod ett okänt fel under sparning av sidan \"$1\"."
+}

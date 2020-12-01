@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Lijealso",
+			"Malafaya",
+			"Waldir",
+			"Waldyrious",
+			555
+		]
+	},
+	"form-desc": "Uma [[Special:Form|interface em formulário]] para criar novas páginas",
+	"form": "Iniciar nova página",
+	"form-captcha-error": "Erro de CAPTCHA",
+	"form-pick-form": "Escolha o tipo da página que deseja criar através de um formulário.",
+	"form-no-name": "Sem nome de formulário",
+	"form-no-name-text": "Tem de fornecer um nome para o formulário, tal como \"Special:Form/Nomedoformulario\".",
+	"form-bad-name": "Nome de formulário incorreto",
+	"form-bad-name-text": "Não existe nenhum formulário com esse nome.",
+	"form-pattern": "formulário $1",
+	"form-title-pattern": "Adicionar nova $1",
+	"form-save": "Gravar",
+	"form-index-mismatch-title": "Padrão do nome e predefinição não correspondem",
+	"form-index-mismatch": "Este formulário tem padrões de nome e predefinições não correspondentes a partir do índice $1.",
+	"form-article-exists": "A página existe",
+	"form-article-existstext": "A página [[$1]] já existe.",
+	"form-bad-page-name": "Nome de página incorreto",
+	"form-bad-page-name-text": "Os dados que introduziu no formulário formam um nome de página incorreto, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|O campo $1 é obrigatório|Os campos $1 são obrigatórios}} neste formulário.\nPor favor, {{PLURAL:$2|preencha-o|preencha-os}}.",
+	"form-save-summary": "Nova página usando [[Special:Form/$1|formulário $1]]",
+	"form-save-error": "Erro ao gravar formulário",
+	"form-save-error-text": "Houve um erro desconhecido ao gravar a página '$1'."
+}

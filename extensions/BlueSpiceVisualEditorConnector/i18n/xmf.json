@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Narazeni"
+		]
+	},
+	"bs-visualeditorconnector-cancel-edit-no-unsaved-changes": "რედაქტირაფაშ გოუქვაფა",
+	"bs-vec-table-style-cell-text-vert-align-bottom": "გიმე",
+	"bs-vec-table-style-cell-text-vert-align-top": "ჟილე",
+	"bs-vec-table-style-cell-text-vert-align-middle": "შქა",
+	"bs-vec-table-style-cell-text-hor-align": "ტექატიშ მანგება",
+	"bs-vec-table-style-cell-text-hor-align-right": "მორძგვიშე",
+	"bs-vec-ve-table-width-value-auto": "ავტო",
+	"bs-vec-table-border-width": "ხურგიშ სიგანა",
+	"bs-vec-table-border-color": "ხურგიშ გერი",
+	"bs-vec-table-border-none": "აკა ვარი",
+	"bs-vec-table-border-top": "ჟილე",
+	"bs-vec-table-border-right": "მორძგვიშე",
+	"bs-vec-table-border-all": "არძა",
+	"bs-vec-table-border-horizontal": "ჰორიზონტალური",
+	"bs-vec-table-border-roundhorizontal": "რგვალი დო ჰორიზონტალური",
+	"bs-vec-table-border-double": "ნაჟირალი"
+}

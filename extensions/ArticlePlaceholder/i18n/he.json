@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2"
+		]
+	},
+	"createtopicpage": "יצירת דף",
+	"articleplaceholder-desc": "אספקת דף מיוחד עם מידע מתוך {{WBREPONAME}} על נושא מסוים, עם הזמנה ליצור ערך על הנושא",
+	"articleplaceholder-abouttopic": "על נושא",
+	"articleplaceholder-abouttopic-intro": "הדף המיוחד הזה נותן לך סקירה מהירה של נושא על סמך נתונים מתוך {{WBREPONAME}}.",
+	"articleplaceholder-abouttopic-entityid": "נא להזיז מזהה פריט כגון Q12345",
+	"articleplaceholder-abouttopic-submit": "לחולל",
+	"articleplaceholder-abouttopic-no-entity-error": "זהו אינו מזהה פריט תקין.",
+	"articleplaceholder-abouttopic-create-article-title": "יצירת ערך חדש",
+	"articleplaceholder-abouttopic-create-article-label": "כותרת הערך",
+	"articleplaceholder-abouttopic-create-article-mandatory": "כותרת הערך הזה נדרשת.",
+	"articleplaceholder-abouttopic-create-article-button": "יצירת ערך",
+	"articleplaceholder-abouttopic-create-empty-article-button": "יצירת ערך חדש",
+	"articleplaceholder-abouttopic-translate-article-label": "שפת המקור:",
+	"articleplaceholder-abouttopic-translate-article-button": "תרגום ערך",
+	"articleplaceholder-abouttopic-create-article-submit-button": "שליחה",
+	"articleplaceholder-abouttopic-article-exists-error": "ערך בשם כזה כבר קיים",
+	"articleplaceholder-abouttopic-lua-entity": "ישות",
+	"articleplaceholder-abouttopic-lua-reference": "אסמכתאות",
+	"articleplaceholder-abouttopic-lua-identifier": "משאבים חיצוניים",
+	"articleplaceholder-search-header": "לגלות נתונים על הנושא",
+	"articleplaceholder-createpage-title": "יצירת הדף $1",
+	"articleplaceholder-createpage-alreadyexists": "הדף עם הכותרת $1 כבר קיים. נא לבחור אחרת.",
+	"articleplaceholder-createpage-notitleprovided": "לא הוזנה כותרת, נא להזין כותרת לדף שברצונך ליצור.",
+	"articleplaceholder-createpage-invalidtitleprovided": "הכותרת שהזנת אינה תקינה. נא לספק כותרת תקינה."
+}

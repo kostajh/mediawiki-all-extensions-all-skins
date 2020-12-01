@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"pagelanguage-desc": "Define page language per page",
+	"pagelanguage-invalid": "'''Warning:''' Ignoring invalid language code \"$1\" for page language.",
+	"pagelanguage-duplicate": "'''Warning:''' Page language \"$2\" overrides earlier page language \"$1\"."
+}

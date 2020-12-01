@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwangjy9",
+			"Priviet",
+			"Ykhwong",
+			"고솜",
+			"아라"
+		]
+	},
+	"mathsearch": "수학 검색",
+	"formulainfo": "수식 정보",
+	"specialpages-group-mathsearch": "수학 검색",
+	"mathsearch-desc": "[http://search.mathweb.org/about.html MathWeb 검색] 엔진을 통합합니다",
+	"getequationsbyquery": "쿼리로 방정식 얻기",
+	"xquerygenerator": "XQuery 생성기",
+	"mathdebug": "테스트 표시기",
+	"math-lp-1-page-label": "문서 제목",
+	"math-lp-2-content-option-3": "하나의 식별자 (a, π, c₀)",
+	"math-lp-2-content-option-4": "하나의 수학 기호 (±)",
+	"math-lp-2-domain-option-1": "(순수) 수학",
+	"math-lp-2-domain-option-2": "물리학",
+	"math-lp-2-domain-option-3": "화학",
+	"math-lp-2-domain-option-4": "생물학",
+	"math-lp-2-domain-option-5": "공학",
+	"math-lp-2-domain-option-6": "컴퓨터 과학",
+	"math-lp-2-domain-option-7": "의학",
+	"math-lp-2-domain-option-8": "경제학",
+	"math-lp-3-pretty-option-3": "말할 수 없습니다.",
+	"math-lp-3-assessment-option-1": "입력이 올바릅니다",
+	"math-lp-4-spacing-option-2": "보통",
+	"math-lp-4-font-option-1": "지우기",
+	"math-lp-4-font-option-2": "보통",
+	"math-lp-6-srt-assessment-option-1": "아주 도움이 됨",
+	"math-lp-7-head": "평가 완료됨",
+	"right-mathwmcsubmit": "NTCIR Wikipedia Math Search Task에 결과를 제출할 수 있음",
+	"math-search-type-0": "핵심 단어",
+	"wikibase-listdatatypes-contentmath-body": "수식, 공식, 등호 등에 대한 리터럴 데이터 필드이며 DRMF/DLMF 형식의 LaTeX로 표현합니다."
+}

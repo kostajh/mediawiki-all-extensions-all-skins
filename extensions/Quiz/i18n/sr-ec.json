@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Acamicamacaraca",
+			"BadDog",
+			"Kizule",
+			"Millosh",
+			"Rancher",
+			"Sasa Stefanovic",
+			"Zoranzoki21",
+			"Сербијана"
+		]
+	},
+	"quiz_desc": "Омогућава прављење квизова",
+	"quiz_addedPoints": "{{PLURAL:$1|Бод|Бода|Бодова}} је додато за тачан одговор:",
+	"quiz_cutoffPoints": "{{PLURAL:$1|Бод|Бода|Бодова}} за погрешан одговор:",
+	"quiz_ignoreCoef": "Занемари коефицијенте питања:",
+	"quiz_shuffle": "Измешај питања",
+	"quiz_legend_correct": "Тачно",
+	"quiz_legend_incorrect": "Погрешно",
+	"quiz_legend_unanswered": "Неодговорено",
+	"quiz_legend_error": "Синтактичка грешка",
+	"quiz_correction": "Пошаљи",
+	"quiz_score": "Ваш резултат је $1 / $2",
+	"quiz_points": "$1 | {{PLURAL:$2|1 бод|$2 бода|$2 бодова}}",
+	"quiz_reset": "Ресетуј"
+}

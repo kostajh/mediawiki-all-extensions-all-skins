@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"userexport-desc": "Permite exportar dados de utilizadores para um ficheiro CSV",
+	"userexport": "Exportar os dados dos utilizadores",
+	"userexport-submit": "Exportar",
+	"userexport-badtoken": "Chave de edição inválida",
+	"userexport-description": "Esta página permite exportar os dados dos utilizadores (o nome de utilizador e o correio eletrónico), de todos os utilizadores registados nesta wiki, para um ficheiro CSV.",
+	"right-userexport": "Exportar os dados dos utilizadores em massa",
+	"action-userexport": "exportar desta wiki os dados dos utilizadores"
+}

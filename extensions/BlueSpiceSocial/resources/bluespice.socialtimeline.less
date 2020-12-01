@@ -1,0 +1,143 @@
+.bs-data-after-content-timeline{
+	ul.bs-social-entitylist > li > div.bs-social-entity > div.bs-social-entity-wrapper > div.bs-social-entity-userimage > .bs-userminiprofile{
+		display: flex;
+		&::after{
+			content: "\e92a";
+			font-family: entypo;
+			line-height: 48px;
+			font-size: 32px;
+			color: #bababa;
+		}
+	}
+	ul.bs-social-entitylist-children > div.bs-social-entity > div.bs-social-entity-wrapper > div.bs-social-entity-userimage > .bs-userminiprofile,
+	ul.bs-social-entitylist-children > li > div.bs-social-entity > div.bs-social-entity-wrapper > div.bs-social-entity-userimage > .bs-userminiprofile{
+		display: flex;
+		&::before{
+			content: "\e929";
+			font-family: entypo;
+			line-height: 48px;
+			font-size: 32px;
+			color: #bababa;
+		}
+	}
+}
+
+.bs-data-after-content-timeline{
+	.bs-social-entitylist{
+		padding-left: 0px;
+		background-color: rgba(62,83,137,0.1);
+		& > li > div.bs-social-entity{
+			background-color: transparent;
+			.bs-social-entity-wrapper{
+				.bs-social-entity-right{
+					background-color: white;
+					padding: 10px;
+					border: 1px solid black;
+					border-bottom: none;
+					border-radius: 20px 20px 0 0;
+				}
+				.bs-social-entity-aftercontent{
+					background-color: white;
+					padding: 10px;
+					border: 1px solid black;
+					border-top: none;
+					border-radius: 0 0 20px 20px;
+				}
+			}
+		}
+		.bs-social-entity-userimage{
+			margin-left: 10px;
+			margin-right: 20px;
+		}
+		.bs-social-entity-right,
+		.bs-social-entity-aftercontent{
+			margin-left: 110px;
+		}
+
+		ul.bs-social-entitylist-children{
+			padding-left: 110px;
+			& > div.bs-social-entity{
+				background-color: transparent;
+				padding-left: 0px;
+				.bs-social-entity-wrapper{
+					float: right;
+					.bs-social-entity-userimage{
+						float: right;
+						margin-left: 0px;
+						margin-right: 20px;
+					}
+					.bs-social-entity-aftercontent{
+						padding: 10px;
+						border: none;
+						background-color: transparent
+					}
+				}
+				form{
+					border: 1px solid black;
+					border-radius: 20px;
+					padding-left: 20px;
+					padding-right: 20px;
+					margin-right: 80px;
+					background-color: white;
+				}
+			}
+			& > li > div.bs-social-entity{
+				background-color: transparent;
+				padding-left: 0px;
+				.bs-social-entity-wrapper{
+					.bs-social-entity-userimage{
+						float: right;
+						margin-left: 0px;
+						margin-right: 20px;
+					}
+					.bs-social-entity-right{
+						padding: 10px;
+						border: 1px solid black;
+						border-bottom: none;
+						border-radius: 20px 20px 0 0;
+						margin-left: 0px;
+						margin-right: 80px;
+						background-color: white;
+					}
+					.bs-social-entity-aftercontent{
+						padding: 10px;
+						border: 1px solid black;
+						border-top: none;
+						border-radius: 0 0 20px 20px;
+						margin-left: 0px;
+						margin-right: 80px;
+						background-color: white;
+					}
+				}
+			}
+		}
+		& > li.bs-social-entityspawner-new > div.bs-social-entity{
+			.bs-social-entity-wrapper .bs-social-entity-aftercontent{
+				border: none;
+				background-color: transparent
+			}
+			.bs-social-entity-userimage{
+				margin-left: 10px;
+				margin-right: 20px;
+				& > img{
+					border-radius: 25px;
+				}
+			}
+			form{
+				border: 1px solid black;
+				border-radius: 20px;
+				padding-left: 20px;
+				padding-right: 20px;
+				background-color: white;
+				fieldset{
+					.oo-ui-textInputWidget-type-text.oo-ui-comboBoxInputWidget span.oo-ui-labelElement-label{
+						right: 30px;
+					}
+				}
+				.bs-social-field label{
+					min-width: 220px;
+				}
+			}
+		}
+	}
+}

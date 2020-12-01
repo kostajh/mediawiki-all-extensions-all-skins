@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Creepario",
+			"Debenben",
+			"Geitost",
+			"Kghbln",
+			"Metalhead64",
+			"Predatorix",
+			"Raimond Spekking",
+			"לערי ריינהארט"
+		]
+	},
+	"sitematrix": "Liste der Wikimedia-Wikis",
+	"sitematrix-summary": "Diese Spezialseite listet alle Wikimedia-Wikis auf.",
+	"sitematrix-desc": "Erweitert das Wiki um eine [[Special:SiteMatrix|Spezialseite]], die eine Liste der Wikis {{int:Centralauth-groupname}} anzeigt",
+	"sitematrix-language": "Sprache",
+	"sitematrix-project": "Projektname, Interprojektlink und Interwikilink",
+	"sitematrix-others": "Weitere Wikimedia-Projekte",
+	"sitematrix-other-projects": "Weitere Projekte",
+	"sitematrix-other-projects-language": "Sprache",
+	"sitematrix-total": "'''Gesamtanzahl: $1'''",
+	"sitematrix-sitetotal": "Insgesamt",
+	"sitematrix-closed": "Kein Schreibzugriff, voller Lesezugriff",
+	"sitematrix-private": "Beschränkter Lese- und Schreibzugriff",
+	"sitematrix-fishbowl": "Beschränkter Schreibzugriff, voller Lesezugriff",
+	"sitematrix-nonglobal": "Öffentlich, aber Registrierung erforderlich"
+}

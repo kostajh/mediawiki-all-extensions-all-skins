@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92",
+			"Sarrus"
+		]
+	},
+	"translationnotifications-username": "Brugernavn:",
+	"translationnotifications-languages": "Sprog",
+	"translationnotifications-lang": "Sprog #$1",
+	"translationnotifications-nolang": "Vælg et sprog",
+	"translationnotifications-cmethod-talkpage": "Diskussionsside",
+	"translationnotifications-cmethod-talkpage-elsewhere": "Diskussionside på en anden wiki",
+	"translationnotifications-priority": "Prioritet:",
+	"translationnotifications-priority-high": "høj",
+	"translationnotifications-priority-medium": "mellem",
+	"translationnotifications-priority-low": "lav",
+	"translationnotifications-priority-unset": "(ikke sat)",
+	"translationnotifications-email-subject": "Venligst oversæt siden $1",
+	"translationnotifications-notification-url-listitem": "oversæt til $1",
+	"translationnotifications-log-alllanguages": "alle sprog",
+	"translationnotifications-nodeadline": "ingen"
+}

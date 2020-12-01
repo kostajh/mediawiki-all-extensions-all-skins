@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Purodha",
+			"Robby",
+			"Shirayuki",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-watchlist-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of watchlist extension",
+	"bs-watchlist-title-sidebar": "Headline for watchlist \n{{Identical|Watchlist}}",
+	"bs-watchlist-pref-sort-time": "Option in [{{canonicalurl:Special:WikiAdmin|mode=Preferences}} Special:WikiAdmin?mode=Preferences], option for time\n{{Identical|Time}}",
+	"bs-watchlist-pref-sort-title": "Option in [{{canonicalurl:Special:WikiAdmin|mode=Preferences}} Special:WikiAdmin?mode=Preferences], option for title\n{{Identical|Title}}",
+	"bs-watchlist-tag-watchlist-desc": "Used in InsertMagic extension, tag description for \"creates a list of pages which are on your watchlist and have a non-sighted change\".\n{{Related|Bs-tag-desc}}",
+	"bs-watchlist-window-watchlist-title": "Title of a window that shows the current users watchlist",
+	"bs-watchlist-window-watchlist-intro": "Intro text for a window that shows the current users watchlist",
+	"bs-watchlist-grid-watchlist-column-link-header": "Header text of a column that shows links to wikipages\n{{Identical|Paage}}",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Header of column that holds information about whether a change on a watched page is unread",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Tooltip for an icon that indicates whether a change on a watched page is unread",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Header of column that indicates whether a page is within a talk namespace",
+	"bs-watchlist-grid-watchlist-label-filter": "Label for an input field that filters the list of watchlist entries by the page name"
+}

@@ -1,0 +1,32 @@
+{
+	"name": "PageMagic",
+	"author": [
+		"Vedmaka"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PageMagic",
+	"descriptionmsg": "pagemagic-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\PageMagic\\": "includes/"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "MediaWiki\\Extension\\PageMagic\\Hooks::onParserFirstCallInit"
+	},
+	"MessagesDirs": {
+		"PageMagic": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PageMagicMagic": "PageMagic.magic.i18n.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "PageMagic/resources"
+	},
+	"manifest_version": 2
+}

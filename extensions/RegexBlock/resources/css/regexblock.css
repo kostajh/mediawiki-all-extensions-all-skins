@@ -1,0 +1,34 @@
+.regexblock-msg {
+	clear: both;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.regexblock-help {
+	clear: both;
+	width: auto;
+}
+
+.regexblock-fieldset {
+	margin: auto;
+	width: 90%;
+}
+
+.regexblock-fieldset input#wpRegexBlockedAddress,
+.regexblock-fieldset input#wpRegexBlockedReason,
+.regexblock-fieldset select#wpRegexBlockedExpire {
+	border: 1px solid #2F6FAB;
+}
+
+/* dashed blue line between rows */
+#regexblock_blocks li,
+#regexblock_triggers li {
+	border-bottom: 1px dashed #778899;
+	padding-bottom: 2px;
+}
+
+/* expired block time in red */
+#regexblock_blocks .regexblock-expired {
+	color: #DC143C;
+}

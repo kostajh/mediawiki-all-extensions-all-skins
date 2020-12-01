@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"shibboleth-wg-empty-email": "La variabile di configurazione <var>wgShibboleth_Email</var> è vuota in LocalSettings.php",
+	"shibboleth-wg-empty-username": "La variabile di configurazione <var>wgShibboleth_Username</var> è vuota in LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "La variabile di configurazione <var>wgShibboleth_GroupMap</var> è vuota in LocalSettings.php"
+}

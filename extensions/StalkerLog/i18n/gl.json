@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"stalkerlog-desc": "Engade [[Special:Log/stalkerlog|un rexistro]] de accesos e saídas do sistema",
+	"stalkerlog-log-login": "accedeu ao sistema.",
+	"stalkerlog-log-logout": "saíu do sistema.",
+	"stalkerlog-log-type": "Rexistro de autenticación de usuario",
+	"stalkerlog-log-text": "Este é un rexistro de accesos e saídas do sistema."
+}

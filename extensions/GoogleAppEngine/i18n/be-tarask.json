@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"gae-desc": "Забясьпечвае паляпшэньні для вікі, якія працуюць на GoogleAppEngine",
+	"apihelp-gaejobqueue-description": "Унутраны API-модуль для работы JobQueue. Вонкавае выкарыстаньне не дазволенае.",
+	"apihelp-gaejobqueue-summary": "Унутраны API-модуль для работы JobQueue. Вонкавае выкарыстаньне не дазволенае.",
+	"apihelp-gaejobqueue-param-namespace": "Лікавы ідэнтыфікатар прасторы назваў.",
+	"apihelp-gaejobqueue-param-titletext": "Тэкст загалоўку без прасторы назваў.",
+	"apihelp-gaejobqueue-param-type": "Тып заданьня.",
+	"apihelp-gaejobqueue-param-params": "PHP-сэрыялізаваныя парамэтры для заданьня."
+}

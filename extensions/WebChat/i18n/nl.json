@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"webchat": "Webchat",
+	"webchat-desc": "Voegt een [[Special:WebChat|Speciale pagina]] toe om met andere wikigebruikers te kunnen chatten",
+	"webchat-header": "Via deze speciale pagina kunt u samenwerken met andere gebruikers van de wiki.\nKlik gewoon op de knop \"Verbinden\" om te verbinden.\nAls u bent aangemeld, wordt uw gebruikersnaam als nickname gebruikt.\nAnonieme gebruikers krijgen een automatisch aangemaakte gebruikersnaam die later kan worden gewijzigd.",
+	"right-webchat": "Maakt het mogelijk [[Special:WebChat|webchat]] te gebruiken"
+}

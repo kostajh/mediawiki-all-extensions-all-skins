@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Silvonen"
+		]
+	},
+	"bs-groupmanager-grpexists": "Ryhmä on jo olemassa.",
+	"bs-groupmanager-grpadded": "Ryhmä on lisätty.",
+	"bs-groupmanager-grpedited": "Ryhmää on muokattu.",
+	"bs-groupmanager-grpremoved": "Ryhmä on poistettu.",
+	"bs-groupmanager-label": "Ryhmien hallinta",
+	"bs-groupmanager-headergroup": "Ryhmä",
+	"bs-groupmanager-tipremove": "Poista {{PLURAL:$1|ryhmä|ryhmät}}",
+	"bs-groupmanager-titlenewgroup": "Uusi ryhmä",
+	"bs-groupmanager-titleeditgroup": "Muokkaa ryhmää",
+	"bs-groupmanager-removegroup": "Haluatko varmasti poistaa {{PLURAL:$1|tämän ryhmän|nämä ryhmät}}?",
+	"bs-groupmanager-removegroup-message-success": "{{PLURAL:$1|Seuraava ryhmä|Seuraavat ryhmät}} poistettiin: $2",
+	"bs-groupmanager-removegroup-message-failure": "{{PLURAL:$1|Seuraavaa ryhmää|Seuraavia ryhmiä}} ei pystytty poistamaan: $2",
+	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|on luonut}} ryhmän $4",
+	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|on poistanut}} ryhmän $4",
+	"groupmanager": "Ryhmien hallinta"
+}

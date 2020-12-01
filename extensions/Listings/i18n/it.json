@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"listings-desc": "Aggiunge tag per elenchi di posizioni",
+	"listings-unknown": "Destinazione sconosciuta",
+	"listings-phone": "tel.",
+	"listings-fax": "fax",
+	"listings-email": "email",
+	"listings-tollfree": "gratis",
+	"listings-checkin": "Check-in: $1",
+	"listings-checkout": "check-out: $1",
+	"listings-position": "posizione: $1"
+}

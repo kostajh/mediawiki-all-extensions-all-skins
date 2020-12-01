@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"indexfunc-desc": "Funcións analíticas para crear redireccións automáticas e páxinas de homónimos",
+	"indexfunc-badtitle": "Título inválido: \"$1\"",
+	"indexfunc-editwarning": "Aviso:\nEste título é un título de índice para {{PLURAL:$2|a seguinte páxina|as seguintes páxinas}}:\n$1\nAsegúrese de que a páxina que está a piques de crear aínda non foi creada cun título diferente.\nSe crea esta páxina, elimine este título de <nowiki>{{#index:}}</nowiki> {{PLURAL:$2|na páxina de enriba|nas páxinas de enriba}}.",
+	"indexfunc-index-exists": "A páxina \"$1\" xa existe",
+	"indexfunc-movewarn": "Aviso: \"$1\" é un título de índice para {{PLURAL:$3|a seguinte páxina|as seguintes páxinas}}:\n$2\nPor favor, elimine \"$1\" de <nowiki>{{#index:}}</nowiki> {{PLURAL:$3|na páxina de enriba|nas páxinas de enriba}}.",
+	"index": "Índice",
+	"index-legend": "Procurar no índice",
+	"index-search": "Procurar:",
+	"index-submit": "Enviar",
+	"index-disambig-start": "'''$1''' pódese referir a varias páxinas:",
+	"index-emptylist": "Non hai páxinas asociadas con \"$1\"",
+	"index-expand-detail": "Amosar as páxinas indexadas baixo este título",
+	"index-hide-detail": "Agochar a lista de páxinas",
+	"index-no-results": "A procura non devolveu resultados",
+	"index-search-explain": "Esta páxina usa unha procura por prefixos.  \n\nInsira os primeiros caracteres e prema o botón \"Enviar\" para procurar títulos de páxinas e entradas de índice que comezan coa secuencia de procura",
+	"index-details-explain": "As entradas con frechas son entradas de índice.\nPrema na frecha para amosar tódalas páxinas indexadas con ese título."
+}

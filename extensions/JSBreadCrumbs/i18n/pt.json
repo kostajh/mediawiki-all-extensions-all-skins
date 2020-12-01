@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu",
+			"MokaAkashiyaPT"
+		]
+	},
+	"jsbreadcrumbs-desc": "Adiciona um trilho de navegação até a página corrente, por baixo da barra de separadores",
+	"jsbreadcrumbs-intro-horizontal": "{{PLURAL:$1|Última página vista|$1 Últimas páginas vistas}}:",
+	"jsbreadcrumbs-intro-vertical": "{{PLURAL:$1|Última página vista|$1 Últimas páginas vistas}}",
+	"prefs-jsbreadcrumbs": "Trilho de navegação",
+	"prefs-jsbreadcrumbs-showaction": "Mostrar percurso até a página corrente",
+	"prefs-jsbreadcrumbs-showcrumbs": "Apresentar o trilho de navegação",
+	"prefs-jsbreadcrumbs-numberofcrumbs": "Número máximo de passos do trilho a mostrar",
+	"prefs-jsbreadcrumbs-maxlength-horizontal": "Comprimento máximo a mostrar para cada passo se horizontal",
+	"prefs-jsbreadcrumbs-maxlength-vertical": "Comprimento máximo a mostrar para cada passo se vertical",
+	"prefs-jsbreadcrumbs-horizontal": "A orientação do trilho é horizontal",
+	"prefs-jsbreadcrumbs-showsite": "Preceder o trilho de navegação com o nome do sítio",
+	"prefs-jsbreadcrumbs-domain": "Mostrar trilho de navegação em todos os sítios deste domínio"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black",
+			"Ninjastrikers"
+		]
+	},
+	"bs-statistics-from": "မှ",
+	"bs-statistics-to": "သို့",
+	"bs-statistics-grain": "ကြားကာလ",
+	"bs-statistics-year": "ခုနှစ်",
+	"bs-statistics-month": "လ",
+	"bs-statistics-day": "ရက်",
+	"bs-statistics-list": "စာရင်း",
+	"bs-statistics-not-allowed": "လိုအပ်သောခွင့်ပြုချက် မရှိပါ။",
+	"bs-statistics-filters": "စိစစ်မှုများ",
+	"bs-statistics-label-name": "အမည်",
+	"bs-statistics-label-registration": "မှတ်ပုံတင်ခြင်း",
+	"bs-statistics-label-page": "စာမျက်နှာ",
+	"bs-statistics-label-creator": "ဖန်တီးသူ",
+	"bs-statistics-diag-number-of-edits": "တည်းဖြတ်မှုအရေအတွက်",
+	"bs-statistics-label-time": "အချိန်",
+	"bs-statistics-filter-category": "ကဏ္ဍ",
+	"bs-statistics-portlet-numberofusers": "အသုံးပြုသူများ အရေအတွက်",
+	"bs-statistics-portlet-numberofedits": "တည်းဖြတ်မှုအရေအတွက်",
+	"bs-statistics-portlet-numberofpages": "စာမျက်နှာများ အရေအတွက်",
+	"bs-statistics-portletconfig-periodday": "မနေ့",
+	"bs-statistics-button-label-export": "တင်ပို့ရန်",
+	"bs-statistics-panel-title-result": "ရလဒ်"
+}

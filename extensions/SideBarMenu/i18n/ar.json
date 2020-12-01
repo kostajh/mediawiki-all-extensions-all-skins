@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"sidebarmenu-desc": "محلل قائمة الشريط الجانبي البسيط الذي ينشئ القوائم القابلة للطي/التوسيع والقوائم الفرعية",
+	"sidebarmenu-parser-input-error": "تم إرجاع المحلل اللغوي بخطأ: $1",
+	"sidebarmenu-parser-syntax-error": "تعذّر تحليل \"$1\"; تأكد من صحة الصيغة.",
+	"sidebarmenu-js-init-error": "أخفق تحميل موارد جافا سكريبت.",
+	"sidebarmenu-edit": "عدل القائمة",
+	"sidebarmenu-parser-menuitem-expanded-null": "قيمة غير صالحة معطاة; يجب أن تكون القيمة واحدة من خالية، صحيحة، خاطئة.",
+	"sidebarmenu-parser-config-error": "كانت هناك أخطاء في التحقق من وسائط الإدخال",
+	"sidebarmenu-parser-subpage-error-title-not-found": "تعذر العثور على عنوان الصفحة الفرعية المشار إليه"
+}

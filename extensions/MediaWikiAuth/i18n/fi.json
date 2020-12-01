@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Jack Phoenix",
+			"Valtlait"
+		]
+	},
+	"mwa-error-unknown": "Tuntematon virhe kirjautuessa sisään etäwikiin.",
+	"mwa-authfail": "Etäwikiin kirjautuminen käyttäjätunnuksen tuontia varten ei onnistunut. Varmista, että käytät oikeaa salasanaa.",
+	"mwa-finishcreate": "Käyttäjätunnuksesi on tuotu onnistuneesti. Voit asettaa uuden salasanan nyt tai valita ”$1” säilyttääksesi nykyisen salasanasi.",
+	"right-mwa-createlocalaccount": "Luoda paikallisia käyttäjätunnuksia samalla nimellä kuin tuomaton ulkoinen käyttäjätunnus"
+}

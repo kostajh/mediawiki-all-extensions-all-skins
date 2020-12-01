@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wyz"
+		]
+	},
+	"sidebarmenu-desc": "Un analyseur de barre de menu latérale simple qui crée des menus et des sous-menus rétractables/extensibles",
+	"sidebarmenu-parser-input-error": "L'analyseur a renvoyé une erreur: $1",
+	"sidebarmenu-parser-syntax-error": "Impossible d'analyser \"$1\", assurez-vous que la syntaxe est correcte.",
+	"sidebarmenu-js-init-error": "Échec au chargement des ressources JavaScript.",
+	"sidebarmenu-edit": "Modifier le menu",
+	"sidebarmenu-parser-menuitem-expanded-null": "Valeur fournie non valide, elle doit être null, true ou false.",
+	"sidebarmenu-parser-config-error": "Il y a des erreurs à la validation des paramètres saisis",
+	"sidebarmenu-parser-subpage-error-title-not-found": "Impossible de trouver le titre de la sous-page référencée"
+}

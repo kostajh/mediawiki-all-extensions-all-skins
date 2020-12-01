@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": "잠자는-사자"
+	},
+	"relatedlinks": "연관사이트",
+	"no": "번호",
+	"order_no" : "우선순위값",
+	"subject": "제목",
+	"rel_url": "연관 URL",
+	"enable": "사용여부",
+	"edit" : "수정",
+	"please_login" : "먼저 로그인 해주세요",
+	"add_site" : "Add new site..",
+	"no_data" : "데이터 없음..!!",
+	"no_link" : "No Link...",
+	"insert" : "입력",
+	"delete" : "삭제",
+	"delete_select" : "삭제선택",
+	"modify_all" : "수정",
+	"return_page" : "돌아가기",
+	"enable" : "사용",
+	"disable" : "사용 안함",
+	"update_related_links" : "연관사이트 수정됨",
+	"delete_related_links" : "연관사이트 삭제됨",
+	"insert_related_links" : "연관사이트 입력됨"
+}

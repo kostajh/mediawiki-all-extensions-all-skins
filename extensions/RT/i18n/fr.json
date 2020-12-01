@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crochet.david",
+			"Gomoko",
+			"IAlex",
+			"Peter17"
+		]
+	},
+	"rt-desc": "Interface pour RT (Request Tracker)",
+	"rt-inactive": "L’extension RT n’est pas active",
+	"rt-badquery": "L’extension RT a rencontré une erreur lors d’une requête sur la base de données de RT",
+	"rt-badlimit": "Argument <code>LIMIT</code> (<code>l</code>) non valide : ce doit être un nombre.\nVous avez essayé : '''$1'''",
+	"rt-badorderby": "Argument <code>ORDER BY</code> (<code>ob</code>) non valide : ce doit être un champ standard (voir la documentation).\nVous avez essayé : '''$1'''",
+	"rt-badstatus": "Argument <code>status</code> (<code>s</code>) non valide : ce doit être un champ standard (voir la documentation).\nVous avez essayé : '''$1'''",
+	"rt-badcfield": "Argument de champ personnalisé invalide : doit être un mot simple (voir documentation).\nVous avec essayé : '''$1'''",
+	"rt-badqueue": "Argument <code>queue</code> (<code>q</code>) non valide : ce doit être un simple mot.\nVous avez essayé : '''$1'''",
+	"rt-badowner": "Argument <code>owner</code> (<code>o</code>) non valide : ce doit être un nom d’utilisateur valide.\nVous avez essayé : '''$1'''",
+	"rt-nomatches": "Aucun ticket RT n’a été trouvé"
+}

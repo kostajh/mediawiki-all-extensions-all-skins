@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck",
+			"Wizardist"
+		]
+	},
+	"onlinestatusbar-desc": "Панэль стану, якая адлюстроўвае наяўнасьць карыстальніка на сайце",
+	"prefs-onlinestatus": "Анлайн-статус",
+	"onlinestatusbar-used": "Адлюстроўваць ваш анлайн-статус на вашай старонцы ўдзельніка",
+	"onlinestatusbar-hide": "Хаваць панэль стану на старонках удзельнікаў для выкарыстаньня магічнага слова (для дасьведчаных удзельнікаў)",
+	"onlinestatusbar-away": "Аўтаматычна пераводзіць у стан «адыйшоў» пасьля вызначанага інтэрвалу",
+	"onlinestatusbar-purge": "Ачышчаць кэш старонкі ўдзельніка па кожным уваходзе або выхадзе",
+	"onlinestatusbar-status": "Перадвызначаны стан, які мусіць выкарыстоўвацца?",
+	"onlinestatusbar-away-time": "Колькі хвілінаў чакаць да пераходу ў стан «адыйшоў»:",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Он-лайн}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Заняты|Занятая}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Адышоў|Адышла}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Нябачны|Нябачная}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Оф-лайн}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Невядома}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Гэты ўдзельнік|Гэтая ўдзельніца}} цяпер он-лайн",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Гэты ўдзельнік заняты|Гэтая ўдзельніца занятая}} і можа быць {{GENDER:$1|недаступны|недаступная}}",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Гэты ўдзельнік|Гэтая ўдзельніца}} цяпер {{GENDER:$1|неактыўны|неактыўная}} і можа быць {{GENDER:$1|недаступны|недаступная}}.",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Гэты ўдзельнік|Гэтая ўдзельніца}} цяпер {{GENDER:$1|недаступны|недаступная}}",
+	"onlinestatusbar-tooltip-unknown": "Статус {{GENDER:$1|гэтага ўдзельніка|гэтай удзельніцы}} невядомы",
+	"apihelp-query+onlinestatus-description": "Вяртае он-лайн-статус і плоць удзельніка",
+	"apihelp-query+onlinestatus-summary": "Вяртае он-лайн-статус і стаць удзельніка",
+	"apihelp-query+onlinestatus-param-user": "Імя ўдзельніка, статус якога вы хочаце атрымаць",
+	"apihelp-query+onlinestatus-example": "Паказаць он-лайн-статус удзельніка Petrb"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-dashboards-desc": "Tilbyr kontrollpanel for brukere og administratorer",
+	"bs-specialadmindashboard-label": "Kontrollpanel",
+	"bs-dashboards-addportlet": "Legg til portlet",
+	"bs-dashboards-portlets": "Portletter",
+	"prefs-dashboards": "Kontrollpaneler",
+	"bs-dashboards-pref-userdashboardonlogo": "Sidelogo lenker til brukerens kontrollpanel",
+	"admindashboard": "Administratorkontrollpanel",
+	"userdashboard": "Brukerkontrollpanel",
+	"bs-dashboard-userportlet-calendar-title": "Kalender",
+	"bs-dashboard-userportlet-calendar-description": "Kalender",
+	"bs-dashboard-userportlet-wikipage-title": "Wikiside",
+	"bs-dashboard-userportlet-wikipage-description": "Bruk ei wikiside for å definere widgeten",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "Wikiside",
+	"apihelp-bs-dashboard-task-param-dc": "Kontrollparameter for mellomlagring. Brukes av ExtJS.",
+	"apihelp-bs-dashboards-store-description": "Lister opp alle tilgjengelige portletter",
+	"apihelp-bs-dashboards-store-summary": "Lister opp alle tilgjengelige portletter",
+	"apihelp-bs-dashboards-tasks-description": "Lagrer kontrollpanelkonfigurasjon",
+	"apihelp-bs-dashboards-tasks-summary": "Lagrer kontrollpanelkonfigurasjon",
+	"apihelp-bs-dashboards-widgets-tasks-description": "Returnerer innhold for noen kontrollpanelwidgeter",
+	"apihelp-bs-dashboards-widgets-tasks-summary": "Returnerer innhold for noen kontrollpanelwidgeter",
+	"action-dashboards-viewspecialpage-userdashboard": "viser spesialsiden «{{int:userdashboard}}»",
+	"right-dashboards-viewspecialpage-userdashboard": "Tilgang til spesialsiden [[Special:UserDashboard]]"
+}

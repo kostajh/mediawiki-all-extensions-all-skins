@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-dashboards-desc": "Dèje le cruscotte pe le utinde e le amministrature",
+	"bs-specialadmindashboard-label": "Cruscotte",
+	"bs-dashboards-addportlet": "Aggiunge 'nu portlet",
+	"bs-dashboards-portlets": "Portlet",
+	"prefs-dashboards": "Cruscotte",
+	"bs-dashboards-pref-userdashboardonlogo": "Logo d'u site ca colleghe a 'u cruscotte de l'utende",
+	"admindashboard": "Cruscotte de l'amministratore",
+	"userdashboard": "Cruscotte de l'utende",
+	"bs-dashboard-userportlet-calendar-title": "Calendarije",
+	"bs-dashboard-userportlet-calendar-description": "Calendarije",
+	"bs-dashboard-userportlet-wikipage-title": "UicchiPàgene",
+	"bs-dashboard-userportlet-wikipage-description": "Ause 'na pàgene de uicchi pe definì stu widget",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "Pàgene uicchi",
+	"apihelp-bs-dashboard-task-param-dc": "Parametre de condrolle d'a cache. Ausate da ExtJS.",
+	"apihelp-bs-dashboards-store-description": "Elenghe de le portlet disponibbele",
+	"apihelp-bs-dashboards-store-summary": "Elenghe de le portlet disponibbele",
+	"apihelp-bs-dashboards-tasks-description": "Reggìstre 'a configurazione d'u cruscotte",
+	"apihelp-bs-dashboards-tasks-summary": "Reggìstre 'a configurazione d'u cruscotte",
+	"apihelp-bs-dashboards-widgets-tasks-description": "Torne 'u condenute pe de le uigget de cruscotte",
+	"apihelp-bs-dashboards-widgets-tasks-summary": "Torne 'u condenute pe de le uigget de cruscotte",
+	"action-dashboards-viewspecialpage-userdashboard": "'ndruche 'a pàgena speciale \"{{int:userdashboard}}\"",
+	"right-dashboards-viewspecialpage-userdashboard": "Tràse jndr'à pàgena speciale [[Special:UserDashboard]]"
+}

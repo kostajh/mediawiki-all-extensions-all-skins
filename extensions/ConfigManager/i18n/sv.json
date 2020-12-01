@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil",
+			"Mjälten",
+			"Sturban",
+			"WikiPhoenix"
+		]
+	},
+	"configmanager-admintool-label": "Konfigurationshanterare",
+	"action-configmanager-viewspecialpage": "visa specialsidan \"{{int:configmanager}}\"",
+	"configmanager": "Konfigurationshanterare",
+	"configmanager-desc": "Erbjuder möjligheten för administratörer att konfigurera hela wikin från en enda specialsida",
+	"configmanager-discardchanges": "Ignorera ändringarna?",
+	"configmanager-noentry": "Ingen post hittades",
+	"apihelp-configmanager-tasks-summary": "Hantera uppgifter",
+	"apihelp-configmanager-store-summary": "Hantera roller",
+	"right-configmanager-viewspecialpage": "Ger åtkomst till specialsidan [[Special:ConfigManager]]."
+}

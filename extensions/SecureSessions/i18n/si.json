@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"securesessions-personalurl": "විවෘත සැසි ($1)",
+	"securesessions-ipsession": "වෙනත් සියලුම සැසි වලින් නික්මෙන්න.",
+	"securesessions-iprestrict": "මෙම IP ලිපිනයට සැසිය අවහිර කරන්න,",
+	"securesessions-uarestrict": "මෙම ගවේශකයට සැසිය අවහිර කරන්න.",
+	"securesessions-sessions": "සැසි",
+	"securesessions-sessions-legend": "සැසියේ තොරතුරු",
+	"securesessions-sessions-ip": "IP ලිපිනය:",
+	"securesessions-sessions-activity": "අවසන් ක්‍රියාකාරකම:",
+	"securesessions-sessions-clear": "වෙනත් සියලුම සැසි වලින් නික්මෙන්න"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby"
+		]
+	},
+	"multiupload": "Méi Fichieren eroplueden",
+	"multiupload-desc": "[[Special:MultiUpload|Spezialsäit fir méi Fichieren mateneen eropzelueden]]",
+	"multipleupload": "Fichieren eroplueden",
+	"multipleupload-toolbox": "Méi Fichieren eroplueden",
+	"multiupload-submit": "Fichieren eroplueden",
+	"multiupload-uploadedto": "Eropgeluedene Fichier $1.",
+	"multiupload-row": "Fichier $1",
+	"multiupload-unpack-button": "Auspaken",
+	"multiupload-notify-ok": "OK",
+	"multiupload-unreadable-package": "De Fichier $1 konnt net gelies ginn",
+	"multiupload-http-error": "Konnt net mam Server verbannen.",
+	"apihelp-multiupload-unpack-summary": "E ZIP oder tar Fichier auspaken éier säin Inhalt importéiert gëtt.",
+	"apihelp-multiupload-unpack-param-filename": "Fichiersnumm vum Pak"
+}

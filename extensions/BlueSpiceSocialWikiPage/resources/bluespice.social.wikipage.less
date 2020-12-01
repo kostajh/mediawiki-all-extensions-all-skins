@@ -1,0 +1,44 @@
+
+.bs-social-entity-input-multiupload .uploadfield {
+	min-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	margin: 5px 0px;
+	border: 3px dashed;
+	padding: 2% 5px;
+	overflow: hidden;
+	white-space: normal;
+}
+
+a.bs-social-entityspawner-stash:before {
+	font-family: icomoon !important;
+	margin-right:8px;
+	content: "\ea13";
+}
+
+.bs-data-after-content-socialwikipagestash {
+	clear: both;
+	position: relative;
+	ul.empty-attachments li {
+		padding: 0;
+		& > div {
+			padding: 0;
+		}
+	}
+
+	.bs-socialwikipage-attachment-create-first,
+	.bs-socialwikipage-wikipage-create {
+		position: absolute;
+		right: 1rem;
+		top: 0.3rem;
+		.oo-ui-buttonElement-button {
+			margin-top: 5px;
+			.oo-ui-labelElement-label {
+				display: none;
+			}
+			&:selected,&:active,&:focus {
+				border-color: transparent;
+			}
+		}
+	}
+}

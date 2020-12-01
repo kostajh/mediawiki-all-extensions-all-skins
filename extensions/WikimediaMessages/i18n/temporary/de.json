@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"Schniggendiller",
+			"WikiBayer"
+		]
+	},
+	"wikimediamessages-desc": "Ermöglicht Wikimedia-spezifische temporäre Nachrichten",
+	"grouppage-oversight": "{{ns:project}}:Oversight",
+	"group-oversight": "Oversighter",
+	"group-oversight-member": "{{GENDER:$1|Oversighter|Oversighterin}}",
+	"hello": "Hallo",
+	"please-translate": "Hilf bitte mit, in deine Sprache zu übersetzen",
+	"thank-you": "{{GENDER:$1|Vielen Dank.}}",
+	"specialblockfeedback": "Rückmeldung",
+	"specialinvestigate-feedback": "Rückmeldung geben"
+}

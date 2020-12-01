@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crt",
+			"Nike",
+			"Olli",
+			"Silvonen"
+		]
+	},
+	"inlinecategorizer-add-category": "Lisää luokka",
+	"inlinecategorizer-add-category-submit": "Lisää",
+	"inlinecategorizer-add-category-summary": "Lisää luokka ”$1”",
+	"inlinecategorizer-api-error": "API palautti virheen: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "API palautti tuntemattoman virheen.",
+	"inlinecategorizer-cancel": "Peruuta muutokset",
+	"inlinecategorizer-cancel-all": "Peruuta kaikki muutokset",
+	"inlinecategorizer-category-already-present": "Tämä sivu kuuluu jo ennestään luokkaan $1",
+	"inlinecategorizer-category-hook-error": "Paikallinen toiminto esti muutosten tallentamisen.",
+	"inlinecategorizer-category-question": "Miksi haluat tehdä seuraavat muutokset:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Tallenna",
+	"inlinecategorizer-confirm-save-all": "Tallenna kaikki muutokset",
+	"inlinecategorizer-confirm-title": "Vahvista toiminto",
+	"inlinecategorizer-edit-category": "Muokkaa luokkaa",
+	"inlinecategorizer-edit-category-error": "Luokan $1 muokkaaminen ei onnistunut.\nYleensä näin käy, kun luokka on lisätty sivulle mallineen avulla.",
+	"inlinecategorizer-edit-category-summary": "Luokka $1 muutetaan luokaksi $2",
+	"inlinecategorizer-error-title": "Virhe",
+	"inlinecategorizer-remove-category": "Poista luokka",
+	"inlinecategorizer-remove-category-error": "Luokan $1 poistaminen ei onnistunut.\nYleensä näin käy, kun luokka on lisätty sivulle mallineen avulla.",
+	"inlinecategorizer-remove-category-summary": "Luokan ”$1” poisto"
+}

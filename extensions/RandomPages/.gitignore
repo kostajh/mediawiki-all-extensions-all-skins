@@ -1,0 +1,7 @@
+/node_modules
+/vendor
+/composer.lock
+# Visual Studio Code
+.vscode/
+/.eslintcache
+.DS_Store

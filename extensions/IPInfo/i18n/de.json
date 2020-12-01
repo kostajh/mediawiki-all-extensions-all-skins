@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"action-ipinfo": "Abrufen von Informationen von IP-Adressen, die mit Versionen oder Logbüchern verbunden sind",
+	"action-ipinfo-any": "Abrufen von Informationen von einer beliebigen IP-Adresse.",
+	"ipinfo-desc": "Stellt Informationen über eine IP-Adresse zur Verfügung.",
+	"ipinfo-widget-source": "Quelle: $1",
+	"ipinfo-widget-error-default": "Die Informationen zur IP-Adresse konnten nicht abgerufen werden.",
+	"ipinfo-widget-error-no-data": "Es gibt keine Daten für diese IP-Adresse von $1.",
+	"ipinfo-widget-error-wrong-ip": "Die angegebene IP-Adresse stimmte nicht mit dem Logbuch oder der Version überein.",
+	"ipinfo-preference-enable": "Informationen über eine IP-Adresse anzeigen. Eine Aufzeichnung wird erstellt, wenn du diese Option de-/aktivierst.",
+	"ipinfo-rest-access-denied": "Du hast keine Berechtigung, diese Aktion durchzuführen",
+	"ipinfo-rest-revision-no-author": "Dein Benutzerkonto hat keinen Zugriff zum Anzeigen des Autors der Version",
+	"ipinfo-rest-revision-registered": "Kann ipinfo für Versionen registrierter Benutzer nicht abrufen",
+	"ipinfo-rest-log-nonexistent": "Logbucheintrag existiert nicht",
+	"ipinfo-rest-log-registered": "Kann ipinfo für Logbücher registrierter Benutzer nicht abrufen",
+	"ipinfo-rest-log-denied": "Dein Benutzerkonto hat keinen Zugriff auf den ausführenden Benutzer des Logbucheintrags oder den Protokolleintrag selbst.",
+	"ipinfo-rest-ip-invalid": "Die angegebene IP-Adresse ist ungültig",
+	"ipinfo-source-geoip2": "GeoIp2",
+	"prefs-ipinfo": "IP-Information",
+	"right-ipinfo": "Abrufen von Informationen von IP-Adressen, die mit Versionen oder Logbüchern verbunden sind",
+	"right-ipinfo-any": "Abrufen von Informationen von einer beliebigen IP-Adresse"
+}

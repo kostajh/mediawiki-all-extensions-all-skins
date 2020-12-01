@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"bs-pagesvisited-desc": "提供最近訪問頁面的個人化清單",
+	"prefs-pagesvisited": "已參觀頁面",
+	"bs-pagesvisited-widget-title": "參觀的頁面",
+	"bs-pagesvisited-error-nsnotvalid": "提供的{{PLURAL:$1|命名空間|命名空間}} <code>$2</code> {{PLURAL:$1|無效|無效}}。",
+	"bs-pagesvisited-pref-widgetlimit": "項目上限：",
+	"bs-pagesvisited-pref-widgetns": "命名空間：",
+	"bs-pagesvisited-pref-widgetsortodr": "排序方式：",
+	"bs-pagesvisited-pref-sort-time": "時間",
+	"bs-pagesvisited-pref-sort-pagename": "標題",
+	"bs-pagesvisited-tag-pagesvisited-desc": "顯示近期訪問頁面的清單。清單可以透過參數來限制。"
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Luckas"
+		]
+	},
+	"fundraiserunsubscribe-desc": "Permite que os usuários gerenciem sua associação em listas de discussão de captação de recursos configuradas",
+	"fundraiserunsubscribe": "Cancelar a subscrição do e-mail de angariação de fundos da Wikimedia",
+	"fundraiserunsubscribe-query": "Tem a certeza de que pretende cancelar a subscrição de '''''$1'''''?",
+	"fundraiserunsubscribe-info": "Essa opção exclui-o dos correios eletrónicos que a Wikimedia Foundation envia a benfeitores. Pode continuar a receber mensagens neste endereço de correio eletrónico se o endereço estiver associado a uma conta num dos nossos projetos. Se tiver alguma pergunta, entre em contacto connosco no endereço [mailto:$1 $1].",
+	"fundraiserunsubscribe-submit": "Cancelar inscrição",
+	"fundraiserunsubscribe-cancel": "Cancelar",
+	"fundraiserunsubscribe-errormsg": "Ocorreu um erro ao tentar processar o seu pedido. Contacte [mailto:$1 $1], por favor.",
+	"fundraiserunsubscribe-success": "Foi removido da nossa lista de divulgação.",
+	"fundraiserunsubscribe-sucesswarning": "Aguarde até quatro (4) dias para que as alterações entrem em vigor. Pedimos desculpa por qualquer correio eletrónico que receba durante este período. Se tiver alguma dúvida, contacte-nos no endereço [mailto:$1 $1].",
+	"fundraisersubscribe": "Optar",
+	"fundraisersubscribe-fail": "Ocorreu um erro ao tentar processar seu pedido. Por favor entre em contato [mailto:$1 $1].",
+	"fundraisersubscribe-success": "Obrigado!",
+	"fundraisersubscribe-opt-in-continue-001": "Sim, eu vou entrar",
+	"fundraisersubscribe-page-title-001": "Wiki Ama a Terra",
+	"fundraisersubscribe-page-subtitle-001": "Descubra os segredos do nosso mundo natural encontrados no Wikimedia Commons. Explore as 15 melhores fotos de 2018, tiradas, compartilhadas e selecionadas por voluntários da Wikimedia.",
+	"fundraisersubscribe-appeal-headline-001": "Gostou do que está vendo?",
+	"fundraisersubscribe-appeal-text-001": "Queremos enviar-lhe atualizações ocasionais com fotos como estas, formas de fornecer apoio ou conselhos no futuro e muito mais do que você gosta da Wikipédia.",
+	"fundraisersubscribe-privacy-text-001": "Cada email que você recebe incluirá uma opção fácil de cancelamento de inscrição. Suas informações são tratadas de acordo com nossas [$1 política de privacidade do doador].",
+	"fundraisersubscribe-photo-credit": "por $1",
+	"fundraisersubscribe-photo-caption-M69961168": "Morsas que encontram-se na ilha de Northbrook. Parque Nacional Ártico Russo. A foto foi tirada como parte da expedição nas pegadas de dois capitães por associações de patrimônio marítimo",
+	"fundraisersubscribe-photo-caption-M69960916": "Basalto colunar após o pôr do sol no Cape Stolbchaty, ilha de Kunashir, reserva natural de Kurils, Rússia",
+	"fundraisersubscribe-photo-caption-M68724727": "Formação rochosa de Metéora com mosteiros em cima deles",
+	"fundraisersubscribe-photo-caption-M68822431": "Parque Nacional de Tassili n'Ajjer, Argélia",
+	"fundraisersubscribe-photo-caption-M69954711": "A costa de Salt Lake Elton em Oblast de Volgogrado, Rússia",
+	"fundraisersubscribe-photo-caption-M69692176": "Abutre-barbudo em voo. Parque Nacional Gran Paradiso",
+	"fundraisersubscribe-photo-caption-M69116544": "Outono em seu boom no vale de Hunza Altit Valley, Gilgit-Baltistão",
+	"fundraisersubscribe-photo-caption-M69591978": "O maçarico-bastardo (Tringa glareola) é uma pequena ave limícola no Parque Safari Bangabandhu Sheikh Mujib",
+	"fundraisersubscribe-photo-caption-M69594652": "Parque Nacional Satchari",
+	"fundraisersubscribe-photo-caption-M69924253": "Cipreste do pântano, (Taxodium, distichum), perto de Sukko, Krasnodar, Krai, Rússia",
+	"fundraisersubscribe-photo-caption-M69595567": "Sturnia malabarica, Parque Nacional Satchari",
+	"fundraisersubscribe-photo-caption-M70051605": "Parque Nacional de Hoggar, Assekrem, Tamanrasset, Argélia",
+	"fundraisersubscribe-photo-caption-M70155469": "Pôr do sol em Baixa Grande, um oásis no meio do Parque Nacional dos Lençóis Maranhenses",
+	"fundraisersubscribe-photo-caption-M69609122": "Flamingo-comum no lago de Tunis",
+	"fundraisersubscribe-photo-caption-M69961161": "Ilha de Bell de Franz Josef Land e Eira Lodge da expedição de Benjamin Leigh Smith, parque nacional ártico do russo. A foto foi tirada como parte da expedição Nas pegadas de dois capitães por Associações de Patrimônio Marítimo",
+	"fundraisersubscribe-photo-license": "Todas as imagens são licenciadas sob a licença [$1 Creative Commons Attribution-Share Alike 4.0 International]."
+}

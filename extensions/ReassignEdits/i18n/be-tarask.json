@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jim-by",
+			"Red Winged Duck",
+			"Wizardist"
+		]
+	},
+	"reassignedits": "Пераназначэньне аўтараў рэдагаваньняў",
+	"reassignedits-desc": "Дазваляе пераназначэньне рэдагаваньняў ад аднаго аўтара да другога",
+	"reassignedits-error-invalid": "Няслушнае імя ўдзельніка «$1».",
+	"reassignedits-new": "Новы ўдзельнік",
+	"reassignedits-old": "Стары ўдзельнік",
+	"reassignedits-submit": "Пераназначыць",
+	"reassignedits-success": "Рэдагаваньні «$1» былі прысвоеныя ўдзельніку «$2».",
+	"reassignedits-summary": "Пераназначэньне рэдагаваньняў ад старога ўдзельніка новаму.",
+	"reassignedits-updatelog-title": "Абнавіць імя ўдзельніка ў назвах журналаў",
+	"reassignedits-updatelog-user": "Абнавіць выканальніка зьменаў у журналах",
+	"action-reassignedits": "перапрызначэньне правак з старога ўдзельніка на новага",
+	"right-reassignedits": "Пераназначэньне рэдагаваньняў ад старога ўдзельніка новаму"
+}

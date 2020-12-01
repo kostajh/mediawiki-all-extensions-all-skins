@@ -1,0 +1,49 @@
+{
+	"name": "PaginateText",
+	"version": "0.1.0",
+	"author": [
+		"Ike Hecht"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PaginateText",
+	"descriptionmsg": "paginatetext-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"PaginateText": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"PaginateTextHooks": "PaginateTextHooks.php"
+	},
+	"ResourceModules": {
+		"ext.PaginateText": {
+			"scripts": [
+				"modules/ext.PaginateText.js"
+			],
+			"styles": [
+				"modules/ext.PaginateText.css"
+			],
+			"dependencies": [
+				"ext.PaginateText.TextPager"
+			]
+		},
+		"ext.PaginateText.TextPager": {
+			"scripts": [
+				"modules/jquery_textpager/jquery.textpager.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "PaginateText"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "PaginateTextHooks::addTag",
+		"BeforePageDisplay": "PaginateTextHooks::addModules"
+	},
+	"manifest_version": 2
+}

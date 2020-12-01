@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jayprakash12345"
+		]
+	},
+	"secureauth-desc": "{{desc|name=SecureAuth|url=https://www.mediawiki.org/wiki/Extension:SecureAuth}}",
+	"secureauthinfo": "Name of Special:SecureAuthInfo page in Special:SpecialPages",
+	"special-secureauth-info": "Page title of the SecureAuthInfo special page.",
+	"secureauth-info-userinfo": "Section for User Information",
+	"secureauth-current-ip": "Label for the Your Current Login IP",
+	"secureauth-whitelist-ip": "Label for the IPs that Whitelist for your username login",
+	"action-sa-access": "{{doc-action|sa-access}}",
+	"right-sa-access": "{{doc-right|sa-access}}"
+}

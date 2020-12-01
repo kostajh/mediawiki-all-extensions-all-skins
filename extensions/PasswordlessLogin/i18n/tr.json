@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda"
+		]
+	},
+	"passwordlesslogin": "Şifresiz giriş",
+	"passwordlesslogin-desc": "Bağlı bir cihazdaki girişi onaylayarak şifre olmadan giriş yapmanıza olanak sağlar.",
+	"passwordlesslogin-verify-request": "Lütfen giriş bilgilerinizi telefonunuzda doğrulayın.",
+	"passwordlesslogin-error-no-authentication-workflow": "Kimlik doğrulama iş akışı beklenmedik bir şekilde sona erdi.",
+	"passwordlesslogin-no-challenge": "Onaylamak için aktif bir sorun yok, lütfen tekrar doğrulamayı deneyin.",
+	"passwordlesslogin-verification-pending": "Kimlik doğrulama henüz doğrulanmadı. Lütfen bağlı cihazınızdaki giriş isteğinizi doğrulayın.",
+	"passwordlesslogin-pair-device-step": "Yeni cihazınızı eşleştirmek için lütfen talimatları izleyin.",
+	"passwordlesslogin-no-device-paired": "Henüz eşleştirilmiş cihaz yok.",
+	"passwordlesslogin-verify-pair": "Doğru şekilde kaydedildiğini doğrulamak için cihazınıza bir giriş isteği gönderdik. Lütfen isteği onaylayın ve devam edin.",
+	"passwordlesslogin-pair-device": "Şifresiz giriş için cihazı eşleştirin",
+	"passwordlesslogin-login": "Akıllı telefonunuzla giriş yapın",
+	"passwordlesslogin-pair-step-1": "1. MediaWiki PasswordlessLogin uygulamasını indirin",
+	"passwordlesslogin-pair-step-2": "2. QR kodunu uygulama ile tarayın",
+	"passwordlesslogin-pair-step-3": "3. Uygulama ayarları tamamlandığında bir sonraki adıma geçin",
+	"passwordlesslogin-authentication-app": "Kimlik Doğrulama Uygulaması",
+	"apihelp-passwordlesslogin-summary": "Önceden oluşturulmuş bir çift jeton için yeni bir cihaz kaydedin.",
+	"apihelp-passwordlesslogin-param-pairToken": "Önceden oluşturulan çift jeton, cihazın hangi kullanıcıya kaydedileceğini tanımlamak için kullanılır.",
+	"apihelp-passwordlesslogin-param-deviceId": "Bir cihazı tanımlamanın yanı sıra, cihazın varsayılan mesajlaşma sistemiyle (örneğin, Android cihazlar için Firebase Cloud Messaging) bildirim göndermenin yanı sıra kullanılabilen benzersiz bir cihaz tanımlayıcısı.",
+	"apihelp-passwordlesslogin-param-secret": "Cihaza gönderilen zorlukları imzalamak için kullanılacak cihaz üzerinde bir sır oluşturuldu. Bu sır, bir oturum açma isteği sorgusu yanıtının doğrulandığını onaylamak için kullanılıyor ve gizli tutulması gerekiyor.",
+	"apihelp-passwordlesslogin-verify-challenge-summary": "Bir aygıta gönderilen bir oturum açma isteğini doğrulayın.",
+	"apihelp-passwordlesslogin-verify-challenge-param-challenge": "Aygıta gönderilen ve çözülecek olan kimlik sorma.",
+	"apihelp-passwordlesslogin-verify-challenge-param-response": "Kimlik sormaya cevap (çözüm). Çözüm şöyle olmalı:<br />&#160;1. İmza algoritması olarak SHA512'li bir HMAC<br />&#160;2. Simetrik bir anahtar malzeme olarak önceden paylaşılan sır<br />&#160;3. MAC verisi bir bayt dizisi olarak kimlik sormadır<br />&#160;4. Yanıt onaltılık bir dizi olmalı<br />&#160;5. Yanıtın küçük harf olması gerekir",
+	"apihelp-passwordlesslogin-verify-login-summary": "Bir giriş isteğinin cihaz tarafından doğrulanmış olup olmadığını kontrol edin."
+}

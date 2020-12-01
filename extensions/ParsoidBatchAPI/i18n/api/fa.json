@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ladsgroup"
+		]
+	},
+	"apihelp-parsoid-batch-summary": "گروه API برای پارسوید",
+	"apierror-parsoid-batch-invalidbatch": "گروه نامعتبر، باید یک آرایه باشد.",
+	"apierror-parsoid-batch-batchtoolarge": "اندازه بسته بسیار بزرگ است، حداکثر ۵۰۰ است.",
+	"apierror-parsoid-batch-invalidtitle": "عنوان نامعتبر ($1)."
+}

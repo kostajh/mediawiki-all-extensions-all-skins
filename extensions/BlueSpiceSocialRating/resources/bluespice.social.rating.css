@@ -1,0 +1,12 @@
+.bs-rating-bssocial {
+	white-space: nowrap;
+}
+.bs-rating-bssocial-numvotes:before {
+	content: '\e9a9';
+	font-family: 'icomoon';
+	color: grey;
+	margin-right: 5px;
+}
+.bs-rating-bssocial-numvotes.uservoted, .bs-rating-bssocial-numvotes.uservoted:before {
+	color: #3e5389 !important;
+}

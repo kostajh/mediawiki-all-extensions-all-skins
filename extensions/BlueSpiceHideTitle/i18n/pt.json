@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"bs-hidetitle-desc": "Adiciona a palavra mágica <code><nowiki>__HIDETITLE__</nowiki></code> para ocultar o título da página",
+	"bs-hidetitle-ve-dialog-meta-settings-showtitle": "Mostrar",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle": "Ocultar",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-label": "Visibilidade do título",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-help": "Pode definir aqui se o título será mostrado ou não."
+}

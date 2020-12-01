@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"MuratTheTurkish"
+		]
+	},
+	"ldapprovider-desc": "LDAP kaynağına bağlanmak ve buna karşı sorgu çalıştırmak için ortak bir altyapı sağlar",
+	"ldapprovider-config-clientregistry": "Özel alıcıların kaydedilmesine izin verir",
+	"ldapprovider-config-domainconfigs": "Etki alanı yapılandırma başına mağaza sayısı",
+	"ldapprovider-domain-config-not-found": "'$1' yapılandırma dosyasına erişilemedi!!\n\nLütfen LDAPProvider uzantısı için bir etki alanı yapılandırma dosyası ayarlayın.",
+	"ldapprovider-more-than-one": "'$1' için birden fazla kullanıcı bulundu",
+	"ldapprovider-config-domainconfigprovider": "Etki alanı yapılandırmasını elde etme mekanizmasını belirtir",
+	"ldapprovider-config-defaultdomain": "Veritabanından eşleme yoksa, bir kullanıcı için hangi etki alanının seçileceğini belirtir"
+}

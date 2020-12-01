@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chmee2",
+			"Ilimanaq29",
+			"Matěj Suchánek",
+			"Mormegil",
+			"Vks"
+		]
+	},
+	"translationnotifications-info": "Informace o uživateli",
+	"translationnotifications-username": "Uživatelské jméno:",
+	"translationnotifications-emailstatus": "Stav e-mailu:",
+	"translationnotifications-languages": "Jazyky",
+	"translationnotifications-nolang": "Zvolte jazyk",
+	"translationnotifications-contact": "Preferované způsoby kontaktu",
+	"translationnotifications-cmethod-email": "E-mail",
+	"translationnotifications-cmethod-talkpage": "Diskusní stránka",
+	"translationnotifications-cmethod-talkpage-elsewhere": "Diskusní stránka na jiných wiki",
+	"translationnotifications-cmethod-feed": "Kanály:",
+	"translationnotifications-frequency": "Četnost kontaktu",
+	"translationnotifications-freq-always": "Když je něco nového k překladu",
+	"translationnotifications-freq-week": "Maximálně jednou za týden",
+	"translationnotifications-freq-month": "Maximálně jednou za měsíc",
+	"translationnotifications-freq-weekly": "Týdenní výtah",
+	"translationnotifications-freq-monthly": "Měsíční výtah",
+	"translationnotifications-submit": "Aktualizovat nastavení",
+	"translationnotifications-signup-success": "Vaše preference oznámení o překladech byly uloženy.",
+	"notifytranslators": "Oznámit překladatelům",
+	"translationnotifications-submit-ok": "Oznámení byla přidána do fronty a jsou doručována úlohou na pozadí.",
+	"translationnotifications-send-notification-button": "Odeslat oznámení pro překladatele",
+	"translationnotifications-languages-to-notify-label": "Jaký jazyk oznámení?",
+	"translationnotifications-priority": "Priorita:",
+	"translationnotifications-priority-high": "vysoká",
+	"translationnotifications-priority-medium": "střední",
+	"translationnotifications-priority-low": "nízká",
+	"translationnotifications-priority-unset": "(nedefinováno)",
+	"translationnotifications-translatablepage-title": "Název stránky k překladu",
+	"translationnotifications-error-no-translatable-pages": "Na této wiki nejsou žádné nepřeložené stránky.",
+	"translationnotifications-email-subject": "Prosím přeložit stránku $1",
+	"translationnotifications-log-alllanguages": "všechny jazyky",
+	"translationnotifications-nodeadline": "žádný"
+}

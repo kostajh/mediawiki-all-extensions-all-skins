@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Hamilton Abreu"
+		]
+	},
+	"parserfun-desc": "Adiciona uma função sintática <code>#parse</code> para análise de texto wiki e introduz o prefixo <code>THIS:</code> para variáveis mágicas relacionadas com informações da página",
+	"parserfun-invalid-caller-mode": "Não foi fornecido nenhum modo de operação válido nem nenhum índice numérico."
+}

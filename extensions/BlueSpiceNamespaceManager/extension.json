@@ -1,0 +1,137 @@
+{
+	"name": "BlueSpiceNamespaceManager",
+	"license-name":"GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:NamespaceManager",
+	"author": [
+		"Sebastian Ulbricht",
+		"Stefan Widmann",
+		"Robert Vogel"
+	],
+	"descriptionmsg": "bs-namespacemanager-desc",
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceNamespaceManager": {
+					"className": "NamespaceManager",
+					"extPath": "/BlueSpiceNamespaceManager"
+				}
+			},
+			"AdminToolRegistry": {
+				"bs-namespace-manager": "BlueSpice\\NamespaceManager\\AdminTool"
+			},
+			"PermissionRegistry": {
+				"namespacemanager-viewspecialpage": {
+					"type": "namespace",
+					"roles": [
+						"admin",
+						"maintenanceadmin",
+						"structuremanager"
+					]
+				}
+			},
+			"DynamicSettingsRegistry": {
+				"NamespaceManager": "BlueSpice\\NamespaceManager\\DynamicSettings\\NmSettings::factory"
+			}
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"LogTypes": [
+		"bs-namespace-manager"
+	],
+	"FilterLogTypes": {
+		"bs-namespace-manager": true
+	},
+	"LogActionsHandlers": {
+		"bs-namespace-manager/*": "LogFormatter"
+	},
+	"APIModules": {
+		"bs-namespace-store": "BSApiNamespaceStore",
+		"bs-namespace-tasks": "BSApiNamespaceTasks"
+	},
+	"SpecialPages": {
+		"NamespaceManager": "SpecialNamespaceManager"
+	},
+	"MessagesDirs": {
+		"NamespaceManager": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"NamespaceManagerAlias": "includes/specials/SpecialNamespaceManager.alias.php"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"NamespaceManagerNsOffset": {
+			"value": 2999
+		}
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\NamespaceManager\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"BlueSpice\\NamespaceManager\\Tests\\": "tests/phpunit/"
+	},
+	"AutoloadClasses": {
+		"NamespaceManager": "NamespaceManager.class.php",
+		"NamespaceNuker": "includes/NamespaceNuker.php",
+		"BSApiNamespaceStore": "includes/api/BSApiNamespaceStore.php",
+		"BSApiNamespaceTasks": "includes/api/BSApiNamespaceTasks.php",
+		"SpecialNamespaceManager": "includes/specials/SpecialNamespaceManager.class.php",
+		"BSNamespaceManagerRemoveLegacyBackupTables": "maintenance/BSNamespaceManagerRemoveLegacyBackupTables.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "\\BlueSpice\\NamespaceManager\\Hook\\LoadExtensionSchemaUpdates\\AddRemoveLegacyBackupTablesMaintenanceScript::callback",
+		"NamespaceManager::editNamespace": "NamespaceManager::onEditNamespace",
+		"NamespaceManager::writeNamespaceConfiguration": "NamespaceManager::onWriteNamespaceConfiguration",
+		"BSMigrateSettingsSaveNewSettings": "\\BlueSpice\\NamespaceManager\\Hook\\BSMigrateSettingsSaveNewSettings\\WriteConfiguration::callback"
+	},
+	"ResourceModules": {
+		"ext.bluespice.namespaceManager": {
+			"scripts": "resources/bluespice.namespaceManager.js",
+			"dependencies": "ext.bluespice.extjs",
+			"messages": [
+				"bs-namespacemanager-tipadd",
+				"bs-namespacemanager-tipedit",
+				"bs-namespacemanager-tipremove",
+				"bs-namespacemanager-msgnoteditabledelete",
+				"bs-namespacemanager-labelnsname",
+				"bs-namespacemanager-willdelete",
+				"bs-namespacemanager-willmove",
+				"bs-namespacemanager-willmovesuffix",
+				"bs-namespacemanager-deletewarning",
+				"bs-namespacemanager-pagepresent",
+				"bs-namespacemanager-label-editable",
+				"bs-ns_main",
+				"bs-from-something",
+				"bs-namespacemanager-label-istalk",
+				"bs-namespacemanager-nodeletetalk",
+				"bs-namespacemanager-hide-talk-label",
+				"bs-namespacemanager-labelnsalias"
+			]
+		},
+		"ext.bluespice.namespaceManager.styles": {
+			"styles": "resources/bluespice.namespaceManager.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "BlueSpiceNamespaceManager"
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"namespacemanager-viewspecialpage": true
+		}
+	},
+	"AvailableRights": [
+		"namespacemanager-viewspecialpage"
+	],
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"multimaps-desc": "利用者が複数の地図サービスを使用して地図や緯度経度を表示できるようにする",
+	"multimaps-loading-map": "地図を読み込み中...",
+	"multimaps-mapservices-must-not-empty-array": "変数「$1」には空の配列は指定できません",
+	"multimaps-had-following-errors": "指定したパラメーターを処理する際に以下のエラーが発生しました:",
+	"multimaps-element-illegal-value": "パラメーター「$1」に無効な値「$2」を指定しました。有効な値: $3",
+	"multimaps-element-more-parameters": "この地図要素「$1」に指定したパラメーターが多すぎます:",
+	"multimaps-element-parameters-not-processed": "以下のパラメーターを処理できませんでした: $1",
+	"multimaps-circle-radius-not-defined": "円の半径を指定する必要があります",
+	"multimaps-circle-wrong-number-parameters": "円には、中心の緯度経度と半径の 2 個のパラメーターのみを指定できますが、{{PLURAL:$1|$1 個のパラメーター}}を指定しました。",
+	"multimaps-marker-incorrect-icon": "マーカー アイコンとして指定したファイル名「$1」が正しくありません。",
+	"multimaps-marker-incorrect-icon-url": "マーカー アイコンとして指定した URL「$1」が正しくありません。",
+	"multimaps-marker-incorrect-icon-size": "マーカー アイコン「$2」に指定したサイズ「$1」が正しくありません。",
+	"multimaps-marker-incorrect-icon-anchor": "マーカー アイコン「$2」に指定したアンカー「$1」が正しくありません。",
+	"multimaps-marker-incorrect-shadow-file": "アイコンの影として指定したファイル名「$1」が正しくありません。",
+	"multimaps-marker-incorrect-shadow-url": "アイコンの影として指定した URL「$1」が正しくありません。",
+	"multimaps-marker-incorrect-shadow-size": "アイコンの影「$2」に指定したサイズ「$1」が正しくありません。",
+	"multimaps-marker-incorrect-shadow-anchor": "アイコンの影「$2」に指定したアンカー「$1」が正しくありません。",
+	"multimaps-passed-unavailable-service": "サービス名「$1」は、利用できるサービス ($2) 内にありません。既定のサービス「$3」を使用します",
+	"multimaps-square-wrong-number-points": "四角形の緯度経度として 2 地点を指定すべきですが、{{PLURAL:$1|$1 地点}}を指定しました",
+	"multimaps-unable-create-element": "地図要素「$1」を作成できません",
+	"multimaps-unable-parse-coordinates": "緯度経度「$1」を構文解析できません",
+	"multimaps-unable-parse-parameter": "パラメーター「$1」(値「$2」) を構文解析できません",
+	"multimaps-unable-parse-radius": "円の半径には数値を指定する必要がありますが、「$1」を指定しました",
+	"multimaps-unknown-class-for-service": "サービスとして定義されたクラス「$1」が見つかりません。",
+	"multimaps-unknown-parameter": "不明なパラメーター:「$1」",
+	"multimaps-error-incorrect-class-for-service": "サービスとして定義されたクラス「$1」は使用できません。",
+	"multimaps-method-error-unknown-action": "$1: 不明な操作です",
+	"multimaps-method-error-unexpected-result": "$1: 関数が予期しない結果を返しました"
+}

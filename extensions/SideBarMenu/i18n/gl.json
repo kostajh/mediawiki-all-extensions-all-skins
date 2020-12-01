@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"sidebarmenu-desc": "Un simple analizador da barra lateral que crea menús e submenús que se poden contraer e expandir",
+	"sidebarmenu-parser-input-error": "O analizador devolveu o seguinte erro: $1",
+	"sidebarmenu-parser-syntax-error": "Non se puido analizar \"$1\"; asegúrese de que a sintaxe é correcta.",
+	"sidebarmenu-js-init-error": "Erro ao cargar os recursos do JavaScript.",
+	"sidebarmenu-edit": "Editar o menú",
+	"sidebarmenu-parser-menuitem-expanded-null": "O valor achegado non é válido. O valor debe ser \"null\", \"true\" ou \"false\".",
+	"sidebarmenu-parser-config-error": "Producíronse erros ao validar os parámetros de entrada",
+	"sidebarmenu-parser-subpage-error-title-not-found": "Non se puido atopar o título da subpáxina referenciada"
+}

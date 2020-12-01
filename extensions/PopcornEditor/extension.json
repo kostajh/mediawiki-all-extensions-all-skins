@@ -1,0 +1,74 @@
+{
+	"name": "PopcornEditor",
+	"author": [
+		"Brion Vibber"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PopcornEditor",
+	"descriptionmsg": "popcorn-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"FileExtensions": [
+		"popcorn"
+	],
+	"MessagesDirs": {
+		"PopcornEditor": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"PopcornEditorHooks": "PopcornEditorHooks.php"
+	},
+	"ResourceModules": {
+		"ext.popcorn.editor": {
+			"group": "ext.popcorn",
+			"scripts": [
+				"ext.popcorn.embedapi.js",
+				"ext.popcorn.formmultipart.js",
+				"ext.popcorn.io.js",
+				"ext.popcorn.editor.js"
+			],
+			"styles": [
+				"ext.popcorn.editButton.css"
+			],
+			"messages": [
+				"popcorn-summary-label",
+				"popcorn-summary-default",
+				"popcorn-editor-save-close",
+				"popcorn-editor-close"
+			],
+			"dependencies": [
+				"jquery.ui"
+			]
+		},
+		"ext.popcorn.editButton": {
+			"group": "ext.popcorn",
+			"scripts": [
+				"ext.popcorn.editButton.js"
+			],
+			"messages": [
+				"popcorn-editbutton-edit",
+				"popcorn-edit-tab",
+				"popcorn-edit-tab-tooltip"
+			],
+			"dependencies": [
+				"ext.popcorn.editor"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "PopcornEditor/modules"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "PopcornEditorHooks::beforePageDisplay",
+		"MakeGlobalVariablesScript": "PopcornEditorHooks::makeGlobalVariablesScript"
+	},
+	"config": {
+		"PopcornEditorUrl": {
+			"value": "http://popcorn-editor.wmflabs.org/PopcornEditor/editor.html"
+		}
+	},
+	"manifest_version": 2
+}

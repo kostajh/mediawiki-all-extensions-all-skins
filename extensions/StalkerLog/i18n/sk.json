@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"stalkerlog-desc": "Pridáva [[Special:Log/stalkerlog|záznam prihlásení a odhlásení]] používateľov",
+	"stalkerlog-log-login": "sa prihlásil.",
+	"stalkerlog-log-logout": "sa odhlásil.",
+	"stalkerlog-log-type": "Záznam prihlásení používateľov",
+	"stalkerlog-log-text": "Toto je záznam prihlásení a odhlásení používateľov."
+}

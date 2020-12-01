@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras",
+			"Reder"
+		]
+	},
+	"extensiondistributor": "Scareche le estenziune de MediaUicchi",
+	"skindistributor": "Scareche 'u skin de MediaUicchi",
+	"extensiondistributor-desc": "Estenzione pe le archivije distribbuite istandanèe de le estenziune",
+	"extdist-not-configured": "Pe piacere configure <code>$wgExtDistAPIConfig</code>.",
+	"extdist-list-missing-extensions": "Non ge pozze analizzà l'elenghe de le estenziune!",
+	"extdist-list-missing-skins": "Non ge pozze analizzà l'elenghe de le skin!",
+	"extdist-no-such-extensions": "Nisciuna estenzione \"$1\"",
+	"extdist-no-such-skins": "Nisciune skin \"$1\".",
+	"extdist-no-such-version-extensions": "L'estenzione \"$1\" non g'esiste jndr'à versiune \"$2\".",
+	"extdist-no-such-version-skins": "'U skin \"$1\" non g'esiste jndr'à versione \"$2\".",
+	"extdist-choose-extensions": "Scacchie l'estenzione ca vuè ccu scareche:",
+	"extdist-choose-skins": "Scacchie quale skin vuè ccu scarecehe:",
+	"extdist-submit-extension": "Condinue",
+	"extdist-choose-version-extensions": "Tu ste scareche l'estenzione <b>$1</b>.\n\nScacchie 'a versiona toje de MediaUicchi.\n\nDiverse estenziune fatìane 'mbrà diverse versiune de MediaUicchi, accussì ce 'a versiona toje de MediaUicchi non ge stè, o ce tu è abbesogne de le funzionalità de l'estenzione cchiù nove, pruève ausanne 'a versione de mò.",
+	"extdist-choose-version-skins": "Tu ste scareche l'estenzione <b>$1</b>.\n\nScacchie 'a versiona toje de MediaUicchi.\n\nDiverse skin fatìane 'mbrà diverse versiune de MediaUicchi, accussì ce 'a versiona toje de MediaUicchi non ge stè, o ce tu è abbesogne de le urteme funzionalità d'u skin, pruève ausanne 'a versione de mò.",
+	"extdist-no-versions-extensions": "L'estenzione scacchiate ($1) non g'è disponibbele pe nisicuna versione!",
+	"extdist-no-versions-skins": "'U skin scacchiate ($1) non g'è disponibbile jndr'à nisciuna versione!",
+	"extdist-submit-version": "Condinue",
+	"extdist-created-extensions": "'N'istandanèe d'a versione <b>$2</b> de l'estenzione <b>$1</b> pe MediaUicchi <b>$3</b> ha state ccrejate. 'U scarecamende tune avessa partì in automateche 'mbrà 5 seconde.\n\n'A URL pe sta istandanèe jè:\n:$4\nPuè ausà stu collegamende pu scarecamende automateche de l'estenzione sus a 'nu combiuter ca vue tu, ma pe piacere no 'u sce mettenne 'mbrà le preferite, accussì le condenute non ge avènene aggiornate, e ponne essere scangellate cchiù tarde.\n\nAvissa estrarre 'u condenute de l'archivije tar jndr'à cartelle de le estenziune tune. Pe esembie, sus a 'nu sisteme operative Unix:\n\n<pre>\ntar -xzf $5 -C /var/www/mediawiki/extensions\n</pre>\n\nSus a Windows, tu puè 'ndrucà [http://www.7-zip.org/ 7-zip] pe estrarre le file.\n\nCe 'a uicchi toje stè sus a 'nu server remote, estraie le file jndr'à 'na cartelle temboranèe sus a 'u combiuter tune, e pò careche '''tutte''' le file estratte sus 'a cartelle de l'estenziune d'u server.\n\nApprisse ca tu è estratte le file, tu è abbesogne de reggistrà l'estenzione jndr'à LocalSettings.php. 'A documendazione de l'estenzione avessa tenè le 'struziune sus a cumme a fà ste cose.\n\nCe tu tìne domande da fà sus a stu sisteme de distribuzione de estenzione, pe piacere vèje sus a [[Extension talk:ExtensionDistributor]].",
+	"extdist-created-skins": "'N'istandanèe d'a versione <b>$2</b> d'u skin <b>$1</b> pe MediaUicchi <b>$3</b> ha state ccrejate. 'U scarecamende tune avessa partì in automateche 'mbrà 5 seconde.\n\n'A URL pe sta istandanèe jè:\n:$4\nPuè ausà stu collegamende pu scarecamende automateche d'u skin sus a 'nu combiuter ca vue tu, ma pe piacere no 'u sce mettenne 'mbrà le preferite, accussì le condenute non ge avènene aggiornate, e ponne essere scangellate cchiù tarde.\n\nAvissa estrarre 'u condenute de l'archivije tar jndr'à cartelle de le estenziune tune. Pe esembie, sus a 'nu sisteme operative Unix:\n\n<pre>\ntar -xzf $5 -C /var/www/mediawiki/extensions\n</pre>\n\nSus a Windows, tu puè 'ndrucà [http://www.7-zip.org/ 7-zip] pe estrarre le file.\n\nCe 'a uicchi toje stè sus a 'nu server remote, estraie le file jndr'à 'na cartelle temboranèe sus a 'u combiuter tune, e pò careche '''tutte''' le file estratte sus 'a cartelle d'u skin d'u server.\n\nApprisse ca tu è estratte le file, tu è abbesogne de reggistrà 'u skin jndr'à LocalSettings.php. 'A documendazione d'u skin avessa tenè le 'struziune sus a cumme a fà ste cose.\n\nCe tu tìne domande da fà sus a stu sisteme de distribuzione de skin, pe piacere vèje sus a [[Extension talk:ExtensionDistributor]].",
+	"extdist-want-more-extensions": "Pigghie 'n'otra estenzione",
+	"extdist-want-more-skins": "Pigghie 'n'otre skin",
+	"extdist-goto-extensions-page": "Tuèrne a 'a pàgene de l'estenzione \"$1\".",
+	"extdist-goto-skins-page": "Tuèrne a 'a pàgene d'u teme \"$1\".",
+	"extdist-tar-error": "Non ge pozze analizzà l'URL de l'archivije da l'archivije de le API.",
+	"extdist-no-branches": "'Mbossibbele recuperà 'mbormaziune relative a le rame.",
+	"extdist-popular-extensions": "{{PLURAL:$1|$1 L'estenzione|Le prime $1 estenziune}} cchiù scarecate:",
+	"extdist-popular-skins": "{{PLURAL:$1|$1 'U skin|Le prime $1 skin}} cchiù scarecate:",
+	"extdist-branch-alpha": "master (urtema versione de sveluppe)",
+	"extdist-branch-candidate": "$1 (prossime candidate secure)",
+	"extdist-branch-stable": "$1 (urtema versione de MediaUicchi secure)"
+}

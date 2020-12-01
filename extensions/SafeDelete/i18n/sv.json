@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"WikiPhoenix"
+		]
+	},
+	"safedelete": "Säker radering",
+	"safedelete-desc": "Radera sidor endast om det inte finns några sidor i den valda namnrymden som länkar till dem",
+	"safedelete-title": "Radera \"$1\"",
+	"safedelete-missingpagename": "Sidnamn saknas.",
+	"safedelete-cannotdelete": "Sidan \"$1\" kan inte raderas eftersom det finns länkar eller omdirigeringar till den från följande {{PLURAL:$2|sida|sidor}}:"
+}

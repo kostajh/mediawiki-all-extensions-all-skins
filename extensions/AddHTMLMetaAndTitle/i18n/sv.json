@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "Tillåter enklare SEO (optimering för sökmotorer)",
+	"addhtmlmetaandtitle-empty-attr": "Taggen &lt;seo&gt; måste innehålla minst en icke-tom \"title\", \"metak(eywords)\" eller attributen \"metad(escription)\"."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Vlad5250"
+		]
+	},
+	"secureauth-desc": "Дозволити користувачеві додавати IP-адресу для входу в систему. Вхід з іншої IP-адреси завершиться невдачею.",
+	"secureauthinfo": "Безпечна автентифікація",
+	"special-secureauth-info": "Дані щодо безпечної автентифікації",
+	"secureauth-info-userinfo": "Інформація про користувача",
+	"secureauth-current-ip": "Ваша поточна IP-адреса входу:",
+	"secureauth-whitelist-ip": "IP-адреси в білому списку для входу під Вашим іменем користувача:",
+	"action-sa-access": "доступ до SecureAuthInfo",
+	"right-sa-access": "Надання доступу до [[Special:SecureAuthInfo|SecureAuthInfo]]"
+}

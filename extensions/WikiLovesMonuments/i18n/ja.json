@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"wlm-extension-desc": "ウィキラブモニュメント写真コンテスト関連の情報とテンプレートを追加する",
+	"wlm-no-contest-year": "$1 年は、ウィキラブモニュメントのコンテストはありません。",
+	"wlm-country-not-given": "国コードを入力する必要があります。",
+	"wlm-country-not-participating-year": "「$1」はウィキラブモニュメント $2 に参加していません",
+	"wlm-sidebar-portlet": "その他の国",
+	"wlm-text-contact": "連絡先",
+	"wlm-text-contest": "コンテスト",
+	"wlm-text-donate": "寄付",
+	"wlm-text-faq": "よくある質問と回答",
+	"wlm-text-monuments": "モニュメント",
+	"wlm-text-news": "ニュース",
+	"wlm-text-participate": "参加してください!",
+	"wlm-text-rules": "ルール",
+	"wlm-text-sponsors": "スポンサー",
+	"wlm-text-uploading": "アップロード中"
+}

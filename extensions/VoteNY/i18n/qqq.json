@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darth Kule",
+			"Liuxinyu970226",
+			"Nemo bis",
+			"Shirayuki",
+			"Siebrand",
+			"Umherirrender"
+		]
+	},
+	"apihelp-voteny-description": "{{doc-apihelp-description|voteny}}",
+	"apihelp-voteny-summary": "{{doc-apihelp-summary|voteny}}",
+	"apihelp-voteny-param-what": "{{doc-apihelp-param|voteny|what}}",
+	"apihelp-voteny-param-pageId": "{{doc-apihelp-param|voteny|pageId}}",
+	"apihelp-voteny-param-voteValue": "{{doc-apihelp-param|voteny|voteValue}}",
+	"apihelp-voteny-param-type": "{{doc-apihelp-param|voteny|type}}",
+	"apihelp-voteny-example-1": "{{doc-apihelp-example|voteny}}",
+	"apihelp-voteny-example-2": "{{doc-apihelp-example|voteny}}",
+	"apihelp-voteny-example-3": "{{doc-apihelp-example|voteny}}",
+	"apihelp-voteny-example-4": "{{doc-apihelp-example|voteny}}",
+	"apihelp-voteny-example-5": "{{doc-apihelp-example|voteny}}",
+	"voteny-desc": "{{desc|name=Vote NY|url=https://www.mediawiki.org/wiki/Extension:VoteNY}}",
+	"voteny-link": "Link title\n{{Identical|Vote}}",
+	"voteny-unvote-link": "Displayed to the user after their vote has been successfully added; they can click on this link to remove their vote.\n{{Identical|Unvote}}",
+	"voteny-community-score": "Community score is the average of votes a page has been given.\n\nParameters:\n* $1 - the actual score in numbers (i.e. 4.5 or 3)\n* $2 - score count for PLURAL support",
+	"voteny-ratings": "Parameters:\n* $1 - the number of ratings, if said number is greater than 1\n{{Identical|Rating}}",
+	"voteny-remove": "Link title, clicking on this link removes your vote. Refer to the [[mw:File:VoteNY.png|image]] for details.\n{{Identical|Remove}}",
+	"voteny-gave-this": "Followed by the action link text {{msg-mw|Voteny-remove}}.\n\nParameter:\n* $1 - a number, the vote the user gave to the page.\n\nRefer to the [[mw:File:VoteNY.png|image]] for details.",
+	"voteny-votes": "Parameters:\n* $1 - number of votes\n{{Identical|Vote}}",
+	"topratings": "{{doc-special|TopRatings}}",
+	"topratings-no-pages": "Displayed on Special:TopRatings if there are no top rated pages, i.e. if no pages have been rated on the wiki at all.",
+	"action-voteny": "{{doc-action|voteny}}\nRight to place a vote on pages with the extension.",
+	"right-voteny": "{{doc-right|voteny}}\nRight to place a vote on pages with the extension."
+}

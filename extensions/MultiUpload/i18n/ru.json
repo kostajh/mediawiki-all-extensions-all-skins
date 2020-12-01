@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Megakott",
+			"Okras"
+		]
+	},
+	"multiupload": "Загрузить несколько файлов",
+	"multiupload-desc": "[[Special:MultiUpload|Спецстраница для загрузки несколько файлов за раз]]",
+	"multiupload-text": "Воспользуйтесь этой формой для загрузки нескольких файлов на сервер.\nЧтобы просмотреть ранее загруженные файлы, обратитесь к [[Special:FileList|списку загруженных файлов]]. Загрузка файлов также записывается в [[Special:Log/upload|журнал загрузок]]; данные об удалённых файлах можно найти в [[Special:Log/delete|журнале удалений]].\n\nДля включения файла в статью вы можете использовать строки вида:\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.jpg]]</nowiki></code></strong> для вставки полной версии файла;\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.png|200px|thumb|left|описание]]</nowiki></code></strong> для вставки слева от текста уменьшенной до 200 пикселей по ширине версии файла с выводом под ним указанного описания;\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:File.ogg]]</nowiki></code></strong> для вставки ссылки на файл, без отображения его содержимого на странице.\n\nКак только вы выберете файл, эта страница развернется, что позволит вам выбрать другие файлы перед загрузкой.\n\nЧтобы распаковать файл <code>.zip</code>, <code>.tar</code>, <code>.tar.gz</code> или <code>.tgz</code> и загрузить файлы содержащийся в нем, выберите файл пакета и затем используйте появившуюся кнопку \"{{int:multiupload-unpack-button}}\".",
+	"multipleupload": "Загрузка файлов",
+	"multipleupload-toolbox": "Загрузить несколько файлов",
+	"multiupload-submit": "Загрузить файлы",
+	"multiupload-uploadedto": "Загружен файл $1.",
+	"multiupload-row": "Файл $1",
+	"multiupload-unpack-button": "Распаковать",
+	"multiupload-notify-ok": "OK",
+	"multiupload-upload-package-error": "Ошибка загрузки файла пакета",
+	"multiupload-unpack-error": "Ошибка распаковки файла пакета",
+	"multiupload-unreadable-package": "Невозможно прочитать файл $1",
+	"multiupload-http-error": "Невозможно подключиться к серверу.",
+	"multiupload-file-unpacked-from": "Файл <b>$1</b> из пакета <b>$2</b>",
+	"apihelp-multiupload-unpack-description": "Распаковать архив ZIP или tar перед импортом его содержимого.",
+	"apihelp-multiupload-unpack-summary": "Распаковать архив ZIP или tar перед импортом его содержимого.",
+	"apihelp-multiupload-unpack-param-key": "\"ключ файла\" получен при загрузке файла пакета в тайник",
+	"apihelp-multiupload-unpack-param-filename": "Имя файла пакета"
+}

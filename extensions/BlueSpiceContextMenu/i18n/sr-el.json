@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-contextmenu-desc": "Pruža kontekstne menije za različite vezije",
+	"prefs-contextmenu": "Kontekstni meni",
+	"bs-contextmenu-page-edit": "Uredi stranicu",
+	"bs-contextmenu-page-delete": "Obriši stranicu",
+	"bs-contextmenu-page-move": "Premesti stranicu",
+	"bs-contextmenu-page-history": "Prikaži istoriju stranice",
+	"bs-contextmenu-page-protect": "Zaštiti stranicu",
+	"bs-contextmenu-page-purge": "Osveži keš memoriju i vidi stranicu",
+	"bs-contextmenu-page-info": "Vidi informaciju stranice",
+	"bs-contextmenu-media-reupload": "Otpremi novu verziju",
+	"bs-contextmenu-media-view-page": "Vidi stranicu opisa datoteke i njenu istoriju",
+	"bs-contextmenu-user-mail": "Pošalji e-poruku",
+	"bs-contextmenu-user-talk": "Ostavi poruku na stranici za razgovor",
+	"bs-contextmenu-file-download": "Preuzmi datoteku",
+	"apihelp-bs-contextmenu-tasks-description": "Omogućava stavke kontekstvnog menija u kontekstu"
+}

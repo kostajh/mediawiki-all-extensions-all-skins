@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz",
+			"Silvonen"
+		]
+	},
+	"bs-statistics-diagram": "Kysely",
+	"bs-statistics-year": "Vuosi",
+	"bs-statistics-month": "Kuukausi",
+	"bs-statistics-week": "Kalenteriviikko",
+	"bs-statistics-day": "Päivä",
+	"bs-statistics-list": "Luettelo",
+	"bs-statistics-finish": "Luo diagrammi",
+	"bs-statistics-filters": "Suodattimet",
+	"bs-statistics-diag-number-of-users": "Luotujen käyttäjien määrä",
+	"bs-statistics-label-name": "Nimi",
+	"bs-statistics-label-page": "Sivu",
+	"bs-statistics-label-creator": "Luoja",
+	"bs-statistics-label-time": "Aika",
+	"bs-statistics-filter-category": "Luokka",
+	"bs-statistics-portletconfig-periodday": "Eilen",
+	"bs-statistics-panel-title-result": "Tulos",
+	"bs-statistics-paging-page-size": "Sivun koko"
+}

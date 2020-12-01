@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth",
+			"Robby"
+		]
+	},
+	"bs-tagcloud-desc": "Description of the BlueSpiceTagCloud extension used in Extension credits.",
+	"bs-tagcloud-error-tagtype": "Error message that the given 'store' parameter is not a valid store.\n*$1 is the given store",
+	"bs-tagcloud-error-tagrenderer": "Error message that the given 'renderer' parameter is not a valid renderer.\n*$1 is the given renderer",
+	"bs-tagcloud-tag-tagcloud-name": "Name of the tagcloud tag, used in various contexts",
+	"bs-tagcloud-tag-tagcloud-title": "Title for the tagcloud tag VisualEditor inspector",
+	"bs-tagcloud-tag-tagcloud-desc": "Description of the tagcloud tag shown in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Label of the \"renderer\" attribute input field in the VisualEditor tag inspector\n{{Identical|Type}}",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "Help message for the \"renderer\" attribute input field  in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Label for the option \"text\" of the \"renderer\" attribute input field in the VisualEditor tag inspector\n{{Identical|Text}}",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "Label for the option \"list\" of the \"renderer\" attribute input field in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "Label for the option \"canvas3d\" of the \"renderer\" attribute input field in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "Label of the \"store\" attribute input field in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "Help message for the \"store\" attribute input field  in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Label for the option \"categories\" of the \"store\" attribute input field in the VisualEditor tag inspector\n{{Identical|Category}}",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Label for the option \"searchstats\" of the \"store\" attribute input field in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Label of the \"width\" attribute input field in the VisualEditor tag inspector\n{{Identical|Width}}",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "Help message for the \"width\" attribute input field  in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "Label of the \"showcount\" attribute input field in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "Help message for the \"showcount\" attribute input field  in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Label of the \"minsize\" attribute input field in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "Help message for the \"minsize\" attribute input field  in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Label of the \"maxsize\" attribute input field in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "Help message for the \"maxsize\" attribute input field  in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Label of the \"exclude\" attribute input field in the VisualEditor tag inspector",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "Help message for the \"exclude\" attribute input field  in the VisualEditor tag inspector"
+}

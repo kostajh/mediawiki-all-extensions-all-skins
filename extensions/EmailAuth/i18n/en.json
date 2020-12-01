@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"emailauth-desc": "Verifies suspicious logins by email",
+	"emailauth-token-label": "Verification code",
+	"emailauth-token-help": "One-time 2FA token sent by email.",
+	"emailauth-email-subject": "Your login verification code to $1",
+	"emailauth-email-body": "Your login verification code to $1 is $2",
+	"emailauth-login-message": "You need to verify your login. A verification code has been sent to your email address ($1), please enter that code here.",
+	"emailauth-login-failure": "Invalid verification code!",
+	"emailauth-login-retry-limit": "Too many failures!"
+}

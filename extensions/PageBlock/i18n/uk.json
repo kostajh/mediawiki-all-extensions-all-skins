@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Vlad5250"
+		]
+	},
+	"pageblock-desc": "Уможливлює обмеження для окремих сторінок/користувачів",
+	"pageblock": "Обмежити користувача",
+	"pageblock-legend": "Обмежити доступ користувача",
+	"pageblock-form-title": "Назва сторінки",
+	"pageblock-form-user": "Ім'я користувача",
+	"pageblock-form-edit": "Обмежити користувачеві можливість редагування",
+	"pageblock-form-sameformove": "Застосувати ті ж обмеження для перейменування",
+	"pageblock-form-move": "Обмежити користувачеві можливість перейменування",
+	"pageblock-form-reason": "Причина",
+	"pageblock-success": "$1 обмежено доступ до $2.",
+	"listrestrictions": "Список обмежень",
+	"listrestrictions-legend": "Список обмежень",
+	"pageblock-list-title": "Назва сторінки",
+	"pageblock-list-user": "Ім'я користувача",
+	"pageblock-list-indefonly": "Показати лише безстрокові обмеження",
+	"pageblock-restricted-edit-indef": "$1 обмежено можливість редагування $2 безстроково.",
+	"pageblock-restricted-edit": "$1 обмежено можливість редагування $2 до $3.",
+	"pageblock-restricted-move-indef": "$1 обмежено можливість перейменування $2 безстроково.",
+	"pageblock-restricted-move": "$1 обмежено можливість перейменування $2 до $3.",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|Вам}} обмежено можливість редагування $2 безстроково.",
+	"pageblock-blocked-edit": "{{GENDER:$1|Вам}} обмежено можливість редагування $2 до $3.",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|Вам}} обмежено можливість перейменування $2 безстроково.",
+	"pageblock-blocked-move": "{{GENDER:$1|Вам}} обмежено можливість перейменування до $3.",
+	"logentry-restrict-add-edit-move": "$1 {{GENDER:$2|обмежив|обмежила}} $3 можливість редагування й перейменування $4",
+	"logentry-restrict-add-edit": "$1 {{GENDER:$2|обмежив|обмежила}} $3 можливість редагування $4",
+	"logentry-restrict-add-move": "$1 {{GENDER:$2|обмежив|обмежила}} $3 можливість перейменування $4",
+	"action-page-block": "застосування, зміну чи вилучення сторінки чи обмежень для конкретних користувачів",
+	"right-page-block": "Застосування, зміна чи вилучення сторінки чи обмежень для конкретних користувачів"
+}

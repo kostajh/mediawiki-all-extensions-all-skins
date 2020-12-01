@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Isarra",
+			"Raymond",
+			"Tacsipacsi"
+		]
+	},
+	"splash-skin-desc": "{{desc|what=skin|name=Splash|url=https://www.mediawiki.org/wiki/Skin:Splash}}",
+	"splash-loggedinas": "{{ignore}}\nToggle for dropdown for personal tools menu for logged-in users",
+	"splash-notloggedin": "Userpage link for anonymous users",
+	"splash-userpage": "Label for userpage link in user dropdown",
+	"splash-talkpage": "Label for talkpage link in user dropdown",
+	"splash-page-tools": "More accurate label for page actions dropdown for how we're using it here (tools and actions)",
+	"splash-talk": "Active verb label for talkpage page action link",
+	"splash-jumptonavigation": "Label for navigation jump link",
+	"splash-jumptocontent": "Label for content jump link",
+	"splash-jumptosearch": "Label for search jump link",
+	"splash-toolbox": "Label for toolbox when grouped in with page tools on custom mainpage",
+	"site-banner": "{{ignore}}\nUsed as the banner text for the site.",
+	"global-links-menu": "{{ignore}}\nOptional menu that appears at the top left of the skin, above the banner. Parses like a mini sidebar.",
+	"global-links": "Header message for optional global-links-menu",
+	"content-footer": "{{ignore}}\nOptional footer content to display on all pages after the page content."
+}

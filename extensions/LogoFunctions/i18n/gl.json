@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"logofunctions-desc": "Engadir unha función analítica para establecer o logo do wiki",
+	"logofunctions-filenotexist": "Erro: Non existe o [[:File:$1|ficheiro \"$1\"]]."
+}

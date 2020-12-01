@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"countDownClock-desc": "Додава расчленувачка функција за приказ на одбројувач на време",
+	"countDownClock-invalidtime": "Укажете важечки раслченувач за одбројувањето",
+	"countDownClock-days": "$1 {{PLURAL:$1|ден|дена}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|час|часа}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|минута|минути}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|секунда|секунди}}",
+	"countDownClock-expired": "Истечено"
+}

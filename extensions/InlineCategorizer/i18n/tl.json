@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw",
+			"Sky Harbor"
+		]
+	},
+	"inlinecategorizer-desc": "Ang modulo ng JavaScript na nagpapakaya na tuwirang baguhin, dagdagan at tanggalin ang mga kawing ng kategorya magmula sa isang pahina",
+	"inlinecategorizer-add-category": "Magdagdag ng kategorya",
+	"inlinecategorizer-add-category-submit": "Idagdag",
+	"inlinecategorizer-add-category-summary": "Idagdag ang kategoryang \"$1\"",
+	"inlinecategorizer-api-error": "Nagbalik ng kamalian ang Ugnayang Mukha ng Pagkakaprograma ng Aplikasyon: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "Nagbalik ng isang hindi nakikilalang kamalian ang Ugnayang Mukha ng Pagkakaprograma ng Aplikasyon.",
+	"inlinecategorizer-cancel": "Huwag ituloy ang pagbabago",
+	"inlinecategorizer-cancel-all": "Huwag ituloy ang lahat ng mga pagbabago",
+	"inlinecategorizer-category-already-present": "Ang pahinang ito ay nakaanib na sa kategoryang \"$1\"",
+	"inlinecategorizer-category-hook-error": "Isang katutubong tungkulin ang pumigil sa pagsasagip ng mga pagbabago.",
+	"inlinecategorizer-category-question": "Bakit mo ba gustong gawin ang sumusunod na mga pagbabago:",
+	"inlinecategorizer-confirm-ok": "Sige",
+	"inlinecategorizer-confirm-save": "Sagipin",
+	"inlinecategorizer-confirm-save-all": "Sagipin ang lahat ng mga pagbabago",
+	"inlinecategorizer-confirm-title": "Tiyakin ang galaw",
+	"inlinecategorizer-edit-category": "Baguhin ang kategorya",
+	"inlinecategorizer-edit-category-error": "Hindi naging maaaring baguhin ang kategoryang \"$1\".\nKaraniwan itong nagaganap kapag naidagdag ang kategorya sa pahinang nasa loob ng isang suleras.",
+	"inlinecategorizer-edit-category-summary": "Baguhin ang kategoryang \"$1\" upang maging \"$2\"",
+	"inlinecategorizer-error-title": "Kamalian",
+	"inlinecategorizer-remove-category": "Tanggalin ang kategorya",
+	"inlinecategorizer-remove-category-error": "Hindi naging maaaring tanggalin ang kategoryang \"$1\".\nKaraniwan itong nagaganap kapag naidagdag ang kategorya sa pahinang nasa loob ng isang suleras.",
+	"inlinecategorizer-remove-category-summary": "Tanggalin ang kategoryang \"$1\""
+}

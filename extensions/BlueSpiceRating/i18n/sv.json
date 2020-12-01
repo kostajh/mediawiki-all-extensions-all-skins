@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Josve05a",
+			"Mjälten",
+			"WikiPhoenix"
+		]
+	},
+	"bs-rating-extension-description": "Tillhandahåller ett betygssystem",
+	"bs-rating-types-page": "Sidbetyg",
+	"bs-rating-types-pagelike": "Sidrekommendation",
+	"rating": "Betyg",
+	"recommendations": "Rekommendationer",
+	"bs-rating-yourrating": "Ditt betyg: $1",
+	"bs-rating-special-rating-heading": "Betyg",
+	"bs-rating-articlelike-ratingtext": "Rekommendera ($1)",
+	"bs-rating-articlelike-uratingtextservoted": "Rekommenderad ($1)",
+	"action-rating-viewspecialpage": "visa sidor som är skyddade med rättigheten \"Rating-Viewspecialpage\"",
+	"action-rating-read": "läsa betyg på sidor",
+	"action-rating-write": "rösta på sidor",
+	"action-rating-archive": "ta bort röster från sidor",
+	"right-rating-viewspecialpage": "Visa sidor som är skyddade med rättigheten \"Rating-Viewspecialpage\"",
+	"right-rating-read": "Läsa betyg på sidor",
+	"right-rating-write": "Rösta på sidor",
+	"right-rating-archive": "Ta bort röster från sidor",
+	"bs-rating-special-recommendations-heading": "Rekommendationer",
+	"bs-rating-special-recommendations-label-recommendation": "Rekommendationer",
+	"bs-rating-specialrating-label-namespace": "Namnrymd",
+	"bs-rating-specialrating-titleTitle": "Titel",
+	"bs-rating-specialrating-titleRating": "Betyg",
+	"bs-rating-specialrating-titleVotes": "Antal betyg",
+	"apihelp-bs-rating-tasks-description": "Utför vanliga uppgifter för tillägget Rating",
+	"bs-rating-nsm-label": "Betyg",
+	"bs-rating-nsm-label-recommendations": "Rekommendationer"
+}

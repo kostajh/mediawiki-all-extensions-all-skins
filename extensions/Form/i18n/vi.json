@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"form": "Biểu mẫu",
+	"form-no-name": "Biểu mẫu không có tên",
+	"form-save": "Lưu",
+	"form-article-exists": "Trang đã tồn tại",
+	"form-article-existstext": "Trang [[$1]] đã tồn tại.",
+	"form-save-summary": "Trang mới theo [[Special:Form/$1|biểu mẫu $1]]",
+	"form-save-error": "Lỗi lưu biểu mẫu"
+}

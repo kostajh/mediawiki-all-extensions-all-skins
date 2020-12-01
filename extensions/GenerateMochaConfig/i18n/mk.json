@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"generatemochaconfig-desc": "Скрипта кој создава JSON што служи за пуштање на испробувачи Mocha за сите овозможени додатоци"
+}

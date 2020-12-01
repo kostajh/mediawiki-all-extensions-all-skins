@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-categorycheck-extension-description": "يفحص التصنيف المعين قبل أن يتم حفظ المقالة",
+	"bs-categorycheck-insertcategory-no-category": "الرجاء تعيين تصنيف لهذه المقالة",
+	"bs-categorycheck-insertcategory-ignore-no-category": "تجاهل",
+	"bs-categorycheck-insertcategory-category-list": "يتم تعيين التصنيفئات التالية",
+	"bs-categorycheck-insertcategory-confirm-categories": "التصنيفئات صحيحة",
+	"bs-categorycheck-nsm-label-categorycheck": "فحص التصنيفات"
+}

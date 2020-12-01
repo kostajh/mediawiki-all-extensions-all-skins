@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"viki-desc": "Mohld en Beld vun de Lenks zwesche Sigge em Wikki udder ander Websigge.",
+	"viki-error-title": "Fähler:",
+	"viki-error-missing-pageTitle": "Do moß winneschsdens ein Övverschreff vun ener Sigg aanjävve.",
+	"viki-timeout-content-namespace": "Et hät zoh lang jedohrt, de Nahme vun de Appachtemangs för et Wikki ze holle: $1.\nJäz nämme mer et Schtanndat_Appachtemang.",
+	"viki-error-content-namespace": "Ene Fähler es opjetrodde, beim Versohch, de Ennhallds_Appachtemangs ze holle: $1.\nJäz nämme mer nur et Schtanndat_Appachtemang.",
+	"viki-error-visit-node": "Ene Fähler es opjetrodde beim Besöhke vun dä Sigg „$1“.",
+	"viki-error-external-links": "Ene Fähler es opjetroode beim Lahde vun Lengks noh ußerhallef för di Sigg: $1.",
+	"viki-error-intrawiki-out": "Ene Fähler es opjetroode beim Lahde vun Lengks, di von dä Sigg „$1“ em Wikki op ander Sigge em sällve Wikki jonn.",
+	"viki-error-intrawiki-in": "Ene Fähler es opjetroode beim Lahde vun Lengks, di von andere Sigge heh em Wikki op di Sigg „$1“ jonn."
+}

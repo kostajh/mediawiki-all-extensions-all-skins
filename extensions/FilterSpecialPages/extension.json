@@ -1,0 +1,38 @@
+{
+	"name": "FilterSpecialPages",
+	"author": "Leonid Verhovskij",
+	"url": "https://www.mediawiki.org/wiki/Extension:FilterSpecialPages",
+	"descriptionmsg": "filterspecialpages-desc",
+	"version": "0.9",
+	"license-name": "GPL-3.0+",
+	"type": "other",
+	"manifest_version": 1,
+	"AutoloadClasses": {
+		"FilterSpecialPages": "FilterSpecialPages.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "FilterSpecialPages::onBeforePageDisplay"
+	},
+	"MessagesDirs": {
+		"FilterSpecialPages": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.filterspecialpages": {
+			"scripts": [
+				"resources/ext.filterspecialpages.js"
+			],
+			"messages": [
+				"filterspecialpages-hint-label"
+			],
+			"dependencies": [
+				"oojs-ui"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "FilterSpecialPages"
+	}
+}

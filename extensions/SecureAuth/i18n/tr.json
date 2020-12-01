@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda"
+		]
+	},
+	"secureauth-desc": "Kullanıcıya  Giriş için IP eklemesine izin ver. Başka bir IP'den giriş başarısız olacaktır.",
+	"secureauthinfo": "SecureAuthInfo",
+	"special-secureauth-info": "Güvenli Kimlik Doğrulama Bilgileri",
+	"secureauth-info-userinfo": "Kullanıcı Bilgisi",
+	"secureauth-current-ip": "Mevcut Giriş IP'niz:",
+	"secureauth-whitelist-ip": "Kullanıcı adınız için Beyaz Liste'ye dahil olan IP'ler:",
+	"action-sa-access": "SecureAuthInfo erişim",
+	"right-sa-access": "Kullanıcının [[Special:SecureAuthInfo|SecureAuthInfo]] öğesine erişmesine izin ver"
+}

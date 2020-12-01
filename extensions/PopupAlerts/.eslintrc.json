@@ -1,0 +1,26 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"env": {
+		"browser": true
+	},
+	"globals": {
+		"mediaWiki": false,
+		"jQuery": false,
+		"ve": false
+	},
+	"rules": {
+		"linebreak-style": "off",
+		"no-new": "off",
+		"quote-props": [
+			"error",
+			"as-needed"
+		],
+		"max-len": "off",
+		"no-jquery/no-global-selector": "off"
+	}
+}

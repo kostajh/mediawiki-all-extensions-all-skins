@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Darth Kule"
+		]
+	},
+	"onlinestatusbar-desc": "Barra di stato che mostra se un utente è online sulla sua pagina utente",
+	"prefs-onlinestatus": "Stato online",
+	"onlinestatusbar-used": "Mostra il tuo stato online nella tua pagina utente",
+	"onlinestatusbar-hide": "Nascondi la barra di stato sulle pagine degli utenti, per poter utilizzare solo la magic word (per utenti esperti)",
+	"onlinestatusbar-away": "Considera automaticamente come lontano dopo l'intervallo di tempo definito",
+	"onlinestatusbar-purge": "Aggiorna la pagina utente ogni volta che accedi o esci",
+	"onlinestatusbar-status": "Qual è lo stato predefinito che vuoi usare?",
+	"onlinestatusbar-away-time": "Quanti minuti prima di essere considerato lontano:",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Connesso|Connessa|Connesso/a}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Occupato|Occupata|Occupato/a}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Lontano|Lontana|Lontano/a}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Nascosto|Nascosta|Nascosto/a}}",
+	"onlinestatusbar-title-offline": "Non {{GENDER:$1|connesso|connessa|connesso/a}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Sconosciuto|Sconosciuta|Sconosciuto/a}}",
+	"onlinestatusbar-tooltip-online": "Questo utente è attualmente {{GENDER:$1|connesso|connessa|connesso/a}}",
+	"onlinestatusbar-tooltip-busy": "Questo utente è attualmente {{GENDER:$1|occupato|occupata|occupato/a}} e potrebbe non essere disponibile",
+	"onlinestatusbar-tooltip-away": "Questo utente è attualmente {{GENDER:$1|lontano|lontana|lontano/a}} e potrebbe non essere disponibile",
+	"onlinestatusbar-tooltip-offline": "Questo utente è attualmente non {{GENDER:$1|connesso|connessa|connesso/a}}",
+	"onlinestatusbar-tooltip-unknown": "Lo stato di questo utente è {{GENDER:$1|sconosciuto}}"
+}

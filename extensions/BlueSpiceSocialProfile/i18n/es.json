@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"MarcoAurelio"
+		]
+	},
+	"bs-socialprofile-type": "Perfil",
+	"bs-socialprofile-entityaction-changeimage": "Imagen de usuario",
+	"bs-social-entityaction-editprofilefields": "Datos de perfil",
+	"bs-social-profile-field-name": "Nombre",
+	"bs-social-profile-field-email": "Dirección de correo electrónico",
+	"bs-social-profile-field-title": "Título",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Señor|Señora|Señor/a}}",
+	"bs-social-profile-field-department": "Departamento",
+	"bs-social-profile-field-function": "Función",
+	"bs-social-profile-field-location": "Ubicación",
+	"bs-social-profile-field-phone": "Teléfono",
+	"bs-socialprofile-special-profiles-heading": "Perfiles",
+	"bs-social-profile-infoshowemail": "Mostrar dirección de correo electrónico en el perfil",
+	"socialprofiles": "Perfiles",
+	"bs-socialprofile-switch-classicprofile-label": "Perfil clásico",
+	"bs-socialprofile-switch-modernprofile-label": "Perfil moderno",
+	"action-socialprofile-viewspecialpage": "ver la página especial «{{int:socialprofiles}}»",
+	"right-socialprofile-viewspecialpage": "Ver la página especial «{{int:socialprofiles}}»"
+}

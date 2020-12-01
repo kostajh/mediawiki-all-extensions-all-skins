@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Cwlin0416",
+			"Kly"
+		]
+	},
+	"markashelpful-desc": "提供用來標記評論為有幫助的使用者介面",
+	"mah-mark-text": "標記為有幫助",
+	"mah-you-marked-text": "您認為有幫助",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 認為有幫助}}",
+	"mah-undo-mark-text": "還原",
+	"mah-action-error": "執行此操作中出錯",
+	"apihelp-getmarkashelpfulitem-description": "取得對象項目全部的有幫助狀態之清單。",
+	"apihelp-getmarkashelpfulitem-summary": "取得對象項目全部的有幫助狀態之清單。",
+	"apihelp-getmarkashelpfulitem-param-type": "標記為有幫助的對象類型。",
+	"apihelp-getmarkashelpfulitem-param-item": "標記為有幫助的對象類型。",
+	"apihelp-getmarkashelpfulitem-param-prop": "要取得的屬性。",
+	"apihelp-getmarkashelpfulitem-param-page": "請求項目的頁面。",
+	"apihelp-markashelpful-description": "允許使用者標記或取消標記在網站裡的對象類型為有幫助。",
+	"apihelp-markashelpful-summary": "允許使用者標記或取消標記在網站裡的對象類型為有幫助。",
+	"apihelp-markashelpful-param-mahaction": "是否標記或取消標記一個項目為有幫助。",
+	"apihelp-markashelpful-param-page": "項目被標記的頁面。",
+	"apihelp-markashelpful-param-type": "標記為有幫助的對象類型。",
+	"apihelp-markashelpful-param-item": "標記為有幫助的對象類型。",
+	"apihelp-markashelpful-param-useragent": "瀏覽器的使用者代理標頭。",
+	"apihelp-markashelpful-param-system": "使用的作業系統。",
+	"apihelp-markashelpful-param-locale": "使用的區域。"
+}

@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"newsticker": "Difusor de Notícias",
+	"newsticker-desc": "Adiciona uma palavra mágica que mostra um difusor de notícias que pode ser configurado a partir de uma página especial.",
+	"newsticker-summary": "Página especial para definir o conteúdo e as páginas do difusor de notícias",
+	"newsticker-general": "Geral",
+	"newsticker-news": "Notícias",
+	"newsticker-class": "Classe",
+	"newsticker-style": "Estilo",
+	"newsticker-pages": "Páginas",
+	"newsticker-page1": "Página 1",
+	"newsticker-page2": "Página 2",
+	"newsticker-page3": "Página 3",
+	"newsticker-page4": "Página 4",
+	"newsticker-page5": "Página 5",
+	"newsticker-page6": "Página 6",
+	"newsticker-page7": "Página 7",
+	"newsticker-page8": "Página 8",
+	"newsticker-page9": "Página 9",
+	"newsticker-title": "Título",
+	"newsticker-add-page": "Adicionar página",
+	"newsticker-default-news-help": "Definir as notícias padrão para todos os difusores de notícias. Uma notícia por linha, texto wiki é permitido.",
+	"newsticker-default-class-help": "Definir as classes CSS padrão para todos os difusores de notícias.",
+	"newsticker-default-style-help": "Definir o estilo CSS padrão para todos os difusores de notícias.",
+	"newsticker-pages-help": "Definir o número de páginas que mostrarão o difusor de notícias, para que esta página especial possa mostrar uma secção por cada página. Cuidado! Se reduzir o número de páginas, os dados das páginas deixadas de fora serão perdidos!",
+	"newsticker-title-help": "Definir o título da página onde mostrar este difusor de notícias.",
+	"newsticker-news-help": "Definir as notícias para este difusor de notícias, substituindo as notícias por omissão.",
+	"newsticker-class-help": "Definir as classes CSS para este difusor de notícias, substituindo as classes CSS por omissão.",
+	"newsticker-style-help": "Definir o estilo CSS para este difusor de notícias, substituindo o estilo CSS por omissão.",
+	"right-newsticker": "Gerir difusores de notícias",
+	"action-newsticker": "gerir difusores de notícias"
+}

@@ -1,0 +1,29 @@
+@import '../variables.less';
+
+@media screen {
+	.client-js {
+		@media ( max-width: 700px ) {
+			#ca-edit {
+				a {
+					.ca-icon( '../images/pencil-source-blue' );
+					.ca-icon-only();
+				}
+
+				&.selected a {
+					background-image: url( ../images/pencil-source.svg );
+				}
+			}
+
+			#ca-ve-edit {
+				a {
+					.ca-icon( '../images/pencil-blue' );
+					.ca-icon-only();
+				}
+
+				&.selected a {
+					background-image: url( ../images/pencil.svg );
+				}
+			}
+		}
+	}
+}

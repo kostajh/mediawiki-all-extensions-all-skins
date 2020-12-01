@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
+		]
+	},
+	"bs-insertlink-desc": "Caixa de diálogo para digitar um link",
+	"prefs-insertlink": "Inserir link",
+	"bs-insertlink": "Inserir link",
+	"bs-insertlink-pref-enable-java": "Habilitar aplicativo Java",
+	"bs-insertlink-button-title": "Inserir/editar link",
+	"bs-insertlink-dialog-title": "Inserir link",
+	"bs-insertlink-tab-wiki-page": "Página Wiki",
+	"bs-insertlink-tab-ext-link": "Ligação externa",
+	"bs-insertlink-tab-email": "Email-link",
+	"bs-insertlink-tab-file": "Link para o arquivo",
+	"bs-insertlink-label-page": "Página",
+	"bs-insertlink-label-link": "Link",
+	"bs-insertlink-label-mail": "Endereço de e-mail",
+	"bs-insertlink-label-description": "Descrição",
+	"bs-insertlink-label-file": "Arquivo",
+	"bs-insertlink-label-searchfile": "Pesquisar …",
+	"bs-insertlink-select-a-page": "Escolha o alvo ...",
+	"bs-insertlink-select-a-namespace": "(Páginas)",
+	"bs-insertlink-empty-field-text": "Para inserir um link, deve definir um destinatário.",
+	"bs-insertlink-no-applet": "Não foi possível carregar a <i>applet</i>. Verifique a sua instalação do Java, por favor.",
+	"bs-insertlink-internal-file-link-button-label": "Escolha o arquivo",
+	"bs-insertlink-external-file-switch-label": "Caminho de compartilhamento de rede (URI)",
+	"bs-insertlink-pref-filesystemmap": "Locais permitidos para arquivos externos",
+	"bs-insertlink-pref-filesystemmap-fs-prefix": "Prefixo do sistema de arquivos",
+	"bs-insertlink-pref-filesystemmap-web-prefix": "Prefixo acessível pela Web",
+	"bs-insertlink-pref-allowunmapped": "Permitir links não mapeados"
+}

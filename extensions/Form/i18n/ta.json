@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Karthi.dr",
+			"TRYPPN"
+		]
+	},
+	"form": "படிவம்",
+	"form-bad-name": "மோசமான படிவப் பெயர்",
+	"form-bad-name-text": "இந்தப் பெயரில் எந்தப் படிவமும் இல்லை.",
+	"form-pattern": "$1-படிவம்",
+	"form-save": "சேமி",
+	"form-article-exists": "இப்பக்கம் உள்ளது",
+	"form-article-existstext": " பக்கம் [[$1]] ஏற்கனவே உள்ளது.",
+	"form-bad-page-name": "மோசமான பக்கப் பெயர்",
+	"form-save-error": "படிவத்தைச் சேமிப்பதில் பிழை",
+	"form-save-error-text": "'$1' பக்கத்தைச் சேமிப்பதில் அறியப்படாத ஒரு தவறு நேர்ந்தது."
+}

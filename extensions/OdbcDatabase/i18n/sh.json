@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"odbcdatabase": "Baza podataka Odbc",
+	"odbcdatabase-desc": "Upravljački program koji koristi PHP-biblioteku <code>odbc_*</code>  za narudžbe za podršku dodatka za vanjske podatke",
+	"odbcdatabase-odbc-missing": "Funkcije za ODBC nedostaju. Morate imati uspostavljen <code>PHP:ODBC</code>.",
+	"odbcdatabase-connection-error": "Greška pri povezivanju s poslužiteljem [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Ne mogu osloboditi ishod ODBC-a",
+	"odbcdatabase-fetch-object-error": "Greška pri dobijanju predmeta: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Greška pri dobijanju nizke: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "Funkcija insertId() nije podržana.",
+	"odbcdatabase-unknown-server-version": "Nepoznata verzija ODBC-poslužitelja."
+}

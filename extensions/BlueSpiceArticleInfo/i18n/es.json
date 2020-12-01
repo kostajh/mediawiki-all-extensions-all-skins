@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Astroemi",
+			"Carlosmg.dg",
+			"Fitoschido",
+			"MarcoAurelio",
+			"Mcervera"
+		]
+	},
+	"bs-articleinfo-desc": "Proporciona información sobre una página en la barra de estado",
+	"prefs-articleinfo": "Información de la página",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalo de actualización en segundos:",
+	"bs-articleinfo-flyout-title": "Información de la página",
+	"bs-articleinfo-nav-link-title": "Información de la página",
+	"bs-articleinfo-flyout-categorylinks-title": "Categorías",
+	"bs-articleinfo-flyout-templatelinks-title": "Plantillas utilizadas en la página",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "No se asignó ninguna categoría",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "No se utiliza ninguna plantilla",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Última edición",
+	"bs-articleinfo-flyout-lastediteduser-text": "Último editor",
+	"bs-articleinfo-newrevision-info-text": "Hay una versión nueva de esta página. Vuelve a cargarla para ver el contenido más reciente.",
+	"bs-articleinfo-flyout-subpages-title": "Subpáginas",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáginas",
+	"bs-articleinfo-dialog-subpages-title": "Subpáginas"
+}

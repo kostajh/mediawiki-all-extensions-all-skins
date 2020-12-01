@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erelon",
+			"Steeve815",
+			"Yona b"
+		]
+	},
+	"countDownClock-invalidtime": "יש להוסיף פרמטר זמן סיום (endTime) תקין",
+	"countDownClock-days": "{{PLURAL:$1|יום אחד|יומיים|$1 ימים}}",
+	"countDownClock-hours": "{{PLURAL:$1|שעה|שעתיים|$1 שעות}}",
+	"countDownClock-minutes": "{{PLURAL:$1|דקה|$1 דקות}}",
+	"countDownClock-seconds": "{{PLURAL:$1|שנייה אחת|$1 שניות}}",
+	"countDownClock-expired": "פג־תוקף"
+}

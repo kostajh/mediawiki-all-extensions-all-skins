@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Felipe L. Ewald"
+		]
+	},
+	"apihelp-parsoid-batch-description": "Batching API (para Parsoid) para fazer pedidos de API MediaWiki em massa",
+	"apihelp-parsoid-batch-summary": "API Batch para o Parsoid",
+	"apihelp-parsoid-batch-param-batch": "Pedidos de API de ação (max 500 por correspondência).",
+	"apierror-parsoid-batch-notallowed": "Endereço IP do cliente não está em ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "Lote inválido, deve ser matriz.",
+	"apierror-parsoid-batch-batchtoolarge": "Lote muito grande, o limite é de 500.",
+	"apierror-parsoid-batch-invalidaction": "Ação inválida no índice de item $1.",
+	"apierror-parsoid-batch-texttoobig": "O texto de entrada excede o tamanho máximo da página.",
+	"apierror-parsoid-batch-invalidtitle": "Título inválido ($1).",
+	"apierror-parsoid-batch-mustbescalar": "O parâmetro <var>$1</var> deve ser um escalar.",
+	"apierror-parsoid-batch-mustbearray": "O parâmetro <var>$1</var> deve ser uma matriz."
+}

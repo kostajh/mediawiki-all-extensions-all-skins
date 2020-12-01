@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"listings-desc": "Engade etiquetas para listar localizacións",
+	"listings-unknown": "Destino descoñecido",
+	"listings-phone": "teléfono",
+	"listings-fax": "fax",
+	"listings-email": "correo electrónico",
+	"listings-tollfree": "gratuíto",
+	"listings-checkin": "Inscrición: $1",
+	"listings-checkout": "saída: $1",
+	"listings-position": "posición: $1"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"bs-socialcomments-type": "Коментар",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Коментар|Коментари}} ($1)",
+	"bs-socialcomments-header-create": "Коментар",
+	"bs-social-notifications-email-comment-create-subject": "Корисникот {{GENDER:$1|$2 направи}} нов коментар",
+	"bs-social-notification-comment-primary-link-label": "Прегледај коментар",
+	"bs-social-notification-comment-parentowner-label": "Создател на објавата: $1",
+	"bs-social-notification-comment-parententity-label": "Прегледај објава"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly"
+		]
+	},
+	"configmanager-admintool-label": "設置管理工具",
+	"action-configmanager-viewspecialpage": "檢視特殊頁面「{{int:configmanager}}」",
+	"configmanager": "設定管理工具",
+	"configmanager-desc": "為管理員提供可從一個特定頁面來設置整個 wiki",
+	"configmanager-discardchanges": "放棄變更？",
+	"configmanager-noentry": "查無項目",
+	"apihelp-configmanager-tasks-summary": "管理任務",
+	"apihelp-configmanager-store-summary": "管理儲存",
+	"right-configmanager-viewspecialpage": "存取特殊頁面 [[Special:ConfigManager]] 的權限。"
+}

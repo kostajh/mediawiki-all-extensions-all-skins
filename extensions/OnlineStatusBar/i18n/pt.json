@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"onlinestatusbar-desc": "Barra de estado que indica se um utilizador está ligado, localizada na sua página de utilizador",
+	"prefs-onlinestatus": "Estado de ligação",
+	"onlinestatusbar-used": "Mostrar o seu estado de ligação nas suas páginas de utilizador",
+	"onlinestatusbar-hide": "Ocultar a barra de estado nas páginas de utilizador, a fim de utilizar apenas a palavra mágica (Para utilizadores avançados)",
+	"onlinestatusbar-away": "Tratar automaticamente como ausente após um intervalo definido",
+	"onlinestatusbar-purge": "Purgar a página de utilizador sempre que iniciar ou terminar uma sessão",
+	"onlinestatusbar-status": "Qual é o estado por omissão que deseja usar?",
+	"onlinestatusbar-away-time": "Após quantos minutos será marcado como ausente?",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Ligado|Ligada}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Ocupado|Ocupada}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Ausente}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Oculto|Oculta}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Desligado|Desligada}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Desconhecido}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Este utilizador está agora ligado|Esta utilizadora está agora ligada}}",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Este utilizador está ocupado|Esta utilizadora está ocupada}} e pode estar indisponível",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Este utilizador|Esta utilizadora}} está ausente e pode estar indisponível.",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Este utilizador está desligado|Esta utilizadora está desligada}}",
+	"onlinestatusbar-tooltip-unknown": "O estado {{GENDER:$1|deste utilizador|desta utilizadora}} é desconhecido",
+	"apihelp-query+onlinestatus-description": "Devolve o estado de ligação e o sexo de um utilizador",
+	"apihelp-query+onlinestatus-summary": "Devolve o estado de ligação e o sexo de um utilizador",
+	"apihelp-query+onlinestatus-param-user": "Nome do utilizador de quem pretende saber o estado",
+	"apihelp-query+onlinestatus-example": "Mostrar o estado de ligação de Petrb"
+}

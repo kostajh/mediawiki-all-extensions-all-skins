@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"userexport-desc": "Biedt de mogelijkheid om gebruikersinformatie te exporteren naar een CSV bestand",
+	"userexport": "Exporteer gebruikersinformatie",
+	"userexport-submit": "Exporteren",
+	"userexport-badtoken": "Ongeldig bewerkingstoken",
+	"userexport-description": "Deze pagina biedt de mogelijkheid om gebruikersinformatie (gebruikersnaam en e-mail) van alle geregistreerde gebruikers op deze wiki te exporteren naar een CSV bestand.",
+	"right-userexport": "Gebruikersinformatie in bulk exporteren",
+	"action-userexport": "gebruikersinformatie van deze wiki in bulk te exporteren"
+}

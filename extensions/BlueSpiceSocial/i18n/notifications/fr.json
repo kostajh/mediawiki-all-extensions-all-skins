@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094"
+		]
+	},
+	"echo-category-title-bs-social-entity-cat": "Actions d’entité sur les pages suivies",
+	"bs-social-notifications-entity-create": "Entité sociale de type « $1 » créée",
+	"bs-social-notifications-email-entity-create-subject": "Entité sociale de type « $1 » créée",
+	"bs-social-notifications-email-entity-create-body": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} $2 a créé une nouvelle « $3 »",
+	"bs-social-notifications-email-entity-create-text-body": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} $2 a créé une nouvelle « $3 » avec le texte suivant :\n$4",
+	"bs-social-notifications-web-entity-create-body": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} $2 a créé une nouvelle « $3 »",
+	"bs-social-notifications-entity-edit": "L’entité sociale de type « $1 » a été modifiée",
+	"bs-social-notifications-email-entity-edit-subject": "L’entité sociale de type « $1 » a été modifiée",
+	"bs-social-notifications-email-entity-edit-body": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} $2 a modifié l’entité sociale de type « $3 »",
+	"bs-social-notifications-email-entity-edit-text-body": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} $2 a modifié l’entité sociale de type « $3 » avec le texte suivant :\n$4",
+	"bs-social-notifications-web-entity-edit-body": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} $2 a modifié l’entité sociale de type « $3 »",
+	"bs-social-notifications-entity-delete": "L’entité sociale de type « $1 » a été supprimée",
+	"bs-social-notifications-email-entity-delete-subject": "L’entité sociale de type « $1 » a été supprimée",
+	"bs-social-notifications-email-entity-delete-body": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} $2 a supprimé l’entité sociale de type « $3 »",
+	"bs-social-notifications-web-entity-delete-body": "{{GENDER:$1|L’utilisateur|L’utilisatrice}} $2 a supprimé l’entité sociale de type « $3 »",
+	"bs-social-notification-primary-link-label": "Afficher l’entité"
+}

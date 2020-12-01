@@ -1,0 +1,188 @@
+@import "../dimensions.less";
+@import "../fonts.less";
+
+.dynamic-graphical-list-body {
+	.bs-flyout-tabbed-data-view	.preview {
+		.x-panel-body.x-panel-body-default {
+			overflow: auto;
+		}
+		.thumbnail{
+			@image-width: 207px;
+			@image-height: 200px;//268px;
+			@thumbnail-width: 240px;
+			@thumbnail-height: 366px; //calc( @thumbnail-width * 16 / 9 );
+			@caption-width: 207px;
+			@caption-height: @image-height + 66px + 68px;
+
+			@thumbnail-padding: ( @thumbnail-width - @caption-width ) / 2;
+			@caption-padding-x: 0;
+			@caption-padding-y: 0;
+
+			@actions-height: 33px;
+
+			width: @thumbnail-width;
+			height: @thumbnail-height;
+			padding: @thumbnail-padding;
+			display: inline-block;
+			margin-right: 20px;
+			background-color: transparent;
+			border: none;
+			div.caption {
+				height: @caption-height;
+				width: @caption-width;
+				padding: @caption-padding-x @caption-padding-y;
+				a{
+					height: 100%;
+					&:hover {
+						text-decoration: none;
+					}
+				}
+				.image {
+					height: @image-height;
+					max-height: @image-height;
+					width: @image-width;
+					max-width: @image-width;
+					text-align: center;
+					overflow: hidden;
+					border: 1px solid currentcolor;
+					border-bottom: none;
+					padding: 10px;
+					&:not( .loaded ) {
+						/* @embed */
+						background-image: url('../../images/common/ajax-loader.gif');
+						background-position: center center;
+						background-repeat: no-repeat;
+					}
+					img {
+						max-width: 100%;
+					}
+				}
+				.title {
+					height: 1.8em;
+					display:block;
+					font-size: 110%;
+					font-weight: @font-weight-medium;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					padding: 3px 8px 3px 8px;
+					border: 1px solid currentcolor;
+					border-bottom: none;
+				}
+				.meta {
+					height: ~"calc( @{caption-height} - @{image-height} - 1.8em - 5px)";
+					font-weight: @font-weight-medium;
+					display:block;
+					font-size: 80%;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					border: 1px solid currentcolor;
+					border-top: none;
+				}
+				ul.meta {
+					padding: 3px 8px 0 8px;
+					&>li {
+						list-style: none;
+						text-overflow: ellipsis;
+						overflow: hidden;
+					}
+				}
+			}
+			&.has-actions div.caption {
+				height: @caption-height - @actions-height;
+			}
+			div.actions {
+				height: @actions-height;
+				border: 1px solid currentcolor;
+				border-bottom: none;
+				a {
+					float: right;
+					height: 32px;
+					padding: 5px;
+					&::after {
+						content: "\f141";
+						font-family: fontawesome;
+						padding-top: 3px;
+						padding-bottom: 3px;
+						padding-left: 5px;
+						font-size: 150%;
+					}
+					&:hover {
+						text-decoration: none;
+					}
+				}
+			}
+		}
+
+		.thumbnail.thumb-add{
+			@image-width: 207px;
+			@image-height: 268px;
+			@caption-width: @image-width;
+			@caption-height: @image-height;
+			@caption-padding-x: 0;
+			@caption-padding-y: 0;
+			@thumbnail-width: 240px;
+			@thumbnail-padding: ( @thumbnail-width - @caption-width ) / 2;
+			@thumbnail-height: ~"calc( 268px + @{thumbnail-padding} * 2 )";
+
+
+			width: @thumbnail-width;
+			height: @thumbnail-height;
+			padding: @thumbnail-padding;
+			display: inline-block;
+			margin-right: 20px;
+			background-color: transparent;
+			float: left;
+			div.caption.first {
+				height: @caption-height;
+				width: @caption-width;
+				padding: @caption-padding-x @caption-padding-y;
+				border: 1px solid currentcolor;
+				a {
+					height: 100%;
+					display: block;
+					&>span {
+							display: none;
+					}
+					&:hover {
+						text-decoration: none;
+					}
+					&::before {
+						font-size: 64px;
+						line-height: 64px;
+						content: '\e980';
+						padding-top: ~"calc( ( @{caption-height} - 64px ) / 2 )";
+						font-family: 'entypo';
+						text-align: center;
+						display: block;
+						margin-top: 0px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// div.actions menu
+.x-menu.x-layer.x-menu-default.x-border-box {
+	.x-menu-bodyWrap {
+		.x-menu-body.x-menu-body.x-unselectable.x-menu-body-default.x-box-layout-ct.x-menu-body-default.x-noborder-trbl {
+			.x-box-inner.x-box-scroller-body-vertical {
+				.x-box-target {
+					.x-menu-item.x-menu-item-default.x-box-item.x-menu-item-plain {
+						a{
+							display: block;
+							width: 100%;
+							height: 32px;
+							padding: 5px 15px;
+							&:hover {
+								text-decoration: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

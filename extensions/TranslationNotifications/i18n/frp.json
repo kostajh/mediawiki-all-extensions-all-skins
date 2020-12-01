@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"translationnotifications-info": "Enformacions sur l’utilisator",
+	"translationnotifications-username": "Nom d’utilisator :",
+	"translationnotifications-emailstatus": "Ètat du mèssâjo :",
+	"translationnotifications-languages": "Lengoues",
+	"translationnotifications-lang": "Lengoua numerô $1",
+	"translationnotifications-nolang": "Chouèsésséd na lengoua",
+	"translationnotifications-cmethod-email": "Mèssageria èlèctronica",
+	"translationnotifications-cmethod-talkpage": "Pâge de discussion",
+	"translationnotifications-cmethod-talkpage-elsewhere": "Pâge de discussion sur un ôtro vouiqui",
+	"translationnotifications-cmethod-feed": "Flux",
+	"translationnotifications-priority": "Prioritât :",
+	"translationnotifications-priority-high": "hôta",
+	"translationnotifications-priority-medium": "moyena",
+	"translationnotifications-priority-low": "bâssa",
+	"translationnotifications-priority-unset": "(pas dèfenia)",
+	"translationnotifications-notification-url-listitem": "traduire en $1",
+	"translationnotifications-edit-summary": "Notificacion de traduccion : $1",
+	"translationnotifications-log-alllanguages": "totes les lengoues",
+	"translationnotifications-nodeadline": "niona"
+}

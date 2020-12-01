@@ -1,0 +1,47 @@
+GET <index>/socialentity/_search
+
+GET <index>/socialentity/_search
+{
+    "_source": {
+      "includes" : [ "entitydata.*"  ]
+    },
+    "query" : {
+        "term": {
+          "entitydata.type": "microblog"
+        }
+    },
+    "sort" : [
+		{ 
+			"entitydata.timestampcreated" : {
+				"order" : "desc"
+			}
+		}
+   ]
+}
+
+
+//"Give me all documents that have 'entitydata.parentid' set to 0 AND 'entitydata.type' set to 'microblog' OR 'profile'!"
+GET master/_search
+{
+    "_source": {
+        "includes": [
+            "entitydata.*"
+        ]
+    },
+    "query": {
+        "bool": {
+            "filter": [{
+                "term": { "entitydata.parentid": 0 }
+            },
+            {
+                "terms": { "entitydata.type": [ "microblog", "profile" ] }
+            }]
+        }
+    },
+    "sort": {
+        "entitydata.timestampcreated": {
+            "order": "desc",
+            "unmapped_type": "date"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lloffiwr",
+			"Robin Owain"
+		]
+	},
+	"wlm-extension-desc": "Yn ychwanegu negeseuon a gwybodaeth am y gystadleuaeth tynnu lluniau Wiki Loves Monuments",
+	"wlm-no-contest-year": "Ni chafwyd cystadleuaeth Wiki Loves Monuments yn $1.",
+	"wlm-no-url-bad-country": "Nid oeddwn yn gallu cael hyd i wefan gystadlu sy'n cyfateb i'r côd a roddwyd. Nid yw $1 yn gôd gwlad dilys.",
+	"wlm-country-not-given": "Mae angen i chi roi côd y wlad.",
+	"wlm-country-not-participating-year": "Nid yw «$1» ymhlith y gwledydd sy'n rhan o Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "Gwledydd eraill",
+	"wlm-international-contest": "Rhyngwladol",
+	"wlm-text-contact": "Cysylltu",
+	"wlm-text-contest": "Y gystadleuaeth",
+	"wlm-text-donate": "Rhoi arian",
+	"wlm-text-faq": "FAQ",
+	"wlm-text-jury": "Y rheithgor",
+	"wlm-text-monuments": "Yr henebion",
+	"wlm-text-news": "Newyddion",
+	"wlm-text-participate": "Ymunwch yn yr hwyl!",
+	"wlm-text-prizes": "Y gwobrwyon",
+	"wlm-text-rules": "Y rheolau",
+	"wlm-text-sponsors": "Y noddwyr",
+	"wlm-text-uploading": "Uwchlwytho"
+}

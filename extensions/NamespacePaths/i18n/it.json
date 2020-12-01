@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"namespacepaths-desc": "Permette di mappare percorsi personalizzati ai namespace; per esempio si può mappare la pagina <tt>Aiuto:Pagina</tt> verso <tt>/aiuto/Pagina</tt> anziché <tt>/wiki/Aiuto:Pagina</tt>"
+}

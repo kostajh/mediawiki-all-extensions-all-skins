@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Sator",
+			"Subi",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"pagetriage-please-wait": "Itxaron mesedez...",
+	"pagetriage-newest": "Berrienak",
+	"pagetriage-oldest": "Zaharrenak",
+	"pagetriage-filter-show-heading": "Erakutsi:",
+	"pagetriage-filter-article": "Artikulu",
+	"pagetriage-stats-less-than-a-day": "egun bat baino gutxiago",
+	"pagetriage-filter-ns-all": "Guztiak",
+	"pagetriage-more": "Gehiago",
+	"pagetriage-filter-stat-all": "Guztiak",
+	"pagetriage-button-add-tag": "Gehitu hautatutako etiketak",
+	"pagetriage-button-add-tag-number": "Gehitu hautatutako $1 etiketak",
+	"pagetriage-button-add-parameters": "Gehitu parametroak",
+	"pagetriage-button-add-details": "Gehitu xehetasunak",
+	"pagetriage-button-edit-details": "Editatu xehetasunak",
+	"pagetriage-tags-cat-metadata-label": "Metadatuak",
+	"pagetriage-tags-cat-neutrality-label": "Neutraltasuna",
+	"pagetriage-tags-cat-sources-label": "Jatorriak",
+	"pagetriage-tags-cat-structure-label": "Egitura",
+	"pagetriage-tags-cat-verifiability-label": "Egiaztagarritasuna",
+	"pagetriage-tags-cat-writingstyle-label": "Idazkera",
+	"pagetriage-tags-cat-moretags-label": "Etiketa gehiago",
+	"pagetriage-tags-cat-all-label": "Etiketa guztiak",
+	"pagetriage-tags-param-article-label": "Artikulu:",
+	"pagetriage-tags-param-date-label": "Data:",
+	"pagetriage-tags-param-free-yes-label": "Bai",
+	"pagetriage-tags-param-free-no-label": "Ez",
+	"pagetriage-info-history-header": "Historia",
+	"pagetriage-info-help": "laguntza",
+	"pagetriage-info-problem-no-categories": "Kategoriarik gabe",
+	"pagetriage-toolbar-close": "Itxi"
+}

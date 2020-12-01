@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Fitoschido",
+			"Macofe",
+			"MarcoAurelio"
+		]
+	},
+	"pageblock-desc": "Permite restricciones por página o por usuario",
+	"pageblock": "Restringir usuario",
+	"pageblock-legend": "Restringir usuario",
+	"pageblock-form-title": "Nombre de la página",
+	"pageblock-form-user": "Nombre de usuario",
+	"pageblock-form-reason": "Motivo",
+	"listrestrictions": "Enumerar restricciones",
+	"listrestrictions-legend": "Enumerar restricciones",
+	"pageblock-list-title": "Nombre de la página",
+	"pageblock-list-user": "Nombre de usuario",
+	"pageblock-list-indefonly": "Mostrar solo restricciones indefinidas",
+	"right-page-block": "Aplicar, modificar o eliminar restricciones a páginas o usuarios específicos"
+}

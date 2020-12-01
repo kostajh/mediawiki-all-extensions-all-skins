@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"odbcdatabase": "Base de datos Odbc",
+	"odbcdatabase-desc": "Controlador que usa a biblioteca de comandos PHP <code>odbc_*</code> para soportar a extensión de datos externos",
+	"odbcdatabase-odbc-missing": "Faltan funcións ODBC. Asegúrese que <code>PHP:ODBC</code> está instalado.",
+	"odbcdatabase-connection-error": "Erro conectando ao servidor [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Imposible liberar o resultado ODBC",
+	"odbcdatabase-fetch-object-error": "Erro ó obter o obxecto: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Erro ó obter a fila: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "Non se admite a función insertId().",
+	"odbcdatabase-unknown-server-version": "Versión descoñecida do servidor ODBC."
+}

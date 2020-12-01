@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"purgeclickthrough-desc": "Ikke omdiriger ?action=purge-sider, men krev i stedet et klikk (for feilsøkingsformål)"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"securehtml": "Sikker HTML",
+	"securehtml-desc": "Lar deg inkludere vilkårlig HTML på en autorisert og sikker måte",
+	"securehtml-nokeys": "Feil: <code>$wgSecureHTMLSecrets</code> er ikke utfylt.",
+	"securehtml-hashrequired": "Feil: Hash kreves.",
+	"securehtml-invalidhash": "Feil: Ugyldig hash.",
+	"securehtml-input-title": "HTML-inndata",
+	"securehtml-generatedoutput-title": "Genererte utdata",
+	"securehtml-renderedhhtml-title": "HTML som vises",
+	"securehtml-form-keyname": "Nøkkelnavn (valgfritt)",
+	"securehtml-form-keysecret": "Nøkkelhemmelighet",
+	"securehtml-form-html": "Rå HTML",
+	"securehtml-form-submit": "Send",
+	"securehtml-inputinstructions": "Skriv inn et nøkkelnavn (valgfritt), nøkkelhemmelighet og ønsket rå HTML.\nOm ikke noe nøkkelnavn oppgis vil den første nøkkelen i <code>$wgSecureHTMLSecrets</code> bli brukt.",
+	"securehtml-outputinstructions": "Kopier koden ovenfor NØYAKTIG og lim den inn i wikiredigereren.\nOm den genererte koden ikke virker, prøv å fjerne alle linjeskift fra HTML-koden og generer på nytt."
+}

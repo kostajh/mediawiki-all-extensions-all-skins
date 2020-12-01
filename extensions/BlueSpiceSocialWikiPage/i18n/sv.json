@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"bs-socialwikipage-type": "Wikisida",
+	"bs-socialwikipage-entitywikipage-header-create": "Lägg till nytt område för bilagor",
+	"bs-socialwikipage-nowikipageentity": "Inget område för bifogade filer har skapats ännu",
+	"bs-socialwikipage-noattachmentsadded": "Inga bilagor har ännu lagts till",
+	"bs-socialwikipage-stashtype": "Bilagor",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]] bifogade",
+	"bs-socialwikipage-entitystash-header-create": "Ny bilaga",
+	"bs-socialwikipage-special-stash-heading": "Bilagor",
+	"bs-socialwikipage-aftercontent-heading": "Bilagor",
+	"wikipagestash": "Bilagor",
+	"bs-socialwikipage-var-wikipageid": "Tilldelad sida",
+	"bs-socialwikipage-switch-nostash-description": "Döljer området för bilagor på denna sida.",
+	"bs-socialwikipage-stash-insertfiledialog-title": "Lägg till fil",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "Lägg till",
+	"bs-socialwikipage-stash-editor-attachedfiles": "Bifogade filer",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "Radera",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "Lägg till"
+}

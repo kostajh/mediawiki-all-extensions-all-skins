@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arsenekoumyk",
+			"ArslanX"
+		]
+	},
+	"sitesupport": "Акъча багъышламакъ",
+	"tooltip-n-sitesupport": "Бизге кёмек эт",
+	"wikimedia-copyright": "Матын <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution-ShareAlike License</a> шартлагъа гёре ачыкъдыр; къошум шартлагъа да тийишли болма бола. Артыкъ маълюмат билмек учун <a href=\"https://foundation.wikimedia.org/wiki/Terms_of_Use\">Terms of Use</a> къарагъыз.",
+	"wikimedia-copyrightwarning": "Тюзлевлени сакълайгъан булан бирге сен [https://foundation.wikimedia.org/wiki/Къоллав_шартлар къоллав шартлагъа] рази боласан, ва сени къошумунг [https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License CC BY-SA 3.0 License] ва [https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License GFDL] гёре чыгъармагъа рази боласан. Creative Commons лицензияны шартларын кютювю учун, берилген гьипербайланыв яда URL тамам болагъангъа да рази боласан.",
+	"wikibase-sitelinks-wikinews": "Викиянгылыкълар",
+	"wikibase-sitelinks-wikiquote": "Викицитатлыкъ",
+	"wikibase-sitelinks-wikisource": "Викичыкъмакълыкъ",
+	"wikibase-sitelinks-wikivoyage": "Викигезев",
+	"wikibase-otherprojects-wikimania": "Викимания",
+	"wikimedia-developers": "Ясавчулар",
+	"wikimedia-globalblocking-ipblocked": "Сени IP адресинг [[m:Special:MyLanguage/Global blocks|бары викилерден]] къамалгъан эди.''\n\nКъамав этген $1 ($2).\nСебеп берилген: ''$3'.\n\n* Къамав башлады: $4\n* Къамав бите: $5\n\nСени гьалиги IP адресинг — $6.\nТилев, бу бары маълюматланы сени талапларынга къош.\n\nЯнгылыш этилип тюз къамалмагъан деп ойлаша бусанг, артыкъ къошум маълюмат ва кюйлевнамаланы алами-глобал къайдаланы учун[[m:Special:MyLanguage/No open proxies|Прокси-серверлени къолланывуну къадагъа]] сагьифада табып боласан. Башгъалай, къамавунг гьакъында сёйлешмек учун,[[m:Steward requests/Global|Мета-викиде Стювард талаплар бёлмеде талап этип боласан]].",
+	"wikimedia-globalblocking-ipblocked-xff": "'''Бир яда бир нечакъы прокси серверлер [[m:Special:MyLanguage/Global blocks|глобаллы къамалгъан эди]].'''\n\nКъамав этген $1 ($2).\nСебеп берилген: ''$3'.\n\n* Къамав башлады: $4\n* Къамав бите: $5\n\nКъамалгъан прокси адреси эди — $6\nТилев, бу бары маълюматланы сени талапларынга къош.\n\nЯнгылыш этилип тюз къамалмагъан деп ойлаша бусанг, артыкъ къошум маълюмат ва кюйлевнамаланы алами-глобал къайдаланы учун[[m:Special:MyLanguage/No open proxies|Прокси-серверлени къолланывуну къадагъа]] сагьифада табып боласан. Башгъалай, къамавунг гьакъында сёйлешмек учун,[[m:Steward requests/Global|Мета-викиде Стювард талаплар бёлмеде талап этип боласан]]."
+}

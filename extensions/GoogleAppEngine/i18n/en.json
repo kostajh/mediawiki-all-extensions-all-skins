@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kunal Mehta"
+		]
+	},
+	"gae-desc": "Provides enhancements to wikis running on GoogleAppEngine",
+	"apihelp-gaejobqueue-description": "Internal API module to run the JobQueue. External usage is not allowed.",
+	"apihelp-gaejobqueue-summary": "Internal API module to run the JobQueue. External usage is not allowed.",
+	"apihelp-gaejobqueue-param-namespace": "Numerical namespace id.",
+	"apihelp-gaejobqueue-param-titletext": "Text of title without namespace.",
+	"apihelp-gaejobqueue-param-type": "Job type.",
+	"apihelp-gaejobqueue-param-params": "PHP serialized parameters for the job."
+}

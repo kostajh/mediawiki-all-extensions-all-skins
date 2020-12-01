@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"helppages-desc": "ヘルプ ページを [https://www.mediawiki.org mediawiki.org] から自動的に取得する",
+	"helppages-notice": "このページは [https://www.mediawiki.org/?oldid=$1 mediawiki.org] からダウンロードされたため、mediawiki.org で編集できます。",
+	"helppages-edit-tab": "MediaWiki.org 上で編集"
+}

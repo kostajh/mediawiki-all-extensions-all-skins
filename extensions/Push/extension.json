@@ -1,0 +1,208 @@
+{
+	"name": "Push",
+	"version": "1.4.0 alpha",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw Jeroen De Dauw] for [http://www.wikiworks.com WikiWorks]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Push",
+	"descriptionmsg": "push-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"APIModules": {
+		"push": "ApiPush",
+		"pushimages": "ApiPushImages"
+	},
+	"Actions": {
+		"push": "PushAction"
+	},
+	"AvailableRights": [
+		"push",
+		"pushadmin",
+		"filepush",
+		"bulkpush"
+	],
+	"GroupPermissions": {
+		"autoconfirmed": {
+			"push": true,
+			"bulkpush": true,
+			"filepush": true
+		},
+		"sysop": {
+			"push": true,
+			"bulkpush": true,
+			"filepush": true
+		},
+		"pusher": {
+			"push": true
+		},
+		"bulkpusher": {
+			"bulkpush": true,
+			"push": true
+		},
+		"filepusher": {
+			"filepush": true,
+			"push": true
+		}
+	},
+	"SpecialPages": {
+		"Push": "SpecialPush"
+	},
+	"MessagesDirs": {
+		"Push": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PushAlias": "Push.alias.php"
+	},
+	"AutoloadClasses": {
+		"PushAction": "src/PushAction.php",
+		"PushHooks": "src/PushHooks.php",
+		"ApiPushBase": "src/api/ApiPushBase.php",
+		"ApiPush": "src/api/ApiPush.php",
+		"ApiPushImages": "src/api/ApiPushImages.php",
+		"PushFunctions": "src/PushFunctions.php",
+		"SpecialPush": "src/SpecialPush.php"
+	},
+	"ResourceModules": {
+		"ext.push.tab": {
+			"group": "ext.push",
+			"scripts": "ext.push.tab.js",
+			"dependencies": [
+				"mediawiki.jqueryMsg"
+			],
+			"messages": [
+				"push-button-pushing",
+				"push-button-completed",
+				"push-button-failed",
+				"push-import-revision-message",
+				"push-button-text",
+				"push-button-all",
+				"push-special-item-pushing",
+				"push-special-item-completed",
+				"push-special-item-failed",
+				"push-special-push-done",
+				"push-err-captacha",
+				"push-tab-last-edit",
+				"push-tab-not-created",
+				"push-err-captcha-page",
+				"push-button-pushing-files",
+				"push-special-err-imginfo-failed",
+				"push-special-obtaining-fileinfo",
+				"push-special-pushing-file",
+				"push-tab-err-fileinfo",
+				"push-tab-err-filepush",
+				"push-tab-err-filepush-unknown",
+				"push-tab-embedded-files",
+				"push-tab-no-embedded-files",
+				"push-tab-files-override",
+				"push-tab-template-override",
+				"push-tab-err-uploaddisabled"
+			]
+		},
+		"ext.push.special": {
+			"group": "ext.push",
+			"scripts": "ext.push.special.js",
+			"dependencies": [],
+			"messages": [
+				"push-button-pushing",
+				"push-button-completed",
+				"push-button-failed",
+				"push-import-revision-message",
+				"push-button-text",
+				"push-button-all",
+				"push-special-item-pushing",
+				"push-special-item-completed",
+				"push-special-item-failed",
+				"push-special-push-done",
+				"push-err-captacha",
+				"push-tab-last-edit",
+				"push-tab-not-created",
+				"push-err-captcha-page",
+				"push-button-pushing-files",
+				"push-special-err-imginfo-failed",
+				"push-special-obtaining-fileinfo",
+				"push-special-pushing-file",
+				"push-tab-err-fileinfo",
+				"push-tab-err-filepush",
+				"push-tab-err-filepush-unknown",
+				"push-tab-embedded-files",
+				"push-tab-no-embedded-files",
+				"push-tab-files-override",
+				"push-tab-template-override",
+				"push-tab-err-uploaddisabled"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "Push/modules"
+	},
+	"Hooks": {
+		"SkinTemplateNavigation::Universal": "PushHooks::onSkinTemplateNavigationUniversal",
+		"AdminLinks": "PushHooks::addToAdminLinks"
+	},
+	"config_prefix": "eg",
+	"config": {
+		"PushTargets": {
+			"description": "List of targets that can be pushed to. The array keys are the target names, and the values are the target urls (path to api.php without the '/api.php' part). Example: $egPushTargets['English Wikipedia'] = 'http://en.wikipedia.org/w';",
+			"value": []
+		},
+		"PushShowTab": {
+			"description": "Show the push action as a tab (if not, it's displayed in the actions dropdown). This only works for skins with an actions dropdown. For others push will always appear as a tab.",
+			"value": false
+		},
+		"PushIncTemplates": {
+			"description": "You can choose to include templates when pushing a page.",
+			"value": false
+		},
+		"PushIncFiles": {
+			"description": "You can choose to push files used in a page.",
+			"value": false
+		},
+		"PushAllowLogin": {
+			"description": "Indicate if login options should be added to the push interface or not.",
+			"value": true
+		},
+		"PushLoginUser": {
+			"description": "Default login data. When set, the values will always be used when there is no login interface. If there is, they will be filled in as default.",
+			"value": ""
+		},
+		"PushLoginPass": {
+			"description": "Default login data. When set, the values will always be used when there is no login interface. If there is, they will be filled in as default.",
+			"value": ""
+		},
+		"PushLoginDomain": {
+			"description": "Default login data. When set, the values will always be used when there is no login interface. If there is, they will be filled in as default.",
+			"value": ""
+		},
+		"PushLoginUsers": {
+			"description": "Default login data per target. Overrides $egPushLoginUser and $egPushLoginPass when specified. Array keys should be the urls assigned in the $egPushTargets array. When set, the values will always be used when there is no login interface. If there is, they will be filled in as default.",
+			"value": []
+		},
+		"PushLoginPasswords": {
+			"description": "Default login data per target. Overrides $egPushLoginUser and $egPushLoginPass when specified. Array keys should be the urls assigned in the $egPushTargets array. When set, the values will always be used when there is no login interface. If there is, they will be filled in as default.",
+			"value": []
+		},
+		"PushLoginDomains": {
+			"description": "Default login data per target. Overrides $egPushLoginUser and $egPushLoginPass when specified. Array keys should be the urls assigned in the $egPushTargets array. When set, the values will always be used when there is no login interface. If there is, they will be filled in as default.",
+			"value": []
+		},
+		"PushBulkWorkers": {
+			"description": "The amount of push 'workers' (simultanious push requests) on Special:Push.",
+			"value": 3
+		},
+		"PushBatchSize": {
+			"description": "The maximum amount of targets to push a page to in one go.",
+			"value": 3
+		},
+		"PushDirectFileUploads": {
+			"description": "This is needed when pushing to a wiki that cannot access the source file (for example from a private wiki to a wiki on the internet).",
+			"value": true
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"smoothgallery": "Jamnt galleri",
+	"smoothgallery-desc": "Lèt brukarar oppretta galleri med bilete som er blitt lasta opp.\nInneheld dei fleste av SmoothGallery sine valalternativ.",
+	"smoothgallery-title": "Jamnt galleri",
+	"smoothgallery-smoothgallerytitle": "Jamnt galleri: $1",
+	"smoothgallery-error": "<b>Feil med jamnt galleri:</b>",
+	"smoothgallery-gallery-not-found": "Det etterspurde galleriet finst ikkje.",
+	"smoothgallery-not-found": "Ingen bilete blei lagt til i galleriet.\nLegg til minst eitt bilete.",
+	"smoothgallery-no-images": "Ingen bilete blei funne i dette galleriet.\nForsikra deg om at {{PLURAL:$3|biletet|bileta}} finst.\nFølgjande {{PLURAL:$2|bilete|bilete}} blei ikkje funne: $1",
+	"smoothgallery-invalid-images": "Følgjande etterspurde bilete var av ein ugyldig type: $1 <!--{{PLURAL:$2||}}-->",
+	"smoothgallery-unexpected-error": "Ein uventa feil oppstod.\nLever ein feilrapport.",
+	"smoothgallery-javascript-disabled": "Javascript er nødvendig for å visa dette galleriet på rett måte."
+}

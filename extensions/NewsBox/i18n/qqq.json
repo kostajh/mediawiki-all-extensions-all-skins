@@ -1,0 +1,8 @@
+{
+	"@metadata": {},
+	"newsbox-desc": "{{desc|name=NewsBox|url=https://www.mediawiki.org/wiki/Extension:NewsBox}}",
+	"newsbox-createwiki": "Used as link text for http://www.shoutwiki.com/wiki/Special:CreateWiki in the sidebar",
+	"newsbox-forum": "Used as link text for {{msg-mw|newsbox-forum-url}} in the sidebar",
+	"newsbox-homepage": "Used as link text to http://www.shoutwiki.com/ in the sidebar",
+	"newsbox-title": "Used as title of the navigation in the sidebar"
+}

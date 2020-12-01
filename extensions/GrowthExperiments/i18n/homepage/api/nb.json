@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"apihelp-homepagequestionstore-summary": "Hent formaterte spørsmål postet via hjemmesidemoduler",
+	"apihelp-homepagequestionstore-param-questionformat": "Formatet spørsmålene skal returneres i, f. eks. HTML.",
+	"apihelp-homepagequestionstore-param-storage": "Stedet spørsmålene lagres.",
+	"apihelp-homepagequestionstore-param-userid": "Bruker-ID-en spørsmål skal hentes for.",
+	"growthexperiments-homepage-questionstore-noquestionsfound": "Ingen spørsmål funnet.",
+	"apihelp-growthsetmentor-summary": "Sett brukerens fadder. Endringen blir logget offentlig.",
+	"apihelp-growthsetmentor-param-mentee": "Nybegynnerens brukernavn",
+	"apihelp-growthsetmentor-param-mentor": "Fadderens brukernavn",
+	"apihelp-growthsetmentor-param-reason": "Årsak for endringen"
+}

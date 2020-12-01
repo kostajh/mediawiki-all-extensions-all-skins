@@ -1,0 +1,40 @@
+#content {
+	.toc {
+		padding: 0.5em 1em 0.5em 1em;
+		margin-bottom: 1.5rem;
+		border: 1px solid #D9D9D9;
+		.toctitle {
+			margin-bottom: 0.5rem;
+			h2 {
+				font-family: @content-font-family;
+				font-size: 1.375rem;
+				display: inline;
+				margin: 0;
+				padding-right: 1em;
+				border-bottom: none;
+			}
+		}
+		ul,
+		ul ul {
+			margin-left: 0.5em;
+		}
+		li {
+			list-style: none;
+			margin-top: 1.4rem;
+			/*
+			display: none;
+			&.toclevel-1.tocsection-1,
+			&.toclevel-2.tocsection-2,
+			&.toclevel-3.tocsection-3 {
+				display: block;
+			}
+			*/
+		}
+		span.tocnumber,
+		span.toctext {
+			font-family: @content-font-family;
+			display: table-cell;
+			padding-right: 1em;
+		}
+	}
+}

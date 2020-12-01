@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Clara Andrew-Wani",
+			"Umherirrender"
+		]
+	},
+	"generatemochaconfig-extensionname": "{{name}}\nThe name of the extension",
+	"generatemochaconfig-desc": "{{desc|name=GenerateMochaConfig|url=}}"
+}

@@ -1,0 +1,138 @@
+.bs-actions-filedownload {
+	width: 116px;
+	text-align: center;
+}
+.bs-actions-filedownload a{
+	/*@embed*/
+	background-image: url("images/download-file_btn.png");
+	background-repeat: no-repeat;
+	width: 116px !important;
+	color: #FFFFFF !important;
+	text-align: center;
+	padding-top: 1px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+.bs-actions-filedownload a:hover{
+	/*@embed*/
+	background-image: url("images/download-file_btn-hover.png");
+	text-decoration: none;
+}
+
+.bs-userpagesettings-item {
+	float: left;
+	margin-right: 2em;
+	font-size: 80%;
+	text-align: center;
+}
+
+.bs-tooltip-link {
+	cursor: pointer;
+}
+
+.bs-tooltip {
+	display:none;
+}
+
+.bs-tooltip-body > ul {
+	list-style: none;
+	margin: 0;
+}
+.btn44 {
+	height:44px!important;
+	width:44px!important;
+}
+
+.btn32.x-btn-icon-el {
+	height:32px!important;
+	width:32px!important;
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.btn32.x-btn-icon-el:hover {
+	background-position: 0 32px;
+}
+
+.btn32.x-btn-icon-el.x-btn-disabled:hover {
+	background-position: 0 0;
+}
+
+.bluebox,
+.box-blue {
+	border:1px solid #6093D2;
+	background-color:#AEC8E8;
+	margin:0 0 10px;
+	padding:.3em .6em;
+}
+
+.beigebox,
+.box-beige {
+	border:1px solid #000;
+	background-color:#E0B978;
+	margin:0 0 10px;
+	padding:.3em .6em;
+}
+
+.greenbox,
+.box-green {
+	border:1px solid #237E14;
+	background-color:#DEFEBB;
+	margin:0 0 10px;
+	padding:.3em .6em;
+}
+
+.yellowbox,
+.box-yellow {
+	border:1px solid #DDDD00;
+	background-color:#FFFFAA;
+	margin:0 0 10px;
+	padding:.3em .6em;
+}
+
+.redbox,
+.box-red {
+	border:1px solid #DD0000;
+	background-color:#FFAAAA;
+	margin:0 0 10px;
+	padding:.3em .6em;
+}
+
+.blueborder,
+.border-blue {
+	border:1px solid #AEC8E8;
+	margin:0 0 10px;
+	padding:.3em .6em;
+}
+
+.beigeborder,
+.border-beige {
+	border:1px solid #E0B978;
+	margin:0 0 10px;
+	padding:.3em .6em;
+}
+
+.greenborder,
+.border-green {
+	border:1px solid #237E14;
+	margin:0 0 10px;
+	padding:.3em .6em;
+}
+
+.yellowborder,
+.border-yellow {
+	border:1px solid #DDDD00;
+	margin:0 0 10px;
+	padding:.3em .6em;
+}
+
+.redborder,
+.border-red {
+	border:1px solid #DD0000;
+	margin:0 0 10px;
+	padding:.3em .6em;
+}
+
+.bs-tab-content {
+	clear: both;
+}

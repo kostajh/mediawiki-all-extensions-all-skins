@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"gpgmail-desc": "Encriptar mensagens de correio eletrónico com o GPG (GNU Privacy Guard)",
+	"gpgmail-pref-enable": "Encriptar mensagens de correio eletrónico com o GPG (GNU Privacy Guard)",
+	"gpgmail-pref-key": "Chave pública GPG",
+	"gpgmail-pref-key-help": "Ver a [https://help.ubuntu.com/community/GnuPrivacyGuardHowto página de instruções do Ubuntu] para ajuda na obtenção de uma chave pública.",
+	"gpgmail-encrypt-error": "Ocorreu um erro ao encriptar uma mensagem de correio."
+}

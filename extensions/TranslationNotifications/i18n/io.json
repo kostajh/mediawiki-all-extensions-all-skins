@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier",
+			"Malafaya"
+		]
+	},
+	"translationnotifications-desc": "Permisas tradukeri abonar por recevar informi pri tradukuri",
+	"translationnotifications-username": "Nomo dil uzero:",
+	"translationnotifications-email-unconfirmed": "Vua adreso di e-posto ne esis konfirmita. $1",
+	"translationnotifications-languages": "Lingui",
+	"translationnotifications-lang": "Linguo #$1",
+	"translationnotifications-nolang": "Selektez idiomo",
+	"translationnotifications-submit-ok": "L'avizi inkluzesis en serio, e sendesas per acesora informatikoprogramo.",
+	"translationnotifications-send-notification-button": "Sendar informo a la tradukeri",
+	"translationnotifications-preview-notification-button": "Previdar avizo",
+	"translationnotifications-email-body": "Saluto $1,\n\nVu recevis ica e-posto pro vu {{GENDER:$10|enrejistris}} quale tradukero {{PLURAL:$9|a(d)}} $2 en {{SITENAME}}.\n\nExistas pagino por tradukar ibe: $3.\nVu povos tradukar ol per kliko en la sequanta ligilo:\n$4\n\n$5\n$6\n\n$7\n\nVua helpo esas grande prizata da ni. Tradukeri quale vu helpas la funcionado di {{SITENAME}} quale vere plurlinguala komunitato.\n\nMulta danko!\nKoordineri di tradukuro por {{SITENAME}}\n\n----\n\nVu recevis ica e-posto pro vu aceptis recevar e-posti pri tradukuri en la projeto {{SITENAME}}. Por modifikar vua preferaji pri tradukuri o por trastrekizar la sendajo di e-posti, voluntez vizitar $8.",
+	"translationnotifications-talkpage-body": "Saluto $2,\n\nVu recevis ca mesajo pro ke vu {{GENDER:$1|kadastrizis su}} kom tradukero {{PLURAL:$9|che}} $3 en {{SITENAME}}.\nLa pagino [[$4]] esas disponebla por traduko. Vu povas tradukar ol hike:\n$5\n\n$6\n$7\n\n$8\n\nVua helpo prizesos multe. Tradukeri quale vu helpas {{SITENAME}} funcionar kom vera pluralinguala komunitato.\n\nVu povas [$10 modifikar vua avizo-preferaji].\n\nDanko!\n\nla traduko-jeranti de {{SITENAME}}",
+	"translationnotifications-notification-url-listitem": "tradukar ad $1",
+	"translationnotifications-email-deadline": "La limito-dato por finar ca tradukuro esas $1.",
+	"logentry-notifytranslators-sent": "$1 {{GENDER:$2|sendis}} informo pri traduko di la pagino $3; {{PLURAL:$10|linguo|lingui}}: $4; maxim parfinita dato: $5; prioreso: $6; sendita a(d) {{PLURAL:$7|1 recevanto|$7 recevanta}}, faliis por {{PLURAL:$8|1 recevanto|$8 recevanti}}, faliis por {{PLURAL:$9|1 recevanto|$9 recevanti}}",
+	"log-description-notifytranslators": "Registrago di avizi pri la tradukebla pagini sendita a la tradukeri",
+	"translationnotifications-nodeadline": "nulo",
+	"translationnotifications-generic-languages": "&lt;lingui>"
+}

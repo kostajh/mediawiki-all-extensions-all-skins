@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-rating-extension-description": "Provides a rating system",
+	"bs-rating-types-page": "Page rating",
+	"bs-rating-types-pagelike": "Page recommendation",
+	"rating": "Ratings",
+	"recommendations": "Recommendations",
+	"bs-rating-yourrating": "Your rating: $1",
+	"bs-rating-special-rating-heading": "Ratings",
+	"bs-rating-articlelike-ratingtext": "Recommend ($1)",
+	"bs-rating-articlelike-uratingtextservoted": "Recommended ($1)",
+	"action-rating-viewspecialpage": "view pages which are protected with the \"Rating-Viewspecialpage\" right",
+	"action-rating-read": "read ratings on pages",
+	"action-rating-write": "vote on pages",
+	"action-rating-archive": "remove votes from pages",
+	"right-rating-viewspecialpage": "View pages which are protected with the \"Rating-Viewspecialpage\" right",
+	"right-rating-read": "Read ratings on pages",
+	"right-rating-write": "Vote on pages",
+	"right-rating-archive": "Remove votes from pages",
+	"bs-rating-special-recommendations-heading": "Recommendations",
+	"bs-rating-special-recommendations-label-recommendation": "Recommendations",
+	"bs-rating-specialrating-label-namespace": "Namespace",
+	"bs-rating-specialrating-titleTitle": "Title",
+	"bs-rating-specialrating-titleRating": "Rating",
+	"bs-rating-specialrating-titleVotes": "Number of ratings",
+	"apihelp-bs-rating-tasks-description": "Executes common tasks for extension Rating",
+	"apihelp-bs-rating-store-description": "Delivers ratings for articles",
+	"bs-rating-nsm-label": "Rating",
+	"bs-rating-nsm-label-recommendations": "Recommendations",
+	"apihelp-bs-rating-tasks-summary": "Executes common tasks for extension Rating",
+	"apihelp-bs-ratingarticle-store-summary": "Delivers ratings for articles",
+	"apihelp-bs-ratingarticlelike-store-summary": "Delivers recommendations for articles"
+}

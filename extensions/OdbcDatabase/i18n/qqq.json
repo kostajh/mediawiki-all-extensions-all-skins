@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Roger Cass",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"odbcdatabase": "Used as title on [[Special:OdbcDatabase]]",
+	"odbcdatabase-desc": "{{desc|name=Odbc Database|url=https://www.mediawiki.org/wiki/Extension:OdbcDatabase}}",
+	"odbcdatabase-odbc-missing": "The ODBC functions are not available in this PHP installation.",
+	"odbcdatabase-connection-error": "There was an error connecting to the database server. Parameters:\n* <nowiki>{{1}}</nowiki> - the name of the server\n* <nowiki>{{2}}</nowiki> - the text of any error we could recover",
+	"odbcdatabase-free-error": "There was an error freeing an ODBC result using <code>odbc_free_result()</code>.",
+	"odbcdatabase-fetch-object-error": "There was an error while fetching an object using <code>odbc_fetch_object</code>.\n\nParameters:\n* <nowiki>{{1}}</nowiki> - the error number from odbc_error\n* <nowiki>{{2}}</nowiki> - the error text",
+	"odbcdatabase-fetch-row-error": "There was an error while fetching a row using <code>odbc_fetch_row</code>.\n\nParameters:\n* <nowiki>{{1}}</nowiki> - the error number from <code>odbc_error</code>\n* <nowiki>{{2}}</nowiki> - the error text",
+	"odbcdatabase-insert-id-unsupported": "Report that this function <code>insertId()</code> is not supported.",
+	"odbcdatabase-unknown-server-version": "The ODBC server version is not known. A default version message."
+}

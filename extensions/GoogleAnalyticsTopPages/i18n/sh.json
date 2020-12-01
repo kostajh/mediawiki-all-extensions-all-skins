@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"googleanalyticstoppages-desc": "Daje popis najposjećenijih stranica s uporabom podataka Google Analitike",
+	"apihelp-googlepagestatsupdate-param-key": "Vrijednost [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Ažurira popis najposjećenijih stranica (s podacima Google Analitike).",
+	"apihelp-googlepagestatsupdate-summary": "Ažurira popis najposjećenijih stranica (s podacima Google Analitike)."
+}

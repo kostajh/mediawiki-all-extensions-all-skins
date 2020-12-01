@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth",
+			"Umherirrender"
+		]
+	},
+	"bs-exporttables-extension-description": "{{desc|name=BlueSpiceExportTables}}",
+	"bs-exporttables-menu": "Short label for a button that opens a menu wich shows possible exportable table formats.\n{{Identical|Export table}}",
+	"bs-exporttables-menu-csv": "Label for menu entry that exports a table to csv. Should contain the file extension.\n{{Identical|Comma seperated values (CSV)}}",
+	"bs-exporttables-menu-xls": "{{optional}}\nLabel for menu entry that exports a table to xls. Should contain the file extension.\n{{Identical|Microsoft Office Excel 2003 (XLS)}}",
+	"bs-exporttables-menu-xlsx": "{{optional}}\nLabel for menu entry that exports a table to xlsx. Should contain the file extension.\n{{Identical|Microsoft Office Open XML (XLSX)}}",
+	"bs-exporttables-ve-exportable-option": "Label for visual editor table option for exportable tables"
+}

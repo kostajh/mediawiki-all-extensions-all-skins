@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"HTan (WMF)",
+			"Kly"
+		]
+	},
+	"bs-wikiexplorer-extension-description": "依照標準來排序條目",
+	"bs-wikiexplorer-page-title": "標題",
+	"bs-wikiexplorer-page-namespace": "命名空間",
+	"bs-wikiexplorer-creation-date": "建立日期",
+	"bs-wikiexplorer-is-redirect": "是重新導向",
+	"bs-wikiexplorer-last-comment": "最後一次的註釋",
+	"bs-wikiexplorer-last-edit-time": "最後一次編輯日期",
+	"bs-wikiexplorer-page-size": "大小",
+	"bs-wikiexplorer-last-author": "最後一次的編者",
+	"bs-wikiexplorer-categories": "分類",
+	"bs-wikiexplorer-linked-files": "連結檔案",
+	"bs-wikiexplorer-linked-pages": "連結頁面",
+	"apihelp-bs-wikiexplorer-store-description": "提供用於 WikiExplorer 擴充套件的所有資料",
+	"apihelp-bs-wikiexplorer-store-param-metaLoaded": "指示詮釋資料是否已載入的 API 參數。",
+	"apihelp-bs-wikiexplorer-store-summary": "提供用於 WikiExplorer 擴充套件的所有資料"
+}

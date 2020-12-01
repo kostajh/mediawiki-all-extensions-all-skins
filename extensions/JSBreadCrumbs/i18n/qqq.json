@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cindy Cicalese",
+			"Peter17",
+			"Purodha",
+			"Raymond",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"jsbreadcrumbs-desc": "{{desc|name=JS Bread Crumbs|url=https://www.mediawiki.org/wiki/Extension:JSBreadCrumbs}}",
+	"jsbreadcrumbs-horizontal-separator": "{{optional}}",
+	"jsbreadcrumbs-intro-horizontal": "Used as bread crumb description when the bread crumbs are horizontal.\n\nThis message includes a parameter for the number of crumbs shown and is followed by bread crumbs separated by jsbreadcrumbs-horizontal-separator).",
+	"jsbreadcrumbs-intro-vertical": "Used as bread crumb description when the bread crumbs are vertical.\n\nThis message includes a parameter for the number of crumbs shown and is followed by bread crumbs on separate lines).",
+	"prefs-jsbreadcrumbs": "This is the name of the extension JS Bread Crumbs (https://www.mediawiki.org/wiki/Extension:JSBreadCrumbs). The expression \"Bread Crumbs\" designates a kind of navigation bar (see https://en.wiktionary.org/wiki/breadcrumbs).",
+	"prefs-jsbreadcrumbs-showaction": "Used as checkbox label in [[Special:Preferences]].",
+	"prefs-jsbreadcrumbs-showcrumbs": "Used as checkbox label in [[Special:Preferences]].",
+	"prefs-jsbreadcrumbs-numberofcrumbs": "Used as label for input box in [[Special:Preferences]].",
+	"prefs-jsbreadcrumbs-maxlength-horizontal": "Used as label for input box in [[Special:Preferences]].",
+	"prefs-jsbreadcrumbs-maxlength-vertical": "Used as label for input box in [[Special:Preferences]].",
+	"prefs-jsbreadcrumbs-horizontal": "Used as a checkbox label in [[Special:Preferences]].",
+	"prefs-jsbreadcrumbs-showsite": "Used as a checkbox label in [[Special:Preferences]].",
+	"prefs-jsbreadcrumbs-domain": "Used as a checkbox label in [[Special:Preferences]]."
+}

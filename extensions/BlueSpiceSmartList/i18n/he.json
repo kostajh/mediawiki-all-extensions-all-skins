@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"bs-smartlist-desc": "הצגת חמשת השינויים האחרונים של אתר הוויקי ברשימה",
+	"prefs-smartlist": "רשימה חכמה",
+	"bs-smartlist-recent-changes": "שינויים אחרונים",
+	"bs-smartlist-no-entries": "לא נמצאו תוצאות.",
+	"bs-smartlist-invalid-namespaces": "{{PLURAL:$1|מרחב השם שצוין אינו תקין|מרחבי השם שצוינו אינם תקינים}}: $2.",
+	"bs-smartlist-invalid-target": "היעד שצוין אינו כותרת דף תקינה",
+	"bs-smartlist-comment": "הערה: $1.",
+	"bs-smartlist-sort-asc": "סדר עולה",
+	"bs-smartlist-sort-desc": "סדר יורד",
+	"bs-smartlist-day": "יום",
+	"bs-smartlist-week": "שבוע",
+	"bs-smartlist-month": "חודש",
+	"bs-smartlist-time": "שעה",
+	"bs-smartlist-title": "כותרת",
+	"bs-smartlist-tag-smartlist-desc": "הצגת רשימה אוטומטית של ערכים. הגדרה זו עובדת עם כמה מצבים ופרמטרים.",
+	"bs-smartlist-tag-smartlist-example-rc": "מצב: שינויים אחרונים",
+	"bs-smartlist-tag-smartlist-example-whatlinkshere": "מצב: דפים המקשרים לכאן",
+	"bs-smartlist-tag-newbies-desc": "הצגת המשתמשים החדשים באתר. אפשר להגביל את זה למספר מסוים של משתמשים.",
+	"bs-smartlist-tag-toplist-desc": "הצגת הדפים הניצפים ביותר. אפשר להגביל את זה לפי פרמטרים מסוימים.",
+	"bs-smartlist-mostvisitedpages": "הדפים הנצפים ביותר",
+	"bs-smartlist-mosteditedpages": "הדפים הנערכים ביותר",
+	"bs-smartlist-mostactiveusers": "המשתמשים הפעילים יותר (לפי עריכות)",
+	"bs-smartlist-lastedits": "העריכות שלי",
+	"bs-smartlist-noedits": "לא נמצאו עריכות.",
+	"bs-smartlist-mostactiveusersdesc": "רשימה של המשתמשים הפעילים ביותר, הממוינת לפי מספר העריכות שלהם.",
+	"bs-smartlist-mosteditedpagesdesc": "רשימה של הדפים הנערכים ביותר, הממוינת לפי מספר העריכות שבהם.",
+	"bs-smartlist-mostvisitedpagesdesc": "רשימה של הדפים הנצפים ביותר, הממוינת לפי מספר הצפיות בהם.",
+	"bs-smartlist-lasteditsdesc": "רשימת הדפים שערכת.",
+	"bs-smartlist-hitcounter-missing": "ההרחבה <a target='blank' href='https://www.mediawiki.org/wiki/Extension:HitCounters'>HitCounters</a> חייבת להיות מותקנת."
+}

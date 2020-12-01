@@ -1,0 +1,40 @@
+
+MediaWiki:Sidebar
+=================
+** Special:NewItem|+ Item
+** Special:NewProperty|+ Property 
+
+
+
+LocalSettings.php
+=================
+
+$wgShowExceptionDetails = true;
+$wgMainCacheType = CACHE_ACCEL;
+
+require_once( "$IP/extensions/Wikibase/repo/Wikibase.php" );
+require_once( "$IP/extensions/Wikibase/lib/WikibaseLib.php" );
+require_once( "$IP/extensions/LifeWebCore/LifeWebCore.php" );
+require_once( "$IP/extensions/LifeWeb/LifeWeb.php" );
+
+$baseNs = 100;
+// NOTE: do *not* define WB_NS_ITEM and WB_NS_ITEM_TALK when using a core namespace for items!
+define( 'WB_NS_PROPERTY', $baseNs +2 );
+define( 'WB_NS_PROPERTY_TALK', $baseNs +3 );
+
+// No extra namespace for items, using a core namespace for that.
+$wgExtraNamespaces[WB_NS_PROPERTY] = 'Property';
+$wgExtraNamespaces[WB_NS_PROPERTY_TALK] = 'Property_talk';
+
+// Tell Wikibase which namespace to use for which kind of entity
+$wgWBSettings['entityNamespaces'][CONTENT_MODEL_WIKIBASE_ITEM] = NS_MAIN; // <=== Use main namespace for items!!!
+$wgWBSettings['entityNamespaces'][CONTENT_MODEL_WIKIBASE_PROPERTY] = WB_NS_PROPERTY; // use custom namespace
+
+$wgLWSettings['topicIDs']['clouds'] = 'q330'; // Makes the special page for clouds work. Adjust the q number.
+
+
+JavaScript API
+==============
+https://www.mediawiki.org/wiki/ResourceLoader
+
+Using mw.user only(?) works from an extension, not from pages loading the module with mw.loader.*.

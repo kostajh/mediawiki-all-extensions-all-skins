@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Raimond Spekking"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "Die Möglichkeit zur Erstellung von Benutzerkonten wurde für einige Sekunden unterbrochen, um eine Flut von Registrierungen zu reduzieren. Bitte warte einen Moment und drücke dann die Neuladen-Schaltfläche an deinem Browser.",
+	"userthrottle-desc": "Drosselung der Neuanmeldungen"
+}

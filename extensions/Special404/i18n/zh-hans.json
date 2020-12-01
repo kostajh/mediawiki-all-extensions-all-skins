@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hzy980512"
+		]
+	},
+	"special404-desc": "提供404错误的目的地",
+	"error404": "404 找不到页面",
+	"special404-body": "您要求的链接找不到。\n\n您是想输入{{fullurl:$1}}么？\n\n可能您也想去：\n* [[{{MediaWiki:Mainpage}}|主页]]"
+}

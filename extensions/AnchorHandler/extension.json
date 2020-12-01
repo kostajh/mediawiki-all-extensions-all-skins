@@ -1,0 +1,32 @@
+{
+	"name": "AnchorHandler",
+	"version": "0.2",
+	"author": "[https://www.mediawiki.org/wiki/User:Tosfos Ike Hecht] for [http://www.wikiworks.com/ WikiWorks]",
+	"url": "https://www.mediawiki.org/wiki/Extension:AnchorHandler",
+	"descriptionmsg": "anchorhandler-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"AnchorHandler": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"AnchorHandlerHooks": "AnchorHandlerHooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "AnchorHandlerHooks::addAnchorHandler"
+	},
+	"config_prefix": "eg",
+	"config": {
+		"AnchorNamespaces": {
+			"value": "",
+			"description": "Wiki namespaces where AnchorHandler will work. Set on LocalSettings.php",
+			"public": true
+		}
+	},
+	"manifest_version": 2
+}

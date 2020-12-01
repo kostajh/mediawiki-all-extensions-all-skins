@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Hugo.arg",
+			"Manvydasz",
+			"Tomasdd"
+		]
+	},
+	"echo-category-title-login-fail": "Nepavykę prisijungimai",
+	"echo-pref-tooltip-login-fail": "Pranešti man, kai kelis kartus nepavyko prisijungti prie mano paskyros.",
+	"echo-category-title-login-success": "Prisijungimas iš nepažįstamo įrenginio",
+	"echo-pref-tooltip-login-success": "Pranešti man, kai kas nors prisijungia prie mano paskyros iš nepažįstamo įrenginio ir IP adreso.",
+	"loginnotify-primary-link": "Pagalba",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Nesėkmingas bandymas|Keletas nesėkmingų bandymų}} prisijungti prie {{SITENAME}} $1 vardu",
+	"notification-known-header-login-fail": "Nuo to karto, kai prisijungėte paskutinį sykį {{PLURAL:$1|būta '''nesėkmingo bandymo'''|būta '''$1 nesėkmingų bandymų'''}} prisijungti prie jūsų paskyros. Jei tai ne jūsų bandymai, prašome susikurti neįspėjamą slaptažodį."
+}

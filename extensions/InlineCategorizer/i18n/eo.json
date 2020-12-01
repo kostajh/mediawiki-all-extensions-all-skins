@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin",
+			"Yekrats"
+		]
+	},
+	"inlinecategorizer-desc": "JavaScript-modulo kiu ebligas ŝanĝado, aldonado, kaj forigado de kategoriaj ligiloj rekte el paĝo",
+	"inlinecategorizer-add-category": "Aldoni kategorion",
+	"inlinecategorizer-add-category-submit": "Aldoni",
+	"inlinecategorizer-add-category-summary": "Aldoni kategorion \"$1\"",
+	"inlinecategorizer-api-error": "La API raportis la eraron: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "La API raportis nekonatan eraron.",
+	"inlinecategorizer-cancel": "Nuligi redakton",
+	"inlinecategorizer-cancel-all": "Nuligi ĉiujn ŝanĝojn",
+	"inlinecategorizer-category-already-present": "Ĉi tiu paĝo jam apartenas al la kategorio \"$1\"",
+	"inlinecategorizer-category-hook-error": "Loka funkcio preventis konservadon de la ŝanĝoj.",
+	"inlinecategorizer-category-question": "Kial vi volas fari la jenajn ŝanĝojn:",
+	"inlinecategorizer-confirm-ok": "Ek!",
+	"inlinecategorizer-confirm-save": "Konservi",
+	"inlinecategorizer-confirm-save-all": "Konservi ĉiujn ŝanĝojn",
+	"inlinecategorizer-confirm-title": "Konfirmi agon",
+	"inlinecategorizer-edit-category": "Redakti kategorion",
+	"inlinecategorizer-edit-category-error": "Ne eblas redakti kategorion \"$1\".\nĈi tiel okazas kiam la kategorio estis aldonita al la paĝo per ŝablono.",
+	"inlinecategorizer-edit-category-summary": "Ŝanĝi kategorion \"$1\" al \"$2\"",
+	"inlinecategorizer-error-title": "Eraro",
+	"inlinecategorizer-remove-category": "Forigi kategorion",
+	"inlinecategorizer-remove-category-error": "Ne eblas forigi kategorion \"$1\".\nĈi tiel okazas kiam la kategorio estis aldonita al la paĝo per ŝablono.",
+	"inlinecategorizer-remove-category-summary": "Forigi kategorion \"$1\""
+}

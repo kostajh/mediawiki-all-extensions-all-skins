@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-groupmanager-desc": "Administrasjonsgrensesnitt for å legge til, redigere og slette brukergrupper og rettighetene deres",
+	"bs-groupmanager-grpexists": "Gruppa finnes allerede.",
+	"bs-groupmanager-grpempty": "Gruppenavnet kan ikke være tomt.",
+	"bs-groupmanager-grpadded": "Gruppa har blitt lagt til.",
+	"bs-groupmanager-grpedited": "Gruppa har blitt redigert.",
+	"bs-groupmanager-grpremoved": "Gruppa har blitt fjernet.",
+	"bs-groupmanager-label": "Gruppebehandler",
+	"bs-groupmanager-invalid-name": "Gruppenavnet inneholder {{PLURAL:$1|et ugyldig|ugyldige}} tegn: $2",
+	"bs-groupmanager-invalid-name-length": "Gruppenavnet kan ikke være lengre enn 255 tegn.",
+	"bs-groupmanager-invalid-name-numeric": "Gruppenavnet må ha minst ett tegn.",
+	"bs-groupmanager-headergroup": "Gruppe",
+	"bs-groupmanager-tipremove": "Fjern {{PLURAL:$1|gruppe|grupper}}",
+	"bs-groupmanager-titlenewgroup": "Ny gruppe",
+	"bs-groupmanager-titleeditgroup": "Rediger gruppe",
+	"bs-groupmanager-removegroup": "Er du sikker på at du vil fjerne {{PLURAL:$1|denne gruppa|disse gruppene}}?",
+	"bs-groupmanager-removegroup-message-success": "Følgende {{PLURAL:$1|gruppe|grupper}} ble slettet: $2",
+	"bs-groupmanager-removegroup-message-failure": "Følgende {{PLURAL:$1|gruppe|grupper}} kunne ikke slettes: $2",
+	"bs-groupmanager-removegroup-message-unknown": "En uventet feli oppsto, prøv igjen.",
+	"bs-groupmanager-lablename": "Gruppenavn:",
+	"bs-groupmanager-msgnoteditable": "Denne gruppe er ei systemgruppe og kan ikke endre navn.",
+	"bs-groupmanager-msgnotremovable": "Denne gruppa er ei systemgruppe og kan ikke fjernes.",
+	"bs-groupmanager-write-config-file-error": "Fila $1 kunne ikke oprrettes eller lagres.",
+	"log-name-bs-group-manager": "Gruppebehandlingslogg",
+	"log-description-bs-group-manager": "Dette er en logg over endringer i brukergruppene.",
+	"log-show-hide-bs-group-manager": "$1 gruppebehandlingslogg",
+	"logeventslist-bs-group-manager-log": "Gruppebehandlingslogg",
+	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|har}} opprettet gruppa $4",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|har}} endret navn på gruppa $4 til $5",
+	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|har}} fjernet gruppa $4",
+	"apihelp-bs-groupmanager-description": "Gir oppgaver for utvidelsen GroupManager.",
+	"apihelp-bs-groupmanager-summary": "Gir oppgaver for utvidelsen GroupManager.",
+	"action-groupmanager-viewspecialpage": "vise spesialsiden «{{int:bs-groupmanager-label}}»",
+	"groupmanager": "Gruppebehandler",
+	"right-groupmanager-viewspecialpage": "Tilgang til spesialsiden [[Special:GroupManager]]."
+}

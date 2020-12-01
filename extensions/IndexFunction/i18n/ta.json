@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Karthi.dr",
+			"மதனாஹரன்"
+		]
+	},
+	"indexfunc-badtitle": "செல்லாத தலைப்பு: \"$1\"",
+	"indexfunc-index-exists": "$1 பக்கம் ஏற்கனவே உள்ளது.",
+	"index-legend": "உள்ளடக்கத்தைத் தேடு",
+	"index-search": "தேடு",
+	"index-submit": "சமர்ப்பி",
+	"index-emptylist": "\"$1\" உடன் தொடர்புடைய ஒரு பக்கமும் இல்லை.",
+	"index-hide-detail": "பக்கங்களின் பட்டியலை மறைக்கவும்",
+	"index-no-results": "இந்த தேடல் எந்த முடிவையும் தரவில்லை."
+}

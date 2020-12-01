@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Base"
+		]
+	},
+	"securehtml": "Безпечний HTML",
+	"securehtml-desc": "Дає змогу включати довільний HTML в уповноважений і безпечний спосіб",
+	"securehtml-nokeys": "Помилка: <code>$wgSecureHTMLSecrets</code> не заповнюється.",
+	"securehtml-hashrequired": "Помилка: потрібен хеш.",
+	"securehtml-invalidhash": "Помилка: Неправильний геш.",
+	"securehtml-input-title": "Дані HTML",
+	"securehtml-generatedoutput-title": "Згенерований вивід",
+	"securehtml-renderedhhtml-title": "Опрацьована HTML",
+	"securehtml-form-keyname": "Ім'я ключа (необов'язково)",
+	"securehtml-form-keysecret": "Секретний ключ",
+	"securehtml-form-html": "Чисте HTML",
+	"securehtml-form-submit": "Відправити",
+	"securehtml-inputinstructions": "Введіть ім'я (необов'язково), секретний ключ, необхідний вихідний HTML-код.\nЯкщо ім'я ключа не вказано, перший ключ у <code>$wgSecureHTMLSecrets</code> буде прийнятий.",
+	"securehtml-outputinstructions": "Скопіюйте код, наведений вище, ТОЧНО і вставте його в вікі-редактор.\nЯкщо згенерований код не працює, то спробуйте видалити всі символи переносу рядків з вхідного HTML і повторно згенерувати."
+}

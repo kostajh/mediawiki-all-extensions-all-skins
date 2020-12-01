@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Михајло Анђелковић"
+		]
+	},
+	"htmlets-desc": "Омогућава убацивање HTML делова из датотека, коришћењем <code>&lt;htmlet&gt;</code> тага"
+}

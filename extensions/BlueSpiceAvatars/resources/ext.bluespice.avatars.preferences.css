@@ -1,0 +1,18 @@
+.mw-input .bs-avatars-profile-image {
+	display: block;
+	margin-top: 0.5em;
+}
+.mw-input .bs-avatars-userimage-pref {
+	display: inline-block;
+}
+.mw-input .bs-avatars-userimage-pref img {
+	border: none;
+	border-radius: 0;
+	cursor: pointer;
+}
+.bs-avatars-userimage-pref-btn {
+	margin-left: 5px;
+}
+tr.bs-avatars-userimage-pref td {
+	vertical-align: top;
+}

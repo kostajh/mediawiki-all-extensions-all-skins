@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"page-creation-notif-desc": "Invia una e-mail di notifica quando vengono creati nuove pagine",
+	"page-creation-notification": "Inviami una e-mail quando una nuova pagina viene creata",
+	"page-creation-email-subject": "Nuova pagina – $1 {{GENDER:$3|creata}} su $2 da $3",
+	"page-creation-email-body": "Gentile $1,\n\nQuesta è una notifica da {{SITENAME}} che una nuova pagina $2 è stata {{Gender:$3|creata}} dall'utente $3.\n\nPuoi vederla qui\n$4\n\nIl testo della pagina è:\n$5\n\n\n             Il sistema di notifica di {{SITENAME}}, al tuo servizio\n\n--\nPer modificare le impostazioni delle notifiche via posta elettronica, visita \n{{canonicalurl:{{#special:Preferences}}}}"
+}

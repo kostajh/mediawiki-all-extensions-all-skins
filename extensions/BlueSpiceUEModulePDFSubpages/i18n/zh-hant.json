@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-uemodulepdfsubpages-extension-description": "啟用頁面遞迴匯出成為帶有子頁面的 PDF 格式。",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-text": "帶有子頁面的 PDF 頁面",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-title": "匯出此頁面與所有子頁面成為 PDF。",
+	"action-uemodulepdfsubpages-export": "匯出頁面，包含所有子頁面，轉成 PDF",
+	"right-uemodulepdfsubpages-export": "匯出頁面，包含所有子頁面，轉成 PDF"
+}

@@ -1,0 +1,63 @@
+<div id="siteNotice">{{{sitenotice}}}</div>
+
+{{#contextband}}
+<div class="bs-page-before-header">
+	<div class="bs-page-breadcrumbs pull-left">{{{breadcrumbs}}}</div>
+	<div class="bs-page-namespaces pull-right">{{{namespaces}}}</div>
+</div>
+<div class="clearfix"></div>
+{{/contextband}}
+{{#qualificationband}}
+<div class="bs-page-header">
+	<div class="bs-page-categories pull-left">{{{categories}}}</div>
+</div>
+{{/qualificationband}}
+<div class="clearfix"></div>
+<div class="bs-page-separator v-line"></div>
+
+<div class="bs-firstHeading-container">
+	<div class="mw-indicators mw-body-content">{{{indicators}}}</div>{{! Indicators should be places directly above #firstHeading}}
+	<h1 id="firstHeading" class="firstHeading" lang="{{{lang}}}">
+		{{{firstheading}}}
+	</h1>
+	<div id="mw-page-header-links">{{{headerlinks}}}</div>
+</div>
+<div class="clearfix"></div>
+
+<div class="bs-page-after-header">
+	<ul>
+		<li class="bs-page-edit-elements-col bs-page-edit-elements">
+			<ul>
+				{{#metaband}}
+				<li class="bs-page-edit-element-icon-col">
+					<i class="icon-info"></i>
+				</li>
+				<li class="bs-page-edit-element-text-col">
+					{{{lastedit}}}
+				</li>
+				{{/metaband}}
+			</ul>
+		</li>
+		<li class="bs-page-info-elements-col">
+			<ul>
+				{{#metaband}}
+				<li>
+					{{{watchaction}}}
+				</li>
+				{{/metaband}}
+				<li class="bs-page-info-elements pull-left">
+					<ul>
+						{{#metaband}}
+							{{{pageinfoelements}}}
+						{{/metaband}}
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	{{#beforecontent}}{{{.}}}{{/beforecontent}}
+</div>
+<div class="clearfix"></div>
+
+<div class="bs-page-separator v-line"></div>
+<div class="clearfix"></div>

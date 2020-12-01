@@ -1,0 +1,30 @@
+{
+	"name": "PhpTags SPARQL",
+	"version": "1.0",
+	"author": "[https://www.mediawiki.org/wiki/User:Pastakhov Pavel Astakhov]",
+	"url": "https://www.mediawiki.org/wiki/Extension:PhpTags_SPARQL",
+	"descriptionmsg": "phptagssparql-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "phptags",
+	"MessagesDirs": {
+		"PhpTagsSPARQL": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"PhpTagsSPARQLHooks": "PhpTagsSPARQL.hooks.php",
+		"PhpTagsObjects\\SparqlEndpoint": "includes/SparqlEndpoint.php",
+		"Endpoint": "lib/SPARQL/Endpoint.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "PhpTagsSPARQLHooks::onParserFirstCallInit",
+		"PhpTagsRuntimeFirstInit": "PhpTagsSPARQLHooks::onPhpTagsRuntimeFirstInit"
+	},
+	"config": {
+		"PhpTagsSPARQLDefaultEndpoint": "https://query.wikidata.org/bigdata/namespace/wdq/sparql",
+		"PhpTagsSPARQLEndpointsThatUseGetHttpMethod": {
+			"https://query.wikidata.org/bigdata/namespace/wdq/sparql": 1
+		}
+	},
+	"manifest_version": 1
+}

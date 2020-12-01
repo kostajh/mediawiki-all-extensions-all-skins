@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"changeuserpasswords": "Zmień hasło użytkownika",
+	"changeuserpassword-desc": "Rozszerzenie umożliwiające zmienianie hasła użytkownikom nie będącym administratorami",
+	"changeuserpassword-pagename": "Zmień hasło użytkownika",
+	"changeuserpassword-topheader": "Wybierz nazwy użytkowników których hasła mają być zmienione. Domyślnie wybrani są wszyscy użytkownicy. Odznacz nazwy tych użytkowników, dla których haseł nie chcesz zmieniać.",
+	"changeuserpassword-success": "Zmieniono hasło użytkownika!",
+	"changeuserpassword-title": "Zmień hasło użytkownika",
+	"changeuserpassword-intro": "Rozszerzenie umożliwiające zmienianie hasła użytkownikom nie będącym administratorami.",
+	"action-changeuserpasswords": "zmianiania haseł użytkowników",
+	"right-changeuserpasswords": "Zmień hasła użytkowników"
+}

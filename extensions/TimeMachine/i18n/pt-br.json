@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"timemachine": "Máquina do tempo",
+	"timemachine-desc": "Depois de definir uma data em [[Special:TimeMachine]], permite navegar no conteúdo do wiki como era nessa data.",
+	"timemachine-p1": "Digite uma data abaixo para navegar no wiki como era nessa data.",
+	"timemachine-button1": "Ir a esta data",
+	"timemachine-p2": "Observe que somente o conteúdo do wiki mudará. O estilo, barra lateral, rodapé e outros elementos do wiki permanecerão inalterados.",
+	"timemachine-p3": "Para voltar a navegar o wiki normalmente, clique no botão abaixo ou esvazie seus cookies.",
+	"timemachine-button2": "Voltar ao presente"
+}

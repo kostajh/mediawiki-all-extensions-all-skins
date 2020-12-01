@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"multiupload": "Subir varios archivos",
+	"multiupload-desc": "[[Special:MultiUpload|Página especial para subir varios archivos de una sola vez]]",
+	"multipleupload": "Subir archivos",
+	"multipleupload-toolbox": "Subir varios archivos",
+	"multiupload-submit": "Cargar archivos",
+	"multiupload-uploadedto": "Se cargó el archivo $1.",
+	"multiupload-row": "Archivo $1",
+	"multiupload-unpack-button": "Desempaquetar",
+	"multiupload-notify-ok": "Aceptar",
+	"multiupload-upload-package-error": "Error al cargar el archivo de paquete",
+	"multiupload-unpack-error": "Error al descomprimir el paquete",
+	"multiupload-unreadable-package": "No se puede procesar el archivo $1",
+	"multiupload-http-error": "No se pudo conectar con el servidor.",
+	"multiupload-file-unpacked-from": "Archivo <b>$1</b> proveniente del paquete <b>$2</b>",
+	"apihelp-multiupload-unpack-description": "Descomprimir un archivo ZIP o TAR antes de importar su contenido.",
+	"apihelp-multiupload-unpack-summary": "Descomprimir un archivo ZIP o TAR antes de importar su contenido.",
+	"apihelp-multiupload-unpack-param-filename": "Nombre de archivo del paquete"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeblad",
+			"Jon Harald Søby"
+		]
+	},
+	"accountinfo": "Kontoinformasjon",
+	"accountinfo-desc": "Tillater en bruker å se privat informasjon om dem",
+	"accountinfo-ts": "Tidsstempel",
+	"accountinfo-ip": "IP-adresse",
+	"accountinfo-ua": "Brukeragent",
+	"accountinfo-xff": "XFF-topptekst",
+	"accountinfo-length": "Informasjon blir beholdt i $1.",
+	"accountinfo-now": "Nå"
+}

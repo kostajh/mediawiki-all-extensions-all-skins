@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Purodha"
+		]
+	},
+	"geodata-desc": "Brängk Funksjuhne zom Faßhallde un Widerfenge fun Ko'odėnahte obb em Jlohbos en et Wikki.",
+	"geodata-bad-input": "Onjöltejje Dahte sin aan di Funxjuhn <nowiki>{{#coordinates:}}</nowiki> övverjävve wohde.",
+	"geodata-bad-latitude": "<code><nowiki>{{#coordinates:}}</nowiki></code>: Dat es en onjöltijje Brehde om Jlohbos.",
+	"geodata-bad-longitude": "<code><nowiki>{{#coordinates:}}</nowiki></code>: Dadd es en onjöltije Längde om Jlohbos.",
+	"geodata-bad-type": "<code><nowiki>{{#coordinates:}}</nowiki></code>: „$1“ es en onbekannte Zoot Ko'odėnahte.",
+	"geodata-bad-globe": "<code><nowiki>{{#coordinates:}}</nowiki></code>: Dä Jlohbos „$1“ känne mer nit.",
+	"geodata-bad-region": "<code><nowiki>{{#coordinates:}}</nowiki></code>: Dadd es en onjölteje Afköözong för de Rejoon.",
+	"geodata-multiple-primary": "<code><nowiki>{{#coordinates:}}</nowiki></code>: Mer künne blooß ein vörjetroke Aanjab pro Sigg han.",
+	"geodata-limit-exceeded": "De Bovverjränz vun {{PLURAL:$1|einem|$1|keinem}} <code><nowiki>{{#coordinates:}}</nowiki></code>-{{PLURAL:$1|Befähl|Befähle|Befähl}} pro Sigg es övverschredde.",
+	"geodata-broken-tags-category": "Sigge met kapodde Befähle för Ko'odėnahte",
+	"geodata-broken-tags-category-desc": "En dä Sigg es ene kapodde <code><nowiki>{{#coordinates:}}</nowiki></code>-Befähl dren.",
+	"geodata-unknown-type-category": "Sigge med ene onbekannte Zoot Ko'odėnahte",
+	"geodata-unknown-type-category-desc": "En dä Sigg es ene onbikannte Wäät för der Parramehter <code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">type</code> för Ko'odėnahte dren.",
+	"geodata-unknown-globe-category": "Sigge med enem unbikannte Jlohbos",
+	"geodata-unknown-globe-category-desc": "En dä Sigg es ene onbikannte Wäät för der Parramehter <code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">globe</code> för Ko'odėnahte dren.",
+	"geodata-unknown-region-category": "Sigge med ene onjöltijje Rejon",
+	"geodata-unknown-region-category-desc": "En dä Sigg es ene onbikannte Wäät för der Parramehter <code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">region</code> för Ko'odėnahte dren.",
+	"geodata-api-help-coordinates-format": "Schriv ene Schtrech (<kbd>|</kbd>) zwesche de Länge un de Beijde om Jlohbos."
+}

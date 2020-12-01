@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dejan Savuljesku"
+		]
+	},
+	"echo-category-title-bs-social-entity-cat": "Entity actions on watched pages",
+	"bs-social-notifications-entity-create": "Social entity of type \"$1\" created",
+	"bs-social-notifications-email-entity-create-subject": "Social entity of type \"$1\" created",
+	"bs-social-notifications-email-entity-create-body": "User {{GENDER:$1|$2 has created}} a new \"$3\"",
+	"bs-social-notifications-email-entity-create-text-body": "User {{GENDER:$1|$2 has created}} a new \"$3\" with following text:\n$4",
+	"bs-social-notifications-web-entity-create-body": "User {{GENDER:$1|$2 has created}} a new \"$3\"",
+	"bs-social-notifications-entity-edit": "Social entity of type \"$1\" was edited",
+	"bs-social-notifications-email-entity-edit-subject": "Social entity of type \"$1\" was edited",
+	"bs-social-notifications-email-entity-edit-body": "User {{GENDER:$1|$2 has edited}} social entity of type \"$3\"",
+	"bs-social-notifications-email-entity-edit-text-body": "User {{GENDER:$1|$2 has edited}} social entity of type \"$3\" with following text:\n$4",
+	"bs-social-notifications-web-entity-edit-body": "User {{GENDER:$1|$2 has edited}} social entity of type \"$3\"",
+	"bs-social-notifications-entity-delete": "Social entity of type \"$1\" was deleted",
+	"bs-social-notifications-email-entity-delete-subject": "Social entity of type \"$1\" was deleted",
+	"bs-social-notifications-email-entity-delete-body": "User {{GENDER:$1|$2 has deleted}} social entity of type \"$3\"",
+	"bs-social-notifications-web-entity-delete-body": "User {{GENDER:$1|$2 has deleted}} social entity of type \"$3\"",
+	"bs-social-notification-primary-link-label": "View entity"
+}

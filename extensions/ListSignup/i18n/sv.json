@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil",
+			"Sara Mörtsell (WMSE)"
+		]
+	},
+	"listsignup": "Listregistrering",
+	"listsignup-desc": "Anpassat formulär för listregistrering",
+	"listsignup-legend": "Ange din information nedan.",
+	"listsignup-success": "Din e-postadress skickades in.",
+	"listsignuppurge-pretext": "''' Varning!''' Detta kommer ta bort alla adresser från listan. Denna åtgärd kan inte ångras.",
+	"listsignuppurge-success": "Listan tömdes!"
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andrei Stroe",
+			"Firilacroco",
+			"Minisarm",
+			"Stelistcristi",
+			"Strainu"
+		]
+	},
+	"openstackmanager-desc": "Permite utilizatorilor să administreze Nova și Swift",
+	"specialpages-group-nova": "OpenStack Nova",
+	"openstackmanager-novakey": "Cheie Nova",
+	"openstackmanager-delete": "ștergere",
+	"openstackmanager-actions": "Acțiuni",
+	"openstackmanager-notloggedin": "Autentificare necesară",
+	"openstackmanager-mustbeloggedin": "Trebuie să fiți autentificat pentru a efectua această acțiune.",
+	"openstackmanager-novapublickey": "Cheie SSH publică",
+	"openstackmanager-deletekey": "Ștergeți cheia publică",
+	"openstackmanager-deletekeyconfirm": "Sunteți sigur că doriți să ștergeți cheia de mai sus?",
+	"openstackmanager-keylist": "Listă de chei publice SSH",
+	"openstackmanager-name": "Nume",
+	"openstackmanager-fingerprint": "Amprentă",
+	"openstackmanager-keys": "Chei",
+	"openstackmanager-deletedkey": "Cheie ștearsă.",
+	"openstackmanager-deletedkeyfailed": "Nu s-a putu șterge cheia."
+}

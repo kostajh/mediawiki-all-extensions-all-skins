@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21",
+			"Сербијана"
+		]
+	},
+	"bs-insertlink-desc": "Дијалошки оквир за унос везе",
+	"prefs-insertlink": "Уметни везу",
+	"bs-insertlink": "Уметни везу",
+	"bs-insertlink-pref-enable-java": "Омогући аплет Јаве",
+	"bs-insertlink-button-title": "Уметни/Измени везу",
+	"bs-insertlink-dialog-title": "Уметни везу",
+	"bs-insertlink-tab-wiki-page": "Вики страница",
+	"bs-insertlink-tab-ext-link": "Спољашња веза",
+	"bs-insertlink-tab-email": "Имејл-веза",
+	"bs-insertlink-tab-file": "Веза ка датотеци",
+	"bs-insertlink-label-page": "Страница",
+	"bs-insertlink-label-link": "Веза",
+	"bs-insertlink-label-mail": "Имејл адреса",
+	"bs-insertlink-label-description": "Опис",
+	"bs-insertlink-label-file": "Датотека",
+	"bs-insertlink-label-searchfile": "Претражи…",
+	"bs-insertlink-select-a-page": "Изабери циљ...",
+	"bs-insertlink-select-a-namespace": "(Странице)",
+	"bs-insertlink-empty-field-text": "Да бисте уметнули везу, морате навести одредиште.",
+	"bs-insertlink-no-applet": "Не могу да учитам аплет. Проверите своју инсталацију Јаве.",
+	"bs-insertlink-internal-file-link-button-label": "Изабери датотеку"
+}

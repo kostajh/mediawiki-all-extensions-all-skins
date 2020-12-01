@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mcandri13",
+			"Mglaser",
+			"Robert Vogel <vogel@hallowelt.biz>"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "Ermöglicht das Exportieren nach HTML",
+	"bs-uemodulehtml-pref-DefaultTemplate": "Standardvorlage",
+	"bs-uemodulehtml-pref-SuppressNS": "Namensraum im HTML ausblenden",
+	"bs-uemodulehtml-pref-Backend": "Backend",
+	"bs-uemodulehtml-widgetlink-single-text": "HTML Einzelseite (archiviert)",
+	"bs-uemodulehtml-widgetlink-single-title": "Diese Seite im HTML Format zusammen mit ihren Ressourcen in einem ZIP-Archiv ausgeben.",
+	"bs-uemodulehtml-overview-title": "HTML Dokument (archiviert)",
+	"bs-uemodulehtml-overview-description": "Exportiert Wikiseiten (Spezialseiten und Inhaltsseiten) nach HTML."
+}

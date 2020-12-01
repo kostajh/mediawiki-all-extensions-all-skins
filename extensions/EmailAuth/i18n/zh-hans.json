@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"emailauth-desc": "通过电子邮件验证可疑登录。",
+	"emailauth-token-label": "验证码",
+	"emailauth-token-help": "一次性2FA令牌已通过电子邮件发送。",
+	"emailauth-email-subject": "您登录$1所需的验证码",
+	"emailauth-email-body": "您登录$1所需的验证码为$2",
+	"emailauth-login-message": "您需要验证您的登录。验证码已发送到您的电子邮件地址（$1），请在此输入该代码。",
+	"emailauth-login-failure": "无效的验证码！",
+	"emailauth-login-retry-limit": "失败太多次！"
+}

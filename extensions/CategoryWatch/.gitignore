@@ -1,0 +1,18 @@
+# -*- mode: gitignore; -*-
+
+### vi ###
+.*.swp
+
+### Emacs ###
+*~
+\#*\#
+.\#*
+.tramp_history
+
+# misc
+PHPTAGS.sqlite
+
+# misc MW
+/node_modules
+/vendor
+/composer.lock

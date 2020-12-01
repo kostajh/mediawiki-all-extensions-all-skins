@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2",
+			"Steeve815"
+		]
+	},
+	"bs-notifications-addaccount": "{{GENDER:$1|המשתמש|המשתמשת}} \"$1\" {{GENDER:$1|נוצר|נוצרה}}.",
+	"bs-notifications-email-addaccount-subject": "{{GENDER:$1|המשתמש|המשתמשת}} \"$2\" {{GENDER:$1|נוצר|נוצרה}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|המשתמש|המשתמשת}} \"$2\" {{GENDER:$1|נוצר|נוצרה}}.\n\nבאפשרותך לבקר בדף המשתמש {{GENDER:$1|שלו|שלה}} באמצעות הקישור שלהלן",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|המשתמש|המשתמשת}} \"$2\" {{GENDER:$1|נוצר|נוצרה}}.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|היוצר|היוצרת}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|יוצר|יוצרת}}: $1",
+	"bs-notifications-registeruser": "{{GENDER:$1|המשתמש|המשתמשת}} \"$1\" {{GENDER:$1|יצר|יצרה}} חשבון.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|משתמש|משתמשת}} \"$2\" {{GENDER:$1|יצר|יצרה}} חשבון",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|המשתמש|המשתמשת}} \"$2\" {{GENDER:$1|יצר|יצרה}} חשבון.\n\nניתן לבקר בדף {{GENDER:$1|המשתמש שלו|המשתמשת שלה}} באמצעות הקישור להלן",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|המשתמש|המשתמשת}} $2 {{GENDER:$1|יצר|יצרה}} חשבון.",
+	"bs-notifications-edit": "הדף \"$1\" שוּנה",
+	"bs-notifications-edit-bundle": "הדף \"$2\" שוּנה {{PLURAL:$1|פעם אחת|פעמיים|$1 פעמים}}",
+	"bs-notifications-email-edit-subject": "הדף \"$1\" {{GENDER:$2|נערך}} על־ידי $3",
+	"bs-notifications-email-edit-body": "הדף \"$1\" {{GENDER:$2|נערך}} על־ידי $4.\n\nתקציר העריכה:\n $3",
+	"bs-notifications-web-edit-body": "הדף \"$1\" {{GENDER:$2|נערך}} על־ידי $3.",
+	"bs-notifications-create": "הדף \"$1\" נוצר",
+	"bs-notifications-email-create-subject": "הדף \"$1\" {{GENDER:$2|נוצר}} על־ידי $3",
+	"bs-notifications-email-create-body": "הדף \"$1\" {{GENDER:$2|נוצר}} על־ידי $3.\n\nתקציר העריכה:\n $4\nבאפשרותך לבקר בדף באמצעות הקישור שלהלן",
+	"bs-notifications-web-create-body": "הדף \"$1\" {{GENDER:$2|נוצר}} על־ידי $3.",
+	"bs-notifications-delete": "הדף \"$1\" נמחק",
+	"bs-notifications-email-delete-subject": "הדף \"$1\" {{GENDER:$2|נמחק}} על־ידי $3",
+	"bs-notifications-email-delete-body": "הדף \"$1\" {{GENDER:$2|נמחק}} על־ידי $3.\n\nהסיבה שניתנה למחיקה:\n$4",
+	"bs-notifications-web-delete-body": "הדף \"$1\" {{GENDER:$2|נמחק}} על־ידי $3.",
+	"bs-notifications-move": "הדף \"$1\" הועבר",
+	"bs-notifications-email-move-subject": "הדף \"$1\" {{GENDER:$2|הועבר}} לשם \"$3\" על־ידי $4",
+	"bs-notifications-email-move-body": "הדף \"$1\" {{GENDER:$2|הועבר}} לשם \"$3\" על־ידי $4.\n\nהסיבה שניתנה:\n$5\n\nבאפשרותך לבקר בדף באמצעות הקישור שלהלן",
+	"bs-notifications-web-move-body": "הדף \"$1\" {{GENDER:$2|הועבר}} לשם \"$3\" על־ידי $4",
+	"bs-notifications-edit-difflink-label": "צפייה בהבדלים",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|שלום}} $1",
+	"bs-notifications-htmlmail-sender-info": "מערכת ההודעות של $1",
+	"bs-notifications-mail-additional-links-label": "קישורים נוספים",
+	"bs-notifications-param-realname-with-username": "$1 ($2)"
+}

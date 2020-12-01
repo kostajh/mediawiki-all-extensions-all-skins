@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Cwlin0416",
+			"LNDDYL",
+			"Mark85296341"
+		]
+	},
+	"googlenewssitemap": "Google 資訊網站地圖",
+	"googlenewssitemap-desc": "輸出一個 Google 資訊網站地圖的 Atom/RSS 文件",
+	"googlenewssitemap_toomanycats": "錯誤：分類過多！",
+	"googlenewssitemap_feedtitle": "$1{{SITENAME}} 的 $2 摘要。"
+}

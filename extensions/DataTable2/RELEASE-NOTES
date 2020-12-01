@@ -1,0 +1,15 @@
+<!--
+     page taken from
+     https://www.mediawiki.org/wiki/Extension:DataTable2/Release_notes
+-->
+== Release notes ==
+
+These are the release notes for version 1.1.0 See [[{{NAMESPACE}}:{{BASEPAGENAME}}/History]] for older releases.
+
+=== Configuration changes ===
+
+The extension is now loaded using the <code>wfLoadExtension()</code> mechanism introduced in MediaWiki 1.25. It is therefore incompatible with older MediaWiki versions.
+
+=== Bugfixes ===
+
+Removed closing ?> at end of file. Removed backwards-compatibility shim DataTable2.i18n.php.

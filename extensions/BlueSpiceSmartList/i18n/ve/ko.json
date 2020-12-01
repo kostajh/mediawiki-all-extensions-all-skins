@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-smartlist-ve-smartlist-title": "스마트리스트",
+	"bs-smartlist-ve-smartlistinspector-count": "개수",
+	"bs-smartlist-ve-smartlistinspector-ns": "이름공간",
+	"bs-smartlist-ve-smartlistinspector-cat": "분류",
+	"bs-smartlist-ve-smartlistinspector-minor": "사소한 편집 표시",
+	"bs-smartlist-ve-smartlistinspector-catmode": "분류 방식",
+	"bs-smartlist-ve-smartlistinspector-period": "기간",
+	"bs-smartlist-ve-smartlistinspector-new": "새 문서만 표시",
+	"bs-smartlist-ve-smartlistinspector-showtext": "텍스트 표시",
+	"bs-smartlist-ve-smartlistinspector-sort": "정렬 기준",
+	"bs-smartlist-ve-smartlistinspector-order": "정렬 순서",
+	"bs-smartlist-ve-smartlistinspector-showns": "이름공간 표시",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "텍스트가 있는 숫자",
+	"bs-smartlist-ve-smartlistinspector-meta": "메타",
+	"bs-smartlist-ve-smartlistinspector-target": "대상",
+	"bs-smartlist-ve-smartlistinspector-excludens": "이름공간 제외",
+	"bs-smartlist-ve-period-day-label": "일",
+	"bs-smartlist-ve-period-week-label": "주",
+	"bs-smartlist-ve-period-month-label": "월",
+	"bs-smartlist-ve-sort-time-label": "시간",
+	"bs-smartlist-ve-sort-title-label": "제목",
+	"bs-smartlist-ve-newbies-title": "새 사용자",
+	"bs-smartlist-ve-newbiesinspector-count": "개수",
+	"bs-smartlist-ve-toplist-title": "톱리스트",
+	"bs-smartlist-ve-toplistinspector-count": "개수",
+	"bs-smartlist-ve-toplistinspector-ns": "이름공간",
+	"bs-smartlist-ve-toplistinspector-cat": "분류",
+	"bs-smartlist-ve-toplistinspector-period": "기간",
+	"bs-smartlist-ve-mode-recentchanges-label": "최근 바뀜",
+	"bs-smartlist-ve-mode-changesofweek-label": "주의 바뀜"
+}

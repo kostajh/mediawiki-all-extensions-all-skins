@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mainframe98",
+			"Mar(c)",
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"bs-countthings-desc": "Biedt inhoudgebaseerde statistieken",
+	"bs-countthings-chars-label": "Tekens",
+	"bs-countthings-words-label": "Woorden",
+	"bs-countthings-files-label": "Bestanden",
+	"bs-countthings-pages-label": "Pagina's",
+	"bs-countthings-ve-countcharacters-title": "Tekens tellen",
+	"bs-countthings-ve-countarticles-title": "Artikelen tellen",
+	"bs-countthings-ve-countfiles-title": "Bestanden tellen",
+	"bs-countthings-ve-countusers-title": "Gebruikers tellen",
+	"bs-countthings-ve-countthingsinspector-mode": "Modus",
+	"bs-countthings-ve-countcharacters-mode-all": "alle",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "tekens",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "woorden",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "tekens en woorden",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "pagina's",
+	"bs-countthings-ve-countcharacters-input-label": "Pagina's",
+	"bs-countthings-error-no-input": "Geen pagina opgegeven.",
+	"bs-countthings-error-invalid-mode": "De modus \"$1\" is ongeldig. Gebruik \"chars\", \"words\" of \"pages\".",
+	"bs-countthings-error-not-exist": "De pagina \"$1\" bestaat niet.",
+	"bs-countthings-tag-countarticles-desc": "Geeft het aantal artikels op de wiki weer.",
+	"bs-countthings-tag-countusers-desc": "Geeft het aantal geregistreerde gebruikers weer.",
+	"bs-countthings-tag-countfiles-desc": "Geeft het aantal bestanden op de wiki weer.",
+	"bs-countthings-tag-countcharacters-desc": "Genereert metadata over de inhoud van het aangegeven artikel. De uitvoer is een infobox die in een artikel kan worden geïntegreerd. Met de parameter \"mode\" kunnen verschillende soorten informatie worden weergegeven.",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Wat geteld moet worden; <code>chars</code> (tekens), <code>words</code> (woorden) of <code>pages</code> (pagina's).",
+	"bs-countthings-tag-countcharacters-example-1": "Aantal woorden",
+	"bs-countthings-tag-countcharacters-example-2": "Aantal tekens"
+}

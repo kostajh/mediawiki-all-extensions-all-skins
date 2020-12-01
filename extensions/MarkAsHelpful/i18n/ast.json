@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"markashelpful-desc": "Ufre una interfaz d'usuariu pa marcar comentarios como útiles",
+	"mah-mark-text": "Marcar como útil",
+	"mah-you-marked-text": "Pienses qu'esto ye útil",
+	"mah-someone-marked-text": "{{GENDER:$1|$1}} cree qu'esto ye útil",
+	"mah-undo-mark-text": "desfacer",
+	"mah-action-error": "Hebo un error al facer esta aición",
+	"apihelp-getmarkashelpfulitem-description": "Recibir la llista de tolos estaos útiles d'un elementu oxetu.",
+	"apihelp-getmarkashelpfulitem-summary": "Recibir la llista de tolos estaos útiles d'un elementu oxetu.",
+	"apihelp-getmarkashelpfulitem-param-type": "El tipu d'oxetu que ta marcándose como útil.",
+	"apihelp-getmarkashelpfulitem-param-item": "L'elementu oxetu que ta marcándose como útil.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Qué propiedá algamar.",
+	"apihelp-getmarkashelpfulitem-param-page": "La páxina que ta solicitando l'elementu.",
+	"apihelp-markashelpful-description": "Permite a los usuarios marcar o desmarcar un elementu oxetu del sitiu como útil.",
+	"apihelp-markashelpful-summary": "Permite a los usuarios marcar o desmarcar un elementu oxetu del sitiu como útil.",
+	"apihelp-markashelpful-param-mahaction": "Si marcar o desmarcar un elementu como útil.",
+	"apihelp-markashelpful-param-page": "Páxina na que ta l'elementu a marcar.",
+	"apihelp-markashelpful-param-type": "El tipu d'oxetu que ta marcándose como útil.",
+	"apihelp-markashelpful-param-item": "L'elementu oxetu que ta marcándose como útil.",
+	"apihelp-markashelpful-param-useragent": "La testera User-Agent del restolador.",
+	"apihelp-markashelpful-param-system": "El sistema operativu que ta usando.",
+	"apihelp-markashelpful-param-locale": "La configuración llocal n'usu."
+}

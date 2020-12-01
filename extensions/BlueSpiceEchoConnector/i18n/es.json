@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agusbou2015",
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"bs-echoconnector-extension-description": "Conecta BlueSpice con Echo",
+	"echo-category-title-bs-admin-cat": "Tareas administrativas",
+	"echo-pref-tooltip-bs-page-create-cat": "Notificarme cuando se cree una nueva página",
+	"echo-category-title-bs-page-create-cat": "Creación de páginas",
+	"prefs-namespace-notifications": "Notificaciones sobre eventos de espacios de nombres"
+}

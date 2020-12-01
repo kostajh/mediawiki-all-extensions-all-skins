@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"generatemochaconfig-desc": "Et skript som genererer JSON som kan brukes til å kjøre Mocha-tester for alle påslåtte utvidelser"
+}

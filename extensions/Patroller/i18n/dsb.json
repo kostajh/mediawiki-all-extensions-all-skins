@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"patrol": "Změny doglědowaś",
+	"patrol-desc": "Pólěpšony doglědowański interfejs z rozdźělenim źěłoweje śěźe",
+	"patrol-endorse": "Schwaliś",
+	"patrol-revert": "Slědk stajiś",
+	"patrol-revert-reason": "Pśicyna:",
+	"patrol-skip": "Pśeskócyś",
+	"patrol-reverting": "Slědkstajenje: $1",
+	"patrol-nonefound": "Žedne góźbne změny za doglědowanje namakane.",
+	"patrol-endorsed-ok": "Toś ta změna jo se markěrowała ako doglědowana.",
+	"patrol-endorsed-failed": "Změna njejo se dała ako doglědowana markěrowaś.",
+	"patrol-reverted-ok": "Změna jo se slědk stajiła.",
+	"patrol-reverted-failed": "Změna njejo se dała slědk stajiś.",
+	"patrol-skipped-ok": "Změna se ignorěrujo.",
+	"patrol-reasons": "* Jadnory wandalizm\n* Test nowacka\n* Glědaj diskusijny bok",
+	"patrol-another": "Drugu změnu pokazaś, jolic k dispoziciji.",
+	"patrol-stopped": "Sy rozsuźił žednu dalšnu změnu doglědowaś. $1",
+	"patrol-resume": "Klikni sem, aby pokšacował.",
+	"group-patroller": "Doglědowarje",
+	"group-patroller-member": "{{GENDER:$1|doglědowaŕ|doglědowarka}}",
+	"grouppage-patroller": "{{ns:project}}:Doglědowaŕ",
+	"right-patroller": "Boki doglědowaś"
+}

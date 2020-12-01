@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Papuass",
+			"Silraks",
+			"Xil"
+		]
+	},
+	"timedmedia-midi-short-audio": "MIDI audio fail, $1",
+	"timedmedia-midi-long-audio": "MIDI audio fails, ilgums $1, kopumā $2",
+	"timedmedia-mpeg-short-video": "MPEG $1 video fails, $2",
+	"timedmedia-mpeg-long-video": "MPEG audio/video fails, $1, garums $2, $4 × $5 pikseļi, $3 kopā",
+	"timedmedia-more": "Vairāk...",
+	"timedmedia-dismiss": "Aizvērt",
+	"timedmedia-download": "Lejupielādēt failu",
+	"timedmedia-desc-link": "Par šo failu",
+	"timedmedia-status": "Statuss",
+	"timedmedia-status-unknown": "Nezināms statuss",
+	"timedmedia-transcodeinfo": "Formāts",
+	"timedmedia-actions": "Darbības",
+	"timedmedia-direct-link": "Lejupielādēt",
+	"timedmedia-mp4": "MP4",
+	"timedmedia-source-file": "$1 avots",
+	"timedmedia-source-audio-file-desc": "Oriģinālais $1 fails ($2)",
+	"timedmedia-resolution-720": "HD 720p",
+	"timedmedia-resolution-1080": "HD 1080p",
+	"timedmedia-subtitle-new-go": "Aiziet!",
+	"timedmedia-subtitle-language": "$1 ($2) subtitri",
+	"beta-feature-timedmediahandler-message-videojs": "Jaunais video atskaņotājs",
+	"videojs-quality": "Video kvalitāte"
+}

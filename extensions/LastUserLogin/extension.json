@@ -1,0 +1,43 @@
+{
+	"name": "LastUserLogin",
+	"version": "1.6",
+	"author": [
+		"Justin G. Cramer",
+		"Danila Ulyanov",
+		"Thomas Klein",
+		"[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LastUserLogin",
+	"descriptionmsg": "lastuserlogin-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"AvailableRights": [
+		"lastlogin"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"lastlogin": true
+		}
+	},
+	"SpecialPages": {
+		"LastUserLogin": "LastUserLogin"
+	},
+	"MessagesDirs": {
+		"LastUserLogin": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"LastUserLoginAlias": "LastUserLogin.alias.php"
+	},
+	"AutoloadClasses": {
+		"LastUserLogin": "LastUserLogin.php"
+	},
+	"Hooks": {
+		"BeforeInitialize": "LastUserLogin::onBeforeInitialize"
+	},
+	"manifest_version": 2
+}

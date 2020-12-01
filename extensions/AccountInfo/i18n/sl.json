@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pinky sl"
+		]
+	},
+	"accountinfo": "Informacija o uporabniku",
+	"accountinfo-desc": "Dovoli uporabniku da vidi shranjeno informacijo o sebi",
+	"accountinfo-ts": "Časovni žig",
+	"accountinfo-ip": "IP-naslov",
+	"accountinfo-ua": "Uporabniški agent",
+	"accountinfo-xff": "XFF glava",
+	"accountinfo-length": "Informacija se ohrani $1.",
+	"accountinfo-now": "Sedaj"
+}

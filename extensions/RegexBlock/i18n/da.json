@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Byrial",
+			"Jon Harald Søby",
+			"Saederup92"
+		]
+	},
+	"apihelp-regexblock-param-reason": "Begrundelse for blokering.",
+	"apihelp-regexblock-param-nocreate": "Forhindre oprettelse af konto.",
+	"regexblock-form-reason": "Begrundelse:",
+	"regexblock-view-blocked": "Vis blokerede af:"
+}

@@ -1,0 +1,48 @@
+body {
+
+	/* aside.navigation-main */
+	&:not( .navigation-main-collapse ) .navigation-main {
+		width: @navigation-main-width;
+		transition: width .3s;
+
+		#bs-sitenavtabs {
+			width: @navigation-main-width;
+			transition: width .3s;
+		}
+	}
+
+	&.navigation-main-collapse .navigation-main {
+		width: 0;
+		transition: width .3s;
+
+		#bs-sitenavtabs {
+			width: 0;
+			transition: width .3s;
+		}
+	}
+
+	/* aside.sitetools-main */
+	&:not( .sitetools-main-collapse ) .sitetools-main {
+		top: @theme-header-mobile-height;
+		width: @sitetools-main-width;
+		transition: width .3s;
+
+		#bs-toolpanetabs{
+			width: @sitetools-main-width;
+			transition: width .3s;
+		}
+	}
+
+	&.sitetools-main-collapse .sitetools-main.active,
+	&.sitetools-main-collapse .sitetools-main {
+		top: @theme-header-mobile-height;
+		width: 0;
+		transition: width .3s;
+
+		#bs-toolpanetabs{
+			width: 0;
+			transition: width .3s;
+		}
+	}
+
+}

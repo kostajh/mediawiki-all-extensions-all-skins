@@ -1,0 +1,36 @@
+{
+	"name": "PhpTags Functions",
+	"version": "3.8.1",
+	"author": "[https://www.mediawiki.org/wiki/User:Pastakhov Pavel Astakhov]",
+	"url": "https://www.mediawiki.org/wiki/Extension:PhpTags_Functions",
+	"descriptionmsg": "phptagsfunctions-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "phptags",
+	"requires": {
+		"extensions": {
+			"PhpTags": ">= 5.12"
+		}
+	},
+	"MessagesDirs": {
+		"PhpTagsFunctions": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"PhpTagsFunctionsHooks": "PhpTagsFunctions.hooks.php",
+		"PhpTagsObjects\\PhpTagsFunc": "includes/PhpTagsFunc.php",
+		"PhpTagsObjects\\PhpTagsFuncUseful": "includes/PhpTagsFuncUseful.php",
+		"PhpTagsObjects\\PhpTagsFuncNativeObject": "includes/PhpTagsFuncNativeObject.php",
+		"PhpTagsObjects\\PhpTagsFuncDatePeriod": "includes/PhpTagsFuncDatePeriod.php",
+		"PhpTagsObjects\\PhpTagsWebRequest": "includes/PhpTagsWebRequest.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "PhpTagsFunctionsHooks::onParserFirstCallInit",
+		"PhpTagsRuntimeFirstInit": "PhpTagsFunctionsHooks::onPhpTagsRuntimeFirstInit"
+	},
+	"config": {
+		"PhpTagsFunctionDumpDepth": 3,
+		"PhpTagsFunctionDumpAmount": 10
+	},
+	"manifest_version": 1
+}

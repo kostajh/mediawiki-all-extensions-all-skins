@@ -1,0 +1,58 @@
+{
+	"identity" : "UUID",
+	"recorded": "UTC timestamp",
+	"voiceOf": {
+		"identity": "User::identity",
+		"gender": "enum{male, female, unspecified, ...}",
+		"yearBorn": "int"
+	},
+	"spokenDialect": {
+		"identity": "UserDialect::identity",
+		"location": "GeoJSON",
+		"languageLevel": "enum{native, fluent, intermediate, basic}",
+		"language": {
+			"identity": "Language::identity",
+			"iso639_1": "en",
+			"iso639_2b": "eng",
+			"iso639_2t": "eng",
+			"iso639_3": "eng"
+		}
+	},
+	"manuscriptPrompt": {
+		"identity": "ManuscriptPrompt::identity",
+		"content": "String text content",
+		"manuscript": {
+			"identity": "Manuscript::identity",
+			"name": "String",
+			"createdDate": "UTC timestamp",
+			"disabledDate": "UTC timestamp",
+			"language": {
+				"identity": "Language::identity",
+				"iso639_1": "en",
+				"iso639_2b": "eng",
+				"iso639_2t": "eng",
+				"iso639_3": "eng"
+			}
+		}
+	},
+	"annotations": [
+		{
+			"start": "int:milliseconds?",
+			"end": "int:milliseconds?",
+			"stereotype": {
+				"identity": "UUID",
+				"description": "What the value represents",
+				"valueClass": "string"
+			},
+			"value": "something or nothing"
+		}
+	],
+	"reviews": [
+		{
+			"identity": "UUID",
+			"reviewer": "User::identity",
+			"created": "UTC timestamp",
+			"rating": "enum{thumbUp, thumbDown, uncertain, skipped}"
+		}
+	]
+}

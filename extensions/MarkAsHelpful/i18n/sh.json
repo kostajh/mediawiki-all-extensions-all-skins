@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"markashelpful-desc": "Omogućava korisničko sučelje za označavanje komentara kao korisnih",
+	"mah-mark-text": "Označi kao korisno",
+	"mah-you-marked-text": "Smatrate da je ovo korisno",
+	"mah-someone-marked-text": "{{GENDER:$1|$1}} misli da je ovo korisno",
+	"mah-undo-mark-text": "vrati",
+	"mah-action-error": "Došlo je do greške pri izvršavanju radnje",
+	"apihelp-getmarkashelpfulitem-description": "Daj spisak svih stanja \"korisno\" za objektnu stavku.",
+	"apihelp-getmarkashelpfulitem-summary": "Daj spisak svih stanja \"korisno\" za objektnu stavku.",
+	"apihelp-getmarkashelpfulitem-param-type": "Objektni tip što označuje se kao korisan.",
+	"apihelp-getmarkashelpfulitem-param-item": "Objektna stavka što označuje se kao korisna.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Koje svojstvo dati.",
+	"apihelp-getmarkashelpfulitem-param-page": "Stranica što zahtijeva stavku.",
+	"apihelp-markashelpful-description": "Omogućuje korisnicima da označe ili odznače objektnu stavku na wikiju kao korisnu.",
+	"apihelp-markashelpful-summary": "Omogućuje korisnicima da označe ili odznače objektnu stavku na wikiju kao korisnu.",
+	"apihelp-markashelpful-param-mahaction": "Želite li označiti ili odznačiti stavku kao korisnu.",
+	"apihelp-markashelpful-param-page": "Na kojoj stranici označiti stavku.",
+	"apihelp-markashelpful-param-type": "Objektni tip što označuje se kao korisan.",
+	"apihelp-markashelpful-param-item": "Objektna stavka što označuje se kao korisna.",
+	"apihelp-markashelpful-param-useragent": "Zaglavlje „korisnik-vršitelj“ u pregledniku.",
+	"apihelp-markashelpful-param-system": "Koji operativni sistem se koristi.",
+	"apihelp-markashelpful-param-locale": "Mjestooznaka što se koristi."
+}

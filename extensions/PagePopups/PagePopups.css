@@ -1,0 +1,14 @@
+/*TODO: Add a small arrow to the popup*/
+
+.pagepopup-dialog .ui-dialog-titlebar { display: none }
+
+.pagepopup-dialog.ui-dialog {
+  width: auto !important;
+  height: auto !important;
+}
+
+.pagepopup-dialog .ui-dialog-content {
+  /*max-*/width: 300px;
+  max-height: 400px;
+  overflow: auto;
+}

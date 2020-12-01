@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"linkfilter-all": "All",
+	"linkfilter-submit": "Lohß Jonn!",
+	"linkfilter-submit-no-url": "Do moß dä <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Uniform Ressource Locator\">URL</i> aanjävve!",
+	"linkfilter-url": "<i lang=\"en\">URL</i>",
+	"linkfilter-admin-accept": "Aannemme",
+	"linkfilter-admin-reject": "Afflähne",
+	"group-linkadmin.css": "/* Dat CSS heh aan dä Schtäll wirrek bloß op de Lengk-Verwallder */",
+	"group-linkadmin.js": "/* Dat JavaSkrep heh aan dä Schtäll wirrek bloß op de Lengk-Verwallder */"
+}

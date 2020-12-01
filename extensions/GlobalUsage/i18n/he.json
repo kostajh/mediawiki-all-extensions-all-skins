@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2",
+			"Rotemliss",
+			"YaronSh",
+			"Yonidebest",
+			"ערן"
+		]
+	},
+	"globalusage": "שימוש גלובלי בקובץ",
+	"globalusage-for": "שימוש גלובלי בקובץ \"$1\"",
+	"globalusage-filename": "שם הקובץ:",
+	"globalusage-desc": "[[Special:GlobalUsage|דף מיוחד]] להצגת השימוש הגלובלי בקבצים",
+	"globalusage-ok": "חיפוש",
+	"globalusage-text": "חיפוש שימוש גלובלי בקובץ",
+	"globalusage-no-results": "[[:$1]] אינו בשימוש באתרי ויקי אחרים.",
+	"globalusage-on-wiki": "שימוש באתר $2",
+	"globalusage-of-file": "אתרי הוויקי השונים הבאים משתמשים בקובץ זה:",
+	"globalusage-more": "צפייה ב[[{{#Special:GlobalUsage}}/$1|שימושים גלובליים נוספים]] של קובץ זה.",
+	"globalusage-filterlocal": "לא להציג שימוש מקומי",
+	"mostgloballylinkedfiles": "הקבצים המקושרים ביותר",
+	"mostgloballylinkedfiles-summary": "רשימת קבצים שהוטבעו הכי הרבה בכל אתרי הוויקי. לרשימה המקבילה שלוקחת בחשבון שימוש באתר {{SITENAME}}, ר' [[{{#special:MostLinkedFiles}}]].",
+	"globallywantedfiles": "קבצים מבוקשים גלובלית",
+	"globallywantedfiles-summary": "רשימת קבצים שהוטבעו הכי הרבה פעמים בכל אתרי הוויקי אף שאינם קיימים. לרשימה המקבילה שלוקחת בחשבון שימוש באתר {{SITENAME}}, ר' [[{{#special:WantedFiles}}]]. ייתכן ששימוש בקבצים באתרי ויקי שבהם מותר ליצור דפים ששמם מתחיל באות קטנה ידווח באופן שגוי.",
+	"globallywantedfiles-foreign-repo": "<strong>אזהרה:</strong> הוויקי הזה משתמש במאגר קבצים חיצוני. קבצים מהמאגר החיצוני שנמצאים בשימוש יוצגו ברשימה הזאת בתור קישורים כחולים מחוקים אף שהם קיימים.",
+	"globalusage-header": "הדף הזה מציג איפה הקובץ משמש באתרי ויקי אחרים. אפשר גם למצוא את המידע הזה בתחתית דף תיאור הקובץ.",
+	"globallyunusedfiles": "קבצים שאינם בשימוש גלובלי",
+	"globallyunusedfilestext": "הקבצים הבאים קיימים, אבל אינם מוטמעים בשום דף בשום ויקי.",
+	"globallyunusedfiles-error-nonsharedrepo": "הוויקי הזה אניו במאגר משותף"
+}

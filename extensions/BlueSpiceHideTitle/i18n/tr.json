@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-hidetitle-desc": "Sayfanın başlığını gizlemek için <code><nowiki>__HIDETITLE__</nowiki></code> sihirli kelimesini ekler",
+	"bs-hidetitle-ve-dialog-meta-settings-showtitle": "Göster",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle": "Gizle",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-label": "Başlık görünürlüğü",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-help": "Burada başlığın gösterilip gösterilmeyeceğini tanımlayabilirsiniz."
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Obsuser"
+		]
+	},
+	"vikisemantictitle-desc": "VIKI плагин за управљање вики страницама помоћу екстензије Semantic Title",
+	"vikisemantictitle-error-displaytitle-fetch": "Грешка при покушају приказа насловних података за ноду: $1."
+}

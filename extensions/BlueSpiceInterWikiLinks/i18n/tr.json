@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"KediÇobanı",
+			"Sayginer"
+		]
+	},
+	"bs-interwikilinks-desc": "Vikiarası bağlantıları eklemek, düzenlemek ve silmek için yönetim arayüzü",
+	"bs-interwikilinks-invalid-pfx-spc": "Önek geçersiz. Lütfen boşluk kullanmayın.",
+	"bs-interwikilinks-invalid-url-spc": "URL geçersiz. Lütfen boşluk kullanmayın.",
+	"bs-interwikilinks-label": "Vikiarası bağlantılar",
+	"bs-interwikilinks-link-created": "Vikiarası bağlantısı oluşturuldu.",
+	"bs-interwikilinks-link-added": "Vikiarası bağlantısı eklendi.",
+	"bs-interwikilinks-link-deleted": "Vikiarası bağlantısı silindi.",
+	"bs-interwikilinks-nooldpfx": "Önceki önek bulunamadı.",
+	"bs-interwikilinks-nopfx": "Lütfen bir önek belirtin.",
+	"bs-interwikilinks-nourl": "Lütfen bir URL girin.",
+	"bs-interwikilinks-pfxtoolong": "Önek çok uzun. Lütfen en fazla 32 karakter kullanın.",
+	"bs-interwikilinks-pfxexists": "Bu önek zaten var.",
+	"bs-interwikilinks-headerprefix": "Önek",
+	"bs-interwikilinks-headerurl": "URL",
+	"bs-interwikilinks-titleaddinterwikilink": "Vikiarası bağlantısı ekle",
+	"bs-interwikilinks-titleeditinterwikilink": "Vikiarası bağlantısı düzenle",
+	"bs-interwikilinks-labelprefix": "Önek",
+	"bs-interwikilinks-labelurl": "URL",
+	"bs-interwikilinks-titledeleteinterwikilink": "Vikiarası bağlantısı sil",
+	"bs-interwikilinks-confirmdeleteinterwikilink": "Bu vikiarası bağlantısını silmek istediğinizden emin misiniz?",
+	"bs-interwikilinks-insertlink-tabtitle": "Başka bir vikiye bağla",
+	"bs-interwikilinks-insertlink-labelprefix": "Önek",
+	"bs-interwikilink-select-a-prefix": "Önek seç",
+	"bs-interwikilinks-link-edited": "Vikiarası bağlantısı düzenlendi",
+	"apihelp-bs-interwikilinks-tasks-description": "InterWikiLinks uzantılar için görevler sağlar.",
+	"apihelp-bs-interwikilinks-tasks-summary": "InterWikiLinks uzantısı için görevler sağlar.",
+	"action-interwikilinks-viewspecialpage": "\"{{int:bs-interwikilinks-label}}\" özel sayfayı görüntüle",
+	"interwikilinks": "Vikiarası bağlantılar",
+	"right-interwikilinks-viewspecialpage": "[[Special:InterWikiLinks]] özel sayfaya erişin"
+}

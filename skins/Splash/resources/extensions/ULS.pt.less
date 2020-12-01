@@ -1,0 +1,21 @@
+@media screen {
+	#pt-uls .uls-trigger {
+		padding-top: 0 !important;
+
+		&:before {
+			background-position: 0 4px;
+		}
+
+		@media ( max-width: 699px ) {
+			padding-top: 0.25em !important;
+			margin-bottom: -0.75em;
+			overflow: hidden;
+			width: 21px;
+			height: 20px;
+
+			&:before {
+				background-position: 0 0;
+			}
+		}
+	}
+}

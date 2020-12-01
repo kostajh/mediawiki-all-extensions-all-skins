@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andrei Stroe",
+			"KlaudiuMihaila",
+			"Minisarm",
+			"Stelistcristi"
+		]
+	},
+	"importusers": "Importați utilizatori",
+	"importusers-uploadfile": "Încarcă fișier",
+	"importusers-form-button": "Importă",
+	"importusers-user-added": "{{GENDER:$1|Utilizatorul|Utilizatoarea}} '''$1''' a fost {{GENDER:$1|adăugat|adăugată}}.",
+	"importusers-log-summary": "Sumar al importului:",
+	"importusers-log-summary-all": "Total {{PLURAL:$1|utilziator|utilizatori}}: $1",
+	"importusers-log-summary-added": "{{PLURAL:$1|{{GENDER:$2|Utilizator adăugat|Utilizatoare adăugată|Utilizator adăugat}}|{{GENDER:$2|Utilizatori adăugați|Utilizatoare adăugate|Utilizatori adăugați}}}}: $1",
+	"importusers-log-summary-updated": "{{PLURAL:$1|Utilizator|Utilizatori}} actualizați: $1",
+	"importusers-login-name": "Nume autentificare",
+	"importusers-password": "parolă",
+	"importusers-email": "e-mail",
+	"importusers-realname": "nume real"
+}

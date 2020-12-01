@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Mobe",
+			"Niklas Laxström",
+			"Str4nd"
+		]
+	},
+	"duplicator": "Monista sivu",
+	"duplicator-desc": "Luo itsenäisiä [[Special:Duplicate|kopioita sivuista]] säilyttäen muutoshistorian.",
+	"duplicator-toolbox": "Monista tämä sivu",
+	"duplicator-header": "Tällä sivulla voit luoda artikkelista täydellisen kopion historioineen.",
+	"duplicator-options": "Asetukset",
+	"duplicator-source": "Lähdesivu:",
+	"duplicator-dest": "Kohdesivu:",
+	"duplicator-dotalk": "Monista myös keskustelusivu, jos mahdollista",
+	"duplicator-dosubpages": "Kopioi alasivut (jos niitä on)",
+	"duplicator-dohistory": "Kopioi täysi sivun historia",
+	"duplicator-submit": "Monista",
+	"duplicator-summary": "Kopioitu sivusta [[$1]], versio [[$2]]",
+	"duplicator-success": "[[$1]] monistettiin sivulle [[$2]].",
+	"duplicator-success-revisions": "{{PLURAL:$1|yksi muutos|$1 muutosta}} kopioitiin.",
+	"duplicator-success-talknotcopied": "Keskustelusivua ei monistettu.",
+	"duplicator-failed": "Sivun monistaminen ei onnistunut.",
+	"duplicator-failed-toolong": "Sivua [[$1]] ei kopioitu. Kohteen nimi on liian pitkä.",
+	"duplicator-failed-dest-exists": "Sivua [[$1]] ei kopioitu. Kohde [[$2]] on jo olemassa.",
+	"duplicator-source-invalid": "Lähdesivun nimi ei kelpaa.",
+	"duplicator-source-notexist": "Sivua [[$1]] ei ole olemassa.",
+	"duplicator-dest-invalid": "Kohdesivun nimi ei kelpaa.",
+	"duplicator-dest-exists": "[[$1]] on jo olemassa. Anna nimi, joka ei ole vielä käytössä.",
+	"right-duplicate": "Kahdentaa sivuja"
+}

@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Glavkos",
+			"Nikosgranturismogt",
+			"Omnipaedista",
+			"Protnet"
+		]
+	},
+	"closewikis-desc": "Επιτρέπει να κλείσει wiki ιστοσελίδες  σε wiki φάρμες",
+	"closewikis-page": "Κλείσιμο του βίκι",
+	"closewikis-page-close": "Κλείσιμο του βίκι",
+	"closewikis-page-close-wiki": "Βίκι:",
+	"closewikis-page-close-dreason": "Λόγος (εμφανίζεται):",
+	"closewikis-page-close-submit": "Κλείσιμο",
+	"closewikis-page-close-success": "Το Βίκι έκλεισε",
+	"closewikis-page-reopen": "Ξανάνοιγμα του βίκι",
+	"closewikis-page-reopen-wiki": "Βίκι:",
+	"closewikis-page-reopen-reason": "Αιτία:",
+	"closewikis-page-reopen-submit": "Ξανάνοιγμα",
+	"closewikis-page-reopen-success": "Το Wiki ξανάνοιξε",
+	"closewikis-page-err-nowiki": "Καθορίστηκε μη έγκυρο wiki",
+	"closewikis-page-err-closed": "Το Wiki έχει ήδη κλείσει",
+	"closewikis-page-err-opened": "Το βίκι δεν είναι κλειστό",
+	"closewikis-list": "Κατάλογος κλειστών  wikis",
+	"closewikis-list-intro": "Αυτή η λίστα περιέχει τα wikis που έκλεισαν από επιτρόπους",
+	"closewikis-list-header-wiki": "Βίκι",
+	"closewikis-list-header-by": "Κλειστό από",
+	"closewikis-list-header-timestamp": "Έκλεισε στις",
+	"closewikis-list-header-dispreason": "Προβαλλόμενη αιτία",
+	"closewikis-log": "Ημερολόγιο κλεισίματος βίκι",
+	"closewikis-log-close": "έκλεισε $2",
+	"closewikis-log-reopen": "ξανάνοιξε $2",
+	"action-editclosedwikis": "επεξεργαστείτε κλειστά wiki",
+	"right-editclosedwikis": "Επεξεργασία κλεισμένων βίκι",
+	"action-closewikis": "κλείσετε wiki",
+	"right-closewikis": "Κλείσιμο των βίκι"
+}

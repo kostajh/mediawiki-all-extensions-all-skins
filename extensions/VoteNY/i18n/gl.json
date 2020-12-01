@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"apihelp-voteny-description": "Módulo de API VoteNY",
+	"apihelp-voteny-param-what": "Acción a realizar; os valores válidos son 'vote' (caixa de voto verde), 'multi' (estrelas de voto) ou 'delete' (borrar un voto dado previamente).",
+	"apihelp-voteny-param-pageId": "Identificador da páxina onde está/n a caixa de voto/estrelas",
+	"apihelp-voteny-param-voteValue": "Valor numérico de voto entre 1 e 5",
+	"apihelp-voteny-param-type": "Fixa isto a 'stars' para chamar ás estrelas de voto (VoteStars PHP class), noutro caso usarase a caixa de voto verde (Vote PHP class)",
+	"apihelp-voteny-example-1": "Votar pola páxina que ten o número de identificación 666",
+	"apihelp-voteny-example-2": "Borrar o seu voto da páxina que ten o número de identificación 666",
+	"apihelp-voteny-example-3": "Votar (3 estrelas sobre 5) para a páxina que ten o número de identificación 666",
+	"apihelp-voteny-example-4": "Borrar o seu voto da páxina que ten o número de identificación 666 que está usando a notación por estrelas",
+	"apihelp-voteny-example-5": "Votar (4 estrelas sobre 5) para a páxina que ten o número de identificación 666, borrando o seu voto previo, se existe",
+	"voteny-desc": "Sistema de votación en JavaScript coa etiqueta <code>&lt;vote&gt;</code>",
+	"voteny-link": "Votar",
+	"voteny-unvote-link": "retirar o voto",
+	"voteny-community-score": "puntuación da comunidade: $1",
+	"voteny-ratings": "{{PLURAL:$1|unha valoración|$1 valoracións}}",
+	"voteny-remove": "eliminar",
+	"voteny-gave-this": "vostede deu un $1",
+	"voteny-votes": "{{PLURAL:$1|un voto|$1 votos}}",
+	"topratings": "Páxinas mellor valoradas",
+	"topratings-no-pages": "Non hai ningunha páxina valorada.",
+	"right-voteny": "Votar páxinas"
+}

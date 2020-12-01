@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Isengngat",
+	"citoid-citoiddialog-back": "Agsubli",
+	"citoid-citoiddialog-credit": "Pinaandar babaen ti $1",
+	"citoid-citoiddialog-lookup-button": "Agpataud",
+	"citoid-citoiddialog-mode-auto": "Automatiko",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Usaren manen",
+	"citoid-citoiddialog-search": "Agbiruk",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN wenno PMC/PMID",
+	"citoid-citoiddialog-search-placeholder": "kas iti http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Agbirbiruk, pangngaasi nga aguray...",
+	"citoid-citoiddialog-title": "Aginayon iti dakamat",
+	"citoid-citoiddialog-use-general-error-message": "Saankami a makaaramid iti dakamat para kenka. Mabalinmo ti manual nga agpartuat babaen ti panagusar iti etiketa ti \"{{int:citoid-citoiddialog-mode-manual}}\" dita ngato.",
+	"citoid-citoidtool-title": "Dakamaten",
+	"citoid-citoidtool-title-othergroup": "Dakamat",
+	"citoid-desc": "Mangited kadagiti pagserrekan a punto a pagbaetan ti serbisio ti citoid ken MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Pagbaliwen",
+	"citoid-referencecontextitem-convert-message": "Daytoy a nagibasaran ket buklen iti maymaysa nga akinruar a silpo. Mabalinmo nga usaren ti buton ti \"{{int:citoid-referencecontextitem-convert-button}}\" dita baba tapno makapataud iti nasayaat a napormat a nagibasaran.",
+	"citoid-unknown-error": "Adda napasamak a biddut a nangigawid kaniami manipud iti panagpartuat ti dakamat. Pangngaasi a padasen manen intono madamdama."
+}

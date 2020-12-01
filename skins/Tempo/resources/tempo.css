@@ -1,0 +1,746 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #efefef;
+	font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+
+td select {
+	margin-bottom: 10px;
+}
+
+td label {
+	margin-right: 5px;
+}
+
+input[type="submit"] {
+	line-height: inherit;
+}
+
+input[type="radio"] {
+	margin: 0 2px;
+}
+
+a {
+	color: #505f4c;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: disc;
+	line-height: 1.5em;
+}
+
+dl {
+	margin-top: .2em;
+	margin-bottom: .5em;
+}
+
+dt {
+	font-weight: bold;
+	margin-bottom: .1em;
+}
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+	color: #000;
+	background: none;
+	font-weight: normal;
+	margin: 0;
+	overflow: hidden;
+	padding-top: .5em;
+	border-bottom: 1px solid #aaa;
+}
+
+:focus {
+	outline: none;
+}
+
+#container {
+	min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	display: table;
+	position: relative;
+}
+
+#top {
+	display: table-row;
+	height: 76px;
+}
+
+#logo {
+	width: 20%;
+	height: 76px;
+	float: left;
+	display: inline-block;
+}
+
+#logo img {
+	width: 66px;
+	margin-left: 109px;
+}
+
+#topSearch {
+	width: 40%;
+	line-height: 76px;
+	display: inline-block;
+}
+
+#bubble_search {
+	width: 100%;
+}
+
+#searchInput {
+	width: 70%;
+	line-height: 20px;
+	font-size: 12pt;
+	border-color: #aaa;
+	box-shadow: inset 0 3px 3px #ccc;
+	background-color: #f6f7f6;
+}
+
+#searchButton {
+	background-image: url(data:image/png;base64,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
+QmCC);
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position: top left;
+	border: 0;
+	background-color: transparent;
+	color: transparent;
+	margin-left: -24px;
+	line-height: 0px;
+	display: inline-block;
+	position: relative;
+	width: 24px;
+	height: 23px;
+}
+
+/* Super nasty fix for the search suggestions container; no, the number is _not_ arbitrary, sadly */
+html div.suggestions {
+	z-index: 999999999;
+}
+
+#topnav {
+	position: fixed;
+	top: 0;
+	clear: both;
+	height: 76px;
+	width: 100%;
+	display: table-cell;
+	border-bottom: 1px solid #e5e5e5;
+	background-color: #b9cdb5;
+	z-index: 999999999;
+}
+
+#hello {
+	display: inline-block;
+	box-shadow: 6px 0 8px -7px black;
+}
+
+#hello p {
+	padding-right: 25px;
+	font-size: small;
+	max-height: 76px;
+	vertical-align: middle;
+	margin: 0;
+	line-height: 76px;
+	float: right;
+}
+
+#top > #topnav > .userlinks-wrapper {
+	width: 450px;
+	height: 100%;
+	display: inline-block;
+	float: right;
+}
+
+#top > #topnav > .userlinks-wrapper > #userlinks {
+	display: inline-block;
+}
+
+#top > #topnav > .userlinks-wrapper > #userlinks > ul {
+	line-height: 100%;
+	height: 100%;
+	margin: 0;
+	vertical-align: top;
+	float: left;
+	padding: 0;
+}
+
+#top > #topnav > .userlinks-wrapper > #userlinks > ul > li {
+	float: left;
+	list-style-type: none;
+	display: inline-block;
+	font-size: small;
+	min-width: 70px;
+	min-height: 76px;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	left: 0;
+	transition: color .2s, background-color .2s, border .2s;
+}
+
+#top > #topnav > .userlinks-wrapper > #userlinks > ul > li:hover {
+	background-color: #505f4c;
+}
+#top > #topnav > .userlinks-wrapper > #userlinks > ul > li:hover > a {
+	text-decoration:none;
+	color: #fff;
+}
+
+#top > #topnav > .userlinks-wrapper > #userlinks > ul > li > a {
+	display: block;
+	height: 76px;
+	color: #475347;
+	text-transform: uppercase;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 76px;
+	font-weight: bold;
+	font-size: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#top > #topnav > .userlinks-wrapper > #userlinks > ul > li > ul {
+	padding: 0;
+	min-height: 50px;
+	position: absolute;
+	width: 250px;
+	display: none;
+	padding: 10px 0;
+	z-index: 1000;
+	list-style-type: none;
+	background-color: #f9f9f9;
+	border: 1px solid #b9cdb5;
+}
+
+#top > #topnav > .userlinks-wrapper > #userlinks > ul > li > ul > li a,
+#top > #topnav > .userlinks-wrapper > #userlinks > ul > li > ul > li p {
+	display: block;
+	padding: 0 20px 0 15px;
+	line-height: 26px;
+}
+
+a.ribbon {
+	color: #f6f7f6 !important;
+}
+
+#top > #topnav > .userlinks-wrapper > #userlinks > ul > li > ul > li:hover a {
+	background-color:#b9cdb5;
+	color: #fff !important;
+	text-decoration: none;
+}
+
+#top > #topnav > .userlinks-wrapper > #userlinks > ul > li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+#rail {
+	padding-top: 25px;
+	position: relative;
+	width: 20%;
+	clear: left;
+	display: table-cell;
+	height: auto;
+}
+
+#sidebar {
+	margin: 0 auto 25px;
+	width: 200px;
+}
+
+#sidebar section {
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #f6f5f4;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	width: 215px
+}
+
+#sidebar section .top {
+	border-bottom: 1px solid #92a583;
+	width: 100%;
+}
+
+#sidebar section .top h3 {
+	font-weight: normal;
+	display: inline;
+	vertical-align: top;
+}
+
+#sidebar section h3 {
+	font-size: small;
+	padding-bottom: 3px;
+}
+
+#sidebar ul {
+	margin: 0;
+	font-size: 10pt;
+	margin-top: 5px;
+	padding: 0;
+}
+
+#sidebar ul li:before {
+	font-size: 0.5em;
+	content: '\25A0';
+	color: #7db446;
+	position: relative;
+	top: -.5em;
+	margin-right: 5px;
+}
+#sidebar ul li {
+	border: none;
+	padding-left: 0;
+	padding-top: 10px;
+	line-height: 0.5em;
+	list-style-type: none;
+}
+
+#main {
+	vertical-align: top;
+	clear: right;
+	display: table-cell;
+	width: 80%;
+	padding-top: 25px;
+}
+
+#main #navtabs {
+	min-height: 25px;
+	vertical-align: bottom;
+	padding: 0;
+	min-width: 100%;
+	margin: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#main #navtabs ul {
+	margin: 0;
+	padding: 0;
+	display: block;
+	height: 100%;
+	vertical-align: bottom;
+}
+
+#main #navtabs li {
+	list-style-type: none;
+	display: inline-block;
+	height: 100%;
+	margin-right: 10px;
+	vertical-align: bottom;
+	overflow: hidden;
+	background-color: #EFEFEF;
+	line-height: 4px;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+
+#main #navtabs ul > li > a {
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #EFEFEF) );
+	background: -o-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+	background: -ms-linear-gradient(top, #FFFFFF 0%, #EFEFEF 100%);
+	background: linear-gradient(to top, #FFFFFF 0%, #EFEFEF 100%);
+	min-height: 100%;
+	font-size: 10pt;
+	padding: 10px;
+	display: block;
+	text-transform: lowercase;
+	background-color: #fff;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#main #navtabs ul > li.selected > a {
+	font-weight: bold;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 0px;
+}
+
+#main > #content {
+	max-width: 100%;
+	background-color: #fff;
+	border-radius:0px 2px 2px 2px;
+	border-left: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 10px;
+	line-height: 1.6;
+	font-size: 0.875em;
+	margin-bottom: 100px;
+}
+
+.mw-ui-container #userloginForm {
+	float: none;
+	display: table-cell;
+	padding-right: 30px;
+}
+
+div.mw-createacct-benefits-container {
+	display: table-cell;
+	float: none !important;
+}
+
+#content article {
+	margin-top: 25px;
+}
+
+#content article p {
+	text-indent: 5px;
+}
+
+#header {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+#main #content h1 {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16pt;
+	width: 100%;
+}
+
+/* [[mw:Help:Page status indicators]]; styles copied from MonoBook */
+.mw-indicators {
+	float: right;
+	line-height: 1.5em;
+	font-size: 95%;
+	/* This rule is needed to avoid there being too much whitespace above the <h1>
+	 * due to the existence of indicators
+	 */
+	margin-left: -2em;
+}
+
+.mw-indicator {
+	display: -moz-inline-block;
+	display: inline-block;
+}
+
+#bottom {
+	display: table-row;
+	height: 50px;
+}
+
+#bottom footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	float: left;
+	border-radius: 0;
+}
+
+#bottom footer ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 10px 0;
+}
+
+#bottom footer ul li {
+	display: inline;
+	padding: 5px;
+}
+
+#bottom footer ul li:after {
+	content: '||';
+	margin-left: 5px;
+}
+
+#bottom footer ul li:last-child:after {
+	content: '';
+}
+
+#bottom footer ul li a {
+	padding: 5px;
+}
+
+.textbox {
+	box-sizing: border-box;
+}
+
+.new {
+	color: #7F0000;
+}
+
+.menu {
+	position: absolute;
+	margin: 0;
+	padding: 10px 0;
+	top: 71px;
+	z-index: 1000;
+	background-color: #f9f9f9;
+	display: none;
+}
+
+#userlinks li:hover .menu {
+	display: visible;
+}
+
+#wpTextbox1, #wpSummary {
+	width: 100%;
+}
+
+.mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul {
+	margin: 0.3em 0 0 1.6em;
+	padding: 0;
+}
+
+.mw-body h2 {
+	font-size: 1.5em;
+	margin-top: 1em;
+	margin-bottom: 0.25em;
+}
+.mw-body h1, .mw-body h2 {
+	font-family: "Linux Libertine",Georgia,Times,serif;
+	line-height: 1.3;
+	padding: 0;
+}
+
+.mw-content-ltr dd, .mw-content-rtl .mw-content-ltr dd {
+	margin-left: 1.6em;
+	margin-right: 0;
+}
+
+/* Hide empty list items (T192446) */
+.mw-empty-elt {
+	display: none;
+}
+
+.mw-editsection a {
+	font-weight: normal !important;
+}
+
+#preftoc {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#preftoc li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.selected a {
+	font-weight: bold;
+}
+
+#preftoc li:hover a {
+	text-decoration: none;
+}
+
+.mw-prefs-buttons {
+	padding-top: 10px;
+}
+#main #content .mw-htmlform-submit {
+	color: #fff;
+	background-color: #00c217;
+	border-radius: .3em;
+	border: 1px solid;
+	display: inline-block;
+	letter-spacing: .15em;
+	margin-bottom: .5em;
+	padding: 1em .75em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: color .4s, background-color .4s, border .4s;
+}
+
+#slider ul {
+	width: 180px;
+}
+
+#main #content .mw-htmlform-submit:active {
+	background-color: #009712;
+}
+
+a.text {
+	font-weight: bold !important;
+}
+
+.tabsleft {
+	float: left;
+}
+.tabsright {
+	float: right;
+}
+
+.successbox {
+	padding: 0;
+}
+
+/* FIXME: This looks dumb, even if it works */
+
+.new {
+	color: #475347 !important;
+}
+
+article .new {
+	color: #7F0000 !important;
+}
+
+td.mw-label {
+	text-align: left;
+	width: 230px !important;
+}
+
+.mw-htmlform-field-HTMLIntField {
+	height: 30px;
+}
+
+.mw-htmlform-nolabel td.mw-label {
+	width: 0 !important;
+}
+
+.mw-ui-button.mw-ui-progressive, .mw-ui-button.mw-ui-primary {
+	background-color: steelblue;
+	border: 1px solid steelblue;
+}
+#main #content .mw-htmlform-submit, .mw-ui-progressive {
+	padding: 5px 10px;
+}
+
+#main #content .mw-htmlform-submit:hover {
+	background-color: #3a98fd;
+}
+
+.editButtons input[type="submit"] {
+	color: white;
+	background-color: steelblue;
+	padding: 5px 10px;
+	border-style: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.editButtons input[type="submit"]:hover {
+	background-color: #3a98fd;
+}
+
+#sitenotice {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: #f6f6e4;
+	border: 1px solid #e5e5e5;
+}
+
+.ribbon {
+	min-width: 7px;
+	border-radius: 2px;
+	padding: 0.25em 0.45em 0.2em 0.45em;
+	margin-left: -4px;
+	text-align: center;
+	font-weight: bold;
+	color: #f6f7f6;
+	cursor: pointer;
+	text-decoration: none;
+
+}
+.unread {
+	background-color: #ac7177;
+}
+
+.read {
+	background-color: #6b9562;
+}
+
+.unread:hover {
+	background-color: #8c4f55 !important;
+}
+
+.notif:after {
+	content: '*';
+	color: red;
+	font-size: 8pt;
+	margin-left: 2px;
+	bottom: 5px;
+}

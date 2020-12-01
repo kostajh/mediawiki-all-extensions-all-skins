@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-tagcloud-desc": "Показує різні хмарки тегів",
+	"bs-tagcloud-error-tagtype": "Задане значення «$1» не є дійсним сховищем.",
+	"bs-tagcloud-error-tagrenderer": "Задане значення «$1» не є дійсним візуалізатором.",
+	"bs-tagcloud-tag-tagcloud-name": "Хмарка тегів",
+	"bs-tagcloud-tag-tagcloud-title": "Хмарка тегів",
+	"bs-tagcloud-tag-tagcloud-desc": "Візуалізує хмарку тегів на основі категорій чи пошукових термінів",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Тип",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "Виберіть спосіб візуалізації хмарки тегів",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Текст",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "Список",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "Сховище",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "Виберіть, які дані використовувати",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Категорії",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Пошукові терміни",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Ширина",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "Ширина хмарки тегів у відсотках",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "Показати кількість",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "Показати кількість елементів у дужках",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Мінімальний розмір шрифту",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "Розмір шрифту для запису з найменшою кількістю елементів",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Максимальний розмір шрифту",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "Розмір шрифту для запису з найбільшою кількістю елементів",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Виключити сторінки",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "Не показувати ці сторінки в хмарці тегів. Щоб додати більше сторінок, використовуйте список, елементи якого відокремлюйте комами, напр., «Головна сторінка, Тест, МояСторінка»"
+}

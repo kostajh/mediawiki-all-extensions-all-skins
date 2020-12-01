@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"SVG"
+		]
+	},
+	"special404-desc": "Ermöglicht eine benutzerdefinierte Zielseite für den Fall, dass der HTTP-Fehler „404 Nicht gefunden“ auftritt",
+	"error404": "404 Nicht gefunden",
+	"special404-body": "Die gewünschte URL wurde nicht gefunden.\n\nSollte tatsächlich {{fullurl:$1}} aufgerufen werden?\n\nVielleicht sollte stattdessen folgende Seite aufgerufen werden:\n* [[{{MediaWiki:Mainpage}}]]"
+}

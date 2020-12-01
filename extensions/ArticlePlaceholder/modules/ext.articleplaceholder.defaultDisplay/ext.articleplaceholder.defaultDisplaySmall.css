@@ -1,0 +1,9 @@
+#bodyContent {
+	margin-left: 20%;
+}
+
+.articleplaceholder-sidebar,
+.articleplaceholder-statementgroup {
+	float: none;
+	position: static;
+}

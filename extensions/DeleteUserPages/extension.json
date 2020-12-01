@@ -1,0 +1,30 @@
+{
+	"name": "DeleteUserPages",
+	"version": "1.0.0",
+	"author": [
+		"Ryan Schmidt"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:DeleteUserPages",
+	"descriptionmsg": "deleteuserpages-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"DeleteUserPages": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"TitleQuickPermissions": "DeleteUserPages::onTitleQuickPermissions"
+	},
+	"AutoloadClasses": {
+		"DeleteUserPages": "includes/DeleteUserPages.php"
+	},
+	"AvailableRights": [
+		"delete-rootuserpages",
+		"delete-usersubpages"
+	],
+	"manifest_version": 2
+}

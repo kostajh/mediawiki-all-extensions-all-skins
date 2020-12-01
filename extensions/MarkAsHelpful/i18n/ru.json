@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"DR",
+			"Kaganer",
+			"Okras"
+		]
+	},
+	"markashelpful-desc": "Предоставляет пользовательский интерфейс для пометки комментариев как полезных",
+	"mah-mark-text": "Отметить как полезное",
+	"mah-you-marked-text": "Вы считаете, что этот комментарий полезен",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 считает это полезным}}",
+	"mah-undo-mark-text": "отменить",
+	"mah-action-error": "Произошла ошибка при выполнении этого действия",
+	"apihelp-getmarkashelpfulitem-param-prop": "Какое свойство необходимо получить.",
+	"apihelp-markashelpful-param-system": "Используемая операционная система.",
+	"apihelp-markashelpful-param-locale": "Используемый язык."
+}

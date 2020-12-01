@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"bs-visualeditorconnector-cancel-edit-no-unsaved-changes": "Anuluj edycję",
+	"bs-visualeditorconnector-cancel-edit": "Anuluj edycję. Niezapisane zmiany zostaną utracone.",
+	"bs-visualeditorconnector-cancel-edit-confirm-message": "Na pewno chcesz anulować tę edycję? Niezapisane zmiany zostaną utracone.",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Zaawansowane",
+	"bs-visualeditorconnector-dialog-media-link": "Linkuj ten plik",
+	"bs-visualeditorconnector-dialog-media-embed": "Osadź ten plik",
+	"bs-vec-dialog-media-change-file": "Zmień plik",
+	"bs-visualeditor-linkcontext-label-change": "Zmień etykietę",
+	"bs-visualeditor-linkcontext-label-label": "Etykieta"
+}

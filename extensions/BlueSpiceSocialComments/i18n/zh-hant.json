@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-socialcomments-desc": "用於 BlueSpiceSocial 的評論功能",
+	"bs-socialcomments-type": "評論",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|評論}}（$1）",
+	"bs-socialcomments-header-create": "評論",
+	"bs-socialcomments-header": "[[User:$1|$2]]已評論「[[$6|$7]]」",
+	"bs-socialcomments-var-commentcount": "評論計數",
+	"echo-category-title-bs-social-comment-cat": "在未監視項目的評論",
+	"bs-social-notifications-comment-create": "使用者{{GENDER:$1|$2 做出}}一個新評論",
+	"bs-social-notifications-email-comment-create-subject": "使用者{{GENDER:$1|$2 做出}}一個新評論",
+	"bs-social-notifications-email-comment-create-body": "使用者以下列文字{{GENDER:$1|$2 評論了}}由$3發佈的內容：\n$4",
+	"bs-social-notifications-web-comment-create-body": "使用者{{GENDER:$1|$2 已評論}}由$3發佈的內容",
+	"bs-social-notifications-comment-edit": "使用者{{GENDER:$1|$2 已編輯}}一個評論",
+	"bs-social-notifications-email-comment-edit-subject": "使用者{{GENDER:$1|$2 已編輯}}一個評論",
+	"bs-social-notifications-email-comment-edit-body": "使用者在由$3發佈的內容上{{GENDER:$1|$2 已評論}}一個新評論。新評論為：\n$4",
+	"bs-social-notifications-web-comment-edit-body": "使用者在由$3發佈的內容上{{GENDER:$1|$2 已編輯}}一個評論",
+	"bs-social-notifications-comment-delete": "使用者{{GENDER:$1|$2 已刪除}}一個評論",
+	"bs-social-notifications-email-comment-delete-subject": "使用者{{GENDER:$1|$2 已刪除}}一個評論",
+	"bs-social-notifications-email-comment-delete-body": "使用者在由$3發佈的內容上{{GENDER:$1|$2 已刪除}}一個評論",
+	"bs-social-notifications-web-comment-delete-body": "使用者在由$3發佈的內容上{{GENDER:$1|$2 已刪除}}一個評論",
+	"bs-social-notifications-comment-owner-create": "使用者在您的發佈內容上{{GENDER:$1|$2 已做出}}一個新評論",
+	"bs-social-notifications-email-comment-owner-create-subject": "使用者在您的發佈內容上{{GENDER:$1|$2 已做出}}一個新評論",
+	"bs-social-notifications-email-comment-owner-create-body": "使用者以下列文字{{GENDER:$1|$2 評論了}}由您發佈的內容：\n$3",
+	"bs-social-notifications-web-comment-owner-create-body": "使用者{{GENDER:$1|$2 已評論}}由您發佈的內容",
+	"bs-social-notifications-comment-owner-edit": "使用者在您的發佈內容上{{GENDER:$1|$2 已編輯}}一個評論",
+	"bs-social-notifications-email-comment-owner-edit-subject": "使用者在您的發佈內容上{{GENDER:$1|$2 已編輯}}一個評論",
+	"bs-social-notifications-email-comment-owner-edit-body": "使用者在您發佈的內容上{{GENDER:$1|$2 已評論}}一個新評論。新評論為：\n$3",
+	"bs-social-notifications-web-comment-owner-edit-body": "使用者在您的發佈內容上{{GENDER:$1|$2 已編輯}}一個評論",
+	"bs-social-notifications-comment-owner-delete": "使用者在您的發佈內容上{{GENDER:$1|$2 已刪除}}一個評論",
+	"bs-social-notifications-email-comment-owner-delete-subject": "使用者在您的發佈內容上{{GENDER:$1|$2 已刪除}}一個評論",
+	"bs-social-notifications-email-comment-owner-delete-body": "使用者在您的發佈內容上{{GENDER:$1|$2 已刪除}}一個評論",
+	"bs-social-notifications-web-comment-owner-delete-body": "使用者在您的發佈內容上{{GENDER:$1|$2 已刪除}}一個評論",
+	"bs-social-notifications-comment-owner-edit-bundle": "在您發佈內容上的評論已被編輯 {{PLURAL:$1|$1}} 次",
+	"bs-social-notification-comment-primary-link-label": "檢視評論",
+	"bs-social-notification-comment-parentowner-label": "發佈內容建立者：$1",
+	"bs-social-notification-comment-parententity-label": "檢視發佈內容"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"onlinestatus-desc": "Pridá možnosť zobrazovať, či je používateľ momentálne prítomný na wiki alebo nie",
+	"onlinestatus-js-anon": "Chyba: aby ste mohli vytužívať túto funkciu, musíte byť prihlásený",
+	"onlinestatus-js-changed": "Váš stav sa zmenil na „$1”",
+	"onlinestatus-js-error": "Nebolo možné zmeniť stav, hodnota „$1” nie je platná",
+	"onlinestatus-subtitle-offline": "Tento používateľ je momentálne odpojený",
+	"onlinestatus-subtitle-online": "Tento používateľ je momentálne pripojený",
+	"onlinestatus-tab": "Stav",
+	"onlinestatus-toggles-desc": "Váš stav:",
+	"onlinestatus-toggles-explain": "Toto vám umožní zobrazovať na vašej používateľskej stránke ostatným používateľom, či ste v skutočnosti pripojený alebo nie.",
+	"onlinestatus-toggles-show": "Zobrazovať stav pripojenia na mojej používateľskej stránke",
+	"onlinestatus-toggle-offline": "Odpojený",
+	"onlinestatus-toggle-online": "Pripojený",
+	"onlinestatus-pref-onlineonlogin": "Zmeniť môj stav na online počas prihlasovania",
+	"onlinestatus-pref-offlineonlogout": "Zmeniť môj stav na offline počas odhlasovania"
+}

@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwboehm",
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"readinglists-desc": "Ermöglicht Benutzern die Verwaltung privater Artikellisten wie bspw. Lesezeichen- oder „Später-lesen“-Listen",
+	"readinglists-db-error-not-set-up": "Leselisten wurden für diesen Benutzer nicht aufgesetzt.",
+	"readinglists-db-error-already-set-up": "Leselisten wurden bereits für diesen Benutzer aufgesetzt.",
+	"readinglists-db-error-cannot-delete-default-list": "Die Standardliste kann nicht gelöscht werden.",
+	"readinglists-db-error-cannot-update-default-list": "Die Standardliste kann nicht aktualisiert werden.",
+	"readinglists-db-error-no-such-list": "Die Liste $1 ist nicht vorhanden.",
+	"readinglists-db-error-no-such-list-entry": "Der Listeneintrag $1 ist nicht vorhanden.",
+	"readinglists-db-error-not-own-list": "Die Liste $1 gehört einem anderen Benutzer.",
+	"readinglists-db-error-not-own-list-entry": "Der Listeneintrag $1 gehört einem anderen Benutzer.",
+	"readinglists-db-error-list-deleted": "Die Liste $1 wurde gelöscht.",
+	"readinglists-db-error-list-entry-deleted": "Der Listeneintrag $1 wurde gelöscht.",
+	"readinglists-db-error-duplicate-list": "Eine Liste mit diesem Namen ist bereits vorhanden.",
+	"readinglists-db-error-duplicate-page": "Die Liste enthält bereits diese Seite.",
+	"readinglists-db-error-empty-list-ids": "Listenkennungsparameter dürfen nicht leer sein.",
+	"readinglists-db-error-user-required": "Diese Methode kann ohne Angabe des Benutzers nicht aufgerufen werden.",
+	"readinglists-db-error-list-limit": "Benutzer können nicht mehr als {{PLURAL:$1|eine Liste|$1 Listen}} haben.",
+	"readinglists-db-error-entry-limit": "Die Liste $1 kann nicht mehr als {{PLURAL:$2|einen Eintrag|$2 Einträge}} haben.",
+	"readinglists-db-error-too-long": "Der Wert für das Feld $1 kann nicht länger als $2 Bytes sein.",
+	"readinglists-db-error-no-such-project": "Das Projekt „$1“ wurde nicht erkannt.",
+	"readinglists-browser-add-entry-success": "$1 in deine Leseliste gespeichert",
+	"readinglists-browser-login-prompt": "Melde dich an, um Artikel zu speichern.",
+	"readinglists-browser-error-intro": "Es ist ein Fehler aufgetreten: $1",
+	"readinglists-browser-enable-sync-prompt": "Aktiviere die Synchronisierung auf deiner Wikipedia-App, um mit dem Speichern von Artikeln zu beginnen.",
+	"readinglists-browser-extension-info-link-text": "Mehr erfahren",
+	"readinglists-browser-list-entry-limit-exceeded": "Der Artikel konnte nicht gespeichert werden. Du hast die Grenze von $1 Artikeln pro Liste erreicht.",
+	"readinglists-browser-extension-product-title": "Wikipedia-Leselisten",
+	"readinglists-browser-page-not-supported": "$1 unterstützt diese Seite nicht"
+}

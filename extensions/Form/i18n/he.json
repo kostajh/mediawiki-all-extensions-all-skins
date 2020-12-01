@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Ghsuvr",
+			"Rotemliss",
+			"YaronSh"
+		]
+	},
+	"form-desc": "[[Special:Form|ממשק טופס]] ליצירת דפים חדשים",
+	"form": "להתחיל דף חדש",
+	"form-no-name": "אין שם לטופס",
+	"form-no-name-text": "עליכם לספק שם לטופס, כגון \"Special:Form/Nameofform\".",
+	"form-bad-name": "שם הטופס אינו תקין",
+	"form-bad-name-text": "אין טופס בשם זה.",
+	"form-pattern": "טופס־$1",
+	"form-save": "שמירה",
+	"form-index-mismatch-title": "מבנה השם והתבנית אינם תואמים",
+	"form-index-mismatch": "טופס זה אינו תואם את מבנה השם ואת התבניות המתחילות באינדקס $1.",
+	"form-article-exists": "הדף קיים",
+	"form-article-existstext": "הדף [[$1]] כבר קיים.",
+	"form-bad-page-name": "שם הדף אינו תקין",
+	"form-bad-page-name-text": "נתוני הטופס ששלחתם יוצרים דף בעל שם בלתי תקין, \"$1\".",
+	"form-required-field-error": "מילוי {{PLURAL:$2|השדה $1|השדות $1}} נדרש להשלמת טופס זה.\nאנא מלאו {{PLURAL:$2|אותו|אותם}}.",
+	"form-save-summary": "דף חדש באמצעות [[Special:Form/$1|טופס $1]]",
+	"form-save-error": "שגיאה בשמירת הטופס",
+	"form-save-error-text": "אירעה שגיאה בלתי־ידועה בעת שמירת הדף \"$1\"."
+}

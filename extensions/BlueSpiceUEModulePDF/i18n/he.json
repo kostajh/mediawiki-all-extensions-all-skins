@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"bs-uemodulepdf-desc": "מתן אפשרות לתוכנת מדיה־ויקי לייצא דפים לפורמט PDF",
+	"prefs-uemodulepdf": "מודול אוניברסלי לייצוא PDF",
+	"uemodulepdf": "מודול אוניברסלי לייצוא PDF",
+	"bs-uemodulepdf-pref-suppressns": "הסתרת התחילית של מרחב השם בקובצי ה־PDF",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-text": "דף PDF יחיד",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-title": "ייצוא דף זה כקובץ PDF.",
+	"bs-uemodulepdf-overview-title": "תסדיר מסמכים נייד (PDF)",
+	"bs-uemodulepdf-overview-desc": "ייצוא דפים (דפים מיוחדים ודפי תוכן) לקובץ PDF.",
+	"bs-uemodulepdf-overview-webservice-state-ok": "זמין",
+	"bs-uemodulepdf-overview-webservice-state-not-ok": "לא זמין",
+	"soap-service-url-not-valid": "כתובת ה־URL לשירות יצירת ה־PDF האינטרנטי אינה תקינה. נא לבדוק את ההגדרות של אתר הוויקי.",
+	"soap-service-url-not-set": "כתובת ה־URL לשירות יצירת ה־PDF האינטרנטי אינה מוגדרת. נא לבדוק את ההגדרות של אתר הוויקי."
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"geodata-desc": "Додава можност за складирање и повикување на географски координати",
+	"geodata-bad-input": "На функцијата <nowiki>{{#coordinates:}}</nowiki> ѝ се дадени неважечки аргументи",
+	"geodata-bad-latitude": "<nowiki>{{#coordinates:}}</nowiki>: неважечка гео. ширина",
+	"geodata-bad-longitude": "<nowiki>{{#coordinates:}}</nowiki>: неважечка гео. должина",
+	"geodata-bad-type": "<nowiki>{{#coordinates:}}</nowiki>: непрепознаен тип „$1“",
+	"geodata-bad-globe": "<nowiki>{{#coordinates:}}</nowiki>: непрепознаен глобус „$1“",
+	"geodata-bad-region": "<nowiki>{{#coordinates:}}</nowiki>: неважечки коден формат за регион",
+	"geodata-multiple-primary": "<nowiki>{{#coordinates:}}</nowiki>: не може да има повеќе од една главна ознака по страница",
+	"geodata-limit-exceeded": "Ја надминавте границата од $1 {{PLURAL:$1|ознака|ознаки}} <nowiki>{{#coordinates:}}</nowiki> по страница",
+	"geodata-broken-tags-category": "Страници со неправилно напишани координатни ознаки",
+	"geodata-broken-tags-category-desc": "Страницата има неисправно срочена ознака <code><nowiki>{{#coordinates:}}</nowiki></code>.",
+	"geodata-unknown-type-category": "Страници со непознат тип на координати",
+	"geodata-unknown-type-category-desc": "Страницата користи непозната вредност во параметарот <code>type</code> за координати.",
+	"geodata-unknown-globe-category": "Страници со непозната вредност за глобус",
+	"geodata-unknown-globe-category-desc": "Страницата користи непозната вредност во параметарот <code>globe</code> за координати.",
+	"geodata-unknown-region-category": "Страници со непозната вредност за регион",
+	"geodata-unknown-region-category-desc": "Страницата користи непозната вредност во параметарот <code>region</code> за координати.",
+	"geodata-api-help-coordinates-format": "Формат: Географска ширина и должина, одделени со исправена црта (<kbd>|</kbd>).",
+	"geodata-search-feature-invalid-coordinates": "Не можев да ги расчленам геокоординатите „$2“ укажани на „$1“.",
+	"geodata-search-feature-invalid-distance": "Не можев да го расчленам георастојанието „$2“ укажано на „$1“.",
+	"geodata-search-feature-unknown-title": "Насловот „$2“ укажан на „$1“ не постои.",
+	"geodata-search-feature-title-no-coordinates": "Насловот „$2“ укажан на „$1“ нема никакви координати.",
+	"geodata-search-timeout": "Пребарувањето на геоподатоци истече. Достапен е само делумен исход."
+}

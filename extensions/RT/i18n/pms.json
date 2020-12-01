@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dragonòt"
+		]
+	},
+	"rt-desc": "Antërfassa pensà për RT (Trassador d'arceste)",
+	"rt-inactive": "L'estension RT a l'é pa ativa",
+	"rt-badquery": "L'estension RT a l'ha ancontrà n'eror an parland al database RT",
+	"rt-badlimit": "Arg LIMIT (1) pa bon: a deuv esse un nùmer.\nIt l'has provà: '''$1'''",
+	"rt-badorderby": "Arg ORDER BY (ob) pa bon: a deuv esse un camp standard (varda la documentassion).\nIt l'has provà: '''$1'''",
+	"rt-badstatus": "Arg status (s) pa bon: a deuv esse un camp standard (varda la documentassion).\nIt l'has provà: '''$1'''",
+	"rt-badcfield": "Argoment dël camp utent pa bon: a deuv esse na paròla sola (varda la documentassion).\nIt l'has provà: '''$1'''",
+	"rt-badqueue": "Arg queue (s) pa bon: a deuv esse na paròla sempia.\nIt l'has provà: '''$1'''",
+	"rt-badowner": "Arg owner (o) pa bon: a deuv esse në stranòm vàlid.\nIt l'has provà: '''$1'''",
+	"rt-nomatches": "A son pa stàit trovà gnun ticket RT che a quadro"
+}

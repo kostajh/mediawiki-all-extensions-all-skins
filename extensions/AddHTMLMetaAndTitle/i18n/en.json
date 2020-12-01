@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dennis Roczek"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "Allows for easier SEO (search engine optimization)",
+	"addhtmlmetaandtitle-empty-attr": "&lt;seo&gt; tag must contain at least one non-empty \"title\" or \"metak(eywords)\" or \"metad(escription)\" attribute."
+}

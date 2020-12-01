@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"special404-desc": "Proporciona un destino para os erros \"404 non atopado\"",
+	"error404": "404 non atopado",
+	"special404-body": "Non se puido atopar o enderezo URL solititado.\n\nQuizais quixo escribir {{fullurl:$1}}?\n\nSeica quere botar un ollo á:\n* [[{{MediaWiki:Mainpage}}|Portada]]"
+}

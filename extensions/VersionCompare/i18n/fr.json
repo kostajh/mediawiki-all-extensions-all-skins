@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derugon",
+			"Gomoko"
+		]
+	},
+	"versioncompare": "Comparaison de version",
+	"version-compare-desc": "Afficher la comparaison des versions du composant principal et d’extension entre deux wikis",
+	"version-compare-database-label": "Base de données",
+	"version-compare-url-error": "Erreur et récupérant les données de $1.",
+	"version-compare-url-field-label-1": "URL de l’API #1 :",
+	"version-compare-url-field-help-1": "URL de l’API (se terminant en api.php) du premier wiki à comparer. Utilisera le wiki actuel si laissée vide.",
+	"version-compare-url-field-label-2": "URL de l’API #2 :",
+	"version-compare-url-field-help-2": "URL de l’API (se terminant en api.php) du second wiki à comparer. Utilisera le wiki actuel si laissée vide.",
+	"version-compare-diff-field-label": "Afficher seulement les différences"
+}

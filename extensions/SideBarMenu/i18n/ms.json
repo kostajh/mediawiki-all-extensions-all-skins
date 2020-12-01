@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"sidebarmenu-desc": "Penghurai menu palang sisi yang ringkas dan membuat menu dan submenu lipat kembang",
+	"sidebarmenu-parser-input-error": "Penghurai dikembalikan dengan ralat: $1",
+	"sidebarmenu-parser-syntax-error": "\"$1\" tidak dapat dihuraikan, sila pastikan sintaksnya betul.",
+	"sidebarmenu-js-init-error": "Sumber-sumber JavaScript gagal dimuatkan.",
+	"sidebarmenu-edit": "Sunting menu",
+	"sidebarmenu-parser-menuitem-expanded-null": "Nilai yang tidak sah diberikan; nilai seharusnya sama ada null, true, atau false."
+}

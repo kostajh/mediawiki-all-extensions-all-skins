@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"rt-desc": "Interfaz guapa pa RT (Request Tracker)",
+	"rt-inactive": "La estensión RT nun ta activa.",
+	"rt-badquery": "La estensión RT alcontró un error al comunicase cola base de datos RT.",
+	"rt-badlimit": "Argumentu inválidu de <code>LIMIT</code> (<code>l</code>): tien de ser un númberu.\nTentasti: '''$1'''",
+	"rt-badorderby": "Argumentu inválidu de <code>ORDER BY</code> (<code>ob</code>): tien de ser un campu estándar (ver la documentación).\nTentasti: '''$1'''",
+	"rt-badstatus": "Argumentu inválidu de <code>status</code> (<code>s</code>): tien de ser un campu estándar (ver la documentación).\nTentasti: '''$1'''",
+	"rt-badcfield": "Argumentu inválidu de campu personalizáu: tien de ser un pallabra simple (ver la documentación).\nIntentó: '''$1'''",
+	"rt-badqueue": "Argumentu inválidu de <code>queue</code> (<code>q</code>): tien de ser una pallabra simple.\nTentasti: '''$1'''",
+	"rt-badowner": "Argumentu inválidu de <code>owner</code> (<code>o</code>): tien de ser un nome d'usuariu válidu.\nTentasti: '''$1'''",
+	"rt-nomatches": "Nun s'alcontraron tickets RT que casen."
+}

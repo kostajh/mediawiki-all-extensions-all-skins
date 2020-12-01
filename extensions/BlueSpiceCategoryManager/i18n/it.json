@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Dansita",
+			"Gianfranco"
+		]
+	},
+	"bluespicecategorymanager": "Gestore delle categorie",
+	"bluespicecategorymanager-desc": "Strumento visuale per gestire categorie",
+	"action-categorymanager-viewspecialpage": "vedi il gestore di categorie",
+	"bs-categorymanager-draganddrop-text": "Trascina e rilascia per riorganizzare",
+	"bs-categorymanager-label": "Gestore delle categorie",
+	"bs-categorymanager-dlg-new-title": "Creare categoria",
+	"bs-categorymanager-dlg-new-prompt": "Per favore inserisci un nome:",
+	"bs-categorymanager-removecategoryconfirm-text": "Sei sicuro/a di voler cancellare questa categoria?",
+	"bs-categorymanager-removecategoryconfirm-title": "Rimuovere categoria",
+	"bs-categorymanager-addcategory-dialog-error-title": "Creazione della categoria non riuscita",
+	"bs-categorymanager-action-show-category": "Mostra categoria",
+	"right-categorymanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-var-namespacename": "Namespace",
+	"bs-categorymanager-collection-var-categorizedpages": "Pagine con categorie",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pagine senza categorie"
+}

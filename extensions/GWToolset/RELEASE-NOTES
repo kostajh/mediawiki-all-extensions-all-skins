@@ -1,0 +1,17 @@
+== GWToolset 0.3.8 ==
+MediaWiki_1.24/wmf21
+scheduled deploy: Tuesday, 16 September 2014
+https://www.mediawiki.org/wiki/MediaWiki_1.24/wmf21#GWToolset
+
+=== Nicer phrasing for log-description-gwtoolset ===
+https://gerrit.wikimedia.org/r/#/c/159696/
+
+=== Improve category instructions ===
+https://gerrit.wikimedia.org/r/#/c/159036/
+
+=== update INSTALL instructions ===
+https://gerrit.wikimedia.org/r/#/c/158625/
+
+=== Add Special:Log Entries ===
+https://gerrit.wikimedia.org/r/#/c/156243/
+https://bugzilla.wikimedia.org/show_bug.cgi?id=68277

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"pageblock": "Benotzer spären",
+	"pageblock-legend": "Benotzer limitéieren",
+	"pageblock-form-title": "Numm vun der Säit",
+	"pageblock-form-user": "Benotzernumm",
+	"pageblock-form-edit": "Benotzer fir d'Ännere spären",
+	"pageblock-form-move": "Benotzer fir d'Réckele spären",
+	"pageblock-form-reason": "Grond",
+	"pageblock-list-title": "Numm vun der Säit",
+	"pageblock-list-user": "Benotzernumm",
+	"pageblock-list-indefonly": "Nëmme Spären op onbestëmmten Zäit weisen",
+	"pageblock-restricted-edit-indef": "$1 ass op onbestëmmten Zäit fir d'Ännere vu(n) $2 gespaart.",
+	"pageblock-restricted-move": "$1 ass fir d'Réckele vu(n) $2 gespaart bis $3."
+}

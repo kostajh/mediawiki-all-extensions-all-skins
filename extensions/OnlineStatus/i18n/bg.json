@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"StanProg"
+		]
+	},
+	"onlinestatus-desc": "Добавя настройка, която показва дали потребителят е на линия или не в уикито",
+	"onlinestatus-js-anon": "Грешка: за използване на тази функционалност е необходимо да сте влезли в системата",
+	"onlinestatus-subtitle-offline": "Този потребител в момента не е на линия",
+	"onlinestatus-subtitle-online": "Този потребител в момента е на линия",
+	"onlinestatus-tab": "Статут",
+	"onlinestatus-toggles-desc": "Вашият статут:",
+	"onlinestatus-toggles-explain": "Това позволява да показвате на другите потребители, които разглеждат потребителската Ви страница, дали сте действително на линия или не.",
+	"onlinestatus-toggles-show": "Показване на статута ми на потребителската ми страница",
+	"onlinestatus-toggle-offline": "Извън линия",
+	"onlinestatus-toggle-online": "На линия"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Charunandan16"
+		]
+	},
+	"bs-notifications-edit": "$1इति पृष्ठं परिवर्तितम्",
+	"bs-notifications-web-edit-body": "$3.इति अनेन|अनया $1{{GENDER:$2|edited}}इति पृष्ठं सम्पादितम्",
+	"bs-notifications-email-delete-body": "$3इति अनेन अनया $1 इति पृष्ठं{{GENDER:$2|deleted}}निराकृतम्।कारणम् एतत् $4",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|नमो नमः}} $1",
+	"bs-notifications-mail-additional-links-label": "अधिक-शृङ्खलाः"
+}

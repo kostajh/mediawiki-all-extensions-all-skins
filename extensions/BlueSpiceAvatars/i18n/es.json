@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Julio Arturo Pérez Duarte",
+			"Macofe",
+			"Miguel2706",
+			"Themasterriot"
+		]
+	},
+	"prefs-avatars": "Avatares",
+	"bs-avatars-desc": "Proporciona imágenes genéricas e individuales de un usuario",
+	"bs-avatars-pref-generator": "Generador:",
+	"bs-avatars-pref-defaultsize": "Tamaño predeterminado en píxeles:",
+	"bs-avatars-pref-userimage": "Imagen de usuario:",
+	"bs-avatars-pref-userimage-img-alt": "Tu imagen de usuario actual",
+	"bs-avatars-upload-complete": "Se subió la imagen.",
+	"bs-avatars-generate-complete": "Se generó un nuevo avatar.",
+	"bs-avatars-upload-title": "Cambiar la imagen del perfil",
+	"bs-avatars-upload-label": "Imagen",
+	"bs-avatars-generate-new-label": "Generar nuevo avatar",
+	"bs-avatars-warning-title": "Atención",
+	"bs-avatars-warning-text": "Has establecido una imagen de usuario en tus preferencias. El uso de avatares borrará este ajuste. ¿Quieres continuar?",
+	"bs-avatars-userimage-title": "Imagen del wiki o URL a imagen",
+	"bs-avatars-userimage-help": "p. ej., Imagen.jpg o http://localhost/Imagen.gif",
+	"bs-avatars-userimage-alt": "Imagen de perfil de «$1»",
+	"bs-avatars-set-userimage-failed": "No es una URL o imagen válida de una wiki.",
+	"bs-avatars-set-userimage-saved": "Se guardó la imagen del usuario.",
+	"bs-avatars-file-upload-fieldset-title": "Carga de imagen",
+	"bs-avatars-auto-generate-fieldset-title": "Generar avatar automáticamente",
+	"apihelp-bs-avatars-tasks-description": "Cargar, generar y configurar avatares de usuario",
+	"apihelp-bs-avatars-tasks-summary": "Cargar, generar y configurar avatares de usuario",
+	"bs-avatars-tag-profileimage-error-invalidusername": "Se requiere el parámetro «username» y este debe contener un nombre de usuario válido"
+}

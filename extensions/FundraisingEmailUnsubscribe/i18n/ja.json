@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Omotecho",
+			"Shirayuki"
+		]
+	},
+	"fundraiserunsubscribe-desc": "利用者が資金調達メーリングリストの購読を管理できるようにする",
+	"fundraiserunsubscribe": "ウィキメディア資金調達メールの購読解除",
+	"fundraiserunsubscribe-query": "'''''$1''''' を本当に購読解除しますか?",
+	"fundraiserunsubscribe-info": "ここでは、寄付者のあなたにウィキメディア財団がお送りするメールを購読解除できます。このメールアドレスが、私たちのプロジェクト群のいずれかのアカウントに関連付けられている場合は、引き続きメールが届くかもしれません。何かご質問がある場合は、[mailto:$1 $1] にお問い合わせください。",
+	"fundraiserunsubscribe-submit": "購読解除",
+	"fundraiserunsubscribe-cancel": "キャンセル",
+	"fundraiserunsubscribe-errormsg": "購読解除の処理でエラーが発生しました。[mailto:$1 $1] にお問い合わせください。",
+	"fundraiserunsubscribe-success": "メーリングリストを購読解除しました。",
+	"fundraiserunsubscribe-sucesswarning": "変更が反映されるまで最大4日間かかります。それまでにメールが配信されましたら申し訳ありません。何かご質問がある場合は、[mailto:$1 $1] にお問い合わせください。",
+	"fundraisersubscribe": "購読する",
+	"fundraisersubscribe-fail": "リクエストの処理中にエラーが発生しました。恐れ入りますが[mailto:$1 $1]までご連絡をお願い致します。",
+	"fundraisersubscribe-success": "どうぞよろしくご検討ください。"
+}

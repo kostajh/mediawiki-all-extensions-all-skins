@@ -1,0 +1,36 @@
+{
+	"name": "Minimum Name Length",
+	"version": "3.0.0",
+	"author": [
+		"Rob Church",
+		"Karsten Hoffmeyer",
+		"Florian Schmidt",
+		"..."
+	],
+	"requires": {
+		"MediaWiki": ">= 1.27.0"
+	},
+	"url": "https://www.mediawiki.org/wiki/Extension:Minimum_Name_Length",
+	"descriptionmsg": "minimumnamelength-desc",
+	"license-name": "BSD-2-Clause",
+	"type": "other",
+	"MessagesDirs": {
+		"MinimumNameLength": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MinimumNameLengthPreAuthenticationProvider": "includes/auth/MinimumNameLengthPreAuthenticationProvider.php"
+	},
+	"AuthManagerAutoConfig": {
+		"preauth": {
+			"MinimumNameLengthPreAuthenticationProvider": {
+				"class": "MinimumNameLengthPreAuthenticationProvider"
+			}
+		}
+	},
+	"config": {
+		"MinimumUsernameLength": 10
+	},
+	"manifest_version": 1
+}

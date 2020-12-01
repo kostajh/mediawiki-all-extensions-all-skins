@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth",
+			"Raymond",
+			"Shirayuki",
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Umherirrender",
+			"Zoranzoki21"
+		]
+	},
+	"configmanager-admintool-label": "Anchor text for the config manager.",
+	"action-configmanager-viewspecialpage": "label for denied special page\n{{doc-action|configmanager-viewspecialpage}}",
+	"configmanager": "title label for special page",
+	"configmanager-desc": "{{desc|name=ConfigManager|url=https://en.wiki.bluespice.com/wiki/Reference:ConfigManager}}",
+	"configmanager-discardchanges": "Text for prompt that asks you if you want to discard changes made in config manager",
+	"configmanager-noentry": "Display text when no entry could be found in config manger search",
+	"apihelp-configmanager-tasks-summary": "{{doc-apihelp-summary|configmanager-tasks}}",
+	"apihelp-configmanager-store-summary": "{{doc-apihelp-summary|configmanager-store}}",
+	"right-configmanager-viewspecialpage": "Grants access to the special page [[Special:ConfigManager]].\n{{doc-right|configmanager-viewspecialpage}}"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cacycle",
+			"Esketti",
+			"Mar(c)",
+			"McDutchie"
+		]
+	},
+	"wiked-diff-desc": "Tekstvergelijkingsengine met inline-weergave en ondersteuning voor blokverplaatsingen",
+	"wiked-diff-empty": "(geen verschil)",
+	"wiked-diff-same": "Geen verschil tussen versies",
+	"wiked-diff-ins": "Ingevoegd",
+	"wiked-diff-del": "Verwijderd",
+	"wiked-diff-block-left": "◀ Verplaatst",
+	"wiked-diff-block-right": "Verplaatst ▶",
+	"wiked-diff-block-left-nounicode": "< Verplaatst",
+	"wiked-diff-block-right-nounicode": "Verplaatst >",
+	"wiked-diff-error": "Fout: de uitvoer van wikEdDiff komt niet overeen met de originele versies!"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"MarkAHershberger"
+		]
+	},
+	"pluggablesso-extensionname": "PluggableSSO",
+	"pluggablesso-desc": "Uses the SSO provided by the webserver in $REMOTE_USER in conjunction with PluggableAuth",
+	"pluggablesso-no-session": "Got no username, session failed somehow.",
+	"pluggablesso-username-mismatch": "Username didn't match session"
+}

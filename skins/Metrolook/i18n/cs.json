@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dvorapa",
+			"Juandev",
+			"Mormegil"
+		]
+	},
+	"metrolook-desc": "Vzhled Metrolook pro MediaWiki",
+	"metrolook.css": "/* Zde uvedené CSS bude ovlivňovat pouze vzhled „Metrolook“ */",
+	"metrolook.js": "/* Zde uvedený JavaScript bude použit pouze pro uživatele vzhledu „Metrolook“ */",
+	"metrolook-guest": "Host"
+}

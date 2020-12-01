@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sudo77(new)"
+		]
+	},
+	"accountinfo": "Informácie o účte",
+	"accountinfo-desc": "Umožňuje používateľovi zobraziť súkromné informácie, ktoré sú o ňom uložené",
+	"accountinfo-ts": "Časová známka",
+	"accountinfo-ip": "IP adresa",
+	"accountinfo-ua": "Prehliadač",
+	"accountinfo-xff": "XFF hlavička",
+	"accountinfo-length": "Informácie sú uchovávané pre $1.",
+	"accountinfo-now": "Teraz"
+}

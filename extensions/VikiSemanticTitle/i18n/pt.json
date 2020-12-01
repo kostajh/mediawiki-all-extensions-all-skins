@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"vikisemantictitle-desc": "''Plugin'' VIKI para tratar páginas wiki usando a extensão Título Semântico (''Semantic Title'')",
+	"vikisemantictitle-error-displaytitle-fetch": "Ocorreu um erro na extração dos dados de apresentação do título, para o nó: $1."
+}

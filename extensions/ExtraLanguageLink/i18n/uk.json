@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"extralanguagelink-desc": "Додати додаткові мовні посилання у розділ «іншими мовами» на бічній панелі",
+	"extralanguagelink-param-class": "клас",
+	"extralanguagelink-param-hreflang": "мова_посилання",
+	"extralanguagelink-param-lang": "мова",
+	"extralanguagelink-param-style": "стиль",
+	"extralanguagelink-param-title": "заголовок",
+	"extralanguagelink-badinterwiki": "Інтервікі-префікс «$1:» відсутній у списку дозволених інтервікі-префіксів.",
+	"extralanguagelink-badtitle": "Заголовок сторінки «$1» не може бути проаналізовано."
+}

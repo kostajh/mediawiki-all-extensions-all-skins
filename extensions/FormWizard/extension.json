@@ -1,0 +1,62 @@
+{
+	"name": "FormWizard",
+	"version": "0.0.1",
+	"author": [
+		"Egbe Eugene",
+		"James Hare"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:FormWizard",
+	"namemsg": "formwizard",
+	"descriptionmsg": "formwizard-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"manifest_version": 1,
+	"MessagesDirs": {
+		"FormWizard": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SpecialFormWizard": "specials/SpecialFormWizard.php",
+		"FormWizardHooks": "Hooks.php"
+	},
+	"ResourceModules": {
+		"ext.formWizard": {
+			"scripts": [
+				"ext.formWizard.js"
+			],
+			"styles": [
+				"ext.formWizard.css"
+			],
+			"messages": [
+				"formwizard-dialog-label-cancel",
+				"formwizard-dialog-label-done",
+				"formwizard-dialog-label-next",
+				"formwizard-no-subpage-name-alert",
+				"formwizard-page-action-complete",
+				"formwizard-page-edit-summary",
+				"formwizard-subpage-request-text",
+				"formwizard-wrong-config-file-alert"
+			],
+			"dependencies": [
+				"oojs",
+				"oojs-ui"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "FormWizard/modules"
+	},
+	"SpecialPages": {
+		"FormWizard": "SpecialFormWizard"
+	},
+	"ExtensionMessagesFiles": {
+		"FormWizardAlias": "FormWizard.alias.php",
+		"FormWizardMagic": "FormWizard.magic.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "FormWizardHooks::onBeforePageDisplay",
+		"ParserFirstCallInit": "FormWizardHooks::onParserSetup"
+	}
+}

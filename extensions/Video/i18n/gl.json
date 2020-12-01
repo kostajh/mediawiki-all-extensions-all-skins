@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Banjo",
+			"Elisardojm",
+			"Maria zaos"
+		]
+	},
+	"video-desc": "Permite un novo espazo de nomes chamado Video para ficheiros multimedia incorporables nos sitios soportados",
+	"addvideo": "Engadir vídeo",
+	"newvideos": "Novos vídeos",
+	"unusedvideos": "Vídeos sen uso",
+	"video-upload-new-version": "Cargar unha nova versión deste vídeo",
+	"video-newvideos-showfrom": "Amosar os novos vídeos comezando polo $1 ás $2",
+	"video-newvideos-list-text": "A continuación móstrase unha lista de <strong>$1</strong> {{PLURAL:$1|vídeo|vídeos}}.",
+	"video-addvideo-watchlist": "Engadir este vídeo á miña lista de vixilancia",
+	"video-addvideo-title": "Engadir vídeo",
+	"video-addvideo-dest": "Engadir vídeo para $1",
+	"video-addvideo-button": "Engadir vídeo",
+	"video-addvideo-title-label": "Título do vídeo:",
+	"video-no-videos": "No hai vídeos novos.",
+	"log-name-video": "Rexistro dos vídeos",
+	"video-novideo-linktext": "engadilo",
+	"video-history": "Historial do vídeo",
+	"video-revert": "rev",
+	"video-revert-legend": "Reverter o vídeo",
+	"video-category-name": "Vídeos",
+	"video-links": "Ligazóns do vídeo",
+	"video-showhidebots": "($1 os bots)"
+}

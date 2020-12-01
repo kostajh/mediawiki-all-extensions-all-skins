@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian",
+			"A Retired User",
+			"Liuxinyu970226",
+			"Viztor",
+			"予弦",
+			"神樂坂秀吉"
+		]
+	},
+	"bs-hidetitle-desc": "添加魔术字<code><nowiki>__HIDETITLE__</nowiki></code>以隐藏页面标题",
+	"bs-hidetitle-ve-dialog-meta-settings-showtitle": "显示",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle": "隐藏",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-label": "标题可见性",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-help": "您可以在此定义是否显示标题。"
+}

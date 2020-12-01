@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"forcepreview": "$1 (najprije pretpregledaj)",
+	"forcepreview-desc": "Forsiraj pretpregled za nepotvrđene korisnike",
+	"action-forcepreviewexempt": "spremljate izmjene bez pretpregledavanja",
+	"right-forcepreviewexempt": "Moguće spremiti izmjene bez pretpregledavanja"
+}

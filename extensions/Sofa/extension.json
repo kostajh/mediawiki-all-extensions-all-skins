@@ -1,0 +1,41 @@
+{
+	"name": "Sofa",
+	"version": "0.1",
+	"author": "Brian Wolff",
+	"url": "https://www.mediawiki.org/wiki/Extension:Sofa",
+	"descriptionmsg": "sofa-desc",
+	"type": "other",
+	"license-name": "GPL-2.0-or-later",
+	"AutoloadClasses": {
+		"SofaHooks": "includes/SofaHooks.php",
+		"SofaDB": "includes/SofaDB.php",
+		"SofaMapUpdate": "includes/SofaMapUpdate.php",
+		"InvalidSofaSchemaException": "includes/InvalidSofaSchemaException.php",
+		"SofaSchema": "includes/SofaSchema.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": [
+			"SofaHooks::onLoadExtensionSchemaUpdates"
+		],
+		"ParserFirstCallInit": [
+			"SofaHooks::onParserFirstCallInit"
+		],
+		"RevisionDataUpdates": [
+			"SofaHooks::onRevisionDataUpdates"
+		],
+		"PageDeletionUpdates": [
+			"SofaHooks::onPageDeletionUpdates"
+		]
+	},
+	"MessagesDirs": {
+		"Sofa": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SofaMagic": "Sofa.i18n.magic.php"
+	},
+	"config": {
+	},
+	"manifest_version": 1
+}

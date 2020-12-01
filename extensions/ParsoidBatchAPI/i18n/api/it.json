@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"apierror-parsoid-batch-invalidtitle": "Titolo non valido ($1).",
+	"apierror-parsoid-batch-mustbescalar": "Il parametro <var>$1</var> deve essere uno scalare."
+}

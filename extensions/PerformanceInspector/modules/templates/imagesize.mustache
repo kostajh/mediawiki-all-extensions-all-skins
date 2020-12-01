@@ -1,0 +1,34 @@
+<p>
+		{{#msg}}performanceinspector-imagesize-description{{/msg}}
+		{{#msg}}performanceinspector-imagesize-warning-description{{/msg}}
+</p>
+<table class="wikitable mw-pi-inspector">
+	<thead>
+		<tr>
+			<th>
+				{{#msg}}performanceinspector-imagesize-column-image-name{{/msg}}
+			</th>
+			<th>
+			{{#msg}}performanceinspector-imagesize-column-size{{/msg}}
+			</th>
+			<th>
+				{{#msg}}performanceinspector-imagesize-column-image-extra{{/msg}}
+			</th>
+		</tr>
+	</thead>
+		{{#images}}
+		<tr>
+			<td>
+				<a href="{{url}}">{{name}}</a>
+			</td>
+			<td>
+				{{size}}
+			</td>
+			<td>
+				{{#warning}}
+					{{#msg}}performanceinspector-imagesize-too-big{{/msg}}
+				{{/warning}}
+			</td>
+		</tr>
+		{{/images}}
+</table>

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Leeheonjin"
+		]
+	},
+	"emailauthorization-config-authorized": "Ang ''$1'' ay awtorisado.",
+	"emailauthorization-config-notauthorized": "Ang ''$1'' ay di-awtorisado.",
+	"emailauthorization-config-added": "Matagumpay na binigyang-awtorisasyon ang \"$1\".",
+	"emailauthorization-config-alreadyauthorized": "Awtorisado na ang ''$1''.",
+	"emailauthorization-config-revoked": "Matagumpay na binawi ang awtorisasyon mula sa \"$1\".",
+	"emailauthorization-config-nousersfound": "Walang natagpuang mga tagagamit.",
+	"emailauthorization-config-label-email": "E-liham/Sulatroniko/Dagliham",
+	"emailauthorization-config-label-username": "Pangalan ng Tagagamit",
+	"emailauthorization-config-label-realname": "Tunay na Pangalan",
+	"emailauthorization-config-label-userpage": "Pahina ng Tagagamit",
+	"emailauthorization-config-label-authorized": "Awtorisado",
+	"emailauthorization-config-value-yes": "oo",
+	"emailauthorization-config-value-no": "hindi",
+	"emailauthorization-config-button-next": "Kasunod",
+	"emailauthorization-config-button-previous": "Sinundan",
+	"emailauthorization-config-button-search": "Hanapin",
+	"emailauthorization-config-button-add": "Magdagdag",
+	"emailauthorization-config-button-revoke": "Bawiin",
+	"emailauthorization-config-button-showall": "Ipakita ang lahat ng mga tagagamit ng wiki"
+}

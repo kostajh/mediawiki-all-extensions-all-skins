@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد",
+			"علاء"
+		]
+	},
+	"parsermigration-desc": "أداة ترحيل المحلل",
+	"parsermigration-edit-subtitle": "مع أداة ترحيل المحلل",
+	"parsermigration-current": "قديم",
+	"parsermigration-new": "جديد",
+	"parsermigration-pref-label": "تفعيل أداة ترحيل المحلل",
+	"parsermigration-pref-help": "يعمل هذا على إضافة ارتباط في الشريط الجانبي للوصول إلى [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ParserMigration أداة] لترحيل نص الصفحة إلى النسخ الأحدث من محلل الميدياويكي.",
+	"parsermigration-toolbox-label": "التعديل مع أداة المُرحل"
+}

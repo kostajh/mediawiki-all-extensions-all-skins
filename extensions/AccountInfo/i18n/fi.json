@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Stryn"
+		]
+	},
+	"accountinfo": "Tunnuksen tiedot",
+	"accountinfo-desc": "Antaa käyttäjän nähdä tallennettuja yksityistietoja itsestään",
+	"accountinfo-ts": "Aikaleima",
+	"accountinfo-ip": "IP-osoite",
+	"accountinfo-ua": "Selaintunniste",
+	"accountinfo-xff": "XFF-otsikko",
+	"accountinfo-length": "Tietojen säilytysaika on $1.",
+	"accountinfo-now": "Nyt"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"form-desc": "Una [[Special:Form|interfaz de formulariu]] p'aniciar páxines nueves",
+	"form": "Aniciar una páxina nueva",
+	"form-captcha-error": "Error de CAPTCHA",
+	"form-pick-form": "Escueyi la triba de páxina que quies crear con un formulariu.",
+	"form-no-name": "Formulariu ensin nome",
+	"form-no-name-text": "Tienes de dar un nome de formulariu, como \"Special:Form/Nomedelformulariu\".",
+	"form-bad-name": "Nome de formulariu incorreutu",
+	"form-bad-name-text": "Nun hai dengún formulariu con esi nome.",
+	"form-pattern": "$1-formulariu",
+	"form-title-pattern": "Añadir nueva $1",
+	"form-save": "Guardar",
+	"form-index-mismatch-title": "El patrón de nome y la plantía nun casen",
+	"form-index-mismatch": "Esti formulariu tien patrones de nome y plantíes que nun casen, comenzando nel índiz $1.",
+	"form-article-exists": "La páxina yá esiste",
+	"form-article-existstext": "La páxina [[$1]] yá esiste.",
+	"form-bad-page-name": "Nome de páxina incorreutu",
+	"form-bad-page-name-text": "Los datos del formulariu qu'escribisti formen un nome de páxina incorreutu, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|El campu $1 ye obligatoriu|Los campos $1 son obligatorios}} nesti formulariu.\nPor favor, {{PLURAL:$2|rellenalu|rellenalos}}.",
+	"form-save-summary": "Nueva páxina usando'l [[Special:Form/$1|formulariu $1]]",
+	"form-save-error": "Error al guardar el formulariu",
+	"form-save-error-text": "Hebo un error desconocíu al guardar la páxina '$1'."
+}

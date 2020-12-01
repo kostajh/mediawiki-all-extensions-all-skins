@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"odbcdatabase": "OdbcDatabase",
+	"odbcdatabase-desc": "Driver che utilizza la libreria di comandi PHP <code>odbc_*</code> per supportare l'estensione di dati esterni",
+	"odbcdatabase-odbc-missing": "Funzioni ODBC mancanti. Verificare che <code>PHP:ODBC</code> sia installato.",
+	"odbcdatabase-connection-error": "Errore durante la connessione al server [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Impossibile liberare il risultato ODBC",
+	"odbcdatabase-fetch-object-error": "Errore durante il recupero di un oggetto: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Errore durante il recupero di una riga: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "La funzione insertId() non è supportata.",
+	"odbcdatabase-unknown-server-version": "Versione server ODBC sconosciuta."
+}

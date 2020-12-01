@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"inlinecategorizer-desc": "Modul JavaScript yang membolehkan pengubahan, penambahan dan penyingkiran pautan kategori secara terus dari laman",
+	"inlinecategorizer-add-category": "Tambahkan kategori",
+	"inlinecategorizer-add-category-submit": "Tambahkan",
+	"inlinecategorizer-add-category-summary": "Tambahkan kategori \"$1\"",
+	"inlinecategorizer-api-error": "API memulangkan ralat: $1: $2",
+	"inlinecategorizer-api-unknown-error": "API memulangkan ralat yang tidak dikenali.",
+	"inlinecategorizer-cancel": "Batalkan suntingan",
+	"inlinecategorizer-cancel-all": "Batalkan semua perubahan",
+	"inlinecategorizer-category-already-present": "Laman ini sudah tergolong dalam kategori $1",
+	"inlinecategorizer-category-hook-error": "Fungsi setempat menghalang perubahan daripada disimpan",
+	"inlinecategorizer-category-question": "Mengapakah anda ingin membuat perubahan-perubahan berikut:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Simpan",
+	"inlinecategorizer-confirm-save-all": "Simpan semua perubahan",
+	"inlinecategorizer-confirm-title": "Sahkan tindakan",
+	"inlinecategorizer-edit-category": "Sunting kategori",
+	"inlinecategorizer-edit-category-error": "Kategori \"$1\" tidak boleh disunting.\nIni biasanya berlaku apabila kategori ditambahkan pada laman dengan menggunakan templat.",
+	"inlinecategorizer-edit-category-summary": "Tukar kategori \"$1\" ke \"$2\"",
+	"inlinecategorizer-error-title": "Ralat",
+	"inlinecategorizer-remove-category": "Buang kategori",
+	"inlinecategorizer-remove-category-error": "Kategori \"$1\" tidak boleh dibuang.\nIni biasanya berlaku apabila kategori ditambahkan pada laman dengan menggunakan templat.",
+	"inlinecategorizer-remove-category-summary": "Buang kategori \"$1\""
+}

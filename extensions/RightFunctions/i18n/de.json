@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Melancholie"
+		]
+	},
+	"rightfunctions-desc": "Ermöglicht von Berechtigungen abhängige Parserfunktionen",
+	"rightfunctions-casc": "(von kaskadierenden Quellen)",
+	"rightfunctions-local": "(von lokalen Seiten)",
+	"rightfunctions-ns": "(von Namensraumsperrungen)"
+}

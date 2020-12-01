@@ -1,0 +1,36 @@
+{
+	"name": "FlickrAPI",
+	"version": "2.0.1",
+	"license-name": "GPL-2.0-or-later",
+	"author": [
+		"Ike Hecht",
+		"Sam Wilson"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:FlickrAPI",
+	"descriptionmsg": "flickrapi-desc",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"FlickrAPI": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"FlickrAPIHooks": "FlickrAPI.hooks.php",
+		"FlickrAPIUtils": "FlickrAPIUtils.php",
+		"FlickrAPICache": "FlickrAPICache.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "FlickrAPIHooks::onParserFirstCallInit"
+	},
+	"config": {
+		"FlickrAPIKey": "",
+		"FlickrAPISecret": "",
+		"FlickrAPIDefaults": {
+			"type": "frameless",
+			"location": "right",
+			"size": "-"
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1
+}

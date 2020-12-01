@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"indexfunc-desc": "Parserowa funkcija za napóranje awtomatiskich dalejpósrědnjenjow a bokow za rozjasnjenje zapśimjeśow",
+	"indexfunc-badtitle": "Njepłaśiwy titel: \"$1\"",
+	"indexfunc-editwarning": "Warnowanje: Toś ten titel jo indeksowy titel za {{PLURAL:$2|slědujucy bok|slědujucej boka|slědujuce boki|slědujuce boki}}: $1\nWobwěsć se, až bok, kótaryž coš napóraś, hyšći njeeksistěrujo pód drugim titelom.\nJolic napórajoš toś ten bok, wótpóraj toś ten titel z <nowiki>{{#index:}}</nowiki> na {{PLURAL:$2|górjejcnem boku|górjejcnyma bokoma|górjejcnych bokach|górjejcnych bokach}}.",
+	"indexfunc-index-exists": "Bok \"$1\" južo eksistěrujo",
+	"indexfunc-movewarn": "Warnowanje: \"$2\" jo indeksowy titel za {{PLURAL:$3|slědujucy bok|slědujucej boka|slědujuce boki|slědujuce boki}}: $2\nPšosym wótpóraj \"$1\" z <nowiki>{{#index:}}</nowiki> na {{PLURAL:$3|górjejcnem boku|górjejcnyma bokoma|górjejcnych bokach|górjejcnych bokach}}.",
+	"index": "Indeksowe pytanje",
+	"index-legend": "Indeks pśepytaś",
+	"index-search": "Pytaś:",
+	"index-submit": "Wótpósłaś",
+	"index-disambig-start": "'''$1''' móžo se na někotare boki póśěgnuś:",
+	"index-emptylist": "Njejsu boki zwězane z \"$1\"",
+	"index-expand-detail": "Boki, kótarež su pód toś tym titelom indicěrowane, pokazaś",
+	"index-hide-detail": "Lisćinu bokow schowaś",
+	"index-no-results": "Pytanje njejo wuslědki wrośiło",
+	"index-search-explain": "Toś ten bok wužywa prefiksowe pytanje.\n\nZapódaj nejpjerwjej někotare znamuška a klikni tłocašk {{int:index-submit}}, aby titele bokow a indeksowe zapiski pytał, kótarež zachopinaju se z pytańskim wurazom",
+	"index-details-explain": "Zapiski ze šypkami su indeksowe zapiski, klikni na šypku, aby wše boki pokazali, kótarež su pód tym titelom indicěrowane."
+}

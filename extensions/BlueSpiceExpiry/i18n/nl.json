@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dutchy45",
+			"Mainframe98"
+		]
+	},
+	"bs-expiry-header-pagename": "Pagina",
+	"bs-expiry-header-date": "Vervalt op",
+	"bs-expiry-header-comment": "Opmerking",
+	"bs-expiry-date-label": "Vervalt op",
+	"bs-expiry-article-label": "Pagina",
+	"bs-expiry-comment-label": "Opmerking",
+	"bs-expiry-unknown-page-msg": "De pagina bestaat niet.",
+	"bs-expiry-flyout-next-current": "Deze pagina verloopt {{PLURAL:$1|morgen|over $1 dagen ($2)}}!",
+	"bs-expiry-edit-grid-header-username": "Gebruiker",
+	"bs-expiry-edit-grid-header-date": "Datum",
+	"bs-expiry-edit-grid-header-comment": "Opmerking",
+	"bs-expiry-flyout-body-hint-expired": "verviel op $1",
+	"bs-expiry-flyout-body-hint-expires": "vervalt op $1",
+	"bs-expiry-pageinfoelement-expired-label": "verlopen",
+	"bs-expiry-create-reminder-label": "Herinnering aanmaken",
+	"bs-expiry-reminder-type-expiry": "Vervalt"
+}

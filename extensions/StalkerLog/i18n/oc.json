@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"stalkerlog-desc": "Apond [[Special:Log/stalkerlog|un jornal]] de las connexions dels utilizaires",
+	"stalkerlog-log-login": "connectat.",
+	"stalkerlog-log-logout": "desconnectat.",
+	"stalkerlog-log-type": "Jornal d’autentificacion de l’utilizaire",
+	"stalkerlog-log-text": "Vaquí un jornal de las connexions e de las desconnexions de l’utilizaire."
+}

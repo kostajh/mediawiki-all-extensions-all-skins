@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Firilacroco",
+			"KlaudiuMihaila",
+			"Minisarm",
+			"Stelistcristi"
+		]
+	},
+	"indexfunc-badtitle": "Titlu invalid: „$1”",
+	"indexfunc-index-exists": "Pagina „$1” există deja",
+	"index": "Indexul de căutare",
+	"index-legend": "Caută index",
+	"index-search": "Căutare:",
+	"index-submit": "Trimitere",
+	"index-disambig-start": "'''$1''' se poate referi la mai multe pagini:",
+	"index-emptylist": "Nu există pagini asociate cu „$1”",
+	"index-expand-detail": "Arată paginile indexate sub acest titlu",
+	"index-hide-detail": "Ascunde lista paginilor",
+	"index-no-results": "Căutarea nu a returnat rezultate"
+}

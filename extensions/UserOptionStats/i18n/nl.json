@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie",
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"useroptionstats": "Statistieken over gebruikersinstellingen",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Speciale pagina]] voor rapportage over het gebruik van gebruikersinstellingen",
+	"uos-warn": "PHPlot is niet geïnstalleerd!",
+	"uos-choose": "Kies een van de volgende gebruikersinstellingen: $1",
+	"uos-choose-hidden": "Kies een van de volgende verborgen gebruikersinstellingen: $1",
+	"uos-unknown": "*Standaardinstelling",
+	"uos-other": "*Andere",
+	"uos-title": "Verdeling van de waarden van de gebruikersinstelling $1"
+}

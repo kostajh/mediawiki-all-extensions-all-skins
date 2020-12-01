@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arg",
+			"Esketti",
+			"Mainframe98",
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"bs-pagesvisited-desc": "Voegt een gepersonaliseerde lijst van de laatstbezochte pagina's",
+	"prefs-pagesvisited": "Bezochte pagina's",
+	"bs-pagesvisited-widget-title": "Pagina's bezocht",
+	"bs-pagesvisited-error-nsnotvalid": "De opgegeven {{PLURAL:$1|namespace|naamruimten}} <code>$2</code> {{PLURAL:$1|is|zijn}} niet geldig.",
+	"bs-pagesvisited-pref-widgetlimit": "Maximum aantal resultaten:",
+	"bs-pagesvisited-pref-widgetns": "Naamruimten:",
+	"bs-pagesvisited-pref-widgetsortodr": "Sorteren op:",
+	"bs-pagesvisited-pref-sort-time": "Tijd",
+	"bs-pagesvisited-pref-sort-pagename": "Naam",
+	"bs-pagesvisited-tag-pagesvisited-desc": "Geeft een lijst van door u bezochte pagina's weer."
+}

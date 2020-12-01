@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lucas",
+			"Yekrats"
+		]
+	},
+	"security": "Protokolo pri sekureco",
+	"security-info": "Estas $1 en ĉi tiu paĝo",
+	"security-manygroups": "grupoj $1 kaj $2",
+	"security-type-category": "kategorio",
+	"security-type-namespace": "la nomspaco"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"sslauth-desc": "Permite a los usuarios xubir certificaos SSL pa usalos na identificación",
+	"sslauth-title-enable": "Activar la identificación de cliente con SSL",
+	"sslauth-title-disable": "Desactivar la identificación de cliente con SSL",
+	"sslauth-enable": "Activar",
+	"sslauth-disable": "Desactivar",
+	"sslauth-cn": "Nome común",
+	"sslauth-email": "Direición de corréu electrónicu",
+	"sslauth-serial": "Númberu de serie",
+	"sslauth-response-enable": "Activóse la identificación con SSL. Agora, cuando coneutes a {{SITENAME}} per HTTPS col certificáu de cliente, aniciarás sesión automáticamente.",
+	"sslauth-response-disable": "Desactivóse la identificación con SSL.",
+	"sslauth-invalidrequest-title": "Solicitú inválida",
+	"sslauth-invalidrequest": "Tien de dase un certificáu de cliente SSL pa qu'esta páxina seya útil.",
+	"clientssl-legend": "Identificación SSL",
+	"clientssl-text": "Use esta páxina p'activar o desactivar la identificación con certificaos de cliente SSL.",
+	"sslauth-prefs-name": "Identificación SSL",
+	"sslauth-prefs-linktospecial": "Activar/desactivar los certificaos de cliente"
+}

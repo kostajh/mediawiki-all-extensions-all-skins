@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R."
+		]
+	},
+	"smoothgallery": "SmoothGallery",
+	"smoothgallery-desc": "Premmettesse ll'utente 'e crià gallarie cu 'e immaggene ca se songo già carrecate.\nPremmettesse 'a cchiù parte r' 'e opziune ca ce stanno dint'a SmoothGallery.",
+	"smoothgallery-title": "SmoothGallery",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery: $1",
+	"smoothgallery-error": "<b>Errore SmoothGallery:</b>",
+	"smoothgallery-gallery-not-found": "'A gallaria cercata nun esiste.",
+	"smoothgallery-not-found": "Nisciuna immaggene è stata mpizzata dint' 'a gallaria.\nPe' piacere azzeccate almeno n'immaggene.",
+	"smoothgallery-no-images": "Nisciuna immaggene è stata truvata dint'a sta gallaria.\nVedite si {{PLURAL:$3|l'immaggene ca jate cercanno esiste|tuttuquante immaggene ca jate cercanno esisteno}}.\n{{PLURAL:$2|L'immaggene ccà abbascio nun ce sta|L'immaggene ccà abbascio nun ce stanno}}: $1",
+	"smoothgallery-invalid-images": "Ll'immaggene {{PLURAL:$2|richiesta è|richieste songo}} 'e nu tipo invalido: $1",
+	"smoothgallery-unexpected-error": "All'intrasatta s'è verificato n'errore.\nPe' piacere mannate na segnalazione d' 'o probblema.",
+	"smoothgallery-javascript-disabled": "'O JavaScript ce vuò si se vonno vedé ll'immaggene apposto."
+}

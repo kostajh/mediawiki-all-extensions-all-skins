@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby",
+			"Soued031"
+		]
+	},
+	"indexfunc-desc": "Parser-Funktioun fir Viruleedungen an Homonymie-Säiten automatesch unzeleeën",
+	"indexfunc-badtitle": "Net valabelen Titel: \"$1\"",
+	"indexfunc-editwarning": "Opgepasst:\nDësen Titel ass en Index-Titel fir dës {{PLURAL:$2|Säit|Säiten}}:\n$1\nVergewëssert Iech datt déi Säit déi Dir am Gaang sidd unzeleeën net schonn ënner engem aneren Titel besteet.\nWann Dir dës Säit uleet, dann huelt dësen Titel vu(n)  <nowiki>{{#index:}}</nowiki> op {{PLURAL:$2|der Säit|de Säiten}} uewendriwwer erof.",
+	"indexfunc-index-exists": "D'Säit \"$1\" gëtt et schonn",
+	"indexfunc-movewarn": "Opgepasst:\n\"$1\" ass en Index-Titel fir dës {{PLURAL:$3|Säit|Säiten}}:\n$2\nHuelt wgl. \"$1\" vum <nowiki>{{#index:}}</nowiki> erof op {{PLURAL:$3|der Säit|de Säiten}} uewendriwwer.",
+	"index": "Index",
+	"index-legend": "Am Index sichen",
+	"index-search": "Sichen:",
+	"index-submit": "Schécken",
+	"index-disambig-start": "'''$1''' ka sech op méi Säite bezéien:",
+	"index-emptylist": "Et gëtt keng Säiten déi mat \"$1\" assoziéiert sinn",
+	"index-expand-detail": "Déi Säite weisen déi ënner dësem Titel indexéiert sinn",
+	"index-hide-detail": "D'Lëscht vu Säite verstoppen",
+	"index-no-results": "Beim Siche gouf näischt fonnt",
+	"index-search-explain": "Dës Säit benotzt Prefix-Sich.\n\nTippt déi éischt Buchstawen an dréckt op de {{int:index-submit (\"Schécken\")}} Knäppchen fir no Säitentitelen ze sichen déi mat dem ufänken wat Dir aginn hutt.",
+	"index-details-explain": "D'Donnéeë mat Feiler sinn Index-Donnéeën.\nKlickt op de Feil fir all Säiten ze gesinn déi ënner deem Titel indexéiert sinn."
+}

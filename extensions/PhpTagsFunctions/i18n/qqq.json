@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Umherirrender",
+			"pastakhov"
+		]
+	},
+	"phptagsfunctions-desc": "{{desc|name=PhpTagsFunctions|url=https://www.mediawiki.org/wiki/Extension:PhpTags_Functions}}",
+	"phptagsfunctions-preg-bad-delimiter": "The error message.\n\nValid delimiters are <code><nowiki>`~!@#$%^&*-_+=.,?\"':;|/<([{</nowiki></code>",
+	"phptagsfunctions-preg-no-ending-delimiter": "The error message, Parameters:\n* $1 - expected delimiter character. any one of the following characters: <code><nowiki>`~!@#$%^&*-_+=.,?\"':;|/>)]}</nowiki></code>",
+	"phptagsfunctions-preg-unknown-modifier": "The error message, Parameters:\n* $1 - modifier. Valid modifiers are: i, m, s, x, A, D, U"
+}

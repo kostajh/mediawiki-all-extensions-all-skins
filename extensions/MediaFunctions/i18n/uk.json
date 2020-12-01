@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Prima klasy4na"
+		]
+	},
+	"mediafunctions-desc": "Функції парсеру для отримання інформації про медіа-файли",
+	"mediafunctions-invalid-title": "\"$1\" не є коректною назвою",
+	"mediafunctions-not-exist": "\"$1\" не існує"
+}

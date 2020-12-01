@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dianakc",
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald",
+			"TheEduGobi",
+			"TheGabrielZaum",
+			"WikiUser22222"
+		]
+	},
+	"citoid-action-replace": "Alterar o tipo de referência",
+	"citoid-citation-widget-insert-button": "Inserir",
+	"citoid-citoiddialog-back": "Voltar",
+	"citoid-citoiddialog-credit": "Fornecido por $1",
+	"citoid-citoiddialog-lookup-button": "Gerar",
+	"citoid-citoiddialog-mode-auto": "Automático",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Reusar",
+	"citoid-citoiddialog-search": "Pesquisar",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID título ou citação",
+	"citoid-citoiddialog-search-placeholder": "por exemplo, http://www.exemplo.com",
+	"citoid-citoiddialog-search-progress": "Pesquisando, aguarde...",
+	"citoid-citoiddialog-title": "Adicionar uma citação",
+	"citoid-citoiddialog-title-replace": "Substituir citação",
+	"citoid-citoiddialog-use-general-error-message": "Não podemos fazer uma citação para você. Pode criá-la manualmente usando a aba \"{{int:citoid-citoiddialog-mode-manual}}\" acima.",
+	"citoid-citoidtool-title": "Citar",
+	"citoid-citoidtool-title-othergroup": "Citação",
+	"citoid-desc": "Fornece pontos de acesso entre o serviço citoid e o MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Converter",
+	"citoid-referencecontextitem-convert-message": "Esta referência consiste apenas em um link externo. Você pode usar o botão \"{{int:citoid-referencecontextitem-convert-button}}\" abaixo para gerar uma referência corretamente formatada.",
+	"citoid-unknown-error": "Ocorreu um erro desconhecido que nos impediu de criar uma citação. Tente de novo mais tarde.",
+	"citoid-wb-referenceview-tabs-automatic": "Automático",
+	"citoid-wb-referenceview-tabs-search": "Pesquisar",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN ou QID:",
+	"citoid-wb-pendingdialog-error": "Não foi possível gerar uma referência a partir desta entrada. Use a aba manual, ou tente novamente.",
+	"citoid-wb-pendingdialog-message": "Gerando uma referência; aguarde, por favor...",
+	"citoid-wb-pendingdialog-title": "Gerando citação"
+}

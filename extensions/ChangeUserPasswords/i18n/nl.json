@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"changeuserpasswords": "Gebruikerswachtwoorden wijzigen",
+	"changeuserpassword-desc": "Dit is een uitbreiding voor het wijzigen van gebruikerswachtwoorden, met uitzondering van die aangewezen door een beheerder.",
+	"changeuserpassword-pagename": "WijzigGebruikersWachtwoorden",
+	"changeuserpassword-topheader": "Selecteer de gebruikers van wie de wachtwoorden gewijzigd moeten wordt. Standaard zijn alle gebruikers geselecteerd. Deselecteer de gebruikers waarvoor het wachtwoordt niet gewijzigd moet worden.",
+	"changeuserpassword-success": "Gebruikerswachtwoorden gewijzigd!",
+	"changeuserpassword-title": "Gebruikerswachtwoorden wijzigen",
+	"changeuserpassword-intro": "Dit is een uitbreiding voor het wijzigen van gebruikerswachtwoorden, met uitzondering van die aangewezen door een beheerder.",
+	"action-changeuserpasswords": "Wachtwoorden van gebruikers te wijzigen",
+	"right-changeuserpasswords": "Gebruikerswachtwoorden wijzigen"
+}

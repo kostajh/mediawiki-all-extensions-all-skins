@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby",
+			"SPQRobin",
+			"Shirayuki",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-insertcategory-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of insert category extension",
+	"bs-insertcategory-insertcat": "Used as text for the link to insert category.\n{{Identical|Insert category}}",
+	"prefs-insertcategory": "Used in [{{canonicalurl:Special:WikiAdmin|mode=Preferences}} Special:WikiAdmin?mode=Preferences], headline for insert category section.\n{{Identical|Insert category}}",
+	"bs-insertcategory-pref-withparents": "Option in [{{canonicalurl:Special:WikiAdmin|mode=Preferences}} Special:WikiAdmin?mode=Preferences], checkbox label for insert category with its parents",
+	"bs-insertcategory-pref-uploadpanelintegration": "Option in [{{canonicalurl:Special:WikiAdmin|mode=Preferences}} Special:WikiAdmin?mode=Preferences], checkbox label for integration with upload panel component",
+	"bs-insertcategory-title": "Window title for insert category.\n{{Identical|Insert category}}",
+	"bs-insertcategory-cat-label": "Label for the \"Assigned categories\" box.",
+	"bs-insertcategory-success": "Text for add category successful",
+	"bs-insertcategory-failure": "Text for error.\n{{Identical|Error}}",
+	"bs-insertcategory-hint": "Text for note: to add a category, you have to press enter.",
+	"bs-insertcategory-panel-title": "Title for categories.\n{{Identical|Category}}",
+	"bs-insertcategory-category-editor-title": "Label of an input field that allows modification of the categories of a page",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Label of a read only field that lists categories that can not be changed directly",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Tooltip text for a list of categories that can not be changed directly",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Label for button that removes all categories from a wikipage",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "Label for link that shows category editor of a page\n{{Identical|Edit}}",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Tooltip for link that shows category editor of a page",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Tooltip for link in page headerthat shows category editor of a page next to this button"
+}

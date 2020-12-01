@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"purgeclickthrough-desc": "Не перенаправляти сторінки з ?action=purge, натомість сприймати це як клацання (з метою налагодження)"
+}

@@ -1,0 +1,104 @@
+<p>
+	{{#msg}}performanceinspector-modules-css-description{{/msg}}
+</p>
+
+<table class="wikitable mw-pi-inspector">
+	<thead>
+		<tr>
+			<th>
+				{{#msg}}performanceinspector-modules-css-column-module{{/msg}}
+			</th>
+			<th>
+				{{#msg}}performanceinspector-modules-css-column-used-selectors{{/msg}}
+			</th>
+			<th>
+			</th>
+		</tr>
+	</thead>
+	{{#cssResourceLoader}}
+		<tr>
+			<td>
+				{{name}}
+			</td>
+			<td>
+				{{selectors}}
+			</td>
+			<td class="mw-pi-center">
+				<span class="mw-pi-button"></span>
+			</td>
+		</tr>
+		<tr class="toggleable hidden">
+			<td colspan="5" class="mw-pi-details" >
+				{{#unmatchedSelectors}}
+					<p>{{.}}</p>
+				{{/unmatchedSelectors}}
+			</td>
+		</tr>
+	{{/cssResourceLoader}}
+</table>
+
+<p>{{#msg}}performanceinspector-modules-css-url-description{{/msg}}</p>
+
+<table class="wikitable mw-pi-inspector">
+	<thead>
+		<tr>
+			<th>
+				{{#msg}}performanceinspector-modules-css-column-url{{/msg}}
+			</th>
+			<th>
+				{{#msg}}performanceinspector-modules-css-column-used-selectors{{/msg}}
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	{{#cssFromFiles}}
+	<tr>
+		<td class="url">
+			{{name}}
+		</td>
+		<td>
+			{{selectors}}
+		</td>
+		<td class="mw-pi-center">
+			<span class="mw-pi-button"></span>
+		</td>
+	</tr>
+	<tr class="toggleable hidden">
+		<td colspan="5" class="mw-pi-details">
+			{{#unmatchedSelectors}}
+				<p>{{.}}</p>
+			{{/unmatchedSelectors}}
+		</td>
+	</tr>
+	{{/cssFromFiles}}
+</table>
+
+<p>{{#msg}}performanceinspector-modules-css-embeds-description{{/msg}}</p>
+
+<table class="wikitable mw-pi-inspector">
+	<thead>
+		<tr>
+			<th>
+				{{#msg}}performanceinspector-modules-css-column-source{{/msg}}
+			</th>
+			<th>
+				{{#msg}}performanceinspector-modules-css-column-used-embeds{{/msg}}
+			</th>
+		</tr>
+	</thead>
+	{{#cssUnusedEmbeds}}
+	<tr>
+		<td class="url">
+			{{name}}
+		</td>
+		<td>
+			{{used}}
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2"><pre>{{#results}}
+{{selector}} &#123; {{prop}}: <span class="mw-pi-url-crop">{{value}}</span>
+{{/results}}</pre></td>
+	</tr>
+	{{/cssUnusedEmbeds}}
+</table>

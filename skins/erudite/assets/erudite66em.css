@@ -1,0 +1,9 @@
+/* The top menu may want to start wrapping, so reduce padding */
+#menu {
+	padding: 0.5em 0em;
+}
+
+#menu li {
+	padding: 0em 1em;
+	margin-right: 0em;
+}

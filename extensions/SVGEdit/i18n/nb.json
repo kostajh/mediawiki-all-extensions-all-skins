@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Nghtwlkr"
+		]
+	},
+	"svgedit-editbutton-edit": "Rediger tegning",
+	"svgedit-summary-label": "Redigeringsforklaring",
+	"svgedit-summary-default": "/* Endret i svg-edit */",
+	"svgedit-editor-save-close": "Lagre og lukk",
+	"svgedit-editor-close": "Avbryt",
+	"svgedit-desc": "Nettleserredigering av SVG-tegninger med [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Rediger tegning",
+	"svgedit-edit-tab-tooltip": "Du kan redigere denne SVG-tegningen i nettleseren din",
+	"svgedit-toolbar-insert": "SVG-tegning"
+}

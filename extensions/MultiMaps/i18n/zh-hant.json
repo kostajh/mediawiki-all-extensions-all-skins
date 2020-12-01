@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"multimaps-desc": "允許使用者利用多個地圖服務來顯示地圖與座標資料",
+	"multimaps-loading-map": "載入地圖中...",
+	"multimaps-mapservices-must-not-empty-array": "變數「$1」不可為空陣列",
+	"multimaps-undefined-service-for-layout": "用於在 $egMultiMaps_MapServices 佈局「$1」上的未定義服務參數",
+	"multimaps-wrong-service-for-layout": "用於佈局「$1」的定義服務「$2」並不存於 $egMultiMaps_MapServices 上",
+	"multimaps-layout-defined-for-layout": "佈局「$1」已定義其它佈局「$2」，取代在 $egMultiMaps_MapServices 上的服務",
+	"multimaps-leaflet-undefined-parameters-for-layer": "參數「source」與「attribution」必須提供給在 $egMultiMaps_MapServices 的圖層「$1」",
+	"multimaps-had-following-errors": "在解析所傳遞的參數時發生以下錯誤：",
+	"multimaps-element-illegal-value": "參數「$1」指定了無效的值「$2」。有效值為：$3",
+	"multimaps-element-more-parameters": "此地圖元素「$1」傳遞了超出預期的參數：",
+	"multimaps-element-parameters-not-processed": "以下參數未被處理：$1",
+	"multimaps-circle-radius-not-defined": "圓形必須要定義半徑",
+	"multimaps-circle-wrong-number-parameters": "圓形應僅定義兩個參數：座標的中心點與半徑。但卻指定了 {{PLURAL:$1|1|$1}} 個參數",
+	"multimaps-marker-incorrect-icon": "給標記圖標提供了不正確的檔案名稱「$1」。",
+	"multimaps-marker-incorrect-icon-url": "給標記圖標提供了不正確的 URL「$1」。",
+	"multimaps-marker-incorrect-icon-size": "給標記圖標「$2」提供了不正確的大小「$1」。",
+	"multimaps-marker-incorrect-icon-anchor": "給標記圖標「$2」提供了不正確的錨點「$1」。",
+	"multimaps-marker-incorrect-shadow-file": "給圖標陰影提供了不正確的檔案名稱「$1」。",
+	"multimaps-marker-incorrect-shadow-url": "給圖標陰影提供了不正確的 URL「$1」。",
+	"multimaps-marker-incorrect-shadow-size": "給圖標陰影「$2」提供了不正確的大小「$1」。",
+	"multimaps-marker-incorrect-shadow-anchor": "給圖標陰影「$2」提供了不正確的錨點「$1」。",
+	"multimaps-passed-unavailable-service": "在可用服務清單（$2）裡找不到服務名稱「$1」。已改用預設服務「$3」",
+	"multimaps-square-wrong-number-points": "方形的座標應僅包含兩個點，但卻指定了 {{PLURAL:$1|1|$1}} 個點",
+	"multimaps-unable-create-element": "地圖元素「$1」無法建立",
+	"multimaps-unable-parse-coordinates": "無法解析地理座標「$1」",
+	"multimaps-unable-parse-parameter": "無法解析值為「$2」的參數「$1」",
+	"multimaps-unable-parse-radius": "圓形的半徑應為數字內容，但被指定成「$1」",
+	"multimaps-unknown-class-for-service": "找不到定義來用於服務的類別「$1」。",
+	"multimaps-unknown-parameter": "未知參數：「$1」",
+	"multimaps-error-incorrect-class-for-service": "定義來用於服務的類別「$1」無法使用。",
+	"multimaps-method-error-unknown-action": "$1：未知操作",
+	"multimaps-method-error-unexpected-result": "$1：函式出現預期外的結果"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"countDownClock-desc": "Dodaje parsersku funkciju za prikaz vremena odbrojavanja",
+	"countDownClock-invalidtime": "Molimo vas da pružite korektan parametar za odbrojavanje",
+	"countDownClock-days": "$1 {{PLURAL:$1|dan|dana}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|sat|sati}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|minut|minuta}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|sekund|sekundi}}",
+	"countDownClock-expired": "Isteklo"
+}

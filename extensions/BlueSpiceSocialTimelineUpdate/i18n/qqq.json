@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Josef Konrad <konrad@hallowelt.com>"
+		]
+	},
+	"bs-socialtimelineupdate-desc": "{{desc|name=BlueSpiceSocialTimelineUpdate}}",
+	"bs-socialtimelineupdate-update-button-tooltip": "Label for a button that reloads the list of entities"
+}

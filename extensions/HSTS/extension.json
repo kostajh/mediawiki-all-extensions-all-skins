@@ -1,0 +1,33 @@
+{
+	"name": "HSTS",
+	"version": "1.1.1",
+	"author": "Seb35",
+	"url": "https://www.mediawiki.org/wiki/Extension:HSTS",
+	"descriptionmsg": "hsts-desc",
+	"license-name": "WTFPL",
+	"type": "other",
+	"DefaultUserOptions": {
+		"hsts": 0
+	},
+	"MessagesDirs": {
+		"HSTS": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"HSTSExtension": "HSTSExtension.php"
+	},
+	"Hooks": {
+		"GetPreferences": "HSTSExtension::getPreferences",
+		"GetBetaFeaturePreferences": "HSTSExtension::getBetaFeaturePreferences",
+		"BeforePageDisplay": "HSTSExtension::addHeader"
+	},
+	"config": {
+		"HSTSForAnons": false,
+		"HSTSForUsers": false,
+		"HSTSMaxAge": 2592000,
+		"HSTSIncludeSubdomains": false,
+		"HSTSBetaFeature": false
+	},
+	"manifest_version": 1
+}

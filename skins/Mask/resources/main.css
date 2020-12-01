@@ -1,0 +1,585 @@
+#siteSub {
+	display: none;
+}
+
+#site-tools li#pt-mytalk,
+#site-tools li#pt-preferences,
+#site-tools li#pt-watchlist,
+#site-tools li#pt-mycontris,
+#site-tools li#pt-logout {
+	display: none;
+}
+
+/* todo: Break this out */
+#page-tools li[id^=ca-nstab],
+#page-tools li#ca-talk,
+#page-tools li#ca-protect,
+#page-tools li#ca-watch,
+#page-tools li#ca-unwatch {
+	display: none;
+}
+
+#nav-container h3 {
+	display: none;
+}
+
+.center {
+	text-align: center;
+	margin: auto;
+}
+
+body {
+	direction: ltr;
+	margin: 0;
+	padding: 0;
+	font-family: 'Linux Biolinum', sans-serif;
+	font-size: 1em;
+	background: #000 url('images/glass_from_dragoroth-stock.dA.png') no-repeat 50% 0;
+}
+
+#top-container {
+	height: 350px;
+	background: url('images/masktop-cropped.png') no-repeat 50% 0;
+	margin-bottom: -205px;
+	position: relative;
+	z-index: 2;
+}
+
+#nav-container {
+	position: relative;
+	width: 850px;
+	height: 145px;
+	margin: auto;
+	text-shadow: 0 -1px 0 #000, 0 1px 0 #777, 0 0 3px #000;
+}
+
+#menu-left, #menu-right {
+	position: absolute;
+	bottom: 33px;
+}
+
+#menu-left ul,
+#menu-right ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu-left a,
+#menu-right a {
+	color: #aaa;
+}
+
+#menu-left {
+	text-align: right;
+	right: 640px;
+}
+
+#menu-right {
+	text-align: left;
+	left: 640px;
+}
+
+#top-coin a {
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 365px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+#content-container {
+	width: 850px;
+	box-sizing: border-box;
+	background: #f4f0e6 url('images/paper-repeater.gif');
+	margin: auto;
+	border: 1px #000;
+	border-style: none solid;
+	position: relative;
+	z-index: 5;
+	box-shadow: 0 3px 10px 0px #000;
+}
+
+#content {
+	padding: 4em 3em 3em;
+	text-align: justify;
+	min-height: 400px;
+	position: relative;
+	z-index: 6;
+}
+
+#paper-top {
+	height: 521px;
+	background: url('images/paper-top.gif') no-repeat 0 0;
+	margin-bottom: -521px;
+}
+
+#paper-bottom {
+	height: 268px;
+	background: url('images/paper-bottom.gif') no-repeat 0 0;
+	margin-top: -268px;
+	position: relative;
+	z-index: 5;
+}
+
+#border-top {
+	height: 82px;
+	/* @embed */
+	background: url('images/border-top.png') no-repeat 0 0;
+	margin-bottom: -82px;
+}
+
+#border-bottom {
+	height: 7px;
+	/* @embed */
+	background: url('images/border-bottom.png') no-repeat 0 0;
+	margin-top: -7px;
+	position: relative;
+	z-index: 7;
+}
+
+#bottom-container {
+	height: 440px;
+	background: url('images/maskbottom-cropped.png') no-repeat 50%;
+	margin-top: -323px;
+	position: relative;
+	z-index: 1;
+}
+
+#bottom-nav-container {
+	position: relative;
+	width: 850px;
+	height: 440px;
+	margin: auto;
+}
+
+#bottom-coin a {
+	width: 50px;
+	height: 50px;
+	/* @embed */
+	background: url('images/daji-coin.png');
+	position: absolute;
+	top: 335px;
+	left: 400px;
+}
+
+#bottom-nav {
+	position: absolute;
+	top: 420px;
+	font-size: 75%;
+	width: 850px;
+	padding-bottom: 2em;
+	margin: 2em 3.3em 0;
+	text-shadow: 0 2px 4px #000, 0 2px 4px #000, 0 1px 4px #000;
+}
+
+#bottom-nav .portlet {
+	margin: 0.5em 0 0;
+}
+
+#bottom-nav h3 {
+	color: #444;
+	text-align: left;
+	display: inline;
+}
+
+#bottom-nav h3:after {
+	content: ':';
+}
+
+#bottom-nav .pBody {
+	display: inline;
+}
+
+#bottom-nav a {
+	color: #666;
+}
+
+#bottom-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline;
+}
+
+#bottom-nav ul li {
+	margin: 0 0.5em;
+	display: inline;
+}
+
+#tools-bottom {
+	margin: 1em 3em 2em;
+	font-size: 80%;
+	color: #555;
+	position: relative;
+	z-index: 7;
+}
+
+#tools-bottom a {
+	color: #555;
+}
+
+#page-title {
+	color: #222;
+}
+
+#page-tools {
+}
+
+#site-tools {
+	float: right;
+}
+
+#p-personal,
+#p-personal .pBody,
+#p-cactions,
+#p-cactions .pBody {
+	display: inline;
+}
+
+#p-personal {
+	float: left;
+}
+
+#page-tools ul,
+#site-tools ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+#page-tools li,
+#site-tools li {
+	display: inline;
+	margin: 0 0.5em;
+}
+
+#p-search {
+	float: right;
+	margin-left: 1.5em;
+	margin-top: -1px;
+}
+
+#p-search input {
+	font-family: 'Linux Biolinum', sans-serif;
+	border-width: 0;
+	background: transparent;
+	color: #666;
+}
+
+#searchInput {
+	width: 11em;
+}
+
+#p-search .placeholder {
+	color: #666;
+}
+
+#p-search input#searchGoButton {
+	color: #888;
+}
+
+h1,
+h2 {
+	font-family: 'Linux Libertine Display', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt {
+	color: #400;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+h4,
+h5,
+h6,
+dt {
+	text-align: left;
+	margin-top: 1.5em;
+}
+
+h1 {
+	margin-top: 0.5em;
+	font-size: 2.2em;
+}
+
+h2 {
+	margin-top: 2em;
+	font-size: 1.8em;
+}
+
+h3 {
+	margin-top: 1.7em;
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.3em;
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+h6,
+dt {
+	font-size: 1em;
+}
+
+.mw-empty-elt {
+	display: none;
+}
+
+.ns-special h1,
+.ns-special h2,
+.ns-special h3,
+.ns-6 h1,
+.ns-6 h2,
+.ns-6 h3 {
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: #004d8f;
+}
+
+a:visited {
+	color: #00328f;
+}
+
+a.new {
+	color: #600;
+}
+
+a.new:visited {
+	color: #620;
+}
+
+a:hover {
+	color: #555;
+}
+
+.mw-editsection-bracket {
+	display: none;
+}
+.mw-editsection a {
+	color: #777;
+	font-family: 'Linux Biolinum', sans-serif;
+}
+
+.mw-newarticletext,
+.editButtons .cancelLink,
+.editButtons .editHelp,
+#wpWatchthis,
+#mw-editpage-watch,
+#editpage-copywarn {
+	display: none;
+}
+
+form#editform .editOptions {
+	background: transparent;
+	border-style: none;
+	padding: 1em 0 0;
+}
+
+#wpSummaryLabel {
+	display: block;
+	float: left;
+	margin-right: 0.5em;
+}
+
+.limitreport,
+.hiddencats,
+.templatesUsed,
+#mw-editpage-minoredit {
+	font-size: 90%;
+}
+
+#mw-previewheader {
+	text-align: left;
+}
+
+.previewnote {
+	color: #444;
+}
+
+.previewnote p {
+	text-indent: 0;
+	font-size: 90%;
+}
+
+.previewnote p a {
+	display: none;
+}
+
+#editform textarea,
+textarea#wpUploadDescription {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.3em;
+	resize: vertical;
+	border: none;
+	box-shadow: 0 2px 7px inset #bab1a8;
+	font-family: 'Linux Biolinum', sans-serif;
+	font-size: 95%;
+}
+
+#editform #wpSummary,
+#wpDestFile,
+#wpReason,
+.mw-ui-input,
+input[type=text] {
+	border: none;
+	box-shadow: 0 1px 4px inset #bab1a8;
+	padding: 0.25em;
+	color: #555;
+	font-family: 'Linux Biolinum', sans-serif;
+	font-size: 85%;
+}
+
+select,
+input[type=submit] {
+	font-family: 'Linux Biolinum', sans-serif;
+	font-size: 90%;
+	padding: 0.1em 1em 0.25em;
+}
+
+fieldset {
+	border: solid 1px #ccc;
+	border-width: 1px 0 0;
+	margin-bottom: 1em;
+}
+
+legend {
+	color: #823;
+	font-size: 105%;
+	padding: 0 0.5em;
+}
+
+/**
+ * @todo FIXME/CHECKME: This ID was originally used (only) by Special:Preferences,
+ * but since the OOUI-ification of that page, this ID appears to be no longer used
+ * by anything in MW core...
+ */
+#preftoc {
+	list-style: none;
+}
+
+#preftoc li {
+	display: inline;
+	margin: 0 0.5em;
+}
+
+#preftoc li.selected a {
+	color: #000;
+}
+
+hr {
+	/* @embed */
+	background: url('images/hr.png') no-repeat -150px 100%;
+	border: none;
+	height: 1px;
+	padding: 0;
+	margin: 0.5em 0;
+	display: list-item !ie;
+	list-style: url('images/hr.png') inside !ie;
+	filter: alpha(opacity=0) !ie;
+	width: 0 !ie;
+}
+
+table {
+	background: transparent;
+	text-align: left;
+}
+
+.ns-6 #bodyContent,
+.action-delete #bodyContent,
+.action-history #bodyContent,
+.ns-special #bodyContent {
+	font-size: 90%;
+}
+
+#contentSub {
+	margin: -3.25em 14em 3.25em;
+	font-size: 80%;
+}
+
+#contentSub a {
+	color: #666;
+}
+
+pre,
+.mw-code {
+	line-height: 1.1em;
+	font-size: 12px;
+	word-wrap: break-word;
+}
+
+.poem p {
+	line-height: 150%;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+/* Table of contents */
+#toc {
+	margin: 1em 2em;
+	display: inline-block;
+	padding: 1em 2.5em 1em 1em;
+	background: rgba(255,255,255,.4);
+	box-shadow: rgba(0,0,0,.1) 0px 2px 5px 0px
+}
+
+div#toc ul {
+	list-style: none;
+}
+
+.tocnumber {
+	display: none;
+}
+
+#toctitle h2 {
+	margin: 0 0 0.5em;
+	font-size: 1.1em;
+	text-align: left;
+	display: inline-block;
+	font-family: "Linux Biolinum", sans-serif;
+}
+
+.toclevel-1 {
+	font-size: 1.2em;
+}
+
+.toclevel-2 {
+	font-size: 0.8em;
+}
+
+/* Copy of mixin-screen-reader-text() LESS mixin from /resources/src/mediawiki.less/mediawiki.mixins.less@REL1_32 */
+.mw-jump-link:not( :focus ) {
+	display: block;
+	position: absolute !important; /* stylelint-disable-line declaration-no-important */
+	clip: rect( 1px, 1px, 1px, 1px );
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	overflow: hidden;
+}

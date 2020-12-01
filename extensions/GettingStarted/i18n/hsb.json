@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"J budissin",
+			"Michawiki"
+		]
+	},
+	"gettingstarted": "Prěnje kroki",
+	"gettingstarted-desc": "Pomha nowym wužiwarjam, so z awtorami stać",
+	"gettingstarted-task-toolbar-editing-help-text": "Pokaž mi, kak",
+	"gettingstarted-task-toolbar-editing-help-title": "Pokazaj wobdźěłansku pomoc",
+	"gettingstarted-task-toolbar-try-another-text": "Druhu stronu spytać ►",
+	"gettingstarted-task-toolbar-close-title": "Tutu symbolowu lajstu začinić",
+	"gettingstarted-task-toolbar-no-suggested-page": "Bohužel njemóžemy tuchwilu žane dalše strony za polěpšenje namjetować. Spytaj bórze znowa abo pytaj za temami, kotrež tebje zajimuja.",
+	"gettingstarted-task-copyedit-toolbar-description": "Tuta strona móhła měć prawopisne abo gramatiske zmylki, kotrež móžeš polěpšić.",
+	"gettingstarted-task-copyedit-toolbar-try-another-title": "Dźi k připadnej stronje, zo by ju přez korigowanje polěpšił(a).",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-title": "Započńmy!",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-description": "Tuta strona je so wot druhich wužiwarjow {{SITENAME}} jako polěpšenja hódna woznamjeniła. Njetraš być eksperta na tutym polu, zo by móhł(a) pomhać.",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-title": "Ideje, što móhło so činić.",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-description": "Tute chorhoje woznamjenjeja problemy z tutej stronu. Njetraš wšitke rozrisać, wostań prosće při tym, štož so tebi lubi.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-title": "Cyłu stronu wobdźěłać...",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-description": "Klikń na „$1“, zo by wobsah něhdźe na stronje změnić móhł(a).",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-title": "Abo wěsty wotrězk wobdźěłać",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-description": "Jeli chceš wěsty wotrězk wobdźěłać, móžeš na wotkaz „{{int:editsection}}“ pódla kóždeho nadpisma wotrězka kliknyć.",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-title": "Čiń twoje změny a składuj",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-description": "Móžeš nětko wobsahi strony wobdźěłać. Hdyž sy hotowy/a, klikń na „{{int:publishchanges}}“, zo by swoje změny přepruwował(a) a składował(a).",
+	"guidedtour-tour-gettingstarted-click-preview-title": "Přehlad (opcionalny)",
+	"guidedtour-tour-gettingstarted-click-preview-description": "Kliknjenje na „{{int:showpreview}}“ ći zmóžnja widźeć, kak strona z twojimi změnami wupada. Njezabudź ju składować.",
+	"guidedtour-tour-gettingstarted-click-save-title": "Sy nimale hotowy!",
+	"guidedtour-tour-gettingstarted-click-save-description": "Klikń na '{{int:publishchanges}}' a twoje změny budu widźomne.",
+	"gettingstarted-cta-close": "Začinić",
+	"gettingstarted-cta-heading": "Pomhaj {{GRAMMAR:akuzatiw|{{SITENAME}}}} polěpšić",
+	"gettingstarted-cta-text": "Móžeš na wšelake wašnja k polěpšenju strony {{SITENAME}} přinošować",
+	"gettingstarted-cta-edit-page": "Tutu stronu wobdźěłać",
+	"gettingstarted-cta-edit-page-sub": "Pokazamy će, kak",
+	"gettingstarted-cta-fix-pages": "Namjetowanu stronu wobdźěłać",
+	"gettingstarted-cta-fix-pages-sub": "Budźemy něšto jednore wubrać",
+	"gettingstarted-cta-leave": "Ně dźakuju, snano pozdźišo"
+}

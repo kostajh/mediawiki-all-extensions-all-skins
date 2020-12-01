@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm"
+		]
+	},
+	"purgeclickthrough-desc": "Не перенаправлять страницы ?action=purge, заставляя кликать вместо этого (для отладочных целей)"
+}

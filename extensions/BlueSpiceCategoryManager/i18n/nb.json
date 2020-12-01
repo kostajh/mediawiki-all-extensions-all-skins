@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bluespicecategorymanager": "Kategoribehandler",
+	"bluespicecategorymanager-desc": "Visuelt verktøy for å behandle kategorier",
+	"action-categorymanager-viewspecialpage": "vis kategoribehandleren",
+	"bs-categorymanager-draganddrop-text": "Dra og slipp for å omorganisere",
+	"bs-categorymanager-label": "Kategoribehandler",
+	"bs-categorymanager-dlg-new-title": "Opprett kategori",
+	"bs-categorymanager-dlg-new-prompt": "Skriv inn navnet:",
+	"bs-categorymanager-removecategoryconfirm-text": "Er du sikker på at du vil slette denne kategorien?",
+	"bs-categorymanager-removecategoryconfirm-title": "Fjern kategori",
+	"bs-categorymanager-addcategory-dialog-error-title": "Opprettelse av kategori feilet",
+	"bs-categorymanager-action-show-category": "Vis kategori",
+	"right-categorymanager-viewspecialpage": "Gir tilgang til spesialsiden [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Kategoritildeling",
+	"bs-categorymanager-collection-var-namespacename": "Navnerom",
+	"bs-categorymanager-collection-var-categorizedpages": "Sider med kategorier",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Sider uten kategorier"
+}

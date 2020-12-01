@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2",
+			"LaG roiL"
+		]
+	},
+	"uploadslink-desc": "הוספת קישור לרשימת העלאות המשתמש לתפריט הכלים האישיים וקישור לרשימת ההעלאות של המשתמש הרלוונטי ל\"כלים\"  בתפריט הצד.",
+	"uploadslink-portlet-label": "העלאות",
+	"tooltip-pt-uploads": "רשימת קבצים שהעלית",
+	"uploadslink-toobox-label": "העלאות {{GENDER:$1|המשתמש|המשתמשת}}",
+	"tooltip-tb-uploads": "רשימת ההעלאות של {{GENDER:$1|משתמש זה|משתמשת זו}}"
+}

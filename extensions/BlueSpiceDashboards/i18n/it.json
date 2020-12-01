@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Dansita",
+			"Einreiher",
+			"Gianfranco",
+			"Matteocng",
+			"Valepert"
+		]
+	},
+	"bs-dashboards-desc": "Fornisce cruscotti per utenti e amministratori",
+	"bs-specialadmindashboard-label": "Cruscotto",
+	"bs-dashboards-portlets": "Portlet",
+	"prefs-dashboards": "Cruscotti",
+	"bs-dashboards-pref-userdashboardonlogo": "Il logo del sito linka al pannello di controllo",
+	"admindashboard": "Cruscotto amministrazione",
+	"userdashboard": "Cruscotto utente",
+	"bs-dashboard-userportlet-calendar-title": "Calendario",
+	"bs-dashboard-userportlet-calendar-description": "Calendario",
+	"bs-dashboard-userportlet-wikipage-title": "Pagina wiki",
+	"bs-dashboard-userportlet-wikipage-description": "Utilizza una pagina wiki per definire il widget",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "Pagina wiki",
+	"apihelp-bs-dashboard-task-param-dc": "Parametro di controllo della cache. Usato da ExtJS.",
+	"apihelp-bs-dashboards-store-description": "Elenca tutti i moduli web disponibili.",
+	"apihelp-bs-dashboards-store-summary": "Elenca tutti i moduli web disponibili.",
+	"apihelp-bs-dashboards-tasks-description": "Salva la configurazione del pannello di controllo",
+	"apihelp-bs-dashboards-tasks-summary": "Salva la configurazione del pannello di controllo",
+	"apihelp-bs-dashboards-widgets-tasks-description": "Restituisce contenuto ad alcuni widget del pannello di controllo",
+	"apihelp-bs-dashboards-widgets-tasks-summary": "Restituisce contenuto ad alcuni widget del pannello di controllo",
+	"action-dashboards-viewspecialpage-userdashboard": "visualizzare la pagina speciale \"{{int:userdashboard}}\"",
+	"right-dashboards-viewspecialpage-userdashboard": "Accede alla pagina speciale [[Special:UserDashboard]]"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ainali",
+			"WikiPhoenix"
+		]
+	},
+	"markashelpful-desc": "Ger ett användargränssnitt för att markera kommentarer som hjälpsamma",
+	"mah-mark-text": "Markera som användbar",
+	"mah-you-marked-text": "Du tycker att detta är användbart",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 tycker att detta är användbart}}",
+	"mah-undo-mark-text": "ångra",
+	"mah-action-error": "Det uppstod ett fel när denna åtgärd skulle utföras",
+	"apihelp-getmarkashelpfulitem-description": "Hämta en lista över all hjälpsam status för ett objektföremål.",
+	"apihelp-getmarkashelpfulitem-summary": "Hämta en lista över all hjälpsam status för ett objektföremål.",
+	"apihelp-getmarkashelpfulitem-param-type": "Objekttypen som markeras som hjälpsamt.",
+	"apihelp-getmarkashelpfulitem-param-item": "Objektföremålet som markeras som hjälpsamt.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Vilken egenskap att hämta.",
+	"apihelp-getmarkashelpfulitem-param-page": "Sidan som begär objektet.",
+	"apihelp-markashelpful-description": "Låter användare markera eller avmarkera ett objekt på webbplatsen som hjälpsamt.",
+	"apihelp-markashelpful-summary": "Låter användare markera eller avmarkera ett objekt på webbplatsen som hjälpsamt.",
+	"apihelp-markashelpful-param-mahaction": "Om ett föremål markeras eller avmarkeras som hjälpsamt.",
+	"apihelp-markashelpful-param-page": "Sidan som föremålet att markera är på.",
+	"apihelp-markashelpful-param-type": "Objekttypen som markeras som hjälpsam.",
+	"apihelp-markashelpful-param-item": "Objektföremålet som markeras som hjälpsamt.",
+	"apihelp-markashelpful-param-useragent": "Webbläsarens användaragentsidhuvud.",
+	"apihelp-markashelpful-param-system": "Operativsystemet som används.",
+	"apihelp-markashelpful-param-locale": "Språket att använda."
+}

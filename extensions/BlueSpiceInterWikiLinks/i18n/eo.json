@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"bs-interwikilinks-label": "Intervikiaj ligiloj",
+	"bs-interwikilinks-nopfx": "Bonvolu specifi prefikson.",
+	"bs-interwikilinks-nourl": "Bonvolu specifi retadreson.",
+	"bs-interwikilinks-pfxtoolong": "La prefikso estas tro longa. Bonvolu uzi maksimume 32 skribsignojn.",
+	"bs-interwikilinks-pfxexists": "Ĉi tiu prefikso jam ekzistas.",
+	"bs-interwikilinks-headerprefix": "Prefikso",
+	"bs-interwikilinks-titleaddinterwikilink": "Aldoni intervikian ligilon",
+	"bs-interwikilinks-titleeditinterwikilink": "Redakti intervikian ligilon",
+	"bs-interwikilinks-labelprefix": "Prefikso",
+	"bs-interwikilinks-titledeleteinterwikilink": "Forigi intervikian ligilon",
+	"bs-interwikilinks-confirmdeleteinterwikilink": "Ĉu vi certas ke vi volas forigi ĉi tiun intervikian ligilon?",
+	"bs-interwikilinks-insertlink-labelprefix": "Prefikso",
+	"bs-interwikilink-select-a-prefix": "Elekti prefikson",
+	"interwikilinks": "Intervikiaj ligiloj"
+}

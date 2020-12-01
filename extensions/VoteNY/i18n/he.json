@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2",
+			"Yona b",
+			"חיים"
+		]
+	},
+	"voteny-desc": "הצבעה מבוססת JavaScript עם התג <code>&lt;vote&gt;</code>",
+	"voteny-link": "הצבעה",
+	"voteny-unvote-link": "הסר הצבעה",
+	"voteny-community-score": "ציון הקהילה: $1",
+	"voteny-ratings": "{{PLURAL:$1|מדרג אחד|$1 מדרגים}}",
+	"voteny-remove": "הסרה",
+	"voteny-gave-this": "נתת לזה $1",
+	"voteny-votes": "{{PLURAL:$1|הצבעה אחת|$1 הצבעות}}",
+	"topratings": "דפים המדורגים ביותר",
+	"topratings-no-pages": "דפים שדורגו הכי פחות פעמים.",
+	"right-voteny": "הצבעה על דפים"
+}

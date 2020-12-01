@@ -1,0 +1,127 @@
+<p>{{#msg}}performanceinspector-newpp-description{{/msg}}</p>
+<table class="wikitable mw-pi-inspector">
+	<thead>
+		<tr>
+			<th>
+				{{#msg}}performanceinspector-newpp-column-name{{/msg}}
+			</th>
+			<th>
+				{{#msg}}performanceinspector-newpp-column-value{{/msg}}
+			</th>
+		</tr>
+		{{#report.limitReport}}
+			<tr>
+				<td>
+					{{name}}
+				</td>
+				<td>
+					{{value}}
+					{{#limit}} / {{limit}}{{/limit}}
+				</td>
+			</tr>
+		{{/report.limitReport}}
+</table>
+
+<h5>{{#msg}}performanceinspector-newpp-timingprofile{{/msg}}</h5>
+<p>{{#msg}}performanceinspector-newpp-timingprofile-description{{/msg}}</p>
+<table class="wikitable mw-pi-inspector">
+	<thead>
+		<tr>
+			<th>
+				{{#msg}}performanceinspector-newpp-template-time-report-column-name{{/msg}}
+			</th>
+			<th>
+				{{#msg}}performanceinspector-newpp-template-time-report-column-percentreal{{/msg}}
+			</th>
+			<th>
+				{{#msg}}performanceinspector-newpp-template-time-report-column-real{{/msg}}
+			</th>
+			<th>
+				{{#msg}}performanceinspector-newpp-template-time-report-column-calls{{/msg}}
+			</th>
+		</tr>
+	</thead>
+	{{#report.timingProfile}}
+		<tr>
+			<td>
+				{{name}}
+			</td>
+			<td>
+				{{percentreal}}
+			</td>
+			<td>
+				{{real}}
+			</td>
+			<td>
+				{{calls}}
+			</td>
+		</tr>
+	{{/report.timingProfile}}
+</table>
+
+<!--EntityAccessCount-->
+
+{{#report.scribunto.limitreport-memusage.limit}}
+	<h5>{{#msg}}performanceinspector-newpp-scribunto{{/msg}}</h5>
+	<p>{{#msg}}performanceinspector-newpp-scribunto-description{{/msg}}</p>
+	<table class="wikitable mw-pi-inspector">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>value</th>
+				<th>limit</th>
+			</tr>
+		</thead>
+		<tr>
+			<td>
+				{{#msg}}performanceinspector-newpp-scribuntu-timeusage{{/msg}}
+			</td>
+			<td>{{report.scribunto.limitreport-timeusage.value}}</td>
+			<td>{{report.scribunto.limitreport-timeusage.limit}}</td>
+		</tr>
+		<tr>
+			<td>
+				{{#msg}}performanceinspector-newpp-scribuntu-memusage{{/msg}}
+			</td>
+			<td>{{report.scribunto.limitreport-memusage.value}}</td>
+			<td>{{report.scribunto.limitreport-memusage.limit}}</td>
+		</tr>
+	</table>
+{{/report.scribunto.limitreport-memusage.limit}}
+
+<h5>{{#msg}}performanceinspector-newpp-cachereport{{/msg}}</h5>
+<p>{{#msg}}performanceinspector-newpp-cachereport-description{{/msg}}</p>
+<table class="wikitable mw-pi-inspector">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>value</th>
+		</tr>
+	</thead>
+	<tr>
+		<td>
+			{{#msg}}performanceinspector-newpp-cached-time{{/msg}}
+		</td>
+		<td> {{report.cacheReport.timestamp}} </td>
+	</tr>
+	<tr>
+		<td>
+			{{#msg}}performanceinspector-newpp-parsed-ttl{{/msg}}
+		</td>
+		<td> {{report.cacheReport.ttlHuman}} ({{report.cacheReport.ttl}}) </td>
+	</tr>
+	<tr>
+		<td>
+			{{#msg}}performanceinspector-newpp-dynamic-content{{/msg}}
+		</td>
+		<td> {{report.cacheReport.transientcontent}} </td>
+	</tr>
+	{{#report.cacheReport.origin}}
+		<tr>
+			<td>
+				{{#msg}}performanceinspector-newpp-parsed-by{{/msg}}
+			</td>
+			<td>{{report.cacheReport.origin}}</td>
+		</tr>
+	{{/report.cacheReport.origin}}
+</table>

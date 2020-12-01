@@ -1,0 +1,16 @@
+.bold-label {
+    font-weight: bold;
+}
+.padding-5 {
+    padding: 5px;
+}
+.padding-10 {
+    padding: 0 10px;
+}
+.margin-top-30 {
+    margin: 30px 0 0 0 !important;
+}
+
+.x-panel {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Mirzali"
+		]
+	},
+	"bs-insertlink-desc": "Bağlantı girmek için iletişim kutusu",
+	"prefs-insertlink": "Bağlantı ekle",
+	"bs-insertlink": "Bağlantı ekle",
+	"bs-insertlink-pref-enable-java": "Java uygulamasını etkinleştir",
+	"bs-insertlink-button-title": "Bağlantı ekle/düzenle",
+	"bs-insertlink-dialog-title": "Bağlantı ekle",
+	"bs-insertlink-tab-wiki-page": "Viki sayfa",
+	"bs-insertlink-tab-ext-link": "Dış bağlantı",
+	"bs-insertlink-tab-email": "E-posta bağlantı",
+	"bs-insertlink-tab-file": "Dosya bağlantısı",
+	"bs-insertlink-label-page": "Sayfa",
+	"bs-insertlink-label-link": "Bağlantı",
+	"bs-insertlink-label-mail": "E-posta adresi",
+	"bs-insertlink-label-description": "Açıklama",
+	"bs-insertlink-label-file": "Dosya",
+	"bs-insertlink-label-searchfile": "Ara...",
+	"bs-insertlink-select-a-page": "Hedef seç...",
+	"bs-insertlink-select-a-namespace": "(Sayfalar)",
+	"bs-insertlink-empty-field-text": "Bir bağlantı eklemek için bir hedef belirtmeniz gerekir.",
+	"bs-insertlink-no-applet": "Uygulama yüklenemedi. Lütfen Java kurulumunuzu kontrol edin.",
+	"bs-insertlink-internal-file-link-button-label": "Dosya seç",
+	"bs-insertlink-external-file-switch-label": "Ağ paylaşım yolu (URI)",
+	"bs-insertlink-pref-filesystemmap": "Harici dosyalar için izin verilen konumlar",
+	"bs-insertlink-pref-filesystemmap-fs-prefix": "Dosya sistemi öneki",
+	"bs-insertlink-pref-filesystemmap-web-prefix": "Web'den erişilebilir önek",
+	"bs-insertlink-pref-allowunmapped": "Eşlenmemiş bağlantılara izin ver"
+}

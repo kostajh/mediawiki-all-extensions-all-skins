@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Vlad5250"
+		]
+	},
+	"useragreement-desc": "Виводить умови користування після входу в систему.",
+	"useragreement-dialog-message": "Так, я згоден",
+	"apihelp-uaAcceptAgreement-description": "Прийняти умови користування",
+	"apihelp-uaAcceptAgreement-summary": "Прийняти умови користування"
+}

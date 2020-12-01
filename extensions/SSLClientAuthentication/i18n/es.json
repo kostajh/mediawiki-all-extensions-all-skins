@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Macofe",
+			"Matiia"
+		]
+	},
+	"sslauth-desc": "Permite a los usuarios subir certificados SSL para usarlos en la autenticación",
+	"sslauth-title-enable": "Activar la autenticación de cliente mediante SSL",
+	"sslauth-title-disable": "Desactivar la autenticación de cliente mediante SSL",
+	"sslauth-enable": "Activar",
+	"sslauth-disable": "Desactivar",
+	"sslauth-cn": "Nombre común",
+	"sslauth-email": "Dirección de correo electrónico",
+	"sslauth-serial": "Número de serie",
+	"sslauth-response-enable": "La autenticación mediante SSL se ha activado. Ahora, cuando te conectes a {{SITENAME}} mediante HTTPS con tu certificado de cliente, accederás al sistema automáticamente.",
+	"sslauth-response-disable": "La autenticación mediante SSL se ha desactivado.",
+	"sslauth-invalidrequest-title": "Solicitud inválida",
+	"sslauth-invalidrequest": "Debe proporcionar un certificado válido de cliente SSL para que esta página sea útil.",
+	"clientssl-legend": "Autenticación mediante SSL",
+	"clientssl-text": "Utiliza esta página para activar o desactivar la autenticación mediante certificados de cliente SSL.",
+	"sslauth-prefs-name": "Autenticación SSL",
+	"sslauth-prefs-linktospecial": "Activar/desactivar certificados de cliente"
+}

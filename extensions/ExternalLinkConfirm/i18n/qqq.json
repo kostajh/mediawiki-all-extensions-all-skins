@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"externallinkconfirm-desc": "{{desc|name=External Link Confirm|url=https://www.mediawiki.org/wiki/Extension:ExternalLinkConfirm}}",
+	"externallinkconfirm-confirmation-message": "The confirmation message shown when user clicks on an external link",
+	"externallinkconfirm-confirmation-accept": "The label text on the accept button",
+	"externallinkconfirm-confirmation-reject": "The label text on the reject button"
+}

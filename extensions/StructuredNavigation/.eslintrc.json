@@ -1,0 +1,24 @@
+{
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"env": {
+		"browser": true,
+		"jquery": true,
+		"qunit": true
+	},
+	"globals": {
+		"mw": false,
+		"OO": false,
+		"ve": false
+	},
+	"rules": {
+		"dot-notation": [
+			"error", {
+				"allowKeywords": true
+			}
+		]
+	}
+}

@@ -1,0 +1,177 @@
+!! Version 2
+
+!! article
+Main Page
+!! text
+[[Category:Test pages]]
+!! endarticle
+
+!! article
+Test page
+!! text
+[[Category:Test pages]]
+!! endarticle
+
+!! article
+Other page
+!! text
+[[Category:Test pages]]
+!! endarticle
+
+!! article
+Category:Test pages
+!! text
+[[Category:Test categories]]
+!! endarticle
+
+!! article
+Test default sort key
+!! text
+{{#phptag: echo WPage::$defaultSortKey === false ? 'false' : 'true'; }}
+{{#phptag: WPage::$defaultSortKey = 'Sort key page'; }}
+[[Category:Test pages]]
+{{#phptag: echo WPage::$defaultSortKey === false ? 'false' : 'true'; }}
+!! endarticle
+
+!! test
+WStats::USERS
+!! options
+disabled
+!! wikitext
+<phptag> echo WStats::USERS > 0 ? 'true' : 'false'; </phptag>
+!! html
+<p>true
+</p>
+!! end
+
+!! test
+WStats::PAGES
+!! wikitext
+<phptag> echo WStats::PAGES > 0 ? 'true' : 'false'; </phptag>
+!! html
+<p>true
+</p>
+!! end
+
+!! test
+WPage::TITLE
+!! options
+title=[[User:Ævar Arnfjörð Bjarmason]]
+!! wikitext
+{{#phptag: WPage::TITLE }}
+!! html
+<p>User:Ævar Arnfjörð Bjarmason
+</p>
+!! end
+
+
+!! test
+WPage::TITLE->name
+!! options
+title=[[User:Ævar Arnfjörð Bjarmason]]
+!! wikitext
+{{#phptag: WPage::TITLE->name }}
+!! html
+<p>Ævar Arnfjörð Bjarmason
+</p>
+!! end
+
+!! test
+WPage::TITLE->talkNsText
+!! wikitext
+{{#phptag: WPage::TITLE->talkNsText }}
+!! html
+<p>Talk
+</p>
+!! end
+
+!! test
+WCategory->pageCount Test pages
+!! wikitext
+<phptag>
+$c = new WCategory( 'Test pages' );
+echo $c->pageCount;
+</phptag>
+!! html
+<p>4
+</p>
+!! end
+
+!! test
+WCategory->subcatCount
+!! wikitext
+<phptag>
+$c = new WCategory( 'Test categories' );
+echo $c->subcatCount;
+</phptag>
+!! html
+<p>1
+</p>
+!! end
+
+!! test
+Test default sort key
+!! wikitext
+{{:Test default sort key}}
+!! html
+<p>false
+true
+</p>
+!! end
+
+!! test
+WPage::addCategory foo
+!! wikitext
+<phptag> WPage::addCategory( 'Foo' ); </phptag>
+!! html
+!! end
+
+!! test
+WPage::addCategory foo bar
+!! wikitext
+<phptag> WPage::addCategory( ['foo', 'bar'] ); </phptag>
+!! html
+!! end
+
+!! test
+WPage::addCategory WCategory bar
+!! wikitext
+<phptag> WPage::addCategory( new WCategory( 'bar' ) ); </phptag>
+!! html
+!! end
+
+!! article
+WTitle ID
+!! text
+<phptag>
+if ( WTitle::ID > 0 ) { echo 'pass WTitle::ID', "\n\n"; }
+$t = new WTitle('Test pages', NS_CATEGORY); if ( $t->ID > 0 && $t->ID != WTitle::ID ) { echo 'pass WTitle->ID', "\n\n"; }
+</phptag>
+!! endarticle
+
+!! test
+Test WTitle ID
+!! wikitext
+<phptag>
+$t1 = new WTitle( 'Test pages', NS_CATEGORY );
+$t2 = new WTitle( 'Category:Test pages' );
+if ( $t1->ID > 0 ) { echo 'pass1, it is ok', "\n\n"; }
+if ( $t1->ID == $t2->ID ) { echo 'pass2, it is ok', "\n\n"; }
+</phptag>
+!! html
+<p>pass1, it is ok
+</p><p>pass2, it is ok
+</p><p><br />
+</p>
+!! end
+
+!! test
+Test W::MAIN_PAGE
+!! wikitext
+<phptag>
+echo W::MAIN_PAGE;
+</phptag>
+!! html
+<p>Main Page
+</p>
+!! end

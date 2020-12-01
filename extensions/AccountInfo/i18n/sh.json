@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kolega2357"
+		]
+	},
+	"accountinfo": "Informacije o korisniku",
+	"accountinfo-desc": "Dozvoli korisniku da vidi sačuvane informacije o njemu",
+	"accountinfo-ts": "Vremenska oznaka",
+	"accountinfo-ip": "IP adresa",
+	"accountinfo-ua": "Korisnički agent",
+	"accountinfo-xff": "XFF zaglavlje",
+	"accountinfo-length": "Informacija je sačuvana za $1.",
+	"accountinfo-now": "Sada"
+}

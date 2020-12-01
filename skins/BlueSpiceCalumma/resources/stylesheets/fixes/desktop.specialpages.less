@@ -1,0 +1,57 @@
+
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-buttonElement-active > .oo-ui-buttonElement-button
+{
+	color: #fff !important;
+}
+
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary > .oo-ui-buttonElement-button {
+	color: #fff !important;
+}
+
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary.oo-ui-flaggedElement-progressive > .oo-ui-buttonElement-button {
+	color: #fff !important;
+}
+
+.x-tab-default-focus {
+	background-color: #527dd4 !important;
+}
+
+
+/* Special:AllPages */
+body.ns-special .mw-allpages-body {
+	columns: 32em 2;
+	-moz-columns: 32em 2;
+	-webkit-columns: 32em 2;
+
+	ul > li {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+/* Special:Specialpages */
+body.ns-special {
+	#content #bodyContent {
+		li.mw-specialpagerestricted {
+			& > a {
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+.mw-userlogin-help {
+	display: none;
+}
+
+/*Special:CategoryTree*/
+body.mw-special-CategoryTree .oo-ui-defaultOverlay {
+	z-index: 200;
+}
+
+form[id^=mw] table {
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+

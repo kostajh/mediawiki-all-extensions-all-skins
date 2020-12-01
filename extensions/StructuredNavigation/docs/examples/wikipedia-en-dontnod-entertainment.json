@@ -1,0 +1,30 @@
+{
+	"config": {
+		"title": {
+			"label": "Dontnod Entertainment",
+			"page": "Dontnod Entertainment"
+		}
+	},
+	"groups": [
+		{
+			"title": {
+				"label": "Life is Strange"
+			},
+			"content": [
+				"Life is Strange",
+				"The Awesome Adventures of Captain Spirit",
+				"Life is Strange 2"
+			]
+		},
+		{
+			"title": {
+				"label": "Other games"
+			},
+			"content": [
+				"Remember Me",
+				"Vampyr",
+				"Twin Mirror"
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-socialprofile-desc": "BlueSpiceSocial için profil varlığı",
+	"bs-socialprofile-type": "Profil",
+	"bs-socialprofile-entityaction-changeimage": "Kullanıcı resmi",
+	"bs-social-entityaction-editprofilefields": "Profil verisi",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "Geçersiz 'Kullanıcı' verildi",
+	"bs-social-profile-field-name": "Ad",
+	"bs-social-profile-field-email": "E-posta",
+	"bs-social-profile-field-title": "Başlık",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Bay|Bayan|}}",
+	"bs-social-profile-field-department": "Bölüm",
+	"bs-social-profile-field-function": "İşlev",
+	"bs-social-profile-field-location": "Konum",
+	"bs-social-profile-field-phone": "Telefon",
+	"bs-social-profile-field-validate-no-integer": "$1 bir numara olmalı",
+	"bs-socialprofile-special-profiles-heading": "Profiller",
+	"bs-social-profile-infoshowemail": "Profilde e-posta adresini göster",
+	"socialprofiles": "Profiller",
+	"bs-socialprofile-switch-classicprofile-label": "Klasik profil",
+	"bs-socialprofile-switch-modernprofile-label": "Modern profil",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Klasik profile geç",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Modern profile geç",
+	"action-social-editothersprofile": "diğer kullanıcıların profilini düzenle",
+	"right-social-editothersprofile": "Diğer kullanıcıların profilini düzenle",
+	"action-socialprofile-viewspecialpage": "\"{{int:socialprofiles}}\" özel sayfasını görüntüle",
+	"right-socialprofile-viewspecialpage": "\"{{int:socialprofiles}}\" özel sayfasını görüntüle"
+}

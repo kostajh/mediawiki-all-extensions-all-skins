@@ -1,0 +1,158 @@
+{
+	"name": "FileImporter",
+	"author": [
+		"[https://meta.wikimedia.org/wiki/WMDE_Technical_Wishes Wikimedia Deutschland Technical Wishes Team]",
+		"Addshore",
+		"Andrew Kostka",
+		"Christoph Jauera",
+		"Thiemo Kreuz"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:FileImporter",
+	"namemsg": "fileimporter",
+	"descriptionmsg": "fileimporter-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"FileImporter": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"FileImporterAlias": "FileImporter.alias.php"
+	},
+	"SpecialPages": {
+		"FileImporter-SpecialPage": "FileImporter\\SpecialImportFile"
+	},
+	"AutoloadNamespaces": {
+		"FileImporter\\": "src/"
+	},
+	"ServiceWiringFiles": [
+		"src/ServiceWiring.php",
+		"src/Remote/MediaWiki/SiteWiring.php"
+	],
+	"config": {
+		"FileImporterRequiredRight": {
+			"value": "upload",
+			"public": true
+		},
+		"FileImporterInBeta": {
+			"value": true,
+			"public": true
+		},
+		"FileImporterInterWikiMap": {
+			"value": [],
+			"description": "Manually maps host names to multi-hop interwiki prefixes. Deprecated.",
+			"public": true
+		},
+		"FileImporterShowInputScreen": {
+			"value": false,
+			"description": "Whether or not to show the source URL input page.",
+			"public": true
+		},
+		"FileImporterSourceSiteServices": {
+			"value": [],
+			"public": true
+		},
+		"FileImporterCommonsHelperServer": {
+			"value": "",
+			"description": "Location of CommonsHelper2-compatible configuration pages to use, e.g. \"https://www.mediawiki.org\". Set to an empty string to disable.",
+			"public": true
+		},
+		"FileImporterWikidataEntityEndpoint": {
+			"value": "",
+			"description": "Location of Wikidata entity endpoint for fetching localized template names, e.g. \"https://www.wikidata.org/wiki/Special:EntityData/\". Set to an empty string to disable.",
+			"public": true
+		},
+		"FileImporterWikidataNowCommonsEntity": {
+			"value": "",
+			"description": "Entity ID of the NowCommons template, e.g. \"Q5611625\".",
+			"public": true
+		},
+		"FileImporterCommonsHelperBasePageName": {
+			"value": "Extension:FileImporter/Data/",
+			"description": "Base page name of CommonsHelper2-compatible configuration pages to use.",
+			"public": true
+		},
+		"FileImporterCommonsHelperHelpPage": {
+			"value": "",
+			"description": "Location of the help page for the CommonsHelper2-compatible configuration page management.",
+			"public": true
+		},
+		"FileImporterAccountForSuppressedUsername": {
+			"value": "FileImporterSuppressed",
+			"public": true
+		},
+		"FileImporterCommentForPostImportRevision": {
+			"value": "Imported with FileImporter from $1",
+			"description": "Text used for the edit summary of a post import revision.",
+			"public": true
+		},
+		"FileImporterTextForPostImportRevision": {
+			"value": "<!--This file was moved here using FileImporter from $1-->",
+			"description": "Text to add to the imported page's wikitext.",
+			"public": true
+		},
+		"FileImporterMaxRevisions": {
+			"value": 100,
+			"description": "Maximum number of revisions (file or text) a file can have in order to be imported.",
+			"public": true
+		},
+		"FileImporterMaxAggregatedBytes": {
+			"value": 250000000,
+			"description": "Maximum aggregated size of versions a file can have in order to be imported.",
+			"public": true
+		},
+		"FileImporterSourceWikiDeletion": {
+			"value": false,
+			"description": "When set to true, FileImporter offers an option to automatically delete the source file after a successful import. Requires the CentralAuth extension to be set up and running on both the source and target wiki.",
+			"public": true
+		},
+		"FileImporterSourceWikiTemplating": {
+			"value": false,
+			"description": "When set to true, FileImporter offers an option to automatically edit the source file after a successful import. Requires the CentralAuth extension to be set up and running on both the source and target wiki.",
+			"public": true
+		}
+	},
+	"ResourceModules": {
+		"ext.FileImporter.SpecialJs": {
+			"packageFiles": [
+				"modules/ext.FileImporter.Special.js"
+			],
+			"dependencies": [
+				"mediawiki.api",
+				"oojs-ui"
+			]
+		},
+		"ext.FileImporter.SpecialCss": {
+			"styles": [
+				"modules/ext.FileImporter.Special.less"
+			]
+		},
+		"ext.FileImporter.Images": {
+			"class": "ResourceLoaderImageModule",
+			"selector": ".mw-importfile-image-{name}",
+			"images": {
+				"help-banner": {
+					"file": {
+						"ltr": "resources/FileImporter-help-banner-ltr.svg",
+						"rtl": "resources/FileImporter-help-banner-rtl.svg"
+					}
+				}
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "FileImporter"
+	},
+	"Hooks": {
+		"BeforeInitialize": "FileImporter\\FileImporterHooks::onBeforeInitialize",
+		"ChangeTagsListActive": "FileImporter\\FileImporterHooks::onListDefinedTags",
+		"ListDefinedTags": "FileImporter\\FileImporterHooks::onListDefinedTags",
+		"UserGetReservedNames": "FileImporter\\FileImporterHooks::onUserGetReservedNames"
+	}
+}

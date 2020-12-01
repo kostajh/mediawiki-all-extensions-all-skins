@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-exporttables-extension-description": "Дозволяє експортувати таблиці в Excel та CSV",
+	"bs-exporttables-menu": "Експортувати таблицю",
+	"bs-exporttables-menu-csv": "Значення, через кому (CSV)",
+	"bs-exporttables-ve-exportable-option": "Експортабельна"
+}

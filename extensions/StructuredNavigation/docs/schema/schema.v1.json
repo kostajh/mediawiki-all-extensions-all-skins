@@ -1,0 +1,81 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+
+	"definitions": {
+		"valid-wiki-title": {
+			"$id": "#valid-wiki-title",
+			"type": "string",
+			"pattern": ".*"
+		},
+		"valid-nav-header": {
+			"type": "object",
+			"required": [ "label" ],
+			"properties": {
+				"page": {
+					"$ref": "#/definitions/valid-wiki-title"
+				},
+				"label": {
+					"anyOf": [
+						{
+							"type": "string"
+						}
+					]
+				}
+			}
+		},
+		"content-item": {
+			"$id": "#content-item",
+			"type": "array",
+			"items": {
+				"anyOf": [
+					{
+						"$ref": "#/definitions/valid-wiki-title"
+					},
+					{
+						"type": "array",
+						"minItems": 2,
+						"maxItems": 2
+					}
+				]
+			},
+			"uniqueItems": true,
+			"minItems": 1
+		}
+	},
+
+	"type": "object",
+	"required": [ "config", "groups" ],
+	"additionalProperties": false,
+	"properties": {
+		"config": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"title": {
+					"$ref": "#/definitions/valid-nav-header"
+				},
+				"title-2": {
+					"$ref": "#/definitions/valid-nav-header"
+				}
+			},
+			"required": [ "title" ]
+		},
+		"groups": {
+			"type": "array",
+			"minProperties": 1,
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"required": [ "title", "content" ],
+				"properties": {
+					"title": {
+						"$ref": "#/definitions/valid-nav-header"
+					},
+					"content": {
+						"$ref": "#/definitions/content-item"
+					}
+				}
+			}
+		}
+	}
+}

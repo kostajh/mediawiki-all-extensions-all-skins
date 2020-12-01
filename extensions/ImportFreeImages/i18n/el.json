@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Omnipaedista",
+			"Protnet",
+			"ZaDiak"
+		]
+	},
+	"importfreeimages": "Εισαγωγή ελεύθερων εικόνων",
+	"importfreeimages-desc": "Παρέχει έναν τρόπο [[Special:ImportFreeImages|εισαγωγής σωστά αδειοδοτημένων φωτογραφιών]] από το [http://www.flickr.com flickr]",
+	"importfreeimages_description": "Αυτή η σελίδα σας επιτρέπει να αναζητάτε σωστά αδειοδοτημένες φωτογραφίες από το flickr και να τις εισάγετε στο wiki σας.",
+	"importfreeimages_nophotosfound": "Δεν βρέθηκαν φωτογραφίες για τα κριτήρια αναζήτησής σας «$1», παρακαλούμε δοκιμάστε ξανά.",
+	"importfreeimages_owner": "Δημιουργός",
+	"importfreeimages_importthis": "εισάγετε αυτό",
+	"importfreeimages_next": "Επόμενα $1",
+	"importfreeimages_size_square": "Τετράγωνο",
+	"importfreeimages_size_thumbnail": "Εικονίδιο",
+	"importfreeimages_size_small": "Μικρός",
+	"importfreeimages_size_medium": "Μέσος",
+	"importfreeimages_size_large": "Μεγάλος",
+	"importfreeimages_size_original": "Αρχικός"
+}

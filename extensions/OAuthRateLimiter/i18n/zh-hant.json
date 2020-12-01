@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"oauthratelimiter-desc": "讓 OAuth 擴充套件在 JWT 裡包含速率限制要求"
+}

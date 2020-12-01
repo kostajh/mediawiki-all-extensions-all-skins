@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gazeb"
+		]
+	},
+	"translationnotifications-languages": "Языкы",
+	"translationnotifications-lang": "Язык № $1",
+	"translationnotifications-nolang": "Звольте язык",
+	"translationnotifications-contact": "Преферованы способы контакту",
+	"translationnotifications-cmethod-email": "Імейл",
+	"translationnotifications-cmethod-talkpage": "Діскузна сторінка",
+	"translationnotifications-cmethod-talkpage-elsewhere": "Діскузна сторінка на іншых вікі",
+	"translationnotifications-cmethod-feed": "Каналы",
+	"translationnotifications-frequency": "Як часто ся контактовати",
+	"translationnotifications-freq-week": "Найчастїше раз за рік",
+	"translationnotifications-freq-month": "Не частїше як раз за місяць",
+	"translationnotifications-submit": "Обновити наштелёваня",
+	"translationnotifications-priority-high": "высока",
+	"translationnotifications-priority-medium": "середня",
+	"translationnotifications-priority-low": "низка",
+	"translationnotifications-priority-unset": "(не встановлено)",
+	"translationnotifications-log-alllanguages": "вшыткы языкы",
+	"translationnotifications-nodeadline": "жаден"
+}

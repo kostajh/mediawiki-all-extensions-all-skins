@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg",
+			"Vlad5250"
+		]
+	},
+	"createdpageslist": "Списък на създадени страници",
+	"createdpageslist-desc": "Добавя страница „[[Special:CreatedPagesList]]“, в която са изброени всички статии, създадени от съответния автор",
+	"createdpageslist-notfound": "Потребителят не е намерен.",
+	"createdpageslist-username": "Потребител",
+	"createdpageslist-submit": "Търсене",
+	"createdpageslist-summary": "Тази специална страница изброява всички статии (т.е. страници в съдържателни именни пространства), създадени от даден потребител."
+}

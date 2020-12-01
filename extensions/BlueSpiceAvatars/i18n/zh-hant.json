@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
+			"S8321414",
+			"Wehwei"
+		]
+	},
+	"prefs-avatars": "頭像",
+	"bs-avatars-desc": "提供通用且各別使用者的圖片",
+	"bs-avatars-pref-generator": "產生器：",
+	"bs-avatars-pref-defaultsize": "畫素預設大小：",
+	"bs-avatars-pref-userimage": "使用者圖片：",
+	"bs-avatars-pref-userimage-img-alt": "您目前的使用者圖片",
+	"bs-avatars-upload-complete": "已上傳圖片。",
+	"bs-avatars-generate-complete": "已產生新的頭像。",
+	"bs-avatars-upload-title": "變更個人資料圖片",
+	"bs-avatars-upload-label": "圖片",
+	"bs-avatars-generate-new-label": "產生新頭像",
+	"bs-avatars-warning-title": "警告",
+	"bs-avatars-warning-text": "您已於您的個人偏好設定使用者圖片。 使用頭像將會清除現有的設定。 您是否要繼續？",
+	"bs-avatars-userimage-title": "圖片取自 wiki 或圖片 URL",
+	"bs-avatars-userimage-help": "例如：圖片.jpg 或 http://localhost/圖片.gif",
+	"bs-avatars-userimage-alt": "使用者「$1」的個人資料圖片",
+	"bs-avatars-set-userimage-failed": "無效的 URL 或自 wiki 的圖片。",
+	"bs-avatars-set-userimage-saved": "已儲存使用者圖片。",
+	"bs-avatars-file-upload-fieldset-title": "圖片上傳",
+	"bs-avatars-auto-generate-fieldset-title": "自動產生頭像",
+	"apihelp-bs-avatars-tasks-description": "上傳、產生、設定用戶頭像",
+	"apihelp-bs-avatars-tasks-summary": "上傳、產生，並設定使用者頭像",
+	"bs-avatars-tag-profileimage-error-invalidusername": "參數「username」為必要並且須包含一個有效的使用者名稱"
+}

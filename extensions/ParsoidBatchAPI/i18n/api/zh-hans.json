@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"apihelp-parsoid-batch-description": "批处理API（用于Parsoid）以大量产生MediaWiki API请求",
+	"apihelp-parsoid-batch-summary": "用于Parsoid的批处理API",
+	"apihelp-parsoid-batch-param-batch": "操作API请求（最高每批次500个）。",
+	"apierror-parsoid-batch-notallowed": "客户端IP地址未在ParsoidBatchAPI_AllowedIPs中。",
+	"apierror-parsoid-batch-invalidbatch": "无效的批处理，必须是数组。",
+	"apierror-parsoid-batch-batchtoolarge": "批处理太大，上限为500.",
+	"apierror-parsoid-batch-invalidaction": "项目索引$1中的操作无效。",
+	"apierror-parsoid-batch-texttoobig": "输入的文本超过最大页面大小。",
+	"apierror-parsoid-batch-invalidtitle": "无效标题（$1）。",
+	"apierror-parsoid-batch-mustbescalar": "<var>$1</var>参数必须是标量。",
+	"apierror-parsoid-batch-mustbearray": "<var>$1</var>参数必须是数组。"
+}

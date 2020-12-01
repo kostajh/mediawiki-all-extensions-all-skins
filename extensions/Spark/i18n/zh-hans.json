@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Yfdyh000"
+		]
+	},
+	"spark-desc": "添加<code><nowiki><spark /></nowiki></code>标签，它将嵌入[http://km.aifb.kit.edu/sites/spark/ Spark] mash-ups。",
+	"spark-missing-query": "您需要使用“data-spark-query”参数指定查询。"
+}

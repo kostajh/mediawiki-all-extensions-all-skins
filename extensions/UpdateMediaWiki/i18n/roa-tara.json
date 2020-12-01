@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"updatemediawiki": "Aggiorne MediaUicchi",
+	"updatemediawiki-desc": "Permette l'aggiornamende de MediaUicchi ausanne 'na pàgena speciale",
+	"updatemediawiki-current": "Versione de mò $1",
+	"updatemediawiki-update-nofound": "Nisciune aggiornamende jè disponibbele",
+	"updatemediawiki-update-found": "'N'aggiornamende nuève acchiate: $1",
+	"updatemediawiki-update-downloading": "Stoche a scareche 'n'aggiornamende nuève",
+	"updatemediawiki-update-saved": "Aggiornamende scarecate e reggìstrate",
+	"updatemediawiki-update-exist": "Aggiornamende già scarecate",
+	"updatemediawiki-update-copyready": "Copie pronde",
+	"updatemediawiki-update-database": "Aggiorne 'a base de date mò?",
+	"updatemediawiki-update-updateready": "Aggiornamende pronde",
+	"updatemediawiki-update-install": "Installe mò?",
+	"updatemediawiki-update-updated": "MediaUicchi aggiornate a 'a versione $1",
+	"updatemediawiki-update-error": "Non ge pozza acchià le urteme versiune",
+	"updatemediawiki-update-aborted": "Non ge pozze reggistrà 'n'aggiornamende nuève. Operazione scettate"
+}

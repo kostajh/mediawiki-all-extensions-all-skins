@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"testlanguagenamegrammar": "اختبار نماذج قواعد اللغة مع أسماء اللغات",
+	"testlanguagenamegrammar-desc": "يضيف [[Special:TestLanguageNameGrammar|صفحة خاصة]] لاختبار نماذج قواعد اللغة بأسماء اللغة",
+	"testlanguagenamegrammar-language": "لغة",
+	"testlanguagenamegrammar-grammarform": "شكل القواعد",
+	"testlanguagenamegrammar-submit": "إرسال"
+}

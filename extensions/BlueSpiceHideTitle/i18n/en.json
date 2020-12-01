@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-hidetitle-desc": "Adds the magic word <code><nowiki>__HIDETITLE__</nowiki></code> to hide the title of the page",
+	"bs-hidetitle-ve-dialog-meta-settings-showtitle": "Show",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle": "Hide",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-label": "Title visibility",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-help": "You can define here whether the title will be shown or not."
+}

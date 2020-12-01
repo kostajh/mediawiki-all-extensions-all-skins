@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente",
+			"Waldir"
+		]
+	},
+	"nsfilerepo-desc": "Fornecer, aos ficheiros carregados, características de acesso associadas aos espaços nominais protegidos",
+	"nsfilerepo-upload-target": "Nome de destino do ficheiro no espaço nominal",
+	"nsfilerepo-nsmain": "(Principal)",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext": "Este campo não pode ser modificado ao recarregar um ficheiro",
+	"nsfilerepo-move-file-namespace-action-label": "Definir espaço nominal de ficheiros",
+	"nsfilerepo-move-file-namespace-dialog-title": "Definir espaço nominal de ficheiros",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "OK",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "Cancelar",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "Espaço nominal"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Silvonen"
+		]
+	},
+	"bs-social-entitytext-header": "[[User:$1|$2]] kirjoitti:",
+	"bs-social-entityaction-edit": "Muokkaa",
+	"bs-social-entityaction-delete": "Poista",
+	"bs-social-entitylistmenufilter-quickfilter-addall": "Lisää kaikki",
+	"bs-social-entitylistmenufilter-quickfilter-removeall": "Poista kaikki",
+	"bs-social-entitylistmenufilter-quickfilter-removeall-date": "Tänään",
+	"bs-social-filter-owner-val-all": "Kaikki",
+	"bs-social-entityspawner-button-tooltip": "Luo uusi"
+}

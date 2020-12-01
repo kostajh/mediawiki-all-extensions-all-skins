@@ -1,0 +1,10 @@
+{
+    "--title": "VikiSemanticTitle - Documentation",
+    "--warnings": ["-nodoc(class,public)"],
+    "--warnings-exit-nonzero": true,
+    "--footer": "Documentation for VikiSemanticTitle. Generated on {DATE} by {JSDUCK} {VERSION}.",
+    "--output": "../docs/js",
+    "--": [
+        "../VikiSemanticTitle.js"
+    ]
+}

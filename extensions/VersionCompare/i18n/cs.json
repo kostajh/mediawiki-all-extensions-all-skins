@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ilimanaq29"
+		]
+	},
+	"versioncompare": "Porovnání verzí",
+	"version-compare-desc": "Zobrazit porovnání základní součásti a rozšířených verzí mezi dvěma wiki",
+	"version-compare-database-label": "Databáze",
+	"version-compare-url-error": "Chyba při získávání dat z $1.",
+	"version-compare-url-field-help-1": "API URL (končící na api.php) na první wiki k porovnání. Použije aktuální wiki, pokud zůstane prázdný.",
+	"version-compare-url-field-help-2": "API URL (končící na api.php) na druhé wiki k porovnání. Použije aktuální wiki, pokud zůstane prázdný.",
+	"version-compare-diff-field-label": "Zobrazit pouze rozdíly"
+}

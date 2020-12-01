@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gzdavidwong",
+			"Liangent",
+			"Liuxinyu970226"
+		]
+	},
+	"form-desc": "用于开始新页面的[[Special:Form|表单界面]]",
+	"form": "开始一个新页面",
+	"form-captcha-error": "验证码错误",
+	"form-pick-form": "选择您希望通过表单创建的页面类型。",
+	"form-no-name": "没有表单名",
+	"form-no-name-text": "您必须提供一个表单名，如“Special:Form/表单名”。",
+	"form-bad-name": "错误的表单名",
+	"form-bad-name-text": "没有这个名字的表单。",
+	"form-pattern": "$1-表单",
+	"form-title-pattern": "添加新$1",
+	"form-save": "保存",
+	"form-index-mismatch-title": "名称模型和模板不匹配",
+	"form-index-mismatch": "此表单有不匹配的名称模型，并且模板始于索引$1。",
+	"form-article-exists": "页面存在",
+	"form-article-existstext": "页面[[$1]]已存在。",
+	"form-bad-page-name": "错误的表单名",
+	"form-bad-page-name-text": "您输入的表单数据导致错误的页面名称“$1”。",
+	"form-required-field-error": "此表单需要{{PLURAL:$2|字段$1}}。请填写它。",
+	"form-save-summary": "使用[[Special:Form/$1|表单$1]]的新页面",
+	"form-save-error": "储存表格时发生错误",
+	"form-save-error-text": "保存页面“$1”时发生未知错误。"
+}

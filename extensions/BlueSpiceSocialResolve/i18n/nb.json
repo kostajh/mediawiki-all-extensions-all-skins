@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-socialresolve-desc": "Løsefunksjonalitet for BlueSpiceSocial-entiteter",
+	"bs-socialresolve-status-resolved": "Løst",
+	"bs-socialresolve-status-notresolved": "Uløst",
+	"bs-socialresolve-var-resolved": "Løsingsstatus",
+	"apihelp-bs-socialresolve-tasks-summary": "Tilbyr oppgaver for å redigere løsingsstatusen til entiteter"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"He7d3r",
+			"Helder.wiki"
+		]
+	},
+	"geogebra-desc": "Acrescenta miniaplicativos do [http://www.geogebra.org GeoGebra] às páginas",
+	"geogebra-nojava": "Por favor, instale $1 para utilizar esta página.",
+	"geogebra-missing-parameter": "Parâmetro em falta (width ou height ou ggbBase64).",
+	"geogebra-file-not-found": "Arquivo $1 não encontrado.",
+	"geogebra-error": "Erro na extensão GeoGebra: <em>$1</em>"
+}

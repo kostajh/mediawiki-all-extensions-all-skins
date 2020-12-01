@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01",
+			"Zoranzoki21"
+		]
+	},
+	"configmanager-admintool-label": "Управљање конфигурацијом",
+	"action-configmanager-viewspecialpage": "видите посебну страницу „{{int:configmanager}}”",
+	"configmanager": "Управљање конфигурацијом",
+	"configmanager-desc": "Пружа могућост администраторима да конфигуришу цео вики с једне посебне странице",
+	"configmanager-discardchanges": "Одбаци промене?",
+	"configmanager-noentry": "Нису пронађени уноси",
+	"apihelp-configmanager-tasks-summary": "Управљај задацима",
+	"apihelp-configmanager-store-summary": "Управљај продавницама",
+	"right-configmanager-viewspecialpage": "приступ посебној страници [[Special:ConfigManager]]"
+}

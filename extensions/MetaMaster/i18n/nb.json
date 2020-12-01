@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"metamaster-desc": "En parserfunksjon som gjør det mulig å legge til HTML-taggen <code><meta></code> i sideheaderen"
+}

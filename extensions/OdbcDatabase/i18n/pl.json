@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"odbcdatabase-connection-error": "Błąd podczas łączenia z serwerem [{{1}}]: {{2}}",
+	"odbcdatabase-fetch-object-error": "Wystąpił błąd podczas pobierania obiektu: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Wystąpił błąd podczas pobierania wiersza: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "Funkcja insertId() nie jest obsługiwana.",
+	"odbcdatabase-unknown-server-version": "Nieznana wersja serwera ODBC."
+}

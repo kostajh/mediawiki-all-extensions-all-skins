@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matik7",
+			"Vengir",
+			"Wedkarski"
+		]
+	},
+	"extralanguagelink-desc": "Dodaj więcej linków językowych do sekcji sidebara „W innych językach”",
+	"extralanguagelink-param-class": "klasa",
+	"extralanguagelink-param-hreflang": "język strony docelowej",
+	"extralanguagelink-param-lang": "język",
+	"extralanguagelink-param-style": "styl",
+	"extralanguagelink-param-title": "tytuł",
+	"extralanguagelink-badinterwiki": "Prefiks „$1:” nie znajduje się na liście dozwolonych prefiksów interwiki.",
+	"extralanguagelink-badtitle": "Strona o nazwie „$1' nie mogła zostać sparsowana."
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"gpgmail-desc": "Krypterer eposter med GPG",
+	"gpgmail-pref-enable": "Krypter eposter med GPG",
+	"gpgmail-pref-key": "offentlig GPG-nøkkel",
+	"gpgmail-pref-key-help": "Se [https://help.ubuntu.com/community/GnuPrivacyGuardHowto Ubuntus forklaringsside] for hjelp til å få en offentlig nøkkel.",
+	"gpgmail-encrypt-error": "En feil oppsto under kryptering av eposten."
+}

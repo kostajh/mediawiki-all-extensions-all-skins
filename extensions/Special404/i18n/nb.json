@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nghtwlkr"
+		]
+	},
+	"special404-desc": "Gir et mål for 404 Not found-feil",
+	"error404": "404 Ikke funnet",
+	"special404-body": "URLen du søkte ble ikke funnet.\n\nMente du å skrive {{fullurl:$1}}?\n\nKanskje du vil se på:\n* [[{{MediaWiki:Mainpage}}|Hovedsiden]]"
+}

@@ -1,0 +1,489 @@
+/* default expanded / collapsed editors
+ * .expand... is hidden for a closed editor
+ * .collapse... is hidden for an opened editor
+ */
+.expand-exact-record,
+.expand-approx-record,
+.collapse-exact,
+.collapse-approx,
+.collapse-defined-meaning-id,
+.collapse-def-add,
+.collapse-syntAtt,
+.collapse-def,
+.collapse-syntrans,
+.expand-classMembers,
+.expand-classAtt,
+.expand-colMembers,
+.expand-incomingRel
+{
+	display: none;
+}
+
+/*
+.collapsable-exact .expand-exact,
+.collapsable-approx .expand-approx,
+*/
+
+/* hide syntrans annotations in expression: pages */
+.ns-16 .expand-dmAtt
+{
+	display: none;
+}
+
+/* show syntrans annotations in definedmeaning: pages */
+.ns-24 .collapse-dmAtt
+{
+	display: none;
+}
+
+/* hide annotation subsections */
+.expand-rel,
+.expand-txtAttVal,
+.expand-translated-text-attribute-values,
+.expand-linkAttVal,
+.expand-optnAttVal
+{
+	display: none;
+}
+
+
+/*****
+ * Language filtering Icon Styling (icon on top of page)
+ */
+.wld_lang_filter_on a, .wld_lang_filter_off a {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	display: block;
+	width: 14px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.wld_lang_filter_on a {
+	/* @embed */
+	background-image: url(images/my_lang.png);
+}
+
+.wld_lang_filter_off a {
+	/* @embed */
+	background-image: url(images/all_lang.png);
+}
+
+
+/****
+ * Wikidata tables
+ */
+
+.wiki-data-table td, .wiki-data-table th {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin: 0px;
+	border: none;
+}
+
+.wiki-data-table th {
+	background-color: #EEEEEE;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: nowrap;
+}
+
+.wiki-data-table th.sortable {
+	cursor: pointer;
+}
+
+.wiki-data-table td.column-odd {
+	background-color: #F6F6F6;
+}
+
+.wiki-data-table td.column-even {
+	background-color: #FFFFFF;
+}
+.boolean {
+	text-align: center;
+}
+
+.integer {
+	text-align: right;
+}
+
+.language, .text, .short-text {
+	text-align: left;
+}
+
+.wiki-data-table td.text {
+	padding-bottom: 4px;
+}
+
+.wiki-data-table td {
+	vertical-align: top;
+}
+
+.wiki-data-table td.remove {
+	text-align: center;
+	background-color: #EEEEEE;
+}
+
+.wiki-data-table tr.to-be-removed td.column-odd, .wiki-data-table tr.to-be-removed td.remove {
+	background: #FFD8C0;
+}
+
+.wiki-data-table tr.to-be-removed td.column-even {
+	background: #FFE8D0;
+}
+
+.wiki-data-table tr.to-be-removed th {
+	background: #FFD0B2;
+}
+
+.wiki-data-table th.remove, .wiki-data-table th.input-rows {
+	font-weight: normal;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.wiki-data-table td .wiki-data-table td textarea, li .wiki-data-table td textarea {
+	width: auto;
+}
+
+.wld-remove-header {
+	/* @embed */
+	background: url(images/Delete.png) no-repeat center;
+}
+
+/******
+ * language tabs on top of expression pages
+ */
+.wd-tablist {
+	white-space: nowrap;
+	font-size: small;
+	color:grey;
+}
+
+.wd-tabitem {
+	white-space: nowrap;
+}
+
+.wd-tabitem a {
+	text-decoration: none;
+	color: #4682B4;
+	padding: 1em;
+}
+
+.wd-tabitem a:hover {
+	color: blue;
+	text-shadow:1px 1px 2px blue;
+}
+
+.wd-tabitem-selected {
+	font-weight: bold;
+	color: black;
+}
+.wd-tabitem-selected:hover {
+	cursor: default;
+}
+
+.wd-previousArrow {
+	font-weight: bold;
+}
+.wd-previousArrow:hover {
+	cursor: pointer;
+	text-shadow:1px 1px 2px blue;
+}
+
+.wd-nextArrow {
+	font-weight: bold;
+	float:right;
+}
+.wd-nextArrow:hover {
+	cursor: pointer;
+	text-shadow:1px 1px 2px blue;
+}
+
+.wd-languageadd {
+	font-size:large ;
+	background-color: #ffe0eb;
+	border-style:solid;
+	border-width:1px;
+	border-color:grey;
+	margin-top:10px;
+	padding:5px;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+/******
+ * language header on top of expression pages
+ */
+.wd-languagecurrent {
+	font-size:large ;
+	background-color: #ffe0eb;
+	border-style:solid;
+	border-width:1px;
+	border-color:grey;
+/* 	top and bottom are 5px, left and right are 10px */
+	padding:5px 10px;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+/******
+ * meaning sort caption, such as part of speech
+ */
+li.exact-sortcaption {
+	margin-top:10px;
+}
+
+li.exact-sortcaption span {
+	font-size:large ;
+	font-weight: bold;
+	padding:2px 2px;
+}
+
+/******
+ * other hierarchical elements
+ */
+
+/* edit links for definedmeaning that shows next to a definition */
+.dm_edit_link {
+	/* does not work well with float because of text-overflow of the definitions */
+	position:absolute;
+	right:0;
+
+	/* a bit up */
+	top:-0.5em;
+
+	/* <sup> */
+	font-size:50%;
+	vertical-align: super;
+
+	/* for a bit of prettiness, to avoid text overlaps */
+	/* same color as below */
+	background-color: #e0ffff;
+	/* top right bottom left - color extends a bit on the sides, except right */
+	padding: 0.5em 0em 0.5em 0.5em;
+}
+
+.level3 {
+	/* main definitions on one line */
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+
+	/* need position relative so that the absolute dm_edit_link use this as parent */
+	position:relative;
+	font-size:110% ;
+	background-color: #e0ffff;
+	margin-top:10px;
+	padding:5px;
+}
+
+.level4 {
+	font-size:105% ;
+	font-weight: bold;
+	padding:5px;
+}
+
+.level5 {
+	font-weight: bold;
+	padding:5px;
+}
+
+li.exact div.level3 {
+	font-weight: bold;
+}
+
+li.exact>div>ul {
+	margin: 0px;
+}
+
+li.approx {
+	font-weight: normal;
+	font-style: italic;
+}
+
+td.add {
+	text-align: center;
+}
+
+/*****
+ * Toggle, clickable elements that can be folded/unfolded
+ */
+
+.toggle {
+	cursor: pointer;
+	text-indent: 0px;
+	margin: 0px;
+}
+
+
+/*****
+ * Popup
+ */
+
+.togglePopup {
+	cursor: pointer;
+	font-weight: bolder;
+	font-size: 90%;
+	white-space: nowrap;
+}
+
+.popupToggleable {
+	position: absolute;
+	border: 1px solid #000000;
+	display: none;
+	background-color: white;
+	padding: 4px;
+	z-index: 1;
+}
+
+.popupButtons {
+	text-align: left;
+}
+
+.owPopupEdit {
+	cursor: pointer;
+	color: blue;
+}
+
+/* hidden by default */
+.owPopupSave, .owPopupCancel {
+	cursor: pointer;
+	color: blue;
+	display: none;
+}
+
+
+/****
+ * Attribute list
+ */
+
+ul.collapsable-items {
+	list-style: none;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+.collapsable-items .toggle {
+	margin-left: 0px;
+	text-indent: 0px;
+}
+
+.add img {
+	opacity:0.7;
+}
+.add img:hover {
+	opacity:1;
+}
+
+/*****
+ * Option panel
+ */
+
+.option-panel {
+	margin: 8px 4px 4px 4px;
+	padding: 8px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #AAAAAA;
+}
+
+.option-panel, .option-panel th, .option-panel td {
+	background-color: #F5F5F5;
+}
+
+.option-panel th {
+	padding-right: 8px;
+	white-space: nowrap;
+	text-align: left;
+}
+
+.option-panel td.option-field {
+	width: 100%;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+/*****
+ * Dataset panel
+ */
+.dataset-panel {
+	float:right;
+	margin-left:0.5em;
+}
+
+.dataset-panel-heading {
+	vertical-align: top;
+	font-size:100%;
+}
+
+.dataset-panel-active {
+	background:#f0f0f0;
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+	font-size:110%;
+	font-weight:bold;
+}
+
+.dataset-panel-inactive {
+	background:white;
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+	font-size:110%;
+}
+
+/*****
+ * Special:OwStatistics
+ */
+
+div.owstatmainheader {
+	text-align:center;
+	background-color:#DDFFDD;
+	font-size:130%;
+}
+
+div.owstatbar {
+	background-image: -webkit-linear-gradient(blue, cyan, blue);
+	background-image: -moz-linear-gradient(blue, cyan, blue);
+	float:left;
+	height: 15px;
+	padding-right:5px;
+	margin-right:5px;
+}
+
+div.owstatpercent {
+}
+
+table.owstatmaintable {
+	margin-left: auto;
+	margin-right: auto;
+}
+table.owstatmaintable th {
+	font-weight:bold;
+}
+
+table.owstatbig {
+	font-size:120%;
+	font-weight:bold;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.owstatbig td {
+	padding: 0px 5px;
+}
+
+/*****
+ * User preferences, tab OmegaWiki
+ */
+/* get a vertical scrollbar on the language list when it is too long */
+table#mw-htmlform-ow-lang {
+  display: block;
+  height: 500px;
+  width: 500px;
+  overflow-y: scroll;
+}

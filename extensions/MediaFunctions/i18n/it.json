@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darth Kule"
+		]
+	},
+	"mediafunctions-desc": "Funzioni parser per ottenere informazioni sui file multimediali",
+	"mediafunctions-invalid-title": "\"$1\" non è un titolo valido",
+	"mediafunctions-not-exist": "\"$1\" non esiste"
+}

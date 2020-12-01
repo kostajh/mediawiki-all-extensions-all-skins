@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bluemersen",
+			"Hwangjy9"
+		]
+	},
+	"safedelete": "안전 삭제",
+	"safedelete-desc": "지정된 이름공간에서 연결된 문서가 없을 경우에만 문서를 삭제합니다",
+	"safedelete-title": "\"$1\" 삭제",
+	"safedelete-missingpagename": "문서 이름이 없습니다.",
+	"safedelete-missingnamespaces": "특별 삭제 이름공간의 목록이 설정되지 않았습니다.",
+	"safedelete-cannotdelete": "\"$1\" 문서는 다음 {{PLURAL:$2|문서}}에서 링크나 넘겨주기가 있기 때문에 삭제할 수 없습니다."
+}

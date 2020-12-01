@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Jon Harald Søby"
+		]
+	},
+	"geodata-desc": "Legger til lagring av geografiske koordinater og funksjonalitet for henting av disse",
+	"geodata-bad-input": "Ugyldige argumenter ble sendt til <nowiki>{{#coordinates:}}</nowiki>-funksjonen",
+	"geodata-bad-latitude": "<nowiki>{{#coordinates:}}</nowiki>: ugyldig breddegrad",
+	"geodata-bad-longitude": "<nowiki>{{#coordinates:}}</nowiki>: ugyldig lengdegrad",
+	"geodata-bad-type": "<nowiki>{{#coordinates:}}</nowiki>: ukjent type «$1»",
+	"geodata-bad-globe": "<nowiki>{{#coordinates:}}</nowiki>: ukjent globe «$1»",
+	"geodata-bad-region": "<nowiki>{{#coordinates:}}</nowiki>: ugyldig regionkodeformat",
+	"geodata-multiple-primary": "<nowiki>{{#coordinates:}}</nowiki>: kan ikke har mer enn én primærtagg per side",
+	"geodata-limit-exceeded": "Grensen på $1 <nowiki>{{#coordinates:}}</nowiki>-{{PLURAL:$1|tagg|tagger}} er overskredet",
+	"geodata-broken-tags-category": "Sider med feilaktige koordinattagger",
+	"geodata-broken-tags-category-desc": "Siden har en misformet <code><nowiki>{{#coordinates:}}</nowiki></code>-tagg.",
+	"geodata-unknown-type-category": "Sider med ukjente koordinattyper",
+	"geodata-unknown-type-category-desc": "Siden bruker en ukjent verdi for <code>type</code>-parameteren for koordinater.",
+	"geodata-unknown-globe-category": "Sider med ukjent globeverdi",
+	"geodata-unknown-globe-category-desc": "Siden bruker en ukjent verdi for <code>globe</code>-parameteren for koordinater.",
+	"geodata-unknown-region-category": "Sider med ugyldig regionverdi",
+	"geodata-unknown-region-category-desc": "Siden bruker en ugyldig verdi for <code>region</code>-parameteren for koordinater.",
+	"geodata-api-help-coordinates-format": "Format: Breddegrad og lengdegrad atskilt med vertikal strek (<kbd>|</kbd>).",
+	"geodata-search-feature-invalid-coordinates": "Geokoordinatene «$2» gitt til «$1» kunne ikke tolkes.",
+	"geodata-search-feature-invalid-distance": "Geodistansen «$2» gitt til «$1» kunne ikke tolkes.",
+	"geodata-search-feature-unknown-title": "Tittelen «$2» gitt til «$1» finnes ikke.",
+	"geodata-search-feature-title-no-coordinates": "Tittelen «$2» gitt til «$1» har ingen koordinater.",
+	"geodata-search-timeout": "GeoData-søk nådde tidsbegrensningen. Kun delvise resultater er tilgjengelig."
+}

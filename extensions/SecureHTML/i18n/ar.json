@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"securehtml": "HTML آمن",
+	"securehtml-desc": "يتيح لك تضمين HTML التعسفي بطريقة مرخصة وآمنة",
+	"securehtml-nokeys": "خطأ: <code>$wgSecureHTMLSecrets</code> غير ممتلئ.",
+	"securehtml-hashrequired": "خطأ: Hash مطلوب.",
+	"securehtml-invalidhash": "خطأ: hash غير صالح.",
+	"securehtml-input-title": "إدخال HTML",
+	"securehtml-generatedoutput-title": "ناتج المُنشأ",
+	"securehtml-renderedhhtml-title": "HTML المقدم",
+	"securehtml-form-keyname": "اسم المفتاح (اختياري)",
+	"securehtml-form-keysecret": "سر المفتاح",
+	"securehtml-form-html": "HTML الخام",
+	"securehtml-form-submit": "إرسال",
+	"securehtml-inputinstructions": "أدخل اسم مفتاح (اختياري) وسر المفتاح وترميز HTML الخام المطلوب،\nإذا لم يتم تحديد اسم مفتاح، فسيتم افتراض المفتاح الأول في <code>$wgSecureHTMLSecrets</code>.",
+	"securehtml-outputinstructions": "قم بنسخ الكود أعلاه بالضبط وقم بلصقه في محرر الويكي،\nإذا لم يعمل الرمز المنشأ، فجرب إزالة جميع linfeeds من إدخال HTML وإعادة توليده."
+}

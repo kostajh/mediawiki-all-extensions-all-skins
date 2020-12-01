@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"bs-socialarticleactions-type-articlesave": "Artikel önneren",
+	"bs-socialarticleactions-type-articlecreate": "Artikel uleeën",
+	"bs-socialarticleactions-type-articledelete": "Artikel läschen",
+	"bs-socialarticleactions-type-filesave": "Fichierännerung",
+	"bs-socialarticleactions-type-filecreate": "Fichier uleeën",
+	"bs-socialarticleactions-type-filedelete": "Fichier läschen",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] huet den Artikel [[:$6|$6]] geännert",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] huet den Artikel [[:$6|$6]] ugeluecht",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] huet den Artikel [[:$6|$6]] geläscht",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] huet eng nei Versioun vum Fichier [[:$6|$6]] eropgelueden",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] huet de Fichier [[:$6|$6]] eropgelueden",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] huet de Fichier [[:$6|$6]] geläscht"
+}

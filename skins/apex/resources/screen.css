@@ -1,0 +1,656 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 100%;
+	min-width: 32em;
+	position: relative;
+}
+
+a {
+	color: #006aae;
+}
+
+a:visited {
+	color: #0b0080;
+}
+
+#p-logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0.75em 0 0 3em;
+	padding: 0;
+}
+
+#p-logo a {
+	display: block;
+	height: 3.5em;
+	width: 230px;
+	padding-top: 1em;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+#p-logo a span {
+	display: none;
+	font-size: 1.5em;
+}
+
+.apex-content-wrapper {
+	margin: 6.5em 3em 3em 3em;
+
+	/* Animation for media-query changes */
+	transition: right 250ms;
+	-moz-transition: right 250ms;
+	-webkit-transition: right 250ms;
+	-o-transition: right 250ms;
+}
+
+#content {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	padding-top: 1.5em;
+}
+
+.emptyPortlet {
+	display: none;
+}
+
+.apex-nav,
+.apex-nav-primary,
+.apex-nav-secondary {
+	position: absolute;
+	height: 2em;
+}
+
+.apex-nav {
+	line-height: 1.5em;
+	top: 5em;
+	left: 0;
+	right: 0;
+	padding: 0 3em;
+	border-top: solid 1px #d5eaed;
+	border-bottom: solid 1px #d5eaed;
+	background: #fff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url( data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZGY4ZjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+ );
+	background: -moz-linear-gradient( top, #fff 0%, #edf8f9 100% ); /* FF3.6+ */
+	background: -webkit-gradient( linear, left top, left bottom, color-stop( 0%, #fff ), color-stop( 100%, #edf8f9 ) ); /* Chrome, Safari4+ */
+	background: -webkit-linear-gradient( top, #fff 0%, #edf8f9 100% ); /* Chrome10+, Safari5.1+ */
+	background: -o-linear-gradient( top, #fff 0%, #edf8f9 100% ); /* Opera 11.10+ */
+	background: -ms-linear-gradient( top, #fff 0%, #edf8f9 100% ); /* IE10+ */
+	background: linear-gradient( to bottom, #fff 0%, #edf8f9 100% ); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#edf8f9', GradientType=0 ); /* IE6-8 */
+}
+
+.apex-nav-primary {
+	left: 3em;
+}
+
+.apex-nav-secondary {
+	right: 3em;
+}
+
+.apex-tabs {
+	float: left;
+}
+
+.apex-tabs h5 {
+	display: none;
+}
+
+.apex-tabs ul,
+.apex-tabs li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.apex-tabs li {
+	float: left;
+	margin: -1px 0 -1px -1px;
+	border: solid 1px transparent;
+}
+
+.apex-tabs a {
+	display: block;
+	padding: 0.25em 0.75em;
+}
+
+.apex-tabs li.selected {
+	background-color: #fff;
+	border: solid 1px #d5eaed;
+	border-bottom: solid 1px #fff;
+	-webkit-border-radius: 0.25em 0.25em 0 0;
+	-moz-border-radius: 0.25em 0.25em 0 0;
+	border-radius: 0.25em 0.25em 0 0;
+	margin-top: -0.33em;
+}
+
+.apex-tabs li.selected a {
+	color: #333;
+	padding-top: 0.5em;
+}
+
+.apex-tabs a:hover {
+	text-shadow: 1px 1px 0 #f4fcff;
+	filter: dropshadow( color=#f4fcff, offx=1, offy=1 );
+	text-decoration: none;
+	background: #eff9ff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url( data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VmZjlmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkMmVmZmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+ );
+	background: -moz-linear-gradient( top, #eff9ff 0%, #d2effc 100% ); /* FF3.6+ */
+	background: -webkit-gradient( linear, left top, left bottom, color-stop( 0%, #eff9ff ), color-stop( 100%, #d2effc ) ); /* Chrome, Safari4+ */
+	background: -webkit-linear-gradient( top, #eff9ff 0%, #d2effc 100% ); /* Chrome10+, Safari5.1+ */
+	background: -o-linear-gradient( top, #eff9ff 0%, #d2effc 100% ); /* Opera 11.10+ */
+	background: -ms-linear-gradient( top, #eff9ff 0%, #d2effc 100% ); /* IE10+ */
+	background: linear-gradient( to bottom, #eff9ff 0%, #d2effc 100% ); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff9ff', endColorstr='#d2effc', GradientType=0 ); /* IE6-8 */
+}
+
+.apex-tabs a:active {
+	background: #d2effc; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url( data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QyZWZmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZmY5ZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+ );
+	background: -moz-linear-gradient( top, #d2effc 0%, #eff9ff 100% ); /* FF3.6+ */
+	background: -webkit-gradient( linear, left top, left bottom, color-stop( 0%, #d2effc ), color-stop( 100%, #eff9ff ) ); /* Chrome, Safari4+ */
+	background: -webkit-linear-gradient( top, #d2effc 0%, #eff9ff 100% ); /* Chrome10+, Safari5.1+ */
+	background: -o-linear-gradient( top, #d2effc 0%, #eff9ff 100% ); /* Opera 11.10+ */
+	background: -ms-linear-gradient( top, #d2effc 0%, #eff9ff 100% ); /* IE10+ */
+	background: linear-gradient( to bottom, #d2effc 0%, #eff9ff 100% ); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2effc', endColorstr='#eff9ff', GradientType=0 ); /* IE6-8 */
+}
+
+.apex-tabs li.selected a:hover {
+	background: none;
+	background-color: transparent;
+}
+
+.apex-menu {
+	float: left;
+}
+
+.apex-menu h5 {
+	float: left;
+	margin: 0;
+	padding: 0.25em 0.75em;
+	font-weight: normal;
+}
+
+.apex-menu-popup {
+	margin-top: 2em;
+	position: absolute;
+	display: none;
+	border: solid 1px #d5eaed;
+	-webkit-border-radius: 0 0 0.25em 0.25em;
+	-moz-border-radius: 0 0 0.25em 0.25em;
+	border-radius: 0 0 0.25em 0.25em;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0.25em 1em 0 rgba( 0, 0, 0, 0.25 );
+	-moz-box-shadow: 0 0.25em 1em 0 rgba( 0, 0, 0, 0.25 );
+	box-shadow: 0 0.25em 1em 0 rgba( 0, 0, 0, 0.25 );
+}
+
+.apex-menu-popup ul,
+.apex-menu-popup li {
+	list-style: none;
+	margin: 0.25em 0;
+	padding: 0;
+}
+
+.apex-menu-popup a {
+	display: block;
+	padding: 0.25em 1.5em;
+}
+
+.apex-menu-popup a:hover {
+	background-color: #e0f4fd;
+	text-shadow: 1px 1px 0 #f4fcff;
+	filter: dropshadow( color=#f4fcff, offx=1, offy=1 );
+	text-decoration: none;
+}
+
+.apex-menu:hover .apex-menu-popup {
+	display: block;
+}
+
+#mw-head {
+	position: absolute;
+	top: -6.5em;
+	left: 0;
+	right: 0;
+	height: 5em;
+	background: #fff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url( data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjgzJSIgc3RvcC1jb2xvcj0iI2Y5ZjlmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmY5ZjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+ );
+	background: -moz-linear-gradient( top, #fff 0%, #f9f9f9 83%, #f2f9f9 100% ); /* FF3.6+ */
+	background: -webkit-gradient( linear, left top, left bottom, color-stop( 0%, #fff ), color-stop( 83%, #f9f9f9 ), color-stop( 100%, #f2f9f9 ) ); /* Chrome, Safari4+ */
+	background: -webkit-linear-gradient( top, #fff 0%, #f9f9f9 83%, #f2f9f9 100% ); /* Chrome10+, Safari5.1+ */
+	background: -o-linear-gradient( top, #fff 0%, #f9f9f9 83%, #f2f9f9 100% ); /* Opera 11.10+ */
+	background: -ms-linear-gradient( top, #fff 0%, #f9f9f9 83%, #f2f9f9 100% ); /* IE10+ */
+	background: linear-gradient( to bottom, #fff 0%, #f9f9f9 83%, #f2f9f9 100% ); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f2f9f9', GradientType=0 ); /* IE6-8 */
+}
+
+#mw-panel,
+#toc {
+	position: absolute;
+	top: 0.5em;
+	margin: 0;
+	padding: 0;
+	margin-top: 1px;
+	height: 0;
+	border: solid 1px transparent;
+	background-color: transparent;
+	font-size: 1em;
+	z-index: 200;
+}
+
+#mw-panel {
+	left: 0;
+	border-left: 0;
+}
+
+#toc {
+	right: 0;
+	border-right: 0;
+}
+
+#p-navigation {
+	margin-top: 0.5em;
+}
+
+#p-navigation h5,
+#toctitle h2,
+#toctitle span {
+	display: none;
+}
+
+#toc:hover,
+#mw-panel:hover {
+	height: auto;
+	-webkit-box-shadow: 0 0.25em 1em 0 rgba( 0, 0, 0, 0.25 );
+	-moz-box-shadow: 0 0.25em 1em 0 rgba( 0, 0, 0, 0.25 );
+	box-shadow: 0 0.25em 1em 0 rgba( 0, 0, 0, 0.25 );
+	border-color: #d5eaed;
+	background-color: #fff;
+}
+
+#mw-panel:hover {
+	-webkit-border-radius: 0 0 0.25em 0;
+	-moz-border-radius: 0 0 0.25em 0;
+	border-radius: 0 0 0.25em 0;
+}
+
+#toc:hover {
+	-webkit-border-radius: 0 0 0 0.25em;
+	-moz-border-radius: 0 0 0 0.25em;
+	border-radius: 0 0 0 0.25em;
+}
+
+#mw-panel .apex-flyout-pull {
+	display: block;
+	position: absolute;
+	top: -2em;
+	left: 0;
+	width: 3em;
+	height: 2em;
+	background-image: url( images/icons/nav.png );
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#toctitle {
+	position: absolute;
+	top: -2em;
+	right: 0;
+	width: 3em;
+	height: 2em;
+	background-image: url( images/icons/toc.png );
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#mw-panel:hover .apex-flyout-pull {
+	background-image: url( images/icons/nav-hover.png );
+}
+
+#toc:hover #toctitle {
+	background-image: url( images/icons/toc-hover.png );
+}
+
+#content #toc {
+	font-size: 1.3em;
+}
+
+#content #toc ul {
+	margin: -2px;
+	padding: 0.25em 0;
+	display: none;
+}
+
+#content #toc ul ul {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+#toc td {
+	margin: 0;
+	padding: 0;
+}
+
+#content #toc:hover ul {
+	display: block;
+}
+
+#content #toc li {
+	margin: 0;
+	padding: 0;
+}
+
+#toc li a {
+	padding: 0.25em 1.5em;
+	display: block;
+	white-space: nowrap;
+}
+
+#toc li li a {
+	padding: 0.25em 1.5em 0.25em 2.5em;
+}
+
+#toc li li li a {
+	padding: 0.25em 1.5em 0.25em 3.5em;
+}
+
+#toc li li li li a {
+	padding: 0.25em 1.5em 0.25em 4.5em;
+}
+
+#toc li li li li li a {
+	padding: 0.25em 1.5em 0.25em 5.5em;
+}
+
+#toc li li li li li li a {
+	padding: 0.25em 1.5em 0.25em 6.5em;
+}
+
+#toc a:hover {
+	background-color: #e0f4fd;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #f4fcff;
+	filter: dropshadow( color=#f4fcff, offx=1, offy=1 );
+}
+
+#mw-panel .portal {
+	margin: 0;
+	padding: 0.25em 0;
+	display: none;
+}
+
+#mw-panel:hover .portal {
+	display: block;
+}
+
+#mw-panel h5 {
+	padding: 0.75em 1.5em 0.25em 1.5em;
+	font-size: 1em;
+	color: #666;
+	font-weight: normal;
+}
+
+#mw-panel ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#mw-panel li {
+	margin: 0;
+	padding: 0;
+}
+
+#mw-panel li a {
+	padding: 0.25em 1.5em;
+	display: block;
+}
+
+#mw-panel a:hover {
+	background-color: #e0f4fd;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #f4fcff;
+	filter: dropshadow( color=#f4fcff, offx=1, offy=1 );
+}
+
+#p-personal {
+	float: right;
+	margin-right: 1em;
+	margin-top: 1.5em;
+	position: relative;
+}
+
+#p-personal h5 {
+	display: none;
+}
+
+#p-personal ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-bottom: 0;
+}
+
+#p-personal li {
+	white-space: nowrap;
+}
+
+#p-personal ul.apex-menu-popup {
+	position: absolute;
+	left: -0.5em;
+	display: none;
+	z-index: 100;
+}
+
+#p-personal:hover .apex-menu-popup {
+	display: block;
+}
+
+#pt-userpage {
+	padding-right: 18px;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+#pt-userpage a {
+	padding-left: 18px;
+	background-image: url( images/icons/user.png );
+	background-position: left 40%;
+	background-repeat: no-repeat;
+}
+
+#pt-userpage a:hover {
+	text-decoration: none;
+}
+
+#p-search {
+	float: right;
+	margin-right: 3em;
+	margin-top: 1.25em;
+
+	/* Animation for media-query changes */
+	transition: right 250ms;
+	-moz-transition: right 250ms;
+	-webkit-transition: right 250ms;
+	-o-transition: right 250ms;
+}
+
+#simpleSearch {
+	text-align: right;
+}
+
+#p-search h5 {
+	display: none;
+}
+
+#searchInput {
+	border: solid 1px #ccc;
+	border-radius: 1em;
+	padding: 0.125em 0.75em;
+	background-color: #fff;
+	display: inline-block;
+	width: 6em;
+	font-size: 1em;
+
+	/* Animation for media-query changes */
+	transition: right 250ms;
+	-moz-transition: right 250ms;
+	-webkit-transition: right 250ms;
+	-o-transition: right 250ms;
+}
+
+#searchInput:focus {
+	width: 12em;
+	outline: 0;
+}
+
+#searchButton {
+	background-color: transparent;
+	border: 0;
+	font-size: 1.25em;
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+#searchButton:hover {
+	opacity: 1;
+}
+
+#ca-watch a,
+#ca-unwatch a {
+	display: inline-block;
+	padding-left: 26px;
+	padding-right: 0;
+	width: 0;
+	overflow: hidden;
+	background-image: url( images/icons/watch.png );
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+#ca-unwatch a {
+	background-position: -43px 50%;
+}
+
+#ca-watch a {
+	background-position: 5px 50%;
+}
+
+#ca-unwatch a:hover,
+#ca-unwatch a:focus {
+	background-color: transparent;
+	background-position: -67px 50%;
+}
+
+#ca-watch a:hover,
+#ca-watch a:focus {
+	background-color: transparent;
+	background-position: -19px 50%;
+}
+
+#ca-unwatch .loading,
+#ca-watch .loading {
+	/* @embed */
+	background-image: url( images/icons/watch-loading.gif );
+	background-position: 5px 50%;
+}
+
+#p-cactions {
+	position: relative;
+}
+
+#p-cactions h5 {
+	padding-right: 18px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#p-cactions .apex-menu-popup {
+	position: absolute;
+	right: -0.5em;
+	white-space: nowrap;
+}
+
+#footer {
+	background-color: #eaf5f7;
+	border-top: solid 1px #d5eaed;
+	font-size: 0.8em;
+}
+
+#footer ul {
+	float: left;
+	list-style: none;
+	margin: 1em 3em;
+	padding: 0;
+}
+
+ul#footer-icons {
+	float: right;
+}
+
+#footer li {
+	list-style: none;
+	margin: 0;
+	padding: 0.25em;
+}
+
+div#mw-js-message {
+	background-color: #fff;
+	font-size: 0.8em;
+	position: absolute;
+	margin: 0;
+	padding: 1em 2em;
+	right: 3em;
+	top: 1.5em;
+	width: 20em;
+	z-index: 10000;
+	border: solid 1px #d5eaed;
+	-webkit-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	border-radius: 0.25em;
+	-webkit-box-shadow: 0 0.125em 0.5em 0 rgba( 0, 0, 0, 0.25 );
+	-moz-box-shadow: 0 0.125em 0.5em 0 rgba( 0, 0, 0, 0.25 );
+	box-shadow: 0 0.125em 0.5em 0 rgba( 0, 0, 0, 0.25 );
+
+	/* Animation for media-query changes */
+	transition: right 250ms;
+	-moz-transition: right 250ms;
+	-webkit-transition: right 250ms;
+	-o-transition: right 250ms;
+}
+
+/* Background images */
+
+#pt-userpage,
+#p-cactions h5 {
+	background-image: url( images/icons/menu.png );
+}
+
+#p-personal:hover #pt-userpage,
+#p-cactions:hover h5 {
+	background-image: url( images/icons/menu-hover.png );
+}
+
+#p-cactions,
+#p-logo {
+	/* Animation for media-query changes */
+	transition: right 250ms;
+	-moz-transition: right 250ms;
+	-webkit-transition: right 250ms;
+	-o-transition: right 250ms;
+}

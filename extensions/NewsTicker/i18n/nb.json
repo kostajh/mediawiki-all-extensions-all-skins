@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Kingu"
+		]
+	},
+	"newsticker": "NewsTicker",
+	"newsticker-desc": "Legger til et magisk ord som vises som en nyhetsticker som kan konfigureres fra en spesialside.",
+	"newsticker-summary": "Spesialside for å sette innholdet og sider for nyhetstickeren",
+	"newsticker-general": "Generelt",
+	"newsticker-news": "Nyheter",
+	"newsticker-class": "Klasse",
+	"newsticker-style": "Stil",
+	"newsticker-pages": "Sider",
+	"newsticker-page1": "Side 1",
+	"newsticker-page2": "Side 2",
+	"newsticker-page3": "Side 3",
+	"newsticker-page4": "Side 4",
+	"newsticker-page5": "Side 5",
+	"newsticker-page6": "Side 6",
+	"newsticker-page7": "Side 7",
+	"newsticker-page8": "Side 8",
+	"newsticker-page9": "Side 9",
+	"newsticker-title": "Tittel",
+	"newsticker-add-page": "Legg til side",
+	"newsticker-default-news-help": "Sett standardnyheter for alle nyhetstickere. Én nyhet per linje, wikitekst er tillatt.",
+	"newsticker-default-class-help": "Sett standard CSS-klasser for alle nyhetstickere.",
+	"newsticker-default-style-help": "Sett standard CSS-stiling for alle nyhetstickere.",
+	"newsticker-pages-help": "Sett antall sider som skal vises i nyhetstickeren, slik at spesialsiden kan vise én seksjon per side. Advarsel! Hvis du reduserer antall sider kan dataene fra sidene som kuttes ut gå tapt!",
+	"newsticker-title-help": "Sett tittelen på siden som skal vise nyhetstickeren.",
+	"newsticker-news-help": "Sett nyhetene for nyhetstickeren, overstyrer standardnyhetene.",
+	"newsticker-class-help": "Sett CSS-klasser for denne nyhetstickeren, overstyrer standard CSS-klasser.",
+	"newsticker-style-help": "Sett CSS-stiling for denne nyhetstickeren, overstyrer standard CSS-stiling.",
+	"right-newsticker": "Behandle nyhetstickere",
+	"action-newsticker": "behandle nyhetstickere"
+}

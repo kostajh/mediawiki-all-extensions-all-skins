@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andrei Stroe",
+			"Firilacroco",
+			"KlaudiuMihaila",
+			"Minisarm",
+			"Stelistcristi"
+		]
+	},
+	"extensiondistributor": "Descărcare extensie MediaWiki",
+	"extensiondistributor-desc": "Extensie pentru distribuirea unor arhive fotografice ale extensiilor",
+	"extdist-not-configured": "Vă rugăm să configurați <code>$wgExtDistAPIConfig</code>.",
+	"extdist-no-such-extensions": "Extensia „$1” nu există.",
+	"extdist-no-such-version-extensions": "Extensia „$1” nu există în versiunea „$2”.",
+	"extdist-submit-extension": "Continuă",
+	"extdist-choose-version-extensions": "Descărcați extensia <b>$1</b>.\n\nAlegeți versiunea dumneavoastră de MediaWiki.\n\nCele mai multe extensii funcționează cu mai multe versiuni de MediaWiki; dacă versiunea dumneavoastră de MediaWiki nu este aici sau dacă aveți nevoie de cele mai recente funcționalități ale extensiilor, încercați să folosiți versiunea curentă.",
+	"extdist-no-versions-extensions": "Extensia selectată ($1) nu este disponibilă în orice versiune!",
+	"extdist-submit-version": "Continuă",
+	"extdist-want-more-extensions": "Obține altă extensie"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"listsignup": "Lista de inscrição",
+	"listsignup-desc": "Formulário personalizado de inscrição na lista",
+	"listsignup-legend": "Insira a sua informação abaixo.",
+	"listsignup-success": "O seu endereço de e-mail foi enviado.",
+	"listsignupdisplay": "Apresentação da lista de inscrição",
+	"listsignuppurge": "Esvaziamento da lista de inscrição",
+	"listsignuppurge-legend": "Esvaziar toda a informação da lista de inscrição",
+	"listsignuppurge-pretext": "'''Aviso!''' Esta operação removerá todos os endereços da sua lista e não pode ser desfeita.",
+	"listsignuppurge-success": "A lista foi esvaziada!",
+	"right-viewlistsignupdisplay": "Ver a lista de inscrição",
+	"right-purgelistsignupdisplay": "Esvaziar a lista de inscrição",
+	"action-viewlistsignupdisplay": "ver a lista de inscrição",
+	"action-purgelistsignupdisplay": "esvaziar a lista de inscrição"
+}

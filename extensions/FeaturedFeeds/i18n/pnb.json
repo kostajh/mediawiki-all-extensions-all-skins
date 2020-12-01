@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abbas dhothar",
+			"BaRaN6161 TURK",
+			"Khalid Mahmood"
+		]
+	},
+	"ffeed-desc": "وکی دے فیچرڈ لکھتاں چ سنڈیکیشن رلاؤ",
+	"ffeed-no-feed": "فیڈ نئیں دسی گئی۔",
+	"ffeed-feed-not-found": "فیڈ 1$ نئیں لبی",
+	"ffeed-entry-not-found": "تریخ 1$ لئی نئیں لبی۔",
+	"ffeed-sidebar-section": "فیچرڈ کونٹنٹ فیڈز",
+	"ffeed-invalid-timestamp": "ناں منی جان والی فیڈ ٹائیمسٹیمپ",
+	"ffeed-featured-title": "{{SITENAME}} فیچرڈ آرٹیکل فیڈ",
+	"ffeed-featured-short-title": "ودیا آرٹیکل",
+	"ffeed-featured-desc": "ودیا آرٹیکل {{SITENAME}} دین پین کے۔",
+	"ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} فیچرڈ آرٹیکل",
+	"ffeed-good-title": "{{SITENAME}} چنگے ارٹیکل بارے",
+	"ffeed-good-short-title": "چنکے ارٹیکل",
+	"ffeed-good-desc": "چنکے ارٹیکل {{SITENAME}} دسنے پیسن۔",
+	"ffeed-good-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} چنکے آرٹیکل",
+	"ffeed-onthisday-title": "{{SITENAME}} \"اس دن نوں...\" فیڈ",
+	"ffeed-onthisday-short-title": "اس دن نوں۔۔۔۔۔",
+	"ffeed-onthisday-desc": "ایس دن دیاں تریخی گلاں",
+	"ffeed-onthisday-entry": "اس دن نوں: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-dyk-title": "{{SITENAME}} \"کیہ تسین جاندے سی?\" دسو",
+	"ffeed-dyk-short-title": "کیہ تسی جاندے او؟",
+	"ffeed-dyk-desc": "{{SITENAME}} دیاں سب توں نویاں تبدیلیاں توں",
+	"ffeed-dyk-entry": "کیا تسی جاندے او ?: {{LOCALMONTHNAME}} {{LOCALDAY}}"
+}

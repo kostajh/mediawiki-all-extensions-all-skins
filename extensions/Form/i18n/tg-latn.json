@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liangent"
+		]
+	},
+	"form-no-name-text": "Şumo bojad nomi formro, ba monandi \"Special:Form/Nameofform\" peşnihod kuned.",
+	"form-bad-name": "Nomi formi nomunosib",
+	"form-bad-name-text": "Heç forme bo on nom nest.",
+	"form-save": "Zaxira kardan",
+	"form-article-exists": "Sahifa vuçud dorad",
+	"form-article-existstext": "Sahifa [[$1]] allakaj vuçud dorad.",
+	"form-bad-page-name": "Nomi sahifa nomunosib",
+	"form-bad-page-name-text": "Dodai forme, ki şumo vorid kardaed nomi nomunosibe ba sahifa, \"$1\" mekunad.",
+	"form-save-error": "Xato dar holi zaxirai form",
+	"form-save-error-text": "Dar holi zaxirai sahifai '$1' xatoi noşinose bud."
+}

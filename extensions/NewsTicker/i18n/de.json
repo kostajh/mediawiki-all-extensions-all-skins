@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"newsticker": "Newsticker",
+	"newsticker-desc": "Ergänzt ein magisches Wort zur Anzeige eines Newstickers, der von einer Spezialseite konfiguriert werden kann.",
+	"newsticker-summary": "Auf dieser Spezialseite können der Inhalt und die Seiten des Newstickers festgelegt werden.",
+	"newsticker-general": "Allgemein",
+	"newsticker-news": "Nachrichten",
+	"newsticker-class": "Klasse",
+	"newsticker-style": "Stil",
+	"newsticker-pages": "Seiten",
+	"newsticker-page1": "Seite 1",
+	"newsticker-page2": "Seite 2",
+	"newsticker-page3": "Seite 3",
+	"newsticker-page4": "Seite 4",
+	"newsticker-page5": "Seite 5",
+	"newsticker-page6": "Seite 6",
+	"newsticker-page7": "Seite 7",
+	"newsticker-page8": "Seite 8",
+	"newsticker-page9": "Seite 9",
+	"newsticker-title": "Titel",
+	"newsticker-add-page": "Seite hinzufügen",
+	"newsticker-default-news-help": "Die Standardnachrichten für alle Newsticker festlegen. Eine Nachricht pro Zeile, es ist Wikitext erlaubt.",
+	"newsticker-default-class-help": "Die Standard-CSS-Klassen für alle Newsticker festlegen.",
+	"newsticker-default-style-help": "Den Standard-CSS-Stil für alle Newsticker festlegen.",
+	"newsticker-pages-help": "Die Anzahl der Seiten festlegen, die den Newsticker anzeigen werden, so dass diese Spezialseite einen Abschnitt für jede Seite anzeigen kann. Achtung! Falls du die Anzahl der Seiten reduzierst, gehen die Daten der ausgelassenen Seiten verloren!",
+	"newsticker-title-help": "Den Titel der Seite festlegen, auf der dieser Newsticker angezeigt wird.",
+	"newsticker-news-help": "Die Nachrichten für diesen Newsticker festlegen, es werden die Standardnachrichten überschrieben.",
+	"newsticker-class-help": "Die CSS-Klassen für diesen Newsticker festlegen, die Standard-CSS-Klassen werden überschrieben.",
+	"newsticker-style-help": "Den CSS-Stil für diesen Newsticker festlegen, der Standard-CSS-Stil wird überschrieben.",
+	"right-newsticker": "Newsticker verwalten",
+	"action-newsticker": "Newsticker zu verwalten"
+}

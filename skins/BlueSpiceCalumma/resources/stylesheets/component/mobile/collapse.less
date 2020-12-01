@@ -1,0 +1,36 @@
+body {
+
+	.navigation-main.active,
+	.navigation-main {
+		display: none;
+	}
+
+	&:not( .navigation-main-collapse ) .navigation-main {
+		width: 100vw;
+		transition: width .3s;
+
+		#bs-sitenavtabs {
+			width: 100vw;
+			transition: width .3s;
+		}
+	}
+
+	&.navigation-main-collapse .navigation-main.active,
+	&.navigation-main-collapse .navigation-main {
+		width: 0;
+		transition: width .3s;
+
+		#bs-sitenavtabs {
+			width: 0;
+			transition: width .3s;
+		}
+	}
+
+	&:not( .navigation-main-collapse ) .sidebar-toggle[data-toggle~="navigation-main-collapse"].calumma-mobile-visible-close-only{
+		display: block;
+	}
+	&.navigation-main-collapse .sidebar-toggle[data-toggle~="navigation-main-collapse"].calumma-mobile-visible-close-only{
+		display: none;
+	}
+
+}

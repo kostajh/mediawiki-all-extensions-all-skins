@@ -1,0 +1,387 @@
+{
+	"name": "BlueSpiceSocial",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:Social",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-social-desc",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceExtendedSearch": ">= 4.1"
+		},
+		"platform": {
+			"php": ">= 7.0"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocial": {
+					"className": "\\BlueSpice\\Social\\Extension",
+					"extPath": "/BlueSpiceSocial",
+					"status": "beta",
+					"package": "BlueSpiceSocial"
+				}
+			},
+			"PermissionRegistry": {
+				"social-deleteothers": {
+					"type": "namespace",
+					"roles": [
+						"admin",
+						"maintenanceadmin"
+					]
+				},
+				"social-editothers": {
+					"type": "namespace",
+					"roles": [
+						"admin",
+						"maintenanceadmin"
+					]
+				},
+				"social-source": {
+					"type": "namespace",
+					"roles": [
+						"maintenanceadmin"
+					]
+				}
+			},
+			"NotificationRegistrationFunctions": [
+				"\\BlueSpice\\Social\\Notifications\\Registrator::registerNotifications"
+			],
+			"RendererRegistry": {
+				"entitylist": "\\BlueSpice\\Social\\Renderer\\EntityList::factory",
+				"entitylistmenu": "\\BlueSpice\\Social\\Renderer\\EntityList\\Menu::factory",
+				"entitylistmore": "\\BlueSpice\\Social\\Renderer\\EntityList\\More::factory",
+				"entitylistheadline": "\\BlueSpice\\Social\\Renderer\\EntityList\\Headline::factory",
+				"socialentity": "\\BlueSpice\\Social\\Renderer\\Entity::factory",
+				"socialentitytext": "\\BlueSpice\\Social\\Renderer\\Entity\\Text::factory",
+				"socialentitypage": "\\BlueSpice\\Social\\Renderer\\Entity\\Page::factory",
+				"entityactions": "\\BlueSpice\\Social\\Renderer\\EntityActions::factory"
+			},
+			"TagRegistry": {
+				"timeline": "\\BlueSpice\\Social\\Tag\\Timeline",
+				"socialentity": "\\BlueSpice\\Social\\Tag\\SocialEntity"
+			},
+			"TaskRegistry": {
+				"social-entitylist-reload": "\\BlueSpice\\Social\\Task\\EntityList\\Reload::factory"
+			},
+			"PermissionLockdownRegistry": {
+				"social-sourcetitle": "\\BlueSpice\\Social\\Permission\\Lockdown\\Module\\SourceTitle::getInstance",
+				"social-readpermissioncheckhandover": "\\BlueSpice\\Social\\Permission\\Lockdown\\Module\\ReadPermissionCheckHandOver::getInstance"
+			}
+		},
+		"BlueSpiceExtendedSearch": {
+			"Sources": {
+				"socialentity":  "\\BlueSpice\\Social\\ExtendedSearch\\Entities::create"
+			},
+			"LookupModifierRegistry": {
+				"entity-filteroutactionentities": "\\BlueSpice\\Social\\ExtendedSearch\\LookupModifier\\FilterOutActionEntities::callback",
+				"entity-addhighlighters": "\\BlueSpice\\Social\\ExtendedSearch\\LookupModifier\\LookupModifier\\AddHighlighters::callback",
+				"entity-entitytypeaggregation": "\\BlueSpice\\Social\\ExtendedSearch\\LookupModifier\\LookupModifier\\EntityTypeAggregation::callback",
+				"entity-entitysimpleqsfields": "\\BlueSpice\\Social\\ExtendedSearch\\LookupModifier\\LookupModifier\\EntitySimpleQSFields::callback",
+				"entity-autocompletesourcefields": "\\BlueSpice\\Social\\ExtendedSearch\\LookupModifier\\LookupModifier\\AutocompleteSourceFields::callback"
+			}
+		},
+		"BlueSpicePrivacy": {
+			"Handlers": [
+				"\\BlueSpice\\Social\\Privacy\\Handler"
+			]
+		}
+	},
+	"callback": "\\BlueSpice\\Social\\Extension::onRegistration",
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"GroupPermissions": {
+		"*": {
+			"social-deleteothers": false,
+			"social-editothers": false,
+			"social-source": false
+		},
+		"user": {
+			"social-deleteothers": false,
+			"social-editothers": false,
+			"social-source": false
+		},
+		"sysop": {
+			"social-deleteothers": true,
+			"social-editothers": true,
+			"social-source": true
+		}
+	},
+	"AvailableRights": [
+		"social-deleteothers",
+		"social-editothers",
+		"social-source"
+	],
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\": "src/"
+	},
+	"APIModules": {
+		"bs-social-tasks": "\\BlueSpice\\Social\\Api\\Task\\Entities",
+		"bs-socialtitlequery-store": "\\BlueSpice\\Social\\Api\\Store\\TitleQuery",
+		"bs-socialentity-store": "\\BlueSpice\\Social\\Api\\Store\\Entity"
+	},
+	"SpecialPages": {
+		"Timeline": "\\BlueSpice\\Social\\Special\\Timeline",
+		"Activities": "\\BlueSpice\\Social\\Special\\Activities"
+	},
+	"ExtensionMessagesFiles": {
+		"SocialAlias": "languages/Social.alias.php"
+	},
+	"MessagesDirs": {
+		"BlueSpiceSocial": [
+			"i18n", "i18n/notifications"
+		]
+	},
+	"JobClasses": {
+		"updateEntityIndex": "\\BlueSpice\\Social\\ExtendedSearch\\Job\\Entity",
+		"socialentityupdate": "\\BlueSpice\\Social\\Job\\Update",
+		"socialentityarchive": "\\BlueSpice\\Social\\Job\\Archive",
+		"privacyDeleteEntity": "\\BlueSpice\\Social\\Privacy\\Job\\DeleteEntity"
+	},
+	"ResourceModules": {
+		"ext.bluespice.social.icon": {
+			"styles": [
+				"bluespice.social.icon.css"
+			]
+		},
+		"ext.bluespice.social.styles": {
+			"styles": {
+				"bluespice.social.general.common.less": {},
+				"bluespice.social.general.mobile.less": {
+					"media": "all and ( max-width: 720px )"
+				},
+				"bluespice.social.general.tablet.less": {
+					"media": "all and ( min-width: 721px ) and ( max-width: 1023px )"
+				},
+				"bluespice.social.general.desktop.less": {
+					"media": "all and ( min-width: 1024px )"
+				}
+			},
+			"class": "\\MWStake\\MediaWiki\\Component\\CommonUserInterface\\ResourceLoader\\LessVars"
+		},
+		"ext.bluespice.jquery.select2": {
+			"scripts": [
+				"jquery/select2/dist/js/select2.full.js",
+				"select2.overwrites.js"
+			],
+			"styles": [
+				"jquery/select2/dist/css/select2.css"
+			],
+			"dependencies": [
+				"mediawiki.api",
+				"ext.bluespice"
+			],
+			"messages": [
+				"bs-social-select2-overwrites-inputtooshort",
+				"bs-social-select2-overwrites-noresults",
+				"bs-social-select2-overwrites-errorloading",
+				"bs-social-select2-overwrites-loadingmore",
+				"bs-social-select2-overwrites-searching"
+			]
+		},
+		"ext.bluespice.social": {
+			"dependencies": [
+				"mediawiki.api",
+				"oojs-ui",
+				"mediawiki.confirmCloseWindow",
+				"ext.bluespice.jquery.select2",
+				"ext.bluespice",
+				"ext.bluespice.oojs",
+				"ext.bluespice.social.messages"
+			],
+			"scripts": [
+				"bluespice.social.js"
+			]
+		},
+		"ext.bluespice.social.entity": {
+			"dependencies": [
+				"ext.bluespice.social",
+				"ext.bluespice.social.entity.templates"
+			],
+			"scripts": [
+				"bluespice.social.El.js",
+				"bluespice.social.Entity.js",
+				"bluespice.social.EntityActionMenu.js",
+				"EntityActionMenu/Edit.js",
+				"EntityActionMenu/Delete.js",
+				"bluespice.social.EntityOutput.js"
+			],
+			"messages": [
+				"bs-social-editor-advanced",
+				"bs-social-editor-ok",
+				"bs-social-editor-cancel",
+				"bs-social-entityaction-edit",
+				"bs-social-entityaction-delete",
+				"bs-social-entityaction-delete-confirmtext",
+				"bs-social-entityaction-undelete",
+				"bs-social-entityaction-undelete-confirmtext",
+				"bs-social-editwarnonleave-confirmtext",
+				"bs-extendedsearch-search-center-result-owner-label",
+				"bs-extendedsearch-search-center-result-entity_type-label",
+				"bs-extendedsearch-search-center-filter-entitydata-type-label",
+				"bs-extendedsearch-search-center-filter-entitydata-type-with-values-label",
+				"bs-extendedsearch-source-type-socialentity-label"
+			]
+		},
+		"ext.bluespice.social.entity.editor": {
+			"scripts": [
+				"ui/EntityEditor.js"
+			],
+			"dependencies": [
+				"oojs-ui.styles.icons-interactions"
+			]
+		},
+		"ext.bluespice.social.messages": {
+			"class": "\\BlueSpice\\Social\\ResourceLoader\\Messages"
+		},
+		"ext.bluespice.social.entity.text": {
+			"dependencies": [
+				"ext.bluespice.social.entity"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.Text.js",
+				"entityoutputs/bluespice.social.EntityOutput.Text.js"
+			]
+		},
+		"ext.bluespice.social.entity.editor.text": {
+			"dependencies": [
+				"ext.bluespice.social.entity.editor"
+			],
+			"scripts": [
+				"ui/widget/TextInputVisualEditor.js",
+				"ui/EntityEditorText.js"
+			]
+		},
+		"ext.bluespice.social.entity.action": {
+			"dependencies": [
+				"ext.bluespice.social.entity.text"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.Action.js"
+			]
+		},
+		"ext.bluespice.social.timeline.styles": {
+			"styles": {
+				"bluespice.social.entitylistmenu.common.less": {
+					"media": "all"
+				},
+				"bluespice.social.entitylistmenu.mobile.less": {
+					"media": "all and ( max-width: 720px )"
+				},
+				"bluespice.social.entitylistmenu.tablet.less": {
+					"media": "all and ( min-width: 721px ) and ( max-width: 1023px )"
+				},
+				"bluespice.social.entitylistmenu.desktop.less": {
+					"media": "all and ( min-width: 1024px )"
+				},
+				"bluespice.social.entityspawner.css": {
+					"media": "all"
+				},
+				"bluespice.social.entitylistmore.css": {
+					"media": "all"
+				},
+				"bluespice.social.entitylistheadline.less": {
+					"media": "all"
+				}
+			},
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		},
+		"ext.bluespice.social.entity.templates": {
+			"templates": [
+				"BlueSpiceSocial.Entity.Default.mustache",
+				"BlueSpiceSocial.Entity.List.mustache",
+				"BlueSpiceSocial.Entity.Page.mustache",
+				"BlueSpiceSocial.Entity.Short.mustache"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\Templates"
+		},
+		"ext.bluespice.social.timeline.templates": {
+			"templates": [
+				"BlueSpiceSocial.EntityListMenuButton.mustache",
+				"BlueSpiceSocial.EntityListMenuContent.mustache",
+				"BlueSpiceSocial.EntitySpawner.mustache"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\Templates"
+		},
+		"ext.bluespice.social.timeline": {
+			"dependencies": [
+				"ext.bluespice.social.entity",
+				"ext.bluespice.social.timeline.templates",
+				"ext.bluespice.social",
+				"mediawiki.widgets.datetime"
+			],
+			"scripts": [
+				"bluespice.social.EntityList.js",
+				"bluespice.social.EntityListMenu.js",
+				"bluespice.social.EntityListMore.js",
+				"bluespice.socialtimeline.js",
+				"EntityListMenu/Filter.js",
+				"EntityListMenu/Option.js",
+				"EntityListMenu/Button.js",
+				"EntityListMenu/Button/EntitySpawner.js",
+				"EntityListMenu/Option/Limit.js",
+				"EntityListMenu/Option/Sort.js",
+				"EntityListMenu/Option/Direction.js",
+				"EntityListMenu/Filter/Type.js",
+				"EntityListMenu/Filter/OwnerID.js",
+				"EntityListMenu/Filter/TimestampCreated.js",
+				"EntityListMenu/Filter/Archived.js"
+			],
+			"messages": [
+				"bs-social-option-orderby-label",
+				"bs-social-option-direction-label",
+				"bs-social-option-direction-val-asc",
+				"bs-social-option-direction-val-desc",
+				"bs-social-entitylistmenufilter-quickfilter-addall",
+				"bs-social-entitylistmenufilter-quickfilter-removeall",
+				"bs-social-entitylistmenufilter-quickfilter-removeall-date",
+				"bs-social-entitylistmenu-editwarnonchange-confirmtext",
+				"bs-social-filter-owner-val-all",
+				"bs-social-filter-owner-val-mine",
+				"bs-social-filter-date-label-from",
+				"bs-social-filter-date-label-to",
+				"bs-social-filter-archived-val-archived",
+				"bs-social-filter-archived-val-notarchived",
+				"bs-social-filter-button-tooltip",
+				"bs-social-sort-button-tooltip",
+				"bs-social-filter-button-tooltip",
+				"bs-social-entityspawner-button-tooltip"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocial/resources"
+	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"\\BlueSpice\\Social\\Hook\\BeforePageDisplay\\AddResources::callback",
+			"\\BlueSpice\\Social\\Hook\\BeforePageDisplay\\EntitySpawnerUserPermissions::callback",
+			"\\BlueSpice\\Social\\Hook\\BeforePageDisplay\\AddSourceBacklLink::callback"
+		],
+		"BSUEModulePDFBeforeAddingStyleBlocks": "\\BlueSpice\\Social\\Extension::onBSUEModulePDFBeforeAddingStyleBlocks",
+		"GetPreferences": [
+			"\\BlueSpice\\Social\\Hook\\GetPreferences\\AddTimeDisplayMode::callback",
+			"\\BlueSpice\\Social\\Hook\\GetPreferences\\AddWarnOnLeave::callback"
+		],
+		"HtmlPageLinkRendererEnd": "\\BlueSpice\\Social\\Hook\\HtmlPageLinkRendererEnd\\MaskEntityLinks::callback",
+		"BeforeEchoEventInsert": "\\BlueSpice\\Social\\Hook\\BeforeEchoEventInsert\\DisableOtherNotificationsForEntityPages::callback",
+		"SendWatchlistEmailNotification": "\\BlueSpice\\Social\\Extension::onSendWatchlistEmailNotification",
+		"BSEntitySaveComplete": "\\BlueSpice\\Social\\Hook\\BSEntitySaveComplete\\NotifyUsers::callback",
+		"BSEntityDeleteComplete": "\\BlueSpice\\Social\\Hook\\BSEntityDeleteComplete\\NotifyUsers::callback",
+		"SkinBuildSidebar": "\\BlueSpice\\Social\\Hook\\SkinBuildSidebar\\AddTimelineNavigationItem::callback",
+		"BSRSSFeederBeforeGetRecentChanges": "\\BlueSpice\\Social\\Hook\\BSRSSFeederBeforeGetRecentChanges\\RCRemoveSocial::callback",
+		"ChangesListSpecialPageStructuredFilters": "\\BlueSpice\\Social\\Hook\\ChangesListSpecialPageStructuredFilters\\AddSocialEntityFilter::callback"
+	},
+	"DefaultUserOptions": {
+		"bs-social-datedisplaymode": "age",
+		"bs-social-warnonleave": true,
+		"echo-subscriptions-web-bs-social-entity-cat": 1
+	},
+	"manifest_version": 2
+}

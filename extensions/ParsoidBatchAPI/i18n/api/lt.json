@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"apierror-parsoid-batch-notallowed": "Kliento IP adreso nėra ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidtitle": "Negalimas pavadinimas ($1)."
+}

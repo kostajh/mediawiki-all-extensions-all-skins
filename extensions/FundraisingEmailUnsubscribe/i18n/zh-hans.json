@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"LNDDYL",
+			"Liuxinyu970226",
+			"Qiyue2001",
+			"Yfdyh000",
+			"夢蝶葬花"
+		]
+	},
+	"fundraiserunsubscribe-desc": "允许用户在配置的筹款邮件列表中管理器成员身份",
+	"fundraiserunsubscribe": "从维基媒体筹款电子邮件中退订",
+	"fundraiserunsubscribe-query": "您确信您要退订'''''$1'''''么？",
+	"fundraiserunsubscribe-info": "这将停止从维基媒体基金会向您发送作为捐赠者相关的邮件。您仍将在此电子邮件地址接收到邮件，如果它与我们项目之一的账户有联系的话。如果您有任何问题，请联络[mailto:$1 $1]。",
+	"fundraiserunsubscribe-submit": "取消订阅",
+	"fundraiserunsubscribe-cancel": "取消",
+	"fundraiserunsubscribe-errormsg": "尝试处理您的请求时发生错误。请联系[mailto:$1 $1]。",
+	"fundraiserunsubscribe-success": "您已经成功从我们的邮件列表中移除。",
+	"fundraiserunsubscribe-sucesswarning": "请静候此更改生效，可能需要四（4）天时间。我们对于在此期间您收到的任何电邮表示歉意。如果您还有任何问题，请联系[mailto:$1 $1]。",
+	"fundraisersubscribe": "启用",
+	"fundraisersubscribe-fail": "尝试处理您的请求时出现错误。请联络[mailto:$1 $1]。",
+	"fundraisersubscribe-success": "谢谢您！"
+}

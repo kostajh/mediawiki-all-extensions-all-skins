@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-userinfo-description": "Provides flyouts with user informations for user images and links",
+	"apihelp-bs-userinfometa-description": "Lists the given users meta information data",
+	"apihelp-bs-userinfometa-summary": "Lists the given users meta information data",
+	"apihelp-bs-userinfometa-param-username": "Name of the user, whos meta information data will be listed"
+}

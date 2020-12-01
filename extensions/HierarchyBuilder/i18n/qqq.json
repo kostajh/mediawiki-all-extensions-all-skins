@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cindy Cicalese",
+			"Kevin Ji",
+			"Purodha",
+			"Umherirrender"
+		]
+	},
+	"hierarchybuilder-desc": "{{desc|name=Hierarchy Builder|url=https://www.mediawiki.org/wiki/Extension/Hierarchy_Builder}}",
+	"hierarchybuilder-reveal-editmessage": "Message used while editing with the hierarchy builder",
+	"hierarchybuilder-editmessage": "Message to be displayed above hierarchy (edit form)",
+	"hierarchybuilder-edit-error-message": "Error message used while editing with the hierarchy builder",
+	"hierarchybuilder-hierarchyroot": "Text to be displayed as root node of the hierarchy (edit form)",
+	"hierarchybuilder-unusedpages": "Text to be displayed as root node of unused page hierarchy (edit form)",
+	"hierarchybuilder-category-desc": "Page Forms category parameter description (edit form)",
+	"hierarchybuilder-missing-category": "Page Forms missing category warning (edit form)",
+	"hierarchybuilder-hierarchy-desc": "Page Forms hierarchy parameter description (select form)",
+	"hierarchybuilder-pagename-desc": "Page Forms pagename parameter description (select form)",
+	"hierarchybuilder-propertyname-desc": "Page Forms propertyname parameter description (select form)",
+	"hierarchybuilder-collapsed-desc": "Page Forms collapsed parameter description (select form)",
+	"hierarchybuilder-missing-page-name": "Page Forms missing page name warning (select form)",
+	"hierarchybuilder-missing-property-name": "Page Forms missing property name warning (select form)",
+	"hierarchybuilder-invalid-collapsed": "Page Forms invalid value for collapsed warning (select form)"
+}

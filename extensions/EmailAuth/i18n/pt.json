@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu"
+		]
+	},
+	"emailauth-desc": "Verifica autenticações suspeitas por correio eletrónico",
+	"emailauth-token-label": "Código de verificação",
+	"emailauth-token-help": "Chave 2FA de utilização única enviada por correio eletrónico.",
+	"emailauth-email-subject": "O seu código de verificação para autenticação na wiki $1",
+	"emailauth-email-body": "O seu código de verificação para autenticação na wiki $1 é $2",
+	"emailauth-login-message": "Precisa de verificar a sua autenticação. Foi enviado para o seu correio eletrónico ($1) um código de verificação. Introduza esse código aqui, por favor.",
+	"emailauth-login-failure": "Código de verificação inválido!",
+	"emailauth-login-retry-limit": "Demasiadas falhas!"
+}

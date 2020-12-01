@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dalba",
+			"FarsiNevis",
+			"Reza1615"
+		]
+	},
+	"bs-whoisonline-desc": "فهرستی از کاربرانی را نمایش می‌دهد که در حال حاضر آنلاین هستند",
+	"bs-whoisonline-nousers": "هیچ‌کس وارد سامانه نشده است.",
+	"bs-whoisonline-widget-title": "چه کسی برخط است؟",
+	"prefs-whoisonline": "چه کسی برخط است؟",
+	"bs-whoisonline-pref-limitcount": "حداکثر تعداد کاربران نشان‌داده‌شده:",
+	"bs-whoisonline-pref-orderby": "ترتیب بر پایه:",
+	"bs-whoisonline-pref-maxidletime": "ثانیه‌ها تا زمانی که کاربر به صورت برون‌خط علامت گذاشته شود:",
+	"bs-whoisonline-pref-orderby-time": "زمان به‌کار",
+	"bs-whoisonline-pref-orderby-name": "نام",
+	"bs-whoisonline-pref-interval": "بازهٔ روزآمدسازی بر حسب ثانیه:",
+	"bs-whoisonline-tag-whoisonlinecount-desc": "تعداد کل کاربرانی را نشان می‌دهد که در ۱۰ دقیقهٔ اخیر، وارد سیستم شده‌اند.",
+	"bs-whoisonline-tag-whoisonlinepopup-desc": "همهٔ کاربرانی را نشان می‌دهد که در ۱۰ دقیقهٔ اخیر، وارد سیستم شده‌اند.",
+	"bs-whoisonline-collection-type-userlogin": "ورود کاربر",
+	"bs-whoisonline-collection-var-login": "ورود به سامانه"
+}

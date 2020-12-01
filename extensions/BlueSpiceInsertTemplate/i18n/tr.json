@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-insertTemplate-desc": "Bir şablon eklemek için iletişim kutusu",
+	"bs-insertTemplate-button-template-title": "Şablon ekle veya düzenle",
+	"bs-insertTemplate-dialog-title": "Şablon ekle",
+	"bs-insertTemplate-dialog-label-choose": "Şablon seç",
+	"bs-insertTemplate-dialog-label-modify": "Şablonu değiştir",
+	"bs-insertTemplate-dialog-label-preview": "Önizleme",
+	"apihelp-bs-inserttemplate-store-description": "Tüm şablonları listeler. Sıralama, filtreleme ve sayfalamaya izin verir. ExtJS Mağazası parametrelerini uygular.",
+	"apihelp-bs-inserttemplate-store-summary": "Tüm şablonları listeler. Sıralama, filtreleme ve sayfalamaya izin verir. ExtJS Mağazası parametrelerini uygular."
+}

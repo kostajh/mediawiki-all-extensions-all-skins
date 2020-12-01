@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Devwebtel",
+			"Rail",
+			"Railfail536",
+			"Sp5uhe"
+		]
+	},
+	"lastuserlogin": "Ostatnie zalogowania użytkownika",
+	"lastuserlogin-desc": "Wyświetla datę i czas ostatniego zalogowania się przez użytkownika",
+	"lastuserlogin-userid": "Nazwa użytkownika",
+	"lastuserlogin-username": "Prawdziwa nazwa",
+	"lastuserlogin-useremail": "Adres e‐mail",
+	"lastuserlogin-lastlogin": "Ostatnie zalogowanie",
+	"lastuserlogin-daysago": "dni temu",
+	"lastuserlogin-nousers": "Nie znaleziono żadnego użytkownika.",
+	"action-lastlogin": "podglądu daty i czasu ostatniego zalogowania się użytkownika",
+	"right-lastlogin": "Podgląd daty i czasu ostatniego zalogowania się użytkownika"
+}

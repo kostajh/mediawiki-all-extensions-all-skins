@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"phabtaskgraph": "Phabricator-Aufgabengrafik",
+	"phabtaskgraph-desc": "Ermöglicht die Veranschaulichung von Phabricator-Aufgabenbeziehungen in einer machtgerichteten Grafik",
+	"phabtaskgraph-author-field-label": "Autor",
+	"phabtaskgraph-owner-field-label": "Besitzer",
+	"phabtaskgraph-tasks-field-label": "Aufgaben",
+	"phabtaskgraph-projects-field-label": "Projekte",
+	"phabtaskgraph-status-field-label": "Status",
+	"phabtaskgraph-width-field-label": "Breite",
+	"phabtaskgraph-height-field-label": "Höhe",
+	"phabtaskgraph-tasks-field-help": "Durch Kommata getrennte Liste mit Aufgabenkennungen (Beginn mit „T“ ist optional); z.&nbsp;B. „T123456, T654321“",
+	"phabtaskgraph-projects-field-help": "Durch Kommata getrennte Liste mit Projektnamen; z.&nbsp;B. „MediaWiki-Platform-Team, Epic“",
+	"phabtaskgraph-width-field-help": "Standard: 800",
+	"phabtaskgraph-height-field-help": "Standard: 800",
+	"phabtaskgraph-status-open": "Offen",
+	"phabtaskgraph-status-stalled": "Verzögert",
+	"phabtaskgraph-status-resolved": "Gelöst",
+	"phabtaskgraph-status-invalid": "Ungültig",
+	"phabtaskgraph-status-declined": "Abgelehnt",
+	"phabtaskgraph-status-duplicate": "Duplikat"
+}

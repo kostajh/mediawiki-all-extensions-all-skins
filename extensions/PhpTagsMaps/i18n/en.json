@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"pastakhov"
+		]
+	},
+	"multimaps-desc": "Allows users to display maps and coordinate data using multiple mapping services",
+	"multimaps-loading-map": "Loading map...",
+	"multimaps-mapservices-must-not-empty-array": "Variable \"$1\" must not be an empty array",
+	"multimaps-had-following-errors": "When parsing the passed parameters had the following errors:",
+	"multimaps-element-illegal-value": "for the parameter \"$1\" was specified illegal value \"$2\". Valid values are: $3",
+	"multimaps-element-more-parameters": "For this map element \"$1\" passed more parameters than expected:",
+	"multimaps-element-parameters-not-processed": "the following parameters were not processed: $1",
+	"multimaps-circle-radius-not-defined": "for the circle must be defined radius",
+	"multimaps-circle-wrong-number-parameters": "for the circle should be defined only two parameters, the coordinates of the center and the radius. But specified {{PLURAL:$1|one parameter|$1 parameters}}",
+	"multimaps-marker-incorrect-icon": "An incorrect filename \"$1\" was provided for the marker icon.",
+	"multimaps-marker-incorrect-icon-url": "An incorrect URL \"$1\" was provided for the marker icon.",
+	"multimaps-marker-incorrect-icon-size": "An incorrect size \"$1\" was provided for the marker icon \"$2\".",
+	"multimaps-marker-incorrect-icon-anchor": "An incorrect anchor \"$1\" was provided for the marker icon \"$2\".",
+	"multimaps-marker-incorrect-shadow-file": "An incorrect filename \"$1\" was provided for the icon shadow.",
+	"multimaps-marker-incorrect-shadow-url": "An incorrect URL \"$1\" was provided for the icon shadow.",
+	"multimaps-marker-incorrect-shadow-size": "An incorrect size \"$1\" was provided for the icon shadow \"$2\".",
+	"multimaps-marker-incorrect-shadow-anchor": "An incorrect anchor \"$1\" was provided for the icon shadow \"$2\".",
+	"multimaps-passed-unavailable-service": "Service name \"$1\" not found in the list of available services ($2). Used default service \"$3\"",
+	"multimaps-square-wrong-number-points": "coordinates of the square should contain only two points, but specified {{PLURAL:$1|one point|$1 points}}",
+	"multimaps-unable-create-element": "Map element \"$1\" can not be created",
+	"multimaps-unable-parse-coordinates": "unable to parse the geographic coordinates \"$1\"",
+	"multimaps-unable-parse-parameter": "unable to parse parameter \"$1\" value is \"$2\"",
+	"multimaps-unable-parse-radius": "radius of the circle must be a numeric value, but specified \"$1\"",
+	"multimaps-unknown-class-for-service": "The class \"$1\" that is defined for the service cannot be found.",
+	"multimaps-unknown-parameter": "Unknown parameter: \"$1\"",
+	"multimaps-error-incorrect-class-for-service": "The class \"$1\" that is defined for the service cannot be used.",
+	"multimaps-method-error-unknown-action": "$1: Unknown action",
+	"multimaps-method-error-unexpected-result": "$1: An unexpected result of a function"
+}

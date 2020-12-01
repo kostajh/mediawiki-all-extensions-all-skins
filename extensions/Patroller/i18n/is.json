@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jóna Þórunn"
+		]
+	},
+	"patrol-revert": "Taka aftur",
+	"patrol-revert-reason": "Ástæða:",
+	"patrol-skip": "Sleppa",
+	"patrol-reverting": "Tek aftur: $1",
+	"patrol-skipped-ok": "Hunsa breytingu.",
+	"patrol-reasons": "* Smávægilegt skemmdarverk\n* Tilraun nýliða\n* Sjá spjallsíðu",
+	"patrol-resume": "Smelltu hér til að halda áfram."
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"form-desc": "Un [[Special:Form|interfacie de formulario]] pro initiar nove paginas",
+	"form": "Comenciar un nove pagina",
+	"form-no-name": "Nulle nomine del formulario",
+	"form-no-name-text": "Tu debe fornir un nomine pro le formulario, como \"Special:Formulario/NomineDelFormulario\".",
+	"form-bad-name": "Nomine de formulario invalide",
+	"form-bad-name-text": "Non existe un formulario con iste nomine.",
+	"form-pattern": "formulario-$1",
+	"form-save": "Salveguardar",
+	"form-index-mismatch-title": "Non-correspondentia inter forma de nomine e patrono",
+	"form-index-mismatch": "Iste formulario ha formas de nomine e patronos non correspondente a partir del indice $1.",
+	"form-article-exists": "Pagina existe",
+	"form-article-existstext": "Le pagina [[$1]] existe ja.",
+	"form-bad-page-name": "Nomine de pagina invalide",
+	"form-bad-page-name-text": "Le datos de formulario que tu entrava resulta in un nomine de pagina invalide, \"$1\".",
+	"form-required-field-error": "Le {{PLURAL:$2|campo|campos}} $1 es requirite pro iste formulario.\nPer favor completa {{PLURAL:$2|lo|los}}.",
+	"form-save-summary": "Nove pagina con [[Special:Form/$1|le formulario $1]]",
+	"form-save-error": "Error durante le salveguarda del formulario",
+	"form-save-error-text": "Il occurreva un error incognite durante le salveguarda del pagina '$1'."
+}

@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Patric Wirth <wirth@hallowelt.com>",
+			"Raymond",
+			"Umherirrender",
+			"Verdy p"
+		]
+	},
+	"multilanguagemanager": "Title of the special page",
+	"mlm-desc": "{{desc|name=MultiLanguageManager|url=https://www.mediawiki.org/wiki/Extension:MultiLanguageManager}}",
+	"action-language": "{{doc-action|language}}",
+	"mlm-error-title-invalid": "Error message in case that a invalid title was provided",
+	"mlm-error-title-notexists": "Error message in case that a provided title does not exist\n*Parameter $1 - Full page name",
+	"mlm-error-title-istalkpage": "Error message in case that a provided title is a talk page\n*Parameter $1 - Full page name",
+	"mlm-error-title-nsnotallowed": "Error message in case that a provided title is in a namespace that has no translation enabled\n*Parameter $1 - Full page name",
+	"mlm-error-title-isalreadytranslation": "Error message in case that a title already has a translation\n*Parameter $1 - Full page name",
+	"mlm-error-title-isalreadysource": "Error message in case that a title is already declared to be the source of a translation\n*Parameter $1 - Full page name",
+	"mlm-error-title-isnottranslation": "Error message in case that a page title is not translated\n* Parameter $1 - Full page name",
+	"mlm-error-lang-invalid": "Error message in case that a invalid language code was provided",
+	"mlm-error-lang-notallowed": "Error message in case that a specific language code is not allowed by configuration\n*Parameter $1 - The language code",
+	"mlm-error-lang-alreadytraslated": "Error message in case that there is already a translation for a specific language code\n*Parameter $1 - The language code",
+	"mlm-input-label-sourcetitle": "Label for a textfield that allows specification of the source title",
+	"mlm-input-label-translationtitles": "Label of a section that lists translations of an article.\n*Parameter $1 - Number of available translations",
+	"mlm-input-label-add": "Label for a add button, that adds a translation\n{{Identical|Add translation}}",
+	"mlm-input-label-save": "Label for a save button\n{{Identical|Save}}",
+	"mlm-input-label-delete": "Label for a delete button, that deletes all translations.\n{{Identical|Delete all translations}}",
+	"mlm-input-label-cancel": "Label for a cancel button\n{{Identical|Cancel}}",
+	"mlm-contentaction-label": "Label of a content action link that opens Special:MultiLanguageManager",
+	"right-language": "Grants access to use the user interface of the MultilanguageManager extension to add, edit and delete translations.\n{{doc-right|language}}",
+	"apihelp-mlm-tasks-summary": "{{doc-apihelp-summary|mlm-tasks}}",
+	"apihelp-mlm-tasks-param-task": "{{doc-apihelp-param|mlm-tasks|task}}",
+	"apihelp-mlm-tasks-param-taskData": "{{doc-apihelp-param|mlm-tasks|taskData}}",
+	"apihelp-mlm-tasks-param-format": "{{doc-apihelp-param|mlm-tasks|format}}",
+	"mlm-input-label-sourcetitle-section": "Label for the source title section in the OOUI dialog\nVery short sentence wich explains, that a translation for the in this section given source article can be defined.\ni.e.: \"Defines the translations of:\"",
+	"mlm-input-label-translationtitles-section": "Label for the translation titles section in the OOUI dialog\nVery short sentence wich explains, that translations can be added in the selected language.\ni.e.: \"In the following Language:\""
+}

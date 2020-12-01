@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"flexiskin-ui-plugin-colors-background-primary-label": "Цвет 1",
+	"flexiskin-ui-plugin-colors-background-secondary-label": "Цвет 2",
+	"flexiskin-ui-plugin-colors-background-tertiary-label": "Цвет 3",
+	"flexiskin-ui-plugin-colors-background-quaternary-label": "Цвет 4",
+	"flexiskin-ui-plugin-colors-foreground-primary-label": "Цвет 1",
+	"flexiskin-ui-plugin-colors-foreground-secondary-label": "Цвет 2",
+	"flexiskin-ui-plugin-colors-foreground-tertiary-label": "Цвет 3",
+	"flexiskin-ui-plugin-colors-foreground-quaternary-label": "Цвет 4",
+	"flexiskin-ui-plugin-content-header-color-label": "Цвет",
+	"flexiskin-ui-plugin-content-header-font-size-label": "Размер шрифта",
+	"flexiskin-ui-plugin-content-colors-label": "Цвета",
+	"flexiskin-ui-plugin-content-font-label": "Шрифт"
+}

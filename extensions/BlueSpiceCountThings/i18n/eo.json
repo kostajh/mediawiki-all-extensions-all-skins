@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"bs-countthings-chars-label": "Skribsignoj",
+	"bs-countthings-words-label": "Vortoj",
+	"bs-countthings-files-label": "Dosieroj",
+	"bs-countthings-pages-label": "Paĝoj",
+	"bs-countthings-ve-countthingsinspector-mode": "Reĝimo",
+	"bs-countthings-ve-countcharacters-mode-all": "ĉio",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "skribsignoj",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "vortoj",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "skribsignoj kaj vortoj",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "paĝoj",
+	"bs-countthings-ve-countcharacters-input-label": "Paĝoj",
+	"bs-countthings-tag-countcharacters-example-1": "Nombro de vortoj",
+	"bs-countthings-tag-countcharacters-example-2": "Nombro de skribsignoj"
+}

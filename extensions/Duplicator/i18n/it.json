@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Broken Arrow",
+			"Darth Kule",
+			"Gianfranco",
+			"Nemo bis"
+		]
+	},
+	"duplicator": "Duplica una pagina",
+	"duplicator-desc": "Crea [[Special:Duplicate|copie indipendenti di pagine]] con le cronologie complete delle modifiche",
+	"duplicator-toolbox": "Duplica questa pagina",
+	"duplicator-header": "Questa pagina speciale consente la duplicazione completa di una pagina, dando origine a due copie distinte della relativa cronologia. Tale operazione può essere utile per scindere due pagine (''forking''), ecc.",
+	"duplicator-options": "Opzioni",
+	"duplicator-source": "Pagina di partenza:",
+	"duplicator-dest": "Pagina di arrivo:",
+	"duplicator-dotalk": "Duplica anche la pagina di discussione, se esiste",
+	"duplicator-dosubpages": "Duplica le sottopagine (se ce ne sono)",
+	"duplicator-dohistory": "Duplica tutta la cronologia della pagina",
+	"duplicator-submit": "Duplica",
+	"duplicator-summary": "Copiata da [[$1]], versione [[$2]]",
+	"duplicator-success": "La pagina [[$1]] è stata copiata in [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|versione copiata|versioni copiate}}.",
+	"duplicator-success-talknotcopied": "Impossibile copiare la pagina di discussione.",
+	"duplicator-failed": "Impossibile duplicare la pagina. Errore sconosciuto.",
+	"duplicator-failed-toolong": "Non è stato possibile duplicare [[$1]]. Il titolo di destinazione è troppo lungo.",
+	"duplicator-failed-dest-exists": "Non è stato possibile duplicare [[$1]]. La destinazione [[$2]] esiste già.",
+	"duplicator-source-invalid": "Indica un titolo di origine valido.",
+	"duplicator-source-notexist": "La pagina [[$1]] non esiste. Indicare il titolo di una pagina esistente.",
+	"duplicator-dest-invalid": "Indica un titolo di destinazione valido.",
+	"duplicator-dest-exists": "La pagina [[$1]] esiste già. Indicare un titolo di arrivo non ancora esistente.",
+	"right-duplicate": "Duplica pagine"
+}

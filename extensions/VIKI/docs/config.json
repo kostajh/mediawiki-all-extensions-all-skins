@@ -1,0 +1,10 @@
+{
+    "--title": "VIKI - Documentation",
+    "--warnings": ["-nodoc(class,public)"],
+    "--warnings-exit-nonzero": true,
+    "--footer": "Documentation for VIKI. Generated on {DATE} by {JSDUCK} {VERSION}.",
+    "--output": "../docs/js",
+    "--": [
+        "../VikiJS.js"
+    ]
+}

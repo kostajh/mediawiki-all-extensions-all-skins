@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"svgedit-editbutton-edit": "Уреди",
+	"svgedit-summary-label": "Опис на уредувањето",
+	"svgedit-summary-default": "/* Изменето во svg-edit */",
+	"svgedit-editor-save-close": "Зачувај и затвори",
+	"svgedit-editor-close": "Откажи",
+	"svgedit-desc": "Уредување на SVG-цртежи во самиот прелистувач со [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Уреди цртеж",
+	"svgedit-edit-tab-tooltip": "Можете да го уредите овој SVG-цртеж во прелистувачот",
+	"svgedit-toolbar-insert": "SVG-цртеж"
+}

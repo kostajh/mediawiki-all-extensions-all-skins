@@ -1,0 +1,37 @@
+!! Version 2
+
+!! test
+No namespace
+!! wikitext
+<text>
+	<body>
+		<p>Foo</p>
+	</body>
+</text>
+!! html/php
+<article data-tei-tag="text">
+	<section data-tei-tag="body">
+		<p data-tei-tag="p">Foo</p>
+	</section>
+</article>
+!!end
+
+!! test
+List no type
+!! wikitext
+<list>
+	<item>Foo</item>
+</list>
+!! html/php
+<ul data-tei-tag="list">
+	<li data-tei-tag="item">Foo</li>
+</ul>
+!!end
+
+!! test
+Bad style
+!! wikitext
+<p xmlns="http://www.tei-c.org/ns/1.0" style="background: url('foo.jpg');">Foo</p>
+!! html/php
+<p data-tei-tag="p" style="/* insecure input */">Foo</p>
+!!end

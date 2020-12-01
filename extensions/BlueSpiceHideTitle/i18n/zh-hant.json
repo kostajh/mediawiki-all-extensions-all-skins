@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
+			"Winston Sung"
+		]
+	},
+	"bs-hidetitle-desc": "加入魔術字<code><nowiki>__HIDETITLE__</nowiki></code>來隱藏頁面標題",
+	"bs-hidetitle-ve-dialog-meta-settings-showtitle": "顯示",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle": "隱藏",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-label": "標題可見性",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-help": "您可以在此定義標題是否要顯示。"
+}

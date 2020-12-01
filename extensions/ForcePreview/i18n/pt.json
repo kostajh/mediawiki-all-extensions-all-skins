@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu",
+			"Malafaya",
+			"Waldir"
+		]
+	},
+	"forcepreview": "$1 (use a antevisão primeiro)",
+	"forcepreview-desc": "Força antevisão para utilizadores sem privilégios",
+	"action-forcepreviewexempt": "pode gravar páginas sem usar \"Antever resultado\"",
+	"right-forcepreviewexempt": "Pode gravar páginas sem usar \"Antever resultado\""
+}

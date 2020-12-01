@@ -1,0 +1,31 @@
+{
+	"name": "UnCaptcha",
+	"author": "Kunal Mehta",
+	"license-name": "GPL-3.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:UnCaptcha",
+	"type": "antispam",
+	"descriptionmsg": "uncaptcha-desc",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"AutoloadClasses": {
+		"MediaWiki\\UnCaptcha\\Hooks": "includes/Hooks.php",
+		"MediaWiki\\UnCaptcha\\RobotPreAuthenticationProvider": "includes/RobotPreAuthenticationProvider.php",
+		"MediaWiki\\UnCaptcha\\RobotAuthenticationRequest": "includes/RobotAuthenticationRequest.php"
+	},
+	"AuthManagerAutoConfig": {
+		"preauth": {
+			"UnCaptchaPreAuthenticationProvider":{
+				"class": "MediaWiki\\UnCaptcha\\RobotPreAuthenticationProvider",
+				"sort": 50
+			}
+		}
+	},
+	"Hooks": {
+		"AuthChangeFormFields": "MediaWiki\\UnCaptcha\\Hooks::onAuthChangeFormFields"
+	},
+	"MessagesDirs": {
+		"UnCaptcha": "i18n"
+	},
+	"manifest_version": 2
+}

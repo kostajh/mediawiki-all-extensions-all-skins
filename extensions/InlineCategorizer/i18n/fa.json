@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armandaneshjoo",
+			"Huji",
+			"Reza1615",
+			"ZxxZxxZ"
+		]
+	},
+	"inlinecategorizer-desc": "پودمان جاوااسکریپت که تغییر، افزودن و حذف‌کردن رده‌ها را مستقیماً از صفحه ممکن می‌کند",
+	"inlinecategorizer-add-category": "افزودن رده",
+	"inlinecategorizer-add-category-submit": "افزودن",
+	"inlinecategorizer-add-category-summary": "افزودن رده «$1»",
+	"inlinecategorizer-api-error": "رابط برنامه‌نویسی خطایی بازگرداند: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "رابط برنامه‌نویسی یک خطای ناشناخته بازگرداند.",
+	"inlinecategorizer-cancel": "لغو ویرایش‌ها",
+	"inlinecategorizer-cancel-all": "لغو همه تغییرات",
+	"inlinecategorizer-category-already-present": "این صحفه از قبل در رده $1 قرار دارد",
+	"inlinecategorizer-category-hook-error": "یک تابع محلی از ذخیره تغییرات جلوگیری کرد.",
+	"inlinecategorizer-category-question": "چرا می خواهید تغییرات زیر را ایجاد کنید:",
+	"inlinecategorizer-confirm-ok": "تأیید",
+	"inlinecategorizer-confirm-save": "ذخیره",
+	"inlinecategorizer-confirm-save-all": "ذخیره کردن تمام تغییرات",
+	"inlinecategorizer-confirm-title": "تأیید عمل",
+	"inlinecategorizer-edit-category": "ویرایش رده",
+	"inlinecategorizer-edit-category-error": "امکان ویرایش رده «$1» وجود نداشت.\nاین اتفاق معمولاً زمانی می‌افتد که رده از طریق یک الگو به صفحه اضافه شده باشد.",
+	"inlinecategorizer-edit-category-summary": "تغییر رده «$1» به «$2»",
+	"inlinecategorizer-error-title": "خطا",
+	"inlinecategorizer-remove-category": "حذف رده",
+	"inlinecategorizer-remove-category-error": "امکان حذف رده «$1» وجود نداشت.\nاین اتفاق معمولاً زمانی می‌افتد که رده از طریق یک الگو به صفحه اضافه شده باشد.",
+	"inlinecategorizer-remove-category-summary": "حذف رده «$1»"
+}

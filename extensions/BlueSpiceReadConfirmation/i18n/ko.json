@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-readconfirmation-confirm-read-checkbox-label": "예, 이 문서를 완전히 읽었습니다.",
+	"bs-readconfirmation-confirm-read-button-label": "확인",
+	"bs-readconfirmation-action-apiread-confirm-description": "$1 문서를 읽은 것으로 표시",
+	"bs-readconfirmation-api-error-no-page": "지정된 문서가 없습니다",
+	"bs-readconfirmation-api-error-no-non-minor-revision": "판이 없습니다",
+	"logeventslist-bs-readconfirmation-log": "확인 기록 읽기",
+	"bs-readconfirmation-disabled-ns-short": "비활성화됨",
+	"bs-readconfirmation-logentry-confirm-suffix-as-of": "($1 기준)"
+}

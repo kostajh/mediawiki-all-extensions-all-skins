@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"inlinecategorizer-desc": "JavaScriptmodule die het toevoegen, verwijderen en wijzigen van categoriekoppelingen direct vanuit de pagina mogelijk maakt",
+	"inlinecategorizer-add-category": "Categorie toevoegen",
+	"inlinecategorizer-add-category-submit": "Toevoegen",
+	"inlinecategorizer-add-category-summary": "categorie \"$1\" toevoegen",
+	"inlinecategorizer-api-error": "De API gaf een foutmelding: $1: $2",
+	"inlinecategorizer-api-unknown-error": "De API gaf een onbekende foutmelding.",
+	"inlinecategorizer-cancel": "Bewerkingen annuleren",
+	"inlinecategorizer-cancel-all": "Alle wijzigingen annuleren",
+	"inlinecategorizer-category-already-present": "Deze pagina behoort al tot categorie $1",
+	"inlinecategorizer-category-hook-error": "Een lokale functie verhinderde het opslaan van de wijzigingen",
+	"inlinecategorizer-category-question": "Waarom wilt u de volgende wijzigingen maken:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Opslaan",
+	"inlinecategorizer-confirm-save-all": "Alle wijzigingen opslaan",
+	"inlinecategorizer-confirm-title": "Handeling bevestigen",
+	"inlinecategorizer-edit-category": "Categorie bewerken",
+	"inlinecategorizer-edit-category-error": "!Het was niet mogelijk om categorie \"$1\" te bewerken.\nDit gebeurt meestal wanneer de categorie is toegevoegd aan de pagina door een sjabloon.",
+	"inlinecategorizer-edit-category-summary": "categorie \"$1\" naar \"$2\" wijzigen",
+	"inlinecategorizer-error-title": "Fout",
+	"inlinecategorizer-remove-category": "Categorie verwijderen",
+	"inlinecategorizer-remove-category-error": "Het was niet mogelijk categorie \"$1\" te verwijderen.\nDit gebeurt meestal als de categorie via een sjabloon aan de pagina is toegevoegd.",
+	"inlinecategorizer-remove-category-summary": "categorie \"$1\" verwijderen"
+}

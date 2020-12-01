@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Red Winged Duck",
+			"Wizardist"
+		]
+	},
+	"tweetanew-desc": "Дасылае паведамленьне ў Twitter пасьля стварэньня ці рэдагаваньня старонкі",
+	"tweetanew-newaction": "Даслаць паведамленьне ў Twitter пра новую старонку",
+	"tweetanew-newtooltip": "Даслаць паведамленьне пра гэтую новую старонку ў Twitter",
+	"tweetanew-editaction": "Даслаць паведамленьне ў Twitter пра гэтае рэдагаваньне",
+	"tweetanew-edittooltip": "Даслаць паведамленьне пра гэтае рэдагаваньне ў Twitter",
+	"tweetanew-minoredit": "д",
+	"tweetanew-authorcredit": "ад",
+	"tweetanew-newdefault": "НОВАЯ СТАРОНКА: $1 — $2",
+	"tweetanew-new1": "Хтосьці стварыў старонку «$1» па адрасе $2",
+	"tweetanew-new2": "Нядаўна была створаная старонка «$1»: $2",
+	"tweetanew-new3": "Наведайце новую старонку «$1» — $2",
+	"tweetanew-editdefault": "Абнавілася старонка: $1 — $2",
+	"tweetanew-edit1": "Выглядае, што старонку $1 абнавілі: $2",
+	"tweetanew-edit2": "$1 нядаўна была зьмененая — $2",
+	"tweetanew-edit3": "Наведайце $2 — там абнавілася старонка $1"
+}

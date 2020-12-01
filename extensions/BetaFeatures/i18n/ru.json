@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Diralik",
+			"Kaganer",
+			"Lockal",
+			"Lord Dimetr",
+			"Okras",
+			"Sunpriat"
+		]
+	},
+	"betafeatures-auto-enroll": "Автоматически включать большинство бета-функций",
+	"betafeatures-auto-enroll-help": "Некоторые бета-функции могут неожиданно изменяться, поэтому {{GENDER:|вам}} необходимо включать их вручную.",
+	"betafeatures-desc": "Позволяет пользователю включить или отключить функции, которые ещё не готовы к прайм-тайм",
+	"betafeatures-extension-type": "Бета-функции",
+	"betafeatures-section-desc": "{{PLURAL:$1|1=Появилась новая функция, которую|Появилось несколько новых функций, которые}} мы продумываем для {{grammar:genitive|{{SITENAME}}}}. Пожалуйста, попробуйте {{PLURAL:$1|1=её|их}} и выскажите нам свои соображения, чтобы мы могли улучшить {{PLURAL:$1|1=это нововведения|эти нововведения}}, основываясь на ваших отзывах.",
+	"betafeatures-toplink": "Бета",
+	"betafeatures-feature-autoenrolled": "Автоматически подключаемая функция",
+	"mw-ui-feature-discuss": "Обсуждение",
+	"mw-ui-feature-info": "Информация",
+	"mw-ui-feature-requirements-betafeatures": "Эта функция требует, чтоб {{PLURAL:$1|1=была включена следующая функция|были включены следующие функции}}:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|1=Следующий браузер не поддерживается|Следующие браузеры не поддерживаются}}:",
+	"mw-ui-feature-requirements-javascript": "Эта функция требует JavaScript.",
+	"mw-ui-feature-requirements-skins": "Эта функция работает только со {{PLURAL:$1|1=следующей темой|следующими темами}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Один пользователь тестирует|$1 пользователя тестируют|0=Никто не тестирует|$1 пользователей тестируют}} эту функцию.",
+	"prefs-betafeatures": "Бета-функции",
+	"tooltip-pt-betafeatures": "Бета-функции"
+}

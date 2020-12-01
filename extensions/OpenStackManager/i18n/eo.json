@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Blahma",
+			"Psychoslave",
+			"Robin van der Vliet",
+			"Yekrats"
+		]
+	},
+	"openstackmanager-desc": "Permesas al uzantoj por administri servilajn ilojn Nova aŭ Swift",
+	"openstackmanager": "OpenStackManager",
+	"specialpages-group-nova": "Nova OpenStack",
+	"openstackmanager-novakey": "Ŝlosilo Nova",
+	"openstackmanager-delete": "forigi",
+	"openstackmanager-actions": "Agoj",
+	"openstackmanager-notloggedin": "Nepre ensaluti",
+	"openstackmanager-mustbeloggedin": "Vi devas ensaluti por fari ĉi tiun agon.",
+	"openstackmanager-novapublickey": "Publika SSH-ŝlosilo",
+	"openstackmanager-deletekey": "Forigi ŝlosilon",
+	"openstackmanager-keylist": "Listo de ŝlosiloj",
+	"openstackmanager-name": "Nomo",
+	"openstackmanager-keys": "Ŝlosiloj",
+	"openstackmanager-deletedkey": "Sukcese forigis ŝlosilon.",
+	"openstackmanager-deletedkeyfailed": "Malsukcesis forigi ŝlosilon",
+	"openstackmanager-shellaccountname": "Ekzemplero de ŝela kontnomo"
+}

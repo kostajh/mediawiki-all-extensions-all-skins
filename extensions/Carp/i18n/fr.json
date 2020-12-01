@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Verdy p"
+		]
+	},
+	"carp-desc": "Fournit un rapport d’erreur et de pile d’exécution à d’autres extensions",
+	"carp-function-msg": "&#123;&#123; $1 : $2 &#125;&#125;"
+}

@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"pageexchange-desc": "允許安裝預先定義 wiki 頁面的套件",
+	"packages": "套件",
+	"right-pageexchange": "執行 Page Exchange 操作",
+	"action-pageexchange": "執行 Page Exchange 操作",
+	"pageexchange-logname": "Page Exchange 日誌",
+	"pageexchange-logdesc": "此為與 Page Exchange 擴充相關的操作日誌。",
+	"pageexchange-installed": "已安裝",
+	"pageexchange-available": "可用",
+	"pageexchange-installpackage": "安裝套件：$1",
+	"pageexchange-updatepackage": "更新套件：$1",
+	"pageexchange-uninstallpackage": "解除安裝套件：$1",
+	"pageexchange-installpackagelog": "$3安裝了套件$2",
+	"pageexchange-updatepackagelog": "$3更新了套件$2",
+	"pageexchange-uninstallpackagelog": "$3解除安裝了套件$2",
+	"pageexchange-package-website": "網站：",
+	"pageexchange-package-publisher": "發布者：",
+	"pageexchange-package-author": "作者：",
+	"pageexchange-package-version": "版本：",
+	"pageexchange-package-pages": "頁面：",
+	"pageexchange-package-language": "語言：",
+	"pageexchange-package-requiredextensions": "所需擴充：",
+	"pageexchange-package-requiredpackages": "所需套件：",
+	"pageexchange-package-morerecent": "此套件現在有比安裝在此 wiki 上還要新的版本。",
+	"pageexchange-package-install": "安裝",
+	"pageexchange-package-update": "更新",
+	"pageexchange-package-uninstall": "解除安裝",
+	"pageexchange-package-deleteallpages": "刪除所有關聯的 wiki 頁面",
+	"pageexchange-pagehaschanged": "此頁面的最新版本與本地副本有差異。",
+	"pageexchange-latestvalue": "（最新值：$1）",
+	"pageexchange-uninstallablepackage": "出於以下原因，此套件無法安裝：",
+	"pageexchange-inappropriatepackage": "此套件可能不適用於您的 wiki，請見下文。",
+	"pageexchange-packageinstalled": "此套件已安裝。",
+	"pageexchange-packageuninstalled": "此套件已解除安裝。",
+	"pageexchange-packageupdated": "此套件已更新。"
+}

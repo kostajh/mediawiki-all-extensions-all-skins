@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jaroslav Cerny",
+			"Vks"
+		]
+	},
+	"semanticpageseries-desc": "Vytváří série stránek z jednoho [https://www.mediawiki.org/wiki/Extension:Semantic_Forms sémantického formuláře]",
+	"spssuccesstitle": "Vytváření $1 stránek",
+	"spssuccess": "{{PLURAL:$1|Bude vytvořena jedna stránka|Bude vytvořeno $1 stránek}}.",
+	"spssuccess-returntoorigin": "Návrat na $1",
+	"spserror": "Došlo k chybě",
+	"spserror-diffnotsupported": "Akce porovnání rozdílů není podporována u série stránek.",
+	"spserror-previewnotsupported": "Akce náhledu není podporována u série stránek.",
+	"spserror-noiteratorname": "Nebyl zadán iterátor. Musíte nastavit parametr \"iterator\" ve volání funkce analyzátoru #serieslink.",
+	"spserror-iteratorunknown": "Iterátor \"$1\" neexistuje. Musíte opravit parametr \"iterator\" ve volání funkce analyzátoru #serieslink.",
+	"spserror-noformname": "Nebyl zadán název formuláře. Musíte nastavit parametr \"form\" ve volání funkce analyzátoru #serieslink.",
+	"spserror-formunknown": "Formulář „$1“ neexistuje.",
+	"spserror-notargetformname": "Nebyl zadán název cílového formuláře. Musíte nastavit parametr \"target form\" ve volání funkce analyzátoru #serieslink.",
+	"spserror-notargetfieldname": "Nebyl zadán název cílového pole. Musíte nastavit parametr \"target field\" ve volání funkce analyzátoru #serieslink.",
+	"spserror-iteratorparammissing": "Ve volání funkce #serieslink chybí následující parametry iterátoru:\n$1",
+	"spserror-noiteratordata": "V odeslaných datech nebyly nalezeny parametry iterátoru.",
+	"spserror-pagegenerationlimitexeeded": "Zkusili jste vytvořit {{PLURAL:$1|jednu stránku|$1 stránek}}. Tento počet převyšuje váš povolený limit {{PLURAL:$2|jedné stránky|$2 stránek}}.",
+	"spserror-date-startdatemissing": "Chybí počáteční datum.",
+	"spserror-date-internalerror": "Došlo k chybě při vytváření kalendářních dat: $1",
+	"spserror-count-startvaluemalformed": "Počáteční hodnota není číslo.",
+	"spserror-count-endvaluemalformed": "Koncová hodnota není číslo.",
+	"spserror-count-stepvaluemalformed": "Hodnota kroku není číslo.",
+	"spserror-count-digitsvaluemalformed": "Hodnota digits není číslo."
+}

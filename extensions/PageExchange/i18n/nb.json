@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"pageexchange-desc": "Gjør det mulig å installere «pakker» med forhåndsdefinerte wikisider",
+	"packages": "Pakker",
+	"right-pageexchange": "Kjøre Page Exchange-handlinger",
+	"action-pageexchange": "kjøre Page Exchange-handlinger",
+	"pageexchange-logname": "Page Exchange-logg",
+	"pageexchange-logdesc": "Dette er loggen over handlinger relatert til utvidelsen Page Exchange.",
+	"pageexchange-installed": "Installert",
+	"pageexchange-available": "Tilgjengelig",
+	"pageexchange-installpackage": "Installer pakke: $1",
+	"pageexchange-updatepackage": "Oppdater pakke: $1",
+	"pageexchange-uninstallpackage": "Avinstaller pakke: $1",
+	"pageexchange-installpackagelog": "installerte pakken $2 av $3",
+	"pageexchange-updatepackagelog": "oppdaterte pakken $2 av $3",
+	"pageexchange-uninstallpackagelog": "avinstallerte pakken $2 av $3",
+	"pageexchange-package-website": "Nettsted:",
+	"pageexchange-package-publisher": "Utgiver:",
+	"pageexchange-package-author": "Opphavsperson:",
+	"pageexchange-package-version": "Versjon:",
+	"pageexchange-package-pages": "Sider:",
+	"pageexchange-package-language": "Språk:",
+	"pageexchange-package-requiredextensions": "Påkrevde utvidelser:",
+	"pageexchange-package-requiredpackages": "Påkrevde pakker:",
+	"pageexchange-package-morerecent": "Det er en nyere versjon av denne pakken enn den som er installert på denne wikien.",
+	"pageexchange-package-install": "Installer",
+	"pageexchange-package-update": "Oppdater",
+	"pageexchange-package-uninstall": "Avinstaller",
+	"pageexchange-package-deleteallpages": "Slett alle tilknyttede wikisider",
+	"pageexchange-pagehaschanged": "den nyeste versjonen av denne siden er forskjellig fra den lokale kopien.",
+	"pageexchange-latestvalue": "(nyeste verdi: $1)",
+	"pageexchange-uninstallablepackage": "Denne pakken kan ikke installeres, fordi:",
+	"pageexchange-inappropriatepackage": "Denne pakken kan være upassende for wikien din; se nedenfor.",
+	"pageexchange-packageinstalled": "Denne pakken ble installert.",
+	"pageexchange-packageuninstalled": "Denne pakken ble avinstallert.",
+	"pageexchange-packageupdated": "Denne pakken ble oppdatert."
+}

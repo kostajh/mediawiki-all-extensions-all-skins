@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Rapsar"
+		]
+	},
+	"wlm-extension-desc": "Viki Sevgi Anıtları fotoğraf yarışmasıyla ilgili bilgi ve mesajlar ekler",
+	"wlm-no-contest-year": "$1 Viki Sevgi Anıtı yarışması yoktu.",
+	"wlm-no-url-bad-country": "Yerel yarışma için web sitesini alamadık. $1 geçerli bir ülke kodu değil.",
+	"wlm-country-not-given": "Ülke kodu girmeniz gerekiyor.",
+	"wlm-country-not-participating-year": "«$1» Viki Sevgi Anıtlarına katılmıyor $2",
+	"wlm-sidebar-portlet": "Diğer ülkeler",
+	"wlm-international-contest": "Uluslararası",
+	"wlm-text-contact": "İletişim",
+	"wlm-text-contest": "Yarışma",
+	"wlm-text-donate": "Bağış yap",
+	"wlm-text-faq": "SSS",
+	"wlm-text-jury": "Jüri",
+	"wlm-text-monuments": "Anıtlar",
+	"wlm-text-news": "Haberler",
+	"wlm-text-participate": "Katıl!",
+	"wlm-text-prizes": "Ödüller",
+	"wlm-text-rules": "Kurallar",
+	"wlm-text-sponsors": "Sponsorlar",
+	"wlm-text-uploading": "Yükleme"
+}

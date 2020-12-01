@@ -1,0 +1,48 @@
+/* visualeditor */
+.ve-ui-overlay-global {
+	z-index: 999 !important;
+}
+
+.ve-ui-toolbar-floating > .oo-ui-toolbar-bar {
+	top: 3.125rem !important;
+}
+
+p.ve-ce-generated-wrapper,
+p.mw-empty-elt,
+td.ve-ce-tableCellableNode p,
+.mw-editfont-monospace p.ve-ce-paragraphNode {
+	margin: 0 0 0 0 !important;
+}
+
+span.ve-ce-branchNode-slug {
+	display: inline-block;
+}
+
+.oo-ui-processDialog-actions-primary .oo-ui-widget-enabled a {
+	color: #FFFFFF !important;
+}
+
+.oo-ui-processDialog-actions-safe .oo-ui-widget-enabled a {
+	color: #222222 !important;
+}
+
+/* editor */
+.wikiEditor-ui-top {
+	height: 0;
+}
+#wikiEditor-section-characters .pages span {
+	height: 1.5rem;
+}
+
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled.oo-ui-flaggedElement-primary > .oo-ui-buttonElement-button {
+	background-color: #36c;
+	color: #222;
+	border-color: #a2a9b1;
+}
+
+// Window must be on top of everything, else, its buttons will get hidden
+// below the top bar in full-screen dialogs or in mobile
+body.mediawiki .oo-ui-windowManager-modal > .oo-ui-dialog,
+.oo-ui-window {
+	z-index: 9999 !important;
+}

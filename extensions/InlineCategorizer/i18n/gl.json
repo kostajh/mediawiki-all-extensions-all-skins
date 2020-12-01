@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"inlinecategorizer-desc": "Módulo JavaScript que permite cambiar, engadir e eliminar categorías directamente nunha páxina",
+	"inlinecategorizer-add-category": "Engadir unha categoría",
+	"inlinecategorizer-add-category-submit": "Engadir",
+	"inlinecategorizer-add-category-summary": "Engadir a categoría \"$1\"",
+	"inlinecategorizer-api-error": "A API devolveu un erro: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "A API devolveu un erro descoñecido.",
+	"inlinecategorizer-cancel": "Cancelar a edición",
+	"inlinecategorizer-cancel-all": "Rexeitar todos os cambios",
+	"inlinecategorizer-category-already-present": "Esta páxina xa pertence á categoría \"$1\"",
+	"inlinecategorizer-category-hook-error": "Unha función local impediu que se gardasen os cambios.",
+	"inlinecategorizer-category-question": "Por que quere facer as seguintes modificacións?:",
+	"inlinecategorizer-confirm-ok": "Aceptar",
+	"inlinecategorizer-confirm-save": "Gardar",
+	"inlinecategorizer-confirm-save-all": "Gardar todos os cambios",
+	"inlinecategorizer-confirm-title": "Confirmar a acción",
+	"inlinecategorizer-edit-category": "Editar a categoría",
+	"inlinecategorizer-edit-category-error": "Non se puido editar a categoría \"$1\".\nIsto ocorre xeralmente cando a páxina está incluída na categoría a través dun modelo.",
+	"inlinecategorizer-edit-category-summary": "Cambiar a categoría \"$1\" por \"$2\"",
+	"inlinecategorizer-error-title": "Erro",
+	"inlinecategorizer-remove-category": "Eliminar a categoría",
+	"inlinecategorizer-remove-category-error": "Non se puido eliminar a categoría \"$1\".\nIsto ocorre xeralmente cando a páxina está incluída na categoría a través dun modelo.",
+	"inlinecategorizer-remove-category-summary": "Eliminar a categoría \"$1\""
+}

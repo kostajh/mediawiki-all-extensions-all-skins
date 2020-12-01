@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Klutzy",
+			"Kwj2772",
+			"Ykhwong",
+			"Yknok29"
+		]
+	},
+	"categorywatch-desc": "주시된 분류에 포함되는 문서의 분류 변경을 알리도록 주시문서 목록 기능을 확장",
+	"categorywatch-emailsubject": "주시된 분류 \"$1\"에 대한 바뀜",
+	"categorywatch-catmovein": "$1 문서를 $3에서 $2로 이동",
+	"categorywatch-catmoveout": "$1 문서를 분류 $2에서 $3으로 이동",
+	"categorywatch-catadd": "$1 문서를 $2 분류에 추가",
+	"categorywatch-catsub": "$1 문서를 $2 분류에서 제거",
+	"categorywatch-autocat": "$1에 의해 자동 주시됨",
+	"categorywatch-notification-link": "분류: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] 문서가 [[:$3|$4]]에 추가되었습니다",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] 문서가 [[:$5|$6]]에 추가되었습니다",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]]님이 [[:$3|$3]] 문서를 [[:$4|$4]]에 추가했습니다",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] 문서가 [[:$3|$4]]에서 제거되었습니다",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] 문서가 [[:$5|$6]]에서 제거되었습니다",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]]님이 [[:$3|$3]] 문서를 [[:$4|$4]]에서 제거했습니다",
+	"categorywatch-notification-bundle": "{{SITENAME}}에서 분류에 관한 편집이 $1개 있습니다",
+	"categorywatch-add-title": "주시 중인 분류에 제목을 추가했습니다",
+	"categorywatch-remove-title": "주시 중인 분류에서 제목을 제거했습니다",
+	"categorywatch-page-watch-pref": "분류를 추가할 때 내 주시문서 목록에 분류에 속한 모든 문서를 추가합니다",
+	"echo-category-title-categorywatch": "분류 주시",
+	"echo-pref-tooltip-categorywatch": "주시하고 있는 분류에 문서를 추가하거나 제거할 때 내게 알립니다."
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"spark-desc": "Дадае тэг <code><nowiki><spark /></nowiki></code>, які дазваляе ўбудоўваць мэшап [http://km.aifb.kit.edu/sites/spark/ Spark].",
+	"spark-missing-query": "Вам трэба вызначыць запыт з дапамогай парамэтру «data-spark-query»."
+}

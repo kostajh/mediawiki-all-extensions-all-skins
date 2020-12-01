@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ike Hecht",
+			"Jon Harald Søby",
+			"Liuxinyu970226",
+			"Purodha",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"contributors": "{{doc-special|Contributors}}\n{{Identical|Contributor}}",
+	"contributors-desc": "{{desc|name=Contributors|url=https://www.mediawiki.org/wiki/Extension:Contributors}}",
+	"contributors-toolbox": "Used as link text in the toolbox.\n\nThe link points to [[Special:Contributors]].",
+	"contributors-legend": "Used as fieldset label of the form.\n\nThis message is followed by the input box {{msg-mw|contributors-target}}.",
+	"contributors-target": "Used as label for Target input box.\n{{Identical|Title}}",
+	"contributors-submit": "{{Identical|Show}}",
+	"contributors-subtitle": "Used as <code><nowiki><h2></nowiki></code> heading. Parameters:\n* $1 - a link to the page",
+	"contributors-others-long": "Parameters:\n* $1 - number of other contributors (> 0)\nSee also:\n* {{msg-mw|Contributors-others}}",
+	"contributors-others": "This message follows the list of contributors and the word separator {{msg-mw|word-separator}}.\n\nParameters:\n* $1 - number of other contributors (> 0)\nSee also:\n* {{msg-mw|Contributors-others-long}}",
+	"contributors-badtitle": "{{Identical|Invalid title}}",
+	"contributors-nosuchpage": "Parameters:\n* $1 - page name",
+	"contributors-filterip": "Checkbox label in the form",
+	"contributors-name": "Name of the field for listing the Username of all the contributors\n{{Identical|Username}}",
+	"contributors-revisions": "Name of the field for listing the number of revisions made by a contributor",
+	"contributors-first-edit": "Name of the field for listing the date of contributor's first edit to a page",
+	"contributors-last-edit": "Name of the field for listing the date of contributor's last edit to a page",
+	"contributors-add-subpages": "Checkbox label in the form",
+	"apihelp-query+contributors-example-1": "Show the details of the contributors to a page\n{{doc-apihelp-example|query+contributors}}"
+}

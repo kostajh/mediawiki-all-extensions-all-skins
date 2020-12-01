@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Piramidion"
+		]
+	},
+	"accountinfo": "Відомості облікового запису",
+	"accountinfo-desc": "Дозволяє користувачу переглянути збережені особисті дані про нього",
+	"accountinfo-ts": "Часова мітка",
+	"accountinfo-ip": "IP-адреса",
+	"accountinfo-ua": "Клієнтська програма",
+	"accountinfo-xff": "XFF заголовок",
+	"accountinfo-length": "Інформація зберігається протягом $1.",
+	"accountinfo-now": "Зараз"
+}

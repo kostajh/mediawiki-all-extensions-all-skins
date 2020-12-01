@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abaddon1337",
+			"Gomoko",
+			"Verdy p"
+		]
+	},
+	"googleanalyticstoppages-desc": "Fournit une liste des pages les plus visitées au moyen des données de Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Valeur de [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Mises à jour de la liste des pages les plus visitées (données fournies par Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Met à jour la liste des pages principales (d’après les données fournies par Google Analytics)."
+}

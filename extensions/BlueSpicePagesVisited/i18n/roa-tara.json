@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-pagesvisited-desc": "Dèje 'n'elenghe personalizzate de le urteme pàggene 'ndrucate",
+	"prefs-pagesvisited": "Pàggene 'ndrucate",
+	"bs-pagesvisited-widget-title": "Pàggene 'ndrucate",
+	"bs-pagesvisited-error-nsnotvalid": "{{PLURAL:$1|'U|Le}} namespace <code>$2</code> {{PLURAL:$1|non g'è|non ge sonde}} valide.",
+	"bs-pagesvisited-pref-widgetlimit": "Limite de le vôsce:",
+	"bs-pagesvisited-pref-widgetns": "Namespace:",
+	"bs-pagesvisited-pref-widgetsortodr": "Ordene pe:",
+	"bs-pagesvisited-pref-sort-time": "Orarie",
+	"bs-pagesvisited-pref-sort-pagename": "Titole",
+	"bs-pagesvisited-tag-pagesvisited-desc": "Face 'ndrucà 'n'elenghe de pàggene 'ndrucate cumme urteme. St'elenghe pò essere ristrette cu de le parametre."
+}

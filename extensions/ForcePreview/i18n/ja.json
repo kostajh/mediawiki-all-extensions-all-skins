@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Otokoume",
+			"Shirayuki"
+		]
+	},
+	"forcepreview": "$1 (初めにプレビューを使用してください)",
+	"forcepreview-desc": "権限を持たない利用者にプレビューを強制させる",
+	"action-forcepreviewexempt": "プレビュー表示を経由しない保存",
+	"right-forcepreviewexempt": "プレビュー表示をせずに保存"
+}

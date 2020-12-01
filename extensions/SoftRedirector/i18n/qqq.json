@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"softredir-desc": "{{desc|name=SoftRedirector|url=https://www.mediawiki.org/wiki/Extension:SoftRedirector}}",
+	"softredirectpages": "{{doc-special|SoftredirectPages}}\nThe special page shows all softredirect pages.",
+	"softredirectpages-summary": "{{doc-important|Do not translate <code><nowiki>__SOFTREDIR__</nowiki></code>.}}\nHeader text explaining the purpose of the [[Special:SoftredirectPages]] page.\n\nSee also:\n* {{msg-mw|softredirectpagelinks-summary}}",
+	"softredirectpagelinks": "{{doc-special|SoftredirectPageLinks}}\nThe special page shows all pages with links needing softredirects",
+	"softredirectpagelinks-summary": "{{doc-important|Do not translate <code><nowiki>__SOFTREDIR__</nowiki></code>.}}\nHeader text explaining the purpose of the [[Special:SoftredirectPageLinks]] page.\n\nSee also:\n* {{msg-mw|softredirectpages-summary}}",
+	"visualeditor-dialog-meta-settings-softredirect-label": "Prompt for the checkbox in VisualEditor to mark the page as a softredirect page."
+}

@@ -1,0 +1,12 @@
+{
+	"--title": "OOJsUIAjaxLogin - Documentation",
+	"--output": "docs",
+	"--warnings-exit-nonzero": true,
+	"--builtin-classes": true,
+	"--external": "HTMLDocument,Window,MouseEvent,KeyboardEvent,OO.ui.Process,jQuery.Event",
+	"--warnings": ["-nodoc(class,public)"],
+	"--categories": "./jsduck.categories.json",
+	"--": [
+		"resources"
+	]
+}

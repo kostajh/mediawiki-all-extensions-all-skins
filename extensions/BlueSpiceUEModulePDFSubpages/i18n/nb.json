@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-uemodulepdfsubpages-extension-description": "Slår på rekursiv eksport av sider til PDF-format med undersider.",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-text": "PDF-side med undersider",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-title": "Eksporter denne siden og alle undersider som PDF.",
+	"action-uemodulepdfsubpages-export": "eksportere en side, inkludert alle undersider, som PDF",
+	"right-uemodulepdfsubpages-export": "Eksportere en side, inkludert alle undersider, til PDF"
+}

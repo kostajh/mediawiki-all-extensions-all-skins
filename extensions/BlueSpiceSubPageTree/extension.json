@@ -1,0 +1,57 @@
+{
+	"name": "BlueSpiceSubPageTree",
+	"version": "3.0.0-beta",
+	"license-name": "GPL-3.0-only",
+	"url": "https://help.bluespice.com/index.php/BlueSpiceSubPageTree",
+	"author": "Leonid Verhovskij",
+	"type": "bluespice",
+	"descriptionmsg": "bs-subpagetree-desc",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSubPageTree": {
+					"className": "BlueSpiceSubPageTree",
+					"extPath": "/BlueSpiceSubPageTree"
+				}
+			}
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": "*"
+		}
+	},
+	"AutoloadClasses": {
+		"BlueSpiceSubPageTree": "BlueSpiceSubPageTree.class.php"
+	},
+	"MessagesDirs": {
+		"BlueSpiceSubPageTree": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.bluespice.subpagetree": {
+			"scripts": [
+				"bluespice.subpagetree.js"
+			],
+			"dependencies":[
+				"ext.bluespice.extjs"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSubPageTree/resources"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "BlueSpiceSubPageTree::onParserSetup"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"SubPageTreeRoot": {
+			"value": ":"
+		}
+	},
+	"manifest_version": 2
+}

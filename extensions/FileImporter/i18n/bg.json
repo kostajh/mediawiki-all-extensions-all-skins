@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg",
+			"Ted Masters"
+		]
+	},
+	"fileimporter-specialpage": "Внасяне на файл",
+	"fileimporter-importfailed": "Внасянето се провали",
+	"fileimporter-filenameerror-illegal": "Името на файла, което се опитвате да внесете, не е валидно.",
+	"fileimporter-filenameerror-toolong": "Името на файла, което опитвате да внесете, е твърде дълго.",
+	"fileimporter-illegalfilenamechars": "Заглавието, което опитвате да внесете, съдържа невалидни знаци.",
+	"fileimporter-exampleprefix": "Пример",
+	"fileimporter-submit": "Изпращане",
+	"fileimporter-import": "Внасяне",
+	"fileimporter-cancel": "Отказ",
+	"fileimporter-viewdiff": "Показване на промените",
+	"fileimporter-to-preview": "Назад към предварителния преглед"
+}

@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish",
+			"Sadrettin"
+		]
+	},
+	"bs-notifications-addaccount": "\"$1\" adlı kullanıcı oluşturuldu.",
+	"bs-notifications-email-addaccount-subject": "\"$2\" kullanıcısı {{GENDER:$1|oluşturuldu}}",
+	"bs-notifications-email-addaccount-body": "$2 {{GENDER:$1|kullanıcısı}} oluşturuldu.\n\nKullanıcı {{GENDER:$1|sayfasını}} görmek için aşağıdaki bağlantıyı takip edebilirsin:",
+	"bs-notifications-web-addaccount-body": "$2 adlı {{GENDER:$1|kullanıcı}} oluşturuldu.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Yaratıcı}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Yaratıcı}}: $1",
+	"bs-notifications-registeruser": "\"$1\" adlı kullanıcı bir hesap oluşturdu.",
+	"bs-notifications-email-registeruser-subject": "\"$2\" adlı {{GENDER:$1|kullanıcı}} bir hesap {{GENDER:$1|oluşturdu}}.",
+	"bs-notifications-email-registeruser-body": "$2 adlı {{GENDER:$1|kullanıcı}} bir hesap {{GENDER:$1|oluşturdu}}.\n\nAşağıdaki linki takip ederek {{GENDER:$1|onun}} kullanıcı sayfasını ziyaret edebilirsiniz.",
+	"bs-notifications-web-registeruser-body": "$2 adlı {{GENDER:$1|kullanıcı}} bir hesap {{GENDER:$1|oluşturdu}}.",
+	"bs-notifications-edit": "\"$1\" sayfası değiştirildi",
+	"bs-notifications-edit-bundle": "\"$2\" sayfası $1 kez değiştirildi",
+	"bs-notifications-email-edit-subject": "\"$1\" sayfası $3 tarafından $4 tarihinde {{GENDER:$2|düzenlendi}}",
+	"bs-notifications-email-edit-body": "\"$1\" sayfası $4 tarafından $5 tarihinde {{GENDER:$2|değiştirildi}}.\n\nYorum:\n $3",
+	"bs-notifications-web-edit-body": "\"$1\" sayfası $3 tarafından {{GENDER:$2|düzenlendi}}.",
+	"bs-notifications-create": "\"$1\" sayfası oluşturuldu",
+	"bs-notifications-email-create-subject": "\"$1\" sayfası $3 tarafından $4 {{GENDER:$2|oluşturuldu}}",
+	"bs-notifications-email-create-body": "\"$1\" sayfası $3 tarafından $5 tarihinde {{GENDER:$2|oluşturuldu}}.\n\nYorum:\n$4\nAşağıdaki bağlantıyı takip ederek sayfayı ziyaret edebilirsiniz",
+	"bs-notifications-web-create-body": "\"$1\" sayfası $3 tarafından {{GENDER:$2|oluşturuldu}}.",
+	"bs-notifications-delete": "\"$1\" sayfası silindi",
+	"bs-notifications-email-delete-subject": "\"$1\" sayfası $3 tarafından $4 tarihinde {{GENDER:$2|silindi}}",
+	"bs-notifications-email-delete-body": "\"$1\" sayfası $3 tarafından $5 tarihinde {{GENDER:$2|silindi}}.\n\nSebep şuydu:\n$4",
+	"bs-notifications-web-delete-body": "\"$1\" sayfası $3 tarafından {{GENDER:$2|silindi}}.",
+	"bs-notifications-move": "\"$1\" sayfasına taşındı",
+	"bs-notifications-email-move-subject": "\"$1\" sayfası $4 tarafından $5 tarihinde \"$3\" olarak {{GENDER:$2|taşındı}}",
+	"bs-notifications-email-move-body": "\"$1\" sayfası $4 tarafından $3 sayfasına $6 tarihinde {{GENDER:$2|taşındı}}. \n\nSebebi:\n$5\n\n\nAşağıdaki bağlantıyı takip ederek sayfayı ziyaret edebilirsiniz",
+	"bs-notifications-web-move-body": "\"$1\" sayfası \"$3\" tarafından $4 olarak {{GENDER:$2|taşındı}}",
+	"bs-notifications-edit-difflink-label": "Farkı bakınız",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Merhaba}} $1",
+	"bs-notifications-htmlmail-sender-info": "$1 bildirim sistemi",
+	"bs-notifications-mail-additional-links-label": "Ek bağlantılar"
+}

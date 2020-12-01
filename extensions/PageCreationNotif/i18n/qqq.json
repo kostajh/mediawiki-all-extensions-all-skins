@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nischayn22",
+			"Shirayuki",
+			"Siebrand",
+			"Umherirrender"
+		]
+	},
+	"page-creation-notif-desc": "{{desc|name=Page Creation Notif|url=https://www.mediawiki.org/wiki/Extension:PageCreationNotif}}",
+	"page-creation-notification": "This message is a label for preferences to get notified by email on creation of a new page",
+	"page-creation-email-subject": "This message is used as the subject for emails on creation of a new page. Parameters:\n* $1 is a page name\n* $2 is a wiki name\n* $3 is a user name",
+	"page-creation-email-body": "This message is the body of the notification saying that a new page was created. Parameters:\n* $1 is a user name\n* $2 is a page name\n* $3 is a user name of page creator\n* $4 is the URL of the new page\n* $5 is the text of the page"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rudolf Grossmann"
+		]
+	},
+	"formelapplet-desc": "Add [http://wiki.formelapplet.de FormelApplet] applets to pages",
+	"formelapplet-nojava": "Please install $1 to use this page.",
+	"formelapplet-missing-parameter": "Missing parameter (width or height or term/solution).",
+	"formelapplet-file-not-found": "File $1 not found.",
+	"formelapplet-error": "Error in FormelApplet MediaWiki extension: <em>$1</em>"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"Shirayuki",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"rightfunctions-desc": "{{desc|name=Right Functions|url=https://www.mediawiki.org/wiki/Extension:RightFunctions}}",
+	"rightfunctions-rest1": "{{optional}}\nParameters:\n* $1 - list of any one of the following: cascade protection sources, restrictions, namespaces\n* $2 - any one of the following messages:\n** {{msg-mw|Rightfunctions-casc}}\n** {{msg-mw|Rightfunctions-local}}\n** {{msg-mw|Rightfunctions-ns}}",
+	"rightfunctions-rest2": "{{optional}}\nParameters:\n* $1 - list of any one of the following: cascade protection sources, restrictions\n* $2 - any one of the following messages:\n** {{msg-mw|Rightfunctions-casc}}\n** {{msg-mw|Rightfunctions-local}}\n* $3 - list of any one of the following: cascade protection sources, namespaces\n* $4 - any one of the following messages:\n** {{msg-mw|Rightfunctions-casc}}\n** {{msg-mw|Rightfunctions-ns}}\n* $5 - separator {{msg-mw|Rightfunctions-sep}}",
+	"rightfunctions-rest3": "{{optional}}\nParameters:\n* $1 - list of restrictions\n* $2 - {{msg-mw|Rightfunctions-local}}\n* $3 - list of cascade protection sources\n* $4 - {{msg-mw|Rightfunctions-casc}}\n* $5 - list of namespaces\n* $6 - {{msg-mw|Rightfunctions-ns}}\n* $7 - separator {{msg-mw|Rightfunctions-sep}}",
+	"rightfunctions-sep": "{{optional}}\nUsed as a separator:\n* as <code>$5</code> in {{msg-mw|Rightfunctions-rest2}}\n* as <code>$7</code> in {{msg-mw|Rightfunctions-rest3}}",
+	"rightfunctions-casc": "This message follows a list of the cascade protection sources.\n\nUsed:\n* as <code>$2</code> in {{msg-mw|Rightfunctions-rest1}}\n* as <code>$2</code> or <code>$4</code> in {{msg-mw|Rightfunctions-rest2}}\n* as <code>$4</code> in {{msg-mw|Rightfunctions-rest3}}",
+	"rightfunctions-local": "This message follows a list of the restrictions.\n\nUsed:\n* as <code>$2</code> in {{msg-mw|Rightfunctions-rest1}}\n* as <code>$2</code> in {{msg-mw|Rightfunctions-rest2}}\n* as <code>$2</code> in {{msg-mw|Rightfunctions-rest3}}",
+	"rightfunctions-ns": "This message follows a list of the namespaces.\n\nUsed:\n* as <code>$2</code> in {{msg-mw|Rightfunctions-rest1}}\n* as <code>$4</code> in {{msg-mw|Rightfunctions-rest2}}\n* as <code>$6</code> in {{msg-mw|Rightfunctions-rest3}}"
+}

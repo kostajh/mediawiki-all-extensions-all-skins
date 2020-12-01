@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"Trần Nguyễn Minh Huy",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"security": "Nhật trình bảo mật",
+	"security-logpage": "Nhật trình bảo mật",
+	"security-info": "Có $1 tại trang này",
+	"security-info-toggle": "hạn chế an toàn",
+	"security-manygroups": "các nhóm $1 và $2",
+	"security-type-category": "thể loại",
+	"security-type-namespace": "không gian tên",
+	"restriction-read": "Đọc"
+}

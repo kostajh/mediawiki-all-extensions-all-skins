@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Mansil alfalb"
+		]
+	},
+	"bs-socialwikipage-desc": "Entidade e funcionalidade WikiPage para BlueSpiceSocial",
+	"bs-socialwikipage-type": "Página Wiki",
+	"bs-socialwikipage-entitywikipage-header-create": "Criar nova área de anexos",
+	"bs-socialwikipage-nowikipageentity": "Ainda não foi criada nenhuma área de anexos",
+	"bs-socialwikipage-noattachmentsadded": "Ainda não foram adicionados anexos",
+	"bs-socialwikipage-stashtype": "Anexos",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]] anexado",
+	"bs-socialwikipage-entitystash-header-create": "Novo anexo",
+	"bs-socialwikipage-special-stash-heading": "Anexos",
+	"bs-socialwikipage-aftercontent-heading": "Anexos",
+	"wikipagestash": "Anexos",
+	"bs-socialwikipage-var-wikipageid": "Página atribuída",
+	"bs-socialwikipage-switch-nostash-description": "Oculta a área de anexos desta página.",
+	"bs-socialwikipage-stash-insertfiledialog-title": "Adicionar ficheiro",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "Adicionar",
+	"bs-socialwikipage-stash-editor-attachedfiles": "Ficheiros anexados",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "Eliminar",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "Adicionar",
+	"apihelp-bs-socialstash-tasks-summary": "Fornece tarefas para editar as páginas afluentes de entidades"
+}

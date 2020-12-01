@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"bs-socialcomments-desc": "Функціонал коментування для BlueSpiceSocial",
+	"bs-socialcomments-type": "Коментувати",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Коментар|Коментарі}} ($1)",
+	"bs-socialcomments-header-create": "Коментар",
+	"bs-socialcomments-header": "[[User:$1|$2]] {{GENDER:$1|прокоментував|прокоментувала}} «[[$6|$7]]»",
+	"bs-socialcomments-var-commentcount": "Кількість коментарів",
+	"echo-category-title-bs-social-comment-cat": "Коментарі до сутностей зі списку спостереження",
+	"bs-social-notifications-comment-create": "{{GENDER:$1|Користувач $2 створив|Користувачка $2 створила}} новий коментар",
+	"bs-social-notifications-email-comment-create-subject": "{{GENDER:$1|Користувач $2 створив|Користувачка $2 створила}} новий коментар",
+	"bs-social-notifications-email-comment-create-body": "{{GENDER:$1|Користувач $2 прокоментував|Користувачка $2 прокоментувала}} допис від $3, додавши такий текст:\n$4",
+	"bs-social-notifications-web-comment-create-body": "{{GENDER:$1|Користувач $2 прокоментував|Користувачка $2 прокоментувала}} допис від $3",
+	"bs-social-notifications-comment-edit": "{{GENDER:$1|Користувач $2 відредагував|Користувачка $2 відредагувала}} коментар",
+	"bs-social-notifications-email-comment-edit-subject": "{{GENDER:$1|Користувач $2 відредагував|Користувачка $2 відредагувала}} коментар",
+	"bs-social-notifications-email-comment-edit-body": "{{GENDER:$1|Користувач $2 відредагував|Користувачка $2 відредагувала}} коментар до допису від $3. Новий коментар:\n$4",
+	"bs-social-notifications-web-comment-edit-body": "{{GENDER:$1|Користувач $2 відредагував|Користувачка $2 відредагувала}} коментар до допису від $3",
+	"bs-social-notifications-comment-delete": "{{GENDER:$1|Користувач $2 вилучив|Користувачка $2 вилучила}} коментар",
+	"bs-social-notifications-email-comment-delete-subject": "{{GENDER:$1|Користувач $2 вилучив|Користувачка $2 вилучила}} коментар",
+	"bs-social-notifications-email-comment-delete-body": "{{GENDER:$1|Користувач $2 вилучив|Користувачка $2 вилучила}} коментар до допису від $3",
+	"bs-social-notifications-web-comment-delete-body": "{{GENDER:$1|Користувач $2 вилучив|Користувачка $2 вилучила}} коментар до допису від $3",
+	"bs-social-notifications-comment-owner-create": "{{GENDER:$1|Користувач $2 створив|Користувачка $2 створила}} новий коментар до вашого допису",
+	"bs-social-notifications-email-comment-owner-create-subject": "{{GENDER:$1|Користувач $2 створила|Користувачка $2 створила}} новий коментар до вашого допису",
+	"bs-social-notifications-email-comment-owner-create-body": "{{GENDER:$1|Користувач $2 прокоментував|Користувачка $2 прокоментувала}} ваш допис, додавши такий текст:\n$3",
+	"bs-social-notifications-web-comment-owner-create-body": "{{GENDER:$1|Користувач $2 прокоментував|Користувачка $2 прокоментувала}} ваш допис",
+	"bs-social-notifications-comment-owner-edit": "{{GENDER:$1|Користувач $2 відредагував|Користувачка $2 відредагувала}} коментар до вашого допису",
+	"bs-social-notifications-email-comment-owner-edit-subject": "{{GENDER:$1|Користувач $2 відредагував|Користувачка $2 відредагувала}} коментар до вашого допису",
+	"bs-social-notifications-email-comment-owner-edit-body": "{{GENDER:$1|Користувач $2 відредагував|Користувачка $2 відредагувала}} коментар до вашого допису. Новий коментар:\n$3",
+	"bs-social-notifications-web-comment-owner-edit-body": "{{GENDER:$1|Користувач $2 відредагував|Користувачка $2 відредагувала}} коментар до вашого допису",
+	"bs-social-notifications-comment-owner-delete": "{{GENDER:$1|Користувач $2 вилучив|Користувачка $2 вилучила}} коментар до вашого допису",
+	"bs-social-notifications-email-comment-owner-delete-subject": "{{GENDER:$1|Користувач $2 вилучив|Користувачка $2 вилучила}} коментар до вашого допису",
+	"bs-social-notifications-email-comment-owner-delete-body": "{{GENDER:$1|Користувач $2 вилучив|Користувачка $2 вилучила}} коментар до вашого допису",
+	"bs-social-notifications-web-comment-owner-delete-body": "{{GENDER:$1|Користувач $2 вилучив|Користувачка $2 вилучила}} коментар до вашого допису",
+	"bs-social-notifications-comment-owner-edit-bundle": "Коментарі до вашого допису було відредаговано {{PLURAL:$1|$1 раз|$1 рази|$1 разів}}",
+	"bs-social-notification-comment-primary-link-label": "Переглянути коментар",
+	"bs-social-notification-comment-parentowner-label": "Автор допису: $1",
+	"bs-social-notification-comment-parententity-label": "Переглянути допис"
+}

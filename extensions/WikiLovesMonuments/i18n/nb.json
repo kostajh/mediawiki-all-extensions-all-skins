@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"wlm-extension-desc": "Legger til informasjon og beskjeder relatert til fotokonkurransen Wiki Loves Monuments",
+	"wlm-no-contest-year": "Det var ingen Wiki Loves Monuments-konkurranse i $1.",
+	"wlm-no-url-bad-country": "Vi kunne ikke finne nettstedet for den lokale konkurransen. $1 er ikke en gyldig landskode.",
+	"wlm-country-not-given": "Du må angi en landskode.",
+	"wlm-country-not-participating-year": "«$1» deltar ikke i Wiki Loves Monuments $2.",
+	"wlm-sidebar-portlet": "Andre land",
+	"wlm-international-contest": "Internasjonal",
+	"wlm-text-contact": "Kontakt",
+	"wlm-text-contest": "Konkurranse",
+	"wlm-text-donate": "Doner",
+	"wlm-text-faq": "OSS",
+	"wlm-text-jury": "Jury",
+	"wlm-text-monuments": "Kulturminner",
+	"wlm-text-news": "Nyheter",
+	"wlm-text-participate": "Delta!",
+	"wlm-text-prizes": "Premier",
+	"wlm-text-rules": "Regler",
+	"wlm-text-sponsors": "Sponsorer",
+	"wlm-text-uploading": "Opplasting"
+}

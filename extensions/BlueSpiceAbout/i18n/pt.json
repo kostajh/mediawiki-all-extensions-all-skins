@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"bs-bluespiceabout-desc": "Informação sobre BlueSpice.",
+	"bs-bluespiceabout-about-bluespice": "Sobre BlueSpice",
+	"bluespiceabout": "Sobre BlueSpice",
+	"prefs-bluespiceabout": "Sobre BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Mostrar hiperligação \"{{int:bs-bluespiceabout-about-bluespice}}\" no menu principal",
+	"action-bluespiceabout-viewspecialpage": "ver a página especial \"{{int:bs-bluespiceabout-sobre-bluespice}}\"",
+	"right-bluespiceabout-viewspecialpage": "Acesso à página especial [[Special:BlueSpiceAbout]]",
+	"bs-bluespiceabout-pref-showmenulinks-help": "Adiciona uma hiperligação para a página Special:BlueSpiceAbout à navegação principal. A página hiperligada apresenta informações e hiperligações úteis relacionadas com o BlueSpice pro."
+}

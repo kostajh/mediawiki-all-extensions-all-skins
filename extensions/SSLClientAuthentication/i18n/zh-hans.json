@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Shirayuki",
+			"Yfdyh000"
+		]
+	},
+	"sslauth-desc": "允许用户上传SSL证书用作身份验证",
+	"sslauth-title-enable": "启用SSL客户端身份验证",
+	"sslauth-title-disable": "禁用SSL客户端身份验证",
+	"sslauth-enable": "启用",
+	"sslauth-disable": "禁用",
+	"sslauth-cn": "通用名",
+	"sslauth-email": "电邮地址",
+	"sslauth-serial": "序列号",
+	"sslauth-response-enable": "已启用SSL身份验证。现在每当您通过HTTPS用您的客户端证书连接到 {{SITENAME}}，您将自动登录。",
+	"sslauth-response-disable": "已禁用SSL身份验证。",
+	"sslauth-invalidrequest-title": "无效的请求",
+	"sslauth-invalidrequest": "要想此页有用，必须提供有效的SSL客户端证书。",
+	"clientssl-legend": "SSL认证",
+	"clientssl-text": "使用此页来启用/禁用使用客户端SSL证书进行身份验证。",
+	"sslauth-prefs-name": "SSL认证",
+	"sslauth-prefs-linktospecial": "启用或禁用客户端证书"
+}

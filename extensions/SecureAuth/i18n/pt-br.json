@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"secureauth-desc": "Permitir que o usuário adicione seu IP para login. O login de outro IP falhará.",
+	"secureauthinfo": "SecureAuthInfo",
+	"special-secureauth-info": "Informação de autenticação segura",
+	"secureauth-info-userinfo": "Informação do Usuário",
+	"secureauth-current-ip": "O seu endereço IP de início de sessão:",
+	"secureauth-whitelist-ip": "IPs que Whitelist para seu login de nome de usuário:",
+	"action-sa-access": "acessar SecureAuthInfo",
+	"right-sa-access": "Permitir que o usuário permita a [[Special:SecureAuthInfo|SecureAuthInfo]]"
+}

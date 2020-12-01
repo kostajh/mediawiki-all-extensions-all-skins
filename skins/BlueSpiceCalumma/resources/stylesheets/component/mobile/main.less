@@ -1,0 +1,27 @@
+body.mediawiki,
+body.mediawiki.x-body {
+	.bs-content.container {
+		padding-bottom: 10em;
+	}
+	.wrapper > .main-content.container {
+		padding: 0;
+		padding-top: @theme-header-mobile-height;
+		max-width: 100% !important;
+		& > .row {
+			max-width: 100%;
+			margin-left: 0;
+			margin-right: 0;
+			.center-col {
+				width: @theme-content-width;
+				padding: 0 15px !important;
+				max-width: 100%;
+			}
+			.west-col,
+			.east-col {
+				min-width: 0;
+				width: 0;
+				padding: 0;
+			}
+		}
+	}
+}

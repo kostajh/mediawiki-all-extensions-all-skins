@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-socialtopics-desc": "Entidades de tópico e discussão para BlueSpiceSocial",
+	"bs-socialtopics-pref-skipcreatedialog": "Ignorar diálogo na criação da discussão",
+	"bs-socialtopics-toc-entalkpageautocreate": "Criar automaticamente todas as páginas de discussão",
+	"bs-socialtopics-autocreated-discussionpage": "Esta página de discussão foi criada automaticamente.",
+	"bs-socialtopics-autocreated-discussionpagefile": "Esta página de discussão foi criada automaticamente.",
+	"bs-socialdiscussion-discussiontype": "Discussão",
+	"bs-socialdiscussion-topictype": "Tópico de discussão",
+	"bs-socialtopics-entitydiscussion-header-create": "Criar nova discussão",
+	"bs-social-entitytopic-header-create": "Novo tópico",
+	"bs-socialtopics-var-topictitle": "Título",
+	"bs-socialtopics-var-discussiontitleid": "Página de discussão atribuída",
+	"bs-socialtopics-entity-fatalstatus-save-notalkpage": "Não é uma página de discussão válida",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "$1 iniciou o tópico:",
+	"topics": "Tópicos",
+	"bs-socialtopics-special-topics-heading": "Todos os tópicos",
+	"bs-socialtopics-special-topics-heading-entry": "Tópico/$1",
+	"bs-socialtopics-aftercontent-heading": "Discussões",
+	"bs-socialtopics-nodiscussionpage": "Nenhuma página de discussão foi criada ainda.",
+	"bs-socialtopics-nodiscussionpage-create": "Criar nova página de discussão",
+	"bs-socialtopics-nodiscussion": "Nenhuma discussão foi criada ainda.",
+	"bs-socialtopics-notopicsadded": "Nenhum tópico foi criado ainda.",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "Salvar",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "Cancelar",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "Conteúdo",
+	"bs-socialtopics-switch-nodiscussion-description": "Oculta a discussão nesta página."
+}

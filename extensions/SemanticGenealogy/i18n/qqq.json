@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Shirayuki",
+			"Thibault Taillandier",
+			"Thomas Pellissier Tanon",
+			"Umherirrender"
+		]
+	},
+	"semanticgenealogy-desc": "{{desc|name=Semantic Genealogy|url=https://www.mediawiki.org/wiki/Extension:Semantic_Genealogy}}",
+	"semanticgenealogy-gedcomexport-desc": "Description of the GEDCOM result printer.",
+	"semanticgenealogy-gedcomexport-link": "{{Optional}}\nDefault link label to a GEDCOM file.",
+	"semanticgenealogy-specialfamilytree-title": "Title of the [[Special:FamilyTree]] page.",
+	"semanticgenealogy-specialfamilytree-button-submit": "Submit button of the [[Special:FamilyTree]] form.\n{{Identical|Create}}",
+	"semanticgenealogy-specialfamilytree-type-ancestors": "Label of an ancestors tree.",
+	"semanticgenealogy-specialfamilytree-type-descendant": "Label of a descendants tree.",
+	"semanticgenealogy-specialfamilytree-type-link": "Label of the search of the closest family link between two people.\n{{Identical|Link}}",
+	"semanticgenealogy-specialfamilytree-decorator-simple": "Label for the simple Decorator name\n{{Identical|Simple}}",
+	"semanticgenealogy-specialfamilytree-decorator-box": "Label for the boxes Decorator name\n{{Identical|Box}}",
+	"semanticgenealogy-specialfamilytree-displayname-fullname": "Label for the full name display mode\n{{Identical|Full name}}",
+	"semanticgenealogy-specialfamilytree-displayname-pagename": "Label for the page name display mode\n{{Identical|Page name}}",
+	"semanticgenealogy-specialfamilytree-label-page": "Label of the \"base person page name\" input.",
+	"semanticgenealogy-specialfamilytree-label-page2": "Label of the \"second base person page name\" input (only for \"link\" type).\n\nUsed in {{msg-mw|Semanticgenealogy-specialfamilytree-error-nosecondpagename}}.",
+	"semanticgenealogy-specialfamilytree-label-type": "Label of the \"type of family tree\" select.\n{{Identical|Type}}",
+	"semanticgenealogy-specialfamilytree-label-decorator": "Label for the decorator styling name\n{{Identical|Styling}}",
+	"semanticgenealogy-specialfamilytree-label-displayname": "Label for the mode to display the name",
+	"semanticgenealogy-specialfamilytree-label-gen": "Label of the form field in order to input the number of generation in the tree.",
+	"semanticgenealogy-specialfamilytree-label-insert-code": "Label to show the wiki code to insert",
+	"semanticgenealogy-specialfamilytree-error-nosecondpagename": "Error message when the \"page2\" field is not set (only for \"link\" type).\n\nRefers to {{msg-mw|Semanticgenealogy-specialfamilytree-label-page2}}.",
+	"semanticgenealogy-specialfamilytree-error-nolinkfound": "Error message where no link is found between $1 and $2.",
+	"semanticgenealogy-specialfamilytree-error-unknowntype": "Error massage when the type of the family tree is unknown. Parameters:\n* $1 - unknown type. Known types are: \"ancestors\", \"descendant\", and \"link\"",
+	"specialpages-group-genealogy": "{{doc-special-group}}\n\nLabel for the genealogy group"
+}

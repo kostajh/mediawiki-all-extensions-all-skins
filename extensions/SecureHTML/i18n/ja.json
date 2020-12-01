@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume",
+			"Shirayuki"
+		]
+	},
+	"securehtml": "セキュア HTML",
+	"securehtml-desc": "承認済みのセキュアな方法で任意の HTML を使用できるようにする",
+	"securehtml-nokeys": "エラー: <code>$wgSecureHTMLSecrets</code> が設定されていません。",
+	"securehtml-hashrequired": "エラー: ハッシュが必要です。",
+	"securehtml-invalidhash": "エラー: ハッシュが無効です。",
+	"securehtml-input-title": "HTML の入力",
+	"securehtml-generatedoutput-title": "生成された出力",
+	"securehtml-renderedhhtml-title": "表示される HTML",
+	"securehtml-form-keyname": "キー名 (省略可能)",
+	"securehtml-form-html": "HTML コード",
+	"securehtml-form-submit": "送信"
+}

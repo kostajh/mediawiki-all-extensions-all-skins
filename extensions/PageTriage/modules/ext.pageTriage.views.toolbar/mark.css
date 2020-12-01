@@ -1,0 +1,35 @@
+/* override the default width */
+#mwe-pt-mark .mwe-pt-tool-flyout {
+	/**
+	 * 400px for the textarea,
+	 * + 7px margin on textarea,
+	 * + 2px padding on .mwe-pt-tool-content
+	 * + 10px padding on .mwe-pt-tool-flyout
+	 */
+	width: 419px;
+}
+
+.mwe-pt-mark-helptext {
+	font-size: 0.9em;
+}
+
+#mwe-pt-review-note {
+	display: none;
+}
+
+#mwe-pt-review-note-title {
+	float: left;
+	font-size: 0.9em;
+	margin-top: 10px;
+}
+
+#mwe-pt-review-note-input {
+	clear: both;
+	font-size: 11px;
+	width: 400px;
+	margin: 5px 5px 2px 2px;
+}
+
+#mwe-pt-review-note-input::placeholder {
+	color: #666;
+}

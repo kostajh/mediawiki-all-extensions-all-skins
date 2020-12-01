@@ -1,0 +1,98 @@
+{
+	"name": "SVGEdit",
+	"author": [
+		"Brion Vibber"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SVGEdit",
+	"descriptionmsg": "svgedit-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"SVGEdit": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SVGEditHooks": "SVGEdit.hooks.php"
+	},
+	"ResourceModules": {
+		"ext.svgedit.editor": {
+			"group": "ext.svgedit",
+			"scripts": [
+				"ext.svgedit.embedapi.js",
+				"ext.svgedit.formmultipart.js",
+				"ext.svgedit.io.js",
+				"ext.svgedit.editor.js"
+			],
+			"styles": [
+				"ext.svgedit.editButton.css"
+			],
+			"messages": [
+				"svgedit-summary-label",
+				"svgedit-summary-default",
+				"svgedit-editor-save-close",
+				"svgedit-editor-close"
+			],
+			"dependencies": [
+				"jquery.ui"
+			]
+		},
+		"ext.svgedit.editButton": {
+			"group": "ext.svgedit",
+			"scripts": [
+				"ext.svgedit.editButton.js"
+			],
+			"messages": [
+				"svgedit-editbutton-edit",
+				"svgedit-edit-tab",
+				"svgedit-edit-tab-tooltip"
+			],
+			"dependencies": [
+				"ext.svgedit.editor"
+			]
+		},
+		"ext.svgedit.inline": {
+			"group": "ext.svgedit",
+			"scripts": [
+				"ext.svgedit.inline.js"
+			],
+			"messages": [
+				"svgedit-editbutton-edit"
+			],
+			"dependencies": [
+				"ext.svgedit.editor"
+			]
+		},
+		"ext.svgedit.toolbar": {
+			"group": "ext.svgedit",
+			"scripts": [
+				"ext.svgedit.toolbar.js"
+			],
+			"messages": [
+				"svgedit-toolbar-insert"
+			],
+			"dependencies": [
+				"ext.svgedit.editor"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "SVGEdit/modules"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "SVGEditHooks::beforePageDisplay",
+		"MakeGlobalVariablesScript": "SVGEditHooks::makeGlobalVariablesScript"
+	},
+	"config": {
+		"SVGEditEditor": {
+			"value": "http://svg-edit.googlecode.com/svn/trunk/editor/svg-editor.html"
+		},
+		"SVGEditInline": {
+			"value": false
+		}
+	},
+	"manifest_version": 2
+}

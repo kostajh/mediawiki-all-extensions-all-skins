@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"semanticpageseries-desc": "Criar uma série de páginas a partir de um [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulário semântico]",
+	"spssuccesstitle": "A criar $1 páginas",
+	"spssuccess": "{{PLURAL:$1|Será criada uma página|Serão criadas $1 páginas}}.",
+	"spssuccess-returntoorigin": "Voltar a $1",
+	"spserror": "Ocorreu um erro",
+	"spserror-diffnotsupported": "A análise de diferenças não é suportada para séries de páginas.",
+	"spserror-previewnotsupported": "A antevisão não é suportada para séries de páginas.",
+	"spserror-noiteratorname": "Não foi especificado nenhum iterador. Tem de definir o parâmetro \"iterator\" na chamada à função #serieslink do analisador sintático.",
+	"spserror-iteratorunknown": "O iterador \"$1\" não existe. Tem de corrigir o parâmetro \"iterator\" na chamada à função #serieslink do analisador sintática.",
+	"spserror-noformname": "Não foi fornecido o nome do formulário. Tem de definir o parâmetro \"form\" na chamada à função #serieslink do analisador sintático.",
+	"spserror-formunknown": "O formulário \"$1\" não existe.",
+	"spserror-notargetformname": "Não foi fornecido o nome do formulário de destino. Tem de definir o parâmetro \"target form\" na chamada à função #serieslink do analisador sintático.",
+	"spserror-notargetfieldname": "Não foi fornecido o nome do campo de destino. Tem de definir o parâmetro \"target field\" na chamada à função #serieslink do analisador sintático.",
+	"spserror-iteratorparammissing": "Faltam os seguintes parâmetros do iterador na chamada a #serieslink:\n$1",
+	"spserror-noiteratordata": "Não foram encontrados parâmetros do iterador nos dados enviados.",
+	"spserror-pagegenerationlimitexeeded": "Tentou gerar {{PLURAL:$1|uma página|$1 páginas}}. Isto excede o seu limite permitido de {{PLURAL:$2|uma página|$2 páginas}}.",
+	"spserror-date-startdatemissing": "Falta a data de início.",
+	"spserror-date-internalerror": "Ocorreu um erro ao criar as datas: $1",
+	"spserror-count-startvaluemalformed": "O valor de início não é um número.",
+	"spserror-count-endvaluemalformed": "O valor de fim não é um número.",
+	"spserror-count-stepvaluemalformed": "O valor de incremento não é um número.",
+	"spserror-count-digitsvaluemalformed": "O valor dos dígitos não é um número."
+}

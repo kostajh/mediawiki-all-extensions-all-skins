@@ -1,0 +1,37 @@
+{
+	"manifest_version": 1,
+	"name": "Poncho",
+	"version": "1.8",
+	"author": "[https://mediawiki.org/wiki/User:Sophivorus Sophivorus]",
+	"url": "https://www.mediawiki.org/wiki/Skin:Poncho",
+	"descriptionmsg": "poncho-desc",
+	"type": "skin",
+	"license-name": "GPL-3.0-only",
+	"MessagesDirs": {
+		"Poncho": [
+			"i18n"
+		]
+	},
+	"ValidSkinNames": {
+		"poncho": "Poncho"
+	},
+	"AutoloadClasses": {
+		"SkinPoncho": "Poncho.php",
+		"PonchoTemplate": "Poncho.php"
+	},
+	"ResourceModules": {
+		"skins.poncho.style": {
+			"styles": "Poncho.css"
+		},
+		"skins.poncho.script": {
+			"scripts": "Poncho.js"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Poncho"
+	},
+	"config": {
+		"PonchoSitename": false
+	}
+}

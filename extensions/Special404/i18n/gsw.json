@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder"
+		]
+	},
+	"special404-desc": "Macht e benutzerdefinierti Ziilsyte megli fir dr Fall, ass dr HTTP-Fähler „404 Nit gfunde“ uftritt",
+	"error404": "404 Nit gfunde",
+	"special404-body": "Di gwinscht URL isch nit gfunde wore.\n\nHesch {{fullurl:$1}} gmeint?\n\nVillicht hesch au die Syte welle ufruefe:\n* [[{{MediaWiki:Mainpage}}|Houptsyte]]"
+}

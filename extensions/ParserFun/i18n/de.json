@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel Werner",
+			"Kghbln"
+		]
+	},
+	"parserfun-desc": "Ergänzt die Funktion <code>#parse</code> zum Parsen von Wikitext, sowie das <code>THIS:</code>-Präfix für Variablen, die von Wikiseiten Informationen abrufen",
+	"parserfun-invalid-caller-mode": "Es wurde kein gültiger Modus oder kein numerischer Index angegeben."
+}

@@ -1,0 +1,86 @@
+@import 'mediawiki.mixins.animation';
+@import '../../../ui/styles/mw.cx.mixins.less';
+
+.ve-cx-toolbar-mt {
+	.ve-ui-toolbar-group-cx-mt {
+		display: block;
+	}
+
+	.ve-cx-toolbar-mt-title {
+		display: block;
+		border-bottom: 1px solid @colorGray14;
+		color: @colorGray7;
+		padding: 4px 10px;
+	}
+
+	.ve-cx-toolbar-mt-noservices {
+		display: block;
+		border-bottom: 1px solid @colorGray14;
+		color: @colorGray5;
+		background-color: @colorGray15;
+		padding: 10px;
+	}
+
+	.ve-cx-toolbar-mt-setdefault {
+		display: block;
+		border-top: 1px solid @colorGray14;
+		padding: 4px;
+
+		& > a {
+			display: block;
+		}
+	}
+
+	&-preferred-tool {
+		&-title {
+			display: table-cell;
+			max-width: 1px;
+			width: 100%;
+
+			.text-ellipsis;
+		}
+
+		&-indicator {
+			color: @colorGray5;
+			display: table-cell;
+			padding-left: 0.8em;
+
+			.oo-ui-tool-active.oo-ui-widget-enabled & {
+				color: inherit;
+			}
+		}
+	}
+
+	> .oo-ui-toolbar-popups {
+		width: 100%;
+
+		> .oo-ui-popupToolGroup-tools.oo-ui-popupToolGroup-active-tools {
+			width: 100%;
+		}
+	}
+
+	&.ve-cx-toolbar-mt--highlight .oo-ui-toolbar-bar {
+		.animation( cx-flash-highlight, 1s );
+	}
+}
+
+.cx-flash-highlight() {
+	50% {
+		background-color: #eaf3ff;
+		color: @colorProgressive;
+	}
+}
+
+@-webkit-keyframes cx-flash-highlight {
+	.cx-flash-highlight;
+}
+
+/* This is useless, no browser requiring this prefix will ever get served this
+ * style, but for consistency with .animation mix-in. */
+@-moz-keyframes cx-flash-highlight {
+	.cx-flash-highlight;
+}
+
+@keyframes cx-flash-highlight {
+	.cx-flash-highlight;
+}

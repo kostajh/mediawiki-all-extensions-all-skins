@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Mglaser",
+			"Patric Wirth",
+			"Umherirrender"
+		]
+	},
+	"bs-socialblog-desc": "Blog-Entität für BlueSpiceSocial",
+	"bs-socialblog-type": "Blog",
+	"blog": "Blog",
+	"bs-socialblog-entityblog-header-create": "Neuer Blog",
+	"bs-socialblog-var-blogtitle": "Titel",
+	"bs-socialblog-entityblog-content-more-btn-more": "Mehr",
+	"bs-socialblog-entityblog-content-more-btn-less": "Weniger",
+	"bs-socialblog-toc-useblogteaser": "Benutze Teaser-Text für Blog-Beiträge in der Timeline",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notifications-blog-create": "Benutzer {{GENDER:$1|$2 erstellte}} den neuen Blog „$3“",
+	"bs-social-notifications-email-blog-create-subject": "Benutzer {{GENDER:$1|$2 erstellte}} den neuen Blog „$3“",
+	"bs-social-notifications-email-blog-create-body": "Benutzer {{GENDER:$1|$2 erstellte}} den neuen Blog „$3“ mit folgendem Text:\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2 erstellte}} den neuen Blog „$3“",
+	"bs-social-notifications-blog-edit": "Benutzer {{GENDER:$1|$2 bearbeitete}} den Blog „$3“",
+	"bs-social-notifications-email-blog-edit-subject": "Benutzer {{GENDER:$1|$2 bearbeitete}} den Blog „$3“",
+	"bs-social-notifications-email-blog-edit-body": "Benutzer {{GENDER:$1|$2 bearbeitete}} den Blog „$3“. Der neue Text ist:\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2 bearbeitete}} den Blog „$3“",
+	"bs-social-notifications-blog-delete": "Benutzer {{GENDER:$1|$2 löschte}} den Blog „$3“",
+	"bs-social-notifications-email-blog-delete-subject": "Benutzer {{GENDER:$1|$2 löschte}} den Blog „$3“",
+	"bs-social-notifications-email-blog-delete-body": "Benutzer {{GENDER:$1|$2 löschte}} den Blog „$3“",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 löschte}} den Blog „$3“",
+	"bs-social-notification-blog-primary-link-label": "Blog ansehen"
+}

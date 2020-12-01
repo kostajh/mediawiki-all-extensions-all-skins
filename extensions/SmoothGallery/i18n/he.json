@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rotemliss",
+			"YaronSh"
+		]
+	},
+	"smoothgallery": "SmoothGallery",
+	"smoothgallery-desc": "הוספת אפשרות למשתמשים ליצור גלריות עם תמונות שהועלו.\nאפשר להשתמש ברוב האפשרויות של SmoothGallery",
+	"smoothgallery-title": "SmoothGallery",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery: $1",
+	"smoothgallery-error": "<b>שגיאת SmoothGallery:</b>",
+	"smoothgallery-gallery-not-found": "הגלריה המבוקשת אינה קיימת.",
+	"smoothgallery-not-found": "לא נוספו תמונות לגלריה.\nאנא הוסיפו לפחות תמונה אחת.",
+	"smoothgallery-no-images": "לא נמצאו תמונות בגלריה זו.\nודאו ש{{PLURAL:$3|התמונה שביקשתם אכן קיימת|כל התמונות שביקשתם אכן קיימות}}.\n{{PLURAL:$2|התמונה הבאה לא נמצאה|התמונות הבאות לא נמצאו}}: $1",
+	"smoothgallery-invalid-images": "{{PLURAL:$2|התמונה הבאה שביקשתם היא|התמונות הבאות שביקשתם הן}} מסוג בלתי תקין: $1",
+	"smoothgallery-unexpected-error": "אירעה שגיאה בלתי צפויה.\nאנא דווחו על תקלה זו.",
+	"smoothgallery-javascript-disabled": "על מנת לצפות בדף זה כראוי נדרש JavaScript."
+}

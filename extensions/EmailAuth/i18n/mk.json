@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"emailauth-desc": "Проверува сомнителни најави со е-пошта.",
+	"emailauth-token-label": "Потврден код",
+	"emailauth-token-help": "Еднократка 2FA-шифра што се добива по е-пошта.",
+	"emailauth-email-subject": "Вашиот потврден најавен код на $1",
+	"emailauth-email-body": "Вашиот потврден најавен код на $1 гласи $2",
+	"emailauth-login-message": "Ќе треба да ја потврдите најавата. Ви испративме потврден код по е-пошта ($1). Тука внесете го тој код.",
+	"emailauth-login-failure": "Неважечки потврден код!",
+	"emailauth-login-retry-limit": "Премногу неуспешни обиди!"
+}

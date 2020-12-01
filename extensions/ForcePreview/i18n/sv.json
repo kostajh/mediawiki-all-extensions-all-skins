@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Lejonel",
+			"WikiPhoenix"
+		]
+	},
+	"forcepreview": "$1 (förhandsgranska först)",
+	"forcepreview-desc": "Tvingar användare att förhandsgranska om de saknar rätt behörighet",
+	"right-forcepreviewexempt": "Kan spara utan att visa förhandsgranskning"
+}

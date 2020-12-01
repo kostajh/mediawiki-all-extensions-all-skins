@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"bs-uemodulepdfrecursive-extension-description": "Sayfaların özyinelemeli PDF biçiminde dışa aktarılmasını sağlar.",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-text": "Bağlantılı sayfalara sahip PDF sayfası",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-title": "Bu sayfayı ve bağlantılı tüm sayfaları PDF olarak dışa aktarın.",
+	"right-uemodulepdfrecursive-export": "Bağlı tüm sayfalar dahil bir sayfayı PDF'ye dışa aktar",
+	"action-uemodulepdfrecursive-export": "bağlı tüm sayfalar dahil bir sayfayı PDF'ye dışa aktar"
+}

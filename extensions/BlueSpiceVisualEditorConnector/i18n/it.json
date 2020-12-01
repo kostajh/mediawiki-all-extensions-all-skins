@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"bs-visualeditorconnector-enable-visualeditor": "Attiva VisualEditor per estensioni BlueSpice",
+	"bs-visualeditorconnector-upload-type-original": "Originale",
+	"bs-visualeditorconnector-upload-type-simple": "Semplice",
+	"bs-visualeditorconnector-cancel-edit-no-unsaved-changes": "Annulla modifica",
+	"bs-visualeditorconnector-cancel-edit": "Annulla modifica. Le modifiche non salvate verranno perse",
+	"bs-visualeditorconnector-cancel-edit-confirm-message": "Vuoi davvero annullare la modifica? Le modifiche non salvate verranno perse.",
+	"bs-visualeditor-nsm-label": "Visual editor",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Comuni",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Avanzate",
+	"bs-visualeditorconnector-dialog-media-link": "Collega questo file",
+	"bs-visualeditorconnector-dialog-media-embed": "Incorpora questo file",
+	"bs-vec-table-inspector-column": "Colonna",
+	"bs-vec-table-inspector-row": "Riga",
+	"bs-vec-table-inspector-cell": "Cella",
+	"bs-vec-table-style-column-width": "Larghezza colonna",
+	"bs-vec-contextitem-row-duplicate": "Duplica riga",
+	"bs-vec-contextitem-table-additional-options": "Opzioni aggiuntive",
+	"bs-vec-dialog-table-create-number-of-rows": "Numero di righe",
+	"bs-vec-dialog-table-create-number-of-columns": "Numero di colonne",
+	"bs-vec-dialog-action-done": "Fatto",
+	"bs-vec-dialog-action-safe": "Annulla",
+	"bs-vec-dialog-create-table-title": "Inserisci tabella",
+	"bs-vec-widget-text-direction-tooltip": "Testo verticale",
+	"bs-visualeditor-linkcontext-label-change": "Modifica etichetta",
+	"bs-visualeditor-linkcontext-label-label": "Etichetta",
+	"bs-vec-table-border-bottom": "In fondo"
+}

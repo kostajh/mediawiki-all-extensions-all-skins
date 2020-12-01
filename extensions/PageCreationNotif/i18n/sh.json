@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"page-creation-notif-desc": "Slati obavještenja preko e-pošte kada će se napraviti nove stranice",
+	"page-creation-notification": "Obavještaj me preko e-pošte kada neki će napravi novu stranicu",
+	"page-creation-email-subject": "Nova stranica — Na $2 {{GENDER:$2|napravljena}} stranica „$1“ od strane $3"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Naudefj"
+		]
+	},
+	"inlinecategorizer-add-category": "Voeg kategorie by",
+	"inlinecategorizer-add-category-submit": "Byvoeg",
+	"inlinecategorizer-add-category-summary": "Voeg kategorie \"$1\" by",
+	"inlinecategorizer-api-error": "Die API gee fout: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "Die API gee 'n onbekende fout.",
+	"inlinecategorizer-cancel": "Kanselleer wysiging",
+	"inlinecategorizer-cancel-all": "Kanselleer alle wysigings",
+	"inlinecategorizer-category-already-present": "Hierdie bladsy behoort reeds tot die kategorie \"$1\"",
+	"inlinecategorizer-category-hook-error": "'n Lokale funksie het verhoed dat die veranderinge gestoor word.",
+	"inlinecategorizer-category-question": "Hoekom wil u die volgende wysigings aanbring:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Stoor",
+	"inlinecategorizer-confirm-save-all": "Stoor alle wysigings",
+	"inlinecategorizer-confirm-title": "Bevestig aksie",
+	"inlinecategorizer-edit-category": "Wysig kategorie",
+	"inlinecategorizer-edit-category-error": "Dit was nie moontlik om kategorie \"$1\" te wysig nie.\nDit gebeur gewoonlik as die kategorie deur 'n sjabloon by die bladsy gevoeg is.",
+	"inlinecategorizer-edit-category-summary": "Verander kategorie \"$1\" na \"$2\"",
+	"inlinecategorizer-error-title": "Fout",
+	"inlinecategorizer-remove-category": "Verwyder kategorie",
+	"inlinecategorizer-remove-category-error": "Ongelukkig was nie moontlik om die kategorie \"$1\" te verwyder nie.\nDit gebeur gewoonlik as die kategorie via 'n sjabloon by die bladsy bygevoeg is.",
+	"inlinecategorizer-remove-category-summary": "Verwyder kategorie \"$1\""
+}

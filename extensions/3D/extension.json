@@ -1,0 +1,122 @@
+{
+	"name": "3d",
+	"version": "0.0.1",
+	"author": [
+		"Gilles Dubuc"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:3d",
+	"namemsg": "3d",
+	"descriptionmsg": "3d-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"type": "media",
+	"manifest_version": 2,
+	"MessagesDirs": {
+		"3d": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"three.js": {
+			"scripts": [
+				"three/three.js",
+				"three/STLLoader.js",
+				"three/TrackballControls.js"
+			]
+		},
+		"ext.3d": {
+			"scripts": [
+				"ext.3d.js"
+			],
+			"styles": [
+				"ext.3d.less"
+			],
+			"messages": [
+				"3d-badge-text",
+				"3d-thumb-placeholder"
+			],
+			"dependencies": [
+				"jquery.spinner"
+			]
+		},
+		"ext.3d.styles": {
+			"styles": [
+				"ext.3d.less"
+			]
+		},
+		"mmv.3d": {
+			"scripts": [
+				"mmv.3d.js"
+			],
+			"styles": [
+				"mmv.3d.less"
+			],
+			"dependencies": [
+				"mmv",
+				"ext.3d",
+				"three.js"
+			]
+		},
+		"mmv.3d.head": {
+			"scripts": [
+				"mmv.3d.head.js"
+			],
+			"styles": [
+				"mmv.3d.head.less"
+			],
+			"messages": [
+				"view",
+				"download"
+			],
+			"dependencies": [
+				"ext.3d",
+				"oojs-ui-core",
+				"oojs-ui.styles.icons-accessibility",
+				"oojs-ui.styles.icons-content"
+			]
+		},
+		"ext.3d.special.upload": {
+			"scripts": [
+				"ext.3d.special.upload.js"
+			],
+			"dependencies": [
+				"ext.3d.special.upload.styles",
+				"mediawiki.special.upload"
+			]
+		},
+		"ext.3d.special.upload.styles": {
+			"styles": [
+				"ext.3d.special.upload.less"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "3D/modules"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "MediaWiki\\Extensions\\ThreeD\\Hooks::onBeforePageDisplay",
+		"ImageBeforeProduceHTML": "MediaWiki\\Extensions\\ThreeD\\Hooks::onImageBeforeProduceHTML",
+		"UploadFormInitDescriptor": "MediaWiki\\Extensions\\ThreeD\\Hooks::onUploadFormInitDescriptor",
+		"UploadForm:getInitialPageText": "MediaWiki\\Extensions\\ThreeD\\Hooks::onGetInitialPageText"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extensions\\ThreeD\\": "src/"
+	},
+	"MediaHandlers": {
+		"application/sla": "MediaWiki\\Extensions\\ThreeD\\ThreeDHandler"
+	},
+	"config": {
+		"Max3d2pngMemory": {
+			"value": "10000000"
+		},
+		"AjaxPatentPreview": {
+			"value": true
+		},
+		"3dProcessEnviron": {
+			"value": []
+		}
+	}
+}

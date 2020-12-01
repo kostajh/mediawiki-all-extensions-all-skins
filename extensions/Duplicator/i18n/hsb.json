@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"duplicator": "Nastawk duplicěrować",
+	"duplicator-desc": "Njewotwisne [[Special:Duplicate|kopije stronow]] z dospołnymi wersijowymi stawiznami wutworić",
+	"duplicator-toolbox": "Tutón nastawk duplicěrować",
+	"duplicator-header": "Z tutej specialnej stronu móžeš strony dospołnje duplicěrować. Při tym přewozmu so cyle stawizny strony. To móže z wužitkom być, hdyž ma so na pr. strona do wjacorych nastawkow rozdźělić.",
+	"duplicator-options": "Opcije",
+	"duplicator-source": "Žórło:",
+	"duplicator-dest": "Cil:",
+	"duplicator-dotalk": "Diskusijnu stronu sobu kopěrować (jeli móžno)",
+	"duplicator-dosubpages": "Podstrony duplicěrować (jeli tajke su)",
+	"duplicator-dohistory": "Dospołnu historiju strony duplicěrować",
+	"duplicator-submit": "Duplicěrować",
+	"duplicator-summary": "Z [[$1]], wersije [[$2]] kopěrowany.",
+	"duplicator-success": "[[$1]] bu do [[$2]] kopěrowany.",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|wersija bu kopěrowana|wersijow bu kopěrowane|wersiji buštej kopěrowanej|wersije buchu kopěrowane}}.",
+	"duplicator-success-talknotcopied": "Diskusijna strona njeda so kopěrować.",
+	"duplicator-failed": "Strona njeda so duplicěrować. Njeznaty zmylk je wustupił.",
+	"duplicator-failed-toolong": "[[$1]] njeje so duplicěrował. Cilowy titul je předołhi.",
+	"duplicator-failed-dest-exists": "[[$1]] njeje so duplicěrował. Cil [[$2]] hižo eksistuje.",
+	"duplicator-source-invalid": "Prošu podaj płaćiwu žórłowu stronu.",
+	"duplicator-source-notexist": "Strona [[$1]] njeeksistuje. Prošu zapodaj eksistowacu stronu.",
+	"duplicator-dest-invalid": "Prošu podaj płaćiwu cilowu stronu.",
+	"duplicator-dest-exists": "Strona [[$1]] hižo eksistuje. Prošu zapodaj cilowy titl kotryž hišće njeeksistuje.",
+	"right-duplicate": "Dwójne strony"
+}

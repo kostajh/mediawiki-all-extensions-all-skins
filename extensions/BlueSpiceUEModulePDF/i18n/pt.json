@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"bs-uemodulepdf-desc": "Permite que o MediaWiki exporte páginas em formato PDF",
+	"prefs-uemodulepdf": "Módulo de exportação universal PDF",
+	"uemodulepdf": "Módulo de exportação universal PDF",
+	"bs-uemodulepdf-pref-suppressns": "Ocultar prefixo do domínio no PDF",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-text": "Página única em PDF",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-title": "Exportar esta página para o formato PDF.",
+	"bs-uemodulepdf-overview-title": "Portable Document Format (PDF)",
+	"bs-uemodulepdf-overview-desc": "Exporta páginas (páginas especiais e de conteúdo) para PDF.",
+	"bs-uemodulepdf-overview-webservice-state": "Estado do servidor",
+	"bs-uemodulepdf-overview-webservice-state-ok": "disponível",
+	"bs-uemodulepdf-overview-webservice-state-not-ok": "não disponível",
+	"soap-service-url-not-valid": "O URL para o serviço da Internet (''web service'') de geração de ficheiros PDF não é válido. Verifique a configuração da wiki, por favor.",
+	"soap-service-url-not-set": "O URL para o serviço da Internet (''web service'') de geração de ficheiros PDF não está definido. Verifique a configuração da wiki, por favor.",
+	"bs-uemodulepdf-overview-webservice-webadmin": "Interface do servidor para a Internet",
+	"action-uemodulepdf-export": "exportar uma página para PDF",
+	"right-uemodulepdf-export": "Exportar uma página para PDF"
+}

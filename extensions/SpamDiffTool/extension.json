@@ -1,0 +1,50 @@
+{
+	"name": "SpamDiffTool",
+	"version": "1.6",
+	"author": [
+		"Travis Derouin",
+		"Alexandre Emsenhuber",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:SpamDiffTool",
+	"descriptionmsg": "spamdifftool-desc",
+	"type": "antispam",
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"extensions": {
+			"SpamBlacklist": "*"
+		}
+	},
+	"config": {
+		"SpamBlacklistArticle": "Project:Spam_Blacklist"
+	},
+	"MessagesDirs": {
+		"SpamDiffTool": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SpamDiffToolAlias": "SpamDiffTool.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpamDiffTool": "SpamDiffTool.php",
+		"SpamDiffToolHooks": "SpamDiffToolHooks.php"
+	},
+	"SpecialPages": {
+		"SpamDiffTool": "SpamDiffTool"
+	},
+	"Hooks": {
+		"DifferenceEngineViewHeader": "SpamDiffToolHooks::onDifferenceEngineViewHeader"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SpamDiffTool"
+	},
+	"ResourceModules": {
+		"ext.spamdifftool.styles": {
+			"styles": "ext.spamdifftool.css"
+		}
+	},
+	"manifest_version": 1
+}

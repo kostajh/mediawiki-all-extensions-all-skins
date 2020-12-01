@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"slippymap_desc": "{{desc|name=Slippymap|url=http://wiki.openstreetmap.org/index.php/Slippy_Map_MediaWiki_Extension}}",
+	"slippymap_latmissing": "Used as error message",
+	"slippymap_lonmissing": "Used as error message",
+	"slippymap_zoommissing": "Used as error message",
+	"slippymap_longdepreciated": "Used as error message",
+	"slippymap_widthnan": "Used as error message",
+	"slippymap_heightnan": "Used as error message",
+	"slippymap_zoomnan": "Used as error message",
+	"slippymap_latnan": "Used as error message",
+	"slippymap_lonnan": "Used as error message",
+	"slippymap_widthbig": "Used as error message",
+	"slippymap_widthsmall": "Used as error message",
+	"slippymap_heightbig": "Used as error message",
+	"slippymap_heightsmall": "Used as error message",
+	"slippymap_latbig": "Used as error message",
+	"slippymap_latsmall": "Used as error message",
+	"slippymap_lonbig": "Used as error message",
+	"slippymap_lonsmall": "Used as error message",
+	"slippymap_zoomsmall": "Used as error message",
+	"slippymap_zoom18": "Used as error message",
+	"slippymap_zoombig": "Used as error message",
+	"slippymap_invalidlayer": "Used as error message",
+	"slippymap_maperror": "Prepend other error messages",
+	"slippymap_osmlink": "{{ignore}}",
+	"slippymap_osmtext": "Seems unused",
+	"slippymap_code": "Used as label in javascript",
+	"slippymap_button_code": "Used as title in javascript",
+	"slippymap_resetview": "Used as title in javascript",
+	"slippymap_license": "Seems unused"
+}

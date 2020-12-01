@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Codenstory",
+			"Ykhwong"
+		]
+	},
+	"ldapprovider-config-clientregistry": "사용자 지정 클라이언트의 등록을 허용합니다",
+	"ldapprovider-domain-config-not-found": "구성 파일 '$1'에 접근하지 못했습니다!\n\nLDAPProvider 확장 기능을 위해 도메인 구성 파일을 설정해 주십시오.",
+	"ldapprovider-more-than-one": "'$1'에 대해 둘 이상의 사용자를 발견했습니다"
+}

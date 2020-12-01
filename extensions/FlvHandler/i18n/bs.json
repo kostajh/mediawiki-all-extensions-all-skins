@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"flvhandler_desc": "Omogućava Flash Video (.flv) datoteke da se koriste u standardnim oznakama slika (npr. <nowiki>[[</nowiki>{{ns:file}}:Movie.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Flash video, $1 × $2 piksela, veličina datoteke: $3"
+}

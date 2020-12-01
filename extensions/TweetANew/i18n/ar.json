@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"tweetanew-desc": "يغرد عندما يتم إنشاء أو تحرير صفحة",
+	"tweetanew-newaction": "التغريد حول هذه الصفحة الجديدة",
+	"tweetanew-newtooltip": "أرسل معلومات حول هذه الصفحة الجديدة إلى تويتر",
+	"tweetanew-editaction": "التغريد حول هذا التعديل",
+	"tweetanew-edittooltip": "أرسل معلومات حول هذا التعديل إلى تويتر",
+	"tweetanew-minoredit": "ط",
+	"tweetanew-authorcredit": "بواسطة",
+	"tweetanew-newdefault": "صفحة جديدة: $1 - $2",
+	"tweetanew-new1": "يبدو أنه تم إنشاء $1 في $2",
+	"tweetanew-new2": "تم إنشاء $1 مؤخرا في $2",
+	"tweetanew-new3": "تحقق من $2; لديه صفحة جديدة في $1",
+	"tweetanew-editdefault": "تم تحديث صفحة: $1 - $2",
+	"tweetanew-edit1": "يبدو أنه تم تحديث $1 في $2",
+	"tweetanew-edit2": "تم تغيير $1 مؤخرا في $2",
+	"tweetanew-edit3": "تحقق من $2; لديه بعض المحتوى الجديد في $1"
+}

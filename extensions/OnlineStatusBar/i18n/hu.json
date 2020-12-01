@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dj"
+		]
+	},
+	"onlinestatusbar-title-online": "{{GENDER:$1|Online}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Elfoglalt}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Távol}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Rejtett}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Offline}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Ismeretlen}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Ez a felhasználó}} most online",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Ez a felhasználó}} elfoglalt, és ezért lehet, hogy nem elérhető",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Ez a felhasználó}} tétlen és lehet, hogy nem érhető el",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Ez a felhasználó}} offline",
+	"onlinestatusbar-tooltip-unknown": "{{GENDER:$1|Ezen felhasználó}} státusza ismeretlen"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"quickresponse-desc": "Генерирует QR-код для URL-адреса текущей страницы",
+	"quickresponse-text": "QR-код",
+	"quickresponse-tooltip": "Сгенерировать QR-код для текущего URL-адреса",
+	"quickresponse-title": "Вот ваш QR-код!"
+}

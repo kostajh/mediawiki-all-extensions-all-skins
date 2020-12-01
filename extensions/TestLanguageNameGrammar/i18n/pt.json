@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Macofe",
+			"Vitorvicentevalente"
+		]
+	},
+	"testlanguagenamegrammar": "Testar formas gramaticais com os nomes de línguas",
+	"testlanguagenamegrammar-desc": "Adiciona uma [[Special:TestLanguageNameGrammar|página especial]] para testar formas gramaticais com os nomes de línguas.",
+	"testlanguagenamegrammar-language": "Língua",
+	"testlanguagenamegrammar-grammarform": "Forma gramatical",
+	"testlanguagenamegrammar-submit": "Enviar"
+}

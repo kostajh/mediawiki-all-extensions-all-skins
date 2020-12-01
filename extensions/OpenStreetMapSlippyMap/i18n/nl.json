@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"slippymap_desc": "Laat het gebruik van de tag <tt><nowiki>&lt;slippymap&gt;</nowiki></tt> toe om een OpenLayers-kaart weer te geven. Kaarten zijn van [http://openstreetmap.org openstreetmap.org]",
+	"slippymap_latmissing": "De \"lat\"-waarde ontbreekt (voor de breedte).",
+	"slippymap_lonmissing": "De \"lon\"-waarde ontbreekt (voor de lengte).",
+	"slippymap_zoommissing": "De \"z\"-waarde ontbreekt (voor het zoomniveau).",
+	"slippymap_longdepreciated": "Gebruik \"lon\" in plaats van \"long\" (parameter is hernoemd).",
+	"slippymap_widthnan": "De waarde '$1' voor de breedte (w) is geen geldige integer",
+	"slippymap_heightnan": "De waarde '$1' voor de hoogte (h) is geen geldige integer",
+	"slippymap_zoomnan": "De waarde '$1' voor de zoom (z) is geen geldige integer",
+	"slippymap_latnan": "De waarde '$1' voor de breedte (lat) is geen geldig nummer",
+	"slippymap_lonnan": "De waarde '$1' voor de lengte (lon) is geen geldig nummer",
+	"slippymap_widthbig": "De breedte (w) kan niet groter dan 1000 zijn",
+	"slippymap_widthsmall": "De breedte (w) kan niet kleiner dan 100 zijn",
+	"slippymap_heightbig": "De hoogte (h) kan niet groter dan 1000 zijn",
+	"slippymap_heightsmall": "De hoogte (h) kan niet kleiner dan 100 zijn",
+	"slippymap_latbig": "De breedte (lat) kan niet groter dan -90 zijn",
+	"slippymap_latsmall": "De breedte (lat) kan niet kleiner dan -90 zijn",
+	"slippymap_lonbig": "De lengte (lon) kan niet groter dan 180 zijn",
+	"slippymap_lonsmall": "De lengte (lon) kan niet kleiner dan -180 zijn",
+	"slippymap_zoomsmall": "De zoom (z) kan niet minder dan nul zijn",
+	"slippymap_zoom18": "De zoom (z) kan niet groter zijn dan 17. Merk op dat deze MediaWiki-uitbreiding de \"Osmarender\"-layer van OpenSteetMap gebruikt die niet dieper dan het niveau 17 gaat. de \"Mapnik\"-layer, beschikbaar op openstreetmap.org, gaat tot niveau 18.",
+	"slippymap_zoombig": "De zoom (z) kan niet groter dan 17 zijn",
+	"slippymap_invalidlayer": "Ongeldige waarde voor 'layer' \"$1\"",
+	"slippymap_maperror": "Kaartfout:",
+	"slippymap_osmtext": "Deze kaart op OpenStreetMap.org bekijken",
+	"slippymap_code": "Wikicode voor deze kaart:",
+	"slippymap_button_code": "Wikicode",
+	"slippymap_resetview": "Terug"
+}

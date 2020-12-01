@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"inlinecategorizer-add-category": "Dodaj kategoriju",
+	"inlinecategorizer-add-category-submit": "Dodaj",
+	"inlinecategorizer-add-category-summary": "Dodaj kategoriju \"$1\"",
+	"inlinecategorizer-confirm-save": "Spremi",
+	"inlinecategorizer-confirm-title": "Potvrdi akciju",
+	"inlinecategorizer-error-title": "Greška",
+	"inlinecategorizer-remove-category-error": "Nije bilo moguće ukloniti kategoriju \"$1\".\nOvo se obično dešava kada je kategorija dodana na stranicu preko šablona.",
+	"inlinecategorizer-remove-category-summary": "Ukloni kategoriju \"$1\""
+}

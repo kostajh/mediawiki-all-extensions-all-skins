@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"bs-usagetracker-desc": "אספקת נתונים סטטיסטיים על שימוש בהרחבות",
+	"prefs-usagetracker": "מעקב אחר שימוש",
+	"usagetracker": "מעקב אחר שימוש",
+	"bs-usagetracker-startjobs": "לעדכן עכשיו",
+	"bs-usagetracker-create-statistics": "עדכון סטטיסטיקות השימוש",
+	"bs-usagetracker-col-identifier": "מזהה",
+	"bs-usagetracker-col-desc": "תיאור",
+	"bs-usagetracker-col-count": "מונה",
+	"bs-usagetracker-col-last-updated": "עדכון אחרון",
+	"bs-usagetracker-caution": "לתשומת לבך: עדכון סטטיסטיקות השימוש עלול להימשך זמן־מה ולהשתמש במשאבים רבים. מומלץ להריץ את העדכון רק כאשר יש צורך ממשי בנתונים הנוכחיים. כמו־כן, עלולים להיות עיכובים בעדכון, ולכן ייתכן שיהיה צורך לטעון אותו מחדש מספר פעמים עד שהנתונים ילוקטו במלואם.",
+	"bs-usagetracker-base-collector-desc": "מספר הדפים שמשתמשים ב{{GRAMMAR:תחילית|$1}}",
+	"bs-usagetracker-tag-collector-desc": "מספר הדפים שמשתמשים בתג <$1>",
+	"bs-usagetracker-db-collector-desc": "מספר ה־$1",
+	"bs-usagetracker-open-tasks": "ניתוח האתר מתבצע כרגע. {{PLURAL:$1|ניתוח אחד עדיין פתוח|$1 ניתוחים עדיין פתוחים}}. <a href='$2'>(רענון)</a>",
+	"apihelp-bs-usagetracker-store-summary": "אספקת נתונים סטטיסטיים על שימוש בהרחבות"
+}

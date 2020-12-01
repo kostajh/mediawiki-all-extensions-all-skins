@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Red Winged Duck"
+		]
+	},
+	"form-desc": "[[Special:Form|Форма інтэрфэйсу]] для стварэньня новых старонак",
+	"form": "Распачаць новую старонку",
+	"form-captcha-error": "Памылка CAPTCHA",
+	"form-pick-form": "Абярыце тып старонкі, які вы хочаце стварыць праз форму.",
+	"form-no-name": "Няма назвы формы",
+	"form-no-name-text": "Вам трэба падаць назву формы, напрыклад, «Special:Form/Назва_формы».",
+	"form-bad-name": "Няслушная назва формы",
+	"form-bad-name-text": "Няма формы з такой назвай.",
+	"form-pattern": "форма $1",
+	"form-title-pattern": "Дадаць новы $1",
+	"form-save": "Захаваць",
+	"form-index-mismatch-title": "Узор назвы і шаблён не спалучаюцца",
+	"form-index-mismatch": "Гэтая форма ўтрымлівае ўзоры назваў і шаблёнаў, якія не спалучаюцца, пачынаючы зь індэксу $1.",
+	"form-article-exists": "Старонка існуе",
+	"form-article-existstext": "Старонка [[$1]] ужо існуе.",
+	"form-bad-page-name": "Няслушная назва старонкі",
+	"form-bad-page-name-text": "Зьвесткі, якія Вы ўвялі ў форме, робяць назву старонкі няслушнай, «$1».",
+	"form-required-field-error": "У гэтай форме {{PLURAL:$2|патрабуецца поле|патрабуюцца палі}} $1.\nКалі ласка, запоўніце {{PLURAL:$2|яго|іх}}.",
+	"form-save-summary": "Новая старонка створаная з дапамогай [[Special:Form/$1|формы $1]]",
+	"form-save-error": "Памылка захаваньня формы",
+	"form-save-error-text": "Адбылася невядомая памылка пад час захаваньня старонкі '$1'."
+}

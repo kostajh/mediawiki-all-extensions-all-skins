@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lucie-Aimée Kaffee"
+		]
+	},
+	"createtopicpage": "Create page",
+	"articleplaceholder-desc": "Provides a special page with {{WBREPONAME}} information about a certain topic, with invitation to create an article for the topic",
+	"articleplaceholder-abouttopic": "About topic",
+	"articleplaceholder-abouttopic-intro": "This special page gives you a quick overview of a topic based on data from {{WBREPONAME}}.",
+	"articleplaceholder-abouttopic-entityid": "Please enter an item ID such as Q12345",
+	"articleplaceholder-abouttopic-submit": "craft",
+	"articleplaceholder-abouttopic-no-entity-error": "This is not a valid item ID.",
+	"articleplaceholder-abouttopic-create-article-title": "Create a new article",
+	"articleplaceholder-abouttopic-create-article-label": "Article title",
+	"articleplaceholder-abouttopic-create-article-mandatory": "The title of the article is mandatory.",
+	"articleplaceholder-abouttopic-create-article-button": "Create an article",
+	"articleplaceholder-abouttopic-create-empty-article-button": "Start a new article",
+	"articleplaceholder-abouttopic-translate-article-label": "Source language:",
+	"articleplaceholder-abouttopic-translate-article-button": "Translate article",
+	"articleplaceholder-abouttopic-create-article-submit-button": "Submit",
+	"articleplaceholder-abouttopic-article-exists-error": "An article with this name already exists",
+	"articleplaceholder-abouttopic-lua-entity": "Entity",
+	"articleplaceholder-abouttopic-lua-reference": "Reference",
+	"articleplaceholder-abouttopic-lua-identifier": "External resources",
+	"articleplaceholder-search-header": "Discover data on the topic",
+	"articleplaceholder-createpage-title": "Create $1",
+	"articleplaceholder-createpage-alreadyexists": "The page with the title $1 already exists. Please choose another one.",
+	"articleplaceholder-createpage-notitleprovided": "No title was entered, please enter a title for the page you want to create.",
+	"articleplaceholder-createpage-invalidtitleprovided": "The title you entered is invalid. Please provide a valid title."
+}

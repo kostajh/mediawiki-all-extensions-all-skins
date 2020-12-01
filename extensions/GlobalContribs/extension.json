@@ -1,0 +1,38 @@
+{
+	"name": "GlobalContribs",
+	"version": "1.3.0",
+	"author": [
+		"Adam Carter",
+		"George Barnick",
+		"Jack Phoenix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GlobalContribs",
+	"descriptionmsg": "globalcontribs-desc",
+	"license-name": "GPL-3.0-only",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"extensions": {
+			"Editcount": "*"
+		}
+	},
+	"AutoloadClasses": {
+		"GlobalEditcountHTML": "includes/GlobalEditcountHTML.php",
+		"GlobalContribsPager": "includes/GlobalContribsPager.php",
+		"SpecialGlobalContributions": "includes/specials/SpecialGlobalContributions.php",
+		"SpecialGlobalEditcount": "includes/specials/SpecialGlobalEditcount.php"
+	},
+	"MessagesDirs": {
+		"GlobalContribs": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"GlobalContribsAlias": "GlobalContribs.alias.php"
+	},
+	"SpecialPages": {
+		"GlobalContributions": "SpecialGlobalContributions",
+		"GlobalEditcount": "SpecialGlobalEditcount"
+	},
+	"manifest_version": 1
+}

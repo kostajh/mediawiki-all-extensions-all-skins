@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"MuratTheTurkish",
+			"Platonides",
+			"Shirayuki",
+			"Siebrand",
+			"Umherirrender"
+		]
+	},
+	"wlm-extension-desc": "{{desc|name=Wiki Loves Monuments|url=https://www.mediawiki.org/wiki/Extension:WikiLovesMonuments}}",
+	"wlm-no-contest-year": "Error message given when WLM parser functions get passed a parameter which is not a year in which there was (or is planned) a WLM edition.\n\nParameters:\n* $1 - a year",
+	"wlm-no-url-bad-country": "Error message given when {{#wlm-country-website: }} is given something that is not a country code.\n\nParameters:\n* $1 - invalid country code. Valid country codes are:\n** int, eu, ad, ar, at, by, be, ca, cl, co, cz, dk, ee, fr, gh, de, hu, in, il, it, ke, li, lu, mx, nl, no, pa, ph, pl, pt, ro, ru, rs, sk, za, es, se, ch, ua, us",
+	"wlm-country-not-given": "Error message given when {{#wlm-is-running: }} is not given a country code.",
+	"wlm-country-not-participating-year": "Error message given when the country code given does not match the WLM edition.\nIt is recommended to use a neutral verb time when possible. Note that this could happen for:\n* ''country'' didn't participate in Wiki Loves Monuments last\n* ''country'' is not participating in Wiki Loves Monuments this year\n* ''country'' is not scheduled to participate in Wiki Loves Monuments next year\n\nHowever, you don't need to prepare for really off year values, since {{msg-mw|wlm-no-contest-year}} will fire before this if there's no data about such competition.\n\nParameters:\n* $1 is the country\n* $2 is the year",
+	"wlm-sidebar-portlet": "Title of the portlet listing on the sidebar the websites for the rest of countries.\n{{Identical|Other country}}",
+	"wlm-international-contest": "Naming of the link to the website of the international contest, shown in the portlet.\n{{Identical|International}}",
+	"wlm-text-contact": "Caption for a page about contacting the (local) organization.\n{{Identical|Contact}}",
+	"wlm-text-contest": "Contest, competition. What Wiki Loves Monuments is. Suitable as caption for a page talking about Wiki Loves Monuments.\n{{Identical|Contest}}",
+	"wlm-text-donate": "Caption for a page about donating to the chapter.\n{{Identical|Donate}}",
+	"wlm-text-faq": "Text suitable as caption for a link leading to a list of Questions and answers (Frequently Asked Questions) about the Wiki Loves Monuments contest.\n{{Identical|FAQ}}",
+	"wlm-text-jury": "Jury, people who will decide which photos are the best. Suitable as caption for a page talking about the local jury, presenting it, explaining how the best photos are selected or what kind of people will decide.",
+	"wlm-text-monuments": "Monuments, what you photograph in Wiki Loves Monuments. Suitable as caption for a page talking about which monuments are eligible, or with the monument lists.\n{{Identical|Monument}}",
+	"wlm-text-news": "News, current events. Suitable as a caption for a page/blog giving the latest information about the contest.\n{{Identical|News}}",
+	"wlm-text-participate": "Text moving the user to participate in the Wiki Loves Monuments contest, preferably some kind of imperative. Suitable as caption for a link to a page explaining how to participate in a few simple steps.\n{{Identical|Participate}}",
+	"wlm-text-prizes": "Prizes, awards, what you will give to the authors of the best photos. Suitable for leading to a page describing them.\n{{Identical|Prize}}",
+	"wlm-text-rules": "Rules, the thing that people must abide by for participating in Wiki Loves Monuments. Caption suitable for a page with a boring list of things that most people won't actually need.\n{{Identical|Rule}}",
+	"wlm-text-sponsors": "Caption suitable for leading to a page about the sponsors/partners of the Wiki Loves Monuments contest.",
+	"wlm-text-uploading": "Text suitable for leading to a page with instructions / explaining how to upload the photos.\n{{Identical|Uploading}}"
+}

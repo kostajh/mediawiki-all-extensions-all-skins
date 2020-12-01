@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jason Ji",
+			"Cindy Cicalese"
+		]
+	},
+	"vikisemantictitle-desc": "VIKI plugin to handle wiki pages using Semantic Title extension",
+	"vikisemantictitle-error-displaytitle-fetch" : "Error fetching display title data for node: $1."
+}

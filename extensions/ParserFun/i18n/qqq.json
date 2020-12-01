@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"parserfun-desc": "{{desc|name=Parser Fun|url=https://www.mediawiki.org/wiki/Extension:Parser_Fun}}",
+	"parserfun-invalid-caller-mode": "Used as error message if no valid operation mode or valid numeric index given to first parameter."
+}

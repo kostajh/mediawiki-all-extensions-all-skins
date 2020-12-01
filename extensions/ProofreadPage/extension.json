@@ -1,0 +1,371 @@
+{
+	"name": "ProofreadPage",
+	"author": [
+		"ThomasV",
+		"Thomas Pellissier Tanon"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Proofread_Page",
+	"descriptionmsg": "proofreadpage_desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"GroupPermissions": {
+		"user": {
+			"pagequality": true
+		}
+	},
+	"GrantPermissions": {
+		"editpage": {
+			"pagequality": true
+		}
+	},
+	"AvailableRights": [
+		"pagequality",
+		"pagequality-admin"
+	],
+	"DefaultUserOptions": {
+		"proofreadpage-pagelist-use-visual-mode": "1"
+	},
+	"SpecialPages": {
+		"IndexPages": "\\ProofreadPage\\Special\\SpecialProofreadPages",
+		"PagesWithoutScans": "\\ProofreadPage\\Special\\SpecialPagesWithoutScans"
+	},
+	"APIMetaModules": {
+		"proofreadinfo": "\\ProofreadPage\\Api\\ApiQueryProofreadInfo"
+	},
+	"APIPropModules": {
+		"proofread": "\\ProofreadPage\\Api\\ApiQueryProofread"
+	},
+	"ContentHandlers": {
+		"proofread-page": "\\ProofreadPage\\Page\\PageContentHandler",
+		"proofread-index": "\\ProofreadPage\\Index\\IndexContentHandler"
+	},
+	"MessagesDirs": {
+		"ProofreadPage": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ProofreadPageAlias": "ProofreadPage.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"ProofreadPage\\": "includes/"
+	},
+	"AutoloadClasses": {
+		"FixProofreadPagePagesContentModel": "maintenance/fixProofreadPagePagesContentModel.php",
+		"FixProofreadIndexPagesContentModel": "maintenance/fixProofreadIndexPagesContentModel.php"
+	},
+	"TestAutoloadClasses": {
+		"ProofreadPage\\FileProviderMock": "tests/phpunit/FileProviderMock.php",
+		"ProofreadPage\\Page\\IndexForPageLookupMock": "tests/phpunit/Page/IndexForPageLookupMock.php",
+		"ProofreadPage\\Page\\PageQualityLevelLookupMock": "tests/phpunit/Page/PageQualityLevelLookupMock.php",
+		"ProofreadPage\\Index\\IndexContentLookupMock": "tests/phpunit/Index/IndexContentLookupMock.php",
+		"ProofreadPageTestCase": "tests/phpunit/ProofreadPageTestCase.php"
+	},
+	"ResourceModules": {
+		"jquery.mousewheel": {
+			"scripts": "jquery/jquery.mousewheel.js"
+		},
+		"jquery.prpZoom": {
+			"scripts": "jquery/jquery.prpZoom.js",
+			"dependencies": [
+				"jquery.ui",
+				"jquery.mousewheel"
+			]
+		},
+		"ext.proofreadpage.base": {
+			"styles": "ext.proofreadpage.base.css",
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		},
+		"ext.proofreadpage.page": {
+			"styles": "page/ext.proofreadpage.page.css"
+		},
+		"ext.proofreadpage.page.edit": {
+			"styles": "page/ext.proofreadpage.page.edit.css",
+			"scripts": "page/ext.proofreadpage.page.edit.js",
+			"dependencies": [
+				"ext.proofreadpage.base",
+				"ext.proofreadpage.page",
+				"jquery.prpZoom",
+				"mediawiki.user",
+				"user.options",
+				"jquery.textSelection",
+				"ext.proofreadpage.icons",
+				"ext.proofreadpage.ve.pageTarget.init",
+				"oojs-ui.styles.icons-media"
+			],
+			"messages": [
+				"proofreadpage_quality0_category",
+				"proofreadpage_quality1_category",
+				"proofreadpage_quality2_category",
+				"proofreadpage_quality3_category",
+				"proofreadpage_quality4_category",
+				"proofreadpage_quality0_summary",
+				"proofreadpage_quality1_summary",
+				"proofreadpage_quality2_summary",
+				"proofreadpage_quality3_summary",
+				"proofreadpage_quality4_summary",
+				"proofreadpage-section-tools",
+				"proofreadpage-group-zoom",
+				"proofreadpage-group-other",
+				"proofreadpage-button-toggle-visibility-label",
+				"proofreadpage-button-zoom-out-label",
+				"proofreadpage-button-reset-zoom-label",
+				"proofreadpage-button-zoom-in-label",
+				"proofreadpage-button-toggle-layout-label",
+				"proofreadpage-preferences-showheaders-label"
+			]
+		},
+		"ext.proofreadpage.page.navigation": {
+			"skinStyles": {
+				"vector": "page/ext.proofreadpage.page.navigation.vector.less"
+			}
+		},
+		"ext.proofreadpage.article": {
+			"scripts": "article/ext.proofreadpage.article.js",
+			"styles": "article/ext.proofreadpage.article.css",
+			"dependencies": [
+				"ext.proofreadpage.base"
+			]
+		},
+		"ext.proofreadpage.index": {
+			"styles": "index/ext.proofreadpage.index.css",
+			"scripts": "index/ext.proofreadpage.index.js",
+			"dependencies": [
+				"oojs-ui-core",
+				"mediawiki.widgets.CategoryMultiselectWidget"
+			]
+		},
+		"ext.proofreadpage.index.pagelist": {
+			"styles": [
+				"index.pagelist/styles/dialog.css",
+				"index.pagelist/styles/index.css"
+			],
+			"packageFiles": [
+				"index.pagelist/init.js",
+				"index.pagelist/PagelistInputWidget.Dialog.js",
+				"index.pagelist/PagelistInputWidget.ImagePanel.js",
+				"index.pagelist/PagelistInputWidget.js",
+				"index.pagelist/PagelistInputWidget.MainPanel.js",
+				"index.pagelist/PagelistInputWidget.Model.js",
+				"index.pagelist/PagelistInputWidget.PagelistPreview.js",
+				"index.pagelist/PagelistInputWidget.WikitextDialogModel.js",
+				"index.pagelist/PagelistInputWidget.VisualDialogModel.js",
+				"index.pagelist/PagelistInputWidget.DialogModel.js",
+				"index.pagelist/PagelistInputWidget.WikitextFormPanel.js",
+				"index.pagelist/PagelistInputWidget.VisualFormPanel.js",
+				"index.pagelist/PagelistInputWidget.TopPanel.js",
+				"index.pagelist/PagelistInputWidget.PageNumberInputWidget.js",
+				"index.pagelist/PagelistInputWidget.Parameters.js"
+			],
+			"messages": [
+				"proofreadpage-pagelist-dialog-cancel",
+				"proofreadpage-pagelist-dialog-discard-changes",
+				"proofreadpage-pagelist-dialog-insertchanges",
+				"proofreadpage-pagelist-dialog-title",
+				"proofreadpage-pagelist-dialog-unsaved-progress",
+				"proofreadpage-pagelist-dialog-unsaved-progress-title",
+				"proofreadpage-pagelist-dialog-update-button",
+				"proofreadpage-pagelist-display-number",
+				"proofreadpage-pagelist-imageurlnotfound",
+				"proofreadpage-pagelist-input-preview-button",
+				"proofreadpage-pagelist-parsing-error-morethanone",
+				"proofreadpage-pagelist-parsing-error-pagelistnotdetected",
+				"proofreadpage-pagelist-parsing-error-php",
+				"proofreadpage-pagelist-parsing-error-unknown",
+				"proofreadpage-pagelist-scan-number",
+				"proofreadpage-pagelist-type",
+				"proofreadpage-preferences-pagelist-use-visual-mode",
+				"proofreadpage-pagelist-assignedpagenumber",
+				"proofreadpage-pagelist-dialog-update-button",
+				"proofreadpage-pagelist-dialog-visual-config-not-found-message",
+				"proofreadpage-pagelist-dialog-visual-form-panel-label-range",
+				"proofreadpage-pagelist-dialog-wikitext-help",
+				"proofreadpage-pagelist-dialog-help-invisible-label",
+				"proofreadpage-pagelist-dialog-visual-form-panel-label-single",
+				"proofreadpage-pagelist-dialog-visual-help",
+				"proofreadpage-pagelist-dialog-visual-number-field-disabled-but-active",
+				"proofreadpage-pagelist-dialog-visual-page-number-input-label",
+				"proofreadpage-pagelist-dialog-visual-page-number-type-input-label",
+				"proofreadpage-pagelist-dialog-visual-single-page-toggle-label"
+			],
+			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-widgets",
+				"oojs-ui-windows",
+				"oojs-ui.styles.icons-interactions"
+			]
+		},
+		"ext.proofreadpage.special.indexpages": {
+			"styles": "special/indexpages/ext.proofreadpage.special.indexpages.css",
+			"dependencies": [
+				"ext.proofreadpage.base"
+			]
+		},
+		"ext.proofreadpage.icons": {
+			"class": "ResourceLoaderImageModule",
+			"selectorWithoutVariant": ".oo-ui-icon-{name}",
+			"selectorWithVariant": ".oo-ui-image-{variant}.oo-ui-icon-{name}",
+			"variants": {
+				"progressive": {
+					"color": "#36c"
+				}
+			},
+			"images": {
+				"zoomReset": {
+					"file": "page/images/zoomReset.svg"
+				},
+				"headerFooter": {
+					"file": "page/images/headerFooter.svg",
+					"variants": [
+						"progressive"
+					]
+				},
+				"switchLayout": {
+					"file": "page/images/switchLayout.svg",
+					"variants": [
+						"progressive"
+					]
+				}
+			}
+		},
+		"ext.proofreadpage.ve.node.pages": {
+			"scripts": [
+				"ve/node/ve.dm.MWPagesNode.js",
+				"ve/node/ve.ce.MWPagesNode.js",
+				"ve/node/ve.ui.MWPagesInspector.js",
+				"ve/node/ve.ui.MWPagesInspectorTool.js"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore",
+				"oojs-ui.styles.icons-content"
+			],
+			"messages": [
+				"proofreadpage-visualeditor-node-pages-inspector-tooltip",
+				"proofreadpage-visualeditor-node-pages-inspector-title",
+				"proofreadpage-visualeditor-node-pages-inspector-description",
+				"proofreadpage-visualeditor-node-pages-inspector-indexselector-yes",
+				"proofreadpage-visualeditor-node-pages-inspector-indexselector-no"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.proofreadpage.ve.pageTarget.init": {
+			"scripts": [
+				"ve/pageTarget/ve.init.mw.ProofreadPagePageTarget.init.js"
+			]
+		},
+		"ext.proofreadpage.ve.pageTarget": {
+			"scripts": [
+				"ve/node/ve.dm.MWPagequalityNode.js",
+				"ve/node/ve.ce.MWPagequalityNode.js",
+				"ve/node/ve.ui.MWPagequalityInspector.js",
+				"ve/node/ve.ui.MWPagequalityInspectorTool.js",
+				"ve/pageTarget/ve.init.mw.ProofreadPagePageTarget.js",
+				"ve/pageTarget/ve.dm.MWPagesSectionNode.js",
+				"ve/pageTarget/ve.ce.MWPagesSectionNode.js"
+			],
+			"styles": [
+				"ve/node/ve.ui.MWPagequalityInspector.css",
+				"ve/pageTarget/ve.init.mw.ProofreadPagePageTarget.css"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore",
+				"ext.visualEditor.desktopArticleTarget",
+				"oojs-ui.styles.icons-moderation",
+				"oojs-ui.styles.icons-media",
+				"jquery.prpZoom",
+				"ext.proofreadpage.icons"
+			],
+			"messages": [
+				"proofreadpage-button-zoom-out-label",
+				"proofreadpage-button-reset-zoom-label",
+				"proofreadpage-button-zoom-in-label",
+				"proofreadpage_body",
+				"proofreadpage_footer",
+				"proofreadpage_header",
+				"proofreadpage-visualeditor-node-pagequality-inspector-tooltip",
+				"proofreadpage-visualeditor-node-pagequality-inspector-title",
+				"proofreadpage_quality0_category",
+				"proofreadpage_quality1_category",
+				"proofreadpage_quality2_category",
+				"proofreadpage_quality3_category",
+				"proofreadpage_quality4_category"
+			],
+			"targets": [
+				"desktop"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "ProofreadPage/modules"
+	},
+	"Hooks": {
+		"SetupAfterCache": "ProofreadPage\\ProofreadPageInit::initNamespaces",
+		"ParserFirstCallInit": "ProofreadPage\\ProofreadPage::onParserFirstCallInit",
+		"BeforePageDisplay": "ProofreadPage\\ProofreadPage::onBeforePageDisplay",
+		"GetLinkColours": "ProofreadPage\\ProofreadPage::onGetLinkColours",
+		"ImageOpenShowImageInlineBefore": "ProofreadPage\\ProofreadPage::onImageOpenShowImageInlineBefore",
+		"PageSaveComplete": "ProofreadPage\\ProofreadPage::onPageSaveComplete",
+		"ArticleDelete": "ProofreadPage\\ProofreadPage::onArticleDelete",
+		"ArticleUndelete": "ProofreadPage\\ProofreadPage::onArticleUndelete",
+		"ArticlePurge": "ProofreadPage\\ProofreadPage::onArticlePurge",
+		"SpecialMovepageAfterMove": "ProofreadPage\\ProofreadPage::onSpecialMovepageAfterMove",
+		"LoadExtensionSchemaUpdates": "ProofreadPage\\ProofreadPage::onLoadExtensionSchemaUpdates",
+		"OutputPageParserOutput": "ProofreadPage\\ProofreadPage::onOutputPageParserOutput",
+		"wgQueryPages": "ProofreadPage\\ProofreadPage::onwgQueryPages",
+		"GetPreferences": "ProofreadPage\\ProofreadPage::onGetPreferences",
+		"CanonicalNamespaces": "ProofreadPage\\ProofreadPage::onCanonicalNamespaces",
+		"SkinTemplateNavigation": "ProofreadPage\\ProofreadPage::onSkinTemplateNavigation",
+		"ContentHandlerDefaultModelFor": "ProofreadPage\\ProofreadPage::onContentHandlerDefaultModelFor",
+		"EditFormPreloadText": "ProofreadPage\\ProofreadPage::onEditFormPreloadText",
+		"ParserTestTables": "ProofreadPage\\ProofreadPage::onParserTestTables",
+		"InfoAction": "ProofreadPage\\ProofreadPage::onInfoAction"
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.proofreadpage.ve.node.pages"
+			],
+			"AvailableNamespaces": {
+				"Page": true
+			},
+			"AvailableContentModels": {
+				"proofread-page": "proofread-page"
+			}
+		}
+	},
+	"ConfigRegistry": {
+		"proofreadpage": "GlobalVarConfig::newInstance"
+	},
+	"config": {
+		"ProofreadPageNamespaceIds": {
+			"value": [],
+			"description": "Array that contain the ids of namespaces used by ProofreadPage"
+		},
+		"ProofreadPagePageSeparator": {
+			"value": "&#32;",
+			"description": "The separator between transcluded pages"
+		},
+		"ProofreadPagePageJoiner": {
+			"value": "-",
+			"description": "A character which causes words split over different pages to be joined"
+		},
+		"ProofreadPagePageSeparatorPlaceholder": {
+			"value": "__PAGESEPARATOR__",
+			"description": "Placeholder to mark the position of the page separator"
+		}
+	},
+	"callback": "ProofreadPage\\ProofreadPage::onRegistration",
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

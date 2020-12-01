@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian",
+			"Liuxinyu970226",
+			"Wenyuan Liu",
+			"夢蝶葬花"
+		]
+	},
+	"bs-articleinfo-desc": "提供关于状态栏中页面的信息",
+	"prefs-articleinfo": "页面信息",
+	"bs-articleinfo-pref-CheckRevisionInterval": "更新间隔秒数：",
+	"bs-articleinfo-flyout-title": "页面信息",
+	"bs-articleinfo-flyout-intro": "在这里，您可以找到与页面相关的信息。您可以检查它的质量和日期，看看它如何与Wiki中的其他页面相关。",
+	"bs-articleinfo-nav-link-title": "页面信息",
+	"bs-articleinfo-flyout-categorylinks-title": "分类",
+	"bs-articleinfo-flyout-templatelinks-title": "页面上使用的模板",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "没有分配分类",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "没有使用模板",
+	"bs-articleinfo-flyout-lasteditedtime-text": "最近编辑",
+	"bs-articleinfo-flyout-lastediteduser-text": "最后编辑者",
+	"bs-articleinfo-newrevision-info-text": "此页面的新版本现已可用。请重新加载页面以查看当前内容。",
+	"bs-articleinfo-newrevision-info-text-reload": "此页面的新版本现已可用。请[[:$1|重新加载]]页面以查看当前内容。",
+	"bs-articleinfo-flyout-subpages-title": "子页面",
+	"bs-articleinfo-pagetool-subpages-tooltip": "子页面",
+	"bs-articleinfo-dialog-subpages-title": "子页面"
+}

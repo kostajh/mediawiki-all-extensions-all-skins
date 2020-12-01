@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.biz>"
+		]
+	},
+	"bs-bookshelfui-delete-book-text": "Möchten Sie dieses Buch wirklich löschen? \"bookshelf\" Elemente in verlinkten Seiten werden <em>nicht</em> automatisch entfernt!",
+	"bs-bookshelfui-bookui-savingprogress-text": "Bitte warten Sie, bis das Buch gespeichert ist",
+	"bs-bookshelfui-confirm-delete-text": "Möchten Sie das ausgewählte Kapitel wirklich aus dem Buch entfernen? Eventuell enthaltene Unterkaptitel werden ebenfalls entfernt.",
+	"bs-bookshelfui-override-tag-text": "Möchten Sie die Zuordnung zum Buch (<code>&lt;bs:bookshelf /&gt;</code>) innerhalb der Seite aktualisieren? Dabei wird eine neue Version der Seite erzeugt.",
+	"bs-bookshelfui-nothingtoexport-text": "Sie haben keine Auswahl getroffen",
+	"bs-bookshelfui-flyout-intro": "Hier finden Sie alle verfügbaren Bücher. Um Bücher hinzuzufügen, gehen Sie zur [[Special:Bookmanager|Bücherverwaltung]].",
+	"bs-bookshelfui-export-book-text": "Bitte warten Sie, bis das Buch erstellt wurde.",
+	"bs-bookshelfui-bookmanager-deletion-error-permission": "Sie haben keine Berechtigung um diese Aktion durchzuführen.",
+	"bs-bookshelfui-bookmanager-deletion-error-unkown": "Ein unbekannter Fehler ist aufgetreten. Bitte kontaktieren Sie Ihren Administrator."
+}

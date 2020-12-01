@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crochet.david",
+			"Gomoko",
+			"Grondin",
+			"IAlex",
+			"McDutchie",
+			"Omnipaedista",
+			"Sherbrooke",
+			"Thibaut120094"
+		]
+	},
+	"form-desc": "Une [[Special:Form|interface de formulaire]] pour commencer des nouvelles pages",
+	"form": "Commencer une nouvelle page",
+	"form-captcha-error": "Erreur de CAPTCHA",
+	"form-pick-form": "Choisir le type de page que vous voulez créer via un formulaire.",
+	"form-no-name": "Aucun nom",
+	"form-no-name-text": "Veuillez spécifier le nom du formulaire, sous la forme « Special:Formulaire/NomDuFormulaire ».",
+	"form-bad-name": "Nom incorrect",
+	"form-bad-name-text": "Aucun formulaire n’existe sous ce nom.",
+	"form-pattern": "formulaire-$1",
+	"form-title-pattern": "Ajouter un nouveau $1",
+	"form-save": "Sauvegarder",
+	"form-index-mismatch-title": "Inadéquation entre la palette de nom et le modèle",
+	"form-index-mismatch": "Ce formulaire a des patrons et des modèles qui ne correspondent pas à partir de $1.",
+	"form-article-exists": "La page existe déjà.",
+	"form-article-existstext": "La page nommée [[$1]] existe déjà.",
+	"form-bad-page-name": "Mauvais nom de page",
+	"form-bad-page-name-text": "Les données saisies forment un mauvais nom de page, « $1 ».",
+	"form-required-field-error": "{{PLURAL:$2|Le champ $1 est|Les champs $1 sont}} requis dans ce formulaire.\nVous devez le{{PLURAL:$2||s}} remplir.",
+	"form-save-summary": "Nouvelle page utilisant [[Special:Form/$1|le formulaire $1]]",
+	"form-save-error": "Une erreur s’est produite pendant la sauvegarde.",
+	"form-save-error-text": "Une erreur inconnue s’est produite pendant la sauvegarde de ''$1''."
+}

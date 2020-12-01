@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"changeuserpasswords": "사용자 비밀번호 바꾸기",
+	"changeuserpassword-desc": "이것은 관리자가 표시한 일부 항목을 제외하고 사용자의 비밀번호를 바꾸기 위한 확장 기능입니다.",
+	"changeuserpassword-pagename": "사용자비밀번호바꾸기",
+	"changeuserpassword-topheader": "비밀번호를 바꿀 사용자 이름을 선택해 주십시오. 모든 사용자는 기본적으로 선택됩니다. 비밀번호를 바꾸고 싶지 않은 사용자 이름은 선택을 해제해 주십시오.",
+	"changeuserpassword-success": "사용자 비밀번호를 바꾸었습니다!",
+	"changeuserpassword-title": "사용자 비밀번호 바꾸기",
+	"changeuserpassword-intro": "이것은 관리자가 표시한 일부 항목을 제외하고 사용자의 비밀번호를 바꾸기 위한 확장 기능입니다.",
+	"action-changeuserpasswords": "사용자 비밀번호를 바꾸기",
+	"right-changeuserpasswords": "사용자 비밀번호를 바꾸기"
+}

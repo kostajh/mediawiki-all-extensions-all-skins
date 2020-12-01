@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibou"
+		]
+	},
+	"sitesupport": "Jàppale nu",
+	"tooltip-n-sitesupport": "Jàppale nu",
+	"wikimedia-copyright": "Jàppandig ëmbéef lee ngi sukkadiku ci <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Creative Commons Attribution- Séddoo ci genn anam gi</a>;\nMan nañoo sukkadiku itam ci yeneen anam. Xoolal <a href=\"https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use\">anami jëfandiku gi</a> ngir yeneeni leeral.",
+	"wikimedia-copyrightwarning": "Soo dencee coppite yi, mooy ne nangu nga [https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use/fr anami jëfandikoo gi], te it nangu nga, ci maneedi-deltu-ginnaaw, ne yaa ngi siiwal say cëru ci ron àttey [https://creativecommons.org/licenses/by-sa/3.0/deed.it Creative Commons Moomale-Séeddoo ci genn melokaan 3.0] ak [https://it.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License GDFL]. Nangu nga itam ne doyna ab lëkkalekaay ngir moomale gi ci ron àtteb Creative Commons.",
+	"wikibase-sitelinks-wikinews": "Wikixibaar",
+	"wikibase-sitelinks-wikiquote": "Wikiquote",
+	"wikibase-sitelinks-wikisource": "Wikisource",
+	"wikibase-sitelinks-wikivoyage": "Wikivoyage",
+	"wikimedia-developers": "Suqalikat",
+	"wikimedia-globalblocking-ipblocked": "'''Sa màkkaanu IP dañ koo téye [[m:Special:MyLanguage/Global blocks|ci wiki yépp]].'''\n\nKi amal téye gi mooy $1($2)\nNgirte gi mu joxe mooy ''$3''.\n\n*Ndoorteelu téye gi:$4\n*Njeextalu téye gi: $5\n\nNii-nii sa màkkaanu IP mooy $4.\nBépp càkkutéef booy def boolewaale ci xibaar yi ñu bind ci kaw.\n\nSoo jàppee ne dañu laa téye ci njuumte, man nga fekk yeneeni xibaar aki gindikaay ci politig gu daj gu  [[m:Special:MyLanguage/No open proxies|proxy bu ubbeekuwul]]. \nWalla, ngir waxtaanee téye gi, noo ngi lay ñaan nga [[m:Steward requests/Global|yónnee ab càkkutéef ngir ñu seetaat ko ci Meta-Wiki]].",
+	"wikimedia-globalblocking-ipblocked-xff": "'''Benn walla ay joxekaay yu proxy dañ leen téye [[m:Special:MyLanguage/Global blocks|fépp]].'''\n\nKi amal téye gi mooy $1($2)\nNgirte gi mu joxe mooy ''$3''.\n\n*Ndoorteelu téye gi:$4\n*Njeextalu téye gi: $5\n\nMàkkaanu proxy giñ téye mooy $6.\nBépp càkkutéef booy def boolewaale ci xibaar yi ñu bind ci kaw.\n\nSoo jàppee ne dañu laa téye ci njuumte, man nga fekk yeneeni xibaar aki gindikaay ci politig gu daj gu  [[m:Special:MyLanguage/No open proxies|proxy bu ubbeekuwul]]. \nWalla, ngir waxtaanee téye gi, noo ngi lay ñaan nga [[m:Steward requests/Global|yónnee ab càkkutéef ngir ñu seetaat ko ci Meta-Wiki]]."
+}

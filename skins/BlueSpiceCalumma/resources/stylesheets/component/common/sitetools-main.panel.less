@@ -1,0 +1,110 @@
+.sitetools-main {
+	.panel,
+	.bs-panel {
+		&.panel-default {
+			padding: 0;
+			background-color: transparent;
+
+			.panel-heading {
+				padding: 0;
+				border: none;
+				border-radius: 0;
+				background-color: transparent;
+
+				.panel-title {
+					a {
+					}
+
+					a::before {
+						content: "\e92c";
+						font-family: "entypo";
+						float: left;
+						padding-right: 1em;
+					}
+
+					a.collapsed::before {
+						content: "\e921";
+						font-family: "entypo";
+						float: left;
+						padding-right: 1em;
+					}
+				}
+
+				.bs-panel-title {
+					.trigger.body ~ span.title {
+						margin-left: 40px;
+					}
+
+					.trigger.flyout{
+						i.trigger-icon {
+							&::before{
+								content: "\e922";
+								font-family: "entypo";
+								float: left;
+								margin-right: 10px;
+								line-height: 12px;
+							}
+						}
+					}
+
+					.trigger.body{
+						float: right;
+						height: 32px;
+						width: 100%;
+						line-height: 12px;
+						border-radius: 0;
+
+						i.trigger-icon::before{
+							content: "\e92c";
+							font-family: "entypo";
+							float: left;
+							font-style: normal;
+							padding-right: 1em;
+							line-height: 12px;
+						}
+					}
+
+					.collapsed .trigger.body{
+						i.trigger-icon::before{
+							content: "\e921";
+						}
+					}
+				}
+
+				.panel-title,
+				.bs-panel-title {
+					a{
+						padding: 10px 7px 10px 15px;
+						background-color: transparent;
+						height: 32px;
+						line-height: 12px;
+
+						span{
+							&.title {
+								width: auto;
+								margin-left: 10px;
+								display: inline-block;
+							}
+						}
+					}
+				}
+			}
+
+			.flyout-body-hint {
+				margin-top: 5px;
+				margin-left: 35px;
+			}
+		}
+
+		/* list-group-item */
+		.list-group {
+			a.list-group-item {
+				padding-left: 34px;
+
+				i:not(.pull-right) {
+					padding-left: 24px;
+				}
+			}
+		}
+	}
+}

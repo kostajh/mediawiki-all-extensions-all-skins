@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"bs-contextmenu-desc": "אספקת תפריטי הקשר עבור קישורים שונים",
+	"prefs-contextmenu": "תפריט הקשר",
+	"bs-contextmenu-pref-modus": "פתיחת תפריט הקשר (לא עובד במכשירים ניידים):",
+	"bs-contextmenu-pref-modus-just-right-mouse": "יש ללחוץ על לחצן העכבר הימני (הקשה על CTRL תציג את תפריט ההקשר המשמש כברירת מחדל בדפדפן)",
+	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "יש ללחוץ על לחצן העכבר הימני ולהחזיק את המקש CTRL (לחיצה רגילה על לחצן העכבר הימני תציג את תפריט ההקשר המשמש כברירת מחדל בדפדפן)",
+	"bs-contextmenu-page-edit": "עריכת הדף",
+	"bs-contextmenu-page-delete": "מחיקת הדף",
+	"bs-contextmenu-page-move": "העברת הדף",
+	"bs-contextmenu-page-history": "הצגת ההיסטוריה של הדף",
+	"bs-contextmenu-page-protect": "הגנה על הדף",
+	"bs-contextmenu-page-purge": "רענון המטמון והצגת הדף",
+	"bs-contextmenu-page-info": "הצגת מידע על הדף",
+	"bs-contextmenu-media-reupload": "העלאת גרסה חדשה",
+	"bs-contextmenu-media-view-page": "הצגת דף תיאור הקובץ וההיסטוריה שלו",
+	"bs-contextmenu-user-mail": "שליחת דוא\"ל",
+	"bs-contextmenu-user-talk": "השארת הודעה בדף השיחה",
+	"bs-contextmenu-file-download": "הורדת הקובץ",
+	"apihelp-bs-contextmenu-tasks-description": "אספקת הפריטים שבתפריט ההקשר",
+	"apihelp-bs-contextmenu-tasks-summary": "אספקת הפריטים שבתפריט ההקשר"
+}

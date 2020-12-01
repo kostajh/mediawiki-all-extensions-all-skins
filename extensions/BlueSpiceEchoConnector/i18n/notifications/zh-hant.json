@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-notifications-addaccount": "使用者「$1」已建立。",
+	"bs-notifications-email-addaccount-subject": "使用者「$2」{{GENDER:$1|已建立}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|使用者}} $2 已建立。\n\n您可以從下列連結來瀏覽{{GENDER:$1|他的|她的|該}}使用者頁面",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|使用者}} $2 已建立。",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|建立者}}：$1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|創建者}}：$1",
+	"bs-notifications-registeruser": "使用者「$1」已建立一個帳號。",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|User}}「$2」已{{GENDER:$1|建立}}一個帳號",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|User}}$2已{{GENDER:$1|建立}}一個帳號。\n\n您可以採用以下連結來查看{{GENDER:$1|他的|她的|該}}使用者頁面",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|User}}$2已{{GENDER:$1|建立}}一個帳號。",
+	"bs-notifications-edit": "頁面「$1」已被修改",
+	"bs-notifications-edit-bundle": "頁面「$2」已被更改 {{PLURAL:$1|$1 次|$1 次}}",
+	"bs-notifications-email-edit-subject": "頁面「$1」已由 $3 於 $4 {{GENDER:$2|編輯}}",
+	"bs-notifications-email-edit-body": "頁面「$1」已由 $4 於 $5 {{GENDER:$2|編輯}}。\n\n註解：\n$3",
+	"bs-notifications-web-edit-body": "頁面「$1」已由 $3 {{GENDER:$2|編輯}}。",
+	"bs-notifications-create": "頁面「$1」已建立",
+	"bs-notifications-email-create-subject": "頁面「$1」已由 $3 於 $4 {{GENDER:$2|建立}}",
+	"bs-notifications-email-create-body": "頁面「$1」已由 $3 於 $5 {{GENDER:$2|建立}}。\n\n註解：\n$4\n您可以從下列連結來瀏覽頁面",
+	"bs-notifications-web-create-body": "頁面「$1」已由 $3 {{GENDER:$2|建立}}。",
+	"bs-notifications-delete": "頁面「$1」已刪除",
+	"bs-notifications-email-delete-subject": "頁面「$1」已由 $3 於 $4 {{GENDER:$2|刪除}}",
+	"bs-notifications-email-delete-body": "頁面「$1」已由 $3 於 $5 {{GENDER:$2|刪除}}。\n\n原因：\n$4",
+	"bs-notifications-web-delete-body": "頁面「$1」已由 $3 {{GENDER:$2|刪除}}。",
+	"bs-notifications-move": "頁面「$1」已移動",
+	"bs-notifications-email-move-subject": "頁面「$1」已由 $4 於 $5 {{GENDER:$2|移動}}至「$3」",
+	"bs-notifications-email-move-body": "頁面「$1」已由 $4 於 $6 {{GENDER:$2|移動}}至「$3」。\n\n原因：\n$5\n\n您可以從下列連結來瀏覽頁面",
+	"bs-notifications-web-move-body": "頁面「$1」已由 $4 {{GENDER:$2|移動}}至「$3」",
+	"bs-notifications-edit-difflink-label": "查看差異",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|嗨}} $1",
+	"bs-notifications-htmlmail-sender-info": "$1 通知系統",
+	"bs-notifications-mail-additional-links-label": "額外連結"
+}

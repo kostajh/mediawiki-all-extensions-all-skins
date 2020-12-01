@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
+			"Mark85296341"
+		]
+	},
+	"inlinecategorizer-desc": "可直接從頁面啟動更改、添加，以及移除分類連結的 JavaScript 模組",
+	"inlinecategorizer-add-category": "加入分類",
+	"inlinecategorizer-add-category-submit": "新增",
+	"inlinecategorizer-add-category-summary": "加入分類「$1」",
+	"inlinecategorizer-api-error": "API返回了錯誤：$1：$2。",
+	"inlinecategorizer-api-unknown-error": "API返回了未知錯誤。",
+	"inlinecategorizer-cancel": "取消編輯",
+	"inlinecategorizer-cancel-all": "取消所有變更",
+	"inlinecategorizer-category-already-present": "分類“$1”下已有該頁面",
+	"inlinecategorizer-category-hook-error": "本地的一則函數阻止了保存更改的操作。",
+	"inlinecategorizer-category-question": "您為什麼要進行以下修改：",
+	"inlinecategorizer-confirm-ok": "確定",
+	"inlinecategorizer-confirm-save": "儲存",
+	"inlinecategorizer-confirm-save-all": "儲存所有變更",
+	"inlinecategorizer-confirm-title": "確認動作",
+	"inlinecategorizer-edit-category": "編輯類別",
+	"inlinecategorizer-edit-category-error": "不能編輯分類“$1”。這通常是由於該分類是隨模板加入頁面的。",
+	"inlinecategorizer-edit-category-summary": "變更類別 \"$1\" 至 \"$2\"",
+	"inlinecategorizer-error-title": "錯誤",
+	"inlinecategorizer-remove-category": "刪除類別",
+	"inlinecategorizer-remove-category-error": "不能移除分類“$1”。這通常是由於該分類是隨模板加入頁面的。",
+	"inlinecategorizer-remove-category-summary": "移除分類「$1」"
+}

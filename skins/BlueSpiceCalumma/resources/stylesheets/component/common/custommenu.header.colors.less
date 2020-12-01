@@ -1,0 +1,117 @@
+/* open */
+a.calumma-toggle-button.bs-custom-menu-header-button {
+	color: @theme-custom-menu-header-fg-color;
+	background-color: @theme-custom-menu-header-bg-color;
+	&:hover,
+	&:focus {
+		color: @theme-custom-menu-header-fg-color-hover;
+	}
+}
+
+.bs-custom-menu-header-container {
+	background-color: @theme-custom-menu-header-bg-color;
+	.bs-custom-menu.header {
+
+		& > li {
+			&:hover,
+			&:focus {
+				color: @theme-custom-menu-header-fg-color-hover;
+				background-color: @theme-custom-menu-header-bg-color-hover;
+			}
+		}
+
+		a {
+			color: @theme-custom-menu-header-fg-color;
+			line-height: 1.75rem;
+
+			&:hover {
+				color: @theme-custom-menu-header-fg-color-hover;
+				background-color: @theme-custom-menu-header-bg-color-hover;
+			}
+		}
+
+		li.dropdown,
+		li.dropdown-submenu,
+		li.contains-children {
+			.dropdown-menu,
+			.child-menu {
+				a {
+					height: 1.75rem;
+				}
+			}
+			&.level-1 {
+				.dropdown-menu,
+				.child-menu {
+					padding: 5px 0;
+					background-color: @theme-custom-menu-header-dropdown-bg-color;
+
+					a {
+						color: @theme-custom-menu-header-dropdown-fg-color;
+
+						&:hover {
+							color: @theme-custom-menu-header-dropdown-fg-color-hover;
+							background-color: @theme-custom-menu-header-dropdown-bg-color-hover;
+						}
+
+						& > span {
+							height: 1.75rem;
+							line-height: 1.75rem;
+						}
+					}
+
+					&.level-2 {
+						&::before {
+							font-size: 48px;
+							color:  @theme-custom-menu-header-dropdown-bg-color;
+						}
+					}
+
+					&:not(.level-2) {
+						&::before {
+							font-size: 48px;
+							color:  @theme-custom-menu-header-dropdown-bg-color;
+						}
+					}
+				}
+			}
+
+			&.open {
+				color: @theme-custom-menu-header-dropdown-fg-color-open;
+				background-color: @theme-custom-menu-header-dropdown-bg-color-open;
+				& > a {
+					color: @theme-custom-menu-header-dropdown-fg-color-open;
+				}
+			}
+
+			&:not( .level-1 ) {
+				& > a > i::after {
+					height: 1.75rem;
+					line-height: 1.75rem;
+				}
+			}
+		}
+	}
+
+	.bs-edit-custom-menu-link {
+		.label {
+			color: @theme-custom-menu-header-fg-color;
+		}
+
+		&:hover .label {
+			color: @theme-custom-menu-header-fg-color;
+		}
+	}
+}
+
+
+/* collapsed */
+body.mediawiki:not( .bs-cusom-menu-active ),
+body.mediawiki.bs-custom-menu-header-container-collapse {
+	a.calumma-toggle-button.bs-custom-menu-header-button {
+		&:hover,
+		&:focus {
+			color: @theme-custom-menu-header-fg-color-hover;
+		}
+
+	}
+}

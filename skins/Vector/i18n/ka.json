@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alsandro",
+			"David1010",
+			"გიორგიმელა",
+			"Გიო ოქრო"
+		]
+	},
+	"skinname-vector": "ვექტორული",
+	"vector-opt-out": "ძველი იერსახის აღდგენა",
+	"vector-opt-out-tooltip": "შეცვალეთ თქვენი კონფიგურაცია, რათა დაუბრუნდეთ გვერდების ძველ იერსახეს",
+	"vector.css": "/* აქ ჩასმული CSS გამოყენებული იქნება ვექტორული გაფორმების თემაში */",
+	"vector-action-addsection": "თემის ჩამატება",
+	"vector-action-delete": "წაშლა",
+	"vector-action-move": "გადატანა",
+	"vector-action-protect": "დაცვა",
+	"vector-action-undelete": "აღდგენა",
+	"vector-action-unprotect": "დაცვის შეცვლა",
+	"vector-view-create": "შექმნა",
+	"vector-view-edit": "რედაქტირება",
+	"vector-view-history": "ისტორია",
+	"vector-view-view": "შემოწმებული სტატია",
+	"vector-view-viewsource": "წყაროს ხილვა",
+	"vector-more-actions": "მეტი"
+}

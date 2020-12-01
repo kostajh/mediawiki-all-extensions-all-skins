@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liangent",
+			"Wrightbus"
+		]
+	},
+	"form-desc": "用來產生新頁面的[[Special:Form|表單介面]]。",
+	"form": "開始一個新頁面",
+	"form-captcha-error": "驗證碼錯誤",
+	"form-pick-form": "挑選您透過表單所要建立頁面的類型。",
+	"form-no-name": "未有表格名稱",
+	"form-no-name-text": "你必須提供一個表單名，如“Special:Form/表單名”。",
+	"form-bad-name": "錯誤的表單名",
+	"form-bad-name-text": "沒有這個名字的表單。",
+	"form-pattern": "$1-表單",
+	"form-title-pattern": "添加新的$1",
+	"form-save": "儲存",
+	"form-index-mismatch-title": "名稱模式與模板不相符",
+	"form-index-mismatch": "此表單在起於索引$1裡有名稱模式與模板不相符。",
+	"form-article-exists": "頁面存在",
+	"form-article-existstext": "頁面[[$1]]已存在。",
+	"form-bad-page-name": "錯誤的表單名",
+	"form-bad-page-name-text": "您所輸入的表單資料產生出錯誤頁面名稱「$1」。",
+	"form-required-field-error": "表單需要{{PLURAL:$2|欄位 $1|欄位 $1}}。\n請填寫好{{PLURAL:$2|該欄位|這些欄位}}。",
+	"form-save-summary": "使用[[Special:Form/$1|表單$1]]的新頁面",
+	"form-save-error": "儲存表格時發生錯誤",
+	"form-save-error-text": "儲存頁面「$1」時發生錯誤。"
+}

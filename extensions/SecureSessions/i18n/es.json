@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Fitoschido"
+		]
+	},
+	"securesessions-desc": "Hace más seguras las sesiones de usuario y la autentificación de sesión.",
+	"securesessions-personalurl": "Sesiones abiertas ($1)",
+	"securesessions-ipsession": "Salir del resto de sesiones.",
+	"securesessions-iprestrict": "Restringir la sesión a esta dirección IP,",
+	"securesessions-uarestrict": "Restringir la sesión a este navegador.",
+	"securesessions-sessions": "Sesiones",
+	"securesessions-sessions-legend": "Información de la sesión",
+	"securesessions-sessions-text": "A continuación se muestran las sesiones abiertas de tu cuenta e información sobre estas. Puedes cerrar todas las demás sesiones con el botón siguiente. La sesión actual está marcada por un asterisco (*).",
+	"securesessions-sessions-ip": "Dirección IP:",
+	"securesessions-sessions-activity": "Última actividad:",
+	"securesessions-sessions-clear": "Salir del resto de sesiones",
+	"securesessions-prefs-country": "Restringir el acceso por país:",
+	"securesessions-prefs-tor": "Impedir inicios de sesión desde nodos de salida de Tor.",
+	"securesessions-disallowedcountry": "No se puede acceder a esta cuenta desde este país.",
+	"securesessions-disallowedtor": "No se puede acceder a esta cuenta desde nodos de salida de Tor."
+}

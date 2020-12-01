@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ansumang",
+			"Naudefj",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"openstackmanager-desc": "Kom ons gebruikers bestuur Nova en Swift",
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Bestuur jou openbare SSH sleutels",
+	"specialpages-group-nova": "OpenStack Nova",
+	"openstackmanager-novakey": "Nova sleutel",
+	"openstackmanager-delete": "verwyder",
+	"openstackmanager-actions": "aksies",
+	"openstackmanager-notloggedin": "Aanmelding is verpligtend",
+	"openstackmanager-mustbeloggedin": "Jy moet ingeteken wees om hierdie aksie uit te voer.",
+	"openstackmanager-deletekey": "Delete-sleutel",
+	"openstackmanager-deletekeyconfirm": "Is jy seker jy wil die bogenoemde sleutel te verwyder?",
+	"openstackmanager-keylist": "Sleutel lys",
+	"openstackmanager-name": "Naam",
+	"openstackmanager-fingerprint": "Vingerafdruk",
+	"openstackmanager-keys": "Keys",
+	"openstackmanager-keypairimportfailed": "Kan sleutel paar in te voer.",
+	"openstackmanager-keypairimported": "Ingevoerde sleutel paar.",
+	"openstackmanager-deletedkeyfailed": "Kan sleutel te verwyder.",
+	"openstackmanager-shellaccountname": "Aanleg Shell rekening naam"
+}

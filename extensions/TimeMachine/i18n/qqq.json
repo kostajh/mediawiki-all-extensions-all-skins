@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"timemachine": "Time Machine",
+	"timemachine-desc": "{{desc|name=TimeMachine|url=https://www.mediawiki.org/wiki/Extension:TimeMachine}}",
+	"timemachine-p1": "First paragraph in Special:TimeMachine, explaining what to do with the form below.",
+	"timemachine-button1": "Text in the button right next to the field where the user inputs the date.",
+	"timemachine-p2": "Second paragraph in Special:TimeMachine, with a commentary on how it works.",
+	"timemachine-p3": "Third paragraph in Special:TimeMachine, explaining what the button below does.",
+	"timemachine-button2": "Text in the button that returns the wiki to normal."
+}

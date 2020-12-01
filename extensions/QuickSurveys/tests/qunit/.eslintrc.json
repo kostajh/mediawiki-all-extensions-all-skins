@@ -1,0 +1,7 @@
+{
+	"extends": "wikimedia/qunit",
+	"rules": {
+		"no-jquery/no-parse-html-literal": "off",
+		"no-jquery/no-class-state": "off"
+	}
+}

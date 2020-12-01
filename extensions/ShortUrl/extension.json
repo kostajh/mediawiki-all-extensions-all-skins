@@ -1,0 +1,59 @@
+{
+	"name": "ShortUrl",
+	"version": "1.2.0",
+	"author": "Yuvi Panda",
+	"license-name": "BSD-3-Clause",
+	"url": "https://www.mediawiki.org/wiki/Extension:ShortUrl",
+	"descriptionmsg": "shorturl-desc",
+	"type": "specialpage",
+	"SpecialPages": {
+		"ShortUrl": "SpecialShortUrl"
+	},
+	"MessagesDirs": {
+		"ShortUrl": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ShortUrlAlias": "ShortUrl.alias.php"
+	},
+	"AutoloadClasses": {
+		"ShortUrlUtils": "includes/ShortUrlUtils.php",
+		"ShortUrlHooks": "includes/ShortUrlHooks.php",
+		"SpecialShortUrl": "includes/specials/SpecialShortUrl.php"
+	},
+	"ResourceModules": {
+		"ext.shortUrl": {
+			"scripts": "js/ext.shortUrl.js",
+			"styles": "css/ext.shortUrl.css",
+			"localBasePath": "",
+			"remoteExtPath": "ShortUrl",
+			"dependencies": [
+				"mediawiki.Uri"
+			]
+		}
+	},
+	"Hooks": {
+		"SidebarBeforeOutput": [
+			"ShortUrlHooks::onSidebarBeforeOutput"
+		],
+		"LoadExtensionSchemaUpdates": [
+			"ShortUrlHooks::onLoadExtensionSchemaUpdates"
+		],
+		"OutputPageBeforeHTML": [
+			"ShortUrlHooks::onOutputPageBeforeHTML"
+		],
+		"WebRequestPathInfoRouter": [
+			"ShortUrlHooks::onWebRequestPathInfoRouter"
+		]
+	},
+	"config": {
+		"ShortUrlTemplate": {
+			"value": false
+		}
+	},
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	}
+}

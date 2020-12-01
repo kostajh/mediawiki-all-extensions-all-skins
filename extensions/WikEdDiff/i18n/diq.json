@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cacycle",
+			"Mirzali"
+		]
+	},
+	"wiked-diff-empty": "(Babetna niyo)",
+	"wiked-diff-ins": "Cıbiyaye",
+	"wiked-diff-del": "Esteriya",
+	"wiked-diff-block-left": "◀ Kırışt",
+	"wiked-diff-block-right": "Kırışt ▶",
+	"wiked-diff-block-left-nounicode": "< Kırışt",
+	"wiked-diff-block-right-nounicode": "Kırışt >"
+}

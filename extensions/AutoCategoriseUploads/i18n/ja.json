@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kkairri"
+		]
+	},
+	"autocatuploads": "AutoCategoriseUploads",
+	"autocatuploads-desc": "ファイルのメタデータに基づいて、ファイルにカテゴリを自動的に付与します。"
+}

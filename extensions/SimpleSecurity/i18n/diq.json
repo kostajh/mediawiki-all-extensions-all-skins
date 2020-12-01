@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Asmen",
+			"Gırd",
+			"Kumkumuk",
+			"Marmase",
+			"Mirzali"
+		]
+	},
+	"security": "Qeydê itımadi",
+	"security-manygroups": "grubê $1 u $2",
+	"security-type-category": "kategoriye",
+	"security-type-namespace": "heruna nameyan",
+	"restriction-read": "Bıwane"
+}

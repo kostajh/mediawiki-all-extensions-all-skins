@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Raimond Spekking"
+		]
+	},
+	"onlinestatus-desc": "Ergänzt eine Option zur Anzeige des Online-Status in den persönlichen Einstellungen",
+	"onlinestatus-js-anon": "Fehler: Du musst angemeldet sein, um diese Funktion nutzen zu können",
+	"onlinestatus-js-changed": "Dein Status wurde in „$1“ geändert",
+	"onlinestatus-js-error": "Statusänderung nicht möglich, der Wert „$1“ ist ungültig",
+	"onlinestatus-subtitle-offline": "Dieser Benutzer ist gegenwärtig offline",
+	"onlinestatus-subtitle-online": "Dieser Benutzer ist gegenwärtig online",
+	"onlinestatus-tab": "Status",
+	"onlinestatus-toggles-desc": "Dein Status:",
+	"onlinestatus-toggles-explain": "Diese Einstellung ermöglicht dir, anderen Benutzern auf deiner Benutzerseite zu zeigen, ob du online oder offline bist.",
+	"onlinestatus-toggles-show": "Zeige Onlinestatus auf meiner Benutzerseite",
+	"onlinestatus-toggle-offline": "Offline",
+	"onlinestatus-toggle-online": "Online",
+	"onlinestatus-pref-onlineonlogin": "Status auf online ändern, sobald ich mich anmelde",
+	"onlinestatus-pref-offlineonlogout": "Status auf offline ändern, wenn ich mich abmelde"
+}

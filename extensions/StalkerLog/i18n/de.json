@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder",
+			"DaSch",
+			"Kghbln",
+			"Metalhead64",
+			"Revolus"
+		]
+	},
+	"stalkerlog-desc": "Erweitert das Wiki um ein [[Special:Log/stalkerlog|Logbuch]] der An- und Abmeldungen von Benutzern",
+	"stalkerlog-log-login": "meldete sich an.",
+	"stalkerlog-log-logout": "meldete sich ab.",
+	"stalkerlog-log-type": "Authentifizierungs-Logbuch",
+	"stalkerlog-log-text": "Dies ist das Logbuch der An- und Abmeldungen von Benutzern.",
+	"action-stalkerlog-view-log": "Logbücher der Benutzeran- und -abmeldungen anzusehen",
+	"right-stalkerlog-view-log": "Logbücher der Benutzeran- und -abmeldungen ansehen"
+}

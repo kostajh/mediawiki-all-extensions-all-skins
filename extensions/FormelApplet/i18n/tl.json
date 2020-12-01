@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw",
+			"Sky Harbor"
+		]
+	},
+	"formelapplet-desc": "Magdagdag ng ''applet'' na [http://wiki.formelapplet.de FormelApplet] sa mga pahina",
+	"formelapplet-nojava": "Paki iluklok ang $1 upang magamit ang pahinang ito.",
+	"formelapplet-missing-parameter": "Nawawalang parametro (width o height o term/solution).",
+	"formelapplet-file-not-found": "Hindi natagpuan ang talaksang $1.",
+	"formelapplet-error": "Kamalian sa loob ng dugtong ng MediaWiki na FormelApplet: <em>$1</em>"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"gotoshell": "前往shell",
+	"gotoshell-desc": "引进[[Special:GoToShell|特殊页面]]让用户进入shell并返回",
+	"gotoshell-notallowed": "您的账户并无权限前往shell。",
+	"gotoshell-command": "命令：",
+	"gotoshell-result": "结果："
+}

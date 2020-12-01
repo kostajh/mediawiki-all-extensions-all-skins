@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
+		]
+	},
+	"configmanager-admintool-label": "Gerente de Configuração",
+	"action-configmanager-viewspecialpage": "ver página especial \"{{int:configmanager}}\"",
+	"configmanager": "Gerenciador da configuração",
+	"configmanager-desc": "Oferece a possibilidade aos administradores de configurar uma wiki por completo numa única página especial",
+	"configmanager-discardchanges": "Descartar mudanças?",
+	"configmanager-noentry": "Não foi encontrada nenhuma entrada",
+	"apihelp-configmanager-tasks-summary": "Gerenciar tarefas",
+	"apihelp-configmanager-store-summary": "Gerenciar armazenamento",
+	"right-configmanager-viewspecialpage": "Acesso à página especial [[Special:ConfigManager]]."
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"pluggablesso-desc": "与PluggableAuth一同使用由$REMOTE_USER的web服务器提供的SSO",
+	"pluggablesso-no-session": "未取得用户名，由于某种原因会话失败。",
+	"pluggablesso-username-mismatch": "用户名不匹配会话"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dennis Roczek"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "{{desc}}",
+	"addhtmlmetaandtitle-empty-attr": "Error description if empty tag is set in the page code."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"versioncompare": "Споредба на верзии",
+	"version-compare-desc": "Прикажува споредба на јадрената составница и верзиите на додатокот помеѓу две викија",
+	"version-compare-database-label": "База",
+	"version-compare-url-error": "Грешка при добивањето на податоците од $1.",
+	"version-compare-url-field-label-1": "Извршничка адреса бр. 1:",
+	"version-compare-url-field-help-1": "Адреса на извршникот (завршува со api.php) на првото вики што се споредува. Ќе биде тековното, ако ова го оставите празно.",
+	"version-compare-url-field-label-2": "Извршничка адреса бр. 2:",
+	"version-compare-url-field-help-2": "Адреса на извршникот (завршува со api.php) на второто вики што се споредува. Ќе биде тековното, ако ова го оставите празно.",
+	"version-compare-diff-field-label": "Прик. само разлики"
+}

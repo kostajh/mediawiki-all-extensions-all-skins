@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexandr Efremov"
+		]
+	},
+	"vikisemantictitle-desc": "\nПлагин VIKI для обработки вики страниц с использованием расширениz Semantic Title",
+	"vikisemantictitle-error-displaytitle-fetch": "Ошибка при получении данных заголовка для отображения страницы: $1."
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Mar(c)",
+			"Siebrand"
+		]
+	},
+	"nobogususerpages-desc": "Beperkt het aanmaken van gebruikerspagina's waar een gebruiker niet bestaat",
+	"badaccess-bogususerpage": "De gebruiker van deze gebruikerspagina bestaat niet. U hebt geen rechten om een onechte gebruikerspagina aan te maken.",
+	"action-createbogususerpage": "gebruikerspagina's aan te maken voor gebruikers die niet bekend zijn in deze wiki",
+	"right-createbogususerpage": "Gebruikerspagina's aanmaken voor gebruikers die niet bekend zijn in deze wiki"
+}

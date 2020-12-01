@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"onlinestatus-desc": "Älaub en de Enschtällonge för de Metmaacher e Krützje, öm op dä Metmaachersigg ze zeije, of mer aam Näz es, udder nit.",
+	"onlinestatus-js-anon": "Fähler: Do moß ald ennjelogg sin, öm dat maache ze künne",
+	"onlinestatus-js-changed": "Dinge Stattus es op „$1“ jeändert.",
+	"onlinestatus-js-error": "Et wohr nit möjjelesch, dä Stattus ze ändere, „$1“ es nit jöltesch.",
+	"onlinestatus-subtitle-offline": "Dä Metmaacher is em Momang nit doh",
+	"onlinestatus-subtitle-online": "Dä Metmaacher is jrad online",
+	"onlinestatus-tab": "Stattus",
+	"onlinestatus-toggles-desc": "Dinge Online-Stattus:",
+	"onlinestatus-toggles-explain": "Dat hee määt et müjjelich, dat ander Metmaacher om Dinge Metmaachersigg nohloore künne, of De online bes odder nit.",
+	"onlinestatus-toggles-show": "Zeich minge Online-Stattus op minge Metmachersigg",
+	"onlinestatus-toggle-offline": "Offline",
+	"onlinestatus-toggle-online": "Online",
+	"onlinestatus-pref-onlineonlogin": "Donn minge Stattuß op „onlain“ saze, wann esch ennlogg",
+	"onlinestatus-pref-offlineonlogout": "Donn minge Stattuß op „offlain“ saze, wann esch ußlogg"
+}

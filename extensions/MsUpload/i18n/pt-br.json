@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald",
+			"Michael Siegwarth (msiegwarth@gmail.com)",
+			"WikiUser22222"
+		]
+	},
+	"msu-desc": "Habilita uploads fáceis para um ou vários arquivos, simultaneamente",
+	"msu-button-title": "Selecionar arquivos",
+	"msu-insert-link": "Inserir link",
+	"msu-insert-gallery": "Inserir imagem como galeria",
+	"msu-insert-files": "Inserir todos como arquivos",
+	"msu-insert-links": "Inserir todos como links",
+	"msu-insert-image": "Inserir como imagem",
+	"msu-insert-video": "Inserir vídeo",
+	"msu-cancel-upload": "Cancelar upload",
+	"msu-continue": "Continuar mesmo assim?",
+	"msu-clean-all": "Limpar lista",
+	"msu-ext-not-allowed": "Somente {{PLURAL:$1|o seguinte tipo de arquivo é permitido|os seguintes tipos de arquivos são permitidos}}:",
+	"msu-upload-this": "Enviar este arquivo",
+	"msu-upload-all": "Enviar todos os arquivos",
+	"msu-upload-good": "Carregar $1 de $2 {{PLURAL:$2|arquivo|arquivos}}",
+	"msu-dropzone": "Solte os arquivos aqui",
+	"msu-comment": "Arquivo enviado com MsUpload"
+}

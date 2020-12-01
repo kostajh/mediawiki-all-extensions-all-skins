@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danny B.",
+			"Dvorapa"
+		]
+	},
+	"forcepreview": "$1 (nejprve použijte náhled)",
+	"forcepreview-desc": "Vynucování náhledu u neprivilegovaných uživatelů",
+	"right-forcepreviewexempt": "Ukládání stránky bez používání náhledu"
+}

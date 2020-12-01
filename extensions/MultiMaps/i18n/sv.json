@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil"
+		]
+	},
+	"multimaps-desc": "Tillåter användare att visa kartor och samordna data med flera karttjänster",
+	"multimaps-loading-map": "Laddar karta ...",
+	"multimaps-circle-radius-not-defined": "för cirkeln måste radien definieras",
+	"multimaps-circle-wrong-number-parameters": "för cirkeln bör det endast finnas två parametrar, koordinaterna för mittpunkten och radien. Men {{PLURAL:$1|en parameter|$1 parametrar}} angavs",
+	"multimaps-marker-incorrect-icon": "Ett felaktigt filnamn \"$1\" angavs för markörikonen.",
+	"multimaps-marker-incorrect-icon-url": "En felaktig URL \"$1\" angavs för markörikonen.",
+	"multimaps-marker-incorrect-icon-size": "En felaktig storlek \"$1\" angavs för markörikonen \"$2\".",
+	"multimaps-marker-incorrect-icon-anchor": "Ett felaktigt ankare \"$1\" angavs för markörikonen \"$2\".",
+	"multimaps-marker-incorrect-shadow-file": "Ett felaktigt filnamn \"$1\" angavs för ikonskuggan.",
+	"multimaps-marker-incorrect-shadow-url": "En felaktig URL \"$1\" angavs för ikonskuggan.",
+	"multimaps-marker-incorrect-shadow-size": "En felaktig storlek \"$1\" angavs för ikonskuggan \"$2\".",
+	"multimaps-marker-incorrect-shadow-anchor": "Ett felaktigt ankare \"$1\" angavs för ikonskuggan \"$2\".",
+	"multimaps-unknown-parameter": "Okänd parameter: \"$1\""
+}

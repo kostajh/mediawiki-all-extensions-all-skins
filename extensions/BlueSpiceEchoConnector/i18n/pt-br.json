@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-echoconnector-extension-description": "Conecta o BlueSpice com o Echo",
+	"echo-category-title-bs-admin-cat": "Tarefas administrativas",
+	"echo-pref-tooltip-bs-admin-cat": "Notificar-me quando uma nova conta de usuário for criada",
+	"echo-pref-tooltip-bs-page-actions-cat": "Notificar-me quando alguém editar, mover ou excluir uma página que eu assisto",
+	"echo-pref-tooltip-bs-page-create-cat": "Notificar-me quando uma nova página for criada",
+	"echo-category-title-bs-page-actions-cat": "Ações em páginas da lista de páginas vigiadas",
+	"echo-category-title-bs-page-create-cat": "Criação de página",
+	"prefs-namespace-notifications": "Notificações sobre eventos de espaços nominais",
+	"prefs-category-notifications": "Notificações sobre categorias",
+	"echo-category-title-bs-namespace-category-notify-cat": "Mudanças nos espaços nominais e categorias assinados"
+}

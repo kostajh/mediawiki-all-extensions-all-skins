@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Милан Јелисавчић"
+		]
+	},
+	"bs-visualeditorconnector-desc": "Повезује Parsoid са Визелним уређивачем",
+	"bs-visualeditorconnector-enable-visualeditor": "Омогући визуелни уређивач за додатке BlueSpice-а",
+	"bs-visualeditorconnector-cancel-edit-no-unsaved-changes": "Откажи уређивање",
+	"bs-visualeditorconnector-cancel-edit": "Откажи уређивање. Несачуване измене ће бити одбачене",
+	"bs-visualeditorconnector-cancel-edit-confirm-message": "Желите ли заиста да откажете уређивање? Несачуване измене ће бити одбачене.",
+	"bs-visualeditor-nsm-label": "Визуелни уређивач",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Опште",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Напредно",
+	"bs-vec-table-inspector-row": "Ред",
+	"bs-vec-contextitem-table-additional-options": "Додатне опције",
+	"bs-vec-dialog-table-create-number-of-rows": "Број редова"
+}

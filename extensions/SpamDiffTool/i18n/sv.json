@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lejonel",
+			"M.M.S.",
+			"Per",
+			"WikiPhoenix"
+		]
+	},
+	"spamdifftool": "Hantera svarta listan för spam",
+	"spamdifftool-desc": "Ger en enkel möjlighet att lägga till nya element i spamsvartlistan från diffsidor",
+	"spamdifftool-block": "Blockera:",
+	"spamdifftool-cant-edit": "Du har tyvärr inte behörighet att redigera svarta listan för spam.",
+	"spamdifftool-confirm": "Bekräfta att du vill lägga till dessa poster i svartlistan för spam. (<a href='$1' target='new'>Rapportera ett problem</a>.)",
+	"spamdifftool-no-text": "Ingen text att lägga till i svartlistan för spam. <a href='$1'>Fortsätt</a> .",
+	"spamdifftool-no-title": "'''Fel:''' ingen sidtitel angavs.",
+	"spamdifftool-no-urls-detected": "Ingen URL hittades. <a href='$1'>Gå tillbaka</a>.",
+	"spamdifftool-option-domain": "hela domänen",
+	"spamdifftool-option-subdomain": "hela subdomänen",
+	"spamdifftool-option-directory": "denna katalog i subdomänen",
+	"spamdifftool-option-none": "ingenting",
+	"spamdifftool-spam-link-text": "lägg till i spamlistan",
+	"spamdifftool-submit": "Lägg till",
+	"spamdifftool-summary": "Utökar svarta listan för spam",
+	"spamdifftool-tool": "Spamverktyg",
+	"spamdifftool-urls-detected": "Härunder listas de URL:er som hittades i redigeringen.\nVälj de du vill lägga till i svarta lista för spam.\nBlockeringsalternativen är ordnade från mer omfattande till mindre omfattande blockering.\nOm en hel domän blockeras så stoppas alla länkar till den domänen.\n\nUndvik att helt blockera domäner som är värd för många olika användare, såsom blogspot.com, shoutwiki.com, m.fl."
+}

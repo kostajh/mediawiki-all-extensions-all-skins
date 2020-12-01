@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"bs-notifications-addaccount": "Кориснички налог „$1” је отворен.",
+	"bs-notifications-email-addaccount-subject": "Кориснички налог „$2” је {{GENDER:$1|отворен}}.",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|Корисник $2 је креиран|Корисница $2 је креирана}}.\n\nМожете посетити {{GENDER:$1|његову|њену}} корисничку страницу праћењем линка испод:",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|Корисник $2 је креиран|Корисница $2 је креиран}}.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Стваралац}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Стваралац}}: $1",
+	"bs-notifications-registeruser": "Корисник „$1” је отворио налог.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|Корисник|Корисница}} \"$2\" је {{GENDER:$1|направио|направила}} налог",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|Корисник|Корисница}} $2 је {{GENDER:$1|направио|направила}} налог\n\nМожете посетити {{GENDER:$1|његову|њену}} корисничку страницу пратећи линк испод:",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|Корисник|Корисница}} $2 је {{GENDER:$1|направио|направила}} налог.",
+	"bs-notifications-edit": "Страница \"$1\" је измењена.",
+	"bs-notifications-edit-bundle": "Страница \"$2\" је измењена {{PLURAL:$1|$1 пут|$1 пута}}",
+	"bs-notifications-email-edit-subject": "$3 је {{GENDER:$2|уредио|уредила|уредио/-ла}} страницу $1 у $4",
+	"bs-notifications-email-edit-body": "$4 је {{GENDER:$2|уредио|уредила|уредио/-ла}} страницу $1 у $5.\n\nКоментар:\n $3",
+	"bs-notifications-web-edit-body": "Страница \"$1\" је била {{GENDER:$2|измењена}} од стране $3.",
+	"bs-notifications-create": "Страница „$1” је направљена",
+	"bs-notifications-email-create-subject": "$3 је {{GENDER:$2|направио|направила|направио/-ла}} страницу $1 у $4",
+	"bs-notifications-email-create-body": "$3 је {{GENDER:$2|направио|направила|направио/-ла}} страницу $1 у $5.\n\nКоментар:\n $4 \nМожете да посетите страницу кликом на линк испод:",
+	"bs-notifications-web-create-body": "Страница \"$1\" је {{GENDER:$2|направљена}} од стране $3.",
+	"bs-notifications-delete": "Страница \"$1\" је обрисана",
+	"bs-notifications-email-delete-subject": "$3 је {{GENDER:$2|избрисао|избрисала|избрисао/-ла}} страницу $1 у $4",
+	"bs-notifications-email-delete-body": "$3 је {{GENDER:$2|избрисао|избрисала|избрисао/-ла}} страницу $1 у $5.\n\nРазлог:\n$4",
+	"bs-notifications-web-delete-body": "Страница \"$1\" је {{GENDER:$2|обрисана}} од стране $3.",
+	"bs-notifications-move": "Страница \"$1\" је премештена",
+	"bs-notifications-email-move-subject": "$4 је {{GENDER:$2|преместио|преместила|преместио/-ла}} страницу $1 на одредиште $3 у $5.",
+	"bs-notifications-email-move-body": "$4 је {{GENDER:$2|преместио|преместила|преместио/-ла}} страницу $1 на одредиште $3 у $6.\n\nРазлог:\n$5\n\nМожете да посетите страницу кликом на линк испод:",
+	"bs-notifications-web-move-body": "Страница \"$1\" је {{GENDER:$2|премештена}} на \"$3\" од стране $4",
+	"bs-notifications-edit-difflink-label": "Прикажи разлику",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Здраво}} $1",
+	"bs-notifications-htmlmail-sender-info": "обавештајни систем $1",
+	"bs-notifications-mail-additional-links-label": "Додатне везе"
+}

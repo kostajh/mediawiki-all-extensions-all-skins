@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gzdavidwong",
+			"Kly",
+			"LNDDYL",
+			"Mark85296341",
+			"Wrightbus"
+		]
+	},
+	"forcepreview": "$1（優先使用預覽）",
+	"forcepreview-desc": "強制無權限使用者預覽",
+	"action-forcepreviewexempt": "可不使用顯示預覽來儲存",
+	"right-forcepreviewexempt": "可不使用顯示預覽來儲存"
+}

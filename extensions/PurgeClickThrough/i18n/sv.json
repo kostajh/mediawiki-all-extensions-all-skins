@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga"
+		]
+	},
+	"purgeclickthrough-desc": "Omdirigera inte sidor med ?action=purge, utan klicka dig fram istället (för att förebygga buggar)"
+}

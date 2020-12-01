@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexandr Efremov",
+			"Diralik",
+			"Kareyac",
+			"Katunchik",
+			"Movses",
+			"Okras",
+			"Vlad5250"
+		]
+	},
+	"bs-insertcategory-desc": "Диалог ввода ссылки на категорию",
+	"bs-insertcategory-insertcat": "Добавить категорию",
+	"prefs-insertcategory": "Добавить категорию",
+	"bs-insertcategory-pref-withparents": "Вставить категорию с её родительскими категориями",
+	"bs-insertcategory-pref-uploadpanelintegration": "Набор категорий по умолчанию в диалоговом окне загрузки",
+	"bs-insertcategory-title": "Добавить категорию",
+	"bs-insertcategory-cat-label": "Назначение:",
+	"bs-insertcategory-success": "Категория была добавлена",
+	"bs-insertcategory-failure": "Ошибка",
+	"bs-insertcategory-hint": "Примечание: чтобы добавить категорию, необходимо нажать клавишу Enter.",
+	"bs-insertcategory-panel-title": "Категории",
+	"bs-insertcategory-category-editor-title": "Категории",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Неявные категории",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Эти категории отсутствуют в викитексте страницы. Скорее всего они прописаны в шаблоне.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Удалить все",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "править",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Править категории на этой странице",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Измените категории этой страницы"
+}

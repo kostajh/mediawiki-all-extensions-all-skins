@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"KATRINE1992"
+		]
+	},
+	"gotoshell": "Πηγαίνετε στο ''κέλυφος''",
+	"gotoshell-desc": "Εισάγει το [[Special:GoToShell|a special page]] που οδηγεί τον χρήστη στη σειρά εισαγωγής με επιστροφή",
+	"gotoshell-notallowed": "Δεν επιτρέπεται στον λογαριασμό σας να πάει στην σειρά εισαγωγής",
+	"gotoshell-command": "Εντολή",
+	"gotoshell-result": "Αποτέλεσμα:"
+}

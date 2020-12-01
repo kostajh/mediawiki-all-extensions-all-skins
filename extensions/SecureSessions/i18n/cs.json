@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jaroslav Cerny",
+			"Vks"
+		]
+	},
+	"securesessions-desc": "Zesiluje zabezpečení uživatelských relací a autentizace relací",
+	"securesessions-personalurl": "Otevřené relace ($1)",
+	"securesessions-ipsession": "Odhlásit všechny ostatní relace.",
+	"securesessions-iprestrict": "Omezit relaci na tuto adresu IP.",
+	"securesessions-uarestrict": "Omezit relaci na tento prohlížeč.",
+	"securesessions-sessions": "Relace",
+	"securesessions-sessions-legend": "Informace o relaci",
+	"securesessions-sessions-text": "Dále jsou uvedeny všechny otevřené relace patřící k vašemu účtu a informace o nich. Dolním tlačítkem můžete zavřít všechny ostatní relace. Hvězdička (*) označuje aktuální relaci.",
+	"securesessions-sessions-ip": "IP adresa:",
+	"securesessions-sessions-activity": "Poslední aktivita:",
+	"securesessions-sessions-clear": "Odhlásit všechny ostatní relace",
+	"securesessions-prefs-country": "Omezit přihlášení na určitou zemi:",
+	"securesessions-prefs-tor": "Zakázat přihlášení z výstupních uzlů sítě Tor.",
+	"securesessions-disallowedcountry": "Tento účet se nesmí přihlásit z této země.",
+	"securesessions-disallowedtor": "Tento účet se nesmí přihlásit z výstupních uzlů sítě Tor."
+}

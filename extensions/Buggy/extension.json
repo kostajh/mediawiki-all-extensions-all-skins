@@ -1,0 +1,62 @@
+{
+	"name": "Buggy",
+	"version": "0.1.0",
+	"author": [
+		"Gergő Tisza"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Buggy",
+	"descriptionmsg": "buggy-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"Hooks": {
+		"BeforePageDisplay": [
+			"BuggyHooks::onBeforePageDisplay"
+		]
+	},
+	"APIModules": {
+		"buggy": "ApiBuggy"
+	},
+	"MessagesDirs": {
+		"Buggy": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.Buggy.css": {
+			"styles": "ext.Buggy.css"
+		},
+		"ext.Buggy.startup": {
+			"scripts": "ext.Buggy.startup.js"
+		},
+		"ext.Buggy.setTimeout": {
+			"scripts": "ext.Buggy.setTimeout.js"
+		},
+		"ext.Buggy.onready": {
+			"scripts": "ext.Buggy.onready.js"
+		},
+		"ext.Buggy.click": {
+			"scripts": "ext.Buggy.click.js"
+		},
+		"ext.Buggy.ajax": {
+			"scripts": "ext.Buggy.ajax.js"
+		},
+		"ext.Buggy.misc-cb": {
+			"scripts": "ext.Buggy.misc-cb.js"
+		},
+		"ext.Buggy.mwload": {
+			"scripts": "ext.Buggy.mwload.js"
+		},
+		"ext.Buggy.logError": {
+			"scripts": "ext.Buggy.logError.js"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "Buggy/modules"
+	},
+	"AutoloadClasses": {
+		"BuggyHooks": "Buggy.hooks.php",
+		"ApiBuggy": "ApiBuggy.php"
+	},
+	"manifest_version": 1
+}

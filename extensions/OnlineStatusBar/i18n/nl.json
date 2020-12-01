@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rcdeboer",
+			"SPQRobin",
+			"Siebrand",
+			"Wiki13"
+		]
+	},
+	"onlinestatusbar-desc": "Statusbalk die weergeeft of een gebruiker online is op zijn/haar gebruikerspagina",
+	"prefs-onlinestatus": "Onlinestatus",
+	"onlinestatusbar-used": "Uw onlinestatus weergeven op uw gebruikerspagina's",
+	"onlinestatusbar-hide": "De statusbalk op gebruikerpagina's verbergen en alleen het magische woord gebruiken (voor geavanceerde gebruikers)",
+	"onlinestatusbar-away": "Automatisch als weg markeren na een bepaalde interval",
+	"onlinestatusbar-purge": "Uw gebruikerspagina bij aanmelden en afmelden uit de cache verwijderen",
+	"onlinestatusbar-status": "Welke standaard status wilt u gebruiken?",
+	"onlinestatusbar-away-time": "Aantal minuten totdat u als weg gemarkeerd wordt:",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Online}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Bezig}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Weg}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Verborgen}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Offline}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Onbekend}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Deze gebruiker}} is nu online",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Deze gebruiker}} is druk en mogelijk niet beschikbaar",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Deze gebruiker}} is inactief en mogelijk niet beschikbaar",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Deze gebruiker}} is offline",
+	"onlinestatusbar-tooltip-unknown": "Status van {{GENDER:$1|deze gebruiker}} is onbekend"
+}

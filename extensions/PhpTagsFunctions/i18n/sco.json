@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"John Reid"
+		]
+	},
+	"phptagsfunctions-desc": "Implements the internal functions o native PHP fer the extension PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "Delimiter maunna be alphanumeric or backslash",
+	"phptagsfunctions-preg-no-ending-delimiter": "No ending delimiter \"$1\" foond",
+	"phptagsfunctions-preg-unknown-modifier": "Onken't modifier \"$1\""
+}

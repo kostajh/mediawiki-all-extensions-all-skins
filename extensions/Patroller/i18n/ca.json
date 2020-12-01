@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"El libre",
+			"SMP",
+			"Solde"
+		]
+	},
+	"patrol-revert-reason": "Motiu:",
+	"group-patroller": "Patrullers",
+	"group-patroller-member": "{{GENDER:$1|patruller|patrullera}}",
+	"grouppage-patroller": "{{ns:project}}:Patrullers"
+}

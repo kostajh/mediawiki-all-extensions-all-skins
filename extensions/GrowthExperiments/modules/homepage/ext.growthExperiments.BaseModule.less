@@ -1,0 +1,79 @@
+@import 'mediawiki.ui/variables';
+@import 'mediawiki.mixins';
+@import 'ext.growthExperiments.variables.less';
+
+.growthexperiments-homepage-module {
+	border: @colorGray12 @border-width-base @border-style-base;
+	border-radius: @borderRadius;
+	.box-shadow( none );
+	color: @colorGray2;
+	padding: 16px;
+	.box-sizing( border-box );
+
+	&-user-variant-A {
+		margin: @homepageModuleMargin;
+	}
+
+	&-user-variant-C,
+	&-user-variant-D {
+		margin: @homepageModuleMarginVariationCVariationD;
+	}
+
+	.growthexperiments-homepage-module-header,
+	h2.growthexperiments-homepage-module-header {
+		font-family: @homepageHeaderFont;
+		font-size: 1.2em;
+		line-height: 1.2em;
+		font-weight: bold;
+		color: @colorGray2;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-bottom: 1 / 1.05em;
+		border-bottom: unset;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		&-icon {
+			margin-right: 0.5em;
+
+			.oo-ui-iconElement {
+				height: 0.8em;
+			}
+		}
+
+		&-text {
+			flex-grow: 1;
+		}
+
+		&-nav-icon {
+			height: 0.8em;
+		}
+	}
+
+	.growthexperiments-homepage-module-subheader,
+	h3.growthexperiments-homepage-module-subheader {
+		font-family: @homepageHeaderFont;
+		font-size: 1em;
+		font-weight: normal;
+		color: @colorGray5;
+		margin: 0;
+	}
+
+	&-text-normal {
+		color: @colorGray2;
+	}
+
+	&-text-light {
+		font-size: 0.85em;
+		color: @colorGray7;
+	}
+
+	&-footer {
+		margin-top: 1.143em;
+	}
+
+	.oo-ui-buttonElement .oo-ui-buttonElement-button .oo-ui-labelElement-label {
+		white-space: normal;
+	}
+}

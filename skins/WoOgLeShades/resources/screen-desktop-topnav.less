@@ -1,0 +1,50 @@
+@import 'variables.less';
+
+#mw-sidebar-outer {
+	background: @grey6;
+	color: @primarybold;
+	box-shadow: 0 0 20px rgba( 0, 0, 0, 0.25 );
+	padding: 0 0 0.1em;
+	border-bottom: solid 3px @primarybold-light;
+
+	a {
+		color: @primarybright;
+	}
+}
+
+#site-navigation .mw-portlet {
+	.dropdown();
+
+	h3 {
+		.dropdown-toggle();
+	}
+}
+
+#site-navigation .mw-portlet h3 {
+	background-image: url( images/arrow-down-blue.svg );
+}
+
+#site-navigation {
+	float: right;
+	margin-top: 0.3em;
+
+	.mw-portlet {
+		display: inline-block;
+	}
+}
+
+#mw-navigation,
+#mw-sidebar,
+#page-tools,
+#content-header,
+#content,
+#footer {
+	max-width: @width;
+	margin: 0 auto;
+	position: relative;
+	box-sizing: border-box;
+}
+
+#content-outer {
+	border-top: solid 1px @grey6;
+}

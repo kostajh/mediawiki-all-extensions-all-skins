@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Conquistador",
+			"Vlad5250"
+		]
+	},
+	"svgedit-editbutton-edit": "Uredi",
+	"svgedit-summary-label": "Opis izmjene",
+	"svgedit-summary-default": "/* Izmijenjeno u svg-edit */",
+	"svgedit-editor-save-close": "Sačuvaj i zatvori",
+	"svgedit-editor-close": "Otkaži",
+	"svgedit-desc": "Uređivanje SVG-crteža u samim pregledniku uz [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Uredi crtež",
+	"svgedit-edit-tab-tooltip": "Možete urediti ovaj SVG-crtež u pregledniku",
+	"svgedit-toolbar-insert": "SVG-crtež"
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"Umherirrender"
+		]
+	},
+	"semanticpageseries-desc": "Ermöglicht das Erstellen einer Abfolge von Seiten mit einem von [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Semantic Forms] bereitgestellten Formular",
+	"spssuccesstitle": "$1 Seiten werden erstellt …",
+	"spssuccess": "{{PLURAL:$1|Eine Seite wird|$1 Seiten werden}} erstellt.",
+	"spssuccess-returntoorigin": "Zurück zu $1",
+	"spserror": "Ein Fehler ist aufgetreten",
+	"spserror-diffnotsupported": "Die Aktion „diff“ wird nicht unterstützt.",
+	"spserror-previewnotsupported": "Die Seitenvorschau wird nicht unterstützt.",
+	"spserror-noiteratorname": "Der Seitenfolgebezeichner wurde nicht angegeben. Der Parameter „iterator“ muss zur Funktion #serieslink angegeben werden.",
+	"spserror-iteratorunknown": "Der Seitenfolgebezeichner „$1“ ist nicht vorhanden. Der Parameter „iterator“ der Funktion #serieslink muss berichtigt werden.",
+	"spserror-noformname": "Der Name des Formulars wurde nicht angegeben.",
+	"spserror-formunknown": "Das Formular „$1“ ist nicht vorhanden.",
+	"spserror-notargetformname": "Der Name des Zielformulars wurde nicht angegeben. Der Parameter „target form“ muss zur Funktion #serieslink angegeben werden.",
+	"spserror-notargetfieldname": "Der Name des Zielfeldes wurde nicht angegeben. Der Parameter „target field“ muss zur Funktion #serieslink angegeben werden.",
+	"spserror-iteratorparammissing": "Die folgenden Parameter zum Seitenfolgebezeichner fehlen beim Aufruf der Funktion #serieslink:\n$1",
+	"spserror-noiteratordata": "Die gesendeten Daten enthalten keine Parameter zum Seitenfolgebezeichner.",
+	"spserror-pagegenerationlimitexeeded": "Es {{PLURAL:$1|sollte eine Seite|sollten $1 Seiten}} erstellt werden. Diese Anzahl übertrifft den zulässigen Grenzwert von {{PLURAL:$2|einer Seite|$2 Seiten}}.",
+	"spserror-date-startdatemissing": "Es fehlt das Startdatum.",
+	"spserror-date-internalerror": "Beim Erstellen der Daten ist ein Fehler aufgetreten: $1",
+	"spserror-count-startvaluemalformed": "Der Startwert ist keine Zahl.",
+	"spserror-count-endvaluemalformed": "Der Endwert ist keine Zahl.",
+	"spserror-count-stepvaluemalformed": "Der Schrittwert ist keine Zahl.",
+	"spserror-count-digitsvaluemalformed": "Der Ziffernwert ist keine Zahl."
+}

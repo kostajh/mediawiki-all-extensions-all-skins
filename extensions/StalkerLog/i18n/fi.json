@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mobe",
+			"Str4nd"
+		]
+	},
+	"stalkerlog-desc": "Lisää [[Special:Log/stalkerlog|lokin]] käyttäjien sisään- ja uloskirjautumisista.",
+	"stalkerlog-log-login": "kirjautunut sisään.",
+	"stalkerlog-log-logout": "kirjautunut ulos.",
+	"stalkerlog-log-type": "Käyttäjien kirjautumisloki",
+	"stalkerlog-log-text": "Tämä on loki käyttäjien sisään- ja uloskirjautumisista."
+}

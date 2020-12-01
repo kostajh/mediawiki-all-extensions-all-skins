@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"KATRINE1992",
+			"Matěj Suchánek"
+		]
+	},
+	"performanceinspector-modules-css-column-used-selectors": "Εφαρμοσμένες επιλογές",
+	"performanceinspector-modules-css-used-selectors-values": "$1 ($2 πάνω σε $3)",
+	"performanceinspector-modules-css-url-description": "Για κάθε CSS URL με στυλ, μετρήστε τον αριθμό επιλογών και πόσοι συνδυασμοί υπάρχουν έναντι μερικών στοιχείων στο DOM.",
+	"performanceinspector-modules-css-show-details": "Μετρήστε τα στοιχεία",
+	"performanceinspector-modules-css-embeds-description": "Για κάθε αρχείο  ResourceLoader και εξωτερικό διαμορφωμένο φύλλο, βρείτε τις επιλογές που δεν έχουν χρησιμοποιηθεί και περιέχουν ένα ή περισσότερα Δεδομένα URIs που έχουν εισαχθεί",
+	"performanceinspector-modules-css-column-source": "Πηγή",
+	"performanceinspector-modules-css-column-used-embeds": "Χρησιμοποιημένες επιλογές",
+	"performanceinspector-modules-summary-images": "Η σελίδα έχει $1{{PLURAL:$1|εικόνα|εικόνες}} με ένα μέγεθος συνολικό $2.",
+	"performanceinspector-newpp-summary": "Η σελίδα έχει μια ακριβή λειτουργία $1 {{PLURAL:$1|κλήση|κλήσεις}}.",
+	"performanceinspector-modules-css-description": "Για κάθε στοιχείο του υπολογιστή ResourceLoader με στυλ, μετρήστε τον αριθμό επιλογών, και μετρήστε πόσοι συνδυασμοί υπάρχουν έναντι κάθε στοιχείου στο DOM.",
+	"performanceinspector-newpp-cachereport-now": "Τώρα",
+	"performanceinspector-newpp-missing-report": "Δεν μπόρεσε να προσκομίσει δελτίο στοιχείων αναλυτή έτσι τα πεδία δελτίου του αναλυτή θα είναι κενά.",
+	"performanceinspector-pagesize-summary": "Το μέγεθος HTML είναι $1 (συμπιεσμένο κατά $2)"
+}

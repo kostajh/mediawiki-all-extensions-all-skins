@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Imre"
+		]
+	},
+	"onlinestatus-js-anon": "Fehler: Sie müssen angemeldet sein, um diese Funktion nutzen zu können",
+	"onlinestatus-js-changed": "Ihr Status wurde in „$1“ geändert",
+	"onlinestatus-toggles-desc": "Ihr Status:",
+	"onlinestatus-toggles-explain": "Diese Einstellung ermöglicht Ihnen, anderen Benutzern auf Ihrer Benutzerseite zu zeigen, ob Sie online oder offline sind."
+}

@@ -1,0 +1,25 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/mediawiki"
+	],
+	"globals": {
+		"jQuery": false
+	},
+	"rules": {
+		"array-bracket-spacing": "off",
+		"brace-style": "off",
+		"camelcase": "off",
+		"computed-property-spacing": "off",
+		"eqeqeq": "off",
+		"no-undef": "off",
+		"no-unused-vars": "off",
+		"no-implied-eval": "off",
+		"quote-props": "off",
+		"one-var": "off",
+		"space-before-function-paren": "off",
+		"valid-jsdoc": "off",
+		"vars-on-top": "off"
+	}
+}

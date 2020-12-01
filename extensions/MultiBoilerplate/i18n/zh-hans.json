@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"PhiLiP",
+			"Zoglun"
+		]
+	},
+	"multiboilerplate-desc": "在编辑页面时，允许从编辑表单上方的下拉框中选择样板",
+	"multiboilerplate-legend": "选择样板",
+	"multiboilerplate-submit": "加载",
+	"boilerplates": "样板",
+	"multiboilerplate-special-pagetext": "这些模板可以在页面创建时进行预加载。（<span class=plainlinks>[{{fullurl:This page does not exist|action=edit}} 演示]</span>）",
+	"multiboilerplate-special-define-in-localsettings": "样板在本地设置中定义。",
+	"multiboilerplate-special-define-in-interface": "样板在[[MediaWiki:Multiboilerplate]]中定义。",
+	"multiboilerplate-special-no-boilerplates": "在任何地方都没有定义样板。",
+	"multiboilerplate-nonexistant-page": "样板页面不存在：“$1”"
+}

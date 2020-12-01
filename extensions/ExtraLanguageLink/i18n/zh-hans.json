@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"extralanguagelink-desc": "将额外的语言连接加入边栏上的“其他语言”",
+	"extralanguagelink-param-class": "类",
+	"extralanguagelink-param-hreflang": "基准语言",
+	"extralanguagelink-param-lang": "语言",
+	"extralanguagelink-param-style": "类型",
+	"extralanguagelink-param-title": "标题",
+	"extralanguagelink-badinterwiki": "跨wiki前缀“$1：”未出现在允许的跨wiki前缀列表。",
+	"extralanguagelink-badtitle": "页面标题“$1”无法解析。"
+}

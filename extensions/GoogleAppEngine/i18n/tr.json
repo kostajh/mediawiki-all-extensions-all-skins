@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"gae-desc": "GoogleAppEngine'da çalışan vikilerde geliştirmeler sağlar",
+	"apihelp-gaejobqueue-description": "JobQueue'u çalıştırmak için dahili API modülü. Harici kullanıma izin verilmiyor.",
+	"apihelp-gaejobqueue-summary": "JobQueue'u çalıştırmak için dahili API modülü. Harici kullanıma izin verilmiyor.",
+	"apihelp-gaejobqueue-param-namespace": "Sayısal ad alanı kimliği.",
+	"apihelp-gaejobqueue-param-titletext": "Ad alanı olmadan başlık metni.",
+	"apihelp-gaejobqueue-param-type": "İş türü.",
+	"apihelp-gaejobqueue-param-params": "PHP iş için serileştirilmiş parametreler."
+}

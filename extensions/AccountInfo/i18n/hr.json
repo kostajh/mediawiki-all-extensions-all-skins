@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"MaGa"
+		]
+	},
+	"accountinfo": "Informacije o računu",
+	"accountinfo-desc": "Omogućava suradniku da vidi spremljene privatne informacije o njemu",
+	"accountinfo-ts": "Vremenski pečat",
+	"accountinfo-ip": "IP adresa",
+	"accountinfo-ua": "Posrednik (user agent)",
+	"accountinfo-xff": "XFF zaglavlje",
+	"accountinfo-length": "Informacija je sačuvana za $1.",
+	"accountinfo-now": "Sada"
+}

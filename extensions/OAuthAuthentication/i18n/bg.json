@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"ShockD",
+			"Vlad5250"
+		]
+	},
+	"oauthauth-already-logged-in": "Вече сте влезли.",
+	"oauthauth-error": "Грешка при свързване",
+	"ouathauth-logout": "Излизане",
+	"oauthauth-login": "Влизане в $1",
+	"oauthauth-invalid-subpage": "Целевата подстраница е невалидна."
+}

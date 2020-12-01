@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"countDownClock-days": "$1 {{PLURAL:$1|día|días}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|hora|horas}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|minuto|minutos}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|segundo|segundos}}"
+}

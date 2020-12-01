@@ -1,0 +1,214 @@
+{
+	"name": "MassMessage",
+	"version": "0.4.0",
+	"author": [
+		"Kunal Mehta",
+		"wctaiwan"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:MassMessage",
+	"descriptionmsg": "massmessage-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"config": {
+		"NamespacesToPostIn": {
+			"value": [
+				4
+			]
+		},
+		"AllowGlobalMessaging": {
+			"value": true
+		},
+		"NamespacesToConvert": {
+			"value": {
+				"2": 3
+			}
+		},
+		"MassMessageAccountUsername": {
+			"value": "MediaWiki message delivery"
+		},
+		"MassMessageWikiAliases": {
+			"value": []
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"TrackingCategories": [
+		"massmessage-list-category"
+	],
+	"ExtensionMessagesFiles": {
+		"MassMessageAlias": "MassMessage.alias.php",
+		"MassMessageMagic": "MassMessage.i18n.magic.php"
+	},
+	"APIModules": {
+		"massmessage": "MediaWiki\\MassMessage\\Api\\ApiMassMessage",
+		"editmassmessagelist": "MediaWiki\\MassMessage\\Api\\ApiEditMassMessageList"
+	},
+	"LogTypes": [
+		"massmessage"
+	],
+	"APIListModules": {
+		"mmsites": "MediaWiki\\MassMessage\\Api\\ApiQueryMMSites"
+	},
+	"MessagesDirs": {
+		"MassMessage": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"GrantPermissions": {
+		"highvolume": {
+			"massmessage": true
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "MediaWiki\\MassMessage\\MassMessageHooks::onParserFirstCallInit",
+		"APIQuerySiteInfoStatisticsInfo": "MediaWiki\\MassMessage\\MassMessageHooks::onAPIQuerySiteInfoStatisticsInfo",
+		"RenameUserPreRename": "MediaWiki\\MassMessage\\MassMessageHooks::onRenameUserPreRename",
+		"UserGetReservedNames": "MediaWiki\\MassMessage\\MassMessageHooks::onUserGetReservedNames",
+		"BeforeEchoEventInsert": "MediaWiki\\MassMessage\\MassMessageHooks::onBeforeEchoEventInsert",
+		"SkinTemplateNavigation": "MediaWiki\\MassMessage\\MassMessageHooks::onSkinTemplateNavigation",
+		"BeforePageDisplay": "MediaWiki\\MassMessage\\MassMessageHooks::onBeforePageDisplay",
+		"ListDefinedTags": "MediaWiki\\MassMessage\\MassMessageHooks::onRegisterTags",
+		"ChangeTagsListActive": "MediaWiki\\MassMessage\\MassMessageHooks::onRegisterTags"
+	},
+	"ContentHandlers": {
+		"MassMessageListContent": "MediaWiki\\MassMessage\\Content\\MassMessageListContentHandler"
+	},
+	"ResourceModules": {
+		"ext.MassMessage.styles": {
+			"styles": [
+				"ext.MassMessage.content.less",
+				"ext.MassMessage.content.nojs.css",
+				"ext.MassMessage.content.noedit.less",
+				"ext.MassMessage.special.less"
+			]
+		},
+		"ext.MassMessage.special.js": {
+			"scripts": [
+				"ext.MassMessage.special.js",
+				"ext.MassMessage.badhtml.js",
+				"ext.MassMessage.autocomplete.js"
+			],
+			"styles": "ext.MassMessage.validation.css",
+			"messages": [
+				"massmessage-badhtml",
+				"massmessage-parse-badpage"
+			],
+			"dependencies": [
+				"jquery.lengthLimit",
+				"jquery.throttle-debounce",
+				"jquery.ui",
+				"mediawiki.jqueryMsg"
+			]
+		},
+		"ext.MassMessage.content.js": {
+			"scripts": [
+				"ext.MassMessage.content.js",
+				"ext.MassMessage.autocomplete.js"
+			],
+			"messages": [
+				"massmessage-content-remove",
+				"massmessage-content-emptylist",
+				"massmessage-content-addeditem",
+				"massmessage-content-removeerror",
+				"massmessage-content-removeconf",
+				"massmessage-content-removeyes",
+				"massmessage-content-removeno",
+				"massmessage-content-alreadyinlist",
+				"massmessage-content-invalidtitlesite",
+				"massmessage-content-invalidtitle",
+				"massmessage-content-invalidsite",
+				"massmessage-content-adderror"
+			],
+			"dependencies": [
+				"jquery.confirmable",
+				"jquery.ui",
+				"mediawiki.api",
+				"mediawiki.util",
+				"mediawiki.jqueryMsg"
+			]
+		},
+		"ext.MassMessage.create": {
+			"scripts": [
+				"ext.MassMessage.create.js",
+				"ext.MassMessage.autocomplete.js"
+			],
+			"styles": "ext.MassMessage.validation.css",
+			"messages": [
+				"massmessage-create-exists-short",
+				"massmessage-create-invalidsource-short"
+			],
+			"dependencies": [
+				"oojs-ui-core",
+				"mediawiki.htmlform.ooui",
+				"mediawiki.jqueryMsg",
+				"jquery.ui"
+			]
+		},
+		"ext.MassMessage.edit": {
+			"scripts": "ext.MassMessage.edit.js",
+			"dependencies": [
+				"oojs-ui",
+				"mediawiki.widgets.visibleLengthLimit"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "MassMessage/modules"
+	},
+	"JobClasses": {
+		"MassMessageJob": "MediaWiki\\MassMessage\\Job\\MassMessageJob",
+		"MassMessageSubmitJob": "MediaWiki\\MassMessage\\Job\\MassMessageSubmitJob",
+		"MassMessageServerSideJob": "MediaWiki\\MassMessage\\Job\\MassMessageServerSideJob"
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"massmessage": true
+		}
+	},
+	"LogActionsHandlers": {
+		"massmessage/*": "LogFormatter",
+		"massmessage/send": "MediaWiki\\MassMessage\\Logging\\MassMessageSendLogFormatter",
+		"massmessage/failure": "WikitextLogFormatter",
+		"massmessage/skipoptout": "MediaWiki\\MassMessage\\Logging\\MassMessageSkipLogFormatter",
+		"massmessage/skipnouser": "MediaWiki\\MassMessage\\Logging\\MassMessageSkipLogFormatter",
+		"massmessage/skipbadns": "MediaWiki\\MassMessage\\Logging\\MassMessageSkipLogFormatter"
+	},
+	"ActionFilteredLogs": {
+		"massmessage": {
+			"send": [
+				"send"
+			],
+			"failure": [
+				"failure"
+			],
+			"skipoptout": [
+				"skipoptout"
+			],
+			"skipnouser": [
+				"skipnouser"
+			],
+			"skipbadns": [
+				"skipbadns"
+			]
+		}
+	},
+	"AvailableRights": [
+		"massmessage"
+	],
+	"SpecialPages": {
+		"MassMessage": "MediaWiki\\MassMessage\\SpecialMassMessage",
+		"CreateMassMessageList": "MediaWiki\\MassMessage\\SpecialCreateMassMessageList",
+		"EditMassMessageList": "MediaWiki\\MassMessage\\SpecialEditMassMessageList"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\MassMessage\\": "includes/"
+	},
+	"TestAutoloadClasses": {
+		"MediaWiki\\MassMessage\\MassMessageTestCase": "tests/phpunit/MassMessageTestCase.php",
+		"MediaWiki\\MassMessage\\MassMessageApiTestCase": "tests/phpunit/MassMessageApiTestCase.php"
+	},
+	"manifest_version": 2
+}

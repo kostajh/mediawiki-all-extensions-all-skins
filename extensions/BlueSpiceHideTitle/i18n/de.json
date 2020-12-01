@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Purodha",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-hidetitle-desc": "Führt das magische Wort <code><nowiki>__HIDETITLE__</nowiki></code> ein, mit dem sich Seitentitel verbergen lassen",
+	"bs-hidetitle-ve-dialog-meta-settings-showtitle": "Anzeigen",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle": "Verstecken",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-label": "Titelsichtbarkeit",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-help": "Du kannst hier festlegen, ob der Titel angezeigt wird oder nicht."
+}

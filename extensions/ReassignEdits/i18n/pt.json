@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Luckas",
+			"Luckas Blade",
+			"SandroHc",
+			"Vitorvicentevalente"
+		]
+	},
+	"reassignedits": "Transferir as edições de um utilizador",
+	"reassignedits-desc": "Permite transferir edições de um utilizador antigo para um novo",
+	"reassignedits-error-invalid": "O nome de utilizador \"$1\" é inválido.",
+	"reassignedits-new": "Novo nome de utilizador",
+	"reassignedits-old": "Anterior nome de utilizador",
+	"reassignedits-submit": "Enviar",
+	"reassignedits-success": "As edições de \"$1\" foram transferidas para \"$2\".",
+	"reassignedits-summary": "Transferir edições de um utilizador antigo para um novo.",
+	"reassignedits-updatelog-title": "Atualizar o nome de utilizador nos títulos dos registos",
+	"reassignedits-updatelog-user": "Atualizar o utilizador executante nos registos",
+	"action-reassignedits": "transferir edições de um utilizador antigo para um novo",
+	"right-reassignedits": "Transferir edições de um utilizador antigo para um novo"
+}

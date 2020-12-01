@@ -1,0 +1,11 @@
+/node_modules
+/vendor
+/composer.lock
+
+.svn
+*~
+*.kate-swp
+.*.swp
+\#*\#
+.\#*
+.tramp_history

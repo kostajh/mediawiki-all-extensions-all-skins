@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"quickresponse-desc": "Genererer en QR-kode for URL-en til den nåværende siden",
+	"quickresponse-text": "QR-kode",
+	"quickresponse-tooltip": "Generer en QR-kode for den gjeldende URL-en",
+	"quickresponse-title": "Her er QR-koden din!"
+}

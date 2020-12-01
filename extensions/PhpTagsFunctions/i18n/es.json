@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"phptagsfunctions-desc": "Implementa las funciones internas del PHP nativo para la extensión PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "El delimitador no debe ser un carácter alfanumérico o una barra inversa",
+	"phptagsfunctions-preg-no-ending-delimiter": "No se encontró el delimitador final «$1»",
+	"phptagsfunctions-preg-unknown-modifier": "El modificador «$1» es desconocido"
+}

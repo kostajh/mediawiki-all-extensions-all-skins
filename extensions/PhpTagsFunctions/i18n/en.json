@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"pastakhov"
+		]
+	},
+	"phptagsfunctions-desc": "Implements the internal functions of native PHP for the extension PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "Delimiter must not be alphanumeric or backslash",
+	"phptagsfunctions-preg-no-ending-delimiter": "No ending delimiter \"$1\" found",
+	"phptagsfunctions-preg-unknown-modifier": "Unknown modifier \"$1\""
+}

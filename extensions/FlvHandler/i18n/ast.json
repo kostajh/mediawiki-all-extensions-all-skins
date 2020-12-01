@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"flvhandler_desc": "Permite amestar ficheros de videu Flash (.flv) que s'amestarán como ficheros estándar (p. ex., <nowiki>[[</nowiki>{{ns:file}}:Película.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Videu en Flash, $1 × $2 píxels, tamañu del ficheru: $3"
+}

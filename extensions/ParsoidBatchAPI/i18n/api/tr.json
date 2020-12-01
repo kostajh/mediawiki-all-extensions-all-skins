@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"apihelp-parsoid-batch-description": "MediaWiki API isteklerinin toplu olarak yapılması için Toplu API (Parsoid için)",
+	"apihelp-parsoid-batch-summary": "Parsoid için Toplu API",
+	"apihelp-parsoid-batch-param-batch": "Eylem API istekleri (başına maksimum 500).",
+	"apierror-parsoid-batch-notallowed": "İstemci IP adresi ParsoidBatchAPI_AllowedIPs'de değil.",
+	"apierror-parsoid-batch-invalidbatch": "Geçersiz toplu iş, dizi olmalıdır.",
+	"apierror-parsoid-batch-batchtoolarge": "Toplu iş çok büyük, sınır 500.",
+	"apierror-parsoid-batch-invalidaction": "$1 öğe indeksinde geçersiz işlem.",
+	"apierror-parsoid-batch-texttoobig": "Giriş metni maksimum sayfa boyutunu aşıyor.",
+	"apierror-parsoid-batch-invalidtitle": "Geçersiz başlık ($1).",
+	"apierror-parsoid-batch-mustbescalar": "<var>$1</var> parametresi skalar olmalıdır.",
+	"apierror-parsoid-batch-mustbearray": "<var>$1</var> parametresi bir dizi olmalıdır."
+}

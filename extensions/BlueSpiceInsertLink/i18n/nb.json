@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-insertlink-desc": "Dialogboks for å skrive inn ei lenke",
+	"prefs-insertlink": "Sett inn lenke",
+	"bs-insertlink": "Sett inn lenke",
+	"bs-insertlink-pref-enable-java": "Slå på Java-miniprogram",
+	"bs-insertlink-button-title": "Sett inn/rediger lenke",
+	"bs-insertlink-dialog-title": "Sett inn lenke",
+	"bs-insertlink-tab-wiki-page": "Wikiside",
+	"bs-insertlink-tab-ext-link": "Ekstern lenke",
+	"bs-insertlink-tab-email": "Epostlenke",
+	"bs-insertlink-tab-file": "Lenke til fil",
+	"bs-insertlink-label-page": "Side",
+	"bs-insertlink-label-link": "Lenke",
+	"bs-insertlink-label-mail": "Epostadresse",
+	"bs-insertlink-label-description": "Beskrivelse",
+	"bs-insertlink-label-file": "Fil",
+	"bs-insertlink-label-searchfile": "Søk …",
+	"bs-insertlink-select-a-page": "Velg mål …",
+	"bs-insertlink-select-a-namespace": "(Sider)",
+	"bs-insertlink-empty-field-text": "For å sette inn ei lenke må du oppgi et mål.",
+	"bs-insertlink-no-applet": "Miniprogrammet kunne ikke lastes. Sjekk Java-installasjonen din.",
+	"bs-insertlink-internal-file-link-button-label": "Velg fil",
+	"bs-insertlink-external-file-switch-label": "Nettverksdelingssti (URI)",
+	"bs-insertlink-pref-filesystemmap": "Tillatte beliggenheter for eksterne filer",
+	"bs-insertlink-pref-filesystemmap-fs-prefix": "Filsystemprefiks",
+	"bs-insertlink-pref-filesystemmap-web-prefix": "Prefiks tilgjengelig over nettet",
+	"bs-insertlink-pref-allowunmapped": "Tillat ikke-mappede lenker"
+}

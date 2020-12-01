@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"IAlex",
+			"PieRRoMaN"
+		]
+	},
+	"flvhandler_desc": "Permet aux fichiers vidéo Flash (.flv) d'être utilisés comme des fichiers standards (par exemple <nowiki>[[</nowiki>{{ns:file}}:Movie.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Vidéo flash, $1 × $2 pixels, taille du fichier : $3"
+}

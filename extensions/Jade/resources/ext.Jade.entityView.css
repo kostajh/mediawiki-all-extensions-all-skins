@@ -1,0 +1,56 @@
+
+.jade-entity-view-stack {
+	margin-top: 1%;
+	height: 35%;
+	position: relative;
+}
+
+.jade-entity-diff-panel {
+	height: 1%;
+	max-height: 30vh;
+}
+
+.jade-entity-view-split {
+	margin-top: 0;
+	margin-bottom: 4%;
+}
+
+/* secondaryIntegrationPage */
+.jade-secondaryIntegrationPage .jade-facetWidget-header-editTalkLinks {
+	display: initial;
+}
+
+.jade-secondaryIntegrationPage .jade-facetListWidget {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.jade-secondaryIntegrationPage .jade-proposalListWidget-alternativesBtn.oo-ui-labelElement {
+	margin-left: 33%;
+}
+
+/* specialDiffPage */
+.jade-specialDiffPage .jade-facetWidget.oo-ui-optionWidget {
+	margin-left: 52%;
+	width: 48%;
+}
+
+.jade-specialDiffPage .jade-proposalListWidget-proposeNewLabelBtn.oo-ui-buttonWidget {
+	margin: auto 31%;
+}
+
+@media only screen
+	and ( max-width: 600px ) {
+	.jade-secondaryIntegrationPage .jade-facetWidget.oo-ui-optionWidget {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.jade-secondaryIntegrationPage .jade-proposalListWidget-alternativesBtn.oo-ui-labelElement {
+		margin-left: 30%;
+	}
+
+	.jade-secondaryIntegrationPage .jade-proposalListWidget-proposeNewLabelBtn.oo-ui-buttonWidget {
+		margin: auto 24%;
+	}
+}

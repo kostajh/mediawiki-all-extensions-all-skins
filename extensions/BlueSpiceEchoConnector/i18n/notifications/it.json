@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"bs-notifications-addaccount": "L'utente \"$1\" è stato creato.",
+	"bs-notifications-email-addaccount-subject": "Utente \"$2\" {{GENDER:$1|creato}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|L'utente}} $2 è stato creato.\n\nPuoi visitare la {{GENDER:$1|sua}} pagina utente seguendo il collegamento sotto",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|L'utente}} $2 è stato creato.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Creatore|Creatrice|Creatore/trice}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Creatore}}: $1",
+	"bs-notifications-registeruser": "L'utente \"$1\" ha creato un account.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|L'utente}} \"$2\" ha {{GENDER:$1|creato}} un account",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|L'utente}} $2 ha {{GENDER:$1|creato}} un'utenza.\n\nPuoi visitare la {{GENDER:$1|sua}} pagina utente seguendo il collegamento sotto",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|L'utente}} $2 ha {{GENDER:$1|creato}} un account.",
+	"bs-notifications-edit": "La pagina \"$1\" è stata modificata",
+	"bs-notifications-edit-bundle": "La pagina \"$2\" è stata modificata {{PLURAL:$1|$1 volta|$1 volte}}",
+	"bs-notifications-email-edit-subject": "Pagina \"$1\" {{GENDER:$2|modificata}} il $4 da $3",
+	"bs-notifications-email-edit-body": "La pagina \"$1\" è stata {{GENDER:$2|modificata}} il $5 da $4.\n\nCommento:\n $3",
+	"bs-notifications-web-edit-body": "La pagina \"$1\" è stata {{GENDER:$2|modificata}} da $3.",
+	"bs-notifications-create": "La pagina \"$1\" è stata creata",
+	"bs-notifications-email-create-subject": "Pagina \"$1\" {{GENDER:$2|creata}} il $4 da $3",
+	"bs-notifications-email-create-body": "La pagina \"$1\" è stata {{GENDER:$2|creata}} il $5 da $3.\n\nCommento:\n $4\nPuoi visitare la pagina seguendo il collegamento sotto",
+	"bs-notifications-web-create-body": "La pagina \"$1\" è stata {{GENDER:$2|creata}} da $3.",
+	"bs-notifications-delete": "La pagina \"$1\" è stata cancellata",
+	"bs-notifications-email-delete-subject": "Pagina \"$1\" {{GENDER:$2|cancellata}} il $4 da $3",
+	"bs-notifications-email-delete-body": "La pagina \"$1\" è stata {{GENDER:$2|cancellata}} il $5 da $3.\n\nQuesto è il motivo:\n$4",
+	"bs-notifications-web-delete-body": "La pagina \"$1\" è stata {{GENDER:$2|cancellata}} da $3.",
+	"bs-notifications-move": "La pagina \"$1\" è stata spostata",
+	"bs-notifications-email-move-subject": "Pagina \"$1\" {{GENDER:$2|spostata}} il $5 a \"$3\" da $4",
+	"bs-notifications-email-move-body": "La pagina \"$1\" è stata {{GENDER:$2|spostata}} a \"$3\" il $6 da $4.\n\nQuesto è il motivo:\n$5\n\nPuoi visitare la pagina seguendo il collegamento sotto",
+	"bs-notifications-web-move-body": "La pagina \"$1\" è stata {{GENDER:$2|spostata}} a \"$3\" da $4",
+	"bs-notifications-edit-difflink-label": "Vedi le differenze",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Ciao}} $1",
+	"bs-notifications-htmlmail-sender-info": "Sistema di notifica $1",
+	"bs-notifications-mail-additional-links-label": "Collegamenti aggiuntivi"
+}

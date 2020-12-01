@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Katunchik",
+			"Okras"
+		]
+	},
+	"screenplay-desc": "Добавляет тег <code>&lt;screenplay/&gt;</code> для форматирования сценариев",
+	"screenplay-tracking-category": "Страницы, использующие сценарий"
+}

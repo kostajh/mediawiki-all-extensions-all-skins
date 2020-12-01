@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"softredir-desc": "Adds the tag <code><nowiki>__SOFTREDIR__</nowiki></code> to mark [[Special:SoftRedirectPages|soft redirect pages]]",
+	"softredirectpages": "Soft redirect pages",
+	"softredirectpages-summary": "The following is a list of all soft redirect pages on {{SITENAME}}.<br />\nA page is treated as a soft redirect page if it contains the tag <code><nowiki>__SOFTREDIR__</nowiki></code> (or an equivalent alias).",
+	"softredirectpagelinks": "Pages linking to soft redirect pages",
+	"softredirectpagelinks-summary": "The following pages contain at least one link to a soft redirect page.\nThey may need to link to a more appropriate page instead.<br />\nA page is treated as a soft redirect page if it contains the tag <code><nowiki>__SOFTREDIR__</nowiki></code> (or an equivalent alias).",
+	"visualeditor-dialog-meta-settings-softredirect-label": "This is a soft redirect page"
+}

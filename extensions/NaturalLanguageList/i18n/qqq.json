@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Raimond Spekking",
+			"Shirayuki",
+			"Umherirrender",
+			"Verdy p"
+		]
+	},
+	"nll-desc": "{{desc|name=Natural Language List|url=https://www.mediawiki.org/wiki/Extension:NaturalLanguageList}}",
+	"nll-itemoutput": "{{notranslate}}\nParameters:\n* $1 - item's pair",
+	"nll-separator": "{{Optional}}<br />Please include any necessary spacing: <code>,&amp;#32;</code>",
+	"nll-lastseparator": "Please include any necessary spacing as <code>&amp;#32;</code> (for a regular, breakable, space) before and after the translation of <code>and</code>.\n{{Identical|And}}"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Jean-Frédéric",
+			"Wladek92"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Générateur et éditeur de clé d’identifiant",
+	"apihelp-query+LifeWeb-description": "Lien descendant de données pour la LifeBase.",
+	"apihelp-query+LifeWeb-summary": "Lien descendant de données pour LifeBase.",
+	"apihelp-query+LifeWeb-param-what": "Quelle liste de données récupérer.",
+	"apihelp-query+LifeWeb-param-clearCache": "Si le cache sera ou non vidé lors de la récupération des données",
+	"apihelp-query+LifeWeb-example-1": "Liste de taxons",
+	"apihelp-query+LifeWeb-example-2": "Liste de questions, imprimée avec mise en page"
+}

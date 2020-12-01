@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"semanticdependency-desc": "Bruker en semantisk egenskap for å indikere hvilke sider som bør gjenoppfriskes når artikkelen som inneholder egenskapen modifiseres"
+}

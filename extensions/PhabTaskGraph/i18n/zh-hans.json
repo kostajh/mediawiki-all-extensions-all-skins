@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"phabtaskgraph": "Phabricator任务图表",
+	"phabtaskgraph-desc": "使用力导向图直观显示phabricator任务的关系",
+	"phabtaskgraph-author-field-label": "作者",
+	"phabtaskgraph-owner-field-label": "所有者",
+	"phabtaskgraph-tasks-field-label": "任务",
+	"phabtaskgraph-projects-field-label": "项目",
+	"phabtaskgraph-status-field-label": "状态",
+	"phabtaskgraph-width-field-label": "宽",
+	"phabtaskgraph-height-field-label": "高",
+	"phabtaskgraph-tasks-field-help": "任务ID的逗号分隔列表（以“T”开头，也可以不带“T”）；例如“T123456, T654321”",
+	"phabtaskgraph-projects-field-help": "项目名称的逗号分隔列表；例如“MediaWiki-Platform-Team, Epic”",
+	"phabtaskgraph-width-field-help": "默认：800",
+	"phabtaskgraph-height-field-help": "默认：800",
+	"phabtaskgraph-status-open": "开放",
+	"phabtaskgraph-status-stalled": "搁置",
+	"phabtaskgraph-status-resolved": "已解决",
+	"phabtaskgraph-status-invalid": "无效",
+	"phabtaskgraph-status-declined": "已拒绝",
+	"phabtaskgraph-status-duplicate": "重复"
+}

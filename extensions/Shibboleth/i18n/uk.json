@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"shibboleth-desc": "Надає автентифікацію за допомогою Shibboleth у поєднанні з PluggableAuth",
+	"shibboleth-wg-empty-displayname": "Змінна конфігурації <var>wgShibboleth_DisplayName</var> порожня в LocalSettings.php",
+	"shibboleth-wg-empty-email": "Змінна конфігурації <var>wgShibboleth_Email</var> порожня в LocalSettings.php",
+	"shibboleth-wg-empty-username": "Змінна конфігурації <var>wgShibboleth_Username</var> порожня в LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "Змінна конфігурації <var>wgShibboleth_GroupMap</var> порожня в LocalSettings.php",
+	"shibboleth-attr-empty-username": "Shibboleth: не встановлено атрибут імені користувача",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: не вдалося знайти атрибут GroupMap"
+}

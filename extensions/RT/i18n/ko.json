@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Priviet",
+			"Revi",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"rt-desc": "RT(요청 추적기)의 화려한 인터페이스",
+	"rt-inactive": "RT 확장 기능이 비활성화되어 있습니다.",
+	"rt-badquery": "RT 확장 기능이 RT 데이터배이스와 통신할 때 오류가 발생했습니다.",
+	"rt-badlimit": "유효하지 않은 <code>LIMIT</code>(<code>l</code>) 인수: 숫자여야 함.\n입력한 값: '''$1'''",
+	"rt-badorderby": "유효하지 않은 <code>ORDER BY</code>(<code>ob</code>) 인수; 표준 필드여야 함(문서 참조)\n입력한 값: '''$1'''",
+	"rt-badstatus": "유효하지 않은 상태(<code>s</code>) 변수: 표준 필드여야 함(문서 참조)\n입력한 값: '''$1'''",
+	"rt-badcfield": "유효하지 않은 사용자 정의 필드 인수: 간단한 낱말이어야 함(문서 참조)\n입력한 값: '''$1'''",
+	"rt-badqueue": "유효하지 않은 대기열 (<code>q</code>) 인수: 간단한 낱말이어야 함.\n입력한 값: '''$1'''",
+	"rt-badowner": "올바르지 않은 <code>owner</code> (<code>o</code>) 인수: 올바른 사용자 이름이어야 합니다.\n입력한 값: '''$1'''",
+	"rt-nomatches": "일치하는 RT 티켓을 찾을 수 없습니다."
+}

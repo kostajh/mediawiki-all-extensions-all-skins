@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Base",
+			"Steve.rusyn",
+			"SteveR",
+			"Ата"
+		]
+	},
+	"semanticpageseries-desc": "Створення серії сторінок із одної [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Сторінкової форми]",
+	"spssuccesstitle": "Створення $1 {{PLURAL:$1|1=сторінки|сторінок}}",
+	"spssuccess": "{{PLURAL:$1|Одна сторінка|$1 сторінки|$1 сторінок}} буде створено.",
+	"spssuccess-returntoorigin": "Повернутись до $1",
+	"spserror": "Сталася помилка",
+	"spserror-diffnotsupported": "Дія diff не підтримується для серії сторінок.",
+	"spserror-previewnotsupported": "Дія попереднього перегляду не підтримується для серії сторінок",
+	"spserror-noiteratorname": "Не вказано ітератор. Ви повинні встановити параметр \"iterator\" у виклику функції аналізатора #serieslink.",
+	"spserror-iteratorunknown": "Ітератор \" $1 \" не існує. Ви повинні виправити параметр \"iterator\" у виклику функції аналізатора #serieslink.",
+	"spserror-noformname": "Ім'я форми не дано.  Ви повинні встановити параметр \"form\" у функції аналізатора  #serieslink.",
+	"spserror-formunknown": "Форма «$1» не існує.",
+	"spserror-notargetformname": "Не задано імені цільової форми. Ви повинні встановити параметр \"target form\" у виклику функції аналізатора",
+	"spserror-notargetfieldname": "Не задано ім'я цільового поля. Ви повинні встановити параметр \"target field\" у виклику функції аналізатора #serieslink.",
+	"spserror-iteratorparammissing": "Параметри наступного ітератора пропущені у виклику #serieslink:\n$1",
+	"spserror-noiteratordata": "Не знайдено параметрів ітератора у надісланих даних.",
+	"spserror-pagegenerationlimitexeeded": "Ви спробували генерувати  {{PLURAL:$1|одну сторінку|$1  сторінки|$1 сторінок}}. Це перевищує ваше дозволене обмеження з {{PLURAL:$2|1=одної сторінки|$2  сторінок}}.",
+	"spserror-date-startdatemissing": "Початкова дата відсутня.",
+	"spserror-date-internalerror": "Помилка під час створення дати: $1",
+	"spserror-count-startvaluemalformed": "Початкове значення не є числом.",
+	"spserror-count-endvaluemalformed": "Кінцеве значення не є числом.",
+	"spserror-count-stepvaluemalformed": "Значення кроку не є числом.",
+	"spserror-count-digitsvaluemalformed": "Цифрові значення не є числом."
+}

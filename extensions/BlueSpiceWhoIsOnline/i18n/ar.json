@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-whoisonline-desc": "يعرض قائمة المستخدمين المتصلين بالإنترنت حاليا",
+	"bs-whoisonline-nousers": "لا أحد مسجل للدخول.",
+	"bs-whoisonline-widget-title": "من على الإنترنت؟",
+	"prefs-whoisonline": "من على الإنترنت؟",
+	"bs-whoisonline-pref-limitcount": "الحد الأقصى لعدد المستخدمين الظاهرين:",
+	"bs-whoisonline-pref-orderby": "ترتيب حسب:",
+	"bs-whoisonline-pref-maxidletime": "الوقت بالثواني حتى يتم تعليم المستخدم على أنه غير متصل:",
+	"bs-whoisonline-pref-orderby-time": "مدة التشغيل",
+	"bs-whoisonline-pref-orderby-name": "الاسم",
+	"bs-whoisonline-pref-interval": "فترة التحديث بالثواني:",
+	"bs-whoisonline-tag-whoisonlinecount-desc": "يعرض جميع المستخدمين الذين تم تسجيل دخولهم خلال آخر 10 دقائق.",
+	"bs-whoisonline-tag-whoisonlinepopup-desc": "يعرض جميع المستخدمين الذين تم تسجيل دخولهم خلال آخر 10 دقائق.",
+	"bs-whoisonline-collection-type-userlogin": "تسجيل دخول المستخدم",
+	"bs-whoisonline-collection-var-login": "تسجيل الدخول"
+}

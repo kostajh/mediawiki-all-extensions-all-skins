@@ -1,0 +1,15 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/server",
+		"wikimedia/node",
+		"wikimedia/language/es2017",
+		"wikimedia/mediawiki"
+	],
+	"env": {
+		"mocha": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-expiry-extension-description": "Pàggene ca ponne essere signate cumme scadute.",
+	"expiry": "Scadenze",
+	"specialexpiry": "Vôsce scadute",
+	"prefs-expiry": "Scadenze",
+	"bs-expiry-header-pagename": "Pàgene",
+	"bs-expiry-header-comment": "Commende",
+	"bs-expiry-article-label": "Pàgene",
+	"bs-expiry-menu-entry-create": "Scadenze",
+	"bs-expiry-nav-link-title-expiry": "Scadenze",
+	"bs-expiry-edit-grid-header-comment": "Commende",
+	"bs-expiry-flyout-body-hint-expired": "scade 'u $1",
+	"bs-expiry-flyout-body-hint-expires": "scade 'u $1",
+	"bs-expiry-pageinfoelement-expired-label": "scadute"
+}

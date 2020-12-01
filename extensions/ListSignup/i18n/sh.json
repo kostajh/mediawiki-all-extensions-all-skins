@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"listsignup": "Registracija spiska",
+	"listsignup-desc": "Omogućava prilagođenu registraciju spiska",
+	"listsignup-legend": "Ispod unesite informacije",
+	"listsignup-success": "Vaša adresa e-pošte je podana.",
+	"listsignupdisplay": "Prikaz registracije spiska",
+	"listsignuppurge": "Preučitavanje registracije spiska",
+	"listsignuppurge-legend": "Očisti sve informacije sa spiska registracije",
+	"listsignuppurge-pretext": "'''Upozorenje!''' S ovim ćete ukloniti sve adrese iz spiska. Ova radnja je nepovratna.",
+	"listsignuppurge-success": "Spisak je očišćen!",
+	"right-viewlistsignupdisplay": "Pregled spiska registracija",
+	"right-purgelistsignupdisplay": "Čišćenje spiska registracija",
+	"action-viewlistsignupdisplay": "pregled spiska registracija",
+	"action-purgelistsignupdisplay": "čišćenje spiska registracija"
+}

@@ -1,0 +1,32 @@
+[
+	{
+		"name": "OOJsUIAjaxLogin",
+		"groups": [
+			{
+				"name": "General",
+				"classes": [
+					"mw.OOJsUIAjaxLogin",
+					"LoginOverlay"
+				]
+			}
+		]
+	},
+	{
+		"name": "Upstream",
+		"groups": [
+			{
+				"name": "JS",
+				"classes": [
+					"Number",
+					"String",
+					"Boolean",
+					"RegExp",
+					"Function",
+					"Date",
+					"Object",
+					"Array"
+				]
+			}
+		]
+	}
+]

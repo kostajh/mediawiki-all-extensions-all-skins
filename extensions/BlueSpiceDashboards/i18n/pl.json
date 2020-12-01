@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"bs-specialadmindashboard-label": "Panel",
+	"bs-dashboards-addportlet": "Dodaj portlet",
+	"bs-dashboards-portlets": "Portlety",
+	"prefs-dashboards": "Pulpity",
+	"admindashboard": "Panel administratora",
+	"userdashboard": "Panel użytkownika",
+	"bs-dashboard-userportlet-calendar-title": "Kalendarz",
+	"bs-dashboard-userportlet-calendar-description": "Kalendarz",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "Strona wiki",
+	"action-dashboards-viewspecialpage-userdashboard": "zobacz stronę specjalną „{{int:userdashboard}}”",
+	"right-dashboards-viewspecialpage-userdashboard": "Dostęp do strony specjalnej [[Special:UserDashboard]]."
+}

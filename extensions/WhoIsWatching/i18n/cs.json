@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matěj Grabovský",
+			"Mormegil"
+		]
+	},
+	"whoiswatching": "Kdo sleduje wiki stránku",
+	"whoiswatching-desc": "Poskytuje seznam uživatelů, kteří sledují určitou wiki stránku",
+	"specialwhoiswatchingusage": "Tuto speciální stránku není možné používat samostatně.",
+	"specialwhoiswatchingaddusers": "Přidat uživatele sledující stránku",
+	"specialwhoiswatchingaddbtn": "Přidat zvolené uživatele"
+}

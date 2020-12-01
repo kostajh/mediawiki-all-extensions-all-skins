@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"listsignup": "Підписатися на список",
+	"listsignup-desc": "Форма підписання на окремий список",
+	"listsignup-legend": "Введіть вашу інформацію нижче.",
+	"listsignup-success": "Вашу електронну адресу було додано.",
+	"listsignupdisplay": "Відображення списку реєстрації",
+	"listsignuppurge": "Очищення списку реєстрації",
+	"listsignuppurge-legend": "Очистити всю інформацію з реєстраційного списку",
+	"listsignuppurge-pretext": "'''Увага!''' Це вилучить усі адреси зі списку. Цю дію не можна буде скасувати.",
+	"listsignuppurge-success": "Список був очищений!",
+	"right-viewlistsignupdisplay": "Перегляд списку реєстрації",
+	"right-purgelistsignupdisplay": "Очищення списку реєстрації",
+	"action-viewlistsignupdisplay": "перегляд списку реєстрації",
+	"action-purgelistsignupdisplay": "очищення списку реєстрації"
+}

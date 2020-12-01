@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chenxiaoqino",
+			"Gzdavidwong",
+			"Hydra",
+			"Liuxinyu970226"
+		]
+	},
+	"categorywatch-desc": "扩展的监视功能，包括有关受监视的类别的成员身份更改的通知",
+	"categorywatch-emailsubject": "在被监视的分类\"$1\"中的活动",
+	"categorywatch-catmovein": "$1已从$3移动到$2",
+	"categorywatch-catmoveout": "$1已经移离$2并改到$3",
+	"categorywatch-catadd": "已把$1新增至分类$2",
+	"categorywatch-catsub": "已把$1从分类$2移除",
+	"categorywatch-autocat": "由$1自动监视",
+	"categorywatch-notification-link": "分类：[[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]]已添加至[[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]]已添加至[[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]]已将[[:$3|$3]]添加至[[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]]已从[[:$3|$4]]移除",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]]已从[[:$5|$6]]移除",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]]已将[[:$3|$3]]从[[:$4|$4]]移除",
+	"categorywatch-notification-bundle": "{{SITENAME}}上的$1次分类更改",
+	"categorywatch-add-title": "标题已添加至监视的分类",
+	"categorywatch-remove-title": "标题已从监视的分类移除",
+	"categorywatch-page-watch-pref": "当您添加一个分类时，将该分类内所有页面添加至您的监视列表",
+	"echo-category-title-categorywatch": "分类监视",
+	"echo-pref-tooltip-categorywatch": "当有人在页面上添加或移除我正在监视的分类时通知我。"
+}

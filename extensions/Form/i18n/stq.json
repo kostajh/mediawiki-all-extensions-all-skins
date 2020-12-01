@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"form": "Formular",
+	"form-no-name": "Naan Formularnoome",
+	"form-no-name-text": "Du moast n Formularnoome ounreeke, t.B. „{{ns:Special}}:Form/Formularnoome“.",
+	"form-bad-name": "Falsken Formularnoome",
+	"form-bad-name-text": "Dät rakt neen Formular mäd dissen Noome",
+	"form-pattern": "$1-Formular",
+	"form-save": "Spiekerje",
+	"form-index-mismatch": "Dit Formular häd n Uungliekgewicht twiske Noomensmustere un Foarloagen, ounfangend bie Index $1.",
+	"form-article-exists": "Siede is al deer",
+	"form-article-existstext": "Ju Siede „[[$1]]“ is al deer.",
+	"form-bad-page-name": "Ferkierde Siedennoome",
+	"form-bad-page-name-text": "Do ienroate Formulardoaten moakje n ferkierden Siedennoome: „$1“.",
+	"form-required-field-error": "Dät Fäild $1 is n Plichtfäild. Jädden uutfälle.",
+	"form-save-summary": "Näie Siede, ju der ap [[{{ns:Special}}:Form/$1]] basiert",
+	"form-save-error": "Failer bie dät Spiekerjen fon dät Formular",
+	"form-save-error-text": "Dät roate n uunbekoanden Failer bie dät Spiekerjen fon ju Siede „$1“."
+}

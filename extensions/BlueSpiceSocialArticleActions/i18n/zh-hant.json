@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-socialarticleactions-desc": "向 BlueSpiceSocial 新增基本條目操作單元",
+	"bs-socialarticleactions-type-articlesave": "條目編輯",
+	"bs-socialarticleactions-type-articlecreate": "條目建立",
+	"bs-socialarticleactions-type-articledelete": "條目刪除",
+	"bs-socialarticleactions-type-filesave": "檔案編輯",
+	"bs-socialarticleactions-type-filecreate": "檔案建立",
+	"bs-socialarticleactions-type-filedelete": "檔案刪除",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]]已編輯條目[[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]]已建立條目[[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]]已刪除條目[[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]]已新增檔案[[:$6|$6]]的新版本",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]]已上傳檔案[[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]]已刪除檔案[[:$6|$6]]"
+}

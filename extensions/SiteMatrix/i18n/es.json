@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Fitoschido",
+			"Imre",
+			"Jelou",
+			"Macofe",
+			"MarcoAurelio",
+			"Remember the dot",
+			"Sanbec",
+			"לערי ריינהארט"
+		]
+	},
+	"sitematrix": "Lista de wikis de Wikimedia",
+	"sitematrix-summary": "Esta página especial lista todos los wikis de Wikimedia.",
+	"sitematrix-desc": "Muestra una [[Special:SiteMatrix|lista de wikis de Wikimedia]]",
+	"sitematrix-language": "Idioma",
+	"sitematrix-project": "Nombre del proyecto, enlace interproyecto y enlace interwiki",
+	"sitematrix-others": "Otros proyectos de Wikimedia",
+	"sitematrix-other-projects": "Otros proyectos",
+	"sitematrix-other-projects-language": "Idioma",
+	"sitematrix-total": "'''Cuenta total: $1'''",
+	"sitematrix-sitetotal": "Total",
+	"sitematrix-closed": "sin acceso de escritura, acceso de lectura completo",
+	"sitematrix-private": "acceso restringido de lectura y escritura",
+	"sitematrix-fishbowl": "acceso restringido de escritura, acceso total de lectura",
+	"sitematrix-nonglobal": "público, pero requiere registro"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikel Ibaiba",
+			"Subi"
+		]
+	},
+	"accountinfo": "Kontu informazioa",
+	"accountinfo-desc": "Erabiltzaileei baimena eman beraiei buruzko gordetako informazio pribatua ikusteko",
+	"accountinfo-ts": "Denbora-marka",
+	"accountinfo-ip": "IP helbidea",
+	"accountinfo-ua": "Erabiltzaile agentea",
+	"accountinfo-xff": "XFF izenburua",
+	"accountinfo-length": "$1rentzako informazioa atxikituta dago.",
+	"accountinfo-now": "Orain"
+}

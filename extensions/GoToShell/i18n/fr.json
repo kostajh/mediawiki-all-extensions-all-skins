@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Urhixidur",
+			"Wladek92"
+		]
+	},
+	"gotoshell": "Aller à la console",
+	"gotoshell-desc": "Implémente [[Special:GoToShell|une page spéciale]] qui amène l’utilisateur à l’invite de commande et en revient",
+	"gotoshell-notallowed": "Votre compte ne permet pas d'ouvrir une console système.",
+	"gotoshell-disabled": "Impossible d’exécuter des programmes externes, proc_open() est désactivé.",
+	"gotoshell-command": "Commande :",
+	"gotoshell-result": "Résultat :",
+	"action-gotoshell": "exécutez les commandes de l’interpréteur via la page spéciale GoToShell",
+	"right-gotoshell": "Exécuter des commandes interpréteur via la page spéciale GoToShell"
+}

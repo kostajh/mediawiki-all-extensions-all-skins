@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Jmarchn",
+			"Ssola",
+			"Toniher"
+		]
+	},
+	"accountinfo": "Informació del compte",
+	"accountinfo-desc": "Permet a l'usuari veure la seva informació personal emmagatzemada",
+	"accountinfo-ts": "Marca horària",
+	"accountinfo-ip": "Adreça IP",
+	"accountinfo-ua": "Agent d'usuari",
+	"accountinfo-xff": "Capçalera XFF",
+	"accountinfo-length": "La informació es conserva per $1.",
+	"accountinfo-now": "Ara"
+}

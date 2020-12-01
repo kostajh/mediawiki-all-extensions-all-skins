@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"rt-desc": "Moderni interfejs za RT (Praćenje zahtjeva)",
+	"rt-inactive": "RT proširenje nije aktivno",
+	"rt-badquery": "RT proširenje je javilo grešku pri kontaktiranju RT baze podataka",
+	"rt-badlimit": "Nevaljan LIMIT (l) argument: mora biti broj.\nPokušali ste: '''$1'''",
+	"rt-badorderby": "Nevaljan ORDER BY (ob) argument: mora biti standardno polje (vidi dokumentaciju).\nPokušali ste: '''$1'''",
+	"rt-badstatus": "Nevaljan status (s) argument: mora biti standardno polje (vidi dokumentaciju).\nPokušali ste: '''$1'''",
+	"rt-badcfield": "Nevaljan proizvoljno polje argumenta: mora biti jednostavna riječ (vidi dokumentaciju).\nPokušali ste: '''$1'''",
+	"rt-badqueue": "Nevaljan queue (q) argument: mora biti jednostavna riječ.\nPokušali ste: '''$1'''",
+	"rt-badowner": "Nevaljan owner (o) argument: mora biti validno korisničko ime.\nVi ste pokušali: '''$1'''",
+	"rt-nomatches": "Nisu pronađeni odgovarajući RT kuponi"
+}

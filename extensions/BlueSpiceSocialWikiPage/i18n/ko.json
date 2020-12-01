@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-socialwikipage-type": "위키페이지",
+	"bs-socialwikipage-entitywikipage-header-create": "새 첨부 공간 만들기",
+	"bs-socialwikipage-nowikipageentity": "아직 첨부 공간이 만들어지지 않았습니다",
+	"bs-socialwikipage-noattachmentsadded": "아직 추가된 첨부 파일이 없습니다",
+	"bs-socialwikipage-stashtype": "첨부",
+	"bs-socialwikipage-entitystash-header-create": "새 첨부",
+	"bs-socialwikipage-special-stash-heading": "첨부",
+	"bs-socialwikipage-aftercontent-heading": "첨부",
+	"wikipagestash": "첨부",
+	"bs-socialwikipage-stash-insertfiledialog-title": "파일 추가",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "추가",
+	"bs-socialwikipage-stash-editor-attachedfiles": "첨부된 파일",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "삭제",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "추가"
+}

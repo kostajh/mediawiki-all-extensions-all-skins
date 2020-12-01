@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Retired User",
+			"AF",
+			"Kly",
+			"予弦",
+			"神樂坂秀吉"
+		]
+	},
+	"bs-rating-extension-description": "提供評分系統",
+	"bs-rating-types-page": "頁面評分",
+	"bs-rating-types-pagelike": "頁面建議",
+	"rating": "評分",
+	"recommendations": "建議",
+	"bs-rating-yourrating": "您的評分：$1",
+	"bs-rating-special-rating-heading": "評分",
+	"bs-rating-articlelike-ratingtext": "建議（$1）",
+	"bs-rating-articlelike-uratingtextservoted": "建議（$1）",
+	"action-rating-viewspecialpage": "檢視被 \"Rating-Viewspecialpage\" 權限保護的頁面",
+	"action-rating-read": "查看在頁面的評分",
+	"action-rating-write": "在頁面投票",
+	"action-rating-archive": "移除來自頁面的投票",
+	"right-rating-viewspecialpage": "檢視被 \"Rating-Viewspecialpage\" 權限保護的頁面",
+	"right-rating-read": "查看在頁面的評分",
+	"right-rating-write": "在頁面投票",
+	"right-rating-archive": "移除來自頁面的投票",
+	"bs-rating-special-recommendations-heading": "建議",
+	"bs-rating-special-recommendations-label-recommendation": "建議",
+	"bs-rating-specialrating-label-namespace": "命名空間",
+	"bs-rating-specialrating-titleTitle": "標題",
+	"bs-rating-specialrating-titleRating": "評級",
+	"bs-rating-specialrating-titleVotes": "評分數字",
+	"apihelp-bs-rating-tasks-description": "執行擴充功能 Rating 的一般任務",
+	"apihelp-bs-rating-store-description": "傳遞題目評分",
+	"bs-rating-nsm-label": "評分",
+	"bs-rating-nsm-label-recommendations": "建議",
+	"apihelp-bs-rating-tasks-summary": "執行擴充功能 Rating 的一般任務",
+	"apihelp-bs-ratingarticle-store-summary": "傳遞條目評分",
+	"apihelp-bs-ratingarticlelike-store-summary": "傳遞條目建議"
+}

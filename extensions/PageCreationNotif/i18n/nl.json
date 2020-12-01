@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"page-creation-notif-desc": "Stuurt een e-mail als nieuwe pagina's worden aangemaakt",
+	"page-creation-notification": "Mij e-mailen als een nieuwe pagina wordt aangemaakt",
+	"page-creation-email-subject": "Nieuwe pagina - $1 aangemaakt in $2 door {{GENDER:$3|$3}}",
+	"page-creation-email-body": "Beste $1,\n\nDit is een melding van {{SITENAME}}. De pagina $2 is aangemaakt door {{GENDER:$3|gebruiker}} $3.\n\nU kunt deze bekijken via de volgende koppeling:\n$4\n\nDe tekst van de pagina is:\n$5\n\nHet meldingensysteeem van {{SITENAME}}.\n\nOp {{canonicalurl:{{#special:Preferences}}}} kunt u uw instellingen voor meldingen aanpassen."
+}

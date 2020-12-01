@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"uploadslink-desc": "Legger til en lenke til listen over brukerens opplastinger i menyen for personlige verktøy og ei lenke til relevante brukeres opplastinger i verktøymenyen på siden.",
+	"uploadslink-portlet-label": "Opplastinger",
+	"tooltip-pt-uploads": "Liste over filer du har lastet opp",
+	"uploadslink-toobox-label": "{{GENDER:$1|Brukeropplastinger}}",
+	"tooltip-tb-uploads": "En liste over opplastinger av denne {{GENDER:$1|brukeren}}"
+}

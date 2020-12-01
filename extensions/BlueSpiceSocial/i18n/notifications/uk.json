@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"echo-category-title-bs-social-entity-cat": "Сутнісні дії на спостережуваних сторінках",
+	"bs-social-notifications-entity-create": "Створено соціальну сутність типу «$1»",
+	"bs-social-notifications-email-entity-create-subject": "Створено соціальну сутність типу «$1»",
+	"bs-social-notifications-email-entity-create-body": "Користувач {{GENDER:$1|$2 створив|$2 створила}} новий «$3»",
+	"bs-social-notifications-email-entity-create-text-body": "Користувач {{GENDER:$1|$2 створив|$2 створила}} новий «$3» з таким текстом: $4",
+	"bs-social-notifications-web-entity-create-body": "Користувач {{GENDER:$1|$2 створив|$2 створила}} новий «$3»",
+	"bs-social-notifications-entity-edit": "Відредаговано соціальну сутність типу «$1»",
+	"bs-social-notifications-email-entity-edit-subject": "Відредаговано соціальну сутність типу «$1»",
+	"bs-social-notifications-email-entity-edit-body": "Користувач {{GENDER:$1|$2 відредагував|$2 відредагувала}} соціальну сутність типу «$3»",
+	"bs-social-notifications-email-entity-edit-text-body": "Користувач {{GENDER:$1|$2 відредагував|$2 відредагувала}} соціальну сутність типу «$3» з таким текстом:\n$4",
+	"bs-social-notifications-web-entity-edit-body": "Користувач {{GENDER:$1|$2 відредагував|$2 відредагувала}} соціальну сутність типу «$3»",
+	"bs-social-notifications-entity-delete": "Вилучено соціальну сутність типу «$1»",
+	"bs-social-notifications-email-entity-delete-subject": "Вилучено соціальну сутність типу «$1»",
+	"bs-social-notifications-email-entity-delete-body": "Користувач {{GENDER:$1|$2 вилучив|$2 вилучила}} соціальну сутність типу «$3»",
+	"bs-social-notifications-web-entity-delete-body": "Користувач {{GENDER:$1|$2 вилучив|$2 вилучила}} соціальну сутність типу «$3»",
+	"bs-social-notification-primary-link-label": "Переглянути сутність"
+}

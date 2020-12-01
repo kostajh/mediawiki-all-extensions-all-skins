@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"apihelp-gaejobqueue-summary": "Modulo API interno per eseguire il JobQueue. L'utilizzo esterno non è consentito."
+}

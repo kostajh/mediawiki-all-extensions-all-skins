@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"YaronSh",
+			"ישראל קלר"
+		]
+	},
+	"bs-categorycheck-extension-description": "לבדוק קטגוריה שהוקצתה לפני שמאמר נשמר",
+	"bs-categorycheck-insertcategory-no-category": "נא להקצות קטגוריה לערך",
+	"bs-categorycheck-insertcategory-ignore-no-category": "התעלמות",
+	"bs-categorycheck-insertcategory-category-list": "הקטגוריות הבאות מוגדרות",
+	"bs-categorycheck-insertcategory-confirm-categories": "הקטגוריות נכונות",
+	"bs-categorycheck-nsm-label-categorycheck": "CategoryCheck"
+}

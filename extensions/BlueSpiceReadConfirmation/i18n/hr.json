@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav"
+		]
+	},
+	"bs-readconfirmation-desc": "Proširenje za prikupljanje potvrdnica o pročitanosti stranice",
+	"bs-readconfirmation-column-read": "Pročitano?",
+	"bs-readconfirmation-column-read-at": "Pročitano dana",
+	"bs-readconfirmation-not-read": "nije pročitano",
+	"bs-readconfirmation-action-remind": "Zatraži potvrdnicu o pročitanosti",
+	"bs-readconfirmation-action-log": "Evidencija potvrdnica o pročitanosti",
+	"bs-readconfirmation-action-remind-confirm": "Zatraži potvrdnicu o pročitanosti?",
+	"bs-readconfirmation-confirm-read-heading": "Potvrdnica o pročitanosti",
+	"bs-readconfirmation-confirm-read-checkbox-label": "Da, pročitala/pročitao sam ovu stranicu u potpunosti.",
+	"bs-readconfirmation-confirm-read-button-label": "Potvrdi",
+	"bs-readconfirmation-action-apiread-check-description": "provjeri potvrdnicu o pročitanosti za $1",
+	"bs-readconfirmation-action-apiread-confirm-description": "Označi $1 pročitanim",
+	"bs-readconfirmation-action-apiread-remind-description": "Zatraži potvrdnicu o pročitanosti za $1",
+	"bs-readconfirmation-api-error-cant-confirm": "Nije moguće obraditi potvrdnicu o pročitanosti za ovu stranicu",
+	"bs-readconfirmation-api-error-no-page": "Nije dana nijedna stranica",
+	"bs-readconfirmation-api-error-no-non-minor-revision": "Nisu pronađene izmjene",
+	"echo-category-title-bs-readconfirmation-cat": "Potvrdnica o pročitanosti",
+	"echo-pref-tooltip-bs-readconfirmation-cat": "Obavijesti me kad imam zatražene potvrdnice o pročitanosti",
+	"notification-bs-readconfirmation-remind-summary": "Suradnik/ca $1 podsjeća Vas da pročitate $3",
+	"notification-bs-readconfirmation-remind-subject": "Podsjednik tražitelja potvrdnice $1 ($2) za stranicu $3",
+	"logentry-bs-readconfirmation-confirm": "$1 {{GENDER:$2|dao|dala|dala/dao}} je potvrdnicu o pročitanosti stranice $3",
+	"logentry-bs-readconfirmation-remind": "$1 {{GENDER:$2|zatražio|zatražila|zatražila/zatražio}} je od suradnika/suradnice $4 potvrdnicu o pročitanosti stranice $3",
+	"bs-readconfirmation-logentry-confirm-suffix-as-of": "(od trenutka $1)"
+}

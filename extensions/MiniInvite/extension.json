@@ -1,0 +1,64 @@
+{
+	"name": "MiniInvite",
+	"version": "2.5.0",
+	"author": [
+		"Aaron Wright",
+		"David Pean",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:MiniInvite",
+	"descriptionmsg": "invite-desc",
+	"type": "specialpage",
+	"callback": "MiniInviteHooks::registerExtension",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"config": {
+		"SendNewArticleToFriends": false
+	},
+	"SpecialPages": {
+		"EmailNewArticle": "EmailNewArticle",
+		"InviteEmail": "InviteEmail"
+	},
+	"MessagesDirs": {
+		"MiniInvite": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"MiniInviteAliases": "includes/MiniInvite.alias.php"
+	},
+	"AutoloadClasses": {
+		"EmailNewArticle": "includes/specials/SpecialEmailNewArticle.php",
+		"InviteEmail": "includes/specials/SpecialInviteEmail.php",
+		"MiniInviteHooks": "includes/MiniInvite.hooks.php",
+		"UserEmailTrack": "includes/UserEmailTrack.class.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "MiniInviteHooks::onLoadExtensionSchemaUpdates",
+		"OutputPageBeforeHTML": [
+			"MiniInviteHooks::inviteRedirect",
+			"MiniInviteHooks::displayInviteLinks"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "MiniInvite"
+	},
+	"ResourceModules": {
+		"ext.miniInvite.css": {
+			"styles": "resources/css/invite.css"
+		},
+		"ext.miniInvite.emailNewArticle.css": {
+			"styles": "resources/css/EmailNewArticle.css"
+		},
+		"ext.miniInvite.inviteLinks.css": {
+			"styles": "resources/css/InviteLinks.css"
+		},
+		"ext.miniInvite.DisplayInviteLinks.js": {
+			"scripts": "resources/js/DisplayInviteLinks.js"
+		}
+	},
+	"manifest_version": 1
+}

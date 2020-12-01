@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"bs-visualeditorconnector-desc": "Поврзува BlueSpice со нагледниот уредник",
+	"bs-visualeditorconnector-enable-visualeditor": "Овозможи го нагледниот уредник за BlueSpаce-додатоците",
+	"bs-visualeditorconnector-simple-save-process-desc": "Овозможи проста постапка за зачувување",
+	"bs-visualeditorconnector-upload-type-original": "Изворно",
+	"bs-visualeditorconnector-upload-type-simple": "Просто",
+	"bs-visualeditorconnector-upload-type-one-click": "Еден стисок",
+	"bs-visualeditorconnector-upload-type": "Вид подигање",
+	"bs-visualeditorconnector-cancel-edit": "Откажи уредување",
+	"bs-visualeditor-nsm-label": "Нагледен уредник",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Заеднички",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Напредни",
+	"bs-visualeditorconnector-ve-style-option-description": "Изберете стил на табела",
+	"bs-visualeditorconnector-ve-style-option": "Стил на табела",
+	"bs-visualeditorconnector-upload-dialog-type": "Работен тек за подигање на податотеки во MediaDialog",
+	"bs-visualeditorconnector-text-style-tool-color-label": "Боја на текстот",
+	"bs-visualeditorconnector-color-annotation-desc": "Додава бои во текстот задавајќи му својство „color“ или „class“",
+	"bs-visualeditorconnector-dialog-media-meta-link": "Поврзи ја описната страница на податотеката",
+	"bs-vec-table-inspector-column": "Столб",
+	"bs-vec-table-inspector-row": "Ред",
+	"bs-vec-table-inspector-cell": "Ќелија",
+	"bs-vec-dialog-table-create-number-of-rows": "Број на редови",
+	"bs-vec-dialog-table-create-number-of-columns": "Број на столбови",
+	"bs-vec-dialog-action-done": "Готово",
+	"bs-vec-dialog-action-safe": "Откажи",
+	"bs-vec-dialog-create-table-title": "Вметни табела",
+	"bs-vec-widget-text-direction-tooltip": "Вертикален текст",
+	"bs-vec-dialog-media-change-file": "Смени податотека",
+	"bs-visualeditor-linkcontext-label-change": "Промени натпис",
+	"bs-visualeditor-linkcontext-label-label": "Натпис"
+}

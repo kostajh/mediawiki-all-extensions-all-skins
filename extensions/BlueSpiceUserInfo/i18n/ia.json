@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-bs-userinfometa-description": "Lista le meta-informationes sur le usator specificate",
+	"apihelp-bs-userinfometa-summary": "Lista le meta-informationes sur le usator specificate",
+	"apihelp-bs-userinfometa-param-username": "Nomine del usator de qui listar le meta-informationes"
+}

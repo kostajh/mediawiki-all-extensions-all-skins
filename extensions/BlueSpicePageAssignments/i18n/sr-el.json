@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"apihelp-bs-pageassignment-store-description": "Vraća zadatke na određenoj stranici",
+	"apihelp-bs-mypageassignment-store-description": "Vrati stranice koje su dodeljene trenutnom korisniku",
+	"apihelp-bs-pageassignment-tasks-description": "Dobijte ili izmenite listu zadataka za određenu stranicu",
+	"bs-pageassignments-privacy-transparency-working-assignments": "BlueSpice dodele stranicama — Dodeljeno {{PLURAL:$2|stranici|stranicama}}: $1"
+}

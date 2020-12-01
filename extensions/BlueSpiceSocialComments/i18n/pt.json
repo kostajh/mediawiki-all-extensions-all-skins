@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Mansil alfalb"
+		]
+	},
+	"bs-socialcomments-desc": "Funcionalidade de comentários para BlueSpiceSocial",
+	"bs-socialcomments-type": "Comentário",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Comentário|Comentários}} ($1)",
+	"bs-socialcomments-header-create": "Comentário",
+	"bs-socialcomments-header": "[[User:$1|$2]] comentou \"[[$6|$7]]\"",
+	"bs-socialcomments-var-commentcount": "Contagem de comentários",
+	"echo-category-title-bs-social-comment-cat": "Comentários nas entidades vigiadas",
+	"bs-social-notifications-comment-create": "{{GENDER:$1|O utilizador|A utilizadora}} $2 criou um novo comentário",
+	"bs-social-notifications-email-comment-create-subject": "{{GENDER:$1|O utilizador|A utilizadora}} $2 fez um novo comentário",
+	"bs-social-notifications-email-comment-create-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 comentou uma publicação de $3 com o seguinte texto:\n$4",
+	"bs-social-notifications-web-comment-create-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 comentou uma publicação de $3",
+	"bs-social-notifications-comment-edit": "{{GENDER:$1|O utilizador|A utilizadora}} $2 editou um comentário",
+	"bs-social-notifications-email-comment-edit-subject": "{{GENDER:$1|O utilizador|A utilizadora}} $2 editou um comentário",
+	"bs-social-notifications-email-comment-edit-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 editou um comentário numa publicação de $3. O novo comentário é:\n$4",
+	"bs-social-notifications-web-comment-edit-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 editou um comentário numa publicação de $3",
+	"bs-social-notifications-comment-delete": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou um comentário",
+	"bs-social-notifications-email-comment-delete-subject": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou um comentário",
+	"bs-social-notifications-email-comment-delete-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou um comentário na publicação de $3",
+	"bs-social-notifications-web-comment-delete-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou um comentário na publicação de $3",
+	"bs-social-notifications-comment-owner-create": "{{GENDER:$1|O utilizador|A utilizadora}} $2 criou um novo comentário na sua publicação",
+	"bs-social-notifications-email-comment-owner-create-subject": "{{GENDER:$1|O utilizador|A utilizadora}} $2 criou um novo comentário na sua publicação",
+	"bs-social-notifications-email-comment-owner-create-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 comentou a sua publicação com o seguinte texto:\n$3",
+	"bs-social-notifications-web-comment-owner-create-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 comentou a sua publicação",
+	"bs-social-notifications-comment-owner-edit": "{{GENDER:$1|O utilizador|A utilizadora}} $2 editou um comentário na sua publicação",
+	"bs-social-notifications-email-comment-owner-edit-subject": "{{GENDER:$1|O utilizador|A utilizadora}} $2 editou um comentário na sua publicação",
+	"bs-social-notifications-email-comment-owner-edit-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 editou um comentário na sua publicação. O novo comentário é:\n$3",
+	"bs-social-notifications-web-comment-owner-edit-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 editou um comentário na sua publicação",
+	"bs-social-notifications-comment-owner-delete": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou um comentário na sua publicação",
+	"bs-social-notifications-email-comment-owner-delete-subject": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou um comentário na sua publicação",
+	"bs-social-notifications-email-comment-owner-delete-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou um comentário na sua publicação",
+	"bs-social-notifications-web-comment-owner-delete-body": "{{GENDER:$1|O utilizador|A utilizadora}} $2 eliminou um comentário na sua publicação",
+	"bs-social-notifications-comment-owner-edit-bundle": "Os comentários na sua publicação foram editados {{PLURAL:$1|$1 vez|$1 vezes}}",
+	"bs-social-notification-comment-primary-link-label": "Ver comentário",
+	"bs-social-notification-comment-parentowner-label": "Criador da publicação: $1",
+	"bs-social-notification-comment-parententity-label": "Ver publicação"
+}

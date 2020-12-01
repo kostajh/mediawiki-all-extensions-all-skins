@@ -1,0 +1,452 @@
+!! Version 2
+
+!! article
+Widget Page
+!! text
+Hello world
+!! endarticle
+
+!! test
+FontAwesomeIcon home
+!! wikitext
+<phptag> echo new FontAwesomeIcon( "home" ); </phptag>
+!! html
+<p><i class="fa fa-home"></i>
+</p>
+!! end
+
+!! test
+FontAwesome home func
+!! wikitext
+{{#phptag: FA::home }}
+!! html
+<p><i class="fa fa-home"></i>
+</p>
+!! end
+
+!! test
+func fa home func
+!! wikitext
+{{#phptag: echo fa( 'home' ); }}
+!! html
+<p><i class="fa fa-home"></i>
+</p>
+!! end
+
+!! test
+FontAwesome home tag
+!! wikitext
+<phptag> echo FA::home; </phptag>
+!! html
+<p><i class="fa fa-home"></i>
+</p>
+!! end
+
+!! test
+FontAwesomeIcon home fw
+!! wikitext
+<phptag> echo new FontAwesomeIcon( 'HoMe', ['fw'] ); </phptag>
+!! html
+<p><i class="fa fa-home fa-fw"></i>
+</p>
+!! end
+
+!! test
+FontAwesomeIcon home fw property
+!! wikitext
+<phptag>
+$i = new FontAwesomeIcon( 'HoMe' );
+echo $i->fw;
+</phptag>
+!! html
+<p><i class="fa fa-home fa-fw"></i>
+</p>
+!! end
+
+!! test
+FontAwesome home fw property
+!! wikitext
+<phptag>
+$i = FA::HoMe;
+echo $i->fw;
+</phptag>
+!! html
+<p><i class="fa fa-home fa-fw"></i>
+</p>
+!! end
+
+!! test
+func fa home fw
+!! wikitext
+<phptag>
+echo fa( 'HoMe', ['fw'] );
+</phptag>
+!! html
+<p><i class="fa fa-home fa-fw"></i>
+</p>
+!! end
+
+!! test
+FontAwesomeIcon camera-retro
+!! wikitext
+<phptag> echo new FontAwesomeIcon( 'camera-RETRO' ); </phptag>
+!! html
+<p><i class="fa fa-camera-retro"></i>
+</p>
+!! end
+
+!! test
+FontAwesomeIcon camera-retro lg
+!! wikitext
+{{#phptag: echo new FontAwesomeIcon( 'camera-retro', ['lg'] ); }}
+!! html
+<p><i class="fa fa-camera-retro fa-lg"></i>
+</p>
+!! end
+
+!! test
+FontAwesomeIcon camera-retro lg 3x
+!! wikitext
+{{#phptag: echo new FontAwesomeIcon( 'camera-retro', ['LG', '3x'] ); }}
+!! html
+<p><i class="fa fa-camera-retro fa-3x"></i>
+</p>
+!! end
+
+!! test
+FontAwesomeIcon camera-retro lg 3x property
+!! wikitext
+<phptag>
+$i = new FontAwesomeIcon( 'camera-retro' );
+echo $i->LG->_3x;
+</phptag>
+!! html
+<p><i class="fa fa-camera-retro fa-3x"></i>
+</p>
+!! end
+
+!! test
+FontAwesome camera-retro lg 3x
+!! wikitext
+{{#phptag: FA::camera_retro->LG->_3x }}
+!! html
+<p><i class="fa fa-camera-retro fa-3x"></i>
+</p>
+!! end
+
+!! test
+func FontAwesome camera-retro lg 3x
+!! wikitext
+{{#phptag: echo fontawesome( 'camera-retro', ['LG', '3x'] ); }}
+!! html
+<p><i class="fa fa-camera-retro fa-3x"></i>
+</p>
+!! end
+
+!! test
+FontAwesomeIcon camera-retro lg 3x fw
+!! wikitext
+{{#phptag: echo new FontAwesomeIcon( 'camera-retro', ['lg', '3x', 'fw'] ); }}
+!! html
+<p><i class="fa fa-camera-retro fa-3x fa-fw"></i>
+</p>
+!! end
+
+!! test
+FontAwesomeIcon spinner spin 3x
+!! wikitext
+{{#phptag: echo new FontAwesomeIcon( 'spinner', ['spin', '3x'] ); }}
+!! html
+<p><i class="fa fa-spinner fa-spin fa-3x"></i>
+</p>
+!! end
+
+!! test
+FontAwesome spinner spin 3x
+!! wikitext
+{{#phptag: FA::spinner->spin->_3x }}
+!! html
+<p><i class="fa fa-spinner fa-spin fa-3x"></i>
+</p>
+!! end
+
+!! test
+FontAwesomeIcon quote-left 3x border
+!! wikitext
+{{#phptag: echo new FontAwesomeIcon( 'quote-left', ['3x', 'border'] ); }}
+!! html
+<p><i class="fa fa-quote-left fa-3x fa-border"></i>
+</p>
+!! end
+
+!! test
+FontAwesomeIcon quote-left 3x border pull-left
+!! wikitext
+<phptag>
+echo new FontAwesomeIcon( 'quote-left', ['3x', 'BoRdEr', 'ClasS'=>'pull-left'] );
+</phptag>
+!! html
+<p><i class="fa fa-quote-left fa-3x fa-border pull-left"></i>
+</p>
+!! end
+
+!! test
+FontAwesomeIcon quote-left 3x border pull-left class
+!! wikitext
+<phptag>
+$fai = new FontAwesomeIcon( 'quote-left', ['3x', 'border'] );
+$fai->class = 'pull-left';
+echo $fai;
+</phptag>
+!! html
+<p><i class="fa fa-quote-left fa-3x fa-border pull-left"></i>
+</p>
+!! end
+
+!! test
+FontAwesome quote-left 3x border pull-left class
+!! wikitext
+<phptag>
+$fai = FA::quote_left->_3x->border;
+$fai->class = 'pull-left';
+echo $fai;
+</phptag>
+!! html
+<p><i class="fa fa-quote-left fa-3x fa-border pull-left"></i>
+</p>
+!! end
+
+!! test
+FontAwesome quote-left 3x border pull-left class foo bar
+!! wikitext
+<phptag>
+$fai = FA::quote_left->_3x->border;
+$fai->class = 'pull-left foo bar';
+echo $fai;
+</phptag>
+!! html
+<p><i class="fa fa-quote-left fa-3x fa-border pull-left foo bar"></i>
+</p>
+!! end
+
+!! test
+FontAwesome quote-left 3x border pull-left classes foo bar
+!! wikitext
+<phptag>
+$fai = FA::quote_left->_3x->border;
+$fai->class = ['pull-left', 'foo', 'bar'];
+echo $fai;
+</phptag>
+!! html
+<p><i class="fa fa-quote-left fa-3x fa-border pull-left foo bar"></i>
+</p>
+!! end
+
+!! test
+FontAwesome quote-left 3x border pull-left classes foo bar sanitize
+!! wikitext
+<phptag>
+$fai = FA::quote_left->_3x->border;
+$fai->class = ['pull-left', 'foo bar'];
+echo $fai;
+</phptag>
+!! html
+<p><i class="fa fa-quote-left fa-3x fa-border pull-left foo_bar"></i>
+</p>
+!! end
+
+!! test
+FontAwesomeIcon shield rotate-270
+!! wikitext
+<phptag>
+echo new FontAwesomeIcon( 'shield', ['rotate-270'] );
+</phptag>
+!! html
+<p><i class="fa fa-shield fa-rotate-270"></i>
+</p>
+!! end
+
+!! test
+FontAwesome shield rotate-270
+!! wikitext
+<phptag>
+echo FontAwesome::shield->rotate_270;
+</phptag>
+!! html
+<p><i class="fa fa-shield fa-rotate-270"></i>
+</p>
+!! end
+
+!! test
+Link 1
+!! wikitext
+<phptag> echo new Link( "Widget Page" ); </phptag>
+!! html
+<p><a href="/wiki/Widget_Page">Widget Page</a>
+</p>
+!! end
+
+!! test
+Link 2
+!! wikitext
+<phptag> echo new Link( "Widget Page", 'Other title' ); </phptag>
+!! html
+<p><a href="/wiki/Widget_Page">Other title</a>
+</p>
+!! end
+
+!! test
+Link 3
+!! wikitext
+<phptag> echo new Link( "Widget Page notexist", 'Other title' ); </phptag>
+!! html
+<p><a href="/wiki/Widget_Page_notexist">Other title</a>
+</p>
+!! end
+
+!! test
+Link template variable
+!! wikitext
+<phptag> echo new Link( "Widget Page notexist", '{{{1|test}}}' ); </phptag>
+!! html
+<p><a href="/wiki/Widget_Page_notexist">test</a>
+</p>
+!! end
+
+!! test
+Link span
+!! wikitext
+<phptag> echo new Link( "Widget Page", '<span>Other title</span>' ); </phptag>
+!! html
+<p><a href="/wiki/Widget_Page"><span>Other title</span></a>
+</p>
+!! end
+
+!! test
+Link script
+!! wikitext
+<phptag> echo new Link( "Widget Page", '<script>alert("Hacked")</script>' ); </phptag>
+!! html
+<p><a href="/wiki/Widget_Page">&lt;script&gt;alert("Hacked")&lt;/script&gt;</a>
+</p>
+!! end
+
+!! test
+Element div
+!! wikitext
+<phptag> echo new Element( 'div', 'test' ); </phptag>
+!! html
+<div>test</div>
+!! end
+
+!! test
+Element span
+!! wikitext
+<phptag> echo new Element( 'span', 'test' ); </phptag>
+!! html
+<p><span>test</span>
+</p>
+!! end
+
+!! test
+Element div script
+!! wikitext
+<phptag> echo new Element( 'div', '<script>alert("Hacked")</script>' ); </phptag>
+!! html
+<div>&lt;script&gt;alert("Hacked")&lt;/script&gt;</div>
+!! end
+
+!! test
+Element div a
+!! wikitext
+<phptag> echo new Element( 'div', '<a href="http://hacked.you">Hacked</a>' ); </phptag>
+!! html
+<div>&lt;a href="<a rel="nofollow" class="external free" href="http://hacked.you">http://hacked.you</a>"&gt;Hacked&lt;/a&gt;</div>
+!! end
+
+!! test
+Link Element
+!! wikitext
+<phptag>
+$element = new Element( 'span', 'test' );
+echo new Link( "Widget Page", (string)$element );
+</phptag>
+!! html
+<p><a href="/wiki/Widget_Page"><span>test</span></a>
+</p>
+!! end
+
+!! test
+Link Element script
+!! wikitext
+<phptag>
+$element = new Element( 'span', '<script>alert("Hacked")</script>' );
+echo new Link( "Widget Page", (string)$element );
+</phptag>
+!! html
+<p><a href="/wiki/Widget_Page"><span>&lt;script&gt;alert("Hacked")&lt;/script&gt;</span></a>
+</p>
+!! end
+
+!! test
+Image
+!! wikitext
+<phptag> echo new Image( "Foobar.jpg" ); </phptag>
+!! html
+<p><img src="http://example.com/images/3/3a/Foobar.jpg" width="1941px" height="220px" />
+</p>
+!! end
+
+!! test
+Image alt
+!! wikitext
+<phptag> echo new Image( "Foobar.jpg", ['alt'=>'test'] ); </phptag>
+!! html
+<p><img alt="test" src="http://example.com/images/3/3a/Foobar.jpg" width="1941px" height="220px" />
+</p>
+!! end
+
+!! test
+Image alt script
+!! wikitext
+<phptag> echo new Image( "Foobar.jpg", ['alt'=>'"><script>alert(\'Hacked\')</script>'] ); </phptag>
+!! html
+<p><img alt="&quot;&gt;&lt;script&gt;alert(&#39;Hacked&#39;)&lt;/script&gt;" src="http://example.com/images/3/3a/Foobar.jpg" width="1941px" height="220px" />
+</p>
+!! end
+
+!! test
+Image width
+!! wikitext
+<phptag> echo new Image( "Foobar.jpg", ['width'=>'200px'] ); </phptag>
+!! html
+<p><img width="200px" src="http://example.com/images/thumb/3/3a/Foobar.jpg/200px-Foobar.jpg" height="23px" />
+</p>
+!! end
+
+!! test
+Image imageWidth
+!! wikitext
+<phptag> echo new Image( 'Foobar.jpg', ['imageWidth'=>'100'] ); </phptag>
+!! html
+<p><img src="http://example.com/images/thumb/3/3a/Foobar.jpg/100px-Foobar.jpg" width="100px" height="11px" />
+</p>
+!! end
+
+!! test
+Image imageHeight
+!! wikitext
+<phptag> echo new Image( 'Foobar.jpg', ['ImaGeHeiGht'=>'100'] ); </phptag>
+!! html
+<p><img src="http://example.com/images/thumb/3/3a/Foobar.jpg/883px-Foobar.jpg" width="883px" height="100px" />
+</p>
+!! end
+
+!! test
+Image url
+!! wikitext
+<phptag> $image = new Image( 'Foobar.jpg', ['ImaGeHeiGht'=>'100'] ); echo '<nowiki>', $image->url, '</nowiki>'; </phptag>
+!! html
+<p>http://example.com/images/thumb/3/3a/Foobar.jpg/883px-Foobar.jpg
+</p>
+!! end

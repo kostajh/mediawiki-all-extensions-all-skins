@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"OsamaK"
+		]
+	},
+	"onlinestatus-desc": "يضيف تفضيلا لعرض ما إذا كان المستخدم موجود حاليا أم لا على الويكي",
+	"onlinestatus-js-anon": "خطأ: يجب أن تكون مسجل الدخول لاستخدام هذه الميزة",
+	"onlinestatus-js-changed": "حالتك تم تغييرها إلى \"$1\"",
+	"onlinestatus-js-error": "مستحيل أن يتم تغيير الحالة، القيمة \"$1\" غير صحيحة",
+	"onlinestatus-subtitle-offline": "هذا المستخدم غير متصل حاليا",
+	"onlinestatus-subtitle-online": "هذا المستخدم متصل حاليا",
+	"onlinestatus-tab": "الحالة",
+	"onlinestatus-toggles-desc": "حالتك:",
+	"onlinestatus-toggles-explain": "هذا يسمح لك بالعرض للمستخدمين الآخرين إذا ما كنت موجودا أم لا بواسطة رؤية صفحة مستخدمك.",
+	"onlinestatus-toggles-show": "اعرض حالتي على الإنترنت على صفحة مستخدمي",
+	"onlinestatus-toggle-offline": "غير متصل",
+	"onlinestatus-toggle-online": "متصل",
+	"onlinestatus-pref-onlineonlogin": "غير حالتي إلى موجود عند تسجيل الدخول",
+	"onlinestatus-pref-offlineonlogout": "غير حالتي إلى غير موجود عند تسجيل الخروج"
+}

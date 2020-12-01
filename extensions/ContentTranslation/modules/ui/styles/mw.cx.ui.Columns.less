@@ -1,0 +1,62 @@
+// Common styles for source or translation columns of translation view
+@import 'mw.cx.mixins.less';
+@import 'mw.cx.variables.less';
+
+.cx-widget__columns {
+	min-height: 100vh;
+	padding: 0 @personal-header-padding;
+	.clearfix;
+
+	&:after {
+		height: 4em;
+	}
+
+	&.disabled {
+		pointer-events: none;
+		opacity: 0.5;
+	}
+}
+
+.cx-column {
+	background-color: #fff;
+}
+
+.cx-column__sub-heading,
+.cx-column-sub-heading {
+	.flex-center-justify;
+	.mw-ui-one-whole;
+	padding: 5px 0;
+	height: 3em;
+}
+
+.cx-column__content {
+	clear: both;
+	position: relative;
+	line-height: 1.5em;
+	.break-overflowing-word;
+}
+
+.cx-column-language-label,
+.cx-column--language-label,
+.cx-column--sub-heading__view-page,
+.cx-column-sub-heading-view-page {
+	max-height: 3em;
+	padding: 0;
+	font-weight: normal;
+	.text-ellipsis;
+}
+
+.cx-column--language-label,
+.cx-column-language-label {
+	.mw-ui-one-half;
+	text-align: left;
+	color: @colorGray5;
+}
+
+.cx-column-title {
+	color: @colorGray2;
+	margin-bottom: 10px;
+	font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+	font-size: 2.2em;
+	.break-overflowing-word;
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent"
+		]
+	},
+	"minimumnamelength-desc": "Permite forçar um comprimento mínimo para o nome de usuário",
+	"minimumnamelength-error": "Seu nome de usuário é muito curto. O tamanho mínimo necessário é {{PLURAL:$1|um caractere|$1 caracteres}}."
+}

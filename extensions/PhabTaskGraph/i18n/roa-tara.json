@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"phabtaskgraph": "Attivitate de Grafeche de Phabricator",
+	"phabtaskgraph-desc": "Face 'ndrucà le relaziune 'mbrà attivitate de phabricator jndr'à 'nu grafeche",
+	"phabtaskgraph-author-field-label": "Autore",
+	"phabtaskgraph-owner-field-label": "Probbietarie",
+	"phabtaskgraph-tasks-field-label": "Attivitate",
+	"phabtaskgraph-projects-field-label": "Pruggette",
+	"phabtaskgraph-status-field-label": "State",
+	"phabtaskgraph-width-field-label": "Larghezze",
+	"phabtaskgraph-height-field-label": "Altezze",
+	"phabtaskgraph-tasks-field-help": "elenghe separate da virgole de l'ID de l'attivitate (accumenze pe \"T\" facoltative); pe esembie: 'T123456, T654321'",
+	"phabtaskgraph-projects-field-help": "elenghe separate da virgole de le nome de le pruggette; pe esembie: 'MediaWiki-Platform-Team, Epic'",
+	"phabtaskgraph-width-field-help": "predefinite: 800",
+	"phabtaskgraph-height-field-help": "predefinite: 800",
+	"phabtaskgraph-status-open": "Iapre",
+	"phabtaskgraph-status-stalled": "Bloccate",
+	"phabtaskgraph-status-resolved": "Resolte",
+	"phabtaskgraph-status-invalid": "Invalide",
+	"phabtaskgraph-status-declined": "Rifiute",
+	"phabtaskgraph-status-duplicate": "Dupleche"
+}

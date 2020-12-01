@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"parserfun-desc": "Wiki metnini ayrıştırmak için bir ayrıştırıcı işlevi <code>#parse</code> ekler ve sayfa değişkenleriyle ilgili sihirli değişkenler için <code>THIS:</code> öneki eklenir",
+	"parserfun-invalid-caller-mode": "Geçerli bir işlem modu veya sayısal dizin yok."
+}

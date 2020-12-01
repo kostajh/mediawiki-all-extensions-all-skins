@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-nsfrc-desc": "NSFileRepo'yu bir dizi BlueSpice Uzantıları ile bütünleştirir (NSFileRepo gerektirir)",
+	"bs-nsfrc-namespacestore-label": "Ad alanı",
+	"bs-nsfrc-namespacecombo-emptytext": "Ad alanı seç",
+	"bs-nsfrc-unprefixedfilename-label": "Başlık",
+	"bs-nsfrc-uploaddialog-selector-label": "Hedef ad alanı",
+	"apihelp-bs-nsfrc-tasks-summary": "BlueSpiceNSFileRepoConnector uzantısı için API bitiş noktası",
+	"apihelp-bs-nsfilerepo-connector-summary": "BlueSpiceNSFileRepoConnector uzantısı için API bitiş noktası"
+}

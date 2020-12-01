@@ -1,0 +1,104 @@
+{
+	"name": "LDAPProvider",
+	"version": "1.0.5",
+	"author": [
+		"Cindy Cicalese",
+		"[https://mediawiki.org/wiki/User:MarkAHershberger Mark A. Hershberger]",
+		"[https://mediawiki.org/wiki/User:Osnard Robert Vogel]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LDAPProvider",
+	"descriptionmsg": "ldapprovider-desc",
+	"license-name": "GPL-2.0+",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"MessagesDirs": {
+		"LDAPProvider": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\LDAPProvider\\Maintenance\\" : "maintenance/",
+		"MediaWiki\\Extension\\LDAPProvider\\" : "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extension\\LDAPProvider\\Tests\\" : "tests/phpunit/"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\LDAPProvider\\Hook\\LoadExtensionSchemaUpdates::callback"
+	},
+	"config_prefix": "LDAPProvider",
+	"config": {
+		"CacheType": {
+			"value": "CACHE_ANYTHING",
+			"description": "The sort of cache to use for the connection information.",
+			"descriptionmsg": "ldapprovider-config-cachetype"
+		},
+		"CacheTime": {
+			"value": 500,
+			"description": "How long cached items should stick around in seconds",
+			"descriptionmsg": "ldapprovider-config-cachetime"
+		},
+		"ClientRegistry": {
+			"value": [],
+			"description": "Allows registration of custom clients",
+			"descriptionmsg": "ldapprovider-config-clientregistry"
+		},
+		"DomainConfigs": {
+			"value": "/etc/mediawiki/ldapprovider.json",
+			"public": false,
+			"path": false,
+			"description": "Stores per domain configuration",
+			"descriptionmsg": "ldapprovider-config-domainconfigs"
+		},
+		"DomainConfigProvider": {
+			"value": "\\MediaWiki\\Extension\\LDAPProvider\\DomainConfigProvider\\LocalJSONFile::newInstance",
+			"public": false,
+			"description": "Specifies the mechanism for obtaining the domain configuration",
+			"descriptionmsg": "ldapprovider-config-domainconfigprovider"
+		},
+		"DefaultDomain": {
+			"value": "",
+			"public": false,
+			"description": "Specifies which domain to choose for a user, if no mapping from the database is available",
+			"descriptionmsg": "ldapprovider-config-defaultdomain"
+		},
+		"PreSearchUsernameModifierRegistry": {
+			"value": {
+				"removespaces": "\\MediaWiki\\Extension\\LDAPProvider\\PreSearchUsernameModifier\\RemoveSpaces::newInstance",
+				"spacetounderscore": "\\MediaWiki\\Extension\\LDAPProvider\\PreSearchUsernameModifier\\SpacesToUnderscores::newInstance",
+				"spacestounderscores": "\\MediaWiki\\Extension\\LDAPProvider\\PreSearchUsernameModifier\\SpacesToUnderscores::newInstance",
+				"strtolower": "\\MediaWiki\\Extension\\LDAPProvider\\PreSearchUsernameModifier\\ToLower::newInstance",
+				"lowercase": "\\MediaWiki\\Extension\\LDAPProvider\\PreSearchUsernameModifier\\ToLower::newInstance"
+			},
+			"description": "Allows registration of pre-search-username-modifiers",
+			"public": false
+		}
+	},
+	"ConfigRegistry": {
+		"ldapprovider": "MediaWiki\\Extension\\LDAPProvider\\Config::newInstance"
+	},
+	"attributes": {
+		"LDAPProvider": {
+			"DefaultSettings": {
+				"connection": {
+					"port": 389,
+					"options": [],
+					"enctype": "clear",
+					"groupbasedn": "",
+					"userbasedn": "",
+					"searchattribute": "",
+					"searchstring": "",
+					"grouprequest":"MediaWiki\\Extension\\LDAPProvider\\UserGroupsRequest\\GroupUniqueMember::factory",
+					"nestedgroups": false,
+					"groupobjectclass": "",
+					"groupattribute": "member",
+					"presearchusernamemodifiers": []
+				}
+			}
+		}
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Imre",
+			"Umherirrender"
+		]
+	},
+	"form-no-name-text": "Sie müssen einen Formularnamen angeben, z. B. „{{#special:Form}}/Formularname“.",
+	"form-required-field-error": "{{PLURAL:$2|Das Feld $1 ist ein Pfichtfeld|Die Felder $1 sind Pfichtfelder}}.\nBitte füllen Sie {{PLURAL:$2|es|sie}} aus."
+}

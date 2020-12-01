@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armin1392",
+			"Ebraminio",
+			"Mjbmr",
+			"Omidh"
+		]
+	},
+	"onlinestatusbar-desc": "نوار وضعیتی که نشان می‌دهد که آیا کاربر در صفحهٔ کاربری خود آنلاین است",
+	"prefs-onlinestatus": "وضعیت آنلاین",
+	"onlinestatusbar-used": "نمایش وضعیت آنلاین شما در صفحات کاربریتان",
+	"onlinestatusbar-hide": "پنهان کردن نوار وضعیت در صفحات کاربری برای فقط استفاده از کلمهٔ جادویی (برای کاربران پیشرفته)",
+	"onlinestatusbar-away": "تلقی به عنوان دور به طور خودکار پس از مدت تعریف شده",
+	"onlinestatusbar-purge": "پاکسازی هر دفعهٔ صفحهٔ کاربری هنگامی که شما وارد یا خارج می‌شوید",
+	"onlinestatusbar-status": "مایل به استفاده از چه وضعیت پیش‌فرضی هستید؟",
+	"onlinestatusbar-away-time": "چند دقیقه تا زمای که شما به دور علامت‌گذاری شده‌اید؟",
+	"onlinestatusbar-title-online": "{{GENDER:$1|برخط}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|گرفتار}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|خارج از دسترس}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|پنهان}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|برون‌خط}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|ناشناخته}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|این کاربر}} اکنون برخط است",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|این کاربر}} مشغول است و ممکن است در دسترس نباشد",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|این کاربر}} بیکار است (فعالیتی انجام نداده است) و ممکن است در دسترس نباشد",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|این کاربر}} برون‌خط است",
+	"onlinestatusbar-tooltip-unknown": "وضعیت {{GENDER:$1|این کاربر}} نامعلوم است"
+}

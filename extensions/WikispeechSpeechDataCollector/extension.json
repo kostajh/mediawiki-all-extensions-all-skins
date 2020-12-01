@@ -1,0 +1,55 @@
+{
+	"name": "Wikispeech Speech Data Collector",
+	"version": "0.1.0",
+	"author": [
+		"Sebastian Berlin",
+		"André Costa",
+		"Karl Wettin"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WikispeechSpeechDataCollector",
+	"namemsg": "wikispeech-speech-data-collector",
+	"descriptionmsg": "wikispeech-speech-data-collector-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"manifest_version": 2,
+	"MessagesDirs": {
+		"WikispeechSpeechDataCollector": [
+			"i18n"
+		]
+	},
+	"requires": {
+		"MediaWiki": ">= 1.35"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\WikispeechSpeechDataCollector\\": "includes/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\WikispeechSpeechDataCollector\\Tests\\": "tests/phpunit/"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "db",
+		"ApiBeforeMain": "api"
+	},
+	"HookHandlers": {
+		"api": {
+			"class": "MediaWiki\\WikispeechSpeechDataCollector\\Hooks\\ApiHooks",
+			"services": [
+				"ConfigFactory"
+			]
+		},
+		"db": {
+			"class": "MediaWiki\\WikispeechSpeechDataCollector\\Hooks\\DatabaseHooks"
+		}
+	},
+	"ConfigRegistry": {
+		"wikispeech-speech-data-collector": "GlobalVarConfig::newInstance"
+	},
+	"AvailableRights": [
+		"wikispeech-speech-data-collector-record"
+	],
+	"GroupPermissions": {
+		"*": {
+			"wikispeech-speech-data-collector-record": true
+		}
+	}
+}

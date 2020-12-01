@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Markus Glaser",
+			"Robert Vogel",
+			"Schmackes",
+			"Sebastian Ulbricht"
+		]
+	},
+	"bs-wikiexplorer-extension-description": "Artikel nach Kriterien sortieren lassen",
+	"wikiexplorer": "WikiExplorer",
+	"bs-wikiexplorer-page-title": "Titel",
+	"bs-wikiexplorer-page-namespace": "Namensraum",
+	"bs-wikiexplorer-creation-date": "Erstellt am",
+	"bs-wikiexplorer-is-redirect": "ist Umleitung",
+	"bs-wikiexplorer-last-comment": "letzter Kommentar",
+	"bs-wikiexplorer-last-edit-time": "Bearbeitet am",
+	"bs-wikiexplorer-page-size": "Größe",
+	"bs-wikiexplorer-last-author": "letzter Autor",
+	"bs-wikiexplorer-categories": "Kategorien",
+	"bs-wikiexplorer-linked-files": "verlinkte Dateien",
+	"bs-wikiexplorer-linked-pages": "verlinkte Seiten",
+	"apihelp-bs-wikiexplorer-store-description": "Bietet alle Daten für die Erweiterung WikiExplorer",
+	"apihelp-bs-wikiexplorer-store-param-metaLoaded": "API-Parameter zur Anzeige, ob die MetaDaten bereits geladen wurden.",
+	"apihelp-bs-wikiexplorer-store-summary": "Stellt alle Daten für die Erweiterung WikiExplorer bereit"
+}

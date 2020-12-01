@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"reassignedits": "Riassegna contributi utente",
+	"reassignedits-desc": "Consente di riassegnare i contributi di un utente vecchio ad un nuovo",
+	"reassignedits-error-invalid": "Il nome utente \"$1\" non è valido",
+	"reassignedits-new": "Nuovo nome utente",
+	"reassignedits-old": "Vecchio nome utente",
+	"reassignedits-submit": "Invia",
+	"reassignedits-success": "I contributi di \"$1\" sono stati riassegnati a \"$2\"",
+	"reassignedits-summary": "Riassegna i contributi di un utente vecchio ad un nuovo",
+	"reassignedits-updatelog-title": "Aggiorna nome utente nei titoli dei registri",
+	"reassignedits-updatelog-user": "Aggiorna utente che ha eseguito l'azione nei registri",
+	"right-reassignedits": "Riassegna contributi di un utente vecchio ad un nuovo"
+}

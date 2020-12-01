@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"PieRRoMaN"
+		]
+	},
+	"wikiarticlefeeds-desc": "Génère des flux depuis des pages MediaWiki",
+	"wikiarticlefeeds-tracking-category": "Pages générant des flux RSS",
+	"wikiarticlefeeds-tracking-category-desc": "La page génère un flux RSS.",
+	"wikiarticlefeeds_combined_description": "Ceci est un flux combiné qui contient des éléments issus de plusieurs sources."
+}

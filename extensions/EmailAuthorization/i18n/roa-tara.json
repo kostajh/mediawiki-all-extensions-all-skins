@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"emailauthorization-config-authorized": "''$1'' jè autorizzate.",
+	"emailauthorization-config-notauthorized": "''$1'' no g'è autorizzate.",
+	"emailauthorization-config-added": "Autorizzate \"$1\".",
+	"emailauthorization-config-alreadyauthorized": "''$1'' jè già autorizzate.",
+	"emailauthorization-config-label-username": "Nome de l'utende",
+	"emailauthorization-config-value-yes": "sìne",
+	"emailauthorization-config-value-no": "none"
+}

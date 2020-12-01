@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Dansita"
+		]
+	},
+	"bs-insertTemplate-dialog-title": "Inserisci template",
+	"bs-insertTemplate-dialog-label-choose": "Scegli template",
+	"bs-insertTemplate-dialog-label-modify": "Modifica template",
+	"bs-insertTemplate-dialog-label-preview": "Anteprima",
+	"apihelp-bs-inserttemplate-store-summary": "Elenca tutti i templates. Consente ordinamento, filtraggio e impaginazione. Implementa parametri ExtJS Store."
+}

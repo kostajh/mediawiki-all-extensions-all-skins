@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aaribaud",
+			"Eihel",
+			"Gomoko",
+			"Verdy p"
+		]
+	},
+	"bs-uemodulepdfsubpages-extension-description": "Permet l’exportation récursive de pages au format PDF avec leurs sous-pages.",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-text": "Page PDF avec ses sous-pages",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-title": "Exporter cette page et toutes ses sous-pages au format PDF.",
+	"action-uemodulepdfsubpages-export": "exportation d’une page, y compris toutes ses sous-pages, en PDF",
+	"right-uemodulepdfsubpages-export": "Exporter une page, y compris toutes ses sous-pages, en PDF"
+}

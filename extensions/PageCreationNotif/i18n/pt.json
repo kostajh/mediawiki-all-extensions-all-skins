@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"page-creation-notif-desc": "Envia uma notificação por correio eletrónico quando são criadas páginas novas",
+	"page-creation-notification": "Enviar-me uma mensagem quando for criada uma página nova",
+	"page-creation-email-subject": "Página nova – $1 {{GENDER:$3|criada}} na wiki $2 por $3",
+	"page-creation-email-body": "Olá, $1,\n\nEsta é uma notificação da wiki {{SITENAME}} de que foi criada uma página nova, $2, {{GENDER:$3|pelo utilizador|pela utilizadora}} $3.\n\nPode ver a página em\n$4\n\nO texto da página é:\n$5\n\nO sistema de notificação da wiki {{SITENAME}}.\n\nPara mudar as suas definições de notificação por correio eletrónico, visite\n{{canonicalurl:{{#special:Preferences}}}}"
+}

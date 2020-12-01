@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"hsts-desc": "Mecanismo HSTS (HTTP Strict Transport Security) activable a nivel de cada usuario",
+	"hsts-tog": "Activar o mecanismo HTTP Strict Transport Security (HSTS)",
+	"hsts-https-tog": "Active o HTTP Strict Transport Security (HSTS)<br />Recargue esta páxina con HTTPS para cambiar esta preferencia.",
+	"hsts-beta-feature-message": "Empregar sempre unha conexión segura",
+	"hsts-beta-feature-description": "Isto reforza a súa seguridade neste sitio manténdoo seguro mesmo despois de pechar a sesión, e asegura que ninguén pode espialo durante a navegación. Con esta opción activada e un navegador recente que soporte esta tecnoloxía (HSTS), calquera alerta de seguridade é moi probablemente un ataque real contra vostede."
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"securesessions-desc": "يجعل جلسات المستخدم ومصادقة الجلسة أكثر أمانا",
+	"securesessions-personalurl": "الجلسات المفتوحة ($1)",
+	"securesessions-ipsession": "تسجيل الخروج من جميع الجلسات الأخرى.",
+	"securesessions-iprestrict": "تقييد الجلسة على عنوان الآيبي هذا،",
+	"securesessions-uarestrict": "تقييد الجلسة على هذا المتصفح.",
+	"securesessions-sessions": "جلسات",
+	"securesessions-sessions-legend": "معلومات الجلسة",
+	"securesessions-sessions-text": "ستجد أدناه جميع الجلسات المفتوحة لحسابك ومعلومات حولها، يمكنك إغلاق جميع الجلسات الأخرى باستخدام الزر أدناه، تشير العلامة النجمية (*) إلى الجلسة الحالية.",
+	"securesessions-sessions-ip": "عنوان الآيبي:",
+	"securesessions-sessions-activity": "النشاط الأخير:",
+	"securesessions-sessions-clear": "تسجيل الخروج من جميع الجلسات الأخرى",
+	"securesessions-prefs-country": "تقييد تسجيل الدخول حسب البلد:",
+	"securesessions-prefs-tor": "عدم السماح بتسجيل الدخول من عقد خروج تور.",
+	"securesessions-disallowedcountry": "هذا الحساب غير مسموح له بتسجيل الدخول من هذا البلد.",
+	"securesessions-disallowedtor": "لا يُسمَح لهذا الحساب بتسجيل الدخول من عقد خروج تور."
+}

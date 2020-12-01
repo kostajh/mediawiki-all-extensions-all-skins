@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"emailauth-desc": "透過電子郵件驗證可疑的登入",
+	"emailauth-token-label": "驗證碼",
+	"emailauth-token-help": "透過電子郵件寄出的一次性雙重身分驗證令牌。",
+	"emailauth-email-subject": "您要登入至 $1 的驗證碼",
+	"emailauth-email-body": "您要登入至 $1 的驗證碼為 $2",
+	"emailauth-login-message": "您需要驗證您的登入。驗證碼已寄出到您的電子郵件地址（$1），請在此輸入該驗證碼。",
+	"emailauth-login-failure": "無效的驗證碼！",
+	"emailauth-login-retry-limit": "失敗過多！"
+}

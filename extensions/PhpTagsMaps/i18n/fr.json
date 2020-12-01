@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Manohisoa"
+		]
+	},
+	"multimaps-desc": "Permet aux utilisateurs d’afficher des cartes et des données localisées en utilisant divers services cartographiques",
+	"multimaps-loading-map": "Chargement de la carte…",
+	"multimaps-mapservices-must-not-empty-array": "La variable \"$1\" ne doit pas être un tableau vide",
+	"multimaps-had-following-errors": "Les erreurs suivantes ont été détectées lors de l’analyse des paramètres passés:",
+	"multimaps-element-illegal-value": "une valeur illégale $2\" a été spécifiée pour le paramètre \"$1\". Les valeurs valides sont: $3",
+	"multimaps-element-more-parameters": "Davantage de paramètres qu’attendu ont été passés pour cet élément de carte \"$1\":",
+	"multimaps-element-parameters-not-processed": "les paramètres suivants n’ont pas été traités: $1",
+	"multimaps-circle-radius-not-defined": "pour le cercle, le rayon doit être défini",
+	"multimaps-circle-wrong-number-parameters": "pour le cercle, seuls deux paramètres devraient être définis, les coordonnées du centre et le rayon. Mais {{PLURAL:$1|un seul paramètre a été spécifié|$1 paramètres ont été spécifiés}}",
+	"multimaps-marker-incorrect-icon": "Un nom de fichier \"$1\" incorrect a été fourni pour l’icône du marqueur",
+	"multimaps-marker-incorrect-icon-url": "Une adresse URL incorrecte \" $1 \" a été attribuée à l'icône de marqueur.",
+	"multimaps-marker-incorrect-icon-size": "Une taille incorrecte \"$1\" a été attribuée à l'icône de marqueur \"$2\".",
+	"multimaps-marker-incorrect-icon-anchor": "Une ancre incorrecte \"$1\" a été attribuée à l'icône de marqueur \"$2\"",
+	"multimaps-marker-incorrect-shadow-file": "Un nom de fichier incorrect \"$1\" a été attribué à l'ombre des icônes.",
+	"multimaps-marker-incorrect-shadow-url": "Une URL incorrecte, « $1 », a été fournie pour l’ombre de l’icône.",
+	"multimaps-marker-incorrect-shadow-size": "Une taille incorrecte \"$1\" a été attribuée à l'ombre de l'icône \"$2\".",
+	"multimaps-marker-incorrect-shadow-anchor": "Une ancre incorrecte, « $1 », a été fournie pour l’ombre de l’icône « $2 ».",
+	"multimaps-passed-unavailable-service": "Nom de service \"$1\" non trouvé dans la liste des services disponibles ($2). Service par défaut \"$3\" utilisé",
+	"multimaps-square-wrong-number-points": "les coordonnées de la zone ne devraient contenir que deux points, mais {{PLURAL:$1|un point a été spécifié|$1 points ont été spécifiés}}",
+	"multimaps-unable-create-element": "L’élément de carte \"$1\" ne peut pas être créé.",
+	"multimaps-unable-parse-coordinates": "impossible d’analyser les coordonnées géographiques \"$1\"",
+	"multimaps-unable-parse-parameter": "impossible d’analyser le paramètre \"$1\" dont la valeur est \"$2\"",
+	"multimaps-unable-parse-radius": "le rayon du cercle doit être une valeur numérique, mais \"$1\" a été spécifié",
+	"multimaps-unknown-class-for-service": "La classe \"$1\" définie pour le service est introuvable.",
+	"multimaps-unknown-parameter": "Paramètre inconnu: \"$1\"",
+	"multimaps-error-incorrect-class-for-service": "La classe \"$1\" définie pour le service ne peut pas être utilisée.",
+	"multimaps-method-error-unknown-action": "$1: Action inconnue",
+	"multimaps-method-error-unexpected-result": "$1: Un résultat inattendu d’une fonction"
+}

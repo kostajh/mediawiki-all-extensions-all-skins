@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"NehalDaveND"
+		]
+	},
+	"translationnotifications-info": "योजकसूचना",
+	"translationnotifications-username": "सदस्यनाम",
+	"translationnotifications-emailstatus": "वि-पत्रस्य स्थितिः :",
+	"translationnotifications-email-confirmed": "वि-पत्रसङ्केतः प्रमाणीकृतः",
+	"translationnotifications-email-unconfirmed": "वि-पत्रसङ्केतः न प्रमाणीकृतः । $1",
+	"translationnotifications-languages": "भाषाः",
+	"translationnotifications-lang": "भाषा #$1",
+	"translationnotifications-nolang": "भाषां चिनोतु",
+	"translationnotifications-cmethod-email": "वि-पत्रम्",
+	"translationnotifications-cmethod-talkpage": "सम्भाषणपृष्ठम्",
+	"translationnotifications-priority": "प्राथमिकता :",
+	"translationnotifications-priority-high": "गरिष्ठतमा",
+	"translationnotifications-priority-medium": "सामान्या",
+	"translationnotifications-priority-low": "कनिष्ठतमा",
+	"translationnotifications-nodeadline": "नैकमपि"
+}

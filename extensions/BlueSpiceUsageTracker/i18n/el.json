@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"bs-usagetracker-startjobs": "Ενημέρωση τώρα",
+	"bs-usagetracker-create-statistics": "Ενημέρωση στατιστιών χρήσης",
+	"bs-usagetracker-col-identifier": "Αναγνωριστικό",
+	"bs-usagetracker-col-desc": "Περιγραφή",
+	"bs-usagetracker-col-count": "Μέτρηση",
+	"bs-usagetracker-col-last-updated": "Τελευταία ενημέρωση",
+	"bs-usagetracker-db-collector-desc": "Αριθμός του $1"
+}

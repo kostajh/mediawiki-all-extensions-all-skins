@@ -1,0 +1,30 @@
+
+.bs-authors-flyout-authors {
+	.x-grid-row {
+		height: 47px;
+	}
+	.bs-authors-flyout-grid-item {
+		.bs-userminiprofile {
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			img {
+				width: 40px;
+				height: 40px;
+			}
+		}
+		span {
+			font-weight: bold;
+			margin-left: 10px;
+		}
+		.author-type {
+			margin-left: 5px;
+			&:before {
+				content: "(";
+			}
+			&:after {
+				content: ")";
+			}
+		}
+	}
+}

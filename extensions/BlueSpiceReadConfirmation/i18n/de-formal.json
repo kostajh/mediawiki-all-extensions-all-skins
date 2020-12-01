@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Leonid Verhovskij",
+			"Robert Vogel"
+		]
+	},
+	"notification-bs-readconfirmation-remind-summary": "$1 erinnert Sie daran, $3 zu lesen",
+	"notification-bs-readconfirmation-remind-body": "$1 möchte Sie daran erinnern, für $2 eine Lesebestätigung abzugeben.",
+	"bs-readconfirmation-privacy-transparency-working-rc": "BlueSpiceReadConfirmation: Sie haben bestätigt, die Seite $1 (Version $2) am $3 gelesen zu haben"
+}

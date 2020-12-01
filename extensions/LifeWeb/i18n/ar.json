@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"lifeweb": "ويب الحياة",
+	"lifeweb-desc": "مولد ومحرر مفتاح هوية",
+	"apihelp-query+LifeWeb-description": "رابط الاتصال عن بعد لبيانات LifeBase.",
+	"apihelp-query+LifeWeb-summary": "رابط الاتصال عن بعد لبيانات LifeBase.",
+	"apihelp-query+LifeWeb-param-what": "أية قائمة بيانات لاستردادها.",
+	"apihelp-query+LifeWeb-param-clearCache": "ما إذا كان سيتم مسح ذاكرة التخزين المؤقت أثناء استرداد البيانات",
+	"apihelp-query+LifeWeb-example-1": "قائمة الأصنوفة",
+	"apihelp-query+LifeWeb-example-2": "قائمة الأسئلة، مطبوعة بشكل جميل"
+}

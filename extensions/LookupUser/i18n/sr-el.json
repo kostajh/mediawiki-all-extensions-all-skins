@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Michaello",
+			"Zoranzoki21"
+		]
+	},
+	"lookupuser": "Pogledaj informacije o korisniku",
+	"lookupuser-intro": "Unesite korisničko ime da bi ste videli podešavanja ovog korisnika. Imejl adresa se takođe može koristiti, i prikazaće sve naloge koji koriste taj imejl.",
+	"lookupuser-nonexistent": "Greška: Korisnik ne postoji",
+	"lookupuser-authenticated": "autorizacija na $1",
+	"lookupuser-not-authenticated": "nije autorizovano",
+	"lookupuser-id": "Korisnički ID: <tt>#$1</tt>",
+	"lookupuser-email": "Imejl: [[Special:EmailUser/$2|$1]]",
+	"lookupuser-no-email": "nije priloženo",
+	"lookupuser-realname": "Pravo ime: $1",
+	"lookupuser-registration": "Datum registracije: $1",
+	"lookupuser-no-registration": "nije zabeleženo",
+	"lookupuser-info-authenticated": "Potvrda imejla: $1",
+	"lookupuser-useroptions": "Korisničke opcije:"
+}

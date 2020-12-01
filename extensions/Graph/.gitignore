@@ -1,0 +1,8 @@
+*swp
+*swo
+*swn
+node_modules/
+/vendor
+composer.lock
+.eslintcache
+

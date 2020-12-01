@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Prima klasy4na",
+			"Steve.rusyn",
+			"SteveR",
+			"Ата",
+			"Тест"
+		]
+	},
+	"security": "Журнал безпеки",
+	"security-desc": "Розширює захист сторінок MediaWiki, дозволяючи обмежувати перегляд вмісту сторінки",
+	"security-logpage": "Журнал безпеки",
+	"security-logpagetext": "Це журнал дій, заблокованих [https://www.mediawiki.org/wiki/Extension:SimpleSecurity розширенням SimpleSecurity].",
+	"badaccess-read": "'''Увага:''' \"$1\" посилається сюди, але Ви не маєте достатніх повноважень для доступу до неi.",
+	"security-info": "На цій сторінці діють $1",
+	"security-info-toggle": "обмеження для забезпечення безпеки",
+	"security-inforestrict": "$1 обмежений для $2",
+	"security-desc-LS": "(застосовано, оскільки ця сторінка знаходиться у $1 «$2»)",
+	"security-desc-PR": "(встановлено через вкладку \"захистити\")",
+	"security-infosysops": "Обмеження не діють, оскільки Ви є членом групи \"sysop\"",
+	"security-manygroups": "групи $1 і $2",
+	"security-unchain": "Змінити дії індивідуально",
+	"security-type-category": "категорія",
+	"security-type-namespace": "простір назв",
+	"security-restricttogroup": "Доступ до вмісту обмежується членами \"$1\"",
+	"restriction-read": "Читати"
+}

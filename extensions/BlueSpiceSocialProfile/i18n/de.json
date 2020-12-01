@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mglaser",
+			"Patric Wirth"
+		]
+	},
+	"bs-socialprofile-desc": "Profil-Erweiterung für BlueSpiceSocial",
+	"bs-socialprofile-type": "Profil",
+	"bs-socialprofile-entityaction-changeimage": "Benutzerbild",
+	"bs-social-entityaction-editprofilefields": "Profildaten",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "Ungültiger 'User' übergeben",
+	"bs-social-profile-field-name": "Name",
+	"bs-social-profile-field-email": "E-Mail",
+	"bs-social-profile-field-title": "Anrede",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Herr|Frau|}}",
+	"bs-social-profile-field-department": "Abteilung",
+	"bs-social-profile-field-function": "Funktion",
+	"bs-social-profile-field-location": "Standort",
+	"bs-social-profile-field-phone": "Telefon",
+	"bs-social-profile-field-validate-no-integer": "$1 muss eine Nummer sein",
+	"bs-socialprofile-special-profiles-heading": "Profile",
+	"bs-social-profile-infoshowemail": "E-Mail Adresse im Profil anzeigen",
+	"socialprofiles": "Profile",
+	"bs-socialprofile-switch-classicprofile-label": "Klassisches Profil",
+	"bs-socialprofile-switch-modernprofile-label": "Modernes Profil",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Zur klassischen Profilansicht wechseln",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Zur modernen Profilansicht wechseln",
+	"action-social-editothersprofile": "die Profile anderer Nutzer zu bearbeiten",
+	"right-social-editothersprofile": "Profile anderer Nutzer bearbeiten",
+	"action-socialprofile-viewspecialpage": "die Spezialseite \"{{int:socialprofiles}}\" anzusehen",
+	"right-socialprofile-viewspecialpage": "Die Spezialseite \"{{int:socialprofiles}}\" ansehen"
+}

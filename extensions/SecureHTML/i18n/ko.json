@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nuevo Paso",
+			"Priviet",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"securehtml": "보안 HTML",
+	"securehtml-desc": "승인되고 안전한 방법으로 임의의 HTML을 포함하도록 하기",
+	"securehtml-nokeys": "오류: <code>$wgSecureHTMLSecrets</code>가 설정되지 않았습니다.",
+	"securehtml-hashrequired": "오류: 해시가 필요합니다.",
+	"securehtml-invalidhash": "오류: 유효하지 않은 해시",
+	"securehtml-input-title": "HTML 입력",
+	"securehtml-generatedoutput-title": "생성된 결과물",
+	"securehtml-renderedhhtml-title": "표시된 HTML",
+	"securehtml-form-keyname": "키 이름(선택 사항)",
+	"securehtml-form-keysecret": "키 시크릿",
+	"securehtml-form-html": "HTML 코드",
+	"securehtml-form-submit": "제출",
+	"securehtml-inputinstructions": "키 이름(선택 사항), 키 시크릿, 희망 raw HTML을 입력하세요.\n키 이름이 지정되지 않으면 <code>$wgSecureHTMLSecrets</code>의 첫 번째 키로 간주됩니다.",
+	"securehtml-outputinstructions": "위 코드를 정확히 복사하여 위키 편집기에 붙여넣으세요.\n생성된 코드가 작동하지 않으면 입력 HTML의  모든 라인피드를 제거하고 다시 생성해보세요."
+}

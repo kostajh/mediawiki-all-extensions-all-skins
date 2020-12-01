@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin"
+		]
+	},
+	"formelapplet-desc": "Añade applets de [http://wiki.formelapplet.de FormelApplet] a las páginas",
+	"formelapplet-nojava": "Instala $1 para usar esta página.",
+	"formelapplet-missing-parameter": "Falta un parámetro (\"width\" o \"height\" o \"term/solution\").",
+	"formelapplet-file-not-found": "No se encuentra el archivo $1.",
+	"formelapplet-error": "Error en la extensión FormelApplet de MediaWiki: <em>$1</em>"
+}

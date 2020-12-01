@@ -1,0 +1,17 @@
+== Version 0.5.0 ==
+* Some maintenance regarding I18n
+* Clearly state license
+
+== Version 0.4.0 ==
+* SpecialPage renamed to "BrowseSW"
+* More robust structure and better error handling
+
+== Version 0.3.0 ==
+* Visualizing and hiding of incoming links
+
+== Version 0.2.0 ==
+* Basis functionality of browsing implemented: Special Page BrowseWiki.
+* Committed to SVN
+
+== Version 0.1.0 ==
+* Skeleton implemented

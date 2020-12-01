@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"bs-countthings-chars-label": "Նշաններ",
+	"bs-countthings-files-label": "Նիշքեր",
+	"bs-countthings-pages-label": "Էջեր",
+	"bs-countthings-ve-countcharacters-mode-all": "բոլոր",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "նշաններ",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "բառեր",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "նշաններ և բառեր",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "էջեր",
+	"bs-countthings-ve-countcharacters-input-label": "Էջեր"
+}

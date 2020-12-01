@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Pwirth",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-insertcategory-desc": "Über ein Dialogfeld lassen sich Kategorien in eine Wikiseite einfügen",
+	"bs-insertcategory-insertcat": "Kategorie einfügen",
+	"prefs-insertcategory": "Kategorie einfügen",
+	"bs-insertcategory-pref-withparents": "Kategorie mit ihren übergeordneten Kategorien einfügen",
+	"bs-insertcategory-pref-uploadpanelintegration": "Kategorien einer Seite im Hochladedialog voreinstellen",
+	"bs-insertcategory-title": "Kategorie einfügen",
+	"bs-insertcategory-cat-label": "Zugewiesen:",
+	"bs-insertcategory-success": "Die Kategorie wurde hinzugefügt",
+	"bs-insertcategory-failure": "Fehler",
+	"bs-insertcategory-hint": "Hinweis: Bestätige mit der Taste Enter, um die Kategorie hinzuzufügen.",
+	"bs-insertcategory-panel-title": "Kategorien",
+	"bs-insertcategory-category-editor-title": "Kategorien",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Implizite Kategorien",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Diese Kategorien sind nicht im Wikitext der Seite definiert. Sie werden sehr wahrscheinlich von einer Vorlage festgelegt.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Alle entfernen",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "bearbeiten",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Die Kategorien dieser Seite bearbeiten",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Die Kategorien dieser Seite bearbeiten"
+}

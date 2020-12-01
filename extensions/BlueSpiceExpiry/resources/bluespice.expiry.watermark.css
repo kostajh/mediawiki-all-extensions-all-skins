@@ -1,0 +1,16 @@
+
+:lang(en) #mw-content-text {
+	/*@embed*/
+	background-image: url('images/bg-expired-en.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 17.5cm 23.7cm;
+}
+
+:lang(de) #mw-content-text {
+	/*@embed*/
+	background-image: url('images/bg-expired-de.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 17.5cm 23.7cm;
+}

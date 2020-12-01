@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minisarm",
+			"Stelistcristi"
+		]
+	},
+	"wlm-extension-desc": "Adaugă informații și mesaje referitoare la concursul fotografic Wiki Loves Monuments",
+	"wlm-no-contest-year": "Nu a existat nici un concurs Wiki Loves Monument contest în $1.",
+	"wlm-no-url-bad-country": "Nu am putut afișa site-ul web al competiției locale. $1 nu este un cod de țară valid.",
+	"wlm-country-not-given": "Trebuie să furnizați un cod de țară.",
+	"wlm-country-not-participating-year": "„$1” nu participă la Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "Alte țări",
+	"wlm-international-contest": "Internațional",
+	"wlm-text-contact": "Contact",
+	"wlm-text-contest": "Concurs",
+	"wlm-text-donate": "Donații",
+	"wlm-text-faq": "Întrebări frecvente",
+	"wlm-text-jury": "Juriu",
+	"wlm-text-monuments": "Monumente",
+	"wlm-text-news": "Noutăți",
+	"wlm-text-participate": "Participați!",
+	"wlm-text-prizes": "Premii",
+	"wlm-text-rules": "Regulament",
+	"wlm-text-sponsors": "Sponsori",
+	"wlm-text-uploading": "Se încarcă"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"preferenceslist": "Elenco preferenze",
+	"action-preferenceslist": "elencare le preferenze di tutti gli utenti",
+	"preferenceslist-csv": "Scarica in formato CSV",
+	"preferenceslist-nofields": "Nessun campo è stato selezionato.",
+	"right-preferenceslist": "Apre la pagina Special:PreferencesList"
+}

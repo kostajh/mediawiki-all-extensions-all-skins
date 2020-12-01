@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ainali"
+		]
+	},
+	"namespacepaths-desc": "Tillåter skräddarsydda artikelsökvägar att mappas mot namnrymder, till exempel att mappa sidor som Hjälp:Sida till /hjälp/Sida istället för /wiki/Hjälp:Sida"
+}

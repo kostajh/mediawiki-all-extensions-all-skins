@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Irwangatot"
+		]
+	},
+	"indexfunc-desc": "Fungsi parser untuk membuat pengalihan otomatis dan halaman disambiguasi",
+	"indexfunc-badtitle": "Judul tidak sah: \"$1\"",
+	"indexfunc-editwarning": "Peringatan:\nJudul ini adalah judul indeks {{PLURAL:$2|halaman|halaman}} berikut :\n$1  \nPastikan halaman yang akan Anda  buat tidak ada pada judul yang berbeda.  \nJika Anda membuat halaman ini, hapus halaman ini dari <nowiki>{{#index:}}</nowiki> di atas {{PLURAL:$2|halaman|halaman}}.",
+	"indexfunc-index-exists": "Halaman \"$1\" sudah ada",
+	"indexfunc-movewarn": "Peringatan:\n\"$1\" adalah judul indeks {{PLURAL:$3|halaman|halaman}} berikut :  \n$2\nHapus \"$1\" dari <nowiki>{{#index:}}</nowiki> di atas {{PLURAL:$3|halaman|halaman}}.",
+	"index": "Indeks",
+	"index-legend": "Cari di indeks",
+	"index-search": "Cari:",
+	"index-submit": "Kirim",
+	"index-disambig-start": "'''$1''' dapat mengacu kepada:",
+	"index-emptylist": "Tidah ada halaman yang berhubungan dengan \"$1\"",
+	"index-expand-detail": "Lihat indek halaman di dalam judul ini",
+	"index-hide-detail": "Sembunyikan daftar halaman",
+	"index-no-results": "Pencarian, tidak ada hasil",
+	"index-search-explain": "Halaman ini menggunakan pencarian prefix.\n\nketikan beberapa karakter pertama dan tekan tombol kirim untuk mencari judul halaman dan masukan indek yang dimulai dengan kata pencarian",
+	"index-details-explain": "Entri dengan panah adalah entri indeks.\nKlik tanda panah untuk melihat semua halaman indeks di dalam judul itu."
+}

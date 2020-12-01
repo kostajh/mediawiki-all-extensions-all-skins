@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-categorycheck-extension-description": "在條目儲存前檢查所分配的分類",
+	"bs-categorycheck-insertcategory-no-category": "請分配一個分類到條目上",
+	"bs-categorycheck-insertcategory-ignore-no-category": "忽略",
+	"bs-categorycheck-insertcategory-category-list": "設定了以下分類",
+	"bs-categorycheck-insertcategory-confirm-categories": "分類正確",
+	"bs-categorycheck-nsm-label-categorycheck": "分類檢查"
+}

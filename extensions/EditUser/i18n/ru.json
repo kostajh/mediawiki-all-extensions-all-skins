@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleferen",
+			"Ferrer",
+			"Ghiutun",
+			"Kareyac",
+			"Okras",
+			"Александр Сигачёв"
+		]
+	},
+	"edituser": "Изменить участника",
+	"edituser-extensionname": "EditUser",
+	"edituser-desc": "Позволяет привилегированным участникам править настройки других участников",
+	"edituser-username": "Имя участника:",
+	"edituser-dosearch": "Найти",
+	"edituser-nouser": "Участник «$1» не существует",
+	"edituser-exempt": "Участник «$1» не может быть отредактирован",
+	"right-edituser": "редактирование настроек других участников",
+	"right-edituser-exempt": "другие не могут редактировать настройки этого участника",
+	"action-edituser": "редактирование настроек других участников",
+	"action-edituser-exempt": "редактировать настройки этого участника"
+}

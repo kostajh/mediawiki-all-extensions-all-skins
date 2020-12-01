@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"viki-desc": "يرسم شبكة رسم بياني من الروابط بين صفحات الويكي أو صفحات الويب",
+	"viki-error-title": "خطأ:",
+	"viki-error-missing-pageTitle": "يجب عليك توفير عنوان صفحة واحد على الأقل.",
+	"viki-timeout-content-namespace": "نفذ الوقت لنطاق المحتوى لجلب للويكي: $1، استخدام النطاق الرئيسي افتراضيا.",
+	"viki-error-content-namespace": "حدث خطأ أثناء جلب نطاق المحتوى لجلب للويكي: $1، استخدام النطاق الرئيسي افتراضيا",
+	"viki-error-visit-node": "حدث خطأ أثناء محاولة زيارة العقدة: $1.",
+	"viki-error-external-links": "خطأ في جلب الروابط الخارجية للصفحة: $1.",
+	"viki-error-intrawiki-out": "حدث خطأ أثناء جلب وصلات الإنترويكي الصادرة للصفحة: $1.",
+	"viki-error-intrawiki-in": "حدث خطأ أثناء جلب وصلات الإنترويكي الخلفية للصفحة: $1.",
+	"viki-error-https-node": "خطأ في وضع العقدة: $1; أنت تشغل عبر HTTPS، يمكنك فقط الوصول إلى الويكيات الأخرى عبر HTTPS.",
+	"viki-error-https-namespace": "حدث خطأ أثناء جلب نطاق المحتوى للويكي: $1; أنت تشغل عبر HTTPS، يمكنك فقط الوصول إلى الويكيات الأخرى عبر HTTPS.",
+	"apihelp-getContentNamespaces-description": "احصل على قائمة بنطاقات المحتوى لهذا الويكي.",
+	"apihelp-getContentNamespaces-summary": "احصل على قائمة بنطاقات المحتوى لهذا الويكي."
+}

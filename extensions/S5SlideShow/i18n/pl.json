@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"s5slide-desc": "S5SlideShow to rozszerzenie MediaWiki umożliwiające proste, szybkie i przyjemne tworzenie pokazów slajdów przy użyciu S5 w kontekście MediaWiki i stron wiki",
+	"special-s5SlideShow-title": "Konfiguracja S5SlideShow",
+	"s5slide-header-title": "Tytuł",
+	"s5slide-header-subtitle": "Podtytuł",
+	"s5slide-header-footer": "Stopka",
+	"s5slide-header-subfooter": "Podstopka",
+	"s5slide-header-author": "Autor"
+}

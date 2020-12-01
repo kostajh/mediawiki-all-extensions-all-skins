@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"wlm-extension-desc": "Lisab fotovõistlusega Wiki Loves Monuments seotud teabe ja sõnumid.",
+	"wlm-no-contest-year": "Aastal $1 polnud võistlust Wiki Loves Monuments.",
+	"wlm-no-url-bad-country": "Kohaliku võistluse veebilehte ei õnnestunud hankida. $1 pole kehtiv maakood.",
+	"wlm-country-not-given": "Pead ära tooma maakoodi.",
+	"wlm-country-not-participating-year": "«$1» ei osale aastal $2 võistlusel Wiki Loves Monuments.",
+	"wlm-sidebar-portlet": "Teised maad",
+	"wlm-international-contest": "Rahvusvaheline",
+	"wlm-text-contact": "Kontakt",
+	"wlm-text-contest": "Võistlus",
+	"wlm-text-donate": "Annetamine",
+	"wlm-text-faq": "KKK",
+	"wlm-text-jury": "Žürii",
+	"wlm-text-monuments": "Mälestised",
+	"wlm-text-news": "Uudised",
+	"wlm-text-participate": "Võta osa!",
+	"wlm-text-prizes": "Auhinnad",
+	"wlm-text-rules": "Reeglid",
+	"wlm-text-sponsors": "Sponsorid",
+	"wlm-text-uploading": "Üleslaadimine"
+}

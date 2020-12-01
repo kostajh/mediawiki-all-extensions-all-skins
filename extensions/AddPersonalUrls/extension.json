@@ -1,0 +1,46 @@
+{
+	"name": "AddPersonalUrls",
+	"version": "1.2.2beta",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:RV1971 RV1971]"
+	],
+	"descriptionmsg": "addpersonalurls-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:AddPersonalUrls",
+	"license-name": "GPL-3.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.30.0"
+	},
+	"AutoloadClasses": {
+		"AddPersonalUrls": "includes/AddPersonalUrls.php"
+	},
+	"ResourceModules": {
+		"ext.addPersonalUrls": {
+			"styles": {
+				"ext.addPersonalUrls.css": { "media": "screen" }
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources/css",
+		"remoteExtPath": "AddPersonalUrls/resources/css"
+	},
+	"ExtensionFunctions": [ "AddPersonalUrls::init" ],
+	"MessagesDirs": {
+		"AddPersonalUrls": [
+			"i18n"
+		]
+	},
+	"config": {
+		"AddPersonalUrlsTable": {
+			"description": "Table of URLs to add.",
+			"value": {
+				"addpersonalurls-userpages": "Special:PrefixIndex?prefix=$username/&namespace=2",
+				"addpersonalurls-home": "Special:Mypage/Home",
+				"addpersonalurls-favorites": "Special:Mypage/Favorites",
+				"addpersonalurls-sandbox": "Special:Mypage/Sandbox",
+				"addpersonalurls-notes": "Special:Mypage/Notes"
+			}
+		}
+	},
+	"manifest_version": 2
+}

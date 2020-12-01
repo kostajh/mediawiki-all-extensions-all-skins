@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"sslauth-desc": "Овозможува корисниците да подигаат SSL-уверенија што ќе се користат за заверки",
+	"sslauth-title-enable": "Овозможи заверка со SSL",
+	"sslauth-title-disable": "Овнеозможи заверка со SSL",
+	"sslauth-enable": "Овозможи",
+	"sslauth-disable": "Оневозможи",
+	"sslauth-cn": "Заедничко име",
+	"sslauth-email": "Е-пошта",
+	"sslauth-serial": "Сериски број",
+	"sslauth-response-enable": "Заверката со SSL е овозможена. Отсега ќе се најавувате автоматски кога ќе се поврзувате со {{SITENAME}} преку HTTPS со вашето клиентско уверение.",
+	"sslauth-response-disable": "Заверката со SSL е оневозможена.",
+	"sslauth-invalidrequest-title": "Неважечко барање",
+	"sslauth-invalidrequest": "Мора да поднесете важечко SSL-уверение за да страницава да биде од корист.",
+	"clientssl-legend": "Заверка со SSL",
+	"clientssl-text": "Со оваа страница се овозможуваат/оневозможуваат клиентски заверки со SSL-уверенија.",
+	"sslauth-prefs-name": "Заверка со SSL",
+	"sslauth-prefs-linktospecial": "Овозможи/Оневозможи клиентски уверенија"
+}

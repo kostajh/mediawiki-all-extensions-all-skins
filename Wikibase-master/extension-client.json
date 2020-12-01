@@ -1,0 +1,371 @@
+{
+	"name": "WikibaseClient",
+	"type": "wikibase",
+	"author": [
+		"The Wikidata team"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Wikibase_Client",
+	"descriptionmsg": "wikibase-client-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.35"
+	},
+	"APIListModules": {
+		"wblistentityusage": {
+			"class": "\\Wikibase\\Client\\Api\\ApiListEntityUsage",
+			"factory": "\\Wikibase\\Client\\Api\\ApiListEntityUsage::factory"
+		}
+	},
+	"APIMetaModules": {
+		"wikibase": {
+			"class": "\\Wikibase\\Client\\Api\\ApiClientInfo",
+			"factory": "\\Wikibase\\Client\\Api\\ApiClientInfo::factory"
+		}
+	},
+	"APIPropModules": {
+		"pageterms": {
+			"class": "\\Wikibase\\Client\\Api\\PageTerms",
+			"factory": "\\Wikibase\\Client\\Api\\PageTerms::factory"
+		},
+		"description": {
+			"class": "\\Wikibase\\Client\\Api\\Description",
+			"factory": "\\Wikibase\\Client\\Api\\Description::factory"
+		},
+		"wbentityusage": {
+			"class": "\\Wikibase\\Client\\Api\\ApiPropsEntityUsage",
+			"factory": "\\Wikibase\\Client\\Api\\ApiPropsEntityUsage::factory"
+		}
+	},
+	"ExtensionFunctions": [
+		"\\Wikibase\\Client\\Hooks\\ExtensionLoadHandler::onExtensionLoad"
+	],
+	"QUnitTestModule": {
+		"remoteExtPath": "Wikibase/lib/tests/qunit",
+		"localBasePath": "lib/tests/qunit",
+		"scripts": [
+			"wikibase.Site.tests.js"
+		],
+		"dependencies": [
+			"wikibase.Site"
+		]
+	},
+	"HookHandlers": {
+		"BeforePageDisplay": {
+			"class": "\\Wikibase\\Client\\Hooks\\BeforePageDisplayHandler",
+			"factory": "\\Wikibase\\Client\\Hooks\\BeforePageDisplayHandler::factory"
+		},
+		"ChangesListLines": {
+			"class" : "\\Wikibase\\Client\\Hooks\\ChangesListLinesHandler",
+			"factory" : "\\Wikibase\\Client\\Hooks\\ChangesListLinesHandler::factory"
+		},
+		"ChangesListSpecialPage": {
+			"class": "\\Wikibase\\Client\\Hooks\\ChangesListSpecialPageHookHandler",
+			"factory": "\\Wikibase\\Client\\Hooks\\ChangesListSpecialPageHookHandler::factory",
+			"services": [ "DBLoadBalancer" ]
+		},
+		"ParserOutputUpdate": {
+			"class": "\\Wikibase\\Client\\Hooks\\ParserOutputUpdateHookHandler",
+			"factory": "\\Wikibase\\Client\\Hooks\\ParserOutputUpdateHookHandler::factory"
+		},
+		"DataUpdate": {
+			"class": "\\Wikibase\\Client\\Hooks\\DataUpdateHookHandler",
+			"factory": "\\Wikibase\\Client\\Hooks\\DataUpdateHookHandler::factory"
+		},
+		"DeletePageNoticeCreator": {
+			"class": "\\Wikibase\\Client\\Hooks\\DeletePageNoticeCreator",
+			"factory": "\\Wikibase\\Client\\Hooks\\DeletePageNoticeCreator::factory"
+		},
+		"LibHooks": {
+			"class": "\\Wikibase\\Lib\\LibHooks"
+		},
+		"DescriptionProvider": {
+			"class": "\\Wikibase\\Client\\Hooks\\DescriptionProviderHookHandler",
+			"factory": "\\Wikibase\\Client\\Hooks\\DescriptionProviderHookHandler::factory"
+		},
+		"EditAction": {
+			"class": "\\Wikibase\\Client\\Hooks\\EditActionHookHandler",
+			"factory": "\\Wikibase\\Client\\Hooks\\EditActionHookHandler::factory"
+		},
+		"InfoAction": {
+			"class": "\\Wikibase\\Client\\Hooks\\InfoActionHookHandler",
+			"factory": "\\Wikibase\\Client\\Hooks\\InfoActionHookHandler::factory"
+		},
+		"Magic": {
+			"class": "\\Wikibase\\Client\\Hooks\\MagicWordHookHandler",
+			"factory": "\\Wikibase\\Client\\Hooks\\MagicWordHookHandler::factory"
+		},
+		"MovePageNotice": {
+			"class": "\\Wikibase\\Client\\Hooks\\MovePageNotice",
+			"factory": "\\Wikibase\\Client\\Hooks\\MovePageNotice::factory"
+		},
+		"ParserFunctionRegistrant": {
+			"class": "\\Wikibase\\Client\\Hooks\\ParserFunctionRegistrant",
+			"factory": "\\Wikibase\\Client\\Hooks\\ParserFunctionRegistrant::factory"
+		},
+		"Parser": {
+			"class": "\\Wikibase\\Client\\Hooks\\ParserHookHandler",
+			"factory": "\\Wikibase\\Client\\Hooks\\ParserHookHandler::factory"
+		},
+		"Sidebar": {
+			"class": "\\Wikibase\\Client\\Hooks\\SidebarHookHandler",
+			"factory": "\\Wikibase\\Client\\Hooks\\SidebarHookHandler::factory"
+		},
+		"SkinAfterPortlet": {
+			"class": "\\Wikibase\\Client\\Hooks\\SkinAfterPortletHandler",
+			"factory": "\\Wikibase\\Client\\Hooks\\SkinAfterPortletHandler::factory"
+		},
+		"SqlUsageTrackerSchemaUpdater": {
+			"class": "\\Wikibase\\Client\\Usage\\Sql\\SqlUsageTrackerSchemaUpdater"
+		},
+		"Trivial": {
+			"class": "\\Wikibase\\Client\\Hooks\\TrivialHookHandler"
+		},
+		"UpdateRepo": {
+			"class": "\\Wikibase\\Client\\Hooks\\UpdateRepoHookHandler",
+			"factory": "\\Wikibase\\Client\\Hooks\\UpdateRepoHookHandler::factory"
+		}
+	},
+	"Hooks": {
+		"AbortEmailNotification": "Trivial",
+		"ArticleDeleteAfterSuccess": "DeletePageNoticeCreator",
+		"ArticleDeleteComplete": [
+			"UpdateRepo",
+			"DataUpdate"
+		],
+		"BeforeCreateEchoEvent": "\\Wikibase\\Client\\Hooks\\EchoSetupHookHandlers::onBeforeCreateEchoEvent",
+		"BeforePageDisplay": [
+			"BeforePageDisplay",
+			"Trivial"
+		],
+		"ContentAlterParserOutput": "ParserOutputUpdate",
+		"ChangesListSpecialPageQuery": "ChangesListSpecialPage",
+		"CirrusSearchAddQueryFeatures": "\\Wikibase\\Client\\ClientHooks::onCirrusSearchAddQueryFeatures",
+		"EchoGetBundleRules": "\\Wikibase\\Client\\Hooks\\EchoNotificationsHandlers::onEchoGetBundleRules",
+		"EditPage::showStandardInputs:options": "EditAction",
+		"EnhancedChangesListModifyBlockLineData": "ChangesListLines",
+		"EnhancedChangesListModifyLineData": "ChangesListLines",
+		"ExtensionTypes": "LibHooks",
+		"FormatAutocomments": "\\Wikibase\\Client\\ClientHooks::onFormat",
+		"GetPreferences": "\\Wikibase\\Client\\ClientHooks::onGetPreferences",
+		"InfoAction": "InfoAction",
+		"LinksUpdateComplete": "DataUpdate",
+		"LoadExtensionSchemaUpdates": "SqlUsageTrackerSchemaUpdater",
+		"LoginFormValidErrorMessages": "\\Wikibase\\Client\\Hooks\\LoginFormValidErrorMessagesHandler::handle",
+		"MagicWordwgVariableIDs": "Magic",
+		"OldChangesListRecentChangesLine": "ChangesListLines",
+		"OutputPageParserOutput": "Sidebar",
+		"ParserCacheSaveComplete": "DataUpdate",
+		"ParserClearState": "Parser",
+		"ParserFirstCallInit": "ParserFunctionRegistrant",
+		"ParserGetVariableValueSwitch": "Magic",
+		"ParserLimitReportPrepare": "Parser",
+		"ResourceLoaderJqueryMsgModuleMagicWords": "Magic",
+		"ResourceLoaderRegisterModules": "LibHooks",
+		"ScribuntoExternalLibraries": "\\Wikibase\\Client\\ClientHooks::onScribuntoExternalLibraries",
+		"SearchDataForIndex": "Trivial",
+		"SearchIndexFields": "Trivial",
+		"SearchResultProvideDescription": "DescriptionProvider",
+		"SidebarBeforeOutput": "Sidebar",
+		"SkinAfterBottomScripts": "\\Wikibase\\Client\\ClientHooks::onSkinAfterBottomScripts",
+		"SkinAfterPortlet": "SkinAfterPortlet",
+		"SkinTemplateGetLanguageLink": "Sidebar",
+		"SpecialMovepageAfterMove": "MovePageNotice",
+		"PageMoveComplete": "UpdateRepo",
+		"UnitTestsList": [
+			"Trivial",
+			"LibHooks"
+		],
+		"wgQueryPages": "Trivial"
+	},
+	"TrackingCategories": [
+		"unresolved-property-category",
+		"connected-redirect-category"
+	],
+	"AutoloadNamespaces": {
+		"Wikibase\\Client\\": "client/includes/",
+		"Wikibase\\Lib\\": "lib/includes/",
+		"Wikibase\\Lib\\Changes\\": "lib/packages/wikibase/changes/src/",
+		"Wikibase\\DataAccess\\": "data-access/src/"
+	},
+	"TestAutoloadNamespaces": {
+		"Wikibase\\Client\\Tests\\Integration\\": "client/tests/phpunit/integration/includes/",
+		"Wikibase\\Client\\Tests\\Unit\\": "client/tests/phpunit/unit/includes/",
+		"Wikibase\\Client\\Tests\\Mocks\\": "client/tests/phpunit/mocks/",
+		"Wikibase\\Lib\\Tests\\": "lib/tests/phpunit/",
+		"Wikibase\\Lib\\Tests\\Changes\\": "lib/packages/wikibase/changes/tests/",
+		"Wikibase\\DataAccess\\Tests\\": "data-access/tests/phpunit/"
+	},
+	"JobClasses": {
+		"wikibase-addUsagesForPage": "\\Wikibase\\Client\\Store\\AddUsagesForPageJob",
+		"ChangeNotification": "\\Wikibase\\Client\\ChangeNotificationJob",
+		"ChangeVisibilityNotification": "\\Wikibase\\Client\\ChangeModification\\ChangeVisibilityNotificationJob::newFromGlobalState",
+		"ChangeDeletionNotification": "\\Wikibase\\Client\\ChangeModification\\ChangeDeletionNotificationJob::newFromGlobalState",
+		"wikibase-InjectRCRecords": "\\Wikibase\\Client\\Changes\\InjectRCRecordsJob::newFromGlobalState"
+	},
+	"RecentChangesFlags": {
+		"wikibase-edit": {
+			"letter": "wikibase-rc-wikibase-edit-letter",
+			"title": "wikibase-rc-wikibase-edit-title",
+			"legend": "wikibase-rc-wikibase-edit-legend",
+			"grouping": "all"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "client/resources",
+		"remoteExtPath": "Wikibase/client/resources"
+	},
+	"ResourceModules": {
+		"wikibase.client.init": {
+			"skinStyles": {
+				"modern": "wikibase.client.css",
+				"monobook": "wikibase.client.css",
+				"timeless": "wikibase.client.css",
+				"vector": [
+					"wikibase.client.css",
+					"wikibase.client.vector.css"
+				]
+			}
+		},
+		"wikibase.client.miscStyles": {
+			"styles": [
+				"wikibase.client.page-move.css",
+				"wikibase.client.changeslist.css"
+			]
+		},
+		"wikibase.client.linkitem.init": {
+			"packageFiles": [
+				"wikibase.client.linkitem.init.js",
+				{
+					"name": "config.json",
+					"callback": "Wikibase\\Client\\ClientHooks::getSiteConfiguration"
+				}
+			],
+			"messages": [
+				"unknown-error"
+			],
+			"dependencies": [
+				"jquery.spinner"
+			]
+		},
+		"jquery.wikibase.linkitem": {
+			"packageFiles": [
+				"client/resources/jquery.wikibase/jquery.wikibase.linkitem.js",
+				"client/resources/wikibase.client.PageConnector.js",
+				"client/resources/wikibase.client.getMwApiForRepo.js",
+				"client/resources/wikibase.sites.js",
+				"client/resources/jquery.wikibase/jquery.wikibase.siteselector.js",
+				"client/resources/jquery.wikibase/jquery.wikibase.wbtooltip.js",
+				"client/resources/wikibase.buildErrorOutput.js",
+				"client/resources/util.highlightSubstring.js",
+				"client/resources/jquery.ui/jquery.ui.suggester.js",
+				"client/resources/jquery.ui/jquery.ui.ooMenu.js",
+				"client/resources/jquery.util.getscrollbarwidth.js",
+				"client/resources/util.inherit.js",
+				"client/resources/jquery.event.special.eachchange.js",
+				"lib/resources/wikibase-api/src/namespace.js",
+				"lib/resources/wikibase-api/src/RepoApi.js",
+				"lib/resources/wikibase-api/src/getLocationAgnosticMwApi.js",
+				"lib/resources/wikibase-api/src/RepoApiError.js"
+			],
+			"styles": [
+				"client/resources/jquery.wikibase/jquery.wikibase.linkitem.css",
+				"client/resources/jquery.wikibase/jquery.wikibase.wbtooltip.css",
+				"client/resources/jquery.ui/jquery.ui.suggester.css",
+				"client/resources/jquery.ui/jquery.ui.ooMenu.css"
+			],
+			"dependencies": [
+				"jquery.spinner",
+				"jquery.ui",
+				"jquery.tipsy",
+				"mediawiki.api",
+				"mediawiki.util",
+				"mediawiki.jqueryMsg",
+				"mw.config.values.wbRepo",
+				"mw.config.values.wbSiteDetails",
+				"wikibase.Site",
+				"mediawiki.ForeignApi"
+			],
+			"messages": [
+				"wikibase-error-unexpected",
+				"wikibase-linkitem-alreadylinked",
+				"wikibase-linkitem-title",
+				"wikibase-linkitem-linkpage",
+				"wikibase-linkitem-selectlink",
+				"wikibase-linkitem-input-site",
+				"wikibase-linkitem-input-page",
+				"wikibase-linkitem-confirmitem-text",
+				"wikibase-linkitem-confirmitem-button",
+				"wikibase-linkitem-success-link",
+				"wikibase-linkitem-close",
+				"wikibase-linkitem-not-loggedin-title",
+				"wikibase-linkitem-not-loggedin",
+				"wikibase-linkitem-failure",
+				"wikibase-linkitem-failed-modify",
+				"wikibase-replicationnote",
+				"wikibase-sitelinks-sitename-columnheading",
+				"wikibase-sitelinks-link-columnheading",
+				"wikibase-error-unexpected",
+				"wikibase-error-unknown",
+				"wikibase-error-save-generic",
+				"wikibase-error-remove-generic",
+				"wikibase-error-save-timeout",
+				"wikibase-error-remove-timeout",
+				"wikibase-error-ui-no-external-page",
+				"wikibase-error-ui-edit-conflict"
+			],
+			"localBasePath": "",
+			"remoteExtPath": "Wikibase/"
+		},
+		"wikibase.client.action.edit.collapsibleFooter": {
+			"scripts": "wikibase.client.action.edit.collapsibleFooter.js",
+			"dependencies": [
+				"jquery.makeCollapsible",
+				"mediawiki.storage",
+				"mediawiki.icon"
+			]
+		},
+		"wikibase.client.data-bridge.init": {
+			"factory": "\\Wikibase\\Client\\DataBridge\\DataBridgeResourceLoaderModules::initModule"
+		},
+		"wikibase.client.data-bridge.externalModifiers": {
+			"factory": "\\Wikibase\\Client\\DataBridge\\DataBridgeResourceLoaderModules::externalModifiersModule"
+		},
+		"mw.config.values.wbDataBridgeConfig": {
+			"factory": "\\Wikibase\\Client\\DataBridge\\DataBridgeResourceLoaderModules::configModule"
+		},
+		"wikibase.client.data-bridge.app": {
+			"factory": "\\Wikibase\\Client\\DataBridge\\DataBridgeResourceLoaderModules::appModule"
+		},
+		"wikibase.client.data-bridge.app.modern": {
+			"factory": "\\Wikibase\\Client\\DataBridge\\DataBridgeResourceLoaderModules::modernAppModule"
+		},
+		"wikibase.client.data-bridge.app.legacy": {
+			"factory": "\\Wikibase\\Client\\DataBridge\\DataBridgeResourceLoaderModules::legacyAppModule"
+		}
+	},
+	"SpecialPages": {
+		"UnconnectedPages": "Wikibase\\Client\\Specials\\SpecialUnconnectedPages",
+		"PagesWithBadges": {
+			"class": "Wikibase\\Client\\Specials\\SpecialPagesWithBadges",
+			"factory": "Wikibase\\Client\\Specials\\SpecialPagesWithBadges::factory"
+		},
+		"EntityUsage": {
+			"class": "Wikibase\\Client\\Specials\\SpecialEntityUsage",
+			"factory": "Wikibase\\Client\\Specials\\SpecialEntityUsage::factory",
+			"services": [
+				"LanguageConverterFactory"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"wikibaseclient": "client/i18n",
+		"wikibaseclientapi": "client/i18n/api",
+		"WikibaseLib": "lib/i18n"
+	},
+	"ExtensionMessagesFiles": {
+		"Wikibaseclientalias" : "client/WikibaseClient.i18n.alias.php",
+		"wikibaseclientmagic": "client/WikibaseClient.i18n.magic.php"
+	},
+	"callback": "\\Wikibase\\Lib\\LibHooks::onRegistration",
+	"manifest_version": 2
+}

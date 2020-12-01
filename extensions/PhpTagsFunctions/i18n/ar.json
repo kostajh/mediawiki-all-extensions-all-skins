@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"phptagsfunctions-desc": "ينفذ الوظائف الداخلية لـPHP الأصلي لتمديد PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "يجب ألا يكون المحدد أبجديا أو خطا مائلا عكسيا",
+	"phptagsfunctions-preg-no-ending-delimiter": "لم يتم العثور على محدد نهاية \"$1\"",
+	"phptagsfunctions-preg-unknown-modifier": "معدل غير معروف \"$1\""
+}

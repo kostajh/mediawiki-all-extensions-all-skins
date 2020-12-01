@@ -1,0 +1,50 @@
+{
+	"name": "CommonsMetadata",
+	"author": "Brian Wolff",
+	"url": "https://www.mediawiki.org/wiki/Extension:CommonsMetadata",
+	"descriptionmsg": "commonsmetadata-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"Hooks": {
+		"GetExtendedMetadata": "CommonsMetadata\\HookHandler::onGetExtendedMetadata",
+		"ValidateExtendedMetadataCache": "CommonsMetadata\\HookHandler::onValidateExtendedMetadataCache",
+		"ContentAlterParserOutput": "CommonsMetadata\\HookHandler::onContentAlterParserOutput",
+		"SkinAfterBottomScripts": "CommonsMetadata\\HookHandler::onSkinAfterBottomScripts"
+	},
+	"MessagesDirs": {
+		"CommonsMetadata": [
+			"i18n"
+		]
+	},
+	"ConfigRegistry": {
+		"CommonsMetadata": "GlobalVarConfig::newInstance"
+	},
+	"config": {
+		"CommonsMetadataForceRecalculate": {
+			"description": "Force calculation of metadata even when the image is from a foreign repository which would provide it. This is meant for local development.",
+			"value": false
+		},
+		"CommonsMetadataSetTrackingCategories": {
+			"description": "Add tracking categories to file pages lacking fundamental metadata like author or license.",
+			"value": false
+		},
+		"CommonsMetadataPublicDomainPageUrl": {
+			"description": "Link used for `license` attribute in schema.org script for Files in the public domain.",
+			"value": "https://commons.wikimedia.org/wiki/Help:Public_domain"
+		}
+	},
+	"AutoloadNamespaces": {
+		"CommonsMetadata\\": "src/"
+	},
+	"TrackingCategories": [
+		"commonsmetadata-trackingcategory-no-license",
+		"commonsmetadata-trackingcategory-no-description",
+		"commonsmetadata-trackingcategory-no-author",
+		"commonsmetadata-trackingcategory-no-source",
+		"commonsmetadata-trackingcategory-no-patent"
+	],
+	"manifest_version": 2
+}

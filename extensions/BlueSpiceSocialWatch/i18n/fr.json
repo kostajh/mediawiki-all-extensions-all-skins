@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Verdy p"
+		]
+	},
+	"bs-socialwatch-desc": "Fonctionnalité de suivi pour les entités de ''BlueSpiceSocial''",
+	"bs-socialwatch-watchtext": "Suivre",
+	"bs-socialwatch-unwatchtext": "Ne plus suivre",
+	"bs-socialwatch-var-watch": "Suivre",
+	"apihelp-bs-socialwatch-tasks-summary": "Fournit des tâches pour modifier l’état du suivi des entités"
+}

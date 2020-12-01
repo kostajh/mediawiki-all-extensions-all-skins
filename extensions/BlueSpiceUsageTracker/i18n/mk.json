@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"bs-usagetracker-col-identifier": "Назнака",
+	"bs-usagetracker-col-desc": "Опис",
+	"bs-usagetracker-col-count": "Број",
+	"bs-usagetracker-col-last-updated": "Последна поднова",
+	"bs-usagetracker-db-collector-desc": "Број на $1"
+}

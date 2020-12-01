@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2",
+			"Steeve815"
+		]
+	},
+	"configmanager-admintool-label": "ניהול הגדרות תצורה",
+	"action-configmanager-viewspecialpage": "לצפות בדף המיוחד \"{{int:configmanager}}\"",
+	"configmanager": "ניהול הגדרות תצורה",
+	"configmanager-desc": "מתן אפשרות למפעילי המערכת להגדיר את תצורתו של כל אתר הוויקי בדף מיוחד אחד",
+	"configmanager-discardchanges": "למחוק את השינויים?",
+	"configmanager-noentry": "לא נמצא ערך",
+	"apihelp-configmanager-tasks-summary": "ניהול משימות",
+	"apihelp-configmanager-store-summary": "ניהול אחסונים"
+}

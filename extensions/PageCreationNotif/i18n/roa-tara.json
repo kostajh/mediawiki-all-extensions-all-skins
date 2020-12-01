@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"page-creation-notif-desc": "Manne 'na mail de notifiche quanne le pàggene nuève avènene ccrejate",
+	"page-creation-notification": "Manneme 'na mail quanne 'na pàgena nove avène ccrejate",
+	"page-creation-email-subject": "Pàgena nove - $1 {{GENDER:$3|ccrejate}} sus a $2 da $3",
+	"page-creation-email-body": "Care $1,\n\nQueste jè 'na notifiche da {{SITENAME}} ca 'na pàgena nove $2 ha state {{Gender:$3|ccrejate}} da l'utende $3.\n\nTu 'a puè 'ndrucà sus a\n$4\n\n'U teste d'a pàgene jè:\n$5\n\nStatte bbuène, 'u sisteme de notifiche de {{SITENAME}}.\n\nPe cangià le 'mbostaziune de le notifiche cu l'email, vèje a {{canonicalurl:{{#special:Preferences}}}}"
+}

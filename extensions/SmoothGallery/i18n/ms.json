@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"smoothgallery": "SmoothGallery",
+	"smoothgallery-desc": "Membolehkan pengguna membuat galeri dengan gambar-gambar yang sedia dimuat naik.\nMembolehkan kebanyakan pilihan SmoothGallery",
+	"smoothgallery-title": "SmoothGallery",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery: $1",
+	"smoothgallery-error": "<b>Ralat pada SmoothGallery:</b>",
+	"smoothgallery-gallery-not-found": "Galeri yang dipohon tidak wujud.",
+	"smoothgallery-not-found": "Tiada gambar diisikan ke dalam galeri.\nSila isikan sekurang-kurangnya satu gambar.",
+	"smoothgallery-no-images": "Tiada gambar dijumpai di dalam galeri ini.\nPastikan {{PLURAL:$3|gambar|semua gambar}} yang dipohon wujud.\n{{PLURAL:$2|Gambar|Gambar-gambar}} yang berikut tidak dijumpai: $1",
+	"smoothgallery-invalid-images": "{{PLURAL:$2|Gambar|Gambar-gambar}} dipohon yang berikut tidak sah jenisnya: $1",
+	"smoothgallery-unexpected-error": "Berlakunya ralat yang tidak dijangka.\nSila failkan laporan pepijat.",
+	"smoothgallery-javascript-disabled": "JavaScript diperlukan untuk memaparkan galeri ini dengan betul."
+}

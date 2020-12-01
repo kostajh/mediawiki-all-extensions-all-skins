@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Frokor"
+		]
+	},
+	"stalkerlog-desc": "Legg til ein [[Special:Log/stalkerlog|logg]] over kortid brukarar loggar inn eller ut.",
+	"stalkerlog-log-login": "logga inn.",
+	"stalkerlog-log-logout": "logga ut.",
+	"stalkerlog-log-type": "Logg over inn- og utloggingar",
+	"stalkerlog-log-text": "Dette er ein logg over inn- og utloggingar."
+}

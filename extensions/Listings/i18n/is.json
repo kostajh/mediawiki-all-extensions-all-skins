@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sveinn í Felli"
+		]
+	},
+	"listings-phone": "Símar",
+	"listings-fax": "fax",
+	"listings-email": "tölvupóstur",
+	"listings-tollfree": "gjaldfrjálst",
+	"listings-checkin": "Bóka inn vinnuafrit (check-in): $1",
+	"listings-checkout": "bóka út vinnuafrit (check-out): $1",
+	"listings-position": "staðsetning: $1"
+}

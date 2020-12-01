@@ -1,0 +1,61 @@
+{
+	"name": "ImageRating",
+	"version": "2.5.0",
+	"author": [
+		"Aaron Wright",
+		"David Pean",
+		"Jack Phoenix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ImageRating",
+	"descriptionmsg": "imagerating-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires" : {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"MessagesDirs": {
+		"ImageRating": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ImageRatingAlias": "includes/ImageRating.alias.php"
+	},
+	"APIModules": {
+		"imagerating": "ApiImageRating"
+	},
+	"AutoloadClasses": {
+		"ApiImageRating": "includes/api/ApiImageRating.php",
+		"FeaturedImage": "includes/FeaturedImage.class.php",
+		"ImageRating": "includes/specials/SpecialImageRating.php"
+	},
+	"SpecialPages": {
+		"ImageRating": "ImageRating"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "FeaturedImage::registerHook"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "ImageRating"
+	},
+	"ResourceModules": {
+		"ext.imagerating.css": {
+			"styles": "resources/css/ImageRating.css"
+		},
+		"ext.imagerating.js": {
+			"scripts": "resources/js/ImageRating.js",
+			"dependencies": [ "mediawiki.api", "mediawiki.util" ],
+			"messages": [ "imagerating-category" ]
+		}
+	},
+	"AvailableRights": [
+		"rateimage"
+	],
+	"GroupPermissions": {
+		"user": {
+			"rateimage": true
+		}
+	},
+	"manifest_version": 1
+}

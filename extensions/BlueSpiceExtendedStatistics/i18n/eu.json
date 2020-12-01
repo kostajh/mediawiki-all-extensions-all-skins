@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"An13sa",
+			"Mikel Ibaiba",
+			"Subi"
+		]
+	},
+	"bs-statistics-diagram": "Kontsulta",
+	"bs-statistics-from": "Nondik",
+	"bs-statistics-to": "Hartzailea",
+	"bs-statistics-mode": "Modua",
+	"bs-statistics-aggregated": "gehituta",
+	"bs-statistics-year": "Urtea",
+	"bs-statistics-month": "Hilabetea",
+	"bs-statistics-day": "Eguna",
+	"bs-statistics-list": "Zerrenda",
+	"bs-statistics-not-allowed": "Ez duzu beharrezko baimenik.",
+	"bs-statistics-finish": "Diagrama sortu",
+	"bs-statistics-filters": "Iragazkiak",
+	"bs-statistics-diag-number-of-users": "Sortutako erabiltzaile kopurua",
+	"bs-statistics-label-name": "Izena",
+	"bs-statistics-label-registration": "Erregistroa",
+	"bs-statistics-diag-number-of-pages": "Sortutako orrialde kopurua",
+	"bs-statistics-label-page": "Orrialdea",
+	"bs-statistics-label-creator": "Sortzailea",
+	"bs-statistics-diag-number-of-edits": "Aldaketa kopurua",
+	"bs-statistics-label-count": "Zenbaketa",
+	"bs-statistics-label-maxhits": "Gehienezko emaitzak",
+	"bs-statistics-label-time": "Denbora",
+	"bs-statistics-filter-category": "Kategoria",
+	"bs-statistics-portlet-numberofusers": "Erabiltzaile kopurua",
+	"bs-statistics-portlet-numberofedits": "Aldaketa kopurua",
+	"bs-statistics-portlet-numberofpages": "Orrialde kopurua",
+	"bs-statistics-portlet-numberofarticles": "Edukidun orrialde kopurua",
+	"bs-statistics-portletconfig-periodday": "Atzo"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"ldapprovider-desc": "Fornece uma infraestrutura comum para se conectar a um recurso LDAP e executar consultas em relação a ele",
+	"ldapprovider-config-clientregistry": "Permite o registro de clientes personalizados",
+	"ldapprovider-config-domainconfigs": "Lojas por configurações de domínio",
+	"ldapprovider-domain-config-not-found": "Não foi possível acessar o arquivo de configuração '$1'!\n\nPor favor, configure um arquivo de configuração de domínio para a extensão LDAPProvider.",
+	"ldapprovider-more-than-one": "Encontrou mais de um usuário para '$1'",
+	"ldapprovider-config-domainconfigprovider": "Especifica o mecanismo para obter a configuração do domínio",
+	"ldapprovider-config-defaultdomain": "Especifica qual domínio escolher para um usuário, se nenhum mapeamento do banco de dados estiver disponível"
+}

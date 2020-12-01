@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Macofe",
+			"Ryo567"
+		]
+	},
+	"hierarchybuilder-reveal-editmessage": "¿Cómo uso esto?",
+	"hierarchybuilder-hierarchyroot": "Raíz de la jerarquía",
+	"hierarchybuilder-unusedpages": "Páginas no utilizadas",
+	"hierarchybuilder-category-desc": "Esta es la categoría a la que deben pertenecer las páginas en la jerarquía.",
+	"hierarchybuilder-missing-category": "Falta el parámetro de categoría.",
+	"hierarchybuilder-hierarchy-desc": "Esto es una jerarquía con formato de wikitexto",
+	"hierarchybuilder-pagename-desc": "Este es el nombre de la página que contiene la jerarquía.",
+	"hierarchybuilder-propertyname-desc": "Este es el nombre de la propiedad que contiene la jerarquía.",
+	"hierarchybuilder-collapsed-desc": "Si se proporciona este parámetro, la jerarquía debe presentarse contraída cuando se muestre por primera vez.",
+	"hierarchybuilder-missing-page-name": "Falta el parámetro de nombre de página.",
+	"hierarchybuilder-missing-property-name": "Falta el parámetro de nombre de propiedad.",
+	"hierarchybuilder-invalid-collapsed": "El valor del argumento contraído no es válido."
+}

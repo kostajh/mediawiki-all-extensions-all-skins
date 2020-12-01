@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"佛壁灯"
+		]
+	},
+	"bs-saferedit-desc": "在其他用户编辑页面时显示警告",
+	"bs-saferedit-user-editing": "$1{{GENDER:$1|正在}}编辑页面",
+	"bs-saferedit-someone-editing": "此页面正在编辑",
+	"bs-saferedit-pref-interval": "并发编辑的查找间隔：",
+	"bs-saferedit-pref-shownameofeditinguser": "显示当前编辑者的名字"
+}

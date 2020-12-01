@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"bs-categorycheck-extension-description": "Проверава додељену категорију пре него што се чланак сачува",
+	"bs-categorycheck-insertcategory-no-category": "Молимо доделите категорију чланку",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Занемари",
+	"bs-categorycheck-insertcategory-category-list": "Следеће категорије су постављене",
+	"bs-categorycheck-insertcategory-confirm-categories": "Категорије су коректне",
+	"bs-categorycheck-nsm-label-categorycheck": "Провера категорија"
+}

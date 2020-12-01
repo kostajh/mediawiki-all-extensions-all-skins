@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Movses",
+			"Piramidion"
+		]
+	},
+	"bs-userinfo-description": "Надає спливні вікна з інформацією про користувача для користувацьких зображень та посилань",
+	"apihelp-bs-userinfometa-description": "Перелічує надану мета-інформацію користувачів",
+	"apihelp-bs-userinfometa-summary": "Перелічує надану мета-інформацію користувачів",
+	"apihelp-bs-userinfometa-param-username": "Ім'я користувача, чия мета-інформація буде перелічена"
+}

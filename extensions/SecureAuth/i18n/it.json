@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Sarah Bernabei"
+		]
+	},
+	"secureauth-desc": "Permetti agli utenti di aggiungere il loro IP per l'accesso. L'accesso da un altro IP fallirà.",
+	"secureauthinfo": "SecureAuthInfo",
+	"special-secureauth-info": "Informazione di autentificazione sicura",
+	"secureauth-info-userinfo": "Informazioni utente",
+	"secureauth-current-ip": "Il tuo indirizzo IP attuale:",
+	"secureauth-whitelist-ip": "IP nella whitelist per il tuo accesso con nome utente:"
+}

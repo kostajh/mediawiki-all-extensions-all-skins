@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"He7d3r",
+			"Mansil"
+		]
+	},
+	"apihelp-jadecreateandendorse-param-comment": "Resumo da revisão",
+	"apihelp-jadedeleteproposal-param-comment": "Resumo da revisão.",
+	"apihelp-jadedeleteproposal-summary": "Remover uma proposta específica.",
+	"apihelp-jadeendorse-param-comment": "Resumo da revisão",
+	"apihelp-jadedeleteendorsement-param-comment": "Resumo da revisão",
+	"apihelp-jadeupdateendorsement-param-comment": "Resumo da revisão",
+	"apihelp-jademoveendorsement-param-comment": "Resumo da revisão",
+	"apihelp-jadeproposeorendorse-param-comment": "Resumo da revisão"
+}

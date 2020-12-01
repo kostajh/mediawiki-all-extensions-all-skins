@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"pageexchange-desc": "Дозволяє встановлювати «пакунки» попередньо визначених вікісторінок",
+	"packages": "Пакунки",
+	"right-pageexchange": "Запуск дій обміну сторінками",
+	"action-pageexchange": "запуск дій обміну сторінками",
+	"pageexchange-logname": "Журнал обміну сторінками",
+	"pageexchange-logdesc": "Це журнал дій, пов'язаних з розширенням обміну сторінками (Page Exchange).",
+	"pageexchange-installed": "Встановлені",
+	"pageexchange-available": "Доступні",
+	"pageexchange-installpackage": "Встановити пакунок: $1",
+	"pageexchange-updatepackage": "Оновити пакунок: $1",
+	"pageexchange-uninstallpackage": "Деінсталювати пакунок: $1",
+	"pageexchange-installpackagelog": "встановлює пакунок $2 від $3",
+	"pageexchange-updatepackagelog": "оновлює пакунок $2 від $3",
+	"pageexchange-uninstallpackagelog": "деінсталює пакунок $2 від $3",
+	"pageexchange-package-website": "Вебсайт:",
+	"pageexchange-package-publisher": "Публікар:",
+	"pageexchange-package-author": "Автор:",
+	"pageexchange-package-version": "Версія:",
+	"pageexchange-package-pages": "Сторінки:",
+	"pageexchange-package-language": "Мова:",
+	"pageexchange-package-requiredextensions": "Необхідні розширення:",
+	"pageexchange-package-requiredpackages": "Необхідні пакунки:",
+	"pageexchange-package-morerecent": "Існує свіжіша версія цього пакунку, ніж та, що зараз встановлена у цій вікі.",
+	"pageexchange-package-install": "Встановити",
+	"pageexchange-package-update": "Оновити",
+	"pageexchange-package-uninstall": "Видалити",
+	"pageexchange-package-deleteallpages": "Вилучити усі пов'язані вікісторінки",
+	"pageexchange-pagehaschanged": "найсвіжіша версія цієї сторінки відрізняється від локальної копії.",
+	"pageexchange-latestvalue": "(найсвіжіше значення: $1)",
+	"pageexchange-uninstallablepackage": "Цей пакунок не можна встановити з таких причин:",
+	"pageexchange-inappropriatepackage": "Цей пакунок може не бути відповідним вашій вікі; див. нижче.",
+	"pageexchange-packageinstalled": "Цей пакунок було встановлено.",
+	"pageexchange-packageuninstalled": "Цей пакунок було деінстальовано.",
+	"pageexchange-packageupdated": "Цей пакунок було оновлено."
+}

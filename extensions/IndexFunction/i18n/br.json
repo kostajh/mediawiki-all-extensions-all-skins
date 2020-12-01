@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup"
+		]
+	},
+	"indexfunc-desc": "Arc'hwel eus ar parser evit sevel pajennoù adkas ha diforc'hañ ent emgefre",
+	"indexfunc-badtitle": "Titl direizh : \"$1\"",
+	"indexfunc-editwarning": "Diwallit :\nUn titl meneger evit ar {{PLURAL:$2|bajenn|pajenn}}-mañ eo an titl-mañ :\n$1\nGwiriit mat n'eo ket bet savet c'hoazh, gant un titl all, ar bajenn emaoc'h en sell da grouiñ.\nMar savit ar bajenn-mañ, tennit an titl eus ar <nowiki>{{#index:}}</nowiki> {{PLURAL:$2|bajenn|pajenn}} a-us.",
+	"indexfunc-index-exists": "Ar bajenn \"$1\" zo anezhi c'hoazh",
+	"indexfunc-movewarn": "Diwallit :\nUn titl meneger evit ar {{PLURAL:$3|bajenn |pajenn}} eo $1 :\n$2\nTennit \"$1\" eus ar <nowiki>{{#index:}}</nowiki> {{PLURAL:$3|bajenn|pajenn}} a-us.",
+	"index": "Meneger klask",
+	"index-legend": "Klask er meneger",
+	"index-search": "Klask :",
+	"index-submit": "Kas",
+	"index-disambig-start": "Gallout a ra '''$1''' ober dave da meur a bajenn :",
+	"index-emptylist": "N'eus pajenn ebet liammet ouzh \"$1\"",
+	"index-expand-detail": "Diskouez ar pajennoù menegeret dindan an titl-mañ",
+	"index-hide-detail": "Kuzhat roll ar pajennoù",
+	"index-no-results": "N'eus bet kavet disoc'h ebet",
+	"index-search-explain": "Ober a ra ar bajenn-mañ gant ur rakger klask.\n\nMerkit an nebeud arouezennoù kentañ ha pouezit war ar bouton klask evit kavout titloù ar pajennoù a grog gant an neudennad klask-se",
+	"index-details-explain": "Monedoù meneger eo ar monedoù gant biroù. \nKlikit war ar bir evit gwelet an holl bajennoù menegeret dindan an titl-se."
+}

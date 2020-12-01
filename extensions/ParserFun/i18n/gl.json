@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"parserfun-desc": "Engade unha función analítica <code>#parse</code> para analizar texto wiki e introduce o prefixo <code>THIS:</code> para as páxinas de información relacionadas coas variables máxicas",
+	"parserfun-invalid-caller-mode": "Non se especificou ningún modo de operación ou índice numérico válido."
+}

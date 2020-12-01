@@ -1,0 +1,52 @@
+<!-- Checks correct markup of non-latin text. -->
+<testcase>
+	<text>
+<![CDATA[
+Эю элььэефэнд торквюатоз хёз, нэ шэа щольыат рэгяонэ, ан кюм лорэм тамквюам. Прё
+фырре долорэм факилиз но. Ед декам консэквюат дэчырюёжжэ мэль. Квуй ат ыррор
+емпэтюсъ зигнёфэрумквюы, шэа квюод аффэрт альяквюам эи. Мэя мёнём заэпы вокябюч
+эа. Примич пыртенакж вяш эи.
+]]>
+	</text>
+	<expected>
+<![CDATA[
+<div class="mw-parser-output"><p>Эю элььэефэнд <span class="mw-lingo-term" data-lingo-term-id="78b05fa1ba3f29ad6fbda23c563d0b53">торквюатоз</span> хёз, нэ шэа щольыат рэгяонэ, ан кюм лорэм тамквюам. Прё
+фырре долорэм факилиз <span class="mw-lingo-term" data-lingo-term-id="cb5eae377004333124f3219a02e16c01">но</span>. Ед <span class="mw-lingo-term" data-lingo-term-id="916b71f1969f33dab0249acbb0522732">декам</span> консэквюат дэчырюёжжэ мэль. Квуй ат ыррор
+емпэтюсъ зигнёфэрумквюы, шэа квюод аффэрт альяквюам эи. Мэя <span class="mw-lingo-term" data-lingo-term-id="be185d716324f21edab83cd8519af43c">мёнём</span> заэпы вокябюч
+эа. Примич пыртенакж вяш эи.
+</p></div><div class="mw-lingo-tooltip" id="78b05fa1ba3f29ad6fbda23c563d0b53"><div class="mw-lingo-definition"><div class="mw-lingo-definition-text">
+<p>торквюатоз-def
+</p>
+</div></div>
+</div><div class="mw-lingo-tooltip" id="cb5eae377004333124f3219a02e16c01"><div class="mw-lingo-definition"><div class="mw-lingo-definition-text">
+<p>но-def
+</p>
+</div></div>
+</div><div class="mw-lingo-tooltip" id="916b71f1969f33dab0249acbb0522732"><div class="mw-lingo-definition"><div class="mw-lingo-definition-text">
+<p>декам-def
+</p>
+</div></div>
+</div><div class="mw-lingo-tooltip" id="be185d716324f21edab83cd8519af43c"><div class="mw-lingo-definition"><div class="mw-lingo-definition-text">
+<p>мёнём-def
+</p>
+</div></div>
+</div>
+]]>
+	</expected>
+	<glossary-entry>
+		<term>торквюатоз</term>
+		<definition>торквюатоз-def</definition>
+	</glossary-entry>
+	<glossary-entry>
+		<term>декам</term>
+		<definition>декам-def</definition>
+	</glossary-entry>
+	<glossary-entry>
+		<term>мёнём</term>
+		<definition>мёнём-def</definition>
+	</glossary-entry>
+	<glossary-entry>
+		<term>но</term>
+		<definition>но-def</definition>
+	</glossary-entry>
+</testcase>

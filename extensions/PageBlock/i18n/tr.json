@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Katpatuka"
+		]
+	},
+	"pageblock-desc": "Sayfa başına/kullanıcı kısıtlamalarını etkinleştirir",
+	"pageblock": "Kullanıcıyı kısıtla",
+	"pageblock-legend": "Kullanıcıyı kısıtla",
+	"pageblock-form-title": "Sayfa adı",
+	"pageblock-form-user": "Kullanıcı adı",
+	"pageblock-form-edit": "Kullanıcının düzenlemesini kısıtla",
+	"pageblock-form-sameformove": "Taşımak için aynı kısıtlamaları uygulayın",
+	"pageblock-form-move": "Kullanıcının taşınmasını kısıtla",
+	"pageblock-form-reason": "Sebep",
+	"pageblock-success": "$1, $2 ile sınırlandırıldı.",
+	"listrestrictions": "Liste kısıtlamaları",
+	"listrestrictions-legend": "Liste kısıtlamaları",
+	"pageblock-list-title": "Sayfa adı",
+	"pageblock-list-user": "Kullanıcı adı",
+	"pageblock-list-indefonly": "Yalnızca belirsiz kısıtlamaları göster",
+	"pageblock-restricted-edit-indef": "$1 süresiz olarak $2 düzenlemesi yasaklanmıştır.",
+	"pageblock-restricted-edit": "$1, $2 olarak $3 düzenleme yapması kısıtlanmıştır.",
+	"pageblock-restricted-move-indef": "$1, $2 süresiz olarak sınırlaması yasaktır.",
+	"pageblock-restricted-move": "$1, $2 olarak $3 taşınması yasaklanmıştır.",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|Siz}} adlı kullanıcının $2 süresiz olarak düzenlenmesi yasaktır.",
+	"pageblock-blocked-edit": "{{GENDER:$1|Siz}} $2 olarak $3 düzenleme yapması yasaklandı.",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|Siz}} süresiz olarak $2 taşınması yasaklanmıştır.",
+	"pageblock-blocked-move": "{{GENDER:$1| Siz}} $3 kadar taşınması yasaklandı.",
+	"logentry-restrict-add-edit-move": "$1, $3 düzenleme ve $4 taşıma ile {{GENDER:$2|kısıtlandı}}",
+	"logentry-restrict-add-edit": "$1, $3 olarak $4 düzenlemesini {{GENDER:$2|kısıtlandı}}",
+	"logentry-restrict-add-move": "$1, $3 olarak $4 taşımasını {{GENDER:$2|kısıtlandı}}",
+	"action-page-block": "sayfa veya kullanıcı başına kısıtlamalar uygulama, değiştirme veya kaldırma",
+	"right-page-block": "Sayfa veya kullanıcı başına kısıtlamalar uygulama, değiştirme veya kaldırma"
+}

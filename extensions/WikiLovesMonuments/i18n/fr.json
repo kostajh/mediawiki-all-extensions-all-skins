@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erkethan",
+			"Tititou36",
+			"Urhixidur"
+		]
+	},
+	"wlm-extension-desc": "Ajoute des informations et messages liés au concours photographique Wiki Loves Monuments",
+	"wlm-no-contest-year": "Il n’y avait aucun concours Wiki Loves Monument en $1.",
+	"wlm-no-url-bad-country": "Nous ne pouvons pas afficher le site Web.  $1 n'est pas un code de pays valide.",
+	"wlm-country-not-given": "Vous devez fournir un code de pays.",
+	"wlm-country-not-participating-year": "« $1 » ne participe pas à Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "Autres pays",
+	"wlm-international-contest": "International",
+	"wlm-text-contact": "Nous contacter",
+	"wlm-text-contest": "Concours",
+	"wlm-text-donate": "Faire un don",
+	"wlm-text-faq": "FAQ",
+	"wlm-text-jury": "Jury",
+	"wlm-text-monuments": "Monuments",
+	"wlm-text-news": "Actualités",
+	"wlm-text-participate": "Participez !",
+	"wlm-text-prizes": "Prix",
+	"wlm-text-rules": "Règles",
+	"wlm-text-sponsors": "Commanditaires",
+	"wlm-text-uploading": "Téléversement"
+}

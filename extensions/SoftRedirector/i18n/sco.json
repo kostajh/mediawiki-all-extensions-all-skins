@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"MJL"
+		]
+	},
+	"softredir-desc": "Eiks the tag <code><nowiki>__SOFTREDIR__</nowiki></code> tae merk [[Special:SaftRedirectPages|saft redirect pages]]",
+	"softredirectpages": "Saft redirect pages",
+	"softredirectpages-summary": "The follaein is a leet o aw saft redirect pages within {{SITENAME}}.<br />\nA page is treatit as a saft redirect page if it conteens the tag <code><nowiki>__SOFTREDIR__</nowiki></code> (or a surrogatum alias).",
+	"softredirectpagelinks": "Pages airtin tae saft redirect pages",
+	"softredirectpagelinks-summary": "The follaein pages conteen at least one leek tae a saft redirect page.\nThay mey need tae link tae a mair appropriate page insteid.<br />\nA page is treatit as a saft redirect page if it conteens the tag <code><nowiki>__SOFTREDIR__</nowiki></code> (or a surrogatum alias).",
+	"visualeditor-dialog-meta-settings-softredirect-label": "This is a saft redirect page"
+}

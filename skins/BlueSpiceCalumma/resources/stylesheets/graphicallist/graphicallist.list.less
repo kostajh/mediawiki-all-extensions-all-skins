@@ -1,0 +1,50 @@
+@import "../dimensions.less";
+@import "../fonts.less";
+
+.dynamic-graphical-list-body .bs-flyout-tabbed-data-view .list {
+	.x-toolbar-docked-top.x-toolbar-default-docked-top{
+		display:block;
+		background-color: transparent;
+		padding: 1.25rem 0 0.625rem 0;
+		.x-btn {
+			border-radius: 0.3125rem;
+			border: none;
+			background-color: transparent;
+			span{
+				display: none;
+			}
+			&::before {
+				font-size: 1rem;
+				content: '\e980';
+				font-family: 'entypo';
+				text-align: left;
+				display: block;
+			}
+		}
+		.x-grid-view.x-grid-with-row-lines .x-grid-item-container .x-grid-item{
+			.x-grid-cell-inner{
+				padding: 0 0.9375rem;
+				height: 1rem;
+				line-height: 1rem;
+				a{
+					display: block;
+					height: 100%;
+					width: 100%;
+				}
+				a:hover{
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	// items
+	.x-grid-item-container .x-grid-item .x-grid-cell {
+		.title {
+			float: left;
+		}
+		.actions {
+			float: right;
+		}
+	}
+}

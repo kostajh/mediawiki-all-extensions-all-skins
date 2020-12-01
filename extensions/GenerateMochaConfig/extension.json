@@ -1,0 +1,15 @@
+{
+	"name": "GenerateMochaConfig",
+	"author": "Clara Andrew-Wani",
+	"license-name": "GPL-2.0-or-later",
+	"version": "1.0",
+	"namemsg": "generatemochaconfig-extensionname",
+	"descriptionmsg": "generatemochaconfig-desc",
+	"manifest_version": 1,
+	"MessagesDirs": {
+		"GenerateMochaConfig": [
+			"i18n"
+		]
+	},
+	"type": "other"
+}

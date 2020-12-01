@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"multimaps-desc": "Овозможува корисниците да прикажуваат карти и координатни податоци користејќи повеќе картографски служби",
+	"multimaps-loading-map": "Ја вчитувам картата...",
+	"multimaps-mapservices-must-not-empty-array": "Променливата „$1“ не смее да биде празна низа",
+	"multimaps-undefined-service-for-layout": "Неопределен службен параметар за распоредот „$1“ во $egMultiMaps_MapServices",
+	"multimaps-wrong-service-for-layout": "За распоредот „$1“ е определена службата „$2“, но истата не постои во $egMultiMaps_MapServices",
+	"multimaps-layout-defined-for-layout": "За распоредот „$1“ е определен друг распоред „$2“ наместо службата во $egMultiMaps_MapServices",
+	"multimaps-leaflet-undefined-parameters-for-layer": "Параметрите „source“ и „attribution“ мора да бидат укажани во слојот „$1“ во $egMultiMaps_MapServices",
+	"multimaps-had-following-errors": "При расчленувањето, дадените параметри ги имаа следниве грешки:",
+	"multimaps-element-illegal-value": "на параметарот „$1“ му е зададена недопуштената вредност „$2“. Допуштени се: $3",
+	"multimaps-element-more-parameters": "За овој картографски елемент „$1“ даде повеќе параметри од очекуваното:",
+	"multimaps-element-parameters-not-processed": "не беа обработени следниве параметри: $1",
+	"multimaps-circle-radius-not-defined": "на кружницата мора да ѝ зададе радиус",
+	"multimaps-circle-wrong-number-parameters": "на кружницата мора да ѝ зададат барем два параметра - координатите на центарот и радиусот. Меѓутоа, зададени се {{PLURAL:$1|зададен е $1 параметар|зададени се $1 параметри}}",
+	"multimaps-marker-incorrect-icon": "Зададено е погрешно податотечно име „$1“ на иконата за обележување",
+	"multimaps-marker-incorrect-icon-url": "Укажана е неисправната URL „$1“ за иконата на бележникот.",
+	"multimaps-marker-incorrect-icon-size": "Укажана е неисправната големина „$1“ за иконата на бележникот „$2“.",
+	"multimaps-marker-incorrect-icon-anchor": "Укажана е неисправната котва „$1“ за иконата на бележникот „$2“.",
+	"multimaps-marker-incorrect-shadow-file": "Укажано е неисправното податотечно име „$1“ за сенката на иконата.",
+	"multimaps-marker-incorrect-shadow-url": "Укажана е неисправната URL „$1“ за сенката на иконата.",
+	"multimaps-marker-incorrect-shadow-size": "Укажана е неисправната големина „$1“ за сенката на иконата „$2“.",
+	"multimaps-marker-incorrect-shadow-anchor": "Укажана е неисправната котва „$1“ за сенката на иконата „$2“.",
+	"multimaps-passed-unavailable-service": "Во списокот на расположиви служби ($2) не најдов таква со име „$1“. Ја употребив основно-зададената служба „$3“",
+	"multimaps-square-wrong-number-points": "координатите на полето треба да содржат само две точки, но {{PLURAL:$1|укажана е само една|укажани се $1}}",
+	"multimaps-unable-create-element": "Не можам да го создадам елементот „$1“",
+	"multimaps-unable-parse-coordinates": "не можам да ги расчленам географските координати „$1“",
+	"multimaps-unable-parse-parameter": "не можам да го расчленам параметарот „$1“. Вредноста е „$2“",
+	"multimaps-unable-parse-radius": "радиусот на кружницата мора да има бројчена вредност, но зададено е „$1“",
+	"multimaps-unknown-class-for-service": "Не можам да ја најдам класата „$1“ зададена на службата.",
+	"multimaps-unknown-parameter": "Непознат параметар: „$1“",
+	"multimaps-error-incorrect-class-for-service": "Не може да се употреби класата „$1“ зададена на службата.",
+	"multimaps-method-error-unknown-action": "$1: Непознато дејство",
+	"multimaps-method-error-unexpected-result": "$1: Неочекуван исход на функција"
+}

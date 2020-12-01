@@ -1,0 +1,39 @@
+{
+	"manifest_version": 1,
+	"name": "Expressions",
+	"namemsg": "expressions-extensionname",
+	"type": "parserhook",
+	"author": [
+		"[https://mediawiki.org/wiki/User:Xxmarijnw Marijn van Wezel]"
+	],
+	"version": "1.4",
+	"url": "https://www.mediawiki.org/wiki/Extension:Expressions",
+	"descriptionmsg": "expressions-desc",
+	"license-name": "MIT",
+	"requires": {
+		"MediaWiki": ">= 1.27.0"
+	},
+	"MessagesDirs": {
+		"Expressions": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ExpressionsMagic": "i18n/Expressions.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"Expressions\\Evaluator": "src/Evaluator.php",
+		"Expressions\\ExceptionMessage": "src/ExceptionMessage.php",
+		"Expressions\\ExpressionException": "src/ExpressionException.php",
+		"Expressions\\Expressions": "src/Expressions.php",
+		"Expressions\\Lexer": "src/Lexer.php",
+		"Expressions\\Node": "src/Node.php",
+		"Expressions\\Parser": "src/Parser.php",
+		"Expressions\\Token": "src/Token.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"Expressions\\Expressions::onParserFirstCallInit"
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-socialarticleactions-desc": "Legger til grunnleggende artikkelopprettelsesoppføringer til BlueSpiceSocial",
+	"bs-socialarticleactions-type-articlesave": "Artikkelredigering",
+	"bs-socialarticleactions-type-articlecreate": "Artikkeloppretting",
+	"bs-socialarticleactions-type-articledelete": "Artikkelsletting",
+	"bs-socialarticleactions-type-filesave": "Filredigering",
+	"bs-socialarticleactions-type-filecreate": "Filoppretting",
+	"bs-socialarticleactions-type-filedelete": "Filsletting",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] slettet artikkelen [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] opprettet artikkelen [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] slettet artikkelen [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] la til en ny versjon av fila [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] lastet opp fila [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] slettet fila [[:$6|$6]]"
+}

@@ -1,0 +1,94 @@
+{
+	"name": "ConfigManager",
+	"version": "3.3.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:ConfigManager",
+	"author": [
+		"Patric Wirth"
+	],
+	"descriptionmsg": "configmanager-desc",
+	"license-name": "GPL-3.0-only",
+	"type": "specialpage",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"AdminToolRegistry": {
+				"config-manager": "\\ConfigManager\\AdminTool"
+			},
+			"PermissionRegistry": {
+				"configmanager-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin",
+						"structuremanager"
+					]
+				}
+			}
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 3.3"
+		}
+	},
+	"MessagesDirs": {
+		"ConfigManager": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"\\ConfigManager\\" : "src/"
+	},
+	"ExtensionMessagesFiles": {
+		"ConfigManagerAlias": "languages/ConfigManager.alias.php"
+	},
+	"APIModules": {
+		"configmanager-tasks": "\\ConfigManager\\Api\\Task\\ConfigManager",
+		"configmanager-store": "\\ConfigManager\\Api\\Store\\ConfigManager"
+	},
+	"SpecialPages": {
+		"ConfigManager": "\\ConfigManager\\Special\\ConfigManager"
+	},
+	"GroupPermissions": {
+		"*": {
+			"configmanager-viewspecialpage": false
+		},
+		"user": {
+			"configmanager-viewspecialpage": false
+		},
+		"sysop": {
+			"configmanager-viewspecialpage": true
+		}
+	},
+	"AvailableRights": [
+		"configmanager-viewspecialpage"
+	],
+	"ResourceModules": {
+		"ext.configmanager": {
+			"scripts": "configmanager.js",
+			"dependencies": [
+				"ext.bluespice",
+				"ext.bluespice.extjs",
+				"ext.bluespice.oojs",
+				"ext.configmanager.messages",
+				"oojs-ui-core"
+			],
+			"messages": [
+				"configmanager-discardchanges",
+				"configmanager-noentry"
+			]
+		},
+		"ext.configmanager.styles": {
+			"styles": "configmanager.css"
+		},
+		"ext.configmanager.messages": {
+			"class": "\\ConfigManager\\ResourceLoader\\Messages"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ConfigManager/resources"
+	},
+	"manifest_version": 2,
+	"load_composer_autoloader" : true
+}

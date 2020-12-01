@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"bs-interwikilinks-desc": "واجهة الإدارة لإضافة وتحرير وحذف وصلات الإنترويكي",
+	"bs-interwikilinks-invalid-pfx-spc": "البادئة غير صالحة; من فضلك لا تستخدم المسافات.",
+	"bs-interwikilinks-invalid-url-spc": "المسار غير صالح; من فضلك لا تستخدم المسافات.",
+	"bs-interwikilinks-label": "وصلات الإنترويكي",
+	"bs-interwikilinks-link-created": "تم إنشاء رابط الإنترويكي.",
+	"bs-interwikilinks-link-added": "تمت إضافة رابط الإنترويكي.",
+	"bs-interwikilinks-link-deleted": "تم حذف رابط الإنترويكي.",
+	"bs-interwikilinks-nooldpfx": "البادئة السابقة لم يتم العثور عليها.",
+	"bs-interwikilinks-nopfx": "يُرجَى تقديم بادئة.",
+	"bs-interwikilinks-nourl": "يُرجَى تقديم مسار.",
+	"bs-interwikilinks-pfxtoolong": "البادئة طويلة جدا; يُرجَى استخدام 32 حرفا كحد أقصى.",
+	"bs-interwikilinks-pfxexists": "هذه البادئة موجودة بالفعل.",
+	"bs-interwikilinks-headerprefix": "البادئة",
+	"bs-interwikilinks-headerurl": "مسار",
+	"bs-interwikilinks-titleaddinterwikilink": "أضف وصلة إنترويكي",
+	"bs-interwikilinks-titleeditinterwikilink": "تحرير وصلة الإنترويكي",
+	"bs-interwikilinks-labelprefix": "البادئة",
+	"bs-interwikilinks-labelurl": "مسار",
+	"bs-interwikilinks-titledeleteinterwikilink": "حذف وصلة الإنترويكي",
+	"bs-interwikilinks-confirmdeleteinterwikilink": "هل أنت متأكد أنك تريد حذف وصلة الإنترويكي هذه؟",
+	"bs-interwikilinks-insertlink-tabtitle": "رابط إلى ويكي آخر",
+	"bs-interwikilinks-insertlink-labelprefix": "البادئة",
+	"bs-interwikilink-select-a-prefix": "اختر بادئة",
+	"bs-interwikilinks-link-edited": "عدلت وصلة اللغة",
+	"apihelp-bs-interwikilinks-tasks-description": "يقدم المهام لامتداد InterWikiLinks.",
+	"apihelp-bs-interwikilinks-tasks-summary": "يقدم المهام لامتداد InterWikiLinks.",
+	"action-interwikilinks-viewspecialpage": "عرض الصفحة الخاصة \"{{int:bs-interwikilinks-label}}\"",
+	"interwikilinks": "وصلات الإنترويكي",
+	"right-interwikilinks-viewspecialpage": "الوصول إلى الصفحة الخاصة [[Special:InterWikiLinks]]."
+}

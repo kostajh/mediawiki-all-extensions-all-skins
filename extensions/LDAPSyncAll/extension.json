@@ -1,0 +1,50 @@
+{
+	"name": "LDAPSyncAll",
+	"version": "",
+	"license-name": "GPL-3.0-only",
+	"author": [
+		"[http://www.hallowelt.com Hallo Welt! GmbH]"
+	],
+	"url": "http://www.hallowelt.com",
+	"descriptionmsg": "ldapsyncall-desc",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 3.0.0",
+			"LDAPProvider": "~1.0",
+			"LDAPUserInfo": "~1.0",
+			"LDAPGroups": "~1.0"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"RunJobsTriggerHandlerRegistry": {
+				"ldap-users-sync-all": "\\LDAPSyncAll\\RunJobsTriggerHandler\\SyncLDAPUsers::factory"
+			}
+		}
+	},
+	"MessagesDirs": {
+		"LDAPSyncAll": "i18n"
+	},
+	"AutoloadNamespaces": {
+		"LDAPSyncAll\\": "src/",
+		"LDAPSyncAll\\Tests\\": "tests/phpunit"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "LDAPSyncAll/resources"
+	},
+	"config_prefix": "LDAPSyncAll",
+	"config": {
+		"ExcludedUsernames": {
+			"value": [ "WikiSysop" ]
+		},
+		"ExcludedGroups": {
+			"value": [ "bot" ]
+		},
+		"BlockExecutorUsername": {
+			"value": "WikiSysop"
+		}
+	},
+	"manifest_version": 2
+}

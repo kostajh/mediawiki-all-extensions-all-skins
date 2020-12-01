@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"wlm-extension-desc": "Додава информации и пораки во врска со фотоконкурсот „Вики ги сака спомениците“",
+	"wlm-no-contest-year": "Во $1 г. не се одржа конкурс.",
+	"wlm-no-url-bad-country": "Не можев да го добијам мрежното место за месниот конкурс. $1 не претставува важечки код.",
+	"wlm-country-not-given": "Ќе треба да укажете код за земја.",
+	"wlm-country-not-participating-year": "«$1» не учествува на „Вики ги сака спомениците $2“",
+	"wlm-sidebar-portlet": "Други земји",
+	"wlm-international-contest": "Меѓународен",
+	"wlm-text-contact": "Контакт",
+	"wlm-text-contest": "Конкурс",
+	"wlm-text-donate": "Дарување",
+	"wlm-text-faq": "ЧПП",
+	"wlm-text-jury": "Жири",
+	"wlm-text-monuments": "Споменици",
+	"wlm-text-news": "Новости",
+	"wlm-text-participate": "Земете учество!",
+	"wlm-text-prizes": "Награди",
+	"wlm-text-rules": "Правила",
+	"wlm-text-sponsors": "Спонзори",
+	"wlm-text-uploading": "Подигање"
+}

@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-notifications-addaccount": "L'utende \"$1\" ha state ccrejate.",
+	"bs-notifications-email-addaccount-subject": "Utende \"$2\" {{GENDER:$1|ccrejate}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|L'utende}} $2 ha stato ccrejate.\n\nPuè 'ndrucà 'a pàgena utende {{GENDER:$1|soje}} seguenne 'u collegamende aqquà sotte",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|L'utende}} $2 ha stato ccrejate.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|ccrejatore}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Ccrejatore}}: $1",
+	"bs-notifications-registeruser": "L'utende \"$1\" ave ccrejate 'nu cunde.",
+	"bs-notifications-email-registeruser-subject": "L'{{GENDER:$1|utende}} \"$2\" ave {{GENDER:$1|ccrejate}} 'nu cunde",
+	"bs-notifications-email-registeruser-body": "L'{{GENDER:$1|utende}} $2 ave {{GENDER:$1|ccrejate}} 'nu cunde.\n\nPuè 'ndrucà {{GENDER:$1|'a soje}} pàgene utende seguenne 'u colleggamende aqquà sotte",
+	"bs-notifications-web-registeruser-body": "L'{{GENDER:$1|utende}} $2 ave {{GENDER:$1|ccrejate}} 'nu cunde.",
+	"bs-notifications-edit": "'A pàgene \"$1\" ha state cangiate",
+	"bs-notifications-edit-bundle": "'A pàgene \"$2\" ha state cangiate {{PLURAL:$1|$1 vote}}",
+	"bs-notifications-email-edit-subject": "'A pàgene \"$1\" {{GENDER:$2|ha state cangiate}} da $3",
+	"bs-notifications-email-edit-body": "'A pàgene \"$1\" {{GENDER:$2|ha state cangiate}} da $4\n\nCommende:\n$3",
+	"bs-notifications-web-edit-body": "'A pàgene \"$1\" {{GENDER:$2|ha state cangiate}} da $3",
+	"bs-notifications-create": "'A pàgene \"$1\" ha state ccrejate",
+	"bs-notifications-email-create-subject": "'A pàgene \"$1\" {{GENDER:$2|ha state ccrejate}} da $3",
+	"bs-notifications-email-create-body": "'A pàgene \"$1\" {{GENDER:$2|ha state ccrejate}} da $3\n\nCommende:\n$4",
+	"bs-notifications-web-create-body": "'A pàgene \"$1\" {{GENDER:$2|ha state ccrejate}} da $3",
+	"bs-notifications-delete": "'A pàgene \"$1\" ha state scangellate",
+	"bs-notifications-email-delete-subject": "'A pàgene \"$1\" {{GENDER:$2|ha state scangellate}} da $3",
+	"bs-notifications-email-delete-body": "'A pàgene \"$1\" {{GENDER:$2|ha state scangellate}} da $3\n\n'U mutive ere:\n$4",
+	"bs-notifications-web-delete-body": "'A pàgene \"$1\" {{GENDER:$2|ha state scangellate}} da $3",
+	"bs-notifications-move": "'A pàgene \"$1\" ha state spustate",
+	"bs-notifications-email-move-subject": "'A pàgene \"$1\" {{GENDER:$2|ha state spustate}} sus a \"$3\" da $4",
+	"bs-notifications-email-move-body": "'A pàgene \"$1\" {{GENDER:$2|ha state spustate}} sus a \"$3\" da $4.\n\n'U mutive ere:\n$5",
+	"bs-notifications-web-move-body": "'A pàgene \"$1\" {{GENDER:$2|ha state spustate}} sus a \"$3\" da $4",
+	"bs-notifications-edit-difflink-label": "'Ndruche le differenze",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Cià}} $1",
+	"bs-notifications-htmlmail-sender-info": "$1 sisteme de notifeche",
+	"bs-notifications-mail-additional-links-label": "Collegaminde aggiundive"
+}

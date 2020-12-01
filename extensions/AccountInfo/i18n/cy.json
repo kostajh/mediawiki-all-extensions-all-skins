@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin Owain"
+		]
+	},
+	"accountinfo": "Gwybodaeth am y cyfri",
+	"accountinfo-desc": "Caniatewch i ddefnyddiwr weld gwybodaeth breifat amdanynt, a storiwyd.",
+	"accountinfo-ts": "Stamp-amser",
+	"accountinfo-ip": "Cyfeiriad IP",
+	"accountinfo-ua": "Asiant ddefnyddiwr",
+	"accountinfo-xff": "Pennawd XFF",
+	"accountinfo-length": "Cadwyd yr wybodaeth ar gyfer: $1",
+	"accountinfo-now": "Nawr"
+}

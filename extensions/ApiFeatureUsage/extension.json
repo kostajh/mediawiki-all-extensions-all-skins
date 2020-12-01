@@ -1,0 +1,58 @@
+{
+	"name": "ApiFeatureUsage",
+	"version": "1.0",
+	"author": "Brad Jorsch",
+	"url": "https://www.mediawiki.org/wiki/Extension:ApiFeatureUsage",
+	"descriptionmsg": "apifeatureusage-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0",
+		"extensions": {
+			"Elastica": "*"
+		}
+	},
+	"ConfigRegistry": {
+		"ApiFeatureUsage": "GlobalVarConfig::newInstance"
+	},
+	"SpecialPages": {
+		"ApiFeatureUsage": "SpecialApiFeatureUsage"
+	},
+	"APIMetaModules": {
+		"featureusage": "ApiQueryFeatureUsage"
+	},
+	"MessagesDirs": {
+		"ApiFeatureUsage": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ApiFeatureUsageAlias": "ApiFeatureUsage.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialApiFeatureUsage": "includes/SpecialApiFeatureUsage.php",
+		"ApiQueryFeatureUsage": "includes/ApiQueryFeatureUsage.php",
+		"ApiFeatureUsageQueryEngine": "includes/ApiFeatureUsageQueryEngine.php",
+		"ApiFeatureUsageQueryEngineElastica": "includes/ApiFeatureUsageQueryEngineElastica.php",
+		"ApiFeatureUsageQueryEngineElasticaConnection": "includes/ApiFeatureUsageQueryEngineElasticaConnection.php",
+		"ApiFeatureUsageHooks": "includes/ApiFeatureUsageHooks.php"
+	},
+	"ResourceModules": {
+		"ext.apifeatureusage": {
+			"styles": "ext.apifeatureusage.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "ApiFeatureUsage/modules"
+	},
+	"Hooks": {
+		"ApiDeprecationHelp": "ApiFeatureUsageHooks::onApiDeprecationHelp"
+	},
+	"config": {
+		"ApiFeatureUsageQueryEngineConf": {
+			"value": []
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Simon A. Eugster",
+			"Justin Du"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Identification key generator and editor",
+	"apihelp-query+LifeWeb-description": "Data downlink for the LifeBase.",
+	"apihelp-query+LifeWeb-summary": "Data downlink for the LifeBase.",
+	"apihelp-query+LifeWeb-param-what": "Which data list to retrieve.",
+	"apihelp-query+LifeWeb-param-clearCache": "Whether or not the cache will be cleared during data retrieval",
+	"apihelp-query+LifeWeb-example-1": "Taxon list",
+	"apihelp-query+LifeWeb-example-2": "Question list, pretty-printed"
+}

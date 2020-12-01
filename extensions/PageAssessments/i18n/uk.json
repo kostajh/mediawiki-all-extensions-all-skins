@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriy.v",
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"pageassessments-desc": "Це розширення призначене для зберігання оцінок сторінок у таблиці бази даних з допомогою парсерної функції",
+	"pageassessments-special": "Оцінювання сторінок",
+	"pageassessments-project": "Проєкт",
+	"pageassessments-page-namespace": "Простір назв сторінки",
+	"pageassessments-page-title": "Назва сторінки",
+	"pageassessments-search": "Пошук",
+	"pageassessments-importance": "Важливість",
+	"pageassessments-class": "Клас",
+	"pageassessments-timestamp": "Часова мітка",
+	"pageassessments-total-results": "Загальна кількість результатів: $1",
+	"pageassessments-error-namespace-filter": "Будь ласка, введіть назву проекту чи назву сторінки."
+}

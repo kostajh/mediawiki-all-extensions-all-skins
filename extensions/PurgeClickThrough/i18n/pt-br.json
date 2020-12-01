@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Felipe L. Ewald"
+		]
+	},
+	"purgeclickthrough-desc": "Não redireciona as páginas ?action=purge, mas, em vez disso, faz um clique (para fins de depuração)"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Red Winged Duck"
+		]
+	},
+	"jsbreadcrumbs-desc": "Дадае навігацыйны шлях («хлебныя крошкі») пад панэль закладак",
+	"jsbreadcrumbs-intro-horizontal": "{{PLURAL:$1|$1 апошняя прагледжаная старонка|$1 апошнія прагледжаныя старонкі|$1 апошніх прагледжаных старонак}}:",
+	"jsbreadcrumbs-intro-vertical": "{{PLURAL:$1|$1 апошняя прагледжаная старонка|$1 апошнія прагледжаныя старонкі|$1 апошніх прагледжаных старонак}}",
+	"prefs-jsbreadcrumbs": "Навігацыйны шлях",
+	"prefs-jsbreadcrumbs-showaction": "Паказваць навігацыйныя шляхі дзеяньняў",
+	"prefs-jsbreadcrumbs-showcrumbs": "Паказваць навігацыйны шлях",
+	"prefs-jsbreadcrumbs-numberofcrumbs": "Максымальная даўжыня навігацыйнага шляху для паказу",
+	"prefs-jsbreadcrumbs-maxlength-horizontal": "Максымальная даўжыня для паказу кожнага навігацыйнага шляху, калі абраны гарызантальны рэжым",
+	"prefs-jsbreadcrumbs-maxlength-vertical": "Максымальная даўжыня для паказу кожнага навігацыйнага шляху, калі абраны вэртыкальны рэжым",
+	"prefs-jsbreadcrumbs-horizontal": "Гарызантальная арыентацыя навігацыйнага шляху",
+	"prefs-jsbreadcrumbs-showsite": "Далучаць прэфіксам назву сайту ў навігацыйны шлях",
+	"prefs-jsbreadcrumbs-domain": "Паказваць навігацыйныя шляхі для ўсіх сайтаў гэтага дамэну"
+}

@@ -1,0 +1,27 @@
+{
+	"name": "IfTemplates",
+	"version": "0.1",
+	"author": "Ike Hecht for [http://www.wikiworks.com/ WikiWorks]",
+	"url": "https://www.mediawiki.org/wiki/Extension:IfTemplates",
+	"descriptionmsg": "iftemplates-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"IfTemplates": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"IfTemplatesMagic": "IfTemplates.magic.php"
+	},
+	"AutoloadClasses": {
+		"IfTemplatesHooks": "includes/IfTemplatesHooks.php",
+		"IfTemplates": "includes/IfTemplates.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "IfTemplatesHooks::ifTemplatesSetupParserFunction"
+	},
+	"manifest_version": 2
+}

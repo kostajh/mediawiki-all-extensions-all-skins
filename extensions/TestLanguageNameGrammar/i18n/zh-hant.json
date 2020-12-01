@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"testlanguagenamegrammar": "以語言名稱測試語法形式",
+	"testlanguagenamegrammar-desc": "添加[[Special:TestLanguageNameGrammar|特定頁面]]來語言名稱測試語法形式",
+	"testlanguagenamegrammar-language": "語言",
+	"testlanguagenamegrammar-grammarform": "語法形式",
+	"testlanguagenamegrammar-submit": "送出"
+}

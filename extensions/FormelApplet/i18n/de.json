@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"Metalhead64/Rudolf Grossmann"
+		]
+	},
+	"formelapplet-desc": "Ermöglicht die Nutzung von [http://wiki.formelapplet.de FormelApplets] auf Seiten",
+	"formelapplet-nojava": "Bitte installiere $1, um diese Seite nutzen zu können.",
+	"formelapplet-missing-parameter": "Ein Parameter wurde nicht angegeben und fehlt daher („width“, „height“ oder „term/solution“).",
+	"formelapplet-file-not-found": "Die Datei $1 wurde nicht gefunden.",
+	"formelapplet-error": "Bei der MediaWiki-Programmerweiterung FormelApplet ist ein Fehler aufgetreten: <em>$1</em>"
+}

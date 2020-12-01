@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"listsignup": "قائمة الاشتراك",
+	"listsignup-desc": "نموذج قائمة اشتراك مخصص",
+	"listsignup-legend": "أدخل معلوماتك أدناه.",
+	"listsignup-success": "تم إرسال عنوان بريدك الإلكتروني.",
+	"listsignupdisplay": "عرض قائمة الاشتراك",
+	"listsignuppurge": "تطهير قائمة الاشتراك",
+	"listsignuppurge-legend": "تطهير جميع المعلومات من قائمة الاشتراك",
+	"listsignuppurge-pretext": "'''تحذير!''' سيؤدي هذا إلى إزالة كل العناوين من القائمة، لا يمكن التراجع عن هذا الإجراء.",
+	"listsignuppurge-success": "تم تطهير القائمة!",
+	"right-viewlistsignupdisplay": "عرض قائمة الاشتراك",
+	"right-purgelistsignupdisplay": "تطهير قائمة الاشتراك",
+	"action-viewlistsignupdisplay": "عرض قائمة الاشتراك",
+	"action-purgelistsignupdisplay": "تطهير قائمة الاشتراك"
+}

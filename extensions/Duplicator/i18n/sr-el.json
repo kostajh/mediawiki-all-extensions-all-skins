@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Michaello",
+			"Milicevic01",
+			"Zoranzoki21"
+		]
+	},
+	"duplicator": "Duplira članak",
+	"duplicator-desc": "Pravi nezavisne [[Special:Duplicate|kopije članaka]] sa potpunim istorijama izmena",
+	"duplicator-toolbox": "Dupliraj ovaj članak",
+	"duplicator-header": "Ova strana omogućava kompletno dupliranje nekog članka, pravljenjem nezavisnih kopija svih istorija.\nOvo je korisno za kopiranje članaka i sl.",
+	"duplicator-options": "Opcije",
+	"duplicator-source": "Izvor:",
+	"duplicator-dest": "Cilj:",
+	"duplicator-dotalk": "Dupliraj stranu za razgovor (ako je moguće)",
+	"duplicator-dosubpages": "Dupliraj podstranice (ako je moguće)",
+	"duplicator-dohistory": "Dupliraj celu istoriju stranice",
+	"duplicator-submit": "Dupliraj",
+	"duplicator-summary": "Iskopirano od [[$1]]",
+	"duplicator-success": "[[$1]] je iskopiran u [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|izmena je iskopirana|izmena je iskopirano}}.",
+	"duplicator-success-talknotcopied": "Strana za razgovor nije mogla biti iskopirana.",
+	"duplicator-failed": "Članak nije mogao biti dupliran.\nDošlo je do nepozante greške.",
+	"duplicator-source-invalid": "Molimo Vas da navedete ispravan naslov izvornog članka.",
+	"duplicator-source-notexist": "[[$1]] ne postoji. Molimo Vas da navedete naslov postojećeg članka.",
+	"duplicator-dest-invalid": "Molomo Vas da navedete ispravan naziv ciljanog naslova.",
+	"duplicator-dest-exists": "[[$1]] već postoji. Molimo Vas da navedete nezauzet ciljani naslov.",
+	"right-duplicate": "Duplirane strane"
+}

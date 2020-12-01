@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Movses",
+			"Piramidion",
+			"Vlad5250",
+			"Ата"
+		]
+	},
+	"configmanager-admintool-label": "Менеджер конфігурації",
+	"action-configmanager-viewspecialpage": "перегляд спеціальної сторінки «{{int:configmanager}}»",
+	"configmanager": "Менеджер конфігурації",
+	"configmanager-desc": "Пропонує можливість адміністраторам для налаштування усього вікі з єдиної спеціальної сторінки",
+	"configmanager-discardchanges": "Відхилити зміни?",
+	"configmanager-noentry": "Жодного запису не знайдено",
+	"apihelp-configmanager-tasks-summary": "Керувати завданнями",
+	"apihelp-configmanager-store-summary": "Керувати сховищами",
+	"right-configmanager-viewspecialpage": "Доступ до спеціальної сторінки [[Special:ConfigManager]]"
+}

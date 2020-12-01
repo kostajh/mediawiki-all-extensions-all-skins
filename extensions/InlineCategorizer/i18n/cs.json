@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil"
+		]
+	},
+	"inlinecategorizer-desc": "JavaScriptový modul, který umožňuje měnit, přidávat a odstraňovat odkazy na kategorie přímo na stránce",
+	"inlinecategorizer-add-category": "Přidat kategorii",
+	"inlinecategorizer-add-category-submit": "Přidat",
+	"inlinecategorizer-add-category-summary": "Přidání kategorie „$1“",
+	"inlinecategorizer-api-error": "API vrátilo chybu: $1: $2",
+	"inlinecategorizer-api-unknown-error": "API vrátilo neznámou chybu.",
+	"inlinecategorizer-cancel": "Stornovat změny",
+	"inlinecategorizer-cancel-all": "Stornovat všechny změny",
+	"inlinecategorizer-category-already-present": "Tato stránka již do kategorie $1 patří",
+	"inlinecategorizer-category-hook-error": "Místní funkce zabránila uložení změn",
+	"inlinecategorizer-category-question": "Proč chcete provést následující změny:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Uložit",
+	"inlinecategorizer-confirm-save-all": "Uložit všechny změny",
+	"inlinecategorizer-confirm-title": "Potvrdit změnu",
+	"inlinecategorizer-edit-category": "Upravit kategorii",
+	"inlinecategorizer-edit-category-error": "Nepodařilo se upravit kategorii „$1“.\nTo se obvykle stává v případě, že byla stránka do kategorie přidána prostřednictvím šablony.",
+	"inlinecategorizer-edit-category-summary": "Změnit kategorii „$1“ na „$2“",
+	"inlinecategorizer-error-title": "Chyba",
+	"inlinecategorizer-remove-category": "Odebrat kategorii",
+	"inlinecategorizer-remove-category-error": "Nepodařilo se odstranit kategorii „$1“.\nTo se obvykle stává v případě, že byla stránka do kategorie přidána prostřednictvím šablony.",
+	"inlinecategorizer-remove-category-summary": "Odebrání kategorie „$1“"
+}

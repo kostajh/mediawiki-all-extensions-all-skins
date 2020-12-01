@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Priviet",
+			"Ykhwong"
+		]
+	},
+	"tweetanew-desc": "문서를 만들거나 편집하면 트윗합니다",
+	"tweetanew-newaction": "이 새로운 문서에 대해 트윗하기",
+	"tweetanew-newtooltip": "이 새로운 페이지에 대한 정보를 트위터로 보내기",
+	"tweetanew-editaction": "이 편집에 대해 트윗하기",
+	"tweetanew-edittooltip": "이 편집에 대한 정보를 트위터로 보내기",
+	"tweetanew-minoredit": "잔글",
+	"tweetanew-authorcredit": "by",
+	"tweetanew-newdefault": "새 문서: $1 - $2",
+	"tweetanew-new1": "$1 문서가 $2에 만들어진 것 같습니다.",
+	"tweetanew-new2": "$1 문서가 최근 $2에 만들어졌습니다.",
+	"tweetanew-new3": "$2 문서를 확인해주세요 - $1에 새로운 문서가 만들어졌습니다.",
+	"tweetanew-editdefault": "업데이트된 문서: $1 - $2",
+	"tweetanew-edit1": "$1 문서가 $2에 업데이트된 것 같습니다.",
+	"tweetanew-edit2": "$1 문서가 $2에서 바뀌었습니다.",
+	"tweetanew-edit3": "$2 문서를 확인해주세요 - $1에 새로운 내용이 있습니다"
+}

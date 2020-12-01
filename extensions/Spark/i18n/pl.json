@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"Chrumps"
+		]
+	},
+	"spark-desc": "Dodaje znacznik <code><nowiki><spark></spark></nowiki></code>, który umożliwia osadzanie aplikacji kompozytowych [http://km.aifb.kit.edu/sites/spark/ Spark]",
+	"spark-missing-query": "Musisz określić kwerendę przy użyciu parametru \"data-spark-query\"."
+}

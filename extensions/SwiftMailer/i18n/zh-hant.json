@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"swiftmailer-desc": "提供 SwiftMailer 來作為替代的電子郵件收發。",
+	"swiftmailer-smtp-error": "設定 SwiftMailer 的 SMTP 傳輸協定時出錯：$1",
+	"swiftmailer-send-error": "使用 SwiftMailer 寄送電子郵件時出錯：$1"
+}

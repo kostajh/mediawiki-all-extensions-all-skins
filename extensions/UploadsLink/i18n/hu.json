@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"uploadslink-desc": "Hozzáad egy linket a felhasználó feltöltéseire a személyes eszközök menüjébe és egy másik linket egy felhasználói lap tulajdonosának feltöltéseire az Eszközök dobozba.",
+	"uploadslink-portlet-label": "Feltöltések",
+	"tooltip-pt-uploads": "Az általad feltöltött fájlok listája",
+	"uploadslink-toobox-label": "{{GENDER:$1|Felhasználó}} feltöltései",
+	"tooltip-tb-uploads": "Ezen {{GENDER:$1|felhasználó}} feltöltéseinek listája"
+}

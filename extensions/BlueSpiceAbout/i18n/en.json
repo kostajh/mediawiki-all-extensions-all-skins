@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Markus Glaser <glaser@hallowelt.com>",
+			"Leonid Verhovskij <verhovskij@hallowelt.com>"
+		]
+	},
+	"bs-bluespiceabout-desc": "Information about BlueSpice",
+	"bs-bluespiceabout-about-bluespice": "About BlueSpice",
+	"bluespiceabout": "About BlueSpice",
+	"prefs-bluespiceabout": "About BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Show link \"{{int:bs-bluespiceabout-about-bluespice}}\" in the main menu",
+	"action-bluespiceabout-viewspecialpage": "view the special page \"{{int:bs-bluespiceabout-about-bluespice}}\"",
+	"right-bluespiceabout-viewspecialpage": "Access to the special page [[Special:BlueSpiceAbout]]",
+	"bs-bluespiceabout-pref-showmenulinks-help": "Adds a link to the page Special:BlueSpiceAbout to the main navigation. The linked page displays information and helpful links about BlueSpice pro."
+}

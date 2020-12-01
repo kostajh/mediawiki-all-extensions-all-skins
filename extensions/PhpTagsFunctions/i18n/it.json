@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"phptagsfunctions-desc": "Implementa le funzioni interne di PHP nativo per l'estensione PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "Il delimitatore non deve essere alfanumerico o backslash",
+	"phptagsfunctions-preg-no-ending-delimiter": "Nessun delimitatore finale \"$1\" trovato",
+	"phptagsfunctions-preg-unknown-modifier": "Modificatore sconosciuto \"$1\""
+}

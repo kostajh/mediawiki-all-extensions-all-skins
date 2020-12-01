@@ -1,0 +1,91 @@
+{
+	"name": "BlueSpiceSocialResolve",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SocialResolve",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-socialresolve-desc",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceSocial": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocialResolve": {
+					"className": "\\BlueSpice\\Social\\Resolve\\Extension",
+					"extPath": "/BlueSpiceSocialResolve",
+					"status": "beta",
+					"package": "BlueSpiceSocial"
+				}
+			},
+			"RendererRegistry": {
+				"entityresolve": "\\BlueSpice\\Social\\Resolve\\Renderer\\Resolve::factory"
+			},
+			"LessVarsRegistry": {
+				"bs-social-background-color-resolved": "#D9F2DA"
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceSocialResolve": [
+			"i18n"
+		]
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\Resolve\\": "src/"
+	},
+	"APIModules": {
+		"bs-socialresolve-tasks": "\\BlueSpice\\Social\\Resolve\\Api\\Task\\Resolve"
+	},
+	"ResourceModules": {
+		"ext.bluespice.social.resolve": {
+			"scripts": [
+				"EntityActionMenu/Resolved.js",
+				"bluespice.social.resolve.js",
+				"EntityListMenu/Filter/Resolved.js"
+			],
+			"dependencies": [
+				"ext.bluespice.social.timeline"
+			],
+			"messages": [
+				"bs-socialresolve-var-resolved",
+				"bs-socialresolve-status-resolved",
+				"bs-socialresolve-status-notresolved"
+			]
+		},
+		"ext.bluespice.social.resolve.styles": {
+			"styles": {
+				"bluespice.social.resolve.mobile.less": {
+					"media": "all and ( max-width: 720px )"
+				},
+				"bluespice.social.resolve.desktop.less": {
+					"media": "all and ( min-width: 721px )"
+				}
+			},
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocialResolve/resources"
+	},
+	"Hooks": {
+		"BSEntityConfigDefaults": "\\BlueSpice\\Social\\Resolve\\Hook\\BSEntityConfigDefaults\\IsResolvable::callback",
+		"BSEntityGetFullData": "\\BlueSpice\\Social\\Resolve\\Hook\\BSEntityGetFullData\\AddResolve::callback",
+		"BSEntitySetValuesByObject": "\\BlueSpice\\Social\\Resolve\\Hook\\BSEntitySetValuesByObject\\AddResolve::callback",
+		"BSSocialModuleDepths": "\\BlueSpice\\Social\\Resolve\\Hook\\BSSocialModuleDepths\\AddModules::callback",
+		"BSEntityConfigAttributeDefinitions": "\\BlueSpice\\Social\\Resolve\\Hook\\BSEntityConfigAttributeDefinitions\\AddResolve::callback",
+		"BSFoundationRendererMakeTagAttribs": "\\BlueSpice\\Social\\Resolve\\Hook\\BSFoundationRendererMakeTagAttribs\\AddResolveClassToEntityRenderer::callback",
+		"BSSocialEntityListRenderEntity": "\\BlueSpice\\Social\\Resolve\\Hook\\BSSocialEntityListRenderEntity\\RenderShortWhenResolved::callback",
+		"BSSocialEntityGetActions": "\\BlueSpice\\Social\\Resolve\\Hook\\BSSocialEntityGetActions\\AddResolve::callback"
+	},
+	"manifest_version": 2
+}

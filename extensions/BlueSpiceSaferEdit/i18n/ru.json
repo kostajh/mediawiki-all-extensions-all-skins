@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Movses",
+			"Okras",
+			"Striking Blue"
+		]
+	},
+	"bs-saferedit-desc": "Выводит предупреждение, если другие участники редактируют страницу",
+	"bs-saferedit-user-editing": "$1 {{GENDER:$1|редактирует}} страницу",
+	"bs-saferedit-someone-editing": "Эта страница редактируется",
+	"bs-saferedit-pref-interval": "Интервал поиска одновременных правок:",
+	"bs-saferedit-pref-shownameofeditinguser": "Показать имя текущего редактора"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"bs-uemodulepdfrecursive-extension-description": "Permet l’exportation récursive de pages au format PDF.",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-text": "Page PDF avec les pages liées",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-title": "Exporter cette page et toutes les pages liées en PDF.",
+	"right-uemodulepdfrecursive-export": "exporter une page, y compris toutes les pages liées, en PDF",
+	"action-uemodulepdfrecursive-export": "exporter une page, y compris toutes les pages liées, en PDF"
+}

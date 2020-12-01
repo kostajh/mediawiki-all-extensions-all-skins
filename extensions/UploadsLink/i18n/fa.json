@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ladsgroup",
+			"Reza1615"
+		]
+	},
+	"uploadslink-portlet-label": "بارگذاری‌ها",
+	"tooltip-pt-uploads": "فهرست پرونده‌هایی که شما بارگذاری کرده‌اید",
+	"uploadslink-toobox-label": "بارگذاری‌های {{GENDER:$1|کاربر}}",
+	"tooltip-tb-uploads": "فهرست بارگذاری‌های انجام شد توسط این {{GENDER:$1|کاربر}}"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saruman",
+			"Siebrand"
+		]
+	},
+	"parserfun-desc": "Voegt een parserfunctie <code>#parse</code> toe voor het parsen van wikitekst, en introduceert het voorvoegsel <code>THIS:</code> voor aan magische variabelen gerelateerde paginagegevens",
+	"parserfun-invalid-caller-mode": "Geen geldige werkingsmodus of numerieke index opgegeven."
+}

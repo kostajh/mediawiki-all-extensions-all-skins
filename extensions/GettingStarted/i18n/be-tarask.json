@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matma Rex",
+			"Red Winged Duck",
+			"Wizardist",
+			"Zedlik"
+		]
+	},
+	"gettingstarted": "Першыя крокі",
+	"gettingstarted-desc": "Дапамагае новым удзельнікам стаць рэдактарамі",
+	"gettingstarted-task-toolbar-editing-help-text": "Паказаць мне, як",
+	"gettingstarted-task-toolbar-editing-help-title": "Паказаць дапамогу па рэдагаваньні",
+	"gettingstarted-task-toolbar-try-another-text": "Паспрабуйце іншую старонку ►",
+	"gettingstarted-task-toolbar-close-title": "Закрыць гэтую панэль",
+	"gettingstarted-task-toolbar-no-suggested-page": "Выбачайце. Мы не змаглі знайсьці яшчэ старонкі, якія патрабуць паляпшэньня ў цяперашні момант. Паспрабуйце яшчэ раз або пашукайце іншыя цікавыя вам тэмы.",
+	"gettingstarted-task-copyedit-toolbar-description": "Гэтая старонка, магчыма, утрымлівае артаграфічныя і граматычныя памылкі, якія вы можаце выправіць.",
+	"gettingstarted-task-copyedit-toolbar-try-another-title": "Перайсьці да выпадковай старонкі, якую вы можаце палепшыць",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-title": "Давайце пачнем",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-description": "Гэтая старонка была пазначаная іншымі ўдзельнікамі {{grammar:родны|{{SITENAME}}}} як старонка, якая патрабуе паляпшэньня. Вам ня трэба быць экспэртам у гэтай тэме, каб дапамагчы.",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-title": "Што рабіць",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-description": "Гэтыя банэры паведамляюць пра праблемы старонкі. Вам не абавязкова выпраўляць усе, проста рабіце тое, што ў вас атрымліваецца.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-title": "Рэдагаваць усю старонку…",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-description": "Націсьніце «$1», каб зьмяніць зьмест у якім-кольвек месцы на старонцы.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-title": "Ці рэдагуйце разьдзел",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-description": "Калі вы хочаце адрэдагаваць пэўную сэкцыю, вы можаце націснуць спасылку «{{int:editsection}}», якая знаходзіцца побач з назвай кожнай сэкцыі.",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-title": "Зрабіце вашыя зьмены і захавайце",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-description": "Цяпер вы можаце рэдагаваць зьмест старонкі. Калі вы скончыце, націсьніце «{{int:publishchanges}}», каб праглядзець і захаваць вашыя зьмены.",
+	"guidedtour-tour-gettingstarted-click-preview-title": "Папярэдні прагляд (па жаданьні)",
+	"guidedtour-tour-gettingstarted-click-preview-description": "Націсьніце «{{int:showpreview}}», каб пабачыць, як будзе выглядаць старонка з унесенымі вамі зьменамі. Па праглядзе не забудзьце захаваць.",
+	"guidedtour-tour-gettingstarted-click-save-title": "Ужо амаль усё!",
+	"guidedtour-tour-gettingstarted-click-save-description": "Націсьніце «{{int:publishchanges}}» і вашыя зьмены будуць бачныя ўсім.",
+	"gettingstarted-cta-close": "Закрыць",
+	"gettingstarted-cta-heading": "Дапамагчы палепшыць {{GRAMMAR:вінавальны|{{SITENAME}}}}",
+	"gettingstarted-cta-text": "Вы можаце дапамагчы {{GRAMMAR:давальны|{{SITENAME}}}} рознымі шляхамі",
+	"gettingstarted-cta-edit-page": "Рэдагаваць гэтую старонку",
+	"gettingstarted-cta-edit-page-sub": "Мы пакажам вам, як",
+	"gettingstarted-cta-fix-pages": "Рэдагаваць прапанаваную старонку",
+	"gettingstarted-cta-fix-pages-sub": "Мы падбярэм нешта лёгкае",
+	"gettingstarted-cta-leave": "Не, дзякуй, можа быць, пазьней"
+}

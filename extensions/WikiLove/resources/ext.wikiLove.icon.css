@@ -1,0 +1,4 @@
+.client-nojs li#ca-wikilove {
+	/* WikiLove only works with JS, so hide tab otherwise. */
+	display: none;
+}

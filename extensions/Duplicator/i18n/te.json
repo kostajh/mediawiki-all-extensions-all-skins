@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ravichandra",
+			"Veeven"
+		]
+	},
+	"duplicator-options": "ఎంపికలు",
+	"duplicator-source": "మూలం:",
+	"duplicator-dest": "గమ్యస్థానం:",
+	"duplicator-summary": "[[$1]], [[$2]] కూర్పు నుండి కాపీ చేసారు",
+	"duplicator-success": "[[$1]]ని [[$2]]కి కాపీ చేసాం.",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|కూర్పు కాపీ అయ్యింది|కూర్పులు కాపీ అయ్యియి}}.",
+	"duplicator-success-talknotcopied": "చర్చా పేజీని కాపీ చేయ్యలేకపోయాం.",
+	"duplicator-source-invalid": "సరైన మూలపు శీర్షికని ఇవ్వండి.",
+	"duplicator-source-notexist": "[[$1]] అన్నది లేదు. ఏదైనా ఉన్న పేజీ యొక్క శీర్షిక ఇవ్వండి.",
+	"duplicator-dest-invalid": "సరైన గమ్యస్థానపు శీర్షికని ఇవ్వండి.",
+	"duplicator-dest-exists": "[[$1]] అనేది ఇప్పటికే ఉంది. దయచేసి ఉనికిలోనేని గమ్యస్థానపు శీర్షికను ఇవ్వండి."
+}

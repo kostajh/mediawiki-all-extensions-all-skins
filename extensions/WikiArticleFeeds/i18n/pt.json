@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Waldir",
+			"Waldyrious"
+		]
+	},
+	"wikiarticlefeeds-desc": "Produz feeds gerados a partir de páginas MediaWiki",
+	"wikiarticlefeeds-tracking-category": "Páginas que geram feeds RSS",
+	"wikiarticlefeeds-tracking-category-desc": "A página gera um feed RSS.",
+	"wikiarticlefeeds_combined_description": "Este é um feed combinado, que contém elementos de várias fontes de feeds."
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liangent",
+			"Wmr",
+			"Wmr89502270",
+			"Yfdyh000"
+		]
+	},
+	"onlinestatus-desc": "添加一个首选项显示用户当前是否在此wiki上在线",
+	"onlinestatus-js-anon": "错误：您必须登录才能使用此功能",
+	"onlinestatus-js-changed": "您的状态已更改为“$1”",
+	"onlinestatus-js-error": "不能更改状态，值“$1”无效",
+	"onlinestatus-subtitle-offline": "这个用户当前离线",
+	"onlinestatus-subtitle-online": "这个用户当前在线",
+	"onlinestatus-tab": "状态",
+	"onlinestatus-toggles-desc": "您的状态：",
+	"onlinestatus-toggles-explain": "允许查看您用户页的人看到您当前是否在线。",
+	"onlinestatus-toggles-show": "在我的用户页显示在线状态",
+	"onlinestatus-toggle-offline": "离线",
+	"onlinestatus-toggle-online": "在线",
+	"onlinestatus-pref-onlineonlogin": "当登入时把我的状态设为在线",
+	"onlinestatus-pref-offlineonlogout": "当登出时把我的状态设为离线"
+}

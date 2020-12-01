@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"globalcssjs-extensionname": "Глобалан CSS/JS",
+	"globalcssjs-desc": "Юкъара вики-проектехь йолу CSS а, JavaScript а лелаян йиш хуьлуьйту, массо цхьана йолу вики-проекташна чуйоккхуш.",
+	"globalcssjs-custom-css-js": "Юкъара CSS/JS массо вики-проекташна",
+	"globalcssjs-warning-js": "ХӀокху агӀона тӀетоьхна йолу муьлха JavaScript хьа дӀаяздар долу массо викиш чохь чуяьра ю.",
+	"globalcssjs-warning-css": "ХӀокху агӀона тӀетоьхна йолу муьлха CSS хьа дӀаяздар долу массо викиш чохь чуяьра ю.",
+	"globalcssjs-custom-js": "Долахь йолу JS",
+	"globalcssjs-custom-css": "Долахь йолу CSS",
+	"globalcssjs-delete-css": "[[mw:Special:MyLanguage/Help:Extension:GlobalCssJs]] юкъаялор бахьнехь декъашхочун дехарца CSS-агӀо дӀаяккхар",
+	"globalcssjs-delete-js": "[[mw:Special:MyLanguage/Help:Extension:GlobalCssJs]] юкъаялор бахьнехь декъашхочун дехарца JavaScript-агӀо дӀаяккхар"
+}

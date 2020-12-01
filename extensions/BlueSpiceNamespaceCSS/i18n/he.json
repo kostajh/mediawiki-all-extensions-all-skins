@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"bs-namespacecss-desc": "החלת סגנונות על מרחבי שם ספציפיים",
+	"bluespicenamespacecssmanager": "ניהול CSS של מרחבי שם",
+	"bs-namespacecss-specialmanager-label-namespacename": "מרחב השם",
+	"bs-namespacecss-specialmanager-label-sourcepage": "דף המקור",
+	"apihelp-bs-namespacecss-store-summary": "רשימת מרחבי השם ודפי ה־CSS האפשריים שלהם. נעשה שימוש בפרמטרי אחסון של ExtJS."
+}

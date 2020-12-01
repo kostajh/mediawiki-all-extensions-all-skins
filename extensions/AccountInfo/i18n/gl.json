@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"accountinfo": "Información sobre a conta",
+	"accountinfo-desc": "Permite a un usuario consultar a información privada almacenada sobre el",
+	"accountinfo-ts": "Data e hora",
+	"accountinfo-ip": "Enderezo IP",
+	"accountinfo-ua": "Axente de usuario",
+	"accountinfo-xff": "Cabeceira XFF",
+	"accountinfo-length": "A información gárdase durante $1.",
+	"accountinfo-now": "Agora"
+}

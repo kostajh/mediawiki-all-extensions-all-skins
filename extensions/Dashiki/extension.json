@@ -1,0 +1,42 @@
+{
+	"name": "Dashiki",
+	"version": "0.1.0",
+	"author": [
+		"Dan Andreescu"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Dashiki",
+	"descriptionmsg": "dashiki-desc",
+	"type": "other",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"JsonConfig": "*"
+		}
+	},
+	"MessagesDirs": {
+		"Dashiki": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"Dashiki\\": "includes/"
+	},
+	"attributes": {
+		"JsonConfig": {
+			"Models": {
+				"JsonConfig.Dashiki": {
+					"view": "Dashiki\\DashikiView",
+					"class": "JsonConfig\\JCContent"
+				}
+			},
+			"s": {
+				"JsonConfig.Dashiki": {
+					"pattern": "/^Dashiki\\:./",
+					"isLocal": true
+				}
+			}
+		}
+	},
+	"manifest_version": 2
+}

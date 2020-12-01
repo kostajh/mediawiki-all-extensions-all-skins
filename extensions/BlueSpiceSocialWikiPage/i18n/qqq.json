@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"BaRaN6161 TURK",
+			"Hamilton Abreu",
+			"Patric Wirth",
+			"Umherirrender"
+		]
+	},
+	"bs-socialwikipage-desc": "{{desc|name=BlueSpiceSocialWikiPage}}",
+	"bs-socialwikipage-type": "Label for option \"wikipage\" in entry field \"type\"{{Identical|Wikipage}}",
+	"bs-socialwikipage-entitywikipage-header": "{{notranslate}}\nHeadline for a \"discussion\" entry. Schould link to the source page of this entry [[$5:$3|$5:$3]]\n* $1 - Username of the owner of this entry\n* $2 - Real name of the owner of this entry\n* $3 - Main part of title of the source page, this entry is saved in as json data\n* $4 - Namespace number of the page, this entry is saved in as json data\n* $5 - Namespace name of the page, this entry is saved in as json data\n* $6 - Main title part of the page, this entry refferes to\n* $7 - Namespace number of the page, this entry refferes to\n* $8 - Namespace text of the page, this entry refferes to\n* $9 - Full title of the page, this entry refferes to",
+	"bs-socialwikipage-entitywikipage-header-create": "Header for a wikipage entry, that is not yet existing{{Identical|Create new attachment area}}",
+	"bs-socialwikipage-nowikipageentity": "Text that shows when no attachment area has been created yet",
+	"bs-socialwikipage-noattachmentsadded": "Text that shows when no attachment was added yet",
+	"bs-socialwikipage-stashtype": "Label for option \"stash\" in entry field \"type\"{{Identical|Attachments}}",
+	"bs-socialwikipage-entitystash-header": "Headline for a \"stash\" entry. Should link to owners user page [[User:$1|User:$1]]\n* $1 - Username of the owner of this entry\n* $2 - Real name of the owner of this entry\n* $3 - Main part of title of the source page, this entry is saved in as json data\n* $4 - Namespace number of the page, this entry is saved in as json data\n* $5 - Namespace name of the page, this entry is saved in as json data",
+	"bs-socialwikipage-entitystash-header-create": "Header for a stash entry, that is not yet existing{{Identical|New attachment}}",
+	"bs-socialwikipage-special-stash-heading": "Special page header for [[Special:Wikipagestash]] special page.\n{{Identical|Attachments}}",
+	"bs-socialwikipage-aftercontent-heading": "Label of the attachments section after a pages content\n{{Identical|Attachments}}",
+	"wikipagestash": "Special page name for [[Special:Wikipagestash]] special page.\n{{Identical|Attachments}}",
+	"bs-socialwikipage-var-wikipageid": "Label for entry field \"wikipageid\".\n{{Identical|Assigned page}}",
+	"bs-socialwikipage-switch-nostash-description": "Description for behavior switch \"<nowiki>__NOSTASH__</nowiki>\" that hides the attachment area of this page.",
+	"bs-socialwikipage-stash-insertfiledialog-title": "Title in dialog that adds files to the stash entry\n{{Identical|Add file}}",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "Button in dialog that adds a file to the stash entry\n{{Identical|Add}}",
+	"bs-socialwikipage-stash-editor-attachedfiles": "Label for section in stash entry that lists attached files",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "Short label for button that deletes an attached file from the stash entry\n{{Identical|Delete}}",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "Short label for button that adds an attached file to the stash entry\n{{Identical|Add}}",
+	"apihelp-bs-socialstash-tasks-summary": "{{doc-apihelp-summary|bs-socialstash-tasks}}"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"spark-desc": "يضيف وسم <code><nowiki><spark /></nowiki></code> الذي يمكن من تضمين مزج\n[http://km.aifb.kit.edu/sites/spark/ Spark]",
+	"spark-missing-query": "تحتاج إلى تحديد استعلام باستخدام الوسيط \"data-spark-query\"."
+}

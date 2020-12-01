@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Zygimantus"
+		]
+	},
+	"bs-permissionmanager-desc": "Administracijos sąsaja vartotojų teisių redagavimui",
+	"prefs-permissionmanager": "Leidimų valdymas",
+	"bs-permissionmanager-label": "Leidimų valdymas",
+	"bs-permissionmanager-btn-group-label": "Grupė:",
+	"bs-permissionmanager-header-permissions": "Leidimai",
+	"bs-permissionmanager-header-global": "Viki",
+	"bs-permissionmanager-header-group": "Grupė",
+	"bs-permissionmanager-btn-save-label": "Išsaugoti",
+	"bs-permissionmanager-btn-save-in-progress-label": "Įrašoma...",
+	"bs-permissionmanager-save-success": "Leidimai išsaugoti.",
+	"bs-permissionmanager-pref-enablerealitycheck": "Įjungti leidimo tikrinimą",
+	"bs-permissionmanager-pref-max-backups": "Atsarginių kopijų limitas",
+	"bs-permissionmanager-unsaved-changes": "Yra neišsaugotų pakeitimų. Ar tikrai norite išeiti iš puslapio dabar? Neišsaugoti pakeitimai bus prarasti.",
+	"bs-permissionmanager-error-lockout": "Bent viena grupė turi turėti teises į „$1“.\nPakeitimai negali būti išsaugoti.",
+	"log-name-bs-permission-manager": "Leidimo tvarkymo žurnalas",
+	"log-description-bs-permission-manager": "Tai yra grupės teisių pakeitimų žurnalas.",
+	"log-show-hide-bs-permission-manager": "$1 leidimo tvarkymo žurnalas",
+	"logentry-bs-permission-manager-modify": "$1 {{GENDER:$2|pakeitė}} grupės $4 leidimus",
+	"apihelp-bs-permissionmanager-tasks-description": "Pateikia užduotis, skirtas PermissionManager",
+	"action-permissionmanager-viewspecialpage": "Peržiūrėti specialų puslapį „{{int:bs-permissionmanager-label}}“",
+	"permissionmanager": "Leidimų valdymas"
+}

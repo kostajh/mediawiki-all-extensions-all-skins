@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"David1010"
+		]
+	},
+	"smoothgallery": "გლუვი გალერეა",
+	"smoothgallery-title": "გლუვი გალერეა",
+	"smoothgallery-smoothgallerytitle": "გლუვი გალერეა: $1",
+	"smoothgallery-error": "<b>გლუვი გალერეის შეცდომა:</b>",
+	"smoothgallery-gallery-not-found": "მოხოვნილი გალერეა არ არსებობს.",
+	"smoothgallery-not-found": "გალერეაში არ დამატებულა სურათი. \nგთხოვთ, ერთი მაინც დაამატოთ.",
+	"smoothgallery-no-images": "ამ გალერეისათვის სურათი ვერ მოიძებნა.\nდარწმუნდით, რომ {{PLURAL:$3|მოთხოვნილი სურათი|ყველა მოთხოვნილი სურათი}} არსებობს.\nშემდეგი {{PLURAL:$2|სურათი|სურათი}} ვერ მოიძებნა: $1",
+	"smoothgallery-invalid-images": "შემდეგ მოთხოვნილ {{PLURAL:$2|სურათს გააჩნია|სურათს გააჩნიათ}} არასწორი ტიპი: $1",
+	"smoothgallery-unexpected-error": "მოხდა გაუთვალისწინებელი შეცდომა.\nგთხოვთ, გააგზავნეთ შეცდომის ანგარიში.",
+	"smoothgallery-javascript-disabled": "ამ გალერეის გამართულად მუშაობისათვის საჭიროა ჯავასკრიპტი."
+}

@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Karduelis",
+			"MuratTheTurkish",
+			"Vito Genovese"
+		]
+	},
+	"duplicator": "Bir sayfayı kopyala",
+	"duplicator-desc": "Değişiklik geçmişlerinin tümü ile [[Special:Duplicate|sayfaların bağımsız kopyalarını]] oluştur",
+	"duplicator-toolbox": "Bu sayfayı kopyala",
+	"duplicator-header": "Bu sayfa, tüm geçmişlerin bağımsız kopyalarını oluşturarak bir sayfanın tam kopyalamasını mümkün kılmaktadır.\nSayfa alımı gibi durumlarda kullanışlıdır.",
+	"duplicator-options": "Seçenekler",
+	"duplicator-source": "Kaynak:",
+	"duplicator-dest": "Hedef:",
+	"duplicator-dotalk": "Tartışma sayfasını (varsa) kopyala",
+	"duplicator-dosubpages": "Alt sayfaları (varsa) kopyala",
+	"duplicator-dohistory": "Tam sayfa geçmişini çoğalt",
+	"duplicator-submit": "Kopya",
+	"duplicator-summary": "[[$1]] sayfasından kopyalandı, revizyon [[$2]]",
+	"duplicator-success": "[[$1]], [[$2]] hedefine kopyalandı.",
+	"duplicator-success-revisions": "$1 revizyon kopyalandı.",
+	"duplicator-success-talknotcopied": "Tartışma sayfası kopyalanamadı.",
+	"duplicator-failed": "Sayfa kopyalanamadı.\nBilinmeyen bir hata oluştu.",
+	"duplicator-failed-toolong": "[[$1]] kopyalanmadı. Hedef başlığı çok uzun.",
+	"duplicator-failed-dest-exists": "[[$1]] kopyalanmadı. [[$2]] hedefi zaten var.",
+	"duplicator-source-invalid": "Lütfen geçerli bir kaynak başlığı girin.",
+	"duplicator-source-notexist": "[[$1]] mevcut değil. Lütfen mevcut olan bir sayfa başlığı girin.",
+	"duplicator-dest-invalid": "Lütfen geçerli bir hedef başlık girin.",
+	"duplicator-dest-exists": "[[$1]] zaten mevcut. Lütfen mevcut olmayan bir hedef başlık girin.",
+	"action-duplicate": "sayfaları çoğalt",
+	"right-duplicate": "Sayfaları çoğalt"
+}

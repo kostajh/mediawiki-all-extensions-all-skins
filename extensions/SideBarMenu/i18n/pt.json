@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"SandroHc",
+			"Vitorvicentevalente"
+		]
+	},
+	"sidebarmenu-desc": "Um analisador (parser) de menu lateral que possibilita criar menus e sub-menus ocultáveis/expansíveis",
+	"sidebarmenu-parser-input-error": "O analisador retornou um erro: $1",
+	"sidebarmenu-parser-syntax-error": "Não foi possível analisar \"$1\"; certifique-se de que a sintaxe está correta.",
+	"sidebarmenu-js-init-error": "Falhou ao carregar os recursos de JavaScript.",
+	"sidebarmenu-edit": "Editar menu",
+	"sidebarmenu-parser-menuitem-expanded-null": "O valor fornecido é inválido; deveria ser \"null\", \"true\" ou \"false\".",
+	"sidebarmenu-parser-config-error": "Houve erros de validação de parâmetros de entrada",
+	"sidebarmenu-parser-subpage-error-title-not-found": "Não foi encontrado o título da subpágina referenciada"
+}

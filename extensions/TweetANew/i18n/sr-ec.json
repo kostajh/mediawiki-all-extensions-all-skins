@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Rancher",
+			"Zoranzoki21"
+		]
+	},
+	"tweetanew-desc": "Твитује када је страница направљена или уређена",
+	"tweetanew-newaction": "Твитуј о овој новој страници",
+	"tweetanew-newtooltip": "Пошаљите информације о овој новој страници на Twitter",
+	"tweetanew-editaction": "Твитуј о овој измени",
+	"tweetanew-edittooltip": "Пошаљите информације о овој измени на Twitter",
+	"tweetanew-minoredit": "м",
+	"tweetanew-authorcredit": "од",
+	"tweetanew-newdefault": "НОВА СТРАНИЦА: $1 — $2",
+	"tweetanew-new1": "Изгледа као да је страница „$1” направљена на адреси $2"
+}

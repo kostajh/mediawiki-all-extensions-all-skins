@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti"
+		]
+	},
+	"listsignup": "Lijst signup",
+	"listsignup-desc": "Aangepaste lijst aanmeldingsformulier",
+	"listsignup-legend": "Vul uw gegevens hieronder.",
+	"listsignup-success": "Uw e-mail adres is ingediend.",
+	"listsignupdisplay": "Lijst signup display",
+	"listsignuppurge": "Lijst signup wissen",
+	"listsignuppurge-legend": "Wist alle informatie van de inschrijf lijst",
+	"listsignuppurge-pretext": "\"'Waarschuwing!\"' Hiermee verwijdert u alle adressen uit de lijst. Deze actie kan niet ongedaan worden gemaakt.",
+	"listsignuppurge-success": "De lijst was verwijderd!",
+	"right-viewlistsignupdisplay": "Bekijk de inschrijf lijst",
+	"right-purgelistsignupdisplay": "Het zuiveren van de inschrijf lijst",
+	"action-viewlistsignupdisplay": "bekijk de inschrijf lijst",
+	"action-purgelistsignupdisplay": "Het zuiveren van de inschrijf lijst"
+}

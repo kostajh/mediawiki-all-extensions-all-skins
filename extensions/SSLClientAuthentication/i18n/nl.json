@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"sslauth-desc": "Maakt het voor gebruikers SSL-certificaten te uploaden om die te gebruiken voor authenticatie",
+	"sslauth-title-enable": "SSL Clientauthenticatie inschakelen",
+	"sslauth-title-disable": "SSL Clientauthenticatie uitschakelen",
+	"sslauth-enable": "Inschakelen",
+	"sslauth-disable": "Uitschakelen",
+	"sslauth-cn": "Algemene naam",
+	"sslauth-email": "E-mailadres",
+	"sslauth-serial": "Serienummer",
+	"sslauth-response-enable": "SSL-verificatie is ingeschakeld. Als i verbindt met {{SITENAME}} via HTTPS met uw clientcertificaat, wordt u automatisch aangemeld.",
+	"sslauth-response-disable": "SSL-verificatie is uitgeschakeld.",
+	"sslauth-invalidrequest-title": "Ongeldige aanvraag",
+	"sslauth-invalidrequest": "Er moet een geldig SSL clientcertificaat opgegeven worden voordat deze pagina nuttig is.",
+	"clientssl-legend": "SSL-authenticatie",
+	"clientssl-text": "Gebruik deze pagina om verificatie met SSL clientcertificaten in en uit te schakelen",
+	"sslauth-prefs-name": "SSL-authenticatie",
+	"sslauth-prefs-linktospecial": "Clientcertificaten in- of uitschakelen"
+}

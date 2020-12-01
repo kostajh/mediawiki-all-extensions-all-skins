@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Bugoslav",
+			"EugeneZelenko",
+			"Fryed-peach",
+			"Mormegil",
+			"Purodha",
+			"Raymond",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"indexfunc-desc": "{{desc|name=IndexFunction|url=https://www.mediawiki.org/wiki/Extension:IndexFunction}}",
+	"indexfunc-badtitle": "Used as error message. Parameters:\n* $1 - page title\nSee also:\n* {{msg-mw|Indexfunc-index-exists}}\n{{Identical|Invalid title}}",
+	"indexfunc-editwarning": "Used as warning when editing. Parameters:\n* $1 - list of target pages\n* $2 - number of target pages\nSee also:\n* {{msg-mw|Indexfunc-movewarn}}",
+	"indexfunc-index-exists": "Used as error message. Parameters:\n* $1 - page title\nSee also:\n* {{msg-mw|Indexfunc-badtitle}}",
+	"indexfunc-movewarn": "Used as warning when moving. Parameters:\n* $1 - page title\n* $2 - list of target pages\n* $3 - number of target pages\nSee also:\n* {{msg-mw|Indexfunc-editwarning}}",
+	"index": "This is a label at the MediaWiki:Sidebar indicating searching through the A-Z index (like [[m:w:en:Portal:Contents/A–Z index]]).",
+	"index-legend": "Used in [[Special:Index]].",
+	"index-search": "Used as label for the \"Search text\" input box.\n{{Identical|Search}}",
+	"index-submit": "Used as label for the Submit button.\n{{Identical|Submit}}",
+	"index-disambig-start": "Parameters:\n* $1 - page title",
+	"index-exclude-categories": "{{notranslate}}",
+	"index-emptylist": "Used if there are no pages to show. Parameters:\n* $1 - page title",
+	"index-expand-detail": "Used as toggle on [[Special:Index]]",
+	"index-hide-detail": "Used as toggle on [[Special:Index]]",
+	"index-no-results": "Used as error message on [[Special:Index]]",
+	"index-search-explain": "If your language permits, you can replace <code>submit</code> with <code>{<nowiki />{int:index-submit}}</code> for the button label.",
+	"index-details-explain": "Used as note for javascript users on [[Special:Index]]"
+}

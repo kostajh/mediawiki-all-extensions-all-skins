@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Maria zaos",
+			"Toliño"
+		]
+	},
+	"sphinxsearch-desc": "Substitúe o motor de procuras de MediaWiki co [http://www.sphinxsearch.com/ Sphinx].",
+	"sphinxPowered": "Desenvolvido por $1",
+	"sphinxClientFailed": "Non se puido conectar co cliente Sphinx.",
+	"sphinxSearchFailed": "Fallou a pescuda: $1",
+	"sphinxPspellError": "Non se puido chamar a extensión pspell."
+}

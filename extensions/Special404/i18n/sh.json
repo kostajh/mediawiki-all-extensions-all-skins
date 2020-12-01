@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Conquistador",
+			"Vlad5250"
+		]
+	},
+	"special404-desc": "Omogućava odrednicu za greške tipa „404 nije pronađeno“",
+	"error404": "404 nije pronađeno",
+	"special404-body": "Traženi URL nije pronađen.\n\nJeste li mislili upisati {{fullurl:$1}}?\n\nMožda biste željeli pogledati:\n* [[{{MediaWiki:Mainpage}}|Glavna stranica]]"
+}

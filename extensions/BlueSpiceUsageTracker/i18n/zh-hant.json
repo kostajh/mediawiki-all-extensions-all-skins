@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"A2093064",
+			"Kly",
+			"Liuxinyu970226",
+			"Winston Sung"
+		]
+	},
+	"bs-usagetracker-desc": "保留有關擴充功能使用的統計資料",
+	"prefs-usagetracker": "使用追蹤",
+	"usagetracker": "使用追蹤",
+	"bs-usagetracker-startjobs": "現在更新",
+	"bs-usagetracker-create-statistics": "更新使用統計",
+	"bs-usagetracker-col-identifier": "識別碼",
+	"bs-usagetracker-col-desc": "描述",
+	"bs-usagetracker-col-count": "計數",
+	"bs-usagetracker-col-last-updated": "上一次更新",
+	"bs-usagetracker-caution": "請注意：更新使用統計可能會花費一些時間和資源。請僅在您有真正確定需要目前資料時來觸發更新。更新會透過延遲項目來完成，因此在資料有完全被收集前，您需要重新載入數次。",
+	"bs-usagetracker-base-collector-desc": "使用 $1 的頁面數量",
+	"bs-usagetracker-tag-collector-desc": "使用標籤 <$1> 的頁面數量",
+	"bs-usagetracker-db-collector-desc": "$1 的數量",
+	"bs-usagetracker-open-tasks": "網站分析目前正在進行。{{PLURAL:$1|1 個分析|$1 個分析}}仍在開啓。<a href='$2'>（重新整理）</a>",
+	"apihelp-bs-usagetracker-store-summary": "保留有關擴充功能使用的統計資料",
+	"action-usagetracker-update": "重新執行更新程序，所有追蹤的資料會收集於 [[Special:UsageTracker]] 特殊頁面。",
+	"right-usagetracker-update": "重新執行更新程序的權限，所有追蹤的資料會收集於 [[Special:UsageTracker]] 特殊頁面。"
+}

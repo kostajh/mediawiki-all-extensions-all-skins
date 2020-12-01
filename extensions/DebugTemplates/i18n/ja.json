@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player",
+			"Shirayuki",
+			"Sujiniku"
+		]
+	},
+	"debugtemplates-form": "入力エリア",
+	"debugtemplates-args-name": "名前",
+	"debugtemplates-args-value": "値",
+	"debugtemplates-args-value-clear": "すべてクリア",
+	"debugtemplates-error-button": "エラーメッセージのクリア",
+	"debugtemplates-error-parse": "エラー: 入力テキストを構文解析できません:",
+	"debugtemplates-error-template-name": "エラー: テンプレート名を決定できません:",
+	"debugtemplates-error-template-page": "エラー: テンプレートページをロードできません:"
+}

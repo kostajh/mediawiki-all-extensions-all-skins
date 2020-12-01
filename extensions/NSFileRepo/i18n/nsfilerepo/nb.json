@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"nsfilerepo-desc": "Gir navneromsbaserte funksjoner til opplastede filer",
+	"nsfilerepo-upload-target": "Målfilnavn i navnerom",
+	"nsfilerepo-nsmain": "(hoved)",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext": "Dette feltet kan ikke endres når man laster opp en fil på nytt",
+	"nsfilerepo-move-file-namespace-action-label": "Sett filnavnerom",
+	"nsfilerepo-move-file-namespace-dialog-title": "Sett filnavnerom",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "Ferdig",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "Avbryt",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "Navnerom"
+}

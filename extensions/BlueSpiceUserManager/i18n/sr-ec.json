@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21",
+			"Сербијана"
+		]
+	},
+	"bs-usermanager-headeremail": "Имејл",
+	"bs-usermanager-filter-only-activated-users": "Прикажи све активиране кориснике",
+	"bs-usermanager-filter-only-deactivated-users": "Прикажи све деактивиране кориснике",
+	"apihelp-bs-usermanager-group-store-description": "Даје кориснички менаџер задатака api за BlueSpice."
+}

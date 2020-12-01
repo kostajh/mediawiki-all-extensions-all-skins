@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"readinglists-desc": "사용자가 북마크나 \"나중에 읽기\" 목록과 같은 개인 문서 목록을 관리할 수 있게 합니다.",
+	"readinglists-db-error-not-set-up": "이 사용자에 대해 읽기 목록이 설정되지 않았습니다.",
+	"readinglists-db-error-already-set-up": "읽기 목록은 이 사용자에 대해 이미 설정되어 있습니다.",
+	"readinglists-db-error-cannot-delete-default-list": "기본 목록은 삭제할 수 없습니다.",
+	"readinglists-db-error-cannot-update-default-list": "기본 목록은 업데이트할 수 없습니다.",
+	"readinglists-db-error-no-such-list": "$1 목록이 존재하지 않습니다.",
+	"readinglists-db-error-no-such-list-entry": "$1 목록 엔트리는 존재하지 않습니다.",
+	"readinglists-db-error-not-own-list": "$1 목록은 다른 사용자에 속해 있습니다.",
+	"readinglists-db-error-not-own-list-entry": "$1 목록 엔트리는 다른 사용자에 속해 있습니다.",
+	"readinglists-db-error-list-deleted": "$1 목록이 삭제되었습니다.",
+	"readinglists-db-error-list-entry-deleted": "$1 목록 엔트리가 삭제되었습니다.",
+	"readinglists-db-error-duplicate-list": "이 이름의 목록은 이미 존재합니다.",
+	"readinglists-db-error-duplicate-page": "목록에 이미 이 문서가 포함되어 있습니다.",
+	"readinglists-db-error-empty-list-ids": "목록 id 변수는 비어 있으면 안 됩니다.",
+	"readinglists-db-error-user-required": "사용자 지정 없이 이 메소드를 호출할 수 없습니다.",
+	"readinglists-db-error-list-limit": "사용자는 $1개가 넘는 {{PLURAL:$1|목록}}을 가질 수 없습니다.",
+	"readinglists-db-error-too-long": "$1 필드의 값은 $2바이트를 초과할 수 없습니다.",
+	"readinglists-db-error-no-such-project": "'$1'은(는) 알려진 프로젝트가 아닙니다.",
+	"readinglists-browser-add-entry-success": "$1 문서를 읽기 목록에 저장했습니다",
+	"readinglists-browser-login-prompt": "로그인하여 문서를 저장합니다",
+	"readinglists-browser-error-intro": "오류가 발생했습니다: $1",
+	"readinglists-browser-enable-sync-prompt": "문서 저장을 시작하기 위해 위키백과 앱에서 동기화를 사용합니다",
+	"readinglists-browser-extension-info-link-text": "더 알아보기",
+	"readinglists-browser-list-entry-limit-exceeded": "문서를 저장할 수 없습니다. 목록 당 문서 $1개의 제한에 도달했습니다",
+	"readinglists-browser-extension-product-title": "위키백과 읽기 목록",
+	"readinglists-browser-page-not-supported": "$1은(는) 이 문서를 지원하지 않습니다"
+}

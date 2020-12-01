@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-dashboards-desc": "Pruža radnu tablu za korisnike i administratore",
+	"bs-specialadmindashboard-label": "Upravljačka tabla",
+	"bs-dashboards-addportlet": "Dodaj portlet",
+	"bs-dashboards-portlets": "Portleti",
+	"prefs-dashboards": "Upravljačke table",
+	"bs-dashboards-pref-userdashboardonlogo": "Logo sajta povezuje se sa kontrolnom tablom korisnika",
+	"admindashboard": "Upravljačka tabla za administratore",
+	"userdashboard": "Upravljačka tabla za korisnike",
+	"bs-dashboard-userportlet-calendar-title": "Kalendar",
+	"bs-dashboard-userportlet-calendar-description": "Kalendar",
+	"bs-dashboard-userportlet-wikipage-title": "Viki stranica",
+	"bs-dashboard-userportlet-wikipage-description": "Koristi viki stranicu da definišete vidžet",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "Viki stranica",
+	"apihelp-bs-dashboard-task-param-dc": "Parametar za kontrolisanje keš memorije. Koristite se od strane ExtJS.",
+	"apihelp-bs-dashboards-store-description": "Izlistava sve dostupne portlete",
+	"apihelp-bs-dashboards-store-summary": "Izlistava sve dostupne portlete",
+	"apihelp-bs-dashboards-tasks-description": "Čuva konfiguraciju upravljačke table",
+	"apihelp-bs-dashboards-tasks-summary": "Čuva konfiguraciju upravljačke table",
+	"apihelp-bs-dashboards-widgets-tasks-description": "Vraća sadržaj za neke vidžete upravljačkih tabli",
+	"apihelp-bs-dashboards-widgets-tasks-summary": "Vraća sadržaj za neke vidžete upravljačkih tabli",
+	"action-dashboards-viewspecialpage-userdashboard": "pogledate posebnu stranicu „{{int:userdashboard}}”",
+	"right-dashboards-viewspecialpage-userdashboard": "pristup posebnoj stranici [[Special:UserDashboard]]"
+}

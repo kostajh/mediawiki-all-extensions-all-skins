@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Sasa Stefanovic",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић"
+		]
+	},
+	"form": "Започињање нове странице",
+	"form-no-name": "Нема имена форме",
+	"form-bad-name": "Лоше име форме",
+	"form-save": "Сачувај",
+	"form-article-exists": "Страница постоји",
+	"form-article-existstext": "Страница [[$1]] већ постоји.",
+	"form-bad-page-name": "Лоше име стране",
+	"form-save-summary": "Нова страница користи [[Special:Form/$1|форму $1]]",
+	"form-save-error": "Грешка приликом снимања форме"
+}

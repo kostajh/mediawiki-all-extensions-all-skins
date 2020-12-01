@@ -1,0 +1,18 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"rules": {
+		"eqeqeq": "off",
+		"no-eval": "off",
+		"no-implicit-globals": "off",
+		"no-redeclare": "off",
+		"no-undef": "off",
+		"no-use-before-define": "off",
+		"one-var": "off",
+		"vars-on-top": "off"
+	}
+}

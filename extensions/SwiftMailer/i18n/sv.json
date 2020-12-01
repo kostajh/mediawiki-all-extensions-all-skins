@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil"
+		]
+	},
+	"swiftmailer-desc": "Gör SwiftMailer tillgängligt som en alternativ mailklient",
+	"swiftmailer-smtp-error": "Fel vid konfigurering av SMTP-transport för SwiftMailer: $1",
+	"swiftmailer-send-error": "Fel vid sändning av e-post med SwiftMailer: $1"
+}

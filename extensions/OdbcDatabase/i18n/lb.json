@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"odbcdatabase": "ODBC-Datebank",
+	"odbcdatabase-odbc-missing": "ODBC Funktioune feelen. Vergewëssert Iech datt <code>PHP:ODBC</code> installéiert ass.",
+	"odbcdatabase-insert-id-unsupported": "D'Funktioun insertld() gëtt net ënnerstëtzt.",
+	"odbcdatabase-unknown-server-version": "Onbekannten ODBC-Serverversioun."
+}

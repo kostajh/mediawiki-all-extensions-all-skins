@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dinhxuanduyet",
+			"Minh Nguyen",
+			"Quenhitran"
+		]
+	},
+	"apifeatureusage": "Sử dụng tính năng API",
+	"apifeatureusage-desc": "Tóm lược sử dụng chức năng API theo tác nhân người dùng.",
+	"apifeatureusage-elasticsearch-error": "Lỗi Elasticsearch: $1",
+	"apifeatureusage-legend": "Sử dụng tính năng API",
+	"apifeatureusage-agent-label": "Tác nhân người dùng:",
+	"apifeatureusage-startdate-label": "Ngày bắt đầu:",
+	"apifeatureusage-enddate-label": "Ngày kết thúc:",
+	"apifeatureusage-submit": "Lấy dữ liệu",
+	"apifeatureusage-no-indexes": "Không có dữ liệu nào vào thời gian được chỉ định.",
+	"apifeatureusage-missing-indexes": "Không có dữ liệu nào vào một phần của thời gian được chỉ định.",
+	"apifeatureusage-warnings": "Cảnh báo: $1",
+	"apifeatureusage-column-feature": "Tính năng",
+	"apifeatureusage-column-date": "Ngày",
+	"apifeatureusage-column-uses": "Sử dụng",
+	"apihelp-query+featureusage-description": "Tóm lược sử dụng chức năng API theo tác nhân người dùng.",
+	"apihelp-query+featureusage-example-simple": "Sử dụng tính năng truy vấn cho người dùng hiện tại"
+}

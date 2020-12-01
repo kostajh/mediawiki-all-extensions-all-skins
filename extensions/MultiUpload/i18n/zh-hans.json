@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"multiupload": "上传多个文件",
+	"multiupload-desc": "[[Special:MultiUpload|用于同时上传多个文件的特殊页面]]",
+	"multiupload-text": "使用下面的表单来上传多个文件。要查看或搜索之前上传的文件，请前往[[Special:FileList|上传文件列表]]，（重新）上传也会记载在[[Special:Log/upload|上传日志]]中，删除则记载在[[Special:Log/delete|删除日志]]中。\n\n要在页面中包含文件，使用以下形式链接之一：\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.jpg]]</nowiki></code></strong>使用文件的完整版本\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.png|200px|thumb|left|替换文本]]</nowiki></code></strong>在左边框中使用200像素宽对比度，并添加“替换文本”作为说明\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:File.ogg]]</nowiki></code></strong>直接链接文件，而不播放文件。\n\n一旦您选择了文件，此页面将会扩充，这允许您在上传之前选择更多文件。\n\n要解压<code>.zip</code>、<code>.tar</code>、<code>.tar.gz</code>或<code>.tgz</code>文件并上传其包含的文件，可选择打包文件，然后使用出现的“{{int:multiupload-unpack-button}}”按钮。",
+	"multipleupload": "上传文件",
+	"multipleupload-toolbox": "上传多个文件",
+	"multiupload-submit": "上传文件",
+	"multiupload-uploadedto": "已上传文件$1。",
+	"multiupload-row": "文件$1",
+	"multiupload-unpack-button": "解压",
+	"multiupload-notify-ok": "确定",
+	"multiupload-upload-package-error": "上传打包文件时出错",
+	"multiupload-unpack-error": "解压打包文件时出错",
+	"multiupload-unreadable-package": "不能读取文件$1",
+	"multiupload-http-error": "无法连接到服务器。",
+	"multiupload-file-unpacked-from": "文件<b>$1</b>来自打包<b>$2</b>",
+	"apihelp-multiupload-unpack-description": "在导入内容前，解压ZIP或tar文件。",
+	"apihelp-multiupload-unpack-summary": "在导入内容前，解压ZIP或tar文件。",
+	"apihelp-multiupload-unpack-param-key": "当上传打包文件至暂存处时可获得“filekey”",
+	"apihelp-multiupload-unpack-param-filename": "打包文件名"
+}

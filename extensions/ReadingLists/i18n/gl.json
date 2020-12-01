@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"readinglists-desc": "Permítelle ós usuarios manexar listas privadas de artigos, coma páxinas marcadas ou listas de \"ler máis tarde\".",
+	"readinglists-db-error-not-set-up": "As listas de lectura non foron creadas para este usuario.",
+	"readinglists-db-error-already-set-up": "As listas de lectura xa foron creadas para este usuario.",
+	"readinglists-db-error-cannot-delete-default-list": "A lista por defecto non pode eliminarse.",
+	"readinglists-db-error-cannot-update-default-list": "Non se pode actualizar a lista por defecto.",
+	"readinglists-db-error-no-such-list": "A lista $1 non existe.",
+	"readinglists-db-error-no-such-list-entry": "Non existe unha entrada $1 na lista.",
+	"readinglists-db-error-not-own-list": "A lista $1 pertence a outro usuario.",
+	"readinglists-db-error-not-own-list-entry": "A entrada $1 da lista pertence a outro usuario.",
+	"readinglists-db-error-list-deleted": "Eliminouse a lista $1.",
+	"readinglists-db-error-list-entry-deleted": "A entrada de lista $1 foi eliminada.",
+	"readinglists-db-error-duplicate-list": "Xa existe unha lista con este nome.",
+	"readinglists-db-error-duplicate-page": "A lista xa contén esta páxina.",
+	"readinglists-db-error-empty-list-ids": "O parámetro de identificadores de lista non pode estar baleiro.",
+	"readinglists-db-error-user-required": "Este método non pode chamarse sen especificar o usuario.",
+	"readinglists-db-error-list-limit": "Os usuarios non poden ter máis de $1 {{PLURAL:$1|lista|listas}}.",
+	"readinglists-db-error-entry-limit": "A lista $1 non pode ter máis de $2 {{PLURAL:$2|entrada|entradas}}.",
+	"readinglists-db-error-too-long": "O valor para o campo $1 non pode ser maior de $2 bytes.",
+	"readinglists-db-error-no-such-project": "'$1' non é un proxecto recoñecido.",
+	"readinglists-browser-error-intro": "Houbo un erroː $1",
+	"readinglists-browser-extension-info-link-text": "Máis información"
+}

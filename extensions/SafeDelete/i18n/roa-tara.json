@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"safedelete": "Scangellazzione Secure",
+	"safedelete-desc": "Scangelle 'a pàgene sulamende ce non ge stonne pàggene jndr'à 'u namespace specificate ca appondene a jedde",
+	"safedelete-title": "Scangìlle \"$1\"",
+	"safedelete-missingpagename": "Manghe 'u nome d'a pàgene.",
+	"safedelete-missingnamespaces": "Elenghe de le namespace pa Scangellazzione Speciale non g'è 'mbostate.",
+	"safedelete-cannotdelete": "'A pàgene \"$1\" non ge se pò scangellà purcé stonne collegaminde o reindirizzaminde a iedde {{PLURAL:$2|da sta pàgene|da ste pàggene}}:"
+}

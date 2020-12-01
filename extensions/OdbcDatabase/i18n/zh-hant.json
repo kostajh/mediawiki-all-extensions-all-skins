@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"odbcdatabase": "ODBC 資料庫",
+	"odbcdatabase-desc": "使用 PHP <code>odbc_*</code> 命令函式庫來支援外部資料擴充的驅動程式",
+	"odbcdatabase-odbc-missing": "缺少 ODBC 函式。請確認 <code>PHP:ODBC</code> 已安裝。",
+	"odbcdatabase-connection-error": "連結至伺服器 [{{1}}] 時出錯：{{2}}",
+	"odbcdatabase-free-error": "無法釋出 ODBC 結果",
+	"odbcdatabase-fetch-object-error": "在索取物件時出錯：[{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "在索取列時出錯：[{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "函數 insertId() 不受支援。",
+	"odbcdatabase-unknown-server-version": "不明 ODBC 伺服器版本。"
+}

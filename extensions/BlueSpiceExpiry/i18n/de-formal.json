@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mglaser"
+		]
+	},
+	"bs-expiry-text-delete": "Sind Sie sicher, dass Sie {{PLURAL:$1|diese Veraltung|diese $1 Veraltungen}} löschen wollen?",
+	"bs-expiry-flyout-intro": "Hier können Sie eine Seite als veraltet oder aktuell markieren und bei veralteten Seite sehen, welche Änderungen stattgefunden haben, seit die Seite nicht mehr aktuell ist.",
+	"bs-expiry-alert-body-expired": "Diese Seite ist seit $1 nicht mehr aktuell. Bitte prüfen Sie den Inhalt.",
+	"notification-bs-expiry-today-web-body": "Der Artikel \"$1\" ist veraltet. Bitte überprüfen Sie den Inhalt des Artikels um zu entscheiden, ob er aktualisiert werden muss. Wenn der Artikelinhalt noch aktuell ist, können Sie einfach die Aktualität bestätigen.\n\nKommentar der Veraltung:\n$2",
+	"notification-bs-expiry-today-email-body": "Der Artikel \"$1\" ist veraltet. Bitte überprüfen Sie den Inhalt des Artikels um zu entscheiden, ob er aktualisiert werden muss. Wenn der Artikelinhalt noch aktuell ist, können Sie einfach die Aktualität bestätigen.\n\nKommentar der Veraltung:\n$2",
+	"notification-bs-expiry-one-week-web-body": "Der Artikel \"$1\" wird diese Woche veraltet. Bitte überprüfen Sie den Inhalt des Artikels um zu entscheiden, ob er aktualisiert werden muss.\n\nKommentar der Veraltung:\n$2",
+	"notification-bs-expiry-one-week-email-body": "Der Artikel \"$1\" wird diese Woche veraltet. Bitte überprüfen Sie den Inhalt des Artikels um zu entscheiden, ob er aktualisiert werden muss.\n\nKommentar der Veraltung:\n$2"
+}

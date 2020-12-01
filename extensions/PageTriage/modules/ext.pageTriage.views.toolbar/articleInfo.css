@@ -1,0 +1,70 @@
+#mwe-pt-info .mwe-pt-tool-flyout {
+	top: -26px;
+}
+
+.mwe-pt-info-header {
+	border-bottom: 1px solid #000;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	width: 100%;
+	clear: both;
+}
+
+.mwe-pt-info-header-details {
+	font-weight: normal;
+	font-size: 0.8em;
+	float: right;
+}
+
+.mwe-pt-info-basic {
+	position: relative;
+	line-height: 1.2em;
+}
+
+.mwe-pt-info-problem-name {
+	color: #f00;
+}
+
+.mwe-pt-info-problem-desc {
+	font-size: 0.9em;
+	color: #666;
+}
+
+.mwe-pt-info-status-icon {
+	float: left;
+	padding: 3px 5px 7px 3px;
+}
+
+.mwe-pt-info-history-date {
+	font-weight: bold;
+}
+
+.mwe-pt-info-history-entry {
+	font-size: 0.9em;
+	margin: 0.5em 0 0.5em 1.5em;
+}
+
+.mwe-pt-info-page-status {
+	padding-top: 5px;
+	margin-bottom: 20px;
+}
+
+.mwe-pt-info-page-status p {
+	margin: 0;
+}
+
+.mwe-pt-has-talkpage-feedback {
+	font-size: smaller;
+}
+
+.mwe-pt-talkpage-feedback-badge .notification-badge {
+	/* Tweak the styles from oojs-ui.styles.icons-alerts for the display of the message icon. */
+	padding-left: 14px;
+	background-repeat: no-repeat;
+	background-position: 2px;
+	background-size: auto 10px;
+}
+
+.mew-pt-info-stat {
+	margin-top: 10px;
+}

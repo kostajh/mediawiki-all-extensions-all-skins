@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"security": "Archivije de securezze",
+	"security-desc": "Allarie 'a protezzione de le pàggene de MediaUicchi pe permettere de limità 'u 'ndrucamende d'u condenute de le pàggene",
+	"security-logpage": "Archivije de securezze",
+	"security-logpagetext": "Quiste jè 'n'archivije de aziune bloccate da l'[https://www.mediawiki.org/wiki/Extension:SimpleSecurity estenzione SimpleSecurity].",
+	"badaccess-read": "'''Iapre l'uecchije:''' \"$1\" avène chiamate aqquà, ma non ge tìne le permesse sufficiende pe trasè jndre.",
+	"security-info": "Stonne $1 sus a sta pàgene",
+	"security-info-toggle": "restriziune de securezze",
+	"security-inforestrict": "$1 jè ristrette a $2",
+	"security-desc-LS": "(se appleche purcé sta pàgene jè $1 \"$2\")",
+	"security-desc-PR": "('mbostate da 'a schede \"prutegge\")",
+	"security-infosysops": "Non g'avènene applecate restriziune purcé sì 'nu membre d'u gruppe \"sysop\"",
+	"security-manygroups": "gruppe $1 e $2",
+	"security-unchain": "Cangià le aziune a une a une",
+	"security-type-category": "'a categorije",
+	"security-type-namespace": "'u namespace",
+	"security-restricttogroup": "Accesse a 'u condenute riservate a le membre de \"$1\"",
+	"restriction-read": "Ligge"
+}

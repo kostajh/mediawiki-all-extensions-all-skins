@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian",
+			"Liuxinyu970226"
+		]
+	},
+	"bs-tagcloud-desc": "显示多个标签云",
+	"bs-tagcloud-error-tagtype": "提供的值“$1”不是有效商店。",
+	"bs-tagcloud-error-tagrenderer": "提供的值“$1”不是有效渲染器。",
+	"bs-tagcloud-tag-tagcloud-name": "标签云",
+	"bs-tagcloud-tag-tagcloud-title": "标签云",
+	"bs-tagcloud-tag-tagcloud-desc": "基于类别或搜索项呈现标签云",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "样式",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "选择如何渲染标签云",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "文字",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "列表",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "三维",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "市场",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "选择要使用的数据",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "分类",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "搜索表单",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "宽",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "标签云的宽度百分比",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "展示数",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "显示括号内项目的数量",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "最小的字体字号",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "条目最少的项目的字体大小",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "最大的字体字号",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "具有最多项的项的字体大小",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "排除的页面",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "不要在标签云中显示这些页面。对于更多的页面，使用逗号分隔列表，例如“主页, 测试, MyPage”。"
+}

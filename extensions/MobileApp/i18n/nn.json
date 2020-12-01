@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Njardarlogar",
+			"Ranveig"
+		]
+	},
+	"mobileapp-desc": "Gjev stilartar og skript til bruk i Wikimedia Mobile-applikasjonar",
+	"tag-mobile_app_edit": "Endring via mobilsmåprogram",
+	"tag-mobile_app_edit-description": "Endringar gjorde gjennnom småprogram for mobilar",
+	"tag-android_app_edit": "Android-app-endring",
+	"tag-android_app_edit-description": "Endringar gjort i Android-mobilappen",
+	"tag-ios_app_edit": "iOS-app-endring",
+	"tag-ios_app_edit-description": "Endringar gjort i iOS-appen",
+	"abusefilter-edit-builder-vars-user-app": "Om brukaren endra frå mobilapp"
+}

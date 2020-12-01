@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"sitesettings": "Agordoj pri retejo",
+	"sitesettings-maintab": "Ĉefa",
+	"sitesettings-sitename": "Nomo de retejo:",
+	"sitesettings-allowexternalimages": "Permesi eksterajn bildojn",
+	"sitesettings-update": "Ĝisdatigi",
+	"sitesettings-privacytab": "Privateco",
+	"sitesettings-viewingpolicy": "Vidado",
+	"sitesettings-public": "Publika",
+	"sitesettings-private": "Privata",
+	"sitesettings-veryprivate": "Privatega",
+	"sitesettings-openreg": "Malfermita",
+	"sitesettings-closedreg": "Fermita",
+	"sitesettings-editingpolicy": "Redaktado",
+	"sitesettings-openediting": "Malfermita",
+	"sitesettings-closedediting": "Fermita",
+	"sitesettings-veryclosedediting": "Tre Fermita",
+	"sitesettings-sitelogo": "Emblemo",
+	"sitesettings-nologo": "Estas neniu aktuala emblemo.",
+	"sitesettings-uploadlogo": "Alŝuti emblemon:",
+	"sitesettings-currentlogo": "Aktuala emblemo:",
+	"sitesettings-removelogo": "Forigi emblemon",
+	"sitesettings-changelogo": "Ŝanĝi emblemon:",
+	"sitesettings-logouploaded": "Alŝutis emblemon.",
+	"sitesettings-logoremoved": "Forigis emblemon.",
+	"sitesettings-faviconheader": "Dosiero de retpaĝikono",
+	"sitesettings-nofavicon": "Estas neniu aktuala retpaĝikono.",
+	"sitesettings-uploadfavicon": "Alŝuti retpaĝikonon (kiu nomiĝu <code>favicon.ico</code>):",
+	"sitesettings-currentfavicon": "Aktuala retpaĝikono:",
+	"sitesettings-removefavicon": "Forigi retpaĝikonon",
+	"sitesettings-changefavicon": "Ŝanĝi retpaĝikonon:",
+	"sitesettings-faviconuploaded": "Alŝutis retpaĝikonon.",
+	"sitesettings-faviconremoved": "Forigis retpaĝikonon."
+}

@@ -1,0 +1,61 @@
+{
+	"name": "GlobalUserrights",
+	"version": "1.5.3",
+	"author": [
+		"Nathaniel Herman",
+		"Mainframe98"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:GlobalUserrights",
+	"descriptionmsg": "gur-desc",
+	"type": "specialpage",
+	"SpecialPages": {
+		"GlobalUserrights": "GlobalUserrights"
+	},
+	"MessagesDirs": {
+		"GlobalUserrights": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"GlobalUserrightsAlias": "GlobalUserrights.alias.php"
+	},
+	"AutoloadClasses": {
+		"GlobalUserrights": "includes/GlobalUserrights.php",
+		"GlobalUserrightsHooks": "includes/GlobalUserrightsHooks.php",
+		"GlobalUserGroupMembership": "includes/GlobalUserGroupMembership.php",
+		"GlobalRightsLogFormatter": "includes/GlobalRightsLogFormatter.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "GlobalUserrightsHooks::onLoadExtensionSchemaUpdates",
+		"UserEffectiveGroups": "GlobalUserrightsHooks::onUserEffectiveGroups",
+		"SpecialListusersQueryInfo": "GlobalUserrightsHooks::onSpecialListusersQueryInfo",
+		"SiteStatsNumberInGroup": "GlobalUserrightsHooks::updateStatsForGUR",
+		"UserIsBot": "GlobalUserrightsHooks::onUserIsBot",
+		"UsersPagerDoBatchLookups": "GlobalUserrightsHooks::onUsersPagerDoBatchLookups"
+	},
+	"LogTypes": [
+		"gblrights"
+	],
+	"LogNames": {
+		"gblrights": "gur-rightslog-name"
+	},
+	"LogHeaders": {
+		"gblrights": "gur-rightslog-header"
+	},
+	"LogActionsHandlers": {
+		"gblrights/rights": "GlobalRightsLogFormatter"
+	},
+	"AvailableRights": [
+		"userrights-global"
+	],
+	"GroupPermissions": {
+		"staff": {
+			"userrights-global": true
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"manifest_version": 1
+}

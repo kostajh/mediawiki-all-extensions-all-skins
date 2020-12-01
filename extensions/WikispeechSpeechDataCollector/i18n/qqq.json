@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Karl Wettin"
+		]
+	},
+	"wikispeech-speech-data-collector": "{{name}}\nThe name of the extension",
+	"wikispeech-speech-data-collector-desc": "{{desc|name=Wikispeech Speech Data Collector|url=https://www.mediawiki.org/wiki/Extension:WikispeechSpeechDataCollector}}",
+	"right-wikispeech-speech-data-collector-record": "{{doc-right|wikispeech-speech-data-collector-record}}",
+	"action-wikispeech-speech-data-collector-record": "{{doc-action|wikispeech-speech-data-collector-record}}"
+}

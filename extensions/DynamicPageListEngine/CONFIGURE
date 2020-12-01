@@ -1,0 +1,25 @@
+<!-- 
+     page taken from 
+     https://www.mediawiki.org/wiki/Extension:DynamicPageListEngine/Configuration
+-->  
+== Configuration ==
+
+=== LocalSettings.php ===
+
+There is a number of parameters that can be customized in [[LocalSettings.php]]. The default configuration aims at maximum compatibility with [[Extension:DynamicPageList (Wikimedia)|DynamicPageList (Wikimedia)]] and is likely to satisfy your needs if you use this extension for the first time.
+
+; $wgDpleMaxCost: Maxiumum cost of a dynamic page list in terms of database load. The default value NULL means that it is automatically set to the corresponding value for [[Extension:DynamicPageList (Wikimedia)|DynamicPageList (Wikimedia)]].
+
+; $wgDpleMaxResultCount: Maxiumum number of records to fetch for one list. The default value NULL means that it is automatically set to the corresponding value for [[Extension:DynamicPageList (Wikimedia)|DynamicPageList (Wikimedia)]].
+
+; $wgDpleFeatures: Features to enable. See [[{{NAMESPACE}}:{{BASEPAGENAME}}#Usage|Usage]] for details. You should ''always'' enable at least <code>DpleFeatureCount</code>, otherwise there is no limit to the number of fetched records, and <code>DpleFeatureCheck</code>, otherwise there is no limit on the complexity of the query. If you want to use Lua, you also need <code>DpleFeatureResults</code>. Each of these may be replaced with a derived class or a class with similar semantics.
+
+; $wgDpleCondCostMap: Cost of selection conditions in terms of database load. A unit of 1 should correspond to an efficient table join. You can tune this map to reflect the real cost on your particular installation and/or prevent users from excessive use of certain features.
+
+; $wgDpleOrderCostMap: Cost of order methods in terms of database load, in units which should be vaguely comparable to those of <code>$wgDpleCondCostMap</code>.
+
+Unless you are ''very'' concerned about performance issues, you may simply enable all features in <code>$wgDpleFeatures</code> by copying it from the file <code>extension.json</code> and setting everything to true. In that case, to limit performance impact, you might decide to set <code>$wgDpleMaxCost</code> to a low value which however permits to use each feature, for instance 3.
+
+=== Messages ===
+
+Since the extension defines a lot of messages which are constantly evolving with further development, they are not documented here. Please refer to <code>i18n/qqq.json</code>.

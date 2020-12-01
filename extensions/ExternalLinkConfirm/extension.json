@@ -1,0 +1,54 @@
+{
+	"name": "ExternalLinkConfirm",
+	"version": "1.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Pastakhov Pavel Astakhov]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ExternalLinkConfirm",
+	"descriptionmsg": "externallinkconfirm-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"ExternalLinkConfirm": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"OutputPageBodyAttributes": "ExternalLinkConfirmHooks::onOutputPageBodyAttributes",
+		"BeforePageDisplay": "ExternalLinkConfirmHooks::onBeforePageDisplay"
+	},
+	"AutoloadClasses": {
+		"ExternalLinkConfirmHooks": "src/ExternalLinkConfirmHooks.php"
+	},
+	"ResourceModules": {
+		"ext.ExternalLinkConfirm": {
+			"scripts": "main.js",
+			"dependencies": [
+				"oojs-ui"
+			],
+			"messages": [
+				"externallinkconfirm-confirmation-message",
+				"externallinkconfirm-confirmation-accept",
+				"externallinkconfirm-confirmation-reject"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "ExternalLinkConfirm/modules"
+	},
+	"config": {
+		"ExternalLinkConfirmWhitelist": {
+			"value": [],
+			"description": "The list of sites that do not require confirmation before visiting"
+		},
+		"ExternalLinkConfirmTarget": {
+			"value": [],
+			"description": "Determining what the target will be for the external site"
+		}
+	},
+	"manifest_version": 2
+}

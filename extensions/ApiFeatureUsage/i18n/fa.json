@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alirezaaa",
+			"Dalba",
+			"Huji",
+			"Ladsgroup",
+			"Mjbmr",
+			"Reza1615"
+		]
+	},
+	"apifeatureusage": "کاربرد ویژگی رابط برنامه‌نویسی",
+	"apifeatureusage-elasticsearch-error": "خطای سرچ الاستیک: $1",
+	"apifeatureusage-legend": "کاربرد ویژگی رابط برنامه‌نویسی",
+	"apifeatureusage-agent-label": "عامل کاربر:",
+	"apifeatureusage-startdate-label": "تاریخ شروع:",
+	"apifeatureusage-enddate-label": "تاریخ پایان:",
+	"apifeatureusage-submit": "واکشی داده‌ها",
+	"apifeatureusage-no-indexes": "داده‌ای برای بازهٔ تاریخی مشخص‌شده موجود نیست.",
+	"apifeatureusage-missing-indexes": "هیچ داده‌ای برای بخشی از بازهٔ تاریخی مشخص‌شده موجود نیست.",
+	"apifeatureusage-warnings": "هشدار: $1",
+	"apifeatureusage-column-feature": "امکانات",
+	"apifeatureusage-column-date": "تاریخ",
+	"apifeatureusage-column-uses": "استفاده‌ها",
+	"apihelp-query+featureusage-param-start": "تاریخ شروع برای پرسمان",
+	"apihelp-query+featureusage-param-end": "تاریخ پایان برای پرسمان",
+	"apihelp-query+featureusage-param-features": "در صورت مشخص‌شدن، تنها جزئیات این ویژگی‌ها برگردانده شود.",
+	"apierror-apifeatureusage-emptyagent": "امکان جستجوی یوزر ایجنت خالی نیست"
+}

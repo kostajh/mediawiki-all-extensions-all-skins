@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"JVRKPRASAD"
+		]
+	},
+	"debugtemplates-args-eval": " అన్నీ లెక్కించు",
+	"debugtemplates-args-set-toggle": "సెట్ / అన్ని అన్‌సెట్ చేయి",
+	"debugtemplates-args-value-clear": "అన్నీ తుడిచివేయి",
+	"debugtemplates-error-button": " లోపం సందేశాలు రద్దు చేయి",
+	"debugtemplates-error-parse": "లోపం: ఇన్పుట్ టెక్స్ట్ అన్వయించడం సాధ్యం కాలేదు:",
+	"debugtemplates-eval": "అన్ని పరీక్షించు",
+	"debugtemplates-radio-select": "ఏమీలేదు",
+	"debugtemplates-radio-eval": "విశ్లేషించు",
+	"debugtemplates-reset": "అన్ని మూల్యాంకనాలు దిద్దుబాటు రద్దుచెయ్యి",
+	"debugtemplates-undo": "మూల్యాంకనం దిద్దుబాటు రద్దుచెయ్యి",
+	"debugtemplates-warning-template-not-found": "తెలియని మూస లేదా అంతర్నిర్మిత మూస:"
+}

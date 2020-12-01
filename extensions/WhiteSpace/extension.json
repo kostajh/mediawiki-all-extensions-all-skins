@@ -1,0 +1,27 @@
+{
+	"name": "WhiteSpace",
+	"version": "0.1.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Van_de_Bugger Van de Bugger]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WhiteSpace",
+	"descriptionmsg": "whitespace-desc",
+	"license-name": "AGPL-3.0-only",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"WhiteSpace": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"WhiteSpace": "WhiteSpace.class.php"
+	},
+	"Hooks": {
+		"ParserBeforePreprocess": "WhiteSpace::onParserBeforeInternalParse",
+		"ParserBeforeInternalParse": "WhiteSpace::onParserBeforeInternalParse"
+	},
+	"manifest_version": 2
+}

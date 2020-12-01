@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Or",
+			"YaronSh"
+		]
+	},
+	"bs-filerepo-labelupload": "העלאה",
+	"bs-filerepo-labelfilter": "מסנן",
+	"bs-filerepo-headerfilename": "שם הקובץ",
+	"bs-filerepo-headerfilesize": "גודל",
+	"bs-filerepo-headerpagecategories": "קטגוריות",
+	"bs-filerepo-headerfilewidth": "רוחב",
+	"bs-filerepo-headerfileheight": "גובה",
+	"bs-filerepo-headerfilemimetype": "סוג MIME",
+	"bs-filerepo-headerfileusertext": "משתמש",
+	"bs-filerepo-headerfileextension": "הרחבה",
+	"bs-filerepo-headerfiletimestamp": "הועלה",
+	"bs-filerepo-headerfilemediatype": "סוג המדיה",
+	"bs-filerepo-headerfiledescription": "תיאור",
+	"bs-filerepo-headerfilethumbnail": "תמונה ממוזערת",
+	"bs-filerepo-yes": "כן",
+	"bs-filerepo-no": "לא",
+	"bs-filerepo-pagesize": "רשומות בעמוד"
+}

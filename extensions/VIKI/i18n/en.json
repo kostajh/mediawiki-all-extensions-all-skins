@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jason Ji",
+			"Cindy Cicalese"
+		]
+	},
+	"viki-desc": "Draws a network graph of links between wiki pages or web pages",
+	"viki-error-title": "Error:",
+	"viki-error-missing-pageTitle": "You must supply at least one page title.",
+	"viki-timeout-content-namespace": "Timeout for content namespace fetch for wiki: $1. Defaulting to main namespace.",
+	"viki-error-content-namespace": "Error fetching content namespace for wiki: $1. Defaulting to main namespace.",
+	"viki-error-visit-node": "Error while attempting to visit node: $1.",
+	"viki-error-external-links": "Error fetching external links for page: $1.",
+	"viki-error-intrawiki-out": "Error fetching intrawiki outgoing links for page: $1.",
+	"viki-error-intrawiki-in": "Error fetching intrawiki backlinks for page: $1.",
+	"viki-error-https-node": "Error elaborating node: $1. You are running over HTTPS; you can only access other wikis over HTTPS.",
+	"viki-error-https-namespace": "Error fetching content namespace for wiki: $1. You are running over HTTPS; you can only access other wikis over HTTPS.",
+	"apihelp-getContentNamespaces-description": "Get the list of content namespaces for this wiki.",
+	"apihelp-getContentNamespaces-summary": "Get the list of content namespaces for this wiki."
+}

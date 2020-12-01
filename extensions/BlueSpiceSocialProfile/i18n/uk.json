@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-socialprofile-desc": "Сутність профілів для BlueSpiceSocial",
+	"bs-socialprofile-type": "Профіль",
+	"bs-socialprofile-entityaction-changeimage": "Зображення користувача",
+	"bs-social-entityaction-editprofilefields": "Дані профілю",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "Вказано недійсне значення 'User'",
+	"bs-social-profile-field-name": "Ім'я",
+	"bs-social-profile-field-email": "Ел. пошта",
+	"bs-social-profile-field-title": "Заголовок",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Пан|Пані|}}",
+	"bs-social-profile-field-department": "Відділ",
+	"bs-social-profile-field-function": "Функція",
+	"bs-social-profile-field-location": "Розташування",
+	"bs-social-profile-field-phone": "Телефон",
+	"bs-social-profile-field-validate-no-integer": "$1 має бути числом",
+	"bs-socialprofile-special-profiles-heading": "Профілі",
+	"bs-social-profile-infoshowemail": "Показувати адреси електронної пошти в профілі",
+	"socialprofiles": "Профілі",
+	"bs-socialprofile-switch-classicprofile-label": "Класичний профіль",
+	"bs-socialprofile-switch-modernprofile-label": "Сучасний профіль",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Перемкнути на класичний профіль",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Перемкнути на сучасний профіль",
+	"action-social-editothersprofile": "редагування профілів інших користувачів",
+	"right-social-editothersprofile": "Редагування профілів інших користувачів",
+	"action-socialprofile-viewspecialpage": "перегляд спеціальної сторінки «{{int:socialprofiles}}»",
+	"right-socialprofile-viewspecialpage": "Перегляд спеціальної сторінки «{{int:socialprofiles}}»"
+}

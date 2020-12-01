@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-social-notifications-email-entity-create-body": "사용자 {{GENDER:$1|$2가}} 새 \"$3\"을(를) 만들었습니다"
+}

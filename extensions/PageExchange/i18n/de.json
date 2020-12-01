@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Killarnee"
+		]
+	},
+	"packages": "Pakete",
+	"pageexchange-installed": "Eingerichtet",
+	"pageexchange-available": "Verfügbar",
+	"pageexchange-package-website": "Website:",
+	"pageexchange-package-publisher": "Herausgeber:",
+	"pageexchange-package-author": "Autor:",
+	"pageexchange-package-version": "Version:",
+	"pageexchange-package-language": "Sprache:",
+	"pageexchange-package-requiredextensions": "Erforderliche Erweiterungen:",
+	"pageexchange-package-requiredpackages": "Erforderliche Pakete:",
+	"pageexchange-package-install": "Installieren",
+	"pageexchange-package-update": "Aktualisieren",
+	"pageexchange-package-uninstall": "Deinstallieren"
+}

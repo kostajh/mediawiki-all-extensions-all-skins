@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nemo bis",
+			"Umherirrender"
+		]
+	},
+	"euccs-skinname-eucopyrightcampaign": "{{name}}",
+	"euccs-eucopyrightcampaign-skin-desc": "{{desc|what=skin|name=EUCopyrightCampaignSkin|url=https://www.wikimedia.org}}",
+	"euccs-wikimedia-public-policy-text": "Text in the header",
+	"euccs-wikimedia-public-policy-title": "Title for the link to Wikimedia public policy",
+	"euccs-take-action-label": "Text on link button that jumps to a section on the page",
+	"euccs-take-action-heading": "Heading of the section above the form",
+	"euccs-take-action-text": "Text above the form",
+	"euccs-call-to-action-heading-html": "Main heading. The syntax (br, em, span tags) does not need to be translated.",
+	"euccs-call-to-action-text": "Call to action long text",
+	"euccs-footer-links": "Specifies the links in the footer area of this skin",
+	"euccs-trademarks-hint": "Information about trademarks in the footer",
+	"euccs-licence-hint": "Information about the licence in the footer",
+	"euccs-wikimedia-foundation-link-title": "Title of link to official Wikimedia Foundation website"
+}

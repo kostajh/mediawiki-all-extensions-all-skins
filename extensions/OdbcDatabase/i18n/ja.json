@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume",
+			"Shirayuki"
+		]
+	},
+	"odbcdatabase": "ODBC データベース",
+	"odbcdatabase-desc": "外部データの拡張機能に対応するコマンドの PHP <code>odbc_*</code> ライブラリを使用するドライバー",
+	"odbcdatabase-odbc-missing": "ODBC の関数がありません。<code>PHP:ODBC</code> をインストールしていることを確認してください。",
+	"odbcdatabase-connection-error": "サーバー [{{1}}] に接続する際にエラーが発生しました: {{2}}",
+	"odbcdatabase-free-error": "ODBC の結果を解放できません",
+	"odbcdatabase-fetch-object-error": "オブジェクトを取得する際にエラーが発生しました: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "行を取得する際にエラーが発生しました: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "関数 insertId() に対応していません。",
+	"odbcdatabase-unknown-server-version": "ODBC サーバーのバージョンは不明です。"
+}

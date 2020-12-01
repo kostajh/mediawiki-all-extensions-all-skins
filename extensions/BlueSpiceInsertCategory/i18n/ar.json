@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"bs-insertcategory-desc": "مربع حوار لإدخال رابط تصنيف",
+	"bs-insertcategory-insertcat": "ادرج تصنيفا",
+	"prefs-insertcategory": "ادرج تصنيفا",
+	"bs-insertcategory-pref-withparents": "إدراج تصنيف مع والديه",
+	"bs-insertcategory-pref-uploadpanelintegration": "قم بتعيين تصنيفات الصفحات بشكل افتراضي في مربع حوار الرفع",
+	"bs-insertcategory-title": "ادرج تصنيفا",
+	"bs-insertcategory-cat-label": "المخصصة:",
+	"bs-insertcategory-success": "أضيف التصنيف",
+	"bs-insertcategory-failure": "خطأ",
+	"bs-insertcategory-hint": "ملاحظة: لإضافة تصنيف; عليك الضغط على Enter.",
+	"bs-insertcategory-panel-title": "التصنيفات",
+	"bs-insertcategory-category-editor-title": "التصنيفات",
+	"bs-insertcategory-category-editor-implicit-categories-title": "التصنيفات الضمنية",
+	"bs-insertcategory-category-editor-implicit-categories-help": "لا يتم تعريف تلك التصنيفات ضمن محتوى نص ويكي الصفحة; على الأرجح يتم تعيينها ضمن قالب.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "إزالة الكل",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "تعديل",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "تحرير تصنيفات هذه الصفحة",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "تحرير تصنيفات هذه الصفحة"
+}

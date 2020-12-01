@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"pageslist-desc": "Показує список сторінок",
+	"pageslist": "Список сторінок",
+	"pageslistquerypage": "Сторінка запиту списку сторінок",
+	"pageslist-legend": "Налаштування списку сторінок",
+	"pageslist-categories": "Категорія:",
+	"pageslist-title": "Назва",
+	"pageslist-last-modified": "Остання зміна",
+	"pageslist-last-user": "Остання зміна:",
+	"pageslist-basepage": "Підсторінки (включно з простором назв):",
+	"apihelp-pageslist-description": "Показує список сторінок, які містяться у вікі.",
+	"apihelp-pageslist-summary": "Показує список сторінок, які містяться у вікі.",
+	"apihelp-pageslist-param-draw": "Значення, яке має запевнити, що результат відповідатиме цьому запиту",
+	"apihelp-pageslist-param-start": "Зміщення результату, на основі нуля",
+	"apihelp-pageslist-param-length": "Кількість результатів, яку слід вивести",
+	"apihelp-pageslist-example": "Отримати результати 10-19 з PagesList"
+}

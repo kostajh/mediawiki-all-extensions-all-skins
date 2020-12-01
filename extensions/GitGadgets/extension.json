@@ -1,0 +1,26 @@
+{
+	"name": "GitGadgets",
+	"version": "0.1.0",
+	"author": [
+		"Gergő Tisza"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GitGadgets",
+	"descriptionmsg": "gitgadgets-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"GitGadgets": [
+			"i18n"
+		]
+	},
+	"ConfigRegistry": {
+		"GitGadgets": "GlobalVarConfig::newInstance"
+	},
+	"config_prefix": "wg",
+	"config": {
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aotake",
+			"Fryed-peach",
+			"Otokoume",
+			"Shirayuki"
+		]
+	},
+	"rt-desc": "要求追跡 (RT) システムの装飾的なインターフェイス",
+	"rt-inactive": "RT 拡張機能は無効になっています。",
+	"rt-badquery": "RT 拡張機能の RT データベースと通信する際にエラーが発生しました。",
+	"rt-badlimit": "<code>LIMIT</code> (<code>l</code>) の引数が無効: 数値でなければなりません。\n指定した値: '''$1'''",
+	"rt-badorderby": "<code>ORDER BY</code> (<code>ob</code>) の引数が無効: 標準のフィールドでなければなりません (ドキュメントを参照)。\n指定した値: '''$1'''",
+	"rt-badstatus": "<code>status</code> (<code>s</code>) の引数が無効: 標準のフィールドでなければなりません (ドキュメントを参照)。\n指定した値: '''$1'''",
+	"rt-badcfield": "カスタムフィールドの引数が無効: 単純な単語でなければなりません (ドキュメントを参照)。\n指定した値: '''$1'''",
+	"rt-badqueue": "<code>queue</code> (<code>q</code>) の引数が無効: 単純な単語でなければなりません。\n指定した値: '''$1'''",
+	"rt-badowner": "<code>owner</code> (<code>o</code>) の引数が無効: 有効な利用者名でなければなりません。\n指定した値: '''$1'''",
+	"rt-nomatches": "一致する RT チケットが見つかりませんでした。"
+}

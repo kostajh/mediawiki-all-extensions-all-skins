@@ -1,0 +1,127 @@
+a#bs-editbutton-insertcategory {
+	/*@embed*/
+	background-image: url(images/button_insert-category.png);
+}
+i.mce-i-bsinsertcategory {
+	/*@embed*/
+	background-image: url(images/button_insert-category-16px.png);
+}
+
+.bs-insertcategory-hint {
+	padding: 3px;
+	background-color: #e3e5eb;
+}
+
+/*
+ * This is an ugly workaround. When "InsertCategory" is enabled it replaces
+ * the default category list from "ArticleInfo". For the future we plan to
+ * _integrate_ into the category list "ArticleInfo" and just add an "edit"
+ * button that switches the UI.
+ */
+.bs-articleinfo-flyout-categorylist-cnt {
+	display: none;
+}
+
+.category-editor-form .editor-button {
+	margin-left: 0.2em;
+}
+
+.bs-insertcategory-category-inline-editor .x-panel-header-title .tool-link,
+.bs-insertcategory-category-editor .x-panel-header-title .tool-link {
+	font-size: small;
+	margin-left: 0.5em;
+	display: none;
+}
+
+.bs-insertcategory-category-inline-editor:hover .x-panel-header-title .tool-link,
+.bs-insertcategory-category-editor:hover .x-panel-header-title .tool-link {
+	margin-left: 0.5em;
+	display: inline;
+}
+
+.bs-form-trigger {
+	background: 0 center #AAAAAA !important;
+	vertical-align: middle !important;
+}
+
+.bs-form-trigger::before {
+	font-family: 'fontawesome';
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.bs-form-cancel-trigger {
+	border-right: 1px solid #FFFFFF;
+}
+.bs-form-cancel-trigger::before {
+	content: '\f00d';
+}
+
+.bs-form-implicitcategories-trigger {
+	background: 0 center #FFFFFF !important;;
+}
+.bs-form-implicitcategories-trigger::before {
+	font-family: 'icomoon';
+	content: '\ea0c';
+	color: #CFCFCF;
+	font-size: 15px;
+}
+
+.bs-form-save-trigger::before {
+	content: '\f00c';
+}
+
+.bs-form-save-trigger:hover::before,
+.bs-form-cancel-trigger:hover::before {
+	color: #DDDDDD;
+}
+
+.bs-form-save-trigger:hover,
+.bs-form-cancel-trigger:hover {
+	background: 0 center #888888 !important;
+}
+
+.bs-insertcategory-category-inline-editor {
+	padding: 0px;
+	margin: 0px;
+}
+
+.bs-insertcategory-category-inline-editor-icon {
+	display: inline-block;
+}
+
+.bs-content-row {
+	height: 41px;
+}
+
+.bs-category-container-add-category {
+	.bs-insertcategory-category-inline-editor {
+		.x-form-text-wrap {
+			.x-form-empty-field-default + .x-placeholder-label-default {
+				line-height: 1.75rem;
+				font-size: 0.75rem;
+				font-weight: normal;
+			}
+		}
+		.x-form-trigger {
+			&.x-form-arrow-trigger {}
+			&.bs-form-tree-trigger.bs-form-tree-trigger{}
+			&.bs-form-trigger {
+				&.bs-form-cancel-trigger {}
+				&.bs-form-save-trigger {}
+				&::before {
+					font-size: 1.1rem;
+					line-height: 1.875rem;
+				}
+			}
+		}
+	}
+}
+
+.bs-insertcategory-category-container-editlink {
+	padding-left: 5px;
+}
+
+.bs-page-categories:hover .bs-insertcategory-category-container-editlink {
+	display: block !important;
+}

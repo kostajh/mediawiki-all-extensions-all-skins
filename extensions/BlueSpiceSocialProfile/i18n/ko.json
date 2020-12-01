@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-socialprofile-type": "프로파일",
+	"bs-socialprofile-entityaction-changeimage": "사용자 이미지",
+	"bs-social-entityaction-editprofilefields": "프로파일 데이터",
+	"bs-social-profile-field-name": "이름",
+	"bs-social-profile-field-email": "이메일",
+	"bs-social-profile-field-title": "제목",
+	"bs-social-profile-field-location": "위치",
+	"bs-social-profile-field-phone": "전화",
+	"bs-social-profile-field-validate-no-integer": "$1 값은 숫자여야 합니다",
+	"bs-socialprofile-special-profiles-heading": "프로파일",
+	"bs-social-profile-infoshowemail": "프로파일에 이메일 주소를 표시합니다",
+	"socialprofiles": "프로파일",
+	"action-social-editothersprofile": "다른 사용자의 프로파일 편집",
+	"action-socialprofile-viewspecialpage": "특수 문서 \"{{int:socialprofiles}}\"을 볼",
+	"right-socialprofile-viewspecialpage": "특수 문서 \"{{int:socialprofiles}}\" 보기"
+}

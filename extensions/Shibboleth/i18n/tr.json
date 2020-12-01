@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"shibboleth-desc": "PluggableAuth ile birlikte Shibboleth kullanarak kimlik doğrulaması sağlar",
+	"shibboleth-wg-empty-displayname": "Localvaret.php üzerinde <var>wgShibboleth_DisplayName</var> yapılandırma değişkeni boş",
+	"shibboleth-wg-empty-email": "Localvaret.php üzerinde <var>wgShibboleth_Email</var> yapılandırma değişkeni boş",
+	"shibboleth-wg-empty-username": "Localvaret.php üzerinde <var>wgShibboleth_Username</var> yapılandırma değişkeni boş",
+	"shibboleth-wg-empty-groupmap-attr": "Localvaret.php üzerinde <var>wgShibboleth_GroupMap</var> yapılandırma değişkeni boş",
+	"shibboleth-attr-empty-username": "Shibboleth: kullanıcı adı özelliği ayarlanmadı",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: GroupMap özelliği bulunamıyor"
+}

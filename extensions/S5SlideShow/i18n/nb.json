@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"s5slide-desc": "S5SlideShow er en MediaWiki-utvidelse som gjør det mulig med enkel og rask opprettelse av lysbildesekvenser med S5 i konteksten av MediaWiki og wikisider.",
+	"special-s5SlideShow-title": "S5SlideShow-konfigurasjon",
+	"s5slide-header-title": "Tittel",
+	"s5slide-header-subtitle": "Undertittel",
+	"s5slide-header-footer": "Bunntekst",
+	"s5slide-header-subfooter": "Under-bunntekst",
+	"s5slide-header-author": "Opphavsperson"
+}

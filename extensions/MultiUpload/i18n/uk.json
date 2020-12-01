@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"multiupload": "Завантаження багатьох файлів",
+	"multiupload-desc": "Дозволяє користувачам [[Special:MultiUpload|завантажувати декілька файлів за раз]]",
+	"multiupload-text": "Скористайтеся формою нижче, щоб завантажити декілька файлів.\nЩоб переглянути чи здійснити пошук серед попередніх завантажених файлів, перейдіть до [[Special:FileList|списку завантажених файлів]]; (повторні) завантаження також записуються в [[Special:Log/upload|журналі завантажень]], вилучення — в [[Special:Log/delete|журналі вилучень]].\n\nЩоб додати файл на сторінку, створіть посилання за одною з таких схем:\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Файл.jpg]]</nowiki></code></strong> — щоб використати повну версію файлу\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Файл.png|200px|thumb|left|альтернативний текст]]</nowiki></code></strong> — щоб відтворити файл із шириною 200 пікселів, у прямокутній рамці з лівого краю сторінки, де «альтернативний текст» — це його опис\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:Файл.ogg]]</nowiki></code></strong> — для прямого посилання на файл без його відтворення.\n\nПісля вибору файлу ця сторінка розгорнеться, даючи Вам змогу вибрати більше файлів для завантаження.\n\nЩоб розпакувати файл формату <code>.zip</code>, <code>.tar</code>, <code>.tar.gz</code>, або <code>.tgz</code> та завантажити файли, які містяться в ньому, оберіть файл архіву та скористайтеся кнопкою «{{int:multiupload-unpack-button}}», яка з'явиться після цього.",
+	"multipleupload": "Завантаження файлів",
+	"multipleupload-toolbox": "Завантаження багатьох файлів",
+	"multiupload-submit": "Завантажити файли",
+	"multiupload-uploadedto": "Завантажено файл $1.",
+	"multiupload-row": "Файл $1",
+	"multiupload-unpack-button": "Розпакувати",
+	"multiupload-notify-ok": "Гаразд",
+	"multiupload-upload-package-error": "Помилка при завантаженні файлу архіву",
+	"multiupload-unpack-error": "Помилка при розпаковуванні файлу архіву",
+	"multiupload-unreadable-package": "Не вдається прочитати файл $1",
+	"multiupload-http-error": "Не вдається з'єднатися із сервером",
+	"multiupload-file-unpacked-from": "Файл <b>$1</b> з пакунка <b>$2</b>",
+	"apihelp-multiupload-unpack-description": "Розпакувати файл формату ZIP або tar, перед тим як імпортувати його вміст.",
+	"apihelp-multiupload-unpack-summary": "Розпакувати файл формату ZIP або tar, перед тим як імпортувати його вміст.",
+	"apihelp-multiupload-unpack-param-key": "«filekey» отримано при завантаженні файлу архіву у сховок",
+	"apihelp-multiupload-unpack-param-filename": "Назва файлу архіву"
+}

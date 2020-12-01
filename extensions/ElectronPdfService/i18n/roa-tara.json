@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Aggiunge 'u render pu PDF ca se base sus a 'u browser ausanne 'u servizie Electron PDF",
+	"electronpdfservice-special-page-headline": "Scareche cumme 'nu PDF",
+	"electronpdfservice-download-label": "Scareche cumme 'nu PDF",
+	"electronpdfservice-download-button": "Scareche",
+	"electronpdfservice-sidebar-portlet-heading": "Stambe/esporte",
+	"electronpdfservice-sidebar-portlet-print-text": "Scareche cumme 'nu PDF",
+	"electronpdfservice-invalid-page-title": "Pàgene invalide",
+	"electronpdfservice-invalid-page-text": "'A pàgene specificate non g'è valide."
+}

@@ -1,0 +1,32 @@
+<div class="btn-group dropdown {{#groupClasses}}{{.}}{{/groupClasses}}"{{#id}} id="{{.}}-cnt"{{/id}}>
+	{{#isLabel}}
+		<span class="pull-left {{#classes}}{{.}} {{/classes}}" title="{{title}}" aria-haspopup="true" aria-expanded="false" id="{{id}}">
+			<i class="icon "></i><span class="btn-text">{{{text}}}</span><span class="sr-only">{{screenreaderToogleText}}</span>
+		</span>
+	{{/isLabel}}
+	{{^isLabel}}
+		<a role="button" class="btn {{#classes}}{{.}} {{/classes}}"{{#data}} data-{{key}}="{{value}}"{{/data}} title="{{title}}" href="{{href}}" aria-haspopup="true" aria-expanded="false" id="{{id}}">
+			<i class="icon "></i><span class="btn-text">{{{text}}}</span><span class="sr-only">{{screenreaderToogleText}}</span>
+		</a>
+	{{/isLabel}}
+	{{#hasItems}}
+		<a role="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="{{id}}-toggle"></a>
+		<div class="dropdown-menu">
+			<ul>
+				{{#items}}
+				{{#link}}
+				<li id="{{id}}">
+					<a href="{{href}}" {{#classes}}class="{{.}} "{{/classes}}{{#data}} data-{{key}}="{{value}}"{{/data}} title="{{title}}">{{text}}</a>
+				</li>
+				{{/link}}
+				{{#separator}}
+				<li role="separator" class="divider"></li>
+				{{/separator}}
+				{{#header}}
+				<li class="dropdown-header">{{.}}</li>
+				{{/header}}
+				{{/items}}
+			</ul>
+		</div>
+	{{/hasItems}}
+</div>

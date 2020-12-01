@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Makuba"
+		]
+	},
+	"pagelanguage-desc": "Definir li paginal lingue por chascun singul págine.",
+	"pagelanguage-invalid": "'''Avertiment:''' Li ínvalid lingual code «$1» es ignorat por li paginal lingue.",
+	"pagelanguage-duplicate": "'''Avertiment:''' Li paginal lingue «$2» superscrí li anteyan paginal lingue «$1»."
+}

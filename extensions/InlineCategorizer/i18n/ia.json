@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"inlinecategorizer-desc": "Modulo JavaScript que permitte cambiar, adder e remover ligamines a categorias directemente ab un pagina",
+	"inlinecategorizer-add-category": "Adder categoria",
+	"inlinecategorizer-add-category-submit": "Adder",
+	"inlinecategorizer-add-category-summary": "Adder categoria \"$1\"",
+	"inlinecategorizer-api-error": "Le API retornava un error: $1: $2",
+	"inlinecategorizer-api-unknown-error": "Le API retornava un error incognite.",
+	"inlinecategorizer-cancel": "Cancellar modificationes",
+	"inlinecategorizer-cancel-all": "Cancellar tote le modificationes",
+	"inlinecategorizer-category-already-present": "Iste pagina pertine jam al categoria $1",
+	"inlinecategorizer-category-hook-error": "Un function local ha impedite le salveguarda del modificationes",
+	"inlinecategorizer-category-question": "Proque vole tu facer le sequente modificationes:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Publicar",
+	"inlinecategorizer-confirm-save-all": "Salveguardar tote le modificationes",
+	"inlinecategorizer-confirm-title": "Confirmar action",
+	"inlinecategorizer-edit-category": "Modificar categoria",
+	"inlinecategorizer-edit-category-error": "Non esseva possibile modificar le categoria \"$1\".\nsto occurre generalmente si le categoria ha essite addite al pagina per medio de un patrono.",
+	"inlinecategorizer-edit-category-summary": "Cambiar le categoria \"$1\" a \"$2\"",
+	"inlinecategorizer-error-title": "Error",
+	"inlinecategorizer-remove-category": "Remover categoria",
+	"inlinecategorizer-remove-category-error": "Il non esseva possibile remover le categoria \"$1\".\nIsto occurre generalmente si le categoria ha essite addite al pagina per medio de un patrono.",
+	"inlinecategorizer-remove-category-summary": "Remover categoria \"$1\""
+}

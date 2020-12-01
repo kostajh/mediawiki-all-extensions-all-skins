@@ -1,0 +1,40 @@
+{
+	"name": "Tabber",
+	"version": "2.4",
+	"author": [
+		"Eric Fortin",
+		"Alexia E. Smith"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Tabber",
+	"descriptionmsg": "tabber-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"Tabber": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"TabberHooks": "TabberHooks.php"
+	},
+	"ResourceModules": {
+		"ext.tabber": {
+			"styles": [
+				"resources/tabber.css"
+			],
+			"scripts": [
+				"resources/tabber.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Tabber"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"TabberHooks::onParserFirstCallInit"
+		]
+	},
+	"manifest_version": 1
+}

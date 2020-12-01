@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hym411",
+			"Priviet",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"onlinestatus-desc": "사용자가 현재 위키에 있는지 표시하는 환경 설정을 추가",
+	"onlinestatus-js-anon": "오류: 이 기능을 사용하려면 로그인해야 합니다",
+	"onlinestatus-js-changed": "당신의 상태가 \"$1\"으로 바뀌었습니다",
+	"onlinestatus-js-error": "상태를 바꿀 수 없음, \"$1\" 값이 유효하지 않습니다",
+	"onlinestatus-subtitle-offline": "이 사용자는 현재 오프라인입니다",
+	"onlinestatus-subtitle-online": "이 사용자는 현재 온라인입니다",
+	"onlinestatus-tab": "상태",
+	"onlinestatus-toggles-desc": "당신의 상태:",
+	"onlinestatus-toggles-explain": "이것은 사용자 문서를 보고 다른 사용자가 당신이 실제로 온라인인지 보여주도록 합니다.",
+	"onlinestatus-toggles-show": "내 사용자 문서에 온라인 상태 보이기",
+	"onlinestatus-toggle-offline": "오프라인",
+	"onlinestatus-toggle-online": "온라인",
+	"onlinestatus-pref-onlineonlogin": "로그인할 때 내 상태를 온라인으로 바꾸기",
+	"onlinestatus-pref-offlineonlogout": "로그아웃할 때 내 상태를 오프라인으로 바꾸기"
+}

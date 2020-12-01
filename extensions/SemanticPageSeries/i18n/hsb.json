@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"semanticpageseries-desc": "Wutworjenje slěda stronow ze [https://www.mediawiki.org/wiki/Extension:Semantic_Forms semantiskim formularom]",
+	"spssuccesstitle": "$1 stronow so wutwarja",
+	"spssuccess": "{{PLURAL:$1|Jedna strona so wutwori|$1 stronje so wutworitej|$1 strony so wutworja|$1 stronow so wutwori}}.",
+	"spssuccess-returntoorigin": "Wróćo k $1",
+	"spserror": "Zmylk je wustupił",
+	"spserror-diffnotsupported": "Akcija \"diff\" so za slědy stronow njepodpěruje.",
+	"spserror-previewnotsupported": "Přehlad so za slědow stronow njepodpěruje.",
+	"spserror-noiteratorname": "Žane iteratorowe mjeno njepodate. Parameter \"iterator\" dyrbi so we wołanju parseroweje funkcije #serieslink podać.",
+	"spserror-iteratorunknown": "Iterator \"$1\" njeeksistuje. Parameter \"iterator\" dyrbi so we wołanju parseroweje funkcije #serieslink podać.",
+	"spserror-noformname": "Žane formularne mjeno njepodate.",
+	"spserror-formunknown": "Formular \"$1\" njeeksistuje.",
+	"spserror-notargetformname": "Žadyn cilowy formular njepodaty. Parameter \"target form\" dyrbi so we wołanju parseroweje funkcije #serieslink podać.",
+	"spserror-notargetfieldname": "Žane cilowe polo njepodate. Parameter \"target field\" dyrbi so we wołanju parseroweje funkcije #serieslink podać.",
+	"spserror-iteratorparammissing": "Slědowace iteratorowe parametry při wołanju funkcije #serieslink faluja: $1",
+	"spserror-noiteratordata": "Žane iteratorowe parametry w pósłanych datach namakane.",
+	"spserror-pagegenerationlimitexeeded": "Sy spytał {{PLURAL:$1|jednu stronu|$1 stronje|$1 strony|$1 stronow}} płodźić. To překročuje dowoleny limit wot {{PLURAL:$2|jedneje strony|$2 stronow|$2 stronow|$1 stronow}}.",
+	"spserror-date-startdatemissing": "Startowy datum faluje.",
+	"spserror-date-internalerror": "Při wutworjenju datumow je zmylk wustupił: $1",
+	"spserror-count-startvaluemalformed": "Startowa hódnota ličba njeje.",
+	"spserror-count-endvaluemalformed": "Kónčna hódnota ličba njeje.",
+	"spserror-count-stepvaluemalformed": "Kročelowa hódnota ličba njeje.",
+	"spserror-count-digitsvaluemalformed": "Cyfrowa hódnota ličba njeje."
+}

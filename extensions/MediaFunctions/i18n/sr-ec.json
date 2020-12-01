@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Rancher",
+			"Михајло Анђелковић"
+		]
+	},
+	"mediafunctions-desc": "Рашчлањивачке функције за преузимање података о медијским датотекама",
+	"mediafunctions-invalid-title": "„$1” није валидан наслов",
+	"mediafunctions-not-exist": "Датотека „$1“ не постоји"
+}

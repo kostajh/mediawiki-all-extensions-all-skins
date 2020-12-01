@@ -1,0 +1,81 @@
+{
+	"name": "Example",
+	"version": "1.0",
+	"author": "...",
+	"url": "https://www.mediawiki.org/wiki/Skin:Example",
+	"descriptionmsg": "example-desc",
+	"namemsg": "skinname-example",
+	"license-name": "CC0-1.0",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"ValidSkinNames": {
+		"example": {
+			"class": "SkinMustache",
+			"args": [ {
+				"name": "example",
+				"responsive": true,
+				"templateDirectory": "skins/Example/templates",
+				"styles": [
+					"skins.example"
+				],
+				"messages": [
+					"sitetitle",
+					"search",
+					"tagline",
+					"navigation-heading"
+				],
+				"scripts": [
+					"skins.example.js"
+				]
+			} ]
+		}
+	},
+	"MessagesDirs": {
+		"Example": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"skins.example": {
+			"class": "ResourceLoaderSkinModule",
+			"features": {
+				"normalize": true,
+				"elements": true,
+				"content": true,
+				"interface": true,
+				"logo": true
+			},
+			"styles": {
+				"resources/screen-common.less": {
+					"media": "screen"
+				},
+				"resources/screen-desktop.less": {
+					"media": "screen and (min-width: 751px)"
+				},
+				"resources/screen-mobile.less": {
+					"media": "screen and (max-width: 750px)"
+				},
+				"resources/print.css": {
+					"media": "print"
+				}
+			}
+		},
+		"skins.example.js": {
+			"scripts": [
+				"resources/main.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Example"
+	},
+	"ResourceModuleSkinStyles": {
+		"example": {
+			"+ext.echo.styles.badge": "resources/extensions/echo.styles.badge.less"
+		}
+	},
+	"manifest_version": 1
+}

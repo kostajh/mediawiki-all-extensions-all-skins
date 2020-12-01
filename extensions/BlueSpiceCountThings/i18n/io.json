@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"bs-countthings-files-label": "Arkivi",
+	"bs-countthings-pages-label": "Pagini",
+	"bs-countthings-ve-countarticles-title": "Kontar artikli",
+	"bs-countthings-ve-countfiles-title": "Kontar arkivi",
+	"bs-countthings-ve-countusers-title": "Kontar uzeri",
+	"bs-countthings-ve-countcharacters-mode-all": "omna",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "karakteri",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "vorti",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "karakteri e vorti",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "pagini",
+	"bs-countthings-tag-countfiles-desc": "Montras la quanto di arkivi che la Wiki."
+}

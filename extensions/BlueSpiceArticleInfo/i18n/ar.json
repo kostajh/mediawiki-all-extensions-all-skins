@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mido",
+			"Test Create account",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"bs-articleinfo-desc": "يوفر معلومات حول صفحة في شريط الحالة",
+	"prefs-articleinfo": "معلومات الصفحة",
+	"bs-articleinfo-pref-CheckRevisionInterval": "فترة التحديث بالثواني:",
+	"bs-articleinfo-flyout-title": "معلومات الصفحة",
+	"bs-articleinfo-flyout-intro": "هنا تجد المعلومات المتعلقة بالصفحة، يمكنك التحقق من جودتها ومدى تأخرها ومعرفة كيفية ارتباطها بصفحات أخرى في الويكي.",
+	"bs-articleinfo-nav-link-title": "معلومات الصفحة",
+	"bs-articleinfo-flyout-categorylinks-title": "التصنيفات",
+	"bs-articleinfo-flyout-templatelinks-title": "القوالب المستخدمة في الصفحة",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "لا توجد تصنيفات معينة",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "لا قوالب مستخدمة",
+	"bs-articleinfo-flyout-lasteditedtime-text": "التعديل  الأخير",
+	"bs-articleinfo-flyout-lastediteduser-text": "المعدل الأخير",
+	"bs-articleinfo-newrevision-info-text": "هناك نسخة جديدة من هذه الصفحة متوفرة، يُرجَى إعادة تحميل الصفحة لعرض المحتوى الحالي.",
+	"bs-articleinfo-newrevision-info-text-reload": "هناك نسخة جديدة من هذه الصفحة متاحة، تُرجَى [[:$1|إعادة تحميل]] الصفحة لعرض المحتوى الحالي.",
+	"bs-articleinfo-flyout-subpages-title": "الصفحات الفرعية",
+	"bs-articleinfo-pagetool-subpages-tooltip": "الصفحات الفرعية",
+	"bs-articleinfo-dialog-subpages-title": "الصفحات الفرعية"
+}

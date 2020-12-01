@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"swiftmailer-desc": "Забезпечує SwiftMailer у ролі альтернативного поштовика",
+	"swiftmailer-smtp-error": "Помилка при налаштуванні SMTP-транспорту для SwiftMailer: $1",
+	"swiftmailer-send-error": "Помилка при відправці електронного листа з допомогою SwiftMailer: $1"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diralik",
+			"Meshkov.a"
+		]
+	},
+	"odbcdatabase": "OdbcDatabase",
+	"odbcdatabase-desc": "Драйвер, который использует PHP <code>odbc_*</code> библиотеку команд для поддержки внешних данных расширения",
+	"odbcdatabase-odbc-missing": "Функции ODBC отсутствуют. Убедитесь, что <code>PHP:ODBC</code> установлен.",
+	"odbcdatabase-connection-error": "Ошибка при подключении к серверу [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Не удаётся освободить результат ODBC",
+	"odbcdatabase-fetch-object-error": "Ошибка при извлечении объекта: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Ошибка при извлечении строки: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "Функция insertId() не поддерживается.",
+	"odbcdatabase-unknown-server-version": "Неизвестная версия сервера ODBC."
+}

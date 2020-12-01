@@ -1,0 +1,22 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"rules": {
+		"camelcase": "off",
+		"eqeqeq": "off",
+		"one-var": "off",
+		"no-jquery/no-class-state": "off",
+		"no-jquery/no-global-selector": "off",
+		"no-jquery/variable-pattern": "off",
+		"no-implicit-globals": "off",
+		"no-undef": "off",
+		"no-unused-vars": "off",
+		"valid-jsdoc": "off",
+		"vars-on-top": "off",
+		"es/no-object-assign": "warn"
+	}
+}

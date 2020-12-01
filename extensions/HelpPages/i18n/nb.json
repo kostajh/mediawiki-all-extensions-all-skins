@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"helppages-desc": "Henter automatisk hjelpesider fra [https://www.mediawiki.org/ mediawiki.org]",
+	"helppages-notice": "Denne siden ble lastet ned fra [https://www.mediawiki.org?oldid=$1 mediawiki.org] og kan redigeres der.",
+	"helppages-edit-tab": "Rediger på MediaWiki.org"
+}

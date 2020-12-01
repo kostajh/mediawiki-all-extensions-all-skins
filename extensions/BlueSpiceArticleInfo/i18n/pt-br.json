@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald",
+			"Luckas"
+		]
+	},
+	"bs-articleinfo-desc": "Fornece informação sobre uma página na barra de status",
+	"prefs-articleinfo": "Informações da página",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalo de atualização em segundos:",
+	"bs-articleinfo-flyout-title": "Informações da página",
+	"bs-articleinfo-flyout-intro": "Aqui você encontra informações relacionadas à página. Você pode verificar sua qualidade e atualidade e ver como ela se relaciona com outras páginas no wiki.",
+	"bs-articleinfo-nav-link-title": "Informações da página",
+	"bs-articleinfo-flyout-categorylinks-title": "Categorias",
+	"bs-articleinfo-flyout-templatelinks-title": "Predefinições usadas na página",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Não foi atribuída nenhuma categoria",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Não foi usada nenhuma predefinição",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Última edição",
+	"bs-articleinfo-flyout-lastediteduser-text": "Último editor",
+	"bs-articleinfo-newrevision-info-text": "Existe uma nova versão desta página disponível. Por favor, recarregue a página para visualizar o conteúdo atual.",
+	"bs-articleinfo-newrevision-info-text-reload": "Está disponível uma nova versão desta página. [[:$1|Recarregue]] a página para ver o conteúdo atual, por favor.",
+	"bs-articleinfo-flyout-subpages-title": "Subpáginas",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáginas",
+	"bs-articleinfo-dialog-subpages-title": "Subpáginas",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Define a taxa de atualização para o valor \"Última edição\". Este valor é exibido nas informações da página nas ferramentas de gerenciamento da qualidade."
+}

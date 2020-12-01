@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"PasO"
+		]
+	},
+	"flvhandler_desc": "Ermöglicht es, Flash-Video-Dateien (.flv) wie Standard-Dateien einzubinden (z. B. <nowiki>[[</nowiki>{{ns:file}}:Film.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Flash-Video, $1 × $2 Pixel, Dateigröße: $3"
+}

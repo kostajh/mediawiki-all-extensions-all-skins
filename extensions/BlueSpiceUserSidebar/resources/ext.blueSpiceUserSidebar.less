@@ -1,0 +1,22 @@
+#bs-sitenavtabs ul.nav-pills a[href~="#bs-nav-section-bs-usersidebar"]{
+	&>span{
+		display: none;
+	}
+	&>i::before{
+		font-family: entypo;
+		content: "\e984";
+		font-style: normal;
+	}
+}
+
+.bs-usersidebar-internal::before,
+.bs-usersidebar-external::before,
+.bs-icon-linklist-default::before {
+	content: '\ea26';
+	font-family: 'entypo';
+	font-style: normal;
+}
+
+#bs-nav-section-bs-usersidebar .widget-error {
+	padding: 10px;
+}

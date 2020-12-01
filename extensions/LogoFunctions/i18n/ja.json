@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"青子守歌"
+		]
+	},
+	"logofunctions-desc": "ウィキのロゴに関するパーサー関数を追加する",
+	"logofunctions-filenotexist": "エラー: [[:File:$1]] は存在しません。"
+}

@@ -1,0 +1,34 @@
+{
+	"LDAP": {
+		"connection": {
+			"server": "ldap.forumsys.com",
+			"user": "cn=read-only-admin,dc=example,dc=com",
+			"pass": "password",
+			"options": {
+				"LDAP_OPT_DEREF": 1
+			},
+			"basedn": "dc=example,dc=com",
+			"groupbasedn": "dc=example,dc=com",
+			"userbasedn": "dc=example,dc=com",
+			"searchattribute": "uid",
+			"searchstring": "uid=USER-NAME,dc=example,dc=com",
+			"usernameattribute": "uid",
+			"realnameattribute": "cn",
+			"emailattribute": "mail"
+		},
+		"userinfo": {
+			"attributes-map": {
+				"email": "mail",
+				"realname": "cn",
+				"nickname": "uid",
+				"language": "preferredlanguage"
+			}
+		},
+		"groupsync": {
+			"mapping": {
+				"mathematicians": "ou=mathematicians,dc=example,dc=com",
+				"scientists": "ou=scientists,dc=example,dc=com"
+			}
+		}
+	}
+}

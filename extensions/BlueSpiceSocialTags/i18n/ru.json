@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Katunchik"
+		]
+	},
+	"bs-socialtags-desc": "Добавляет функциональность тегов к основным социальным данным",
+	"bs-socialtags-tagstext": "Связано {{plural:$1|страница|страниц}} ($1)",
+	"bs-socialtags-var-tags": "Связанные страницы",
+	"socialtags": "Связанные страницы",
+	"bs-socialtags-special-heading": "Связанные страницы",
+	"apihelp-bs-socialtags-tasks-summary": "Дает возможность редактировать связанные страницы основных данных",
+	"action-social-tagging": "редактировать связанные страницы",
+	"right-social-tagging": "Редактировать связанные страницы"
+}

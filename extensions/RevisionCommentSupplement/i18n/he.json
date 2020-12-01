@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2"
+		]
+	},
+	"action-supplementcomment": "לבצע תגובות משלימות",
+	"action-supplementcomment-restricted": "לבצע תגובות משלימות עם פעולות מוגבלות",
+	"revcs-error-hidehistory-hidden-restricted-only": "הנראוּת בקלט רק מוגבלת (העלמה, הסתרה).",
+	"revcs-error-unexpected": "אירעה שגיאה בלתי־צפויה.",
+	"revcs-hidehistory-suppress": "נתוני העלמה מכולם למעט משמשים שלש להם הרשאת {{int:action-suppressrevision}} (suppressrevision).",
+	"right-supplementcomment": "ביצוע תגובות משלימות",
+	"right-supplementcomment-restricted": "ביצוע תגובות משלימות עם פעולות מוגבלות"
+}

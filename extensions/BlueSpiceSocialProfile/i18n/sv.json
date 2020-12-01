@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"bs-socialprofile-type": "Profil",
+	"bs-socialprofile-entityaction-changeimage": "Användarbild",
+	"bs-social-entityaction-editprofilefields": "Profildata",
+	"bs-social-profile-field-name": "Namn",
+	"bs-social-profile-field-email": "E-post",
+	"bs-social-profile-field-title": "Titel",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Herr|Fru|}}",
+	"bs-social-profile-field-function": "Funktion",
+	"bs-social-profile-field-location": "Plats",
+	"bs-social-profile-field-phone": "Telefon",
+	"bs-social-profile-field-validate-no-integer": "$1 måste vara en siffra",
+	"bs-socialprofile-special-profiles-heading": "Profiler",
+	"bs-social-profile-infoshowemail": "Visa e-postadressen i profilen",
+	"socialprofiles": "Profiler",
+	"bs-socialprofile-switch-classicprofile-label": "Klassisk profil",
+	"bs-socialprofile-switch-modernprofile-label": "Modern profil",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Byt till klassisk profil",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Byt till modern profil",
+	"action-social-editothersprofile": "redigera andra användares profiler",
+	"right-social-editothersprofile": "Redigera andra användares profiler",
+	"action-socialprofile-viewspecialpage": "visa specialsidan \"{{int:socialprofiles}}\"",
+	"right-socialprofile-viewspecialpage": "Visa specialsidan \"{{int:socialprofiles}}\""
+}

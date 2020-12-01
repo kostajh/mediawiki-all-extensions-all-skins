@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"parserfun-desc": "Přidawa parserowu funkciju <code>#parse</code> za parsowanje wikiteksta a zawjeduje prefiks <code>THIS:</code> za magiske wariable, kotrež informacije stronow wotwołuja",
+	"parserfun-invalid-caller-mode": "Žadyn płaćiwy modus abo numeriski indeks njepodaty."
+}

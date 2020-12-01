@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"extralanguagelink-desc": "Ergänzt zusätzliche Sprachlinks im Seitenleistenabschnitt „In anderen Sprachen“",
+	"extralanguagelink-param-class": "Klasse",
+	"extralanguagelink-param-hreflang": "hreflang",
+	"extralanguagelink-param-lang": "Sprache",
+	"extralanguagelink-param-style": "Stil",
+	"extralanguagelink-param-title": "Titel",
+	"extralanguagelink-badinterwiki": "Das Interwikipräfix „$1:“ ist nicht auf der Liste der erlaubten Interwikipräfixe.",
+	"extralanguagelink-badtitle": "Der Seitentitel „$1“ konnte nicht geparst werden."
+}

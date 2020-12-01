@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Crt",
+			"Jack Phoenix"
+		]
+	},
+	"globaluserrights": "Järjestelmänlaajuisten käyttöoikeuksien hallinta",
+	"gur-desc": "Kätevä [[Special:GlobalUserRights|järjestelmänlaajuisten käyttöoikeuksien]] hallinta",
+	"gur-rightslog-name": "Järjestelmänlaajuinen käyttöoikeusloki",
+	"gur-rightslog-header": "Tämä on loki käyttäjien järjestelmänlaajuisten käyttöoikeuksien muutoksista.",
+	"gur-rightslog-entry": "muutti käyttäjän $1 järjestelmänlaajuisia oikeuksia ryhmistä $2 ryhmiin $3",
+	"logentry-gblrights-rights": "$1 {{GENDER:$2|muutti}} käyttäjän {{GENDER:$6|$3}} järjestelmänlaajuiset oikeudet ryhmistä $4 ryhmiin $5",
+	"right-userrights-global": "Hallinnoida järjestelmänlaajuisia käyttöoikeuksia"
+}

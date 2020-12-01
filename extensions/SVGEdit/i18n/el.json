@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"svgedit-editbutton-edit": "Επεξεργασία ζωγραφικής",
+	"svgedit-summary-label": "Σύνοψη επεξεργασίας",
+	"svgedit-summary-default": "/* Τροποποιήθηκε στο svg-edit */",
+	"svgedit-editor-save-close": "Αποθήκευση και κλείσιμο",
+	"svgedit-editor-close": "Ακύρωση",
+	"svgedit-desc": "Επεξεργασία ζωγραφικών SVG εντός του φυλλομετρητή με το [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Επεξεργασία ζωγραφικής",
+	"svgedit-edit-tab-tooltip": "Μπορείτε να επεξεργαστείτε αυτή τη ζωγραφική SVG στον περιηγητή σας",
+	"svgedit-toolbar-insert": "Ζωγραφική SVG"
+}

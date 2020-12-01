@@ -1,0 +1,111 @@
+{
+	"name": "PictureGame",
+	"version": "4.3.0",
+	"author": [
+		"Aaron Wright",
+		"Ashish Datta",
+		"David Pean",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"url": "https://www.mediawiki.org/wiki/Extension:PictureGame",
+	"descriptionmsg": "picturegame-desc",
+	"type": "other",
+	"config": {
+		"CreatePictureGameThresholds": []
+	},
+	"SpecialPages": {
+		"PictureGameHome": "PictureGameHome",
+		"PictureGameAjaxUpload": "SpecialPictureGameAjaxUpload"
+	},
+	"MessagesDirs": {
+		"PictureGame": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PictureGameAlias": "includes/PictureGame.alias.php"
+	},
+	"AutoloadClasses": {
+		"PictureGameHome": "includes/specials/SpecialPictureGameHome.php",
+		"PictureGameHooks": "includes/PictureGameHooks.php",
+		"SpecialPictureGameAjaxUpload": "includes/specials/SpecialPictureGameAjaxUpload.php",
+		"PictureGameAjaxUploadForm": "includes/upload/PictureGameAjaxUploadForm.class.php",
+		"PictureGameUpload": "includes/upload/PictureGameUpload.class.php"
+	},
+	"Hooks": {
+		"SkinTemplateNavigation::Universal": "PictureGameHooks::onSkinTemplateNavigationUniversal",
+		"SkinTemplateOutputPageBeforeExec": "PictureGameHooks::onSkinTemplateOutputPageBeforeExec",
+		"LoadExtensionSchemaUpdates": "PictureGameHooks::onLoadExtensionSchemaUpdates"
+	},
+	"LogTypes": [
+		"picturegame"
+	],
+	"LogActionsHandlers": {
+		"picturegame/*": "WikitextLogFormatter"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "PictureGame"
+	},
+	"ResourceModules": {
+		"ext.pictureGame": {
+			"scripts": "resources/js/PictureGame.js",
+			"messages": [
+				"picturegame-js-edit",
+				"picturegame-js-error-title",
+				"picturegame-js-error-upload-imgone",
+				"picturegame-js-error-upload-imgtwo",
+				"picturegame-js-editing-imgone",
+				"picturegame-js-editing-imgtwo",
+				"picturegame-protectimgconfirm",
+				"picturegame-flagimgconfirm",
+				"picturegame-adminpaneldelete-confirm",
+				"picturegame-adminpanelunflag-confirm",
+				"picturegame-adminpaneldelete",
+				"picturegame-adminpanelunflag",
+				"picturegame-adminpaneldelete-confirm",
+				"picturegame-adminpanelreason",
+				"cancel",
+				"picturegame-reportimages"
+			],
+			"dependencies": [
+				"ext.socialprofile.flash",
+				"ext.socialprofile.LightBox",
+				"oojs-ui-core",
+				"oojs-ui-windows",
+				"oojs-ui-widgets"
+			]
+		},
+		"ext.pictureGame.adminPanel": {
+			"styles": "resources/css/adminpanel.css"
+		},
+		"ext.pictureGame.editPanel": {
+			"styles": "resources/css/editpanel.css"
+		},
+		"ext.pictureGame.gallery": {
+			"styles": "resources/css/gallery.css"
+		},
+		"ext.pictureGame.mainGame": {
+			"styles": "resources/css/maingame.css"
+		},
+		"ext.pictureGame.startGame": {
+			"styles": "resources/css/startgame.css"
+		}
+	},
+	"AvailableRights": [
+		"picturegameadmin"
+	],
+	"GroupPermissions": {
+		"staff": {
+			"picturegameadmin": true
+		},
+		"sysop": {
+			"picturegameadmin": true
+		}
+	},
+	"manifest_version": 1
+}

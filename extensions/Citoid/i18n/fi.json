@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alluk.",
+			"Moj",
+			"Nike",
+			"Olimar",
+			"Pyscowicz",
+			"Stryn",
+			"Susannaanas",
+			"Valtlait"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Lisää",
+	"citoid-citoiddialog-back": "Takaisin",
+	"citoid-citoiddialog-credit": "Palvelun mahdollistaa $1",
+	"citoid-citoiddialog-lookup-button": "Tuota",
+	"citoid-citoiddialog-mode-auto": "Automaattinen",
+	"citoid-citoiddialog-mode-manual": "Manuaalinen",
+	"citoid-citoiddialog-mode-reuse": "Uudelleenkäyttö",
+	"citoid-citoiddialog-search": "Haku",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, otsikko, tai viittaus",
+	"citoid-citoiddialog-search-placeholder": "esim. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Etsitään, odota...",
+	"citoid-citoiddialog-title": "Lisää viittaus",
+	"citoid-citoiddialog-use-general-error-message": "Viittaustasi ei voitu luoda. Voit luoda sen manuaalisesti käyttämällä ylläolevaa \"{{int:citoid-citoiddialog-mode-manual}}\"-välilehteä.",
+	"citoid-citoidtool-title": "Viittaa",
+	"citoid-citoidtool-title-othergroup": "Viite",
+	"citoid-desc": "Mahdollistaa citoid-palvelun käytön MediaWikissä",
+	"citoid-referencecontextitem-convert-button": "Muunna",
+	"citoid-referencecontextitem-convert-message": "Tämä viite koostuu pelkästä linkistä. Voit päivittää sen muoto-ohjeiden mukaiseksi viitteeksi käyttämällä ”{{int:citoid-referencecontextitem-convert-button}}”-toimintoa.",
+	"citoid-unknown-error": "Viitteen luominen epäonnistui tuntemattomasta syystä. Yritä myöhemmin uudelleen.",
+	"citoid-wb-referenceview-tabs-automatic": "Automaattinen",
+	"citoid-wb-referenceview-tabs-search": "haku",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, tai QID:",
+	"citoid-wb-pendingdialog-error": "Viitteen luominen epäonnistui. Käytä välilehteä Manuaalinen tai yritä uudelleen.",
+	"citoid-wb-pendingdialog-message": "Luodaan viitettä... odota...",
+	"citoid-wb-pendingdialog-title": "Viitteen luonti"
+}

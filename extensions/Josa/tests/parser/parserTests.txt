@@ -1,0 +1,737 @@
+!! Version 2
+
+!! functionhooks
+Eul/Ruel
+Eun/Neun
+E/Ga
+Gwa/Wa
+A/Ya
+Euro/Ro
+E/
+!! endfunctionhooks
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Hangul
+!! options
+language=ko
+!! wikitext
+{{#을를:법원}}
+!! html
+<p>법원을
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Hangul
+!! options
+language=ko
+!! wikitext
+{{#을를:학교}}
+!! html
+<p>학교를
+</p>
+!! end
+
+!! test
+Josa {{#Eun/Neun:}} -> Eun: Hangul
+!! options
+language=ko
+!! wikitext
+{{#은는:저녁}}
+!! html
+<p>저녁은
+</p>
+!! end
+
+!! test
+Josa {{#Eun/Neun:}} -> Neun: Hangul
+!! options
+language=ko
+!! wikitext
+{{#은는:과자}}
+!! html
+<p>과자는
+</p>
+!! end
+
+!! test
+Josa {{#E/Ga:}} -> E: Hangul
+!! options
+language=ko
+!! wikitext
+{{#이가:재판관}}
+!! html
+<p>재판관이
+</p>
+!! end
+
+!! test
+Josa {{#E/Ga:}} -> Ga: Hangul
+!! options
+language=ko
+!! wikitext
+{{#이가:기여자}}
+!! html
+<p>기여자가
+</p>
+!! end
+
+!! test
+Josa {{#Gwa/Wa:}} -> Gwa: Hangul
+!! options
+language=ko
+!! wikitext
+{{#과와:생강}}
+!! html
+<p>생강과
+</p>
+!! end
+
+!! test
+Josa {{#Gwa/Wa:}} -> Wa: Hangul
+!! options
+language=ko
+!! wikitext
+{{#과와:양파}}
+!! html
+<p>양파와
+</p>
+!! end
+
+!! test
+Josa {{#A/Ya:}} -> A: Hangul
+!! options
+language=ko
+!! wikitext
+{{#아야:개똥}}
+!! html
+<p>개똥아
+</p>
+!! end
+
+!! test
+Josa {{#A/Ya:}} -> Ya: Hangul
+!! options
+language=ko
+!! wikitext
+{{#아야:철수}}
+!! html
+<p>철수야
+</p>
+!! end
+
+!! test
+Josa {{#Euro/Ro:}} -> Euro: Hangul
+!! options
+language=ko
+!! wikitext
+{{#으로:항공편}}
+!! html
+<p>항공편으로
+</p>
+!! end
+
+!! test
+Josa {{#Euro/Ro:}} -> Ro: Hangul
+!! options
+language=ko
+!! wikitext
+{{#으로:자동차}}
+!! html
+<p>자동차로
+</p>
+!! end
+
+!! test
+Josa {{#Eu/Euro:}} -> Ro: Hangul with riuel
+!! options
+language=ko
+!! wikitext
+{{#으로:철길}}
+!! html
+<p>철길로
+</p>
+!! end
+
+!! test
+Josa {{#E/:}} -> E: Hangul
+!! options
+language=ko
+!! wikitext
+{{#이:수영}}가
+!! html
+<p>수영이가
+</p>
+!! end
+
+!! test
+Josa {{#E/:}} -> (none): Hangul
+!! options
+language=ko
+!! wikitext
+{{#이:영희}}가
+!! html
+<p>영희가
+</p>
+!! end
+
+!! test
+Josa with override (in first position) (1)
+!! options
+language=ko
+!! wikitext
+{{#을를:시약 100g|덮어쓰기=을}}
+!! html
+<p>시약 100g을
+</p>
+!! end
+
+!! test
+Josa with override (in first position) (2)
+!! options
+language=ko
+!! wikitext
+{{#을를:시약 100g|오버라이드=을}}
+!! html
+<p>시약 100g을
+</p>
+!! end
+
+!! test
+Josa with override (in first position) (3)
+!! options
+language=ko
+!! wikitext
+{{#을를:시약 100g|override=을}}
+!! html
+<p>시약 100g을
+</p>
+!! end
+
+!! test
+Josa with override (in second position) (1)
+!! options
+language=ko
+!! wikitext
+{{#을를:시약 100g||override=을}}
+!! html
+<p>시약 100g을
+</p>
+!! end
+
+!! test
+Josa with override (in second position) (2)
+!! options
+language=ko
+!! wikitext
+{{#을를:시약 100g|dummy|override=을}}
+!! html
+<p>시약 100g을
+</p>
+!! end
+
+!! test
+Josa with empty override
+!! options
+language=ko
+!! wikitext
+{{#을를:시약 100g|override=}}
+!! html
+<p>시약 100g
+</p>
+!! end
+
+!! test
+Josa with josaonly (in first position) (1)
+!! options
+language=ko
+!! wikitext
+{{#을를:나무|조사만}}
+!! html
+<p>를
+</p>
+!! end
+
+!! test
+Josa with josaonly (in first position) (2)
+!! options
+language=ko
+!! wikitext
+{{#을를:나무|josaonly}}
+!! html
+<p>를
+</p>
+!! end
+
+!! test
+Josa with josaonly (in second position) (1)
+!! options
+language=ko
+!! wikitext
+{{#을를:나무||josaonly}}
+!! html
+<p>를
+</p>
+!! end
+
+!! test
+Josa with josaonly (in second position) (2)
+!! options
+language=ko
+!! wikitext
+{{#을를:나무|dummy|josaonly}}
+!! html
+<p>를
+</p>
+!! end
+
+!! test
+Josa with override and josaonly
+!! options
+language=ko
+!! wikitext
+{{#을를:시약 100g|override=을|josaonly}}
+!! html
+<p>을
+</p>
+!! end
+
+!! test
+Josa with josaonly and override
+!! options
+language=ko
+!! wikitext
+{{#을를:시약 100g|josaonly|override=을}}
+!! html
+<p>을
+</p>
+!! end
+
+!! test
+Josa with trailing ascii characters (1)
+!! options
+language=ko
+!! wikitext
+{{#을를:[[도로]]}}
+!! html
+<p><a href="/index.php?title=%EB%8F%84%EB%A1%9C&amp;action=edit&amp;redlink=1" class="new" title="도로 (없는 문서)">도로</a>를
+</p>
+!! end
+
+!! test
+Josa with trailing ascii characters (2)
+!! options
+language=ko
+!! wikitext
+{{#을를:'''기차'''}}
+!! html
+<p><b>기차</b>를
+</p>
+!! end
+
+!! test
+Josa with trailing ascii characters (3)
+!! options
+language=ko
+!! wikitext
+{{#을를:사과 (과일)}}
+!! html
+<p>사과 (과일)을(를)
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Number (0)
+!! options
+language=ko
+!! wikitext
+{{#을를:0}}
+!! html
+<p>0을
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Number (1)
+!! options
+language=ko
+!! wikitext
+{{#을를:1}}
+!! html
+<p>1을
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Number (2)
+!! options
+language=ko
+!! wikitext
+{{#을를:2}}
+!! html
+<p>2를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Number (3)
+!! options
+language=ko
+!! wikitext
+{{#을를:3}}
+!! html
+<p>3을
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Number (4)
+!! options
+language=ko
+!! wikitext
+{{#을를:4}}
+!! html
+<p>4를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Number (5)
+!! options
+language=ko
+!! wikitext
+{{#을를:5}}
+!! html
+<p>5를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Number (6)
+!! options
+language=ko
+!! wikitext
+{{#을를:6}}
+!! html
+<p>6을
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Number (7)
+!! options
+language=ko
+!! wikitext
+{{#을를:7}}
+!! html
+<p>7을
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Number (8)
+!! options
+language=ko
+!! wikitext
+{{#을를:8}}
+!! html
+<p>8을
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Number (9)
+!! options
+language=ko
+!! wikitext
+{{#을를:9}}
+!! html
+<p>9를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (A)
+!! options
+language=ko
+!! wikitext
+{{#을를:A}}
+!! html
+<p>A를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (B)
+!! options
+language=ko
+!! wikitext
+{{#을를:B}}
+!! html
+<p>B를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (C)
+!! options
+language=ko
+!! wikitext
+{{#을를:C}}
+!! html
+<p>C를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (D)
+!! options
+language=ko
+!! wikitext
+{{#을를:D}}
+!! html
+<p>D를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (E)
+!! options
+language=ko
+!! wikitext
+{{#을를:E}}
+!! html
+<p>E를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (F)
+!! options
+language=ko
+!! wikitext
+{{#을를:F}}
+!! html
+<p>F를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (G)
+!! options
+language=ko
+!! wikitext
+{{#을를:G}}
+!! html
+<p>G를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (H)
+!! options
+language=ko
+!! wikitext
+{{#을를:H}}
+!! html
+<p>H를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (I)
+!! options
+language=ko
+!! wikitext
+{{#을를:I}}
+!! html
+<p>I를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (J)
+!! options
+language=ko
+!! wikitext
+{{#을를:J}}
+!! html
+<p>J를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (K)
+!! options
+language=ko
+!! wikitext
+{{#을를:K}}
+!! html
+<p>K를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Uppercase Alphabet (L)
+!! options
+language=ko
+!! wikitext
+{{#을를:L}}
+!! html
+<p>L을
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Uppercase Alphabet (M)
+!! options
+language=ko
+!! wikitext
+{{#을를:M}}
+!! html
+<p>M을
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Uppercase Alphabet (N)
+!! options
+language=ko
+!! wikitext
+{{#을를:N}}
+!! html
+<p>N을
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (O)
+!! options
+language=ko
+!! wikitext
+{{#을를:O}}
+!! html
+<p>O를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (P)
+!! options
+language=ko
+!! wikitext
+{{#을를:P}}
+!! html
+<p>P를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (Q)
+!! options
+language=ko
+!! wikitext
+{{#을를:Q}}
+!! html
+<p>Q를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Eul: Uppercase Alphabet (R)
+!! options
+language=ko
+!! wikitext
+{{#을를:R}}
+!! html
+<p>R을
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (S)
+!! options
+language=ko
+!! wikitext
+{{#을를:S}}
+!! html
+<p>S를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (T)
+!! options
+language=ko
+!! wikitext
+{{#을를:T}}
+!! html
+<p>T를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (U)
+!! options
+language=ko
+!! wikitext
+{{#을를:U}}
+!! html
+<p>U를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (V)
+!! options
+language=ko
+!! wikitext
+{{#을를:V}}
+!! html
+<p>V를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (W)
+!! options
+language=ko
+!! wikitext
+{{#을를:W}}
+!! html
+<p>W를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (X)
+!! options
+language=ko
+!! wikitext
+{{#을를:X}}
+!! html
+<p>X를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (Y)
+!! options
+language=ko
+!! wikitext
+{{#을를:Y}}
+!! html
+<p>Y를
+</p>
+!! end
+
+!! test
+Josa {{#Eul/Ruel:}} -> Ruel: Uppercase Alphabet (Z)
+!! options
+language=ko
+!! wikitext
+{{#을를:Z}}
+!! html
+<p>Z를
+</p>
+!! end

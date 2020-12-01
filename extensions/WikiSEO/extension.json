@@ -1,0 +1,100 @@
+{
+	"name": "WikiSEO",
+	"version": "2.6.2a",
+	"author": [
+		"Octfx"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WikiSEO",
+	"descriptionmsg": "wiki-seo-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"platform": {
+			"php": ">=7.2.0"
+		}
+	},
+	"config": {
+		"GoogleSiteVerificationKey": {
+			"description": "Site verification key for Google Search Console",
+			"value": null
+		},
+		"BingSiteVerificationKey": {
+			"description": "Site verification key for Bing Webmaster Center",
+			"value": null
+		},
+		"FacebookAppId": {
+			"description": "App Id for Facebook Insights",
+			"value": null
+		},
+		"FacebookAdmins": {
+			"description": "Admin id for Facebook Insights. Multiple ids can be separated by ','",
+			"value": null
+		},
+		"YandexSiteVerificationKey": {
+			"description": "Site verification key for Yandex Webmasters",
+			"value": null
+		},
+		"AlexaSiteVerificationKey": {
+			"description": "Site verification key for Alexa Console",
+			"value": null
+		},
+		"PinterestSiteVerificationKey": {
+			"description": "Site verification key for Pinterest Console",
+			"value": null
+		},
+		"NortonSiteVerificationKey": {
+			"description": "Site verification key for Norton Safe Web",
+			"value": null
+		},
+		"TwitterSiteHandle": {
+			"description": "Twitter Site handle to add globally",
+			"value": null
+		},
+		"MetadataGenerators": {
+			"description": "Array with metadata generators",
+			"value": [
+				"OpenGraph",
+				"Twitter",
+				"SchemaOrg"
+			]
+		},
+		"WikiSeoDefaultImage": {
+			"description": "Default image. Local image, if not set $wgLogo will be used.",
+			"value": null
+		},
+		"TwitterCardType": {
+			"description": "Type of twitter card to use. Defaults to 'summary_large_image'. Possible values: 'summary', 'summary_large_image'",
+			"value": "summary_large_image"
+		},
+		"WikiSeoDefaultLanguage": {
+			"description": "Language code and area which will set a <link rel='alternate'> for the current page.",
+			"value": null
+		},
+		"WikiSeoDisableLogoFallbackImage": {
+			"description": "Disable setting the sites logo as the default SEO image if no image was provided.",
+			"value": false
+		},
+		"WikiSeoNoindexPageTitles": {
+			"description": "Array of page titles that should have a robot policy of 'noindex'.",
+			"value": []
+		}
+	},
+	"MessagesDirs": {
+		"WikiSEO": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"WikiSEOMagic": "WikiSEO.i18n.magic.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\WikiSEO\\": "includes/"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "MediaWiki\\Extension\\WikiSEO\\Hooks::onParserFirstCallInit",
+		"BeforePageDisplay": "MediaWiki\\Extension\\WikiSEO\\Hooks::onBeforePageDisplay",
+		"ScribuntoExternalLibraries": "MediaWiki\\Extension\\WikiSEO\\Hooks::onScribuntoExternalLibraries"
+	},
+	"manifest_version": 2
+}

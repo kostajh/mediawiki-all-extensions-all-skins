@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Brest"
+		]
+	},
+	"inlinecategorizer-desc": "JavaScript-модул што овозможува менување, додавање и отстранување на категориски врски непосредно од страницата",
+	"inlinecategorizer-add-category": "Додај категорија",
+	"inlinecategorizer-add-category-submit": "Додај",
+	"inlinecategorizer-add-category-summary": "Додај категорија \"$1\"",
+	"inlinecategorizer-api-error": "Извршникот врати грешка: $1: $2",
+	"inlinecategorizer-api-unknown-error": "API врати непозната грешка.",
+	"inlinecategorizer-cancel": "Откажи уредувања",
+	"inlinecategorizer-cancel-all": "Откажи ги сите промени",
+	"inlinecategorizer-category-already-present": "Страницава веќе ѝ припаѓа на категоријата $1",
+	"inlinecategorizer-category-hook-error": "Месна функција го спречи зачувувањето на измените.",
+	"inlinecategorizer-category-question": "Зошто сакате да ги извршите следниве измени:",
+	"inlinecategorizer-confirm-ok": "ОК",
+	"inlinecategorizer-confirm-save": "Зачувај",
+	"inlinecategorizer-confirm-save-all": "Зачувај ги сите промени",
+	"inlinecategorizer-confirm-title": "Потврди дејство",
+	"inlinecategorizer-edit-category": "Уреди категорија",
+	"inlinecategorizer-edit-category-error": "Категоријата „$1“ не можеше да се уреди.\nОва обично се случува кога категоријата е додадена на страница преку некоја предлошка.",
+	"inlinecategorizer-edit-category-summary": "Замена на категоријата „$1“ со „$2“",
+	"inlinecategorizer-error-title": "Грешка",
+	"inlinecategorizer-remove-category": "Отстрани категорија",
+	"inlinecategorizer-remove-category-error": "Не можев да ја отстранам категоријата „$1“.\nОва обично се случува кога категоријата е додадена на страница преку некоја предлошка.",
+	"inlinecategorizer-remove-category-summary": "Избриши категорија \"$1\""
+}

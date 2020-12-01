@@ -1,0 +1,17 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/mediawiki"
+	],
+	"env": {
+		"browser": true
+	},
+	"globals": {
+		"jQuery": false
+	},
+	"rules": {
+		"no-shadow": "warn",
+		"mediawiki/msg-doc": "warn"
+	}
+}

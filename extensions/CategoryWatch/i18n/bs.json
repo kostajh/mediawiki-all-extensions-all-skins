@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"categorywatch-desc": "Proširena funkcionalnost spiska praćenja da se uključe obavijesti o promjena u članstvu praćenih kategorija",
+	"categorywatch-emailsubject": "Aktivnosti koje uključuju praćenje kategorije \"$1\"",
+	"categorywatch-catmovein": "ubacio $1 u kategoriju $2 iz $3",
+	"categorywatch-catmoveout": "premjestio $1 iz kategorije $2 u $3",
+	"categorywatch-catadd": "dodao $1 u kategoriju $2",
+	"categorywatch-catsub": "uklonio $1 iz kategorije $2",
+	"categorywatch-autocat": "Automatski pregledao/-la $1"
+}

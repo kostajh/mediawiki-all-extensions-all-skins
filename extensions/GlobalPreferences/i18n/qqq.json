@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kunal Mehta",
+			"Liuxinyu970226",
+			"Sam Wilson",
+			"Shirayuki"
+		]
+	},
+	"globalprefs-desc": "{{desc|name=Global Preferences|url=https://www.mediawiki.org/wiki/Extension:GlobalPreferences}}",
+	"globalprefs-set-local-exception": "Label for the checkbox below a globally-set preference, inviting user to set a local exception for it. $1 is the fragment identifier for the current preferences section, with which to link to the correct section on Special:GlobalPreferences.",
+	"globalprefs-has-local-exception": "Help text on a global preference that has a local exception. $1 is the fragment identifier for the current preferences section, with which to link to the correct section on Special:Preferences.",
+	"tooltip-globalprefs-check-label": "The tooltip for the checkboxes that enable preferences globally.",
+	"globalprefs-error-header": "Page title for error message.\n{{Identical|Error}}",
+	"globalprefs-notglobal": "Error message a user sees if they do not have a global account.",
+	"globalpreferences": "{{doc-special|GlobalPreferences}}",
+	"globalprefs-info-label": "Label for link in [[Special:Preferences]] to go set your global preferences.",
+	"globalprefs-info-link": "Link text to [[Special:GlobalPreferences]].",
+	"globalprefs-info-help": "Help message for the link in [[Special:Preferences]] that goes to [[Special:GlobalPreferences]].",
+	"globalprefs-reset-intro": "Used in [[Special:GlobalPreferences/reset]].",
+	"globalprefs-restoreprefs": "Used as link text in [[Special:GlobalPreferences]]. The link points to [[Special:GlobalPreferences/reset]] which shows the \"Remove all global preferences\" form.\n\nAlso used as label for the Submit button in [[Special:GlobalPreferences/reset]].",
+	"globalprefs-select-all": "Label for the checkbox for selecting all of a section's preferences.",
+	"globalprefs-col-header": "Label at the top of the global checkboxes. Informative for non-JS users, and becomes a label for the select-all checkbox for JS users."
+}

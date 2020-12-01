@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"bs-socialblog-desc": "كيان المدونة لـBlueSpiceSocial",
+	"bs-socialblog-type": "مدونة",
+	"blog": "المدونة",
+	"bs-socialblog-entityblog-header-create": "مدونة جديدة",
+	"bs-socialblog-var-blogtitle": "العنوان",
+	"bs-socialblog-entityblog-content-more-btn-more": "المزيد",
+	"bs-socialblog-entityblog-content-more-btn-less": "أقل",
+	"bs-socialblog-toc-useblogteaser": "استخدم نصا تشويقيا لإدخالات المدونة في الجدول الزمني",
+	"bs-socialblog-special-blog-heading": "مدونة",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notifications-blog-create": " {{GENDER:$1|أنشأ $2|أنشأت $2}} المدونة الجديدة \"$3\"",
+	"bs-social-notifications-email-blog-create-subject": "{{GENDER:$1|أنشأ $2|أنشأت $2}} المدونة الجديدة \"$3\"",
+	"bs-social-notifications-email-blog-create-body": "{{GENDER:$1|أنشأ $2|أنشأت $2}} المدونة الجديدة \"$3\" بالنص التالي:\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|أنشأ $2|أنشأت $2}} المدونة الجديدة \"$3\"",
+	"bs-social-notifications-blog-edit": "{{GENDER:$1|أنشأ $2|أنشأت $2}} المدونة \"$3\"",
+	"bs-social-notifications-email-blog-edit-subject": "{{GENDER:$1|عدل $2|عدلت $2}} المدونة \"$3\"",
+	"bs-social-notifications-email-blog-edit-body": "{{GENDER:$1|عدل $2|عدلت $2}} المدونة \"$3\"، النص الجديد هو:\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|عدل $2|عدلت $2}} المدونة \"$3\"",
+	"bs-social-notifications-blog-delete": "{{GENDER:$1|حذف $2|حذفت $2}} المدونة \"$3\"",
+	"bs-social-notifications-email-blog-delete-subject": "{{GENDER:$1|حذف $2|حذفت $2}} المدونة \"$3\"",
+	"bs-social-notifications-email-blog-delete-body": "{{GENDER:$1|حذف $2|حذفت $2}} المدونة \"$3\"",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|حذف $2|حذفت $2}} المدونة \"$3\"",
+	"bs-social-notification-blog-primary-link-label": "عرض المدونة"
+}

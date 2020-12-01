@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justincheng12345",
+			"LNDDYL",
+			"Liangent",
+			"Mark85296341",
+			"Wrightbus",
+			"飞舞回堂前"
+		]
+	},
+	"onlinestatus-desc": "添加一個選項以顯示用戶目前是否在線",
+	"onlinestatus-js-anon": "錯誤：您必須登入才可使用此功能",
+	"onlinestatus-js-changed": "您的狀態已變更為 \"$1\"",
+	"onlinestatus-js-error": "無法更改狀態，數值「$1」無效",
+	"onlinestatus-subtitle-offline": "這位使用者現正離線",
+	"onlinestatus-subtitle-online": "這位使用者目前在線上",
+	"onlinestatus-tab": "狀態",
+	"onlinestatus-toggles-desc": "您的狀態：",
+	"onlinestatus-toggles-explain": "此將容許他人查看你目前是否在線。",
+	"onlinestatus-toggles-show": "在我的使用者頁面顯示線上狀態",
+	"onlinestatus-toggle-offline": "離線",
+	"onlinestatus-toggle-online": "線上",
+	"onlinestatus-pref-onlineonlogin": "當登入時把我的狀態設為線上",
+	"onlinestatus-pref-offlineonlogout": "當登出時把我的狀態設為離線"
+}

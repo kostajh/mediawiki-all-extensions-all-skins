@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"pluggablesso-desc": "Usa'l SSO proporcionáu pol sirvidor web de $REMOTE_USER xunto con PluggableAuth",
+	"pluggablesso-no-session": "Nun se recibió nengún nome d'usuariu, la sesión falló de dalguna manera.",
+	"pluggablesso-username-mismatch": "El nome d'usuariu nun casó cola sesión"
+}

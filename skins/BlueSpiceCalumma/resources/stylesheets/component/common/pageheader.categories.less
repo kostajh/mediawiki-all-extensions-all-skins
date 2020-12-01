@@ -1,0 +1,72 @@
+.bs-page-header {
+	 .bs-page-categories {
+		display: inline-flex;
+		justify-content: flex-start;
+		margin-top: 0.3125rem;
+		margin-right: 0;
+		max-width: 100%;
+
+		.bs-category-add-category {
+			line-height: 1.25rem;
+			display: block;
+			min-height: 1rem;
+
+			&:hover {
+				text-decoration: none;
+			}
+
+			i::before {
+				content: "\e903";
+				font-family: "bluespice-logo";
+				font-style: normal;
+				font-size: 0.63rem;
+				margin-right: 0.3125rem;
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+
+		.bs-category-container-categories {
+			display: flex;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+
+			& > a.pill:last-of-type {
+				margin-right: 0.3rem;
+			}
+		}
+
+		.bs-insertcategory-category-container-editlink {
+			position: relative;
+
+			.bs-category-add-category {
+				border: none;
+			}
+		}
+
+		.bs-category-container-add-category {
+			.x-form-text-default .x-tagfield-item {
+				border-radius: 0.19rem;
+				background-color: transparent;
+				margin-left: 0.3125rem;
+				line-height: 1.25rem;
+			}
+			.x-panel-body-default {
+				background-color: inherit;
+			}
+		}
+
+		a {
+			white-space: nowrap;
+
+			&.pill {
+				padding: 0 0.3125rem;
+				border-radius: 0.19rem;
+				background-color: transparent;
+				margin-left: 0.3125rem;
+				margin-bottom: 0.3125rem;
+				line-height: 1.25rem;
+			}
+		}
+	}
+}

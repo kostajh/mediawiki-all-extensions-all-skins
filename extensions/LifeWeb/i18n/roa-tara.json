@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Generatore de chiave pe l'idendificazione e cangiatore",
+	"apihelp-query+LifeWeb-description": "Collegaminde de date pe LifeBase.",
+	"apihelp-query+LifeWeb-summary": "Collegaminde de date pe LifeBase.",
+	"apihelp-query+LifeWeb-param-what": "Ce elenghe de date a pigghià.",
+	"apihelp-query+LifeWeb-param-clearCache": "Ce a cache adda essere sdevacate o mene duranne 'u recupere de le date",
+	"apihelp-query+LifeWeb-example-1": "Elenghe de le taxon",
+	"apihelp-query+LifeWeb-example-2": "Elenghe de domande, stambate belle belle"
+}

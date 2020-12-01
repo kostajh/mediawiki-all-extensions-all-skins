@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Liuxinyu970226",
+			"MuratTheTurkish",
+			"Patriot Kur",
+			"Purodha",
+			"Raymond",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"edituser": "{{doc-special}}",
+	"edituser-extensionname": "{{name}}",
+	"edituser-desc": "{{desc|name=EditUser|url=https://www.mediawiki.org/wiki/Extension:EditUser}}",
+	"edituser-username": "{{Identical|Username}}",
+	"edituser-dosearch": "{{Identical|Search}}",
+	"edituser-nouser": "Used for saying that the user does not exist.",
+	"edituser-exempt": "Used for saying the user cannot be edited.",
+	"right-edituser": "{{doc-right|edituser}}",
+	"right-edituser-exempt": "{{doc-right|edituser-exempt}}",
+	"action-edituser": "{{doc-action|edituser}}",
+	"action-edituser-exempt": "Error presented when trying to edit the preferences of a user for which this special feature is not available.\n\n{{doc-action|edituser-exempt}}"
+}

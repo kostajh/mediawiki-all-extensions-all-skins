@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kandar"
+		]
+	},
+	"inlinecategorizer-add-category": "Tambah kategori",
+	"inlinecategorizer-add-category-submit": "Tambah",
+	"inlinecategorizer-add-category-summary": "Tambah kategori \"$1\"",
+	"inlinecategorizer-cancel": "Bolaykeun éditan",
+	"inlinecategorizer-cancel-all": "Bolaykeun sakabéh parobahan",
+	"inlinecategorizer-category-already-present": "Ieu kaca geus diasupkeun kana katégori \"$1\"",
+	"inlinecategorizer-confirm-ok": "Heug",
+	"inlinecategorizer-confirm-save": "Simpen",
+	"inlinecategorizer-confirm-save-all": "Simpen sakabéh parobahan",
+	"inlinecategorizer-edit-category": "Édit katégori",
+	"inlinecategorizer-error-title": "Éror",
+	"inlinecategorizer-remove-category": "Hapus katégori",
+	"inlinecategorizer-remove-category-error": "Ieu kategori \"$1\" teu mungkin dihapus.\nHal ieu ilaharna dilarapkeun kana kategori anu ditambahkeun kana citakan.",
+	"inlinecategorizer-remove-category-summary": "Hapus kategori \"$1\""
+}

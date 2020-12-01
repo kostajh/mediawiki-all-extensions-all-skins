@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"bs-socialarticleactions-desc": "Lägger till grundläggande artikelhändelseloggar i BlueSpiceSocial",
+	"bs-socialarticleactions-type-articlesave": "Artikelredigering",
+	"bs-socialarticleactions-type-articlecreate": "Artikelskapande",
+	"bs-socialarticleactions-type-articledelete": "Artikelradering",
+	"bs-socialarticleactions-type-filesave": "Filredigering",
+	"bs-socialarticleactions-type-filecreate": "Filskapande",
+	"bs-socialarticleactions-type-filedelete": "Filradering",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] redigerade artikeln [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] skapade artikeln [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] raderade artikeln [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] lade till en ny version av filen [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] laddade upp filen [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] raderade filen [[:$6|$6]]"
+}

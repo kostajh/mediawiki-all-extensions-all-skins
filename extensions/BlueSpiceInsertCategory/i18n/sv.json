@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil",
+			"WikiPhoenix"
+		]
+	},
+	"bs-insertcategory-desc": "Dialogruta för att ange en kategorilänk",
+	"bs-insertcategory-insertcat": "Infoga kategori",
+	"prefs-insertcategory": "Infoga kategori",
+	"bs-insertcategory-pref-withparents": "Infoga kategori med dess överordnade kategorier",
+	"bs-insertcategory-title": "Infoga kategori",
+	"bs-insertcategory-cat-label": "Tilldelad:",
+	"bs-insertcategory-success": "Kategorin lades till",
+	"bs-insertcategory-failure": "Fel",
+	"bs-insertcategory-hint": "OBS: För att lägga till en kategori måste du trycka på enter.",
+	"bs-insertcategory-panel-title": "Kategorier",
+	"bs-insertcategory-category-editor-title": "Kategorier",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Uttryckliga kategorier",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Ta bort alla",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "redigera",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Redigera sidans kategorier",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Redigera kategorierna för denna sida"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"ldapprovider-desc": "提供基礎架構來連結 LDAP 資源並對此來運作查詢",
+	"ldapprovider-config-clientregistry": "允許自定義客戶端註冊",
+	"ldapprovider-config-domainconfigs": "儲存各網域設定",
+	"ldapprovider-domain-config-not-found": "無法存取設置檔案 '$1'!\n\n請建給予 LDAPProvider 擴充功能使用的立網域設置檔案。",
+	"ldapprovider-more-than-one": "有找出一個以上的 '$1' 使用者",
+	"ldapprovider-config-domainconfigprovider": "指定獲得網域設置的機制",
+	"ldapprovider-config-defaultdomain": "若沒有可用的資料庫對應，為使用者指定所挑選的網域"
+}

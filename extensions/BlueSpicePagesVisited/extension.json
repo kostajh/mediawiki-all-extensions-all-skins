@@ -1,0 +1,58 @@
+{
+	"name": "BlueSpicePagesVisited",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:PagesVisited",
+	"author": [
+		"Robert Vogel",
+		"Stephan Muggli",
+		"Dejan Savuljesku"
+	],
+	"descriptionmsg": "bs-pagesvisited-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceWhoIsOnline": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpicePagesVisited": {
+					"className": "\\BlueSpice\\PagesVisited\\Extension",
+					"extPath": "/BlueSpicePagesVisited"
+				}
+			},
+			"TagRegistry": {
+				"pagesvisited": "\\BlueSpice\\PagesVisited\\Tag\\PagesVisited"
+			},
+			"RendererRegistry": {
+				"pagesvisited-pagelist": "\\BlueSpice\\PagesVisited\\Renderer\\PageList::factory"
+			}
+		},
+		"BlueSpiceUserSidebar": {
+			"Widgets": {
+				"PAGESVISITED": {
+					"callback": "\\BlueSpice\\PagesVisited\\Panel\\PagesVisited::factory",
+					"default": true
+				}
+			}
+		}
+	},
+	"MessagesDirs": {
+		"PagesVisited": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PagesVisited\\Extension::onBSUsageTrackerRegisterCollectors",
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\PagesVisited\\Hook\\BSInsertMagicAjaxGetData\\AddPagesVisited::callback"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\PagesVisited\\": "src/"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

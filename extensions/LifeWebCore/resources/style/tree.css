@@ -1,0 +1,521 @@
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(SourceSansPro/SourceSansPro-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Source Sans Pro Italic'), local('SourceSansPro-It'), url(SourceSansPro/SourceSansPro-It.woff) format('woff');
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(SourceSansPro/SourceSansPro-Bold.woff) format('woff');
+}
+
+
+body {
+    font-family: "Source Sans Pro","Calibri",sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    background: url("quercusRubra.jpg") repeat fixed left top; /* Alternative if background-size: cover not supported */
+    background: url("quercusRubra.jpg") no-repeat fixed left top / cover  transparent;
+}
+
+#treeUI .header {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #b9e2bc;
+}
+#treeUI .header .button {
+    height: 32px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px 0 20px;
+    margin-left: 28px;
+    background-color: #85c786;
+    border-bottom: 8px solid #b9e2bc;
+    cursor: pointer;
+}
+#treeUI .header .button.active {
+    border-bottom-color: #85c786;
+}
+#treeUI .header .button div,
+#treeUI .header .button label {
+    display: inline-block;
+    vertical-align: top;
+}
+#treeUI .header .button .text {
+    padding: 6px 0 8px 0;
+}
+#treeUI .header .button .image {
+    padding: 4px 0 0 8px;
+}
+#treeUI .header .button img {
+    height: 22px;
+}
+#treeUI .header .button input {
+    height: 28px;
+    padding: 0 4px;
+    margin: 1px 8px;
+    border: 1px solid #3b893c;
+}
+#treeUI .header #searchByName {
+    cursor: default;
+}
+#treeUI .header #searchByName #clearNameSearch {
+    cursor: pointer;
+}
+
+#treeUI .body {
+
+    width: 100%;
+    margin-top: 40px;
+}
+#treeUI .leftContainer {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 700px;
+}
+#treeUI .rightContainer {
+    position: absolute;
+    left: 700px;
+    top: 40px;
+    right: 0;
+}
+#treeUI  .rightContainer .rightBody {
+    margin: 0;
+}
+
+
+#treeUI .taxonThumbnail {
+    width: 214px;
+    background-color: rgba(255,255,255,0.8);
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1px 1px 0;
+    cursor: pointer;
+}
+#treeUI .taxonThumbnail h4 {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 8px 0 4px 8px;
+}
+#treeUI .taxonThumbnail img {
+    width: 214px;
+}
+#treeUI .taxonThumbnail .taxonRating {
+    width: 100%;
+    height: 6px;
+    background-color: #9c9c9c;
+    margin-bottom: 4px;
+}
+#treeUI .taxonThumbnail .taxonRating > div {
+    float: left;
+}
+#treeUI .taxonThumbnail .taxonRating .match {
+    background-color: #7CDE4C;
+    height: 100%;
+}
+#treeUI .taxonThumbnail .taxonRating .mismatch {
+    background-color: #AD4E4D;
+    height: 100%;
+}
+
+
+#treeUI h1 {
+    font-weight: normal;
+    font-size: 26px;
+}
+#treeUI .introduction {
+    padding-left: 30px;
+    padding-right: 8px;
+}
+
+
+#treeUI .component {
+    margin: 22px 0;
+}
+#treeUI .component header {
+
+    display: inline-block;
+    padding-right: 10px;
+    margin: 0 0 10px;
+
+    background-color: #85c786;
+    cursor: pointer;
+
+}
+#treeUI .component header h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 22px;
+
+    display: inline-block;
+    border: none;
+    margin: 0;
+}
+#treeUI .component header .componentStatus {
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 16px;
+}
+#treeUI .component header:before {
+    content: '\d7';
+    color: #fff;
+    padding: 0 10px;
+    width: 10px;
+}
+#treeUI .component.collapsed {
+    display: inline-block;
+    margin: 0;
+}
+#treeUI .component.collapsed > * {
+    display: none;
+}
+#treeUI .component.collapsed header {
+    display: inline-block;
+    color: #4b4b4b;
+}
+#treeUI .component.collapsed header:before {
+    content: '+';
+}
+#treeUI .componentDescription {
+    padding-left: 30px;
+    padding-right: 8px;
+}
+#treeUI .componentGallery {
+    padding-top: 24px;
+}
+#treeUI .componentGallery object {
+    margin-left: 100px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#treeUI .question {
+    margin: 0 0 0 16px;
+}
+#treeUI .question h3 {
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 30px;
+    margin: 0 0 10px 0;
+}
+.questionDescription {
+    padding-left: 30px;
+    padding-right: 8px;
+    margin-bottom: 24px;
+}
+
+#treeUI .character {
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 0 12px 0 12px;
+
+    width: 264px;
+    margin: 0 0 16px 30px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+#treeUI .character.hidden {
+    opacity: .5;
+    display: none;
+}
+#treeUI .character.checked.hidden {
+    opacity: .5;
+    display: inline-block;
+}
+#treeUI .character h4 {
+    font-weight: normal;
+    font-size: 16px;
+
+    margin: 0;
+    padding: 12px 16px 10px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+#treeUI .character.checked h4 {
+    background: #85c786 url('iconCheckWhite.png') 16px center no-repeat;
+    padding-left: 42px;
+}
+#treeUI .character .characterDescription {
+    font-size: 12px;
+    padding: 6px 16px 16px;
+}
+#treeUI .character .characterImage {
+    padding: 0 16px;
+}
+#treeUI .character .characterImage img {
+    max-width: 232px;
+}
+
+
+
+
+#treeUI #treeUiSpecialContent {
+    width: 700px;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+#treeUI #treeUiSpecialContent.hidden {
+    display: none;
+}
+#treeUI .specialHeader {
+    background-color: #85c786;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42px;
+
+    margin: 0;
+    padding: 0;
+}
+#treeUI .specialHeader h1 {
+    margin: 0 0 0 30px;
+    padding-top: 8px;
+}
+#treeUI .specialHeader .button {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    cursor: pointer;
+}
+#treeUI .specialHeader .closeButton {
+    background: transparent url('iconClose.png') no-repeat center center;
+    background-size: 20px 20px;
+}
+#treeUI .specialHeader .resetButton {
+    right: 42px;
+    background: transparent url('iconReset.png') no-repeat center center;
+    background-size: 20px 20px;
+}
+#treeUI .specialContainer {
+    background-color: #b9e2bc;
+
+    position: absolute;
+    top: 42px;
+    bottom: 0;
+    left: 0;
+    width: 658px;
+    overflow-y: scroll;
+
+    padding: 0;
+    margin: 0;
+}
+#treeUI .specialContainer .specialBody {
+    width: 100%;
+    padding-top: 30px;
+}
+#treeUI .specialContainer .specialBody p {
+    margin: 0 15px 1em 30px;
+}
+#treeUI .specialContainer .specialBody code {
+    font-size: 12px;
+}
+#treeUI .specialContainer .specialBody ul {
+    padding: 0;
+    margin: 0 0 1em 30px;
+}
+#treeUI .specialContainer .specialBody li {
+    margin-bottom: .5em;
+}
+#treeUI .specialContainer .specialBody h2 {
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 30px;
+    margin: 40px 0 1em 0;
+}
+#treeUI .specialContainer .specialBody ul.characters {
+    margin: 0 15px 8px 30px;
+    border-left: 30px solid #fff;
+    padding: 8px 0 8px 30px;
+    list-style-type: none;
+}
+#treeUI .specialContainer .specialBody ul.characters.match {
+    border-left-color: #7cde4c;
+}
+#treeUI .specialContainer .specialBody ul.characters.mismatch {
+    border-left-color: #ad4e4d;
+}
+#treeUI .specialContainer .specialBody ul.characters.unknown {
+    border-left-color: #9c9c9c;
+}
+#treeUI .specialContainer .specialBody ul.characters li {
+    margin-bottom: 8px;
+}
+#treeUI .specialContainer .specialBody ul.characters dt {
+    display: inline;
+    padding: 0;
+    margin: 0;
+
+    font-size: 16px;
+}
+#treeUI .specialContainer .specialBody ul.characters dd:before {
+    content: ' \2013 ';
+    font-size: 16px;
+    padding: 0 .5em;
+}
+#treeUI .specialContainer .specialBody .characters dd {
+    display: inline;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+#treeUI .specialContainer .specialBody .galleryContainer {
+    padding-left: 30px;
+    margin: 0 0 30px 0;
+    overflow-x: scroll;
+}
+#treeUI .specialContainer .specialBody .galleryContainer table {
+    height: 160px;
+    width: auto;
+}
+#treeUI .specialContainer .specialBody .galleryContainer tr,
+#treeUI .specialContainer .specialBody .galleryContainer td {
+    margin: 0;
+    padding: 0;
+}
+#treeUI .specialContainer .specialBody .galleryContainer img {
+    max-height: 160px;
+    padding: 0;
+    margin: 0 30px 0 0;
+    display: inline-block;
+    cursor: pointer;
+}
+#treeUI .specialContainer .specialBody label {
+    display: block;
+    padding-left: 30px;
+    margin-top: .5em;
+}
+
+
+/* Fullscreen Image */
+#fullscreenGallery {
+    z-index: 2;
+    left: 0;
+    position: fixed;
+    top: 0;
+}
+#fullscreenGallery .fullscreenContent {
+    background: #85c786 url('farn.jpg') no-repeat left top / cover;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+#fullscreenGallery .fullscreenContent.disabled {
+    display: none;
+}
+#fullscreenGallery h2 {
+    font-weight: normal;
+    color: #000;
+    font-size: 22px;
+    text-align: center;
+    background-color: #85c786;
+
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+#fullscreenGallery .fullscreenImage {
+    width: 100%;
+    height: 100%;
+}
+#fullscreenGallery .fullscreenImage .image {
+    background: transparent no-repeat scroll center top;
+    background-size: contain;
+    position: absolute;
+    top: 40px;
+    bottom: 16px;
+    left: 30px;
+    right: 30px;
+}
+#fullscreenGallery .prevImage {
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    left: 0;
+    width: 40%;
+    background: transparent url('iconPrev.png') no-repeat 10px center;
+    background-size: auto 30px;
+}
+#fullscreenGallery .nextImage {
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    background: transparent url('iconNext.png') no-repeat right 10px center;
+    background-size: auto 30px;
+}
+#fullscreenGallery .closeButton {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: 30%;
+    background: transparent url('iconCloseGallery.png') no-repeat right 10px top 10px;
+    background-size: 20px 20px;
+}
+#fullscreenGallery .prevImage,
+#fullscreenGallery .nextImage,
+#fullscreenGallery .closeButton {
+    opacity: .5;
+    cursor: pointer;
+}
+#fullscreenGallery .prevImage:hover,
+#fullscreenGallery .nextImage:hover,
+#fullscreenGallery .closeButton:hover {
+    opacity: 1;
+}
+#fullscreenGallery .prevImage:hover,
+#fullscreenGallery .nextImage:hover {
+    background-size: auto 40px;
+}
+#fullscreenGallery .closeButton:hover {
+    background-size: auto 30px;
+    background-position: right 5px top 5px;
+}
+
+
+/* Taxon Tree */
+svg.lwuiTreeMatrix rect.bg-even {
+    fill: #85c786;
+}
+svg.lwuiTreeMatrix rect.bg-odd {
+    fill: #b9e2bc;
+}
+svg.lwuiTreeMatrix g.items.childrenSelected text {
+    fill: #555;
+    font-style: italic;
+}
+svg.lwuiTreeMatrix g.items text.selected {
+    fill: #000;
+    font-style: normal;
+}
+svg.lwuiTreeMatrix g.items text:hover {
+    fill: #3b893c;
+}

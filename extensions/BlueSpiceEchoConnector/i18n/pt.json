@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Mansil alfalb",
+			"Vitorvicentevalente"
+		]
+	},
+	"bs-echoconnector-extension-description": "Liga o BlueSpice ao Echo",
+	"echo-category-title-bs-admin-cat": "Tarefas administrativas",
+	"echo-pref-tooltip-bs-admin-cat": "Notificar-me quando for criada uma conta de utilizador nova",
+	"echo-pref-tooltip-bs-page-actions-cat": "Notificar-me quando alguém editar, mover ou eliminar uma página que estou a vigiar",
+	"echo-pref-tooltip-bs-page-create-cat": "Notificar-me quando for criada uma página nova",
+	"echo-category-title-bs-page-actions-cat": "Operações sobre páginas vigiadas",
+	"echo-category-title-bs-page-create-cat": "Criação de página",
+	"prefs-namespace-notifications": "Notificações sobre eventos de espaços nominais",
+	"prefs-category-notifications": "Notificações sobre categorias",
+	"echo-category-title-bs-namespace-category-notify-cat": "Alterações nos espaços nominais e categorias subscritos"
+}

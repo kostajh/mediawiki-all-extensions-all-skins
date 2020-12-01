@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"generatemochaconfig-desc": "Um ficheiro de comandos que gera um JSON, que pode ser usado para executar testes Mocha para todas as extensões ativadas"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Darth Kule"
+		]
+	},
+	"onlinestatus-desc": "Aggiungi una preferenza per mostrare se l'utente è al momento presente o meno sul sito",
+	"onlinestatus-js-anon": "Errore: è necessario effettuare l'accesso per utilizzare questa funzione",
+	"onlinestatus-js-changed": "Il tuo stato è stato cambiato in \"$1\"",
+	"onlinestatus-js-error": "Impossibile modificare lo stato, il valore \"$1\" non è valido",
+	"onlinestatus-subtitle-offline": "Questo utente non è attualmente connesso",
+	"onlinestatus-subtitle-online": "Questo utente è attualmente connesso",
+	"onlinestatus-tab": "Stato",
+	"onlinestatus-toggles-desc": "Proprio stato:",
+	"onlinestatus-toggles-explain": "Questo permette di mostrare ad altri utenti se si è attualmente in linea o meno visualizzando la propria pagina utente.",
+	"onlinestatus-toggles-show": "Visualizza lo stato di connessione sulla propria pagina utente",
+	"onlinestatus-toggle-offline": "Non connesso",
+	"onlinestatus-toggle-online": "Connesso",
+	"onlinestatus-pref-onlineonlogin": "Cambia lo stato in connesso al momento del login",
+	"onlinestatus-pref-offlineonlogout": "Cambia lo stato in non connesso al momento del logout"
+}

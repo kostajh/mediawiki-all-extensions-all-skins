@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lloffiwr"
+		]
+	},
+	"special404-desc": "Yn darparu cyrchfan i wallau '404 Heb ddod o hyd iddo'",
+	"error404": "404 Heb ddod o hyd iddo",
+	"special404-body": "Ni ddaethpwyd o hyd i'r URL yr oeddech yn chwilio amdano.\n\nOeddech chi'n bwriadu teipio {{fullurl:$1}}?\n\nEfallai yr hoffech fynd at:\n* [[{{MediaWiki:Mainpage}}|Yr hafan]]"
+}

@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Codenstory",
+			"Nuevo Paso",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"bs-notifications-addaccount": "$1 사용자가 만들어졌습니다.",
+	"bs-notifications-email-addaccount-subject": "\"$2\" 사용자가 {{GENDER:$1|만들어졌습니다}}",
+	"bs-notifications-email-addaccount-body": "$2 {{GENDER:$1|사용자}}가 만들어졌습니다.\n\n아래의 링크를 통해 {{GENDER:$1|해당}} 문서를 방문할 수 있습니다",
+	"bs-notifications-web-addaccount-body": "$2 {{GENDER:$1|사용자}}를 만들었습니다.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|생성자}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|만든이}}: $1",
+	"bs-notifications-registeruser": "\"$1\" 사용자가 계정을 만들었습니다.",
+	"bs-notifications-email-registeruser-subject": "$2 {{GENDER:$1|사용자}}가 계정을 {{GENDER:$1|만들었습니다}}",
+	"bs-notifications-email-registeruser-body": "$2 {{GENDER:$1|사용자}}가 계정을 {{GENDER:$1|만들었습니다}}.\n\n아래의 링크로 들어가면 {{GENDER:$1|해당}} 사용자 문서를 방문할 수 있습니다",
+	"bs-notifications-web-registeruser-body": "$2 {{GENDER:$1|사용자}}가 계정을 {{GENDER:$1|만들었습니다}}.",
+	"bs-notifications-edit": "\"$1\" 문서가 바뀌었습니다",
+	"bs-notifications-edit-bundle": "\"$2\" 문서가 {{PLURAL:$1|$1번}} 변경되었습니다",
+	"bs-notifications-email-edit-subject": "$3님이 \"$1\" 문서를 $4에 {{GENDER:$2|편집함}}",
+	"bs-notifications-email-edit-body": "$4님이 $5에 \"$1\" 문서를 {{GENDER:$2|편집했습니다}}.\n\n설명:\n $3",
+	"bs-notifications-web-edit-body": "$3님이 \"$1\" 문서를 {{GENDER:$2|편집했습니다}}.",
+	"bs-notifications-create": "\"$1\" 문서가 만들어졌습니다",
+	"bs-notifications-email-create-subject": "$3님이 \"$1\" 문서를 $4에 {{GENDER:$2|만듦}}",
+	"bs-notifications-email-create-body": "$3님이 \"$1\" 문서를 $5에 {{GENDER:$2|만들었습니다}}.\n\n설명:\n $4\n아래의 링크를 통해 문서를 방문할 수 있습니다",
+	"bs-notifications-web-create-body": "$3님이 \"$1\" 문서를 {{GENDER:$2|만들었습니다}}.",
+	"bs-notifications-delete": "\"$1\" 문서가 삭제되었습니다",
+	"bs-notifications-email-delete-subject": "$3 님이 \"$1\" 문서를 $4에 {{GENDER:$2|삭제했습니다}}",
+	"bs-notifications-email-delete-body": "$3님이 \"$1\" 문서를 $5에 {{GENDER:$2|삭제했습니다}}.\n\n이유는 다음과 같습니다:\n$4",
+	"bs-notifications-web-delete-body": "$3님이 \"$1\" 문서를 {{GENDER:$2|삭제했습니다}}.",
+	"bs-notifications-move": "\"$1\" 문서가 이동되었습니다",
+	"bs-notifications-email-move-subject": "$4님이 \"$1\" 문서를 \"$3\" 문서로 $5에 {{GENDER:$2|이동했습니다}}",
+	"bs-notifications-email-move-body": "$4님이 \"$1\" 문서를 \"$3\" 문서로 $6에 {{GENDER:$2|이동했습니다}}.\n\n설명:\n $5\n아래의 링크를 통해 문서를 방문할 수 있습니다",
+	"bs-notifications-web-move-body": "$4님이 \"$1\" 문서를 \"$3\" 문서로 {{GENDER:$2|이동했습니다}}",
+	"bs-notifications-edit-difflink-label": "차이 보기",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|안녕하세요}}, $1님",
+	"bs-notifications-htmlmail-sender-info": "$1 알림 시스템",
+	"bs-notifications-mail-additional-links-label": "추가 링크"
+}

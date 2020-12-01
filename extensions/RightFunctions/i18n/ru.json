@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ferrer",
+			"Александр Сигачёв"
+		]
+	},
+	"rightfunctions-desc": "Функции парсера на основе разрешений",
+	"rightfunctions-casc": "(для каскадных источников)",
+	"rightfunctions-local": "(для локальной страницы)",
+	"rightfunctions-ns": "(для защиты пространства имён)"
+}

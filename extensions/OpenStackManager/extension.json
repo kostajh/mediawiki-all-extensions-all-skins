@@ -1,0 +1,123 @@
+{
+	"name": "OpenStackManager",
+	"version": "3.0.0",
+	"author": "Ryan Lane",
+	"url": "https://www.mediawiki.org/wiki/Extension:OpenStackManager",
+	"descriptionmsg": "openstackmanager-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AuthManagerAutoConfig": {
+		"preauth": {
+			"OpenStackNovaSecondaryAuthenticationProvider": {
+				"class": "OpenStackNovaSecondaryAuthenticationProvider",
+				"sort": 0
+			}
+		}
+	},
+	"SpecialPages": {
+		"NovaKey": "SpecialNovaKey"
+	},
+	"MessagesDirs": {
+		"OpenStackManager": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"OpenStackManagerAlias": "OpenStackManager.alias.php"
+	},
+	"AutoloadClasses": {
+		"OpenStackNovaUser": "includes/OpenStackNovaUser.php",
+		"OpenStackNovaShellAccountNameRequest": "includes/OpenStackNovaShellAccountNameRequest.php",
+		"OpenStackNovaSecondaryAuthenticationProvider": "includes/OpenStackNovaSecondaryAuthenticationProvider.php",
+		"SpecialNovaKey": "includes/SpecialNovaKey.php"
+	},
+	"Hooks": {
+		"getUserPermissionsErrors": "OpenStackNovaUser::getUserPermissionsErrors",
+		"LDAPSetCreationValues": "OpenStackNovaUser::LDAPSetCreationValues",
+		"LDAPRetrySetCreationValues": "OpenStackNovaUser::LDAPRetrySetCreationValues",
+		"GetPreferences": "OpenStackNovaUser::novaUserPreferences",
+		"AuthChangeFormFields": "OpenStackNovaUser::AuthChangeFormFields"
+	},
+	"namespaces": [
+		{
+			"id": 498,
+			"constant": "NS_NOVA_RESOURCE",
+			"name": "Nova_Resource",
+			"subpages": false,
+			"content": false,
+			"defaultcontentmodel": "wikitext"
+		},
+		{
+			"id": 499,
+			"constant": "NS_NOVA_RESOURCE_TALK",
+			"name": "Nova_Resource_Talk",
+			"subpages": true,
+			"content": false,
+			"defaultcontentmodel": "wikitext"
+		},
+		{
+			"id": 666,
+			"constant": "NS_HIERA",
+			"name": "Heira",
+			"subpages": false,
+			"content": true,
+			"defaultcontentmodel": "wikitext"
+		},
+		{
+			"id": 667,
+			"constant": "NS_HIERA_TALK",
+			"name": "Heira_Talk",
+			"subpages": true,
+			"content": false,
+			"defaultcontentmodel": "wikitext"
+		}
+	],
+	"config": {
+		"OpenStackManagerLDAPDomain": {
+			"description": "LDAP Auth domain used for OSM",
+			"value": ""
+		},
+		"OpenStackManagerLDAPUser": {
+			"description": "UserDN used for reading and writing on the LDAP database",
+			"value": ""
+		},
+		"OpenStackManagerLDAPUsername": {
+			"description": "Actual username of the LDAP user",
+			"value": ""
+		},
+		"OpenStackManagerLDAPUserPassword": {
+			"description": "Password used to bind",
+			"value": ""
+		},
+		"OpenStackManagerIdRanges": {
+			"value": {
+				"service": {
+					"gid": {
+						"min": 40000,
+						"max": 49999
+					}
+				}
+			}
+		},
+		"OpenStackManagerLDAPDefaultGid": {
+			"description": "DN location for posix groups based on projects",
+			"value": 500
+		},
+		"OpenStackManagerLDAPDefaultShell": {
+			"description": "Shell used when creating users",
+			"value": "/bin/bash"
+		},
+		"SshKeygen": {
+			"description": "Path to the ssh-keygen utility. Used for converting ssh key formats. False to disable its use",
+			"value": "ssh-keygen"
+		},
+		"Puttygen": {
+			"description": "Path to the puttygen utility. Used for converting ssh key formats. False to disable its use",
+			"value": "puttygen"
+		}
+	},
+	"manifest_version": 2
+}

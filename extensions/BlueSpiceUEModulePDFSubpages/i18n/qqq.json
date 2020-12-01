@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-uemodulepdfsubpages-extension-description": "{{desc|name=BlueSpiceUEModulePDFSubpages}}",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-text": "Short text for the link, that exports the page and it's subpages as PDF",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-title": "Title for the link, that exports the page and it's subpages as PDF",
+	"action-uemodulepdfsubpages-export": "{{doc-action|uemodulepdfsubpages-export}}",
+	"right-uemodulepdfsubpages-export": "{{doc-right|uemodulepdfsubpages-export}}"
+}

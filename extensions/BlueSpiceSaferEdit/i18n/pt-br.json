@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
+		]
+	},
+	"bs-saferedit-desc": "Fornece avisos se outros usuários estiverem editando a página",
+	"bs-saferedit-user-editing": "$1 está {{GENDER:$1|editando}} a página",
+	"bs-saferedit-someone-editing": "A página está sendo editada",
+	"bs-saferedit-pref-interval": "Intervalo para pesquisa de edições simultâneas:",
+	"bs-saferedit-pref-shownameofeditinguser": "Mostrar o nome do editor atual"
+}

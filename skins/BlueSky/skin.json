@@ -1,0 +1,88 @@
+{
+	"name": "BlueSky",
+	"version": "1.5.0",
+	"author": [
+		"wikiHow",
+		"Jack Phoenix",
+		"Calimonius the Estrange"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:BlueSky",
+	"descriptionmsg": "bluesky-desc",
+	"namemsg": "skinname-bluesky",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"ValidSkinNames": {
+		"bluesky": "BlueSky"
+	},
+	"ThemeModules": {
+		"bluesky": [ "blue", "red", "green", "white", "grey" ]
+	},
+	"MessagesDirs": {
+		"SkinBlueSky": [
+			"i18n"
+		]
+	},
+	"config": {
+		"BlueSkyTOC": ""
+	},
+	"Hooks": {
+		"OutputPageParserOutput": [
+			"BlueSkyHooks::wfTOCCrap"
+		]
+	},
+	"ResourceModules": {
+		"skins.bluesky": {
+			"targets": [ "desktop", "mobile" ],
+			"class": "ResourceLoaderSkinModule",
+			"styles": {
+				"resources/libraries/normalise.css": {
+					"media": "screen"
+				},
+				"resources/styles/print.css": {
+					"media": "print"
+				}
+			}
+		},
+		"skins.bluesky.js": {
+			"targets": [ "desktop" ],
+			"scripts": [
+				"resources/main.js"
+			]
+		},
+		"themeloader.skins.bluesky.blue": {
+			"styles": [
+				"resources/theme-blue.less"
+			]
+		},
+		"themeloader.skins.bluesky.green": {
+			"styles": [
+				"resources/theme-green.less"
+			]
+		},
+		"themeloader.skins.bluesky.red": {
+			"styles": [
+				"resources/theme-red.less"
+			]
+		},
+		"themeloader.skins.bluesky.white": {
+			"styles": [
+				"resources/theme-white.less"
+			]
+		},
+		"themeloader.skins.bluesky.grey": {
+			"styles": [
+				"resources/theme-grey.less"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "BlueSky"
+	},
+	"AutoloadClasses": {
+		"SkinBlueSky": "includes/SkinBlueSky.php",
+		"BlueSkyTemplate": "includes/BlueSkyTemplate.php",
+		"BlueSkyHooks": "includes/BlueSkyHooks.php"
+	},
+	"manifest_version": 1
+}

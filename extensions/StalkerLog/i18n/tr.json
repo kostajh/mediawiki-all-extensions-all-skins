@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Vito Genovese"
+		]
+	},
+	"stalkerlog-desc": "Kullanıcı oturum açma ve kapama işlemleri için bir [[Special:Log/stalkerlog|kayıt]] ekler",
+	"stalkerlog-log-login": "oturum açıldı.",
+	"stalkerlog-log-logout": "oturum kapandı.",
+	"stalkerlog-log-type": "Kullanıcı kimlik doğrulama kaydı",
+	"stalkerlog-log-text": "Bu, kullanıcı oturum açma ve kapama işlemlerinin bir kaydıdır.",
+	"action-stalkerlog-view-log": "kullanıcı giriş ve çıkışlarının kayıtlarını görüntüleyin",
+	"right-stalkerlog-view-log": "Kullanıcı girişlerinin ve çıkışlarının kayıtlarını görüntüleyin"
+}

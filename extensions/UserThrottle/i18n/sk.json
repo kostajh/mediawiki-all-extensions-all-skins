@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "Tvorba účtov bola na niekoľko sekúnd automaticky vypnutá z dôvodu zabránenia útokom hromadnej registrácie. Prosím, chvíľu počkajte a znovu odošlite formulár stlačením tlačidla „Znovu načítať“ vo vašom prehliadači.",
+	"userthrottle-desc": "Obmedzí rýchlosť vytvárania používateľských účtov"
+}

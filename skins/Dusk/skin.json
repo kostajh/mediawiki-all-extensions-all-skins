@@ -1,0 +1,62 @@
+{
+	"name": "Dusk",
+	"version": "3.3.4",
+	"author": [
+		"Gregory S. Hayes",
+		"Becca Wei",
+		"Jack Phoenix",
+		"Samantha Nguyen"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Dusk",
+	"descriptionmsg": "dusk-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"ValidSkinNames": {
+		"dusk": "Dusk"
+	},
+	"MessagesDirs": {
+		"SkinDusk": [
+			"i18n"
+		]
+	},
+	"ThemeModules": {
+		"dusk": [ "green" ]
+	},
+	"AutoloadClasses": {
+		"SkinDusk": "includes/SkinDusk.php",
+		"DuskTemplate": "includes/DuskTemplate.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Dusk"
+	},
+	"ResourceModules": {
+		"skins.dusk": {
+			"styles": {
+				"resources/css/main.css": {
+					"media": "screen"
+				}
+			}
+		},
+		"themeloader.skins.dusk.green": {
+			"styles": {
+				"resources/themes/green/green.css": {
+					"media": "screen"
+				}
+			}
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"dusk": {
+			"+ext.comments.css": "resources/css/extensions/ext.comments.css",
+			"+ext.fanBoxes": "resources/css/extensions/ext.fanBoxes.css",
+			"+ext.fanBoxes.createform": "resources/css/extensions/ext.fanBoxes.createform.css",
+			"+ext.pollNY.css": "resources/css/extensions/ext.pollNY.css",
+			"+ext.problemReports": "resources/css/extensions/ext.problemReports.css",
+			"+ext.problemReports.special": "resources/css/extensions/ext.problemReports.special.css",
+			"+ext.socialprofile.special.givegift.css": "resources/css/extensions/ext.socialprofile.special.givegift.css",
+			"+mediawiki.special.preferences.styles": "resources/css/special.preferences.styles.css"
+		}
+	},
+	"manifest_version": 1
+}

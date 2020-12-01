@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"activities": "Aktivitéiten",
+	"bs-social-pref-datedisplaymode-mode-age": "Als Alter weisen",
+	"bs-social-pref-datedisplaymode-mode-mw": "Als Datum weisen",
+	"bs-social-entitytext-header": "[[User:$1|$2]] huet geschriwwen:",
+	"bs-social-var-id": "Identifikatioun",
+	"bs-social-var-ownerid": "Besëtzer",
+	"bs-social-var-type": "Typ",
+	"bs-social-var-archived": "Archivéiert",
+	"bs-social-var-text": "Inhalt",
+	"bs-social-var-timestamptouched": "Datum vun der Ännerung",
+	"bs-social-option-orderby-label": "Zortéieren",
+	"bs-social-option-direction-label": "Richtung",
+	"bs-social-editor-advanced": "Erweidert",
+	"bs-social-editor-cancel": "Ofbriechen",
+	"bs-social-entityactions-label": "Aktiounen",
+	"bs-social-entityaction-edit": "Änneren",
+	"bs-social-entityaction-delete": "Läschen",
+	"bs-social-entityaction-undelete": "Restauréieren",
+	"bs-social-entity-fatalstatus-save-emptyfield": "Feld '$1' ass eidel",
+	"bs-social-select2-overwrites-noresults": "Kee Resultat",
+	"bs-social-select2-overwrites-searching": "Sichen...",
+	"bs-extendedsearch-search-center-result-owner-label": "Besëtzer:",
+	"bs-social-special-activities-heading": "Aktivitéiten",
+	"bs-social-entitylistmenufilter-quickfilter-addall": "All derbäisetzen",
+	"bs-social-entitylistmenufilter-quickfilter-removeall": "All ewechhuelen",
+	"bs-social-entitylistmenufilter-quickfilter-removeall-date": "Haut",
+	"bs-social-filter-owner-val-all": "All",
+	"bs-social-filter-owner-val-mine": "Meng",
+	"bs-social-renderer-timestampprefix-touched": "Geännert",
+	"bs-social-filter-button-tooltip": "Optioune vum Filter weisen",
+	"prefs-social": "Chronologie",
+	"bs-social-specialpagelisting-socialentities-show": "Weisen",
+	"bs-social-specialpagelisting-socialentities-hide": "Verstoppen",
+	"bs-socialactionsmw-autoeditsummary": "(Kee Resumé)"
+}

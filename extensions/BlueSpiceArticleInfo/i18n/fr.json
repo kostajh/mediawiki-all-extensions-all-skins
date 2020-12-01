@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eneelk",
+			"Gomoko",
+			"Jhammock",
+			"Thibaut120094",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"bs-articleinfo-desc": "Fournit des informations sur une page dans la barre d’état",
+	"prefs-articleinfo": "Informations sur la page",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalle de mise à jour en secondes :",
+	"bs-articleinfo-flyout-title": "Informations sur la page",
+	"bs-articleinfo-flyout-intro": "Vous trouverez ici les informations relatives à la page. Vous pouvez contrôler sa qualité, son niveau d’obsolescence et voir comment elle est liée aux autres pages du wiki.",
+	"bs-articleinfo-nav-link-title": "Informations sur la page",
+	"bs-articleinfo-flyout-categorylinks-title": "Catégories",
+	"bs-articleinfo-flyout-templatelinks-title": "Modèles utilisés par la page",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Aucune catégorie assignée",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Aucun modèle utilisé",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Dernière modification",
+	"bs-articleinfo-flyout-lastediteduser-text": "Dernier contributeur",
+	"bs-articleinfo-newrevision-info-text": "Il y a une nouvelle version disponible de cette page. Veuillez la recharger pour afficher le nouveau contenu.",
+	"bs-articleinfo-newrevision-info-text-reload": "Il y a une nouvelle version disponible de cette page. Veuillez la [[:$1|recharger]] pour afficher le nouveau contenu.",
+	"bs-articleinfo-flyout-subpages-title": "Sous-pages",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Sous-pages",
+	"bs-articleinfo-dialog-subpages-title": "Sous-pages",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Définit le taux de rafraîchissement pour la valeur « Dernière modification ». La valeur est affichée dans les informations sur la page sous les outils de gestion de qualité."
+}

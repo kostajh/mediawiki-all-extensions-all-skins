@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"bs-countthings-desc": "Παρέχει στατιστικά βασισμένα στο περιεχόμενο",
+	"bs-countthings-chars-label": "Χαρακτήρες",
+	"bs-countthings-words-label": "Λέξεις",
+	"bs-countthings-files-label": "Αρχεία",
+	"bs-countthings-pages-label": "Σελίδες",
+	"bs-countthings-ve-countcharacters-title": "Μέτρηση χαρακτήρων",
+	"bs-countthings-ve-countarticles-title": "Μέτρηση λημμάτων",
+	"bs-countthings-ve-countfiles-title": "Μέτρηση αρχείων",
+	"bs-countthings-ve-countusers-title": "Μέτρηση χρηστών",
+	"bs-countthings-ve-countthingsinspector-mode": "Λειτουργία",
+	"bs-countthings-ve-countcharacters-mode-all": "όλα",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "Χαρακτήρες",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "Λέξεις",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "χαρακτήρες και λέξεις",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "σελίδες",
+	"bs-countthings-ve-countcharacters-input-label": "Σελίδες",
+	"bs-countthings-error-no-input": "Δεν παρασχέθηκε σελίδα.",
+	"bs-countthings-error-not-exist": "Η σελίδα \"$1\" δεν υπάρχει.",
+	"bs-countthings-tag-countarticles-desc": "Εμφανίζει τον αριθμό των λημμάτων στο βίκι.",
+	"bs-countthings-tag-countusers-desc": "Εμφανίζει τον αριθμό των εγγεγραμμένων χρηστών.",
+	"bs-countthings-tag-countfiles-desc": "Εμφανίζει τον αριθμό των αρχείων στο βίκι.",
+	"bs-countthings-tag-countcharacters-example-1": "Αριθμός λέξεων",
+	"bs-countthings-tag-countcharacters-example-2": "Αριθμός χαρακτήρων"
+}

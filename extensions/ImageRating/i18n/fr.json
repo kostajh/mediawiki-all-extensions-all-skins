@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Jack Phoenix",
+			"Thibaut120094",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"apihelp-imagerating-description": "Module d’API ImageRating — permet d’ajouter des catégories à une page d’après son ID",
+	"apihelp-imagerating-summary": "Module d’API ImageRating — permet d’ajouter des catégories à une page d’après son ID",
+	"apihelp-imagerating-param-categories": "Liste des catégories (chaîne) à ajouter à la page, séparées par des virgules et encodées au format URL",
+	"apihelp-imagerating-param-pageId": "Identificateur interne de la page à modifier",
+	"apihelp-imagerating-example-1": "Ajoute la catégorie « Chats mignons », « Chats rigolos » et « Mèmes internet » à la page d’ID interne 66.",
+	"imagerating-add-button": "ajouter",
+	"imagerating-add-categories-title": "ajouter des catégories (séparées par des virgules)",
+	"imagerating-category": "Images de $1",
+	"imagerating-community-score": "note de la communauté : '''$1''' ({{PLURAL:$2|une note|$2 notes}})",
+	"imagerating-desc": "Autorise les utilisateurs à [[Special:ImageRating|catégoriser et noter les images]]",
+	"imagerating-edit-summary": "ajouter une catégorie",
+	"imagerating-empty": "Rien à faire ici.",
+	"imagerating-featured-heading": "Image remarquable",
+	"imagerating-popular-heading": "Images populaires",
+	"imagerating-popular-heading-param": "Images populaires sur $1",
+	"imagerating-new-heading-param": "Nouvelles images sur $1",
+	"imagerating-best-heading-param": "Les meilleures images sur $1",
+	"imagerating-new-heading": "Nouvelles images",
+	"imagerating-best-heading": "Les meilleures images",
+	"imagerating-menu-title": "Menu",
+	"imagerating-submitted-by": "Soumis par",
+	"imagerating-ratetitle": "Noter et catégoriser des images",
+	"imagerating-categorytitle": "Catégories",
+	"imagerating-upload-images": "Téléverser des images",
+	"imagerating-prev-link": "précédent",
+	"imagerating-next-link": "suivant",
+	"action-rateimage": "catégoriser et noter des images",
+	"right-rateimage": "Catégoriser et noter des images"
+}

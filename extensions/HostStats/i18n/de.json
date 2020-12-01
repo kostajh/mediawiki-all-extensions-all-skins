@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"hoststats-title": "Statistiken zum Host",
+	"hoststats-desc": "Erweitert das Wiki um eine Spezialseite zur Anzeige von Statistiken zum Hosts des Wikis",
+	"hoststats-intro": "Diese Seite zeigt Statistiken des Hosts dieses Wikis an.",
+	"right-hoststats": "Statistiken des Hosts dieses Wikis ansehen",
+	"action-hoststats": "die Statistiken des Hosts dieses Wikis anzusehen"
+}

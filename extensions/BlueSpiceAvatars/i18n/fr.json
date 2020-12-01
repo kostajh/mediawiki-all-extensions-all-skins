@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Constructeur",
+			"Gomoko",
+			"Thibaut120094",
+			"Urhixidur",
+			"Wladek92"
+		]
+	},
+	"prefs-avatars": "Avatars",
+	"bs-avatars-desc": "Fournit des images de l’utilisateur génériques et individuelles",
+	"bs-avatars-pref-generator": "Générateur :",
+	"bs-avatars-pref-defaultsize": "Taille par défaut en pixel :",
+	"bs-avatars-pref-userimage": "Image de l’utilisateur :",
+	"bs-avatars-pref-userimage-img-alt": "Votre image utilisateur actuelle",
+	"bs-avatars-upload-complete": "L’image a été téléversée.",
+	"bs-avatars-generate-complete": "Un nouvel avatar a été généré.",
+	"bs-avatars-upload-title": "Modifier la photo du profil",
+	"bs-avatars-upload-label": "Photo",
+	"bs-avatars-generate-new-label": "Générer un nouvel avatar",
+	"bs-avatars-warning-title": "Avertissement",
+	"bs-avatars-warning-text": "Vous avez défini une image utilisateur dans vos préférences. Utiliser des avatars effacera ce paramètre. Voulez-vous continuer ?",
+	"bs-avatars-userimage-title": "Image du wiki ou URL de l’image",
+	"bs-avatars-userimage-help": "par ex. Picture.jpg ou http://localhost/Picture.gif",
+	"bs-avatars-userimage-alt": "Image du profil de l’utilisateur « $1 »",
+	"bs-avatars-set-userimage-failed": "URL ou image du wiki non valide.",
+	"bs-avatars-set-userimage-saved": "L’image de l’utilisateur a été enregistrée.",
+	"bs-avatars-file-upload-fieldset-title": "Téléversement de l’image",
+	"bs-avatars-auto-generate-fieldset-title": "Avatar auto-généré",
+	"apihelp-bs-avatars-tasks-description": "Chargement, génération et installation des avatars utilisateur",
+	"apihelp-bs-avatars-tasks-summary": "Téléversement, génération et initialisation des configuration des avatars utilisateur",
+	"bs-avatars-tag-profileimage-error-invalidusername": "Le paramètre « username » est obligatoire et doit contenir un nom d’utilisateur valide"
+}

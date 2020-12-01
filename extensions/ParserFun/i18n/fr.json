@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"parserfun-desc": "Ajoute une fonction de l'analyseur <code>#parse</code> pour analyser le wikitext et introduit le préfixe <code>THIS:</code> pour l'information sur la page liée aux variables magiques",
+	"parserfun-invalid-caller-mode": "Aucun mode de fonctionnement ni index numérique valide n'a été fourni."
+}

@@ -1,0 +1,36 @@
+a.bs-social-entityspawner-blog:before {
+	font-family: icomoon !important;
+	margin-right:8px;
+}
+.bs-social-entity-blog > .bs-social-entity-right div.bs-social-entity-title h3:before,
+a.bs-social-entityspawner-blog:before,
+.bs-social-entity-icon-blog:before, .icon-bs-social-entity-blog:before {
+	font-family: icomoon !important;
+	content: "\e904";
+}
+.bs-social-entity-content-more {
+	width: 100%;
+	text-align: right;
+	border-top: 1px solid #3e5389;
+	margin-bottom: 10px;
+}
+.bs-social-entity-content-more p {
+	margin: 0;
+	padding: 0;
+	height: auto;
+	line-height: 10px;
+	height: 10px;
+}
+.bs-social-entity-content-more a.bs-social-entity-content-more-button {
+	cursor: pointer;
+	font-size: 10px;
+}
+.bs-social-entity-content-more a.bs-social-entity-content-more-button::after {
+	margin-left: 3px;
+	display: inline-block;
+	content: '\f078';
+	font-family: fontawesome !important;
+}
+.bs-social-entity-content-more a.bs-social-entity-content-more-button.extended::after {
+	content: '\f077';
+}

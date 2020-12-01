@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Markus Glaser <glaser@hallowelt.com>",
+			"Metalhead64"
+		]
+	},
+	"bs-bluespiceabout-desc": "Informationen über BlueSpice.",
+	"bs-bluespiceabout-about-bluespice": "Über BlueSpice",
+	"bluespiceabout": "Über BlueSpice",
+	"prefs-bluespiceabout": "Über BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Den Link „{{int:bs-bluespiceabout-about-bluespice}}“ im Hauptmenü anzeigen",
+	"action-bluespiceabout-viewspecialpage": "die Spezialseite „{{int:bs-bluespiceabout-about-bluespice}}“ anzusehen",
+	"right-bluespiceabout-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceAbout]]",
+	"bs-bluespiceabout-pref-showmenulinks-help": "Fügt einen Link zur Seite Spezial:BlueSpiceAbout zur Hauptnavigation hinzu. Die verlinkte Seite zeigt Informationen und weiterführende Links zu BlueSpice pro."
+}

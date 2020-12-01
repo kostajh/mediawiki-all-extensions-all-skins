@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Daimona Eaytoy",
+			"FRacco",
+			"FrancescaGermani"
+		]
+	},
+	"accountinfo": "Informazioni sull'utenza",
+	"accountinfo-desc": "Consente all'utente di vedere informazioni private memorizzate su di sé",
+	"accountinfo-ts": "Data e ora",
+	"accountinfo-ip": "Indirizzo IP",
+	"accountinfo-ua": "User agent",
+	"accountinfo-xff": "Intestazione XFF",
+	"accountinfo-length": "Le informazioni verranno mantenute per $1.",
+	"accountinfo-now": "Ora"
+}

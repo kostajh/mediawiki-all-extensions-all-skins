@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Florian Schmidt"
+		]
+	},
+	"passwordlesslogin": "Passwordless Login",
+	"passwordlesslogin-desc": "Provides a way to login without a password by confirming the login on a connected device.",
+	"passwordlesslogin-verify-request": "Please verify your login on your phone.",
+	"passwordlesslogin-error-no-authentication-workflow": "Authentication workflow ended unexpectedly.",
+	"passwordlesslogin-no-challenge": "No active challenge to confirm, please try to authenticate again.",
+	"passwordlesslogin-verification-pending": "The authentication was not verified, yet. Please verify your login request on your connected device.",
+	"passwordlesslogin-pair-device-step": "Please follow the instructions to pair your new device.",
+	"passwordlesslogin-no-device-paired": "There is no device paired, yet.",
+	"passwordlesslogin-verify-pair": "We've send a login request to your device to verify that it is registered correctly. Please confirm the request and continue.",
+	"passwordlesslogin-pair-device": "Pair device for passwordless login",
+	"passwordlesslogin-login": "Login with your Smartphone",
+	"passwordlesslogin-pair-step-1": "1. Download the MediaWiki PasswordlessLogin app",
+	"passwordlesslogin-pair-step-2": "2. Scan the QR Code with the app",
+	"passwordlesslogin-pair-step-3": "3. Once the app setup is finished, continue to the next step",
+	"passwordlesslogin-authentication-app": "Authentication App",
+	"apihelp-passwordlesslogin-summary": "Register a new device for a previously generated pair token.",
+	"apihelp-passwordlesslogin-param-pairToken": "The previously generated pair token to identify to which user the device is to be registered.",
+	"apihelp-passwordlesslogin-param-deviceId": "A unique device identifier which can be used to identify a device as well as sending notifications to it with the default messaging system of the device (e.g. Firebase Cloud Messaging for Android devices).",
+	"apihelp-passwordlesslogin-param-secret": "A secret generated on the device that will be used to sign challenges send to the device. This secret is being used to verify a login request challenge response and needs to be kept secret.",
+	"apihelp-passwordlesslogin-verify-challenge-summary": "Verify a login request send to a device.",
+	"apihelp-passwordlesslogin-verify-challenge-param-challenge": "The challenge that was send to the device and which is being to be solved.",
+	"apihelp-passwordlesslogin-verify-challenge-param-response": "The response (solution) to the challenge. The solution needs to be:<br />&#160;1. An HMAC with SHA512 as a signature algorithm<br />&#160;2. The pre-shared secret as a symmetric key material<br />&#160;3. The MAC data is the challenge as a byte array<br />&#160;4. The response needs to be a hexadecimal string<br />&#160;5. The response needs to be lowercase",
+	"apihelp-passwordlesslogin-verify-login-summary": "Check if a login request was already verified by the device."
+}

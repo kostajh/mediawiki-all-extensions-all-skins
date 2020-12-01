@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"HarpyWar",
+			"Kaganer",
+			"Meshkov.a",
+			"Movses",
+			"Romanko Mikhail",
+			"Shuba",
+			"Vlad5250"
+		]
+	},
+	"bs-dashboards-desc": "Предоставляет панель управления для пользователей и администраторов",
+	"bs-specialadmindashboard-label": "Панель инструментов",
+	"bs-dashboards-addportlet": "Добавить модуль",
+	"bs-dashboards-portlets": "Соединительные модули",
+	"prefs-dashboards": "Панели инструментов",
+	"bs-dashboards-pref-userdashboardonlogo": "Ссылки на лого для панели управления пользователя",
+	"admindashboard": "Панель администратора",
+	"userdashboard": "Панель участника",
+	"bs-dashboard-userportlet-calendar-title": "Календарь",
+	"bs-dashboard-userportlet-calendar-description": "Календарь",
+	"bs-dashboard-userportlet-wikipage-title": "Вики-страница",
+	"bs-dashboard-userportlet-wikipage-description": "Используйте вики-страницу для определения виджета",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "Вики-страница",
+	"action-dashboards-viewspecialpage-userdashboard": "просмотр служебной страницы «{{int:userdashboard}}»",
+	"right-dashboards-viewspecialpage-userdashboard": "Доступ к служебной странице [[Special:UserDashboard]]."
+}

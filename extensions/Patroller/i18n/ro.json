@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Firilacroco",
+			"KlaudiuMihaila",
+			"Minisarm"
+		]
+	},
+	"patrol": "Patrulează modificări",
+	"patrol-revert-reason": "Motiv:",
+	"patrol-skip": "Sari peste",
+	"patrol-another": "Arată altă modificare, dacă e posibil.",
+	"patrol-resume": "Apăsați aici pentru a reveni.",
+	"group-patroller": "Patrule",
+	"group-patroller-member": "patrulă",
+	"grouppage-patroller": "{{ns:project}}:Patrule",
+	"right-patroller": "Pagini de patrulat"
+}

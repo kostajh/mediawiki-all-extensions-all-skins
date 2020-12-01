@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kosovastar"
+		]
+	},
+	"translatorsignup": "Regjistrimi i përkthyesit",
+	"translatorsignup-summary": "Përdor këtë faqe për të treguar se në çfarë gjuhe mund të përkthesh, dhe se si mund të njoftohesh në lidhje me ndonjë kërkesë përkthimi.",
+	"translationnotifications-desc": "Ju lejon përkthyesve për ty regjistruar për tu njoftuar lidhur me përkthimet",
+	"translationnotifications-info": "Informatat e përdoruesit",
+	"translationnotifications-username": "Përdoruesi:",
+	"translationnotifications-emailstatus": "Statusi i emailit:",
+	"translationnotifications-email-confirmed": "Adresa jote e emailit është konfirmuar",
+	"translationnotifications-email-disablemail": "Adresa jote e emailit është konfirmuar, por në [[Special:Preferences|preferencat tua]] ke kërkuar pë të mos marrë emaila.",
+	"translationnotifications-email-unconfirmed": "Adresa jote e emailit nuk është konfirmuar. $1",
+	"translationnotifications-languages": "Gjuhët",
+	"translationnotifications-lang": "Gjuha nr. $1",
+	"translationnotifications-nolang": "Zgjidh një gjuhë",
+	"translationnotifications-cmethod-email": "Emaili",
+	"translationnotifications-cmethod-talkpage": "Faqja e diskutimeve",
+	"translationnotifications-cmethod-talkpage-elsewhere": "Faqe diskutimi në një wiki tjetër",
+	"translationnotifications-cmethod-feed": "Feed",
+	"translationnotifications-frequency": "Shpeshtësia e njoftimit",
+	"translationnotifications-freq-always": "Kur ka diçka të re për të përkthyer",
+	"translationnotifications-freq-week": "Më së shumti një herë në javë",
+	"translationnotifications-freq-month": "Më së shumti një herë në muaj",
+	"translationnotifications-freq-weekly": "Raport javor",
+	"translationnotifications-freq-monthly": "Raport mujor",
+	"translationnotifications-submit": "Përditëso parapëlqimet",
+	"notifytranslators": "Njofto përkthyesit",
+	"translationnotifications-send-notification-button": "Dërgo njoftimin përkthyesve",
+	"translationnotifications-priority": "Prioriteti:",
+	"translationnotifications-priority-high": "lartë",
+	"translationnotifications-priority-medium": "mesëm",
+	"translationnotifications-priority-low": "ulët",
+	"translationnotifications-priority-unset": "(nuk është vendosur)",
+	"translationnotifications-translatablepage-title": "Emri i faqes që do të përkthehet:"
+}

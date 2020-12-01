@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"bs-bluespiceabout-desc": "Інфармацыя пра BlueSpice",
+	"bs-bluespiceabout-about-bluespice": "Пра BlueSpice",
+	"bluespiceabout": "Пра BlueSpice",
+	"prefs-bluespiceabout": "Пра BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Паказваць спасылку «{{int:bs-bluespiceabout-about-bluespice}}» у галоўным мэню",
+	"action-bluespiceabout-viewspecialpage": "прагляд спэцыяльнай старонкі «{{int:bs-bluespiceabout-about-bluespice}}»",
+	"right-bluespiceabout-viewspecialpage": "Доступ да спэцыяльнай старонкі [[Special:BlueSpiceAbout]]."
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"nobogususerpages-desc": "Restringe a criação de páginas de utilizador para as quais não exista um utilizador correspondente",
+	"badaccess-bogususerpage": "O utilizador desta página de utilizador não existe. Não tem permissão para criar uma página de utilizador falsa.",
+	"action-createbogususerpage": "criar páginas de utilizador para utilizadores que não estão registados nesta wiki",
+	"right-createbogususerpage": "Criar páginas de utilizador para utilizadores que não estão registados nesta wiki"
+}

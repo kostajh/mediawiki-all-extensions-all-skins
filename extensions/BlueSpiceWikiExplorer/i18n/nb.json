@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-wikiexplorer-extension-description": "Sorter artikler etter kriterier",
+	"bs-wikiexplorer-page-title": "Tittel",
+	"bs-wikiexplorer-page-namespace": "Navnerom",
+	"bs-wikiexplorer-creation-date": "Opprettelsesdato",
+	"bs-wikiexplorer-is-redirect": "Er omdirigering?",
+	"bs-wikiexplorer-last-comment": "Siste kommentar",
+	"bs-wikiexplorer-last-edit-time": "Dato for siste redigering",
+	"bs-wikiexplorer-page-size": "Størrelse",
+	"bs-wikiexplorer-last-author": "Siste bidragsyter",
+	"bs-wikiexplorer-categories": "Kategorier",
+	"bs-wikiexplorer-linked-files": "Lenkede filer",
+	"bs-wikiexplorer-linked-pages": "Lenkede sider",
+	"apihelp-bs-wikiexplorer-store-description": "Tilbyr alle data for utvidelsen WikiExplorer",
+	"apihelp-bs-wikiexplorer-store-param-metaLoaded": "API-parameter for å indikere hvorvidt metadataene allerede har blitt lastet.",
+	"apihelp-bs-wikiexplorer-store-summary": "Tilbyr alle data for utvidelsen WikiExplorer"
+}

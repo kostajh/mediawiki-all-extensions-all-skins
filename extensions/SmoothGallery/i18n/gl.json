@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"Toliño",
+			"Xosé"
+		]
+	},
+	"smoothgallery": "Galería con transicións",
+	"smoothgallery-desc": "Permítelle aos usuarios que creen galerías con imaxes que teñan cargado.\nPermite a maioría das opcións da SmoothGallery",
+	"smoothgallery-title": "Galería con transicións",
+	"smoothgallery-smoothgallerytitle": "Galería con transicións: $1",
+	"smoothgallery-error": "<b>Erro na Galería de transicións:</b>",
+	"smoothgallery-gallery-not-found": "A galería que solicitou non existe.",
+	"smoothgallery-not-found": "Non se engadiron imaxes á galería. Engada polo menos unha imaxe.",
+	"smoothgallery-no-images": "Non se atoparon imaxes nesta galería.\nAsegúrese de que {{PLURAL:$3|existe a imaxe solicitada|existen todas as imaxes solicitadas}}.\nNon se {{PLURAL:$2|atopou a seguinte imaxe|atoparon as seguintes imaxes}}: $1",
+	"smoothgallery-invalid-images": "{{PLURAL:$2|A seguinte imaxe solicitada tiña|As seguintes imaxes solicitadas tiñan}} un tipo inválido: $1",
+	"smoothgallery-unexpected-error": "Produciuse un erro inesperado. Informe deste erro, por favor.",
+	"smoothgallery-javascript-disabled": "Requírese o Javascript para ver correctamente esta galería."
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.com>"
+		]
+	},
+	"ldapgroups-desc": "Allows user group syncronization with a LDAP resource"
+}

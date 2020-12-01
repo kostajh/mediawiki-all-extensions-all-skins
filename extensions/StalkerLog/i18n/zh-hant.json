@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Gzdavidwong",
+			"Kly",
+			"LNDDYL",
+			"Wrightbus"
+		]
+	},
+	"stalkerlog-desc": "加入使用者登入及登出的[[Special:Log/stalkerlog|記錄]]",
+	"stalkerlog-log-login": "已登入",
+	"stalkerlog-log-logout": "已登出",
+	"stalkerlog-log-type": "使用者身份驗證日誌",
+	"stalkerlog-log-text": "這是使用者登入及登出的日誌。",
+	"action-stalkerlog-view-log": "檢視使用者登入及登出的日誌",
+	"right-stalkerlog-view-log": "檢視使用者登入及登出的日誌"
+}

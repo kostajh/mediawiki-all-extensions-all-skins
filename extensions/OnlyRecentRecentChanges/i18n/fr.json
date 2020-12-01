@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"onlyrecentrecentchanges-desc": "Afficher une seule fois les pages dans la liste des modifications récentes, quand elles ont été modifiées récemment",
+	"onlyrecentrecentchanges-option": "Afficher uniquement la modification la plus récente sur chaque page modifiée (dans les limites de ''{{int:prefs-displayrc}}'' comme affiché ci-dessus)"
+}

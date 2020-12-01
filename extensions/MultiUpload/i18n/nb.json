@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Nghtwlkr"
+		]
+	},
+	"multiupload": "Last opp flere filer",
+	"multiupload-desc": "[[Special:MultiUpload|Spesialside for å laste opp flere filer på én gang]]",
+	"multiupload-text": "Bruk skjemaet nedenfor for å laste opp flere filer.\nFor å vise eller søke i tidligere opplastede filer, gå til [[Special:FileList|listen over opplastede filer]]. Opplastinger (og gjenopplastinger) logges også i [[Special:Log/upload|opplastingsloggen]], og slettinger i [[Special:Log/delete|sletteloggen]].\n\nFor å inkludere en fil i en side, bruk en lenke med en av følgende former:\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Fil.jpg]]</nowiki></code></strong> for å bruke fullversjonen av fila\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Fil.png|200px|thumb|left|alternativ tekst]]</nowiki></code></strong> for å bruke en 200 piksler bred versjon av bildet i en boks ved venstre margin og med «alternativ tekst» som beskrivelse\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:Fil.ogg]]</nowiki></code></strong> for å lenke direkte til fila uten å vise den.\n\nNår du har valgt en fil vil siden utvides, og lar deg velge flere filer før du laster opp.\n\nFor å pakke opp en <code>.zip</code>-, <code>.tar</code>-, <code>.tar.gz</code>- eller <code>.gtz</code>-fil og laste opp innholdet i den, velg den innpakkede fila og bruk knappen «{{int:multiupload-unpack-button}}» som dukker opp.",
+	"multipleupload": "Last filer",
+	"multipleupload-toolbox": "Last opp flere filer",
+	"multiupload-submit": "Last opp filer",
+	"multiupload-uploadedto": "Lastet opp fila $1.",
+	"multiupload-row": "Fil $1",
+	"multiupload-unpack-button": "Pakk opp",
+	"multiupload-notify-ok": "OK",
+	"multiupload-upload-package-error": "Feil under opplasting av pakkefil",
+	"multiupload-unpack-error": "Feil under utpakking av pakkefil",
+	"multiupload-unreadable-package": "Kan ikke lese fila $1",
+	"multiupload-http-error": "Kunne ikke koble til tjeneren.",
+	"multiupload-file-unpacked-from": "Fila <b>$1</b> fra pakka <b>$2</b>",
+	"apihelp-multiupload-unpack-description": "Pakk opp en ZIP- eller tar-fil før innholdet importeres.",
+	"apihelp-multiupload-unpack-summary": "Pakk opp en ZIP- eller tar-fil før innholdet importeres.",
+	"apihelp-multiupload-unpack-param-key": "«filekey» hentet under opplasting av pakkefil til stashen",
+	"apihelp-multiupload-unpack-param-filename": "Filnavnet til pakka"
+}

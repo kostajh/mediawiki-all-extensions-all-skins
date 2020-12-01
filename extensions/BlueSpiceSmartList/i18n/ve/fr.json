@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"bs-smartlist-ve-smartlist-title": "SmartList",
+	"bs-smartlist-ve-smartlistinspector-count": "Total",
+	"bs-smartlist-ve-smartlistinspector-ns": "Espace(s) de noms",
+	"bs-smartlist-ve-smartlistinspector-cat": "Catégorie",
+	"bs-smartlist-ve-smartlistinspector-minor": "Afficher la version mineure",
+	"bs-smartlist-ve-smartlistinspector-catmode": "Mode catégorie",
+	"bs-smartlist-ve-smartlistinspector-period": "Période",
+	"bs-smartlist-ve-smartlistinspector-new": "Afficher seulement les nouveaux articles",
+	"bs-smartlist-ve-smartlistinspector-heading": "Entête",
+	"bs-smartlist-ve-smartlistinspector-trim": "Taille",
+	"bs-smartlist-ve-smartlistinspector-showtext": "Afficher le texte",
+	"bs-smartlist-ve-smartlistinspector-trimtext": "Texte retaillé",
+	"bs-smartlist-ve-smartlistinspector-sort": "Trier par",
+	"bs-smartlist-ve-smartlistinspector-order": "Ordre de tri",
+	"bs-smartlist-ve-smartlistinspector-showns": "Afficher les espaces de noms",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "Nombre avec texte",
+	"bs-smartlist-ve-smartlistinspector-meta": "Méta",
+	"bs-smartlist-ve-smartlistinspector-target": "Cible",
+	"bs-smartlist-ve-smartlistinspector-excludens": "Espace(s) de noms à exclure",
+	"bs-smartlist-ve-period-day-label": "jour",
+	"bs-smartlist-ve-period-week-label": "semaine",
+	"bs-smartlist-ve-period-month-label": "mois",
+	"bs-smartlist-ve-sort-time-label": "horodatage",
+	"bs-smartlist-ve-sort-title-label": "titre",
+	"bs-smartlist-ve-newbies-title": "Débutants",
+	"bs-smartlist-ve-newbiesinspector-count": "Nombre",
+	"bs-smartlist-ve-toplist-title": "ListeDesMeilleurs",
+	"bs-smartlist-ve-toplistinspector-count": "Nombre",
+	"bs-smartlist-ve-toplistinspector-ns": "Espace(s) de noms",
+	"bs-smartlist-ve-toplistinspector-cat": "Catégorie",
+	"bs-smartlist-ve-toplistinspector-period": "Période",
+	"bs-smartlist-ve-toplistinspector-portletperiod": "Période de la portlet",
+	"bs-smartlist-ve-mode-recentchanges-label": "Modifications récentes",
+	"bs-smartlist-ve-mode-changesofweek-label": "Modifications de la semaine"
+}

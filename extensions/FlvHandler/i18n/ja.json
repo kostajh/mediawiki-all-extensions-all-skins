@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Shirayuki"
+		]
+	},
+	"flvhandler_desc": "Flash Video (.flv) ファイルを標準ファイルとして追加できるようにする (例: <nowiki>[[</nowiki>{{ns:file}}:Movie.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Flash Video、$1 × $2 ピクセル、ファイル サイズ: $3"
+}

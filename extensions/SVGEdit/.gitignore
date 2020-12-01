@@ -1,0 +1,7 @@
+*~
+.DS_Store
+svg-edit
+node_modules/**
+vendor/**
+composer.lock
+.eslintcache

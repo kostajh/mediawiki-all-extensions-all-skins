@@ -1,0 +1,84 @@
+{
+	"representatives": [
+		{
+			"firstName": "Franc",
+			"lastName": "Bogovi\u010d",
+			"email": "franc.bogovic@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45583",
+			"strasbourgPhone": "+33(0)3 88 1 75583",
+			"twitter": "@Franc_Bogovic"
+		},
+		{
+			"firstName": "Tanja",
+			"lastName": "Fajon",
+			"email": "tanja.fajon@europarl.europa.eu",
+			"membershipInDelegations": "DSEE",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45493",
+			"strasbourgPhone": "+33(0)3 88 1 75493",
+			"twitter": "@tfajon"
+		},
+		{
+			"firstName": "Alojz",
+			"lastName": "Peterle",
+			"email": "alojz.peterle@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45638",
+			"strasbourgPhone": "+33(0)3 88 1 75638",
+			"twitter": "@lojzepeterle"
+		},
+		{
+			"firstName": "Igor",
+			"lastName": "\u0160oltes",
+			"email": "igor.soltes@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45818",
+			"strasbourgPhone": "+33(0)3 88 1 75818",
+			"twitter": "@isoltesEP"
+		},
+		{
+			"firstName": "Patricija",
+			"lastName": "\u0160ulin",
+			"email": "patricija.sulin@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45470",
+			"strasbourgPhone": "+33(0)3 88 1 75470",
+			"twitter": "@PatricijaSulin"
+		},
+		{
+			"firstName": "Romana",
+			"lastName": "Tomc",
+			"email": "romana.tomc@europarl.europa.eu",
+			"membershipInDelegations": "D-JP",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45665",
+			"strasbourgPhone": "+33(0)3 88 1 75665",
+			"twitter": "@RomanaTomc"
+		},
+		{
+			"firstName": "Ivo",
+			"lastName": "Vajgl",
+			"email": "ivo.vajgl@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45620",
+			"strasbourgPhone": "+33(0)3 88 1 75620",
+			"twitter": "@ivajgl"
+		},
+		{
+			"firstName": "Milan",
+			"lastName": "Zver",
+			"email": "milan.zver@europarl.europa.eu",
+			"membershipInDelegations": "D-US",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45315",
+			"strasbourgPhone": "+33(0)3 88 1 75315",
+			"twitter": "@MilanZver"
+		}
+	]
+}

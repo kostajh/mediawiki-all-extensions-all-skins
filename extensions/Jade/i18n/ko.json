@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"AlexPark",
+			"Codenstory",
+			"Ykhwong",
+			"Znkim",
+			"그냥기여자"
+		]
+	},
+	"jade-damaging-scale-true-label": "해를 끼칩니다",
+	"jade-damaging-scale-false-label": "해를 끼치지 않습니다",
+	"jade-goodfaith-scale-true-label": "선의",
+	"jade-goodfaith-scale-false-label": "악의",
+	"jade-contentquality-scale-1-label": "토막글 등급 문서",
+	"jade-contentquality-scale-2-label": "시작 등급 문서",
+	"jade-contentquality-scale-3-label": "C등급 문서",
+	"jade-contentquality-scale-4-label": "B등급 문서",
+	"jade-contentquality-scale-5-label": "좋은 글",
+	"jade-contentquality-scale-6-label": "알찬 글",
+	"jade-contentquality-generic": "내용 품질 \"$1\"",
+	"jade-delete": "삭제",
+	"jade-bad-title-format": "유효하지 않은 제목 형식",
+	"jade-bad-revision-id": "ID로 판을 찾을 수 없습니다: \"$1\"",
+	"jade-bad-content-generic": "JSON 내용에 문법 오류가 있습니다.",
+	"jade-user-local-id-invalid": "\"$1\" 사용자 로컬 ID가 존재하지 않습니다.",
+	"jade-user-central-id-invalid": "\"$1\" 사용자 통합 ID가 존재하지 않습니다.",
+	"jade-user-id-mismatch": "\"$1\" 사용자 로컬 ID와 \"$2\" 통합 ID가 서로 다른 사용자로 식별됩니다.",
+	"jade-user-ip-invalid": "\"$1\" IP 주소가 유효하지 않습니다.",
+	"jade-cannot-create-page": "이 문서를 만들 수 없습니다.",
+	"jade-cannot-edit-page": "이 문서를 편집할 수 없습니다.",
+	"jade-db-error": "데이터베이스 오류: $1",
+	"jade-user": "사용자",
+	"jade-proposalexists": "지정된 데이터가 있는 제안이 이미 존재합니다. 이미 존재하는 제안을 승인 ('+1') 하는 것을 고려해 보세요.",
+	"jade-updateproposal-autocomment": "업데이트된 신청:",
+	"jade-deleteendorsement-autocomment": "'''삭제된 보증:'''",
+	"jade-editquality-is-comment": "편집 품질은",
+	"jade-by-id-number-comment": "[[User:$1|$1]]에 의해",
+	"prefs-betafeatures": "베타 기능"
+}

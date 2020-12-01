@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"emailauth-desc": "Verifica autenticações suspeitas por e-mail",
+	"emailauth-token-label": "Código de verificação",
+	"emailauth-token-help": "Chave 2FA de utilização única enviada por e-mail.",
+	"emailauth-email-subject": "O seu código de verificação para autenticação na wiki $1",
+	"emailauth-email-body": "O seu código de verificação para autenticação na wiki $1 é $2",
+	"emailauth-login-message": "Precisa de verificar a sua autenticação. Foi enviado para o seu e-mail ($1) um código de verificação. Introduza esse código aqui, por favor.",
+	"emailauth-login-failure": "Código de verificação inválido!",
+	"emailauth-login-retry-limit": "Muitas falhas!"
+}

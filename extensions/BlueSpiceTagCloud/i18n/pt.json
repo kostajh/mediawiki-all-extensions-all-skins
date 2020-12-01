@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"bs-tagcloud-desc": "Apresenta várias nuvens de etiquetas",
+	"bs-tagcloud-error-tagtype": "O valor fornecido \"$1\" não é um repositório válido.",
+	"bs-tagcloud-error-tagrenderer": "O valor fornecido \"$1\" não é um compositor de imagens válido.",
+	"bs-tagcloud-tag-tagcloud-name": "Nuvem de etiquetas",
+	"bs-tagcloud-tag-tagcloud-title": "Nuvem de etiquetas",
+	"bs-tagcloud-tag-tagcloud-desc": "Compõe uma nuvem de etiquetas com base em categorias ou termos de pesquisa",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Tipo",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "Selecione a forma como a nuvem de etiquetas deve ser composta",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Texto",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "Lista",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "Armazenar",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "Selecione os dados a usar",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Categorias",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Termo de pesquisa",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Largura",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "Largura da nuvem de etiquetas em percentagem",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "Mostrar contagem",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "Apresenta o número de elementos entre parênteses",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Tamanho mínimo da fonte",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "Tamanho da fonte para a entrada com o menor número de elementos",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Tamanho máximo da fonte",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "Tamanho da fonte para a entrada com mais elementos",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Excluir páginas",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "Não mostrar estas páginas na nuvem de etiquetas. Para especificar mais páginas, use uma lista separada por vírgulas; por exemplo, \"Página principal, Teste, AMinhaPágina\""
+}

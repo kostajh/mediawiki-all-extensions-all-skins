@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hanna Tardos"
+		]
+	},
+	"bs-bookshelf-grouping-template-type-local_storage": "Ideiglenes könyvek",
+	"bs-bookshelf-action-editbooksource": "Könyvforrás szerkesztése",
+	"bs-bookshelf-action-editbooksource-create": "Könyvforrás megadása",
+	"bs-bookshelf-action-export-book": "Könyv exportálása",
+	"bs-bookshelf-edit-title": "$1 szerkesztése",
+	"bs-bookshelf-error-invalid-type": "Érvénytelen könyvtípus",
+	"bs-bookshelf-error-type-title-mismatch": "A megadott cím nem egyezik egyetlen könyvtípussal sem",
+	"bs-bookshelf-editor-no-title-provided": "Érvénytelen könyvcím",
+	"bs-bookshelf-book-grid-title": "Könyvek",
+	"prefs-bookshelf": "Könyvespolc speciális oldal",
+	"bs-bookshelf-prof-defaultview": "Alapértelmezett nézet",
+	"bs-bookshelf-prof-defaultview-grid": "Rács",
+	"bs-bookshelf-prof-defaultview-images": "Képek",
+	"bs-bookshelf-action-save-to-local-storage": "Mentés a helyi könyvtárba"
+}

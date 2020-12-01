@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"securesessions-desc": "Дава поголема безбедност за кориснички седници и нивното скривање",
+	"securesessions-personalurl": "Отворени седници ($1)",
+	"securesessions-ipsession": "Одјава од сите други седници",
+	"securesessions-iprestrict": "Ограничи ја седницата на оваа IP-адреса,",
+	"securesessions-uarestrict": "Ограничи ја седницата на овој прелистувач.",
+	"securesessions-sessions": "Седници",
+	"securesessions-sessions-legend": "Информации за седницата",
+	"securesessions-sessions-text": "Подолу се наведени сите отворени седници на вашата сметка и информациите за нив. Можете да ги затворите сите други седници со копчето подолу. Тековната седница е означена со ѕвездичка (*).",
+	"securesessions-sessions-ip": "IP-адреса:",
+	"securesessions-sessions-activity": "Последна активност:",
+	"securesessions-sessions-clear": "Одјава од сите други седници",
+	"securesessions-prefs-country": "ограничи најава по земји:",
+	"securesessions-prefs-tor": "Забрани најава од излезни јазли на Tor.",
+	"securesessions-disallowedcountry": "На сметката не ѝ е дозволено да се најавува од оваа земја.",
+	"securesessions-disallowedtor": "На сметката не ѝ е дозволено да се најавува од излезни јазли на Tor."
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel"
+		]
+	},
+	"bs-nsfrc-desc": "Integriert NSFileRepo in eine Reihe von BlueSpice Erweiterungen (Benötigt NSFileRepo)",
+	"bs-nsfrc-namespacestore-label": "Namensraum",
+	"bs-nsfrc-namespacecombo-emptytext": "Namensraum auswählen",
+	"bs-nsfrc-unprefixedfilename-label": "Titel",
+	"bs-nsfrc-uploaddialog-selector-label": "Zielnamensraum",
+	"apihelp-bs-nsfrc-tasks-summary": "API-Endpunkt für die Erweiterung BlueSpiceNSFileRepoConnector",
+	"apihelp-bs-nsfilerepo-connector-summary": "API-Endpunkt für die Erweiterung BlueSpiceNSFileRepoConnector"
+}

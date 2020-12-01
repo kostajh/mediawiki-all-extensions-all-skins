@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bellayet",
+			"Nasir8891",
+			"আজিজ"
+		]
+	},
+	"wlm-extension-desc": "উইকি লাভ মনুমেন্ট চিত্র প্রতিযোগিতা সম্পর্কিত তথ্য ও বার্তা যোগ করুন।",
+	"wlm-no-contest-year": "$1 সালে কোন উইকি লাভ মনুমেন্ট প্রতিযোগিতা নেই।",
+	"wlm-no-url-bad-country": "আমরা স্থানীয় প্রতিযোগিতার জন্য ওয়েবসাইট প্রাপ্ত করতে পারছি না। $1 রাষ্ট্র কোডটি বৈধ নয়।",
+	"wlm-country-not-given": "আপনাকে রাষ্ট্র কোড প্রদান করতে হবে।",
+	"wlm-country-not-participating-year": "«$1» উইকি লাভ মনুমেন্ট $2 সালে অংশগ্রহণ করেনি",
+	"wlm-sidebar-portlet": "অন্যান্য দেশসমূহ",
+	"wlm-international-contest": "আন্তর্জাতিক",
+	"wlm-text-contact": "যোগাযোগ",
+	"wlm-text-contest": "প্রতিযোগীতা",
+	"wlm-text-donate": "দান করুন",
+	"wlm-text-faq": "সম্ভাব্য প্রশ্নসমূহ",
+	"wlm-text-jury": "বিচারক",
+	"wlm-text-monuments": "মনুমেন্টসমূহ",
+	"wlm-text-news": "সংবাদ",
+	"wlm-text-participate": "অংশগ্রহন করুন!",
+	"wlm-text-prizes": "পুরস্কার",
+	"wlm-text-rules": "নিয়মকানুন",
+	"wlm-text-sponsors": "পৃষ্ঠপোষক",
+	"wlm-text-uploading": "আপলোড হচ্ছে"
+}

@@ -1,0 +1,80 @@
+{
+	"name": "ReadingLists",
+	"version": "0.1.0",
+	"author": [
+		"Gergő Tisza"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ReadingLists",
+	"descriptionmsg": "readinglists-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extensions\\ReadingLists\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extensions\\ReadingLists\\Tests\\": "tests/phpunit/"
+	},
+	"APIModules": {
+		"readinglists": "MediaWiki\\Extensions\\ReadingLists\\Api\\ApiReadingLists"
+	},
+	"APIListModules": {
+		"readinglistentries": {
+			"class": "MediaWiki\\Extensions\\ReadingLists\\Api\\ApiQueryReadingListEntries",
+			"factory": "MediaWiki\\Extensions\\ReadingLists\\Api\\ApiQueryReadingListEntries::factory"
+		}
+	},
+	"APIMetaModules": {
+		"readinglists": {
+			"class": "MediaWiki\\Extensions\\ReadingLists\\Api\\ApiQueryReadingLists",
+			"factory": "MediaWiki\\Extensions\\ReadingLists\\Api\\ApiQueryReadingLists::factory"
+		}
+	},
+	"ConfigRegistry": {
+		"ReadingLists": "GlobalVarConfig::newInstance"
+	},
+	"config": {
+		"ReadingListsCluster": {
+			"value": false,
+			"description": "Database cluster to use for storing the lists. False means the cluster of the current wiki will be used."
+		},
+		"ReadingListsDatabase": {
+			"value": false,
+			"description": "Database to use for storing the lists. False means use the database of the current wiki. To use a table prefix, use '<database>-<prefix'>' format."
+		},
+		"ReadingListsCentralWiki": {
+			"value": false,
+			"description": "Database name of the central wiki. This is unrelated to data storage (see ReadingListsDatabase for that) and only used to identify which wiki should be used for jobs and such."
+		},
+		"ReadingListsMaxListsPerUser": {
+			"value": 100,
+			"description": "Maximum allowed number of lists per user."
+		},
+		"ReadingListsMaxEntriesPerList": {
+			"value": 1000,
+			"description": "Maximum allowed number of entries per list."
+		},
+		"ReadingListsDeletedRetentionDays": {
+			"value": 30,
+			"description": "Purge deleted lists and list entries after this many days."
+		}
+	},
+	"Hooks": {
+		"APIQuerySiteInfoGeneralInfo": "MediaWiki\\Extensions\\ReadingLists\\HookHandler::onAPIQuerySiteInfoGeneralInfo",
+		"LoadExtensionSchemaUpdates": "MediaWiki\\Extensions\\ReadingLists\\HookHandler::onLoadExtensionSchemaUpdates",
+		"UnitTestsAfterDatabaseSetup": "MediaWiki\\Extensions\\ReadingLists\\HookHandler::onUnitTestsAfterDatabaseSetup",
+		"UnitTestsBeforeDatabaseTeardown": "MediaWiki\\Extensions\\ReadingLists\\HookHandler::onUnitTestsBeforeDatabaseTeardown"
+	},
+	"ServiceWiringFiles": [
+		"ServiceWiring.php"
+	],
+	"MessagesDirs": {
+		"ReadingLists": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"manifest_version": 2
+}

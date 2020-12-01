@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Kghbln",
+			"Liuxinyu970226",
+			"Macofe",
+			"Raymond",
+			"Robert Vogel",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"nsfilerepo-desc": "{{desc|name=NS File Repo|url=https://www.mediawiki.org/wiki/Extension:NSFileRepo}}",
+	"nsfilerepo-upload-target": "The respective field holds the name of the file in the target namespace, i.e. the prefix of the file name is being appended to the target file name, e.g. \"Project:My file.png\"",
+	"nsfilerepo-nsmain": "Label for selectbox option to upload into main namespace\n{{Identical|Main}}",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext": "Info text for a namespace select field on [[Special:Upload]] in case it is a reupload",
+	"nsfilerepo-move-file-namespace-action-label": "Label for a content action on a file description page",
+	"nsfilerepo-move-file-namespace-dialog-title": "Title of a dialog that let's tha user change the file namespace association",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "Label for a dialog button to confirm {{Identical|upload-dialog-button-done}}",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "Label for a dialog button to cancel {{Identical|upload-dialog-button-cancel}}",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "Label for input field to choose a namespace from"
+}

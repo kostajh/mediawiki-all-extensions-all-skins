@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226"
+		]
+	},
+	"nukedpl": "經由 DPL 查詢大量刪除",
+	"nukedpl-desc": "加入[[Special:NukeDPL|特殊頁面]]用於 DPL 查詢大量刪除",
+	"nukedpl-intro": "此工具允許用於大量刪除由 DPL 查詢所選的頁面。\n\n在下方輸入查詢來產生要刪除的標題清單。\n* 標題可在刪除前單獨移除。\n* 請記住頁面標題區分大小寫。\n* 查詢不應被包含在任何 DPL 標籤或括號。\n* 更多有關參數的含意，請查看 [http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL 手冊]。",
+	"nukedpl-candidatelist": "檢視候選清單",
+	"nukedpl-nopages": "並無頁面通過 DPL 查詢刪除：<code>$1</code>",
+	"nukedpl-nuke": "大量刪除！",
+	"nukedpl-list": "以下 $1 個頁面已被 DPL 查詢選擇：<code>$2</code>\n鍵入「{{int:nukedpl-nuke}}」以刪除之。",
+	"nukedpl-defaultreason": "大量移除由 DPL 選擇頁面：$1",
+	"action-nukedpl": "經由動態頁面清單（DPL）查詢來大量刪除頁面",
+	"right-nukedpl": "經由動態頁面清單（DPL）查詢來大量刪除頁面"
+}

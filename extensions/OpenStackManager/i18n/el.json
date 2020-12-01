@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Glavkos",
+			"Nikosgranturismogt",
+			"ZaDiak"
+		]
+	},
+	"openstackmanager-delete": "διαγραφή",
+	"openstackmanager-actions": "Δραστηριότητες",
+	"openstackmanager-notloggedin": "Απαιτείται σύνδεση",
+	"openstackmanager-name": "Όνομα",
+	"openstackmanager-keys": "Κλειδιά",
+	"openstackmanager-deletedkeyfailed": "Απέτυχε να διαγράψει κλειδί."
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"Mark85296341",
+			"Shinjiman",
+			"Wrightbus"
+		]
+	},
+	"duplicator": "複製頁面",
+	"duplicator-desc": "建立獨立的[[Special:Duplicate|複製頁面]]包含完整的編輯記錄",
+	"duplicator-toolbox": "複製這頁面",
+	"duplicator-header": "此頁面可完全複製一個頁面，建立獨立的副本並包含所有編輯記錄。\n此功能用在製作頁面的分支很有用。",
+	"duplicator-options": "選項",
+	"duplicator-source": "來源：",
+	"duplicator-dest": "目標：",
+	"duplicator-dotalk": "複製討論頁面 (若可用)",
+	"duplicator-dosubpages": "複製子頁面 (若擁有)",
+	"duplicator-dohistory": "複製所有頁面歷史",
+	"duplicator-submit": "複製",
+	"duplicator-summary": "已從[[$1]]複製修訂[[$2]]",
+	"duplicator-success": "[[$1]]已複製至[[$2]]。",
+	"duplicator-success-revisions": "$1 個修訂已複製。",
+	"duplicator-success-talknotcopied": "討論頁面無法複製。",
+	"duplicator-failed": "無法複製頁面，\n發生不明錯誤。",
+	"duplicator-failed-toolong": "[[$1]]複製失敗，目標標題過長。",
+	"duplicator-failed-dest-exists": "[[$1]]複製失敗，目標[[$2]]已存在。",
+	"duplicator-source-invalid": "請提供一個有效的來源標題。",
+	"duplicator-source-notexist": "[[$1]] 不存在。請提供一個已存在的頁面標題。",
+	"duplicator-dest-invalid": "請提供一個有效的目標標題。",
+	"duplicator-dest-exists": "[[$1]]已存在。請提供一個不存在的目標標題。",
+	"action-duplicate": "複製頁面",
+	"right-duplicate": "複製頁面"
+}

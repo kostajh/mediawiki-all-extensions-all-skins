@@ -1,0 +1,48 @@
+{
+	"objects": {
+		"Storage": {
+			"class": "Storage",
+			"METHODS": {
+				"__construct": {
+					"parameters": [
+						{ "type": "array", "name": "structure" }
+					],
+					"return": "Storage",
+					"desc": "Returns new Storage object"
+				},
+				"setValues": {
+					"parameters": [
+						{ "type": "array", "name": "values" }
+					],
+					"desc": "Set values to Storage object"
+				}
+			}
+		},
+		"PageData": {
+			"class": "PageData",
+			"METHODS": {
+				"__construct": {
+					"parameters": [
+						{ "type": "mixed", "name": "page", "default": "NULL" },
+						{ "type": "mixed", "name": "templates", "default": "NULL" }
+					],
+					"return": "PageData",
+					"desc": "Returns new PageData object"
+				},
+				"getValues": {
+					"parameters": [],
+					"return": "array",
+					"desc": "Get values stored by Storage object"
+				}
+			}
+		}
+	},
+	"constants": {
+		"PHPTAGS_STORAGE_VERSION": {
+			"desc": "The current version of the PhpTags Storage extension as a string",
+			"type": "string",
+			"example": "3.1.7",
+			"link": "https://www.mediawiki.org/wiki/Extension:PhpTags_Storage"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"Hamilton Abreu",
+			"Mansil alfalb"
+		]
+	},
+	"formwizard": "Assistente de formulários",
+	"formwizard-desc": "Permite-lhe instalar e usar o ''gadget'' Assistente de formulários no Mediawiki.",
+	"formwizard-dialog-label-cancel": "Cancelar",
+	"formwizard-dialog-label-done": "OK",
+	"formwizard-dialog-label-next": "Seguinte",
+	"special-formwizard-intro": "Assistente de formulários",
+	"special-formwizard-title": "Esta é uma introdução para a página especial Assistente de formulários.",
+	"formwizard-no-subpage-name-alert": "Diga-nos que nome dar à sua página, por favor",
+	"formwizard-page-edit-summary": "Modificação feita em $1",
+	"formwizard-page-action-complete": "Operação $1 executada",
+	"formwizard-parser-function-error": "Verifique os parâmetros de instalação, por favor",
+	"formwizard-subpage-request-text": "<strong>Insira o nome da subpágina:</strong>",
+	"formwizard-wrong-config-file-alert": "Verifique as definições de configuração, por favor!"
+}

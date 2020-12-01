@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hello903hello",
+			"Kly",
+			"Laundry Machine"
+		]
+	},
+	"timemachine": "時間機器",
+	"timemachine-desc": "在[[Special:TimeMachine]]設定日期後，可允許瀏覽該日期的wiki内容。",
+	"timemachine-p1": "在下方輸入日期來瀏覽 wiki 在該日期的內容。",
+	"timemachine-button1": "前往該日期",
+	"timemachine-p2": "請注意這僅會變更 wiki 內容。樣式、側邊列、頁面尾端和其它 wiki 上的元素都會維持不變。",
+	"timemachine-p3": "要返回到正常瀏覽 wiki，請點擊以下按鍵或清空您瀏覽器的 cookie。",
+	"timemachine-button2": "返回到現在"
+}

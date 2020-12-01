@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cojoilustrado",
+			"Crazymadlover",
+			"Imre",
+			"Macofe",
+			"Vivaelcelta"
+		]
+	},
+	"onlinestatus-desc": "Crea una preferencia para mostrar si el usuario está conectado al wiki",
+	"onlinestatus-js-anon": "Error: tienes que iniciar sesión para usar esta característica",
+	"onlinestatus-js-changed": "Tu estado se ha cambiado a \"$1\"",
+	"onlinestatus-js-error": "Imposible cambiar el estado. El valor \"$1\" no es válido",
+	"onlinestatus-subtitle-offline": "Este usuario se encuentra desconectado",
+	"onlinestatus-subtitle-online": "Este usuario se encuentra conectado",
+	"onlinestatus-tab": "Estado",
+	"onlinestatus-toggles-desc": "Tu estatus:",
+	"onlinestatus-toggles-explain": "Esto te permite mostrar a otros usuarios si estás conectado en tu página de usuario.",
+	"onlinestatus-toggles-show": "Mostrar mi estado en línea en mi página de {{GENDER:|usuario|usuaria}}",
+	"onlinestatus-toggle-offline": "Desconectado",
+	"onlinestatus-toggle-online": "Conectado",
+	"onlinestatus-pref-onlineonlogin": "Cambiar mi estado a en línea cuando inicie sesión",
+	"onlinestatus-pref-offlineonlogout": "Cambiar mi estado a desconectado cuando inicie sesión"
+}

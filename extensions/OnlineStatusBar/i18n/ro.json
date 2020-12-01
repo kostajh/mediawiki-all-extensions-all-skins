@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minisarm",
+			"Stelistcristi"
+		]
+	},
+	"onlinestatusbar-desc": "Bară de stare care arată dacă un utilizator este conectat pe pagina sa de utilizator",
+	"prefs-onlinestatus": "Stare în on-line",
+	"onlinestatusbar-used": "Afișează starea dumneavoastră din on-line pe paginile de utilizator",
+	"onlinestatusbar-hide": "Ascunde bara de stare din paginile de utilizator pentru a utiliza doar cuvântul magic (pentru utilizatori avansați)",
+	"onlinestatusbar-away": "Consideră automat ca „plecat” după un interval definit",
+	"onlinestatusbar-purge": "Curățați pagina de utilizator ori de câte ori vă autentificați sau deconectați",
+	"onlinestatusbar-status": "Care este starea implicită pe care doriți să o utilizați?",
+	"onlinestatusbar-away-time": "Câte minute până când starea va fi schimbată în „plecat”?",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Conectat|Conectată}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Ocupat|Ocupată}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Plecat|Plecată}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Ascuns|Ascunsă}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Deconectat|Deconectată}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Necunoscut}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Acest utilizator|Această utilizatoare}} este acum conectat{{GENDER:$1||ă}}",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Acest utilizator|Această utilizatoare}} este ocupat{{GENDER:$1||ă}} și ar putea fi indisponibil{{GENDER:$1||ă}}",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Acest utilizator|Această utilizatoare}} este inactiv{{GENDER:$1||ă}} și ar putea fi indisponibil{{GENDER:$1||ă}}",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Acest utilizator|Această utilizatoare}} este deconectat{{GENDER:$1||ă}}",
+	"onlinestatusbar-tooltip-unknown": "Starea {{GENDER:$1|acestui utilizator|acestei utilizatoare}} este necunoscută"
+}

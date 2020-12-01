@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"minimumnamelength-desc": "Permite obligar a una llonxitú mínima de nome d'usuariu",
+	"minimumnamelength-error": "El nome d'usuariu ye demasiao curtiu. La llonxitú mínima ye de {{PLURAL:$1|un caráuter|$1 caráuteres}}."
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jaideraf"
+		]
+	},
+	"vikisemantictitle-desc": "Plugin VIKI para lidar com páginas wiki utilizando a extensão Semantic Title",
+	"vikisemantictitle-error-displaytitle-fetch": "Erro ao preparar a exibição dos dados do título para o nó: $1."
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334"
+		]
+	},
+	"edituser": "Uredi uporabnika",
+	"edituser-desc": "Omogoča upravičenim uporabnikom urejati nastavitve drugih uporabnikov",
+	"edituser-username": "Uporabniško ime:",
+	"edituser-dosearch": "Iskanje",
+	"edituser-nouser": "Uporabnik »$1« ne obstaja.",
+	"edituser-exempt": "Uporabnika »$1« ni mogoče urejati.",
+	"right-edituser": "Urejanje nastavitev drugih uporabnikov",
+	"right-edituser-exempt": "Drugi ne morejo urejati nastavitev nastavitev tega uporabnika",
+	"action-edituser": "urejanje nastavitev drugih uporabnikov",
+	"action-edituser-exempt": "urejanje nastavitev tega uporabnika"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"formelapplet-desc": "Sayfalara [http://wiki.formelapplet.de FormelApplet] applet ekle",
+	"formelapplet-nojava": "Lütfen bu sayfayı kullanmak için $1 yükleyin.",
+	"formelapplet-missing-parameter": "Eksik parametre (genişlik veya yükseklik veya terim/çözüm).",
+	"formelapplet-file-not-found": "$1 dosyası bulunamadı.",
+	"formelapplet-error": "FormelApplet MediaWiki uzantısında hata: <em>$1</em>"
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Indech",
+			"Lijealso",
+			"Luckas",
+			"Malafaya",
+			"Vitorvicentevalente",
+			"Waldir",
+			"Waldyrious"
+		]
+	},
+	"security": "Registo de segurança",
+	"security-desc": "Expande a proteção de páginas do MediaWiki para permitir restrições ao visionamento do conteúdo de páginas",
+	"security-logpage": "Registo de segurança",
+	"security-logpagetext": "Este é um registo de ações bloqueadas pela [https://www.mediawiki.org/wiki/Extension:SimpleSecurity extensão SimpleSecurity].",
+	"badaccess-read": "'''Aviso:''' \"$1\" é referido aqui, mas não tem permissões suficientes para aceder ao registo.",
+	"security-info": "Há $1 nesta página",
+	"security-info-toggle": "restrições de segurança",
+	"security-inforestrict": "$1 está limitado a $2",
+	"security-desc-LS": "(aplica-se porque esta página está n$1 \"$2\")",
+	"security-desc-PR": "(definido a partir da \"aba proteger\")",
+	"security-infosysops": "Não está em vigor nenhuma restrição porque é membro do grupo \"sysop\"",
+	"security-manygroups": "grupos $1 e $2",
+	"security-unchain": "Modificar ações individualmente",
+	"security-type-category": "a categoria",
+	"security-type-namespace": "o domínio",
+	"security-restricttogroup": "Aceder a conteúdo restrito aos membros de \"$1\"",
+	"restriction-read": "Ler"
+}

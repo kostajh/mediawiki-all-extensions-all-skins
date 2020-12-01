@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dmitriy Shevliakov <dsh@astarios.com>"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "Description for extension",
+	"bs-uemodulehtml-pref-DefaultTemplate": "Title for default template",
+	"bs-uemodulehtml-pref-SuppressNS": "Description for hide namespace prefix in HTML",
+	"bs-uemodulehtml-pref-Backend": "Backend title",
+	"bs-uemodulehtml-widgetlink-single-text": "Text for widget link HTML single page (archived)",
+	"bs-uemodulehtml-widgetlink-single-title": "Title for widget link",
+	"bs-uemodulehtml-overview-title": "Title for overview HTML document (archived)",
+	"bs-uemodulehtml-overview-description": "Description for overview"
+}

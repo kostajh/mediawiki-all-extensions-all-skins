@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dejan Savuljesku <savuljesku@hallowelt.com>"
+		]
+	},
+	"bs-usersidebar-desc": "Description for user siderbar",
+	"bs-usersidebar-nav-title": "Title for user sidebar tab",
+	"bs-edit-user-sidebar-link-text": "The text for a link to edit user sidebar",
+	"bs-edit-user-sidebar-link-title": "The title for a link to edit user sidebar"
+}

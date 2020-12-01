@@ -1,0 +1,119 @@
+{
+	"name": "BlueSpiceCategoryManager",
+	"author": [
+		"Leonid Verhovskij",
+		"Dejan Savuljesku"
+	],
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:CategoryManager",
+	"descriptionmsg": "bluespicecategorymanager-desc",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceCategoryManager": {
+					"className": "\\BlueSpice\\CategoryManager\\Extension",
+					"extPath": "/BlueSpiceCategoryManager"
+				}
+			},
+			"PermissionRegistry": {
+				"categorymanager-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"editor",
+						"maintenanceadmin",
+						"structuremanager"
+					]
+				}
+			},
+			"AdminToolRegistry": {
+				"bs-category-manager": "BlueSpice\\CategoryManager\\AdminTool"
+			},
+			"EntityRegistry": {
+				"categorizedpages": "\\BlueSpice\\CategoryManager\\EntityConfig\\Collection\\CategorizedPages::factory"
+			}
+		},
+		"BlueSpiceExtendedStatistics": {
+			"SnapshotDataCollectorRegistry": {
+				"categorizedpages": "\\BlueSpice\\CategoryManager\\DataCollector\\StoreSourced\\CategorizedPages::factory"
+			}
+		}
+	},
+	"GroupPermissions": {
+		"*": {
+			"categorymanager-viewspecialpage": false
+		},
+		"user": {
+			"categorymanager-viewspecialpage": false
+		},
+		"sysop": {
+			"categorymanager-viewspecialpage": true
+		}
+	},
+	"AvailableRights": [
+		"categorymanager-viewspecialpage"
+	],
+	"SpecialPages": {
+		"BlueSpiceCategoryManager": "SpecialBlueSpiceCategoryManager"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\CategoryManager\\" : "src/"
+	},
+	"AutoloadClasses": {
+		"SpecialBlueSpiceCategoryManager": "includes/specials/SpecialBlueSpiceCategoryManager.php"
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceCategoryManagerAlias": "includes/specials/SpecialBlueSpiceCategoryManager.alias.php"
+	},
+	"MessagesDirs": {
+		"BlueSpiceCategoryManager": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.bluespice.categorymanager": {
+			"scripts": [
+				"bluespice.categorymanager.js"
+			],
+			"styles": [
+				"bluespice.categorymanager.css"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs",
+				"ext.bluespice.extjs.BS.deferred",
+				"mediawiki.api",
+				"mediawiki.Title"
+			],
+			"messages": [
+				"bs-categorymanager-draganddrop-text",
+				"bs-categorymanager-dlg-new-prompt",
+				"bs-categorymanager-dlg-new-title",
+				"bs-categorymanager-removecategoryconfirm-text",
+				"bs-categorymanager-removecategoryconfirm-title",
+				"bs-categorymanager-addcategory-dialog-error-title",
+				"bs-categorymanager-action-show-category"
+			]
+		},
+		"ext.bluespice.categorymanager.collection.categorizedpages": {
+			"messages": [
+				"bs-categorymanager-collection-type-categorizedpages",
+				"bs-categorymanager-collection-var-namespacename",
+				"bs-categorymanager-collection-var-categorizedpages",
+				"bs-categorymanager-collection-var-uncategorizedpages"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceCategoryManager/resources"
+	},
+	"manifest_version": 2
+}

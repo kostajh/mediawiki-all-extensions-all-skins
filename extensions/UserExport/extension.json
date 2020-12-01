@@ -1,0 +1,40 @@
+{
+	"name": "UserExport",
+	"version": "2.1.1",
+	"author": [
+		"Rodrigo Sampaio Primo",
+		"Mark A. Hershberger",
+		"Karsten Hoffmeyer",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:UserExport",
+	"descriptionmsg": "userexport-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"AvailableRights": [
+		"userexport"
+	],
+	"GroupPermissions": {
+		"bureaucrat": {
+			"userexport": true
+		}
+	},
+	"SpecialPages": {
+		"UserExport": "MediaWiki\\Extension\\UserExport\\Special"
+	},
+	"MessagesDirs": {
+		"UserExport": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"UserExportAlias": "UserExport.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\UserExport\\": "src"
+	},
+	"manifest_version": 2
+}

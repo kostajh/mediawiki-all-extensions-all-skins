@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Siebrand"
+		]
+	},
+	"articletocategory2-desc": "Plaatst een invoerkader op elke categoriepagina dat het mogelijk maakt direct een nieuwe pagina in die categorie aan te maken",
+	"articletocategory2-create-article-under-category-text": "Pagina aan deze categorie toevoegen",
+	"articletocategory2-create-article-under-category-button": "Aanmaken",
+	"articletocategory2-create-category-under-category-text": "Subcategorie aan deze categorie toevoegen",
+	"articletocategory2-create-category-under-category-button": "Aanmaken",
+	"action-ArticleToCategory2": "pagina's aan een categorie toe te voegen",
+	"right-ArticleToCategory2": "Pagina aan categorie toevoegen",
+	"action-ArticleToCategory2AddCat": "categorieën aan een categorie toe te voegen",
+	"right-ArticleToCategory2AddCat": "Categorie aan categorie toevoegen"
+}

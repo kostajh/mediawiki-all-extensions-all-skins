@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil"
+		]
+	},
+	"parserfun-desc": "Lägger till tolkfunktionen <code>#parse</code> för att tolka wikitext och introducerar <code>THIS:</code>-prefixet för magiska variabler relaterade till sidinformation",
+	"parserfun-invalid-caller-mode": "Ingen giltig åtgärd läge eller numeriskt index angivet."
+}

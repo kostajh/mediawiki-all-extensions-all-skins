@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Egbe Eugene"
+		]
+	},
+	"formwizard": "FormWizard",
+	"formwizard-desc": "Allows you to install and use the FormWizard Gadget in Mediawiki.",
+	"formwizard-dialog-label-cancel": "Cancel",
+	"formwizard-dialog-label-done": "Done",
+	"formwizard-dialog-label-next": "Next",
+	"special-formwizard-intro": "FormWizard",
+	"special-formwizard-title": "This is an introduction to the FormWizard Special page.",
+	"formwizard-no-subpage-name-alert": "Please tell us what to name your page",
+	"formwizard-page-edit-summary": "Modification made on $1",
+	"formwizard-page-action-complete": "$1 action complete",
+	"formwizard-parser-function-error": "Please check setup parameters",
+	"formwizard-subpage-request-text": "<strong> Enter subpage name:</strong>",
+	"formwizard-wrong-config-file-alert": "Please check the configuration settings!"
+}

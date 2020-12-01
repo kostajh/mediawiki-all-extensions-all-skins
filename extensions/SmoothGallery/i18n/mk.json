@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"smoothgallery": "Глатка галерија",
+	"smoothgallery-desc": "Им овозможува на корисниците да создаваат галерии со подигнати слики.\nГи поддржува највеќето можности на SmoothGallery",
+	"smoothgallery-title": "Глатка галерија",
+	"smoothgallery-smoothgallerytitle": "Глатка галерија: $1",
+	"smoothgallery-error": "<b>Грешка со Глатката галерија:</b>",
+	"smoothgallery-gallery-not-found": "Побараната галерија не постои.",
+	"smoothgallery-not-found": "Не беа додадени слики во галеријата.\nДодајте барем една слика.",
+	"smoothgallery-no-images": "Не проајдов слики во галеријата.\nПроверете дали {{PLURAL:$3|постои бараната слика|постојат сите барани слики}}.\n{{PLURAL:$2|Не ја пронајдов следната слика|Не ги пронајдов следните слики}}: $1",
+	"smoothgallery-invalid-images": "{{PLURAL:$2|Следнава побарана слика е|Следниве побарани слики се}} од неважечки тип: $1",
+	"smoothgallery-unexpected-error": "Се случи неочекувана грешка.\nПоднесете пријава за грешката.",
+	"smoothgallery-javascript-disabled": "За правилен приказ на галеријата потребен е JavaScript."
+}

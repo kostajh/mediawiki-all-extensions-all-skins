@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-socialcomments-desc": "BlueSpiceSocial için yorum işlevselliği",
+	"bs-socialcomments-type": "Yorum",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Yorum|Yorumlar}} ($1)",
+	"bs-socialcomments-header-create": "Yorum",
+	"bs-socialcomments-header": "[[User:$1|$2]], \"[[$6|$7]]\" yorumladı",
+	"bs-socialcomments-var-commentcount": "Yorum sayısı",
+	"echo-category-title-bs-social-comment-cat": "İzlenen varlıklar hakkında yorumlar",
+	"bs-social-notifications-comment-create": "{{GENDER:$1|$2}} kullanıcı yeni bir yorum yaptı",
+	"bs-social-notifications-email-comment-create-subject": "{{GENDER:$1|$2}} kullanıcı yeni bir yorum yaptı",
+	"bs-social-notifications-email-comment-create-body": "{{GENDER:$1|$2}} kullanıcı bir gönderiyi $3 tarafından şu metni yazdı:\n$4",
+	"bs-social-notifications-web-comment-create-body": "{{GENDER:$1|$2}} kullanıcı bir gönderiyi $3 tarafından yorum yaptı",
+	"bs-social-notifications-comment-edit": "{{GENDER:$1|$2}} kullanıcı bir yorum düzenledi",
+	"bs-social-notifications-email-comment-edit-subject": "{{GENDER:$1|$2}} kullanıcı bir yorum düzenledi",
+	"bs-social-notifications-email-comment-edit-body": "{{GENDER:$1|$2}} kullanıcı bir gönderi yorumunu $3 tarafından düzenledi. Yeni yorum:\n$4",
+	"bs-social-notifications-web-comment-edit-body": "{{GENDER:$1|$2}} kullanıcı bir gönderiyi $3 tarafından yorum düzenledi",
+	"bs-social-notifications-comment-delete": "{{GENDER:$1|$2}} kullanıcı bir yorumu sildi",
+	"bs-social-notifications-email-comment-delete-subject": "{{GENDER:$1|$2}} kullanıcı bir yorumu sildi",
+	"bs-social-notifications-email-comment-delete-body": "{{GENDER:$1|$2}} kullanıcı $3 tarafından bir gönderi yorumunu sildi",
+	"bs-social-notifications-web-comment-delete-body": "{{GENDER:$1|$2}} kullanıcı $3 tarafından bir gönderi yorumunu sildi",
+	"bs-social-notifications-comment-owner-create": "{{GENDER:$1|$2}} kullanıcı gönderinizde yeni bir yorum yaptı",
+	"bs-social-notifications-email-comment-owner-create-subject": "{{GENDER:$1|$2}} kullanıcı gönderinizde yeni bir yorum yaptı",
+	"bs-social-notifications-email-comment-owner-create-body": "{{GENDER:$1|$2}} kullanıcı bir gönderinizde $3 tarafından şu metni yazdı:\n$3",
+	"bs-social-notifications-web-comment-owner-create-body": "{{GENDER:$1|$2}} kullanıcı gönderinizde yorum yaptı",
+	"bs-social-notifications-comment-owner-edit": "{{GENDER:$1|$2}} kullanıcı gönderinizde yorum düzenledi",
+	"bs-social-notifications-email-comment-owner-edit-subject": "{{GENDER:$1|$2}} kullanıcı gönderinizde yorum düzenledi",
+	"bs-social-notifications-email-comment-owner-edit-body": "{{GENDER:$1|$2}} kullanıcı bir gönderinizde yorum düzenledi. Yeni yorum:\n$3",
+	"bs-social-notifications-web-comment-owner-edit-body": "{{GENDER:$1|$2}} kullanıcı gönderinizde yorum düzenledi",
+	"bs-social-notifications-comment-owner-delete": "{{GENDER:$1|$2}} kullanıcı gönderinizde yorum sildi",
+	"bs-social-notifications-email-comment-owner-delete-subject": "{{GENDER:$1|$2}} kullanıcı gönderinizde yorum sildi",
+	"bs-social-notifications-email-comment-owner-delete-body": "{{GENDER:$1|$2}} kullanıcı gönderinizde yorum sildi",
+	"bs-social-notifications-web-comment-owner-delete-body": "{{GENDER:$1|$2}} kullanıcı gönderinizde yorum sildi",
+	"bs-social-notifications-comment-owner-edit-bundle": "Gönderinizdeki yorumlar $1 kez düzenlendi",
+	"bs-social-notification-comment-primary-link-label": "Yorumu görüntüle",
+	"bs-social-notification-comment-parentowner-label": "Gönderi oluşturucu: $1",
+	"bs-social-notification-comment-parententity-label": "Gönderiyi görüntüle"
+}

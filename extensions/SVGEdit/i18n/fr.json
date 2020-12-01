@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"IAlex",
+			"Otourly",
+			"Sherbrooke"
+		]
+	},
+	"svgedit-editbutton-edit": "Modifier le dessin",
+	"svgedit-summary-label": "Résumé de la modification",
+	"svgedit-summary-default": "/* Modifiée avec svg-edit */",
+	"svgedit-editor-save-close": "Enregistrer et fermer",
+	"svgedit-editor-close": "Annuler",
+	"svgedit-desc": "Modification des dessins au format SVG dans votre navigateur en utilisant [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Modifier le dessin",
+	"svgedit-edit-tab-tooltip": "Vous pouvez modifier ce dessin SVG dans votre navigateur",
+	"svgedit-toolbar-insert": "Dessin SVG"
+}

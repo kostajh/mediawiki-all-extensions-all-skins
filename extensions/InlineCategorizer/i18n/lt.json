@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Garas",
+			"Homo",
+			"Ignas693",
+			"Matasg"
+		]
+	},
+	"inlinecategorizer-add-category": "Pridėti kategoriją",
+	"inlinecategorizer-add-category-submit": "Pridėti",
+	"inlinecategorizer-add-category-summary": "Pridėti kategoriją „$1“",
+	"inlinecategorizer-api-error": "API grąžino klaidą: $1 : $2 .",
+	"inlinecategorizer-api-unknown-error": "API grąžino nežinomą klaidą.",
+	"inlinecategorizer-cancel": "Atšaukti redagavimą",
+	"inlinecategorizer-cancel-all": "Atšaukti visus pakeitimus",
+	"inlinecategorizer-category-already-present": "Šis puslapis jau priskirtas kategorijai \"$1\"",
+	"inlinecategorizer-category-hook-error": "Vietinė funkcija neleido išsaugoti pakeitimų.",
+	"inlinecategorizer-category-question": "Kodėl jūs norite atlikti šiuos keitimus:",
+	"inlinecategorizer-confirm-ok": "Gerai",
+	"inlinecategorizer-confirm-save": "Išsaugoti",
+	"inlinecategorizer-confirm-save-all": "Išsaugoti visus pakeitimus",
+	"inlinecategorizer-confirm-title": "Patvirtinti veiksmą",
+	"inlinecategorizer-edit-category": "Redaguoti kategoriją",
+	"inlinecategorizer-edit-category-error": "Kategorijos \"$1\" nepavyko redaguoti.\nDažniausiai taip nutinka, kai kategorija būna pridėta į šabloną, kuris naudojamas puslapyje.",
+	"inlinecategorizer-edit-category-summary": "Keisti kategoriją \"$1\" į \"$2\"",
+	"inlinecategorizer-error-title": "Klaida",
+	"inlinecategorizer-remove-category": "Pašalinti kategoriją",
+	"inlinecategorizer-remove-category-error": "Nepavyko pašalinti kategorijos \"$1\".\nDažniausiai taip nutinka, kai kategorija būna pridėta į šabloną, kuris naudojamas puslapyje.",
+	"inlinecategorizer-remove-category-summary": "Panaikinti kategoriją „$1“"
+}

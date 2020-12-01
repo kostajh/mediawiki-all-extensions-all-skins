@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"아라"
+		]
+	},
+	"wlm-extension-desc": "위키 기념물 사랑 사진 경연 대회와 관련된 정보 및 메시지 추가",
+	"wlm-no-contest-year": "$1년에 위키 기념물 사랑 경연 대회가 없습니다.",
+	"wlm-no-url-bad-country": "현지 경쟁의 웹사이트를 얻을 수 없습니다. $1는 올바른 국가 코드가 아닙니다.",
+	"wlm-country-not-given": "국가 코드를 제공해야 합니다.",
+	"wlm-country-not-participating-year": "«$1» 국가는 $2년 위키 기념물 사랑에 참여하지 않습니다",
+	"wlm-sidebar-portlet": "다른 국가",
+	"wlm-international-contest": "국제",
+	"wlm-text-contact": "연락하기",
+	"wlm-text-contest": "대회",
+	"wlm-text-donate": "기부",
+	"wlm-text-faq": "자주 묻는 질문",
+	"wlm-text-jury": "배심원",
+	"wlm-text-monuments": "기념물",
+	"wlm-text-news": "뉴스",
+	"wlm-text-participate": "참여하세요!",
+	"wlm-text-prizes": "상",
+	"wlm-text-rules": "규칙",
+	"wlm-text-sponsors": "스폰서",
+	"wlm-text-uploading": "올리는 중"
+}

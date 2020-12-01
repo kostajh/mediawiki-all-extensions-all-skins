@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"gae-desc": "提供 wiki 運作在 GoogleAppEngine 上的提升功能",
+	"apihelp-gaejobqueue-description": "用於運作任務佇列的內部 API 模組。不允許外部使用。",
+	"apihelp-gaejobqueue-summary": "用於運作任務佇列的內部 API 模組。不允許外部使用。",
+	"apihelp-gaejobqueue-param-namespace": "數字形式命名空間 ID。",
+	"apihelp-gaejobqueue-param-titletext": "不帶名稱空間的標題文字。",
+	"apihelp-gaejobqueue-param-type": "任務類型。",
+	"apihelp-gaejobqueue-param-params": "用於此任務的 PHP 序列化參數。"
+}

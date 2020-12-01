@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-exporttables-extension-description": "Ermöglicht den Export von Tabellen zu Excel oder CSV",
+	"bs-exporttables-menu": "Tabelle exportieren",
+	"bs-exporttables-menu-csv": "Kommaseparierte Liste (CSV)",
+	"bs-exporttables-ve-exportable-option": "Exportierbar"
+}

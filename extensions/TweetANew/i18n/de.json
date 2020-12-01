@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"Umherirrender"
+		]
+	},
+	"tweetanew-desc": "Ermöglicht das Tweeten, wenn eine Seite erstellt oder bearbeitet wird",
+	"tweetanew-newaction": "Diese neue Seite tweeten",
+	"tweetanew-newtooltip": "Informationen zu dieser neuen Seite an Twitter senden",
+	"tweetanew-editaction": "Diese Bearbeitung tweeten",
+	"tweetanew-edittooltip": "Informationen zu dieser Bearbeitung an Twitter senden",
+	"tweetanew-minoredit": "K",
+	"tweetanew-authorcredit": "von",
+	"tweetanew-newdefault": "NEUE SEITE: $1 - $2",
+	"tweetanew-new1": "Gerade wurde $1 erstellt: $2",
+	"tweetanew-new2": "$1 wurde kürzlich erstellt: $2",
+	"tweetanew-new3": "Schaut Euch den Link $2 an - die neue Seite $1",
+	"tweetanew-editdefault": "AKTUALISIERTE SEITE: $1 - $2",
+	"tweetanew-edit1": "Gerade wurde $1 aktualisiert: $2",
+	"tweetanew-edit2": "$1 wurde kürzlich aktualisiert: $2",
+	"tweetanew-edit3": "Schaut Euch den Link $2 an - die Seite $1 wurde geändert"
+}

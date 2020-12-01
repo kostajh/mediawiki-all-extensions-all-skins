@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"parserfun-desc": "Menambahkan fungsi penghurai <code>#parse</code> untuk menghuraikan teks wiki serta memperkenalkan awalan <code>THIS:</code> untuk pembolehubah sakti berkenaan maklumat laman",
+	"parserfun-invalid-caller-mode": "Tiada mod operasi atau indeks angka sah yang diberikan."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"changeuserpasswords": "Alterar palavras-passe dos utilizadores",
+	"changeuserpassword-desc": "Esta extensão permite alterar palavras-passe dos utilizadores, exceto algumas indicadas por administradores.",
+	"changeuserpassword-pagename": "AlterarPalavras-PasseDosUtilizadores",
+	"changeuserpassword-topheader": "Selecione os nomes dos utilizadores cuja palavra-passe tem de ser alterada, por favor. Por omissão, todos os utilizadores estão marcados. Desmarque aqueles cuja palavra-passe não pretende modificar.",
+	"changeuserpassword-success": "As palavras-passe dos utilizadores foram alteradas!",
+	"changeuserpassword-title": "Alterar palavras-passe",
+	"changeuserpassword-intro": "Esta extensão permite alterar palavras-passe dos utilizadores, exceto algumas indicadas por administradores.",
+	"action-changeuserpasswords": "alterar a palavra-passe dos utilizadores",
+	"right-changeuserpasswords": "Alterar palavras-passe"
+}

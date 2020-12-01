@@ -1,0 +1,26 @@
+.sitetools-main{
+	top: @theme-header-mobile-height;
+	width: @sitetools-main-width;
+	display: inline-flex;
+	position: fixed;
+
+	#bs-toolpanetabs {
+		ul.nav-pills li.calumma-navigation-mobile-hidden {
+			display: none;
+		}
+
+		ul.nav-pills a > i::before {
+			font-size: 2em;
+		}
+		div.tab-content {
+			height: calc(~"100vh - @{theme-header-mobile-height} - @{navigation-tabs-height} - 5rem" );
+			overflow: auto;
+			-webkit-overflow-scrolling: touch;
+			-webkit-user-select: none; /* Safari 3.1+ */
+			-moz-user-select: none; /* Firefox 2+ */
+			-ms-user-select: none; /* IE 10+ */
+			user-select: none; /* Standard syntax */
+		}
+	}
+
+}

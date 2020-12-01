@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"pagelanguage-desc": "ページごとにページ言語を定義する",
+	"pagelanguage-invalid": "'''警告:''' ページの言語として無効な言語コード「$1」を無視しています。",
+	"pagelanguage-duplicate": "'''警告:''' ページ言語「$2」が、それ以前に定義されたページ言語「$1」よりも優先されます。"
+}

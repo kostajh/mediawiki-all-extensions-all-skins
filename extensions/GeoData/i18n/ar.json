@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"geodata-desc": "يضيف وظيفة تخزين واسترجاع الإحداثيات الجغرافية",
+	"geodata-bad-input": "تم تمرير الوسائط غير الصالحة إلى الدالة <nowiki>{{#coordinates:}}</nowiki> function",
+	"geodata-bad-latitude": "<nowiki>{{#coordinates:}}</nowiki>: خط العرض غير صالح",
+	"geodata-bad-longitude": "<nowiki>{{#coordinates:}}</nowiki>: خط الطول غير صالح",
+	"geodata-bad-type": "<nowiki>{{#coordinates:}}</nowiki>: نوع غير معروف \"$1\"",
+	"geodata-bad-globe": "<nowiki>{{#coordinates:}}</nowiki>: عالم غير معترف به \"$1\"",
+	"geodata-bad-region": "<nowiki>{{#coordinates:}}</nowiki>: نسيق رمز المنطقة غير صالح",
+	"geodata-multiple-primary": "<nowiki>{{#coordinates:}}</nowiki>: لا يمكن أن يكون هناك أكثر من وسم أساسي واحد لكل صفحة",
+	"geodata-limit-exceeded": "تم تجاوز الحد $1 <nowiki>{{#coordinates:}}</nowiki> {{PLURAL:$1|وسم|وسوم}} لكل صفحة",
+	"geodata-broken-tags-category": "صفحات ذات وسوم إحداثيات غير صحيحة",
+	"geodata-broken-tags-category-desc": "تحتوي الصفحة على وسم <code><nowiki>{{#coordinates:}}</nowiki></code> مشوه.",
+	"geodata-unknown-type-category": "صفحات ذات نوع غير معروف من الإحداثيات",
+	"geodata-unknown-type-category-desc": "تستخدم الصفحة قيمة غير معروفة لوسيط <code>type</code> للإحداثيات.",
+	"geodata-unknown-globe-category": "صفحات ذات قيمة غير معروفة للعالم",
+	"geodata-unknown-globe-category-desc": "تستخدم الصفحة قيمة غير معروفة لوسيط <code>globe</code> للإحداثيات.",
+	"geodata-unknown-region-category": "صفحات ذات قيمة منطقة غير صالحة",
+	"geodata-unknown-region-category-desc": "تستخدم الصفحة قيمة غير معروفة لوسيط <code>region</code> للإحداثيات.",
+	"geodata-api-help-coordinates-format": "التنسيق: تم فصل خط العرض وخط الطول بواسطة أنبوب (<kbd>|</ kbd>).",
+	"geodata-search-feature-invalid-coordinates": "لا يمكن تحليل الإحداثيات الجغرافية \"$2\" المقدمة إلى \"$1\".",
+	"geodata-search-feature-invalid-distance": "لا يمكن تحليل المسافة الجغرافية \"$2\" المقدمة إلى \"$1\".",
+	"geodata-search-feature-unknown-title": "العنوان \"$2\" المقدم إلى \"$1\" غير موجود.",
+	"geodata-search-feature-title-no-coordinates": "لا يحتوي العنوان \"$2\" المقدم إلى \"$1\" على أية إحداثيات.",
+	"geodata-search-timeout": "انتهت مهلة بحث GeoData؛ النتائج الجزئية فقط متاحة."
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym"
+		]
+	},
+	"parserfun-desc": "Dodaje funkcję analizatora <code>#parse</code> w celu analizowania wikitekstu i wprowadza prefiks <code>THIS:</code> dla informacje strony dotyczących magicznych zmiennych",
+	"parserfun-invalid-caller-mode": "Brak prawidłowego trybu operacji lub podano indeks liczbowy."
+}

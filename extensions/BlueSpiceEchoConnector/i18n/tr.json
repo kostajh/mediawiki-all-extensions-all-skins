@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"bs-echoconnector-extension-description": "BlueSpice'i Yankı ile bağlar",
+	"echo-category-title-bs-admin-cat": "İdari görevler",
+	"echo-pref-tooltip-bs-admin-cat": "Yeni bir kullanıcı hesabı oluşturulduğunda bana bildir",
+	"echo-pref-tooltip-bs-page-actions-cat": "Birisi izlediğim bir sayfayı düzenlediğinde, taşıdığında veya sildiğinde bana bildir",
+	"echo-pref-tooltip-bs-page-create-cat": "Yeni bir sayfa oluşturulduğunda bana bildir",
+	"echo-category-title-bs-page-actions-cat": "İzleme listesindeki sayfalardaki işlemler",
+	"echo-category-title-bs-page-create-cat": "Sayfa oluşturması",
+	"prefs-namespace-notifications": "Ad alanı olaylarıyla ilgili bildirimler",
+	"prefs-category-notifications": "Kategorilerdeki bildirimler",
+	"echo-category-title-bs-namespace-category-notify-cat": "Abone olunan ad alanları ve kategorilerdeki değişiklikler"
+}

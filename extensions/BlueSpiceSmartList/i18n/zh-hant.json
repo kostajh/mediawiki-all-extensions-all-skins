@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"EagerLin",
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226"
+		]
+	},
+	"bs-smartlist-desc": "顯示在清單裡 wiki 的最近 5 次更改",
+	"prefs-smartlist": "智慧清單",
+	"bs-smartlist-recent-changes": "最近變更",
+	"bs-smartlist-no-entries": "查無結果。",
+	"bs-smartlist-invalid-namespaces": "指定的{{PLURAL:$1|命名空間}}無效：$2。",
+	"bs-smartlist-invalid-target": "提供的目標不是有效頁面標題",
+	"bs-smartlist-comment": "評論：$1。",
+	"bs-smartlist-sort-asc": "升冪",
+	"bs-smartlist-sort-desc": "降冪",
+	"bs-smartlist-day": "日",
+	"bs-smartlist-week": "週",
+	"bs-smartlist-month": "月",
+	"bs-smartlist-time": "時間",
+	"bs-smartlist-title": "標題",
+	"bs-smartlist-tag-smartlist-desc": "顯示自動產生的條目清單。設置是透過數個 modi 與參數來運作。",
+	"bs-smartlist-tag-smartlist-example-rc": "模式：最近更改",
+	"bs-smartlist-tag-smartlist-example-whatlinkshere": "模式：有連結此的內容",
+	"bs-smartlist-tag-newbies-desc": "顯示 wiki 上的新使用者。清單可限制成特定數量。",
+	"bs-smartlist-tag-toplist-desc": "顯示最多被瀏覽的頁面。可透過數個參數來限定。",
+	"bs-smartlist-mostvisitedpages": "最多被瀏覽頁面",
+	"bs-smartlist-mosteditedpages": "最多被編輯頁面",
+	"bs-smartlist-mostactiveusers": "最活躍使用者（依編輯次數）",
+	"bs-smartlist-lastedits": "我的編輯",
+	"bs-smartlist-noedits": "查無編輯次數。",
+	"bs-smartlist-mostactiveusersdesc": "依編輯次數所排序最活躍使用者的清單。",
+	"bs-smartlist-mosteditedpagesdesc": "依編輯次數所排序最多被編輯頁面的清單。",
+	"bs-smartlist-mostvisitedpagesdesc": "依瀏覽次數所排序最多被瀏覽頁面的清單。",
+	"bs-smartlist-lasteditsdesc": "您所編輯過頁面的清單。",
+	"bs-smartlist-hitcounter-missing": "需安裝擴充功能 <a target='blank' href='https://www.mediawiki.org/wiki/Extension:HitCounters'>HitCounters</a>。",
+	"apihelp-bs-smartlist-tasks-description": "為頁面與使用者統計狀態提供 portlet 資料的 API 功能。",
+	"apihelp-bs-smartlist-tasks-summary": "為頁面與使用者統計狀態提供 portlet 資料的 API 功能。"
+}

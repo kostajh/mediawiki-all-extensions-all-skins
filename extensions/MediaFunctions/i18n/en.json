@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rob Church <robchur@gmail.com>"
+		]
+	},
+	"mediafunctions-desc": "Parser functions for obtaining information about media files",
+	"mediafunctions-invalid-title": "\"$1\" is not a valid title",
+	"mediafunctions-not-exist": "\"$1\" does not exist"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"userexport-desc": "Gör det möjligt att exportera användardata till en CSV-fil",
+	"userexport": "Exportera användardata",
+	"userexport-submit": "Exportera",
+	"userexport-badtoken": "Ogiltig redigeringsnyckel",
+	"userexport-description": "Denna sida gör det möjligt att exportera användardata (användarnamn och e-post) för alla registrerade användare på denna wiki till en CSV-fil.",
+	"right-userexport": "Exportera användardata i bulk",
+	"action-userexport": "exportera användardata från denna wiki"
+}

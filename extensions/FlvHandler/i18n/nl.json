@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"flvhandler_desc": "Maakt het mogelijk om Flash Video-bestanden (.flv) in standaard koppelingen te gebruiken (bijvoorbeeld <nowiki>[[</nowiki>{{ns:file}}:Filmpje.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Flash Video, $1 × $2 pixels, bestandsgrootte: $3"
+}

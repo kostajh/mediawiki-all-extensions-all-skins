@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Nemo bis",
+			"Sakretsu"
+		]
+	},
+	"globalprefs-desc": "Consente agli utenti di impostare le preferenze globali",
+	"globalprefs-set-local-exception": "Imposta un'eccezione locale per questa [[Special:GlobalPreferences#$1|preferenza globale]].",
+	"globalprefs-has-local-exception": "Questa preferenza globale ha un'[[Special:Preferences#$1|eccezione locale su questo wiki]].",
+	"tooltip-globalprefs-check-label": "Rendi globale questa impostazione",
+	"globalprefs-error-header": "Errore",
+	"globalprefs-notglobal": "La tua non è un'utenza globale e non puoi impostare una preferenza globale.",
+	"globalpreferences": "Preferenze globali",
+	"globalprefs-info-label": "Preferenze globali:",
+	"globalprefs-info-link": "Imposta le preferenze globali",
+	"globalprefs-info-help": "Le preferenze impostate tramite la pagina delle preferenze globali saranno applicate a tutti i wiki.",
+	"globalprefs-reset-intro": "Puoi utilizzare questa pagina per disattivare tutte le preferenze globali su tutti gli wiki e tornare alle preferenze locali. Questa operazione non influenzerà le preferenze locali e può essere annullata.",
+	"globalprefs-restoreprefs": "Rimuovi tutte le preferenze globali (in tutte le sezioni)",
+	"globalprefs-select-all": "Attiva o disattiva tutte le caselle di controllo",
+	"globalprefs-col-header": "Rendi globali le preferenze selezionate sotto"
+}

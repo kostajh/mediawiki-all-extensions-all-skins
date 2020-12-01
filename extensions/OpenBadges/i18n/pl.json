@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"PiotrAntosz"
+		]
+	},
+	"action-createbadge": "tworzenie odznak",
+	"action-viewbadge": "oglądanie odznak",
+	"right-createbadge": "Utwórz odznaki",
+	"right-viewbadge": "Zobacz odznaki",
+	"badgecreate": "Utwórz odznakę",
+	"badge-create-legend": "Utwórz nową odznakę",
+	"ob-create-badge-name": "Nazwa odznaki",
+	"ob-create-badge-description": "Opis odznaki",
+	"ob-create-badge-image": "Plik obrazka odznaki",
+	"ob-create-success": "Utworzono odznakę.",
+	"ob-create-no-image": "Obrazek nie istnieje.",
+	"ob-create-wrong-mime": "Obrazek ma niewłaściwy format: dozwolony jest tylko png lub svg.",
+	"ob-create-name-exists": "Nazwa odznaki już istnieje.",
+	"badgeview": "Moje odznaki",
+	"ob-view-proof-header": "Dowód",
+	"ob-view-name": "Nazwa odznaki",
+	"ob-view-evidence-header": "Dowód",
+	"ob-view-no-evidence": "Brak",
+	"ob-issue-user": "Nazwa użytkownika",
+	"ob-issue-type": "Odznaka",
+	"ob-issue-evidence": "URL dowodu",
+	"ob-db-user-not-found": "Użytkownik nie istnieje.",
+	"ob-db-user-no-email": "{{GENDER:$1|Użytkownik nie wprowadził|Użytkowniczka nie wprowadziła}} adresu e-mail.",
+	"ob-db-user-no-email-confirmation": "{{GENDER:$1|Użytkownik nie potwierdził|Użytkowniczka nie potwierdziła}} swojego adresu e-mail.",
+	"ob-db-evidence-not-url": "Dowód musi być adresem URL.",
+	"ob-db-badge-not-found": "Odznaka nie istnieje.",
+	"ob-db-unknown-error": "Nieznany błąd bazy danych.",
+	"apihelp-openbadges-param-type": "Typ zapytania",
+	"apihelp-openbadges-param-obl_receiver": "Identyfikator użytkownika, który otrzymał OpenBadge."
+}

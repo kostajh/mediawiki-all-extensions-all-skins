@@ -1,0 +1,93 @@
+// Checkbox
+//
+// Styling checkboxes in a way that works cross browser is a tricky problem to solve.
+// In MediaWiki UI put a checkbox and label inside a mw-ui-checkbox div.
+// This renders in all browsers except IE 6-8 which do not support the `:checked` selector;
+// these are kept backwards-compatible using the `:not( #noop )` selector.
+// You should give the checkbox and label matching `id` and `for` attributes, respectively.
+//
+// Markup:
+// <div class="mw-ui-checkbox">
+//   <input type="checkbox" id="kss-example-3">
+//   <label for="kss-example-3">Standard checkbox</label>
+// </div>
+// <div class="mw-ui-checkbox">
+//   <input type="checkbox" id="kss-example-3-checked" checked>
+//   <label for="kss-example-3-checked">Standard checked checkbox</label>
+// </div>
+// <div class="mw-ui-checkbox">
+//   <input type="checkbox" id="kss-example-3-disabled" disabled>
+//   <label for="kss-example-3-disabled">Disabled checkbox</label>
+// </div>
+// <div class="mw-ui-checkbox">
+//   <input type="checkbox" id="kss-example-3-disabled-checked" disabled checked>
+//   <label for="kss-example-3-disabled-checked">Disabled checked checkbox</label>
+// </div>
+//
+// Styleguide 3.
+
+// We use the `:not` selector to cancel out styling on IE 8 and below
+// We also disable this styling on JavaScript disabled devices. This fixes the issue with
+// Opera Mini where checking/unchecking doesn't apply styling but potentially leaves other
+// more capable browsers with unstyled checkboxes.
+.client-js .mw-ui-checkbox:not( #noop ) {
+	[ type='checkbox' ] {
+		// Pseudo `:before` element of the label after the checkbox now looks like a checkbox
+		& + label:before {
+			border: 1px solid @colorGray7;
+		}
+
+		// Apply a checkmark on the pseudo `:before` element when the input is checked
+		&:checked + label:before {
+			// background-image: url( images/checkbox-checked.svg );
+			// background-size: 90% 90% ;
+		}
+
+		&:enabled {
+			// `:focus` has to come first, otherwise a specificity race with `:hover:focus` etc is necessary
+			&:focus + label:before {
+				border-color: @colorProgressive;
+				box-shadow: @boxShadowWidgetFocus;
+			}
+
+			&:hover + label:before {
+				border-color: @colorProgressive;
+			}
+
+			&:active + label:before {
+				background-color: @colorProgressiveActive;
+				border-color: @borderColorInputBinaryActive;
+				box-shadow: @boxShadowInputBinaryActive;
+			}
+
+			&:checked {
+				& + label:before {
+					background-color: @backgroundColorInputBinaryChecked;
+					border-color: @borderColorInputBinaryChecked;
+				}
+
+				&:focus + label:before {
+					background-color: @backgroundColorInputBinaryChecked;
+					border-color: @borderColorInputBinaryChecked;
+					box-shadow: @boxShadowProgressiveFocus;
+				}
+
+				&:hover + label:before {
+					background-color: @colorProgressiveHighlight;
+					border-color: @colorProgressiveHighlight;
+				}
+
+				&:active + label:before {
+					background-color: @backgroundColorInputBinaryActive;
+					border-color: @borderColorInputBinaryActive;
+				}
+			}
+		}
+
+		// disabled checkboxes have a gray background
+		&:disabled + label:before {
+			background-color: @colorGray12;
+			border-color: @colorGray12;
+		}
+	}
+}

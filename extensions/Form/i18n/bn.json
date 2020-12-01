@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"Bellayet",
+			"Sandipan",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"form-desc": "নতুন পাতা শুরু করতে একটি [[Special:Form|ফরম ইন্টারফেস]]",
+	"form": "একটি নতুন পাতা শুরু করুন",
+	"form-captcha-error": "ক্যাপচা ত্রুটি",
+	"form-pick-form": "একটি ফরমের মাধ্যমে যে পাতা আপনি তৈরি করতে চান তার ধরন চয়ন করুন।",
+	"form-no-name": "কোনো ফরমের নাম নেই",
+	"form-no-name-text": "আপনাকে অবশ্যই একটি ফরমের নাম প্রদান করতে হবে, যেমন \"Special:Form/ফরমের নাম\"।",
+	"form-bad-name": "ফরমের নাম ভালো নয়",
+	"form-bad-name-text": "এই নামে কোনো ফরম নেই।",
+	"form-pattern": "$1-ফর্ম",
+	"form-title-pattern": "নতুন $1 যোগ করুন",
+	"form-save": "সংরক্ষণ করুন",
+	"form-index-mismatch-title": "নামের প্যাটার্ন এবং টেমপ্লেট মেলেনি",
+	"form-index-mismatch": "এই ফরমে $1 সূচক থেকে শুরু করে নামের বিন্যাস এবং টেমপ্লেট মেলেনি",
+	"form-article-exists": "পাতা রয়েছে",
+	"form-article-existstext": "[[$1]] পাতাটি ইতিমধ্যেই বিদ্যমান।",
+	"form-bad-page-name": "পাতার মন্দ নাম",
+	"form-bad-page-name-text": "আপনার প্রবেশ করানো ফরমের উপাত্ত একটি খারাপ পৃষ্ঠা নাম দেয়, \"$1\"।",
+	"form-required-field-error": "এই ফরমের জন্য {{PLURAL:$2|$1 ক্ষেত্রটি|$1 ক্ষেত্রগুলি}} প্রয়োজন।\nদয়া করে {{PLURAL:$2|এটি|এগুলি}} পূরণ করুন।",
+	"form-save-summary": "[[Special:Form/$1|$1 ফরম]] ব্যবহার করে নতুন পাতা",
+	"form-save-error": "ফর্ম সংরক্ষণে ত্রুটি",
+	"form-save-error-text": "'$1' পাতাটি সংরক্ষণের সময় একটি অজানা ত্রুটি হয়েছে।"
+}

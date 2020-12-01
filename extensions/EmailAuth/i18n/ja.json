@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume"
+		]
+	},
+	"emailauth-desc": "不審なログインをメールで確認する",
+	"emailauth-token-label": "確認コード",
+	"emailauth-email-subject": "$1 へのログイン確認コード",
+	"emailauth-email-body": "$1 へのログインに必要な確認コードは $2 です",
+	"emailauth-login-message": "あなたが不正なログインをしていないか確認します。確認コードがあなたのメールアドレス ($1) に送信されました。メールに書かれたコードを入力してください。",
+	"emailauth-login-failure": "確認コードが正しくありません。",
+	"emailauth-login-retry-limit": "入力回数が多すぎます。"
+}

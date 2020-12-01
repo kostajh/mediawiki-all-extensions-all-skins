@@ -1,0 +1,22 @@
+table.lieTable {
+	border-top: 2px solid #79d;
+	border-bottom: 2px solid #79d;
+	border-collapse: collapse;
+}
+
+table.lieTable th {
+	padding: 3px;
+	border-bottom: 1px solid #8ae;
+	background: #dfefff;
+}
+
+table.lieTable td {
+	padding: 3px;
+	border-bottom: 1px solid #8ae;
+	text-align: center;
+}
+
+.s_order {
+	width: 30px;
+	text-align: right;
+}

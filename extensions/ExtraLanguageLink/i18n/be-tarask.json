@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"extralanguagelink-desc": "Дадае дадатковую моўную спасылку ў разьдзел бакавога мэню «на іншых мовах»",
+	"extralanguagelink-param-class": "кляса",
+	"extralanguagelink-param-hreflang": "мова_спасылкі",
+	"extralanguagelink-param-lang": "мова",
+	"extralanguagelink-param-style": "стыль",
+	"extralanguagelink-param-title": "загаловак",
+	"extralanguagelink-badinterwiki": "Прэфікс інтэрвікі «$1:» не ўваходзіць у сьпіс дазволеных прэфіксаў інтэрвікі.",
+	"extralanguagelink-badtitle": "Загаловак старонкі «$1» ня можа быць апрацаваны."
+}

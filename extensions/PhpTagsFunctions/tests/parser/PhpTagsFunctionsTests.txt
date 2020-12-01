@@ -1,0 +1,134 @@
+!! Version 2
+
+!! article
+Template:Get random argument
+!! text
+<phptag>
+array_shift( $argv ); # $argv is array that contains the passed parameters ($argv[0] is always page name, need to remove it here)
+shuffle ( $argv ); # shuffles the array
+$return = array_pop( $argv ); # get the last value of the array
+echo trim( $return ); # the string can contain unnecessary spaces, remove them
+</phptag>
+!! endarticle
+
+!! article
+Template:Echo
+!! text
+{{{1|}}}{{{2|}}}{{{3|}}}{{{4|}}}{{{5|}}}{{{6|}}}{{{7|}}}{{{8|}}}{{{9|}}}
+!! endarticle
+
+!! article
+Template:Dump
+!! text
+<noinclude>
+This is the Dump template
+</noinclude>
+<phptag>
+foreach ( $argv as $key => $value ) {
+	echo "\n* $key => $value";
+}
+echo "\n";
+</phptag>
+!! endarticle
+
+!! test
+Get random argument
+!! wikitext
+{{Get random argument | One }}
+!! html
+<p>One
+</p>
+!! end
+
+!! test
+Transclude Echo
+!! wikitext
+<phptag>
+echo "Hello\n\n";
+$foo = transclude( "Echo", ['1', '22', '333', '4444'] );
+echo "\n\n$foo";
+echo "\n\nBye";
+</phptag>
+!! html
+<p>Hello
+</p><p><br />
+</p><p>1223334444
+</p><p>Bye
+</p>
+!! end
+
+!! test
+Transclude Echo2
+!! wikitext
+<phptag>
+echo "Hello\n\n";
+$foo = transclude( "Echo", ['1', '22', '333', '4444'], null );
+echo "\n\nBye";
+echo "\n\n$foo";
+</phptag>
+!! html
+<p>Hello
+</p><p><br />
+</p><p>Bye
+</p><p>1223334444
+</p>
+!! end
+
+!! test
+Transclude Echo3
+!! wikitext
+<phptag>
+echo "Hello\n\n";
+echo transclude( false, [], '{{Echo|1|22|333|4444}}' );
+echo "\n\nBye";
+</phptag>
+!! html
+<p>Hello
+</p><p>1223334444
+</p><p>Bye
+</p>
+!! end
+
+!! test
+Transclude Dump
+!! wikitext
+<phptag>
+echo "Hello\n\n";
+echo transclude( "Dump", ['1', '22', '333', '4444', 'test'=>'TEST'] );
+echo "\n\nBye";
+</phptag>
+!! html
+<p>Hello
+</p><p><br />
+</p>
+<ul><li>0 =&gt; Template:Dump</li>
+<li>1 =&gt; 1</li>
+<li>2 =&gt; 22</li>
+<li>3 =&gt; 333</li>
+<li>4 =&gt; 4444</li>
+<li>test =&gt; TEST</li></ul>
+<p><br />
+Bye
+</p>
+!! end
+
+!! article
+Transclude Loop
+!! text
+<phptag>
+echo "Hello\n\n";
+transclude( ":Transclude Loop", ['1', '22', '333', '4444', 'test'=>'TEST'] );
+echo "\n\nBye";
+</phptag>
+!! endarticle
+
+!! test
+Transclude Loop detected
+!! wikitext
+{{:Transclude Loop}}
+!! html
+<p>Hello
+</p><p><span class="error">PhpTags Warning:  transclude(): Template loop detected in Transclude Loop on line 3</span><br />
+</p><p>Bye
+</p>
+!! end

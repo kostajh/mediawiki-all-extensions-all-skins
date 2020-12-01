@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"BrokenArrow",
+			"Pietrodn",
+			"Sarah Bernabei"
+		]
+	},
+	"action-addpagetoanywatchlist": "aggiungere pagine agli osservati speciali di altri utenti",
+	"action-removepagefromanywatchlist": "rimuovere pagine dagli osservati speciali di altri utenti",
+	"right-seepagewatchers": "visualizza [[Special:WhoIsWatching|quali utenti stanno osservando una pagina]]",
+	"action-seepagewatchers": "vedere quali utenti stanno osservando una pagina",
+	"echo-pref-tooltip-whoiswatching": "Avvisami quando qualcuno aggiunge una pagina ai miei osservati speciali.",
+	"whoiswatching": "Chi sta osservando una pagina wiki",
+	"whoiswatching-desc": "Elenca i nomi degli utenti che tengono sotto osservazione una pagina wiki",
+	"specialwhoiswatchingusage": "Questa pagina speciale non può essere usata da sola.",
+	"specialwhoiswatchingaddusers": "Aggiungi utenti ad osservare la pagina",
+	"specialwhoiswatchingaddbtn": "Aggiungi gli utenti selezionati",
+	"whoiswatching_users_pageview": "Questa pagina è negli osservati speciali di [{{fullurl:Special:WhoIsWatching/$2}} $1 {{PLURAL:$1|utente|utenti}}]",
+	"whoiswatching-usage-title": "Come utilizzare questa pagina",
+	"whoiswatching-user-editname": "Inserisci un nome utente:",
+	"whoiswatching-adduser": "Aggiungi utente",
+	"whoiswatching-deluser": "Rimuovi utente",
+	"whoiswatching-title": "Scrivi un titolo",
+	"whoiswatching-notification-whoiswatching-remove-header": "La pagina è stata rimossa dagli osservati speciali",
+	"whoiswatching-notification-whoiswatching-remove-body": "$1 ha rimosso $4 dai tuoi osservati speciali",
+	"whoiswatching-notification-whoiswatching-add-body": "$1 ha aggiunto $4 ai tuoi osservati speciali"
+}

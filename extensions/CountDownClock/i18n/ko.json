@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kwj2772",
+			"Ykhwong"
+		]
+	},
+	"countDownClock-desc": "카운트다운 시간을 보여주는 파서 함수를 추가합니다",
+	"countDownClock-invalidtime": "유효한 endTime 변수를 지정해 주십시오",
+	"countDownClock-days": "$1{{PLURAL:$1|일}}",
+	"countDownClock-hours": "$1{{PLURAL:$1|시간}}",
+	"countDownClock-minutes": "$1{{PLURAL:$1|분}}",
+	"countDownClock-seconds": "$1{{PLURAL:$1|초}}",
+	"countDownClock-expired": "만료됨"
+}

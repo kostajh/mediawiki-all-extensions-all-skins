@@ -1,0 +1,35 @@
+{
+	"name": "RelMicroformat",
+	"license-name": "GPL-3.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:RelMicroformat",
+	"author": [
+		"Kunal Mehta"
+	],
+	"descriptionmsg": "relmicroformat-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\RelMicroformat\\": "includes/"
+	},
+	"MessagesDirs": {
+		"RelMicroformat": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"SkinBuildSidebar": "RelMicroformat"
+	},
+	"HookHandlers": {
+		"RelMicroformat": {
+			"class": "MediaWiki\\RelMicroformat\\Hooks"
+		}
+	},
+	"config": {
+		"RelMicroformatUrls": {
+			"value": {}
+		}
+	},
+	"manifest_version": 2
+}

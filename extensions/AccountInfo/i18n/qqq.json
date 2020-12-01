@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"accountinfo": "{{doc-special|AccountInfo}}\n{{Identical|Account information}}",
+	"accountinfo-desc": "{{doc-singularthey}}\n{{desc|name=AccountInfo|url=https://www.mediawiki.org/wiki/Extension:AccountInfo}}",
+	"accountinfo-ts": "Header for table column.\n{{Identical|Timestamp}}",
+	"accountinfo-ip": "Header for table column.\n{{Identical|IP address}}",
+	"accountinfo-ua": "Header for table column.\n{{Identical|User agent}}",
+	"accountinfo-xff": "Header for table column",
+	"accountinfo-none": "{{notranslate}}\nText in table row when no information is available",
+	"accountinfo-length": "Text explaining how long information is retained in the database.\n\nParameters:\n* $1 - the formatted time length",
+	"accountinfo-now": "Text shown in \"Timestamp\" column to represent current information.\n{{Identical|Now}}"
+}

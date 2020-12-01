@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"webchat": "Web dopisivanje",
+	"webchat-desc": "Dodaje [[Special:WebChat|posebnu stranicu]] za dopisivanje u realnom vremenu sa drugim wiki korisnicima",
+	"webchat-header": "Ova posebna stranica Vam omogućava zajednički rad u realnom vremenu sa drugim korisnicima wikija.\nDa se spojite, samo pritisnite dugme \"Spoji\".\nAko ste prijavljeni sa Vašim nadimkom, podaci će već biti uneseni.\nAnonimnim korisnicima će biti automatski dodijeljen nadimak, ali može biti naknadno promijenen.",
+	"right-webchat": "Dozvoljena upotreba [[Special:WebChat|web dopisivanja]]"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"Palapa",
+			"Srdjan m"
+		]
+	},
+	"openstackmanager-desc": "Daje mogućnost korisnicima da upravljaju sa Nova i Swift",
+	"openstackmanager-delete": "obriši",
+	"openstackmanager-actions": "Akcije",
+	"openstackmanager-notloggedin": "Potrebno je prijavljivanje",
+	"openstackmanager-deletekey": "Brisanje javnog SSH ključa",
+	"openstackmanager-deletekeyconfirm": "Da li ste sigurni da želite obrisati gornji ključ?",
+	"openstackmanager-keylist": "Spisak javnih SSH ključeva",
+	"openstackmanager-name": "Naziv",
+	"openstackmanager-fingerprint": "Otisak prsta",
+	"openstackmanager-keys": "Ključevi"
+}

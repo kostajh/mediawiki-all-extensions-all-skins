@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"browsesw": "Navigar dins lo wiki & lo web semantic",
+	"swb_desc": "Apondre una pagina especiala [[Special:BrowseSW|Navigar dins lo wiki & lo web semantic]]",
+	"swb_browse_article": "Picatz lo nom de la pagina a partir de la quala volètz començar la navigacion.",
+	"swb_browse_go": "Validar",
+	"swb_browse_show_incoming": "afichar las proprietats d'entradas que puntan aicí",
+	"swb_browse_hide_incoming": "amagar las proprietats d'entradas que puntan aicí",
+	"swb_browse_no_outgoing": "Aquesta pagina a pas cap de proprietat.",
+	"swb_browse_no_incoming": "Cap de proprietat punta pas cap a aquesta pagina.",
+	"swb_inverse_label_property": "Labèl de la proprietat invèrsa",
+	"swb_inverse_label_default": "$1 de"
+}

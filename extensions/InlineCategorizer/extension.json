@@ -1,0 +1,74 @@
+{
+	"name": "InlineCategorizer",
+	"version": "0.1.1",
+	"author": [
+		"Michael Dale",
+		"Timo Tijhof",
+		"Leo Koppelkamm"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:InlineCategorizer",
+	"descriptionmsg": "inlinecategorizer-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"config": {
+		"InlineCategorizerNamespaces": {
+			"value": [],
+			"description": "Optionally enable InlineCategorizer only on a set of namespaces. Default is all. Example: $wgInlineCategorizerNamespaces = [ NS_MAIN, NS_PROJECT ];",
+			"public": false
+		}
+	},
+	"AutoloadClasses": {
+		"InlineCategorizerHooks": "InlineCategorizerHooks.php"
+	},
+	"MessagesDirs": {
+		"InlineCategorizer": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"BeforePageDisplay": "InlineCategorizerHooks::beforePageDisplay"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "InlineCategorizer/modules"
+	},
+	"ResourceModules": {
+		"ext.inlineCategorizer.core": {
+			"scripts": "ext.inlineCategorizer.core.js",
+			"styles": "ext.inlineCategorizer.core.css",
+			"dependencies": [
+				"jquery.suggestions",
+				"jquery.ui",
+				"mediawiki.Title",
+				"mediawiki.util"
+			],
+			"messages": [
+				"inlinecategorizer-add-category",
+				"inlinecategorizer-remove-category",
+				"inlinecategorizer-edit-category",
+				"inlinecategorizer-add-category-submit",
+				"inlinecategorizer-confirm-ok",
+				"inlinecategorizer-confirm-title",
+				"inlinecategorizer-confirm-save",
+				"inlinecategorizer-confirm-save-all",
+				"inlinecategorizer-cancel",
+				"inlinecategorizer-cancel-all",
+				"inlinecategorizer-add-category-summary",
+				"inlinecategorizer-edit-category-summary",
+				"inlinecategorizer-remove-category-summary",
+				"inlinecategorizer-category-question",
+				"inlinecategorizer-error-title",
+				"inlinecategorizer-remove-category-error",
+				"inlinecategorizer-edit-category-error",
+				"inlinecategorizer-category-already-present",
+				"inlinecategorizer-category-hook-error",
+				"inlinecategorizer-api-error",
+				"inlinecategorizer-api-unknown-error"
+			]
+		}
+	},
+	"manifest_version": 2
+}

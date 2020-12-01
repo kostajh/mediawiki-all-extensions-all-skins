@@ -1,0 +1,93 @@
+{
+	"name": "SystemGifts",
+	"author": [
+		"Aaron Wright",
+		"David Pean",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"descriptionmsg": "systemgifts-desc",
+	"type": "other",
+	"MessagesDirs": {
+		"SystemGifts": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SystemGiftsAlias": "includes/SystemGifts.alias.php"
+	},
+	"AutoloadClasses": {
+		"MigrateOldSystemGiftsUserColumnsToActor": "maintenance/migrateOldSystemGiftsUserColumnsToActor.php",
+		"SystemGiftCount": "includes/SystemGiftCount.php",
+		"SystemGiftIcon": "includes/SystemGiftIcon.php",
+		"SystemGiftListLookup": "includes/SystemGiftListLookup.php",
+		"SystemGifts": "includes/SystemGifts.php",
+		"UserSystemGifts": "includes/UserSystemGifts.php",
+		"UserSystemGiftsHooks": "includes/UserSystemGiftsHooks.php",
+		"TopAwards": "includes/specials/TopAwards.php",
+		"ViewSystemGifts": "includes/specials/SpecialViewSystemGifts.php",
+		"ViewSystemGift": "includes/specials/SpecialViewSystemGift.php",
+		"SystemGiftManager": "includes/specials/SpecialSystemGiftManager.php",
+		"SystemGiftManagerLogo": "includes/specials/SpecialSystemGiftManagerLogo.php",
+		"RemoveMasterSystemGift": "includes/specials/SpecialRemoveMasterSystemGift.php",
+		"PopulateAwards": "includes/specials/SpecialPopulateAwards.php",
+		"EchoUserSystemGiftPresentationModel": "includes/EchoUserSystemGiftPresentationModel.php"
+	},
+	"Hooks": {
+		"BeforeCreateEchoEvent": "UserSystemGiftsHooks::onBeforeCreateEchoEvent",
+		"EchoGetDefaultNotifiedUsers": "UserSystemGiftsHooks::onEchoGetDefaultNotifiedUsers",
+		"EchoGetBundleRules": "UserSystemGiftsHooks::onEchoGetBundleRules"
+	},
+	"SpecialPages": {
+		"TopAwards": "TopAwards",
+		"ViewSystemGifts": "ViewSystemGifts",
+		"ViewSystemGift": "ViewSystemGift",
+		"SystemGiftManager": "SystemGiftManager",
+		"SystemGiftManagerLogo": "SystemGiftManagerLogo",
+		"RemoveMasterSystemGift": "RemoveMasterSystemGift",
+		"PopulateAwards": "PopulateAwards"
+	},
+	"DefaultUserOptions": {
+		"echo-subscriptions-web-social-award": true,
+		"echo-subscriptions-email-social-award": false
+	},
+	"AvailableRights": [
+		"awardsmanage"
+	],
+	"GroupPermissions": {
+		"staff": {
+			"awardsmanage": true
+		},
+		"sysop": {
+			"awardsmanage": true
+		}
+	},
+	"ResourceModules": {
+		"ext.socialprofile.systemgifts.css": {
+			"styles": "css/SystemGift.css"
+		},
+		"ext.socialprofile.special.removemastersystemgift.css": {
+			"styles": "css/SpecialRemoveMasterSystemGift.css"
+		},
+		"ext.socialprofile.special.systemgiftmanager.css": {
+			"styles": "css/SpecialSystemGiftManager.css"
+		},
+		"ext.socialprofile.special.systemgiftmanagerlogo.css": {
+			"styles": "css/SpecialSystemGiftManagerLogo.css"
+		},
+		"ext.socialprofile.special.topawards.css": {
+			"styles": "css/SpecialTopAwards.css"
+		},
+		"ext.socialprofile.special.viewsystemgift.css": {
+			"styles": "css/SpecialViewSystemGift.css"
+		},
+		"ext.socialprofile.special.viewsystemgifts.css": {
+			"styles": "css/SpecialViewSystemGifts.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "SocialProfile/SystemGifts/resources"
+	},
+	"manifest_version": 1
+}

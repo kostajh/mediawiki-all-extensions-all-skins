@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"phptagsfunctions-desc": "Рэалізуе ўнутраныя функцыі PHP для пашырэньня PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "Падзяляльнік ня мусіць быць літарай ці лічбай або зваротнай касой рысай",
+	"phptagsfunctions-preg-no-ending-delimiter": "Ня знойдзены сымбаль канца радку «$1»",
+	"phptagsfunctions-preg-unknown-modifier": "Невядомы мадыфікатар «$1»"
+}

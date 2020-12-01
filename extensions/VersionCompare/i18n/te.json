@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari"
+		]
+	},
+	"versioncompare": "కూర్పు పోలికలు",
+	"version-compare-database-label": "డేటాబేసు",
+	"version-compare-url-error": "$1 నుండి డేటా తెచ్చుకోవడంలో లోపం.",
+	"version-compare-url-field-help-1": "పోల్చడానికి మొదటి వికీ API URL (api.php తో ముగుస్తుంది). ఖాళీగా వదిలేస్తే ప్రస్తుత వికీని వాడుతుంది.",
+	"version-compare-url-field-help-2": "పోల్చడానికి రెండవ వికీ API URL (api.php తో ముగుస్తుంది). ఖాళీగా వదిలేస్తే ప్రస్తుత వికీని వాడుతుంది.",
+	"version-compare-diff-field-label": "తేడాలను మాత్రమే చూపించు"
+}

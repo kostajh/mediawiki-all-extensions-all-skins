@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mainframe98"
+		]
+	},
+	"action-configmanager-viewspecialpage": "de speciale pagina \"{{int:configmanager}}\" te bekijken",
+	"configmanager-desc": "Biedt de mogelijkheid om beheerders te configureren de hele wiki van een enkele SpecialPage",
+	"configmanager-discardchanges": "Wijzigingen negeren?",
+	"apihelp-configmanager-tasks-summary": "Taken beheren",
+	"right-configmanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:ConfigManager]]"
+}

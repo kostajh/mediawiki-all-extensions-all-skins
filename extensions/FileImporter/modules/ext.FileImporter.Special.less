@@ -1,0 +1,87 @@
+@import 'mediawiki.ui/variables';
+
+.mw-fileimporter-url-text,
+.mw-importfile-import-summary,
+.mw-importfile-import-newtitle,
+.mw-importfile-diff-view {
+	margin-bottom: 14px;
+}
+
+// Mostly copied from the .editOptions styles, see …/mediawiki.skinning/interface.css
+.mw-importfile-parsedContent,
+.mw-importfile-importOptions {
+	background-color: @colorGray14;
+	border: 1px solid @colorGray12;
+	border-radius: @borderRadius;
+	margin-top: 1em;
+	padding: 1em 1em 1.5em 1em;
+}
+
+.mw-importfile-parsedContent {
+	background-color: @colorGray15;
+}
+
+.mw-importfile-header {
+	border-bottom: 1px solid @colorGray10;
+	margin: 1em 0 0.25em 0;
+	overflow: auto;
+	padding-bottom: 0.2em;
+	position: relative;
+}
+
+.mw-body-content .mw-importfile-header-title {
+	border: 0;
+	bottom: 0;
+	display: inline-block;
+	margin: 0;
+	position: absolute;
+}
+
+.mw-importfile-rightAlign {
+	bottom: 0;
+	float: right;
+	position: relative;
+}
+
+.mw-importfile-help-banner {
+	margin-bottom: 40px;
+
+	span.oo-ui-labelElement-label {
+		display: flex;
+	}
+
+	.mw-importfile-help-banner-text {
+		p:first-child {
+			margin-top: 0;
+		}
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+
+		ol {
+			/* Default indention is 3.2em */
+			margin-left: 1.2em;
+		}
+	}
+
+	.mw-importfile-image-help-banner {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin: 0 32px;
+		min-width: 250px;
+	}
+
+	.oo-ui-icon-close {
+		cursor: pointer;
+	}
+
+	input[ type='checkbox' ] {
+		display: none;
+
+		&:checked + .oo-ui-messageWidget {
+			display: none;
+		}
+	}
+}

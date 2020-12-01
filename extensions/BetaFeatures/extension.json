@@ -1,0 +1,97 @@
+{
+	"name": "BetaFeatures",
+	"version": "0.1",
+	"author": [
+		"MarkTraceur (Mark Holmquist)"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:BetaFeatures",
+	"descriptionmsg": "betafeatures-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"config": {
+		"BetaFeaturesWhitelist": {
+			"value": null
+		},
+		"BetaFeatures": {
+			"value": []
+		}
+	},
+	"ExtensionMessagesFiles": {
+		"BetaFeaturesAlias": "BetaFeatures.alias.php"
+	},
+	"APIListModules": {
+		"betafeatures": "ApiQueryBetaFeatures"
+	},
+	"Hooks": {
+		"UserSaveOptions": "BetaFeaturesHooks::updateUserCounts",
+		"GetPreferences": "BetaFeaturesHooks::getPreferences",
+		"PersonalUrls": "BetaFeaturesHooks::getBetaFeaturesLink",
+		"LoadExtensionSchemaUpdates": "BetaFeaturesHooks::getSchemaUpdates",
+		"MakeGlobalVariablesScript": "BetaFeaturesHooks::onMakeGlobalVariablesScript",
+		"ExtensionTypes": "BetaFeaturesHooks::onExtensionTypes"
+	},
+	"MessagesDirs": {
+		"BetaFeatures": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ResourceModules": {
+		"ext.betaFeatures": {
+			"scripts": [
+				"betafeatures.js"
+			],
+			"styles": [
+				"betafeatures.less"
+			],
+			"messages": [
+				"betafeatures-feature-autoenrolled"
+			],
+			"dependencies": [
+				"jquery.client",
+				"oojs-ui-core"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		},
+		"ext.betaFeatures.styles": {
+			"styles": [
+				"betafeatures.nojs.less"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BetaFeatures/resources"
+	},
+	"JobClasses": {
+		"updateBetaFeaturesUserCounts": "UpdateBetaFeatureUserCountsJob"
+	},
+	"SpecialPages": {
+		"BetaFeatures": "SpecialBetaFeatures"
+	},
+	"AutoloadClasses": {
+		"BetaFeaturesHooks": "includes/BetaFeaturesHooks.php",
+		"BetaFeaturesMissingFieldException": "includes/BetaFeaturesMissingFieldException.php",
+		"NewHTMLCheckField": "includes/NewHTMLCheckField.php",
+		"HTMLFeatureField": "includes/HTMLFeatureField.php",
+		"HTMLHorizontalRuleField": "includes/HTMLHorizontalRuleField.php",
+		"BetaFeatures": "includes/BetaFeatures.php",
+		"UpdateBetaFeatureUserCountsJob": "includes/UpdateBetaFeatureUserCountsJob.php",
+		"ApiQueryBetaFeatures": "includes/ApiQueryBetaFeatures.php",
+		"SpecialBetaFeatures": "includes/SpecialBetaFeatures.php"
+	},
+	"TestAutoloadClasses": {
+		"BetaFeaturesTestCase": "tests/phpunit/BetaFeaturesTestCase.php"
+	},
+	"manifest_version": 2
+}

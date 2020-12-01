@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "Pravljenje računa je automatski onemogućeno na nekoliko sekundi kako bi se smanjili napadi na registraciju. \nMolimo sačekajte trenutak i kliknite 'Reload' u pregledniku kako bi poslali ponovno.",
+	"userthrottle-desc": "Ograničavanje pravljenja korisničkog računa"
+}

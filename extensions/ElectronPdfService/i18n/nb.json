@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danmichaelo",
+			"Jon Harald Søby"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Legger til mulighet for nettleserbasert PDF-generering gjennom PDF-tjenesten Electron",
+	"electronpdfservice-special-page-headline": "Last ned som PDF",
+	"electronpdfservice-download-label": "Laste ned som PDF",
+	"electronpdfservice-download-button": "Last ned",
+	"electronpdfservice-sidebar-portlet-heading": "Skriv ut/eksporter",
+	"electronpdfservice-sidebar-portlet-print-text": "Last ned som PDF",
+	"electronpdfservice-invalid-page-title": "Ugyldig side",
+	"electronpdfservice-invalid-page-text": "Den angitte siden er ikke gyldig"
+}

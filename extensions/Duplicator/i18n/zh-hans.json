@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gzdavidwong",
+			"Impersonator 1",
+			"Liuxinyu970226",
+			"Mywood",
+			"Shinjiman",
+			"TianyinLee",
+			"Vina",
+			"Xiaomingyan"
+		]
+	},
+	"duplicator": "复制一篇文章",
+	"duplicator-desc": "新建含所有编辑历史记录的独立[[Special:Duplicate|页面副本]]",
+	"duplicator-toolbox": "复制此页面",
+	"duplicator-header": "这一版可以完全复制一篇文章，建立一个完整的版本历史。这对于文章分叉等的动作是很有用的。",
+	"duplicator-options": "选项",
+	"duplicator-source": "来源：",
+	"duplicator-dest": "目标:",
+	"duplicator-dotalk": "复制讨论页 （如可用的话）",
+	"duplicator-dosubpages": "重复的子页面 （如果存在）",
+	"duplicator-dohistory": "复制完整页面历史",
+	"duplicator-submit": "复制",
+	"duplicator-summary": "复制自[[$1]]的版本[[$2]]",
+	"duplicator-success": "[[$1]]已经复制到[[$2]]。",
+	"duplicator-success-revisions": "$1个版本已经复制。",
+	"duplicator-success-talknotcopied": "讨论页不能够复制。",
+	"duplicator-failed": "这一页唔能够复制落来。发生了未知的错误。",
+	"duplicator-failed-toolong": "[[$1]]不是重复的，此目的地名称过长。",
+	"duplicator-failed-dest-exists": "[[$1]]不是重复的，目的地[[$2]]已存在。",
+	"duplicator-source-invalid": "请提供一个正确的来源标题。",
+	"duplicator-source-notexist": "[[$1]]并不存在。请提供一个已经存在的页面标题。",
+	"duplicator-dest-invalid": "请提供一个正确的目标标题。",
+	"duplicator-dest-exists": "[[$1]]已经存在。请提供一个未存在的目标标题。",
+	"right-duplicate": "复制文章"
+}

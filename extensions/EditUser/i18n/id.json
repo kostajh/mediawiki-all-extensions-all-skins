@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Daud I.F. Argana",
+			"Farras",
+			"Irwangatot",
+			"Presidenvolksraad",
+			"Rex"
+		]
+	},
+	"edituser": "Sunting pengguna",
+	"edituser-desc": "Mengijinkan pengguna yang berhak untuk menyunting preferensi pengguna lain",
+	"edituser-username": "Nama pengguna:",
+	"edituser-dosearch": "Cari",
+	"edituser-nouser": "Pengguna \"$1\" tidak dapat ditemukan.",
+	"edituser-exempt": "Pengguna \"$1\" tidak dapat disunting",
+	"right-edituser": "Sunting preferensi pengguna lain",
+	"right-edituser-exempt": "Orang lain tidak dapat menyunting preferensi pengguna ini",
+	"action-edituser": "menyunting preferensi pengguna lain",
+	"action-edituser-exempt": "sunting preferensi pengguna ini"
+}

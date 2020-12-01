@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Verdy p"
+		]
+	},
+	"bs-socialwikipage-desc": "Entité WikiPage et fonctionnalité pour ''BlueSpiceSocial''",
+	"bs-socialwikipage-type": "WikiPage",
+	"bs-socialwikipage-entitywikipage-header-create": "Créer une nouvelle zone de rattachement",
+	"bs-socialwikipage-nowikipageentity": "Aucune zone d’attachement n’a encore été créée",
+	"bs-socialwikipage-noattachmentsadded": "Aucune zone d’attachement n’a encore été ajoutée",
+	"bs-socialwikipage-stashtype": "Attachements",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]] attaché",
+	"bs-socialwikipage-entitystash-header-create": "Nouvel attachement",
+	"bs-socialwikipage-special-stash-heading": "Attachements",
+	"bs-socialwikipage-aftercontent-heading": "Attachements",
+	"wikipagestash": "Attachements",
+	"bs-socialwikipage-var-wikipageid": "Page assignée",
+	"bs-socialwikipage-switch-nostash-description": "Masque la zone d’attachement de cette page.",
+	"bs-socialwikipage-stash-insertfiledialog-title": "Ajouter un fichier",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "Ajouter",
+	"bs-socialwikipage-stash-editor-attachedfiles": "Fichiers attachés",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "Supprimer",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "Ajouter",
+	"apihelp-bs-socialstash-tasks-summary": "Fournit des tâches pour modifier les pages liées des entités"
+}

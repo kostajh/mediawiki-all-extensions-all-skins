@@ -1,0 +1,136 @@
+== About ==
+
+LinkedWiki is a Mediawiki extension.
+* In your wiki, you can test your SPARQL queries via the special pages and create the wiki text.
+* In a wiki page, you can insert the result of a query sparql.
+* In a module/infobox (via Lua), you can reuse your RDF data.
+* You can export a page (and its subpages, modules,images and template) of your Wiki in another Wiki in one click.
+* You can write directly in RDF/Turtle in the page or in the Data tab of pages.
+* You can write rules in SHACL and see the last report in a special page.
+* You can check your data (via Lua) with another knowledge base.
+* You can call several SPARQL services of different editors in the wiki.
+* You can restore all RDF data (in lua and in all pages) of wiki via a special page.
+
+See the doc: https://www.mediawiki.org/wiki/Extension:LinkedWiki
+
+== License ==
+
+ Copyright (c) 2020 Bourdercloud.com
+
+	This work is licensed under the Creative Commons
+	Attribution-ShareAlike 4.0
+	Unported License. To view a copy of this license,
+	visit https://creativecommons.org/licenses/by-sa/4.0/
+	or send a letter to Creative Commons,
+	171 Second Street, Suite 300, San Francisco,
+	California, 94105, USA.
+
+== Contact ==
+
+If you have remarks, questions, or suggestions, please send them to
+karima.rafes@bordercloud.com.
+
+== Installation ==
+
+Put this line in your Localsettings.php for the parser "sparql" and the special pages:
+
+   wfLoadExtension( 'LinkedWiki' );
+
+Optional extensions :
+* "Scribunto" in order to use the Lua class of Linkedwiki (SyntaxHighlight_GeSHi + WikiEditor)
+* "Capiunto" in order to build infobox
+* "SyntaxHighlight_GeSHi" in order to use the color syntax with RDF/turtle and SPARQL
+* "PushAll" can push a page with all subpages, images and modules to another wiki in one click
+* "NamespaceData" adds a tab Data for main pages and user pages
+
+== Tutorial and download ==
+
+See: https://www.mediawiki.org/wiki/Extension:LinkedWiki
+
+== Release-Notes ==
+
+* v3.5.0 Add features and a fix by Karima Rafes <karima.rafes@bordercloud.com>
+ 		- Add options default and class for SPARQL table (pull request #1 on github of trueg)
+ 		- Replace obsolete <source> tag by <syntaxhighlight> tag of SyntaxHighlight_GeSHi
+
+* v3.4.2 update for Mediawiki 1.35.0 by Karima Rafes <karima.rafes@bordercloud.com>
+ 		- Replace the function mw.getCurrentFrame()
+
+* v3.4.0 update for Mediawiki 1.34.1 by Karima Rafes <karima.rafes@bordercloud.com>
+		- fix obsolete SQL queries
+		- update Sgvizler2
+		- move the forks of extensions Push and NamespaceRelationals in two new extensions (PushAll and NamespaceData)
+
+* v3.3.8 fix a bug by Ostrzycel <ostrzyciel.nozyczek@gmail.com>
+		- remove the use of OutputPage::addWikitext() removed in 1.34
+
+* v3.3.7 fix bugs by Karima Rafes <karima.rafes@bordercloud.com>
+         - fix problems about update data in mode preview and revision
+
+* v3.3.6 fix bugs by Karima Rafes <karima.rafes@bordercloud.com>
+         - fix rebuildall pages with lua modules in the version 1.33.1
+         - fix css
+
+* v3.3.5 update for Mediawiki 1.33.1 by Karima Rafes <karima.rafes@bordercloud.com>
+		 Objectives: stabilize and simplify the installation
+         		 - BREAKING CHANGE: Update extension.json at the version 2
+         		   (see the new install/configuration)
+         		 - The default configuration is now in the file extension.json and the local
+         		   configurations returns in the file localsettings.php of your wiki.
+         		 - The file "key.js" is removed and replaced by two variables to put in
+         		   the localsettings: $wgLinkedWikiGoogleApiKey and $wgLinkedWikiOSMAccessToken.
+         		 - New stable optional feature: insert tab "Data" on main pages and user pages,
+         		   to be able  to write the RDF schemas and to describe this RDF at the main page
+         		   in natural language.
+         		   The NamespaceRelations extension is packaged in LinkedWiki extension to simplify
+         		   the maintenance and the installation.
+         		 - New stable optional feature: insert tab "push" on all pages, to push a page with
+         		   its subpages, data, templates, modules and files of a private wiki
+         		   to a public wiki  in one click.
+         		   The Push extension is packaged in LinkedWiki extension to simplify the
+         		   maintenance and the installation.
+         		 - New stable optional feature: the RDFUnit special page can generate
+         		   a SHACL report. RDFUnit has to be installed on the server.
+         		 - New stable optional feature: we can write with RDF/turtle directly in a page and
+         		   the wiki checks  the syntax before saving the page (with RAPPER of RedlandLib)
+         		   RAPPER has to be installed on the server.
+         		 - Mediawiki-codesniffer is now applied
+         		 T227845 T143360 T215781 T185523 T183579 T182503 T200194 T143362
+
+* v3.2.1 refresh tests with the last Selenium IDE by Karima Rafes <karima.rafes@bordercloud.com>
+         - fix bugs in the SPARQL editor special page and the Lua functions
+
+* v3.2.0 Update special page by Karima Rafes <karima.rafes@bordercloud.com>
+         - refresh data is possible now
+
+* v3.1.1 Update Sgvizler2 and bootstrap by Karima Rafes <karima.rafes@bordercloud.com>
+         - Fix bugs in special page and parser
+         - Fix errors messages
+
+* v3.1.0 Use Sgvizler2, javascript wrapper for easy visualisation of SPARQL result sets. ( T143364 )
+        - Update lib bordercloud/sparql
+        - Update composer.json
+        - Fix T165670 "footer = no" is respected when "templates
+        - Fix T143360 Improve the SPARQL editor of the special page
+
+* v3.0.0 Insert new special page for Wikidata by Karima Rafes <karima.rafes@bordercloud.com>
+        - Refactoring/cleaning the code
+        - Upgrade loading / registration of LinkedWiki extension
+        - Insert tests for selenium IDE (and delete the old tests)
+        - Add an experimental lua Class
+
+* v2.1.1 Last version 2 before the version v3 by Karima Rafes <karima.rafes@bordercloud.com>
+        - Fix bug with Wikidata
+        - Update the lib SPARQL 1.2.1
+        - Fix bug with OPTIONAL
+
+* V2.1.0 Beta 1 version Extension LinkedWiki by Karima Rafes <karima.rafes@bordercloud.com>
+	- Ready for Wikidata version beta
+	- Fix the bug about JQuery ($.browser)
+	- Fix bug with template
+
+* V2.0.0 Alpha 1 version Extension LinkedWiki by Karima Rafes <karima.rafes@bordercloud.com>
+	- simplify client SPARQL for MediaWiki (with or without SMW)
+	- Remove ARC2 and replace with the lib SPARQL (simple)
+	- Add parameter templateBare if YES : print only cells
+	- Add parameter footer if NO : hide footer

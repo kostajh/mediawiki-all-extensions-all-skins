@@ -1,0 +1,36 @@
+{
+	"aggregate": [
+		{
+			"property": "pagetitle",
+			"type": "string",
+			"targets": [
+				"numberhits",
+				"numberhitsaggregated"
+			]
+		}
+	],
+	"filter": [
+		{
+			"property": "type",
+			"type": "string",
+			"value": "hitcounter",
+			"comparison": "eq"
+		},
+		{
+			"property": "timestampcreated",
+			"type": "date",
+			"value": "20190904020000",
+			"comparison": "gt"
+		}
+	],
+	"sort": [
+		{
+			"property": "numberhits",
+			"direction": "ASC"
+		},
+		{
+			"property": "timestampcreated",
+			"direction": "ASC"
+		}
+	]
+}

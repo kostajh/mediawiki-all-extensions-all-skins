@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dj"
+		]
+	},
+	"reassignedits": "Szerkesztések átadása",
+	"reassignedits-desc": "A régi szerkesztőtől átvihetőek a szerkesztések az új szerkesztőhöz",
+	"reassignedits-error-invalid": "A \"$1\" szerkesztőnév érvénytelen.",
+	"reassignedits-new": "Új szerkesztőnév",
+	"reassignedits-old": "Régi szerkesztőnév",
+	"reassignedits-submit": "Elküld",
+	"reassignedits-success": "\"$1\" szerkesztése áttéve \"$2\" szerkesztéséhez.",
+	"reassignedits-summary": "Régi szerkesztő szerkesztéseinek átvitel új szerkesztőhöz.",
+	"reassignedits-updatelog-title": "Felhasználó név frissítése a napló címekben",
+	"reassignedits-updatelog-user": "Végrehajtó szerkesztő frissítése a naplókban",
+	"right-reassignedits": "Régi szerkesztő szerkesztéseinek átvitele az újhoz."
+}

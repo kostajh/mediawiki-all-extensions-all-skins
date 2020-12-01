@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArenaL5",
+			"Elisardojm"
+		]
+	},
+	"bs-notifications-email-addaccount-subject": "{{GENDER:$1|Usuario \"$2\" creado|Usuaria \"$2\" creada|Conta de usuario \"$2\" creada}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|O usuario|A usuaria|A conta}} $2 foi cread{{GENDER:$1|o|a|a}}.\n\nPode visitar a súa páxina de usuari{{GENDER:$1|o|a|o}} a través da ligazón abaixo",
+	"bs-notifications-edit": "A páxina \"$1\" foi modificada",
+	"bs-notifications-email-edit-subject": "Páxina \"$1\" {{GENDER:$2|editada}} o $4 por $3",
+	"bs-notifications-email-edit-body": "A páxina \"$1\" {{GENDER:$2|foi editada}} o $5 por $4.\n\nComentario:\n $3",
+	"bs-notifications-create": "A páxina \"$1\" foi creada",
+	"bs-notifications-email-create-subject": "Páxina \"$1\" {{GENDER:$2|creada}} o $4 por $3",
+	"bs-notifications-email-create-body": "A páxina \"$1\" {{GENDER:$2|foi creada}} o $5 por $3.\n\nComentario:\n $4\nPode visitar a páxina seguindo a ligazón abaixo",
+	"bs-notifications-delete": "A páxina \"$1\" foi borrada",
+	"bs-notifications-email-delete-subject": "Páxina $1 {{GENDER:$2|borrada}} o $4 por $3",
+	"bs-notifications-email-delete-body": "A páxina \"$1\" foi {{GENDER:$2|eliminada}} o $5 por $3.\n\nO motivo dado foi:\n$4",
+	"bs-notifications-move": "A páxina \"$1\" foi movida",
+	"bs-notifications-email-move-subject": "Páxina $1 {{GENDER:$2|trasladada}} o $5 a \"$3\" por $4",
+	"bs-notifications-email-move-body": "A páxina \"$1\" {{GENDER:$2|foi trasladada}} a \"$3\" o $6 por $4.\n\nO motivo dado foi:\n$5\n\nPode visitar a páxina seguindo a ligazón abaixo"
+}

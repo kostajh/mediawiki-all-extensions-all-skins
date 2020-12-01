@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"bs-notifications-addaccount": "Korisnički nalog „$1” je otvoren.",
+	"bs-notifications-email-addaccount-subject": "Korisnički nalog „$2” je {{GENDER:$1|otvoren}}.",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|Korisnik $2 je kreiran|Korisnica $2 je kreirana}}.\n\nMožete posetiti {{GENDER:$1|njegovu|njenu}} korisničku stranicu praćenjem linka ispod:",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|Korisnik $2 je kreiran|Korisnica $2 je kreiran}}.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Stvaralac}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Stvaralac}}: $1",
+	"bs-notifications-registeruser": "Korisnik \"$1\" je napravio/napravila nalog.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|Korisnik|Korisnica}} \"$2\" je {{GENDER:$1|napravio|napravila}} nalog",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|Korisnik|Korisnica}} $2 je {{GENDER:$1|napravio|napravila}} nalog\n\nMožete posetiti {{GENDER:$1|njegovu|njenu}} korisničku stranicu prateći link ispod:",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|Korisnik|Korisnica}} $2 je {{GENDER:$1|napravio|napravila}} nalog.",
+	"bs-notifications-edit": "Stranica \"$1\" je izmenjena.",
+	"bs-notifications-edit-bundle": "Stranica \"$2\" je izmenjena {{PLURAL:$1|$1 put|$1 puta}}",
+	"bs-notifications-email-edit-subject": "Stranica \"$1\" {{GENDER:$2|je izmenjena}} od strane $3",
+	"bs-notifications-email-edit-body": "Stranica \"$1\" je bila {{GENDER:$2|izmenjena}} od strane $4.\n\nKomentar:\n $3",
+	"bs-notifications-web-edit-body": "Stranica \"$1\" je bila {{GENDER:$2|izmenjena}} od strane $3.",
+	"bs-notifications-create": "Stranica „$1” je napravljena",
+	"bs-notifications-email-create-subject": "Stranica \"$1\" {{GENDER:$2|je napravljena}} od strane $3",
+	"bs-notifications-email-create-body": "Stranica \"$1\" je {{GENDER:$2|napravljena}} od strane $3.\n\nKomentar:\n $4 \nMožete posetiti stranicu prateći link ispod:",
+	"bs-notifications-web-create-body": "Stranica \"$1\" je {{GENDER:$2|napravljena}} od strane $3.",
+	"bs-notifications-delete": "Stranica \"$1\" je obrisana",
+	"bs-notifications-email-delete-subject": "Stranica \"$1\" {{GENDER:$2|je obrisana}} od strane $3",
+	"bs-notifications-email-delete-body": "Stranica \"$1\" je {{GENDER:$2|obrisana}} od strane $3.\n\nOvo je bio razlog za brisanje:\n$4",
+	"bs-notifications-web-delete-body": "Stranica \"$1\" je {{GENDER:$2|obrisana}} od strane $3.",
+	"bs-notifications-move": "Stranica \"$1\" je premeštena",
+	"bs-notifications-email-move-subject": "Stranica \"$1\" {{GENDER:$2|je premeštena}} na \"$3\" od strane $4",
+	"bs-notifications-email-move-body": "Stranica \"$1\" je {{GENDER:$2|premeštena}} na \"$3\" od strane $4.\n\nRazlog je bio:\n$5\n\nMožete posetiti stranicu prateći link ispod:",
+	"bs-notifications-web-move-body": "Stranica \"$1\" je {{GENDER:$2|premeštena}} na \"$3\" od strane $4",
+	"bs-notifications-edit-difflink-label": "Prikaži razliku",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Zdravo}} $1",
+	"bs-notifications-htmlmail-sender-info": "obaveštajni sistem $1",
+	"bs-notifications-mail-additional-links-label": "Dodatne veze"
+}

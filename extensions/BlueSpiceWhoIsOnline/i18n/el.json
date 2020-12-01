@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"bs-whoisonline-desc": "Εμφανίζει μια λίστα χρηστών που είναι προς το παρόν συνδεδεμένοι",
+	"bs-whoisonline-nousers": "Κανένας δεν είναι συνδεδεμένος.",
+	"bs-whoisonline-pref-limitcount": "Μέγιστος αριθμός εμφανιζόμενων χρηστών:",
+	"bs-whoisonline-pref-orderby": "Ταξινόμηση κατά:",
+	"bs-whoisonline-pref-maxidletime": "Χρόνος σε δευτερόλεπτα μέχρι ένας χρήστης να επισημανθεί ως αποσυνδεδεμένος:",
+	"bs-whoisonline-pref-orderby-name": "Όνομα",
+	"bs-whoisonline-pref-interval": "Διάστημα ενημέρωσης σε δευτερόλεπτα:",
+	"bs-whoisonline-tag-whoisonlinecount-desc": "Εμφανίζει τον αριθμό όλων των χρηστών που έχουν συνδεθεί εντός των τελευταίων 10 λεπτών.",
+	"bs-whoisonline-tag-whoisonlinepopup-desc": "Εμφανίζει όλους τους χρήστες που έχουν συνδεθεί εντός των τελευταίων 10 λεπτών."
+}

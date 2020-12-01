@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avjoska",
+			"Pikne",
+			"RM87"
+		]
+	},
+	"gettingstarted": "Esimesed sammud",
+	"gettingstarted-desc": "Aitab uuel kasutajal toimetajaks saada.",
+	"gettingstarted-task-toolbar-editing-help-text": "Näita, kuidas",
+	"gettingstarted-task-toolbar-editing-help-title": "Näita juhiseid redigeerimise kohta",
+	"gettingstarted-task-toolbar-try-another-text": "Proovi teist lehekülge ►",
+	"gettingstarted-task-toolbar-close-title": "Sule see tööriistariba",
+	"gettingstarted-task-copyedit-toolbar-description": "Sellel leheküljel võib olla kirja- ja grammatikavigu, mida saad parandada.",
+	"gettingstarted-task-copyedit-toolbar-try-another-title": "Mine juhuslikule leheküljele, mida saad paremaks toimetada.",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-title": "Ideed selle kohta, mida teha",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-description": "Neis märkustes on nimetatud selle lehekülje puudused. Sa ei pea tegelema nende kõigiga. Võta ette mõni puudus, mille lahendamises tunned ennast kindlalt.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-title": "Redigeeri kogu lehekülge...",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-description": "Klõpsa \"$1\", et muuta sisu kõikjal leheküljel.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-title": "Või redigeeri alaosa",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-description": "Kui tahad redigeerida kindlat alaosa, saad klõpsata iga alaosa pealkirja lähedal lingil \"{{int:editsection}}\".",
+	"guidedtour-tour-gettingstarted-click-preview-title": "Eelvaade (valikuline)",
+	"guidedtour-tour-gettingstarted-click-save-title": "Sa oled peaaegu lõpetanud!",
+	"guidedtour-tour-gettingstarted-click-save-description": "Vajuta '{{int:publishchanges}}' ja sinu muudatused on nähtavad.",
+	"gettingstarted-cta-close": "Sule"
+}

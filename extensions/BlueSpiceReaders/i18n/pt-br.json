@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
+		]
+	},
+	"bs-readers-desc": "Cria uma lista das pessoas que lêem uma página",
+	"prefs-readers": "Leitores",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|Leitor}}|Leitores}}",
+	"readers-user": "Páginas {{GENDER:$1|lidas}} por: $1",
+	"readers": "Leitores de \"$1\"",
+	"bs-readers-contentactions-label": "Mostrar leitores",
+	"bs-readers-pagenotexists": "Página não existe.",
+	"bs-readers-pref-active": "Leitores ativos",
+	"bs-readers-pref-numofreaders": "Número de leitor para mostrar:",
+	"bs-readers-emptyinput": "Nenhuma página foi fornecida.",
+	"bs-readers-header-username": "Nome de usuário",
+	"bs-readers-header-readerspath": "Leitor",
+	"bs-readers-header-ts": "Data",
+	"bs-readers-header-page": "Página",
+	"apihelp-bs-readers-data-store-description": "Obtenha informações de leitura sobre a página específica.",
+	"apihelp-bs-readers-data-store-summary": "Obtenha informações de leitura sobre a página específica.",
+	"apihelp-bs-readers-users-store-description": "Obtenha toda a informação de leitura sobre a página específica.",
+	"apihelp-bs-readers-users-store-summary": "Obtenha toda a informação de leitura sobre a página específica.",
+	"apihelp-bs-readers-page-readers-store-summary": "Obter todos os leitores de todas as páginas",
+	"apihelp-bs-readers-revision-readers-store-summary": "Obtém todos os leitores de todas as revisões de uma página",
+	"apihelp-bs-readers-tasks-summary": "Fornece operações comuns para leitores",
+	"action-viewreaders": "ver os leitores de páginas",
+	"action-viewrevisionreaders": "ver os leitores de revisões individuais de uma página",
+	"bs-readers-flyout-title": "Leitores desta página",
+	"right-viewreaders": "Visualizar leitores de uma página",
+	"right-viewrevisionreaders": "Ver os leitores das revisões individuais de uma página",
+	"bs-readers-privacy-transparency-working-readers": "BlueSpiceReaders - {{GENDER:$3|Leu}} a página $1 a $2",
+	"bs-readers-flyout-header-read-by": "Lido por",
+	"bs-readers-flyout-header-revision-id": "ID da revisão",
+	"bs-readers-flyout-header-revision-date": "Data da revisão",
+	"bs-readers-flyout-header-read-on": "Ler em",
+	"bs-readers-revision-flyout-title": "Leitores por revisão",
+	"revisionreaders": "Leitores por revisão de \"$1\""
+}

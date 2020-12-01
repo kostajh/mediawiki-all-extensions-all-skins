@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish",
+			"Vito Genovese"
+		]
+	},
+	"nsfilerepo-desc": "Yüklenen dosyalara ad alanı tabanlı özellikler sağlayın",
+	"nsfilerepo-upload-target": "Ad alanında hedef dosya adı",
+	"nsfilerepo-nsmain": "(Ana)",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext": "Bir dosya yeniden yüklenirken bu alan değiştirilemez",
+	"nsfilerepo-move-file-namespace-action-label": "Dosya ad alanını ayarla",
+	"nsfilerepo-move-file-namespace-dialog-title": "Dosya ad alanını ayarla",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "Yapıldı",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "İptal",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "Ad alanı"
+}

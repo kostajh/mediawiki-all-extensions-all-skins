@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gergő Tisza"
+		]
+	},
+	"gpgmail-desc": "{{desc|name=GPGMail|url=https://www.mediawiki.org/wiki/Extension:GPGMail}}",
+	"gpgmail-pref-enable": "Label for the checkbox in preferences which enables encryption.",
+	"gpgmail-pref-key": "Label for the textarea in preferences where the public key must be pasted.",
+	"gpgmail-pref-key-help": "Extra information in addition to {{msg-mw|gpgmail-pref-key}} on GPG keys.",
+	"gpgmail-encrypt-error": "Error message used when the encryption failed. For privacy reasons only shown when sending a message to yourself (via CC)."
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"reassignedits": "Overfør brukerredigeringer",
+	"reassignedits-desc": "Gjør det mulig å overføre redigeringer fra en gammel brukerkonto til en ny",
+	"reassignedits-error-invalid": "Brukernavnet «$1» er ugyldig.",
+	"reassignedits-new": "Nytt brukernavn",
+	"reassignedits-old": "Gammelt brukernavn",
+	"reassignedits-submit": "Send",
+	"reassignedits-success": "Redigeringene av «$1» ble overført til «$2».",
+	"reassignedits-summary": "Overfør redigeringer fra et gammelt brukernavn til et nytt.",
+	"reassignedits-updatelog-title": "Oppdater brukernavn i loggtitler",
+	"reassignedits-updatelog-user": "Oppdater utførende bruker i logger",
+	"action-reassignedits": "overføre redigeringer fra en gammel brukerkonto til en ny",
+	"right-reassignedits": "Overføre redigeringer fra en gammel brukerkonto til en ny"
+}

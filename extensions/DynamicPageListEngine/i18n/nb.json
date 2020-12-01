@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"dynamicpagelistengine-desc": "Gir dynamiske sidelister med konfigurerbare og utvidbare funksjoner til [[mw:Special:MyLanguage/Extension:Scribunto|moduler]] og andre utvidelser",
+	"dple-tracking-category": "Sider som brukes DynamicPageListEngine",
+	"dple-error-invalid-ns-index": "DynamigPageListEngine-feil: Intet navnerom med indeksen $1.",
+	"dple-error-no-criteria": "DynamicPageListEngine-feil: Ingen utvalgskriterier angitt.",
+	"dple-error-too-expensive": "DynamicPageListEngine-feil: Forsøk på å utføre en spørring så dyr som $1 sammenslåtte databasetabeller, mens maksimalt $2 er tillatt.",
+	"dple-error-too-many-expensive-functions": "DynamicPageListEngine-feil: For mange dyre funksjoner brukt på denne siden."
+}

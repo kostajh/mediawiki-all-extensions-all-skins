@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"formelapplet-desc": "Acrescenta <i>applets</i> [http://wiki.formelapplet.de FormelApplet] às páginas.",
+	"formelapplet-nojava": "Instale $1 para usar esta página, por favor.",
+	"formelapplet-missing-parameter": "Falta um parâmetro (\"width\", \"height\" ou \"ggbBase64\").",
+	"formelapplet-file-not-found": "Ficheiro $1 não encontrado.",
+	"formelapplet-error": "Erro na extensão FormelApplet do Media Wiki: <em>$1</em>"
+}

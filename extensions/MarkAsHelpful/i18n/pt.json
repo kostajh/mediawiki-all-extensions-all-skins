@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"markashelpful-desc": "Fornece uma interface de utilizador para marcar comentários como úteis",
+	"mah-mark-text": "Marcar como útil",
+	"mah-you-marked-text": "Você acha isto útil",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 acha isto útil}}",
+	"mah-undo-mark-text": "desfazer",
+	"mah-action-error": "Ocorreu um erro ao executar esta ação",
+	"apihelp-getmarkashelpfulitem-description": "Obter uma lista de todos os estados úteis para um objeto.",
+	"apihelp-getmarkashelpfulitem-summary": "Obter uma lista de todos os estados úteis para um objeto.",
+	"apihelp-getmarkashelpfulitem-param-type": "Tipo de objeto que está a ser marcado como útil.",
+	"apihelp-getmarkashelpfulitem-param-item": "O objeto que está a ser marcado como útil.",
+	"apihelp-getmarkashelpfulitem-param-prop": "A propriedade a ser obtida.",
+	"apihelp-getmarkashelpfulitem-param-page": "A página que está a pedir o elemento.",
+	"apihelp-markashelpful-description": "Permite que os utilizadores marquem ou desmarquem um objeto do sítio como sendo útil.",
+	"apihelp-markashelpful-summary": "Permite que os utilizadores marquem ou desmarquem um objeto do sítio como sendo útil.",
+	"apihelp-markashelpful-param-mahaction": "Se marcar ou desmarcar um elemento como útil.",
+	"apihelp-markashelpful-param-page": "A página onde está o elemento a ser marcado.",
+	"apihelp-markashelpful-param-type": "O tipo de objeto que está a ser marcado como útil.",
+	"apihelp-markashelpful-param-item": "O objeto que está a ser marcado como útil.",
+	"apihelp-markashelpful-param-useragent": "O cabeçalho User-Agent do browser.",
+	"apihelp-markashelpful-param-system": "O sistema operativo que está a ser utilizado.",
+	"apihelp-markashelpful-param-locale": "A configuração regional ''(locale)'' que está a ser utilizada."
+}

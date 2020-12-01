@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Mantak111",
+			"Manvydasz"
+		]
+	},
+	"accountinfo": "Paskyros informacija",
+	"accountinfo-desc": "Leidžia vartotojui matyti saugomą privačią informaciją apie save",
+	"accountinfo-ts": "Laiko žyma",
+	"accountinfo-ip": "IP Adresas",
+	"accountinfo-ua": "Vartotojo veiksnys",
+	"accountinfo-xff": "XFF antraštė",
+	"accountinfo-length": "Informacija saugoma $1.",
+	"accountinfo-now": "Dabar"
+}

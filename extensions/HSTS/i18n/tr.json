@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Violetanka"
+		]
+	},
+	"hsts-desc": "Kullanıcı bazında HSTS (HTTP Sıkı Aktarım Güvenliği)",
+	"hsts-tog": "HTTP Sıkı Aktarım Güvenliğini (HSTS) Etkinleştir",
+	"hsts-https-tog": "HTTP Sıkı Aktarım Güvenliği'ni (HSTS) etkinleştir<br />Bu tercihi değiştirmek için bu sayfayı HTTPS ile yeniden yükle.",
+	"hsts-beta-feature-message": "Her zaman güvenli bağlantı kullan",
+	"hsts-beta-feature-description": "Bu, oturumunuzu kapattıktan sonra bile güvende tutmanızı sağlayarak bu web sitesindeki güvenliğinizi pekiştirir ve göz attığınız sırada kimsenin sizi gözetleyemeyeceğini garanti eder. Bu seçenek etkinleştirildiğinde ve bu teknolojiyi (HSTS) destekleyen yeni bir tarayıcıyla, herhangi bir güvenlik uyarısı muhtemelen size karşı gerçek bir saldırıdır."
+}

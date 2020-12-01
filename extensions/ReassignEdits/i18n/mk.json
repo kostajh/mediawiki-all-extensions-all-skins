@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"reassignedits": "Префрлање на кориснички уредувања",
+	"reassignedits-desc": "Овозможува префрлање на уредувања од стар на нов корисник",
+	"reassignedits-error-invalid": "Корисничкото име „$1“ не е важечко.",
+	"reassignedits-new": "Ново корисничко име",
+	"reassignedits-old": "Старо корисничко име",
+	"reassignedits-submit": "Поднеси",
+	"reassignedits-success": "Уредувањата на „$1“ сега му се припишани на корисникот „$2“.",
+	"reassignedits-summary": "Префрлање на уредувања од стар на нов корисник",
+	"reassignedits-updatelog-title": "Понови го корисничкото име во дневничките наслови",
+	"reassignedits-updatelog-user": "Поднови го извршниот корисник во дневниците",
+	"action-reassignedits": "префрлање на уредувања од стар на нов корисник",
+	"right-reassignedits": "Префрлање на уредувања од стар на нов корисник"
+}

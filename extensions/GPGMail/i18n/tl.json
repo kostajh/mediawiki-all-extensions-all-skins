@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Leeheonjin"
+		]
+	},
+	"gpgmail-desc": "I-sipra (encrypt) ang mga e-liham kasama ang GPG",
+	"gpgmail-pref-enable": "I-sipra (encrypt) ang mga e-liham kasama ang GPG",
+	"gpgmail-pref-key-help": "Para sa tulong sa pagkuha ng isang pampublikong susi, tingnan ang [https://help.ubuntu.com/community/GnuPrivacyGuardHowto pahinang ito].",
+	"gpgmail-encrypt-error": "Mayroong naging mali habang isini-sipra (encrypt) ang e-liham."
+}

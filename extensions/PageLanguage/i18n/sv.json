@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"pagelanguage-desc": "Ange inställningar för språk på varje sida",
+	"pagelanguage-invalid": "'''Varning:''' Ignorerar den ogiltiga språkkoden \"$1\" som sidans språk.",
+	"pagelanguage-duplicate": "'''Varning:''' Sidspråket \"$2\" åsidosätter det tidigare sidspråket \"$1\"."
+}

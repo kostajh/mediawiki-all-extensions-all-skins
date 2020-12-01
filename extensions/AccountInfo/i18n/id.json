@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arifin.wijaya",
+			"Kenrick95"
+		]
+	},
+	"accountinfo": "Informasi akun",
+	"accountinfo-desc": "Izinkan pengguna melihat informasi diri yang tersimpan.",
+	"accountinfo-ts": "Stempel waktu",
+	"accountinfo-ip": "Alamat IP",
+	"accountinfo-ua": "Aplikasi pengguna",
+	"accountinfo-xff": "Judul XFF",
+	"accountinfo-length": "Informasi dipertahankan selama $1.",
+	"accountinfo-now": "Sekarang"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crucifunked",
+			"Xuacu"
+		]
+	},
+	"configmanager-admintool-label": "Xestor de configuración",
+	"action-configmanager-viewspecialpage": "ver la páxina especial «{{int:configmanager}}»",
+	"configmanager": "Xestor de configuración",
+	"configmanager-desc": "Da a los alministradores la posibilidá de configurar tola wiki dende una sola páxina especial",
+	"configmanager-discardchanges": "¿Descartar los cambeos?",
+	"configmanager-noentry": "Nun s'atopó nenguna entrada",
+	"apihelp-configmanager-tasks-summary": "Alministrar xeres",
+	"apihelp-configmanager-store-summary": "Alministrar almacenes",
+	"right-configmanager-viewspecialpage": "Accesu a la páxina especial [[Special:ConfigManager]]"
+}

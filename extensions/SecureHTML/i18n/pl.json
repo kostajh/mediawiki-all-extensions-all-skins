@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alan ffm",
+			"Chrumps"
+		]
+	},
+	"securehtml": "Bezpieczny HTML",
+	"securehtml-renderedhhtml-title": "Wyrenderowany HTML",
+	"securehtml-form-keyname": "Nazwa klucza (opcjonalnie)",
+	"securehtml-form-keysecret": "Tajny klucz",
+	"securehtml-form-html": "Surowy HTML",
+	"securehtml-form-submit": "Wyślij"
+}

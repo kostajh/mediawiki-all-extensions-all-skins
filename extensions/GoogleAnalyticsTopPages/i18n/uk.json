@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"googleanalyticstoppages-desc": "Надає список найпопулярніших сторінок згідно з даними Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Значення [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Оновлює список найвідвідуваніших сторінок (на основі даних, що надаються Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Оновлює список найвідвідуваніших сторінок (на основі даних, що надаються Google Analytics)."
+}

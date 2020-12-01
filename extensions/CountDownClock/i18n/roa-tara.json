@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"countDownClock-desc": "Aggiunge 'na funzione ca analizze da fà 'ndrucà 'nu conde 'a smerse",
+	"countDownClock-invalidtime": "Pe piacere mitte 'nu parametre de fine orarie valide",
+	"countDownClock-days": "$1 {{PLURAL:$1|Sciurne}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|Ore}}",
+	"countDownClock-minutes": "{{PLURAL:$1|Minute}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|Seconde}}",
+	"countDownClock-expired": "Scadute"
+}

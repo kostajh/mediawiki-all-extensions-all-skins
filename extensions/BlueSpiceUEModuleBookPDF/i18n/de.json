@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mglaser",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-uemodulebookpdf-extension-description": "Ermöglicht das Exportieren von hierarchisch gegliederten Artikelsammlungen in das Adobe&reg; Portable Document Format (PDF).",
+	"bs-uemodulebookpdf-pref-bookexporttoc": "Inhaltsverzeichnis",
+	"bs-uemodulebookpdf-bookexporttoc-only-articles": "Nur Artikelüberschriften (entsprechend Nummerierung eingerückt)",
+	"bs-uemodulebookpdf-bookexporttoc-article-tocs": "Inhaltsverzeichnisse der Artikel einbetten (Keine Einrückung der Artikelüberschriften)",
+	"bs-uemodulebookpdf-overview-title": "Adobe&reg; Portable Document Format (PDF) für Bookshelf",
+	"bs-uemodulebookpdf-overview-description": "Exportiert ein Buch nach Adobe PDF.",
+	"bs-uemodulebookpdf-overview-bodycontent": "Dieses Modul wird von der &quot;Bookshelf&quot; Erweiterung zur Verfügung gestellt um Bücher als PDF ausgeben zu können.",
+	"bs-uemodulebookpdf-btn-export": "Portable Document Format (PDF)",
+	"bs-uemodulebookpdf-template": "Vorlage (PDF)",
+	"bs-uemodulebookpdf-bookshelfimage": "Bookshelf Bild",
+	"action-uemodulebookpdf-export": "eine Seite als Teil eines PDF-Buchs zu exportieren",
+	"right-uemodulebookpdf-export": "Eine Seite als Teil eines PDF-Buchs exportieren",
+	"bs-uemodulebookpdf-table-of-contents-heading": "Inhaltsverzeichnis"
+}

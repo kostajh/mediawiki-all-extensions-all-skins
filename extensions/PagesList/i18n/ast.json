@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"pageslist-desc": "Amuesa una llista de páxines",
+	"pageslist": "Llista de páxines",
+	"pageslistquerypage": "Páxina de consulta de la llista de páxines",
+	"pageslist-legend": "Opciones de la llista de páxines.",
+	"pageslist-categories": "Categoría:",
+	"pageslist-title": "Títulu",
+	"pageslist-last-modified": "Últimu cambiu",
+	"pageslist-last-user": "Últimu cambéu de",
+	"pageslist-basepage": "Subpáxines de (incluir l'espaciu de nomes):",
+	"apihelp-pageslist-description": "Amuesa una llista de les páxines que contien la wiki.",
+	"apihelp-pageslist-summary": "Amuesa una llista de les páxines que contien la wiki.",
+	"apihelp-pageslist-param-draw": "Valor p'asegurar que la respuesta casa con esta solicitú",
+	"apihelp-pageslist-param-start": "Allancia de resultaos, basada en cero",
+	"apihelp-pageslist-param-length": "Númberu de resultaos a devolver",
+	"apihelp-pageslist-example": "Recibir los resultaos 10-19 de PagesList"
+}

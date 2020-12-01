@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"inlinecategorizer-add-category": "加分類",
+	"inlinecategorizer-add-category-submit": "加",
+	"inlinecategorizer-add-category-summary": "加入分類「$1」",
+	"inlinecategorizer-confirm-save": "儲存",
+	"inlinecategorizer-confirm-title": "確認動作",
+	"inlinecategorizer-error-title": "錯誤",
+	"inlinecategorizer-remove-category-error": "唔能夠拎走呢個分類。\n通常係發生響一個模度加入咗嗰個分類。",
+	"inlinecategorizer-remove-category-summary": "拎走分類「$1」"
+}

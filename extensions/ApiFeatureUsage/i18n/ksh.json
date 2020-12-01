@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"apifeatureusage": "Eijeschaffte beim Jebruch vun de <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Application Programming Interface\">API</i>",
+	"apifeatureusage-desc": "Holl en Zersammevaßong vun de faßjehallde Eijeschaffte beim Jebruch vun de <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Application Programming Interface\">API</i> för ene bschtemmpte Brauser.",
+	"apifeatureusage-elasticsearch-error": "Ene Fähler em <i lang=\"en\" xml:lang=\"en\" dir=\"rtl\" title=\"„elastesch udder beeschsahm Söhke“\">Elasticsearch</i>\nes opjetrodde: $1",
+	"apifeatureusage-legend": "Eijeschaffte beim Jebruch vun de <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Application Programming Interface\">API</i>",
+	"apifeatureusage-agent-label": "Dä Brauser:",
+	"apifeatureusage-submit": "Dahte opnämme",
+	"apifeatureusage-no-indexes": "Mer han kein Dahte em aanjejovve Berät vum Dattom.",
+	"apifeatureusage-missing-indexes": "Mer han kein Dahte för en Deijl vum aanjejovve Berät vum Dattom.",
+	"apifeatureusage-warnings": "Opjepaß: $1",
+	"apifeatureusage-column-feature": "Eijeschaff",
+	"apifeatureusage-column-date": "Dattom",
+	"apifeatureusage-column-uses": "Wi öff jebruch?",
+	"apihelp-query+featureusage-description": "Holl en Zersammevaßong vun de Aanwändong vun de Eijechaffte vum <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Application Programming Interface\">API</i> för ene Brauser.",
+	"apihelp-query+featureusage-param-start": "Et Dattom vum Bejenn vun dä Affrohch.",
+	"apihelp-query+featureusage-param-end": "Et Dattom vum Ängk vun dä Affrohch.",
+	"apihelp-query+featureusage-param-agent": "De Brauser. Wam_mer keine aanjitt, weed der Brauser jenumme, dä mer jrahd aam bruche es.",
+	"apihelp-query+featureusage-param-features": "Wann aanjejovve, jiv blohß de Einjelheijte övver heh di Eijeschaffte us.",
+	"apihelp-query+featureusage-example-simple": "Frohch nohm Jebruch vun Eijeschaffte för dä Brauser, däh mer jrahd aam bruche es."
+}

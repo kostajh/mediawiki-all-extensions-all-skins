@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Darth Kule"
+		]
+	},
+	"form-desc": "Un'[[Special:Form|interfaccia di modulo]] per iniziare nuove pagine",
+	"form": "Inizia una nuova pagina",
+	"form-no-name": "Nessun nome per il modulo",
+	"form-no-name-text": "È necessario fornire un nome per il modulo, come \"Special:Form/Nomedelmodulo\"",
+	"form-bad-name": "Nome modulo errato",
+	"form-bad-name-text": "Non ci sono moduli con quel nome.",
+	"form-pattern": "$1-modulo",
+	"form-save": "Salva",
+	"form-index-mismatch-title": "Modello del nome e template non corrispondono",
+	"form-index-mismatch": "Questo modulo ha modelli di nome e template che non corrispondono a partire dall'indice $1.",
+	"form-article-exists": "La pagina esiste",
+	"form-article-existstext": "La pagina [[$1]] esiste già.",
+	"form-bad-page-name": "Nome pagina errato",
+	"form-bad-page-name-text": "I dati inseriti nel modulo generano un nome pagina errato, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|Il campo $1 è richiesto|I campi $1 sono richiesti}} per questo modulo.\n{{PLURAL:$2|Compilarlo|Compilarli}}.",
+	"form-save-summary": "Nuova pagina utilizzando il [[Special:Form/$1|modulo $1]]",
+	"form-save-error": "Errore durante il salvataggio del modulo",
+	"form-save-error-text": "Si è verificato un errore sconosciuto durante il salvataggio della pagina '$1'."
+}

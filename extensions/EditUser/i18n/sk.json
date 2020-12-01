@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Vlad5250"
+		]
+	},
+	"edituser": "Upraviť používateľa",
+	"edituser-desc": "Umožňuje oprávneným používateľom upravovať nastavenia ostatných používateľov",
+	"edituser-username": "Používateľské meno:",
+	"edituser-dosearch": "Hľadať",
+	"edituser-nouser": "Používateľ „$1“ neexistuje.",
+	"edituser-exempt": "Používateľa „$1“ nie je možné upravovať.",
+	"right-edituser": "Upraviť nastavenia iných používateľov",
+	"right-edituser-exempt": "Jeho nastavenia nemôžu upravovať iní používatelia",
+	"action-edituser": "upraviť nastavenia iných používateľov",
+	"action-edituser-exempt": "upraviť nastavenia tohto používateľa"
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justincheng12345",
+			"Kly",
+			"LNDDYL",
+			"Shirayuki"
+		]
+	},
+	"tweetanew-desc": "當建立或編輯頁面時會發出推文。",
+	"tweetanew-newaction": "該新頁面的廣播",
+	"tweetanew-newtooltip": "傳送該新頁面的資訊至Twitter",
+	"tweetanew-editaction": "推此編輯",
+	"tweetanew-edittooltip": "此次編輯的資訊傳送至 Twitter",
+	"tweetanew-minoredit": "小",
+	"tweetanew-authorcredit": "由",
+	"tweetanew-newdefault": "新頁面：$1 - $2",
+	"tweetanew-new1": "看起來是由 $1 建立了 $2",
+	"tweetanew-new2": "$1最近於$2完成",
+	"tweetanew-new3": "查閱$2－它在$1上有新一頁",
+	"tweetanew-editdefault": "已更新頁面：$1－$2",
+	"tweetanew-edit1": "看來由$1於$2更新",
+	"tweetanew-edit2": "$1 於最近已由 $2 變更",
+	"tweetanew-edit3": "查閱$2－它在$1上有新內容"
+}

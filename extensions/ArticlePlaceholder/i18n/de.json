@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"createtopicpage": "Seite erstellen",
+	"articleplaceholder-desc": "Erweitert das Wiki um eine Spezialseite mit Informationen aus {{WBREPONAME}} zu einem bestimmten Thema, die zum Erstellen eines zugehörigen Artikels einlädt",
+	"articleplaceholder-abouttopic": "Über Thema",
+	"articleplaceholder-abouttopic-intro": "Diese Spezialseite gibt dir einen schnellen Überblick über ein Thema, das auf Daten von {{WBREPONAME}} basiert.",
+	"articleplaceholder-abouttopic-entityid": "Bitte gib eine Objektkennung wie Q12345 ein",
+	"articleplaceholder-abouttopic-submit": "entwerfen",
+	"articleplaceholder-abouttopic-no-entity-error": "Dies ist keine gültige Objektkennung.",
+	"articleplaceholder-abouttopic-create-article-title": "Einen neuen Artikel erstellen",
+	"articleplaceholder-abouttopic-create-article-label": "Artikeltitel",
+	"articleplaceholder-abouttopic-create-article-mandatory": "Der Artikeltitel ist verpflichtend.",
+	"articleplaceholder-abouttopic-create-article-button": "Einen Artikel erstellen",
+	"articleplaceholder-abouttopic-create-empty-article-button": "Einen neuen Artikel beginnen",
+	"articleplaceholder-abouttopic-translate-article-label": "Quellsprache:",
+	"articleplaceholder-abouttopic-translate-article-button": "Artikel übersetzen",
+	"articleplaceholder-abouttopic-create-article-submit-button": "Übermitteln",
+	"articleplaceholder-abouttopic-article-exists-error": "Ein Artikel mit diesem Namen ist bereits vorhanden",
+	"articleplaceholder-abouttopic-lua-entity": "Objekt",
+	"articleplaceholder-abouttopic-lua-reference": "Referenz",
+	"articleplaceholder-abouttopic-lua-identifier": "Externe Quellen",
+	"articleplaceholder-search-header": "Daten zum Thema entdecken",
+	"articleplaceholder-createpage-title": "$1 erstellen",
+	"articleplaceholder-createpage-alreadyexists": "Die Seite mit dem Titel $1 ist bereits vorhanden. Bitte wähle einen anderen.",
+	"articleplaceholder-createpage-notitleprovided": "Es wurde kein Titel eingegeben. Bitte gib einen Titel für die Seite ein, die du erstellen möchtest.",
+	"articleplaceholder-createpage-invalidtitleprovided": "Der eingegebene Titel ist ungültig. Bitte gib einen gültigen Titel an."
+}

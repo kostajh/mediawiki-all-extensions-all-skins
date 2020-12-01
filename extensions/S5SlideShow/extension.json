@@ -1,0 +1,70 @@
+{
+	"name": "S5SlideShow",
+	"namemsg": "s5slide-name",
+	"descriptionmsg": "s5slide-desc",
+	"version": "0.3",
+	"license-name": "GPL-2.0+",
+	"type": "parserhook",
+	"url": "https://www.mediawiki.org/wiki/Extension:S5SlideShow",
+	"requires": {
+		"MediaWiki": ">= 1.27.3"
+	},
+	"author": [
+		"Vitaliy Filippov",
+		"[http://www.bitplan.com/index.php/Wolfgang_Fahl Wolfgang Fahl/ProfiWiki]",
+		"[http://hexmode.com Mark A. Hershberger]"
+	],
+	"Actions": {
+		"slide": "S5SlideShow\\Action"
+	},
+	"Hooks": {
+		"ImageBeforeProduceHTML": [
+			"S5SlideShow\\S5SlideShowHooks::ImageBeforeProduceHTML"
+		],
+		"ParserFirstCallInit": [
+			"S5SlideShow\\S5SlideShowHooks::ParserFirstCallInit"
+		],
+		"ArticleFromTitle": [
+			"S5SlideShow\\S5SlideShowHooks::ArticleFromTitle"
+		],
+		"AlternateEdit": [
+			"S5SlideShow\\S5SlideShowHooks::AlternateEdit"
+		],
+		"MagicWordwgVariableIDs": [
+			"S5SlideShow\\S5SlideShowHooks::MagicWordwgVariableIDs"
+		],
+		"ParserGetVariableValueSwitch": [
+			"S5SlideShow\\S5SlideShowHooks::ParserGetVariableValueSwitch"
+		]
+	},
+	"SpecialPages": {
+		"S5SlideShow": "S5SlideShow\\SpecialS5SlideShow"
+	},
+	"MessagesDirs": {
+		"S5SlideShow": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"S5SlideShowMagic": "src/S5SlideShow.i18n.magic.php",
+		"S5SlideShowAlias": "src/S5SlideShow.i18n.alias.php"
+	},
+	"AutoloadClasses": {
+		"S5SlideShow\\S5SlideShowHooks": "src/S5SlideShowHooks.php",
+		"S5SlideShow\\SpecialS5SlideShow": "src/Special.php",
+		"S5SlideShow\\Action": "src/Action.php",
+		"S5SlideShow\\Render": "src/Render.php",
+		"S5SlideShow\\Skin": "src/Skin.php"
+	},
+	"config": {
+		"_prefix": "egS5",
+		"Scaled": false,
+		"DefaultStyle": "default",
+		"BrowserScaleHack": true,
+		"SlideTemplateFile": "extensions/S5SlideShow/slide.htm",
+		"SlideCenterMark": "(center)",
+		"SlideHeadingMark": false,
+		"SlideIncMark": "(step)"
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"formwizard": "Помошник со обрасци",
+	"formwizard-desc": "Овозможува воспоставка и употреба на Помошник со обрасци за МедијаВики.",
+	"formwizard-dialog-label-cancel": "Откажи",
+	"formwizard-dialog-label-done": "Готово",
+	"formwizard-dialog-label-next": "Следна",
+	"special-formwizard-intro": "Помошник со обрасци",
+	"special-formwizard-title": "Ова е вовед во службената странца „Помошник со обрасци“.",
+	"formwizard-no-subpage-name-alert": "Кажете како да ја наречеме страницата",
+	"formwizard-page-edit-summary": "Измената е направена на $1",
+	"formwizard-page-action-complete": "Дејството $1 е завршено",
+	"formwizard-parser-function-error": "Проверете ги поставните параметри",
+	"formwizard-subpage-request-text": "<strong> Внесете го називот на потстраницата:</strong>",
+	"formwizard-wrong-config-file-alert": "Проверете ги нагодувањата на поставките!"
+}

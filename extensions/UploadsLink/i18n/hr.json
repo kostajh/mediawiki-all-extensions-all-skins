@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ex13",
+			"MaGa"
+		]
+	},
+	"uploadslink-portlet-label": "Postavljene datoteke",
+	"tooltip-pt-uploads": "Popis datoteka koje ste postavili",
+	"uploadslink-toobox-label": "Postavljene datoteke {{GENDER:$1|suradnika|suradnice}}",
+	"tooltip-tb-uploads": "Popis postavljenih datoteka {{GENDER:$1|ovog suradnika|ove suradnice}}"
+}

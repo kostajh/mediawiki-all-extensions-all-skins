@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cindy Cicalese",
+			"Liuxinyu970226",
+			"Robby",
+			"Umherirrender"
+		]
+	},
+	"phabtaskgraph": "The name of the extension's entry in Special:SpecialPages",
+	"phabtaskgraph-desc": "{{desc|name=PhabTaskGraph|url=https://www.mediawiki.org/wiki/Extension:PhabTaskGraph}}",
+	"phabtaskgraph-author-field-label": "Field label\n{{Identical|Author}}",
+	"phabtaskgraph-owner-field-label": "Field label\n{{Identical|Owner}}",
+	"phabtaskgraph-tasks-field-label": "Field label\n{{Identical|Task}}",
+	"phabtaskgraph-projects-field-label": "Field label\n{{Identical|Project}}",
+	"phabtaskgraph-status-field-label": "Field label\n{{Identical|Status}}",
+	"phabtaskgraph-width-field-label": "Field label\n{{Identical|Width}}",
+	"phabtaskgraph-height-field-label": "Field label\n{{Identical|Height}}",
+	"phabtaskgraph-tasks-field-help": "Field help",
+	"phabtaskgraph-projects-field-help": "{{doc-important|Do not translate 'MediaWiki-Platform-Team, Epic', this also applies to the comma used here, as such format is required in the actual Phabricator project maintenance works.}}\nField help, feel free to use other kinds of quotation marks.",
+	"phabtaskgraph-width-field-help": "Field help",
+	"phabtaskgraph-height-field-help": "Field help",
+	"phabtaskgraph-status-open": "Phabricator status value\n{{Identical|Open}}",
+	"phabtaskgraph-status-stalled": "Phabricator status value\n{{Identical|Stalled}}",
+	"phabtaskgraph-status-resolved": "Phabricator status value",
+	"phabtaskgraph-status-invalid": "Phabricator status value\n{{Identical|Invalid}}",
+	"phabtaskgraph-status-declined": "Phabricator status value",
+	"phabtaskgraph-status-duplicate": "Phabricator status value\n{{Identical|Duplicate}}"
+}

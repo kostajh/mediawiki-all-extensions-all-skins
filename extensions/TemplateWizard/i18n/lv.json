@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Papuass"
+		]
+	},
+	"templatewizard-cancel": "Atcelt",
+	"templatewizard-insert": "Ievietot",
+	"templatewizard-invalid-values-edit": "Labot veidni",
+	"templatewizard-invalid-values-insert": "Ievietot veidni",
+	"templatewizard-placeholder-default": "Noklusējums: $1",
+	"templatewizard-parambutton-add-title": "Pievienot parametru '$1'",
+	"templatewizard-parambutton-remove-title": "Noņemt parametru '$1'"
+}

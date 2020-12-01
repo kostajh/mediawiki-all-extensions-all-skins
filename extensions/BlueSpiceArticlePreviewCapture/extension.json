@@ -1,0 +1,84 @@
+{
+	"name": "BlueSpiceArticlePreviewCapture",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:ArticlePreviewCapture",
+	"author": [
+		"Patric Wirth",
+		"Josef Konrad"
+	],
+	"descriptionmsg": "bs-articlepreviewcapture-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceArticlePreviewCapture": {
+					"className": "\\BlueSpice\\ArticlePreviewCapture\\Extension",
+					"extPath": "/BlueSpiceArticlePreviewCapture",
+					"status": "beta",
+					"package": "BlueSpiceSocial",
+					"@configDefinitions": {}
+				}
+			},
+			"DynamicFileRegistry": {
+				"articlepreviewimage": "\\BlueSpice\\ArticlePreviewCapture\\DynamicFileDispatcher\\ArticlePreviewCaptureImage"
+			},
+			"PhantomJSBackendRegistry": {
+				"native-shell-exec": "BlueSpice\\ArticlePreviewCapture\\PhantomJS\\NativeShellExec::factory",
+				"remote-webservice": "BlueSpice\\ArticlePreviewCapture\\PhantomJS\\RemoteWebService::factory",
+				"symfony-process": "BlueSpice\\ArticlePreviewCapture\\PhantomJS\\SymfonyProcess::factory",
+				"mediawiki-shell-command": "BlueSpice\\ArticlePreviewCapture\\PhantomJS\\MediaWikiShellCommand::factory"
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceArticlePreviewCapture": [
+			"i18n"
+		]
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"ResourceModules": {},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocial/BlueSpiceArticlePreviewCapture/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"ArticlePreviewCapturePhantomJSExecutable": {
+			"value": "/usr/local/bin/phantomjs"
+		},
+		"ArticlePreviewCapturePhantomJSOptions": {
+			"value": [  "--ignore-ssl-errors", "true" ]
+		},
+		"ArticlePreviewCapturePhantomJSBaseUrl": {
+			"description": "Defaults to $wgServer",
+			"value": null
+		},
+		"ArticlePreviewCapturePhantomJSEscapeShellCommand": {
+			"description": "If you need to add command line variable before command set this to false",
+			"value": true
+		},
+		"ArticlePreviewCapturePhantomJSServiceURL": {
+			"value": null
+		},
+		"ArticlePreviewCapturePhantomJSBackend": {
+			"value": "native-shell-exec"
+		}
+	},
+	"Hooks": {
+		"SetupAfterCache": "\\BlueSpice\\ArticlePreviewCapture\\Hook\\SetupAfterCache\\AddForeignFileRepo::callback"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\ArticlePreviewCapture\\": "src/"
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

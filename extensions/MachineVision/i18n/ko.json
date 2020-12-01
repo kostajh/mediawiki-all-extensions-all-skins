@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"machinevision-machineaidedtagging": "제안 태그",
+	"machinevision-autoconfirmed-message": "정확한 태그를 달면 모든 공용 사용자들이 이미지를 더 쉽게 찾을 수 있으므로 [[mw:Special:MyLanguage/Manual:Autoconfirmed_users|자동 인증된 사용자]]가 되어야 합니다. 자동 인증된 사용자만이 이 도구를 사용할 수 있습니다.",
+	"machinevision-publish": "게시",
+	"machinevision-publish-title": "태그를 게시하시겠습니까?",
+	"machinevision-add-custom-tag": "태그 추가",
+	"machinevision-skip": "건너뛰기",
+	"machinevision-skip-title": "\"$1\"의 제안을 건너뛰시겠습니까?",
+	"machinevision-suggestion-confirm-title": "\"$1\" 제안을 확인하시겠습니까?",
+	"machinevision-suggestion-confirm-undo-title": "\"$1\" 제안 확인을 취소하시겠습니까?",
+	"machinevision-loading-message": "이미지를 불러오는 중...",
+	"machinevision-failure-message": "죄송하지만 무언가 잘못되었습니다. 나중에 다시 확인하거나 [[c:Commons_talk:Structured_data/Computer-aided_tagging|저희에게 문의해 주십시오]].",
+	"machinevision-confirm-tags-dialog-confirm-action": "확인",
+	"machinevision-confirm-tags-dialog-cancel-action": "취소",
+	"machinevision-publish-error-message": "무언가 잘못되어 태그를 게시하지 못했습니다. 나중에 다시 시도해 주십시오.",
+	"machinevision-onboarding-dialog-cta": "태그 시작",
+	"machinevision-onboarding-dialog-close-label": "닫기",
+	"machinevision-no-uploads-cta-heading": "검토할 이미지가 없습니다",
+	"machinevision-javascript-required": "이 기능은 사용 중인 웹 브라우저에서 지원되지 않습니다.",
+	"machinevision-categories-label": "분류:",
+	"machinevision-add-custom-tag-dialog-title": "사용자 지정 태그",
+	"machinevision-add-custom-tag-dialog-add-action": "추가",
+	"machinevision-add-custom-tag-dialog-cancel-action": "취소",
+	"machinevision-image-exclusion-notification-dismiss": "알림 숨기기"
+}

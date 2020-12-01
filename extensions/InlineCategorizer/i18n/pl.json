@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sp5uhe"
+		]
+	},
+	"inlinecategorizer-desc": "Moduł JavaScript, który umożliwia zmianę, dodawanie i usuwanie linków do kategorii bezpośrednio na stronie",
+	"inlinecategorizer-add-category": "Dodaj kategorię",
+	"inlinecategorizer-add-category-submit": "Dodaj",
+	"inlinecategorizer-add-category-summary": "Dodaj kategorię „$1”",
+	"inlinecategorizer-api-error": "Interfejs API zwrócił błąd – $1: $2",
+	"inlinecategorizer-api-unknown-error": "Interfejs API zwrócił nieznany błąd.",
+	"inlinecategorizer-cancel": "Wycofaj zmiany",
+	"inlinecategorizer-cancel-all": "Anuluj wszystkie zmiany",
+	"inlinecategorizer-category-already-present": "Strona już jest w kategorii $1",
+	"inlinecategorizer-category-hook-error": "Lokalna funkcja uniemożliwia zapisanie zmian",
+	"inlinecategorizer-category-question": "Dlaczego chcesz wprowadzić następujące zmiany:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Zapisz",
+	"inlinecategorizer-confirm-save-all": "Zapisz wszystkie zmiany",
+	"inlinecategorizer-confirm-title": "Potwierdź",
+	"inlinecategorizer-edit-category": "Edytuj kategorię",
+	"inlinecategorizer-edit-category-error": "Zmiana kategorii „$1“ nie jest możliwa.\nTen problem zazwyczaj występuje, jeśli kategoria została dodana do strony przez szablon.",
+	"inlinecategorizer-edit-category-summary": "Zmiana kategorii z „$1“ na „$2“",
+	"inlinecategorizer-error-title": "Błąd",
+	"inlinecategorizer-remove-category": "Usuń z kategorii",
+	"inlinecategorizer-remove-category-error": "Usunięcie strony z kategorii „$1“ nie jest możliwe.\nProblem zazwyczaj występuje, jeśli kategoria została dodana do strony przez szablon.",
+	"inlinecategorizer-remove-category-summary": "Usuń kategorię „$1”"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reza1615"
+		]
+	},
+	"gpgmail-desc": "کدگذاری ایمیل‌ها با GPG",
+	"gpgmail-pref-enable": "کدگذاری ایمیل‌ها با GPG",
+	"gpgmail-pref-key": "کلید عمومی GPG",
+	"gpgmail-pref-key-help": "برای دریافت کلید عمومی  [https://help.ubuntu.com/community/GnuPrivacyGuardHowto این] صفحه را مشاهده کنید.",
+	"gpgmail-encrypt-error": "خطایی در زمان کدگذاری ایمیل رخ داد."
+}

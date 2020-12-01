@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ainali",
+			"Boivie",
+			"Poxnar",
+			"WikiPhoenix"
+		]
+	},
+	"inlinecategorizer-desc": "JavaScript-modul som gör det möjligt att ändra, lägga till och ta bort kategorilänkar direkt från en sida",
+	"inlinecategorizer-add-category": "Lägg till kategori",
+	"inlinecategorizer-add-category-submit": "Lägg till",
+	"inlinecategorizer-add-category-summary": "Lägg till kategorin \"$1\"",
+	"inlinecategorizer-api-error": "API rapporterade ett fel: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "API returnerade ett okänt fel.",
+	"inlinecategorizer-cancel": "Avbryt redigering",
+	"inlinecategorizer-cancel-all": "Avbryt alla ändringar",
+	"inlinecategorizer-category-already-present": "Denna sida tillhör redan kategorin $1",
+	"inlinecategorizer-category-hook-error": "En lokal funktion förhindrade ändringarna från att sparas.",
+	"inlinecategorizer-category-question": "Varför vill du göra följande ändringar:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Spara",
+	"inlinecategorizer-confirm-save-all": "Spara alla ändringar",
+	"inlinecategorizer-confirm-title": "Bekräfta handling",
+	"inlinecategorizer-edit-category": "Redigera kategori",
+	"inlinecategorizer-edit-category-error": "Det gick inte att redigera kategorin \"$1\".\nDetta inträffar vanligen när kategorin har lagts till sidan i en mall.",
+	"inlinecategorizer-edit-category-summary": "Ändra kategori \"$1\" till \"$2\"",
+	"inlinecategorizer-error-title": "Fel",
+	"inlinecategorizer-remove-category": "Ta bort kategori",
+	"inlinecategorizer-remove-category-error": "Det var inte möjligt att ta bort kategorin \"$1\".\nOftast beror det på att kategorin har lagts till genom användande av en mall.",
+	"inlinecategorizer-remove-category-summary": "Tag bort kategorin \"$1\""
+}

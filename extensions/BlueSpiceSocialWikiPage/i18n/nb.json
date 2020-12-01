@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-socialwikipage-desc": "Wikisideentitet og funksjonalitet for BlueSpiceSocial",
+	"bs-socialwikipage-type": "Wikiside",
+	"bs-socialwikipage-entitywikipage-header-create": "Opprett nytt vedleggsområde",
+	"bs-socialwikipage-nowikipageentity": "Ingen vedleggsområder har blitt opprettet ennå",
+	"bs-socialwikipage-noattachmentsadded": "Ingen vedlegg lagt til ennå",
+	"bs-socialwikipage-stashtype": "Vedlegg",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]] la ved",
+	"bs-socialwikipage-entitystash-header-create": "Nytt vedlegg",
+	"bs-socialwikipage-special-stash-heading": "Vedlegg",
+	"bs-socialwikipage-aftercontent-heading": "Vedlegg",
+	"wikipagestash": "Vedlegg",
+	"bs-socialwikipage-var-wikipageid": "Tildelt side",
+	"bs-socialwikipage-switch-nostash-description": "Skjuler vedleggsområdet på denne siden.",
+	"bs-socialwikipage-stash-insertfiledialog-title": "Legg til fil",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "Legg til",
+	"bs-socialwikipage-stash-editor-attachedfiles": "Vedlagte filer",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "Slett",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "Legg til",
+	"apihelp-bs-socialstash-tasks-summary": "Tilbyr oppgaver for å redigere entiteters lenkede sider"
+}

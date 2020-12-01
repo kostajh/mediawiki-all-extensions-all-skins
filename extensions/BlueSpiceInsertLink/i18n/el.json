@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"bs-insertlink-desc": "Κουτί διαλόγου για να πληκτρολογήσετε ένα σύνδεσμο",
+	"prefs-insertlink": "Εισαγωγή συνδέσμου",
+	"bs-insertlink": "Εισαγωγή συνδέσμου",
+	"bs-insertlink-pref-enable-java": "Ενεργοποίηση της μικροεφαρμογής Java",
+	"bs-insertlink-button-title": "Εισαγωγή/επεξεργασία συνδέσμου",
+	"bs-insertlink-dialog-title": "Εισαγωγή συνδέσμου",
+	"bs-insertlink-tab-wiki-page": "Σελίδα βίκι",
+	"bs-insertlink-tab-ext-link": "Εξωτερικός σύνδεσμος",
+	"bs-insertlink-tab-email": "Σύνδεσμος ηλ. ταχυδρομείου",
+	"bs-insertlink-tab-file": "Σύνδεσμος σε αρχείο",
+	"bs-insertlink-label-page": "Σελίδα",
+	"bs-insertlink-label-link": "Σύνδεσμος",
+	"bs-insertlink-label-mail": "Διεύθυνση ηλεκτρονικού ταχυδρομείου:",
+	"bs-insertlink-label-description": "Περιγραφή",
+	"bs-insertlink-label-file": "Αρχείο",
+	"bs-insertlink-label-searchfile": "Αναζήτηση...",
+	"bs-insertlink-select-a-page": "Επιλογή στόχου...",
+	"bs-insertlink-select-a-namespace": "(Σελίδες)",
+	"bs-insertlink-empty-field-text": "Για να εισαγάγετε ένα σύνδεσμο πρέπει να ορίσετε προορισμό.",
+	"bs-insertlink-no-applet": "Η εφαρμογή δεν μπόρεσε να φορτωθεί. Παρακαλούμε ελέγξτε την εγκατάσταση Java σας."
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier",
+			"Malafaya"
+		]
+	},
+	"changeauthor-comment": "Komento:",
+	"changeauthor-changeauthors-multi": "Chanjar l'{{PLURAL:$1|autoro|autori}}",
+	"changeauthor-changeauthors-single": "Chanjar l'autoro",
+	"changeauthor-invalid-username": "Ne-valida uzantonomo \"$1\"."
+}

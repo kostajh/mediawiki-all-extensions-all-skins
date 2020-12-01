@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"LNDDYL"
+		]
+	},
+	"bs-dashboards-desc": "為使用者以及管理員提供資訊面板",
+	"bs-specialadmindashboard-label": "資訊面板",
+	"bs-dashboards-addportlet": "添加入口頁面元件",
+	"bs-dashboards-portlets": "入口頁面元件",
+	"prefs-dashboards": "資訊面板",
+	"bs-dashboards-pref-userdashboardonlogo": "連結至使用者資訊面板的網站標誌",
+	"admindashboard": "管理者資訊面板",
+	"userdashboard": "使用者資訊面板",
+	"bs-dashboard-userportlet-calendar-title": "行事曆",
+	"bs-dashboard-userportlet-calendar-description": "行事曆",
+	"bs-dashboard-userportlet-wikipage-title": "Wiki 頁面",
+	"bs-dashboard-userportlet-wikipage-description": "使用 wiki 頁面來定義小工具",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "Wiki 頁面",
+	"apihelp-bs-dashboard-task-param-dc": "快取控制參數，由 ExtJS 所使用。",
+	"apihelp-bs-dashboards-store-description": "所有可用入口頁面元件清單",
+	"apihelp-bs-dashboards-store-summary": "所有可用入口頁面元件清單",
+	"apihelp-bs-dashboards-tasks-description": "儲存資訊面板設置",
+	"apihelp-bs-dashboards-tasks-summary": "儲存資訊面板設置",
+	"apihelp-bs-dashboards-widgets-tasks-description": "為一些資訊面板小工具返回內容",
+	"apihelp-bs-dashboards-widgets-tasks-summary": "為一些資訊面板小工具返回內容",
+	"action-dashboards-viewspecialpage-userdashboard": "檢視特殊頁面「{{int:userdashboard}}」",
+	"right-dashboards-viewspecialpage-userdashboard": "存取特殊頁面 [[Special:UserDashboard]] 的權限。"
+}

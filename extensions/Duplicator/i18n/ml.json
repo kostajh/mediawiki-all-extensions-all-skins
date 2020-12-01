@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Junaidpv",
+			"Praveenp",
+			"Shijualex"
+		]
+	},
+	"duplicator": "താളിന്റെ പകർപ്പ് ഉണ്ടാക്കുക",
+	"duplicator-desc": "നാൾവഴി പൂർണ്ണമായി ഉൾപ്പെടുത്തിയ, [[Special:Duplicate|താളിന്റെ സ്വതന്ത്ര പകർപ്പുകൾ]] സൃഷ്ടിക്കുന്നു",
+	"duplicator-toolbox": "ഈ താളിന്റെ പകർപ്പ് ഉണ്ടാക്കുക",
+	"duplicator-options": "ഐച്ഛികങ്ങൾ",
+	"duplicator-source": "സ്രോതസ്സ്:",
+	"duplicator-dest": "ലക്ഷ്യം:",
+	"duplicator-dotalk": "രണ്ടാമതൊരു സം‌വാദം താൾ (ആവശ്യമുണ്ടെങ്കിൽ)‌",
+	"duplicator-submit": "പകർപ്പെടുക്കുക",
+	"duplicator-summary": "[[$1]]ൽ നിന്നു പകർത്തിയത്",
+	"duplicator-success": "[[$1]] എന്ന താൾ [[$2]]ലേക്കു പകർത്തി.",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|പതിപ്പ്|പതിപ്പുകൾ}} പകർത്തി.",
+	"duplicator-success-talknotcopied": "സം‌വാദത്താൾ പകർത്തുവാൻ കഴിഞ്ഞില്ല",
+	"duplicator-failed": "താളിന്റെ പകർപ്പെടുക്കാൻ സാധിച്ചില്ല. അജ്ഞാതമായ കാരണം മൂലം എന്തോ പിഴവ് സംഭവിച്ചു.",
+	"duplicator-source-invalid": "സാധുവായൊരു സ്രോതസ്സ് തലക്കെട്ട് കൊടുക്കുക.",
+	"duplicator-source-notexist": "[[$1]] നിലവിലില്ല. ദയവായി നിലവിലുള്ള ഒരു താളിന്റെ ശീർഷകം ചേർക്കുക.",
+	"duplicator-dest-invalid": "ദയവായി സാധുവായ ഒരു ലക്ഷ്യ ശീർഷകം ചേർക്കുക.",
+	"duplicator-dest-exists": "[[$1]] നിലവിലുണ്ട്. ദയവായി നിലവിലില്ലാത്ത ഒരു ലക്ഷ്യതാളിന്റെ ശീർഷകം ചേർക്കുക."
+}

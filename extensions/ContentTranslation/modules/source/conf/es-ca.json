@@ -1,0 +1,12 @@
+{
+	"templates": {
+		"Ficha de taxón": {
+			"targetname": "Taxocaixa",
+			"editable": false
+		},
+		"Listaref": {
+			"targetname": "Referències",
+			"editable": false
+		}
+	}
+}

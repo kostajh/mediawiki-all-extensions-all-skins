@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"1233qwer1234qwer4",
+			"Irus",
+			"Katunchik",
+			"Movses",
+			"Romanko Mikhail",
+			"Vlad5250"
+		]
+	},
+	"pageassignments": "Назначения",
+	"managepageassignments": "Управление назначениями",
+	"bs-pageassignments-dlg-title": "Назначения",
+	"bs-pageassignments-dlg-fldlabel": "Назначения",
+	"bs-pageassignments-menu-label": "Изменить назначение",
+	"bs-pageassignments-column-assignments": "Назначения",
+	"bs-pageassignments-api-error": "Произошла ошибка",
+	"logeventslist-bs-pageassignments-log": "Журнал назначений",
+	"bs-usagetracker-pageassignments": "страницы с заданиями",
+	"bs-pageassignments-assignee-special-everyone-label": "Каждый",
+	"bs-pageassignments-assignee-type-everyone": "Каждый",
+	"bs-pageassignments-assignee-type-user": "Участник",
+	"bs-pageassignments-assignee-type-group": "Группа",
+	"bs-pageassignments-nav-link-title-pageassignments": "Назначения для страницы",
+	"bs-pageassignments-flyout-title": "Назначения для страницы",
+	"bs-pageassignments-flyout-intro": "Вы можете назначать странице участников и группы. Они будут получать оповещения про изменения и смогут получить дополнительные права. Если функция включена, Вы также сможете установить подтверждение прочтения страницы.",
+	"bs-pageassignments-flyout-form-title": "Добавить назначение",
+	"bs-pageassignments-flyout-grid-title": "Участники и группы, назначенные для этой страницы.",
+	"bs-pageassignments-flyout-manager-btn-label": "Менеджер назначения страниц",
+	"bs-pageassignments-collection-var-namespacename": "Пространство имён"
+}

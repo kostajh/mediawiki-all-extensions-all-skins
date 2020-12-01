@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby",
+			"Soued031"
+		]
+	},
+	"emailauth-desc": "Verifizéiert verdächtegt Alogge per E-Mail.",
+	"emailauth-token-label": "Iwwerpréifungs-Code",
+	"emailauth-token-help": "Eemol gültegen 2FA-Token dee per E-Mail geschéckt gouf.",
+	"emailauth-email-subject": "Ären Iwwerpréifings-Code fir $1 fir Iech anzeloggen",
+	"emailauth-login-message": "Dir musst Äert Alogge confirméieren. E Kontroll-Code gouf op Är E-Mail-Adress ($1) geschéckt, gitt wgl. dee Code hei an.",
+	"emailauth-login-failure": "Net valabelen Iwwerpréifungs-Code!",
+	"emailauth-login-retry-limit": "Ze vill dacks e falsche Code aginn!"
+}

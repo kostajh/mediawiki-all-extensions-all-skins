@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"MuratTheTurkish",
+			"StanProg"
+		]
+	},
+	"ldapgroups-desc": "Позволява синхронизиране на потребителска група с LDAP ресурс"
+}

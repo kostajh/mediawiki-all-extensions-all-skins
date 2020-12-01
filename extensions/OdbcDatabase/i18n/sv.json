@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil"
+		]
+	},
+	"odbcdatabase": "OdbcDatabase",
+	"odbcdatabase-desc": "Drivrutin som använder PHP-<code>odbc_*</code>-bibliotek av kommandon för att stödja tillägget för externa data",
+	"odbcdatabase-odbc-missing": "ODBC-funktion saknas. Se till att <code>PHP:ODBC</code> är installerat.",
+	"odbcdatabase-connection-error": "Fel vid anslutning till servern [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Kunde inte frigöra ODBC-resultat",
+	"odbcdatabase-fetch-object-error": "Fel vid hämtning av objekt: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Fel vid hämtning av rad: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "Funktionen insertId() stöds inte.",
+	"odbcdatabase-unknown-server-version": "Okänd ODBC-serverversion."
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Sabelöga",
+			"Tobulos1",
+			"WikiPhoenix"
+		]
+	},
+	"globalprefs-desc": "Låter användare ändra globala inställningar",
+	"globalprefs-set-local-exception": "Ange ett lokalt undantag för denna [[Special:GlobalPreferences#$1|globala inställning]].",
+	"globalprefs-has-local-exception": "Denna globala inställning har ett [[Special:Preferences#$1|lokalt undantag på denna wiki]].",
+	"tooltip-globalprefs-check-label": "Gör denna inställning global",
+	"globalprefs-error-header": "Fel",
+	"globalprefs-notglobal": "Ditt konto är inte ett globalt konto och kan inte ange globala inställningar.",
+	"globalpreferences": "Globala inställningar",
+	"globalprefs-info-label": "Globala inställningar:",
+	"globalprefs-info-link": "Ange dina globala inställningar",
+	"globalprefs-info-help": "Inställningar som har ändrats via den globala inställningssidan kommer att tillämpas på alla wikier.",
+	"globalprefs-reset-intro": "Du kan använda denna sida för att inaktivera alla globala inställningar på alla wikier och återvända till dina lokala inställningar. Detta påverkar inte några lokala wikiinställningar. Detta kan inte ångras.",
+	"globalprefs-restoreprefs": "Ta bort alla globala inställningar (i alla avsnitt)",
+	"globalprefs-select-all": "Markera/avmarkera alla kryssrutor",
+	"globalprefs-col-header": "Välj alternativ nedan som ska vara globala"
+}

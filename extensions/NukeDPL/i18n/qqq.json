@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nemo bis",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"nukedpl": "{{doc-special|NukeDPL}}\nDPL means DynamicPageList, the name of an extension and tag.",
+	"nukedpl-desc": "{{desc|name=NukeDPL|url=https://www.mediawiki.org/wiki/Extension:NukeDPL}}",
+	"nukedpl-intro": "Text explaining how to use the special page",
+	"nukedpl-defaulttext": "{{notranslate}}\nDefault DPL query",
+	"nukedpl-candidatelist": "Text in the button that generates the list of pages to be deleted",
+	"nukedpl-nopages": "Message when the query returns no pages to be deleted. Parameters:\n* $1 - DPL query string",
+	"nukedpl-nuke": "Text in the button to delete the selected pages.\n\nAlso used in:\n* {{msg-mw|Nukedpl-list}}.",
+	"nukedpl-list": "Text preceding the list of pages to be deleted.\n\nRefers to {{msg-mw|Nukedpl-nuke}}.\n\nParameters:\n* $1 - number of pages\n* $2 - DPL query string",
+	"nukedpl-defaultreason": "Default reason associated with the deleted pages. Parameters:\n* $1 - DPL query string",
+	"action-nukedpl": "{{doc-action|nukedpl}}",
+	"right-nukedpl": "{{doc-right|nukedpl}}"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"DSwissK",
+			"Gomoko",
+			"Macofe",
+			"Orlodrim",
+			"TomT0m",
+			"Wladek92"
+		]
+	},
+	"safedelete": "Suppression sécurisée",
+	"safedelete-desc": "Supprimer la page uniquement s’il n’y a pas de page y faisant référence dans les espaces de nom spécifiés",
+	"safedelete-title": "Supprimer « $1 »",
+	"safedelete-missingpagename": "Le nom de page est absent.",
+	"safedelete-missingnamespaces": "La liste des espaces de noms de la suppression spéciale n'est pas définie.",
+	"safedelete-cannotdelete": "La page « $1 » ne peut pas être supprimée car elle est utilisée par des liens ou des redirections depuis {{PLURAL:$2|la page suivante|les pages suivantes}} :"
+}

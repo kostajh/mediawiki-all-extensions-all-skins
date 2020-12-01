@@ -1,0 +1,91 @@
+{
+	"name": "Bouquet",
+	"version": "1.4.1",
+	"author": [
+		"[http://automattic.com Automattic]",
+		"Jack Phoenix",
+		"Samantha Nguyen"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Bouquet",
+	"descriptionmsg": "bouquet-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"ValidSkinNames": {
+		"bouquet": "Bouquet"
+	},
+	"MessagesDirs": {
+		"SkinBouquet": [
+			"i18n"
+		]
+	},
+	"ThemeModules": {
+		"bouquet": [ "forgetmenot", "pinkdogwood", "tigerlily" ]
+	},
+	"AutoloadClasses": {
+		"SkinBouquet": "includes/SkinBouquet.php",
+		"BouquetTemplate": "includes/BouquetTemplate.php",
+		"BouquetSkinNavigationService": "includes/BouquetSkinNavigationService.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Bouquet"
+	},
+	"ResourceModules": {
+		"skins.bouquet": {
+			"styles": {
+				"resources/print.css": {
+					"media": "print"
+				},
+				"resources/style.css": {
+					"media": "screen"
+				},
+				"resources/responsive/smallest.css": {
+					"media": "(max-width: 450px)"
+				},
+				"resources/responsive/smaller.css": {
+					"media": "(max-width: 650px)"
+				},
+				"resources/responsive/tiny.css": {
+					"media": "screen and (max-width: 600px)"
+				},
+				"resources/responsive/medium.css": {
+					"media": "(max-width: 1140px)"
+				}
+			}
+		},
+		"skins.bouquet.js": {
+			"scripts": "resources/js/navigation.js"
+		},
+		"themeloader.skins.bouquet.forgetmenot": {
+			"styles": {
+				"resources/colors/forget-me-not/forget-me-not.css": {
+					"media": "screen"
+				}
+			}
+		},
+		"themeloader.skins.bouquet.pinkdogwood": {
+			"styles": {
+				"resources/colors/pink-dogwood/pink-dogwood.css": {
+					"media": "screen"
+				}
+			}
+		},
+		"themeloader.skins.bouquet.tigerlily": {
+			"styles": {
+				"resources/colors/tiger-lily/tiger-lily.css": {
+					"media": "screen"
+				}
+			}
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"bouquet": {
+			"+mediawiki.special.preferences.styles": "resources/skinStyles/special.preferences.styles.css",
+			"+ext.advancedSearch.styles": "resources/skinStyles/ext.advancedSearch.less"
+		}
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"onlyrecentrecentchanges-desc": "{{desc|name=Only Recent Recent Changes|url=https://www.mediawiki.org/wiki/Extension:OnlyRecentRecentChanges}}\n\"recent changes\" refers the special page [[Special:RecentChanges]].",
+	"onlyrecentrecentchanges-option": "Label (description) text for the user option in the user preferences tab \"Recent changes\".\n\nRefers to {{msg-mw|Prefs-displayrc}}."
+}

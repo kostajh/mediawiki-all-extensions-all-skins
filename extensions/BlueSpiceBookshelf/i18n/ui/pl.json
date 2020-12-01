@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail",
+			"WaldiSt"
+		]
+	},
+	"bs-bookshelfui-new-book-title": "Utwórz nową książkę",
+	"bs-bookshelfui-new-book-text": "Tytuł książki",
+	"bs-bookshelfui-delete-book-title": "Usuń książkę",
+	"bs-bookshelfui-manager-title": "Tytuł",
+	"bs-bookshelfui-manager-deletingprogress-text": "Usuwanie wybranej książki",
+	"bs-bookshelfui-manager-deletingprogress-title": "Usuwanie...",
+	"bs-bookshelfui-dlg-copy-name-addition": " (kopiuj)",
+	"bs-bookshelfui-dlg-copy-target-name-label": "Nazwa docelowa",
+	"bs-bookshelfui-dlg-type-label": "Źródło",
+	"bs-bookshelfui-dlg-choosepc-label": "Zbiór stron",
+	"bs-bookshelfui-type-pagecollection": "Zbiór stron",
+	"bs-bookshelfui-bookmetatag-title": "Tytuł",
+	"bs-bookshelfui-bookmetatag-author1": "Autor 1",
+	"bs-bookshelfui-bookmetatag-author2": "Autor 2",
+	"bs-bookshelfui-bookmetatag-department": "Dział",
+	"bs-bookshelfui-bookmetatag-version": "Wersja",
+	"bs-bookshelfui-extjs-tooltip-copy": "Kopiuj",
+	"bs-bookshelfui-prof-defaultview-images": "Obrazy",
+	"bs-bookshelfui-chapterpager-previous": "Wstecz",
+	"bs-bookshelfui-chapterpager-next": "Dalej"
+}

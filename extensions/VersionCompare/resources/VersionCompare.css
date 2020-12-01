@@ -1,0 +1,34 @@
+.version-compare-table {
+	margin-top: 20px;
+}
+
+.version-compare-table, .version-compare-table th, .version-compare-table td {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 10px;
+}
+
+.version-compare-table img {
+	width: 55px;
+}
+
+.version-compare-table p {
+	margin: 0px;
+	line-height: 1.2em;
+}
+
+.version-compare-same {
+}
+
+.version-compare-wiki-1 {
+	color: darkorchid;
+}
+
+.version-compare-wiki-2 {
+	color: cornflowerblue;
+}
+
+.version-compare-different {
+	color: darkgoldenrod;
+}

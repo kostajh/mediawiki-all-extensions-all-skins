@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Skalman",
+			"WikiPhoenix"
+		]
+	},
+	"webchat": "Webbchatt",
+	"webchat-desc": "Lägger till en [[Special:WebChat|specialsida]] för att chatta i realtid med andra wikianvändare",
+	"webchat-header": "Den här specialsidan låter dig samarbeta i realtid med andra användare på den här wikin.\nFör att ansluta, tryck helt enkelt på Anslut-knappen.\nOm du är inloggad kommer ditt användarnamn vara förifyllt.\nAnonyma användare får ett automatiskt genererat användarnamn, men det kan ändras.",
+	"action-webchat": "använda webbchatten",
+	"right-webchat": "Får använda [[Special:WebChat|webbchatten]]"
+}

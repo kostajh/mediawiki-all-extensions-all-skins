@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-rating-extension-description": "Dèje 'nu sisteme de vote",
+	"bs-rating-types-page": "Pundegge d'a pàgene",
+	"bs-rating-types-pagelike": "Pàgene d'u conziglie",
+	"rating": "Pundegge",
+	"recommendations": "Conziglie",
+	"bs-rating-yourrating": "'U pundegge tune: $1",
+	"bs-rating-special-rating-heading": "Pundegge",
+	"bs-rating-articlelike-ratingtext": "Conzigliate ($1)",
+	"bs-rating-articlelike-uratingtextservoted": "Conzigliate ($1)",
+	"action-rating-viewspecialpage": "'ndruche le pàggene prutette cu 'u deritte \"Rating-Viewspecialpage\"",
+	"action-rating-read": "lìgge le vote sus a le pàggene",
+	"action-rating-write": "vote sus a le pàggene",
+	"action-rating-archive": "live le vote da le pàggene",
+	"right-rating-viewspecialpage": "'Ndruche le pàggene prutette cu 'u deritte \"Rating-Viewspecialpage\"",
+	"right-rating-read": "Lìgge le pundegge sus a le pàggene",
+	"right-rating-write": "Vote sus a le pàggene",
+	"right-rating-archive": "Live le vote da le pàggene",
+	"bs-rating-special-recommendations-heading": "Conziglie",
+	"bs-rating-special-recommendations-label-recommendation": "Conziglie",
+	"bs-rating-specialrating-label-namespace": "Namespace",
+	"bs-rating-specialrating-titleTitle": "Titole",
+	"bs-rating-specialrating-titleRating": "Pundegge",
+	"bs-rating-specialrating-titleVotes": "Numere d'u pundegge",
+	"apihelp-bs-rating-tasks-description": "Lange le attività comune pe l'estenzione Rating",
+	"apihelp-bs-rating-store-description": "Pundegge de consegne pe le vôsce",
+	"bs-rating-nsm-label": "Pundegge",
+	"bs-rating-nsm-label-recommendations": "Conziglie",
+	"apihelp-bs-rating-tasks-summary": "Lange le attività comune pe l'estenzione Rating",
+	"apihelp-bs-ratingarticle-store-summary": "Pundegge de consegne pe le vôsce",
+	"apihelp-bs-ratingarticlelike-store-summary": "Conziglie de consegne pe le vôsce"
+}

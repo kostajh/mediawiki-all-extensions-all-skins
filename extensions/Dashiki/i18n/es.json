@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Fitoschido"
+		]
+	},
+	"dashiki-desc": "Visualización y modificación de las opciones del tablero",
+	"dashiki-build": "Construye un tablero con esta configuración mediante la orden:",
+	"dashiki-annotate": "Ver y añadir anotaciones:",
+	"dashiki-configuration-doc-link-text": "consultar documentación"
+}

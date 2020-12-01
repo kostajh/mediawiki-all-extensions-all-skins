@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Obaid Raza",
+			"محبوب عالم"
+		]
+	},
+	"edituser": "صارف کی تدوین",
+	"edituser-desc": "منتظمین کو دوسرے صارفین کی ترجیحات میں تبدیلی کی اجازت دیتا ہے",
+	"edituser-username": "صارف نام:",
+	"edituser-dosearch": "تلاش",
+	"edituser-nouser": "صارف \"$1\" صارف موجود نہیں۔",
+	"edituser-exempt": "صارف \"$1\" کی تدوین نہیں ہوسکتی۔",
+	"right-edituser": "دوسرے صارفین کی ترجیحات کی تدوین",
+	"right-edituser-exempt": "دوسرے صارفِ ہٰذا کی ترجیحات تدوین نہیں کرسکتے",
+	"action-edituser": "دوسرے صارفین کی ترجیحات کی تدوین",
+	"action-edituser-exempt": "دوسرے صارفین اس صارف کی ترجیحات میں تبدیلی نہیں کر سکتے"
+}

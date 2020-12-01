@@ -1,0 +1,15 @@
+{
+    "name": "wikiworks/encrypted-uploads",
+    "description": "Allows to encrypt uploaded files providing an ability to share secret with selected group of users",
+    "type": "mediawiki-extension",
+    "require": {
+        "defuse/php-encryption": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey",
+            "email": "hire@mediawiki.pro"
+        }
+    ]
+}

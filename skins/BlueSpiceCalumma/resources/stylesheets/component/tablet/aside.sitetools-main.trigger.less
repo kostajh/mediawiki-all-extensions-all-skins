@@ -1,0 +1,22 @@
+body .calumma-tablet-visible {
+	.sidebar-toggle[data-toggle~="sitetools-main-collapse"]{
+		position: fixed;
+		padding: 0.3em 1em 0.2em 1em;
+		top: 0;
+		right: 1em;
+		z-index: 12;
+		i.sitetools-main-collapse::before{
+			font-family: 'entypo';
+			content: "\e93c";
+			font-size: 2em;
+			font-style: normal;
+			float: left;
+		}
+		&:hover{
+			text-decoration: none;
+		}
+		&:focus{
+			text-decoration: none;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+<!-- 
+     page taken from 
+     https://www.mediawiki.org/wiki/Extension:DynamicPageListEngine/Release_notes
+-->  
+== Release notes ==
+
+These are the release notes for version 1.1. See [[{{NAMESPACE}}:{{BASEPAGENAME}}/History]] for older releases.
+
+=== New features ===
+
+* Added the '''withoutsuffix''' item to the result records of [[{{NAMESPACE}}:{{BASEPAGENAME}}#mw.ext.dpl.getPages]].
+* Added the '''resolve''' option to the [[{{NAMESPACE}}:{{BASEPAGENAME}}#Redirects]] module.
+* Added the [[{{NAMESPACE}}:{{BASEPAGENAME}}#Redirectsto]] module.
+
+=== Bugfixes ===
+
+* Page titles containing <code>&</code> characters are now handled correctly.
+

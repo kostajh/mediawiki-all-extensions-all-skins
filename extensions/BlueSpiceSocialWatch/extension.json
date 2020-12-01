@@ -1,0 +1,79 @@
+{
+	"name": "BlueSpiceSocialWatch",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SocialWatch",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-socialwatch-desc",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceSocial": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocialWatch": {
+					"className": "\\BlueSpice\\Social\\Watch\\Extension",
+					"extPath": "/BlueSpiceSocialWatch",
+					"status": "beta",
+					"package": "BlueSpiceSocial"
+				}
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceSocialWatch": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\Watch\\": "src/"
+	},
+	"APIModules": {
+		"bs-socialwatch-tasks": "\\BlueSpice\\Social\\Watch\\Api\\Task\\WatchEntities"
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"ResourceModules": {
+		"ext.bluespice.social.watch.styles": {
+			"styles": {
+				"bluespice.social.watch.mobile.less": {
+					"media": "all and ( max-width: 720px )"
+				},
+				"bluespice.social.watch.desktop.less": {
+					"media": "all and ( min-width: 721px )"
+				}
+			}
+		},
+		"ext.bluespice.social.watch": {
+			"dependencies": [
+				"ext.bluespice.social.entity"
+			],
+			"scripts": [
+				"EntityActionMenu/Watch.js",
+				"bluespice.social.watch.js"
+			],
+			"messages": [
+				"bs-socialwatch-watchtext",
+				"bs-socialwatch-unwatchtext"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocialWatch/resources"
+	},
+	"Hooks": {
+		"BSSocialModuleDepths": "\\BlueSpice\\Social\\Watch\\Hook\\BSSocialModuleDepths\\AddModules::callback",
+		"BSEntityGetFullData": "\\BlueSpice\\Social\\Watch\\Hook\\BSEntityGetFullData\\AddWatch::callback",
+		"BSEntityConfigDefaults": "\\BlueSpice\\Social\\Watch\\Hook\\BSEntityConfigDefaults\\IsWatchable::callback",
+		"BSEntitySaveComplete": "\\BlueSpice\\Social\\Watch\\Hook\\BSEntitySaveComplete\\AutoWatch::callback",
+		"BSSocialEntityGetActions": "\\BlueSpice\\Social\\Watch\\Hook\\BSSocialEntityGetActions\\AddWatch::callback"
+	},
+	"manifest_version": 2
+}

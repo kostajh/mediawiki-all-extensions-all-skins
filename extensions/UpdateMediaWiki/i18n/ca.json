@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"updatemediawiki": "Actualització del MediaWiki",
+	"updatemediawiki-update-nofound": "No hi ha cap actualització disponible",
+	"updatemediawiki-update-found": "S’ha trobat una actualització: $1",
+	"updatemediawiki-update-downloading": "S’està baixant l’actualització",
+	"updatemediawiki-update-saved": "S’ha baixat i desat l’actualització",
+	"updatemediawiki-update-exist": "Ja s’ha baixat l’actualització",
+	"updatemediawiki-update-copyready": "La còpia és a punt",
+	"updatemediawiki-update-database": "Voleu actualitzar la base de dades ara?",
+	"updatemediawiki-update-updateready": "L’actualització és a punt",
+	"updatemediawiki-update-updated": "El MediaWiki s’ha actualitzat a la versió $1",
+	"updatemediawiki-update-aborted": "No s’ha pogut desar l’actualització. S’ha interromput l’operació"
+}

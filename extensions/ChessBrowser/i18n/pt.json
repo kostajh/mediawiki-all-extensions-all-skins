@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Mansil alfalb"
+		]
+	},
+	"chessbrowser-desc": "Adiciona a etiqueta pgn para tornar a notação do jogo de xadrez interativa.",
+	"chessbrowser-expand-button": "Expandir",
+	"chessbrowser-game-detail": "Detalhes do jogo",
+	"chessbrowser-site-label": "Localização",
+	"chessbrowser-date-label": "Data",
+	"chessbrowser-white-label": "Brancas",
+	"chessbrowser-black-label": "Pretas",
+	"chessbrowser-result-label": "Resultado",
+	"chessbrowser-beginning-of-game": "Ir para a primeira jogada",
+	"chessbrowser-previous-move": "Jogada anterior",
+	"chessbrowser-slow-autoplay": "Mais lento",
+	"chessbrowser-play-pause-button": "Reprodução/Pausa",
+	"chessbrowser-fast-autoplay": "Mais rápido",
+	"chessbrowser-next-move": "Jogada seguinte",
+	"chessbrowser-end-of-game": "Ir para a última jogada"
+}

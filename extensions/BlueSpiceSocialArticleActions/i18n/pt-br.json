@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-socialarticleactions-desc": "Adiciona entradas básicas de ação de artigo ao BlueSpiceSocial",
+	"bs-socialarticleactions-type-articlesave": "Edição de artigo",
+	"bs-socialarticleactions-type-articlecreate": "Criação de artigo",
+	"bs-socialarticleactions-type-articledelete": "Excluir artigo",
+	"bs-socialarticleactions-type-filesave": "Edição de arquivo",
+	"bs-socialarticleactions-type-filecreate": "Criação de arquivo",
+	"bs-socialarticleactions-type-filedelete": "Exclusão de arquivo",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] editou o artigo [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] criou o artigo [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] excluiu o artigo [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] adicionou uma nova versão do arquivo [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] enviou o arquivo [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] excluiu o arquivo [[:$6|$6]]"
+}

@@ -1,0 +1,24 @@
+{
+	"name": "UploadBlacklist",
+	"author": "[https://www.mediawiki.org/wiki/User:Brion_VIBBER Brion Vibber]",
+	"url": "https://www.mediawiki.org/wiki/Extension:UploadBlacklist",
+	"license-name": "GPL-2.0-or-later",
+	"descriptionmsg": "uploadblacklist-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"MessagesDirs": {
+		"UploadBlacklist": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"UploadVerification": "UploadBlacklistHooks::onUploadVerification"
+	},
+	"config": {
+		"_prefix": "ub",
+		"UploadBlacklist": false
+	},
+	"manifest_version": 1
+}

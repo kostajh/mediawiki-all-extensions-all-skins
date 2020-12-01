@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"apihelp-parsoid-batch-description": "Групирањето на извршникот (за Parsoid) за масовни барања од прилогот на МедијаВики",
+	"apihelp-parsoid-batch-summary": "Групен извршник за Parsoid",
+	"apihelp-parsoid-batch-param-batch": "Барања од извршникот (највеќе 500 по совпаѓање).",
+	"apierror-parsoid-batch-notallowed": "IP-адресата на клиентот не е во ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "Неважечка група. Мора да биде низа.",
+	"apierror-parsoid-batch-batchtoolarge": "Групата е преголема. Ограничувањето е 500.",
+	"apierror-parsoid-batch-invalidaction": "Неважечко дејство во показателот $1 на ставката.",
+	"apierror-parsoid-batch-texttoobig": "Внесениот текст ја надминува величинската граница на страницата.",
+	"apierror-parsoid-batch-invalidtitle": "Неважечки наслов ($1).",
+	"apierror-parsoid-batch-mustbescalar": "Параметарот <var>$1</var> мора да биде скаларен.",
+	"apierror-parsoid-batch-mustbearray": "Параметарот <var>$1</var> мора да биде низа."
+}

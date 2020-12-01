@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Glanthor Reviol",
+			"Misibacsi",
+			"Tacsipacsi"
+		]
+	},
+	"globalusage": "Globális fájlhasználat",
+	"globalusage-for": "„$1” globális használata",
+	"globalusage-filename": "Fájlnév:",
+	"globalusage-desc": "[[Special:GlobalUsage|Speciális lap]] globális fájlhasználat megjelenítésére",
+	"globalusage-ok": "Keresés",
+	"globalusage-text": "Fájlhasználat globális keresése",
+	"globalusage-no-results": "A(z) [[:$1]] fájl nincs más wikiken használva.",
+	"globalusage-on-wiki": "Használata itt: $2",
+	"globalusage-of-file": "A következő wikik használják ezt a fájlt:",
+	"globalusage-more": "A fájl [[{{#Special:GlobalUsage}}/$1|globális használatának]]  megtekintése",
+	"globalusage-filterlocal": "Ne mutassa a helyi használatot",
+	"mostgloballylinkedfiles": "Globálisan legtöbbet hivatkozott fájlok",
+	"globallywantedfiles": "Globálisan keresett fájlok",
+	"globallyunusedfiles": "Globálisan nem használt fájlok",
+	"globallyunusedfilestext": "A következő fájlok léteznek, de nincsenek használatban egyetlen wiki egyetlen lapján se.",
+	"globallyunusedfiles-error-nonsharedrepo": "Ez a wiki nem a központi médiatár"
+}

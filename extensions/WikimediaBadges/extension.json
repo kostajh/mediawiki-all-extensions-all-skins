@@ -1,0 +1,50 @@
+{
+	"name": "WikimediaBadges",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Bene* Bene*]",
+		"[https://www.mediawiki.org/wiki/User:Hoo_man Marius Hoch]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WikimediaBadges",
+	"descriptionmsg": "wikimediabadges-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "wikibase",
+	"MessagesDirs": {
+		"WikimediaBadges": [
+			"i18n"
+		]
+	},
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"AutoloadNamespaces": {
+		"WikimediaBadges\\": "includes/"
+	},
+	"ResourceModules": {
+		"ext.wikimediaBadges": {
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"skinStyles": {
+				"vector": "skins/vector/wikimedia-badges.css",
+				"monobook": "skins/monobook/wikimedia-badges.css",
+				"cologneblue": "skins/cologneblue/wikimedia-badges.css",
+				"modern": "skins/modern/wikimedia-badges.css"
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "WikimediaBadges/resources"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "WikimediaBadges\\BeforePageDisplayHookHandler::onBeforePageDisplay",
+		"WikibaseClientSiteLinksForItem": "WikimediaBadges\\WikibaseClientSiteLinksForItemHandler::provideSiteLinks"
+	},
+	"config": {
+		"WikimediaBadgesCommonsCategoryProperty": {
+			"value": "P373"
+		}
+	},
+	"manifest_version": 2
+}

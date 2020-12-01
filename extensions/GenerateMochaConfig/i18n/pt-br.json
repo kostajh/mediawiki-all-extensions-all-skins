@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"generatemochaconfig-desc": "Um script que gera um JSON que pode ser usado para executar testes Mocha para todas as extensões ativadas"
+}

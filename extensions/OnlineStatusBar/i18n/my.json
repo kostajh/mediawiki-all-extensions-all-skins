@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
+	"prefs-onlinestatus": "အွန်လိုင်း အခြေနေ",
+	"onlinestatusbar-used": "သင်၏ အသုံးပြုသူစာမျက်နှာများတွင် အွန်လိုင်းအခြေနေကို ပြသရန်",
+	"onlinestatusbar-title-online": "{{GENDER:$1|အွန်လိုင်း}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|အလုပ်များ}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|အဝေးရောက်}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|ပုန်းကွယ်နေ}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|အော့ဖ်လိုင်း}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|မသိရ}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|ဤအသုံးပြုသူသည်}} ယခု အွန်လိုင်းဖြစ်နေသည်",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|ဤအသုံးပြုသူသည်}} အော့ဖ်လိုင်းဖြစ်နေသည်",
+	"onlinestatusbar-tooltip-unknown": "{{GENDER:$1|ဤအသုံးပြုသူ}}၏ အခြေနေမှာ မသိရပါ"
+}

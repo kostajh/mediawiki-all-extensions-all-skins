@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": ["Nx"]
+	},
+	"wigo3-description": "Up/down voting system.",
+	"wigoerror": "Missing poll id",
+	"wigovotestotal": "$1 {{plural:$1|vote|votes}} total",
+	"wigovotestotald": "$1 {{plural:$1|vote|votes}} total ($2/$3/$4)",
+	"wigovotedistrib": "$1 up, $2 neutral, $3 down",
+	"wigoaltup": "up",
+	"wigoaltdown": "down",
+	"wigoaltreset": "neutral",
+	"wigotitleup": "vote up",
+	"wigotitledown": "vote down",
+	"wigotitlereset": "vote neutral",
+	"multi-votebutton": "Vote",
+	"multi-votetitle": "Click here to vote for this option",
+	"apihelp-query+wigo-summary": "Get wigo entries",
+	"apihelp-query+wigovotes-summary": "Get wigo votes",
+	"wigo-bestof-legend": "Options",
+	"wigo-bestof-cutoff": "Cutoff for vote value",
+	"wigo-bestof-month": "Year and month to display",
+	"wigo-bestof-filter": "Filter by keyword",
+	"wigo-bestof-submit": "Submit",
+	"wigo-bestof-tooltipseparator": "&bull;"
+}

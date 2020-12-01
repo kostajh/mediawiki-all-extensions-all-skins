@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"helppages-desc": "Automatycznie pobiera strony pomocy z [https://www.mediawiki.org mediawiki.org]",
+	"helppages-notice": "Ta strona została pobrana z [https://www.mediawiki.org/?oldid=$1 mediawiki.org] i można ją edytować.",
+	"helppages-edit-tab": "Edycja na MediaWiki.org"
+}

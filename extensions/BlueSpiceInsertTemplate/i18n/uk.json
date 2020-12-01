@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-insertTemplate-desc": "Діалог вставки шаблону",
+	"bs-insertTemplate-button-template-title": "Вставити або відредагувати шаблон",
+	"bs-insertTemplate-dialog-title": "Вставити шаблон",
+	"bs-insertTemplate-dialog-label-choose": "Вибрати шаблон",
+	"bs-insertTemplate-dialog-label-modify": "Змінити шаблон",
+	"bs-insertTemplate-dialog-label-preview": "Попередній перегляд",
+	"apihelp-bs-inserttemplate-store-description": "Перелічує всі шаблони. Дає можливість сортування, фільтрування та пагінації. Реалізовує параметри ExtJS Store.",
+	"apihelp-bs-inserttemplate-store-summary": "Перелічує всі шаблони. Дає можливість сортування, фільтрування та пагінації. Реалізовує параметри ExtJS Store."
+}

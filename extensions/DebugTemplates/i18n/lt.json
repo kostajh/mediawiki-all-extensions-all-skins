@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"debugtemplates-form": "Įvesties sritis",
+	"debugtemplates-title": "Puslapio pavadinimas (nebūtina, tik kontekstui)",
+	"debugtemplates-args-title": "Parametrai",
+	"debugtemplates-args-name": "Pavadinimas",
+	"debugtemplates-args-eval": "Įvertinti visus",
+	"debugtemplates-args-set": "Nustatyti?",
+	"debugtemplates-args-value": "Reikšmė",
+	"debugtemplates-args-eval-all": "Įvertinti",
+	"debugtemplates-args-set-toggle": "Nustatyti/atstatyti visus",
+	"debugtemplates-args-unused": "Slėpti/rodyti nepanaudotus",
+	"debugtemplates-args-value-clear": "Valyti visus",
+	"debugtemplates-args-constructed": "nėra pavadinimo",
+	"debugtemplates-error-button": "Valyti klaidų pranešimus",
+	"debugtemplates-error-eval": "Klaida: Nepavyko įvertinti įvesties teksto:",
+	"debugtemplates-error-template-name": "Klaida: Nepavyko nustatyti šablono pavadinimo:",
+	"debugtemplates-error-template-page": "Klaida: Nepavyko įkelti šablono puslapio:",
+	"debugtemplates-eval": "Įvertinti visus",
+	"debugtemplates-input": "Įvesties tekstas",
+	"debugtemplates-radio-select": "niekas",
+	"debugtemplates-radio-eval": "įvertinti",
+	"debugtemplates-reset": "Anuliuoti visus vertinimus",
+	"debugtemplates-undo": "Anuliuoti vertinimą",
+	"debugtemplates-warning-template-not-a-template": "Nepavyko rasti šablono:"
+}

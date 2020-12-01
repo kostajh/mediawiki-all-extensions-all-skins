@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Priviet",
+			"Ykhwong"
+		]
+	},
+	"onlyrecentrecentchanges-desc": "최근 내용이 바뀌었을 때 한 번만 최근 바뀜 목록 문서를 보이기",
+	"onlyrecentrecentchanges-option": "모든 바뀐 문서의 최근 바뀜만을 보이기 (위에 보이는 것과 같이 ''{{int:prefs-displayrc}}''의 제한에 따라)"
+}

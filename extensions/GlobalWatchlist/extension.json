@@ -1,0 +1,256 @@
+{
+	"name": "GlobalWatchlist",
+	"author": [
+		"DannyS712"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GlobalWatchlist",
+	"descriptionmsg": "globalwatchlist-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"SpecialPages": {
+		"GlobalWatchlist": {
+			"class": "MediaWiki\\Extension\\GlobalWatchlist\\SpecialGlobalWatchlist",
+			"services": [
+				"StatsdDataFactory"
+			]
+		},
+		"GlobalWatchlistSettings": {
+			"class": "MediaWiki\\Extension\\GlobalWatchlist\\SpecialGlobalWatchlistSettings",
+			"factory": "MediaWiki\\Extension\\GlobalWatchlist\\SpecialGlobalWatchlistSettings::newFromGlobalState",
+			"services": [
+				"GlobalWatchlistSettingsManager",
+				"UserOptionsManager"
+			]
+		}
+	},
+	"HookHandlers": {
+		"GlobalWatchlistHooks": {
+			"class": "MediaWiki\\Extension\\GlobalWatchlist\\GlobalWatchlistHooks",
+			"services": [
+				"SpecialPageFactory",
+				"StatsdDataFactory"
+			]
+		},
+		"GlobalWatchlistGuidedTourHooks": {
+			"class": "MediaWiki\\Extension\\GlobalWatchlist\\GlobalWatchlistGuidedTourHooks",
+			"factory": "MediaWiki\\Extension\\GlobalWatchlist\\GlobalWatchlistGuidedTourHooks::newFromGlobalState"
+		}
+	},
+	"Hooks": {
+		"ApiOptions": {
+			"handler": "GlobalWatchlistHooks"
+		},
+		"GetPreferences": {
+			"handler": "GlobalWatchlistHooks"
+		},
+		"LoginFormValidErrorMessages": {
+			"handler": "GlobalWatchlistHooks"
+		},
+		"ResourceLoaderRegisterModules": {
+			"handler": "GlobalWatchlistGuidedTourHooks"
+		},
+		"SkinBuildSidebar": {
+			"handler": "GlobalWatchlistHooks"
+		}
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\GlobalWatchlist\\": "includes/"
+	},
+	"MessagesDirs": {
+		"GlobalWatchlist": [
+			"i18n",
+			"i18n/script"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"GlobalWatchlistAliases": "GlobalWatchlist.alias.php"
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"config": {
+		"GlobalWatchlistWikibaseSite": {
+			"value": false,
+			"description": "Site for which labels should be fetched for items on the watchlist, or false for none"
+		},
+		"GlobalWatchlistUseVue": {
+			"value": false,
+			"description": "Whether to use the Vue version of the code for Special:GlobalWatchlist"
+		},
+		"GlobalWatchlistDevMode": {
+			"value": true,
+			"description": "Whether to send debug entries to the console"
+		},
+		"GlobalWatchlistEnableGuidedTour": {
+			"value": false,
+			"description": "Whether to enabled the GuidedTour for Special:GlobalWatchlistSettings"
+		},
+		"GlobalWatchlistSiteLimit": {
+			"value": 5,
+			"description": "The maximum number of sites that a user can save to their watchlist. Set to 0 to disable the limit"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "GlobalWatchlist/modules"
+	},
+	"ResourceModules": {
+		"ext.globalwatchlist.specialglobalwatchlist": {
+			"packageFiles": [
+				"SpecialGlobalWatchlist.display.js",
+				"getSettings.js",
+				"Debug.js",
+				"Linker.js",
+				"MultiSiteWrapper.js",
+				"SiteBase.js",
+				"SiteDisplay.js",
+				"watchlistUtils.js",
+				"WikibaseHandler.js"
+			],
+			"styles": [
+				"SpecialGlobalWatchlist.display.css"
+			],
+			"templates": [
+				"templates/allEmptySites.mustache",
+				"templates/newEmptySiteRow.mustache",
+				"templates/siteRowHeader.mustache"
+			],
+			"messages": [
+				"globalwatchlist-asof",
+				"globalwatchlist-changesfeed",
+				"globalwatchlist-editwatchlist",
+				"globalwatchlist-emptyfeed",
+				"globalwatchlist-fetch-site-failure",
+				"globalwatchlist-globalwatchlistsettingslink",
+				"globalwatchlist-grouped-timestamp",
+				"globalwatchlist-markseen",
+				"globalwatchlist-markseen-all",
+				"globalwatchlist-markseen-allconfirm",
+				"globalwatchlist-option-grouppage",
+				"globalwatchlist-option-live",
+				"globalwatchlist-refresh",
+				"globalwatchlist-rewatch",
+				"globalwatchlist-unwatch",
+				"boteditletter",
+				"diff",
+				"history_small",
+				"minoreditletter",
+				"nchanges",
+				"ntimes",
+				"newpageletter",
+				"rev-deleted-user",
+				"sp-contributions-logs"
+			],
+			"dependencies": [
+				"jquery.makeCollapsible",
+				"mediawiki.ForeignApi",
+				"oojs",
+				"oojs-ui-core",
+				"oojs-ui-widgets",
+				"oojs-ui-windows",
+				"oojs-ui.styles.icons-content",
+				"oojs-ui.styles.icons-interactions",
+				"oojs-ui.styles.icons-media",
+				"oojs-ui.styles.icons-moderation",
+				"oojs-ui.styles.icons-movement",
+				"user.options"
+			]
+		},
+		"ext.globalwatchlist.specialglobalwatchlist.vue": {
+			"packageFiles": [
+				"SpecialGlobalWatchlist.vue.js",
+				"getSettings.js",
+				"Debug.js",
+				"Linker.js",
+				"MultiSiteWrapper.js",
+				"SiteBase.js",
+				"SiteVue.js",
+				"watchlistUtils.js",
+				"WikibaseHandler.js",
+				"vue/base/Label.vue",
+				"vue/base/Button.vue",
+				"vue/base/Toggle.vue",
+				"vue/base/CollapsibleWrapper.vue",
+				"vue/EntryRow.vue",
+				"vue/base/LoadingBar.vue",
+				"vue/Site.vue",
+				"vue/SitesWithoutChanges.vue",
+				"vue/SpecialGlobalWatchlist.vue",
+				"vue/Toolbar.vue"
+			],
+			"messages": [
+				"globalwatchlist-asof",
+				"globalwatchlist-changesfeed",
+				"globalwatchlist-editwatchlist",
+				"globalwatchlist-emptyfeed",
+				"globalwatchlist-fetch-site-failure",
+				"globalwatchlist-globalwatchlistsettingslink",
+				"globalwatchlist-grouped-timestamp",
+				"globalwatchlist-markseen",
+				"globalwatchlist-markseen-all",
+				"globalwatchlist-markseen-allconfirm",
+				"globalwatchlist-option-grouppage",
+				"globalwatchlist-option-live",
+				"globalwatchlist-refresh",
+				"globalwatchlist-rewatch",
+				"globalwatchlist-unwatch",
+				"boteditletter",
+				"collapsible-collapse",
+				"collapsible-expand",
+				"diff",
+				"history_small",
+				"minoreditletter",
+				"nchanges",
+				"ntimes",
+				"newpageletter",
+				"rev-deleted-user",
+				"sp-contributions-logs"
+			],
+			"dependencies": [
+				"vue",
+				"mediawiki.ForeignApi",
+				"oojs",
+				"oojs-ui-windows",
+				"user.options"
+			]
+		},
+		"ext.globalwatchlist.specialglobalwatchlistsettings": {
+			"styles": [
+				"SpecialGlobalWatchlistSettings.css"
+			],
+			"dependencies": [
+				"mediawiki.htmlform.ooui"
+			]
+		},
+		"ext.globalwatchlist.getsettingserror": {
+			"packageFiles": [
+				"getSettings.error.js"
+			],
+			"messages": [
+				"globalwatchlist-getoptions-error"
+			],
+			"dependencies": [
+				"oojs-ui-windows"
+			]
+		}
+	},
+	"QUnitTestModule": {
+		"localBasePath": "",
+		"remoteExtPath": "GlobalWatchlist",
+		"packageFiles": [
+			"tests/qunit/tests.js",
+			"tests/qunit/Debug.tests.js",
+			"tests/qunit/Linker.tests.js",
+			"tests/qunit/getSettings.tests.js",
+			"tests/qunit/watchlistUtils.tests.js",
+			"modules/Debug.js",
+			"modules/Linker.js",
+			"modules/getSettings.js",
+			"modules/watchlistUtils.js"
+		]
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"Movses",
+			"Okras",
+			"Vlad5250"
+		]
+	},
+	"bs-bluespiceabout-desc": "Информация о BlueSpice.",
+	"bs-bluespiceabout-about-bluespice": "О BlueSpice",
+	"bluespiceabout": "О BlueSpice",
+	"prefs-bluespiceabout": "О BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Показывать ссылку «{{int:bs-bluespiceabout-about-bluespice}}» в главном меню",
+	"action-bluespiceabout-viewspecialpage": "просмотр служебной страницы «{{int:bs-bluespiceabout-about-bluespice}}»",
+	"right-bluespiceabout-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceAbout]]"
+}

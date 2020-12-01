@@ -1,0 +1,73 @@
+{
+	"name": "BlueSpiceSignHere",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"author": [
+		"Robert Vogel"
+	],
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SignHere",
+	"descriptionmsg": "bs-signhere-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSignHere": {
+					"className": "\\BlueSpice\\SignHere\\Extension",
+					"extPath": "/BlueSpiceSignHere"
+				}
+			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"TagDefinitions": [
+				"ext.bluespice.signhere.visualEditorTagDefinition"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceSignHere": [ "i18n" ]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\SignHere\\": "src/"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "BlueSpice\\SignHere\\Hook\\ParserFirstCallInit::handle",
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\SignHere\\Hook\\BSInsertMagicAjaxGetData\\SignHere::callback"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSignHere/resources"
+	},
+	"ResourceModules": {
+		"ext.blueSpice.signHere": {
+			"scripts": [
+				"ext.blueSpice.signHere.js"
+			],
+			"messages" :[
+				"bs-signhere-edit-summary"
+			]
+		},
+		"ext.blueSpice.signHere.styles": {
+			"styles": [
+				"ext.blueSpice.signHere.less"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		},
+		"ext.bluespice.signhere.visualEditorTagDefinition": {
+			"scripts": [
+				"bs.sgnhr/util/tag/SignHereDefinition.js"
+			],
+			"messages": [
+				"bs-signhere-tag-signhere-desc",
+				"bs-signhere-tag-signhere-title"
+			]
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

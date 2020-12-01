@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"uploadslink-desc": "Amiesta un enllaz a la llista de xubíes del usuariu actual nel menú de ferramientes personales, y un enllaz nel menú de ferramientes de la barra llateral a la llista de xubíes relevantes del usuariu.",
+	"uploadslink-portlet-label": "Xubíes",
+	"tooltip-pt-uploads": "Llista de los ficheros que xubisti",
+	"uploadslink-toobox-label": "Xubíes {{GENDER:$1|del usuariu|de la usuaria}}",
+	"tooltip-tb-uploads": "Llista de ficheros xubíos por {{GENDER:$1|esti usuariu|esta usuaria}}"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"Sayginer"
+		]
+	},
+	"bs-authors-desc": "Bir sayfanın yazarları için profil resmini gösterir",
+	"prefs-authors": "Bu sayfanın yazarları",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Yazar}}|Yazar}}",
+	"bs-authors-profileimage": "Profil resmi",
+	"bs-authors-profileimage-change": "Profil resmini değiştir",
+	"bs-authors-show-all-authors": "Daha fazla yazar mevcut",
+	"bs-authors-pref-show": "Yazarları görüntüle",
+	"bs-authors-switch-description": "Bu sayfadaki yazarları gizler.",
+	"bs-authors-navigation-link-title": "Bu sayfanın yazarları",
+	"bs-authors-navigation-link-text": "Yazarlar",
+	"bs-authors-flyout-title": "Bu sayfaın yazarları",
+	"bs-authors-author-type-originator": "Orijinal yazar",
+	"bs-authors-author-type-editor": "Editör",
+	"apihelp-bs-pageauthors-store-summary": "Bağlamda sağlanan bir sayfanın tüm yazarlarını listele"
+}

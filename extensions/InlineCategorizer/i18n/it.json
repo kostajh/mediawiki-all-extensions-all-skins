@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Darth Kule",
+			"Gianfranco"
+		]
+	},
+	"inlinecategorizer-desc": "Modulo JavaScript che consente la modifica, l'aggiunta e la rimozione di categorie direttamente nella pagina",
+	"inlinecategorizer-add-category": "Aggiungi categoria",
+	"inlinecategorizer-add-category-submit": "Aggiungi",
+	"inlinecategorizer-add-category-summary": "aggiungere la categoria \"$1\"",
+	"inlinecategorizer-api-error": "L'API ha restituito un errore: $1: $2",
+	"inlinecategorizer-api-unknown-error": "L'API ha restituito un errore sconosciuto.",
+	"inlinecategorizer-cancel": "Annulla modifica",
+	"inlinecategorizer-cancel-all": "Annulla tutte le modifiche",
+	"inlinecategorizer-category-already-present": "Questa pagina appartiene già alla categoria $1",
+	"inlinecategorizer-category-hook-error": "Una funzione locale ha impedito che le modifiche vengano salvate",
+	"inlinecategorizer-category-question": "Perché vuoi apportare le seguenti modifiche:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Salva",
+	"inlinecategorizer-confirm-save-all": "Salva tutte le modifiche",
+	"inlinecategorizer-confirm-title": "Conferma l'azione",
+	"inlinecategorizer-edit-category": "Modifica categoria",
+	"inlinecategorizer-edit-category-error": "Non è stato possibile modificare la categoria \"$1\".\nDi solito avviene quando la categoria è stata aggiunta alla pagina da un template.",
+	"inlinecategorizer-edit-category-summary": "modificare la categoria \"$1\" in \"$2\"",
+	"inlinecategorizer-error-title": "Errore",
+	"inlinecategorizer-remove-category": "Rimuovere categoria",
+	"inlinecategorizer-remove-category-error": "Non è stato possibile rimuovere la categoria \"$1\".\nCiò si verifica in genere quando la categoria è stata aggiunta alla pagina in un template.",
+	"inlinecategorizer-remove-category-summary": "rimuovere la categoria \"$1\""
+}

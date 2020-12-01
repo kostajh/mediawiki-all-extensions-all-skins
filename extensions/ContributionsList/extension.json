@@ -1,0 +1,28 @@
+{
+	"name": "ContributionsList",
+	"version": "0.3.1",
+	"author": "[https://www.mediawiki.org/wiki/User:Tosfos Ike Hecht]",
+	"url": "https://www.mediawiki.org/wiki/Extension:ContributionsList",
+	"descriptionmsg": "contributionslist-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"MessagesDirs": {
+		"ContributionsList": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ContributionsListMagic": "ContributionsList.magic.php"
+	},
+	"AutoloadClasses": {
+		"ContributionsListHooks": "includes/ContributionsListHooks.php",
+		"ContributionsList": "includes/ContributionsList.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "ContributionsListHooks::setupParserFunction"
+	},
+	"manifest_version": 1
+}

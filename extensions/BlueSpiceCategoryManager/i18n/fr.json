@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"bluespicecategorymanager": "Gestionnaire de catégories",
+	"bluespicecategorymanager-desc": "Outil visuel pour gérer les catégories",
+	"action-categorymanager-viewspecialpage": "afficher le gestionnaire de catégories",
+	"bs-categorymanager-draganddrop-text": "Glisser et déposer pour réorganiser",
+	"bs-categorymanager-label": "Gestionnaire de catégories",
+	"bs-categorymanager-dlg-new-title": "Créer une catégorie",
+	"bs-categorymanager-dlg-new-prompt": "Veuillez saisir le nom :",
+	"bs-categorymanager-removecategoryconfirm-text": "Êtes-vous sûr de vouloir supprimer cette catégorie ?",
+	"bs-categorymanager-removecategoryconfirm-title": "Supprimer la catégorie",
+	"bs-categorymanager-addcategory-dialog-error-title": "Échec dans la création de catégorie",
+	"bs-categorymanager-action-show-category": "Afficher la catégorie",
+	"right-categorymanager-viewspecialpage": "Accéder à la page spéciale [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Allocation de catégorie",
+	"bs-categorymanager-collection-var-namespacename": "Espace de noms",
+	"bs-categorymanager-collection-var-categorizedpages": "Pages catégorisées",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pages non catégorisées"
+}

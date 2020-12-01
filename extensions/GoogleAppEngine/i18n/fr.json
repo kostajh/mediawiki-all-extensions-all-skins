@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094",
+			"Wladek92"
+		]
+	},
+	"gae-desc": "Apporte des améliorations aux wikis s'exécutant sous   GoogleAppEngine",
+	"apihelp-gaejobqueue-description": "Module d’API interne pour exécuter la liste des travaux (JobQueue). Ne doit pas être appelé de l’extérieur.",
+	"apihelp-gaejobqueue-summary": "Module de l’API interne pour exécuter JobQueue. L’utilisation externe n’est pas autorisée.",
+	"apihelp-gaejobqueue-param-namespace": "Identificateur numérique de l’espace de noms.",
+	"apihelp-gaejobqueue-param-titletext": "Texte du titre sans le nom de l’espace.",
+	"apihelp-gaejobqueue-param-type": "Type de travail.",
+	"apihelp-gaejobqueue-param-params": "Paramètres PHP sérialisés pour le travail."
+}

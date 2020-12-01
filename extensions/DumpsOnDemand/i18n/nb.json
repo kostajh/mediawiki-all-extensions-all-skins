@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"dumpsondemand-desc": "La priviligerte brukere be om databasekopier",
+	"requestdump": "Be om databasekopi",
+	"requestdump-text": "Databasekopier kan brukes som personlig backup eller for vedlikeholdsbotter. Alle forespørsler logges i [[Special:Log/dumprequest|databasekopiloggen]].",
+	"dumpsondemand-current-revisions": "Alle sider med kun nåværende revisjoner",
+	"dumpsondemand-current-revisions-help": "Denne versjonen er mest passende for botbruk.",
+	"dumpsondemand-all-revisions": "Alle sider med historikk",
+	"dumpsondemand-all-revisions-help": "Denne versjonen passer best for backup. Advarsel: Denne fila kan være veldig stor!",
+	"dumpsondemand-request-dump-button-label": "Be om en ny kopi",
+	"dumpsondemand-dump-already-requested": "En kopi har allerede blitt forespurt",
+	"dumpsondemand-dump-unavailable": "Denne kopien har ikke blitt opprettet ennå",
+	"log-name-dumprequest": "Databasekopilogg",
+	"log-description-dumprequest": "Disse hendelsene sporer når det kommer forespørsler om databasekopier.",
+	"logentry-dumprequest": "{{GENDER:$2|ba om}} en databasekopi",
+	"right-dumpsondemand": "Be om databasekopier ved behov",
+	"action-dumpsondemand": "be om databasekopier ved behov",
+	"right-dumprequestlog": "Vise loggen for forespørsler etter databasekopier",
+	"action-dumprequestlog": "vise loggen for forespørsler etter databasekopier",
+	"right-dumpsondemand-limit-exempt": "Ignorer tidsbegrensningen for å be om databasedumper",
+	"action-dumpsondemand-limit-exempt": "ignorere tidsbegrensningen for å be om databasedumper",
+	"dumpsondemand-dump-requested": "Det har blitt bedt om en dump.",
+	"dumpsondemand-filetype-gz": "Dumpene blir tilbudt som en gzip-komprimert XML-fil.",
+	"dumpsondemand-filetype-bz2": "Dumpene blir tilbudt som en bzip2-komprimert XML-fil.",
+	"dumpsondemand-filetype-zip": "Dumpene blir tilbudt i en ZIP-fil."
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Wizardist"
+		]
+	},
+	"inlinecategorizer-desc": "Модуль JavaScript, які дазваляе рабіць зьмены, даданьні і выдаленьні спасылак на катэгорыі непасрэдна са старонкі",
+	"inlinecategorizer-add-category": "Дадаць катэгорыю",
+	"inlinecategorizer-add-category-submit": "Дадаць",
+	"inlinecategorizer-add-category-summary": "Дададзеная катэгорыя «$1»",
+	"inlinecategorizer-api-error": "API вярнуў памылку: $1: $2",
+	"inlinecategorizer-api-unknown-error": "API вярнуў невядомую памылку.",
+	"inlinecategorizer-cancel": "Скасаваць зьмены",
+	"inlinecategorizer-cancel-all": "Скасаваць усе зьмены",
+	"inlinecategorizer-category-already-present": "Гэтая старонка ўжо належыць катэгорыі $1",
+	"inlinecategorizer-category-hook-error": "Лякальная функцыя перадухіліла захаваньне зьменаў",
+	"inlinecategorizer-category-question": "Чаму Вы жадаеце зрабіць наступныя зьмены:",
+	"inlinecategorizer-confirm-ok": "Добра",
+	"inlinecategorizer-confirm-save": "Захаваць",
+	"inlinecategorizer-confirm-save-all": "Захаваць усе зьмены",
+	"inlinecategorizer-confirm-title": "Пацьвердзіць дзеяньне",
+	"inlinecategorizer-edit-category": "Рэдагаваць катэгорыю",
+	"inlinecategorizer-edit-category-error": "Немагчыма рэдагаваць катэгорыю «$1».\nЗвычайна падобная праблема ўзьнікае, калі катэгорыя была дададзеная на старонку праз шаблён.",
+	"inlinecategorizer-edit-category-summary": "Зьмененая катэгорыя «$1» на «$2»",
+	"inlinecategorizer-error-title": "Памылка",
+	"inlinecategorizer-remove-category": "Выдаліць катэгорыю",
+	"inlinecategorizer-remove-category-error": "Немагчыма выдаліць катэгорыю «$1».\nЗвычайна гэта здараецца, калі катэгорыя была дададзеная на старонку праз шаблён.",
+	"inlinecategorizer-remove-category-summary": "Выдаленая катэгорыя «$1»"
+}

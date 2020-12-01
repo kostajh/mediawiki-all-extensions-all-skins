@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"AS",
+			"Ahonc",
+			"Andriykopanytsia",
+			"Dim Grits",
+			"Ата",
+			"Тест"
+		]
+	},
+	"inlinecategorizer-desc": "JavaScript-модуль, який дозволяє змінювати, додавати та вилучати посилання на категорії прямо зі сторінки",
+	"inlinecategorizer-add-category": "Додати категорію",
+	"inlinecategorizer-add-category-submit": "Додати",
+	"inlinecategorizer-add-category-summary": "Додати категорію „$1“",
+	"inlinecategorizer-api-error": "API повернув помилку: $1: $2 .",
+	"inlinecategorizer-api-unknown-error": "API сповістив про невідому помилку.",
+	"inlinecategorizer-cancel": "Скасувати редагування",
+	"inlinecategorizer-cancel-all": "Скасувати всі зміни",
+	"inlinecategorizer-category-already-present": "Ця сторінка вже належить до категорії \"$1\"",
+	"inlinecategorizer-category-hook-error": "Локальної функція перешкодила застосуванню змін.",
+	"inlinecategorizer-category-question": "Чому ви хочете зробити наступні зміни:",
+	"inlinecategorizer-confirm-ok": "Готово",
+	"inlinecategorizer-confirm-save": "Зберегти",
+	"inlinecategorizer-confirm-save-all": "Зберегти всі зміни",
+	"inlinecategorizer-confirm-title": "Підтвердити дію",
+	"inlinecategorizer-edit-category": "Змінити категорію",
+	"inlinecategorizer-edit-category-error": "Не вдалося змінити категорію «$1».\nЦе зазвичай відбувається, коли категорію було додано до сторінки за допомогою шаблону.",
+	"inlinecategorizer-edit-category-summary": "Змінити категорію \"$1\" на \"$2\"",
+	"inlinecategorizer-error-title": "Помилка",
+	"inlinecategorizer-remove-category": "Вилучити категорію",
+	"inlinecategorizer-remove-category-error": "Не вдалося вилучити категорію \"$1\".\nТаке трапляється зазвичай тоді, коли категорія додається в статтю через шаблон.",
+	"inlinecategorizer-remove-category-summary": "Вилучити категорію „$1“"
+}

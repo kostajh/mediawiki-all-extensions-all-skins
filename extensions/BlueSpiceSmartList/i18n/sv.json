@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Freked",
+			"Jopparn",
+			"Lokal Profil",
+			"Platinawolf",
+			"Sturban",
+			"WikiPhoenix"
+		]
+	},
+	"bs-smartlist-desc": "Visar de fem senaste ändringarna på wikin i en lista",
+	"prefs-smartlist": "Smart lista",
+	"bs-smartlist-recent-changes": "Senaste ändringar",
+	"bs-smartlist-no-entries": "Inga resultat hittades.",
+	"bs-smartlist-invalid-namespaces": "{{PLURAL:$1|Den angivna namnrymden är ogiltig|De angivna namnrymderna är ogiltiga}}: $2.",
+	"bs-smartlist-invalid-target": "Det angiva målet är inte en giltig sidtitel",
+	"bs-smartlist-comment": "Kommentar:  $1.",
+	"bs-smartlist-sort-asc": "stigande",
+	"bs-smartlist-sort-desc": "fallande",
+	"bs-smartlist-day": "Dag",
+	"bs-smartlist-week": "Vecka",
+	"bs-smartlist-month": "Månad",
+	"bs-smartlist-time": "Tid",
+	"bs-smartlist-title": "Titel",
+	"bs-smartlist-tag-smartlist-desc": "Visar automatiskt genererade listor över artiklar. Konfigurationen fungerar genom flera modi och parametrar.",
+	"bs-smartlist-tag-smartlist-example-rc": "Läge: Senaste ändringarna",
+	"bs-smartlist-tag-smartlist-example-whatlinkshere": "Läge: Vad länkar hit",
+	"bs-smartlist-tag-newbies-desc": "Visar de nyaste användarna på wikin. Listan kan begränsas till ett visst antal.",
+	"bs-smartlist-tag-toplist-desc": "Visar de mest visade sidorna. Kan begränsas med flera parametrar.",
+	"bs-smartlist-mostvisitedpages": "Mest besökta sidor",
+	"bs-smartlist-mosteditedpages": "Mest redigerade sidor",
+	"bs-smartlist-mostactiveusers": "Mest aktiva användare (antal redigeringar)",
+	"bs-smartlist-lastedits": "Mina redigeringar",
+	"bs-smartlist-noedits": "Inga redigeringar hittades.",
+	"bs-smartlist-mostactiveusersdesc": "Lista över mest aktiva användare sorterade efter sina redigeringar.",
+	"bs-smartlist-mosteditedpagesdesc": "Lista över flest redigerade sidor sorterade efter dess redigeringar.",
+	"bs-smartlist-mostvisitedpagesdesc": "Lista över flest besökta sidor sorterade efter dess redigeringar.",
+	"bs-smartlist-lasteditsdesc": "Lista över sidor som du har redigerat."
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Retired User",
+			"Kly",
+			"Liuxinyu970226",
+			"予弦",
+			"神樂坂秀吉"
+		]
+	},
+	"bs-uemodulepdf-desc": "啟用 MediaWiki 來匯出頁面成 PDF 格式",
+	"prefs-uemodulepdf": "通用匯出 PDF 模組",
+	"uemodulepdf": "通用匯出 PDF 模組",
+	"bs-uemodulepdf-pref-suppressns": "在 PDF 隱藏命名空間的前綴",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-text": "PDF 單一頁面",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-title": "匯出頁面成 PDF。",
+	"bs-uemodulepdf-overview-title": "可攜式文件格式（PDF）",
+	"bs-uemodulepdf-overview-desc": "匯出頁面（特殊頁面與內容頁面）成 PDF。",
+	"bs-uemodulepdf-overview-webservice-state": "後台狀態",
+	"bs-uemodulepdf-overview-webservice-state-ok": "可用",
+	"bs-uemodulepdf-overview-webservice-state-not-ok": "不可用",
+	"soap-service-url-not-valid": "產生 PDF 網路服務的 URL 無效。請檢查 wiki 設置。",
+	"soap-service-url-not-set": "產生 PDF 網路服務的 URL 未設定。請檢查 wiki 設置。",
+	"bs-uemodulepdf-overview-webservice-webadmin": "後台網路介面",
+	"action-uemodulepdf-export": "匯出頁面成 PDF",
+	"right-uemodulepdf-export": "輸出頁面到 RDF"
+}

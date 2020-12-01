@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg",
+			"Vlad5250"
+		]
+	},
+	"uploadslink-portlet-label": "Качвания",
+	"tooltip-pt-uploads": "Списък на файлове, които сте качили",
+	"uploadslink-toobox-label": "{{GENDER:$1|Потребителски}} качвания",
+	"tooltip-tb-uploads": "Списък на качванията на {{GENDER:$1|потребителя}}"
+}

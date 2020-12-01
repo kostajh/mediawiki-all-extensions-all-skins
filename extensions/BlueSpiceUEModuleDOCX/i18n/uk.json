@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-uemoduledocx-extension-description": "Уможливлює експорт у DOCX",
+	"bs-uemoduledocx-pref-SuppressNS": "Приховати префікс простору назв у DOCX",
+	"bs-uemoduledocx-widgetlink-single-text": "Одна сторінка DOCX",
+	"bs-uemoduledocx-widgetlink-single-title": "Експортувати цю сторінку у формат DOCX.",
+	"bs-uemoduledocx-overview-title": "Microsoft&reg; Office Open XML (DOCX)",
+	"bs-uemoduledocx-overview-description": "Експортує сторінки в Microsoft DOCX.",
+	"bs-uemoduledocx-overview-webservice-state-not-ok": "не доступно",
+	"bs-uemoduledocx-overview-webservice-state-ok": "доступно",
+	"bs-uemoduledocx-overview-webservice-webadmin": "Вебінтерфейс DOCXService (BShtml2DOCX)",
+	"bs-uemoduledocx-overview-webservice-state": "Стан DOCXService (BShtml2DOCX)"
+}

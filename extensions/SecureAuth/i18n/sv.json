@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"secureauth-info-userinfo": "Användarinformation",
+	"action-sa-access": "komma åt SecureAuthInfo",
+	"right-sa-access": "Låter användaren komma åt [[Special:SecureAuthInfo|SecureAuthInfo]]"
+}

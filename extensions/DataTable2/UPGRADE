@@ -1,0 +1,11 @@
+<!-- 
+     page taken from 
+     https://www.mediawiki.org/wiki/Extension:DataTable2/Upgrading
+-->  
+== Upgrading ==
+
+The DataTable2 extension is intended as a replacement of the DataTable extension which has been removed from mediawiki.org because of vulnerability issues. Since DataTable2 does not only fix these issues but also offers a different data model with many more features, it is not backwards compatible; that's why I chose to give it a new name so that it can co-exist with the DataTable extension on the same wiki during the transition phase. I'm afraid migrating pages from DataTable to DataTable2 is a manual process since they are conceptually different.
+
+=== Upgrading from 0.8.3 or earlier ===
+
+Since version 1.0.0, pages using DataTable2 data through the Lua API are added to the appropriate [[mw:Help:Tracking_categories|tracking categories]] and assigned dependencies the same way as pages using DataTable2 data through tags or parser functions. If you already have such pages, you can fix the categories and dependencies either by performing a [[mw:Manual:Purge#Null_edits|null edit]] on each page or by executing the script <code>maintenance/refreshLinks.php</code>. Note that the latter may take a considerable amount of time.

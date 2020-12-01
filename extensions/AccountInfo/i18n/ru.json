@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abiyoyo",
+			"Helpau",
+			"Okras"
+		]
+	},
+	"accountinfo": "Сведения об учётной записи",
+	"accountinfo-desc": "Позволяет просмотреть сохранённые личные данные для учётной записи",
+	"accountinfo-ts": "Дата/время",
+	"accountinfo-ip": "IP-адрес",
+	"accountinfo-ua": "Юзер-агент",
+	"accountinfo-xff": "XFF-заголовок",
+	"accountinfo-length": "Информация хранится за $1.",
+	"accountinfo-now": "Только что"
+}

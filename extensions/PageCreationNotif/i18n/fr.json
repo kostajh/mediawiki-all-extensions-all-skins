@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Urhixidur"
+		]
+	},
+	"page-creation-notif-desc": "Envoie une notification par courriel quand de nouvelles pages sont créées",
+	"page-creation-notification": "M'envoyer un courriel quand une nouvelle page est créée",
+	"page-creation-email-subject": "Nouvelle page – $1 créée le $2 par $3",
+	"page-creation-email-body": "Cher $1,\n\nCeci est une notification de {{SITENAME}} qu’une nouvelle page $2 a été {{Gender:$3|créée}} par l’utilisateur $3.\n\nVous pouvez la voir ici\n$4\n\nLe contenu de la page est :\n$5\n\nLe système de notification de {{SITENAME}}.\n\nPour modifier vos paramètres de notification par courriel, allez sur\n{{canonicalurl:{{#special:Preferences}}}}"
+}

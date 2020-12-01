@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"passwordlesslogin": "비밀번호 없는 로그인",
+	"passwordlesslogin-desc": "연결된 장치에서 로그인을 확인함으로써 비밀번호 없이 로그인하는 방법을 제공합니다.",
+	"passwordlesslogin-verify-request": "전화에서 로그인을 확인해 주십시오.",
+	"passwordlesslogin-error-no-authentication-workflow": "인증 워크플로가 예기치 않게 종료되었습니다.",
+	"passwordlesslogin-verification-pending": "인증이 아직 확인되지 않았습니다. 연결된 장치에서 로그인 요청을 확인해 주십시오.",
+	"passwordlesslogin-pair-device-step": "새 장치를 페어링하려면 안내를 준수해 주십시오.",
+	"passwordlesslogin-no-device-paired": "페어링된 장치가 아직 없습니다.",
+	"passwordlesslogin-pair-device": "비밀번호 없는 로그인을 위해 장치를 페어링합니다",
+	"passwordlesslogin-login": "내 스마트폰으로 로그인",
+	"passwordlesslogin-pair-step-1": "1. MediaWiki PasswordlessLogin 앱을 다운로드합니다",
+	"passwordlesslogin-pair-step-2": "2. 앱으로 QR 코드를 스캔합니다",
+	"passwordlesslogin-pair-step-3": "3. 앱 설치가 끝나면 다음 단계로 계속합니다",
+	"passwordlesslogin-authentication-app": "인증 앱"
+}

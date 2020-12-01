@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "Овозможува извоз во HTML",
+	"bs-uemodulehtml-pref-DefaultTemplate": "Стандарден предлошка",
+	"bs-uemodulehtml-pref-SuppressNS": "Скривај ја претставката за именски простор во HTML",
+	"bs-uemodulehtml-overview-description": "Извезува страници (службени и содржински) во HTML."
+}

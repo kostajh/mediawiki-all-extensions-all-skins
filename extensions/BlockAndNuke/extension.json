@@ -1,0 +1,52 @@
+{
+	"name": "BlockAndNuke",
+	"version": "1.1",
+	"author": [
+		"Eliora Stahl",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:BlockAndNuke",
+	"descriptionmsg": "blockandnuke-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"blockandnuke": true
+		}
+	},
+	"AvailableRights": [
+		"blockandnuke"
+	],
+	"SpecialPages": {
+		"BlockandNuke": "SpecialBlock_Nuke"
+	},
+	"MessagesDirs": {
+		"BlockAndNuke": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BlockAndNukeAlias": "BlockAndNuke.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialBlock_Nuke": "includes/SpecialBlock_Nuke.php",
+		"BanPests": "includes/BanPests.php",
+		"BlockAndNukeHooks": "includes/BlockAndNukeHooks.php"
+	},
+	"Hooks": {
+		"PerformRetroactiveAutoblock": "BlockAndNukeHooks::onPerformRetroactiveAutoblock"
+	},
+	"config": {
+		"BaNwhitelist": {
+			"value": "whitelist.txt",
+			"path": true
+		},
+		"BaNSpamUser": {
+			"value": "Spammer"
+		}
+	},
+	"manifest_version": 2
+}

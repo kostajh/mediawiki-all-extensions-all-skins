@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Тест"
+		]
+	},
+	"multiboilerplate-desc": "Дозволяє вибирати стандартні тексти з випадного меню, розташованого над формою редагування при редагуванні сторінок",
+	"multiboilerplate-legend": "Вибрати стандартний текст",
+	"multiboilerplate-submit": "Завантажити",
+	"boilerplates": "Стандартні тексти",
+	"multiboilerplate-special-pagetext": "Ці шаблони можна попередню завантажувати при створенні сторінки. (<span class=plainlinks>[{{fullurl:Ця сторінка не існує|action=edit}} приклад]</span>)",
+	"multiboilerplate-special-define-in-localsettings": "Стандартні тексти визначаються в LocalSettings.",
+	"multiboilerplate-special-define-in-interface": "Стандартні тексти визначаються в [[MediaWiki:Multiboilerplate]].",
+	"multiboilerplate-special-no-boilerplates": "Ніде не визначено жодних стандартних текстів.",
+	"multiboilerplate-nonexistant-page": "Сторінка зі стандартним текстом не існує: «$1»"
+}

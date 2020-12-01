@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Selven"
+		]
+	},
+	"bs-saferedit-user-editing": "$1 sta {{GENDER:$1|modificando}} la pagina",
+	"bs-saferedit-someone-editing": "La pagina è in fase di modifica",
+	"bs-saferedit-pref-interval": "Intervallo per la ricerca di modifiche simultanee:",
+	"bs-saferedit-pref-shownameofeditinguser": "Mostrare il nome dell'autore attuale"
+}

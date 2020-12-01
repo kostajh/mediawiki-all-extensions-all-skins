@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rob Moen",
+			"MarcoAurelio"
+		]
+	},
+	"markashelpful-desc": "Provides a user interface to mark comments as helpful",
+	"mah-mark-text": "Mark as helpful",
+	"mah-you-marked-text": "You think this is helpful",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 thinks this is helpful}}",
+	"mah-undo-mark-text": "undo",
+	"mah-action-error": "There was an error performing this action",
+	"action-markashelpful-view": "",
+	"right-markashelpful-view": "",
+	"action-markashelpful-admin": "",
+	"right-markashelpful-admin": "",
+	"apihelp-getmarkashelpfulitem-description": "Get a list of all helpful status for an object item.",
+	"apihelp-getmarkashelpfulitem-summary": "Get a list of all helpful status for an object item.",
+	"apihelp-getmarkashelpfulitem-param-type": "The object type that is being marked as helpful.",
+	"apihelp-getmarkashelpfulitem-param-item": "The object item that is being marked as helpful.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Which property to get.",
+	"apihelp-getmarkashelpfulitem-param-page": "The page which is requesting the item.",
+	"apihelp-markashelpful-description": "Allows users to mark or unmark an object item in the site as helpful.",
+	"apihelp-markashelpful-summary": "Allows users to mark or unmark an object item in the site as helpful.",
+	"apihelp-markashelpful-param-mahaction": "Whether to mark or unmark an item as helpful.",
+	"apihelp-markashelpful-param-page": "The page which the item to be marked is on.",
+	"apihelp-markashelpful-param-type": "The object type that is being marked as helpful.",
+	"apihelp-markashelpful-param-item": "The object item that is being marked as helpful.",
+	"apihelp-markashelpful-param-useragent": "The User-Agent header of the browser.",
+	"apihelp-markashelpful-param-system": "The operating system being used.",
+	"apihelp-markashelpful-param-locale": "The locale in use."
+}

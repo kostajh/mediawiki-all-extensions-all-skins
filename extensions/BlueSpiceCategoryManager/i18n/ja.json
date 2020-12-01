@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"A2y4",
+			"Aefgh39622",
+			"Otokoume",
+			"Shirayuki",
+			"Suyama"
+		]
+	},
+	"bluespicecategorymanager": "カテゴリマネージャー",
+	"action-categorymanager-viewspecialpage": "カテゴリマネージャーの閲覧",
+	"bs-categorymanager-label": "カテゴリマネージャー",
+	"bs-categorymanager-dlg-new-title": "カテゴリの作成",
+	"bs-categorymanager-dlg-new-prompt": "名前を入力してください:",
+	"bs-categorymanager-removecategoryconfirm-text": "このカテゴリを削除してよろしいですか？",
+	"bs-categorymanager-removecategoryconfirm-title": "カテゴリの削除",
+	"bs-categorymanager-addcategory-dialog-error-title": "カテゴリの作成に失敗しました",
+	"bs-categorymanager-action-show-category": "カテゴリを表示",
+	"right-categorymanager-viewspecialpage": "特別ページ [[Special:BlueSpiceCategoryManager]] を利用",
+	"bs-categorymanager-collection-var-namespacename": "名前空間"
+}

@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"bs-socialcomments-desc": "Kommentarfunktionalitet för BlueSpiceSocial",
+	"bs-socialcomments-type": "Kommentar",
+	"bs-socialcomments-commenttext": "{{PLURAL:$1|Kommentar|Kommentarer}} ($1)",
+	"bs-socialcomments-header-create": "Kommentera",
+	"bs-socialcomments-header": "[[User:$1|$2]] kommenterade \"[[$6|$7]]\"",
+	"bs-socialcomments-var-commentcount": "Antal kommentarer",
+	"echo-category-title-bs-social-comment-cat": "Kommentarer på bevakade entiteter",
+	"bs-social-notifications-comment-create": "Användaren {{GENDER:$1|$2 gjorde}} en ny kommentar",
+	"bs-social-notifications-email-comment-create-subject": "Användaren {{GENDER:$1|$2 gjorde}} en ny kommentar",
+	"bs-social-notifications-email-comment-create-body": "Användaren {{GENDER:$1|$2 kommenterade}} på ett inlägg av $3 med följande text:\n$4",
+	"bs-social-notifications-web-comment-create-body": "Användaren {{GENDER:$1|$2 kommenterade}} på ett inlägg av $3",
+	"bs-social-notifications-comment-edit": "Användaren {{GENDER:$1|$2 redigerade}} en kommentar",
+	"bs-social-notifications-email-comment-edit-subject": "Användaren {{GENDER:$1|$2 redigerade}} en kommentar",
+	"bs-social-notifications-email-comment-edit-body": "Användaren {{GENDER:$1|$2 redigerade}} en kommentar på inlägget av $3. Den nya kommentaren är:\n$4",
+	"bs-social-notifications-web-comment-edit-body": "Användare {{GENDER:$1|$2 redigerade}} en kommentar på ett inlägg av $3",
+	"bs-social-notifications-comment-delete": "Användaren {{GENDER:$1|$2 raderade}} en kommentar",
+	"bs-social-notifications-email-comment-delete-subject": "Användaren {{GENDER:$1|$2 raderade}} en kommentar",
+	"bs-social-notifications-email-comment-delete-body": "Användaren {{GENDER:$1|$2 raderade}} en kommentar på inlägget av $3",
+	"bs-social-notifications-web-comment-delete-body": "Användaren {{GENDER:$1|$2 raderade}} en kommentar på inlägget av $3",
+	"bs-social-notifications-comment-owner-create": "Användaren {{GENDER:$1|$2 gjorde}} en ny kommentar på ditt inlägg",
+	"bs-social-notifications-email-comment-owner-create-subject": "Användaren {{GENDER:$1|$2 gjorde}} en ny kommentar på ditt inlägg",
+	"bs-social-notifications-email-comment-owner-create-body": "Användaren {{GENDER:$1|$2 kommenterade}} på ditt inlägg med följande text:\n$3",
+	"bs-social-notifications-web-comment-owner-create-body": "Användaren {{GENDER:$1|$2 kommenterade}} på ditt inlägg",
+	"bs-social-notifications-comment-owner-edit": "Användaren {{GENDER:$1|$2 redigerade}} en kommentar på ditt inlägg",
+	"bs-social-notifications-email-comment-owner-edit-subject": "Användaren {{GENDER:$1|$2 redigerade}} en kommentar på ditt inlägg",
+	"bs-social-notifications-email-comment-owner-edit-body": "Användaren {{GENDER:$1|$2 redigerade}} en kommentar ditt inlägget. Den nya kommentaren är:\n$3",
+	"bs-social-notifications-web-comment-owner-edit-body": "Användaren {{GENDER:$1|$2 redigerade}} en kommentar på ditt inlägg",
+	"bs-social-notifications-comment-owner-delete": "Användare {{GENDER:$1|$2 raderade}} en kommentar på ditt inlägg",
+	"bs-social-notifications-email-comment-owner-delete-subject": "Användaren {{GENDER:$1|$2 raderade}} en kommentar på ditt inlägg",
+	"bs-social-notifications-email-comment-owner-delete-body": "Användaren {{GENDER:$1|$2 raderade}} en kommentar på ditt inlägg",
+	"bs-social-notifications-web-comment-owner-delete-body": "Användaren {{GENDER:$1|$2 raderade}} en kommentar på ditt inlägg",
+	"bs-social-notifications-comment-owner-edit-bundle": "Kommentarer på ditt inlägg redigerades {{PLURAL:$1|$1 gång|$1 gånger}}",
+	"bs-social-notification-comment-primary-link-label": "Visa kommentar",
+	"bs-social-notification-comment-parentowner-label": "Inläggsskapare: $1",
+	"bs-social-notification-comment-parententity-label": "Visa inlägg"
+}

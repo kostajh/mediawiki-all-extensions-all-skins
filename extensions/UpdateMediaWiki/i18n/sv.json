@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"updatemediawiki": "Uppdatera MediaWiki",
+	"updatemediawiki-desc": "Gör det möjligt att uppdatera MediaWiki via en specialsida",
+	"updatemediawiki-current": "Nuvarande version $1",
+	"updatemediawiki-update-nofound": "Ingen uppdatering är tillgänglig",
+	"updatemediawiki-update-found": "Ny uppdatering hittas: $1",
+	"updatemediawiki-update-downloading": "Laddar ned ny uppdatering",
+	"updatemediawiki-update-saved": "Uppdateringen laddades ned och sparades",
+	"updatemediawiki-update-exist": "Uppdatering laddas redan ned",
+	"updatemediawiki-update-copyready": "Kopieringen är redo",
+	"updatemediawiki-update-database": "Uppdatera databasen nu?",
+	"updatemediawiki-update-updateready": "Uppdateringen är redo",
+	"updatemediawiki-update-install": "Installera nu?",
+	"updatemediawiki-update-updated": "MediaWiki uppdaterades till version $1",
+	"updatemediawiki-update-error": "Kunde inte hitta de senaste utgåvorna",
+	"updatemediawiki-update-aborted": "Kunde inte spara ny uppdatering. Åtgärden avbröts"
+}

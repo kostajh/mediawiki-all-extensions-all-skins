@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"autocatuploads": "AutoCategoriseUploads",
+	"autocatuploads-desc": "Adicionar automaticamente novos carregamentos a categorias com base nos metadados do arquivo."
+}

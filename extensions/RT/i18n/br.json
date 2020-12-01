@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Y-M D"
+		]
+	},
+	"rt-desc": "Etrefas plijus evit RT (Request Tracker)",
+	"rt-inactive": "An astenn RT n'eo ket oberiant",
+	"rt-badquery": "Ur fazi zo bet gant an astenn RT en ur eskemm gant an diaz roadennoù RT",
+	"rt-badlimit": "Arguzenn LIMIT (l) direizh : rankout a ra bezañ un niver.\nLakaet hoc'h eus : '''$1'''",
+	"rt-badorderby": "Arguzenn ORDER BY (ob) direizh : rankout a ra bezañ ur vaezienn voutin(gwelet an teuliadur).\nLakaet hoc'h eus : '''$1'''",
+	"rt-badstatus": "Arguzenn status direizh (s) : rankout a ra bezañ ur vaezienn voutin (gwelet an teuliadur).\nLakaet hoc'h eus : '''$1'''",
+	"rt-badcfield": "Arguzenn maezienn bersonelaet direizh : rankout a ra bezañ ur ger eeun (sellit ouzh an teulioù titouriñ).\nKlasket hoc'h eus gant : '''$1'''",
+	"rt-badqueue": "Arguzenn queue (o) direizh : rankout a ra bezañ ur ger eeun.\nLakaet hoc'h eus : '''$1'''",
+	"rt-badowner": "Arguzenn owner (o) direizh : rankout a ra bezañ un anv implijer reizh.\nLakaet hoc'h eus : '''$1'''",
+	"rt-nomatches": "N'eus bet kavet tiked RT ebet o klotañ"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil"
+		]
+	},
+	"accountinfo": "Kontoinformation",
+	"accountinfo-desc": "Tillåter en användare att se lagrad privat information om dem",
+	"accountinfo-ts": "Tidsstämpel",
+	"accountinfo-ip": "IP-adress",
+	"accountinfo-ua": "Användaragent",
+	"accountinfo-xff": "XFF-huvud",
+	"accountinfo-length": "Informationen lagras i $1.",
+	"accountinfo-now": "Nu"
+}

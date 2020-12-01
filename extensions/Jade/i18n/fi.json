@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nike",
+			"Stryn"
+		]
+	},
+	"jade-damaging-scale-true-label": "Haitallinen",
+	"jade-damaging-scale-false-label": "Ei haitallinen",
+	"jade-goodfaith-scale-true-label": "Hyväntahtoinen",
+	"jade-goodfaith-scale-false-label": "Pahantahtoinen",
+	"jade-delete": "Poista",
+	"prefs-betafeatures": "Beeta-ominaisuudet"
+}

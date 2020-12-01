@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Movses",
+			"Piramidion"
+		]
+	},
+	"autocatuploads": "AutoCategoriseUploads",
+	"autocatuploads-desc": "Автоматичне додавання нових категорій на основі метаданих файлу."
+}

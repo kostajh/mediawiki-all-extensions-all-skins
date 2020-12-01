@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"citoid-action-replace": "Change reference type",
+	"citoid-citation-widget-insert-button": "Insert",
+	"citoid-citoiddialog-back": "Back",
+	"citoid-citoiddialog-credit": "Powered by $1",
+	"citoid-citoiddialog-lookup-button": "Generate",
+	"citoid-citoiddialog-mode-auto": "Automatic",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Re-use",
+	"citoid-citoiddialog-search": "Search",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, title, or citation",
+	"citoid-citoiddialog-search-placeholder": "e.g. http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Searching, please wait...",
+	"citoid-citoiddialog-title": "Add a citation",
+	"citoid-citoiddialog-title-replace": "Replace citation",
+	"citoid-citoiddialog-use-general-error-message": "We couldn't make a citation for you. You can create one manually using the \"{{int:citoid-citoiddialog-mode-manual}}\" tab above.",
+	"citoid-citoidtool-title": "Cite",
+	"citoid-citoidtool-title-othergroup": "Citation",
+	"citoid-desc": "Provides access points between the citoid service and MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Convert",
+	"citoid-referencecontextitem-convert-message": "This reference consists of just an external link. You can use the \"{{int:citoid-referencecontextitem-convert-button}}\" button below to generate a properly formatted reference.",
+	"citoid-template-type-map.json": "null",
+	"citoid-unknown-error": "An unknown error has occurred that prevented us from creating a citation. Please try again later.",
+	"citoid-wb-referenceview-tabs-automatic": "Automatic",
+	"citoid-wb-referenceview-tabs-search": "search",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, or QID:",
+	"citoid-wb-pendingdialog-error": "Unable to generate a reference from this input. Use the manual tab, or try again.",
+	"citoid-wb-pendingdialog-message": "Generating a reference for you... please wait...",
+	"citoid-wb-pendingdialog-title": "Generating Citation"
+}

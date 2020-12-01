@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Darth Kule",
+			"F. Cosoleto"
+		]
+	},
+	"formelapplet-desc": "Aggiunge gli applet [http://wiki.formelapplet.de FormelApplet] alle pagine",
+	"formelapplet-nojava": "È necessario installare $1 per il funzionamento di questa pagina.",
+	"formelapplet-missing-parameter": "Parametro mancante (width, height o term/solution).",
+	"formelapplet-file-not-found": "File $1 non trovato",
+	"formelapplet-error": "Errore nell'estensione MediaWiki FormelApplet: <em>$1</em>"
+}

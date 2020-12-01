@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"configmanager-admintool-label": "Gestore de Configurazione",
+	"action-configmanager-viewspecialpage": "'ndruche 'a pàgena speciale \"{{int:configmanager}}\"",
+	"configmanager": "Gestore d'a configurazione",
+	"configmanager-desc": "Dèje 'a possibbilità a le amministrature, de configurà 'a uicchi da 'na pàgena singole SpecialPage",
+	"configmanager-discardchanges": "Scitte le cangiaminde?",
+	"configmanager-noentry": "Nisciuna vôsce acchiate",
+	"apihelp-configmanager-tasks-summary": "Gestisce le combite",
+	"apihelp-configmanager-store-summary": "Gestisce le archivije",
+	"right-configmanager-viewspecialpage": "Tràse jndr'à pàgena speciale [[Special:ConfigManager]]"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"hierarchybuilder-desc": "渲染并允许编辑选择页面层级",
+	"hierarchybuilder-reveal-editmessage": "我如何使用此工具？",
+	"hierarchybuilder-editmessage": "层级根列表包含保存时将保留的层级。未使用的页面列表包含分类$1中目前没有作为层级的页面。您可以通过上下拖拽行重新排列层级根列表，并改变它们的缩进。您可以通过拖拽页面从未使用的页面列表加入至层级，如果您希望它们出现在层级根列表中的话。您也可以从层级根列表通过拖拽至未使用的页面列表的任意位置移除页面。",
+	"hierarchybuilder-edit-error-message": "此层级不能编辑，因为层级数据和用于收录未使用页面的分类都是空的。请确保这些数据来源之一被填充。",
+	"hierarchybuilder-hierarchyroot": "根层级",
+	"hierarchybuilder-unusedpages": "未使用页面",
+	"hierarchybuilder-category-desc": "这是必须归入层级的页面的分类。",
+	"hierarchybuilder-missing-category": "缺少分类参数。",
+	"hierarchybuilder-hierarchy-desc": "这是wiki文本格式化的层级。",
+	"hierarchybuilder-pagename-desc": "这是包含层级的页面名称。",
+	"hierarchybuilder-propertyname-desc": "这是包含层级的属性名称。",
+	"hierarchybuilder-collapsed-desc": "如果提供此参数，层级应该会在它第一次显示时折叠渲染。",
+	"hierarchybuilder-missing-page-name": "缺少页面名称参数。",
+	"hierarchybuilder-missing-property-name": "缺少属性名称参数。",
+	"hierarchybuilder-invalid-collapsed": "收缩参数的值无效。"
+}

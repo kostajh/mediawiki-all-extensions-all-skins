@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn"
+		]
+	},
+	"swb_browse_go": "Kör",
+	"swb_browse_show_incoming": "visa inkommande egenskaper som länkar hit",
+	"swb_browse_hide_incoming": "dölj inkomna egenskaper som länkar hit",
+	"swb_browse_no_outgoing": "Denna sida har inga egenskaper.",
+	"swb_browse_no_incoming": "Inga egenskaper länkar till den här sidan.",
+	"swb_inverse_label_property": "Benämning på inverterad egenskap",
+	"swb_inverse_label_default": "$1 av"
+}

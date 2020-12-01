@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikahama",
+			"Pyscowicz"
+		]
+	},
+	"uploadslink-portlet-label": "Tallennukset",
+	"tooltip-pt-uploads": "Luettelo tallentamistasi tiedostoista",
+	"uploadslink-toobox-label": "{{GENDER:$1|Käyttäjän}} tallennukset",
+	"tooltip-tb-uploads": "Luettelo tämän {{GENDER:$1|käyttäjän}} tallennuksista"
+}

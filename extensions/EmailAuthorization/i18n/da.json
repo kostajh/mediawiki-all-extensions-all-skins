@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"emailauthorization-config-label-username": "Brugernavn",
+	"emailauthorization-config-label-userpage": "Brugerside",
+	"emailauthorization-config-value-yes": "ja",
+	"emailauthorization-config-value-no": "nej",
+	"emailauthorization-config-button-next": "Næste",
+	"emailauthorization-config-button-previous": "Forrige",
+	"emailauthorization-config-button-search": "Søg",
+	"emailauthorization-config-button-add": "Tilføj",
+	"emailauthorization-approve-label-extra": "Ekstra felter",
+	"emailauthorization-approve-label-action": "Handlinger",
+	"emailauthorization-approve-button-approve": "Godkend",
+	"emailauthorization-approve-button-reject": "Afvis",
+	"emailauthorization-approve-button-next": "Næste",
+	"emailauthorization-approve-button-previous": "Forrige"
+}

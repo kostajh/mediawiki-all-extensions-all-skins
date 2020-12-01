@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alirezaaa",
+			"Armin1392",
+			"Ebraminio",
+			"Mjbmr"
+		]
+	},
+	"page-creation-notif-desc": "ارسال ایمیل اعلان هنگامی که صفحات جدیدی ایجاد می‌شوند",
+	"page-creation-notification": "هنگامی که صفحه‌ای تازه ایجا می‌شود به من ایمیل بزنید",
+	"page-creation-email-subject": "صفحهٔ جدید – $1 {{GENDER:$3|ایجاد شده}} بر $2 توسط $3",
+	"page-creation-email-body": "$1 عزیز،\nاین اعلانی است از {{SITENAME}} که صفحهٔ جدید $2 توسط کاربر $3 {{GENDER:$3|ایجاد شده}}.\n\nشما می‌توانید این را در  مشاهده کنید\n$4\n\nمتن صفحه است:\n$5\n\nسیستم اعلان {{SITENAME}} دوستانهٔ شما.\nبرای تغییر تنظیمات ایمیل اعلان خود، {{canonicalurl:{{#special:Preferences}}}} را مشاهده کنید"
+}

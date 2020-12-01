@@ -1,0 +1,68 @@
+// Forms
+//
+// Styleguide 5.
+
+// VForm
+//
+// Style a compact vertical stacked form ("VForm") and the elements in divs
+// within it. See button and inputs section on guidance of how and when to use them.
+//
+// Markup:
+// <form class="mw-ui-vform">
+//   <div class="mw-ui-vform-field">This is a form example.</div>
+//   <div class="mw-ui-vform-field">
+//     <label>Username </label>
+//     <input class="mw-ui-input" value="input">
+//   </div>
+//   <div class="mw-ui-vform-field">
+//     <button class="mw-ui-button mw-ui-progressive">Button in vform</button>
+//   </div>
+// </form>
+//
+// Styleguide 5.1.
+.mw-ui-vform {
+	// Styles for information boxes
+	//
+	// Regular HTMLForm uses .error class, some special pages like
+	// SpecialUserlogin (login and create account) use .errorbox.
+	//
+	// Markup:
+	// <form class="mw-ui-vform">
+	//   <div class="errorbox">An error occurred</div>
+	//   <div class="warningbox">A warning to be noted</div>
+	//   <div class="successbox">Action successful!</div>
+	//   <div class="error">A different kind of error</div>
+	//   <div class="error">
+	//     <ul><li>There are problems with some of your input.</li></ul>
+	//   </div>
+	//   <div class="mw-ui-vform-field">
+	//     <input type="text" value="input" class="mw-ui-input">
+	//   </div>
+	//   <div class="mw-ui-vform-field">
+	//     <select>
+	//       <option value="1">Option 1</option>
+	//       <option value="2">Option 2</option>
+	//     </select>
+	//     <span class="error">The value you specified is not a valid option.</span>
+	//   </div>
+	//   <div class="mw-ui-vform-field">
+	//     <button class="mw-ui-button">Button in vform</button>
+	//   </div>
+	// </form>
+	//
+	// Styleguide 5.2.
+
+	// Colours taken from those for .errorbox in shared.css
+	.error {
+		color: @colorErrorText;
+		border: 1px solid #fac5c5;
+		background-color: #fae3e3;
+	}
+
+	// Colours taken from those for .warningbox in shared.css
+	.warning {
+		color: @colorWarningText;
+		border: 1px solid #fde29b;
+		background-color: #fdf1d1;
+	}
+}

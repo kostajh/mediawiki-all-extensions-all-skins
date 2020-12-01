@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"rt-desc": "Interfaccia di fantasia per RT (Request Tracker)",
+	"rt-inactive": "L'estensione RT non è attiva.",
+	"rt-badquery": "L'estensione RT ha incontrato un errore durante lo scambio di dati con il database RT",
+	"rt-badlimit": "Parametro <code>LIMIT</code> (<code>l</code>) non valido: deve essere un numero.\nHai inserito: '''$1'''",
+	"rt-badorderby": "Parametro <code>ORDER BY</code> (<code>ob</code>) non valido: deve essere un campo standard (vedi documentazione).\nHai inserito: '''$1'''",
+	"rt-badstatus": "Parametro <code>status</code> (<code>s</code>) non valido: deve essere un campo standard (vedi documentazione).\nHai inserito: '''$1'''",
+	"rt-badcfield": "Parametro per campo personalizzato non valido: deve essere una parola semplice (vedi documentazione).\nHai inserito: '''$1'''",
+	"rt-badqueue": "Parametro <code>queue</code> (<code>q</code>) non valido: deve essere una parola semplice.\nHai inserito: '''$1'''",
+	"rt-badowner": "Parametro <code>owner</code> (<code>o</code>) non valido: deve essere un nome utente valido.\nHai inserito: '''$1'''",
+	"rt-nomatches": "Nessuna corrispondenza a ticket RT trovata."
+}

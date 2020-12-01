@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bxalber",
+			"Metalhead64"
+		]
+	},
+	"mintydocs-extensionname": "MintyDocs",
+	"mintydocs-desc": "Ein leichtgewichtiges Dokumentationssystem",
+	"action-mintydocs-administer": "alle MintyDocs-Produktseiten zu verwalten",
+	"right-mintydocs-administer": "Alle MintyDocs-Produktseiten verwalten",
+	"action-mintydocs-edit": "alle MintyDocs-Seiten zu bearbeiten",
+	"right-mintydocs-edit": "Alle MintyDocs-Seiten bearbeiten",
+	"right-mintydocs-editlive": "MintyDocs-Seiten bearbeiten, die eine entsprechende Entwurfseite haben",
+	"action-mintydocs-editlive": "MintyDocs-Seiten bearbeiten, die eine entsprechende Entwurfseite haben",
+	"mintydocs-noparentpage": "Fehler: Jede $1-Seite muss eine Unterseite sein.",
+	"mintydocs-invalidparentpage": "Fehler: Die Seite „$1“ muss eine $2-Seite sein.",
+	"mintydocs-product-versionlist": "Klicke auf eines der Folgenden, um die Dokumentation für diese Version zu sehen:",
+	"mintydocs-version-desc": "Dies ist die Dokumentation für die Version $1 von $2.",
+	"mintydocs-version-manuallist": "Hier sind die Handbücher für diese Version:",
+	"mintydocs-manual-desc": "Dieses Handbuch ist für die Version $1 von $2.",
+	"mintydocs-manual-otherversions": "Dieses Handbuch für andere Versionen lesen:",
+	"mintydocs-manual-contents": "Inhalte:",
+	"mintydocs-topic-desc": "Dieses Thema ist Teil des Handbuchs $1 für die Version $2 von $3.",
+	"mintydocs-topic-otherversions": "Dieses Thema für andere Versionen lesen:",
+	"mintydocspublish": "MintyDocs-Inhalt veröffentlichen",
+	"mintydocs-publish-button": "Veröffentlichen",
+	"mintydocs-publish-success": "Die folgenden Seiten werden erstellt oder verändert: $1.",
+	"mintydocscreatedraft": "MintyDocs-Entwurfsseite erstellen",
+	"mintydocs-createdraft-button": "Entwurf erstellen",
+	"mintydocs-createdraft-success": "Die folgenden Entwurfsseiten werden erstellt: $1.",
+	"mintydocscopy": "MintyDocs-Inhalt kopieren",
+	"mintydocs-copy-button": "Kopieren",
+	"mintydocs-copy-success": "Die folgenden Seiten werden kopiert: $1.",
+	"mintydocsdelete": "MintyDocs-Inhalt löschen"
+}

@@ -1,0 +1,26 @@
+{
+	"name": "YouTube",
+	"version": "1.9.3",
+	"author": [
+		"Przemek Piotrowski"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:YouTube",
+	"descriptionmsg": "youtube-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"AutoloadClasses": {
+		"YouTube": "YouTube.php"
+	},
+	"MessagesDirs": {
+		"YouTube": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "YouTube::registerTags"
+	},
+	"manifest_version": 1
+}

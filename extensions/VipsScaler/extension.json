@@ -1,0 +1,89 @@
+{
+	"name": "VipsScaler",
+	"author": [
+		"Bryan Tong Minh"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:VipsScaler",
+	"descriptionmsg": "vipsscaler-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "media",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AutoloadClasses": {
+		"VipsScaler": "includes/VipsScaler.php",
+		"VipsCommand": "includes/VipsCommand.php",
+		"VipsConvolution": "includes/VipsConvolution.php",
+		"SpecialVipsTest": "includes/SpecialVipsTest.php"
+	},
+	"SpecialPages": {
+		"VipsTest": "SpecialVipsTest"
+	},
+	"GroupPermissions": {
+		"*": {
+			"vipsscaler-test": true
+		}
+	},
+	"AvailableRights": [
+		"vipsscaler-test"
+	],
+	"MessagesDirs": {
+		"VipsScaler": "i18n"
+	},
+	"ExtensionMessagesFiles": {
+		"VipsScalerAlias": "VipsScaler.alias.php"
+	},
+	"Hooks": {
+		"BitmapHandlerTransform": [
+			"VipsScaler::onTransform"
+		],
+		"BitmapHandlerCheckImageArea": [
+			"VipsScaler::onBitmapHandlerCheckImageArea"
+		]
+	},
+	"ResourceModules": {
+		"ext.vipsscaler": {
+			"scripts": [
+				"modules/ext.vipsScaler/ext.vipsScaler.js"
+			],
+			"styles": [
+				"modules/ext.vipsScaler/ext.vipsScaler.css"
+			],
+			"messages": [
+				"vipsscaler-show-both",
+				"vipsscaler-show-default",
+				"vipsscaler-show-vips"
+			],
+			"dependencies": [
+				"jquery.ucompare"
+			]
+		},
+		"jquery.ucompare": {
+			"scripts": [
+				"modules/jquery.ucompare/js/jquery.ucompare.js"
+			],
+			"styles": [
+				"modules/jquery.ucompare/css/jquery.ucompare.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "VipsScaler"
+	},
+	"config": {
+		"VipsCommand": {
+			"value": "/usr/bin/vips"
+		},
+		"VipsOptions": {
+			"value": []
+		},
+		"VipsThumbnailerHost": {
+			"value": null
+		},
+		"VipsTestExpiry": {
+			"value": 3600
+		}
+	},
+	"manifest_version": 2
+}

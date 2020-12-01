@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Antur",
+			"Armando-Martin",
+			"Crazymadlover",
+			"Dferg",
+			"Fitoschido",
+			"Macofe",
+			"MarcoAurelio"
+		]
+	},
+	"security": "Registro de seguridad",
+	"security-desc": "Extiende la protección de artículos MediaWiki para permitir vista restringida del contenido del artículo",
+	"security-logpage": "Registro de seguridad",
+	"security-logpagetext": "Esto es un registro de bloqueo de acciones hechos por [https://www.mediawiki.org/wiki/Extension:SimpleSecurity la extensión SimpleSecurity].",
+	"badaccess-read": "Advertencia:\"$1\" está referenciado aquí, pero no tienes permisos suficientes para acceder a el.",
+	"security-info": "Hay $1 en este artículo",
+	"security-info-toggle": "restricciones de seguridad",
+	"security-inforestrict": "$1 está restringido a $2",
+	"security-desc-LS": "(aplica porque esta página está en $1 «$2»)",
+	"security-desc-PR": "(aplicar desde la pestaña \"proteger\")",
+	"security-infosysops": "No tienes restricciones activas porque eres miembro del grupo \"administradores\".",
+	"security-manygroups": "grupos $1 y $2",
+	"security-unchain": "modificar acciones individualmente",
+	"security-type-category": "la categoría",
+	"security-type-namespace": "el espacio de nombres",
+	"security-restricttogroup": "Acceso a contenidos restringido a miembros de \"$1\"",
+	"restriction-read": "Leer"
+}

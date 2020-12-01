@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liangent",
+			"Michaello",
+			"Rancher"
+		]
+	},
+	"inlinecategorizer-add-category": "Dodaj kategoriju",
+	"inlinecategorizer-add-category-submit": "Dodaj",
+	"inlinecategorizer-add-category-summary": "Dodaj kategoriju \"$1\"",
+	"inlinecategorizer-api-error": "API je prijavio grešku: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "API je prijavio nepoznatu grešku.",
+	"inlinecategorizer-cancel": "Otkaži uređivanje",
+	"inlinecategorizer-cancel-all": "Otkaži sve izmene",
+	"inlinecategorizer-category-already-present": "Ova stranica već pripada kategoriji „$1“",
+	"inlinecategorizer-category-hook-error": "Lokalna funkcija je sprečila da se izmene sačuvaju.",
+	"inlinecategorizer-category-question": "Razlog za stvaranje izmena:",
+	"inlinecategorizer-confirm-ok": "U redu",
+	"inlinecategorizer-confirm-save": "Sačuvaj",
+	"inlinecategorizer-confirm-save-all": "Sačuvaj sve izmene",
+	"inlinecategorizer-confirm-title": "Potvrdi akciju",
+	"inlinecategorizer-edit-category": "Uredi kategoriju",
+	"inlinecategorizer-edit-category-error": "Ne mogu da promenim kategoriju „$1“.\nOvo se obično dešava kada je kategorija dodata na stranicu preko šablona.",
+	"inlinecategorizer-edit-category-summary": "Promeni kategoriju „$1“ u „$2“",
+	"inlinecategorizer-error-title": "Greška",
+	"inlinecategorizer-remove-category": "Ukloni kategoriju",
+	"inlinecategorizer-remove-category-error": "Ne mogu da uklonim kategoriju „$1“.\nOvo se obično dešava kada je kategorija dodata na stranicu preko šablona.",
+	"inlinecategorizer-remove-category-summary": "Ukloni kategoriju \"$1\""
+}

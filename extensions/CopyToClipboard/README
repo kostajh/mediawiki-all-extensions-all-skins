@@ -1,0 +1,35 @@
+Copy to Clipboard Extension
+
+	Version 0.1 beta
+	Author Nischay Nahata < nischayn22@gmail.com >
+
+This is free software licenced under the GNU General Public Licence. Please
+see http://www.gnu.org/copyleft/gpl.html for further details, including the
+full text and terms of the license.
+
+== Overview ==
+
+	1. Introduction
+	2. Installation requirements
+	3. Installing the extension
+	4. Feedback
+	
+== 1. Introduction ==
+
+This simple extension creates a button to copy content to clipboard directly by
+using some flash hack [see https://github.com/mojombo/clippy].
+
+== 2. Installation requirements ==
+
+This extension requires MediaWiki 1.19.0 or later.
+
+== 3. Installing the extension ==
+
+To install the extension, place the extension directory in your MediaWiki's extensions/ directory,
+then edit LocalSettings.php and add the following line
+
+	include_once("$IP/extensions/CopyToClipboard/CopyToClipboard.php");
+
+== 4. Feedback ==
+
+All feedback, bug reports, etc. welcome at <nischayn22@gmail.com>.

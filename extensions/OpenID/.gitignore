@@ -1,0 +1,9 @@
+*~
+*.kate-swp
+.*.swp
+Auth/
+php-openid/
+vendor/**
+node_modules/**
+composer.lock
+.eslintcache

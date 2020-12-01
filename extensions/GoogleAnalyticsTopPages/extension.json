@@ -1,0 +1,43 @@
+{
+	"name": "GoogleAnalyticsTopPages",
+	"version": "0.0.2",
+	"author": "Florian Schmidt",
+	"url": "https://www.mediawiki.org/wiki/Extension:GoogleAnalyticsTopPages",
+	"descriptionmsg": "googleanalyticstoppages-desc",
+	"license-name": "MIT",
+	"type": "parserhook",
+	"SpecialPages": {
+		"GoogleAnalyticsTopPages": "SpecialGoogleAnalyticsTopPages"
+	},
+	"APIModules": {
+		"googlepagestatsupdate": "ApiGooglePageStatsUpdate"
+	},
+	"MessagesDirs": {
+		"GoogleAnalyticsTopPages": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"GoogleAnalyticsTopPagesAlias": "GoogleAnalyticsTopPages.alias.php"
+	},
+	"AutoloadClasses": {
+		"GoogleAnalyticsTopPages": "includes/GoogleAnalyticsTopPages.php",
+		"GoogleAnalyticsTopPagesHooks": "includes/GoogleAnalyticsTopPagesHooks.php",
+		"SpecialGoogleAnalyticsTopPages": "includes/specials/SpecialGoogleAnalyticsTopPages.php",
+		"ApiGooglePageStatsUpdate": "includes/api/ApiGooglePageStatsUpdate.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "GoogleAnalyticsTopPagesHooks::onLoadExtensionSchemaUpdates",
+		"ParserFirstCallInit": "GoogleAnalyticsTopPagesHooks::onParserFirstCallInit"
+	},
+	"config": {
+		"GATPServiceAccountName": "",
+		"GATPKeyFileLocation": "",
+		"GATPAppName": "googleanalyticstoppages",
+		"GATPProfileId": "",
+		"GATPInterval": 30,
+		"GATPProtectAPI": true
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "يتيح التصدير إلى HTML",
+	"bs-uemodulehtml-pref-DefaultTemplate": "قالب قياسي",
+	"bs-uemodulehtml-pref-SuppressNS": "إخفاء بادئة النطاق في HTML",
+	"bs-uemodulehtml-pref-Backend": "الخلفية",
+	"bs-uemodulehtml-widgetlink-single-text": "صفحة HTML واحدة (مؤرشفة)",
+	"bs-uemodulehtml-widgetlink-single-title": "تصدير هذه الصفحة بتنسيق HTML مع مواردها كأرشيف",
+	"bs-uemodulehtml-overview-title": "مستند HTML (مؤرشف)",
+	"bs-uemodulehtml-overview-description": "يصدر الصفحات (الصفحات الخاصة وصفحات المحتوى)  إلى HTML."
+}

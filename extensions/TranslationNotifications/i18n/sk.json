@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Kusavica"
+		]
+	},
+	"translationnotifications-info": "Informácie o používateľovi",
+	"translationnotifications-username": "Používateľské meno:",
+	"translationnotifications-email-confirmed": "Vaša e-mailová adresa je potvrdená",
+	"translationnotifications-email-unconfirmed": "Vaša e-mailová adresa nie je potvrdená. $1",
+	"translationnotifications-email-notset": "Nezadali ste e-mailovú adresu. Môžete to urobiť vo vašich [[Special:Preferences|nastaveniach]].",
+	"translationnotifications-languages": "Jazyky",
+	"translationnotifications-lang": "Jazyk #$1",
+	"translationnotifications-nolang": "Zvoľte si jazyk",
+	"translationnotifications-cmethod-email": "E-mail",
+	"translationnotifications-cmethod-talkpage": "Diskusná stránka",
+	"translationnotifications-cmethod-talkpage-elsewhere": "Diskusná stránka na inej wiki",
+	"translationnotifications-priority": "Priorita:",
+	"translationnotifications-priority-high": "vysoká",
+	"translationnotifications-priority-medium": "stredná",
+	"translationnotifications-priority-low": "nízka",
+	"translationnotifications-priority-unset": "(nedefinované)",
+	"translationnotifications-email-subject": "Prosím, preložte stránku $1",
+	"translationnotifications-log-alllanguages": "všetky jazyky",
+	"translationnotifications-nodeadline": "nič"
+}

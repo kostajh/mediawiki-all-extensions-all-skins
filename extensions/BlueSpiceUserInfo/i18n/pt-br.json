@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-userinfo-description": "Fornece flyouts com informações do usuário para imagens e links do usuário",
+	"apihelp-bs-userinfometa-description": "Lista os dados de meta informações dos usuários fornecidos",
+	"apihelp-bs-userinfometa-summary": "Lista os dados de meta informações dos usuários fornecidos",
+	"apihelp-bs-userinfometa-param-username": "Nome do usuário, cujos dados de meta informações serão listados"
+}

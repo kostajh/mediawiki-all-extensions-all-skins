@@ -1,0 +1,427 @@
+@import 'mediawiki.ui/variables';
+@import 'mediawiki.mixins';
+@import 'ext.growthExperiments.variables.less';
+
+.mw-ge-startediting-dialog {
+	.growthexperiments-homepage-desktop & {
+		.oo-ui-window-head {
+			display: none;
+			// Override the min-height from OOUI, so that measuring the height in JS returns 0
+			min-height: 0;
+			height: 0;
+		}
+
+		.oo-ui-window-body {
+			top: 0;
+		}
+	}
+
+	.suggested-edits-article-count-panel-layout-desktop {
+		// Align with the desktop actions buttons.
+		padding-top: 30px;
+	}
+
+	&-desktopFooter {
+		display: flex;
+
+		&-desktopActions {
+			margin-left: auto;
+			padding: @startEditingDialogSidePadding;
+		}
+	}
+
+	&-progress {
+		padding: 1em @startEditingDialogSidePadding;
+		background-color: @colorGray15;
+
+		&-label {
+			color: @colorGray5;
+			font-size: 0.85em;
+		}
+
+		&-indicator {
+			display: inline-block;
+			width: 8px;
+			height: 8px;
+			margin-right: 8px;
+			border-radius: 50%;
+			background-color: @colorGray12;
+
+			&-completed {
+				background-color: @colorGray2;
+			}
+		}
+	}
+
+	&-intro {
+		&-general {
+			background-color: @colorGray15;
+			padding: 1.5em @startEditingDialogSidePadding;
+
+			&:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
+
+			&-title,
+			&-header {
+				font-weight: bold;
+			}
+
+			&-title,
+			&-header,
+			&-subheader {
+				color: @colorGray2;
+				line-height: 1.375;
+			}
+
+			&-title {
+				font-size: @headerFontSize;
+
+				.growthexperiments-homepage-desktop .mw-ge-startediting-dialog-intro-withresponse & {
+					margin-bottom: 1.5em;
+				}
+			}
+
+			&-image {
+				width: 256px;
+
+				.growthexperiments-homepage-desktop .mw-ge-startediting-dialog-intro-withresponse & {
+					float: right;
+					margin-left: 1em;
+				}
+			}
+		}
+
+		&-response {
+			padding: 1.5em @startEditingDialogSidePadding;
+
+			&-image {
+				float: left;
+				width: 96px;
+				margin-right: 1em;
+			}
+
+			&-label {
+				line-height: 1.375;
+			}
+		}
+
+		&-topic {
+			padding: 0 @startEditingDialogSidePadding 24px;
+			background-color: @colorGray15;
+
+			.growthexperiments-homepage-mobile-summary &,
+			.growthexperiments-homepage-mobile-details & {
+				padding-bottom: 16px;
+			}
+
+			&-image {
+				width: 128px;
+
+				body.growthexperiments-homepage-user-variant-A &,
+				body.growthexperiments-homepage-user-variant-D.growthexperiments-homepage-desktop & {
+					float: left;
+					margin-right: 1em;
+				}
+
+				body.growthexperiments-homepage-user-variant-C &,
+				body.growthexperiments-homepage-user-variant-D.growthexperiments-homepage-mobile-summary & {
+					float: right;
+					margin-left: 1em;
+				}
+
+				body.growthexperiments-homepage-user-variant-D &,
+				body.growthexperiments-homepage-mobile-summary & {
+					width: 64px;
+				}
+			}
+
+			&-imageWrapper {
+				body.growthexperiments-homepage-mobile-summary & {
+					display: flex;
+					align-items: center;
+					flex-direction: row-reverse;
+					padding-bottom: 16px;
+
+					.mw-ge-startediting-dialog-intro-topic-title {
+						flex-grow: 1;
+						// Override margin-bottom: 0.5em; rule below
+						margin-bottom: 0;
+					}
+				}
+			}
+
+			&-title {
+				color: @colorGray2;
+				font-weight: bold;
+				font-size: @headerFontSize;
+				line-height: 1.375;
+				margin-top: 0;
+				// Override margin reset on mobile
+				margin-bottom: 0.5em;
+			}
+
+			&-message {
+				line-height: 1.375;
+
+				strong {
+					font-weight: normal;
+				}
+
+				&:after {
+					content: '';
+					display: block;
+					clear: both;
+				}
+			}
+		}
+
+		&-topic-description {
+			padding: 24px @startEditingDialogSidePadding;
+			display: flex;
+
+			.growthexperiments-homepage-mobile-summary &,
+			.growthexperiments-homepage-mobile-details & {
+				padding: 16px @startEditingDialogSidePadding;
+				flex-direction: column;
+			}
+
+			&-image {
+				.growthexperiments-homepage-desktop & {
+					width: 128px;
+					margin-right: 1em;
+				}
+
+				.growthexperiments-homepage-mobile-summary &,
+				.growthexperiments-homepage-mobile-details & {
+					width: 216px;
+					margin-bottom: 1em;
+				}
+			}
+
+			&-textWrapper {
+				flex-grow: 1;
+			}
+
+			&-header {
+				font-weight: bold;
+				font-size: @headerFontSize;
+				color: @colorGray2;
+				// Override margin reset on mobile
+				margin-bottom: 0.5em;
+			}
+
+			&-header,
+			&-subheader {
+				line-height: 1.375;
+			}
+		}
+
+		&-topic-selector {
+			padding: 24px @startEditingDialogSidePadding;
+
+			.growthexperiments-homepage-mobile-summary &,
+			.growthexperiments-homepage-mobile-details & {
+				padding: 16px @startEditingDialogSidePadding;
+			}
+
+			&-header {
+				font-weight: bold;
+				font-size: @headerFontSize;
+				color: @colorGray2;
+				margin-bottom: 4px;
+			}
+
+			&-subheader {
+				color: @colorGray2;
+			}
+
+			.mw-ge-suggestion {
+				line-height: 1.6;
+
+				.oo-ui-labelWidget {
+					// HACK use transition instead of animation for moving text left, so that the
+					// animation doesn't happen when suggestions are revealed with "show more"
+					.transition-transform( 200ms );
+					animation: none;
+				}
+			}
+
+			.mw-ge-suggestion-wrapper {
+				margin-right: 0.25em;
+				margin-bottom: 0.5em;
+			}
+		}
+
+		&-general-header,
+		&-response-label {
+			.growthexperiments-homepage-mobile-summary &,
+			.growthexperiments-homepage-mobile-details & {
+				strong {
+					display: block;
+					padding-bottom: 1em;
+
+					&:after {
+						content: '';
+						display: block;
+						clear: both;
+					}
+				}
+			}
+		}
+	}
+
+	&-difficulty {
+		&-banner {
+			color: @colorGray2;
+			line-height: 1.375;
+			background-color: @colorGray15;
+			background-repeat: no-repeat;
+			// We can't use e.g. background-position-x: @startEditingDialogSidePadding; because
+			// that's not flippable for RTL. Instead, use a border with the same color as the background
+			background-position-x: left;
+			border-left: @colorGray15 solid @startEditingDialogSidePadding;
+
+			.growthexperiments-homepage-desktop & {
+				background-image: url( ../../images/difficulty-square-ltr.svg );
+				background-size: 128px;
+				background-position-y: top;
+				padding: 0 @startEditingDialogSidePadding 24px;
+				// HACK: Work around a CSSJanus bug where padding: 0 24px 24px calc( ... ) isn't flipped
+				padding-left: calc( 128px ~'+' 1em );
+				// The padding-bottom: 24px; above doesn't quite work, because the height of the
+				// image isn't counted as part of the height of this div because it's a background
+				// image. Address this by using a min-height.
+				min-height: 128px + 24px;
+				.box-sizing( border-box );
+			}
+
+			.growthexperiments-homepage-mobile-summary &,
+			.growthexperiments-homepage-mobile-details & {
+				background-image: url( ../../images/difficulty-landscape-ltr.svg );
+				background-size: 216px 64px;
+				background-position-y: top;
+				padding: calc( 64px ~'+' 1em ) @startEditingDialogSidePadding 16px 0;
+			}
+
+			// The image is not displayed in variant D
+			body.growthexperiments-homepage-user-variant-D & {
+				background-image: none;
+				padding-top: 0;
+				padding-left: 0;
+				min-height: unset;
+			}
+		}
+
+		&-header {
+			color: @colorGray2;
+			font-weight: bold;
+			font-size: @headerFontSize;
+			margin-top: 0;
+			// Override margin reset on mobile
+			margin-bottom: 0.5em;
+
+			strong {
+				color: @easyColor;
+				text-transform: lowercase;
+			}
+		}
+
+		&-legend,
+		&-taskTypeSelector {
+			padding: 24px @startEditingDialogSidePadding;
+
+			.growthexperiments-homepage-mobile-summary &,
+			.growthexperiments-homepage-mobile-details & {
+				padding: 16px @startEditingDialogSidePadding;
+			}
+		}
+
+		&-legend {
+			.growthexperiments-homepage-desktop & {
+				display: table;
+			}
+
+			.growthexperiments-homepage-desktop &-row {
+				display: table-row;
+			}
+
+			.growthexperiments-homepage-desktop &-cell {
+				display: table-cell;
+				vertical-align: top;
+			}
+
+			&-label {
+				font-size: @headerFontSize;
+				font-weight: bold;
+
+				span {
+					vertical-align: middle;
+				}
+
+				.oo-ui-iconElement {
+					margin-right: 0.5em;
+					width: 24px;
+					height: 24px;
+				}
+
+				.growthexperiments-homepage-desktop & {
+					// Because this is a table, width behaves more like min-width
+					// Align the description to the right of this cell with the text in the banner
+					width: calc( 128px ~'+' 1em / 1.3em );
+					// nowrap might make the label column wider
+					white-space: nowrap;
+					// Make sure there's always at least 1em between the two columns
+					padding-right: 1em;
+					.box-sizing( border-box );
+				}
+			}
+
+			&-easy &-label {
+				color: @easyColor;
+			}
+
+			&-medium &-label {
+				color: @mediumColor;
+			}
+
+			&-hard &-label {
+				color: @hardColor;
+			}
+
+			&-description {
+				color: @colorGray2;
+				line-height: 1.5;
+				padding-bottom: 1.5em;
+
+				.growthexperiments-homepage-desktop & {
+					p {
+						margin: 0;
+					}
+				}
+
+				.growthexperiments-homepage-mobile-summary &,
+				.growthexperiments-homepage-mobile-details & {
+					padding-top: 0.5em;
+
+					p {
+						margin: 0.25em 0;
+					}
+				}
+			}
+
+			&-description-header {
+				color: @colorGray2;
+				font-weight: bold;
+				font-size: 0.925em;
+			}
+
+			&-description-body {
+				color: @colorGray5;
+				font-size: 0.925em;
+			}
+		}
+	}
+}

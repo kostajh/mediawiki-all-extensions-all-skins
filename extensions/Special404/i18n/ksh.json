@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"special404-desc": "Määd_en Sigg för dä Fähler „{{int:Error404}}“ müjjelesch.",
+	"error404": "404 Nit jefonge",
+	"special404-body": "Dä aanjefroochte URL ham_mer nit jefonge.\n\nWohr velleisch {{fullurl:$1}} jemeint?\n\nSöns kam_mer och de [[{{MediaWiki:Mainpage}}|{{int:Mainpage}}]] bekike."
+}

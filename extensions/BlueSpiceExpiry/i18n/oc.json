@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Quentí"
+		]
+	},
+	"action-expiry-delete": "suprimir l’expiracion de las paginas",
+	"bs-expiry-smwpropertyvalueprovider-expirationdate-alias": "Expira/Data d’expiracion",
+	"bs-expiry-smwpropertyvalueprovider-expirationdate-desc": "Data d’expiracion de la pagina",
+	"bs-expiry-smwpropertyvalueprovider-isexpired-alias": "Expira/A expirat",
+	"bs-expiry-smwpropertyvalueprovider-isexpired-desc": "Indica se la pagina a expirada"
+}

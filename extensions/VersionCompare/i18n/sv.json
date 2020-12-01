@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"versioncompare": "Versionsjämförelse",
+	"version-compare-desc": "Visar jämförelse av kärnkomponenter och tilläggsversioner mellan två wikier.",
+	"version-compare-database-label": "Databas",
+	"version-compare-url-error": "Fel när data hämtades från $1.",
+	"version-compare-url-field-help-1": "Webbadressen för API (slutar med api.php) i den första wikin att jämföra. Kommer att använda aktuell wiki om den lämnas tomt.",
+	"version-compare-url-field-help-2": "Webbadressen för API (slutar med api.php) i den andra wikin att jämföra. Kommer att använda aktuell wiki om den lämnas tomt.",
+	"version-compare-diff-field-label": "Visa endast skillnader"
+}

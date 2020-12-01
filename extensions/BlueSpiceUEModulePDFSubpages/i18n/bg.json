@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"bs-uemodulepdfsubpages-extension-description": "Включва рекурсивното изнасяне на страници в PDF формат с подстраници.",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-text": "PDF-страница с подстраници",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-title": "Изнасяне на тази страница с всички подстраници в PDF.",
+	"action-uemodulepdfsubpages-export": "изнасяне на страница, включително подстраниците в PDF",
+	"right-uemodulepdfsubpages-export": "Изнасяне на страница с подстраниците ѝ в PDF"
+}

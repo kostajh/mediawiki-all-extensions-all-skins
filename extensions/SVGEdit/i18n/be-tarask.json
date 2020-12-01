@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Wizardist",
+			"Zedlik"
+		]
+	},
+	"svgedit-editbutton-edit": "Рэдагаваць малюнак",
+	"svgedit-summary-label": "Кароткае апісаньне рэдагаваньня",
+	"svgedit-summary-default": "/* Зьменена ў svg-edit */",
+	"svgedit-editor-save-close": "Захаваць і закрыць",
+	"svgedit-editor-close": "Скасаваць",
+	"svgedit-desc": "Рэдагаваньне SVG-малюнкаў у браўзэры з дапамогай [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Рэдагаваць малюнак",
+	"svgedit-edit-tab-tooltip": "Вы можаце рэдагаваць SVG-малюнак у Вашым браўзэры",
+	"svgedit-toolbar-insert": "SVG-малюнак"
+}

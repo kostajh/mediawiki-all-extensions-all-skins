@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carlosmg.dg",
+			"Dgstranz",
+			"Fitoschido",
+			"Macofe",
+			"Yllelder"
+		]
+	},
+	"bs-countthings-desc": "Proporciona estadísticas basadas en contenido",
+	"bs-countthings-chars-label": "Caracteres",
+	"bs-countthings-words-label": "Palabras",
+	"bs-countthings-files-label": "Archivos",
+	"bs-countthings-pages-label": "Páginas",
+	"bs-countthings-ve-countarticles-title": "Ordenar artículos",
+	"bs-countthings-ve-countfiles-title": "Ordenar archivos",
+	"bs-countthings-ve-countthingsinspector-mode": "Modo",
+	"bs-countthings-ve-countcharacters-mode-all": "todos",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "caracteres",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "palabras",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "caracteres y palabras",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "páginas",
+	"bs-countthings-ve-countcharacters-input-label": "Páginas",
+	"bs-countthings-error-no-input": "No se proporcionó una página.",
+	"bs-countthings-error-invalid-mode": "El modo «$1» no es válido. Usa «chars» (caracteres), «words» (palabras), o «pages» (páginas).",
+	"bs-countthings-error-not-exist": "La página «$1» no existe.",
+	"bs-countthings-tag-countarticles-desc": "Muestra el número de artículos en el wiki.",
+	"bs-countthings-tag-countusers-desc": "Muestra el número de usuarios registrados.",
+	"bs-countthings-tag-countfiles-desc": "Muestra el número de artículos en el wiki.",
+	"bs-countthings-tag-countcharacters-desc": "Genera metadatos sobre el contenido del artículo indicado. La salida es una caja informativa que se puede integrar en un artículo. Con el parámetro «mode» se pueden mostrar distintos tipos de información.",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Lo que debe contarse <code>chars</code> (caracteres), <code>words</code> (palabras) o <code>pages</code> (páginas).",
+	"bs-countthings-tag-countcharacters-example-1": "Número de palabras",
+	"bs-countthings-tag-countcharacters-example-2": "Número de caracteres"
+}

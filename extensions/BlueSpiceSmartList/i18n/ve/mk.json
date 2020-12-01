@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"bs-smartlist-ve-smartlist-title": "SmartList",
+	"bs-smartlist-ve-smartlistinspector-count": "Број",
+	"bs-smartlist-ve-smartlistinspector-ns": "Именски простор(и)",
+	"bs-smartlist-ve-smartlistinspector-cat": "Категорија",
+	"bs-smartlist-ve-smartlistinspector-minor": "Прикажи ситни",
+	"bs-smartlist-ve-smartlistinspector-catmode": "Режим за категории",
+	"bs-smartlist-ve-smartlistinspector-period": "Период",
+	"bs-smartlist-ve-smartlistinspector-new": "Прикажи само нови статии",
+	"bs-smartlist-ve-smartlistinspector-heading": "Заглавие",
+	"bs-smartlist-ve-smartlistinspector-showtext": "Прикажи текст",
+	"bs-smartlist-ve-smartlistinspector-trimtext": "Скриј текст",
+	"bs-smartlist-ve-smartlistinspector-sort": "Подреди по",
+	"bs-smartlist-ve-smartlistinspector-order": "Редослед на подредување",
+	"bs-smartlist-ve-smartlistinspector-showns": "Прикажи именски простори",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "Број со текст",
+	"bs-smartlist-ve-smartlistinspector-meta": "Мета",
+	"bs-smartlist-ve-smartlistinspector-target": "Цел",
+	"bs-smartlist-ve-smartlistinspector-excludens": "Изземи именски простор(и)",
+	"bs-smartlist-ve-period-day-label": "Ден",
+	"bs-smartlist-ve-period-week-label": "Недела",
+	"bs-smartlist-ve-period-month-label": "Месец",
+	"bs-smartlist-ve-sort-time-label": "Време",
+	"bs-smartlist-ve-sort-title-label": "Наслов",
+	"bs-smartlist-ve-newbiesinspector-count": "Број",
+	"bs-smartlist-ve-toplistinspector-count": "Број",
+	"bs-smartlist-ve-toplistinspector-ns": "Именски простор(и)",
+	"bs-smartlist-ve-toplistinspector-cat": "Категорија",
+	"bs-smartlist-ve-toplistinspector-period": "Период"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "Facilita le SEO (optimisation pro motores de recerca)",
+	"addhtmlmetaandtitle-empty-attr": "Le etiquetta &lt;seo&gt; debe continer al minus un attributo \"title\", \"metak(eywords)\" o \"metad(escription)\" non vacue."
+}

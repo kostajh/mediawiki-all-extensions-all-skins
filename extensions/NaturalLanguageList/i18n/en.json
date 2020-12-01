@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"nll-desc": "Easy formatting of lists in natural languages",
+	"nll-itemoutput": "$1",
+	"nll-separator": ",&#32;",
+	"nll-lastseparator": "&#32;and&#32;"
+}

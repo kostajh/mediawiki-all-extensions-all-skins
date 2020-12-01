@@ -1,0 +1,14 @@
+/* Reduce padding a bit further */
+#bodyContent,
+.message *,
+#footer {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+/* Stack footer columns */
+.footer {
+	display: block;
+	float: none;
+	width: 90%;
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"generatemochaconfig-desc": "一種可產生用來給所有已啟用擴充功進行 Mocha 測試用 JSON 的手稿"
+}

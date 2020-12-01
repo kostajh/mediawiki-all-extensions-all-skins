@@ -1,0 +1,52 @@
+<div class="bs-button-user dropdown">
+	{{#anon}}
+	<span class="bs-personal-not-loggedin">
+		<a class="bs-personal-not-loggedin" href="{{url}}" title="{{text}}"><span>{{text}}</span></a>
+	</span>
+	{{/anon}}
+
+	{{#user}}
+	<img src="{{src}}" class="bs-profile-img dropdown-toggle" data-toggle="dropdown" title="{{personalname}}" alt="{{username}}" width="{{width}}" height="{{height}}" />
+	{{#notifications}}
+		{{#notifications-badge-text}}
+		<div class="bs-userbutton-notifications-badge">
+			<span>{{.}}</span>
+		</div>
+		{{/notifications-badge-text}}
+	{{/notifications}}
+	<div class="dropdown-menu bs-personal-menu-container">
+		<ul id="bs-personal-menu">
+			{{#personaltools}}
+				{{#userpage}}
+				<li><a id="{{id}}" text="{{text}}" href="{{href}}">{{text}}</a></li>
+				{{/userpage}}
+			{{/personaltools}}
+			{{#notifications}}
+				{{#notifications-link}}
+				<li><a class="{{class}}" text="{{text}}" href="{{href}}" data-notifications-badge-text="{{data-notifications-badge-text}}">{{text}}</a></li>
+				{{/notifications-link}}
+			{{/notifications}}
+			{{#personaltools}}
+				<span class="separator"></span>
+				{{#watchlist}}
+				<li><a id="{{id}}" text="{{text}}" href="{{href}}">{{text}}</a></li>
+				{{/watchlist}}
+				{{#links}}
+				<li><a id="{{id}}" text="{{text}}" href="{{href}}">{{text}}</a></li>
+				{{/links}}
+				<span class="separator"></span>
+				{{#dashboards}}
+				<li><a id="{{id}}" text="{{text}}" href="{{href}}">{{text}}</a></li>
+				{{/dashboards}}
+				<span class="separator"></span>
+				{{#preferences}}
+				<li><a id="{{id}}" text="{{text}}" href="{{href}}">{{text}}</a></li>
+				{{/preferences}}
+				{{#logout}}
+				<li><a id="{{id}}" text="{{text}}" href="{{href}}">{{text}}</a></li>
+				{{/logout}}
+			{{/personaltools}}
+		</ul>
+	</div>
+	{{/user}}
+</div>

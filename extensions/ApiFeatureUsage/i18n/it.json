@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Daimona Eaytoy",
+			"Dansita",
+			"Selven"
+		]
+	},
+	"apifeatureusage": "Uso funzionalità API",
+	"apifeatureusage-desc": "Ottieni un riepilogo dell'uso delle funzionalità API registrate per un agente utente.",
+	"apifeatureusage-elasticsearch-error": "Errore Elasticsearch: $1",
+	"apifeatureusage-legend": "Uso funzionalità API",
+	"apifeatureusage-agent-label": "User agent:",
+	"apifeatureusage-startdate-label": "Data di inizio:",
+	"apifeatureusage-enddate-label": "Data di fine:",
+	"apifeatureusage-submit": "Recupera dati",
+	"apifeatureusage-no-indexes": "Non sono disponibili dati per l'intervallo di date specificato.",
+	"apifeatureusage-missing-indexes": "Nessun dato è disponibile per una parte dell'intervallo di date specificato.",
+	"apifeatureusage-warnings": "Attenzione: $1",
+	"apifeatureusage-column-feature": "Caratteristica",
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-column-uses": "Usi",
+	"apihelp-query+featureusage-description": "Ottieni un riepilogo dell'uso delle funzionalità API registrate per un agente utente.",
+	"apihelp-query+featureusage-summary": "Ottieni un riepilogo dell'uso delle funzionalità API registrate per un agente utente.",
+	"apihelp-query+featureusage-param-start": "Inizio dell'intervallo di date da interrogare.",
+	"apihelp-query+featureusage-param-end": "Fine dell'intervallo di date da interrogare.",
+	"apihelp-query+featureusage-param-agent": "Agente utente da interrogare. Se non specificato, sarà consultato l'agente di questa richiesta.",
+	"apihelp-query+featureusage-param-features": "Se specificato, restituisce i dettagli solo su queste funzionalità.",
+	"apihelp-query+featureusage-example-simple": "Interroga l'uso delle funzionalità per l'agente utente attuale",
+	"apierror-apifeatureusage-emptyagent": "Impossibile cercare un agente utente vuoto."
+}

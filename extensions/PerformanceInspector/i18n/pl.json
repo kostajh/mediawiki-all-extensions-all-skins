@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"performanceinspector-portlet-link": "Inspektor wydajności",
+	"performanceinspector-dialog-title": "Inspektor wydajności",
+	"performanceinspector-dialog-summary": "Podsumowanie",
+	"performanceinspector-dialog-cancel": "Anuluj",
+	"performanceinspector-modules-summary-total-size": "Całkowity rozmiar wszystkich modułów",
+	"performanceinspector-modules-css-column-module": "Moduł",
+	"performanceinspector-modules-css-used-selectors-values": "$1 ($2 z $3)",
+	"performanceinspector-modules-css-column-source": "Źródło",
+	"performanceinspector-imagesize-name": "Rozmiar obrazka",
+	"performanceinspector-imagesize-label": "Rozmiar obrazka",
+	"performanceinspector-imagesize-column-image-name": "Nazwa",
+	"performanceinspector-imagesize-column-size": "Rozmiar",
+	"performanceinspector-imagesize-too-big": "Ostrzeżenie",
+	"performanceinspector-imagesize-description": "Oto wszystkie obrazki ładowane na tej stronie.",
+	"performanceinspector-newpp-column-name": "Nazwa",
+	"performanceinspector-newpp-column-value": "Wartość",
+	"performanceinspector-newpp-template-time-report-column-name": "Nazwa",
+	"performanceinspector-newpp-cachereport-now": "Teraz",
+	"performanceinspector-pagesize-summary": "Rozmiar HTML to $1 (po kompresji $2)"
+}

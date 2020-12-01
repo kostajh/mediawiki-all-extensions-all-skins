@@ -1,0 +1,108 @@
+{
+	"name": "BlueSpiceAbout",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:BlueSpiceAbout",
+	"author": [
+		"Markus Glaser",
+		"Peter Böhm",
+		"Leonid Verhovskij"
+	],
+	"descriptionmsg": "bs-bluespiceabout-desc",
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceAbout": {
+					"className": "\\BlueSpice\\About\\Extension",
+					"extPath": "/BlueSpiceAbout",
+					"configDefinitions": {
+						"BlueSpiceAboutShowMenuLinks": "\\BlueSpice\\About\\ConfigDefinition\\ShowMenuLinks::getInstance"
+					}
+				}
+			},
+			"AdminToolRegistry": {
+				"bs-bluespiceabout": "BlueSpice\\About\\AdminTool"
+			},
+			"PermissionRegistry": {
+				"bluespiceabout-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"accountmanager",
+						"accountselfcreate",
+						"admin",
+						"author",
+						"bot",
+						"commenter",
+						"editor",
+						"maintenanceadmin",
+						"reader",
+						"reviewer",
+						"structuremanager"
+					]
+				}
+			}
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"SpecialPages": {
+		"BlueSpiceAbout": "SpecialBlueSpiceAbout"
+	},
+	"MessagesDirs": {
+		"BlueSpiceAbout": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceAboutAlias": "includes/specials/SpecialBlueSpiceAbout.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\About\\": "src/"
+	},
+	"AutoloadClasses": {
+		"SpecialBlueSpiceAbout": "includes/specials/SpecialBlueSpiceAbout.php"
+	},
+	"GroupPermissions": {
+		"*": {
+			"bluespiceabout-viewspecialpage": false
+		},
+		"user": {
+			"bluespiceabout-viewspecialpage": true
+		},
+		"sysop": {
+			"bluespiceabout-viewspecialpage": true
+		}
+	},
+	"AvailableRights": [
+		"bluespiceabout-viewspecialpage"
+	],
+	"config_prefix": "bsg",
+	"config": {
+		"BlueSpiceAboutShowMenuLinks": {
+			"value": true,
+			"descriptionmsg": "bs-bluespiceabout-show-menu-links",
+			"public": true
+		}
+	},
+	"ResourceModules": {
+		"ext.bluespice.bluespiceabout": {
+			"styles": "bluespice.bluespiceabout.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceAbout/resources"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "\\BlueSpice\\About\\Hook\\BeforePageDisplay\\AddModules::callback",
+		"SkinBuildSidebar": "\\BlueSpice\\About\\Hook\\SkinBuildSidebar\\AddNavLink::callback"
+	},
+
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

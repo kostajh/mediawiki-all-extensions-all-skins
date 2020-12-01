@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"testlanguagenamegrammar": "Grammatikformen mit Sprachnamen testen",
+	"testlanguagenamegrammar-desc": "Erweitert das Wiki um eine [[Special:TestLanguageNameGrammar|Spezialseite]] zum Testen von Grammatikformen zu Namen von Sprachen",
+	"testlanguagenamegrammar-language": "Sprache",
+	"testlanguagenamegrammar-grammarform": "Grammatikform",
+	"testlanguagenamegrammar-submit": "Übertragen"
+}

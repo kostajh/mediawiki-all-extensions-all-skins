@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirzali"
+		]
+	},
+	"emailauthorization-config-label-email": "Adresa e-posteyi",
+	"emailauthorization-config-value-yes": "eya",
+	"emailauthorization-config-value-no": "nê",
+	"emailauthorization-config-button-previous": "Verên",
+	"emailauthorization-config-button-search": "Cı geyre",
+	"emailauthorization-config-button-add": "Cı ke",
+	"emailauthorization-request-label-email": "Adresa e-posteyi",
+	"emailauthorization-approve-label-email": "Adresa e-posteyi",
+	"emailauthorization-approve-button-approve": "Qebul ke",
+	"emailauthorization-approve-button-previous": "Verên"
+}

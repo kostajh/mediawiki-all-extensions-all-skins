@@ -1,0 +1,60 @@
+{
+	"name": "EUCopyrightCampaignSkin",
+	"author": [
+		"Dejan Savuljesku",
+		"Robert Vogel",
+		"Hallo Welt! GmbH"
+	],
+	"url": "https://www.wikimedia.org",
+	"descriptionmsg": "euccs-eucopyrightcampaign-skin-desc",
+	"namemsg": "euccs-skinname-eucopyrightcampaign",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"attributes": {
+		"EventLogging": {
+			"Schemas": {
+				"EUCCVisit": 18354626
+			}
+		}
+	},
+	"ValidSkinNames": {
+		"eucopyrightcampaign": "EUCopyrightCampaign"
+	},
+	"MessagesDirs": {
+		"EUCopyrightCampaignSkin": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinEUCopyrightCampaign": "includes/SkinEUCopyrightCampaign.php",
+		"EUCopyrightCampaignSkinTemplate": "includes/EUCopyrightCampaignSkinTemplate.php"
+	},
+	"ResourceModules": {
+		"skins.eucopyrightcampaign.styles": {
+			"styles": {
+				"screen.less": {
+					"media": "screen"
+				},
+				"mobile.less": {
+					"media": "screen and ( max-width: 640px )"
+				}
+			}
+		},
+		"skins.eucopyrightcampaign.js": {
+			"scripts": [
+				"main.js"
+			],
+			"dependencies": [
+				"oojs-ui"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteSkinPath": "EUCopyrightCampaignSkin/resources"
+	},
+	"manifest_version": 2
+}

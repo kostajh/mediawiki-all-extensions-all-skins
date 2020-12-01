@@ -1,0 +1,15 @@
+*~
+*.kate-swp
+.*.swp
+Thumbs.db
+BlueSpiceExtensions.local.php
+./BlueSpiceExtensions.local.php
+
+/node_modules/
+/vendor/
+/composer.lock
+TEST
+html/
+latex/
+InsertLink/vendor/src/build/
+UsageTracker/vendor/

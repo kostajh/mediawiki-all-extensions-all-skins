@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"bs-insertcategory-desc": "Дијалог за уношење линка ка категорији",
+	"bs-insertcategory-insertcat": "Унеси категорију",
+	"prefs-insertcategory": "Унеси категорију",
+	"bs-insertcategory-title": "Унеси категорију",
+	"bs-insertcategory-cat-label": "Додељено:",
+	"bs-insertcategory-success": "Категорија је додата",
+	"bs-insertcategory-failure": "Грешка",
+	"bs-insertcategory-hint": "Напомена: да би сте унели категорију, морате притиснути ентер.",
+	"bs-insertcategory-panel-title": "Категорије",
+	"bs-insertcategory-category-editor-title": "Категорије",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Имплицитне категорије",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Уклони све",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "уреди",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Уредите категорије ове странице"
+}

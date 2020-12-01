@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"tweetanew-desc": "Tvitrer når en side opprettes eller redigeres",
+	"tweetanew-newaction": "Tvitre om denne nye siden",
+	"tweetanew-newtooltip": "Send informasjon om denne nye siden til Twitter",
+	"tweetanew-editaction": "Tvitre om denne redigeringen",
+	"tweetanew-edittooltip": "Send informasjon om denne redigeringen til Twitter",
+	"tweetanew-minoredit": "m",
+	"tweetanew-authorcredit": "av",
+	"tweetanew-newdefault": "NY SIDE: $1 – $2",
+	"tweetanew-new1": "Det ser ut som $1 ble opprettet på $2",
+	"tweetanew-new2": "$1 ble nylig opprettet på $2",
+	"tweetanew-new3": "Sjekk $2 – det er en nå side på $1",
+	"tweetanew-editdefault": "OPPDATERT SIDE: $1 – $2",
+	"tweetanew-edit1": "Det ser ut som $1 ble oppdatert på $2",
+	"tweetanew-edit2": "$1 ble nylig endret på $2",
+	"tweetanew-edit3": "Sjekk $2 – det er nytt innhold om $1"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Priviet"
+		]
+	},
+	"multimaps-loading-map": "지도를 불러오는 중...",
+	"multimaps-mapservices-must-not-empty-array": "\"$1\" 변수가 빈 배열이 아니여야 합니다.",
+	"multimaps-unknown-parameter": "알 수 없는 매개변수: \"$1\""
+}

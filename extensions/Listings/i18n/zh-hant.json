@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"LNDDYL"
+		]
+	},
+	"listings-desc": "新增用來表列位置的標籤",
+	"listings-unknown": "不明目的地",
+	"listings-phone": "電話",
+	"listings-fax": "傳真",
+	"listings-email": "電子郵件",
+	"listings-tollfree": "免費電話",
+	"listings-checkin": "入住：$1",
+	"listings-checkout": "退房：$1",
+	"listings-position": "位置：$1"
+}

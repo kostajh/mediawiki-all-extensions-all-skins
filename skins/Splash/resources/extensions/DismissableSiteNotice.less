@@ -1,0 +1,21 @@
+@import '../mixins.less';
+
+.mw-dismissable-notice-close {
+	margin: 0.5em 1.25em 0.5em 1em;
+	font-variant: small-caps;
+}
+
+.mw-dismissable-notice-body #localNotice {
+	// reset the default; we're doing this elsewhere here
+	.unbox();
+}
+
+.mw-dismissable-notice {
+	.box();
+	padding: 0.5em 1em;
+	margin: 0.5em auto 1.25em;
+}
+
+div#siteNotice {
+	margin: 0;
+}

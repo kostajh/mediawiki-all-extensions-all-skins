@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"pageblock-desc": "Slår på begrensninger per side/per bruker",
+	"pageblock": "Begrens bruker",
+	"pageblock-legend": "Begrens bruker",
+	"pageblock-form-title": "Sidenavn",
+	"pageblock-form-user": "Brukernavn",
+	"pageblock-form-edit": "Begrens brukeren fra å redigere",
+	"pageblock-form-sameformove": "Bruk samme begrensninger for flytting",
+	"pageblock-form-move": "Begrens brukeren fra å flytte",
+	"pageblock-form-reason": "Årsak",
+	"pageblock-success": "$1 har blitt begrenset fra $2.",
+	"listrestrictions": "List opp begrensninger",
+	"listrestrictions-legend": "List opp begrensninger",
+	"pageblock-list-title": "Sidenavn",
+	"pageblock-list-user": "Brukernavn",
+	"pageblock-list-indefonly": "Vis kun begrensninger uten utløpstid",
+	"pageblock-restricted-edit-indef": "$1 er begrenset fra å redigere $2 på ubestemt tid.",
+	"pageblock-restricted-edit": "$1 er begrenset fra å redigere $2 fram til $3.",
+	"pageblock-restricted-move-indef": "$1 er begrenset fra å flytte $2 på ubestemt tid.",
+	"pageblock-restricted-move": "$1 er begrenset fra å flytte $2 fram til $3.",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|Du}} er begrenset fra å redigere $2 på ubestemt tid.",
+	"pageblock-blocked-edit": "{{GENDER:$1|Du}} er begrenset fra å redigere $2 fram til $3.",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|Du}} er begrenset fra å flytte $2 på ubestemt tid.",
+	"pageblock-blocked-move": "{{GENDER:$1|Du}} er begrenset fra å flytte fram til $3.",
+	"logentry-restrict-add-edit-move": "$1 {{GENDER:$2|begrenset}} $3 fra å redigere og flytte $4",
+	"logentry-restrict-add-edit": "$1 {{GENDER:$2|begrenset}} $3 fra å redigere $4",
+	"logentry-restrict-add-move": "$1 {{GENDER:$2|begrenet}} $3 fra å flytte $4",
+	"action-page-block": "sette, endre eller fjerne begrensninger per side eller per bruker",
+	"right-page-block": "Sette, endre eller fjerne begrensninger per side eller per bruker"
+}

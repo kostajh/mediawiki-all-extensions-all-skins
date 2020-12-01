@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"viki-desc": "Desenha um grafo de ligações entre páginas da wiki e páginas da Internet",
+	"viki-error-title": "Erro:",
+	"viki-error-missing-pageTitle": "Tem de fornecer, pelo menos, um título de página.",
+	"viki-timeout-content-namespace": "Foi excedido o limite de tempo para aceder ao espaço nominal de conteúdo da wiki: $1. Por omissão será usado o espaço nominal principal.",
+	"viki-error-content-namespace": "Erro ao obter o espaço nominal de conteúdo da wiki: $1. Por omissão será usado o espaço nominal principal.",
+	"viki-error-visit-node": "Erro ao tentar visitar o nó: $1.",
+	"viki-error-external-links": "Erro na obtenção das hiperligações externas da página: $1.",
+	"viki-error-intrawiki-out": "Erro na obtenção das hiperligações intrawiki de saída da página: $1.",
+	"viki-error-intrawiki-in": "Erro na obtenção das hiperligações intrawiki de entrada da página: $1.",
+	"viki-error-https-node": "Erro na elaboração do nó: $1. Está a trabalhar sobre HTTPS; só pode aceder a outras wikis sobre HTTPS.",
+	"viki-error-https-namespace": "Erro ao obter o espaço nominal de conteúdo da wiki: $1. Está a trabalhar sobre HTTPS; só pode aceder a outras wikis sobre HTTPS.",
+	"apihelp-getContentNamespaces-description": "Obter a lista dos espaços nominais de conteúdo desta wiki.",
+	"apihelp-getContentNamespaces-summary": "Obter a lista dos espaços nominais de conteúdo desta wiki."
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Steeve815"
+		]
+	},
+	"bs-social-profile-field-title-value": "{{{{GENDER:$1|מר|גברת}}",
+	"bs-social-profile-field-validate-no-integer": "$1 חייב להיות מספר",
+	"bs-socialprofile-special-profiles-heading": "פרופילים",
+	"bs-social-profile-infoshowemail": "להציג כתובת דוא\"ל בפרופיל",
+	"bs-socialprofile-switch-classicprofile-label": "פרופיל קלאסי",
+	"bs-socialprofile-switch-modernprofile-label": "פרופיל מודרני"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"namespaces": "Vidi i uredi namespaces",
+	"namespaces-title-norights": "Gledanje namespaces",
+	"namespaces-desc": "Dodaje [[Special:Namespaces|posebnu stranicu]] za gledanje i uređivanje namespaces",
+	"namespaces_error": "Namespaces tablica je prazna.",
+	"namespaces_reasonfield": "Razlog",
+	"namespaces_defaultreason": "nema razloga",
+	"namespaces_addbutton": "Dodaj"
+}

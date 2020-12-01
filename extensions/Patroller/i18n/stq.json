@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"patrol": "Kontrolle fon do Beoarbaidengen",
+	"patrol-desc": "Ärwiederde Snitsteede foar ju Kontrolle fon Beoarbaidengen",
+	"patrol-endorse": "Bestäätigje",
+	"patrol-revert": "Touräächsätte",
+	"patrol-revert-reason": "Gruund:",
+	"patrol-skip": "Uurspringe",
+	"patrol-reverting": "Touräächsätte: $1",
+	"patrol-nonefound": "Der wuuden neen paasjende Beoarbaidengen toun Kontrollierjen fuunen.",
+	"patrol-endorsed-ok": "Disse Beoarbaidenge wuude al as kontrollierd markierd.",
+	"patrol-endorsed-failed": "Disse Beoarbaidenge kon nit as kontrollierd markierd wäide.",
+	"patrol-reverted-ok": "Ju Beoarbaidenge wuude touräächsät.",
+	"patrol-reverted-failed": "Ju Beoarbaidenge kon nit touräächsät wäide.",
+	"patrol-skipped-ok": "Beoarbaidenge wäd ignorierd.",
+	"patrol-reasons": "* Eenfacher Vandalismus\n* Test fon n Näiling\n* Sjuch Diskussionssiede",
+	"patrol-another": "Wies ne wiedere Beoarbaidenge, sofier ferföichboar.",
+	"patrol-stopped": "Jie hääbe äntskeeden, neen wiedere Beoarbaidenge tou kontrollierjen. $1",
+	"patrol-resume": "Klik hier toun Foutsätten.",
+	"group-patroller": "Kontrolleure",
+	"group-patroller-member": "Kontrolleur",
+	"grouppage-patroller": "{{ns:project}}:Kontrolleur",
+	"right-patroller": "Sieden kontrollierje"
+}

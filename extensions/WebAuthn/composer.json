@@ -1,0 +1,28 @@
+{
+	"require": {
+		"web-auth/webauthn-lib": "v3.2.10"
+	},
+	"require-dev": {
+		"mediawiki/mediawiki-codesniffer": "33.0.0",
+		"mediawiki/mediawiki-phan-config": "0.10.4",
+		"mediawiki/minus-x": "1.1.0",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"replace": {
+		"paragonie/random_compat": "v9.99.99"
+	},
+	"scripts": {
+		"lint": "parallel-lint . --exclude vendor --exclude node_modules",
+		"phpcs": "phpcs -p -s",
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		],
+		"test": [
+			"composer lint",
+			"composer phpcs",
+			"minus-x check ."
+		]
+	}
+}

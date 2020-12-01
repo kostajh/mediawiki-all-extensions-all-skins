@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"safedelete": "安全刪除",
+	"safedelete-desc": "頁面僅在沒有被特定名稱空間裡的頁面所連結到時做出刪除",
+	"safedelete-title": "刪除 \"$1\"",
+	"safedelete-missingpagename": "缺少頁面名稱。",
+	"safedelete-missingnamespaces": "未設定特定刪除名稱空間的清單。",
+	"safedelete-cannotdelete": "頁面「$1」無法刪除，因為仍有被以下 {{PLURAL:$2| 個頁面| 個頁面}}所連結或重新導向："
+}

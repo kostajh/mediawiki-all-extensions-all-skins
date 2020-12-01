@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"googleanalyticstoppages-desc": "借助于Google Analytics数据提供最多访问页面的列表",
+	"apihelp-googlepagestatsupdate-param-key": "[[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]的值",
+	"apihelp-googlepagestatsupdate-description": "更新最多访问页面的列表（基于由Google Analytics提供的数据）。",
+	"apihelp-googlepagestatsupdate-summary": "更新最多访问页面的列表（基于由Google Analytics提供的数据）。"
+}

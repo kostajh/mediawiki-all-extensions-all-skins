@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"Shirayuki",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"smoothgallery": "{{Identical|SmoothGallery}}",
+	"smoothgallery-desc": "{{desc|name=Smooth Gallery|url=https://www.mediawiki.org/wiki/Extension:SmoothGallery}}",
+	"smoothgallery-title": "{{Identical|SmoothGallery}}",
+	"smoothgallery-smoothgallerytitle": "Unused at this time. Parameters:\n* $1 - ...\n{{Identical|SmoothGallery}}",
+	"smoothgallery-pagetext": "{{notranslate}}",
+	"smoothgallery-error": "Used as label for an error message",
+	"smoothgallery-gallery-not-found": "Used as error message",
+	"smoothgallery-not-found": "Used as error message",
+	"smoothgallery-no-images": "Parameters:\n* $1 - a list of missing images (comma-separated)\n* $2 - the number of missing images\n* $3 - the number of images actually requested, or the number of missing images",
+	"smoothgallery-invalid-images": "Parameters:\n* $1 - list of images (comma-separated)\n* $2 - the number of images in the list",
+	"smoothgallery-unexpected-error": "Used as error message",
+	"smoothgallery-javascript-disabled": "Used as error message"
+}

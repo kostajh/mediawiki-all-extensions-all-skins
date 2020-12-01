@@ -1,0 +1,61 @@
+@import 'mediawiki.ui/variables.less';
+@import '../ext.growthExperiments.variables.less';
+
+.mw-ge-homepage-taskTypeSelectionWidget {
+	&-difficulty-level {
+		padding-top: 24px;
+
+		&-easy {
+			// Ideally we'd use :first-child but since each combination of
+			// icon, checkbox, label etc is not grouped in a single div, we can't
+			// do that. For now just use "easy" as the first child stand-in since
+			// we know it's listed first.
+			padding-top: 0;
+			color: @easyColor;
+		}
+
+		&-medium {
+			color: @mediumColor;
+		}
+
+		&-hard {
+			color: @hardColor;
+		}
+	}
+
+	h4&-difficulty-level-label {
+		display: inline-block;
+		font-size: @headerFontSize;
+		color: inherit;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		// Align with icon
+		vertical-align: middle;
+		padding-left: 8px;
+	}
+
+	.oo-ui-checkboxMultiselectWidget {
+		padding-top: 5px;
+	}
+
+	p&-difficulty-level-desc {
+		font-size: 0.925em;
+		font-weight: bold;
+		color: @colorGray2;
+		padding-top: 5px;
+	}
+
+	.oo-ui-widget&-checkbox-create {
+		.oo-ui-labelElement-label {
+			display: block;
+		}
+
+		.mw-ge-homepage-taskTypeSelectionWidget-additional-msg {
+			display: block;
+			padding-left: 6px;
+			font-size: 12px;
+		}
+	}
+}

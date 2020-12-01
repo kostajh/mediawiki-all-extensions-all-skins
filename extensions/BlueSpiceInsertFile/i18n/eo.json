@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"bs-insertfile-insert-image": "Enmeti bildon",
+	"bs-insertfile-insert-file": "Enmeti dosieron",
+	"bs-insertfile-button-image-title": "Enmeti aŭ redakti bildon",
+	"bs-insertfile-button-file-title": "Enmeti aŭ redakti dosieron",
+	"bs-insertfile-labelfilter": "Filtrilo:",
+	"bs-insertfile-filename": "Dosiernomo",
+	"bs-insertfile-filesize": "Grando de dosiero",
+	"bs-insertfile-labelupload": "Alŝuti",
+	"bs-insertfile-details-title": "Detaloj",
+	"bs-insertfile-labeldimensions": "Grando (larĝo × alto)",
+	"bs-insertfile-labelalt": "Alternativa teksto",
+	"bs-insertfile-labellink": "Ligilo",
+	"bs-insertfile-alignnone": "nenio",
+	"bs-insertfile-alignleft": "maldekstren",
+	"bs-insertfile-aligncenter": "centren",
+	"bs-insertfile-alignright": "dekstren",
+	"bs-insertfile-typenone": "nenio",
+	"bs-insertfile-typethumb": "Miniaturo",
+	"bs-insertfile-titlefile": "Enmeti dosieron",
+	"bs-insertfile-titleimage": "Enmeti bildon",
+	"bs-insertfile-enable-align": "Ŝalti",
+	"bs-insertfile-nstext": "Speco de ligilo",
+	"bs-insertfile-nstextfile": "Dosiero",
+	"bs-insertfile-nstextfile-file": "Montri ligilon al metadateno",
+	"bs-insertfile-nstextfile-image": "Montri bildon"
+}

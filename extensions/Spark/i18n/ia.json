@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"spark-desc": "Adde un etiquetta <code><nowiki><spark /></nowiki></code> que permitte incorporar \"mash-ups\" (mixturas de datos syndicate) de [http://km.aifb.kit.edu/sites/spark/ Spark]",
+	"spark-missing-query": "Es necessari specificar un consulta usante le parametro \"data-spark-query\"."
+}

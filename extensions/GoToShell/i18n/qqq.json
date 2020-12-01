@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Robby",
+			"Umherirrender"
+		]
+	},
+	"gotoshell": "{{doc-special}}",
+	"gotoshell-desc": "{{desc|name=GoToShell|url=https://www.mediawiki.org/wiki/Extension:GoToShell}}",
+	"gotoshell-notallowed": "An error message",
+	"gotoshell-disabled": "Used as error message when server configuration prevents command execution",
+	"gotoshell-command": "A label message\n{{Identical|Command}}",
+	"gotoshell-result": "A label message\n{{Identical|Result}}",
+	"action-gotoshell": "{{doc-action|gotoshell}}\nRight to execute shell commands via the GoToShell special page",
+	"right-gotoshell": "{{doc-right|gotoshell}}\nRight to execute shell commands via the GoToShell special page"
+}

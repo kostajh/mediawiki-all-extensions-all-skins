@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"bs-socialtopics-pref-skipcreatedialog": "Pomiń okno podczas tworzenia dyskusji",
+	"bs-socialtopics-toc-entalkpageautocreate": "Automatycznie twórz wszystkie strony dyskusji",
+	"bs-socialtopics-autocreated-discussionpage": "Ta strona dyskusji została utworzona automatycznie.",
+	"bs-socialtopics-autocreated-discussionpagefile": "Ta strona dyskusji została utworzona automatycznie.",
+	"bs-socialdiscussion-discussiontype": "Dyskusja",
+	"bs-socialdiscussion-topictype": "Tematy dyskusji",
+	"bs-socialtopics-entitydiscussion-header-create": "Stwórz nową s dyskusję",
+	"bs-social-entitytopic-header-create": "Nowy temat",
+	"bs-socialtopics-var-topictitle": "Tytuł",
+	"bs-socialtopics-var-discussiontitleid": "Powiązana strona dyskusji",
+	"bs-socialtopics-entity-fatalstatus-save-notalkpage": "Brak takiej strony dyskusji",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "$1 {{GENDER:$1|rozpoczął|rozpoczęła}} temat:",
+	"topics": "Tematy",
+	"bs-socialtopics-special-topics-heading": "Wszystkie tematy",
+	"bs-socialtopics-special-topics-heading-entry": "Tematy/$1",
+	"bs-socialtopics-aftercontent-heading": "Dyskusje",
+	"bs-socialtopics-nodiscussionpage": "Nie stworzono jeszcze strony dyskusji.",
+	"bs-socialtopics-nodiscussionpage-create": "Stwórz nową stronę dyskusji",
+	"bs-socialtopics-nodiscussion": "Nie stworzono jeszcze dyskusji.",
+	"bs-socialtopics-notopicsadded": "Nie stworzono jeszcze tematu.",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "Zapisz",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "Anuluj",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "Zawartość",
+	"bs-socialtopics-switch-nodiscussion-description": "Ukrywa dyskusję na tej stronie."
+}

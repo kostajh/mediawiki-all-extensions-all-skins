@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"emaildiff-desc": "Permite unviar testos de diffs nos correos electrónicos d'avisu",
+	"tog-emaildiff": "Unviar un \"diff\" de cambeos",
+	"emaildiff-newpage": "Esta ye una páxina nueva:\n\n$1",
+	"emaildiff-intro": "Diferencies de la versión:\n$1"
+}

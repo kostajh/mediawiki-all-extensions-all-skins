@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu"
+		]
+	},
+	"wlm-extension-desc": "Acrescenta informação e mensagens relacionadas com o concurso fotográfico Wiki Loves Monuments",
+	"wlm-no-contest-year": "Não houve um concurso Wiki Loves Monument em $1.",
+	"wlm-no-url-bad-country": "Não foi possível encontrar o sítio do concurso local. $1 não é um código de país válido.",
+	"wlm-country-not-given": "Precisa de fornecer um código de país.",
+	"wlm-country-not-participating-year": "«$1» não participa no Wiki Loves Monuments de $2",
+	"wlm-sidebar-portlet": "Outros países",
+	"wlm-international-contest": "Internacional",
+	"wlm-text-contact": "Contacto",
+	"wlm-text-contest": "Concurso",
+	"wlm-text-donate": "Fazer donativo",
+	"wlm-text-faq": "Perguntas frequentes",
+	"wlm-text-jury": "Jurado",
+	"wlm-text-monuments": "Monumentos",
+	"wlm-text-news": "Notícias",
+	"wlm-text-participate": "Participe!",
+	"wlm-text-prizes": "Prémios",
+	"wlm-text-rules": "Regras",
+	"wlm-text-sponsors": "Patrocinadores",
+	"wlm-text-uploading": "Enviar fotos"
+}

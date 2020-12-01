@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"uploadslink-portlet-label": "അപ്‌ലോഡുകൾ",
+	"tooltip-pt-uploads": "താങ്കൾ അപ്‌ലോഡ് ചെയ്തവയുടെ പട്ടിക",
+	"uploadslink-toobox-label": "{{GENDER:$1|ഉപയോക്തൃ}} അപ്‌ലോഡുകൾ",
+	"tooltip-tb-uploads": "ഈ {{GENDER:$1|ഉപയോക്താവിന്റെ}} അപ്‌ലോഡുകളുടെ പട്ടിക"
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Glanthor Reviol"
+		]
+	},
+	"duplicator": "Oldal másolása",
+	"duplicator-desc": "[[Special:Duplicate|Másolatok]] készítése a lapokról teljes laptörténettel",
+	"duplicator-toolbox": "Oldal másolása",
+	"duplicator-header": "Ez az oldal lehetővé teszi egy teljes oldal lemásolását, a laptörténettel együttvéve. A funkció hasznos lehet pl. oldalak két ágra bontásánál.",
+	"duplicator-options": "Beállítások",
+	"duplicator-source": "Forrás:",
+	"duplicator-dest": "Cél:",
+	"duplicator-dotalk": "Vitalap másolása (ha lehetséges)",
+	"duplicator-submit": "Másolás",
+	"duplicator-summary": "[[$1]] másolata",
+	"duplicator-success": "[[$1]] átmásolva [[$2]] névre.",
+	"duplicator-success-revisions": "$1 változat lett átmásolva.",
+	"duplicator-success-talknotcopied": "A vitalap másolása nem sikerült.",
+	"duplicator-failed": "Az oldalt nem sikerült lemásolni. Ismeretlen hiba történt.",
+	"duplicator-source-invalid": "Adj meg egy érvényes forráscímet.",
+	"duplicator-source-notexist": "[[$1]] nem létezik. Add meg egy olyan lapnak a címét, amely létezik.",
+	"duplicator-dest-invalid": "Adj meg egy érvényes címet.",
+	"duplicator-dest-exists": "[[$1]] már létezik. Add meg egy olyan oldal címet, amely még nem létezik.",
+	"right-duplicate": "lapok megkettőzése"
+}

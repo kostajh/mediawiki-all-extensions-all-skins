@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094",
+			"Wladek92"
+		]
+	},
+	"oojsplus-desc": "Fournit des widgets et des fonctions utilitaires pour OOJS",
+	"oojsplus-color-picker-color-blue": "Bleu",
+	"oojsplus-color-picker-color-red": "Rouge",
+	"oojsplus-color-picker-color-green": "Vert",
+	"oojsplus-color-picker-color-yellow": "Jaune",
+	"oojsplus-color-picker-color-orangered": "Rouge orangé",
+	"oojsplus-color-picker-color-olive": "Vert olive",
+	"oojsplus-color-picker-color-pink": "Rose",
+	"oojsplus-color-picker-clear-label": "Couleur claire",
+	"oojsplus-color-picker-label": "Pipette de couleur",
+	"oojsplus-data-delete-row-prompt": "Êtes-vous sûr de vouloir supprimer cette ligne ?",
+	"oojsplus-data-paginator-page-total-count-label": "{{PLURAL:$1|$1 ligne|$1 lignes}}",
+	"oojsplusdemos": "Démos de OOJSPlus",
+	"oojsplus-data-tree-new-root-item-label": "Ajouter un nouvel élément racine",
+	"oojsplus-data-tree-item-remove-label": "Supprimer",
+	"oojsplus-data-tree-item-add-label": "Ajouter un nouveau sous-élément",
+	"oojsplus-stepprogressbar-default-final-label": "Fait"
+}

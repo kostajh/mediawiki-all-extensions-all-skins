@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"아라"
+		]
+	},
+	"mediafunctions-desc": "미디어 파일에 대해 정보를 얻기 위한 파서 함수",
+	"mediafunctions-invalid-title": "\"$1\"은 올바른 제목이 아닙니다",
+	"mediafunctions-not-exist": "\"$1\"가 존재하지 않습니다"
+}

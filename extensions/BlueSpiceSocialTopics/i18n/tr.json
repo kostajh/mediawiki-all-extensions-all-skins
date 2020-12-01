@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-socialtopics-desc": "BlueSpiceSocial için konu ve tartışma varlıkları",
+	"bs-socialtopics-pref-skipcreatedialog": "Tartışma oluşturma hakkındaki iletişim kutusunu atla",
+	"bs-socialtopics-toc-entalkpageautocreate": "Tüm tartışma sayfalarını otomatik olarak oluştur",
+	"bs-socialtopics-autocreated-discussionpage": "Bu tartışma sayfası otomatik olarak oluşturuldu.",
+	"bs-socialtopics-autocreated-discussionpagefile": "Bu tartışma sayfası otomatik olarak oluşturuldu.",
+	"bs-socialdiscussion-discussiontype": "Tartışma",
+	"bs-socialdiscussion-topictype": "Tartışma konusu",
+	"bs-socialtopics-entitydiscussion-header-create": "Yeni tartışma oluştur",
+	"bs-social-entitytopic-header-create": "Yeni Konu",
+	"bs-socialtopics-var-topictitle": "Başlık",
+	"bs-socialtopics-var-discussiontitleid": "Atanan tartışma sayfası",
+	"bs-socialtopics-entity-fatalstatus-save-notalkpage": "Geçerli bir tartışma sayfası değil",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "$1 bu konuyu başlattı:",
+	"topics": "Konular",
+	"bs-socialtopics-special-topics-heading": "Tüm konular",
+	"bs-socialtopics-special-topics-heading-entry": "Konu/$1",
+	"bs-socialtopics-aftercontent-heading": "Tartışmalar",
+	"bs-socialtopics-nodiscussionpage": "Henüz tartışma sayfası oluşturulmadı.",
+	"bs-socialtopics-nodiscussionpage-create": "Yeni tartışma sayfası oluştur",
+	"bs-socialtopics-nodiscussion": "Henüz bir tartışma oluşturulmadı.",
+	"bs-socialtopics-notopicsadded": "Henüz bir konu oluşturulmadı.",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "Kaydet",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "İptal",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "İçerik",
+	"bs-socialtopics-switch-nodiscussion-description": "Bu sayfadaki tartışmayı gizler."
+}

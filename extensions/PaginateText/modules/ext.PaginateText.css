@@ -1,0 +1,42 @@
+.tp-control-arrows {
+    height: 40px;
+    float: left;
+}
+.tp-control-pages {
+    height: 40px;
+}
+.tp-control-arrow-left {
+    background: #777777;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    margin: 0 5px;
+    padding: 10px;
+}
+.tp-control-arrow-right {
+    background: #777777;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    margin: 0 5px;
+    padding: 10px;
+}
+.tp-control-arrow-left.unactive {
+    background: #eee;
+}
+.tp-control-arrow-right.unactive {
+    background: #eee;
+}
+.tp-page {
+    background: #777777;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    margin: 0 5px;
+    padding: 10px;
+    list-style: outside none none;
+}
+.tp-page.active {
+    background: #ff0000;
+    color: #FFFFFF;
+}

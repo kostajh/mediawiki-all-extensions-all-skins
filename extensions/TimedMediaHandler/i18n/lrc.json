@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beyronvan",
+			"Bonevarluri",
+			"Lorestani",
+			"Mogoeilor"
+		]
+	},
+	"timedmedia-ogg-short-audio": "جانیا دنگ اوگ $1،$2",
+	"timedmedia-ogg-short-video": "Ogg $1 جانیا ویدیو, $2",
+	"timedmedia-ogg-short-general": "Ogg $1 جانیا وارسگر , $2",
+	"timedmedia-ogg-long-audio": "Ogg $1 جانیا دنگ , درازا $2, $3",
+	"timedmedia-ogg-long-error": "جانیا دنگ اوگ نامعتور:$1",
+	"timedmedia-webm-short-video": "WebM $1 جانیا ویدیو, $2",
+	"timedmedia-flac-short-audio": "FLAC جانیا دنگدار , $1",
+	"timedmedia-wav-short-audio": "WAV جانیا دنگدار, $1",
+	"timedmedia-wav-pcm-required": "شما فقط تونیت پی سی ام نه سوار بکید",
+	"timedmedia-mp4-short-video": "MP4 $1 جانیا ویدیو, $2",
+	"timedmedia-more": "بیشتر....",
+	"timedmedia-dismiss": "بسن",
+	"timedmedia-download": "گرتن جانیا",
+	"timedmedia-play-media": "روشن کردن وارسگر",
+	"timedmedia-desc-link": "دباره ای جانیا",
+	"timedmedia-status": "حال وبال",
+	"timedmedia-status-unknown": "حال و بال نادیار",
+	"timedmedia-actions": "کنشگریا",
+	"timedmedia-not-ready": "آماده نئ",
+	"timedmedia-percent-done": "د حدود $1% انجوم بی",
+	"timedmedia-days": "{{PLURAL:$1|1 روز|$1 روز}}",
+	"timedmedia-hours": "{{PLURAL:$1|$1 ساعت|$1 ساعت یا}}",
+	"timedmedia-minutes": "{{PLURAL:$1|$1 دیقه|$1 دیقه یا}}",
+	"timedmedia-seconds": "{{PLURAL:$1|$1 ثانیه|$1 ثانیه یا}}",
+	"timedmedia-source-file": "سرچشمٱ $1",
+	"timedmedia-source-file-desc": "اصلی $1 جانیا, $2 × $3 ($4)",
+	"timedmedia-source-audio-file-desc": "جانؽا ٱسلی$1 ($2)",
+	"timedmedia-subtitle-new-go": "رؤ",
+	"timedmedia-subtitle-language": "$1 ($2) زیرنیس",
+	"timedmedia-file": "جانیا"
+}

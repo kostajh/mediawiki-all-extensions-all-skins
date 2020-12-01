@@ -1,0 +1,24 @@
+/* Hide various interface elements */
+#left-navigation {
+	display: none !important;
+}
+
+#right-navigation {
+	display: none !important;
+}
+
+#p-search {
+	display: none !important;
+}
+
+#mw-panel .portal {
+	display: none !important;
+}
+
+body.ltr #footer #footer-places {
+	display: none !important;
+}
+
+#mw-head {
+	display: none !important;
+}

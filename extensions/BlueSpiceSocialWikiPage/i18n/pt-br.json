@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Luanafaro"
+		]
+	},
+	"bs-socialwikipage-desc": "Entidade e funcionalidade do WikiPage para BlueSpiceSocial",
+	"bs-socialwikipage-type": "Wikipágina",
+	"bs-socialwikipage-entitywikipage-header-create": "Criar nova área de anexo",
+	"bs-socialwikipage-nowikipageentity": "Nenhuma área de anexo foi criada ainda",
+	"bs-socialwikipage-noattachmentsadded": "Nenhum anexo foi adicionado ainda",
+	"bs-socialwikipage-stashtype": "Anexos",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]] anexado",
+	"bs-socialwikipage-entitystash-header-create": "Novo anexo",
+	"bs-socialwikipage-special-stash-heading": "Anexos",
+	"bs-socialwikipage-aftercontent-heading": "Anexos",
+	"wikipagestash": "Anexos",
+	"bs-socialwikipage-var-wikipageid": "Página atribuída",
+	"bs-socialwikipage-switch-nostash-description": "Oculta a área de anexo desta página.",
+	"bs-socialwikipage-stash-insertfiledialog-title": "Adicionar arquivo",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "Adicionar",
+	"bs-socialwikipage-stash-editor-attachedfiles": "Arquivos anexados",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "Excluir",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "Adicionar",
+	"apihelp-bs-socialstash-tasks-summary": "Fornece tarefas para editar as páginas vinculadas das entidades"
+}

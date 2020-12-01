@@ -1,0 +1,116 @@
+{
+	"name": "BlueSpiceSocialArticleActions",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SocialArticleActions",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-socialarticleactions-desc",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceSocial": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocialArticleActions": {
+					"className": "\\BlueSpice\\Social\\ArticleActions\\Extension",
+					"extPath": "/BlueSpiceSocialArticleActions",
+					"status": "beta",
+					"package": "BlueSpiceSocial"
+				}
+			},
+			"EntityRegistry": {
+				"articlesave": "\\BlueSpice\\Social\\ArticleActions\\EntityConfig\\ActionArticleSave",
+				"articlecreate": "\\BlueSpice\\Social\\ArticleActions\\EntityConfig\\ActionArticleCreate",
+				"articledelete": "\\BlueSpice\\Social\\ArticleActions\\EntityConfig\\ActionArticleDelete",
+				"filesave": "\\BlueSpice\\Social\\ArticleActions\\EntityConfig\\ActionFileSave",
+				"filecreate": "\\BlueSpice\\Social\\ArticleActions\\EntityConfig\\ActionFileCreate",
+				"filedelete": "\\BlueSpice\\Social\\ArticleActions\\EntityConfig\\ActionFileDelete"
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceSocialArticleActions": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\ArticleActions\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.socialarticleactions.styles": {
+			"styles": [
+				"bluespice.socialarticleactions.css"
+			]
+		},
+		"ext.bluespice.social.entity.action.articlecreate": {
+			"dependencies": [
+				"ext.bluespice.social.entity.action"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.Action.ArticleCreate.js"
+			]
+		},
+		"ext.bluespice.social.entity.action.articledelete": {
+			"dependencies": [
+				"ext.bluespice.social.entity.action"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.Action.ArticleDelete.js"
+			]
+		},
+		"ext.bluespice.social.entity.action.articlesave": {
+			"dependencies": [
+				"ext.bluespice.social.entity.action"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.Action.ArticleSave.js"
+			]
+		},
+		"ext.bluespice.social.entity.action.filecreate": {
+			"dependencies": [
+				"ext.bluespice.social.entity.action"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.Action.FileCreate.js"
+			]
+		},
+		"ext.bluespice.social.entity.action.filedelete": {
+			"dependencies": [
+				"ext.bluespice.social.entity.action"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.Action.FileDelete.js"
+			]
+		},
+		"ext.bluespice.social.entity.action.filesave": {
+			"dependencies": [
+				"ext.bluespice.social.entity.action"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.Action.FileSave.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocialArticleActions/resources"
+	},
+	"Hooks": {
+		"PageSaveComplete": [
+			"\\BlueSpice\\Social\\ArticleActions\\Hook\\PageSaveComplete\\CreateArticleCreateEntity::callback",
+			"\\BlueSpice\\Social\\ArticleActions\\Hook\\PageSaveComplete\\CreateArticleSaveEntity::callback"
+		],
+		"ArticleDeleteComplete": "\\BlueSpice\\Social\\ArticleActions\\Hook\\ArticleDeleteComplete\\CreateArticleDeleteEntity::callback",
+		"UploadComplete": [
+			"\\BlueSpice\\Social\\ArticleActions\\Hook\\UploadComplete\\CreateFileCreateEntity::callback",
+			"\\BlueSpice\\Social\\ArticleActions\\Hook\\UploadComplete\\CreateFileSaveEntity::callback"
+		],
+		"FileDeleteComplete": "\\BlueSpice\\Social\\ArticleActions\\Hook\\FileDeleteComplete\\CreateFileDeleteEntity::callback"
+	},
+	"manifest_version": 2
+}

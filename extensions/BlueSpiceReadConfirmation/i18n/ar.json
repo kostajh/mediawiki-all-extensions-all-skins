@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-readconfirmation-desc": "تمديد لجمع تأكيدات القراءة لمقالة",
+	"bs-readconfirmation-column-read": "قراءة؟",
+	"bs-readconfirmation-column-read-at": "القراءة في",
+	"bs-readconfirmation-not-read": "غير مقروءة",
+	"bs-readconfirmation-action-remind": "طلب تأكيد القراءة",
+	"bs-readconfirmation-action-log": "سجل تأكيد القراءة",
+	"bs-readconfirmation-action-remind-confirm": "طلب تأكيد القراءة؟",
+	"bs-readconfirmation-confirm-read-heading": "تأكيد القراءة",
+	"bs-readconfirmation-confirm-read-checkbox-label": "نعم، لقد قرأت تماما هذه المقالة.",
+	"bs-readconfirmation-confirm-read-button-label": "تأكيد",
+	"bs-readconfirmation-action-apiread-check-description": "تحقق من تأكيد قراءة $1",
+	"bs-readconfirmation-action-apiread-confirm-description": "تعليم $1 كمقروءة",
+	"bs-readconfirmation-action-apiread-remind-description": "طلب تأكيد القراءة ل$1",
+	"bs-readconfirmation-api-error-cant-confirm": "لا يمكن معالجة تأكيد القراءة لهذه الصفحة",
+	"bs-readconfirmation-api-error-no-page": "لم يتم إعطاء صفحة",
+	"bs-readconfirmation-api-error-no-non-minor-revision": "لم يتم العثور على مراجعة",
+	"echo-category-title-bs-readconfirmation-cat": "تأكيد القراءة",
+	"notification-bs-readconfirmation-remind-summary": "$1 يذكرك بقراءة $3",
+	"notification-bs-readconfirmation-remind-subject": "تذكير لمقالة $2",
+	"notification-bs-readconfirmation-remind-body": "$1 يود تذكيرك بتأكيد أنك قرأت $2.",
+	"log-name-bs-readconfirmation": "سجل تأكيد القراءة",
+	"log-description-bs-readconfirmation": "سجل لتأكيدات القراءة",
+	"log-show-hide-bs-readconfirmation": "$1 سجل تأكيد القراءة",
+	"logentry-bs-readconfirmation-confirm": "$1 قد {{GENDER:$2|أكد|أكدت}} أنه قد قرأ مقالة $3",
+	"logentry-bs-readconfirmation-remind": "$1 قد {{GENDER:$2|طلب|طلبت}} من المستخدم $4 تأكيد قراءة المقالة $3",
+	"apihelp-bs-readconfirmation-tasks-summary": "نقطة نهاية API لملحق ReadConfirmation",
+	"bs-readconfirmation-label-ns-manager": "تأكيد القراءة",
+	"bs-readconfirmation-api-error-not-active-ns": "تأكيد القراءة غير ممكن لهذا النطاق",
+	"bs-readconfirmation-disabled-ns": "تأكيد القراءة غير ممكن",
+	"bs-readconfirmation-disabled-ns-short": "معطل",
+	"bs-readconfirmation-navigation-link-title": "يظهر لمحة عامة عن جميع تأكيدات القراءة المعلقة",
+	"bs-readconfirmation-navigation-link-text": "طلب تأكيدات القراءة",
+	"bs-readconfirmation-graphicallist-btn-read": "قراءة",
+	"bs-readconfirmation-privacy-transparency-working-rc": "BlueSpiceReadConfirmation: لقد أكدت قراءة صفحة $1 (revision $2) في $3",
+	"action-readconfirmationremind": "تذكير المستخدمين بأن عليهم تأكيد قيامهم بقراءة الصفحة",
+	"right-readconfirmationremind": "تذكير المستخدمين بأن عليهم تأكيد قيامهم بقراءة الصفحة"
+}

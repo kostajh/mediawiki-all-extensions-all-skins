@@ -1,0 +1,225 @@
+{
+	"name": "BlueSpiceSocialProfile",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SocialProfile",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-socialprofile-desc",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceSocial": ">= 4.1",
+			"BlueSpiceAvatars": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocialProfile": {
+					"className": "\\BlueSpice\\Social\\Profile\\Extension",
+					"extPath": "/BlueSpiceSocialProfile",
+					"status": "beta",
+					"package": "BlueSpiceSocial"
+				}
+			},
+			"EntityRegistry": {
+				"profile": "\\BlueSpice\\Social\\Profile\\EntityConfig\\Profile"
+			},
+			"PermissionRegistry": {
+				"social-editothersprofile": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin"
+					]
+				},
+				"socialprofile-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"accountmanager",
+						"admin",
+						"author",
+						"bot",
+						"commenter",
+						"editor",
+						"maintenanceadmin",
+						"reader",
+						"reviewer",
+						"structuremanager"
+					]
+				}
+			},
+			"RendererRegistry": {
+				"socialentityprofile": "\\BlueSpice\\Social\\Profile\\Renderer\\Entity\\Profile::factory"
+			},
+			"TagRegistry": {
+				"socialentityprofile": "\\BlueSpice\\Social\\Profile\\Tag\\SocialEntityProfile"
+			},
+			"AssocLinksProviderRegistry": {
+				"profile-classic": "\\BlueSpice\\Social\\Profile\\AssocLinksProvider\\Profile\\Classic::factory",
+				"profile-modern": "\\BlueSpice\\Social\\Profile\\AssocLinksProvider\\Profile\\Modern::factory"
+			}
+		},
+		"BlueSpiceSocialProfile": {
+			"CustomFieldTypesRegistry": {
+				"string": "\\BlueSpice\\Social\\Profile\\CustomField\\StringValue::getInstance",
+				"select": "\\BlueSpice\\Social\\Profile\\CustomField\\SelectValue::getInstance",
+				"integer": "\\BlueSpice\\Social\\Profile\\CustomField\\IntegerValue::getInstance",
+				"boolean": "\\BlueSpice\\Social\\Profile\\CustomField\\BooleanValue::getInstance"
+			}
+		},
+		"BlueSpicePrivacy": {
+			"Handlers": [
+				"\\BlueSpice\\Social\\Profile\\Privacy\\Handler"
+			]
+		},
+		"BlueSpiceSMWConnector": {
+			"ExtraPropertyRegistry": {
+				"socialprofilefields": "\\BlueSpice\\Social\\Profile\\SocialProfilePropertyValueProvider::factory"
+			}
+		}
+	},
+	"callback": "\\BlueSpice\\Social\\Profile\\Extension::onRegistration",
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"MessagesDirs": {
+		"BlueSpiceSocialProfile": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SocialProfilesAlias": "languages/Profiles.alias.php"
+	},
+	"SpecialPages": {
+		"SocialProfiles": "\\BlueSpice\\Social\\Profile\\Special\\Profiles"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\Profile\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.socialprofile.styles": {
+			"styles": {
+				"bluespice.socialprofile.common.less": {
+					"media": "all"
+				},
+				"bluespice.socialprofile.mobile.less": {
+					"media": "all and ( max-width: 720px )"
+				},
+				"bluespice.socialprofile.tablet.less": {
+					"media": "all and ( min-width: 721px ) and ( max-width: 1023px )"
+				},
+				"bluespice.socialprofile.desktop.less": {
+					"media": "all and ( min-width: 1024px )"
+				}
+			},
+			"class": "\\MWStake\\MediaWiki\\Component\\CommonUserInterface\\ResourceLoader\\LessVars"
+		},
+		"ext.bluespice.social.entity.profile": {
+			"dependencies": [
+				"ext.bluespice.social.entity"
+			],
+			"scripts": [
+				"EntityActionMenu/ChangeImage.js",
+				"EntityActionMenu/EditProfileFields.js",
+				"EntityActionMenu/EditUserPage.js",
+				"bluespice.social.profile.js",
+				"entities/bluespice.social.Entity.Profile.js"
+			],
+			"messages": [
+				"bs-socialprofile-entityaction-changeimage",
+				"bs-social-entityaction-editprofilefields",
+				"bs-social-profile-field-name",
+				"bs-social-profile-field-email",
+				"bs-social-profile-field-title",
+				"mypreferences"
+			]
+		},
+		"ext.bluespice.social.entity.editor.profile": {
+			"dependencies": [
+				"ext.bluespice.social.entity.editor"
+			],
+			"scripts": [
+				"ui/EntityEditorProfile.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocialProfile/resources"
+	},
+	"GroupPermissions": {
+		"*": {
+			"social-editothersprofile": false,
+			"socialprofile-viewspecialpage": false
+		},
+		"user": {
+			"social-editothersprofile": false,
+			"socialprofile-viewspecialpage": false
+		},
+		"sysop": {
+			"social-editothersprofile": true,
+			"socialprofile-viewspecialpage": true
+		}
+	},
+	"AvailableRights": [
+		"social-editothersprofile",
+		"socialprofile-viewspecialpage"
+	],
+	"DefaultUserOptions": {
+		"bs-social-profile-infoshowemail": false
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"BSSocialProfileFields": {
+			"value": {
+				"social-profile-title": {
+					"i18n": "bs-social-profile-field-title",
+					"callback": "\\BlueSpice\\Social\\Profile\\Field\\Title::getInstance"
+				},
+				"social-profile-name": {
+					"i18n": "bs-social-profile-field-name",
+					"callback": "\\BlueSpice\\Social\\Profile\\Field\\Name::getInstance"
+				},
+				"social-profile-email": {
+					"i18n": "bs-social-profile-field-email",
+					"callback": "\\BlueSpice\\Social\\Profile\\Field\\Email::getInstance"
+				}
+			}
+		},
+		"BSSocialProfileCustomFields": {
+			"value": {
+				"social-profile-department": {
+					"i18n": "bs-social-profile-field-department",
+					"type": "string"
+				},
+				"social-profile-function": {
+					"i18n": "bs-social-profile-field-function",
+					"type": "string"
+				},
+				"social-profile-location": {
+					"i18n": "bs-social-profile-field-location",
+					"type": "string"
+				},
+				"social-profile-phone": {
+					"i18n": "bs-social-profile-field-phone",
+					"type": "string"
+				}
+			}
+		}
+	},
+	"Hooks": {
+		"PageSaveComplete": "\\BlueSpice\\Social\\Profile\\Hook\\PageSaveComplete\\InvalidateProfileEntity::callback",
+		"ArticleViewHeader": "\\BlueSpice\\Social\\Profile\\Extension::onArticleViewHeader",
+		"HtmlPageLinkRendererBegin": "\\BlueSpice\\Social\\Profile\\Hook\\HtmlPageLinkRendererBegin\\SetProfileLinksKnown::callback",
+		"UserSaveSettings": "\\BlueSpice\\Social\\Profile\\Hook\\UserSaveSettings\\CreateAndInvalidateUserProfile::callback",
+		"BSUserInfoMetaDataFactoryAllKeys":"\\BlueSpice\\Social\\Profile\\Hook\\BSUserInfoMetaDataFactoryAllKeys\\AddCustomProfileFieldKeys::callback",
+		"BSUserInfoMetaDataFactoryCallback":"\\BlueSpice\\Social\\Profile\\Hook\\BSUserInfoMetaDataFactoryCallback\\AddCustomProfileFieldCallbacks::callback",
+		"GetPreferences": "\\BlueSpice\\Social\\Profile\\Hook\\GetPreferences\\AddShowProfileInfoEmail::callback",
+		"BSPageTemplatesModifyTargetUrl": "\\BlueSpice\\Social\\Profile\\Hook\\BSPageTemplatesModifyTargetUrl\\AddClassicProfileLink::callback",
+		"UserLoadAfterLoadFromSession": "\\BlueSpice\\Social\\Profile\\Hook\\UserLoadAfterLoadFromSession\\AddLDAPProfileDataSync::callback"
+	},
+	"manifest_version": 2
+}

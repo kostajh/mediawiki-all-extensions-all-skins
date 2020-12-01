@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-wikiexplorer-extension-description": "Ordenar artigos por critério",
+	"bs-wikiexplorer-page-title": "Título",
+	"bs-wikiexplorer-page-namespace": "Espaço nominal",
+	"bs-wikiexplorer-creation-date": "Data de criação",
+	"bs-wikiexplorer-is-redirect": "É redirecionado",
+	"bs-wikiexplorer-last-comment": "Último comentário",
+	"bs-wikiexplorer-last-edit-time": "Data da última edição",
+	"bs-wikiexplorer-page-size": "Tamanho",
+	"bs-wikiexplorer-last-author": "Último editor",
+	"bs-wikiexplorer-categories": "Categorias",
+	"bs-wikiexplorer-linked-files": "Arquivos associados",
+	"bs-wikiexplorer-linked-pages": "Páginas associadas",
+	"apihelp-bs-wikiexplorer-store-description": "Fornece todos os dados para a extensão WikiExplorer",
+	"apihelp-bs-wikiexplorer-store-param-metaLoaded": "Parâmetro da API para indicar se o MetaData já foi carregado.",
+	"apihelp-bs-wikiexplorer-store-summary": "Fornece todos os dados para a extensão WikiExplorer"
+}

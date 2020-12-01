@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"listsignup": "Пријава на список",
+	"listsignup-desc": "Овозможува прилагодено пријавување на список",
+	"listsignup-legend": "Подолу внесете ги информациите",
+	"listsignup-success": "Вашата е-пошта е поднесена.",
+	"listsignupdisplay": "Приказ на зачленувањето на список",
+	"listsignuppurge": "Превчитување на зачленувањето на список",
+	"listsignuppurge-legend": "Исчисти ги сите информации од списокот на зачленувања",
+	"listsignuppurge-pretext": "'''Предупредување!''' Со ова ќе ги отстраните сите адреси од списокот. Ова дејство е неповратно.",
+	"listsignuppurge-success": "Списокот е исчистен!",
+	"right-viewlistsignupdisplay": "Преглед на списокот на зачленувања",
+	"right-purgelistsignupdisplay": "Чистење на списокот на зачленувања",
+	"action-viewlistsignupdisplay": "преглед на списокот на зачленувања",
+	"action-purgelistsignupdisplay": "чистење на списокот на зачленувања"
+}

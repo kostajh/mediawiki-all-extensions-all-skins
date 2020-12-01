@@ -1,0 +1,49 @@
+{
+	"name": "Desk Mess Mirrored",
+	"version": "3.5.0",
+	"author": [
+		"[http://edwardcaissie.com/ Edward Caissie]",
+		"Jack Phoenix",
+		"Samantha Nguyen"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:DeskMessMirrored",
+	"descriptionmsg": "deskmessmirrored-skin-desc",
+	"license-name": "GPL-2.0-only",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"ValidSkinNames": {
+		"deskmessmirrored": "DeskMessMirrored"
+	},
+	"MessagesDirs": {
+		"SkinDeskMessMirrored": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinDeskMessMirrored": "includes/SkinDeskMessMirrored.php",
+		"DeskMessMirroredTemplate": "includes/DeskMessMirroredTemplate.php",
+		"DeskMessMirroredSkinNavigationService": "includes/DeskMessMirroredSkinNavigationService.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "DeskMessMirrored"
+	},
+	"ResourceModules": {
+		"skins.deskmessmirrored": {
+			"styles": {
+				"css/style.css": {
+					"media": "screen"
+				},
+				"css/wordpress-rules.css": {
+					"media": "screen"
+				},
+				"css/reset.css": {
+					"media": "screen"
+				}
+			}
+		}
+	},
+	"manifest_version": 1
+}

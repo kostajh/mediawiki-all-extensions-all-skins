@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-watchlist-desc": "Legger til en overvåkningslistewidget og -tagg",
+	"bs-watchlist-title-sidebar": "Overvåkningsliste",
+	"bs-watchlist-pref-sort-time": "Tid",
+	"bs-watchlist-pref-sort-title": "Tittel",
+	"bs-watchlist-tag-watchlist-desc": "Viser artiklene som har de nyligste endringene og er på overvåkningslista di.",
+	"bs-watchlist-window-watchlist-title": "Overvåkningsliste",
+	"bs-watchlist-window-watchlist-intro": "Dette er en oversikt over alle sider på overvåkningslisten din. Du kan også bytte til [[Special:Watchlist|den klassiske overvåkningslisten]].",
+	"bs-watchlist-grid-watchlist-column-link-header": "Side",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Uleste endringer",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Inspiser endringer",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Diskusjonsside",
+	"bs-watchlist-grid-watchlist-label-filter": "Filter"
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Clara Andrew-Wani"
+		]
+	},
+	"oauthratelimiter-desc": "Extends the OAuth extension to include ratelimit claims in the JWT"
+}

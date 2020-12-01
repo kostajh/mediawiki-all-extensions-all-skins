@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Shirayuki"
+		]
+	},
+	"listings-desc": "場所を列挙するためのタグを追加する",
+	"listings-unknown": "場所不明",
+	"listings-phone": "電話",
+	"listings-fax": "FAX",
+	"listings-email": "メール",
+	"listings-tollfree": "フリーダイヤル",
+	"listings-checkin": "チェックイン: $1",
+	"listings-checkout": "チェックアウト: $1",
+	"listings-position": "位置: $1"
+}

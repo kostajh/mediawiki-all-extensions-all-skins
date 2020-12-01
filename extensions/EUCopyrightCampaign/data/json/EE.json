@@ -1,0 +1,64 @@
+{
+	"representatives": [
+		{
+			"firstName": "Igor",
+			"lastName": "Gräzin",
+			"email": "Igor.Grazin@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "",
+			"strasbourgPhone": "",
+			"twitter": ""
+		},
+		{
+			"firstName": "Tunne",
+			"lastName": "Kelam",
+			"email": "tunne.kelam@europarl.europa.eu",
+			"membershipInDelegations": "D-US",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45279",
+			"strasbourgPhone": "+33(0)3 88 1 75279",
+			"twitter": ""
+		},
+		{
+			"firstName": "Ivari",
+			"lastName": "Padar",
+			"email": "ivari.padar@europarl.europa.eu",
+			"membershipInDelegations": "D-UA",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45474",
+			"strasbourgPhone": "+33(0)3 88 1 75474",
+			"twitter": ""
+		},
+		{
+			"firstName": "Urmas",
+			"lastName": "Paet",
+			"email": "urmas.paet@europarl.europa.eu",
+			"membershipInDelegations": "DCAS",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45930",
+			"strasbourgPhone": "+33(0)3 88 1 75930",
+			"twitter": "@urmaspaet"
+		},
+		{
+			"firstName": "Indrek",
+			"lastName": "Tarand",
+			"email": "indrek.tarand@europarl.europa.eu",
+			"membershipInDelegations": "DAND",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45401",
+			"strasbourgPhone": "+33(0)3 88 1 75401",
+			"twitter": "@indrektarand"
+		},
+		{
+			"firstName": "Yana",
+			"lastName": "Toom",
+			"email": "yana.toom@europarl.europa.eu",
+			"membershipInDelegations": "D-RU",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45581",
+			"strasbourgPhone": "+33(0)3 88 1 75581",
+			"twitter": "@yanatoom"
+		}
+	]
+}

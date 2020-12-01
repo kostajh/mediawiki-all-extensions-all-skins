@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"bs-countthings-desc": "Дава статистики за содржините",
+	"bs-countthings-chars-label": "Знаци",
+	"bs-countthings-words-label": "Зборови",
+	"bs-countthings-files-label": "Податотеки",
+	"bs-countthings-pages-label": "Страници",
+	"bs-countthings-ve-countthingsinspector-mode": "Режим",
+	"bs-countthings-ve-countcharacters-mode-all": "сите",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "знаци",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "зборови",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "знаци и зборови",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "страници",
+	"bs-countthings-ve-countcharacters-input-label": "Страници",
+	"bs-countthings-error-no-input": "Немате укажано страница.",
+	"bs-countthings-error-invalid-mode": "Режимот „$1“ е неважечки. Користете „chars“, „words“ или „pages“.",
+	"bs-countthings-error-not-exist": "Страницата „$1“ не постои.",
+	"bs-countthings-tag-countarticles-desc": "Го прикажува бројот на статии во викито.",
+	"bs-countthings-tag-countusers-desc": "Го прикажува бројот на зачленети корисници.",
+	"bs-countthings-tag-countfiles-desc": "Го прикажува бројот на податотеки во викито.",
+	"bs-countthings-tag-countcharacters-desc": "Прикажува статистики за содржината на дадена страница. Расположив атрибут за поставка:",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Што да се брои: <code>chars</code> (знаци), <code>words</code> (зборови) или <code>pages</code> (страници).",
+	"bs-countthings-tag-countcharacters-example-1": "Број зборови",
+	"bs-countthings-tag-countcharacters-example-2": "Број знаци"
+}

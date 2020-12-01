@@ -1,0 +1,61 @@
+/* CSS for the Page Exchange extension */
+
+div.pageExchangeCardWrapper {
+	width: 33%;
+	float: left;
+}
+
+div.pageExchangeCard {
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.2 );
+}
+
+div.pageExchangeCardHeader {
+	padding: 5px;
+	font-size: larger;
+	font-weight: bold;
+}
+
+p.pageExchangeCardBottomLink {
+	font-weight: bold;
+	text-align: center;
+}
+
+table.pageExchangeInfoMessage {
+	background: #eaf3ff;
+	border: 1px dashed #36c;
+	margin: 15px;
+}
+
+table.pageExchangeInfoMessage td {
+	padding: 15px;
+}
+
+table.pageExchangeWarningMessage {
+	background: #fff;
+	border: 1px dashed #999;
+	margin: 15px;
+}
+
+table.pageExchangeWarningMessage td {
+	padding: 15px;
+}
+
+@media screen and ( max-width: 900px ) {
+	div.pageExchangeCardWrapper {
+		width: 100%;
+		margin: 10px 0 10px 0;
+		float: none;
+	}
+
+	div.pageExchangeCard {
+		box-shadow: none;
+	}
+}
+
+@media screen and ( min-width: 900px ) and ( max-width: 1350px ) {
+	div.pageExchangeCardWrapper {
+		width: 50%;
+	}
+}

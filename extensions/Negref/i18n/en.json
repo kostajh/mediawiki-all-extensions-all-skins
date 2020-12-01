@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel Friesen"
+		]
+	},
+	"negref-desc": "Provides a tag to negotiate the location of any <nowiki><ref/></nowiki> tags inside of input text to fix some template use cases"
+}

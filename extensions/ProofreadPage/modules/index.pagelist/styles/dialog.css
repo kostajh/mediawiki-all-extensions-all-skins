@@ -1,0 +1,45 @@
+.prp-pagelist-dialog-main-panel {
+	display: flex;
+	justify-content: space-between;
+}
+
+.prp-pagelist-dialog-main-panel > .oo-ui-panelLayout {
+	position: relative;
+	width: 50%;
+}
+
+.prp-pagelist-dialog-stack-layout {
+	border-left: 1px solid #c8ccd1;
+}
+
+.prp-pagelist-dialog-stack-layout > .oo-ui-panelLayout {
+	border-bottom: 1px solid #c8ccd1;
+}
+
+.prp-pagelist-dialog-image-panel img {
+	width: 100%;
+}
+
+.prp-pagelist-dialog-stack-layout > .oo-ui-panelLayout:first-child {
+	position: sticky;
+	background: #fff;
+	top: 0;
+	z-index: 2;
+	box-shadow: 0 1px 4px 1px rgba( 0, 0, 0, 0.25 );
+}
+
+.prp-pagelist-dialog-wikitext-form-panel > .prp-pagelist-dialog-text-input {
+	max-width: 100%;
+}
+
+.prp-pagelist-dialog-wikitext-submit-button-row {
+	margin-top: 12px;
+}
+
+.prp-pagelist-dialog-config-not-found-message {
+	margin-top: 0.5em;
+}
+
+.prp-pagelist-dialog-visual-submit-button-row {
+	margin-top: 12px;
+}

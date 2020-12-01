@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikel Ibaiba",
+			"Subi"
+		]
+	},
+	"emailauthorization-desc": "Erabiltzaileak baimendu helbide elektronikoen bidez",
+	"emailauthorization-config-authorized": "''$1'' onartzen da.",
+	"emailauthorization-config-nousersfound": "Ez da erabiltzailerik aurkitu.",
+	"emailauthorization-config-label-username": "Erabiltzaile izena",
+	"emailauthorization-config-label-realname": "Benetako izena",
+	"emailauthorization-config-label-userpage": "Erabiltzaile orria",
+	"emailauthorization-config-label-authorized": "Baimenduta",
+	"emailauthorization-config-value-yes": "bai",
+	"emailauthorization-config-value-no": "ez",
+	"emailauthorization-config-legend-search": "Bilatu helbideak",
+	"emailauthorization-config-button-next": "Hurrengoa",
+	"emailauthorization-config-button-previous": "Aurrekoa",
+	"emailauthorization-config-button-search": "Bilatu",
+	"emailauthorization-config-button-add": "Gehitu",
+	"emailauthorization-config-button-revoke": "Ezeztatu",
+	"emailauthorization-config-button-showall": "Wiki erabiltzaile guztiak erakutsi",
+	"action-emailauthorizationconfig": "email onarpena konfiguratu",
+	"emailauthorization-request-button-submit": "Bidali",
+	"emailauthorization-approve-label-action": "Ekintzak",
+	"emailauthorization-approve-button-approve": "Onartu",
+	"emailauthorization-approve-button-reject": "Ukatu",
+	"emailauthorization-approve-button-next": "Hurrengoa",
+	"emailauthorization-approve-button-previous": "Aurrekoa"
+}

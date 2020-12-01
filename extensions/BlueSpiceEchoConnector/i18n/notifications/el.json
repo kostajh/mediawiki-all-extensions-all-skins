@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt",
+			"Protnet"
+		]
+	},
+	"bs-notifications-addaccount": "Ο χρήστης \"$1\" δημιουργήθηκε.",
+	"bs-notifications-email-addaccount-subject": "Ο χρήστης \"$2\" {{GENDER:$1|δημιουργήθηκε}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|Ο χρήστης}} $2 δημιουργήθηκε.\n\nΜπορείτε να επισκεφθείτε τη σελίδα χρήστη {{GENDER:$1|του|της|του}} ακολουθώντας των παρακάτω σύνδεσμο",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|Ο χρήστης}} $2 δημιουργήθηκε.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Δημιουργός}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Δημιουργός}}: $1",
+	"bs-notifications-edit": "Η σελίδα \"$1\" τροποποιήθηκε",
+	"bs-notifications-edit-bundle": "Η σελίδα \"$2\" έχει αλλαχθεί {{PLURAL:$1|$1 φορά|$1 φορές}}",
+	"bs-notifications-email-edit-subject": "Η σελίδα «$1» τροποποιήθηκε στις $4 από {{GENDER:$2|τον|την}} $3",
+	"bs-notifications-email-edit-body": "Η σελίδα «$1» τροποποιήθηκε στις $5 από {{GENDER:$2|τον|την}} $4\n\nΣχόλιο: \n$3",
+	"bs-notifications-web-edit-body": "Η σελίδα \"$1\" {{GENDER:$2|τροποποιήθηκε}} από τον $3.",
+	"bs-notifications-create": "Η σελίδα \"$1\" δημιουργήθηκε",
+	"bs-notifications-email-create-subject": "Η σελίδα «$1» δημιουργήθηκε στις $4 από {{GENDER:$2|τον|την}} $3",
+	"bs-notifications-web-create-body": "Η σελίδα \"$1\" {{GENDER:$2|δημιουργήθηκε}} από τον $3.",
+	"bs-notifications-delete": "Η σελίδα ''$1'' έχει διαγραφεί.",
+	"bs-notifications-email-delete-subject": "Η σελίδα «$1» διεγράφη στις $4 από {{GENDER:$2|τον|την}} $3",
+	"bs-notifications-email-delete-body": "Η σελίδα \"$1\" {{GENDER:$2|διεγράφη}} από τον $3.\n\nΗ αιτία είναι η εξής: \n$4",
+	"bs-notifications-move": "Η σελίδα \"$1\" έχει μετακινηθεί",
+	"bs-notifications-email-move-subject": "Η σελίδα «$1» μετακινήθηκε σε «$3» στις $5 από {{GENDER:$2|τον|την}} $4",
+	"bs-notifications-email-move-body": "Η σελίδα «$1» μετακινήθηκε σε «$3» στις $6 από {{GENDER:$2|τον|την}} $4.\n\nΗ αιτία ήταν:\n$5\n\nΜπορείτε να επισκεφθείτε τη σελίδα ακολουθώντας τον παρακάτω σύνδεσμο",
+	"bs-notifications-web-move-body": "Η σελίδα \"$1\" έχει {{GENDER:$2|μετακινηθεί}} από \"$3\" σε $4",
+	"bs-notifications-edit-difflink-label": "Δείτε τη διαφορά",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Γεια}} $1",
+	"bs-notifications-htmlmail-sender-info": "Σύστημα ειδοποίησης $1",
+	"bs-notifications-mail-additional-links-label": "Πρόσθετοι σύνδεσμοι"
+}

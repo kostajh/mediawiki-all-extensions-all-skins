@@ -1,0 +1,26 @@
+a.bs-social-entityaftercontent-resolve {
+	display: inline-block;
+	margin-right: 10px;
+	cursor: pointer;
+	color: #666 !important;
+	&:before {
+		content: '\f057';
+		font-family: 'fontawesome';
+		font-size: 13px;
+		color: #666 !important;
+	}
+	&.resolved {
+		color: #3e5389 !important;
+		&:before {
+			content: '\f058';
+			color: #3e5389 !important;
+		}
+	}
+	&:hover {
+		text-decoration: none !important;
+	}
+
+	span {
+		display: none;
+	}
+}

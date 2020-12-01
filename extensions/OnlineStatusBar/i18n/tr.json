@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Suelnur"
+		]
+	},
+	"onlinestatusbar-desc": "Bir kullanıcının kullanıcı sayfasında çevrimiçi olup olmadığını gösteren durum çubuğu",
+	"prefs-onlinestatus": "Çevrimiçi durum",
+	"onlinestatusbar-used": "Çevrimiçi durumunuzu kullanıcı sayfalarınızda görüntüleyin",
+	"onlinestatusbar-hide": "Yalnızca sihirli kelimeyi kullanmak için kullanıcı sayfalarındaki durum çubuğunu gizleyin (İleri düzey kullanıcılar için)",
+	"onlinestatusbar-away": "Tanımlanan aralıktan sonra otomatik olarak uzaklaşın",
+	"onlinestatusbar-purge": "Her giriş yaptığınızda veya çıkış yaptığınızda kullanıcı sayfasını temizle",
+	"onlinestatusbar-status": "Kullanmak istediğiniz varsayılan durum nedir?",
+	"onlinestatusbar-away-time": "Uzak olarak işaretlenene kadar kaç dakika var?",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Çevrimiçi}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Meşgul}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Uzakta}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Gizli}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Çevrimdışı}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Bilinmiyor}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Bu kullanıcı}} şimdi aktif",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Bu kullanıcı}} meşgul ve aktif olmayabilir",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Bu kullanıcı}} boşta ve aktif olmayabilir",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Bu kullanıcı}} çevrimdışı",
+	"onlinestatusbar-tooltip-unknown": "{{GENDER:$1|Bu kullanıcının}} durumu bilinmiyor",
+	"apihelp-query+onlinestatus-description": "Kullanıcının çevrimiçi durumunu ve cinsiyetini döndürür",
+	"apihelp-query+onlinestatus-summary": "Kullanıcının çevrimiçi durumunu ve cinsiyetini döndürür",
+	"apihelp-query+onlinestatus-param-user": "Durumunu almak istediğiniz kullanıcının kullanıcı adı",
+	"apihelp-query+onlinestatus-example": "Petrb için çevrimiçi durumunu göster"
+}

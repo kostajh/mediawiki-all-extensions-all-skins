@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"googleanalyticstoppages-desc": "Ufre una llista de meyores páxines usando datos de Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Valor de [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Actualiza la llista de les principales páxines (col encontu de datos proporcionaos por Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Actualiza la llista de les principales páxines (col encontu de datos proporcionaos por Google Analytics)."
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diki Ananta",
+			"NoiX180",
+			"Pras",
+			"Sumbukompor"
+		]
+	},
+	"wminc-desc": "Sistem pangujian wiki kanggo Inkubator Wikimedia",
+	"wminc-testwiki": "Wiki pangujian:",
+	"wminc-testwiki-none": "Ora ana/Kabèh",
+	"wminc-prefinfo-language": "Basa adu-rai panjenengan - indhepèndhen saka wiki pacoban panjenengan",
+	"wminc-prefinfo-code": "Kodhe basa ISO 639",
+	"wminc-prefinfo-project": "Pilih proyèk Wikimedia (pilihan inkubator iku kanggo para panganggo sing ngayahi kerja umum)",
+	"wminc-prefinfo-error": "Panjenengan milih sawijining proyèk sing mbutuhaké sawijining kodhe basa.",
+	"wminc-viewuserlang": "Golèki basa naraguna lan wiki pangujian",
+	"wminc-viewuserlang-user": "Jeneng naraguna:",
+	"wminc-viewuserlang-go": "Tumuju menyang",
+	"right-viewuserlang": "Pirsani basa naraguna lan wiki pacoban",
+	"wminc-code-retired": "Kodhe basa iki wis diowahi lan ora nggayut manèh ing basa asliné.",
+	"wminc-searchwiki-noresults": "Ora ana kasilé. Panjenengan bisa nggolèk miturut kodhe, jeneng asli, jeneng-jeneng basané sarana basa ing mukantarané panjenengan utawa basa Inggris.",
+	"wminc-infopage-enter": "menyang Tepas",
+	"wminc-infopage-createmainpage": "Lebokaké tembung \"Tepas\" ing basa iki:"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dinhxuanduyet",
+			"Minh Nguyen",
+			"Vinhtantran",
+			"Withoutaname"
+		]
+	},
+	"accountinfo": "Thông tin tài khoản",
+	"accountinfo-desc": "Cho phép xem các thông tin cá nhân được lưu giữ về mình",
+	"accountinfo-ts": "Thời gian",
+	"accountinfo-ip": "Địa chỉ IP",
+	"accountinfo-ua": "Tác nhân người dùng",
+	"accountinfo-xff": "XFF header",
+	"accountinfo-length": "Thông tin được lưu trữ trong $1.",
+	"accountinfo-now": "Bây giờ"
+}

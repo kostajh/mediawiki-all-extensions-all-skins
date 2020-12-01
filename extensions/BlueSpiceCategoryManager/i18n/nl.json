@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Siebrand"
+		]
+	},
+	"bluespicecategorymanager": "Categoriebeheer",
+	"bluespicecategorymanager-desc": "Visueel hulpmiddel voor het beheren van categorieën",
+	"action-categorymanager-viewspecialpage": "om Categoriebeheer te bekijken",
+	"bs-categorymanager-label": "Categoriebeheer",
+	"bs-categorymanager-dlg-new-title": "Categorie aanmaken",
+	"bs-categorymanager-dlg-new-prompt": "Voer de naam in:",
+	"bs-categorymanager-removecategoryconfirm-text": "Weet u zeker dat u deze categorie wilt verwijderen?",
+	"bs-categorymanager-removecategoryconfirm-title": "Categorie verwijderen",
+	"bs-categorymanager-addcategory-dialog-error-title": "Kon de categorie niet aanmaken",
+	"bs-categorymanager-action-show-category": "Categorie weergeven",
+	"right-categorymanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-var-namespacename": "Naamruimte",
+	"bs-categorymanager-collection-var-categorizedpages": "Pagina's met categorieën",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pagina's zonder categorieën"
+}

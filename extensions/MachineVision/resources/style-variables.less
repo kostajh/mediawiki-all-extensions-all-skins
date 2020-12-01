@@ -1,0 +1,32 @@
+@import '../lib/wikimedia-ui-base.less';
+
+// Use semantic variable names from wikimedia-ui-base in the code when it makes
+// sense to do so. Otherwise, create a new extension-specific semantic
+// variable here.
+
+// Colors
+// ---------------------------------------------------------
+// https://design.wikimedia.org/style-guide/visual-style_colors.html
+@wbmad-background-color-spinner: @color-base--subtle;
+@wbmad-background-color-image-card: @background-color-tabs;
+
+// Sizes
+// ---------------------------------------------------------
+@wbmad-size-max-width: 60em;
+@wbmad-size-spinner: 12px;
+@wbmad-border-radius-image-card: @border-radius-base * 4;
+
+// Mixins
+// ---------------------------------------------------------
+.fade-in( @duration ) {
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+	animation: fadeIn @duration;
+}

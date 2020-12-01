@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Rotemliss",
+			"YaronSh"
+		]
+	},
+	"patrol": "ניטור עריכות",
+	"patrol-desc": "ממשק ניטור מורחב עם שיתוף עומס עבודה",
+	"patrol-endorse": "לאשר",
+	"patrol-revert": "לשחזר",
+	"patrol-revert-reason": "סיבה:",
+	"patrol-skip": "דילוג",
+	"patrol-reverting": "שחזור: $1",
+	"patrol-nonefound": "לא נמצאו עריכות שאפשר לנטר.",
+	"patrol-endorsed-ok": "העריכה סומנה כמנוטרת.",
+	"patrol-endorsed-failed": "לא ניתן לסמן את העריכה כמנוטרת.",
+	"patrol-reverted-ok": "העריכה שוחזרה.",
+	"patrol-reverted-failed": "לא ניתן לשחזר את העריכה.",
+	"patrol-skipped-ok": "דילוג על עריכה.",
+	"patrol-reasons": "* השחתה פשוטה\n* ניסיון של חדשים\n* ראו בדף השיחה",
+	"patrol-another": "הצגת עריכה נוספת, אם ניתן.",
+	"patrol-stopped": "בחרתם לא לנטר עוד עריכה. $1",
+	"patrol-resume": "לחצו כאן להמשך.",
+	"group-patroller": "מנטרים",
+	"group-patroller-member": "{{GENDER:$1|מנטר|מנטרת}}",
+	"grouppage-patroller": "{{ns:project}}:מנטר",
+	"right-patroller": "לנטר דפים"
+}

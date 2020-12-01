@@ -1,0 +1,16 @@
+body.mediawiki:not( .navigation-main-collapse ):not( .sitetools-main-collapse ),
+body.mediawiki.navigation-main-collapse:not( .sitetools-main-collapse ),
+body.mediawiki.sitetools-main-collapse:not( .navigation-main-collapse ),
+body.mediawiki.navigation-main-collapse.sitetools-main-collapse {
+	a {
+		color: @theme-content-link-fg !important;
+	}
+
+	a.new {
+		color: @theme-content-link-new-fg !important;
+	}
+
+	.bs-page-info-element-button i::before {
+		color: @theme-content-link-fg !important;
+	}
+}

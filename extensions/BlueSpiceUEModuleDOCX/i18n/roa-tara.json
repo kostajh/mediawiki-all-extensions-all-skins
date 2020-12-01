@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-uemoduledocx-extension-description": "Ebbilite l'esportazione jndr'à DOCX",
+	"bs-uemoduledocx-pref-SuppressNS": "Scunne 'u prefisse d'u namespace jndr'à DOCX",
+	"bs-uemoduledocx-widgetlink-single-text": "DOCX cu 'na pàgena sole",
+	"bs-uemoduledocx-widgetlink-single-title": "Esporte sta pàgene cumme DOCX.",
+	"bs-uemoduledocx-overview-title": "Microsoft&reg; Office Open XML (DOCX)",
+	"bs-uemoduledocx-overview-description": "Esporte le pàggene jndr'à Microsoft DOCX.",
+	"bs-uemoduledocx-overview-webservice-state-not-ok": "non disponibbele",
+	"bs-uemoduledocx-overview-webservice-state-ok": "disponibbele",
+	"bs-uemoduledocx-overview-webservice-webadmin": "'Nderfacce web de DOCXService (BShtml2DOCX)",
+	"bs-uemoduledocx-overview-webservice-state": "State de DOCXService (BShtml2DOCX)"
+}

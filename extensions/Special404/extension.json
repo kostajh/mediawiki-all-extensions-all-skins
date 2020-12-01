@@ -1,0 +1,23 @@
+{
+	"name": "Special404",
+	"author": "Daniel Friesen",
+	"url": "https://www.mediawiki.org/wiki/Extension:Special404",
+	"descriptionmsg": "special404-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"SpecialPages": {
+		"Error404": "Special404"
+	},
+	"MessagesDirs": {
+		"Special404": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"Special404Alias": "Special404.alias.php"
+	},
+	"AutoloadClasses": {
+		"Special404": "includes/Special404.php"
+	},
+	"manifest_version": 1
+}

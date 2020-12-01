@@ -1,0 +1,52 @@
+{
+	"name": "LogoFunctions",
+	"version": "2.0",
+	"author": [
+		"JuneHyeon Bae (devunt)",
+		"Ryan Schmidt",
+		"Isarra Yos",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LogoFunctions",
+	"descriptionmsg": "logofunctions-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"MessagesDirs": {
+		"LogoFunctions": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.logofunctions": {
+			"class": "LogoFunctionsSkinModule",
+			"skinStyles": {
+				"timeless": "Timeless.css",
+				"greystuff": "GreyStuff.css"
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "LogoFunctions/resources"
+	},
+	"ExtensionMessagesFiles": {
+		"LogoFunctionsMagic": "LogoFunctions.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"LogoFunctions": "includes/LogoFunctions.php",
+		"LogoFunctionsSkinModule": "includes/LogoFunctionsSkinModule.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "LogoFunctions::onParserFirstCallInit",
+		"BeforePageDisplay":  "LogoFunctions::onBeforePageDisplay"
+	},
+	"config": {
+		"NamespaceLogos": {
+			"value": []
+		}
+	},
+	"manifest_version": 2
+}

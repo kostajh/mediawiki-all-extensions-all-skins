@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Juanpabl"
+		]
+	},
+	"patrol-revert": "Revertir",
+	"patrol-revert-reason": "Razón:",
+	"patrol-reverting": "Revertindo: $1",
+	"group-patroller": "Patrullers",
+	"group-patroller-member": "{{GENDER:$1|patrullero|patrullera}}"
+}

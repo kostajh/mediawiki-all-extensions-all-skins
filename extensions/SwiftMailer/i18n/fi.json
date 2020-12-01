@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"swiftmailer-smtp-error": "Virhe määrittäessä SMTP-liikennettä SwiftMailer: $1",
+	"swiftmailer-send-error": "Virhe lähetettäessä sähköpostia käyttäen SwiftMailer: $1"
+}

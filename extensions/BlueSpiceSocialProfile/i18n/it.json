@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"bs-socialprofile-type": "Profilo",
+	"bs-socialprofile-entityaction-changeimage": "Immagine utente",
+	"bs-social-entityaction-editprofilefields": "Dati del profilo",
+	"bs-social-profile-field-name": "Nome",
+	"bs-social-profile-field-email": "Email",
+	"bs-social-profile-field-title": "Titolo",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Sig.|Sig.ra|}}",
+	"bs-social-profile-field-department": "Reparto",
+	"bs-social-profile-field-function": "Funzione",
+	"bs-social-profile-field-location": "Località",
+	"bs-social-profile-field-phone": "Telefono",
+	"bs-social-profile-field-validate-no-integer": "$1 deve essere un numero",
+	"bs-socialprofile-special-profiles-heading": "Profili",
+	"bs-social-profile-infoshowemail": "Mostra indirizzo di posta elettronica nel profilo",
+	"socialprofiles": "Profili",
+	"bs-socialprofile-switch-classicprofile-label": "Profilo classico",
+	"bs-socialprofile-switch-modernprofile-label": "Profilo moderno",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Passa al profilo classico",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Passa al profilo moderno",
+	"action-social-editothersprofile": "modificare i profili di altri utenti",
+	"right-social-editothersprofile": "Modifica i profili di altri utenti",
+	"action-socialprofile-viewspecialpage": "vedere la pagina speciale \"{{int:socialprofiles}}\"",
+	"right-socialprofile-viewspecialpage": "Vedere la pagina speciale \"{{int:socialprofiles}}\""
+}

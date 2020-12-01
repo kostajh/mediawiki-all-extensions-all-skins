@@ -1,0 +1,58 @@
+{
+	"name": "BlueSpiceQrCode",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"author": [
+		"Josef Konrad"
+	],
+	"descriptionmsg": "bs-qr-code-extension-description",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:QrCode",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceQrCode": {
+					"className": "\\BlueSpice\\QrCode\\Extension",
+					"extPath": "/BlueSpiceQrCode",
+					"package": "BlueSpice Pro"
+				}
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceExpiry": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\QrCode\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.qrcode.styles": {
+			"styles": [
+				"bluespice.qrcode.less"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceQrCode/resources"
+	},
+	"Hooks": {
+		"ChameleonSkinTemplateOutputPageBeforeExec": [
+			"\\BlueSpice\\QrCode\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddQrCode::callback"
+		],
+		"BeforePageDisplay": [
+			"\\BlueSpice\\QrCode\\Hook\\BeforePageDisplay\\AddRessources::callback"
+		]
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

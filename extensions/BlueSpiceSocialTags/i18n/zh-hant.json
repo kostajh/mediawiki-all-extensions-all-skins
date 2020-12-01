@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-socialtags-desc": "添加標記功能到社交單元",
+	"bs-socialtags-tagstext": "已連結{{plural:$1|頁面}}（$1）",
+	"bs-socialtags-var-tags": "已連結頁面",
+	"socialtags": "已連結頁面",
+	"bs-socialtags-special-heading": "已連結頁面",
+	"apihelp-bs-socialtags-tasks-summary": "提供用於編輯單元連結頁面的任務",
+	"action-social-tagging": "編輯已連結頁面",
+	"right-social-tagging": "編輯已連結頁面"
+}

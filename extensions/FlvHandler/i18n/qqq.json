@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"flvhandler_desc": "{{desc|name=Flv Handler|url=https://www.mediawiki.org/wiki/Extension:FlvHandler}}",
+	"flv-long-desc": "Used as long description for the FLV file. Parameters:\n* $1 - width (in pixels)\n* $2 - height (in pixels)\n* $3 - filesize, localized"
+}

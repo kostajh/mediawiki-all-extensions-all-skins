@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minisarm",
+			"Stelistcristi"
+		]
+	},
+	"sslauth-enable": "Activeză",
+	"sslauth-disable": "Dezactivează",
+	"sslauth-cn": "Nume comun",
+	"sslauth-email": "Adresă de e-mail",
+	"sslauth-serial": "Număr de serie",
+	"sslauth-invalidrequest-title": "Cerere invalidă",
+	"sslauth-prefs-name": "Autentificare SSL",
+	"sslauth-prefs-linktospecial": "Activează/dezactivează certificatele de client"
+}

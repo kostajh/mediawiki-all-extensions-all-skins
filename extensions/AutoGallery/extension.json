@@ -1,0 +1,25 @@
+{
+	"name": "AutoGallery",
+	"license-name": "AGPL-3.0-or-later",
+	"author": [
+		"Kunal Mehta"
+	],
+	"descriptionmsg": "autogallery-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:AutoGallery",
+	"version": "2.0",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"MessagesDirs": {
+		"AutoGallery": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"AutoGallery\\": "includes/"
+	},
+	"Hooks": {
+		"GalleryGetModes": "AutoGallery\\Hooks::onGalleryGetModes"
+	},
+	"manifest_version": 2
+}

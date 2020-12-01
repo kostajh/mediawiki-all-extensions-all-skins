@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"form-desc": "En [[Special:Form|Schnettstell met Fommulaare]] fö neu Sigge aanzefange.",
+	"form": "Fommulaa",
+	"form-no-name": "Keine Name för en Fommulaa",
+	"form-no-name-text": "Do moß ene Name för dat Fommulaa aanjevve, en dä Aat wi „{{ns:Special}}:Form/Fommulaaname“.",
+	"form-bad-name": "Ene verkeehte Name fö dat Fommulaa",
+	"form-bad-name-text": "Mer han kei Fommulaa met dämm Name.",
+	"form-pattern": "$1-Fommulaa",
+	"form-save": "Afspeichere",
+	"form-index-mismatch-title": "Et Moster för dä Name un de Schablon passe nit zosamme",
+	"form-index-mismatch": "Dat Fommulaa hee hät unejaal fill Namens-Muster un Schablone, aff dä Nommer $1.",
+	"form-article-exists": "Die Sigg jitt et ald",
+	"form-article-existstext": "Di Sigg „[[$1]]“ es ald doh.",
+	"form-bad-page-name": "Dat es keine Name för en Sigg",
+	"form-bad-page-name-text": "Di enjejovve Date fun dämm Fommulaa jevve „[[$1]]“ — dat es enne kapodde Name för en Sigg.",
+	"form-required-field-error": "{{PLURAL:$2|Dat Feld|De Felder|Nix}} $1 {{PLURAL:$2|moß|mösse|moß}} aanjejovve wäde. Donn {{PLURAL:$2|et|se|nix}} ußfölle.",
+	"form-save-summary": "En neu Sigg, di op dämm [[Special:Form/$1|Fommulaa $1]] opbout.",
+	"form-save-error": "Fäähler beim Fommulaa afspeichere",
+	"form-save-error-text": "Mer hatte ene Fähler — de Aat es onbikannt — beim Afspeichere fun de Sigg „$1“."
+}

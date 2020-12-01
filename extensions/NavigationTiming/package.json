@@ -1,0 +1,16 @@
+{
+	"private": true,
+	"scripts": {
+		"test": "npm run test:eslint && npm run test:banana",
+		"test:eslint": "eslint --ext .js,.json --report-unused-disable-directives --cache .",
+		"test:banana": "banana-checker i18n/"
+	},
+	"devDependencies": {
+		"eslint-config-wikimedia": "0.17.0",
+		"grunt-banana-checker": "0.9.0"
+	},
+	"eslintIgnore": [
+		"vendor/**",
+		"modules/RUM-SpeedIndex/**"
+	]
+}

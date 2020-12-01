@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"googleanalyticstoppages-desc": "Dèje 'n'elenghe de pàggene cu l'ause de le date de Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Valore de [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Aggiorne l'elenghe de le pàggene cchiù 'ndrucate (fatte cu le date calcolate da Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Aggiorne l'elenghe de le pàggene cchiù 'ndrucate (fatte cu le date calcolate da Google Analytics)."
+}

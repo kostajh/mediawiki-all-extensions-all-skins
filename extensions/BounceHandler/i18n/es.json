@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Fitoschido",
+			"Macofe",
+			"Ryo567",
+			"Themasterriot"
+		]
+	},
+	"bouncehandler-desc": "Ayuda en el manejo de rebotes de correo electrónico para MediaWiki",
+	"bouncehandler-notify_subject": "Devolución de rebote temporal",
+	"notification-bouncehandler": "{{GENDER:$1|Tu}} dirección de correo electrónico registrada ya no es válida.",
+	"notification-bouncehandler-flyout": "{{GENDER:$2|Tu}} dirección de correo electrónico registrada $1 fue desuscrita debido a múltiples fallos de entrega de mensajes. Puedes [[Special:ConfirmEmail|volver a verificar {{GENDER:$2|tu}} dirección de correo electrónico]].",
+	"notification-link-text-change-email": "Cambiar tu dirección de correo electrónico"
+}

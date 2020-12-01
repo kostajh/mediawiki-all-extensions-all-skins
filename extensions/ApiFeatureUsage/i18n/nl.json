@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Purodha",
+			"Robin van der Vliet",
+			"Robin0van0der0vliet",
+			"Siebrand"
+		]
+	},
+	"apifeatureusage": "API-functiegebruik",
+	"apifeatureusage-desc": "Samenvattingen weergeven voor gelogd gebruik van API-mogelijkheden voor een useragent.",
+	"apifeatureusage-elasticsearch-error": "Elasticsearch-fout: $1",
+	"apifeatureusage-legend": "API-functiegebruik",
+	"apifeatureusage-agent-label": "Useragentː",
+	"apifeatureusage-startdate-label": "Begindatum:",
+	"apifeatureusage-enddate-label": "Einddatum:",
+	"apifeatureusage-submit": "Gegevens ophalen",
+	"apifeatureusage-no-indexes": "Er zijn geen gegevens beschikbaar voor de opgegeven periode.",
+	"apifeatureusage-missing-indexes": "Er zijn geen gegevens beschikbaar voor een deel van de opgegeven periode.",
+	"apifeatureusage-warnings": "Waarschuwing: $1",
+	"apifeatureusage-column-feature": "Functie",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-column-uses": "Toepassingen",
+	"apihelp-query+featureusage-description": "Samenvattingen weergeven voor gelogd gebruik van API-mogelijkheden voor een useragent.",
+	"apihelp-query+featureusage-param-start": "Begindatum van de op te vragen periode.",
+	"apihelp-query+featureusage-param-end": "Einddatum van de op te vragen periode.",
+	"apihelp-query+featureusage-param-agent": "Op te vragen useragent. Als niet opgegeven, wordt de useragent van het verzoek gebruikt.",
+	"apihelp-query+featureusage-param-features": "Als opgegeven, alleen details over deze mogelijkheden rapporteren.",
+	"apihelp-query+featureusage-example-simple": "Mogelijkhedengebruik voor de huidige useragent opvragen",
+	"apierror-apifeatureusage-emptyagent": "Kan niet op een lege user agent zoeken.",
+	"apifeatureusage-deprecation-help": "Gebruik [[Special:ApiFeatureUsage]] om te zien welke verouderde functies gebruikt worden door uw programma."
+}

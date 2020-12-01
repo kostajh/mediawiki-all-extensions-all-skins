@@ -1,0 +1,32 @@
+{
+	"name": "HoverGallery",
+	"version": "1.2",
+	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]",
+	"url": "https://www.mediawiki.org/wiki/Extension:HoverGallery",
+	"descriptionmsg": "hovergallery-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"HoverGallery": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"HoverGallery": "HoverGallery.php"
+	},
+	"ResourceModules": {
+		"ext.HoverGallery": {
+			"scripts": "js/HoverGallery.js",
+			"styles": "css/HoverGallery.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "HoverGallery/resources"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "HoverGallery::onBeforePageDisplay",
+		"ParserFirstCallInit": "HoverGallery::onParserFirstCallInit"
+	},
+	"manifest_version": 1
+}

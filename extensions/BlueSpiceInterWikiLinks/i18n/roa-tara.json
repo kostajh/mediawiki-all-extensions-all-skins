@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-interwikilinks-desc": "Inderfacce de amministrazione pe aggiungere, cangià e scangellà le collegaminde inderuicchi",
+	"bs-interwikilinks-invalid-pfx-spc": "'U prefisse non g'è valide. No scè ausanne spazie.",
+	"bs-interwikilinks-invalid-url-spc": "'A URL non g'è valide. No scè ausanne spazie.",
+	"bs-interwikilinks-label": "Collegaminde inderuicchi",
+	"bs-interwikilinks-link-created": "'U collegamende inderuicchi ha state ccrejate.",
+	"bs-interwikilinks-link-added": "'U collegamende inderuicchi ha state aggiunde.",
+	"bs-interwikilinks-link-deleted": "'U collegamende inderuicchi ha state scangellate.",
+	"bs-interwikilinks-nooldpfx": "'U prefisse d'apprime non g'ha state acchiate.",
+	"bs-interwikilinks-nopfx": "Mitte 'nu prefisse.",
+	"bs-interwikilinks-nourl": "Mitte 'na URL.",
+	"bs-interwikilinks-pfxtoolong": "'U prefisse jè troppe luènghe. Ause 'nu massime de 32 carattere.",
+	"bs-interwikilinks-pfxexists": "Stu prefisse ggià esiste.",
+	"bs-interwikilinks-headerprefix": "Prefisse",
+	"bs-interwikilinks-titleaddinterwikilink": "Aggiunge 'nu collegamende interuicchi",
+	"bs-interwikilinks-titleeditinterwikilink": "Cange 'nu collegamende interuicchi",
+	"bs-interwikilinks-labelprefix": "Prefisse",
+	"bs-interwikilinks-titledeleteinterwikilink": "Scangìlle 'nu collegamende interuicchi",
+	"bs-interwikilinks-confirmdeleteinterwikilink": "Sì secure, vuè ccu scangìlle stu collegamende inderuicchi?",
+	"bs-interwikilinks-insertlink-tabtitle": "Colleghe cu 'n'otra uicchi",
+	"bs-interwikilinks-insertlink-labelprefix": "Prefisse",
+	"bs-interwikilink-select-a-prefix": "Scacchie 'u prefisse",
+	"bs-interwikilinks-link-edited": "'U collegamende inderuicchi ha state cangiate.",
+	"apihelp-bs-interwikilinks-tasks-description": "Dèje le attività pe l'estenzione InterWikiLinks.",
+	"apihelp-bs-interwikilinks-tasks-summary": "Dèje le attività pe l'estenzione InterWikiLinks.",
+	"action-interwikilinks-viewspecialpage": "'ndruche 'a pàgena speciale \"{{int:bs-interwikilinks-label}}\"",
+	"interwikilinks": "Collegaminde inderuicchi",
+	"right-interwikilinks-viewspecialpage": "Tràse jndr'à pàgena speciale [[Special:InterWikiLinks]]"
+}

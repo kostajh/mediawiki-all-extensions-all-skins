@@ -1,0 +1,129 @@
+{
+	"name": "UiFeedback",
+	"version": "0.5.0",
+	"author": [
+		"lbenedix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:UIFeedback",
+	"descriptionmsg": "ui-feedback-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"APIModules": {
+		"uifeedback": "UIFeedbackAPI"
+	},
+	"AvailableRights": [
+		"read_uifeedback",
+		"write_uifeedback"
+	],
+	"GroupPermissions": {
+		"*": {
+			"read_uifeedback": true,
+			"upload": true
+		},
+		"UIFeedback_Administator": {
+			"write_uifeedback": true
+		}
+	},
+	"SpecialPages": {
+		"UiFeedback": "SpecialUiFeedback"
+	},
+	"MessagesDirs": {
+		"UiFeedback": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"UIFeedbackAlias": "UIFeedback.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialUiFeedback": "includes/specials/SpecialUiFeedback.php",
+		"UIFeedbackAPI": "includes/api/UIFeedbackAPI.php",
+		"UIFeedbackHooks": "includes/UIFeedbackHooks.php"
+	},
+	"ResourceModules": {
+		"jquery.htmlfeedback": {
+			"scripts": [
+				"resources/lib.canvas-to-blob.js",
+				"resources/lib.html2canvas.js",
+				"resources/lib.jquery.htmlfeedback.js"
+			]
+		},
+		"ext.uiFeedback": {
+			"scripts": [
+				"resources/ext.uiFeedback.js"
+			],
+			"styles": [
+				"resources/ext.uiFeedback.css"
+			],
+			"dependencies": [
+				"user",
+				"user.options",
+				"jquery.cookie",
+				"jquery.ui",
+				"jquery.client",
+				"jquery.htmlfeedback",
+				"mediawiki.api",
+				"mediawiki.util"
+			],
+			"messages": [
+				"ui-feedback-headline",
+				"ui-feedback-scr-headline",
+				"ui-feedback-task-label",
+				"ui-feedback-task-0",
+				"ui-feedback-task-1",
+				"ui-feedback-task-2",
+				"ui-feedback-task-3",
+				"ui-feedback-task-4",
+				"ui-feedback-task-5",
+				"ui-feedback-task-6",
+				"ui-feedback-task-7",
+				"ui-feedback-done-label",
+				"ui-feedback-comment-label",
+				"ui-feedback-happened-label",
+				"ui-feedback-happened-1",
+				"ui-feedback-happened-2",
+				"ui-feedback-happened-3",
+				"ui-feedback-happened-4",
+				"ui-feedback-importance-label",
+				"ui-feedback-importance-1",
+				"ui-feedback-importance-5",
+				"ui-feedback-anonym-label",
+				"ui-feedback-anonym-help",
+				"ui-feedback-notify-label",
+				"ui-feedback-notify-help",
+				"ui-feedback-notify-postedit",
+				"ui-feedback-notify-upload-sent",
+				"ui-feedback-notify-upload-fail",
+				"ui-feedback-notify-upload-progress",
+				"ui-feedback-notify-sent",
+				"ui-feedback-problem-send",
+				"ui-feedback-problem-reset",
+				"ui-feedback-problem-cancel",
+				"ui-feedback-yes",
+				"ui-feedback-no",
+				"ui-feedback-highlight-label",
+				"ui-feedback-yellow",
+				"ui-feedback-black",
+				"ui-feedback-sticky",
+				"ui-feedback-help-headline",
+				"ui-feedback-help-subheading",
+				"ui-feedback-help-text-top",
+				"ui-feedback-help-text-bottom",
+				"ui-feedback-prerender-headline",
+				"ui-feedback-prerender-text1",
+				"ui-feedback-prerender-text2"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "UIFeedback"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "UIFeedbackHooks::createUIFeedbackTable",
+		"BeforePageDisplay": "UIFeedbackHooks::uifeedbackBeforePageDisplay"
+	},
+	"manifest_version": 2
+}

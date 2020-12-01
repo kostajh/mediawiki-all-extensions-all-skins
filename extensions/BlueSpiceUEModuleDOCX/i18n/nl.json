@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"bs-uemoduledocx-extension-description": "Voegt de mogelijkheid toe om te exporteren naar DOCX",
+	"bs-uemoduledocx-pref-SuppressNS": "Naamruimtevoorvoegsel in de DOCX verbergen",
+	"bs-uemoduledocx-widgetlink-single-text": "DOCX van één pagina",
+	"bs-uemoduledocx-widgetlink-single-title": "Exporteer deze pagina als DOCX.",
+	"bs-uemoduledocx-overview-description": "Exporteert pagina's naar Microsoft DOCX.",
+	"bs-uemoduledocx-overview-webservice-state-not-ok": "niet beschikbaar",
+	"bs-uemoduledocx-overview-webservice-state-ok": "beschikbaar"
+}

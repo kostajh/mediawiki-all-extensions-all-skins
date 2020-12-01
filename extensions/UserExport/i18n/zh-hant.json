@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"userexport-desc": "允許匯出使用者資料成 CSV 檔案",
+	"userexport": "匯出使用者資料",
+	"userexport-submit": "匯出",
+	"userexport-badtoken": "無效的編輯令牌。",
+	"userexport-description": "此頁面允許匯出所有註冊在此 wiki 使用者的相關資料（使用者名稱和使用者電子郵件）成 CSV 檔案。",
+	"right-userexport": "大量匯出使用者資料",
+	"action-userexport": "從此 wiki 匯出使用者資料"
+}

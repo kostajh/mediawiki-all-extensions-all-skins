@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail",
+			"Railfail536",
+			"Sp5uhe"
+		]
+	},
+	"articletocategory2-desc": "Dodaje do każdej strony kategorii pole tekstowe, które umożliwia utworzenie nowej strony bezpośrednio w kategorii",
+	"articletocategory2-create-article-under-category-text": "Dodaj stronę do tej kategorii",
+	"articletocategory2-create-article-under-category-button": "Utwórz",
+	"articletocategory2-create-category-under-category-text": "Dodaj kategorię do tej kategorii",
+	"articletocategory2-create-category-under-category-button": "Utwórz",
+	"action-ArticleToCategory2": "dodawania strony do kategorii",
+	"right-ArticleToCategory2": "Dodaj stronę do kategorii",
+	"action-ArticleToCategory2AddCat": "dodawania kategorii do kategorii",
+	"right-ArticleToCategory2AddCat": "Dodaj kategorię do kategorii"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": "Sleeping-Lion"
+	},
+	"relatedlinks": "Related Links",
+	"no": "No",
+	"order_no" : "Order",
+	"subject": "Subject",
+	"rel_url": "URL",
+	"enable": "Enable",
+	"edit" : "Edit",
+	"please_login" : "Please Login",
+	"add_site" : "Add new site..",
+	"no_data" : "no data..!!",
+	"no_link" : "No Link...",
+	"insert" : "Insert",
+	"delete" : "Delete",
+	"delete_select" : "Delete Select",
+	"modify_all" : "Modify",
+	"return_page" : "Return  Page",
+	"enable" : "enable",
+	"disable" : "disable",
+	"update_related_links" : "Updated Related Links",
+	"delete_related_links" : "Deleted Related Links",
+	"insert_related_links" : "Inserted Related Links"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cindy Cicalese",
+			"Jason Ji",
+			"Umherirrender"
+		]
+	},
+	"vikisemantictitle-desc": "{{desc|name=VikiSemanticTitle|url=https://www.mediawiki.org/wiki/Extension/VikiSemanticTitle}}",
+	"vikisemantictitle-error-displaytitle-fetch": "Error message to be displayed when a display title fetch has failed. $1 = pageTitle of node for which display title fetch has failed"
+}

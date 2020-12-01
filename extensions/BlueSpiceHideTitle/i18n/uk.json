@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Movses",
+			"Vlad5250",
+			"Ата"
+		]
+	},
+	"bs-hidetitle-desc": "Додає магічне слово <code><nowiki>__HIDETITLE__</nowiki></code>, щоб приховати назву сторінки",
+	"bs-hidetitle-ve-dialog-meta-settings-showtitle": "Показати",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle": "Приховати",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-label": "Видимість назви сторінки",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-help": "Тут ви можете визначити чи має заголовок бути показаним, чи ні."
+}

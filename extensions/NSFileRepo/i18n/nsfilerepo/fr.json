@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"IAlex",
+			"Wladek92"
+		]
+	},
+	"nsfilerepo-desc": "Ajoute des fonctionnalités aux fichiers téléversés par espace de nom",
+	"nsfilerepo-upload-target": "Nom du fichier cible dans l’espace de noms",
+	"nsfilerepo-nsmain": "(Principal)",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext": "Il n'est pas possible de modifier ce champ en rechargeant un fichier",
+	"nsfilerepo-move-file-namespace-action-label": "Définir l’espace de noms du fichier",
+	"nsfilerepo-move-file-namespace-dialog-title": "Définir l’espace de noms du fichier",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "Terminé",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "Annuler",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "Espace de noms"
+}

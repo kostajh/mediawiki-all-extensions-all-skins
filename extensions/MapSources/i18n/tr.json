@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Joseph"
+		]
+	},
+	"mapsources": "Harita kaynakları",
+	"mapsources-summary": "Bu sayfa, kullanıcıların birden fazla kaynakta (koordinatlarıyla tanımlanmış) bir konum aramasını sağlar.\n\nEnlem, boylam ve ek parametreler virgüllerle ayrılmalıdır.\nParametreler bir tanımlayıcı, eşit işaret ve bir değerden oluşur.\n\nÖrnek: 52° 31′ N, 13° 24′ 30″ E, scale=50000\n\nEk olarak [https://wiki.toolserver.org/view/GeoHack GeoHack] formatı kabul edilecektir.",
+	"mapsources-search-legend": "Kaynaklardaki verileri ve haritaları bulun",
+	"mapsources-coordinate": "Koordinatlar:",
+	"mapsources-go": "Git",
+	"mapsources-errormsgs": "Hata iletileri",
+	"mapsources-noparams": "Hiçbir parametre verilmedi",
+	"mapsources-incorrectparams": "Yanlış parametreler ($1) verildi",
+	"mapsources-incorrectlat": "Yanlış enlem",
+	"mapsources-incorrectlong": "Yanlış boylam",
+	"mapsources-nopage": "Proje sayfası [[{{ns:project}}:$1|$1]] mevcut değil",
+	"mapsources-outofrange": "Koordinat sınır dışında",
+	"mapsources-math-missing-operand": "Eksik terim",
+	"mapsources-math-incorrect-input": "Hatalı girdi",
+	"mapsources-desc": "Veri [[Special:MapSources|ara]] ve kaynaklar içindeki haritalar"
+}

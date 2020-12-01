@@ -1,0 +1,26 @@
+{
+	"name": "RegexFunctions",
+	"version": "2.0.0",
+	"author": "Ryan Schmidt",
+	"url": "https://www.mediawiki.org/wiki/Extension:RegexFunctions",
+	"descriptionmsg": "regexfunctions-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"MessagesDirs": {
+		"RegexFunctions": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"RegexFunctionsMagic": "RegexFunctions.i18n.magic.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "ExtRegexFunctions::onParserFirstCallInit"
+	},
+	"AutoloadClasses": {
+		"ExtRegexFunctions": "ExtRegexFunctions.php"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"dynamicpagelistengine-desc": "Dostarcza dynamiczną listę stron z konfigurowalnymi i rozszerzalnymi funkcjami do [[mw:Special:MyLanguage/Extension:Scribunto|modułów]] i innych rozszerzeń",
+	"dple-tracking-category": "Strony używające DynamicPageListEngine",
+	"dple-error-invalid-ns-index": "Błąd DynamicPageListEngine: Brak przestrzeni nazw z indeksem $1.",
+	"dple-error-no-criteria": "Błąd DynamicPageListEngine: Nie określono kryteriów wyboru.",
+	"dple-error-too-expensive": "Błąd DynamicPageListEngine: Próba wykonania obciążającej kolejki z $1 scalonymi tabelami bazy danych, gdy ich najwyższa dozwolona liczba to $2.",
+	"dple-error-too-many-expensive-functions": "Błąd DynamicPageListEngine: Na tej stronie użyto zbyt wielu obciążających funkcji."
+}

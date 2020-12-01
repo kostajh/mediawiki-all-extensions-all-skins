@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"LaG roiL",
+			"Rotemliss",
+			"YaronSh"
+		]
+	},
+	"security": "יומן האבטחה",
+	"security-desc": "הרחבת הגנת הדפים במדיה־ויקי כך שתתאפשר הגבלת הצפיה בתוכן הדף",
+	"security-logpage": "יומן האבטחה",
+	"security-logpagetext": "זהו יומן הפעולות שנחסמו על ידי [https://www.mediawiki.org/wiki/Extension:SimpleSecurity ההרחבה SimpleSecurity].",
+	"badaccess-read": "אזהרה: נמצאת כאן הפניה אל \"$1\", אך הרשאותיכם אינן מאפשרות גישה אליו.",
+	"security-info": "ישנם $1 בדף זה",
+	"security-info-toggle": "הגבלות אבטחה",
+	"security-inforestrict": "הפעולה $1 מוגבלת לקבוצה $2",
+	"security-desc-LS": "(חל כיוון שדף זה נמצא ב\"$2 $1\")",
+	"security-desc-PR": "(הוגדר דרך לשונית ה\"הגנה\")",
+	"security-infosysops": "לא חלות הגבלות כלשהן כיוון שאתם חברים בקבוצה \"מפעילי מערכת\"",
+	"security-manygroups": "הקבוצות $1 ו־$2",
+	"security-unchain": "שינוי פעולות בנפרד",
+	"security-type-category": "הקטגוריה",
+	"security-type-namespace": "מרחב השם",
+	"security-restricttogroup": "הגישה לתוכן מוגבלת לחברים בקבוצה \"$1\"",
+	"restriction-read": "קריאה"
+}

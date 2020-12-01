@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Miguel2706"
+		]
+	},
+	"updatemediawiki": "Update MediaWiki",
+	"updatemediawiki-desc": "Allows updating MediaWiki via a special page",
+	"updatemediawiki-current": "Current version $1",
+	"updatemediawiki-update-nofound": "No update is available",
+	"updatemediawiki-update-found": "New update found: $1",
+	"updatemediawiki-update-downloading": "Downloading new update",
+	"updatemediawiki-update-saved": "Update downloaded and saved",
+	"updatemediawiki-update-exist": "Update already downloaded",
+	"updatemediawiki-update-copyready": "Copy ready",
+	"updatemediawiki-update-database": "Update the data base now?",
+	"updatemediawiki-update-updateready": "Update ready",
+	"updatemediawiki-update-install": "Install now?",
+	"updatemediawiki-update-updated": "MediaWiki updated to version $1",
+	"updatemediawiki-update-error": "Could not find latest realeases",
+	"updatemediawiki-update-aborted": "Could not save new update. Operation aborted"
+}

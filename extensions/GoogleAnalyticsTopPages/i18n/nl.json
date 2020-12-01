@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti"
+		]
+	},
+	"googleanalyticstoppages-desc": "Voorziet in een top lijst pagina ' s met het gebruik van gegevens van Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "De waarde van de [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]"
+}

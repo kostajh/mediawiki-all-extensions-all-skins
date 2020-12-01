@@ -1,0 +1,54 @@
+/**
+ * Styles for badges on client wikis in the Modern skin
+ *
+ * @since 0.1
+ *
+ * @license GPL-2.0-or-later
+ * @author Bene* < benestar.wikimedia@gmail.com >
+ */
+
+.badge-goodarticle,
+.badge-goodlist,
+.badge-recommendedarticle {
+	list-style-image: url( ../../images/badge-silver-star.png );
+	margin-left: 2px;
+}
+
+.badge-featuredarticle,
+.badge-featuredportal,
+.badge-featuredlist {
+	list-style-image: url( ../../images/badge-golden-star.png );
+	margin-left: 2px;
+}
+
+.badge-problematic {
+	list-style-image: url( ../../images/badge-problematic.png );
+	margin-left: 2px;
+}
+
+.badge-proofread {
+	list-style-image: url( ../../images/badge-proofread.png );
+	margin-left: 2px;
+}
+
+.badge-validated {
+	list-style-image: url( ../../images/badge-validated.png );
+	margin-left: 2px;
+}
+
+.badge-digitaldocument {
+	list-style-image: url( ../../images/badge-digitaldocument.png );
+	margin-left: 2px;
+}
+
+.badge-goodarticle a,
+.badge-featuredarticle a,
+.badge-featuredportal a,
+.badge-featuredlist a,
+.badge-recommendedarticle a,
+.badge-problematic a,
+.badge-proofread a,
+.badge-validated a,
+.badge-digitaldocument a {
+	margin-left: -2px;
+}

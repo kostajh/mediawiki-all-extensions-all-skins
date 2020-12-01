@@ -1,0 +1,64 @@
+{
+	"representatives": [
+		{
+			"firstName": "Georges",
+			"lastName": "Bach",
+			"email": "georges.bach@europarl.europa.eu",
+			"membershipInDelegations": "DEEA",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45113",
+			"strasbourgPhone": "+33(0)3 88 1 75113",
+			"twitter": ""
+		},
+		{
+			"firstName": "Mady",
+			"lastName": "Delvaux",
+			"email": "mady.delvaux-stehres@europarl.europa.eu",
+			"membershipInDelegations": "DCAS",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45136",
+			"strasbourgPhone": "+33(0)3 88 1 75136",
+			"twitter": ""
+		},
+		{
+			"firstName": "Frank",
+			"lastName": "Engel",
+			"email": "frank.engel@europarl.europa.eu",
+			"membershipInDelegations": "D-CN",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45162",
+			"strasbourgPhone": "+33(0)3 88 1 75162",
+			"twitter": ""
+		},
+		{
+			"firstName": "Charles",
+			"lastName": "Goerens",
+			"email": "charles.goerens@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45612",
+			"strasbourgPhone": "+33(0)3 88 1 75612",
+			"twitter": "@charlesGoerens"
+		},
+		{
+			"firstName": "Tilly",
+			"lastName": "Metz",
+			"email": "tilly.metz@europarl.europa.eu",
+			"membershipInDelegations": "D-IN",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45246",
+			"strasbourgPhone": "+33(0)3 88 1 75246",
+			"twitter": ""
+		},
+		{
+			"firstName": "Viviane",
+			"lastName": "Reding",
+			"email": "viviane.reding@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45460",
+			"strasbourgPhone": "+33(0)3 88 1 75460",
+			"twitter": "@VivianeRedingEU"
+		}
+	]
+}

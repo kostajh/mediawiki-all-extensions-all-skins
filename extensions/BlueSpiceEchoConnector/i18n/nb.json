@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-echoconnector-extension-description": "Kobler BlueSpice med Echo",
+	"echo-category-title-bs-admin-cat": "Administrative handlinger",
+	"echo-pref-tooltip-bs-admin-cat": "Varsle meg når en ny brukerkonto opprettes",
+	"echo-pref-tooltip-bs-page-actions-cat": "Varsle meg når noen redigerer, flytter eller sletter en side jeg overvåker",
+	"echo-pref-tooltip-bs-page-create-cat": "Varsle meg når en ny side opprettes",
+	"echo-category-title-bs-page-actions-cat": "Handlinger på overvåkede sider",
+	"echo-category-title-bs-page-create-cat": "Sideopprettelse",
+	"prefs-namespace-notifications": "Varsler ved navneromshendelser",
+	"prefs-category-notifications": "Varsler for kategorier",
+	"echo-category-title-bs-namespace-category-notify-cat": "Endringer i navnerom og kategorier en abonnerer på"
+}

@@ -1,0 +1,113 @@
+{
+	"name": "MultiLanguageManager",
+	"version": "1.29",
+	"author": [
+		"Robert Vogel <vogel@hallowel.com>",
+		"Patric Wirth <wirth.hallowelt.com>",
+		"Marc Despland"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:MultiLanguageManager",
+	"descriptionmsg": "mlm-desc",
+	"license-name": "GPL-2.0-only",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"MessagesDirs": {
+		"MultiLanguageManager": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"MultiLanguageManagerAliases": "MultiLanguageManager.alias.php"
+	},
+	"ConfigRegistry": {
+		"mlm": "MultiLanguageManager\\Setup::makeConfig"
+	},
+	"ExtensionFunctions": [
+		"MultiLanguageManager\\Setup::init"
+	],
+	"AvailableRights": [
+		"language"
+	],
+	"GroupPermissions": {
+		"*": {
+			"language": false
+		},
+		"user": {
+			"language": true
+		},
+		"sysop": {
+			"language": true
+		}
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "MultiLanguageManager\\Setup::onLoadExtensionSchemaUpdates",
+		"BeforePageDisplay": "MultiLanguageManager\\Setup::onBeforePageDisplay",
+		"SkinTemplateNavigation::Universal": "MultiLanguageManager\\Setup::onSkinTemplateNavigation_Universal",
+		"ArticleDelete": "MultiLanguageManager\\Setup::onArticleDelete",
+		"SkinBuildSidebar": "MultiLanguageManager\\Setup::onSkinBuildSidebar",
+		"UserGetLanguageObject": "MultiLanguageManager\\Setup::onUserGetLanguageObject"
+	},
+	"SpecialPages": {
+		"MultiLanguageManager": "MultiLanguageManager\\Specials\\MultiLanguageManager"
+	},
+	"APIModules": {
+		"mlm-tasks": "MultiLanguageManager\\Api\\Tasks"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "MultiLanguageManager/resources"
+	},
+	"ResourceModules": {
+		"ext.mlm.styles": {
+			"styles": [
+				"ext.mlm.less"
+			]
+		},
+		"ext.mlm": {
+			"scripts": [
+				"ext.mlm.js"
+			],
+			"dependencies": [
+				"mediawiki.api",
+				"oojs",
+				"oojs-ui"
+			],
+			"messages": [
+				"mlm-input-label-sourcetitle",
+				"mlm-input-label-translationtitles",
+				"mlm-input-label-add",
+				"mlm-input-label-save",
+				"mlm-input-label-delete",
+				"mlm-input-label-cancel",
+				"mlm-contentaction-label",
+				"allmessages-language",
+				"mlm-input-label-sourcetitle-section",
+				"mlm-input-label-translationtitles-section"
+			]
+		}
+	},
+	"config_prefix": "mg",
+	"config": {
+		"AvailableLanguages": {
+			"value": [ "en", "cn", "fr", "it", "nl", "de" ]
+		},
+		"Permission": {
+			"value": "language"
+		},
+		"LanguageTableName": {
+			"value": "page_language"
+		},
+		"TranslationTableName": {
+			"value": "page_translation"
+		},
+		"SpecialPageName": {
+			"value": "MultiLanguageManager"
+		}
+	},
+	"AutoloadNamespaces": {
+		"MultiLanguageManager\\": "src/"
+	},
+	"manifest_version": 2
+}

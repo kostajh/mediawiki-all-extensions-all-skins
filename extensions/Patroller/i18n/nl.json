@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"patrol": "Wijzigingen controleren",
+	"patrol-desc": "Verbeterde interface voor controle van wijzigingen met mogelijkheden om werklast te delen",
+	"patrol-endorse": "Goedkeuren",
+	"patrol-revert": "Terugdraaien",
+	"patrol-revert-reason": "Reden:",
+	"patrol-skip": "Overslaan",
+	"patrol-reverting": "$1 aan het terugdraaien",
+	"patrol-nonefound": "Er zijn geen te controleren wijzigingen gevonden.",
+	"patrol-endorsed-ok": "De bewerking is gemarkteerd als gecontroleerd.",
+	"patrol-endorsed-failed": "De bewerking kon niet gemarkeerd worden als gecontroleerd.",
+	"patrol-reverted-ok": "De bewerking is teruggedraaid.",
+	"patrol-reverted-failed": "De bewerking kon niet teruggedraaid worden.",
+	"patrol-skipped-ok": "Bewerking wordt genegeerd.",
+	"patrol-reasons": "* Eenvoudig vandalisme\n* Zandbakken\n* Zie overlegpagina",
+	"patrol-another": "Volgende bewerking weergeven als beschikbaar.",
+	"patrol-stopped": "U hebt gekozen geen andere bewerking te controleren. $1",
+	"patrol-resume": "Klik hier om verder te gaan.",
+	"group-patroller": "controleurs",
+	"group-patroller-member": "{{GENDER:$1|controleur}}",
+	"grouppage-patroller": "{{ns:project}}:Controleur",
+	"right-patroller": "Pagina's markeren"
+}

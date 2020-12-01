@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Obsuser",
+			"Zoranzoki21"
+		]
+	},
+	"bs-insertTemplate-desc": "Дијалог за убацивање шаблона",
+	"bs-insertTemplate-button-template-title": "Уметни или уреди шаблон",
+	"bs-insertTemplate-dialog-title": "Убацивање шаблона",
+	"bs-insertTemplate-dialog-label-choose": "Избор шаблона",
+	"bs-insertTemplate-dialog-label-modify": "Измењивање шаблона",
+	"bs-insertTemplate-dialog-label-preview": "Претпреглед",
+	"apihelp-bs-inserttemplate-store-description": "Списак свих шаблона. Омогућава сортирање, филтрирање и пагинацију. Имплементира ExtJS Store параметре.",
+	"apihelp-bs-inserttemplate-store-summary": "Списак свих шаблона. Омогућава сортирање, филтрирање и пагинацију. Имплементира ExtJS Store параметре."
+}

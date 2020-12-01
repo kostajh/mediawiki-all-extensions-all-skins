@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mglaser",
+			"Patric Wirth"
+		]
+	},
+	"bs-userinfo-description": "Stellt ausklappbare Infos zu Benutzerlinks und Benutzerbildern zur Verfügung",
+	"apihelp-bs-userinfometa-description": "Listet die Metadaten eines bestimmten Benutzers auf",
+	"apihelp-bs-userinfometa-summary": "Listet die Metadaten eines bestimmten Benutzers auf",
+	"apihelp-bs-userinfometa-param-username": "Name des Benutzers, dessen Metadaten angezeigt werden sollen"
+}

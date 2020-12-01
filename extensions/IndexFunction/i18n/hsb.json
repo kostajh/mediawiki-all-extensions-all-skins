@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"indexfunc-desc": "Parserowa funkcija za wutworjenje awtomatiskich daleposrědkowanjow a rozjasnjenjow wjacezmyslnosćow",
+	"indexfunc-badtitle": "Njepłaćiwy titul: \"$1\"",
+	"indexfunc-editwarning": "Kedźbu: Tutón titul je indeksowy titul za {{PLURAL:$2|slědowacu stronu|slědowacej stronje|slědowace strony|slědowace strony}}: $1\nPřeswědčče so, zo strona, kotruž chceš wutworić, pod druhim titulom hišće njeeksistuje.\nJeli tutu stronu wutworiš, wotstroń tutón titul z <nowiki>{{#index:}}</nowiki> na {{PLURAL:$2|hornjej stronje|hornimaj stronomaj|hornich stronach|hornich stronach}}.",
+	"indexfunc-index-exists": "Strona \"$1\" hižo eksistuje",
+	"indexfunc-movewarn": "Kedźbu: \"$1\" je indeksowy titul za {{PLURAL:$3|slědowacu stronu|slědowacej stronje|slědowace strony|slědowace strony}}: $2\nProšu wotstroń \"$1\" z <nowiki>{{#index:}}</nowiki> na {{PLURAL:$3|hornjej stronje|hornimaj stronomaj|hornich stronach|hornich stronach}}.",
+	"index": "Indeks",
+	"index-legend": "Indeks přepytać",
+	"index-search": "Pytać:",
+	"index-submit": "Wotpósłać",
+	"index-disambig-start": "'''$1''' móže so na wjacore strony poćahować:",
+	"index-emptylist": "Njejsu strony, kotrež su z \"$1\" zwjazane.",
+	"index-expand-detail": "Strony pokazać, kotrež su pod tutym titulom indikowane",
+	"index-hide-detail": "Lisćinu stronow schować",
+	"index-no-results": "Pytanje njeje žane wuslědki přinjesło",
+	"index-search-explain": "Tuta strona prefiksowe pytanje wužiwa.\n\nZapodaj najprjedy někotre znamješka a klikń na tłóčatko {{int:index-submit}}, zo by titule stronow a indeksowe zapiski pytał, kotrež so z pytanskim tekstom započinaja",
+	"index-details-explain": "Zapiski z šipkami su indeksowe zapiski, klikń na šipk, zo by wšě strony pokazał, kotrež su pod tym titulom indikowane."
+}

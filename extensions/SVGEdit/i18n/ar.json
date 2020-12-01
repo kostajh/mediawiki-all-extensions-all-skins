@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kuwaity26",
+			"Meno25",
+			"OsamaK",
+			"ديفيد",
+			"روخو"
+		]
+	},
+	"svgedit-editbutton-edit": "تحرير الرسم",
+	"svgedit-summary-label": "ملخص التعديل",
+	"svgedit-summary-default": "/* تم التعديل في svg-edit */",
+	"svgedit-editor-save-close": "حفظ وإغلاق",
+	"svgedit-editor-close": "إلغاء",
+	"svgedit-desc": "تحرير رسومات SVG داخل المتصفح باستخدام [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "تحرير الرسم",
+	"svgedit-edit-tab-tooltip": "يمكنك تحرير رسم SVG هذا في متصفحك",
+	"svgedit-toolbar-insert": "رسم SVG"
+}

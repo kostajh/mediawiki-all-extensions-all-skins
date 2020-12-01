@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Josve05a",
+			"WikiPhoenix"
+		]
+	},
+	"bs-socialblog-desc": "Bloggentitet för BlueSpiceSocial",
+	"bs-socialblog-type": "Blogg",
+	"blog": "Blogg",
+	"bs-socialblog-entityblog-header-create": "Ny blogg",
+	"bs-socialblog-var-blogtitle": "Titel",
+	"bs-socialblog-entityblog-content-more-btn-more": "Mer",
+	"bs-socialblog-entityblog-content-more-btn-less": "Mindre",
+	"bs-socialblog-toc-useblogteaser": "Använd smygtext för blogginlägg i tidslinjen",
+	"bs-socialblog-special-blog-heading": "Blogg",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notifications-blog-create": "Användaren {{GENDER:$1|$2 skapade}} nya bloggen \"$3\"",
+	"bs-social-notifications-email-blog-create-subject": "Användaren {{GENDER:$1|$2 skapade}} nya bloggen \"$3\"",
+	"bs-social-notifications-email-blog-create-body": "Användaren {{GENDER:$1|$2 skapade}} nya bloggen \"$3\" med följande text:\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2 skapade}} nya bloggen \"$3\"",
+	"bs-social-notifications-blog-edit": "Användaren {{GENDER:$1|$2 redigerade}} bloggen \"$3\"",
+	"bs-social-notifications-email-blog-edit-subject": "Användaren {{GENDER:$1|$2 redigerade}} bloggen \"$3\"",
+	"bs-social-notifications-email-blog-edit-body": "Användaren {{GENDER:$1|$2 redigerade}} bloggen \"$3\". Den nya texten är:\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2 redigerade}} bloggen \"$3\"",
+	"bs-social-notifications-blog-delete": "Användaren {{GENDER:$1|$2 raderade}} bloggen \"$3\"",
+	"bs-social-notifications-email-blog-delete-subject": "Användaren {{GENDER:$1|$2 raderade}} bloggen \"$3\"",
+	"bs-social-notifications-email-blog-delete-body": "Användaren {{GENDER:$1|$2 raderade}} bloggen \"$3\"",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 raderade}} bloggen \"$3\"",
+	"bs-social-notification-blog-primary-link-label": "Visa blogg"
+}

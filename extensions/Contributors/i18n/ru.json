@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahonc",
+			"Facenapalm",
+			"Lockal",
+			"Okras",
+			"SergeyButkov",
+			"Александр Сигачёв"
+		]
+	},
+	"contributors": "Авторы",
+	"contributors-desc": "Определяет основных участников работы над страницей",
+	"contributors-toolbox": "Авторы страницы",
+	"contributors-legend": "Формирует список основных авторов статьи",
+	"contributors-target": "Название:",
+	"contributors-submit": "Показать",
+	"contributors-subtitle": "Основные авторы $1",
+	"contributors-others-long": "Кроме указанных, у данной страницы есть ещё $1 {{PLURAL:$1|автор|автора|авторов}}.",
+	"contributors-others": "и ещё $1 {{PLURAL:$1|другой|других}}",
+	"contributors-badtitle": "Ошибочное название.",
+	"contributors-nosuchpage": "Страница «$1» не существует.",
+	"contributors-filterip": "Не показывать IP-адреса",
+	"contributors-name": "Имя участника",
+	"contributors-revisions": "Количество правок",
+	"contributors-first-edit": "Дата первой правки",
+	"contributors-last-edit": "Дата последней правки",
+	"contributors-add-subpages": "Добавить подстраницы",
+	"apihelp-query+contributors-example-1": "Показать авторов страницы Main page"
+}

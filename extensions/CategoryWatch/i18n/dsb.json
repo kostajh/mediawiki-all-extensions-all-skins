@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"categorywatch-desc": "Rozšyrja funkcionalnosć woglědowańkow wó zdźělenje wó změnach cłonkojstwa woglědowanych kategorijow",
+	"categorywatch-emailsubject": "Aktiwita inkluziwnje wobglědowaneje kategorije \"$1\"",
+	"categorywatch-catmovein": "jo pśesunuł $1 z $3 do kategorije $2",
+	"categorywatch-catmoveout": "jo pśesunuł $1 z kategorije $2 do $3",
+	"categorywatch-catadd": "jo pśidał $1 ku kategoriji $2",
+	"categorywatch-catsub": "jo wupórał $1 z kategorije $2",
+	"categorywatch-autocat": "Wót $1 awtomatiski wobglědowany"
+}

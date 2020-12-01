@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"flvhandler_desc": "Permite insertar archivos de vídeo de Flash (.flv) como otros archivos estándares (p. ej.: <nowiki>[[</nowiki>{{ns:file}}:Película.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Vídeo Flash, $1 × $2 píxeles, tamaño del archivo: $3"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Awdsweq123"
+		]
+	},
+	"bs-socialcomments-type": "Bình luận",
+	"bs-socialcomments-header-create": "Bình luận",
+	"bs-socialcomments-header": "[[User:$1|$2]] đã bình luận \"[[$6|$7]]\"",
+	"bs-social-notifications-comment-create": "Người dùng {{GENDER:$1|$2 đã viết}} một bình luận mới",
+	"bs-social-notifications-email-comment-create-subject": "Người dùng {{GENDER:$1|$2 đã viết}} một bình luận mới",
+	"bs-social-notifications-email-comment-create-body": "Người dùng {{GENDER:$1|$2 đã bình luận}} trên một bài của $3 với văn bản sau:\n$4",
+	"bs-social-notifications-web-comment-create-body": "Người dùng {{GENDER:$1|$2 đã bình luận}} trên bài của $3",
+	"bs-social-notifications-email-comment-edit-subject": "Người dùng {{GENDER:$1|$2 đã chỉnh sửa}} một bình luận",
+	"bs-social-notifications-email-comment-edit-body": "Người dùng {{GENDER:$1|$2 đã chỉnh sửa}} một bình luận trên một bài của $3. Bình luận mới là:\n$4",
+	"bs-social-notifications-comment-delete": "Người dùng {{GENDER:$1|$2 đã xóa}} một bình luận",
+	"bs-social-notifications-email-comment-delete-body": "Người dùng {{GENDER:$1|$2 đã xóa}} một bình luận trên bài của $3",
+	"bs-social-notifications-comment-owner-create": "Người dùng {{GENDER:$1|$2 đã viết}} một bình luận với trên bài của bạn",
+	"bs-social-notifications-email-comment-owner-create-subject": "Người dùng {{GENDER:$1|$2 đã viết}} một bình luận mới trên bài của bạn",
+	"bs-social-notifications-web-comment-owner-create-body": "Người dùng {{GENDER:$1|$2 đã bình luận}} trên bài của bạn",
+	"bs-social-notifications-comment-owner-edit": "Người dùng {{GENDER:$1|$2 đã chỉnh sửa}} một bình luận trên bài của bạn",
+	"bs-social-notifications-email-comment-owner-edit-subject": "Người dùng {{GENDER:$1|$2 đã chỉnh sửa}} một bình luận trên bài của bạn",
+	"bs-social-notifications-email-comment-owner-edit-body": "Người dùng {{GENDER:$1|$2 đã chỉnh sửa}} một bình luận trên một bài của bạn. Bình luận mới là:\n$3",
+	"bs-social-notifications-web-comment-owner-edit-body": "Người dùng {{GENDER:$1|$2 đã chỉnh sửa}} một bình luận trên bài của bạn",
+	"bs-social-notifications-email-comment-owner-delete-subject": "Người dùng {{GENDER:$1|$2 đã xóa}} một bình luận trên bài của bạn",
+	"bs-social-notifications-email-comment-owner-delete-body": "Người dùng {{GENDER:$1|$2 đã xóa}} một bình luận trên bài của bạn",
+	"bs-social-notifications-web-comment-owner-delete-body": "Người dùng {{GENDER:$1|$2 đã xóa}} một bình luận trên bài của bạn",
+	"bs-social-notification-comment-primary-link-label": "Xem bình luận",
+	"bs-social-notification-comment-parententity-label": "Xem bài đăng"
+}

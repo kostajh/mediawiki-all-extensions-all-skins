@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"sitesettings": "Ρυθμίσεις ιστοσελίδας",
+	"sitesettings-maintab": "Κεντρική σελίδα",
+	"sitesettings-sitename": "Όνομα ιστοσελίδας:",
+	"sitesettings-timezone": "Μετατόπιση ωρών από τον Μέσο Χρόνο Γκρίνουιτς (GMT):",
+	"sitesettings-update": "Ενημέρωση",
+	"sitesettings-privacytab": "Ιδιωτικότητα",
+	"sitesettings-public": "Δημόσιο",
+	"sitesettings-publicdesc": "Ο καθένας μπορεί να διαβάσει την σελίδα",
+	"sitesettings-private": "Ιδιωτικό",
+	"sitesettings-privatedesc": "Μόνο οι εγγεγραμένοι χρήστες μπορούν να διαβάσουν αυτή τη σελίδα",
+	"sitesettings-veryprivate": "Πολύ ιδιωτικό",
+	"sitesettings-veryprivatedesc": "Οι χρήστες μπορούν να δουν την κύρια σελίδα και την σελίδα χρήστη τους",
+	"sitesettings-registrationpolicy": "Εγγραφή",
+	"sitesettings-openreg": "Άνοιγμα",
+	"sitesettings-openregdesc": "Ο καθένας μπορεί να εγγραφεί",
+	"sitesettings-closedreg": "Κλειστός",
+	"sitesettings-editingpolicy": "Επεξεργασία",
+	"sitesettings-openediting": "Άνοιγμα",
+	"sitesettings-openeditingdesc": "Ο καθένας μπορεί να επεξεργαστεί",
+	"sitesettings-closedediting": "Κλειστός"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Martin Urbanec",
+			"Mormegil",
+			"Urbanecm"
+		]
+	},
+	"uploadslink-desc": "Přidává odkaz na seznam souborů načtených aktuálním uživatelem do nabídky osobních nástrojů a odkaz na seznam souborů načtených příslušným uživatelem do postranního menu Nástroje.",
+	"uploadslink-portlet-label": "Načtené soubory",
+	"tooltip-pt-uploads": "Seznam vámi načtených souborů",
+	"uploadslink-toobox-label": "Soubory {{GENDER:$1|uživatele|uživatelky}}",
+	"tooltip-tb-uploads": "Seznam souborů načtených {{GENDER:$1|tímto uživatelem|touto uživatelkou}}"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Mansil alfalb"
+		]
+	},
+	"bs-socialarticleactions-desc": "Adiciona entradas básicas de operações sobre artigos a BlueSpiceSocial",
+	"bs-socialarticleactions-type-articlesave": "Edição de artigo",
+	"bs-socialarticleactions-type-articlecreate": "Criação de artigo",
+	"bs-socialarticleactions-type-articledelete": "Eliminação de artigo",
+	"bs-socialarticleactions-type-filesave": "Edição de ficheiro",
+	"bs-socialarticleactions-type-filecreate": "Criação de ficheiro",
+	"bs-socialarticleactions-type-filedelete": "Eliminação de ficheiro",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] editou o artigo [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] criou o artigo [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] eliminou o artigo [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] adicionou uma nova versão do ficheiro [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] carregou o ficheiro [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] eliminou o ficheiro [[:$6|$6]]"
+}

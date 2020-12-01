@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-socialwikipage-desc": "WikiPage entity and functionality for BlueSpiceSocial",
+	"bs-socialwikipage-type": "Wikipage",
+	"bs-socialwikipage-entitywikipage-header": "[[$5:$3|$6]]",
+	"bs-socialwikipage-entitywikipage-header-create": "Create new attachment area",
+	"bs-socialwikipage-nowikipageentity": "No attachment area has been created yet",
+	"bs-socialwikipage-noattachmentsadded": "No attachment was added yet",
+	"bs-socialwikipage-stashtype": "Attachments",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]] attached",
+	"bs-socialwikipage-entitystash-header-create": "New attachment",
+	"bs-socialwikipage-special-stash-heading": "Attachments",
+	"bs-socialwikipage-aftercontent-heading": "Attachments",
+	"wikipagestash": "Attachments",
+	"bs-socialwikipage-var-wikipageid": "Assigned page",
+	"bs-socialwikipage-switch-nostash-description": "Hides the attachment area of this page.",
+	"bs-socialwikipage-stash-insertfiledialog-title": "Add file",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "Add",
+	"bs-socialwikipage-stash-editor-attachedfiles": "Attached files",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "Delete",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "Add",
+	"apihelp-bs-socialstash-tasks-summary": "Provides tasks for editing the linked pages of entities"
+}

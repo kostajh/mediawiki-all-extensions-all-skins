@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nixtonin",
+			"Patriccck",
+			"YjM"
+		]
+	},
+	"bs-vec-dialog-media-change-file": "Změň soubor",
+	"bs-vec-table-style-cell-text-vert-align": "Svislé zarovnání textu",
+	"bs-vec-table-style-cell-text-vert-align-bottom": "Dolů",
+	"bs-vec-table-style-cell-text-vert-align-top": "Nahoru",
+	"bs-vec-table-style-cell-text-vert-align-middle": "Doprostřed",
+	"bs-vec-table-style-cell-text-hor-align": "Zarovnání textu",
+	"bs-vec-table-style-cell-text-hor-align-left": "Vlevo",
+	"bs-vec-table-style-cell-text-hor-align-center": "Doprostřed",
+	"bs-vec-table-style-cell-text-hor-align-right": "Vpravo",
+	"bs-vec-table-style-cell-text-hor-align-justify": "Do bloku",
+	"bs-vec-table-border-clear-all": "Obnovit všechny styly na výchozí",
+	"bs-vec-table-border-borders": "Orámování buněk",
+	"bs-vec-table-border-width": "Šířka rámečku",
+	"bs-vec-table-border-styles": "Styl rámečků",
+	"bs-vec-table-border-color": "Barva rámečku",
+	"bs-vec-table-border-none": "Žádné",
+	"bs-vec-table-border-left": "Vlevo",
+	"bs-vec-table-border-top": "Nahoře",
+	"bs-vec-table-border-right": "Vpravo",
+	"bs-vec-table-border-bottom": "Dole",
+	"bs-vec-table-border-all": "Všechny",
+	"bs-vec-table-border-leftright": "Vlevo a vpravo",
+	"bs-vec-table-border-topbottom": "Nahoře a dole",
+	"bs-vec-table-border-solid": "Plný",
+	"bs-vec-table-border-dashed": "Čárkovaně",
+	"bs-vec-table-border-dotted": "Tečkovaně",
+	"bs-vec-table-border-double": "Dvojitě"
+}

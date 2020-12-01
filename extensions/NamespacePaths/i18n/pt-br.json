@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent"
+		]
+	},
+	"namespacepaths-desc": "Permite mapear os domínios para caminhos personalizados; por exemplo, mapear páginas como Ajuda:Página para /ajuda/Página em vez de /wiki/Ajuda:Página"
+}

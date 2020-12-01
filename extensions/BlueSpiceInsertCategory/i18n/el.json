@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"bs-insertcategory-desc": "Διάλογος για να μπει σε σύνδεσμο κατηγορίας",
+	"bs-insertcategory-insertcat": "Εισαγωγή κατηγορίας",
+	"prefs-insertcategory": "Εισαγωγή κατηγορίας",
+	"bs-insertcategory-pref-withparents": "Εισαγωγή κατηγορία με τους γονείς της",
+	"bs-insertcategory-pref-uploadpanelintegration": "Ορισμός κατηγοριών σελίδων ως προεπιλεγμένες σε διάλογο μεταφόρτωσης",
+	"bs-insertcategory-title": "Εισαγωγή κατηγορίας",
+	"bs-insertcategory-cat-label": "Ανατεθειμένο:",
+	"bs-insertcategory-success": "Η κατηγορία προστέθηκε",
+	"bs-insertcategory-failure": "Σφάλμα",
+	"bs-insertcategory-hint": "Σημείωση: Για να προσθέσετε μια κατηγορία, πρέπει να πατήσετε enter.",
+	"bs-insertcategory-panel-title": "Κατηγορίες",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Αφαίρεση Όλων",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "επεξεργασία",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Επεξεργαστείτε τις κατηγορίες αυτής της σελίδας"
+}

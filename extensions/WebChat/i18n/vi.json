@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"Tuankiet65"
+		]
+	},
+	"webchat": "Chat trên Web",
+	"webchat-desc": "Thêm một [[Special:WebChat|trang đặc biệt]] để chat với các người dùng khác trong thời gian thực",
+	"webchat-header": "Trang đặc biệt này giúp bạn cộng tác với các người dùng khác trong thời gian thực.\nĐể kết nối hãy nhấn nút “Connect”.\nNếu bạn đã đăng nhập thì biệt danh của bạn là tên đăng nhập của bạn.\nNgười dùng vô danh sẽ được tạo một biệt hiệu ngẫu nhiên, nhưng nó có thể thay đổi.",
+	"right-webchat": "Cho phép sử dụng [[Special:WebChat|chat trên Web]]"
+}

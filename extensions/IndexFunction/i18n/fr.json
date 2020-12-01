@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crochet.david",
+			"IAlex",
+			"Urhixidur",
+			"Verdy p"
+		]
+	},
+	"indexfunc-desc": "Fonction de l’analyseur pour créer des pages de redirection et d’homonymie automatiquement",
+	"indexfunc-badtitle": "Titre invalide : « $1»",
+	"indexfunc-editwarning": "Attention : ce titre est un titre d'index pour {{PLURAL:$2|la page suivante|les pages suivantes}} :\n$1\nSoyez sûr que la page que vous êtes sur le point de créer n'existe pas sous un autre titre.\nSi vous créez cette page, retirez-là de <nowiki>{{#index:}}</nowiki> {{PLURAL:$2|de la page|des pages}} ci-dessus.",
+	"indexfunc-index-exists": "La page « $1 » existe déjà",
+	"indexfunc-movewarn": "Attention : « $1 »  est un titre d'index pour {{PLURAL:$3|la page suivante|les pages suivantes}} :\n$2\nEnlevez « $1 » de <nowiki>{{#index:}}</nowiki> {{PLURAL:$3|de la page|des pages}} ci-dessus.",
+	"index": "Index",
+	"index-legend": "Rechercher dans l’index",
+	"index-search": "Chercher:",
+	"index-submit": "Soumettre",
+	"index-disambig-start": "'''$1''' peut se référer à plusieurs pages :",
+	"index-emptylist": "Il n’y a pas de pages liées à « $1 »",
+	"index-expand-detail": "Afficher les pages indexées sous ce titre",
+	"index-hide-detail": "Masque la liste des pages",
+	"index-no-results": "La recherche n'a retourné aucun résultat",
+	"index-search-explain": "Cette page utilise une recherche par préfixe.\n\nTapez les premiers caractères et pressez sur le bouton de soumission pour chercher les titres des pages qui débutent avec chaîne de recherche.",
+	"index-details-explain": "Les entrées avec des flèches sont des entrées d'index, cliquez sur la flèche pour voir toutes les pages indexées sous ce titre."
+}

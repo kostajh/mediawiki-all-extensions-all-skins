@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"HanV",
+			"Siebrand"
+		]
+	},
+	"indexfunc-desc": "Parserfunctie om automatisch doorverwijzingen en doorverwijspagina's aan te maken",
+	"indexfunc-badtitle": "Ongeldige paginanaam: \"$1\"",
+	"indexfunc-editwarning": "Waarschuwing: deze pagina is een indexpagina voor de volgende {{PLURAL:$2|pagina|pagina's}}:\n$1\nZorg ervoor dat de pagina die u wilt aanmaken niet al bestaat onder een andere naam.\nAls u deze pagina aanmaakt, verwijder deze dan uit de <nowiki>{{#index:}}</nowiki> in de bovenstaande {{PLURAL:$2|pagina|pagina's}}.",
+	"indexfunc-index-exists": "De pagina \"$1\" bestaat al",
+	"indexfunc-movewarn": "Waarschuwing: \"$1\" is een indexpagina voor de volgende {{PLURAL:$3|pagina|pagina's}}:\n$2\nVerwijder \"$1\" uit de <nowiki>{{#index:}}</nowiki> op de bovenstaande {{PLURAL:$3|pagina|pagina's}}.",
+	"index": "Index",
+	"index-legend": "De index doorzoeken",
+	"index-search": "Zoeken:",
+	"index-submit": "OK",
+	"index-disambig-start": "'''$1''' kan verwijzen naar meerdere pagina's:",
+	"index-emptylist": "Er zijn geen pagina's geassocieerd met \"$1\"",
+	"index-expand-detail": "Onder deze naam geïndexeerde pagina's weergeven",
+	"index-hide-detail": "Lijst met pagina' verbergen",
+	"index-no-results": "De zoekopdracht heeft geen resultaten opgeleverd",
+	"index-search-explain": "Deze pagina maakt gebruik van zoeken op voorvoegsel.\n\nVoer de eerste paar letters in en druk op de verzendknop om te zoeken naar paginanamen en trefwoorden die beginnen met de opgegeven zoekreeks",
+	"index-details-explain": "Trefwoorden met pijlen komen uit de index.\nKlik op de pijl om alle onder die naam geïndexeerde pagina's weer te geven."
+}

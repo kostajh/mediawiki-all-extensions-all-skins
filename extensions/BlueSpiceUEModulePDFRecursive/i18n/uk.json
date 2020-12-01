@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-uemodulepdfrecursive-extension-description": "Уможливлює рекурсивний експорт сторінок у формат PDF.",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-text": "Сторінка PDF зі сторінками, на які є посилання",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-title": "Експортувати цю сторінку та всі сторінки, на які є посилання, як PDF.",
+	"right-uemodulepdfrecursive-export": "Експортування сторінки, включно з усіма сторінками, на які є посилання, в PDF",
+	"action-uemodulepdfrecursive-export": "експортування сторінки, включно з усіма сторінками, на які є посилання, в PDF"
+}

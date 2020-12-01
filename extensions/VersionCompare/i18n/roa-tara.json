@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"versioncompare": "Combronde de Versione",
+	"version-compare-desc": "Fà 'ndrucà 'u combronde d'u combonende prengepàle e le versiune de l'estenzione 'mbrà doje uicchi",
+	"version-compare-database-label": "Databeise",
+	"version-compare-url-error": "Errore pigghianne le date da $1.",
+	"version-compare-url-field-help-1": "URL de l'API (ca spicce jndr'à api.php) d'a prima uicchi da combrondà. Ause 'a uicchi de mò ce avène lassate vianghe.",
+	"version-compare-url-field-help-2": "URL de l'API (ca spicce jndr'à api.php) d'a seconda uicchi da combrondà. Ause 'a uicchi de mò ce avène lassate vianghe.",
+	"version-compare-diff-field-label": "Fà 'ndrucà sulamende le differenze"
+}

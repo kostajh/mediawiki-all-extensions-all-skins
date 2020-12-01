@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Purodha",
+			"Shirayuki",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"stalkerlog-desc": "{{desc|name=Stalker Log|url=https://www.mediawiki.org/wiki/Extension:StalkerLog}}",
+	"stalkerlog-log-login": "Used as log line message\n{{Identical|Log in}}",
+	"stalkerlog-log-logout": "{{Identical|Logged out}}",
+	"stalkerlog-log-type": "Used as log name",
+	"stalkerlog-log-text": "Used as log header",
+	"action-stalkerlog-view-log": "{{doc-action|stalkerlog-view-log}}",
+	"right-stalkerlog-view-log": "{{doc-right|stalkerlog-view-log}}"
+}

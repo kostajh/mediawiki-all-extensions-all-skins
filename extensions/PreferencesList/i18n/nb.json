@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"preferenceslist-desc": "Genererer ei liste over alle brukerinnstillinger for én spesifikk innstilling",
+	"preferenceslist-preferenceslist": "Innstillingsliste",
+	"preferenceslist-preferenceslist-intro": "Nedenfor er ei liste over innstillinger. Velg én eller flere for å se ei liste over brukerne med deres innstilling.",
+	"preferenceslist": "Innstillingsliste",
+	"action-preferenceslist": "liste opp alle brukeres innstillinger",
+	"preferenceslist-csv": "Last ned som CSV",
+	"preferenceslist-nofields": "Ingen felt ble valgt.",
+	"right-preferenceslist": "Åpne siden Special:PreferencesList"
+}

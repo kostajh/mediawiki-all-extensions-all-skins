@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"rt-desc": "Interfacie elegante a RT (Request Tracker)",
+	"rt-inactive": "Le extension RT non es active",
+	"rt-badquery": "Le extension RT incontrava un error durante le communication con le base de datos RT",
+	"rt-badlimit": "Le parametro <code>LIMIT</code> (<code>l</code>) es invalide: debe esser un numero.\nTu essayava: '''$1'''",
+	"rt-badorderby": "Le parametro <code>ORDER BY</code> (<code>ob</code>) es invalide: debe esser un campo standard (vide le documentation).\nTu essayava: '''$1'''",
+	"rt-badstatus": "Le parametro <code>status</code> (<code>s</code>) es invalide: debe esser un campo standard (vide le documentation).\nTu essayava: '''$1'''",
+	"rt-badcfield": "Le parametro de campo personalisate es invalide: debe esser un parola simple (vide le documentation).\nTu entrava: '''$1'''",
+	"rt-badqueue": "Le parametro <code>queue</code> (<code>q</code>) es invalide: debe esser un parola simple.\nTu essayava: '''$1'''",
+	"rt-badowner": "Le parametro <code>owner</code> (<code>o</code>) es invalide: debe esser un nomine de usator valide.\nTu essayava: '''$1'''",
+	"rt-nomatches": "Nulle billet RT trovate que corresponde a iste criterios"
+}

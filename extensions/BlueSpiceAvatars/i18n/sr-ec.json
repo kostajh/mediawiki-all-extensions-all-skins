@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Milicevic01",
+			"Zoranzoki21",
+			"Сербијана"
+		]
+	},
+	"prefs-avatars": "Аватари",
+	"bs-avatars-desc": "Пружа генеричке и појединачне корисничке слике",
+	"bs-avatars-pref-generator": "Генератор:",
+	"bs-avatars-pref-defaultsize": "Подразумевана величина у пикселима:",
+	"bs-avatars-pref-userimage": "Корисничка слика:",
+	"bs-avatars-pref-userimage-img-alt": "Ваша тренутна корисничка слика",
+	"bs-avatars-upload-complete": "Слика је отпремљена.",
+	"bs-avatars-generate-complete": "Нови аватар је креиран.",
+	"bs-avatars-upload-title": "Промени профилну слику",
+	"bs-avatars-upload-label": "Слика",
+	"bs-avatars-generate-new-label": "Генериши нови аватар",
+	"bs-avatars-warning-title": "Упозорење",
+	"bs-avatars-warning-text": "Поставили сте корисничку слику у вашим подешавањима. Коришћење аватара ће очистити ово подешавања. Да ли желите да наставите?",
+	"bs-avatars-userimage-title": "Слика са викија или линк слике",
+	"bs-avatars-userimage-help": "на пример, Slika.jpg или http://localhost/Slika.gif",
+	"bs-avatars-userimage-alt": "Профилна слика корисника \"$1\".",
+	"bs-avatars-set-userimage-failed": "Некоректан линк или слика са викија.",
+	"bs-avatars-set-userimage-saved": "Профилна слика је сачувана.",
+	"bs-avatars-file-upload-fieldset-title": "Отпремање слика",
+	"bs-avatars-auto-generate-fieldset-title": "Аутоматско генерисање аватара",
+	"apihelp-bs-avatars-tasks-description": "Отпремање, генерисање и постављање кориснике слике",
+	"apihelp-bs-avatars-tasks-summary": "Отпремање, генерисање и постављање кориснике слике",
+	"bs-avatars-tag-profileimage-error-invalidusername": "Параметар \"username\" је препоручен и мора да садржи валидно корисничко име."
+}

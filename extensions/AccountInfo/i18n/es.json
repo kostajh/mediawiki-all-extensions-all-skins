@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Jelou",
+			"Sporeunai"
+		]
+	},
+	"accountinfo": "Información de cuenta",
+	"accountinfo-desc": "Permite que el usuario consulte información personal almacenada",
+	"accountinfo-ts": "Cronomarcador",
+	"accountinfo-ip": "Dirección IP",
+	"accountinfo-ua": "Agente de usuario",
+	"accountinfo-xff": "Cabecera XFF",
+	"accountinfo-length": "La información se conserva durante $1.",
+	"accountinfo-now": "Ahora"
+}

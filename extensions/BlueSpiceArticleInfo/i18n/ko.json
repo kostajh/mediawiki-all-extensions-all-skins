@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Namoroka",
+			"Ykhwong"
+		]
+	},
+	"bs-articleinfo-desc": "상태 표시줄에 문서에 관한 정보를 제공합니다",
+	"prefs-articleinfo": "문서 정보",
+	"bs-articleinfo-pref-CheckRevisionInterval": "초 단위로 갱신하기:",
+	"bs-articleinfo-flyout-title": "문서 정보",
+	"bs-articleinfo-flyout-intro": "이 문서의 활동 개요",
+	"bs-articleinfo-nav-link-title": "문서 정보",
+	"bs-articleinfo-flyout-categorylinks-title": "분류",
+	"bs-articleinfo-flyout-templatelinks-title": "문서에 사용된 틀",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "할당된 분류 없음",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "사용된 틀이 없음",
+	"bs-articleinfo-flyout-lasteditedtime-text": "마지막 편집",
+	"bs-articleinfo-flyout-lastediteduser-text": "마지막 편집자",
+	"bs-articleinfo-newrevision-info-text": "이 문서의 새로운 판을 읽을 수 있습니다. 현재 내용을 보려면 문서를 다시 로드해 주십시오.",
+	"bs-articleinfo-flyout-subpages-title": "하위 문서",
+	"bs-articleinfo-pagetool-subpages-tooltip": "하위 문서",
+	"bs-articleinfo-dialog-subpages-title": "하위 문서"
+}

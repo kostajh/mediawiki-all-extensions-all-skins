@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cicalese"
+		]
+	},
+	"semanticdependency-desc": "Uses a semantic property to indicate pages that should be purged when the page containing the property is modified"
+}

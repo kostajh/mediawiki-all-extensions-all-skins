@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "Facilita a otimização de motores de busca (SEO)",
+	"addhtmlmetaandtitle-empty-attr": "A marcação &lt;seo&gt; tem de conter pelo menos um dos atributos \"title\", \"metak(eywords)\" ou \"metad(escription)\"."
+}

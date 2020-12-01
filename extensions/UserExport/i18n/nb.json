@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"userexport-desc": "Gjør det mulig å eksportere brukerdata til ei CSV-fil",
+	"userexport": "Eksporter brukerdata",
+	"userexport-submit": "Eksporter",
+	"userexport-badtoken": "Ugyldig redigeringsnøkkel",
+	"userexport-description": "Denne siden gjør det mulig å eksportere brukerdata (brukernavn og epost) for alle registrerte brukere på denne wikien til ei CSV-fil.",
+	"right-userexport": "Masseeksportere brukerdata",
+	"action-userexport": "eksportere brukerdata fra denne wikien"
+}

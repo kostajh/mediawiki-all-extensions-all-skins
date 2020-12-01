@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"KATRINE1992",
+			"Nikosgranturismogt"
+		]
+	},
+	"apihelp-imagerating-description": "Μονάδα API του ImageRating-επιτρέπει την προσθήκη κατηγοριών σε μια σελίδα όταν έχει δοθεί ένα αναγνωριστικό σελίδας",
+	"apihelp-imagerating-summary": "Μονάδα ΑΡΙ ImageRating-επιτρέπει την προσθήκη κατηγοριών σε μια σελίδα όταν παρασχεθεί ID σελίδας",
+	"apihelp-imagerating-param-categories": "URL κωδικοποιημένος, λίστα χωρισμένη με κόμμα (σειρά)κατηγοριών για να προσθέσετε στην σελίδα",
+	"apihelp-imagerating-param-pageId": "Εσωτερικός δείκτης αναγνώρισης της σελίδας προς έκδοση",
+	"apihelp-imagerating-example-1": "Προσθέστε τις κατηγορίες \"Cute cats\", \"Lolcats\" and \"Internet memes\" στη σελίδα που έχει εσωτερικό ID 66.",
+	"imagerating-add-button": "προσθέστε",
+	"imagerating-add-categories-title": "προσθέσετε κατηγορίες (χωρισμένες με κόμμα)",
+	"imagerating-category": "$1 εικόνες",
+	"imagerating-community-score": "βαθμολογία κοινότητας: '''$1''' ({{PLURAL:$2|μία αξιολόγηση|$2 αξιολογήσεις}})",
+	"imagerating-desc": "Επιτρέπει στους χρήστες να [[Special:ImageRating|categorize and rate images]]",
+	"imagerating-edit-summary": "προσθέσετε κατηγορία",
+	"imagerating-empty": "Δεν υπάρχει τίποτα εδώ να κάνεις",
+	"imagerating-featured-heading": "Προβαλλόμενη Εικόνα",
+	"imagerating-popular-heading": "Δημοφιλείς Εικόνες",
+	"imagerating-popular-heading-param": "Δημοφιλείς $1 Εικόνες",
+	"imagerating-new-heading-param": "Νέες $1 εικόνες",
+	"imagerating-best-heading-param": "Οι καλύτερες $1 Εικόνες",
+	"imagerating-new-heading": "Νέες Εικόνες",
+	"imagerating-best-heading": "Οι Καλύτερες Εικόνες",
+	"imagerating-menu-title": "Μενού",
+	"imagerating-submitted-by": "Υποβλήθηκε Από",
+	"imagerating-ratetitle": "Βαθμολογήστε και Ταξινομήστε τις Εικόνες ανά Κατηγορία",
+	"imagerating-categorytitle": "Κατηγορίες",
+	"imagerating-upload-images": "Ανεβάστε Εικόνες",
+	"imagerating-prev-link": "προηγ",
+	"imagerating-next-link": "επόμενο",
+	"action-rateimage": "ταξινομήστε τις εικόνες ανά κατηγορία και βαθμολογήστε τις",
+	"right-rateimage": "Ταξινομήστε και βαθμολογήστε τις εικόνες"
+}

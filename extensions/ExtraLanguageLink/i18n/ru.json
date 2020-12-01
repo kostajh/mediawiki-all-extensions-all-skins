@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meshkov.a",
+			"Okras"
+		]
+	},
+	"extralanguagelink-desc": "Добавляет дополнительные языковые ссылки в раздел «На других языках» боковой панели",
+	"extralanguagelink-param-class": "класс",
+	"extralanguagelink-param-hreflang": "язык ссылки",
+	"extralanguagelink-param-lang": "язык",
+	"extralanguagelink-param-style": "стиль",
+	"extralanguagelink-param-title": "заголовок",
+	"extralanguagelink-badinterwiki": "Интервики-префикса «$1:» нет в списке разрешённых интервики-префиксов.",
+	"extralanguagelink-badtitle": "Заголовок страницы «$1» не может быть проанализирован."
+}

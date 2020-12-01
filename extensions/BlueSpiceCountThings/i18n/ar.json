@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"Sonic N800",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"bs-countthings-desc": "يوفر إحصائيات تستند إلى المحتوى",
+	"bs-countthings-chars-label": "الأحرف",
+	"bs-countthings-words-label": "الكلمات",
+	"bs-countthings-files-label": "ملفات",
+	"bs-countthings-pages-label": "الصفحات",
+	"bs-countthings-ve-countcharacters-title": "عدد الحروف",
+	"bs-countthings-ve-countarticles-title": "عدد المقالات",
+	"bs-countthings-ve-countfiles-title": "عد الملفات",
+	"bs-countthings-ve-countusers-title": "عدد المستخدمين",
+	"bs-countthings-ve-countthingsinspector-mode": "الوضع",
+	"bs-countthings-ve-countcharacters-mode-all": "الكل",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "الأحرف",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "الكلمات",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "الأحرف والكلمات",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "الصفحات",
+	"bs-countthings-ve-countcharacters-input-label": "الصفحات",
+	"bs-countthings-error-no-input": "لم يتم تقديم صفحة.",
+	"bs-countthings-error-invalid-mode": "الوضع  \"$1\" غير صالح; الرجاء استخدام \"chars\" أو \"words\" أو \"pages\".",
+	"bs-countthings-error-not-exist": "الصفحة \"$1\" غير موجودة.",
+	"bs-countthings-tag-countarticles-desc": "يعرض عدد المقالات في الويكي.",
+	"bs-countthings-tag-countusers-desc": "يعرض عدد المستخدمين المسجلين.",
+	"bs-countthings-tag-countfiles-desc": "يعرض عدد الملفات في الويكي.",
+	"bs-countthings-tag-countcharacters-desc": "يولد بيانات وصفية عن محتوى المقالة المشار إليها، الإخراج هو صندوق معلومات يمكن دمجه في مقالة، مع الوسيط \"mode\" يمكن عرض نوع مختلف من المعلومات.",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: ما يجب أن يُحسَب <code>chars</code> (characters) أو <code>words</code> (كلمات) أو <code>pages</code> (صفحات).",
+	"bs-countthings-tag-countcharacters-example-1": "عدد الكلمات",
+	"bs-countthings-tag-countcharacters-example-2": "عدد الحروف"
+}

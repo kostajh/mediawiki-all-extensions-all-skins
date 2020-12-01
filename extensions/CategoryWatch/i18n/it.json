@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"BrokenArrow",
+			"Darth Kule"
+		]
+	},
+	"categorywatch-desc": "Estende le funzioni degli osservati speciali includendo notifiche dei cambiamenti alle pagine appartenenti alle categorie osservate",
+	"categorywatch-emailsubject": "Attività che coinvolge la categoria seguita \"$1\"",
+	"categorywatch-catmovein": "ha spostato $1 nella categoria $2 da $3",
+	"categorywatch-catmoveout": "ha spostato $1 dalla categoria $2 a $3",
+	"categorywatch-catadd": "ha aggiunto $1 alla categoria $2",
+	"categorywatch-catsub": "ha rimosso $1 dalla categoria $2",
+	"categorywatch-autocat": "Osservata automaticamente da $1",
+	"categorywatch-notification-link": "Categoria: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] aggiunto a [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] aggiunto a [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] ha aggiunto [[:$3|$3]] a [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] rimosso da [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] rimosso da [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] ha rimosso [[:$3|$3]] da [[:$4|$4]]"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"CaiusSPQR",
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"bs-saferedit-desc": "Fornece avisos se outros utilizadores estiverem a editar a página",
+	"bs-saferedit-user-editing": "$1 está {{GENDER:$1|a editar}} a página",
+	"bs-saferedit-someone-editing": "A página está a ser editada",
+	"bs-saferedit-pref-interval": "Intervalo para pesquisa de edições simultâneas:",
+	"bs-saferedit-pref-shownameofeditinguser": "Mostrar nome do editor atual"
+}

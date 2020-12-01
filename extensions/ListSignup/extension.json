@@ -1,0 +1,64 @@
+{
+	"name": "ListSignup",
+	"version": "0.0.2",
+	"author": "Ike Hecht for [//www.wikiworks.com WikiWorks]",
+	"url": "https://www.mediawiki.org/wiki/Extension:ListSignup",
+	"descriptionmsg": "listsignup-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"AvailableRights": [
+		"viewlistsignupdisplay",
+		"purgelistsignupdisplay"
+	],
+	"GroupPermissions": {
+		"*": {
+			"viewlistsignupdisplay": false,
+			"purgelistsignupdisplay": false
+		},
+		"user": {
+			"viewlistsignupdisplay": false,
+			"purgelistsignupdisplay": false
+		},
+		"autoconfirmed": {
+			"viewlistsignupdisplay": false,
+			"purgelistsignupdisplay": false
+		},
+		"bot": {
+			"viewlistsignupdisplay": true,
+			"purgelistsignupdisplay": false
+		},
+		"sysop": {
+			"viewlistsignupdisplay": true,
+			"purgelistsignupdisplay": true
+		},
+		"viewlistsignupdisplay": {
+			"viewlistsignupdisplay": true
+		}
+	},
+	"SpecialPages": {
+		"ListSignup": "SpecialListSignup",
+		"ListSignupDisplay": "SpecialListSignupDisplay",
+		"ListSignupPurge": "SpecialListSignupPurge"
+	},
+	"MessagesDirs": {
+		"ListSignup": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ListSignupAlias": "ListSignup.alias.php"
+	},
+	"AutoloadClasses": {
+		"ListSignup": "includes/ListSignup.php",
+		"ListSignupHooks": "includes/ListSignupHooks.php",
+		"FormSpecialPageMessaged": "includes/specials/FormSpecialPageMessaged.php",
+		"SpecialListSignup": "includes/specials/SpecialListSignup.php",
+		"SpecialListSignupDisplay": "includes/specials/SpecialListSignupDisplay.php",
+		"ListSignupPager": "includes/specials/ListSignupPager.php",
+		"SpecialListSignupPurge": "includes/specials/SpecialListSignupPurge.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "ListSignupHooks::onLoadExtensionSchemaUpdates"
+	},
+	"manifest_version": 1
+}

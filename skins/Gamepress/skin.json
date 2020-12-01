@@ -1,0 +1,87 @@
+{
+	"name": "Gamepress",
+	"version": "1.4.0",
+	"author": [
+		"[http://webtuts.pl/themes/ Aleksandra Łączek]",
+		"Jack Phoenix",
+		"[http://en.uncyclopedia.co/wiki/User:Bizzeebeever Bizzeebeever]",
+		"Samantha Nguyen"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Gamepress",
+	"license-name": "GPL-2.0-or-later",
+	"descriptionmsg": "gamepress-desc",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"ValidSkinNames": {
+		"gamepress": "Gamepress"
+	},
+	"MessagesDirs": {
+		"SkinGamepress": [
+			"i18n"
+		]
+	},
+	"ThemeModules": {
+		"gamepress": [ "blue", "green", "orange" ]
+	},
+	"AutoloadClasses": {
+		"SkinGamepress": "includes/SkinGamepress.php",
+		"GamepressTemplate": "includes/GamepressTemplate.php",
+		"GamepressSkinNavigationService": "includes/GamepressSkinNavigationService.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Gamepress"
+	},
+	"ResourceModules": {
+		"skins.gamepress.styles": {
+			"styles": {
+				"resources/css/reset.css": {
+					"media": "screen"
+				},
+				"resources/css/style.css": {
+					"media": "screen"
+				},
+				"resources/css/dark.css": {
+					"media": "screen"
+				},
+				"resources/css/mobile.css": {
+					"media": "screen and (max-width: 750px)"
+				}
+			}
+		},
+		"skins.gamepress.site": {
+			"scripts": [
+				"resources/js/gamepress.js"
+			]
+		},
+		"themeloader.skins.gamepress.blue": {
+			"styles": {
+				"resources/images/blue/style.css": {
+					"media": "screen"
+				}
+			}
+		},
+		"themeloader.skins.gamepress.green": {
+			"styles": {
+				"resources/images/green/style.css": {
+					"media": "screen"
+				}
+			}
+		},
+		"themeloader.skins.gamepress.orange": {
+			"styles": {
+				"resources/images/orange/style.css": {
+					"media": "screen"
+				}
+			}
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"gamepress": {
+			"+mediawiki.special.preferences.styles": "resources/css/special.preferences.styles.css"
+		}
+	},
+	"manifest_version": 1
+}

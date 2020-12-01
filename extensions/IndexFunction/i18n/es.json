@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Fitoschido",
+			"Indiralena",
+			"Translationista"
+		]
+	},
+	"indexfunc-desc": "Función del analizador para crear redirecciones y páginas de desambiguación automáticas",
+	"indexfunc-badtitle": "Título no válido: «$1»",
+	"indexfunc-editwarning": "Alerta:\nEste es un título de índice de {{PLURAL:$2|la página siguiente|las páginas siguientes}}:\n$1\nAsegúrate de que la página que vas a crear no existe actualmente con un título diferente.\nSi creas esta página, elimina este título del <nowiki>{{#index:}}</nowiki> en {{PLURAL:$2|la página mostrada|las páginas mostradas}} anteriormente.",
+	"indexfunc-index-exists": "La página «$1» ya existe",
+	"indexfunc-movewarn": "Alerta:\n«$1» es un título de índice para {{PLURAL:$3|la página siguiente|las páginas siguientes}}:\n$2\nElimina «$1» del <nowiki>{{#index:}}</nowiki> en {{PLURAL:$3|la página mostrada|las páginas mostradas}} anteriormente.",
+	"index": "Índice",
+	"index-legend": "Buscar en el índice",
+	"index-search": "Buscar:",
+	"index-submit": "Enviar",
+	"index-disambig-start": "'''$1''' puede referirse a varias páginas:",
+	"index-emptylist": "No hay páginas asociadas con «$1»",
+	"index-expand-detail": "Mostrar páginas indizadas bajo este título",
+	"index-hide-detail": "Ocultar la lista de páginas",
+	"index-no-results": "La búsqueda no ha devuelto resultados",
+	"index-search-explain": "Esta página utiliza una búsueda por prefijos.\n\nEscribe los primeros caracteres y haga click en \"enviar\" para buscar títulos de páginas y entradas de índice que comiencen por la cadena de búsqueda",
+	"index-details-explain": "Las entradas con flechas son entradas de índice.\n\nHaz clic sobre la flecha para mostrar todas las  páginas indizadas bajo ese título."
+}

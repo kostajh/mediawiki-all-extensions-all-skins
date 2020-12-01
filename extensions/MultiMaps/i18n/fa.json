@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armin1392"
+		]
+	},
+	"multimaps-desc": "اجازه به کاربران برای نمایش نقشه‌ها و اطلاعات مختصات با استفاده از چندین سرویس‌های نقشه‌برداری",
+	"multimaps-loading-map": "در حال بارگذاری نقشه...",
+	"multimaps-mapservices-must-not-empty-array": "متغیر \"$1\" نباید یک آرایهٔ خالی باشد",
+	"multimaps-had-following-errors": "هنگامی که تجزیه از پارامترها عبور کرد، خطاهای زیر را داشت:",
+	"multimaps-element-illegal-value": "برای پارامتر \"$1\" مقدار غیرقانونی \"$2\" تعیین شده‌ بود. مقادیر معتبر عبارتند از: $3",
+	"multimaps-element-more-parameters": "برای این عنصر نقشه \"$1\" پارامترهای بیشتر از انتظاری عبور کردند:",
+	"multimaps-element-parameters-not-processed": "پارامترهای زیر پردازش نشده بودند: $1",
+	"multimaps-circle-radius-not-defined": "برای دایره، شعاع باید معنی شود",
+	"multimaps-circle-wrong-number-parameters": "برای دایره، فقط دو پارامتر باید تعریف شود، مختصات مرکز و شعاع. اما {{PLURAL:$1|یک پارامتر|$1 پارامترها}} تعیین شده",
+	"multimaps-marker-incorrect-icon": "نام پوشهٔ‌ نادرست \"$1\" برای نماد شاخص ارائه شده بود.",
+	"multimaps-marker-incorrect-icon-url": "یوآرال نادرست \"$1\" برای نماد شاخص ارائه شده بود.",
+	"multimaps-marker-incorrect-icon-size": "اندازهٔ نادرست \"$1\" برای نماد شاخص \"$2\" ارائه شده بود.",
+	"multimaps-marker-incorrect-icon-anchor": "انکر نادرست \"$1\" برای علامت آیکون \"$2\" ارائه شده بود.",
+	"multimaps-marker-incorrect-shadow-file": "نام پوشهٔ‌ نادرست \"$1\" برای علامت پنهان ارائه شده بود.",
+	"multimaps-marker-incorrect-shadow-url": "یوآرال نادرست \"$1\" برای علامت پنهان ارائه شده بود.",
+	"multimaps-marker-incorrect-shadow-size": "اندازهٔ نادرست \"$1\" برای علامت پنهان \"$2\" ارائه شده بود.",
+	"multimaps-marker-incorrect-shadow-anchor": "انکر نادرست \"$1\" برای علامت پنهان \"$2\" ارائه شده بود.",
+	"multimaps-passed-unavailable-service": "نام سرویس \" $1 \" در فهرست سرویس‌های در دسترس ( $2 ) پیدا نشد. سرویس پیش فرض استفاده شدهٔ \" $3 \"",
+	"multimaps-square-wrong-number-points": "مختصات مربع باید شامل فقط دو نقطه باشد، اما {{PLURAL:$1|یک نقطه|$1 نقاط}} تعیین شده",
+	"multimaps-unable-create-element": "بخش نقشهٔ \"$1\" نمی تواند ایجاد شود",
+	"multimaps-unable-parse-coordinates": "قادر به تجزیهٔ‌ مختصات جغرافیایی \"$1\" نیست",
+	"multimaps-unable-parse-parameter": "قادر به تجزیهٔ پارامتر \"$1\" که مقدارش \"$2\" است، نیست",
+	"multimaps-unable-parse-radius": "شعاع دایره باید یک مقدار عددی باشد، اما \"$1\" تعیین شده",
+	"multimaps-unknown-class-for-service": "کلاس \"$1\" که برای سرویس تعریف شده است، نمی‌تواند پیدا شود.",
+	"multimaps-unknown-parameter": "پارامتر ناشناخته: \"$1\"",
+	"multimaps-error-incorrect-class-for-service": "کلاس \"$1\" که برای سرویس تعریف شده‌است، نمی‌تواند استفاده شود.",
+	"multimaps-method-error-unknown-action": "$1: عمل ناشناخته",
+	"multimaps-method-error-unexpected-result": "$1: نتیجهٔ یک عملیات غیرمنتظره"
+}

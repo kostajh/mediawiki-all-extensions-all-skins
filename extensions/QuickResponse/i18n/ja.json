@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"quickresponse-desc": "現在のページの URL を埋め込んだ QR コードを生成する",
+	"quickresponse-text": "QR コード",
+	"quickresponse-tooltip": "現在の URL を埋め込んだ QR コードを生成する",
+	"quickresponse-title": "生成した QR コードはこちらです"
+}

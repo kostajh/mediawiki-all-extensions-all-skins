@@ -1,0 +1,58 @@
+@import 'mediawiki.ui/variables';
+@import 'ext.growthExperiments.variables.less';
+
+.growthexperiments-homepage-module-help {
+	.growthexperiments-homepage-module-header-icon {
+		display: block;
+		align-self: start;
+
+		.oo-ui-iconElement {
+			width: 40px;
+			height: 40px;
+			opacity: 0.65;
+		}
+	}
+
+	.growthexperiments-homepage-module-section-header.growthexperiments-homepage-module-header {
+		display: flex;
+		flex-direction: column;
+
+		.growthexperiments-homepage-module-header-text {
+			align-self: start;
+			padding-top: 24px;
+		}
+	}
+
+	h3.growthexperiments-homepage-module-subheader {
+		font-weight: bold;
+		padding-top: 0;
+	}
+
+	.growthexperiments-homepage-module-body {
+		.mw-ge-help-panel-links {
+			margin-bottom: 1em;
+			line-height: 1.8em;
+
+			li a {
+				margin-left: 0.2em;
+			}
+		}
+	}
+
+	&.growthexperiments-homepage-module-mobile-summary {
+		// Make 'light' text darker against gray background
+		.growthexperiments-homepage-module-text-light {
+			color: @colorGray5;
+		}
+
+		.growthexperiments-homepage-module-section-header {
+			.growthexperiments-homepage-module-header {
+				flex-direction: row;
+			}
+		}
+	}
+}
+
+.growthexperiments-homepage-module-help-mobile-overlay {
+	background-color: unset;
+}

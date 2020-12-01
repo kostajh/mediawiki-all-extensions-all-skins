@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Snævar",
+			"Sveinn í Felli"
+		]
+	},
+	"uploadslink-desc": "Bætir við tengli innsendingarlista núverandi notenda við persónulegu verkfærastikuna og tengli við innsendingarlista viðkomandi notanda í hliðarstikunni.",
+	"uploadslink-portlet-label": "Innsendingar",
+	"tooltip-pt-uploads": "Listi yfir skrár sem þú hefur halið inn",
+	"uploadslink-toobox-label": "Upphöl {{GENDER:$1|notanda}}",
+	"tooltip-tb-uploads": "Listi yfir upphöl frá þessum {{GENDER:$1|notanda}}"
+}

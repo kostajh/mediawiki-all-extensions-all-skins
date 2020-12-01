@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"bs-insertlink-desc": "Caixa de diálogo para inserir uma hiperligação",
+	"prefs-insertlink": "Inserir hiperligação",
+	"bs-insertlink": "Inserir hiperligação",
+	"bs-insertlink-pref-enable-java": "Ativar a <i>applet</i> do Java",
+	"bs-insertlink-button-title": "Inserir/editar hiperligação",
+	"bs-insertlink-dialog-title": "Inserir hiperligação",
+	"bs-insertlink-tab-wiki-page": "Página wiki",
+	"bs-insertlink-tab-ext-link": "Hiperligação externa",
+	"bs-insertlink-tab-email": "Hiperligação para correio eletrónico",
+	"bs-insertlink-tab-file": "Hiperligação para ficheiro",
+	"bs-insertlink-label-page": "Página",
+	"bs-insertlink-label-link": "Hiperligação",
+	"bs-insertlink-label-mail": "Endereço de correio eletrónico",
+	"bs-insertlink-label-description": "Descrição",
+	"bs-insertlink-label-file": "Ficheiro",
+	"bs-insertlink-label-searchfile": "Pesquisar...",
+	"bs-insertlink-select-a-page": "Escolha o destino...",
+	"bs-insertlink-select-a-namespace": "(Páginas)",
+	"bs-insertlink-empty-field-text": "Para inserir uma hiperligação tem de definir o destino.",
+	"bs-insertlink-no-applet": "Não foi possível carregar a <i>applet</i>. Verifique a sua instalação do Java, por favor.",
+	"bs-insertlink-internal-file-link-button-label": "Escolher ficheiro",
+	"bs-insertlink-external-file-switch-label": "Caminho da rede local (URI)",
+	"bs-insertlink-pref-filesystemmap": "Localizações permitidas para ficheiros externos",
+	"bs-insertlink-pref-filesystemmap-fs-prefix": "Prefixo do sistema de ficheiros",
+	"bs-insertlink-pref-filesystemmap-web-prefix": "Prefixo acessível da Internet",
+	"bs-insertlink-pref-allowunmapped": "Permitir hiperligações não mapeadas"
+}

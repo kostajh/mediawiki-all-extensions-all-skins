@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Vlad5250"
+		]
+	},
+	"importfreeimages": "Importovať slobodné obrázky",
+	"importfreeimages-desc": "Umožňuje [[Special:ImportFreeImages|importovanie obrázkov so správnou licenciou]] z [http://www.flickr.com flickr]",
+	"importfreeimages_description": "Táto stránka vám umožní importovať správne licencované obrázky z flickr a importovať ich na vašu wiki.",
+	"importfreeimages_nophotosfound": "Neboli nájdené žiadne obrázky zodpovedajúce vašim kritériám vyhľadávania „$1“. Prosím, skúste to znova.",
+	"importfreeimages_owner": "Autor",
+	"importfreeimages_importthis": "importovať toto",
+	"importfreeimages_next": "Ďalších $1",
+	"importfreeimages_size_square": "Štvorec",
+	"importfreeimages_size_thumbnail": "Náhľad",
+	"importfreeimages_size_small": "Malý",
+	"importfreeimages_size_medium": "Stredne",
+	"importfreeimages_size_large": "Veľký",
+	"importfreeimages_size_original": "Pôvodný"
+}

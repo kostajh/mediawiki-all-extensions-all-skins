@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"חיים"
+		]
+	},
+	"onlinestatusbar-desc": "שורת מצב שמציגה בדף המשתמש אם המשתמש מקוון",
+	"prefs-onlinestatus": "מצב ההימצאות באתר",
+	"onlinestatusbar-used": "להציג לאחרים את מצב ההתחברות שלך",
+	"onlinestatusbar-hide": "להסתיר את שורת המצב כדי להשתמש רק במילת הקסם (למשתמשים מתקדמים)",
+	"onlinestatusbar-away": "להתייחס באופן אוטומטי כאלה \"לא נמצא\" אחרי פרק זמן מוגדר",
+	"onlinestatusbar-purge": "לנקות את המטמון של דף המשתמש בכל פעם שאתם נכנסים או יוצאים",
+	"onlinestatusbar-status": "מהו המצב שתרצו שיהיה פה לפי ברירת המחדל?",
+	"onlinestatusbar-away-time": "אחרי כמה לסמן אותך בתור \"לא נמצא\"?",
+	"onlinestatusbar-title-online": "{{GENDER:$1|מקוון|מקוונת}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|עסוק|עסוקה}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|לא זמין|לא זמינה}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|נסתר|נסתרת}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|לא מקוון|לא מקוונת}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|לא ידוע}}"
+}

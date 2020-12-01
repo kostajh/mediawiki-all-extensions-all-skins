@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"minimumnamelength-desc": "Pozwala wymusić minimalną długość nazwy użytkownika",
+	"minimumnamelength-error": "Twoja nazwa użytkownika jest za krótka. Minimalna długość to  {{PLURAL:$1|jeden znak|$1 znaki|$1 znaków}}."
+}

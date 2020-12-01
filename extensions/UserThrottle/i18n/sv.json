@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"M.M.S."
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "Skapande av konton har automatiskt stängts av under några sekunder för att reducera massregistreringsangrepp.\nVar god vänta en liten stund och tryck på \"uppdatera\" i webbläsaren för att pröva igen.",
+	"userthrottle-desc": "Begränsar antal konton som kan skapas under en tidsperiod"
+}

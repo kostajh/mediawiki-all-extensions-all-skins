@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu"
+		]
+	},
+	"updatemediawiki": "Atualizar MediaWiki",
+	"updatemediawiki-desc": "Permite atualizar o MediaWiki através de uma página especial",
+	"updatemediawiki-current": "Versão atual $1",
+	"updatemediawiki-update-nofound": "Não há nenhuma atualização disponível",
+	"updatemediawiki-update-found": "Foi encontrada uma nova atualização: $1",
+	"updatemediawiki-update-downloading": "A descarregar a nova atualização",
+	"updatemediawiki-update-saved": "A atualização foi transferida e guardada",
+	"updatemediawiki-update-exist": "A atualização já foi transferida",
+	"updatemediawiki-update-copyready": "A cópia está pronta",
+	"updatemediawiki-update-database": "Atualizar a base de dados agora?",
+	"updatemediawiki-update-updateready": "A atualização está pronta",
+	"updatemediawiki-update-install": "Instalar agora?",
+	"updatemediawiki-update-updated": "A versão do MediaWiki foi atualizada para $1",
+	"updatemediawiki-update-error": "Não foi possível encontrar as últimas atualizações",
+	"updatemediawiki-update-aborted": "Não foi possível gravar a nova atualização. A operação foi interrompida"
+}

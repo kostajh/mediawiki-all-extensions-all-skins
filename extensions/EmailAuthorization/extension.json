@@ -1,0 +1,66 @@
+{
+	"name": "Email Authorization",
+	"version": "1.5",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Cindy.cicalese Cindy Cicalese]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Email_Authorization",
+	"descriptionmsg": "emailauthorization-desc",
+	"license-name": "MIT",
+	"requires": {
+		"MediaWiki": ">= 1.32.0",
+		"extensions": {
+			"PluggableAuth": "*"
+		}
+	},
+	"type": "other",
+	"SpecialPages": {
+		"EmailAuthorizationConfig": "EmailAuthorizationConfig",
+		"EmailAuthorizationRequest": "EmailAuthorizationRequest",
+		"EmailAuthorizationApprove": "EmailAuthorizationApprove"
+	},
+	"MessagesDirs": {
+		"EmailAuthorization": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"EmailAuthorizationAlias": "includes/EmailAuthorization.alias.php"
+	},
+	"ResourceModules": {
+		"ext.EmailAuthorization": {
+			"styles": [
+				"EmailAuthorization.css"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "EmailAuthorization/resources"
+	},
+	"AutoloadClasses": {
+		"EmailAuthorization": "includes/EmailAuthorization.php",
+		"EmailAuthorizationHooks": "includes/EmailAuthorizationHooks.php",
+		"EmailAuthorizationConfig": "includes/EmailAuthorizationConfig.php",
+		"EmailAuthorizationRequest": "includes/EmailAuthorizationRequest.php",
+		"EmailAuthorizationApprove": "includes/EmailAuthorizationApprove.php",
+		"EchoEAPresentationModel": "includes/EchoEAPresentationModel.php"
+	},
+	"Hooks": {
+		"PluggableAuthUserAuthorization": [ "EmailAuthorizationHooks::authorize" ],
+		"LoadExtensionSchemaUpdates": [
+			"EmailAuthorizationHooks::loadExtensionSchemaUpdates"
+		],
+		"BeforeCreateEchoEvent": "EmailAuthorizationHooks::onBeforeCreateEchoEvent"
+	},
+	"callback": "EmailAuthorizationHooks::onRegistration",
+	"config": {
+		"EmailAuthorization_EnableRequests": false,
+		"EmailAuthorization_RequestFields": []
+	},
+	"manifest_version": 1
+}

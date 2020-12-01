@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Glanthor Reviol"
+		]
+	},
+	"onlinestatus-desc": "Beállítás, amivel a szerkesztő jelezheti, hogy online van-e egy adott időpontban a wikin.",
+	"onlinestatus-js-anon": "Hiba: be kell jelentkezned a funkció használatához",
+	"onlinestatus-js-changed": "Állapotod megváltoztatva a(z) „$1” értékre",
+	"onlinestatus-js-error": "Nem sikerült megváltoztatni az állapotot, a(z) „$1” érték érvénytelen",
+	"onlinestatus-subtitle-offline": "A szerkesztő nincs wikiközelben",
+	"onlinestatus-subtitle-online": "A szerkesztő jelenleg itt van",
+	"onlinestatus-tab": "Állapot",
+	"onlinestatus-toggles-desc": "Állapotod:",
+	"onlinestatus-toggles-explain": "Lehetővé teszi számodra, hogy a szerkesztői lapodon jelezd más szerkesztők számára, hogy wikiközelben vagy-e vagy sem.",
+	"onlinestatus-toggles-show": "Elérhetőségi állapotom mutatása a szerkesztői lapomon",
+	"onlinestatus-toggle-offline": "Kijelentkezett",
+	"onlinestatus-toggle-online": "Elérhető",
+	"onlinestatus-pref-onlineonlogin": "Változtassa az állapotomat elérhetőre, ha bejelentkezek",
+	"onlinestatus-pref-offlineonlogout": "Kilépéskor változtassa az állapotomat „Kijelentkezett”-re"
+}

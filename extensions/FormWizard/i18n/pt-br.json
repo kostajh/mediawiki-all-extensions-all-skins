@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"formwizard": "Assistente de Formulário",
+	"formwizard-desc": "Permite que você instale e use o Gadget do Assistente de Formulário no Mediawiki.",
+	"formwizard-dialog-label-cancel": "Cancelar",
+	"formwizard-dialog-label-done": "Feito",
+	"formwizard-dialog-label-next": "Próximo",
+	"special-formwizard-intro": "Assistente de Formulário",
+	"special-formwizard-title": "Esta é uma introdução à página especial do Assistente de formulários.",
+	"formwizard-no-subpage-name-alert": "Por favor, diga-nos como nomear sua página",
+	"formwizard-page-edit-summary": "Modificação feita em $1",
+	"formwizard-page-action-complete": "Ação $1 concluída",
+	"formwizard-parser-function-error": "Por favor, verifique os parâmetros de configuração",
+	"formwizard-subpage-request-text": "<strong> Digite o nome da subpágina:</strong>",
+	"formwizard-wrong-config-file-alert": "Por favor, verifique as configurações!"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Martinwiss",
+			"WikiPhoenix"
+		]
+	},
+	"semanticpageseries-desc": "Skapa flera sidor med hjälp av ett formulär som använder [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Form]",
+	"spssuccesstitle": "Skapar $1 sidor",
+	"spssuccess": "{{PLURAL:$1|En sida |$1 sidor}} kommer att skapas.",
+	"spssuccess-returntoorigin": "Återgå till $1",
+	"spserror": "Ett fel har inträffat",
+	"spserror-diffnotsupported": "diff-funktionen kan inte användas för flera sidor samtidigt",
+	"spserror-previewnotsupported": "Förhandsgranskning kan inte användas för flera sidor samtidigt",
+	"spserror-noiteratorname": "Ingen upprepningsparameter angiven. Du måste ange parametern \"iterator\" i funktionen #serieslink.",
+	"spserror-iteratorunknown": "Upprepningsparametern $1 finns inte. Du msåte korrigera parametern \"iterator\" i #serieslink-funktionen.",
+	"spserror-noformname": "Inget formulärnamn gavs. Du måste ange parametern \"form\" i #serieslink-funktionen.",
+	"spserror-formunknown": "Formuläret \"$1\" finns inte.",
+	"spserror-notargetformname": "Inget målformulär angivet. Du parserfunktionen #serieslink måste du ange parametern \"target form\".",
+	"spserror-notargetfieldname": "Inget målformulär angivet. I parserfunktionen #serieslink måste du ange parametern \"target link\".",
+	"spserror-iteratorparammissing": "Följande upprepningsparameter saknas i #serieslink-funktionen: $1",
+	"spserror-noiteratordata": "Ingen upprepnings-parameter hittades de data som skickats.",
+	"spserror-pagegenerationlimitexeeded": "Du försökte skapa {{PLURAL:$1|en sida|$1 sidor}} vilket är mer än den tillåtna gränsen på {{PLURAL:$2|en sida|$2 sidor}}.",
+	"spserror-date-startdatemissing": "Startdatum saknas.",
+	"spserror-date-internalerror": "Ett fel inträffade då vi försökte skapa datumen: $1",
+	"spserror-count-startvaluemalformed": "Startdatumet är inte ett tal.",
+	"spserror-count-endvaluemalformed": "Slutvärdet är inte ett tal.",
+	"spserror-count-stepvaluemalformed": "Intervall-värdet är inte ett tal.",
+	"spserror-count-digitsvaluemalformed": "Siffer-värdet är inte ett tal."
+}

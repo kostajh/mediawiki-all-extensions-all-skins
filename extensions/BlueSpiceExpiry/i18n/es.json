@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agusbou2015",
+			"ArenaL5",
+			"Fitoschido",
+			"Joanmp17",
+			"Suecarmol"
+		]
+	},
+	"expiry": "Caducidad",
+	"prefs-expiry": "Caducidad",
+	"bs-expiry-unexpire-article": "La página caducó",
+	"bs-expiry-do-unexpire-article": "Quitar fecha de caducidad",
+	"bs_expiry-unexpire-success": "Caducidad de la página quitada con éxito",
+	"bs-expiry-header-pagename": "Página",
+	"bs-expiry-header-date": "Caduca el",
+	"bs-expiry-header-comment": "Comentario",
+	"bs-expiry-dialog-title": "Editar expiración",
+	"bs-expiry-date-label": "Caduca el",
+	"bs-expiry-article-label": "Página",
+	"bs-expiry-comment-label": "Comentario",
+	"bs-expiry-delete-error-unknown": "No se pudo eliminar la caducidad.",
+	"bs-expiry-unknown-page-msg": "No existe la página.",
+	"bs-expiry-create-error": "No se pudo crear la caducidad.",
+	"bs-expiry-update-error": "No se pudo actualizar la caducidad.",
+	"bs-expiry-menu-entry-create": "Expiración",
+	"bs-expiry-nav-link-title-expiry": "Caducidad",
+	"bs-expiry-flyout-title": "Caducidad de página",
+	"bs-expiry-flyout-form-title": "Crear una caducidad nueva para esta página",
+	"bs-expiry-flyout-next-comment": "Comentario: $1",
+	"bs-expiry-edit-grid-header-username": "Usuario",
+	"bs-expiry-edit-grid-header-date": "Fecha",
+	"bs-expiry-edit-grid-header-comment": "Comentario",
+	"bs-expiry-flyout-body-hint-expires": "caduca el $1",
+	"bs-expiry-alert-body-expired": "Esta página caducó el $1. Revisa el contenido.",
+	"bs-expiry-pageinfoelement-expired-label": "expirado",
+	"bs-expiry-pageinfoelement-expired-tooltip": "Esta página ha caducado",
+	"apihelp-bs-expiry-tasks-summary": "Brinda tareas tales como editar o eliminar caducidades",
+	"bs-expiry-create-reminder-label": "Crear recordatorio",
+	"bs-expiry-reminder-type-expiry": "Caducidad"
+}

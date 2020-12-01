@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Luky001"
+		]
+	},
+	"duplicator": "Duplikovať stránku",
+	"duplicator-desc": "Vytvorí nezávislé [[Special:Duplicate|kópie stránok]] s úplnou históriou úprav",
+	"duplicator-toolbox": "Duplikovať túto stránku",
+	"duplicator-header": "Táto stránka umožňuje kompletnú duplikáciu stránky, čím sa vytvorí nazávislá kópia všetkých histórií. Je to užitočné napríklad pri vetvení a pod.",
+	"duplicator-options": "Možnosti",
+	"duplicator-source": "Zdroj:",
+	"duplicator-dest": "Cieľ:",
+	"duplicator-dotalk": "Duplikovať aj diskusnú stránku (ak existuje)",
+	"duplicator-submit": "Duplikovať",
+	"duplicator-summary": "Skopírované z [[$1]], revízia [[$2]]",
+	"duplicator-success": "Vytvorená kópia [[$1]] na [[$2]].",
+	"duplicator-success-revisions": "{{PLURAL:$1|Skopírovaná $1 revízia|Skopírované $1 revízie|Skopírovaných $1 revízií}}.",
+	"duplicator-success-talknotcopied": "Nebolo možné skopírovať diskusné stránky.",
+	"duplicator-failed": "Túto stránku nebolo možné duplikovať. Vyskytla sa neznáma chyba.",
+	"duplicator-source-invalid": "Poskytnite platný názov zdrojovej stránky.",
+	"duplicator-source-notexist": "[[$1]] neexistuje. Poskytnite názov zdrojovej stránky, ktorá už existuje.",
+	"duplicator-dest-invalid": "Prosím, zadajte platný názov cieľovej stránky.",
+	"duplicator-dest-exists": "[[$1]] už existuje. Prosím zadajte cieľ, ktorý ešte neexistuje.",
+	"right-duplicate": "Duplicitné stránky"
+}

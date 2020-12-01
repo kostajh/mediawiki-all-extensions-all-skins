@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "生物檢索表產生器與編輯器",
+	"apihelp-query+LifeWeb-description": "用於 LifeBase 的資料下載。",
+	"apihelp-query+LifeWeb-summary": "用於 LifeBase 的資料下載。",
+	"apihelp-query+LifeWeb-param-what": "要檢索的資料清單。",
+	"apihelp-query+LifeWeb-param-clearCache": "在資料檢索期間是否清除快取",
+	"apihelp-query+LifeWeb-example-1": "分類清單",
+	"apihelp-query+LifeWeb-example-2": "美化格式的問題清單"
+}

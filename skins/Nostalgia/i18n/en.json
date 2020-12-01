@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"nostalgia-desc": "A skin to show how Wikipedia looked in 2001",
+	"skinname-nostalgia": "Nostalgia",
+	"nostalgia.css": "/* All CSS here will be loaded for users of the Nostalgia skin */",
+	"nostalgia.js": "/* All JavaScript here will be loaded for users of the Nostalgia skin */",
+	"nostalgia-articlepage": "View content page",
+	"nostalgia-create-this-page": "Create this page",
+	"nostalgia-deletethispage": "Delete this page",
+	"nostalgia-editthispage": "Edit this page",
+	"nostalgia-newmessageslink": "new messages",
+	"nostalgia-newmessagesdifflink": "last change",
+	"nostalgia-projectpage": "View project page",
+	"nostalgia-protectthispage": "Protect this page",
+	"nostalgia-talkpage": "Discuss this page",
+	"nostalgia-unprotectthispage": "Change protection of this page",
+	"nostalgia-userpage": "View user page"
+}

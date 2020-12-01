@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Base"
+		]
+	},
+	"sidebarmenu-desc": "Простий парсер бічного меню, який створює згортабельні/розгортабельні меню і підменю",
+	"sidebarmenu-parser-input-error": "Парсер повернув помилку: $1",
+	"sidebarmenu-parser-syntax-error": "Не вдалося проаналізувати «$1», впевніться, що синтаксис коректний.",
+	"sidebarmenu-js-init-error": "Не вдалось завантажити ресурси JavaScript.",
+	"sidebarmenu-edit": "Редагувати меню",
+	"sidebarmenu-parser-menuitem-expanded-null": "Подано некоректне значення, значення повинне бути одним із: null,true,false.",
+	"sidebarmenu-parser-config-error": "Були знайдені помилки перевірки вхідних параметрів",
+	"sidebarmenu-parser-subpage-error-title-not-found": "Не вдалося знайти заголовок згадуваної підсторінки"
+}

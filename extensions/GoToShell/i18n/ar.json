@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"gotoshell": "الذهاب إلى القشرة",
+	"gotoshell-desc": "يطبق [[Special:GoToShell|صفحة خاصة]] التي تأخذ المستخدم لقشرة وتعيده",
+	"gotoshell-notallowed": "لا يملك حسابك صلاية الذهاب إلى قشرة.",
+	"gotoshell-disabled": "غير قادر على تشغيل البرامج الخارجية; تم تعطيل proc_open().",
+	"gotoshell-command": "الأمر:",
+	"gotoshell-result": "النتيجة:",
+	"action-gotoshell": "تنفيذ أوامر القشرة عبر الصفحة الخاصة الذهاب إلى القشرة",
+	"right-gotoshell": "تنفيذ أوامر القشرة عبر الصفحة الخاصة الذهاب إلى القشرة"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alvaro Vidal-Abarca",
+			"Fitoschido",
+			"Macofe",
+			"Mguix",
+			"QuimGil",
+			"Vriullop"
+		]
+	},
+	"betafeatures-auto-enroll": "Habilita automàticament la majoria de funcions beta",
+	"betafeatures-desc": "Permet a l'usuari activar o desactivar funcionalitats en el wiki que encara no són a punt per a una estrena oficial.",
+	"betafeatures-extension-type": "Funcionalitats beta",
+	"betafeatures-section-desc": "Aquí teniu {{PLURAL:$1|una nova funcionalitat|noves funcionalitats}} que estem considerant per a {{SITENAME}}. Si us plau, proveu-les i compartiu les vostres opinions. Així podrem millorar-les en base als vostres comentaris.",
+	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "Discussió",
+	"mw-ui-feature-info": "Informació",
+	"mw-ui-feature-requirements-betafeatures": "Aquesta funcionalitat requereix {{PLURAL:$1|aquesta altra funcionalitat|aquestes altres funcionalitats}} per a ser activada:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Aquest navegador|Aquests navegadors}} no estan suportats:",
+	"mw-ui-feature-requirements-javascript": "Aquesta funcionalitat requereix JavaScript.",
+	"mw-ui-feature-requirements-skins": "Aquesta funcionalitat només funciona amb {{PLURAL:$1|aquesta plantilla|aquestes plantilles}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Un usuari està|$1 usuaris estan|0=Cap usuari està}} provant aquesta funcionalitat.",
+	"prefs-betafeatures": "Característiques de la beta",
+	"tooltip-pt-betafeatures": "Funcionalitats beta"
+}

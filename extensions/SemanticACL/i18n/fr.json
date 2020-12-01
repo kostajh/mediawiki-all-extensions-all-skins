@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Sherbrooke",
+			"Thibaut120094"
+		]
+	},
+	"sacl-desc": "Gère les restrictions d'accès ''via'' des propriétés de Semantic MediaWiki",
+	"sacl-denied": "Vous n'êtes pas sur la liste d'accès pour cette page.",
+	"action-sacl-exempt": "dispenser des ACL sémantiques",
+	"right-sacl-exempt": "Exempté de la liste d'accès de Semantic MediaWiki",
+	"action-view-non-categorized-media": "autorisé à afficher les fichiers de média sans catégorie",
+	"right-view-non-categorized-media": "Autorisé à afficher les fichiers de média sans catégorie",
+	"sacl-property-visibility": "Visible à",
+	"sacl-property-visibility-wl-group": "Visible pour les groupes",
+	"sacl-property-visibility-wl-user": "Visible pour l'utilisateur",
+	"sacl-property-editable": "Modifiable par",
+	"sacl-property-editable-wl-group": "Modifiable par le groupe",
+	"sacl-property-editable-wl-user": "Modifiable par l'utilisateur",
+	"sacl-template-render-denied-anonymous": "<div class=\"errorbox\">Vous devez vous [[Special:UserLogin|connecter]] pour voir ce modèle.</div>",
+	"sacl-template-render-denied-registered": "<div class=\"errorbox\">Vous n’avez pas les permissions requises pour voir ce modèle.</div>",
+	"sacl-key-too-short": "La clé doit faire plus de six caractères de long.",
+	"sacl-private-links-disabled": "Liens_privés_désactivés_par_votre_administrateur"
+}

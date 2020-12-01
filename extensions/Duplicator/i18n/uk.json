@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Prima klasy4na",
+			"Vlad5250",
+			"Ата"
+		]
+	},
+	"duplicator": "Дублювати сторінку",
+	"duplicator-desc": "Створює незалежні [[Special:Duplicate|копії сторінок]] з повними історіями редагувань",
+	"duplicator-toolbox": "Дублювати цю сторінку",
+	"duplicator-header": "Ця сторінка дозволяє повністю дублювати сторінку зі створенням незалежних копій усіх історій.\nЦе корисно при розділенні статей тощо.",
+	"duplicator-options": "Параметри",
+	"duplicator-source": "Джерело:",
+	"duplicator-dest": "Куди:",
+	"duplicator-dotalk": "Дублювати сторінку обговорення (за можливості)",
+	"duplicator-dosubpages": "Дублювати підсторінки (якщо є)",
+	"duplicator-dohistory": "Дублювати всю сторінку історії",
+	"duplicator-submit": "Дублювати",
+	"duplicator-summary": "Скопійовано з [[$1]], перевірка [[$2]]",
+	"duplicator-success": "<big>'''[[$1]] було скопійовано до [[$2]].'''</big>",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|версія|версії|версій}} скопійовано.",
+	"duplicator-success-talknotcopied": "Сторінку обговорення не було скопійовано.",
+	"duplicator-failed": "Сторінку не можна дублювати.\nСталася невідома помилка.",
+	"duplicator-failed-toolong": "[[$1]] не дубльоване. Новий заголовок задовгий.",
+	"duplicator-failed-dest-exists": "[[$1]] не дубльоване. Ціль [[$2]] вже існує.",
+	"duplicator-source-invalid": "Будь ласка, вкажіть дійсну назву джерела.",
+	"duplicator-source-notexist": "«[[$1]]» не існує. Будь ласка, вкажіть назву сторінки, що існує.",
+	"duplicator-dest-invalid": "Будь ласка, вкажіть дійсну назву сторінки-призначення.",
+	"duplicator-dest-exists": "«[[$1]]» уже існує. Будь ласка, вкажіть назву сторінки-призначення, яка не існує.",
+	"action-duplicate": "дублювання сторінок",
+	"right-duplicate": "Дублювання сторінок"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"apihelp-parsoid-batch-summary": "API de traballo por lotes para Parsoid",
+	"apihelp-parsoid-batch-param-batch": "Petións da API Action (máximo 500 por consulta).",
+	"apierror-parsoid-batch-notallowed": "A dirección IP do cliente non figura en ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "Batch incorrecto, debe ser unha matriz.",
+	"apierror-parsoid-batch-batchtoolarge": "Batch demasiado longo, o límite é de 500.",
+	"apierror-parsoid-batch-invalidaction": "Acción incorrecta no elemento de índice $1.",
+	"apierror-parsoid-batch-texttoobig": "O texto introducido excede o tamaño máximo dunha páxina.",
+	"apierror-parsoid-batch-invalidtitle": "Título non válido ($1).",
+	"apierror-parsoid-batch-mustbescalar": "O parámetro <var>$1</var> debe ser un escalar.",
+	"apierror-parsoid-batch-mustbearray": "O parámetro <var>$1</var> debe ser unha matriz."
+}

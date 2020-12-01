@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"pageexchange-desc": "Овозможува воспоставка на „пакети“ од предодредени викистраници",
+	"packages": "Пакети",
+	"right-pageexchange": "Спроведување на дејства со Размена на страници",
+	"action-pageexchange": "спроведување на дејства со Размена на страници",
+	"pageexchange-logname": "Дневник на Размена на страници",
+	"pageexchange-logdesc": "Ова е дневникот на дејства поврзани со додатокот Размена на страници.",
+	"pageexchange-installed": "Воспоставени",
+	"pageexchange-available": "Достапни",
+	"pageexchange-installpackage": "Воспоставка на пакетот: $1",
+	"pageexchange-updatepackage": "Поднова на пакетот: $1",
+	"pageexchange-uninstallpackage": "Отстранување на пакетот: $1",
+	"pageexchange-installpackagelog": "воспоставен пакетот $2, од $3",
+	"pageexchange-updatepackagelog": "подновен пакетот $2, од $3",
+	"pageexchange-uninstallpackagelog": "отстранет пакетот $2, од $3",
+	"pageexchange-package-website": "Мрежно место:",
+	"pageexchange-package-publisher": "Издавач:",
+	"pageexchange-package-author": "Автор:",
+	"pageexchange-package-version": "Верзија:",
+	"pageexchange-package-pages": "Страници:",
+	"pageexchange-package-language": "Јазик:",
+	"pageexchange-package-requiredextensions": "Потребни додатоци:",
+	"pageexchange-package-requiredpackages": "Потребни пакети:",
+	"pageexchange-package-morerecent": "Постои понова верзија на овој пакет отколку тековно вопоставената на ова вики.",
+	"pageexchange-package-install": "Воспостави",
+	"pageexchange-package-update": "Поднови",
+	"pageexchange-package-uninstall": "Отстрани",
+	"pageexchange-package-deleteallpages": "Избриши ги сите поврзани викистраници",
+	"pageexchange-pagehaschanged": "последната верзија на страницава се разликува од месниот примерок.",
+	"pageexchange-latestvalue": "(најнова вредност: $1)",
+	"pageexchange-uninstallablepackage": "Овој пакет не може да се воспостави од следниве причини:",
+	"pageexchange-inappropriatepackage": "Овој пакет може да не е соодветен за вашето вики. Погледајте подолу.",
+	"pageexchange-packageinstalled": "Овој пакет е воспоствен.",
+	"pageexchange-packageuninstalled": "Овој пакет е отстранет.",
+	"pageexchange-packageupdated": "Овој пакет е подновен."
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Hamilton Abreu",
+			"He7d3r",
+			"Helder.wiki",
+			"Opraco",
+			"Vitorvicentevalente"
+		]
+	},
+	"geodata-desc": "Adiciona a funcionalidade de armazenamento e obtenção de coordenadas geográficas",
+	"geodata-bad-input": "Foram passados argumentos inválidos à função <nowiki>{{#coordinates:}}</nowiki>",
+	"geodata-bad-latitude": "<nowiki>{{#coordinates:}}</nowiki>: latitude inválida",
+	"geodata-bad-longitude": "<nowiki>{{#coordinates:}}</nowiki>: longitude inválida",
+	"geodata-bad-type": "<nowiki>{{#coordinates:}}</nowiki>: tipo não reconhecido \"$1\"",
+	"geodata-bad-globe": "<nowiki>{{#coordinates:}}</nowiki>: globo não reconhecido \"$1\"",
+	"geodata-bad-region": "<nowiki>{{#coordinates:}}</nowiki>: formato do código de região inválido",
+	"geodata-multiple-primary": "<nowiki>{{#coordinates:}}</nowiki>: não pode ter mais do que uma etiqueta primária por página",
+	"geodata-limit-exceeded": "Foi excedido o limite de $1 <nowiki>{{#coordinates:}}</nowiki> {{PLURAL:$1|etiqueta|etiquetas}} por página",
+	"geodata-broken-tags-category": "Páginas com as etiquetas de coordenadas malformadas",
+	"geodata-broken-tags-category-desc": "A página tem uma etiqueta <code><nowiki>{{#coordinates:}}</nowiki></code> malformada.",
+	"geodata-unknown-type-category": "Páginas com um tipo desconhecido de coordenadas",
+	"geodata-unknown-type-category-desc": "A página usa como coordenadas um valor desconhecido do parâmetro <code>type</code>.",
+	"geodata-unknown-globe-category": "Páginas com um valor de globo desconhecido",
+	"geodata-unknown-globe-category-desc": "A página usa como coordenadas um valor desconhecido do parâmetro <code>globe</code>.",
+	"geodata-unknown-region-category": "Páginas com um valor de região inválido",
+	"geodata-unknown-region-category-desc": "A página usa como coordenadas um valor desconhecido do parâmetro <code>region</code>.",
+	"geodata-api-help-coordinates-format": "Formato: latitude e longitude separadas por uma barra vertical (<kbd>|</kbd>).",
+	"geodata-search-feature-invalid-coordinates": "Não foi possível analisar as coordenadas geográficas '$2' fornecidas a '$1'.",
+	"geodata-search-feature-invalid-distance": "Não foi possível analisar a distância geográfica '$2' fornecida a '$1'.",
+	"geodata-search-feature-unknown-title": "O título '$2' fornecido a '$1' não existe.",
+	"geodata-search-feature-title-no-coordinates": "O título '$2' fornecido a '$1' não tem quaisquer coordenadas.",
+	"geodata-search-timeout": "O tempo disponível para a pesquisa de coordenadas geográficas esgotou-se. Só estão disponíveis resultados parciais."
+}

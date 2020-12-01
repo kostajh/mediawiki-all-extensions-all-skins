@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"noteslink-desc": "Adiciona a etiqueta <code><nowiki><NDL></NDL></nowiki></code>, que permite renderizar o código \"Notes Data Link\" (NDL) como um link acessível pela web"
+}

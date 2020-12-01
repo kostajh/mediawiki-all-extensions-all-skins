@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"列维劳德"
+		]
+	},
+	"dynamicpagelistengine-desc": "提供动态页面列表，为[[mw:Special:MyLanguage/Extension:Scribunto|模块]]及其他扩展提供可配置和可扩展功能",
+	"dple-tracking-category": "使用动态页面列表引擎的页面",
+	"dple-error-invalid-ns-index": "动态页面列表引擎错误：没有索引为$1的名字空间。",
+	"dple-error-no-criteria": "动态页面列表引擎错误：没有指定选项标准。",
+	"dple-error-too-expensive": "动态页面列表引擎错误：尝试执行$1个加入的数据库表高开销查询，而最多允许$2个。",
+	"dple-error-too-many-expensive-functions": "动态页面列表引擎错误：此页面使用了太多高开销函数。"
+}

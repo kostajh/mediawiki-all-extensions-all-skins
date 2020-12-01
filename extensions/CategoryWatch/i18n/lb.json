@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"categorywatch-desc": "Erweidert d'Fonctionalitéite vun der Iwwerwwaachungslëscht op d'Notifikatioun iwwer déi Säiten, déi an der iwwerwaachter Kategorie dra sinn.",
+	"categorywatch-emailsubject": "Aktivitéit an der iwwerwaachter Kategorie \"$1\"",
+	"categorywatch-catmovein": "$1 aus der Kategorie $3 an d'Kategorie $2 geréckelt huet",
+	"categorywatch-catmoveout": "$1 aus der Kategorie $2 an d'Kategorie $3 geréckelt huet",
+	"categorywatch-catadd": "$1 an d'Kategorie $2 dobäigesat huet",
+	"categorywatch-catsub": "$1 aus der Kategorie $2 erausgeholl huet",
+	"categorywatch-autocat": "Automatesch iwwerwaacht vum $1",
+	"categorywatch-notification-link": "Kategorie: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] huet [[:$3|$4]] dobäigesat",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] huet [[:$3|$3]] bäi [[:$4|$4]] dobäigesat",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] aus [[:$5|$6]] ewechgeholl",
+	"categorywatch-notification-bundle": "$1 Ännerunge an der Kategorisatioun op {{SITENAME}}",
+	"categorywatch-add-title": "Titel dee bäi eng iwwerwaacht Kategorie dobäigesat gëtt",
+	"categorywatch-remove-title": "Titel aus der iwwerwaachter Kategorie ewechgeholl",
+	"echo-category-title-categorywatch": "iwwerwaacht Kategorie",
+	"echo-pref-tooltip-categorywatch": "Mech informéiere wann een eng Säit an eng Kategorie drasetzt oder eraushëlt, déi ech iwwerwaachen."
+}

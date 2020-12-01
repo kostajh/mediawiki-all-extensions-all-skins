@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Mizusumashi",
+			"Shirayuki"
+		]
+	},
+	"mediafunctions-desc": "メディアファイルに関する情報を取得するパーサー関数",
+	"mediafunctions-invalid-title": "「$1」は有効なページ名ではありません",
+	"mediafunctions-not-exist": "「$1」は存在しません"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sfic"
+		]
+	},
+	"emailauthorization-config-label-email": "ईमेल",
+	"emailauthorization-config-label-username": "सदस्यनाम",
+	"emailauthorization-config-label-realname": "वास्तविक नाम",
+	"emailauthorization-config-label-userpage": "सदस्य पृष्ठ",
+	"emailauthorization-config-value-yes": "हाँ",
+	"emailauthorization-config-value-no": "नहीं",
+	"emailauthorization-config-button-next": "अगला",
+	"emailauthorization-config-button-previous": "पिछला",
+	"emailauthorization-config-button-search": "खोजें",
+	"emailauthorization-config-button-add": "जोड़ें"
+}

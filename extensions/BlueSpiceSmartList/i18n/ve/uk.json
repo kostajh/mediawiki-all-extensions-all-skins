@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"bs-smartlist-ve-smartlist-title": "SmartList",
+	"bs-smartlist-ve-smartlistinspector-count": "Кількість",
+	"bs-smartlist-ve-smartlistinspector-ns": "Простори назв",
+	"bs-smartlist-ve-smartlistinspector-cat": "Категорія",
+	"bs-smartlist-ve-smartlistinspector-minor": "Показувати незначні редагування",
+	"bs-smartlist-ve-smartlistinspector-catmode": "Режим категорії",
+	"bs-smartlist-ve-smartlistinspector-period": "Період",
+	"bs-smartlist-ve-smartlistinspector-new": "Показувати лише нові статті",
+	"bs-smartlist-ve-smartlistinspector-heading": "Заголовок",
+	"bs-smartlist-ve-smartlistinspector-trim": "Скоротити",
+	"bs-smartlist-ve-smartlistinspector-showtext": "Показати текст",
+	"bs-smartlist-ve-smartlistinspector-trimtext": "Скоротити текст",
+	"bs-smartlist-ve-smartlistinspector-sort": "Сортувати за",
+	"bs-smartlist-ve-smartlistinspector-order": "Порядок сортування",
+	"bs-smartlist-ve-smartlistinspector-showns": "Показати простори назв",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "Кількість із текстом",
+	"bs-smartlist-ve-smartlistinspector-meta": "Мета",
+	"bs-smartlist-ve-smartlistinspector-target": "Ціль",
+	"bs-smartlist-ve-smartlistinspector-excludens": "Виключити простори назв",
+	"bs-smartlist-ve-period-day-label": "День",
+	"bs-smartlist-ve-period-week-label": "Тиждень",
+	"bs-smartlist-ve-period-month-label": "Місяць",
+	"bs-smartlist-ve-sort-time-label": "Час",
+	"bs-smartlist-ve-sort-title-label": "Назва",
+	"bs-smartlist-ve-newbies-title": "Новачки",
+	"bs-smartlist-ve-newbiesinspector-count": "Кількість",
+	"bs-smartlist-ve-toplist-title": "TopList",
+	"bs-smartlist-ve-toplistinspector-count": "Кількість",
+	"bs-smartlist-ve-toplistinspector-ns": "Простори назв",
+	"bs-smartlist-ve-toplistinspector-cat": "Категорія",
+	"bs-smartlist-ve-toplistinspector-period": "Період",
+	"bs-smartlist-ve-toplistinspector-portletperiod": "Період портлета",
+	"bs-smartlist-ve-mode-recentchanges-label": "Нещодавні зміни",
+	"bs-smartlist-ve-mode-changesofweek-label": "Зміни за тиждень"
+}

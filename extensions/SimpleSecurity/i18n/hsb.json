@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"security": "Wěstotny protokol",
+	"security-desc": "Rozšěrja nastawkowy škit MediaWiki wo móžnosć wobhladanje nastawkoweho wobsaha wobmjezować",
+	"security-logpage": "Wěstotny protokol",
+	"security-logpagetext": "To je protokol akcijow zablokowanych přez [https://www.mediawiki.org/wiki/Extension:SimpleSecurity rozšěrjenje Simple Security].",
+	"badaccess-read": "Warnowanje: Na \"$1 so tu poćahuje, ale nimaš prawa, zo by přistup na njón měł.",
+	"security-info": "Su $1 wo tutym nastawku",
+	"security-info-toggle": "wěstotne wobmjezowanja",
+	"security-inforestrict": "$1 je na $2 wobmjezowany",
+	"security-desc-LS": "(nałožuje so, dokelž tuta strona je w \"$2 $1\")",
+	"security-desc-PR": "(ze \"škitoweho rajtarka\" stajeny)",
+	"security-infosysops": "Njejsu wobmjezowanja, dokelž sy čłon skupiny \"administratorow\"",
+	"security-manygroups": "skupinje $1 a $2",
+	"security-unchain": "Akcije jednotliwje změnić",
+	"security-type-category": "kategorija",
+	"security-type-namespace": "mjenowy rum",
+	"security-restricttogroup": "Přistup na wobsah je za čłonow wot \"$1\" wobmjezowany",
+	"restriction-read": "Čitać"
+}

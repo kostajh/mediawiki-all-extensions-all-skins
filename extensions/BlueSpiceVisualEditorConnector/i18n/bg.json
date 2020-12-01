@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg",
+			"Ted Masters"
+		]
+	},
+	"bs-visualeditorconnector-desc": "Свързва BlueSpice с визуалния редактор",
+	"bs-visualeditorconnector-enable-visualeditor": "Включва визуалния редактор за BlueSpace разширенията",
+	"bs-visualeditorconnector-cancel-edit": "Отказ на редакцията",
+	"bs-visualeditor-nsm-label": "Визуален редактор",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Общи",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Разширени",
+	"bs-vec-dialog-action-safe": "Отказ"
+}

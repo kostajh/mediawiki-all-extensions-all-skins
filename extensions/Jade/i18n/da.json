@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Christian List",
+			"Saederup92"
+		]
+	},
+	"jade-damaging-scale-true-label": "Skadelig",
+	"jade-damaging-scale-false-label": "Ikke skadelig",
+	"jade-goodfaith-scale-true-label": "God hensigt",
+	"jade-goodfaith-scale-false-label": "Ond hensigt",
+	"jade-contentquality-scale-3-label": "C-klasse artikel",
+	"jade-contentquality-scale-4-label": "B-klasse artikel",
+	"jade-contentquality-scale-5-label": "God artikel",
+	"jade-contentquality-scale-6-label": "Fremhævet artikel",
+	"jade-contentquality-generic": "Indholds kvalitet \"$1\"",
+	"jade-delete": "Slet",
+	"jade-user-ip-invalid": "IP-adressen ''$1'' er ugyldig.",
+	"jade-cannot-edit-page": "Du kan ikke redigere denne side.",
+	"jade-db-error": "Databasefejl: $1",
+	"jade-user": "Bruger",
+	"jade-by-ip-address-comment": "af [[Special:Contributions/$1|$1]]",
+	"jade-by-id-number-comment": "af [[User:$1|$1]]",
+	"jade-rcfilters-group-whats-this-link-text": "Lær mere",
+	"prefs-betafeatures": "Betafunktioner"
+}

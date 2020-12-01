@@ -1,0 +1,145 @@
+@import 'mediawiki.mixins';
+@import 'variables.less';
+
+// To hide objects, but keep them accessible for screen-readers
+.hidden() {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+.dropdown() {
+	position: relative;
+
+	> div {
+		.hidden();
+		.nav();
+	}
+
+	.client-nojs &:hover div,
+	&.dropdown-active div {
+		left: unset;
+		right: 0;
+		top: 2em;
+		z-index: 10;
+	}
+}
+
+.dropdown-header() {
+	cursor: pointer;
+	padding-bottom: 0.5em;
+	margin-bottom: -0.5em;
+}
+
+.header-header() {
+	color: @grey3;
+	font-variant: small-caps;
+	font-weight: normal;
+	text-shadow: 0 -1px 0 @grey6, 0 -0.5px 0 @grey6, 0 -0.25px 0 @grey6,  // Avoid visible gaps on HiDPI
+		0 1px 0 @grey0,
+		0 2px 2px @grey0;
+
+	&:hover {
+		color: @grey5;
+	}
+}
+
+.header-header-dropdown() {
+	.dropdown-header();
+	.header-header();
+	font-family: @fonts-header;
+
+	&:before {
+		content: '';
+		display: inline-block;
+		width: 12px;
+		height: 18px;
+		margin: -7px 0;
+		background-image: url( images/arrow-down-header.svg );
+	}
+}
+
+.line() {
+	background-image: url( images/hr.svg );
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+}
+
+.box() {
+	.box-shadow( 0 1px 5px 1px rgba( 0, 0, 0, 0.25 ) );
+	background: rgba( 255, 255, 255, 0.45 );
+	padding: 0.5em;
+	.box-sizing( border-box );
+	text-shadow: 0 -1px 0 #fff;
+}
+
+.unbox() {
+	.box-shadow( unset );
+	background: transparent;
+	padding: 0;
+}
+
+.nav() {
+	.box();
+	background: rgba( 255, 255, 255, 0.9 );
+	// What could they possibly do...
+	display: inline-block;
+	.box-shadow( 0px 4px 7px rgba( 0, 0, 0, 0.25 ) );
+	padding-right: 1em;
+	font-family: @fonts-main;
+	min-width: 10em;
+
+	ul {
+		margin: 1.125em 1.125em 1.5em;
+		padding-left: 1em;
+	}
+
+	li {
+		margin: 0.5em 0;
+
+	}
+
+	a {
+		display: block;
+		color: @grey1;
+
+		&:hover {
+			color: @grey0;
+		}
+	}
+
+	.windows-fonts & {
+		font-family: @fonts-main-windows;
+	}
+
+	h3 {
+		font-weight: normal;
+		font-variant: small-caps;
+		text-shadow: 0 -1px 0 @grey6, 0 1px 1px @grey2;
+		color: @red-dark;
+		font-family: @fonts-main;
+		font-size: 115%;
+		margin: 0.75em 0.5em 1em 0.75em;
+		.line();
+		padding: 0 0 0.125em;
+		background-position: right bottom;
+	}
+}
+
+.icon( @icon: '' ) {
+	/* @embed */
+	background-image: url( '@{icon}.svg' );
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: inline-block;
+	opacity: 0.9;
+	height: 22px;
+	position: relative;
+	top: -2px;
+}
+
+.icon-only() {
+	width: 22px;
+	text-indent: -9999px;
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"performanceinspector-pref-label": "Aktivera prestandainspektorn",
+	"performanceinspector-pref-help": "Samlar in prestandarelaterad information för aktuell sida och kungör den via en länk i sidofältet. Endast tillgänglig i huvudnamnrymden."
+}

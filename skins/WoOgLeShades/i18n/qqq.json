@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [ "..." ]
+	},
+	"skinname-woogleshades": "{{optional}}",
+	"woogleshades-desc": "{{desc|what=skin|name=WoOgLeShades|url=https://www.mediawiki.org/wiki/Skin:WoOgLeShades}}",
+	"woogleshades-userpage": "User page/profile link label in the personal menu\n{{Identical|User page}}\nParameters:\n* $1 - username, used for GENDER",
+	"woogleshades-talkpage": "Talk page link label in the personal menu.\nParameters:\n* $1 - username, used for GENDER",
+	"woogleshades-loggedinas": "{{ignore}}\nHeader for logged in user menu",
+	"woogleshades-notloggedin": "Header for anonymous user menu",
+	"content-footer": "{{ignore}}\nOptional footer content to display after the page content.",
+	"global-links": "Header for custom corner navigation menu, probably containing global links"
+}

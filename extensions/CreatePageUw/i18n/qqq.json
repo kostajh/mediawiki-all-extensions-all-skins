@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Darth Kule",
+			"Fryed-peach",
+			"Purodha",
+			"Siebrand"
+		]
+	},
+	"createpage": "Name of special page [[Special:CreatePage]] in [[Special:SpecialPages]] and its title.\n{{Identical|Createpage}}",
+	"uwcreatepage-desc": "{{desc}}",
+	"createpage-instructions": "Used as label on Special:CreatePage",
+	"createpage-titleexists": "Used as message on Special:CreatePage",
+	"createpage-tryagain": "Used as link text for an url on Special:CreatePage",
+	"createpage-editexisting": "Used as link text for edit url on Special:CreatePage"
+}

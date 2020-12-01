@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tyler Romeo"
+		]
+	},
+	"securesessions-desc": "Makes user sessions and session authentication more secure",
+	"securesessions-personalurl": "Open sessions ($1)",
+	"securesessions-ipsession": "Log out all other sessions.",
+	"securesessions-iprestrict": "Restrict session to this IP address,",
+	"securesessions-uarestrict": "Restrict session to this browser.",
+	"securesessions-sessions": "Sessions",
+	"securesessions-sessions-legend": "Session information",
+	"securesessions-sessions-text": "Below is all of the open sessions for your account and information about them. You can close all other sessions using the button below. An asterisk (*) denotes the current session.",
+	"securesessions-sessions-ip": "IP address:",
+	"securesessions-sessions-activity": "Last activity:",
+	"securesessions-sessions-clear": "Sign out all other sessions",
+	"securesessions-prefs-country": "Restrict login by country:",
+	"securesessions-prefs-tor": "Disallow logins from Tor exit nodes.",
+	"securesessions-disallowedcountry": "This account is not allowed to log in from this country.",
+	"securesessions-disallowedtor": "This account is not allowed to log in from Tor exit nodes."
+}

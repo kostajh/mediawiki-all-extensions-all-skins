@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil",
+			"Patriccck"
+		]
+	},
+	"bs-interwikilinks-desc": "Administrační rozhraní pro přidávání, editování a mazání odkazů na interwiki",
+	"bs-interwikilinks-invalid-pfx-spc": "Prefix je neplatný. Nepoužívejte mezery.",
+	"bs-interwikilinks-invalid-url-spc": "Adresa URL je neplatná. Nepoužívejte mezery.",
+	"bs-interwikilinks-label": "Interwiki odkazy",
+	"bs-interwikilinks-link-created": "Byl vytvořen odkaz na interwiki.",
+	"bs-interwikilinks-link-added": "Byl přidán odkaz interwiki.",
+	"bs-interwikilinks-link-deleted": "Odkaz na interwiki byl smazán.",
+	"bs-interwikilinks-nooldpfx": "Předchozí prefix nebyl nalezen.",
+	"bs-interwikilinks-nopfx": "Uveďte předponu.",
+	"bs-interwikilinks-nourl": "Uveďte prosím adresu URL.",
+	"bs-interwikilinks-pfxtoolong": "Prefix je příliš dlouhý. Používejte maximálně 32 znaků.",
+	"bs-interwikilinks-pfxexists": "Tento prefix již existuje.",
+	"bs-interwikilinks-headerprefix": "Prefix",
+	"bs-interwikilinks-titleaddinterwikilink": "Přidat interwiki odkaz",
+	"bs-interwikilinks-titleeditinterwikilink": "Editovat interwiki odkaz",
+	"bs-interwikilinks-labelprefix": "Prefix",
+	"bs-interwikilinks-titledeleteinterwikilink": "Smazat interwiki odkaz",
+	"bs-interwikilinks-confirmdeleteinterwikilink": "Opravdu chcete smazat tento interwiki odkaz?",
+	"bs-interwikilinks-insertlink-tabtitle": "Odkaz do jiné wiki",
+	"bs-interwikilinks-insertlink-labelprefix": "Prefix",
+	"bs-interwikilink-select-a-prefix": "Vybrat prefix",
+	"bs-interwikilinks-link-edited": "Odkaz na interwiki byl upraven",
+	"apihelp-bs-interwikilinks-tasks-description": "Poskytuje úlohy pro rozšíření rozhraní InterWiki.",
+	"apihelp-bs-interwikilinks-tasks-summary": "Poskytuje úlohy pro rozšíření rozhraní InterWiki.",
+	"action-interwikilinks-viewspecialpage": "prohlížet si speciální stránku „{{int:bs-interwikilinks-label}}“",
+	"interwikilinks": "Interwiki odkazy"
+}

@@ -1,0 +1,90 @@
+{
+	"name": "WikiForum",
+	"version": "2.6.0",
+	"author": [
+		"Michael Chlebek",
+		"Jack Phoenix",
+		"Adam Carter (UltrasonicNXT)"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WikiForum",
+	"descriptionmsg": "wikiforum-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"GroupPermissions": {
+		"forumadmin": {
+			"wikiforum-admin": true,
+			"wikiforum-moderator": true
+		},
+		"sysop": {
+			"wikiforum-admin": true,
+			"wikiforum-moderator": true
+		}
+	},
+	"AddGroups": {
+		"bureaucrat": [
+			"forumadmin"
+		]
+	},
+	"RemoveGroups": {
+		"bureaucrat": [
+			"forumadmin"
+		]
+	},
+	"AvailableRights": [
+		"wikiforum-admin",
+		"wikiforum-moderator"
+	],
+	"SpecialPages": {
+		"WikiForum": "SpecialWikiForum"
+	},
+	"LogTypes": [
+		"forum"
+	],
+	"LogActionsHandlers": {
+		"forum/*": "WikitextLogFormatter"
+	},
+	"MessagesDirs": {
+		"WikiForum": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"WikiForumAlias": "includes/WikiForum.i18n.alias.php"
+	},
+	"AutoloadClasses": {
+		"MigrateOldWikiForumTimestampColumnToNew": "maintenance/migrateOldWikiForumTimestampColumnToNew.php",
+		"MigrateOldWikiForumUserColumnsToActor": "maintenance/migrateOldWikiForumUserColumnsToActor.php",
+		"WikiForumHooks": "includes/WikiForumHooks.php",
+		"WikiForumGui": "includes/WikiForumGui.php",
+		"WikiForum": "includes/WikiForum.php",
+		"SpecialWikiForum": "includes/specials/SpecialWikiForum.php",
+		"WFReply": "includes/WFReply.php",
+		"WFThread": "includes/WFThread.php",
+		"WFForum": "includes/WFForum.php",
+		"WFCategory": "includes/WFCategory.php"
+	},
+	"ResourceModules": {
+		"ext.wikiForum": {
+			"styles": "resources/css/styles.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "WikiForum"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "WikiForumHooks::registerParserHooks",
+		"LoadExtensionSchemaUpdates": "WikiForumHooks::onLoadExtensionSchemaUpdates"
+	},
+	"CaptchaTriggers": {
+		"wikiforum": true
+	},
+	"config": {
+		"WikiForumAllowAnonymous": true,
+		"WikiForumLogInRC": true
+	},
+	"manifest_version": 1
+}

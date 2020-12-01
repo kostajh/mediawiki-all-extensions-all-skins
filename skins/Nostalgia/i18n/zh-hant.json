@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226",
+			"Sunny00217",
+			"Winston Sung"
+		]
+	},
+	"nostalgia-desc": "顯示 2001 年時維基百科外觀的佈景主題",
+	"skinname-nostalgia": "懷舊",
+	"nostalgia.css": "/* 这里放置的CSS将影响使用怀旧皮肤的用户 / 此處的 CSS 將影響使用懷舊面板的用戶 */",
+	"nostalgia.js": "/* 此處的JavaScript將載入於使用懷舊面板的用戶 */",
+	"nostalgia-articlepage": "檢視內容頁面",
+	"nostalgia-create-this-page": "建立此頁面",
+	"nostalgia-deletethispage": "刪除此頁面",
+	"nostalgia-editthispage": "編輯此頁面",
+	"nostalgia-newmessageslink": "新訊息",
+	"nostalgia-newmessagesdifflink": "最新變更",
+	"nostalgia-projectpage": "檢視專案頁面",
+	"nostalgia-protectthispage": "保護此頁面",
+	"nostalgia-talkpage": "討論此頁面",
+	"nostalgia-unprotectthispage": "變更此頁面的保護",
+	"nostalgia-userpage": "檢視使用者頁面"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"gae-desc": "GoogleAppEngine тӀехь болх беш йолу вики дика йо.",
+	"apihelp-gaejobqueue-description": "JobQueue болх баран чоьхьара API модуль. Арахьа лело магийна дац.",
+	"apihelp-gaejobqueue-summary": "JobQueue йолаяллитаран чоьхьара API модуль. Арахьа лело магийна дац.",
+	"apihelp-gaejobqueue-param-namespace": "ЦӀерийн меттигийн терахьийн идентификатор.",
+	"apihelp-gaejobqueue-param-titletext": "Кортан чулацам меттигийн цӀерш йоцуш.",
+	"apihelp-gaejobqueue-param-type": "ТӀедилларан тайпа.",
+	"apihelp-gaejobqueue-param-params": "ТӀедилларан параметраш PHP форматехь."
+}

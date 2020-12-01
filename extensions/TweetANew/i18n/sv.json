@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"tweetanew-desc": "Twittrar när en sida skapas eller redigeras, beroende på de angivna inställningarna för hela wikin; antingen automatiskt eller från redigeringssidan.",
+	"tweetanew-newaction": "Twittra om denna nya sida",
+	"tweetanew-newtooltip": "Skicka information om denna nya sida till Twitter",
+	"tweetanew-editaction": "Twittra om denna redigering",
+	"tweetanew-edittooltip": "Skicka information om denna redigering till Twitter",
+	"tweetanew-minoredit": "m",
+	"tweetanew-authorcredit": "av",
+	"tweetanew-newdefault": "NY SIDA: $1 - $2",
+	"tweetanew-new1": "Ser ut som $1 skapades på $2",
+	"tweetanew-new2": "$1 skapades nyligen på $2",
+	"tweetanew-new3": "Spana in $2 - den har en ny sida på $1",
+	"tweetanew-editdefault": "UPPDATERAD SIDA: $1 - $2",
+	"tweetanew-edit1": "Ser ut som $1 uppdaterades på $2",
+	"tweetanew-edit2": "$1 ändrades nyligen på $2",
+	"tweetanew-edit3": "Spana in $2 - den har lite nytt innehåll på $1"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alan ffm",
+			"Chrumps",
+			"Sp5uhe",
+			"The Polish",
+			"Woytecr"
+		]
+	},
+	"securesessions-personalurl": "Otwarte sesje ($1)",
+	"securesessions-ipsession": "Wyloguj ze wszystkich innych sesji.",
+	"securesessions-sessions": "Sesje",
+	"securesessions-sessions-legend": "Informacja o sesji",
+	"securesessions-sessions-ip": "Adres IP:",
+	"securesessions-sessions-activity": "Ostatnia aktywność:",
+	"securesessions-sessions-clear": "Wyloguj wszystkie pozostałe sesje",
+	"securesessions-prefs-tor": "Nie zezwalaj na logowanie się z węzłów wyjściowych Tora.",
+	"securesessions-disallowedcountry": "To konto nie może zalogować się z tego kraju.",
+	"securesessions-disallowedtor": "To konto nie może zalogować się z węzłów wyjściowych Tora."
+}

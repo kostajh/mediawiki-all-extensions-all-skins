@@ -1,0 +1,30 @@
+{
+	"name": "GoogleGeocode",
+	"author": "Ike Hecht",
+	"url": "https://www.mediawiki.org/wiki/Extension:GoogleGeocode",
+	"descriptionmsg": "googlegeocode-desc",
+	"license-name": "GPL-2.0-or-later",
+	"version": "0.1.0",
+	"type": "parserhook",
+	"AutoloadClasses": {
+		"GoogleGeocodeHooks": "GoogleGeocodeHooks.php",
+		"GoogleGeocodeCache": "GoogleGeocodeCache.php"
+	},
+	"config": {
+		"GoogleGeocodeAPIKey": null,
+		"GoogleGeocodeExpiry": 600,
+		"GoogleGeocodeDelimiter": ";"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "GoogleGeocodeHooks::onParserFirstCallInit"
+	},
+	"MessagesDirs": {
+		"GoogleGeocode": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"GoogleGeocodeMagic": "GoogleGeocode.i18n.magic.php"
+	},
+	"manifest_version": 1
+}

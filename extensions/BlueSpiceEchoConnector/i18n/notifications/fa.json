@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"FarsiNevis",
+			"Huji"
+		]
+	},
+	"bs-notifications-addaccount": "کاربر «$1» ایجاد شد.",
+	"bs-notifications-email-addaccount-subject": "کاربر «$2» {{GENDER:$1|ایجاد شد}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|کاربر}} $2 ایجاد شد.\n\nشما می‌توانید صفحهٔ کاربری‌اش را در پیوند زیر مشاهده کنید",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|کاربر}} $2 ایجاد شد.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|ایجادکننده}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|ایجادکننده}}: $1",
+	"bs-notifications-registeruser": "کاربر «$1» یک حساب کاربری ایجاد کرد.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|کاربر}} «$2» یک حساب کاربری {{GENDER:$1|ایجاد کرد}}",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|کاربر}} $2 یک حساب کاربری {{GENDER:$1|ایجاد کرد}}.\n\nشما می‌توانید صفحهٔ کاربری‌اش را در پیوند زیر مشاهده کنید",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|کاربر}} $2 یک حساب کاربری {{GENDER:$1|ایجاد کرد}}.",
+	"bs-notifications-edit": "صفحهٔ «$1» تغییر کرد",
+	"bs-notifications-edit-bundle": "صفحهٔ «$2» $1 بار تغییر کرد",
+	"bs-notifications-email-edit-subject": "صفحهٔ «$1» را $3 {{GENDER:$2|ویرایش کرد}}",
+	"bs-notifications-email-edit-body": "صفحهٔ «$1» را $4 {{GENDER:$2|ویرایش کرد}}.\n\nتوضیح:\n $3",
+	"bs-notifications-web-edit-body": "صفحهٔ «$1» را $3 {{GENDER:$2|ویرایش کرد}}.",
+	"bs-notifications-create": "صفحهٔ «$1» ایجاد شد",
+	"bs-notifications-email-create-subject": "صفحهٔ «$1» توسط $3 {{GENDER:$2|ساخته شد}}",
+	"bs-notifications-email-create-body": "صفحهٔ «$1» را $3 {{GENDER:$2|ایجاد کرد}}.\n\nتوضیح:\n $4\nشما می‌توانید صفحه را در پیوند زیر مشاهده کنید",
+	"bs-notifications-web-create-body": "صفحهٔ «$1» را $3 {{GENDER:$2|ایجاد کرد}}.",
+	"bs-notifications-delete": "صفحهٔ «$1» حذف شد",
+	"bs-notifications-email-delete-subject": "صفحهٔ «$1» را $3 {{GENDER:$2|حذف کرد}}",
+	"bs-notifications-email-delete-body": "صفحهٔ «$1» را $3 {{GENDER:$2|حذف کرد}}.\n\nعلت حذف، این بود:\n$4",
+	"bs-notifications-web-delete-body": "صفحهٔ «$1» را $3 {{GENDER:$2|حذف کرد}}.",
+	"bs-notifications-move": "صفحهٔ «$1» منتقل شد",
+	"bs-notifications-email-move-subject": "صفحهٔ «$1» را $4 به «$3» {{GENDER:$2|منتقل کرد}}",
+	"bs-notifications-email-move-body": "صفحهٔ «$1» را $4 به «$3» {{GENDER:$2|منتقل کرد}}.\n\nعلت انتقال، این بود:\n$5\n\nشما می‌توانید صفحه را در پیوند زیر مشاهده کنید",
+	"bs-notifications-web-move-body": "صفحهٔ «$1» را $4 به «$3» {{GENDER:$2|منتقل کرد}}",
+	"bs-notifications-edit-difflink-label": "مشاهدهٔ تفاوت",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|سلام}} $1",
+	"bs-notifications-mail-additional-links-label": "پیوندهای بیشتر"
+}

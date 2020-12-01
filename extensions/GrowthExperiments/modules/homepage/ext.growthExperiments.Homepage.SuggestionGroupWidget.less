@@ -1,0 +1,26 @@
+@import 'mediawiki.mixins';
+@import 'mediawiki.ui/variables';
+@import 'ext.growthExperiments.variables.less';
+
+.mw-ge-suggestionGroupWidget {
+	&-headerRow {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-content: center;
+		padding: 0.5em 0;
+
+		&-select-all {
+			display: flex;
+		}
+
+		h4&-header {
+			flex-direction: column;
+			text-align: center;
+			justify-content: center;
+			display: flex;
+			font-size: @headerFontSize;
+			color: @colorGray2;
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"wlm-extension-desc": "เพิ่มข้อมูลและข้อความที่เกี่ยวข้องกับการประกวดภาพถ่าย Wiki Loves Monuments",
+	"wlm-no-contest-year": "ไม่มีการประกวด Wiki Loves Monument ในปี $1",
+	"wlm-no-url-bad-country": "เราไม่สามารถรับข้อมูลเว็บไซต์เพื่อแสดงข้อมูลการประกวดท้องถิ่นได้ $1 ไม่ใช่รหัสประเทศที่ถูกต้อง",
+	"wlm-country-not-given": "คุณจำเป็นต้องระบุรหัสประเทศ",
+	"wlm-country-not-participating-year": "«$1» ไม่ได้เข้าร่วม Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "ประเทศอื่น ๆ",
+	"wlm-international-contest": "นานาชาติ",
+	"wlm-text-contact": "ติดต่อ",
+	"wlm-text-contest": "การประกวด",
+	"wlm-text-donate": "บริจาค",
+	"wlm-text-faq": "คำถามที่พบบ่อย",
+	"wlm-text-jury": "คณะผู้ตัดสิน",
+	"wlm-text-monuments": "อนุสาวรีย์",
+	"wlm-text-news": "ข่าว",
+	"wlm-text-participate": "เข้าร่วม!",
+	"wlm-text-prizes": "รางวัล",
+	"wlm-text-rules": "กติกา",
+	"wlm-text-sponsors": "ผู้สนับสนุน",
+	"wlm-text-uploading": "การอัปโหลด"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"formelapplet-desc": "添加 [http://wiki.formelapplet.de FormelApplet] 小型應用程式至頁面裡",
+	"formelapplet-nojava": "請安裝 $1 以使用此頁面。",
+	"formelapplet-missing-parameter": "缺少參數（寬度、高度，或是項目/解答）。",
+	"formelapplet-file-not-found": "檔案 $1 未找到。",
+	"formelapplet-error": "MediaWiki 擴充套件 FormelApplet 出現錯誤：<em>$1</em>"
+}

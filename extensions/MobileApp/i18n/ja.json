@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afaz",
+			"Shirayuki",
+			"Whym",
+			"おはぐろ蜻蛉"
+		]
+	},
+	"mobileapp-desc": "ウィキメディアの携帯機器版アプリケーションで使用するスタイルとスクリプトを提供する",
+	"tag-mobile_app_edit": "モバイルアプリ編集",
+	"tag-mobile_app_edit-description": "携帯機器アプリから行われた編集",
+	"tag-android_app_edit": "Androidアプリ編集",
+	"tag-android_app_edit-description": "Android向け携帯機器アプリから行われた編集",
+	"tag-ios_app_edit": "iOSアプリ編集",
+	"tag-ios_app_edit-description": "iOS向け携帯機器アプリから行われた編集",
+	"abusefilter-edit-builder-vars-user-app": "利用者が携帯機器アプリから編集しているかどうか"
+}

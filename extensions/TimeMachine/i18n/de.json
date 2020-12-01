@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"timemachine": "Zeitmaschine",
+	"timemachine-desc": "Ermöglicht nach dem Festlegen eines Datums in [[Special:TimeMachine]] die Ansicht des Wikiinhalts, wie er zu diesem Zeitpunkt war.",
+	"timemachine-p1": "Gib unten ein Datum ein, um das Wiki anzusehen, wie es zu diesem Zeitpunkt war.",
+	"timemachine-button1": "Zu diesem Datum gehen",
+	"timemachine-p2": "Beachte, dass nur der Wikiinhalt geändert wird. Die Gestaltung, Seitenleiste, der Fußbereich und andere Elemente des Wikis bleiben unverändert.",
+	"timemachine-p3": "Um zur normalen Ansicht des Wikis zurückzukehren, klicke auf die untere Schaltfläche oder lösche deine Cookies.",
+	"timemachine-button2": "Zurück zur Gegenwart"
+}

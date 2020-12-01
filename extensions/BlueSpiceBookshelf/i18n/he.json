@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"YaronSh"
+		]
+	},
+	"bs-bookshelf-specialpage-title": "ספרים",
+	"bs-bookshelf-specialpage-allpages-ns-book-text": "ספרייה",
+	"bs-bookshelf-tag-next": "הבא",
+	"bs-bookshelf-tag-prev": "הקודם",
+	"bs-bookshelf-tag-edit-book": "לערוך את הספר",
+	"bs-bookshelf-add-to-book-label": "להוסיף לספר",
+	"bs-bookshelf-add-to-book-label-book": "ספר",
+	"bs-bookshelf-add-to-book-label-alias": "כינוי",
+	"bs-bookshelf-add-to-book-added": "הדף נוסף לספר ‚$1’.",
+	"bs-bookshelf-setting-path-feature": "ספר",
+	"bs-bookshelf-empty-selection": "לא נבחר דבר",
+	"apihelp-query+bsbookshelf-summary": "מאפשר לתשאל מול כל הספרים.",
+	"bs-bookshelf-grouping-template-type-local_storage": "ספרים זמניים",
+	"bs-bookshelf-grouping-template-type-ns_book": "ספרים כללים",
+	"bs-bookshelf-grouping-template-type-user_book": "ספרים עצמיים",
+	"bs-bookshelf-action-editbooksource": "לערוך מקור ספר",
+	"bs-bookshelf-action-editbooksource-create": "ליצור מקור ספר",
+	"bs-bookshelf-action-export-book": "לייצא ספר",
+	"bs-bookshelf-error-invalid-type": "סוג הספר שצוין שגוי",
+	"bs-bookshelf-editor-no-title-provided": "לא סופקה כותרת תקנית לספר",
+	"bs-bookshelf-book-grid-title": "ספרים",
+	"bookshelf": "מדף הספרים",
+	"bookshelf-summary": "ספרים כלליים",
+	"bs-bookshelf-prof-defaultview": "תצוגת בררת מחדל",
+	"bs-bookshelf-prof-defaultview-grid": "רשת",
+	"bs-bookshelf-prof-defaultview-images": "תמונות",
+	"bs-bookshelf-action-save-to-local-storage": "מתבצעת שמירה לאחסון המקומי"
+}

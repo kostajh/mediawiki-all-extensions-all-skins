@@ -1,0 +1,22 @@
+/*
+Note that social profile pages load FanBoxes' main RL module in UserProfilePage#getFanBoxes.
+FanBoxes is not likely to always be installed, hence why we piggy-back on that module instead
+of SocialProfile; if we'd piggy-back on a SocialProfile module, we'd end up loading this
+file even when it isn't needed nor wanted, i.e. when FanBoxes is _not_ installed.
+*/
+
+/* Scale down the user boxes on social profiles so that they don't overlap with
+the user activity section */
+div#user-page-left .individual-fanbox {
+	width: 245px;
+}
+
+/* "Add this box to your userpage?" after clicking on a user box on someone else's profile */
+div.fanbox-pop-up-box-profile {
+	width: 181px;
+}
+
+/* "You have successfully added this userbox to your userpage." after adding a user box via someone else's profile */
+div.show-addremove-message-half {
+	width: 180px;
+}

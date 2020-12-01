@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"bs-pageassignments-column-title": "Sidetitel",
+	"bs-pageassignments-api-error": "Der opstod en fejl",
+	"notification-bs-pageassignments-page-move-summary": "$3 blev {{GENDER:$2|flyttet}} af $1",
+	"notification-bs-pageassignments-page-move-subject": "$2 blev flyttet",
+	"notification-bs-pageassignments-page-move-body": "$1 {{GENDER:$2|flyttede}} siden $2.",
+	"notification-bs-pageassignments-page-edit-subject": "$2 blev redigeret",
+	"notification-bs-pageassignments-page-delete-summary": "$3 blev {{GENDER:$2|slettet}} af $1",
+	"notification-bs-pageassignments-page-delete-subject": "$2 blev slettet",
+	"notification-bs-pageassignments-user-group-add-summary": "Du er blevet tilføjet til gruppen $4",
+	"notification-bs-pageassignments-user-group-add-subject": "Tilføjet til gruppen $4",
+	"bs-pageassignments-assignee-special-everyone-label": "Alle",
+	"bs-pageassignments-assignee-type-everyone": "Alle",
+	"bs-pageassignments-assignee-type-user": "Bruger",
+	"bs-pageassignments-assignee-type-group": "Gruppe",
+	"bs-pageassignments-collection-var-namespacename": "Navnerum"
+}

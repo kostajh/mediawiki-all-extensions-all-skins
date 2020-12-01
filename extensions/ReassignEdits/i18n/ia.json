@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"reassignedits": "Reattribuer le modificationes del usator",
+	"reassignedits-desc": "Permitte reattribuer le modificationes de un usator a un altere",
+	"reassignedits-error-invalid": "Le nomine de usator \"$1\" es invalide.",
+	"reassignedits-new": "Nove nomine de usator",
+	"reassignedits-old": "Ancian nomine de usator",
+	"reassignedits-submit": "Submitter",
+	"reassignedits-success": "Le modificationes per \"$1\" ha essite re-attribuite a \"$2\".",
+	"reassignedits-summary": "Reattribuer le modificationes de un usator a un altere.",
+	"reassignedits-updatelog-title": "Actualisar nomine de usator in titulos de registros",
+	"reassignedits-updatelog-user": "Actualisar usator executive in registros",
+	"right-reassignedits": "Reattribuer le modificationes de un usator a un altere"
+}

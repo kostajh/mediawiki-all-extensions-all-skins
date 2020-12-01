@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10"
+		]
+	},
+	"updatemediawiki": "Päivitä MediaWiki",
+	"updatemediawiki-desc": "Mahdollistaa MediaWikin päivityksen toimintasivun kautta",
+	"updatemediawiki-current": "Nykyinen versio $1",
+	"updatemediawiki-update-nofound": "Päivitystä ei ole saatavilla",
+	"updatemediawiki-update-found": "Uusi päivitys löydetty: $1",
+	"updatemediawiki-update-downloading": "Ladataan uutta päivitystä",
+	"updatemediawiki-update-saved": "Päivitys ladattu ja tallennettu",
+	"updatemediawiki-update-exist": "Päivitys on jo ladattu",
+	"updatemediawiki-update-copyready": "Kopiointi valmis",
+	"updatemediawiki-update-database": "Päivitetäänkö tietokanta nyt?",
+	"updatemediawiki-update-updateready": "Päivitys valmis",
+	"updatemediawiki-update-install": "Asennetaanko nyt?",
+	"updatemediawiki-update-updated": "MediaWiki päivitetty versioon $1",
+	"updatemediawiki-update-error": "Viimeisimpiä julkaisuja ei löydetty",
+	"updatemediawiki-update-aborted": "Uutta päivitystä ei voitu tallentaa. Toiminto keskeytetty"
+}

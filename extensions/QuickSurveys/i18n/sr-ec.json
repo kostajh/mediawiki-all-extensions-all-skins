@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"quicksurveys-desc": "Приказује конфигурисане анкете",
+	"ext-quicksurveys-example-internal-survey-question": "Да ли би текст требало да буде већи?",
+	"ext-quicksurveys-example-internal-survey-description": "Ово је опис примера интерне анкете",
+	"ext-quicksurveys-example-internal-survey-answer-positive": "Да",
+	"ext-quicksurveys-example-internal-survey-answer-neutral": "Не знам",
+	"ext-quicksurveys-example-internal-survey-answer-negative": "Не",
+	"ext-quicksurveys-example-internal-survey-freeform-text-label": "Друго",
+	"ext-quicksurveys-example-external-survey-question": "Потребна нам је ваша помоћ у побољшању пројекта {{SITENAME}}.",
+	"ext-quicksurveys-example-external-survey-description": "Помозите нам да побољшамо пројекат {{SITENAME}} тако што ћете одговорити на ову анкету. Много вам хвала!",
+	"ext-quicksurveys-example-external-survey-privacy-policy": "Анкету је пружио ExampleSurveyProvider. Погледајте [//example.org/privacy-policy политику приватности]",
+	"ext-quicksurveys-survey-privacy-policy-default-text": "Сви поднесци су анонимни. Погледајте [//example.org/privacy-policy политику приватности].",
+	"ext-quicksurveys-survey-confirm-msg": "Хвала вам на повратним информацијама! Користићемо их како би побољшали пројекат {{SITENAME}}.",
+	"ext-quicksurveys-survey-positive": "Да",
+	"ext-quicksurveys-survey-negative": "Не",
+	"ext-quicksurveys-survey-neutral": "Не знам",
+	"ext-quicksurveys-internal-freeform-survey-submit-button": "Пошаљи",
+	"ext-quicksurveys-internal-freeform-survey-no-answer-alert": "Изаберите одговор или га сами унесите.",
+	"ext-quicksurveys-external-survey-yes-button": "Посетите анкету",
+	"ext-quicksurveys-external-survey-no-button": "Не, хвала"
+}

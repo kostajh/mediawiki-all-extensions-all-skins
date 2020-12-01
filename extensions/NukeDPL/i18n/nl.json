@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mainframe98",
+			"McDutchie",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"nukedpl": "Massaal verwijderen per DPL query",
+	"nukedpl-desc": "Voegt een [[Special:NukeDPL|speciale pagina]] voor het massaal verwijderen per DPL query toe",
+	"nukedpl-intro": "Dit hulpprogramma maakt het mogelijk alle pagina's die geselecteerd zijn via een DPL-zoekopdracht te verwijderen.\n\nVoer een zoekopdracht in om een lijst met te verwijderen pagina's aan te maken.\n* Pagina's kunnen individueel verwijderd worden uit de lijst voordat er echt wordt verwijderd;\n* Paginanamen zijn hoofdlettergevoelig;\n* Zoekopdrachten hoeven niet omringd te worden door DPL-labels of accolades;\n* Voor informatie over de betekenis van paramaters, raadpleegt u het [http://semeb.com/dpldemo/index.php?title=DPL:Manual Handboek DPL].",
+	"nukedpl-candidatelist": "Kandidaat-lijst bekijken",
+	"nukedpl-nopages": "Er zijn geen pagina's om te verwijderen met deze DPL-query: <code>$1</code>",
+	"nukedpl-nuke": "Weg ermee!",
+	"nukedpl-list": "De volgende {{PLURAL:$1|pagina|pagina's}} zijn geselecteerd door de DPL query: <code>$2</code>\n\nKlik op \"{{int:nukedpl-nuke}}\" om {{PLURAL:$1|deze}} te verwijderen.",
+	"nukedpl-defaultreason": "Massaal verwijderen van pagina's geselecteerd met DPL query: $1",
+	"right-nukedpl": "Massaal pagina's verwijderen per Dynamic Page List queries"
+}

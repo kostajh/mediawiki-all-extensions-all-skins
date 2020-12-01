@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sonic N800",
+			"ديفيد"
+		]
+	},
+	"bs-contextmenu-desc": "يوفر قوائم سياق لروابط مختلفة",
+	"prefs-contextmenu": "قائمة السياق",
+	"bs-contextmenu-pref-modus": "افتح قائمة السياق بواسطة (ليس للجوال):",
+	"bs-contextmenu-pref-modus-just-right-mouse": "انقر على زر الفأرة الأيمن (يؤدي الضغط على مفتاح CTRL إلى إظهار قائمة سياق المتصفح الافتراضي)",
+	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "انقر على زر الفأرة الأيمن واضغط على CTRL (سيعرض زر الفأرة الأيمن العادي قائمة المتصفح الافتراضية)",
+	"bs-contextmenu-page-edit": "تعديل الصفحة",
+	"bs-contextmenu-page-delete": "حذف الصفحة",
+	"bs-contextmenu-page-move": "نقل الصفحة",
+	"bs-contextmenu-page-history": "اعرض تاريخ الصفحة",
+	"bs-contextmenu-page-protect": "حماية الصفحة",
+	"bs-contextmenu-page-purge": "مسح ذاكرة التخزين المؤقت وعرض الصفحة",
+	"bs-contextmenu-page-info": "عرض معلومات الصفحة",
+	"bs-contextmenu-media-reupload": "رفع نسخة جديدة",
+	"bs-contextmenu-media-view-page": "عرض صفحة وصف الملف وتاريخ الملف",
+	"bs-contextmenu-user-mail": "إرسال بريد",
+	"bs-contextmenu-user-talk": "ترك رسالة على صفحة النقاش",
+	"bs-contextmenu-file-download": "تنزيل الملف",
+	"apihelp-bs-contextmenu-tasks-description": "يوفر عناصر قائمة السياق في السياق",
+	"apihelp-bs-contextmenu-tasks-summary": "يوفر عناصر قائمة السياق في السياق"
+}

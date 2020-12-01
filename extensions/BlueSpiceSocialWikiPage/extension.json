@@ -1,0 +1,175 @@
+{
+	"name": "BlueSpiceSocialWikiPage",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SocialWikiPage",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-socialwikipage-desc",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceSocial": ">= 4.1",
+			"BlueSpiceMultiUpload": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocialWikiPage": {
+					"className": "\\BlueSpice\\Social\\WikiPage\\Extension",
+					"extPath": "/BlueSpiceSocialWikiPage",
+					"status": "beta",
+					"package": "BlueSpiceSocial"
+				}
+			},
+			"EntityRegistry": {
+				"wikipage": "\\BlueSpice\\Social\\WikiPage\\EntityConfig\\WikiPage",
+				"stash": "\\BlueSpice\\Social\\WikiPage\\EntityConfig\\Stash"
+			},
+			"RendererRegistry": {
+				"social-wikipage-entity-wikipage": "\\BlueSpice\\Social\\WikiPage\\Renderer\\Entity\\WikiPage::factory",
+				"social-wikipage-entity-stash": "\\BlueSpice\\Social\\WikiPage\\Renderer\\Entity\\Stash::factory",
+				"social-wikipage-entitylist-attachments": "\\BlueSpice\\Social\\WikiPage\\Renderer\\EntityList\\Attachments::factory",
+				"social-wikipage-createnewwikipageentity": "\\BlueSpice\\Social\\WikiPage\\Renderer\\CreateNewWikiPageEntity::factory",
+				"social-wikipage-entitylist-newwikipageentity": "\\BlueSpice\\Social\\WikiPage\\Renderer\\EntityList\\NewWikiPageEntity::factory",
+				"social-wikipage-createfirstattachmentaftercontent": "\\BlueSpice\\Social\\WikiPage\\Renderer\\CreateFirstAttachmentAfterContent::factory"
+			}
+		}
+	},
+	"callback": "\\BlueSpice\\Social\\WikiPage\\Extension::onRegistration",
+	"SpecialPages": {
+		"WikiPageStash": "\\BlueSpice\\Social\\WikiPage\\Special\\Stash"
+	},
+	"APIModules": {
+		"bs-socialstash-tasks": "\\BlueSpice\\Social\\WikiPage\\Api\\Task\\Stash"
+	},
+	"ExtensionMessagesFiles": {
+		"WikiPageStashAlias": "languages/WikiPageStash.alias.php",
+		"WikiPageStashMagic": "languages/WikiPageStash.i18n.magic.php"
+	},
+	"MessagesDirs": {
+		"BlueSpiceSocialWikiPage": [
+			"i18n"
+		]
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\WikiPage\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.social.articles.styles": {
+			"styles": [
+				"bluespice.social.wikipage.less"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		},
+		"ext.bluespice.social.entity.wikipage": {
+			"dependencies": [
+				"ext.bluespice.social.entity",
+				"ext.bluespice.oojs"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.WikiPage.js"
+			]
+		},
+		"ext.bluespice.social.entity.stash": {
+			"dependencies": [
+				"ext.bluespice.social.entity.text"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.Stash.js"
+			],
+			"messages": [
+				"bs-socialwikipage-stash-editor-attachedfiles",
+				"bs-socialwikipage-stash-editor-attachedfile-delete",
+				"bs-socialwikipage-stash-editor-attachedfile-add"
+			]
+		},
+		"ext.bluespice.social.entity.editor.stash": {
+			"dependencies": [
+				"ext.bluespice.social.entity.editor.text"
+			],
+			"scripts": [
+				"ui/widget/TextInputAttachments.js",
+				"ui/EntityEditorStash.js"
+			]
+		},
+		"ext.bluespice.social.entity.stash.dropzone": {
+			"dependencies": [
+				"ext.bluespice.social.entity.stash",
+				"ext.bluespice.upload"
+			],
+			"scripts": [
+				"ui/widget/TextInputMultiUpload.js"
+			],
+			"messages": [
+				"bs-uploader-drop-or-click"
+			]
+		},
+		"ext.bluespice.social.entity.stash.insertfile": {
+			"dependencies": [
+				"ext.bluespice.social.entity.stash",
+				"ext.bluespice.extjs.filerepo"
+			],
+			"scripts": [
+				"ui/widget/TextInputFileSelect.js"
+			],
+			"messages": [
+				"bs-socialwikipage-stash-insertfiledialog-btn-save-label",
+				"bs-socialwikipage-stash-insertfiledialog-title"
+			]
+		},
+		"ext.bluespice.social.entity.stash.insertlink": {
+			"dependencies": [
+				"ext.bluespice.social.entity.stash"
+			],
+			"scripts": [
+				"ui/widget/TextInputLinkSelect.js"
+			]
+		},
+		"ext.bluespice.social.createwikipageentity": {
+			"dependencies": [
+				"ext.bluespice.social.entity"
+			],
+			"scripts": [
+				"bluespice.social.wikipage.createWikiPageEntity.js",
+				"CreateWikiPageEntity.js"
+			]
+		},
+		"ext.bluespice.social.createfirstattachment": {
+			"dependencies": [
+				"ext.bluespice.social.entity"
+			],
+			"scripts": [
+				"bluespice.social.wikipage.createFirstAttachment.js",
+				"CreateFirstAttachmentAfterContent.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocialWikiPage/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"SocialWikiPageTimelineAfterContentNamespaceBlackList": {
+			"value": []
+		},
+		"SocialWikiPageTimelineAfterContentShow": {
+			"value": true
+		}
+	},
+	"Hooks": {
+		"BSSocialModuleDepths": "\\BlueSpice\\Social\\WikiPage\\Hook\\BSSocialModuleDepths\\AddModules::callback",
+		"PageSaveComplete": "\\BlueSpice\\Social\\WikiPage\\Hook\\PageSaveComplete\\CreateWikiPageEntity::callback",
+		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\Social\\WikiPage\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddTimeline::callback",
+		"GetDoubleUnderscoreIDs": "\\BlueSpice\\Social\\WikiPage\\Hook\\GetDoubleUnderscoreIDs\\AddStash::callback",
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\Social\\WikiPage\\Hook\\BSInsertMagicAjaxGetData\\AddNoStashSwitch::callback"
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

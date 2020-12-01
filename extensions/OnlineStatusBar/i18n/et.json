@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avjoska",
+			"Pikne"
+		]
+	},
+	"onlinestatusbar-title-online": "{{GENDER:$1|Võrgus}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Hõivatud}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Eemal}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Peidus}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Ühenduseta}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Teadmata}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|See kasutaja}} on nüüd võrgus",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|See kasutaja}} on hõivatud ja ei pruugi olla saadaval",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|See kasutaja}} on jõude ja ei pruugi olla saadaval",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|See kasutaja}} ei ole sisse loginud"
+}

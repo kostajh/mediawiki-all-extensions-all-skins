@@ -1,0 +1,63 @@
+.bs-social-entity-discussion {
+	&.bs-social-entity-output-Page {
+		ul.bs-social-entitylist-children.bs-social-entitylist-discussion-children {
+			display: block;
+			margin-left: 0;
+			list-style: none;
+		}
+
+		.bs-social-entity-wrapper {
+			position: relative;
+		}
+	}
+
+	a.bs-social-entityspawner-topic:before {
+		font-family: icomoon !important;
+		margin-right:8px;
+		content: "\e907";
+	}
+
+	.bs-data-after-content-socialtopics {
+		clear: both;
+		ul.empty-topics > li,
+		ul.social-topics-entitylist-newdiscussion > li {
+			padding: 0;
+			margin: 0;
+			margin-top: -42px;
+			font-size: 1em;
+			float: right;
+		}
+	}
+}
+
+.bs-data-after-content-socialtopics {
+	clear: both;
+	position: relative;
+	ul.bs-social-entitylist.nodiscussion li {
+		padding: 0;
+
+		& > div {
+			padding: 0;
+		}
+	}
+
+	.bs-socialtopics-topic-create-first,
+	.bs-socialtopics-discussion-create,
+	.bs-socialtopics-discussionpage-create {
+		position: absolute;
+		right: 1rem;
+		top: 0.3rem;
+
+		.oo-ui-buttonElement-button {
+			margin-top: 5px;
+
+			.oo-ui-labelElement-label {
+				display: none;
+			}
+
+			&:selected,&:active,&:focus {
+				border-color: transparent;
+			}
+		}
+	}
+}

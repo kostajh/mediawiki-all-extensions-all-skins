@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwboehm",
+			"Josef Konrad <konrad@hallowelt.com>",
+			"Metalhead64",
+			"Mglaser"
+		]
+	},
+	"bs-insertTemplate-desc": "Über ein Dialogfeld werden Vorlagen angehängt",
+	"bs-insertTemplate-button-template-title": "Vorlage einfügen / bearbeiten",
+	"bs-insertTemplate-dialog-title": "Vorlage einfügen",
+	"bs-insertTemplate-dialog-label-choose": "Vorlage auswählen",
+	"bs-insertTemplate-dialog-label-modify": "Vorlage bearbeiten",
+	"bs-insertTemplate-dialog-label-preview": "Vorschau",
+	"apihelp-bs-inserttemplate-store-description": "Listet alle Vorlagen auf. Erlaubt die Sortierung, Filterung und Seitennummerierung. Implementiert die Parameter „ExtJS Store“.",
+	"apihelp-bs-inserttemplate-store-summary": "Listet alle Vorlagen auf. Erlaubt die Sortierung, Filterung und Seitennummerierung. Implementiert die Parameter „ExtJS Store“."
+}

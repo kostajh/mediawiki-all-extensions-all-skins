@@ -1,0 +1,32 @@
+{
+	"name": "RandomImage",
+	"version": "1.5.1",
+	"author": [
+		"Rob Church"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:RandomImage",
+	"descriptionmsg": "randomimage-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"callback": "RandomImage::onRegistration",
+	"config": {
+		"RandomImageNoCache": false
+	},
+	"AutoloadClasses": {
+		"RandomImage": "includes/RandomImage.php"
+	},
+	"MessagesDirs": {
+		"RandomImage": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"ParserBeforePreprocess": "RandomImage::stripHook",
+		"ParserBeforeInternalParse": "RandomImage::stripHook",
+		"ParserFirstCallInit": "RandomImage::onParserFirstCallInit"
+	},
+	"manifest_version": 1,
+	"requires": {
+		"MediaWiki": ">= 1.35"
+	}
+}

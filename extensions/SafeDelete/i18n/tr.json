@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"safedelete": "Güvenli Silme",
+	"safedelete-desc": "Sayfayı yalnızca belirtilen ad alanlarında buna bağlantı veren sayfa yoksa sil",
+	"safedelete-title": "\"$1\" sil",
+	"safedelete-missingpagename": "Sayfa adı eksik.",
+	"safedelete-missingnamespaces": "Özel Sil ad alanlarının listesi ayarlanmadı.",
+	"safedelete-cannotdelete": "Aşağıdaki \"{{PLURAL:$2|sayfa|sayfa}} bağlantıları veya yönlendirmeleri olduğundan \" $1\" sayfası silinemiyor."
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"prefs-onlinestatus": "මාර්ගගත තත්වය",
+	"onlinestatusbar-title-online": "මාර්ගගතයි",
+	"onlinestatusbar-title-busy": "කාර්යබහුලයි",
+	"onlinestatusbar-title-away": "{{GENDER:$1|බැහැර}}",
+	"onlinestatusbar-title-hidden": "සඟවනලද",
+	"onlinestatusbar-title-offline": "මාර්ගඅපගතයි",
+	"onlinestatusbar-title-unknown": "තත්වය නොදනියි",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|මෙම පරිශීලකයා}} දැන් මාර්ගගතයි"
+}

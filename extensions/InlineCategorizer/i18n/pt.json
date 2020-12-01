@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giro720",
+			"Hamilton Abreu",
+			"Luckas"
+		]
+	},
+	"inlinecategorizer-desc": "Módulo em JavaScript que permite alterar, adicionar e remover categorias diretamente de uma página",
+	"inlinecategorizer-add-category": "Adicionar categoria",
+	"inlinecategorizer-add-category-submit": "Adicionar",
+	"inlinecategorizer-add-category-summary": "Adicionar a categoria \"$1\"",
+	"inlinecategorizer-api-error": "A API devolveu um erro: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "A API devolveu um erro desconhecido.",
+	"inlinecategorizer-cancel": "Cancelar a edição",
+	"inlinecategorizer-cancel-all": "Cancelar todas as alterações",
+	"inlinecategorizer-category-already-present": "Esta página já está na categoria \"$1\"",
+	"inlinecategorizer-category-hook-error": "Uma função local impediu que as alterações fossem gravadas.",
+	"inlinecategorizer-category-question": "Porque é que pretende fazer as seguintes alterações:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Gravar",
+	"inlinecategorizer-confirm-save-all": "Gravar todas as alterações",
+	"inlinecategorizer-confirm-title": "Confirme a operação",
+	"inlinecategorizer-edit-category": "Editar categoria",
+	"inlinecategorizer-edit-category-error": "Não foi possível editar a categoria \"$1\".\nIsto normalmente ocorre quando a categoria foi adicionada à página através de uma predefinição.",
+	"inlinecategorizer-edit-category-summary": "Alterar a categoria \"$1\" para \"$2\"",
+	"inlinecategorizer-error-title": "Erro",
+	"inlinecategorizer-remove-category": "Remover categoria",
+	"inlinecategorizer-remove-category-error": "Não foi possível remover a categoria \"$1\".\nIsto normalmente ocorre quando a categoria foi adicionada à página através de uma predefinição.",
+	"inlinecategorizer-remove-category-summary": "Remover a categoria \"$1\""
+}

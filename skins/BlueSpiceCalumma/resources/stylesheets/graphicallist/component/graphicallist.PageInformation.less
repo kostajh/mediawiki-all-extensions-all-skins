@@ -1,0 +1,143 @@
+@import "../../fonts.less";
+
+@article-info-bg-hover: transparent;
+
+.dynamic-graphical-list-outer-west.dynamic-graphical-list-outer .bs-flyout-two-columns.x-panel.x-panel-default {
+	// top
+	.x-panel.panel-top
+	{
+		margin-bottom: 1.25rem;
+		.flyout-articleinfo-lasteditedtime,
+		.flyout-articleinfo-lastediteduser {
+			span {
+				&::after {
+					content: ": ";
+					padding-right: 0.8em;
+				}
+			}
+			a, a:hover {
+				text-decoration: none;
+			}
+		}
+	}
+	// left
+	.x-panel.x-panel-default.panel-center-one {
+		ul.bs-articleinfo-flyout-linklist {
+			padding-left: 0;
+			li {
+				list-style-type: none;
+			}
+			a {
+				text-decoration: none;
+				height: 2rem;
+				display: block;
+				line-height: 2rem;
+				background-color: transparent;
+			}
+			a:hover {
+				text-decoration: none;
+			}
+		}
+	}
+	// right
+	.x-panel.x-panel-default.panel-center-two {
+		.bs-readers-flyout {
+			.flyout-readers-body > div {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: start;
+				.bs-userminiprofile {
+					&:hover {
+						border: 5px solid rgba(62,83,137,0.1);
+					}
+					border: 5px solid transparent;
+					border-radius: 0.25rem;
+					margin-right: 0.3125rem;
+					a img {
+						border-radius: 2rem;
+					}
+					.oo-ui-popupWidget-popup {
+						width: auto;
+						.bs-userinfo-right {
+							width: auto;
+							float: right;
+							&>div {
+								h3 {
+									font-size: 1em;
+								}
+								span {
+									font-size: 0.8em;
+								}
+							}
+						}
+					}
+				}
+			}
+
+		}
+		.bs-authors-flyout-authors {
+			.flyout-authors-body {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: start;
+				.originator {
+					.bs-userminiprofile {
+						&:hover {
+							border: 5px solid rgba(62,83,137,0.1);
+						}
+						border: 5px solid transparent;
+						border-radius: 0.25rem;
+						margin-right: 0.3125rem;
+						a img {
+							border-radius: 2rem;
+						}
+						.oo-ui-popupWidget-popup {
+							width: auto;
+							.bs-userinfo-right {
+								width: auto;
+								float: right;
+								&>div {
+									h3 {
+										font-size: 1em;
+									}
+									span {
+										font-size: 0.8em;
+									}
+								}
+							}
+						}
+					}
+				}
+				.authors {
+					.bs-userminiprofile {
+						&:hover {
+							border: 5px solid rgba(62,83,137,0.1);
+						}
+						border: 5px solid transparent;
+						border-radius: 0.25rem;
+						margin-left: 0.3125rem;
+						a img {
+							border-radius: 2rem;
+						}
+						.oo-ui-popupWidget-popup {
+							width: auto;
+							.bs-userinfo-right {
+								width: auto;
+								float: right;
+								&>div {
+									h3 {
+										font-size: 1em;
+									}
+									span {
+										font-size: 0.8em;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

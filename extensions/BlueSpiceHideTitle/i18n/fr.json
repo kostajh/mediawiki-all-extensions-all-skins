@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Constructeur",
+			"Gomoko"
+		]
+	},
+	"bs-hidetitle-desc": "Ajoute le mot magique <code><nowiki>__HIDETITLE__</nowiki></code> pour cacher le titre de la page",
+	"bs-hidetitle-ve-dialog-meta-settings-showtitle": "Afficher",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle": "Masquer",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-label": "Visibilité du titre",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-help": "Vous pouvez définir ici si le titre sera ou non affiché."
+}

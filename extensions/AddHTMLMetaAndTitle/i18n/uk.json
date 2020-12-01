@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "Дозволяє спростити SEO (оптимізацію для пошукових систем)",
+	"addhtmlmetaandtitle-empty-attr": "Тег &lt;seo&gt; повинен містити щонайменше один заповнений атрибут \"title\" або \"metak(eywords)\" чи \"metad(escription)\"."
+}

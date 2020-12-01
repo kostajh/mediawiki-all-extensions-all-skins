@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjälten",
+			"Sabelöga",
+			"WikiPhoenix"
+		]
+	},
+	"bs-readconfirmation-confirm-read-checkbox-label": "Ja, jag har läst hela sidan.",
+	"bs-readconfirmation-confirm-read-button-label": "Bekräfta",
+	"bs-readconfirmation-api-error-no-page": "Ingen sida gett",
+	"echo-pref-tooltip-bs-readconfirmation-cat": "Avisera mig när jag öppnar lästa bekräftelser",
+	"bs-readconfirmation-disabled-ns-short": "Inaktiverad",
+	"bs-readconfirmation-graphicallist-btn-read": "Läst"
+}

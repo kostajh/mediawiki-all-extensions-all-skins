@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"stalkerlog-desc": "Voegt een [[Special:Log/stalkerlog|logboek]] toe waarin te volgen is wanneer gebruikers af- en aanmelden",
+	"stalkerlog-log-login": "heeft zich aangemeld.",
+	"stalkerlog-log-logout": "heeft zich afgemeld.",
+	"stalkerlog-log-type": "Logboek gebruikersauthenticatie",
+	"stalkerlog-log-text": "In dit logboek wordt opgeslagen wanneer gebruikers zich aan- en afgemeld hebben."
+}

@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matma Rex",
+			"Max20091",
+			"Minh Nguyen"
+		]
+	},
+	"gettingstarted": "Bắt đầu",
+	"gettingstarted-desc": "Giúp người mới đến trở sửa đổi bài viết",
+	"gettingstarted-task-toolbar-editing-help-text": "Chỉ tôi làm thế nào",
+	"gettingstarted-task-toolbar-editing-help-title": "Xem hướng dẫn sửa đổi",
+	"gettingstarted-task-toolbar-try-another-text": "Thử sửa trang khác ►",
+	"gettingstarted-task-toolbar-close-title": "Đóng thanh công cụ này",
+	"gettingstarted-task-toolbar-no-suggested-page": "Rất tiếc, chúng tôi không kiếm được thêm trang để cải thiện vào lúc này. Hãy thử lại lát nữa hoặc tìm những chủ đề quan tâm của bạn.",
+	"gettingstarted-task-copyedit-toolbar-description": "Trang này có thể có lỗi chính tả hoặc ngữ pháp mà bạn có thể sửa chữa.",
+	"gettingstarted-task-copyedit-toolbar-try-another-title": "Mở trang ngẫu nhiên để cải thiện văn phong",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-title": "Cách bắt đầu",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-description": "Những người dùng {{SITENAME}} khác đã đánh dấu trang này là cần được cải thiện. Bạn không cần phải chuyên môn về đề tài này để giúp đỡ.",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-title": "Gợi ý",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-description": "Các cờ ngang này nêu ra các vấn đề trên trang. Bạn không cần giải quyết tất cả mọi vấn đề. Hãy thoải mái muốn sửa gì thì sửa.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-title": "Sửa toàn bộ trang…",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-description": "Bấm “$1” để thay đổi nội dung ở bất cứ phần nào của trang.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-title": "Hoặc sửa đổi một phần",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-description": "Để chỉ sửa đổi một phần, bạn có thể nhấn chuột vào liên kết “{{int:editsection}}” gần đề mục của phần đó.",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-title": "Thực hiện các thay đổi và lưu",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-description": "Bạn hiện có thể sửa đổi nội dung trang này. Sau khi hoàn tất, hãy bấm “{{int:publishchanges}}” để xem lại và lưu các thay đổi của bạn.",
+	"guidedtour-tour-gettingstarted-click-preview-title": "Xem trước (tùy chọn)",
+	"guidedtour-tour-gettingstarted-click-preview-description": "Bấm “{{int:showpreview}}” để xem trước trang với các thay đổi của bạn. Hãy nhớ lưu trang.",
+	"guidedtour-tour-gettingstarted-click-save-title": "Gần xong!",
+	"guidedtour-tour-gettingstarted-click-save-description": "Bấm “{{int:publishchanges}}” là các thay đổi của bạn sẽ được áp dụng vào trang.",
+	"gettingstarted-cta-close": "Đóng",
+	"gettingstarted-cta-heading": "Giúp cải thiện {{SITENAME}}",
+	"gettingstarted-cta-text": "Có nhiều cách để đóng góp vào {{SITENAME}}",
+	"gettingstarted-cta-edit-page": "Sửa đổi trang này",
+	"gettingstarted-cta-edit-page-sub": "Chúng tôi sẽ chỉ dẫn bạn",
+	"gettingstarted-cta-fix-pages": "Sửa đổi một trang được gợi ý",
+	"gettingstarted-cta-fix-pages-sub": "Chúng tôi sẽ chọn một công việc dễ dàng",
+	"gettingstarted-cta-leave": "Thôi, có lẽ lần sau"
+}

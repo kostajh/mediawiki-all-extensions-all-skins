@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Devunt",
+			"Kwj2772",
+			"아라"
+		]
+	},
+	"group-patroller": "검토자",
+	"group-patroller-member": "{{GENDER:$1|검토자}}",
+	"grouppage-patroller": "{{ns:project}}:검토자",
+	"group-patroller.css": "/* 이 CSS 설정은 검토자에만 적용됩니다 */",
+	"group-patroller.js": "/* 이 자바스크립트 설정은 검토자에만 적용됩니다 */"
+}

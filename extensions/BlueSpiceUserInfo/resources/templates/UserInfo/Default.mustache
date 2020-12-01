@@ -1,0 +1,31 @@
+<div class="bs-userinfo-userimage">
+	{{{userimage}}}
+</div>
+<div class="bs-userinfo-right">
+	<div class="bs-userinfo-title">
+		<h3>
+			{{#title}}
+				{{{value}}} 
+			{{/title}}
+		</h3>
+		<span class="bs-userinfo-subtitle">
+			{{#subtitle}}
+				{{{value}}} 
+			{{/subtitle}}
+		</span>
+	</div>
+	<div class="bs-userinfo-beforecontent"></div>
+	<div class="bs-userinfo-content">
+		{{#content}}
+			<p class="bs-userinfo-content-item {{name}}">
+				<span class="bs-userinfo-content-item-label">
+					{{label}}: 
+				</span>
+				{{{value}}}
+			</p>
+		{{/content}}
+	</div>
+</div>
+<div class="bs-userinfo-aftercontent">
+	{{{aftercontent}}}
+</div>

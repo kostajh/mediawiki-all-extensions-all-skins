@@ -1,0 +1,208 @@
+<!--
+     page taken from
+     https://www.mediawiki.org/wiki/Extension:DataTable2/Usage
+-->
+== Usage ==
+
+=== Storing and displaying data ===
+
+Since data are saved to the database using the [[Manual:Hooks/NewRevisionFromEditComplete|NewRevisionFromEditComplete]] hook, no data is stored in the database when the page has not changed. Therefore, you should install the extension before using <code>&lt;datatable2&gt;</code> tags in your wiki pages. Otherwise, after installation, you need to modify each page containing <code>&lt;datatable2&gt;</code> tags in order to get the data actually saved.
+
+All pages storing data in DataTable2 tables are added to the tracking category defined by the [[{{NAMESPACE}}:{{BASEPAGENAME}}#Messages|system message]] <code>datatable2-producer-category</code>. You might decide to add some explanatory text to the category page.
+
+==== &lt;datatable2&gt; ====
+
+With '''&lt;datatable2&gt;''' tags, you display tabular data and optionally store it for use on other pages (or elsewhere on the same page). As a simple example, the following wikitext:
+
+<pre>
+<datatable2 table="demo table" class="wikitable">
+<head>
+|-
+! Page
+! Rating
+! Type
+</head>
+{{FULLPAGENAME}}|interesting page|extension description
+[[MW:Manual:Contents{{!}}Manual]]|very interesting page|manual page
+</datatable2>
+</pre>
+
+will display
+
+{| class="wikitable"
+|-
+! Page
+! Rating
+! Type
+|-
+| [[{{FULLPAGENAME}}]]
+| interesting page
+| extension description
+|-
+| [[MW:Manual:Contents|Manual]]
+| very interesting page
+| manual page
+|}
+
+The <code>table</code> argument tells the extension to store the data for later use in a logical table called 'demo table'; this has no influence on what is displayed here. A <code>&lt;head&gt;</code> tag is provided, which implies that the whole thing is wrapped into a wikitable, with the CSS class given in the <code>class</code> argument. Note the use of the <code><nowiki>{{!}}</nowiki></code> template in the data, which is necessary because the pipe character is used as a field separator.
+
+We can demonstrate some more features with a similar example:
+
+<pre>
+<datatable2 table="another demo"
+columns="page|rating|type"
+fs=";">
+<template>
+'''{{{page}}}''': ''{{{rating}}}'' - {{{type}}}
+</template>
+<!-- one-line comments are possible -->
+Extension:DataTable2;interesting page;extension description
+[[MW:Manual:Contents|Manual]];very interesting page;manual page
+</datatable2>
+</pre>
+
+This will display
+
+'''Extension:DataTable2''': ''interesting page'' - extension description
+
+'''[[MW:Manual:Contents|Manual]]''': ''very interesting page'' - manual page
+
+This time, each record is formatted using template code provided in a <code>&lt;template&gt;</code> tag, the columns have names which can be used in the template code, and the result is not automatically wrapped into a wikitable. You can also combine <code>&lt;head&gt;</code> and <code>&lt;template&gt;</code>, in which case they must be given in this order.
+
+Furthermore, a different field separator has been used, which allows to do without the <code><nowiki>{{!}}</nowiki></code> template. In the data, xml comments (&lt;!-- ... --&gt;) are detected and removed from each row. Comments spanning multiple rows and syntax errors (such as -- appearing inside comments) will not be detected.
+
+The following gives a complete list of possible arguments to the <code>&lt;datatable2&gt;</code> tag. All of them are optional.
+; args
+: Additional arguments to pass to the template for each record, in the usual wiki syntax, i.e. pipe-separated. This can be useful if you use the <code>template</code> argument (see below) to use the same template in several tables and want to pass table-specific argument to the template.
+; class
+: CSS classes for the table. Implies that the data are wrapped into a table, even if no <code>&lt;head&gt;</code> is given.
+; columns
+: Pipe-separated list of column names. Do not use names with leading underscores since they are reverved for  internal use. You must specify names at least for those columns that you will use in WHERE clauses.
+; debug
+: Show the generated wikitext instead of converting it to HTML.
+; fs
+: Field separator when parsing data. Either a string or a [http://www.php.net/manual/en/pcre.pattern.php PCRE] included in slashes.
+; rs
+: Record separator when parsing data. Either a string or a [http://www.php.net/manual/en/pcre.pattern.php PCRE] included in slashes.
+; table
+: Logical table where data is stored. Table names obey the same rules as page titles regarding allowed characters; furthermore, spaces and underscores are equivalent, and the first letter is automatically converted to uppercase (if this is configured for the main namespace in your wiki installation).
+; template
+: Name of a template to use to display the data.
+: Providing a template with the <code>template</code> argument is an alternative to providing the template code as a <code>&lt;template&gt;</code> tag in the page itself. This is useful if you have a number of similar tables in your wiki that you want to format with the same template code.
+
+=== Retrieving data ===
+
+When displaying data on a page, all pages where data are taken from are added to the list of used templates. This implies that a page will not be taken from a cache if underlying data have changed, and that the data source pages will be listed as if they were templates used on the page. Hence, in the edit preview, dependencies will be shown as "templates used on this page" (potentially including the page itself), and on the other hand, in the "What links here" page of data source page, all pages using this data will be shown as if they transcluded the page. Unfortunately, there is currently no wiki feature that allows to distinguish this kind of dependency from a normal template dependency.
+
+All pages using data from DataTable2 tables are added to the [[Help:Tracking_categories|tracking category]] defined by the system message <code>datatable2-consumer-category</code>. Furthermore, these pages will be added to individual tracking categories for each table used. The names of these tracking categories are created from the [[{{NAMESPACE}}:{{BASEPAGENAME}}#Messages|system message]] <code>datatable2-consumer-detail-category</code> (in your wiki's [[Manual:$wgLanguageCode|content language]]). You might decide to add some explanatory text to the category pages.
+
+==== &lt;dt2-showtable&gt; ====
+
+The '''&lt;dt2-showtable&gt;''' tag is very similar to the <code>&lt;datatable2&gt;</code> tag, with the difference that data are not given on the wikipage but read from a logical table previously created with a <code>&lt;datatable2&gt;</code> tag. Given the data specified above, an example could be:
+
+<pre>
+<dt2-showtable table="another demo" class="wikitable"
+where="type='extension description'">
+<head>
+|-
+! Page
+! Rating
+! Type
+</head>
+<template>
+|-
+! {{{page}}}
+| {{{rating}}}
+| {{{type}}}
+</template>
+</dt2-showtable>
+</pre>
+
+which will display:
+
+{| class='wikitable'
+
+|-
+! Page
+! Rating
+! Type
+
+|-
+! Extension:DataTable2
+| interesting page
+| extension description
+|}
+
+The possible arguments are the same as for &lt;datatable2&gt;, except that <code>table</code> is mandatory while <code>columns, fs</code> and <code>rs</code> do not apply. In addition, the following optional arguments can be given:
+
+; order-by
+: ORDER BY clause.
+; where
+: WHERE clause.
+
+The WHERE and ORDER BY clauses work as if the data were stored in tables in your database backend, hence they obey the SQL syntax and semantic rules. But for reasons of security, they are parsed, and the extension checks that only column names and identifiers on the [[{{NAMESPACE}}:{{BASEPAGENAME}}#LocalSettings.php|white list <code>$wgDataTable2</code>]] are used, in order to avoid SQL injection. Furthermore, characters like the semicolon which are not needed in the clauses but can be used for SQL injection purposes are forbidden outside of quoted strings. An error message is displayed if the clause is not acceptable in this sense.
+
+In most cases you will provide a template to display the data records since the records contain, in addition to the data you entered, also some fields about the page where the data was stored. The following fields are currently available:
+
+; dt2-src-fullpagename
+: The value of <code><nowiki>{{FULLPAGENAME}}</nowiki></code> in the page where data was stored.
+; dt2-src-pagename
+: The value of <code><nowiki>{{PAGENAME}}</nowiki></code> in the page where data was stored.
+
+All other page- and namespace-related variables (like <code>SUBPAGENAME</code> or <code>TALKPAGENAMEE</code>) can be derived from this with constructs like <code><nowiki>{{SUBPAGENAME:{{{dt2-src-fullpagename}}}}}</nowiki></code>.
+
+==== dt2-expand ====
+
+The '''dt2-expand''' parser function inserts a template which gets its input data from a single record, if one is found. It is used as follows:
+
+: <code><nowiki>{{</nowiki>#dt2-expand: ''template'' | ''table'' | ''where'' | ''default'' | &hellip; }}</code>
+
+The parser function takes the following parameters, where the first three are mandatory:
+
+* The name of the ''template'' to expand.
+* The logical ''table'' defined with the <code>&lt;datatable2&gt;</code> tag where the data should be taken from.
+* The ''where'' clause that should select at most one record. If more then one record is found, an error message is displayed.
+* Optionally the ''default'' text to return if no data are found. It is expanded only if needed, so using a complex template here does not lead to performance issues if used for unexpected errors only.
+* Optionally further arguments that are appended as template arguments to the data selected from the database.
+
+==== dt2-get ====
+
+The '''dt2-get''' parser function selects and caches a single record, if one is found, and optionally displays one column. If no column is specified, the record is retrieved from the database but nothing is shown on the page. If no record is found, the default (if any) is returned, even if no column was specified. You can use this in conditional constructs to test first whether there is a record, and if so, to display its data in some way.
+
+The parser function is used as follows:
+
+: <code><nowiki>{{</nowiki>#dt2-get: ''table'' | ''column'' | ''where'' | ''default'' }}</code>
+
+It takes the following parameters, where the first three are mandatory:
+
+* The logical ''table'' defined with the <code>&lt;datatable2&gt;</code> tag where the data should be taken from.
+* The ''where'' clause that should select at most one record. If more then one record is found, an error message is displayed.
+* The ''column'' name defined with the <code>&lt;datatable2&gt;</code> tag. The column field may be left blank, in which case data is cached for later usage with the [[#dt2-lastget|dt2-lastget]] parser function, but nothing is displayed.
+* Optionally the ''default'' text to return if no data are found. It is expanded only if needed, so using a complex template here does not lead to performance issues if used for unexpected errors only.
+
+==== dt2-lastget ====
+
+The '''dt2-lastget''' parser function displays data from the last record fetched with the <code>dt2-get</code> parser function. It is used as follows:
+
+: <code><nowiki>{{</nowiki>#dt2-lastget: ''column'' | ''default'' }}</code>
+
+The parser function takes the following parameters, where only the first one is mandatory:
+
+* The ''column'' name defined with the <code>[[#&lt;datatable2&gt;|&lt;datatable2&gt;]]</code> tag.
+* Optionally the ''default'' text to return if no data are found. It is expanded only if needed, so using a complex template here does not lead to performance issues if used for unexpected errors only.
+
+Using <code>dt2-lastget</code> is much more efficient than invoking <code>dt2-get</code> twice. But be careful when using this parser function. It is wise to use it only in wikitext very close to the corresponding <code>[[#dt2-get|dt2-get]]</code> invocation since otherwise the wikitext becomes difficult to understand and error-prone.
+
+==== Special pages ====
+
+Three special pages are provided to inspect the stored data:
+
+; [[Special:DataTable2Tables]]
+: Lists all logical tables defined with the extension. For each table, the number of contributing pages and the number of records are shown. The former links to [[Special:DataTable2Pages]], the latter to [[Special:DataTable2Data]].
+: This special page accepts one parameter, which can either be appended to the URL with a slash (e.g. Special:DataTable2Tables/Employees) or given as the REQUEST parameter <code>tablename</code>. The former takes precedence. The page will display tables whose names are greater or equal to this.
+; [[Special:DataTable2Pages]]
+: Lists all pages contributing to a table, listing for each page the number of contributed records.
+: This special page accepts two parameters, which can either be appended to the URL (e.g. Special:DataTable2Pages/Employees//Kampala) or given as the REQUEST parameters <code>tablename</code> and <code>pagename</code>. The former take precedence. The separator between parameters appended to the URL is configured with the global variable [[{{NAMESPACE}}:{{BASEPAGENAME}}#Configuration|$wgSpecialDataTable2PageParSep]]. The page will display for the given table those pages whose titles are greater or equal to the given one (regardless of the namespace).
+; [[Special:DataTable2Data]]
+: Lists the records in a table.
+: This special page accepts three parameters, which can either be appended to the URL (e.g. Special:DataTable2Pages/Employees//Kampala//Smith) or given as the REQUEST parameters <code>tablename, pagename</code> and <code>data</code>. The former take precedence. The separator between parameters appended to the URL is configured with the global variable [[{{NAMESPACE}}:{{BASEPAGENAME}}#Configuration|$wgSpecialDataTable2PageParSep]]. The page will display for the given table and page (if specified) those records where the content of the first field is greater or equal to the given one.

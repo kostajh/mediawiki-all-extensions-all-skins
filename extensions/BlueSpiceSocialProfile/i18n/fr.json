@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Thibaut120094",
+			"Verdy p"
+		]
+	},
+	"bs-socialprofile-desc": "Entité de profil pour ''BlueSpiceSocial''",
+	"bs-socialprofile-type": "Profil",
+	"bs-socialprofile-entityaction-changeimage": "ImageUtilisateur",
+	"bs-social-entityaction-editprofilefields": "Données de profil",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "« Utilisateur » donné non valide",
+	"bs-social-profile-field-name": "Nom",
+	"bs-social-profile-field-email": "Courriel",
+	"bs-social-profile-field-title": "Titre",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|M.|Mme/Mle|}}",
+	"bs-social-profile-field-department": "Département",
+	"bs-social-profile-field-function": "Fonction",
+	"bs-social-profile-field-location": "Lieu",
+	"bs-social-profile-field-phone": "Téléphone",
+	"bs-social-profile-field-validate-no-integer": "$1 doit être un nombre",
+	"bs-socialprofile-special-profiles-heading": "Profil",
+	"bs-social-profile-infoshowemail": "Afficher l’adresse de courriel dans le profil",
+	"socialprofiles": "Profils",
+	"bs-socialprofile-switch-classicprofile-label": "Profil classique",
+	"bs-socialprofile-switch-modernprofile-label": "Profil moderne",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Basculer au profil classique",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Basculer au profil moderne",
+	"action-social-editothersprofile": "modifier le profil d’autres utilisateurs",
+	"right-social-editothersprofile": "modifier le profil d’autres utilisateurs",
+	"action-socialprofile-viewspecialpage": "visualiser la page spéciale « {{int:socialprofiles}} »",
+	"right-socialprofile-viewspecialpage": "visualiser la page spéciale « {{int:socialprofiles}} »"
+}

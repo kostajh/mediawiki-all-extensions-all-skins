@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Devunt",
+			"Kwj2772",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"logofunctions-desc": "위키의 로고에 대한 파서 함수를 추가합니다",
+	"logofunctions-filenotexist": "오류: [[:File:$1]] 파일이 존재하지 않습니다."
+}

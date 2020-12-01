@@ -1,0 +1,45 @@
+{
+	"name": "BlueSpiceEmoticons",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:Emoticons",
+	"author": [
+		"Alex Wollangk",
+		"Marc Reymann",
+		"Sebastian Ulbricht",
+		"Mathias Scheer",
+		"Robert Vogel",
+		"Patric Wirth",
+		"Peter Böhm"
+	],
+	"descriptionmsg": "bs-emoticons-desc",
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceEmoticons": {
+					"className": "\\BlueSpice\\Emoticons\\Extension",
+					"extPath": "/BlueSpiceEmoticons"
+				}
+			}
+		}
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Emoticons\\":"src/"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"Hooks": {
+		"OutputPageBeforeHTML": "\\BlueSpice\\Emoticons\\Hook\\OutputPageBeforeHTML\\ReplaceEmoticons::callback"
+	},
+	"MessagesDirs": {
+		"BlueSpiceEmoticons": [
+			"i18n"
+		]
+	},
+	"manifest_version": 2
+}

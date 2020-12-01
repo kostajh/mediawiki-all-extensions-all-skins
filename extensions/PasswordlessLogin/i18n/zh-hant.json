@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"passwordlesslogin": "Passwordless Login",
+	"passwordlesslogin-desc": "透過確認在連接設備上的登入，提供可不需密碼的登入方式。",
+	"passwordlesslogin-verify-request": "請核對在您手機上的登入。",
+	"passwordlesslogin-error-no-authentication-workflow": "認證流程發生意外結束。",
+	"passwordlesslogin-no-challenge": "沒有需要確認的有效詢問，請嘗試再次認證。",
+	"passwordlesslogin-verification-pending": "驗證尚未核對。請在您的連接設備上，來核對您的登入請求。",
+	"passwordlesslogin-pair-device-step": "請按照說明來配對您的新設備。",
+	"passwordlesslogin-no-device-paired": "尚未有設備配對。",
+	"passwordlesslogin-verify-pair": "我們已發送登入請求到您的設備上，以核對是否有正確註冊。請確認請求並繼續。",
+	"passwordlesslogin-pair-device": "用於無密碼登入的配對設備",
+	"passwordlesslogin-login": "以您的智慧手機來登入",
+	"passwordlesslogin-pair-step-1": "1. 下載 MediaWiki PasswordlessLogin 應用程式",
+	"passwordlesslogin-pair-step-2": "2. 以應用程式掃描二維碼",
+	"passwordlesslogin-pair-step-3": "3. 一旦應用程式設定完畢後，繼續下個步驟",
+	"passwordlesslogin-authentication-app": "認證應用程式",
+	"apihelp-passwordlesslogin-summary": "為先前所產生的配對權杖來註冊新設備。",
+	"apihelp-passwordlesslogin-param-pairToken": "先前所產生的配對權杖用來識別使用者所要註冊的設備。",
+	"apihelp-passwordlesslogin-param-deviceId": "唯一設備識別碼可用來識別設備，以及能用設備預設訊息系統來對其發送通知（例如：用於 Android 設備的 Firebase 雲訊息傳遞）。",
+	"apihelp-passwordlesslogin-param-secret": "在設備上所產生的密碼，會使用來簽署發送到設備的詢問。此密碼被用來核對登入請求詢問的回應，並請確實保管好密碼。",
+	"apihelp-passwordlesslogin-verify-challenge-summary": "核對發送到設備上的登入請求。",
+	"apihelp-passwordlesslogin-verify-challenge-param-challenge": "發送到設備上且將被解決的詢問。",
+	"apihelp-passwordlesslogin-verify-challenge-param-response": "詢問的回應（解答）。解答內容應為：<br />&#160;1. 以 SHA512 作為簽章演算法的雜湊訊息鑑別碼（HMAC）<br />&#160;2. 預分享密碼作為對稱密鑰要素<br />&#160;3. 訊息鑑別碼資料是作為位元組陣列的詢問<br />&#160;4. 回應需為十六進位的字串<br />&#160;5. 回應必須是小寫",
+	"apihelp-passwordlesslogin-verify-login-summary": "檢查是否有已被設備核對過的登入請求。"
+}

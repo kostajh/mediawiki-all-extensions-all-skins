@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"security": "Rexistro de seguridade",
+	"security-desc": "Amplía a protección da páxina MediaWiki para permitir a restrición da visualización da páxina de contido",
+	"security-logpage": "Rexistro de seguridade",
+	"security-logpagetext": "Este é un rexistro das accións bloqueadad pola [https://www.mediawiki.org/wiki/Extension:SimpleSecurity extensión SimpleSecurity].",
+	"badaccess-read": "Advertencia: \"$1\" está aquí referida, pero non ten os permisos necesarios para acceder a ela.",
+	"security-info": "Hai $1 nesta páxina",
+	"security-info-toggle": "restricións de seguridade",
+	"security-inforestrict": "$1 está restrinxido a $2",
+	"security-desc-LS": "(aplícase porque esta páxina está en $1 \"$2\")",
+	"security-desc-PR": "(establecido desde a \"lapela de protección\")",
+	"security-infosysops": "Non hai restricións en vigor porque vostede é membro do grupo dos \"administradores\"",
+	"security-manygroups": "grupos $1 e $2",
+	"security-unchain": "Modificar as accións individualmente",
+	"security-type-category": "a categoría",
+	"security-type-namespace": "o espazo de nomes",
+	"security-restricttogroup": "Acceso ao contido restrinxido aos membros de \"$1\"",
+	"restriction-read": "Ler"
+}

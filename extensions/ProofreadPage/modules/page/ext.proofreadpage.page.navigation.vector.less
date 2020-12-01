@@ -1,0 +1,31 @@
+/* stylelint-disable selector-max-id */
+
+#ca-proofreadPagePrevLink.icon,
+#ca-proofreadPageNextLink.icon,
+#ca-proofreadPageIndexLink.icon {
+	a {
+		margin: 0;
+		padding: 0;
+		outline: 0;
+		display: block;
+		width: 26px;
+		/* This hides the text but shows the background image */
+		padding-top: 3.1em;
+		height: 0;
+		overflow: hidden;
+		background-position: 50% 75%;
+		background-size: auto auto;
+	}
+}
+
+#ca-proofreadPagePrevLink.icon a {
+	background-image: url( images/next-rtl.svg );
+}
+
+#ca-proofreadPageNextLink.icon a {
+	background-image: url( images/next-ltr.svg );
+}
+
+#ca-proofreadPageIndexLink.icon a {
+	background-image: url( images/collapse.svg );
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"ldapprovider-domain-config-not-found": "Nie udało się uzyskać dostępu do pliku konfiguracyjnego „$1”!\n\nUstaw plik konfiguracyjny domeny dla rozszerzenia LDAPProvider."
+}

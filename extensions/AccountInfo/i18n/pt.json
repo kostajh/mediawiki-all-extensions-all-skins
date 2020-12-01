@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"accountinfo": "Informação da conta",
+	"accountinfo-desc": "Permite que um utilizador veja as informações privadas armazenadas sobre si",
+	"accountinfo-ts": "Data e hora",
+	"accountinfo-ip": "Endereço IP",
+	"accountinfo-ua": "User-Agent",
+	"accountinfo-xff": "XFF header",
+	"accountinfo-length": "A informação é armazenada durante $1.",
+	"accountinfo-now": "Agora"
+}

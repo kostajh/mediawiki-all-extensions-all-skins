@@ -1,0 +1,171 @@
+{
+	"name": "Citoid",
+	"version": "0.3.0",
+	"author": [
+		"Marielle Volz",
+		"Moriel Schottlender",
+		"Ed Sanders"
+	],
+	"url": "https://www.mediawiki.org/wiki/Citoid",
+	"descriptionmsg": "citoid-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34.0",
+		"extensions": {
+		}
+	},
+	"MessagesDirs": {
+		"Citoid": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"CitoidHooks": "includes/CitoidHooks.php",
+		"CitoidDataModule": "includes/CitoidDataModule.php"
+	},
+	"ResourceModules": {
+		"ext.citoid.visualEditor": {
+			"localBasePath": "modules/ve",
+			"remoteExtPath": "Citoid/modules/ve",
+			"scripts": [
+				"ve.ui.CiteSourceSelectWidget.js",
+				"ve.ui.CitoidInspectorTool.js",
+				"ve.ui.CitoidGroupWidget.js",
+				"ve.ui.CitoidReferenceWidget.js",
+				"ve.ui.CitoidInspector.js",
+				"ve.ui.CitoidAction.js",
+				"ve.ui.Citoid.init.js"
+			],
+			"styles": [
+				"ve.ui.CiteSourceSelectWidget.css",
+				"ve.ui.CitoidInspector.css",
+				"ve.ui.CitoidReferenceContextItem.css"
+			],
+			"dependencies": [
+				"ext.cite.visualEditor",
+				"ext.visualEditor.mediawiki",
+				"mediawiki.api",
+				"ext.citoid.visualEditor.data"
+			],
+			"messages": [
+				"citoid-action-replace",
+				"citoid-citation-widget-insert-button",
+				"citoid-citoiddialog-back",
+				"citoid-citoiddialog-credit",
+				"citoid-citoiddialog-lookup-button",
+				"citoid-citoiddialog-mode-auto",
+				"citoid-citoiddialog-mode-manual",
+				"citoid-citoiddialog-mode-reuse",
+				"citoid-citoiddialog-search",
+				"citoid-citoiddialog-search-label",
+				"citoid-citoiddialog-search-placeholder",
+				"citoid-citoiddialog-search-progress",
+				"citoid-citoiddialog-title",
+				"citoid-citoiddialog-title-replace",
+				"citoid-citoiddialog-use-general-error-message",
+				"citoid-citoidtool-title",
+				"citoid-citoidtool-title-othergroup",
+				"citoid-referencecontextitem-convert-button",
+				"citoid-referencecontextitem-convert-message",
+				"citoid-unknown-error"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.citoid.visualEditor.data": {
+			"class": "CitoidDataModule"
+		},
+		"ext.citoid.wikibase.init": {
+			"localBasePath": "modules/wikibase",
+			"remoteExtPath": "Citoid/modules/wikibase",
+			"packageFiles": [
+				"wb.Citoid.init.js",
+				{
+					"name": "data.json",
+					"callback": "CitoidHooks::getWikibaseInitData"
+				}
+			],
+			"targets": [
+				"desktop"
+			]
+		},
+		"ext.citoid.wikibase": {
+			"localBasePath": "modules/wikibase",
+			"remoteExtPath": "Citoid/modules/wikibase",
+			"scripts": [
+				"wb.CitoidClient.js",
+				"wb.CitoidLanguageConverter.js",
+				"wb.CitoidPendingDialog.js",
+				"wb.CitoidToolReferenceEditor.js",
+				"wb.CitoidToolTabRenderer.js",
+				"wb.CitoidTool.js"
+			],
+			"styles": [
+				"wb.Citoid.css"
+			],
+			"dependencies": [
+				"ext.citoid.wikibase.init",
+				"oojs-ui",
+				"jquery.ui"
+			],
+			"messages": [
+				"citoid-wb-referenceview-tabs-automatic",
+				"citoid-wb-referenceview-tabs-search",
+				"citoid-wb-referenceview-tabs-search-label",
+				"citoid-wb-pendingdialog-error",
+				"citoid-wb-pendingdialog-message",
+				"citoid-wb-pendingdialog-title"
+			],
+			"targets": [
+				"desktop"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Citoid"
+	},
+	"QUnitTestModule": {
+		"localBasePath": "",
+		"remoteExtPath": "Citoid",
+		"scripts": [
+			"modules/ve/tests/index.test.js"
+		],
+		"dependencies": [
+			"ext.citoid.visualEditor"
+		]
+	},
+	"Hooks": {
+		"ResourceLoaderGetConfigVars": "CitoidHooks::onResourceLoaderGetConfigVars",
+		"BeforePageDisplay": "CitoidHooks::onBeforePageDisplay",
+		"GetPreferences": "CitoidHooks::onGetPreferences"
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.citoid.visualEditor"
+			]
+		}
+	},
+	"config": {
+		"CitoidServiceUrl": {
+			"value": false,
+			"description": "Full url to use the native citoid api, i.e. http://localhost:1970/api. Only used if VisualEditorFullRestbaseURL is null."
+		},
+		"CitoidFullRestbaseURL": {
+			"value": false,
+			"description": "Full url to use a citoid service running behind restbase, i.e. https://en.wikipedia.org/api/rest_. Overwrites default, which is to use VisualEditorFullRestbaseURL."
+		},
+		"WBCitoidFullRestbaseURL": {
+			"value": false,
+			"description": "Full url to use a citoid service running behind restbase, used by wikibase module/repository, i.e. https://en.wikipedia.org/api/rest_"
+		}
+	},
+	"ConfigRegistry": {
+		"citoid": "GlobalVarConfig::newInstance"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,4 @@
+/* Don't center things on the ProblemReports dialog */
+div#reportProblemForm {
+	text-align: justify;
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-categorycheck-extension-description": "Verifica a categoria atribuída antes que um artigo seja salvo",
+	"bs-categorycheck-insertcategory-no-category": "Atribua uma categoria ao artigo",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Ignorar",
+	"bs-categorycheck-insertcategory-category-list": "As seguintes categorias são definidas",
+	"bs-categorycheck-insertcategory-confirm-categories": "As categorias estão corretas",
+	"bs-categorycheck-nsm-label-categorycheck": "CategoryCheck"
+}

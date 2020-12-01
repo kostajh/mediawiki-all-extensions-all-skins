@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"ValeJappo"
+		]
+	},
+	"bs-readconfirmation-confirm-read-button-label": "Conferma",
+	"bs-readconfirmation-action-apiread-confirm-description": "Segna $1 come letto",
+	"notification-bs-readconfirmation-remind-summary": "$1 ti ricorda di leggere $3",
+	"bs-readconfirmation-disabled-ns-short": "Disattivato"
+}

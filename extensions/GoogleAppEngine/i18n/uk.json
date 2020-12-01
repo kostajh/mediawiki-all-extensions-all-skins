@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"gae-desc": "Забезпечує вдосконалення для вікі, що працюють на GoogleAppEngine",
+	"apihelp-gaejobqueue-description": "Внутрішній модуль API для запуску JobQueue. Зовнішнє використання заборонене.",
+	"apihelp-gaejobqueue-summary": "Внутрішній модуль API для запуску JobQueue. Зовнішнє використання не дозволене.",
+	"apihelp-gaejobqueue-param-namespace": "Числовий ідентифікатор простору назв.",
+	"apihelp-gaejobqueue-param-titletext": "Текст назви без простору назв.",
+	"apihelp-gaejobqueue-param-type": "Тип завдання.",
+	"apihelp-gaejobqueue-param-params": "PHP-серіалізовані параметри для завдання."
+}

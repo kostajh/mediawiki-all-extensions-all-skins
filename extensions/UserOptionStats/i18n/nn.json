@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gunnernett"
+		]
+	},
+	"useroptionstats": "Statistikk for brukarval",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Spesiell side]] for rapportar om bruk av MediaWiki brukarval",
+	"uos-warn": "PHPlot er ikkje installert!",
+	"uos-choose": "Vel eitt av dei fylgjande brukarvala: $1",
+	"uos-unknown": "*Standard",
+	"uos-other": "*Annan",
+	"uos-title": "Spreiing i verdiar for brukarval $1"
+}

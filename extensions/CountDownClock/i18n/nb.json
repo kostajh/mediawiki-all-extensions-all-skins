@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"countDownClock-desc": "Legger til en parserfunksjon for å vise nedtellingstid",
+	"countDownClock-invalidtime": "Vennligst angi en gyldig endTime-parameter",
+	"countDownClock-days": "$1 {{PLURAL:$1|dag|dager}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|time|timer}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|minutt|minutter}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|sekund|sekunder}}",
+	"countDownClock-expired": "Utløpt"
+}

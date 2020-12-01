@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"shibboleth-desc": "提供使用 Shibboleth 與 PluggableAuth 結合的驗證",
+	"shibboleth-wg-empty-displayname": "在 LocalSettings.php 裡的 <var>wgShibboleth_DisplayName</var> 設置變數為空",
+	"shibboleth-wg-empty-email": "在 LocalSettings.php 裡的 <var>wgShibboleth_Email</var> 設置變數為空",
+	"shibboleth-wg-empty-username": "在 LocalSettings.php 裡的 <var>wgShibboleth_Username</var> 設置變數為空",
+	"shibboleth-wg-empty-groupmap-attr": "在 LocalSettings.php 裡的 <var>wgShibboleth_GroupMap</var> 設置變數為空",
+	"shibboleth-attr-empty-username": "Shibboleth：使用者名稱屬性未設定",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth：找不到 GroupMap 屬性"
+}

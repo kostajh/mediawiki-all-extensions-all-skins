@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Florian Schmidt",
+			"Siebrand",
+			"Umherirrender"
+		]
+	},
+	"googleanalyticstoppages-desc": "{{desc|name=GoogleAnalyticsTopPages|url=https://www.mediawiki.org/wiki/Extension:GoogleAnalyticsTopPages}}\n\n\"Top pages\" are the most often visited pages.",
+	"apihelp-googlepagestatsupdate-param-key": "{{doc-apihelp-param|googlepagestatsupdate|key}}",
+	"apihelp-googlepagestatsupdate-description": "{{doc-apihelp-description|googlepagestatsupdate}}",
+	"apihelp-googlepagestatsupdate-summary": "{{doc-apihelp-summary|googlepagestatsupdate}}"
+}

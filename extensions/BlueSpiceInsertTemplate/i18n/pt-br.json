@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-insertTemplate-desc": "Diálogo para inserir uma predefinição",
+	"bs-insertTemplate-button-template-title": "Inserir ou editar predefinição",
+	"bs-insertTemplate-dialog-title": "Inserir predefinição",
+	"bs-insertTemplate-dialog-label-choose": "Escolher predefinição",
+	"bs-insertTemplate-dialog-label-modify": "Modificar predefinição",
+	"bs-insertTemplate-dialog-label-preview": "Pré-visualizar",
+	"apihelp-bs-inserttemplate-store-description": "Lista todas as predefinições. Permite ordenar, filtrar e paginar. Implementa os parâmetros ExtJS Store.",
+	"apihelp-bs-inserttemplate-store-summary": "Lista todas as predefinições. Permite ordenar, filtrar e paginar. Implementa os parâmetros ExtJS Store."
+}

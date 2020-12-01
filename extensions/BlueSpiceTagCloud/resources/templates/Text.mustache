@@ -1,0 +1,11 @@
+{{#content}}
+	<li style="font-size:{{weight}}px">
+		{{{renderedlink}}}
+		{{^renderedlink}}
+			<a href="{{link}}" title="{{name}}">{{name}}</a>
+		{{/renderedlink}}
+		{{#showcount}}
+			<span class="counter">({{count}})</span>
+		{{/showcount}}
+	</li>
+{{/content}}

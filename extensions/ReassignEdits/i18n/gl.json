@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"reassignedits": "Reasignar edicións de usuario",
+	"reassignedits-desc": "Permite reasignar edicións dun usuario vello a outro novo",
+	"reassignedits-error-invalid": "O nome de usuario \"$1\" non é válido.",
+	"reassignedits-new": "Novo nome de usuario",
+	"reassignedits-old": "Antigo nome de usuario",
+	"reassignedits-submit": "Enviar",
+	"reassignedits-success": "As edicións de \"$1\" reasignáronse a \"$2\".",
+	"reassignedits-summary": "Reasignar as edicións dun usuario vello a outro novo.",
+	"reassignedits-updatelog-title": "Actualizar o nome de usuario nos rexistros",
+	"reassignedits-updatelog-user": "Actualizar o usuario de execución nos rexistros",
+	"right-reassignedits": "Reasignar edicións dun usuario vello a outro novo"
+}

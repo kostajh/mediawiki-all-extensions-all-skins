@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Janezdrilc"
+		]
+	},
+	"updatemediawiki": "Posodobi MediaWiki",
+	"updatemediawiki-desc": "Omogoči posodobitev MediaWiki preko posebne strani",
+	"updatemediawiki-current": "Trenutna različica $1",
+	"updatemediawiki-update-nofound": "Ni na voljo posodobitev",
+	"updatemediawiki-update-found": "Najdena nova posodobitev: $1",
+	"updatemediawiki-update-downloading": "Prenašam novo posodobitev",
+	"updatemediawiki-update-saved": "Posodobitev naložena in shranjena",
+	"updatemediawiki-update-exist": "Posodobitev je že prenešena",
+	"updatemediawiki-update-copyready": "Kopiranje je pripravljeno",
+	"updatemediawiki-update-database": "Posodobim podatkovno zbirko sedaj?",
+	"updatemediawiki-update-updateready": "Posodobitev je pripravljena",
+	"updatemediawiki-update-install": "Inštaliram sedaj?",
+	"updatemediawiki-update-updated": "MediaWiki posodobljen na različico $1",
+	"updatemediawiki-update-error": "Ni bilo mogoče najti najnovejših izdaj",
+	"updatemediawiki-update-aborted": "Ni bilo mogoče shraniti nove posodobitve. Postopek prekinjen"
+}

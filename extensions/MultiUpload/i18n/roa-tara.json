@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"multiupload": "Careche cchiù file",
+	"multiupload-desc": "[[Special:MultiUpload|Pàgena speciale pe carecà cchiù file jndr'à 'na botta sole]]",
+	"multiupload-text": "Ause 'u module aqquà sotte pe carecà cchiù file.\nPe 'ndrucà ' cercà le file carecate apprime vèje a l'[[Special:FileList|elenghe de le file carecate]], le carecaminde avènene archiviate jndr'à l'[[Special:Log/upload|archivije de le carecaminde]], le scangellaziune jndr'à l'[[Special:Log/delete|archjivije de le scangellaziune]].\n\nPe 'ngludere 'nu file jndr'à 'na pàgene, ause 'nu collegamende jndr'à ste mode:\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.jpg]]</nowiki></code></strong> pe ausà 'a versione comblete d'u file\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.png|200px|thumb|left|alt text]]</nowiki></code></strong> pe ausà 'na renderizzazione a 200 pixel jndr'à 'na buatte cu \"alt text\" cumme descrizione\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:File.ogg]]</nowiki></code></strong> pe collegà direttamende a 'u file senze ca face 'ndrucà 'u file.\n\n'Na vote ca è scacchiate 'u file, sta pàgene avène spannute, permettenne de scacchià cchiù file apprime d'u carecamende.\n\nPe scombattà 'nu file <code>.zip</code>, <code>.tar</code>, <code>.tar.gz</code>, or <code>.tgz</code> e carecà le file ca stonne jndr'à lore, scacchie 'nu file pacchette e allore ause 'u buttone \"{{int:multiupload-unpack-button}}\" ca iesse.",
+	"multipleupload": "Careche le file",
+	"multipleupload-toolbox": "Careche cchiù file",
+	"multiupload-submit": "Careche le file",
+	"multiupload-uploadedto": "File carecate $1.",
+	"multiupload-row": "File $1",
+	"multiupload-unpack-button": "Scombatte",
+	"multiupload-notify-ok": "OK",
+	"multiupload-upload-package-error": "Errore carecanne 'u file d'u pacchette",
+	"multiupload-unpack-error": "Errore scombattanne 'u file d'u pacchette",
+	"multiupload-unreadable-package": "No ge pozze leggere 'u file $1",
+	"multiupload-http-error": "Non ge se riesce a collegarse a 'u server.",
+	"multiupload-file-unpacked-from": "File <b>$1</b> da 'u condenitore <b>$2</b>",
+	"apihelp-multiupload-unpack-description": "Scombatte 'u file ZIP o tar apprime de 'mbortà le condenute sue.",
+	"apihelp-multiupload-unpack-summary": "Scombatte 'u file ZIP o tar apprime de 'mbortà le condenute sue.",
+	"apihelp-multiupload-unpack-param-key": "\"filekey\" pigghiate quanne ste carecave 'u file d'u pacchette da sistemà",
+	"apihelp-multiupload-unpack-param-filename": "Nome d'u file d'u pacchette"
+}

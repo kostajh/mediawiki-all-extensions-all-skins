@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"slippymap_desc": "Autoriza l’utilizacion de la balisa <tt><nowiki>&lt;slippymap&gt;</nowiki></tt> per afichar una mapa lisanta d’OpenLayers. Las mapas provenon de [http://openstreetmap.org openstreetmap.org]",
+	"slippymap_latmissing": "Valor lat mancanta (per la latitud).",
+	"slippymap_lonmissing": "Valor lon mancanta (per la longitud).",
+	"slippymap_zoommissing": "Valor z mancanta (pel nivèl del zoom).",
+	"slippymap_longdepreciated": "Utilizatz « lon » al luòc de « long » (lo paramètre es estat renomenat).",
+	"slippymap_widthnan": "La largor (w) qu'a per valor « $1 » es pas un nombre entièr corrèct.",
+	"slippymap_heightnan": "La nautor (h) qu'a per valor « $1 » es pas un nombre entièr corrèct.",
+	"slippymap_zoomnan": "Lo zoom (z) qu'a per valor « $1 » es pas un nombre entièr corrèct.",
+	"slippymap_latnan": "La latitud (lat) qu'a per valor « $1 » es pas un nombre corrèct.",
+	"slippymap_lonnan": "La longitud (lon) qu'a per valor « $1 » es pas un nombre corrèct.",
+	"slippymap_widthbig": "La valor de la largor (w) pòt pas excedir 1000",
+	"slippymap_widthsmall": "La valor de la largor (w) pòt pas èsser inferiora a 100",
+	"slippymap_heightbig": "La valor de la nautor (h) pòt pas excedir 1000",
+	"slippymap_heightsmall": "La valor de la nautor (h) pòt pas èsser inferiora a 100",
+	"slippymap_latbig": "La valor de la latitud (lat) pòt pas excedir 90",
+	"slippymap_latsmall": "La valor de la latitud (lat) pòt pas èsser inferiora a -90",
+	"slippymap_lonbig": "La valor de la longitud (lon) pòt pas excedir 180",
+	"slippymap_lonsmall": "La valor de la longitud (lon) pòt pas èsser inferiora a -180",
+	"slippymap_zoomsmall": "La valor del zoom (z) pòt pas èsser negativa",
+	"slippymap_zoom18": "La valor del zoom (z) pòt excedir 17. Notatz qu'aqueste croquet d’extension MediaWiki dins lo jaç « osmarender » de OpenStreetMap pòt pas anar de delà del nivèl 17 del zoom. Lo jaç Mapnik disponible sus openstreetmap.org, pòt pas anar de delà del nivèl 18.",
+	"slippymap_zoombig": "La valor del zoom (z) pòt pas excedir 17.",
+	"slippymap_invalidlayer": "Valor de « $1 » del « jaç » incorrècta",
+	"slippymap_maperror": "Error de mapa :",
+	"slippymap_osmtext": "Vejatz aquesta mapa sus OpenStreetMap.org",
+	"slippymap_code": "Còde Wiki pel visionament d'aquesta mapa :",
+	"slippymap_button_code": "Obténer lo còde wiki",
+	"slippymap_resetview": "Tornar inicializar lo visionament"
+}

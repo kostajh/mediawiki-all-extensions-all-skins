@@ -1,0 +1,121 @@
+<!-- 
+     page taken from 
+     https://www.mediawiki.org/wiki/Extension:DynamicPageListEngine/Usage
+-->  
+== Usage ==
+
+For use on php level, please refer to the integrated doxygen documentation. For use on Lua level, see [[{{NAMESPACE}}:{{BASEPAGENAME}}#Lua library|Lua library]].
+
+The accepted parameters and other aspects of the behaviour are implemented as features corresponding to php classes. With the variable <code>[[{{NAMESPACE}}:{{BASEPAGENAME}}#Configuration|$wgDynamicPageListEngineFeatures]]</code> in [[{{NAMESPACE}}:{{BASEPAGENAME}}#LocalSettings.php|LocalSettings.php]] you can configure which features you want to enable. The bundled features are described in the following sections, where the titles correspond to the class names without the prefix "DynamicPageListEngineFeature".
+
+Unless otherwise stated, using arrays as parameter values return the intersection of the individual result sets. If the parameters contradict each other (e.g. the same namespace is nominated in <code>namespace</code> and in <code>not namespace</code>), the results are undefined.
+
+=== Namespace ===
+
+Select by namespace. Recognizes the parameters <code>namespace</code> and <code>notnamespace</code> which may be a namespace name or namespace index or an array thereof. Any invalid value, including the empty string, is interpreted as the main namespace, for compatibility with [[Extension:DynamicPageList (Wikimedia)|DynamicPageList (Wikimedia)]].
+
+If <code>namespace</code> is an array, the result set consists (obviously) in the pages in ''any'' of the namespaces, i.e. the result set is the union of the individual result sets, unlike other parameters (including <code>notnamespace</code>) where the result set is the intersection.
+
+=== Category ===
+
+Select by category. Recognizes the parameters <code>category</code> and <code>notcategory</code>. Each of them may be a string or an array. If <code>category</code> is an array, the result set consists in the pages contained in ''all'' listed categories. If <code>notcategory</code> is an array, the result set consists in the pages contained in ''none'' of the listed categories. 
+
+=== Redirects ===
+
+Include or exclude redirects. Recognizes the parameter <code>redirects</code>,
+which may be one of <code>exclude|include|only|resolve</code>.
+
+Default is <code>exclude</code>, for compatibility with [[Extension:DynamicPageList (Wikimedia)|DynamicPageList (Wikimedia)]].This implies that enabling this feature in <code>[[{{NAMESPACE}}:{{BASEPAGENAME}}#Configuration|$wgDynamicPageListEngineFeatures]]</code> will change the result set of a dynamic page list even for parameter sets which do not contain the <code>redirects</code> parameter, if the result set would contain redirects.
+
+The value <code>resolve</code> selects only redirects just like <code>only</code>, but in addition the target for each redirect is retrieved. This means that the result objuect for each page has a property <code>target</code> which is an associative array of properties of the redirect target.
+
+=== Titlematch ===
+
+Select by title prefix, suffix or fragment. Recognizes the parameters <code>titleprefix, nottitleprefix, titlesuffix, nottitlesuffix, titlecontains</code> and <code>nottitlecontains</code>, each of which may be a title substring or an array thereof. As usual, spaces and underscores in titles are equivalent.
+
+If <code>titleprefix, titlesuffix, titlecontains</code> is an array, the result set consists (obviously) in the pages satisfying ''any'' of the conditions, i.e. the result is the union of the individual result sets, unlike other parameters (including <code>nottitleprefix</code>) where the result set is the intersection.
+
+This class implements a <code>[not]title{prefix suffix contains}</code> condition for substrings, but not a general <code>[not]titlematch</code> for LIKE patterns, because escaping of the <code>%</code> and <code>_</code> characters depends on the database backend and hence it could not be ensured that a condition containing these metacharacters supplies the same result on all database backends.
+
+=== Subpages ===
+
+Include or exclude subpages. Recognizes the parameter <code>subpages</code>, which may be one of <code>exclude|include|only</code>. Default is <code>exclude</code>, for consistency with the [[#Redirects|Redirects]] feature.
+
+This implies that enabling this feature in [[{{NAMESPACE}}:{{BASEPAGENAME}}#Configuration|$wgDynamicPageListEngineFeatures]] will change the result set of a dynamic page list even for parameter sets which do not contain the <code>subpages</code> parameter, if the result set would contain subpages.
+
+Subpage selection works with a simple LIKE '%/%' expression, regardless of whether the namespace of a page has subpages enabled. To distinguish whether subpages are enabled, a CASE expression or something similar would need to be evaluated for each single row, and it would be difficult to implement this in an efficient ''and'' portable way.
+
+=== Linksto ===
+
+Select pages linking to the specified pages. Recognizes the parameters <code>linksto</code> and <code>notlinksto</code>. Each of them may be a string or an array. The result set differs from the result of "What links here" because it does not contain redirects, for compatibility with [[Extension:DynamicPageList (third-party)|DynamicPageList (third-party)]].
+
+=== Linksfrom ===
+
+Select paged linked from specified pages. Recognizes the parameters <code>linksfrom</code> and <code>notlinksfrom</code>. Each of them may be a string or an array. The names are chosen for compatibility with [[Extension:DynamicPageList (third-party)|DynamicPageList (third-party)]].
+
+=== Redirectsto ===
+
+Select pages redirecting to the specified pages. Recognizes the parameters <code>redirectsto</code> and <code>notredirectsto</code>. Each of them may be a string or an array.
+
+=== Uses ===
+
+Select pages using the specified pages as templates. Recognizes the parameters <code>uses</code> and <code>notuses</code>. Each of them may be a string or an array. The results are the same as with [[Extension:DynamicPageList (third-party)|DynamicPageList (third-party)]].
+
+=== Usedby ===
+
+Select pages used as templates by the specified pages. Recognizes the parameters <code>usedby</code> and <code>notusedby</code>. Each of them may be a string or an array. The results are the same as with [[Extension:DynamicPageList (third-party)|DynamicPageList (third-party)]].
+
+=== Imageused ===
+
+Select pages that contain the specified images. Recognizes the parameters <code>imageused</code> and <code>notimageused</code>. Each of them may be a string or an array. The names are chosen for compatibility with [[Extension:DynamicPageList (third-party)|DynamicPageList (third-party)]].
+
+=== Imagecontainer ===
+
+Select images that are contained in the specified pages. Recognizes the parameters <code>imagecontainer</code> and <code>notimagecontainer</code>. Each of them may be a string or an array. The names are chosen for compatibility with [[Extension:DynamicPageList (third-party)|DynamicPageList (third-party)]].
+
+=== Contains ===
+
+Select categories which contain the specified pages. Recognizes the parameters <code>contains</code> and <code>notcontains</code>. Each of them may be a string or an array.
+
+=== Extra ===
+
+Select pages by extra information in category tags. You can add ''extra information'' in a category sort key, in constructs like <code><nowiki>[[Category:...|user:{{PAGENAME}}|head of team]]</nowiki></code>. For MediaWiki, the whole string <code><nowiki>user:{{PAGENAME}}|head of team</nowiki></code> is the sort key. The extension considers the part after the second pipe character (<code>head of team</code> in the example) as extra information.
+
+The feature recognizes the parameters <code>extra</code> and <code>notextra</code>. <code>extra</code> selects exact matches of the extra information appended to the sort key for the first category specified with the <code>category</code> parameter. <code>notextra</code> selects the complement of this. If no categories are selected, these parameters are silently ignored. 
+
+If <code>extra</code> is an array, the result set consists (obviously) in the pages satisfying ''any'' of the conditions, i.e. the result is the union of the individual record sets, unlike other parameters (including <code>notextra</code>) where the result set is the intersection.
+
+=== Extrax ===
+
+Select categories by [[#Extra|extra information]] in category tags. 
+
+The feature recognizes the parameters <code>extrax</code> and <code>notextrax</code>. <code>extrax</code> selects categories with exact matches for the extra information appended to the sort key for the first page specified with the <code>contains</code> parameter. <code>notextrax</code> selects the complement of this. If no <code>contains</code> parameter was used, these parameters are silently ignored. 
+
+If <code>extrax</code> is an array, the result set consists (obviously) in the pages satisfying ''any'' of the conditions, i.e. the result is the union of the individual record sets, unlike other parameters (including <code>notextrax</code>) where the result is the intersection.
+
+=== User ===
+
+Selection by modifying user. Recognizes the parameters <code>createdby, notcreatedby, modifiedby, notmodifiedby, lastmodifiedby</code> and <code>notlastmodifiedby</code>, each of which may be a title substring or an array thereof.
+
+If <code>createdby, modifiedby, lastmodifiedby</code> is an array, the result set consists in the pages satisfying ''any'' of the conditions, i.e. the result is the union of the individual record sets, unlike other parameters (including <code>notcreatedby</code>) where the result is the intersection.
+
+Use of <code>[not]modifiedby</code> is likely to create much more database load than the other parameters because the record sets to join may be very large. This is reflected in <code>[[{{NAMESPACE}}:{{BASEPAGENAME}}#Configuration|$wgDynamicPageListEngineCondCostMap]]</code>, but you might need to adjust this value. You can effectively disable these parameters by setting their cost higher than the value of <code>[[{{NAMESPACE}}:{{BASEPAGENAME}}#$wgDynamicPageListEngineMaxCost|$wgDynamicPageListEngineMaxCost]]</code>.
+
+=== Count ===
+
+Limit the number of records to fetch from the database. Recognizes the parameter <code>count</code> which gives the limit. Invalid values (including 0) are interpreted as 1, for compatibility with [[Extension:DynamicPageList (Wikimedia)|DynamicPageList (Wikimedia)]]. In any case, the number is limited to <code>[[{{NAMESPACE}}:{{BASEPAGENAME}}#Configuration|$wgDynamicPageListEngineMaxResultCount]]</code>.
+
+=== Order ===
+
+Sort the result records. Recognizes the parameters <code>order</code> (default <code>descending</code>) and <code>ordermethod</code> (default <code>categoryadd</code>). Some values are replaced by fallback values if no category was indicated. Defaults and fallback values are chosen for compatibility with [[Extension:DynamicPageList (Wikimedia)|DynamicPageList (Wikimedia)]].
+
+In addition to the <code>ordermethod</code> values recognized by [[Extension:DynamicPageList (Wikimedia)|DynamicPageList (Wikimedia)]], the value <code>title</code> is accepted as well. It sorts by title without namespace prefix.
+
+=== Check ===
+
+Check whether the whole specification is acceptable in terms of database load.
+
+=== Results ===
+
+Convert query results to other representations. See [[{{NAMESPACE}}:{{BASEPAGENAME}}#Lua library|Lua library]] for details.
+

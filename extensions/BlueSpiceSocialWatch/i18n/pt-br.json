@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-socialwatch-desc": "Funcionalidade de vigiar para entidades BlueSpiceSocial",
+	"bs-socialwatch-watchtext": "Vigiar",
+	"bs-socialwatch-unwatchtext": "Deixar de vigiar",
+	"bs-socialwatch-var-watch": "Vigiar",
+	"apihelp-bs-socialwatch-tasks-summary": "Fornece tarefas para editar o status de observação das entidades"
+}

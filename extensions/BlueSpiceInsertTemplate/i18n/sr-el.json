@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bs-insertTemplate-desc": "Dijalog za ubacivanje šablona",
+	"bs-insertTemplate-button-template-title": "Umetni ili uredi šablon",
+	"bs-insertTemplate-dialog-title": "Ubacivanje šablona",
+	"bs-insertTemplate-dialog-label-choose": "Izbor šablona",
+	"bs-insertTemplate-dialog-label-modify": "Izmenjivanje šablona",
+	"bs-insertTemplate-dialog-label-preview": "Pretpregled",
+	"apihelp-bs-inserttemplate-store-description": "Spisak svih šablona. Omogućava sortiranje, filtriranje i paginaciju. Implementira ExtJS Store parametre."
+}

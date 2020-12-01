@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"page-creation-notif-desc": "Sćelo e-mailowu powěźeńku, gaž se nowe boki napóraju",
+	"page-creation-notification": "E-mail pósłaś, gaž se nowy bok napórajo",
+	"page-creation-email-subject": "Nowy bok - $3 jo $1 na $2 {{GENDER:$3|napórał|napórała}}",
+	"page-creation-email-body": "Witaj $1,\n\nTo jo zdźělenje wót {{GRAMMAR:genitiw|{{SITENAME}}}}, až wužywaŕ $3 jo {{GENDER:$3|napórał|napórała}} nowy bok $2.\n\nMóžoš jen how wiźeś\n$4\n\nTekst boka jo:\n$5\n\nTwój pśijaśelny zdźěleński system projekta {{SITENAME}}.\n\nAby swóje nastajenja za e-mailowe zdźělenje změnił, woglědaj se k\n{{canonicalurl:{{#special:Preferences}}}}"
+}

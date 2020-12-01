@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nad"
+		]
+	},
+	"categorywatch-desc": "Extends watchlist functionality to include notification about membership changes of watched categories",
+	"categorywatch-emailsubject": "Activity involving watched category \"$1\"",
+	"categorywatch-catmovein": "$1 has moved into $2 from $3",
+	"categorywatch-catmoveout": "$1 has moved out of $2 into $3",
+	"categorywatch-catadd": "$1 has been added to $2",
+	"categorywatch-catsub": "$1 has been removed from $2",
+	"categorywatch-autocat": "Automatically watched by $1",
+	"categorywatch-notification-link": "Category: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] added to [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] added to [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] added [[:$3|$3]] to [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] removed from [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] removed from [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] removed [[:$3|$3]] from [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 changes in categorization on {{SITENAME}}",
+	"categorywatch-add-title": "Title added to watched category",
+	"categorywatch-remove-title": "Title removed from watched category",
+	"categorywatch-page-watch-pref": "Add all pages in a category to your watchlist when you add a category",
+	"echo-category-title-categorywatch": "Category watch",
+	"echo-pref-tooltip-categorywatch": "Notify me when someone categorizes a page into or out of a category that I'm watching."
+}

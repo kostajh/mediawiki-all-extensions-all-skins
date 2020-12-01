@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"parserfun-desc": "Legger til en parserfunksjon <code>#parse</code> for parsing av wikitekst og introduserer prefikset <code>THIS:</code> for magiske variabler relatert til sideinformasjon",
+	"parserfun-invalid-caller-mode": "Ingen gyldig operasjonsmodus eller numerisk indeks gitt."
+}

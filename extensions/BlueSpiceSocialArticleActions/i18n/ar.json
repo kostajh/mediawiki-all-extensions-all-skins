@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-socialarticleactions-desc": "يضيف إدخالات إجراءات المقالة الأساسية إلى BlueSpiceSocial",
+	"bs-socialarticleactions-type-articlesave": "تعديل المقالة",
+	"bs-socialarticleactions-type-articlecreate": "إنشاء المقالة",
+	"bs-socialarticleactions-type-articledelete": "حذف المقالة",
+	"bs-socialarticleactions-type-filesave": "تعديل الملف",
+	"bs-socialarticleactions-type-filecreate": "إنشاء الملف",
+	"bs-socialarticleactions-type-filedelete": "حذف الملف",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] عدل المقالة [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] أنشأ المقالة [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] حذف المقالة [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] أضاف نسخة جديدة من الملف [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] رفع الملف [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] حذف الملف [[:$6|$6]]"
+}

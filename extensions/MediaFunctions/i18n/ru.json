@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ferrer",
+			"INS Pirat",
+			"Kaganer",
+			"Putnik",
+			"VasilievVV"
+		]
+	},
+	"mediafunctions-desc": "Функции парсера для получения информации о медиафайлах",
+	"mediafunctions-invalid-title": "«$1» — некорректный заголовок.",
+	"mediafunctions-not-exist": "«$1» не существует"
+}

@@ -1,0 +1,22 @@
+#bs-categorymanager-grid tr.x-grid-row .bs-extjs-actioncolumn-icon {
+	display: none;
+}
+
+#bs-categorymanager-grid tr.x-grid-row:hover .bs-extjs-actioncolumn-icon {
+	display: inline-block;
+}
+#bs-categorymanager-grid .x-tree-icon {
+	display: none;
+}
+
+#bs-categorymanager-grid .x-tree-node-text > span.bs-icon-tags:before {
+	content: "\f02c";
+	font-family: "fontawesome" !important;
+	color: #AFAFAF;
+	padding-right: 0.5em;
+}
+
+#bs-categorymanager-grid .x-tree-node-text > span.bs-icon-tag::before {
+	color: #AFAFAF;
+	padding-right: 0.5em;
+}

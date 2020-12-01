@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"KuboF",
+			"Luky001",
+			"Macofe",
+			"Sudo77(new)"
+		]
+	},
+	"betafeatures-auto-enroll": "Automaticky zapnúť všetky nové beta funkcie",
+	"betafeatures-auto-enroll-help": "Zmeny niektorých funkcií v beta verzii môžu byť prekvapivé, takže si ich musíte zapnúť ručne.",
+	"betafeatures-desc": "Dovoľuje redaktorovi povoliť alebo zakázať funkcie, ktoré ešte nie sú úplne vyladené.",
+	"betafeatures-extension-type": "Beta funkcie",
+	"betafeatures-section-desc": "Tu {{PLURAL:$1|je nová funkcia, ktorú|sú nové funkcie, ktoré}} zvažujeme použiť na {{grammar:lokál|{{SITENAME}}}}. Vyskúšajte {{PLURAL:$1|ju|ich}} a dajte nám vedieť, aby sme {{PLURAL:$1|ju|ich}} na základe vašich názorov mohli vylepšovať.",
+	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "Diskusia",
+	"mw-ui-feature-info": "Informácie",
+	"mw-ui-feature-requirements-betafeatures": "Táto funkcia vyžaduje zapnutie {{PLURAL:$1|funkcie|funkcií}}:",
+	"mw-ui-feature-requirements-browser": "Tieto {{PLURAL:$1|prehliadač|prehliadače}} nie sú podporované:",
+	"mw-ui-feature-requirements-javascript": "Táto funkcia vyžaduje JavaScript.",
+	"mw-ui-feature-requirements-skins": "Táto funkcia je k dispozícii len v {{PLURAL:$1|nasledujúcom vzhľade|nasledujúcich vzhľadoch}}:",
+	"mw-ui-feature-user-count": "Túto funkciu {{PLURAL:$1|skúša jeden redaktor|skúšajú $1 redaktori|skúša $1 redaktorov|0=neskúša nikto}}.",
+	"prefs-betafeatures": "Beta funkcie",
+	"tooltip-pt-betafeatures": "Beta funkcie"
+}

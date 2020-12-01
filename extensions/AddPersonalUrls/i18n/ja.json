@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abijeet Patro",
+			"Aefgh39622",
+			"Shirayuki",
+			"Suchichi02",
+			"マツムシ",
+			"神樂坂秀吉"
+		]
+	},
+	"addpersonalurls-desc": "個人用URLにいくつかの項目を追加します",
+	"addpersonalurls-preload": "これは他のWikiページと同じように機能します。特に、他の利用者がそれを表示または編集できる場合があります。",
+	"addpersonalurls-userpages": "自分のページ",
+	"addpersonalurls-home": "ホーム",
+	"addpersonalurls-home-preload": "あなたは、このページをあなたのホームページのように使うことができます。",
+	"addpersonalurls-favorites": "お気に入り",
+	"addpersonalurls-favorites-preload": "このページを使用して、お気に入りを保存できます。",
+	"addpersonalurls-sandbox": "サンドボックス",
+	"addpersonalurls-sandbox-preload": "あなたは、このページをソースコードのテストに使うことができます。",
+	"addpersonalurls-notes": "注釈",
+	"addpersonalurls-notes-preload": "あなたは、このページをメモとして使用できます。"
+}

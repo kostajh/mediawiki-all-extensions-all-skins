@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"[[mw:MarkAHershberger Mark A. Hershberger]]"
+		]
+	},
+	"crawlableallpages": "The name of the extension's entry in Special:SpecialPages",
+	"crawlableallpages-desc": "{{desc}}",
+	"crawlableallpages-summary": "Description appearing on top of Special:AllPages."
+}

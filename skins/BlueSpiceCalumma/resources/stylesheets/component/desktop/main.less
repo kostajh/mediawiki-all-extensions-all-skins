@@ -1,0 +1,52 @@
+body.mediawiki,
+body.mediawiki.x-body {
+
+	.center-col {
+		width: @theme-content-width;
+		padding: 0;
+	}
+	&:not( .navigation-main-collapse ):not( .sitetools-main-collapse ) {
+		.west-col,
+		.east-col {
+			min-width: 380px;
+		}
+		.center-col {
+			max-width: calc(~"100vw - 760px");
+		}
+	}
+
+	/* collapsing elements */
+	&.navigation-main-collapse.sitetools-main-collapse {
+		.west-col,
+		.east-col {
+			min-width: 80px;
+		}
+		.center-col {
+			max-width: calc(~"100vw - 160px");
+		}
+	}
+
+	&:not( .navigation-main-collapse ).sitetools-main-collapse {
+		.west-col {
+			min-width: 380px;
+		}
+		.east-col {
+			min-width: 80px;
+		}
+		.center-col {
+			max-width: calc(~"100vw - 460px");
+		}
+	}
+
+	&:not( .sitetools-main-collapse ).navigation-main-collapse {
+		.west-col {
+			min-width: 80px;
+		}
+		.east-col {
+			min-width: 380px;
+		}
+		.center-col {
+			max-width: calc(~"100vw - 460px");
+		}
+	}
+}

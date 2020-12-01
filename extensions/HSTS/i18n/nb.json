@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"hsts-desc": "HSTS (HTTP Strict Transport Security) på brukerbasis",
+	"hsts-tog": "Slå på HTTP Strict Transport Security (HSTS)",
+	"hsts-https-tog": "Slå på HTTP Strict Transport Security (HSTS)<br />Last denne siden på nytt med HTTPS for å endre denne innstillingen.",
+	"hsts-beta-feature-message": "Bruk alltid en sikker forbindelse",
+	"hsts-beta-feature-description": "Dette forsterker sikkerheten din på denne nettsida ved å holde deg sikker også etter at du har logget ut, og sikrer at ingen kan spionere på deg mens du surfer. Med denne innstillingen aktivert og en nyere nettleser som støtter denne teknologien (HSTS) vil enhver sikkerhetsadvarsel sannsynligvis være et virkelig angrep mot deg."
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"configmanager-admintool-label": "Menadżer konfiguracji",
+	"action-configmanager-viewspecialpage": "wyświetlania strony specjalnej „{{int:configmanager}}”",
+	"configmanager": "Menadżer konfiguracji",
+	"configmanager-desc": "Daje administratorom możliwość skonfigurowania wiki z poziomu stronys pecjalnej",
+	"configmanager-discardchanges": "Porzucić zmiany?",
+	"configmanager-noentry": "Nie znaleziono wpisów",
+	"apihelp-configmanager-tasks-summary": "Zarządzaj zadaniami",
+	"right-configmanager-viewspecialpage": "Dostęp do strony specjalnej [[Special:ConfigManager]]."
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"bs-dashboards-desc": "Става управувачница за нови корисници и администратори",
+	"bs-specialadmindashboard-label": "Управувачница",
+	"bs-dashboards-addportlet": "Додај поделок",
+	"bs-dashboards-portlets": "Поделоци",
+	"prefs-dashboards": "Управувачници",
+	"bs-dashboards-pref-userdashboardonlogo": "Логото на мрежното место да води до корисничката управувачница",
+	"admindashboard": "Администраторска управувачница",
+	"userdashboard": "Корисничка управувачница",
+	"bs-dashboard-userportlet-calendar-title": "Календар",
+	"bs-dashboard-userportlet-calendar-description": "Календар",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "Викистраница",
+	"action-dashboards-viewspecialpage-userdashboard": "преглед на службената страница „{{int:userdashboard}}“",
+	"right-dashboards-viewspecialpage-userdashboard": "Пристап до службената страница [[Special:UserDashboard]]"
+}

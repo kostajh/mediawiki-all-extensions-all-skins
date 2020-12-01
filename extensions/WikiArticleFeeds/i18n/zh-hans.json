@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Wilsonmess",
+			"Yfdyh000"
+		]
+	},
+	"wikiarticlefeeds-desc": "为MediaWiki页面生成源",
+	"wikiarticlefeeds-tracking-category": "页面正在生成RSS源",
+	"wikiarticlefeeds-tracking-category-desc": "页面生成有RSS源。",
+	"wikiarticlefeeds_combined_description": "这是一个包含多个源来源的复合源。"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"spark-desc": "Añade una etiqueta <code><nowiki><spark /></nowiki></code> que permite incrustar ''mash-ups'' de [http://km.aifb.kit.edu/sites/spark/ Spark].",
+	"spark-missing-query": "Es necesario especificar una consulta con el parámetro «data-spark-query»."
+}

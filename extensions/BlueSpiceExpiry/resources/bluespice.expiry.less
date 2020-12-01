@@ -1,0 +1,24 @@
+#bs-reminder-form-create,
+#bs-reminder-form-create .mw-htmlform-submit {
+	margin-top: 1em;
+}
+.successbox {
+	float: none !important;
+}
+
+#bs-nav-sections a.bs-globalactions-items.bs-globalaction-ns_special-specialexpiry::before {
+	content: "\e979";
+	font-family: "icomoon";
+
+}
+
+#bs-expiry-flyout {
+	.flyout-body-hint {
+		&.expired {
+			color: @bs-color-destructive;
+		}
+		&.expires {
+			color: @bs-color-progressive;
+		}
+	}
+}

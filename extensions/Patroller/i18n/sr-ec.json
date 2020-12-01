@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rancher",
+			"Sasa Stefanovic",
+			"Михајло Анђелковић"
+		]
+	},
+	"patrol": "Патролирај измене",
+	"patrol-revert": "Врати",
+	"patrol-revert-reason": "Разлог:",
+	"patrol-skip": "Прескочи",
+	"patrol-reverting": "Враћање: $1",
+	"patrol-nonefound": "Нема одговарајућих измена за патролирање.",
+	"patrol-endorsed-ok": "Измена је означена као прегледана.",
+	"patrol-endorsed-failed": "Не могу да означим измену као прегледану.",
+	"patrol-reverted-ok": "Измена је враћена.",
+	"patrol-reverted-failed": "Не могу да вратим измену.",
+	"patrol-skipped-ok": "Занемарујем измену.",
+	"patrol-reasons": "* Прост вандализам\n* Тест почетника\n* Види страницу за разговор",
+	"patrol-another": "Прикажи другу измену, ако постоји.",
+	"patrol-resume": "Кликните овде за наставак.",
+	"group-patroller": "Патролери",
+	"group-patroller-member": "патролер",
+	"grouppage-patroller": "{{ns:project}}:Патролер",
+	"right-patroller": "Патролирање страна"
+}

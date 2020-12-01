@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"notification-loginnotify-login-success-email-subject": "Session {{SITENAME}} como $1 ab un dispositivo que {{GENDER:$1|tu}} non ha usate recentemente"
+}

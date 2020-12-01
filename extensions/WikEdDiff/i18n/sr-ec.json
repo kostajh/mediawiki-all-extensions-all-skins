@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Acamicamacaraca",
+			"BadDog",
+			"Cacycle",
+			"Milicevic01"
+		]
+	},
+	"wiked-diff-empty": "(нема разлике)",
+	"wiked-diff-same": "Нема разлика између измена",
+	"wiked-diff-ins": "Убачено",
+	"wiked-diff-del": "Обрисано",
+	"wiked-diff-block-left": "◀ Премештено",
+	"wiked-diff-block-right": "Премештено ▶",
+	"wiked-diff-block-left-nounicode": "< Премештено",
+	"wiked-diff-block-right-nounicode": "Премештено >"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"useroptionstats": "Estatisticas de las opcions de l’utilizaire",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Pagina especiala]] per afichar las utilizacions de las opcions d'utilizaire sus MediaWiki",
+	"uos-warn": "PHPlot es pas installat !",
+	"uos-choose": "Causissètz una de las opcions d'utilizaire seguentas : $1",
+	"uos-choose-hidden": "Causissètz una de las opcions d'utilizaire invisible seguentas : $1",
+	"uos-unknown": "* Per defaut",
+	"uos-other": "* Autras",
+	"uos-title": "Distribucion de las valors de l'opcion d'utilizaire $1"
+}

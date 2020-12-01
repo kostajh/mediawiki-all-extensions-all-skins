@@ -1,0 +1,179 @@
+/*body*/
+@theme-body-bg-color: @body-bg;
+
+/*custom menu*/
+@theme-custom-menu-header-bg-color: @quaternary-bg;
+@theme-custom-menu-header-fg-color: @quaternary-fg;
+
+@theme-custom-menu-header-bg-color-hover: lighten( @theme-custom-menu-header-bg-color, 6% );
+@theme-custom-menu-header-fg-color-hover: @theme-custom-menu-header-fg-color;
+@theme-custom-menu-header-dropdown-bg-color-open: @theme-custom-menu-header-bg-color-hover;
+@theme-custom-menu-header-dropdown-fg-color-open: @theme-custom-menu-header-fg-color-hover;
+@theme-custom-menu-header-dropdown-bg-color: @theme-custom-menu-header-bg-color;
+@theme-custom-menu-header-dropdown-bg-color-hover: @theme-custom-menu-header-bg-color-hover;
+@theme-custom-menu-header-dropdown-fg-color: @theme-custom-menu-header-fg-color;
+@theme-custom-menu-header-dropdown-fg-color-hover: @theme-custom-menu-header-fg-color-hover;
+
+/*header*/
+@theme-header-bg-color: @tertiary-bg;
+@theme-header-fg-color: @tertiary-fg;
+
+@theme-header-fg-color-hover: @theme-header-button-bg-color-hover;
+@theme-header-login-button-fg-color: @theme-header-fg-color;
+@theme-header-login-button-fg-color-hover: @theme-header-fg-color-hover;
+@theme-header-fullscreen-button-fg-color: @theme-header-fg-color;
+@theme-header-fullscreen-button-fg-color-hover: @theme-header-fg-color-hover;
+@theme-header-fullscreen-button-fg-color-active: @theme-header-fg-color;
+@theme-header-button-bg-color: @primary-bg;
+@theme-header-button-fg-color: @primary-fg;
+@theme-header-button-bg-color-hover: lighten( @theme-header-button-bg-color, 31.5% );
+@theme-header-button-fg-color-hover: @primary-fg;
+@theme-header-button-bg-color-disabled: @neutral-bg;
+@theme-header-button-fg-color-disabled: @neutral-fg;
+@theme-header-dropdown-bg-color: @theme-header-button-bg-color;
+@theme-header-dropdown-bg-color-hover: @theme-header-button-bg-color-hover;
+@theme-header-dropdown-fg-color: @theme-header-button-fg-color;
+@theme-header-dropdown-fg-color-hover: @theme-header-button-fg-color-hover;
+
+/*navigation main*/
+@theme-navigation-main-bg-color: @primary-bg;
+@theme-navigation-main-fg-color: @primary-fg;
+
+@theme-navigation-main-bg-color-hover: lighten( @theme-navigation-main-bg-color, 31.5% );
+@theme-navigation-main-fg-color-hover: @theme-navigation-main-fg-color;
+@theme-navigation-main-button-fg-color: @theme-navigation-main-bg-color;
+@theme-navigation-main-button-fg-color-hover: @theme-navigation-main-bg-color-hover;
+@theme-navigation-main-tabs-bg-color: transparent;
+@theme-navigation-main-tab-bg-color: transparent;
+@theme-navigation-main-tab-bg-color-hover: transparent;
+@theme-navigation-main-tab-bg-color-active: transparent;
+@theme-navigation-main-tab-fg-color: @theme-navigation-main-bg-color-hover;
+@theme-navigation-main-tab-fg-color-hover: @theme-navigation-main-fg-color;
+@theme-navigation-main-tab-fg-color-active: @theme-navigation-main-fg-color;
+@theme-navigation-main-border: none;
+
+/*sitetools main*/
+@theme-sitetools-main-bg-color: @secondary-bg;
+@theme-sitetools-main-fg-color: @secondary-fg;
+
+@theme-sitetools-main-bg-color-hover: lighten( @theme-sitetools-main-fg-color, 55.5% );
+@theme-sitetools-main-fg-color-hover: @theme-sitetools-main-fg-color;
+@theme-sitetools-main-tabs-bg-color: transparent;
+@theme-sitetools-main-tab-bg-color: transparent;
+@theme-sitetools-main-tab-bg-color-hover: transparent;
+@theme-sitetools-main-tab-bg-color-active: transparent;
+@theme-sitetools-main-tab-fg-color: lighten( @theme-sitetools-main-fg-color, 37% );
+@theme-sitetools-main-tab-fg-color-hover: lighten( @theme-sitetools-main-fg-color, 17.2% );
+@theme-sitetools-main-tab-fg-color-active:lighten( @theme-sitetools-main-fg-color, 17.2% );
+@theme-sitetools-main-border: 2px solid lighten( @theme-sitetools-main-fg-color, 55.5% );
+
+/*following navigaiton main styles*/
+@theme-sitetools-main-button-fg-color: @theme-navigation-main-button-fg-color;
+@theme-sitetools-main-button-fg-color-hover: @theme-navigation-main-button-fg-color-hover;
+@theme-back-to-top-fg-color: @theme-navigation-main-bg-color;
+@theme-back-to-top-fg-color-hover: @theme-navigation-main-bg-color-hover;
+@theme-mobile-more-menu-button-open-fg-color: @theme-navigation-main-fg-color-hover;
+@theme-mobile-more-menu-button-open-fg-color-hover: @theme-navigation-main-fg-color-hover;
+@theme-mobile-more-menu-button-open-bg-color: @theme-navigation-main-bg-color;
+@theme-mobile-more-menu-button-open-bg-color-hover: @theme-navigation-main-bg-color-hover;
+@theme-mobile-more-menu-button-close-fg-color: @theme-mobile-more-menu-fg-color;
+@theme-mobile-more-menu-button-close-fg-color-hover: @theme-mobile-more-menu-fg-color;
+@theme-mobile-more-menu-fg-color: @theme-navigation-main-fg-color;
+@theme-mobile-more-menu-fg-color-hover: @theme-navigation-main-fg-color-hover;
+@theme-mobile-more-menu-bg-color: @theme-navigation-main-bg-color;
+@theme-mobile-more-menu-bg-color-hover: @theme-navigation-main-bg-color-hover;
+@theme-mobile-featured-actions-button-fg-color: @theme-navigation-main-fg-color-hover;
+@theme-mobile-featured-actions-button-fg-color-hover: @theme-navigation-main-fg-color-hover;
+@theme-mobile-featured-actions-button-bg-color: @theme-navigation-main-bg-color;
+@theme-mobile-featured-actions-button-bg-color-hover: @theme-navigation-main-bg-color-hover;
+@theme-navigation-main-grapicallist-visible-fg-color: @theme-navigation-main-fg-color-hover;
+@theme-navigation-main-grapicallist-visible-bg-color: @theme-navigation-main-bg-color-hover;
+@theme-navigation-main-grapicallist-bg-color: @theme-navigation-main-grapicallist-visible-bg-color;
+@theme-navigation-main-grapicallist-fg-color: @theme-navigation-main-grapicallist-visible-fg-color;
+@theme-navigation-main-grapicallist-link-fg-color: @theme-navigation-main-bg-color;
+@theme-navigation-main-grapicallist-link-fg-color-hover: @theme-navigation-main-bg-color;
+@theme-navigation-main-grapicallist-preview-tab-bg-color: @theme-navigation-main-bg-color;
+@theme-navigation-main-grapicallist-preview-tab-fg-color: @theme-navigation-main-fg-color;
+@theme-navigation-main-grapicallist-preview-tab-bg-color-hover: @theme-navigation-main-bg-color;
+@theme-navigation-main-grapicallist-preview-tab-fg-color-hover: @theme-navigation-main-bg-color;
+@theme-navigation-main-grapicallist-preview-tab-bg-color-active: @theme-navigation-main-bg-color-hover;
+@theme-navigation-main-grapicallist-preview-tab-fg-color-active: @theme-navigation-main-fg-color-hover;
+@theme-navigation-main-grapicallist-preview-border-color: @theme-navigation-main-bg-color;
+@theme-navigation-main-grapicallist-preview-fg-color: @theme-navigation-main-bg-color;
+@theme-navigation-main-grapicallist-preview-item-bg-color: lighten( @neutral-bg, 100% );
+@theme-navigation-main-grapicallist-preview-item-bg-color-hover: @theme-navigation-main-bg-color;
+@theme-navigation-main-grapicallist-preview-grid-border-color: "";
+@theme-navigation-main-grapicallist-preview-grid-bg-color: "";
+@theme-navigation-main-grapicallist-preview-grid-bg-color-hover: "";
+@theme-navigation-main-grapicallist-preview-grid-fg-color: "";
+@theme-navigation-main-grapicallist-preview-grid-fg-color-hover: "";
+@theme-navigation-main-grapicallist-preview-grid-link-fg-color: "";
+@theme-navigation-main-grapicallist-preview-grid-link-fg-color-hover: "";
+@theme-navigation-main-grapicallist-preview-grid-selected-fg-color-hover: "";
+@theme-navigation-main-grapicallist-preview-grid-selected-link-fg-color: "";
+@theme-navigation-main-grapicallist-preview-grid-selected-link-fg-color-hover: "";
+
+/*following sitetools main styles */
+@theme-sitetools-main-grapicallist-visible-fg-color: @theme-sitetools-main-fg-color-hover;
+@theme-sitetools-main-grapicallist-visible-bg-color: @theme-sitetools-main-bg-color-hover;
+@theme-sitetools-main-grapicallist-bg-color: @theme-sitetools-main-bg-color-hover;
+@theme-sitetools-main-grapicallist-fg-color: @theme-sitetools-main-fg-color;
+@theme-sitetools-main-grapicallist-link-fg-color: @theme-content-link-fg;
+@theme-sitetools-main-grapicallist-link-fg-color-hover: @theme-content-link-fg-hover;
+
+/*footer*/
+@theme-footer-link-fg-color: @theme-content-link-fg;
+@theme-footer-link-fg-color-hover: @theme-content-link-fg-hover;
+@theme-footer-separator-line: lighten( @neutral-fg, 34% );
+
+/*page header*/
+@theme-page-header-link-fg-color: @theme-content-link-fg;
+@theme-page-header-link-fg-color-hover: @theme-content-link-fg-hover;
+@theme-page-header-new-link-fg-color: @theme-content-link-fg;
+@theme-page-header-new-link-fg-color-hover: @theme-content-link-fg-hover;
+@theme-page-header-separator-line: lighten( @neutral-fg, 34% );
+@theme-page-header-metaband-fg: @neutral-fg;
+
+/* content area */
+@theme-content-bg-color: @content-bg;
+@theme-content-fg-color: @content-fg;
+@theme-content-link-fg: @link-fg;
+@theme-content-link-fg-hover: lighten( @theme-content-link-fg, 6% );
+@theme-content-link-new-fg: @new-link-fg;
+@theme-content-link-new-fg-hover: lighten( @theme-content-link-new-fg, 6% );
+
+/*mediawiki ui*/
+@theme-mw-color-progessive: @bs-color-link;
+@theme-mw-color-progessive-highlight: @bs-color-link-hover;
+@theme-mw-color-progessive-active: @theme-mw-color-progessive;
+@theme-mw-color-progessive-text: #FFFFFF;
+@theme-mw-color-progessive-text-highlight: #FFFFFF;
+@theme-mw-color-progessive-text-active: @theme-mw-color-progessive-text;
+@theme-mw-color-layout-link: @bs-color-link;
+@theme-mw-color-layout-link-highlight: @bs-color-link-hover;
+
+/*oo-ui*/
+@theme-oo-ui-color-progessive: @bs-color-link;
+@theme-oo-ui-color-progessive-highlight: @bs-color-link-hover;
+@theme-oo-ui-color-progessive-active: @theme-oo-ui-color-progessive;
+@theme-oo-ui-color-progessive-text: #FFFFFF;
+@theme-oo-ui-color-progessive-text-highlight: #FFFFFF;
+@theme-oo-ui-color-progessive-text-active: @theme-oo-ui-color-progessive-text;
+@theme-oo-ui-color-layout-link: @bs-color-link;
+@theme-oo-ui-color-layout-link-highlight: @bs-color-link-hover;
+
+/*extjs*/
+@theme-extjs-color-progessive: @bs-color-link;
+@theme-extjs-color-progessive-highlight: @bs-color-link-hover;
+@theme-extjs-color-progessive-active: @theme-extjs-color-progessive;
+@theme-extjs-color-progessive-text: #FFFFFF;
+@theme-extjs-color-progessive-text-highlight: #FFFFFF;
+@theme-extjs-color-progessive-text-active: @theme-extjs-color-progessive-text;
+@theme-extjs-color-layout-link: @bs-color-link;
+@theme-extjs-color-layout-link-highlight: @bs-color-link-hover;
+
+/*general*/
+@theme-notification-fg: #FFB100;
+@theme-notification-bg: transparent;
+@theme-notification-inverted-fg: white;
+@theme-notification-inverted-bg: @theme-notification-fg;

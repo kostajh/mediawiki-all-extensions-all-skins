@@ -1,0 +1,146 @@
+{
+	"name": "Video",
+	"version": "1.9.1",
+	"author": [
+		"David Pean",
+		"Jack Phoenix",
+		"John Du Hart",
+		"Mainframe98"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"url": "https://www.mediawiki.org/wiki/Extension:Video",
+	"descriptionmsg": "video-desc",
+	"type": "other",
+	"SpecialPages": {
+		"AddVideo": "AddVideo",
+		"NewVideos": "NewVideos",
+		"Undelete": "SpecialUndeleteWithVideoSupport",
+		"UnusedVideos": "SpecialUnusedVideos"
+	},
+	"MessagesDirs": {
+		"Video": [
+			"i18n"
+		]
+	},
+	"namespaces": [
+		{
+			"id": 400,
+			"constant": "NS_VIDEO",
+			"name": "Video",
+			"protection": "addvideo"
+		},
+		{
+			"id": 401,
+			"constant": "NS_VIDEO_TALK",
+			"name": "Video_talk"
+		}
+	],
+	"ExtensionMessagesFiles": {
+		"VideoAlias": "includes/Video.alias.php",
+		"VideoNamespaces": "includes/Video.namespaces.php"
+	},
+	"AutoloadClasses": {
+		"MigrateOldVideoUserColumnsToActor": "maintenance/migrateOldVideoUserColumnsToActor.php",
+		"Video": "includes/Video.php",
+		"BlipTVVideoProvider": "includes/providers/BlipTVVideo.php",
+		"DailyMotionVideoProvider": "includes/providers/DailyMotionVideo.php",
+		"BaseVideoProvider": "includes/providers/BaseVideoProvider.php",
+		"GametrailersVideoProvider": "includes/providers/GametrailersVideo.php",
+		"HuluVideoProvider": "includes/providers/HuluVideo.php",
+		"MetaCafeVideoProvider": "includes/providers/MetaCafeVideo.php",
+		"MovieClipsVideoProvider": "includes/providers/MovieClipsVideo.php",
+		"MTVNetworksVideoProvider": "includes/providers/MTVNetworksVideo.php",
+		"MyVideoVideoProvider": "includes/providers/MyVideoVideo.php",
+		"SouthParkStudiosVideoProvider": "includes/providers/SouthParkStudiosVideo.php",
+		"ViddlerVideoProvider": "includes/providers/ViddlerVideo.php",
+		"VimeoVideoProvider": "includes/providers/VimeoVideo.php",
+		"WeGameVideoProvider": "includes/providers/WeGameVideo.php",
+		"YouTubeVideoProvider": "includes/providers/YouTubeVideo.php",
+		"VideoPage": "includes/VideoPage.php",
+		"WikiVideoPage": "includes/WikiVideoPage.php",
+		"RevertVideoAction": "includes/RevertVideoAction.php",
+		"VideoHistoryList": "includes/VideoHistoryList.php",
+		"CategoryWithVideoViewer": "includes/CategoryWithVideoViewer.php",
+		"VideoGallery": "includes/VideoGallery.php",
+		"VideoGalleryHooks": "includes/parser/VideoGallery.hooks.php",
+		"VideoGalleryPopulateHooks": "includes/parser/VideoGalleryPopulate.hooks.php",
+		"VideoPageArchive": "includes/VideoPageArchive.php",
+		"ArchivedVideo": "includes/ArchivedVideo.php",
+		"AddVideo": "includes/specials/SpecialAddVideo.php",
+		"NewVideos": "includes/specials/SpecialNewVideos.php",
+		"SpecialUndeleteWithVideoSupport": "includes/specials/SpecialUndeleteWithVideoSupport.php",
+		"VideoHooks": "includes/Video.hooks.php",
+		"NewVideosPager": "includes/specials/pagers/NewVideosPager.php",
+		"SpecialUnusedVideos": "includes/specials/SpecialUnusedVideos.php"
+	},
+	"Hooks": {
+		"ArticleFromTitle": [
+			"VideoHooks::videoFromTitle"
+		],
+		"CategoryPageView": [
+			"VideoHooks::categoryPageWithVideo"
+		],
+		"ParserBeforeInternalParse": [
+			"VideoHooks::videoTag"
+		],
+		"ParserBeforePreprocess": [
+			"VideoHooks::videoTag"
+		],
+		"ParserFirstCallInit": [
+			"VideoHooks::onParserFirstCallInit",
+			"VideoGalleryHooks::onParserFirstCallInit",
+			"VideoGalleryPopulateHooks::onParserFirstCallInit"
+		],
+		"ArticleDelete": [
+			"VideoHooks::onVideoDelete"
+		],
+		"UndeleteForm::showRevision": [
+			"VideoHooks::specialUndeleteSwitchArchive"
+		],
+		"UndeleteForm::showHistory": [
+			"VideoHooks::specialUndeleteSwitchArchive"
+		],
+		"UndeleteForm::undelete": [
+			"VideoHooks::specialUndeleteSwitchArchive"
+		],
+		"LoadExtensionSchemaUpdates": [
+			"VideoHooks::onLoadExtensionSchemaUpdates"
+		],
+		"CanonicalNamespaces": [
+			"VideoHooks::onCanonicalNamespaces"
+		],
+		"wgQueryPages": [
+			"VideoHooks::onwgQueryPages"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Video"
+	},
+	"ResourceModules": {
+		"ext.video": {
+			"styles": "resources/css/Video.css"
+		}
+	},
+	"LogTypes": [
+		"video"
+	],
+	"LogActionsHandlers": {
+		"video/*": "LogFormatter"
+	},
+	"AvailableRights": [
+		"addvideo"
+	],
+	"GroupPermissions": {
+		"*": {
+			"addvideo": false
+		},
+		"user": {
+			"addvideo": true
+		}
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,8 @@
+.bs-social-entity-articlesave > .bs-social-entity-right div.bs-social-entity-title h3:before,
+.bs-social-entity-articlecreate > .bs-social-entity-right div.bs-social-entity-title h3:before,
+.bs-social-entity-articledelete > .bs-social-entity-right div.bs-social-entity-title h3:before,
+.bs-social-entity-filesave > .bs-social-entity-right div.bs-social-entity-title h3:before,
+.bs-social-entity-filecreate > .bs-social-entity-right div.bs-social-entity-title h3:before,
+.bs-social-entity-filedelete > .bs-social-entity-right div.bs-social-entity-title h3:before {
+	content: "\e92e";
+}

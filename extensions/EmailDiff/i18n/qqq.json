@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Greg Sabino Mullane"
+		]
+	},
+	"emaildiff-desc": "{{desc|name=EmailDiff|url=https://www.mediawiki.org/wiki/Extension:EmailDiff}}",
+	"tog-emaildiff": "Message for the user preferences section",
+	"emaildiff-newpage": "Message inside email when the page has no differences because it is new",
+	"emaildiff-intro": "String to put in front of the diff"
+}

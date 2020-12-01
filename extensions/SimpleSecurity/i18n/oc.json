@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boulaur",
+			"Cedric31"
+		]
+	},
+	"security": "Jornal de seguretat",
+	"security-desc": "Espandís l'interfàcia de proteccion de MediaWiki per permetre de restrénher la vista de las paginas",
+	"security-logpage": "Jornal de seguretat",
+	"security-logpagetext": "Aquò es un jornal de las accions blocadas per l'[https://www.mediawiki.org/wiki/Extension:SimpleSecurity extension SimpleSecurity].",
+	"badaccess-read": "Atencion : « $1 » es referenciat aicí, mas dispausatz pas de las autorizacions per i accedir.",
+	"security-info": "I a $1 sus aqueste article",
+	"security-info-toggle": "restriccions de seguretat",
+	"security-inforestrict": "$1 es limitat a $2",
+	"security-desc-LS": "(s'aplica perque aquesta pagina es dins $1 « $2 »)",
+	"security-desc-PR": "(definit dempuèi l'onglet de proteccion)",
+	"security-infosysops": "Cap de restriccion pas en vigor perque sètz un membre del grop « administrator »",
+	"security-manygroups": "gropes $1 e $2",
+	"security-unchain": "Modificar las accions individualament",
+	"security-type-category": "la categoria",
+	"security-type-namespace": "l'espaci de nom",
+	"security-restricttogroup": "Accès al contengut reservat als membres de « $1 »",
+	"restriction-read": "Legir"
+}

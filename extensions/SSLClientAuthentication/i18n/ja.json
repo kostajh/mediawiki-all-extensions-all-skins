@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"sslauth-desc": "認証に使用する SSL 証明書を利用者がアップロードできるようにする",
+	"sslauth-title-enable": "SSL クライアント認証を有効化",
+	"sslauth-title-disable": "SSL クライアント認証を無効化",
+	"sslauth-enable": "有効化",
+	"sslauth-disable": "無効化",
+	"sslauth-cn": "一般名 (CN)",
+	"sslauth-email": "メールアドレス",
+	"sslauth-serial": "シリアル番号",
+	"sslauth-response-enable": "SSL 認証を有効にしました。自分のクライアント証明書を使用して HTTPS で{{SITENAME}}に接続すれば常に自動ログインできるようになりました。",
+	"sslauth-response-disable": "SSL 認証を無効にしました。",
+	"sslauth-invalidrequest-title": "無効なリクエスト",
+	"sslauth-invalidrequest": "このページを有用なものにするために、有効な SSL クライアント証明書を指定してください。",
+	"clientssl-legend": "SSL 認証",
+	"clientssl-text": "このページでは、クライアント SSL 証明書での認証を有効化/無効化できます。",
+	"sslauth-prefs-name": "SSL 認証",
+	"sslauth-prefs-linktospecial": "クライアント証明書を有効化/無効化"
+}

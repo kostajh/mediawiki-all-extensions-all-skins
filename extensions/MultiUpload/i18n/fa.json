@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huji",
+			"Ommmmid"
+		]
+	},
+	"multiupload": "بارگذاری چند فایل",
+	"multiupload-desc": "به کاربران اجازهٔ [[Special:MultipleUpload|بارگذاری چندین پرونده به طور همزمان]] را می‌دهد",
+	"multipleupload": "بارگذاری چندین پرونده",
+	"multiupload-submit": "بارگذاری پرونده‌ها",
+	"multiupload-notify-ok": "تأیید",
+	"multiupload-upload-package-error": "خطا در بارگذاری بسته پرونده",
+	"multiupload-http-error": "امکان اتصال به سرور وجود ندارد"
+}

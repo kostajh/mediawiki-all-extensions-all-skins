@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Emperyan",
+			"Srhat"
+		]
+	},
+	"inlinecategorizer-desc": "Kategori sayfalarını doğrudan bir sayfadan değiştirmeyi, eklemeyi ve kaldırmayı sağlayan JavaScript modülü",
+	"inlinecategorizer-add-category": "Kategori ekle",
+	"inlinecategorizer-add-category-submit": "Ekle",
+	"inlinecategorizer-add-category-summary": "\"$1\" kategorisini ekle",
+	"inlinecategorizer-api-error": "API bir hata döndürdü: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "API bilinmeyen bir hata verdi.",
+	"inlinecategorizer-cancel": "Düzenlemeyi iptal et",
+	"inlinecategorizer-cancel-all": "Tüm değişiklikleri iptal et",
+	"inlinecategorizer-category-already-present": "Bu sayfa zaten \"$1\" kategorisine ait",
+	"inlinecategorizer-category-hook-error": "Yerel bir işlev değişikliklerin kaydedilmesini engelledi.",
+	"inlinecategorizer-category-question": "Neden aşağıdaki değişiklikleri yapmak istiyorsun:",
+	"inlinecategorizer-confirm-ok": "Tamam",
+	"inlinecategorizer-confirm-save": "Kaydet",
+	"inlinecategorizer-confirm-save-all": "Tüm değişiklikleri kaydet",
+	"inlinecategorizer-confirm-title": "İşlemi onayla",
+	"inlinecategorizer-edit-category": "Kategori düzenle",
+	"inlinecategorizer-edit-category-error": "\"$1\" kategorisini düzenlemek mümkün değildi.\nBu genellikle kategori bir şablondaki sayfaya eklendiğinde oluşur.",
+	"inlinecategorizer-edit-category-summary": "\"$1\" kategorisini \"$2\" olarak değiştir",
+	"inlinecategorizer-error-title": "Hata",
+	"inlinecategorizer-remove-category": "Kategoriyi kaldır",
+	"inlinecategorizer-remove-category-error": "\"$1\" kategorisini kaldırmak mümkün değildi.\nBu genellikle kategori bir şablondaki sayfaya eklendiğinde oluşur.",
+	"inlinecategorizer-remove-category-summary": "\"$1\" kategorisini kaldır"
+}

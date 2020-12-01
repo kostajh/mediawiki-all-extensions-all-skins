@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-tagcloud-desc": "Face 'ndrucà le nuvole de le tag",
+	"bs-tagcloud-error-tagtype": "'U valore date \"$1\" non g'è 'na memorizzazione valide.",
+	"bs-tagcloud-error-tagrenderer": "'U valore date \"$1\" non g'è 'nu render valide.",
+	"bs-tagcloud-tag-tagcloud-name": "Nuvole de le tag",
+	"bs-tagcloud-tag-tagcloud-title": "Nuvole de le tag",
+	"bs-tagcloud-tag-tagcloud-desc": "Renderizze 'a nuvole de le tag conzideranne le categorije e le termine de recerche",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Tipe",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "Scacchie accumme adda essere renderizzate 'a nuvole de le tag",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Teste",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "Elenghe",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "Stipe",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "Scacchie ce date vuè ccu ause",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Categorije",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Cirche le termine",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Larghezze",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "Larghezze d'a nuvole de le tag in percenduale",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "Fà 'ndrucà 'u condegge",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "Fà 'ndrucà 'u numere de eleminde 'mbrà le parendese",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Dimenzione minime d'u carattere",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "Dimenzione d'u carattere pe le vôsce cu mene eleminde",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Dimenzione massime d'u carattere",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "Dimenzione d'u carattere pe le vôsce cu cchiù eleminde",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Esclude le pàggene",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "No fà 'ndrucà ste pàggene jndr'à nuvole de le tag. Pe cchiù pàggene, ause 'n'elenghe separate cu 'a virgole, e.g. \"Pàgena Prengepàle, Test, Pàgena meje\""
+}

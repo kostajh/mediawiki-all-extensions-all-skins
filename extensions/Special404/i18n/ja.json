@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ohgi",
+			"Shirayuki"
+		]
+	},
+	"special404-desc": "「404 Not found」エラー時の行き先を提供する",
+	"error404": "404 ページが見つかりません",
+	"special404-body": "あなたが要求したURLは見つかりませんでした。\n\nお探しのURLは {{fullurl:$1}} でしょうか。\n\n以下も参照してください:\n* [[{{MediaWiki:Mainpage}}|メインページ]]"
+}

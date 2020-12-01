@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"phptagsfunctions-desc": "實現用於PhpTags的本地PHP功能",
+	"phptagsfunctions-preg-bad-delimiter": "分割位元不可為字母、數位或反斜線",
+	"phptagsfunctions-preg-no-ending-delimiter": "並無找到分割位元“$1”",
+	"phptagsfunctions-preg-unknown-modifier": "未知修飾符“$1”"
+}

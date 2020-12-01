@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"Kiranmayee",
+			"Veeven"
+		]
+	},
+	"categorywatch-desc": "గమనిస్తున్న వర్గాల్లోని సభ్యత్వపు మార్పుల గురించి గమనింపులు చూపించేలా వీక్షణ జాబితా సౌలభ్యాన్ని విస్తరిస్తుంది",
+	"categorywatch-emailsubject": "గమనిస్తున్న వర్గం \"$1\"లో జరుగుతున్న కలాపాలు",
+	"categorywatch-catmovein": "$1 పేజీని $3 వర్గం నుండి $2కి మార్చారని",
+	"categorywatch-catmoveout": "$1 పేజీని $2 వర్గం నుండి $3కి మార్చారని",
+	"categorywatch-catadd": "$1 పేజీని $2 వర్గంలో చేర్చారని",
+	"categorywatch-catsub": "$1 పేజీని $2 వర్గం నుండి తొలగించారని",
+	"categorywatch-autocat": "$1 ఆటోమాటిగ్గా తనిఖీ చేసారు"
+}

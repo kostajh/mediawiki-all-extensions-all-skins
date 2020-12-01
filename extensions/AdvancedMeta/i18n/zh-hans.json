@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Retired User",
+			"PhiLiP",
+			"VulpesVulpes825",
+			"予弦",
+			"神樂坂秀吉",
+			"科劳"
+		]
+	},
+	"advancedmeta-desc": "允许修改页面的meta设置（机器人、关键词和描述）和标题",
+	"advancedmeta-metasettings": "Meta设置",
+	"advancedmeta-titlealias": "标题：",
+	"advancedmeta-navigation-contentaction-label": "搜索引擎优化",
+	"advancedmeta-dialog-btn-label-save": "保存进度",
+	"advancedmeta-dialog-btn-label-cancel": "取消",
+	"advancedmeta-dialog-btn-label-delete": "删除",
+	"advancedmeta-dialog-input-label-description": "说明",
+	"advancedmeta-dialog-input-label-follow": "关注",
+	"advancedmeta-dialog-input-label-index": "索引",
+	"advancedmeta-dialog-input-label-keywords": "关键词",
+	"advancedmeta-dialog-input-help-keywords": "关键词列表，用逗号分隔；例如：keyword1,keyword2,keyword3",
+	"apihelp-advancedmeta-tasks-description": "提供用于AdvancedMeta的一般操作",
+	"apihelp-advancedmeta-tasks-summary": "为AdvancedMeta提供诸如删除或编辑操作",
+	"apihelp-advancedmeta-tasks-param-task": "需要执行的任务",
+	"apihelp-advancedmeta-tasks-param-taskdata": "JSON字符串编码的对象，带用于任务的任意数据",
+	"apihelp-advancedmeta-tasks-param-format": "输出格式（仅JSON或格式化JSON）",
+	"action-advancedmeta-edit": "编辑页面或者名字空间的Meta元素",
+	"right-advancedmeta-edit": "编辑页面或名字空间的meta元素"
+}

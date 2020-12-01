@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ankita Mandal",
+			"Mirco Zick",
+			"Zoranzoki21"
+		]
+	},
+	"changeuserpasswords":"Change User Passwords",
+	"changeuserpassword-desc": "This is an extension for changing user passwords, excepting a few as indicated by admin.",
+	"changeuserpassword-pagename": "ChangeUserPasswords",
+	"changeuserpassword-topheader": "Please select usernames for whom passwords have to be changed. All users are selected by default. Please deselect usernames for which you don't want to change the password.",
+	"changeuserpassword-success": "User passwords changed!",
+	"changeuserpassword-title": "Change user passwords",
+	"changeuserpassword-intro": "This is an extension for changing user passwords, excepting a few as indicated by admin.",
+	"action-changeuserpasswords": "change user passwords",
+	"right-changeuserpasswords": "Change user passwords"
+}

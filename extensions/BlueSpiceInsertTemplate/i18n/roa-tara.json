@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-insertTemplate-desc": "Fenestre pe mettere 'nu template",
+	"bs-insertTemplate-button-template-title": "Mitte o cange 'nu template",
+	"bs-insertTemplate-dialog-title": "'Nzerisce 'nu template",
+	"bs-insertTemplate-dialog-label-choose": "Scacchie 'u template",
+	"bs-insertTemplate-dialog-label-modify": "Cange 'u template",
+	"bs-insertTemplate-dialog-label-preview": "Andeprime",
+	"apihelp-bs-inserttemplate-store-description": "Elenghe tutte le template. Face fà l'ordinamende, 'u filtre e 'a pagginazzione. 'Mblemende parametre ExtJS Store.",
+	"apihelp-bs-inserttemplate-store-summary": "Elenghe tutte le template. Face fà l'ordinamende, 'u filtre e 'a pagginazzione. 'Mblemende parametre ExtJS Store."
+}

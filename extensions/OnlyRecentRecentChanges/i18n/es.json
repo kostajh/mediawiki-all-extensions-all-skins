@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"onlyrecentrecentchanges-desc": "Mostrar la páginas en la lista de cambios recientes solo una vez cuando éstas se han modificado recientemente",
+	"onlyrecentrecentchanges-option": "Solo mostrar el cambio más reciente de cualquier página modificada (dentro de los límites de ''{{int:prefs-displayrc}}'' como se muestra arriba)"
+}

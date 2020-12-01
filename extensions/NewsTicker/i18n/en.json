@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sophivorus"
+		]
+	},
+	"newsticker": "NewsTicker",
+	"newsticker-desc": "Adds a magic word that shows a news ticker that can be configured from a special page.",
+	"newsticker-summary": "Special page to set the content and pages of the news ticker",
+	"newsticker-general": "General",
+	"newsticker-news": "News",
+	"newsticker-class": "Class",
+	"newsticker-style": "Style",
+	"newsticker-pages": "Pages",
+	"newsticker-page1": "Page 1",
+	"newsticker-page2": "Page 2",
+	"newsticker-page3": "Page 3",
+	"newsticker-page4": "Page 4",
+	"newsticker-page5": "Page 5",
+	"newsticker-page6": "Page 6",
+	"newsticker-page7": "Page 7",
+	"newsticker-page8": "Page 8",
+	"newsticker-page9": "Page 9",
+	"newsticker-title": "Title",
+	"newsticker-add-page": "Add page",
+	"newsticker-default-news-help": "Set the default news for all the news tickers. One news per line, wikitext allowed.",
+	"newsticker-default-class-help": "Set the default CSS classes for all the news tickers.",
+	"newsticker-default-style-help": "Set the default CSS styling for all the news tickers.",
+	"newsticker-pages-help": "Set the number of pages that will be showing the news ticker, so that this special page can show one section for each page. Caution! If you reduce the number of pages, the data of the pages left out will be lost!",
+	"newsticker-title-help": "Set the title of the page were to show this news ticker.",
+	"newsticker-news-help": "Set the news for this news ticker, overriding the default news.",
+	"newsticker-class-help": "Set the CSS classes for this news ticker, overriding the default CSS classes.",
+	"newsticker-style-help": "Set the CSS styling for this news ticker, overriding the default CSS styling.",
+	"right-newsticker": "Manage news tickers",
+	"action-newsticker": "manage news tickers"
+}

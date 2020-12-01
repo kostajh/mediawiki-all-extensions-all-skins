@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"bluespicecategorymanager": "Xestor de categorías",
+	"bluespicecategorymanager-desc": "Ferramenta visual para xestionar categorías",
+	"action-categorymanager-viewspecialpage": "ver o xestor de categorías",
+	"bs-categorymanager-draganddrop-text": "Arrastra e solta para reorganizar",
+	"bs-categorymanager-label": "Xestor de categorías",
+	"bs-categorymanager-dlg-new-title": "Crear categoría",
+	"bs-categorymanager-dlg-new-prompt": "Por favor, indique o nomeː",
+	"bs-categorymanager-removecategoryconfirm-text": "Está seguro de que quere eliminar esta categoría?",
+	"bs-categorymanager-removecategoryconfirm-title": "Eliminar categoría",
+	"bs-categorymanager-addcategory-dialog-error-title": "Fallou a creación da categoría",
+	"bs-categorymanager-action-show-category": "Amosar a categoría"
+}

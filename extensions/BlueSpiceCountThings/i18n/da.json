@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"bs-countthings-chars-label": "Tegn",
+	"bs-countthings-words-label": "Ord",
+	"bs-countthings-files-label": "Filer",
+	"bs-countthings-pages-label": "Sider",
+	"bs-countthings-ve-countthingsinspector-mode": "Tilstand",
+	"bs-countthings-ve-countcharacters-mode-all": "alle",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "tegn",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "ord",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "sider",
+	"bs-countthings-ve-countcharacters-input-label": "Sider",
+	"bs-countthings-tag-countcharacters-example-1": "Antal ord",
+	"bs-countthings-tag-countcharacters-example-2": "Antal tegn"
+}

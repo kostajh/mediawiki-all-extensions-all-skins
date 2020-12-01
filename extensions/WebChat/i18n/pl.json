@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536",
+			"Sp5uhe"
+		]
+	},
+	"webchat": "Czat webowy",
+	"webchat-desc": "Dodaje [[Special:WebChat|stronę specjalną]] pozwalającą na prowadzenie rozmów w czasie rzeczywistym z innymi użytkownikami wiki",
+	"webchat-header": "Ta specjalna strona pozwala na współpracę w czasie rzeczywistym z innymi użytkownikami wiki.\nAby się połączyć po prostu naciśnij przycisk „Połącz”.\nJeśli jesteś zalogowany, pseudonim zostanie wstępnie ustawiony.\nAnonimowi użytkownicy otrzymują automatycznie wygenerowany pseudonim, ale mogą go zmienić.",
+	"action-webchat": "korzystania z czatu webowego",
+	"right-webchat": "Dostęp do korzystania z [[Special:WebChat|czatu webowego]]"
+}

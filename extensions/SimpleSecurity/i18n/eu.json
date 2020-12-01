@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"An13sa",
+			"Kobazulo",
+			"Mikel Ibaiba"
+		]
+	},
+	"security": "Segurtasun erregistroa",
+	"security-logpage": "Segurtasun erregistroa",
+	"security-logpagetext": "Ekintzen erregistro hau [https://www.mediawiki.org/wiki/Extension:SimpleSecurity SimpleSecurity extension]en bidez blokeatu da.",
+	"security-info-toggle": "segurtasun murrizketak",
+	"security-manygroups": "$1 eta $2 taldeak",
+	"security-type-category": "kategoria",
+	"security-type-namespace": "izen-tartea",
+	"restriction-read": "Irakurri"
+}

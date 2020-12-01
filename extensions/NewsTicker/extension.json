@@ -1,0 +1,54 @@
+{
+	"name": "NewsTicker",
+	"version": "1.3",
+	"author": [
+		"[mailto:wiki@keyler-consult.de Martin Keyler]",
+		"[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NewsTicker",
+	"descriptionmsg": "newsticker-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "specialpage",
+	"MessagesDirs": {
+		"NewsTicker": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"NewsTicker": "includes/NewsTicker.php",
+		"SpecialNewsTicker": "includes/specials/SpecialNewsTicker.php"
+	},
+	"SpecialPages": {
+		"NewsTicker": "SpecialNewsTicker"
+	},
+	"ExtensionMessagesFiles": {
+		"NewsTickerAlias": "i18n/NewsTicker.alias.php",
+		"NewsTickerMagic": "i18n/NewsTicker.magic.php"
+	},
+	"ResourceModules": {
+		"ext.NewsTicker.styles": {
+			"styles": "css/NewsTicker.css"
+		},
+		"ext.NewsTicker.scripts": {
+			"scripts": "js/NewsTicker.js"
+		}
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"newsticker": true
+		}
+	},
+	"AvailableRights": [
+		"newsticker"
+	],
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "NewsTicker/resources"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "NewsTicker::onBeforePageDisplay",
+		"MagicWordwgVariableIDs": "NewsTicker::onMagicWordwgVariableIDs",
+		"ParserGetVariableValueSwitch": "NewsTicker::onParserGetVariableValueSwitch"
+	},
+	"manifest_version": 1
+}

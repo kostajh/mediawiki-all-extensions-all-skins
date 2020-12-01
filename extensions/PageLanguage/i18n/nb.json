@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"pagelanguage-desc": "Definer sidespråk per side",
+	"pagelanguage-invalid": "'''Advarsel:''' Ignorerer den ugyldige språkkoden «$1» for sidespråk.",
+	"pagelanguage-duplicate": "'''Advarsel:''' Sidespråket «$2» overstyrer det tidligere satte sidespråket «$1»."
+}

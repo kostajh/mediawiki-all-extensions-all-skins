@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bengtsson96",
+			"Josve05a",
+			"WikiPhoenix"
+		]
+	},
+	"bs-upload-uploaddialogtitle": "Ladda upp fil",
+	"bs-upload-uploadbuttontext": "Bläddra",
+	"bs-upload-uploadfilefieldlabel": "Filnamn",
+	"bs-upload-uploadfileemptytext": "Infoga ny fil...",
+	"bs-upload-uploaddestfilelabel": "Destinationens filnamn",
+	"bs-upload-allowedfiletypesare": "Giltiga filtyper är:",
+	"bs-upload-license": "Licens",
+	"bs-upload-uploadwatchthislabel": "Bevaka den här filen",
+	"bs-upload-uploadignorewarningslabel": "Ignorera eventuella varningar",
+	"bs-upload-categories": "Kategorier",
+	"bs-upload-upload-waitmessage": "Uppladdning pågår ...",
+	"bs-upload-error": "Fel",
+	"bs-upload-descfilelabel": "Beskrivning",
+	"bs-upload-error-long": "Fel i uppladdningsprocessen",
+	"bs-upload-filetypenotsupported": "Filtyp stöds inte",
+	"bs-upload-details": "Detaljer",
+	"bs-upload-uploadwarningdialog-title": "Ladda upp fil: Vaningar",
+	"bs-upload-uploadwarningdialog-intro": "Uppladdningsförsöket gav följande varningar",
+	"bs-upload-uploadwarningdialog-outro": "Klicka på \"{{int:bs-extjs-ok}}\" för att ignorera varningar och ladda upp filen, klicka på \"{{int:bs-extjs-cancel}}\" för att återvända till uppladdningsformuläret",
+	"bs-upload-uploadwarningdialog-warning-exists": "Det finns redan en fil med namnet \"$1\"",
+	"bs-upload-uploadwarningdialog-warning-duplicate": "Det finns {{PLURAL:$1|en dubblett|dubbletter}} av denna fil",
+	"bs-upload-uploadwarningdialog-warning-unknown": "Okänd varning med felkoden \"$1\""
+}

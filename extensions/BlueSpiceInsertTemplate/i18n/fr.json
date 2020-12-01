@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"bs-insertTemplate-desc": "Boîte de dialogue pour insérer un modèle",
+	"bs-insertTemplate-button-template-title": "Insérer ou modifier un modèle",
+	"bs-insertTemplate-dialog-title": "Insérer un modèle",
+	"bs-insertTemplate-dialog-label-choose": "Choisir un modèle",
+	"bs-insertTemplate-dialog-label-modify": "Modifier un modèle",
+	"bs-insertTemplate-dialog-label-preview": "Aperçu",
+	"apihelp-bs-inserttemplate-store-description": "Liste tous les modèles. Permet le tri, le filtrage et la mise en forme. Gère les paramètres ExtJS Store.",
+	"apihelp-bs-inserttemplate-store-summary": "Liste tous les modèles. Permet le tri, le filtrage et la mise en forme. Gère les paramètres ExtJS Store."
+}

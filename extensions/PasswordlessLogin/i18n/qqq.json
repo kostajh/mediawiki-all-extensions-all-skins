@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Florian Schmidt",
+			"Umherirrender"
+		]
+	},
+	"passwordlesslogin": "{{name}}",
+	"passwordlesslogin-desc": "{{desc}}",
+	"passwordlesslogin-verify-request": "Used to ask the user to verify their login request on their registered device.",
+	"passwordlesslogin-error-no-authentication-workflow": "Error message in cases where a workflow step is started, but there's no active authentication flow running already.",
+	"passwordlesslogin-no-challenge": "Error message in the unlikely event that a authentication continues, but there was no started authentication challenge beforehand.",
+	"passwordlesslogin-verification-pending": "Information message that informs the user that their authentication is pending to be verified on their device (they need to confirm the authentication on their connected device).",
+	"passwordlesslogin-pair-device-step": "Information message, that explains that the user should follow the instructions to pair their new device.",
+	"passwordlesslogin-no-device-paired": "Used during the process of pairing a new device when the user confirmed the device pairing but there is no actual device being paired, yet.",
+	"passwordlesslogin-verify-pair": "Used when a device is registered to ask the user to verify the registration on the connected device.",
+	"passwordlesslogin-pair-device": "Button label for [[Special:LinkAccounts]] to pair a new a device to be used to login without a password (passwordless login).",
+	"passwordlesslogin-login": "Button label on [[Special:UserLogin]] to request being logged in without typing a password but instead confirm the login on the connected smartphone.",
+	"passwordlesslogin-pair-step-1": "Label for the first step of the instructions to pair a new device, which is to download the app for the smartphone.",
+	"passwordlesslogin-pair-step-2": "Label for the second step of the instructions to pair a new device, which is to scan the QR code with the app.",
+	"passwordlesslogin-pair-step-3": "Label for the second step of the instructions to pair a new device, which is to confirm the pairing by continuing (clicking a button).",
+	"passwordlesslogin-authentication-app": "The label of the registered device on [[Special:RemoveCredentials]].",
+	"apihelp-passwordlesslogin-summary": "{{doc-apihelp-summary|passwordlesslogin}}",
+	"apihelp-passwordlesslogin-param-pairToken": "{{doc-apihelp-param|passwordlesslogin|pairToken}}",
+	"apihelp-passwordlesslogin-param-deviceId": "{{doc-apihelp-param|passwordlesslogin|deviceId}}",
+	"apihelp-passwordlesslogin-param-secret": "{{doc-apihelp-param|passwordlesslogin|secret}}",
+	"apihelp-passwordlesslogin-verify-challenge-summary": "{{doc-apihelp-summary|passwordlesslogin-verify-challenge}}",
+	"apihelp-passwordlesslogin-verify-challenge-param-challenge": "{{doc-apihelp-param|passwordlesslogin-verify-challenge|challenge}}",
+	"apihelp-passwordlesslogin-verify-challenge-param-response": "{{doc-apihelp-param|passwordlesslogin-verify-challenge|response}}",
+	"apihelp-passwordlesslogin-verify-login-summary": "{{doc-apihelp-summary|passwordlesslogin-verify-login}}"
+}

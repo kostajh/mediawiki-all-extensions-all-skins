@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli"
+		]
+	},
+	"categorywatch-desc": "Testendi l-funzjonijiet tal-lista ta' osservazzjonijiet biex tinkludi notifiki ta' tibdil fil-paġni li jappartjenu għall-kategoriji segwiti",
+	"categorywatch-emailsubject": "Attività li tinvolvi l-kategorija segwita \"$1\"",
+	"categorywatch-catmovein": "mexxa lil $1 fil-kategorija $2 minn $3",
+	"categorywatch-catmoveout": "mexxa lil $1 mill-kategorija $2 għal $3",
+	"categorywatch-catadd": "żied lil $1 fil-kategorija $2",
+	"categorywatch-catsub": "neħħa lil $1 mill-kategorija $2",
+	"categorywatch-autocat": "Segwita awtomatikament minn $1"
+}

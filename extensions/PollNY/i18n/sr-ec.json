@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Obsuser",
+			"Zoranzoki21"
+		]
+	},
+	"poll-admin-flagged": "Означено",
+	"poll-error-socialprofile-title": "Екстензија SocialProfile није инсталирана.",
+	"poll-time-seconds": "{{PLURAL:$1|1 секунда|$1 секунда|$1 секунди}}"
+}

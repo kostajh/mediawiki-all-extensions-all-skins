@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo.mps",
+			"Luckas"
+		]
+	},
+	"onlinestatus-desc": "Adiciona uma preferência para mostrar se o usuário está atualmente presente no wiki ou não",
+	"onlinestatus-js-anon": "Erro: você tem que estar autenticado para usar esta funcionalidade",
+	"onlinestatus-js-changed": "O seu estado foi alterado para \"$1\"",
+	"onlinestatus-js-error": "Impossível alterar estado, o valor \"$1\" é inválido",
+	"onlinestatus-subtitle-offline": "Este usuário está atualmente off-line",
+	"onlinestatus-subtitle-online": "Este usuário encontra-se autenticado",
+	"onlinestatus-tab": "Estado",
+	"onlinestatus-toggles-desc": "O seu estado:",
+	"onlinestatus-toggles-explain": "Permite que seja exibido a outros usuários, através de sua página de usuário, se você se encontra autenticado ou não.",
+	"onlinestatus-toggles-show": "Exibir o estado da minha ligação na minha página de usuário",
+	"onlinestatus-toggle-offline": "Offline",
+	"onlinestatus-toggle-online": "Online",
+	"onlinestatus-pref-onlineonlogin": "Alterar o meu estado para online quando me autenticar",
+	"onlinestatus-pref-offlineonlogout": "Alterar o meu estado para offline quando me desautenticar"
+}

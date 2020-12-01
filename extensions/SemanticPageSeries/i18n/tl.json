@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"semanticpageseries-desc": "Lumilikha ng isang serye ng mga pahina mula sa isang [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Pormularyong Semantiko]",
+	"spssuccesstitle": "Lumilikha ng $1 mga pahina",
+	"spssuccess": "{{PLURAL:$1|Isang pahina|$1 mga pahina}} ang lilikhain.",
+	"spssuccess-returntoorigin": "Bumalik sa $1",
+	"spserror": "Naganap ang isang kamalian",
+	"spserror-diffnotsupported": "Ang galaw ng pagkakaiba ay hindi sinusuportahan para sa mga serye ng pahina.",
+	"spserror-previewnotsupported": "Ang galaw na may paunang pagtingin ay hindi sinusuportahan para sa mga serye ng pahina.",
+	"spserror-noiteratorname": "Walang tinukoy na pang-ulit. Dapat mong itakda ang parametrong \"pang-ulit\" sa loob ng pangtawag ng tungkulin na pambanghay ng #serieslink.",
+	"spserror-iteratorunknown": "Hindi umiiral ang pang-ulit na \"$1\". Dapat mong itama ang parametrong \"pang-ulit\" sa loob ng pantawag na pangtungkulin ng pambahangya na #serieslink.",
+	"spserror-noformname": "Walang ibinigay na pangalan ng pormularyo. Dapat mong itakda ang parametrong \"pormularyo\" sa tungkuling pambanghay na #serieslink.",
+	"spserror-formunknown": "Hindi umiiral ang pormularyong \"$1\".",
+	"spserror-notargetformname": "Walang tinukoy na pinupukol na pormularyo. Dapat mong itakda ang parametrong \"pinupukol na pormularyo\" sa loob ng pangtawag ng tungkulin na pambanghay ng #serieslink.",
+	"spserror-notargetfieldname": "Walang ibinigay na pangalan ng pinupukol na kahanayan. Dapat mong itakda ang parametrong \"pinupukol na kahanayan\" sa loob ng pangtawag ng tungkulin na pambanghay ng #serieslink.",
+	"spserror-iteratorparammissing": "Nawawala ang sumusunod na mga parametro ng pang-ulit sa loob ng pangtawag ng #serieslink: $1",
+	"spserror-noiteratordata": "Walang natagpuang mga parametro ng pang-ulit sa loob ng datong ipinadala.",
+	"spserror-pagegenerationlimitexeeded": "Sinubukan mong likhain ang {{PLURAL:$1|isang pahina|$1 mga pahina}}. Lumalabis na ito sa pinahihintulutan mong hangganan na {{PLURAL:$2|isang pahina|$2 mga pahina}}.",
+	"spserror-date-startdatemissing": "Nawawala ang petsa ng simula.",
+	"spserror-date-internalerror": "Isang kamalian ang naganap habang nililikha ang mga petsa. Maaaring dahil ito sa isang maling anyo ng petsa ng simula o pagtatapos.",
+	"spserror-count-startvaluemalformed": "Ang halaga ng simula ay hindi isang bilang.",
+	"spserror-count-endvaluemalformed": "Ang halaga ng pagtatapos ay hindi isang bilang.",
+	"spserror-count-stepvaluemalformed": "Ang halaga ng hakbang ay hindi isang bilang.",
+	"spserror-count-digitsvaluemalformed": "Ang halaga ng mga tambilang ay hindi isang bilang."
+}

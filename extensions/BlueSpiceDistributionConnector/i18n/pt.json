@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Mansil alfalb"
+		]
+	},
+	"bs-distributionconnector-extension-description": "Liga o BlueSpice a várias extensões do MediaWiki",
+	"bs-distributionconnector-yourdomainname": "O seu domínio",
+	"bs-distributionconnector-tag-categorytree-desc": "Apresenta uma estrutura de árvore dinâmica no sistema de categorias da wiki. A categoria de raiz tem de ser indicada entre as etiquetas.",
+	"bs-distributionconnector-tag-ref-desc": "Marca o texto entre as etiquetas como nota de rodapé.",
+	"bs-distributionconnector-tag-references-desc": "Apresenta a lista de notas de rodapé que foram inseridas nos artigos.",
+	"bs-distributionconnector-tag-quiz-desc": "Acrescenta perguntas simples de teste a um artigo.",
+	"bs-distributionconnector-tag-embedvideo-desc": "Incorpora clipes de vídeo de plataformas de partilha populares.",
+	"bs-distributionconnector-tag-dynamicpagelist-desc": "Gera uma lista dinâmica de artigos com base em vários parâmetros.",
+	"bs-distributionconnector-flyout-hitcounters-text": "Número de visitas",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "Árvore de Categorias",
+	"bs-distributionconnector-ve-categorytree-title": "Árvore de Categorias",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "Modo",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "Profundidade",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "Ocultar raiz",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "Mostrar contagem",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "Ocultar prefixo",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "Espaço nominal",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "Etiqueta de estilo CSS",
+	"bs-distributionconnector-hitcounters-sesp-alias": "Contador de visitas",
+	"bs-distributionconnector-hitcounters-sesp-desc": "Contador de visitas",
+	"bs-distributionconnector-collection-type-hitcounter": "Visitas à página",
+	"bs-distributionconnector-collection-var-pagetitle": "Título da página",
+	"bs-distributionconnector-collection-var-numberhits": "Visitas"
+}

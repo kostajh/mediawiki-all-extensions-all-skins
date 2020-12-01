@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"Shirayuki",
+			"Siebrand",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"mediafunctions-desc": "{{desc|name=Media Functions|url=https://www.mediawiki.org/wiki/Extension:MediaFunctions}}",
+	"mediafunctions-invalid-title": "Used as error message. Parameters:\n* $1 - input that has been found invalid as a page title\nSee also:\n* {{msg-mw|Mediafunctions-not-exist}}",
+	"mediafunctions-not-exist": "Used as error message. Parameters:\n* $1 - a filename\nSee also:\n* {{msg-mw|Mediafunctions-invalid-title}}"
+}

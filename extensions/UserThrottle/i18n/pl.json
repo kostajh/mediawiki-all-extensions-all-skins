@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sp5uhe"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "Możliwość utworzenia nowego konta została automatycznie zawieszona na kilka sekund by uniemożliwić atak polegający na przeciążeniu serwera próbami rejestracji.\nPoczekaj chwilę i wciśnij „odśwież” w przeglądarce by ponowić operację.",
+	"userthrottle-desc": "Ogranicza częstotliwość rejestracji nowych użytkowników"
+}

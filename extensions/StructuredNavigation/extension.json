@@ -1,0 +1,197 @@
+{
+	"name": "StructuredNavigation",
+	"version": "2.0.0",
+	"author": [
+		"Sam Nguyen"
+	],
+	"license-name": "MIT",
+	"url": "https://www.mediawiki.org/wiki/Extension:StructuredNavigation",
+	"descriptionmsg": "structurednav-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.34.0",
+		"platform": {
+			"php": ">= 7.4"
+		}
+	},
+	"callback": "StructuredNavigation\\Hooks\\ExtensionCallback::onRegistrationCallback",
+	"MessagesDirs": {
+		"StructuredNavigation": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"StructuredNavigationNamespaces": "StructuredNavigation.i18n.namespaces.php",
+		"StructuredNavigationAliases": "StructuredNavigation.i18n.aliases.php"
+	},
+	"ServiceWiringFiles": [
+		"src/Services/ServiceWiring.php"
+	],
+	"AutoloadNamespaces": {
+		"StructuredNavigation\\": "src/",
+		"StructuredNavigation\\Libs\\": "libs/src/"
+	},
+	"Hooks": {
+		"BeforeDisplayNoArticleText": "StructuredNavigation\\Hooks\\BeforeDisplayNoArticleTextHandler::onBeforeDisplayNoArticleText",
+		"CodeEditorGetPageLanguage": "StructuredNavigation\\Hooks\\HookHandler::onCodeEditorGetPageLanguage",
+		"ParserFirstCallInit": "StructuredNavigation\\Hooks\\ParserFirstCallInitHandler::onParserFirstCallInit",
+		"UserGetReservedNames": "StructuredNavigation\\Hooks\\HookHandler::onUserGetReservedNames"
+	},
+	"SpecialPages": {
+		"NavigationSchema": {
+			"class": "StructuredNavigation\\Specials\\SpecialNavigationSchema",
+			"services": [
+				"StructuredNavigation.DocumentationContent"
+			]
+		},
+		"TitlesUsedInNavigation": {
+			"class": "StructuredNavigation\\Specials\\SpecialTitlesUsedInNavigation",
+			"services": [
+				"StructuredNavigation.NavigationFactory",
+				"StructuredNavigation.NamespacedTitleSearcher"
+			]
+		}
+	},
+	"ContentHandlers": {
+		"StructuredNavigation": "StructuredNavigation\\Content\\NavigationContentHandler"
+	},
+	"RestRoutes": [
+		{
+			"path": "/structurednav/v0/examples",
+			"method": "GET",
+			"class": "StructuredNavigation\\Api\\Rest\\NavigationExamplesHandler",
+			"services": [
+				"StructuredNavigation.DocumentationContent"
+			]
+		},
+		{
+			"path": "/structurednav/v0/schema",
+			"method": "GET",
+			"class": "StructuredNavigation\\Api\\Rest\\NavigationSchemaHandler",
+			"services": [
+				"StructuredNavigation.DocumentationContent"
+			]
+		},
+		{
+			"path": "/structurednav/v0/{title}/data",
+			"method": "GET",
+			"class": "StructuredNavigation\\Api\\Rest\\NavigationDataHandler",
+			"services": [
+				"StructuredNavigation.NavigationFactory"
+			]
+		},
+		{
+			"path": "/structurednav/v0/{title}/html",
+			"method": "GET",
+			"class": "StructuredNavigation\\Api\\Rest\\NavigationHtmlHandler",
+			"services": [
+				"StructuredNavigation.NavigationViewPresenter"
+			]
+		},
+		{
+			"path": "/structurednav/v0/{title}/titles-used",
+			"method": "GET",
+			"class": "StructuredNavigation\\Api\\Rest\\NavigationTitlesUsedHandler",
+			"services": [
+				"StructuredNavigation.NavigationFactory"
+			]
+		}
+	],
+	"ConfigRegistry": {
+		"structurednavigation": "StructuredNavigation\\Hooks\\ExtensionCallback::getGlobalVarConfig"
+	},
+	"config": {
+		"StructuredNavigationEnableExperimentalAPI": {
+			"value": false
+		},
+		"StructuredNavigationReservedUsername": {
+			"value": "msg:structurednav-reserved-username"
+		}
+	},
+	"namespaces": [
+		{
+			"id": 2940,
+			"constant": "NS_NAVIGATION",
+			"name": "Navigation",
+			"subpages": true,
+			"defaultcontentmodel": "StructuredNavigation",
+			"protection": [
+				"structurednav-edit",
+				"structurednav-create"
+			]
+		},
+		{
+			"id": 2941,
+			"constant": "NS_NAVIGATION_TALK",
+			"name": "Navigation_talk",
+			"subpages": true,
+			"content": false,
+			"defaultcontentmodel": "wikitext"
+		}
+	],
+	"GroupPermissions": {
+		"user": {
+			"structurednav-create": true,
+			"structurednav-edit": true
+		}
+	},
+	"AvailableRights": [
+		"structurednav-create",
+		"structurednav-edit"
+	],
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "StructuredNavigation"
+	},
+	"ResourceModules": {
+		"ext.structuredNav.wiki": {
+			"class": "ResourceLoaderWikiModule",
+			"scripts": [ "MediaWiki:StructuredNavigation.js" ]
+		},
+		"ext.structuredNav.wiki.styles": {
+			"class": "ResourceLoaderWikiModule",
+			"styles": [ "MediaWiki:StructuredNavigation.css" ]
+		},
+		"ext.structuredNav.NavigationView.styles": {
+			"styles": "resources/styles/ext.structuredNav.NavigationView.less"
+		},
+		"ext.structuredNav.NavigationView.separator.styles": {
+			"class": "ResourceLoaderLessVarFileModule",
+			"styles": "resources/styles/ext.structuredNav.NavigationView.separator.less",
+			"lessMessages": [
+				"structurednav-separator-symbol"
+			]
+		},
+		"ext.structuredNav.NavigationNotFoundView.styles": {
+			"styles": [
+				"libs/resources/ooui/EmptyStateView.less",
+				"resources/styles/ext.structuredNav.NavigationNotFoundView.less"
+			]
+		},
+		"ext.structuredNav.CopyEmbedWidget": {
+			"scripts": "resources/modules/ext.structuredNav.CopyEmbedWidget.js",
+			"styles": "resources/styles/ext.structuredNav.CopyEmbedWidget.less",
+			"messages": [
+				"structurednav-copy-label",
+				"structurednav-copy-state-fail",
+				"structurednav-copy-state-success"
+			],
+			"dependencies": [
+				"mediawiki.widgets",
+				"ext.structuredNav.core"
+			]
+		},
+		"ext.structuredNav.content": {
+			"scripts": "resources/modules/ext.structuredNav.content.js",
+			"dependencies": [
+				"ext.structuredNav.CopyEmbedWidget"
+			]
+		},
+		"ext.structuredNav.core": {
+			"scripts": "resources/modules/ext.structuredNav.core.js"
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

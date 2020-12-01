@@ -1,0 +1,55 @@
+{
+	"name": "LDAPUserInfo",
+	"version": "1.0.0",
+	"author": [
+		"Cindy Cicalese",
+		"[https://mediawiki.org/wiki/User:MarkAHershberger Mark A. Hershberger]",
+		"[https://mediawiki.org/wiki/User:Osnard Robert Vogel]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LDAPUserInfo",
+	"descriptionmsg": "ldapuserinfo-desc",
+	"license-name": "GPL-2.0",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"LDAPProvider": "~1.0"
+		}
+	},
+	"MessagesDirs": {
+		"LDAPUserInfo": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\LDAPUserInfo\\": "src/"
+	},
+	"Hooks": {
+		"UserLoadAfterLoadFromSession": "MediaWiki\\Extension\\LDAPUserInfo\\Hook\\UserLoadAfterLoadFromSession\\SyncUserInfoAfterLoadSession::callback"
+	},
+	"attributes": {
+		"LDAPProvider": {
+			"DefaultSettings": {
+				"userinfo": {
+					"attributes-map": {
+						"email": "mail",
+						"realname": "cn"
+					},
+					"generic-property-normalization-callbacks": {}
+				}
+			}
+		}
+	},
+	"config_prefix": "LDAPUserInfo",
+	"config": {
+		"ModifierRegistry": {
+			"value": {
+				"realname": "MediaWiki\\Extension\\LDAPUserInfo\\UserInfoModifier\\Realname::factory",
+				"email": "MediaWiki\\Extension\\LDAPUserInfo\\UserInfoModifier\\Email::factory",
+				"property.*": "MediaWiki\\Extension\\LDAPUserInfo\\UserInfoModifier\\GenericProperty::factory"
+			}
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

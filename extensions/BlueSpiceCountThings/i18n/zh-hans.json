@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian",
+			"Liuxinyu970226",
+			"Phenolla",
+			"Yfdyh000",
+			"夢蝶葬花"
+		]
+	},
+	"bs-countthings-desc": "提供基于统计信息的内容",
+	"bs-countthings-chars-label": "字符",
+	"bs-countthings-words-label": "字数",
+	"bs-countthings-files-label": "文件",
+	"bs-countthings-pages-label": "页面",
+	"bs-countthings-ve-countcharacters-title": "字符列表",
+	"bs-countthings-ve-countarticles-title": "排序条目",
+	"bs-countthings-ve-countfiles-title": "文件总数",
+	"bs-countthings-ve-countusers-title": "用户总数",
+	"bs-countthings-ve-countthingsinspector-mode": "模式",
+	"bs-countthings-ve-countcharacters-mode-all": "全部",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "字符",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "字数",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "字符与单词",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "页面",
+	"bs-countthings-ve-countcharacters-input-label": "页面",
+	"bs-countthings-error-no-input": "没有提供页面。",
+	"bs-countthings-error-invalid-mode": "模式“$1”无效。请使用\"chars\"、\"words\"或\"pages\"。",
+	"bs-countthings-error-not-exist": "页面“$1”不存在。",
+	"bs-countthings-tag-countarticles-desc": "显示wiki的条目数量。",
+	"bs-countthings-tag-countusers-desc": "显示已注册用户的数量。",
+	"bs-countthings-tag-countfiles-desc": "显示wiki的条目数量。",
+	"bs-countthings-tag-countcharacters-desc": "在显示条目的内容上生成元数据。输出内容是可集成到条目中的信息框。通过参数“mode”，可显示不同的信息类型。",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>：什么<code>chars</code>（字符）、<code>words</code>（文字）或<code>pages</code>（页面）应该统计。",
+	"bs-countthings-tag-countcharacters-example-1": "单词数",
+	"bs-countthings-tag-countcharacters-example-2": "字符数"
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Emperyan",
+			"Joseph",
+			"Karduelis",
+			"Suelnur"
+		]
+	},
+	"patrol": "Değişiklikleri gözle",
+	"patrol-desc": "Geliştirilmiş devriye arayüzü, işyükü paylaşımı ile",
+	"patrol-endorse": "Teyit et",
+	"patrol-revert": "Geri al",
+	"patrol-revert-reason": "Neden:",
+	"patrol-skip": "Atla",
+	"patrol-reverting": "Geri alınıyor: $1",
+	"patrol-nonefound": "Gözlenebilecek uygun değişiklik bulunamadı.",
+	"patrol-endorsed-ok": "Değişiklik gözlenmiş olarak işaretlendi.",
+	"patrol-endorsed-failed": "Değişiklik gözlenmiş olarak işaretlenemedi.",
+	"patrol-reverted-ok": "Değişiklik geri alındı.",
+	"patrol-reverted-failed": "Değişiklik geri alınamadı.",
+	"patrol-skipped-ok": "Değişiklik görmezden geliniyor.",
+	"patrol-reasons": "* Basit vandallık\n* Acemi testi\n* Tartışma sayfasına bakın",
+	"patrol-another": "Varsa, başka bir değişikliği göster.",
+	"patrol-stopped": "Başka bir değişikliği gözlememeyi seçtiniz. $1",
+	"patrol-resume": "Devam etmek için buraya tıklayın.",
+	"group-patroller": "Devriyeler",
+	"group-patroller-member": "{{GENDER:$1|devriye}}",
+	"grouppage-patroller": "{{ns:project}}:Devriye",
+	"right-patroller": "Sayfaları gözle"
+}

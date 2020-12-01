@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Canaan9801",
+			"Fitoschido",
+			"Geryescalier",
+			"Hasley",
+			"Madamebiblio"
+		]
+	},
+	"machinevision-desc": "Interactua con proveedores de servicios externos y internos de visión artificial y guarda y provee resultados.",
+	"machinevision-machineaidedtagging": "Etiquetas sugeridas",
+	"machinevision-machineaidedtagging-tabs-heading": "Imágenes por revisar",
+	"machinevision-machineaidedtagging-popular-tab": "Populares",
+	"machinevision-machineaidedtagging-user-tab": "Cargas personales",
+	"machinevision-pageinfo-field-suggested-labels": "Etiquetas sugeridas",
+	"machinevision-publish": "Publicar",
+	"machinevision-add-custom-tag": "Añadir etiqueta",
+	"machinevision-add-custom-tag-title": "Añadir una etiqueta personalizada a esta imagen",
+	"machinevision-skip": "Omitir",
+	"machinevision-personal-uploads-count": "Tienes $1 {{PLURAL:$1|carga|cargas}} personal(es) para revisión.",
+	"machinevision-loading-message": "Cargando imágenes…",
+	"machinevision-confirm-tags-dialog-title": "Confirmar etiquetas",
+	"machinevision-confirm-tags-dialog-confirm-action": "Aceptar",
+	"machinevision-confirm-tags-dialog-cancel-action": "Cancelar",
+	"machinevision-confirm-tags-dialog-heading": "Esta imagen muestra:",
+	"machinevision-success-message": "Se añadieron las etiquetas a la imagen.",
+	"machinevision-success-message-with-warning": "Se añadieron etiquetas a la imagen con las excepciones siguientes:",
+	"machinevision-onboarding-dialog-close-label": "Cerrar",
+	"machinevision-javascript-required": "Tu navegador no admite esta función.",
+	"machinevision-categories-label": "Categorías:",
+	"machinevision-add-custom-tag-dialog-title": "Etiqueta personalizada",
+	"machinevision-add-custom-tag-dialog-add-action": "Añadir",
+	"machinevision-add-custom-tag-dialog-cancel-action": "Cancelar",
+	"right-imagelabel-test": "Sugerencias de etiquetas para imagenes de prueba",
+	"action-imagelabel-test": "sugerencias de etiquetas para imagenes de prueba",
+	"tag-computer-aided-tagging-manual": "Etiquetado asistido por computadora - manual",
+	"tag-computer-aided-tagging-manual-description": "Ediciones creadas desde la herramienta de etiquetado asistida por computadora con etiquetas proporcionadas por el usuario",
+	"tag-computer-aided-tagging-manual-revert": "Etiquetado asistido por computadora - manual (revertir)",
+	"echo-category-title-machinevision": "Etiquetas sugeridas para revisión",
+	"echo-pref-tooltip-machinevision-suggestions-ready": "Notificarme cuando se hayan procesado mis imágenes y haya etiquetas sugeridas para que las revise."
+}

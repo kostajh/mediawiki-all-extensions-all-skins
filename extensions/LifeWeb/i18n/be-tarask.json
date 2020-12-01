@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Генэратар і рэдактар ідэнтыфікацыйных ключоў",
+	"apihelp-query+LifeWeb-description": "Лінія сувязі зьвестак для LifeBase.",
+	"apihelp-query+LifeWeb-summary": "Лінія сувязі зьвестак для LifeBase.",
+	"apihelp-query+LifeWeb-param-what": "Які сьпіс зьвестак атрымаць.",
+	"apihelp-query+LifeWeb-param-clearCache": "Ці будзе створаны кэш падчас атрыманьня зьвестак",
+	"apihelp-query+LifeWeb-example-1": "Сьпіс таксонаў",
+	"apihelp-query+LifeWeb-example-2": "Сьпіс пытаньняў, прыгожа аформлены"
+}

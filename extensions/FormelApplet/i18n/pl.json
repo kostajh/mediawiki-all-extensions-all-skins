@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"Chrumps",
+			"Matma Rex"
+		]
+	},
+	"formelapplet-desc": "Dodaj aplety [http://wiki.formelapplet.de FormelApplet] na stronach",
+	"formelapplet-nojava": "Zainstaluj $1, aby korzystać z tej strony.",
+	"formelapplet-missing-parameter": "Brakujący parametr (width, height lub term/solution).",
+	"formelapplet-file-not-found": "Nie odnaleziono pliku „$1”.",
+	"formelapplet-error": "Błąd rozszerzenia MediaWiki FormelApplet: <em>$1</em>"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"securehtml": "Veilige HTML",
+	"securehtml-desc": "Maakt het mogelijk om willekeurige HTML toe te voegen op een goedgekeurde en veilige manier",
+	"securehtml-nokeys": "Error: <code>$wgSecureHTMLSecrets</code> heeft geen waarde.",
+	"securehtml-invalidhash": "Fout: ongeldige hash.",
+	"securehtml-input-title": "HTML-invoer",
+	"securehtml-generatedoutput-title": "Gegenereerde uitvoer",
+	"securehtml-renderedhhtml-title": "Gerenderde HTML",
+	"securehtml-form-keyname": "Sleutelnaam (optioneel)",
+	"securehtml-form-keysecret": "Sleutelgeheim",
+	"securehtml-form-html": "Ruwe HTML",
+	"securehtml-form-submit": "Opslaan",
+	"securehtml-inputinstructions": "Voer een sleutelnaam (optioneel), sleutelgeheim en de gewenste ruwe HTML in.\nAls er geen sleutelnaam wordt opgegeven, wordt aangenomen dat de eerste sleutel uit <code>$wgSecureHTMLSecrets</code> moet worden gebruikt.",
+	"securehtml-outputinstructions": "Kopieer de bovenstaande code exact en plak deze in de tekstverwerker van de wiki.\nAls de bovenstaande code niet werkt, verwijder dan alle regeleinden van de invoer-HTML en probeer het opnieuw."
+}

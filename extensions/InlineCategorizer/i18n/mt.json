@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli"
+		]
+	},
+	"inlinecategorizer-add-category": "Żid kategorija",
+	"inlinecategorizer-add-category-submit": "Żid",
+	"inlinecategorizer-add-category-summary": "Żid il-kategorija \"$1\"",
+	"inlinecategorizer-api-error": "L-API tat lura żball: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "L-API tat lura żball mhux magħruf.",
+	"inlinecategorizer-cancel": "Annulla l-modifika",
+	"inlinecategorizer-cancel-all": "Annulla kull tibdila",
+	"inlinecategorizer-category-already-present": "Din il-paġna diġà tappartjeni għall-kategorija \"$1\"",
+	"inlinecategorizer-category-hook-error": "Funzjoni lokali ma ħallietx li l-modifiki jiġu salvati.",
+	"inlinecategorizer-category-question": "Għaliex tixtieq tagħmel dawn il-modifiki:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Salva",
+	"inlinecategorizer-confirm-save-all": "Salva kull tibdila",
+	"inlinecategorizer-confirm-title": "Ikkonferma l-azzjoni",
+	"inlinecategorizer-edit-category": "Immodifika kategorija",
+	"inlinecategorizer-edit-category-error": "Ma kienx possibbli li timmodifika l-kategorija \"$1\".\nDan ġeneralment jiġri meta l-kategorija ġiet miżjuda mal-paġna permezz ta' mudell.",
+	"inlinecategorizer-edit-category-summary": "Biddel kategorija minn \"$1\" għal \"$2\"",
+	"inlinecategorizer-error-title": "Żball",
+	"inlinecategorizer-remove-category": "Ħassar kategorija",
+	"inlinecategorizer-remove-category-error": "Ma kienx possibbli li titneħħa l-kategorija \"$1\".\nDan ġeneralment jiġri meta l-kategorija ġiet miżjuda mal-paġna permezz ta' mudell.",
+	"inlinecategorizer-remove-category-summary": "Neħħi l-kategorija \"$1\""
+}

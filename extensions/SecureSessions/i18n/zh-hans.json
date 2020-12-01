@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Yfdyh000"
+		]
+	},
+	"securesessions-desc": "使用户会话和会话认证更安全",
+	"securesessions-personalurl": "打开的会话 ($1)",
+	"securesessions-ipsession": "注销所有其他会话。",
+	"securesessions-iprestrict": "限制会话到此IP地址，",
+	"securesessions-uarestrict": "限制会话到此浏览器，",
+	"securesessions-sessions": "会话",
+	"securesessions-sessions-legend": "会话信息",
+	"securesessions-sessions-text": "以下是您的帐户所有打开的会话，以及有关它们的信息。您可以使用下面的按钮关闭所有其他会话。带有一个星号(*)表示是当前的会话。",
+	"securesessions-sessions-ip": "IP地址：",
+	"securesessions-sessions-activity": "最后活动：",
+	"securesessions-sessions-clear": "注销所有其他会话",
+	"securesessions-prefs-country": "按国家限制登录：",
+	"securesessions-prefs-tor": "禁止从 Tor 出口节点登录。",
+	"securesessions-disallowedcountry": "此账户不允许从此国家登录。",
+	"securesessions-disallowedtor": "此账户不允许从 Tor 出口节点登录。"
+}

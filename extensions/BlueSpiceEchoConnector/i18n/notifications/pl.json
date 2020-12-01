@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Matma Rex"
+		]
+	},
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Twórca}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Twórca}}: $1",
+	"bs-notifications-edit": "Strona „$1” została zmieniona",
+	"bs-notifications-edit-bundle": "Strona „$2” została zmieniona {{PLURAL:$1|$1 raz|$1 razy}}",
+	"bs-notifications-email-edit-subject": "Strona „$1” {{GENDER:$2|edytowana}} przez $3",
+	"bs-notifications-email-edit-body": "Strona „$1” była {{GENDER:$2|edytowana}} przez $4.\n\nKomentarz:\n $3",
+	"bs-notifications-web-edit-body": "Strona „$1” była {{GENDER:$2|edytowana}} przez $3.",
+	"bs-notifications-create": "Strona „$1” została utworzona",
+	"bs-notifications-email-create-subject": "Strona „$1” {{GENDER:$2|utworzona}} przez $3",
+	"bs-notifications-web-create-body": "Strona „$1” została {{GENDER:$2|utworzona}} przez $3.",
+	"bs-notifications-delete": "Strona „$1” została skasowana",
+	"bs-notifications-email-delete-subject": "Strona „$1” {{GENDER:$2|usunięta}} przez $3",
+	"bs-notifications-email-delete-body": "Strona „$1” została {{GENDER:$2|usunięta}} przez $3.\n\nPowód usunięcia to:\n$4",
+	"bs-notifications-move": "Strona „$1” została przeniesiona",
+	"bs-notifications-email-move-subject": "Strona „$1” {{GENDER:$2|przeniesiona}} do „$3” przez $4",
+	"bs-notifications-edit-difflink-label": "Zobacz różnicę",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Witaj}} $1",
+	"bs-notifications-mail-additional-links-label": "Dodatkowe linki"
+}

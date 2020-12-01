@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"pageblock-desc": "Abbilite le restriziune pe pàgene/utende",
+	"pageblock": "Limite l'utende",
+	"pageblock-legend": "Limite l'utende",
+	"pageblock-form-title": "Nome d'a pàgene",
+	"pageblock-form-user": "Nome de l'utende",
+	"pageblock-form-edit": "Limite l'utende da le cangiaminde",
+	"pageblock-form-sameformove": "Appleche le stesse limitaziune pe le spustaminde",
+	"pageblock-form-move": "Limite l'utende da le spustaminde",
+	"pageblock-form-reason": "Mutive",
+	"pageblock-success": "$1 ha state limitate da $2.",
+	"listrestrictions": "Elenghe de le limitaziune",
+	"listrestrictions-legend": "Elenghe de le limitaziune",
+	"pageblock-list-title": "Nome d'a pàgene",
+	"pageblock-list-user": "Nome de l'utende",
+	"pageblock-list-indefonly": "Fà 'ndrucà sulamende le limitaziune indefinite",
+	"pageblock-restricted-edit-indef": "$1 je limitate da le cangiaminde de $2 indefinitamende.",
+	"pageblock-restricted-edit": "$1 je limitate da le cangiaminde de $2 'nzigne a $3.",
+	"pageblock-restricted-move-indef": "$1 je limitate da le spustaminde de $2 indefinitamende.",
+	"pageblock-restricted-move": "$1 je limitate da le spustaminde de $2 'nzigne a $3.",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|Sì}} limitate da le cangiaminde $2 indefinitamende.",
+	"pageblock-blocked-edit": "{{GENDER:$1|Sì}} limitate da le cangiaminde de $2 'nzigne a $3.",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|Sì}} limitate da le spustaminde de $2 indefinitamende.",
+	"pageblock-blocked-move": "{{GENDER:$1|Sì}} limitate da le spustaminde 'nzigne a $3.",
+	"logentry-restrict-add-edit-move": "$1 {{GENDER:$2|ave limitate}} $3 da le cangiaminde e spustaminde de $4",
+	"logentry-restrict-add-edit": "$1 {{GENDER:$2|ave limitate}} $3 da le cangiaminde de $4",
+	"logentry-restrict-add-move": "$1 {{GENDER:$2|ave limitate}} $3 da le spustaminde de $4",
+	"action-page-block": "applecà, cangià o luà le limitaziune a 'na pàgene o a 'n'utende",
+	"right-page-block": "applecà, cangià o luà le limitaziune a 'na pàgene o a 'n'utende"
+}

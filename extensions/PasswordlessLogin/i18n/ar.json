@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kassem7899",
+			"ديفيد"
+		]
+	},
+	"passwordlesslogin": "تسجيل دخول لا يحتاج إلى كلمة سر",
+	"passwordlesslogin-desc": "يقدم طريقة لتسجيل الدخول دون الحاجة إلى كلمة سر، عن طريق تأكيد تسجيل الدخول على الجهاز الموصول.",
+	"passwordlesslogin-verify-request": "رجاءً أكد على هاتفك تسجيل الدخول الذي أجريته.",
+	"passwordlesslogin-error-no-authentication-workflow": "تعطل سير عمل التصديق فجأةً.",
+	"passwordlesslogin-no-challenge": "لا يوجد تحدٍ نشط يمكن التحقق منه؛ رجاءً أعد بدء عملية التصديق.",
+	"passwordlesslogin-verification-pending": "لم يتم التحقق من التصديق بعد. رجاءً قم بتأكيد طلب تسجيل الدخول على جهازك الموصول.",
+	"passwordlesslogin-pair-device-step": "رجاءً اتبع التعلميات لكي تكون قادراً على إقران جهازك الجديد.",
+	"passwordlesslogin-no-device-paired": "لم يتم إقران أي جهاز بعد.",
+	"passwordlesslogin-verify-pair": "لقد قمنا بإرسال طلب تسجيل دخول إلى جهازك للتأكد أنه تم وصله بشكل صحيح. رجاءً أكد الطلب واستمر.",
+	"passwordlesslogin-pair-device": "قم بإقران الجهاز لتسجيل الدخول دون كلمة سر",
+	"passwordlesslogin-login": "سجل الدخول بواسطة هاتفك الذكي",
+	"passwordlesslogin-pair-step-1": "1. قم بتحمبل تطبيق ميدياويكي الذي يسمح لك بتسجيل الدخول دون استعمال كلمة سر.",
+	"passwordlesslogin-pair-step-2": "2. عالج رمز الاستجابة السريعة باستخدام التطبيق",
+	"passwordlesslogin-pair-step-3": "3. عندما تنتهي عملية إعداد التطبيق، انتقل إلى الخطوة التالية",
+	"passwordlesslogin-authentication-app": "تطبيق التصديق",
+	"apihelp-passwordlesslogin-summary": "قم بتسجيل جهاز جديد لرمزان مزدوجان تم توليدهما من قبل.",
+	"apihelp-passwordlesslogin-param-pairToken": "رمز الاقتران المنشأ مسبقا لتحديد المستخدم الذي سيتم تسجيل الجهاز عليه.",
+	"apihelp-passwordlesslogin-param-deviceId": "برنامح متميز مختص بالتعرف على الأجهزة بالإضافة إلى إرسال إشعارات لها عن طريق نظام المراسلة الافتراضي الموجود في الجهاز (على سبيل المثال، برنامج فايربيس للمراسلة السحابية أو الأجهزة التي تعمل على نظام الأندروريد)",
+	"apihelp-passwordlesslogin-param-secret": "سر منشأ على الجهاز والذي سيتم استخدامه للتوقيع على التحديات المرسلة إلى الجهاز، يتم استخدام هذا السر للتحقق من استجابة تحدي طلب تسجيل الدخول ويحتاج إلى الحفاظ على سريته.",
+	"apihelp-passwordlesslogin-verify-challenge-summary": "قم بالتحقق من طلب تسجيل دخول تم إرساله إلى جهاز.",
+	"apihelp-passwordlesslogin-verify-challenge-param-challenge": "التحدي الذي تم إرساله إلى الجهاز والذي سيتم حله.",
+	"apihelp-passwordlesslogin-verify-challenge-param-response": "الاستجابة (الحل) للتحدي، يجب أن يكون الحل:<br />&#160;1. HMAC مع SHA512 كخوارزمية توقيع<br />&#160;2. السر المشترك مسبقا باعتباره مادة أساسية متماثلة <br />&#160;3. تمثل بيانات MAC التحدي مصفوفة بايت<br />&#160;4. يجب أن تكون الاستجابة سلسلة سداسية عشرية<br />&#160;5.الاستجابة يجب أن تكون بحروف صغيرة",
+	"apihelp-passwordlesslogin-verify-login-summary": "تحقق مما إذا كان الجهاز قد تحقق من طلب تسجيل الدخول بالفعل."
+}

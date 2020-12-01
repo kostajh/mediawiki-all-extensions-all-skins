@@ -1,0 +1,67 @@
+{
+	"name": "MarkAsHelpful",
+	"version": "0.2.0",
+	"author": [
+		"Rob Moen",
+		"Benny Situ"
+	],
+	"url": "https://www.mediawiki.org/wiki/Mark_as_Helpful",
+	"descriptionmsg": "markashelpful-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"APIModules": {
+		"markashelpful": "ApiMarkAsHelpful",
+		"getmarkashelpfulitem": "ApiGetMarkAsHelpfulItem"
+	},
+	"AvailableRights": [
+		"markashelpful-view",
+		"markashelpful-admin"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"markashelpful-admin": true
+		}
+	},
+	"MessagesDirs": {
+		"MarkAsHelpful": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MarkAsHelpfulItem": "includes/MarkAsHelpfulItem.php",
+		"MWMarkAsHelpFulItemPropertyException": "includes/MarkAsHelpfulItem.php",
+		"MWMarkAsHelpFulItemSearchKeyException": "includes/MarkAsHelpfulItem.php",
+		"MarkAsHelpfulUtil": "includes/MarkAsHelpfulUtil.php",
+		"ApiMarkAsHelpful": "api/ApiMarkAsHelpful.php",
+		"MWApiGetMarkAsHelpfulItemInvalidPageException": "api/ApiGetMarkAsHelpfulItem.php",
+		"ApiGetMarkAsHelpfulItem": "api/ApiGetMarkAsHelpfulItem.php",
+		"MWApiMarkAsHelpfulInvalidActionException": "api/ApiMarkAsHelpful.php",
+		"MWApiMarkAsHelpfulInvalidPageException": "api/ApiMarkAsHelpful.php",
+		"MarkAsHelpfulHooks": "MarkAsHelpful.hooks.php"
+	},
+	"ResourceModules": {
+		"ext.markAsHelpful": {
+			"styles": "ext.markAsHelpful/ext.markAsHelpful.css",
+			"scripts": "ext.markAsHelpful/ext.markAsHelpful.js",
+			"dependencies": [
+				"mediawiki.util"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "MarkAsHelpful/modules"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "MarkAsHelpfulHooks::onPageDisplay",
+		"LoadExtensionSchemaUpdates": "MarkAsHelpfulHooks::onLoadExtensionSchemaUpdates"
+	},
+	"config": {
+		"MarkAsHelpfulType": {
+			"value": []
+		}
+	},
+	"manifest_version": 2
+}

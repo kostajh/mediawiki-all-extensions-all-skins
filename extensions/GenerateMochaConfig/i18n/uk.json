@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"generatemochaconfig-desc": "Скрипт, що генерує JSON, який можна використати для виконання Mocha-тестувань для всіх увімкнених розширень"
+}

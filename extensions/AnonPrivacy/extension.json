@@ -1,0 +1,36 @@
+{
+	"name": "AnonPrivacy",
+	"version": "1.1",
+	"author": "[https://mediawiki.org/wiki/User:Sophivorus Sophivorus]",
+	"url": "https://www.mediawiki.org/wiki/Extension:AnonPrivacy",
+	"descriptionmsg": "anonprivacy-desc",
+	"license-name": "GPL-3.0",
+	"type": "other",
+	"MessagesDirs": {
+		"AnonPrivacy": [
+			"i18n"
+		]
+	},
+	"requires": {
+		"MediaWiki": ">=1.35.0"
+	},
+	"AutoloadClasses": {
+		"AnonPrivacy": "AnonPrivacy.php"
+	},
+	"AvailableRights": [
+		"anonprivacy"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"anonprivacy": true
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "AnonPrivacy"
+	},
+	"Hooks": {
+		"HtmlPageLinkRendererEnd": "AnonPrivacy::onHtmlPageLinkRendererEnd"
+	},
+	"manifest_version": 2
+}

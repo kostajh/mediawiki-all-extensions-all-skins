@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paladox",
+			"Umherirrender"
+		]
+	},
+	"openlayers-extensionname": "{{name}}",
+	"openlayers-desc": "{{desc|name=OpenLayers|url=https://www.mediawiki.org/wiki/Extension:OpenLayers}}"
+}

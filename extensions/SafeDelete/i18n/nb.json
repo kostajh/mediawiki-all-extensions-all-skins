@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"safedelete": "Trygg sletting",
+	"safedelete-desc": "Slett sider kun om ingen sider i det angitte navnerommet lenker til dem",
+	"safedelete-title": "Slett «$1»",
+	"safedelete-missingpagename": "Sidenavnet mangler.",
+	"safedelete-missingnamespaces": "Liste over spesialslettingsnavnerom er ikke satt.",
+	"safedelete-cannotdelete": "Siden «$1» kan ikke slettes fordi det er lenker eller omdirigeringer til den fra følgende {{PLURAL:$2|side|sider}}:"
+}

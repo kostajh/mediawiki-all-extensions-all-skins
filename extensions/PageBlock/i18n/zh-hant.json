@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"烈羽"
+		]
+	},
+	"pageblock-desc": "啟用各頁面/使用者限制",
+	"pageblock": "限制使用者",
+	"pageblock-legend": "限制使用者",
+	"pageblock-form-title": "頁面名稱",
+	"pageblock-form-user": "使用者名稱",
+	"pageblock-form-edit": "限制使用者編輯",
+	"pageblock-form-sameformove": "套用相同的移動限制",
+	"pageblock-form-move": "限制使用者移動",
+	"pageblock-form-reason": "原因",
+	"pageblock-success": "$1 已被限制在 $2 方面的操作。",
+	"listrestrictions": "列出限制",
+	"listrestrictions-legend": "列出限制",
+	"pageblock-list-title": "頁面名稱",
+	"pageblock-list-user": "使用者名稱",
+	"pageblock-list-indefonly": "僅顯示無限期限制",
+	"pageblock-restricted-edit-indef": "$1 已被無限期限制在 $2 方面的編輯操作。",
+	"pageblock-restricted-edit": "$1 被限制在 $3 以前不可對 $2 做出編輯操作。",
+	"pageblock-restricted-move-indef": "$1 已被無限期限制在 $2 方面的移動操作。",
+	"pageblock-restricted-move": "$1 被限制在 $3 以前不可對 $2 做出移動操作。",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|您}}被無限期限制不可對 $2 做出編輯操作。",
+	"pageblock-blocked-edit": "{{GENDER:$1|您}}被限制在 $3 以前不可對 $2 做出編輯操作。",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|您}}被無限期限制不可對 $2 做出移動操作。",
+	"pageblock-blocked-move": "{{GENDER:$1|您}}被限制在 $3 以前不可做出移動操作。",
+	"logentry-restrict-add-edit-move": "$1 {{GENDER:$2|已限制}} $3 對 $4 的編輯與移動操作",
+	"logentry-restrict-add-edit": "$1 {{GENDER:$2|已限制}} $3 對 $4 的編輯操作",
+	"logentry-restrict-add-move": "$1 {{GENDER:$2|已限制}} $3 對 $4 的移動操作",
+	"action-page-block": "套用、更改、移除掉頁面或各使用者限制",
+	"right-page-block": "套用、更改、移除掉頁面或各使用者限制"
+}

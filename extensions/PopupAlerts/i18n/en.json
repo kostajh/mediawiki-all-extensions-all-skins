@@ -1,0 +1,7 @@
+{
+	"@metadata": {
+		"authors": [ "WikiTeq" ]
+	},
+	"popupalerts-desc": "Allows to insert a popup window into a wiki page using markup.",
+	"popupalerts-expiration-info": "Next time this popup will be displayed after $1 {{PLURAL:$1|day|days}}."
+}

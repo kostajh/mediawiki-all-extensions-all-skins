@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-socialtags-desc": "Legger til taggingsfunksjonalitet til sosiale entiteter",
+	"bs-socialtags-tagstext": "{{PLURAL:$1|Lenket side|Lenkede sider}} ($1)",
+	"bs-socialtags-var-tags": "Lenkede sider",
+	"socialtags": "Lenkede sider",
+	"bs-socialtags-special-heading": "Lenkede sider",
+	"apihelp-bs-socialtags-tasks-summary": "Tilbyr oppgaver for å redigere entiteters lenkede sider",
+	"action-social-tagging": "redigere lenkede sider",
+	"right-social-tagging": "Redigere lenkede sider"
+}

@@ -1,0 +1,93 @@
+{
+	"name": "BlueSpiceUEModulePDF",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:UEModulePDF",
+	"author": "Robert Vogel",
+	"descriptionmsg": "bs-uemodulepdf-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceUniversalExport": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceUEModulePDF": {
+					"className": "\\BlueSpice\\UEModulePDF\\Extension",
+					"extPath": "/BlueSpiceUEModulePDF",
+					"configDefinitions": {
+						"UEModulePDFSuppressNS": "\\BlueSpice\\UEModulePDF\\ConfigDefinition\\SuppressNS::getInstance"
+					}
+				}
+			},
+			"PermissionRegistry": {
+				"uemodulepdf-export": {
+					"type": "namespace",
+					"roles": [
+						"reader"
+					]
+				}
+			}
+		},
+		"BlueSpiceUniversalExport": {
+			"ModuleRegistry": {
+				"pdf": "\\BsExportModulePDF::factory"
+			}
+		}
+	},
+	"callback": "\\BlueSpice\\UEModulePDF\\Extension::onRegistration",
+	"GroupPermissions": {
+		"*": {
+			"uemodulepdf-export": true
+		}
+	},
+	"AvailableRights": [
+		"uemodulepdf-export"
+	],
+	"MessagesDirs": {
+		"UEModulePDF": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\UEModulePDF\\": "src/"
+	},
+	"AutoloadClasses": {
+		"BsPDFPageProvider": "includes/PDFPageProvider.class.php",
+		"BsPDFTemplateProvider": "includes/PDFTemplateProvider.class.php",
+		"BsPDFWebService": "includes/PDFWebService.class.php",
+		"BsPDFServlet": "includes/PDFServlet.class.php",
+		"BsExportModulePDF": "includes/ExportModulePDF.class.php",
+		"PDFFileResolver": "includes/PDFFileResolver.php"
+	},
+	"Hooks": {
+		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\UEModulePDF\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddUEModulePDF::callback",
+		"BSMigrateSettingsFromDeviatingNames": "\\BlueSpice\\UEModulePDF\\Hook\\BSMigrateSettingsFromDeviatingNames\\SkipServiceSettings::callback"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"UEModulePDFSuppressNS": {
+			"value": false,
+			"descriptionmsg": "bs-uemodulepdf-pref-suppressns",
+			"public": true
+		},
+		"UEModulePDFPdfServiceURL": {
+			"value": "http://127.0.0.1:8080/BShtml2PDF"
+		},
+		"UEModulePDFDefaultTemplate": {
+			"value": "BlueSpice"
+		},
+		"UEModulePDFTemplatePath": {
+			"value": "extensions/BlueSpiceUEModulePDF/data/PDFTemplates"
+		},
+		"UEModulePDFAllowPartialExport": {
+			"value": false
+		}
+	},
+	"manifest_version": 2,
+	"load_composer_autoloader": true
+}

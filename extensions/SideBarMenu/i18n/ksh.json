@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"sidebarmenu-desc": "Brängk dä Befähl <code lang=\"en\">&lt;sidebarmenu&gt;</code> en et Wiki, öm eijfach Menüüs un Ongermenüüs för zom Ußklappe em Wiki enbenge ze künne.",
+	"sidebarmenu-parser-input-error": "Dä Paaser hät ene Fähler jefonge: $1",
+	"sidebarmenu-parser-syntax-error": "Mer kunnte „$1“ nit verärbeide un oplüüse. Bes seescher, dat dat all reeschtesch jerschrevve es un schtemmp?",
+	"sidebarmenu-js-init-error": "De Javaskrepte kunnte nit jelaade wääde.",
+	"sidebarmenu-edit": "Et Menüh ändere!",
+	"sidebarmenu-parser-menuitem-expanded-null": "Ene onjöltije Wäät es aanjejovve woode, et sullt <code lang=\"en>null</code>, <code lang=\"en>true</code>, udder <code lang=\"en>false</code> sin.",
+	"sidebarmenu-parser-config-error": "Ene Fähler es opjetrodde beim Pröhve vun de enjejovve Parramehtere.",
+	"sidebarmenu-parser-subpage-error-title-not-found": "De Övverschreff vun dä Ongersigg kunnte mer nit fenge."
+}

@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hindustanilanguage",
+			"امین اکبر"
+		]
+	},
+	"emailauthorizationconfig": "ای میل منظوری کا ڈیش بورڈ",
+	"emailauthorization-config-label-email": "ای میل پتہ",
+	"emailauthorizationrequest": "کھاتے کی درخواست دینا",
+	"emailauthorization-request-label-email": "ای میل پتہ",
+	"emailauthorization-request-button-submit": "بھیجیں",
+	"emailauthorization-request-requested": "ای میل پتے $1 کے لیے ایک کھاتے کی درخواست دی گئی ہے۔",
+	"emailauthorization-request-invalidemail": "غلط ای میل پتا:$1",
+	"emailauthorization-request-error": "$1 کے لیے نئے کھاتے کی درخواست دیتے ہوئے غلطی ہوئی ہے۔",
+	"echo-category-title-emailauthorization-notification-category": "نئے کھاتوں کی درخواستیں",
+	"notification-header-emailauthorization-account-request": "ایک نئے کھاتے کے لیے درخواست دی گئی ہے۔",
+	"notification-subject-emailauthorization-account-request": "نئے کھاتے کی درخواست",
+	"notification-body-emailauthorization-account-request": "$1 نے ایک کھاتے کی درخواست کی ہے۔",
+	"notification-link-label-emailauthorization-account-request": "کھاتوں کی منظوری کے صفحے کا دورہ کیجیے",
+	"emailauthorizationapprove": "کھاتوں کی درخواستوں کو منظور کیجیے",
+	"emailauthorization-approve-label-email": "ای میل پتہ",
+	"emailauthorization-approve-label-extra": "اضافی خانے",
+	"emailauthorization-approve-label-action": "اعمال",
+	"emailauthorization-approve-button-approve": "منظور کیجیے",
+	"emailauthorization-approve-button-reject": "رد کیجیے",
+	"emailauthorization-approve-button-next": "اگلا",
+	"emailauthorization-approve-button-previous": "پچھلا",
+	"emailauthorization-approve-norequestsfound": "کوئی کھاتے کی درخواست نہیں ملی۔",
+	"emailauthorization-approve-approved": "منظور $1۔",
+	"emailauthorization-approve-rejected": "$1 رد کردیاگیا۔"
+}

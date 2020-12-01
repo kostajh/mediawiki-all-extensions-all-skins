@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"LNDDYL",
+			"Simon Shek"
+		]
+	},
+	"semanticpageseries-desc": "從 [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Page Form] 來建立一系列頁面",
+	"spssuccesstitle": "建立 $1 頁面",
+	"spssuccess": "將會建立{{PLURAL:$1|一個頁面|$1個頁面}}。",
+	"spssuccess-returntoorigin": "返回到$1",
+	"spserror": "出現了一個錯誤",
+	"spserror-diffnotsupported": "頁面系列不支持diff差別比較操作。",
+	"spserror-previewnotsupported": "頁面系列不支持預覽操作。",
+	"spserror-noiteratorname": "沒有指定疊代器。你必須在#serieslink剖析器函數調入中設定疊代器參數\"iterator\"。",
+	"spserror-iteratorunknown": "迭代器\" $1 \"並不存在。你必須在#serieslink解析器函數調用中更正迭代器參數\"iterator\"。",
+	"spserror-noformname": "沒有指定表單名稱。你必須在#serieslink剖析器函數中設定表單參數\"form\"。",
+	"spserror-formunknown": "表單\"$1\"並不存在。",
+	"spserror-notargetformname": "沒有指定目標表單名稱。你必須在#serieslink 剖析器函數調入中設定目標表單參數\"target form\"。",
+	"spserror-notargetfieldname": "沒有指定目標字段名稱。您必須在#serieslink 解析器函數調用中設置目標字段參數\"target field\"。",
+	"spserror-iteratorparammissing": "#serieslink調用中缺少下列迭代器參數：\n$1",
+	"spserror-noiteratordata": "未找到已傳送資料中的迭代器參數。",
+	"spserror-pagegenerationlimitexeeded": "您已嘗試生成{{PLURAL:$1|一個頁面|$1個頁面}}。這超過了您的允許極限：{{PLURAL:$2|一個頁面|$2個頁面}}。",
+	"spserror-date-startdatemissing": "缺少開始日期。",
+	"spserror-date-internalerror": "建立日期時出現錯誤：$1",
+	"spserror-count-startvaluemalformed": "起始值不是數字。",
+	"spserror-count-endvaluemalformed": "結束值不是數字。",
+	"spserror-count-stepvaluemalformed": "步長值不是數字。",
+	"spserror-count-digitsvaluemalformed": "位數值不是數字。"
+}

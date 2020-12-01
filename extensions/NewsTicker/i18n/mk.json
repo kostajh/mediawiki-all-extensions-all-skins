@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"newsticker": "Лента со вести",
+	"newsticker-desc": "Додава волшебен збор за приказ на лента со вести која се нагодува од службена страница.",
+	"newsticker-summary": "Службена страница за поставање на содржината и страниците на лентата со вести",
+	"newsticker-general": "Општо",
+	"newsticker-news": "Вести",
+	"newsticker-class": "Класа",
+	"newsticker-style": "Стил",
+	"newsticker-pages": "Страници",
+	"newsticker-page1": "Страница 1",
+	"newsticker-page2": "Страница 2",
+	"newsticker-page3": "Страница 3",
+	"newsticker-page4": "Страница 4",
+	"newsticker-page5": "Страница 5",
+	"newsticker-page6": "Страница 6",
+	"newsticker-page7": "Страница 7",
+	"newsticker-page8": "Страница 8",
+	"newsticker-page9": "Страница 9",
+	"newsticker-title": "Наслов",
+	"newsticker-add-page": "Додај страница",
+	"newsticker-default-news-help": "Задај ги вообичаените вести за сите ленти. По една во секој нов ред; се допушта викитекст.",
+	"newsticker-default-class-help": "Задај вообичаени CSS-класи за сите ленти со вести.",
+	"newsticker-default-style-help": "Задај вообичаен CSS-стил за сите ленти со вести.",
+	"newsticker-pages-help": "Задај на колку страници да се прикажува лентата со вести, така што службената страница ќе може да прикажува по еден оддел за секоја страница. Внимание! Ако го намалите бројот на страниците, содржината на отфрлените страници ќе се изгуби!",
+	"newsticker-title-help": "Задај го насловот на страницата на која ќе се прикажува оваа лента.",
+	"newsticker-news-help": "Задај вести за оваа лента, заменувајќи ги вообичаените.",
+	"newsticker-class-help": "Задај ги CSS-класите за лентата со вести, заменувајќи ги вообичаените.",
+	"newsticker-style-help": "Задај го CSS-стилот за лентата со вести, заменувајќи го вообичаениот.",
+	"right-newsticker": "Раководење на ленти со вести",
+	"action-newsticker": "раководење со ленти со вести"
+}

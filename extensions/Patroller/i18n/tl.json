@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"patrol": "Patrulyahan ang mga pagbabago",
+	"patrol-desc": "Pinainam na ugnayang-hangganan na pangpatrolya na may pakikisalo sa dami ng bilang ng gawain",
+	"patrol-endorse": "Itaguyod",
+	"patrol-revert": "Ibalik sa dati",
+	"patrol-revert-reason": "Dahilan:",
+	"patrol-skip": "Laktawan",
+	"patrol-reverting": "Ibinabalik sa dati: $1",
+	"patrol-nonefound": "Walang natatagpuang naaangkop na mga pagbabago para sa pagpapatrolya.",
+	"patrol-endorsed-ok": "Minarkahan bilang napatrolya na ang pagbabago.",
+	"patrol-endorsed-failed": "Hindi maaaring markahan bilang napatrolya na ang pagbabagong ito.",
+	"patrol-reverted-ok": "Ibinalik sa dati ang pagbabago.",
+	"patrol-reverted-failed": "Hindi maibalik sa dati ang pagbabago.",
+	"patrol-skipped-ok": "Hindi pinapansin ang pagbabago.",
+	"patrol-reasons": "* Payak na pambababoy/bandalismo\n* Pagsubok ng baguhan\n* Tingnan ang pahina ng usapan",
+	"patrol-another": "Magpakita ng iba pang pagbabago, kung may makukuha.",
+	"patrol-stopped": "Pinili mong huwag magpatrolya ng iba pang pagbabago. $1",
+	"patrol-resume": "Pindutin dito upang magpatuloy.",
+	"group-patroller": "Mga tagapatrolya",
+	"group-patroller-member": "{{GENDER:$1|tagapatrolya}}",
+	"grouppage-patroller": "{{ns:project}}:Tagapatrolya",
+	"right-patroller": "Patrulyahan ang mga pahina",
+	"group-patroller.css": "/* Ang inilagay na Mga Pilas ng Estilong Lumalagaslas (Cascading Style Sheets o CSS) dito ay makakaapekto lamang sa mga tagapagpatrolya */",
+	"group-patroller.js": "/* Ang JavaScript o JS na inilagay dito ay makakaapekto lamang sa mga tagapagpatrolya */"
+}

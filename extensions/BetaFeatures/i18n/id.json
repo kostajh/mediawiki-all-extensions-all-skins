@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arifin.wijaya",
+			"C5st4wr6ch",
+			"Daud I.F. Argana",
+			"Diki Ananta",
+			"Macofe",
+			"Rachmat.Wahidi",
+			"Rachmat04",
+			"William Surya Permana"
+		]
+	},
+	"betafeatures-auto-enroll": "Secara otomatis aktifkan fitur-fitur paling beta",
+	"betafeatures-auto-enroll-help": "Beberapa fitur beta bisa jadi menghasilkan perubahan yang mengejutkan, jadi {{GENDER:|Anda}} harus memilih menggunakannya secara manual.",
+	"betafeatures-desc": "Memungkinkan pengguna mengaktifkan atau menonaktifkan fitur di wiki yang masih belum siap untuk tayang",
+	"betafeatures-extension-type": "Fitur beta",
+	"betafeatures-section-desc": "{{PLURAL:$1|Ini adalah|Berikut ini adalah beberapa}} fitur baru yang sedang kami pertimbangkan untuk {{SITENAME}}. Silakan coba  {{PLURAL:$1|fitur|fitur-fitur}} tersebut dan beritahu kami apa yang Anda pikirkan, sehingga kami dapat menyempurnakan{{PLURAL:$1|nya}} berdasarkan umpan balik Anda.",
+	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Fitur yang otomatis digunakan",
+	"mw-ui-feature-discuss": "Pembicaraan",
+	"mw-ui-feature-info": "Informasi",
+	"mw-ui-feature-requirements-betafeatures": "Fitur ini memerlukan {{PLURAL:$1|fitur|fitur-fitur berikut}} ini untuk diaktifkan:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Peramban|Peramban berikut}} ini tidak didukung:",
+	"mw-ui-feature-requirements-javascript": "Fitur ini memerlukan JavaScript.",
+	"mw-ui-feature-requirements-skins": "Fitur ini hanya berfungsi dengan {{PLURAL:$1|kulit|kulit-kulit berikut}} ini:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Seorang pengguna sedang|$1 pengguna sedang|0=Tidak ada pengguna yang sedang}} mencoba fitur ini.",
+	"prefs-betafeatures": "Fitur beta",
+	"tooltip-pt-betafeatures": "Fitur beta"
+}

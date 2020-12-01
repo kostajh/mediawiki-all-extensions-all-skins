@@ -1,0 +1,19 @@
+@import '../../lib/ooui/wikimedia-ui-base';
+
+.mw-htmlform-field-HTMLSubmitField::before {
+	width: 24px;
+	height: 24px;
+	border: 5px solid @wmui-color-base50;
+	border-top: 5px solid @wmui-color-accent50;
+	border-radius: 50%;
+	margin: 0 auto 1em;
+	animation: spin 1s linear infinite;
+	content: ' ';
+	display: block;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	80% { transform: rotate(350deg); }
+	100% { transform: rotate(360deg); }
+}

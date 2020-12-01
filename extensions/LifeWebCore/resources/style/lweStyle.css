@@ -1,0 +1,193 @@
+body {
+    background-color: #898;
+}
+
+
+/* Editors */
+.lweEditor {
+    margin-bottom: 1em;
+    position: relative;
+}
+.lweEditor > div > h3 {
+    margin: 8px 0;
+    background-color: #333;
+    color: #eee;
+    padding: 8px;
+}
+.lweEditor .tile {
+    width: 20em;
+    display: inline-block;
+}
+
+
+/* Data lists */
+.data.list {
+    height: 14em;
+    overflow-y: scroll;
+    width: 20em;
+}
+.data > div.listEntry {
+    border-left: 2px solid #AAAAAA;
+    margin-bottom: 2px;
+    padding-left: 4px;
+    cursor: pointer;
+}
+
+
+/* Taxon editor */
+
+h4 {
+    margin: .8em 0;
+}
+.tile {
+    padding: .5em;
+    margin: 10px 10px 0 0;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    vertical-align: top;
+    position: relative;
+    /* max-width: 255px; */
+}
+.taxonCharacterContainer {
+    margin-left: 55px;
+}
+.taxonListContainer {
+    display: inline-block;
+    width: 550px;
+    height: 510px;
+}
+.taxonList {
+    display: inline-block;
+}
+.taxonList.tile {
+    width: 520px;
+}
+.taxonList.tile.side {
+    left: -480px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.taxonList.tile.side:hover {
+    left: 0;
+}
+.taxonList .chart {
+    height: 400px;
+    overflow-y: scroll;
+}
+/* Non-SVG */
+.taxonList .data {
+    display: none;
+}
+
+.taxonEditor {
+    display: inline-block;
+    width: 20em;
+}
+.lwuiTaxonEditor h4 {
+    margin: 10px 0 0.5em;
+    padding: 0;
+}
+.itemID {
+    font-size: 0.8em;
+    left: 0;
+    position: absolute;
+    top: 0;
+    color: #999999;
+}
+.buttons {
+    margin-top: 0.5em;
+    text-align: right;
+}
+.characterEditor .question {
+    border-left: 4px solid #999999;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 0.2em 0.2em 0.2em 4px;
+    vertical-align: top;
+    width: 20em;
+}
+.characterEditor .question:hover {
+    background-color: #e4e4e4;
+}
+
+
+.lweTaxonEditor .taxonCharacterContainer .tceContainer {
+    width: 70%;
+    display: inline-block;
+}
+.lweTaxonEditor .taxonCharacterContainer .tcsContainer {
+    width: 30%;
+    display: inline-block;
+}
+.lweTaxonEditor .taxonCharacterContainer .tceContainer .tile,
+.lweTaxonEditor .taxonCharacterContainer .tcsContainer .tile {
+    width: auto;
+    max-width: none;
+}
+.lweTaxonEditor .taxonCharacterContainer .question.childSelected {
+    background-color: #B9D19B;
+}
+.similarTaxon div.data {
+    max-height: 30em;
+    height: auto;
+    width: auto;
+}
+
+.rangeValue {
+    margin-bottom: 10px;
+}
+.rangeValue .desc {
+    border-bottom: 1px solid #999999;
+}
+.rangeValue .val {
+    width: 4em;
+}
+.rangeValue .text {
+    display: none;
+}
+.rangeValue .content > div {
+    display: inline-block;
+}
+.rangeValue .content .lwuiEditable {
+    width: 5em;
+}
+
+
+
+/* Unknown */
+.lweButtonBox {
+    text-align: right;
+}
+
+.lweTreeEntry {
+    cursor: pointer;
+}
+
+
+/* General */
+.lweOk {
+    background-color: #b9d19b;
+    border-color: #5d7a38;
+}
+.lwePending {
+    background-color: #e8d16e !important;
+    border-color: #b4951d;
+}
+.lweError {
+    background-color: #f28a64 !important;
+    border-color: #b4461d;
+}
+
+/* Varia */
+.timing {
+    background-color: #333333;
+    color: #dddddd;
+    font-size: 0.8em;
+    padding: 0 0 4px 4px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}

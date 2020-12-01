@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"gotoshell": "前往 shell",
+	"gotoshell-desc": "執行[[Special:GoToShell|特定頁面]]來讓使用者前至 shell 並返回",
+	"gotoshell-notallowed": "您的帳號沒有權限前往 shell。",
+	"gotoshell-disabled": "無法運作外部程式，proc_open()為停用狀態。",
+	"gotoshell-command": "命令：",
+	"gotoshell-result": "結果：",
+	"action-gotoshell": "透過 GoToShell 特殊頁面來執行 shell 指令",
+	"right-gotoshell": "透過 GoToShell 特殊頁面來執行 shell 指令"
+}

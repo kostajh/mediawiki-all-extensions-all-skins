@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kandar"
+		]
+	},
+	"patrol": "Ronda éditan",
+	"patrol-endorse": "Widian",
+	"patrol-revert": "Balikkeun",
+	"patrol-revert-reason": "Alesan:",
+	"patrol-skip": "Liwat",
+	"patrol-reverting": "Malikkeun: $1",
+	"patrol-nonefound": "Euweuh éditan nu perlu dironda.",
+	"patrol-endorsed-ok": "Éditan geus ditandaan geus dironda.",
+	"patrol-endorsed-failed": "Éditan teu bisa dicirian geus dironda.",
+	"patrol-reverted-ok": "Éditan geus dibalikkeun.",
+	"patrol-reverted-failed": "Éditanana teu bisa dibalikkeun.",
+	"patrol-skipped-ok": "Ngantepkeun éditan.",
+	"patrol-reasons": "* Vandalismeu basajan\n* Uji coba nu anyar datang\n* Tempo kaca obrolan",
+	"patrol-another": "Mun bisa, témbongkeun éditan lianna.",
+	"patrol-stopped": "Anjeun geus milih teu ngaronda éditan séjén. $1",
+	"patrol-resume": "Klik di dieu pikeun neruskeun.",
+	"group-patroller": "Nu ngaronda",
+	"group-patroller-member": "Nu ngaronda",
+	"grouppage-patroller": "{{ns:project}}:Nu ngaronda"
+}

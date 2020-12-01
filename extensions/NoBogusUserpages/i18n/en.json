@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dantman",
+			"SVG"
+		]
+	},
+	"nobogususerpages-desc": "Restricts creation of userpages for which a user does not exist",
+	"badaccess-bogususerpage": "The user of this userpage does not exist. You do not have the rights to create a bogus userpage.",
+	"action-createbogususerpage": "create user pages for users who are not registered on this wiki",
+	"right-createbogususerpage": "Create user pages for users who are not registered on this wiki"
+}

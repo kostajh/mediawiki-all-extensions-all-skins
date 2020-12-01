@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
+	"phabtaskgraph": "Graphe des tâches Phabricator",
+	"phabtaskgraph-desc": "Montre les relations entre les tâches de Phabricator sur un graphe orienté",
+	"phabtaskgraph-author-field-label": "Auteur",
+	"phabtaskgraph-owner-field-label": "Propriétaire",
+	"phabtaskgraph-tasks-field-label": "Tâches",
+	"phabtaskgraph-projects-field-label": "Projets",
+	"phabtaskgraph-status-field-label": "État",
+	"phabtaskgraph-width-field-label": "Largeur",
+	"phabtaskgraph-height-field-label": "Hauteur",
+	"phabtaskgraph-tasks-field-help": "liste des valeurs d'ID de tâche séparées par des virgules (le \"T\" initial est optionnel); exemple : 'T123456, T654321'",
+	"phabtaskgraph-projects-field-help": "liste de noms de projets séparés par des virgules; exemple 'MediaWiki-Platform-Team, Epic'",
+	"phabtaskgraph-width-field-help": "Par défaut: 800",
+	"phabtaskgraph-height-field-help": "par défaut: 800",
+	"phabtaskgraph-status-open": "Ouvert",
+	"phabtaskgraph-status-stalled": "En attente",
+	"phabtaskgraph-status-resolved": "Résolu",
+	"phabtaskgraph-status-invalid": "Invalide",
+	"phabtaskgraph-status-declined": "Rejeté",
+	"phabtaskgraph-status-duplicate": "Doublons"
+}

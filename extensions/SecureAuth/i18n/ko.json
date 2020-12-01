@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"secureauthinfo": "보안인증정보",
+	"special-secureauth-info": "보안 인증 정보",
+	"secureauth-info-userinfo": "사용자 정보",
+	"secureauth-current-ip": "현재 로그인 IP:",
+	"right-sa-access": "사용자가 [[Special:SecureAuthInfo|SecureAuthInfo]]에 접근할 수 있게 합니다"
+}

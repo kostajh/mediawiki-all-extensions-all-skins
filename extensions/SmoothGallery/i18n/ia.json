@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"smoothgallery": "SmoothGallery",
+	"smoothgallery-desc": "Permitte al usatores crear galerias con imagines que ha essite incargate.\nPermitte le major parte del optiones de SmoothGallery",
+	"smoothgallery-title": "SmoothGallery",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery: $1",
+	"smoothgallery-error": "<b>Error de SmoothGallery:</b>",
+	"smoothgallery-gallery-not-found": "Le galeria requestate non existe.",
+	"smoothgallery-not-found": "Nulle imagine esseva addite al galeria.\nPer favor adde al minus un imagine.",
+	"smoothgallery-no-images": "Nulle imagine esseva trovate in iste galeria.\nAssecura te que {{PLURAL:$3|le imagine|tote le imagines}} requestate existe.\nLe sequente {{PLURAL:$2|imagine|imagines}} non esseva trovate: $1",
+	"smoothgallery-invalid-images": "Le sequente {{PLURAL:$2|imagine|imagines}} requestate esseva de un typo invalide: $1",
+	"smoothgallery-unexpected-error": "Il occurreva un error non expectate.\nPer favor reporta isto como un error in le software.",
+	"smoothgallery-javascript-disabled": "JavaScript es requirite pro vider iste galeria correctemente."
+}

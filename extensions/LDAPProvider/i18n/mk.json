@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"ldapprovider-desc": "Дава заеднички средства за поврзување со ресурс од LDAP и поставање барања до него",
+	"ldapprovider-config-clientregistry": "Овозможува пријава на прилагодени клиенти",
+	"ldapprovider-config-domainconfigs": "Складира согласно доменската нагоденост",
+	"ldapprovider-domain-config-not-found": "\n\nНе можев да дојдам до нагодната податотека „$1“!\n\nПоставете ваква податотека за додатокот „LDAPProvider“.",
+	"ldapprovider-more-than-one": "Пронајдов повеќе од еден корисник за „$1“",
+	"ldapprovider-config-domainconfigprovider": "Го укажува механизмот за добивање на доменската нагоденост",
+	"ldapprovider-config-defaultdomain": "Укажува кој домен да се избере за даден корисник, ако нема пресликување од базата."
+}

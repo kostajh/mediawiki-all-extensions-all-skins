@@ -1,0 +1,29 @@
+{
+	"name": "Link Attributes",
+	"version": "1.1",
+	"author": [
+		"Toby Inkster",
+		"Dennis Roczek",
+		"Sam Wilson"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Link_Attributes",
+	"descriptionmsg": "linkattributes-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"LinkAttributes": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\LinkAttributes\\Hooks": "includes/Hooks.php"
+	},
+	"Hooks": {
+		"HtmlPageLinkRendererEnd": "MediaWiki\\Extension\\LinkAttributes\\Hooks::onHtmlPageLinkRendererEnd",
+		"LinkerMakeExternalLink": "MediaWiki\\Extension\\LinkAttributes\\Hooks::onLinkerMakeExternalLink"
+	},
+	"manifest_version": 2
+}

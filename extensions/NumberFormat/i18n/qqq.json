@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"numberformat_desc": "{{desc|name=Number Format|url=https://www.mediawiki.org/wiki/Extension:NumberFormat}}",
+	"numberformat-extensionname": "{{name}}",
+	"numberformat_wrongnargs": "{{doc-important|Leave \"number_format\" untranslated.}}\nError message displayed when providing an incorrect number of arguments.",
+	"numberformat_firstargument": "{{doc-important|Leave \"number_format\" untranslated.}}\nError message displayed when not providing a number as the first argument."
+}

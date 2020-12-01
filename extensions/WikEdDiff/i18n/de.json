@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cacycle",
+			"Metalhead64",
+			"Purodha"
+		]
+	},
+	"wiked-diff-desc": "Kann Unterschiede zwischen Seiten ermitteln und in fortlaufendem Text anzeigen und dabei verschobene Blöcke erkennen.",
+	"wiked-diff-empty": "(kein Unterschied)",
+	"wiked-diff-same": "Kein Unterschied zwischen Versionen",
+	"wiked-diff-ins": "Eingefügt",
+	"wiked-diff-del": "Gelöscht",
+	"wiked-diff-block-left": "◀ Verschoben",
+	"wiked-diff-block-right": "Verschoben ▶",
+	"wiked-diff-block-left-nounicode": "< Verschoben",
+	"wiked-diff-block-right-nounicode": "Verschoben >",
+	"wiked-diff-error": "Fehler: Die Ausgabe von <i lang=\"en\" xml:lang=\"en\">wikEdDiff</i> stimmt nicht mit den Originalversionen überein!"
+}

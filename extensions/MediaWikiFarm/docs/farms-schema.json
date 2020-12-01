@@ -1,0 +1,135 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"name": "Configuration of MediaWikiFarm extension to manage MediaWiki farms.",
+	"type": "object",
+	"additionalProperties": false,
+	"patternProperties": {
+		"^[a-zA-Z0-9_-]+$": {
+			"oneOf": [
+				{
+					"type": "object",
+					"description": "Configuration of a farm.",
+					"additionalProperties": false,
+					"required": [
+						"server",
+						"variables",
+						"suffix",
+						"wikiID"
+					],
+					"properties": {
+						"server": {
+							"type": "string",
+							"description": "Regular expression of the server name and subdirectory.",
+							"pattern": "^[a-zA-Z0-9\\[\\]\\(\\)\\\\/<>.*?+_|-]+$"
+						},
+						"variables": {
+							"type": "array",
+							"description": "List of variables in the host.",
+							"additionalItems": false,
+							"minItems": 1,
+							"items": {
+								"type": "object",
+								"description": "An host variable.",
+								"additionalProperties": false,
+								"required": [
+									"variable"
+								],
+								"properties": {
+									"variable": {
+										"type": "string",
+										"description": "Name of the host variable."
+									},
+									"file": {
+										"type": "string",
+										"description": "Path of the existing values for this variable."
+									}
+								}
+							}
+						},
+						"suffix": {
+							"type": "string",
+							"description": "Suffix of the wiki.",
+							"pattern": "^[a-z$-]+$"
+						},
+						"wikiID": {
+							"type": "string",
+							"description": "Unique identifier of the wiki.",
+							"pattern": "^[a-z$-]+$"
+						},
+						"versions": {
+							"type": "string",
+							"description": "File containing an array where each key is a wikiID and each value is the corresponding MediaWiki version. When a 'deployments' key is present, this file contains expected versions before the 'maintenance/update.php' script is run, actual versions after."
+						},
+						"deployments": {
+							"type": "string",
+							"description": "File containing an array where each key is a wikiID and each value is the corresponding MediaWiki version similarly to 'versions', but this file contains actual versions, before and after the 'maintenance/update.php' script is run."
+						},
+						"HTTP404": {
+							"type": "string",
+							"description": "PHP or HTML file displayed in case of a nonexistant wiki."
+						},
+						"data": {
+							"type": "string",
+							"description": "Data directory where files of the wiki are stored."
+						},
+						"config": {
+							"type": "array",
+							"description": "List of configuration files.",
+							"additionalItems": false,
+							"items": {
+								"type": "object",
+								"description": "A configuration file.",
+								"additionalProperties": false,
+								"required": [
+									"file"
+								],
+								"properties": {
+									"file": {
+										"type": "string",
+										"description": "Path of the configuration file."
+									},
+									"key": {
+										"type": "string",
+										"description": "Pattern of the of the key.",
+										"pattern": "^(default|\\*|[a-z$*-]+)$"
+									},
+									"default": {
+										"type": "string",
+										"description": "Default key.",
+										"pattern": "^[a-z$-]+$"
+									},
+									"executable": {
+										"type": "boolean",
+										"description": "This PHP file must be directly read.",
+										"default": false
+									}
+								}
+							}
+						}
+					}
+				},
+				{
+					"type": "object",
+					"description": "Configuration of a redirect.",
+					"additionalProperties": false,
+					"required": [
+						"server",
+						"redirect"
+					],
+					"properties": {
+						"server": {
+							"type": "string",
+							"description": "Regular expression of the server name and subdirectory.",
+							"pattern": "^[a-zA-Z0-9\\[\\]\\(\\)\\\\/<>.*?+_|-]+$"
+						},
+						"redirect": {
+							"type": "string",
+							"description": "Internal redirect to another farm.",
+							"pattern": "^[a-zA-Z0-9.$_-]+$"
+						}
+					}
+				}
+			]
+		}
+	}
+}

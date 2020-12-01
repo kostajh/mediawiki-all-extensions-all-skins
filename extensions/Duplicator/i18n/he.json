@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Rotemliss",
+			"Steeve815",
+			"YaronSh",
+			"Yona b"
+		]
+	},
+	"duplicator": "שכפול דף",
+	"duplicator-desc": "יצירת [[Special:Duplicate|עותקים]] בלתי תלויים של הדף שכוללים את היסטוריית הגרסאות המלאה",
+	"duplicator-toolbox": "שכפול דף זה",
+	"duplicator-header": "דף זה מאפשר לכם לשכפל דף באופן מלא, תוך יצירת עותקים בלתי תלויים של כל הגרסאות הקודמות.\nשימושי לפיצול דפים וכדומה.",
+	"duplicator-options": "אפשרויות",
+	"duplicator-source": "מקור:",
+	"duplicator-dest": "יעד:",
+	"duplicator-dotalk": "שכפול של דף השיחה (אם קיים)",
+	"duplicator-dosubpages": "שכפל דפי משנה (אם קיים)",
+	"duplicator-dohistory": "שכפול היסטוריה מלאה של דף",
+	"duplicator-submit": "שכפול",
+	"duplicator-summary": "הועתק מ־[[$1]], גרסה [[$2]]",
+	"duplicator-success": "[[$1]] הועתק ל[[$2]].",
+	"duplicator-success-revisions": "{{PLURAL:$1|הועתקה גרסה אחת|הועתקו $1 גרסאות}}.",
+	"duplicator-success-talknotcopied": "לא ניתן היה להעתיק את דף השיחה.",
+	"duplicator-failed": "לא ניתן היה לשכפל את הדף.\nאירעה שגיאה בלתי־ידועה.",
+	"duplicator-failed-toolong": "[[$1]] לא שוכפל. כותרת היעד ארוך מדי.",
+	"duplicator-failed-dest-exists": "[[$1]] לא שוכפל. היעד [[$2]] כבר קיים.",
+	"duplicator-source-invalid": "אנא ספקו כותרת מקור תקינה.",
+	"duplicator-source-notexist": "[[$1]] אינו קיים. אנא ספקו כותרת של דף קיים.",
+	"duplicator-dest-invalid": "אנא ספקו כותרת יעד תקינה.",
+	"duplicator-dest-exists": "[[$1]] כבר קיים. אנא ספקו כותרת יעד תקינה שאינה קיימת.",
+	"action-duplicate": "שכפול דפים",
+	"right-duplicate": "שכפול דפים"
+}

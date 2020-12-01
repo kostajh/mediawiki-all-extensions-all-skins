@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"stalkerlog-desc": "사용자 로그인과 로그아웃의 [[Special:Log/stalkerlog|기록]]를 추가합니다",
+	"stalkerlog-log-login": "님이 로그인했습니다.",
+	"stalkerlog-log-logout": "님이 로그아웃했습니다.",
+	"stalkerlog-log-type": "사용자 인증 기록",
+	"stalkerlog-log-text": "사용자 로그인과 로그아웃 기록입니다.",
+	"right-stalkerlog-view-log": "사용자 로그인과 로그아웃 기록 보기"
+}

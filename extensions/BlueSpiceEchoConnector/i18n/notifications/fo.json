@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"EileenSanda"
+		]
+	},
+	"bs-notifications-email-create-subject": "Síðan $1 {{GENDER:$2|varð upprættað}} av $3",
+	"bs-notifications-email-move-subject": "Síðan $1 {{GENDER:$2|er flutt}} av $4"
+}

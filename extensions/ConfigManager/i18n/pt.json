@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"configmanager-admintool-label": "Gestor da configuração",
+	"action-configmanager-viewspecialpage": "ver página especial \"{{int:configmanager}}\"",
+	"configmanager": "Gestor da configuração",
+	"configmanager-desc": "Oferece a possibilidade aos administradores de configurar uma wiki por completo numa única página especial",
+	"configmanager-discardchanges": "Descartar mudanças?",
+	"configmanager-noentry": "Não foi encontrada nenhuma entrada",
+	"apihelp-configmanager-tasks-summary": "Gerir tarefas",
+	"apihelp-configmanager-store-summary": "Gerir armazenamento",
+	"right-configmanager-viewspecialpage": "Acesso à página especial [[Special:ConfigManager]]"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-socialwatch-desc": "Функціонал спостереження для сутностей BlueSpiceSocial",
+	"bs-socialwatch-watchtext": "Спостерігати",
+	"bs-socialwatch-unwatchtext": "Не спостерігати",
+	"bs-socialwatch-var-watch": "Спостерігати",
+	"apihelp-bs-socialwatch-tasks-summary": "Надає завдання для редагування статусу спостереження сутностей"
+}

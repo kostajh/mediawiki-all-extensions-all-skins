@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"McDutchie",
+			"Nemo bis",
+			"Purodha",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"duplicator": "{{doc-special|Duplicator|unlisted=1}}",
+	"duplicator-desc": "{{desc|name=Duplicator|url=https://www.mediawiki.org/wiki/Extension:Duplicator}}",
+	"duplicator-toolbox": "Used as text for the link which is in the toolbox.",
+	"duplicator-header": "Used as header text in [[Special:Duplicator]].\n\nFollowed by the form.",
+	"duplicator-options": "Used as fieldset label.\n\nFollowed by the source and destination inputboxes, and checkboxes.\n{{Identical|Options}}",
+	"duplicator-source": "Used as label for the \"Source page title\" inputbox.\n{{Identical|Source}}",
+	"duplicator-dest": "Used as label for the \"Destination page title\" inputbox.\n{{Identical|Destination}}",
+	"duplicator-dotalk": "Used as checkbox label.",
+	"duplicator-dosubpages": "Used as checkbox label. \"Duplicate\" is an imperative: checking the box asks for the subpages to be included in the action.",
+	"duplicator-dohistory": "Used as checkbox label.",
+	"duplicator-submit": "Used as label for the Submit button.\n{{Identical|Duplicate}}",
+	"duplicator-summary": "Used as a revision summary. Parameters:\n* $1 - source page title\n* $2 - revision ID",
+	"duplicator-success": "Used as success message.\n\nFollowed by the message {{msg-mw|Duplicator-success-revisions}}.\n\nParameters:\n* $1 - source page title\n* $2 - destination page title",
+	"duplicator-success-revisions": "Used as success message.\n\nPreceded by the message {{msg-mw|Duplicator-success}}.\n\nParameters:\n* $1 - number of revisions",
+	"duplicator-success-talknotcopied": "Used as failure message when duplicating the talk page.",
+	"duplicator-failed": "Used as fatal error message.",
+	"duplicator-failed-toolong": "Used as failure message. Parameters:\n* $1 - source page title\nSee also:\n* {{msg-mw|Duplicator-failed-dest-exists}}",
+	"duplicator-failed-dest-exists": "Used as failure message. Parameters:\n* $1 - source page title\n* $2 - destination page title\nSee also:\n* {{msg-mw|Duplicator-failed-toolong}}",
+	"duplicator-source-invalid": "Used as error message.\n\nSee also:\n* {{msg-mw|Duplicator-dest-invalid}}",
+	"duplicator-source-notexist": "Used as error message. Parameters:\n* $1 - source page title\nSee also:\n* {{msg-mw|Duplicator-dest-exists}}",
+	"duplicator-dest-invalid": "Used as error message.\n\nSee also:\n* {{msg-mw|Duplicator-source-invalid}}",
+	"duplicator-dest-exists": "Used as error message. Parameters:\n* $1 - destination page title\nSee also:\n* {{msg-mw|Duplicator-source-notexist}}",
+	"action-duplicate": "{{doc-action|duplicate}}\n\"Duplicate\" is a verb here, not an adjective.",
+	"right-duplicate": "{{doc-right|duplicate}}\n\"Duplicate\" is a verb here, not an adjective."
+}

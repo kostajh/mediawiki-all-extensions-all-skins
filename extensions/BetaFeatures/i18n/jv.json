@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diki Ananta",
+			"NoiX180",
+			"Sumbukompor"
+		]
+	},
+	"betafeatures-auto-enroll": "Otomatis ngurubaké kabèh fitur béta anyar",
+	"betafeatures-extension-type": "Fitur béta",
+	"betafeatures-section-desc": "Ing ngisor iki kapacak {{PLURAL:$1|fitur anyar}} sing dadi pamrayogané awak dhéwé saperu dipasang kanggo {{SITENAME}}. Mangga jajala {{PLURAL:$1|fitur iku}} lan wènèha panemumu supaya awak dhéwé bisa gawé {{PLURAL:$1|sing luwih apik}} adhedhasar pamrayogané panjenengan.",
+	"betafeatures-toplink": "Béta",
+	"mw-ui-feature-discuss": "Rerembug",
+	"mw-ui-feature-info": "Katerangan",
+	"mw-ui-feature-requirements-betafeatures": "Fitur iki bisa dianggo yèn {{PLURAL:$1|fitur}} iki diurubaké:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Pangluru}} ngisor iki ora kajurung:",
+	"mw-ui-feature-requirements-javascript": "Fitur iki butuh JavaScript.",
+	"mw-ui-feature-requirements-skins": "Fitur iki mung lumaku sarana {{PLURAL:$1|ules iki}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Ana siji naraguna|Ana $1 naraguna|0=Ora ana naraguna}} sing njajal fitur iki.",
+	"prefs-betafeatures": "Fitur béta",
+	"tooltip-pt-betafeatures": "Fitur béta"
+}

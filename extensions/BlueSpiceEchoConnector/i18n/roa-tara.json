@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-echoconnector-extension-description": "Collegate a BlueSpice cu Echo",
+	"echo-category-title-bs-admin-cat": "Combite amministrative",
+	"echo-pref-tooltip-bs-admin-cat": "Avvisame quanne 'nu cunde utende nuève avène ccrejate",
+	"echo-pref-tooltip-bs-page-actions-cat": "Avvisame quanne quacchedune cangia, sposte o scangelle 'na pàgene ca stoche a condrolle",
+	"echo-pref-tooltip-bs-page-create-cat": "Avvisame quanne 'na pàgena nove avène ccrejate",
+	"echo-category-title-bs-page-actions-cat": "Aziune sus a le pàggene condrollate",
+	"echo-category-title-bs-page-create-cat": "Ccrejazzione d'a pàgene",
+	"prefs-namespace-notifications": "Notifeche sus a le avveneminde d'u namespace",
+	"prefs-category-notifications": "Notifeche sus a le categorije",
+	"echo-category-title-bs-namespace-category-notify-cat": "Cangiaminde jndr'à le namespace e categorije sottescritte"
+}

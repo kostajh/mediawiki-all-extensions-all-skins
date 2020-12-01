@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"useroptionstats": "Statistik pilihan pengguna",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Laman khas]] untuk melaporkan penggunaan pilihan pengguna MediaWiki",
+	"uos-warn": "PHPlot belum terpasang!",
+	"uos-choose": "Pilih salah satu pilihan pengguna yang berikut: $1",
+	"uos-choose-hidden": "Pilih salah satu pilihan pengguna tersorok yang berikut: $1",
+	"uos-unknown": "*Asali",
+	"uos-other": "*Lain-lain",
+	"uos-title": "Taburan nilai pilihan pengguna $1"
+}

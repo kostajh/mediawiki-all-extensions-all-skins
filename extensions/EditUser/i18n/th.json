@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Harley Hartwell",
+			"Horus",
+			"Manop",
+			"Octahedron80"
+		]
+	},
+	"edituser": "แก้ไขผู้ใช้",
+	"edituser-desc": "อนุญาตให้ผู้ใช้ที่ได้รับสิทธิ์แก้ไขการตั้งค่า แก้ไขการตั้งค่าของผู้ใช้อื่น",
+	"edituser-username": "ชื่อผู้ใช้:",
+	"edituser-dosearch": "สืบค้น",
+	"edituser-nouser": "ไม่มีผู้ใช้ \"$1\"",
+	"edituser-exempt": "ไม่สามารถแก้ไขผู้ใช้ \"$1\"",
+	"right-edituser": "แก้ไขการตั้งค่าของผู้ใช้อื่น",
+	"right-edituser-exempt": "ผู้ใช้่อื่นไม่สามารถแก้ไขการตั้งค่าของผู้ใช้คนนี้ได้"
+}

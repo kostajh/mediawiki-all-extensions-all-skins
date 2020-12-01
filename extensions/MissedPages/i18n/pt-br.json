@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"missedpages": "Páginas perdidas",
+	"missedpages-desc": "Resume erros 404 (página não encontrada) e fornece uma maneira rápida de redirecionar ou ignorá-los.",
+	"missedpages-special-page-title": "Páginas perdidas",
+	"missedpages-nav": "Popular",
+	"missedpages-nav-recent": "Recente",
+	"missedpages-nav-ignored": "Ignorar",
+	"missedpages-trend": "Tendência",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|visualização de página|visualizações de página}} ao longo de $2 {{PLURAL:$2|dia|dias}}",
+	"missedpages-count": "Contagem",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "Data e tempo",
+	"missedpages-page": "Página",
+	"missedpages-actions": "Ações",
+	"missedpages-redirect": "Redirecionamento",
+	"missedpages-redirect-desc": "Adicione um redirecionamento para esta página.",
+	"missedpages-redirect-comment": "Redirect adicionado por páginasperdidas.",
+	"missedpages-delete": "Excluir",
+	"missedpages-delete-desc": "Exclua as entradas desta página de registro.",
+	"missedpages-ignore": "Ignorar",
+	"missedpages-ignore-desc": "Ignore esta página no futuro quando ela produzir um erro 404."
+}

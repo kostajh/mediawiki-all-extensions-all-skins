@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg",
+			"Vlad5250"
+		]
+	},
+	"deletepagesforgood-desc": "Позволява на потребителите да изтриват безвъзвратно страници от база от данни, чрез добавяне на нов таб за изтриване към всяка страница.",
+	"deletepagesforgood-deletepagetitle": "Безвъзвратно изтриване на „$1“",
+	"deletepagesforgood-delete_permanently": "Безвъзвратно изтриване на страницата",
+	"deletepagesforgood-del_impossible": "Тази страница не може да бъде изтрита безвъзвратно",
+	"deletepagesforgood-ask_deletion": "Сигурни ли сте, че искате безвъзвратно да изтриете страницата? Всички преработки и записите в дневници ще бъдат изтрити. Постъпката е безвъзвратна.",
+	"deletepagesforgood-yes": "Да",
+	"deletepagesforgood-del_done": "Страницата е безвъзвратно изтрита.",
+	"right-deleteperm": "Безвъзвратно изтриване на страници",
+	"action-deleteperm": "безвъзвратно изтриване на страници"
+}

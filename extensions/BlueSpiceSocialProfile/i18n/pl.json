@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"bs-socialprofile-type": "Profil",
+	"bs-socialprofile-entityaction-changeimage": "Obraz użytkownika",
+	"bs-social-entityaction-editprofilefields": "Dane profilu",
+	"bs-social-profile-field-name": "Nazwa",
+	"bs-social-profile-field-email": "E‐mail",
+	"bs-social-profile-field-title": "Tytuł",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Pan|Pani|}}",
+	"bs-social-profile-field-function": "Funkcja",
+	"bs-social-profile-field-location": "Lokalizacja",
+	"bs-social-profile-field-phone": "Telefon",
+	"bs-social-profile-field-validate-no-integer": "$1 musi być liczbą",
+	"bs-socialprofile-special-profiles-heading": "Profile",
+	"bs-social-profile-infoshowemail": "Pokazuj adres e-mail na profilu",
+	"socialprofiles": "Profile",
+	"bs-socialprofile-switch-classicprofile-label": "Klasyczny profil",
+	"bs-socialprofile-switch-modernprofile-label": "Nowoczesny profil",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Przełącz na klasyczny profil",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Przełącz na nowoczesny profil",
+	"action-social-editothersprofile": "edytowania profili innych użytkowników",
+	"right-social-editothersprofile": "Edycja profili innych użytkowników",
+	"action-socialprofile-viewspecialpage": "podglądu strony „{{int:socialprofiles}}”",
+	"right-socialprofile-viewspecialpage": "Podgląd strony „{{int:socialprofiles}}”"
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"bs-articleinfo-desc": "Дава информации за страницата во статусник",
+	"prefs-articleinfo": "Информации за страницата",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Интервал на поднова во секунди:",
+	"bs-articleinfo-flyout-title": "Информации за страницата",
+	"bs-articleinfo-flyout-intro": "Тука ќе ги најдете информациите сврзани со страницата. Можете да го проверите нејзиниот квалитет и ажурност и да видите како се однесува на други страници на викито.",
+	"bs-articleinfo-nav-link-title": "Информации за страницата",
+	"bs-articleinfo-flyout-categorylinks-title": "Категории",
+	"bs-articleinfo-flyout-templatelinks-title": "Предлошки користени на страницата",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Нема доделено категории",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Нема користено предлошки",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Последно уредување",
+	"bs-articleinfo-flyout-lastediteduser-text": "Последен уредник",
+	"bs-articleinfo-newrevision-info-text": "Достапна е нова верзија на оваа страница. Превчитајте ја страницата за да ја видите тековната содржина.",
+	"bs-articleinfo-newrevision-info-text-reload": "Достапна е нова верзија на оваа страница. [[:$1|Превчитајте]] ја страницата за да ја видите тековната содржина.",
+	"bs-articleinfo-flyout-subpages-title": "Потстраници",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Потстраници",
+	"bs-articleinfo-dialog-subpages-title": "Потстраници"
+}

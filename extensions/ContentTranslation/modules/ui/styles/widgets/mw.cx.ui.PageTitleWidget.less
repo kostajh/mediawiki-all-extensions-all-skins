@@ -1,0 +1,34 @@
+@import '../mw.cx.mixins.less';
+
+.cx-pagetitle.oo-ui-textInputWidget {
+	margin-bottom: 10px;
+	border-bottom: 1px solid @colorGray5;
+	padding-top: 5px;
+	.break-overflowing-word;
+
+	textarea {
+		font-size: 2.2em;
+		color: @colorGray2;
+		background-color: #fff;
+		font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+		padding: 0 0.2em;
+		margin: 0 -0.2em;
+		box-sizing: content-box;
+		border: 0;
+		box-shadow: none;
+		line-height: 1.5em;
+		height: 1.5em;
+
+		&:focus {
+			outline: 0;
+			border-color: @colorGray14;
+			box-shadow: inset 0 0 0 1px @colorGray14;
+			padding-bottom: 1px;
+			margin-bottom: -1px;
+		}
+
+		&.oo-ui-inputWidget-input[ readonly ] {
+			background-color: #fff;
+		}
+	}
+}

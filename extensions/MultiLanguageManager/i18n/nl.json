@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Sjoerddebruin"
+		]
+	},
+	"mlm-error-title-invalid": "Ongeldige paginanaam",
+	"mlm-error-title-notexists": "Pagina \"$1\" bestaat niet",
+	"mlm-error-title-istalkpage": "$1\". Overlegpagina's kunnen niet worden vertaald",
+	"mlm-error-title-nsnotallowed": "$1\". Ongeldige naamruimte voor vertaling",
+	"mlm-error-title-isalreadytranslation": "Pagina \"$1\" is al een vertaling",
+	"mlm-error-title-isalreadysource": "Pagina \"$1\" is al een bronpagina",
+	"mlm-error-title-isnottranslation": "Pagina \"$1\" is niet een vertaling",
+	"mlm-error-lang-invalid": "Ongeldige taal",
+	"mlm-error-lang-notallowed": "Er mag niet naar de taal \"$1\" vertaald worden",
+	"mlm-error-lang-alreadytraslated": "Er is al een vertaling voor de taal \"$1\"",
+	"mlm-input-label-sourcetitle": "Bronpagina",
+	"mlm-input-label-add": "Vertaling toevoegen",
+	"mlm-input-label-save": "Opslaan",
+	"mlm-input-label-delete": "Alle vertalingen verwijderen",
+	"mlm-input-label-cancel": "Annuleren",
+	"mlm-contentaction-label": "Vertalingen beheren",
+	"mlm-input-label-translationtitles-section": "In de volgende taal:"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"bs-bluespiceabout-desc": "Information om BlueSpice.",
+	"bs-bluespiceabout-about-bluespice": "Om BlueSpice",
+	"bluespiceabout": "Om BlueSpice",
+	"prefs-bluespiceabout": "Om BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Visa länken \"{{int:bs-bluespiceabout-about-bluespice}}\" i huvudmenyn",
+	"action-bluespiceabout-viewspecialpage": "visa specialsidan \"{{int:bs-bluespiceabout-about-bluespice}}\"",
+	"right-bluespiceabout-viewspecialpage": "Ger åtkomst till specialsidan [[Special:BlueSpiceAbout]]."
+}

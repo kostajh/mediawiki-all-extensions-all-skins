@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"vikititleicon-desc": "Plugin VIKI para mostrar um logótipo das páginas que usam a extensão Title Icon",
+	"vikititleicon-error-fetch": "Erro na obtenção dos dados do ícone de título do nó: $1.",
+	"apihelp-getTitleIcons-description": "Obter os URL de todos os ícones de títulos da página, se existirem.",
+	"apihelp-getTitleIcons-summary": "Obter os URL de todos os ícones de títulos da página, se existirem.",
+	"apihelp-getTitleIcons-param-pageTitle": "título da página cujos ícones de títulos pretende obter"
+}

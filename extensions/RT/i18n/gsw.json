@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder"
+		]
+	},
+	"rt-desc": "Uusgfalle Interface fir RT (Request Tracker)",
+	"rt-inactive": "D RT-Erwyterig isch nit aktiv",
+	"rt-badquery": "D RT-Erwyterig het e Fähler gfunde bim Kontakt zue dr RT-Datebank",
+	"rt-badlimit": "Nit giltig LIMIT (l)-Argumänt: muess e Zahl syy.\nDu hesch yygee: '''$1'''",
+	"rt-badorderby": "Nit giltig ORDER BY (ob)-Argumänt: muess e Standardfäld syy (lueg Dokumäntation).\nDu hesch yygee: '''$1'''",
+	"rt-badstatus": "Nit giltig status (s)-Argumänt: muess e Standard fäld syy (lueg Dokumäntation).\nDu hesch yygee: '''$1'''",
+	"rt-badcfield": "Nit giltig Argumänt fir benutzerdefinierti Fälder: muess e eifach Wort syy (lueg Dokumäntation).\nDu hesch yygee: '''$1'''",
+	"rt-badqueue": "Nit giltig queue (q)-Argumänt: muess e eifach Wort syy.\nDu hesch yygee: '''$1'''",
+	"rt-badowner": "Nit giltig owner (o)-Argumänt: muess e giltige Benutzername Wort syy.\nDu hesch yygee: '''$1'''",
+	"rt-nomatches": "S sin kei RT-Tickets gfunde wore"
+}

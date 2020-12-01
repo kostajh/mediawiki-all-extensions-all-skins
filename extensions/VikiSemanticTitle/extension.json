@@ -1,0 +1,44 @@
+{
+	"name": "VikiSemanticTitle",
+	"version": "1.4.0",
+	"author": "[https://www.mediawiki.org/wiki/User:Jji Jason Ji]",
+	"url": "https://www.mediawiki.org/wiki/Extension:VikiSemanticTitle",
+	"descriptionmsg": "vikisemantictitle-desc",
+	"license-name": "MIT",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.23.0"
+	},
+	"MessagesDirs": {
+		"VikiSemanticTitle": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"VikiSemanticTitle": "VikiSemanticTitle_body.php"
+	},
+	"ResourceModules": {
+		"ext.VikiSemanticTitle": {
+			"scripts": [
+				"VikiSemanticTitle.js"
+			],
+			"dependencies": [
+				"mediawiki.jqueryMsg"
+			],
+			"messages": [
+				"vikisemantictitle-error-displaytitle-fetch"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "VikiSemanticTitle"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"VikiSemanticTitle::efVikiSemanticTitle_AddResource"
+		]
+	},
+	"callback": "VikiSemanticTitle::onRegistration",
+	"manifest_version": 1
+}

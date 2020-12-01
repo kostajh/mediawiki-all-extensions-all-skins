@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"generatemochaconfig-desc": "Una secuencia de órdenes que genera un archivo JSON con el cual ejecutar pruebas de Mocha para todas las extensiones activadas"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benel",
+			"Bunukwiki",
+			"Tokoabibi"
+		]
+	},
+	"citoid-citation-widget-insert-button": "pacucuk",
+	"citoid-citoiddialog-back": "tatiku",
+	"citoid-citoiddialog-credit": "nay $1 nipabeli",
+	"citoid-citoiddialog-lookup-button": "masanga’",
+	"citoid-citoiddialog-mode-auto": "lunuk",
+	"citoid-citoiddialog-mode-manual": "palima",
+	"citoid-citoiddialog-mode-reuse": "miliyaw pisaungay",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN saca PMC/PMID",
+	"citoid-citoiddialog-search-placeholder": "tinaku. http://www.example.com",
+	"citoid-citoidtool-title": "nicaliwan",
+	"citoid-citoidtool-title-othergroup": "nicaliwan",
+	"citoid-desc": "nipabeli i citoid ilaed mietap atu MediaWiki a misuped-miala baniyut",
+	"citoid-referencecontextitem-convert-button": "miliyaw",
+	"citoid-referencecontextitem-convert-message": "tina miazih tu tatenga’ay nasulitan nay hekal masasiket palekal a dada’, kapah kisu pisaungay sasa \"{{int:citoid-referencecontextitem-convert-button}}\" pipenecan amisanga’ matatungusay kese a miazih tu tatenga’ay nasulitan.",
+	"citoid-unknown-error": "izaw caay kapulita mungangaw, patatuzu’ la’cus patizeng nicaliwan. pihalhal sawni pitaneng aca"
+}

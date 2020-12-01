@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"webchat": "Chat web",
+	"webchat-desc": "Engade unha [[Special:WebChat|páxina especial]] usada para conversar en tempo real con outros usuarios do wiki",
+	"webchat-header": "Esta páxina especial permítelle colaborar en tempo real con outros usuarios do wiki.\nPara conectarse simplemente prema no botón \"Conectar\".\nSe está rexistrado o seu nome de usuario será fixado por defecto.\nAos usuarios anónimos concederáselles un nome automático, que pode ser cambiado.",
+	"right-webchat": "Autorizado para usar o [[Special:WebChat|chat web]]"
+}

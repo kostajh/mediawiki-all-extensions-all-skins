@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Base",
+			"Steve.rusyn",
+			"SteveR",
+			"Ата"
+		]
+	},
+	"securesessions-desc": "Робить сесії користувачів та автентифікацію сесії більш безпечними",
+	"securesessions-personalurl": "Відкрити сесії ($1)",
+	"securesessions-ipsession": "Вийти з усіх інших сесій",
+	"securesessions-iprestrict": "Обмежити сесію цією IP-адресою,",
+	"securesessions-uarestrict": "Обмежити сесію цим браузером.",
+	"securesessions-sessions": "Сесії",
+	"securesessions-sessions-legend": "Інформація про сесію",
+	"securesessions-sessions-text": "Нижче наведено усі відкриті сесії Вашого облікового запису та інформацію про них. Ви можете закрити усі інші сесії кнопкою унизу. Зірочка (*) вказує на поточну сесію.",
+	"securesessions-sessions-ip": "IP-адреса:",
+	"securesessions-sessions-activity": "Остання активність:",
+	"securesessions-sessions-clear": "Вийти з усіх інших сесій",
+	"securesessions-prefs-country": "Обмежити вхід за країнами:",
+	"securesessions-prefs-tor": "Не дозволяти входи через вузли виходу Tor.",
+	"securesessions-disallowedcountry": "Цьому обліковому запису не дозволено вхід з цієї країни.",
+	"securesessions-disallowedtor": "Цьому обліковому запису не дозволено вхід у систему з вузлів виходу Tor."
+}

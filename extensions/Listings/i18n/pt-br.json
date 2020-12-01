@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Araceletorres",
+			"Felipe L. Ewald",
+			"Luckas"
+		]
+	},
+	"listings-desc": "Adicionar etiquetas para lugares listados",
+	"listings-unknown": "Destino desconhecido",
+	"listings-phone": "telefone",
+	"listings-phone-symbol": "☎",
+	"listings-fax": "fax",
+	"listings-email": "e-mail",
+	"listings-tollfree": "grátis",
+	"listings-checkin": "Entrada: $1",
+	"listings-checkout": "saída: $1",
+	"listings-position": "posição: $1"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Raimond Spekking"
+		]
+	},
+	"patrol": "Kontrolle der Bearbeitungen",
+	"patrol-desc": "Ermöglicht einer erweiterte Schnittstelle zur Kontrolle von Bearbeitungen",
+	"patrol-endorse": "Bestätigen",
+	"patrol-revert": "Zurücksetzen",
+	"patrol-revert-reason": "Grund:",
+	"patrol-skip": "Überspringen",
+	"patrol-reverting": "Zurücksetzen: $1",
+	"patrol-nonefound": "Es wurden keine passenden Bearbeitungen zum Kontrollieren gefunden.",
+	"patrol-endorsed-ok": "Diese Bearbeitung wurde bereits als kontrolliert markiert.",
+	"patrol-endorsed-failed": "Diese Bearbeitung kann nicht als kontrolliert markiert werden.",
+	"patrol-reverted-ok": "Die Bearbeitung wurde zurückgesetzt.",
+	"patrol-reverted-failed": "Die Bearbeitung kann nicht zurückgesetzt werden.",
+	"patrol-skipped-ok": "Bearbeitung wird ignoriert.",
+	"patrol-reasons": "* Einfacher Vandalismus\n* Test eines Neulings\n* Siehe Diskussionsseite",
+	"patrol-another": "Zeige eine weitere Bearbeitung, sofern verfügbar.",
+	"patrol-stopped": "Du hast entschieden, keine weitere Bearbeitung zu kontrollieren. $1",
+	"patrol-resume": "Klicke hier, um weiterzumachen.",
+	"group-patroller": "Kontrolleure",
+	"group-patroller-member": "{{GENDER:$1|Kontrolleur|Kontrolleurin}}",
+	"grouppage-patroller": "{{ns:project}}:Kontrolleur",
+	"right-patroller": "Seiten kontrollieren"
+}

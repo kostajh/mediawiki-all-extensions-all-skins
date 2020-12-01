@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geraki",
+			"KATRINE1993",
+			"Nikosgranturismogt"
+		]
+	},
+	"bs-readers-desc": "Δημιουργεί μια λίστα ανθρώπων που διαβάζουν μια σελίδα",
+	"prefs-readers": "Αναγνώστες",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|Αναγνώστης}}|Αναγνώστες}}",
+	"readers": "Αναγνώστες του \"$1\"",
+	"bs-readers-contentactions-label": "Εμφάνιση αναγνωστών",
+	"bs-readers-pagenotexists": "Η σελίδα δεν υπάρχει.",
+	"bs-readers-pref-numofreaders": "Αριθμός αναγνωστών για εμφάνιση:",
+	"bs-readers-emptyinput": "Δεν παρέχεται κάποια σελίδα.",
+	"bs-readers-header-username": "Όνομα χρήστη",
+	"bs-readers-header-readerspath": "Αναγνώστης",
+	"bs-readers-header-ts": "Ημερομηνία",
+	"bs-readers-header-page": "Σελίδα",
+	"apihelp-bs-readers-data-store-description": "Λάβετε πληροφορίες αναγνωστών για μια συγκεκριμένη σελίδα.",
+	"action-viewreaders": "προβολή των αναγνωστών των σελίδων",
+	"right-viewreaders": "Προβολή των αναγνωστών μιας σελίδας",
+	"bs-readers-privacy-transparency-working-readers": "BlueSpiceReaders - {{GENDER:$3|You}} διαβάστε την σελίδα $1 στη $2"
+}

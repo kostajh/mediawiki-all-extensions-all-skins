@@ -1,0 +1,76 @@
+{
+	"name": "PhabTaskGraph",
+	"version": "2.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Cindy.cicalese Cindy Cicalese]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PhabTaskGraph",
+	"descriptionmsg": "phabtaskgraph-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"AutoloadClasses": {
+		"SpecialPhabTaskGraph": "includes/SpecialPhabTaskGraph.php",
+		"PhabTaskGraphHooks": "includes/PhabTaskGraphHooks.php"
+	},
+	"SpecialPages": {
+		"PhabTaskGraph": "SpecialPhabTaskGraph"
+	},
+	"MessagesDirs": {
+		"PhabTaskGraph": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PhabTaskGraphAlias": "i18n/PhabTaskGraph.i18n.alias.php",
+		"PhabTaskGraphMagic": "i18n/PhabTaskGraph.i18n.magic.php"
+	},
+	"ResourceModules": {
+		"ext.PhabTaskGraph": {
+			"styles": [
+				"PhabTaskGraph.css"
+			],
+			"scripts": [
+				"d3.v5.min.js",
+				"PhabTaskGraph.js"
+			],
+			"messages": [
+				"phabtaskgraph-author-field-label",
+				"phabtaskgraph-owner-field-label"
+			]
+		},
+		"ext.PTG_DateMultiLineGraph": {
+			"styles": [
+				"PTG_DateMultiLineGraph.css"
+			],
+			"scripts": [
+				"d3.v5.min.js",
+				"PTG_DateMultiLineGraph.js"
+			]
+		},
+		"ext.PTG_DateBarChart": {
+			"scripts": [
+				"d3.v5.min.js",
+				"PTG_DateBarChart.js"
+			]
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "PhabTaskGraphHooks::onParserFirstCallInit"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "PhabTaskGraph/resources"
+	},
+	"config": {
+		"PhabTaskGraphPhabURL": {
+			"value": "https://phabricator.wikimedia.org"
+		},
+		"PhabTaskGraphConduitAPIToken": {
+			"value": null
+		}
+	},
+	"manifest_version": 2
+}

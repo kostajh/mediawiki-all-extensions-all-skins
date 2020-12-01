@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ljonka",
+			"Dejan Savuljesku"
+		]
+	},
+	"bluespicecategorymanager": "Category manager",
+	"bluespicecategorymanager-desc": "Visual tool to manage categories",
+	"action-categorymanager-viewspecialpage": "view Category manager",
+	"bs-categorymanager-draganddrop-text": "Drag and drop to reorganize",
+	"bs-categorymanager-label":  "Category manager",
+	"bs-categorymanager-dlg-new-title": "Create category",
+	"bs-categorymanager-dlg-new-prompt": "Please enter the name:",
+	"bs-categorymanager-removecategoryconfirm-text": "Are you sure you want to delete this category?",
+	"bs-categorymanager-removecategoryconfirm-title": "Remove category",
+	"bs-categorymanager-addcategory-dialog-error-title": "Creation of category failed",
+	"bs-categorymanager-action-show-category": "Show category",
+	"right-categorymanager-viewspecialpage": "Access to the special page [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Category allocation",
+	"bs-categorymanager-collection-var-namespacename": "Namespace",
+	"bs-categorymanager-collection-var-categorizedpages": "Pages with categories",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pages without categories"
+}

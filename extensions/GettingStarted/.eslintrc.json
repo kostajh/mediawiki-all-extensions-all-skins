@@ -1,0 +1,20 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"env": {
+		"jquery": true
+	},
+	"globals": {
+		"mediaWiki": false
+	},
+	"rules": {
+		"no-multi-str": "off",
+		"no-use-before-define": "off",
+		"no-shadow": "warn",
+		"no-unreachable-loop": "warn"
+	}
+}

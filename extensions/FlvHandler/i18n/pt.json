@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Indech"
+		]
+	},
+	"flvhandler_desc": "Permite a adição de ficheiros de Vídeo Flash (.flv) como ficheiros padrão (exemplo: <nowiki>[[</nowiki>{{ns:file}}:Filme.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Vídeo Flash, $1 × $2 píxeis, tamanho do ficheiro: $3"
+}

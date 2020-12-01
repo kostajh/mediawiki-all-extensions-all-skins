@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"special404-desc": "Dèje 'na destinazione pe le errore 404 None acchiate",
+	"error404": "404 none acchiate",
+	"special404-body": "L'URL ca ste cercave non g'ha state acchiate.\n\nCè signifeche 'a scritte {{fullurl:$1}}?\n\nPò essere ca tu avissà 'ndrucà:\n* [[{{MediaWiki:Mainpage}}|'A Pàgene Prengepàle]]"
+}

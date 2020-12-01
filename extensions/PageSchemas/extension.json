@@ -1,0 +1,82 @@
+{
+	"name": "Page Schemas",
+	"version": "0.5.1",
+	"author": [
+		"Yaron Koren",
+		"Ankit Garg",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Page_Schemas",
+	"descriptionmsg": "ps-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"GroupPermissions": {
+		"sysop": {
+			"generatepages": true
+		}
+	},
+	"AvailableRights": [
+		"generatepages"
+	],
+	"Actions": {
+		"editschema": "PSEditSchemaAction",
+		"generatepages": "PSGeneratePagesAction"
+	},
+	"SpecialPages": {
+		"EditSchema": "PSEditSchema",
+		"GeneratePages": "PSGeneratePages"
+	},
+	"JobClasses": {
+		"pageSchemasCreatePage": "PSCreatePageJob"
+	},
+	"MessagesDirs": {
+		"PageSchemas": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PageSchemasAlias": "PageSchemas.i18n.alias.php"
+	},
+	"AutoloadClasses": {
+		"PageSchemasHooks": "includes/PageSchemasHooks.php",
+		"PageSchemas": "includes/PageSchemas.php",
+		"PSSchema": "includes/PSSchema.php",
+		"PSTemplate": "includes/PSTemplate.php",
+		"PSTemplateField": "includes/PSTemplateField.php",
+		"PSPageSection": "includes/PSPageSection.php",
+		"PSEditSchema": "includes/specials/PSEditSchema.php",
+		"PSEditSchemaAction": "includes/PSEditSchemaAction.php",
+		"PSGeneratePages": "includes/specials/PSGeneratePages.php",
+		"PSGeneratePagesAction": "includes/PSGeneratePagesAction.php",
+		"PSExtensionHandler": "includes/PSExtensionHandler.php",
+		"PSCreatePageJob": "includes/PSCreatePageJob.php"
+	},
+	"ResourceModules": {
+		"ext.pageschemas.main": {
+			"scripts": "resources/PageSchemas.js",
+			"styles": "resources/PageSchemas.css"
+		},
+		"ext.pageschemas.generatepages": {
+			"scripts": "resources/PSGeneratePages.js"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "PageSchemas"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "PageSchemasHooks::register",
+		"SkinTemplateNavigation": [
+			"PSEditSchemaAction::displayTab",
+			"PSGeneratePagesAction::displayTab"
+		]
+	},
+	"config": {
+		"PageSchemasFieldNum": 0,
+		"PageSchemasHandlerClasses": []
+	},
+	"manifest_version": 1,
+	"requires": {
+		"MediaWiki": ">= 1.28"
+	}
+}

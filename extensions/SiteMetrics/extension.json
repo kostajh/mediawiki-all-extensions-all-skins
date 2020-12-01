@@ -1,0 +1,51 @@
+{
+	"name": "SiteMetrics",
+	"version": "1.6.0",
+	"author": [
+		"Aaron Wright",
+		"David Pean",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:SiteMetrics",
+	"descriptionmsg": "sitemetrics-desc",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"MessagesDirs": {
+		"SiteMetrics": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SiteMetricsAliases": "includes/SiteMetrics.alias.php"
+	},
+	"AutoloadClasses": {
+		"SiteMetrics": "includes/specials/SpecialSiteMetrics.php"
+	},
+	"SpecialPages": {
+		"SiteMetrics": "SiteMetrics"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SiteMetrics"
+	},
+	"ResourceModules": {
+		"ext.siteMetrics": {
+			"styles": "resources/css/SiteMetrics.css"
+		}
+	},
+	"AvailableRights": [
+		"metricsview"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"metricsview": true
+		},
+		"staff": {
+			"metricsview": true
+		}
+	},
+	"manifest_version": 1
+}

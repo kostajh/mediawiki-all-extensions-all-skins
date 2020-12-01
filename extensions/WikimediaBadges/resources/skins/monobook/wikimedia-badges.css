@@ -1,0 +1,36 @@
+/**
+ * Styles for badges on client wikis in the MonoBook skin
+ *
+ * @since 0.1
+ *
+ * @license GPL-2.0-or-later
+ * @author Bene* < benestar.wikimedia@gmail.com >
+ */
+
+.portlet .badge-goodarticle,
+.portlet .badge-goodlist,
+.portlet .badge-recommendedarticle {
+	list-style-image: url( ../../images/badge-silver-star.png );
+}
+
+.portlet .badge-featuredarticle,
+.portlet .badge-featuredportal,
+.portlet .badge-featuredlist {
+	list-style-image: url( ../../images/badge-golden-star.png );
+}
+
+.portlet .badge-problematic {
+	list-style-image: url( ../../images/badge-problematic.png );
+}
+
+.portlet .badge-proofread {
+	list-style-image: url( ../../images/badge-proofread.png );
+}
+
+.portlet .badge-validated {
+	list-style-image: url( ../../images/badge-validated.png );
+}
+
+.portlet .badge-digitaldocument {
+	list-style-image: url( ../../images/badge-digitaldocument.png );
+}

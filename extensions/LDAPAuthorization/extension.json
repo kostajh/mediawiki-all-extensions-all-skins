@@ -1,0 +1,70 @@
+{
+	"name": "LDAPAuthorization",
+	"version": "1.1.0",
+	"author": [
+		"Cindy Cicalese",
+		"[https://mediawiki.org/wiki/User:MarkAHershberger Mark A. Hershberger]",
+		"[https://mediawiki.org/wiki/User:Osnard Robert Vogel]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LDAPAuthorization",
+	"descriptionmsg": "ldapauthorization-desc",
+	"license-name": "GPL-2.0",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"MessagesDirs": {
+		"LDAPAuthorization": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\LDAPAuthorization\\" : "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extension\\LDAPAuthorization\\Tests\\" : "tests/phpunit/"
+	},
+	"callback": "MediaWiki\\Extension\\LDAPAuthorization\\Setup::onRegistration",
+	"Hooks": {
+		"PluggableAuthUserAuthorization": "MediaWiki\\Extension\\LDAPAuthorization\\Hook\\PluggableAuthUserAuthorization::callback",
+		"AuthRemoteuserFilterUserName": "MediaWiki\\Extension\\LDAPAuthorization\\Hook\\AuthRemoteuserFilterUserName::callback"
+	},
+	"attributes": {
+		"LDAPProvider": {
+			"DefaultSettings": {
+				"authorization": {
+					"rules": {
+						"groups": {
+							"required": [],
+							"excluded": []
+						},
+						"attributes": {}
+					}
+				}
+			}
+		}
+	},
+	"config_prefix": "LDAPAuthorization",
+	"config": {
+		"AutoAuthRemoteUserStringParserRegistry": {
+			"value": {
+				"domain-backslash-username": "MediaWiki\\Extension\\LDAPAuthorization\\AutoAuth\\RemoteUserStringParser\\DomainBackslashUsername::factory",
+				"username-at-domain": "MediaWiki\\Extension\\LDAPAuthorization\\AutoAuth\\RemoteUserStringParser\\UsernameAtDomain::factory"
+			}
+		},
+		"AutoAuthRemoteUserStringParser": {
+			"value": "domain-backslash-username"
+		},
+		"AutoAuthBypassWithCookieUsernameRemoteAddrs": {
+			"value": [ "127.0.0.1" ]
+		},
+		"AutoAuthUsernameNormalizer": {
+			"value": "",
+			"path": false,
+			"description": "Use this function for normalizing username for LDAP, for example 'strtolower'. Needed after migration from earlier Version.",
+			"public": true
+		}
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

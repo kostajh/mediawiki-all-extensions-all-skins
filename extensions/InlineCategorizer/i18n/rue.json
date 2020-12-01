@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gazeb"
+		]
+	},
+	"inlinecategorizer-add-category": "Придати катеґорію",
+	"inlinecategorizer-add-category-submit": "Придати",
+	"inlinecategorizer-add-category-summary": "Придати катеґорію „$1“",
+	"inlinecategorizer-api-error": "API вернуло хыбу: $1: $2",
+	"inlinecategorizer-api-unknown-error": "API вернуло незнаму хыбу.",
+	"inlinecategorizer-cancel": "Сторновати зміны",
+	"inlinecategorizer-cancel-all": "Сторновати вшыткы зміны",
+	"inlinecategorizer-category-already-present": "Тота сторінка уж належыть до катеґорії $1",
+	"inlinecategorizer-category-hook-error": "Локална функція заборонила уложіню змін",
+	"inlinecategorizer-category-question": "Чом хочете учінити наступны зміны:",
+	"inlinecategorizer-confirm-ok": "ОК",
+	"inlinecategorizer-confirm-save": "Уложыти",
+	"inlinecategorizer-confirm-save-all": "Уложыти вшыткы зміны",
+	"inlinecategorizer-confirm-title": "Підтвердити дїю",
+	"inlinecategorizer-edit-category": "Управити катеґорію",
+	"inlinecategorizer-edit-category-error": "Не подарило ся управити катеґорію „$1“.\nТаке ся трафляtx звычайно тогды, qk катеґорія была додана до сторінкы через шаблону.",
+	"inlinecategorizer-edit-category-summary": "Змінити катеґорію „$1“ на „$2“",
+	"inlinecategorizer-error-title": "Хыба",
+	"inlinecategorizer-remove-category": "Одстранити катеґорію",
+	"inlinecategorizer-remove-category-error": "Не подарило ся одстранити катеґорію „$1“.\nТаке ся трафляtx звычайно тогды, qk катеґорія была додана до сторінкы через шаблону.",
+	"inlinecategorizer-remove-category-summary": "Одобрати катеґорію „$1“"
+}

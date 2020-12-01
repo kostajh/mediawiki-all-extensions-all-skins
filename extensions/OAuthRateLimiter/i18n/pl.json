@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"oauthratelimiter-desc": "Rozbudowuje rozszerzenie OAuth o limit przepustowości w JWT"
+}

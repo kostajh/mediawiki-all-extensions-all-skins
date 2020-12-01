@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"emailauth-desc": "ইমেল দ্বারা সন্দেহজনক প্রবেশ যাচাই করা।",
+	"emailauth-token-label": "যাচাইকরণ কোড",
+	"emailauth-token-help": "ইমেইল কর্তৃক পাঠানো এককালীন 2FA টোকেন।",
+	"emailauth-email-subject": "$1-এ আপনার প্রবেশের যাচাইকরণ কোড",
+	"emailauth-email-body": "$1-এ আপনার প্রবেশের যাচাইকরণ কোড হচ্ছে $2",
+	"emailauth-login-message": "আপনাকে আপনার প্রবেশ যাচাই করতে হবে। আপনার ইমেইল ঠিকানায় ($1) একটি যাচাইকরণ কোড পাঠানো হয়েছে, দয়া করে সেই কোডটি এখানে লিখুন।",
+	"emailauth-login-failure": "অবৈধ যাচাইকরণ কোড!",
+	"emailauth-login-retry-limit": "অত্যধিক ব্যর্থতা!"
+}

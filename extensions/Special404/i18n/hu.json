@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BáthoryPéter",
+			"Dani",
+			"Dj"
+		]
+	},
+	"special404-desc": "Alternatív megjelenítést biztosít a 404 Nem található hibának",
+	"error404": "404 Nem található",
+	"special404-body": "A kért URL nem található. \n\nBiztos ezt akartad beírni: {{fullurl:$1}}?\n\nEsetleg próbálj keresni:\n* [[{{MediaWiki:Mainpage}}|A kezdőlapon]]"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geraki",
+			"Nikosgranturismogt"
+		]
+	},
+	"bs-ooui-field-tagmultiselect-input-placeholder": "Προσθήκη νέου...",
+	"bs-ooui-key-value-input-widget-key-label": "Κλειδί",
+	"bs-ooui-key-value-input-widget-value-label": "Τιμή",
+	"bs-ooui-key-value-input-widget-add-button-label": "Προσθήκη",
+	"bs-ooui-key-value-input-widget-add-form-label": "Προσθήκη νέας καταχώρησης",
+	"bs-ooui-key-value-input-widget-error-message": "Όλα τα απαιτούμενα πεδία πρέπει να συμπληρωθούν!",
+	"bs-ooui-key-value-input-widget-no-values-label": "Δεν ορίστηκαν τιμές!",
+	"bs-ooui-btn-dismiss-alert-title": "Απόρριψη"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"preferenceslist-desc": "Gera uma lista de todas as definições dos utilizadores para uma preferência específica",
+	"preferenceslist-preferenceslist": "Lista de preferências",
+	"preferenceslist-preferenceslist-intro": "Abaixo está uma lista de preferências. Escolha uma ou mais preferências para ver uma lista de todos os utilizadores com essas preferências.",
+	"preferenceslist": "Lista de preferências",
+	"action-preferenceslist": "listar todas as preferências dos utilizadores",
+	"preferenceslist-csv": "Descarregar em CSV",
+	"preferenceslist-nofields": "Não foi selecionado nenhum campo.",
+	"right-preferenceslist": "Abrir a página Special:PreferencesList"
+}

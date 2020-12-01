@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helpau",
+			"Vlad5250"
+		]
+	},
+	"changeuserpasswords": "Изменение паролей участников",
+	"changeuserpassword-desc": "Это расширение служит для изменения пользовательских паролей, кроме некоторых, определённых администратором.",
+	"changeuserpassword-pagename": "ChangeUserPasswords",
+	"changeuserpassword-topheader": "Выберите имена участников, чьи пароли требуется изменить. По умолчанию выбираются все участники. Снимите отметку у участников, чьи пароли вы не хотите изменять.",
+	"changeuserpassword-success": "Пароли участников изменены!",
+	"changeuserpassword-title": "Изменение паролей участников",
+	"changeuserpassword-intro": "Это расширение служит для изменения пользовательских паролей, кроме некоторых, определённых администратором.",
+	"action-changeuserpasswords": "изменение паролей участников",
+	"right-changeuserpasswords": "Изменение паролей участников"
+}

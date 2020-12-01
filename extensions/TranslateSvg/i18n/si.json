@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"translate-taskui-export-as-svg": "නියම SVG ගොනුව වෙත නැවත සුරකින්න",
+	"translate-svg-nodesc": "(ගොනු විස්තරයක් ඉදිරිපත් කොට නොමැත.)",
+	"translate-svg-thumbnail": "නියම ගොනුව",
+	"translate-svg-js-thumbnail": "(සංක්ෂිප්ත නිරූපකය ස්වයංක්‍රීයව යාවත්කාලීන වේ)",
+	"translate-page-description-legend-svgmg": "මෙම ගොනුව පිළිබඳ තොරතුරු",
+	"translate-taction-mstats-svgmg": "ගොනු සංඛ්‍යාන දත්ත",
+	"translate-taction-export-svgmg": "ගොනුවේ යාවත්කාලීන කෙරූ අනුවාදයක් උඩුගත කරන්න",
+	"translate-svg-table-header": "පණිවුඩ හඳුන්වනය",
+	"translate-svg-filepage-edit": "සංස්කරණය",
+	"translate-svg-filepage-finish": "අවසාන කරන්න",
+	"translate-svg-filepage-another": "වෙනත් භාෂාව",
+	"translate-svg-filepage-other": "වෙනත් භාෂාවන්",
+	"translate-svg-filepage-invite": "මෙම ගොනුව පහසුවෙන් $1 වෙත පරිවර්තනය කල හැක",
+	"translate-svg-upload-none": "(කිසිවක් නැත)",
+	"translate-svg-chooselanguage-title": "භාෂා තේරීම",
+	"translate-svg-instructions-title": "මේ විදිහට SVG ගොනුවක් පරිවර්තනය කරන්නේ පලවෙනි වතාවටද?",
+	"translate-svg-warn-inner": "එම වෙනස්කම් නැවතත් නියම ගොනුවට සුරකින්න",
+	"translate-svg-new-title": "SVG පරිවර්තනය",
+	"translate-svg-new-label": "භාෂාව:",
+	"translate-js-properties-legend": "ගුණ",
+	"translate-js-label-x": "X-සමකක්ෂය:",
+	"translate-js-label-y": "Y-සමකක්ෂය:",
+	"translate-js-label-color": "වර්ණය:",
+	"translate-js-label-font-family": "අක්ෂරය:",
+	"translate-js-label-bold": "තද පැහැති",
+	"translate-js-label-italic": "ඇළ අකුරු",
+	"translate-js-label-underline": "යට ඉරි ගසන්න",
+	"translate-js-font-family-inherit": "(උරුමවීම)"
+}

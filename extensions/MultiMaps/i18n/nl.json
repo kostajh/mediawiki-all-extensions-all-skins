@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Kippenvlees1",
+			"Siebrand"
+		]
+	},
+	"multimaps-desc": "Gebruikers toestaan om kaarten en coördinaten weer te geven met behulp van meerdere kaartdiensten",
+	"multimaps-loading-map": "Bezig met het laden van de kaart...",
+	"multimaps-mapservices-must-not-empty-array": "De variabele \"$1\" mag geen lege verzameling zijn",
+	"multimaps-had-following-errors": "Tijdens het verwerken van de parameters zijn de volgende fouten opgetreden:",
+	"multimaps-element-illegal-value": "voor de parameter \"$1\" was de opgegeven waarde \"$2\" ongeldig. Geldige waarden zijn: $3",
+	"multimaps-element-more-parameters": "Voor het kaartelement \"$1\" zijn meer parameters opgegeven dan verwacht:",
+	"multimaps-element-parameters-not-processed": "de volgende parameters zijn niet verwerkt: $1",
+	"multimaps-circle-radius-not-defined": "voor cirkels moet een straal worden opgegeven",
+	"multimaps-circle-wrong-number-parameters": "voor cirkels moeten twee parameters worden opgegeven; de coördinaten van het middelpunt en de straal. Hier {{PLURAL:$1|is één parameter|zijn $1 parameters}} opgegeven",
+	"multimaps-marker-incorrect-icon": "voor de pictogrammarkering is een onjuiste bestandsnaam \"$1\" opgegeven",
+	"multimaps-marker-incorrect-icon-url": "Een verkeerde URL \"$1\" is voorzien voor de marker pictogram.",
+	"multimaps-marker-incorrect-icon-size": "Een onjuiste grootte \"$1\" is voorzien voor de marker pictogram \"$2\".",
+	"multimaps-marker-incorrect-icon-anchor": "Een onjuiste anker \"$1\" is voorzien voor de marker pictogram \"$2\".",
+	"multimaps-marker-incorrect-shadow-file": "Een onjuiste bestandsnaam \"$1\" werd voorzien voor het pictogram schaduw.",
+	"multimaps-marker-incorrect-shadow-url": "Een verkeerde URL \"$1\" werd voorzien voor het pictogram schaduw.",
+	"multimaps-marker-incorrect-shadow-size": "Een onjuiste grootte \"$1\" werd voorzien voor het pictogram schaduw \"$2\".",
+	"multimaps-marker-incorrect-shadow-anchor": "Een onjuiste anker \"$1\" werd voorzien voor het pictogram schaduw \"$2\".",
+	"multimaps-passed-unavailable-service": "De dienst \"$1\" is niet gevonden in de lijst met beschikbare diensten ($2). De standaard dienst \"$3\" wordt gebruikt",
+	"multimaps-square-wrong-number-points": "coördinaten voor de rechthoek moeten twee punten bevatten, maar er {{PLURAL:$1|is één punt|zijn $1 punten}} opgegeven",
+	"multimaps-unable-create-element": "Kaartelement \"$1\" kan niet worden aangemaakt",
+	"multimaps-unable-parse-coordinates": "de geografische coördinaten \"$1\" kunnen niet verwerkt worden",
+	"multimaps-unable-parse-parameter": "de parameter \"$1\" met waarde \"$2\" kan niet verwerkt worden",
+	"multimaps-unable-parse-radius": "de straal van de cirkel moet een numerieke waarde zijn, maar er is \"$1\" opgegeven",
+	"multimaps-unknown-class-for-service": "De klasse \"$1\" die is gedefinieerd voor de dienst bestaat niet.",
+	"multimaps-unknown-parameter": "Onbekende parameter: \"$1\"",
+	"multimaps-error-incorrect-class-for-service": "De klasse \"$1\" die is gedefinieerd voor de dienst kan niet gebruikt worden.",
+	"multimaps-method-error-unknown-action": "$1: onbekende handeling",
+	"multimaps-method-error-unexpected-result": "$1: een functie heeft een onverwacht resultaat teruggegeven"
+}

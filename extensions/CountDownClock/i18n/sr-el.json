@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zoranzoki21"
+		]
+	},
+	"countDownClock-desc": "Dodaje funkciju parsera da prikaže vreme odbrojavanja",
+	"countDownClock-invalidtime": "Molimo vas da pružite korektan endTime parametar",
+	"countDownClock-days": "$1 {{PLURAL:$1|dan|dani}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|čas|časa}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|minut|minuta}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|sekund|sekundi}}",
+	"countDownClock-expired": "Isteklo"
+}

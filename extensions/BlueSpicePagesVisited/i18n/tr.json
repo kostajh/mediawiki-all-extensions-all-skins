@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Sadrettin",
+			"Sayginer"
+		]
+	},
+	"bs-pagesvisited-desc": "Son ziyaret edilen sayfaların kişiselleştirilmiş bir listesini sağlar",
+	"prefs-pagesvisited": "Ziyaret edilen sayfalar",
+	"bs-pagesvisited-widget-title": "Ziyaret edilen sayfalar",
+	"bs-pagesvisited-error-nsnotvalid": "Verilen <code>$2</code> {{PLURAL:$1|ad akanı}} geçerli değil.",
+	"bs-pagesvisited-pref-widgetlimit": "Girdi sınırı:",
+	"bs-pagesvisited-pref-widgetns": "Ad alanları:",
+	"bs-pagesvisited-pref-widgetsortodr": "Sıralama ölçütü:",
+	"bs-pagesvisited-pref-sort-time": "Zaman",
+	"bs-pagesvisited-pref-sort-pagename": "Başlık",
+	"bs-pagesvisited-tag-pagesvisited-desc": "Son ziyaret edilen sayfaların bir listesini gösterir. Bu liste parametrelerle sınırlandırılabilir."
+}

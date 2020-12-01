@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-socialtopics-desc": "Сутності тем і обговорень для BlueSpiceSocial",
+	"bs-socialtopics-pref-skipcreatedialog": "Пропустити виклик діалогового вікна при створенні обговорення",
+	"bs-socialtopics-toc-entalkpageautocreate": "Автоматично створювати всі сторінки обговорення",
+	"bs-socialtopics-autocreated-discussionpage": "Сторінку обговорення створено автоматично.",
+	"bs-socialtopics-autocreated-discussionpagefile": "Сторінку обговорення створено автоматично.",
+	"bs-socialdiscussion-discussiontype": "Обговорення",
+	"bs-socialdiscussion-topictype": "Тема обговорення",
+	"bs-socialtopics-entitydiscussion-header-create": "Створити нове обговорення",
+	"bs-social-entitytopic-header-create": "Нова тема",
+	"bs-socialtopics-var-topictitle": "Заголовок",
+	"bs-socialtopics-var-discussiontitleid": "Призначена сторінка обговорення",
+	"bs-socialtopics-entity-fatalstatus-save-notalkpage": "Недійсна сторінка обговорення",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "$1 {{GENDER:$1|започаткував|започаткувала}} тему:",
+	"topics": "Теми",
+	"bs-socialtopics-special-topics-heading": "Усі теми",
+	"bs-socialtopics-special-topics-heading-entry": "Тема/$1",
+	"bs-socialtopics-aftercontent-heading": "Обговорення",
+	"bs-socialtopics-nodiscussionpage": "Сторінки обговорення ще не створено.",
+	"bs-socialtopics-nodiscussionpage-create": "Створити нову сторінку обговорення",
+	"bs-socialtopics-nodiscussion": "Обговорення ще не створено.",
+	"bs-socialtopics-notopicsadded": "Теми ще не створено.",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "Зберегти",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "Скасувати",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "Контент",
+	"bs-socialtopics-switch-nodiscussion-description": "Приховує обговорення на цій сторінці."
+}

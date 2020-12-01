@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Theklan",
+			"Xabier Armendaritz"
+		]
+	},
+	"categorywatch-desc": "Jarraipen zerrendaren funtzionalitatea areagotzen du jarraitutako kategorien kideen aldaketetaz ohartarezteko aukera gehituz.",
+	"categorywatch-emailsubject": "\"$1\" kategoria ikusten sorturiko aktibitatea",
+	"categorywatch-catmovein": "«$1» orria «$3» kategoriatik «$2» kategoriara aldatu da",
+	"categorywatch-catmoveout": "$1 $3 kategoriatik $2(e)ra atera",
+	"categorywatch-catadd": "$1 $2 kategoria gehitu",
+	"categorywatch-catsub": "«$1» kendu da «$2» kategoriatik",
+	"categorywatch-autocat": "$1(e)k automatikoki jarraitua"
+}

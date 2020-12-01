@@ -1,0 +1,71 @@
+{
+	"name": "WoOgLeShades",
+	"version": "1.0",
+	"author": [
+		"mister old man sir",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:WoOgLeShades",
+	"descriptionmsg": "woogleshades-desc",
+	"namemsg": "skinname-woogleshades",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"ValidSkinNames": {
+		"woogleshades": "WoOgLeShades"
+	},
+	"MessagesDirs": {
+		"WoOgLeShades": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"skins.woogleshades": {
+			"class": "ResourceLoaderSkinModule",
+			"styles": {
+				"resources/libraries/normalise.css": {
+					"media": "screen"
+				},
+				"resources/screen-common.less": {
+					"media": "screen"
+				},
+				"resources/screen-desktop-sidebar.less": {
+					"media": "screen and (min-width: 1337px)"
+				},
+				"resources/screen-desktop-topnav.less": {
+					"media": "screen and (min-width: 701px) and (max-width: 1336px)"
+				},
+				"resources/screen-desktop.less": {
+					"media": "screen and (min-width: 701px)"
+				},
+				"resources/screen-mobile.less": {
+					"media": "screen and (max-width: 700px)"
+				},
+				"resources/print.css": {
+					"media": "print"
+				}
+			}
+		},
+		"skins.woogleshades.js": {
+			"scripts": [
+				"resources/main.js"
+			]
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"woogleshades": {
+			"+ext.echo.styles.badge": "resources/extensions/Echo.less",
+			"+mediawiki.action.view.filepage": "resources/modules/filepage.less",
+			"+ext.uls.pt": "resources/extensions/ULS.less",
+			"+ext.visualEditor.desktopArticleTarget.noscript": "resources/extensions/VisualEditor.article.less"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "WoOgLeShades"
+	},
+	"AutoloadClasses": {
+		"SkinWoOgLeShades": "includes/SkinWoOgLeShades.php",
+		"WoOgLeShadesTemplate": "includes/WoOgLeShadesTemplate.php"
+	},
+	"manifest_version": 1
+}

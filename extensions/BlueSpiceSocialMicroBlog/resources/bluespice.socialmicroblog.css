@@ -1,0 +1,8 @@
+a.bs-social-entityspawner-microblog:before {
+	font-family: icomoon !important;
+	margin-right:8px;
+}
+.bs-social-entity-microblog > .bs-social-entity-right div.bs-social-entity-title h3:before,
+a.bs-social-entityspawner-microblog:before {
+	content: "\e91a";
+}

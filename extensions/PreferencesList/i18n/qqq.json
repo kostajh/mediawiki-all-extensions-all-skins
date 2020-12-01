@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"tosfos"
+		]
+	},
+	"preferenceslist-desc": "{{desc|name=PreferencesList|url=https://www.mediawiki.org/wiki/Extension:PreferencesList }}",
+	"preferenceslist-preferenceslist": "Page title of the PreferencesList special page.",
+	"preferenceslist-preferenceslist-intro": "Text displayed as an intorduction on the PreferencesList SpecialPage.",
+	"preferenceslist": "Text of the link to the PreferencesList special page on SpecialPages.",
+	"action-preferenceslist": "{{doc-action|preferenceslist}}\nDescription of user privilege",
+	"preferenceslist-csv": "Checkbox label on bottom of the PreferencesList SpecialPage",
+	"preferenceslist-nofields": "Message shown to users who submit the form with no selected fields.",
+	"right-preferenceslist": "{{doc-right|preferenceslist}}"
+}

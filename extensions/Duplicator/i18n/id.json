@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Daud I.F. Argana",
+			"Diki Ananta",
+			"Irwangatot",
+			"Ivan Lanin",
+			"Rex",
+			"Sumbukompor"
+		]
+	},
+	"duplicator": "Salin suatu halaman",
+	"duplicator-desc": "Buat [[Special:Duplicate|salinan halaman]] yang berdiri sendiri dengan sejarah suntingan yang lengkap",
+	"duplicator-toolbox": "Salin halaman ini",
+	"duplicator-header": "Halaman ini menyediakan fasilitas untuk membuat duplikat lengkap suatu artikel, membuat salinan independen dari semua sejarah suntingan. Hal ini berguna untuk mencabangkan artikel, dll.",
+	"duplicator-options": "Pilihan",
+	"duplicator-source": "Sumber:",
+	"duplicator-dest": "Tujuan:",
+	"duplicator-dotalk": "Salin halaman pembicaraan (jika tersedia)",
+	"duplicator-dosubpages": "Salin subhalaman (jika ada)",
+	"duplicator-dohistory": "Salin riwayat lengkap halaman",
+	"duplicator-submit": "Salin",
+	"duplicator-summary": "Disalin dari [[$1]], revisi [[$2]]",
+	"duplicator-success": "[[$1]] telah disalin ke [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|revisi|revisi}} telah disalin.",
+	"duplicator-success-talknotcopied": "Halaman pembicaraan tidak dapat disalin.",
+	"duplicator-failed": "Halaman tidak dapat disalin. \nTelah terjadi suatu kesalahan yang tak dikenal.",
+	"duplicator-failed-toolong": "[[$1]] tidak disalin. Judul tujuannya terlalu panjang.",
+	"duplicator-failed-dest-exists": "[[$1]] tidak disalin. Tujuan [[$2]] sudah ada.",
+	"duplicator-source-invalid": "Harap masukkan judul sumber yang sah.",
+	"duplicator-source-notexist": "[[$1]] tidak ditemukan. Harap berikan judul sumber yang halamannya sudah ada.",
+	"duplicator-dest-invalid": "Harap masukkan judul tujuan yang sah.",
+	"duplicator-dest-exists": "[[$1]] telah ada. Harap berikan judul tujuan yang halamannya belum ada.",
+	"action-duplicate": "menyalin halaman",
+	"right-duplicate": "Salinan halaman"
+}

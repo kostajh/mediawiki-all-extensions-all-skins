@@ -1,0 +1,34 @@
+{
+	"name": "Campaigns",
+	"version": "0.2.0",
+	"author": "S Page",
+	"url": "https://www.mediawiki.org/wiki/Extension:Campaigns",
+	"descriptionmsg": "campaigns-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"Campaigns": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"CampaignsHooks": "includes/CampaignsHooks.php",
+		"CampaignsAuthenticationRequest": "includes/CampaignsAuthenticationRequest.php",
+		"CampaignsSecondaryAuthenticationProvider": "includes/CampaignsSecondaryAuthenticationProvider.php"
+	},
+	"Hooks": {
+		"AuthChangeFormFields": "CampaignsHooks::onAuthChangeFormFields"
+	},
+	"AuthManagerAutoConfig": {
+		"secondaryauth": {
+			"CampaignsSecondaryAuthenticationProvider": {
+				"class": "CampaignsSecondaryAuthenticationProvider",
+				"sort": 0
+			}
+		}
+	},
+	"manifest_version": 2
+}

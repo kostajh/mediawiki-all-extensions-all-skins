@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2",
+			"Steeve815",
+			"YehudaDe"
+		]
+	},
+	"extralanguagelink-desc": "הוספת קישורי שפה נוספים לפסקה \"דף זה בשפות אחרות\" שבתפריט הצד",
+	"extralanguagelink-param-class": "מחלקה",
+	"extralanguagelink-param-lang": "שפה",
+	"extralanguagelink-param-title": "כותרת",
+	"extralanguagelink-badinterwiki": "התחילית \"$1:\" אינה נמצאת ברשימת תחיליות הבינוויקי המורשות.",
+	"extralanguagelink-badtitle": "לא ניתן לפענח את כותרת הדף \"$1\"."
+}

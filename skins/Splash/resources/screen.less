@@ -1,0 +1,139 @@
+@import 'mixins.less';
+
+// Miscellaneous edge cases
+
+// Content margins: Lose outer border, smaller margins yet
+@media screen and ( max-width: 900px ) {
+	.splash-standard {
+		.mw-body {
+			padding-right: 0.75em;
+			padding-left: 0.75em;
+		}
+
+		#header,
+		#footer {
+			margin: 0 0.75em;
+		}
+
+		#content-container {
+			.box-shadow( 0 1.25em 0.75em -1em rgba( 0, 0, 0, 0.65 ) inset,
+				0 -0.65em 0.75em -1em rgba( 0, 0, 0, 0.65 ) inset; );
+		}
+
+		// Cactions stuff
+		#page-tools {
+			margin-top: 0;
+			margin-bottom: 1.5em;
+		}
+
+		#page-tools-right {
+			float: right;
+		}
+
+		#p-namespaces li {
+			margin-left: 0;
+			margin-right: 0.75em;
+		}
+	}
+}
+
+@media screen and ( min-width: 901px ) {
+	.splash-standard {
+		// Only place cactions items inside firstheading header if there's even likely to be space
+		#page-tools {
+			float: right;
+			margin-top: 0.75em;
+		}
+
+		// TODO: handle with RLmessagemodule or whatever for proper i18n
+		#p-namespaces li:after {
+			content: ':';
+		}
+
+		#p-namespaces li:last-child:after {
+			content: '';
+		}
+
+		// Outer border of surrounding splash
+		#container-content {
+			margin: 0 0.5em;
+		}
+
+		#content-container {
+			.box-shadow( 0 0.25em 0.75em -0.125em rgba( 0, 0, 0, 0.65 ) inset );
+		}
+	}
+}
+
+// Navigation dropdowns: Collapse all sidebar into one dropdown
+@media screen and ( min-width: 700px ) and ( max-width: 1000px ) {
+	.splash-standard {
+		#mw-sidebar,
+		#p-tb {
+			.dropdown();
+			margin-left: 1em;
+		}
+
+		#mw-sidebar h3 {
+			color: @red-dark;
+			font-family: @fonts-main;
+			font-variant: small-caps;
+			margin: 1.5em 0.75em 0;
+			font-weight: normal;
+			font-size: 120%;
+		}
+
+		#mw-sidebar h2,
+		#p-tb h3 {
+			margin: 0;
+			.header-header-dropdown();
+			position: unset;
+		}
+
+		#sidebar-inner {
+			min-width: 200px;
+
+			// Like Vector! Except just CSS because we're modern. Not Modern, though.
+			div:first-child h3 {
+				display: none;
+			}
+		}
+	}
+}
+
+// Navigation dropdowns: Each sidebar item as separate dropdown
+@media screen and ( min-width: 1001px ) {
+	.splash-standard {
+		#site-navigation {
+			div {
+				display: inline-block;
+				margin-left: 1em;
+			}
+
+			.mw-portlet {
+				.dropdown();
+
+				h3 {
+					margin: 0;
+					.header-header-dropdown();
+				}
+
+				&:hover h3 {
+					color: @grey6;
+				}
+			}
+		}
+
+		#searchInput {
+			width: 17em;
+		}
+	}
+}
+
+// Content margins: Keep border, but smaller margins
+@media screen and ( max-width: @content-width ) {
+	.mw-body {
+		padding-right: 1em;
+		padding-left: 1em;
+	}
+}

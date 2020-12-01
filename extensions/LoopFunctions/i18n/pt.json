@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"loopfunc-desc": "Fornece funcionalidade limitada de criação de ciclos no texto wiki",
+	"loopfunc_max_loops": "Foi atingido o número máximo de ciclos permitido"
+}

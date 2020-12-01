@@ -1,0 +1,34 @@
+@import "../dimensions.less";
+@import "../fonts.less";
+
+.dynamic-graphical-list-body .bs-flyout-tabbed-data-view {
+	// upper menu with tabs ( preview, list, ... )
+	.x-tab-bar-docked-top.x-tab-bar-default-docked-top {
+		background-color: transparent;
+	}
+	.x-tab-bar-body.x-tab-bar-body-default {
+		background-color: transparent;
+		padding:  0.625rem 0;
+		padding-left: 0.75rem;
+		.x-tab {
+			border: 1px solid white;
+			border-radius: 0.3125rem;
+			span {
+				padding: 0.3125rem;
+				margin: 0;
+				text-align: center;
+			}
+			span[class~="icon-grid"]::before{
+				font-family: fontawesome;
+				content: '\f03a';
+			}
+			span[class~="icon-thumbs"]::before{
+				font-family: fontawesome;
+				content: '\f009';
+			}
+		}
+	}
+	.x-panel-body.x-panel-body-default {
+		background-color: transparent;
+	}
+}

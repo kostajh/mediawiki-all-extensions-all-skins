@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"multimaps-desc": "Lar brukere vise kart- og koordinatdata med flere karttjenester",
+	"multimaps-loading-map": "Laster kart …",
+	"multimaps-mapservices-must-not-empty-array": "Variabelen «$1» kan ikke være en tom liste",
+	"multimaps-undefined-service-for-layout": "Udefinert tjenesteparameter for utseendet «$1» i $egMultiMaps_MapServices",
+	"multimaps-wrong-service-for-layout": "For utseendet «$1» er tjenesten «$2» definert, men den finnes ikke i $egMultiMaps_MapServices",
+	"multimaps-layout-defined-for-layout": "For utseendet «$1» er et annet utseende «$2» definert i stedet i $egMultiMaps_MapServices",
+	"multimaps-leaflet-undefined-parameters-for-layer": "Parameterne «source» og «attribution» må angis for «$1»-laget i $egMultiMaps_MapServices",
+	"multimaps-had-following-errors": "Under tolkningen hadde de gitte parameterne følgende feil:",
+	"multimaps-element-illegal-value": "for parameteren «$1» ble den ulovlige verdien «$2» spesifisert. Gyldige verdier er: $3",
+	"multimaps-element-more-parameters": "For dette kartelementet sendte «$1» flere parametre enn forventet:",
+	"multimaps-element-parameters-not-processed": "følgende parametre ble ikke prosessert: $1",
+	"multimaps-circle-radius-not-defined": "for sirkelen må radius defineres",
+	"multimaps-circle-wrong-number-parameters": "for sirkelen bør kun to parametre defineres: midtpunktets koordinater og radiusen. Men {{PLURAL:$1|én parameter|$1 parametre}} ble gitt.",
+	"multimaps-marker-incorrect-icon": "Et feilaktig filnavn «$1» ble gitt for markørikonet.",
+	"multimaps-marker-incorrect-icon-url": "En ugyldig URL «$1» ble gitt for markørikonet.",
+	"multimaps-marker-incorrect-icon-size": "En feilaktig størrelse «$1» ble gitt for markørikonet «$2».",
+	"multimaps-marker-incorrect-icon-anchor": "Et feilaktig anker «$1» ble gitt for markørikonet «$2».",
+	"multimaps-marker-incorrect-shadow-file": "Et feilaktig filnavn «$1» ble gitt for ikonskyggen.",
+	"multimaps-marker-incorrect-shadow-url": "En feilaktig URL «$1» ble gitt for ikonskyggen.",
+	"multimaps-marker-incorrect-shadow-size": "En feilaktig størrelse «$1» ble gitt for ikonskyggen «$2».",
+	"multimaps-marker-incorrect-shadow-anchor": "Et feilaktig anker «$1» ble gitt for ikonskyggen «$2».",
+	"multimaps-passed-unavailable-service": "Tjenestenavnet «$1» ikke funnet i listen over tilgjengelige tjenester ($2). Brukte standardtjenesten «$3»",
+	"multimaps-square-wrong-number-points": "koordinatene til kvadratet bør kun inneholde to punkter, men {{PLURAL:$1|ett punkt|$1 punkt}} ble gitt",
+	"multimaps-unable-create-element": "Kartelementet «$1» kan ikke opprettes",
+	"multimaps-unable-parse-coordinates": "kunne ikke tolke de geografiske koordinatene «$1»",
+	"multimaps-unable-parse-parameter": "kunne ikke tolke parameteren «$1», verdien er «$2»",
+	"multimaps-unable-parse-radius": "radiusen til sirkelen må være en numerisk verdi, men «$1» var angitt",
+	"multimaps-unknown-class-for-service": "Klassen «$1» som er definert for tjenesten ble ikke funnet.",
+	"multimaps-unknown-parameter": "Ukjent parameter: «$1»",
+	"multimaps-error-incorrect-class-for-service": "Klassen «$1» som er definert for tjenesten kan ikke brukes.",
+	"multimaps-method-error-unknown-action": "$1: Ukjent handling",
+	"multimaps-method-error-unexpected-result": "$1: Et uventet resultat av en funksjon"
+}

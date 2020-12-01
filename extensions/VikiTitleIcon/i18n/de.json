@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Purodha"
+		]
+	},
+	"vikititleicon-desc": "Das VIKI-plugin zum Anzeigen des Logos von Seiten, die die Erweiterung „Title Icon“ verwenden",
+	"vikititleicon-error-fetch": "Fehler beim Abrufen der Titelicondaten für den Knoten: $1.",
+	"apihelp-getTitleIcons-description": "Ruft die URLs aller Titelsymbole für die Seite ab, falls vorhanden.",
+	"apihelp-getTitleIcons-summary": "Ruft die URLs aller Titelsymbole für die Seite ab, falls vorhanden.",
+	"apihelp-getTitleIcons-param-pageTitle": "Titel der Seite, deren Titelsymbole du abrufen möchtest."
+}

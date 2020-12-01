@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn"
+		]
+	},
+	"quickresponse-desc": "Genererar en QR-kod för URL-adressen för den aktuella sidan",
+	"quickresponse-text": "QR-kod",
+	"quickresponse-tooltip": "Generera en QR-kod för den aktuella URL-adressen",
+	"quickresponse-title": "Här är din QR-kod!"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm",
+			"Maria zaos",
+			"Toliño"
+		]
+	},
+	"categorywatch-desc": "Extende unha función da lista de vixilancia para incluír notificación acerca dos cambios no número de membros e as categorías vixiadas",
+	"categorywatch-emailsubject": "Actividade que envolve a categoría vixiada chamada \"$1\"",
+	"categorywatch-catmovein": "moveu $1 á categoría $2 desde $3",
+	"categorywatch-catmoveout": "moveu $1 desde a categoría $2 á $3",
+	"categorywatch-catadd": "engadiu $1 á categoría $2",
+	"categorywatch-catsub": "eliminou $1 da categoría $2",
+	"categorywatch-autocat": "Vixiado automaticamente por $1",
+	"categorywatch-notification-link": "Categoría: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] engadida a [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] engadida a [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] engadiu [[:$3|$3]] a [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] eliminada de [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] eliminada de [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] eliminou [[:$3|$3]] de [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 cambios de categorización en {{SITENAME}}",
+	"categorywatch-add-title": "Título engadido á categoría vixiada",
+	"categorywatch-remove-title": "Título eliminado da categoría vixiada",
+	"categorywatch-page-watch-pref": "Engadir tódalas páxinas dunha categoría á súa lista de vixiancia cando engada unha categoría",
+	"echo-category-title-categorywatch": "Vixiancia de categorías",
+	"echo-pref-tooltip-categorywatch": "Avísenme cando alguén categorice unha páxina dentro ou fóra dunha categoría que estea a vixiar."
+}

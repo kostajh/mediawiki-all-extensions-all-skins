@@ -1,0 +1,15 @@
+.svn
+*~
+*.kate-swp
+.*.swp
+.project
+.settings
+.buildpath
+nbproject
+node_modules/
+vendor/
+npm-debug.log
+composer.lock
+/.eslintcache
+.idea
+

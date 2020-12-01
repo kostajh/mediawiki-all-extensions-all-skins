@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"Sayginer"
+		]
+	},
+	"bs-watchlist-desc": "Bir izleme listesi widget'ı ve etiketi ekler",
+	"bs-watchlist-title-sidebar": "İzleme listesi",
+	"bs-watchlist-pref-sort-time": "Zaman",
+	"bs-watchlist-pref-sort-title": "Başlık",
+	"bs-watchlist-tag-watchlist-desc": "Değişiklikleri olan ve izleme listenizdeki maddeleri gösterir.",
+	"bs-watchlist-window-watchlist-title": "İzleme listesi",
+	"bs-watchlist-window-watchlist-intro": "Bu, izleme listenizdeki tüm sayfalara genel bir bakıştır. [[Special:Watchlist|Klasik izlenme liste sayfasına]] da geçebilirsiniz.",
+	"bs-watchlist-grid-watchlist-column-link-header": "Sayfa",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Okunmamış değişiklikler",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Değişiklikleri inceleyin",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Tartışma sayfası",
+	"bs-watchlist-grid-watchlist-label-filter": "Filtre"
+}

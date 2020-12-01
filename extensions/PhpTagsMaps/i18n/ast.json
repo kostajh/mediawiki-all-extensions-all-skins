@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"multimaps-desc": "Permite a los usuarios amosar datos de mapes y coordenaes usando múltiples servicios cartográficos",
+	"multimaps-loading-map": "Cargando'l mapa...",
+	"multimaps-mapservices-must-not-empty-array": "La variable \"$1\" nun pue ser una matriz balera",
+	"multimaps-had-following-errors": "Al analizar los parámetros que se pasaron hebo los siguientes errores:",
+	"multimaps-element-illegal-value": "pal parámetru \"$1\" especificose'l valor illegal \"$2\". Los valores válidos son: $3",
+	"multimaps-element-more-parameters": "L'elementu del mapa \"$1\" pasó más parámetros de los esperaos:",
+	"multimaps-element-parameters-not-processed": "los siguientes parámetros nun se procesaron: $1",
+	"multimaps-circle-radius-not-defined": "hai que definir un radiu pal círculu",
+	"multimaps-circle-wrong-number-parameters": "pal círculu hai que definir namái dos parámetros, les coordenaes del centru ya'l radiu. Pero {{PLURAL:$1|especificose un parámetru|especificáronse $1 parámetros}}",
+	"multimaps-marker-incorrect-icon": "Diose un nome de ficheru incorreutu \"$1\" pal iconu de marcador",
+	"multimaps-marker-incorrect-icon-url": "Dióse una URL incorreuta \"$1\" pal iconu del marcador.",
+	"multimaps-marker-incorrect-icon-size": "Dióse un tamañu incorreutu \"$1\" pal iconu del marcador \"$2\".",
+	"multimaps-marker-incorrect-icon-anchor": "Dióse un ancla incorreuta \"$1\" pal iconu del marcador \"$2\".",
+	"multimaps-marker-incorrect-shadow-file": "Dióse un nome de ficheru incorreutu \"$1\" pa la solombra del iconu.",
+	"multimaps-marker-incorrect-shadow-url": "Dióse una URL incorreuta \"$1\" pa la solombra del iconu.",
+	"multimaps-marker-incorrect-shadow-size": "Dióse un tamañu incorreutu \"$1\" pa la solombra del iconu \"$2\".",
+	"multimaps-marker-incorrect-shadow-anchor": "Dióse un ancla incorreuta \"$1\" pa la solombra del iconu \"$2\".",
+	"multimaps-passed-unavailable-service": "Nun s'alcontró'l nome del serviciu \"$1\" na llista de servicios disponibles ($2). Úsose'l serviciu predetermináu \"$3\"",
+	"multimaps-square-wrong-number-points": "les coordenaes del cuadráu tienen de contener namái dos puntos, pero {{PLURAL:$1|diose un puntu|dieronse $1 puntos}}",
+	"multimaps-unable-create-element": "Nun pue crease l'elementu del mapa \"$1\"",
+	"multimaps-unable-parse-coordinates": "nun puen analizase les coordenaes xeográfiques \"$1\"",
+	"multimaps-unable-parse-parameter": "nun pudo analizase'l parámetru \"$1\" col valor \"$2\"",
+	"multimaps-unable-parse-radius": "el radiu del círculu tien de ser un valor numbéricu, pero especificó \"$1\"",
+	"multimaps-unknown-class-for-service": "La clase \"$1\" definía pal serviciu nun pue alcontrase.",
+	"multimaps-unknown-parameter": "Parámetru desconocíu: \"$1\"",
+	"multimaps-error-incorrect-class-for-service": "Nun pue utilizase la clase \"$1\" definía pal serviciu.",
+	"multimaps-method-error-unknown-action": "$1: Aición desconocía",
+	"multimaps-method-error-unexpected-result": "$1: Resultáu inesperáu d'una función"
+}

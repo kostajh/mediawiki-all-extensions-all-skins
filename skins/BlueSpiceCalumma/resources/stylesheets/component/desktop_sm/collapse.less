@@ -1,0 +1,42 @@
+body {
+	/* CustomMenu Header */
+	/* collapsed */
+	&.mediawiki,
+	&.mediawiki.x-body {
+		&:not( .bs-cusom-menu-active ),
+		&.bs-custom-menu-header-container-collapse {
+			/* VisualEditor */
+			.ve-init-target-visual > .ve-ui-toolbar > .oo-ui-toolbar-bar,
+			.ve-init-target-source > .ve-ui-toolbar > .oo-ui-toolbar-bar{
+				.mixin-ve-width();
+			}
+			.ve-init-target-visual > .ve-ui-toolbar-floating > .oo-ui-toolbar-bar,
+			.ve-init-target-source > .ve-ui-toolbar-floating > .oo-ui-toolbar-bar{
+				.mixin-ve-width();
+			}
+		}
+	}
+
+	/* open */
+	&.mediawiki,
+	&.mediawiki.x-body {
+		&.bs-cusom-menu-active:not( .bs-custom-menu-header-container-collapse ) {
+			/* VisualEditor */
+			.ve-init-target-visual > .ve-ui-toolbar > .oo-ui-toolbar-bar,
+			.ve-init-target-source > .ve-ui-toolbar > .oo-ui-toolbar-bar{
+				.mixin-ve-width();
+
+			}
+			.ve-init-target-visual > .ve-ui-toolbar-floating > .oo-ui-toolbar-bar,
+			.ve-init-target-source > .ve-ui-toolbar-floating > .oo-ui-toolbar-bar {
+				.mixin-ve-width();
+			}
+		}
+	}
+}
+
+.mixin-ve-width() {
+	font-size: 0.625rem;
+	max-width: calc(~"100vw - 8rem");
+	margin: auto;
+}

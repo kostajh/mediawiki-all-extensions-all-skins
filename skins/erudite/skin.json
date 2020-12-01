@@ -1,0 +1,61 @@
+{
+	"name": "Erudite",
+	"version": "1.8",
+	"author": [
+		"Nick White",
+		"Matt Wiebe",
+		"Colin Andrew Ferm"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Erudite",
+	"descriptionmsg": "erudite-desc",
+	"namemsg": "skinname-erudite",
+	"type": "skin",
+	"AutoloadClasses": {
+		"SkinErudite": "Erudite.skin.php",
+		"EruditeTemplate": "Erudite.skin.php"
+	},
+	"MessagesDirs": {
+		"Erudite": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"skins.erudite": {
+			"class": "ResourceLoaderSkinModule",
+			"styles": {
+				"assets/cssreset.css": {
+					"media": "screen"
+				},
+				"assets/erudite.css": {
+					"media": "screen"
+				},
+				"assets/erudite66em.css": {
+					"media": "screen and (max-width: 66em)"
+				},
+				"assets/erudite60em.css": {
+					"media": "screen and (max-width: 60em)"
+				},
+				"assets/erudite55em.css": {
+					"media": "screen and (max-width: 55em)"
+				},
+				"assets/erudite40em.css": {
+					"media": "screen and (max-width: 40em)"
+				},
+				"assets/erudite20em.css": {
+					"media": "screen and (max-width: 20em)"
+				},
+				"assets/print.css": {
+					"media": "print"
+				}
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "erudite"
+	},
+	"ValidSkinNames": {
+		"erudite": "Erudite"
+	},
+	"manifest_version": 1
+}

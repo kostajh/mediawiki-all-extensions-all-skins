@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"northway"
+		]
+	},
+	"shibboleth-desc": "Provides authentication using Shibboleth in conjunction with PluggableAuth",
+	"shibboleth-wg-empty-displayname": "The <var>wgShibboleth_DisplayName</var> configuration variable is empty in LocalSettings.php",
+	"shibboleth-wg-empty-email": "The <var>wgShibboleth_Email</var> configuration variable is empty in LocalSettings.php",
+	"shibboleth-wg-empty-username": "The <var>wgShibboleth_Username</var> configuration variable is empty in LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "The <var>wgShibboleth_GroupMap</var> configuration variable is empty in LocalSettings.php",
+	"shibboleth-attr-empty-username": "Shibboleth: username attribute is not set",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: cannot find GroupMap attribute"
+}

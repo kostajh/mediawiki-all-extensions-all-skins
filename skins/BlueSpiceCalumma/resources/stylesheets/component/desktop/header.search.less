@@ -1,0 +1,31 @@
+header .navbar .p-search form {
+	left: @navigation-main-width;
+	top: @theme-header-items-margin;
+
+	.form-group{
+		& > #bs-extendedsearch-input {
+			width: 100%;
+		}
+
+		#bs-extendedsearch-box-wrapper {
+			input.form-control{
+				width: 100% !important;
+			}
+		}
+
+		.bs-extendedsearch-autocomplete-popup {
+			.bs-extendedsearch-autocomplete-popup-create-page-link {
+				&,
+				a {
+					height: auto;
+					min-height: 2.5rem
+				}
+			}
+
+			.bs-extendedsearch-autocomplete-popup-special-item-label {
+				min-height: 2.5rem;
+				height: auto;
+			}
+		}
+	}
+}

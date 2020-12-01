@@ -1,0 +1,52 @@
+@import '../mixins.less';
+
+// toolbar positioning/gutters
+.ve-gutter( @margin: 0 ) {
+	.ve-init-mw-desktopArticleTarget-toolbar {
+		margin: 0 -@margin 0;
+	}
+
+	.ve-init-mw-desktopArticleTarget {
+		// Make the gutter area clickable (T162838)
+		.ve-init-mw-target-surface {
+			margin-left: -@margin;
+			margin-right: -@margin;
+		}
+
+		.ve-init-mw-target-surface .ve-ce-documentNode,
+		.ve-init-mw-target-surface .ve-ui-surface-placeholder {
+			padding-left: @margin;
+			padding-right: @margin;
+		}
+	}
+}
+
+@media screen {
+	.ve-init-mw-desktopArticleTarget {
+		position: relative;
+		top: -1em;
+	}
+
+	.ve-init-target > .oo-ui-toolbar-position-top > .oo-ui-toolbar-bar {
+		.box-shadow( 0 0.35em 0.75em -0.25em rgba( 0, 0, 0, 0.25 ) );
+	}
+
+	.ve-ui-overlay {
+		font-family: @fonts-main;
+
+		.windows-fonts & {
+			font-family: @fonts-main-windows;
+		}
+	}
+
+	// default content padding
+	.ve-gutter( 1.75em );
+
+	@media ( max-width: @content-width ) {
+		.ve-gutter( 1em );
+	}
+
+	@media ( max-width: 900px ) {
+		.ve-gutter( 0.75em );
+	}
+}

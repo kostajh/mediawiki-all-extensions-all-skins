@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shanmugamp7"
+		]
+	},
+	"spserror-date-startdatemissing": "ஆரம்ப தேதியை காணவில்லை",
+	"spserror-count-startvaluemalformed": "ஆரம்பித்தல் மதிப்பு எண் அல்ல.",
+	"spserror-count-endvaluemalformed": "இறுதி மதிப்பு எண் அல்ல",
+	"spserror-count-stepvaluemalformed": "படிநிலை மதிப்பு மதிப்பு எண் அல்ல.",
+	"spserror-count-digitsvaluemalformed": "இலக்கங்களின் மதிப்பு எண் இல்லை."
+}

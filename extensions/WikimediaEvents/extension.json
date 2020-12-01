@@ -1,0 +1,183 @@
+{
+	"name": "WikimediaEvents",
+	"version": "1.2.0",
+	"author": [
+		"Matthew Flaschen",
+		"Ori Livneh",
+		"Benny Situ"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WikimediaEvents",
+	"descriptionmsg": "wikimediaevents-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.36.0"
+	},
+	"AutoloadNamespaces": {
+		"WikimediaEvents\\": "includes/"
+	},
+	"TestAutoloadNamespaces": {
+		"WikimediaEvents\\Tests\\": "tests/phpunit/"
+	},
+	"Hooks": {
+		"UserLogout": "WikimediaEvents\\WikimediaEventsHooks::onUserLogout",
+		"LocalUserCreated": "WikimediaEvents\\WikimediaEventsHooks::onLocalUserCreated",
+		"BeforeInitialize": "WikimediaEvents\\WikimediaEventsHooks::onBeforeInitializeWMDECampaign",
+		"BeforePageRedirect": "WikimediaEvents\\WikimediaEventsHooks::onBeforePageRedirect",
+		"BeforePageDisplay": "WikimediaEvents\\WikimediaEventsHooks::onBeforePageDisplay",
+		"PageSaveComplete": "WikimediaEvents\\WikimediaEventsHooks::onPageSaveComplete",
+		"UserSaveOptions": "WikimediaEvents\\PrefUpdateInstrumentation::onUserSaveOptions",
+		"ArticleViewHeader": "WikimediaEvents\\WikimediaEventsHooks::onArticleViewHeader",
+		"EditPageBeforeConflictDiff": "WikimediaEvents\\WikimediaEventsHooks::onEditPageBeforeConflictDiff",
+		"ResourceLoaderGetConfigVars": "WikimediaEvents\\WikimediaEventsHooks::onResourceLoaderGetConfigVars",
+		"ListDefinedTags": "WikimediaEvents\\WikimediaEventsHooks::onListDefinedTags",
+		"ChangeTagsListActive": "WikimediaEvents\\WikimediaEventsHooks::onChangeTagsListActive",
+		"XAnalyticsSetHeader": "WikimediaEvents\\WikimediaEventsHooks::onXAnalyticsHeader",
+		"SpecialSearchGoResult": "WikimediaEvents\\WikimediaEventsHooks::onSpecialSearchGoResult",
+		"SpecialSearchResults": "WikimediaEvents\\WikimediaEventsHooks::onSpecialSearchResults",
+		"RecentChange_save": [
+			"WikimediaEvents\\WikimediaEventsHooks::onRecentChangeSaveCrossWikiUpload",
+			"WikimediaEvents\\WikimediaEventsHooks::onRecentChangeSaveEditCampaign"
+		],
+		"ResourceLoaderRegisterModules": "WikimediaEvents\\WikimediaEventsHooks::onResourceLoaderRegisterModules",
+		"RevisionRecordInserted": "WikimediaEvents\\WikimediaEventsHooks::onRevisionRecordInserted",
+		"MakeGlobalVariablesScript": "WikimediaEvents\\WikimediaEventsHooks::onMakeGlobalVariablesScript",
+		"SpecialMuteSubmit": "WikimediaEvents\\WikimediaEventsHooks::onSpecialMuteSubmit"
+	},
+	"MessagesDirs": {
+		"WikimediaEvents": [
+			"i18n"
+		]
+	},
+	"attributes": {
+		"EventLogging": {
+			"Schemas": {
+				"DesktopWebUIActionsTracking": 20184974,
+				"InukaPageView": 19739286,
+				"EditAttemptStep": 19802113,
+				"VisualEditorFeatureUse": 20118253,
+				"CompletionSuggestions": 13630018,
+				"SearchSatisfaction": "/analytics/legacy/searchsatisfaction/1.3.0",
+				"SearchSatisfactionErrors": 17181648,
+				"Search": 14361785,
+				"ChangesListHighlights": 16484288,
+				"ChangesListFilterGrouping": 17008168,
+				"RecentChangesTopLinks": 16732249,
+				"InputDeviceDynamics": 17687647,
+				"MobileWebUIActionsTracking": 19230467,
+				"WMDEBannerEvents": 19608660,
+				"WMDEBannerInteractions": 20160542,
+				"WMDEBannerSizeIssue": 18193993,
+				"WikidataCompletionSearchClicks": 18665070,
+				"UserFeedback": 18903446,
+				"Test": "/analytics/legacy/test/1.2.0"
+			}
+		},
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.wikimediaEvents.visualEditor"
+			]
+		}
+	},
+	"ResourceModules": {
+		"ext.wikimediaEvents": {
+			"scripts": [
+				"ext.wikimediaEvents/events.js",
+				"ext.wikimediaEvents/statsd.js",
+				"ext.wikimediaEvents/deprecate.js",
+				"ext.wikimediaEvents/clientError.js",
+				"ext.wikimediaEvents/sessionTick.js"
+			],
+			"skinScripts": {
+				"default": [
+					"ext.wikimediaEvents/searchSatisfaction.js",
+					"ext.wikimediaEvents/desktopWebUIActions.js"
+				],
+				"minerva": [
+					"ext.wikimediaEvents/mobileWebUIActions.js",
+					"ext.wikimediaEvents/InukaPageView.js"
+				]
+			},
+			"dependencies": [
+				"ext.eventLogging",
+				"mediawiki.user",
+				"mediawiki.Uri",
+				"mediawiki.experiments",
+				"mediawiki.storage"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.wikimediaEvents.wikibase": {
+			"scripts": [
+				"ext.wikimediaEvents.wikibase/completionClicks.js"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules/",
+		"remoteExtPath": "WikimediaEvents/modules"
+	},
+	"config": {
+		"WMEUnderstandingFirstDay": {
+			"value": false
+		},
+		"WMEUnderstandingFirstDaySensitiveNamespaces": {
+			"value": [
+				0,
+				1,
+				6,
+				7
+			]
+		},
+		"WMEDesktopWebUIActionsTracking": {
+			"value": 0
+		},
+		"WMEMobileWebUIActionsTracking": {
+			"value": 0
+		},
+		"WMEStatsdBaseUri": {
+			"value": false
+		},
+		"WMESearchRelevancePages": {
+			"value": {
+			},
+			"merge_strategy": "array_plus"
+		},
+		"WMEEditCampaigns": {
+			"value": []
+		},
+		"WMEInukaPageViewEnabled": {
+			"value": false
+		},
+		"WMEInukaPageViewCookiesDomain": {
+			"value": "wikipedia.org"
+		},
+		"WMEInukaPageViewSamplingRatePerOs": {
+			"value": {
+				"kaios": 1,
+				"android": 0.1,
+				"ios": 0.5,
+				"unknown": 0
+			}
+		},
+		"WMESchemaEditAttemptStepSamplingRate": {
+			"value": "0.0625"
+		},
+		"WMEWikidataCompletionSearchClicks": {
+			"value": []
+		},
+		"WMEClientErrorIntakeURL": {
+			"value": false
+		},
+		"WMESessionTick": {
+			"value": false
+		}
+	},
+	"manifest_version": 2
+}

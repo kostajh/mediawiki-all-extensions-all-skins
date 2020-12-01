@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diki Ananta",
+			"Iwan Novirion",
+			"Kenrick95",
+			"Sumbukompor"
+		]
+	},
+	"echo-category-title-login-fail": "Gagal masuk log",
+	"echo-category-title-login-success": "Masuk log dari gawai tak dikenal",
+	"loginnotify-primary-link": "Bantuan",
+	"notification-loginnotify-login-success-email-subject": "Log masuk ke {{SITENAME}} sebagai $1 dari perangkat yang tidak baru-baru ini digunakan",
+	"notification-header-login-success": "Seseorang (kemungkinan {{GENDER:$1|Anda}}) beberapa waktu ini masuk log ke akun Anda melalui gawai baru. Jika ini merupakan Anda, silakan abaikan pesan ini. Jika bukan, kami sarankan agar Anda mengubah kata sandi Anda, dan periksa aktivitas akun Anda."
+}

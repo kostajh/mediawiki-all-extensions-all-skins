@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amgauna",
+			"Anaclaudiaml",
+			"Cainamarques",
+			"Dianakc",
+			"Felipe L. Ewald"
+		]
+	},
+	"accountinfo": "Informações da Conta",
+	"accountinfo-desc": "Permite ao usuário ver informações privadas armazenadas sobre ele",
+	"accountinfo-ts": "Data e hora",
+	"accountinfo-ip": "Endereço de IP",
+	"accountinfo-ua": "Agente usuário",
+	"accountinfo-xff": "Cabeçalho XFF",
+	"accountinfo-length": "A informação é mantida por $1.",
+	"accountinfo-now": "Agora"
+}

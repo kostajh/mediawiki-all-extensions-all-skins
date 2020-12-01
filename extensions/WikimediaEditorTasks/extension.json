@@ -1,0 +1,68 @@
+{
+	"name": "WikimediaEditorTasks",
+	"version": "0.1.0",
+	"author": [
+		"Michael Holloway"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WikimediaEditorTasks",
+	"descriptionmsg": "wikimediaeditortasks-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\WikimediaEditorTasks\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extension\\WikimediaEditorTasks\\Test\\": "tests/phpunit/"
+	},
+	"ServiceWiringFiles": [
+		"ServiceWiring.php"
+	],
+	"ConfigRegistry": {
+		"WikimediaEditorTasks": "GlobalVarConfig::newInstance"
+	},
+	"config": {
+		"WikimediaEditorTasksUserCountsCluster": {
+			"value": false,
+			"description": "Database cluster to use for storing user count data. False means the cluster of the current wiki will be used."
+		},
+		"WikimediaEditorTasksUserCountsDatabase": {
+			"value": false,
+			"description": "Database to use for storing user count data. False means use the database of the current wiki. To use a table prefix, use '<database>-<prefix'>' format."
+		},
+		"WikimediaEditorTasksEnabledCounters": {
+			"value": [],
+			"description": "Counter classes to enable, with associated configuration. Fields:\\n* class: the fully qualified class name\\n* counter_key: the count property name associated with the counter, for storing in the DB and surfacing in the MediaWiki API\n\nExample:\n{\n\t\"class\": \"MediaWiki\\Extension\\WikimediaEditorTasks\\WikipediaAppDescriptionEditCounter\",\n\t\"counter_key\": \"app_description_edits\",\n\t}"
+		},
+		"WikimediaEditorTasksEnableEditStreaks": {
+			"value": false,
+			"description": "Whether to track and report edit streaks."
+		},
+		"WikimediaEditorTasksEnableRevertCounts": {
+			"value": false,
+			"description": "Whether to track and report revert counts."
+		}
+	},
+	"APIMetaModules": {
+		"wikimediaeditortaskscounts": {
+			"class": "MediaWiki\\Extension\\WikimediaEditorTasks\\Api\\ApiQueryWikimediaEditorTasksCounts",
+			"factory": "MediaWiki\\Extension\\WikimediaEditorTasks\\Api\\ApiQueryWikimediaEditorTasksCounts::factory"
+		}
+	},
+	"Hooks": {
+		"RollbackComplete": "MediaWiki\\Extension\\WikimediaEditorTasks\\Hooks::onRollbackComplete",
+		"LoadExtensionSchemaUpdates": "MediaWiki\\Extension\\WikimediaEditorTasks\\Hooks::onLoadExtensionSchemaUpdates",
+		"PageSaveComplete": "MediaWiki\\Extension\\WikimediaEditorTasks\\Hooks::onPageSaveComplete",
+		"ListDefinedTags": "MediaWiki\\Extension\\WikimediaEditorTasks\\Hooks::onRegisterTags",
+		"ChangeTagsListActive": "MediaWiki\\Extension\\WikimediaEditorTasks\\Hooks::onRegisterTags"
+	},
+	"MessagesDirs": {
+		"WikimediaEditorTasks": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"manifest_version": 2
+}

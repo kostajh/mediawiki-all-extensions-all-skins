@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joedalton",
+			"Saederup92",
+			"Sarrus"
+		]
+	},
+	"categorywatch-desc": "Udvider overvågningslistens funktionalitet til også at omfatte underretning om ændringer af overvågede kategoriers artikelmedlemsstatus",
+	"categorywatch-emailsubject": "Aktivitet, der indebærer den overvågede kategori \"$ 1\"",
+	"categorywatch-catmovein": "$1 er flyttet til $2 fra $3",
+	"categorywatch-catmoveout": "$1 er blevet flyttet fra $2 til $3",
+	"categorywatch-catadd": "$1 er blevet tilføjet til $2",
+	"categorywatch-catsub": "$1 er blevet fjernet fra $2",
+	"categorywatch-autocat": "Automatisk overvåget af $1",
+	"categorywatch-notification-link": "Kategori: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] tilføjet til [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] tilføjet til [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] tilføjede [[:$3|$3]] til [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] fjernet fra [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] fjernet fra [[:$5|$6]]",
+	"categorywatch-notification-bundle": "$1 ændringer i kategorisering på {{SITENAME}}",
+	"categorywatch-add-title": "Titel tilføjet til overvåget kategori",
+	"categorywatch-remove-title": "Titel fjernet fra overvåget kategori"
+}

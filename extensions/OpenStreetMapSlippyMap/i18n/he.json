@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rotemliss",
+			"YaronSh"
+		]
+	},
+	"slippymap_desc": "מתן האפשרות לשימוש בתגית <tt><nowiki>&lt;slippymap&gt;</nowiki></tt> להצגת מפת OpenLayers רדומה. המפות הן מהאתר [http://openstreetmap.org openstreetmap.org]",
+	"slippymap_latmissing": "ערך ה־lat חסר (עבור קו־הרוחב).",
+	"slippymap_lonmissing": "ערך ה־lon חסר(עבור קו־האורך).",
+	"slippymap_zoommissing": "ערך ה־z חסר (לרמת ההגדלה).",
+	"slippymap_longdepreciated": "אנא השתמשו ב־'lon' במקום ב־'long' (שם הפרמטר שונה).",
+	"slippymap_widthnan": "ערך הרוחב (w) '$1' אינו מספר שלם תקין",
+	"slippymap_heightnan": "ערך הגובה (h) '$1' אינו מספר שלם תקין",
+	"slippymap_zoomnan": "ערך ההגדלה (z) '$1' אינו מספר שלם תקין",
+	"slippymap_latnan": "ערך קו־הרוחב (lat) '$1' אינו מספר תקין",
+	"slippymap_lonnan": "ערך קו־האורך (lon) '$1' אינו מספר תקין",
+	"slippymap_widthbig": "ערך הרוחב (w) לא יכול לחרוג מעבר ל־1000.",
+	"slippymap_widthsmall": "ערך הרוחב (w) לא יכול לחרוג אל מתחת ל־100",
+	"slippymap_heightbig": "ערך הגובה (h) לא יכול לחרוג אל מעבר ל־1000",
+	"slippymap_heightsmall": "ערך הגובה (h) לא יכול לחרוג אל מתחת ל־100",
+	"slippymap_latbig": "ערך קו־הרוחב (lat) לא יכול לחרוג מעבר ל־90",
+	"slippymap_latsmall": "ערך קו־הרוחב (lat) לא יכול לחרוג אל מתחת ל־ -90",
+	"slippymap_lonbig": "ערך קו־האורך (lon) לא יכול לחרוג אל מעבר ל־180",
+	"slippymap_lonsmall": "ערך קו־האורך (lon) לא יכול לחרוג אל מתחת ל־ -180",
+	"slippymap_zoomsmall": "ערך ההגדלה (z) לא יכול לחרוג אל מתחת לאפס",
+	"slippymap_zoom18": "ערך ההגדלה (z) לא יכול לחרוג אל מעבר ל־17. שימו לב שהרחבת מדיה־ויקי זו מתממשקת אל שכבת ה־'osmarender' של OpenStreetMap שאינה תומכת ברמת הגדלה הגדולה מ־17. שכבת ה־Mapnik הזמינה באתר openstreetmap.org, מגיעה לרמת הגדלה 18.",
+	"slippymap_zoombig": "ערך ההגדלה (z) לא יכול לחרוג אל מעבר ל־17.",
+	"slippymap_invalidlayer": "ערך ה־'layer' אינו תקין '$1'",
+	"slippymap_maperror": "שגיאת מפה:",
+	"slippymap_osmtext": "עיינו במפה זו באתר OpenStreetMap.org",
+	"slippymap_code": "קוד הוויקי להצגת מפה זו:",
+	"slippymap_button_code": "איחזור קוד הוויקי",
+	"slippymap_resetview": "איפוס התצוגה"
+}

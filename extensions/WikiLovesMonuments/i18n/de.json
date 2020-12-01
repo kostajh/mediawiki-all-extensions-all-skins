@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"wlm-extension-desc": "Stellt Informationen und Nachrichten für den Fotowettbewerb „Wiki Loves Monuments“ bereit",
+	"wlm-no-contest-year": "Im Jahr $1 gab es keinen Fotowettbewerb „Wiki Loves Monuments“.",
+	"wlm-no-url-bad-country": "Wir konnten die Website für den lokalen Wettbewerb nicht abrufen. $1 ist kein gültiger Ländercode.",
+	"wlm-country-not-given": "Du musst einen Ländercode angeben.",
+	"wlm-country-not-participating-year": "„$1“ nimmt nicht am Fotowettbewerb „Wiki Loves Monuments“ des Jahres $2 teil.",
+	"wlm-sidebar-portlet": "Andere Staaten",
+	"wlm-international-contest": "International",
+	"wlm-text-contact": "Kontakt",
+	"wlm-text-contest": "Wettbewerb",
+	"wlm-text-donate": "Spenden",
+	"wlm-text-faq": "Häufig gestellte Fragen",
+	"wlm-text-jury": "Jury",
+	"wlm-text-monuments": "Denkmäler",
+	"wlm-text-news": "Neuigkeiten",
+	"wlm-text-participate": "Mach mit!",
+	"wlm-text-prizes": "Preise",
+	"wlm-text-rules": "Regeln",
+	"wlm-text-sponsors": "Sponsoren",
+	"wlm-text-uploading": "Dateien hochladen"
+}

@@ -1,0 +1,66 @@
+.bs-social-entityspawner-new {
+	form {
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		position: absolute;
+		max-width: 100%;
+		width: 700px;
+		right: 0px;
+
+		&:before {
+			position: absolute;
+			content: '';
+			display: inline-block;
+			width: 25px;
+			height: 25px;
+			background-color: black;
+			position: relative;
+			right: 70px;
+			top: -23px;
+			transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+			float: right;
+			margin-right: -25px;
+			background-color: @bs-light-background;
+			border-top: 1px solid @bs-primary-light-background;
+			border-left: 1px solid @bs-primary-light-background;
+		}
+	}
+}
+
+.bs-social-entity {
+	form.oo-ui-formLayout {
+		margin: 0 0px 0 10px;
+	}
+
+	.bs-social-entitylist-children {
+		form.oo-ui-formLayout {
+			margin: 0 80px 0 0px;
+		}
+	}
+}
+
+ul.bs-social-entitylist li {
+	margin: 0 0 10px 0 !important;
+	padding: 0;
+}
+
+ul.dropdown-menu li{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+div.bs-social-entity-actions-menu-prio li{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.bs-social-entity .bs-social-entitylist-children div.bs-social-entity-right {
+	padding: 0;
+	background-color: @bs-light-background;
+	border-radius: 3px;
+	position: relative;
+}
+
+.bs-social-entity div.bs-social-entity-right{
+	margin: 0 0px 0 80px;
+}

@@ -1,0 +1,63 @@
+{
+	"manifest_version": 2,
+	"name": "Wigo3",
+	"type": "parserhook",
+	"author": [
+		"[http://rationalwiki.com/wiki/User:Nx Nx]",
+		"[http://rationalwiki.com/wiki/User:Tmtoulouse Trent Toulouse]",
+		"Tim Starling"
+	],
+	"version": "5.0.0",
+	"descriptionmsg": "wigo3-description",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"APIListModules": {
+		"wigo": "Wigo3\\ApiWigo",
+		"wigovotes": "Wigo3\\ApiWigoVotes"
+	},
+	"ExtensionMessagesFiles": {
+		"Wigo3Magic": "wigo3.i18n.magic.php"
+	},
+	"MessagesDirs": {
+		"Wigo3": "i18n"
+	},
+	"AutoloadNamespaces": {
+		"Wigo3\\": "src/"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "Wigo3\\Hooks::onLoadExtensionSchemaUpdates",
+		"ParserFirstCallInit": "Wigo3\\Hooks::onParserFirstCallInit",
+		"ParserPreSaveTransformComplete": "Wigo3\\Hooks::onParserPreSaveTransformComplete",
+		"RevisionDataUpdates": "Wigo3\\Hooks::onRevisionDataUpdates"
+	},
+	"ExtensionFunctions": [
+		"Wigo3\\Hooks::extensionSetup"
+	],
+	"ResourceModules": {
+		"ext.wigo3.wigo3": {
+			"scripts": "js/wigo3.js"
+		},
+		"ext.wigo3.multi": {
+			"scripts": "js/multi.js",
+			"dependencies": [
+				"ext.wigo3.wigo3",
+				"jquery.spinner"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Wigo3"
+	},
+	"config": {
+		"Wigo3ConfigStoreIPs": {
+			"value": true,
+			"description": "Store IPs instead of usernames for logged in users too"
+		},
+		"Wigo3ReplaceNextpoll": {
+			"value": false,
+			"description": "Replace nextpoll parameter on page save"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"pageexchange-installed": "Installéiert",
+	"pageexchange-available": "Disponibel",
+	"pageexchange-package-website": "Internetsite:",
+	"pageexchange-package-author": "Auteur:",
+	"pageexchange-package-version": "Versioun:",
+	"pageexchange-package-pages": "Säiten:",
+	"pageexchange-package-language": "Sprooch:",
+	"pageexchange-package-requiredextensions": "Obligatoresch Erweiderungen:",
+	"pageexchange-package-install": "Installéieren",
+	"pageexchange-package-update": "Aktualiséieren",
+	"pageexchange-package-uninstall": "Desinstalléieren",
+	"pageexchange-latestvalue": "(leschte Wäert: $1)"
+}

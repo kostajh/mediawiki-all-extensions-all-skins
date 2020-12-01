@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"indexfunc-desc": "Funzione analizzatrice pe ccrejà redirezionaminde automatece e pàggene de disambiguazzione",
+	"indexfunc-badtitle": "Titole invalide: \"$1\"",
+	"indexfunc-editwarning": "Iapre l'uecchije:\nstu titole jè 'u titole de 'n'indice pe {{PLURAL:$2|sta pàgene|ste pàggene}}:\n$1\nSta secure ca 'a pàgene ca se ste ccreje non g'esiste ggià cu 'n'otre titole.\nCe se ccreje sta pàgene, live stu titole da l'<nowiki>{{#index:}}</nowiki> jndr'à {{PLURAL:$2|pàgene|le pàggene}} d'apprime.",
+	"indexfunc-index-exists": "'A pàgene \"$1\" già esiste",
+	"indexfunc-movewarn": "Iapre l'uecchije:\n\"$1\" jè 'nu titole de 'n'indice pe {{PLURAL:$3|sta pàgene|ste pàggene}}:\n$2\nLive \"$1\" da l'<nowiki>{{#index:}}</nowiki> jndr'à {{PLURAL:$3|pàgene|le pàggene}} d'apprime.",
+	"index": "Ricerche de l'indice",
+	"index-legend": "Cirche l'indice",
+	"index-search": "Cirche",
+	"index-submit": "Conferme",
+	"index-disambig-start": "'''$1''' se pò referì a cchiù pàggene:",
+	"index-emptylist": "Non ge stonne pàggene associate cu \"$1\"",
+	"index-expand-detail": "Fà 'ndrucà le pàggene indicizzate sotte a stu titole",
+	"index-hide-detail": "Scunne l'elenghe de le pàggene",
+	"index-no-results": "'A ricerche nò dèje resultate",
+	"index-search-explain": "Sta pàgene ause 'na recerche pe prefisse.\n\nScrive le prime carattere e cazze 'u buttone Invie pa recerche de titole de pàggene e vôsce ca accumenzane cu 'a stringhe de recerche",
+	"index-details-explain": "Le vôsce ci le frecce sò vôsce de l'indice.\nCazze sus 'a frecce pe 'ndrucà tutte le pàggene indicizzate sotte a quidde titole."
+}

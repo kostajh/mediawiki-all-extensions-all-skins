@@ -1,0 +1,19 @@
+@import "variables.less";
+
+@import "component/desktop_lg/main.less";
+@import "component/desktop_lg/header.featured-actions.less";
+@import "component/desktop_lg/header.search.less";
+
+body.mediawiki {
+	.calumma-desktop-visible,
+	.calumma-tablet-hidden,
+	.calumma-mobile-hidden { display: block; }
+	.calumma-desktop-hidden { display: none; }
+
+	.calumma-tablet-visible,
+	.calumma-mobile-visible,
+	.calumma-mobile-visible.calumma-tablet-visible { display: none; }
+
+	.calumma-desktop-visible.calumma-tablet-visible,
+	.calumma-desktop-visible.calumma-mobile-visible { display: block; }
+}

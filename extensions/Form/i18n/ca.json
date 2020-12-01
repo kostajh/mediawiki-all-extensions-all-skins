@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Paucabot"
+		]
+	},
+	"form": "Comença una pàgina nova",
+	"form-captcha-error": "Error del CAPTCHA",
+	"form-no-name": "Cap nom de formulari",
+	"form-bad-name": "Nom del formulari incorrecte",
+	"form-save": "Desa",
+	"form-article-exists": "La pàgina existeix",
+	"form-article-existstext": "La pàgina [[$1]] ja existeix.",
+	"form-save-error": "Error desant el formulari",
+	"form-save-error-text": "S’ha produït un error desconegut en desar la pàgina «$1»."
+}

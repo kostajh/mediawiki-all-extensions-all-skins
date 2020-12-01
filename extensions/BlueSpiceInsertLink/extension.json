@@ -1,0 +1,125 @@
+{
+	"name": "BlueSpiceInsertLink",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:InsertLink",
+	"author": [
+		"Markus Glaser",
+		"Sebastian Ulbricht",
+		"Patric Wirth"
+	],
+	"descriptionmsg": "bs-insertlink-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceVisualEditorConnector": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceInsertLink": {
+					"className": "\\BlueSpice\\InsertLink\\Extension",
+					"extPath": "/BlueSpiceInsertLink",
+					"configDefinitions": {
+						"InsertLinkAllowUnMapped": "\\BlueSpice\\InsertLink\\ConfigDefinition\\AllowUnMapped::getInstance",
+						"InsertLinkFilesystemMap": "\\BlueSpice\\InsertLink\\ConfigDefinition\\FilesystemMap::getInstance"
+					}
+				}
+			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"PluginModules": [
+				"ext.bluespice.insertlink.visualEditorPlugin"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"InsertLink": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"InsertLinkAlias": "languages/InsertLink.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\InsertLink\\" : "src/"
+	},
+	"AutoloadClasses": {
+		"SpecialInsertLinkFileChooserJNLP": "includes/specials/SpecialInsertLinkFileChooserJNLP.php"
+	},
+	"SpecialPages": {
+		"InsertLinkFileChooserJNLP": "SpecialInsertLinkFileChooserJNLP"
+	},
+	"ResourceModules": {
+		"ext.bluespice.insertlink": {
+			"scripts": "bluespice.insertLink.js",
+			"messages": [
+				"bs-insertlink-button-title",
+				"bs-insertlink-dialog-title",
+				"bs-insertlink-tab-wiki-page",
+				"bs-insertlink-tab-ext-link",
+				"bs-insertlink-tab-email",
+				"bs-insertlink-label-page",
+				"bs-insertlink-label-link",
+				"bs-insertlink-label-mail",
+				"bs-insertlink-label-description",
+				"bs-insertlink-label-file",
+				"bs-insertlink-label-searchfile",
+				"bs-insertlink-select-a-page",
+				"bs-insertlink-select-a-namespace",
+				"bs-insertlink-empty-field-text",
+				"bs-insertlink-no-applet"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			]
+		},
+		"ext.bluespice.insertlink.styles": {
+			"styles": [
+				"bluespice.insertLink.css"
+			]
+		},
+		"ext.bluespice.insertlink.visualEditorPlugin": {
+			"scripts": [
+				"bs.insertlink.ve/ce/annotation/bs.insertlink.ce.ExternalFileLinkAnnotation.js",
+				"bs.insertlink.ve/dm/annotation/bs.insertlink.dm.ExternalFileLinkAnnotation.js",
+				"bs.insertlink.ve/ui/MWFileLinkAnnotationWidget.js",
+				"bluespice.insertlink.visualEditorPlugin.js",
+				"bs.insertlink.ve/widget/LocalFilePathInput.js"
+			],
+			"dependencies": [
+				"ext.bluespice.insertlink.styles",
+				"ext.bluespice.visualEditorConnector"
+			],
+			"messages": [
+				"bs-insertlink-tab-file",
+				"bs-insertlink-internal-file-link-button-label",
+				"bs-insertlink-external-file-switch-label"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceInsertLink/resources"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "\\BlueSpice\\InsertLink\\Hook\\BeforePageDisplay\\AddConfigs::callback"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"InsertLinkEnableJava": {
+			"value": false
+		},
+		"InsertLinkFilesystemMap": {
+			"value": {}
+		},
+		"InsertLinkAllowUnMapped": {
+			"value": true
+		}
+	},
+	"manifest_version": 2,
+	"load_composer_autoloader": true
+}

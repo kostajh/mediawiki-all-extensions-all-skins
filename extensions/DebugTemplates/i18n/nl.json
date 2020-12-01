@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"debugtemplates-desc": "Een eenvoudige debugger voor sjablonen",
+	"debugtemplates-summary": "Voegt een [[special:DebugTemplates|speciale pagina]] toe die een interface bied voor het debuggen van sjablonen.",
+	"debugtemplates-args-title": "Parameters",
+	"debugtemplates-args-name": "Naam",
+	"debugtemplates-args-value": "Waarde",
+	"debugtemplates-args-constructed": "geen naam",
+	"debugtemplates-eval": "Alles evalueren",
+	"debugtemplates-radio-select": "niets",
+	"debugtemplates-radio-eval": "evalueren"
+}

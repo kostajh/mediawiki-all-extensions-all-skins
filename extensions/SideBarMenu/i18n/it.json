@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"sidebarmenu-desc": "Un semplice parser per menu laterali che crea menu e sotto-menu comprimibili/espandibili",
+	"sidebarmenu-parser-input-error": "Il parser ha restituito l'errore: $1",
+	"sidebarmenu-parser-syntax-error": "Impossibile elaborare \"$1\", assicurarsi che la sintassi sia corretta.",
+	"sidebarmenu-js-init-error": "Impossibile caricare risorse JavaScript.",
+	"sidebarmenu-edit": "Modifica menu",
+	"sidebarmenu-parser-menuitem-expanded-null": "Inserito valore non valido, dovrebbe essere compreso tra <code>null,true,false</code>."
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"reassignedits": "Riassegne le cangiaminde de l'utende",
+	"reassignedits-desc": "Permette 'a reassegnazione de le cangiaminde da 'nu vecchie utende a une nuève",
+	"reassignedits-error-invalid": "'U nome utende \"$1\" jè invalide.",
+	"reassignedits-new": "Nome de l'utende nuève",
+	"reassignedits-old": "Nome de l'utende vecchie",
+	"reassignedits-submit": "Conferme",
+	"reassignedits-success": "Le cangiaminde de \"$1\" onne state reassegnate a \"$2\".",
+	"reassignedits-summary": "Reassegne le cangiaminde de 'n'utende vecchie a une nuève.",
+	"reassignedits-updatelog-title": "Aggiorne 'u nome de l'utende jndr'à l'archivije de le titole",
+	"reassignedits-updatelog-user": "Aggiorne le aziune de l'utende jndr'à l'archivije",
+	"action-reassignedits": "reassegne le cangiaminde de 'n'utende vecchie a une nuève",
+	"right-reassignedits": "Reassegne le cangiaminde de 'n'utende vecchie a une nuève"
+}

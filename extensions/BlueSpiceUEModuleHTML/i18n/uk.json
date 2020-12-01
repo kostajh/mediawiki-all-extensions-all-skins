@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "Вмикає експорт в HTML",
+	"bs-uemodulehtml-pref-DefaultTemplate": "Стандартний шаблон",
+	"bs-uemodulehtml-pref-SuppressNS": "Приховати префікс простору назв у HTML",
+	"bs-uemodulehtml-pref-Backend": "Бекенд",
+	"bs-uemodulehtml-widgetlink-single-text": "Єдина сторінка HTML (архівовано)",
+	"bs-uemodulehtml-widgetlink-single-title": "Експортувати цю сторінку в HTML разом з її ресурсами як архів",
+	"bs-uemodulehtml-overview-title": "HTML-документ (архівовано)",
+	"bs-uemodulehtml-overview-description": "Експортує сторінки (спеціальні сторінки та сторінки контенту) у HTML."
+}

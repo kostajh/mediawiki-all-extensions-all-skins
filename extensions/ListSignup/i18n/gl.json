@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"listsignup": "Lista de inscrición",
+	"listsignup-desc": "Formulario de inscrición de lista personalizada",
+	"listsignup-legend": "Insira a súa información abaixo.",
+	"listsignup-success": "A súa dirección de correo electrónico foi enviada.",
+	"listsignupdisplay": "Visualización da lista de inscrición",
+	"listsignuppurge": "Actualizar a lista de inscrición",
+	"listsignuppurge-legend": "Actualizar toda a información da lista de inscrición",
+	"listsignuppurge-pretext": "'''Atención!''' Isto eliminará tódolos enderezos da lista. Esta acción non pode ser desfeita.",
+	"listsignuppurge-success": "A lista foi purgada!",
+	"right-viewlistsignupdisplay": "Ver a lista de inscrición",
+	"right-purgelistsignupdisplay": "Actualizar a lista de inscrición",
+	"action-viewlistsignupdisplay": "ver a lista de inscrición",
+	"action-purgelistsignupdisplay": "actualizar a lista de inscrición"
+}

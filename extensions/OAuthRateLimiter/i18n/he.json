@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"oauthratelimiter-desc": "הוספת אפשרות להרחבה OAuth לכלול טענות על מכסות קצב ב־JWT"
+}

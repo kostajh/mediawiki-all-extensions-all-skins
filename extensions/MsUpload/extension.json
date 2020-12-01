@@ -1,0 +1,67 @@
+{
+	"name": "MsUpload",
+	"version": "13.2.1",
+	"author": [
+		"[mailto:wiki@ratin.de Martin Schwindl]",
+		"[mailto:wiki@keyler-consult.de Martin Keyler]",
+		"[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:MsUpload",
+	"descriptionmsg": "msu-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires" : {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"MessagesDirs": {
+		"MsUpload": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MsUpload\\Hooks": "includes/Hooks.php"
+	},
+	"ResourceModules": {
+		"ext.MsUpload": {
+			"scripts": [
+				"resources/MsUpload.js"
+			],
+			"styles": "resources/MsUpload.less",
+			"messages": [
+				"msu-button-title",
+				"msu-insert-link",
+				"msu-insert-gallery",
+				"msu-insert-files",
+				"msu-insert-links",
+				"msu-insert-image",
+				"msu-insert-video",
+				"msu-cancel-upload",
+				"msu-continue",
+				"msu-clean-all",
+				"msu-ext-not-allowed",
+				"msu-upload-this",
+				"msu-upload-all",
+				"msu-upload-good",
+				"msu-dropzone",
+				"msu-comment"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "MsUpload"
+	},
+	"Hooks": {
+		"EditPage::showEditForm:initial": "MsUpload\\Hooks::onEditPageShowEditFormInitial"
+	},
+	"config": {
+		"MSU_useDragDrop": true,
+		"MSU_showAutoCat": true,
+		"MSU_checkAutoCat": true,
+		"MSU_useMsLinks": false,
+		"MSU_confirmReplace": true,
+		"MSU_imgParams": "400px",
+		"MSU_uploadsize": "100mb"
+	},
+	"manifest_version": 1
+}

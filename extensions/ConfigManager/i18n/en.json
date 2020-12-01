@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Leonid Verhovskij <verhovskij@hallowelt.com>",
+			"Patric Wirth"
+		]
+	},
+	"configmanager-admintool-label": "Configuration manager",
+	"action-configmanager-viewspecialpage": "view special page \"{{int:configmanager}}\"",
+	"configmanager": "Configuration manager",
+	"configmanager-desc": "Offers the possibility to admins, to configurate the whole wiki from a single special page",
+	"configmanager-discardchanges": "Discard changes?",
+	"configmanager-noentry": "No entry found",
+	"apihelp-configmanager-tasks-summary": "Manage tasks",
+	"apihelp-configmanager-store-summary": "Manage stores",
+	"right-configmanager-viewspecialpage": "Access to the special page [[Special:ConfigManager]]"
+}

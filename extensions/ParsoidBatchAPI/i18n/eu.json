@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikel Ibaiba"
+		]
+	},
+	"apihelp-parsoid-batch-param-batch": "API akzioak eskatzen du (500 geihenez).",
+	"apierror-parsoid-batch-texttoobig": "Testuaren luzeera orrialde batekoa baino gehiagokoa da."
+}

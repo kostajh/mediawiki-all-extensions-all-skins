@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"bs-bookshelfui-manager-title": "Վերնագիր",
+	"bs-bookshelfui-dlg-choosewikipage-title": "Վիքիէջ",
+	"bs-bookshelfui-dlg-choosewikipage-cbxArticleLabel": "Վիքիէջ",
+	"bs-bookshelfui-dlg-copy-title": "Պատճենել \"$1\"",
+	"bs-bookshelfui-dlg-copy-name-addition": "(պատճեն)",
+	"bs-bookshelfui-dlg-choosecategory-label": "Կատեգորիա",
+	"bs-bookshelfui-dlg-type-label": "Աղբյուր",
+	"bs-bookshelfui-bookmetatag-title": "Վերնագիր",
+	"bs-bookshelfui-bookmetatag-subtitle": "Ենթավերնագիր.",
+	"bs-bookshelfui-bookmetatag-author1": "Հեղինակ 1",
+	"bs-bookshelfui-bookmetatag-author2": "Հեղինակ 2",
+	"bs-bookshelfui-bookmetatag-version": "Տարբերակ",
+	"bs-bookshelfui-extjs-tooltip-copy": "Պատճենել",
+	"bs-bookshelfui-prof-defaultview-images": "Պատկերներ",
+	"bs-bookshelfui-chapterpager-previous": "Նախորդ",
+	"bs-bookshelfui-chapterpager-next": "Հաջորդ"
+}

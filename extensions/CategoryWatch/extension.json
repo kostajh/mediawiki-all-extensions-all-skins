@@ -1,0 +1,35 @@
+{
+	"name": "CategoryWatch",
+	"version": "2.0, 2017-09-19",
+	"author": [
+		"[http://www.organicdesign.co.nz/User:Nad User:Nad]",
+		"Sean Chen",
+		"[http://mwstake.org/ Mark A. Hershberger]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:CategoryWatch",
+	"descriptionmsg": "categorywatch-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.27.4"
+	},
+	"AutoloadClasses": {
+		"CategoryWatch\\EchoEventPresentationModel": "src/EchoEventPresentationModel.php",
+		"CategoryWatch\\Hook": "src/Hook.php"
+	},
+	"MessagesDirs": {
+		"CategoryWatch": "i18n"
+	},
+	"DefaultUserOptions": {
+		"echo-subscriptions-email-categorywatch": true,
+		"echo-subscriptions-web-categorywatch": true
+	},
+	"Hooks": {
+		"BeforeCreateEchoEvent": "CategoryWatch\\Hook::onBeforeCreateEchoEvent",
+		"EchoGetBundleRules": "CategoryWatch\\Hook::onEchoGetBundleRules",
+		"CategoryAfterPageAdded": "CategoryWatch\\Hook::onCategoryAfterPageAdded",
+		"CategoryAfterPageRemoved": "CategoryWatch\\Hook::onCategoryAfterPageRemoved",
+		"GetPreferences": "CategoryWatch\\Hook::onGetPreferences"
+	},
+	"manifest_version": 1
+}

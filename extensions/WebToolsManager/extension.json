@@ -1,0 +1,80 @@
+{
+	"name": "WebToolsManager",
+	"url": "https://www.mediawiki.org/wiki/Extension:WebToolsManager",
+	"author": "[https://github.com/mooeypoo Moriel Schottlender]",
+	"version": "1.0.0",
+	"license-name": "GPL-3.0-or-later",
+	"namemsg": "webtoolsmanager-name",
+	"descriptionmsg": "webtoolsmanager-desc",
+	"manifest_version": 2,
+	"MessagesDirs": {
+		"WebToolsManager": [ "i18n" ]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extensions\\WebToolsManager\\": "includes/"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "WebToolsManager/modules"
+	},
+	"ResourceModules": {
+		"ext.webToolsManager.specialPage": {
+			"scripts": [
+				"ext.webToolsManager.specialPage.js"
+			],
+			"messages": [],
+			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-widgets",
+				"mediawiki.htmlform.ooui"
+			]
+		},
+		"ext.webToolsManager.specialPage.styles": {
+			"styles": [
+				"ext.webToolsManager.specialPage.less"
+			]
+		}
+	},
+	"QUnitTestModule": {
+		"localBasePath": "",
+		"remoteExtPath": "WebToolsManager",
+		"scripts": [
+			"tests/WebToolsManager.test.js"
+		],
+		"dependencies": [
+			"ext.webToolsManager.specialPage"
+		]
+	},
+	"SpecialPages": {
+		"WebToolsManager": "MediaWiki\\Extensions\\WebToolsManager\\SpecialWebToolsManager"
+	},
+	"ExtensionMessagesFiles": {
+		"WebToolsManagerAlias": "WebToolsManager.alias.php"
+	},
+	"callback": "MediaWiki\\Extensions\\WebToolsManager\\Hooks::registerExtension",
+	"Hooks": {
+		"BeforePageDisplay": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onBeforePageDisplay" ],
+		"PersonalUrls": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onPersonalUrls" ],
+		"LoadExtensionSchemaUpdates": [ "MediaWiki\\Extensions\\WebToolsManager\\Hooks::onLoadExtensionSchemaUpdates" ]
+	},
+	"config": {
+		"WebToolsManagerAllowGoogleAnalytics": {
+			"value": false
+		}
+	},
+	"ConfigRegistry": {
+		"webtoolsmanager": "GlobalVarConfig::newInstance"
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"webtoolsmanagement": true
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"AvailableRights": [
+		"webtoolsmanagement"
+	],
+	"type": "other"
+}

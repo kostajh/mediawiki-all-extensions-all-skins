@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"LNDDYL",
+			"Mark85296341",
+			"Wrightbus"
+		]
+	},
+	"webchat": "網路聊天室",
+	"webchat-desc": "加入可用即時與其他 Wiki 使用者聊天的[[Special:WebChat|特殊頁面]]",
+	"webchat-header": "此特殊頁面允許您與其他 Wiki 使用者進行即時的協同作業。\n點選 \"連線\" 按鈕即可連線。\n如果您已登入，將會自動使用您的帳號暱稱。\n匿名使用者，則會使用系統自動產生的暱稱，可自行修改。",
+	"action-webchat": "允許使用網路聊天室",
+	"right-webchat": "允許使用[[Special:WebChat|網路聊天室]]"
+}

@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Effeietsanders",
+			"Mainframe98",
+			"Siebrand"
+		]
+	},
+	"duplicator": "Kopieer een pagina",
+	"duplicator-desc": "Onafhankelijke [[Special:Duplicate|kopieën van pagina's]] maken met een volledige bewerkingsgeschiedenis",
+	"duplicator-toolbox": "Kopieer deze pagina",
+	"duplicator-header": "Deze pagina maakt het mogelijk een pagina volledig te kopiëren, waardoor er onafhankelijke\nkopieën ontstaan met een volledige geschiedenis. Dit is handig voor forks, enzovoort.",
+	"duplicator-options": "Opties",
+	"duplicator-source": "Bron:",
+	"duplicator-dest": "Doel:",
+	"duplicator-dotalk": "Kopieer overlegpagina (als van toepassing)",
+	"duplicator-dosubpages": "Subpagina's dupliceren (indien aanwezig)",
+	"duplicator-dohistory": "Volledige paginageschiedenis dupliceren",
+	"duplicator-submit": "Kopiëren",
+	"duplicator-summary": "Gekopieerd van [[$1]], versie [[$2]]",
+	"duplicator-success": "[[$1]] is gekopieerd naar [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|versie|versies}} gekopieerd.",
+	"duplicator-success-talknotcopied": "De overlegpagina kon niet gekopieerd worden.",
+	"duplicator-failed": "De pagina kon niet gekopieerd worden. Er is een onbekende fout opgetreden.",
+	"duplicator-failed-toolong": "[[$1]] is niet gedupliceerd. De titel van de bestemmingspagina is te lang.",
+	"duplicator-failed-dest-exists": "[[$1]] is niet gedupliceerd. De bestemming [[$2]] bestaat al.",
+	"duplicator-source-invalid": "Geef een geldige bronpagina op.",
+	"duplicator-source-notexist": "[[$1]] bestaat niet.\nGeef een pagina op die bestaat.",
+	"duplicator-dest-invalid": "Geef een geldige doelpagina op.",
+	"duplicator-dest-exists": "[[$1]] bestaat al.\nGeeft een doelpagina op die niet bestaat.",
+	"action-duplicate": "pagina's te dupliceren",
+	"right-duplicate": "Pagina's kopiëren"
+}

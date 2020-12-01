@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"maintenanceshell": "Consola de mantemento",
+	"maintenanceshell-desc": "Interface wiki para scripts de mantemento",
+	"right-maintenanceshell": "Executar os scripts de mantemento",
+	"action-maintenanceshell": "executar a consola de mantemento",
+	"maintenanceshell-legend": "Consola de mantemento",
+	"maintenanceshell-text": "<strong>Aviso:</strong> Use estes scripts con coidado. Están destinados unicamente a desenvolvedores.\n* [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Maintenance_scripts Manual:Scripts de mantemento]\n* [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:MaintenanceShell Extension:MaintenanceShell]",
+	"maintenanceshell-return": "Volver a [[{{#special:maintenanceshell}}]].",
+	"maintenanceshell-error-scriptname": "Non se atopou o script.",
+	"maintenanceshell-error-rawsubmit": "Por razóns de seguridade esta páxina precisa que estea activo o JavaScript.",
+	"maintenanceshell-available": "Scripts de mantemento dispoñibles:",
+	"maintenanceshell-field-scriptname": "Nome do script:",
+	"maintenanceshell-field-args": "Opcións de liña de comandos:",
+	"maintenanceshell-field-submit": "Executar o script"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Vito Genovese"
+		]
+	},
+	"smoothgallery": "PürüzsüzGaleri",
+	"smoothgallery-desc": "Kullanıcıların, yüklenmiş görüntüleri içeren galeriler oluşturmalarına izin verir.\nPürüzsüzGaleri seçeneklerinin çoğuna izin verir",
+	"smoothgallery-title": "PürüzsüzGaleri",
+	"smoothgallery-smoothgallerytitle": "PürüzsüzGaleri: $1",
+	"smoothgallery-error": "<b>PürüzsüzGaleri hatası:</b>",
+	"smoothgallery-gallery-not-found": "İstenen galeri mevcut değil.",
+	"smoothgallery-not-found": "Galeriye hiç resim eklenmedi.\nLütfen en az bir resim ekleyin.",
+	"smoothgallery-no-images": "Bu galeride hiç resim bulunamadı.\n{{PLURAL:$3|İstenen fotoğrafın mevcut olduğundan|Tüm fotoğrafların var olduğundan}} emin olun.\nAşağıdaki {{PLURAL:$2|resim|resim}} bulunamadı: $1",
+	"smoothgallery-invalid-images": "Aşağıdaki {{PLURAL:$2|resim|resim}} geçersiz bir türde istedi: $1",
+	"smoothgallery-unexpected-error": "Beklenmeyen bir hata oluştu.\nLütfen bir hata raporu gönderin.",
+	"smoothgallery-javascript-disabled": "Bu galeriyi düzgün bir şekilde görüntülemek için JavaScript gereklidir."
+}

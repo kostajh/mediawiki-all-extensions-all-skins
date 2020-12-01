@@ -1,0 +1,243 @@
+( function () {
+	var NamespacePresets = mw.libs.advancedSearch.ui.NamespacePresets,
+		Model = mw.libs.advancedSearch.dm.SearchModel,
+		sandbox, presetProvider;
+
+	QUnit.module( 'ext.advancedSearch.ui.NamespacePresets' );
+
+	QUnit.testStart( function () {
+		sandbox = sinon.sandbox.create();
+		presetProvider = sinon.createStubInstance( mw.libs.advancedSearch.dm.NamespacePresetProviders );
+		presetProvider.namespaceIdsAreValid.returns( true );
+	} );
+
+	QUnit.testDone( function () {
+		sandbox.restore();
+	} );
+
+	function getDummyCheckbox( selected ) {
+		return {
+			getData: function () { return 'all'; },
+			selected: selected
+		};
+	}
+
+	QUnit.test( 'Passing a provider function creates namespace presets from the provider', function ( assert ) {
+		presetProvider.hasProvider.returns( true );
+		presetProvider.getNamespaceIdsFromProvider.returns( [ '0', '1', '2' ] );
+
+		var presets = new NamespacePresets( new Model(), presetProvider, {
+			presets: {
+				justatest: {
+					enabled: true,
+					provider: 'justatest'
+				}
+			}
+		} );
+
+		assert.deepEqual( [ '0', '1', '2' ], presets.presets.justatest.namespaces );
+	} );
+
+	QUnit.test( 'Passing a nonexisting provider function creates no namespace preset', function ( assert ) {
+		presetProvider.hasProvider.withArgs( 'blackhole' ).returns( false );
+		var warningLogger = sandbox.stub( mw.log, 'warn' );
+		var presets = new NamespacePresets( new Model(), presetProvider, {
+			presets: {
+				blackhole: {
+					enabled: true,
+					provider: 'blackhole'
+				}
+			}
+		} );
+
+		assert.ok( warningLogger.calledWith( 'Provider function blackhole not registered to mw.libs.advancedSearch.dm.NamespacePresetProviders' ) );
+		assert.notOk( Object.prototype.hasOwnProperty.call( presets.presets, 'blackhole' ) );
+	} );
+
+	QUnit.test( 'Passing a malformed preset config creates no namespace preset', function ( assert ) {
+		var warningLogger = sandbox.stub( mw.log, 'warn' );
+		var presets = new NamespacePresets( new Model(), presetProvider, {
+			presets: {
+				borken: {
+					enabled: true
+				}
+			}
+		} );
+
+		assert.ok( warningLogger.calledWith( 'No defined namespaces or provider function for borken in $wgAdvancedSearchNamespacePresets' ) );
+		assert.notOk( Object.prototype.hasOwnProperty.call( presets.presets, 'borken' ) );
+	} );
+
+	QUnit.test( 'Passing a disabled preset config creates no namespace preset', function ( assert ) {
+		var presets = new NamespacePresets( new Model(), presetProvider, {
+			presets: {
+				turnedoff: {
+					enabled: false,
+					namespaces: [ '0', '1', '2' ]
+				}
+			}
+		} );
+
+		assert.notOk( Object.prototype.hasOwnProperty.call( presets.presets, 'turnedoff' ) );
+	} );
+
+	QUnit.test( 'Passing a preset config omitting "enabled" creates no namespace preset', function ( assert ) {
+		var presets = new NamespacePresets( new Model(), presetProvider, {
+			presets: {
+				undecided: {
+					namespaces: [ '2', '4', '6', '8' ]
+				}
+			}
+		} );
+
+		assert.notOk( Object.prototype.hasOwnProperty.call( presets.presets, 'undecided' ) );
+	} );
+
+	QUnit.test( 'Selecting namespace adds its preset', function ( assert ) {
+		var model = new Model(),
+			presets = new NamespacePresets( model, presetProvider, {
+				presets: {
+					all: {
+						enabled: true,
+						namespaces: [ '0', '1', '2' ]
+					}
+				}
+			} );
+		presets.updateStoreFromPresets( getDummyCheckbox( true ) );
+		assert.deepEqual( [ '0', '1', '2' ], model.getNamespaces() );
+	} );
+
+	QUnit.test( 'Presets with empty namespace definitions log a warning', function ( assert ) {
+		var warningLogger = sandbox.stub( mw.log, 'warn' ),
+			model = new Model(),
+			presets = new NamespacePresets( model, presetProvider, {
+				presets: {
+					emptypreset: {
+						enabled: true,
+						namespaces: []
+					}
+				}
+			} );
+
+		assert.notOk( Object.prototype.hasOwnProperty.call( presets.presets, 'emptypreset' ) );
+		assert.ok( warningLogger.calledWith( 'Empty namespaces for emptypreset in $wgAdvancedSearchNamespacePresets' ) );
+	} );
+
+	QUnit.test( 'Presets with invalid namespace definitions log a warning', function ( assert ) {
+		presetProvider.namespaceIdsAreValid.returns( false );
+		var warningLogger = sandbox.stub( mw.log, 'warn' ),
+			model = new Model(),
+			presets = new NamespacePresets( model, presetProvider, {
+				presets: {
+					notvalid: {
+						enabled: true,
+						namespaces: [ '1', '2' ]
+					}
+				}
+			} );
+
+		assert.notOk( Object.prototype.hasOwnProperty.call( presets.presets, 'notvalid' ) );
+		assert.ok( warningLogger.calledWith( 'AdvancedSearch namespace preset "notvalid" contains unknown namespace ID' ) );
+	} );
+
+	QUnit.test( 'Preset is initially selected and stays when adding unrelated values', function ( assert ) {
+		var model = new Model( [ '1', '2' ] ),
+			presets = new NamespacePresets( model, presetProvider, {
+				presets: {
+					oneAndTwo: {
+						enabled: true,
+						namespaces: [ '1', '2' ]
+					}
+				}
+			} );
+		assert.deepEqual( presets.getValue(), [ 'oneAndTwo' ], 'initial selection' );
+		model.setNamespaces( [ '1', '2', '3' ] );
+		assert.deepEqual( presets.getValue(), [ 'oneAndTwo' ], 'added unrelated value' );
+	} );
+
+	QUnit.test( 'Preset is initially selected and stays when removing unrelated values', function ( assert ) {
+		var model = new Model( [ '1', '2', '3' ] ),
+			presets = new NamespacePresets( model, presetProvider, {
+				presets: {
+					oneAndTwo: {
+						enabled: true,
+						namespaces: [ '1', '2' ]
+					}
+				}
+			} );
+		assert.deepEqual( presets.getValue(), [ 'oneAndTwo' ], 'initial selection' );
+		model.setNamespaces( [ '1', '2' ] );
+		assert.deepEqual( presets.getValue(), [ 'oneAndTwo' ], 'removed unrelated value' );
+	} );
+
+	QUnit.test( 'Added namespaces of a preset mark the preset as selected', function ( assert ) {
+		var model = new Model(),
+			presets = new NamespacePresets( model, presetProvider, {
+				presets: {
+					discussions: {
+						enabled: true,
+						namespaces: [ '3', '5', '7', '9', '11', '13', '711' ]
+					},
+					generalHelp: {
+						enabled: true,
+						namespaces: [ '4', '12' ]
+					}
+				}
+			} );
+		model.setNamespaces( [ '4', '12' ] );
+		assert.deepEqual( presets.getValue(), [ 'generalHelp' ] );
+	} );
+
+	QUnit.test( 'Added namespaces of two presets mark both presets as selected', function ( assert ) {
+		var model = new Model(),
+			presets = new NamespacePresets( model, presetProvider, {
+				presets: {
+					discussions: {
+						enabled: true,
+						namespaces: [ '3', '5', '7', '9', '11', '13', '711' ]
+					},
+					generalHelp: {
+						enabled: true,
+						namespaces: [ '4', '12' ]
+					}
+				}
+			} );
+		model.setNamespaces( [ '4', '12', '3', '5', '7', '9', '11', '13', '711' ] );
+		assert.deepEqual( presets.getValue(), [ 'discussions', 'generalHelp' ] );
+	} );
+
+	QUnit.test( 'Unselecting namespace removes its preset', function ( assert ) {
+		var model = new Model(),
+			presets = new NamespacePresets( model, presetProvider, {
+				presets: {
+					all: {
+						enabled: true,
+						namespaces: [ '0', '1', '2' ]
+					}
+				}
+			} );
+		model.setNamespaces( [ '0', '1', '2', '3' ] );
+		presets.updateStoreFromPresets( getDummyCheckbox( false ) );
+		assert.deepEqual( [ '3' ], model.getNamespaces() );
+	} );
+
+	QUnit.test( 'Changing the store namespaces to the preset namespaces, selects preset irrespective of order', function ( assert ) {
+		var model = new Model(),
+			presets = new NamespacePresets( model, presetProvider, {
+				presets: {
+					all: {
+						enabled: true,
+						namespaces: [ '0', '1', '-1200' ]
+					}
+				}
+			} );
+		assert.deepEqual( presets.getValue(), [] );
+		model.setNamespaces( [ '0', '1', '-1200' ] );
+		assert.deepEqual( presets.getValue(), [ 'all' ] );
+		model.setNamespaces( [ '0', '-1200', '1' ] );
+		assert.deepEqual( presets.getValue(), [ 'all' ] );
+		model.setNamespaces( [ '0', '1' ] );
+		assert.deepEqual( presets.getValue(), [] );
+	} );
+
+}() );

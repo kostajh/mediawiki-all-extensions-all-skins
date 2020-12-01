@@ -1,0 +1,196 @@
+{
+	"objects": {
+		"ExtSQI": {
+			"class": "SMWExtSQI",
+			"METHODS": {
+				"__construct": {
+					"parameters": [
+						{ "type": "array", "name": "config", "default": "null" }
+					],
+					"return": "ExtSQI",
+					"desc": "Returns new ExtSQI object"
+				},
+				"from": {
+					"parameters": [
+						{ "type": "string", "name": "page" },
+						{ "type": "bool", "name": "flatResult", "default": "false" }
+					],
+					"return": "ExtSQI",
+					"desc": "Sets query limitation to specified page"
+				},
+				"condition": {
+					"parameters": [
+						{ "type": "nonobject", "name": "condition" },
+						{ "type": "scalar", "name": "conditionValue", "default": "null" }
+					],
+					"return": "ExtSQI",
+					"desc": "Apply some condition to query"
+				},
+				"category": {
+					"parameters": [
+						{ "type": "string", "name": "category" }
+					],
+					"return": "ExtSQI",
+					"desc": "Sets query limitation to category(ies)"
+				},
+				"printout": {
+					"parameters": [
+						{ "type": "nonobject", "name": "printout" }
+					],
+					"return": "ExtSQI",
+					"desc": "Adds property to be fetched and printed out, use * to print out all properties"
+				},
+				"limit": {
+					"parameters": [
+						{ "type": "int", "name": "limit" }
+					],
+					"return": "ExtSQI",
+					"desc": "Set query results limit"
+				},
+				"offset": {
+					"parameters": [
+						{ "type": "int", "name": "offset" }
+					],
+					"return": "ExtSQI",
+					"desc": "Set query results offset"
+				},
+				"count": {
+					"parameters": [],
+					"return": "int",
+					"desc": "Counts query results"
+				},
+				"sort": {
+					"parameters": [
+						{ "type": "string", "name": "sortProperty" },
+						{ "type": "string", "name": "direction", "default": "ASC" }
+					],
+					"return": "ExtSQI",
+					"desc": "Set query sorting subject property"
+				},
+				"toArray": {
+					"parameters": [
+						{ "type": "bool", "name": "stringifyPropValues", "default": "false" }
+					],
+					"return": "array",
+					"desc": "Main method to get query results. Converts raw semantic result to human readable array"
+				}
+			}
+		},
+		"WSemanticData": {
+			"class": "SMWWSemanticData",
+			"STATIC METHODS": {
+				"addValue": {
+					"parameters": [
+						{ "type": "string", "name": "property" },
+						{ "type": "nonobject", "name": "value" }
+					],
+					"desc": "Add a value for a property to the current page. $value can be scalar|null, or an array of scalar|null (which is converted into a record value string)"
+				},
+				"addValues": {
+					"parameters": [
+						{ "type": "array", "name": "valueAssignments" }
+					],
+					"desc": "Add property values to the current page. $valueAssignments should be an array of 'property' => array( value, ... ) entries. Single values can also be given directly instead of in inner arrays, except when using the array format for a record value"
+				},
+				"addSubobject": {
+					"parameters": [
+						{ "type": "array", "name": "valueAssignments" },
+						{ "type": "string", "name": "id", "default": "''" },
+						{ "type": "string", "name": "linkbackProperty", "default": "''" }
+					],
+					"desc": "Add a subobject to the current page. $valueAssignments has the same format as in addValues(). $id can optionally name the subobject. $linkbackProperty can optionally name a property to add with the page name"
+				}
+			}
+		},
+		"WSemanticProperty": {
+			"class": "SMWWSemanticProperty",
+			"STATIC METHODS": {
+				"normalize": {
+					"parameters": [
+						{ "type": "string", "name": "property" }
+					],
+					"return": "string",
+					"desc": "Normalize $property string, making it look good for display"
+				},
+				"findId": {
+					"parameters": [
+						{ "type": "string", "name": "property" }
+					],
+					"return": "string",
+					"desc": "Get property ID (special property ID or page name with underscores) for $property, or empty string if none"
+				},
+				"findName": {
+					"parameters": [
+						{ "type": "string", "name": "property" },
+						{ "type": "bool", "name": "getIdIfNameless", "default": "false" }
+					],
+					"return": "string",
+					"desc": "Get property name (special property label or normalized page name) for $property, or empty string if none"
+				},
+				"getIdForName": {
+					"parameters": [
+						{ "type": "string", "name": "name" }
+					],
+					"return": "string",
+					"desc": "Deprecated - use findId() instead."
+				},
+				"getNameForId": {
+					"parameters": [
+						{ "type": "string", "name": "id" },
+						{ "type": "bool", "name": "getIdIfNameless", "default": "true" }
+					],
+					"return": "string",
+					"desc": "Deprecated - use findName() instead."
+				}
+			}
+		},
+		"WSemanticStats": {
+			"class": "SMWWSemanticStats",
+			"CONSTANTS": {
+				"PROPERTY_VALUES": {
+					"type": "int",
+					"desc": "Number of property instances (value assignments) in the database"
+				},
+				"IMPROPER_VALUES": {
+					"type": "int",
+					"desc": "Number of property values that do not match the type or allowed values for the property"
+				},
+				"PROPERTIES_USED": {
+					"type": "int",
+					"desc": "Number of properties that have been assigned at least one value"
+				},
+				"PROPERTIES_WITH_PAGES": {
+					"type": "int",
+					"desc": "Number of properties with their own page"
+				},
+				"PROPERTIES_ASSIGNED_TYPES": {
+					"type": "int",
+					"desc": "Number of properties that have been declared (i.e. assigned a type)"
+				},
+				"SUBOBJECTS": {
+					"type": "int",
+					"desc": "Number of declared subobjects"
+				},
+				"QUERIES": {
+					"type": "int",
+					"desc": "Number of inline queries (using #ask or #show)"
+				},
+				"CONCEPTS": {
+					"type": "int",
+					"desc": "Number of declared concepts"
+				},
+				"DATATYPES": {
+					"type": "int",
+					"desc": "Number of available datatypes for properties"
+				}
+			}
+		}
+	},
+	"constants": {
+		"SMW_VERSION": {
+			"desc": "The SMW version as a string",
+			"type": "string",
+			"example": "2.1"
+		}
+	}
+}

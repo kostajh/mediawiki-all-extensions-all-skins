@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"bs-notifications-email-edit-subject": "$3 কর্তৃক $4 তারিখে \"$1\" পাতাটি {{GENDER:$2|সম্পাদিত হয়েছে}}",
+	"bs-notifications-email-edit-body": "$4 কর্তৃক $5 তারিখে \"$1\" পাতাটি {{GENDER:$2|সম্পাদিত হয়েছে}}।\n\nমন্তব্য:\n $3",
+	"bs-notifications-edit-difflink-label": "পার্থক্য দেখুন",
+	"bs-notifications-htmlmail-sender-info": "$1 বিজ্ঞপ্তি ব্যবস্থা",
+	"bs-notifications-mail-additional-links-label": "অতিরিক্ত সংযোগ"
+}

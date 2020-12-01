@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "La creazione di account è stata sospesa automaticamente per pochi secondi per ridurre attacchi flood alle registrazioni.\nSi prega di attendere un momento e premere \"ricaricare\" nel tuo browser per inviare di nuovo la richiesta.",
+	"userthrottle-desc": "Rallenta la creazione di utenti"
+}

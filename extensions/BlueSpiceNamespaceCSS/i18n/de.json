@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Purodha",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-namespacecss-desc": "Namensraumspezifisches Aussehen",
+	"bluespicenamespacecssmanager": "Namensraum-CSS-Verwaltung",
+	"bs-namespacecss-specialmanager-label-namespacename": "Namensraum",
+	"bs-namespacecss-specialmanager-label-sourcepage": "Quellseite",
+	"apihelp-bs-namespacecss-store-summary": "Listet Namensräume und ihre mögliche CSS-Quellseite auf. Implementiert „ExtJS Store“-Parameter."
+}

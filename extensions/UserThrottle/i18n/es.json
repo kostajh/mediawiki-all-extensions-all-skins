@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Manuelt15"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "La creación de cuentas ha sido suspendida automáticamente por unos segundos para reducir un desbordamiento de registros.\nPor favor espere un momento y presione 'Recargar' en su navegador para reenviar.",
+	"userthrottle-desc": "Impedir creación de usuario"
+}

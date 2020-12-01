@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"SMP"
+		]
+	},
+	"onlinestatus-desc": "Afegeix una preferència per a mostrar si l'usuari actualment està present al wiki o no ho està",
+	"onlinestatus-js-anon": "Error: cal que tingueu un compte d'usuari per a utilitzar aquesta funció",
+	"onlinestatus-js-changed": "El vostre estat s'ha canviat a «$1»",
+	"onlinestatus-js-error": "Impossible canviar d'estat, el valor «$1» no és vàlid",
+	"onlinestatus-subtitle-offline": "Actualment aquest usuari no està connectat",
+	"onlinestatus-subtitle-online": "Actualment aquest usuari està connectat",
+	"onlinestatus-tab": "Estatus",
+	"onlinestatus-toggles-desc": "El vostre estat:",
+	"onlinestatus-toggles-explain": "Us permet mostrar a la resta d'usuaris si us trobeu connectats al wiki.",
+	"onlinestatus-toggles-show": "Mostra l'estat de connexió a la pàgina d'usuari",
+	"onlinestatus-toggle-offline": "Desconnectat",
+	"onlinestatus-toggle-online": "Connectat",
+	"onlinestatus-pref-onlineonlogin": "Canvia el meu estat a «en línia» en iniciar sessió",
+	"onlinestatus-pref-offlineonlogout": "Canvia el meu estat a «fora de línia» quan finalitzi la sessió"
+}

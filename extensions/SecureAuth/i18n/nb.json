@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"secureauth-desc": "La bruker legge til IP-en som for innlogging. Innlogging fra andre IP-er vil ikke være mulig.",
+	"secureauthinfo": "SecureAuthInfo",
+	"special-secureauth-info": "Sikker autentiseringsinformasjon",
+	"secureauth-info-userinfo": "Brukerinformasjon",
+	"secureauth-current-ip": "Din nåværende innloggings-IP:",
+	"secureauth-whitelist-ip": "IP-er som er hvitelistet for innlogging med ditt brukernavn:",
+	"action-sa-access": "få tilgang til SecureAuthInfo",
+	"right-sa-access": "Har tilgang til [[Special:SecureAuthInfo|SecureAuthInfo]]"
+}

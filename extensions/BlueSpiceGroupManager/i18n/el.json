@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt",
+			"Protnet"
+		]
+	},
+	"bs-groupmanager-desc": "Διεπαφή διαχειριστή για πρόσθεση, επεξεργασία και διαγραφή ομάδων χρηστών και των δικαιωμάτων τους",
+	"bs-groupmanager-grpexists": "Αυτή η ομάδα υπάρχει ήδη.",
+	"bs-groupmanager-grpempty": "Το όνομα της ομάδας δεν μπορεί να είναι άδειο.",
+	"bs-groupmanager-grpadded": "Η ομάδα έχει προστεθεί.",
+	"bs-groupmanager-grpedited": "Η ομάδα έχει επεξεργαστεί.",
+	"bs-groupmanager-grpremoved": "Η ομάδα έχει αφαιρεθεί.",
+	"bs-groupmanager-label": "Διαχειριστής ομάδας",
+	"bs-groupmanager-invalid-name": "Το όνομα ομάδας περιέχει {{PLURAL:$1|έναν|}} μη {{PLURAL:$1|έγκυρο χαρακτήρα|έγκυρους χαρακτήρες}}: $2",
+	"bs-groupmanager-invalid-name-length": "Το όνομα ομάδας δεν μπορεί να είναι μεγαλύτερο από 255 χαρακτήρες.",
+	"bs-groupmanager-invalid-name-numeric": "Το όνομα ομάδας πρέπει να έχει τουλάχιστον ένα χαρακτήρα.",
+	"bs-groupmanager-headergroup": "Ομάδα",
+	"bs-groupmanager-tipremove": "Αφαίρεση {{PLURAL:$1|ομάδα|ομάδων}}",
+	"bs-groupmanager-titlenewgroup": "Νέα ομάδα",
+	"bs-groupmanager-titleeditgroup": "Επεξεργασία ομάδας",
+	"bs-groupmanager-removegroup": "Είστε βέβαιοι ότι θέλετε να καταργήσετε {{PLURAL:$1|αυτή την ομάδα|αυτές τις ομάδες}};",
+	"bs-groupmanager-lablename": "Όνομα ομάδας:",
+	"bs-groupmanager-msgnoteditable": "Αυτή η ομάδα είναι ομάδα του συστήματος και δεν μπορεί να μετονομαστεί.",
+	"log-name-bs-group-manager": "Μητρώο διαχειριστή ομάδας",
+	"groupmanager": "Διαχειριστής ομάδας"
+}

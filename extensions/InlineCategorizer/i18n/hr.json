@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ex13",
+			"Tivek"
+		]
+	},
+	"inlinecategorizer-add-category": "Dodaj kategoriju",
+	"inlinecategorizer-add-category-submit": "Dodaj",
+	"inlinecategorizer-add-category-summary": "Dodaj kategoriju \"$1\"",
+	"inlinecategorizer-api-error": "API je vratio pogrešku: $1: $2.",
+	"inlinecategorizer-api-unknown-error": "API je vratio nepoznatu pogrešku.",
+	"inlinecategorizer-cancel": "Odustani od uređivanja",
+	"inlinecategorizer-cancel-all": "Odustani od svih promjena",
+	"inlinecategorizer-category-already-present": "Ova stranica već spada u kategoriju \"$1\"",
+	"inlinecategorizer-category-hook-error": "Lokalna funkcija je spriječila spremanje promjena.",
+	"inlinecategorizer-category-question": "Zašto želite sljedeće promjene:",
+	"inlinecategorizer-confirm-ok": "U redu",
+	"inlinecategorizer-confirm-save": "Spremi",
+	"inlinecategorizer-confirm-save-all": "Sačuvaj sve promjene",
+	"inlinecategorizer-confirm-title": "Potvrdi radnju",
+	"inlinecategorizer-edit-category-error": "Nije bilo moguće urediti kategoriju \"$1\".\nOvo se obično događa kada je kategorija na stranicu dodana u predlošku.",
+	"inlinecategorizer-edit-category-summary": "Promijeni kategoriju \"$1\" u \"$2\"",
+	"inlinecategorizer-error-title": "Greška",
+	"inlinecategorizer-remove-category-error": "Nije bilo moguće ukloniti kategoriju \"$1\".\nOvo se obično događa kada je kategorija na stranicu dodana u predlošku.",
+	"inlinecategorizer-remove-category-summary": "Ukloni kategoriju \"$1\""
+}

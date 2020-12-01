@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup"
+		]
+	},
+	"pageblock-desc": "Aotren a ra berzañ dre implijer pe dre bajenn",
+	"pageblock": "Berzañ an implijer",
+	"pageblock-legend": "Berzañ an implijer",
+	"pageblock-form-title": "Anv ar bajenn",
+	"pageblock-form-user": "Anv implijer",
+	"pageblock-form-edit": "Berzañ ouzh an implijer da gemmañ traoù",
+	"pageblock-form-sameformove": "Berzañ outañ a adenvel pajennoù ivez",
+	"pageblock-form-move": "Berzañ ouzh an implijer da adenvel pajennoù",
+	"pageblock-form-reason": "Abeg",
+	"pageblock-success": "Bevennet eo gwirioù $1 war $2.",
+	"listrestrictions": "Embann ar berzadennoù",
+	"listrestrictions-legend": "Embann ar berzadennoù",
+	"pageblock-list-title": "Anv ar bajenn",
+	"pageblock-list-user": "Anv implijer",
+	"pageblock-list-indefonly": "Diskouez hepken ar berzadennoù didermen",
+	"pageblock-restricted-edit-indef": "Bezet eo ouzh $1 kemmañ $2 da viken.",
+	"pageblock-restricted-edit": "Berzet ouzh $1 kemmañ $2 betek an $3.",
+	"pageblock-restricted-move-indef": "Berzet ouzh $1 adenvel $2 da viken.",
+	"pageblock-restricted-move": "Berzet eo ouzh $1 adenvel $2 betek an $3.",
+	"pageblock-blocked-edit-indef": "Berzhet eo {{GENDER:$1|ouzhoc'h}} kemmañ $2 da viken.",
+	"pageblock-blocked-edit": "Berzet eo {{GENDER:$1|ouzhoc'h}} kemmañ $2 betek an $3.",
+	"pageblock-blocked-move-indef": "Berzet eo {{GENDER:$1|ouzhoc'h}} adenvel $2 da viken.",
+	"pageblock-blocked-move": "Berzet eo {{GENDER:$1|ouzhoc'h}} adenvel pajennoù betek an $3.",
+	"logentry-restrict-add-edit-move": "{{GENDER:$2|Berzet eo bet}} ouzh $3 kemmañ pe adenvel $4 gant $1.",
+	"logentry-restrict-add-edit": "{{GENDER:$2|Berzet eo bet}} ouzh $3 kemmañ $4 gant $1.",
+	"logentry-restrict-add-move": "{{GENDER:$2|Berzet eo bet}} ouzh $3 adenvel $4 gant $1."
+}

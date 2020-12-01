@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Pmt"
+		]
+	},
+	"pageslist-desc": "Viser en liste over sider",
+	"pageslist": "Sideliste",
+	"pageslistquerypage": "Spørringsside for sideliste",
+	"pageslist-legend": "Sidelistevalg",
+	"pageslist-categories": "Kategori:",
+	"pageslist-title": "Tittel",
+	"pageslist-last-modified": "Sist endret",
+	"pageslist-last-user": "Sist endret av",
+	"pageslist-basepage": "Undersider av (inkluder navnerom):",
+	"apihelp-pageslist-description": "Viser en liste over sider på denne Wikien",
+	"apihelp-pageslist-summary": "Viser en liste over sider på wikien.",
+	"apihelp-pageslist-param-draw": "Verdi for å sikre at responsen matcher forespørselen",
+	"apihelp-pageslist-param-start": "Forskyvning for resultat, 0-basert",
+	"apihelp-pageslist-param-length": "Antall resultater som skal returneres",
+	"apihelp-pageslist-example": "Hent resultat 10–19 fra PagesList"
+}

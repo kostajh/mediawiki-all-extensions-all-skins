@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Melancholie",
+			"Michawiki",
+			"Yekrats"
+		]
+	},
+	"form-desc": "[[Special:From|Formulara interfaco]] por starigi novajn paĝojn",
+	"form": "Formulario",
+	"form-no-name": "Neniu nomo de kamparo",
+	"form-no-name-text": "Vi devas provizi formularan nomon, ekzemple \"Special:Form/NomoDeFormularo\".",
+	"form-bad-name": "Malbona nomo de formularo",
+	"form-bad-name-text": "Ne estas formularo kun tiu nomo.",
+	"form-pattern": "$1-formularo",
+	"form-save": "Konservi",
+	"form-article-exists": "Paĝo ekzistas",
+	"form-article-existstext": "La paĝo [[$1]] jam ekzistas.",
+	"form-bad-page-name": "Fuŝa paĝnomo",
+	"form-required-field-error": "La {{PLURAL:$2|kampo $1 estas deviga|kampoj $1 estas devigaj}} por ĉi tiu formulario.\nBonvolu plenigi {{PLURAL:$2|ĝin|ilin}}.",
+	"form-save-summary": "Nova paĝo uzanta [[Special:Form/$1|la formularon $1]]",
+	"form-save-error": "Eraro konservante formularon",
+	"form-save-error-text": "Estis nekonata eraro konservante paĝon '$1'."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"NGC 54",
+			"Strainu"
+		]
+	},
+	"globalprefs-desc": "Permite utilizatorilor să seteze preferințe globale",
+	"globalprefs-set-local-exception": "Setează o excepție locală pentru această [[Special:GlobalPreferences#$1|preferință globală]].",
+	"tooltip-globalprefs-check-label": "Fă această setare globală",
+	"globalprefs-error-header": "Eroare",
+	"globalpreferences": "Preferințe globale",
+	"globalprefs-info-label": "Preferințe globale:",
+	"globalprefs-info-link": "Setați-vă preferințele globale",
+	"globalprefs-info-help": "Preferințele setate prin intermediul paginii preferințelor globale se vor aplica tuturor wiki-urilor."
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"minimumnamelength-error": "Korisničko ime Vam je prekratko. Treba da ima barem {{PLURAL:$1|jedan karakter|$1 karaktera}}."
+}

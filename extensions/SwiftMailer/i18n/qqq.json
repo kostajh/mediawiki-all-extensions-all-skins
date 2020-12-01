@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tony Thomas"
+		]
+	},
+	"swiftmailer-desc": "{{desc|name=Swift Mailer|url=https://github.com/tonythomas01/SwiftMailer}}",
+	"swiftmailer-smtp-error": "Error shown when SMTP configuration failed with SwiftMailer. $1 - Swift Mailer exception",
+	"swiftmailer-send-error": "Error shown when sending email failed with SwiftMailer. $1 - Swift Mailer exception"
+}

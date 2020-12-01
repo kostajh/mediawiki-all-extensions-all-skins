@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"McDutchie",
+			"Toliño"
+		]
+	},
+	"rt-desc": "Interface da extensión RT (''Request Tracker'')",
+	"rt-inactive": "A extensión RT non está activa",
+	"rt-badquery": "A extensión RT atopou un erro ao conectar coa súa base de datos",
+	"rt-badlimit": "O argumento <code>LIMIT</code> (<code>l</code>) non é válido: debe ser un número.\nVostede intentou: '''$1'''",
+	"rt-badorderby": "O argumento <code>ORDER BY</code> (<code>ob</code>) non é válido: debe ser un campo estándar (vexa a documentación).\nVostede intentou: '''$1'''",
+	"rt-badstatus": "O argumento <code>status</code> (<code>s</code>) non é válido: debe ser un campo estándar (vexa a documentación).\nVostede intentou: '''$1'''",
+	"rt-badcfield": "O argumento do campo personalizado é inválido: debe ser unha palabra simple (véxase a documentación).\nVostede intentou: '''$1'''",
+	"rt-badqueue": "O argumento <code>queue</code> (<code>q</code>) non é válido: debe ser unha palabra simple.\nVostede intentou: '''$1'''",
+	"rt-badowner": "O argumento <code>owner</code> (<code>o</code>) non é válido: debe ser un nome de usuario válido.\nVostede intentou: '''$1'''",
+	"rt-nomatches": "Non se atoparon boletos RT que coincidisen"
+}

@@ -1,0 +1,152 @@
+{
+	"name": "BlueSpiceNSFileRepoConnector",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"author": "[mailto:vogel@hallowelt.com Robert Vogel (Hallo Welt! GmbH)]",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:NSFileRepoConnector",
+	"descriptionmsg": "bs-nsfrc-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"NSFileRepo": ">= 1.27"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceNSFileRepoConnector": {
+					"className": "\\BlueSpice\\NSFileRepoConnector\\Extension",
+					"extPath": "/BlueSpiceNSFileRepoConnector"
+				}
+			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"PluginModules": [
+				"ext.bluespice.NSFRC.uploadDialogIntegration"
+			]
+		}
+	},
+	"ExtensionFunctions": [
+		"NSFileRepoConnectorHooks::setup"
+	],
+	"APIModules": {
+		"bs-nsfilerepo-connector": "BSApiNSFileRepoConnector",
+		"bs-nsfrc-tasks": "BSApiNSFileRepoConnector"
+	},
+	"MessagesDirs": {
+		"NSFileRepoConnector": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\NSFileRepoConnector\\" : "src/"
+	},
+	"AutoloadClasses": {
+		"WebDAVNSFRFilesCollection": "includes/WebDAVNSFRFilesCollection.php",
+		"WebDAVNSFRNamespacesCollection": "includes/WebDAVNSFRNamespacesCollection.php",
+		"WebDAVNSFRFileFile": "includes/WebDAVNSFRFileFile.php",
+		"NSFileRepoConnectorHooks": "includes/NSFileRepoConnectorHooks.php",
+		"NSFileRepoConnectorNamespaceHelper": "includes/NSFileRepoConnectorNamespaceHelper.php",
+		"BSApiNSFileRepoConnector": "includes/api/BSApiNSFileRepoConnector.php",
+		"NSFRCBSExtendedSearchSearchOptionsAssembleSearchOptions": "includes/hooks/NSFRCBSExtendedSearchSearchOptionsAssembleSearchOptions.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.NSFRC": {
+			"scripts": [
+				"ext.bluespice.NSFRC.js"
+			],
+			"dependencies": [
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.NSFRC.insertFile": {
+			"scripts": [
+				"ext.bluespice.NSFRC.insertFile.js"
+			],
+			"dependencies": [
+				"ext.bluespice.NSFRC"
+			],
+			"messages": [
+				"bs-ns_all",
+				"bs-nsfrc-namespacestore-label",
+				"bs-ns_main",
+				"bs-nsfrc-namespacecombo-emptytext",
+				"bs-nsfrc-unprefixedfilename-label"
+			]
+		},
+		"ext.bluespice.NSFRC.insertFile.styles": {
+			"styles": [
+				"ext.bluespice.NSFRC.insertFile.less"
+			],
+			"class": "BlueSpice\\ResourceModule\\LessVars"
+		},
+		"ext.bluespice.NSFRC.multiUpload": {
+			"scripts": [
+				"ext.bluespice.NSFRC.multiUpload.js"
+			],
+			"dependencies": [
+				"ext.bluespice.NSFRC"
+			],
+			"messages": [
+				"bs-ns_all",
+				"bs-nsfrc-namespacestore-label",
+				"bs-ns_main",
+				"bs-nsfrc-namespacecombo-emptytext"
+			]
+		},
+		"ext.bluespice.NSFRC.BS.grid.FileRepo": {
+			"scripts": [
+				"ext.bluespice.NSFRC.fileRepoGrid.js"
+			],
+			"dependencies": [
+				"ext.bluespice.NSFRC"
+			],
+			"messages": [
+				"bs-ns_all",
+				"bs-nsfrc-namespacestore-label",
+				"bs-ns_main",
+				"bs-nsfrc-namespacecombo-emptytext"
+			]
+		},
+		"mediawiki.Title.newFromImg": {
+			"scripts": [
+				"mediawiki.Title.newFromImg.js"
+			],
+			"dependencies": [
+				"mediawiki.Title"
+			]
+		},
+		"ext.bluespice.NSFRC.uploadDialogIntegration": {
+			"scripts": [
+				"bs.nsfrc/ui/plugin/MWMediaDialog.js",
+				"ext.bluespice.NSFRC.uploadDialogIntegration.js"
+			],
+			"dependencies": [
+				"ext.bluespice.NSFRC"
+			],
+			"messages": [
+				"bs-nsfrc-uploaddialog-selector-label"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceNSFileRepoConnector/resources"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "\\BlueSpice\\NSFileRepoConnector\\Hook\\BeforePageDisplay\\AddResources::callback",
+		"BSApiExtJSStoreBaseBeforePostProcessData": "NSFileRepoConnectorHooks::onBSApiExtJSStoreBaseBeforePostProcessData",
+		"BSApiExtJSStoreBaseAfterFilterData": "NSFileRepoConnectorHooks::onBSApiExtJSStoreBaseAfterFilterData",
+		"WebDAVUrlProviderGetUrl": "NSFileRepoConnectorHooks::onWebDAVUrlProviderGetUrl",
+		"MakeGlobalVariablesScript": "NSFileRepoConnectorHooks::onMakeGlobalVariablesScript",
+		"BSUEModulePDFFindFiles": "NSFileRepoConnectorHooks::onBSUEModulePDFFindFiles",
+		"BSImportFilesMakeTitle": "NSFileRepoConnectorHooks::onBSImportFilesMakeTitle",
+		"BSExportFilesBeforeSave": "NSFileRepoConnectorHooks::onBSExportFilesBeforeSave",
+		"BSExtendedSearchSearchOptionsAssembleSearchOptions": "NSFRCBSExtendedSearchSearchOptionsAssembleSearchOptions::handle",
+		"WebDAVGetFilenameFromUrl": "NSFileRepoConnectorHooks::onWebDAVGetFilenameFromUrl"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

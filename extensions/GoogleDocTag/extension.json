@@ -1,0 +1,27 @@
+{
+	"name": "GoogleDocTag",
+	"version": "0.6",
+	"author": [
+		"Reddo",
+		"[https://www.mediawiki.org/wiki/User:Sophivorus Felipe Schenone]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GoogleDocTag",
+	"descriptionmsg": "googledoctag-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"GoogleDocTag": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"GoogleDocTag": "GoogleDocTag.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "GoogleDocTag::setParserHook"
+	},
+	"manifest_version": 2
+}

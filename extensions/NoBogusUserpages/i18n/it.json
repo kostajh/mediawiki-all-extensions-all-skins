@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"nobogususerpages-desc": "Limita la creazione di pagine utente per le quali non esiste un utente",
+	"badaccess-bogususerpage": "L'utente di questa pagina non esiste. Non hai i diritti per creare una falsa pagina utente.",
+	"right-createbogususerpage": "Crea pagine utente per gli utenti che non sono registrati su questo wiki"
+}

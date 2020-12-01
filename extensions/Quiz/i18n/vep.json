@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Игорь Бродский"
+		]
+	},
+	"quiz_legend_correct": "Oikti",
+	"quiz_legend_incorrect": "Värin",
+	"quiz_legend_unanswered": "Ei ole vastust",
+	"quiz_legend_error": "Sintaksine petuz",
+	"quiz_correction": "Oigeta"
+}

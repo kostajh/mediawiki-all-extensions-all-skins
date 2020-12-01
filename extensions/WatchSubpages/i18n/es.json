@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Edomato",
+			"Fluence",
+			"Locos epraix",
+			"Macofe",
+			"MarcoAurelio",
+			"Translationista"
+		]
+	},
+	"watchsubpages": "Vigilar subpáginas",
+	"watchsubpagesprefix": "Mostrar subpáginas de:",
+	"watchsubpages-nochanges": "No se han realizado cambios a tu lista de seguimiento.",
+	"watchsubpages-submit": "Agregar páginas",
+	"tooltip-watchsubpages-submit": "Agregar páginas",
+	"watchsubpages-legend": "Agregar páginas a la lista de seguimiento",
+	"watchsubpages-desc": "Rápidamente [[Special:WatchSubpages|agrega todas las subpáginas]] de una página a la lista de seguimiento",
+	"watchsubpages-explain": "Selecciona las páginas que añadir a tu lista de seguimiento.\nPara agregar una página, marca la casilla junto a esta, y haz clic en \"{{int:watchsubpages-submit}}\".\n\nCuando marques o desmarques múltiples páginas, puedes mantener presionada la tecla Mayús para seleccionar casillas consecutivas haciendo clic al final de cada intervalo que será marcado.",
+	"right-watchsubpages": "Añadir de manera rápida todas las subpáginas de una página dada a tu lista de seguimiento"
+}

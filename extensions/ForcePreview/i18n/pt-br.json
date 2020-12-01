@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Eduardo.mps",
+			555
+		]
+	},
+	"forcepreview": "$1 (use a primeira visualização)",
+	"forcepreview-desc": "Força previsão para utilizadores sem privilégios",
+	"action-forcepreviewexempt": "pode salvar sem usar o mostrar pré-visualização",
+	"right-forcepreviewexempt": "Pode salvar páginas sem mostrar a previsão antes"
+}

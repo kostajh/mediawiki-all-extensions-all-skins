@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danny B.",
+			"Jaroslav Cerny",
+			"Mormegil"
+		]
+	},
+	"loopfunc-desc": "Poskytuje omezenou funkčnost smyček ve wikitextu",
+	"loopfunc_max_loops": "Byl přesažen maximální povolený počet cyklů"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Sujiniku"
+		]
+	},
+	"page-creation-notif-desc": "ページが作成されたら通知メールを送信する",
+	"page-creation-notification": "新しいページが作成されたらメールを受け取る",
+	"page-creation-email-subject": "新しいページ – $3が$2に$1を{{GENDER:$3|作成しました}}",
+	"page-creation-email-body": "親愛なる$1、\n\nこれは{{SITENAME}}からの通知です。\n利用者 $2 が $3 で新しいページ $1 を作成しました。このページは $4 で閲覧できます。\n\nあなたは見ることができます\n$4\n\nそのページのテキストです:\n$5\n\nあなたの親愛なる {{SITENAME}} 通知システム。\n\nEメール通知設定を変更するには、次のリンクを訪問してください。\n{{canonicalurl:{{#special:Preferences}}}}"
+}

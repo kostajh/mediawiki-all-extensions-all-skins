@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"right-urlshortener-manage-url": "Gestiona els URL curts",
+	"urlshortener-action-done": "S’han suprimit o restaurat URL",
+	"urlshortener-blocked": "Els usuaris blocats no poden crear URL curts.",
+	"urlshortener-deleted": "S’ha suprimit aquest URL curt.",
+	"urlshortener-manage-delete-failed": "Ha fallat la supressió de l’URL",
+	"urlshortener-url-input-label": "URL",
+	"log-action-filter-urlshortener-restore": "Restauració d’URL"
+}

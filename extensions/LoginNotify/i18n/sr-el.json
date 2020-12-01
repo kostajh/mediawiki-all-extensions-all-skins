@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Obsuser",
+			"Zoranzoki21"
+		]
+	},
+	"loginnotify-desc": "Obavestite korisnike o sumnjivim prijavama sa nepoznatih uređaja i / ili IP adresa",
+	"echo-category-title-login-fail": "Neuspešni pokušaji prijave",
+	"echo-pref-tooltip-login-fail": "Obaveštava vas kada je bilo neuspešnih pokušaja prijave na vaš nalog.",
+	"notification-loginnotify-login-success-email-subject": "Prijavite se na {{SITENAME}} kao $1 sa računara koji ste nedavno koristili",
+	"notification-header-login-success": "Neko (verovatno Vi) se upravo ulogovao na Vaš nalog sa novog uređaja. Ukoliko ste to Vi, ovu poruku možete zanemariti. Ukoliko to niste Vi, preporučujemo Vam da promenite vašu lozinku, i proverite aktivnost vašeg naloga."
+}

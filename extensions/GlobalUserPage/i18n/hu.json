@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bencemac",
+			"Tacsipacsi"
+		]
+	},
+	"globaluserpage-desc": "Automatikusan megjeleníti a felhasználói lapokat egy központi wikiről",
+	"globaluserpage-editnotice": "Ez a lap jelenleg egy másik wikiről jelenít meg felhasználói lapot. Ha létrehozol itt egy új lapot, nem fog látszani a másik wiki lapja.",
+	"globaluserpage-central-editnotice": "Ez a szerkesztői lap fog [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:GlobalUserPage megjelenni] minden olyan más wikin, ahol nincs helyi szerkesztői lapod.",
+	"globaluserpage-footer": "Az ezen a lapon látható tartalom a(z) [$2 $2] lapról van [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:GlobalUserPage másolva]."
+}

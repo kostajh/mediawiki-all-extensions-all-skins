@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Waki285"
+		]
+	},
+	"bs-social-desc": "social拡張機能のベース拡張機能",
+	"activities": "アクティビティ",
+	"bs-social-prof-datedisplaymode": "日付表示モード",
+	"bs-social-pref-datedisplaymode-mode-age": "年齢として表示",
+	"bs-social-pref-datedisplaymode-mode-mw": "日付として表示",
+	"bs-social-entitytext-header": "[[User:$1|$2]]の発言:",
+	"bs-social-entitytext-header-create": "新規エントリー",
+	"bs-social-var-id": "識別",
+	"bs-social-var-ownerid": "所有者",
+	"bs-social-var-type": "タイプ",
+	"bs-social-var-archived": "アーカイブ済",
+	"bs-social-var-text": "コンテンツ",
+	"bs-social-var-timestampcreated": "作成日",
+	"bs-social-var-timestamptouched": "編集日",
+	"bs-social-option-orderby-label": "並べ替え",
+	"bs-social-option-direction-label": "方向",
+	"bs-social-option-direction-val-asc": "昇順",
+	"bs-social-option-direction-val-desc": "降順",
+	"bs-social-editor-advanced": "アドバンス",
+	"bs-social-editor-ok": "投稿",
+	"bs-social-editor-cancel": "キャンセル",
+	"bs-social-entityactions-label": "操作",
+	"bs-social-entityaction-edit": "編集",
+	"bs-social-entityaction-delete": "削除"
+}

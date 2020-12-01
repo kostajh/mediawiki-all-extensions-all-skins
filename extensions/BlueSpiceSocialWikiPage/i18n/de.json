@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mglaser",
+			"Patric Wirth"
+		]
+	},
+	"bs-socialwikipage-desc": "Wikiseiten-Entität und Funktionalität für BlueSpiceSocial",
+	"bs-socialwikipage-type": "Wikiseite",
+	"bs-socialwikipage-entitywikipage-header-create": "Neuen Anhang erstellen",
+	"bs-socialwikipage-nowikipageentity": "Es wurde noch kein Anhangbereich für diese Seite angelegt",
+	"bs-socialwikipage-noattachmentsadded": "Es wurde noch kein Anhang hinzugefügt",
+	"bs-socialwikipage-stashtype": "Anhangbereich",
+	"bs-socialwikipage-entitystash-header": "[[User:$1|$2]] hinterlegte",
+	"bs-socialwikipage-entitystash-header-create": "Neuer Anhang",
+	"bs-socialwikipage-special-stash-heading": "Anhänge",
+	"bs-socialwikipage-aftercontent-heading": "Anhänge",
+	"wikipagestash": "Ablage",
+	"bs-socialwikipage-var-wikipageid": "Zugeordnete Seite",
+	"bs-socialwikipage-switch-nostash-description": "Der Anhangbereich wird auf dieser Seite nicht angezeigt.",
+	"bs-socialwikipage-stash-insertfiledialog-title": "Datei hinzufügen",
+	"bs-socialwikipage-stash-insertfiledialog-btn-save-label": "Hinzufügen",
+	"bs-socialwikipage-stash-editor-attachedfiles": "Angehängte Dateien",
+	"bs-socialwikipage-stash-editor-attachedfile-delete": "Löschen",
+	"bs-socialwikipage-stash-editor-attachedfile-add": "Hinzufügen",
+	"apihelp-bs-socialstash-tasks-summary": "Stellt Aufgaben für die Bearbeitung von verlinkten Seiten von Entitäten bereit"
+}

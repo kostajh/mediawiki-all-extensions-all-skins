@@ -1,0 +1,44 @@
+.mw-electronpdfservice-selection-body {
+	display: inline-block;
+}
+
+.mw-electronpdfservice-selection-image {
+	/* size of the used svgs */
+	width: 85px;
+	height: 101px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mw-electronpdfservice-selection-label-text {
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 9px;
+}
+
+.mw-electronpdfservice-selection-label-desc {
+	font-size: 12px;
+}
+
+.mw-electronpdfservice-selection-form label {
+	border: 1px solid #c8ccd1;
+	color: #545454;
+	display: table-cell;
+	padding: 15px;
+}
+
+.mw-electronpdfservice-selection-field {
+	padding-left: 20px;
+}
+
+.mw-electronpdfservice-selection-field,
+.mw-electronpdfservice-selection-image {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.mw-electronpdfservice-selection-form .oo-ui-buttonGroupWidget {
+	display: block;
+	margin-top: 15px;
+	text-align: right;
+}

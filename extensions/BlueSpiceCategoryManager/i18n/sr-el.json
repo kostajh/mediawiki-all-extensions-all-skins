@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"bluespicecategorymanager": "Menadžer kategorija",
+	"bluespicecategorymanager-desc": "Vizuelna alatka za upravljanje kategorijama",
+	"action-categorymanager-viewspecialpage": "vidi upravitelja kategorija",
+	"bs-categorymanager-draganddrop-text": "Prevucite i ispustite da biste reorganizovali",
+	"bs-categorymanager-label": "Menadžer kategorija",
+	"bs-categorymanager-dlg-new-title": "Pravljenje kategorija",
+	"bs-categorymanager-dlg-new-prompt": "Molimo unesite ime:",
+	"bs-categorymanager-removecategoryconfirm-text": "Da li ste sigurni da želite da obrišete ovu kategoriju?",
+	"bs-categorymanager-removecategoryconfirm-title": "Ukloni kategoriju",
+	"bs-categorymanager-addcategory-dialog-error-title": "Kreiranje kategorije nije uspelo",
+	"bs-categorymanager-action-show-category": "Prikaži kategoriju",
+	"right-categorymanager-viewspecialpage": "pristup posebnoj stranici [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Dodela kategorija",
+	"bs-categorymanager-collection-var-namespacename": "Imenski prostor",
+	"bs-categorymanager-collection-var-categorizedpages": "Stranice sa kategorijama",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Stranice bez kategorija"
+}

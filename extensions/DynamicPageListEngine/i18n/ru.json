@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Evs",
+			"Megakott"
+		]
+	},
+	"dynamicpagelistengine-desc": "Предоставляет динамические списков страниц с настраиваемыми и расширяемыми функциями для [[mw:Special:MyLanguage/Extension:Scribunto|модулей]] и к другим расширениям",
+	"dple-tracking-category": "Страницы, использующие DynamicPageListEngine",
+	"dple-error-invalid-ns-index": "Ошибка DynamicPageListEngine: нет пространства имён с индексом $1.",
+	"dple-error-no-criteria": "Ошибка DynamicPageListEngine: не указаны критерии выбора.",
+	"dple-error-too-expensive": "Ошибка DynamicPageListEngine: Попытка выполнить ресурсоёмкий запрос с объединением $1 таблиц базы данных, в то время как допускается не более $2.",
+	"dple-error-too-many-expensive-functions": "Ошибка DynamicPageListEngine: слишком много ресурсоёмких функций используется на этой странице."
+}

@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"pageexchange-desc": "Önceden tanımlanmış viki sayfalarının \"paketlerini\" yüklemeye izin verir",
+	"packages": "Paketler",
+	"right-pageexchange": "Sayfa Değişimi eylemlerini çalıştır",
+	"action-pageexchange": "Sayfa Değişimi eylemlerini çalıştır",
+	"pageexchange-logname": "Sayfa Değişimi günlüğü",
+	"pageexchange-logdesc": "Bu, Sayfa Değişimi uzantısına ilişkin işlemlerin günlüğüdür.",
+	"pageexchange-installed": "Kuruldu",
+	"pageexchange-available": "Mevcut",
+	"pageexchange-installpackage": "Paketi kur: $1",
+	"pageexchange-updatepackage": "Güncelleme paketi: $1",
+	"pageexchange-uninstallpackage": "Paketi kaldır: $1",
+	"pageexchange-installpackagelog": "$2 paketini $3 tarafından kuruldu",
+	"pageexchange-updatepackagelog": "$2 paketini $3 tarafından güncellendi",
+	"pageexchange-uninstallpackagelog": "$2 paketini $3 tarafından kaldırıldı",
+	"pageexchange-package-website": "Web sitesi:",
+	"pageexchange-package-publisher": "Yayıncı:",
+	"pageexchange-package-author": "Yazar",
+	"pageexchange-package-version": "Sürüm:",
+	"pageexchange-package-pages": "Sayfalar:",
+	"pageexchange-package-language": "Dil:",
+	"pageexchange-package-requiredextensions": "Gerekli uzantılar:",
+	"pageexchange-package-requiredpackages": "Gerekli paketler:",
+	"pageexchange-package-morerecent": "Bu paketin şu anda bu vikide yüklü olandan daha yeni bir sürümü var.",
+	"pageexchange-package-install": "Yükle",
+	"pageexchange-package-update": "Güncelle",
+	"pageexchange-package-uninstall": "Kaldır",
+	"pageexchange-package-deleteallpages": "İlişkili tüm viki sayfalarını sil",
+	"pageexchange-pagehaschanged": "bu sayfanın en son sürümü yerel kopyadan farklıdır.",
+	"pageexchange-latestvalue": "(en son değer: $1)",
+	"pageexchange-uninstallablepackage": "Bu paket aşağıdaki nedenlerle yüklenemez:",
+	"pageexchange-inappropriatepackage": "Bu paket vikiniz için uygun olmayabilir; aşağıya bakınız.",
+	"pageexchange-packageinstalled": "Bu paket kuruldu.",
+	"pageexchange-packageuninstalled": "Bu paket kaldırıldı.",
+	"pageexchange-packageupdated": "Bu paket güncellendi."
+}

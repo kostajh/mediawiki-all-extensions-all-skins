@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cacycle",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"wiked-diff-desc": "محرك الفرق على طريقة المضمن مع دعم كتلة النقل",
+	"wiked-diff-empty": "(لا فرق)",
+	"wiked-diff-same": "لا فرق بين المراجعات",
+	"wiked-diff-ins": "تم الإدراج",
+	"wiked-diff-del": "تم الحذف",
+	"wiked-diff-block-left": "◀ تم النقل",
+	"wiked-diff-block-right": "تم النقل ◀",
+	"wiked-diff-block-left-nounicode": "< تم النقل",
+	"wiked-diff-block-right-nounicode": "تم النقل >",
+	"wiked-diff-error": "خطأ: إخراج فرق الويكي غير متوافق مع الإصدارات الأصلية!"
+}

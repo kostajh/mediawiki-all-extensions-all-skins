@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"dynamicpagelistengine-desc": "구성 및 확장이 가능한 [[mw:Special:MyLanguage/Extension:Scribunto|모듈]]과 그 외 확장 기능의 동적 문서 목록을 제공합니다",
+	"dple-tracking-category": "DynamicPageListEngine을 사용하는 문서",
+	"dple-error-invalid-ns-index": "DynamicPageListEngine 오류: $1 색인에 이름공간이 없습니다.",
+	"dple-error-no-criteria": "DynamicPageListEngine 오류: 선택 조건이 지정되지 않았습니다."
+}

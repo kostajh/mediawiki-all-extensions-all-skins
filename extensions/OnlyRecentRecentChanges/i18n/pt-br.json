@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent"
+		]
+	},
+	"onlyrecentrecentchanges-desc": "Exibe as páginas na lista de mudanças recentes somente uma vez, quando elas forem alteradas recentemente.",
+	"onlyrecentrecentchanges-option": "Exibe apenas a mudança mais recente de qualquer página alterada (nos limites de ''{{int:prefs-displayrc}}'' como mostrado acima)"
+}

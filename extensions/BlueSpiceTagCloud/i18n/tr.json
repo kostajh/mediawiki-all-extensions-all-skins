@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda"
+		]
+	},
+	"bs-tagcloud-desc": "Çeşitli etiket bulutlarını görüntüler",
+	"bs-tagcloud-error-tagtype": "\"$1\" verilen değeri geçerli bir mağaza değil.",
+	"bs-tagcloud-error-tagrenderer": "\"$1\" verilen değeri geçerli bir oluşturucu değil.",
+	"bs-tagcloud-tag-tagcloud-name": "Etiket bulutu",
+	"bs-tagcloud-tag-tagcloud-title": "Etiket bulutu",
+	"bs-tagcloud-tag-tagcloud-desc": "Kategoriler veya arama terimlerine göre etiket bulutu oluşturur",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Tür",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "Etiket bulutunun nasıl işleneceğini seçin",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Metin",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "Liste",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3B",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "Mağaza",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "Kullanılacak veriyi seçin",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Kategoriler",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Arama terimleri",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Genişlik",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "Etiket bulutunun yüzde cinsinden genişliği",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "Sayacı göster",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "Parantez içindeki öge sayısını görüntüle",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Minimum yazı tipi boyutu",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "En az ögeye sahip girdi için yazı tipi boyutu",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Maksimum yazı tipi boyutu",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "En çok ögeye sahip girdi için yazı tipi boyutu",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Sayfaları hariç tut",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "Bu sayfaları etiket bulutu içinde gösterme. Daha fazla sayfa için virgülle ayrılmış bir liste kullanın, ör. \"Anasayfa, Test, Sayfam\""
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"shibboleth-desc": "Brinda autenticación por medio de Shibboleth y PluggableAuth",
+	"shibboleth-wg-empty-displayname": "La variable de configuración <var>wgShibboleth_DisplayName</var> del archivo LocalSettings.php está vacía",
+	"shibboleth-wg-empty-email": "La variable de configuración <var>wgShibboleth_Email</var> del archivo LocalSettings.php está vacía",
+	"shibboleth-wg-empty-username": "La variable de configuración <var>wgShibboleth_Username</var> del archivo LocalSettings.php está vacía",
+	"shibboleth-wg-empty-groupmap-attr": "La variable de configuración <var>wgShibboleth_GroupMap</var> del archivo LocalSettings.php está vacía",
+	"shibboleth-attr-empty-username": "Shibboleth: no se ha definido el atributo de nombre de usuario",
+	"shibboleth-attr-empty-groupmap-attr": "Shibboleth: no se puede encontrar el atributo GroupMap"
+}

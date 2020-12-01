@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
+	"ffeed-no-feed": "Тізбек анықталмаған.",
+	"ffeed-feed-not-found": "$1 тізбегі табылмады.",
+	"ffeed-sidebar-section": "Таңдаулы контент тізбегі",
+	"ffeed-featured-title": "{{SITENAME}} таңдаулы мақалалар тізбегі",
+	"ffeed-featured-short-title": "Таңдаулы мақалалар",
+	"ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} таңдаулы мақала",
+	"ffeed-good-title": "{{SITENAME}} сайтындағы жақсы мақалалар тізбегі",
+	"ffeed-good-short-title": "Жақсы мақалалар",
+	"ffeed-good-desc": "Жақсы мақалалар {{SITENAME}}",
+	"ffeed-good-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} жақсы мақалалар",
+	"ffeed-onthisday-title": "{{SITENAME}} сайтындағы «Бүгін...» тізбегі",
+	"ffeed-onthisday-short-title": "Бүгін...",
+	"ffeed-onthisday-desc": "Осы күндегі тарихи оқиғалар",
+	"ffeed-onthisday-entry": "Бүгін: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-dyk-title": "{{SITENAME}} сайтындағы «Сіз білесіз бе?» тізбегі",
+	"ffeed-dyk-short-title": "Сіз білесіз бе?",
+	"ffeed-dyk-desc": "{{SITENAME}} сайтындағы ең жаңа контенттерінен",
+	"ffeed-dyk-entry": "Сіз білесіз бе?: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-motd-title": "{{SITENAME}} сайтындағы тәулік медиасы тізбегі",
+	"ffeed-motd-short-title": "Тәулік медиасы",
+	"ffeed-motd-desc": "{{SITENAME}} сайтындағы жақсы медиалардың біразы",
+	"ffeed-potd-title": "{{SITENAME}} сайтындағы тәулік суреті тізбегі",
+	"ffeed-potd-short-title": "Тәулік суреті",
+	"ffeed-potd-desc": "{{SITENAME}} сайттағы жақсы суреттердің біразы",
+	"ffeed-qotd-title": "{{SITENAME}} сайтындағы тәулік дәйексөз тізбегі",
+	"ffeed-qotd-short-title": "Тәулік дәйекөзі",
+	"ffeed-qotd-desc": "{{SITENAME}} сайттағы жақсы дәйексөздердің біразы",
+	"ffeed-featuredtexts-title": "{{SITENAME}} сайтындағы таңдаулы мәтіндер тізбегі",
+	"ffeed-featuredtexts-short-title": "Таңдаулы мәтіндер",
+	"ffeed-featuredtexts-desc": "{{SITENAME}} сайтындағы ұсынуға ең үздік мәтіндер",
+	"ffeed-wotd-title": "Уикисөздіктегі тәулік сөзі",
+	"ffeed-wotd-short-title": "Тәулік сөзі",
+	"ffeed-wotd-desc": "{{SITENAME}} сайтындағы тәулік сөзі"
+}

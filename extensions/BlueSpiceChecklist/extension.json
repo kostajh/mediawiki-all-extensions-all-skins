@@ -1,0 +1,174 @@
+{
+	"name": "BlueSpiceChecklist",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:Checklist",
+	"author": "Markus Glaser",
+	"descriptionmsg": "bs-checklist-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceChecklist": {
+					"className": "\\BlueSpice\\Checklist\\Extension",
+					"extPath": "/BlueSpiceChecklist",
+					"configDefinitions": {
+						"ChecklistMarkAsMinorEdit": "\\BlueSpice\\Checklist\\ConfigDefinition\\MarkAsMinorEdit::getInstance"
+					}
+				}
+			},
+			"PermissionRegistry": {
+				"checklistmodify": {
+					"type": "namespace",
+					"roles": [
+						"author",
+						"bot",
+						"editor",
+						"maintenanceadmin"
+					]
+				}
+			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"TagDefinitions": [
+				"ext.bluespice.checklist.visualEditor"
+			]
+		},
+		"BlueSpiceSMWConnector": {
+			"ExtraPropertyRegistry": {
+				"checklistfields": "\\BlueSpice\\Checklist\\ChecklistPropertyValueProvider::factory"
+			}
+		}
+	},
+	"GroupPermissions": {
+		"*": {
+			"checklistmodify": false
+		},
+		"user": {
+			"checklistmodify": true
+		},
+		"sysop": {
+			"checklistmodify": true
+		}
+	},
+	"AvailableRights": [
+		"checklistmodify"
+	],
+	"LogTypes": [
+		"bs-checklist"
+	],
+	"FilterLogTypes": {
+		"bs-checklist": true
+	},
+	"LogActionsHandlers": {
+		"bs-checklist/*": "LogFormatter"
+	},
+	"APIModules": {
+		"bs-checklist-available-options-store": "BSApiChecklistAvailableOptionsStore",
+		"bs-checklist-template-store": "BSApiChecklistTemplateStore",
+		"bs-checklist-tasks": "BSApiChecklistTasks"
+	},
+	"MessagesDirs": {
+		"Checklist": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Checklist\\" : "src/"
+	},
+	"AutoloadClasses": {
+		"BSApiChecklistAvailableOptionsStore": "includes/api/BSApiChecklistAvailableOptionsStore.php",
+		"BSApiChecklistTemplateStore": "includes/api/BSApiChecklistTemplateStore.php",
+		"BSApiChecklistTasks": "includes/api/BSApiChecklistTasks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "\\BlueSpice\\Checklist\\Extension::onParserFirstCallInit",
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\Checklist\\Hook\\BSInsertMagicAjaxGetData\\AddChecklistTag::callback",
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\Checklist\\Hook\\BSUsageTrackerRegisterCollectors\\AddChecklistTag::callback",
+		"ListDefinedTags": "\\BlueSpice\\Checklist\\Hook\\ListDefinedTags\\AddChecklistTag::callback",
+		"ChangeTagsListActive": "\\BlueSpice\\Checklist\\Hook\\ChangeTagsListActive\\AddChecklistTag::callback"
+	},
+	"ResourceModules": {
+		"ext.bluespice.checklist": {
+			"scripts": [
+				"bluespice.checklist.js"
+			],
+			"messages": [
+				"bs-checklist-button-checkbox-title",
+				"bs-checklist-menu-insert-list-title",
+				"bs-checklist-menu-insert-checkbox",
+				"bs-checklist-menu-insert-no-list-loaded",
+				"bs-checklist-dlg-insert-list-title",
+				"bs-checklist-dlg-insert-list-value-list",
+				"bs-checklist-dlg-new-list",
+				"bs-checklist-dlg-save-list",
+				"bs-checklist-dlg-items-label",
+				"bs-checklist-dlg-items-emptytext",
+				"bs-checklist-dlg-items-hint",
+				"bs-checklist-dlg-panel-title",
+				"bs-checklist-dlg-new-title",
+				"bs-checklist-dlg-new-prompt",
+				"bs-checklist-alert",
+				"bs-checklist-confirm-dirty-title",
+				"bs-checklist-confirm-dirty-text"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			]
+		},
+		"ext.bluespice.checklist.visualEditor": {
+			"scripts": [
+				"bs.chklst/util/tag/ChecklistDefinition.js",
+				"bs.chklst/ui/widget/ChecklistInputWidget.js",
+				"bs.chklst/ui/widget/ChecklistOptionsInputWidget.js"
+			],
+			"messages": [
+				"bs-checklist-ve-checklistinspector-title",
+				"bs-checklist-tag-checklist-desc",
+				"bs-checklist-ve-checklistinspector-cb-checked",
+				"bs-checklist-tag-checklist-tab-checkbox",
+				"bs-checklist-tag-checklist-tab-list",
+				"bs-checklist-tag-checklist-attr-checked-help",
+				"bs-checklist-tag-checklist-attr-list-label",
+				"bs-checklist-tag-checklist-attr-list-help",
+				"bs-checklist-tag-checklist-attr-value-label",
+				"bs-checklist-tag-checklist-attr-value-help"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			]
+		},
+		"ext.bluespice.checklist.view": {
+			"scripts": [
+				"bluespice.checklist.js"
+			],
+			"messages": [
+				"bs-checklist-button-checkbox-title",
+				"bs-checklist-menu-insert-list-title",
+				"bs-checklist-menu-insert-checkbox",
+				"bs-checklist-alert",
+				"bs-checklist-confirm-dirty-title",
+				"bs-checklist-confirm-dirty-text"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceChecklist/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"ChecklistMarkAsMinorEdit": {
+			"value": true,
+			"descriptionmsg": "bs-checklist-config-markasminoredit",
+			"public": true
+		}
+	},
+	"manifest_version": 2
+}

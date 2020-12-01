@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Max20091",
+			"Minh Nguyen",
+			"Nguyên Lê",
+			"Trần Nguyễn Minh Huy",
+			"Vinhtantran"
+		]
+	},
+	"betafeatures-auto-enroll": "Tự động bật lên hầu hết tính năng beta mới",
+	"betafeatures-auto-enroll-help": "Một số tính năng beta sẽ có những thay đổi đột ngột, do đó {{GENDER:|bạn}} phải tự kích hoạt chúng.",
+	"betafeatures-desc": "Cho phép người dùng bật hay tắt các tính năng wiki chưa ổn định",
+	"betafeatures-extension-type": "Tính năng beta",
+	"betafeatures-section-desc": "Đây có {{PLURAL:$1|một tính năng|những tính năng}} mới mà chúng tôi đang phát triển cho {{SITENAME}}. Xin vui lòng thử {{PLURAL:$1|nó|chúng}} và gửi cho chúng tôi những ý kiến của bạn để giúp chúng tôi cải thiện {{PLURAL:$1|nó|chúng}}.",
+	"betafeatures-toplink": "Beta",
+	"betafeatures-feature-autoenrolled": "Tính năng được tự động bật",
+	"mw-ui-feature-discuss": "Thảo luận",
+	"mw-ui-feature-info": "Thông tin",
+	"mw-ui-feature-requirements-betafeatures": "Tính năng này cần {{PLURAL:$1|tính năng|các tính năng}} sau được kích hoạt:",
+	"mw-ui-feature-requirements-browser": "{{PLURAL:$1|Trình duyệt|Các trình duyệt}} sau không được hỗ trợ:",
+	"mw-ui-feature-requirements-javascript": "Tính năng này cần JavaScript.",
+	"mw-ui-feature-requirements-skins": "Tính năng này chỉ tương thích với {{PLURAL:$1|giao diện|các giao diện}} sau:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Một người dùng đang|$1 người dùng đang|0=Hiện không có ai}} thử tính năng này.",
+	"prefs-betafeatures": "Tính năng beta",
+	"tooltip-pt-betafeatures": "Tính năng beta"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"Toliño",
+			"Xosé"
+		]
+	},
+	"patrol": "Patrullar edicións",
+	"patrol-desc": "Realzado da interface de patrulla coa parte que toca da cantidade de traballo",
+	"patrol-endorse": "Apoiar",
+	"patrol-revert": "Reverter",
+	"patrol-revert-reason": "Motivo:",
+	"patrol-skip": "Saltar",
+	"patrol-reverting": "Revertendo: $1",
+	"patrol-nonefound": "Non se atoparon edicións adecuadas para patrullar.",
+	"patrol-endorsed-ok": "Marcouse esta edición como patrullada.",
+	"patrol-endorsed-failed": "Non se puido marcar a edición como patrullada.",
+	"patrol-reverted-ok": "Desfíxose esta edición.",
+	"patrol-reverted-failed": "Non se puido desfacer esta edición.",
+	"patrol-skipped-ok": "Ignórase a edición.",
+	"patrol-reasons": "* Simple vandalismo\n* Probas de novato\n* Ver a páxina de conversa",
+	"patrol-another": "Mostrar outra edición, se existe.",
+	"patrol-stopped": "Optou por non patrullar outra edición. $1",
+	"patrol-resume": "Prema aquí para continuar.",
+	"group-patroller": "Patrulleiros",
+	"group-patroller-member": "{{GENDER:$1|patrulleiro|patrulleira}}",
+	"grouppage-patroller": "{{ns:project}}:Patrulleiro",
+	"right-patroller": "Patrullar páxinas"
+}

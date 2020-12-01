@@ -1,0 +1,144 @@
+@import "variables.less";
+
+/* Extra stuff mobile doesn't need */
+.sitesubtitle,
+.p-logo,
+#content-header ul li#ca-view,
+#header-navigation .navigation,
+#header-navigation .navigation-tools,
+#footer-banner {
+	display: none;
+}
+
+#header-navigation-container {
+	border-bottom: none;
+}
+
+#header-navigation {
+	padding: 0;
+}
+
+/* misc */
+#content-header {
+	border-bottom: none;
+}
+
+#content {
+	overflow: auto;
+}
+
+#p-personal-extra {
+	margin: 1em 1.25em 0 1em;
+}
+
+/* Full-width search */
+#header-container #p-search {
+	float: none;
+}
+
+#searchInput-container-container {
+	margin-right: -7em;
+	width: 100%;
+	display: inline-block;
+}
+
+#searchInput-container {
+	margin-right: 7em;
+}
+
+#header-container #p-search #searchInput {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#searchGoButton {
+	width: 6em;
+	float: right;
+}
+
+/* Full-width thumbnails */
+div.thumb {
+	float: none;
+}
+
+.thumb {
+	width: 100%;
+	margin: 1em auto;
+}
+
+.tright {
+	margin-left: 0;
+
+	.thumbinner {
+		padding-left: 0;
+	}
+}
+
+.tleft {
+	margin-right: 0;
+
+	.thumbinner {
+		padding-right: 0;
+	}
+}
+
+.thumbinner {
+	width: 100% !important;
+}
+
+.thumbimage {
+	display: block;
+	margin: 0 auto 0.5em;
+}
+
+/* Keep images from overflowing */
+#content a > img {
+	height: auto !important;
+	max-width: 100% !important;
+}
+
+/* Table of contents */
+#toc,
+.toc,
+.mw-warning {
+	width: 100%;
+}
+
+/* Mobile float cleanup */
+.mobileClear,
+#content-header .mobileClear {
+	display: block;
+	clear: both;
+}
+
+/* Footer links and icons */
+#footer #f-list li#lastmod {
+	display: block;
+	margin-bottom: 1em;
+}
+
+#footer .footer-icons {
+	float: none;
+	display: inline;
+}
+
+#f-list {
+	font-size: 100%;
+}
+
+/* Footer */
+#footer-navigation {
+	font-size: 100%;
+}
+
+#footer-navigation .mw-portlet {
+	float: none;
+	padding: 1em 0 1.5em;
+	border-bottom: solid 1px @bold-border;
+}
+
+#footer-navigation .p-body ul {
+	columns: 12em 2;
+	-moz-columns: 12em 2;
+	-webkit-columns: 12em 2;
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Luky001"
+		]
+	},
+	"form-desc": "[[Special:Form|Formulárové rozhranie]] na zakladanie nových stránok",
+	"form": "Založiť novú stránku",
+	"form-no-name": "Nezadali ste názov formulára",
+	"form-no-name-text": "Musíte zadať názov formulára v tvare „Special:Form/Názovformulára“",
+	"form-bad-name": "Chybný názov formulára",
+	"form-bad-name-text": "Formulár s takým názvom neexistuje.",
+	"form-pattern": "formulár-$1",
+	"form-save": "Uložiť",
+	"form-index-mismatch-title": "Vzor názvu a šablóna si nezodpovedajú.",
+	"form-index-mismatch": "Vzory názvu tohto formulára sa nezhodujú a šablóny začínajú od indexu $1.",
+	"form-article-exists": "Stránka existuje",
+	"form-article-existstext": "Stránka [[$1]] už existuje.",
+	"form-bad-page-name": "Chybný názov stránky",
+	"form-bad-page-name-text": "Údaje formulára, ktoré ste zadali tvoria chybný názov stránky - „$1“.",
+	"form-required-field-error": "Tento formulár vyžaduje vyplnenie {{PLURAL:$2|poľa $1|polí $1}}. Prosím, vyplňte {{PLURAL:$2|ho|ich}}.",
+	"form-save-summary": "Nová stránka pomocou [[Special:Form/$1|formulára $1]]",
+	"form-save-error": "Chyba pri ukladaní formulára",
+	"form-save-error-text": "Pri ukladaní formulára sa vyskytla neznáma chyba „$1“."
+}

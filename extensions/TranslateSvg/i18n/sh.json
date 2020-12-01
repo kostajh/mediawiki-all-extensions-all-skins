@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Conquistador",
+			"Vlad5250"
+		]
+	},
+	"translate-svg-thumbnail": "Izvorna datoteka",
+	"translate-svg-js-thumbnail": "(minijatura podnovlja se sama)",
+	"translate-page-description-legend-svgmg": "Informacije o datoteci",
+	"translate-taction-mstats-svgmg": "Datotečne statistike",
+	"translate-taction-export-svgmg": "Postavi novu verziju datoteke",
+	"translate-svg-filepage-edit": "uredi",
+	"translate-svg-filepage-another": "drugi jezik",
+	"translate-svg-filepage-other": "drugi jezici",
+	"translate-svg-filepage-invite": "Ova datoteka može lako da se prevede na $1",
+	"translate-svg-autocreate": "Automatsko stvaranje prevodnih jedinica uskladno izmjenama na izvornu datoteku",
+	"translate-svg-autodelete": "Automatsko brisanje nepotrebnih prevodnih jedinica uskladno izmjenama na izvornu datoteku",
+	"translate-svg-autoedit": "Automatska podnova prijevodâ uskladno izmjenama na izvornu datoteku",
+	"translate-svg-upload-comment": "Podnova prijevodâ (prvobitno: $1; modificirano/prošireno: $2)",
+	"translate-svg-upload-none": "(nema)",
+	"translate-svg-new-label": "Jezik:",
+	"translate-js-properties-legend": "Svojstva"
+}

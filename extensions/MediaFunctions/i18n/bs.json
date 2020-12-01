@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"mediafunctions-desc": "Parserske funkcije za dobivanje informacija o medijskim datotekama",
+	"mediafunctions-invalid-title": "\"$1\" nije valjan naslov",
+	"mediafunctions-not-exist": "\"$1\" ne postoji"
+}

@@ -1,0 +1,111 @@
+{
+	"name": "DynamicPageListEngine",
+	"version": "1.1.0-rc1",
+	"type": "other",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:RV1971 RV1971]"
+	],
+	"descriptionmsg": "dynamicpagelistengine-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:DynamicPageListEngine",
+	"license-name": "GPL-3.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.30.0"
+	},
+	"AutoloadClasses": {
+		"DynamicPageListEngine": "includes/DynamicPageListEngine.php",
+		"DpleFeatureBase": "includes/DpleFeatureBase.php",
+		"DpleFeatureInterface": "includes/DpleFeatureInterface.php",
+		"DpleFeatureCategory": "includes/DpleFeatureCategory.php",
+		"DpleFeatureCheck": "includes/DpleFeatureCheck.php",
+		"DpleFeatureContains": "includes/DpleFeatureContains.php",
+		"DpleFeatureCount": "includes/DpleFeatureCount.php",
+		"DpleFeatureExtra": "includes/DpleFeatureExtra.php",
+		"DpleFeatureExtrax": "includes/DpleFeatureExtrax.php",
+		"DpleFeatureImagecontainer": "includes/DpleFeatureImagecontainer.php",
+		"DpleFeatureImageused": "includes/DpleFeatureImageused.php",
+		"DpleFeatureLinksBase": "includes/DpleFeatureLinksBase.php",
+		"DpleFeatureLinksto": "includes/DpleFeatureLinksto.php",
+		"DpleFeatureLinksfrom": "includes/DpleFeatureLinksfrom.php",
+		"DpleFeatureNamespace": "includes/DpleFeatureNamespace.php",
+		"DpleFeatureOrder": "includes/DpleFeatureOrder.php",
+		"DpleFeatureRedirects": "includes/DpleFeatureRedirects.php",
+		"DpleFeatureRedirectsto": "includes/DpleFeatureRedirectsto.php",
+		"DpleFeatureResults": "includes/DpleFeatureResults.php",
+		"DpleFeatureSubpages": "includes/DpleFeatureSubpages.php",
+		"DpleFeatureTitlematch": "includes/DpleFeatureTitlematch.php",
+		"DpleFeatureUser": "includes/DpleFeatureUser.php",
+		"DpleFeatureUses": "includes/DpleFeatureUses.php",
+		"DpleFeatureUsedby": "includes/DpleFeatureUsedby.php",
+		"DpleQuery": "includes/DpleQuery.php",
+		"DpleUtils": "includes/DpleUtils.php",
+		"Scribunto_LuaDynamicPageListEngineLibrary": "includes/Scribunto_LuaDynamicPageListEngineLibrary.php"
+	},
+	"Hooks": {
+		"ScribuntoExternalLibraries": "Scribunto_LuaDynamicPageListEngineLibrary::onScribuntoExternalLibraries"
+	},
+	"MessagesDirs": {
+		"DynamicPageListEngine": [
+			"i18n"
+		]
+	},
+	"config": {
+		"DpleMaxCost": {
+			"description": "Maxiumum cost of a dynamic page list in terms of database load. Default null means that it is set to the corresponding value for [Extension:DynamicPageList](https://www.mediawiki.org/wiki/Extension:DynamicPageList_(Wikimedia%29#Setup)",
+			"value": null
+		},
+		"DpleMaxResultCount": {
+			"description": "Maxiumum number of records to fetch. Default NULL means that it is set to the corresponding value for [Extension:DynamicPageList](https://www.mediawiki.org/wiki/Extension:DynamicPageList_(Wikimedia%29#Setup)",
+			"value": null
+		},
+		"DpleFeatures": {
+			"description": "Which features to enable",
+			"value": {
+				"DpleFeatureNamespace": true,
+				"DpleFeatureCategory": true,
+				"DpleFeatureRedirects": true,
+				"DpleFeatureTitlematch": false,
+				"DpleFeatureSubpages": false,
+				"DpleFeatureLinksto": false,
+				"DpleFeatureLinksfrom": false,
+				"DpleFeatureRedirectsto": false,
+				"DpleFeatureUses": false,
+				"DpleFeatureUsedby": false,
+				"DpleFeatureImageused": false,
+				"DpleFeatureImagecontainer": false,
+				"DpleFeatureContains": false,
+				"DpleFeatureExtra": false,
+				"DpleFeatureUser": false,
+				"DpleFeatureCount": true,
+				"DpleFeatureOrder": true,
+				"DpleFeatureCheck": true,
+				"DpleFeatureResults": true
+			}
+		},
+		"DpleCondCostMap": {
+			"description": "Cost of conditions in terms of database load. A unit of 1 should correspond to an efficient table join. You can tune this map to reflect the real cost on your particular installation and/or prevent users from excessive use of certain features. Any conditions not mentioned in this map are assigned a cost of 0.",
+			"value": {
+				"DpleFeatureNamespace": -0.2,
+				"DpleFeatureCategory": 1,
+				"DpleFeatureTitlematch": 0.3,
+				"DpleFeatureLinksto": 1,
+				"DpleFeatureLinksfrom": 1.3,
+				"DpleFeatureUses": 1,
+				"DpleFeatureUsedby": 1.3,
+				"DpleFeatureImageused": 1,
+				"DpleFeatureImagecontainer": 1.3,
+				"DpleFeatureContains": 1.3,
+				"DpleFeatureExtra": 0.3,
+				"DpleFeatureUser": 1,
+				"DpleFeatureUserExpensive": 2
+			}
+		},
+		"DpleOrderCostMap": {
+			"description": "Cost of order methods in terms of database load. Any order methods not mentioned in this map are assigned a cost of 0.",
+			"value": {
+				"categorysortkey": 0.1,
+				"title": 0.1
+			}
+		}
+	},
+	"manifest_version": 2
+}

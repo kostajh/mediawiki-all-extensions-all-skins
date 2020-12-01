@@ -1,0 +1,42 @@
+{
+	"aggregate": [
+		{
+			"property": "namespacename",
+			"type": "string",
+			"targets": [
+				"assignedpages",
+				"assignedpagesaggregated",
+				"unassignedpages",
+				"unassignedpagesaggregated"
+			]
+		}
+	],
+	"filter": [
+		{
+			"property": "type",
+			"type": "string",
+			"value": "assignedpages",
+			"comparison": "eq"
+		},
+		{
+			"property": "timestampcreated",
+			"type": "date",
+			"value": "20200902020000",
+			"comparison": "gt"
+		}
+	],
+	"sort": [
+		{
+			"property": "assignedpages",
+			"direction": "ASC"
+		},
+		{
+			"property": "unassignedpages",
+			"direction": "ASC"
+		},
+		{
+			"property": "timestampcreated",
+			"direction": "ASC"
+		}
+	]
+}

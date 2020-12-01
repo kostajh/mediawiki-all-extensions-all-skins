@@ -1,0 +1,7 @@
+.svn
+*~
+.*.swp
+.indexed
+node_modules/
+vendor/
+composer.lock

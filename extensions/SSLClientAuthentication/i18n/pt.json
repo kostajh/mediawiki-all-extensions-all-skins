@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"sslauth-desc": "Permite que os utilizadores carreguem certificados SSL para serem usados na autenticação",
+	"sslauth-title-enable": "Ativar a autenticação de clientes por SSL",
+	"sslauth-title-disable": "Desativar a autenticação de clientes por SSL",
+	"sslauth-enable": "Ativar",
+	"sslauth-disable": "Desativar",
+	"sslauth-cn": "Nome comum",
+	"sslauth-email": "Correio eletrónico",
+	"sslauth-serial": "Número de série",
+	"sslauth-response-enable": "A autenticação por SSL foi ativada. Agora, quando se ligar à wiki {{SITENAME}} por HTTPS com o seu certificado de cliente, a sua sessão será iniciada automaticamente.",
+	"sslauth-response-disable": "A autenticação por SSL foi desativada.",
+	"sslauth-invalidrequest-title": "Pedido inválido",
+	"sslauth-invalidrequest": "Para esta página ser útil tem de ser fornecido um certificado de cliente SSL válido.",
+	"clientssl-legend": "Autenticação por SSL",
+	"clientssl-text": "Use esta página para ativar ou desativar a autenticação com certificados de cliente SSL.",
+	"sslauth-prefs-name": "Autenticação por SSL",
+	"sslauth-prefs-linktospecial": "Ativar ou desativar certificados de cliente"
+}

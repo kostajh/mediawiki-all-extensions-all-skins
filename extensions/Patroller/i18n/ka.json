@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alsandro",
+			"BRUTE",
+			"David1010",
+			"Malafaya"
+		]
+	},
+	"patrol-revert": "დაბრუნება",
+	"patrol-revert-reason": "მიზეზი:",
+	"patrol-skip": "გამოტოვება",
+	"patrol-reverting": "დაბრუნება: $1",
+	"patrol-skipped-ok": "რედაქტირების იგნორირება.",
+	"patrol-reasons": "* უბრალო ვანდალიზმი\n* ახალბედის ტესტი\n* იხილეთ განხილვის გვერდი",
+	"group-patroller": "პატრულები",
+	"group-patroller-member": "{{GENDER:$1|პატრული}}",
+	"grouppage-patroller": "{{ns:project}}:პატრული",
+	"right-patroller": "გვერდების პატრულირება"
+}

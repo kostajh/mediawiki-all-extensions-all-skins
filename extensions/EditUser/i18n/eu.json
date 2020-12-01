@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"An13sa",
+			"Kobazulo",
+			"Xabier Armendaritz"
+		]
+	},
+	"edituser": "Erabiltzailea editatu",
+	"edituser-desc": "Pribilegiatutako erabiltzaileak beste erabiltzaileen hobespenak editatzea baimentzen du",
+	"edituser-username": "Erabiltzaile izena:",
+	"edituser-dosearch": "Bilatu",
+	"edituser-nouser": "«$1» erabiltzailea ez da existitzen.",
+	"edituser-exempt": "\"$1\" erabiltzailea ezin da editatu.",
+	"right-edituser": "Beste erabiltzaileen hobespenak editatu",
+	"right-edituser-exempt": "Besteek ezin dute erabiltzaile honen hobespenak editatu"
+}

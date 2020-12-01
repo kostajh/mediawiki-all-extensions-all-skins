@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby"
+		]
+	},
+	"contributors": "Auteuren",
+	"contributors-desc": "Faast d'Haaptkontributeure vun enger Säit zesummen",
+	"contributors-toolbox": "Auteure vun der Säit",
+	"contributors-legend": "Weist d'Haaptauteure vun enger Säit",
+	"contributors-target": "Titel:",
+	"contributors-submit": "Weisen",
+	"contributors-subtitle": "Haaptauteure vun $1",
+	"contributors-others-long": "Donieft gëtt et nach $1 {{PLURAL:$1|aneren Auteur den|aner Auteuren déi}} un dëser Säit matgeschafft {{PLURAL:$1|huet|hunn}}",
+	"contributors-others": "a(n) $1 {{PLURAL:$1|aneren|anerer}}",
+	"contributors-badtitle": "Dës Säit gëtt et net.",
+	"contributors-nosuchpage": "D'Säit $1 gëtt et net.",
+	"contributors-filterip": "IP-Adresse verstoppen",
+	"contributors-name": "Benotzernumm",
+	"contributors-revisions": "Zuel vun de Versiounen",
+	"contributors-first-edit": "Datum vun der éischter Ännerung",
+	"contributors-last-edit": "Datum vun der leschter Ännerung",
+	"contributors-add-subpages": "Ënnersäit dobäisetzen"
+}

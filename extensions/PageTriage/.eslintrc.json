@@ -1,0 +1,27 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"env": {
+		"commonjs": true
+	},
+	"globals": {
+		"Backbone": false,
+		"_": false,
+		"mediaWiki": false,
+		"jQuery": false
+	},
+	"rules": {
+		"max-len": "off",
+		"no-jquery/no-global-selector": "off",
+		"no-jquery/no-class-state": "off",
+		"no-jquery/no-sizzle": "off",
+		"no-jquery/variable-pattern": "off",
+		"no-shadow": "warn",
+		"no-unreachable-loop": "warn",
+		"mediawiki/msg-doc": "warn"
+	}
+}

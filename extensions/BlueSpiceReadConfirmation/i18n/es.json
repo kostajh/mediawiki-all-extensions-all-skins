@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Canaan9801",
+			"Fitoschido",
+			"Madamebiblio"
+		]
+	},
+	"bs-readconfirmation-column-read-at": "Leída el",
+	"bs-readconfirmation-not-read": "no leída",
+	"bs-readconfirmation-action-remind": "Pedir confirmación de lectura",
+	"bs-readconfirmation-action-remind-confirm": "¿Pedir confirmación de lectura?",
+	"bs-readconfirmation-confirm-read-heading": "Confirmación de lectura",
+	"bs-readconfirmation-confirm-read-button-label": "Confirmar",
+	"bs-readconfirmation-action-apiread-check-description": "Verficar la confirmación de lectura para $1",
+	"bs-readconfirmation-action-apiread-confirm-description": "Marcar $1 como leído",
+	"bs-readconfirmation-action-apiread-remind-description": "Pedir confirmación de lectura para $1",
+	"bs-readconfirmation-api-error-cant-confirm": "No se puede procesar la confirmación de lectura de esta página",
+	"bs-readconfirmation-api-error-no-page": "No se indicó ninguna página",
+	"echo-category-title-bs-readconfirmation-cat": "Confirmación de lectura",
+	"log-name-bs-readconfirmation": "Registro de confirmaciones de lectura",
+	"logentry-bs-readconfirmation-remind": "$1 {{GENDER:$2|ha}} pedido que el usuario $4 confirme la lectura del artículo $3",
+	"bs-readconfirmation-label-ns-manager": "Confirmación de lectura",
+	"bs-readconfirmation-api-error-not-active-ns": "La confirmación de lectura no está activada en este espacio de nombres",
+	"bs-readconfirmation-disabled-ns-short": "Desactivado",
+	"bs-readconfirmation-graphicallist-btn-read": "Lectura",
+	"right-readconfirmationremind": "Recordar a usuarios que tienen que confirmar que han leído la página"
+}

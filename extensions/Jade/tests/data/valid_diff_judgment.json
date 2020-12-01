@@ -1,0 +1,22 @@
+{
+	"proposals": [
+		{
+			"labeldata": {
+				"damaging": true,
+				"goodfaith": false
+			},
+			"notes": "feeble justification",
+			"endorsements": [
+				{
+					"user": {
+						"ip": "127.0.0.1"
+					},
+					"comment": "Sounds thorough to me.",
+					"origin": "test: ad-hoc tool",
+					"created": "1999-12-31T23:59:59Z"
+				}
+			],
+			"preferred": true
+		}
+	]
+}

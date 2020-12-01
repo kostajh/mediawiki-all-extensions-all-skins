@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"vikititleicon-desc": "Приклучок VIKI за прикажување на лого од страници користејќи го додатокот Title Icon",
+	"vikititleicon-error-fetch": "Грешка при добивањето на податоците за насловната икона за јазолот: $1.",
+	"apihelp-getTitleIcons-description": "URL-а на сите Насловни икони за оваа страница, доколку постојат.",
+	"apihelp-getTitleIcons-summary": "Добивање на URL-а на сите насловни икони за страницата, ако ги има.",
+	"apihelp-getTitleIcons-param-pageTitle": "наслов на страницата чии насловни икони сакате да ги добиете"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"phabtaskgraph-author-field-label": "Autor",
+	"phabtaskgraph-owner-field-label": "Właściciel",
+	"phabtaskgraph-tasks-field-label": "Zadania",
+	"phabtaskgraph-projects-field-label": "Projekty",
+	"phabtaskgraph-status-field-label": "Status",
+	"phabtaskgraph-width-field-label": "Szerokość",
+	"phabtaskgraph-height-field-label": "Wysokość",
+	"phabtaskgraph-width-field-help": "domyślnie: 800",
+	"phabtaskgraph-height-field-help": "domyślnie: 800",
+	"phabtaskgraph-status-open": "Otwarty",
+	"phabtaskgraph-status-resolved": "Rozwiązany",
+	"phabtaskgraph-status-invalid": "Nieprawidłowy",
+	"phabtaskgraph-status-declined": "Odrzucony",
+	"phabtaskgraph-status-duplicate": "Duplikat"
+}

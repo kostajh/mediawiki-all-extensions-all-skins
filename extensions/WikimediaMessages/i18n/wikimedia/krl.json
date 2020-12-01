@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ilja.mos",
+			"Likopiän tyttö",
+			"Mashoi7",
+			"Varvana"
+		]
+	},
+	"sitesupport": "Lahjota",
+	"tooltip-n-sitesupport": "Auta meitä",
+	"wikimedia-copyright": "Teksti on šuatavilla <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">lisenssillä Creative Commons Attribution-ShareAlike</a>;\nylimiäräsie ehtoja voit olla.\nKačo <a href=\"https://foundation.wikimedia.org/wiki/Terms_of_Use\">Käyttöehot</a>.",
+	"wikimedia-copyrightwarning": "Tallentamalla muutokšet, hyväkšyt [https://foundation.wikimedia.org/wiki/Terms_of_Use käyttöehtoja] ta hyväkšyt šen, jotta muokkaukšeš julkaissah peruuttamattomašti [https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License CC BY-SA 3.0 -lisenssin] ta [https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License GFDL:n] ehtojen mukah.\nHyväkšyt šen, jotta hyperlinkki tahi URL riittäy luatijan nimiemisekši Creative Commons -lisenssin mukasešti.",
+	"wikibase-sitelinks-wikinews": "Wikiuutiset",
+	"wikibase-sitelinks-wikiquote": "Wikilainauššanašto",
+	"wikibase-sitelinks-wikisource": "Wikiainehisto",
+	"wikibase-sitelinks-wikivoyage": "Wikiopaš",
+	"wikimedia-developers": "Kehittäjät",
+	"wikimedia-globalblocking-ipblocked": "'''Šiun IP-ošoiteh on [[m:Special:MyLanguage/Global blocks|eštetty kaikissa wikilöissä]].''\n\nEšton luati $1 ($2).\nAnnettu šyy: ''$3''.\n\n* Ešton alkamisaika: $4\n* Ešton piättymisaika: $5\n\nŠiun nykyni IP-ošoiteh on $6.\nOle hyvä, liitä kaikki yllä olijat tiijot mahollisih kyšelyihis.\n\nOllou šiut eštetty vahinkošša, löyvät lisätietuo ta ohjeita\n [[m:Special:MyLanguage/No open proxies|No open proxies]]-globalisešta käytännöštä.\nMuiten, jotta pityä pakinua eštošta, ole hyvä, [[m:Steward requests/Global|työnnä tarkaštelukyšely Meta-Wiki:h]].",
+	"wikimedia-globalblocking-ipblocked-xff": "'''Yksi tahi enämpi šiun kyšelyn käytettyjä välityšpalvelimie on[[m:Special:MyLanguage/Global blocks|globalisešti šalvattu]].'''\n\nŠalpahukšen luati $1 ($2).\nAnnettu šyy: ''$3''.\n\n* Šalpahukšen alkamisaika: $4\n* Šalpahukšen piättymisaika: $5\n\nŠalvatun välityšpalvelimen ošoiteh oli $6.\nOle hyvä, liitä kaikki iellä mainitut tiijot mahollisih šiun luatimih kyšelyih.\n\nOllou šiut šalvattu erehykšeššä, löyvät lisätietuo ta ohjeita\n [[m:Special:MyLanguage/No open proxies|No open proxies]]-globalisešta käytännöštä.\nMuiten, paissakšeš šalpahukšešta, ole hyvä, [[m:Steward requests/Global|työnnä tarkaštelukyšely Meta-Wiki:h]]."
+}

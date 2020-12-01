@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"StefanusRA"
+		]
+	},
+	"page-creation-notif-desc": "Mengirim surel pemberitahuan ketika halaman baru dibuat",
+	"page-creation-notification": "Kirimi saya surel ketika sebuah halaman dibuat",
+	"page-creation-email-subject": "Halaman baru – $1 {{GENDER:$3|dibuat}} pada $2 oleh $3",
+	"page-creation-email-body": "Halo $1,\n\nIni adalah pemberitahuan dari {{SITENAME}} bahwa halaman baru $2 telah {{GENDER:$3|dibuat}} oleh pengguna $3.\n\nAnda dapat melihatnya di\n$4\n\nTeks dari halanan tersebut adalah:\n$5\n\nSistem notifikasi {{SITENAME}} Anda yang ramah.\n\nUntuk mengubah pengaturan surel pemberitahuan Anda, kunjungi {{canonicalurl:{{#special:Preferences}}}}"
+}

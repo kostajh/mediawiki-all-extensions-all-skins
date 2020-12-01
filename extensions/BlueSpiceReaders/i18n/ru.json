@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"Kaganer",
+			"Movses",
+			"Okras",
+			"Striking Blue",
+			"Vlad5250"
+		]
+	},
+	"bs-readers-desc": "Создаёт список людей, читающих страницу",
+	"prefs-readers": "Читатели",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|Читатель|Читательница}}|Читатели}}",
+	"readers-user": "Страницы {{GENDER:$1|прочитаны}}: $1",
+	"readers": "Читатели страницы «$1»",
+	"bs-readers-contentactions-label": "Отобразить читателей",
+	"bs-readers-pagenotexists": "Страница не существует.",
+	"bs-readers-pref-active": "Активные читатели",
+	"bs-readers-pref-numofreaders": "Количество читателей для отображения:",
+	"bs-readers-emptyinput": "Страница не была предоставлена.",
+	"bs-readers-header-username": "Имя участника",
+	"bs-readers-header-readerspath": "Читатель",
+	"bs-readers-header-ts": "Дата",
+	"bs-readers-header-page": "Страница",
+	"apihelp-bs-readers-data-store-description": "Получить информацию о читателях указанной страницы.",
+	"apihelp-bs-readers-data-store-summary": "Получить информацию о читателях указанной страницы.",
+	"apihelp-bs-readers-users-store-description": "Получить информацию о всех читателях указанной страницы.",
+	"apihelp-bs-readers-users-store-summary": "Получить информацию о всех читателях указанной страницы.",
+	"apihelp-bs-readers-page-readers-store-summary": "Получить всех читателей всех страниц",
+	"action-viewreaders": "Просмотреть читателей страницы",
+	"bs-readers-flyout-title": "Читатели этой страницы",
+	"right-viewreaders": "просмотр читателей страницы",
+	"bs-readers-privacy-transparency-working-readers": "BlueSpiceReaders — $2 {{GENDER:$3|вы}} прочитали страницу $1"
+}

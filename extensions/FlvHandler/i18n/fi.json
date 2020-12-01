@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crt",
+			"Silvonen"
+		]
+	},
+	"flvhandler_desc": "Mahdollistaa Flash-videotiedostojen (.flv) lisäämisen tavanomaisten tiedostojen tapaan (esim. <nowiki>[[</nowiki>{{ns:file}}:Movie.flv<nowiki>]]</nowiki>).",
+	"flv-long-desc": "Flash-video, $1 × $2 pikseliä, tiedostokoko: $3"
+}

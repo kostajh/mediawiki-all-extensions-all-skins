@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahonc",
+			"Andriy.v",
+			"Base",
+			"Piramidion",
+			"Vlad5250",
+			"Ата",
+			"Тест"
+		]
+	},
+	"sitematrix": "Список проектів Вікімедіа",
+	"sitematrix-summary": "Ця спеціальна сторінка показує всі вікіпроекти Вікімедіа.",
+	"sitematrix-desc": "Показує [[Special:SiteMatrix|список проектів Вікімедіа]]",
+	"sitematrix-language": "Мова",
+	"sitematrix-project": "Назва проєкту, міжпроектне посилання та інтервікі-посилання",
+	"sitematrix-others": "Інші проекти Вікімедіа",
+	"sitematrix-other-projects": "Інші проекти",
+	"sitematrix-other-projects-language": "Мова",
+	"sitematrix-total": "'''Загальна кількість: $1'''",
+	"sitematrix-sitetotal": "Усього",
+	"sitematrix-closed": "немає доступу для запису, повний доступ для читання",
+	"sitematrix-private": "доступ до запису та читання обмежено",
+	"sitematrix-fishbowl": "обмежений доступ для запису, повний доступ для читання",
+	"sitematrix-nonglobal": "публічна, однак реєстрація є обов'язковою"
+}

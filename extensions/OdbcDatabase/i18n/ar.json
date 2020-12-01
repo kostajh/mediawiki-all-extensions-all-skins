@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"odbcdatabase": "اتصال قاعدة البيانات المفتوح",
+	"odbcdatabase-desc": "برنامج يستخدم مكتبة <code>odbc_*</code> للأوامر لدعم ملحق البيانات الخارجي",
+	"odbcdatabase-odbc-missing": "وظائف ODBC مفقودة; تأكد من تثبيت <code>PHP:ODBC</code>.",
+	"odbcdatabase-connection-error": "خطأ في الاتصال بالخادم [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "غير قادر على تحرير نتيجة ODBC",
+	"odbcdatabase-fetch-object-error": "حدث خطأ أثناء سحب الكائن: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "حدث خطأ أثناء جلب الصف: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "الدالة insertId() غير معتمدة.",
+	"odbcdatabase-unknown-server-version": "إصدار خادم ODBC غير معروف."
+}

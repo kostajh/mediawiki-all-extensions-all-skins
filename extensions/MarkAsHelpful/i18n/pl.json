@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beau",
+			"Olgak85"
+		]
+	},
+	"markashelpful-desc": "Udostępnia interfejs użytkownika do oznaczania komentarzy jako pomocne",
+	"mah-mark-text": "Oznacz jako pomocne",
+	"mah-you-marked-text": "Uważasz, że jest to pomocne.",
+	"mah-someone-marked-text": "$1 {{GENDER:$1|oznaczył|oznaczyła}} to jako pomocne",
+	"mah-undo-mark-text": "Cofnij",
+	"mah-action-error": "Wystąpił błąd podczas wykonywania tej akcji"
+}

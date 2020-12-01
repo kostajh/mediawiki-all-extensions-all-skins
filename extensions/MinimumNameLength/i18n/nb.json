@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"minimumnamelength-desc": "Gjør det mulig å sette en minimumslengde på brukernavn",
+	"minimumnamelength-error": "Brukernavnet ditt er for kort. Den minste tillatte lengden er {{PLURAL:$1|ett|$1}} tegn."
+}

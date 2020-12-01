@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Melancholie",
+			"Yekrats"
+		]
+	},
+	"patrol": "Patroli redaktojn",
+	"patrol-desc": "Progresa patrolada interfaco kun kunlaboriloj",
+	"patrol-endorse": "Aprobi",
+	"patrol-revert": "Restarigi",
+	"patrol-revert-reason": "Kialo:",
+	"patrol-skip": "Forlasi",
+	"patrol-reverting": "Restarigante: $1",
+	"patrol-nonefound": "Neniuj taŭgaj redaktoj estis troveblaj por patrolado.",
+	"patrol-endorsed-ok": "La redakto estis markita kiel patrolita.",
+	"patrol-endorsed-failed": "Ĉi tiu redakto ne povis esti markita kiel patrolita.",
+	"patrol-reverted-ok": "La redakto estis restarigita.",
+	"patrol-reverted-failed": "Ne eblis restarigi la redakton.",
+	"patrol-skipped-ok": "Ignorante redakton.",
+	"patrol-reasons": "* Simpla vandalismo\n* Novula testo\n* Vidu diskuto-paĝon",
+	"patrol-another": "Montri alian redakton, se haveblan.",
+	"patrol-stopped": "Vi elektis ne patroli alian redakton. $1",
+	"patrol-resume": "Klaku ĉi tie por reaktivigi.",
+	"group-patroller": "Patrolantoj",
+	"group-patroller-member": "{{GENDER:$1|patrolanto|patrolantino}}",
+	"grouppage-patroller": "{{ns:project}}:Patrolanto",
+	"right-patroller": "Patroli paĝojn"
+}

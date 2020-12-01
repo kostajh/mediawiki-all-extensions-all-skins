@@ -1,0 +1,29 @@
+{
+	"name": "bluespice/namespacecss",
+	"type": "mediawiki-extension",
+	"description": "Namespace specific styling",
+	"license": "GPL-3.0-only",
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"mediawiki/mediawiki-codesniffer": "33.0.0",
+		"mediawiki/minus-x": "1.1.0",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"minus-x check .",
+			"phpcs -p -s"
+		],
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceNamespaceCSS"
+	}
+}

@@ -1,0 +1,10 @@
+*~
+*.kate-swp
+*.swp
+node_modules/**
+vendor/**
+!vendor/src/**
+!vendor/bsFileLinkChooser.jar
+
+composer.lock
+composer.phar

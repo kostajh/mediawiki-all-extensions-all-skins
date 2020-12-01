@@ -1,0 +1,74 @@
+/** Green Dusk theme */
+#column-one {
+	background-image: none;
+	/* Move the column up since now there's no image */
+	padding-top: 10px;
+}
+#column-one a:link {
+	color: #7599FF;
+	text-decoration: none;
+}
+
+#column-one a:visited, #column-one a:active {
+	color: #497CA7;
+	text-decoration: none;
+}
+
+#column-one a:hover {
+	color: #FF7CA7;
+}
+
+#content {
+	/* @embed */
+	background: url(images/content-ltr.gif) no-repeat;
+}
+
+body {
+	background: #329966 url(images/bg-ltr.gif) repeat-x;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #878584;
+}
+
+/*
+h1 {
+	font-size: 1.7em;
+}
+*/
+
+a:link {
+	color: #002bb8;
+	text-decoration: none;
+}
+
+a:visited, a:active {
+	color: #363696;
+	text-decoration: none;
+}
+
+/* This makes ordinary red links red, as in the standard MediaWiki shade of red */
+a.new, #column-content a.new, #p-personal a.new {
+	color: #ba0000;
+}
+
+/* Disable interwiki styling */
+#bodyContent a.extiw,
+#bodyContent a.extiw:active {
+	color: #47858d;
+}
+
+#globalWrapper {
+	/* @embed */
+	background: #EEEAE8 url(images/wrapper-ltr.gif) repeat-y;
+}
+
+#header {
+	/* @embed */
+	background: url(images/header-ltr.gif) no-repeat;
+}
+
+#title h1, #title h1 a {
+	color: #329966;
+}

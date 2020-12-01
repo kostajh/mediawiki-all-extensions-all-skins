@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian",
+			"Cosine02",
+			"Liuxinyu970226",
+			"SkEy",
+			"佛壁灯"
+		]
+	},
+	"bs-readers-desc": "创建阅读某一页面的人的列表",
+	"prefs-readers": "读者",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|读者}}}}",
+	"readers-user": "页面被$1{{GENDER:$1|阅读}}",
+	"readers": "“$1”的读者",
+	"bs-readers-contentactions-label": "显示读者",
+	"bs-readers-pagenotexists": "页面不存在。",
+	"bs-readers-pref-active": "活跃读者",
+	"bs-readers-pref-numofreaders": "显示的读者数：",
+	"bs-readers-emptyinput": "未提供页面。",
+	"bs-readers-header-username": "用户名",
+	"bs-readers-header-readerspath": "读者",
+	"bs-readers-header-ts": "日期",
+	"bs-readers-header-page": "页面",
+	"apihelp-bs-readers-data-store-description": "获取指定页面的读者信息。",
+	"apihelp-bs-readers-data-store-summary": "获取指定页面的读者信息。",
+	"apihelp-bs-readers-users-store-description": "获取指定页面的所有读者信息。",
+	"apihelp-bs-readers-users-store-summary": "获取指定页面的所有读者信息。",
+	"apihelp-bs-readers-page-readers-store-summary": "获取所有页面的所有阅读者",
+	"apihelp-bs-readers-revision-readers-store-summary": "获取一个页面所有修订版本的全部读者",
+	"action-viewreaders": "查看页面的读者们",
+	"bs-readers-flyout-title": "此页面的阅读者",
+	"right-viewreaders": "查看页面的读者",
+	"right-viewrevisionreaders": "查看一个页面修订版本的读者",
+	"bs-readers-privacy-transparency-working-readers": "BlueSpiceReaders读者 - {{GENDER:$3|您}}在$2阅读了页面$1",
+	"bs-readers-flyout-header-read-by": "阅读者",
+	"bs-readers-flyout-header-revision-id": "修订版本ID",
+	"bs-readers-flyout-header-revision-date": "修订版本日期",
+	"bs-readers-revision-flyout-title": "各个修订版本的读者",
+	"revisionreaders": "“$1”各个版本的读者"
+}

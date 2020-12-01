@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geitost",
+			"Kghbln"
+		]
+	},
+	"translatorsignup-summary": "Nutzen Sie diese Seite, um anzugeben, in welche Sprachen Sie übersetzen können und wie Sie bei Übersetzungsanfragen benachrichtigt werden möchten.",
+	"translationnotifications-email-confirmed": "Ihre E-Mail-Adresse ist bestätigt",
+	"translationnotifications-email-disablemail": "Ihre E-Mail-Adresse ist bestätigt, Sie bitten allerdings in [[Special:Preferences|Ihren Einstellungen]] darum, keine E-Mails zugesandt zu bekommen.",
+	"translationnotifications-email-unconfirmed": "Ihre E-Mail-Adresse ist nicht bestätigt. $1",
+	"translationnotifications-email-notset": "Sie haben keine E-Mail-Adresse angegeben. Dies können Sie in Ihren [[Special:Preferences|Einstellungen]] tun.",
+	"translationnotifications-nolang": "Wählen Sie eine Sprache",
+	"translationnotifications-email-subject": "Bitte übersetzen Sie die Seite $1.",
+	"translationnotifications-email-body": "Hallo $1,\n\nSie erhalten diese E-Mail, da Sie sich als {{GENDER:$10|Übersetzer|Übersetzerin}} für die {{PLURAL:$9|Sprache|Sprachen}} $2 bei {{SITENAME}} registriert haben.\n\nEs gibt dort eine übersetzende Seite: $3.\nSie kann nach einem Klick auf den folgenden Link übersetzt werden:\n$4\n\n$5\n$6\n\n$7\n\nIhre Hilfe wird sehr geschätzt. Übersetzer wie Sie helfen dabei, dass {{SITENAME}} als wirklich mehrsprachige Gemeinschaft fungiert.\n\nVielen Dank,\ndie Übersetzungskoordinatoren von {{SITENAME}}\n\n----\n\nSie erhalten diese E-Mail, da Sie sich für den Empfang von E-Mails für Übersetzungen bei {{SITENAME}} registriert haben. Zum Abmelden oder Ändern Ihrer Benachrichtigungseinstellungen für Übersetzungen besuchen Sie bitte $8.",
+	"translationnotifications-talkpage-body": "Hallo $2,\n\nSie erhalten diese E-Mail, da Sie sich als {{GENDER:$1|Übersetzer|Übersetzerin}} für $3 bei {{SITENAME}} registriert haben.\nEine Seite [[$4]] ist zum Übersetzen vorhanden. Sie können sie hier übersetzen:\n$5\n\n$6\n$7\n\n$8\n\nVielen Dank,\ndie Übersetzungskoordinatoren von {{SITENAME}}",
+	"translationnotifications-digestemail-body": "Hallo $1,\n\nSie erhalten diese E-Mail, da Sie sich als Übersetzer(in) für $2 bei {{SITENAME}} registriert haben.\nEs {{PLURAL:$3|ist eine Seite|sind $3 Seiten}} zum Übersetzen vorhanden. Einzelheiten sind unten angegeben:\n\n$4\n\nUm Ihre Einstellungen zu Übersetzungsbenachrichtigungen zu ändern, können Sie <$5> besuchen.\n\nVielen Dank,\ndie Übersetzungsadministratoren von {{SITENAME}}\n\n----\n\nSie erhalten diese E-Mail, da Sie sich zum Empfang von E-Mails bezüglich der Übersetzungen bei {{SITENAME}} registriert haben. Zum Abmelden oder Ändern Ihrer Benachrichtigungseinstellungen für Übersetzungen besuchen Sie bitte <$5>.",
+	"translationnotifications-signup-legal": "Mit Angabe dieser Informationen stimmen Sie zu, dass wir Sie bezüglich Themen im Zusammenhang mit {{SITENAME}} kontaktieren können, die unserer Meinung nach für Sie von Interesse sind. Sie stimmen zudem zu, dass Ihre Daten unseren [[{{MediaWiki:Privacypage}}|Datenschutzgrundsätzen]] unterliegen."
+}

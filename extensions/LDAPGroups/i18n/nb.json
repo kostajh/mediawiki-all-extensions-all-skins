@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"ldapgroups-desc": "Gjør det mulig å synkronisere brukergrupper med en LDAP-ressurs"
+}

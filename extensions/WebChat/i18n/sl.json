@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334"
+		]
+	},
+	"webchat": "Spletni klepet",
+	"webchat-desc": "Doda [[Special:WebChat|posebno stran]], ki se uporablja za klepet z ostalimi wikiuporabniki v realnem času",
+	"webchat-header": "Ta posebna stran vam omogoča sodelovati z drugimi uporabniki wikija v realnem času.\nZa povezavo preprosto pritisnite gumb »Connect«.\nĆe ste prijavljeni, bo vaš vzdevek že vnesen.\nBrezimnim uporabnikom se vzdevek ustvari samodejno, vendar ga je mogoče spremeniti.",
+	"right-webchat": "Dovoljena uporaba [[Special:WebChat|spletnega klepeta]]"
+}

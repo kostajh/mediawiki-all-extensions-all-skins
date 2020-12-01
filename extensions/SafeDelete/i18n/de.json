@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"safedelete": "Sicheres Löschen",
+	"safedelete-desc": "Löscht Seiten nur, falls keine Seiten in den angegebenen Namensräumen auf sie verlinken.",
+	"safedelete-title": "„$1“ löschen",
+	"safedelete-missingpagename": "Der Seitenname fehlt.",
+	"safedelete-missingnamespaces": "Eine Liste der Namensräume ist nicht festgelegt.",
+	"safedelete-cannotdelete": "Die Seite „$1“ kann nicht gelöscht werden, da Links oder Weiterleitungen von {{PLURAL:$2|der folgenden Seite|den folgenden Seiten}} vorhanden sind:"
+}

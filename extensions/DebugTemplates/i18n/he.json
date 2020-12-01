@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erelon",
+			"Steeve815"
+		]
+	},
+	"debugtemplates-form": "שדה קלט",
+	"debugtemplates-desc": "כלי דיבאגינג פשוט עבור התבניות",
+	"debugtemplates-args-title": "פרמטרים",
+	"debugtemplates-args-name": "שם",
+	"debugtemplates-args-set": "מוגדר?",
+	"debugtemplates-args-value": "ערך",
+	"debugtemplates-radio-select": "כלום",
+	"debugtemplates-warning-template-not-a-template": "לא נמצאה התבנית:"
+}

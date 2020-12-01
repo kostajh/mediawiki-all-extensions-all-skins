@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.biz>",
+			"Tobias Weichart <weichart@hallowelt.biz>"
+		]
+	},
+	"bs-uemodulepdfsubpages-extension-description": "Enables recursive export of pages into PDF format with subpages.",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-text": "PDF page with subpages",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-title": "Export this page and all subpages as PDF.",
+	"action-uemodulepdfsubpages-export": "exporting a page, including all sub pages, to PDF",
+	"right-uemodulepdfsubpages-export": "Export a page, including all sub pages, to PDF"
+}

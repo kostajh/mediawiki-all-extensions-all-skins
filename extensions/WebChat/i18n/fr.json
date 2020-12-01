@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Epok",
+			"Gomoko",
+			"IAlex",
+			"Urhixidur"
+		]
+	},
+	"webchat": "Clavardage web",
+	"webchat-desc": "Ajoute une [[Special:WebChat|page spéciale]] utilisée pour discuter en temps réel avec d’autres utilisateurs du wiki",
+	"webchat-header": "Cette page spéciale vous permet de collaborer en temps réel avec d’autres utilisateurs du wiki.\nPour vous connecter, cliquez simplement sur le bouton « {{int:login}} ».\nSi vous êtes enregistré, votre pseudonyme est prédéfini à l’aide de votre nom d’utilisateur.\nPour les utilisateurs anonymes, un pseudonyme est créé automatiquement, mais celui-ci peut être modifié.",
+	"action-webchat": "autorisé à utiliser la discussion web",
+	"right-webchat": "Peut utiliser le [[Special:WebChat|clavardage web]]"
+}

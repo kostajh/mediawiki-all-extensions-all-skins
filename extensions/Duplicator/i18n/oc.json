@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"duplicator": "Duplicar un article",
+	"duplicator-desc": "Crear de [[Special:Duplicate|còpias distinctas d’articles]] amb l’istoric complet de las modificacions.",
+	"duplicator-toolbox": "Duplicar aqueste article",
+	"duplicator-header": "Aquesta pagina permet la duplicacion completa d’un article, en creant doas versions independentas de l’istoric complet. Servís per exemple a separar un article en dos.",
+	"duplicator-options": "Opcions",
+	"duplicator-source": "Font :",
+	"duplicator-dest": "Destinacion:",
+	"duplicator-dotalk": "Duplicar la pagina de discussion (se existís)",
+	"duplicator-submit": "Duplicar",
+	"duplicator-summary": "Copiat dempuèi [[$1]], revision [[$2]]",
+	"duplicator-success": "[[$1]] es estat copiat cap a [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|revision es estada copiada|revisions son estadas copiadas}}.",
+	"duplicator-success-talknotcopied": "La pagina de discussion a pas pogut èsser copiada.",
+	"duplicator-failed": "La pagina es pas pogut èsser duplicada. Una error desconeguda s’es produita.",
+	"duplicator-source-invalid": "Donatz un nom valid per l’article.",
+	"duplicator-source-notexist": "[[$1]] existís pas. Donatz lo nom d’un article existent.",
+	"duplicator-dest-invalid": "Donatz un nom valid per la destinacion.",
+	"duplicator-dest-exists": "[[$1]] existís ja. Donatz lo nom d’un article qu’existís pas encara.",
+	"right-duplicate": "duplicar de paginas"
+}

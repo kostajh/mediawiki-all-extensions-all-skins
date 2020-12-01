@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Luky001",
+			"Robert Važan",
+			"TomášPolonec",
+			"Vlad5250"
+		]
+	},
+	"apifeatureusage": "Využitie funkcií API",
+	"apifeatureusage-desc": "Získa zhrnutie zaznamenávaných funkcií API pre používateľského agenta",
+	"apifeatureusage-startdate-label": "Počiatočný dátum:",
+	"apifeatureusage-enddate-label": "Koncový dátum:",
+	"apifeatureusage-warnings": "Upozornenie: $1",
+	"apifeatureusage-column-date": "Dátum",
+	"apifeatureusage-column-uses": "Použitia"
+}

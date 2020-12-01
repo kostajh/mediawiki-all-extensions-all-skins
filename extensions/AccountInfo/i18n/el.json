@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosguard"
+		]
+	},
+	"accountinfo": "Πληροφορίες λογαριασμού",
+	"accountinfo-desc": "Επιτρέπει στο χρήστη να δει τις αποθηκευμένες προσωπικές πληροφορίες που τον αφορούν",
+	"accountinfo-ts": "Χρονική σήμανση",
+	"accountinfo-ip": "Διεύθυνση IP",
+	"accountinfo-xff": "Επικεφαλίδα XFF",
+	"accountinfo-now": "Τώρα"
+}

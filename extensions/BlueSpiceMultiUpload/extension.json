@@ -1,0 +1,133 @@
+{
+	"name": "BlueSpiceMultiUpload",
+	"version": "4.1.0-alpha",
+	"author": [
+		"Robert Vogel",
+		"Leonid Verhovskij"
+	],
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:MultiUpload",
+	"descriptionmsg": "bs-multiupload-desc",
+	"license-name": "GPL-3.0-only",
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceMultiUpload": {
+					"className": "\\BlueSpice\\MultiUpload\\Extension",
+					"extPath": "/BlueSpiceMultiUpload"
+				}
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceMultiUpload": [
+			"i18n"
+		]
+	},
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\MultiUpload\\" : "src/"
+	},
+	"AutoloadClasses": {
+		"BlueSpiceMultiUploadHooks": "includes/BlueSpiceMultiUploadHooks.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "\\BlueSpice\\MultiUpload\\Hook\\BeforePageDisplay\\AddResources::callback",
+		"BeforePageDisplayMobile": "BlueSpiceMultiUploadHooks::onBeforePageDisplayMobile",
+		"MobileMenu": "BlueSpiceMultiUploadHooks::onMobileMenu",
+		"BSInsertMagicAjaxGetData": "BlueSpice\\MultiUpload\\Hook\\BSInsertMagicAjaxGetData\\AddTags::callback",
+		"ParserFirstCallInit": "BlueSpice\\MultiUpload\\Hook\\ParserFirstCallInit\\AddTags::callback"
+	},
+	"ResourceModules": {
+		"ext.bluespice.multiUpload": {
+			"scripts": [
+				"ext.bluespice.multiUpload.js"
+			],
+			"dependencies": [
+				"ext.bluespice.uploader.bootstrap"
+			]
+		},
+		"ext.bluespice.uploader.bootstrap": {
+			"scripts": [
+				"ext.bluespice.uploader.bootstrap.js"
+			],
+			"dependencies": [
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.upload": {
+			"scripts": [
+				"ext.bluespice.upload.js",
+				"lib/plupload/moxie.js",
+				"lib/plupload/plupload.dev.js"
+			],
+			"messages": [
+				"bs-uploader-mime-images-label",
+				"bs-uploader-mime-files-label"
+			],
+			"dependencies": [
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.extjs.upload": {
+			"scripts": [
+				"ext.bluespice.extjs.upload.js"
+			],
+			"messages": [
+				"bs-upload-multiuploaddialogtitle",
+				"bs-deferred-action-apiupload-description",
+				"bs-upload-descfilelabel",
+				"bs-upload-license",
+				"bs-upload-uploadwatchthislabel",
+				"bs-upload-uploadignorewarningslabel",
+				"bs-upload-categories",
+				"bs-upload-details"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs",
+				"mediawiki.user"
+			]
+		},
+		"ext.bluespice.multiUpload.MobileFrontend": {
+			"scripts": [
+				"ext.bluespice.multiUpload.MobileFrontend.js"
+			],
+			"dependencies": [
+				"ext.bluespice.upload",
+				"ext.bluespice.uploader.bootstrap"
+			]
+		},
+		"ext.bluespice.multiUpload.MobileFrontend.styles": {
+			"styles": [
+				"ext.bluespice.multiUpload.MobileFrontend.less"
+			]
+		},
+		"ext.bluespice.multiUpload.tags": {
+			"scripts": [
+				"ext.bluespice.multiUpload.tags.js"
+			],
+			"messages": [
+				"bs-multiupload-tag-hint-reloadpage"
+			],
+			"dependencies": [
+				"ext.bluespice.uploader.bootstrap"
+			]
+		},
+		"ext.bluespice.multiUpload.tags.styles": {
+			"class": "\\BlueSpice\\ResourceModule\\LessVars",
+			"styles": [
+				"ext.bluespice.multiUpload.tags.less"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceMultiUpload/resources"
+	},
+	"manifest_version": 2
+}

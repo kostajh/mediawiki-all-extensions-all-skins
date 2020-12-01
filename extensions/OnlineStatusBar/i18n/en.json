@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Petr Bena",
+			"John Du Hart"
+		]
+	},
+	"onlinestatusbar-desc": "Status bar which shows whether a user is online on their user page",
+	"prefs-onlinestatus": "Online status",
+	"onlinestatusbar-used": "Display your online status on your user pages",
+	"onlinestatusbar-hide": "Hide the status bar on user pages in order to use just the magic word (For advanced users)",
+	"onlinestatusbar-away": "Treat as away automatically after defined interval",
+	"onlinestatusbar-purge": "Purge user page everytime when you login or logout",
+	"onlinestatusbar-status": "What is the default status you wish to use?",
+	"onlinestatusbar-away-time": "How many minutes until you are marked as away?",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Online}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Busy}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Away}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Hidden}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Offline}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Unknown}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|This user}} is now online",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|This user}} is busy and may be unavailable",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|This user}} is idle and may be unavailable",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|This user}} is offline",
+	"onlinestatusbar-tooltip-unknown": "Status of {{GENDER:$1|this user}} is unknown",
+	"apihelp-query+onlinestatus-description": "Returns online status and gender of user",
+	"apihelp-query+onlinestatus-summary": "Returns online status and gender of user",
+	"apihelp-query+onlinestatus-param-user": "Username of user you want to get status for",
+	"apihelp-query+onlinestatus-example": "Show online status for Petrb"
+}

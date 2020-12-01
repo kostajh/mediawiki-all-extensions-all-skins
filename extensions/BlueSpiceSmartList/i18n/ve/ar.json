@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-smartlist-ve-smartlist-title": "القائمة الذكية",
+	"bs-smartlist-ve-smartlistinspector-count": "عد",
+	"bs-smartlist-ve-smartlistinspector-ns": "النطاق(ات)",
+	"bs-smartlist-ve-smartlistinspector-cat": "التصنيف",
+	"bs-smartlist-ve-smartlistinspector-minor": "أظهر الطفيفة",
+	"bs-smartlist-ve-smartlistinspector-catmode": "وضع التصنيف",
+	"bs-smartlist-ve-smartlistinspector-period": "الفترة",
+	"bs-smartlist-ve-smartlistinspector-new": "عرض المقالات الجديدة فقط",
+	"bs-smartlist-ve-smartlistinspector-heading": "العنوان",
+	"bs-smartlist-ve-smartlistinspector-trim": "تقليم",
+	"bs-smartlist-ve-smartlistinspector-showtext": "إظهار النص",
+	"bs-smartlist-ve-smartlistinspector-trimtext": "تقليم النص",
+	"bs-smartlist-ve-smartlistinspector-sort": "الترتيب حسب",
+	"bs-smartlist-ve-smartlistinspector-order": "أمر الترتيب",
+	"bs-smartlist-ve-smartlistinspector-showns": "إظهار النطاقات",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "رقم مع نص",
+	"bs-smartlist-ve-smartlistinspector-meta": "بيانات وصفية",
+	"bs-smartlist-ve-smartlistinspector-target": "الهدف",
+	"bs-smartlist-ve-smartlistinspector-excludens": "استبعاد النطاق(ات)",
+	"bs-smartlist-ve-period-day-label": "يوم",
+	"bs-smartlist-ve-period-week-label": "أسبوع",
+	"bs-smartlist-ve-period-month-label": "شهر",
+	"bs-smartlist-ve-sort-time-label": "الوقت",
+	"bs-smartlist-ve-sort-title-label": "العنوان",
+	"bs-smartlist-ve-newbies-title": "مبتدئون",
+	"bs-smartlist-ve-newbiesinspector-count": "عد",
+	"bs-smartlist-ve-toplist-title": "قائمة الأفضل",
+	"bs-smartlist-ve-toplistinspector-count": "عد",
+	"bs-smartlist-ve-toplistinspector-ns": "النطاق(ات)",
+	"bs-smartlist-ve-toplistinspector-cat": "التصنيف",
+	"bs-smartlist-ve-toplistinspector-period": "الفترة",
+	"bs-smartlist-ve-toplistinspector-portletperiod": "فترة المدخل",
+	"bs-smartlist-ve-mode-recentchanges-label": "أحدث التغييرات",
+	"bs-smartlist-ve-mode-changesofweek-label": "تغييرات الأسبوع"
+}

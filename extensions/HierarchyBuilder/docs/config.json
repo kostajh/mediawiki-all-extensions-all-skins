@@ -1,0 +1,12 @@
+{
+    "--title": "HierarchyBuilder - Documentation",
+    "--warnings": ["-nodoc(class,public)"],
+    "--warnings-exit-nonzero": true,
+    "--footer": "Documentation for HierarchyBuilder. Generated on {DATE} by {JSDUCK} {VERSION}.",
+    "--output": "../docs/js",
+    "--": [
+        "../resources/editHierarchy.js",
+        "../resources/renderHierarchy.js",
+        "../resources/selectFromHierarchy.js"
+    ]
+}

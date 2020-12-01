@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chmee2",
+			"Littledogboy",
+			"Martin Urbanec",
+			"Mormegil",
+			"Urbanecm",
+			"Vks"
+		]
+	},
+	"openstackmanager-desc": "Umožňuje uživatelům spravovat OpenStack Nova a Swift",
+	"openstackmanager-delete": "smazat",
+	"openstackmanager-notloggedin": "Vyžadováno přihlášení",
+	"openstackmanager-mustbeloggedin": "Pro tuto činnost musíte být přihlášeni.",
+	"openstackmanager-novapublickey": "Veřejný SSH klíč",
+	"openstackmanager-prefs-novapublickey": "Veřejné SSH klíče:",
+	"openstackmanager-deletekey": "Smazat veřejný SSH klíč",
+	"openstackmanager-deletekeyconfirm": "Opravdu si přejete smazat tento klíč?",
+	"openstackmanager-keylist": "Seznam veřejných SSH klíčů",
+	"openstackmanager-addkey": "Přidat veřejný SSH klíč",
+	"openstackmanager-name": "Jméno",
+	"openstackmanager-fingerprint": "Otisk prstu",
+	"openstackmanager-keys": "Klíč",
+	"openstackmanager-shellaccountnamehelp": "Je vyžadováno jméno účtu v shellu.\nMusí začínat písmenem a–z a může obsahovat jen malé znaky a–z, 0–9 a -."
+}

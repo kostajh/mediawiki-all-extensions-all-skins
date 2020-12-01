@@ -1,0 +1,65 @@
+{
+	"name": "Poll",
+	"version": "2.0",
+	"author": "Jan Luca",
+	"url": "https://www.mediawiki.org/wiki/Extension:Poll",
+	"descriptionmsg": "poll-desc",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"AvailableRights": [
+		"poll-admin",
+		"poll-create",
+		"poll-vote",
+		"poll-score"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"poll-admin": true
+		},
+		"*": {
+			"poll-admin": false,
+			"poll-create": false,
+			"poll-vote": false,
+			"poll-score": true
+		},
+		"autoconfirmed": {
+			"poll-create": true,
+			"poll-vote": true
+		}
+	},
+	"LogActions": {
+		"poll/create": "poll-logentry-create",
+		"poll/change": "poll-logentry-change",
+		"poll/delete": "poll-logentry-delete"
+	},
+	"LogHeaders": {
+		"poll": "poll-logpagetext"
+	},
+	"LogNames": {
+		"poll": "poll-logpage"
+	},
+	"LogTypes": [
+		"poll"
+	],
+	"SpecialPages": {
+		"Poll": "Poll"
+	},
+	"MessagesDirs": {
+		"Poll": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PollAlias": "Poll.alias.php"
+	},
+	"AutoloadClasses": {
+		"Poll": "includes/Poll.php",
+		"PollHooks": "includes/PollHooks.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "PollHooks::onPollSchemaUpdates"
+	},
+	"manifest_version": 2
+}

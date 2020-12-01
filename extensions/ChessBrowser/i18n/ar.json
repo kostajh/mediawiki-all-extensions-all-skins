@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"chessbrowser-desc": "يضيف وسم pgn لجعل تدوين لعبة الشطرنج تفاعليا.",
+	"chessbrowser-game-detail": "تفاصيل اللعبة",
+	"chessbrowser-event-label": "الحدث",
+	"chessbrowser-site-label": "الموقع",
+	"chessbrowser-date-label": "التاريخ",
+	"chessbrowser-round-label": "الدورة",
+	"chessbrowser-white-label": "الأبيض",
+	"chessbrowser-black-label": "الأسود",
+	"chessbrowser-result-label": "النتيجة",
+	"chessbrowser-beginning-of-game": "اذهب إلى الحركة الأولى",
+	"chessbrowser-previous-move": "الحركة السابقة",
+	"chessbrowser-slow-autoplay": "أبطأ",
+	"chessbrowser-flip-board": "اقلب منظور اللوح"
+}

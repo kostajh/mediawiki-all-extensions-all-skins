@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder"
+		]
+	},
+	"onlinestatus-desc": "Ergänzt e Option zum Aazeige vum Online-Status in dr persenligen Yystelligen",
+	"onlinestatus-js-anon": "Fähler: Du muesch aagmäldet syy, ass Du die Funtion chasch verwände",
+	"onlinestatus-js-changed": "Dyy Status isch in „$1“ gänderet wore",
+	"onlinestatus-js-error": "Statusänderig nit megli, dr Wärt „$1“ isch nit giltig",
+	"onlinestatus-subtitle-offline": "Dää Benutzer isch zur Zyt offline",
+	"onlinestatus-subtitle-online": "Dää Benutzer isch zur Zyt online",
+	"onlinestatus-tab": "Status",
+	"onlinestatus-toggles-desc": "Dyy Status:",
+	"onlinestatus-toggles-explain": "Die Yystellig macht s Dir megli, andere Benutzer uf Dyynere Benutzersyte z zeige, eb Du online oder offline bisch.",
+	"onlinestatus-toggles-show": "Zeig Onlinestatus uf myynere Benutzersyte",
+	"onlinestatus-toggle-offline": "Offline",
+	"onlinestatus-toggle-online": "Online",
+	"onlinestatus-pref-onlineonlogin": "Status uf online ändere, wänn i mi aamäld",
+	"onlinestatus-pref-offlineonlogout": "Status uf offline ändere, wänn i mi abmäld"
+}

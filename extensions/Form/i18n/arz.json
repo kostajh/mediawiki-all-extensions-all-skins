@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"form-desc": "[[Special:Form|واجهة استمارة]] لبدء الصفحات الجديدة",
+	"form": "استمارة",
+	"form-no-name": "لا اسم استمارة",
+	"form-no-name-text": "يجب أن توفر اسم استمارة، مثل \"Special:Form/Nameofform\".",
+	"form-bad-name": "اسم استمارة سيء",
+	"form-bad-name-text": "لا توجد استمارة بهذا الاسم.",
+	"form-pattern": "$1-استمارة",
+	"form-save": "حفظ",
+	"form-index-mismatch-title": "نمط الاسم والقالب لا يتطابقان",
+	"form-index-mismatch": "هذه الاستمارة بها أنماط أسماء وقوالب غير متطابقة بدءا عند الفهرس $1.",
+	"form-article-exists": "الصفحة موجودة",
+	"form-article-existstext": "الصفحة [[$1]] موجودة بالفعل.",
+	"form-bad-page-name": "اسم صفحة سيء",
+	"form-bad-page-name-text": "بيانات الاستمارة التى أدخلتها تصنع اسم صفحة سيئا، \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|الحقل $1 مطلوب|الحقول $1 مطلوبة}} لهذه الإستمارة.\nمن فضلك {{PLURAL:$2|املأه|املأها}}.",
+	"form-save-summary": "صفحة جديدة باستخدام [[Special:Form/$1|الاستمارة $1]]",
+	"form-save-error": "خطأ فى حفظ الاستمارة",
+	"form-save-error-text": "حدث خطأ غير معروف أثناء حفظ الاستمارة '$1'."
+}

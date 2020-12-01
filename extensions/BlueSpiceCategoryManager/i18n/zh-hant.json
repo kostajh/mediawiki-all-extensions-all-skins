@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly"
+		]
+	},
+	"bluespicecategorymanager": "分類管理員",
+	"bluespicecategorymanager-desc": "管理分類的視覺化工具",
+	"action-categorymanager-viewspecialpage": "檢視分類管理員",
+	"bs-categorymanager-draganddrop-text": "拖拉來整理",
+	"bs-categorymanager-label": "分類管理員",
+	"bs-categorymanager-dlg-new-title": "建立分類",
+	"bs-categorymanager-dlg-new-prompt": "請輸入名稱：",
+	"bs-categorymanager-removecategoryconfirm-text": "您確定要刪除此分類？",
+	"bs-categorymanager-removecategoryconfirm-title": "刪除分類",
+	"bs-categorymanager-addcategory-dialog-error-title": "分類建立失敗",
+	"bs-categorymanager-action-show-category": "顯示分類",
+	"right-categorymanager-viewspecialpage": "存取特殊頁面 [[Special:BlueSpiceCategoryManager]] 的權限。",
+	"bs-categorymanager-collection-type-categorizedpages": "分類分配",
+	"bs-categorymanager-collection-var-namespacename": "命名空間",
+	"bs-categorymanager-collection-var-categorizedpages": "帶有分類的頁面",
+	"bs-categorymanager-collection-var-uncategorizedpages": "不帶分類的頁面"
+}

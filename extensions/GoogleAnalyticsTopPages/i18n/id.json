@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana"
+		]
+	},
+	"googleanalyticstoppages-desc": "Menyediakan daftar halaman top dengan menggunakan data Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Nilai dari [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Perbarui daftar halaman top (ditenagai oleh data yang disediakan oleh Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Perbarui daftar halaman top (ditenagai oleh data yang disediakan oleh Google Analytics)."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cindy Cicalese"
+		]
+	},
+	"versioncompare": "Version Compare",
+	"version-compare-desc": "Show comparison of core component and extension versions between two wikis",
+	"version-compare-database-label": "Database",
+	"version-compare-url-error": "Error getting data from $1.",
+	"version-compare-url-field-label-1": "API URL #1:",
+	"version-compare-url-field-help-1": "API URL (ending in api.php) of the first wiki to compare. Will use the current wiki if left blank.",
+	"version-compare-url-field-label-2": "API URL #2:",
+	"version-compare-url-field-help-2": "API URL (ending in api.php) of the second wiki to compare. Will use the current wiki if left blank.",
+	"version-compare-diff-field-label": "Show only differences"
+}

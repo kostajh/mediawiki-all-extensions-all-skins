@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aotake",
+			"Fryed-peach",
+			"Shirayuki"
+		]
+	},
+	"smoothgallery": "スムーズギャラリー",
+	"smoothgallery-desc": "アップロードされている画像でギャラリーを作成できるようにする。\nSmoothGallery のほとんどのオプションを利用できるようにする",
+	"smoothgallery-title": "スムーズギャラリー",
+	"smoothgallery-smoothgallerytitle": "スムーズギャラリー: $1",
+	"smoothgallery-error": "<b>スムーズギャラリーのエラー:</b>",
+	"smoothgallery-gallery-not-found": "要求したギャラリーは存在しません。",
+	"smoothgallery-not-found": "ギャラリーに画像がありません。\n画像を少なくとも1つ指定してください。",
+	"smoothgallery-no-images": "このギャラリーには画像がありません。\n{{PLURAL:$3|指定した画像が存在する|指定した画像がすべて存在する}}か確認してください。\n以下の{{PLURAL:$2|画像}}は見つかりませんでした: $1",
+	"smoothgallery-invalid-images": "要求された以下の{{PLURAL:$2|画像}}は無効な形式です: $1",
+	"smoothgallery-unexpected-error": "予期しないエラーが発生しました。\nバグ報告を提出してください。",
+	"smoothgallery-javascript-disabled": "このギャラリーを正しく閲覧するには JavaScript が必要です。"
+}

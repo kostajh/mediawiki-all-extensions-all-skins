@@ -1,0 +1,69 @@
+These is the install file for the Semantic Image Input extension.
+
+Extension page on mediawiki.org: https://www.mediawiki.org/wiki/Extension:Semantic_Image_Input
+Latest version of the install file: https://phabricator.wikimedia.org/diffusion/ESII/browse/master/INSTALL
+
+
+== Requirements ==
+
+Semantic Image Input requires:
+
+* MediaWiki 1.23 or above
+* Semantic Forms 2.2 or above
+* PHP 5.3 or above
+
+== Download ==
+
+You can get the code directly from Git.
+
+ cd /path/to/extensions
+ git clone https://gerrit.wikimedia.org/r/mediawiki/extensions/SemanticImageInput.git
+
+Tags can be viewed like
+
+ cd /SemanticImageInput
+ git tag -l
+ git checkout <tag name>
+
+== Installation ==
+
+Once you have downloaded the code, place the ''SemanticImageInput'' directory within your MediaWiki
+'extensions' directory. Then add the following code to your "LocalSettings.php" file:
+
+# Semantic Image Input
+require_once "$IP/extensions/SemanticImageInput/SemanticImageInput.php";
+
+You also need to enable instant commons: https://www.mediawiki.org/wiki/Instant_commons
+This is done by adding the following code to your "LocalSettings.php" file:
+
+# Enable instant commons
+$wgUseInstantCommons  = true;
+
+Beware that in recently installed MediaWikis, this setting might already be present, in which case
+you should make sure it's set to true instead of adding another copy.
+
+== Configuration ==
+
+Configuration of Contest is done by assigning to $egSIISettings in your "LocalSettings.php" file,
+AFTER the inclusion of the extension. The options are listed below and their default is set in the
+settings file:
+https://phabricator.wikimedia.org/diffusion/ESII/browse/master/SemanticImageInput.settings.php
+You should NOT modify the settings file, but can have a look at it to get an idea of
+how to use the settings, in case the below descriptions do not suffice.
+
+{| class="wikitable sortable"
+! Name
+! Type
+! Default
+! Description
+|-
+| defaultImage
+| string
+| File:Mail-envelope.png
+| The default image to add in case no image could be obtained.
+|-
+| defaultWidth
+| integer
+| 200
+| The default
+|}

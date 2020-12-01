@@ -1,0 +1,22 @@
+{
+	"judgments": [
+		{
+			"schema": {
+				"damaging": true,
+				"goodfaith": false
+			},
+			"notes": "feeble justification",
+			"endorsements": [
+				{
+					"user": {
+						"ip": "Abcdef"
+					},
+					"comment": "Sounds thorough to me.",
+					"origin": "test: ad-hoc tool",
+					"created": "1999-12-31T23:59:59Z"
+				}
+			],
+			"preferred": true
+		}
+	]
+}

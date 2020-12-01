@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"hierarchybuilder-desc": "Sayfa hiyerarşilerinin oluşturulmasını ve seçilmesini sağlar",
+	"hierarchybuilder-reveal-editmessage": "Bunu nasıl kullanırım?",
+	"hierarchybuilder-editmessage": "Hiyerarşi Kökü listesi, kaydettiğinizde korunacak hiyerarşiyi içerir. Kullanılmayan Sayfalar listesi, $1 kategorisindeki şu anda hiyerarşide olmayan sayfaları içerir. Hiyerarşi Kökü listesini satırları yukarı ve aşağı sürükleyip girintilerini değiştirerek yeniden düzenleyebilirsiniz. Kullanılmayan Sayfalar listesinden, Hiyerarşi Kökü listesinde istediğiniz yere sürükleyip bırakarak sayfaları hiyerarşiye ekleyebilirsiniz. Hiyerarşi Kökü listesinden sürükleyip Kullanılmayan Sayfalar listesinin herhangi bir yerine bırakarak sayfaları hiyerarşiden kaldırabilirsiniz.",
+	"hierarchybuilder-edit-error-message": "Bu hiyerarşi, hem hiyerarşi verileri hem de kullanılmayan sayfaların çizileceği kategori boş olduğu için düzenlenemez. Lütfen bu veri kaynaklarından en az birinin doldurulduğundan emin olun.",
+	"hierarchybuilder-hierarchyroot": "Hiyerarşi kökü",
+	"hierarchybuilder-unusedpages": "Kullanılmayan sayfalar",
+	"hierarchybuilder-category-desc": "Bu, hiyerarşideki sayfaların ait olması gereken kategoridir.",
+	"hierarchybuilder-missing-category": "Kategori bağımsız değişkeni eksik.",
+	"hierarchybuilder-hierarchy-desc": "Bu vikimetin formatlı bir hiyerarşidir.",
+	"hierarchybuilder-pagename-desc": "Bu, hiyerarşiyi içeren sayfanın adıdır.",
+	"hierarchybuilder-propertyname-desc": "Bu, hiyerarşiyi içeren özelliğin adıdır.",
+	"hierarchybuilder-collapsed-desc": "Bu parametre sağlanırsa, hiyerarşi ilk görüntülendiğinde daraltılmalıdır.",
+	"hierarchybuilder-missing-page-name": "Sayfa adı bağımsız değişkeni eksik.",
+	"hierarchybuilder-missing-property-name": "Özellik adı bağımsız değişkeni eksik.",
+	"hierarchybuilder-invalid-collapsed": "Daraltılmış bağımsız değişkenin değeri geçersiz."
+}

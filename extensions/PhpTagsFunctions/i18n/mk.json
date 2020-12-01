@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"phptagsfunctions-desc": "Ги воведува внатрешните функции на матичниот PHP за додатокот PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "Разграничувачот не може да биде азбучнобројчен или надесна коса црта",
+	"phptagsfunctions-preg-no-ending-delimiter": "Не пронајдов завршен разграничувач „$1“",
+	"phptagsfunctions-preg-unknown-modifier": "Непознат изменител „$1“"
+}

@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"MuratTheTurkish"
+		]
+	},
+	"newsticker": "Haber Akışı",
+	"newsticker-desc": "Özel bir sayfadan yapılandırılabilen bir haber akışı gösteren sihirli bir kelime ekler.",
+	"newsticker-summary": "Haber akışı içeriğini ve sayfalarını ayarlamak için özel sayfa",
+	"newsticker-general": "Genel",
+	"newsticker-news": "Haberler",
+	"newsticker-class": "Sınıf",
+	"newsticker-style": "Stil",
+	"newsticker-pages": "Sayfalar",
+	"newsticker-page1": "Sayfa 1",
+	"newsticker-page2": "Sayfa 2",
+	"newsticker-page3": "Sayfa 3",
+	"newsticker-page4": "Sayfa 4",
+	"newsticker-page5": "Sayfa 5",
+	"newsticker-page6": "Sayfa 6",
+	"newsticker-page7": "Sayfa 7",
+	"newsticker-page8": "Sayfa 8",
+	"newsticker-page9": "Sayfa 9",
+	"newsticker-title": "Başlık",
+	"newsticker-add-page": "Sayfa ekle",
+	"newsticker-default-news-help": "Tüm haber akışları için varsayılan haberleri ayarlayın. Satır başına bir haber, vikimetine izin verilir.",
+	"newsticker-default-class-help": "Tüm haber akışları için varsayılan CSS sınıflarını ayarlayın.",
+	"newsticker-default-style-help": "Tüm haber akışları için varsayılan CSS stilini ayarlayın.",
+	"newsticker-pages-help": "Haber akışını gösterecek sayfa sayısını ayarlayın, böylece bu özel sayfa her sayfa için bir bölüm gösterebilir. Dikkat! Sayfa sayısını azaltırsanız, dışarıda bırakılan sayfaların verileri kaybolur!",
+	"newsticker-title-help": "Bu haber akışını gösterecek sayfanın başlığını ayarlayın.",
+	"newsticker-news-help": "Bu haber akışı için varsayılan haberleri geçersiz kılarak haberleri ayarların.",
+	"newsticker-class-help": "Varsayılan CSS sınıflarını geçersiz kılarak, bu haber için CSS sınıflarını ayarlayın.",
+	"newsticker-style-help": "Varsayılan CSS stilini geçersiz kılarak, bu haber için CSS stilini ayarlayın.",
+	"right-newsticker": "Haber akışlarını yönet",
+	"action-newsticker": "haber akışlarını yönet"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Consta",
+			"Omnipaedista",
+			"ZaDiak"
+		]
+	},
+	"indexfunc-badtitle": "Μη έγκυρος τίτλος: \"$1\"",
+	"indexfunc-index-exists": "Η σελίδα \"$1\" υπάρχει ήδη",
+	"index": "Δείκτης αναζήτησης",
+	"index-legend": "Αναζήτηση στο ευρετήριο",
+	"index-search": "Αναζήτηση:",
+	"index-submit": "Καταχώρηση",
+	"index-hide-detail": "Απόκρυψη της λίστας σελίδων",
+	"index-no-results": "Η αναζήτηση δεν επέστρεψε αποτελέσματα"
+}

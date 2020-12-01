@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Dj",
+			"Glanthor Reviol"
+		]
+	},
+	"logentry-append": "Hozzáfűzés",
+	"logentry-parserhook-desc": "Ez a kiegészítő lehetővé teszi bejegyzések hozzáfűzését a naplófájlokhoz",
+	"logentry-specialpage-desc": "Ez a kiegészítő feldolgozza a naplófájlokhoz való hozzáfűzéseket",
+	"logentry": "Naplóbejegyzés",
+	"logentry-invalidpage": "Érvénytelen lap: $1",
+	"logentry-invalidtoken": "Érvénytelen token"
+}

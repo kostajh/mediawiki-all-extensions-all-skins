@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt",
+			"Protnet"
+		]
+	},
+	"securesessions-desc": "Κάνει πιο ασφαλείς τις περιόδους σύνδεσης χρήστη και την ταυτοποίηση περιόδου σύνδεσης",
+	"securesessions-personalurl": "Ανοιχτές περίοδοι σύνδεσης ($1)",
+	"securesessions-ipsession": "Αποσύνδεση από όλες τις άλλες περιόδους σύνδεσης.",
+	"securesessions-iprestrict": "Περιορισμός περιόδου σύνδεσης σε αυτήν τη διεύθυνση IP,",
+	"securesessions-uarestrict": "Περιορισμός περιόδου σύνδεσης σε αυτό το πρόγραμμα περιήγησης.",
+	"securesessions-sessions": "Περίοδοι σύνδεσης",
+	"securesessions-sessions-legend": "Πληροφορίες περιόδου σύνδεσης",
+	"securesessions-sessions-text": "Παρακάτω βρίσκονται όλες οι ανοιχτές περίοδοι σύνδεσης για τον λογαριασμό σας και πληροφορίες σχετικά με αυτές. Μπορείτε να κλείσετε όλες τις άλλες περιόδους σύνδεσης χρησιμοποιώντας το παρακάτω κουμπί. Ο αστερίσκος (*) υποδηλώνει την τρέχουσα περίοδο σύνδεσης.",
+	"securesessions-sessions-ip": "διεύθυνση IP:",
+	"securesessions-sessions-activity": "Τελευταία δραστηριότητα:",
+	"securesessions-sessions-clear": "Αποσύνδεση από όλες τις άλλες περιόδους σύνδεσης.",
+	"securesessions-prefs-country": "Περιορισμός σύνδεσης ανά χώρα:",
+	"securesessions-prefs-tor": "Να μην επιτρέπονται συνδέσεις από κόμβους εξόδου του Tor.",
+	"securesessions-disallowedcountry": "Αυτός ο λογαριασμός δεν επιτρέπεται να συνδεθεί από αυτή τη χώρα.",
+	"securesessions-disallowedtor": "Αυτός ο λογαριασμός δεν επιτρέπεται να συνδεθεί από κόμβους εξόδου Tor."
+}

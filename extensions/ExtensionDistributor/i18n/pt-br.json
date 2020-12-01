@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Araceletorres",
+			"Cainamarques",
+			"Eduardo.mps",
+			"Felipe L. Ewald",
+			"Giro720",
+			"OTAVIO1981"
+		]
+	},
+	"extensiondistributor": "Descarregar extensão MediaWiki",
+	"skindistributor": "Baixar aparência do MediaWiki",
+	"extensiondistributor-desc": "Extensão para distribuir arquivos snapshot de extensões",
+	"extdist-not-configured": "Por favor, configure <code>$wgExtDistAPIConfig</code>.",
+	"extdist-list-missing-extensions": "Não foi possível buscar lista de extensões!",
+	"extdist-list-missing-skins": "Não foi possível obter a lista de aparências!",
+	"extdist-no-such-extensions": "A extensão \"$1\" não existe.",
+	"extdist-no-such-skins": "A aparência \"$1\" não existe.",
+	"extdist-no-such-version-extensions": "A extensão \"$1\" não existe na versão \"$2\".",
+	"extdist-no-such-version-skins": "A aparência \"$1\" não existe na versão \"$2\".",
+	"extdist-choose-extensions": "Selecione que extensão pretende descarregar:",
+	"extdist-choose-skins": "Selecione que aparência pretende baixar:",
+	"extdist-submit-extension": "Continuar",
+	"extdist-choose-version-extensions": "Você está a descarregando a extensão <b>$1</b>.\n\nSelecione a versão do seu MediaWiki.\n\nA maioria das extensões funciona através de múltiplas versões do MediaWiki, portanto, se a versão do seu MediaWiki não estiver aqui, ou se tiver necessidade das últimas funcionalidades da extensão, experimente usar a versão atual.",
+	"extdist-choose-version-skins": "Você está baixando a aparência <b>$1</b>.\n\nSelecione a sua versão MediaWiki.\n\nA maioria das aparências funcionam em múltiplas versões do MediaWiki, por isso, se a sua versão MediaWiki não está aqui, ou se você tiver necessidade de recursos de aparência mais recentes, tente usar a versão atual.",
+	"extdist-no-versions-extensions": "A extensão selecionada ($1) não está disponível em nenhuma versão!",
+	"extdist-no-versions-skins": "A aparência selecionada ($1) não está disponível em nenhuma versão!",
+	"extdist-submit-version": "Continuar",
+	"extdist-created-extensions": "Foi criado um instantâneo ''(snapshot)'' da versão <b>$2</b> da extensão <b>$1</b> para o MediaWiki <b>$3</b>. A transferência deverá iniciar-se automaticamente em 5 segundos.\n\nA URL deste instantâneo é:\n:$4\nVocê pode usar este link para baixar a extensão em qualquer computador, mas não o adicione aos favoritos, pois seu conteúdo não será atualizado e poderá ser excluído em uma data posterior.\n\nVocê deve extrair o conteúdo do arquivo tar no diretório de extensões da sua instalação MediaWiki. Por exemplo, em um sistema operacional semelhante ao Unix:\n<pre>\ntar -xzf $5 -C /var/www/mediawiki/extensions\n</pre>\n\nNo Windows, poderá usar o [http://www.7-zip.org/ 7-zip] para extrair os arquivos.\n\nSe a sua wiki estiver localizada num servidor remoto, extraia os arquivos para um diretório temporário no seu computador local, e depois carregue '''todos''' os arquivos extraídos para o diretório de extensões da wiki no servidor.\n\nApós colocar a extensão no diretório de extensões da sua wiki, terá de registrá-la em LocalSettings.php. A documentação da extensão deverá ter indicações sobre como o fazer.\n\nSe tiver alguma questão sobre este sistema de distribuição de extensões, por favor, visite [[Extension talk:ExtensionDistributor]].",
+	"extdist-created-skins": "Foi criado um instantâneo ''(snapshot)'' da versão <b>$2</b> do tema <b>$1</b> para o MediaWiki <b>$3</b>. A transferência deverá iniciar-se automaticamente em 5 segundos.\n\nA URL deste instantâneo é:\n:$4\nVocê pode usar este link para baixar o tema em qualquer computador, mas não o adicione aos favoritos, pois seu conteúdo não será atualizado e poderá ser excluído em uma data posterior.\n\nVocê deve extrair o conteúdo do arquivo tar no diretório de skins da sua instalação MediaWiki. Por exemplo, em um sistema operacional semelhante ao Unix:\n<pre>\ntar -xzf $5 -C /var/www/mediawiki/skins\n</pre>\n\nNo Windows, poderá usar o [http://www.7-zip.org/ 7-zip] para extrair os arquivos.\n\nSe a sua wiki estiver localizada num servidor remoto, extraia os arquivos para um diretório temporário no seu computador local, e depois carregue '''todos''' os arquivos extraídos para o diretório de skins da wiki no servidor.\n\nApós colocar a skin no diretório de skins da sua wiki, terá de registrá-la em LocalSettings.php. A documentação da skin deverá ter indicações sobre como o fazer.\n\nSe tiver alguma questão sobre este sistema de distribuição de skins, por favor, visite [[Extension talk:ExtensionDistributor]].",
+	"extdist-want-more-extensions": "Obter outra extensão",
+	"extdist-want-more-skins": "Obter outra aparência",
+	"extdist-goto-extensions-page": "Retorne à página de extensão ''''$1'''.",
+	"extdist-goto-skins-page": "Volte para a página de \"'$1'''.",
+	"extdist-tar-error": "Não foi possível encontrar o URL arquivado da API.",
+	"extdist-no-branches": "Não foi possível obter informações sobre nenhum ramo.",
+	"extdist-popular-extensions": "{{PLURAL:$1|$1 extensão mais baixada|$1 extensões mais baixadas}}:",
+	"extdist-popular-skins": "{{PLURAL:$1|$1 tema mais baixado|$1 temas mais baixados}}:",
+	"extdist-branch-alpha": "mestre (versão de desenvolvimento mais recente)",
+	"extdist-branch-candidate": "$1 (próximo candidato estável)",
+	"extdist-branch-stable": "$1 (última versão estável do MediaWiki)"
+}

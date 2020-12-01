@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby",
+			"Soued031"
+		]
+	},
+	"jsbreadcrumbs-desc": "Setzt eng Lëscht vun Navigatiounslinken ënner d'Läischt vun den Navigatiounsongleten dobäi",
+	"jsbreadcrumbs-intro-horizontal": "Déi {{PLURAL:$1| |$1}} lescht gekuckt  {{PLURAL:$1|Säit|Säiten}}:",
+	"jsbreadcrumbs-intro-vertical": "Déi {{PLURAL:$1||$1}} lescht gekuckt {{PLURAL:$1|Säit|Säiten}}",
+	"prefs-jsbreadcrumbs": "Navigatiounslinken (bread crumbs)",
+	"prefs-jsbreadcrumbs-showcrumbs": "Navigatiounslinken (bread crumbs) weisen",
+	"prefs-jsbreadcrumbs-numberofcrumbs": "Maximal Zuel vun den Navigatiounslinken (bread crumbs)",
+	"prefs-jsbreadcrumbs-showsite": "Den Numm vum Site an den Navigatiounslinken drasetzen (nëtzlech wann et tëscht verschidde Wikie benotzt gëtt)"
+}

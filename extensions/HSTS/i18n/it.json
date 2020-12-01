@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Baffo",
+			"Beta16"
+		]
+	},
+	"hsts-desc": "HSTS (HTTP Strict Transport Security) per singolo utente",
+	"hsts-tog": "Abilita HTTP Strict Transport Security (HSTS)",
+	"hsts-https-tog": "Attiva HTTP Strict Transport Security (HSTS)<br />Ricarica questa pagina con HTTPS per modificare questa preferenza.",
+	"hsts-beta-feature-message": "Usa sempre una connessione protetta",
+	"hsts-beta-feature-description": "Questo rafforza la tua sicurezza su questo sito web, mantenendo al sicuro anche dopo il log out, e assicura che nessuno può spiarti durante la navigazione. Con questa opzione attivata e recenti browser che supportano questa tecnologia (HSTS), un avviso di protezione è molto probabilmente un vero attacco contro voi."
+}

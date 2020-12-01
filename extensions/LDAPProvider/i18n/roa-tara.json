@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"ldapprovider-desc": "Dèje 'n'infrastrutture comune pe collegarse a 'na resorse LDAP e eseguì le 'nderrogaziune",
+	"ldapprovider-config-clientregistry": "Permette 'a reggistrazione de le cliende personalizzate",
+	"ldapprovider-config-domainconfigs": "Reggìstre pe configurazione de dominie",
+	"ldapprovider-domain-config-not-found": "\n\nNon ge pozze trasè jndr'à 'u file de configurazione '$1'!\n\nPe piacere 'mboste 'nu file de configurazione de dominie pe l'estenzione LDAPProvider.",
+	"ldapprovider-more-than-one": "Acchiate cchiù de 'n'utende pe '$1'",
+	"ldapprovider-config-domainconfigprovider": "Specifiche 'u meccaniscme pe avè 'a configurazione de dominie",
+	"ldapprovider-config-defaultdomain": "Specifeche cè dominie scacchià pe 'n'utende, ce non g'è mappate da 'u database jè disponibbele"
+}

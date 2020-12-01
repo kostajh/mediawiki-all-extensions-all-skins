@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
+		]
+	},
+	"bs-socialblog-desc": "Entidade de blog para BlueSpiceSocial",
+	"bs-socialblog-type": "Blog",
+	"blog": "Blog",
+	"bs-socialblog-entityblog-header-create": "Novo blog",
+	"bs-socialblog-var-blogtitle": "Título",
+	"bs-socialblog-entityblog-content-more-btn-more": "Mais",
+	"bs-socialblog-entityblog-content-more-btn-less": "Menos",
+	"bs-socialblog-toc-useblogteaser": "Use texto promocional para entradas de blog na linha do tempo",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notifications-blog-create": "Usuário {{GENDER:$1|$2 criou}} um novo blog \"$3\"",
+	"bs-social-notifications-email-blog-create-subject": "Usuário {{GENDER:$1|$2 criou}} um blog \"$3",
+	"bs-social-notifications-email-blog-create-body": "Usuário {{GENDER:$1|$2 criou}} um novo blog \"$3\" com o seguinte texto: \n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2 criou }} um novo blog \"$3\"",
+	"bs-social-notifications-blog-edit": "Usuário {{GENDER:$1|$2 editou}} o blog \"$3\"",
+	"bs-social-notifications-email-blog-edit-subject": "Usuário {{GENDER:$1|$2 editou}} o blog \"$3\"",
+	"bs-social-notifications-email-blog-edit-body": "Usuário {{GENDER:$1|$2 editou}} o blog \"$3\". Novo texto é:\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2 editou}} o blog \"$3\"",
+	"bs-social-notifications-blog-delete": "Usuário {{GENDER:$1|$2 excluiu}} um blog \"$3\"",
+	"bs-social-notifications-email-blog-delete-subject": "Usuário {{GENDER:$1|$2 excluiu}} o blog \"$3\"",
+	"bs-social-notifications-email-blog-delete-body": "Usuário {{GENDER:$1|$2 excluiu}} o blog \"$3\"",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 excluiu }} um blog \"$3\"",
+	"bs-social-notification-blog-primary-link-label": "Ver blog"
+}

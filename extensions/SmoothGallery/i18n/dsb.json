@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"smoothgallery": "SmoothGallery",
+	"smoothgallery-desc": "Zmóžnja wužywarjam napóraś galerije z wobrazami, kótarež su se nagrali.\nZmóžnja nejwěcej opcijow SmoothGallery",
+	"smoothgallery-title": "SmoothGallery",
+	"smoothgallery-smoothgallerytitle": "SmoothGallery: $1",
+	"smoothgallery-error": "<b>SmoothGallery zmólka:</b>",
+	"smoothgallery-gallery-not-found": "Pominana galerija njeeksistěrujo.",
+	"smoothgallery-not-found": "Galerija njewopśimujo wobraze.\nPšosym pśidaj nanejmjenjej jaden wobraz.",
+	"smoothgallery-no-images": "W toś tej galeriji njejsu se wobraze namakali.\nPśeznań se, lěc {{PLURAL:$3|pominany wobraz eksistěrujo|wšej $3 pominanej wobraza eksistěrujotej|wše $3 pominane wobraze eksistěruju|wšych $3 pominanych wobrazow eksistěrujo}}.\n{{PLURAL:$2|Slědujucy wobraz njejo se namakał|Slědujucej wobraza njejstej se namakałej|Slědujuce wobraze njejsu se namakali|Slědujucych wobrazow njejo se namakało}}: $1",
+	"smoothgallery-invalid-images": "{{PLURAL:$2|Slědujucy pominany wobraz ma|Slědujucej pominanej wobraza matej|Slědujuce pominane wobraze maju|Slědujucych pominanych wobrazow ma}} njepłaśiwy typ: $1",
+	"smoothgallery-unexpected-error": "Njewócakana zmólka jo nastała.\nPšosym napiš powěźeńku zmólki.",
+	"smoothgallery-javascript-disabled": "JavaScript jo trěbny, aby se galerija korektnje zwobrazniła."
+}

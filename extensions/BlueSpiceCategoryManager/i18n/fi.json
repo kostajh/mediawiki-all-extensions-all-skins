@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cxz",
+			"Pyscowicz"
+		]
+	},
+	"bs-categorymanager-dlg-new-title": "Luo luokka",
+	"bs-categorymanager-dlg-new-prompt": "Anna nimi:",
+	"bs-categorymanager-removecategoryconfirm-text": "Haluatko varmasti poistaa tämän luokan?",
+	"bs-categorymanager-removecategoryconfirm-title": "Poista luokka",
+	"bs-categorymanager-addcategory-dialog-error-title": "Luokan luonti epäonnistui",
+	"bs-categorymanager-action-show-category": "Näytä luokka",
+	"bs-categorymanager-collection-var-namespacename": "Nimiavaruus"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"duplicator": "Ne Siede duplizierje",
+	"duplicator-toolbox": "Duplizierje disse Siede",
+	"duplicator-header": "Mäd disse Spezialsiede konnen Sieden komplett duplizierd wäide. Deerbie wäd ju ganse Versionsgeskichte uurnuumen. Dit kon biespilswiese nutselk weese, uum ne Siede in Unnersieden aptoudeelen.",
+	"duplicator-options": "Optione",
+	"duplicator-source": "Wälle:",
+	"duplicator-dest": "Siel:",
+	"duplicator-dotalk": "Diskussionssiede mee kopierje (wan muugelk)",
+	"duplicator-submit": "Siede duplizierje",
+	"duplicator-summary": "[[$1]] wuude duplizierd",
+	"duplicator-success": "[[$1]] wuude ätter [[$2]] kopierd.",
+	"duplicator-success-revisions": "{{PLURAL:$1|1 Version wuude|$1 Versione wuuden}} duplizierd.",
+	"duplicator-success-talknotcopied": "Ju Diskussionssiede kuude nit duplizierd wäide.",
+	"duplicator-failed": "Ju Siede kuude nit duplizierd wäide, deer n uunbekoanden Failer aptried.",
+	"duplicator-source-invalid": "Reek ne gultige Wälle-Siede an.",
+	"duplicator-source-notexist": "Ju Siede [[$1]] bestoant nit. Reek ne bestoundende Siede an.",
+	"duplicator-dest-invalid": "Reek ne gultige Siel-Siede an.",
+	"duplicator-dest-exists": "Ju Siede [[$1]] bestoant al. Reek ne nit bestoundende Siede an."
+}

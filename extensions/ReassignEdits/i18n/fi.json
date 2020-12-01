@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Nedergard",
+			"Valtlait"
+		]
+	},
+	"reassignedits": "Siirrä käyttäjien muokkauksia",
+	"reassignedits-desc": "Mahdollistaa muokkausten siirtämisen vanhalta käyttäjältä uudelle",
+	"reassignedits-error-invalid": "Käyttäjänimi ”$1” on virheellinen.",
+	"reassignedits-new": "Uusi käyttäjänimi",
+	"reassignedits-old": "Vanha käyttäjänimi",
+	"reassignedits-submit": "Lähetä",
+	"reassignedits-success": "Käyttäjän ”$1” muokkaukset siirrettiin käyttäjälle ”$2”.",
+	"reassignedits-summary": "Siirrä muokkaukset vanhalta käyttäjältä uudelle.",
+	"reassignedits-updatelog-title": "Päivitä käyttäjänimi lokien otsikoissa",
+	"reassignedits-updatelog-user": "Päivitä suorittanut käyttäjä lokeissa",
+	"right-reassignedits": "Siirtää muokkaukset vanhalta käyttäjältä uudelle"
+}

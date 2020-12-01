@@ -1,0 +1,73 @@
+<?php
+
+namespace GrowthExperiments\Tests;
+
+use GrowthExperiments\Mentorship\Mentor;
+use GrowthExperiments\Mentorship\StaticMentorManager;
+use GrowthExperiments\WikiConfigException;
+use MediaWiki\User\UserFactory;
+use MediaWiki\User\UserNameUtils;
+use MediaWikiUnitTestCase;
+use User;
+use Wikimedia\Rdbms\ILoadBalancer;
+
+/**
+ * @coversDefaultClass \GrowthExperiments\Mentorship\StaticMentorManager
+ */
+class StaticMentorManagerTest extends MediaWikiUnitTestCase {
+
+	/**
+	 * @covers ::getMentorForUser
+	 */
+	public function testGetMentorForUser() {
+		$mentor1 = new Mentor( $this->getUser( 'FooMentor' ), 'text 1' );
+		$mentor2 = new Mentor( $this->getUser( 'BarMentor' ), 'text 2' );
+		$mentorManager = new StaticMentorManager( [ 'Foo' => $mentor1, 'Bar' => $mentor2 ] );
+		$this->assertSame( $mentor1, $mentorManager->getMentorForUser( $this->getUser( 'Foo' ) ) );
+		$this->assertSame( $mentor2, $mentorManager->getMentorForUser( $this->getUser( 'Bar' ) ) );
+		$this->expectException( WikiConfigException::class );
+		$this->assertSame( null, $mentorManager->getMentorForUser( $this->getUser( 'Baz' ) ) );
+	}
+
+	/**
+	 * @covers ::getMentorForUserSafe
+	 */
+	public function testGetMentorForUserSafe() {
+		$mentor1 = new Mentor( $this->getUser( 'FooMentor' ), 'text 1' );
+		$mentor2 = new Mentor( $this->getUser( 'BarMentor' ), 'text 2' );
+		$mentorManager = new StaticMentorManager( [ 'Foo' => $mentor1, 'Bar' => $mentor2 ] );
+		$this->assertSame( $mentor1, $mentorManager->getMentorForUserSafe( $this->getUser( 'Foo' ) ) );
+		$this->assertSame( $mentor2, $mentorManager->getMentorForUserSafe( $this->getUser( 'Bar' ) ) );
+		$this->assertSame( null, $mentorManager->getMentorForUserSafe( $this->getUser( 'Baz' ) ) );
+	}
+
+	/**
+	 * @covers ::getAvailableMentors
+	 */
+	public function testGetAvailableMentors() {
+		$mentorManager = new StaticMentorManager( [
+			'Foo' => new Mentor( $this->getUser( 'FooMentor' ), 'text 1' ),
+			'Bar' => new Mentor( $this->getUser( 'BarMentor' ), 'text 2' ),
+			'Bar2' => new Mentor( $this->getUser( 'BarMentor' ), 'text 2' ),
+		] );
+		$this->assertSame( [ 'FooMentor', 'BarMentor' ], $mentorManager->getAvailableMentors() );
+	}
+
+	/**
+	 * Creates a mock user.
+	 * @param string $name Must be properly formatted (capitalized, no underscores etc)
+	 * @return User
+	 */
+	private function getUser( string $name ) {
+		$userFactory = new UserFactory(
+			$this->getMockBuilder( ILoadBalancer::class )
+				->disableOriginalConstructor()
+				->getMock(),
+			$this->getMockBuilder( UserNameUtils::class )
+				->disableOriginalConstructor()
+				->getMock()
+		);
+		return $userFactory->newFromAnyId( null, $name, null );
+	}
+
+}

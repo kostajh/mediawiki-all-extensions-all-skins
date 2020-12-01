@@ -1,0 +1,86 @@
+{
+	"name": "NearbyPages",
+	"version": "1.0.0",
+	"url": "https://www.mediawiki.org/wiki/Extension:NearbyPages",
+	"descriptionmsg": "nearby-pages-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"AutoloadClasses": {
+		"NearbyPages\\SpecialNearby": "includes/SpecialNearby.php"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"NearbyPages": [
+			"i18n"
+		]
+	},
+	"config": {
+		"NearbyRange": 10000,
+		"NearbyRandomButton": false,
+		"NearbyPagesNamespaces": [ 0 ],
+		"NearbyPagesUrl": "https://en.wikipedia.org/w/api.php",
+		"NearbyPagesWikidataCompatibility": false
+	},
+	"SpecialPages": {
+		"Nearby": "NearbyPages\\SpecialNearby"
+	},
+	"ExtensionMessagesFiles": {
+		"NearbyAliases": "NearbyPages.alias.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "NearbyPages"
+	},
+	"ResourceModules": {
+		"ext.nearby.styles": {
+			"targets": [ "mobile", "desktop" ],
+			"styles": "resources/ext.nearby.styles/index.less"
+		},
+		"ext.nearby.scripts": {
+			"dependencies": [
+				"vue",
+				"mediawiki.router",
+				"mediawiki.ui.button",
+				"mediawiki.api"
+			],
+			"targets": [ "mobile", "desktop" ],
+			"messages": [
+				"nearby-pages-info-heading",
+				"nearby-pages-info-description",
+				"nearby-pages-info-show-random",
+				"nearby-pages-info-show-button",
+				"nearby-pages-distance",
+				"nearby-pages-distance-meters",
+				"nearby-pages-requirements",
+				"nearby-pages-requirements-guidance",
+				"nearby-pages-error",
+				"nearby-pages-error-guidance",
+				"nearby-pages-noresults",
+				"nearby-pages-noresults-guidance",
+				"nearby-pages-location-unavailable",
+				"nearby-pages-permission-denied"
+			],
+			"packageFiles": [
+				"resources/ext.nearby.scripts/index.js",
+				"resources/ext.nearby.scripts/locationProvider.js",
+				"resources/ext.nearby.scripts/api.js",
+				"resources/ext.nearby.scripts/App.vue",
+				"resources/ext.nearby.scripts/Button.vue",
+				"resources/ext.nearby.scripts/Card.vue",
+				"resources/ext.nearby.scripts/Errorbox.vue",
+				"resources/ext.nearby.scripts/PageList.vue"
+			]
+		},
+		"ext.nearby.images": {
+			"class": "ResourceLoaderImageModule",
+			"useDataURI": false,
+			"selector": ".{name}",
+			"images": {
+				"mw-vue-nearby__image": "resources/ext.nearby.images/article-illustration.svg"
+			}
+		}
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-articleinfo-desc": "Provides information about a page in status bar",
+	"prefs-articleinfo": "Page information",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Update interval in seconds:",
+	"bs-articleinfo-flyout-title": "Page information",
+	"bs-articleinfo-flyout-intro": "Here you find information related to the page. You can check its quality and up-to-dateness and see how it relates to other pages in the wiki.",
+	"bs-articleinfo-nav-link-title": "Page information",
+	"bs-articleinfo-flyout-categorylinks-title": "Categories",
+	"bs-articleinfo-flyout-templatelinks-title": "Templates used on page",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "No categories assigned",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "No templates used",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Last edit",
+	"bs-articleinfo-flyout-lastediteduser-text": "Last editor",
+	"bs-articleinfo-newrevision-info-text": "There is a new version of this page available. Please reload the page to view the current content.",
+	"bs-articleinfo-newrevision-info-text-reload": "There is a new version of this page available. Please [[:$1|reload]] the page to view the current content.",
+	"bs-articleinfo-flyout-subpages-title": "Subpages",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Subpages",
+	"bs-articleinfo-dialog-subpages-title": "Subpages",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Sets the refresh rate for the \"Last edit\" value. This value is displayed on the page information under the quality management tools."
+}

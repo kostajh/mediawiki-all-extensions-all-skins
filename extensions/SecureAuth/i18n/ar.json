@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"secureauth-desc": "السماح للمستخدم بإضافة عنوان الأيبي الخاص به لتسجيل الدخول، تسجيل الدخول من أيبي آخر سيفشل.",
+	"secureauthinfo": "معلومات مصادقة آمنة",
+	"special-secureauth-info": "معلومات مصادقة آمنة",
+	"secureauth-info-userinfo": "معلومات المستخدم",
+	"secureauth-current-ip": "أيبي تسجيل دخولك الحالي:",
+	"secureauth-whitelist-ip": "عناوين الآيبي التي تم إدراجها في القائمة البيضاء لتسجيل الدخول إلى اسم المستخدم الخاص بك:",
+	"action-sa-access": "الوصول لSecureAuthInfo",
+	"right-sa-access": "السماح للمستخدم بالوصول إلى [[Special:SecureAuthInfo|معلومات مصادقة آمنة]]"
+}

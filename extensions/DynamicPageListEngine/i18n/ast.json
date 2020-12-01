@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"dynamicpagelistengine-desc": "Ufre llistes dinámiques de páxines con funciones configurables y estensibles pa los [https://www.mediawiki.org/wiki/Extension:Scribunto módulos] y pa otres estensiones",
+	"dple-tracking-category": "Páxines qu'usen DynamicPageListEngine",
+	"dple-error-invalid-ns-index": "Error DynamicPageListEngine: Nun hai nengún espaciu de nomes col índiz $1.",
+	"dple-error-no-criteria": "Error DynamicPageListEngine: Nun s'especificó nengún criteriu de seleición.",
+	"dple-error-too-expensive": "Error DynamicPageListEngine: Tentando facer una consulta tan costosa como $1 xuniones de tables na base de datos, mentanto que se permite un máximu de $2.",
+	"dple-error-too-many-expensive-functions": "Error DynamicPageListEngine: Demasiaes funciones costoses usaes nesta páxina."
+}

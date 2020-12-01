@@ -1,0 +1,86 @@
+{
+	"name": "Nimbus",
+	"version": "3.6.0",
+	"author": [
+		"Aaron Wright",
+		"David Pean",
+		"Inez Korczyński",
+		"Jack Phoenix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Nimbus",
+	"license-name": "GPL-2.0-or-later",
+	"descriptionmsg": "nimbus-desc",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"ValidSkinNames": {
+		"nimbus": "Nimbus"
+	},
+	"MessagesDirs": {
+		"SkinNimbus": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"NimbusTemplate": "includes/NimbusTemplate.php",
+		"SkinNimbus": "includes/SkinNimbus.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Nimbus"
+	},
+	"ResourceModules": {
+		"skins.nimbus": {
+			"styles": {
+				"nimbus/Nimbus.css": {
+					"media": "screen"
+				},
+				"resources/extensions/extensions.less": {
+					"media": "screen"
+				},
+				"resources/styles/skin.nimbus.buttons.less": {
+					"media": "screen"
+				},
+				"resources/styles/skin.nimbus.navigation.less": {
+					"media": "screen"
+				},
+				"resources/styles/skin.nimbus.actiontabs.less": {
+					"media": "screen"
+				},
+				"resources/styles/skin.nimbus.footer.less": {
+					"media": "screen"
+				},
+				"resources/styles/skin.nimbus.login.less": {
+					"media": "screen"
+				},
+				"resources/styles/skin.nimbus.hacks.clear.less": {
+					"media": "screen"
+				},
+				"resources/styles/skin.nimbus.hacks.shoutwiki.less": {
+					"media": "screen"
+				}
+			}
+		},
+		"skins.nimbus.menu": {
+			"scripts": "nimbus/Menu.js"
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"nimbus": {
+			"+ext.blogPage": "resources/extensions/BlogPage/ext.blogPage.css",
+			"+ext.blogPage.articlesHome": "resources/extensions/BlogPage/articlesHome.css",
+			"+ext.blogPage.create.css": "resources/extensions/BlogPage/create.css",
+			"+ext.miniInvite.css": "resources/extensions/ext.miniInvite.css",
+			"+ext.pollNY.css": "resources/extensions/ext.pollNY.css",
+			"+ext.quizGame.css": "resources/extensions/ext.quizGame.css",
+			"+ext.socialprofile.userboard.boardblast.css": "resources/extensions/SocialProfile/userboard.boardblast.css",
+			"+ext.socialprofile.usergifts.css": "resources/extensions/SocialProfile/usergifts.css",
+			"+ext.socialprofile.userprofile.css": "resources/extensions/SocialProfile/userprofile.css",
+			"+ext.socialprofile.userrelationship.css": "resources/extensions/SocialProfile/userrelationship.css",
+			"+mediawiki.special.preferences.styles": "resources/mediawiki/special.preferences.styles.less",
+			"+oojs-ui-core.styles": "resources/ooui.less"
+		}
+	},
+	"manifest_version": 1
+}

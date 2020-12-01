@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"namespaces": "Namespaces-Daten betrachten und bearbeiten",
+	"namespaces-title-norights": "Namespaces-Daten betrachten",
+	"namespaces-desc": "[[Special:Namespaces|Spezialseite]] zur Pflege der Namespaces",
+	"namespaces_intro": "Dies ist ein Überblick des Inhalts der Namespaces.\nDie Daten in den einzelnen Spalten haben die folgende Bedeutung:",
+	"namespaces_intro_footer": "Siehe [https://www.mediawiki.org/wiki/Namespaces MediaWiki.org], um weitere Informationen über die Namespaces.",
+	"namespaces_1": "ja",
+	"namespaces_0": "nein",
+	"namespaces_error": "Die Namespaces-Tabelle ist leer.",
+	"namespaces_edit": "Bearbeiten",
+	"namespaces_reasonfield": "Grund",
+	"namespaces_defaultreason": "kein Grund angegeben",
+	"namespaces_delquestion": "Löscht „$1“",
+	"namespaces_deleting": "Du bist dabei das namespace „$1“ zu löschen.",
+	"namespaces_deleted": "„$1“ wurde erfolgreich aus der namespaces entfernt.",
+	"namespaces_delfailed": "„$1“ konnte nicht aus der namespaces gelöscht werden.",
+	"namespaces_addtext": "Ein namespace hinzufügen",
+	"namespaces_addintro": "Du fügst ein neues namespace hinzu. Beachte, dass es kein Leerzeichen ( ), Kaufmännisches Und (&), Gleichheitszeichen (=) und keinen Doppelpunkt (:) enthalten darf.",
+	"namespaces_addbutton": "Hinzufügen",
+	"namespaces_added": "„$1“ wurde erfolgreich der namespaces hinzugefügt.",
+	"namespaces_addfailed": "„$1“ konnte nicht der namespaces hinzugefügt werden.",
+	"namespaces_edittext": "Namespaces bearbeiten",
+	"namespaces_logpagename": "Namespaces-Logbuch",
+	"namespaces_log_added": "hat „$2“ ($3) (canonical: $4) (lokal: $5) der namespaces hinzugefügt",
+	"namespaces_log_edited": "veränderte Präfix „$2“: ($3) (canonical: $4) (lokal: $5) in der namespaces",
+	"namespaces_log_deleted": "hat „$2“ aus der namespaces entfernt",
+	"namespaces_logpagetext": "In diesem Logbuch werden Änderungen an der [[Special:Namespaces|Namespaces]] protokolliert.",
+	"right-namespaces": "Namespaces bearbeiten",
+	"action-namespaces": "Diesen Namespaces-Eintrag ändern"
+}

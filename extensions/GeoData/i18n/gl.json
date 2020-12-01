@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Banjo",
+			"Elisardojm",
+			"Fitoschido",
+			"Toliño"
+		]
+	},
+	"geodata-desc": "Engade unha funcionalidade de almacenamento e de extracción de coordenadas xeográficas.",
+	"geodata-bad-input": "Pasáronselle argumentos incorrectos á función <nowiki>{{#coordinates:}}</nowiki>",
+	"geodata-bad-latitude": "<nowiki>{{#coordinates:}}</nowiki>: Latitude incorrecta",
+	"geodata-bad-longitude": "<nowiki>{{#coordinates:}}</nowiki>: Lonxitude incorrecta",
+	"geodata-bad-type": "<nowiki>{{#coordinates:}}</nowiki>: Non se recoñece o tipo \"$1\"",
+	"geodata-bad-globe": "<nowiki>{{#coordinates:}}</nowiki>: Non se recoñece o globo \"$1\"",
+	"geodata-bad-region": "<nowiki>{{#coordinates:}}</nowiki>: Formato do código de rexión incorrecto",
+	"geodata-multiple-primary": "<nowiki>{{#coordinates:}}</nowiki>: Non pode haber máis dunha etiqueta primaria por páxina",
+	"geodata-limit-exceeded": "Superouse o límite de $1 {{PLURAL:$1|etiqueta|etiquetas}} <nowiki>{{#coordinates:}}</nowiki> por páxina",
+	"geodata-broken-tags-category": "Páxinas con etiquetas de coordenadas con formato incorrecto",
+	"geodata-broken-tags-category-desc": "A páxina ten unha etiqueta <code><nowiki>{{#coordinates:}}</nowiki></code> con formato incorrecto.",
+	"geodata-unknown-type-category": "Páxinas con tipo de coordenadas descoñecidas",
+	"geodata-unknown-type-category-desc": "A páxina usa un valor descoñecido do parámetro <code>type</code> para as coordenadas.",
+	"geodata-unknown-globe-category": "Páxinas con valores de globo descoñecidos",
+	"geodata-unknown-globe-category-desc": "A páxina usa un valor descoñecido do parámetro <code>globe</code> para as coordenadas.",
+	"geodata-unknown-region-category": "Páxinas con valores de rexión incorrectos",
+	"geodata-unknown-region-category-desc": "A páxina usa un valor incorrecto do parámetro <code>region</code> para as coordenadas.",
+	"geodata-api-help-coordinates-format": "Formato: latitude e lonxitude separadas por unha barra vertical (<kbd>|</kbd>).",
+	"geodata-search-feature-invalid-coordinates": "Non se puideron analizar as xeocoordenadas '$2' proporcionadas a '$1'.",
+	"geodata-search-feature-invalid-distance": "A distancia xeográfica '$2' proporcionada en '$1' non puido ser analizada.",
+	"geodata-search-feature-unknown-title": "O título '$2' proporcionado a '$1' non existe.",
+	"geodata-search-feature-title-no-coordinates": "O título '$2' proporcionado a '$1' non ten coordenadas."
+}

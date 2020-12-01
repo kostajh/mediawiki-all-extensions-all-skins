@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Robby",
+			"Shirayuki",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-authors-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of authors extension",
+	"prefs-authors": "Used in [{{canonicalurl:Special:WikiAdmin|mode=Preferences}} Special:WikiAdmin?mode=Preferences], headline of authors section preferences",
+	"bs-authors-title": "Headline of authors below page content\n*$1 is the number of authors - use for PLURAL distinction\n*$2 is the username - use for GENDER distinction\n{{Identical|Author}}",
+	"bs-authors-profileimage": "Image title for profile image, used on user page",
+	"bs-authors-profileimage-change": "Text for change your profile image, shown on user page",
+	"bs-authors-show-all-authors": "Image title for more authors available, used if there are too many authors",
+	"bs-authors-pref-show": "Option in [{{canonicalurl:Special:WikiAdmin|mode=Preferences}} Special:WikiAdmin?mode=Preferences], checkbox label for display authors",
+	"bs-authors-switch-description": "Behaviour switch __NOAUTHORS__ description for hiding authors on this page, shown in InsertMagic.",
+	"bs-authors-navigation-link-title": "Title for link to open graphical list with authors",
+	"bs-authors-navigation-link-text": "Text for link to open graphical list with authors\n{{Identical|Author}}",
+	"bs-authors-flyout-title": "Title of the panel showing authors in the flyout",
+	"bs-authors-author-type-originator": "Label for author type in flyout grid. User that originally created the page",
+	"bs-authors-author-type-editor": "Label for author type in flyout grid. User that edited (contributed to) the page",
+	"apihelp-bs-pageauthors-store-summary": "{{doc-apihelp-summary|bs-pageauthors-store}}"
+}

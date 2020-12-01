@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"edituser": "Mookkaa käyttäjää",
+	"edituser-desc": "Mahollistaa oikeutettujen käyttäjitten mookata toisten käyttäjitten inställninkejä.",
+	"edituser-username": "Käyttäjäkonttu:",
+	"edituser-dosearch": "Hae",
+	"edituser-exempt": "Käyttäjää ”$1” ei voi mookata.",
+	"right-edituser": "Mookata muitten käyttäjitten inställninkejä",
+	"right-edituser-exempt": "Muut eivät voi mookata tämän käyttäjän inställninkejä.",
+	"action-edituser": "mookata muitten käyttäjitten inställninkejä",
+	"action-edituser-exempt": "mookkaa tämän käyttäjän inställninkejä"
+}

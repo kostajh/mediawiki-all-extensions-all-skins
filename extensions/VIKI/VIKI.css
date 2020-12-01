@@ -1,0 +1,199 @@
+/*********************/
+/* Slide Menu        */
+.slide-menu {
+  list-style: none;
+  background: #EEEEEE;
+  position: absolute;
+  top:auto;
+  left:auto;
+  right:auto;
+  bottom:auto;
+  width: 200px;
+  margin: 0 0 0 0 !important;
+  transform: translate3d(200px, 0, 0);
+  transition: all .2s;
+}
+
+.slideover-categoryDiv {
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.categoryCheckbox, .noCategoryCheckbox {
+  float: left;
+}
+
+.categoryCheckboxLabel {
+  margin-left: 25px;
+  display: block;
+}
+
+.menu-container {
+	position: absolute;
+  top:auto;
+  left:auto;
+  right:0;
+  bottom:auto;
+  width: 200px;
+  margin: 0 0 0 0 !important;
+  overflow-x:hidden;
+}
+
+.vikijs-overlay {
+	position: absolute !important;
+  top:auto !important;
+  left:auto !important;
+  right:auto !important;
+  bottom:auto !important;
+}
+.vex-overlay.vikijs-overlay {
+	background: rgba(0,0,0,0.5);
+}
+/*********************/
+
+/*********************/
+/* Animations		 */
+
+@keyframes spinner-flyin {
+  /* manually adjust for final -50% transform */
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -80%);
+    -webkit-transform: translate(-50%, -80%);
+    -moz-transform: translate(-50%, -80%);
+    -ms-transform: translate(-50%, -80%);
+    -o-transform: translate(-50%, -80%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+}
+@keyframes spinner-flyout {
+  /* manually adjust for final -50% transform */
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -80%);
+    -webkit-transform: translate(-50%, -80%);
+    -moz-transform: translate(-50%, -80%);
+    -ms-transform: translate(-50%, -80%);
+    -o-transform: translate(-50%, -80%);
+  }
+}
+
+.vikijs-overlay .vex.vex-theme-default.vex-closing .vex-content {
+  animation: spinner-flyout 0.5s;
+  -webkit-animation: spinner-flyout 0.5s;
+  -moz-animation: spinner-flyout 0.5s;
+  -ms-animation: spinner-flyout 0.5s;
+  -o-animation: spinner-flyout 0.5s;
+  -webkit-backface-visibility: hidden;
+}
+
+.vikijs-overlay .vex.vex-theme-default .vex-content {
+  animation: spinner-flyin 0.5s;
+  animation-delay: 0.1s;
+  -webkit-animation: spinner-flyin 0.5s;
+  -moz-animation: spinner-flyin 0.5s;
+  -ms-animation: spinner-flyin 0.5s;
+  -o-animation: spinner-flyin 0.5s;
+  -webkit-backface-visibility: hidden;
+}
+/*********************/
+
+.vikijs-node text {
+	cursor: pointer;
+}
+
+.vikijs-icon {
+	cursor: pointer;
+}
+
+.vikijs-graph-container {
+	float: left;
+	border: 1px solid blue;
+	overflow: hidden;
+	overflow-x: hidden;
+  position:relative;
+}
+
+.vikijs-subdetail-panel > h4 {
+	margin: 0 0 0 0;
+	padding: 10px 0px 10px 0px;
+  text-align: left;
+}
+
+.vikijs-detail-panel {
+	background-color: white;
+	display: block;
+	float: left;
+	clear: right;
+	left:7px;
+	top:5px;
+	z-index:1;
+	border:1px solid blue;
+	padding-left:10px;
+}
+
+.vikijs-errors-panel {
+	border:1px solid red;
+	border-radius: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	visibility: hidden;
+	font-size: 1.0em;
+	overflow-y: scroll;
+	max-height: 7em;
+}
+
+.vikijs-zoom-slider {
+  float:right;
+/*
+ * adjust the slider up 23px
+ * for some reason the slider was automatically positioned
+ * at the bottom of the container. This will adjust accordingly.
+ */
+/*top:-18px;
+margin-right:10px;*/
+}
+
+.vikijs-hamburger {
+	font-size:4em;
+	line-height: 55%;
+	margin-left: 15px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.contextMenu {
+	display: none;
+}
+
+.categoryContainer {
+	font-size: .85em;
+  width: 100%;
+}
+
+body.vex-open {
+	overflow: auto !important;
+}
+
+.progressbarDiv .ui-progressbar-value.ui-widget-header {
+	background: blue !important;
+	height: 106% !important;
+}

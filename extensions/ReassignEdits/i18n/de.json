@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"SVG"
+		]
+	},
+	"reassignedits": "Bearbeitungen übertragen",
+	"reassignedits-desc": "Ermöglicht die Übertragung von Bearbeitungen vom alten Benutzer auf den neuen Benutzer",
+	"reassignedits-error-invalid": "Der Benutzername „$1“ ist ungültig.",
+	"reassignedits-new": "Neuer Benutzername",
+	"reassignedits-old": "Alter Benutzername",
+	"reassignedits-submit": "Ausführen",
+	"reassignedits-success": "Die Bearbeitungen von Benutzer „$1“ wurden dem Benutzer „$2“ neu zugeordnet.",
+	"reassignedits-summary": "Übertrage Bearbeitungen von einem alten Benutzer einem neuen Benutzer.",
+	"reassignedits-updatelog-title": "Erneuere den Benutzernamen in Logbucheinträgen",
+	"reassignedits-updatelog-user": "Ändere den Benutzernamen des ausführenden Benutzers in den Logbüchern",
+	"action-reassignedits": "Bearbeitungen eines alten Benutzers zu einem neuen Benutzer zu übertragen",
+	"right-reassignedits": "Übertragen von Bearbeitungen eines alten Benutzers zu einem neuen Benutzer"
+}

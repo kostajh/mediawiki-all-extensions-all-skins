@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-contextmenu-desc": "Dèje le menù condestuale pe diverse collegaminde",
+	"prefs-contextmenu": "Menu condestuale",
+	"bs-contextmenu-pref-modus": "Iapre 'u menù condestuale da (none pu mobbile):",
+	"bs-contextmenu-pref-modus-just-right-mouse": "Cazze 'u buttone destre d'u sciorge (Cazzanne CTRL face 'ndrucà 'u menù condestuale predefinite d'u browser)",
+	"bs-contextmenu-pref-modus-ctrl-and-right-mouse": "Cazze 'u buttone destre d'u sciorge e 'nzieme 'u CTRL (Sole 'u buttone destre face 'ndrucà 'u menù condestuale predefinite d'u browser)",
+	"bs-contextmenu-page-edit": "Cange 'a pàgene",
+	"bs-contextmenu-page-delete": "Scangille 'a pàgene",
+	"bs-contextmenu-page-move": "Spuèste 'a pàgene",
+	"bs-contextmenu-page-history": "'Ndruche 'u cunde d'a pàgene",
+	"bs-contextmenu-page-protect": "Prutegge 'a pàgene",
+	"bs-contextmenu-page-purge": "Sdevache 'a cache e 'ndruche 'a pàgene",
+	"bs-contextmenu-page-info": "'Ndruche le 'mbormaziune d'a pàgene",
+	"bs-contextmenu-media-reupload": "Careche 'na versiona nove",
+	"bs-contextmenu-media-view-page": "'Ndruche 'a pàgene de descrizione d'u file e 'u cunde d'u file",
+	"bs-contextmenu-user-mail": "Manne 'n'e-mail",
+	"bs-contextmenu-user-talk": "Lasse 'nu messàgge sus 'a pàgene de le 'ngazzaminde",
+	"bs-contextmenu-file-download": "Scareche 'nu file",
+	"apihelp-bs-contextmenu-tasks-description": "Dèje le vôsce d'u menù condestuale jndr'à 'u condeste",
+	"apihelp-bs-contextmenu-tasks-summary": "Dèje le vôsce d'u menù condestuale jndr'à 'u condeste"
+}

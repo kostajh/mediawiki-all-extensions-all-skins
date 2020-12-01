@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.com>"
+		]
+	},
+	"ldapprovider-desc": "Provides a common infratructure to connect to a LDAP resource and run queries against it",
+	"ldapprovider-config-clientregistry": "Allows registration of custom clients",
+	"ldapprovider-config-domainconfigs": "Stores per domain configs",
+	"ldapprovider-domain-config-not-found": "Could not access configuration file '$1'!\n\nPlease set up a domain configuration file for the LDAPProvider extension.",
+	"ldapprovider-more-than-one": "Found more than one user for '$1'",
+	"ldapprovider-config-domainconfigprovider": "Specifies the mechanism for obtaining the domain configuration",
+	"ldapprovider-config-defaultdomain": "Specifies which domain to choose for a user, if no mapping from the database is available"
+}

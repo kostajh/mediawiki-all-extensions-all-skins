@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"versioncompare": "Comparar versiones",
+	"version-compare-desc": "Ver la comparancia de les versiones de los componentes básicos y estensiones ente dos wikis",
+	"version-compare-database-label": "Base de datos",
+	"version-compare-url-error": "Error al recibir los datos dende $1.",
+	"version-compare-url-field-help-1": "URL de la API (acabada en api.php) de la primera wiki a comparar. Si se dexa en blancu usaráse la wiki actual.",
+	"version-compare-url-field-help-2": "URL de la API (acabada en api.php) de la segunda wiki a comparar. Si se dexa en blancu usaráse la wiki actual.",
+	"version-compare-diff-field-label": "Amosar sólo les diferencies"
+}

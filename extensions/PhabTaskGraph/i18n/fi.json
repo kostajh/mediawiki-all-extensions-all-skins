@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nike"
+		]
+	},
+	"phabtaskgraph-author-field-label": "Tekijä",
+	"phabtaskgraph-status-resolved": "Ratkaistu",
+	"phabtaskgraph-status-invalid": "Virheellinen",
+	"phabtaskgraph-status-declined": "Hylätty",
+	"phabtaskgraph-status-duplicate": "Kaksoiskappale"
+}

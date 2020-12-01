@@ -1,0 +1,78 @@
+{
+	"name": "EventBus",
+	"version": "0.4.0",
+	"author": [
+		"Eric Evans",
+		"Petr Pchelko",
+		"Marko Obrovac"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:EventBus",
+	"descriptionmsg": "eventbus-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.36.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\EventBus\\": "includes/"
+	},
+	"config": {
+		"EnableEventBus": {
+			"value": "TYPE_NONE"
+		},
+		"EventServices": {
+			"value": {
+				"eventbus": {
+					"url": "http://localhost:3000/v1/events",
+					"timeout": 5
+				},
+				"eventgate": {
+					"url": "http://localhost:8192/v1/events",
+					"timeout": 5
+				}
+			}
+		},
+		"EventBusEnableRunJobAPI": {
+			"value": true
+		},
+		"EventServiceDefault": {
+			"value": "eventbus"
+		},
+		"EventBusMaxBatchByteSize": {
+			"value": 4194304
+		}
+	},
+	"MessagesDirs": {
+		"EventBus": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"ArticleDeleteComplete": "MediaWiki\\Extension\\EventBus\\EventBusHooks::onArticleDeleteComplete",
+		"ArticleUndelete": "MediaWiki\\Extension\\EventBus\\EventBusHooks::onArticleUndelete",
+		"PageMoveComplete": "MediaWiki\\Extension\\EventBus\\EventBusHooks::onPageMoveComplete",
+		"ArticleRevisionVisibilitySet": "MediaWiki\\Extension\\EventBus\\EventBusHooks::onArticleRevisionVisibilitySet",
+		"PageSaveComplete": "MediaWiki\\Extension\\EventBus\\EventBusHooks::onPageSaveComplete",
+		"ArticlePurge": "MediaWiki\\Extension\\EventBus\\EventBusHooks::onArticlePurge",
+		"BlockIpComplete": "MediaWiki\\Extension\\EventBus\\EventBusHooks::onBlockIpComplete",
+		"LinksUpdateComplete": "MediaWiki\\Extension\\EventBus\\EventBusHooks::onLinksUpdateComplete",
+		"ArticleProtectComplete": "MediaWiki\\Extension\\EventBus\\EventBusHooks::onArticleProtectComplete",
+		"ChangeTagsAfterUpdateTags": "MediaWiki\\Extension\\EventBus\\EventBusHooks::onChangeTagsAfterUpdateTags",
+		"CentralNoticeCampaignChange": "MediaWiki\\Extension\\EventBus\\EventBusHooks::onCentralNoticeCampaignChange"
+	},
+	"RestRoutes": [
+		{
+			"path": "/eventbus/v0/internal/job/execute",
+			"method": "POST",
+			"class": "MediaWiki\\Extension\\EventBus\\Rest\\RunSingleJobHandler",
+			"services": [
+				"ReadOnlyMode",
+				"MainConfig",
+				"JobRunner"
+			]
+		}
+	],
+	"ServiceWiringFiles": [
+		"ServiceWiring.php"
+	],
+	"manifest_version": 2
+}

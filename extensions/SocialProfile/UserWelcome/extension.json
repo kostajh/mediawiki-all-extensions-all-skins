@@ -1,0 +1,32 @@
+{
+	"name": "UserWelcome",
+	"author": [
+		"David Pean",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:UserWelcome",
+	"descriptionmsg": "userwelcome-desc",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"UserWelcome": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"UserWelcome": "includes/UserWelcome.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "UserWelcome::onParserFirstCallInit"
+	},
+	"ResourceModules": {
+		"ext.socialprofile.userwelcome.css": {
+			"styles": "css/UserWelcome.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "SocialProfile/UserWelcome/resources"
+	},
+	"manifest_version": 1
+}

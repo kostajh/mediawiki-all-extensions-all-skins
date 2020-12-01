@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"logentry-append": "Anexar",
+	"logentry-parserhook-desc": "Esta extensión proporciona un formulario para anexar/prefixar ás páxinas de rexistros",
+	"logentry-specialpage-desc": "Esta extensión proporciona un proceso para anexar ás páxinas de rexistros",
+	"logentry": "Entrada do rexistro",
+	"logentry-invalidpage": "Páxina non válida: $1",
+	"logentry-invalidtoken": "Pase incorrecto"
+}

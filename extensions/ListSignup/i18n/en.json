@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ike Hecht"
+		]
+	},
+	"listsignup": "List signup",
+	"listsignup-desc": "Custom list signup form",
+	"listsignup-legend": "Enter your information below.",
+	"listsignup-success": "Your email address was submitted.",
+	"listsignupdisplay": "List signup display",
+	"listsignuppurge": "List signup purge",
+	"listsignuppurge-legend": "Purge all information from the signup list",
+	"listsignuppurge-pretext": "'''Warning!''' This will remove all addresses from the list. This action cannot be undone.",
+	"listsignuppurge-success": "The list was purged!",
+	"right-viewlistsignupdisplay": "View the signup list",
+	"right-purgelistsignupdisplay": "Purge the signup list",
+	"action-viewlistsignupdisplay": "view the signup list",
+	"action-purgelistsignupdisplay": "purge the signup list"
+}

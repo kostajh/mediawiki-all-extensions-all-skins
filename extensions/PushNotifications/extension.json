@@ -1,0 +1,23 @@
+{
+	"name": "PushNotifications",
+	"author": [
+		"Wikimedia Product Infrastructure Team"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PushNotifications",
+	"descriptionmsg": "pushnotifications-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\PushNotifications\\": "includes/"
+	},
+	"config": {},
+	"MessagesDirs": {
+		"PushNotifications": [
+			"i18n"
+		]
+	},
+	"manifest_version": 2
+}

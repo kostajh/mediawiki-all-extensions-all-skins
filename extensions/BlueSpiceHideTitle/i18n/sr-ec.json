@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"bs-hidetitle-desc": "Додаје магичну реч <code><nowiki>__HIDETITLE__</nowiki></code> да сакрије назив странице.",
+	"bs-hidetitle-ve-dialog-meta-settings-showtitle": "Прикажи",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle": "Сакриј",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-label": "Видљивост наслова",
+	"bs-hidetitle-ve-dialog-meta-settings-hidetitle-help": "Овде можете дефинисати да ли ће се наслов приказивати или не."
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil"
+		]
+	},
+	"page-creation-notif-desc": "Skickar e-post-meddelande när nya sidor skapas",
+	"page-creation-notification": "E-posta mig när en ny sida skapas",
+	"page-creation-email-subject": "Ny sida - $1 {{GENDER:$3|skapad}} på $2 av $3",
+	"page-creation-email-body": "Hej $1,\n\nDetta är ett meddelande från {{SITENAME}} om att en ny sida $2 har {{GENDER:$3|skapats}} av användare $3.\n\nDu hittar den på\n$4\n\nTexten på sidan är:\n$5\n\nVänligen {{SITENAME}}s meddelandesystem.\n\nFör att ändra dina e-postinställningar, besök\n{{canonicalurl:{{#special:Preferences}}}}"
+}

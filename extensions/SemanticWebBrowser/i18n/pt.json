@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"SandroHc",
+			"Vitorvicentevalente"
+		]
+	},
+	"browsesw": "Navegar na wiki e na Internet semântica",
+	"swb_desc": "Acrescenta uma página especial [[Special:BrowseSW|Navegar na wiki e na Internet semântica]]",
+	"swb_browse_article": "Insira o nome da página a partir da qual deseja começar a navegação semântica.",
+	"swb_browse_go": "Continuar",
+	"swb_browse_show_incoming": "mostrar propriedades de entrada que liguem aqui",
+	"swb_browse_hide_incoming": "ocultar propriedades de entrada que liguem aqui",
+	"swb_browse_no_outgoing": "Esta página não tem propriedades.",
+	"swb_browse_no_incoming": "Não há propriedades ligadas a esta página.",
+	"swb_inverse_label_property": "Etiqueta da propriedade inversa",
+	"swb_inverse_label_default": "$1 de",
+	"swb_browse_error": "Não foi possível carregar os dados semânticos no Semantic Web Browser devido a um erro:"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"ldapauthorization-desc": "Ограничава пријаву на основу одређених LDAP вредности"
+}

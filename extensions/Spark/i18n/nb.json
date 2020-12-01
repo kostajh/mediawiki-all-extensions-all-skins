@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"spark-desc": "Legger til en <code><nowiki><spark /></nowiki></code>-tagg som gjør det mulig å bygge inn mashups fra [http://km.aifb.kit.edu/sites/spark/ Spark]",
+	"spark-missing-query": "Du må spesifisere en spørring ved å bruke parameteren «data-spark-query»."
+}

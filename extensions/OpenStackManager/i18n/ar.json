@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"أحمد المحمودي",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"openstackmanager-desc": "يتيح للمستخدمين تسجيل حسابات shell وإدارة مفاتيح SSH الخاصة بهم",
+	"openstackmanager": "OpenStackManager",
+	"novakey": "قم بإدارة مفاتيح SSH العامة الخاصة بك",
+	"specialpages-group-nova": "أوبن ستاك نوفا",
+	"openstackmanager-novakey": "مفتاح نوفا",
+	"openstackmanager-delete": "حذف",
+	"openstackmanager-hiera-disabled": "هذه الصفحات لم تعد مستخدمة من قبل cloud-vps؛ يمكن تعديل الدمية وhiera config في Horizon.",
+	"openstackmanager-actions": "أفعال",
+	"openstackmanager-notloggedin": "تسجيل الدخول مطلوب",
+	"openstackmanager-mustbeloggedin": "يجب عليك تسجيل الدخول لتنفيذ هذا الإجراء.",
+	"openstackmanager-novapublickey": "مفتاح SSH العام:",
+	"openstackmanager-prefs-novapublickey": "مفاتيح SSH العامة:",
+	"openstackmanager-deletekey": "احذف مفتاح SSH العام",
+	"openstackmanager-deletekeyconfirm": "هل أنت متأكد من رغبتك في حذف المفتاح أعلاه؟",
+	"openstackmanager-keylist": "قائمة مفاتيح SSH العامة",
+	"openstackmanager-addkey": "إضافة مفتاح SSH عام",
+	"openstackmanager-name": "الاسم",
+	"openstackmanager-fingerprint": "البصمة",
+	"openstackmanager-keys": "المفاتيح",
+	"openstackmanager-keypairimportfailed": "فشل استيراد زوج مفاتيح.",
+	"openstackmanager-keypairimported": "تم استيراد زوج مفاتيح.",
+	"openstackmanager-keypairimportedfingerprint": "تم استيراد زوج المفاتيح $1 ببصمة $2.",
+	"openstackmanager-keypairformatwrong": "كان مفتاح SSH المقدم خاطئا أو بتنسيق غير معروف.",
+	"openstackmanager-keypairformatconverted": "تم تحويل تنسيق مفتاح SSH تلقائيا.",
+	"openstackmanager-deletedkey": "تم حذف المفتاح.",
+	"openstackmanager-deletedkeyfailed": "فشل حذف المفتاح.",
+	"openstackmanager-shellaccountname": "اسم حساب قذيفة المثال",
+	"openstackmanager-shellaccountname-pref": "اسم حساب قذيفة المثال",
+	"openstackmanager-shellaccountnamehelp": "اسم حساب القذيفة مطلوب،\nيجب أن يبدأ بـ ا-ب، ولا يمكن أن يحتوي إلا على أحرف صغيرة a-z، و0-9 ، وأحرف -.",
+	"openstackmanager-shellaccountvalidationfail": "اسم حساب القذيفة الخاص بك غير صالح;\nيجب أن يبدأ بـ ا-ب، ولا يمكن أن يحتوي إلا على أحرف صغيرة a-z، و0-9 ، وأحرف -.",
+	"openstackmanager-shellaccountexists": "اسم حساب القذيفة هذا قيد الاستخدام بالفعل.",
+	"prefs-openstack": "أوبن ستاك",
+	"prefs-openstack-keys": "القائمة الرئيسية"
+}

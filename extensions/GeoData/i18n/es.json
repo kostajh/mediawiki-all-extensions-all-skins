@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Csbotero",
+			"Dgstranz",
+			"Fitoschido",
+			"KATRINE1992",
+			"Macofe",
+			"Ryo567"
+		]
+	},
+	"geodata-desc": "Agrega la funcionalidad de almacenamiento y recuperación de coordenadas geográficas",
+	"geodata-bad-input": "Se han pasado argumentos no válidos a la función <nowiki>{{#coordinates:}}</nowiki>",
+	"geodata-bad-latitude": "<nowiki>{{#coordinates:}}</nowiki>: latitud no válida",
+	"geodata-bad-longitude": "<nowiki>{{#coordinates:}}</nowiki>: longitud no válida",
+	"geodata-bad-type": "<nowiki>{{#coordinates:}}</nowiki>: tipo \"$1\" no reconocido",
+	"geodata-bad-globe": "<nowiki>{{#coordinates:}}</nowiki>: globo \"$1\" no reconocido",
+	"geodata-bad-region": "<nowiki>{{#coordinates:}}</nowiki>: formato de código de región no válido",
+	"geodata-multiple-primary": "<nowiki>{{#coordinates:}}</nowiki>: no puede tener más de una etiqueta principal por página",
+	"geodata-limit-exceeded": "El límite de $1 {{PLURAL:$1|etiqueta|etiquetas}} <nowiki>{{#coordinates:}}</nowiki> por página ha sido superado",
+	"geodata-broken-tags-category": "Páginas con etiquetas de coordenadas con formato incorrecto",
+	"geodata-broken-tags-category-desc": "Esta página contiene una etiqueta <code><nowiki>{{#coordinates:}}</nowiki></code> con formato incorrecto.",
+	"geodata-unknown-type-category": "Páginas con tipo de coordenadas desconocido",
+	"geodata-unknown-type-category-desc": "Esta página utiliza un valor desconocido en el parámetro <code>type</code> de las coordenadas.",
+	"geodata-unknown-globe-category": "Páginas con valor de mundo desconocido",
+	"geodata-unknown-globe-category-desc": "Esta página utiliza un valor desconocido en el parámetro <code>globe</code> de las coordenadas.",
+	"geodata-unknown-region-category": "Páginas con valor de región no válido",
+	"geodata-unknown-region-category-desc": "Esta página utiliza un valor no válido en el parámetro <code>region</code> de las coordenadas.",
+	"geodata-api-help-coordinates-format": "Formato: latitud y longitud separadas por una barra vertical (<kbd>|</kbd>).",
+	"geodata-search-feature-invalid-coordinates": "No se han podido analizar las geocoordenadas «$2» proporcionadas a «$1».",
+	"geodata-search-feature-invalid-distance": "No se ha podido analizar la geodistancia «$2» proporcionada a «$1».",
+	"geodata-search-feature-unknown-title": "El título «$2» proporcionado a «$1» no existe.",
+	"geodata-search-feature-title-no-coordinates": "El título «$2» proporcionado a «$1» no tiene coordenadas."
+}

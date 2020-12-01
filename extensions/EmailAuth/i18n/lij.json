@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
+	"emailauth-desc": "O veifica i accesci sospetti trammite posta elettronnica.",
+	"emailauth-token-label": "Codiçe de veifica",
+	"emailauth-token-help": "Token 2FA usa e getta mandou pe e-mail",
+	"emailauth-email-subject": "O to coddiçe de veifica d'accesso inte $1",
+	"emailauth-email-body": "O to coddiçe de veifica d'accesso inte $1 o l'è $2",
+	"emailauth-login-message": "Ti devi veificâ o to accesso. Un codiçe de veifica o l'è stæto inviou a-o to adresso de posta elettronnica ($1), inseisci o coddiçe chì.",
+	"emailauth-login-failure": "Coddiçe de veifica non vallido!",
+	"emailauth-login-retry-limit": "Troppi tentativi falii!"
+}

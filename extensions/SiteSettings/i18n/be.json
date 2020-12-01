@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Artificial123",
+			"Macofe"
+		]
+	},
+	"sitesettings-desc": "Дапускае змену параметраў праз інтэрфейс Вікі",
+	"sitesettings-sitename": "Назва сайта:",
+	"sitesettings-usesubpages": "Выкарыстоўвайце <a href=\"https://www.mediawiki.org/wiki/special:MyLanguage/Help:Subpages\">subpages</a>",
+	"sitesettings-allowexternalimages": "Дазволіць знешнія выявы",
+	"sitesettings-public": "Публічны",
+	"sitesettings-private": "Прыватны",
+	"sitesettings-openreg": "Адкрыць",
+	"sitesettings-openeditingdesc": "Кожны можа рэдагаваць",
+	"sitesettings-uploadlogo": "Загрузіць лагатып:",
+	"sitesettings-currentlogo": "Цяперашні лагатып:",
+	"sitesettings-uploadfavicon": "Загрузіць favicon (яго варта было б назваць <code>favicon.ico</code>):",
+	"sitesettings-currentfavicon": "Цяперашні favicon:"
+}

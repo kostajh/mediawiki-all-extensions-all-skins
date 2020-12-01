@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"gotoshell": "Gå til kommandolinje",
+	"gotoshell-desc": "Implementerer [[Special:GoToShell|en spesialside]] som lar brukeren gå til kommandolinjen",
+	"gotoshell-notallowed": "Kontoen din har ikke tillatelse til å gå til kommandolinjen.",
+	"gotoshell-disabled": "Kunne ikke kjøre eksterne programmer, proc_open() er slått av.",
+	"gotoshell-command": "Kommando:",
+	"gotoshell-result": "Resultat:",
+	"action-gotoshell": "kjøre kommondalinjekommandoer via spesialsiden GoToShell",
+	"right-gotoshell": "Kjør shell-kommandoer via spesialsiden GoToShell"
+}

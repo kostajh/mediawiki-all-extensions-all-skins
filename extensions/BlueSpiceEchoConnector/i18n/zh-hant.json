@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-echoconnector-extension-description": "以 Echo 來連接 BlueSpice",
+	"echo-category-title-bs-admin-cat": "管理任務",
+	"echo-pref-tooltip-bs-admin-cat": "當有新的使用者帳號建立時通知我",
+	"echo-pref-tooltip-bs-page-actions-cat": "當有人對我所監視的頁面作出編輯、移動、刪除時通知我",
+	"echo-pref-tooltip-bs-page-create-cat": "當建立新頁面時通知我",
+	"echo-category-title-bs-page-actions-cat": "在監視清單裡的頁面上操作",
+	"echo-category-title-bs-page-create-cat": "頁面建立",
+	"prefs-namespace-notifications": "在命名空間事件上的通知",
+	"prefs-category-notifications": "在分類上的通知",
+	"echo-category-title-bs-namespace-category-notify-cat": "在訂閱的命名空間與分類的更改"
+}

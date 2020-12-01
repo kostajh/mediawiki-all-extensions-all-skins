@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"accountinfo": "Informations du compte",
+	"accountinfo-desc": "Permet à un utilisateur de voir des informations privées stockées sur lui",
+	"accountinfo-ts": "Horodatage",
+	"accountinfo-ip": "Adresse IP",
+	"accountinfo-ua": "Agent utilisateur",
+	"accountinfo-xff": "Entête XFF",
+	"accountinfo-length": "L’information est conservée pour $1.",
+	"accountinfo-now": "Maintenant"
+}

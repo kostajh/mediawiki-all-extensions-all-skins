@@ -1,0 +1,71 @@
+{
+	"name": "Cognate",
+	"author": [
+		"Gabriel Birke <gabriel.birke@wikimedia.de>",
+		"Addshore"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Cognate",
+	"descriptionmsg": "cognate-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"AutoloadClasses": {
+		"Cognate\\CognateHooks": "src/CognateHooks.php",
+		"Cognate\\CognateRepo": "src/CognateRepo.php",
+		"Cognate\\CognateServices": "src/CognateServices.php",
+		"Cognate\\CognateStore": "src/CognateStore.php",
+		"Cognate\\CognateUpdater": "src/CognateUpdater.php",
+		"Cognate\\CacheInvalidator": "src/CacheInvalidator.php",
+		"Cognate\\LocalJobSubmitJob": "src/LocalJobSubmitJob.php",
+		"Cognate\\CacheUpdateJob": "src/CacheUpdateJob.php",
+		"Cognate\\StringNormalizer": "src/StringNormalizer.php",
+		"Cognate\\StringHasher": "src/StringHasher.php",
+		"Cognate\\CognatePageHookHandler": "src/hooks/CognatePageHookHandler.php",
+		"Cognate\\CognateParseHookHandler": "src/hooks/CognateParseHookHandler.php"
+	},
+	"TestAutoloadClasses": {
+		"Cognate\\Tests\\CheckSystemReqsTrait": "tests/phpunit/CheckSystemReqsTrait.php"
+	},
+	"JobClasses": {
+		"CognateLocalJobSubmitJob": "Cognate\\LocalJobSubmitJob",
+		"CognateCacheUpdateJob": "Cognate\\CacheUpdateJob"
+	},
+	"config": {
+		"CognateDb": {
+			"description": "The database to use for storing Cognate data. The default is to use the db of the current site.",
+			"value": false
+		},
+		"CognateCluster": {
+			"description": "The cluster to use for storing Cognate data. The default is to use the cluster / server of the current site. See $wgLBFactoryConf.",
+			"value": false
+		},
+		"CognateReadOnly": {
+			"description": "Sets the CognateStore to be read only. This will mean the cognate_pages and cognate_titles tables will become out of sync with reality and populateCognatePages.php will have to be run after read only mode is disabled as well as deleted pages purged from the table.",
+			"value": false
+		},
+		"CognateNamespaces": {
+			"description": "The namespace IDs to run Cognate for. For links to work between sites these IDs must be the same across sites.",
+			"value": [
+				0
+			]
+		}
+	},
+	"ServiceWiringFiles": [
+		"src/ServiceWiring.php"
+	],
+	"Hooks": {
+		"ContentAlterParserOutput": "Cognate\\CognateHooks::onContentAlterParserOutput",
+		"WikiPageDeletionUpdates": "Cognate\\CognateHooks::onWikiPageDeletionUpdates",
+		"ArticleUndelete": "Cognate\\CognateHooks::onArticleUndelete",
+		"LoadExtensionSchemaUpdates": "Cognate\\CognateHooks::onLoadExtensionSchemaUpdates"
+	},
+	"callback": "Cognate\\CognateHooks::onRegistration",
+	"MessagesDirs": {
+		"Cognate": [
+			"i18n"
+		]
+	},
+	"manifest_version": 2
+}

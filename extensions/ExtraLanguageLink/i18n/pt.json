@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"extralanguagelink-desc": "Adiciona hiperligações interlínguas extra na secção \"noutros idiomas\" da barra lateral",
+	"extralanguagelink-param-class": "classe",
+	"extralanguagelink-param-hreflang": "hreflang",
+	"extralanguagelink-param-lang": "língua",
+	"extralanguagelink-param-style": "estilo",
+	"extralanguagelink-param-title": "título",
+	"extralanguagelink-badinterwiki": "O prefixo interwikis \"$1:\" não consta da lista de prefixos interwikis permitidos.",
+	"extralanguagelink-badtitle": "Não foi possível analisar o título da página \"$1\"."
+}

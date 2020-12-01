@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kunal Mehta"
+		]
+	},
+	"helppages-desc": "Automatically fetches help pages from [https://www.mediawiki.org mediawiki.org]",
+	"helppages-notice": "This page was downloaded from [https://www.mediawiki.org/?oldid=$1 mediawiki.org] and can be edited there.",
+	"helppages-edit-tab": "Edit on MediaWiki.org"
+}

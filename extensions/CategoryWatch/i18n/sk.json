@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"categorywatch-desc": "Rozširuje funkcionality zoznamu sledovaných na upozornenia o zmene členstva sledovaných kategórií.",
+	"categorywatch-emailsubject": "Aktivita týkajúca sa sledovanej kategórie „$1”",
+	"categorywatch-catmovein": "presunul $1 do kategórie $2 z $3",
+	"categorywatch-catmoveout": "presunul $1 z kategórie $2 do $3",
+	"categorywatch-catadd": "pridal $1 do kategórie $2",
+	"categorywatch-catsub": "odstránil $1 z kategórie $2",
+	"categorywatch-autocat": "Automaticky sleduje $1"
+}

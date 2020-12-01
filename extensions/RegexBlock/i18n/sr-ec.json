@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"FriedrickMILBarbarossa",
+			"Rancher",
+			"Sasa Stefanovic",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић"
+		]
+	},
+	"regexblock-block-success": "Успешно блокирање",
+	"regexblock-currently-blocked": "Актуелно блокиране адресе:",
+	"regexblock-page-title-1": "Блокирај адресу користећи регуларне изразе",
+	"regexblock-form-username": "IP адреса или корисничко име:",
+	"regexblock-form-reason": "Разлог:",
+	"regexblock-form-match": "Тачно поклапање",
+	"regexblock-form-submit": "Блокирај овог корисника",
+	"regexblock-view-all": "Све",
+	"regexblock-view-go": "Иди",
+	"regexblock-view-reason": "разлог: $1",
+	"regexblock-view-reason-default": "општи разлог",
+	"regexblock-view-block-infinite": "трајна блокада",
+	"regexblock-view-block-by": "блокирао:",
+	"regexblock-view-block-unblock": "одблокирај",
+	"regexblock-view-stats": "статистике",
+	"regexblock-view-time": "$2 у $3"
+}

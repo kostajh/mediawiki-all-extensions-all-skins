@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Dansita",
+			"Sarah Bernabei",
+			"Selven"
+		]
+	},
+	"action-configmanager-viewspecialpage": "vedere la pagina speciale \"{{int:configmanager}}\"",
+	"configmanager-desc": "Offre la possibilità agli amministratori, di configurare tutta la wiki da un'unica pagina speciale",
+	"configmanager-noentry": "Nessun dato trovato",
+	"apihelp-configmanager-tasks-summary": "Gestisci attività",
+	"apihelp-configmanager-store-summary": "Gestisci gli archivi",
+	"right-configmanager-viewspecialpage": "Accede alla pagina speciale [[Special:ConfigManager]]"
+}

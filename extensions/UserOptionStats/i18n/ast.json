@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"useroptionstats": "Estadístiques d'opciones d'usuariu",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Páxina especial]] pa informar del usu de les opciones d'usuariu de MediaWiki",
+	"uos-warn": "¡PHPlot nun ta instaláu!",
+	"uos-choose": "Escueya una de les siguientes opciones d'usuariu: $1",
+	"uos-choose-hidden": "Escueya una de les siguientes opciones d'usuariu tapecíes: $1",
+	"uos-unknown": "*Predeterminao",
+	"uos-other": "*Otru",
+	"uos-title": "Distribución de los valores de la opción d'usuariu \"$1\""
+}

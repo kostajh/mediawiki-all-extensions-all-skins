@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"indexfunc-desc": "Parserska funkcija koja stvara automatska preusmjerenja i čvor stranice",
+	"indexfunc-badtitle": "Pogrešni naslov: \"$1\"",
+	"indexfunc-index-exists": "Stranica \"$1\" već postoji",
+	"index": "Indeksna pretraga",
+	"index-legend": "Pretraživanje indeksa",
+	"index-search": "Traži:",
+	"index-submit": "Pošalji",
+	"index-disambig-start": "'''$1''' može se odnositi na nekoliko stranica:",
+	"index-emptylist": "Nema stranica povezanih sa \"$1\"",
+	"index-expand-detail": "Prikaži stranice indeksirane pod ovim naslovom",
+	"index-hide-detail": "Sakrij spisak stranica",
+	"index-no-results": "Pretraga nije dala ništa."
+}

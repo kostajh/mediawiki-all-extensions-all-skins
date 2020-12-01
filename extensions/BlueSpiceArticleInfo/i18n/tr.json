@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Mirzali",
+			"Rapsar",
+			"Sayginer"
+		]
+	},
+	"bs-articleinfo-desc": "Durum çubuğundaki bir sayfa hakkında bilgi sağlar",
+	"prefs-articleinfo": "Sayfa bilgisi",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Saniye cinsinden güncelleme aralığı:",
+	"bs-articleinfo-flyout-title": "Sayfa bilgisi",
+	"bs-articleinfo-flyout-intro": "Sayfa ile ilgili bilgileri burada bulabilirsiniz. Kalitesini ve güncelliğini kontrol edebilir ve vikideki diğer sayfalarla nasıl ilişkili olduğunu görebilirsiniz.",
+	"bs-articleinfo-nav-link-title": "Sayfa bilgisi",
+	"bs-articleinfo-flyout-categorylinks-title": "Kategoriler",
+	"bs-articleinfo-flyout-templatelinks-title": "Sayfada kullanılan şablonlar",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Hiçbir kategori atanmadı",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Hiç şablon kullanılmadı",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Son düzenleme",
+	"bs-articleinfo-flyout-lastediteduser-text": "Son düzenleyen",
+	"bs-articleinfo-newrevision-info-text": "Bu sayfanın yeni bir sürümü mevcut. Lütfen mevcut içeriği görüntülemek için sayfayı yeniden yükleyin.",
+	"bs-articleinfo-newrevision-info-text-reload": "Bu sayfanın yeni bir sürümü mevcut. Geçerli içeriği görüntülemek için lütfen sayfayı [[:$1|yeniden yükleyin]].",
+	"bs-articleinfo-flyout-subpages-title": "Alt sayfalar",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Alt sayfalar",
+	"bs-articleinfo-dialog-subpages-title": "Alt sayfalar",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "\"Son düzenleme\" değeri için yenileme hızını ayarlar. Bu değer, kalite yönetim araçları altındaki sayfa bilgilerinde görüntülenir."
+}

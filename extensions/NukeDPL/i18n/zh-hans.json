@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"nukedpl": "通过DPL查询大量删除",
+	"nukedpl-desc": "加入用于通过DPL查询大量删除的[[Special:NukeDPL|特殊页面]]",
+	"nukedpl-intro": "此工具允许通过DPL查询大量删除选中页面。\n在下方输入查询以生成待删除标题列表。\n* 标题可在删除前被单独移除。\n* 记住，页面标题区分大小写。\n* 查询不应被任何DPL标签或括号包围。\n* 关于更多参数信息，参见[http://semeb.com/dpldemo/index.php?title=DPL:Manual DPL手册]。",
+	"nukedpl-candidatelist": "查看候选列表",
+	"nukedpl-nopages": "没有页面可使用DPL查询删除：<code>$1</code>",
+	"nukedpl-nuke": "大量删除！",
+	"nukedpl-list": "以下$1个页面已被DPL查询选中：<code>$2</code>\n\n输入“{{int:nukedpl-nuke}}”以将其删除。",
+	"nukedpl-defaultreason": "已选择通过DPL查询大量移除的页面：$1",
+	"right-nukedpl": "通过动态页面列表（DPL）查询大量删除页面"
+}

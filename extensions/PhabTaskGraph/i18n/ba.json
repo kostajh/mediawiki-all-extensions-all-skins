@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ансар",
+			"Ләйсән"
+		]
+	},
+	"phabtaskgraph-author-field-label": "автор",
+	"phabtaskgraph-owner-field-label": "Эйә",
+	"phabtaskgraph-projects-field-label": "Проекттар",
+	"phabtaskgraph-status-field-label": "Торошо",
+	"phabtaskgraph-width-field-label": "Киңлек",
+	"phabtaskgraph-height-field-label": "Бейеклек",
+	"phabtaskgraph-status-open": "Асыҡ",
+	"phabtaskgraph-status-invalid": "Яраҡһыҙ",
+	"phabtaskgraph-status-duplicate": "ҡабатлау"
+}

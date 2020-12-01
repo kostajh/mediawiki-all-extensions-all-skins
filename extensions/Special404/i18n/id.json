@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"IvanLanin"
+		]
+	},
+	"special404-desc": "Menyediakan suatu tujuan untuk galat 404 Tidak ditemukan",
+	"error404": "404 Tidak ditemukan",
+	"special404-body": "URL yang diminta tidak ditemukan. \n\nApakah Anda bermaksud mengetik {{fullurl:$1}}? \n\nMungkin Anda ingin melihat: \n* [[{{MediaWiki:Mainpage}}|Halaman utama]]"
+}

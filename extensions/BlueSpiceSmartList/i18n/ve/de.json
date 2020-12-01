@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"bs-smartlist-ve-smartlist-title": "SmartList",
+	"bs-smartlist-ve-smartlistinspector-count": "Anzahl",
+	"bs-smartlist-ve-smartlistinspector-ns": "Namensraum/Namensräume",
+	"bs-smartlist-ve-smartlistinspector-cat": "Kategorie",
+	"bs-smartlist-ve-smartlistinspector-minor": "Kleine Änderungen anzeigen",
+	"bs-smartlist-ve-smartlistinspector-catmode": "Kategoriemodus",
+	"bs-smartlist-ve-smartlistinspector-period": "Zeitraum",
+	"bs-smartlist-ve-smartlistinspector-new": "Nur neue Artikel anzeigen",
+	"bs-smartlist-ve-smartlistinspector-heading": "Überschrift",
+	"bs-smartlist-ve-smartlistinspector-trim": "Kürzen",
+	"bs-smartlist-ve-smartlistinspector-showtext": "Text anzeigen",
+	"bs-smartlist-ve-smartlistinspector-trimtext": "Text kürzen",
+	"bs-smartlist-ve-smartlistinspector-sort": "Sortieren nach",
+	"bs-smartlist-ve-smartlistinspector-order": "Sortierreihenfolge",
+	"bs-smartlist-ve-smartlistinspector-showns": "Namensräume anzeigen",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "Zahl mit Text",
+	"bs-smartlist-ve-smartlistinspector-meta": "Meta",
+	"bs-smartlist-ve-smartlistinspector-target": "Ziel",
+	"bs-smartlist-ve-smartlistinspector-excludens": "Namensraum/Namensräume ausschließen",
+	"bs-smartlist-ve-period-day-label": "Tag",
+	"bs-smartlist-ve-period-week-label": "Woche",
+	"bs-smartlist-ve-period-month-label": "Monat",
+	"bs-smartlist-ve-sort-time-label": "Zeit",
+	"bs-smartlist-ve-sort-title-label": "Titel",
+	"bs-smartlist-ve-newbies-title": "Neulinge",
+	"bs-smartlist-ve-newbiesinspector-count": "Anzahl",
+	"bs-smartlist-ve-toplist-title": "TopList",
+	"bs-smartlist-ve-toplistinspector-count": "Anzahl",
+	"bs-smartlist-ve-toplistinspector-ns": "Namensraum/Namensräume",
+	"bs-smartlist-ve-toplistinspector-cat": "Kategorie",
+	"bs-smartlist-ve-toplistinspector-period": "Zeitraum",
+	"bs-smartlist-ve-toplistinspector-portletperiod": "Portlet-Zeitraum",
+	"bs-smartlist-ve-mode-recentchanges-label": "Letzte Änderungen",
+	"bs-smartlist-ve-mode-changesofweek-label": "Änderungen der Woche"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cgboeree",
+			"Katxis",
+			"Malafaya"
+		]
+	},
+	"globalusage": "Usa global de fix",
+	"globalusage-ok": "Xerca",
+	"globalusage-on-wiki": "Usa en $2",
+	"globalusage-of-file": "La otra vicis seguente usa esta fix:",
+	"globalusage-more": "Mostra [[{{#Special:GlobalUsage}}/$1|plu usas global]] de esta fix."
+}

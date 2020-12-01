@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"createtopicpage": "Создај страница",
+	"articleplaceholder-desc": "Дава службена страница со информации од {{WBREPONAME}} за извесна тема и покана за создавање на статија на таа тема",
+	"articleplaceholder-abouttopic": "За тема",
+	"articleplaceholder-abouttopic-intro": "Оваа службена страница ви дава краток преглед на темата  на основа на податоците од {{WBREPONAME}}.",
+	"articleplaceholder-abouttopic-entityid": "Внесете назнака на предметот, како на пр. Q12345",
+	"articleplaceholder-abouttopic-submit": "изработи",
+	"articleplaceholder-abouttopic-no-entity-error": "Ова не е важечка назнака на предметот.",
+	"articleplaceholder-abouttopic-create-article-title": "Создајте нова статија",
+	"articleplaceholder-abouttopic-create-article-label": "Наслов на статијата",
+	"articleplaceholder-abouttopic-create-article-mandatory": "Насловот на статијата е задолжителен.",
+	"articleplaceholder-abouttopic-create-article-button": "Создај статија",
+	"articleplaceholder-abouttopic-create-empty-article-button": "Започнете нова статија",
+	"articleplaceholder-abouttopic-translate-article-label": "Изворен јазик:",
+	"articleplaceholder-abouttopic-translate-article-button": "Преведи статија",
+	"articleplaceholder-abouttopic-create-article-submit-button": "Поднеси",
+	"articleplaceholder-abouttopic-article-exists-error": "Веќе постои статија со тоа име.",
+	"articleplaceholder-abouttopic-lua-entity": "Единица",
+	"articleplaceholder-abouttopic-lua-reference": "Навод",
+	"articleplaceholder-abouttopic-lua-identifier": "Надворешни ресурси",
+	"articleplaceholder-search-header": "Откријте ги податоците на темата",
+	"articleplaceholder-createpage-title": "Создај $1",
+	"articleplaceholder-createpage-alreadyexists": "Страницата со наслов $1 веќе постои. Одберете друга.",
+	"articleplaceholder-createpage-notitleprovided": "Немате внесено наслов. Внесете наслов за страницата што сакате да ја создадете.",
+	"articleplaceholder-createpage-invalidtitleprovided": "Внесениот наслов е неважечки. Внесете важечки наслов."
+}

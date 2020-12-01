@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hzy980512",
+			"Liuxinyu970226",
+			"Shirayuki",
+			"Xiaomingyan",
+			"Yfdyh000"
+		]
+	},
+	"tweetanew-desc": "创建或编辑页面时发布推文",
+	"tweetanew-newaction": "该新页面的广播",
+	"tweetanew-newtooltip": "发送该新页面的信息至Twitter",
+	"tweetanew-editaction": "推此编辑",
+	"tweetanew-edittooltip": "发送有关此编辑的信息到Twitter",
+	"tweetanew-minoredit": "小",
+	"tweetanew-authorcredit": "由",
+	"tweetanew-newdefault": "新页面：$1~$2",
+	"tweetanew-new1": "看起来$1已于$2创建",
+	"tweetanew-new2": "$1刚刚已于$2创建",
+	"tweetanew-new3": "查阅$2——它在$1有新页面",
+	"tweetanew-editdefault": "已更新页面：$1 - $2",
+	"tweetanew-edit1": "看起来$1已于$2更新",
+	"tweetanew-edit2": "$1刚刚已于$2更新",
+	"tweetanew-edit3": "查阅$2——它在$1有一些新内容"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"EileenSanda"
+		]
+	},
+	"quiz_desc": "Loyvir upprættan av spurnarkappingum",
+	"quiz_legend_correct": "Rætt",
+	"quiz_legend_incorrect": "Skeivt",
+	"quiz_legend_unanswered": "Onki svar",
+	"quiz_legend_error": "Syntaks feilur",
+	"quiz_correction": "Send inn"
+}

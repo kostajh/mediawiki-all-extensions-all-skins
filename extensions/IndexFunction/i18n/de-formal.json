@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geitost",
+			"Imre",
+			"The Evil IP address"
+		]
+	},
+	"indexfunc-editwarning": "Achtung:\nDieser Titel ist ein Indextitel für die {{PLURAL:$2|folgende Seite|folgenden Seiten}}:\n$1\nStellen Sie sicher, dass die Seite, die Sie erstellen, nicht bereits unter anderem Titel existiert.\nWenn Sie diese Seite erstellen, entfernen Sie diesen Titel vom <nowiki>{{#index:}}</nowiki> auf {{PLURAL:$2|der obigen Seite|den obigen Seiten}}.",
+	"indexfunc-movewarn": "Achtung:\n„$1” ist ein Indextitel für die {{PLURAL:$3|folgende Seite|folgenden Seiten}}:\n$2\nBitte entfernen Sie „$1” von <nowiki>{{#index:}}</nowiki> auf {{PLURAL:$3|der obiger Seite|den obigen Seiten}}.",
+	"index-search-explain": "Diese Seite benutzt eine Präfix-Suche.\n\nGeben Sie die ersten Zeichen ein und drücken Sie die {{int:index-submit}}-Schaltfläche, um nach Seitentiteln und Indexeinträgen zu suchen, die mit dem Suchstring beginnen",
+	"index-details-explain": "Einträge mit Pfeilen sind Indexeinträge.\nKlicken Sie auf den Pfeil, um alle unter diesem Titel indexierten Seiten anzuzeigen."
+}

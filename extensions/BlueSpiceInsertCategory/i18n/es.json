@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agusbou2015",
+			"Fitoschido",
+			"Macofe",
+			"Madamebiblio",
+			"Themasterriot"
+		]
+	},
+	"bs-insertcategory-desc": "Cuadro de diálogo para escribir un enlace a categoría",
+	"bs-insertcategory-insertcat": "Insertar categoría",
+	"prefs-insertcategory": "Insertar categoría",
+	"bs-insertcategory-pref-withparents": "Insertar categoría con sus padres",
+	"bs-insertcategory-pref-uploadpanelintegration": "Establecer categorías de páginas como predeterminadas en el cuadro de diálogo de carga",
+	"bs-insertcategory-title": "Insertar categoría",
+	"bs-insertcategory-cat-label": "Asignada:",
+	"bs-insertcategory-success": "Se añadió la categoría",
+	"bs-insertcategory-failure": "Error",
+	"bs-insertcategory-hint": "Nota: para añadir una categoría, oprime la tecla Intro.",
+	"bs-insertcategory-panel-title": "Categorías",
+	"bs-insertcategory-category-editor-title": "Categorías",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Categorías implícitas",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Quitar todo",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "editar",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Editar las categorías de esta página",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Editar las categorías de esta página"
+}

@@ -1,0 +1,325 @@
+{
+	"name": "ORES",
+	"descriptionmsg": "ores-desc",
+	"license-name": "GPL-3.0-or-later",
+	"author": [
+		"Kunal Mehta",
+		"Amir Sarabadani",
+		"Adam Roses Wight"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ORES",
+	"requires": {
+		"MediaWiki": ">= 1.36.0"
+	},
+	"AutoloadNamespaces": {
+		"ORES\\": "includes/",
+		"ORES\\Maintenance\\": "maintenance/"
+	},
+	"TestAutoloadClasses": {
+		"ORES\\Tests\\MockOresServiceBuilder": "tests/phpunit/includes/MockOresServiceBuilder.php",
+		"ORES\\Tests\\TestHelper": "tests/phpunit/includes/TestHelper.php",
+		"ORES\\Tests\\HelpersTest": "tests/phpunit/includes/Hooks/HelpersTest.php"
+	},
+	"APIMetaModules": {
+		"ores": "ORES\\Hooks\\Api\\ApiQueryORES"
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"Hooks": {
+		"APIGetAllowedParams": "ORES\\Hooks\\Api\\ApiHooksHandler::onAPIGetAllowedParams",
+		"ApiQueryBaseBeforeQuery": "ORES\\Hooks\\Api\\ApiHooksHandler::onApiQueryBaseBeforeQuery",
+		"ApiQueryBaseAfterQuery": "ORES\\Hooks\\Api\\ApiHooksHandler::onApiQueryBaseAfterQuery",
+		"ApiQueryBaseProcessRow": "ORES\\Hooks\\Api\\ApiHooksHandler::onApiQueryBaseProcessRow",
+		"ApiQueryWatchlistExtractOutputData": "ORES\\Hooks\\Api\\ApiHooksHandler::onApiQueryWatchlistExtractOutputData",
+		"ApiQueryWatchlistPrepareWatchedItemQueryServiceOptions": "ORES\\Hooks\\Api\\ApiHooksHandler::onApiQueryWatchlistPrepareWatchedItemQueryServiceOptions",
+		"WatchedItemQueryServiceExtensions": "ORES\\Hooks\\Api\\WatchedItemQueryServiceExtension::onWatchedItemQueryServiceExtensions",
+		"BeforePageDisplay": "ORES\\Hooks\\Hooks::onBeforePageDisplay",
+		"ChangesListSpecialPageStructuredFilters": "ORES\\Hooks\\ChangesListHooksHandler::onChangesListSpecialPageStructuredFilters",
+		"ChangesListSpecialPageQuery": "ORES\\Hooks\\ChangesListHooksHandler::onChangesListSpecialPageQuery",
+		"ContribsPager::getQueryInfo": "ORES\\Hooks\\ContributionsHooksHandler::onContribsGetQueryInfo",
+		"EnhancedChangesListModifyBlockLineData": "ORES\\Hooks\\ChangesListHooksHandler::onEnhancedChangesListModifyBlockLineData",
+		"EnhancedChangesListModifyLineData": "ORES\\Hooks\\ChangesListHooksHandler::onEnhancedChangesListModifyLineData",
+		"GetPreferences": "ORES\\Hooks\\PreferencesHookHandler::onGetPreferences",
+		"LoadExtensionSchemaUpdates": "ORES\\Hooks\\Hooks::onLoadExtensionSchemaUpdates",
+		"OldChangesListRecentChangesLine": "ORES\\Hooks\\ChangesListHooksHandler::onOldChangesListRecentChangesLine",
+		"RecentChange_save": "ORES\\Hooks\\RecentChangeSaveHookHandler::onRecentChange_save",
+		"RecentChangesPurgeRows": "ORES\\Hooks\\Hooks::onRecentChangesPurgeRows",
+		"SpecialContributions::formatRow::flags": "ORES\\Hooks\\ContributionsHooksHandler::onSpecialContributionsFormatRowFlags",
+		"ContributionsLineEnding": "ORES\\Hooks\\ContributionsHooksHandler::onContributionsLineEnding",
+		"SpecialContributions::getForm::filters": "ORES\\Hooks\\ContributionsHooksHandler::onSpecialContributionsGetFormFilters"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "ORES/modules"
+	},
+	"ResourceModules": {
+		"ext.ores.highlighter": {
+			"scripts": [
+				"ext.ores.highlighter.js"
+			],
+			"styles": "ext.ores.highlighter.css",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.ores.styles": {
+			"styles": "ext.ores.styles.css",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.ores.specialoresmodels.styles": {
+			"styles": "ext.ores.specialoresmodels.less",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.ores.api": {
+			"packageFiles": [
+				"ext.ores.api.js",
+				{
+					"name": "config.json",
+					"callback": "ORES\\Hooks\\Hooks::getFrontendConfiguration"
+				}
+			]
+		}
+	},
+	"MessagesDirs": {
+		"ORES": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"JobClasses": {
+		"ORESFetchScoreJob": "ORES\\Services\\FetchScoreJob"
+	},
+	"config": {
+		"OresUiEnabled": {
+			"value": true
+		},
+		"OresBaseUrl": {
+			"value": "https://ores.wikimedia.org/"
+		},
+		"OresFrontendBaseUrl": {
+			"value": null
+		},
+		"OresExcludeBots": {
+			"value": true
+		},
+		"OresModels": {
+			"value": {
+				"damaging": {
+					"enabled": true
+				},
+				"goodfaith": {
+					"enabled": true
+				},
+				"reverted": {
+					"enabled": false
+				},
+				"articlequality": {
+					"enabled": false,
+					"namespaces": [
+						0
+					],
+					"cleanParent": true,
+					"keepForever": true
+				},
+				"wp10": {
+					"enabled": false,
+					"namespaces": [
+						0
+					],
+					"cleanParent": true,
+					"keepForever": true
+				},
+				"draftquality": {
+					"enabled": false,
+					"namespaces": [
+						0
+					],
+					"types": [
+						1
+					]
+				}
+			}
+		},
+		"OresModelClasses": {
+			"value": {
+				"damaging": {
+					"false": 0,
+					"true": 1
+				},
+				"goodfaith": {
+					"false": 0,
+					"true": 1
+				},
+				"reverted": {
+					"false": 0,
+					"true": 1
+				},
+				"articlequality": {
+					"Stub": 0,
+					"Start": 1,
+					"C": 2,
+					"B": 3,
+					"GA": 4,
+					"FA": 5
+				},
+				"wp10": {
+					"Stub": 0,
+					"Start": 1,
+					"C": 2,
+					"B": 3,
+					"GA": 4,
+					"FA": 5
+				},
+				"draftquality": {
+					"attack": 0,
+					"OK": 1,
+					"spam": 2,
+					"vandalism": 3
+				}
+			}
+		},
+		"OresFiltersThresholds": {
+			"value": {
+				"damaging": {
+					"likelygood": {
+						"min": 0,
+						"max": "maximum recall @ precision >= 0.995"
+					},
+					"maybebad": {
+						"min": "maximum filter_rate @ recall >= 0.9",
+						"max": 1
+					},
+					"likelybad": {
+						"min": "maximum recall @ precision >= 0.6",
+						"max": 1
+					},
+					"verylikelybad": {
+						"min": "maximum recall @ precision >= 0.9",
+						"max": 1
+					}
+				},
+				"goodfaith": {
+					"likelygood": {
+						"min": "maximum recall @ precision >= 0.995",
+						"max": 1
+					},
+					"maybebad": {
+						"min": 0,
+						"max": "maximum filter_rate @ recall >= 0.9"
+					},
+					"likelybad": {
+						"min": 0,
+						"max": "maximum recall @ precision >= 0.6"
+					},
+					"verylikelybad": false
+				},
+				"articlequality": {
+					"Stub": {
+						"min": 0,
+						"max": 0.166
+					},
+					"Start": {
+						"min": 0.167,
+						"max": 0.333
+					},
+					"C": {
+						"min": 0.334,
+						"max": 0.499
+					},
+					"B": {
+						"min": 0.5,
+						"max": 0.666
+					},
+					"GA": {
+						"min": 0.667,
+						"max": 0.833
+					},
+					"FA": {
+						"min": 0.834,
+						"max": 1
+					}
+				},
+				"wp10": {
+					"Stub": {
+						"min": 0,
+						"max": 0.1666
+					},
+					"Start": {
+						"min": 0.1666,
+						"max": 0.3333
+					},
+					"C": {
+						"min": 0.3333,
+						"max": 0.5
+					},
+					"B": {
+						"min": 0.5,
+						"max": 0.6666
+					},
+					"GA": {
+						"min": 0.6666,
+						"max": 0.8333
+					},
+					"FA": {
+						"min": 0.8333,
+						"max": 1
+					}
+				}
+			},
+			"description": "Interval endpoints are calculated using a formula.\n\nTODO: Simplify the grammar and support lists of conditions to build a threshold.",
+			"merge_strategy": "array_plus_2d"
+		},
+		"OresEnabledNamespaces": {
+			"value": {}
+		},
+		"OresWikiId": {
+			"value": null
+		},
+		"OresRevisionsPerBatch": {
+			"value": 30,
+			"description": "Number of revisions to fetch scores for from the ORES API per request when the MediaWiki API is asked to score revisions which are not cached. Set to 0 to disable fetching (scores will still be fetched for new edits)."
+		},
+		"OresCacheVersion": {
+			"value": 1,
+			"description": "Increment to invalidate the cached thresholds."
+		},
+		"OresAggregatedModels": {
+			"value": [
+				"articlequality",
+				"wp10"
+			],
+			"description": "List of models which will have their predictions aggregated to one row."
+		}
+	},
+	"RecentChangesFlags": {
+		"damaging": {
+			"letter": "ores-damaging-letter",
+			"title": "ores-damaging-title",
+			"legend": "ores-damaging-legend",
+			"class": "ores-damaging"
+		}
+	},
+	"DefaultUserOptions": {
+		"ores-damaging-flag-rc": false,
+		"oresDamagingPref": "soft",
+		"rcOresDamagingPref": "soft",
+		"oresHighlight": false,
+		"oresRCHideNonDamaging": false,
+		"oresWatchlistHideNonDamaging": false
+	},
+	"SpecialPages": {
+		"ORESModels": "ORES\\Specials\\SpecialORESModels::newFromGlobalState"
+	},
+	"ExtensionMessagesFiles": {
+		"ORESAlias": "ORES.alias.php"
+	},
+	"manifest_version": 2
+}

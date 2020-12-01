@@ -1,0 +1,40 @@
+{
+	"name": "ShowMe",
+	"version": "0.0.1",
+	"author": [
+		"Ike Hecht"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ShowMe",
+	"descriptionmsg": "showme-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"AutoloadClasses": {
+		"ShowMe": "ShowMe.class.php",
+		"ShowMeHooks": "ShowMe.hooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"ShowMeHooks::onParserFirstCallInit"
+		]
+	},
+	"MessagesDirs": {
+		"ShowMe": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.showMe": {
+			"scripts": [
+				"modules/ext.showMe.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "ShowMe"
+	},
+	"manifest_version": 1
+}

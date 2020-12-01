@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-socialtags-desc": "Додає функціонал тегування до соціальних сутностей",
+	"bs-socialtags-tagstext": "{{plural:$1|Пов'язана сторінка|Пов'язані сторінки}} ($1)",
+	"bs-socialtags-var-tags": "Пов'язані сторінки",
+	"socialtags": "Пов'язані сторінки",
+	"bs-socialtags-special-heading": "Пов'язані сторінки",
+	"apihelp-bs-socialtags-tasks-summary": "Надає завдання для редагування пов'язаних сторінок сутностей",
+	"action-social-tagging": "редагування пов'язаних сторінок",
+	"right-social-tagging": "Редагування пов'язаних сторінок"
+}

@@ -1,0 +1,64 @@
+@import 'mediawiki.mixins';
+@import 'mediawiki.ui/variables';
+
+.cx-campaign-contributionsmenu {
+	padding: 0;
+	font-size: 0.875em; /* equals `14px` similar to Notification Popups `font-size` */
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		list-style: none none;
+		min-width: 176px;
+		margin: 0;
+
+		&.cx-campaign-new-beta-feature {
+			.background-image( '../images/blue-beta.svg' );
+			background-position: right 4px center;
+			background-repeat: no-repeat;
+			background-size: 20px;
+		}
+
+		a {
+			background-position: left 8px center;
+			background-repeat: no-repeat;
+			background-size: 20px;
+			color: @colorGray2;
+			display: block;
+			padding: 8px 8px 8px 32px;
+			text-decoration: none;
+			.transition( ~'background-color 100ms' );
+		}
+
+		&:hover {
+			background-color: @colorGray14;
+		}
+
+		&.cx-campaign-contributions a {
+			.background-image( '../images/userAvatar.svg' );
+		}
+
+		&.cx-campaign-uploads a {
+			.background-image( '../images/wikimediaCommons.svg' );
+		}
+
+		&.cx-campaign-translations a {
+			.background-image( '../images/translation.svg' );
+		}
+
+		.cx-campaign-contributionsmenu__expansion {
+			background-color: #eaf3ff;
+			.background-image( '../images/question.svg' );
+			background-position: left 8px center;
+			background-repeat: no-repeat;
+			background-size: 20px;
+			color: @colorGray5;
+			margin: 2px 5px 0 0;
+			padding: 8px 8px 8px 32px;
+			font-size: small;
+		}
+	}
+}

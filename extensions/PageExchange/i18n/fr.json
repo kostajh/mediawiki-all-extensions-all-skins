@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094",
+			"Wladek92"
+		]
+	},
+	"pageexchange-desc": "Permet d’installer des « paquets » de pages wiki prédéfinies",
+	"packages": "Paquets",
+	"right-pageexchange": "Lancer les actions d’extraction de page",
+	"action-pageexchange": "lancer les actions d’extraction de page",
+	"pageexchange-logname": "Journal d’échange de page",
+	"pageexchange-logdesc": "Ceci est le journal des actions liées à l’extension Échange de pages.",
+	"pageexchange-installed": "Installé",
+	"pageexchange-available": "Disponible",
+	"pageexchange-installpackage": "Installer le paquet : $1",
+	"pageexchange-updatepackage": "Mettre à jour le paquet : $1",
+	"pageexchange-uninstallpackage": "Désinstaller le paquet : $1",
+	"pageexchange-installpackagelog": "paquet $2 installé par $3",
+	"pageexchange-updatepackagelog": "paquet $2 mis à jour par $3",
+	"pageexchange-uninstallpackagelog": "paquet $2 désinstallé par $3",
+	"pageexchange-package-website": "Site web :",
+	"pageexchange-package-publisher": "Éditeur :",
+	"pageexchange-package-author": "Auteur :",
+	"pageexchange-package-version": "Version :",
+	"pageexchange-package-pages": "Pages :",
+	"pageexchange-package-language": "Langue :",
+	"pageexchange-package-requiredextensions": "Extensions nécessaires :",
+	"pageexchange-package-requiredpackages": "Paquets nécessaires :",
+	"pageexchange-package-morerecent": "Il existe une version plus récente de ce paquet que celle actuellement installée sur ce wiki.",
+	"pageexchange-package-install": "Installer",
+	"pageexchange-package-update": "Mettre à jour",
+	"pageexchange-package-uninstall": "Désinstaller",
+	"pageexchange-package-deleteallpages": "Supprimer toutes les pages wiki associées",
+	"pageexchange-pagehaschanged": "la dernière version de cette page diffère de la copie locale.",
+	"pageexchange-latestvalue": "(dernière valeur : $1)",
+	"pageexchange-uninstallablepackage": "Ce paquet n’a pas pu être installé, pour les raisons suivantes :",
+	"pageexchange-inappropriatepackage": "Il est possible que ce paquet ne soit pas approprié à votre wiki; voir ci-dessous.",
+	"pageexchange-packageinstalled": "Ce paquet a été installé.",
+	"pageexchange-packageuninstalled": "Ce paquet a été désinstallé.",
+	"pageexchange-packageupdated": "Ce paquet a été mis à jour."
+}

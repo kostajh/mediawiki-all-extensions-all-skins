@@ -1,0 +1,134 @@
+[
+	{
+		"text": "1. Lorem ipsum",
+		"id": "1",
+		"articleNumber": "1",
+		"articleType": "wikilink",
+		"articleTitle": "Lorem ipsum",
+		"articleDisplayTitle": "Lorem ipsum",
+		"articleId": 0,
+		"articleIsRedirect": false,
+		"bookshelf": {
+			"type": "wikipage",
+			"page_id": 0,
+			"page_namespace": 0,
+			"page_title": "Lorem ipsum"
+		},
+		"children": [
+		]
+	},
+	{
+		"text": "2. amet",
+		"id": "2",
+		"articleNumber": "2",
+		"articleType": "wikilink-with-alias",
+		"articleTitle": "Dolor sit",
+		"articleDisplayTitle": "amet",
+		"articleId": 0,
+		"articleIsRedirect": false,
+		"bookshelf": {
+			"type": "wikipage",
+			"page_id": 0,
+			"page_namespace": 0,
+			"page_title": "Dolor sit"
+		},
+		"children": [
+			{
+				"text": "2.1. \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0bae\u0bca\u0bb4\u0bbf",
+				"id": "2.1",
+				"articleNumber": "2.1",
+				"articleType": "plain-text",
+				"articleTitle": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0bae\u0bca\u0bb4\u0bbf",
+				"articleDisplayTitle": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0bae\u0bca\u0bb4\u0bbf",
+				"articleId": -1,
+				"articleIsRedirect": -1,
+				"bookshelf": {
+					"type": "text"
+				},
+				"children": [
+					{
+						"text": "2.1.1. Test",
+						"id": "2.1.1",
+						"articleNumber": "2.1.1",
+						"articleType": "wikilink-with-alias",
+						"articleTitle": "\u12e8\u12a8\u1348\u1270\u12cd\u1295",
+						"articleDisplayTitle": "Test",
+						"articleId": 214,
+						"articleIsRedirect": false,
+						"bookshelf": {
+							"type": "wikipage",
+							"page_id": 214,
+							"page_namespace": 0,
+							"page_title": "\u12e8\u12a8\u1348\u1270\u12cd\u1295"
+						},
+						"children": [
+						]
+					}
+				]
+			},
+			{
+				"text": "2.2. [http://www.google.de]",
+				"id": "2.2",
+				"articleNumber": "2.2",
+				"articleType": "plain-text",
+				"articleTitle": "[http://www.google.de]",
+				"articleDisplayTitle": "[http://www.google.de]",
+				"articleId": -1,
+				"articleIsRedirect": -1,
+				"bookshelf": {
+					"type": "text"
+				},
+				"children": [
+				]
+			},
+			{
+				"text": "2.3. \u003Cbooknode",
+				"id": "2.3",
+				"articleNumber": "2.3",
+				"articleType": "plain-text",
+				"articleTitle": "\u003Cbooknode",
+				"articleDisplayTitle": "\u003Cbooknode",
+				"articleId": -1,
+				"articleIsRedirect": -1,
+				"bookshelf": {
+					"type": "text"
+				},
+				"children": [
+					{
+						"text": "2.3.1. Media:Test \u30c6\u30b9\u30c8.xls",
+						"id": "2.3.1",
+						"articleNumber": "2.3.1",
+						"articleType": "wikilink",
+						"articleTitle": "Media:Test \u30c6\u30b9\u30c8.xls",
+						"articleDisplayTitle": "Media:Test \u30c6\u30b9\u30c8.xls",
+						"articleId": 0,
+						"articleIsRedirect": false,
+						"bookshelf": {
+							"type": "wikipage",
+							"page_id": 0,
+							"page_namespace": -2,
+							"page_title": "Test \u30c6\u30b9\u30c8.xls"
+						},
+						"children": [
+						]
+					}
+				]
+			},
+			{
+				"text": "2.4. [[Image:Hello_World.jpg]",
+				"id": "2.4",
+				"articleNumber": "2.4",
+				"articleType": "plain-text",
+				"articleTitle": "[[Image:Hello_World.jpg]",
+				"articleDisplayTitle": "[[Image:Hello_World.jpg]",
+				"articleId": -1,
+				"articleIsRedirect": -1,
+				"bookshelf": {
+					"type": "text"
+				},
+				"children": [
+				]
+			}
+		]
+	}
+]

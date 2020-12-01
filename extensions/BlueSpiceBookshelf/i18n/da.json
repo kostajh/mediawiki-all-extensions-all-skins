@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"bs-bookshelf-specialpage-title": "Bøger",
+	"bs-bookshelf-specialpage-allpages-ns-book-text": "Bibliotek",
+	"bs-bookshelf-tag-next": "Næste",
+	"bs-bookshelf-tag-prev": "Forrige",
+	"bs-bookshelf-tag-edit-book": "Rediger bog",
+	"bs-bookshelf-personal-books-page-prefix": "$1/Bøger/",
+	"bs-bookshelf-add-to-book-label": "Tilføj til en bog",
+	"bs-bookshelf-add-to-book-label-book": "Bog",
+	"bs-bookshelf-setting-path-feature": "Bog",
+	"bs-bookshelf-empty-selection": "Intet valgt",
+	"bs-bookshelf-grouping-template-type-local_storage": "Midlertidige bøger",
+	"bs-bookshelf-grouping-template-type-ns_book": "Generelle bøger",
+	"bs-bookshelf-grouping-template-type-user_book": "Egne bøger",
+	"bs-bookshelf-action-export-book": "Eksporter bog",
+	"bs-bookshelf-edit-title": "Redigerer $1",
+	"bs-bookshelf-book-grid-title": "Bøger",
+	"bookshelf": "Boghylde",
+	"bookshelf-summary": "Generelle bøger",
+	"bs-bookshelf-prof-defaultview": "Standardvisning",
+	"bs-bookshelf-prof-defaultview-images": "Billeder"
+}

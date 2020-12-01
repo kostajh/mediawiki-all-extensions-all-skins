@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player",
+			"Aotake",
+			"Fievarsty",
+			"Fryed-peach",
+			"JtFuruhata",
+			"Shirayuki"
+		]
+	},
+	"duplicator": "ページの複製",
+	"duplicator-desc": "全編集履歴を持つ[[Special:Duplicate|ページの複製]]を作成する",
+	"duplicator-toolbox": "このページを複製",
+	"duplicator-header": "ここでは、ページの完全な複製を作成できます。この複製はすべての履歴を含みます。\n記事の分割などに役立ちます。",
+	"duplicator-options": "設定",
+	"duplicator-source": "複製元:",
+	"duplicator-dest": "複製先:",
+	"duplicator-dotalk": "可能なら{{int:talk}}ページも複製する",
+	"duplicator-dosubpages": "下位ページを複製 (存在する場合)",
+	"duplicator-dohistory": "ページの履歴全体を複製",
+	"duplicator-submit": "複製",
+	"duplicator-summary": "[[$1]] の版 [[$2]] を複製",
+	"duplicator-success": "[[$1]] を [[$2]] へ複製しました。",
+	"duplicator-success-revisions": "$1 個の{{PLURAL:$1|版}}を複製しました。",
+	"duplicator-success-talknotcopied": "{{int:talk}}ページは複製できませんでした。",
+	"duplicator-failed": "不明なエラーです。このページの複製に失敗しました。",
+	"duplicator-failed-toolong": "[[$1]] は複製されませんでした。複製先のページ名が長すぎます。",
+	"duplicator-failed-dest-exists": "[[$1]] は複製されませんでした。複製先 [[$2]] が既に存在します。",
+	"duplicator-source-invalid": "複製元に有効なページ名を指定してください。",
+	"duplicator-source-notexist": "[[$1]] は存在しません。複製元には存在するページを指定してください。",
+	"duplicator-dest-invalid": "複製先に有効なタイトルを指定してください。",
+	"duplicator-dest-exists": "[[$1]] は既に存在します。複製先には存在しないページを指定してください。",
+	"action-duplicate": "ページの複製",
+	"right-duplicate": "ページを複製"
+}

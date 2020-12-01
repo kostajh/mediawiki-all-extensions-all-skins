@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"emailauth-desc": "Verifica as conexións sospeitosas feitas por correo electrónico.",
+	"emailauth-token-label": "Código de verificación",
+	"emailauth-token-help": "Enviado por correo electrónico o identificador 2FA de uso único.",
+	"emailauth-email-subject": "O seu código de verificación de conexión a $1",
+	"emailauth-email-body": "O seu código de verificación de conexión a $1 é $2",
+	"emailauth-login-message": "Necesita verificar a súa conexión. Enviouse un código de verificación ó seu enderezo de correo electrónico ($1), por favor, achegue ese código aquí.",
+	"emailauth-login-failure": "Código de verificación incorrectoǃ",
+	"emailauth-login-retry-limit": "Demasiados intentos erradosǃ"
+}

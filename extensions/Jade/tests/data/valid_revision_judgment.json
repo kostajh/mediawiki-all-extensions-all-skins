@@ -1,0 +1,30 @@
+{
+	"judgments": [
+		{
+			"schema": {
+				"contentquality": 3
+			},
+			"preferred": true
+		},
+		{
+			"schema": {
+				"contentquality": 4
+			},
+			"preferred": false
+		},
+		{
+			"schema": {
+				"contentquality": 5
+			},
+			"preferred": false,
+			"endorsements": [
+				{
+					"user": {
+						"ip": "::1"
+					},
+					"created": "1999-12-31T23:59:59Z"
+				}
+			]
+		}
+	]
+}

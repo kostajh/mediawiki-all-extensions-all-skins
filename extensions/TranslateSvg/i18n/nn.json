@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Njardarlogar"
+		]
+	},
+	"translate-svg-nodesc": "(inga filskildring vart oppgjeven)",
+	"translate-svg-thumbnail": "Opphavleg fil",
+	"translate-svg-js-thumbnail": "(miniatyrbiletet oppdaterer seg av seg sjølv)",
+	"translate-page-description-legend-svgmg": "Informasjon om fila",
+	"translate-taction-mstats-svgmg": "Filstatistikk",
+	"translate-taction-export-svgmg": "Lasta opp oppdatert versjon av fila",
+	"translate-svg-filepage-caption": "Dette biletet i PNG-format på andre språk: $1",
+	"translate-svg-filepage-edit": "endra",
+	"translate-svg-filepage-finish": "fullfør",
+	"translate-svg-filepage-another": "anna språk",
+	"translate-svg-filepage-other": "andre språk",
+	"translate-svg-filepage-invite": "Fila kan lett setjast om til $1",
+	"translate-svg-upload-none": "(ingen)",
+	"translate-svg-chooselanguage-title": "Språkval",
+	"translate-svg-chooselanguage-desc": "Vel språket du vil setja om SVG-fila til:",
+	"translate-svg-instructions-title": "Fyrste gongen du set om ein SVG-fil på denne måten?",
+	"translate-svg-warn": "<strong>Åtvaring:</strong> Det er omsetjingar på dette språket som ikkje er lagra og som ikkje vert synlege før du eller ein annan $1.",
+	"translate-svg-warn-inner": "lagrar endringane i den opphavlege fila",
+	"translate-svg-new-title": "SVG-omsetjing",
+	"translate-svg-new-label": "Språk:",
+	"translate-js-properties-legend": "Eigenskapar",
+	"translate-js-label-x": "X-koordinat:",
+	"translate-js-label-y": "Y-koordinat:",
+	"translate-js-label-color": "Farge:",
+	"translate-js-label-font-family": "Skrifttype:",
+	"translate-js-label-bold": "Feit",
+	"translate-js-label-italic": "Kursiv",
+	"translate-js-font-family-inherit": "(arva)"
+}

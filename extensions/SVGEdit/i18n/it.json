@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"svgedit-editbutton-edit": "Modifica disegno",
+	"svgedit-summary-label": "Oggetto della modifica",
+	"svgedit-summary-default": "/* Modificato con svg-edit */",
+	"svgedit-editor-save-close": "Salva e chiudi",
+	"svgedit-editor-close": "Annulla",
+	"svgedit-desc": "Modifica nel browser di disegni SVG con [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Modifica disegno",
+	"svgedit-edit-tab-tooltip": "Puoi modificare questo disegno SVG nel tuo browser.",
+	"svgedit-toolbar-insert": "Disegno SVG"
+}

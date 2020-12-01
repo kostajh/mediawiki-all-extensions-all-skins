@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"A2y4",
+			"Shirayuki",
+			"Yatalu"
+		]
+	},
+	"bs-statistics-desc": "BlueSpice 用の統計モジュール",
+	"prefs-statistics": "拡張統計",
+	"extendedstatistics": "拡張統計",
+	"bs-statistics-mode": "モード",
+	"bs-statistics-year": "年",
+	"bs-statistics-month": "月",
+	"bs-statistics-week": "週",
+	"bs-statistics-day": "日",
+	"bs-statistics-not-allowed": "あなたには、必要な権限がありません。",
+	"bs-statistics-finish": "図表を作成",
+	"bs-statistics-filters": "絞り込み",
+	"bs-statistics-diag-number-of-users": "利用者数",
+	"bs-statistics-label-name": "名前",
+	"bs-statistics-diag-number-of-pages": "作成されたページ数",
+	"bs-statistics-diag-number-of-pages-mw": "作成された本文ページ数",
+	"bs-statistics-label-page": "ページ",
+	"bs-statistics-label-searchterm": "検索語句",
+	"bs-statistics-filter-category": "カテゴリ",
+	"bs-statistics-pref-excludeusers": "除外する利用者:",
+	"bs-statistics-portlet-numberofusers": "利用者数",
+	"bs-statistics-portlet-numberofedits": "編集回数",
+	"bs-statistics-portlet-numberofpages": "ページ数",
+	"bs-statistics-portletconfig-periodday": "昨日",
+	"action-extendedstatistics-viewspecialpage-aggregated": "特別ページ [[Special:AggregatedStatistic]] へのアクセス",
+	"right-extendedstatistics-viewspecialpage-aggregated": "特別ページ [[Special:AggregatedStatistic]] にアクセス",
+	"extendedstatisticssnapshots": "スナップショット",
+	"bs-statistics-label-bar-chart": "棒グラフ",
+	"bs-statistics-label-line-chart": "折れ線グラフ",
+	"bs-statistics-paging-page-size": "ページのサイズ"
+}

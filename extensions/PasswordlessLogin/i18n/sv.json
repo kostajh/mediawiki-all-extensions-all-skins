@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga"
+		]
+	},
+	"passwordlesslogin-desc": "Ger ett sätt att logga in utan lösenord genom att bekräfta inloggningen på en ansluten enhet.",
+	"passwordlesslogin-verify-request": "Bekräfta inloggningen på din telefon.",
+	"passwordlesslogin-error-no-authentication-workflow": "Autentiseringsarbetsflödet upphörde oväntat.",
+	"passwordlesslogin-no-challenge": "Ingen aktiv utmaning att bekräfta, försök att autentisera igen.",
+	"passwordlesslogin-verification-pending": "Autentiseringen har ännu inte verifierats. Var vänlig verifiera din inloggningsbegäran på din anslutna enhet.",
+	"passwordlesslogin-pair-device-step": "Följ instruktionerna för att para ihop din nya enhet.",
+	"passwordlesslogin-no-device-paired": "Det finns ännu ingen parad enhet.",
+	"passwordlesslogin-verify-pair": "Vi har skicka en inloggningsbegäran till din enhet för att verifiera att den registrerats korrekt. Var vänlig bekräfta begäran och fortsätt.",
+	"passwordlesslogin-pair-device": "Para enhet för lösenordsfri inloggning",
+	"passwordlesslogin-login": "Logga in med din smartphone",
+	"passwordlesslogin-pair-step-1": "1. Ladda ner MediaWikis app PasswordlessLogin",
+	"passwordlesslogin-pair-step-2": "2. Skanna in QR-koden med appen",
+	"passwordlesslogin-pair-step-3": "3. När appen har installerats ordentligt kan du fortsätta till nästa steg",
+	"passwordlesslogin-authentication-app": "Autentiseringsapp",
+	"apihelp-passwordlesslogin-verify-challenge-summary": "Verifiera en begäran som skickats till enheten."
+}

@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hydra",
+			"Liuxinyu970226",
+			"PhiLiP",
+			"Xiaomingyan",
+			"Yfdyh000"
+		]
+	},
+	"inlinecategorizer-desc": "一个允许在页面直接更改、添加和移除分类连接的JavaScript模块",
+	"inlinecategorizer-add-category": "添加分类",
+	"inlinecategorizer-add-category-submit": "添加",
+	"inlinecategorizer-add-category-summary": "加入分类“$1”",
+	"inlinecategorizer-api-error": "API返回了错误：$1：$2。",
+	"inlinecategorizer-api-unknown-error": "API返回了未知错误。",
+	"inlinecategorizer-cancel": "取消编辑",
+	"inlinecategorizer-cancel-all": "取消所有更改",
+	"inlinecategorizer-category-already-present": "分类“$1”下已有该页面",
+	"inlinecategorizer-category-hook-error": "本地的一则函数阻止了保存更改的操作。",
+	"inlinecategorizer-category-question": "您为什么要进行以下修改：",
+	"inlinecategorizer-confirm-ok": "确定",
+	"inlinecategorizer-confirm-save": "保存",
+	"inlinecategorizer-confirm-save-all": "保存所有更改",
+	"inlinecategorizer-confirm-title": "确认动作",
+	"inlinecategorizer-edit-category": "编辑分类",
+	"inlinecategorizer-edit-category-error": "不能编辑分类“$1”。这通常是由于该分类是随模板加入页面的。",
+	"inlinecategorizer-edit-category-summary": "更改分类“$1”至“$2”",
+	"inlinecategorizer-error-title": "错误",
+	"inlinecategorizer-remove-category": "删除分类",
+	"inlinecategorizer-remove-category-error": "不能移除分类“$1”。这通常是由于该分类是随模板加入页面的。",
+	"inlinecategorizer-remove-category-summary": "移除分类“$1”"
+}

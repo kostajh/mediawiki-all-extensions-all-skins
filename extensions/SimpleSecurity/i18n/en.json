@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nad"
+		]
+	},
+	"security": "Security log",
+	"security-desc": "Extends the MediaWiki page protection to allow restricting viewing of page content",
+	"security-logpage": "Security log",
+	"security-logpagetext": "This is a log of actions blocked by the [https://www.mediawiki.org/wiki/Extension:SimpleSecurity SimpleSecurity extension].",
+	"security-logentry": "",
+	"badaccess-read": "'''Warning:''' \"$1\" is referred to here, but you do not have sufficient permissions to access it.",
+	"security-info": "There are $1 on this page",
+	"security-info-toggle": "security restrictions",
+	"security-inforestrict": "$1 is restricted to $2",
+	"security-desc-LS": "(applies because this page is in $1 \"$2\")",
+	"security-desc-PR": "(set from the \"protect\" tab)",
+	"security-infosysops": "No restrictions are in effect because you are a member of the \"sysop\" group",
+	"security-manygroups": "groups $1 and $2",
+	"security-unchain": "Modify actions individually",
+	"security-type-category": "the category",
+	"security-type-namespace": "the namespace",
+	"security-restricttogroup": "Access content restricted to members of \"$1\"",
+	"restriction-read": "Read"
+}

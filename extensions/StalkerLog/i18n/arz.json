@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ghaly",
+			"Meno25"
+		]
+	},
+	"stalkerlog-desc": "يضيف مدخلة إلى [[Special:Log]] عندما يقوم شخص ما بتسجيل الدخول أو الخروج",
+	"stalkerlog-log-login": "مسجل الدخول.",
+	"stalkerlog-log-logout": "مسجل الخروج.",
+	"stalkerlog-log-type": "سجل تسجيل اليوزرز",
+	"stalkerlog-log-text": "ده سجل بعمليات تسجيل الدخول والخروج لليوزرز."
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Umherirrender"
+		]
+	},
+	"articletocategory2-desc": "{{desc|name=ArticleToCategory2|url=https://www.mediawiki.org/wiki/Extension:ArticleToCategory2}}",
+	"articletocategory2-create-article-under-category-text": "A tooltip message",
+	"articletocategory2-create-article-under-category-button": "A button text\n{{Identical|Create}}",
+	"articletocategory2-create-category-under-category-text": "A tooltip message",
+	"articletocategory2-create-category-under-category-button": "A button text\n{{Identical|Create}}",
+	"action-ArticleToCategory2": "{{doc-action|ArticleToCategory2}}",
+	"right-ArticleToCategory2": "{{doc-right|ArticleToCategory2}}",
+	"action-ArticleToCategory2AddCat": "{{doc-action|ArticleToCategory2AddCat}}",
+	"right-ArticleToCategory2AddCat": "{{doc-right|ArticleToCategory2AddCat}}"
+}

@@ -1,0 +1,27 @@
+{
+	"name": "UILangCode",
+	"version": "1.0.0",
+	"author": "Niklas Laxström",
+	"url": "https://www.mediawiki.org/wiki/Extension:UILangCode",
+	"descriptionmsg": "uilangcode-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"Hooks": {
+		"MagicWordwgVariableIDs": "MediaWiki\\Extension\\UILangCode\\Hooks::onMagicWordwgVariableIDs",
+		"ParserGetVariableValueSwitch": "MediaWiki\\Extension\\UILangCode\\Hooks::onParserGetVariableValueSwitch"
+	},
+	"MessagesDirs": {
+		"UILangCode": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"UILangCodeMagic": "UILangCode.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\UILangCode\\Hooks": "src/Hooks.php"
+	},
+	"manifest_version": 2
+}

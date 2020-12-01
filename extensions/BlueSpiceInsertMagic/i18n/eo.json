@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin",
+			"Robin van der Vliet"
+		]
+	},
+	"bs-insertmagic": "Enmeti magian vorton",
+	"bs-insertmagic-currentyear": "Nuna jaro",
+	"bs-insertmagic-currentmonth": "Nuna monato (nulo-plenigita numero).",
+	"bs-insertmagic-currentmonthname": "Nuna monato (nomo).",
+	"bs-insertmagic-currentmonthnamegen": "Nuna monato (genitiva formo).",
+	"bs-insertmagic-currentmonthabbrev": "Nuna monato (mallongigo).",
+	"bs-insertmagic-currentday": "Tago de la monato (sen pleniganta nulo).",
+	"bs-insertmagic-currentday2": "Tago de la monato (nulo-plenigita numero).",
+	"bs-insertmagic-currentdow": "Tago de la semajno (numero sen pleniganta nulo), inter 0 (dimanĉo) kaj 6 (sabato).",
+	"bs-insertmagic-currentdayname": "Tago de la semajno (nomo).",
+	"bs-insertmagic-currenttime": "Tempo (24-hora aranĝo HH:mm).",
+	"bs-insertmagic-currenthour": "Horo (24-hora, nulo-plenigita)",
+	"bs-insertmagic-currentweek": "Semajno (numero).",
+	"bs-insertmagic-currenttimestamp": "Tago kaj horo en la aranĝo JJJJMMTTHHmmss.",
+	"bs-insertmagic-type-tags": "Etikedoj",
+	"bs-insertmagic-type-variables": "Variabloj",
+	"bs-insertmagic-label-desc": "Priskribo",
+	"bs-insertmagic-label-examples": "Ekzemploj",
+	"bs-insertmagic-label-see-also": "Vidu ankaŭ",
+	"bs-insertmagic-ve-insertmagic-title": "Magia vorto"
+}

@@ -1,0 +1,18 @@
+{
+	"judgments": [
+		{
+			"schema": {
+				"goodfaith": true,
+				"damaging": true
+			},
+			"preferred": true
+		},
+		{
+			"schema": {
+				"damaging": false,
+				"goodfaith": true
+			},
+			"preferred": true
+		}
+	]
+}

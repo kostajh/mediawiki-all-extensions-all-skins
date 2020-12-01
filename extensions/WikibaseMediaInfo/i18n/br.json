@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup"
+		]
+	},
+	"action-mediasearch": "amprouadenn klask mediaoù",
+	"right-mediasearch": "Amprouadenn klask mediaoù",
+	"group-mediasearch-tester": "Amprouerien klask mediaoù",
+	"group-mediasearch-tester-member": "{{GENDER:$1|amprouer|amprouerez}} klask mediaoù",
+	"wikibase-entity-mediainfo": "Keleier media",
+	"wikibasemediainfo-desc": "Astenn eus Wikibase evit merañ metaroadennoù frammet eus restroù media",
+	"wikibasemediainfo-filepage-statement-value-type-dropdown-title": "Dibab ur seurt talvoud.",
+	"wikibasemediainfo-special-mediasearch-title": "Klask ur media",
+	"wikibasemediainfo-special-mediasearch-continue": "War-lerc'h",
+	"wikibasemediainfo-special-mediasearch-tab-bitmap": "Skeudennoù",
+	"wikibasemediainfo-special-mediasearch-tab-audio": "Son",
+	"wikibasemediainfo-special-mediasearch-tab-video": "Video",
+	"wikibasemediainfo-special-mediasearch-filter-size": "Ment ar media",
+	"wikibasemediainfo-special-mediasearch-filter-size-any": "Ne vern ar vent",
+	"wikibasemediainfo-special-mediasearch-filter-size-small": "Bihan",
+	"wikibasemediainfo-special-mediasearch-filter-size-medium": "Etre",
+	"wikibasemediainfo-special-mediasearch-filter-size-large": "Bras"
+}

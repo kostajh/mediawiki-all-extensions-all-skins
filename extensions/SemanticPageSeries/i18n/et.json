@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avjoska",
+			"Pikne"
+		]
+	},
+	"spserror": "Ilmnes viga.",
+	"spserror-date-startdatemissing": "Alguskuupäev puudub.",
+	"spserror-count-startvaluemalformed": "Algusväärtus ei ole number.",
+	"spserror-count-endvaluemalformed": "Lõppväärtus ei ole number."
+}

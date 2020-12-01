@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"WaldiSt"
+		]
+	},
+	"bs-countthings-chars-label": "Znaki",
+	"bs-countthings-words-label": "Słowa",
+	"bs-countthings-files-label": "Pliki",
+	"bs-countthings-pages-label": "Strony",
+	"bs-countthings-ve-countcharacters-title": "Zliczanie znaków",
+	"bs-countthings-ve-countarticles-title": "Zliczanie artykułów",
+	"bs-countthings-ve-countfiles-title": "Zliczanie plików",
+	"bs-countthings-ve-countusers-title": "Zliczanie użytkowników",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "znaki",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "słowa",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "znaki i słowa",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "strony",
+	"bs-countthings-ve-countcharacters-input-label": "Strony",
+	"bs-countthings-error-not-exist": "Strona „$1” nie istnieje.",
+	"bs-countthings-tag-countarticles-desc": "Wyświetla liczbę artykułów w wiki.",
+	"bs-countthings-tag-countusers-desc": "Pokazuje liczbę zarejestrowanych użytkowników.",
+	"bs-countthings-tag-countfiles-desc": "Wyświetla liczbę plików w wiki.",
+	"bs-countthings-tag-countcharacters-example-1": "Liczba wyrazów",
+	"bs-countthings-tag-countcharacters-example-2": "Liczba znaków"
+}

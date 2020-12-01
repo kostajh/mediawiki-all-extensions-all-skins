@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm"
+		]
+	},
+	"metamaster-desc": "Функция парсера, позволяющая добавлять HTML-теги <code><meta></code> в заголовок страницы."
+}

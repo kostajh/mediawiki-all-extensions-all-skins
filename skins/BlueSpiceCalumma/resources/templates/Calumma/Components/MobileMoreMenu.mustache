@@ -1,0 +1,13 @@
+{{#show}}
+<div class="bs-mobile-more-menu dropdown {{class}}">
+	<a type="button" class="btn dropdown-toggle bs-mobile-more-menu-button {{#isDisabled}}btn-disabled{{/isDisabled}}" title="{{title}}" href="#" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" ><i></i></a>
+	<div class="dropdown-menu">
+		<ul>
+			<li><a type="button" class="btn dropdown-toggle bs-mobile-more-menu-button" title="{{title}}" aria-label="{{title}}" href="#" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" ><i></i></a></li>
+			{{#links}}
+			<li><a href="{{href}}" {{#title}}title="{{.}}"{{/title}} {{#class}}class="{{.}}"{{/class}} ><i></i><span>{{text}}</span></a></li>
+			{{/links}}
+		</ul>
+	</div>
+</div>
+{{/show}}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"swiftmailer-desc": "Fornisce SwiftMailer come programma di posta alternativo",
+	"swiftmailer-smtp-error": "Errore durante l'impostazione di trasporto SMTP per SwiftMailer: $1",
+	"swiftmailer-send-error": "Errore durante l'invio di email utilizzando SwiftMailer: $1"
+}

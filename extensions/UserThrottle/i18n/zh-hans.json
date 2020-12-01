@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liangent",
+			"Liuxinyu970226"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "因为受到短时间内注册大量账号的攻击，账号注册被自动暂停。请稍等片刻后点击浏览器的“刷新”按钮重新提交。",
+	"userthrottle-desc": "锁闭用户创建"
+}

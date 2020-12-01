@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"deleteuserpages-desc": "Deixe os usuários excluir suas próprias páginas de usuário",
+	"action-delete-rootuserpages": "excluir usuário próprio e página de discussão do usuário",
+	"right-delete-rootuserpages": "Excluir usuário próprio e página de discussão do usuário",
+	"action-delete-usersubpages": "excluir subpáginas de sua própria página de usuário",
+	"right-delete-usersubpages": "Excluir subpáginas de sua própria página de usuário"
+}

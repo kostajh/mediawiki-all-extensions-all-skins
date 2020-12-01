@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Niharika Kohli",
+			"Frances Hocutt"
+		]
+	},
+	"pageassessments-desc": "This extension is for storing page assessments in a database table with the help of a parser function",
+	"pageassessments-special": "Page assessments",
+	"pageassessments-project": "Project",
+	"pageassessments-page-namespace": "Page namespace",
+	"pageassessments-page-title": "Page title",
+	"pageassessments-search": "Search",
+	"pageassessments-importance": "Importance",
+	"pageassessments-class": "Class",
+	"pageassessments-timestamp": "Timestamp",
+	"pageassessments-total-results": "Total results: $1",
+	"pageassessments-error-namespace-filter": "Please enter a project name or page title."
+}

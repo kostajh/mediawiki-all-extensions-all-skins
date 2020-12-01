@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"hsts-desc": "HSTS (HTTP Strict Transport Security) auf Benutzerbasis",
+	"hsts-tog": "HTTP Strict Transport Security (HSTS) aktivieren",
+	"hsts-https-tog": "HTTP Strict Transport Security (HSTS) aktivieren<br />Lade diese Seite mit HTTPS neu, um diese Einstellung zu ändern.",
+	"hsts-beta-feature-message": "Immer eine sichere Verbindung nutzen",
+	"hsts-beta-feature-description": "Dies verstärkt deine Sicherheit auf dieser Website durch das Sicherhalten nach dem Abmelden und stellt sicher, dass dich keiner während des Browsens ausspionieren kann. Mit dieser aktivierten Option und einem aktuellen Browser, der die Technologie HSTS unterstützt, ist jede Sicherheitswarnung ein sehr wahrscheinlicher Angriff auf dich."
+}

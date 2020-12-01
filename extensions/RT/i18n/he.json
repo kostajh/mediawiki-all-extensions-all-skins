@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Rotemliss",
+			"Steeve815",
+			"YaronSh"
+		]
+	},
+	"rt-desc": "ממשק יפה ל־Request Tracker&rlm; (RT)",
+	"rt-inactive": "הרחבת RT אינה פעילה",
+	"rt-badquery": "הרחבת RT נתקלה בשגיאה בעת ההתקשרות עם מסד הנתונים של RT",
+	"rt-badlimit": "ארגומנט <code>LIMIT</code> (<code>l</code>)&lrm; אינו תקין: צריך להיות מספר.\nאתם ניסיתם: '''$1'''",
+	"rt-badorderby": "ארגומנט <code>ORDER BY</code> (<code>ob</code>)&lrm; בלתי תקין: צריך להיות שדה תקני (ר' תיעוד).\nאתם ניסיתם: '''$1'''",
+	"rt-badstatus": "ארגומנט <code>status</code> (<code>s</code>)&lrm; בלתי תקין: צריך להיות שדה תקני (ר' תיעוד).\nאתם ניסיתם: '''$1'''",
+	"rt-badcfield": "ארגומנט שדה מותאם אישי בלתי תקין: צריכה להיות מילה פשוטה (ר' תיעוד).\nאתם ניסיתם: '''$1'''",
+	"rt-badqueue": "ארגומנט <code>queue</code> (<code>q</code>)&lrm; בלתי תקין: צריכה להיות מילה פשוטה (ר' תיעוד).\nאתם ניסיתם: '''$1'''",
+	"rt-badowner": "ארגומנט <code>owner</code> (<code>o</code>)&lrm; בלתי תקין: צריך להיות שם משתמש.\nאתם ניסיתם: '''$1'''",
+	"rt-nomatches": "לא נמצאו כרטיסי RT תואמים"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-socialarticleactions-desc": "Aggiunge 'na vôsce de aziune sus a le vôsce base a BlueSpiceSocial",
+	"bs-socialarticleactions-type-articlesave": "Cange 'a vôsce",
+	"bs-socialarticleactions-type-articlecreate": "Ccreje 'a vôsce",
+	"bs-socialarticleactions-type-articledelete": "Scangìlle 'a vôsce",
+	"bs-socialarticleactions-type-filesave": "Cange 'u file",
+	"bs-socialarticleactions-type-filecreate": "Ccreje 'u file",
+	"bs-socialarticleactions-type-filedelete": "Scangìlle 'u file",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] ave cangiate 'a vôsce [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] ave ccrejate 'a vôsce [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] ave scangellate 'a vôsce [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] ave aggiunde 'na versiona nove d'u file [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] ave carecate 'u file [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] ave scangellate 'u file [[:$6|$6]]"
+}

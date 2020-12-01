@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jaroslav Cerny"
+		]
+	},
+	"semanticinternalobjects-desc": "Nastavení interního objektu v Sémantické MediaWiki",
+	"semanticinternalobjects-internalproperty": "Interní vlastnost",
+	"semanticinternalobjects-mainpropertyname": "Název vlastnosti, která propojí pole této šablony se zbytkem stránky:",
+	"semanticinternalobjects-propnamewarning": "(používejte jen v případě, kdy tato šablona může mít více instancí)"
+}

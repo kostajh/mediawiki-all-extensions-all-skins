@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Додава прелистувачка поддршка за испис на PDF преку службата Electron PDF",
+	"electronpdfservice-special-page-headline": "Преземи како PDF",
+	"electronpdfservice-download-label": "Преземи како PDF",
+	"electronpdfservice-download-button": "Преземи",
+	"electronpdfservice-sidebar-portlet-heading": "Печати/извези",
+	"electronpdfservice-sidebar-portlet-print-text": "Преземи како PDF",
+	"electronpdfservice-invalid-page-title": "Неважечка страница",
+	"electronpdfservice-invalid-page-text": "Укажаната страница е неважечка."
+}

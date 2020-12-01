@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"باسم",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"bs-groupmanager-desc": "واجهة الإدارة لإضافة وتحرير وحذف مجموعات المستخدمين وصلاحياتها",
+	"bs-groupmanager-grpexists": "المجموعة موجودة بالفعل.",
+	"bs-groupmanager-grpempty": "لا يمكن أن يكون اسم المجموعة فارغا.",
+	"bs-groupmanager-grpadded": "تمت إضافة المجموعة.",
+	"bs-groupmanager-grpedited": "تم تحرير المجموعة.",
+	"bs-groupmanager-grpremoved": "تمت إزالة المجموعة.",
+	"bs-groupmanager-label": "مدير مجموعة",
+	"bs-groupmanager-invalid-name": "يحتوي اسم المجموعة على {{PLURAL:$1}} {{PLURAL:$1|حرف غير صالح|أحرف غير صالحة}}: $2",
+	"bs-groupmanager-invalid-name-length": "لا يمكن أن يكون اسم المجموعة أطول من 255 حرفا.",
+	"bs-groupmanager-invalid-name-numeric": "يجب أن يحتوي اسم المجموعة على حرف واحد على الأقل.",
+	"bs-groupmanager-headergroup": "المجموعة",
+	"bs-groupmanager-tipremove": "إزالة {{PLURAL:$1|مجموعة|مجموعات}}",
+	"bs-groupmanager-titlenewgroup": "مجموعة جديدة",
+	"bs-groupmanager-titleeditgroup": "تحرير المجموعة",
+	"bs-groupmanager-removegroup": "هل تريد بالتأكيد إزالة {{PLURAL:$1|هذه المجموعة|هذه المجموعات}}؟",
+	"bs-groupmanager-removegroup-message-success": "تم حذف {{PLURAL:$1|المجموعة|المجموعات}} التالية: $2",
+	"bs-groupmanager-removegroup-message-failure": "لا يمكن حذف {{PLURAL:$1|المجموعة|المجموعات}} التالية: $2",
+	"bs-groupmanager-removegroup-message-unknown": "حدث خطأ غير متوقع; تُرجًى المحاولة مرة أخرى.",
+	"bs-groupmanager-lablename": "اسم المجموعة:",
+	"bs-groupmanager-msgnoteditable": "هذه المجموعة مجموعة نظام ولا يمكن إعادة تسميتها.",
+	"bs-groupmanager-msgnotremovable": "هذه المجموعة مجموعة نظام ولا يمكن إزالتها.",
+	"bs-groupmanager-write-config-file-error": "لا يمكن إنشاء أو حفظ الملف $1.",
+	"log-name-bs-group-manager": "سجل مدير المجموعة",
+	"log-description-bs-group-manager": "هذا سجل بالتغييرات في مجموعات المستخدمين.",
+	"log-show-hide-bs-group-manager": "سجل مدير مجموعة $1",
+	"logeventslist-bs-group-manager-log": "سجل مدير المجموعة",
+	"logentry-bs-group-manager-create": "$1 {{GENDER:$2|أنشأ|أنشأت}} المجموعة $4",
+	"logentry-bs-group-manager-modify": "$1 {{GENDER:$2|أعاد|أعادت}} تسمية المجموعة $4 إلى $5",
+	"logentry-bs-group-manager-remove": "$1 {{GENDER:$2|أزال|أزالت}} المجموعة $4",
+	"apihelp-bs-groupmanager-description": "يوفر المهام للإضافة GroupManager.",
+	"apihelp-bs-groupmanager-summary": "يوفر المهام للإضافة GroupManager.",
+	"action-groupmanager-viewspecialpage": "انظر الصفحة الخاصَّة \"{{int:bs-groupmanager-label}}\"",
+	"groupmanager": "مدير المجموعات",
+	"right-groupmanager-viewspecialpage": "الوصول إلى الصفحة الخاصة [[Special:GroupManager]]."
+}

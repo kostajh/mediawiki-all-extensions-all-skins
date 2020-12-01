@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"onlinestatusbar-desc": "Статусник што прикажува дали корисникот е на линија (на неговата корисничка страница)",
+	"prefs-onlinestatus": "Вклученост",
+	"onlinestatusbar-used": "Прикажувај на моите кориснички страници кога сум на линија",
+	"onlinestatusbar-hide": "Скриј го статусникот за да го користам само волшебниот збор (за напредни корисници)",
+	"onlinestatusbar-away": "Сметај ме за отсутен по извесно зададено време",
+	"onlinestatusbar-purge": "Пречисти го меѓускладот на корисничката страница секојпат кога ќе се најавам или одјавам",
+	"onlinestatusbar-status": "Вашиот статус по основно?",
+	"onlinestatusbar-away-time": "По колку минути да се прикаже „отсутен“:",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Вклучен|Вклучена}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Зафатен|Зафатена}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Отсутен|Отсутна}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Скриен|Скриена}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Исклучен|Исклучена}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Непознато}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Корисникот}} сега е вклучен",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|Корисникот}} сега е зафатен и може да е недостапен",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|Корисникот}} е неактивен и може да е недостапен",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Корисникот}} е исклучен",
+	"onlinestatusbar-tooltip-unknown": "Статусот на {{GENDER:$1|корисникот}} е непознат",
+	"apihelp-query+onlinestatus-description": "Дава приклученост (дали корисникот е на линија) и неговиот пол",
+	"apihelp-query+onlinestatus-summary": "Ја дава вклученоста и полот на корисникот",
+	"apihelp-query+onlinestatus-param-user": "За кое корисничко име да се добие сознанието",
+	"apihelp-query+onlinestatus-example": "Прикажи приклученост за Petrb"
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armin1392",
+			"Ebraminio",
+			"Reza1615"
+		]
+	},
+	"semanticpageseries-desc": "ایجاد یک سری صفحات از یک [https://www.mediawiki.org/wiki/Extension:Semantic_Forms Semantic Form]",
+	"spssuccesstitle": "ایجاد $1 صفحات",
+	"spssuccess": "{{PLURAL:$1|یک صفحه|$1 صفحات}} ایجاد خواهد شد.",
+	"spssuccess-returntoorigin": "بازگشت به $1",
+	"spserror": "يک خطا اتفاق افتاد",
+	"spserror-diffnotsupported": "عمل متفاوت برای مجموعه صفحات، پشتیبانی نشده‌است.",
+	"spserror-previewnotsupported": "عمل پیش‌نمایش برای مجموعهٔ صفحات پشتیبانی نشده‌است.",
+	"spserror-noiteratorname": "هیچ تکرارکننده‌ای مشخص نشده‌است. شما باید پارامتر «تکرارکننده» را در #سری‌های پیوند تماس عملیات تجزیه‌کننده، تنظیم کنید.",
+	"spserror-iteratorunknown": "تکرارکننده «$1» وجود ندارد. شما باید پارامتر «تکرارکننده» را در #سری‌های پیوند تماس عملیات تجزیه‌کننده، درست کنید.",
+	"spserror-noformname": "هیچ نام فرمی داده نشده‌است. شما باید پارامتر \"فرم\" را در #سری‌های پیوند تماس عملیات تجزیه‌کننده، تنظیم کنید.",
+	"spserror-formunknown": "فرم «$1» وجود ندارد.",
+	"spserror-notargetformname": "هیچ نام فرم هدفی داده نشده‌است. شما باید پارامتر «فرم هدف» را در #سری‌های پیوند تماس عملیات تجزیه‌کننده، تنظیم کنید.",
+	"spserror-notargetfieldname": "هیچ نام زمینه هدفی داده نشده‌است. شما باید پارامتر «زمینه هدف» را در #سری‌های پیوند تماس عملیات تجزیه‌کننده، تنظیم کنید.",
+	"spserror-iteratorparammissing": "پارامترهای تکرارکننده زیر در #سری‌های پیوندهای تماس از دست رفته‌اندː\n$1",
+	"spserror-noiteratordata": "هیچ پارامتر تکرارکننده‌ای در داده‌های ارسال شده پیدا نشد.",
+	"spserror-pagegenerationlimitexeeded": "شما برای تولید {{PLURAL:$1|یک صفحه|$1 صفحات}} سعی می‌کنید. این فراتر از حد مجاز {{PLURAL:$2|یک صفحه|$2 صفحات}} است.",
+	"spserror-date-startdatemissing": "تاریخ شروع گم شده‌است.",
+	"spserror-date-internalerror": "خطایی هنگام ایجاد تاریخ‌ها رخ داده است: $1",
+	"spserror-count-startvaluemalformed": "مقدار شروع یک عدد نیست.",
+	"spserror-count-endvaluemalformed": "مفدار پایان یک عدد نیست.",
+	"spserror-count-stepvaluemalformed": "مقدار گام یک عدد نیست.",
+	"spserror-count-digitsvaluemalformed": "مقدار ارقام یک عدد نیست."
+}

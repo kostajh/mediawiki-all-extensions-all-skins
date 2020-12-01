@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"GabiBil"
+		]
+	},
+	"bs-socialprofile-type": "Profil",
+	"bs-social-profile-field-name": "Nume",
+	"bs-social-profile-field-email": "E-mail",
+	"bs-social-profile-field-title": "Titlu",
+	"bs-social-profile-field-department": "Departament",
+	"bs-social-profile-field-location": "Locația",
+	"bs-social-profile-field-phone": "Număr de telefon",
+	"bs-socialprofile-switch-classicprofile-label": "Profil clasic",
+	"bs-socialprofile-switch-modernprofile-label": "Profil modern"
+}

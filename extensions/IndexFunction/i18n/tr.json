@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish",
+			"Vito Genovese"
+		]
+	},
+	"indexfunc-desc": "Otomatik yeniden yönlendirmeler ve belirsizliği giderme sayfaları oluşturmak için ayrıştırıcı işlevi",
+	"indexfunc-badtitle": "Geçersiz başlık: \"$1\"",
+	"indexfunc-editwarning": "Uyarı:\nBu başlık aşağıdaki {{PLURAL:$2|sayfa|sayfalar}} için bir dizin başlığıdır:\n$1\nOluşturmak üzere olduğunuz sayfanın farklı bir başlık altında bulunmadığından emin olun.\nBu sayfayı oluşturursanız, bu başlığı yukarıdaki {{PLURAL:$2|sayfada|sayfalarda}} <nowiki>{{#index:}}</nowiki> işlevinden kaldırın.",
+	"indexfunc-index-exists": "\"$1\" sayfası zaten var",
+	"indexfunc-movewarn": "Uyarı:\n\"$1\", aşağıdaki {{PLURAL:$3|sayfa|sayfalar}} için bir dizin başlığıdır:\n$2\nLütfen \"$1\" yukarıdaki {{PLURAL:$3|sayfada|sayfalarda}} üzerindeki <nowiki>{{#index:}}</nowiki> işlevinden kaldırın.",
+	"index": "Dizin araması",
+	"index-legend": "Dizini ara",
+	"index-search": "Ara:",
+	"index-submit": "Gönder",
+	"index-disambig-start": "'''$1''' birkaç sayfaya kaynaklanabilir:",
+	"index-emptylist": "\"$1\" ile ilişkili sayfa yok.",
+	"index-expand-detail": "Bu başlık altında dizine alınmış sayfaları göster",
+	"index-hide-detail": "Sayfa listesini gizle",
+	"index-no-results": "Aramada sonuç bulunamadı",
+	"index-search-explain": "Bu sayfa bir önek araması kullanıyor.\n\nİlk birkaç karakteri yazın ve arama dizesi ile başlayan sayfa başlıklarını ve dizin girişlerini aramak için gönder düğmesine basın",
+	"index-details-explain": "Oklu girişler dizin girişleridir.\nBu başlığın altındaki tüm sayfaları göstermek için oku tıklayın."
+}

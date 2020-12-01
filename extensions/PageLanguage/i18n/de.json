@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"pagelanguage-desc": "Ermöglicht die Definierung der Seitensprache pro Seite",
+	"pagelanguage-invalid": "'''Warnung:''' Der ungültige Sprachcode „$1“ für die Seitensprache wird ignoriert.",
+	"pagelanguage-duplicate": "'''Warnung:''' Die Seitensprache „$2“ überschreibt die frühere Seitensprache „$1“."
+}

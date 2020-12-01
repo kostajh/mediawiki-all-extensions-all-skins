@@ -1,0 +1,75 @@
+{
+	"name": "BlueSpiceInsertTemplate",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:InsertTemplate",
+	"author": [
+		"Josef Konrad",
+		"Robert Vogel"
+	],
+	"descriptionmsg": "bs-insertTemplate-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceInsertTemplate": {
+					"className": "\\BlueSpice\\InsertTemplate\\Extension",
+					"extPath": "/BlueSpiceInsertTemplate"
+				}
+			}
+		}
+	},
+	"MessagesDirs": {
+		"InsertTemplate": [
+			"i18n"
+		]
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"InsertTemplateFavorites": {
+			"value": []
+		}
+	},
+	"APIModules": {
+		"bs-inserttemplate-store": "BSApiInsertTemplateTemplateStore"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\InsertTemplate\\" : "src/"
+	},
+	"AutoloadClasses": {
+		"BSApiInsertTemplateTemplateStore": "includes/api/BSApiInsertTemplateTemplateStore.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceInsertTemplate/resources"
+	},
+	"ResourceModules": {
+		"ext.bluespice.insertTemplate": {
+			"scripts": [
+				"bluespice.insertTemplate.js"
+			],
+			"messages": [
+				"bs-insertTemplate-button-template-title",
+				"bs-insertTemplate-dialog-title",
+				"bs-insertTemplate-dialog-label-choose",
+				"bs-insertTemplate-dialog-label-modify",
+				"bs-insertTemplate-dialog-label-preview"
+			],
+			"dependencies": [
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.insertTemplate.styles": {
+			"styles": [
+				"bluespice.insertTemplate.css"
+			]
+		}
+	},
+	"manifest_version": 2
+}

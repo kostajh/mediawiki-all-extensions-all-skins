@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Xenerador y editor de claves d'identificación",
+	"apihelp-query+LifeWeb-description": "Llinia de descarga de datos de LifeBase.",
+	"apihelp-query+LifeWeb-summary": "Llinia de descarga de datos de LifeBase.",
+	"apihelp-query+LifeWeb-param-what": "Qué llista de datos recuperar.",
+	"apihelp-query+LifeWeb-param-clearCache": "Si la caché tien de llimpiase o non al recuperar datos",
+	"apihelp-query+LifeWeb-example-1": "Llista de taxones",
+	"apihelp-query+LifeWeb-example-2": "Llista de preguntes, preparada pa imprimir"
+}

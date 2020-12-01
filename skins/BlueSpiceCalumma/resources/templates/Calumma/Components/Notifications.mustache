@@ -1,0 +1,22 @@
+<div class="bs-pt-notifications">
+	<ul>
+	{{#notifications-alert}}
+		<li id="{{id}}">
+			{{#links}}
+				<a id="{{single-id}}" href="{{href}}" class="{{#class}}{{.}} {{/class}}" 
+					data-counter-num="{{#data}}{{counter-num}}{{/data}}" data-counter-text="{{#data}}{{counter-text}}{{/data}}">
+				</a>
+			{{/links}}
+		</li>
+	{{/notifications-alert}}
+	{{#notifications-notice}}
+		<li id="{{id}}">
+			{{#links}}
+				<a id="{{single-id}}" href="{{href}}" class="{{#class}}{{.}} {{/class}}" 
+					data-counter-num="{{#data}}{{counter-num}}{{/data}}" data-counter-text="{{#data}}{{counter-text}}{{/data}}">
+				</a>
+			{{/links}}
+		</li>
+	{{/notifications-notice}}
+	</ul>
+</div>

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-socialwatch-desc": "用於 BlueSpiceSocial 單元的監視功能",
+	"bs-socialwatch-watchtext": "監視",
+	"bs-socialwatch-unwatchtext": "取消監視",
+	"bs-socialwatch-var-watch": "監視",
+	"apihelp-bs-socialwatch-tasks-summary": "提供用於編輯單元監視狀態的任務"
+}

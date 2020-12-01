@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwangjy9",
+			"아라"
+		]
+	},
+	"minimumnamelength-desc": "최소 사용자 이름 길이를 강제할 수 있게 합니다",
+	"minimumnamelength-error": "당신의 사용자 이름이 너무 짧습니다. 최소 필수 길이는 {{PLURAL:$1|한 자|$1자}}입니다."
+}

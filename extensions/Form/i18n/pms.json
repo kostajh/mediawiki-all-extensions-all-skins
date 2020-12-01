@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Bèrto 'd Sèra",
+			"Dragonòt"
+		]
+	},
+	"form-desc": "N'[[Special:Form|antëfacia ëd forma]] për fé parte neuve pàgine",
+	"form": "Domanda",
+	"form-no-name": "Domanda sensa tìtol",
+	"form-no-name-text": "A venta deje un tìtol al mòdulo ëd domanda, coma \"Special:Form/nòm_dla_domanda\".",
+	"form-bad-name": "Nòm dla domanda nen bon",
+	"form-bad-name-text": "A-i é gnun mòdol ëd domanda ch'as ciama parèj.",
+	"form-pattern": "$1-domanda",
+	"form-save": "Salvé",
+	"form-index-mismatch-title": "Model dël nòm e stamp a corispondo pa",
+	"form-index-mismatch": "Ës mòdulo-sì a l'ha në schema ëd nòm e stamp malcobià a parte da 'nt l'ìndess $1.",
+	"form-article-exists": "La pàgina a-i é",
+	"form-article-existstext": "La pàgina [[$1]] a-i é già",
+	"form-bad-page-name": "Nòm ëd pàgina pa bon",
+	"form-bad-page-name-text": "Ij dat ant sël mòdulo ëd domanda ch'a l'ha butà a dan un nòm ëd pàgina nen bon, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|Ël camp $1 a l'é|Ij camp $1 a son}} obligatòri për ës mòdulo ëd domanda-sì. \nPër piasì, {{PLURAL:$2|ch'a lo|ch'a-j}} compila.",
+	"form-save-summary": "Neuva pàgina ch'a dòvra [[Special:Form/$1|mòdul $1]]",
+	"form-save-error": "Eror ën salvand ël mòdulo ëd domanda",
+	"form-save-error-text": "A-i é sta-ie n'eror amprevist ën salvand la pàgina '$1'."
+}

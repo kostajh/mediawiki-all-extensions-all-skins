@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"categorywatch-desc": "Stinne le funziune d'a liste de le pàggene condrollete pe includere le notifeche sus a le cangiaminde de le membre e sus a le categorije condrollete",
+	"categorywatch-emailsubject": "L'attività include 'a categorija condrollete \"$1\"",
+	"categorywatch-catmovein": "spustete $1 jndr'à categorije $2 da $3",
+	"categorywatch-catmoveout": "spueste $1 fore d'a categorije $2 jndr'a $3",
+	"categorywatch-catadd": "aggiunge $1 jndr'à categorije $2",
+	"categorywatch-catsub": "live $1 da 'a categorije $2",
+	"categorywatch-autocat": "Automaticamende viste da $1",
+	"categorywatch-notification-link": "Categorije: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] aggiunde a [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] aggiunde a [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] ave aggiunde [[:$3|$3]] a [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] luate da [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] luate da [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] ave luate [[:$3|$3]] da [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 cangiaminde jndr'à categorizzazzione sus a {{SITENAME}}",
+	"categorywatch-add-title": "Titole aggiunde a le categorije condrollate",
+	"categorywatch-remove-title": "Titole luate da le categorije condrollate",
+	"categorywatch-page-watch-pref": "Aggiunge tutte le pàggene jndr'à 'na categorije jndr'à l'elenghe de le condrollate quanne tu aggiunge 'na categorije",
+	"echo-category-title-categorywatch": "Condrolle 'a categorije",
+	"echo-pref-tooltip-categorywatch": "Manne 'na notifeche quanne quacchedune categorizze 'na pàgene jndre o fore de 'na categorije ca ije stoche e condrolle."
+}

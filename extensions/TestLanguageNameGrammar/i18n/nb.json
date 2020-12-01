@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"testlanguagenamegrammar": "Tester grammatikkformer med språknavn",
+	"testlanguagenamegrammar-desc": "Legger til ei [[Special:TestLanguageNameGrammar|spesialside]] for å teste grammatikkformer med språknavn.",
+	"testlanguagenamegrammar-language": "Språk",
+	"testlanguagenamegrammar-grammarform": "Grammatikkform",
+	"testlanguagenamegrammar-submit": "Send"
+}

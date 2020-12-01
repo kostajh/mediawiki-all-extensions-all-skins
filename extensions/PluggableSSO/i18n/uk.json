@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"pluggablesso-desc": "Використовує SSO, що надається веб-сервером у $REMOTE_USER у сполученні з PluggableAuth",
+	"pluggablesso-no-session": "Не отримано імені користувача, сесія з якоїсь причини завершилась невдачею.",
+	"pluggablesso-username-mismatch": "Ім'я користувача не відповідає сесії"
+}

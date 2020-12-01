@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"categorywatch-desc": "Utvider overvakingslista sin funksjonalitet til òg å gjelda innhaldet i kategoriar",
+	"categorywatch-emailsubject": "Aktivitet i den overvaka kategorien «$1»",
+	"categorywatch-catmovein": "flytta $1 til kategorien $2 frå $3",
+	"categorywatch-catmoveout": "flytta $1 frå kategorien $2 til $3",
+	"categorywatch-catadd": "la til $1 i kategori $2",
+	"categorywatch-catsub": "fjerna $1 frå kategori $2",
+	"categorywatch-autocat": "Automatisk overvaka av $1"
+}

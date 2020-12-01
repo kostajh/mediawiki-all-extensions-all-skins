@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Func",
+			"Liuxinyu970226",
+			"Shuiwater",
+			"SomeyaMako",
+			"StarHeart",
+			"列维劳德",
+			"沈澄心"
+		]
+	},
+	"flexiskin-extension-desc": "允许自定义皮肤",
+	"flexiskin": "皮肤参数设置",
+	"action-flexiskin-viewspecialpage": "查看[[Special:FlexiSkin|特殊页面]]自定义皮肤",
+	"flexiskin-ui-plugin-colors-foreground-tertiary-label": "颜色 3",
+	"flexiskin-ui-plugin-colors-foreground-quaternary-label": "颜色 4",
+	"flexiskin-ui-plugin-images-logo-label": "标志",
+	"flexiskin-ui-configurator-button-save-label": "保存并启用",
+	"flexiskin-ui-plugin-color-presets-customize-label": "个性化……"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexander Yukal",
+			"Facenapalm",
+			"Gazimagomedov",
+			"Okras",
+			"Romanko Mikhail",
+			"Vlad5250"
+		]
+	},
+	"configmanager-admintool-label": "Менеджер конфигурации",
+	"action-configmanager-viewspecialpage": "просмотр специальной страницы «{{int:configmanager}}»",
+	"configmanager": "Менеджер конфигурации",
+	"configmanager-desc": "Дает возможность администраторам настроить всю вики на одной спецстранице",
+	"configmanager-discardchanges": "Отменить изменения?",
+	"configmanager-noentry": "Запись не найдена",
+	"apihelp-configmanager-tasks-summary": "Управление заданиями",
+	"apihelp-configmanager-store-summary": "Управление хранилищами",
+	"right-configmanager-viewspecialpage": "доступ к служебной странице [[Special:ConfigManager]]"
+}

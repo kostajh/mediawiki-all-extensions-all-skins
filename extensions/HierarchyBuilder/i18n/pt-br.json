@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"hierarchybuilder-desc": "Apresenta hierarquias de páginas, e permite a edição dessas hierarquias e a seleção a partir delas",
+	"hierarchybuilder-reveal-editmessage": "Como uso isto?",
+	"hierarchybuilder-editmessage": "A lista Raiz da Hierarquia contém a hierarquia que será preservada quando gravar. A lista de Páginas Não Utilizadas contém as páginas da categoria $1 que não estão na hierarquia neste momento. Pode alterar a lista Raiz da Hierarquia, arrastando as linhas para baixo ou para cima ou mudando a sua indentação. Pode adicionar à hierarquia páginas da lista de Páginas Não Utilizadas, arrastando-as e largando-as onde pretende colocá-las na lista Raiz da Hierarquia. Pode remover páginas da hierarquia, arrastando-as da Raiz da Hierarquia e largando-as em qualquer posição da lista de Páginas Não Utilizadas.",
+	"hierarchybuilder-edit-error-message": "Esta hierarquia não pode ser editada, porque tanto os dados de hierarquia como a categoria de onde se obtêm páginas não utilizadas, estão vazios. Verifique que pelo menos uma destas fontes de dados é preenchida, por favor.",
+	"hierarchybuilder-hierarchyroot": "Raiz da hierarquia",
+	"hierarchybuilder-unusedpages": "Páginas não utilizadas",
+	"hierarchybuilder-category-desc": "Esta é a categoria à qual as páginas da hierarquia têm de pertencer.",
+	"hierarchybuilder-missing-category": "Falta o argumento da categoria.",
+	"hierarchybuilder-hierarchy-desc": "Esta é uma hierarquia formatada em texto wiki.",
+	"hierarchybuilder-pagename-desc": "Este é o nome da página que contém a hierarquia.",
+	"hierarchybuilder-propertyname-desc": "Este é o nome da propriedade que contém a hierarquia.",
+	"hierarchybuilder-collapsed-desc": "Se este argumento for fornecido, a hierarquia deve estar recolhida na primeira vez em que for apresentada.",
+	"hierarchybuilder-missing-page-name": "Falta o argumento do nome da página.",
+	"hierarchybuilder-missing-property-name": "Falta o argumento do nome da propriedade.",
+	"hierarchybuilder-invalid-collapsed": "O valor do argumento da recolha é inválido."
+}

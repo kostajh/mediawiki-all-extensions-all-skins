@@ -1,0 +1,39 @@
+{
+	"name": "RelatedLinks",
+	"author": "Sleeping-Lion",
+	"version": "1.0.0",
+	"url": "https://www.mediawiki.org/wiki/Extension:RelatedLinks",
+	"descriptionmsg": "relatedlinks-desc",
+	"type": "specialpage",
+	"license-name": "MIT",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"ResourceModules": {
+		"ext.relatedLinks": {
+			"scripts": "ext.related_links.js",
+			"styles": "ext.related_links.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "RelatedLinks/modules"
+	},
+	"Hooks": {
+		"MonoBookTemplateToolboxEnd": ["RelatedLinksHooks::SkinTemplateToolboxEnd"]
+	},
+	"ExtensionMessagesFiles": {
+		"RelatedLinksAlias": "RelatedLinks.alias.php"
+	},
+	"MessagesDirs": {
+		"RelatedLinks": ["i18n"]
+	},
+	"SpecialPages": {
+		"RelatedLinks": "SpecialRelatedLinks"
+	},
+	"AutoloadClasses": {
+		"RelatedLinksHooks": "RelatedLinks.hooks.php",
+		"SpecialRelatedLinks": "SpecialRelatedLinks.php"
+	},
+	"manifest_version": 1
+}

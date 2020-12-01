@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Locos epraix"
+		]
+	},
+	"special404-desc": "Proporciona un destino para los errores 404",
+	"error404": "404 No encontrado",
+	"special404-body": "No se pudo encontrar la URL solicitada.\n\n¿Quizás buscabas {{fullurl:$1}}?\n\nTal vez te gustaría ir a:\n* [[{{MediaWiki:Mainpage}}|La página principal]]"
+}

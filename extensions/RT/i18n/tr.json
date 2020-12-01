@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"rt-desc": "RT'ye süslü arayüz (İstek İzleyici)",
+	"rt-inactive": "RT uzantısı aktif değil.",
+	"rt-badquery": "RT uzantısı, RT veritabanıyla konuşurken bir hatayla karşılaştı.",
+	"rt-badlimit": "Geçersiz <code>LIMIT</code> (<code>l</code>) tart: bir sayı olmalıdır.\nDenediğiniz: '''$1'''",
+	"rt-badorderby": "Geçersiz <code>ORDER BY</code> (<code>ob</code>) tart: standart bir alan olmalıdır (belgelere bakın).\nDenediğiniz: '''$1'''",
+	"rt-badstatus": "Geçersiz <code>status</code> (<code>s</code>) tart: standart bir alan olmalıdır (belgelere bakın).\nDenediğiniz: '''$1'''",
+	"rt-badcfield": "Geçersiz özel alan argümanı: basit bir kelime olmalıdır (belgelere bakınız).\nDenediğiniz: '''$1'''",
+	"rt-badqueue": "Geçersiz <code>queue</code> (<code>q</code>) tart: basit bir kelime olmalıdır.\nDenediğiniz: '''$1'''",
+	"rt-badowner": "Geçersiz <code>owner</code> (<code>o</code>) tart: geçerli bir kullanıcı adı olmalıdır.\nDenediğiniz: '''$1'''",
+	"rt-nomatches": "Eşleşen RT bileti bulunamadı."
+}

@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-socialprofile-desc": "Endità d'u profile de BlueSpiceSocial",
+	"bs-socialprofile-type": "Profile",
+	"bs-socialprofile-entityaction-changeimage": "Immaggine de l'utende",
+	"bs-social-entityaction-editprofilefields": "Date d'u profile",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "'User' mise jè invalide",
+	"bs-social-profile-field-name": "Nome",
+	"bs-social-profile-field-email": "Email",
+	"bs-social-profile-field-title": "Titole",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Sig.|Sig.ra|}}",
+	"bs-social-profile-field-department": "Reparte",
+	"bs-social-profile-field-function": "Funzione",
+	"bs-social-profile-field-location": "Luèche",
+	"bs-social-profile-field-phone": "Telefone",
+	"bs-social-profile-field-validate-no-integer": "$1 adda essere 'nu numere",
+	"bs-socialprofile-special-profiles-heading": "Profile",
+	"bs-social-profile-infoshowemail": "Fà ìndrucà l'indirizze email jndr'à 'u profile",
+	"socialprofiles": "Profile",
+	"bs-socialprofile-switch-classicprofile-label": "Profile classeche",
+	"bs-socialprofile-switch-modernprofile-label": "Profile moderne",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Passe a 'u profile classeche",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Passe a 'u profile moderne",
+	"action-social-editothersprofile": "cange le profile de l'otre utinde",
+	"right-social-editothersprofile": "Cange le profile de l'otre utinde",
+	"action-socialprofile-viewspecialpage": "'ndruche ìa pàgena speciale \"{{int:socialprofiles}}\"",
+	"right-socialprofile-viewspecialpage": "'Ndruche ìa pàgena speciale \"{{int:socialprofiles}}\""
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gorizon",
+			"Kumkumuk",
+			"Mirzali"
+		]
+	},
+	"apifeatureusage-agent-label": "Acanê karberi:",
+	"apifeatureusage-startdate-label": "Tarixê destpêkerdışi:",
+	"apifeatureusage-enddate-label": "Tarixê qediyayışi:",
+	"apifeatureusage-warnings": "Tembe kem:$1",
+	"apifeatureusage-column-feature": "Weçinaye",
+	"apifeatureusage-column-date": "Tarix",
+	"apifeatureusage-column-uses": "Karıyen"
+}

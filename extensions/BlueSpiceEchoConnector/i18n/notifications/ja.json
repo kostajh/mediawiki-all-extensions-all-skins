@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Omotecho"
+		]
+	},
+	"bs-notifications-addaccount": "利用者「$1」が作成されました。",
+	"bs-notifications-email-addaccount-subject": "利用者「$2」が{{GENDER:$1|作成}}されました。",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|利用者}} $2 が作成されました。\n\n以下のリンクから{{GENDER:$1|}}利用者ページにアクセスできます",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|利用者}} $2 が作成されました。",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|作成者}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|作成者}}: $1",
+	"bs-notifications-registeruser": "利用者「$1」がアカウントを作成されました。",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|利用者}}「$2」がアカウントを{{GENDER:$1|作成}}されました",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|利用者}} $2 がアカウントを{{GENDER:$1|作成}}されました。\n\n以下のリンクから{{GENDER:$1|}}利用者ページにアクセスできます",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|利用者}} $2 がアカウントを{{GENDER:$1|作成}}されました。",
+	"bs-notifications-edit": "ページ「$1」が変更されました",
+	"bs-notifications-edit-bundle": "ページ「$2」は {{PLURAL:$1|$1 回}}変更されました。",
+	"bs-notifications-email-edit-subject": "ページ「$1」は $3 によって{{GENDER:$2|編集}}されました",
+	"bs-notifications-email-edit-body": "ページ「$1」は $4 によって{{GENDER:$2|編集}}されました。\n\nコメント:\n $3",
+	"bs-notifications-web-edit-body": "ページ「$1」は $3 によって{{GENDER:$2|編集}}されました。",
+	"bs-notifications-create": "ページ「$1」が作成されました",
+	"bs-notifications-email-create-subject": "ページ「$1」は $3 によって{{GENDER:$2|作成}}されました",
+	"bs-notifications-email-create-body": "ページ「$1」は $3 によって{{GENDER:$2|作成}}されました。\n\nコメント:\n $4 \n以下のリンクからページにアクセスできます",
+	"bs-notifications-web-create-body": "ページ「$1」は $3 によって{{GENDER:$2|作成}}されました",
+	"bs-notifications-delete": "ページ「$1」が削除されました",
+	"bs-notifications-email-delete-subject": "ページ「$1」は $3 によって{{GENDER:$2|削除}}されました",
+	"bs-notifications-email-delete-body": "ページ「$1」は $3 によって{{GENDER:$2|削除}}されました。\n\n理由は次のとおりです:\n$4",
+	"bs-notifications-web-delete-body": "ページ「$1」は $3 によって{{GENDER:$2|削除}}されました。",
+	"bs-notifications-move": "ページ「$1」が移動されました",
+	"bs-notifications-email-move-subject": "ページ「$1」は $4 によって「$3」に{{GENDER:$2|移動}}されました",
+	"bs-notifications-email-move-body": "ページ「$1」は $4 によって「$3」に{{GENDER:$2|移動}}されました。\n\n理由は次のとおりです:\n$5\n\n以下のリンクからページにアクセスできます",
+	"bs-notifications-web-move-body": "ページ「$1」は $4 によって「$3」に{{GENDER:$2|移動}}されました。",
+	"bs-notifications-edit-difflink-label": "差分を表示",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|こんにちは}}、$1 さん",
+	"bs-notifications-htmlmail-sender-info": "$1 通知システム",
+	"bs-notifications-mail-additional-links-label": "その他のリンク"
+}

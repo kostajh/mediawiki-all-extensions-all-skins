@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"Leinad",
+			"Sp5uhe",
+			"ToSter"
+		]
+	},
+	"useroptionstats": "Statystyki opcji użytkowników",
+	"useroptionstats-desc": "[[Special:UserOptionStats|Strona specjalna]] przedstawiająca użycie opcji dostępnych dla użytkowników MediaWiki",
+	"uos-warn": "PHPlot nie został zainstalowany!",
+	"uos-choose": "Wybierz jedną z następujących opcji użytkowników: $1",
+	"uos-choose-hidden": "Wybierz jedną z następujących ukrytych opcji użytkowników: $1",
+	"uos-unknown": "*Domyślna",
+	"uos-other": "*Inna",
+	"uos-title": "Rozkład wartości opcji użytkowników $1"
+}

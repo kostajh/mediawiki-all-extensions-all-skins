@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"គីមស៊្រុន"
+		]
+	},
+	"countDownClock-invalidtime": "សូមផ្ដល់ពេលវេលារាប់ចប់អោយបានត្រឹមត្រូវ",
+	"countDownClock-days": "$1 {{PLURAL:$1|ថ្ងៃ|ថ្ងៃ}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|ម៉ោង|ម៉ោង}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|នាទី|នាទី}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|វិនាទី|វិនាទី}}",
+	"countDownClock-expired": "ផុតកំណត់"
+}

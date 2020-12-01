@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gunnernett",
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"webchat": "Nettprat",
+	"webchat-desc": "Legg til ei [[Special:WebChat|spesialside]] for å samtala i realtid med andre wikibrukarar",
+	"webchat-header": "Denne spesialsida tillèt deg å samarbeida med andre brukarar på wikien i sanntid.\nFor å kopla deg til, trykk på «Kopla til»-knappen.\nOm du er logga inn vil kallenamnet ditt alt vera fylt inn.\nAnonyme brukarar vert gjevne automatisk genererte kallenamn, men desse kan ein endra.",
+	"right-webchat": "Kan nytta [[Special:WebChat|nettprat]]"
+}

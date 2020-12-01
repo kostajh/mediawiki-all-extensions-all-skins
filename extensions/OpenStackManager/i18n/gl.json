@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArenaL5",
+			"Banjo",
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"openstackmanager-desc": "Permite aos usuarios rexistrar contas en shell e administar as súas claves SSH",
+	"openstackmanager": "Xestor OpenStack",
+	"novakey": "Xestionar a súas claves SSH públicas",
+	"specialpages-group-nova": "Autenticación OpenStack Manager",
+	"openstackmanager-novakey": "Clave Nova",
+	"openstackmanager-delete": "borrar",
+	"openstackmanager-actions": "Accións",
+	"openstackmanager-notloggedin": "Cómpre acceder ao sistema",
+	"openstackmanager-mustbeloggedin": "Cómpre acceder ao sistema para levar a cabo a acción.",
+	"openstackmanager-novapublickey": "Clave pública SSH",
+	"openstackmanager-prefs-novapublickey": "Claves públicas SSH:",
+	"openstackmanager-deletekey": "Borrar a clave pública SSH",
+	"openstackmanager-deletekeyconfirm": "Está seguro de querer borrar a clave anterior?",
+	"openstackmanager-keylist": "Lista de claves públicas SSH",
+	"openstackmanager-addkey": "Engadir unha clave pública SSH",
+	"openstackmanager-name": "Nome",
+	"openstackmanager-fingerprint": "Pegada",
+	"openstackmanager-keys": "Claves",
+	"openstackmanager-keypairimportfailed": "Erro ao importar o par de claves.",
+	"openstackmanager-keypairimported": "Par de claves importadas.",
+	"openstackmanager-keypairimportedfingerprint": "Par de claves $1 importadas coa impresión dixital $2.",
+	"openstackmanager-keypairformatwrong": "A clave SSH proporcionada era incorrecta ou tiña un formato descoñecido.",
+	"openstackmanager-keypairformatconverted": "O formato da clave SSH converteuse automaticamente.",
+	"openstackmanager-deletedkey": "A clave borrouse.",
+	"openstackmanager-deletedkeyfailed": "Erro ao borrar a clave.",
+	"openstackmanager-shellaccountname": "Nome da conta shell da instancia",
+	"openstackmanager-shellaccountname-pref": "Nome da conta shell da instancia:",
+	"openstackmanager-shellaccountnamehelp": "Cómpre indicar o nome da conta shell.\nDebe comezar con letras do a ao z, e só pode conter caracteres en minúsculas (a-z), números (0-9) e guións (-).",
+	"openstackmanager-shellaccountvalidationfail": "O nome da súa conta shell non é válido.\nDebe comezar con letras do a ao z, e só pode conter caracteres en minúsculas (a-z), números (0-9) e guións (-).",
+	"openstackmanager-shellaccountexists": "O nome desa conta shell xa está en uso.",
+	"prefs-openstack": "OpenStack",
+	"prefs-openstack-keys": "Lista de claves"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matma Rex",
+			"McDutchie"
+		]
+	},
+	"gettingstarted": "Prime passos",
+	"gettingstarted-desc": "Adjuta nove usatores a devenir contributores",
+	"gettingstarted-task-toolbar-editing-help-text": "Monstrar me como facer",
+	"gettingstarted-task-toolbar-editing-help-title": "Monstrar un guida sur como modificar",
+	"gettingstarted-task-toolbar-try-another-text": "Essayar un altere pagina ►",
+	"gettingstarted-task-toolbar-close-title": "Clauder iste instrumentario",
+	"gettingstarted-task-copyedit-toolbar-description": "Iste pagina pote haber errores de orthographia o grammatica que tu pote corriger.",
+	"gettingstarted-task-copyedit-toolbar-try-another-title": "Vader a un pagina aleatori que tu pote meliorar per rediger le texto",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-title": "Vamos comenciar",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-description": "Secundo altere usatores de {{SITENAME}}, iste pagina ha besonio de melioration. Non es necessari esser un experto de iste subjecto pro adjutar.",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-title": "Lo que tu pote facer",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-description": "Iste bandieras identifica problemas con iste pagina. Non es necessari corriger totes. Suffice facer lo que tu te senti commode de facer.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-title": "Modificar tote le pagina…",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-description": "Clicca sur \"$1\" pro modificar contento ubicunque in le pagina.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-title": "O modifica un section",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-description": "Si tu vole modificar un section specific, tu pote cliccar sur le ligamine '{{int:editsection}}' vicin al titulo de cata section.",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-title": "Face tu modificationes e salveguarda",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-description": "Ora tu pote modificar le contento del pagina. Quando tu ha finite, clicca sur \"{{int:publishchanges}}\" pro revider e salveguardar le cambiamentos.",
+	"guidedtour-tour-gettingstarted-click-preview-title": "Previsualisation (optional)",
+	"guidedtour-tour-gettingstarted-click-preview-description": "Cliccar sur \"{{int:showpreview}}\" permitte verificar le aspecto del pagina con tu modificationes. Solmente non oblida de salveguardar lo.",
+	"guidedtour-tour-gettingstarted-click-save-title": "Tu ha quasi finite!",
+	"guidedtour-tour-gettingstarted-click-save-description": "Clicca sur \"{{int:publishchanges}}\" e tu modificationes essera visibile."
+}

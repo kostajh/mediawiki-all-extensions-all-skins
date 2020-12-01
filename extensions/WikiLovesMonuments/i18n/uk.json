@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"A1",
+			"Ата"
+		]
+	},
+	"wlm-extension-desc": "Додає інформацію та повідомлення, що пов'язані з конкурсом \"Вікі любить пам'ятки\"",
+	"wlm-no-contest-year": "Конкурс \"Вікі любить пам'ятки\" в $1 не проводився.",
+	"wlm-no-url-bad-country": "Немає інформації щодо сайту конкурсу країни $1.",
+	"wlm-country-not-given": "Вам потрібно вказати код країни.",
+	"wlm-country-not-participating-year": "«$1» не бере участі у Вікі Любить Пам'ятки $2",
+	"wlm-sidebar-portlet": "Інші країни",
+	"wlm-international-contest": "Міжнародний",
+	"wlm-text-contact": "Контакти",
+	"wlm-text-contest": "Конкурс",
+	"wlm-text-donate": "Пожертвувати",
+	"wlm-text-faq": "ЧаП",
+	"wlm-text-jury": "Журі",
+	"wlm-text-monuments": "Пам'ятки",
+	"wlm-text-news": "Новини",
+	"wlm-text-participate": "Взяти участь!",
+	"wlm-text-prizes": "Призи",
+	"wlm-text-rules": "Правила",
+	"wlm-text-sponsors": "Спонсори",
+	"wlm-text-uploading": "Завантаження"
+}

@@ -1,0 +1,17 @@
+{
+	"name": "3d",
+	"version": "0.0.3",
+	"private": true,
+	"description": "Build tools for the 3D MediaWiki extension.",
+	"scripts": {
+		"test": "grunt test"
+	},
+	"devDependencies": {
+		"eslint-config-wikimedia": "0.17.0",
+		"grunt": "1.3.0",
+		"grunt-banana-checker": "0.9.0",
+		"grunt-eslint": "23.0.0",
+		"grunt-stylelint": "0.16.0",
+		"stylelint-config-wikimedia": "0.10.3"
+	}
+}

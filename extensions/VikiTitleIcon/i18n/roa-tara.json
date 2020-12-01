@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"vikititleicon-desc": "'U plugin VIKI dace 'ndrucà 'u loghe da le pàggene ausanne l'estenzione Titole de l'Icone",
+	"vikititleicon-error-fetch": "Errore scorrenne 'u date d'u titole de l'icone pu node: $1.",
+	"apihelp-getTitleIcons-description": "Pigghie le URL de tutte le titole de le icone pa pàgene, ce esiste.",
+	"apihelp-getTitleIcons-summary": "Pigghie le URL de tutte le titole de le icone pa pàgene, ce esiste.",
+	"apihelp-getTitleIcons-param-pageTitle": "titole d'a pàgene de le titole de le icone ca vuè ccu pigghie"
+}

@@ -1,0 +1,86 @@
+/** Styles for Special:TopUsers etc. **/
+.top-users {
+	float: left;
+	margin: 15px 0 0 0;
+}
+
+.top-fan {
+	font-size: 90%;
+	font-weight: bold;
+	float: left;
+	width: 250px;
+	padding-right: 10px;
+}
+
+.top-fan a {
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.top-fan img {
+	vertical-align: middle;
+	padding-right: 4px;
+}
+
+.top-fan-num {
+	color: #dcdcdc;
+	font-size: 18px;
+	font-weight: 700;
+	float: left;
+	width: 45px;
+	padding: 5px 0 0 0;
+	margin: 0 0 0 5px;
+}
+
+.top-fan-points {
+	color: #797979;
+	font-size: 13px;
+	float: left;
+	height: 30px;
+	padding-top: 5px;
+}
+
+.top-fan-row {
+	margin: 0 0 10px 0;
+	clear: both;
+}
+
+.top-fan-level {
+	font-size: 16px;
+	font-weight: 800;
+	color: #797979;
+	margin: 0 0 10px 0;
+}
+
+.top-fan-nav h1 {
+	border-bottom: 1px solid #dcdcdc;
+	color: #333;
+	font-size: 16px;
+	padding: 0 0 3px 0;
+	margin: 0 0 10px 0 !important;
+}
+
+.top-fan-nav {
+	float: right;
+	margin: 10px 0 0 0;
+	width: 200px;
+	padding: 5px;
+}
+
+.top-fan-nav a {
+	font-weight: 700;
+	text-decoration: none;
+}
+
+/* A "Top users by category" <h1> on Special:TopFansByStatistics and Special:TopUsersRecent */
+.top-title {
+	margin-top: 15px !important;
+}
+
+/* Responsive stuff for mobile devices */
+@media screen and (max-width: 750px) {
+	/* Special:TopUsersRecent (etc.) */
+	span.top-fan {
+		max-width: 14em;
+	}
+}

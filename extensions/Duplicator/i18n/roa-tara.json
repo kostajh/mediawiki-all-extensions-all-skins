@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"duplicator": "Dupliche 'na pàgene",
+	"duplicator-desc": "Ccreje 'na [[Special:Duplicate|copie de le pàggene]] indipendende cu tutte 'u cunde de le cangiaminde",
+	"duplicator-toolbox": "Dupleche sta pàgene",
+	"duplicator-header": "Sta pàgene permette 'a duplicazione comblete d'a pàgene, ccrejanne copie indipendende de tutte le cunde.\nQuiste jè utile pa separazione de le pàggene, ecc.",
+	"duplicator-options": "Opziune",
+	"duplicator-source": "Sorgende:",
+	"duplicator-dest": "Destinazione:",
+	"duplicator-dotalk": "Dupliche 'a pàgene de le 'ngazzaminde (ce applicabbile)",
+	"duplicator-dosubpages": "Dupliche le sottopàggene (ce stonne)",
+	"duplicator-dohistory": "Dupliche 'u cunde comblete d'a pàgene",
+	"duplicator-submit": "Dupliche",
+	"duplicator-summary": "Copiate da [[$1]], revisione [[$2]]",
+	"duplicator-success": "<big>'''[[$1]] ha state copiate sus a [[$2]].'''</big>",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|revisione ha state|revisiune onne state}} copiate.",
+	"duplicator-success-talknotcopied": "'A pàgene de le 'ngazzaminde non g'ha state copiate.",
+	"duplicator-failed": "'A pàgene non ge pò essere duplicate.\n'N'errore scanusciute ha assute.",
+	"duplicator-failed-toolong": "[[$1]] non g'ha state duplicate. 'U titole de destinazione jè troppe luènghe.",
+	"duplicator-failed-dest-exists": "[[$1]] non g'ha state duplicate. 'A destinazione [[$2]] già esiste.",
+	"duplicator-source-invalid": "Pe piacere dèje 'nu titole de origgene valide.",
+	"duplicator-source-notexist": "[[$1]] non g'esiste. Pe piacere dà 'u titole de 'na pàgene ca esiste.",
+	"duplicator-dest-invalid": "Pe piacere dà 'nu titole de destinazione valide.",
+	"duplicator-dest-exists": "[[$1]] ggià esiste. Pe piacere dà 'nu titole de destinazione ca non g'esiste.",
+	"action-duplicate": "dupleche le pàggene",
+	"right-duplicate": "Dupliche le pàggene"
+}

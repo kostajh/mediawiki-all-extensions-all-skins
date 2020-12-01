@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Petr Bena"
+		]
+	},
+	"interactiveblockmessage-desc": "Creates new magic word <nowiki>{{USERBLOCKED}}</nowiki> which if on userspace indicates if user is blocked or not"
+}

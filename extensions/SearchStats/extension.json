@@ -1,0 +1,34 @@
+{
+	"name": "Search Stats",
+	"version": "0.1.0",
+	"author": [
+		"Steven Orvis"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SearchStats",
+	"descriptionmsg": "searchstats-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"SpecialPages": {
+		"SearchStats": "SpecialSearchStats"
+	},
+	"MessagesDirs": {
+		"SearchStats": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SearchStatsAlias": "SearchStats.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialSearchStats": "SpecialSearchStats.php",
+		"SearchStatsHooks": "SearchStats.hooks.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "SearchStatsHooks::onLoadExtensionSchemaUpdates",
+		"SpecialSearchCreateLink": "SearchStatsHooks::onSpecialSearchCreateLink",
+		"SpecialSearchNogomatch": "SearchStatsHooks::onSpecialSearchNogomatch"
+	},
+	"manifest_version": 2
+}

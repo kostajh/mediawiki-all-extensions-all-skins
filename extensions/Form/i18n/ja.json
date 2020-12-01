@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aotake",
+			"Fryed-peach",
+			"Hosiryuhosi",
+			"Shirayuki",
+			"Suyama",
+			"つぶあん派"
+		]
+	},
+	"form-desc": "ページを作成する[[Special:Form|フォーム形式のインターフェイス]]",
+	"form": "新しい編集を開始",
+	"form-captcha-error": "CAPTCHA エラー",
+	"form-no-name": "フォーム名がありません",
+	"form-no-name-text": "フォームの名前を決めなければなりません。(例: Special:Form/Nameofform)",
+	"form-bad-name": "正しくないフォーム名",
+	"form-bad-name-text": "その名前のフォームはありません。",
+	"form-pattern": "$1-form",
+	"form-save": "保存",
+	"form-index-mismatch-title": "名前パターンとテンプレートの不整合",
+	"form-index-mismatch": "このフォームには、インデックス $1 で始まる名前パターンとテンプレートの不整合があります。",
+	"form-article-exists": "ページが存在します",
+	"form-article-existstext": "そのページ [[$1]] は既に存在します。",
+	"form-bad-page-name": "正しくないページ名",
+	"form-bad-page-name-text": "フォームに入力したデータでは、正しくないページ名「$1」になります。",
+	"form-required-field-error": "{{PLURAL:$2|欄 $1}}はこのフォームで必須です。{{PLURAL:$2|入力}}してください。",
+	"form-save-summary": "[[Special:Form/$1|$1フォーム]]を使ってページ作成",
+	"form-save-error": "フォーム保存時のエラー",
+	"form-save-error-text": "ページ「$1」の保存時に不明なエラーがありました。"
+}

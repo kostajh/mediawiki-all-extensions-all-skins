@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"preferenceslist-desc": "Создава список на сите кориснички поставки за дадено нагодување",
+	"preferenceslist-preferenceslist": "Список на нагодувања",
+	"preferenceslist-preferenceslist-intro": "Подолу е прикажан список на нагодувања. Изберете едно или повеќе од нив за да ви се прикаже список на сите корисници со тоа нагодување.",
+	"preferenceslist": "Список на нагодувања",
+	"action-preferenceslist": "испис на нагодувањата на сите корисници",
+	"preferenceslist-csv": "Преземи како CSV",
+	"preferenceslist-nofields": "Нема одбрано ниедно поле.",
+	"right-preferenceslist": "Отворање во страницата Special:PreferencesList"
+}

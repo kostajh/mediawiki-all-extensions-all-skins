@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Melos"
+		]
+	},
+	"stalkerlog-desc": "Aggiunge [[Special:Log/stalkerlog|un registro]] dei login e dei logout degli utenti",
+	"stalkerlog-log-login": "ha effettuato il login.",
+	"stalkerlog-log-logout": "ha effettuato il logout.",
+	"stalkerlog-log-type": "Autenticazioni utenti",
+	"stalkerlog-log-text": "Questo è il registro delle azioni di login e logout degli utenti.",
+	"right-stalkerlog-view-log": "Visualizza il registro delle azioni di login e logout degli utenti."
+}

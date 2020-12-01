@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"extralanguagelink-desc": "Adder ligamines de lingua supplementari al section \"in altere linguas\" del barra lateral",
+	"extralanguagelink-param-class": "classe",
+	"extralanguagelink-param-hreflang": "linguahref",
+	"extralanguagelink-param-lang": "lingua",
+	"extralanguagelink-param-style": "stilo",
+	"extralanguagelink-param-title": "titulo",
+	"extralanguagelink-badinterwiki": "Le prefixo interwiki \"$1:\" non es in le lista de prefixos interwiki permittite.",
+	"extralanguagelink-badtitle": "Le titulo de pagina \"$1\" non poteva esser processate."
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"John Reid"
+		]
+	},
+	"accountinfo": "Accoont information",
+	"accountinfo-desc": "Permits ae uiser tae see stored private information aneat theim",
+	"accountinfo-ts": "Timestamp",
+	"accountinfo-ip": "IP address",
+	"accountinfo-ua": "Uiser agent",
+	"accountinfo-xff": "XFF heider",
+	"accountinfo-length": "Information is retained fer $1.",
+	"accountinfo-now": "Nou"
+}

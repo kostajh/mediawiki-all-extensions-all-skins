@@ -1,0 +1,123 @@
+{
+	"name": "BlueSpiceInsertCategory",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:InsertCategory",
+	"author": [
+		"Markus Glaser",
+		"Sebastian Ulbricht",
+		"Stefan Widmann"
+	],
+	"descriptionmsg": "bs-insertcategory-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceInsertCategory": {
+					"className": "\\BlueSpice\\InsertCategory\\Extension",
+					"extPath": "/BlueSpiceInsertCategory",
+					"configDefinitions": {
+						"InsertCategoryWithParents": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\WithParents::getInstance",
+						"InsertCategoryUploadPanelIntegration": "\\BlueSpice\\InsertCategory\\ConfigDefinition\\UploadPanelIntegration::getInstance"
+					}
+				}
+			},
+			"RendererRegistry": {
+				"pageheader-category": "\\BlueSpice\\InsertCategory\\Renderer\\PageHeader\\Category::factory"
+			}
+		},
+		"BlueSpiceArticleInfo": {
+			"FlyoutModules": {
+				"insert_category": {
+					"module": "ext.bluespice.insertcategory.flyout",
+					"make-items-callback": "bs.insertcategory.flyout.makeItems",
+					"skip-callback": "\\BlueSpice\\InsertCategory\\Extension::flyoutModuleSkip"
+				}
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceInsertCategory": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\InsertCategory\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.insertcategory": {
+			"scripts": "bluespice.insertCategory.js",
+			"messages": [
+				"bs-insertcategory-title",
+				"bs-insertcategory-cat-label",
+				"bs-insertcategory-success",
+				"bs-insertcategory-failure",
+				"bs-insertcategory-hint",
+				"bs-insertcategory-panel-title",
+				"bs-insertcategory-category-editor-implicit-categories-title",
+				"bs-insertcategory-category-editor-implicit-categories-help"
+			],
+			"dependencies": [
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.insertcategory.styles": {
+			"styles": [
+				"bluespice.insertCategory.less"
+			]
+		},
+		"ext.bluespice.insertCategory.uploadPanelIntegration": {
+			"scripts": [
+				"bluespice.insertCategory.uploadPanelIntegration.js"
+			],
+			"dependencies": [
+				"ext.bluespice.insertcategory"
+			]
+		},
+		"ext.bluespice.insertcategory.flyout": {
+			"scripts": "bluespice.insertcategory.flyout.js",
+			"messages": [
+				"bs-insertcategory-category-editor-title",
+				"bs-insertcategory-category-editor-implicit-categories-title",
+				"bs-insertcategory-category-editor-implicit-categories-help",
+				"bs-insertcategory-category-editor-explicit-categories-edit-label",
+				"bs-insertcategory-category-editor-explicit-categories-edit-tooltip",
+				"bs-insertcategory-category-editor-button-label-clear-all"
+			],
+			"dependencies": [
+				"ext.bluespice.insertcategory.styles",
+				"ext.bluespice.insertcategory"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceInsertCategory/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"InsertCategoryWithParents": {
+			"value": false,
+			"descriptionmsg": "bs-insertcategory-pref-withparents"
+		},
+		"InsertCategoryUploadPanelIntegration": {
+			"value": false,
+			"descriptionmsg": "bs-insertcategory-pref-uploadpanelintegration"
+		}
+	},
+	"Hooks": {
+		"ChameleonSkinTemplateOutputPageBeforeExec": [
+			"\\BlueSpice\\InsertCategory\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddContentActionToBlacklist::callback"
+		],
+		"SkinTemplateNavigation::Universal": "\\BlueSpice\\InsertCategory\\Hook\\SkinTemplateNavigationUniversal\\AddInsertCategoryAction::callback",
+		"BeforePageDisplay": "\\BlueSpice\\InsertCategory\\Hook\\BeforePageDisplay\\AddResources::callback"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"KediÇobanı",
+			"Sayginer"
+		]
+	},
+	"bs-insertcategory-desc": "Kategori bağlantısı girmek için iletişim kutusu",
+	"bs-insertcategory-insertcat": "Kategori ekle",
+	"prefs-insertcategory": "Kategori ekle",
+	"bs-insertcategory-pref-withparents": "Ailesine kategori ekle",
+	"bs-insertcategory-pref-uploadpanelintegration": "Yükleme iletişim kutusunda sayfa kategorilerini varsayılan olarak ayarla",
+	"bs-insertcategory-title": "Kategori ekle",
+	"bs-insertcategory-cat-label": "Atanan:",
+	"bs-insertcategory-success": "Kategori eklendi",
+	"bs-insertcategory-failure": "Hata",
+	"bs-insertcategory-hint": "Not: Bir kategori eklemek için enter tuşuna basmanız gerekir.",
+	"bs-insertcategory-panel-title": "Kategoriler",
+	"bs-insertcategory-category-editor-title": "Kategoriler",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Örtük kategoriler",
+	"bs-insertcategory-category-editor-implicit-categories-help": "Bu kategoriler sayfanın vikimetin içeriğinde tanımlanmadı. Büyük olasılıkla bir şablon içinden ayarlanmışlardır.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Hepsini kaldır",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "düzenle",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Bu sayfanın kategorilerini düzenle",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Bu sayfanın kategorilerini düzenle"
+}

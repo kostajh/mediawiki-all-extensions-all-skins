@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"onlinestatusbar-desc": "Barra de estado que amosa na páxina de usuario se un usuario está conectado",
+	"prefs-onlinestatus": "Conectado",
+	"onlinestatusbar-used": "Amosar se está conectado nas súas páxinas de usuario",
+	"onlinestatusbar-hide": "Agochar a barra de estado nas páxinas de usuario para usar unicamente a palabra máxica (para usuarios avanzados)",
+	"onlinestatusbar-away": "Considerar automaticamente que marchou despois do intervalo definido",
+	"onlinestatusbar-purge": "Purgar a páxina de usuario cada vez que se identifique ou saia do sistema",
+	"onlinestatusbar-status": "Cal é o estado por defecto que quere usar?",
+	"onlinestatusbar-away-time": "Cantos minutos deben pasar ata considerar que marchou?",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Conectado|Conectada}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Ocupado|Ocupada}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Ausente}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Agochado|Agochada}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Desconectado|Desconectada}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Descoñecido}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|O usuario|A usuaria}} está {{GENDER:$1|conectado|conectada}}",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|O usuario|A usuaria}} está {{GENDER:$1|ocupado|ocupada}} e pode non estar dispoñible",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|O usuario|A usuaria}} está {{GENDER:$1|inactivo|inactiva}} e pode non estar dispoñible",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|O usuario|A usuaria}} está {{GENDER:$1|desconectado|desconectada}}",
+	"onlinestatusbar-tooltip-unknown": "Descoñécese o estado {{GENDER:$1|do usuario|da usuaria}}",
+	"apihelp-query+onlinestatus-description": "Devolve o estado en liña e o sexo do usuario",
+	"apihelp-query+onlinestatus-summary": "Devolve o estado de conexión e o xénero dun usuario",
+	"apihelp-query+onlinestatus-param-user": "Nome de usuario da persoa da que quere obter o estado",
+	"apihelp-query+onlinestatus-example": "Amosar o estado en liña de Petrb"
+}

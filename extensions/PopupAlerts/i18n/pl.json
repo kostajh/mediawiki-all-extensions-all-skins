@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"popupalerts-desc": "Umożliwia dodanie wyskakującego okienka na stronie wiki używając odpowiedniej składni",
+	"popupalerts-expiration-info": "Następnym razem to okno zostanie wyświetlone po $1 {{PLURAL:$1|dniu|dniach}}."
+}

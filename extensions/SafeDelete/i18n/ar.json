@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"safedelete": "حذف آمن",
+	"safedelete-desc": "احذف الصفحة فقط إذا لم تكن هناك صفحات في النطاقات المحددة تصل إليها",
+	"safedelete-title": "حذف \"$1\"",
+	"safedelete-missingpagename": "اسم الصفحة مفقود.",
+	"safedelete-missingnamespaces": "لم يتم تحديد قائمة النطاقات المحذوفة الخاصة.",
+	"safedelete-cannotdelete": "لا يمكن حذف الصفحة \"$1\" نظرا لوجود وصلات أو تحويلات إليها من {{PLURAL:$2|الصفحة|الصفحات}} التالية:"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Glanthor Reviol",
+			"Tacsipacsi"
+		]
+	},
+	"webchat": "Webes csevegés",
+	"webchat-desc": "[[Special:WebChat|Speciális lap]] más wikiszerkesztőkkel történő valós idejű beszélgetésre",
+	"webchat-header": "Ezen a speciális lapon együttműködhetsz valós időben a wiki más felhasználóival.\nA csatlakozáshoz egyszerűen kattints a „Csatlakozás” gombra.\nHa be vagy jelentkezve, a nickneved előre ki lesz töltve.\nA névtelen felhasználók automatikusan generált nicknevet kapnak, de ez megváltoztatható.",
+	"action-webchat": "webes csevegés használata",
+	"right-webchat": "[[Special:WebChat|webes csevegés]] használata"
+}

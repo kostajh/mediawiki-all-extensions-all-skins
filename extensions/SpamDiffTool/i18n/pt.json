@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Jkb8",
+			"Lijealso",
+			"Macofe",
+			"Malafaya",
+			"Vitorvicentevalente"
+		]
+	},
+	"spamdifftool": "Gerir a lista negra de spam",
+	"spamdifftool-desc": "Fornece uma forma básica de adicionar novas entradas à lista negra de spam a partir de páginas de diferenças",
+	"spamdifftool-block": "Bloquear:",
+	"spamdifftool-cant-edit": "Desculpe, mas não tem permissão para editar a lista negra de ''spam''.",
+	"spamdifftool-confirm": "Confirme que pretende adicionar estas entradas à Lista Negra de spam. (<a href='$1' target='new'>Reportar um problema</a>.)",
+	"spamdifftool-no-text": "Não há qualquer texto para adicionar à lista negra de spam. <a href='$1'>Continuar</a>.",
+	"spamdifftool-no-title": "'''Erro:''' não foi especificado nenhum título de página.",
+	"spamdifftool-no-urls-detected": "Não foram detetados nenhuns URL. <a href='$1'>Voltar</a>.",
+	"spamdifftool-option-domain": "todos deste domínio",
+	"spamdifftool-option-subdomain": "todos deste subdomínio",
+	"spamdifftool-option-directory": "este subdomínio e diretório",
+	"spamdifftool-option-none": "nada",
+	"spamdifftool-spam-link-text": "adicionar como spam",
+	"spamdifftool-submit": "Enviar",
+	"spamdifftool-summary": "A adicionar à lista negra de spam",
+	"spamdifftool-tool": "Ferramenta de spam",
+	"spamdifftool-urls-detected": "Foram detetados os seguintes URL na edição ou edições. Quais pretende que sejam adicionados à lista negra de spam?\nEstas opções estão ordenadas desde a mais restritiva até à menos restritiva. O bloqueio de um domínio inteiro irá bloquear todas as ligações provenientes daquele domínio.\n\nCertifique-se de que não bloqueia domínios inteiros que sejam anfitriões de contas de utilizadores, tais como blogspot.com, shoutwiki.com, etc."
+}

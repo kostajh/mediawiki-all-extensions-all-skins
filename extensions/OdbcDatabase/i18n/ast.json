@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"odbcdatabase": "Base de datos Odbc",
+	"odbcdatabase-desc": "Controlador qu'usa la biblioteca de comandos PHP <code>odbc_*</code> pa dar encontu a la estensión de datos esternos",
+	"odbcdatabase-odbc-missing": "Falten funciones ODBC. Asegúrate de que <code>PHP:ODBC</code> ta instaláu.",
+	"odbcdatabase-connection-error": "Error al conectar col sirvidor [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Nun pudo lliberase'l resultáu ODBC",
+	"odbcdatabase-fetch-object-error": "Error al traer l'oxetu: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Error al traer la filera: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "Nun hai encontu pa la función insertId().",
+	"odbcdatabase-unknown-server-version": "Versión desconocida del sirvidor ODBC."
+}

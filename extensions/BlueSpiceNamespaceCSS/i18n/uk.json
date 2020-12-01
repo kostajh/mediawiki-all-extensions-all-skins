@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"bs-namespacecss-desc": "Особливий стиль простору назв",
+	"bluespicenamespacecssmanager": "Менеджер простору назв CSS",
+	"bs-namespacecss-specialmanager-label-namespacename": "Простір назв",
+	"bs-namespacecss-specialmanager-label-sourcepage": "Вихідна сторінка",
+	"apihelp-bs-namespacecss-store-summary": "Перелічує простори назв та їхню можливу сторінку CSS. Застосовує параметри ExtJS Store."
+}

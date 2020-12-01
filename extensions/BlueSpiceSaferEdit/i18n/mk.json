@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"bs-saferedit-desc": "Дава предупредувања ако други корисници ја уредуваат страницата",
+	"bs-saferedit-user-editing": "$1 {{GENDER:$1|ја уредување}} страницата",
+	"bs-saferedit-someone-editing": "Страницата се уредува",
+	"bs-saferedit-pref-interval": "Интервал за оглед на конкурентните уредувања:",
+	"bs-saferedit-pref-shownameofeditinguser": "Прикажувај го името на тековниот уредник"
+}

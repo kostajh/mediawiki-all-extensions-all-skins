@@ -1,0 +1,29 @@
+{
+	"name": "TestLanguageNameGrammar",
+	"version": "20150704WeThePeople",
+	"author": [
+		"Amir E. Aharoni"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:TestLanguageNameGrammar",
+	"descriptionmsg": "testlanguagenamegrammar-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"SpecialPages": {
+		"TestLanguageNameGrammar": "SpecialTestLanguageNameGrammar"
+	},
+	"MessagesDirs": {
+		"TestLanguageNameGrammar": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"TestLanguageNameGrammarAlias": "TestLanguageNameGrammar.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialTestLanguageNameGrammar": "specials/SpecialTestLanguageNameGrammar.php"
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2"
+		]
+	},
+	"apihelp-parsoid-batch-description": "אצוות API (עבור פרסואיד) לצורך ביצוע בקשות API מרובות במדיה־ויקי",
+	"apihelp-parsoid-batch-summary": "אצוות API לפרסואיד",
+	"apihelp-parsoid-batch-param-batch": "בקשות פעולה של API (עד 500 לכל התאמה).",
+	"apierror-parsoid-batch-notallowed": "כתובת ה־IP של הלקוח אינה נמצאת ב־ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "אצווה בלתי־תקינה, זה צריך להיות מערך.",
+	"apierror-parsoid-batch-batchtoolarge": "אצווה גדולה מדי, המגבלה היא 500.",
+	"apierror-parsoid-batch-invalidaction": "פעולה בלתי־תקינה במפתח פריט $1.",
+	"apierror-parsoid-batch-texttoobig": "טקסט הקלט גדול מגודל דף מרבי.",
+	"apierror-parsoid-batch-invalidtitle": "כותרת בלתי־תקינה ($1).",
+	"apierror-parsoid-batch-mustbescalar": "הפרמטר <var>$1</var> צריך להיות סקלרי.",
+	"apierror-parsoid-batch-mustbearray": "הפרמטר <var>$1</var> צריך להיות מערך."
+}

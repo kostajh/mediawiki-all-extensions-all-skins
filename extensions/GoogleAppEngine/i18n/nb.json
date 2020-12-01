@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"gae-desc": "Gir forbedringer til wikier som kjører GoogleAppEngine",
+	"apihelp-gaejobqueue-description": "Intern API-modul for å kjøre jobbkøen. Ekstern bruk er ikke tillatt.",
+	"apihelp-gaejobqueue-summary": "Intern API-modul for å kjøre jobbkøen. Ekstern bruk er ikke tillatt.",
+	"apihelp-gaejobqueue-param-namespace": "Numerisk navneroms-ID.",
+	"apihelp-gaejobqueue-param-titletext": "Tittelteksten uten navnerom.",
+	"apihelp-gaejobqueue-param-type": "Jobbtype.",
+	"apihelp-gaejobqueue-param-params": "PHP-serialiserte parametre for jobben."
+}

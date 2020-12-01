@@ -1,0 +1,32 @@
+{
+	"name": "samwilson/mediawiki-extensions-external-articles",
+	"description": "A MediaWiki extension for loading page text from external sources",
+	"type": "mediawiki-extension",
+	"license": "GPL-3.0-only",
+	"keywords": [
+		"importing",
+		"MediaWiki"
+	],
+	"support": {
+		"issues": "https://phabricator.wikimedia.org",
+		"irc": "irc://irc.freenode.net/mediawiki",
+		"source": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/ExternalArticles.git"
+	},
+	"require-dev": {
+		"mediawiki/mediawiki-codesniffer": "33.0.0",
+		"mediawiki/minus-x": "1.1.0",
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"phpcs -p -s",
+			"minus-x check ."
+		],
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		]
+	}
+}

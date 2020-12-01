@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"logofunctions-desc": "Apond una foncion al parser per definir lo lògo del wiki",
+	"logofunctions-filenotexist": "Error : [[:File:$1]] existís pas"
+}

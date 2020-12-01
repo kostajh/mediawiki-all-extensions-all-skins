@@ -1,0 +1,134 @@
+{
+	"name": "MintyDocs",
+	"namemsg": "mintydocs-extensionname",
+	"version": "0.7.1",
+	"author": "Yaron Koren",
+	"url": "https://www.mediawiki.org/wiki/Extension:MintyDocs",
+	"descriptionmsg": "mintydocs-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"namespaces": [
+		{
+			"id": 620,
+			"constant": "MD_NS_DRAFT",
+			"name": "Draft",
+			"conditional": true
+		},
+		{
+			"id": 621,
+			"constant": "MD_NS_DRAFT_TALK",
+			"name": "Draft_talk",
+			"conditional": true
+		}
+	],
+	"callback": "MintyDocsHooks::registerExtension",
+	"requires": {
+		"MediaWiki": ">= 1.29"
+	},
+	"AvailableRights": [
+		"mintydocs-administer",
+		"mintydocs-edit",
+		"mintydocs-editlive"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"mintydocs-administer": true
+		}
+	},
+	"MessagesDirs": {
+		"MintyDocs": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"MintyDocsMagic": "MintyDocs.i18n.magic.php",
+		"MintyDocsNS": "MintyDocsNamespaces.php",
+		"MintyDocsAlias": "MintyDocs.i18n.alias.php"
+	},
+	"AutoloadClasses": {
+		"MintyDocsHooks": "includes/MintyDocsHooks.php",
+		"MintyDocsUtils": "includes/MintyDocsUtils.php",
+		"MintyDocsParserFunctions": "includes/MintyDocsParserFunctions.php",
+		"MintyDocsPage": "includes/MintyDocsPage.php",
+		"MintyDocsProduct": "includes/MintyDocsProduct.php",
+		"MintyDocsVersion": "includes/MintyDocsVersion.php",
+		"MintyDocsManual": "includes/MintyDocsManual.php",
+		"MintyDocsTopic": "includes/MintyDocsTopic.php",
+		"MintyDocsCreatePageJob": "includes/MintyDocsCreatePageJob.php",
+		"MintyDocsDeletePageJob": "includes/MintyDocsDeletePageJob.php",
+		"MintyDocsTOCInput": "includes/MintyDocsTOCInput.php",
+		"MintyDocsPublish": "includes/specials/MintyDocsPublish.php",
+		"MintyDocsCreateDraft": "includes/specials/MintyDocsCreateDraft.php",
+		"MintyDocsCopy": "includes/specials/MintyDocsCopy.php",
+		"MintyDocsDelete": "includes/specials/MintyDocsDelete.php",
+		"MintyDocsPublishAction": "includes/MintyDocsPublishAction.php",
+		"MintyDocsPublishAPI": "includes/MintyDocsPublishAPI.php"
+	},
+	"JobClasses": {
+		"MDCreatePage": "MintyDocsCreatePageJob",
+		"MDDeletePage": "MintyDocsDeletePageJob"
+	},
+	"APIModules": {
+		"mintydocspublish": "MintyDocsPublishAPI"
+	},
+	"ResourceModules": {
+		"ext.mintydocs.main": {
+			"styles": "MintyDocs.css"
+		},
+		"ext.mintydocs.jstree": {
+			"scripts": [
+				"libs/jstree/jstree.js",
+				"libs/jstree/jstree.contextmenu.js",
+				"libs/jstree/jstree.dnd.js",
+				"libs/jstree/jstree.types.js",
+				"libs/jstree/jstree.wholerow.js",
+				"libs/MD_jstree.js"
+			],
+			"styles": [
+				"libs/jstree/themes/default/style.css"
+			],
+			"messages": [
+				"create",
+				"mintydocs-tocinput-rename",
+				"mintydocs-tocinput-changetype",
+				"delete",
+				"edit"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "MintyDocs"
+	},
+	"SpecialPages": {
+		"MintyDocsPublish": "MintyDocsPublish",
+		"MintyDocsCreateDraft": "MintyDocsCreateDraft",
+		"MintyDocsCopy": "MintyDocsCopy",
+		"MintyDocsDelete": "MintyDocsDelete"
+	},
+	"Actions": {
+		"mdpublish": "MintyDocsPublishAction"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "MintyDocsHooks::registerParserFunctions",
+		"CanonicalNamespaces": "MintyDocsHooks::registerNamespaces",
+		"userCan": "MintyDocsHooks::checkPermissions",
+		"OutputPageBeforeHTML": [
+			"MintyDocsHooks::addTextToPage",
+			"MintyDocsHooks::showNoticeForDraftPage"
+		],
+		"EditPage::showEditForm:initial": "MintyDocsHooks::addLivePageEditWarning",
+		"SkinBuildSidebar": "MintyDocsHooks::addTextToSidebar",
+		"MakeGlobalVariablesScript": "MintyDocsHooks::setGlobalJSVariables",
+		"MagicWordwgVariableIDs": "MintyDocsHooks::declareVarIDs",
+		"ParserGetVariableValueSwitch": "MintyDocsHooks::assignAValue",
+		"SkinTemplateNavigation": "MintyDocsPublishAction::displayTab",
+		"SearchableNamespaces": "MintyDocsHooks::makeDraftsNonSearchable",
+		"PageForms::FormPrinterSetup": "MintyDocsHooks::registerPageFormsInputs"
+	},
+	"config": {
+		"MintyDocsDisplayFooterElementsInSidebar": false,
+		"MintyDocsShowBreadcrumbs": true
+	},
+	"manifest_version": 1
+}

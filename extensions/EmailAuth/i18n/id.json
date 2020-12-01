@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana"
+		]
+	},
+	"emailauth-desc": "Verifikasi masuk log yang mencurigakan melalui surel",
+	"emailauth-token-label": "Kode verifikasi",
+	"emailauth-token-help": "Token 2FA satu kali yang dikirim melalui surel.",
+	"emailauth-email-subject": "Kode verifikasi masuk log Anda ke $1",
+	"emailauth-email-body": "Kode verifikasi masuk log Anda ke $1 adalah $2",
+	"emailauth-login-message": "Anda perlu memverifikasi masuk log Anda. Sebuah kode verifikasi telah dikirim ke alamat surel Anda ($1), tolong masukkan kode itu ke sini.",
+	"emailauth-login-failure": "Kode verifikasi salah!",
+	"emailauth-login-retry-limit": "Terlalu banyak kesalahan!"
+}

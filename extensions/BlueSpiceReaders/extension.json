@@ -1,0 +1,240 @@
+{
+	"name": "BlueSpiceReaders",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:Readers",
+	"author": [
+		"Stephan Muggli",
+		"Leonid Verhovskij",
+		"Dejan Savuljesku"
+	],
+	"descriptionmsg": "bs-readers-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceReaders": {
+					"className": "\\BlueSpice\\Readers\\Extension",
+					"extPath": "/BlueSpiceReaders",
+					"configDefinitions": {
+						"ReadersNumOfReaders": "\\BlueSpice\\Readers\\ConfigDefinition\\ReadersNumOfReaders::getInstance"
+					}
+				}
+			},
+			"PermissionRegistry": {
+				"viewreaders": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin"
+					]
+				},
+				"viewrevisionreaders": {
+					"type": "global",
+					"roles": []
+				}
+			}
+		},
+		"BlueSpiceArticleInfo": {
+			"FlyoutModules": {
+				"pagereaders": {
+					"module": "ext.bluespice.pagereaders.flyout",
+					"make-items-callback": "bs.pagereaders.flyout.makeItems",
+					"skip-callback": "\\BlueSpice\\Readers\\Extension::pageReadersFlyoutCheckPermissions"
+				},
+				"revisionreaders": {
+					"module": "ext.bluespice.revisionreaders.flyout",
+					"make-items-callback": "bs.revisionreaders.flyout.makeItems",
+					"skip-callback": "\\BlueSpice\\Readers\\Extension::revisionReadersFlyoutCheckPermissions"
+				}
+			}
+		},
+		"BlueSpicePrivacy": {
+			"Handlers": [
+				"\\BlueSpice\\Readers\\Privacy\\Handler"
+			]
+		}
+	},
+	"GroupPermissions": {
+		"*": {
+			"viewreaders": false,
+			"viewrevisionreaders": false
+		},
+		"user": {
+			"viewreaders": false,
+			"viewrevisionreaders": false
+		},
+		"sysop": {
+			"viewreaders": true,
+			"viewrevisionreaders": false
+		}
+	},
+	"AvailableRights": [
+		"viewreaders",
+		"viewrevisionreaders"
+	],
+	"SpecialPages": {
+		"Readers": "\\BlueSpice\\Readers\\Special\\Readers",
+		"RevisionReaders": "\\BlueSpice\\Readers\\Special\\RevisionReaders"
+	},
+	"JobClasses": {
+		"BlueSpiceReadersInsertTrace": "\\BlueSpice\\Readers\\Job\\InsertTrace"
+	},
+	"APIModules": {
+		"bs-readers-data-store": "BSApiReadersDataStore",
+		"bs-readers-users-store": "BSApiReadersUsersStore",
+		"bs-readers-page-readers-store": "\\BlueSpice\\Readers\\Api\\Store\\PageReaders",
+		"bs-readers-revision-readers-store": "\\BlueSpice\\Readers\\Api\\Store\\RevisionReaders",
+		"bs-readers-tasks": "\\BlueSpice\\Readers\\Api\\Task\\PageReaders"
+	},
+	"MessagesDirs": {
+		"Readers": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ReadersAlias": "languages/SpecialReaders.alias.php"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"ReadersNumOfReaders": {
+			"value": 10,
+			"descriptionmsg": "bs-readers-pref-numofreaders",
+			"public": true
+		},
+		"ReadersNamespaceBlacklist": {
+			"description": "Defaults to NS_FILE, NS_FILE_TALK, NS_MEDIAWIKI, NS_MEDIAWIKI_TALK, NS_CATEGORY, NS_CATEGORY_TALK",
+			"value": [ 6, 7, 8, 9, 14, 15 ],
+			"public": false
+		},
+		"ReadersCleanData": {
+			"description": "Set to 'true' if you want to remove old entries from the database",
+			"value": false
+		},
+		"ReadersCleanDataTTL": {
+			"description": "How many days each readers entry will be available in the database (365 days * 3 = 1095 days or 3 years)",
+			"value": 1095
+		}
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Readers\\": "src/"
+	},
+	"AutoloadClasses": {
+		"BSApiReadersDataStore": "includes/api/BSApiReadersDataStore.php",
+		"BSApiReadersUsersStore": "includes/api/BSApiReadersUsersStore.php"
+	},
+	"TestAutoloadClasses": {
+		"BSReadersFixtures": "tests/phpunit/BSReadersFixtures.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.readers.specialreaders": {
+			"scripts": [
+				"bluespice.readers.js"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			],
+			"messages": [
+				"bs-readers-header-username",
+				"bs-readers-header-readerspath",
+				"bs-readers-header-ts"
+			]
+		},
+		"ext.bluespice.readers.specialrevisionreaders": {
+			"scripts": [
+				"bluespice.revisionreaders.js"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			],
+			"messages": [
+				"bs-readers-revision-flyout-title",
+				"bs-readers-flyout-header-read-by",
+				"bs-readers-flyout-header-revision-id",
+				"bs-readers-flyout-header-revision-date",
+				"bs-readers-flyout-header-read-on"
+			]
+		},
+		"ext.bluespice.readers.specialreaderspath": {
+			"scripts": [
+				"bluespice.readerspath.js"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			],
+			"messages": [
+				"bs-readers-header-readerspath",
+				"bs-readers-header-ts",
+				"bs-readers-header-page"
+			]
+		},
+		"ext.bluespice.pagereaders.flyout": {
+			"scripts": [
+				"bluespice.pagereaders.flyout.js"
+			],
+			"styles": [
+				"bluespice.readers.flyout.less"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			],
+			"messages": [
+				"bs-readers-flyout-title",
+				"bs-readers-flyout-header-read-by",
+				"bs-readers-flyout-header-revision-id",
+				"bs-readers-flyout-header-revision-date",
+				"bs-readers-flyout-header-read-on"
+			]
+		},
+		"ext.bluespice.revisionreaders.flyout": {
+			"scripts": [
+				"bluespice.revisionreaders.flyout.js"
+			],
+			"styles": [
+				"bluespice.readers.flyout.less"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			],
+			"messages": [
+				"bs-readers-revision-flyout-title",
+				"bs-readers-flyout-header-read-by",
+				"bs-readers-flyout-header-revision-id",
+				"bs-readers-flyout-header-revision-date",
+				"bs-readers-flyout-header-read-on"
+			]
+		},
+		"ext.bluespice.readers.insertTrace": {
+			"scripts": [
+				"bluespice.readers.insertTrace.js"
+			],
+			"dependencies": [
+				"ext.bluespice"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceReaders/resources"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": [
+			"\\BlueSpice\\Readers\\Hook\\LoadExtensionSchemaUpdates\\AddReadersTable::callback"
+		],
+		"ChameleonSkinTemplateOutputPageBeforeExec": [
+			"\\BlueSpice\\Readers\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddContentActionToBlacklist::callback"
+		],
+		"BeforePageDisplay": [
+			"\\BlueSpice\\Readers\\Hook\\BeforePageDisplay\\AddResources::callback"
+		],
+		"SkinTemplateNavigation::Universal": "\\BlueSpice\\Readers\\Hook\\SkinTemplateNavigationUniversal\\AddReaders::callback"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dutchy45",
+			"Elroy",
+			"Mainframe98"
+		]
+	},
+	"welcomesurvey": "{{GENDER:$1|Welkom}}, $1!",
+	"welcomesurvey-save-confirmation-title": "Bedankt! Uw antwoorden zijn opgeslagen.",
+	"welcomesurvey-save-btn": "Voltooien",
+	"welcomesurvey-skip-btn": "Deze enquete overslaan",
+	"welcomesurvey-close-btn": "Sluiten en teruggaan naar $1",
+	"welcomesurvey-privacy-policy-link-text": "Leer meer over data bij nieuwe editors",
+	"welcomesurvey-sidebar-editing-title": "Beginnen met bewerken",
+	"welcomesurvey-sidebar-editing-link1-text": "Zelfstudie",
+	"welcomesurvey-sidebar-editing-link2-text": "Helpdesk",
+	"welcomesurvey-question-reason-label": "Waarom hebt u vandaag een account aangemaakt?",
+	"welcomesurvey-dropdown-option-select-label": "Maak een keuze",
+	"welcomesurvey-question-reason-option-edit-typo-label": "Om een (schrijf)fout in een Wikipedia artikel te verbeteren",
+	"welcomesurvey-question-reason-option-edit-info-add-change-label": "Om gegevens aan een pagina op Wikipedia toe te voegen of te wijzigen",
+	"welcomesurvey-question-reason-option-add-image-label": "Om een foto of afbeelding aan een pagina op Wikipedia bij te voegen",
+	"welcomesurvey-question-reason-option-new-page-label": "Om een nieuw Wikipedia artikel toe te voegen",
+	"welcomesurvey-question-reason-option-program-participant-label": "Ik neem deel aan een programma, les of gebeurtenis",
+	"welcomesurvey-question-reason-option-read-label": "Om Wikipedia te lezen",
+	"welcomesurvey-question-reason-other-placeholder": "Voer een reden in...",
+	"welcomesurvey-question-mentor-label": "Ja, ik ben geïnteresseerd",
+	"welcomesurvey-question-edited-label": "Heeft u Wikipedia ooit bewerkt?",
+	"welcomesurvey-question-edited-option-yes-many-label": "Ja, meerdere keren",
+	"welcomesurvey-question-edited-option-yes-few-label": "Ja, een of twee keer",
+	"welcomesurvey-question-edited-option-no-dunno-label": "Nee, ik wist niet dat ik Wikipedia kon bewerken",
+	"welcomesurvey-question-edited-option-no-other-label": "Nee, vanwege andere redenen",
+	"welcomesurvey-question-edited-option-dont-remember-label": "Ik kan het me niet herinneren",
+	"welcomesurvey-question-email-label": "E-mailadres (optioneel)",
+	"welcomesurvey-question-email-placeholder": "Voer uw e-mailadres in..."
+}

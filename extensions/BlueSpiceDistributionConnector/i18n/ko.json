@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-distributionconnector-yourdomainname": "내 도메인",
+	"bs-distributionconnector-tag-quiz-desc": "단순 퀴즈 질문을 문서에 추가합니다.",
+	"bs-distributionconnector-tag-embedvideo-desc": "대중적인 공유 플랫폼의 동영상 클립을 임베드합니다.",
+	"bs-distributionconnector-flyout-hitcounters-text": "조회수",
+	"bs-distributionconnector-ve-categorytreeinpector-title": "분류트리",
+	"bs-distributionconnector-ve-categorytree-title": "분류트리",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-mode": "모드",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-depth": "깊이",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-hideroot": "루트 숨기기",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-showcount": "개수 표시",
+	"bs-distributionconnector-ve-categorytreeinspector-dd-hideprefix": "접두사 숨기기",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-namespace": "이름공간",
+	"bs-distributionconnector-ve-categorytreeinspector-tb-style": "CSS 스타일 태그",
+	"bs-distributionconnector-hitcounters-sesp-alias": "히트 카운터",
+	"bs-distributionconnector-hitcounters-sesp-desc": "히트 카운터",
+	"bs-distributionconnector-collection-type-hitcounter": "문서 조회수",
+	"bs-distributionconnector-collection-var-pagetitle": "문서 제목",
+	"bs-distributionconnector-setting-path-authentication": "인증",
+	"bs-distributionconnector-pref-openidconnect-config": "제공자",
+	"bs-distributionconnector-pref-openidconnect-userealnameasusername": "실명을 사용자 이름으로 사용",
+	"bs-distributionconnector-pref-openidconnect-useemailasusername": "사용자 이름으로 이메일 주소 사용",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyusername": "사용자 이름별로 사용자 이관",
+	"bs-distributionconnector-pref-openidconnect-migrateusersbyemail": "이메일별로 사용자 이관",
+	"bs-distributionconnector-pref-openidconnect-forcelogout": "강제 로그아웃",
+	"bs-distributionconnector-pref-openidconnect-config-clientid": "클라이언트 ID",
+	"bs-distributionconnector-pref-openidconnect-config-name": "표시 이름",
+	"bs-distributionconnector-pref-openidconnect-config-icon": "아이콘 URL",
+	"bs-distributionconnector-pref-openidconnect-config-proxy": "프록시 URL",
+	"bs-distributionconnector-pref-openidconnect-config-scope": "범위",
+	"bs-distributionconnector-pref-openidconnect-config-preferredusername": "선호하는 사용자 이름",
+	"bs-distributionconnector-pref-openidconnect-config-authparam": "인증 변수 (JSON)",
+	"bs-distributionconnector-pref-simplesamlphp-emailattribute": "\"email\" 속성 이름",
+	"bs-distributionconnector-pref-simplesamlphp-groupattributedelimiter": "단일 값 \"group\" 속성 구분자",
+	"bs-distributionconnector-pref-simplesamlphp-realnameattribute": "\"realname\" 속성 이름",
+	"bs-distributionconnector-pref-simplesamlphp-syncallgroups-groupattributename": "\"groups\" 속성 이름",
+	"bs-distributionconnector-pref-simplesamlphp-usernameattribute": "\"username\" 속성 이름"
+}

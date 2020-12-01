@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"HitomiAkane",
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"mintydocs-extensionname": "مينتي دوكس",
+	"mintydocs-desc": "نظام توثيق خفيف الوزن",
+	"action-mintydocs-administer": "إدارة كل صفحات المنتجات لمنتي دوكس",
+	"right-mintydocs-administer": "إدارة جميع صفحات منتج MintyDocs",
+	"action-mintydocs-edit": "تعديل كل صفحات منتي دوكس",
+	"right-mintydocs-edit": "تحرير جميع صفحات MintyDocs",
+	"mintydocs-noparentpage": "خطأ: يجب أن تكون كل صفحة $1 صفحة فرعية.",
+	"mintydocs-invalidparentpage": "خطأ: يجب أن تكون كل صفحة $1 صفحة $2.",
+	"mintydocs-product-versionlist": "انقر على أي مما يلي لرؤية توثيق هذا الإصدار:",
+	"mintydocs-version-desc": "هذا توثيق الإصدار $1 من $2.",
+	"mintydocs-version-manuallist": "فيما يلي أدلة هذا الإصدار:",
+	"mintydocs-manual-desc": "هذا الدليل للإصدار $1 من $2.",
+	"mintydocs-manual-otherversions": "اقرأ هذا الدليل للإصدارات الأخرى:",
+	"mintydocs-manual-contents": "المحتويات:",
+	"mintydocs-topic-desc": "هذا الموضوع جزء من الدليل $1 للنسخة $2 من $3.",
+	"mintydocs-topic-otherversions": "اقرأ هذا الموضوع للإصدارات الأخرى:",
+	"mintydocspublish": "نشر محتوى MintyDocs",
+	"mintydocs-publish-button": "نشر",
+	"mintydocs-publish-success": "سيتم إنشاء أو تعديل الصفحات التالية: $1.",
+	"mintydocscreatedraft": "إنشاء صفحة مسودة MintyDocs",
+	"mintydocs-createdraft-button": "إنشاء مسودة",
+	"mintydocs-createdraft-success": "سيتم إنشاء صفحات المسودات التالية: $1.",
+	"mintydocscopy": "نسخ محتوى MintyDocs",
+	"mintydocs-copy-button": "نسخ",
+	"mintydocs-copy-success": "سيتم نسخ الصفحات التالية: $1.",
+	"mintydocsdelete": "حذف محتوى MintyDocs",
+	"mintydocs-tocinput-rename": "أعد التسمية",
+	"mintydocs-tocinput-changetype": "تغيير النوع",
+	"apihelp-mintydocspublish-description": "تنشر صفحة MintyDocs.",
+	"apihelp-mintydocspublish-summary": "ينشر صفحة MintyDocs بنسخها من نطاق المسودة إلى النطاق الرئيسي.",
+	"apihelp-mintydocspublish-param-title": "اسم الصفحة للنشر",
+	"apihelp-mintydocspublish-example-title": "انسخ محتويات الصفحة مسودة:ABC123 إلى الصفحة ABC123"
+}

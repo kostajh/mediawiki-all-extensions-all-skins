@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"packages": "Pacchetti",
+	"pageexchange-installed": "Installato",
+	"pageexchange-available": "Disponibile",
+	"pageexchange-installpackage": "Installa pacchetto: $1",
+	"pageexchange-uninstallpackage": "Disinstalla pacchetto: $1",
+	"pageexchange-package-website": "Sito web:",
+	"pageexchange-package-author": "Autore:",
+	"pageexchange-package-version": "Versione:",
+	"pageexchange-package-pages": "Pagine:",
+	"pageexchange-package-language": "Lingua:",
+	"pageexchange-package-requiredextensions": "Estensioni richieste:",
+	"pageexchange-package-install": "Installa",
+	"pageexchange-package-update": "Aggiorna",
+	"pageexchange-package-uninstall": "Disinstalla",
+	"pageexchange-package-deleteallpages": "Cancella tutte le pagine wiki associate",
+	"pageexchange-latestvalue": "(ultimo valore: $1)",
+	"pageexchange-packageinstalled": "Questo pacchetto è stato installato.",
+	"pageexchange-packageuninstalled": "Questo pacchetto è stato disinstallato.",
+	"pageexchange-packageupdated": "Questo pacchetto è stato aggiornato."
+}

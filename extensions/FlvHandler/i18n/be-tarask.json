@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by"
+		]
+	},
+	"flvhandler_desc": "Дазваляе, каб файлы ў фармаце Flash Video (.flv) дадаваліся як стандартныя файлы (напрыклад, <nowiki>[[</nowiki>{{ns:file}}:Movie.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Flash Video, $1 × $2 піксэляў, памер файла: $3"
+}

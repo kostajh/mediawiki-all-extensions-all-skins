@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dejan Savuljesku <savuljesku@hallowelt.com>",
+			"Robby"
+		]
+	},
+	"bs-smartlist-ve-smartlist-title": "Title for VisualEditor inspector for bs:smartlist tag",
+	"bs-smartlist-ve-smartlistinspector-count": "Label for attribute \"count\" input - number of results to show",
+	"bs-smartlist-ve-smartlistinspector-ns": "Label for attribute \"ns\" input - namespaces to show results from",
+	"bs-smartlist-ve-smartlistinspector-cat": "Label for attribute \"cat\" input - categories to show results from",
+	"bs-smartlist-ve-smartlistinspector-minor": "Label for attribute \"minor\" input - is minor changes should be shown",
+	"bs-smartlist-ve-smartlistinspector-catmode": "Label for attribute \"catmode\" input - if results containing all or a one of categories given should be shown",
+	"bs-smartlist-ve-smartlistinspector-period": "Label for attribute \"period\" input - what time period should be considered when retrieving changes\n{{Identical|Period}}",
+	"bs-smartlist-ve-smartlistinspector-new": "Label for attribute \"new\" input - boolean - show only new pages",
+	"bs-smartlist-ve-smartlistinspector-heading": "Label for attribute \"heading\" input - title of the smartlist, will be shown above the list of pages",
+	"bs-smartlist-ve-smartlistinspector-trim": "Label for attribute \"trim\" input",
+	"bs-smartlist-ve-smartlistinspector-showtext": "Label for attribute \"showtext\" input",
+	"bs-smartlist-ve-smartlistinspector-trimtext": "Label for attribute \"trimtext\" input",
+	"bs-smartlist-ve-smartlistinspector-sort": "Label for attribute \"sort\" input - what parameter should be used for sorting",
+	"bs-smartlist-ve-smartlistinspector-order": "Label for attribute \"order\" input - sort order",
+	"bs-smartlist-ve-smartlistinspector-showns": "Label for attribute \"snowns\" input - if namespace part of a page should be shown",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "Label for attribute \"numwithtext\" input",
+	"bs-smartlist-ve-smartlistinspector-meta": "Label for attribute \"meta\" input - if metadata should be shown",
+	"bs-smartlist-ve-smartlistinspector-target": "Label for attribute \"target\" input\n{{Identical|Target}}",
+	"bs-smartlist-ve-smartlistinspector-excludens": "Label for attribute \"excludens\" input - list of namespaces that will not be considered when retrieving results",
+	"bs-smartlist-ve-period-day-label": "Label for dropdown option for \"period\" attribute - one day\n{{Identical|Day}}",
+	"bs-smartlist-ve-period-week-label": "Label for dropdown option for \"period\" attribute - one week\n{{Identical|Woch}}",
+	"bs-smartlist-ve-period-month-label": "Label for dropdown option for \"period\" attribute - one month\n{{Identical|Month}}",
+	"bs-smartlist-ve-sort-time-label": "Label for dropdown option for \"sort\" attribute - sort by time of creation/modification\n{{Identical|Time}}",
+	"bs-smartlist-ve-sort-title-label": "Label for dropdown option for \"sort\" attribute - sort by title\n{{Identical|Title}}",
+	"bs-smartlist-ve-newbies-title": "Title for VisualEditor inspector for bs:newbies tag",
+	"bs-smartlist-ve-newbiesinspector-count": "Label for attribute \"count\" input - number of results to show",
+	"bs-smartlist-ve-toplist-title": "Title for VisualEditor inspector for bs:toplist tag",
+	"bs-smartlist-ve-toplistinspector-count": "Label for attribute \"count\" input - number of results to show",
+	"bs-smartlist-ve-toplistinspector-ns": "Label for attribute \"ns\" input - namespaces to show results from",
+	"bs-smartlist-ve-toplistinspector-cat": "Label for attribute \"cat\" input - categories to show results from\n{{Identical|Category}}",
+	"bs-smartlist-ve-toplistinspector-period": "Label for attribute \"period\" input - what time period should be considered when retrieving changes",
+	"bs-smartlist-ve-toplistinspector-portletperiod": "Label for attribute \"portletperiod\" input - numeric - number of days in the past to retrieve changes",
+	"bs-smartlist-ve-mode-recentchanges-label": "Label for a select option in VisualEditor {{Identical|recentchanges}}",
+	"bs-smartlist-ve-mode-changesofweek-label": "Label for a select option in VisualEditor"
+}

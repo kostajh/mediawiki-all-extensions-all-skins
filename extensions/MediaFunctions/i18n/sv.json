@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boivie",
+			"M.M.S."
+		]
+	},
+	"mediafunctions-desc": "Parserfunktoner för att hämta information om mediafiler",
+	"mediafunctions-invalid-title": "\"$1\" är inte en giltig titel",
+	"mediafunctions-not-exist": "\"$1\" existerar inte"
+}

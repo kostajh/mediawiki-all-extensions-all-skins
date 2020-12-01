@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Justincheng12345",
+			"Kly",
+			"LNDDYL",
+			"Shirayuki",
+			"Xiplus",
+			"飞舞回堂前"
+		]
+	},
+	"sslauth-desc": "容許使用者上傳用作身份驗證的SSL憑證",
+	"sslauth-title-enable": "啟用SSL用戶端身份驗證",
+	"sslauth-title-disable": "禁用SSL用戶端身份驗證",
+	"sslauth-enable": "啟用",
+	"sslauth-disable": "禁用",
+	"sslauth-cn": "通用名稱",
+	"sslauth-email": "電子郵件地址",
+	"sslauth-serial": "序列號",
+	"sslauth-response-enable": "已開啟 SSL 身份驗証。當您透過 HTTPS 使用您的用戶端憑證連線至{{SITENAME}}時，您將自動登入。",
+	"sslauth-response-disable": "已停用 SSL 身份驗証。",
+	"sslauth-invalidrequest-title": "無效請求",
+	"sslauth-invalidrequest": "必須提供有效SSL用戶端憑證以使此頁生效。",
+	"clientssl-legend": "SSL認證",
+	"clientssl-text": "使用此頁以啟用或禁用SSL用戶端身份驗證。",
+	"sslauth-prefs-name": "SSL認證",
+	"sslauth-prefs-linktospecial": "開啟或停用用戶端憑證"
+}

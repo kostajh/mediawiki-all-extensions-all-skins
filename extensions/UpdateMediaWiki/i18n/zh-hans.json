@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"updatemediawiki": "更新MediaWiki",
+	"updatemediawiki-desc": "允许通过特殊页面更新MediaWiki",
+	"updatemediawiki-current": "当前版本$1",
+	"updatemediawiki-update-nofound": "没有可用的更新",
+	"updatemediawiki-update-found": "找到新版本：$1",
+	"updatemediawiki-update-downloading": "正在下载新版本",
+	"updatemediawiki-update-saved": "下载并保存的更新",
+	"updatemediawiki-update-exist": "已下载更新",
+	"updatemediawiki-update-copyready": "已准备复制",
+	"updatemediawiki-update-database": "现在更新数据库么？",
+	"updatemediawiki-update-updateready": "已准备更新",
+	"updatemediawiki-update-install": "现在安装么？",
+	"updatemediawiki-update-updated": "MediaWiki已更新到$1版本",
+	"updatemediawiki-update-error": "找不到最新版本",
+	"updatemediawiki-update-aborted": "不能保存新版本。操作已中止"
+}

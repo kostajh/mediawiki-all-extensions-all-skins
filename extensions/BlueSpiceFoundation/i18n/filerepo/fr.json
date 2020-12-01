@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"bs-filerepo-labelupload": "Téléverser",
+	"bs-filerepo-labelfilter": "Filtrer",
+	"bs-filerepo-headerfilename": "Nom de fichier",
+	"bs-filerepo-headerfilesize": "Taille",
+	"bs-filerepo-headerpagecategories": "Catégories",
+	"bs-filerepo-headerfilewidth": "Largeur",
+	"bs-filerepo-headerfileheight": "Hauteur",
+	"bs-filerepo-headerfilemimetype": "Type MIME",
+	"bs-filerepo-headerfileusertext": "Utilisateur",
+	"bs-filerepo-headerfileextension": "Extension",
+	"bs-filerepo-headerfiletimestamp": "Téléversé",
+	"bs-filerepo-headerfilemediatype": "Type de média",
+	"bs-filerepo-headerfiledescription": "Description",
+	"bs-filerepo-headerfilethumbnail": "Vignette",
+	"bs-filerepo-yes": "Oui",
+	"bs-filerepo-no": "Non",
+	"bs-filerepo-pagesize": "Entrées par page"
+}

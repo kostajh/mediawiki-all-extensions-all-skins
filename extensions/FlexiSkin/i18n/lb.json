@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby"
+		]
+	},
+	"flexiskin": "Astellunge vum Layout",
+	"action-flexiskin-viewspecialpage": "D'[[Special:FlexiSkin|Spezialsäit \"Flexiskin\"]] weise fir den Interface anzestellen",
+	"apihelp-flexiskin-new-summary": "Den neie Module",
+	"flexiskin-ui-plugin-colors-label": "Thema",
+	"flexiskin-ui-plugin-colors-background-label": "Hannergrondfaarwen",
+	"flexiskin-ui-plugin-colors-background-primary-label": "Faarf 1",
+	"flexiskin-ui-plugin-colors-background-secondary-label": "Faarf 2",
+	"flexiskin-ui-plugin-colors-background-tertiary-label": "Faarf 3",
+	"flexiskin-ui-plugin-colors-background-quaternary-label": "Faarf 4",
+	"flexiskin-ui-plugin-colors-foreground-primary-label": "Faarf 1",
+	"flexiskin-ui-plugin-colors-foreground-secondary-label": "Faarf 2",
+	"flexiskin-ui-plugin-colors-foreground-tertiary-label": "Faarf 3",
+	"flexiskin-ui-plugin-colors-foreground-quaternary-label": "Faarf 4",
+	"flexiskin-ui-plugin-images-label": "Biller",
+	"flexiskin-ui-plugin-images-logo-label": "Logo",
+	"flexiskin-ui-configurator-button-save-label": "Späicheren & aktivéieren",
+	"flexiskin-ui-configurator-button-disable-label": "Ausschalten",
+	"flexiskin-ui-plugin-content-header-h1-label": "Iwwerschrëft 1 (h1)",
+	"flexiskin-ui-plugin-content-header-h3-label": "Iwwerschrëft 3 (h3)",
+	"flexiskin-ui-plugin-content-header-h6-label": "Iwwerschrëft 6 (h6)",
+	"flexiskin-ui-plugin-content-header-color-label": "Faarf",
+	"flexiskin-ui-plugin-content-colors-label": "Faarwen",
+	"flexiskin-ui-plugin-content-font-weight-label": "Gewiicht",
+	"flexiskin-ui-widget-border-double": "Duebel",
+	"flexiskin-ui-plugin-content-colors-link-label": "Valabele Link",
+	"flexiskin-ui-plugin-content-colors-new-link-label": "Futtisse Link"
+}

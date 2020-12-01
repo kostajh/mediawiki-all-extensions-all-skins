@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"reassignedits": "إعادة تعيين تعديلات المستخدم",
+	"reassignedits-desc": "يسمح بإعادة تعيين التعديلات من مستخدم قديم إلى مستخدم جديد",
+	"reassignedits-error-invalid": "اسم المستخدم \"$1\" غير صالح.",
+	"reassignedits-new": "اسم مستخدم جديد",
+	"reassignedits-old": "اسم المستخدم القديم",
+	"reassignedits-submit": "إرسال",
+	"reassignedits-success": "تمت إعادة تعيين التعديلات بواسطة \"$1\" إلى \"$2\".",
+	"reassignedits-summary": "إعادة تعيين التعديلات من مستخدم قديم إلى مستخدم جديد",
+	"reassignedits-updatelog-title": "تحديث اسم المستخدم في عناوين السجلات",
+	"reassignedits-updatelog-user": "تحديث أداء المستخدم في السجلات",
+	"action-reassignedits": "إعادة تعيين التعديلات من مستخدم قديم إلى مستخدم جديد",
+	"right-reassignedits": "إعادة تعيين التعديلات من مستخدم قديم إلى مستخدم جديد"
+}

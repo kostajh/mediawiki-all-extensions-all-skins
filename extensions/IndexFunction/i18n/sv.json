@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rotsee",
+			"Skalman",
+			"WikiPhoenix"
+		]
+	},
+	"indexfunc-desc": "Parser-funktion för att skapa automatiska omdirigeringar och förgreningssidor",
+	"indexfunc-badtitle": "Ogiltig titel: \"$1\"",
+	"indexfunc-editwarning": "Varning:\nDen här titeln används som innehållsförteckningstitel för följande {{PLURAL:$2|sida|sidor}}:\n$1\nFörsäkra dig om att sidan du försöker skapa inte redan finns under en annan titel.\nOm du skapar den här sidan, ta bort den här titeln från <nowiki>{{#index:}}</nowiki> på {{PLURAL:$2|sidan|sidorna}} ovan.",
+	"indexfunc-index-exists": "Sidan \"$1\" finns redan",
+	"indexfunc-movewarn": "Varning:\n\"$1\" är en innehållsförteckningstitel för följande {{PLURAL:$3|sida|sidor}}:\n$2\nTa bort \"$1\" från <nowiki>{{#index:}}</nowiki> på {{PLURAL:$3|sidan|sidorna}} ovan.",
+	"index": "Indexsök",
+	"index-legend": "Sök i innehållsförteckningen",
+	"index-search": "Sök:",
+	"index-submit": "Skicka",
+	"index-disambig-start": "'''$1''' kan syfta på flera saker:",
+	"index-emptylist": "Det finns inga sidor kopplade till \"$1\"",
+	"index-expand-detail": "Visa sidor som listas under den här rubriken",
+	"index-hide-detail": "Göm sidlistan",
+	"index-no-results": "Inga träffar",
+	"index-search-explain": "Den här sidan använder prefix-sökning.\n\nSkriv några inledande tecken och klicka på {{int:index-submit (\"<index-submit>\")}} för att hitta sidor och stycken som inleds med din söksträng.",
+	"index-details-explain": "Poster med pilar är innehållsförteckningar.\nKlicka på pilen för att se hela innehållsförteckningen."
+}

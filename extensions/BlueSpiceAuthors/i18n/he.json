@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erelon",
+			"Guycn2",
+			"Steeve815",
+			"ערן"
+		]
+	},
+	"bs-authors-desc": "הצגת תמונת הפרופיל עבור מחברים של דף",
+	"prefs-authors": "מחברי הדף",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|מחבר|מחברת}}|מחברים}}",
+	"bs-authors-profileimage": "תמונת הפרופיל",
+	"bs-authors-profileimage-change": "שינוי תמונת הפרופיל",
+	"bs-authors-show-all-authors": "מחברים נוספים זמינים",
+	"bs-authors-pref-show": "הצגת מחברים",
+	"bs-authors-switch-description": "הסתרת המחברים בדף זה.",
+	"bs-authors-navigation-link-title": "מחברי הדף",
+	"bs-authors-navigation-link-text": "מחברים",
+	"bs-authors-flyout-title": "יוצרי הדף הזה",
+	"bs-authors-author-type-originator": "יוצר הדף",
+	"bs-authors-author-type-editor": "עורך"
+}

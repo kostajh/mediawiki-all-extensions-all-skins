@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"佛壁灯"
+		]
+	},
+	"changeuserpasswords": "更改用户密码",
+	"changeuserpassword-desc": "这是一个更改用户密码的扩展，部分由管理员指示。",
+	"changeuserpassword-pagename": "更改用户密码",
+	"changeuserpassword-topheader": "请选择要更改密码的用户。默认情况下，扩展将选择所有用户。请反选您不想更改密码的用户名。",
+	"changeuserpassword-success": "用户密码已更改！",
+	"changeuserpassword-title": "更改用户密码",
+	"changeuserpassword-intro": "这是一个更改用户密码的扩展，部分由管理员指示。",
+	"action-changeuserpasswords": "更改用户密码",
+	"right-changeuserpasswords": "更改用户密码"
+}

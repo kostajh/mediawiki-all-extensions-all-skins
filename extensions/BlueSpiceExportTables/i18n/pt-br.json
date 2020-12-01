@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-exporttables-extension-description": "Permite exportar tabelas para Excel e CSV",
+	"bs-exporttables-menu": "exportação de tabela",
+	"bs-exporttables-menu-csv": "Valores separados por vírgula (CSV)",
+	"bs-exporttables-ve-exportable-option": "Exportável"
+}

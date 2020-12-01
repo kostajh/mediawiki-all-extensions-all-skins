@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gzdavidwong",
+			"Impersonator 1",
+			"Mywood"
+		]
+	},
+	"stalkerlog-desc": "添加用户登录与退出的[[Special:Log/stalkerlog|日志]]",
+	"stalkerlog-log-login": "已登录",
+	"stalkerlog-log-logout": "已退出",
+	"stalkerlog-log-type": "用户身份验证日志",
+	"stalkerlog-log-text": "这是用户登录及退出的日志。"
+}

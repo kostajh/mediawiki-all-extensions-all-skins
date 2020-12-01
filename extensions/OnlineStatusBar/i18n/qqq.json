@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"John Du Hart",
+			"Liuxinyu970226",
+			"Petr Bena",
+			"Raymond",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"onlinestatusbar-desc": "{{doc-singularthey}}\n{{desc|name=Online Status Bar|url=https://www.mediawiki.org/wiki/Extension:OnlineStatusBar}}",
+	"prefs-onlinestatus": "Section for config, located in preferences - misc",
+	"onlinestatusbar-used": "Message in config asking user if they want to enable it, checkbox",
+	"onlinestatusbar-hide": "Ask user if they want to hide status bar this is useful when they are using custom template but need to check if they are online",
+	"onlinestatusbar-away": "Time in minutes how long to wait until user is flagged as away",
+	"onlinestatusbar-purge": "Option to purge user page everytime they login so that magic word is updated",
+	"onlinestatusbar-status": "Message in config asking what status they want to use, option box",
+	"onlinestatusbar-away-time": "Question in preferences asking user how many minutes to wait until he would be flagged as away",
+	"onlinestatusbar-title-online": "Status for users who mark themselves as active. Parameters:\n* $1 is the name of the user for GENDER.",
+	"onlinestatusbar-title-busy": "Status for users who mark themselves as busy. Parameters:\n* $1 is the name of the user for GENDER.",
+	"onlinestatusbar-title-away": "Status for users who mark themselves as away. Parameters:\n* $1 - the name of the user for GENDER\n{{Identical|Away}}",
+	"onlinestatusbar-title-hidden": "Status for users who mark themselves as hidden. Parameters:\n* $1 is the name of the user for GENDER.\n{{Identical|Hidden}}",
+	"onlinestatusbar-title-offline": "Status for users who are offline. Parameters:\n* $1 is the name of the user for GENDER.\n{{Identical|Offline}}",
+	"onlinestatusbar-title-unknown": "Displayed for users with an unknown status. Parameters:\n* $1 is the name of the user for GENDER.\n{{Identical|Unknown}}",
+	"onlinestatusbar-tooltip-online": "Tooltip for {{msg-mw|onlinestatusbar-title-online}}. Parameters:\n* $1 is the name of the user for GENDER.",
+	"onlinestatusbar-tooltip-busy": "Tooltip for {{msg-mw|onlinestatusbar-title-busy}}. Parameters:\n* $1 is the name of the user for GENDER.",
+	"onlinestatusbar-tooltip-away": "Tooltip for {{msg-mw|onlinestatusbar-title-away}}. Parameters:\n* $1 is the name of the user for GENDER.",
+	"onlinestatusbar-tooltip-offline": "Tooltip for {{msg-mw|onlinestatusbar-title-offline}}. Parameters:\n* $1 is the name of the user for GENDER.",
+	"onlinestatusbar-tooltip-unknown": "Tooltip for {{msg-mw|onlinestatusbar-title-unknown}}. Parameters:\n* $1 is the name of the user for GENDER.",
+	"apihelp-query+onlinestatus-description": "{{doc-apihelp-description|query+onlinestatus}}",
+	"apihelp-query+onlinestatus-summary": "{{doc-apihelp-summary|query+onlinestatus}}",
+	"apihelp-query+onlinestatus-param-user": "{{doc-apihelp-param|query+onlinestatus|user}}",
+	"apihelp-query+onlinestatus-example": "{{doc-apihelp-example|query+onlinestatus}}"
+}

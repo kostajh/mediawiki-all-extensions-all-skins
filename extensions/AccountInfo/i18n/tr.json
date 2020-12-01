@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"By erdo can",
+			"Sadrettin",
+			"SiLveRLeaD",
+			"Stultiwikia"
+		]
+	},
+	"accountinfo": "Hesap bilgisi",
+	"accountinfo-desc": "Bir kullanıcının hakkında depolanmış özel bilgileri görmesine izin verir.",
+	"accountinfo-ts": "Zaman damgası",
+	"accountinfo-ip": "IP adresi",
+	"accountinfo-ua": "Kullanıcı temsilcisi",
+	"accountinfo-xff": "XFF başlığı",
+	"accountinfo-length": "Bilgiler $1 saklanır.",
+	"accountinfo-now": "Şimdi"
+}

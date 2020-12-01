@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"timemachine": "Máquina del tiempu",
+	"timemachine-desc": "Depués d'escoyer una fecha en [[Special:TimeMachine]], permite restolar el conteníu de la wiki como yera nesa fecha.",
+	"timemachine-p1": "Introduz una fecha más abaxo pa ver la wiki tal como yera nesa fecha.",
+	"timemachine-button1": "Dir a esta fecha",
+	"timemachine-p2": "Nótese que namái va camudar el conteníu de la wiki. L'estilu, barra llateral, pie de páxina y otros elementos de la wiki remanecerán ensin cambios.",
+	"timemachine-p3": "Pa volver a restolar la wiki normalmente, pulsia nel botón d'abaxo, o borra les cookies.",
+	"timemachine-button2": "Volver al presente"
+}

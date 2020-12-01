@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"passwordlesslogin": "Logowanie bez hasła",
+	"passwordlesslogin-desc": "Umożliwia logowanie bez użycia hasła poprzez potwierdzenie logowania na połączonym urządzeniu.",
+	"passwordlesslogin-verify-request": "Potwierdź swoje logowanie na telefonie.",
+	"passwordlesslogin-error-no-authentication-workflow": "Autoryzacja została niespodziewanie zakończona.",
+	"passwordlesslogin-verification-pending": "Uwierzytelnienie nie zostało jeszcze zweryfikowane. Zweryfikuj swoje logowanie na połączonym urządzeniu.",
+	"passwordlesslogin-pair-device-step": "Podążaj za instrukcjami, aby sparować swoje nowe urządzenie.",
+	"passwordlesslogin-no-device-paired": "Nie ma jeszcze sparowanego urządzenia.",
+	"passwordlesslogin-verify-pair": "Wysłaliśmy do twojego urządzenia prośbę o zalogowanie, aby potwierdzić że jest ono poprawnie zarejestrowane. Potwierdź logowanie i kontynuuj.",
+	"passwordlesslogin-pair-device": "Sparuj urządzenie aby logować się bez hasła",
+	"passwordlesslogin-login": "Zaloguj się telefonem",
+	"passwordlesslogin-pair-step-1": "1. Pobierz aplikację „MediaWiki PasswordlessLogin”",
+	"passwordlesslogin-pair-step-2": "2. Zeskanuj kod QR w aplikacji",
+	"passwordlesslogin-pair-step-3": "3. Gdy aplikacja zostanie ustawiona, kontynuuj do następnego kroku",
+	"passwordlesslogin-authentication-app": "Aplikacja uwierzytelniająca"
+}

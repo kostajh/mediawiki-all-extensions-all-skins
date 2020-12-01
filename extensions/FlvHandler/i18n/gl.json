@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"flvhandler_desc": "Permitir que os ficheiros de vídeo Flash (.flv) se poidan engadir como ficheiros estándar (por exemplo, <nowiki>[[</nowiki>{{ns:file}}:Movie.flv<nowiki>]]</nowiki>)",
+	"flv-long-desc": "Vídeo Flash, $1 × $2 píxeles, tamaño do ficheiro: $3"
+}

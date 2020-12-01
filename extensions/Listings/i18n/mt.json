@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli"
+		]
+	},
+	"listings-unknown": "Destinazzjoni mhux magħrufa",
+	"listings-phone": "telefown",
+	"listings-fax": "fax",
+	"listings-email": "ittre",
+	"listings-tollfree": "b'xejn",
+	"listings-checkin": "Check-in: $1",
+	"listings-checkout": "check-out: $1",
+	"listings-position": "pożizzjoni: $1"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"odbcdatabase": "OdbcDatabase",
+	"odbcdatabase-desc": "Драйвер, який використовує PHP-бібліотеку команд <code>odbc_*</code> для підтримки розширення зовнішніх даних",
+	"odbcdatabase-odbc-missing": "Бракує функцій ODBC. Переконайтеся, що встановлена <code>PHP:ODBC</code>.",
+	"odbcdatabase-connection-error": "Помилка підключення до сервера [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Неможливо вивільнити ODBC-результат",
+	"odbcdatabase-fetch-object-error": "Помилка під час отримання об'єкта: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Помилка під час отримання рядка: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "Функція insertId() не підтримується.",
+	"odbcdatabase-unknown-server-version": "Невідома версія сервера ODBC."
+}

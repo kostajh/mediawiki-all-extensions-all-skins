@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"Athena in Wonderland",
+			"Toliño"
+		]
+	},
+	"forcepreview": "$1 (usar vista previa)",
+	"forcepreview-desc": "Forzar a vista previa aos usuarios sen privilexios",
+	"right-forcepreviewexempt": "Poder gardar sen usar a vista previa"
+}

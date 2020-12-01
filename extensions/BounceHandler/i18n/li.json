@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes"
+		]
+	},
+	"bouncehandler-desc": "Hölp bie 't verwirke van trökgesjikde e-mails veur MediaWiki",
+	"bouncehandler-notify_subject": "Tröksjikke van tiejelike bounce",
+	"notification-bouncehandler": "{{GENDER:$1|Die}} geregistreerd e-mailadres is neet lenger geljig.",
+	"notification-bouncehandler-flyout": "{{GENDER:$2|Die}} geregistreerd e-mailadres $1 is oetgesjreve door mieëder aaflieveringsfoute. Doe kins [[Special:ConfirmEmail|{{GENDER:$2|dien}} e-mailadres oppernuuj verifiëre]].",
+	"notification-link-text-change-email": "Veranger dien e-mailadres",
+	"notification-header-unsubscribe-bouncehandler": "{{GENDER:$4|Die}} geregistreerd e-mailadres $3 is oetgesjreve wore door mieëder mislökde berichaaflieveringe. Doe kans {{GENDER:$4|dien}} e-mailadres oppernuuj verifiëre."
+}

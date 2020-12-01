@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Thibaut120094"
+		]
+	},
+	"nukedpl": "Suppression en masse par requête DPL",
+	"nukedpl-desc": "Ajoute une [[Special:NukeDPL|page spéciale]] pour la suppression en masse par requête DPL",
+	"nukedpl-intro": "Cet outil permet les suppressions en masse de pages sélectionnées par une requête DPL.\n\nSaisissez une requête ci-dessous pour générer une liste des titres à supprimer.\n* Les titres peuvent être déplacés individuellement avant la suppression.\n* Rappelez-vous que les titres de page sont sensibles à la casse.\n* Les requêtes ne doivent pas être entourées de balises DPL ou d’accolades.\n* Pour savoir ce que signifient les paramètres, voyez le [http://semeb.com/dpldemo/index.php?title=DPL:Manual manuel de DPL].",
+	"nukedpl-candidatelist": "Afficher la liste des candidats",
+	"nukedpl-nopages": "Aucune page à supprimer en utilisant la requête DPL : <code>$1</code>",
+	"nukedpl-nuke": "Supprimer !",
+	"nukedpl-list": "{{PLURAL:$1|La page suivante sera sélectionnée|Les pages suivantes seront sélectionnées}} par la requête DPL : <code>$2</code>\n\nAppuyez sur « {{int:nukedpl-nuke}} » pour {{PLURAL:$1|la|les}} supprimer.",
+	"nukedpl-defaultreason": "Suppression en masse de pages sélectionnées par la requête DPL : $1",
+	"action-nukedpl": "faire exploser les pages par des requêtes de Dynamic Page List",
+	"right-nukedpl": "Supprimer les pages par des requêtes de Liste de Pages Dynamique"
+}

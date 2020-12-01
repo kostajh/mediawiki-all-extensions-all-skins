@@ -1,0 +1,37 @@
+{
+	"name": "PageNameFormula",
+	"version": "0.0.0",
+	"license-name": "GPL-3.0-only",
+	"author": [
+		"[http://mwstake.org Mark A. Hershberger]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PageNameFormula",
+	"requires": {
+		"MediaWiki": ">=1.28"
+	},
+	"descriptionmsg": "pagenameformula-desc",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"PageNameFormula": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PageNameFormulaMagic": "src/i18n/Magic.php"
+	},
+	"AutoloadClasses": {
+		"PageNameFormula\\Hook": "src/Hook.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": [
+			"PageNameFormula\\Hook::onLoadExtensionSchemaUpdates"
+		],
+		"ParserFirstCallInit": [
+			"PageNameFormula\\Hook::onParserFirstCallInit"
+		]
+	},
+	"config": {
+		"_prefix": "PageNameFormula"
+	},
+	"manifest_version": 1
+}

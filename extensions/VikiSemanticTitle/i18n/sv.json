@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil"
+		]
+	},
+	"vikisemantictitle-desc": "VIKI-insticksmodul för att hantera wikisidor som använder Semantic Title-tillägget",
+	"vikisemantictitle-error-displaytitle-fetch": "Fel vid hämtning av data för visningstitel för nod: $1."
+}

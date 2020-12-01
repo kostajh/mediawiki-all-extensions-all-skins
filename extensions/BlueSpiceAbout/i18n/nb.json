@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-bluespiceabout-desc": "Informasjon om BlueSpice",
+	"bs-bluespiceabout-about-bluespice": "Om BlueSpice",
+	"bluespiceabout": "Om BlueSpice",
+	"prefs-bluespiceabout": "Om BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Vis lenka «{{int:bs-bluespiceabout-about-bluespice}}» i hovedmenyen",
+	"action-bluespiceabout-viewspecialpage": "vise spesialsiden «{{int:bs-bluespiceabout-about-bluespice}}»",
+	"right-bluespiceabout-viewspecialpage": "Tilgang til spesialsiden [[Special:BlueSpiceAbout]].",
+	"bs-bluespiceabout-pref-showmenulinks-help": "Legger til ei lenke til sida Special:BlueSpiceAbout i hovedmenyen. Den lenkede siden viser informasjon og nyttige lenker rundt BlueSpice pro."
+}

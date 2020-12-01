@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muhammad Shuaib",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"translatorsignup": "مترجم سائن اپ",
+	"translatorsignup-summary": "کس زبان میں آپ ترجمہ کرسکتے ہیں، اور ترجمہ کی نئی درخواستوں پر آپ سے کس طرح رابطہ کیا جائے، اس کو بیان کرنے کے لیے اس صفحہ کو استعمال کریں.",
+	"translationnotifications-desc": "مترجمین کو اطلاعات ترجمہ کے لیے کھاتہ بنانے کی اجازت دیتا ہے",
+	"translationnotifications-info": "صارف کی معلومات",
+	"translationnotifications-username": "صارف کا نام:",
+	"translationnotifications-emailstatus": "ای میل کا درجہ:",
+	"translationnotifications-email-confirmed": "آپ کا ای میل ایڈریس کی تصدیق ہوتی ہے",
+	"translationnotifications-email-disablemail": "آپ کا برقی ڈاک پتہ تصدیق شدہ ہے، لیکن آپ نے [[خاص:ترجیحات|اپنی ترجیحات]] میں برقی ڈاک وصول نہیں کرنے کو منتخب کیا ہے.",
+	"translationnotifications-email-unconfirmed": "آپ کا برقی ڈاک پتہ تصدیق شدہ نہیں ہے. $1",
+	"translationnotifications-languages": "زبانوں میں",
+	"translationnotifications-nolang": "ایک زبان کا انتخاب کریں",
+	"translationnotifications-contact": "پسندیدہ رابطہ طریقوں",
+	"translationnotifications-cmethod-email": "ای میل",
+	"translationnotifications-cmethod-talkpage": "صفحہ کی بات",
+	"translationnotifications-freq-month": "ایک ماہ میں سب سے زیادہ ایک بار پر",
+	"translationnotifications-freq-weekly": "ہفتہ وار ڈائجسٹ",
+	"translationnotifications-freq-monthly": "ماہانہ ڈائجسٹ",
+	"translationnotifications-submit": "اپ ڈیٹ کی ترتیبات",
+	"notifytranslators": "مترجمین مطلع کریں",
+	"translationnotifications-send-notification-button": "مترجمین کے لئے ایک اطلاعاتی پیغام بھیجیں",
+	"translationnotifications-languages-to-notify-label": "مطلع کریں جو زبانیں:",
+	"translationnotifications-priority": "ترجیح:",
+	"translationnotifications-priority-high": "اعلی",
+	"translationnotifications-priority-medium": "درمیانے",
+	"translationnotifications-priority-low": "کم",
+	"translationnotifications-translatablepage-title": "ترجمہ صفحہ کا نام:",
+	"translationnotifications-talkpage-body": "سلام $2،\n\nآپ کو یہ اطلاع اس لیے موصول ہورہی ہے کہ آپ {{SITENAME}} پر بطور مترجم $3 درج ہیں۔\nصفحہ [[$4]] ترجمہ کے لیے دستیاب ہے۔ آپ اس کا ترجمہ یہاں کرسکتے ہیں:\n$5\n\n$6\n$7\n\n$8\n\nآپ کی معاونت نہایت قابل قدر ہے۔ آپ جیسے مترجمین {{SITENAME}} کی مدد کرسکتے ہیں تاکہ متعدد الالسنہ برادری کی حیثیت سے کام کیا جاسکے۔\n\nشکریہ!\n\n{{SITENAME}} ترجمہ سے مربوط افراد",
+	"translationnotifications-notification-url-listitem": "ترجمہ در $1",
+	"translationnotifications-edit-summary": "اطلاع برائے ترجمہ: $1",
+	"log-name-notifytranslators": "ترجمہ کی اطلاعات",
+	"translationnotifications-sent-title": "ترجمہ اطلاع بھیجا",
+	"translationnotifications-sent-body": "ترجمہ اطلاعاتی پیغام بھیجا گیا تھا.",
+	"translationnotifications-log-alllanguages": "تمام زبانوں",
+	"translationnotifications-nodeadline": "کوئی بھی نہیں"
+}

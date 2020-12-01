@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"sia-description": "{{desc|name=Semantic Image Annotator|url=https://www.mediawiki.org/wiki/Extension:Semantic_Image_Annotator}}",
+	"sia-comment": "A hint message\n{{Identical|Comment}}",
+	"sia-buttonannotate": "A button text",
+	"sia-resize": "A navigation hint"
+}

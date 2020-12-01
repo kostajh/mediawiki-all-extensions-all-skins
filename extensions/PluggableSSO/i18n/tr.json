@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"pluggablesso-desc": "Web sunucusu tarafından sağlanan SSO'yu PluggableAuth ile birlikte $REMOTE_USER içinde kullanır",
+	"pluggablesso-no-session": "Kullanıcı adınız yok, oturum bir şekilde başarısız oldu.",
+	"pluggablesso-username-mismatch": "Kullanıcı adı oturumla eşleşmedi"
+}

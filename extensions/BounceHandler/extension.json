@@ -1,0 +1,97 @@
+{
+	"name": "BounceHandler",
+	"version": "1.0",
+	"author": [
+		"Tony Thomas",
+		"Kunal Mehta",
+		"Jeff Green",
+		"Sam Reed"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:BounceHandler",
+	"descriptionmsg": "bouncehandler-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"APIModules": {
+		"bouncehandler": "ApiBounceHandler"
+	},
+	"AutoloadClasses": {
+		"BounceHandlerHooks": "includes/BounceHandlerHooks.php",
+		"ApiBounceHandler": "includes/ApiBounceHandler.php",
+		"BounceHandlerJob": "includes/BounceHandlerJob.php",
+		"BounceHandlerNotificationJob": "includes/BounceHandlerNotificationJob.php",
+		"ProcessBounceEmails": "includes/ProcessBounceEmails.php",
+		"BounceHandlerActions": "includes/BounceHandlerActions.php",
+		"ProcessUnRecognizedBounces": "includes/ProcessUnRecognizedBounces.php",
+		"ProcessBounceWithRegex": "includes/ProcessBounceWithRegex.php",
+		"VerpAddressGenerator": "includes/VerpAddressGenerator.php",
+		"PruneOldBounceRecords": "includes/PruneOldBounceRecords.php",
+		"EchoBounceHandlerPresentationModel": "includes/EchoBounceHandlerPresentationModel.php"
+	},
+	"config": {
+		"BounceHandlerCluster": {
+			"value": false
+		},
+		"BounceHandlerInternalIPs": {
+			"value": [
+				"127.0.0.1",
+				"::1"
+			]
+		},
+		"BounceHandlerSharedDB": {
+			"value": false
+		},
+		"BounceHandlerUnconfirmUsers": {
+			"value": false
+		},
+		"BounceRecordLimit": {
+			"value": 10
+		},
+		"BounceRecordMaxAge": {
+			"value": 5184000
+		},
+		"BounceRecordPeriod": {
+			"value": 604800
+		},
+		"GenerateVERP": {
+			"value": true
+		},
+		"UnrecognizedBounceNotify": {
+			"value": []
+		},
+		"VERPAcceptTime": {
+			"value": 259200
+		},
+		"VERPalgorithm": {
+			"value": "md5"
+		},
+		"VERPdomainPart": {
+			"value": null
+		},
+		"VERPprefix": {
+			"value": "wiki"
+		},
+		"VERPsecret": {
+			"value": "MediawikiVERP"
+		}
+	},
+	"Hooks": {
+		"UserMailerChangeReturnPath": "BounceHandlerHooks::onVERPAddressGenerate",
+		"LoadExtensionSchemaUpdates": "BounceHandlerHooks::onLoadExtensionSchemaUpdates",
+		"BeforeCreateEchoEvent": "BounceHandlerHooks::onBeforeCreateEchoEvent",
+		"EchoGetDefaultNotifiedUsers": "BounceHandlerHooks::onEchoGetDefaultNotifiedUsers"
+	},
+	"JobClasses": {
+		"BounceHandlerJob": "BounceHandlerJob",
+		"BounceHandlerNotificationJob": "BounceHandlerNotificationJob"
+	},
+	"MessagesDirs": {
+		"BounceHandler": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"manifest_version": 2
+}

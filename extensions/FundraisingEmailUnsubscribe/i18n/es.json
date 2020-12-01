@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Macofe",
+			"Ryo567"
+		]
+	},
+	"fundraiserunsubscribe-desc": "Permite a los usuarios darse de baja de las listas de correo de recaudación de fondos.",
+	"fundraiserunsubscribe": "Darse de baja de la lista de correos de recaudación de fondos de Wikipedia.",
+	"fundraiserunsubscribe-query": "¿Seguro que quieres desuscribir a '''''$1'''''?",
+	"fundraiserunsubscribe-submit": "Cancelar la suscripción",
+	"fundraiserunsubscribe-cancel": "Cancelar",
+	"fundraiserunsubscribe-errormsg": "Se ha producido un error al intentar procesar tu solicitud. Por favor, contacta con [mailto:$1 $1].",
+	"fundraiserunsubscribe-success": "Te has dado de baja de la lista de correo correctamente.",
+	"fundraisersubscribe-success": "Gracias.",
+	"fundraisersubscribe-appeal-headline-001": "¿Te agrada lo que ves?"
+}

@@ -1,0 +1,51 @@
+{
+	"name": "TocTree",
+	"version": "1.12.0",
+	"author": [
+		"Roland Unger",
+		"Matthias Mullie"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:TocTree",
+	"descriptionmsg": "toctree-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"DefaultUserOptions": {
+		"toc-floated": false,
+		"toc-expand": false
+	},
+	"MessagesDirs": {
+		"TocTree": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"TocTreeHooks": "includes/TocTreeHooks.php"
+	},
+	"ResourceModules": {
+		"ext.toctree": {
+			"localBasePath": "modules",
+			"remoteExtPath": "TocTree/modules",
+			"styles": "ext.toctree.css",
+			"scripts": "ext.toctree.js",
+			"messages": [
+				"hidetoc",
+				"showtoc"
+			],
+			"dependencies": [
+				"user.options"
+			]
+		}
+	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"TocTreeHooks::onBeforePageDisplay"
+		],
+		"GetPreferences": [
+			"TocTreeHooks::onGetPreferences"
+		]
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-wikiexplorer-extension-description": "Maddeleri ölçütlere göre sırala",
+	"bs-wikiexplorer-page-title": "Başlık",
+	"bs-wikiexplorer-page-namespace": "Ad alanı",
+	"bs-wikiexplorer-creation-date": "Oluşturulma tarihi",
+	"bs-wikiexplorer-is-redirect": "Yönlendirme var",
+	"bs-wikiexplorer-last-comment": "Son yorum",
+	"bs-wikiexplorer-last-edit-time": "Son düzenleme tarihi",
+	"bs-wikiexplorer-page-size": "Boyut",
+	"bs-wikiexplorer-last-author": "Son düzenleyen",
+	"bs-wikiexplorer-categories": "Kategoriler",
+	"bs-wikiexplorer-linked-files": "Bağlantılı dosyalar",
+	"bs-wikiexplorer-linked-pages": "Bağlantılı sayfalar",
+	"apihelp-bs-wikiexplorer-store-description": "WikiExplorer uzantısı için tüm verileri sağlar",
+	"apihelp-bs-wikiexplorer-store-param-metaLoaded": "MetaData'nın önceden yüklenmiş olup olmadığını gösteren API parametresi.",
+	"apihelp-bs-wikiexplorer-store-summary": "WikiExplorer uzantısı için tüm verileri sağlar"
+}

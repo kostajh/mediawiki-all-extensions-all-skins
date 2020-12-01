@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"openstackmanager-desc": "Pèrmèt ux usanciérs d’administrar Nova et Swift.",
+	"openstackmanager": "Administrator OpenStack",
+	"novakey": "Administrar voutres cllâfs publiques SSH",
+	"specialpages-group-nova": "Nova OpenStack",
+	"openstackmanager-novakey": "Cllâf Nova",
+	"openstackmanager-delete": "suprimar",
+	"openstackmanager-actions": "Accions",
+	"openstackmanager-notloggedin": "Branchement nècèssèro",
+	"openstackmanager-mustbeloggedin": "Vos dête étre branchiê por fâre cel’accion.",
+	"openstackmanager-novapublickey": "Cllâf publica SSH",
+	"openstackmanager-deletekey": "Suprimar la cllâf",
+	"openstackmanager-deletekeyconfirm": "Éte-vos de sûr de volêr suprimar la cllâf ce-dessus ?",
+	"openstackmanager-keylist": "Lista de les cllâfs",
+	"openstackmanager-name": "Nom",
+	"openstackmanager-fingerprint": "Trace de dêgt",
+	"openstackmanager-keys": "Cllâfs",
+	"openstackmanager-keypairimportfailed": "Empossiblo d’importar lo par de cllâfs.",
+	"openstackmanager-keypairimported": "Par de cllâfs importâ.",
+	"openstackmanager-keypairimportedfingerprint": "Par de cllâfs $1 avouéc la trace de dêgt $2 importâ.",
+	"openstackmanager-deletedkey": "Cllâf suprimâ avouéc reusséta.",
+	"openstackmanager-deletedkeyfailed": "Empossiblo de suprimar la cllâf.",
+	"openstackmanager-shellaccountname": "Nom du compto por lo shell de l’enstance",
+	"openstackmanager-shellaccountnamehelp": "Un nom de compto ''shell'' est nècèssèro.\nDêt comenciér per na lètra (a–z) et pués pôt contegnir ren que des lètres (a–z), chifros (0–9) et terèts (-)."
+}

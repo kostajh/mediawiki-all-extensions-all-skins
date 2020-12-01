@@ -1,0 +1,37 @@
+@import 'mediawiki.ui/variables.less';
+@import 'mediawiki.mixins.less';
+
+.ext-ipinfo-button {
+	&.oo-ui-buttonElement-frameless.oo-ui-iconElement > .oo-ui-buttonElement-button {
+		padding: 0;
+		margin-bottom: 3px;
+		margin-left: 2px;
+
+		& > .oo-ui-iconElement-icon {
+			left: -1px;
+			margin: 0;
+		}
+	}
+
+	&.oo-ui-buttonWidget {
+		margin-right: 0;
+	}
+}
+
+.ext-ipinfo-widget {
+	min-height: 2em;
+	padding: 0 1em;
+}
+
+.ext-ipinfo-widget-location {
+	font-weight: bold;
+}
+
+.ext-ipinfo-widget-source {
+	font-style: italic;
+	color: @colorGray7;
+}
+
+.ext-ipinfo-widget-error {
+	margin: 1em 0;
+}

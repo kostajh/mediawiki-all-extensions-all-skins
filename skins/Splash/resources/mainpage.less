@@ -1,0 +1,341 @@
+@import 'mixins.less';
+
+@media screen {
+	body {
+		background: #ccc url( images/splash.jpg ) no-repeat 50% 0;
+	}
+
+	#mw-wrapper {
+		background: unset;
+	}
+
+	#container-bottom {
+		background: unset;
+	}
+
+	#content,
+	#footer {
+		text-align: center;
+	}
+
+	#footer {
+		font-size: @text-resize;
+		margin-top: 5em;
+	}
+
+	#footer-icons,
+	#footer-info {
+		.hidden();
+	}
+
+	#mw-content-text,
+	#p-search {
+		margin: 0 1em;
+	}
+
+	/* HEADER 'N JUNK */
+
+	.mw-wiki-logo {
+		display: block;
+		width: 6em;
+		height: 6em;
+		background-repeat: no-repeat;
+		background-position: center center;
+		margin: auto;
+		position: relative;
+
+		// Specificity for logo extensions
+		body.mediawiki .splash-mainpage & {
+			background-size: contain;
+		}
+	}
+
+	.mw-wiki-title {
+		display: block;
+		margin: 1em 0 0 0.5em;
+	}
+
+	#p-logo {
+		text-shadow: 0 -0.5px 0 @grey6, 0 -1px 0 @grey6, // Avoid visible gaps on HiDPI
+			0 1px 0 @grey0,
+			0 3px 3px @grey0;
+		color: @grey2;
+	}
+
+	#searchInput {
+		width: 300px;
+		max-width: 100%;
+		border-radius: 1em;
+		background: @grey6;
+		text-align: center;
+		margin: 1.25em auto 0;
+
+		#p-search & {
+			padding-right: 2.75em;
+		}
+	}
+
+	#searchGoButton {
+		margin-left: -2.5em;
+		background-image: url( images/search-ltr.svg );
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		.icon-only();
+
+		&,
+		&:hover,
+		&:active {
+			background-color: transparent;
+		}
+
+		#p-search & {
+			padding: 0.35em 1em;
+		}
+	}
+
+	.splash-overlay #mainpage-daji {
+		display: block;
+		margin: 0 3em -3em;
+
+		img {
+			width: 500px;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	/* MENUS */
+
+	#mw-navigation {
+		margin: 0 1em;
+		position: relative;
+	}
+
+	#p-personal,
+	#p-lang,
+	#mw-sidebar,
+	#mw-tools {
+		position: absolute;
+		top: 0;
+
+		&:before {
+			content: '';
+			display: block;
+			width: 16px;
+			height: 14px;
+			background-image: url( images/arrow-down-red.svg );
+			background-position: left top;
+			opacity: 0.9;
+			cursor: pointer;
+		}
+	}
+
+	#p-lang:before,
+	#mw-sidebar:before,
+	#mw-tools:before {
+		float: right;
+		margin: 8px -1px 0 0;
+	}
+
+	#p-personal:before {
+		float: left;
+		margin: 8px 0 0 -4px;
+	}
+
+	#p-personal > h3,
+	#p-lang > h3,
+	#mw-sidebar > h2,
+	#mw-tools > h2 {
+		text-indent: -9999px;
+		width: 40px;
+		height: 35px;
+		display: block;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		opacity: 0.85;
+		cursor: pointer;
+		margin: 0;
+		padding: 0;
+	}
+
+	#p-personal {
+		right: 0;
+
+		> h3 {
+			background-image: url( 'images/user.svg' );
+		}
+	}
+
+	#mw-tools {
+		left: 50px;
+
+		> h2 {
+			background-image: url( 'images/pencil-menu.svg' );
+		}
+	}
+
+	#ca-nstab-main,
+	#ca-ve-edit,
+	#p-global-links  .mw-portlet-body h3 {
+		display: none;
+	}
+
+	#mw-sidebar {
+		left: 0;
+
+		> h2 {
+			background-image: url( 'images/nav.svg' );
+		}
+
+		.splash-overlay .with-global-nav & > h2 {
+			background-image: url( 'images/daji.svg' );
+		}
+	}
+
+	#p-lang {
+		left: 100px;
+
+		> h3 {
+			background-image: url( 'images/languages.svg' );
+		}
+	}
+
+	#p-personal-extra {
+		a {
+			color: @grey1;
+		}
+
+		ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			position: absolute;
+			right: 50px;
+			top: 0.5em;
+			font-size: @text-resize;
+		}
+
+		li {
+			display: inline-block;
+			margin: 0 0.5em;
+		}
+	}
+
+	// blocks
+	#p-personal .mw-portlet-body,
+	#p-lang .mw-portlet-body,
+	#sidebar-inner,
+	#tools-inner {
+		.nav();
+		.hidden();
+	}
+
+	// parents
+
+	#p-personal.dropdown-active .mw-portlet-body,
+	#p-lang.dropdown-active .mw-portlet-body,
+	#mw-sidebar.dropdown-active #sidebar-inner,
+	#mw-tools.dropdown-active #tools-inner,
+	.client-nojs #p-personal:hover .mw-portlet-body,
+	.client-nojs #p-lang:hover .mw-portlet-body,
+	.client-nojs #mw-sidebar:hover #sidebar-inner,
+	.client-nojs #mw-tools:hover #tools-inner {
+		top: 1.85em;
+		left: 0;
+	}
+
+	#p-personal.dropdown-active .mw-portlet-body,
+	.client-nojs #p-personal:hover .mw-portlet-body {
+		left: unset;
+		right: 0;
+	}
+
+	#header {
+		height: 2em;
+	}
+
+	/* RESOLUTION-SPECIFIC OVERRIDES */
+
+	@media ( min-width: 700px ) {
+		// Override menu display from mobile toggling
+		#p-personal .mw-portlet-body,
+		#p-lang .mw-portlet-body,
+		#sidebar-inner,
+		#tools-inner {
+			display: block !important;
+		}
+	}
+
+	@media ( max-width: 699px ) {
+		// Mobile click toggling styles for consistency
+		.client-js {
+			#p-personal .mw-portlet-body,
+			#p-lang .mw-portlet-body,
+			#sidebar-inner,
+			#tools-inner {
+				.hidden();
+				background-color: rgba( 255, 255, 255, 0.75 );
+				opacity: 0.95;
+
+				&.toggled {
+					position: fixed;
+					top: 2em !important;
+					left: 1em !important;
+					z-index: 9000;
+				}
+			}
+
+			#p-personal .mw-portlet-body {
+				&.toggled {
+					left: unset !important;
+					right: 1em !important;
+				}
+			}
+		}
+	}
+
+	@media ( max-width: 500px ) {
+		// Doesn't really fit, meh
+		.splash-overlay #mainpage-daji {
+			display: none;
+		}
+
+		// REALLY doesn't fit holy crap
+		#p-personal-extra {
+			.hidden();
+		}
+	}
+
+	/* SEMI-ACTUAL CONTENT MAYBE */
+
+	.mw-body {
+		padding: 0;
+	}
+
+	#container-content-margin {
+		max-width: 777px;
+	}
+
+	#mw-content-text {
+		// padding: 0.1em 1em;
+		// margin: 1.25em 0 0;
+		text-shadow: 0 1px 0 @grey0, 0 2px 2px @grey0;
+		color: @grey3;
+
+		a {
+			color: @grey6;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: @grey2;
+			text-shadow: 0 -1px 0 @grey6, 0 -0.5px 0 @grey6, // Avoid visible gaps on HiDPI
+				0 1px 0 @grey0,
+				0 2px 2px @grey0;
+		}
+	}
+}

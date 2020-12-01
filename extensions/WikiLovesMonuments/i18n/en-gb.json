@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chase me ladies, I'm the Cavalry"
+		]
+	},
+	"wlm-extension-desc": "Adds information and messages related to the Wiki Loves Monuments photographic contest",
+	"wlm-no-contest-year": "There was no Wiki Loves Monuments contest in $1.",
+	"wlm-no-url-bad-country": "We couldn't obtain the website for the local competition. $1 is not a valid country code.",
+	"wlm-country-not-given": "You need to provide a country code.",
+	"wlm-country-not-participating-year": "«$1» not participating in Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "Other countries",
+	"wlm-international-contest": "International",
+	"wlm-text-contact": "Contact",
+	"wlm-text-contest": "Contest",
+	"wlm-text-donate": "Donate",
+	"wlm-text-faq": "FAQ",
+	"wlm-text-jury": "Jury",
+	"wlm-text-monuments": "Monuments",
+	"wlm-text-news": "News",
+	"wlm-text-participate": "Participate!",
+	"wlm-text-prizes": "Prizes",
+	"wlm-text-rules": "Rules",
+	"wlm-text-sponsors": "Sponsors",
+	"wlm-text-uploading": "Uploading"
+}

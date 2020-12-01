@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player",
+			"Fryed-peach",
+			"Schu",
+			"Shirayuki"
+		]
+	},
+	"logentry-append": "追加",
+	"logentry-parserhook-desc": "ログページの先頭または末尾に項目を追加するフォームを提供するタグ拡張機能",
+	"logentry-specialpage-desc": "ログページに項目を追加する処理を提供するタグ拡張機能",
+	"logentry": "記録項目",
+	"logentry-invalidpage": "無効なページ: $1",
+	"logentry-invalidtoken": "トークンが無効です"
+}

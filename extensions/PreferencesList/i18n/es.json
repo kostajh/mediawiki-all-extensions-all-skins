@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"preferenceslist-desc": "Genera una lista de todas las definiciones de usuario correspondientes a una preferencia concreta",
+	"preferenceslist-preferenceslist": "Lista de preferencias",
+	"preferenceslist-preferenceslist-intro": "Abajo se encuentra una lista de preferencias. Elige al menos una para desplegar una lista de todos los usuarios y sus elecciones.",
+	"preferenceslist": "Lista de preferencias",
+	"action-preferenceslist": "enumerar las preferencias de todos los usuarios",
+	"preferenceslist-csv": "Descargar como CSV",
+	"preferenceslist-nofields": "No se seleccionó ningún campo."
+}

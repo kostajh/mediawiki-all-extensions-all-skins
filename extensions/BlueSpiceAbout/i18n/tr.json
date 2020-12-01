@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Chansey"
+		]
+	},
+	"bs-bluespiceabout-desc": "BlueSpice hakkında bilgi",
+	"bs-bluespiceabout-about-bluespice": "BlueSpice hakkında",
+	"bluespiceabout": "BlueSpice hakkında",
+	"prefs-bluespiceabout": "BlueSpice hakkında",
+	"bs-bluespiceabout-show-menu-links": "Ana menüdeki \"{{int:bs-bluespiceabout-about-bluespice}}\" bağlantısını göster",
+	"action-bluespiceabout-viewspecialpage": "\"{{int:bs-bluespiceabout-about-bluespice}}\" özel sayfasını görüntüleyin",
+	"right-bluespiceabout-viewspecialpage": "Özel sayfaya erişim [[Special:BlueSpiceAbout]]",
+	"bs-bluespiceabout-pref-showmenulinks-help": "Ana gezinti hakkında Special:BlueSpiceHakkına bir bağlantı ekler. Bağlantı verilen sayfada BlueSpice pro ile ilgili bilgiler ve yardımcı bağlantılar görüntülenir."
+}

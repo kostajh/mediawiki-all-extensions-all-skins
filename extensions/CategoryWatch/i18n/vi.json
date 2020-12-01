@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vinhtantran"
+		]
+	},
+	"categorywatch-desc": "Mở rộng chức năng của danh sách theo dõi để thêm thông báo về sự thay đổi trang thành viên của thể loại được theo dõi",
+	"categorywatch-emailsubject": "Hoạt động liên quan đến thể loại đang được theo dõi “$1”",
+	"categorywatch-catmovein": "đã di chuyển $1 vào thể loại $2 từ $3",
+	"categorywatch-catmoveout": "đã di chuyển $1 ra khỏi thể loại $2 đến $3",
+	"categorywatch-catadd": "đã thêm $1 vào thể loại $2",
+	"categorywatch-catsub": "đã bỏ $1 ra khỏi thể loại $2",
+	"categorywatch-autocat": "Tự động theo dõi bởi $1"
+}

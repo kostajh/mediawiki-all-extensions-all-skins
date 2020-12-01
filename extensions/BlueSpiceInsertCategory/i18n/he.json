@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erelon",
+			"Guycn2",
+			"Steeve815"
+		]
+	},
+	"bs-insertcategory-desc": "תיבת דו־שיח להוספת קישורים לקטגוריות",
+	"bs-insertcategory-insertcat": "הוספת קטגוריה",
+	"prefs-insertcategory": "הוספת קטגוריה",
+	"bs-insertcategory-pref-withparents": "הוספת קטגוריה יחד עם קטגוריות ההורה שלה",
+	"bs-insertcategory-pref-uploadpanelintegration": "הגדרת דפי קטגוריות כברירת מחדל בתיבת הדו־שיח של ההעלאה",
+	"bs-insertcategory-title": "הוספת קטגוריה",
+	"bs-insertcategory-cat-label": "משויכות:",
+	"bs-insertcategory-success": "הקטגוריה נוספה",
+	"bs-insertcategory-failure": "שגיאה",
+	"bs-insertcategory-hint": "הערה: כדי להוסיף קטגוריה, יש להקיש על Enter.",
+	"bs-insertcategory-panel-title": "קטגוריות",
+	"bs-insertcategory-category-editor-title": "קטגוריות",
+	"bs-insertcategory-category-editor-implicit-categories-title": "קטגוריות מובנות",
+	"bs-insertcategory-category-editor-implicit-categories-help": "קטגוריות אלו אינן מוגדרות בטקסט הוויקי של הדף. כנראה שהן מוגדרות בתבנית.",
+	"bs-insertcategory-category-editor-button-label-clear-all": "להסיר הכל",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "עריכה",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "עריכת הקטגוריות של הדף",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "עריכת הקטגוריות של הדף"
+}

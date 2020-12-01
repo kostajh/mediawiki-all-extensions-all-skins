@@ -1,0 +1,52 @@
+{
+	"name": "Dusk To Dawn",
+	"version": "1.4.2",
+	"author": [
+		"[http://automattic.com/ Automattic]",
+		"Jack Phoenix",
+		"Samantha Nguyen"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:DuskToDawn",
+	"descriptionmsg": "dusktodawn-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"ValidSkinNames": {
+		"dusktodawn": "DuskToDawn"
+	},
+	"MessagesDirs": {
+		"SkinDuskToDawn": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinDuskToDawn": "includes/SkinDuskToDawn.php",
+		"DuskToDawnTemplate": "includes/DuskToDawnTemplate.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "DuskToDawn"
+	},
+	"ResourceModules": {
+		"skins.dusktodawn.styles": {
+			"styles": {
+				"resources/print.css": {
+					"media": "print"
+				},
+				"resources/style.css": {
+					"media": "screen"
+				}
+			}
+		},
+		"skins.dusktodawn.audio": {
+			"scripts": [
+				"resources/js/audio.js"
+			]
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"dusktodawn": {
+			"+mediawiki.special.preferences.styles": "resources/special.preferences.styles.css"
+		}
+	},
+	"manifest_version": 1
+}

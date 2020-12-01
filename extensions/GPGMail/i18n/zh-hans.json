@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"gpgmail-desc": "通过GPG加密电子邮件",
+	"gpgmail-pref-enable": "通过GPG加密电子邮件",
+	"gpgmail-pref-key": "GPG公钥",
+	"gpgmail-pref-key-help": "参见[https://help.ubuntu.com/community/GnuPrivacyGuardHowto Ubuntu的指引页面]以了解如何获取一个公钥。",
+	"gpgmail-encrypt-error": "加密电子邮件时出错。"
+}

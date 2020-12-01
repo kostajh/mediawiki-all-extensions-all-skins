@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm",
+			"Toliño",
+			"Xosé"
+		]
+	},
+	"contributors": "Colaboradores",
+	"contributors-desc": "Sintetiza as contribucións principais nunha páxina",
+	"contributors-toolbox": "Colaboradores da páxina",
+	"contributors-legend": "Lista cos principais colaboradores dunha páxina",
+	"contributors-target": "Título:",
+	"contributors-submit": "Amosar",
+	"contributors-subtitle": "Principais colaboradores de \"$1\"",
+	"contributors-others-long": "{{PLURAL:$1|Existe outro colaborador|Existen outros $1 colaboradores}} nesta páxina.",
+	"contributors-others": "e {{PLURAL:$1|outro|outros $1}}",
+	"contributors-badtitle": "Título non válido.",
+	"contributors-nosuchpage": "A páxina \"$1\" non existe.",
+	"contributors-filterip": "Ocultar enderezos IP",
+	"contributors-name": "Nome de usuario",
+	"contributors-revisions": "Número de revisións",
+	"contributors-first-edit": "Data da primeira edición",
+	"contributors-last-edit": "Data da última edición",
+	"contributors-add-subpages": "Engadir subpáxinas",
+	"apihelp-query+contributors-example-1": "Amosar os contribuidores da Páxina Principal"
+}

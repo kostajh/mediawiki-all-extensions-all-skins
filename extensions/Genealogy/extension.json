@@ -1,0 +1,38 @@
+{
+	"name": "Genealogy",
+	"namemsg": "genealogy",
+	"version": "2.0.1",
+	"author": [
+		"[https://samwilson.id.au/ Sam Wilson]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Genealogy",
+	"descriptionmsg": "genealogy-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"ExtensionMessagesFiles": {
+		"GenealogyMagic": "Genealogy.i18n.magic.php"
+	},
+	"MessagesDirs": {
+		"Genealogy": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MediaWiki\\Extensions\\Genealogy\\GraphVizTreeFormatter": "src/GraphVizTreeFormatter.php",
+		"MediaWiki\\Extensions\\Genealogy\\MermaidTreeFormatter": "src/MermaidTreeFormatter.php",
+		"MediaWiki\\Extensions\\Genealogy\\Person": "src/Person.php",
+		"MediaWiki\\Extensions\\Genealogy\\Traverser": "src/Traverser.php",
+		"MediaWiki\\Extensions\\Genealogy\\TreeFormatter": "src/TreeFormatter.php",
+		"MediaWiki\\Extensions\\Genealogy\\Tree": "src/Tree.php",
+		"MediaWiki\\Extensions\\Genealogy\\Hooks": "src/Hooks.php",
+		"MediaWiki\\Extensions\\Genealogy\\Test\\GenealogyTestCase": "tests/phpunit/GenealogyTestCase.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "MediaWiki\\Extensions\\Genealogy\\Hooks::onParserFirstCallInit",
+		"EditPage::showEditForm:initial": "MediaWiki\\Extensions\\Genealogy\\Hooks::onEditPageShowEditFormInitial"
+	},
+	"manifest_version": 1
+}

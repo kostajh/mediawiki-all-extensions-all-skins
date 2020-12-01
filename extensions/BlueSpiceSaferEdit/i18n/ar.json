@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-saferedit-desc": "يوفر تحذيرات إذا قام المستخدمون الآخرون بتحرير الصفحة",
+	"bs-saferedit-user-editing": "$1 {{GENDER:$1|يعدل|تعدل}} الصفحة",
+	"bs-saferedit-someone-editing": "الصفحة قيد التحرير",
+	"bs-saferedit-pref-interval": "الفاصل الزمني للبحث عن التعديلات المتزامنة:",
+	"bs-saferedit-pref-shownameofeditinguser": "إظهار اسم المحرر الحالي"
+}

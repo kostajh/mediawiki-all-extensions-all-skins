@@ -1,0 +1,86 @@
+/* stylelint-disable selector-max-id */
+
+.ext-globalwatchlist-col {
+	-moz-column-width: 45em;
+	-webkit-column-width: 45em;
+	column-width: 45em;
+}
+
+.ext-globalwatchlist-emptywatchlist {
+	font-size: 130%;
+}
+
+.ext-globalwatchlist-content hr {
+	height: 2px;
+	clear: both;
+}
+
+.oo-ui-labelWidget {
+	display: block;
+	padding-bottom: 5px;
+}
+
+#ext-globalwatchlist-watchlistsloading {
+	margin: auto;
+	margin-top: 5px;
+}
+
+#ext-globalwatchlist-asof {
+	text-align: center;
+}
+
+/* Ensure that this applies to links, see T245104 */
+.ext-globalwatchlist-strike,
+.ext-globalwatchlist-strike a {
+	text-decoration: line-through;
+}
+
+#ext-globalwatchlist-sites-list > div,
+.oo-ui-fieldLayout {
+	margin-top: 0;
+}
+
+#ext-globalwatchlist-toolbar {
+	position: sticky;
+	top: 0;
+	background: #fff;
+	z-index: 1;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #0fd977;
+}
+
+#ext-globalwatchlist-watchlistsfeed {
+	text-align: left;
+	direction: ltr;
+}
+
+/*
+TODO is this still needed, or does CSSJanus eliminate the need?
+div[ id^='ext-globalwatchlist-feed-site-he_' ],
+div[ id^='ext-globalwatchlist-feed-site-ar_' ],
+div[ id^='ext-globalwatchlist-feed-site-azb_' ],
+div[ id^='ext-globalwatchlist-feed-site-ckb_' ],
+div[ id^='ext-globalwatchlist-feed-site-dv_' ],
+div[ id^='ext-globalwatchlist-feed-site-fa_' ],
+div[ id^='ext-globalwatchlist-feed-site-glk_' ],
+div[ id^='ext-globalwatchlist-feed-site-ks_' ],
+div[ id^='ext-globalwatchlist-feed-site-lrc_' ],
+div[ id^='ext-globalwatchlist-feed-site-mzn_' ],
+div[ id^='ext-globalwatchlist-feed-site-nqo_' ],
+div[ id^='ext-globalwatchlist-feed-site-pnb_' ],
+div[ id^='ext-globalwatchlist-feed-site-ps_' ],
+div[ id^='ext-globalwatchlist-feed-site-sd_' ],
+div[ id^='ext-globalwatchlist-feed-site-ug_' ],
+div[ id^='ext-globalwatchlist-feed-site-ur_' ],
+div[ id^='ext-globalwatchlist-feed-site-yi_' ] {
+	text-align: right;
+	direction: rtl;
+}
+*/
+
+.ext-globalwatchlist-site a,
+li b {
+	unicode-bidi: isolate;
+	display: inline-block;
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"pageblock-desc": "Ermöglicht Einschränkungen pro Seite oder Benutzer",
+	"pageblock": "Benutzer einschränken",
+	"pageblock-legend": "Benutzer einschränken",
+	"pageblock-form-title": "Seitenname",
+	"pageblock-form-user": "Benutzername",
+	"pageblock-form-edit": "Benutzer für das Bearbeiten einschränken",
+	"pageblock-form-sameformove": "Die gleichen Einschränkungen für das Verschieben anwenden",
+	"pageblock-form-move": "Benutzer für das Verschieben einschränken",
+	"pageblock-form-reason": "Grund",
+	"pageblock-success": "$1 wurde für $2 eingeschränkt.",
+	"listrestrictions": "Einschränkungen auflisten",
+	"listrestrictions-legend": "Einschränkungen auflisten",
+	"pageblock-list-title": "Seitenname",
+	"pageblock-list-user": "Benutzername",
+	"pageblock-list-indefonly": "Nur unbeschränkte Einschränkungen anzeigen",
+	"pageblock-restricted-edit-indef": "$1 wurde für das Bearbeiten von $2 unbeschränkt eingeschränkt.",
+	"pageblock-restricted-edit": "$1 wurde für das Bearbeiten von $2 bis $3 eingeschränkt.",
+	"pageblock-restricted-move-indef": "$1 wurde für das Verschieben von $2 unbeschränkt eingeschränkt.",
+	"pageblock-restricted-move": "$1 wurde für das Verschieben von $2 bis $3 eingeschränkt.",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|Du}} wurdest für das Bearbeiten von $2 unbeschränkt eingeschränkt.",
+	"pageblock-blocked-edit": "{{GENDER:$1|Du}} wurdest für das Bearbeiten von $2 bis $3 eingeschränkt.",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|Du}} wurdest für das Verschieben von $2 unbeschränkt eingeschränkt.",
+	"pageblock-blocked-move": "{{GENDER:$1|Du}} wurdest für das Verschieben von $2 bis $3 eingeschränkt.",
+	"logentry-restrict-add-edit-move": "$1 {{GENDER:$2|schränkte}} $3 für das Bearbeiten und Verschieben ein $4",
+	"logentry-restrict-add-edit": "$1 {{GENDER:$2|schränkte}} $3 für das Bearbeiten ein $4",
+	"logentry-restrict-add-move": "$1 {{GENDER:$2|schränkte}} $3 für das Verschieben ein $4",
+	"action-page-block": "Seiten- oder Pro-Benutzer-Beschränkungen anzuwenden, zu verändern oder zu entfernen",
+	"right-page-block": "Seiten- oder Pro-Benutzer-Beschränkungen anwenden, verändern oder entfernen"
+}

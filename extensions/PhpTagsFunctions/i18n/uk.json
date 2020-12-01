@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"phptagsfunctions-desc": "Реалізує внутрішні функції рідного PHP для розширення PhpTags",
+	"phptagsfunctions-preg-bad-delimiter": "Роздільник не повинен бути буквенно-цифровим символом чи оберненою косою рискою",
+	"phptagsfunctions-preg-no-ending-delimiter": "Не знайдено символа кінця рядка «$1»",
+	"phptagsfunctions-preg-unknown-modifier": "Невідомий модифікатор «$1»"
+}

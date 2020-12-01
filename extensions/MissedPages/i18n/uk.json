@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Movses",
+			"Piramidion",
+			"Vlad5250"
+		]
+	},
+	"missedpages": "Відсутні сторінки",
+	"missedpages-desc": "Підсумує помилки 404 (сторінка не знайдена) і забезпечує швидкий спосіб для їхнього перенаправлення або ігнорування.",
+	"missedpages-special-page-title": "Відсутні сторінки",
+	"missedpages-nav": "Популярні",
+	"missedpages-nav-recent": "Останні",
+	"missedpages-nav-ignored": "Проігноровано",
+	"missedpages-trend": "Тенденція",
+	"missedpages-sparkline-title": "$1 {{PLURAL:$1|перегляд|перегляди|переглядів}} протягом $2 {{PLURAL:$2|дня|днів}}",
+	"missedpages-count": "Кількість",
+	"missedpages-id": "ID",
+	"missedpages-datetime": "Дата й час",
+	"missedpages-page": "Сторінка",
+	"missedpages-actions": "Дії",
+	"missedpages-redirect": "Перенаправлення",
+	"missedpages-redirect-desc": "Додати перенаправлення до цієї сторінки.",
+	"missedpages-redirect-comment": "Додано перенаправлення через MissedPages.",
+	"missedpages-delete": "Вилучити",
+	"missedpages-delete-desc": "Вилучити записи журналу для цієї сторінки.",
+	"missedpages-ignore": "Ігнорувати",
+	"missedpages-ignore-desc": "Ігнорувати цю сторінку у майбутньому, коли вона даватиме помилку 404."
+}

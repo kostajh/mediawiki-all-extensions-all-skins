@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby",
+			"Soued031"
+		]
+	},
+	"duplicator": "En Doublon vun enger Säit maachen",
+	"duplicator-desc": "Onofhängeg [[Special:Duplicate|Kopie vu Säite]] maachen, mat dem kompletten Historique vun den Ännerungen",
+	"duplicator-toolbox": "Een Doublon vun dëser Säit maachen",
+	"duplicator-header": "Dës Säit erlaabt et e komplett Duplikat vun enger Säit ze maachen, dobäi gëtt eng onofhängeg Kopie mat dem ganzen Historique ugeluecht. Dat ass nëtzlech wann eng Säit opdeelt gëtt, asw.",
+	"duplicator-options": "Optiounen",
+	"duplicator-source": "Quell:",
+	"duplicator-dest": "Zil:",
+	"duplicator-dotalk": "Een Doublon vun der Diskussiounssäit maachen (wann se existéiert)",
+	"duplicator-dosubpages": "Ënnersäiten duplizéieren (wann et der gëtt)",
+	"duplicator-dohistory": "Kompletten Historique vun der Säit duplizéieren",
+	"duplicator-submit": "Säit duplizéieren",
+	"duplicator-summary": "Vun [[$1]] kopéiert, Versioun [[$2]]",
+	"duplicator-success": "[[$1]] gouf op [[$2]] kopéiert.",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|Versioun gouf|Versioune goufe}} kopéiert.",
+	"duplicator-success-talknotcopied": "D'Diskussiounssäit konnt net kopéiert ginn.",
+	"duplicator-failed": "Wéint engem onbekannte Feeler konnt keen Doublon vun der Säit gemaach ginn.",
+	"duplicator-failed-toolong": "[[$1]] gouf net duplizéiert. Den Ziltitel ass ze laang.",
+	"duplicator-failed-dest-exists": "[[$1]] gouf net duplizéiert. D'Zil [[$2]] gëtt et schonn.",
+	"duplicator-source-invalid": "Gitt wgl. e gëltege Quell-Titel un.",
+	"duplicator-source-notexist": "[[$1]] gëtt et net. Gitt wgl. den Titel vun enger Säit un déi et gëtt.",
+	"duplicator-dest-invalid": "Gitt wgl. eng valabel Zilsäit unn.",
+	"duplicator-dest-exists": "[[$1]] gëtt et schonn. Gitt wgl. eng Zilsäit unn déi et nach net gëtt.",
+	"action-duplicate": "Säite verduebelen",
+	"right-duplicate": "Säite verduebelen"
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"bs-socialprofile-desc": "Единица на профили за BlueSpiceSocial",
+	"bs-socialprofile-type": "Профил",
+	"bs-socialprofile-entityaction-changeimage": "Корисничка слика",
+	"bs-social-entityaction-editprofilefields": "Податоци на профилот",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "Даден е неважечки 'User'",
+	"bs-social-profile-field-name": "Име",
+	"bs-social-profile-field-email": "Е-пошта",
+	"bs-social-profile-field-title": "Наслов",
+	"bs-social-profile-field-department": "Оддел",
+	"bs-social-profile-field-function": "Функција",
+	"bs-social-profile-field-location": "Местоположба",
+	"bs-social-profile-field-phone": "Телефон",
+	"bs-social-profile-field-validate-no-integer": "$1 мора да биде број",
+	"bs-socialprofile-special-profiles-heading": "Профили",
+	"bs-social-profile-infoshowemail": "Прикажи ја е-поштата во профилот",
+	"socialprofiles": "Профили",
+	"action-social-editothersprofile": "уредување на профили на други корисници",
+	"right-social-editothersprofile": "Уредување на профили на други корисници",
+	"action-socialprofile-viewspecialpage": "преглед на службената страница „{{int:socialprofiles}}“",
+	"right-socialprofile-viewspecialpage": "Преглед на службената страница „{{int:socialprofiles}}“"
+}

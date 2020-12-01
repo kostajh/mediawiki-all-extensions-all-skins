@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahonc",
+			"Facenapalm",
+			"Kaganer",
+			"Kareyac",
+			"Okras",
+			"Vlad5250",
+			"Александр Сигачёв"
+		]
+	},
+	"wikimediamessages-desc": "Специфические временные сообщения Викимедиа",
+	"grouppage-oversight": "{{ns:project}}:Ревизоры",
+	"group-oversight": "Ревизоры",
+	"group-oversight-member": "{{GENDER:$1|ревизор}}",
+	"hello": "Привет",
+	"please-translate": "Пожалуйста, помогите перевести на ваш язык",
+	"thank-you": "{{GENDER:$1|Спасибо.}}",
+	"specialblockfeedback": "Обратная связь"
+}

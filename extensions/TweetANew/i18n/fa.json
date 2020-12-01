@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alirezaaa",
+			"Armin1392",
+			"FarsiNevis",
+			"Mjbmr"
+		]
+	},
+	"tweetanew-desc": "توییت هنگامی که یک صفحه ایجاد یا ویرایش شده‌است. بسته به اولویت‌های تنظیم برای کل ویکی، یا به صورت خودکار یا از صفحه ویرایش.",
+	"tweetanew-newaction": "توییت دربارهٔ این صفحهٔ جدید",
+	"tweetanew-newtooltip": "فرستادن اطلاعات دربارهٔ ابن صفحهٔ جدید به توییتر",
+	"tweetanew-editaction": "توییت دربارهٔ این ویرایش",
+	"tweetanew-edittooltip": "فرستادن اطلاعات دربارهٔ این ویرایش به توییتر",
+	"tweetanew-minoredit": "ام",
+	"tweetanew-authorcredit": "توسط",
+	"tweetanew-newdefault": "صفحهٔ تازه: $1 - $2",
+	"tweetanew-new1": "شبیه $1 در $2 ایجاد شد",
+	"tweetanew-new2": "$1 اخیراً در $2 ایجاد شد",
+	"tweetanew-new3": "بررسی $2 - این یک صفحه جدید در $1 دارد",
+	"tweetanew-editdefault": "صفحهٔ روزآمد شده: $1 - $2",
+	"tweetanew-edit1": "به نظر می‌رسد که $1 در $2 روزآمد شده است",
+	"tweetanew-edit2": "$1 اخیراً در $2 تغییر کرده",
+	"tweetanew-edit3": "بررسی $2 - ایم چند محتوای جدید در $1 دارد"
+}

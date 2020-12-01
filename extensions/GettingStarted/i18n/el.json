@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geraki",
+			"Glavkos",
+			"Matma Rex",
+			"Nikosgranturismogt",
+			"Nikosguard",
+			"ZaDiak"
+		]
+	},
+	"gettingstarted": "Ξεκινώντας",
+	"gettingstarted-desc": "Βοηθά τους νέους χρήστες να γίνουν συντάκτες",
+	"gettingstarted-task-toolbar-editing-help-text": "Δείξτε μου πώς",
+	"gettingstarted-task-toolbar-editing-help-title": "Παρουσιάζει έναν οδηγό για το πώς να επεξεργαστείτε",
+	"gettingstarted-task-toolbar-try-another-text": "Δοκιμάστε μια άλλη σελίδα ►",
+	"gettingstarted-task-toolbar-close-title": "Κλείνει αυτή τη γραμμή εργαλείων",
+	"gettingstarted-task-toolbar-no-suggested-page": "Συγνώμη. Δεν μπορέσαμε να βρούμε περισσότερες σελίδες για βελτίωση αυτή τη στιγμή. Δοκιμάστε ξανά μετά από λίγο ή να κάντε αναζήτηση για τα δικά σας θέματα ενδιαφέροντος.",
+	"gettingstarted-task-copyedit-toolbar-description": "Αυτή η σελίδα μπορεί να έχει ορθογραφικά ή γραμματικά λάθη που μπορείτε να διορθώσετε.",
+	"gettingstarted-task-copyedit-toolbar-try-another-title": "Μεταβείτε σε μια τυχαία σελίδα που μπορείτε να βελτιώσετε συντακτικά",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-title": "Ας ξεκινήσουμε",
+	"guidedtour-tour-gettingstartedtasktoolbarintro-description": "Αυτή η σελίδα αναγνωρίστηκε από άλλους {{SITENAME}} χρήστες ως χρήζουσα βελτίωσης. Δεν χρειάζεται να είστε ειδικός στο θέμα για να βοηθήσετε.",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-title": "Ιδέες για το τι να κάνετε",
+	"guidedtour-tour-gettingstartedtasktoolbar-ambox-description": "Αυτά τα μπάνερ εντοπίζουν προβλήματα σε αυτή τη σελίδα. Δεν χρειάζεται να αντιμετωπίσετε όλα αυτά, απλά να παραμείνετε με ό,τι μπορείτε με άνεση να το κάνετε.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-title": "Επεξεργαστείτε ολόκληρη τη σελίδα...",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-article-description": "Κάντε κλικ στο κουμπί \"$1\" για να αλλάξετε το περιεχόμενο οπουδήποτε στη σελίδα.",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-title": "Ή επεξεργασία ενότητας",
+	"guidedtour-tour-gettingstartedtasktoolbar-edit-section-description": "Αν θέλετε να επεξεργαστείτε μια συγκεκριμένη ενότητα, μπορείτε να κάνετε κλικ στο σύνδεσμο \"{{int:editsection}}\" κοντά σε κάθε τμήμα του τίτλου.",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-title": "Κάντε τις αλλαγές σας και αποθηκεύστε",
+	"guidedtour-tour-gettingstartedtasktoolbarve-click-save-description": "Τώρα μπορείτε να επεξεργαστείτε το περιεχόμενο της σελίδας. Όταν τελειώσετε, κάντε κλικ στο \"{{int:publishchanges}}\" για να επιθεωρήσετε και να αποθηκεύσετε τις αλλαγές σας.",
+	"guidedtour-tour-gettingstarted-click-preview-title": "Προεπισκόπηση (προαιρετικό)",
+	"guidedtour-tour-gettingstarted-click-preview-description": "Κάνοντας κλικ στο \"{{int:showpreview}}\" σας επιτρέπει να δείτε πως θα είναι η σελίδα μετά τις αλλαγές που κάνατε. Απλά μην ξεχάσετε να αποθηκεύσετε!",
+	"guidedtour-tour-gettingstarted-click-save-title": "Σχεδόν τελειώσατε!",
+	"guidedtour-tour-gettingstarted-click-save-description": "Κάντε κλικ στο κουμπί \"{{int:publishchanges}}\" και οι αλλαγές σας θα είναι ορατές.",
+	"gettingstarted-cta-close": "Κλείσιμο",
+	"gettingstarted-cta-heading": "Βοηθήστε στη βελτίωση της {{SITENAME}}",
+	"gettingstarted-cta-text": "Μπορείτε να συνεισφέρετε στη {{SITENAME}} με διάφορους τρόπους",
+	"gettingstarted-cta-edit-page": "Επεξεργασία αυτής της σελίδας",
+	"gettingstarted-cta-edit-page-sub": "Θα σας δείξουμε πώς",
+	"gettingstarted-cta-fix-pages": "Επεξεργαστείτε μια προτεινόμενη σελίδα",
+	"gettingstarted-cta-fix-pages-sub": "Θα πάρουμε κάτι εύκολο",
+	"gettingstarted-cta-leave": "Όχι ευχαριστώ, ίσως αργότερα"
+}

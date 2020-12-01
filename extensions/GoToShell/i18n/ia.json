@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"gotoshell": "Ir al consola",
+	"gotoshell-desc": "Implementa [[Special:GoToShell|un pagiuna special]] que porta le usator al linea de commandos e retro",
+	"gotoshell-notallowed": "Tu conto non ha le permission de acceder al consola.",
+	"gotoshell-disabled": "Impossibile executar programmas externe, proc_open() es disactivate.",
+	"gotoshell-command": "Commando:",
+	"gotoshell-result": "Resultato:",
+	"action-gotoshell": "executar commandos de consola via le pagina special GoToShell",
+	"right-gotoshell": "Executar commandos de consola via le pagina special GoToShell"
+}

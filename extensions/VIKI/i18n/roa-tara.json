@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"viki-desc": "Disegne 'u grafeche de 'na rezze de collegaminde 'mbrà le pàggene d'a uicchi o le pàggene web",
+	"viki-error-title": "Errore:",
+	"viki-error-missing-pageTitle": "Jè obbligatorie da ninde ninde 'nu titole d'a pàgene.",
+	"viki-timeout-content-namespace": "Tiembe scadute pe l'analise d'u namespace de condenute pa uicchi: $1. 'U namespace prengepàle jè quidde predefinite.",
+	"viki-error-content-namespace": "Errore duranne l'analise d'u namespace de condenute pa uicchi: $1. 'U namespace prengepàle jè quidde predefinite.",
+	"viki-error-visit-node": "Errore mendre ste pruvamme a 'ndrucà 'u node: $1.",
+	"viki-error-external-links": "Errore mendre ste analizzamme 'u collegamende de fore pa pàgene: $1.",
+	"viki-error-intrawiki-out": "Errore mendre ste analizzamme le collegaminde ca iessene a 'u 'nderne d'a uicchi pa pàgene: $1.",
+	"viki-error-intrawiki-in": "Errore mendre ste analizzamme le collegaminde de rrete a 'u 'nderne d'a uicchi pa pàgene: $1.",
+	"viki-error-https-node": "Errore de elabborazione d'u node: $1. Tu ste ause HTTPS; jè possibbele trasè a le otre uicchi sulamende cu HTTPS.",
+	"viki-error-https-namespace": "Errore de recupere d'u namespace d'u condenute pa uicchi: $1. Tu ste ause HTTPS; jè possibbele trasè a le otre uicchi sulamende cu HTTPS.",
+	"apihelp-getContentNamespaces-description": "Pigghie l'elenghe de le namaspace de condenute pe sta uicchi.",
+	"apihelp-getContentNamespaces-summary": "Pigghie l'elenghe de le namaspace de condenute pe sta uicchi."
+}

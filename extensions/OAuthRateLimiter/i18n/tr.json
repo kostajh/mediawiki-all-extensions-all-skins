@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"oauthratelimiter-desc": "OAuth uzantısını JWT'deki oran sınırı taleplerini içerecek şekilde genişletir"
+}

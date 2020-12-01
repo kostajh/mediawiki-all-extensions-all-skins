@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"আফতাবুজ্জামান"
+		]
+	},
+	"countDownClock-desc": "একটি উল্টো গোনা সময় প্রদর্শন করার জন্য একটি পার্সার ফাংশন যোগ করে",
+	"countDownClock-invalidtime": "একটি বৈধ \"শেষের সময়\" প্যারামিটার প্রদান করুন",
+	"countDownClock-days": "$1 {{PLURAL:$1|দিন}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|ঘণ্টা}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|মিনিট}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|সেকেন্ড}}",
+	"countDownClock-expired": "মেয়াদোত্তীর্ণ হয়েছে"
+}

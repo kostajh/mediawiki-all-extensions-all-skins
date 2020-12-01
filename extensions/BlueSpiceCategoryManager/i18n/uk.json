@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Movses",
+			"Piramidion",
+			"Vlad5250"
+		]
+	},
+	"bluespicecategorymanager": "Менеджер категорій",
+	"bluespicecategorymanager-desc": "Візуальний інструмент для керування категоріями",
+	"action-categorymanager-viewspecialpage": "перегляд Менеджера категорій",
+	"bs-categorymanager-draganddrop-text": "Перетягніть, щоб реорганізувати",
+	"bs-categorymanager-label": "Менеджер категорій",
+	"bs-categorymanager-dlg-new-title": "Створити категорію",
+	"bs-categorymanager-dlg-new-prompt": "Будь ласка, введіть назву:",
+	"bs-categorymanager-removecategoryconfirm-text": "Ви впевнені, що хочете вилучити цю категорію?",
+	"bs-categorymanager-removecategoryconfirm-title": "Вилучити категорію",
+	"bs-categorymanager-addcategory-dialog-error-title": "Не вдалось створити категорію",
+	"bs-categorymanager-action-show-category": "Показати категорію",
+	"right-categorymanager-viewspecialpage": "Доступ до спеціальної сторінки [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Розміщення категорій",
+	"bs-categorymanager-collection-var-namespacename": "Простір назв",
+	"bs-categorymanager-collection-var-categorizedpages": "Сторінки з категоріями",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Сторінки без категорій"
+}

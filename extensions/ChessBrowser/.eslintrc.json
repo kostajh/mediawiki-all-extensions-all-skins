@@ -1,0 +1,21 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"overrides": [
+		{
+			"files": [
+				"*.js"
+			],
+			"rules": {
+				"no-unused-vars": "warn"
+			}
+		}
+	],
+	"rules": {
+		"no-jquery/variable-pattern": "warn"
+	}
+}

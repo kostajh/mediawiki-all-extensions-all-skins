@@ -1,0 +1,108 @@
+{
+	"name": "BlueSpiceSocialBlog",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SocialBlog",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-socialblog-desc",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceSocial": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocialBlog": {
+					"className": "\\BlueSpice\\Social\\Blog\\Extension",
+					"extPath": "/BlueSpiceSocialBlog",
+					"status": "beta",
+					"package": "BlueSpiceSocial",
+					"configDefinitions": {
+						"BSSocialUseBlogTeaser": "\\BlueSpice\\Social\\Blog\\ConfigDefinition\\BSSocialUseBlogTeaser::getInstance"
+					}
+				}
+			},
+			"EntityRegistry": {
+				"blog": "\\BlueSpice\\Social\\Blog\\EntityConfig\\Blog"
+			},
+			"RendererRegistry": {
+				"socialentityblog": "\\BlueSpice\\Social\\Blog\\Renderer\\Entity\\Blog::factory"
+			},
+			"NotificationRegistrationFunctions": [
+				"\\BlueSpice\\Social\\Blog\\Notification\\Registrator::registerNotifications"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceSocialBlog": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceSocialBlogAlias": "languages/Blog.alias.php"
+	},
+	"SpecialPages": {
+		"Blog": "\\BlueSpice\\Social\\Blog\\Special\\Blog"
+	},
+	"AutoloadClasses": {
+		"BSMigrateBlog": "maintenance/BSMigrateBlog.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\Blog\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.socialblog.styles": {
+			"styles": [
+				"bluespice.socialblog.css"
+			]
+		},
+		"ext.bluespice.social.entity.blog": {
+			"dependencies": [
+				"ext.bluespice.social",
+				"ext.bluespice.social.entity",
+				"ext.bluespice.social.entity.text"
+			],
+			"scripts": [
+				"entities/bluespice.social.Entity.Blog.js"
+			],
+			"messages": [
+				"bs-socialblog-entityblog-content-more-btn-more",
+				"bs-socialblog-entityblog-content-more-btn-less"
+			]
+		},
+		"ext.bluespice.social.entity.editor.blog": {
+			"dependencies": [
+				"ext.bluespice.social.entity.editor.text"
+			],
+			"scripts": [
+				"ui/EntityEditorBlog.js",
+				"ui/widget/BlogTextInputVisualEditor.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocialBlog/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"BSSocialUseBlogTeaser": {
+			"value": true,
+			"descriptionmsg": "bs-socialblog-toc-useblogteaser",
+			"public": true
+		},
+		"SocialBlogPreloadTitle": {
+			"value": "Template:Blog"
+		}
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "\\BlueSpice\\Social\\Blog\\Hook\\LoadExtensionSchemaUpdates\\AddBlogMigrationMaintenanceScript::callback",
+		"SkinBuildSidebar": "\\BlueSpice\\Social\\Blog\\Hook\\SkinBuildSidebar\\AddNavigationItem::callback",
+		"BeforePageDisplay": "\\BlueSpice\\Social\\Blog\\Hook\\BeforePageDisplay\\AddResources::callback"
+	},
+	"manifest_version": 2
+}

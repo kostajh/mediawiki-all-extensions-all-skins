@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"wikiarticlefeeds-desc": "Produz fluxos RSS xeneraos poles páxines de MediaWiki",
+	"wikiarticlefeeds-tracking-category": "Páxines que xeneren canales RSS",
+	"wikiarticlefeeds-tracking-category-desc": "La páxina xenera una canal RSS.",
+	"wikiarticlefeeds_combined_description": "Esti ye una canal combinada, que contien elementos de canales d'orixe distintu."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"accountinfo": "Benutzerkonteninformation",
+	"accountinfo-desc": "Ermöglicht Benutzern die Ansicht der zu ihnen gespeicherten privaten Informationen",
+	"accountinfo-ts": "Zeitstempel",
+	"accountinfo-ip": "IP-Adresse",
+	"accountinfo-ua": "Browser",
+	"accountinfo-xff": "XFF-Header",
+	"accountinfo-length": "Die Informationen werden bereitgestellt für $1.",
+	"accountinfo-now": "Jetzt"
+}

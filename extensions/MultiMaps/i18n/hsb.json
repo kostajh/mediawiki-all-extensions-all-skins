@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"multimaps-loading-map": "Karta so začituje...",
+	"multimaps-unable-create-element": "Kartowy element \"$1\" njehodźi so wutworić",
+	"multimaps-unknown-parameter": "Njeznaty parameter: \"$1\"",
+	"multimaps-method-error-unknown-action": "$1: Njeznata akcija",
+	"multimaps-method-error-unexpected-result": "$1: Njewočakowany wuslědk funkcije"
+}

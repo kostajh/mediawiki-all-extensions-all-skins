@@ -1,0 +1,71 @@
+{
+	"name": "BlueSpiceSocialTimelineUpdate",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:SocialTimelineUpdate",
+	"author": "Josef Konrad",
+	"descriptionmsg": "bs-socialtimelineupdate-desc",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceSocial": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceSocialTimelineUpdate": {
+					"className": "\\BlueSpice\\Social\\TimelineUpdate\\Extension",
+					"extPath": "/BlueSpiceSocialTimelineUpdate",
+					"status": "beta",
+					"package": "BlueSpiceSocial"
+				}
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceSocialTimelineUpdate": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Social\\TimelineUpdate\\": "src/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.social.timelineupdate.styles": {
+			"styles": [
+				"bluespice.social.timelineupdate.less"
+			]
+		},
+		"ext.bluespice.social.timelineupdate.templates": {
+			"templates": [
+				"BlueSpiceSocialTimelineUpdate.UpdateButton.mustache"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\Templates"
+		},
+		"ext.bluespice.social.timelineupdate": {
+			"dependencies": [
+				"ext.bluespice.social.timeline",
+				"ext.bluespice.social.timelineupdate.templates"
+			],
+			"scripts": [
+				"bluespice.social.timelineupdate.js",
+				"EntityListMenu/Button/Update.js"
+			],
+			"messages": [
+				"bs-socialtimelineupdate-update-button-tooltip"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceSocialTimelineUpdate/resources"
+	},
+	"Hooks": {
+		"BSSocialModuleDepths": "\\BlueSpice\\Social\\TimelineUpdate\\Hook\\BSSocialModuleDepths\\AddModules::callback",
+		"BsAdapterAjaxPingResult": "\\BlueSpice\\Social\\TimelineUpdate\\Hook\\BsAdapterAjaxPingResult\\CheckUpdate::callback"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"F.trott"
+		]
+	},
+	"semanticpageseries-desc": "Creating a series of pages from one [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Page Form]",
+	"spssuccesstitle": "Creating $1 pages",
+	"spssuccess": "{{PLURAL:$1|One page|$1 pages}} will be created.",
+	"spssuccess-returntoorigin": "Return to $1",
+	"spserror": "An error occurred",
+	"spserror-diffnotsupported": "The diff action is not supported for page series.",
+	"spserror-previewnotsupported": "The preview action is not supported for page series.",
+	"spserror-noiteratorname": "No iterator specified. You have to set the parameter \"iterator\" in the #serieslink parser function call.",
+	"spserror-iteratorunknown": "Iterator \"$1\" does not exist. You have to correct the parameter \"iterator\" in the #serieslink parser function call.",
+	"spserror-noformname": "No form name given. You have to set the parameter \"form\" in the #serieslink parser function.",
+	"spserror-formunknown": "Form \"$1\" does not exist.",
+	"spserror-notargetformname": "No target form name given. You have to set the parameter \"target form\" in the #serieslink parser function call.",
+	"spserror-notargetfieldname": "No target field name given. You have to set the parameter \"target field\" in the #serieslink parser function call.",
+	"spserror-iteratorparammissing": "The following iterator parameters are missing in the #serieslink call:\n$1",
+	"spserror-noiteratordata": "No iterator parameters found in the sent data.",
+	"spserror-pagegenerationlimitexeeded": "You tried to generate {{PLURAL:$1|one page|$1 pages}}. This exceeds your allowed limit of {{PLURAL:$2|one page|$2 pages}}.",
+	"spserror-date-startdatemissing": "The start date is missing.",
+	"spserror-date-internalerror": "An error occurred while creating the dates: $1",
+	"spserror-count-startvaluemalformed": "The start value is not a number.",
+	"spserror-count-endvaluemalformed": "The end value is not a number.",
+	"spserror-count-stepvaluemalformed": "The step value is not a number.",
+	"spserror-count-digitsvaluemalformed": "The digits value is not a number."
+}

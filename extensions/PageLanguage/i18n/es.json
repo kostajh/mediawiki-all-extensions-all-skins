@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"pagelanguage-desc": "Definir el idioma de la página por cada página",
+	"pagelanguage-invalid": "'''Aviso:''' Se ha ignorado el código de idioma no válido «$1» al definir el idioma de la página.",
+	"pagelanguage-duplicate": "'''Aviso:''' El idioma «$2» anula la selección de idioma anterior «$1»."
+}

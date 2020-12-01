@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent",
+			"Eduardo.mps",
+			"Raylton P. Sousa",
+			"TheEduGobi"
+		]
+	},
+	"security": "Registro de segurança",
+	"security-desc": "Extende a proteção de páginas do MediaWiki permitindo a restrição de visualização de conteúdo da página",
+	"security-logpage": "Registro de segurança",
+	"security-logpagetext": "Este é um registro de ações bloqueadas pela [https://www.mediawiki.org/wiki/Extension:SimpleSecurity extensão SimpleSecurity].",
+	"badaccess-read": "Aviso: \"$1\" se refere à esta página, mas você não tem permissões suficientes para acessá-la.",
+	"security-info": "Há $1 nesta página",
+	"security-info-toggle": "restrições de segurança",
+	"security-inforestrict": "$1 é restrita a $2",
+	"security-desc-LS": "(aplica-se porque esta página está em $1 \"$2\")",
+	"security-desc-PR": "(definido a partir da \"aba proteger\")",
+	"security-infosysops": "Nenhuma restrição está em vigor, porque você é um membro do grupo \"sysop\"",
+	"security-manygroups": "grupos $1 e $2",
+	"security-unchain": "Modificar ações individualmente",
+	"security-type-category": "a categoria",
+	"security-type-namespace": "o domínio",
+	"security-restricttogroup": "Acessar conteúdo restrito a membros de \"$1\"",
+	"restriction-read": "Ler"
+}

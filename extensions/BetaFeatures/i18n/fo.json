@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"EileenSanda"
+		]
+	},
+	"betafeatures-auto-enroll": "Aktivera sjálvvirkandi allar nýggjar betafunksjónir",
+	"betafeatures-desc": "Loyvir brúkara at gera funksjónir, sum enn ikki eru heilt klárar, virknar ella óvirknar á wikiini.",
+	"betafeatures-extension-type": "Betafunktiónir",
+	"betafeatures-toplink": "Beta",
+	"mw-ui-feature-discuss": "kjak",
+	"mw-ui-feature-info": "kunning",
+	"mw-ui-feature-requirements-javascript": "Henda funksjónin krevur JavaScript.",
+	"mw-ui-feature-requirements-skins": "Henda funktiónin virkar bert við {{PLURAL:$1|hesari útsjóndini|fylgjandi útsjóndum}}:",
+	"mw-ui-feature-user-count": "{{PLURAL:$1|Ein brúkari|$1 brúkarar|0=Ongir brúkarar}} royna hesa funksjónina.",
+	"prefs-betafeatures": "Betafunktiónir",
+	"tooltip-pt-betafeatures": "Betafunktiónir"
+}

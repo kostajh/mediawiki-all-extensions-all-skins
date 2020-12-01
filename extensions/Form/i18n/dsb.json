@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"form-desc": "[[Special:Form|Formular]] za napóranje nowych bokow",
+	"form": "Formular",
+	"form-no-name": "Žedno formularowe mě",
+	"form-no-name-text": "Musyš formularowe mě pódaś, na pś. \"Special:Form/Měformulara\".",
+	"form-bad-name": "Wopacne formularowe mě",
+	"form-bad-name-text": "Njejo formular z tym mjenim.",
+	"form-pattern": "$1-formular",
+	"form-save": "Składowaś",
+	"form-index-mismatch-title": "Mjenjowy muster a pśedłog se njewótpowědujotej",
+	"form-index-mismatch": "Toś ten formular ma njejadnake mjenjowe mustry a pśedłogi, zachopinajucy se wót indeksa $1.",
+	"form-article-exists": "Bok eksistěrujo",
+	"form-article-existstext": "bok [[$1]] južo eksistěrujo.",
+	"form-bad-page-name": "Wopacne mě boka",
+	"form-bad-page-name-text": "Formularne daty, kótarež sy zapódał, napóraju njepłaśiwe mě boka, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|Pólo $1 jo trěbne|Póli $1 stej trěbnej|Póla $1 su trěbne|Póla $1 su trěbne}} za toś ten fromular.\nPšosym wupołń {{PLURAL:$2|jo|jej|je|je}}.",
+	"form-save-summary": "Nowy bok z pomocu [[Special:Form/$1|formulara $1]]",
+	"form-save-error": "Zmólka pśi składowanju formulara",
+	"form-save-error-text": "Njeznata zmólka jo nastała pśi składowanju boka '$1'."
+}

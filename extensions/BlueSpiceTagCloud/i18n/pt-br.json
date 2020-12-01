@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-tagcloud-desc": "Exibe várias nuvens de etiquetas",
+	"bs-tagcloud-error-tagtype": "O valor determinado \"$1\" não é um repositório válido.",
+	"bs-tagcloud-error-tagrenderer": "O valor determinado \"$1\" não é um renderizador válido.",
+	"bs-tagcloud-tag-tagcloud-name": "Nuvem de etiquetas",
+	"bs-tagcloud-tag-tagcloud-title": "Nuvem de etiquetas",
+	"bs-tagcloud-tag-tagcloud-desc": "Processa uma nuvem de etiquetas com base em categorias ou termos de pesquisa",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Tipo",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "Selecione como a nuvem de etiquetas deve ser renderizada",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Texto",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "Lista",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "História",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "Selecione quais dados usar",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Categorias",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Termos de pesquisa",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Largura",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "Largura da nuvem de etiquetas em porcentagem",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "Mostrar contagem",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "Exibe o número de itens entre parênteses",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Tamanho mínimo da fonte",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-help": "Tamanho da fonte para a entrada com o menor número de itens",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Tamanho máximo da fonte",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-help": "Tamanho da fonte para a entrada com mais itens",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Excluir páginas",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "Não mostrar estas páginas na nuvem de etiquetas. Para especificar mais páginas, use uma lista separada por vírgulas; por exemplo, \"Página principal, Teste, AMinhaPágina\""
+}

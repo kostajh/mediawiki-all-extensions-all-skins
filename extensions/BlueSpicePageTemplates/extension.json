@@ -1,0 +1,164 @@
+{
+	"name": "BlueSpicePageTemplates",
+	"license-name" : "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:PageTemplates",
+	"author": [
+		"Markus Glaser",
+		"Stephan Muggli"
+	],
+	"descriptionmsg": "bs-pagetemplates-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpicePageTemplates": {
+					"className": "\\BlueSpice\\PageTemplates\\Extension",
+					"extPath": "/BlueSpicePageTemplates",
+					"configDefinitions": {
+						"PageTemplatesForceNamespace": "\\BlueSpice\\PageTemplates\\ConfigDefinition\\PageTemplatesForceNamespace::getInstance",
+						"PageTemplatesHideDefaults": "\\BlueSpice\\PageTemplates\\ConfigDefinition\\PageTemplatesHideDefaults::getInstance",
+						"PageTemplatesHideIfNotInTargetNs": "\\BlueSpice\\PageTemplates\\ConfigDefinition\\PageTemplatesHideIfNotInTargetNS::getInstance"
+					}
+				}
+			},
+			"TagRegistry": {
+				"pagetemplates": "\\BlueSpice\\PageTemplates\\Tag\\PageTemplates"
+			},
+			"AdminToolRegistry": {
+				"bs-pagetemplates": "BlueSpice\\PageTemplates\\AdminTool"
+			},
+			"PermissionRegistry": {
+				"pagetemplatesadmin-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin",
+						"structuremanager"
+					]
+				}
+			}
+		}
+	},
+	"GroupPermissions": {
+		"*": {
+			"pagetemplatesadmin-viewspecialpage": false
+		},
+		"user": {
+			"pagetemplatesadmin-viewspecialpage": false
+		},
+		"sysop": {
+			"pagetemplatesadmin-viewspecialpage": true
+		}
+	},
+	"AvailableRights": [
+		"pagetemplatesadmin-viewspecialpage"
+	],
+	"APIModules": {
+		"bs-pagetemplates-store": "BSApiPageTemplatesStore",
+		"bs-pagetemplates-tasks": "BSApiPageTemplatesTasks"
+	},
+	"MessagesDirs": {
+		"PageTemplates": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\PageTemplates\\": "src/"
+	},
+	"AutoloadClasses": {
+		"BSApiPageTemplatesStore": "includes/api/BSApiPageTemplatesStore.php",
+		"BSApiPageTemplatesTasks": "includes/api/BSApiPageTemplatesTasks.php",
+		"SpecialPageTemplatesAdmin": "includes/specials/SpecialPageTemplatesAdmin.php",
+		"BSPageTemplateList": "includes/BSPageTemplateList.php",
+		"BSPageTemplateListRenderer": "includes/BSPageTemplateListRenderer.php",
+		"BSTransformNSData": "maintenance/BSTransformNSData.php"
+	},
+	"TestAutoloadClasses": {
+		"BSPageTemplateFixtures": "tests/phpunit/utility/BSPageTemplateFixtures.php"
+	},
+	"ExtensionMessagesFiles": {
+		"PageTemplatesAdminAlias": "includes/specials/SpecialPageTemplatesAdmin.alias.php"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"PageTemplatesExcludeNs": {
+			"value": [
+				-2, -1, 6, 7, 8, 9,10,11,14,15
+			]
+		},
+		"PageTemplatesForceNamespace": {
+			"value": false,
+			"descriptionmsg": "bs-pagetemplates-pref-forcenamespace",
+			"public": true
+		},
+		"PageTemplatesHideIfNotInTargetNs": {
+			"value": true,
+			"descriptionmsg": "bs-pagetemplates-pref-hideifnotintargetns",
+			"public": true
+		},
+		"PageTemplatesHideDefaults": {
+			"value": false,
+			"descriptionmsg": "bs-pagetemplates-pref-hidedefaults",
+			"public": true
+		}
+	},
+	"SpecialPages": {
+		"PageTemplatesAdmin": "SpecialPageTemplatesAdmin"
+	},
+	"ResourceModules": {
+		"ext.bluespice.pageTemplates": {
+			"scripts": "bluespice.pageTemplates.js",
+			"dependencies": "ext.bluespice.extjs",
+			"messages": [
+				"bs-pagetemplates-headerlabel",
+				"bs-pagetemplates-headertargetnamespace",
+				"bs-pagetemplates-tipeditdetails",
+				"bs-pagetemplates-tipdeletetemplate",
+				"bs-pagetemplates-tipaddtemplate",
+				"bs-pagetemplates-label-tpl",
+				"bs-pagetemplates-label-desc",
+				"bs-pagetemplates-label-targetns",
+				"bs-pagetemplates-label-article",
+				"bs-pagetemplates-confirm-deletetpl",
+				"bs-pagetemplates-remove-message-unknown",
+				"bs-pagetemplates-remove-message-success",
+				"bs-pagetemplates-remove-message-failure"
+			]
+		},
+		"ext.bluespice.pageTemplates.tag": {
+			"scripts": "bluespice.pageTemplates.tag.js"
+		},
+		"ext.bluespice.pageTemplates.styles": {
+			"styles": "bluespice.pageTemplates.less",
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpicePageTemplates/resources"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": [
+			"\\BlueSpice\\PageTemplates\\Hook\\LoadExtensionSchemaUpdates\\AddPageTemplateTable::callback"
+		],
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\PageTemplates\\Hook\\BSUsageTrackerRegisterCollectors\\AddPageTemplatesTag::callback",
+		"NamespaceManager::getMetaFields": "BlueSpice\\PageTemplates\\Hook\\NamespaceManagerGetMetaFields\\RegisterMetaField::callback",
+		"BSApiNamespaceStoreMakeData": "BlueSpice\\PageTemplates\\Hook\\BSApiNamespaceStoreMakeData\\AddData::callback",
+		"NamespaceManager::editNamespace": "BlueSpice\\PageTemplates\\Hook\\NamespaceManagerEditNamespace\\SetPageTemplateValues::callback",
+		"NamespaceManager::writeNamespaceConfiguration": [
+			"BlueSpice\\PageTemplates\\Hook\\NamespaceManagerWriteNamespaceConfiguration\\WriteToConfiguration::callback"
+		],
+		"HtmlPageLinkRendererBegin": "\\BlueSpice\\PageTemplates\\Extension::onHtmlPageLinkRendererBegin",
+		"MessagesPreLoad":"\\BlueSpice\\PageTemplates\\Extension::onMessagesPreLoad",
+		"MediaWikiPerformAction": "\\BlueSpice\\PageTemplates\\Hook\\MediaWikiPerformAction\\PreventEditMode::callback"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

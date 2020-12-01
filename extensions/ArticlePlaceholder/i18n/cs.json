@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cvanca",
+			"Dvorapa",
+			"Mormegil"
+		]
+	},
+	"createtopicpage": "Tvorba stránky",
+	"articleplaceholder-desc": "Poskytuje speciální stránku s informacemi z {{grammar:2sg|{{WBREPONAME}}}} o nějakém tématu s výzvou k založení článku na dané téma",
+	"articleplaceholder-abouttopic": "O tématu",
+	"articleplaceholder-abouttopic-intro": "Tato speciální stránka vám poskytne rychlý přehled tématu na základě dat z {{grammar:2sg|{{WBREPONAME}}}}.",
+	"articleplaceholder-abouttopic-entityid": "Zadejte ID položky, např. Q12345",
+	"articleplaceholder-abouttopic-submit": "sestavit",
+	"articleplaceholder-abouttopic-no-entity-error": "Toto není platné ID položky.",
+	"articleplaceholder-abouttopic-create-article-title": "Vytvořte nový článek",
+	"articleplaceholder-abouttopic-create-article-label": "Název článku",
+	"articleplaceholder-abouttopic-create-article-mandatory": "Název článku je povinný.",
+	"articleplaceholder-abouttopic-create-article-button": "Vytvořit článek",
+	"articleplaceholder-abouttopic-create-empty-article-button": "Začít nový článek",
+	"articleplaceholder-abouttopic-translate-article-label": "Zdrojový jazyk:",
+	"articleplaceholder-abouttopic-translate-article-button": "Přeložit článek",
+	"articleplaceholder-abouttopic-create-article-submit-button": "Odeslat",
+	"articleplaceholder-abouttopic-article-exists-error": "Článek s tímto jménem již existuje",
+	"articleplaceholder-abouttopic-lua-entity": "Entita",
+	"articleplaceholder-abouttopic-lua-reference": "Reference",
+	"articleplaceholder-abouttopic-lua-identifier": "Externí zdroje",
+	"articleplaceholder-search-header": "Objevte data na toto téma",
+	"articleplaceholder-createpage-title": "Tvorba $1",
+	"articleplaceholder-createpage-alreadyexists": "Stránka s názvem $1 již existuje. Prosím, zvolte jiný.",
+	"articleplaceholder-createpage-notitleprovided": "Žádný název nebyl zadán, prosím, vložte název stránky, kterou chcete vytvořit.",
+	"articleplaceholder-createpage-invalidtitleprovided": "Název, který jste {{GENDER:|zadal|zadala|zadal(a)}}, je chybný. Prosím, zadejte správný."
+}

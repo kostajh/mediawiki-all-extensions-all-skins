@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"markashelpful-desc": "Yorumları yararlı olarak işaretlemek için bir kullanıcı arabirimi sağlar",
+	"mah-mark-text": "Yararlı olarak işaretle",
+	"mah-you-marked-text": "Bunun yararlı olduğunu düşünüyorsun",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 bunun yararlı olduğunu düşünüyor}}",
+	"mah-undo-mark-text": "geri al",
+	"mah-action-error": "Bu eylem gerçekleştirilirken bir hata oluştu",
+	"apihelp-getmarkashelpfulitem-description": "Bir nesne öğesi için tüm yararlı durumların bir listesini alın.",
+	"apihelp-getmarkashelpfulitem-summary": "Bir nesne öğesi için tüm yararlı durumların bir listesini alın.",
+	"apihelp-getmarkashelpfulitem-param-type": "Yararlı olarak işaretlenen nesne türü.",
+	"apihelp-getmarkashelpfulitem-param-item": "Yararlı olarak işaretlenen nesne türü.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Hangi özelliği alacaksınız.",
+	"apihelp-getmarkashelpfulitem-param-page": "Öğeyi isteyen sayfa.",
+	"apihelp-markashelpful-description": "Kullanıcıların sitedeki bir nesne öğesini yararlı olarak işaretlemesine veya işaretini kaldırmasına izin verir.",
+	"apihelp-markashelpful-summary": "Kullanıcıların sitedeki bir nesne öğesini yararlı olarak işaretlemesine veya işaretini kaldırmasına izin verir.",
+	"apihelp-markashelpful-param-mahaction": "Bir öğeyi yararlı olarak işaretlemek veya işaretini kaldırmak.",
+	"apihelp-markashelpful-param-page": "İşaretlenecek öğenin üzerinde bulunduğu sayfa.",
+	"apihelp-markashelpful-param-type": "Yararlı olarak işaretlenen nesne türü.",
+	"apihelp-markashelpful-param-item": "Yararlı olarak işaretlenen nesne türü.",
+	"apihelp-markashelpful-param-useragent": "Tarayıcının User-Agent başlığı.",
+	"apihelp-markashelpful-param-system": "Kullanılan işletim sistemi.",
+	"apihelp-markashelpful-param-locale": "Kullanılan yerel ayar."
+}

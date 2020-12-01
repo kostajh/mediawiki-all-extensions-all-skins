@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Huñvreüs",
+			"Y-M D"
+		]
+	},
+	"openstackmanager-desc": "Lezel a ra an implijerien da verañ Nova ha Swift",
+	"openstackmanager": "Merour OpenStack",
+	"novakey": "Merañ hoc'h alc'hwezhioù foran SSH",
+	"specialpages-group-nova": "Nova OpenStack",
+	"openstackmanager-novakey": "Alc'hwez Nova",
+	"openstackmanager-delete": "diverkañ",
+	"openstackmanager-actions": "Oberiadennoù",
+	"openstackmanager-notloggedin": "Ret eo kevreañ",
+	"openstackmanager-mustbeloggedin": "Ret deoc'h bezañ kevreet evit kas da benn an oberiadenn-mañ.",
+	"openstackmanager-novapublickey": "Alc'hwez foran SSH",
+	"openstackmanager-prefs-novapublickey": "Alc'hwezioù foran SSH :",
+	"openstackmanager-deletekey": "Diverkañ an alc'hwez foran SSH",
+	"openstackmanager-deletekeyconfirm": "Ha sur oc'h hoc'h eus c'hoant da zilemel an alc'hwez a-us ?",
+	"openstackmanager-keylist": "Roll an alc'hwezioù foran SSH",
+	"openstackmanager-addkey": "Ouzhpennañ un alc'hwez foran SSH",
+	"openstackmanager-name": "Anv",
+	"openstackmanager-fingerprint": "Roudoù-bizied",
+	"openstackmanager-keys": "Alc'hwezioù",
+	"openstackmanager-keypairimportfailed": "Dibosupl enporzhiañ an daouad alc'hwezioù.",
+	"openstackmanager-keypairimported": "Daouad alc'hwezioù enporzhiet.",
+	"openstackmanager-keypairimportedfingerprint": "Enporzhiet an daouad alc'hwezioù $1, gant roudoù bizied $2.",
+	"openstackmanager-keypairformatwrong": "Direizh e oa an alc'hwez SSH pourchaset, pe en ur furmad dianav.",
+	"openstackmanager-deletedkey": "Diverket eo bet an alc'hwez ervat.",
+	"openstackmanager-deletedkeyfailed": "N'eus ket bet gallet diverkañ an alc'hwez.",
+	"openstackmanager-shellaccountname": "Anv ar gont shell evit an urzhiataer galloudel",
+	"openstackmanager-shellaccountnamehelp": "Rankout a ra anv ar gont shell kregiñ gant ul lizherenn (a-z), ha bezañ ennañ lizherennoù (a-z), sifroù (0-9), ha tiredoù (- pe _) hepken.",
+	"prefs-openstack-keys": "Roll an alc'hwezioù"
+}

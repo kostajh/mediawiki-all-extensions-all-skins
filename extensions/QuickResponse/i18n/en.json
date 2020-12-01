@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"konarak"
+		]
+	},
+	"quickresponse-desc": "Generates a QR code for the URL for the current page",
+	"quickresponse-text": "QR code",
+	"quickresponse-tooltip": "Generate a QR code for the current URL",
+	"quickresponse-title": "Here's your QR code!"
+}

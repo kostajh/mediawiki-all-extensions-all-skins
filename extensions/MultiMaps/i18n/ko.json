@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Priviet",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"multimaps-desc": "사용자가 다중 매핑 서비스를 사용하는 좌표 데이터와 지도를 표시하도록 하기",
+	"multimaps-loading-map": "지도를 불러오는 중...",
+	"multimaps-mapservices-must-not-empty-array": "\"$1\" 변수가 빈 배열이 아니어야 합니다",
+	"multimaps-had-following-errors": "구문 분석하는 동안 전달된 변수가 다음 오류를 일으켰습니다:",
+	"multimaps-element-illegal-value": "\"$1\" 변수가 잘못된 \"$2\" 값을 지정했습니다. 올바른 값은: $3",
+	"multimaps-element-more-parameters": "이 지도 요소 \"$1\"가 예상보다 더 많은 매개변수를 전달했습니다:",
+	"multimaps-element-parameters-not-processed": "다음 매개변수는 처리되지 않았습니다: $1",
+	"multimaps-circle-radius-not-defined": "원은 반드시 반지름을 정의해야 합니다",
+	"multimaps-circle-wrong-number-parameters": "원은 중심과 반지름의 좌표, 단 두 개의 매개변수로 정의해야 하지만 {{PLURAL:$1|하나의 매개변수|$1개의 매개변수}}가 지정됐습니다.",
+	"multimaps-marker-incorrect-icon": "정확하지 않은 파일 이름 \"$1\" 값이 마커 아이콘에 입력됐습니다.",
+	"multimaps-marker-incorrect-icon-url": "정확하지 않은 URL \"$1\" 값이 마커 아이콘에 입력됐습니다.",
+	"multimaps-marker-incorrect-icon-size": "정확하지 않은 크기 \"$1\"가 \"$2\" 값의 마커 아이콘에 입력됐습니다.",
+	"multimaps-marker-incorrect-icon-anchor": "정확하지 않은 앵커 \"$1\"가 마커 아이콘 \"$2\" 값에 입력됐습니다.",
+	"multimaps-marker-incorrect-shadow-file": "정확하지 않은 파일 이름 \"$1\" 값이 아이콘 섀도우에 입력됐습니다.",
+	"multimaps-marker-incorrect-shadow-url": "정확하지 않은 URL \"$1\"이 아이콘 섀도우에 입력됐습니다.",
+	"multimaps-marker-incorrect-shadow-size": "정확하지 않은 크기 \"$1\"가 아이콘 섀도우 \"$2\" 값에 입력됐습니다.",
+	"multimaps-marker-incorrect-shadow-anchor": "정확하지 않은 앵커 \"$1\"이 아이콘 섀도 \"$2\"에 입력됐습니다.",
+	"multimaps-passed-unavailable-service": "\"$1\" 서비스 이름을 사용할 수 있는 서비스($2) 목록에서 찾을 수 없습니다. \"$3\" 기본 서비스가 사용됩니다",
+	"multimaps-square-wrong-number-points": "사각형의 좌표는 단 두 개의 점을 포함해야 하지만 {{PLURAL:$1|한 점|$1개의 점}}을 지정했습니다.",
+	"multimaps-unable-create-element": "지도 요소 \"$1\"을 찾을 수 없습니다",
+	"multimaps-unable-parse-coordinates": "지리 좌표 \"$1\"을 구문 분석할 수 없습니다",
+	"multimaps-unable-parse-parameter": "변수 \"$1\" 값인 \"$2\"을 구문 분석을 할 수 없습니다",
+	"multimaps-unable-parse-radius": "원의 반지름은 숫자 값이어야 하지만 \"$1\"을 지정했습니다",
+	"multimaps-unknown-class-for-service": "서비스로 지정된 \"$1\" 클래스를 찾을 수 없습니다.",
+	"multimaps-unknown-parameter": "알 수 없는 변수: \"$1\"",
+	"multimaps-error-incorrect-class-for-service": "서비스로 지정된 \"$1\" 클래스를 사용할 수 없습니다.",
+	"multimaps-method-error-unknown-action": "$1: 알 수 없는 명령",
+	"multimaps-method-error-unexpected-result": "$1: 함수의 예기치 못한 결과"
+}

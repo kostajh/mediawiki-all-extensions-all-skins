@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alirezaaa",
+			"Amirsara",
+			"FarsiNevis",
+			"Rtemis"
+		]
+	},
+	"bs-articleinfo-desc": " اطلاعاتی را درباره یک صفحه در نوار وضعیت نشان می‌دهد",
+	"prefs-articleinfo": "اطلاعات صفحه",
+	"bs-articleinfo-pref-CheckRevisionInterval": "بازهٔ روزآمدسازی بر حسب ثانیه:",
+	"bs-articleinfo-flyout-title": "اطلاعات صفحه",
+	"bs-articleinfo-nav-link-title": "اطلاعات صفحه",
+	"bs-articleinfo-flyout-categorylinks-title": "رده‌ها",
+	"bs-articleinfo-flyout-templatelinks-title": "الگوهای به کار رفته در صفحه",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "هیچ الگویی به کار نرفته است",
+	"bs-articleinfo-flyout-lasteditedtime-text": "آخرین ویرایش",
+	"bs-articleinfo-flyout-lastediteduser-text": "آخرین ویرایشگر",
+	"bs-articleinfo-newrevision-info-text": "نسخهٔ تازه‌ای از این صفحه موجود است. لطفاً برای مشاهدهٔ محتوای نسخهٔ کنونی آن، صفحه را از نو بارگیری کنید.",
+	"bs-articleinfo-newrevision-info-text-reload": "نسخهٔ تازه‌ای از این صفحه موجود است. لطفاً برای مشاهدهٔ محتوای نسخهٔ کنونی آن، صفحه را از نو [[:$1|بارگیری کنید]].",
+	"bs-articleinfo-flyout-subpages-title": "زیرصفحه‌ها",
+	"bs-articleinfo-pagetool-subpages-tooltip": "زیرصفحه‌ها",
+	"bs-articleinfo-dialog-subpages-title": "زیرصفحه‌ها"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Zoranzoki21"
+		]
+	},
+	"countDownClock-desc": "Додаје функцију рашчлањивања за приказ времена одбројавања",
+	"countDownClock-invalidtime": "Пружите важећи endTime параметар",
+	"countDownClock-days": "$1 {{PLURAL:$1|дан|дана}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|сат|сата|сати}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|минут|минута}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|секунд|секунде|секунди}}",
+	"countDownClock-expired": "Истекло"
+}

@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"purgeclickthrough-desc": "改以點選方式，而不要重新導向到 ?action=purge 頁面（用於除錯目的）"
+}

@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"multimaps-desc": "Permite que os usuários apresentem mapas e coordenadas usando vários serviços cartográficos",
+	"multimaps-loading-map": "Carregando mapa...",
+	"multimaps-mapservices-must-not-empty-array": "A variável \"$1\" não pode ser uma matriz vazia",
+	"multimaps-undefined-service-for-layout": "Parâmetro de serviço indefinido para o layout \"$1\" em $egMultiMaps_MapServices",
+	"multimaps-wrong-service-for-layout": "Para o layout \"$1\" serviço definido \"$2\", mas não existe em $egMultiMaps_MapServices",
+	"multimaps-layout-defined-for-layout": "Para o layout \"$1\" definido outro layout \"$2\" em vez de serviço em $egMultiMaps_MapServices",
+	"multimaps-leaflet-undefined-parameters-for-layer": "Os parâmetros \"source\" e \"attribution\" devem ser fornecidos para a camada \"$1\" em $egMultiMaps_MapServices",
+	"multimaps-had-following-errors": "Durante a análise sintática os parâmetros fornecidos tinham os seguintes erros:",
+	"multimaps-element-illegal-value": "no parâmetro \"$1\" foi especificado o valor não permitido \"$2\". Os valores válidos são: $3",
+	"multimaps-element-more-parameters": "Para o elemento \"$1\" do mapa foram passados mais parâmetros do que eram esperados:",
+	"multimaps-element-parameters-not-processed": "os seguintes parâmetros não foram processados: $1",
+	"multimaps-circle-radius-not-defined": "para a circunferência, tem de ser definido o raio",
+	"multimaps-circle-wrong-number-parameters": "para a circunferência devem ser definidos só dois parâmetros, as coordenadas do centro e o raio, mas {{PLURAL:$1|foi especificado um parâmetro|foram especificados $1 parâmetros}}",
+	"multimaps-marker-incorrect-icon": "Foi fornecido um nome de arquivo incorreto, \"$1\", para o ícone do marcador.",
+	"multimaps-marker-incorrect-icon-url": "Foi fornecido um URL incorreto, \"$1\", para o ícone do marcador.",
+	"multimaps-marker-incorrect-icon-size": "Foi fornecido um tamanho incorreto, \"$1\", para o ícone do marcador \"$2\".",
+	"multimaps-marker-incorrect-icon-anchor": "Foi fornecida uma âncora incorreta, \"$1\", para o ícone do marcador \"$2\".",
+	"multimaps-marker-incorrect-shadow-file": "Foi fornecido um nome de arquivo incorreto, \"$1\", para a sombra do ícone.",
+	"multimaps-marker-incorrect-shadow-url": "Foi fornecido um URL incorreto, \"$1\", para a sombra do ícone.",
+	"multimaps-marker-incorrect-shadow-size": "Foi fornecido um tamanho incorreto, \"$1\", para a sombra do ícone \"$2\".",
+	"multimaps-marker-incorrect-shadow-anchor": "Foi fornecida uma âncora incorreta, \"$1\", para a sombra do ícone \"$2\".",
+	"multimaps-passed-unavailable-service": "O nome do serviço \"$1\" não foi encontrado na lista dos serviços disponíveis ($2). Foi usado o serviço padrão \"$3\"",
+	"multimaps-square-wrong-number-points": "as coordenadas do quadrado devem conter só dois pontos, mas {{PLURAL:$1|foi especificado um ponto|foram especificados $1 pontos}}",
+	"multimaps-unable-create-element": "O elemento \"$1\" do mapa não pode ser criado",
+	"multimaps-unable-parse-coordinates": "não foi possível fazer a análise sintática das coordenadas geográficas \"$1\"",
+	"multimaps-unable-parse-parameter": "não foi possível fazer a análise sintática do parâmetro \"$1\"; o valor é \"$2\"",
+	"multimaps-unable-parse-radius": "o raio da circunferência tem de ser um valor numérico, mas foi especificado o valor \"$1\"",
+	"multimaps-unknown-class-for-service": "A classe \"$1\" que está definida para o serviço não foi encontrada.",
+	"multimaps-unknown-parameter": "Parâmetro desconhecido: \"$1\"",
+	"multimaps-error-incorrect-class-for-service": "A classe \"$1\" que está definida para o serviço não pode ser usada.",
+	"multimaps-method-error-unknown-action": "$1: Ação desconhecida",
+	"multimaps-method-error-unexpected-result": "$1: Resultado inesperado de uma função"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck",
+			"Renessaince",
+			"Vlad5250"
+		]
+	},
+	"formwizard": "FormWizard",
+	"formwizard-desc": "Дазваляе вам усталяваць і ўжываць гаджэт FormWizard у Mediawiki.",
+	"formwizard-dialog-label-cancel": "Скасаваць",
+	"formwizard-dialog-label-done": "Зроблена",
+	"formwizard-dialog-label-next": "Далей",
+	"special-formwizard-intro": "FormWizard",
+	"special-formwizard-title": "Гэта ўводзіны да спэцыяльнай старонкі майстра формаў.",
+	"formwizard-no-subpage-name-alert": "Калі ласка, скажыце нам, як назваць вашую старонку",
+	"formwizard-page-edit-summary": "Мадыфікацыя зробленая $1",
+	"formwizard-page-action-complete": "Дзеяньне $1 выкананае",
+	"formwizard-subpage-request-text": "<strong> Увядзіце назву падстаронкі:</strong>",
+	"formwizard-wrong-config-file-alert": "Калі ласка, праверце налады канфігурацыі!"
+}

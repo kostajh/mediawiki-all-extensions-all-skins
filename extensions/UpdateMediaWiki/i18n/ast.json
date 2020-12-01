@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"updatemediawiki": "Anovamientu de MediaWiki",
+	"updatemediawiki-desc": "Permite actualizar MediaWiki dende una páxina especial.",
+	"updatemediawiki-current": "Versión actual $1",
+	"updatemediawiki-update-nofound": "Nun hai actualizaciones disponibles",
+	"updatemediawiki-update-found": "Atopóse una actualización: $1",
+	"updatemediawiki-update-downloading": "Descargando l'actualización",
+	"updatemediawiki-update-saved": "Actualización descargada y guardada",
+	"updatemediawiki-update-exist": "L'actualización yá se descargó",
+	"updatemediawiki-update-copyready": "Copia llista",
+	"updatemediawiki-update-database": "¿Actualizar agora la base de datos?",
+	"updatemediawiki-update-updateready": "Actualización llista",
+	"updatemediawiki-update-install": "¿Instalala agora?",
+	"updatemediawiki-update-updated": "MediaWiki actualizóse a la versión $1",
+	"updatemediawiki-update-error": "Nun pudieron alcontrase les últimes actualizaciones",
+	"updatemediawiki-update-aborted": "Nun pudo guardase l'actualización. Atayóse la operación"
+}

@@ -1,0 +1,60 @@
+{
+	"name": "LDAPGroups",
+	"version": "1.0.3",
+	"author": [
+		"Cindy Cicalese",
+		"[https://mediawiki.org/wiki/User:MarkAHershberger Mark A. Hershberger]",
+		"[https://mediawiki.org/wiki/User:Osnard Robert Vogel]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LDAPGroups",
+	"descriptionmsg": "ldapgroups-desc",
+	"license-name": "GPL-2.0",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"LDAPProvider": "~1.0"
+		}
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\LDAPGroups\\" : "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extension\\LDAPGroups\\Tests\\" : "tests/phpunit/"
+	},
+	"MessagesDirs": {
+		"LDAPGroups": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"UserLoadAfterLoadFromSession": "MediaWiki\\Extension\\LDAPGroups\\Hook\\UserLoadAfterLoadFromSession\\SyncUserGroupsAfterLoadSession::callback"
+	},
+	"config_prefix": "LDAPGroups",
+	"config": {
+		"SyncMechanismRegistry": {
+			"value": {
+				"mappedgroups": "MediaWiki\\Extension\\LDAPGroups\\SyncMechanism\\MappedGroups::factory",
+				"allgroups": "MediaWiki\\Extension\\LDAPGroups\\SyncMechanism\\AllGroups::factory"
+			},
+			"description": "Allows registration of custom group sync mechanisms"
+		}
+	},
+	"attributes": {
+		"LDAPProvider": {
+			"DefaultSettings": {
+				"groupsync": {
+					"mechanism": "mappedgroups",
+
+					"@locally-managed": "Only evaluated if 'allgroups' sync is used",
+					"locally-managed": [ "sysop", "bureaucrat", "bot" ],
+
+					"@mapping": "Only evaluated if 'mappedgroups' sync is used",
+					"mapping": []
+				}
+			}
+		}
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

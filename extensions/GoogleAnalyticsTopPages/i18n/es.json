@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"apihelp-googlepagestatsupdate-param-key": "Valor de [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Actualiza la lista de las páginas principales (propulsada por los datos que brinda Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Actualiza la lista de las páginas principales (propulsada por los datos que brinda Google Analytics)."
+}

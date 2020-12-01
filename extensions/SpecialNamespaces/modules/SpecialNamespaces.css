@@ -1,0 +1,24 @@
+
+/**
+ * CSS for Special:Namespaces
+ */
+
+table.mw-namespacestable.intro th  {
+    padding-right:  1.4ex;
+    vertical-align: top;
+}
+
+table.mw-namespacestable.intro th.mw-align-left  {
+    text-align: left;
+}
+
+table.mw-namespacestable.intro th.mw-align-right  {
+    text-align: right;
+}
+
+table.mw-namespacestable.body td.mw-namespacestable-default,
+table.mw-namespacestable.body td.mw-namespacestable-canonical,
+table.mw-namespacestable.body td.mw-namespacestable-modify {
+    text-align: center;
+}
+

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"emailauth-desc": "Verifieert verdachte aanmeldpogingen via e-mails",
+	"emailauth-token-label": "Verificatie code",
+	"emailauth-token-help": "Eenmalig 2FA token dat per e-mail is verstuurd.",
+	"emailauth-email-subject": "Uw aanmeldingsverificatiecode voor $1",
+	"emailauth-email-body": "Uw aanmeldingsverificatiecode voor $1 is $2",
+	"emailauth-login-message": "U moet uw aanmeldingspoging verifiëren. Een verificatiecode is naar uw e-mailadres ($1) verstuurd, vul die code hier in.",
+	"emailauth-login-failure": "Onjuiste verificatie code!",
+	"emailauth-login-retry-limit": "Te veel fouten!"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Grondin",
+			"Urhixidur"
+		]
+	},
+	"acct_creation_global_hard_throttle_hit": "La création a été automatiquement suspendue pendant quelques secondes afin de limiter les attaques informatiques par enregistrement en masse de nouveaux comptes. Patientez un moment et cliquez sur « recharger » ou « actualiser » dans votre navigateur pour soumettre, une nouvelle fois, la demande.",
+	"userthrottle-desc": "Limite la création d’utilisateurs"
+}

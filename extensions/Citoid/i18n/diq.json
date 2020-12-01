@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"1917 Ekim Devrimi",
+			"Kumkumuk",
+			"Mirzali",
+			"Orbot707"
+		]
+	},
+	"citoid-action-replace": "Tewrê çımey bıvurne",
+	"citoid-citation-widget-insert-button": "Cı ke",
+	"citoid-citoiddialog-back": "Peyser",
+	"citoid-citoiddialog-credit": "Kerdoğ $1",
+	"citoid-citoiddialog-lookup-button": "Vıraze",
+	"citoid-citoiddialog-mode-auto": "Otomatik",
+	"citoid-citoiddialog-mode-manual": "Manuel",
+	"citoid-citoiddialog-mode-reuse": "Fına bıkarn",
+	"citoid-citoiddialog-search": "Cı geyre",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, sername ya ki vatış",
+	"citoid-citoiddialog-search-placeholder": "mesela http://www.zazaki.zz",
+	"citoid-citoiddialog-search-progress": "Vêniyeno, tenê bıpawê...",
+	"citoid-citoiddialog-title": "Vateyi cı kerê",
+	"citoid-citoiddialog-title-replace": "Çımey bıvurne",
+	"citoid-citoiddialog-use-general-error-message": "Ma nêşayme qandê şıma gırewtış bıgêrime. Ebe gurenayışê tabloyê corêni \"{{int:citoid-citeiddialog-mode-manuel}}\" ra şenê be dest ra vırazê.",
+	"citoid-citoidtool-title": "Vate",
+	"citoid-citoidtool-title-othergroup": "Vate",
+	"citoid-desc": "Citoid ra MediaWiki are dı cay irtibat vırazeno",
+	"citoid-referencecontextitem-convert-button": "Açarne",
+	"citoid-referencecontextitem-convert-message": "Enonyew referans tenya grey tebwri vırazeno. Timaryaye mırecet kerdışi rê cér ra \"{{int:citoid-referencecontextitem-convert-button}}\" şenê bıkarnê",
+	"citoid-unknown-error": "Nêzanıyen yew xeta amê meydan u çıme vıraştennrê bena mani. Vanê se fına bıcerebne.",
+	"citoid-wb-referenceview-tabs-automatic": "Otomatik",
+	"citoid-wb-referenceview-tabs-search": "cı geyre",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN, ya zi QID:",
+	"citoid-wb-pendingdialog-error": "Na cıkewtış ra referansi nêvırazeno\nMenuel buton ra bıkerê ya zi fına bıcerebnê",
+	"citoid-wb-pendingdialog-message": "Seba şıma referanso vıraziyeno... Tay bıpawê...",
+	"citoid-wb-pendingdialog-title": "Qısekê vıraştışi"
+}

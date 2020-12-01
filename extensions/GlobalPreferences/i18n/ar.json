@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"globalprefs-desc": "يسمح للمستخدمين بضبط التفضيلات العالمية",
+	"globalprefs-set-local-exception": "اضبط استثناء محليا لهذا [[Special:GlobalPreferences#$1|التفضيل العالمي]].",
+	"globalprefs-has-local-exception": "هذا التفضيل العالمي له [[Special:Preferences#$1|استثناء محلي على هذه الويكي]].",
+	"tooltip-globalprefs-check-label": "اجعل هذا الإعداد عالميا",
+	"globalprefs-error-header": "خطأ",
+	"globalprefs-notglobal": "حسابك ليس حسابا عالميا ولا يمكنه ضبط التفضيلات العالمية.",
+	"globalpreferences": "تفضيلات عالمية",
+	"globalprefs-info-label": "التفضيلات العالمية:",
+	"globalprefs-info-link": "ضبط تفضيلاتك العالمية",
+	"globalprefs-info-help": "سيتم تطبيق التفضيلات المحددة عبر صفحة التفضيلات العالمية في جميع مواقع الويكي.",
+	"globalprefs-reset-intro": "أنت يمكنك استخدام هذه الصفحة لتعطيل كل التفضيلات العالمية على كل الويكيات والعودة لتفضيلاتك المحلية. هذا لا يؤثر على تفضيلات أي ويكي محلية. هذا لا يمكن التراجع عنه.",
+	"globalprefs-restoreprefs": "إزالة كل التفضيلات العالمية (في كل الأقسام)",
+	"globalprefs-select-all": "تبديل جميع صناديق الاختيار أو إيقاف تشغيلها",
+	"globalprefs-col-header": "حدد الخيارات أدناه لتكون عالمية"
+}

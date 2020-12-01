@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikel Ibaiba",
+			"Subi",
+			"Xabier Armendaritz"
+		]
+	},
+	"bs-insertfile-insert-image": "Irudia txertatu",
+	"bs-insertfile-insert-file": "Fitxategia txertatu",
+	"bs-insertfile-labelfilter": "Iragazkia:",
+	"bs-insertfile-filename": "Fitxategiaren izena",
+	"bs-insertfile-filesize": "Fitxategiaren tamaina",
+	"bs-insertfile-lastmodified": "Aldaketa berriak",
+	"bs-insertfile-labelupload": "Igo",
+	"bs-insertfile-details-title": "Xehetasunak",
+	"bs-insertfile-labeldimensions": "Tamaina (zabalera × garaiera)",
+	"bs-insertfile-labelalt": "Testu alternatiboa",
+	"bs-insertfile-labellink": "Lotura",
+	"bs-insertfile-alignnone": "bat ere ez",
+	"bs-insertfile-alignleft": "ezkerra",
+	"bs-insertfile-aligncenter": "erdia",
+	"bs-insertfile-alignright": "eskuina",
+	"bs-insertfile-labeltype": "Apainketa",
+	"bs-insertfile-typenone": "bat ere ez",
+	"bs-insertfile-typethumb": "iruditxoa",
+	"bs-insertfile-typeframe": "markoa",
+	"bs-insertfile-typeborder": "ertza",
+	"bs-insertfile-titlefile": "fitxategia txertatu",
+	"bs-insertfile-titleimage": "irudia txertatu",
+	"bs-insertfile-linktext": "Erakutsi testua",
+	"bs-insertfile-nstext": "Link mota",
+	"bs-insertfile-nstextfile": "Fitxategia",
+	"bs-insertfile-nstextfile-file": "Metadatuetarako linka erakutsi",
+	"bs-insertfile-nstextfile-image": "Irudia erakutsi",
+	"bs-insertfile-nstextmedia": "Jaitsitako esteka erakutsi"
+}

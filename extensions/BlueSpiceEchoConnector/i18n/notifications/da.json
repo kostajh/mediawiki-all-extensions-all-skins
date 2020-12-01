@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92",
+			"Sarrus"
+		]
+	},
+	"bs-notifications-addaccount": "Brugeren \"$1\" blev oprettet.",
+	"bs-notifications-email-addaccount-subject": "Brugeren \"$2\" {{GENDER:$1|blev oprettet}}",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|Brugeren}} $2 blev oprettet.",
+	"bs-notifications-registeruser": "Brugeren \"$1\" har oprettet en konto.",
+	"bs-notifications-edit": "Siden \"$1\" er blevet ændret",
+	"bs-notifications-create": "Siden \"$1\" blev oprettet",
+	"bs-notifications-email-create-subject": "Siden \"$1\" {{GENDER:$2|blev oprettet}} den $4 af $3",
+	"bs-notifications-delete": "Siden \"$1\" er blevet slettet",
+	"bs-notifications-email-delete-subject": "Siden \"$1\" {{GENDER:$2|blev slettet}} den $4 af $3",
+	"bs-notifications-web-delete-body": "Siden \"$1\" blev {{GENDER:$2|slettet}} af $3.",
+	"bs-notifications-move": "Siden \"$1\" blev flyttet",
+	"bs-notifications-edit-difflink-label": "Se forskellen",
+	"bs-notifications-mail-additional-links-label": "Yderligere links"
+}

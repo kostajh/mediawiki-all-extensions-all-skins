@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"apihelp-jadecreateandendorse-param-comment": "판 요약",
+	"apihelp-jadedeleteproposal-param-comment": "판 요약입니다.",
+	"apihelp-jadeendorse-param-comment": "판 요약",
+	"apihelp-jadedeleteendorsement-param-comment": "판 요약",
+	"apihelp-jadeupdateendorsement-param-comment": "판 요약",
+	"apihelp-jademoveendorsement-param-comment": "판 요약",
+	"apihelp-jadeproposeorendorse-param-comment": "판 요약"
+}

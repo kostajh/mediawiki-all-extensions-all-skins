@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil"
+		]
+	},
+	"spark-desc": "Lägger till en <code><nowiki><spark /></nowiki></code>-tagg som gör det möjligt att bädda in [http://km.aifb.kit.edu/sites/spark/ Spark]-mash-ups. Spark-biblioteket skapades av Denny Vrandecic och Andreas Harth.",
+	"spark-missing-query": "Du måste ange en fråga med \"data-spark-query\"-parametern."
+}

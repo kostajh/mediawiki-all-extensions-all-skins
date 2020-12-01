@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"group-supplementcomment": "CommendeSupplmendare",
+	"group-supplementcomment-member": "{{GENDER:$1|CommendeSupplemendare}}",
+	"grouppage-supplementcomment": "{{ns:project}}:CommendeSupplemendate",
+	"log-name-revisioncommentsupplement": "Archivije de le commende supplemendare",
+	"revcs-action-history-supplement": "[Supplemende: $1]",
+	"revcs-edit-preview": "Vide l'andeprime",
+	"revcs-edit-reason": "Mutive:",
+	"revcs-edit-revision-id": "ID d'a revisione:",
+	"revcs-error": "Errore: $1",
+	"revcs-hidehistory-submit": "Appleche",
+	"revcs-history-hidden-reason": "(mutive scunnute)",
+	"revcs-history-hidden-supplement": "(commende aggiundive scunnute)",
+	"revcs-history-hidden-user": "(nome utende scunnute)",
+	"revcs-history-rcsh-reason": "Mutive",
+	"revcs-list-extended-supplement-all": "tutte",
+	"revcs-list-extended-supplement-empty": "vacande",
+	"revcs-list-extended-supplement-notempty": "chine",
+	"revcs-list-limit": "Numere pe pàgene:",
+	"revcs-list-rcs-rev-id": "ID d'a revisione",
+	"revcs-list-rcs-rev-id-edit": "Cange",
+	"revcs-list-rcs-rev-id-log": "Archivije",
+	"revcs-list-rcs-user-text": "Utende",
+	"revcs-list-reset": "Azzere",
+	"revcs-list-sort": "Ordine:",
+	"revcs-list-submit": "Fà vedè",
+	"revcs-log-nosupplement": "(ninde)",
+	"revcs-show-revision": "Revisione: $1",
+	"revcs-show-revision-id": "ID d'a revisione: $1 ($2)",
+	"revcs-show-user": "Utende: $1 $2 (ID de l'utende: $3)",
+	"revcs-warning": "Avvertimende: $1",
+	"right-supplementcomment": "Fatte commende aggiundive"
+}

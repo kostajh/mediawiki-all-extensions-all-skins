@@ -1,0 +1,47 @@
+{
+	"name": "Character range span",
+	"version": "1.0.0",
+	"author": "Nick White",
+	"url": "https://www.mediawiki.org/wiki/Extension:CharRangeSpan",
+	"descriptionmsg": "charrangespan-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"CharRangeSpan": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"CharRangeSpan": "CharRangeSpan.body.php"
+	},
+	"Hooks": {
+		"ParserAfterTidy": "CharRangeSpan::doCharRangeSpan"
+	},
+	"config": {
+		"CharRangeSpanSettings": {
+			"value": {
+				"grc": {
+					"ranges": [
+						[
+							"0300",
+							"036F"
+						],
+						[
+							"0370",
+							"03FF"
+						],
+						[
+							"1F00",
+							"1FFF"
+						]
+					],
+					"attrs": "lang=\"grc\"",
+					"maybeChars": "\\s\\,\\.\\-"
+				}
+			}
+		}
+	},
+	"manifest_version": 2
+}

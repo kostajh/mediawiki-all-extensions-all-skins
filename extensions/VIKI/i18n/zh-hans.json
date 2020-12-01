@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"viki-desc": "绘制wiki页面或web页面之间的网络链接图表",
+	"viki-error-title": "错误：",
+	"viki-error-missing-pageTitle": "您必须提供至少一个页面标题。",
+	"viki-timeout-content-namespace": "获取wiki名字空间的内容超时：$1。返回默认主名字空间。",
+	"viki-error-content-namespace": "获取wiki名字空间的内容出错：$1。返回默认主名字空间。",
+	"viki-error-visit-node": "试图访问节点时出错：$1。",
+	"viki-error-external-links": "获取页面的外部链接时出错：$1。",
+	"viki-error-intrawiki-out": "获取wiki内部的外部链接时出错：$1。",
+	"viki-error-intrawiki-in": "获取wiki内部的反向链接时出错：$1。",
+	"viki-error-https-node": "阐述节点时出错：$1。您正在越过HTTPS运行；您只能越过HTTPS访问其他wiki。",
+	"viki-error-https-namespace": "获取wiki的内容名字空间时出错：$1。您正在越过HTTPS运行；您只能越过HTTPS访问其他wiki。",
+	"apihelp-getContentNamespaces-description": "获取此wiki的内容名字空间列表。",
+	"apihelp-getContentNamespaces-summary": "获取此wiki的内容名字空间列表。"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Millosh",
+			"Nikola Smolenski",
+			"Sasa Stefanovic",
+			"Жељко Тодоровић",
+			"Сербијана",
+			"לערי ריינהארט"
+		]
+	},
+	"sitematrix": "Листа викија Викимедије",
+	"sitematrix-summary": "Ова посебна страница наводи све викије Викимедије.",
+	"sitematrix-desc": "Приказује [[Special:SiteMatrix|листу викија Викимедије]].",
+	"sitematrix-language": "Језик",
+	"sitematrix-project": "Име пројекта, међупројекатска веза и међувики веза.",
+	"sitematrix-others": "Други пројекти Викимедије.",
+	"sitematrix-other-projects": "Други пројекти",
+	"sitematrix-total": "'''Укупан збир: $1.'''",
+	"sitematrix-sitetotal": "укупно",
+	"sitematrix-private": "ограничен приступ за читање и писање",
+	"sitematrix-fishbowl": "ограничен приступ за писање, омогућено читање"
+}

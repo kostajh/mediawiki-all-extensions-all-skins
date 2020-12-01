@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"Kaganer",
+			"Okras",
+			"Александр Сигачёв"
+		]
+	},
+	"multiboilerplate-desc": "Позволяет участникам выбирать типовые тексты из выпадающего списка над полем редактирования",
+	"multiboilerplate-legend": "Выбор образца",
+	"multiboilerplate-submit": "Загрузить",
+	"boilerplates": "Макеты",
+	"multiboilerplate-special-pagetext": "Эти шаблоны могут подгружаться при создании страницы. (<span class=plainlinks>[{{fullurl:Этой страницы не существует|action=edit}} Пример]</span>)",
+	"multiboilerplate-special-define-in-localsettings": "Заготовки определены в LocalSettings.",
+	"multiboilerplate-special-define-in-interface": "Заготовки определены в [[MediaWiki:Multiboilerplate]].",
+	"multiboilerplate-special-no-boilerplates": "Типовые тексты нигде не заданы.",
+	"multiboilerplate-nonexistant-page": "Страница-образец не существует: «$1»"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"iframepage": "Σελίδα Iframe",
+	"iframepage-desc": "Επιτρέπει την ενσωμάτωση ενός iframe εντός μιας ειδικής σελίδας",
+	"iframepage-error-wgifsrc": "Η τιμή <code>$wgIframePageSrc</code> πρέπει να ρυθμιστεί στο <code>LocalSettings.php</code>."
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil",
+			"WikiPhoenix"
+		]
+	},
+	"bs-watchlist-desc": "Lägger till en bevakningslista-widget och -tagg",
+	"bs-watchlist-title-sidebar": "Bevakningslista",
+	"bs-watchlist-pref-sort-time": "Tid",
+	"bs-watchlist-pref-sort-title": "Titel",
+	"bs-watchlist-tag-watchlist-desc": "Visar artiklarna på din bevakningslista som har nyligen ändrats.",
+	"bs-watchlist-window-watchlist-title": "Bevakningslista",
+	"bs-watchlist-grid-watchlist-column-link-header": "Sida",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Olästa ändringar",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Inspektera ändringar",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Diskussionssida",
+	"bs-watchlist-grid-watchlist-label-filter": "Filter"
+}

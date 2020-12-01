@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alirezaaa",
+			"Armin1392",
+			"Dalba",
+			"Ebraminio",
+			"Fitoschido",
+			"Ladsgroup",
+			"Mjbmr",
+			"Reza1615",
+			"جواد"
+		]
+	},
+	"geodata-desc": "افزودن ذخیره‌سازی مختصات جغرافیایی و کارآمدی بازیابی",
+	"geodata-bad-input": "متغییرهای نامعتبر در <nowiki>{{#coordinates:}}</nowiki> واردشده‌است.",
+	"geodata-bad-latitude": "<nowiki>{{#coordinates:}}</nowiki>: عرض جغرافیایی نامعتبر",
+	"geodata-bad-longitude": "<nowiki>{{#coordinates:}}</nowiki>: طول جغرافیایی نامعتبر",
+	"geodata-bad-type": "<nowiki>{{#coordinates:}}</nowiki>: گونهٔ تشخیص داده نشده \"$1\"",
+	"geodata-bad-globe": "<nowiki>{{#coordinates:}}</nowiki>: دنیای ناشناخته \"$1\"",
+	"geodata-bad-region": "<nowiki>{{#coordinates:}}</nowiki>: فرمت کد ناحیهٔ نامعتبر",
+	"geodata-multiple-primary": "<nowiki>{{#coordinates:}}</nowiki>: نمی‌توان بیش از یک برچسب اصلی در صفحه داشت",
+	"geodata-limit-exceeded": "محدوده‌ای از $1 <nowiki>{{#مختصات:}}</nowiki> {{PLURAL:$1|tag|tags}} در هر صفحه فراتر رفته‌است",
+	"geodata-broken-tags-category": "صفحه‌های دارای برچسب مختصات ناقص",
+	"geodata-broken-tags-category-desc": "صفحه برچسب ناهنجار <code><nowiki>{{#coordinates:}}</nowiki></code> دارد.",
+	"geodata-unknown-type-category": "صفحه‌ها با نوع تعریف‌نشده از مختصات",
+	"geodata-unknown-type-category-desc": "صفحه از مقدار تعریف‌نشده برای پارامتر <code>type</code> در مختصات استفاده می‌کند.",
+	"geodata-unknown-globe-category": "صفحه‌ها با ارزش جهانی ناشناخته",
+	"geodata-unknown-globe-category-desc": "صفحه از مقدار تعریف‌نشده برای پارامتر <code>globe</code> در مختصات استفاده می‌کند.",
+	"geodata-unknown-region-category": "صفحه‌ها با ارزش ناحیه‌ای نامعتبر",
+	"geodata-unknown-region-category-desc": "صفحه از مقدار تعریف‌نشده برای پارامتر <code>region</code> در مختصات استفاده می‌کند.",
+	"geodata-api-help-coordinates-format": "قالب: عرض جغرافیایی و طول جغرافیایی با خط عمودی (<kbd>|</kbd>) جدا شده‌اند.",
+	"geodata-search-feature-invalid-coordinates": "مختصات جغرافیایی «$2» ارائه‌شده به «$1» نمی‌تواند تجزیه شود.",
+	"geodata-search-feature-invalid-distance": "فاصلهٔ جغرافیایی «$2» ارائه‌شده به «$1» نمی‌تواند تجزیه شود.",
+	"geodata-search-feature-unknown-title": "عنوان «$2» ارائه‌شده به «$1» وجود ندارد.",
+	"geodata-search-feature-title-no-coordinates": "عنوان «$2» ارائه‌شده به «$1» هیچ مختصاتی ندارد."
+}

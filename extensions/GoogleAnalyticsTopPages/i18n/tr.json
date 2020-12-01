@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"googleanalyticstoppages-desc": "Google Analytics verilerinin kullanımıyla bir üst sayfa listesi sağlar",
+	"apihelp-googlepagestatsupdate-param-key": "[[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]] değeri",
+	"apihelp-googlepagestatsupdate-description": "Üst sayfaların listesini günceller (Google Analytics tarafından sağlanan veriler tarafından desteklenmektedir).",
+	"apihelp-googlepagestatsupdate-summary": "Üst sayfaların listesini günceller (Google Analytics tarafından sağlanan veriler tarafından desteklenmektedir)."
+}

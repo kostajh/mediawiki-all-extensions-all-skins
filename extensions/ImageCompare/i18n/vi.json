@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Le Duy Quang"
+		]
+	},
+	"imageCompare-desc": "So sánh hai hình ảnh với một thanh trượt trực quan.",
+	"imageCompare-error-noimg": "<span style='color:red'>ImageCompare: Cần có hai hình ảnh để so sánh.</span>",
+	"imageCompare-error-imginvalid": "<span style='color:red'>ImageCompare: Một hoặc cả hai hình ảnh không được tìm thấy hoặc không hợp lệ.</span>",
+	"imageCompare-error-numberinvalid": "<span style='color:red'>ImageCompare: Một thuộc tính không phải là số khi nó lại cần phải là số.</span>"
+}

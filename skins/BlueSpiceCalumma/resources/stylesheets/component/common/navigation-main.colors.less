@@ -1,0 +1,221 @@
+body .navigation-main,
+body .navigation-main.active {
+	.sidebar-toggle[data-toggle~="navigation-main-collapse"] {
+		i.navigation-main-collapse::before {
+			color: @theme-navigation-main-button-fg-color;
+		}
+
+		&:hover i.navigation-main-collapse::before {
+			color: @theme-navigation-main-button-fg-color-hover;
+		}
+	}
+}
+
+body.mediawiki .navigation-main {
+	background-color: @theme-navigation-main-bg-color;
+	color: @theme-navigation-main-fg-color;
+	border-right: @theme-navigation-main-border;
+
+	.nav.nav-pills {
+		background-color: @theme-navigation-main-tabs-bg-color;
+
+		li a{
+			background-color: @theme-navigation-main-tab-bg-color;
+			color: @theme-navigation-main-tab-fg-color;
+		}
+		li.active a {
+			background-color: @theme-navigation-main-tab-bg-color-active;
+			color: @theme-navigation-main-tab-fg-color-active;
+		}
+		li a:hover,
+		li.active a:hover {
+			background-color: @theme-navigation-main-tab-bg-color-hover;
+			color: @theme-navigation-main-tab-fg-color-hover;
+		}
+	}
+
+	#bs-sitenavtabs {
+		div.tab-content{
+			color: @theme-navigation-main-fg-color;
+			.panel,
+			.bs-panel {
+				.panel-heading {
+					.panel-title,
+					.bs-panel-title {
+						a,
+						a span {
+							color: @theme-navigation-main-fg-color;
+						}
+						&:hover a{
+							color: @theme-navigation-main-fg-color-hover;
+							background-color: @theme-navigation-main-bg-color-hover;
+
+							span {
+								color: @theme-navigation-main-fg-color-hover;
+							}
+						}
+					}
+				}
+				.list-group a.list-group-item {
+					&,
+					span,
+					i {
+						color: @theme-navigation-main-fg-color;
+					}
+					&:hover {
+						background-color: @theme-navigation-main-bg-color-hover;
+
+						&,
+						span,
+						i {
+							color: @theme-navigation-main-fg-color-hover;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+body .navigation-main {
+	#bs-sitenav-navigation {
+		#bs-mobile-user-container {
+			.bs-personal-not-loggedin,
+			.bs-mobile-user-button.dropdown {
+				a.dropdown-toggle {
+					color: @theme-navigation-main-fg-color;
+					&:hover {
+						color: @theme-navigation-main-fg-color-hover;
+						background-color: @theme-navigation-main-bg-color-hover;
+					}
+				}
+			}
+		}
+		.bs-mobile-user-button {
+			& > a {
+				color: @theme-navigation-main-fg-color;
+				span {
+					color: @theme-navigation-main-fg-color;
+				}
+				&:hover {
+					color: @theme-navigation-main-fg-color-hover;
+					background-color: @theme-navigation-main-bg-color-hover;
+
+					span {
+						color: @theme-navigation-main-fg-color-hover;
+					}
+				}
+			}
+			.bs-personal-menu-container {
+				color: @theme-navigation-main-fg-color;
+				background-color: @theme-navigation-main-bg-color;
+				li a {
+					color: @theme-navigation-main-fg-color;
+					span, i::before {
+						color: @theme-navigation-main-fg-color;
+					}
+
+					&:hover {
+						color: @theme-navigation-main-fg-color-hover;
+						background-color: @theme-navigation-main-bg-color-hover;
+
+						span, i::before {
+							color: @theme-navigation-main-fg-color-hover;
+						}
+					}
+				}
+			}
+			.bs-personal-menu {
+				li.bs-personal-menu-container-user{
+					color: @theme-navigation-main-fg-color;
+					span, i::before {
+						color: @theme-navigation-main-fg-color;
+					}
+					&:hover {
+						color: @theme-navigation-main-fg-color-hover;
+						background-color: @theme-navigation-main-bg-color-hover;
+
+						span, i::before {
+							color: @theme-navigation-main-fg-color-hover;
+						}
+					}
+				}
+				.separator {
+					border-bottom: 1.125rem solid @theme-navigation-main-bg-color;
+				}
+			}
+		}
+	}
+}
+
+body .navigation-main #bs-sitenav-navigation {
+	#calumma-mobile-footer-links .separator {
+		color: @theme-navigation-main-fg-color;
+	}
+}
+
+.navigation-main .tab-pane.active .bs-calumma-sidebar-edit-link {
+	span {
+		color: @theme-navigation-main-fg-color;
+	}
+	&:hover span {
+		color: @theme-navigation-main-fg-color-hover;
+	}
+}
+
+
+/*fix for bs-bookshelfui-chapter-nav*/
+body.mediawiki .navigation-main #bs-sitenavtabs div.tab-content {
+	.bs-link-edit-bookshelfui-book{
+		span.label{
+			color: @theme-navigation-main-fg-color;
+		}
+		&:hover {
+			span.label{
+				color: @theme-navigation-main-fg-color-hover;
+			}
+		}
+	}
+	#bs-bookshelfui-chapter-nav {
+		#bs-bookshelfui-book-toc {
+			#bs-bookshelfui-book-toc-tree .bs-treenodeitem {
+				a,
+				a span {
+					background-color: @theme-navigation-main-bg-color;
+					color: @theme-navigation-main-fg-color;
+				}
+				.active a,
+				.active a span,
+				.active span.bs-icon {
+					background-color: @theme-navigation-main-bg-color;
+					color: @theme-navigation-main-fg-color;
+				}
+				a:hover,
+				a:hover span {
+					background-color: @theme-navigation-main-bg-color-hover;
+					color: @theme-navigation-main-fg-color-hover;
+				}
+				span.bs-icon {
+					background-color: @theme-navigation-main-bg-color;
+					color: @theme-navigation-main-fg-color;
+
+					&:hover {
+						background-color: @theme-navigation-main-bg-color;
+						color: @theme-navigation-main-fg-color-hover;
+					}
+				}
+				&.expandable {
+					&.leaf {
+						span.bs-icon {
+							visibility: hidden;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.bs-icon {
+	color: @theme-navigation-main-fg-color;
+}

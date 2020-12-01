@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail",
+			"WaldiSt"
+		]
+	},
+	"bs-expiry-header-pagename": "Strona",
+	"bs-expiry-header-date": "Upływa w dniu",
+	"bs-expiry-article-label": "Strona",
+	"bs-expiry-edit-grid-header-username": "Użytkownik",
+	"bs-expiry-edit-grid-header-date": "Data",
+	"bs-expiry-edit-grid-header-comment": "Komentarz",
+	"bs-expiry-create-reminder-label": "Stwórz przypomnienie",
+	"bs-expiry-reminder-type-expiry": "Wygasa",
+	"bs-expiry-smwpropertyvalueprovider-isexpired-desc": "Mówi, jeśli strona wygasła"
+}

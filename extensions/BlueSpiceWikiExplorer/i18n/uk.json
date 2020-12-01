@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-wikiexplorer-extension-description": "Сортувати статті за критеріями",
+	"bs-wikiexplorer-page-title": "Назва",
+	"bs-wikiexplorer-page-namespace": "Простір назв",
+	"bs-wikiexplorer-creation-date": "Дата створення",
+	"bs-wikiexplorer-is-redirect": "Чи це перенаправлення",
+	"bs-wikiexplorer-last-comment": "Останній коментар",
+	"bs-wikiexplorer-last-edit-time": "Дата останнього редагування",
+	"bs-wikiexplorer-page-size": "Розмір",
+	"bs-wikiexplorer-last-author": "Останній редактор",
+	"bs-wikiexplorer-categories": "Категорії",
+	"bs-wikiexplorer-linked-files": "Пов'язані файли",
+	"bs-wikiexplorer-linked-pages": "Пов'язані сторінки",
+	"apihelp-bs-wikiexplorer-store-description": "Надає всі дані для розширення WikiExplorer",
+	"apihelp-bs-wikiexplorer-store-param-metaLoaded": "Параметр API для зазначення того, чи метадані вже завантажено, чи ні.",
+	"apihelp-bs-wikiexplorer-store-summary": "Надає всі дані для розширення WikiExplorer"
+}

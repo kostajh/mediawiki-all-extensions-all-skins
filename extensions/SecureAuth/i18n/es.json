@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"MarcoAurelio"
+		]
+	},
+	"secureauth-desc": "Permite a los usuarios especificar su IP para acceder a sus cuentas. El acceso desde otras IP fallará.",
+	"special-secureauth-info": "Información de autenticación segura",
+	"secureauth-info-userinfo": "Información de usuario",
+	"secureauth-current-ip": "Tu IP de acceso actual:",
+	"right-sa-access": "Permite al usuario acceder a [[Special:SecureAuthInfo|SecureAuthInfo]]"
+}

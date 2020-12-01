@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"PeppeAeco",
+			"Selven"
+		]
+	},
+	"bs-pageaccess-desc": "Controlla l'accesso a livello di pagina",
+	"bs-pageaccess-error-no-groups-given": "Nessun gruppo è stato specificato.",
+	"bs-pageaccess-tag-groups-desc": "Definisce i gruppi che hanno accesso esclusivo a una pagina. Diversi gruppi sono separati da virgole.",
+	"pageaccess": "Pagine protette da PageAccess",
+	"logentry-bs-pageaccess-change": "$1 {{GENDER:$2|Ha cambiato}} le autorizzazioni di accesso di $3 a \"$4\"",
+	"action-pageaccess-viewspecialpage": "visualizzare la pagina speciale \"{{int:pageaccess}}\"",
+	"bs-pageaccess-column-title": "Titolo della pagina",
+	"bs-pageaccess-column-groups": "Gruppi",
+	"right-pageaccess-viewspecialpage": "Accede alla pagina speciale [[Special:PageAccess]]",
+	"bs-pageaccess-ve-pageaccessinspector-groups": "Gruppi",
+	"bs-pageaccess-tag-pageaccess-desc-param-groups": "Solo questi gruppi hanno accesso alla pagina"
+}

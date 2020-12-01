@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"metamaster-desc": "Парсерна функція, що дає змогу додавати HTML-теги <code><meta></code> до заголовка сторінки"
+}

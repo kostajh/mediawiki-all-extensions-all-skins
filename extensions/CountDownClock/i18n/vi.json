@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Leduyquang753"
+		]
+	},
+	"countDownClock-desc": "Thêm một hàm để hiện một đồng hồ đếm ngược",
+	"countDownClock-invalidtime": "Vui lòng cung cấp một tham số endTime (thời điểm kết thúc) hợp lệ",
+	"countDownClock-days": "$1 ngày",
+	"countDownClock-hours": "$1 giờ",
+	"countDownClock-minutes": "$1 phút",
+	"countDownClock-seconds": "$1 giây",
+	"countDownClock-expired": "Đã hết hạn"
+}

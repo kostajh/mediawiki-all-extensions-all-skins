@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Har-wradim"
+		]
+	},
+	"bs-notifications-addaccount": "דער באַניצער \"$1\" איז געשאַפן געוואָרן.",
+	"bs-notifications-email-addaccount-subject": "{{GENDER:$1|דער באַניצער|די באַניצערין}} \"$2\" איז געשאַפן געוואָרן",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|דער באַניצער|די באַניצערין}} $2 איז געשאַפן געוואָרן.\n\nאיר קענט באַזוכן {{GENDER:$1|זיין|איר|דעם}} באַניצער בלאַט דורך קליקן אויפן לינק אונטן",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|דער באַניצער|די באַניצערין}} $2 איז געשאַפן געוואָרן.",
+	"bs-notifications-edit": "דער בלאַט \"$1\" איז געענדערט געוואָרן",
+	"bs-notifications-edit-bundle": "דער בלאַט \"$2\" איז {{PLURAL:$1|איין|$1}} מאָל באַאַרבעט געוואָרן",
+	"bs-notifications-email-edit-subject": "דער בלאַט \"$1\" איז {{GENDER:$2|באַאַרבעט}} געוואָרן פון $3",
+	"bs-notifications-email-edit-body": "דער בלאַט \"$1\" איז {{GENDER:$2|באַאַרבעט}} געוואָרן פון $4.\n\nהערה:\n$3",
+	"bs-notifications-create": "דער בלאַט \"$1\" איז געשאַפן געוואָרן",
+	"bs-notifications-email-create-subject": "דער בלאַט \"$1\" איז {{GENDER:$2|געשאַפן}} געוואָרן פון $3",
+	"bs-notifications-web-create-body": "דער בלאַט \"$1\" איז {{GENDER:$2|געשאַפן}} געוואָרן פון $3",
+	"bs-notifications-delete": "דער בלאַט \"$1\" איז געמעקט געוואָרן",
+	"bs-notifications-email-delete-subject": "דער בלאַט \"$1\" איז {{GENDER:$2|געמעקט}} געוואָרן פון $3.",
+	"bs-notifications-move": "דער בלאַט \"$1\" איז באַוועגט געוואָרן",
+	"bs-notifications-email-move-subject": "דער בלאַט \"$1\" איז {{GENDER:$2|באַוועגט}} געוואָרן צו \"$3\" פון $4",
+	"bs-notifications-email-move-body": "דער בלאַט \"$1\" איז {{GENDER:$2|באַוועגט}} געוואָרן צו \"$3\" פון $4.\n\nדי סיבה איז געווען:\n$5",
+	"bs-notifications-web-move-body": "דער בלאַט \"$1\" איז {{GENDER:$2|באַוועגט}} געוואָרן צו \"$3\" פון $4",
+	"bs-notifications-edit-difflink-label": "ווייזן אונטערשייד",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|שלום עליכם}} $1"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"Okras"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Генератор и редактор идентификационных ключей",
+	"apihelp-query+LifeWeb-description": "Ссылка на скачивание данных для LifeBase.",
+	"apihelp-query+LifeWeb-summary": "Ссылка на скачивание данных для LifeBase.",
+	"apihelp-query+LifeWeb-param-what": "Какой список вернуть.",
+	"apihelp-query+LifeWeb-param-clearCache": "Будет ли очищен кэш во время возвращения данных",
+	"apihelp-query+LifeWeb-example-1": "Список таксонов",
+	"apihelp-query+LifeWeb-example-2": "Список вопросов, удобочитаемый"
+}

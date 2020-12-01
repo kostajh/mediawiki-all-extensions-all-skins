@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-uemodulepdfrecursive-extension-description": "Slår på rekursiv eksportering av sider til PDF-format.",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-text": "PDF-side med lenkede sider",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-title": "Eksporter denne siden og alle lenkede sider som PDF.",
+	"right-uemodulepdfrecursive-export": "Eksporterer en side, inkludert alle lenkede sider, til PDF",
+	"action-uemodulepdfrecursive-export": "eksportere en side, inkludert alle lenkede sider, til PDF"
+}

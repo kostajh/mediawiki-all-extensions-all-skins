@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nisha",
+			"Robby",
+			"Shirayuki",
+			"Sophivorus"
+		]
+	},
+	"newsticker": "Title of the special page",
+	"newsticker-desc": "{{desc|name=NewsTicker|url=https://www.mediawiki.org/wiki/Extension:NewsTicker}}",
+	"newsticker-summary": "Description appearing on top of Special:NewsTicker",
+	"newsticker-general": "Title of the general settings section in the special page\n{{Identical|General}}",
+	"newsticker-news": "Label for the input where news are set\n{{Identical|News}}",
+	"newsticker-class": "Label for the input where the news ticker CSS classes are set",
+	"newsticker-style": "Label for the input where the news ticker CSS styling is set",
+	"newsticker-pages": "Label for the input where the number of pages with the news ticker is set\n{{Identical|Page}}",
+	"newsticker-page1": "Title of the first page section in the special page",
+	"newsticker-page2": "Title of the second page section in the special page",
+	"newsticker-page3": "Title of the third page section in the special page",
+	"newsticker-page4": "Title of the fourth page section in the special page",
+	"newsticker-page5": "Title of the fifth page section in the special page",
+	"newsticker-page6": "Title of the sixth page section in the special page",
+	"newsticker-page7": "Title of the seventh page section in the special page",
+	"newsticker-page8": "Title of the eight page section in the special page",
+	"newsticker-page9": "Title of the ninth page section in the special page",
+	"newsticker-title": "Label for input where the title of the page is set\n{{Identical|Title}}",
+	"newsticker-add-page": "Label for the button for adding another page",
+	"newsticker-default-news-help": "Set the default news of the news ticker, one per line, wikitext allowed. They be overridden on a per-page basis (see below).",
+	"newsticker-default-class-help": "Help text for the input where the news ticker default CSS classes are set",
+	"newsticker-default-style-help": "Help text for the input where the news ticker default CSS styling is set",
+	"newsticker-pages-help": "Help text for the input where the number of pages with the news ticker is set",
+	"newsticker-title-help": "Help text for the input where the title of the page with the news ticker is set",
+	"newsticker-news-help": "Help text for the input where the news are set",
+	"newsticker-class-help": "Help text for the input where the news ticker CSS classes are set",
+	"newsticker-style-help": "Help text for the input where the news ticker CSS styling is set",
+	"right-newsticker": "{{doc-right|newsticker}}",
+	"action-newsticker": "{{doc-action|newsticker}}"
+}

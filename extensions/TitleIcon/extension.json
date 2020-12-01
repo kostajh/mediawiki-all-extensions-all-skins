@@ -1,0 +1,42 @@
+{
+	"name": "Title Icon",
+	"version": "4.1.1",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Cindy.cicalese Cindy Cicalese]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Title_Icon",
+	"descriptionmsg": "titleicon-desc",
+	"license-name": "MIT",
+	"type": "semantic",
+	"MessagesDirs": {
+		"TitleIcon": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"TitleIcon": "TitleIcon.php"
+	},
+	"ResourceModules": {
+		"ext.TitleIcon": {
+			"scripts": "TitleIcon.js"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "TitleIcon"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"TitleIcon::setup"
+		]
+	},
+	"manifest_version": 1,
+	"config": {
+		"TitleIcon_EnableIconInPageTitle": true,
+		"TitleIcon_EnableIconInSearchTitle": true,
+		"TitleIcon_CSSSelector": "#firstHeading",
+		"TitleIcon_UseFileNameAsToolTip": true,
+		"TitleIcon_TitleIconPropertyName": "Title Icon",
+		"TitleIcon_HideTitleIconPropertyName": "Hide Title Icon"
+	}
+}

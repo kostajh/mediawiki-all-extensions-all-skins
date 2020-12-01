@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"A1",
+			"Piramidion",
+			"Ата",
+			"Тест"
+		]
+	},
+	"markashelpful-desc": "Надає інтерфейс користувача для позначання корисних коментарів",
+	"mah-mark-text": "Позначити як корисне",
+	"mah-you-marked-text": "Ви вважаєте, що це корисне",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 вважають це корисним}}",
+	"mah-undo-mark-text": "скасувати",
+	"mah-action-error": "Не вдалося виконати дію",
+	"apihelp-getmarkashelpfulitem-description": "Отримати список усіх помічних статусів для об'єкта.",
+	"apihelp-getmarkashelpfulitem-summary": "Отримати список усіх помічних статусів для об'єкта.",
+	"apihelp-getmarkashelpfulitem-param-type": "Тип об'єкта, який позначають помічним.",
+	"apihelp-getmarkashelpfulitem-param-item": "Елемент об'єкта, який позначають помічним.",
+	"apihelp-getmarkashelpfulitem-param-prop": "Яку властивість отримати.",
+	"apihelp-getmarkashelpfulitem-param-page": "Сторінка, яка запитує елемент.",
+	"apihelp-markashelpful-description": "Дозволяє користувачам поставити або зняти елементу об'єкта на сайті позначку помічного.",
+	"apihelp-markashelpful-summary": "Дозволяє користувачам поставити або зняти елементу об'єкта на сайті позначку помічного.",
+	"apihelp-markashelpful-param-mahaction": "Позначити елемент як помічний чи зняти позначку.",
+	"apihelp-markashelpful-param-page": "Сторінка, на якій знаходиться елемент, що буде позначено.",
+	"apihelp-markashelpful-param-type": "Тип об'єкта, який позначають помічним.",
+	"apihelp-markashelpful-param-item": "Елемент об'єкта, який позначають помічним.",
+	"apihelp-markashelpful-param-useragent": "Заголовок агента користувача у браузері.",
+	"apihelp-markashelpful-param-system": "Операційна система, яка використовується.",
+	"apihelp-markashelpful-param-locale": "Локаль, яка використовується."
+}

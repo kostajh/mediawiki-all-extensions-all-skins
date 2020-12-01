@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"security": "Talaang pangkaligtasan",
+	"security-desc": "Nagdurugtong sa pag-iingat ng pahina ng MediaWiki upang pahintulutan ang pagbibigay ng hangganan sa pagtingin ng nilalaman ng pahina",
+	"security-logpage": "Talaang pangkaligtasan",
+	"security-logpagetext": "Isa itong talaan ng mga kilos na hinadlangan ng [https://www.mediawiki.org/wiki/Extension:SimpleSecurity karugtong na Kaligtasang Payak].",
+	"badaccess-read": "Babala: isinangguni rito ang \"$1\", subalit wala kang sapat na mga kapahintulutan upang mapuntahan ito.",
+	"security-info": "Mayroon mga $1 sa ibabaw ng pahinang ito",
+	"security-info-toggle": "mga hangganang pangkaligtasan",
+	"security-inforestrict": "Nakahangga ang $1 sa $2",
+	"security-desc-LS": "(naaangkop dahil nasa loob ng '''$2 $1''' ang pahinang ito)''",
+	"security-desc-PR": "(itinakda mula sa panglaylay na \"pangpananggalang\")",
+	"security-infosysops": "Walang umiiral na mga paghahangga dahil isa kang kasapi ng pangkat na \"tagapagpaandar ng sistema\"",
+	"security-manygroups": "mga pangkat na $1 at $2",
+	"security-unchain": "Baguhin na paisa-isa ang mga galaw",
+	"security-type-category": "kaurian",
+	"security-type-namespace": "espasyo ng pangalan",
+	"security-restricttogroup": "Puntahan ang nilalaman na nakalaan lamang para sa mga kasapi ng \"$1\"",
+	"restriction-read": "Basahin"
+}

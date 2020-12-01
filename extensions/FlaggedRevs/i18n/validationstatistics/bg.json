@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"Spiritia",
+			"StanProg",
+			"Turin",
+			"Vlad5250"
+		]
+	},
+	"validationstatistics": "Статистика за проверки на страници",
+	"validationstatistics-lastupdate": "''Следните данни за последно са обновени на $1 в $2 ч.''",
+	"validationstatistics-ns": "Именно пространство",
+	"validationstatistics-total": "Страници",
+	"validationstatistics-stable": "Проверени",
+	"validationstatistics-latest": "Синхронизирани",
+	"validationstatistics-synced": "Синхронизирани/Проверени",
+	"validationstatistics-old": "Неактуални",
+	"validationstatistics-unreviewed": "Непроверени",
+	"validationstatistics-utable": "По-долу е даден списък на {{PLURAL:$1|най-активния рецензент|най-активните $1 рецензенти}} през {{PLURAL:$2|последния един час|последните $2 часа}}.",
+	"validationstatistics-user": "Потребител",
+	"validationstatistics-reviews": "Проверки"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"bs-socialprofile-type": "Profil",
+	"bs-socialprofile-entityaction-changeimage": "Brugerbillede",
+	"bs-social-entityaction-editprofilefields": "Profildata",
+	"bs-social-profile-field-name": "Navn",
+	"bs-social-profile-field-email": "E-mail",
+	"bs-social-profile-field-title": "Titel",
+	"bs-social-profile-field-department": "Afdeling",
+	"bs-social-profile-field-function": "Funktion",
+	"bs-social-profile-field-location": "Sted",
+	"bs-social-profile-field-phone": "Telefon",
+	"bs-socialprofile-special-profiles-heading": "Profiler",
+	"socialprofiles": "Profiler",
+	"bs-socialprofile-switch-classicprofile-label": "Klassisk profil",
+	"bs-socialprofile-switch-modernprofile-label": "Moderne profil",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Skift til klassisk profil",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Skift til moderne profil"
+}

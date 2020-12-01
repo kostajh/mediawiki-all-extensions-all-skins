@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"PonkoSasuke",
+			"Rcdeboer",
+			"Siebrand"
+		]
+	},
+	"graphviz-desc": "Maakt het mogelijk [http://www.graphviz.org Graphviz]-markup te gebruiken en inline afbeeldingen aan te maken",
+	"graphviz-reload": "Bron van afgebeelde graaf is gewijzigd. Herlaad pagina om bijgewerkte graaf te tonen.",
+	"graphviz-no-input": "Graaf-bron ontbreekt.",
+	"graphviz-dot-invalid-image": "Het dot-attribuut $1 moet de naam van een geüpload bestand zijn.",
+	"graphviz-dot-attr-forbidden": "Het dot-attribuut $1 is niet toegestaan.",
+	"graphviz-read-src-failed": "Kan de graaf-tekst niet lezen van het bestandssysteem.",
+	"graphviz-write-src-failed": "Kan de graaf-tekst niet schrijven naar het bestandssysteem.",
+	"graphviz-write-map-failed": "Kan de graaf-map niet schrijven naar het bestandssysteem.",
+	"graphviz-mkdir-failed": "Kan geen map aanmaken in het bestandssysteem.",
+	"graphviz-delete-reason": "Dit tijdelijke bestand is verwijderd door de GraphViz-extensie.",
+	"graphviz-alt": "Dit is een graaf met lijnen en knopen die mogelijk hyperlinks bevatten.",
+	"graphviz-uploaddisabledtext": "Graaf-afbeelding kan niet worden gecreëerd omdat bestandsuploads zijn uitgeschakeld.",
+	"graphviz-upload-not-permitted": "Aanmaken van graaf-afbeelding vereist uploadrechten.",
+	"graphviz-user-blocked": "Graaf-afbeelding kan niet worden gecreëerd door geblokkeerde gebruikers.",
+	"graphviz-read-only": "Graaf-afbeelding kan niet worden gecreëerd omdat de wiki zich in alleen-lezenmodus bevindt.",
+	"graphviz-uploaderror": "Uploaden van graaf-afbeelding is mislukt voor het bestand: $1",
+	"graphviz-upload-comment": "gegenereerd door de GraphViz [[Special:Version#Installed_extensions|extensie]] van de [[$1]] pagina",
+	"graphviz-unrecognized-preparse-value": "De preparse-waarde van \"$1\" is niet herkend.",
+	"graphviz-category-desc": "$1 bevat pagina's die gemaakt zijn door de GraphViz-extensie.",
+	"graphviz-subcategory-desc": "$1 bevat pagina's gemaakt met de $2-opdracht.",
+	"graphviz-map-desc": "= ImageMap =\nBij het invoegen van deze afbeelding op een wikipagina past u de volgende mark-up toe om verwijzingen te gebruiken:\n <nowiki>\n<imagemap>\nBestand:$1\n$2</imagemap>\n</nowiki>\nZie [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ImageMap ImageMap] voor meer informatie."
+}

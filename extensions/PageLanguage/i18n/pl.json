@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Woytecr"
+		]
+	},
+	"pagelanguage-desc": "Określa język dla każdej strony",
+	"pagelanguage-invalid": "'''Ostrzeżenie:''' Zignorowano nieprawidłowy kod języka \"$1\" dla języka strony.",
+	"pagelanguage-duplicate": "'''Ostrzeżenie:''' Język strony \"$2\" zastępuje wcześniejszy język \"$1\"."
+}

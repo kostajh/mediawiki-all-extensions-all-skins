@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nixtonin"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "Umožňuje export do HTML",
+	"bs-uemodulehtml-pref-DefaultTemplate": "Standardní šablona",
+	"bs-uemodulehtml-pref-SuppressNS": "Skrýt předponu oboru názvů v HTML",
+	"bs-uemodulehtml-pref-Backend": "Backend",
+	"bs-uemodulehtml-widgetlink-single-text": "Jedna stránka HTML (archivovaná)",
+	"bs-uemodulehtml-widgetlink-single-title": "Exportujte tuto stránku jako HTML a její zdroje jako archiv",
+	"bs-uemodulehtml-overview-title": "HTML dokument (archivovaný)",
+	"bs-uemodulehtml-overview-description": "Exportuje stránky (speciální a obsahové stránky) do HTML."
+}

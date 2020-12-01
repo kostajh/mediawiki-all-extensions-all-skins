@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"inlinecategorizer-desc": "Modul JavaScript que permet de modificar, apondre e suprimir de ligams de categoria dirèctament dempuèi una pagina",
+	"inlinecategorizer-add-category": "Apondre una categoria",
+	"inlinecategorizer-add-category-submit": "Apondre",
+	"inlinecategorizer-add-category-summary": "Apondre la categoria « $1 »",
+	"inlinecategorizer-api-error": "L’API a tornat una error : $1 : $2",
+	"inlinecategorizer-api-unknown-error": "L'API a tornat una error desconeguda",
+	"inlinecategorizer-cancel": "Anullar las modificacions",
+	"inlinecategorizer-cancel-all": "Anullar totes los cambiaments",
+	"inlinecategorizer-category-already-present": "Aquesta pagina aparten ja a la categoria $1",
+	"inlinecategorizer-category-hook-error": "Una foncion locala a empachat d’enregistrar los cambiaments",
+	"inlinecategorizer-category-question": "Perqué volètz far los cambiaments seguents :",
+	"inlinecategorizer-confirm-ok": "D'acòrdi",
+	"inlinecategorizer-confirm-save": "Publicar",
+	"inlinecategorizer-confirm-save-all": "Enregistrar totas las modificacions",
+	"inlinecategorizer-confirm-title": "Confirmar l'accion",
+	"inlinecategorizer-edit-category": "Modificar una categoria",
+	"inlinecategorizer-edit-category-error": "Es pas estat possible de modificar la categoria « $1 ».\nAquò se produtz generalament quand la categoria es estada aponduda a la pagina via un modèl.",
+	"inlinecategorizer-edit-category-summary": "Cambiar la categoria « $1 » cap a « $2 »",
+	"inlinecategorizer-error-title": "Error",
+	"inlinecategorizer-remove-category": "Suprimir la categoria",
+	"inlinecategorizer-remove-category-error": "Es pas estat possible de levar la categoria « $1 ».\nAquò se produtz generalament quand la categoria es estada aponduda a la pagina via un modèl.",
+	"inlinecategorizer-remove-category-summary": "Levar la categoria « $1 »"
+}

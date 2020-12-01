@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"articletocategory2-desc": "Puts an inputbox on each category page allowing creation of a new page directly into that category",
+	"articletocategory2-create-article-under-category-text": "Add a page to this category",
+	"articletocategory2-create-article-under-category-button": "Create",
+	"articletocategory2-create-category-under-category-text": "Add a category to this category",
+	"articletocategory2-create-category-under-category-button": "Create",
+	"action-ArticleToCategory2": "add page to category",
+	"right-ArticleToCategory2": "Add page to category",
+	"action-ArticleToCategory2AddCat": "add category to category",
+	"right-ArticleToCategory2AddCat": "Add category to category"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Fitoschido",
+			"Macofe",
+			"Platonides"
+		]
+	},
+	"wlm-extension-desc": "Añade información y mensajes relacionados con el concurso fotográfico Wiki Loves Monuments",
+	"wlm-no-contest-year": "No hubo un concurso de Wiki Loves Monument en $1.",
+	"wlm-no-url-bad-country": "No se pudo encontrar la web del concurso local. No hay un país con código $1.",
+	"wlm-country-not-given": "Debes proporcionar un código de país.",
+	"wlm-country-not-participating-year": "«$1» no participa en Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "Otros países",
+	"wlm-international-contest": "Internacional",
+	"wlm-text-contact": "Contacto",
+	"wlm-text-contest": "Concurso",
+	"wlm-text-donate": "Donar",
+	"wlm-text-faq": "P+F",
+	"wlm-text-jury": "Jurado",
+	"wlm-text-monuments": "Monumentos",
+	"wlm-text-news": "Novedades",
+	"wlm-text-participate": "¡Participa!",
+	"wlm-text-prizes": "Premios",
+	"wlm-text-rules": "Reglamento",
+	"wlm-text-sponsors": "Patrocinadores",
+	"wlm-text-uploading": "Subir fotos"
+}

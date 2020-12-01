@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjälten",
+			"Sabelöga",
+			"WikiPhoenix"
+		]
+	},
+	"bs-notifications-addaccount": "Användaren \"$1\" har skapats.",
+	"bs-notifications-email-addaccount-subject": "Användaren \"$2\" har {{GENDER:$1|skapats}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|Användaren}} $2 har skapats.\n\nDu kan besöka {{GENDER:$2|hans|hennes|dennes}} användarsida via länken nedan",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|Användaren}} $2 har skapats.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Skapare}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Skapare}}: $1",
+	"bs-notifications-registeruser": "Användare \"$1\" har öppnat ett konto.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|Användaren}} \"$2\" {{GENDER:$1|skapade}} ett konto",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|Användaren}} $2 {{GENDER:$1|skapade}} ett konto.\n\nDu kan besöka {{GENDER:$1|hans|hennes|personens}} användarsida genom att följa länken nedan",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|Användaren}} $2 {{GENDER:$1|skapade}} ett konto.",
+	"bs-notifications-edit": "Sidan \"$1\" har ändrats",
+	"bs-notifications-edit-bundle": "Sidan \"$2\" har ändrats {{PLURAL:$1|$1 gång|$1 gånger}}",
+	"bs-notifications-email-edit-subject": "Sidan \"$1\" {{GENDER:$2|redigerades}} $4 av $3",
+	"bs-notifications-email-edit-body": "Sidan \"$1\" har {{GENDER:$2|redigerades}} på $5 av $4.\n\nKommentar:\n $3",
+	"bs-notifications-web-edit-body": "Sidan \"$1\" har {{GENDER:$2|redigerats}} av $3.",
+	"bs-notifications-create": "Sidan \"$1\" har skapats",
+	"bs-notifications-email-create-subject": "Sidan \"$1\" {{GENDER:$2|skapades}} på $4 av $3",
+	"bs-notifications-email-create-body": "Sidan \"$1\" har {{GENDER:$2|skapats}} på $5 av $3.\n\nKommentar:\n $4 \nDu kan besöka sidan med följande länk",
+	"bs-notifications-web-create-body": "Sidan \"$1\" {{GENDER:$2|skapades}} av $3.",
+	"bs-notifications-delete": "Sidan \"$1\" har raderats",
+	"bs-notifications-email-delete-subject": "Sidan \"$1\" {{GENDER:$2|raderades}} på $4 av $3",
+	"bs-notifications-email-delete-body": "Sidan \"$1\" har {{GENDER:$2|raderats}} på $5 av $3.\n\nDetta var anledningen:\n$4",
+	"bs-notifications-web-delete-body": "Sidan \"$1\" har {{GENDER:$2|raderats}} av $3",
+	"bs-notifications-move": "Sidan \"$1\" har flyttats",
+	"bs-notifications-email-move-subject": "Sidan \"$1\" {{GENDER:$2|flyttades}} på $5 till \"$3\" av $4",
+	"bs-notifications-email-move-body": "Sidan \"$1\" har {{GENDER:$2|flyttats}} till \"$3\" på $6 av $4.\n\nAnledningen var:\n$5\n\nDu kan besöka sidan med följande länk nedan",
+	"bs-notifications-web-move-body": "Sidan \"$1\" har {{GENDER:$2|flyttats}} till \"$3\" av $4",
+	"bs-notifications-edit-difflink-label": "Se skillnaden",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Hej}} $1",
+	"bs-notifications-htmlmail-sender-info": "$1 aviseringssystem",
+	"bs-notifications-mail-additional-links-label": "Ytterligare länkar"
+}

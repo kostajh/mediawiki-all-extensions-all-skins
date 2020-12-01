@@ -1,0 +1,134 @@
+{
+	"title": "jade/judgment-set",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "https://phabricator.wikimedia.org/diffusion/EJAD/browse/master/jsonschema/judgment/v1.json?view=raw",
+	"type": "object",
+	"properties": {
+		"judgments": {
+			"type": "array",
+			"items": {
+				"$ref": "#/definitions/judgment"
+			}
+		}
+	},
+	"additionalProperties": false,
+	"definitions": {
+		"endorsement": {
+			"type": "object",
+			"properties": {
+				"comment": {
+					"type": "string",
+					"description": "Wikitext explaining why the user is endorsing"
+				},
+				"user": {
+					"$ref": "#/definitions/user",
+					"description": "Endorsement author"
+				},
+				"origin": {
+					"type": "string",
+					"description": "Plain text identifying the tool and workflow used to make this endorsement"
+				},
+				"created": {
+					"type": "string",
+					"description": "Time created in ISO 8601"
+				}
+			},
+			"required": [
+				"user", "created"
+			],
+			"additionalProperties": false
+		},
+		"judgment": {
+			"type": "object",
+			"properties": {
+				"schema": {
+					"oneOf": [
+						{ "$ref": "#/definitions/schema/contentquality" },
+						{ "$ref": "#/definitions/schema/editquality" }
+					]
+				},
+				"notes": {
+					"type": "string",
+					"description": "Wikitext comments or justification of this judgment."
+				},
+				"preferred": {
+					"type": "boolean",
+					"default": false,
+					"description": "True when this judgment best represents a consensus opinion."
+				},
+				"endorsements": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/endorsement"
+					},
+					"minItems": 1
+				}
+			},
+			"required": [
+				"preferred",
+				"schema"
+			],
+			"additionalProperties": false
+		},
+		"schema": {
+			"contentquality": {
+				"type": "object",
+				"properties": {
+					"contentquality": {
+						"type": "integer"
+					}
+				},
+				"additionalProperties": false,
+				"required": [ "contentquality" ]
+			},
+			"editquality": {
+				"type": "object",
+				"properties": {
+					"damaging": {
+						"type": "boolean"
+					},
+					"goodfaith": {
+						"type": "boolean"
+					}
+				},
+				"additionalProperties": false,
+				"required": [
+					"damaging",
+					"goodfaith"
+				]
+			}
+		},
+		"user": {
+			"oneOf": [
+				{
+					"type": "object",
+					"properties": {
+						"id": {
+							"type": "integer",
+							"description": "Local wiki ID for contributor.",
+							"minimum": 0
+						},
+						"cid": {
+							"type": "integer",
+							"description": "Central ID for contributor.",
+							"minimum": 0
+						}
+					},
+					"additionalProperties": false,
+					"required": [ "id" ]
+				},
+				{
+					"type": "object",
+					"properties": {
+						"ip": {
+							"type": "string",
+							"description": "IP address (v4 or v6) for contributor."
+						}
+					},
+					"additionalProperties": false,
+					"required": [ "ip" ]
+				}
+			]
+		}
+	}
+}

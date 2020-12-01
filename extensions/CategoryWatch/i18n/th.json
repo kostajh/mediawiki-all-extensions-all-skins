@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"categorywatch-desc": "ขยายฟังก์ชันการทำงานเกี่ยวกับรายการเฝ้าดูเพื่อรวมการแจ้งเตือนเกี่ยวกับการเปลี่ยนแปลงสมาชิกของหมวดหมู่ที่เฝ้าดู",
+	"categorywatch-emailsubject": "กิจกรรมที่เกี่ยวข้องกับหมวดหมู่ที่เฝ้าดู \"$1\"",
+	"categorywatch-catmovein": "$1 ได้ย้ายเข้าสู่ $2 จาก $3",
+	"categorywatch-catmoveout": "$1 ได้ย้ายออกจาก $2 ไปยัง $3",
+	"categorywatch-catadd": "$1 ได้ถูกเพิ่มลงใน $2",
+	"categorywatch-catsub": "$1 ได้ถูกเอาออกจาก $2",
+	"categorywatch-autocat": "เฝ้าดูโดยอัตโนมัติโดย $1",
+	"categorywatch-notification-link": "หมวดหมู่: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] ถูกเพิ่มลงใน [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] ถูกเพิ่มลงใน [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] เพิ่ม [[:$3|$3]] ลงใน [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] ถูกเอาออกจาก [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] ถูกเอาออกจาก [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] เอา [[:$3|$3]] ออกจาก [[:$4|$4]]"
+}

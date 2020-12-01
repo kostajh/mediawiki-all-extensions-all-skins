@@ -1,0 +1,409 @@
+/**
+ * MediaWiki Dusk Skin by Gregory S. Hayes
+ * Copyright: Gregory S. Hayes - http://www.icebreaker.net
+ * License: GPL (http://www.gnu.org/copyleft/gpl.html)
+ *
+ * Based on WordPress "Dusk" theme by Becca Wei
+ * and MonoBook MediaWiki skin by Gabriel Wicke
+ */
+
+#column-one {
+	float: left;
+	width: 210px;
+	padding: 80px 25px 0 15px;
+	/* @embed */
+	background: url(../images/sidebar-ltr.gif) no-repeat top right;
+	color: #878584;
+	font-size: 0.92em;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 170px;
+}
+html > body #column-one {
+	width: 170px;
+}
+
+/* Right column styles */
+#column-one h5 {
+	margin: 0 0 0.6em 0;
+	border-bottom: 1px dotted #5E5D5D;
+	padding-top: 1.1em;
+	font-size: 1.1em;
+}
+#column-one a:link {
+	color: #7599B7;
+}
+#column-one a:visited, #column-one a:active {
+	color: #8B99B7;
+}
+#column-one a:hover {
+	color: #497CA7;
+	text-decoration: none;
+}
+#column-one ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#column-one ul ul, #column-one ol {
+	margin: 1.2em 0 1.2em 1.3em;
+}
+#column-one ul ul {
+	list-style-type: disc;
+}
+#column-one ul ul ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Copy of mixin-screen-reader-text() LESS mixin from /resources/src/mediawiki.less/mediawiki.mixins.less@REL1_32 */
+.mw-jump-link:not( :focus ) {
+	display: block;
+	position: absolute !important; /* stylelint-disable-line declaration-no-important */
+	clip: rect( 1px, 1px, 1px, 1px );
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#content {
+	float: left;
+	width: 550px;
+	padding: 0 20px 0 35px;
+	/* @embed */
+	background: url(../images/content-ltr.gif) no-repeat;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 495px;
+}
+html > body #content {
+	width: 495px;
+}
+
+/* Make portlet headers readable */
+div.portlet h5 {
+	color: #FFF;
+}
+
+/* the left column width is specified in class .portlet */
+
+/* Font size:
+** We take advantage of keyword scaling- browsers won't go below 9px
+** More at http://www.w3.org/2003/07/30-font-size
+** http://style.cleverchimp.com/font_size_intervals/altintervals.html
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #556777 url(../images/bg-ltr.gif) repeat-x;
+	font-size: x-small;
+	font-family: Arial, sans-serif;
+	color: #4A4A49;
+	text-align: center;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-size: small;
+	direction: ltr; /* Needed for RTL flipping */
+	unicode-bidi: embed;
+}
+html > body {
+	font-size: small;
+}
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 1.2em 0;
+}
+ol, ul {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 1.2em 0 1.2em 2em;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 1.2em 0;
+	font-family: Verdana, serif;
+}
+h1, h2 {
+	font-size: 1.5em;
+}
+h2 {
+	margin: 0.6em 0 0 0;
+	padding: 0 0 1px 0;
+	border-bottom: 1px dotted #888685;
+}
+h3 {
+	font-size: 1.4em;
+}
+h4 {
+	font-size: 1.3em;
+}
+h5 {
+	font-size: 1.2em;
+}
+h6 {
+	font-size: 1.1em;
+}
+a:link {
+	color: #497CA7;
+}
+a:visited, a:active {
+/*	color: #6E7CA7; */
+	color: #497CA7;
+}
+a:hover {
+	color: #7599B7;
+	text-decoration: none;
+}
+input, textarea, select {
+	background-color: #FFF;
+	color: #4A4A49;
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+}
+blockquote {
+	margin: 0 20px;
+	padding: 0 20px;
+	border-left: 4px solid #888685;
+}
+code {
+	font-family: monospace;
+	color: #666;
+}
+form, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a.new, #column-content a.new, #p-personal a.new {
+	color:#a786c0;
+}
+
+/* #6d00c0 #9f73c0 */
+/*
+**.firstHeading {
+**	margin: 0.6em 0 0 0;
+**	padding: 0 0 1px 0;
+**	border-bottom: 1px dotted #888685;
+**}
+*/
+
+.printfooter {
+	display: none;
+}
+
+/* emulate center */
+.center {
+	width: 100%;
+	text-align: center;
+}
+*.center * {
+	margin-left: auto;
+	margin-right: auto;
+}
+/* small for tables and similar */
+.small, .small * { font-size: 94%; }
+table.small { font-size: 100% }
+
+/* disable interwiki styling */
+#bodyContent a.extiw,
+#bodyContent a.extiw:active {
+	color: #3366bb;
+	background: none;
+	padding: 0;
+}
+
+#bodyContent a.external { color: #3366bb; }
+
+/* thumbnails */
+div.thumb {
+	border-color: #EEEAE8;
+}
+div.thumb div {
+	border: 1px solid #cccccc;
+	padding: 3px !important;
+	background-color: #f9f9f9;
+	font-size: 94%;
+	text-align: center;
+	overflow: hidden;
+}
+div.thumb div a img {
+	border: 1px solid #cccccc;
+}
+div.thumb div div.thumbcaption {
+	border: none;
+	text-align: left;
+	line-height: 1.4em;
+	padding: 0.3em 0 0.1em 0;
+}
+div.magnify {
+	float: right;
+}
+div.tright {
+	clear: right;
+	float: right;
+	border-width: 0.5em 0 0.8em 1.4em;
+}
+div.tleft {
+	float: left;
+	margin-right: 0.5em;
+	border-width: 0.5em 1.4em 0.8em 0;
+}
+.urlexpansion,
+.hiddenStructure {
+	display: none;
+}
+img.tex {
+	border: 1px solid #cccccc;
+	padding: 3px !important;
+	background-color: #f9f9f9;
+	font-size: 94%;
+	text-align: center;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+/* Layout */
+#siteSub { display: none; }
+
+#globalWrapper {
+	width: 760px;
+	margin: 0 auto;
+	/* @embed */
+	background: #EEEAE8 url(../images/wrapper-ltr.gif) repeat-y;
+	font-size: 0.9em;
+	text-align: left;
+}
+
+#header {
+	width: 760px;
+	height: 170px;
+	/* @embed */
+	background: url(../images/header-ltr.gif) no-repeat;
+}
+
+/* Header styles */
+#title {
+	float: left;
+	margin: 38px 0 0 9px;
+	border: 1px dashed #2E3235;
+	padding: 1px;
+}
+#title h1 {
+	margin: 0 !important;
+	padding: 5px 15px;
+	border: 0;
+	background-color: #222;
+	color: #878584;
+	font-size: 2em;
+	font-weight: normal !important;
+	line-height: 32px;
+	letter-spacing: 1px;
+}
+#title h1 a {
+	color: #878584;
+	text-decoration: none;
+}
+
+/* Footer styles */
+#footer {
+	clear: both;
+	padding: 1.2em 230px 1.2em 35px;
+}
+#footer p {
+	margin: 0;
+	/* padding: 0.6em 0; */
+	border-top: 1px dotted #888685;
+	font-size: 0.92em;
+}
+#footer li {
+	display: inline;
+	margin: 0 1.3em;
+}
+/* Push the links down a bit so that they won't overlap with the footer icons */
+ul#f-list {
+	margin-top: 4.5em;
+}
+
+/* hide from incapable browsers */
+head:first-child+body #footer li { white-space: nowrap; }
+#footer > div > a > img {
+	margin: 0 8px;
+	padding: 5px; /* added this */
+	position: relative;
+	top: 10px; /* Bump it up just a tad */
+}
+#f-poweredbyico {
+	float: right;
+	height: 1%;
+}
+#f-copyrightico {
+	float: left;
+	height: 1%;
+}
+
+/* noarticletext a.k.a the message shown when a page does not exist */
+div.noarticletext {
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: .2em 1em;
+	color: #000;
+}
+
+/* Diffs */
+table.diff {
+	background-color: transparent;
+}
+
+/* Visually indicate when a button is disabled (i.e. not clickable) */
+input[disabled] {
+	color: #808080; /* gray */
+}
+
+/* Special:Upload */
+textarea#wpUploadDescription {
+	width: 400px !important;
+}
+
+select#wpLicense {
+	width: 405px !important;
+}
+
+/** Miscellaneous CSS fixes for social tools that really should be elsewhere but... */
+
+/** FanBoxes */
+
+/* Why do I have to resort to a pixel-based fixed width? */
+/* @todo FIXME: this is used by FanBoxes' Special:UserBox but also by BlogPage's Special:CreateBlogPost... */
+div#create-tagcloud {
+	width: 500px !important;
+}
+
+/* Nope, it won't work. Stupid iframe...
+input#wpUploadFile {
+	width: 330px;
+}
+*/
+
+/** LinkFilter */
+/* "About the Submitter" box on individual Link: pages */
+/* TODO FIXME: this doesn't scale like at all.
+This only works with the English default text, and even with that, barely.
+div.link-left-units {
+	width: 100px;
+}
+*/
+
+/** @todo FIXME: image upload iframe (once again...) */
+
+/** SportsTeams/UserStatus */
+span.top-fan-num, /* Special:TopUsers (a part of core SocialProfile) */
+span.network-number, /* Special:TopNetworks */
+div.view-poll-number /* Special:ViewPoll */ {
+	color: #000;
+}

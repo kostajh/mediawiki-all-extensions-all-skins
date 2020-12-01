@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"oauthratelimiter-desc": "Estende a extensão OAuth para incluir declarações de limite de razão no JWT"
+}

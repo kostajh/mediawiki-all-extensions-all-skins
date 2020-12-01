@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"nobogususerpages-desc": "限制创建不存在用户的用户页",
+	"badaccess-bogususerpage": "此用户页对应的用户不存在。您没有权限创建一个假的用户页。",
+	"right-createbogususerpage": "为在此wiki尚未注册的用户创建用户页"
+}

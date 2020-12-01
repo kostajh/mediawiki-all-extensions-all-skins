@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu",
+			"Malafaya"
+		]
+	},
+	"categorywatch-desc": "Expande a funcionalidade das páginas vigiadas para incluir notificações sobre alterações nos membros das categorias vigiadas",
+	"categorywatch-emailsubject": "Actividade envolvendo a categoria vigiada \"$1\"",
+	"categorywatch-catmovein": "moveu $1 para a categoria $2 a partir de $3",
+	"categorywatch-catmoveout": "moveu $1 da categoria $2 para $3",
+	"categorywatch-catadd": "adicionou $1 à categoria $2",
+	"categorywatch-catsub": "removeu $1 da categoria $2",
+	"categorywatch-autocat": "Vigiada automaticamente por $1",
+	"categorywatch-notification-link": "Categoria: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] adicionada a [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] adicionada a [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] adicionou [[:$3|$3]] a [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] removida de [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] removida de [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] removeu [[:$3|$3]] de [[:$4|$4]]",
+	"categorywatch-notification-bundle": "$1 mudanças de categorização na wiki {{SITENAME}}",
+	"categorywatch-add-title": "Título adicionado a categoria vigiada",
+	"categorywatch-remove-title": "Título removido de categoria vigiada",
+	"categorywatch-page-watch-pref": "Adicionar todas as páginas de uma categoria à sua lista de páginas vigiadas quando adicionar uma categoria",
+	"echo-category-title-categorywatch": "Categorias vigiadas",
+	"echo-pref-tooltip-categorywatch": "Notificar-me quando alguém adicionar ou remover uma página de uma categoria que estou a vigiar."
+}

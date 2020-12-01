@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"BrokenArrow",
+			"Darth Kule"
+		]
+	},
+	"contributors": "Autori",
+	"contributors-desc": "Riepiloga gli autori principali di una pagina",
+	"contributors-toolbox": "Contributori alla pagina",
+	"contributors-legend": "Elenca gli autori principali di una pagina",
+	"contributors-target": "Titolo:",
+	"contributors-submit": "Mostra",
+	"contributors-subtitle": "Autori principali di $1",
+	"contributors-others-long": "La pagina è stata modificata anche da {{PLURAL:$1|un altro autore|$1 altri autori}}.",
+	"contributors-others": "e {{PLURAL:$1|un altro|$1 altri}}",
+	"contributors-badtitle": "Titolo non valido.",
+	"contributors-nosuchpage": "La pagina $1 non esiste.",
+	"contributors-filterip": "Nascondi indirizzi IP",
+	"contributors-name": "Nome utente",
+	"contributors-revisions": "Numero di versioni",
+	"contributors-first-edit": "Data della prima modifica",
+	"contributors-last-edit": "Data di ultima modifica",
+	"contributors-add-subpages": "Aggiungi sottopagine",
+	"apihelp-query+contributors-example-1": "Mostra contributori alla pagina principale"
+}

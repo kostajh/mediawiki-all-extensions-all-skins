@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Malafaya",
+			"Sir Lestaty de Lioncourt",
+			"Vitorvicentevalente"
+		]
+	},
+	"closewikis-desc": "Permite fechar uma wiki em sítios de alojamento de wikis",
+	"closewikis-page": "Fechar wiki",
+	"closewikis-page-close": "Fechar wiki",
+	"closewikis-page-close-wiki": "Wiki:",
+	"closewikis-page-close-dreason": "Motivo (apresentado):",
+	"closewikis-page-close-reason": "Motivo (registado):",
+	"closewikis-page-close-submit": "Fechar",
+	"closewikis-page-close-success": "A wiki foi encerrada",
+	"closewikis-page-reopen": "Reabrir wiki",
+	"closewikis-page-reopen-wiki": "Wiki:",
+	"closewikis-page-reopen-reason": "Motivo:",
+	"closewikis-page-reopen-submit": "Reabrir",
+	"closewikis-page-reopen-success": "A wiki foi reaberta",
+	"closewikis-page-err-nowiki": "Foi especificada uma wiki inválida",
+	"closewikis-page-err-closed": "Wiki já está fechada",
+	"closewikis-page-err-opened": "Esta wiki não está fechada",
+	"closewikis-list": "Lista de wikis fechadas",
+	"closewikis-list-intro": "Esta lista contém wikis que foram fechadas por administradores ''(stewards)''.",
+	"closewikis-list-header-wiki": "Wiki",
+	"closewikis-list-header-by": "Fechada por",
+	"closewikis-list-header-timestamp": "Fechada em",
+	"closewikis-list-header-dispreason": "Motivo apresentado",
+	"closewikis-log": "Registo de Wikis fechadas",
+	"closewikis-log-header": "Este é um registo de todas as wikis que foram fechadas ou reabertas por administradores ''(stewards)''",
+	"closewikis-log-close": "fechada $2",
+	"closewikis-log-reopen": "reaberta $2",
+	"action-editclosedwikis": "editar wikis fechadas",
+	"right-editclosedwikis": "Editar wikis fechadas",
+	"action-closewikis": "fechar wikis",
+	"right-closewikis": "Fechar wikis"
+}

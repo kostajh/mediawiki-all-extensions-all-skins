@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexandr Efremov",
+			"Facenapalm",
+			"Megakott",
+			"Okras",
+			"Romanko Mikhail",
+			"Vlad5250"
+		]
+	},
+	"bs-countthings-desc": "Предоставляет статистику на основании анализа содержания",
+	"bs-countthings-chars-label": "Символы",
+	"bs-countthings-words-label": "Слова",
+	"bs-countthings-files-label": "Файлы",
+	"bs-countthings-pages-label": "Страницы",
+	"bs-countthings-ve-countcharacters-title": "Счётчик символов",
+	"bs-countthings-ve-countarticles-title": "Счётчик статей",
+	"bs-countthings-ve-countfiles-title": "Счётчик файлов",
+	"bs-countthings-ve-countusers-title": "Счётчик участников",
+	"bs-countthings-ve-countthingsinspector-mode": "Режим",
+	"bs-countthings-ve-countcharacters-mode-all": "все",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "символы",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "слова",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "символы и слова",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "страницы",
+	"bs-countthings-ve-countcharacters-input-label": "Страницы",
+	"bs-countthings-error-no-input": "Страница не указан",
+	"bs-countthings-error-invalid-mode": "Режим \"$1\" не применяется. Пожалуйста, используйте \"chars\", \"words\" или \"pages\".",
+	"bs-countthings-error-not-exist": "Страница «$1» не существует.",
+	"bs-countthings-tag-countarticles-desc": "Показывает количество статей в вики.",
+	"bs-countthings-tag-countusers-desc": "Показывает число зарегистрированных участников.",
+	"bs-countthings-tag-countfiles-desc": "Показывает количество файлов в вики.",
+	"bs-countthings-tag-countcharacters-desc": "Генерирует метаданные о содержании указанной статьи. На выходе получается карточка, которая может быть включена в статью. С помощью параметра «mode» можно отображать разные типы информации.",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Что следует считать <code>chars</code> (символы), <code>words</code> (слова) или <code>pages</code> (страницы).",
+	"bs-countthings-tag-countcharacters-example-1": "Число слов",
+	"bs-countthings-tag-countcharacters-example-2": "Число символов"
+}

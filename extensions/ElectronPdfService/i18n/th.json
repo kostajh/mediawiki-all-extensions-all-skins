@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "เพิ่มการรองรับการแสดงผล PDF ในเบราว์เซอร์ผ่านบริการ Electron PDF",
+	"electronpdfservice-special-page-headline": "ดาวน์โหลดเป็น PDF",
+	"electronpdfservice-download-label": "ดาวน์โหลดเป็น PDF",
+	"electronpdfservice-download-button": "ดาวน์โหลด",
+	"electronpdfservice-sidebar-portlet-heading": "พิมพ์/ส่งออก",
+	"electronpdfservice-sidebar-portlet-print-text": "ดาวน์โหลดเป็น PDF",
+	"electronpdfservice-invalid-page-title": "หน้าไม่ถูกต้อง",
+	"electronpdfservice-invalid-page-text": "หน้าที่ระบุไม่ถูกต้อง"
+}

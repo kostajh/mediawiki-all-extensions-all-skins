@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Y-M D"
+		]
+	},
+	"patrol": "Gwiriekadur ar c'hemmoù",
+	"patrol-desc": "Etrefas patrouilhañ gwellaet evit rannañ ar garg labour",
+	"patrol-endorse": "Aprouiñ",
+	"patrol-revert": "Assevel",
+	"patrol-revert-reason": "Abeg :",
+	"patrol-skip": "Lezel a-gostez",
+	"patrol-reverting": "O tisteuler : $1",
+	"patrol-nonefound": "N'eus bet kavet degasadenn genglotus ebet da wiriañ.",
+	"patrol-endorsed-ok": "Merket eo bet ar c'hemm evel gwiriekaet.",
+	"patrol-endorsed-failed": "Dibosupl eo bet gwiriañ ar c'hemm.",
+	"patrol-reverted-ok": "Distaolet eo bet ar c'hemm-se.",
+	"patrol-reverted-failed": "N'eus ket bet tu nullañ ar c'hemm-mañ.",
+	"patrol-skipped-ok": "O lezel ar c'hemm a-gostez.",
+	"patrol-reasons": "* Vandalerezh eeun\n* Taol esae un den nevez\n* Gwelet ar bajenn gaozeal",
+	"patrol-another": "Diskouez ur c'hemm all, ma 'z eo posupl.",
+	"patrol-stopped": "Dibabet hoc'h eus chom hep gwiriañ degasadenn ebet all. $1",
+	"patrol-resume": "Klikit amañ evit kenderc'hel.",
+	"group-patroller": "Patrouilherien",
+	"group-patroller-member": "{{GENDER:$1|patrouilher|patrouilherez}}",
+	"grouppage-patroller": "{{ns:project}}:Patrouilher",
+	"right-patroller": "Pajennoù patrouilhañ"
+}

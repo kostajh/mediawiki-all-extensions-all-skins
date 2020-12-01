@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"apihelp-gaejobqueue-param-titletext": "Текст наслова без именског простора",
+	"apihelp-gaejobqueue-param-type": "Врста задатка.",
+	"apihelp-gaejobqueue-param-params": "PHP серијализује параметре за задатак"
+}

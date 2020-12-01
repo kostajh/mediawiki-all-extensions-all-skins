@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"extralanguagelink-desc": "Engade ligazóns de idioma adicionais na sección \"noutros idiomas\" da barra lateral",
+	"extralanguagelink-param-class": "clase",
+	"extralanguagelink-param-hreflang": "hreflang",
+	"extralanguagelink-param-lang": "lingua",
+	"extralanguagelink-param-style": "estilo",
+	"extralanguagelink-param-title": "título",
+	"extralanguagelink-badinterwiki": "O prefixo interwiki \"$1\":\" non está na lista de prefixos interwiki permitidos.",
+	"extralanguagelink-badtitle": "O título da páxina \"$1\" non pode ser analizado."
+}

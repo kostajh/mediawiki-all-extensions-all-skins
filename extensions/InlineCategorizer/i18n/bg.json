@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"Vodnokon4e"
+		]
+	},
+	"inlinecategorizer-desc": "JavaScript-модул, позволяващ промяна, добавяне и премахване на връзки към категории директно от страница",
+	"inlinecategorizer-add-category": "Добавяне на категория",
+	"inlinecategorizer-add-category-submit": "Добавяне",
+	"inlinecategorizer-add-category-summary": "Добавяне на категория „$1“",
+	"inlinecategorizer-api-error": "API-то върна грешка: $1: $2",
+	"inlinecategorizer-api-unknown-error": "API-то върна непозната грешка.",
+	"inlinecategorizer-cancel": "Отказване на редакциите",
+	"inlinecategorizer-cancel-all": "Отказване на всички промени",
+	"inlinecategorizer-category-already-present": "Тази страница вече принадлежи към категорията $1",
+	"inlinecategorizer-category-hook-error": "Локална функция предотврати записването на промените",
+	"inlinecategorizer-category-question": "Какво налага следните промени:",
+	"inlinecategorizer-confirm-ok": "Потвърждаване",
+	"inlinecategorizer-confirm-save": "Съхраняване",
+	"inlinecategorizer-confirm-save-all": "Съхраняване на всички промени",
+	"inlinecategorizer-confirm-title": "Потвърждаване на действието",
+	"inlinecategorizer-edit-category": "Редактиране на категория",
+	"inlinecategorizer-edit-category-error": "Не е възможно редактирането на категория \"$1\".\nТова често се случва, когато категорията е добавена в страницата чрез шаблон.",
+	"inlinecategorizer-edit-category-summary": "Промяна на категорията \"$1\" на \"$2\"",
+	"inlinecategorizer-error-title": "Грешка",
+	"inlinecategorizer-remove-category": "Премахване на категория",
+	"inlinecategorizer-remove-category-error": "Не може да бъде премахната категория \"$1\". \nТова обикновено се случва, когато категорията е била добавена в страницата индиректно чрез шаблон.",
+	"inlinecategorizer-remove-category-summary": "Премахване на категория „$1“"
+}

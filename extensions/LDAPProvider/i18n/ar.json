@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"ldapprovider-desc": "يوفر بنية تحتية مشتركة للاتصال بمورد LDAP وتشغيل الاستعلامات ضده",
+	"ldapprovider-config-clientregistry": "يسمح بتسجيل العملاء المخصصين",
+	"ldapprovider-config-domainconfigs": "مخازن لكل تكوينات النطاقات",
+	"ldapprovider-domain-config-not-found": "تعذر الوصول إلى ملف التكوين \"$1\"!\n\nيُرجَى إعداد ملف تهيئة النطاق لملحق LDAPProvider.",
+	"ldapprovider-more-than-one": "العثور على أكثر من مستخدم واحد لـ\"$1\"",
+	"ldapprovider-config-domainconfigprovider": "يحدد آلية الحصول على تكوين النطاق"
+}

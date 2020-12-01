@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-uemoduledocx-extension-description": "DOCX로 내보내기를 활성화합니다",
+	"bs-uemoduledocx-pref-SuppressNS": "DOCX에서 이름공간 접두어 숨김",
+	"bs-uemoduledocx-widgetlink-single-text": "DOCX 단일 문서",
+	"bs-uemoduledocx-widgetlink-single-title": "이 문서를 DOCX로 내보냅니다.",
+	"bs-uemoduledocx-overview-title": "마이크로소프트&reg; 오피스 오픈 XML (DOCX)",
+	"bs-uemoduledocx-overview-description": "문서를 마이크로소프트 DOCX로 내보냅니다.",
+	"bs-uemoduledocx-overview-webservice-state-not-ok": "사용할 수 없음",
+	"bs-uemoduledocx-overview-webservice-state-ok": "사용 가능",
+	"bs-uemoduledocx-overview-webservice-webadmin": "DOCXService (BShtml2DOCX) 웹인터페이스",
+	"bs-uemoduledocx-overview-webservice-state": "DOCXService (BShtml2DOCX) 상태"
+}

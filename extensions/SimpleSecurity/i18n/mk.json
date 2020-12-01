@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"security": "Дневник на сигурност",
+	"security-desc": "Ја дополнува заштитата на страниците „МедијаВики“, овозможувајќи ограничување на прегледувањето на содржините на страницата",
+	"security-logpage": "Дневник на сигурност",
+	"security-logpagetext": "Ова е дневник на дејства блокирани од [https://www.mediawiki.org/wiki/Extension:SimpleSecurity додатокот SimpleSecurity].",
+	"badaccess-read": "'''Предупредување:''' „$1“ е наведена тука, но немате доволно дозволи за да ја отворите.",
+	"security-info": "На оваа страница има $1",
+	"security-info-toggle": "сигурносни ограничувања",
+	"security-inforestrict": "$1 е ограничен на $2",
+	"security-desc-LS": "(важи бидејќи оваа страница се наоѓа во $2 „$1“)",
+	"security-desc-PR": "(поставено преку јазичето „заштити“)",
+	"security-infosysops": "Не важат никакви ограничувања бидејќи вие членувате во групата „sysop“",
+	"security-manygroups": "групите $1 и $2",
+	"security-unchain": "Менувај дејства поединечно",
+	"security-type-category": "категоријата",
+	"security-type-namespace": "именскиот простор",
+	"security-restricttogroup": "Отвори содржина ограничена на членови на „$1“",
+	"restriction-read": "Прочитај"
+}

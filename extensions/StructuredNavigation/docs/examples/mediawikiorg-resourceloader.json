@@ -1,0 +1,64 @@
+{
+	"config": {
+		"title": {
+			"page": "ResourceLoader",
+			"label": "ResourceLoader"
+		}
+	},
+	"groups": [
+		{
+			"title": {
+				"label": "Documentation"
+			},
+			"content": [
+				[
+					"ResourceLoader/Features",
+					"Features"
+				],
+				[
+					"ResourceLoader/Vocabulary",
+					"Vocabulary"
+				],
+				[
+					"ResourceLoader/Migration guide (users)",
+					"Migration guide (users)"
+				],
+				[
+					"ResourceLoader/Migration guide for extension developers",
+					"Migration guide (developers)"
+				],
+				[
+					"ResourceLoader/Developing with ResourceLoader",
+					"Developing with ResourceLoader"
+				],
+				[
+					"ResourceLoader/Modules",
+					"Core modules"
+				]
+			]
+		},
+		{
+			"title": {
+				"label": "Project information"
+			},
+			"content": [
+				[
+					"ResourceLoader/status",
+					"Status updates"
+				],
+				[
+					"ResourceLoader/Version 1 Design Specification",
+					"Version 1 Design Specification"
+				],
+				[
+					"ResourceLoader/Version 2 Design Specification",
+					"Version 2 Design Specification"
+				],
+				[
+					"ResourceLoader/Requirements",
+					"Requirements"
+				]
+			]
+		}
+	]
+}

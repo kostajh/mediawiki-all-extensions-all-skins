@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"lifeweb": "LifeWeb",
+	"lifeweb-desc": "Identifizierungsschlüsselgenerator und Editor",
+	"apihelp-query+LifeWeb-description": "Daten-Downlink für die LifeBase.",
+	"apihelp-query+LifeWeb-summary": "Daten-Downlink für die LifeBase.",
+	"apihelp-query+LifeWeb-param-what": "Welche Datenliste abgerufen werden soll.",
+	"apihelp-query+LifeWeb-param-clearCache": "Ob der Cache während des Datenabrufs gelöscht werden soll oder nicht",
+	"apihelp-query+LifeWeb-example-1": "Taxon-Liste",
+	"apihelp-query+LifeWeb-example-2": "Fragenliste, gut gedruckt"
+}

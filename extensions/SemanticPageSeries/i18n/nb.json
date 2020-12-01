@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Event",
+			"Jon Harald Søby"
+		]
+	},
+	"semanticpageseries-desc": "Oppretter en sideserie fra et  [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:Page_Forms Page Form-skjema]",
+	"spssuccesstitle": "Oppretter $1 sider",
+	"spssuccess": "{{PLURAL:$1|En side|$1 sider}} vil opprettes.",
+	"spssuccess-returntoorigin": "Gå tilbake til $1",
+	"spserror": "Det oppstod en feil",
+	"spserror-diffnotsupported": "Diff-funksjonen kan ikke brukes på sideserier.",
+	"spserror-previewnotsupported": "Forhåndsvisningsfunksjonen kan ikke brukes på sideserier.",
+	"spserror-noiteratorname": "Ingen iterator er angitt. Du må angi parameteren \"iterator\" i kallet av \"#serieslink\"-parserfunksjonen.",
+	"spserror-iteratorunknown": "Iterator \"$1\" finnes ikke. Du må korrigere parameteren \"iterator\" i kallet på #serieslink-parserfunksjonen.",
+	"spserror-noformname": "Skjemanavn er ikke angitt. Du må angi parameteren \"form\" i \"#serieslink\"-parserfunksjonen.",
+	"spserror-formunknown": "Skjema \"$1\" finnes ikke.",
+	"spserror-notargetformname": "Navn på resultatskjema (\"target form\") er ikke angitt. Du må sette parameter \"target form\" i kallet på #serieslink-parserfunksjonen.",
+	"spserror-notargetfieldname": "Navn på resultatfelt (\"target field\") er ikke angitt. Du må sette parameter \"target field\" i kallet på #serieslink-parserfunksjonen.",
+	"spserror-iteratorparammissing": "Følgende iterator-parametre mangler i #serieslink-kallet:\n$1",
+	"spserror-noiteratordata": "Ingen iterator-parametre ble funnet i de sendte data.",
+	"spserror-pagegenerationlimitexeeded": "Du prøve å generere {{PLURAL:$1|en side|$1 sider}}. Dette overskrider din tillatte grense på {{PLURAL:$2|en side|$2 sider}}.",
+	"spserror-date-startdatemissing": "Startdatoen mangler.",
+	"spserror-date-internalerror": "Det oppstod en feil ved opprettelse av datoene: $1",
+	"spserror-count-startvaluemalformed": "Startverdien er ikke et tall.",
+	"spserror-count-endvaluemalformed": "Sluttverdien er ikke et tall.",
+	"spserror-count-stepvaluemalformed": "Verdi-inkrementet er ikke et tall.",
+	"spserror-count-digitsvaluemalformed": "Sifferverdien er ikke et tall."
+}

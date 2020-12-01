@@ -1,0 +1,12 @@
+DigestEmailer
+=============
+The DigestEmailer script need to be configured using a cron job.
+For example, it can be scheduled to run on every Sunday 10AM using the
+following crontab entry.
+
+0 10 * * 7 /usr/bin/php /www/wiki/extensions/TranslationNotifications/scripts/DigestEmailer.php 2>&1 > /var/log/digestEmail.log
+
+The script will not start sending emails immediately. It starts inserting email
+jobs to the MediaWiki job queue. Depending on the configured jobqueue scheduling
+the mails will be send out. You can read more about the MediaWiki Job Queue
+here: https://www.mediawiki.org/wiki/Job_queue

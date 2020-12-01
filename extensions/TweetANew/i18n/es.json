@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Fitoschido"
+		]
+	},
+	"tweetanew-desc": "Emitir tuits al crear o editar páginas",
+	"tweetanew-newaction": "Publique en Twitter sobre esta página nueva",
+	"tweetanew-newtooltip": "Enviar información acerca de esta nueva página a Twitter",
+	"tweetanew-editaction": "Publicar en Twitter acerca de esta edición",
+	"tweetanew-edittooltip": "Enviar información sobre esta edición a Twitter",
+	"tweetanew-minoredit": "m",
+	"tweetanew-authorcredit": "por",
+	"tweetanew-newdefault": "NUEVA PÁGINA: $1 - $2",
+	"tweetanew-new1": "Parece que la página $1 fue creada en la dirección $2",
+	"tweetanew-new2": "La página $1 fue recientemente creada en $2",
+	"tweetanew-new3": "Revise $2  - hay una nueva página en $1",
+	"tweetanew-editdefault": "PÁGINA ACTUALIZADA:  $1 - $2",
+	"tweetanew-edit1": "Parece que la página $1 se actualizó en la dirección $2",
+	"tweetanew-edit2": "La página $1 fue cambiada recientemente en la dirección $2",
+	"tweetanew-edit3": "Revise $2  -hay algunos contenidos nuevos en la dirección $1"
+}

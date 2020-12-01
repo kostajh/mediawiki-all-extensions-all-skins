@@ -1,0 +1,23 @@
+{
+	"name": "Prop",
+	"version": "1.0",
+	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]",
+	"descriptionmsg": "prop-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"Prop": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PropAlias": "Prop.alias.php"
+	},
+	"AutoloadClasses": {
+		"Prop": "Prop.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "Prop::onParserFirstCallInit"
+	},
+	"manifest_version": 1
+}

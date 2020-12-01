@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bengtsson96",
+			"Fader",
+			"Najami",
+			"WikiPhoenix"
+		]
+	},
+	"multiupload": "Ladda upp flera filer",
+	"multiupload-desc": "Gör det möjligt att [[Special:MultiUpload|ladda upp flera filer på en gång]]",
+	"multiupload-text": "Använd formuläret nedan för att ladda upp flera filer samtidigt.\n\nGå till [[Special:FileList|listan över uppladdade filer]] för att se eller söka bland redan uppladdade filer, uppladdningar och återuppladdningar kan ses i [[Special:Log/upload|uppladdningsloggen]] och raderingar spåras i [[Special:Log/delete|raderingsloggen]].\n\nAnvänd något av följande för att inkludera en fil på en sida:\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Fil.jpg]]</nowiki></code></strong> för att använda hela filen\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:File.png|200px|thumb|left|beskrivning]]</nowiki></code></strong> för att visa en 200 pixlar bred miniatyr i vänstermarginalen med beskrivning\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:Fil.ogg]]</nowiki></code></strong> för att länka till filsidan utan att visa filen.\n\nSidan kommer exanderas så att du kan ladda upp fler filer när du valt en första fil.\n\nMarkera en fil och klicka på \"{{int:multiupload-unpack-button}}\" som då dyker upp för att ladda upp och packa upp komprimerade filer med ändelsen <code>.zip</code>, <code>.tar</code>, <code>.tar.gz</code>, eller <code>.tgz</code>.",
+	"multipleupload": "Ladda upp filer",
+	"multipleupload-toolbox": "Ladda upp flera filer",
+	"multiupload-submit": "Ladda upp filer",
+	"multiupload-uploadedto": "Laddade upp filen $1.",
+	"multiupload-row": "Fil $1",
+	"multiupload-unpack-button": "Packa upp",
+	"multiupload-notify-ok": "OK",
+	"multiupload-upload-package-error": "Fel uppstod när paketfil laddades upp",
+	"multiupload-unpack-error": "Fel uppstod när paketfil packades upp",
+	"multiupload-unreadable-package": "Kan inte läsa filen $1",
+	"multiupload-http-error": "Kunde inte ansluta till servern.",
+	"multiupload-file-unpacked-from": "Filen <b>$1</b> från paketet <b>$2</b>",
+	"apihelp-multiupload-unpack-description": "Packa upp en ZIP- eller tar-fil innan dess innehåll importeras.",
+	"apihelp-multiupload-unpack-summary": "Packa upp en ZIP- eller tar-fil innan dess innehåll importeras.",
+	"apihelp-multiupload-unpack-param-key": "\"filekey\" hämtades när paketfilen laddades upp i stashen",
+	"apihelp-multiupload-unpack-param-filename": "Paketets filnamn"
+}

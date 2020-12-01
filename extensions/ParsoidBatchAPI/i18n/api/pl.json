@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"InternerowyGołąb"
+		]
+	},
+	"apierror-parsoid-batch-texttoobig": "Wprowadzony tekst przekracza maksymalny rozmiar strony.",
+	"apierror-parsoid-batch-invalidtitle": "Niepoprawny tytuł ($1)."
+}

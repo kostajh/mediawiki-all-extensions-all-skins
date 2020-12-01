@@ -1,0 +1,42 @@
+{
+	"name": "UploadsLink",
+	"author": [
+		"Bartosz Dziewoński",
+		"Rainer Rillke"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:UploadsLink",
+	"descriptionmsg": "uploadslink-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"MessagesDirs": {
+		"UploadsLink": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"UploadsLinkHooks": "includes/UploadsLinkHooks.php"
+	},
+	"Hooks": {
+		"PersonalUrls": [
+			"UploadsLinkHooks::onPersonalUrls"
+		],
+		"SidebarBeforeOutput": [
+			"UploadsLinkHooks::onSidebarBeforeOutput"
+		]
+	},
+	"config": {
+		"UploadsLinkDisableAnon": {
+			"value": true
+		},
+		"UploadsLinkEnablePersonalLink": {
+			"value": true
+		},
+		"UploadsLinkEnableRelevantUserLink": {
+			"value": true
+		}
+	},
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	}
+}

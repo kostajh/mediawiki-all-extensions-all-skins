@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"wpfromns-desc": "來自命名空間的所需頁面",
+	"wpfromns-links": "{{PLURAL:$1|1 個連結}}",
+	"wpfromns-nons": "WantedPagesFromNS：沒有指定命名空間！",
+	"wpfromns-nores": "沒有要顯示的頁面。"
+}

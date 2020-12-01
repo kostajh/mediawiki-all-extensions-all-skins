@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
+	"edituser": "Modiffica utente",
+	"edituser-desc": "O permette a-i utenti co-i privileggi necessai de modificâ e preferençe d'atri utenti",
+	"edituser-username": "Nomme utente:",
+	"edituser-dosearch": "Riçerca",
+	"edituser-nouser": "L'utente \"$1\" o no l'existe.",
+	"edituser-exempt": "L'utente \"$1\" o no poeu ese modificou.",
+	"right-edituser": "Modiffica e preferençe di atri utenti",
+	"right-edituser-exempt": "E so preferençe no poeuan ese modificæ da atri",
+	"action-edituser": "modificâ e preferençe di atri utenti",
+	"action-edituser-exempt": "modificâ e preferençe de questo utente"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Artsiom91",
+			"Maksim L."
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Дадае падтрымку заснаванага на браўзеры PDF з дапамогай сервісу Electron PDF",
+	"electronpdfservice-special-page-headline": "Загрузіць як PDF",
+	"electronpdfservice-download-label": "Загрузіць як PDF",
+	"electronpdfservice-download-button": "Загрузіць",
+	"electronpdfservice-sidebar-portlet-heading": "Друк/экспарт",
+	"electronpdfservice-sidebar-portlet-print-text": "Загрузіць як PDF",
+	"electronpdfservice-invalid-page-title": "Недапушчальная старонка",
+	"electronpdfservice-invalid-page-text": "Вызначана недапушчальная старонка."
+}

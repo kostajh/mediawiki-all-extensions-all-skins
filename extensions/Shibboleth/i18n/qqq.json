@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"shibboleth-desc": "{{desc|name=Shibboleth|url=https://www.mediawiki.org/wiki/Extension:Shibboleth}}",
+	"shibboleth-wg-empty-displayname": "Used as error message",
+	"shibboleth-wg-empty-email": "Used as error message",
+	"shibboleth-wg-empty-username": "Used as error message",
+	"shibboleth-wg-empty-groupmap-attr": "Used as error message",
+	"shibboleth-attr-empty-username": "Used as error message",
+	"shibboleth-attr-empty-groupmap-attr": "Used as error message"
+}

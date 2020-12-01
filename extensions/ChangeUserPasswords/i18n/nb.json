@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"changeuserpasswords": "Endre brukerpassord",
+	"changeuserpassword-desc": "Dette er en utvidelse for å endre brukerpassord, utenom noen som indikert av administrator.",
+	"changeuserpassword-pagename": "Endre brukerpassord",
+	"changeuserpassword-topheader": "Velg brukernavn det skal endres passord for. All brukere er valgt som standard. Vennligst fjern merkingen av brukernavn du ikke ønsker å endre passordet for.",
+	"changeuserpassword-success": "Brukerpassord endret!",
+	"changeuserpassword-title": "Endre brukerpassord",
+	"changeuserpassword-intro": "Dette er en utvidelse for å endre passordet til brukere, utenom noen som indikert av administrator.",
+	"action-changeuserpasswords": "endre brukerpassord",
+	"right-changeuserpasswords": "Endre brukerpassord"
+}

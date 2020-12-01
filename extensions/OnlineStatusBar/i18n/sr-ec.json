@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"prefs-onlinestatus": "Онлајн статус",
+	"onlinestatusbar-used": "Приказује ваш онлајн статус на вашим корисничким страницама",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Онлајн}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Заузет}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Офлајн}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Непознато}}"
+}

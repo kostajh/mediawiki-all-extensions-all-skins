@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Linforest",
+			"Liuxinyu970226",
+			"Yfdyh000"
+		]
+	},
+	"sidebarmenu-desc": "一个简单的，可用于创建可折叠式/可展开式菜单及子菜单的边栏菜单解析器",
+	"sidebarmenu-parser-input-error": "解析器返回错误：$1",
+	"sidebarmenu-parser-syntax-error": "无法解析\"$1\"，请确认语法是否正确。",
+	"sidebarmenu-js-init-error": "JavaScript资源加载失败。",
+	"sidebarmenu-edit": "编辑菜单",
+	"sidebarmenu-parser-menuitem-expanded-null": "提供的值无效，值应为null、true、false之一。",
+	"sidebarmenu-parser-config-error": "验证输入参数时出错",
+	"sidebarmenu-parser-subpage-error-title-not-found": "找不到引用的子页面标题"
+}

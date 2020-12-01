@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaganer",
+			"Okras"
+		]
+	},
+	"gpgmail-desc": "Шифрует сообщения электронной почты с помощью GPG",
+	"gpgmail-pref-enable": "Шифровать сообщения электронной почты с помощью GPG",
+	"gpgmail-pref-key": "Открытый ключ GPG",
+	"gpgmail-pref-key-help": "См. [https://help.ubuntu.com/community/GnuPrivacyGuardHowto справку по Ubuntu] с информацией по получению публичного ключа.",
+	"gpgmail-encrypt-error": "Произошла ошибка в процессе шифрования почты."
+}

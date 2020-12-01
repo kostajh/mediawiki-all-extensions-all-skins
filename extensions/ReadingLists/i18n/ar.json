@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"readinglists-desc": "يسمح للمستخدمين بإدارة قوائم خاصة بالمقالات، مثل الإشارات المرجعية أو قوائم \"القراءة لاحقا\".",
+	"readinglists-db-error-not-set-up": "لم يتم إعداد قوائم القراءة لهذا المستخدم.",
+	"readinglists-db-error-already-set-up": "تم بالفعل إعداد قوائم القراءة لهذا المستخدم.",
+	"readinglists-db-error-cannot-delete-default-list": "القائمة الافتراضية لا يمكن حذفها.",
+	"readinglists-db-error-cannot-update-default-list": "لا يمكن تحديث القائمة الافتراضية.",
+	"readinglists-db-error-no-such-list": "القائمة $1 غير موجودة.",
+	"readinglists-db-error-no-such-list-entry": "إدخال القائمة $1 غير موجود.",
+	"readinglists-db-error-not-own-list": "القائمة $1 تنتمي إلى مستخدم آخر.",
+	"readinglists-db-error-not-own-list-entry": "ينتمي إدخال القائمة $1 إلى مستخدم آخر.",
+	"readinglists-db-error-list-deleted": "تم حذف القائمة $1.",
+	"readinglists-db-error-list-entry-deleted": "تم حذف إدخال القائمة $1.",
+	"readinglists-db-error-duplicate-list": "توجد قائمة بهذا الاسم بالفعل.",
+	"readinglists-db-error-duplicate-page": "القائمة تحتوي بالفعل على هذه الصفحة.",
+	"readinglists-db-error-empty-list-ids": "يجب ألا يكون وسيط معرفات القائمة فارغا.",
+	"readinglists-db-error-user-required": "لا يمكن استدعاء هذه الطريقة بدون تحديد المستخدم.",
+	"readinglists-db-error-list-limit": "لا يمكن أن يكون لدى المستخدمين أكثر من $1 {{PLURAL:$1|قائمة|قوائم}}.",
+	"readinglists-db-error-entry-limit": "لا يمكن أن تحتوي القائمة $1 على أكثر من $2 {{PLURAL:$2|إدخال|إدخالات}}.",
+	"readinglists-db-error-too-long": "لا يمكن أن تكون قيمة الحقل $1 أطول من $2 بايت.",
+	"readinglists-db-error-no-such-project": "'$1' ليس مشروعا معترفا به.",
+	"readinglists-browser-add-entry-success": "تم حفظ $1 في قائمة القراءة الخاصة بك",
+	"readinglists-browser-login-prompt": "سجل الدخول لحفظ المقالات",
+	"readinglists-browser-error-intro": "حدث خطأ: $1",
+	"readinglists-browser-enable-sync-prompt": "مكن مزامنة تطبيق ويكيبيديا الخاص بك لبدء حفظ المقالات",
+	"readinglists-browser-extension-info-link-text": "معرفة المزيد",
+	"readinglists-browser-list-entry-limit-exceeded": "المقالة لا يمكن حفظها; لقد بلغت الحد الأقصى $1 مقالة لكل قائمة",
+	"readinglists-browser-extension-product-title": "قوائم قراءة ويكيبيديا",
+	"readinglists-browser-page-not-supported": "لا يدعم $1 هذه الصفحة"
+}

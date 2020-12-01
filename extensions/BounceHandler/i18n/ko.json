@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nuevo Paso",
+			"Revi",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"bouncehandler-desc": "미디어위키의 이메일 반송을 처리하는 것을 돕습니다",
+	"bouncehandler-notify_subject": "임시 반송을 반환 중",
+	"notification-bouncehandler": "{{GENDER:$1|등록된}} 이메일 주소가 더 이상 유효하지 않습니다.",
+	"notification-bouncehandler-flyout": "{{GENDER:$2|여러}} 번의 이메일 배달이 실패했기 때문에 이메일 주소 $1 이(가) 삭제되었습니다. 이메일 주소를 [[Special:ConfirmEmail|재확인할 수 있습니다]].",
+	"notification-link-text-change-email": "이메일 주소 변경",
+	"notification-header-unsubscribe-bouncehandler": "{{GENDER:$4|여러}} 번의 이메일 배달이 실패했기 때문에 이메일 주소 $3 이(가) 삭제되었습니다. 이메일 주소를 재확인할 수 있습니다."
+}

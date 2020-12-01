@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"emailauth-desc": "Bekrefter mistenkelige innlogginger via epost.",
+	"emailauth-token-label": "Bekreftelseskode",
+	"emailauth-token-help": "Engangs 2FA-tegn sendt via epost.",
+	"emailauth-email-subject": "Bekreftelseskoden din for å logge inn på $1",
+	"emailauth-email-body": "Bekreftelseskoden din for å logge inn på $1 er $2",
+	"emailauth-login-message": "Du må bekrefte innloggingen din. En bekreftelseskode har blitt sendt til epostadressa di ($1), skriv inn den koden her.",
+	"emailauth-login-failure": "Ugyldig bekreftelseskode!",
+	"emailauth-login-retry-limit": "Mislyktes for mange ganger!"
+}

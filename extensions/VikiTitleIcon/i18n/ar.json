@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"vikititleicon-desc": "البرنامج المساعد VIKI لإظهار الشعار من الصفحات باستخدام ملحق أيقونة العنوان",
+	"vikititleicon-error-fetch": "خطأ في جلب بيانات أيقونة العنوان للعقدة: $1.",
+	"apihelp-getTitleIcons-description": "احصل على مسارات جميع أيقونات العنوان للصفحة، إن وُجِدت.",
+	"apihelp-getTitleIcons-summary": "احصل على مسارات جميع أيقونات العنوان للصفحة، إن وُجِدت.",
+	"apihelp-getTitleIcons-param-pageTitle": "عنوان الصفحة التي ترغب في استرداد أيقونات عناوينها"
+}

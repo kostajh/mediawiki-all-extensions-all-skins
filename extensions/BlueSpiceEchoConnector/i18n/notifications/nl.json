@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Mar(c)",
+			"Romaine",
+			"Rots61",
+			"Sjoerddebruin",
+			"Xbaked potatox"
+		]
+	},
+	"bs-notifications-addaccount": "De gebruiker \"$1\" is aangemaakt.",
+	"bs-notifications-email-addaccount-subject": "Gebruiker \"$2\" is {{GENDER:$1|aangemaakt}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|De gebruiker}} $2 is aangemaakt.\n\nU kunt een bezoek brengen aan {{GENDER:$2|zijn|haar|de}} gebruikerspagina via de koppeling beneden",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|De gebruiker}} $2 is gemaakt.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Maker}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Maker}}: $1",
+	"bs-notifications-registeruser": "De gebruiker \"$1\" heeft een account aangemaakt.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|Gebruiker}} \"$2\" heeft een account {{GENDER:$1|aangemaakt}}",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|De gebruiker}} \"$2\" heeft een account {{GENDER:$1|aangemaakt}}.\n\nU kunt {{GENDER:$1|zijn|haar|de}} gebruikerspagina bezoeken via de koppeling hier beneden",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|De gebruiker}} $2 heeft een account {{GENDER:$1|aangemaakt}}.",
+	"bs-notifications-edit": "De pagina \"$1\" is gewijzigd",
+	"bs-notifications-edit-bundle": "De pagina \"$2\" is {{PLURAL:$1|$1 keer|$1 keren}} gewijzigd",
+	"bs-notifications-email-edit-subject": "Pagina \"$1\" is {{GENDER:$2|bewerkt}} op $4 door $3",
+	"bs-notifications-email-edit-body": "De pagina \"$1\" is {{GENDER:$2|bewerkt}} op $5 door $4.\n\nOpmerking:\n $3",
+	"bs-notifications-web-edit-body": "De pagina $1 is {{GENDER:$2|bewerkt}} door $3.",
+	"bs-notifications-create": "De pagina \"$1\" is aangemaakt",
+	"bs-notifications-email-create-subject": "Pagina \"$1\" {{GENDER:$2|is aangemaakt}} op $4 door $3",
+	"bs-notifications-email-create-body": "De pagina \"$1\" is {{GENDER:$2|aangemaakt}} op $5 door $3.\n\nOpmerking:\n $4 \nU kunt de pagina bezoeken via de koppeling hier beneden",
+	"bs-notifications-web-create-body": "De pagina \"$1\" is {{GENDER:$2|aangemaakt}} door $3.",
+	"bs-notifications-delete": "De pagina \"$1\" is verwijderd",
+	"bs-notifications-email-delete-subject": "Pagina \"$1\" is {{GENDER:$2|verwijderd}} op $5 door $3",
+	"bs-notifications-email-delete-body": "De pagina \"$1\" is {{GENDER:$2|verwijderd}} op $5 door $3.\n\nDe volgende reden is opgegeven:\n$4",
+	"bs-notifications-web-delete-body": "De pagina \"$1\" is {{GENDER:$2|verwijderd}} door $3.",
+	"bs-notifications-move": "De pagina \"$1\" is hernoemd",
+	"bs-notifications-email-move-subject": "Pagina \"$1\" is {{GENDER:$2|hernoemd}} naar \"$3\" op $5 door $4",
+	"bs-notifications-email-move-body": "De pagina \"$1\" is {{GENDER:$2|hernoemd}} naar \"$3\" op $6 door $4. \n\nDe volgende reden is opgegeven:\n$5\n\nU kunt de pagina bezoeken via de koppeling hier beneden",
+	"bs-notifications-web-move-body": "De pagina \"$1\" is {{GENDER:$2|hernoemd}} naar \"$3\" door $4",
+	"bs-notifications-edit-difflink-label": "Verschillen weergeven",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Hallo}} $1",
+	"bs-notifications-mail-additional-links-label": "Extra koppelingen"
+}

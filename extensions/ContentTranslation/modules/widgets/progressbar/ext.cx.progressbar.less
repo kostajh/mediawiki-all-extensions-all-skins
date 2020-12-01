@@ -1,0 +1,43 @@
+@import '../../ui/styles/mw.cx.mixins.less';
+
+.cx-header__progressbar {
+	.mw-ui-one-whole;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+.cx-progressbar {
+	.mw-ui-one-whole;
+	background-color: @colorGray12;
+	height: 4px;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.cx-progressbar__bar {
+	background-color: @colorProgressive;
+	display: block;
+	left: 0;
+	height: 4px;
+	transition: width 1s;
+}
+
+.cx-progressbar__bar--mt {
+	background-color: @colorGray5;
+	opacity: 0.5;
+	display: block;
+	position: relative;
+	top: -4px;
+	left: 0;
+	height: 4px;
+	transition: width 1s;
+}
+
+.cx-progressbar__info {
+	background-color: @colorGray14;
+}
+
+.cx-progressbar__info--mt {
+	font-size: small;
+}

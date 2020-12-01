@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Acamicamacaraca",
+			"BadDog",
+			"Milicevic01",
+			"Zoranzoki21"
+		]
+	},
+	"accountinfo": "Информације о налогу",
+	"accountinfo-desc": "Дозвољава кориснику да види ускладиштене приватне информације о њему",
+	"accountinfo-ts": "Временска ознака",
+	"accountinfo-ip": "IP адреса",
+	"accountinfo-ua": "Кориснички агент",
+	"accountinfo-xff": "XFF заглавље",
+	"accountinfo-length": "Информације су задржане за $1.",
+	"accountinfo-now": "Сада"
+}

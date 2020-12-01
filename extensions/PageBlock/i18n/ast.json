@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"pageblock-desc": "Permite les torgues por páxina o por usuariu",
+	"pageblock": "Torgar usuariu",
+	"pageblock-legend": "Torgar usuariu",
+	"pageblock-form-title": "Nome de la páxina",
+	"pageblock-form-user": "Nome d'usuariu",
+	"pageblock-form-edit": "Torgar les ediciones d'un usuariu",
+	"pageblock-form-sameformove": "Aplicar les mesmes torgues al treslláu",
+	"pageblock-form-move": "Torgar los tresllaos d'un usuariu",
+	"pageblock-form-reason": "Motivu",
+	"pageblock-success": "$1 tien torgao $2.",
+	"listrestrictions": "Llista de torgues",
+	"listrestrictions-legend": "Llista de torgues",
+	"pageblock-list-title": "Nome de la páxina",
+	"pageblock-list-user": "Nome d'usuariu",
+	"pageblock-list-indefonly": "Amosar sólo les torgues indefiníes",
+	"pageblock-restricted-edit-indef": "$1 tien torgao editar $2 de mou indefiníu.",
+	"pageblock-restricted-edit": "$1 tien torgao editar $2 hasta $3.",
+	"pageblock-restricted-move-indef": "$1 tien torgao treslladar $2 de mou indefiníu.",
+	"pageblock-restricted-move": "$1 tien torgao treslladar $2 hasta $3.",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|Tienes}} torgao editar $2 de mou indefiníu.",
+	"pageblock-blocked-edit": "{{GENDER:$1|Tienes}} torgao editar $2 hasta $3.",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|}}Tienes torgao treslladar $2 de mou indefiníu.",
+	"pageblock-blocked-move": "{{GENDER:$1|Tienes}} torgao treslladar hasta $3.",
+	"logentry-restrict-add-edit-move": "$1 {{GENDER:$2|torgó}} a $3 editar y treslladar $4",
+	"logentry-restrict-add-edit": "$1 {{GENDER:$2|torgó}} a $3 editar $4",
+	"logentry-restrict-add-move": "$1 {{GENDER:$2|torgó}} a $3 treslladar $4",
+	"action-page-block": "aAplicar, cambiar o desaniciar torgues per páxina o per usuariu",
+	"right-page-block": "Aplicar, cambiar o desaniciar torgues per páxina o per usuariu"
+}

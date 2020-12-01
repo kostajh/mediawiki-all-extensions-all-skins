@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"performanceinspector-modules-css-used-selectors-values": "$1 ($3টির $2টি)",
+	"performanceinspector-modules-css-column-source": "উৎস",
+	"performanceinspector-imagesize-name": "চিত্রের আকার",
+	"performanceinspector-imagesize-label": "চিত্রের আকার",
+	"performanceinspector-imagesize-column-image-name": "নাম",
+	"performanceinspector-imagesize-column-size": "আকার",
+	"performanceinspector-imagesize-column-image-extra": "অতিরিক্ত",
+	"performanceinspector-imagesize-too-big": "সতর্কীকরণ",
+	"performanceinspector-newpp-cachereport-now": "এখন"
+}

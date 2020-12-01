@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Josef Konrad <konrad@hallowelt.com>"
+		]
+	},
+	"bs-insertTemplate-desc": "Dialog to insert a template",
+	"bs-insertTemplate-button-template-title": "Insert or edit template",
+	"bs-insertTemplate-dialog-title": "Insert template",
+	"bs-insertTemplate-dialog-label-choose": "Choose template",
+	"bs-insertTemplate-dialog-label-modify": "Modify template",
+	"bs-insertTemplate-dialog-label-preview": "Preview",
+	"apihelp-bs-inserttemplate-store-description": "Lists all templates. Allows sorting, filtering and pagination. Implements ExtJS Store parameters.",
+	"apihelp-bs-inserttemplate-store-summary": "Lists all templates. Allows sorting, filtering and pagination. Implements ExtJS Store parameters."
+}

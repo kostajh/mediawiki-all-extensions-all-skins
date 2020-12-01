@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vinhtantran"
+		]
+	},
+	"stalkerlog-desc": "Thêm [[Special:Log/stalkerlog|nhật trình]] ghi lại các lần đăng nhập và đăng xuất của thành viên",
+	"stalkerlog-log-login": "đã đăng nhập.",
+	"stalkerlog-log-logout": "đã đăng xuất.",
+	"stalkerlog-log-type": "Nhật trình xác minh người dùng",
+	"stalkerlog-log-text": "Đây là nhật trình ghi lại các lần đăng nhập và đăng xuất của người dùng."
+}

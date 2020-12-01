@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
+		]
+	},
+	"bs-smartlist-desc": "Mostra as cinco últimas alterações da wiki numa lista",
+	"prefs-smartlist": "Lista inteligente",
+	"bs-smartlist-recent-changes": "Mudanças recentes",
+	"bs-smartlist-no-entries": "Nenhum resultado encontrado.",
+	"bs-smartlist-invalid-namespaces": "{{PLURAL:$1|O espaço nominal fornecido é inválido|Os espaços nominais fornecidos são inválidos}}: $2.",
+	"bs-smartlist-invalid-target": "O destino fornecido não é um título de página válido.",
+	"bs-smartlist-comment": "Comentário: $1.",
+	"bs-smartlist-sort-asc": "ascendente",
+	"bs-smartlist-sort-desc": "descendente",
+	"bs-smartlist-day": "Dia",
+	"bs-smartlist-week": "Semana",
+	"bs-smartlist-month": "Mês",
+	"bs-smartlist-time": "Tempo",
+	"bs-smartlist-title": "Título",
+	"bs-smartlist-tag-smartlist-desc": "Apresenta listas de artigos geradas automaticamente. A configuração funciona através de vários modos e parâmetros.",
+	"bs-smartlist-tag-smartlist-example-rc": "Modo: Mudanças recentes",
+	"bs-smartlist-tag-smartlist-example-whatlinkshere": "Modo: O que liga aqui",
+	"bs-smartlist-tag-newbies-desc": "Mostra os novos usuários do wiki. A lista pode ser restrita a um determinado número.",
+	"bs-smartlist-tag-toplist-desc": "Mostra as páginas mais visitadas. Pode ser restringida por vários parâmetros.",
+	"bs-smartlist-mostvisitedpages": "Páginas mais visualizadas",
+	"bs-smartlist-mosteditedpages": "Páginas mais editadas",
+	"bs-smartlist-mostactiveusers": "Usuários mais ativos (por edições)",
+	"bs-smartlist-lastedits": "As minhas edições",
+	"bs-smartlist-noedits": "Não foram encontradas edições.",
+	"bs-smartlist-mostactiveusersdesc": "Lista dos usuários mais ativos ordenados por suas edições.",
+	"bs-smartlist-mosteditedpagesdesc": "Lista das páginas mais editadas ordenada pelo número de edições.",
+	"bs-smartlist-mostvisitedpagesdesc": "Lista das páginas mais visitadas ordenada pelo número de visitas.",
+	"bs-smartlist-lasteditsdesc": "Lista de páginas que editou.",
+	"bs-smartlist-hitcounter-missing": "A extensão <a target='blank' href='https://www.mediawiki.org/wiki/Extension:HitCounters'>HitCounters</a> precisa de ser instalada.",
+	"apihelp-bs-smartlist-tasks-description": "Funções da API para fornecer a <i>portlets</i> dados estatísticos de páginas e utilizadores.",
+	"apihelp-bs-smartlist-tasks-summary": "Funções da API para servir dados de portlet para estatísticas de páginas e usuários."
+}

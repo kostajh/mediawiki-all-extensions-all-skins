@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"semanticpageseries-desc": "Crear unha serie de páxinas a partir dun [https://www.mediawiki.org/wiki/Extension:Semantic_Forms formulario semántico]",
+	"spssuccesstitle": "Creando páxinas do tipo $1",
+	"spssuccess": "{{PLURAL:$1|Vaise crear unha páxina.|Vanse crear $1 páxinas.}}",
+	"spssuccess-returntoorigin": "Volver a \"$1\"",
+	"spserror": "Houbo un erro",
+	"spserror-diffnotsupported": "As series de páxinas non soportan a acción de diferenzas.",
+	"spserror-previewnotsupported": "As series de páxinas non soportan a acción de vista previa.",
+	"spserror-noiteratorname": "Non se especificou iterador ningún. Cómpre definir o parámetro \"iterator\" na función analítica de chamada #serieslink.",
+	"spserror-iteratorunknown": "Non existe o iterador \"$1\". Cómpre corrixir o parámetro \"iterator\" na función analítica de chamada #serieslink.",
+	"spserror-noformname": "Non se deu formulario ningún. Cómpre definir o parámetro \"form\" na función analítica #serieslink.",
+	"spserror-formunknown": "O formulario \"$1\" non existe.",
+	"spserror-notargetformname": "Non se deu nome de formulario de destino ningún. Cómpre definir o parámetro \"target form\" na función analítica de chamada #serieslink.",
+	"spserror-notargetfieldname": "Non se deu campo de destino ningún. Cómpre definir o parámetro \"target field\" na función analítica de chamada #serieslink.",
+	"spserror-iteratorparammissing": "Faltan os seguintes parámetros do iterador na chamada a #serieslink:\n$1",
+	"spserror-noiteratordata": "Non se atopou parámetro do iterador ningún nos datos enviados.",
+	"spserror-pagegenerationlimitexeeded": "Intentou xerar {{PLURAL:$1|unha páxina|$1 páxinas}}. Isto supera o límite {{PLURAL:$2|dunha páxina|de $2 páxinas}}.",
+	"spserror-date-startdatemissing": "Falta a data de inicio.",
+	"spserror-date-internalerror": "Houbo un erro ao crear as datas: $1",
+	"spserror-count-startvaluemalformed": "O valor de inicio non é un número.",
+	"spserror-count-endvaluemalformed": "O valor de fin non é un número.",
+	"spserror-count-stepvaluemalformed": "O valor do paso non é un número.",
+	"spserror-count-digitsvaluemalformed": "O valor dos díxitos non é un número."
+}

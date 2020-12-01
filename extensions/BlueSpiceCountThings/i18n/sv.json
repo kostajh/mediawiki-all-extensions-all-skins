@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil",
+			"Sturban",
+			"WikiPhoenix"
+		]
+	},
+	"bs-countthings-desc": "Tillhandahåller innehållsbaserad statistik",
+	"bs-countthings-chars-label": "Tecken",
+	"bs-countthings-words-label": "Ord",
+	"bs-countthings-files-label": "Filer",
+	"bs-countthings-pages-label": "Sidor",
+	"bs-countthings-ve-countcharacters-title": "Antal tecken",
+	"bs-countthings-ve-countarticles-title": "Antal artiklar",
+	"bs-countthings-ve-countfiles-title": "Antal filer",
+	"bs-countthings-ve-countusers-title": "Antal användare",
+	"bs-countthings-ve-countthingsinspector-mode": "Läge",
+	"bs-countthings-ve-countcharacters-mode-all": "alla",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "tecken",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "ord",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "tecken och ord",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "sidor",
+	"bs-countthings-ve-countcharacters-input-label": "Sidor",
+	"bs-countthings-error-no-input": "Ingen sida angavs.",
+	"bs-countthings-error-invalid-mode": "Läget \"$1\" är ogiltigt. Vänligen använd \"chars\", \"words\", eller \"pages\".",
+	"bs-countthings-error-not-exist": "Sidan \"$1\" finns inte.",
+	"bs-countthings-tag-countarticles-desc": "Visar antalet artiklar på denna wiki.",
+	"bs-countthings-tag-countusers-desc": "Visar antalet registrerade användare.",
+	"bs-countthings-tag-countfiles-desc": "Visar antalet filer i wikin.",
+	"bs-countthings-tag-countcharacters-desc": "Genererar metadata om innehållet i den angivna artikeln. Resultatet är en infobox som kan integreras i en artikel. Med parametern \"mode\" kan olika typer av information visas.",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Vad ska räknas <code>chars</code> (tecken), <code>words</code> (ord) eller <code>pages</code> (sidor).",
+	"bs-countthings-tag-countcharacters-example-1": "Antal ord",
+	"bs-countthings-tag-countcharacters-example-2": "Antal tecken"
+}

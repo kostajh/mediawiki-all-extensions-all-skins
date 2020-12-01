@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "Tipo",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Testo",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "Elenco",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "Seleziona quali dati utilizzare",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Categorie",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Termini di ricerca",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Larghezza",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "Mostra il numero di elementi tra parentesi",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "Dimensione minima carattere",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "Dimensione massima carattere",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-label": "Escludi pagine"
+}

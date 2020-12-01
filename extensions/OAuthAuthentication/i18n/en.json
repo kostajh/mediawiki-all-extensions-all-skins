@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"CSteipp",
+			"Zoranzoki21"
+		]
+	},
+	"oauthauth-desc": "Allows wikis to delegate their authentication to another wiki",
+	"oauthauth-already-logged-in": "You are already logged in.",
+	"oauthauth-error": "OAuth login error",
+	"ouathauth-logout": "Logout",
+	"oauthauth-failed-handshake": "There was an OAuth protocol error logging you in. The remote wiki may be experiencing technical issues.",
+	"oauthauth-csrf-detected": "OAuth session mismatch. Please try logging in again.",
+	"oauthauth-create-noname": "OAuth error logging you in. The username on the remote wiki is not valid on this wiki.",
+	"oauthauth-create-userexists": "OAuth error logging you in. The username on the remote wiki already exists on this wiki. You must contact a bureaucrat to usurp the account.",
+	"oauthauth-login-noname": "The OAuth user is connected, but the name is not valid on this wiki.",
+	"oauthauth-login": "Log in on $1",
+	"oauthauth-login-usernotexists": "The OAuth user is listed as connected, but the user does not exist on this wiki.",
+	"oauthauth-nologin-policy": "This wiki's policy will not let you login.",
+	"oauthauth-localuser-not-allowed": "Local account creation is disabled on this wiki. \"$1\" creates an account with OAuth.",
+	"oauthauth-loggout-policy": "You have been logged out because the site policy no longer allows you to be logged in.",
+	"oauthauth-set-email": "Your attached account did not have an email address the last time you logged in. Set an email address on $1 to set your email address here.",
+	"oauthauth-email-set": "$1. Update your email address on $2 to change it.",
+	"oauthauth-invalid-subpage": "The target subpage is invalid."
+}

@@ -1,0 +1,27 @@
+@import "variables.less";
+@import "component/mobile/aside.navigation-main.less";
+@import "component/mobile/aside.navigation-main.panel.less";
+@import "component/mobile/aside.navigation-main.mobile-user-container.less";
+@import "component/mobile/aside.navigation-main.trigger.less";
+@import "component/mobile/aside.sitetools-main.less";
+@import "component/mobile/collapse.less";
+@import "component/mobile/header.less";
+@import "component/mobile/header.logo.less";
+@import "component/mobile/header.mobile-notification-button.less";
+@import "component/mobile/header.mobile-login-button.less";
+@import "component/mobile/header.search.less";
+@import "component/mobile/main.less";
+@import "component/mobile/scrollToTop.less";
+@import "component/mobile/pageheader.main.less";
+
+body.mediawiki {
+	.calumma-mobile-visible { display: block; }
+	.calumma-mobile-hidden { display: none; }
+
+	.calumma-desktop-visible,
+	.calumma-tablet-visible{ display: none; }
+
+	.calumma-mobile-visible.calumma-tablet-visible,
+	.calumma-mobile-visible.calumma-desktop-visible { display: block; }
+}
+

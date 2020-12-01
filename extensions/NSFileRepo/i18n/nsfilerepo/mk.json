@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"nsfilerepo-desc": "Дава својства за работа со подигнати податотеки звисно од именскиот простор",
+	"nsfilerepo-upload-target": "Целно име на податотеката во имен. простор",
+	"nsfilerepo-nsmain": "(Главен)",
+	"nsfilerepo-reupload-namespaceselector-disabled-helptext": "Ова поле не може да се менува при преподигање на податотека",
+	"nsfilerepo-move-file-namespace-action-label": "Задај податотечен имен. простор",
+	"nsfilerepo-move-file-namespace-dialog-title": "Задавање на податотечен именски простор",
+	"nsfilerepo-move-file-namespace-dialog-button-done": "Готово",
+	"nsfilerepo-move-file-namespace-dialog-button-cancel": "Откажи",
+	"nsfilerepo-move-file-namespace-dialog-namespaceselector-label": "Именски простор"
+}

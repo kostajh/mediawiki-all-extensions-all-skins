@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"swiftmailer-desc": "Παρέχει τον SwiftMailer ως εναλλακτικό ταχυδρομητή",
+	"swiftmailer-smtp-error": "Σφάλμα κατά την ρύθμιση της μεταφοράς SMTP για το SwiftMailer: $1",
+	"swiftmailer-send-error": "Σφάλμα κατά την αποστολή email μέσω του SwiftMailer: $1"
+}

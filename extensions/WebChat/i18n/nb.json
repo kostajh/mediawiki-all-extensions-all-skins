@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Jon Harald Søby",
+			"Nghtwlkr",
+			"Njardarlogar"
+		]
+	},
+	"webchat": "Nettprat",
+	"webchat-desc": "Legger til en [[Special:WebChat|spesialside]] for å prate i sanntid med andre wikibrukere",
+	"webchat-header": "Denne spesialsiden tillater deg å samarbeide med andre brukere av wikien i sanntid.\nFor å koble på, bare trykk på «Koble til»-knappen.\nDersom du logget på vil brukernavnet ditt allerede være fylt inn.\nAnonyme brukere blir automatisk gitt et generert navn, men dette kan endres.",
+	"action-webchat": "Kan bruke webchat",
+	"right-webchat": "Tillatt å bruke [[Special:WebChat|nettpraten]]"
+}

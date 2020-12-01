@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Siebrand"
+		]
+	},
+	"jsbreadcrumbs-desc": "Voegt een spoor van broodkruimels toe onder de menubalk",
+	"jsbreadcrumbs-intro-horizontal": "Laatste {{PLURAL:$1|pagina|$1 pagina's}} bekeken:",
+	"jsbreadcrumbs-intro-vertical": "Laatste {{PLURAL:$1|pagina|$1 pagina's}} bekeken",
+	"prefs-jsbreadcrumbs": "Navigatiegeschiedenis",
+	"prefs-jsbreadcrumbs-showcrumbs": "Navigatiegeschiedenis weergeven",
+	"prefs-jsbreadcrumbs-numberofcrumbs": "Aantal weer te geven pagina's in navigatiegeschiedenis",
+	"prefs-jsbreadcrumbs-showsite": "Sitenaam opnemen in de navigatiegeschiedenis (handig bij gebruik van meerdere wiki's)"
+}

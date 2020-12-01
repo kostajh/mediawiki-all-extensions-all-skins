@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2",
+			"Rotemliss",
+			"StuB",
+			"YaronSh"
+		]
+	},
+	"edituser": "עריכת משתמש",
+	"edituser-desc": "אפשרות למשתמשים מורשים לערוך העדפות של משתמשים אחרים",
+	"edituser-username": "שם משתמש:",
+	"edituser-dosearch": "חיפוש",
+	"edituser-nouser": "המשתמש \"$1\" אינו קיים.",
+	"edituser-exempt": "לא ניתן לערוך את המשתמש \"$1\".",
+	"right-edituser": "עריכת ההעדפות של משתמשים אחרים",
+	"right-edituser-exempt": "חסינות משינוי ההעדפות של המשתמש על־ידי משתמשים אחרים",
+	"action-edituser": "לערוך את ההעדפות של משתמשים אחרים",
+	"action-edituser-exempt": "לשנות את ההעדפות של המשתמש הזה"
+}

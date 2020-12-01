@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cvanca",
+			"Mormegil"
+		]
+	},
+	"newslettercreate": "Vytvořit zpravodaj",
+	"newslettercreate-text": "Tato stránka vám umožňuje vytvořit nový zpravodaj. Budete přidáni jako vydavatel a připojeni k odběru zpravodaje při jeho vzniku.",
+	"newsletter-announce-button": "Oznámit",
+	"newsletter-announce-nopermission": "Nejste vydavatel tohoto zpravodaje.",
+	"newsletter-announce": "Oznámit nové vydání zpravodaje „$1“",
+	"newsletter-announce-submit": "Oznámit",
+	"newsletter-announce-issuetitle": "Titulní stránka vydání",
+	"newsletter-announce-summary": "Shrnutí tohoto vydání",
+	"newsletter-announce-success": "Nové vydání zpravodaje „$1“ bylo oznámeno $2 {{PLURAL:$2|odběrateli|odběratelům}}.",
+	"newsletter-announce-invalid-page": "Zadejte prosím platný nadpis pro stránku vydání.",
+	"newsletter-announce-nonexistent-page": "Poskytnutá stránka vydání neexistuje. Zadejte prosím existující stránku.",
+	"newsletter-announce-failure": "Nové vydání nemohlo být oznámeno. Prosím, zkuste to znovu.",
+	"newsletter-list-search-none-found": "Žádné zpravodaje neodpovídají vašemu dotazu.",
+	"right-newsletter-create": "Vytváření zpravodajů",
+	"action-newsletter-create": "vytvářet zpravodaje",
+	"right-newsletter-delete": "Mazání zpravodajů",
+	"action-newsletter-delete": "mazat zpravodaje",
+	"right-newsletter-manage": "Přidávání a odebírání vydavatelů ve zpravodajích",
+	"action-newsletter-manage": "spravovat zpravodaje",
+	"newsletter-list-table": "Filtr tabulky:",
+	"newsletter-list-option-all": "Všechny zpravodaje",
+	"newsletter-list-option-subscribed": "Zpravodaje, jež odebírám",
+	"newsletter-list-option-unsubscribed": "Zpravodaje, jež neodebírám"
+}

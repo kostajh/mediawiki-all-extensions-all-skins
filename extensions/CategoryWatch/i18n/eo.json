@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"categorywatch-desc": "Etendas funkciadon de la atentaro por inkluzivi notigado pri ŝanĝoj de membreco de atentitaj kategorioj",
+	"categorywatch-emailsubject": "Aktiveco pri atentata kategorio \"$1\"",
+	"categorywatch-catmovein": "movis $1 en kategorion $2 de $3",
+	"categorywatch-catmoveout": "movis $1 el kategorio $2 en $3",
+	"categorywatch-catadd": "aldonis $1 al kategorio $2",
+	"categorywatch-catsub": "eligis $1 de kategorio $2",
+	"categorywatch-autocat": "Aŭtomate atentita de $1"
+}

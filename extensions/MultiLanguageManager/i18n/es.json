@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carlosmg.dg",
+			"Fitoschido",
+			"Macofe",
+			"MarcoAurelio"
+		]
+	},
+	"multilanguagemanager": "Gestor multiidioma",
+	"mlm-desc": "Extensión de Mediawiki para gestionar múltiples idiomas en una instancia de Mediawiki.",
+	"action-language": "añadir, editar y borrar traducciones usando la interfaz de MultiLanguageManager",
+	"mlm-error-title-invalid": "Nombre de página no válido",
+	"mlm-error-title-notexists": "La página «$1» no existe",
+	"mlm-error-title-istalkpage": "«$1». Las páginas de discusión no se pueden traducir",
+	"mlm-error-title-nsnotallowed": "«$1». El espacio de nombres no es válido para realizar traducciones",
+	"mlm-error-title-isalreadytranslation": "La página «$1» ya es una traducción",
+	"mlm-error-title-isalreadysource": "La página «$1» ya es una fuente",
+	"mlm-error-title-isnottranslation": "La página «$1» no es una traducción",
+	"mlm-error-lang-invalid": "Idioma no válido",
+	"mlm-error-lang-notallowed": "No se permite el idioma «$1» para traducciones",
+	"mlm-error-lang-alreadytraslated": "Ya existe una traducción al idioma «$1»",
+	"mlm-input-label-sourcetitle": "Página de origen",
+	"mlm-input-label-translationtitles": "{{plural:$1|Página|Páginas}} de traducción",
+	"mlm-input-label-add": "Añadir traducción",
+	"mlm-input-label-save": "Guardar",
+	"mlm-input-label-delete": "Borrar todas las traducciones",
+	"mlm-input-label-cancel": "Cancelar",
+	"mlm-contentaction-label": "Gestionar traducciones",
+	"right-language": "Añadir, editar y borrar traducciones usando la interfaz de MultiLanguageManager",
+	"apihelp-mlm-tasks-summary": "Gestionar las tareas de traducción",
+	"apihelp-mlm-tasks-param-task": "La tarea que debe ejecutarse",
+	"apihelp-mlm-tasks-param-taskData": "Objeto JSON de cadena codificada con datos arbitrarios para la tarea",
+	"apihelp-mlm-tasks-param-format": "El formato del resultado"
+}

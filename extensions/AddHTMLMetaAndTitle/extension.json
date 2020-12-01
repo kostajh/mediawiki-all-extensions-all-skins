@@ -1,0 +1,30 @@
+{
+	"name": "AddHTMLMetaAndTitle",
+	"version": "0.7",
+	"author": [
+		"Vladimir Radulovski",
+		"Jim Wilson",
+		"Dennis Roczek"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Add_HTML_Meta_and_Title",
+	"descriptionmsg": "addhtmlmetaandtitle-desc",
+	"license-name": "MIT",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"AddHTMLMetaAndTitle": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\AddHtmlMetaAndTitle\\Hooks": "includes/Hooks.php",
+		"MediaWiki\\Extension\\AddHtmlMetaAndTitle\\Adder": "includes/Adder.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "MediaWiki\\Extension\\AddHtmlMetaAndTitle\\Hooks::onParserFirstCallInit",
+		"BeforePageDisplay": "MediaWiki\\Extension\\AddHtmlMetaAndTitle\\Hooks::onBeforePageDisplay"
+	},
+	"manifest_version": 2
+}

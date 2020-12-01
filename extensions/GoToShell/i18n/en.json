@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nathan Larson (Leucosticte)"
+		]
+	},
+	"gotoshell": "Go to shell",
+	"gotoshell-desc": "Implements [[Special:GoToShell|a special page]] that takes the user to shell and back",
+	"gotoshell-notallowed": "Your account does not have permission to go to shell.",
+	"gotoshell-disabled": "Unable to run external programs, proc_open() is disabled.",
+	"gotoshell-command": "Command:",
+	"gotoshell-result": "Result:",
+	"action-gotoshell": "execute shell commands via the GoToShell special page",
+	"right-gotoshell": "Execute shell commands via the GoToShell special page"
+}

@@ -1,0 +1,36 @@
+{
+	"name": "SkinPerNamespace",
+	"version": "2018-01-26",
+	"author": "[https://www.mediawiki.org/wiki/User:IAlex Alexandre Emsenhuber]",
+	"url": "https://www.mediawiki.org/wiki/Extension:SkinPerNamespace",
+	"descriptionmsg": "skinpernamespace-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"type": "other",
+	"MessagesDirs": {
+		"SkinPerNamespace": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinPerNamespaceHooks": "SkinPerNamespaceHooks.php"
+	},
+	"Hooks": {
+		"RequestContextCreateSkin": "SkinPerNamespaceHooks::onSkinPerPageRequestContextCreateSkin"
+	},
+	"config": {
+		"SkinPerNamespace": {
+			"value": [],
+			"merge_strategy": "array_plus"
+		},
+		"SkinPerSpecialPage": {
+			"value": []
+		},
+		"SkinPerNamespaceOverrideLoggedIn": {
+			"value": true
+		}
+	},
+	"manifest_version": 2
+}

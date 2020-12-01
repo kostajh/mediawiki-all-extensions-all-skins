@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diki Ananta",
+			"Meursault2004",
+			"NoiX180",
+			"Sumbukompor"
+		]
+	},
+	"unreviewedpages": "Kaca sing durung dirèvisi",
+	"unreviewedpages-legend": "Daptar kaca kontèn sing durung dirèvisi",
+	"unreviewedpages-category": "Kategori",
+	"unreviewedpages-diff": "ulas",
+	"unreviewedpages-unwatched": "(ora diawasi)",
+	"unreviewedpages-watched": "($1 {{PLURAL:$1|naraguna|naraguna}} aktif ngawasi)",
+	"unreviewedpages-list": "Kaca iki ngraptar kaca kontèn sing '''durung''' [[{{MediaWiki:Validationpage}}|diulas]] ing undhak tartamtu.",
+	"unreviewedpages-none": "Ora ana kaca sing cocok karo kritèria",
+	"unreviewedpages-viewing": "(lagi dipriksa)",
+	"unreviewedpages-hours": "($1 {{PLURAL:$1|jam|jam}})",
+	"unreviewedpages-days": "($1 {{PLURAL:$1|dina|dina}})",
+	"unreviewedpages-recent": "(kurang saka 1 jam)"
+}

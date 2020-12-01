@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Acamicamacaraca",
+			"BadDog",
+			"Kizule",
+			"Milicevic01",
+			"Rancher",
+			"Sasa Stefanovic",
+			"Zoranzoki21",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић"
+		]
+	},
+	"changeauthor": "Промени аутора измене",
+	"changeauthor-desc": "Омогући промене аутора измена",
+	"changeauthor-title": "Промени аутора измене",
+	"changeauthor-search-box": "Претражи измене",
+	"changeauthor-pagename-or-revid": "Име странице или ID измене:",
+	"changeauthor-pagenameform-go": "Иди",
+	"changeauthor-comment": "Коментар:",
+	"changeauthor-changeauthors-multi": "Промени {{PLURAL:$1|аутора|ауторе}}",
+	"changeauthor-changeauthors-single": "Промени аутора",
+	"changeauthor-invalid-username": "Погрешно корисничко име \"$1\".",
+	"changeauthor-nosuchuser": "Нема корисника \"$1\".",
+	"changeauthor-revview": "Измена $1 од $2",
+	"changeauthor-nosuchtitle": "Не постоји страница под називом \"$1\".",
+	"changeauthor-success": "Баш захтев је био успешно обрађен.",
+	"changeauthor-rev": "изм. $1",
+	"log-name-changeauth": "Историја промене аутора",
+	"right-changeauthor": "Промена аутора измене"
+}

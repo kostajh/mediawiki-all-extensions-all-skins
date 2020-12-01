@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Evrifaessa",
+			"Sayginer"
+		]
+	},
+	"uploadslink-desc": "Geçerli kullanıcının kişisel araçlar menüsüne yüklediği listeye bir bağlantı ve ilgili kullanıcının kenar çubuğu Araçlar menüsüne yüklediği listeye bir bağlantı ekler",
+	"uploadslink-portlet-label": "Yüklemeler",
+	"tooltip-pt-uploads": "Yüklediğiniz dosyalar listesi",
+	"uploadslink-toobox-label": "{{GENDER:$1|Kullanıcı}} yüklemeleri",
+	"tooltip-tb-uploads": "Bu {{GENDER:$1|kullanıcı}} tarafından yüklemelerin listesi"
+}

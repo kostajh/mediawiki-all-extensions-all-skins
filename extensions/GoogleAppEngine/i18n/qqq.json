@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kunal Mehta"
+		]
+	},
+	"gae-desc": "{{desc|name=GoogleAppEngine|url=https://www.mediawiki.org/wiki/Extension:GoogleAppEngine}}",
+	"apihelp-gaejobqueue-description": "{{doc-apihelp-description|gaejobqueue}}",
+	"apihelp-gaejobqueue-summary": "{{doc-apihelp-summary|gaejobqueue}}",
+	"apihelp-gaejobqueue-param-namespace": "{{doc-apihelp-param|gaejobqueue|namespace}}",
+	"apihelp-gaejobqueue-param-titletext": "{{doc-apihelp-param|gaejobqueue|titletext}}",
+	"apihelp-gaejobqueue-param-type": "{{doc-apihelp-param|gaejobqueue|type}}",
+	"apihelp-gaejobqueue-param-params": "{{doc-apihelp-param|gaejobqueue|params}}"
+}

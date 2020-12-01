@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.biz>"
+		]
+	},
+	"bs-uemodulehtml-extension-description": "Enables export to HTML",
+	"bs-uemodulehtml-pref-DefaultTemplate": "Standard template",
+	"bs-uemodulehtml-pref-SuppressNS": "Hide namespace prefix in HTML",
+	"bs-uemodulehtml-pref-Backend": "Backend",
+	"bs-uemodulehtml-widgetlink-single-text": "HTML single page (archived)",
+	"bs-uemodulehtml-widgetlink-single-title": "Export this page as HTML together with its resources as an archive",
+	"bs-uemodulehtml-overview-title": "HTML document (archived)",
+	"bs-uemodulehtml-overview-description": "Exports pages (SpecialPages and ContenPages) to HTML."
+}

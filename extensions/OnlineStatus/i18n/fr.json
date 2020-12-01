@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crochet.david",
+			"Gomoko",
+			"Hercule",
+			"IAlex",
+			"Matěj Suchánek",
+			"Urhixidur",
+			"Zetud"
+		]
+	},
+	"onlinestatus-desc": "Ajoute une préférence pour montrer si l’utilisateur est présent ou non",
+	"onlinestatus-js-anon": "Erreur : vous devez être connecté pour utiliser cette fonctionnalité",
+	"onlinestatus-js-changed": "Votre statut a été changé à « $1 »",
+	"onlinestatus-js-error": "Impossible de changer le statut, la valeur « $1 » est invalide",
+	"onlinestatus-subtitle-offline": "Cet utilisateur est actuellement hors ligne",
+	"onlinestatus-subtitle-online": "Cet utilisateur est actuellement en ligne",
+	"onlinestatus-tab": "Statut",
+	"onlinestatus-toggles-desc": "Votre statut&nbsp;:",
+	"onlinestatus-toggles-explain": "Cela vous permet de montrer aux autres utilisateurs si vous êtes actuellement connecté ou non, en regardant votre page utilisateur.",
+	"onlinestatus-toggles-show": "Montrer mon statut sur ma page d’{{GENDER:|utilisateur|utilisatrice}}",
+	"onlinestatus-toggle-offline": "Absent",
+	"onlinestatus-toggle-online": "Présent",
+	"onlinestatus-pref-onlineonlogin": "Changer mon statut à en ligne quand je me connecte",
+	"onlinestatus-pref-offlineonlogout": "Changer mon statut à hors ligne quand je me déconnecte"
+}

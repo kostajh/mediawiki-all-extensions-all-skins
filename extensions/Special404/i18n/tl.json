@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"special404-desc": "Nagbibigay ng isang kapupuntahan para sa 404 Hindi natagpuang mga kamalian",
+	"error404": "404 Hindi natagpuan",
+	"special404-body": "Hindi natagpuan ang URL na hiniling mo.\n\nAng {{fullurl:$1}} ba ang ibig mo sanang makinilyahin?\n\nMarahil ay nais mong tumingin doon sa:\n* [[{{MediaWiki:Mainpage}}|Ang pangunahing pahina]]"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-uemodulepdf-desc": "Gjør at MediaWiki kan eksportere sider i PDF-format",
+	"prefs-uemodulepdf": "Universal PDF-eksporteringsmodul",
+	"uemodulepdf": "Universal PDF-eksporteringsmodul",
+	"bs-uemodulepdf-pref-suppressns": "Skjul navneromsprefikset i PDF",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-text": "PDF-enkeltside",
+	"bs-uemodulepdf-widgetlink-single-no-attachments-title": "Eksporter denne siden som PDF.",
+	"bs-uemodulepdf-overview-title": "Portable Document Format (PDF)",
+	"bs-uemodulepdf-overview-desc": "Eksporterer sider (spesialsider og innholdssider) til PDF.",
+	"bs-uemodulepdf-overview-webservice-state": "Bakstykkestatus",
+	"bs-uemodulepdf-overview-webservice-state-ok": "tilgjengelig",
+	"bs-uemodulepdf-overview-webservice-state-not-ok": "ikke tilgjengelig",
+	"soap-service-url-not-valid": "URL-en til PDF-genereringstjenesten er ugyldig. Sjekk wikikonfigurasjonen.",
+	"soap-service-url-not-set": "URL-en til PDF-genereringstjenesten er ikke satt. Sjekk wikikonfigurasjonen.",
+	"bs-uemodulepdf-overview-webservice-webadmin": "Bakstykkegrensesnitt",
+	"action-uemodulepdf-export": "eksportere en side til PDF",
+	"right-uemodulepdf-export": "Eksportere en side til PDF"
+}

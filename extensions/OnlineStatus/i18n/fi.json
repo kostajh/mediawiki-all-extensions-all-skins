@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cimon Avaro",
+			"Crt",
+			"Jaakonam",
+			"Nike",
+			"VezonThunder",
+			"Vililikku"
+		]
+	},
+	"onlinestatus-desc": "Lisää asetuksen, joka näyttää onko käyttäjä kirjautunut sisään vai ei",
+	"onlinestatus-js-anon": "Et voi käyttää tätä ominaisuutta ennen kirjautumista sisään.",
+	"onlinestatus-js-changed": "Tilasi on nyt ”$1”",
+	"onlinestatus-js-error": "Tilan muuttaminen on mahdotonta, sillä arvo ”$1” on epäkelpo",
+	"onlinestatus-subtitle-offline": "Tämä käyttäjä ei ole kirjautunut sisään nyt",
+	"onlinestatus-subtitle-online": "Tämä käyttäjä on kirjautunut sisään",
+	"onlinestatus-tab": "Tila",
+	"onlinestatus-toggles-desc": "Tilasi:",
+	"onlinestatus-toggles-explain": "Tämän avulla voit näyttää muille käyttäjille, oletko todella kirjautuneena vai et, käyttäjäsivullasi.",
+	"onlinestatus-toggles-show": "Näytä sisäänkirjautumisen tila käyttäjäsivullani",
+	"onlinestatus-toggle-offline": "Ei kirjautuneena",
+	"onlinestatus-toggle-online": "Kirjautuneena",
+	"onlinestatus-pref-onlineonlogin": "Vaihda tilaksi Kirjautuneena, kun kirjaudun sisään",
+	"onlinestatus-pref-offlineonlogout": "Vaihda tilaksi Ei kirjautuneena, kun kirjaudun ulos"
+}

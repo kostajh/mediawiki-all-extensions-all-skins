@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Sarah Bernabei"
+		]
+	},
+	"performanceinspector-pref-label": "Attiva l'ispettore delle prestazioni",
+	"performanceinspector-pref-help": "Raccoglie informazioni relative alle prestazioni per la pagina attuale e le espone tramite un collegamento della barra laterale. Disponibile solo nel namespace principale.",
+	"performanceinspector-dialog-cancel": "Annulla",
+	"performanceinspector-modules-summary-total-size": "La dimensione totale di tutti i moduli",
+	"performanceinspector-modules-css-column-module": "Modulo",
+	"performanceinspector-modules-css-used-selectors-values": "$1 ($2 di $3)",
+	"performanceinspector-modules-localstorage-expired": "Scaduto",
+	"performanceinspector-modules-localstorage-totalsize": "Dimensione totale",
+	"performanceinspector-imagesize-name": "Dimensione immagine",
+	"performanceinspector-imagesize-label": "Dimensione immagine",
+	"performanceinspector-imagesize-column-image-name": "Nome",
+	"performanceinspector-imagesize-column-size": "Dimensione",
+	"performanceinspector-imagesize-column-image-extra": "Extra",
+	"performanceinspector-imagesize-too-big": "Attenzione",
+	"performanceinspector-imagesize-description": "Qui trovi tutte le immagini caricate su questa pagina.",
+	"performanceinspector-modules-summary-images": "La pagina ha $1 {{PLURAL:$1|immagine|immagini}} con una dimensione totale di $2.",
+	"performanceinspector-newpp-cachereport-now": "Ora"
+}

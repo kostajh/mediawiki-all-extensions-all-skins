@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"PiefPafPier",
+			"Robin van der Vliet",
+			"Robin0van0der0vliet"
+		]
+	},
+	"openidoptional": "Opsjoneel",
+	"openidemail": "E-mailadres",
+	"openidlanguage": "Taal",
+	"openidchooseusername": "Meidochnamme:",
+	"openidchoosepassword": "Wachtwurd:",
+	"openid-urls-url": "URL",
+	"openid-urls-delete": "Fuortsmite",
+	"openid-trusted-sites-delete-link-action-text": "Fuortsmite"
+}

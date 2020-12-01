@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Y-M D"
+		]
+	},
+	"form-desc": "Un [[Special:Form|etrefas furmskrid]] evit kregiñ gant pajennoù nevez",
+	"form": "Furmskrid",
+	"form-no-name": "Anv ebet",
+	"form-no-name-text": "Roit anv ar furmskrid, gant ar stumm \"Ispisial:Furmskrid/AnvArFurmskrid\".",
+	"form-bad-name": "Anv furmskrid fall",
+	"form-bad-name-text": "N'eus furmskrid ebet gant an anv-se.",
+	"form-pattern": "furmskrid-$1",
+	"form-save": "Enrollañ",
+	"form-index-mismatch-title": "Ne glot ket livaoueg an anvioù gant ar patrom",
+	"form-index-mismatch": "Ar furm skrid-mañ en deus patromoù ne glotont ket adalek $1.",
+	"form-article-exists": "Ar bajenn zo anezhi dija",
+	"form-article-existstext": "Ar bajenn [[$1]] zo anezhi c'hoazh.",
+	"form-bad-page-name": "Anv fall evit ar bajenn",
+	"form-bad-page-name-text": "Ar roadennoù hoc'h eus lakaet a grou un anv fall evit ar bajenn,  \"$1\".",
+	"form-required-field-error": "Rekis eo eus {{PLURAL:$2|vaezienn $1|maeziennoù$1}} er furmskrid.\nLeugnit {{PLURAL:$2|anezhi|anezho}} mar plij.",
+	"form-save-summary": "Pajenn nevez oc'h implijout [[Special:Form/$1|ar furmskrid $1]]",
+	"form-save-error": "Fazi en ur enrollañ ar furmskrid",
+	"form-save-error-text": "Ur fazi zo bet e-ser enrollañ ar bajenn '$1'."
+}

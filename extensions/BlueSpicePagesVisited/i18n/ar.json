@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"bs-pagesvisited-desc": "يقدم قائمة شخصية بآخر الصفحات التي تمت زيارتها",
+	"prefs-pagesvisited": "الصفحات المُزارة",
+	"bs-pagesvisited-widget-title": "الصفحات المُزارة",
+	"bs-pagesvisited-error-nsnotvalid": "{{PLURAL:$1|النطاق|النطاقات}} المعطى <code>$2</code> {{PLURAL:$1|غير}} صالح.",
+	"bs-pagesvisited-pref-widgetlimit": "حد الإدخالات:",
+	"bs-pagesvisited-pref-widgetns": "النطاقات:",
+	"bs-pagesvisited-pref-widgetsortodr": "ترتيب حسب:",
+	"bs-pagesvisited-pref-sort-time": "الوقت",
+	"bs-pagesvisited-pref-sort-pagename": "العنوان",
+	"bs-pagesvisited-tag-pagesvisited-desc": "يعرض قائمة بالصفحات التي تمت زيارتها مؤخرا، يمكن تقييد هذه القائمة بواسطة وسائط."
+}

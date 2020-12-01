@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"bluespicecategorymanager-desc": "Визуелна алатка за управување со категории",
+	"bs-categorymanager-dlg-new-title": "Создај категорија",
+	"bs-categorymanager-removecategoryconfirm-text": "Дали сте сигурни дека сакате да ја избришете оваа категорија?",
+	"bs-categorymanager-removecategoryconfirm-title": "Отстрани категорија",
+	"bs-categorymanager-addcategory-dialog-error-title": "Создавањето на категоријата не успеа",
+	"bs-categorymanager-action-show-category": "Прикажи категорија",
+	"right-categorymanager-viewspecialpage": "Пристап до службената страница [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Разместување на категоријата",
+	"bs-categorymanager-collection-var-namespacename": "Именски простор",
+	"bs-categorymanager-collection-var-categorizedpages": "Страници со категории",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Страници без категории"
+}

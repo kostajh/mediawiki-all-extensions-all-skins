@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kwj2772",
+			"Ykhwong"
+		]
+	},
+	"pageblock": "사용자 제한",
+	"pageblock-legend": "사용자 제한",
+	"pageblock-form-title": "페이지 이름",
+	"pageblock-form-user": "사용자 이름",
+	"pageblock-form-edit": "사용자를 편집하지 못하도록 제한하기",
+	"pageblock-form-sameformove": "이동에 대해 동일한 제한을 적용",
+	"pageblock-form-move": "사용자의 이동 제한",
+	"pageblock-form-reason": "이유",
+	"pageblock-success": "$1님은 $2에 대해 무기한 제한되었습니다.",
+	"listrestrictions": "제한 목록",
+	"listrestrictions-legend": "제한 목록",
+	"pageblock-list-title": "페이지 이름",
+	"pageblock-list-user": "사용자 이름",
+	"pageblock-list-indefonly": "무기한 제한만 보이기",
+	"pageblock-restricted-edit-indef": "$1님은 $2의 편집이 무기한 제한되어 있습니다.",
+	"pageblock-restricted-edit": "$1님은 $3까지 $2의 편집이 제한되어 있습니다.",
+	"pageblock-restricted-move-indef": "$1님은 $2의 이동이 무기한 제한되어 있습니다.",
+	"pageblock-restricted-move": "$1님은 $3까지 $2의 이동이 제한되어 있습니다.",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|당신}}은 $2의 편집이 무기한 제한되어 있습니다.",
+	"pageblock-blocked-edit": "{{GENDER:$1|당신}}은 $3까지 $2의 편집이 제한되어 있습니다.",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|당신}}은 $2의 이동이 무기한 제한되어 있습니다.",
+	"pageblock-blocked-move": "{{GENDER:$1|당신}}은 $3까지 이동이 제한되어 있습니다.",
+	"logentry-restrict-add-edit-move": "$1님은 $3의 $4에 대한 편집 및 이동을 {{GENDER:$2|제한했습니다}}",
+	"logentry-restrict-add-edit": "$1님은 $3님의 $4에 대한 편집을 {{GENDER:$2|제한하였습니다}}",
+	"logentry-restrict-add-move": "$1님은 $3의 $4에 대한 이동을 {{GENDER:$2|제한했습니다}}"
+}

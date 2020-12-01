@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Evs",
+			"Movses",
+			"Okras",
+			"Redredsonia"
+		]
+	},
+	"pageblock-desc": "Позволяет ограничить отдельную страницу/участника",
+	"pageblock": "Ограничить доступ участника",
+	"pageblock-legend": "Ограничить доступ участника",
+	"pageblock-form-title": "Название страницы",
+	"pageblock-form-user": "Имя участника",
+	"pageblock-form-edit": "Запретить участнику править",
+	"pageblock-form-sameformove": "Применить те же ограничения для переименований",
+	"pageblock-form-move": "Запретить участнику переименовывать",
+	"pageblock-form-reason": "Причина",
+	"pageblock-success": "На $1 наложены ограничения для страницы $2.",
+	"listrestrictions": "Список ограничений",
+	"listrestrictions-legend": "Список ограничений",
+	"pageblock-list-title": "Название страницы",
+	"pageblock-list-user": "Имя участника",
+	"pageblock-list-indefonly": "Показать только бессрочные ограничения",
+	"pageblock-restricted-edit-indef": "Участнику $1 запрещено править $2 бессрочно.",
+	"pageblock-restricted-edit": "Участнику $1 запрещено править $2 до $3.",
+	"pageblock-restricted-move-indef": "Участнику $1 запрещено переименовывать $2 бессрочно.",
+	"pageblock-restricted-move": "Участнику $1 запрещено переименовывать $2 до $3.",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|Вам}} запрещено править $2 бессрочно.",
+	"pageblock-blocked-edit": "{{GENDER:$1|Вам}} запрещено править $2 до $3.",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|Вам}} запрещено переименовывать $2 бессрочно.",
+	"pageblock-blocked-move": "{{GENDER:$1|Вам}} запрещено использовать переименование до $3.",
+	"logentry-restrict-add-edit-move": "$1 {{GENDER:$2|запретил|запретила|запрещает}} $3 править и переименовывать $4",
+	"logentry-restrict-add-edit": "$1 {{GENDER:$2|запретил|запретила|запрещает}} $3 править $4",
+	"logentry-restrict-add-move": "$1 {{GENDER:$2|запретил|запретила|запрещает}} $3 переименовывать $4",
+	"right-page-block": "Применение, изменение или удаление ограничений для страниц или участников"
+}

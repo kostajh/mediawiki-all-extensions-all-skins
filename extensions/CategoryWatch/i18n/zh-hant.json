@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Horacewai2",
+			"Kly",
+			"LNDDYL",
+			"Mark85296341",
+			"Waihorace",
+			"Wrightbus",
+			"Xiplus"
+		]
+	},
+	"categorywatch-desc": "擴充套件的監視功能，包括有關受監視的類別的成員身份更改的通知",
+	"categorywatch-emailsubject": "在被監視的分類\"$1\"中的活動",
+	"categorywatch-catmovein": "$1已經由$2搬到$3。",
+	"categorywatch-catmoveout": "$1已經移離$2並改到$3",
+	"categorywatch-catadd": "已把$1新增至分類$2",
+	"categorywatch-catsub": "已把$1從分類$2移除",
+	"categorywatch-autocat": "由$1自動監視",
+	"categorywatch-notification-link": "分類：[[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]]已添加至[[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]]已添加至[[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]]將[[:$3|$3]]已添加至[[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]]已從[[:$3|$4]]裡移除",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]]已從[[:$5|$6]]裡移除",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]]將[[:$3|$3]]從[[:$4|$4]]裡移除",
+	"categorywatch-notification-bundle": "在{{SITENAME}}有 $1 筆分類變更",
+	"categorywatch-add-title": "標題已添加至監視分類",
+	"categorywatch-remove-title": "標題已從監視分類裡移除",
+	"categorywatch-page-watch-pref": "當您添加一個分類時，添加所有在分類裡的頁面至您的監視清單",
+	"echo-category-title-categorywatch": "分類監視",
+	"echo-pref-tooltip-categorywatch": "當我監視的分類裡有頁面添加或移除時通知我。"
+}

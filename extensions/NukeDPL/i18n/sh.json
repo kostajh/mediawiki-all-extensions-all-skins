@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"nukedpl": "Masovno brisanje po DPL-upitu",
+	"nukedpl-desc": "Dodaje [[Special:NukeDPL|posebnu stranicu]] za masovno brisanje po DPL-upitu",
+	"nukedpl-candidatelist": "Pogl. spisak kadidata",
+	"nukedpl-nopages": "Nema stranica za brisanje po DPL-upitu: <code>$1</code>"
+}

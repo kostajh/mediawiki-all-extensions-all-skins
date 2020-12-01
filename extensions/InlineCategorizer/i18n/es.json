@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Crazymadlover",
+			"Fitoschido",
+			"Manuelt15"
+		]
+	},
+	"inlinecategorizer-desc": "Módulo de JavaScript que permite modificar, agregar y eliminar enlaces de categorías directamente desde una página",
+	"inlinecategorizer-add-category": "Agregar categoría",
+	"inlinecategorizer-add-category-submit": "Agregar",
+	"inlinecategorizer-add-category-summary": "Añadir categoría «$1»",
+	"inlinecategorizer-api-error": "La API ha devuelto un error:  $1 :  $2 .",
+	"inlinecategorizer-api-unknown-error": "La API ha devuelto un error desconocido.",
+	"inlinecategorizer-cancel": "Cancelar edición",
+	"inlinecategorizer-cancel-all": "Cancelar todos los cambios",
+	"inlinecategorizer-category-already-present": "Esta página ya pertenece a la categoría «$1»",
+	"inlinecategorizer-category-hook-error": "Una función local impide que se guarden los cambios",
+	"inlinecategorizer-category-question": "Por qué deseas realizar los siguientes cambios:",
+	"inlinecategorizer-confirm-ok": "Aceptar",
+	"inlinecategorizer-confirm-save": "Guardar",
+	"inlinecategorizer-confirm-save-all": "Guardar todos los cambios",
+	"inlinecategorizer-confirm-title": "Confirmar acción",
+	"inlinecategorizer-edit-category": "Editar categoría",
+	"inlinecategorizer-edit-category-error": "No fue posible editar la categoría «$1».\nEsto suele ocurrir cuando la categoría se añadió a la página por una plantilla.",
+	"inlinecategorizer-edit-category-summary": "Cambiar la categoría «$1» a «$2»",
+	"inlinecategorizer-error-title": "Error",
+	"inlinecategorizer-remove-category": "Quitar categoría",
+	"inlinecategorizer-remove-category-error": "No fue posible quitar la categoría «$1».\nEsto suele ocurrir cuando la categoría se añadió a la página por una plantilla.",
+	"inlinecategorizer-remove-category-summary": "Quitar categoría «$1»"
+}

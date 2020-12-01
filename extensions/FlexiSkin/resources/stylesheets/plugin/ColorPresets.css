@@ -1,0 +1,43 @@
+.flexiskin-color-preset-option {
+	display: table;
+	margin-bottom: 25px;
+	float: left;
+	padding: 0 40px 0 0;
+}
+.flexiskin-color-preset-option .oo-ui-radioInputWidget{
+	vertical-align: middle;
+}
+
+.flexiskin-color-preset-option:not(.color-item-custom) .oo-ui-labelElement-label {
+	position: absolute;
+	bottom: -15px
+}
+.flexiskin-color-preset-option .oo-ui-buttonWidget {
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.color-container {
+	padding: 5px;
+	display: inline;
+	vertical-align: middle;
+	background-color: transparent;
+}
+
+.color-container .color-item {
+	width: 35px;
+	height: 35px;
+	border-radius: 2px;
+	margin-right: 5px;
+	display: inline-block;
+	border: 1px solid #cfcfcf;
+}
+
+.flexiskin-ui-color-presets-custom-header {
+	font-size: 1.5em;
+}
+
+.flexiskin-ui-color-presets-wrapper {
+	padding-top: 40px;
+	clear: both;
+}

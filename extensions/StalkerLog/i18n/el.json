@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Omnipaedista",
+			"ZaDiak"
+		]
+	},
+	"stalkerlog-desc": "Προσθέτει [[Special:Log/stalkerlog|ένα ημερολόγιο]] συνδέσεων και αποσυνδέσεων χρήστη",
+	"stalkerlog-log-login": "συνδέθηκε.",
+	"stalkerlog-log-logout": "αποσυνδέθηκε.",
+	"stalkerlog-log-type": "Αρχείο πιστοποίησης χρηστών",
+	"stalkerlog-log-text": "Αυτό είναι ένα αρχείο συνδέσεων και αποσυνδέσεων."
+}

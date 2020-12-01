@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diki Ananta",
+			"Meursault2004",
+			"NoiX180",
+			"Sumbukompor"
+		]
+	},
+	"onlinestatus-subtitle-offline": "Naraguna iki saiki lagi ana sajabaning jaringan (''offline'')",
+	"onlinestatus-subtitle-online": "Naraguna iki saiki lagi ana sajroning jaringan (''online'')",
+	"onlinestatus-toggles-desc": "Setatusmu:",
+	"onlinestatus-toggles-show": "Tuduhna status \"sajroning jaringan\" (''online'') ing kaca naragunaku",
+	"onlinestatus-toggle-offline": "Sajabaning jaringan (''offline'')",
+	"onlinestatus-toggle-online": "Sajroning jaringan (''online'')"
+}

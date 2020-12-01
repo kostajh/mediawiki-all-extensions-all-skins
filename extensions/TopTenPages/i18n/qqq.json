@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krinkle",
+			"Paladox",
+			"Umherirrender"
+		]
+	},
+	"toptenpages": "{{doc-special|TopTenPages}}",
+	"toptenpages-extensionname": "{{name}}",
+	"toptenpages-desc": "{{desc|what=extension|name=TopTenPages|url=https://www.mediawiki.org/wiki/Extension:TopTenPages}}"
+}

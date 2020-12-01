@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"uploadslink-desc": "将当前用户上传列表的链接添加至个人工具菜单，并将相关用户的上传列表添加至边栏工具菜单中。",
+	"uploadslink-portlet-label": "上传",
+	"tooltip-pt-uploads": "您已上传的文件列表",
+	"uploadslink-toobox-label": "{{GENDER:$1|用户}}上传",
+	"tooltip-tb-uploads": "由此{{GENDER:$1|用户}}上传的文件列表"
+}

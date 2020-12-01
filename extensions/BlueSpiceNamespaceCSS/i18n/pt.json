@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"bs-namespacecss-desc": "Estilos específicos para espaços nominais",
+	"bluespicenamespacecssmanager": "Administração do CSS dos espaços nominais",
+	"bs-namespacecss-specialmanager-label-namespacename": "Espaço nominal",
+	"bs-namespacecss-specialmanager-label-sourcepage": "Página de origem",
+	"apihelp-bs-namespacecss-store-summary": "Lista os espaços nominais e a possível página de origem do seu CSS. Implementa os parâmetros ExtJS Store."
+}

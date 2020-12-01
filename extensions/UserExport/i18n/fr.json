@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"userexport-desc": "Permet d’exporter les données utilisateur dans un fichier CSV",
+	"userexport": "Exporter les données utilisateur",
+	"userexport-submit": "Exporter",
+	"userexport-badtoken": "Jeton de modification non valide",
+	"userexport-description": "Cette page permet d’exporter dans un fichier CSV, les données utilisateur (nom et adresse de messagerie), de tous les utilisateurs enregistrés sur ce wiki.",
+	"right-userexport": "Exporter les données utilisateur en masse",
+	"action-userexport": "exporter les données utilisateur de ce wiki"
+}

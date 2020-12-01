@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"spark-desc": "Acrescenta uma etiqueta <code><nowiki><spark /></nowiki></code> que permite incorporar mash-ups [http://km.aifb.kit.edu/sites/spark/ Spark].",
+	"spark-missing-query": "Tem de especificar uma consulta usando o parâmetro \"data-spark-query\"."
+}

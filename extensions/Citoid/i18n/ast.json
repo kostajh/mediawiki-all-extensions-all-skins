@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Xuacu"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Inxertar",
+	"citoid-citoiddialog-back": "Anterior",
+	"citoid-citoiddialog-credit": "Col encontu de $1",
+	"citoid-citoiddialog-lookup-button": "Xenerar",
+	"citoid-citoiddialog-mode-auto": "Automático",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Reutilizar",
+	"citoid-citoiddialog-search": "Buscar",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN o PMC/PMID",
+	"citoid-citoiddialog-search-placeholder": "p.e. http://www.exemplu.com",
+	"citoid-citoiddialog-search-progress": "Buscando, espera...",
+	"citoid-citoiddialog-title": "Amestar una cita",
+	"citoid-citoiddialog-use-general-error-message": "Nun pudimos crear la cita por ti. Puedes crear una manualmente usando la llingüeta «{{int:citoid-citoiddialog-mode-manual}}» de más arriba.",
+	"citoid-citoidtool-title": "Citar",
+	"citoid-citoidtool-title-othergroup": "Cita",
+	"citoid-desc": "Ufre puntos d'accesu ente'l serviciu Citoid y MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Convertir",
+	"citoid-referencecontextitem-convert-message": "Esta referencia solo contien un enllaz esternu. Puedes utilizar el botón \"{{int:citoid-referencecontextitem-convert-button}}\" de más abaxo pa xenerar una referencia col formatu correchu.",
+	"citoid-unknown-error": "Hebo un error desconocíu que torgó la creación de la cita. Inténtalo más sero.",
+	"citoid-wb-referenceview-tabs-automatic": "Automáticu",
+	"citoid-wb-referenceview-tabs-search": "buscar",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN o QID:",
+	"citoid-wb-pendingdialog-error": "Non pudo xenerase una referencia a partir d'esta entrada. Usa la llingüeta manual o tenta nuevamente.",
+	"citoid-wb-pendingdialog-message": "Tamos xenerándote una referencia... espera...",
+	"citoid-wb-pendingdialog-title": "Xenerando una cita"
+}

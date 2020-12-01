@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aquilax",
+			"Mvolz",
+			"Spas.Z.Spasov",
+			"StanProg",
+			"Ted Masters",
+			"Vodnokon4e",
+			"Лорд Бъмбъри"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Вмъкване",
+	"citoid-citoiddialog-back": "Назад",
+	"citoid-citoiddialog-credit": "С подкрепата на $1",
+	"citoid-citoiddialog-lookup-button": "Генериране",
+	"citoid-citoiddialog-mode-auto": "Автоматично",
+	"citoid-citoiddialog-mode-manual": "Ръчна настройка",
+	"citoid-citoiddialog-mode-reuse": "Повторно използване",
+	"citoid-citoiddialog-search": "Търсене",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN, PMC/PMID, QID, заглавие или цитат",
+	"citoid-citoiddialog-search-placeholder": "например, http://www.example.com",
+	"citoid-citoiddialog-search-progress": "Търсене, моля изчакайте...",
+	"citoid-citoiddialog-title": "Добавяне на цитат",
+	"citoid-citoiddialog-use-general-error-message": "Не успяхме на създадем цитат. Можете да създадете такъв ръчно като ползвате  „{{int:citoid-citoiddialog-mode-manual}}“ по-горе.",
+	"citoid-citoidtool-title": "Цитиране",
+	"citoid-citoidtool-title-othergroup": "Цитат",
+	"citoid-desc": "Осигурява връзка между услугата Citoid и МедияУики",
+	"citoid-referencecontextitem-convert-button": "Конвертиране",
+	"citoid-referencecontextitem-convert-message": "Източникът съдържа единствено външна препратка. Можете да ползвате бутона „{{int:citoid-referencecontextitem-convert-button}}“ по-долу за генериране на правилно форматиран източник.",
+	"citoid-unknown-error": "Възникна неизвестна грешка, която ни попречи да създадем цитат. Моля, опитайте по-късно.",
+	"citoid-wb-referenceview-tabs-automatic": "Автоматично",
+	"citoid-wb-referenceview-tabs-search": "търсене",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBN или QID:",
+	"citoid-wb-pendingdialog-error": "Не може да се генерира цитиране от тези данни. Използвайте таба за ръчно добавяне или опитайте отново.",
+	"citoid-wb-pendingdialog-message": "Генериране на бележки... моля изчакайте...",
+	"citoid-wb-pendingdialog-title": "Създаване на цитиране"
+}

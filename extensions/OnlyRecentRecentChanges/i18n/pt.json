@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"Hamilton Abreu"
+		]
+	},
+	"onlyrecentrecentchanges-desc": "Mostra as páginas na lista de mudanças recentes apenas uma vez, quando tenham sido recentemente alteradas.",
+	"onlyrecentrecentchanges-option": "Mostrar somente a mudança mais recente de qualquer página alterada (dentro dos limites de ''{{int:prefs-displayrc}}'', como mostrado acima)"
+}

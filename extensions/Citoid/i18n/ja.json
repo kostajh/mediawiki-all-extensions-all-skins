@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Delim",
+			"Kkairri",
+			"Los688",
+			"Miya",
+			"Mvolz",
+			"Otokoume",
+			"Shirayuki",
+			"Sujiniku",
+			"Takot"
+		]
+	},
+	"citoid-citation-widget-insert-button": "挿入",
+	"citoid-citoiddialog-back": "戻る",
+	"citoid-citoiddialog-credit": "$1の提供",
+	"citoid-citoiddialog-lookup-button": "生成",
+	"citoid-citoiddialog-mode-auto": "自動",
+	"citoid-citoiddialog-mode-manual": "マニュアル",
+	"citoid-citoiddialog-mode-reuse": "再利用",
+	"citoid-citoiddialog-search": "検索",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN または PMC/PMID",
+	"citoid-citoiddialog-search-placeholder": "例 http://www.example.com",
+	"citoid-citoiddialog-search-progress": "検索しています。お待ちください...",
+	"citoid-citoiddialog-title": "引用を追加",
+	"citoid-citoiddialog-use-general-error-message": "出典を生成できませんでした。上にある「{{int:citoid-citoiddialog-mode-manual}}」タブを使って、手動で作成することもできます。",
+	"citoid-citoidtool-title": "引用",
+	"citoid-citoidtool-title-othergroup": "引用",
+	"citoid-desc": "citoid サービスとMediaWikiとの間のアクセスポイントを提供する",
+	"citoid-referencecontextitem-convert-button": "変換",
+	"citoid-referencecontextitem-convert-message": "この出典は外部リンクのみで構成されています。下にある「{{int:citoid-referencecontextitem-convert-button}}」ボタンを押して、適切に成形された出典が生成できます。",
+	"citoid-unknown-error": "不明なエラーが発生したため出典が生成できませんでした。後でやり直してください。",
+	"citoid-wb-referenceview-tabs-automatic": "自動",
+	"citoid-wb-referenceview-tabs-search": "検索",
+	"citoid-wb-referenceview-tabs-search-label": "URL, DOI, ISBNまたはQID:",
+	"citoid-wb-pendingdialog-error": "この入力から出典を生成できませんでした。手動タブを使うか、もう一度実行してください。",
+	"citoid-wb-pendingdialog-message": "出典を生成しています... しばらくお待ちください..."
+}

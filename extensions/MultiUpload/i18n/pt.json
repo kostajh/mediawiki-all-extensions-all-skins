@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"multiupload": "Carregar vários ficheiros",
+	"multiupload-desc": "[[Special:MultiUpload|Página especial para carregar vários ficheiros de uma vez]]",
+	"multiupload-text": "Use o formulário abaixo para carregar vários ficheiros.\nPara ver ou pesquisar os ficheiros previamente carregados visite a [[Special:FileList|lista de ficheiros carregados]]. Os ficheiros carregados uma ou mais vezes também são registados [[Special:Log/upload|no registo de carregamentos]] e as eliminações no [[Special:Log/delete|registo de eliminações]].\n\nPara incluir um ficheiro numa página, use uma hiperligação numa das seguintes formas:\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Ficheiro.jpg]]</nowiki></code></strong> para usar a versão integral do ficheiro\n* <strong><code><nowiki>[[</nowiki>{{ns:file}}<nowiki>:Ficheiro.png|200px|thumb|left|texto alternativo]]</nowiki></code></strong> para usar uma composição gráfica com 200 píxeis de largura, numa caixa, na margem esquerda, com \"texto alternativo\" como descrição\n* <strong><code><nowiki>[[</nowiki>{{ns:media}}<nowiki>:Ficheiro.ogg]]</nowiki></code></strong> para hiperligar diretamente ao ficheiro sem o apresentar.\n\nQuando tiver selecionado um ficheiro esta página irá expandir, permitindo-lhe selecionar mais ficheiros antes de carregar.\n\nPara descomprimir um ficheiro <code>.zip</code>, <code>.tar</code>, <code>.tar.gz</code> ou <code>.tgz</code> e carregar os ficheiros que ele contém, selecione o ficheiro comprimido e depois use o botão \"{{int:multiupload-unpack-button}}\" que aparece.",
+	"multipleupload": "Carregar ficheiros",
+	"multipleupload-toolbox": "Carregar vários ficheiros",
+	"multiupload-submit": "Carregar ficheiros",
+	"multiupload-uploadedto": "O ficheiro $1 foi carregado.",
+	"multiupload-row": "Ficheiro $1",
+	"multiupload-unpack-button": "Descomprimir",
+	"multiupload-notify-ok": "OK",
+	"multiupload-upload-package-error": "Erro no carregamento do ficheiro comprimido",
+	"multiupload-unpack-error": "Erro ao descomprimir o ficheiro comprimido",
+	"multiupload-unreadable-package": "Não foi possível ler o ficheiro $1",
+	"multiupload-http-error": "Não foi possível estabelecer a ligação ao servidor.",
+	"multiupload-file-unpacked-from": "Ficheiro <b>$1</b> do ficheiro comprimido <b>$2</b>",
+	"apihelp-multiupload-unpack-description": "Descomprimir um ficheiro ZIP ou tar antes de importar o seu conteúdo.",
+	"apihelp-multiupload-unpack-summary": "Descomprimir um ficheiro ZIP ou tar antes de importar o seu conteúdo.",
+	"apihelp-multiupload-unpack-param-key": "\"filekey\" (chave de ficheiro) obtida ao carregar o ficheiro comprimido para a área de ficheiros escondidos",
+	"apihelp-multiupload-unpack-param-filename": "Nome do ficheiro comprimido"
+}

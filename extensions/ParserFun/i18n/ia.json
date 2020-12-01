@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"parserfun-desc": "Adde al analysator syntactic un function <code>#parse</code> pro interpretar wikitexto e introduce le prefixo <code>THIS:</code> pro variabiles magic connexe a information de paginas",
+	"parserfun-invalid-caller-mode": "Nulle modo de operation o indice numeric valide specificate."
+}

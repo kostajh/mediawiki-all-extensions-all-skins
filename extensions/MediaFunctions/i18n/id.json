@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin"
+		]
+	},
+	"mediafunctions-desc": "Fungsi parser untuk memperoleh informasi mengenai berkas media",
+	"mediafunctions-invalid-title": "\"$1\" bukan judul yang sah",
+	"mediafunctions-not-exist": "\"$1\" tak ditemukan"
+}

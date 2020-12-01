@@ -1,0 +1,27 @@
+{
+	"name": "Interactive block message",
+	"version": "1.2.0",
+	"author": [
+		"Petr Bena"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:InteractiveBlockMessage",
+	"descriptionmsg": "interactiveblockmessage-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"MessagesDirs": {
+		"InteractiveBlockMessage": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"InteractiveBlockMessageMagic": "InteractiveBlockMessage.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"InteractiveBlockMessageHooks": "InteractiveBlockMessageHooks.php"
+	},
+	"Hooks": {
+		"MagicWordwgVariableIDs": "InteractiveBlockMessageHooks::magicWordSet",
+		"ParserGetVariableValueSwitch": "InteractiveBlockMessageHooks::parserGetVariable"
+	},
+	"manifest_version": 1
+}

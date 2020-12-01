@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"Александр Сигачёв"
+		]
+	},
+	"svgedit-editbutton-edit": "Редактировать рисунок",
+	"svgedit-summary-label": "Описание изменений",
+	"svgedit-summary-default": "/* Изменено в svg-edit */",
+	"svgedit-editor-save-close": "Сохранить и закрыть",
+	"svgedit-editor-close": "Отмена",
+	"svgedit-desc": "Редактирование SVG-изображений в браузере с помощью [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Править рисунок",
+	"svgedit-edit-tab-tooltip": "Вы можете редактировать этот SVG-рисунок в вашем браузере",
+	"svgedit-toolbar-insert": "Рисование SVG"
+}

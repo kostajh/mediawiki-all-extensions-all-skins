@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby",
+			"Soued031"
+		]
+	},
+	"openstackmanager-desc": "Erméiglecht et de Benotzer fir Nova a Swift ze verwalten",
+	"openstackmanager": "OpenStack-Gestionnaire",
+	"novakey": "Är ëffentlech SSH-Schlëssele geréieren",
+	"openstackmanager-novakey": "Nova-Schlëssel",
+	"openstackmanager-delete": "läschen",
+	"openstackmanager-actions": "Aktiounen",
+	"openstackmanager-notloggedin": "Umeldung néideg",
+	"openstackmanager-mustbeloggedin": "Dir musst ageloggt si fir dës Aktioun maachen ze kënnen.",
+	"openstackmanager-novapublickey": "Ëffentlechen SSH-Schlëssel:",
+	"openstackmanager-prefs-novapublickey": "Ëffentlech SSH-Schlësselen:",
+	"openstackmanager-deletekey": "Ëffentlechen SSH-Schlëssel läschen",
+	"openstackmanager-keylist": "Lëscht vun ëffenlechen SSH-Schlësselen",
+	"openstackmanager-addkey": "Ëffentlechen SSH-Schlëssel derbäisetzen",
+	"openstackmanager-name": "Numm",
+	"openstackmanager-fingerprint": "Fangerofdrock",
+	"openstackmanager-keys": "Schlësselen",
+	"openstackmanager-deletedkeyfailed": "De Schlëssel konnt net geläscht ginn.",
+	"openstackmanager-shellaccountexists": "Dëse Shell-Kontennumm gëtt scho benotzt.",
+	"prefs-openstack-keys": "Lëscht vun de Schlësselen"
+}

@@ -1,0 +1,27 @@
+{
+	"name": "WindowsAzureStorage",
+	"version": "1.2.0",
+	"author": [
+		"[http://www.hallowelt.biz Hallo Welt! Medienwerkstatt GmbH]",
+		"Markus Glaser",
+		"Robert Vogel"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WindowsAzureStorage",
+	"descriptionmsg": "windowsazurestorage-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"MessagesDirs": {
+		"WindowsAzureStorage": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"WindowsAzureFileBackend": "includes/WindowsAzureFileBackend.php",
+		"AzureFileBackendList": "includes/AzureFileBackendList.php",
+		"AzureFileBackendDirList": "includes/AzureFileBackendDirList.php",
+		"AzureFileBackendFileList": "includes/AzureFileBackendFileList.php"
+	},
+	"manifest_version": 1
+}

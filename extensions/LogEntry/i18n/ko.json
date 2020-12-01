@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"아라"
+		]
+	},
+	"logentry-append": "추가",
+	"logentry-parserhook-desc": "이 태그 확장 기능은 기록 문서의 시작이나 끝에 항목을 추가하기 위한 양식을 제공합니다",
+	"logentry-specialpage-desc": "이 태그 확장 기능은 기록 문서에 항목을 추가하는 과정을 제공합니다",
+	"logentry": "기록항목",
+	"logentry-invalidpage": "잘못된 문서: $1",
+	"logentry-invalidtoken": "잘못된 토큰"
+}

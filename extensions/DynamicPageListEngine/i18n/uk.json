@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Movses",
+			"Piramidion"
+		]
+	},
+	"dynamicpagelistengine-desc": "Забезпечує динамічні списки сторінок з налаштовними та розширними функціями для [[mw:Special:MyLanguage/Extension:Scribunto|модулів]] та інших розширень",
+	"dple-tracking-category": "Сторінки, що використовують DynamicPageListEngine",
+	"dple-error-invalid-ns-index": "Помилка DynamicPageListEngine: простір назв із префіксом $1 не існує.",
+	"dple-error-no-criteria": "Помилка DynamicPageListEngine: не задано критерії вибору.",
+	"dple-error-too-expensive": "Помилка DynamicPageListEngine: спроба виконати запит, ресурсозатратність якого сягає $1 поєднаних таблиць баз даних, тоді як максимально дозволеним значенням є $2.",
+	"dple-error-too-many-expensive-functions": "Помилка DynamicPageListEngine: на цій сторінці використано надто багато ресурсозатратних функцій."
+}

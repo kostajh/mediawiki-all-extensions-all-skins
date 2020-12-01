@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"secureauth-desc": "Permette a le utinde de aggiungere l'IP lore pe trasè. Ce trase da 'n'otre IP fallisce.",
+	"secureauthinfo": "SecureAuthInfo",
+	"special-secureauth-info": "'Mbormazione de autendicazione secure",
+	"secureauth-info-userinfo": "'Mbormaziune de l'utende",
+	"secureauth-current-ip": "l'IP tune de mò:",
+	"secureauth-whitelist-ip": "IP jndr'à lista vianghe pe l'accesse tune cu 'u nome utende:",
+	"action-sa-access": "tràse cu SecureAuthInfo",
+	"right-sa-access": "Permette a l'utende de trasè cu [[Special:SecureAuthInfo|SecureAuthInfo]]"
+}

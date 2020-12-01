@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"viki-desc": "Tegner en nettverksgraf over lenker mellom wikisider og nettsteder",
+	"viki-error-title": "Feil:",
+	"viki-error-missing-pageTitle": "Du må angi minst én sidetittel.",
+	"viki-timeout-content-namespace": "Tidsavbrudd under henting av innholdsnavnerom for wikien: $1. Faller tilbake på hovednavnerommet.",
+	"viki-error-content-namespace": "Feil under henting av innholdsnavnerom for wikien: $1. Faller tilbake på hovednavnerommet.",
+	"viki-error-visit-node": "Feil under forsøk på å besøke node: $1.",
+	"viki-error-external-links": "Feil under henting av eksterne lenker for siden: $1.",
+	"viki-error-intrawiki-out": "Feli under henting av utgående interwikilenker for siden: $1.",
+	"viki-error-intrawiki-in": "Feil under henting av inngående interwikilenker for siden: $1.",
+	"viki-error-https-node": "Feil under utbrodering av node: $1. Du kjører over HTTPS; du kan bare få tilgang til andre wikier over HTTPS.",
+	"viki-error-https-namespace": "Feil under henting av innholdsnavnerom for wikien: $1. Du kjører over HTTPS; du kan bare få tilgang til andre wikier over HTTPS.",
+	"apihelp-getContentNamespaces-description": "Hent listen over innholdsnavnerom for denne wikien.",
+	"apihelp-getContentNamespaces-summary": "Hent listen over innholdsnavnerom for denne wikien."
+}

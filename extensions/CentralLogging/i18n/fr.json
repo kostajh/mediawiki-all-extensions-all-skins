@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
+	"centrallogging-desc": "Permet aux extensions de créer des entrées de journal sur un  wiki central",
+	"centrallogging-queued-count": "File d'attente des entrées du journal"
+}

@@ -1,0 +1,30 @@
+#content {
+	.bs-page-before-header,
+	.bs-page-header,
+	.bs-firstHeading-container,
+	.bs-page-after-header {
+		color: @theme-page-header-metaband-fg;
+		a {
+			.mixin-link-title-color(
+				@theme-page-header-link-fg-color,
+				@theme-page-header-link-fg-color-hover,
+				@theme-page-header-new-link-fg-color,
+				@theme-page-header-new-link-fg-color-hover
+			);
+		}
+	}
+	.bs-page-separator.v-line {
+		border-color: @theme-page-header-separator-line;
+	}
+
+	.mw-indicators,
+	.mw-indicators.mw-body-content {
+		a {
+			color: @theme-page-header-metaband-fg;
+
+			&:hover {
+				color: @theme-page-header-metaband-fg;
+			}
+		}
+	}
+}

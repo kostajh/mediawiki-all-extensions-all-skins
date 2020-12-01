@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"echo-category-title-bs-social-entity-cat": "Aziune de l'endità sus a le pàggene condrollate",
+	"bs-social-notifications-entity-create": "L'endità suggiale de tipe \"$1\" ccrejate",
+	"bs-social-notifications-email-entity-create-subject": "L'endità suggiale de tipe \"$1\" ccrejate",
+	"bs-social-notifications-email-entity-create-body": "L'utende {{GENDER:$1|$2 ave ccrejate}} 'nu nuève \"$3\"",
+	"bs-social-notifications-email-entity-create-text-body": "L'utende {{GENDER:$1|$2 ave ccrejate}} 'nu nuève \"$3\" cu stu teste:\n$4",
+	"bs-social-notifications-web-entity-create-body": "L'utende {{GENDER:$1|$2 ave ccrejate}} 'nu nuève \"$3\"",
+	"bs-social-notifications-entity-edit": "L'endità suggiale de tipe \"$1\" ha state cangiate",
+	"bs-social-notifications-email-entity-edit-subject": "L'endità suggiale de tipe \"$1\" ha state cangiate",
+	"bs-social-notifications-email-entity-edit-body": "L'utende {{GENDER:$1|$2 ave cangiate}} l'endità suggiale de tipe \"$3\"",
+	"bs-social-notifications-email-entity-edit-text-body": "L'utende {{GENDER:$1|$2 ave cangiate}} l'endità suggiale de tipe \"$3\" cu stu teste:\n$4",
+	"bs-social-notifications-web-entity-edit-body": "L'utende {{GENDER:$1|$2 ave cangiate}} l'endità suggiale de tipe \"$3\"",
+	"bs-social-notifications-entity-delete": "L'endità suggiale de tipe \"$1\" ha state scangellate",
+	"bs-social-notifications-email-entity-delete-subject": "L'endità suggiale de tipe \"$1\" ha state scangellate",
+	"bs-social-notifications-email-entity-delete-body": "L'utende {{GENDER:$1|$2 ave scangellate}} l'endità suggiale de tipe \"$3\"",
+	"bs-social-notifications-web-entity-delete-body": "L'utende {{GENDER:$1|$2 ave scangellate}} l'endità suggiale de tipe \"$3\"",
+	"bs-social-notification-primary-link-label": "'Ndruche l'endità"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armin1392",
+			"Ebraminio",
+			"Mjbmr"
+		]
+	},
+	"browsesw": "جستجوس ویکی و وب معنایی",
+	"swb_desc": "افزودن یک صفحه ویژه [[Special:BrowseSW|مرور ویکی و وب معنایی]]",
+	"swb_browse_article": "نام صفحه‌ را برای شروع مرورگر معنایی، وارد کنید.",
+	"swb_browse_go": "برو",
+	"swb_browse_show_incoming": "نمایش خاصیت‌های ورودی که در اینجا پیوند می‌شوند",
+	"swb_browse_hide_incoming": "پنهان کردن خاصیت‌های ورودی که در اینجا پیوند می‌شوند",
+	"swb_browse_no_outgoing": "این صفحه هیچ ویژگی ندارد.",
+	"swb_browse_no_incoming": "هبچ ویژگی به این صفحه متصل نیست.",
+	"swb_inverse_label_property": "برچسب ویژگی معکوس",
+	"swb_inverse_label_default": "$1 از",
+	"swb_browse_error": "داده‌های معنایی با مرورگر وب معنایی به علت یک خطا، نتوانست بارگذاری شودː"
+}

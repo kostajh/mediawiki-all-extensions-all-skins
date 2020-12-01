@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"KATRINE1992",
+			"Macofe"
+		]
+	},
+	"readinglists-desc": "Permite a los usuarios gestionar listas privadas de artículos, como marcadores o listas de \"Leer después\".",
+	"readinglists-db-error-not-set-up": "No se han establecido listas de lectura para este usuario.",
+	"readinglists-db-error-already-set-up": "Ya se han establecido listas de lectura para este usuario.",
+	"readinglists-db-error-cannot-delete-default-list": "No se puede borrar la lista predeterminada.",
+	"readinglists-db-error-cannot-update-default-list": "No se puede actualizar la lista predeterminada.",
+	"readinglists-db-error-no-such-list": "La lista $1 no existe.",
+	"readinglists-db-error-no-such-list-entry": "La entrada de lista $1 no existe.",
+	"readinglists-db-error-not-own-list": "La lista $1 pertenece a otro usuario.",
+	"readinglists-db-error-not-own-list-entry": "La entrada de lista $1 pertenece a otro usuario.",
+	"readinglists-db-error-list-deleted": "Se eliminó la lista $1.",
+	"readinglists-db-error-list-entry-deleted": "Se eliminó la entrada de lista $1.",
+	"readinglists-db-error-duplicate-list": "Ya existe otra lista con este nombre.",
+	"readinglists-db-error-duplicate-page": "La lista ya contiene esta página.",
+	"readinglists-db-error-user-required": "No se puede llamar a este método sin especificar el usuario.",
+	"readinglists-db-error-list-limit": "Los usuarios no pueden tener mas que $1 {{PLURAL:$1|list|lists}}.",
+	"readinglists-db-error-entry-limit": "La lista $1 no puede tener mas de $2 {{PLURAL:$2|entry|entrie}}.",
+	"readinglists-db-error-too-long": "El valor del campo $1 no puede ser mayor que $2 bytes.",
+	"readinglists-db-error-no-such-project": "«$1» no es una proyecto reconocido.",
+	"readinglists-browser-login-prompt": "Accede a tu cuenta para guardar artículos",
+	"readinglists-browser-error-intro": "Se produjo un error: $1",
+	"readinglists-browser-enable-sync-prompt": "Activa la sincronización en tu apli Wikipedia para empezar a guardar artículos",
+	"readinglists-browser-extension-info-link-text": "Más información",
+	"readinglists-browser-list-entry-limit-exceeded": "No se puede guardar el artículo. Has superado el límite de $1 artículos por lista",
+	"readinglists-browser-extension-product-title": "Listas de lectura de Wikipedia",
+	"readinglists-browser-page-not-supported": "$1 no admite esta página"
+}

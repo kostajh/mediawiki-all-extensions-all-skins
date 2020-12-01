@@ -1,0 +1,53 @@
+{
+	"name": "THICC",
+	"namemsg": "thicc-displayname",
+	"descriptionmsg": "thicc-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:THICC",
+	"license-name": "GPL-2.0-or-later",
+	"version": "0.0.0",
+	"author": [ "Ostrzyciel", "Brian Wolff", "Calimonius the Estrange" ],
+	"manifest_version": 1,
+	"type": "other",
+	"MessagesDirs": {
+		"Thicc": [ "i18n" ]
+	},
+	"AutoloadClasses": {
+		"ThiccModelContent": "includes/ThiccModelContent.php",
+		"ThiccModelContentHandler": "includes/ThiccModelContentHandler.php",
+		"ThiccModelAggregateContent": "includes/ThiccModelAggregateContent.php",
+		"ThiccModelAggregateContentHandler": "includes/ThiccModelAggregateContentHandler.php"
+	},
+	"ContentHandlers": {
+		"ThiccModelContent": "ThiccModelContentHandler",
+		"ThiccModelAggregateContent": "ThiccModelAggregateContentHandler"
+	},
+	"namespaces": [
+		{
+			"id": 690,
+			"constant": "NS_THICC",
+			"name": "THICC"
+		},
+		{
+			"id": 691,
+			"constant": "NS_THICC_TALK",
+			"name": "THICC_talk"
+		}
+	],
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "THICC/modules"
+	},
+	"ResourceModules": {
+		"ext.thicc": {
+			"scripts": [
+				"ext.thicc.js"
+			],
+			"messages": []
+		},
+		"ext.thicc.threads": {
+			"styles": [
+				"ext.thicc.threads.less"
+			]
+		}
+	}
+}

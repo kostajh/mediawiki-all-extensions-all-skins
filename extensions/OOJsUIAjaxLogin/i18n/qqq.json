@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Florian Schmidt",
+			"Liuxinyu970226",
+			"Umherirrender"
+		]
+	},
+	"oojsuiajaxlogin-desc": "{{desc|name=OOJsUIAjaxLogin|url=https://www.mediawiki.org/wiki/Extension:OOJsUIAjaxLogin}}",
+	"oojsuiajaxlogin-loading": "Test for the login link used to indicate, that the Ajax login overlay is loading.\n{{Identical|Loading}}"
+}

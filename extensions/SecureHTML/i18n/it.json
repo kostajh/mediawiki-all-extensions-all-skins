@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Gianfranco"
+		]
+	},
+	"securehtml": "HTML sicuro",
+	"securehtml-desc": "Consente di includere HTML arbitrario in modo sicuro e autorizzato",
+	"securehtml-nokeys": "Errore: <code>$wgSecureHTMLSecrets</code> non è definito.",
+	"securehtml-hashrequired": "Errore: Hash richiesto.",
+	"securehtml-invalidhash": "Errore: Hash non valido.",
+	"securehtml-input-title": "Input HTML",
+	"securehtml-generatedoutput-title": "Output generato",
+	"securehtml-renderedhhtml-title": "HTML Renderizzato",
+	"securehtml-form-keyname": "Nome della chiave (facoltativo)",
+	"securehtml-form-keysecret": "Chiave segreta",
+	"securehtml-form-html": "HTML grezzo",
+	"securehtml-form-submit": "Invia",
+	"securehtml-inputinstructions": "Inserisci il nome della chiave (facoltativo), la chiave segreta, ed il codice HTML desiderato.\nSe nessun nome viene specificato per la chiave, verrà assunta la prima in <code>$wgSecureHTMLSecrets</code>.",
+	"securehtml-outputinstructions": "Copia il codice sopra riportato ESATTAMENTE COME LO VEDI e incollalo nell'editor wiki.\nSe il codice generato non funziona, prova a rimuovere tutte le andate a capo dall'input HTML e ri-generalo."
+}

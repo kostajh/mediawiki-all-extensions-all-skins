@@ -1,0 +1,265 @@
+{
+	"name": "LinkedWiki",
+	"version": "3.5.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Karima_Rafes Karima Rafes]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LinkedWiki",
+	"descriptionmsg": "linkedwiki-desc",
+	"license-name": "CC-BY-SA-4.0",
+	"type": "datavalues",
+	"namespaces": [
+		{
+			"@doc": "NamespaceRelations with NS_MAIN",
+			"id": 10000,
+			"constant": "NS_DATA",
+			"name": "Data",
+			"protection": "data-edit"
+		},
+		{
+			"@doc": "NamespaceRelations with NS_USER",
+			"id": 10002,
+			"constant": "NS_USER_DATA",
+			"name": "UserData",
+			"protection": "data-edit"
+		},
+		{
+			"id": 10010,
+			"constant": "NS_SCHEMA",
+			"name": "Schema",
+			"protection": "data-edit"
+		},
+		{
+			"id": 10011,
+			"constant": "NS_SCHEMA_TALK",
+			"name": "Schema_talk"
+		},
+		{
+			"id": 10030,
+			"constant": "NS_DATATYPE",
+			"name": "Datatype",
+			"protection": "data-edit"
+		},
+		{
+			"id": 10031,
+			"constant": "NS_DATATYPE_TALK",
+			"name": "Datatype_talk"
+		}
+	],
+	"AvailableRights": [
+		"data-edit"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"data-edit" : true
+		},
+		"data": {
+			"data-edit" : true
+		}
+	},
+	"GrantPermissions": {
+		"editdata": {
+			"data-edit" : true
+		}
+	},
+	"AutoloadClasses": {
+		"LinkedWikiConfig": "LinkedWikiConfig.php",
+		"LinkedWiki": "LinkedWiki.php",
+
+		"SpecialSparqlQuery": "specialpages/SpecialSparqlQuery.php",
+		"SpecialSparqlFlintEditor": "specialpages/SpecialSparqlFlintEditor.php",
+		"SpecialLinkedWikiConfig": "specialpages/SpecialLinkedWikiConfig.php",
+		"SpecialRDFUnit": "specialpages/SpecialRDFUnit.php",
+		"SpecialRDFSave": "specialpages/SpecialRDFSave.php",
+
+		"SparqlParser": "parser/SparqlParser.php",
+		"WSparqlParser": "parser/WSparqlParser.php",
+		"ToolsParser": "parser/ToolsParser.php",
+		"LwgraphTag": "tag/LwgraphTag.php",
+
+		"RDFTag": "tag/RDFTag.php",
+
+		"LinkedWikiLuaLibrary": "lua/LinkedWikiLuaLibrary.php",
+
+		"StorageMethodAbstract": "storageMethod/StorageMethodAbstract.php",
+		"StorageInGraphMethod": "storageMethod/StorageInGraphMethod.php",
+		"SimpleStorageMethod": "storageMethod/SimpleStorageMethod.php",
+		"WikidataStorageMethod": "storageMethod/WikidataStorageMethod.php",
+		"DatabaseTestDataMethod": "storageMethod/DatabaseTestDataMethod.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "LinkedWiki::parserFirstCallInit",
+		"ScribuntoExternalLibraries": "LinkedWiki::scribuntoExternalLibraries",
+		"RawPageViewBeforeOutput": "RDFTag::rawRDFSource",
+		"EditFilterMergedContent": "RDFTag::onEditFilterMergedContent",
+		"ArticleDeleteAfterSuccess": "LinkedWiki::onArticleDeleteAfterSuccess",
+		"TitleMoveComplete": "LinkedWiki::onTitleMoveComplete",
+		"BeforePageDisplay": "LinkedWiki::onBeforePageDisplay"
+	},
+	"MessagesDirs": {
+		"LinkedWiki": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"linkedwiki-specialsparqlquery-alias": "specialpages/SpecialSparqlQuery.alias.php",
+		"linkedwiki-specialsparqlflinteditor-alias": "specialpages/SpecialSparqlFlintEditor.alias.php",
+		"linkedwiki-specialLinkewikiconfig-alias": "specialpages/SpecialLinkedWikiConfig.alias.php",
+		"linkedwiki-specialrdfunit-alias": "specialpages/SpecialRDFUnit.alias.php",
+		"linkedwiki-specialrdfsave-alias": "specialpages/SpecialRDFSave.alias.php",
+		"LinkedWikiMagic": "LinkedWiki.i18n.magic.php"
+	},
+	"ResourceModules": {
+		"ext.LinkedWiki.common": {
+			"styles": [
+				"resources/common.css"
+			]
+		},
+		"ext.LinkedWiki.table2CSV": {
+			"group": "ext.LinkedWiki",
+			"scripts": [
+				"js/table2CSV.js"
+			]
+		},
+		"ext.LinkedWiki.lwgraph": {
+			"group": "ext.LinkedWiki",
+			"scripts": [
+				"js/lwgraph.js"
+			]
+		},
+		"ext.LinkedWiki.flowchart": {
+			"group": "ext.LinkedWiki",
+			"scripts": [
+				"js/flowchart.js"
+			],
+			"dependencies": [
+				"ext.LinkedWiki.lwgraph"
+			]
+		},
+		"ext.LinkedWiki.flint": {
+			"group": "ext.LinkedWiki",
+			"scripts": [
+				"js/FlintSparqlEditor/sparql/lib/codemirror.js",
+				"js/FlintSparqlEditor/sparql/lib/jquery-migrate-1.0.0.js",
+				"js/FlintSparqlEditor/sparql/sparql10querymode_ll1.js",
+				"js/FlintSparqlEditor/sparql/sparql11querymode_ll1.js",
+				"js/FlintSparqlEditor/sparql/sparql11updatemode_ll1.js",
+				"js/FlintSparqlEditor/sparql/flint-editor.js",
+				"js/FlintSparqlEditor/sparql/init-local.js"
+			],
+			"styles": [
+				"js/FlintSparqlEditor/sparql/lib/codemirror.css",
+				"js/FlintSparqlEditor/sparql/css/sparqlcolors.css",
+				"js/FlintSparqlEditor/sparql/css/docs.css"
+			]
+		},
+		"ext.LinkedWiki.sgvizler2": {
+			"scripts": [
+				"node_modules/popper.js/dist/umd/popper.min.js",
+				"node_modules/bootstrap/dist/js/bootstrap.min.js",
+				"node_modules/sgvizler2/build/browser/sgvizler2.min.js"
+			],
+			"styles": [
+				"resources/bootstrap/dist/bootstrap.light.min.css",
+				"node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+			]
+		},
+		"ext.LinkedWiki.SpecialSparqlQuery": {
+			"scripts": [
+				"node_modules/sgvizler2/build/browser/lib/bootstrap-select/js/bootstrap-select.js",
+				"js/SparqlEditor/form.js"
+			],
+			"styles": [
+				"node_modules/sgvizler2/build/browser/lib/bootstrap-select/css/bootstrap-select.min.css"
+			],
+			"dependencies": [
+				"ext.LinkedWiki.sgvizler2"
+			]
+		},
+		"ext.LinkedWiki.SparqlParser": {
+			"scripts": [
+				"js/lwsgvizler2.js"
+			],
+			"dependencies": [
+				"ext.LinkedWiki.sgvizler2"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "LinkedWiki"
+	},
+	"SpecialPages": {
+		"linkedwiki-specialsparqlquery": "SpecialSparqlQuery",
+		"linkedwiki-specialsparqlflinteditor": "SpecialSparqlFlintEditor",
+		"linkedwiki-speciallinkedwikiconfig": "SpecialLinkedWikiConfig",
+		"linkedwiki-specialrdfunit": "SpecialRDFUnit",
+		"linkedwiki-specialrdfsave": "SpecialRDFSave"
+	},
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.31"
+	},
+	"ConfigRegistry": {
+		"wgLinkedWiki": "LinkedWiki::makeConfig"
+	},
+	"config_prefix": "wgLinkedWiki",
+	"config": {
+		"QuerySparqlInSpecialPage":{
+			"description": "Query by default in the editor SPARQL",
+			"value": "SELECT * WHERE \n { ?x ?y ?z . } \nLIMIT 15"
+		},
+		"SPARQLServiceByDefault":{
+			"description": "Without parameters (config or endpoint) the SPARQL queries are sent at this SPARQL service.",
+			"value": "http://www.wikidata.org"
+		},
+		"ConfigSPARQLServices": {
+			"description": "Array of SPARQL services uses in this wiki. http://www.example.org is the configuration by default for all SPARQL service. If you need to change, be careful about other endpoints.",
+			"value": {
+				"http://www.example.org": {
+					"isReadOnly": true,
+					"debug": false,
+					"proxyHost": "",
+					"proxyPort": 0,
+					"endpointRead": "http://www.example.org/sparql",
+					"endpointWrite": "",
+					"login": "",
+					"password": "",
+					"HTTPMethodForRead": "POST",
+					"HTTPMethodForWrite": "POST",
+					"nameParameterRead": "query",
+					"nameParameterWrite": "update",
+					"lang": "en",
+					"storageMethodClass": "SimpleStorageMethod"
+				},
+				"http://www.wikidata.org": {
+					"debug": false,
+					"isReadOnly": true,
+					"endpointRead": "https://query.wikidata.org/sparql",
+					"typeRDFDatabase": "blazegraph",
+					"HTTPMethodForRead": "GET",
+					"storageMethodClass": "WikidataStorageMethod",
+					"lang": "en"
+				}
+			},
+			"merge_strategy": "array_plus_2d"
+		},
+		"SPARQLServiceSaveDataOfWiki": {
+			"description": "If you specify the SPARQL service uses to save RDF data (in the RDF tag) on the pages of wiki, you are able to use the special page to clean/import all your RDF data.",
+			"value": ""
+		},
+		"CheckRDFPage" : {
+			"description": "If you have install Rapper, you can choose to check the RDF when you save a page, with this option.",
+			"value": false
+		},
+		"GoogleApiKey" : {
+			"description": "Google API key, if you use Google charts. (https://developers.google.com/places/web-service/get-api-key)",
+			"value": "GOOGLE_MAP_API_KEY"
+		},
+		"OSMAccessToken" : {
+			"description": "OpenStreetMap Access Token, if you use OpenStreetMap via the Leaflet charts. (https://www.mapbox.com/)",
+			"value": "OPENSTREETMAP_ACCESS_TOKEN"
+		}
+	},
+	"load_composer_autoloader": true
+}

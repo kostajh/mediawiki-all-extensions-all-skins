@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"KlaudiuMihaila",
+			"Minisarm",
+			"Stelistcristi"
+		]
+	},
+	"inlinecategorizer-desc": "Modul JavaScript care permite modificarea, adăugarea sau înlăturarea legăturilor către categorii direct dintr-o pagină",
+	"inlinecategorizer-add-category": "Adaugă categorie",
+	"inlinecategorizer-add-category-submit": "Adaugă",
+	"inlinecategorizer-add-category-summary": "Adăugarea categoriei „$1”",
+	"inlinecategorizer-api-error": "API a returnat o eroare: $1: $2",
+	"inlinecategorizer-api-unknown-error": "API a returnat o eroare necunoscută.",
+	"inlinecategorizer-cancel": "Anulează modificarea",
+	"inlinecategorizer-cancel-all": "Anulează toate modificările",
+	"inlinecategorizer-category-already-present": "Această pagină aparține deja categoriei $1",
+	"inlinecategorizer-category-hook-error": "O funcție locală a împiedicat salvarea modificărilor",
+	"inlinecategorizer-category-question": "De ce doriți să efectuați următoarele modificări:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Salvare",
+	"inlinecategorizer-confirm-save-all": "Salvează toate schimbările",
+	"inlinecategorizer-confirm-title": "Confirmați acțiunea",
+	"inlinecategorizer-edit-category": "Modifică categoria",
+	"inlinecategorizer-edit-category-error": "Modificarea categoriei „$1” nu a fost posibilă.\nAcest lucru are loc de obicei atunci când categoria a fost adăugată în pagină printr-un format.",
+	"inlinecategorizer-edit-category-summary": "Modificarea categoriei „$1” în „$2”",
+	"inlinecategorizer-error-title": "Eroare",
+	"inlinecategorizer-remove-category": "Elimină categoria",
+	"inlinecategorizer-remove-category-error": "Eliminarea categoriei „$1” nu a fost posibilă.\nAcest lucru are loc de obicei atunci când categoria a fost adăugată în pagină printr-un format.",
+	"inlinecategorizer-remove-category-summary": "Eliminarea categoriei „$1”"
+}

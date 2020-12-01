@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog"
+		]
+	},
+	"bs-nsfrc-namespacestore-label": "Именски простор",
+	"bs-nsfrc-namespacecombo-emptytext": "Изаберите именски простор",
+	"bs-nsfrc-unprefixedfilename-label": "Наслов",
+	"bs-nsfrc-uploaddialog-selector-label": "Циљни именски простор",
+	"apihelp-bs-nsfrc-tasks-summary": "API крајња тачка додатка BlueSpiceNSFileRepoConnector"
+}

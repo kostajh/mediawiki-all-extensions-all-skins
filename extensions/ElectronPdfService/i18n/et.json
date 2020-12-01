@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"electronpdfservice-desc": "Lisab brauseripõhise PDF-failide viimistluse toe, mis kasutab teenust Electron PDF.",
+	"electronpdfservice-special-page-headline": "PDF-faili allalaadimine",
+	"electronpdfservice-download-label": "PDF-faili allalaadimine",
+	"electronpdfservice-download-button": "Laadi alla",
+	"electronpdfservice-sidebar-portlet-heading": "Print ja eksport",
+	"electronpdfservice-sidebar-portlet-print-text": "Laadi alla PDF-failina",
+	"electronpdfservice-invalid-page-title": "Vigane lehekülg",
+	"electronpdfservice-invalid-page-text": "Määratud lehekülg pole sobilik."
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derugon",
+			"Gomoko",
+			"Thibaut120094",
+			"Wladek92"
+		]
+	},
+	"apihelp-parsoid-batch-description": "API de regroupement (pour Parsoid) pour exécuter par lot les requêtes API de MediaWiki",
+	"apihelp-parsoid-batch-summary": "API de regroupement pour Parsoid",
+	"apihelp-parsoid-batch-param-batch": "Requêtes de l'API Action (maximum 500 par recherche).",
+	"apierror-parsoid-batch-notallowed": "L’adresse IP du client ne figure pas dans ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "Batch invalide, doit être un tableau.",
+	"apierror-parsoid-batch-batchtoolarge": "Batch trop grand, la limite est de 500.",
+	"apierror-parsoid-batch-invalidaction": "Action invalide dans l’élément d’index $1.",
+	"apierror-parsoid-batch-texttoobig": "Le texte entré dépasse la taille maximale d’une page.",
+	"apierror-parsoid-batch-invalidtitle": "Titre invalide ($1).",
+	"apierror-parsoid-batch-mustbescalar": "Le paramètre <var>$1</var> doit être un scalaire.",
+	"apierror-parsoid-batch-mustbearray": "Le paramètre <var>$1</var> doit être un tableau."
+}

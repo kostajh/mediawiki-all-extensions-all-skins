@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"minimumnamelength-desc": "Ermöglicht das Erzwingen einer Mindestlänge für Benutzernamen",
+	"minimumnamelength-error": "Der gewünschte Benutzername ist zu kurz. Die erforderliche Mindestlänge beträgt {{PLURAL:$1|ein|$1}} Zeichen."
+}

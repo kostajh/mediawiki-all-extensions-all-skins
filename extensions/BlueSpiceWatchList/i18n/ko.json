@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwangjy9",
+			"Ykhwong"
+		]
+	},
+	"bs-watchlist-title-sidebar": "주시문서 목록",
+	"bs-watchlist-pref-sort-time": "시간",
+	"bs-watchlist-pref-sort-title": "제목",
+	"bs-watchlist-window-watchlist-title": "주시문서 목록",
+	"bs-watchlist-window-watchlist-intro": "주시문서 목록의 모든 문서의 개요입니다. [[Special:Watchlist|이전 주시문서 목록 문서]]로 전환할 수도 있습니다.",
+	"bs-watchlist-grid-watchlist-column-link-header": "문서",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "미확인한 변경사항",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "토론 문서",
+	"bs-watchlist-grid-watchlist-label-filter": "필터"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-exporttables-extension-description": "允許匯出表格成 Excel 與 CSV",
+	"bs-exporttables-menu": "匯出表格",
+	"bs-exporttables-menu-csv": "逗號分隔值（CSV）",
+	"bs-exporttables-ve-exportable-option": "可匯出"
+}

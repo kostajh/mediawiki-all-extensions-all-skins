@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"bs-categorymanager-label": "Kategorio-administrilo",
+	"bs-categorymanager-dlg-new-title": "Krei kategorion",
+	"bs-categorymanager-dlg-new-prompt": "Bonvolu enigi la nomon:",
+	"bs-categorymanager-removecategoryconfirm-text": "Ĉu vi certas, ke vi volas forigi ĉi tiun kategorion?",
+	"bs-categorymanager-removecategoryconfirm-title": "Forigi kategorion",
+	"bs-categorymanager-addcategory-dialog-error-title": "Kreado de kategorio malsukcesis",
+	"bs-categorymanager-action-show-category": "Montri kategorion"
+}

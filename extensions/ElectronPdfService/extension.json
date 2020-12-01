@@ -1,0 +1,69 @@
+{
+	"name": "ElectronPdfService",
+	"author": [
+		"[https://meta.wikimedia.org/wiki/WMDE_Technical_Wishes Wikimedia Deutschland Technical Wishes Team]",
+		"Tobias Gritschacher",
+		"Addshore",
+		"Christoph Jauera"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ElectronPdfService",
+	"descriptionmsg": "electronpdfservice-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"manifest_version": 2,
+	"AutoloadClasses": {
+		"ElectronPdfServiceHooks": "src/ElectronPdfServiceHooks.php",
+		"SpecialDownloadAsPdf": "src/specials/SpecialDownloadAsPdf.php"
+	},
+	"config": {
+		"ElectronPdfServiceRESTbaseURL": {
+			"value": "/api/rest_v1/page/pdf/"
+		}
+	},
+	"ExtensionMessagesFiles": {
+		"ElectronPdfServiceAlias": "ElectronPdfService.i18n.alias.php"
+	},
+	"Hooks": {
+		"SidebarBeforeOutput": "ElectronPdfServiceHooks::onSidebarBeforeOutput",
+		"BeforePageDisplay": "ElectronPdfServiceHooks::onBeforePageDisplay"
+	},
+	"MessagesDirs": {
+		"ElectronPdfService": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.ElectronPdfService.print.styles": {
+			"styles": [
+				"modules/ext.ElectronPdfService.print.css"
+			]
+		},
+		"ext.ElectronPdfService.special.styles": {
+			"styles": [
+				"modules/ext.ElectronPdfService.special.css"
+			]
+		},
+		"ext.ElectronPdfService.special.selectionImages": {
+			"class": "ResourceLoaderImageModule",
+			"selector": ".mw-electronpdfservice-selection-{name}",
+			"images": {
+				"download-image": {
+					"file": {
+						"ltr": "modules/selectionImages/download-ltr.svg",
+						"rtl": "modules/selectionImages/download-rtl.svg"
+					}
+				}
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "ElectronPdfService"
+	},
+	"SpecialPages": {
+		"DownloadAsPdf": "SpecialDownloadAsPdf"
+	}
+}

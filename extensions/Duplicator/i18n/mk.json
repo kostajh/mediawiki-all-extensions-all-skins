@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"duplicator": "Дуплирање на страница",
+	"duplicator-desc": "Создајте независни [[Special:Duplicate|копии на страници]] со полна историја на уредување",
+	"duplicator-toolbox": "Дуплирај ја страницата",
+	"duplicator-header": "Оваа страница овозможува целосно дуплирање на страница, создавање на независни копии на сите истории.\nОва е корисно за разделување на страница во две посебни и сл.",
+	"duplicator-options": "Нагодувања",
+	"duplicator-source": "Извор:",
+	"duplicator-dest": "Одредница:",
+	"duplicator-dotalk": "Дуплирај ја разговорната страница (ако е можно)",
+	"duplicator-dosubpages": "Дуплирај потстраници (ако ги има)",
+	"duplicator-dohistory": "Дуплирај ја целата историја",
+	"duplicator-submit": "Дуплирај",
+	"duplicator-summary": "Прекопирано од [[$1]], преработка [[$2]]",
+	"duplicator-success": "Страницата [[$1]] е ископирана во [[$2]].",
+	"duplicator-success-revisions": "{{PLURAL:$1|Беше ископирана $1 преработка|Беа ископирани $1 преработки}}.",
+	"duplicator-success-talknotcopied": "Разговорната страница не можеше да се ископира.",
+	"duplicator-failed": "Страницата не можеше да се дуплира.\nСе појави непозната грешка.",
+	"duplicator-failed-toolong": "Не можев да ја дуплирам [[$1]]. Целниот наслов е предолг.",
+	"duplicator-failed-dest-exists": "Не можев да ја дуплирам [[$1]]. Целта [[$2]] веќе постои.",
+	"duplicator-source-invalid": "Наведете важечки изворен наслов.",
+	"duplicator-source-notexist": "[[$1]] не постои. Наведете наслов на страница која постои.",
+	"duplicator-dest-invalid": "Наведете важечки целен наслов",
+	"duplicator-dest-exists": "[[$1]] веќе постои. Наведете целен наслов кој не постои.",
+	"action-duplicate": "дуплирање на страници",
+	"right-duplicate": "Дуплирање страници"
+}

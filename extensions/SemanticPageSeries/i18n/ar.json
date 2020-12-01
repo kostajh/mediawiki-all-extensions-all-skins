@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"semanticpageseries-desc": "إنشاء سلسلة من الصفحات من [https://www.mediawiki.org/wiki/Extension:Semantic_Forms نموذج دلالي] واحد",
+	"spssuccesstitle": "إنشاء $1 صفحات",
+	"spssuccess": "سيتم إنشاء {{PLURAL:$1|صفحة واحدة|$1 صفحة}}.",
+	"spssuccess-returntoorigin": "عد إلى $1",
+	"spserror": "حدث خطأ",
+	"spserror-diffnotsupported": "إجراء الفرق غير مدعوم لسلسلة صفحات.",
+	"spserror-previewnotsupported": "إجراء المعاينة غير مدعوم لسلسلة الصفحات.",
+	"spserror-noiteratorname": "لا يوجد مبرد محدد، يجب عليك تعيين الوسيط \"iterator\" في استدعاء دالة المحلل #serieslink.",
+	"spserror-iteratorunknown": "Iterator \"$1\" غير موجود; يجب عليك تصحيح الوسيط \"iterator\" في استدعاء دالة المحلل #serieslink.",
+	"spserror-noformname": "لم يتم ذكر اسم نموذج; يجب عليك تعيين الوسيط \"form\" في دالة المحلل #serieslink.",
+	"spserror-formunknown": "النموذج \"$1\" غير موجود.",
+	"spserror-notargetformname": "لم يتم ذكر اسم النموذج المستهدف; يجب عليك تعيين المعلمة \"target form\" في استدعاء دالة المحلل #serieslink.",
+	"spserror-notargetfieldname": "لم يتم تحديد اسم مجال مستهدف; يجب عليك تعيين الوسيط \"حقل الهدف\" في استدعاء دالة المحلل #serieslink.",
+	"spserror-iteratorparammissing": "$1\nالوسائط المكررة التالية مفقودة في استدعاء #serieslink: $1",
+	"spserror-noiteratordata": "لم يتم العثور على وسائط مكررة في البيانات المرسلة.",
+	"spserror-pagegenerationlimitexeeded": "لقد حاولت إنشاء {{PLURAL:$1|صفحة واحدة|$1 صفحة}}، يتجاوز ذلك الحد المسموح به لك {{PLURAL:$2|صفحة واحدة|$1 صفحة}}.",
+	"spserror-date-startdatemissing": "تاريخ البدء مفقود.",
+	"spserror-date-internalerror": "حدث خطأ أثناء تكوين التواريخ: $1",
+	"spserror-count-startvaluemalformed": "قيمة البدء ليست رقما.",
+	"spserror-count-endvaluemalformed": "القيمة النهائية ليست رقما.",
+	"spserror-count-stepvaluemalformed": "قيمة الخطوة ليست رقما.",
+	"spserror-count-digitsvaluemalformed": "قيمة الأرقام ليست رقما."
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"MuratTheTurkish",
+			"Patric Wirth",
+			"Umherirrender"
+		]
+	},
+	"bs-socialwatch-desc": "{{desc|name=BlueSpiceSocialWatch}}",
+	"bs-socialwatch-watchtext": "Short label for button that sets the watch status to the entry\n{{Identical|Watch}}",
+	"bs-socialwatch-unwatchtext": "Short label for button that sets the unwatch status to the entry",
+	"bs-socialwatch-var-watch": "Label for entry field \"watch\".\n{{Identical|Watch}}",
+	"apihelp-bs-socialwatch-tasks-summary": "{{doc-apihelp-summary|bs-socialwatch-tasks}}"
+}

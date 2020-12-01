@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minisarm",
+			"Stelistcristi"
+		]
+	},
+	"translatesvg-desc": "Furnizează o interfață cu stil nativ pentru traducerea fișierelor SVG în acord cu specificațiile SVG1.1",
+	"translate-svg-nodesc": "(Nu a fost furnizată nicio descriere a fișierului.)",
+	"translate-svg-thumbnail": "Fișier original",
+	"translate-svg-js-thumbnail": "(miniatura se actualizează automat)",
+	"translate-page-description-legend-svgmg": "Informații despre acest fișier",
+	"translate-taction-mstats-svgmg": "Statistici despre fișier",
+	"translate-svg-table-header": "Identificator al mesajului",
+	"translate-svg-filepage-caption": "Această imagine randată ca PNG în alte limbi: $1",
+	"translate-svg-filepage-caption-translator": "Această imagine randată ca PNG în alte limbi: $1; sau traduceți-o în $2",
+	"translate-svg-filepage-edit": "modificare",
+	"translate-svg-filepage-finish": "finalizare",
+	"translate-svg-filepage-another": "altă limbă",
+	"translate-svg-filepage-other": "alte limbi",
+	"translate-svg-filepage-invite": "Acest fișier poate fi tradus cu ușurință în $1",
+	"translate-svg-upload-none": "(niciunul)",
+	"translate-svg-chooselanguage-title": "Selectare limbă",
+	"translate-svg-instructions-title": "Prima dată când traduceți un fișier SVG în acest mod?",
+	"translate-svg-new-title": "Traducere SVG",
+	"translate-svg-new-label": "Limbă:",
+	"translate-js-properties-legend": "Proprietăți",
+	"translate-js-label-x": "Coordonate X:",
+	"translate-js-label-y": "Coordonate Y:",
+	"translate-js-label-color": "Culoare",
+	"translate-js-label-font-family": "Font:",
+	"translate-js-label-bold": "Aldin",
+	"translate-js-label-italic": "Cursiv",
+	"translate-js-label-underline": "Subliniere",
+	"translate-js-font-family-inherit": "(moștenit)"
+}

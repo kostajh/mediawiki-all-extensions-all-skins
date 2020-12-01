@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Christian List"
+		]
+	},
+	"wlm-extension-desc": "Tilføjer oplysninger og meddelelser vedrørende Wiki Loves Monuments fotografikonkurrencen",
+	"wlm-no-contest-year": "Der var ingen Wiki Loves Monument konkurrence i $1.",
+	"wlm-no-url-bad-country": "Vi kunne ikke finde hjemmesiden for den lokale konkurrence. $1 er ikke en gyldig landekode.",
+	"wlm-country-not-given": "Du skal angive en landekode.",
+	"wlm-country-not-participating-year": "«$1» deltager ikke i Wiki Loves Monuments $2",
+	"wlm-sidebar-portlet": "Andre lande",
+	"wlm-international-contest": "International",
+	"wlm-text-contact": "Kontakt",
+	"wlm-text-contest": "Konkurrence",
+	"wlm-text-donate": "Donér",
+	"wlm-text-faq": "Ofte Stillede Spørgsmål",
+	"wlm-text-jury": "Jury",
+	"wlm-text-monuments": "Monumenter",
+	"wlm-text-news": "Nyheder",
+	"wlm-text-participate": "Deltag!",
+	"wlm-text-prizes": "Præmier",
+	"wlm-text-rules": "Regler",
+	"wlm-text-sponsors": "Sponsorer",
+	"wlm-text-uploading": "Uploading"
+}

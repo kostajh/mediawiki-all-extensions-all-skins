@@ -1,0 +1,177 @@
+{
+	"name": "BlueSpiceUniversalExport",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:UniversalExport",
+	"author": "Robert Vogel",
+	"descriptionmsg": "bs-universalexport-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceUniversalExport": {
+					"className": "\\BlueSpice\\UniversalExport\\Extension",
+					"extPath": "/BlueSpiceUniversalExport",
+					"configDefinitions": {
+						"UniversalExportMetadataDefaults": "\\BlueSpice\\UniversalExport\\ConfigDefinition\\MetadataDefaults::getInstance",
+						"UniversalExportMetadataOverrides": "\\BlueSpice\\UniversalExport\\ConfigDefinition\\MetadataOverrides::getInstance"
+					}
+				}
+			},
+			"TagRegistry": {
+				"uepagebreak": "\\BlueSpice\\UniversalExport\\Tag\\PageBreak",
+				"universalexport": "\\BlueSpice\\UniversalExport\\Tag\\NoExport",
+				"uehidetitle": "\\BlueSpice\\UniversalExport\\Tag\\HideTitle",
+				"ueexcludearticle": "\\BlueSpice\\UniversalExport\\Tag\\ExcludeArticle",
+				"universalexport:meta": "\\BlueSpice\\UniversalExport\\Tag\\Meta",
+				"universalexport:params": "\\BlueSpice\\UniversalExport\\Tag\\Params"
+			}
+		},
+		"BlueSpiceUniversalExport": {
+			"ExportTargetRegistry": {
+				"download": "BlueSpice\\UniversalExport\\ExportTarget\\Download::factory",
+				"localfilerepo": "BlueSpice\\UniversalExport\\ExportTarget\\LocalFileRepo::factory"
+			},
+			"ModuleRegistry": {}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"TagDefinitions": [
+				"ext.bluespice.universalExport.visualEditorTagDefinition"
+			],
+			"PluginModules": [
+				"ext.bluespice.universalExport.visualEditor"
+			]
+		}
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"SpecialPages": {
+		"UniversalExport": "SpecialUniversalExport"
+	},
+	"MessagesDirs": {
+		"UniversalExport": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"UniversalExportAlias": "languages/SpecialUniversalExport.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\UniversalExport\\" : "src/"
+	},
+	"AutoloadClasses": {
+		"SpecialUniversalExport": "includes/specials/SpecialUniversalExport.class.php",
+		"ViewExportModuleOverview": "includes/views/ViewExportModuleOverview.php",
+		"BsUniversalExportModule": "includes/UniversalExportModule.interface.php",
+		"BsUniversalExportHelper": "includes/UniversalExportHelper.class.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.universalExport.css": {
+			"styles": "bluespice.universalExport.css"
+		},
+		"ext.bluespice.universalExport.visualEditorTagDefinition": {
+			"scripts": [
+				"bs.unvrslxprt/util/tag/PdfPageBreakDefinition.js",
+				"bs.unvrslxprt/util/tag/PdfNoExportDefinition.js"
+			],
+			"messages": [
+				"bs-universalexport-tag-pagebreak-title",
+				"bs-universalexport-tag-pagebreak-desc",
+				"bs-universalexport-tag-noexport-title",
+				"bs-universalexport-tag-noexport-desc"
+			]
+		},
+		"ext.bluespice.universalExport.visualEditor": {
+			"scripts": [
+				"bs.unvrslxprt/ve-insertnoexport/ve.ui.BSInsertPdfNoExportTool.js"
+			],
+			"messages": [
+				"bs-universalexport-insert-noexport-title"
+			],
+			"dependencies": [
+				"ext.bluespice.universalExport.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceUniversalExport/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"UniversalExportCategoryWhitelist": {
+			"value": [
+				"Exportable",
+				"Public"
+			]
+		},
+		"UniversalExportCategoryBlacklist": {
+			"value": [
+				"Confidential",
+				"Internal"
+			]
+		},
+		"UniversalExportMetadataDefaults": {
+			"value": "{\"creator\":\"Hallo Welt! GmbH\"}",
+			"descriptionmsg": "bs-universalexport-pref-metadatadefaults",
+			"public": true
+		},
+		"UniversalExportMetadataOverrides": {
+			"value": "{\"producer\":\"UniversalExport 3.0.0 (BlueSpice MediaWiki)\"}",
+			"descriptionmsg": "bs-universalexport-pref-metadataoverrides",
+			"public": true
+		},
+		"UniversalExportParamsDefaults": {
+			"value": {
+				"format": "pdf",
+				"pdf-merging": "0",
+				"attachments": "0",
+				"recursive": false,
+				"filter": "use-all"
+			}
+		},
+		"UniversalExportParamsOverrides": {
+			"value": {
+				"use-serverside-caching": false,
+				"pdf-attachment-formats": [
+					"doc",
+					"docx",
+					"xls",
+					"xlsx",
+					"ppt",
+					"pptx",
+					"odt",
+					"ods",
+					"odp",
+					"odg",
+					"svg"
+				]
+			}
+		}
+	},
+	"Hooks": {
+		"BSInsertMagicAjaxGetData": [
+			"\\BlueSpice\\UniversalExport\\Hook\\BSInsertMagicAjaxGetData\\AddUEMetaTag::callback",
+			"\\BlueSpice\\UniversalExport\\Hook\\BSInsertMagicAjaxGetData\\AddUEParamsTag::callback",
+			"\\BlueSpice\\UniversalExport\\Hook\\BSInsertMagicAjaxGetData\\AddPdfUENoExportTag::callback",
+			"\\BlueSpice\\UniversalExport\\Hook\\BSInsertMagicAjaxGetData\\AddPdfUEPageBreakTag::callback"
+		],
+		"BSUsageTrackerRegisterCollectors": [
+			"\\BlueSpice\\UniversalExport\\Hook\\BSUsageTrackerRegisterCollectors\\AddUEExcludeArticleTag::callback",
+			"\\BlueSpice\\UniversalExport\\Hook\\BSUsageTrackerRegisterCollectors\\AddUEExcludeTag::callback",
+			"\\BlueSpice\\UniversalExport\\Hook\\BSUsageTrackerRegisterCollectors\\AddUEHideTitleTag::callback",
+			"\\BlueSpice\\UniversalExport\\Hook\\BSUsageTrackerRegisterCollectors\\AddUEMetaTag::callback",
+			"\\BlueSpice\\UniversalExport\\Hook\\BSUsageTrackerRegisterCollectors\\AddUEPageBreakTag::callback",
+			"\\BlueSpice\\UniversalExport\\Hook\\BSUsageTrackerRegisterCollectors\\AddUEParamsTag::callback"
+		]
+	},
+	"manifest_version": 2,
+	"load_composer_autoloader": true
+}

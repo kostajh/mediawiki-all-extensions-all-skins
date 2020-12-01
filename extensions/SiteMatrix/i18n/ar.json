@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abanima",
+			"Maroen1990",
+			"Meno25",
+			"بدارين",
+			"ديفيد"
+		]
+	},
+	"sitematrix": "قائمة ويكيات ويكيميديا",
+	"sitematrix-summary": "هذه الصفحة الخاصة تعرض كل ويكيات ويكيميديا.",
+	"sitematrix-desc": "يعرض [[Special:SiteMatrix|قائمة بويكيات ويكيميديا]]",
+	"sitematrix-language": "اللغة",
+	"sitematrix-project": "اسم المشروع، وصلة المشروع الداخلية ووصلة الإنترويكي",
+	"sitematrix-others": "مشاريع ويكيميديا الأخرى",
+	"sitematrix-other-projects": "المشاريع الأخرى",
+	"sitematrix-other-projects-language": "اللغة",
+	"sitematrix-total": "'''إجمالي العدد: $1'''",
+	"sitematrix-sitetotal": "الإجمالي",
+	"sitematrix-closed": "لا صلاحية كتابة، صلاحية قراءة كاملة",
+	"sitematrix-private": "صلاحية القراءة والكتابة مقيدة",
+	"sitematrix-fishbowl": "صلاحية الكتابة مقيدة، صلاحية القراءة كاملة",
+	"sitematrix-nonglobal": "عام ، لكن التسجيل مطلوب"
+}

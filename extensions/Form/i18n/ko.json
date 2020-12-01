@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"form-desc": "새 문서를 시작하기 위한 [[Special:Form|양식 인터페이스]]",
+	"form": "새 문서 시작",
+	"form-captcha-error": "CAPTCHA 오류",
+	"form-pick-form": "양식을 통해 만들고자 하는 문서의 유형을 선택하십시오.",
+	"form-no-name": "양식 이름이 없습니다",
+	"form-no-name-text": "\"특수:양식/양식이름\"과 같이 양식 이름을 제공해야 합니다.",
+	"form-bad-name": "잘못된 양식 이름입니다",
+	"form-bad-name-text": "이러한 이름의 양식은 없습니다.",
+	"form-pattern": "$1-양식",
+	"form-title-pattern": "새 $1 추가",
+	"form-save": "저장",
+	"form-index-mismatch-title": "이름 패턴과 틀 불일치",
+	"form-index-mismatch": "이 양식은 이름 패턴과 $1 색인에서 시작한 틀이 불일치합니다.",
+	"form-article-exists": "문서가 존재합니다",
+	"form-article-existstext": "[[$1]] 문서가 이미 존재합니다.",
+	"form-bad-page-name": "잘못된 문서 이름입니다",
+	"form-bad-page-name-text": "입력한 양식 데이터는 잘못된 문서 이름인 \"$1\"(을)를 만들었습니다.",
+	"form-required-field-error": "{{PLURAL:$2|$1 필드}}는 이 양식에 대해 필요합니다.\n{{PLURAL:$2|이}}를 채우세요.",
+	"form-save-summary": "[[Special:Form/$1|$1 양식]]을 사용한 새 문서",
+	"form-save-error": "양식을 저장하는 중 오류가 발생했습니다",
+	"form-save-error-text": "'$1' 문서를 저장하는 중 알 수 없는 오류가 발생했습니다."
+}

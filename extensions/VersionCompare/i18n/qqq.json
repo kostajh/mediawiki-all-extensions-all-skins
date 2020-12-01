@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cindy Cicalese",
+			"Liuxinyu970226",
+			"Umherirrender"
+		]
+	},
+	"versioncompare": "The name of the extension's entry in Special:SpecialPages",
+	"version-compare-desc": "{{desc|name=VersionCompare|url=https://www.mediawiki.org/wiki/Extension:VersionCompare}}",
+	"version-compare-database-label": "Field label\n{{Identical|Database}}",
+	"version-compare-url-error": "Error message",
+	"version-compare-url-field-label-1": "{{optional}}\nField label",
+	"version-compare-url-field-help-1": "Field help",
+	"version-compare-url-field-label-2": "{{optional}}\nField label",
+	"version-compare-url-field-help-2": "Field help",
+	"version-compare-diff-field-label": "Field label"
+}

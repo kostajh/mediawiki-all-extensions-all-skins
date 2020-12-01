@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"wlm-extension-desc": "يضيف المعلومات والرسائل المتعلقة بمسابقة التصوير الويكي تهوى المعالم",
+	"wlm-no-contest-year": "لم تكن هناك مسابقة الويكي تهوى المعالم في $1.",
+	"wlm-no-url-bad-country": "لم نتمكن من الحصول على الموقع الإلكتروني للمنافسة المحلية; $1 ليس رمز بلد صالحا.",
+	"wlm-country-not-given": "تحتاج إلى توفير رمز بلد.",
+	"wlm-country-not-participating-year": "«$1» غير مشارك في الويكي تهوى المعالم $2",
+	"wlm-sidebar-portlet": "دول أخرى",
+	"wlm-international-contest": "دولي",
+	"wlm-text-contact": "اتصال",
+	"wlm-text-contest": "مسابقة",
+	"wlm-text-donate": "تبرع",
+	"wlm-text-faq": "الأسئلة المتكررة",
+	"wlm-text-jury": "محلف",
+	"wlm-text-monuments": "آثار",
+	"wlm-text-news": "أخبار",
+	"wlm-text-participate": "مشاركة!",
+	"wlm-text-prizes": "الجوائز",
+	"wlm-text-rules": "القواعد",
+	"wlm-text-sponsors": "الرعاة",
+	"wlm-text-uploading": "يرفع"
+}

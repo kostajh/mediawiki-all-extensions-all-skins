@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Incelemeelemani",
+			"Sezgin İbiş"
+		]
+	},
+	"special404-desc": "404 Hata bulunamadı için bir hedef sağlar",
+	"error404": "404 Bulunamadı",
+	"special404-body": "İstediğiniz URL bulunamadı.\n\n{{fullurl:$1}} yazmayı mı demek istediniz?\n\nBelki de bakmak istersiniz:\n* [[{{MediaWiki:Mainpage}}|Ana sayfa]]"
+}

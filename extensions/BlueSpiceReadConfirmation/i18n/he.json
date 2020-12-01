@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"YaronSh"
+		]
+	},
+	"bs-readconfirmation-confirm-read-heading": "אישור קריאה",
+	"bs-readconfirmation-confirm-read-checkbox-label": "כן, קראתי את כל הדף הזה.",
+	"bs-readconfirmation-confirm-read-button-label": "אישור",
+	"bs-readconfirmation-api-error-no-page": "לא צוין דף",
+	"bs-readconfirmation-api-error-no-non-minor-revision": "לא נמצאה גרסה"
+}

@@ -1,0 +1,148 @@
+@import 'mediawiki.mixins';
+
+@width: 66em;
+
+// Colours - theme one: blue & cyan; red secondary, greys
+	// TODO: theme two: probably red & black, blue secondary, greys
+@primarybold: #146; // blue
+@primarybright: #079; // cyan
+@primarybold-light: lighten( @primarybold, 20% );
+@primarybright-light: lighten( @primarybright, 10% );
+
+@secondarybold: #710; // red
+@secondarybold-light: lighten( @secondarybold, 10% ); // light red
+
+@grey0: #000; // black
+@grey1: #666;
+@grey2: #ccc;
+@grey3: #ddd;
+@grey4: #eee;
+@grey5: #f0f0f0;
+@grey6: #fff; // white
+
+@content-text: @grey0;
+@content-background: @grey6;
+
+@fonts: "Nunito Sans", "Noto Sans", "Lucida Sans Unicode", "Lucida Sans", "Tahoma", sans-serif;
+@fonts-mono: 'monospace';
+
+// To hide objects, but keep them accessible for screen-readers
+.hidden() {
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+}
+
+// Icons for the page actions menus (copied out of timeless)
+.ca-icon( @icon: '' ) {
+	background-image: url( '@{icon}.svg' );
+	border: 0;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: left top;
+	display: inline-block;
+	margin-bottom: -0.35em;
+	padding: 0 2px 0 20px;
+}
+
+// I'm too tired to figure this out so here's another one
+.ca-icon-wat( @icon: '' ) {
+	a {
+		background-image: url( '@{icon}-blue.svg' );
+		border: 0;
+		background-color: transparent;
+		background-repeat: no-repeat;
+		background-position: left top;
+		display: inline-block;
+		margin-bottom: -0.35em;
+		padding: 0 2px 0 20px;
+	}
+
+	&.selected a {
+		background-image: url( '@{icon}.svg' );
+	}
+}
+
+// For use after .ca-icon() ...
+.ca-icon-only() {
+	text-indent: -99999px;
+	width: 20px;
+	overflow: hidden; // T174314
+	box-sizing: border-box;
+	padding: 0;
+}
+
+// Generic funky box! The... thing of the skin.
+.box() {
+	background: @grey6;
+	box-shadow: 0 1px 6px rgba( 0, 1, 0, 0.15 ),
+		0 0 1.5em inset rgba( 0, 0, 0, 0.05 );
+	padding: 0.25em 1em;
+	border-radius: 3px;
+	border: solid 1px @grey3;
+	box-sizing: border-box;
+}
+
+// Welp.
+.unbox() {
+	background: transparent;
+	box-shadow: none;
+	padding: 0;
+	border-radius: 0;
+}
+
+// dropdown menus
+.dropdown() {
+	position: relative;
+
+	.mw-portlet-body {
+		.box();
+
+		.hidden;
+		z-index: 99;
+		right: 0;
+		opacity: .95;
+
+		.nav();
+	}
+
+	&:hover .mw-portlet-body {
+		top: 1.7em;
+		left: unset;
+
+	}
+}
+
+.dropdown-toggle() {
+	background-image: url( images/arrow-down.svg );
+	margin: -0.5em -0.35em -0.5em 1.25em;
+	font-weight: normal;
+	padding: 0.5em 1.35em 0.5em 0;
+	background-repeat: no-repeat;
+	background-position: right 0.65em;
+	cursor: pointer;
+}
+
+.nav() {
+	ul {
+		padding: 0;
+		min-width: 9em;
+		margin-top: 0.25em;
+	}
+
+	li {
+		list-style: none;
+		padding: 0.35em;
+		margin: 0;
+		line-height: 1.2;
+	}
+
+	a {
+		color: @grey0;
+		display: block;
+
+		&:hover {
+			color: @primarybold-light;
+		}
+	}
+}

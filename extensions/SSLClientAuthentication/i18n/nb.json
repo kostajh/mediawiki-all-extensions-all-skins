@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"sslauth-desc": "Lar brukere laste opp SSL-sertifikater som kan brukes for autentisering",
+	"sslauth-title-enable": "Slå på SSL-klientautentisering",
+	"sslauth-title-disable": "Slå av SSL-klientautentisering",
+	"sslauth-enable": "Slå på",
+	"sslauth-disable": "Slå av",
+	"sslauth-cn": "Vanlig navn",
+	"sslauth-email": "Epostadresse",
+	"sslauth-serial": "Serienummer",
+	"sslauth-response-enable": "SSL-autentisering har blitt slått på. Når du kobler til {{SITENAME}} over HTTPS med klientsertifikatet ditt fra nå av blir du automatisk logget inn.",
+	"sslauth-response-disable": "SSL-autentisering har blitt slått av.",
+	"sslauth-invalidrequest-title": "Ugyldig forespørsel",
+	"sslauth-invalidrequest": "Et gyldig SSL-klientsertifikat må angis for at denne siden skal være nyttig.",
+	"clientssl-legend": "SSL-autentisering",
+	"clientssl-text": "Bruk denne siden for å slå på/av autentisering med klient-SSL-sertifikater.",
+	"sslauth-prefs-name": "SSL-autentisering",
+	"sslauth-prefs-linktospecial": "Slå på/av klientsertifikater"
+}

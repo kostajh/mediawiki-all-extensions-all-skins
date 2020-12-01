@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil"
+		]
+	},
+	"fundraiserunsubscribe-desc": "Umožňuje uživatelům odhlásit se z nakonfigurovaných e-mailových konferencí k financování",
+	"fundraiserunsubscribe": "Odhlášení z e-mailů o příspěvcích nadaci Wikimedia",
+	"fundraiserunsubscribe-query": "Jste si jisti, že chcete odhlásit adresu '''''$1'''''?",
+	"fundraiserunsubscribe-info": "Tímto se odhlásíte z příjmu e-mailů, které vám jako dárci posílala Wikimedia Foundation. I nadále můžete dostávat další e-maily na tuto e-mailovou adresu, pokud je přiřazena k účtu na některém z našich projektů. Pokud máte jakékoli otázky, napište na [mailto:$1 $1].",
+	"fundraiserunsubscribe-submit": "Odhlásit se",
+	"fundraiserunsubscribe-cancel": "Storno",
+	"fundraiserunsubscribe-errormsg": "Při zpracování vašeho požadavku došlo k chybě. Napište prosím na [mailto:$1 $1].",
+	"fundraiserunsubscribe-success": "Byli jste úspěšně odebráni z naší e-mailové konference.",
+	"fundraiserunsubscribe-sucesswarning": "Prosíme, abyste nám dali až čtyři (4) dny, než se změny projeví. Omlouváme se za jakékoli e-maily, které v jejich průběhu dostanete. Pokud máte jakékoli dotazy, obraťte se na [mailto:$1 $1]."
+}

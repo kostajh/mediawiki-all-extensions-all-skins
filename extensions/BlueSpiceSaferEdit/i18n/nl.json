@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mainframe98",
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"bs-saferedit-desc": "Tussentijdse het opslaan van wiki bewerkingen",
+	"bs-saferedit-user-editing": "$1 is de pagina {{GENDER:$1|aan het bewerken}}",
+	"bs-saferedit-someone-editing": "De pagina wordt bewerkt",
+	"bs-saferedit-pref-interval": "Recovery versie interval:",
+	"bs-saferedit-pref-shownameofeditinguser": "Naam van de huidige bewerker weergeven"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"viki-desc": "Debuxa un gráfico de rede de ligazóns entre páxinas wiki ou páxinas web",
+	"viki-error-title": "Erro:",
+	"viki-error-missing-pageTitle": "Debe indicar polo menos un título de páxina.",
+	"viki-timeout-content-namespace": "Superouse o tempo límite para buscar o espazo de nomes de contido para a wiki: $1. Por defecto o espazo de nomes principal.",
+	"viki-error-content-namespace": "Erro consultando o espazo de nomes de contido para a wiki: $1. Por defecto o espazo de nomes principal.",
+	"viki-error-visit-node": "Erro ó intentar visitar o nodo: $1.",
+	"viki-error-external-links": "Erro ó buscar as ligazóns externas da páxina: $1.",
+	"viki-error-intrawiki-out": "Erro procurando as ligazóns de saída interwiki para a páxina: $1.",
+	"viki-error-intrawiki-in": "Erro procurando as ligazóns de volta interwiki para a páxina: $1.",
+	"viki-error-https-node": "Erro elaborando nodo: $1. Vostede está traballando sobre HTTPS; vostede só pode acceder a outras wikis a través de HTTPS.",
+	"viki-error-https-namespace": "Erro obtendo o espazo de nomes de contido para a wiki: $1. Vostede está traballando sobre HTTPS, só pode acceder a outras wikis a través de HTTPS.",
+	"apihelp-getContentNamespaces-description": "Obter a lista dos espazos de nomes deste wiki.",
+	"apihelp-getContentNamespaces-summary": "Obter a lista de espazos de nome de contido desta wiki."
+}

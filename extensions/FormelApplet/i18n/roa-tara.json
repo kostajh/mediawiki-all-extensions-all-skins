@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"formelapplet-desc": "Aggiunge le applet [http://wiki.formelapplet.de FormelApplet] a le pàggene.",
+	"formelapplet-nojava": "Pe piacere installe $1 pe ausà sta pàgene.",
+	"formelapplet-missing-parameter": "Parametre dimendicate (larghezze e altezze o termine/soluzione).",
+	"formelapplet-file-not-found": "File $1 non acchiate.",
+	"formelapplet-error": "Errore jndr'à l'estenzione FormelApplet MediaUicchi: <em>$1</em>"
+}

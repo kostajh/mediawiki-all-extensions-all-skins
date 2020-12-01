@@ -1,0 +1,11 @@
+<form method="get" action="{{ action }}">
+    <input type="hidden" name="token" value="{{token}}" />
+    <input type="hidden" name="execute" id="execute" value=0 />
+    <input type="hidden" name="uselang" id="uselang" value="{{uselang}}" />
+    <input type="text" name="email" id="email" value="{{ email }}" />
+    <p>{{ wfMessage("donate_interface-donor-opt_in_yes") }}</p>
+    <p class="small">{{ wfText("donate_interface-donor-opt_in_explain", policy_url) }}</p>
+
+    <input type="submit" id="continue" value="{{ wfMessage('donate_interface-continue') }}" />
+    <input type="submit" value="{{ wfMessage('donate_interface-cancel') }}" />
+</form>

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"uploadslink-desc": "Engade unha ligazón á lista de cargas actuais do usuario no menú de ferramentas persoais e unha ligazón na caixa de ferramentas á lista de subas relevantes de usuarios no menú Utilidades da barra lateral.",
+	"uploadslink-portlet-label": "Cargas",
+	"tooltip-pt-uploads": "Lista de ficheiros que subeu",
+	"uploadslink-toobox-label": "Subidas {{GENDER:$1|do usuario|da usuaria}}",
+	"tooltip-tb-uploads": "Unha lista de ficheiros subidos por {{GENDER:$1|este usuario|esta usuaria}}"
+}

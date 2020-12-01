@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bartosz Dziewoński",
+			"Rainer Rillke"
+		]
+	},
+	"uploadslink-desc": "Adds a link to the current user's uploads listing to the personal tools menu and a link to the relevant user's upload listing to the sidebar Tools menu",
+	"uploadslink-portlet-label": "Uploads",
+	"tooltip-pt-uploads": "List of files you have uploaded",
+	"uploadslink-toobox-label": "{{GENDER:$1|User}} uploads",
+	"tooltip-tb-uploads": "A list of uploads by this {{GENDER:$1|user}}"
+}

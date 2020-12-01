@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-tagcloud-desc": "다양한 태그 클라우드 표시",
+	"bs-tagcloud-error-tagtype": "지정된 \"$1\" 값은 유효한 스토어가 아닙니다.",
+	"bs-tagcloud-error-tagrenderer": "지정된 \"$1\" 값은 유효한 렌더러가 아닙니다.",
+	"bs-tagcloud-tag-tagcloud-name": "태그 클라우드",
+	"bs-tagcloud-tag-tagcloud-title": "태그 클라우드",
+	"bs-tagcloud-tag-tagcloud-desc": "분류나 검색 항목을 기반으로 태그 클라우드를 렌더링합니다",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-label": "유형",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-help": "태그 클라우드의 렌더링 방식을 지정합니다",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "텍스트",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-list": "목록",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "스토어",
+	"bs-tagcloud-tag-tagcloud-attr-store-help": "사용할 데이터를 선택하십시오",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "분류",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "검색어",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "너비",
+	"bs-tagcloud-tag-tagcloud-attr-width-help": "태그 클라우드의 너비 (단위: 퍼센트)",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-label": "개수 표시",
+	"bs-tagcloud-tag-tagcloud-attr-showcount-help": "괄호 안의 항목 수를 표시합니다",
+	"bs-tagcloud-tag-tagcloud-attr-minsize-label": "최소 글꼴 크기",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "최대 글꼴 크기",
+	"bs-tagcloud-tag-tagcloud-attr-exclude-help": "태그 클라우드에 이 문서들을 표시하지 않습니다. 더 많은 문서의 경우 쉼표 구분 목록을 사용하십시오. (예: \"주 문서, 테스트, 내문서\")"
+}

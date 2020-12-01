@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"pluggablesso-no-session": "사용자 이름을 받지 못했습니다. 세션이 실패했습니다.",
+	"pluggablesso-username-mismatch": "사용자 이름이 세션과 일치하지 않습니다"
+}

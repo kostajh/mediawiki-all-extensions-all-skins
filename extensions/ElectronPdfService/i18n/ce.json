@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Коьртачу браузеран тӀетуху PDF рендеран Electron PDF сервис чухула",
+	"electronpdfservice-special-page-headline": "PDF санна схьаэца",
+	"electronpdfservice-download-label": "PDF санна схьаэца",
+	"electronpdfservice-download-button": "Схьаэца",
+	"electronpdfservice-sidebar-portlet-heading": "Зорба/экспорт",
+	"electronpdfservice-sidebar-portlet-print-text": "PDF санна схьаэца",
+	"electronpdfservice-invalid-page-title": "Нийса йоцу агӀо",
+	"electronpdfservice-invalid-page-text": "Билгалйина нийса йоцу агӀо."
+}

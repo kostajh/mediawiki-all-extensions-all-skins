@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Raimond Spekking",
+			"Umherirrender"
+		]
+	},
+	"unicodeconverter": "Unicode-Konverter",
+	"unicodeconverter-desc": "Einfaches Beispiel für eine Spezialseite. [[Special:UnicodeConverter|Eingabe eines Zeichens in UTF-8]], Ausgabe als HTML-Entität zum Gebrauch in einer ISO-8859-1-Webseite",
+	"unicodeconverter-ok": "Konvertieren",
+	"unicodeconverter-oldtext": "Originaltext:",
+	"unicodeconverter-newtext": "Konvertierter Text:"
+}

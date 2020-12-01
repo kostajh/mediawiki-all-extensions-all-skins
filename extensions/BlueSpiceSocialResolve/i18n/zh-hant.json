@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-socialresolve-desc": "用於 BlueSpiceSocial-entities 的解決功能",
+	"bs-socialresolve-status-resolved": "已解決",
+	"bs-socialresolve-status-notresolved": "未解決",
+	"bs-socialresolve-var-resolved": "解決狀態",
+	"apihelp-bs-socialresolve-tasks-summary": "提供用於編輯單元解決狀態的任務"
+}

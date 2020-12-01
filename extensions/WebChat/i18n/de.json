@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Merlissimo",
+			"Metalhead64",
+			"Purodha",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"webchat": "Web-Chat",
+	"webchat-desc": "Ermöglicht über eine [[Special:WebChat|Spezialseite]] in Echtzeit mit anderen Benutzern zu chatten",
+	"webchat-header": "Über diese Spezialseite kann man in Echtzeit mit anderen Benutzern kommunizieren.\nZum Anmelden klicke auf die Schaltfläche „Verbinden“.\nSolltest du im Wiki angemeldet sein, wird standardmäßig dein Wiki-Benutzername als Chatname verwendet.\nAndernfalls wird automatisch ein Chatname erzeugt, der allerdings auch noch im Nachhinein geändert werden kann.",
+	"action-webchat": "Webchat zu nutzen",
+	"right-webchat": "Spezialseite [[Special:WebChat|Web-Chat]] nutzen"
+}

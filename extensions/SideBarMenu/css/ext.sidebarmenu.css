@@ -1,0 +1,108 @@
+/* default SideBarMenu extension styling */
+
+.sidebar-menu-container {
+    float: left;
+    clear: left;
+}
+
+.sidebar-menu-item-collapsed  .sidebar-menu {
+    display: none;
+}
+
+.sidebar-menu-item-expanded {
+    display: list-item;
+}
+
+.sidebar-menu-0, .sidebar-menu-1 {
+    margin: 0px !important;
+    padding: 0px !important;
+    list-style: none;
+}
+
+.sidebar-menu-1 {
+    background-color: #f9f9f9;
+    border: 1px solid #aaa;
+    border-bottom: 0px;
+}
+
+.sidebar-menu-item-1 {
+    margin: 10px 0px;
+    background-color: #f2f2f2;
+}
+
+.sidebar-menu-item-1 > .sidebar-menu-item-text-container {
+    border: 1px solid #aaa;
+    border-bottom: 0px;
+    padding: 3px;
+}
+
+.sidebar-menu-item-1 {
+    border-bottom: 1px solid #aaa;
+}
+
+.sidebar-menu-item-2 {
+    border-bottom: 0px;
+    padding: 3px !important;
+    margin-bottom: 0px !important;
+}
+
+.sidebar-menu-item-text-container {
+    position: relative;
+    padding-right: 50px !important;
+}
+
+.sidebar-menu-minimized .sidebar-menu-item-text-container {
+    padding-right: 0px !important;
+}
+
+.sidebar-menu-item-controls {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: #0645AD;
+    cursor: pointer;
+    min-width: 45px;
+    text-align: right;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.sidebar-menu-edit-link {
+    font-size: smaller;
+}
+
+.sidebar-menu-item-text {
+    overflow:hidden;
+    width: 100%;
+}
+
+.sidebar-menu-item-text-1,.sidebar-menu-item-text-2 {
+    font-weight: bold;
+}
+
+
+.sidebar-menu-minimized {
+    width: 45px !important;
+}
+
+.sidebar-menu-minimized .sidebar-menu-item-text {
+    visibility: hidden;
+}
+
+.sidebar-menu-minimized .sidebar-menu {
+    display: none;
+}
+
+.sidebar-menu-minimized .sidebar-menu-0 {
+    display: block;
+}
+
+.sidebar-menu-item-last .sidebar-menu-item-text-container {
+    padding-right: 0px !important;
+}
+
+.sidebar-menu-item-1 > .sidebar-menu-item-text-container > .sidebar-menu-item-controls {
+    right: 5px;
+    top: 3px;
+}

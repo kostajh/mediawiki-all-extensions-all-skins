@@ -1,0 +1,60 @@
+<div class="wbmi-statements-widget">
+	<!-- statement widget header -->
+	<div class="wbmi-statement-header">
+		<div class="wbmi-entity-data">
+			<div class="wbmi-entity-title">
+				{{#title}}
+				<h3 class="wbmi-statements-title">{{title}}</h3>
+				{{/title}}
+
+				<h4 class="wbmi-entity-label">
+					{{{label}}}
+				</h4>
+			</div>
+		</div>
+
+		{{#showControls}}
+		{{^editing}}
+		{{{editButton}}}
+		{{/editing}}
+		{{/showControls}}
+	</div>
+
+	{{#errors}}
+		{{{.}}}
+	{{/errors}}
+
+	<!-- statement widget input: only display in edit mode, or for default properties, or for empty (new) statements -->
+	{{#editing}}{{{input}}}{{/editing}}
+	{{^editing}}{{#isDefaultProperty}}{{{input}}}{{/isDefaultProperty}}{{/editing}}
+	{{^editing}}{{^isDefaultProperty}}{{^items}}{{{input}}}{{/items}}{{/isDefaultProperty}}{{/editing}}
+
+	<!-- statement widget items -->
+	<div class="wbmi-content-items-group">
+		{{#items}}
+		{{{.}}}
+		{{/items}}
+	</div>
+
+	<!-- statement widget footer -->
+	{{#editing}}
+	<div class="wbmi-statement-footer">
+		{{#showControls}}
+		<div class="wbmi-entityview-cancelAndPublishButtons">
+			{{{publishButton}}}
+			{{{cancelButton}}}
+		</div>
+		{{/showControls}}
+
+		<div class="wbmi-statement-footer-buttons">
+			{{#learnMoreLink}}
+				{{{learnMoreButton}}}
+			{{/learnMoreLink}}
+
+			{{^isDefaultProperty}}
+				{{{removeAll}}}
+			{{/isDefaultProperty}}
+		</div>
+	</div>
+	{{/editing}}
+</div>

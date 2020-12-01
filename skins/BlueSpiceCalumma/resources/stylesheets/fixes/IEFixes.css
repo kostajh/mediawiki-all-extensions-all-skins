@@ -1,0 +1,17 @@
+/*
+	IE Fixes
+*/
+
+@media screen and (max-width: 1580px) and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+}
+@media screen and (min-width: 1000px) and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	html {
+		font-size: 16px !important;
+	}
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.x-tab-inner-default, .x-form-item-label-text, .x-form-text-default, .x-grid-item, .x-panel-body-default, .x-box-item,
+	.x-btn-inner, .x-btn-button {
+		font-size: 12px !important;
+	}
+}

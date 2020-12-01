@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby",
+			"Soued031"
+		]
+	},
+	"form-desc": "E [[Special:Form|Formulaire]] fir nei Säiten unzefänken",
+	"form": "Eng nei Säit ufänken",
+	"form-captcha-error": "CAPTCHA-Feeler",
+	"form-no-name": "Keen Numm vum Formulaire",
+	"form-no-name-text": "Dir musst en Numm vum Formulaire uginn, zum Beispill \"Special:Form/NummvumFormulaire\".",
+	"form-bad-name": "Falschen Numm vum Formulaire",
+	"form-bad-name-text": "Et gëtt kee Formulaire mat dem Numm.",
+	"form-pattern": "$1-Formulaire",
+	"form-title-pattern": "Nei $1 dobäisetzen",
+	"form-save": "Späicheren",
+	"form-index-mismatch-title": "Duercherneen tëschent dem Numm an der Schabloun",
+	"form-index-mismatch": "Dëse Formulaire ass net richteg configuréiert wat d'Schablounen an d'Modeller vun den Donnéeën. De Feeler fänkt beim Index $1 un.",
+	"form-article-exists": "D'Säit gëtt et schonn.",
+	"form-article-existstext": "D'Säit [[$1]] gëtt et schonn.",
+	"form-bad-page-name": "Falsche Säitennumm",
+	"form-bad-page-name-text": "Déi Donnéeën déi Dir an de Formulaire aginn hutt erginn e Säitennumm, den net ka gespäichert ginn: \"$1\".",
+	"form-required-field-error": "D'{{PLURAL:$2|Feld $1 muss|Felder $1 mussen}} an dësem Formulaire ausgefëllt ginn.\nFëllt {{PLURAL:$2|et|se}} wgl. aus.",
+	"form-save-summary": "Nei Säit, déi de [[Special:Form/$1|Formulaire $1]] benotzt",
+	"form-save-error": "Feeler beim Späichere vum Formulaire",
+	"form-save-error-text": "Et gouf een onbekannte Feeler beim Späichere vun der Säit '$1'."
+}

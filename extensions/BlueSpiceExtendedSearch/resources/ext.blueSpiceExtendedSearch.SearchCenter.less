@@ -1,0 +1,395 @@
+@import "ext.blueSpiceExtendedSearch.variables.less";
+
+/*Search box*/
+div.bs-extendedsearch-center-layout {
+	width: 100%;
+	div#bs-es-tf-search {
+		width: 70%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+div#bs-es-alt-search {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	.bs-extendedsearch-search-center-alt-search-replaced,
+	.bs-extendedsearch-search-center-alt-search-suggest {
+		font-size: 0.8em;
+		margin-bottom: 10px;
+		a {
+			cursor: pointer;
+		}
+	}
+	&.mobile {
+		.bs-extendedsearch-search-center-alt-search {
+			padding-left: 10px;
+		}
+	}
+}
+
+/*Tools and filters*/
+div.bs-es-tools {
+	height: auto;
+	min-height: 43px;
+	border-bottom: 2px solid @tools-base-color;
+	clear: both;
+	position: relative;
+	.bs-extendedsearch-search-center-hitcount {
+		margin-top: 5px;
+		font-size: 1.4em;
+		display: inline-block;
+		width: 70%;
+	}
+	div#bs-es-tools-tools {
+		padding: 5px 0px 5px 5px;
+		height: 43px;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		min-width: 200px;
+		width: 20%;
+		text-align: right;
+		.tools-button {
+			background: @tools-base-color !important;
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			position: relative;
+			border-radius: 100px;
+			cursor: pointer;
+			margin-left: 10px;
+			text-align: center;
+			&:before {
+				cursor: pointer;
+				font-size: 16px;
+				color: @tools-text-color;
+				position: relative;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			&:hover:before {
+				color: @tools-hover-color;
+			}
+			&.bs-extendedsearch-settings-button::before {
+				content: '\e994';
+				font-family: icomoon !important;
+			}
+
+			&.bs-extendedsearch-export-button::before {
+				content: '\e95f';
+				font-family: icomoon !important;
+			}
+			&#bs-extendedsearch-filter-add-button::before {
+				content: '\ea5b';
+				font-family: icomoon !important;
+			}
+			&.bs-extendedsearch-create-page-button::before {
+				content: '\ea0a';
+				font-family: icomoon !important;
+			}
+		}
+
+	}
+
+	div#bs-es-tools-filters {
+		padding: 5px 0px 5px 0px;
+		width: 80%;
+		min-height: 43px;
+		.bs-extendedsearch-filter-button-widget {
+			margin: 4px 10px 4px 0;
+			.bs-extendedsearch-filter-button-button {
+				border-radius: 5px 0 0 5px !important;
+				font-weight: normal;
+				background-color: @tools-base-color;
+				color: @tools-text-color;
+				padding: 3px 10px 0px 10px;
+				height: 24px;
+				border: none;
+				span.oo-ui-labelElement-label {
+					vertical-align: middle;
+					color: @tools-text-color;
+				}
+				&:hover {
+					text-decoration: none !important;
+				}
+			}
+			.bs-extendedsearch-filter-button-remove a {
+				border-radius: 0 5px 5px 0 !important;
+				background-color: @tools-base-color;
+				height: 20px;
+				padding: 12px 3px 12px 22px;
+				border: none;
+				span.oo-ui-indicatorElement-indicator {
+					right: 8px;
+					background: none;
+					&:before {
+						line-height: 23px;
+						content: '\ea0f';
+						font-family: icomoon !important;
+						color: @tools-text-color;
+						font-size: 7px;
+					}
+				}
+			}
+			.bs-extendedsearch-filter-and-or-switch {
+				.oo-ui-optionWidget-selected {
+					a {
+						color: @tools-text-color !important;
+					}
+				}
+			}
+			.bs-extendedsearch-filter-group {
+				max-height: 500px;
+				overflow-y: auto;
+				overflow-x: hidden;
+				.bs-extendedsearch-filter-option {
+					padding: 3px;
+					background-color: @results-background-color;
+					margin-top: 3px;
+					.bs-extendedsearch-filter-option-count {
+						text-align: right;
+						padding-left: 10px;
+						padding-right: 10px;
+					}
+				}
+			}
+			.oo-ui-fieldLayout-header {
+				height: 0;
+			}
+			.bs-extendedsearch-filter-horizontal-layout {
+				margin-top: 7px;
+			}
+			div.bs-extendedsearch-filter-options-checkbox-widget {
+				margin-top: 5px;
+			}
+		}
+	}
+	&.mobile {
+		.bs-extendedsearch-search-center-hitcount {
+			margin-top: 5px;
+			font-size: 1.2em;
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
+		div#bs-es-tools-tools {
+			position: relative;
+			display: inline-block;
+			padding: 5px;
+			height: 43px;
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
+		div#bs-es-tools-filters {
+			width: 100%;
+			.bs-extendedsearch-filter-button-widget {
+				width: 100%;
+				display: table;
+				.bs-extendedsearch-filter-button-button {
+					display: table-cell;
+					text-align: left;
+					width: 100%;
+				}
+				.bs-extendedsearch-filter-button-remove {
+					display: table-cell;
+				}
+			}
+		}
+	}
+}
+
+/*Results*/
+.bs-extendedsearch-no-results,
+.bs-extendedsearch-help {
+	text-align: center;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 1.3em;
+}
+.bs-extendedsearch-result-container {
+	width: 100%;
+	border-radius: 10px;
+	background-color: @results-background-color;
+	height: auto;
+	padding: 10px;
+	margin-top: 10px;
+	min-height: @results-content-height;
+	display: flex;
+	&.bs-extendedsearch-result-featured {
+		background-color: @results-featured-background-color;
+		min-height: @results-featured-content-height;
+		//border: 1px solid #98a4c4;
+		//border-radius: 3px;
+		.bs-extendedsearch-result-data-container {
+			width: 60%;
+			overflow-x: hidden;
+			overflow-y: auto;
+		}
+	}
+	&.bs-extendedsearch-result-mobile {
+		.bs-extendedsearch-result-data-container {
+			width: 100%;
+			.bs-extendedsearch-result-header-container {
+				width: 90%;
+			}
+		}
+		&.bs-extendedsearch-result-featured {
+			.bs-extendedsearch-result-data-container {
+				width: 60%;
+			}
+		}
+	}
+	&.redirect {
+		min-height: 70px;
+		.bs-extendedsearch-result-image {
+			width: 60px;
+			height: 50px;
+			.bs-extendedsearch-result-image-inner {
+				width: 50px;
+				height: 50px;
+			}
+		}
+		.bs-extendedsearch-result-redirect-target-container {
+			.oo-ui-labelWidget {
+				margin-right: 5px;
+			}
+		}
+	}
+	.bs-extendedsearch-result-image {
+		width: 110px;
+		height: @results-content-height;
+		margin-right: 10px;
+		cursor: pointer;
+		.bs-extendedsearch-result-image-inner {
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position-y: top;
+			width: 110px;
+			height: 110px;
+		}
+	}
+	.bs-extendedsearch-result-data-container {
+		min-height:@results-content-height;
+		width: 75%;
+		.bs-extendedsearch-result-header {
+			font-size: 1.3em;
+		}
+		.bs-extendedsearch-result-original-title {
+			display: inline-block;
+			margin-left: 5px;
+			label {
+				font-weight: normal;
+			}
+		}
+		.bs-extendedsearch-secondaryinfo-container {
+			width: auto;
+			height: auto;
+			line-height: 1em;
+			margin-bottom: 4px;
+			color: @results-secondary-color;
+			.bs-extendedsearch-secondaryinfo-item  {
+				display: inline-block;
+				height: 15px;
+				font-size: 0.8em;
+				&:first-of-type {
+					padding-left: 0;
+				}
+				span {
+					line-height: 1em;
+					&:first-of-type {
+						margin-right: 3px;
+					}
+				}
+			}
+			.bs-extendedsearch-result-secondaryinfo-separator {
+				height: 10px;
+				width: 2px;
+				background-color: gray;
+				display: inline-block;
+				margin-left: 5px;
+				margin-right: 5px;
+			}
+		}
+		.bs-extendedsearch-result-highlight-container {
+			padding-bottom: 5px;
+			overflow-y: hidden;
+		}
+	}
+	.bs-extendedsearch-result-links-container {
+		width: 180px;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		margin-left: 20px;
+		.bs-extendedsearch-result-links-inner,
+		.bs-extendedsearch-result-redirects-container{
+			.oo-ui-labelWidget {
+				display: block;
+			}
+			width: 180px;
+			overflow-x: hidden;
+			margin-left: 20px;
+			&:first-of-type {
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.bs-extendedsearch-result-relevance-cnt {
+		position:absolute;
+		right: 25px;
+	}
+}
+
+.bs-extendedsearch-loadmore {
+	text-align: center;
+	padding: 10px;
+	margin: 10px 0 10px 0;
+	background-color: @results-background-color;
+	width: 100%;
+	border-radius: 10px;
+	.bs-extendedsearch-loadmore-loader {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.bs-extendedsearch-searchcenter-loading {
+	width: 100%;
+	padding: 20px;
+	.oo-ui-progressBarWidget {
+		margin: auto;
+	}
+}
+
+/*Add filter dialog - in OOUI Window manager*/
+.bs-extendedsearch-filter-add-dialog-group,
+.bs-extendedsearch-filter-add-dialog-group a,
+.bs-extendedsearch-filter-add-dialog-item,
+.bs-extendedsearch-filter-add-dialog-item a{
+	width: 100%;
+}
+
+
+.bs-extendedsearch-filter-add-dialog-group {
+	&.opened>a {
+		background-color: @results-featured-background-color !important;
+	}
+	.bs-extendedsearch-addfilter-group-items {
+		display: none;
+		a {
+			border: none !important;
+			border-bottom: 1px solid @results-featured-background-color !important;
+			&:last-of-type {
+				border:none !important;
+			}
+		}
+
+	}
+}
+
+.no-scroll {
+	overflow-y: hidden !important;
+}

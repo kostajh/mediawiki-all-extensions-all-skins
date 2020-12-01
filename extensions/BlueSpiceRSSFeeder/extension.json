@@ -1,0 +1,108 @@
+{
+	"name": "BlueSpiceRSSFeeder",
+	"license-name": "GPL-3.0-only",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:RSSFeeder",
+	"author": "Sebastian Ulbricht",
+	"descriptionmsg": "bs-rssfeeder-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceRSSFeeder": {
+					"className": "\\BlueSpice\\RSSFeeder\\Extension",
+					"extPath": "/BlueSpiceRSSFeeder",
+					"configDefinitions": {
+						"RSSUrlWhitelist": "BlueSpice\\RSSFeeder\\ConfigDefinition\\URLWhitelist::getInstance",
+						"RSSUrlNumberOfAllowedRedirects": "BlueSpice\\RSSFeeder\\ConfigDefinition\\MaxRedirects::getInstance"
+					}
+				}
+			}
+		},
+		"BlueSpiceRSSFeeder": {
+			"Feeds": {
+				"recentchanges": "BlueSpice\\RSSFeeder\\RSSFeed\\RecentChanges::factory",
+				"followOwn": "BlueSpice\\RSSFeeder\\RSSFeed\\FollowOwn::factory",
+				"followPage": "BlueSpice\\RSSFeeder\\RSSFeed\\FollowPage::factory",
+				"namespace": "BlueSpice\\RSSFeeder\\RSSFeed\\NamespaceFeed::factory",
+				"category": "BlueSpice\\RSSFeeder\\RSSFeed\\Category::factory",
+				"watchlist": "BlueSpice\\RSSFeeder\\RSSFeed\\Watchlist::factory"
+			}
+		}
+	},
+	"SpecialPages": {
+		"RSSFeeder": "SpecialRSSFeeder"
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"APIModules": {
+		"bs-rssfeeder-tasks": "BSApiTasksRSSFeeder",
+		"bs-rss-standards-pages-store": "ApiRSSStandardsPagesStore"
+	},
+	"MessagesDirs": {
+		"BlueSpiceRSSFeeder": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceRSSFeederAlias": "languages/SpecialRSSFeeder.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\RSSFeeder\\": "src/"
+	},
+	"AutoloadClasses": {
+		"RSSCreator": "includes/RSSCreator.class.php",
+		"RSSItemCreator": "includes/RSSItemCreator.php",
+		"BSApiTasksRSSFeeder": "includes/api/BSApiTasksRSSFeeder.php",
+		"ApiRSSStandardsPagesStore": "includes/api/ApiRSSStandardsPagesStore.php",
+		"SpecialRSSFeeder": "includes/specials/SpecialRSSFeeder.class.php",
+		"RSSAuthenticator": "includes/RSSAuthenticator.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.rssFeeder": {
+			"styles": "bluespice.rssFeeder.css",
+			"messages": [
+				"bs-extjs-rssfeeder-rss-title"
+			]
+		},
+		"ext.bluespice.rssStandards": {
+			"scripts": "bluespice.rssStandards.js",
+			"dependencies": [
+				"ext.bluespice.extjs"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceRSSFeeder/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"RSSUrlNumberOfAllowedRedirects": {
+			"value": 0
+		},
+		"RSSUrlWhitelist": {
+			"value": []
+		}
+	},
+	"Hooks": {
+		"TitleReadWhitelist": "\\BlueSpice\\RSSFeeder\\Hook\\TitleReadWhitelist\\AddRSSFeeder::callback",
+		"ChameleonSkinTemplateOutputPageBeforeExec": [
+			"\\BlueSpice\\RSSFeeder\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddToGlobalActions::callback"
+		],
+		"BeforePageDisplay": "\\BlueSpice\\RSSFeeder\\Hook\\BeforePageDisplay\\AddResources::callback",
+		"BSDashboardsAdminDashboardPortalPortlets": "\\BlueSpice\\RSSFeeder\\Hook\\BSDashboardsAdminDashboardPortalPortlets\\AddPortlets::callback",
+		"BSDashboardsAdminDashboardPortalConfig": "\\BlueSpice\\RSSFeeder\\Hook\\BSDashboardsAdminDashboardPortalConfig\\AddConfigs::callback",
+		"BSDashboardsUserDashboardPortalPortlets": "\\BlueSpice\\RSSFeeder\\Hook\\BSDashboardsUserDashboardPortalPortlets\\AddPortlets::callback",
+		"BSDashboardsUserDashboardPortalConfig": "\\BlueSpice\\RSSFeeder\\Hook\\BSDashboardsUserDashboardPortalConfig\\AddConfigs::callback"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

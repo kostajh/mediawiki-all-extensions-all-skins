@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-readers-desc": "Ccreje 'n'elenghe de crestiane ca leggene 'na pàgene",
+	"prefs-readers": "Letture",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|Lettore}}|Letture}}",
+	"readers-user": "Pàggene {{GENDER:$1|lette}} da: $1",
+	"readers": "Letture de \"$1\"",
+	"bs-readers-contentactions-label": "Fà 'ndrucà le letture",
+	"bs-readers-pagenotexists": "'A pàgene non g'esiste.",
+	"bs-readers-pref-active": "Attive le letture",
+	"bs-readers-pref-numofreaders": "Numere de letture da fà 'ndrucà:",
+	"bs-readers-emptyinput": "Nisciuna pàgene ha state date.",
+	"bs-readers-header-username": "Nome utende",
+	"bs-readers-header-readerspath": "Lettore",
+	"bs-readers-header-ts": "Date",
+	"bs-readers-header-page": "Pàgene",
+	"apihelp-bs-readers-data-store-description": "Pigghie le 'mbormazione d'u lettore da 'na pàgene specificate.",
+	"apihelp-bs-readers-data-store-summary": "Pigghie le 'mbormazione d'u lettore da 'na pàgene specificate.",
+	"apihelp-bs-readers-users-store-description": "Pigghie tutte le 'mbormaziune de le letture da 'na pàgene specificate.",
+	"apihelp-bs-readers-users-store-summary": "Pigghie tutte le 'mbormaziune de le letture da 'na pàgene specificate.",
+	"apihelp-bs-readers-page-readers-store-summary": "Pigghie tutte le le letture de tutte le pàggene",
+	"action-viewreaders": "'ndruche le letture de le pàggene",
+	"bs-readers-flyout-title": "Letture de sta pàgene",
+	"right-viewreaders": "'Ndruche le letture de 'na pàgene",
+	"bs-readers-privacy-transparency-working-readers": "BlueSpiceReaders - {{GENDER:$3|Tu}} è lette 'a pàgene $1 'u $2"
+}

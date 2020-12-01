@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Saper"
+		]
+	},
+	"gpgmail-desc": "Użyj GPG do szyfrowania poczty",
+	"gpgmail-pref-enable": "Użyj GPG to wysyłania zaszyfrowanej poczty",
+	"gpgmail-pref-key": "Publiczny klucz GPG",
+	"gpgmail-pref-key-help": "Zajrzyj na [https://help.ubuntu.com/community/GnuPrivacyGuardHowto stronę pomocy], aby dowiedzieć się, jak uzyskać klucz publiczny.",
+	"gpgmail-encrypt-error": "Podczas próby odszyfrowania wiadomości wystąpił błąd."
+}

@@ -1,0 +1,70 @@
+{
+	"name": "PopupAlerts",
+	"author": [
+		"WikiTeq"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PopupAlerts",
+	"descriptionmsg": "popupalerts-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.30.0"
+	},
+	"ExtensionMessagesFiles": {
+		"PopupAlertsMagic": "PopupAlerts.magic.php"
+	},
+	"MessagesDirs": {
+		"PopupAlerts": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"PopupAlerts\\PopupAlertsHooks::onParserFirstCallInit"
+		]
+	},
+	"AutoloadClasses": {
+		"PopupAlerts\\PopupAlertsHooks": "includes/PopupAlertsHooks.php",
+		"PopupAlerts\\PopupAlerts": "includes/PopupAlerts.php"
+	},
+	"ResourceModules": {
+		"ext.popupalerts.alert": {
+			"scripts": [
+				"modules/scripts/PopupAlert.js"
+			],
+			"templates": {
+				"popup.mustache": "templates/popup.mustache"
+			},
+			"dependencies": [
+				"mediawiki.cookie"
+			],
+			"messages": [
+				"popupalerts-expiration-info"
+			]
+		},
+		"ext.popupalerts.manager": {
+			"scripts": [
+				"modules/scripts/PopupAlertsManager.js"
+			],
+			"dependencies": [
+				"ext.popupalerts.alert"
+			]
+		},
+		"ext.popupalerts.main": {
+			"styles": [
+				"modules/styles/style.less"
+			],
+			"scripts": [
+				"modules/scripts/script.js"
+			],
+			"dependencies": [
+				"ext.popupalerts.manager"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "PopupAlerts"
+	},
+	"manifest_version": 2
+}

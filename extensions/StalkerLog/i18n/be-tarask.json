@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Red Winged Duck"
+		]
+	},
+	"stalkerlog-desc": "Дадае [[Special:Log/stalkerlog|журнал]] уваходу і выхаду ўдзельнікаў",
+	"stalkerlog-log-login": "уваходы.",
+	"stalkerlog-log-logout": "выхады.",
+	"stalkerlog-log-type": "Журнал аўтэнтыфікацыі ўдзельнікаў",
+	"stalkerlog-log-text": "Гэта журнал уваходаў і выхадаў удзельнікаў.",
+	"action-stalkerlog-view-log": "прагляд журналу ўваходаў і выхадаў удзельнікаў",
+	"right-stalkerlog-view-log": "Прагляд журналу ўваходаў і выхадаў удзельнікаў"
+}

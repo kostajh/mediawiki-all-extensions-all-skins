@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"bluespicecategorymanager": "Alministrador de categoríes",
+	"bluespicecategorymanager-desc": "Ferramienta visual p'alministrar categoríes",
+	"action-categorymanager-viewspecialpage": "ver el Xestor de categoríes",
+	"bs-categorymanager-draganddrop-text": "Abasnar y asitiar pa reorganizar",
+	"bs-categorymanager-label": "Alministrador de categoríes",
+	"bs-categorymanager-dlg-new-title": "Crear una categoría",
+	"bs-categorymanager-dlg-new-prompt": "Escribe'l nome:",
+	"bs-categorymanager-removecategoryconfirm-text": "¿Tas seguru de que quies desaniciar esta categoría?",
+	"bs-categorymanager-removecategoryconfirm-title": "Desaniciar categoría",
+	"bs-categorymanager-addcategory-dialog-error-title": "Falló la creación de la categoría",
+	"bs-categorymanager-action-show-category": "Amosar categoría",
+	"right-categorymanager-viewspecialpage": "Accesu a la páxina especial [[Special:BlueSpiceCategoryManager]]."
+}

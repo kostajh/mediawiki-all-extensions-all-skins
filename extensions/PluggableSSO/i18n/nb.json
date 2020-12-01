@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"pluggablesso-desc": "Bruker SSO-en som gis av tjeneren i $REMOTE_USER i samsvar med PluggableAuth",
+	"pluggablesso-no-session": "Kom til brukernavn, økten mislyktes på en eller annet måte.",
+	"pluggablesso-username-mismatch": "Brukernavnet ditt matcher ikke økten"
+}

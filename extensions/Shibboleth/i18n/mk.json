@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"shibboleth-desc": "Овозможува заверка со Шиболет која работи заедно со PluggableAuth",
+	"shibboleth-wg-empty-displayname": "Променливата во поставеноста на <var>wgShibboleth_DisplayName</var> е празна во LocalSettings.php",
+	"shibboleth-wg-empty-email": "Променливата во поставеноста на <var>wgShibboleth_Email</var> е празна во LocalSettings.php",
+	"shibboleth-wg-empty-username": "Променливата во поставеноста на <var>wgShibboleth_Username</var> е празна во LocalSettings.php",
+	"shibboleth-wg-empty-groupmap-attr": "Променливата во поставеноста на <var>wgShibboleth_GroupMap</var> е празна во LocalSettings.php",
+	"shibboleth-attr-empty-username": "Шиболет: атрибутот за корисничко име не е зададен",
+	"shibboleth-attr-empty-groupmap-attr": "Шиболет: не можам да го најдам атрибутот GroupMap"
+}

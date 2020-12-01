@@ -1,0 +1,48 @@
+{
+	"name": "wikibase/media-info",
+	"type": "mediawiki-extension",
+	"description": "Wikibase extension to manage structured metadata of media files",
+	"homepage": "https://www.mediawiki.org/wiki/Extension:WikibaseMediaInfo",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "The Wikidata team"
+		}
+	],
+	"support": {
+		"issues": "https://phabricator.wikimedia.org/",
+		"irc": "irc://irc.freenode.net/wikidata"
+	},
+	"require": {
+		"serialization/serialization": "~3.2|~4.0",
+		"wikibase/data-model": "^9.4.0",
+		"wikibase/data-model-serialization": "~2.9",
+		"wikibase/data-model-services": "~5.0"
+	},
+	"require-dev": {
+		"php-parallel-lint/php-console-highlighter": "0.5.0",
+		"php-parallel-lint/php-parallel-lint": "1.2.0",
+		"mediawiki/minus-x": "1.1.0",
+		"mediawiki/mediawiki-codesniffer": "33.0.0",
+		"mediawiki/mediawiki-phan-config": "0.10.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Wikibase\\MediaInfo\\": "src/",
+			"Wikibase\\MediaInfo\\Tests\\": "tests/phpunit/composer/",
+			"Wikibase\\MediaInfo\\Tests\\MediaWiki\\": "tests/phpunit/mediawiki/",
+			"Wikibase\\MediaInfo\\Tests\\Integration\\": "tests/phpunit/integration/"
+		}
+	},
+	"scripts": {
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		],
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"phpcs -p -s",
+			"minus-x check ."
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"LDAP": {
+		"connection": {
+			"userbasedn": "someDN"
+		},
+		"some-arbitrary-section": {
+			"conf1": 42
+		}
+	}
+}

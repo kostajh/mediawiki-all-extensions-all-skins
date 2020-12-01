@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"semanticpageseries-desc": "Создавање на низа страници од еден [https://www.mediawiki.org/wiki/Extension:Semantic_Forms?uselang=mk Семантички образец]",
+	"spssuccesstitle": "Создате $1 страници",
+	"spssuccess": "{{PLURAL:$1|Ќе биде создадена една страница|Ќе бидат создадени $1 страници}}",
+	"spssuccess-returntoorigin": "Назад на $1",
+	"spserror": "Се појави грешка",
+	"spserror-diffnotsupported": "Функцијата „разлика“ не е достапна за цели низи од страници.",
+	"spserror-previewnotsupported": "Функцијата „преглед“ не е достапна за цели низи од страници.",
+	"spserror-noiteratorname": "Нема укажано повторувач. Треба да зададете параметар „iterator“ во повикот #serieslink на расчленувачката функција.",
+	"spserror-iteratorunknown": "Повторувачот „$1“ не постои. Ќе треба да го исправите параметарот „iterator“ во повикот #serieslink на расчленувачката функција.",
+	"spserror-noformname": "Нема укажано име на образецот.",
+	"spserror-formunknown": "Образецот „$1“ не постои.",
+	"spserror-notargetformname": "Нема укажано име на целниот образец. Треба да зададете параметар „target form“ во повикот #serieslink на расчленувачката функција.",
+	"spserror-notargetfieldname": "Нема укажано име на целното поле. Треба да зададете параметар „target field“ во повикот #serieslink на расчленувачката функција.",
+	"spserror-iteratorparammissing": "Следниве параметри за повторувачот недостасуваат во повикот #serieslink call:\n$1",
+	"spserror-noiteratordata": "Не пронајдов параметри за повторувачот во испратените податоци.",
+	"spserror-pagegenerationlimitexeeded": "Се обидовте да создадете {{PLURAL:$1|една страница|$1 страници}}. Со тоа ја надминувате дозволената граница од {{PLURAL:$2|една страница|$2 страници}}.",
+	"spserror-date-startdatemissing": "Недостасува почетниот датум.",
+	"spserror-date-internalerror": "Се појави грешка при создавањето на датумите: $1",
+	"spserror-count-startvaluemalformed": "Почетната вредност не е број.",
+	"spserror-count-endvaluemalformed": "Крајната вредност не е број.",
+	"spserror-count-stepvaluemalformed": "Вредноста на чекорот не е број.",
+	"spserror-count-digitsvaluemalformed": "Вредноста на цифрите не е број."
+}

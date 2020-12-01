@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player",
+			"Sujiniku"
+		]
+	},
+	"gpgmail-desc": "GPG でメールを暗号化",
+	"gpgmail-pref-enable": "GPG でEメールを暗号化",
+	"gpgmail-pref-key": "GPG 公開鍵",
+	"gpgmail-pref-key-help": "公開鍵を取得する方法のヘルプについては、次を参照してください。  [https://help.ubuntu.com/community/GnuPrivacyGuardHowto this page]",
+	"gpgmail-encrypt-error": "Eメールの暗号化の最中にエラーが発生しました。"
+}

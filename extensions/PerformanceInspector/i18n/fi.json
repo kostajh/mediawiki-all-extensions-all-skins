@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nike",
+			"Pyscowicz"
+		]
+	},
+	"performanceinspector-desc": "Näytä sivun suorituskysymittarit",
+	"performanceinspector-portlet-link": "Suorituskykytarkastin",
+	"performanceinspector-dialog-title": "Suorituskykytarkastin",
+	"performanceinspector-dialog-summary": "Yhteenveto",
+	"performanceinspector-dialog-cancel": "Peru",
+	"performanceinspector-modules-summary-total-size": "Kaikkien moduulien koko yhteensä",
+	"performanceinspector-modules-css-name": "CSS",
+	"performanceinspector-modules-css-label": "CSS",
+	"performanceinspector-modules-css-column-module": "Moduuli",
+	"performanceinspector-modules-localstorage-disabled": "Paikallinen tallennustila (local storage) ei ole käytössä.",
+	"performanceinspector-modules-localstorage-hits": "Osumia",
+	"performanceinspector-modules-localstorage-misses": "Huteja",
+	"performanceinspector-modules-localstorage-expired": "Vanhentunut",
+	"performanceinspector-modules-localstorage-totalsize": "Koko yhteensä",
+	"performanceinspector-imagesize-name": "Kuvan koko",
+	"performanceinspector-imagesize-label": "Kuvan koko",
+	"performanceinspector-imagesize-column-image-name": "Nimi",
+	"performanceinspector-imagesize-column-size": "Koko",
+	"performanceinspector-imagesize-too-big": "Varoitus",
+	"performanceinspector-newpp-column-name": "Nimi",
+	"performanceinspector-newpp-template-time-report-column-name": "Nimi"
+}

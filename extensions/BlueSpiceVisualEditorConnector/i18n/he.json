@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erelon",
+			"Steeve815",
+			"Strayblues"
+		]
+	},
+	"bs-visualeditorconnector-cancel-edit": "ביטול העריכה",
+	"bs-visualeditor-nsm-label": "העורך החזותי",
+	"bs-visualeditorconnector-inspector-tab-common-name": "תדיר",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "מתקדם",
+	"bs-visualeditorconnector-ve-style-option-description": "בחירת סגנון טבלה",
+	"bs-visualeditorconnector-ve-style-option": "סגנון טבלה",
+	"bs-visualeditorconnector-text-style-tool-color-label": "צבע טקסט",
+	"bs-visualeditorconnector-dialog-media-link": "יצירת קישור אל הקובץ",
+	"bs-visualeditorconnector-dialog-media-embed": "הטמעת קובץ זה",
+	"bs-vec-table-inspector-column": "עמודה",
+	"bs-vec-table-inspector-row": "שורה",
+	"bs-vec-table-inspector-cell": "תא",
+	"bs-vec-table-style-column-width": "רוחב עמודה",
+	"bs-vec-table-style-row-height": "גובה שורה (בפיקסלים)",
+	"bs-vec-contextitem-cell-style-add-options-title": "אפשרויות תא",
+	"bs-vec-contextitem-column-style-add-options-title": "אפשרויות עמודה",
+	"bs-vec-contextitem-row-style-add-options-title": "אפשרויות שורה",
+	"bs-vec-contextitem-row-duplicate": "שכפול שורה",
+	"bs-vec-contextitem-column-duplicate": "שכפול עמודה",
+	"bs-vec-contextitem-table-additional-options": "אפשרויות נוספות",
+	"bs-vec-dialog-table-create-number-of-rows": "מספר שורות",
+	"bs-vec-dialog-table-create-number-of-columns": "מספר עמודות",
+	"bs-vec-dialog-action-done": "בוצע",
+	"bs-vec-dialog-action-safe": "ביטול",
+	"bs-vec-dialog-create-table-title": "הוספת טבלה",
+	"bs-vec-widget-text-direction-tooltip": "טקסט מאונך",
+	"bs-vec-row-duplicate-has-merged": "השורה שנבחרה מכילה תאים שמתפרסים לאורך מספר שורות, ולכן היא לא יכולה להיות משוכפלת.",
+	"bs-vec-dialog-media-change-file": "שינוי קובץ",
+	"bs-visualeditor-linkcontext-label-change": "שינוי תווית",
+	"bs-visualeditor-linkcontext-label-label": "תווית"
+}

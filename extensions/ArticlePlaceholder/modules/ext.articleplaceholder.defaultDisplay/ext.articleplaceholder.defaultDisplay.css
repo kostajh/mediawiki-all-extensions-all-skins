@@ -1,0 +1,76 @@
+.articleplaceholder-statementgroup {
+	display: inline-block;
+	border: 1px solid #aaa;
+	vertical-align: top;
+	padding: 10px;
+	margin: 20px;
+	width: 350px;
+	max-height: 300px;
+	overflow: auto;
+}
+
+/* Needs a selector that's stronger than ".mw-body h2" */
+.mw-body .articleplaceholder-statementgroup h2,
+.mw-body .articleplaceholder-identifierlist h2 {
+	margin-top: 0;
+}
+
+.mw-articleplaceholder-createarticle-buttons {
+	margin-top: 2em;
+	text-align: right;
+}
+
+.articleplaceholder-sidebar {
+	float: right;
+	width: 310px;
+}
+
+.articleplaceholder-topimage {
+	float: right;
+}
+
+.articleplaceholder-identifierlist {
+	clear: both;
+	border: 1px solid #ccc;
+	background-color: #f9f9f9;
+	width: 100%;
+	padding: 0.4em;
+}
+
+.articleplaceholder-identifierlist td {
+	vertical-align: top;
+	padding: 0.25em;
+}
+
+.articleplaceholder-id-value {
+	word-break: break-all;
+}
+
+.articleplaceholder-statement {
+	margin-top: 0;
+}
+
+.articleplaceholder-statementgrouplist {
+	margin-top: 1.5em;
+}
+
+/*
+ * At screen widths between 982px and 880px, statementgroups's right edges
+ * are 911px from the left side of the screen (including the 1px border).
+ * However, the sidebar's float is only set to `none` at 880px, resulting in
+ * the right side of the statementgroups being cut off if we apply
+ * `overflow: hidden` to the statementgrouplist. However, we need
+ * `overflow: hidden` in order to prevent statementgroups from appearing under
+ * the sidebar. To work around this, we only apply `overflow: hidden` at screen
+ * sizes at least 912px wide (with 1 extra pixel for breathing room).
+ */
+@media screen and ( min-width: 912px ) {
+	.articleplaceholder-statementgrouplist {
+		width: auto;
+		overflow: hidden;
+	}
+}
+
+.articleplaceholder-qualifier {
+	margin-left: 1em;
+}

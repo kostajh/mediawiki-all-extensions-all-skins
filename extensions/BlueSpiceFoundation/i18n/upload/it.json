@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Dansita",
+			"Gianfranco",
+			"TheRukk"
+		]
+	},
+	"bs-upload-uploaddialogtitle": "Carica un file",
+	"bs-upload-uploadbuttontext": "Esplora",
+	"bs-upload-uploadfilefieldlabel": "Nome del file",
+	"bs-upload-uploadfileemptytext": "Inserisci il nuovo file...",
+	"bs-upload-uploaddestfilelabel": "Nome del file di destinazione",
+	"bs-upload-allowedfiletypesare": "Tipi di file validi sono:",
+	"bs-upload-license": "Licenza",
+	"bs-upload-uploadwatchthislabel": "Aggiungi agli osservati speciali",
+	"bs-upload-uploadignorewarningslabel": "Ignora i messaggi di avvertimento del sistema",
+	"bs-upload-categories": "Categorie",
+	"bs-upload-upload-waitmessage": "Caricamento in corso ...",
+	"bs-upload-error": "Errore",
+	"bs-upload-descfilelabel": "Descrizione",
+	"bs-upload-error-long": "Errore nel processo di caricamento",
+	"bs-upload-filetypenotsupported": "Il tipo di file non è supportato",
+	"bs-upload-details": "Dettagli",
+	"bs-upload-uploadwarningdialog-title": "Caricamento file: Avvisi",
+	"bs-upload-uploadwarningdialog-intro": "Sono stati registrati questi avvisi durante il caricamento del file",
+	"bs-upload-uploadwarningdialog-warning-exists": "Un file con nome \"$1\" esiste già",
+	"bs-upload-uploadwarningdialog-warning-duplicate": "{{PLURAL:$1|C'è un duplicato|Ci sono duplicati}} di questo file",
+	"bs-upload-uploadwarningdialog-warning-unknown": "Avviso sconosciuto con codice \"$1\""
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"urlshortener": "Acurtiador d'URL",
+	"urlshortener-approved-domains": "Los enllaces {{PLURAL:$1|al siguiente dominiu|a los siguientes dominios}} pueden encurtiase: $2.",
+	"urlshortener-desc": "Acurtiador pa URLs cualesquiera",
+	"urlshortener-disabled": "La creación de nueves URLs curties ta desactivada temporalmente.",
+	"urlshortener-error-badports": "Nun se permite encurtiar URLs que contengan puertos",
+	"urlshortener-error-disallowed-url": "Nun se permite encurtiar URLs escontra'l dominiu $1",
+	"urlshortener-error-malformed-url": "Nun ye una URL válida",
+	"urlshortener-error-nouserpass": "Nun se permite encurtiar URL que contengan un nome d'usuariu o una contraseña",
+	"urlshortener-failed-try-again": "Falló. ¿Volver a intentalo?",
+	"urlshortener-form-header": "Pega la URL llarga equí",
+	"urlshortener-not-found-message": "Nun s'atopó la URL que tas buscando.",
+	"urlshortener-not-found-title": "Nun s'alcontró la URL curtia",
+	"urlshortener-ratelimit": "Espera un poco de tiempu antes d'encurtiar más URL.",
+	"urlshortener-shortened-url-label": "URL encurtiada",
+	"urlshortener-toolbox": "Llograr la URL encurtiada",
+	"urlshortener-url-input-label": "URL",
+	"urlshortener-url-input-submit": "Encurtiar",
+	"urlshortener-url-input-submitting": "Encurtiando…"
+}

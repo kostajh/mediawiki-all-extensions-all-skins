@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.com>"
+		]
+	},
+	"bs-categorycheck-extension-description": "Überprüft vor dem Speichern, ob eine Kategorie vergeben wurde",
+	"bs-categorycheck-insertcategory-no-category": "Bitte ordne dem Artikel eine Kategorie zu",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Ignorieren",
+	"bs-categorycheck-insertcategory-category-list": "Die folgenden Kategorien sind vergeben",
+	"bs-categorycheck-insertcategory-confirm-categories": "Diese Kategorien sind korrekt",
+	"bs-categorycheck-nsm-label-categorycheck": "Kategorieprüfung"
+}

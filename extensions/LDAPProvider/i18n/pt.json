@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"ldapprovider-desc": "Fornece uma infraestrutura comum para ligar a um recurso LDAP e executar consultas nele",
+	"ldapprovider-config-clientregistry": "Permite o registo de clientes personalizados",
+	"ldapprovider-config-domainconfigs": "Armazena configurações por domínio",
+	"ldapprovider-domain-config-not-found": "\n\nNão foi possível aceder ao ficheiro de configuração '$1'!\n\nCrie um ficheiro de configuração de domínio para a extensão LDAPProvider, por favor.",
+	"ldapprovider-more-than-one": "Foi encontrado mais de um utilizador para '$1'",
+	"ldapprovider-config-domainconfigprovider": "Especifica o mecanismo para obter a configuração do domínio",
+	"ldapprovider-config-defaultdomain": "Especifica o domínio a escolher para um utilizador se não estiver disponível nenhum mapeamento na base de dados"
+}

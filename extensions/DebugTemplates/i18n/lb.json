@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"debugtemplates": "Schablounen debuggen",
+	"debugtemplates-title": "Säitentitel (fakultativ, nëmme fir de Kontext)",
+	"debugtemplates-args-title": "Parameteren",
+	"debugtemplates-args-name": "Numm",
+	"debugtemplates-args-value": "Wäert",
+	"debugtemplates-args-eval-all": "Bewäerten",
+	"debugtemplates-args-value-clear": "All eidelmaachen",
+	"debugtemplates-args-constructed": "noname",
+	"debugtemplates-error-button": "Feelermessage läschen",
+	"debugtemplates-error-template-name": "Feeler, den Numm vun der Schabloun konnt net festgestallt ginn:",
+	"debugtemplates-error-template-page": "Feeler, Schabloun-Säit konnt net geluede ginn:",
+	"debugtemplates-error-template-revisions": "Feeler, fir d'Schabloun gëtt et keng Säiteversiounen:",
+	"debugtemplates-eval": "All bewäerten",
+	"debugtemplates-input": "Text aginn",
+	"debugtemplates-radio-select": "näischt",
+	"debugtemplates-radio-eval": "bewäerten",
+	"debugtemplates-reset": "All Bewäertungen zrécksetzen",
+	"debugtemplates-warning-template-not-a-template": "Schabloun konnt net fonnt ginn:",
+	"debugtemplates-warning-template-not-found": "Onbekannt oder agebaut Schabloun:",
+	"apihelp-expandframe-example-1": "Parst de Wikitext <kbd><nowiki>{{{a}}}</nowiki></kbd> an engem definéierte Kontext.",
+	"apihelp-expandframe-param-text": "De Wikitext deen expandéiert gi soll.",
+	"apihelp-expandframe-param-title": "E Säitentitel fir de Kontext."
+}

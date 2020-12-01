@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2"
+		]
+	},
+	"hsts-desc": "הפעלת HSTS (HTTP Strict Transport Security)‎ ברמת משתמשים פרטניים",
+	"hsts-tog": "הפעלת HTTP Strict Transport Security‏ (HSTS)",
+	"hsts-https-tog": "אפשר מעבר אבטחה קפדני מ־HTTP&rlm; (HSTS)<br /> יש לטעון דף זה מחדש ב־HTTPS כדי לשנות העדפה זו.",
+	"hsts-beta-feature-message": "השתמש תמיד בחיבור מאובטח",
+	"hsts-beta-feature-description": "זה מחזק את האבטחה שלכם באתר באמצעות שמירה על ההגנה שלכם גם כאשר אתם יוצאים מהחשבון, ומבטיח שאף אחד לא יוכל לרגל אחריכם במהלך הגלישה. עם אפשרות זו ועם דפדפן מעודכן שתומך בטכנולוגיה זו (HSTS), כל התראת אבטחה כמעט באופן בטוח מציינת שבאמת ישנה התקפה נגדכם."
+}

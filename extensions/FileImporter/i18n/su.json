@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dipusparaga",
+			"Uchup19"
+		]
+	},
+	"fileimporter-importfailed": "Ngimpor gagal",
+	"fileimporter-cantimportmissingfile": "Teu bisa ngimpor berkas nu leungit",
+	"fileimporter-duplicatefilesdetected-prefix": "Duplikat",
+	"fileimporter-resubmit": "Kirim deui",
+	"fileimporter-cancel": "Bolay",
+	"fileimporter-edittitle": "Édit Judul",
+	"fileimporter-editinfo": "Édit info berkas",
+	"fileimporter-editsummary": "Tingkesan édit:",
+	"fileimporter-heading-fileinfo": "Info berkas",
+	"fileimporter-heading-filehistory": "Jujutan berkas"
+}

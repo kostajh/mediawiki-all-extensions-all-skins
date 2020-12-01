@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"securesessions-desc": "Ermöglicht eine erhöhte Sicherheit für Benutzersitzungen und Sitzungsauthentifizierungen",
+	"securesessions-personalurl": "Offene Sitzungen ($1)",
+	"securesessions-ipsession": "Alle anderen Sitzungen abmelden.",
+	"securesessions-iprestrict": "Sitzung auf diese IP-Adresse beschränken.",
+	"securesessions-uarestrict": "Sitzung auf diesen Browser beschränken.",
+	"securesessions-sessions": "Sitzungen",
+	"securesessions-sessions-legend": "Sitzungsinformationen",
+	"securesessions-sessions-text": "Hier siehst du alle offenen Sitzungen für dein Benutzerkonto und Informationen über diese. Du kannst alle anderen Sitzungen schließen, indem du auf die Schaltfläche unten klickst. Ein Sternchen (*) kennzeichnet die aktuelle Sitzung.",
+	"securesessions-sessions-ip": "IP-Adresse:",
+	"securesessions-sessions-activity": "Letzte Aktivität:",
+	"securesessions-sessions-clear": "Alle anderen Sitzungen abmelden",
+	"securesessions-prefs-country": "Anmeldung beschränken auf Staat:",
+	"securesessions-prefs-tor": "Anmeldungen von Tor-Ausgangsknoten verweigern.",
+	"securesessions-disallowedcountry": "Dieses Konto ist nicht zur Anmeldung aus diesem Staat berechtigt.",
+	"securesessions-disallowedtor": "Dieses Konto ist nicht zur Anmeldung von Tor-Ausgangsknoten berechtigt."
+}

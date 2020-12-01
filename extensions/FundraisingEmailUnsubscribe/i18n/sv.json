@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"WikiPhoenix"
+		]
+	},
+	"fundraiserunsubscribe": "Avsluta prenumeration av Wikimedia Fundraising Email",
+	"fundraiserunsubscribe-query": "Är du säker på att du vill avsluta prenumeration för '''''$1'''''?",
+	"fundraiserunsubscribe-submit": "Avsluta prenumeration",
+	"fundraiserunsubscribe-cancel": "Avbryt",
+	"fundraiserunsubscribe-errormsg": "Ett fel uppstod vid försöket att bearbeta din begäran. Vänligen kontakta [mailto:$1 $1].",
+	"fundraiserunsubscribe-success": "Du har framgångsrikt tagits bort från vår sändlista.",
+	"fundraiserunsubscribe-sucesswarning": "Det kan ta upp till fyra (4) dagar för att ändringarna ska börja gälla. Vi ber om ursäkt för alla e-postmeddelanden som du får under denna tid. Om du har några frågor, vänligen kontakta [mailto:$1 $1].",
+	"fundraisersubscribe-success": "Tack!",
+	"fundraisersubscribe-appeal-headline-001": "Gillar du vad du ser?",
+	"fundraisersubscribe-photo-credit": "av $1",
+	"fundraisersubscribe-photo-license": "Alla bilder är licensierade under licensen [$1 Creative Commons Attribution-Share Alike 4.0 International]."
+}

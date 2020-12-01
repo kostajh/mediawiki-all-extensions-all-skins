@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"debugtemplates": "Αποσφαλμάτωση προτύπων",
+	"debugtemplates-form": "Περιοχή εισαγωγής",
+	"debugtemplates-desc": "Ένας απλός απλοποιητής για πρότυπα",
+	"debugtemplates-api": "Διεύθυνση URL για δημιουργία κλήσεων API (πληροφοριακό μόνο)",
+	"debugtemplates-args-title": "Παράμετροι",
+	"debugtemplates-args-name": "Όνομα",
+	"debugtemplates-args-set": "Ορισμένο;",
+	"debugtemplates-args-value": "Τιμή",
+	"debugtemplates-args-set-toggle": "Ρύθμιση/ξερύθμιση όλων",
+	"debugtemplates-args-unused": "Απόκρυψη/εμφάνιση αχρησιμοποίητων",
+	"debugtemplates-args-value-clear": "Καθάρισμα όλων",
+	"debugtemplates-args-constructed": "χωρίς όνομα",
+	"debugtemplates-error-button": "Εκκαθάριση μηνυμάτων σφάλματος",
+	"debugtemplates-eval": "Εκτίμηση όλων",
+	"debugtemplates-input": "Κείμενο εισόδου",
+	"debugtemplates-radio-select": "τίποτα",
+	"debugtemplates-radio-eval": "εκτίμηση",
+	"debugtemplates-warning-template-not-a-template": "Αποτυχία εύρεσης προτύπου:",
+	"apihelp-expandframe-param-text": "Το βικικείμενο για επέκταση."
+}

@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth",
+			"Dejan Savuljesku"
+		]
+	},
+	"bs-socialblog-desc": "Blog entity for BlueSpiceSocial",
+	"bs-socialblog-type": "Blog",
+	"blog": "Blog",
+	"bs-socialblog-entityblog-header-create": "New Blog",
+	"bs-socialblog-entityblog-header": "[[Special:Blog/$3|$6]]",
+	"bs-socialblog-var-blogtitle": "Title",
+	"bs-socialblog-entityblog-content-more-btn-more": "More",
+	"bs-socialblog-entityblog-content-more-btn-less": "Less",
+	"bs-socialblog-toc-useblogteaser": "Use teaser text for blog entries in the timeline",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notifications-blog-create": "User {{GENDER:$1|$2 created}} new blog \"$3\"",
+	"bs-social-notifications-email-blog-create-subject": "User {{GENDER:$1|$2 created}} new blog \"$3\"",
+	"bs-social-notifications-email-blog-create-body": "User {{GENDER:$1|$2 created}} new blog \"$3\" with following text:\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2 created}} new blog \"$3\"",
+	"bs-social-notifications-blog-edit": "User {{GENDER:$1|$2 edited}} blog \"$3\"",
+	"bs-social-notifications-email-blog-edit-subject": "User {{GENDER:$1|$2 edited}} blog \"$3\"",
+	"bs-social-notifications-email-blog-edit-body": "User {{GENDER:$1|$2 edited}} blog \"$3\". New text is:\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2 edited}} blog \"$3\"",
+	"bs-social-notifications-blog-delete": "User {{GENDER:$1|$2 deleted}} blog \"$3\"",
+	"bs-social-notifications-email-blog-delete-subject": "User {{GENDER:$1|$2 deleted}} blog \"$3\"",
+	"bs-social-notifications-email-blog-delete-body": "User {{GENDER:$1|$2 deleted}} blog \"$3\"",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 deleted}} blog \"$3\"",
+	"bs-social-notification-blog-primary-link-label": "View blog"
+}

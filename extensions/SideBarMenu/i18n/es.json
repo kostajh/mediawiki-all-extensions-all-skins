@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Fitoschido"
+		]
+	},
+	"sidebarmenu-desc": "Un analizador (parser) de menú lateral simple que crea menús y submenús colapsables y ampliables",
+	"sidebarmenu-parser-input-error": "El analizador devolvió el error: $1",
+	"sidebarmenu-parser-syntax-error": "No se pudo analizar \"$1\", asegúrese de que la sintaxis es correcta.",
+	"sidebarmenu-js-init-error": "Error al cargar recursos de JavaScript.",
+	"sidebarmenu-edit": "Editar el menú",
+	"sidebarmenu-parser-menuitem-expanded-null": "El valor dado es inválido, debería ser \"null\", \"true\" o \"false\".",
+	"sidebarmenu-parser-config-error": "Se produjeron errores al validar los parámetros de entrada",
+	"sidebarmenu-parser-subpage-error-title-not-found": "No se pudo encontrar el título de subpágina referenciado"
+}

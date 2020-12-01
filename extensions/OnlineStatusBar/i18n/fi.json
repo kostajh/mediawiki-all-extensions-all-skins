@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beluga",
+			"Crt",
+			"Nedergard",
+			"VezonThunder"
+		]
+	},
+	"onlinestatusbar-desc": "Tilarivi, joka näyttää, onko käyttäjä kirjautuneena tämän keskustelusivulla",
+	"prefs-onlinestatus": "Sisäänkirjautumisen tila",
+	"onlinestatusbar-used": "Näytä sisäänkirjautumisesi tila käyttäjäsivullasi",
+	"onlinestatusbar-hide": "Piilota tilarivi käyttäjäsivuilla käyttääksesi vain taikasanaa (edistyneille käyttäjille)",
+	"onlinestatusbar-status": "Mitä haluat käyttää oletustilana?",
+	"onlinestatusbar-away-time": "Montako minuuttia ennen kuin sinut merkitään poissaolevaksi?",
+	"onlinestatusbar-title-online": "{{GENDER:$1|Kirjautuneena}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|Varattu}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|Poissa}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|Piilotettu}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|Ei kirjautuneena}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|Tuntematon}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|Tämä käyttäjä}} on nyt kirjautunut sisään",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|Tämä käyttäjä}} ei ole kirjautunut sisään",
+	"onlinestatusbar-tooltip-unknown": "{{GENDER:$1|Tämän käyttäjän}} tila on tuntematon"
+}

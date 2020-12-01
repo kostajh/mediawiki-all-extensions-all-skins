@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"CiaPan",
+			"Rail",
+			"Railfail536",
+			"Wojtas"
+		]
+	},
+	"readinglists-desc": "Umożliwia użytkownikom zarządzanie prywatnymi listami artykułów, takimi jak zakładki czy listy „Przeczytaj później”",
+	"readinglists-db-error-no-such-list": "Lista $1 nie istnieje.",
+	"readinglists-db-error-not-own-list": "Lista $1 należy do innego użytkownika.",
+	"readinglists-browser-login-prompt": "Zaloguj się, aby zapisać artykuły",
+	"readinglists-browser-error-intro": "Wystąpił błąd: $1",
+	"readinglists-browser-extension-info-link-text": "Dowiedz się więcej",
+	"readinglists-browser-list-entry-limit-exceeded": "Artykuł nie może zostać zapisany. Osiągnąłeś limit $1 artykułów na liście",
+	"readinglists-browser-page-not-supported": "$1 nie obsługuje tej strony"
+}

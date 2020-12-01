@@ -1,0 +1,91 @@
+{
+	"name": "ThrottleOverride",
+	"version": "0.6.0",
+	"author": "Tyler Romeo",
+	"url": "https://www.mediawiki.org/wiki/Extension:ThrottleOverride",
+	"descriptionmsg": "throttleoverride-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AvailableRights": [
+		"throttleoverride"
+	],
+	"LogTypes": [
+		"throttleoverride"
+	],
+	"LogActionsHandlers": {
+		"throttleoverride/*": "ThrottleOverrideLogFormatter"
+	},
+	"Hooks": {
+		"PingLimiter": [
+			"ThrottleOverrideHooks::onPingLimiter"
+		],
+		"ExemptFromAccountCreationThrottle": [
+			"ThrottleOverrideHooks::onExemptFromAccountCreationThrottle"
+		],
+		"LoadExtensionSchemaUpdates": [
+			"ThrottleOverrideHooks::onLoadExtensionSchemaUpdates"
+		],
+		"SetupAfterCache": [
+			"ThrottleOverrideHooks::onSetupAfterCache"
+		],
+		"SpecialPage_initList": [
+			"ThrottleOverrideHooks::onSpecialPageInitList"
+		]
+	},
+	"MessagesDirs": {
+		"OverrideThrottle": [
+			"i18n"
+		]
+	},
+	"JobClasses": {
+		"ThrottleOverridePurge": "ThrottleOverridePurgeJob"
+	},
+	"ExtensionMessagesFiles": {
+		"OverrideThrottleAlias": "ThrottleOverride.i18n.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialOverrideThrottle": "includes/SpecialOverrideThrottle.php",
+		"SpecialThrottleOverrideList": "includes/SpecialThrottleOverrideList.php",
+		"ThrottleOverrideHooks": "includes/ThrottleOverrideHooks.php",
+		"ThrottleOverrideLogFormatter": "includes/ThrottleOverrideLogFormatter.php",
+		"ThrottleOverridePager": "includes/ThrottleOverridePager.php",
+		"ThrottleOverridePurgeJob": "includes/ThrottleOverridePurgeJob.php",
+		"ThrottleOverrideUtils": "includes/ThrottleOverrideUtils.php"
+	},
+	"config": {
+		"ThrottleOverrideCentralWiki": {
+			"value": false
+		},
+		"ThrottleOverrideCIDRLimit": {
+			"value": {
+				"IPv4": 16,
+				"IPv6": 19
+			}
+		},
+		"ThrottleOverrideTypes": {
+			"value": {
+				"actcreate": true,
+				"edit": true,
+				"move": true,
+				"mailpassword": false,
+				"emailuser": false
+			}
+		}
+	},
+	"ResourceModules": {
+		"ext.throttleoverride.list": {
+			"styles": "ext.throttleoverride.list.css"
+		},
+		"ext.throttleoverride.specialOverrideThrottle": {
+			"styles": "ext.throttleoverride.specialOverrideThrottle.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ThrottleOverride/resources"
+	},
+	"manifest_version": 2
+}

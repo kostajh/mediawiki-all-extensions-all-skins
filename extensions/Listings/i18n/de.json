@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"listings-desc": "Erweiterung zur Ausgabe von Ortsbeschreibungen",
+	"listings-unknown": "Unbekannte Einrichtung",
+	"listings-phone": "Telefon",
+	"listings-fax": "Fax",
+	"listings-email": "E-Mail",
+	"listings-tollfree": "gebührenfrei",
+	"listings-checkin": "Anmeldung: $1",
+	"listings-checkout": "Abmeldung: $1",
+	"listings-position": "Lage: $1"
+}

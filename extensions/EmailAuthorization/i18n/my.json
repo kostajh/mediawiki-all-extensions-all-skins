@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
+	"emailauthorization-config-nousersfound": "အသုံးပြုသူများ မတွေ့ပါ။",
+	"emailauthorization-config-label-email": "အီးမေးလ် လိပ်စာ",
+	"emailauthorization-config-label-username": "အသုံးပြုသူအမည်",
+	"emailauthorization-config-label-realname": "အမည်ရင်း",
+	"emailauthorization-config-label-userpage": "အသုံးပြုသူ စာမျက်နှာ",
+	"emailauthorization-config-value-no": "မလုပ်ပါ",
+	"emailauthorization-config-button-next": "ရှေ့",
+	"emailauthorization-config-button-previous": "ယခင်",
+	"emailauthorization-config-button-search": "ရှာဖွေရန်",
+	"emailauthorization-config-button-add": "ပေါင်းရန်",
+	"emailauthorization-config-button-showall": "ဝီကီအသုံးပြုသူ အားလုံးကိုရှာရန်",
+	"emailauthorizationrequest": "အကောင့်တစ်ခု တောင်းဆိုရန်",
+	"emailauthorization-request-label-email": "အီးမေးလ် လိပ်စာ",
+	"emailauthorization-request-button-submit": "ထည့်သွင်းရန်",
+	"emailauthorization-approve-label-email": "အီးမေးလ် လိပ်စာ",
+	"emailauthorization-approve-button-next": "ရှေ့",
+	"emailauthorization-approve-button-previous": "ယခင်",
+	"emailauthorization-approve-rejected": "ငြင်းပယ်ခဲ့သည် $1။"
+}

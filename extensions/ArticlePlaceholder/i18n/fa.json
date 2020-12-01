@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"FarsiNevis",
+			"Ladsgroup",
+			"Reza1615"
+		]
+	},
+	"createtopicpage": "ایجاد صفحه",
+	"articleplaceholder-abouttopic": "درباره موضوع",
+	"articleplaceholder-abouttopic-no-entity-error": "این یک شناسه معتبر آیتم نیست.",
+	"articleplaceholder-abouttopic-create-article-title": "یک مقاله جدید بسازید",
+	"articleplaceholder-abouttopic-create-article-label": "عنوان مقاله",
+	"articleplaceholder-abouttopic-create-article-mandatory": "عنوان مقاله اجباری است.",
+	"articleplaceholder-abouttopic-create-article-button": "یک مقاله بسازید",
+	"articleplaceholder-abouttopic-create-empty-article-button": "مقاله‌ای جدید شروع کنید",
+	"articleplaceholder-abouttopic-translate-article-label": "زبان مبدأ:",
+	"articleplaceholder-abouttopic-translate-article-button": "ترجمه مقاله",
+	"articleplaceholder-abouttopic-create-article-submit-button": "ارسال",
+	"articleplaceholder-abouttopic-article-exists-error": "یک مقاله با این نام از قبل موجود است",
+	"articleplaceholder-abouttopic-lua-entity": "موجودیت",
+	"articleplaceholder-abouttopic-lua-reference": "منبع",
+	"articleplaceholder-abouttopic-lua-identifier": "منابع خارجی",
+	"articleplaceholder-search-header": "کشف اطلاعات در مورد موضوع",
+	"articleplaceholder-createpage-title": "ایجاد $1",
+	"articleplaceholder-createpage-alreadyexists": "صفحه‌ای با عنوان «$1» از قبل وجود دارد. لطفاً عنوان دیگری انتخاب کنید.",
+	"articleplaceholder-createpage-notitleprovided": "عنوانی وارد نشده است. لطفاً برای صفحهٔ مورد نظرتان عنوانی برگزینید."
+}

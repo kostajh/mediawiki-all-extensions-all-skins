@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"ShockD",
+			"Vodnokon4e"
+		]
+	},
+	"accountinfo": "Информация за сметката",
+	"accountinfo-desc": "Позволява на потребителя да вижда запазената лична информация за себе си",
+	"accountinfo-ts": "Дата и час",
+	"accountinfo-ip": "IP адрес",
+	"accountinfo-ua": "Браузър",
+	"accountinfo-xff": "XFF хедър",
+	"accountinfo-length": "Информацията се запазва за $1.",
+	"accountinfo-now": "Сега"
+}

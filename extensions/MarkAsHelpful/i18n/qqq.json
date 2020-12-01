@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaganer",
+			"MarcoAurelio",
+			"Rob Moen",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"markashelpful-desc": "{{desc|name=Mark As Helpful|url=https://www.mediawiki.org/wiki/Extension:MarkAsHelpful}}\nThis is a feature in development.",
+	"mah-mark-text": "Text to prompt the user to mark this item as helpful",
+	"mah-you-marked-text": "Text displayed to the logged in user if they mark an item helpful",
+	"mah-someone-marked-text": "Used to display username who marked as helpful. Parameters:\n* $1 - username, with GENDER support",
+	"mah-undo-mark-text": "Text for the the undo mark link.\n{{Identical|Undo}}",
+	"mah-action-error": "Generic error message",
+	"action-markashelpful-view": "{{notranslate}}\n{{doc-action|markashelpful-view}}",
+	"right-markashelpful-view": "{{notranslate}}\n{{doc-right|markashelpful-view}}",
+	"action-markashelpful-admin": "{{notranslate}}\n{{doc-action|markashelpful-admin}}",
+	"right-markashelpful-admin": "{{notranslate}}\n{{doc-right|markashelpful-admin}}",
+	"apihelp-getmarkashelpfulitem-description": "{{doc-apihelp-description|getmarkashelpfulitem}}",
+	"apihelp-getmarkashelpfulitem-summary": "{{doc-apihelp-summary|getmarkashelpfulitem}}",
+	"apihelp-getmarkashelpfulitem-param-type": "{{doc-apihelp-param|getmarkashelpfulitem|type}}",
+	"apihelp-getmarkashelpfulitem-param-item": "{{doc-apihelp-param|getmarkashelpfulitem|item}}",
+	"apihelp-getmarkashelpfulitem-param-prop": "{{doc-apihelp-param|getmarkashelpfulitem|prop}}",
+	"apihelp-getmarkashelpfulitem-param-page": "{{doc-apihelp-param|getmarkashelpfulitem|page}}",
+	"apihelp-markashelpful-description": "{{doc-apihelp-description|markashelpful}}",
+	"apihelp-markashelpful-summary": "{{doc-apihelp-summary|markashelpful}}",
+	"apihelp-markashelpful-param-mahaction": "{{doc-apihelp-param|markashelpful|mahaction}}",
+	"apihelp-markashelpful-param-page": "{{doc-apihelp-param|markashelpful|page}}",
+	"apihelp-markashelpful-param-type": "{{doc-apihelp-param|markashelpful|type}}",
+	"apihelp-markashelpful-param-item": "{{doc-apihelp-param|markashelpful|item}}",
+	"apihelp-markashelpful-param-useragent": "{{doc-apihelp-param|markashelpful|useragent}}",
+	"apihelp-markashelpful-param-system": "{{doc-apihelp-param|markashelpful|system}}",
+	"apihelp-markashelpful-param-locale": "{{doc-apihelp-param|markashelpful|locale}}"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"updatemediawiki": "Aggiorna MediaWiki",
+	"updatemediawiki-desc": "Consente l'aggiornamento di MediaWiki tramite una pagina speciale",
+	"updatemediawiki-current": "Versione attuale $1",
+	"updatemediawiki-update-nofound": "Nessun aggiornamento è disponibile",
+	"updatemediawiki-update-found": "Nuovo aggiornamento trovato: $1",
+	"updatemediawiki-update-downloading": "Scaricando nuovi aggiornamenti",
+	"updatemediawiki-update-saved": "Aggiornamento scaricato e salvato",
+	"updatemediawiki-update-exist": "Aggiornamento già scaricato",
+	"updatemediawiki-update-copyready": "Copia pronta",
+	"updatemediawiki-update-database": "Aggiorna il database adesso?",
+	"updatemediawiki-update-updateready": "Aggiornamento pronto",
+	"updatemediawiki-update-install": "Installa adesso?",
+	"updatemediawiki-update-updated": "MediaWiki aggiornato alla versione $1"
+}

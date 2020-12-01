@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"phptagsfunctions-desc": "PhpTags 拡張機能用のネイティブ PHP の内部関数を実装する",
+	"phptagsfunctions-preg-bad-delimiter": "区切り文字には英数字やバックスラッシュは使用できません",
+	"phptagsfunctions-preg-no-ending-delimiter": "終了の区切り文字「$1」が見つかりません",
+	"phptagsfunctions-preg-unknown-modifier": "不明な修飾子「$1」"
+}

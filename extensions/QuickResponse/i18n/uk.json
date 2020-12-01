@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia"
+		]
+	},
+	"quickresponse-desc": "Генерує QR-код для URL-адреси поточної сторінки",
+	"quickresponse-text": "QR-код",
+	"quickresponse-tooltip": "Генерувати QR-код для поточної URL-адреси",
+	"quickresponse-title": "Ось QR-код!"
+}

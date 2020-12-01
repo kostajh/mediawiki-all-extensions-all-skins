@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alan ffm",
+			"Chrumps",
+			"Sp5uhe"
+		]
+	},
+	"sitesettings-desc": "Pozwala na modyfikowanie ustawień za pomocą interfejsu wiki",
+	"sitesettings": "Ustawienia strony",
+	"sitesettings-maintab": "Główna",
+	"sitesettings-sitename": "Nazwa strony:",
+	"sitesettings-current-gmt": "(aktualny czas GMT to $1 lub $2)",
+	"sitesettings-copyrightdesc": "Opis praw autorskich:",
+	"sitesettings-copyrighturl": "Adres URL do praw autorskich:",
+	"sitesettings-update": "Aktualizuj",
+	"sitesettings-privacytab": "Prywatność",
+	"sitesettings-viewingpolicy": "Zobacz",
+	"sitesettings-veryprivatedesc": "Użytkownicy mogą przeglądać tylko główną i własną stronę",
+	"sitesettings-registrationpolicy": "Rejestracja",
+	"sitesettings-openregdesc": "Każdy może się zarejestrować",
+	"sitesettings-closedregdesc": "Użytkownicy mogą zostać dodani tylko przez administratora",
+	"sitesettings-openeditingdesc": "Każdy może edytować",
+	"sitesettings-closededitingdesc": "Tylko zarejestrowani użytkownicy mogą edytować",
+	"sitesettings-veryclosededitingdesc": "Tylko administratorzy mogą edytować",
+	"sitesettings-updated": "Ustawienia strony zostały zaktualizowane.",
+	"sitesettings-appearanceupdated": "Ustawienia wyglądu strony zostały zaktualizowane.",
+	"sitesettings-sitelogo": "Logo",
+	"sitesettings-nologo": "Nie ma aktualnego logo.",
+	"sitesettings-uploadlogo": "Prześlij logo:",
+	"sitesettings-currentlogo": "Aktualne logo:",
+	"sitesettings-removelogo": "Usuń logo",
+	"sitesettings-changelogo": "Zmień logo:",
+	"sitesettings-logouploaded": "Logo zostało przesłane.",
+	"sitesettings-logoremoved": "Logo zostało usunięte."
+}

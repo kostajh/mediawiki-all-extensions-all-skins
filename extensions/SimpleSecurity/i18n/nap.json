@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R."
+		]
+	},
+	"security": "Riggistro 'e sicurezza",
+	"security-desc": "Spanne 'a prutezione d' 'e paggene 'e MediaWiki pe' putè permettere 'e limmità 'a visualizzaziona d' 'o contenuto d' 'e paggene",
+	"security-logpage": "Riggistro 'e sicurezza",
+	"security-logpagetext": "Chest'è nu log 'e aziune bluccate p' 'a [https://www.mediawiki.org/wiki/Extension:SimpleSecurity extenziona impleSecurity].",
+	"badaccess-read": "'''Attenziò:''' \"$1\" è riferita ccà, ma nun avite premmesse abbastanza pe' ne putè trasì.",
+	"security-info": "Songo prisente $1 int'a sta paggena",
+	"security-info-toggle": "restriziune 'e sicurezza",
+	"security-inforestrict": "$1 è lemmetata a $2",
+	"security-desc-LS": "(applica pecché sta paggena sta dint'a $1 \"$2\")",
+	"security-desc-PR": "(mpustato d' 'a scheda \"prutegge\")",
+	"security-infosysops": "Nun ce stanno restriziune apprecate pecchè site nu membro d' 'o gruppo \"sysop\"",
+	"security-manygroups": "gruppo $1 e $2",
+	"security-unchain": "Cagna aziune una a una",
+	"security-type-category": "'a categurìa",
+	"security-type-namespace": "'o spazio 'e nomme",
+	"security-restricttogroup": "Trasuta ê cuntenute riservate a membre 'e \"$1\"",
+	"restriction-read": "Liegge"
+}

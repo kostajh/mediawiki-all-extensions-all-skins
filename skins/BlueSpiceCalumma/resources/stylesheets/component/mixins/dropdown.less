@@ -1,0 +1,79 @@
+.mixin-dropdown-menu( @color, @bg-color, @color-hover, @bg-color-hover ) {
+	margin-left: 0;
+	width: 100%;
+	background-color: @bg-color;
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin-bottom: 0;
+		li{
+			border: none;
+			width: 100%;
+			a {
+				width: 100%;
+				color: @color;
+				text-decoration: none;
+				display: block;
+				padding-left: 0.625rem;
+				padding-right: 0.625rem;
+				padding-top: 0.1875rem;
+				line-height: 1.75rem;
+
+				&:hover{
+					background-color:  @bg-color-hover;
+					color: @color-hover;
+				}
+			}
+
+		}
+	}
+
+	&::before {
+		font-size: 1rem;
+		font-family: 'fontawesome';
+		content: "\f0d8";
+		position: absolute;
+		top: -0.9rem;
+		color: @bg-color;
+		height: 0.625rem;
+		z-index: -1;
+	}
+}
+
+.mixin-dropdown-toggle-after( @color, @color-hover ) {
+	.dropdown-toggle::after {
+		font-family: 'fontawesome';
+		content: "\f0d7";
+		color: @color;
+
+		&:hover {
+			color: @color-hover;
+		}
+	}
+
+	&.open {
+		.dropdown-toggle::after {
+			content: "\f0d8";
+		}
+	}
+}
+
+
+.mixin-dropdown-toggle-before( @color, @color-hover ) {
+	.dropdown-toggle::before {
+		font-family: 'fontawesome';
+		content: "\f0d7";
+		color: @color;
+
+		&:hover {
+			color: @color-hover;
+		}
+	}
+
+	&.open {
+		.dropdown-toggle::before {
+			content: "\f0d8";
+		}
+	}
+}

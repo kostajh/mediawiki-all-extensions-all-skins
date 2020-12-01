@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"indexfunc-desc": "Parser function to create automatic redirects and disambiguation pages",
+	"indexfunc-badtitle": "Invalid title: \"$1\"",
+	"indexfunc-editwarning": "Warning:\nThis title is an index title for the following {{PLURAL:$2|page|pages}}:\n$1\nBe sure the page you are about to create does not already exist under a different title.\nIf you create this page, remove this title from the <nowiki>{{#index:}}</nowiki> on the above {{PLURAL:$2|page|pages}}.",
+	"indexfunc-index-exists": "The page \"$1\" already exists",
+	"indexfunc-movewarn": "Warning:\n\"$1\" is an index title for the following {{PLURAL:$3|page|pages}}:\n$2\nPlease remove \"$1\" from the <nowiki>{{#index:}}</nowiki> on the above {{PLURAL:$3|page|pages}}.",
+	"index": "Index search",
+	"index-legend": "Search the index",
+	"index-search": "Search:",
+	"index-submit": "Submit",
+	"index-disambig-start": "'''$1''' may refer to several pages:",
+	"index-exclude-categories": "",
+	"index-emptylist": "There are no pages associated with \"$1\"",
+	"index-expand-detail": "Show pages indexed under this title",
+	"index-hide-detail": "Hide the list of pages",
+	"index-no-results": "The search returned no results",
+	"index-search-explain": "This page uses a prefix search.\n\nType the first few characters and press the submit button to search for page titles and index entries that start with the search string",
+	"index-details-explain": "Entries with arrows are index entries.\nClick the arrow to show all pages indexed under that title."
+}

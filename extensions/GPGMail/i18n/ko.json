@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwangjy9",
+			"Revi",
+			"Yearning"
+		]
+	},
+	"gpgmail-desc": "GPG로 이메일을 암호화합니다",
+	"gpgmail-pref-enable": "GPG로 이메일을 암호화합니다",
+	"gpgmail-pref-key": "GPG 공개 키",
+	"gpgmail-pref-key-help": "[https://help.ubuntu.com/community/GnuPrivacyGuardHowto 우분투의 가이드]에서 공개키를 생성하는 방법을 알아보세요.",
+	"gpgmail-encrypt-error": "이메일을 암호화하던 중 오류가 발생했습니다."
+}

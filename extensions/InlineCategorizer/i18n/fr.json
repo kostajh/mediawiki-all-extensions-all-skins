@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Hashar",
+			"Houcinee1",
+			"Jens Liebenau",
+			"Od1n",
+			"PieRRoMaN",
+			"Seb35",
+			"Verdy p"
+		]
+	},
+	"inlinecategorizer-desc": "Module JavaScript qui permet de modifier, ajouter et supprimer des liens de catégorie directement depuis une page",
+	"inlinecategorizer-add-category": "Ajouter une catégorie",
+	"inlinecategorizer-add-category-submit": "Ajouter",
+	"inlinecategorizer-add-category-summary": "Ajouter la catégorie « $1 »",
+	"inlinecategorizer-api-error": "L’API a retourné une erreur : $1 : $2",
+	"inlinecategorizer-api-unknown-error": "L'API a retourné une erreur inconnue",
+	"inlinecategorizer-cancel": "Annuler les modifications",
+	"inlinecategorizer-cancel-all": "Annuler tous les changements",
+	"inlinecategorizer-category-already-present": "Cette page appartient déjà à la catégorie $1",
+	"inlinecategorizer-category-hook-error": "Une fonction locale a empêché d’enregistrer les changements",
+	"inlinecategorizer-category-question": "Pourquoi voulez-vous faire les changements suivants :",
+	"inlinecategorizer-confirm-ok": "Valider",
+	"inlinecategorizer-confirm-save": "Publier",
+	"inlinecategorizer-confirm-save-all": "Enregistrer toutes les modifications",
+	"inlinecategorizer-confirm-title": "Confirmer l’action",
+	"inlinecategorizer-edit-category": "Modifier une catégorie",
+	"inlinecategorizer-edit-category-error": "Il n’a pas été possible de modifier la catégorie « $1 ».\nCela se produit généralement lorsque la catégorie a été ajoutée à la page via un modèle.",
+	"inlinecategorizer-edit-category-summary": "Changer la catégorie « $1 » vers « $2 »",
+	"inlinecategorizer-error-title": "Erreur",
+	"inlinecategorizer-remove-category": "Supprimer la catégorie",
+	"inlinecategorizer-remove-category-error": "Il n’a pas été possible de retirer la catégorie « $1 ».\nCela se produit généralement lorsque la catégorie a été ajoutée à la page via un modèle.",
+	"inlinecategorizer-remove-category-summary": "Enlever la catégorie « $1 »"
+}

@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tgr"
+		]
+	},
+	"readinglists-desc": "Allows users to manage private lists of articles, such as bookmarks or \"Read Later\" lists.",
+	"readinglists-db-error-not-set-up": "Reading lists have not been set up for this user.",
+	"readinglists-db-error-already-set-up": "Reading lists have already been set up for this user.",
+	"readinglists-db-error-cannot-delete-default-list": "The default list cannot be deleted.",
+	"readinglists-db-error-cannot-update-default-list": "The default list cannot be updated.",
+	"readinglists-db-error-no-such-list": "List $1 does not exist.",
+	"readinglists-db-error-no-such-list-entry": "List entry $1 does not exist.",
+	"readinglists-db-error-not-own-list": "List $1 belongs to another user.",
+	"readinglists-db-error-not-own-list-entry": "List entry $1 belongs to another user.",
+	"readinglists-db-error-list-deleted": "List $1 has been deleted.",
+	"readinglists-db-error-list-entry-deleted": "List entry $1 has been deleted.",
+	"readinglists-db-error-duplicate-list": "A list by this name already exists.",
+	"readinglists-db-error-duplicate-page": "The list already contains this page.",
+	"readinglists-db-error-empty-list-ids": "List ids parameter must not be empty.",
+	"readinglists-db-error-user-required": "This method cannot be called without specifying the user.",
+	"readinglists-db-error-list-limit": "Users cannot have more than $1 {{PLURAL:$1|list|lists}}.",
+	"readinglists-db-error-entry-limit": "List $1 cannot have more than $2 {{PLURAL:$2|entry|entries}}.",
+	"readinglists-db-error-too-long": "Value for field $1 cannot be longer than $2 bytes.",
+	"readinglists-db-error-no-such-project": "'$1' is not a recognized project.",
+	"readinglists-browser-add-entry-success": "$1 saved to your reading list",
+	"readinglists-browser-login-prompt": "Log in to save articles",
+	"readinglists-browser-error-intro": "An error has occurred: $1",
+	"readinglists-browser-enable-sync-prompt": "Enable syncing on your Wikipedia app to begin saving articles",
+	"readinglists-browser-extension-info-link-text": "Learn more",
+	"readinglists-browser-list-entry-limit-exceeded": "Article cannot be saved. You have reached the limit of $1 articles per list",
+	"readinglists-browser-extension-product-title": "Wikipedia Reading Lists",
+	"readinglists-browser-page-not-supported": "$1 does not support this page"
+}

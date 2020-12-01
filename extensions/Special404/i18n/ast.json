@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"special404-desc": "Ufre un destín para los fallos 404 nun s'alcontró",
+	"error404": "404 Nun s'alcontró",
+	"special404-body": "Nun s'alcontró la URL que solicitasti.\n\n¿Queríes escribir {{fullurl:$1}}?\n\nSeique quieras echa-y una güeyada a:\n* [[{{MediaWiki:Mainpage}}|La portada]]"
+}

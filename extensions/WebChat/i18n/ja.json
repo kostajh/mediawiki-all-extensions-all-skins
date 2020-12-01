@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Otokoume",
+			"Shirayuki"
+		]
+	},
+	"webchat": "ウェブチャット",
+	"webchat-desc": "ウィキの他の利用者とリアルタイムで会話するための[[Special:WebChat|特別ページ]]を追加する",
+	"webchat-header": "この特別ページを使うと、このウィキの他の利用者とリアルタイムで共同作業ができるようになります。\n「接続」ボタンを押すだけで接続できます。\nニックネームでログインしている場合は、その名前があらかじめ入力されています。\n匿名の利用者には、自動的に名前が付けられますが変更することもできます。",
+	"action-webchat": "ウェブチャットの使用",
+	"right-webchat": "[[Special:WebChat|ウェブチャット]]を使用"
+}

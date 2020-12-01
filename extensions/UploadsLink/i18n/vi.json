@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"uploadslink-desc": "Đặt liên kết đến danh sách tập tin tải lên của người dùng hiện tại vào trình đơn công cụ cá nhân, cũng như đặt liên kết đến danh sách tải lên của người dùng đang xem vào trình đơn Công cụ trong thanh bên khi nào xem một trang thành viên.",
+	"uploadslink-portlet-label": "Tập tin tải lên",
+	"tooltip-pt-uploads": "Danh sách các tập tin bạn đã tải lên",
+	"uploadslink-toobox-label": "Tập tin {{GENDER:$1}}người này đã tải lên",
+	"tooltip-tb-uploads": "Danh sách các tập tin mà {{GENDER:$1}}người này đã tải lên"
+}

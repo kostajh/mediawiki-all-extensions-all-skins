@@ -1,0 +1,16 @@
+/* CSS for Video extension */
+#wpVideo {
+	width: 500px;
+}
+
+/* <pre> tags on Special:AddVideo */
+.mw-special-AddVideo pre {
+	overflow: scroll;
+}
+
+/* Make the submit button bigger on mobile devices w/ a low-resolution screen */
+@media screen and (max-width: 750px) {
+	.mw-special-AddVideo input[class="mw-htmlform-submit"] {
+		padding: 15px;
+	}
+}

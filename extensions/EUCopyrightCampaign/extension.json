@@ -1,0 +1,146 @@
+{
+	"name": "EUCopyrightCampaign",
+	"author": [
+		"Robert Vogel",
+		"Dejan Savuljesku",
+		"Hallo Welt! GmbH"
+	],
+	"url": "https://www.wikimedia.org",
+	"descriptionmsg": "eucopyrightcampaign-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"attributes": {
+		"EventLogging": {
+			"Schemas": {
+				"EUCCStats": 18341891
+			}
+		}
+	},
+	"SpecialPages": {
+		"ContactYourMEP": "\\EUCopyrightCampaign\\Special\\ContactYourMEP"
+	},
+	"MessagesDirs": {
+		"EUCopyrightCampaign": "i18n"
+	},
+	"ExtensionMessagesFiles": {
+		"EUCopyrightCampaignAlias": "i18n/EUCopyrightCampaign.i18n.alias.php"
+	},
+	"APIModules": {
+		"eucc-get-representatives": "\\EUCopyrightCampaign\\Api\\GetRepresentatives"
+	},
+	"ResourceModules": {
+		"ext.euCopyrightCampaign": {
+			"scripts": [
+				"ext.euCopyrightCampaign.util.js",
+				"ui/dialog/Mail.js",
+				"ui/dialog/Call.js",
+				"ui/dialog/Twitter.js",
+				"ui/widget/CheckboxMultioptionText.js",
+				"ui/widget/Contact.js",
+				"ui/widget/CountryPicker.js",
+				"ui/widget/RepresentativePicker.js",
+				"ui/ThankYouLayout.js",
+				"ext.euCopyrightCampaign.js"
+			],
+			"styles": [
+				"ext.euCopyrightCampaign.less",
+				"ext.euCopyrightCampaign.flagIcons.less"
+			],
+			"messages": [
+				"eucc-country-picker-layout-label",
+				"eucc-country-picker-placeholder",
+				"eucc-representative-picker-layout-label",
+				"eucc-contact-layout-label",
+				"eucc-email-greeting",
+				"eucc-email-user-info",
+				"eucc-email-part-one-v1",
+				"eucc-email-part-one-v2",
+				"eucc-email-part-one-v3",
+				"eucc-email-part-two",
+				"eucc-email-complimentary-close",
+				"eucc-email-first-name-input-placeholder",
+				"eucc-email-last-name-input-placeholder",
+				"eucc-email-custom-text-placeholder",
+				"eucc-email-email-input-placeholder",
+				"eucc-email-newsletter-label",
+				"eucc-email-privacy-policy-label",
+				"eucc-option-protect-public-domain-label",
+				"eucc-option-protect-public-domain-text-v1",
+				"eucc-option-protect-public-domain-text-v2",
+				"eucc-option-protect-public-domain-text-v3",
+				"eucc-option-freedom-of-panorama-label",
+				"eucc-option-freedom-of-panorama-text-v1",
+				"eucc-option-freedom-of-panorama-text-v2",
+				"eucc-option-freedom-of-panorama-text-v3",
+				"eucc-option-exception-for-ucg-label",
+				"eucc-option-exception-for-ucg-text-v1",
+				"eucc-option-exception-for-ucg-text-v2",
+				"eucc-option-exception-for-ucg-text-v3",
+				"eucc-option-exception-for-text-and-data-mining-label",
+				"eucc-option-exception-for-text-and-data-mining-text-v1",
+				"eucc-option-exception-for-text-and-data-mining-text-v2",
+				"eucc-option-exception-for-text-and-data-mining-text-v3",
+				"eucc-thank-you-header",
+				"eucc-thank-you-text",
+				"eucc-share-tweet-text",
+				"eucc-share-tweet-label",
+				"eucc-share-tweet-button-label",
+				"eucc-copy-to-clipboard-success",
+				"eucc-copy-to-clipboard-fail",
+				"eucc-email-issues-intro",
+				"eucc-email-outro-v1",
+				"eucc-email-outro-v2",
+				"eucc-email-outro-v3",
+				"eucc-call-representative-phone-brussels",
+				"eucc-call-representative-phone-strasbourg",
+				"eucc-call-script-label",
+				"eucc-call-script-text",
+				"eucc-contact-button-call-short-label",
+				"eucc-contact-button-tweet-short-label",
+				"eucc-contact-button-call-label",
+				"eucc-contact-button-tweet-label",
+				"eucc-contact-top-alternatives-text",
+				"eucc-contact-button-generate-mail-label",
+				"eucc-dialog-mark-as-done-label",
+				"eucc-mail-dialog-copy-text-label",
+				"eucc-mail-dialog-send-mail-label",
+				"eucc-mail-dialog-title",
+				"eucc-mail-dialog-top-label",
+				"eucc-mail-dialog-target-rep",
+				"eucc-call-dialog-title",
+				"eucc-tweet-at-rep-default-text",
+				"eucc-twitter-dialog-title",
+				"eucc-contact-top-alternatives-only-phone-text"
+			],
+			"dependencies": [
+				"mediawiki.api",
+				"mediawiki.jqueryMsg",
+				"oojs",
+				"oojs-ui"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "EUCopyrightCampaign/resources"
+	},
+	"AutoloadClasses": {
+		"EUCopyrightCampaign\\Special\\ContactYourMEP": "src/Special/ContactYourMEP.php",
+		"EUCopyrightCampaign\\Api\\GetRepresentatives": "src/Api/GetRepresentatives.php"
+	},
+	"config_prefix": "wgEUCopyrightCampaign",
+	"config": {
+		"NewsletterSubmitTarget": {
+			"value": "https://www.pages04.net/wikimedia/20180828_fixcopyright/Form"
+		},
+		"MailingListPrivacyPolicyURL": {
+			"value": "https://www.ibm.com/privacy/details/us/en/privacy_shield.html"
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+
+}

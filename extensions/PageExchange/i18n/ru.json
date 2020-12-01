@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diman Russkov",
+			"VoxelJ"
+		]
+	},
+	"pageexchange-logdesc": "Это журнал действий, связанных с расширением Page Exchange",
+	"pageexchange-available": "Доступно",
+	"pageexchange-uninstallpackage": "Установить пакет: $1",
+	"pageexchange-installpackagelog": "Установил пакет $2 от $3",
+	"pageexchange-package-website": "Веб-сайт:",
+	"pageexchange-package-author": "Автор:",
+	"pageexchange-package-version": "Версия:",
+	"pageexchange-package-pages": "Страницы.",
+	"pageexchange-package-language": "Язык:",
+	"pageexchange-package-update": "Обновить",
+	"pageexchange-pagehaschanged": "Последняя версия этой страницы отличается от локальной копии.",
+	"pageexchange-uninstallablepackage": "Этот совет не может быть установлен из за следующих причин:"
+}

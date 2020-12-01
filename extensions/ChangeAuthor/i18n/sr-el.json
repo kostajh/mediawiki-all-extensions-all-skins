@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michaello",
+			"Milicevic01",
+			"Rancher"
+		]
+	},
+	"changeauthor": "Promeni autora izmene",
+	"changeauthor-desc": "Omogući promene autora izmena",
+	"changeauthor-title": "Promeni autora neke izmene",
+	"changeauthor-search-box": "Pretraži izmene",
+	"changeauthor-pagename-or-revid": "Ime stranice ili ID izmene:",
+	"changeauthor-pagenameform-go": "Idi",
+	"changeauthor-comment": "Komentar:",
+	"changeauthor-changeauthors-multi": "Promeni {{PLURAL:$1|autora|autore}}",
+	"changeauthor-changeauthors-single": "Promeni autora",
+	"changeauthor-invalid-username": "Pogrešno korisničko ime \"$1\".",
+	"changeauthor-nosuchuser": "Nema korisnika \"$1\".",
+	"changeauthor-revview": "Izmena $1 od $2",
+	"changeauthor-nosuchtitle": "Ne postoji stranica pod nazivom \"$1\".",
+	"changeauthor-success": "Baš zahtev je bio uspešno obrađen.",
+	"changeauthor-rev": "izm. $1",
+	"log-name-changeauth": "Istorija promene autora",
+	"right-changeauthor": "Promeni autora izmene"
+}

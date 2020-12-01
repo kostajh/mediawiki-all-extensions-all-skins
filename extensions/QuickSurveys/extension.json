@@ -1,0 +1,178 @@
+{
+	"name": "QuickSurveys",
+	"version": "1.4.0",
+	"author": [
+		"Bahodir Mansurov",
+		"Joaquin Hernandez",
+		"Jon Robson",
+		"Rob Moen"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:QuickSurveys",
+	"descriptionmsg": "quicksurveys-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34.0",
+		"extensions": {
+			"EventLogging": "*"
+		}
+	},
+	"MessagesDirs": {
+		"QuickSurveys": [
+			"i18n"
+		]
+	},
+	"ConfigRegistry": {
+		"quicksurveys": "GlobalVarConfig::newInstance"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "QuickSurveys"
+	},
+	"ResourceModules": {
+		"ext.quicksurveys.lib": {
+			"dependencies": [
+				"mediawiki.cookie",
+				"mediawiki.storage",
+				"mediawiki.viewport",
+				"mediawiki.experiments",
+				"oojs-ui-core",
+				"oojs-ui-widgets",
+				"mediawiki.user",
+				"mediawiki.Uri",
+				"ext.eventLogging",
+				"mediawiki.util"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			],
+			"messages": [
+				"ext-quicksurveys-survey-privacy-policy-default-text",
+				"ext-quicksurveys-survey-confirm-msg",
+				"ext-quicksurveys-survey-positive",
+				"ext-quicksurveys-survey-negative",
+				"ext-quicksurveys-survey-neutral",
+				"ext-quicksurveys-internal-freeform-survey-submit-button",
+				"ext-quicksurveys-internal-freeform-survey-no-answer-alert",
+				"ext-quicksurveys-external-survey-yes-button",
+				"ext-quicksurveys-external-survey-no-button"
+			],
+			"styles": [
+				"resources/ext.quicksurveys.lib/styles.less"
+			],
+			"packageFiles": [
+				"resources/ext.quicksurveys.lib/init.js",
+				"resources/ext.quicksurveys.lib/lib.js",
+				"resources/ext.quicksurveys.lib/views/utils.js",
+				"resources/ext.quicksurveys.lib/views/QuickSurvey.js",
+				"resources/ext.quicksurveys.lib/views/MultipleAnswerSurvey.js",
+				"resources/ext.quicksurveys.lib/views/SingleAnswerSurvey.js",
+				"resources/ext.quicksurveys.lib/views/ExternalSurvey.js"
+			]
+		},
+		"ext.quicksurveys.init": {
+			"class": "QuickSurveys\\ResourceLoader\\InitModule"
+		}
+	},
+	"QUnitTestModule": {
+		"localBasePath": "tests/qunit",
+		"remoteExtPath": "QuickSurveys/tests/qunit",
+		"templates": {
+			"embedded-1.html": "ext.quicksurveys.lib/templates/embedded-1.html",
+			"vector-1.html": "ext.quicksurveys.lib/templates/vector-1.html",
+			"vector-2.html": "ext.quicksurveys.lib/templates/vector-2.html",
+			"vector-3.html": "ext.quicksurveys.lib/templates/vector-3.html",
+			"vector-4.html": "ext.quicksurveys.lib/templates/vector-4.html",
+			"minerva-1.html": "ext.quicksurveys.lib/templates/minerva-1.html",
+			"minerva-2.html": "ext.quicksurveys.lib/templates/minerva-2.html",
+			"minerva-3.html": "ext.quicksurveys.lib/templates/minerva-3.html",
+			"minerva-4.html": "ext.quicksurveys.lib/templates/minerva-4.html"
+		},
+		"scripts": [
+			"ext.quicksurveys.lib/lib.test.js",
+			"ext.quicksurveys.lib/views.test.js"
+		],
+		"dependencies": [
+			"ext.quicksurveys.lib"
+		]
+	},
+	"attributes": {
+		"EventLogging":{
+			"Schemas":{
+				"QuickSurveysResponses": 18397510,
+				"QuickSurveyInitiation": 18397507
+			}
+		}
+	},
+	"AutoloadNamespaces": {
+		"QuickSurveys\\": "includes/"
+	},
+	"manifest_version": 2,
+	"Hooks": {
+		"ResourceLoaderGetConfigVars": [
+			"QuickSurveys\\Hooks::onResourceLoaderGetConfigVars"
+		],
+		"BeforePageDisplay": [
+			"QuickSurveys\\Hooks::onBeforePageDisplay"
+		],
+		"ResourceLoaderRegisterModules": [
+			"QuickSurveys\\Hooks::onResourceLoaderRegisterModules"
+		]
+	},
+	"config": {
+		"QuickSurveysConfig": {
+			"description": "Array of surveys eligible to be displayed on the wiki. Full documentation can be found in https://www.mediawiki.org/wiki/Extension:QuickSurveys#Configuration",
+			"public": true,
+			"value": [
+				{
+					"name": "internal example survey",
+					"type": "internal",
+					"question": "ext-quicksurveys-example-internal-survey-question",
+					"description": "ext-quicksurveys-example-internal-survey-description",
+					"answers": [
+						"ext-quicksurveys-example-internal-survey-answer-positive",
+						"ext-quicksurveys-example-internal-survey-answer-neutral",
+						"ext-quicksurveys-example-internal-survey-answer-negative"
+					],
+					"freeformTextLabel": "ext-quicksurveys-example-internal-survey-freeform-text-label",
+					"layout": "single-answer",
+					"enabled": false,
+					"coverage": 0.5,
+					"platforms": {
+						"desktop": [
+							"stable"
+						],
+						"mobile": [
+							"stable",
+							"beta"
+						]
+					}
+				},
+				{
+					"name": "external example survey",
+					"type": "external",
+					"question": "ext-quicksurveys-example-external-survey-question",
+					"description": "ext-quicksurveys-example-external-survey-description",
+					"link": "ext-quicksurveys-example-external-survey-link",
+					"instanceTokenParameterName": "parameterName",
+					"privacyPolicy": "ext-quicksurveys-example-external-survey-privacy-policy",
+					"enabled": false,
+					"coverage": 0.5,
+					"platforms": {
+						"desktop": [
+							"stable"
+						],
+						"mobile": [
+							"stable",
+							"beta"
+						]
+					}
+				}
+			]
+		}
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kim Eik"
+		]
+	},
+	"sidebarmenu-desc": "A simple sidebar menu parser which creates collapsible/expandable menus and sub-menus",
+	"sidebarmenu-parser-input-error": "Parser returned with error: $1",
+	"sidebarmenu-parser-syntax-error": "Could not parse \"$1\", make sure the syntax is correct.",
+	"sidebarmenu-js-init-error": "Failed loading JavaScript resources.",
+	"sidebarmenu-edit": "Edit menu",
+	"sidebarmenu-parser-menuitem-expanded-null": "Invalid value given, value should be one of null,true,false.",
+	"sidebarmenu-parser-config-error": "There was errors validating input parameters",
+	"sidebarmenu-parser-subpage-error-title-not-found": "Could not find the referenced subpage title"
+}

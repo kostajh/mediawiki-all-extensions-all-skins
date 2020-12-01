@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elroy",
+			"Mainframe98",
+			"Robin van der Linde"
+		]
+	},
+	"bs-socialprofile-type": "Profiel",
+	"bs-socialprofile-entityaction-changeimage": "Gebruikersafbeelding",
+	"bs-social-entityaction-editprofilefields": "Profielgegevens",
+	"bs-social-profile-field-name": "Naam",
+	"bs-social-profile-field-email": "E-mail",
+	"bs-social-profile-field-title": "Naam",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Dhr.|Mevr.|}}",
+	"bs-social-profile-field-department": "Afdeling",
+	"bs-social-profile-field-function": "Functie",
+	"bs-social-profile-field-location": "Locatie",
+	"bs-social-profile-field-phone": "Telefoonnummer",
+	"bs-social-profile-field-validate-no-integer": "$1 moet een getal zijn",
+	"bs-socialprofile-special-profiles-heading": "Profielen",
+	"bs-social-profile-infoshowemail": "E-mailadres in profiel weergeven",
+	"socialprofiles": "Profielen",
+	"bs-socialprofile-switch-classicprofile-label": "Klassiek profiel",
+	"bs-socialprofile-switch-modernprofile-label": "Modern profiel",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Naar klassiek profiel overschakelen",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Naar modern profiel overschakelen",
+	"action-social-editothersprofile": "andermans profiel bewerken",
+	"right-social-editothersprofile": "Andermans profiel bewerken",
+	"action-socialprofile-viewspecialpage": "de speciale pagina \"{{int:socialprofiles}}\" te bekijken",
+	"right-socialprofile-viewspecialpage": "De speciale pagina \"{{int:socialprofiles}}\" bekijken"
+}

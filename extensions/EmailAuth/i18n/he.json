@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"המקיסט"
+		]
+	},
+	"emailauth-desc": "אמת הרשמות חשודות באמצעות אימייל",
+	"emailauth-token-label": "קוד אימות",
+	"emailauth-login-failure": "קוד אימות שגוי!"
+}

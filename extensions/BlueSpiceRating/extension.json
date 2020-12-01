@@ -1,0 +1,271 @@
+{
+	"name": "BlueSpiceRating",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:Rating",
+	"author": "Patric Wirth",
+	"descriptionmsg": "bs-rating-extension-description",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceRating": {
+					"className": "\\BlueSpice\\Rating\\Extension",
+					"extPath": "/BlueSpiceRating",
+					"package": "BlueSpice Pro"
+				}
+			},
+			"PermissionRegistry": {
+				"rating-archive": {
+					"type": "namespace",
+					"roles": [
+						"admin",
+						"editor",
+						"maintenanceadmin"
+					]
+				},
+				"rating-read": {
+					"type": "namespace",
+					"roles": [
+						"admin",
+						"commenter",
+						"editor",
+						"maintenanceadmin",
+						"reader"
+					]
+				},
+				"rating-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"editor",
+						"maintenanceadmin",
+						"reader"
+					]
+				},
+				"rating-write": {
+					"type": "namespace",
+					"roles": [
+						"author",
+						"commenter",
+						"editor",
+						"maintenanceadmin"
+					]
+				}
+			}
+		},
+		"BlueSpiceRating": {
+			"RatingRegistry": {
+				"article": "\\BlueSpice\\Rating\\RatingConfig\\Article",
+				"articlelike": "\\BlueSpice\\Rating\\RatingConfig\\ArticleLike"
+			}
+		},
+		"BlueSpicePrivacy": {
+			"Handlers": [
+				"\\BlueSpice\\Rating\\Privacy\\Handler"
+			]
+		}
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"SpecialPages": {
+		"Rating": "\\BlueSpice\\Rating\\Special\\Rating",
+		"Recommendations": "\\BlueSpice\\Rating\\Special\\Recommendations"
+	},
+	"APIModules": {
+		"bs-rating-tasks": "\\BlueSpice\\Rating\\Api\\Task\\Rating",
+		"bs-ratingarticle-store": "\\BlueSpice\\Rating\\Api\\Store\\Article",
+		"bs-ratingarticlelike-store": "\\BlueSpice\\Rating\\Api\\Store\\ArticleLike"
+	},
+	"MessagesDirs": {
+		"BlueSpiceRating": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceRatingMagic": "languages/Rating.i18n.magic.php",
+		"BlueSpiceRatingSpecialRatingAlias": "languages/SpecialRating.alias.php",
+		"BlueSpiceRatingSpecialRecommendationsAlias": "languages/SpecialRecommendations.alias.php"
+	},
+	"AvailableRights": [
+		"rating-read",
+		"rating-write",
+		"rating-archive",
+		"rating-viewspecialpage"
+	],
+	"GroupPermissions": {
+		"*": {
+			"rating-read": true,
+			"rating-write": false,
+			"rating-archive": false,
+			"rating-viewspecialpage": false
+		},
+		"user": {
+			"rating-read": true,
+			"rating-write": true,
+			"rating-archive": false,
+			"rating-viewspecialpage": true
+		},
+		"sysop": {
+			"rating-read": true,
+			"rating-write": true,
+			"rating-archive": true,
+			"rating-viewspecialpage": true
+		}
+	},
+	"AutoloadClasses": {
+		"BSRatingRemoveArchived": "maintenance/BSRatingRemoveArchived.php",
+		"BSRatingSetDefaultSubType": "maintenance/BSRatingSetDefaultSubType.php",
+		"BSRatingRemoveDuplicateEntries": "maintenance/BSRatingRemoveDuplicateEntries.php",
+		"BSRatingMigrateRatedComments": "maintenance/BSRatingMigrateRatedComments.php",
+		"BSRatingMigrateSettingsFromDB": "maintenance/BSRatingMigrateSettingsFromDB.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\Rating\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"BlueSpice\\Rating\\Tests\\": "tests/phpunit/"
+	},
+	"ResourceModules": {
+		"ext.bluespice.rating.styles": {
+			"styles": [
+				"bluespice.rating.css"
+			]
+		},
+		"ext.bluespice.rating": {
+			"scripts": [
+				"bluespice.rating.js"
+			],
+			"dependencies": [
+				"oojs-ui",
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.ratingItem": {
+			"scripts": [
+				"bluespice.ratingItem.js"
+			],
+			"dependencies": [
+				"ext.bluespice.rating"
+			]
+		},
+		"ext.bluespice.ratingItemArticle": {
+			"scripts": [
+				"bluespice.ratingItemArticle.js"
+			],
+			"dependencies": [
+				"ext.bluespice.rating",
+				"ext.bluespice.ratingItem"
+			],
+			"messages": [
+				"bs-rating-yourrating"
+			]
+		},
+		"ext.bluespice.ratingItemArticleLike": {
+			"scripts": [
+				"bluespice.ratingItemArticleLike.js"
+			],
+			"dependencies": [
+				"ext.bluespice.rating",
+				"ext.bluespice.ratingItem"
+			],
+			"messages": [
+				"bs-rating-articlelike-ratingtext",
+				"bs-rating-articlelike-uratingtextservoted"
+			]
+		},
+		"ext.bluespice.ratingItemArticleLike.styles": {
+			"styles": [
+				"bluespice.ratingarticlelike.css"
+			]
+		},
+		"ext.bluespice.specialRating": {
+			"scripts": "bluespice.specialRating.js",
+			"dependencies": [
+				"oojs-ui",
+				"ext.bluespice.extjs"
+			],
+			"messages": [
+				"bs-rating-specialrating-titleTitle",
+				"bs-rating-specialrating-titleRating",
+				"bs-rating-specialrating-titleVotes",
+				"bs-rating-specialrating-label-namespace"
+			]
+		},
+		"ext.bluespice.specialRecommendations": {
+			"scripts": "bluespice.specialRecommendations.js",
+			"dependencies": [
+				"oojs-ui",
+				"ext.bluespice.extjs"
+			],
+			"messages": [
+				"bs-rating-specialrating-titleTitle",
+				"bs-rating-specialrating-label-namespace",
+				"bs-rating-special-recommendations-label-recommendation"
+			]
+		},
+		"ext.bluespice.rating.icons": {
+			"styles": [
+				"bluespice.rating.icons.less"
+			]
+		},
+		"ext.rating.starRatingSvg.styles": {
+			"styles": [
+				"star-rating-svg/src/css/star-rating-svg.css"
+			]
+		},
+		"ext.rating.starRatingSvg": {
+			"scripts": [
+				"star-rating-svg/src/jquery.star-rating-svg.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceRating/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"RatingArticleEnabledNamespaces": {
+			"value": []
+		},
+		"RatingArticleLikeEnabledNamespaces": {
+			"value": []
+		}
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": [
+			"\\BlueSpice\\Rating\\Hook\\LoadExtensionSchemaUpdates\\AddRatingDatabase::callback",
+			"\\BlueSpice\\Rating\\Hook\\LoadExtensionSchemaUpdates\\AddRatingRemoveArchivedMaintenanceScript::callback",
+			"\\BlueSpice\\Rating\\Hook\\LoadExtensionSchemaUpdates\\AddRatingSetDefaultSubTypeMaintenanceScript::callback",
+			"\\BlueSpice\\Rating\\Hook\\LoadExtensionSchemaUpdates\\AddBSRatingRemoveDuplicateEntriesMaintenanceScript::callback",
+			"\\BlueSpice\\Rating\\Hook\\LoadExtensionSchemaUpdates\\AddRatingMigrateRatedCommentsScript::callback",
+			"\\BlueSpice\\Rating\\Hook\\LoadExtensionSchemaUpdates\\AddMigrateSettingsFromDBMaintenanceScript::callback"
+		],
+		"BeforePageDisplay": "\\BlueSpice\\Rating\\Hook\\BeforePageDisplay\\AddResources::callback",
+		"ChameleonSkinTemplateOutputPageBeforeExec": [
+			"\\BlueSpice\\Rating\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddArticleRating::callback",
+			"\\BlueSpice\\Rating\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddArticleLikeRating::callback",
+			"\\BlueSpice\\Rating\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddRating::callback",
+			"\\BlueSpice\\Rating\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddRecommendationsGlobalAction::callback"
+		],
+		"BSMigrateSettingsFromDeviatingNames": "\\BlueSpice\\Rating\\Extension::onBSMigrateSettingsFromDeviatingNames",
+		"NamespaceManager::getMetaFields": "BlueSpice\\Rating\\Hook\\NamespaceManagerGetMetaFields\\RegisterMetaFields::callback",
+		"BSApiNamespaceStoreMakeData": "BlueSpice\\Rating\\Hook\\BSApiNamespaceStoreMakeData\\AddData::callback",
+		"NamespaceManager::editNamespace": "BlueSpice\\Rating\\Hook\\NamespaceManagerEditNamespace\\SetRatingValues::callback",
+		"NamespaceManager::writeNamespaceConfiguration": [
+			"BlueSpice\\Rating\\Hook\\NamespaceManagerWriteNamespaceConfiguration\\WriteToConfiguration::callback"
+		],
+		"GetDoubleUnderscoreIDs": "\\BlueSpice\\Rating\\Hook\\GetDoubleUnderscoreIDs\\AddNoRating::callback",
+		"BSMigrateSettingsSetNewSettings": "\\BlueSpice\\Rating\\Hook\\BSMigrateSettingsSetNewSettings\\SetGlobals::callback"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

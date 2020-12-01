@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Александр Сигачёв"
+		]
+	},
+	"inlinecategorizer-desc": "JavaScript-модуль, позволяющий изменять, добавлять и удалять ссылки на категории прямо со страницы",
+	"inlinecategorizer-add-category": "Добавить категорию",
+	"inlinecategorizer-add-category-submit": "Добавить",
+	"inlinecategorizer-add-category-summary": "добавить категорию «$1»",
+	"inlinecategorizer-api-error": "API возвратил ошибку: $1: $2",
+	"inlinecategorizer-api-unknown-error": "API возвратил неизвестную ошибку.",
+	"inlinecategorizer-cancel": "Отменить изменения",
+	"inlinecategorizer-cancel-all": "Отменить все изменения",
+	"inlinecategorizer-category-already-present": "Эта страница уже относится к данной категории $1",
+	"inlinecategorizer-category-hook-error": "Локальная функция помешала сохранению изменений",
+	"inlinecategorizer-category-question": "Почему вы хотите сделать следующие изменения:",
+	"inlinecategorizer-confirm-ok": "ОК",
+	"inlinecategorizer-confirm-save": "Сохранить",
+	"inlinecategorizer-confirm-save-all": "Сохранить все изменения",
+	"inlinecategorizer-confirm-title": "Подтвердить действие",
+	"inlinecategorizer-edit-category": "Изменить категорию",
+	"inlinecategorizer-edit-category-error": "Не удалось изменить категорию «$1».\nЭто обычно происходит, когда категория была добавлена на страницу с помощью шаблона.",
+	"inlinecategorizer-edit-category-summary": "изменить категорию «$1» на «$2»",
+	"inlinecategorizer-error-title": "Ошибка",
+	"inlinecategorizer-remove-category": "Удалить категорию",
+	"inlinecategorizer-remove-category-error": "Не удалось убрать категорию «$1».\nОбычно это происходит в случае, когда категория была добавлена через шаблон.",
+	"inlinecategorizer-remove-category-summary": "удалить категорию «$1»"
+}

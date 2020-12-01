@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Harvest"
+		]
+	},
+	"oojsplus-desc": "Proporciona «widgets» y funciones utilitarias para OOJS",
+	"oojsplus-color-picker-color-blue": "Azul",
+	"oojsplus-color-picker-color-red": "Rojo",
+	"oojsplus-color-picker-color-green": "Verde",
+	"oojsplus-color-picker-color-yellow": "Amarillo",
+	"oojsplus-color-picker-color-orangered": "Rojo anaranjado",
+	"oojsplus-color-picker-color-olive": "Aceituna",
+	"oojsplus-color-picker-color-pink": "Rosa",
+	"oojsplus-color-picker-clear-label": "Quitar color",
+	"oojsplus-color-picker-label": "Selector de colores",
+	"oojsplus-data-delete-row-prompt": "¿Confirmas que quieres eliminar esta fila?",
+	"oojsplus-data-paginator-page-total-count-label": "{{PLURAL:$1|$1 fila|$1 filas}}",
+	"oojsplusdemos": "Demostraciones de OOJSPlus",
+	"oojsplus-data-tree-item-remove-label": "Quitar",
+	"oojsplus-data-tree-item-add-label": "Añadir subelemento nuevo",
+	"oojsplus-stepprogressbar-default-final-label": "Hecho"
+}

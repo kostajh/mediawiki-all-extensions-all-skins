@@ -1,0 +1,99 @@
+{
+	"name": "PasswordlessLogin",
+	"version": "0.0.1",
+	"author": "Florian Schmidt",
+	"url": "https://www.mediawiki.org/wiki/Extension:PasswordlessLogin",
+	"descriptionmsg": "passwordlesslogin-desc",
+	"namemsg": "passwordlesslogin",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.33.0"
+	},
+	"AutoloadNamespaces": {
+		"PasswordlessLogin\\": "src/"
+	},
+	"TestAutoloadClasses": {
+		"PasswordlessLogin\\adapter\\FakeChallengesRepository": "tests/phpunit/adapter/FakeChallengesRepository.php",
+		"PasswordlessLogin\\adapter\\FakeDevicesRepository": "tests/phpunit/adapter/FakeDevicesRepository.php",
+		"PasswordlessLogin\\adapter\\FakeFirebase": "tests/phpunit/adapter/FakeFirebase.php"
+	},
+	"MessagesDirs": {
+		"PasswordlessLogin": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": [
+			"PasswordlessLogin\\Hooks::onLoadExtensionSchemaUpdates"
+		],
+		"BeforePageDisplay": [
+			"PasswordlessLogin\\Hooks::onBeforePageDisplay"
+		],
+		"AuthChangeFormFields": [
+			"PasswordlessLogin\\Hooks::onAuthChangeFormFields"
+		]
+	},
+	"ConfigRegistry": {
+		"passwordless": "GlobalVarConfig::newInstance"
+	},
+	"config": {
+		"PLFirebaseAccessToken": {
+			"value": "",
+			"description": "The Firebase server key out of the Firebase project Cloud Messaging settings."
+		},
+		"PLFirebaseSenderId": {
+			"value": "",
+			"description": "The Firebase Cloud Messaging Sender ID, which can be found in the Firebase project settings."
+		},
+		"PLEnableApiVerification": {
+			"value": false,
+			"description": "Uses the API to check that a login was already verified. This is a convenience feature for the UI only, the actual verification always happens at the backend. This feature is experimental and may result in much higher load to the server during the login process of users, as connections to the API are hold open for up to 30 seconds to save HTTP round-trips."
+		}
+	},
+	"ServiceWiringFiles": [
+		"src/ServiceWiring.php"
+	],
+	"APIModules": {
+		"passwordlesslogin": "PasswordlessLogin\\adapter\\api\\DeviceRegistration",
+		"passwordlesslogin-verify-challenge": "PasswordlessLogin\\adapter\\api\\ChallengeVerification",
+		"passwordlesslogin-verify-login": "PasswordlessLogin\\adapter\\api\\LoginVerification"
+	},
+	"AuthManagerAutoConfig": {
+		"primaryauth": {
+			"PasswordlessLogin\\adapter\\AuthenticationProvider": {
+				"class": "PasswordlessLogin\\adapter\\AuthenticationProvider",
+				"sort": 0
+			}
+		}
+	},
+	"ResourceModules": {
+		"ext.PasswordlessLogin.login": {
+			"dependencies": [
+				"oojs-ui-core.styles",
+				"mediawiki.api"
+			],
+			"scripts": [
+				"ui/login.js"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		},
+		"ext.PasswordlessLogin.login.styles": {
+			"styles": [
+				"ui/login.less"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "PasswordlessLogin"
+	},
+	"manifest_version": 2
+}

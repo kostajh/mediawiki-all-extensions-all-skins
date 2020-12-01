@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Fitoschido",
+			"Imre",
+			"Sanbec"
+		]
+	},
+	"form-desc": "Una [[Special:Form|interface de formulario]] para comenzar nuevas páginas",
+	"form": "Comenzar una página nueva",
+	"form-captcha-error": "Error de CAPTCHA",
+	"form-no-name": "Formulario sin nombre",
+	"form-no-name-text": "Debes proveer un nombre de formulario, como \"Special:Form/Nameofform\".",
+	"form-bad-name": "Nombre de formulario incorrecto",
+	"form-bad-name-text": "No existe ningún formulario con ese nombre.",
+	"form-pattern": "Formulario de $1",
+	"form-save": "Guardar",
+	"form-index-mismatch-title": "No se corresponde el nombre del modelo y la plantilla",
+	"form-index-mismatch": "Este formulario tiene nombres de patrones y plantillas que no coinciden, comenzando por $1.",
+	"form-article-exists": "La página existe",
+	"form-article-existstext": "La página [[$1]] ya existe.",
+	"form-bad-page-name": "Nombre de página incorrecto",
+	"form-bad-page-name-text": "Los datos que proporcionaste en el formulario constituyen un nombre incorrecto para las páginas, «$1».",
+	"form-required-field-error": "Se {{PLURAL:$2|necesita el campo $1|necesitan los campos $1}} en este formulario.\n{{PLURAL:$2|Complétalo|Complétalos}}.",
+	"form-save-summary": "Página nueva a través del [[Special:Form/$1|formulario $1]]",
+	"form-save-error": "Error al guardar el formulario",
+	"form-save-error-text": "Se produjo un error desconocido al guardar la página «$1»."
+}

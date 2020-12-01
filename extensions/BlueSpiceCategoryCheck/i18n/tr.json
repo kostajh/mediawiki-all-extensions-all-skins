@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-categorycheck-extension-description": "Bir madde kaydedilmeden önce atanan kategoriyi kontrol eder",
+	"bs-categorycheck-insertcategory-no-category": "Lütfen makaleye bir kategori atayın",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Yoksay",
+	"bs-categorycheck-insertcategory-category-list": "Aşağıdaki kategoriler ayarlandı",
+	"bs-categorycheck-insertcategory-confirm-categories": "Kategoriler doğru",
+	"bs-categorycheck-nsm-label-categorycheck": "CategoryCheck"
+}

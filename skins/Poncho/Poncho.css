@@ -1,0 +1,538 @@
+/**
+ * Site-wide elements
+ */
+body {
+	background: #f9f9f9;
+	font-family: Arial;
+	font-size: 14px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a.new {
+	color: #a55858;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0 .5em 0;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.6em;
+}
+h3 {
+	font-size: 1.2em;
+}
+h4, h5, h6 {
+	font-size: 1em;
+}
+pre {
+	overflow: hidden;
+	white-space: pre-wrap;
+}
+fieldset {
+	border: 1px solid #aaa;
+	margin: 1em 0;
+}
+sup {
+	line-height: 1em;
+}
+
+/**
+ * Header
+ */
+#header-wrapper {
+	border-bottom: 1px solid #aaa;
+}
+#header {
+	margin: auto;
+	max-width: 1000px;
+}
+
+/**
+ * Logo
+ */
+#logo-wrapper {
+	float: left;
+}
+#logo {
+	background-size: contain;
+	background-repeat: no-repeat;
+	color: inherit;
+	display: inline-block;
+	font-size: 1.5em;
+	height: 1.4em;
+	line-height: 1.5;
+	padding: .33em .33em .33em 2.5em;
+	text-decoration: none;
+}
+
+/**
+ * Search form
+ */
+#search-form-wrapper {
+	overflow: hidden;
+	padding: 0 3em;
+}
+#search-form {
+	margin: auto;
+	padding: .5em;
+	max-width: 600px;
+}
+
+/**
+ * Header menus
+ */
+#header-menu-wrapper {
+	float: right;
+}
+#header-menu {
+	display: inline-block;
+	height: 46px;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+#header-menu > li {
+	display: inline-block;
+	height: 46px;
+}
+.header-menu-item {
+	position: relative;
+}
+.header-menu-icon {
+	display: inline-block;
+	opacity: .4;
+	margin: .5em;
+	width: 32px;
+	height: 32px;
+}
+.header-menu-list {
+	background: #eee;
+	display: none;
+	list-style: none;
+	margin: 0;
+	opacity: .9;
+	padding: .5em 0;
+	position: absolute;
+	top: 46px;
+	right: 0;
+	text-align: right;
+	z-index: 9;
+}
+.header-menu-list .active,
+.header-menu-list .active a {
+	color: inherit;
+	font-weight: bold;
+}
+.header-menu-item a,
+.header-menu-item .text {
+	display: block;
+	margin: 0;
+	padding: 1em;
+}
+.header-menu-item.active,
+.header-menu-item:hover {
+	background: #eee;
+}
+.header-menu-item:hover .header-menu-list {
+	display: block;
+}
+#bell-icon + .header-menu-list {
+	white-space: normal;
+	width: 200px;
+}
+#menu-icon {
+	background: url('images/menu.png') no-repeat center;
+}
+#lens-icon {
+	background: url('images/lens.png') no-repeat center;
+}
+#user-icon {
+	background: url('images/user.png') no-repeat center;
+}
+#bell-icon {
+	background: url('images/bell.png') no-repeat center;
+}
+
+/**
+ * Mobile header
+ */
+@media (max-width: 600px) {
+	#logo-wrapper {
+		margin-left: .5em;
+	}
+	#search-form-wrapper {
+		padding: 0;
+		width: 100%;
+	}
+	#header-menu-wrapper {
+	}
+}
+
+/**
+ * Title
+ */
+.mw-indicator {
+	float: right;
+}
+#firstHeading {
+	display: inline-block;
+	margin-right: 1em;
+	margin-bottom: 0;
+}
+#siteSub {
+	display: none;
+	font-style: italic;
+}
+#contentSub,
+#contentSub2 {
+	font-size: small;
+	margin-bottom: 1em;
+}
+
+/**
+ * Actions
+ */
+#actions {
+	display: inline;
+	font-size: small;
+	font-weight: normal;
+	padding: 0;
+	white-space: nowrap;	
+}
+#actions li {
+	display: inline;
+	margin-right: 1em;
+}
+.mw-editsection {
+	font-size: small;
+	font-weight: normal;
+}
+.mw-editsection a {
+	margin-left: 1em;
+}
+.mw-editsection-divider,
+.mw-editsection-bracket {
+	display: none;
+}
+#more-actions-menu {
+	position: relative;
+}
+#more-actions-menu:hover a {
+	display: block;
+}
+#more-actions-icon {
+	cursor: default;
+	font-size: large;
+}
+#more-actions-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 1em;
+	right: -.5em;
+	text-align: right;
+	z-index: 999;
+}
+#more-actions-list li {
+	margin: 0;
+	padding: 0;
+}
+#more-actions-list a {
+	background: white;
+	display: none;
+	margin: 0;
+	padding: .5em;
+	vertical-align: top;
+}
+
+/**
+ * Content
+ */
+#content-wrapper {
+	background: white;
+}
+#content {
+	line-height: 1.5;
+	margin: 0 auto;
+	max-width: 1000px;
+	overflow: hidden;
+	padding: 1em;
+	padding-bottom: 5em;
+}
+#mw-content-text {
+	margin-top: 2em;
+}
+#mw-content-text ol,
+.ve-ui-surface ol {
+	margin: 0 0 0 2em;
+	padding: 0;
+}
+#mw-content-text ul,
+.ve-ui-surface ul {
+	margin: 0 0 0 2em;
+	padding: 0;
+}
+#mw-content-text pre,
+.ve-ui-surface pre {
+	background: #f9f9f9;
+	border: 1px solid #aaa;
+	padding: 1em;
+}
+#content .printfooter {
+	display: none;
+}
+
+/**
+ * Wikitables
+ */
+table.wikitable {
+	background: #f9f9f9;
+	border-collapse: collapse;
+}
+table.wikitable th,
+table.wikitable td {
+	border: 1px solid #aaa;
+	padding: .2em;
+}
+
+/**
+ * Misc
+ */
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
+.plainlinks a {
+	background: none;
+	padding: 0;
+}
+
+/**
+ * Table of contents
+ */
+#toc {
+	background: #f9f9f9;
+	border: 1px solid #aaa;
+	display: inline-block;
+	padding: 1em;
+}
+#toc .toctoggle {
+	display: none; /* Hide it because it cannot be styled like the Edit section button */
+}
+#toc .tocnumber {
+	color: black;
+}
+#toc .toctext:hover {
+	text-decoration: underline;
+}
+#toc a:hover {
+	text-decoration: none;
+}
+#toc h2 {
+	display: inline;
+}
+#toc ul {
+	margin: 0;
+}
+#toc ul ul {
+	margin-left: 1em;
+}
+#toc li {
+	list-style: none;
+}
+#filetoc {
+	display: none; /* Hide it per useless */
+}
+
+/**
+ * User preferences
+ */
+#preftoc {
+	margin: 0 !important;
+	padding: 0;
+}
+#preftoc li {
+	border: 1px solid #ddd;
+	border-bottom: none;
+	display: inline;
+	margin-right: .5em;
+	padding: 1em;
+}
+#preftoc a:visited {
+	color: #00e;
+}
+#preftoc li.selected a {
+	color: inherit;
+}
+
+/**
+ * Thumbnails
+ */
+.thumb {
+	background: #f9f9f9;
+	border: 1px solid #aaa;
+}
+.thumb.tright {
+	clear: right;
+	float: right;
+	margin: 0 0 1em 1em;
+}
+.thumb.tleft {
+	clear: left;
+	float: left;
+	margin: 0 1em 1em 0;
+}
+.thumb .thumbinner {
+	margin: 1em;
+}
+.thumb .thumbimage {
+	display: block;
+}
+.thumb .thumbcaption {
+	margin-top: 1em;
+	font-size: small;
+}
+.thumb.embedvideo {
+	background: none;
+	border: none;
+}
+
+/**
+ * Galleries
+ * 
+ * Galleries come with their own styling,
+ * these are overrides to make the galleries fit with the overall style of the skin
+ */
+.gallery {
+	margin: 0 !important;
+}
+.gallerytext {
+	font-size: small;
+	margin: .5em;
+	padding: 0;
+}
+.gallerytext p {
+	margin: 0;
+}
+
+/**
+ * Collapse button
+ *
+ * This button is prominent in Special:RecentChanges and Special:Watchlist
+ */
+.mw-collapsible-toggle {
+	margin-left: 1em;
+}
+.mw-collapsible-bracket {
+	display: none;
+}
+
+/**
+ * Categories
+ */
+#catlinks {
+	border-top: 1px solid #aaa;
+	clear: both;
+	margin-top: 2em;
+	padding-top: 1em;
+}
+#catlinks ul {
+	display: inline;
+	padding: 0;
+}
+#catlinks li {
+	display: inline;
+	margin-left: 1em;
+}
+
+/**
+ * Footer
+ */
+#footer-wrapper {
+	border-top: 1px solid #aaa;
+	clear: both;
+	padding: 1em;
+}
+#footer {
+	margin: auto;
+	max-width: 1000px;
+}
+#footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#footer li {
+	line-height: 1.5;
+	margin: .7em 0;
+}
+#footer-bottom {
+	width: 640px;
+}
+#footer .footer-places {
+	list-style: none;
+	padding: 0;
+}
+#footer .footer-icons {
+	display: none;
+}
+#footer .footer-tools {
+	float: right;
+	text-align: right;
+}
+#footer .footer-tools li {
+	margin-top: 0;
+}
+#footer .external {
+	background: none;
+	padding: 0;
+}
+
+/**
+ * Self-links
+ */
+.selflink {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/**
+ * Search results
+ */
+.searchresults {
+	margin: 1em 0;
+}
+
+/**
+ * External links
+ */
+.external {
+	background: url( 'images/external.png' ) no-repeat center right;
+	padding-right: 1em;
+}
+
+/**
+ * Printable version
+ */
+@media print {
+	#header-wrapper {
+		display: none;
+	}
+	#footer-wrapper {
+		display: none;
+	}
+}

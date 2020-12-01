@@ -1,0 +1,84 @@
+{
+	"representatives": [
+		{
+			"firstName": "Iveta",
+			"lastName": "Grigule-P\u0113terse",
+			"email": "iveta.grigule-peterse@europarl.europa.eu",
+			"membershipInDelegations": "D-BY\nD-IL\nDARP\nD-US\nDCAS",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45276",
+			"strasbourgPhone": "+33(0)3 88 1 75276",
+			"twitter": "@ivetagrigule"
+		},
+		{
+			"firstName": "Sandra",
+			"lastName": "Kalniete",
+			"email": "sandra.kalniete@europarl.europa.eu",
+			"membershipInDelegations": "DASE",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45204",
+			"strasbourgPhone": "+33(0)3 88 1 75204",
+			"twitter": "@kalniete"
+		},
+		{
+			"firstName": "Kri\u0161j\u0101nis",
+			"lastName": "Kari\u0146\u0161",
+			"email": "krisjanis.karins@europarl.europa.eu",
+			"membershipInDelegations": "D-US",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45205",
+			"strasbourgPhone": "+33(0)3 88 1 75205",
+			"twitter": "@krisjaniskarins"
+		},
+		{
+			"firstName": "Andrejs",
+			"lastName": "Mamikins",
+			"email": "andrejs.mamikins@europarl.europa.eu",
+			"membershipInDelegations": "D-BY",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45373",
+			"strasbourgPhone": "+33(0)3 88 1 75373",
+			"twitter": "@andrejsmamikins?lang=en"
+		},
+		{
+			"firstName": "Miroslavs",
+			"lastName": "Mitrofanovs",
+			"email": "miroslavs.mitrofanovs@europarl.europa.eu",
+			"membershipInDelegations": "DCAS",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45912",
+			"strasbourgPhone": "+33(0)3 88 1 75912",
+			"twitter": ""
+		},
+		{
+			"firstName": "Artis",
+			"lastName": "Pabriks",
+			"email": "artis.pabriks@europarl.europa.eu",
+			"membershipInDelegations": "DCAM",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45810",
+			"strasbourgPhone": "+33(0)3 88 1 75810",
+			"twitter": "@Pabriks"
+		},
+		{
+			"firstName": "Inese",
+			"lastName": "Vaidere",
+			"email": "inese.vaidere@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45424",
+			"strasbourgPhone": "+33(0)3 88 1 75424",
+			"twitter": "@inesevaidere"
+		},
+		{
+			"firstName": "Roberts",
+			"lastName": "Z\u012ble",
+			"email": "roberts.zile@europarl.europa.eu",
+			"membershipInDelegations": "D-JP",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45224",
+			"strasbourgPhone": "+33(0)3 88 1 75224",
+			"twitter": "@robertszile"
+		}
+	]
+}

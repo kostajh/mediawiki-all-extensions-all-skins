@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danny B.",
+			"Ilimanaq29",
+			"Li-sung",
+			"Matěj Grabovský"
+		]
+	},
+	"form": "Založit novou stránku",
+	"form-captcha-error": "Chyba CAPTCHA",
+	"form-pick-form": "Zvolit typ stránky, kterou chcete pomocí formuláře založit.",
+	"form-no-name": "Nebyl zadán název formuláře",
+	"form-no-name-text": "Musíte zadat název formuláře ve tavru „Special:Form/Názevformuláře“",
+	"form-bad-name": "Špatný název formuláře",
+	"form-bad-name-text": "Formulář se zadaným názvem neexistuje",
+	"form-pattern": "formulář-$1",
+	"form-title-pattern": "Přidat nový $1",
+	"form-save": "Uložit",
+	"form-index-mismatch-title": "Vzor názvu a neshoda šablon",
+	"form-index-mismatch": "Tento formulář nesouhlasí s jmény vzorů a šablon začínajících na index $1.",
+	"form-article-exists": "Stránka existuje",
+	"form-article-existstext": "Stránka [[$1]] už existuje",
+	"form-bad-page-name": "Špatný název stránky",
+	"form-bad-page-name-text": "Údaj formuláře, který jste zadali tvoří chybný název stránky - ''$1''.",
+	"form-required-field-error": "Pole $1 {{plural:$2|je v tomto formuláři vyžadováno|jsou v tomto formuláři vyžadována}}.\nProsíme, vyplňte {{plural:$2|jej|je}}.",
+	"form-save-summary": "Nová stránka pomocí [[Special:Form/$1|formuláře $1]]",
+	"form-save-error": "Chyba při ukládání formuláře",
+	"form-save-error-text": "Při ukládání formuláře se vyskytla neznámá chyba: ''$1''."
+}

@@ -1,9 +1,33 @@
-# mw-core-extensions-skins-downloader
+# MediaWiki
 
-![Download](https://github.com/kostajh/mw-core-extensions-skins-downloader/workflows/Download/badge.svg)
+MediaWiki is a free and open-source wiki software package written in PHP. It
+serves as the platform for Wikipedia and the other Wikimedia projects, used
+by hundreds of millions of people each month. MediaWiki is localised in over
+350 languages and its reliability and robust feature set have earned it a large
+and vibrant community of third-party users and developers.
 
-Download latest copies of MediaWiki core, plus all extensions/skins defined in [`extdisrepos` API list query](https://www.mediawiki.org/w/api.php?action=query&format=json&formatversion=2&list=extdistrepos), and push to [kostajh/mediawiki-all-extensions-all-skins](https://github.com/kostajh/mediawiki-all-extensions-all-skins). That repository exists to facilitate cross repository search and take advantage of GitHub's [code navigation](https://docs.github.com/en/free-pro-team@latest/github/managing-files-in-a-repository/navigating-code-on-github) capabilities. [Phab:T264166](https://phabricator.wikimedia.org/T264166) has some more context.
+MediaWiki is:
 
-## License
+* feature-rich and extensible, both on-wiki and with hundreds of extensions;
+* scalable and suitable for both small and large sites;
+* simple to install, working on most hardware/software combinations; and
+* available in your language.
 
-... TBD
+For system requirements, installation, and upgrade details, see the files
+RELEASE-NOTES, INSTALL, and UPGRADE.
+
+* Ready to get started?
+** https://www.mediawiki.org/wiki/Special:MyLanguage/Download
+* Looking for the technical manual?
+** https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Contents
+* Seeking help from a person?
+** https://www.mediawiki.org/wiki/Special:MyLanguage/Communication
+* Looking to file a bug report or a feature request?
+** https://bugs.mediawiki.org/
+* Interested in helping out?
+** https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute
+
+MediaWiki is the result of global collaboration and cooperation. The CREDITS
+file lists technical contributors to the project. The COPYING file explains
+MediaWiki's copyright and license (GNU General Public License, version 2 or
+later). Many thanks to the Wikimedia community for testing and suggestions.

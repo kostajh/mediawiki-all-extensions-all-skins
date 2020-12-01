@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby"
+		]
+	},
+	"security": "Sécherheets-Logbuch",
+	"security-desc": "Erweidert de MediaWiki-Säiteschutz fir et z'erlaben d'Kucke vum Säiteninhalt ze limitéieren",
+	"security-logpage": "Sécherheets-Logbuch",
+	"security-logpagetext": "Dëst ass d'Logbuch vun den Aktioune vun der [https://www.mediawiki.org/wiki/Extension:SimpleSecurity SimpleSecurity Erweiderung].",
+	"badaccess-read": "Opgepasst: \"$1\" weist heihinn, awer dir hutt net genuch Rechter fir d'Säit ze gesinn.",
+	"security-info": "Et sinn $1 op dëser Säit",
+	"security-info-toggle": "Sécherheetsrestrictiounen",
+	"security-inforestrict": "$1 ass limitéiert op $2",
+	"security-desc-LS": "(gëllt well dës Säit an der $1 \"$2\" ass)",
+	"security-desc-PR": "(agestallt vum Tab \"Protectioun\")",
+	"security-infosysops": "Et gëlle keng Limitatioune fir Iech wëll Dir e Member vun der Grupp vun den '''Administrateure''' sidd",
+	"security-manygroups": "Gruppen $1 a(n) $2",
+	"security-unchain": "Aktiounen individuell änneren",
+	"security-type-category": "d'Kategorie",
+	"security-type-namespace": "den Nummraum",
+	"security-restricttogroup": "Zougang zum Inhalt limitéiert fir Membere vu(n) \"$1\"",
+	"restriction-read": "Liesen"
+}

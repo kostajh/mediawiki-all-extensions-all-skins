@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"AmaryllisGardener",
+			"Fitoschido",
+			"John Reid"
+		]
+	},
+	"geodata-desc": "Adds geografical coordinates storage an retrieval functionality",
+	"geodata-bad-input": "Invalid arguments hae been passed tae the <nowiki>{{#coordinates:}}</nowiki> function",
+	"geodata-bad-latitude": "<nowiki>{{#coordinates:}}</nowiki>: invalid latitude",
+	"geodata-bad-longitude": "<nowiki>{{#coordinates:}}</nowiki>: invalid longitude",
+	"geodata-bad-type": "<nowiki>{{#coordinates:}}</nowiki>: unrecognised teep \"$1\"",
+	"geodata-bad-globe": "<nowiki>{{#coordinates:}}</nowiki>: unrecognised globe \"$1\"",
+	"geodata-bad-region": "<nowiki>{{#coordinates:}}</nowiki>: invalid region code format",
+	"geodata-multiple-primary": "<nowiki>{{#coordinates:}}</nowiki>: canna hae mair nor ane primar tag per page",
+	"geodata-limit-exceeded": "The leemit o $1 <nowiki>{{#coordinates:}}</nowiki> {{PLURAL:$1|tag|tags}} per page haes been exceedit",
+	"geodata-broken-tags-category": "Pages wi malformed coordinate tags",
+	"geodata-broken-tags-category-desc": "The page haes ae malformed <code><nowiki>{{#coordinates:}}</nowiki></code> tag.",
+	"geodata-unknown-type-category": "Pages wi unkent teep o coordinates",
+	"geodata-unknown-type-category-desc": "The page uises aen onkent value o the <code>type</code> boondin fer coordinates.",
+	"geodata-unknown-globe-category": "Pages wi unkent globe value",
+	"geodata-unknown-globe-category-desc": "This page uises aen onkent value o the <code>globe</code> boondin fer coordinates.",
+	"geodata-unknown-region-category": "Pages wi invalid region value",
+	"geodata-unknown-region-category-desc": "This page uises aen onvalid value o the <code>region</code> boondin fer coordinates.",
+	"geodata-api-help-coordinates-format": "Format: Latitude an langitude separatit bi pipe (<kbd>|</kbd>)."
+}

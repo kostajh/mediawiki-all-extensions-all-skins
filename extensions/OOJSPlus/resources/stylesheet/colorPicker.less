@@ -1,0 +1,143 @@
+@color-size: 30px;
+@border-color: #fff;
+@control-hover-color: #e4e4e4;
+
+.oojsplus-color-picker-palette-color {
+	width: @color-size;
+	height: @color-size;
+	line-height: 0px;
+	font-size: 100px;
+	overflow: hidden;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	vertical-align: top;
+	&:before {
+		content: "\25A0";
+		margin-left: -10px;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: @color-size;
+		height: @color-size;
+		box-shadow: inset 0 0 0 0 @border-color;
+		transition: box-shadow .1s ease;
+	}
+	&:hover:after, &.selected:after {
+		box-shadow: inset 0 0 0 3px @border-color;
+	}
+}
+
+.oojsplus-color-picker-controls {
+	.oo-ui-buttonWidget.oojsplus-color-picker-tool-button {
+		width: 50%;
+		margin: 0 !important; /* grrr */
+		&:hover {
+			background-color: @control-hover-color;
+		}
+		a {
+			text-align: center;
+			width: 100%;
+			span.oo-ui-iconElement-icon {
+				width: 100%;
+				background-size: 20px;
+				left: 0;
+			}
+		}
+		.color-sample {
+			width: 10px;
+			height: 20px;
+			position: absolute;
+			left: 12px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			top: 5px;
+		}
+	}
+}
+
+.oojsplus-color-picker-widget {
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+	.oojsplus-color-current {
+		height: 4px;
+		width: 80%;
+		position: absolute;
+		bottom: 2px;
+		right: 10%;
+		line-height: 0;
+		font-size: 100px;
+		overflow: hidden;
+		&:before {
+			content: "\25A0";
+			margin-left: -10px;
+		}
+	}
+	&:focus, a:focus {
+		border-color: transparent !important;
+		outline: transparent !important;
+		-webkit-box-shadow: none !important;
+		-moz-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+}
+
+.oojsplus-hex-color-picker-widget {
+	display: table;
+	width: 140px;
+	.oojsplus-hex-color-current {
+		display: table-cell;
+		width: 30px;
+		height: 30px;
+		border: 1px solid grey;
+		border-radius: 100px;
+	}
+	.oo-ui-inputWidget-input {
+		display: table-cell;
+		width: 100px;
+		margin-left: 10px;
+	}
+}
+
+.oojs-plus-color-picker-standalone {
+	display: block;
+	width: 160px;
+	border: 1px solid #a2a9b1;
+	padding: 4px;
+	background-color: #fff;
+	border-radius: 2px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/**
+ COLOR CLASSES
+ */
+.color-blue {
+	color: #0000FF;
+}
+.color-red {
+	color: #FF0000;
+}
+.color-aqua {
+	color: #00FFFF;
+}
+.color-orangered {
+	color: #FF4500;
+}
+.color-olive {
+	color: #808000;
+}
+.color-green {
+	color: #008000;
+}
+.color-yellow {
+	color: #FFFF00;
+}

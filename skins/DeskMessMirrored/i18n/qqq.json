@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"deskmessmirrored-skin-desc": "{{desc|what=skin|name=DeskMessMirrored|url=https://www.mediawiki.org/wiki/Skin:DeskMessMirrored}}",
+	"deskmessmirrored-jump-to-navigation": "Accessibility link for jumping to the navigation links. Visually hidden by default.\n\nSee also\n* {{msg-mw|Navigation}}",
+	"deskmessmirrored-jump-to-search": "Accessibility link for jumping to the site search. Visually hidden by default.\n\nSee also\n* {{msg-mw|Search}}",
+	"deskmessmirrored-navigation": "The sidebar menu structure"
+}

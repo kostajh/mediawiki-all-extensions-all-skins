@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"encrypteduploads-desc": "This is an example extension",
+	"encrypteduploads-i18n-welcome": "Welcome to the localization file of the EncryptedUploads extension.",
+	"encrypteduploads-warning-title":  "\uD83D\uDD12 Warning!",
+	"encrypteduploads-warning-secret-text":  "<p>The file was encrypted and the following is the secret key needed to decrypt & download it:  <b>$1</b>\n\t\t\t<br/> The code above is displayed for you only. It can used to share file with others privately.</p>",
+	"encrypteduploads-warning-text":  "The file is encrypted and requires you to know the secret password in order to be able to decrypt & download it.",
+	"encrypteduploads-warning-placeholder":  "Type secret..",
+	"encrypteduploads-warning-submit":  "Decrypt & Download",
+	"encrypteduploads-input-label":  "Encrypt upload",
+	"encrypteduploads-input-text":  "( file will be encrypted and you will be provided with a secret password to decrypt it )",
+	"encrypteduploads-mail-subject":  "Encrypted file upload was created",
+	"encrypteduploads-mail-text":  "You've just created $1 as an encrypted file upload on the wiki, please store the file secret:\n\n$2\n\n",
+	"mwe-upwiz-encrypt": "\uD83D\uDD12 Encrypt upload with a password",
+	"mwe-upwiz-thanks-secret": "\uD83D\uDD12 Secret decryption password:"
+}

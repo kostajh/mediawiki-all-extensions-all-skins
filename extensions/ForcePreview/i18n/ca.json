@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aleator",
+			"SMP"
+		]
+	},
+	"forcepreview": "Desar la pàgina (usar abans la previsualització)",
+	"forcepreview-desc": "Força la previsualització als usuaris sense permisos",
+	"right-forcepreviewexempt": "Poder desar sense haver de previsualitzar"
+}

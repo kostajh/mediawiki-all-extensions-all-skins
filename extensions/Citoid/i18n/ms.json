@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Muhdnurhidayat"
+		]
+	},
+	"citoid-citation-widget-insert-button": "Sisipkan",
+	"citoid-citoiddialog-back": "Kembali",
+	"citoid-citoiddialog-credit": "Dikuasakan oleh $1",
+	"citoid-citoiddialog-lookup-button": "Hasilkan",
+	"citoid-citoiddialog-mode-auto": "Automatik",
+	"citoid-citoiddialog-mode-manual": "Manual",
+	"citoid-citoiddialog-mode-reuse": "Guna semula",
+	"citoid-citoiddialog-search-label": "URL, DOI, ISBN atau PMC/PMID",
+	"citoid-citoiddialog-search-placeholder": "cth. http://www.example.com",
+	"citoid-citoidtool-title": "Petik",
+	"citoid-citoidtool-title-othergroup": "Petikan",
+	"citoid-desc": "Menyediakan titik-titik akses antara khidmat citoid dan MediaWiki",
+	"citoid-referencecontextitem-convert-button": "Tukar",
+	"citoid-referencecontextitem-convert-message": "Rujukan ini terdiri daripada pautan luar sahaja. Anda boleh tekan butang \"{{int:citoid-referencecontextitem-convert-button}}\" di bawah untuk menghasilkan rujukan yang diformatkan dengan betul.",
+	"citoid-unknown-error": "Terjadinya ralat tidak dikenali yang telah mengganggu kami daripada menghasilkan petikan. Sila cuba lagi kemudian."
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2",
+			"YaronSh"
+		]
+	},
+	"bs-readers-desc": "יצירת רשימה של האנשים שקוראים דף",
+	"prefs-readers": "קוראים",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|קורא|קוראת}}|קוראים}}",
+	"readers-user": "דפים {{GENDER:$1|שנקראו}} על־ידי: $1",
+	"readers": "קוראי הדף \"$1\"",
+	"bs-readers-contentactions-label": "הצגת הקוראים",
+	"bs-readers-pagenotexists": "הדף אינו קיים.",
+	"bs-readers-pref-active": "הפעלת קוראים",
+	"bs-readers-pref-numofreaders": "מספר הקוראים להצגה:",
+	"bs-readers-emptyinput": "לא סופק דף.",
+	"bs-readers-header-username": "שם משתמש",
+	"bs-readers-header-readerspath": "קורא",
+	"bs-readers-header-ts": "תאריך",
+	"bs-readers-header-page": "דף",
+	"apihelp-bs-readers-data-store-description": "קבלת מידע על הקוראים של דף מסוים.",
+	"apihelp-bs-readers-data-store-summary": "קבלת מידע על הקוראים של דף מסוים.",
+	"apihelp-bs-readers-users-store-description": "קבלת מידע מלא על הקוראים של דף מסוים.",
+	"apihelp-bs-readers-users-store-summary": "קבלת מידע מלא על הקוראים של דף מסוים.",
+	"apihelp-bs-readers-page-readers-store-summary": "קבלת כל הקוראים של כל הדפים",
+	"action-viewreaders": "לצפות בקוראים של דפים",
+	"bs-readers-flyout-title": "קוראי דף זה",
+	"bs-readers-flyout-header-revision-id": "מזהה גרסה",
+	"bs-readers-flyout-header-revision-date": "תאריך גרסה"
+}

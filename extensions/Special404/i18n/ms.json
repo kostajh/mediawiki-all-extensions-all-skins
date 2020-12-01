@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"special404-desc": "Menyediakan destinasi untuk ralat \"404 Tidak dijumpai\"",
+	"error404": "404 Tidak dijumpai",
+	"special404-body": "URL yang anda minta itu tidak dijumpai.\n\nAdakah anda bermaksud untuk menaipkan {{fullurl:$1}}?\n\nMungkin anda ingin melihat:\n* [[{{MediaWiki:Mainpage}}|Laman utama]]"
+}

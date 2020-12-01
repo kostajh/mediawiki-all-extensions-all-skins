@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"secureauth-desc": "Овозможува корисникот да ја внесе својата IP-адреса во најавата. Со тоа, секој обид за најава од друга IP-адреса ќе биде неуспешен.",
+	"secureauthinfo": "Безбедна најава",
+	"special-secureauth-info": "Безбедна најава",
+	"secureauth-info-userinfo": "Кориснички податоци",
+	"secureauth-current-ip": "Ваша тековна најавна IP-адреса:",
+	"secureauth-whitelist-ip": "IP-адреси допуштени за најава:",
+	"action-sa-access": "пристап до податоци за безбедна најава",
+	"right-sa-access": "Дозвола за пристап до [[Special:SecureAuthInfo|Информации за безбедна заверка]]"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda",
+			"Mavrikant"
+		]
+	},
+	"testlanguagenamegrammar": "Dil isimleri ile dilbilgisi formlarını test edin",
+	"testlanguagenamegrammar-desc": "Dil adları ile dilbilgisi formlarını test etmek için [[Special:TestLanguageNameGrammar|özel bir sayfa]] ekler",
+	"testlanguagenamegrammar-language": "Dil",
+	"testlanguagenamegrammar-grammarform": "Dilbilgisi formu",
+	"testlanguagenamegrammar-submit": "Gönder"
+}

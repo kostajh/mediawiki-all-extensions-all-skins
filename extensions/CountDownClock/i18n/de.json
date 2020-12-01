@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"countDownClock-desc": "Ergänzt eine Parserfunktion zur Anzeige einer Countdown-Zeit",
+	"countDownClock-invalidtime": "Bitte gib einen gültigen Endzeit-Parameter an",
+	"countDownClock-days": "{{PLURAL:$1|Ein Tag|$1 Tage}}",
+	"countDownClock-hours": "{{PLURAL:$1|Eine Stunde|$1 Stunden}}",
+	"countDownClock-minutes": "{{PLURAL:$1|Eine Minute|$1 Minuten}}",
+	"countDownClock-seconds": "{{PLURAL:$1|Eine Sekunde|$1 Sekunden}}",
+	"countDownClock-expired": "Abgelaufen"
+}

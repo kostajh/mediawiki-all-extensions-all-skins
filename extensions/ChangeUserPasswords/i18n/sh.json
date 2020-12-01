@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"changeuserpasswords": "Promjena lozinki korisnika",
+	"changeuserpassword-desc": "Ova ekstenzija služi za promjenu lozinki korisnika, osim nekoliko naznačenih od strane administratora.",
+	"changeuserpassword-pagename": "Promjena lozinki korisnika",
+	"changeuserpassword-success": "Korisničke lozinke su promjenjene!",
+	"changeuserpassword-title": "Promjena korisničkih lozinki",
+	"changeuserpassword-intro": "Ova ekstenzija služi za promjenu lozinki korisnika, osim nekoliko naznačenih od strane administratora.",
+	"action-changeuserpasswords": "promjenu korisničkih lozinki",
+	"right-changeuserpasswords": "Promjena korisničkih lozinki"
+}

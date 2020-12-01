@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"gpgmail-desc": "Encriptar correos electrónicos con GPG",
+	"gpgmail-pref-enable": "Encriptar correos electrónicos con GPG",
+	"gpgmail-pref-key": "Clave pública GPG",
+	"gpgmail-pref-key-help": "Para obter axuda sobre como obter unha clave pública, consulte [https://help.ubuntu.com/community/GnuPrivacyGuardHowto estas instruccións].",
+	"gpgmail-encrypt-error": "Houbo un erro ó encriptar o correo electrónico."
+}

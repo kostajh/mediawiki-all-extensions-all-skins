@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Fitoschido",
+			"MuratTheTurkish",
+			"Patric Wirth",
+			"Umherirrender"
+		]
+	},
+	"bs-socialprofile-desc": "{{desc|name=BlueSpiceSocialProfile}}",
+	"bs-socialprofile-type": "Label for entry field \"topictitle\".\n{{Identical|Profile}}",
+	"bs-socialprofile-entityprofile-header": "{{notranslate}}\nHeadline for a \"profile\" entry. Must link to owners user page [[$6|$6]]\n* $1 - Username of the owner of this entry\n* $2 - Real name of the owner of this entry\n* $3 - Main part of title of the source page, this entry is saved in as json data\n* $4 - Namespace number of the page, this entry is saved in as json data\n* $5 - Namespace name of the page, this entry is saved in as json data\n* $6 - Full title text of the owners user page",
+	"bs-socialprofile-entityaction-changeimage": "Short label for a button, that lets the user open a dialog to change the users profile image",
+	"bs-social-entityaction-editprofilefields": "Short label for a button, that lets the user change the users profile data",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "Internal error message when an invalid 'User' object was given when saving",
+	"bs-social-profile-field-name": "Label for field \"name\" in the users profile.\n{{Identical|Name}}",
+	"bs-social-profile-field-email": "Label for field \"email\" in the users profile.\n{{Identical|E-Mail}}",
+	"bs-social-profile-field-title": "Label for field \"title\" in the users profile.\n{{Identical|Title}}",
+	"bs-social-profile-field-title-value": "Value for field \"title\" in the users profile.\nUse GENDER\n{{Identical|<nowiki>{{GENDER:$1|Mr.|Mrs.|}}</nowiki>}}\n* $1 - User name of the owner of this profile",
+	"bs-social-profile-field-department": "Label for field \"department\" in the users profile.\n{{Identical|Department}}",
+	"bs-social-profile-field-function": "Label for field \"function\" in the users profile.\n{{Identical|Function}}",
+	"bs-social-profile-field-location": "Label for field \"location\" in the users profile.\n{{Identical|Location}}",
+	"bs-social-profile-field-phone": "Label for field \"phone\" in the users profile.\n{{Identical|Telephone}}",
+	"bs-social-profile-field-validate-no-integer": "Error message, that the given value was not numeric\n* $1 - Label for the given value",
+	"bs-socialprofile-special-profiles-heading": "Special page header for [[Special:Socialprofiles]] special page.\n{{Identical|Profile}}",
+	"bs-social-profile-infoshowemail": "Label for the the option checkbox in [[Special:Preferences]] that lets users toggle the display of their email address in their profile",
+	"socialprofiles": "Special page name for [[Special:Socialprofiles]] special page.\n{{Identical|Profile}}",
+	"bs-socialprofile-switch-classicprofile-label": "Short label for button that switches to the classic profile.",
+	"bs-socialprofile-switch-modernprofile-label": "Short label for button that switches to the modern profile.\n{{Identical|Modern profile}}",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Tooltip text for button that switches to the ´classic profile.\n{{Identical|Switch to classic profile}}",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Tooltip text for button that switches to the modern profile.\n{{Identical|Switch to modern profile}}",
+	"action-social-editothersprofile": "{{doc-action|social-editothersprofile}}",
+	"right-social-editothersprofile": "{{doc-right|social-editothersprofile}}",
+	"action-socialprofile-viewspecialpage": "{{doc-action|socialprofile-viewspecialpage}}",
+	"right-socialprofile-viewspecialpage": "{{doc-right|socialprofile-viewspecialpage}}"
+}

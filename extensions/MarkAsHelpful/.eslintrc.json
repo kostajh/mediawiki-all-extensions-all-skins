@@ -1,0 +1,13 @@
+{
+	"root": true,
+	"extends": [
+		"wikimedia/client",
+		"wikimedia/jquery",
+		"wikimedia/mediawiki"
+	],
+	"rules": {
+		"no-jquery/no-in-array": "off",
+		"no-jquery/no-ready-shorthand": "off",
+		"valid-jsdoc": "off"
+	}
+}

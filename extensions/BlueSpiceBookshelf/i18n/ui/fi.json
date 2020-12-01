@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"bookshelfbookui": "Kirjamuokkain",
+	"bs-bookshelfui-widget-editor-link-text": "Muokkaa tätä kirjaa",
+	"bs-bookshelfui-new-book-title": "Luo uusi kirja",
+	"bs-bookshelfui-new-book-text": "Kirjan otsikko",
+	"bs-bookshelfui-delete-book-title": "Poista kirja",
+	"bs-bookshelfui-bookui-savingprogress-title": "Tallennetaan kirjaa",
+	"bs-bookshelfui-dlg-choosewikipage-title": "Wikisivu",
+	"bs-bookshelfui-dlg-choosewikipage-cbxArticleLabel": "Wikisivu",
+	"bs-bookshelfui-ctxmnu-tag-edit": "Muokkaa asetuksia",
+	"bs-bookshelfui-dlg-metadata-title": "Metadata",
+	"bs-bookshelfui-book-type": "Kirjan tyyppi",
+	"bs-bookshelfui-empty-selection": "Ei mitään valittu",
+	"bs-bookshelfui-dlg-choosecategory-label": "Luokka",
+	"bs-bookshelfui-dlg-type-label": "Lähde",
+	"bs-bookshelfui-extjs-tooltip-add-mass": "Massalisäys",
+	"bs-bookshelfui-dlg-addmass-title": "Massalisäys",
+	"bs-bookshelfui-type-category": "Kaikki luokan sivut",
+	"bs-bookshelfui-type-subpages": "Kaikki sivun alasivut",
+	"bs-bookshelfui-dlg-choosepc-label": "Sivukokoelma",
+	"bs-bookshelfui-type-pagecollection": "Sivukokoelma",
+	"bs-bookshelfui-flyout-title": "Luettelo kirjoista",
+	"bs-bookshelfui-book-title-link-edit-text": "Muokkaa kirjaa",
+	"bs-bookshelfui-bookmanager-deletion-reason": "BookManagerin poistama",
+	"bs-bookshelfui-bookmetatag-title": "Otsikko",
+	"bs-bookshelfui-bookmetatag-subtitle": "Alaotsikko",
+	"bs-bookshelfui-bookmetatag-author1": "Tekijä 1",
+	"bs-bookshelfui-bookmetatag-author2": "Tekijä 2",
+	"bs-bookshelfui-bookmetatag-version": "Versio",
+	"bookshelf": "Kirjahylly",
+	"bs-bookshelfui-prof-defaultview-images": "Kuvat",
+	"bs-bookshelfui-chapterpager-previous": "Edellinen",
+	"bs-bookshelfui-chapterpager-next": "Seuraava"
+}

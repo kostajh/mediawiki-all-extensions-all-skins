@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jayprakash12345"
+		]
+	},
+	"secureauth-desc": "Allow user to add their IP for Login. Login from another IP will fail.",
+	"secureauthinfo": "SecureAuthInfo",
+	"special-secureauth-info": "Secure Authentication Information",
+	"secureauth-info-userinfo": "User Information",
+	"secureauth-current-ip": "Your Current Login IP:",
+	"secureauth-whitelist-ip": "IPs that Whitelist for your username login:",
+	"action-sa-access": "access SecureAuthInfo",
+	"right-sa-access": "Allow the user to access [[Special:SecureAuthInfo|SecureAuthInfo]]"
+}

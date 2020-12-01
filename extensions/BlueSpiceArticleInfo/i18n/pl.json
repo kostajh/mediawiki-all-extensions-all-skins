@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"CiaPan",
+			"DeRudySoulStorm",
+			"Rail",
+			"Wiochman"
+		]
+	},
+	"bs-articleinfo-desc": "Udostępnia informacje o stronie w pasku stanu",
+	"prefs-articleinfo": "Informacja o stronie",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Interwał aktualizacji (w sekundach):",
+	"bs-articleinfo-flyout-title": "Informacje o tej stronie",
+	"bs-articleinfo-flyout-intro": "Tu znajdziesz informacje dotyczące tej strony. Możesz sprawdzić jej jakość oraz aktualność oraz jej związki z innymi stronami tej wiki.",
+	"bs-articleinfo-nav-link-title": "Informacje o tej stronie",
+	"bs-articleinfo-flyout-categorylinks-title": "Kategorie",
+	"bs-articleinfo-flyout-templatelinks-title": "Szablony używane na stronie",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Brak przypisanych kategorii",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Brak szablonów",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Ostatnia edycja",
+	"bs-articleinfo-flyout-lastediteduser-text": "Ostatni edytujący",
+	"bs-articleinfo-newrevision-info-text": "Dostępna jest nowa wersja tej strony. Załaduj ponownie stronę, aby wyświetlić aktualną zawartość.",
+	"bs-articleinfo-newrevision-info-text-reload": "Dostępna jest nowa wersja tej strony. [[:$1|Załaduj ponownie]] stronę, aby wyświetlić aktualną zawartość.",
+	"bs-articleinfo-flyout-subpages-title": "Podstrony",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Podstrony",
+	"bs-articleinfo-dialog-subpages-title": "Podstrony"
+}

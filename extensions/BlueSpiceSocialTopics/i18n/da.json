@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"bs-socialdiscussion-discussiontype": "Diskussion",
+	"bs-socialdiscussion-topictype": "Diskussionsemne",
+	"bs-socialtopics-entitydiscussion-header-create": "Opret ny diskussion",
+	"bs-social-entitytopic-header-create": "Nyt emne",
+	"bs-socialtopics-var-topictitle": "Titel",
+	"bs-socialtopics-entity-topic-topictitle-shoutboxmigration": "$1 startede emnet:",
+	"topics": "Emner",
+	"bs-socialtopics-special-topics-heading": "Alle emner",
+	"bs-socialtopics-special-topics-heading-entry": "Emner/$1",
+	"bs-socialtopics-aftercontent-heading": "Diskussioner",
+	"bs-socialtopics-nodiscussionpage-create": "Opret ny diskussionsside",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-save": "Gem",
+	"bs-socialtopics-dialog-creatediscussionpage-btn-label-cancel": "Annullér",
+	"bs-socialtopics-dialog-creatediscussionpage-label-text": "Indhold"
+}

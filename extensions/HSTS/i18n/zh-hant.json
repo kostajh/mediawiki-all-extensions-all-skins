@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"hsts-desc": "基於各使用者為主的 HTTP 強制安全傳輸技術（HTTP Strict Transport Security、HSTS）",
+	"hsts-tog": "啟用 HTTP 強制安全傳輸技術（HSTS）",
+	"hsts-https-tog": "啟用 HTTP 強制安全傳輸技術（HSTS）<br />以 HTTPS 協定來重新載入此頁面以更改此配置。",
+	"hsts-beta-feature-message": "永遠使用安全連結",
+	"hsts-beta-feature-description": "此增強您在此網站上的安全性，即使是在您登出後的情況下，並確保在您瀏覽期間不會受人暗中監視。在支援 HSTS 技術新版瀏覽器以及此選項啟動之下，任何安全方面警報都非常有可能是確實遭受攻擊的情況。"
+}

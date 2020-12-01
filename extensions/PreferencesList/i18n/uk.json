@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Vlad5250"
+		]
+	},
+	"preferenceslist-desc": "Генерує список усіх користувацьких конфігурацій для конкретної категорії налаштувань",
+	"preferenceslist-preferenceslist": "Список налаштувань",
+	"preferenceslist-preferenceslist-intro": "Нижче наведено список налаштувань. Виберіть одне або більше з них, щоб переглянути список усіх користувачів з їхніми налаштуваннями.",
+	"preferenceslist": "Список налаштувань",
+	"action-preferenceslist": "перегляд списку налаштувань користувачів",
+	"preferenceslist-csv": "Завантажити як CSV",
+	"preferenceslist-nofields": "Жодного поля не вибрано.",
+	"right-preferenceslist": "Відкриття сторінки Special:PreferencesList"
+}

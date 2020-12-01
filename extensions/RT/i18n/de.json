@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Imre",
+			"LWChris",
+			"Metalhead64",
+			"Pill"
+		]
+	},
+	"rt-desc": "Modisches Interface für RT (Request Tracker)",
+	"rt-inactive": "Die RT-Erweiterung ist nicht aktiv",
+	"rt-badquery": "Die RT-Erweiterung hat einen Fehler bei der Kommunikation mit der RT-Datenbank festgestellt",
+	"rt-badlimit": "Parameter <code>LIMIT</code> (<code>l</code>) ungültig: Muss eine Zahl sein.\nDeine Eingabe: '''$1'''",
+	"rt-badorderby": "Ungültiger Parameter <code>ORDER BY</code> (<code>ob</code>): Muss ein Standardfeld sein (siehe Dokumentation).\nVersuchte Eingabe: '''$1'''",
+	"rt-badstatus": "Ungültiger Parameter <code>status</code> (<code>s</code>): Muss ein Standardfeld sein (siehe Dokumentation).\nVersuchte Eingabe: '''$1'''",
+	"rt-badcfield": "Ungültiger Parameter für benutzerdefiniertes Feld: muss ein einfaches Wort sein (siehe Dokumentation).\nVersuchte Eingabe: '''$1'''",
+	"rt-badqueue": "Parameter <code>queue</code> (<code>q</code>) ungültig: Muss ein einfaches Wort sein.\nDeine Eingabe: '''$1'''",
+	"rt-badowner": "Parameter <code>owner</code> (<code>o</code>) ungültig: Muss ein gültiger Benutzername sein.\nDeine Eingabe: '''$1'''",
+	"rt-nomatches": "Es wurden keine passenden RT-Tickets gefunden"
+}

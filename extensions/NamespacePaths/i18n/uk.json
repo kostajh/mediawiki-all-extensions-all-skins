@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vox"
+		]
+	},
+	"namespacepaths-desc": "Дозволяє налаштовувати шляхи до статей для зіставлення до просторів назв; приклад: сторінка Help:Page зіставляєтся до /help/Page, а не /wiki/Help:Page."
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Yona b"
+		]
+	},
+	"pagelanguage-desc": "הגדרת שפה של דף",
+	"pagelanguage-invalid": "'''אזהרה:''' מתעלם מקוד שפה לא תקין \"$1\" בשביל שפת הדף.",
+	"pagelanguage-duplicate": "'''אזהרה:''' שפת הדף \"$2\" דורס את שפת הדף הקודם \"$1\"."
+}

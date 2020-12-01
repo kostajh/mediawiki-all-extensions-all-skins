@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"svgedit-editbutton-edit": "Uredi crtež",
+	"svgedit-summary-label": "Opis izmene",
+	"svgedit-summary-default": "/* Izmenjeno SVG uređivačem */",
+	"svgedit-editor-save-close": "Sačuvaj i zatvori",
+	"svgedit-editor-close": "Otkaži",
+	"svgedit-desc": "Uređivanje SVG crteža preko pregledača uz [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Uređivanje crteža",
+	"svgedit-edit-tab-tooltip": "Možete urediti SVG crtež u svom pregledaču"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"versioncompare": "Параўнаньне вэрсіяў",
+	"version-compare-desc": "Паказвае параўненьне вэрсіяў кампанэнтаў ядра і пашырэньняў паміж дзьвюма вікі",
+	"version-compare-database-label": "База зьвестак",
+	"version-compare-url-error": "Памылка атрыманьня зьвестак з $1.",
+	"version-compare-url-field-help-1": "URL-адрас API (сканчаецца на api.php) першай вікі для параўнаньня. Будзе ўжытая цяперашняя вікі, калі пакінуць пустым.",
+	"version-compare-url-field-help-2": "URL-адрас API (сканчаецца на api.php) другой вікі для параўнаньня. Будзе ўжытая цяперашняя вікі, калі пакінуць пустым.",
+	"version-compare-diff-field-label": "Паказаць толькі адрозьненьні"
+}

@@ -1,0 +1,15 @@
+@import '../mixins.less';
+
+div.editOptions {
+	padding: 1.25em;
+	.box-shadow( 0 2px 5px rgba( 0, 0, 0, 0.25 ) );
+	background: rgba( 255, 255, 255, 0.45 );
+	background: lighten( @grey5, 2.5% );
+	margin: 0 1px 1em;
+	border-radius: 0;
+}
+
+// Why is there a border radius on this in core; it doesn't even have a border
+.mw-editform div.editOptions {
+	border-radius: 0;
+}

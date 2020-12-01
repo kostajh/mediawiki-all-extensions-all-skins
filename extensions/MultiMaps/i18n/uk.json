@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Base",
+			"Piramidion"
+		]
+	},
+	"multimaps-desc": "Дозволяє користувачам показувати карти і дані координат, використовуючи декілька картографічних сервісів",
+	"multimaps-loading-map": "Завантаження карти…",
+	"multimaps-mapservices-must-not-empty-array": "Змінна «$1» не може бути порожнім масивом",
+	"multimaps-undefined-service-for-layout": "Невизначений параметр сервісу для компонування «$1» у $egMultiMaps_MapServices",
+	"multimaps-wrong-service-for-layout": "Для компонування «$1» визначено сервіс «$2», але вона не існує в $egMultiMaps_MapServices",
+	"multimaps-layout-defined-for-layout": "Для компонування «$1» визначено інше компонування «$2» замість сервісу в $egMultiMaps_MapServices",
+	"multimaps-leaflet-undefined-parameters-for-layer": "Слід вказати параметри «source» та «attribution» для шару «$1» у $egMultiMaps_MapServices",
+	"multimaps-had-following-errors": "При обробці переданих параметрів виникли наступні помилки:",
+	"multimaps-element-illegal-value": "для параметра «$1» було передано недопустиме значення «$2». Допустимими значеннями є: $3",
+	"multimaps-element-more-parameters": "Для цього елементу карти «$1» передано більше параметрів, ніж очікувалось:",
+	"multimaps-element-parameters-not-processed": "наступні параметри не було оброблено: $1",
+	"multimaps-circle-radius-not-defined": "для кола повинен бути визначений радіус",
+	"multimaps-circle-wrong-number-parameters": "для кола повинно бути визначено лише два параметри, координати центру та радіус. Але вказано {{PLURAL:$1|один параметр|вказано $1 параметри|вказано $1 параметрів}}",
+	"multimaps-marker-incorrect-icon": "Для значка маркера вказано неправильну назву файлу «$1»",
+	"multimaps-marker-incorrect-icon-url": "Неправильна адреса \"$1\" надано для піктограми маркера.",
+	"multimaps-marker-incorrect-icon-size": "Неправильний розмір \"$1\" наданий для піктограми маркера \"$2\".",
+	"multimaps-marker-incorrect-icon-anchor": "Неправильний якір \"$1\" наданий для піктограми маркера \"$2\".",
+	"multimaps-marker-incorrect-shadow-file": "Неправильне ім'я файлу \"$1\" надане для тіні піктограми.",
+	"multimaps-marker-incorrect-shadow-url": "Неправильна адреса \"$1\" надано для тіні піктограми.",
+	"multimaps-marker-incorrect-shadow-size": "Неправильний розмір \"$1\" наданий для тіні піктограми\"$2\".",
+	"multimaps-marker-incorrect-shadow-anchor": "Неправильний якір \"$1\" наданий для тіні піктограми \"$2\".",
+	"multimaps-passed-unavailable-service": "Ім'я служби \" $1 \" не знайдено у списку доступних служб ($2). Використовується типова служба \"$3\"",
+	"multimaps-square-wrong-number-points": "коорлинати квадрату повинні складатись лише із двох точок, але {{PLURAL:$1|вказана одна точка|вказано $1 точки|вказано $1 точок}}",
+	"multimaps-unable-create-element": "Елементи карти «$1» не може бути створено",
+	"multimaps-unable-parse-coordinates": "не вдається обробити географічні координати «$1»",
+	"multimaps-unable-parse-parameter": "не вдається обробити параметр «$1» значення «$2»",
+	"multimaps-unable-parse-radius": "радіус кола повинен бути числовим значенням, але вказано «$1»",
+	"multimaps-unknown-class-for-service": "Клас «$1» який визначено для сервісу не може бути знайдено.",
+	"multimaps-unknown-parameter": "Невідомий параметр: «$1»",
+	"multimaps-error-incorrect-class-for-service": "Клас «$1», що визначено для сервісу не може бути використано.",
+	"multimaps-method-error-unknown-action": "$1: Невідома дія",
+	"multimaps-method-error-unexpected-result": "$1: Невідомий результат функції"
+}

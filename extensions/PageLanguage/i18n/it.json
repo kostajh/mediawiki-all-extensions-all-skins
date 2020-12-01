@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"pagelanguage-desc": "Definisce la lingua della pagina per ogni pagina",
+	"pagelanguage-invalid": "'''Attenzione:''' codice di lingua \"$1\" non valido, ignorato per la lingua della pagina.",
+	"pagelanguage-duplicate": "'''Attenzione:''' codice di lingua \"$2\" sostituisce la lingua della pagina precedente \"$1\"."
+}

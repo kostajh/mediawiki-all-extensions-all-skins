@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"updatemediawiki": "MediaWiki aktualisieren",
+	"updatemediawiki-desc": "Ermöglicht die Aktualisierung von MediaWiki über eine Spezialseite",
+	"updatemediawiki-current": "Aktuelle Version $1",
+	"updatemediawiki-update-nofound": "Es ist keine Aktualisierung verfügbar",
+	"updatemediawiki-update-found": "Neue Aktualisierung gefunden: $1",
+	"updatemediawiki-update-downloading": "Lade neue Aktualisierung herunter",
+	"updatemediawiki-update-saved": "Aktualisierung heruntergeladen und gespeichert",
+	"updatemediawiki-update-exist": "Aktualisierung bereits heruntergeladen",
+	"updatemediawiki-update-copyready": "Kopieren fertig",
+	"updatemediawiki-update-database": "Die Datenbank jetzt aktualisieren?",
+	"updatemediawiki-update-updateready": "Aktualisierung fertig",
+	"updatemediawiki-update-install": "Jetzt installieren?",
+	"updatemediawiki-update-updated": "MediaWiki wurde auf die Version $1 aktualisiert",
+	"updatemediawiki-update-error": "Die neuesten Veröffentlichungen konnten nicht gefunden werden",
+	"updatemediawiki-update-aborted": "Die neue Aktualisierung konnte nicht gespeichert werden. Operation abgebrochen."
+}

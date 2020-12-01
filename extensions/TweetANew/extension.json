@@ -1,0 +1,108 @@
+{
+	"name": "TweetANew",
+	"version": "1.2.12052020",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Varnent Gregory Varnum]",
+		"[https://github.com/mooeypoo Moriel Schottlender] after merging extensions by [https://www.mediawiki.org/wiki/User:Joa_ds Joachim De Schrijver]",
+		"Andrew Fitzgerald",
+		"Wendell Gaudencio",
+		"Rohit Keshwani"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:TweetANew",
+	"descriptionmsg": "tweetanew-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"ExtensionMessagesFiles": {
+		"TweetANewMagic": "TweetANew.i18n.magic.php"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"TweetANew": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"TweetANew": "TweetANew.body.php",
+		"tmhOAuth": "lib/tmhOAuth.php",
+		"tmhUtilities": "lib/tmhUtilities.php",
+		"GoogleURL": "lib/GoogleURL.php"
+	},
+	"callback": "TweetANew::registerExtension",
+	"Hooks": {
+		"EditPageGetCheckboxesDefinition": "TweetANew::TweetANewEditCheckBox",
+		"ParserFirstCallInit": "TweetANew::onParserFirstCallInit"
+	},
+	"config": {
+		"TweetANewTweet": {
+			"value": {
+				"New": true,
+				"Edit": true,
+				"LessMinutesOld": 5,
+				"SkipMinor": true,
+				"SkipRedirect": true,
+				"TwitterAsTitle": false,
+				"UserGroup": "autoconfirmed"
+			}
+		},
+		"TweetANewText": {
+			"value": {
+				"Minor": false,
+				"MinorSpace": true,
+				"NewRandom": true,
+				"NewRandomMax": 3,
+				"NewAuthor": false,
+				"NewSummary": false,
+				"EditRandom": true,
+				"EditRandomMax": 3,
+				"EditAuthor": false,
+				"EditSummary": false,
+				"RealName": false
+			}
+		},
+		"TweetANewEditpage": {
+			"value": {
+				"Enable": false,
+				"Checked": false
+			}
+		},
+		"TweetANewTwitter": {
+			"value": {
+				"ConsumerKey": "",
+				"ConsumerSecret": "",
+				"AccessToken": "",
+				"AccessTokenSecret": ""
+			}
+		},
+		"TweetANewBitly": {
+			"value": {
+				"Enable": false,
+				"Login": "",
+				"API": ""
+			}
+		},
+		"TweetANewGoogl": {
+			"value": {
+				"Enable": false,
+				"API": ""
+			}
+		},
+		"TweetANewBlacklist": {
+			"value": {
+				"value":""
+			}
+		},
+		"TweetANewBlocklist": {
+			"value": {
+				"value":""
+			}
+		},
+		"TweetANewCatBlocklist": {
+			"value": {
+				"value":""
+			}
+		}
+	},
+	"manifest_version": 2
+}

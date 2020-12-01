@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Gustronico",
+			"Macofe"
+		]
+	},
+	"listings-desc": "Agrega etiquetas para listar lugares de interés",
+	"listings-unknown": "Destino desconocido",
+	"listings-phone": "teléfono",
+	"listings-fax": "fax",
+	"listings-email": "correo electrónico",
+	"listings-tollfree": "gratuito",
+	"listings-checkin": "Registrarse: $1",
+	"listings-checkout": "salida: $1",
+	"listings-position": "posición: $1"
+}

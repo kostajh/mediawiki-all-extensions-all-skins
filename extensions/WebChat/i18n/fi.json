@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Str4nd"
+		]
+	},
+	"webchat": "Verkkokeskustelu",
+	"webchat-desc": "Lisää [[Special:WebChat|toimintosivun]], jota käytetään reaaliaikaiseen keskusteluun muiden käyttäjien kanssa.",
+	"webchat-header": "Tämä toimintosivu antaa sinulle mahdollisuuden osallistua reaaliaikaiseen keskusteluun toisten wikin käyttäjien kanssa.\nYhdistäminen tapahtuu yksinkertaisesti ”Connect”-painikkeesta.\nJos olet kirjautunut sisään, nimimerkkisi täydentyy automaattisesti.\nKirjautumattomille käyttäjille luodaan nimimerkki automaattisesti, mutta sitä voi vaihtaa.",
+	"action-webchat": "käyttää verkkokeskustelua",
+	"right-webchat": "Käyttää [[Special:WebChat|verkkokeskustelua]]"
+}

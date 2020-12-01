@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"LNDDYL",
+			"Xiplus"
+		]
+	},
+	"page-creation-notif-desc": "當建立新頁面時傳送郵件通知",
+	"page-creation-notification": "當建立新頁面時向我傳送郵件",
+	"page-creation-email-subject": "新頁面 – $1 由 $3 {{GENDER:$3|建立於}} $2",
+	"page-creation-email-body": "$1 您好：\n\n這是份來自於{{SITENAME}}的通知，有個新頁面 $2 已由使用者 $3 所{{GENDER:$3|創建}} \n\n您可查看該頁面於：\n$4\n\n該頁面的文字則是：\n$5\n\n您友善的{{SITENAME}}通知系統在此敬上。\n\n（要更改您的電子郵件通知設定，請檢視 {{canonicalurl:{{#special:Preferences}}}}）"
+}

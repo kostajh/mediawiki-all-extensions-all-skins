@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erdemaslancan",
+			"Kumkumuk",
+			"Mirzali",
+			"Orbot707"
+		]
+	},
+	"closewikis-desc": "Çıflıgan wiki de sitanê wiki rê racnayışi rê icazet da nê",
+	"closewikis-page": "Wiki racnê",
+	"closewikis-page-close": "Wiki racnê",
+	"closewikis-page-close-wiki": "Wiki:",
+	"closewikis-page-close-dreason": "Sebep (asnayen):",
+	"closewikis-page-close-reason": "Sebep (rocaneyen):",
+	"closewikis-page-close-submit": "Racnê",
+	"closewikis-page-close-success": "Wiki racne yê",
+	"closewikis-page-reopen": "Wikiyer fına ake",
+	"closewikis-page-reopen-wiki": "Wiki:",
+	"closewikis-page-reopen-reason": "Sebeb:",
+	"closewikis-page-reopen-submit": "Fına Ake",
+	"closewikis-page-reopen-success": "Wiki fına abiyê ya",
+	"closewikis-page-err-nowiki": "Nêravêrde wiki nışan bıya",
+	"closewikis-page-err-closed": "Wiki xora racnayi ya",
+	"closewikis-page-err-opened": "Wiki racnayi niya",
+	"closewikis-list": "Listey wikiyan dê racneyan",
+	"closewikis-list-intro": "Ena lista terefê steward'an ra racnayê eiki ya muhtewa kena",
+	"closewikis-list-header-wiki": "Wiki",
+	"closewikis-list-header-by": "Racnayen",
+	"closewikis-list-header-timestamp": "Racnayışê cı",
+	"closewikis-list-header-dispreason": "Sebebo asaye",
+	"closewikis-log": "Qeydê racnayena wiki",
+	"closewikis-log-header": "Ena terefê steward'an ra qeydê raceneka wik ya racnayış u akerdışi ya.",
+	"closewikis-log-close": "$2 kerd kip",
+	"closewikis-log-reopen": "$2 viki fına akerdı",
+	"action-editclosedwikis": "wikiyanê qefelnayeyan bıvurne",
+	"right-editclosedwikis": "Racnayê wiki ya bıvurnê",
+	"action-closewikis": "wikiyan bıqefelne",
+	"right-closewikis": "Wikiyan racnê"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Priviet",
+			"Revi",
+			"Ykhwong"
+		]
+	},
+	"hsts-desc": "사용자 설정에 기반한 HSTS(HTTP Strict Transport Security)",
+	"hsts-tog": "HSTS(HTTP Strict Transport Security)를 활성화",
+	"hsts-https-tog": "HTTP Strict Transport Security (HSTS)를 활성화합니다<br />이 문서를 HTTPS로 새로고쳐서 이 환경 설정을 활성화하세요",
+	"hsts-beta-feature-message": "항상 안전한 연결 사용",
+	"hsts-beta-feature-description": "이 기능은 사용자가 로그아웃을 한 뒤에도 사용자를 안전하게 유지하도록 함으로써 이 웹사이트의 보안을 강화하며, 사용자가 탐색을 하는 동안 아무도 사용자를 엿볼 수 없게 합니다. 이 옵션이 켜져 있고 이 기술(HSTS)을 지원하는 최신 브라우저를 사용한다면, 보안 경보는 사용자에 대한 실제 공격일 가능성이 매우 높습니다."
+}

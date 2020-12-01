@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-socialblog-desc": "Endità d'u blog pe BlueSpiceSocial",
+	"bs-socialblog-type": "Blog",
+	"blog": "Blog",
+	"bs-socialblog-entityblog-header-create": "Blog nuève",
+	"bs-socialblog-var-blogtitle": "Titole",
+	"bs-socialblog-entityblog-content-more-btn-more": "De cchiù",
+	"bs-socialblog-entityblog-content-more-btn-less": "De mene",
+	"bs-socialblog-toc-useblogteaser": "Ause 'u teste cu l'uecchije pe le vôsce d'u blog sus 'a linèe d'u tiembe",
+	"bs-socialblog-special-blog-heading": "Blog",
+	"bs-socialblog-special-blog-heading-entry": "Blog/$1",
+	"bs-social-notifications-blog-create": "L'utende {{GENDER:$1|$2 ave ccrejate}} 'nu blog nuève \"$3\"",
+	"bs-social-notifications-email-blog-create-subject": "L'utende {{GENDER:$1|$2 ave ccrejate}} 'nu blog nuève \"$3\"",
+	"bs-social-notifications-email-blog-create-body": "L'utende {{GENDER:$1|$2 ave ccrejate}} 'nu blog nuève \"$3\" cu stu teste:\n\n$4",
+	"bs-social-notifications-web-blog-create-body": "{{GENDER:$1|$2 ave ccrejate}} 'nu blog nuève \"$3\"",
+	"bs-social-notifications-blog-edit": "L'utende {{GENDER:$1|$2 ave cangiate}} 'u blog \"$3\"",
+	"bs-social-notifications-email-blog-edit-subject": "L'utende {{GENDER:$1|$2 ave cangiate}} 'u blog \"$3\"",
+	"bs-social-notifications-email-blog-edit-body": "L'utende {{GENDER:$1|$2 ave cangiate}} 'u blog \"$3\". 'U teste nuève jè:\n\n$4",
+	"bs-social-notifications-web-blog-edit-body": "{{GENDER:$1|$2 Ave cangiate}} 'u blog \"$3\"",
+	"bs-social-notifications-blog-delete": "L'utende {{GENDER:$1|$2 ave scangellate}} 'u blog \"$3\"",
+	"bs-social-notifications-email-blog-delete-subject": "L'utende {{GENDER:$1|$2 ave scangellate}} 'u blog \"$3\"",
+	"bs-social-notifications-email-blog-delete-body": "L'utende {{GENDER:$1|$2 ave scangellate}} 'u blog \"$3\"",
+	"bs-social-notifications-web-blog-delete-body": "{{GENDER:$1|$2 Ave scangellate}} 'u blog \"$3\"",
+	"bs-social-notification-blog-primary-link-label": "'Ndruche 'u blog"
+}

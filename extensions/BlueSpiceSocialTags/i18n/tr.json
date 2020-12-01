@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"bs-socialtags-desc": "Sosyal varlıklara etiketleme işlevi ekler",
+	"bs-socialtags-tagstext": "Bağlantılı {{plural:$1|sayfa|sayfalar}} ($1)",
+	"bs-socialtags-var-tags": "Bağlantılı sayfalar",
+	"socialtags": "Bağlantılı sayfalar",
+	"bs-socialtags-special-heading": "Bağlantılı sayfalar",
+	"apihelp-bs-socialtags-tasks-summary": "Bağlantılı varlık sayfalarının düzenlenmesi için görevler sağlar",
+	"action-social-tagging": "bağlantılı sayfaları düzenle",
+	"right-social-tagging": "Bağlantılı sayfaları düzenle"
+}

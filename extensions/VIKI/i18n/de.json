@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"viki-desc": "Erstellt eine Netzwerk-Grafik mit Links zwischen Wiki- oder Webseiten",
+	"viki-error-title": "Fehler:",
+	"viki-error-missing-pageTitle": "Du musst mindestens einen Seitentitel angeben.",
+	"viki-timeout-content-namespace": "Zeitüberschreitung beim Abruf des Inhaltsnamensraums für das Wiki: $1. Rückgriff auf den Hauptnamensraum.",
+	"viki-error-content-namespace": "Fehler beim Abruf des Inhaltsnamensraums für das Wiki: $1. Rückgriff auf den Hauptnamensraum.",
+	"viki-error-visit-node": "Fehler beim Versuch, den Knoten zu besuchen: $1.",
+	"viki-error-external-links": "Fehler beim Abrufen der externen Links für die Seite: $1.",
+	"viki-error-intrawiki-out": "Fehler beim Abrufen der ausgehenden Intrawiki-Links für die Seite: $1.",
+	"viki-error-intrawiki-in": "Fehler beim Abrufen der Intrawiki-Backlinks für die Seite: $1.",
+	"viki-error-https-node": "Fehler bei der Ausarbeitung des Knotens: $1. Du läufst über HTTPS. Du kannst nur auf andere Wikis über HTTPS zugreifen.",
+	"viki-error-https-namespace": "Fehler beim Abrufen des Inhaltsnamensraums für das Wiki: $1. Du läufst über HTTPS. Du kannst nur auf andere Wikis über HTTPS zugreifen.",
+	"apihelp-getContentNamespaces-description": "Ruft die Liste der Inhaltsnamensräume für dieses Wiki ab.",
+	"apihelp-getContentNamespaces-summary": "Ruft die Liste der Inhaltsnamensräume für dieses Wiki ab."
+}

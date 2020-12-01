@@ -1,0 +1,43 @@
+{
+	"name": "CountDownClock",
+	"author": [
+		"[https://meta.wikimedia.org/wiki/Indic-TechCom Indic-TechCom]"
+	],
+	"version": "1.0.0",
+	"url": "https://www.mediawiki.org/wiki/Extension:CountDownClock",
+	"descriptionmsg": "countDownClock-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"CountDownClock": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"CountDownClockHooks": "includes/CountDownClockHooks.php"
+	},
+	"ExtensionMessagesFiles": {
+		"CountDownClocknMagic": "CountDownClock.i18n.magic.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "CountDownClockHooks::onParserSetup"
+	},
+	"ResourceModules": {
+		"ext.countDownClock": {
+			"scripts": "ext.countDownClock.js",
+			"messages": [
+				"countDownClock-days",
+				"countDownClock-hours",
+				"countDownClock-minutes",
+				"countDownClock-seconds",
+				"countDownClock-expired"
+			],
+			"localBasePath": "resources",
+			"remoteExtPath": "CountDownClock/resources"
+		}
+	},
+	"manifest_version": 2
+}

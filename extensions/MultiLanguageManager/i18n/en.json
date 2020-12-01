@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth <wirth@hallowelt.com>"
+		]
+	},
+	"multilanguagemanager": "Multi language manager",
+	"mlm-desc": "Mediawiki extension to manage multi language in one MediaWiki.",
+	"action-language": "add, edit and delete translations using the MultiLanguageManager inferface",
+	"mlm-error-title-invalid": "Invalid page name",
+	"mlm-error-title-notexists": "Page \"$1\" does not exist",
+	"mlm-error-title-istalkpage": "\"$1\". Talk pages can not be translated",
+	"mlm-error-title-nsnotallowed": "\"$1\". Invalid namespace for translation",
+	"mlm-error-title-isalreadytranslation": "Page \"$1\" is already a translation",
+	"mlm-error-title-isalreadysource": "Page \"$1\" is already a source",
+	"mlm-error-title-isnottranslation": "Page \"$1\" is not a translation",
+	"mlm-error-lang-invalid": "Invalid language",
+	"mlm-error-lang-notallowed": "Language \"$1\" is not allowed for translation",
+	"mlm-error-lang-alreadytraslated": "There is already a translation for language \"$1\"",
+	"mlm-input-label-sourcetitle": "Source page",
+	"mlm-input-label-translationtitles": "Translation {{plural:$1|page|pages}}",
+	"mlm-input-label-add": "Add translation",
+	"mlm-input-label-save": "Save",
+	"mlm-input-label-delete": "Delete all translations",
+	"mlm-input-label-cancel": "Cancel",
+	"mlm-contentaction-label": "Manage translations",
+	"right-language": "Add, edit and delete translations using the MultiLanguageManager interface",
+	"apihelp-mlm-tasks-summary": "Manage translation tasks",
+	"apihelp-mlm-tasks-param-task": "The task that should be executed",
+	"apihelp-mlm-tasks-param-taskData": "JSON string encoded object with arbitrary data for the task",
+	"apihelp-mlm-tasks-param-format": "The format of the result",
+	"mlm-input-label-sourcetitle-section": "Defines the translations of:",
+	"mlm-input-label-translationtitles-section": "In the following language:"
+}

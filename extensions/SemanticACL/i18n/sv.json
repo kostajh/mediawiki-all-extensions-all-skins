@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Martinwiss",
+			"WikiPhoenix"
+		]
+	},
+	"sacl-desc": "Möjliggör att rättigheter tilldelas med hjälp av egenskaper från Semantiska MediaWiki",
+	"sacl-denied": "Du finns inte med på listan över de som har tillgång till den här sidan.",
+	"right-sacl-exempt": "Utdrag från Semantic ACL:er",
+	"sacl-property-visibility": "Synlig för",
+	"sacl-property-visibility-wl-group": "Synlig för grupp",
+	"sacl-property-visibility-wl-user": "Synlig för användare",
+	"sacl-property-editable": "Redigerbar för",
+	"sacl-property-editable-wl-group": "Redigerbar för grupp",
+	"sacl-property-editable-wl-user": "Redigerbar för användare",
+	"sacl-template-render-denied-anonymous": "<div class=\"errorbox\">Du måste [[Special:UserLogin|logga in]] för att visa denna mall.</div>",
+	"sacl-template-render-denied-registered": "<div class=\"errorbox\">Du har inte de nödvändiga behörigheterna för att visa denna mall.</div>"
+}

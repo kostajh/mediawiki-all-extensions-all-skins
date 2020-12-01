@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Brion Vibber <brion@pobox.com>",
+			"EugeneZelenko",
+			"Purodha",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"svgedit-editbutton-edit": "Text label on edit button on SVG File: pages",
+	"svgedit-summary-label": "{{Identical|Edit summary}}",
+	"svgedit-summary-default": "The pieces <code>/*</code> and <code>*/</code> must mot be modified.",
+	"svgedit-editor-save-close": "Editor button to save the SVG file and close the editor",
+	"svgedit-editor-close": "Editor button to close the editor without saving\n{{Identical|Cancel}}",
+	"svgedit-desc": "{{desc|name=SVG Edit|url=https://www.mediawiki.org/wiki/Extension:SVGEdit}}\n{{doc-important|Do not alter the link target URL \"<code>http://code.google.com/p/svg-edit/</code>\".}}",
+	"svgedit-edit-tab": "Used as edit button in a javascript client",
+	"svgedit-edit-tab-tooltip": "Used as tooltip of an edit button in a javascript client",
+	"svgedit-toolbar-insert": "Used as label in a javascript client"
+}

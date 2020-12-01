@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Jeroen N",
+			"Mainframe98",
+			"Ndecouck",
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"bs-insertcategory-desc": "Het dialoogvenster voor het invoeren van een categoriekoppeling",
+	"bs-insertcategory-insertcat": "Categorie invoegen",
+	"prefs-insertcategory": "Categorie invoegen",
+	"bs-insertcategory-pref-withparents": "Categorie invoegen met haar ouders",
+	"bs-insertcategory-title": "Categorie invoegen",
+	"bs-insertcategory-cat-label": "Toegewezen:",
+	"bs-insertcategory-success": "De categorie is toegevoegd",
+	"bs-insertcategory-failure": "Fout",
+	"bs-insertcategory-hint": "Let op: voor het toevoegen van een categorie drukt u op <kbd>Enter<kbd>.",
+	"bs-insertcategory-panel-title": "Categorieën",
+	"bs-insertcategory-category-editor-title": "Categorieën",
+	"bs-insertcategory-category-editor-implicit-categories-title": "Impliciete categorieën",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Alle verwijderen",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "Bewerken",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Bewerk de categorieën van deze pagina",
+	"bs-insertcategory-page-header-categories-edit-tooltip": "Bewerk de categorieën van deze pagina"
+}

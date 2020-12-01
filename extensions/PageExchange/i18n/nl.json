@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"pageexchange-desc": "Voegt de mogelijkheid toe voor het installeren van \"pakketten\" van voorgedefinieerde wikipagina's",
+	"packages": "Pakketten",
+	"pageexchange-installed": "Geïnstalleerd",
+	"pageexchange-available": "Beschikbaar",
+	"pageexchange-installpackage": "Installeer pakket: $1",
+	"pageexchange-updatepackage": "Pakket bijgewerkt: $1",
+	"pageexchange-uninstallpackage": "Verwijder pakket: $1",
+	"pageexchange-installpackagelog": "pakket $2 geïnstalleerd door $3",
+	"pageexchange-updatepackagelog": "pakket $2 bijgewerkt door $3",
+	"pageexchange-uninstallpackagelog": "pakket $2 verwijderd door $3",
+	"pageexchange-package-website": "Website:",
+	"pageexchange-package-publisher": "Uitgever:",
+	"pageexchange-package-author": "Auteur:",
+	"pageexchange-package-version": "Versie:",
+	"pageexchange-package-pages": "Pagina's:",
+	"pageexchange-package-language": "Taal:",
+	"pageexchange-package-requiredextensions": "Vereiste extensies:",
+	"pageexchange-package-requiredpackages": "Vereiste pakketten:",
+	"pageexchange-package-morerecent": "Er is een nieuwere versie van dit pakket beschikbaar dan de versie die momenteel op de wiki is geïnstalleerd.",
+	"pageexchange-package-install": "Installeren",
+	"pageexchange-package-update": "Bijwerken",
+	"pageexchange-package-uninstall": "Verwijderen",
+	"pageexchange-package-deleteallpages": "Verwijder alle bijhorende wikipagina's",
+	"pageexchange-pagehaschanged": "de laatste versie van deze pagina verschilt van de lokale kopie.",
+	"pageexchange-latestvalue": "(laatste waarde: $1)",
+	"pageexchange-uninstallablepackage": "Dit pakket kan niet worden geïnstalleerd, vanwege de volgende reden:",
+	"pageexchange-inappropriatepackage": "Dit pakket is mogelijk niet geschikt voor uw wiki; zie hier beneden.",
+	"pageexchange-packageinstalled": "Dit pakket is geïnstalleerd.",
+	"pageexchange-packageuninstalled": "Dit pakket is verwijdered.",
+	"pageexchange-packageupdated": "Dit pakket is bijgewerkt."
+}

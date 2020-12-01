@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"-jem-",
+			"Armando-Martin",
+			"Clarkcj12",
+			"Dmaza",
+			"Fitoschido",
+			"Kroji",
+			"Macofe",
+			"MarcoAurelio",
+			"Matiia",
+			"PoLuX124",
+			"Syum90"
+		]
+	},
+	"wikimediamessages-desc": "Mensajes temporales específicos de Wikimedia",
+	"grouppage-oversight": "{{ns:project}}:Supresores",
+	"group-oversight": "Supresores",
+	"group-oversight-member": "{{GENDER:$1|supresor|supresora}}",
+	"hello": "Hola",
+	"please-translate": "Por favor, ayuda a traducir a tu idioma",
+	"thank-you": "{{GENDER:$1|Gracias.}}",
+	"specialblockfeedback": "Sugerencias",
+	"specialinvestigate-feedback": "Dejar comentarios"
+}

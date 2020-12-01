@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"performanceinspector-pref-label": "Attive 'u spettore de le prestaziune",
+	"performanceinspector-dialog-summary": "Riepiloghe",
+	"performanceinspector-dialog-cancel": "Annulle",
+	"performanceinspector-modules-summary-total-size": "'A dimenzione totale de tutte le module",
+	"performanceinspector-modules-size-name": "Dimenzione de le module",
+	"performanceinspector-modules-size-label": "Dimenzione de le module",
+	"performanceinspector-modules-css-column-module": "Module",
+	"performanceinspector-newpp-column-name": "Nome",
+	"performanceinspector-newpp-column-value": "Valore",
+	"performanceinspector-newpp-template-time-report-column-name": "Nome",
+	"performanceinspector-newpp-template-time-report-column-calls": "Chiamate"
+}

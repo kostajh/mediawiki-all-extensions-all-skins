@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"emaildiff-desc": "Permite el envío de cambios en las notificaciones por correo electrónico",
+	"tog-emaildiff": "Enviar un \"diff\" de cambios",
+	"emaildiff-newpage": "Esta es una página nueva:\n\n$1",
+	"emaildiff-intro": "Diferencias de la versión:\n$1"
+}

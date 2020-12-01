@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"apihelp-parsoid-batch-description": "Пакетний API (для Parsoid) для здійснення пакетних запитів MediaWiki API",
+	"apihelp-parsoid-batch-summary": "Пакетний API для Parsoid",
+	"apihelp-parsoid-batch-param-batch": "Запити Action API (макс. 500 на збіг).",
+	"apierror-parsoid-batch-notallowed": "IP-адреси клієнта немає в ParsoidBatchAPI_AllowedIPs.",
+	"apierror-parsoid-batch-invalidbatch": "Недійсний пакет, повинен бути масив.",
+	"apierror-parsoid-batch-batchtoolarge": "Пакет надто великий, ліміт становить 500.",
+	"apierror-parsoid-batch-invalidaction": "Некоректна дія в індексі елемента $1.",
+	"apierror-parsoid-batch-texttoobig": "Введений текст перевищує максимальний розмір сторінки.",
+	"apierror-parsoid-batch-invalidtitle": "Недійсна назва ($1).",
+	"apierror-parsoid-batch-mustbescalar": "Параметр <var>$1</var> має бути скаляром.",
+	"apierror-parsoid-batch-mustbearray": "Параметр <var>$1</var> має бути масивом."
+}

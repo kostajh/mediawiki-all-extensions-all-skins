@@ -1,0 +1,26 @@
+== About ==
+
+The 'Stick to That Language' extension for MediaWiki will allow to choose an
+interface language. The 'uselang' url parameter is used to set that language
+for the current page and will be added to all links to other internal pages.
+This extension was designed to avoid cookies to remember the chosen language.
+
+This extension causes cache fragmentation. This means each page will be stored
+in the parser cache separately for each language after it got called once.
+Usage of the 'uselang' parameter as described above might disable the squid-
+cache from functioning. This might be solved by adjusting the squid caches
+configuration.
+
+* Website: https://www.mediawiki.org/wiki/Extension:Stick_to_That_Language
+* Authors: Daniel Werner < daniel.werner@wikimedia.de >
+* License: GNU GPL v2+
+
+
+== Installation ==
+
+Once you have downloaded the code, place the 'StickToThatLanguage' directory within your
+MediaWiki 'extensions' directory. Then add the following code to your
+[[Manual:LocalSettings.php|LocalSettings.php]] file:
+
+ # Stick to That Language
+ require_once( "$IP/extensions/StickToThatLanguage/StickToThatLanguage.php" );

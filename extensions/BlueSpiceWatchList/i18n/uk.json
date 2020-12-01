@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"bs-watchlist-desc": "Додає віджет і теґ списку спостереження",
+	"bs-watchlist-title-sidebar": "Список спостереження",
+	"bs-watchlist-pref-sort-time": "Час",
+	"bs-watchlist-pref-sort-title": "Назва",
+	"bs-watchlist-tag-watchlist-desc": "Показує список сторінок, які є у Вашому списку спостереження та мають найсвіжіші зміни.",
+	"bs-watchlist-window-watchlist-title": "Список спостереження",
+	"bs-watchlist-window-watchlist-intro": "Це — загальний огляд усіх сторінок у Вашому списку спостереження. Ви також можете перемкнутись на [[Special:Watchlist|сторінку класичного списку спостереження]].",
+	"bs-watchlist-grid-watchlist-column-link-header": "Сторінка",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Непереглянуті зміни",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Інспектувати зміни",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Сторінка обговорення",
+	"bs-watchlist-grid-watchlist-label-filter": "Фільтр"
+}

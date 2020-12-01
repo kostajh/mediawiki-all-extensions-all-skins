@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe",
+			"Miguel2706"
+		]
+	},
+	"quickresponse-desc": "Genera un código QR del URL de la página actual",
+	"quickresponse-text": "Código QR",
+	"quickresponse-tooltip": "Generar un código QR para el URL actual",
+	"quickresponse-title": "Aquí está tu código QR"
+}

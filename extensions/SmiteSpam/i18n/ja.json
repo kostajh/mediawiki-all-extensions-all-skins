@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Penn Station",
+			"Shirayuki",
+			"Sujiniku",
+			"Tmv"
+		]
+	},
+	"action-smitespam": "SmiteSpam 拡張機能の使用",
+	"smitespam-select": "選択:",
+	"smitespam-userdoesnotexist": "{{GENDER:$1|利用者}} 「$1」は存在しません。",
+	"smitespam-trust": "信頼",
+	"smitespam-trusted-user": "信頼された利用者",
+	"smitespam-timestamp": "タイムスタンプ",
+	"smitespam-trusting-admin": "信頼元の管理者",
+	"smitespam-remove": "除去",
+	"smitespam-block-reason": "スパム",
+	"smitespam-block": "ブロック",
+	"smitespam-blocked": "ブロック済",
+	"right-smitespam": "[[Special:SmiteSpam|SmiteSpam]] を管理",
+	"apierror-smitespam-duplicate": "ユーザーはすでに認証されています。"
+}

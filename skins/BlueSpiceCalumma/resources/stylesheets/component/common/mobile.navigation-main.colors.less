@@ -1,0 +1,12 @@
+body .navigation-main,
+body .navigation-main.active {
+	.sidebar-toggle[data-toggle~="navigation-main-collapse"] {
+		i.navigation-main-collapse::before {
+			color: @theme-navigation-main-fg-color;
+		}
+
+		&:hover i.navigation-main-collapse::before {
+			color: @theme-navigation-main-fg-color-hover;
+		}
+	}
+}

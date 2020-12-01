@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"slippymap_desc": "Permite o uso da etiqueta <tt><nowiki>&lt;slippymap&gt;</nowiki></tt> para amosar un mapa slippy. Os mapas son de [http://openstreetmap.org openstreetmap.org]",
+	"slippymap_latmissing": "Falta o valor lat (para a latitude).",
+	"slippymap_lonmissing": "Falta o valor lan (para a lonxitude).",
+	"slippymap_zoommissing": "Falta o valor z (para o nivel do zoom).",
+	"slippymap_longdepreciated": "Por favor, use \"lon\" no canto de \"long\" (o parámetro foi renomeado).",
+	"slippymap_widthnan": "o valor '$1' do ancho (w) non é un número enteiro válido",
+	"slippymap_heightnan": "o valor '$1' da altura (h) non é un número enteiro válido",
+	"slippymap_zoomnan": "o valor '$1' do zoom (z) non é un número enteiro válido",
+	"slippymap_latnan": "o valor '$1' da latitude (lat) non é un número enteiro válido",
+	"slippymap_lonnan": "o valor '$1' da lonxitude (lon) non é un número enteiro válido",
+	"slippymap_widthbig": "o valor do ancho (w) non pode ser máis de 1000",
+	"slippymap_widthsmall": "o valor do ancho (w) non pode ser menos de 100",
+	"slippymap_heightbig": "o valor da altura (h) non pode ser máis de 1000",
+	"slippymap_heightsmall": "o valor da altura (h) non pode ser menos de 100",
+	"slippymap_latbig": "o valor da latitude (lat) non pode ser máis de 90",
+	"slippymap_latsmall": "o valor da latitude (lat) non pode ser menos de -90",
+	"slippymap_lonbig": "o valor da lonxitude (lon) non pode ser máis de 180",
+	"slippymap_lonsmall": "o valor da lonxitude (lon) non pode ser menos de -180",
+	"slippymap_zoomsmall": "o valor do zoom (z) non pode ser menos de cero",
+	"slippymap_zoom18": "o valor do zoom (z) non pode ser máis de 17. Déase conta de que esta extensión MediaWiki asocia no OpenStreetMap a capa \"osmarender\", que non vai máis alá do nivel 17 do zoom. A capa Mapnik dispoñible en openstreetmap.org, vai máis aló do nivel 18",
+	"slippymap_zoombig": "o valor do zoom (z) non pode ser máis de 17.",
+	"slippymap_invalidlayer": "Valor '$1' da \"capa\" inválido",
+	"slippymap_maperror": "Erro no mapa:",
+	"slippymap_osmtext": "Vexa este mapa en OpenStreetMap.org",
+	"slippymap_code": "Código wiki para o visionado deste mapa:",
+	"slippymap_button_code": "Obter o código wiki",
+	"slippymap_resetview": "Axustar a vista"
+}

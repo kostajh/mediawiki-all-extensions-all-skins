@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"sidebarmenu-desc": "Парсер за проста странична лента што создава расклопни менија и подменија во неа",
+	"sidebarmenu-parser-input-error": "Расчленувачот ја даде грешката: $1",
+	"sidebarmenu-parser-syntax-error": "Не можам да го предадам редот „$1“. Проверете дали синтаксата е исправна.",
+	"sidebarmenu-js-init-error": "Вчитувањето на ресурсите на JavaScript не успеа.",
+	"sidebarmenu-edit": "Уреди",
+	"sidebarmenu-parser-menuitem-expanded-null": "Зададена е неважечка вредност. Треба да биде „true“, „false“ или да стои незададена.",
+	"sidebarmenu-parser-config-error": "Се појавија грешки при потврдувањето на вносните параметри",
+	"sidebarmenu-parser-subpage-error-title-not-found": "Не можев да го најдам наведениот наслов на потстраницата"
+}

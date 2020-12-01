@@ -1,0 +1,129 @@
+.mw-globalprefs-global-check .mw-label,
+.mw-globalprefs-global-check label {
+	display: none;
+}
+
+/* For core fields */
+.mw-htmlform-field-HTMLAutoCompleteSelectField,
+.mw-htmlform-field-HTMLButtonField,
+.mw-htmlform-field-HTMLCheckField,
+.mw-htmlform-field-HTMLCheckMatrix,
+.mw-htmlform-field-HTMLComboboxField,
+.mw-htmlform-field-HTMLDateTimeField,
+.mw-htmlform-field-HTMLEditTools,
+.mw-htmlform-field-HTMLFloatField,
+.mw-htmlform-field-HTMLFormFieldCloner,
+.mw-htmlform-field-HTMLFormFieldWithButton,
+.mw-htmlform-field-HTMLHiddenField,
+.mw-htmlform-field-HTMLInfoField,
+.mw-htmlform-field-HTMLIntField,
+.mw-htmlform-field-HTMLMultiSelectField,
+.mw-htmlform-field-HTMLRadioField,
+.mw-htmlform-field-HTMLRestrictionsField,
+.mw-htmlform-field-HTMLSelectAndOtherField,
+.mw-htmlform-field-HTMLSelectField,
+.mw-htmlform-field-HTMLSelectLimitField,
+.mw-htmlform-field-HTMLSelectNamespace,
+.mw-htmlform-field-HTMLSelectNamespaceWithButton,
+.mw-htmlform-field-HTMLSelectOrOtherField,
+.mw-htmlform-field-HTMLSizeFilterField,
+.mw-htmlform-field-HTMLSubmitField,
+.mw-htmlform-field-HTMLTagFilter,
+.mw-htmlform-field-HTMLTextAreaField,
+.mw-htmlform-field-HTMLTextField,
+.mw-htmlform-field-HTMLTextFieldWithButton,
+.mw-htmlform-field-HTMLTitleTextField,
+.mw-htmlform-field-HTMLUsersMultiselectField,
+.mw-htmlform-field-HTMLUserTextField,
+/* For Extension:BetaFeatures */
+.mw-htmlform-field-NewHTMLCheckField,
+.mw-htmlform-field-HTMLFeatureField,
+/* For Extension:GlobalPrefences */
+.mw-special-GlobalPreferences .htmlform-tip {
+	padding-left: 7%;
+}
+
+div.mw-input,
+div.mw-label {
+	display: table-cell;
+}
+/* Extension:BetaFeatures does other styling and we don't want to interfere. */
+.mw-htmlform-field-NewHTMLCheckField div.mw-input,
+.mw-htmlform-field-HTMLFeatureField div.mw-input {
+	display: block;
+}
+/* Make field labels a consistent width so their fields line up to the right (or left, in RTL). */
+div.mw-label {
+	width: 20em;
+	padding-right: 0.5em;
+}
+
+div.mw-globalprefs-global-check {
+	padding-left: 0;
+	float: left;
+	clear: left;
+	width: 5%;
+	min-width: 2em;
+	text-align: left;
+}
+
+div.mw-globalprefs-global-check div.mw-input,
+div.mw-htmlform-field-HTMLUsersMultiselectField div.mw-input {
+	display: inline;
+}
+
+div.mw-globalprefs-global-check input.mw-globalprefs-global-check {
+	float: none;
+	width: auto;
+}
+
+.globalprefs-section-header {
+	/* Embolden the column header (both JS and non-JS). */
+	font-weight: bold;
+}
+
+.globalprefs-section-header .oo-ui-fieldLayout-header {
+	/* stylelint-disable-next-line declaration-no-important */
+	padding-left: 0.857125em !important; /* Equals ~12px at base `font-size` of 14px; Increasing slightly over normal distance to emphasize importance of first checkbox */
+}
+
+/* Hack: Fix top margin change caused by upstream hack */
+.globalprefs-section-header.oo-ui-fieldLayout.oo-ui-fieldLayout-align-inline:first-child {
+	margin-top: 0.857125em;
+}
+
+.client-js #preferences .oo-ui-panelLayout-framed .oo-ui-panelLayout-framed .globalprefs-section-header {
+	margin-top: 0;
+}
+
+.client-nojs .globalprefs-section-header .oo-ui-fieldLayout-field {
+	/* Select all checkbox won't work without JS, so hide */
+	/* stylelint-disable-next-line declaration-no-important */
+	display: none !important;
+}
+
+.client-nojs .globalprefs-section-header .oo-ui-fieldLayout-header {
+	/* Label is still meaningful without the checkbox. Fix alignment */
+	/* stylelint-disable-next-line declaration-no-important */
+	padding-left: 0 !important; /* Equals ~12px at base `font-size` of 14px; Increasing slightly over normal distance to emphasize importance of first checkbox */
+}
+
+/* Style fixes for Extension:BetaFeatures. */
+fieldset#mw-prefsection-betafeatures .mw-globalprefs-global-check .mw-input {
+	/* To match .mw-htmlform-field-HTMLFeatureField .mw-input */
+	padding-top: 10px;
+	/* To match .oo-ui-fieldLayout.oo-ui-labelElement > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header > .oo-ui-labelElement-label */
+	font-size: 24px;
+	margin-top: 0.3em;
+}
+
+fieldset#mw-prefsection-betafeatures .mw-globalprefs-checkbox-for-betafeatures-auto-enroll .mw-input {
+	padding-top: 0;
+	font-size: inherit;
+	margin-top: 0;
+}
+
+/* Hide user counts as they're for current wiki only */
+.mw-ui-feature-user-count {
+	display: none;
+}

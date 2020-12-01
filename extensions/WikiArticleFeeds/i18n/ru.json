@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras",
+			"Александр Сигачёв"
+		]
+	},
+	"wikiarticlefeeds-desc": "Создаёт каналы на основе статей MediaWiki",
+	"wikiarticlefeeds-tracking-category": "Страницы, генерирующие RSS-каналы",
+	"wikiarticlefeeds-tracking-category-desc": "Эта страница генерирует RSS-канал.",
+	"wikiarticlefeeds_combined_description": "Это составной канал, содержащий материалы из нескольких источников."
+}

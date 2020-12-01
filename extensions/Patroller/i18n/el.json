@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Consta",
+			"Dada",
+			"Konsnos",
+			"ZaDiak"
+		]
+	},
+	"patrol": "Επεξεργασίες περιπολίας",
+	"patrol-endorse": "Επικυρώστε",
+	"patrol-revert": "Αναίρεση",
+	"patrol-revert-reason": "Λόγος:",
+	"patrol-skip": "Παράβλεψη",
+	"patrol-reverting": "Επαναφορά: $1",
+	"patrol-endorsed-ok": "Η επεξεργασία σημάνθηκε ως περιπολημένο.",
+	"patrol-endorsed-failed": "Η επεξεργασία δεν μπορεί να σημανθεί ως υπό περιπολία.",
+	"patrol-reverted-ok": "Η επεξεργασία αναστράφηκε.",
+	"patrol-reverted-failed": "Η επεξεργασία δεν μπορούσε να αναστραφεί.",
+	"patrol-skipped-ok": "Αγνόηση επεξεργασίας.",
+	"patrol-reasons": "* Βανδαλισμός \n* Δοκιμή νέου χρήστη \n* Βλέπε σελίδα συζήτησης",
+	"patrol-another": "Προβολή άλλης επεξεργασίας, εάν είναι διαθέσιμη.",
+	"patrol-resume": "Πατήστε εδώ για συνέχεια.",
+	"group-patroller": "Περιπολητές",
+	"group-patroller-member": "περιπολητής",
+	"grouppage-patroller": "{{ns:project}}:Περιπολητής",
+	"right-patroller": "Σελίδες περιπολίας"
+}

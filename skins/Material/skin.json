@@ -1,0 +1,76 @@
+{
+	"name": "Material",
+	"namemsg": "skinname-material",
+	"version": "1.4.0",
+	"author": [
+		"[https://mediawiki.org/wiki/User:SamanthaNguyen SamanthaNguyen]",
+		"[https://mediawiki.org/wiki/User:MtMNC MtMNC]",
+		"[https://mediawiki.org/wiki/User:Jack_Phoenix Jack Phoenix]",
+		"[https://mediawiki.org/wiki/User:George_Barnick George Barnick]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Material",
+	"descriptionmsg": "material-desc",
+	"license-name": "GPL-3.0-or-later",
+	"requires": {
+		"MediaWiki": ">=1.26.0"
+	},
+	"type": "skin",
+	"ValidSkinNames": {
+		"material": "Material"
+	},
+	"AutoloadClasses": {
+		"SkinMaterial": "Material.skin.php",
+		"MaterialTemplate": "Material.skin.php"
+	},
+	"MessagesDirs": {
+		"Material": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Material"
+	},
+	"ResourceModules": {
+		"skins.material.components": {
+			"styles": {
+				"material/styles/components/md-ui.components.datatable.less": {
+					"media": "screen"
+				},
+				"material/styles/components/md-ui.components.footer.less": {
+					"media": "screen"
+				},
+				"material/styles/components/md-ui.components.header.less": {
+					"media": "screen"
+				},
+				"material/styles/components/md-ui.components.sidebar.less": {
+					"media": "screen"
+				},
+				"material/styles/components/md-ui.components.tabs.less": {
+					"media": "screen"
+				}
+			}
+		},
+		"skins.material.base": {
+			"styles": {
+				"material/styles/base/md-ui.base.colors.less": {
+					"media": "screen"
+				},
+				"material/styles/base/md-ui.base.variables.less": {
+					"media": "screen"
+				},
+				"material/styles/base/md-ui.base.main.less": {
+					"media": "screen"
+				}
+			}
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"material": {
+			"+mediawiki.skinning.interface": "material/styles/mediawiki/skinning.interface.less",
+			"+mediawiki.special.preferences.styles": "material/styles/mediawiki/specials.preferences.styles.less",
+			"+mediawiki.toc": "material/styles/mediawiki/toc.less"
+		}
+	},
+	"manifest_version": 1
+}

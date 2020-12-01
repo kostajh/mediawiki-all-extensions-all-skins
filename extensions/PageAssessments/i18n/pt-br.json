@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr03ramos",
+			"Felipe L. Ewald"
+		]
+	},
+	"pageassessments-desc": "Esta extensão é para armazenar avaliações de página em uma tabela de banco de dados com a ajuda de uma função de analisador",
+	"pageassessments-special": "Avaliações de página",
+	"pageassessments-project": "Projeto",
+	"pageassessments-page-namespace": "Domínio da página",
+	"pageassessments-page-title": "Título da página",
+	"pageassessments-search": "Pesquisar",
+	"pageassessments-importance": "Importância",
+	"pageassessments-class": "Classe",
+	"pageassessments-timestamp": "Data e hora",
+	"pageassessments-total-results": "Resultados totais: $1",
+	"pageassessments-error-namespace-filter": "Por favor digite um nome de projeto ou título de página."
+}

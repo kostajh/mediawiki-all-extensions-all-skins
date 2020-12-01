@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"msc-desc": "Engade a etiqueta <code>&lt;mscalendar&gt;</code> para inserir calendarios en páxinas wiki",
+	"msc-noname": "Todos os calendarios deben ter un nome",
+	"msc-notfirstday": "Atención, este evento é periódico",
+	"msc-change": "Confirmar",
+	"msc-remove": "Eliminar este evento",
+	"msc-create": "Confirmar",
+	"msc-cancel": "Cancelar",
+	"msc-eventname": "Nome do eventoː",
+	"msc-eventdate": "Data:",
+	"msc-eventduration": "Duración en días:",
+	"msc-eventyearly": "Evento anual",
+	"msc-eventedit": "Editar este evento",
+	"msc-eventcreate": "Crear novo evento",
+	"msc-today": "Hoxe",
+	"msc-todaylabel": "Ir á data actual",
+	"msc-months": "xaneiro, febreiro, marzo, abril, maio, xuño, xullo, agosto, setembro, outubro, novembro, decembro",
+	"msc-days": "domingo,luns,martes,mércores,xoves,venres,sábado"
+}

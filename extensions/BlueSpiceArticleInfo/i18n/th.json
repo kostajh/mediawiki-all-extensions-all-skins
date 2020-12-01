@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Ans"
+		]
+	},
+	"bs-articleinfo-desc": "แสดงข้อมูลเกี่ยวกับหน้าในแถบสถานะ",
+	"prefs-articleinfo": "สารสนเทศหน้า",
+	"bs-articleinfo-pref-CheckRevisionInterval": "ระยะห่างการอัปเดตในหน่วยวินาที:",
+	"bs-articleinfo-flyout-title": "ข้อมูลหน้า",
+	"bs-articleinfo-flyout-intro": "คุณจะพบข้อมูลที่เกี่ยวข้องกับหน้าที่นี่ คุณสามารถตรวจสอบคุณภาพและความทันสมัย รวมทั้งดูความเกี่ยวข้องกับหน้าอื่นในวิกิได้",
+	"bs-articleinfo-nav-link-title": "ข้อมูลหน้า",
+	"bs-articleinfo-flyout-categorylinks-title": "หมวดหมู่",
+	"bs-articleinfo-flyout-templatelinks-title": "แม่แบบที่ใช้บนหน้า",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "ไม่ได้กำหนดหมวดหมู่ใดๆ",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "ไม่ได้ใช้แม่แบบใดๆ",
+	"bs-articleinfo-flyout-lasteditedtime-text": "แก้ไขล่าสุด",
+	"bs-articleinfo-flyout-lastediteduser-text": "ผู้แก้ไขคนล่าสุด",
+	"bs-articleinfo-newrevision-info-text": "หน้านี้มีรุ่นใหม่ที่พร้อมใช้งาน โปรดโหลดหน้าใหม่เพื่อดูเนื้อหาปัจจุบัน",
+	"bs-articleinfo-flyout-subpages-title": "หน้าย่อย",
+	"bs-articleinfo-pagetool-subpages-tooltip": "หน้าย่อย",
+	"bs-articleinfo-dialog-subpages-title": "หน้าย่อย"
+}

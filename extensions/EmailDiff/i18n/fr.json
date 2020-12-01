@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"emaildiff-desc": "Permettre l’envoi de différences de textes dans les courriels de notification",
+	"tog-emaildiff": "Envoyer une différence des modifications",
+	"emaildiff-newpage": "Ceci est une nouvelle page :\n\n$1",
+	"emaildiff-intro": "Différences de la version :\n$1"
+}

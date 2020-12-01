@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carlosmg.dg",
+			"Fitoschido",
+			"Mynor Archila"
+		]
+	},
+	"addpersonalurls-desc": "Añadir algunos elementos a los URL personales",
+	"addpersonalurls-preload": "Funciona como cualquier otra página del wiki; en concreto, otros usuarios pueden verla o modificarla.",
+	"addpersonalurls-userpages": "Mis páginas",
+	"addpersonalurls-home": "Inicio",
+	"addpersonalurls-home-preload": "Puedes utilizar esta página como tu página de inicio personal.",
+	"addpersonalurls-favorites": "Favoritos",
+	"addpersonalurls-favorites-preload": "Puedes utilizar esta página para almacenar tus favoritos.",
+	"addpersonalurls-sandbox": "Zona de pruebas",
+	"addpersonalurls-sandbox-preload": "Puedes utilizar esta página para probar código wiki.",
+	"addpersonalurls-notes": "Notas",
+	"addpersonalurls-notes-preload": "Puede usar esta página para sus notas personales."
+}

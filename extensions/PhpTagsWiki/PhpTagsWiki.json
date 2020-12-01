@@ -1,0 +1,440 @@
+{
+	"objects": {
+		"W": {
+			"class": "WikiW",
+			"CONSTANTS": {
+				"CONTENT_LANGUAGE": {
+					"type": "string",
+					"desc": "Site language code ($wgLanguageCode)",
+					"MW": "CONTENTLANGUAGE"
+				},
+				"CURRENT_USER_NAME": {
+					"type": "string",
+					"desc": "Name of current user. It disables cache on the page"
+				},
+				"CURRENT_VERSION": {
+					"type": "string",
+					"desc": "The MediaWiki version with SVN revision if available",
+					"MW": "CURRENTVERSION"
+				},
+				"MAIN_PAGE": {
+					"type": "WTitle",
+					"desc": "Returns WTitle object for the Main Page"
+				},
+				"SERVER": {
+					"type": "string",
+					"desc": "The base URL of the server ($wgServer)",
+					"MW": "SERVER"
+				},
+				"SERVER_NAME": {
+					"type": "string",
+					"desc": "The base URL of the server",
+					"MW": "SERVERNAME"
+				},
+				"SITE_NAME": {
+					"type": "string",
+					"desc": "The wiki's site name ($wgSitename)",
+					"MW": "SITENAME"
+				},
+				"SCRIPT_PATH": {
+					"type": "string",
+					"desc": "Relative script path ($wgScriptPath)",
+					"MW": "SCRIPTPATH"
+				},
+				"STYLE_PATH": {
+					"type": "string",
+					"desc": "Relative style path ($wgStylePath)",
+					"MW": "STYLEPATH"
+				}
+			}
+		},
+		"WCache": {
+			"class": "WikiWCache",
+			"STATIC METHODS": {
+				"disableCache": {
+					"parameters": [],
+					"return": "void",
+					"desc": "Set a flag in current page indicating that the content is dynamic and shouldn't be cached"
+				}
+			},
+			"STATIC PROPERTIES": {
+				"cacheExpiry": {
+					"type": "int",
+					"desc": "The number of seconds after which cache of current page should expire"
+				}
+			},
+			"CONSTANTS": {
+				"CACHE_TIME": {
+					"type": "DateTime",
+					"desc": "Time when current page was generated"
+				},
+				"CACHE_TIME_STRING": {
+					"type": "string",
+					"desc": "Time when current page was generated"
+				}
+			}
+		},
+		"WCategory": {
+			"class": "WikiWCategory",
+			"METHODS": {
+				"__construct" : {
+					"parameters": [
+						{ "type": "mixed", "name": "name" }
+					],
+					"return": "WCategory",
+					"desc": "Returns new WCategory object",
+					"expensive": 1
+				}
+			},
+			"PROPERTIES": {
+				"id": {
+					"type": "int",
+					"desc": "Gets category ID, or false on failure",
+					"readonly": 1
+				},
+				"name": {
+					"type": "string",
+					"desc": "Gets DB key name, or false on failure",
+					"readonly": 1
+				},
+				"title": {
+					"type": "WTitle",
+					"desc": "Gets WTitle of the category, or false on failure",
+					"readonly": 1
+				},
+				"memberCount": {
+					"type": "int",
+					"desc": "Gets total number of member pages and subcategories and files, or false on failure",
+					"readonly": 1
+				},
+				"pageCount": {
+					"type": "int",
+					"desc": "Gets total number of member pages, or false on failure",
+					"readonly": 1
+				},
+				"fileCount": {
+					"type": "int",
+					"desc": "Gets total number of member files, or false on failure",
+					"readonly": 1
+				},
+				"subcatCount": {
+					"type": "int",
+					"desc": "Gets total number of member subcategories, or false on failure",
+					"readonly": 1
+				}
+			}
+		},
+		"WPage": {
+			"class": "WikiWPage",
+			"STATIC METHODS": {
+				"addCategory": {
+					"parameters": [
+						{ "type": "mixed", "name": "category" },
+						{ "type": "string", "name": "sortkey", "default": "" }
+					],
+					"return": "void",
+					"onfailure": "false",
+					"desc": "Add current page to specified category"
+				}
+			},
+			"STATIC PROPERTIES": {
+				"defaultSortKey": {
+					"type": "string",
+					"desc": "Current page's default sort key for categories"
+				},
+				"DEFAULT_SORT_KEY": {
+					"type": "string",
+					"desc": "Deprecated, please use defaultSortKey static property!!!"
+				}
+			},
+			"CONSTANTS": {
+				"ID": {
+					"type": "int",
+					"desc": "Current page's identifier",
+					"MW": "PAGEID"
+				},
+				"TITLE": {
+					"type": "WTitle",
+					"desc": "Current page's WTitle object"
+				}
+			}
+		},
+		"WStats": {
+			"class": "WikiWStats",
+			"CONSTANTS": {
+				"ACTIVE_USERS": {
+					"type": "int",
+					"desc": "Number of active users, based on the criteria used in Special:Statistics",
+					"MW": "NUMBEROFACTIVEUSERS"
+				},
+				"ADMINS": {
+					"type": "int",
+					"desc": "Number of users in the sysop group",
+					"MW": "NUMBEROFADMINS"
+				},
+				"ARTICLES": {
+					"type": "int",
+					"desc": "Number of pages in content namespaces",
+					"MW": "NUMBEROFARTICLES"
+				},
+				"EDITS": {
+					"type": "int",
+					"desc": "Number of wiki edits",
+					"MW": "NUMBEROFEDITS"
+				},
+				"FILES": {
+					"type": "int",
+					"desc": "Number of uploaded files",
+					"MW": "NUMBEROFFILES"
+				},
+				"PAGES": {
+					"type": "int",
+					"desc": "Number of wiki pages",
+					"MW": "NUMBEROFPAGES"
+				},
+				"USERS": {
+					"type": "int",
+					"desc": "Number of registered users",
+					"MW": "NUMBEROFUSERS"
+				},
+				"JOBS": {
+					"type": "int",
+					"desc": "Size of of the job queue"
+				}
+			}
+		},
+		"WTitle": {
+			"class": "WikiWTitle",
+			"METHODS": {
+				"__construct": {
+					"parameters": [
+						{ "type": "mixed", "name": "name" },
+						{ "type": "int", "name": "namespace", "default": "NS_MAIN" },
+						{ "type": "string", "name": "fragment", "default": "" }
+					],
+					"return": "WTitle",
+					"desc": "Returns new WTitle object"
+				},
+				"fullUrl": {
+					"parameters": [
+						{ "type": "array", "name": "query", "default": "" }
+					],
+					"return": "string",
+					"desc": "Get a real URL referring to this title"
+				},
+				"getPageImage": {
+					"parameters": [],
+					"return": "WidgetImage",
+					"desc": "Returns page image"
+				},
+				"getImageWidgets": {
+					"parameters": [
+						{ "type": "int", "name": "limit", "default": "100" }
+					],
+					"return": "WidgetImage[]",
+					"desc": "Returns images"
+				},
+				"getExtractChars": {
+					"parameters": [
+						{ "type": "int", "name": "length" }
+					],
+					"return": "string",
+					"desc": "Returns no more than a requested number of extracts characters, preserving words"
+				},
+				"getExtractSentences": {
+					"parameters": [
+						{ "type": "int", "name": "length" }
+					],
+					"return": "string",
+					"desc": "Returns no more than a requested number of extracts sentences"
+				}
+			},
+			"PROPERTIES": {
+				"nsText": {
+					"type": "string",
+					"desc": "Get the namespace text",
+					"readonly": 1
+				},
+				"nsNumber": {
+					"type": "int",
+					"desc": "Get ID of the page's namespace",
+					"readonly": 1
+				},
+				"name": {
+					"type": "string",
+					"desc": "Get full page title without the namespace",
+					"readonly": 1
+				},
+				"fullName": {
+					"type": "string",
+					"desc": "Get namespace and full page title",
+					"readonly": 1
+				},
+				"baseName": {
+					"type": "string",
+					"desc": "Get title of the page in the immediately superior subpage level without the namespace ('Title/foo' on 'Help:Title/foo/bar')",
+					"readonly": 1
+				},
+				"subpageName": {
+					"type": "string",
+					"desc": "The subpage title ('bar' on 'Help:Title/foo/bar')",
+					"readonly": 1
+				},
+				"rootName": {
+					"type": "string",
+					"desc": "Name of the root of the title. Would return Foo for title Help:Foo/Bar/Baz",
+					"readonly": 1
+				},
+				"subjectNsText": {
+					"type": "string",
+					"desc": "Name of the associated content namespace",
+					"readonly": 1
+				},
+				"subjectNsNumber": {
+					"type": "int",
+					"desc": "ID of the associated content namespace",
+					"readonly": 1
+				},
+				"talkNsText": {
+					"type": "string",
+					"desc": "Name of the associated talk namespace",
+					"readonly": 1
+				},
+				"talkNsNumber": {
+					"type": "int",
+					"desc": "ID of the associated talk namespace",
+					"readonly": 1
+				},
+				"isContentPage": {
+					"type": "bool",
+					"desc": "Is this Title in a namespace which contains content?",
+					"readonly": 1
+				},
+				"isMovable": {
+					"type": "bool",
+					"desc": "Would anybody with sufficient privileges be able to move this page?",
+					"readonly": 1
+				},
+				"isMainPage": {
+					"type": "bool",
+					"desc": "Is this the main page?",
+					"readonly": 1
+				},
+				"ID": {
+					"type": "int",
+					"desc": "Article ID",
+					"readonly": 1
+				},
+				"DBKey": {
+					"type": "string",
+					"desc": "Article DB Key (main part of page name with underscores)",
+					"readonly": 1
+				},
+				"pageImage": {
+					"type": "string",
+					"desc": "Page Image",
+					"readonly": 1
+				},
+				"wikitext": {
+					"type": "string",
+					"desc": "Wikitext source",
+					"readonly": 1
+				},
+				"extract": {
+					"type": "string",
+					"desc": "Extracts of page content",
+					"readonly": 1
+				},
+				"exists": {
+					"type": "bool",
+					"desc": "Check if page exists",
+					"readonly": 1
+				}
+			},
+			"CONSTANTS": {
+				"NS_TEXT": {
+					"type": "string",
+					"desc": "Current page's namespace text",
+					"MW": "NAMESPACE"
+				},
+				"NS_NUMBER": {
+					"type": "int",
+					"desc": "ID of current page's namespace",
+					"MW": "NAMESPACENUMBER"
+				},
+				"NAME": {
+					"type": "string",
+					"desc": "Current page title without the namespace",
+					"MW": "PAGENAME"
+				},
+				"FULL_NAME": {
+					"type": "string",
+					"desc": "Current page namespace and title",
+					"MW": "FULLPAGENAME"
+				},
+				"BASE_NAME": {
+					"type": "string",
+					"desc": "Page title of current page in the immediately superior subpage level without the namespace ('Title/foo' on 'Help:Title/foo/bar')",
+					"MW": "BASEPAGENAME"
+				},
+				"SUBPAGE_NAME": {
+					"type": "string",
+					"desc": "The subpage title of current page ('bar' on 'Help:Title/foo/bar')",
+					"MW": "SUBPAGENAME"
+				},
+				"ROOT_NAME": {
+					"type": "string",
+					"desc": "Name of the root of the current page. Would return Foo on page Help:Foo/Bar/Baz",
+					"MW": "ROOTPAGENAME"
+				},
+				"SUBJECT_NS_TEXT": {
+					"type": "string",
+					"desc": "Name of the associated content namespace",
+					"MW": "SUBJECTSPACE"
+				},
+				"SUBJECT_NS_NUMBER": {
+					"type": "int",
+					"desc": "ID of the associated content namespace"
+				},
+				"TALK_NS_TEXT": {
+					"type": "string",
+					"desc": "Name of the associated talk namespace",
+					"MW": "TALKSPACE"
+				},
+				"TALK_NS_NUMBER": {
+					"type": "int",
+					"desc": "ID of the associated talk namespace"
+				},
+				"IS_CONTENT_PAGE": {
+					"type": "bool",
+					"desc": "Is this Title of current page in a namespace which contains content?"
+				},
+				"IS_MOVABLE": {
+					"type": "bool",
+					"desc": "Would anybody with sufficient privileges be able to move current page?"
+				},
+				"IS_MAIN_PAGE": {
+					"type": "bool",
+					"desc": "Is current page the main page?"
+				},
+				"ID": {
+					"type": "int",
+					"desc": "Article ID of current page"
+				},
+				"DB_KEY": {
+					"type": "string",
+					"desc": "Article DB Key (main part of current page name with underscores)"
+				}
+			}
+		}
+	},
+	"constants": {
+		"PHPTAGS_WIKI_VERSION" : {
+			"desc": "The current version of the PhpTags Wiki extension as a string",
+			"class": "WikiW",
+			"type": "string",
+			"example": "3.1.7",
+			"link": "https://www.mediawiki.org/wiki/Extension:PhpTags_Wiki"
+		}
+	}
+}

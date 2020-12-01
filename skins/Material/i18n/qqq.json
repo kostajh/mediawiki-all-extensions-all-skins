@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Umherirrender"
+		]
+	},
+	"skinname-material": "{{name}}",
+	"material-desc": "{{desc|what=skin|name=Material|url=https://www.mediawiki.org/wiki/Skin:Material}}",
+	"material.css": "{{optional}}",
+	"material.js": "{{optional}}",
+	"material-guest": "Used for descbribing you as a guest editing the wiki.\n{{Identical|Guest}}"
+}

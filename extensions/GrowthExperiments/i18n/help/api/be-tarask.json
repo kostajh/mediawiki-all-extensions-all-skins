@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"apihelp-helppanelquestionposter-summary": "Апрацоўка пытаньняў, разьмешчаных праз панэль дапамогі, для цяперашняга ўдзельніка.",
+	"apihelp-helppanelquestionposter-param-body": "Тэкст пытаньня, зададзенага ўдзельнікам.",
+	"apihelp-helppanelquestionposter-param-relevanttitle": "Адпаведная назва, калі абраная, для ўключэньня разам з пытаньнем."
+}

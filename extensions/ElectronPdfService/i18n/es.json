@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"electronpdfservice": "ElectronPdfService",
+	"electronpdfservice-desc": "Permite mostrar archivos PDF en el navegador mediante el servicio Electron PDF",
+	"electronpdfservice-special-page-headline": "Descargar en PDF",
+	"electronpdfservice-download-label": "Descargar como PDF",
+	"electronpdfservice-download-button": "Descargar",
+	"electronpdfservice-sidebar-portlet-heading": "Imprimir/exportar",
+	"electronpdfservice-sidebar-portlet-print-text": "Descargar en PDF",
+	"electronpdfservice-invalid-page-title": "Página no válida",
+	"electronpdfservice-invalid-page-text": "La página especificada no es válida."
+}

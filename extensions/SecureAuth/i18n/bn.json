@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"secureauth-desc": "প্রবেশ করার জন্য ব্যবহারকারীকে তার আইপি যোগ করার অনুমতি দেয়। অন্য আইপি থেকে প্রবেশকরণ ব্যর্থ হবে।",
+	"secureauthinfo": "নিরাপদপ্রমাণীতথ্য",
+	"special-secureauth-info": "নিরাপদ প্রমাণীকরণ তথ্য",
+	"secureauth-info-userinfo": "ব্যবহারকারীর তথ্য",
+	"secureauth-current-ip": "আপনার বর্তমান আইপি:",
+	"secureauth-whitelist-ip": "আইপিগুলি যায় আপনার ব্যবহারকারী প্রবেশের জন্য সাদাতালিকাভুক্ত:"
+}

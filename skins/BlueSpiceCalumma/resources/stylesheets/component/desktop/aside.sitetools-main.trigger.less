@@ -1,0 +1,44 @@
+body .sitetools-main {
+	.sidebar-toggle[data-toggle~="sitetools-main-collapse"]{
+		display: block;
+		position: fixed;
+		width: 48px;
+		padding: 1em;
+		right: @sitetools-main-width;
+		top: @theme-header-height;
+		transition: right .3s;
+		z-index: 11;
+		i.sitetools-main-collapse::before{
+			font-family: 'entypo';
+			content: "\e93c";
+			font-style: initial;
+			font-size: 21px;
+			line-height: 33px;
+			transition: font-size .1s;
+			transition-delay: .3s;
+			float: right;
+			font-style: normal;
+		}
+		&:hover{
+			text-decoration: none;
+			background-color: transparent;
+		}
+		&:focus{
+			text-decoration: none;
+		}
+	}
+}
+
+body.sitetools-main-collapse {
+	.sidebar-toggle[data-toggle~="sitetools-main-collapse"]{
+		right: 0;
+		transition: right .3s;
+		width: 80px;
+		i.sitetools-main-collapse::before{
+			font-size: 31px;
+			float: left;
+			transition: font-size .1s;
+			transition-delay: .3s;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"pluggablesso-desc": "Usa a autenticação unificada, fornecida pelo servidor web em $REMOTE_USER em conjunto com PluggableAuth",
+	"pluggablesso-no-session": "Não tenho nome de usuário, a sessão falhou de alguma forma.",
+	"pluggablesso-username-mismatch": "O nome de usuário não combinou a sessão"
+}

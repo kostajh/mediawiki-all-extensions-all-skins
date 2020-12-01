@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"updatemediawiki": "Поднова на МедијаВики",
+	"updatemediawiki-desc": "Овозможува поднова на МедијаВики преку службена страница",
+	"updatemediawiki-current": "Тековна верзија $1",
+	"updatemediawiki-update-nofound": "Не пронајдов поднова",
+	"updatemediawiki-update-found": "Пронајдена поднова: $1",
+	"updatemediawiki-update-downloading": "Ја преземам подновата",
+	"updatemediawiki-update-saved": "Подновата е преземена и зачувана",
+	"updatemediawiki-update-exist": "Подновата е веќе преземена",
+	"updatemediawiki-update-copyready": "Примерокот е готов",
+	"updatemediawiki-update-database": "Да ја подновам базата сега?",
+	"updatemediawiki-update-updateready": "Подновата е готова",
+	"updatemediawiki-update-install": "Да ја воспоставам сега?",
+	"updatemediawiki-update-updated": "МедијаВики е подновена на верзијата $1",
+	"updatemediawiki-update-error": "Не пронајдов најнови изданија",
+	"updatemediawiki-update-aborted": "Не можев да ја зачувам подновата. Постапката е откажана"
+}

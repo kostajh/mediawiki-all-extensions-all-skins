@@ -1,0 +1,63 @@
+{
+	"name": "BlueSpiceUEModuleHTML",
+	"version": "4.1.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:UEModuleHTML",
+	"author": [
+		"Robert Vogel"
+	],
+	"descriptionmsg": "bs-uemodulehtml-extension-description",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1",
+			"BlueSpiceUniversalExport": ">= 4.1"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceUEModuleHTML": {
+					"className": "UEModuleHTML",
+					"extPath": "/BlueSpiceUEModuleHTML",
+					"package": "BlueSpice Pro",
+					"status": "stable",
+					"configDefinitions": {
+						"UEModuleHTMLSuppressNS": "\\BlueSpice\\UEModuleHTML\\ConfigDefinition\\SuppressNS::getInstance"
+					}
+				}
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceUEModuleHTML": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"UEModuleHTML": "UEModuleHTML.php",
+		"ExportModuleHTML": "includes/ExportModuleHTML.php",
+		"HTMLArchiver": "includes/HTMLArchiver.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\UEModuleHTML\\": "src/"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"UEModuleHTMLSuppressNS": {
+			"value": false,
+			"descriptionmsg": "bs-uemodulehtml-pref-SuppressNS",
+			"public": true
+		},
+		"UEModuleHTMLTemplatePath": {
+			"value": "extensions/BlueSpiceUEModuleHTML/data/HTMLTemplates"
+		}
+	},
+	"Hooks": {
+		"BSMigrateSettingsFromDeviatingNames": "\\BlueSpice\\UEModuleHTML\\Hook\\BSMigrateSettingsFromDeviatingNames\\SkipServiceSettings::callback",
+		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\UEModuleHTML\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddWidget::callback"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

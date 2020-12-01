@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shbib Al-Subaie",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"pageassessments-desc": "هذا الامتداد لتخزين تقييمات الصفحة في جدول قاعدة بيانات بمساعدة وظيفة محلل",
+	"pageassessments-special": "تقييمات الصفحة",
+	"pageassessments-project": "المشروع",
+	"pageassessments-page-namespace": "نطاق الصفحة",
+	"pageassessments-page-title": "عنوان الصفحة",
+	"pageassessments-search": "بحث",
+	"pageassessments-importance": "الأهمية",
+	"pageassessments-class": "الصنف",
+	"pageassessments-timestamp": "الطابع الزمني",
+	"pageassessments-total-results": "مجموع النتائج: $1",
+	"pageassessments-error-namespace-filter": "تتطلب التصفية حسب النطاق أيضا التصفية حسب عنوان المشروع أو الصفحة."
+}

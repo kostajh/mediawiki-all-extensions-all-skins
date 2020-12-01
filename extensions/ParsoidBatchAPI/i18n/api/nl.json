@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"apihelp-parsoid-batch-summary": "Batch API voor Parsoid",
+	"apierror-parsoid-batch-batchtoolarge": "Batch te groot, de limiet is 500.",
+	"apierror-parsoid-batch-texttoobig": "Ingevoerde tekst is groter dan de maximum pagina grootte.",
+	"apierror-parsoid-batch-invalidtitle": "Ongeldige titel ($1)."
+}

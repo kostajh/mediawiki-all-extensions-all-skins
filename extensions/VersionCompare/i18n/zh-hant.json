@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Laundry Machine"
+		]
+	},
+	"versioncompare": "版本比較",
+	"version-compare-desc": "顯示兩個wiki之間的核心組件與擴充套件版本。",
+	"version-compare-database-label": "資料庫",
+	"version-compare-url-error": "從 $1 取得資料時發生錯誤。",
+	"version-compare-url-field-help-1": "用來比較的首個 wiki 之 API URL（以 api.php 作為結尾）。若留空則會使用目前的 wiki。",
+	"version-compare-url-field-help-2": "用來比較的第二個 wiki 之 API URL（以 api.php 作為結尾）。若留空則會使用目前的 wiki。",
+	"version-compare-diff-field-label": "僅顯示差異"
+}

@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Cecílio",
+			"MCruz",
+			"MokaAkashiyaPT",
+			"Nemo bis"
+		]
+	},
+	"sitesupport-url": "https://donate.wikimedia.org/?utm_source=donate&utm_medium=sidebar&utm_campaign=spontaneous&uselang=mwl",
+	"sitesupport": "Donaçones",
+	"tooltip-n-sitesupport": "Ajuda-mos",
+	"nstab-creator": "Criador",
+	"nstab-institution": "Anstituiçon",
+	"nstab-sequence": "Sequéncia",
+	"group-rollbacker": "Rebersores",
+	"group-rollbacker-member": "{{GENDER:$1|rebersor|rebersora|rebersor(a)}}",
+	"grouppage-rollbacker": "{{ns:project}}:Rebersores",
+	"group-trusted": "Outelizadores de cunfiança",
+	"grouppage-trusted": "{{ns:project}}:Outelizadores de cunfiança",
+	"grouppage-global-rollbacker": "m:Global rollback/mwl",
+	"grouppage-steward": "m:Stewards/mwl",
+	"search-interwiki-custom": "wikt:Ourige: Biquicionairo\nb:Ourige: Biquilhibros\nn:Ourige: Biquiamboras\nq:Ourige: Wikiquote\ns:Ourige: Wikisource\nv:Ourige: Biquibersidade\nvoy:Ourige: Wikivoyage",
+	"wikimedia-copyright": "Este testo ye çponeblizado ne ls termos de la lhicença <a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.pt\">Creative Commons - Atribuiçon - Cumpartir Eigual 3.0 Nun Adaptada (CC BY-SA 3.0)</a>;\npuode star sujeito a cundiçones adecionales.\nCunsulta las <a href=\"https://foundation.wikimedia.org/wiki/Condições_de_Uso\">cundiçones de outelizaçon</a> pa mais detailhes.",
+	"wikimedia-copyrightwarning": "Al grabar las altaraçones, cuncorda culas nuossas [https://foundation.wikimedia.org/wiki/Terms_of_Use Cundiçones de Outelizaçon], i an eirrebogabelmente publicar las sues cuntrebuiçones culas licenças [https://mwl.wikipedia.org/wiki/Biquipédia:Testo_de_la_licença_Creative_Commons_Attribution-ShareAlike_3.0_Unported CC BY-SA 3.0] i [https://mwl.wikipedia.org/wiki/Biquipédia:GNU_Free_Documentation_License GFDL].\nCuncorda tamien que ua lhigaçon ó un URL ye la forma suficiente de atribuiçon ne ls termos de la licença Creative Commons.",
+	"wikibase-sitelinks-wikinews": "Biquiamboras",
+	"wikibase-sitelinks-wikiquote": "Wikiquote",
+	"wikibase-sitelinks-wikisource": "Wikisource",
+	"wikibase-sitelinks-wikivoyage": "Wikivoyage",
+	"wikimedia-developers": "Porgramadores",
+	"wikimedia-globalblocking-ipblocked": "'''L sou andereço IP fui [[m:Special:MyLanguage/Global blocks|bloquiado an todas las wikis]].'''\n\nL bloqueio fui efetuado por $1 ($2).\nLa rezon dada fui la seguinte ''$3''.\n\n* Ampeço de l bloqueio: $4\n* Spira an: $5\n\nL sou andereço IP atual ye $6.\nAnclua todos ls detalhes arriba an qualesquiera mensaiges que ambie-mos, por fabor.\n\nSe acradita que fui bloquiado por anganho, puode ancontrar anformaçones adicionales i anstruçones na política global subre la [[m:Special:MyLanguage/No open proxies|proibiçon de ''proxies'' abiertos]].\nCauso cuntrairo, pa cumbersar subre l bloqueio, [[m:Steward requests/Global|abra un pedido d'anáze ne l Meta-Wiki]].",
+	"wikimedia-globalblocking-ipblocked-xff": "'''Un serbidor ''proxy'', ó mais, outelizado a sou pedido fui [[m:Special:MyLanguage/Global blocks|bloquiado globalmente]].'''\n\nL bloqueio fui efetuado por $1 ($2).\nLa rezon dada fui la seguinte: ''$3''.\n\n* Ampeço de l bloqueio: $4\n* Spira an: $5\n\nL andereço de ''proxy'' bloquiado fui $6.\nAnclua todos ls detalhes arriba an qualesquiera mensaiges que ambie-mos, por fabor.\n\nSe acradita que fui bloquiado por anganho, puode ancontrar anformaçones adicionales i anstruçones na política global subre la [[m:Special:MyLanguage/No open proxies|proibiçon de ''proxies'' abiertos]].\nCauso cuntrairo, pa cumbersar subre l bloqueio, [[m:Steward requests/Global|abra un pedido pa rebison ne l Meta-Wiki]].",
+	"wikimedia-upload-nolicenses": "La cargadura de fexeiros nesta wiki nun stá atibo. Por fabor, [[commons:Special:UploadWizard|faga la carga de fexeiros ne l Wikimedia Commons]].\n\nPa cunseguir outelizar esta páigina especial, ye neçairo que un admenistrador queloque ua ó mais oupçones de lhicença na páigina [[MediaWiki:Licenses]].\n\nOutelize l seguinte formato: <code>* Nome de l modelo|Eitiqueta</code>. Outelize qualquiera testo pa atibar l ambio sin oupçones de lhicença.",
+	"wikimediashoplink-linktext": "Loija de la Biquipédia",
+	"wikimediashoplink-link-tooltip": "Besite la loija de la Biquipédia",
+	"interlanguage-link-sitename-wikipedia": "Biquipédia, l'anciclopédia lhibre",
+	"wikimedia-cookiestatement": "Declaraçon subre cookies"
+}

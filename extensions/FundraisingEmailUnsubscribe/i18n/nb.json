@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"fundraiserunsubscribe-desc": "Lar brukere behandle medlemskapet sitt i konfigurerte innsamlingsepostlister",
+	"fundraiserunsubscribe": "Avslutt abonnementet på innsamlingsepost fra Wikimedia",
+	"fundraiserunsubscribe-query": "Er du sikker på at du vil avslutte abonnementet for '''''$1'''''?",
+	"fundraiserunsubscribe-info": "Dette vil reservere deg mot eposter fra Wikimedia Foundation sendt til deg som donor. Du vil fortsatt kunne motta eposter dersom denne epostadressa er knyttet til en konto på et av prosjektene våre. Kontakt gjerne [mailto:$1 $1] hvis du har noen spørsmål.",
+	"fundraiserunsubscribe-submit": "Avslutt abonnement",
+	"fundraiserunsubscribe-cancel": "Avbryt",
+	"fundraiserunsubscribe-errormsg": "En feil oppsto under behandlingen av forespørselen din. Kontakt [mailto:$1 $1].",
+	"fundraiserunsubscribe-success": "Du har blitt fjernet fra epostlista vår.",
+	"fundraiserunsubscribe-sucesswarning": "Det kan ta opptil fire (4) dager før endringen trer i kraft. Vi beklager for eventuelle eposter du mottar i løpet av denne perioden. Kontakt gjerne [mailto:$1 $1] om du har noen spørsmål.",
+	"fundraisersubscribe": "Godta",
+	"fundraisersubscribe-fail": "En feil oppsto under behandlingen av forespørselen din. Kontakt [mailto:$1 $1].",
+	"fundraisersubscribe-success": "Takk!",
+	"fundraisersubscribe-opt-in-continue-001": "Ja, jeg godtar",
+	"fundraisersubscribe-page-title-001": "Wiki Loves Earth",
+	"fundraisersubscribe-page-subtitle-001": "Oppdag naturens hemmeligheter på Wikimedia Commons. Utforsk de 15 vinnerbildene fra 2018 som er tatt, delt og utvalgt av Wikimedias frivillige.",
+	"fundraisersubscribe-appeal-headline-001": "Liker du det du ser?",
+	"fundraisersubscribe-appeal-text-001": "Vi sender deg gjerne periodiske oppdateringer med slike bilder, måter du kan støtte eller rådgi oss i framtida, og mer av det du elsker fra Wikipedia.",
+	"fundraisersubscribe-privacy-text-001": "Hver epost du mottar vil ha et enkelt valg for å melde seg av. Informasjonen din blir behandlet i samsvar med [$1 personvernspolitikken vår for givere].",
+	"fundraisersubscribe-photo-credit": "av $1",
+	"fundraisersubscribe-photo-caption-M69961168": "Hvalrosser hviler seg på Northbrookøya i Russlands arktiske nasjonalpark. Bildet ble tatt av Maritime Heritage Associations' ekspedisjon ''In the footsteps of two captains''.",
+	"fundraisersubscribe-photo-caption-M69960916": "Søylebasalt etter solnedgang ved Kapp Stolbatsjyj på øya Kunasjir i Russland",
+	"fundraisersubscribe-photo-caption-M68724727": "Steinformasjoner i Meteora med klostre på toppen",
+	"fundraisersubscribe-photo-caption-M68822431": "Tassili n'Ajjer nasjonalpark i Algerie",
+	"fundraisersubscribe-photo-caption-M69954711": "Kysten av Eltonsjøen i Volgograd oblast i Russland",
+	"fundraisersubscribe-photo-caption-M69692176": "Gypaetus barbatus i luften. Gran Paradiso nasjonalpark",
+	"fundraisersubscribe-photo-caption-M69116544": "Høsten i full fremmarsj i dalen Hunza Altit i Gilgit Baltistan",
+	"fundraisersubscribe-photo-caption-M69591978": "Grønnstilken (Tringa glareola) er en liten vider, her ved Bangabandhu Sheikh Mujib safaripark",
+	"fundraisersubscribe-photo-caption-M69594652": "Satchari nasjonalpark",
+	"fundraisersubscribe-photo-caption-M69924253": "En sumpsypress (Taxodium distichum) i nærheten av Sukko i Krasnodar kraj i Russland",
+	"fundraisersubscribe-photo-caption-M69595567": "Gråhodet stær, Sturnia malabarica, i Satchari nasjonalpark",
+	"fundraisersubscribe-photo-caption-M70051605": "Hoggar nasjonalpark i Assekrem i Algerie",
+	"fundraisersubscribe-photo-caption-M70155469": "Solnedgang i Baixa Grande, en oase i midten av Lençóis Maranhenses nasjonalpark",
+	"fundraisersubscribe-photo-caption-M69609122": "Phoenicopterus roseus ved Tunissjøen",
+	"fundraisersubscribe-photo-caption-M69961161": "Belløya i Franz Josef Land og hytta Eira fra Benjamin Leigh Smiths ekspedisjon i Russlands arktiske nasjonalpark. Bildet ble tatt som del av Maritime Heritage Associations' ekspedisjon In the footsteps of two captains.",
+	"fundraisersubscribe-photo-license": "Alle bilder er lisensiert under [$1 Creative Commons Navngivelse-DelPåSammeVilkår 4.0 internasjonal]."
+}

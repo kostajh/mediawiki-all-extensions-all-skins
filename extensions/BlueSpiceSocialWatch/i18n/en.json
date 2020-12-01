@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Patric Wirth"
+		]
+	},
+	"bs-socialwatch-desc": "Watch-functionality for BlueSpiceSocial-entities",
+	"bs-socialwatch-watchtext": "Watch",
+	"bs-socialwatch-unwatchtext": "Unwatch",
+	"bs-socialwatch-var-watch": "Watch",
+	"apihelp-bs-socialwatch-tasks-summary": "Provides tasks for editing the watch status of entities"
+}

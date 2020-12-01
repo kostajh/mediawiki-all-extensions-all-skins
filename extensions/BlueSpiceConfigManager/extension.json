@@ -1,0 +1,100 @@
+{
+	"name": "BlueSpiceConfigManager",
+	"version": "4.1.0-alpha",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:ConfigManager",
+	"author": [
+		"Patric Wirth"
+	],
+	"descriptionmsg": "bs-configmanager-desc",
+	"license-name": "GPL-3.0-only",
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceConfigManager": {
+					"className": "\\BlueSpice\\ConfigManager\\Extension",
+					"extPath": "/BlueSpiceConfigManager"
+				}
+			},
+			"AdminToolRegistry": {
+				"bs-config-manager": "BlueSpice\\ConfigManager\\AdminTool"
+			},
+			"PermissionRegistry": {
+				"bluespiceconfigmanager-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin",
+						"structuremanager"
+					]
+				}
+			}
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.36.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.1"
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceConfigManager": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\ConfigManager\\" : "src/"
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceConfigManagerAlias": "languages/ConfigManager.alias.php"
+	},
+	"APIModules": {
+		"bs-configmanager-tasks": "\\BlueSpice\\ConfigManager\\Api\\Task\\ConfigManager",
+		"bs-configmanager-store": "\\BlueSpice\\ConfigManager\\Api\\Store\\ConfigManager"
+	},
+	"SpecialPages": {
+		"BlueSpiceConfigManager": "\\BlueSpice\\ConfigManager\\Special\\ConfigManager"
+	},
+	"GroupPermissions": {
+		"*": {
+			"bluespiceconfigmanager-viewspecialpage": false
+		},
+		"user": {
+			"bluespiceconfigmanager-viewspecialpage": false
+		},
+		"sysop": {
+			"bluespiceconfigmanager-viewspecialpage": true
+		}
+	},
+	"AvailableRights": [
+		"bluespiceconfigmanager-viewspecialpage"
+	],
+	"ResourceModules": {
+		"ext.bluespice.configmanager": {
+			"scripts": "bluespice.configmanager.js",
+			"dependencies": [
+				"ext.bluespice",
+				"ext.bluespice.extjs",
+				"ext.bluespice.oojs",
+				"ext.bluespice.configmanager.messages",
+				"oojs-ui-core"
+			],
+			"messages": [
+				"bs-configmanager-discardchanges",
+				"bs-configmanager-noentry"
+			]
+		},
+		"ext.bluespice.configmanager.styles": {
+			"styles": "bluespice.configmanager.css"
+		},
+		"ext.bluespice.configmanager.messages": {
+			"class": "\\BlueSpice\\ConfigManager\\ResourceLoader\\Messages"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceConfigManager/resources"
+	},
+	"manifest_version": 2,
+	"load_composer_autoloader" : true
+}

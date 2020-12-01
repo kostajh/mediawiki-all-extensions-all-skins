@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"updatemediawiki": "মিডিয়াউইকি হালনাগাদ",
+	"updatemediawiki-desc": "বিশেষ পাতার মাধ্যমে মিডিয়াউইকি হালনাগাদ করার অনুমতি দেয়",
+	"updatemediawiki-current": "বর্তমান সংস্করণ $1",
+	"updatemediawiki-update-nofound": "কোন হালনাগাদ উপলব্ধ নেই",
+	"updatemediawiki-update-found": "নতুন হালনাগাদ পাওয়া গেছে: $1",
+	"updatemediawiki-update-downloading": "নতুন হালনাগাদ ডাউনলোড করা হচ্ছে",
+	"updatemediawiki-update-saved": "হালনাগাদ ডাউনলোড ও সংরক্ষণ করা হয়েছে",
+	"updatemediawiki-update-exist": "হালনাগাদ ইতিমধ্যে ডাউনলোড করা হয়েছে",
+	"updatemediawiki-update-copyready": "অনুলিপি প্রস্তুত",
+	"updatemediawiki-update-database": "ডাটাবেজটি এখন হালনাগাদ করবেন?",
+	"updatemediawiki-update-updateready": "হালনাগাদ প্রস্তুত",
+	"updatemediawiki-update-install": "এখন ইনস্টল করবেন?",
+	"updatemediawiki-update-updated": "মিডিয়াউইকি $1 সংস্করণে হালনাগাদ হয়েছে",
+	"updatemediawiki-update-error": "সর্বশেষ মুক্তি পাওয়া যায়নি",
+	"updatemediawiki-update-aborted": "নতুন হালনাগাদ সংরক্ষণ করা যায়নি। ক্রিয়া বাতিল হয়েছে"
+}

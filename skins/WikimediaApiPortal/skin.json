@@ -1,0 +1,98 @@
+{
+	"name": "WikimediaApiPortal",
+	"version": "1.0",
+	"license-name": "GPL-3.0-only",
+	"author": [
+		"Dejan Savuljesku",
+		"Robert Vogel"
+	],
+	"type": "skin",
+	"url": "https://www.mediawiki.org/wiki/Skin:WikimediaApiPortal",
+	"descriptionmsg": "wikimediaapiportal-skin-desc",
+	"namemsg": "skinname-wikimediaapiportal",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"ValidSkinNames": {
+		"wikimediaapiportal": {
+			"DisplayName": "WikimediaApiPortal",
+			"class": "MediaWiki\\Skin\\WikimediaApiPortal\\Skin"
+		}
+	},
+	"MessagesDirs": {
+		"WikimediaApiPortal": "i18n"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Skin\\WikimediaApiPortal\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Skin\\WikimediaApiPortal\\Test\\": "tests/phpunit/integration/"
+	},
+	"AutoloadClasses": {
+		"WikimediaApiPortalHooks": "src/WikimediaApiPortalHooks.php"
+	},
+	"Hooks": {
+		"SkinSubPageSubtitle": "WikimediaApiPortalHooks::onSkinSubPageSubtitle"
+	},
+	"AvailableRights": [
+		"edit-docs"
+	],
+	"GroupPermissions": {
+		"docseditor": {
+			"edit-docs": true
+		}
+	},
+	"ServiceWiringFiles": [
+		"src/ServiceWiring.php"
+	],
+	"ResourceModules": {
+		"skin.wikimediaapiportal.styles": {
+			"class": "ResourceLoaderSkinModule",
+			"features": {
+				"normalize": true,
+				"elements": true,
+				"content": true,
+				"interface": true,
+				"logo": false,
+				"legacy": true
+			},
+			"styles": {
+				"skin.wikimediaapiportal.styles/entry.less": {},
+				"skin.wikimediaapiportal.styles/dist/bootstrap.css": {}
+			}
+		},
+		"skin.wikimediaapiportal.scripts": {
+			"scripts": [
+				"skin.wikimediaapiportal.scripts/dist/bootstrap.bundle.js",
+				"skin.wikimediaapiportal.scripts/usermenu.js",
+				"skin.wikimediaapiportal.scripts/primarynavmenu.js",
+				"skin.wikimediaapiportal.scripts/searchform.js",
+				"skin.wikimediaapiportal.scripts/scrollAdjust.js"
+			],
+			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-widgets"
+			]
+		},
+		"skin.wikimediaapiportal.mainpage": {
+			"styles": {
+				"skin.wikimediaapiportal.mainpage/mainpage.less": {}
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteSkinPath": "WikimediaApiPortal/resources"
+	},
+	"config": {
+		"WMAPIPExtraUserMenuSpecialPages": {
+			"value": [],
+			"description": "@var array Names of special pages to add as localized links to the user menu. Do not need to start with 'Special:'."
+		},
+		"WMAPIPSidebarSpecialPages": {
+			"value": [],
+			"description": "@var array Names of special pages that form a 'dashboard' on the navigation sidebar. If one of those pages is being rendered, the navigation sidebar will be shown, and the given page will be highlighted. This provides an easy way to navigate between a small set of frequently used special pages on the site. Do not need to start with 'Special:'."
+		}
+	},
+	"manifest_version": 2
+}

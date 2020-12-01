@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"secureauth-desc": "Permettre à l’utilisateur d’ajouter son adresse IP pour se connecter. Une connexion depuis une autre adresse IP échouera.",
+	"secureauthinfo": "SecureAuthInfo",
+	"special-secureauth-info": "Information d’authentification sécurisée",
+	"secureauth-info-userinfo": "Information utilisateur",
+	"secureauth-current-ip": "Votre adresse IP de connexion actuelle :",
+	"secureauth-whitelist-ip": "Adresses IP qui sont en liste blanche pour la connexion avec votre nom d’utilisateur :",
+	"action-sa-access": "accéder à SecureAuthInfo",
+	"right-sa-access": "Autorise l'utilisateur à accéder à [[Special:SecureAuthInfo|SecureAuthInfo]]"
+}

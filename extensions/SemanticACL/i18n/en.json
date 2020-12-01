@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Werdna"
+		]
+	},
+	"sacl-desc": "Allows access restrictions to be set with Semantic MediaWiki properties",
+	"sacl-denied": "You are not on the access list for this page.",
+	"action-sacl-exempt": "exempt from Semantic ACLs",
+	"right-sacl-exempt": "Exempt from Semantic ACLs",
+	"action-view-non-categorized-media": "allowed to view non categorized media files",
+	"right-view-non-categorized-media": "Allowed to view non categorized media files",
+	"sacl-property-visibility": "Visible to",
+	"sacl-property-visibility-wl-group": "Visible to group",
+	"sacl-property-visibility-wl-user": "Visible to user",
+	"sacl-property-editable": "Editable by",
+	"sacl-property-editable-wl-group": "Editable by group",
+	"sacl-property-editable-wl-user": "Editable by user",
+	"sacl-template-render-denied-anonymous": "<div class=\"errorbox\">You must [[Special:UserLogin|log in]] to view this template.</div>",
+	"sacl-template-render-denied-registered": "<div class=\"errorbox\">You do not have the required permissions to view this template.</div>",
+	"sacl-key-too-short": "The key must be more than 6 characters long.",
+	"sacl-private-links-disabled": "Private_links_disabled_by_your_administrator"
+}

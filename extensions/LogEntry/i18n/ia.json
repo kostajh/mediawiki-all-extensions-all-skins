@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"logentry-append": "Adjunger",
+	"logentry-parserhook-desc": "Iste extension adde un etiquetta que provide un formulario pro adjunger/anteponer texto a paginas de registro",
+	"logentry-specialpage-desc": "Iste extension adde un etiquetta que provide de processamento pro adjunger texto a paginas de registro",
+	"logentry": "Entrata in registro",
+	"logentry-invalidpage": "Pagina invalide: $1",
+	"logentry-invalidtoken": "Token invalide"
+}

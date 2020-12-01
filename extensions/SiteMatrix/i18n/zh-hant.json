@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexsh",
+			"Cwlin0416",
+			"Hello903hello",
+			"Kly",
+			"Mark85296341",
+			"Waihorace",
+			"Wwycheuk"
+		]
+	},
+	"sitematrix": "維基媒體的 Wiki 清單",
+	"sitematrix-summary": "本特殊頁面列出所有維基媒體基金會的 Wiki。",
+	"sitematrix-desc": "顯示[[Special:SiteMatrix|維基媒體 Wiki 清單]]",
+	"sitematrix-language": "語言",
+	"sitematrix-project": "專案名稱、跨專案連結與跨 Wiki 連結",
+	"sitematrix-others": "維基媒體的其他專案",
+	"sitematrix-other-projects": "其他專案",
+	"sitematrix-other-projects-language": "語言",
+	"sitematrix-total": "'''合計：$1'''",
+	"sitematrix-sitetotal": "總計",
+	"sitematrix-closed": "不能寫入，但能完整讀取",
+	"sitematrix-private": "讀寫權限被限制",
+	"sitematrix-fishbowl": "限制寫入，但能完整讀取",
+	"sitematrix-nonglobal": "公開；但需註冊"
+}

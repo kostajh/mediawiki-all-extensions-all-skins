@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vks"
+		]
+	},
+	"sslauth-enable": "Povolit",
+	"sslauth-disable": "Zakázat",
+	"sslauth-email": "E-mailová adresa",
+	"sslauth-serial": "Sériové číslo",
+	"sslauth-invalidrequest-title": "Neplatný požadavek",
+	"clientssl-legend": "Ověřování SSL",
+	"sslauth-prefs-name": "Ověřování SSL"
+}

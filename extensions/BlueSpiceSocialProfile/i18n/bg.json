@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg",
+			"Ted Masters"
+		]
+	},
+	"bs-socialprofile-desc": "Профил за BlueSpiceSocial",
+	"bs-socialprofile-type": "Профил",
+	"bs-socialprofile-entityaction-changeimage": "Потребителска картинка",
+	"bs-social-entityaction-editprofilefields": "Профилни данни",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "Върнат е невалиден User",
+	"bs-social-profile-field-name": "Име",
+	"bs-social-profile-field-email": "Е-поща",
+	"bs-social-profile-field-title": "Заглавие",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Г-н|Г-жа|}}",
+	"bs-social-profile-field-department": "Отдел",
+	"bs-social-profile-field-function": "Функция",
+	"bs-social-profile-field-location": "Местоположение",
+	"bs-social-profile-field-phone": "Телефон",
+	"bs-social-profile-field-validate-no-integer": "$1 трябва да бъде число",
+	"bs-socialprofile-special-profiles-heading": "Профили",
+	"bs-social-profile-infoshowemail": "Показване на адреса на ел. поща в профила",
+	"socialprofiles": "Профили",
+	"bs-socialprofile-switch-classicprofile-label": "Класически профил",
+	"bs-socialprofile-switch-modernprofile-label": "Модерен профил",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Превключване към класически профил",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Превключване към модерен профил",
+	"action-social-editothersprofile": "редактирате профила на други потребители",
+	"right-social-editothersprofile": "Редактиране на профил на други потребители",
+	"action-socialprofile-viewspecialpage": "виждате специалната страница \"{{int:socialprofiles}}\"",
+	"right-socialprofile-viewspecialpage": "Преглед на специалната страница \"{{int:socialprofiles}}\""
+}

@@ -1,0 +1,27 @@
+{
+	"name": "Josa",
+	"version": "0.2.0",
+	"author": "Bae Junehyeon (devunt)",
+	"url": "https://www.mediawiki.org/wiki/Extension:Josa",
+	"descriptionmsg": "josa-desc",
+	"license-name": "MIT",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"Josa": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"JosaMagic": "Josa.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"JosaHooks": "includes/JosaHooks.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "JosaHooks::onParserFirstCallInit"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gzdavidwong",
+			"Liangent",
+			"Shinjiman",
+			"Xiaomingyan"
+		]
+	},
+	"patrol": "编辑巡逻",
+	"patrol-desc": "分担工作量以增强巡逻界面",
+	"patrol-endorse": "批注",
+	"patrol-revert": "回退",
+	"patrol-revert-reason": "原因：",
+	"patrol-skip": "跳过",
+	"patrol-reverting": "正在回退：$1",
+	"patrol-nonefound": "没有找到可巡逻编辑。",
+	"patrol-endorsed-ok": "此修改已标记巡逻记录。",
+	"patrol-endorsed-failed": "此修改无法标记巡逻记录。",
+	"patrol-reverted-ok": "编辑被回退。",
+	"patrol-reverted-failed": "编辑不能回退。",
+	"patrol-skipped-ok": "忽略编辑。",
+	"patrol-reasons": "* 纯粹破坏\n* 新手测试\n* 参见讨论页",
+	"patrol-another": "显示其他存在的编辑。",
+	"patrol-stopped": "您选择不巡逻其他编辑。$1",
+	"patrol-resume": "点击这里继续。",
+	"group-patroller": "巡查员",
+	"group-patroller-member": "{{GENDER:$1|巡查员}}",
+	"grouppage-patroller": "{{ns:project}}:巡逻员",
+	"right-patroller": "巡查页面"
+}

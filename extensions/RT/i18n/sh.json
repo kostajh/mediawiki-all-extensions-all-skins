@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"rt-desc": "Moderni interfejs za RT (Request Tracker, „Praćenje zahtjeva“)",
+	"rt-inactive": "RT dodatak nije aktivan.",
+	"rt-badquery": "RT dodatak je javio grešku pri kontaktiranju s bazom podataka RT.",
+	"rt-badlimit": "Nevalidan argument za <code>LIMIT</code> (<code>l</code>): mora da bude broj.\nVi ste pokušali: '''$1'''"
+}

@@ -1,0 +1,9 @@
+/**
+ * Button ad styling for the Modern skin
+ */
+#p-ads-left {
+	right: 0px;
+	top: 10px;
+	z-index: 1;
+	text-align: center;
+}

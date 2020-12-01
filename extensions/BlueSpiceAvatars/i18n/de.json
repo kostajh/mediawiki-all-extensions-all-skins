@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwboehm",
+			"Kghbln",
+			"Marc Reymann <reymann@hallowelt.biz>",
+			"Metalhead64",
+			"Mglaser",
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"prefs-avatars": "Benutzerbilder",
+	"bs-avatars-desc": "Stellt individuelle und allgemeine Benutzerbilder bereit",
+	"bs-avatars-pref-generator": "Generator:",
+	"bs-avatars-pref-defaultsize": "Standardgröße in Pixeln:",
+	"bs-avatars-pref-userimage": "Benutzerbild:",
+	"bs-avatars-pref-userimage-img-alt": "Dein derzeitiges Benutzerbild",
+	"bs-avatars-upload-complete": "Das Bild wurde hochgeladen.",
+	"bs-avatars-generate-complete": "Es wurde ein neues Benutzerbild generiert.",
+	"bs-avatars-upload-title": "Profilbild ändern",
+	"bs-avatars-upload-label": "Bild",
+	"bs-avatars-generate-new-label": "Neues Benutzerbild generieren",
+	"bs-avatars-warning-title": "Warnung",
+	"bs-avatars-warning-text": "Du hast bereits ein Benutzerbild in deinen Einstellungen hinterlegt. Wenn du diese Funktion nutzt, wird es entfernt. Möchtest du fortfahren?",
+	"bs-avatars-userimage-title": "Ein Bild auf dem Wiki oder die URL eines Bildes",
+	"bs-avatars-userimage-help": "bspw. „MeinBild.jpg“ oder „https://localhost/MeinBild.png“",
+	"bs-avatars-userimage-alt": "Profilbild des Benutzers „$1“",
+	"bs-avatars-set-userimage-failed": "Das Bild ist nicht auf dem Wiki vorhanden oder die URL ist fehlerhaft.",
+	"bs-avatars-set-userimage-saved": "Das Benutzerbild wurde gespeichert.",
+	"bs-avatars-file-upload-fieldset-title": "Bild hochladen",
+	"bs-avatars-auto-generate-fieldset-title": "Benutzerbild automatisch generieren",
+	"apihelp-bs-avatars-tasks-description": "Hochladen, Erstellen und Festlegen von Benutzerbildern",
+	"apihelp-bs-avatars-tasks-summary": "Hochladen, Erstellen und Festlegen von Benutzerbildern",
+	"bs-avatars-tag-profileimage-error-invalidusername": "Der Parameter \"username\" muss angegeben werden und einen gültige Benutzernamen enthalten"
+}

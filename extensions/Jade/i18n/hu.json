@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi",
+			"Tgr"
+		]
+	},
+	"jade-goodfaith-scale-true-label": "Jó szándékú",
+	"jade-goodfaith-scale-false-label": "Rossz szándékú",
+	"jade-contentquality-scale-5-label": "Jó szócikk",
+	"jade-contentquality-scale-6-label": "Kiemelt szócikk",
+	"jade-contentquality-generic": "„$1” tartalomminőség",
+	"jade-delete": "Törlés",
+	"jade-bad-title-format": "Érvénytelen címformátum",
+	"jade-non-canonical-title": "A címnek a(z) ''$1'' kanonikus formában kell lennie.",
+	"jade-bad-entity-type": "Érvénytelen ''$1'' entitástípus",
+	"jade-bad-entity-id-format": "Érvénytelen ''$1'' entitásazonosító-formátum",
+	"jade-bad-revision-id": "Nem található a(z) ''$1'' azonosítójú változat",
+	"jade-bad-content-generic": "Szintaktikai hibák a JSON-tartalomban.",
+	"prefs-betafeatures": "Béta funkciók"
+}

@@ -1,0 +1,42 @@
+<!-- 
+     page taken from 
+     https://www.mediawiki.org/wiki/Extension:DynamicPageListEngine/History
+-->
+== Version 1.0 ==
+
+=== Configuration changes ===
+
+* Configuration parameter names have been shortened.
+* Messages have been widely renamed.
+* The messages are now stored in the [[mw:Localisation file format|new JSON format]].
+
+=== New features ===
+
+* Pages using the functions in the Lua interface are now added to the tracking category named by the message <code>dple-tracking-category</code>.
+* An interface class DpleFeatureInterface is provided to facilitate the development of new features.
+
+=== Languages updated ===
+
+* Support was added for French (fr).
+* Support was added for Italian (it).
+
+=== Other changes ===
+
+* Filenames and class names have been shortened.
+* The functions in the Lua interface are now marked as expensive.
+
+== Version 0.3 ==
+
+=== Modified features ===
+
+* In [[{{NAMESPACE}}:{{BASEPAGENAME}}#Category|DynamicPageListEngineFeatureCategory]], the column for the timstamp of addition to the first category is now aliased as <code>cl_timestamp</code>. This does not change anything unless you directly use <code>DynamicPageListEngineQuery::getResult()</code>.
+
+=== New features ===
+
+* In [[{{NAMESPACE}}:{{BASEPAGENAME}}#Category|DynamicPageListEngineFeatureContains]], the column for the timstamp of addition of the first specified page to the category is now selected as well and aliased as <code>clx_timestamp</code>. It is available in [[{{NAMESPACE}}:{{BASEPAGENAME}}#Results|DynamicPageListEngineFeatureResults]] as <code>categoryaddx</code>. You can also use it in the <code>ordermethod</code> parameter.
+
+* The new class [[{{NAMESPACE}}:{{BASEPAGENAME}}#Extrax|DynamicPageListEngineFeatureExtrax]] does for [[{{NAMESPACE}}:{{BASEPAGENAME}}#Category|DynamicPageListEngineFeatureContains]] what [[{{NAMESPACE}}:{{BASEPAGENAME}}#Extrax|DynamicPageListEngineFeatureExtra]] does for [[{{NAMESPACE}}:{{BASEPAGENAME}}#Category|DynamicPageListEngineFeatureCategory]].
+
+== Version 0.2 ==
+
+This is the first version that has been published.

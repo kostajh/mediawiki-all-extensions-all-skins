@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kosovastar",
+			"Liridon"
+		]
+	},
+	"maintenance": "Lëshoje skriptën e mirëmbajtjes",
+	"maintenance-initSiteStats-desc": "Rillogarit statistikat e faqes",
+	"maintenance-showCacheStats-desc": "Shfaq statistikat e Memcached"
+}

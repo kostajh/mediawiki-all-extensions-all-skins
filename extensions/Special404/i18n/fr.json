@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sherbrooke",
+			"Thibaut120094"
+		]
+	},
+	"special404-desc": "Offre une page par défaut pour les erreurs 404 introuvable",
+	"error404": "404 introuvable",
+	"special404-body": "L’URL que vous avez demandée n’a pas été trouvée.\n\nVouliez-vous saisir {{fullurl:$1}} ?\n\nPeut-être que vous désirez aller à la\n* [[{{MediaWiki:Mainpage}}|Page d’accueil]] ?"
+}

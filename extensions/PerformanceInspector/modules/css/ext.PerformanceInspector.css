@@ -1,0 +1,76 @@
+.barchart {
+	color: #fff;
+	font-size: 14px;
+}
+
+.barchart .row {
+	position: relative;
+	min-height: 26px;
+	margin-bottom: 2px;
+	padding: 0 10px;
+	background: #999;
+	overflow: hidden;
+}
+
+.barchart .barWrap .bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #006496;
+}
+
+.barchart .label {
+	position: relative;
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: bold;
+	float: left;
+}
+
+.barchart .value {
+	position: relative;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	float: right;
+}
+
+.hidden {
+	display: none;
+}
+
+.url {
+	max-width: 200px;
+	word-break: break-all;
+}
+
+.mw-pi-url-crop {
+	display: inline-block;
+	max-width: 200px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+}
+
+table.mw-pi-inspector {
+	vertical-align: middle;
+	text-align: left;
+	width: 100%;
+}
+
+table.mw-pi-inspector > tr > th,
+table.mw-pi-inspector > tr > td,
+table.mw-pi-inspector * > tr > th,
+table.mw-pi-inspector > * > tr > td {
+	padding: 0.5em;
+}
+
+td.mw-pi-details {
+	vertical-align: top;
+}
+
+td.mw-pi-center {
+	text-align: center;
+}

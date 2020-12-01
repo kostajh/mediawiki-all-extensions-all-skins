@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shanmugamp7"
+		]
+	},
+	"revcs-error": "பிழை: $1",
+	"revcs-list-extended-supplement-all": "அனைத்தும்",
+	"revcs-list-extended-supplement-empty": "காலி",
+	"revcs-list-extended-supplement-notempty": "காலியில்லை",
+	"revcs-list-rcs-rev-id-edit": "தொகு",
+	"revcs-list-rcs-rev-id-log": "பதிகை",
+	"revcs-list-rcs-timestamp": "தொகுக்கப்பட்ட தேதி மற்றும் நேரம்",
+	"revcs-list-rcs-user-text": "பயனர்",
+	"revcs-list-reset": "மீட்டமை",
+	"revcs-list-sort": "வரிசைப்படுத்து:",
+	"revcs-list-submit": "காண்பி",
+	"revcs-log-nosupplement": "(ஏதுமில்லை)"
+}

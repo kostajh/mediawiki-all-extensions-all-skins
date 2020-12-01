@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"McDutchie",
+			"Optilete",
+			"Siebrand"
+		]
+	},
+	"fundraiserunsubscribe-desc": "Maakt het mogelijk dat gebruikers zich uitschrijven van ingestelde mailinglijsten voor fondsenwerving",
+	"fundraiserunsubscribe": "Uitschrijven van e-mails van Wikimedia over fondsenwerving",
+	"fundraiserunsubscribe-query": "Weet u zeker dat u het e-mailadres '''$1''' wilt uitschrijven?",
+	"fundraiserunsubscribe-info": "Hierdoor ontvangt u niet langer e-mails die Wikimedia aan u als donateur verzendt. Mogelijk ontvangt u nog steeds e-mails op dit e-mailadres als u een gebruiker op een van onze projecten hebt. Als u vragen hebt, neem dan contact op met [mailto:$1 $1].",
+	"fundraiserunsubscribe-submit": "Uitschrijven",
+	"fundraiserunsubscribe-cancel": "Annuleren",
+	"fundraiserunsubscribe-errormsg": "Er is een fout opgetreden tijdens het verwerken van uw verzoek. Neem contact op met [mailto:$1 $1].",
+	"fundraiserunsubscribe-success": "U bent niet langer ingeschreven op onze mailinglijst.",
+	"fundraiserunsubscribe-sucesswarning": "Het duurt maximaal vier (4) dagen om deze wijzigingen door te voeren. In het geval u in de tussentijd nog e-mailberichten van ons ontvangt, bieden wij daar bij voorbaat onze excuses voor aan. Neem contact op met [mailto:$1 $1] als u nog vragen hebt.",
+	"fundraisersubscribe-success": "Bedankt!",
+	"fundraisersubscribe-photo-credit": "door $1"
+}

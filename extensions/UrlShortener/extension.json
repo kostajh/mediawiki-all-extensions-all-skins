@@ -1,0 +1,219 @@
+{
+	"name": "UrlShortener",
+	"version": "1.0.1",
+	"author": [
+		"Yuvi Panda",
+		"Prateek Saxena",
+		"Tim Starling",
+		"Kunal Mehta"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:UrlShortener",
+	"descriptionmsg": "urlshortener-desc",
+	"license-name": "Apache-2.0",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"APIModules": {
+		"shortenurl": "ApiShortenUrl"
+	},
+	"AutoloadClasses": {
+		"UrlShortenerUtils": "includes/UrlShortenerUtils.php",
+		"UrlShortenerHooks": "includes/UrlShortenerHooks.php",
+		"SpecialUrlShortener": "includes/SpecialUrlShortener.php",
+		"SpecialUrlRedirector": "includes/SpecialUrlRedirector.php",
+		"SpecialManageShortUrls": "includes/SpecialManageShortUrls.php",
+		"ApiShortenUrl": "includes/ApiShortenUrl.php",
+		"DumpURLs": "maintenance/dumpURLs.php"
+	},
+	"ExtensionMessagesFiles": {
+		"UrlShortenerAlias": "UrlShortener.alias.php",
+		"UrlShortenerNoTranslateAlias": "UrlShortener.notranslate-alias.php"
+	},
+	"callback": "UrlShortenerHooks::onRegistration",
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": [
+			"UrlShortenerHooks::onLoadExtensionSchemaUpdates"
+		],
+		"WebRequestPathInfoRouter": [
+			"UrlShortenerHooks::onWebRequestPathInfoRouter"
+		],
+		"BeforePageDisplay": [
+			"UrlShortenerHooks::onBeforePageDisplay"
+		],
+		"SidebarBeforeOutput": [
+			"UrlShortenerHooks::onSidebarBeforeOutput"
+		]
+	},
+	"LogTypes": [
+		"urlshortener"
+	],
+	"LogActionsHandlers": {
+		"urlshortener/*": "LogFormatter"
+	},
+	"ActionFilteredLogs": {
+		"urlshortener": {
+			"delete": [
+				"delete"
+			],
+			"restore": [
+				"restore"
+			]
+		}
+	},
+	"LogRestrictions": {
+		"urlshortener": "urlshortener-view-log"
+	},
+	"MessagesDirs": {
+		"UrlShortener": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"RateLimits": {
+		"urlshortcode": {
+			"ip": [
+				10,
+				120
+			],
+			"newbie": [
+				10,
+				120
+			],
+			"user": [
+				50,
+				120
+			]
+		}
+	},
+	"ResourceModules": {
+		"ext.urlShortener.special": {
+			"scripts": [
+				"modules/ext.urlShortener.special.js"
+			],
+			"messages": [
+				"urlshortener-copy-fail",
+				"urlshortener-copy-success",
+				"urlshortener-error-badports",
+				"urlshortener-error-disallowed-url",
+				"urlshortener-error-malformed-url",
+				"urlshortener-error-nouserpass",
+				"urlshortener-shortened-url-alt",
+				"urlshortener-shortened-url-label",
+				"urlshortener-url-input-submit",
+				"urlshortener-url-input-submitting"
+			],
+			"dependencies": [
+				"oojs-ui",
+				"oojs-ui.styles.icons-content",
+				"mediawiki.api",
+				"mediawiki.Uri",
+				"mediawiki.htmlform.ooui",
+				"mediawiki.widgets"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.urlShortener.toolbar": {
+			"scripts": [
+				"modules/ext.urlShortener.toolbar.js"
+			],
+			"styles": [
+				"modules/ext.urlShortener.toolbar.less"
+			],
+			"messages": [
+				"urlshortener-failed-try-again",
+				"urlshortener-ratelimit",
+				"urlshortener-shortened-url-label",
+				"urlshortener-url-input-submitting"
+			],
+			"dependencies": [
+				"mediawiki.api"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "UrlShortener"
+	},
+	"SpecialPages": {
+		"UrlShortener": "SpecialUrlShortener",
+		"UrlRedirector": "SpecialUrlRedirector",
+		"ManageShortUrls": "SpecialManageShortUrls"
+	},
+	"AvailableRights": [
+		"urlshortener-manage-url",
+		"urlshortener-create-url",
+		"urlshortener-view-log"
+	],
+	"GroupPermissions": {
+		"*": {
+			"urlshortener-manage-url": false,
+			"urlshortener-view-log": false,
+			"urlshortener-create-url": true
+		},
+		"sysop": {
+			"urlshortener-manage-url": true,
+			"urlshortener-view-log": true,
+			"urlshortener-create-url": true
+		}
+	},
+	"GrantPermissions": {
+		"shortenurls": {
+			"urlshortener-create-url": true
+		}
+	},
+	"GrantPermissionGroups": {
+		"shortenurls": "administration"
+	},
+	"config": {
+		"UrlShortenerApprovedDomains": {
+			"value": false
+		},
+		"UrlShortenerDBCluster": {
+			"value": false
+		},
+		"UrlShortenerDBName": {
+			"value": false
+		},
+		"UrlShortenerAllowedDomains": {
+			"value": false
+		},
+		"UrlShortenerIdSet": {
+			"value": "23456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz$"
+		},
+		"UrlShortenerIdMapping": {
+			"value": {
+				"0": "o",
+				"O": "o",
+				"I": "i",
+				"l": "i",
+				"1": "i"
+			}
+		},
+		"UrlShortenerAltPrefix": {
+			"value": "_"
+		},
+		"UrlShortenerServer": {
+			"value": false
+		},
+		"UrlShortenerTemplate": {
+			"value": false
+		},
+		"UrlShortenerAllowArbitraryPorts": {
+			"value": false
+		},
+		"UrlShortenerReadOnly": {
+			"value": false
+		},
+		"UrlShortenerEnableSidebar": {
+			"value": true
+		},
+		"UrlShortenerUrlSizeLimit": {
+			"value": 2000
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,92 @@
+@import 'mediawiki.mixins';
+@import 'mediawiki.ui/variables';
+
+// Minerva defines styles for #page-actions selector.
+// We need to override to use the same page-actions container.
+/* stylelint-disable selector-max-id */
+#page-actions.eg-machine-translation-banner {
+	box-sizing: border-box;
+	font-size: 1.1em;
+	padding: 8px;
+	background-color: @colorGray15;
+	border-top: solid 1px @colorGray14;
+	border-bottom: solid 1px @colorGray14;
+	overflow: hidden;
+	width: 100%;
+	animation: appear-eg-banner 0.5s;
+
+	@keyframes appear-eg-banner {
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
+	.mw-ui-icon {
+		vertical-align: middle;
+
+		&.mw-ui-icon-before:before {
+			background-size: 20px;
+			background-position: center;
+			margin-right: 0;
+		}
+	}
+
+	> .eg-machine-translation-banner-header-container {
+		cursor: pointer;
+		float: left;
+
+		.eg-machine-translation-banner-header-label {
+			color: @colorGray5;
+			vertical-align: middle;
+			font-size: 18px;
+			font-weight: 500;
+		}
+	}
+
+	> .eg-machine-translation-banner-action-container {
+		cursor: pointer;
+		float: right;
+		text-decoration: none;
+		color: @colorProgressive;
+
+		&:hover {
+			color: @colorProgressiveActive;
+		}
+
+		a.eg-machine-translation-banner-action-label {
+			vertical-align: middle;
+			font-size: 16px;
+			font-weight: bold;
+			position: relative;
+			margin: 0;
+
+			span {
+				@media only screen and ( max-width: 500px ) {
+					// In small screens, like mobile phones, hide the label for edit action
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.eg-machine-translation-page-status {
+	font-size: 0.85em;
+	color: @colorGray5;
+	min-height: 1.4em;
+	margin-bottom: 16px;
+
+	&.missing {
+		color: @colorDestructive;
+	}
+}
+
+// Hide edit icons in section headers.
+.content .in-block span.mw-editsection,
+.content .mw-parser-output span.mw-editsection {
+	display: none;
+}

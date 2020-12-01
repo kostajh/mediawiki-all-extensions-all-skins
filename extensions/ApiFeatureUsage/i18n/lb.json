@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"apifeatureusage-startdate-label": "Ufanksdatum",
+	"apifeatureusage-enddate-label": "Schlussdatum",
+	"apifeatureusage-warnings": "Opgepasst: $1",
+	"apifeatureusage-column-feature": "Funktioun",
+	"apifeatureusage-column-date": "Datum",
+	"apifeatureusage-column-uses": "Benotzt"
+}

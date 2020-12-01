@@ -1,0 +1,184 @@
+.ve-init-sa-desktopTarget {
+	min-height: 190px;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	margin-left: 0;
+	border-radius: 3px;
+	border: 1px solid #BBB;
+	padding: 1px 0px;
+	border-collapse: separate;
+	border-spacing: 2px;
+	background-color: #FFFFFF;
+}
+
+.x-ie11 .ve-init-sa-desktopTarget {
+	min-height: initial;
+	width: auto;
+}
+
+.ve-init-sa-desktopTarget form {
+	background-color: #FFFFFF;
+	padding: 0;
+}
+
+.ve-init-sa-desktopTarget .oo-ui-popupToolGroup-header {
+	display: none;
+}
+
+.ve-init-sa-desktopTarget .oo-ui-popupWidget-anchored-top {
+	margin-top: 50px;
+}
+
+.ve-init-sa-desktopTarget span.ve-ce-branchNode-slug {
+	display: inline-block;
+}
+
+.ve-init-sa-desktopTarget section.ve-ce-branchNode {
+	/* fix for IE to hide resize handles */
+	pointer-events: none;
+}
+
+.bs-visualeditorconnector-cancel-edit {
+	margin: 0;
+	padding-top: 5px;
+	height: 42px;
+	width: 42px;
+	text-align:center;
+	background-color: #eaecf0;
+}
+
+.bs-visualeditorconnector-cancel-edit:hover {
+	background-color: #c8ccd1;
+}
+
+.bs-vec-color-widget {
+	text-align: left;
+}
+
+.bs-vec-styleInspector .oo-ui-popupWidget-popup .oo-ui-clippableElement-clippable {
+	height: auto !important;
+}
+
+.bs-vec-ui-tableContextItem .ve-ui-linearContextItem-actions {
+	display: inline-block;
+	width: 300px;
+	text-align: right;
+}
+
+.bs-vec-ui-tableContextItem .ve-ui-linearContextItem-actions .oo-ui-buttonWidget {
+	display: inline-block;
+}
+
+.bs-vec-ui-tableContextItem .ve-ui-linearContextItem-title {
+	display: inline-block;
+	width: 100px;
+}
+
+.bs-vec-command-widget {
+	display: inline;
+}
+
+.bs-vec-command-widget.bs-vec-number-widget:not( .bs-vec-unit-selectable ) .oo-ui-numberInputWidget{
+	width: 120px;
+}
+
+.bs-vec-command-widget.bs-vec-number-widget .oo-ui-buttonWidget {
+	margin: 0;
+}
+
+.bs-vec-command-widget.bs-vec-number-widget .oo-ui-numberInputWidget input {
+	width: 50px;
+}
+
+.dialog-header {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	z-index: 6 !important;
+}
+
+.dialog-header .dialog-header-title {
+	font-size: 1.2em;
+}
+
+.dialog-header .dialog-header-close {
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+
+.dialog-body {
+	padding-top: 50px;
+}
+
+.bs-vec-table-options-dialog-item {
+	padding: 10px;
+}
+
+.bs-vec-table-options-dialog-item label{
+	display: inline-block;
+}
+
+.bs-vec-table-options-dialog-item > .oo-ui-widget:not( .oo-ui-labelWidget ) {
+	float: right;
+	display: inline-block;
+}
+
+.bs-vec-unit-selectable {
+	width: 230px;
+}
+
+.bs-vec-unit-selectable .oo-ui-dropdownInputWidget {
+	width: 100px;
+	display: inline-block;
+}
+
+.bs-vec-unit-selectable .oo-ui-numberInputWidget {
+	width: 120px;
+}
+
+/* Must use !important because margins are set dynamically
+at unknown times */
+.bs-vec-always-show-scroll {
+	overflow-y: scroll;
+	margin-right: 0 !important;
+}
+
+.bs-vec-always-show-scroll body {
+	margin-right: 0 !important;
+}
+
+.bs-soft-hyphen-node::before {
+	content: '|';
+}
+
+.ve-ui-tableDialog-panel {
+	max-width: 100%;
+}
+
+.ve-ui-tableDialog-panel .oo-ui-fieldLayout-header,
+.ve-ui-tableDialog-panel .oo-ui-fieldLayout-field {
+	width: 50% !important;
+}
+
+.ve-active .main-footer {
+	padding-bottom: 8rem;
+}
+
+.mw-upload-bookletLayout-filePreview {
+	height: unset;
+	width: unset;
+}
+
+.ve-ui-mwTargetWidget .oo-ui-toolbar-bar {
+	top: 0 !important;
+}
+
+.oo-ui-processDialog-content .ve-ui-mwTargetWidget .ve-ui-surface:after {
+	min-height: 40px;
+}
+
+.oo-ui-popupWidget-anchored:not(.bs-vec-styleInspector) .oo-ui-popupWidget-popup {
+	margin-left: -30px;
+}

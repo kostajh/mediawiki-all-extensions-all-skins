@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Woytecr"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "Pozwala na łatwiejsze SEO (optymalizację dla wyszukiwarek internetowych)",
+	"addhtmlmetaandtitle-empty-attr": "Znacznik &lt;seo&gt; musi zawierać przynajmniej jeden z wypełnionych atrybutów - \"title\" lub \"metak(eywords)\" or \"metad(escription)\"."
+}

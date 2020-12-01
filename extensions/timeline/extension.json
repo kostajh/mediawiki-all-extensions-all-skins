@@ -1,0 +1,62 @@
+{
+	"name": "EasyTimeline",
+	"author": "Erik Zachte",
+	"url": "https://www.mediawiki.org/wiki/Extension:EasyTimeline",
+	"descriptionmsg": "timeline-desc",
+	"license-name": "GPL-2.0-only",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"Timeline": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"Timeline": "includes/Timeline.php"
+	},
+	"ResourceModules": {
+		"ext.timeline.styles": {
+			"styles": [
+				"resources/ext.timeline.styles/timeline.css"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "timeline"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "Timeline::onParserFirstCallInit"
+	},
+	"TrackingCategories": [
+		"timeline-tracking-category"
+	],
+	"config": {
+		"TimelinePloticusCommand": {
+			"value": "/usr/bin/ploticus"
+		},
+		"TimelinePerlCommand": {
+			"value": "/usr/bin/perl"
+		},
+		"TimelineFile": {
+			"value": "EasyTimeline.pl",
+			"path": true
+		},
+		"TimelineEpochTimestamp": {
+			"value": "20120101000000"
+		},
+		"TimelineFontFile": {
+			"value": "FreeSans"
+		},
+		"TimelineFileBackend": {
+			"value": ""
+		}
+	},
+	"manifest_version": 2
+}

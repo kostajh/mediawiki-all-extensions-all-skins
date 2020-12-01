@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Baiji",
+			"Crazymadlover",
+			"Fitoschido",
+			"MarcoAurelio",
+			"Tiberius1701"
+		]
+	},
+	"categorywatch-desc": "Amplía la funcionalidad de la lista de seguimiento para incluir notificaciones sobre los cambios de membresía de las categorías vigiladas",
+	"categorywatch-emailsubject": "Actividad relacionada con la categoría vigilada «$1»",
+	"categorywatch-catmovein": "$1 se trasladó desde $3 a $2",
+	"categorywatch-catmoveout": "$1 se trasladó desde $2 a $3",
+	"categorywatch-catadd": "$1 se añadió a $2",
+	"categorywatch-catsub": "$1 se borró de $2",
+	"categorywatch-autocat": "Automáticamente vigilado por $1",
+	"categorywatch-notification-link": "Categoría: [[:$1]]",
+	"categorywatch-notification-categorywatch-add-header": "[[:$1|$2]] se añadió a [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-add-summary": "[[:$3|$4]] se añadió a [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-add-body": "[[User:$1|$1]] añadió [[:$3|$3]] a [[:$4|$4]]",
+	"categorywatch-notification-categorywatch-remove-header": "[[:$1|$2]] se borró de [[:$3|$4]]",
+	"categorywatch-notification-categorywatch-remove-summary": "[[:$3|$4]] se borró de [[:$5|$6]]",
+	"categorywatch-notification-categorywatch-remove-body": "[[User:$1|$1]] borró [[:$3|$3]] de [[:$4|$4]]",
+	"categorywatch-notification-bundle": "Cambios de categorización de $1 en {{SITENAME}}",
+	"categorywatch-add-title": "Título añadido a la categoría vigilada",
+	"categorywatch-remove-title": "Título borrado de la categoría vigilada",
+	"categorywatch-page-watch-pref": "Añadir todas las páginas de una categoría a tu lista de seguimiento cuando añadas una categoría",
+	"echo-category-title-categorywatch": "Seguimiento de categorías",
+	"echo-pref-tooltip-categorywatch": "Notificarme cuando alguien añada o quite una página de una categoría que esté bajo mi seguimiento."
+}

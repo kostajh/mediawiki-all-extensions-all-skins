@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"safedelete": "Borrado seguro",
+	"safedelete-desc": "Borrar páxina só se non hai páxinas no espazo de nomes indicado que liguen con ela",
+	"safedelete-title": "Borrar \"$1\"",
+	"safedelete-missingpagename": "Falta o nome da páxina.",
+	"safedelete-missingnamespaces": "A lista de espazos de nomes de Borrado Especial non está fixada.",
+	"safedelete-cannotdelete": "Non se pode borrar a páxina \"$1\" porque hai ligazóns ou redireccións a ela desde {{PLURAL:$2|a seguinte páxina|as seguintes páxinas}}:"
+}

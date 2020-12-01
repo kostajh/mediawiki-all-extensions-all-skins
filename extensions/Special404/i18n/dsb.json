@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"special404-desc": "Zmóžnja cel za zmólki \"404 - njenamakany\"",
+	"error404": "Zmólka 404 - njenamakany",
+	"special404-body": "Pominany URL njejo se namakał.\n\nSy {{fullurl:$1}} měnił?\n\nSnaź coš se slědujucy bok woglědaś:\n* [[{{MediaWiki:Mainpage}}|Głowny bok]]"
+}

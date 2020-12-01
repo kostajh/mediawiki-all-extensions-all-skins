@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-uemodulepdfsubpages-extension-description": "Permite exportação recursiva de páginas para o formato PDF com subpáginas.",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-text": "Página e sub-páginas para PDF",
+	"bs-uemodulepdfsubpages-widgetlink-subpages-title": "Exportar esta página e todas as subpáginas como PDF.",
+	"action-uemodulepdfsubpages-export": "exportar uma página, incluindo todas as subpáginas, para PDF",
+	"right-uemodulepdfsubpages-export": "Exportar uma página, incluindo todas as subpáginas, para PDF"
+}

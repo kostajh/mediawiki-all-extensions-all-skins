@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Artsiom91",
+			"Irus"
+		]
+	},
+	"twnmp-mainpage": "Галоўная старонка",
+	"twnmp-s-projects": "{{PLURAL:$1|праект|праектаў}}",
+	"twnmp-brand-motto": "Супольнасць перакладчыкаў праектаў з адкрытым зыходным кодам",
+	"twnmp-search-button": "Знайсці",
+	"twnmp-search-choose-project": "Выберыце праект для перакладу",
+	"twnmp-translate-button": "Пераклад",
+	"twnmp-your-translations-stats": "Ваша статыстыка перакладу",
+	"twnmp-translations-per-month": "{{PLURAL:$1|Перакладаў}}/ за месяц",
+	"twnmp-translations-in-sandbox": "{{PLURAL:$1|Пераклады}}",
+	"twnmp-bottom-help": "Даведка",
+	"twnmp-bottom-languages-supported": "Падтрымліваюцца мовы"
+}

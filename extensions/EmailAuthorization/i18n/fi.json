@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz",
+			"Silvonen"
+		]
+	},
+	"emailauthorization-config-label-email": "Sähköpostiosoite",
+	"emailauthorization-config-button-next": "Seuraava",
+	"emailauthorization-config-button-previous": "Edellinen",
+	"emailauthorization-config-button-add": "Lisää",
+	"emailauthorization-request-label-email": "Sähköpostiosoite",
+	"emailauthorization-request-button-submit": "Lähetä",
+	"emailauthorization-approve-label-email": "Sähköpostiosoite",
+	"emailauthorization-approve-label-extra": "Lisäkentät",
+	"emailauthorization-approve-button-approve": "Hyväksy",
+	"emailauthorization-approve-button-reject": "Hylkää",
+	"emailauthorization-approve-button-next": "Seuraava",
+	"emailauthorization-approve-button-previous": "Edellinen"
+}

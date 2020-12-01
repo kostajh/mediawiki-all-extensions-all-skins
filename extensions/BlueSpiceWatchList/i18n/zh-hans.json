@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian",
+			"Liuxinyu970226",
+			"佛壁灯"
+		]
+	},
+	"bs-watchlist-desc": "加入监视列表小组件和标签",
+	"bs-watchlist-title-sidebar": "监视列表",
+	"bs-watchlist-pref-sort-time": "时间",
+	"bs-watchlist-pref-sort-title": "标题",
+	"bs-watchlist-tag-watchlist-desc": "显示由最多最近更改，且在您的监视列表上的页面。",
+	"bs-watchlist-window-watchlist-title": "监视列表",
+	"bs-watchlist-window-watchlist-intro": "这是您监视列表中所有页面的概览。您可切换至[[Special:Watchlist|经典版监视列表]]。",
+	"bs-watchlist-grid-watchlist-column-link-header": "页面",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "未查看更改",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "检查变更",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "讨论页",
+	"bs-watchlist-grid-watchlist-label-filter": "过滤器"
+}

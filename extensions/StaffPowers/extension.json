@@ -1,0 +1,42 @@
+{
+	"name": "StaffPowers",
+	"version": "1.4",
+	"author": [
+		"Łukasz Garczewski",
+		"Jack Phoenix",
+		"Mainframe98"
+	],
+	"license-name": "GPL-2.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:StaffPowers",
+	"descriptionmsg": "staffpowers-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"MessagesDirs": {
+		"StaffPowers": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"StaffPowers": "StaffPowers.php"
+	},
+	"Hooks": {
+		"BlockIp": [
+			"StaffPowers::makeUnblockable"
+		]
+	},
+	"AvailableRights": [
+		"unblockable"
+	],
+	"GroupPermissions": {
+		"staff": {
+			"unblockable": true
+		}
+	},
+	"config": {
+		"StaffPowersStewardGroupName": "steward",
+		"StaffPowersShoutWikiMessages": true
+	},
+	"manifest_version": 1
+}

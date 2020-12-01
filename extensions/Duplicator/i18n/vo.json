@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Smeira"
+		]
+	},
+	"duplicator": "Telükön padi",
+	"duplicator-desc": "Jafön [[Special:Duplicate|padakopiedis nesekidik]] labü redakamajenotems lölöfik",
+	"duplicator-toolbox": "Telükön padi at",
+	"duplicator-source": "Fonät:",
+	"duplicator-dest": "Zeil:",
+	"duplicator-dotalk": "Telükön bespikapadi (if dabinon)",
+	"duplicator-submit": "Telükön",
+	"duplicator-summary": "Pekopiedon se [[$1]]",
+	"duplicator-success": "[[$1]] pekopiedon lü [[$2]].",
+	"duplicator-success-revisions": "{{PLURAL:$1|Revid bal pekopiedon|Revids $1 pekopiedons}}.",
+	"duplicator-success-talknotcopied": "No eplöpos ad kopiedön bespikapadi.",
+	"duplicator-failed": "No eplöpos ad telükön padi.\nPöl nesevädik ejenon.",
+	"duplicator-source-invalid": "Penolös fonätatiädi lonöföl.",
+	"duplicator-source-notexist": "Pad: [[$1]] no dabinon. Penolös tiädi pada dabinöl.",
+	"duplicator-dest-invalid": "Penolös zeilatiädi lonöföl.",
+	"duplicator-dest-exists": "Pad: [[$1]] ya dabinon. Penolös zeilatiädi no dabinöli."
+}

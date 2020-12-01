@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Saruman",
+			"Siebrand"
+		]
+	},
+	"reassignedits": "Gebruikersbewerkingen opnieuw toewijzen",
+	"reassignedits-desc": "Maakt het mogelijk bewerkingen aan een andere gebruiker toe te wijzen",
+	"reassignedits-error-invalid": "De gebruikersnaam \"$1\" is ongeldig.",
+	"reassignedits-new": "Nieuwe gebruikersnaam",
+	"reassignedits-old": "Oude gebruikersnaam",
+	"reassignedits-submit": "Opslaan",
+	"reassignedits-success": "De bewerkingen van \"$1\" zijn toegewezen aan \"$2\".",
+	"reassignedits-summary": "Bewerkingen aan een andere gebruiker toewijzen.",
+	"reassignedits-updatelog-title": "Gebruikersnaam bijwerkingen in logboektitels",
+	"reassignedits-updatelog-user": "Uitvoerende gebruiker in logboeken bijwerken",
+	"right-reassignedits": "Bewerkingen aan een andere gebruiker toewijzen"
+}

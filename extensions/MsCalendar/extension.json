@@ -1,0 +1,66 @@
+{
+	"name": "MsCalendar",
+	"version": "2.3",
+	"author": [
+		"[mailto:wiki@ratin.de Martin Schwindl]",
+		"[mailto:wiki@keyler-consult.de Martin Keyler]",
+		"[https://www.mediawiki.org/wiki/User:Sophivorus Felipe Schenone]",
+		"[https://www.mediawiki.org/wiki/User:Fraifrai Frédéric Souchon]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:MsCalendar",
+	"descriptionmsg": "msc-desc",
+	"license-name": "GPL-3.0-only",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"MsCalendar": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MsCalendar": "src/MsCalendar.php"
+	},
+	"callback": "MsCalendar::onRegistration",
+	"ResourceModules": {
+		"ext.MsCalendar": {
+			"scripts": [
+				"js/jquery.calendario.js",
+				"js/MsCalendar.js"
+			],
+			"styles": "css/MsCalendar.css",
+			"messages": [
+				"msc-desc",
+				"msc-notfirstday",
+				"msc-change",
+				"msc-remove",
+				"msc-create",
+				"msc-cancel",
+				"msc-eventname",
+				"msc-eventdate",
+				"msc-eventduration",
+				"msc-eventyearly",
+				"msc-eventedit",
+				"msc-eventcreate",
+				"msc-today",
+				"msc-todaylabel",
+				"msc-months",
+				"msc-days"
+			],
+			"dependencies": [
+				"jquery.ui"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "MsCalendar/resources"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "MsCalendar::setHook",
+		"LoadExtensionSchemaUpdates": "MsCalendar::updateDatabase"
+	},
+	"config": {},
+	"manifest_version": 1,
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	}
+}

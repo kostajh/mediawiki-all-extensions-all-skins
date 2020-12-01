@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"emaildiff-desc": "Gjør det mulig i sende tekstdiffer i varseleposter",
+	"tog-emaildiff": "Send en diff med endringer",
+	"emaildiff-newpage": "Dette er ei ny side:\n\n$1",
+	"emaildiff-intro": "Versjonsforskjeller:\n$1"
+}

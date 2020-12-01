@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Zoranzoki21"
+		]
+	},
+	"bluespicecategorymanager": "Менаџер категорија",
+	"bluespicecategorymanager-desc": "Визуелна алатка за управљање категоријама",
+	"action-categorymanager-viewspecialpage": "види управитеља категорија",
+	"bs-categorymanager-draganddrop-text": "Превуците и испустите да бисте реорганизовали",
+	"bs-categorymanager-label": "Менаџер категорија",
+	"bs-categorymanager-dlg-new-title": "Прављење категорија",
+	"bs-categorymanager-dlg-new-prompt": "Молимо унесите име:",
+	"bs-categorymanager-removecategoryconfirm-text": "Да ли сте сигурни да желите да обришете ову категорију?",
+	"bs-categorymanager-removecategoryconfirm-title": "Уклони категорију",
+	"bs-categorymanager-addcategory-dialog-error-title": "Креирање категорије није успело",
+	"bs-categorymanager-action-show-category": "Прикажи категорију",
+	"right-categorymanager-viewspecialpage": "приступ посебној страници [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Додела категорија",
+	"bs-categorymanager-collection-var-namespacename": "Именски простор",
+	"bs-categorymanager-collection-var-categorizedpages": "Странице са категоријама",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Странице без категорија"
+}

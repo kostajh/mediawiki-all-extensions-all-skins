@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw",
+			"Jojit fb",
+			"Leeheonjin",
+			"Stranger195"
+		]
+	},
+	"openstackmanager-desc": "Nagpapahintulot sa mga tagagamit na pamahalaan ang Nova at Swift",
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Pamahalaan ang iyong mga pampublikong susi ng SSH",
+	"specialpages-group-nova": "Nova ng OpenStack",
+	"openstackmanager-novakey": "Susi ng Nova",
+	"openstackmanager-delete": "burahin",
+	"openstackmanager-actions": "Mga galaw",
+	"openstackmanager-notloggedin": "Kailangan ang pag-login",
+	"openstackmanager-mustbeloggedin": "Dapat kang nakalagda upang maisagawa ang galaw na ito.",
+	"openstackmanager-novapublickey": "Pangmadlang susi ng SSH",
+	"openstackmanager-deletekey": "Burahin ang susi",
+	"openstackmanager-deletekeyconfirm": "Nakatitiyak ka bang nais mong burahin ang nasa itaas na susi?",
+	"openstackmanager-keylist": "Tala ng susi",
+	"openstackmanager-name": "Pangalan",
+	"openstackmanager-fingerprint": "Bakas ng guhit ng daliri",
+	"openstackmanager-keys": "Mga susi",
+	"openstackmanager-keypairimportfailed": "Nabigo sa pag-angkat ng tambalang-susi.",
+	"openstackmanager-keypairimported": "Naangkat na ang tambalang-susi.",
+	"openstackmanager-keypairimportedfingerprint": "Naangkat ang tambalang-susi na $1 na may bakas ng hugit ng daliri na $2.",
+	"openstackmanager-keypairformatwrong": "Mali o nasa hindi nakikilalang kaanyuan ang ibinigay na susi ng SSH.",
+	"openstackmanager-keypairformatconverted": "Kusang napalitan ang anyo ng susi ng SSH.",
+	"openstackmanager-deletedkey": "Matagumpay na nabura ang susi.",
+	"openstackmanager-deletedkeyfailed": "Nabigo sa pagbura ng susi.",
+	"openstackmanager-shellaccountname": "Pangalan ng akawnt ng kabibi ng pagkakataon",
+	"openstackmanager-shellaccountnamehelp": "Ang pangalan ng akawnt ng kabibi ay dapat na nagsisimula sa a-z, at maaaring maglaman lamang ng mga panitik na a-z, 0-9, -, at _."
+}

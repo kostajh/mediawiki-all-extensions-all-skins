@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armin1392",
+			"Mjbmr",
+			"Reza1615"
+		]
+	},
+	"securesessions-desc": "ساختن جلسات کاربری و جلسه تأیید امنیت بیشتر",
+	"securesessions-personalurl": "جلسات باز ($1)",
+	"securesessions-ipsession": "خروج همهٔ جلسات دیگر.",
+	"securesessions-iprestrict": "جلسه به این آدرس آی‌پی محدود شده،",
+	"securesessions-uarestrict": "جلسه به این مرورگر محدود شده.",
+	"securesessions-sessions": "نشست‌ها",
+	"securesessions-sessions-legend": "اظلاعات جلسه",
+	"securesessions-sessions-text": "در زیر همه جلسات باز برای حساب شما و اطلاعات درباره آنها وجود دارد.\nشما می‌توانید همه جلسات دیگر را با استفاده از دکمه زیر ببندید. یک ستاره (*) جلسه فعلی را نشان می‌دهد.",
+	"securesessions-sessions-ip": "نشانی آی‌پی:",
+	"securesessions-sessions-activity": "آخرین فعالیت:",
+	"securesessions-sessions-clear": "خروج همهٔ جلسات دیگر",
+	"securesessions-prefs-country": "ورود توسط کشور محدود شده:",
+	"securesessions-prefs-tor": "مجاز نبودن ورودی‌ها از بند خروج تور.",
+	"securesessions-disallowedcountry": "این حساب مجاز برای ورود به این کشور نمی‌باشد.",
+	"securesessions-disallowedtor": "این حساب مجاز به ورود از بند خروج تور نمی‌باشد."
+}

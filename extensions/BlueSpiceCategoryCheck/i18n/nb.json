@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-categorycheck-extension-description": "Sjekker tildelt kategori før en artikkel lagres",
+	"bs-categorycheck-insertcategory-no-category": "Tildel en kategori til artikkelen",
+	"bs-categorycheck-insertcategory-ignore-no-category": "Ignorer",
+	"bs-categorycheck-insertcategory-category-list": "Følgende kategorier er satt",
+	"bs-categorycheck-insertcategory-confirm-categories": "Kategoriene er korrekte",
+	"bs-categorycheck-nsm-label-categorycheck": "Kategorisjekk"
+}

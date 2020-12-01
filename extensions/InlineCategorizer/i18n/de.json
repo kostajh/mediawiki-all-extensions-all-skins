@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"Umherirrender"
+		]
+	},
+	"inlinecategorizer-desc": "Ermöglicht das direkte Hinzufügen, Ändern und Entfernen von Kategorien auf einer Wikiseite",
+	"inlinecategorizer-add-category": "Kategorie hinzufügen",
+	"inlinecategorizer-add-category-submit": "Hinzufügen",
+	"inlinecategorizer-add-category-summary": "Kategorie „$1“ hinzufügen",
+	"inlinecategorizer-api-error": "Die API hat einen Fehler zurückgegeben: $1: $2",
+	"inlinecategorizer-api-unknown-error": "Die API hat einen unbekannten Fehler ausgegeben.",
+	"inlinecategorizer-cancel": "Bearbeitung abbrechen",
+	"inlinecategorizer-cancel-all": "Alle Änderungen zurücknehmen",
+	"inlinecategorizer-category-already-present": "Diese Seite gehört bereits zur Kategorie $1",
+	"inlinecategorizer-category-hook-error": "Eine lokale Funktion verhindert, dass die Änderungen gespeichert werden",
+	"inlinecategorizer-category-question": "Warum möchtest du die folgenden Änderungen durchführen:",
+	"inlinecategorizer-confirm-ok": "OK",
+	"inlinecategorizer-confirm-save": "Speichern",
+	"inlinecategorizer-confirm-save-all": "Alle Änderungen speichern",
+	"inlinecategorizer-confirm-title": "Aktion bestätigen",
+	"inlinecategorizer-edit-category": "Kategorie bearbeiten",
+	"inlinecategorizer-edit-category-error": "Es war nicht möglich, die Kategorie „$1“ zu bearbeiten.\nDies passiert normalerweise, wenn die Kategorie zur Seite in einer Vorlage hinzugefügt wurde.",
+	"inlinecategorizer-edit-category-summary": "Kategorie „$1“ zu „$2“ ändern.",
+	"inlinecategorizer-error-title": "Fehler",
+	"inlinecategorizer-remove-category": "Kategorie entfernen",
+	"inlinecategorizer-remove-category-error": "Es war nicht möglich, die Kategorie „$1“ zu entfernen.\nDies passiert normalerweise, wenn die Kategorie über eine Vorlage eingebunden ist.",
+	"inlinecategorizer-remove-category-summary": "Kategorie „$1“ entfernen"
+}

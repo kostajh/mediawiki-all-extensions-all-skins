@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"vikititleicon-desc": "VIKI-дадатак для паказу лягатыпу з старонак з дапамогай пашырэньня Title Icon",
+	"vikititleicon-error-fetch": "Памылка атрыманьня зьвестак выявы загалоўку для вузла: $1.",
+	"apihelp-getTitleIcons-description": "Атрымаць URL-адрасы ўсіх іконак загалоўку старонкі, калі яны існуюць.",
+	"apihelp-getTitleIcons-summary": "Атрымаць URL-адрасы ўсіх іконак загалоўку старонкі, калі яны існуюць.",
+	"apihelp-getTitleIcons-param-pageTitle": "назва старонкі, іконкі загалоўку якой вы хочаце атрымаць"
+}

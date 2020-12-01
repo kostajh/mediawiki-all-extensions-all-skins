@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Moud hosny",
+			"ديفيد"
+		]
+	},
+	"bs-usagetracker-desc": "يحمل البيانات الإحصائية حول استخدام التمديد",
+	"prefs-usagetracker": "متعقب الاستخدام",
+	"usagetracker": "متعقب الاستخدام",
+	"bs-usagetracker-startjobs": "التحديث الآن",
+	"bs-usagetracker-create-statistics": "تحديث إحصائيات الاستخدام",
+	"bs-usagetracker-col-identifier": "معرف",
+	"bs-usagetracker-col-desc": "الوصف",
+	"bs-usagetracker-col-count": "عد",
+	"bs-usagetracker-col-last-updated": "آخر تحديث",
+	"bs-usagetracker-caution": "كن على علم: قد يستغرق تحديث إحصائيات الاستخدام بعض الوقت والموارد; فقط قم بتشغيل التحديث عندما تكون حقا بحاجة إلى البيانات الحالية، يتم التحديث عبر وظائف مؤجلة; لذلك قد تضطر إلى إعادة التحميل عدة مرات حتى يتم جمع البيانات بالكامل.",
+	"bs-usagetracker-base-collector-desc": "عدد الصفحات التي تستخدم $1",
+	"bs-usagetracker-tag-collector-desc": "عدد الصفحات التي تستخدم الوسم <$1>",
+	"bs-usagetracker-db-collector-desc": "رقم $1",
+	"bs-usagetracker-open-tasks": "تحليل الموقع قيد التقدم حاليا، {{PLURAL:$1|تحليل واحد لا يزال مفتوحا|$1 تحليلات لا تزال مفتوحة}}. <a href='$2'>(تحديث)</a>",
+	"apihelp-bs-usagetracker-store-summary": "يحمل البيانات الإحصائية حول استخدام التمديد",
+	"action-usagetracker-update": "إعادة تشغيل عملية التحديث، التي تجمع جميع البيانات المتعقبة في الصفحة الخاصة [[Special:UsageTracker]].",
+	"right-usagetracker-update": "الوصول إلى إعادة تشغيل عملية التحديث، التي تجمع جميع البيانات المتعقبة في الصفحة الخاصة [[Special:UsageTracker]]."
+}

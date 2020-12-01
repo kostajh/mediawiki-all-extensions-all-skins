@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cvanca",
+			"Matěj Suchánek"
+		]
+	},
+	"safedelete-title": "Smazat „$1“",
+	"safedelete-cannotdelete": "Stránku „$1“ není možné smazat, protože na ni vedou odkazy nebo přesměrování z {{PLURAL:$2|následující stránky|následujících stránek}}:"
+}

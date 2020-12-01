@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Technic2",
+			"WikiPhoenix"
+		]
+	},
+	"deleteuserpages-desc": "Låter användare radera sina egna användarsidor",
+	"action-delete-rootuserpages": "radera egen användar- och användardiskussionssida",
+	"right-delete-rootuserpages": "radera egen användarsida och användardiskussionssida",
+	"right-delete-usersubpages": "radera undersidor till sin egen användarsida"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby",
+			"Soued031"
+		]
+	},
+	"createtopicpage": "Säit uleeën",
+	"articleplaceholder-abouttopic": "Iwwert Thema",
+	"articleplaceholder-abouttopic-create-article-title": "En neien Artikel uleeën",
+	"articleplaceholder-abouttopic-create-article-label": "Titel vum Artikel",
+	"articleplaceholder-abouttopic-create-article-mandatory": "Den Titel vum Artikel ass obligatorech.",
+	"articleplaceholder-abouttopic-create-article-button": "En Artikel uleeën",
+	"articleplaceholder-abouttopic-translate-article-label": "Quellsprooch:",
+	"articleplaceholder-abouttopic-translate-article-button": "Artikel iwwersetzen",
+	"articleplaceholder-abouttopic-lua-entity": "Objet",
+	"articleplaceholder-abouttopic-lua-reference": "Referenz",
+	"articleplaceholder-abouttopic-lua-identifier": "Extern Quellen",
+	"articleplaceholder-createpage-title": "$1 uleeën",
+	"articleplaceholder-createpage-alreadyexists": "D'Säit mam  Titel $1 gëtt et schonn. Sicht wgl. een aneren eraus.",
+	"articleplaceholder-createpage-invalidtitleprovided": "Den Titel deen Dir uginn hutt ass net valabel. Gitt wgl. e valabelen Titel un."
+}

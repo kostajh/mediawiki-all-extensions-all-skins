@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel <vogel@hallowelt.biz>"
+		]
+	},
+	"bs-uemodulepdfrecursive-extension-description": "{{desc|name=BlueSpiceUEModulePDFRecursive}}",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-text": "Short text for the link, that exports the page and its linked pages as PDF",
+	"bs-uemodulepdfrecursive-widgetlink-recursive-title": "Title for the link, that exports the page and its linked pages as PDF",
+	"right-uemodulepdfrecursive-export": "{{doc-right|uemodulepdfrecursive-export}}",
+	"action-uemodulepdfrecursive-export": "{{doc-action|uemodulepdfrecursive-export}}"
+}

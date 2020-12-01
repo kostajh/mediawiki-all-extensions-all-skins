@@ -1,0 +1,7 @@
+/composer.lock
+/node_modules
+/vendor
+.eslintcache
+
+.DS_Store
+.*.sw[nop]

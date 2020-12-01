@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kunal Mehta",
+			"Liuxinyu970226",
+			"Robby"
+		]
+	},
+	"pageblock-desc": "{{desc|name=PageBlock|url=https://www.mediawiki.org/wiki/Extension:PageBlock}}",
+	"pageblock": "{{doc-special|PageBlock}}",
+	"pageblock-legend": "Legend on Special:PageBlock",
+	"pageblock-form-title": "Label for title field on form\n{{Identical|Page name}}",
+	"pageblock-form-user": "Label for username field on form\n{{Identical|Username}}",
+	"pageblock-form-edit": "Label for checkbox",
+	"pageblock-form-sameformove": "Label for checkbox",
+	"pageblock-form-move": "Label for checkbox",
+	"pageblock-form-reason": "Label for reason field on form\n{{Identical|Reason}}",
+	"pageblock-success": "Message a user sees after sucessfully setting restrictions.\n\n* $1 is a link to the user's userpage.\n* $2 is a link to the article they have been restricted from.",
+	"listrestrictions": "{{doc-special|ListRestrictions}}",
+	"listrestrictions-legend": "Legend on Special:ListRestrictions",
+	"pageblock-list-title": "Label for title field on form\n{{Identical|Page name}}",
+	"pageblock-list-user": "Label for username field on form\n{{Identical|Username}}",
+	"pageblock-list-indefonly": "Label for checkbox on form",
+	"pageblock-restricted-edit-indef": "List entry on Special:ListRestrictions for a user who is indefinitely restricted from editing the page.\n\n* $1 is a link to the user's userpage\n* $2 is a link to the page they are restricted from",
+	"pageblock-restricted-edit": "List entry on Special:ListRestrictions for a user who is temporarily restricted from editing the page.\n\n* $1 is a link to the user's userpage\n* $2 is a link to the page they are restricted from\n* $3 is a formatted timestamp when the restriction ends",
+	"pageblock-restricted-move-indef": "List entry on Special:ListRestrictions for a user who is indefinitely restricted from moving the page.\n\n* $1 is a link to the user's userpage\n* $2 is a link to the page they are restricted from",
+	"pageblock-restricted-move": "List entry on Special:ListRestrictions for a user who is temporarily restricted from moving the page.\n\n* $1 is a link to the user's userpage\n* $2 is a link to the page they are restricted from\n* $3 is a formatted timestamp when the restriction ends",
+	"pageblock-blocked-edit-indef": "Message a user sees when they are restricted.\n\n* $1 is the user's name\n* $2 is the page they are trying to take an action upon",
+	"pageblock-blocked-edit": "Message a user sees when they are restricted.\n\n* $1 is the user's name\n* $2 is the page they are trying to take an action upon\n* $3 is a formatted timestamp when the restriction ends",
+	"pageblock-blocked-move-indef": "Message a user sees when they are restricted.\n\n* $1 is the user's name\n* $2 is the page they are trying to take an action upon",
+	"pageblock-blocked-move": "Message a user sees when they are restricted.\n\n* $1 is the user's name\n* $2 is the page they are trying to take an action upon\n* $3 is a formatted timestamp when the restriction ends",
+	"logentry-restrict-add-edit-move": "{{logentry}}",
+	"logentry-restrict-add-edit": "{{logentry}}",
+	"logentry-restrict-add-move": "{{logentry}}",
+	"action-page-block": "{{doc-action|page-block}}",
+	"right-page-block": "{{doc-right|page-block}}"
+}

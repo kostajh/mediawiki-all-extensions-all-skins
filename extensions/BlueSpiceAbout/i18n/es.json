@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Macofe"
+		]
+	},
+	"bs-bluespiceabout-desc": "Información acerca de BlueSpice",
+	"bs-bluespiceabout-about-bluespice": "Acerca de BlueSpice",
+	"bluespiceabout": "Acerca de BlueSpice",
+	"prefs-bluespiceabout": "Acerca de BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Mostrar el enlace «{{int:bs-bluespiceabout-about-bluespice}}» en el menú principal",
+	"action-bluespiceabout-viewspecialpage": "ver la página especial «{{int:bs-bluespiceabout-about-bluespice}}»",
+	"right-bluespiceabout-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceAbout]]"
+}

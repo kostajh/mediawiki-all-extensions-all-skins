@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Pamputt",
+			"Wladek92"
+		]
+	},
+	"pageblock-desc": "Autorise les restrictions par page et par utilisateur",
+	"pageblock": "Restreindre un utilisateur",
+	"pageblock-legend": "Restreindre un utilisateur",
+	"pageblock-form-title": "Nom de la page",
+	"pageblock-form-user": "Nom d’utilisateur",
+	"pageblock-form-edit": "Restreindre un utilisateur sur les modifications",
+	"pageblock-form-sameformove": "Appliquer les même restrictions pour le renommage",
+	"pageblock-form-move": "Restreindre un utilisateur pour les renommages",
+	"pageblock-form-reason": "Motif",
+	"pageblock-success": "$2 a affecté des droits restreints à $1.",
+	"listrestrictions": "Afficher les restrictions",
+	"listrestrictions-legend": "Afficher les restrictions",
+	"pageblock-list-title": "Nom de la page",
+	"pageblock-list-user": "Nom d’utilisateur",
+	"pageblock-list-indefonly": "Afficher les restrictions infinies seulement",
+	"pageblock-restricted-edit-indef": "$1 n'est pas autorisé à modifer $2 pour une période indéterminée.",
+	"pageblock-restricted-edit": "$1 n'est pas autorisé à modifier $2 jusqu'au $3.",
+	"pageblock-restricted-move-indef": "$1 n'est pas autorisé à renommer $2 pour une durée indéterminée.",
+	"pageblock-restricted-move": "$1 n'est pas autorisé à renommer $2 jusqu'au $3.",
+	"pageblock-blocked-edit-indef": "{{GENDER:$1|Vous}} n'êtes pas autorisé{{GENDER:$1||e}} à modifier $2 pour une durée indéterminée.",
+	"pageblock-blocked-edit": "{{GENDER:$1|Vous}} n'êtes pas autorisé{{GENDER:$1||e}} à modifier $2 jusqu'au $3.",
+	"pageblock-blocked-move-indef": "{{GENDER:$1|Vous}} n'êtes pas autorisé{{GENDER:$1||e}} à renommer $2 pour une durée indéterminée.",
+	"pageblock-blocked-move": "{{GENDER:$1|Vous}} n'êtes pas autorisé à renommer jusqu'au $3.",
+	"logentry-restrict-add-edit-move": "$1 {{GENDER:$2|a restreint}} $3 pour la modification et le renommage de $4",
+	"logentry-restrict-add-edit": "$1 {{GENDER:$2|a restreint}} $3 pour la modification de $4",
+	"logentry-restrict-add-move": "$1 {{GENDER:$2|a restreint}} $3 concernant le renommage de $4",
+	"action-page-block": "appliquer, modifier ou supprimer des pages, ou des restrictions par utilisateur",
+	"right-page-block": "Appliquer, modifier ou supprimer les restrictions concernant les pages ou les utilisateurs"
+}

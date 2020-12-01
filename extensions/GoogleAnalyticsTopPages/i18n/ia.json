@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"googleanalyticstoppages-desc": "Forni un lista de paginas popular usante le datos de Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Valor de [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Actualisa le lista de paginas popular (datos fornite per Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Actualisa le lista de paginas popular (datos fornite per Google Analytics)."
+}

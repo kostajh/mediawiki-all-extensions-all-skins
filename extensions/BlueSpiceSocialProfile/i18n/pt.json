@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Hamilton Abreu",
+			"Mansil alfalb"
+		]
+	},
+	"bs-socialprofile-desc": "Entidade de perfil para BlueSpiceSocial",
+	"bs-socialprofile-type": "Perfil",
+	"bs-socialprofile-entityaction-changeimage": "Imagem do utilizador",
+	"bs-social-entityaction-editprofilefields": "Dados de perfil",
+	"bs-socialprofile-entity-fatalstatus-save-invaliduser": "Foi fornecido um 'Utilizador' inválido",
+	"bs-social-profile-field-name": "Nome",
+	"bs-social-profile-field-email": "Correio eletrónico",
+	"bs-social-profile-field-title": "Título",
+	"bs-social-profile-field-title-value": "{{GENDER:$1|Sr.|Sra.|}}",
+	"bs-social-profile-field-department": "Departamento",
+	"bs-social-profile-field-function": "Função",
+	"bs-social-profile-field-location": "Localização",
+	"bs-social-profile-field-phone": "Telefone",
+	"bs-social-profile-field-validate-no-integer": "$1 tem de ser um número",
+	"bs-socialprofile-special-profiles-heading": "Perfis",
+	"bs-social-profile-infoshowemail": "Mostrar correio eletrónico no perfil",
+	"socialprofiles": "Perfis",
+	"bs-socialprofile-switch-classicprofile-label": "Perfil clássico",
+	"bs-socialprofile-switch-modernprofile-label": "Perfil moderno",
+	"bs-socialprofile-switch-classicprofile-tooltip": "Mudar para o perfil clássico",
+	"bs-socialprofile-switch-modernprofile-tooltip": "Mudar para o perfil moderno",
+	"action-social-editothersprofile": "editar o perfil dos outros utilizadores",
+	"right-social-editothersprofile": "Editar o perfil de outros utilizadores",
+	"action-socialprofile-viewspecialpage": "ver a página especial \"{{int:socialprofiles}}\"",
+	"right-socialprofile-viewspecialpage": "Ver a página especial \"{{int:socialprofiles}}\""
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matěj Grabovský"
+		]
+	},
+	"stalkerlog-desc": "Přidává [[Special:Log/stalkerlog|seznam přihlášení a odhlášení]] uživatelů",
+	"stalkerlog-log-login": "se přihlásil.",
+	"stalkerlog-log-logout": "se odhlásil.",
+	"stalkerlog-log-type": "Seznam přihlášení uživatelů.",
+	"stalkerlog-log-text": "Toto je seznam přihlášení a odhlášení uživatelů."
+}

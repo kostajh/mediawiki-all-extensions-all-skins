@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"emailauth-desc": "Verifica gli accessi sospetti tramite posta elettronica.",
+	"emailauth-token-label": "Codice di verifica",
+	"emailauth-email-subject": "Il tuo codice di verifica accesso su $1",
+	"emailauth-email-body": "Il tuo codice di verifica accesso su $1 è $2",
+	"emailauth-login-message": "Devi verificare il tuo accesso. Un codice di verifica è stato inviato al tuo indirizzo di posta elettronica ($1), inserisci il codice qui.",
+	"emailauth-login-failure": "Codice di verifica non valido!",
+	"emailauth-login-retry-limit": "Troppi tentativi falliti!"
+}

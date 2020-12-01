@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin Owain"
+		]
+	},
+	"flexiskin-ui-plugin-colors-background-primary-label": "Lliw 1",
+	"flexiskin-ui-plugin-colors-background-secondary-label": "Lliw 2",
+	"flexiskin-ui-plugin-colors-background-tertiary-label": "Lliw 3",
+	"flexiskin-ui-plugin-colors-background-quaternary-label": "Lliw 4",
+	"flexiskin-ui-plugin-colors-foreground-primary-label": "Lliw 1",
+	"flexiskin-ui-plugin-colors-foreground-secondary-label": "Lliw 2",
+	"flexiskin-ui-plugin-colors-foreground-tertiary-label": "Lliw 3",
+	"flexiskin-ui-plugin-colors-foreground-quaternary-label": "Lliw 4",
+	"flexiskin-ui-configurator-button-save-label": "Cadw a'i wneud yn fyw",
+	"flexiskin-ui-configurator-button-disable-label": "Analluogi",
+	"flexiskin-ui-error-disable-fail": "Methwyd analluogi'r croen",
+	"flexiskin-ui-plugin-content-label": "Cynnwys",
+	"flexiskin-ui-plugin-content-header-label": "Penawdau",
+	"flexiskin-ui-plugin-content-header-h1-label": "Pennawd 1 (h1)",
+	"flexiskin-ui-plugin-content-header-h2-label": "Pennawd 2 (h2)",
+	"flexiskin-ui-plugin-content-header-h3-label": "Pennawd 3 (h3)",
+	"flexiskin-ui-plugin-content-header-h5-label": "Pennawd 5 (h5)",
+	"flexiskin-ui-plugin-content-header-h6-label": "Pennawd 6 (h6)",
+	"flexiskin-ui-plugin-content-header-color-label": "Lliw",
+	"flexiskin-ui-plugin-content-header-underline-label": "Tanlinellu",
+	"flexiskin-font-weight-light": "Golau",
+	"flexiskin-font-weight-regular": "Arferol",
+	"flexiskin-font-weight-bold": "Trwm",
+	"flexiskin-ui-plugin-content-colors-label": "Lliwiau",
+	"flexiskin-ui-plugin-content-font-label": "Ffont",
+	"flexiskin-ui-plugin-content-font-family-label": "Teulu ffont cynradd",
+	"flexiskin-ui-plugin-content-font-weight-label": "Pwysau",
+	"flexiskin-ui-widget-border-solid": "Solid",
+	"flexiskin-ui-widget-border-double": "Dwbl",
+	"flexiskin-ui-plugin-content-colors-link-label": "Dolen ddilys",
+	"flexiskin-ui-plugin-content-colors-new-link-label": "Dolen wedi'i thorri"
+}

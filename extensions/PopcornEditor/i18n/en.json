@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brion Vibber <brion@pobox.com>"
+		]
+	},
+	"popcorn-editbutton-edit": "Edit video",
+	"popcorn-summary-label": "Edit summary",
+	"popcorn-summary-default": "/* Modified in Popcorn Editor */",
+	"popcorn-editor-save-close": "Save and close",
+	"popcorn-editor-close": "Cancel",
+	"popcorn-desc": "In-browser editing of videos with Popcorn Editor",
+	"popcorn-edit-tab": "Edit video",
+	"popcorn-edit-tab-tooltip": "You can edit this video composition in your browser"
+}

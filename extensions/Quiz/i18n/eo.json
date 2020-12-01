@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin",
+			"Yekrats"
+		]
+	},
+	"quiz_desc": "Permesas kreadon de kvizoj",
+	"quiz_addedPoints": "{{PLURAL:$1|Poento aldonita|Poentoj aldonitaj}} pro ĝusta respondo:",
+	"quiz_cutoffPoints": "{{PLURAL:$1|Poento subtrahita|Poentoj subtrahitaj}} pro malĝusta respondo:",
+	"quiz_ignoreCoef": "Ignori la koeficientojn de demandoj:",
+	"quiz_shuffle": "Hazardmiksi demandaron",
+	"quiz_legend_correct": "Ĝusta",
+	"quiz_legend_incorrect": "Malĝusta",
+	"quiz_legend_unanswered": "Ne respondita",
+	"quiz_legend_error": "Sintaksa eraro",
+	"quiz_correction": "Ek!",
+	"quiz_score": "Viaj poentoj estas $1 / $2",
+	"quiz_points": "$1 | $2 {{PLURAL:$2|1 poento|poentoj}}",
+	"quiz_reset": "Reŝarĝi"
+}

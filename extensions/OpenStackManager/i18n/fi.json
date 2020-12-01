@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beluga",
+			"Crt",
+			"Mikahama",
+			"Nedergard",
+			"Nike",
+			"Olli",
+			"Pahkiqaz",
+			"Pxos",
+			"Pyscowicz",
+			"Samoasambia",
+			"Silvonen",
+			"VezonThunder"
+		]
+	},
+	"openstackmanager-desc": "Mahdollistaa Novan ja Swiftin hallinnan wikin kautta",
+	"openstackmanager": "OpenStackManager",
+	"novakey": "Hallitse omia julkisia SSH-avaimia",
+	"specialpages-group-nova": "OpenStack Nova",
+	"openstackmanager-novakey": "Nova-avain",
+	"openstackmanager-delete": "poista",
+	"openstackmanager-actions": "Toiminnot",
+	"openstackmanager-notloggedin": "Kirjaudu ensin sisään",
+	"openstackmanager-mustbeloggedin": "Sinun täytyy kirjautua sisään, jotta voisit suorittaa tämän toiminnon.",
+	"openstackmanager-novapublickey": "Julkinen SSH-avain",
+	"openstackmanager-deletekey": "Poista julkinen SSH-avain",
+	"openstackmanager-deletekeyconfirm": "Haluatko varmasti poistaa yllä mainitun avaimen?",
+	"openstackmanager-keylist": "Julkisten SSH-avainten luettelo",
+	"openstackmanager-addkey": "Lisää julkinen SSH-avain",
+	"openstackmanager-name": "Nimi",
+	"openstackmanager-keys": "Avaimet",
+	"openstackmanager-deletedkey": "Avain poistettu.",
+	"openstackmanager-deletedkeyfailed": "Avaimen poisto epäonnistui."
+}

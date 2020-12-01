@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-notifications-addaccount": "O usuário \"$1\" foi criado.",
+	"bs-notifications-email-addaccount-subject": "{{GENDER:$1|Usuário\"$2\" criado|Usuária \"$2\" criada}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$1|O usuário $2 foi criado|A usuária $2 foi criada}}.\n\nPode visitar a página{{GENDER:$1|do usuário|da usuária}} seguindo a hiperligação abaixo",
+	"bs-notifications-web-addaccount-body": "{{GENDER:$1|O usuário $2 foi criado|A usuária $2 foi criada}}.",
+	"bs-notifications-addaccout-performer": "{{GENDER:$1|Criador|Criadora}}: $1",
+	"bs-notifications-addaccount-performer": "{{GENDER:$1|Criador|Criadora}}: $1",
+	"bs-notifications-registeruser": "O usuário \"$1\" criou uma conta.",
+	"bs-notifications-email-registeruser-subject": "{{GENDER:$1|O usuário|A usuária}} \"$2\" criou uma conta",
+	"bs-notifications-email-registeruser-body": "{{GENDER:$1|O usuário|A usuária}} $2 criou uma conta.\n\nPode visitar a página de utilizador {{GENDER:$1|dele|dela}} seguindo a hiperligação abaixo",
+	"bs-notifications-web-registeruser-body": "{{GENDER:$1|O usuário|A usuária}} $2 criou uma conta.",
+	"bs-notifications-edit": "A página \"$1\" foi alterada",
+	"bs-notifications-edit-bundle": "A página \"$2\" foi alterada $1 {{PLURAL:$1|vez|vezes}}",
+	"bs-notifications-email-edit-subject": "Página \"$1\" {{GENDER:$2|editada}} ás $4 por $3",
+	"bs-notifications-email-edit-body": "A página \"$1\" foi {{GENDER:$2|editada}} ás $5 por $4.\n\nComentário:\n $3",
+	"bs-notifications-web-edit-body": "A página \"$1\" foi {{GENDER:$2|editada}} por $3.",
+	"bs-notifications-create": "A página \"$1\" foi criada",
+	"bs-notifications-email-create-subject": "Página \"$1\" {{GENDER:$2|criada}} ás $4 por $3",
+	"bs-notifications-email-create-body": "A página \"$1\" foi {{GENDER:$2|criada}} ás $5 por $3.\n\nComentário:\n $4 \nVocê pode visitar a página seguindo o link abaixo",
+	"bs-notifications-web-create-body": "A página \"$1\" foi {{GENDER:$2|criada}} por $3.",
+	"bs-notifications-delete": "A página \"$1\" foi eliminada",
+	"bs-notifications-email-delete-subject": "Página \"$1\" {{GENDER:$2|eliminada}} ás $4 por $3",
+	"bs-notifications-email-delete-body": "A página \"$1\" foi {{GENDER:$2|eliminada}} ás $5 por $3.\n\nO motivo foi o seguinte:\n$4",
+	"bs-notifications-web-delete-body": "A página \"$1\" foi {{GENDER:$2|eliminada}} por $3.",
+	"bs-notifications-move": "A página \"$1\" foi movida",
+	"bs-notifications-email-move-subject": "Página \"$1\" {{GENDER:$2|movida}} para \"$3\" ás $5 por $4",
+	"bs-notifications-email-move-body": "A página \"$1\" foi {{GENDER:$2|movida}} para \"$3\" ás $6 por $4.\n\nO motivo foi:\n$5\n\nVocê pode visitar a página seguindo o link abaixo",
+	"bs-notifications-web-move-body": "A página \"$1\" foi {{GENDER:$2|movida}} para \"$3\" por $4",
+	"bs-notifications-edit-difflink-label": "Veja a diferença",
+	"bs-notifications-htmlmail-greeting": "{{GENDER:$1|Bem-vindo|Bem-vinda|Bem-vindo(a)}}, $1",
+	"bs-notifications-htmlmail-sender-info": "$1 notificação de sistema",
+	"bs-notifications-mail-additional-links-label": "Links adicionais"
+}

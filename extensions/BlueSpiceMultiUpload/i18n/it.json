@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Sarah Bernabei",
+			"ValeJappo"
+		]
+	},
+	"bs-upload-multiupload-link-label": "Carica file",
+	"bs-upload-multiuploaddialogtitle": "Carica file",
+	"bs-uploader-mime-images-label": "Immagini",
+	"bs-uploader-mime-files-label": "File",
+	"bs-uploader-drop-or-click": "Trascina qui il file o fai clic per selezionare il file da caricare",
+	"bs-multiupload-tag-button-desc": "Mostra un pulsante che consente i caricamenti preconfigurati sul wiki",
+	"bs-multiupload-tag-button-label-default": "Carica file",
+	"bs-multiupload-tag-dropzone-desc": "Mostra una dropzone che consente i caricamenti preconfigurati sul wiki",
+	"bs-multiupload-tag-dropzone-label-default": "Trascina qui un file per iniziare il caricamento",
+	"bs-multiupload-tag-error-invalid prefix": "Il prefisso del nome di archiviazione $1 non è valido!",
+	"bs-multiupload-tag-error-invalid-categories": "{{PLURAL:$1|Categoria non valida|Categorie non valide}}: \"$2\"",
+	"bs-multiupload-tag-hint-reloadpage": "La pagina verrà ricaricata ora"
+}

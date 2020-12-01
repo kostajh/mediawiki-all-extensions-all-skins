@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani"
+		]
+	},
+	"categorywatch-desc": "Kiegészíti a figyelőlista képességeit egy figyelt kategória tagjaiban történt változásokkal.",
+	"categorywatch-emailsubject": "Változás a(z) \"$1\" nevű figyelt kategóriában",
+	"categorywatch-catmovein": "áthelyezte a(z) $1 című lapot a(z) $3 kategóriából a(z) $2 kategóriába",
+	"categorywatch-catmoveout": "áthelyezte a(z) $1 című lapot a(z) $2 kategóriából a(z) $3 kategóriába",
+	"categorywatch-catadd": "hozzáadta a(z) $1 című lapot a(z) $2 kategóriához",
+	"categorywatch-catsub": "eltávolította a(z) $1 című lapot a(z) $2 kategóriából",
+	"categorywatch-autocat": "$1 automatikusan figyeli"
+}

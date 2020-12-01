@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Liuxinyu970226"
+		]
+	},
+	"phabtaskgraph": "Phabricator 任務圖表",
+	"phabtaskgraph-desc": "力導向圖形的視覺化  Phabricator 任務關聯",
+	"phabtaskgraph-author-field-label": "作者",
+	"phabtaskgraph-owner-field-label": "擁有者",
+	"phabtaskgraph-tasks-field-label": "任務",
+	"phabtaskgraph-projects-field-label": "專案",
+	"phabtaskgraph-status-field-label": "狀態",
+	"phabtaskgraph-width-field-label": "寬度",
+	"phabtaskgraph-height-field-label": "高度",
+	"phabtaskgraph-tasks-field-help": "以逗號分隔的任務 ID 清單（可選擇以「T」作為開頭），例如：「T123456, T654321」",
+	"phabtaskgraph-projects-field-help": "以逗號分隔的專案名稱清單，例如：「MediaWiki-Platform-Team, Epic」",
+	"phabtaskgraph-width-field-help": "預設：800",
+	"phabtaskgraph-height-field-help": "預設：800",
+	"phabtaskgraph-status-open": "開啟",
+	"phabtaskgraph-status-stalled": "擱置",
+	"phabtaskgraph-status-resolved": "已解決",
+	"phabtaskgraph-status-invalid": "無效",
+	"phabtaskgraph-status-declined": "已拒絕",
+	"phabtaskgraph-status-duplicate": "重複"
+}

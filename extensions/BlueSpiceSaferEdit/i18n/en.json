@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-saferedit-desc": "Provides warnings if other users are editing the page",
+	"bs-saferedit-user-editing": "$1 is {{GENDER:$1|editing}} the page",
+	"bs-saferedit-someone-editing": "The page is being edited",
+	"bs-saferedit-pref-interval": "Interval for lookup for concurrent editings:",
+	"bs-saferedit-pref-shownameofeditinguser": "Show name of current editor"
+}

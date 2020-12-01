@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"gotoshell": "Оди на лушпата",
+	"gotoshell-desc": "Применува [[Special:GoToShell|службена страница]] кој го води корисникот до лушпата и назад",
+	"gotoshell-notallowed": "Вашата сметка нема дозвола за да оди на лушпата.",
+	"gotoshell-disabled": "Не можам да пуштам надворешни програми бидејќи proc_open() е оневозможен.",
+	"gotoshell-command": "Наредба:",
+	"gotoshell-result": "Исход:",
+	"action-gotoshell": "извршување на наредби на обвивката преку службената страница GoToShell",
+	"right-gotoshell": "Извршување на наредби на обвивката преку службената страница GoToShell"
+}

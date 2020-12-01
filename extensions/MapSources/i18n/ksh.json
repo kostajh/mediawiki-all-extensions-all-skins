@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"mapsources": "Quälle för Kaate",
+	"mapsources-summary": "Heh di Sigg määd et müjjelesch, noh Pläz ze söhke, woh mer de Ko'odėnahte om Jlohboß vun weijß.\n\nLängde, Breijde, un zohsäzlejje Parramehtere möße met Komms derzwesche aanjejovve wähde. Parramehtere beschtonn uss_enem Nahme med enem Jlisch-Zeijsche derhenger un enem Wäät doh derhenger.\n\nFör e Beijschpell: „<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">52° 31′ N, 13° 24′ 30″ E, scale=50000</code>“\n\nUßerdämm kam_mer et Fommaht vum <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\">[https://wiki.toolserver.org/view/GeoHack GeoHack]</i> nämme.",
+	"mapsources-search-legend": "Fengk Dahte un Kaate",
+	"mapsources-coordinate": "Ko'odėnahte",
+	"mapsources-go": "Lohß Jonn!",
+	"mapsources-errormsgs": "Mäldonge övver Fähler",
+	"mapsources-noparams": "De Parramehtere fähle",
+	"mapsources-incorrectparams": "Onjöltijje Parramehtere ($1) aanjejovve",
+	"mapsources-incorrectlat": "Verkehte Beijde om Johbu",
+	"mapsources-incorrectlong": "Verkehte Läng om Johbu",
+	"mapsources-nopage": "Kein Projäksigg [[{{ns:project}}:$1|$1]] ze fenge",
+	"mapsources-outofrange": "Ko'oodėnaate sin ußerhallf vum zohjelohße Berett",
+	"mapsources-math-missing-operand": "Enne Parramehter fählt",
+	"mapsources-math-incorrect-input": "En onjöltejje Enjahbe",
+	"mapsources-desc": "Quälle för Dahte un Kaate [[Special:MapSources|Söhke]]"
+}

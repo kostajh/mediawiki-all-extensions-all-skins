@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-smartlist-desc": "Viser de fem siste endringene på wikien i en liste",
+	"prefs-smartlist": "Smart liste",
+	"bs-smartlist-recent-changes": "Siste endringer",
+	"bs-smartlist-no-entries": "Ingen resultater funnet.",
+	"bs-smartlist-invalid-namespaces": "{{PLURAL:$1|Det gitte navnerommet|De gitte navnerommene}} er ugyldige: $2.",
+	"bs-smartlist-invalid-target": "Det gitte målet er ikke en gyldig sidetittel",
+	"bs-smartlist-comment": "Kommentar: $1.",
+	"bs-smartlist-sort-asc": "stigende",
+	"bs-smartlist-sort-desc": "synkende",
+	"bs-smartlist-day": "Dag",
+	"bs-smartlist-week": "Uke",
+	"bs-smartlist-month": "Måned",
+	"bs-smartlist-time": "Tid",
+	"bs-smartlist-title": "Tittel",
+	"bs-smartlist-tag-smartlist-desc": "Viser automatisk genererte lister over artikler. Konfigurasjonen har flere moduser og parametre.",
+	"bs-smartlist-tag-smartlist-example-rc": "Modus: Siste endringer",
+	"bs-smartlist-tag-smartlist-example-whatlinkshere": "Modus: Lenker hit",
+	"bs-smartlist-tag-newbies-desc": "Viser nye brukere på wikien. Listen kan begrenses til et visst antall.",
+	"bs-smartlist-tag-toplist-desc": "Viser de mest besøkte sidene. Kan begrenses med flere parametre.",
+	"bs-smartlist-mostvisitedpages": "Mest viste sider",
+	"bs-smartlist-mosteditedpages": "Mest redigerte sider",
+	"bs-smartlist-mostactiveusers": "Mest aktive brukere (antall redigeringer)",
+	"bs-smartlist-lastedits": "Mine redigeringer",
+	"bs-smartlist-noedits": "Ingen redigeringer funnet.",
+	"bs-smartlist-mostactiveusersdesc": "Liste over mest aktive brukere sortert etter antall redigeringer.",
+	"bs-smartlist-mosteditedpagesdesc": "Liste over mest redigerte sider sortert etter antall redigeringer.",
+	"bs-smartlist-mostvisitedpagesdesc": "Liste over mest viste sider sortert etter antall visninger.",
+	"bs-smartlist-lasteditsdesc": "Liste over sider du har redigert.",
+	"bs-smartlist-hitcounter-missing": "Utvidelsen <a target=\"blank\" href=\"https://www.mediawiki.org/wiki/Extension:HitCounters\">HitCounters</a> må være installert.",
+	"apihelp-bs-smartlist-tasks-description": "API-funksjoner for å tilby portletdata for side- og brukerstatistikk.",
+	"apihelp-bs-smartlist-tasks-summary": "API-funksjoner for å tilby portletdata for side- og brukerstatistikk."
+}

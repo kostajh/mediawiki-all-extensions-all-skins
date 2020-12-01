@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Vlad5250"
+		]
+	},
+	"gotoshell": "Перейти в консоль",
+	"gotoshell-desc": "Впроваджує [[Special:GoToShell|спеціальну сторінку]], яка переносить користувача в консоль і назад",
+	"gotoshell-notallowed": "Ваш обліковий запис не має права на перехід у консоль.",
+	"gotoshell-disabled": "Не вдається запустити зовнішні програми, proc_open() вимкнено.",
+	"gotoshell-command": "Команда:",
+	"gotoshell-result": "Результат:",
+	"action-gotoshell": "виконання консольних команд через спеціальну сторінку GoToShell",
+	"right-gotoshell": "Виконання консольних команд через спеціальну сторінку GoToShell"
+}

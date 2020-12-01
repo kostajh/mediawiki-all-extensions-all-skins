@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rob Church <robchur@gmail.com>"
+		]
+	},
+	"duplicator": "Duplicate a page",
+	"duplicator-desc": "Create independent [[Special:Duplicate|copies of pages]] with full edit histories",
+	"duplicator-toolbox": "Duplicate this page",
+	"duplicator-header": "This page allows the complete duplication of a page, creating independent copies of all histories.\nThis is useful for page forking, etc.",
+	"duplicator-options": "Options",
+	"duplicator-source": "Source:",
+	"duplicator-dest": "Destination:",
+	"duplicator-dotalk": "Duplicate discussion page (if applicable)",
+	"duplicator-dosubpages": "Duplicate subpages (if any)",
+	"duplicator-dohistory": "Duplicate full page history",
+	"duplicator-submit": "Duplicate",
+	"duplicator-summary": "Copied from [[$1]], revision [[$2]]",
+	"duplicator-success": "[[$1]] was copied to [[$2]].",
+	"duplicator-success-revisions": "$1 {{PLURAL:$1|revision was|revisions were}} copied.",
+	"duplicator-success-talknotcopied": "The talk page could not be copied.",
+	"duplicator-failed": "The page could not be duplicated.\nAn unknown error occurred.",
+	"duplicator-failed-toolong": "[[$1]] was not duplicated. The destination title is too long.",
+	"duplicator-failed-dest-exists": "[[$1]] was not duplicated. The destination [[$2]] already exists.",
+	"duplicator-source-invalid": "Please provide a valid source title.",
+	"duplicator-source-notexist": "[[$1]] does not exist. Please provide the title of a page that exists.",
+	"duplicator-dest-invalid": "Please provide a valid destination title.",
+	"duplicator-dest-exists": "[[$1]] already exists. Please provide a destination title which does not exist.",
+	"action-duplicate": "duplicate pages",
+	"right-duplicate": "Duplicate pages"
+}

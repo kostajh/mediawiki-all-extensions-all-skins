@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"bs-insertlink-desc": "مربع حوار لإدخال رابط",
+	"prefs-insertlink": "أدرج الوصلة",
+	"bs-insertlink": "أدرج الوصلة",
+	"bs-insertlink-pref-enable-java": "تمكين بريمج جافا",
+	"bs-insertlink-button-title": "إدراج/تحرير الرابط",
+	"bs-insertlink-dialog-title": "أدرج الوصلة",
+	"bs-insertlink-tab-wiki-page": "صفحة ويكي",
+	"bs-insertlink-tab-ext-link": "وصلة خارجية",
+	"bs-insertlink-tab-email": "وصلة البريد الإلكتروني",
+	"bs-insertlink-tab-file": "رابط لملف",
+	"bs-insertlink-label-page": "الصفحة",
+	"bs-insertlink-label-link": "الوصلة",
+	"bs-insertlink-label-mail": "عنوان البريد الإلكتروني",
+	"bs-insertlink-label-description": "الوصف",
+	"bs-insertlink-label-file": "الملف",
+	"bs-insertlink-label-searchfile": "بحث...",
+	"bs-insertlink-select-a-page": "اختر هدفا ...",
+	"bs-insertlink-select-a-namespace": "(صفحات)",
+	"bs-insertlink-empty-field-text": "لإدراج رابط تحتاج إلى تحديد وجهة.",
+	"bs-insertlink-no-applet": "لا يمكن تحميل البريمج; يرجى التحقق من تثبيت جافا الخاص بك.",
+	"bs-insertlink-internal-file-link-button-label": "اختيار ملف",
+	"bs-insertlink-external-file-switch-label": "مسار مشاركة الشبكة (URI)",
+	"bs-insertlink-pref-filesystemmap": "المواقع المسموح بها للملفات الخارجية",
+	"bs-insertlink-pref-filesystemmap-fs-prefix": "بادئة نظام الملفات",
+	"bs-insertlink-pref-filesystemmap-web-prefix": "بادئة الوصول إلى الويب",
+	"bs-insertlink-pref-allowunmapped": "السماح بالوصلات غير المعينة"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Nike",
+			"Valtlait"
+		]
+	},
+	"special404-desc": "Tarjoaa kohteen ”404 Ei löydetty” -virheille",
+	"error404": "404 Ei löydetty",
+	"special404-body": "Pyytämääsi osoitetta ei löydetty.\n\nTarkoititko {{fullurl:$1}}?\n\nEhkä haluaisit katsoa:\n* [[{{MediaWiki:Mainpage}}|Etusivu]]"
+}

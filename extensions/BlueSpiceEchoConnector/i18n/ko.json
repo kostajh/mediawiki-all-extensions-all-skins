@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-echoconnector-extension-description": "Echo로 BlueSpice에 연결",
+	"echo-category-title-bs-admin-cat": "관리 작업",
+	"echo-pref-tooltip-bs-admin-cat": "새 사용자 계정이 만들어지면 내게 알립니다",
+	"echo-pref-tooltip-bs-page-actions-cat": "내가 주시 중인 문서를 누군가가 편집, 이동, 삭제할 때 내게 알립니다",
+	"echo-pref-tooltip-bs-page-create-cat": "새 문서가 만들어지면 내게 알립니다",
+	"echo-category-title-bs-page-actions-cat": "주시문서 목록 문서의 동작",
+	"echo-category-title-bs-page-create-cat": "문서 생성",
+	"prefs-namespace-notifications": "이름공간 이벤트의 알림"
+}

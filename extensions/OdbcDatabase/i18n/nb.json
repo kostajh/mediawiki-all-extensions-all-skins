@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"odbcdatabase": "OdbcDatabase",
+	"odbcdatabase-desc": "Driver som bruker PHPs <code>odbc_*</code>-bibliotek med kommandoer for å støtte utvidelsen for eksterne data",
+	"odbcdatabase-odbc-missing": "ODBC-funksjoner mangler. Sjekk at <code>PHP:ODBC</code> er installert.",
+	"odbcdatabase-connection-error": "Feil ved tilkobling til tjeneren [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Kunne ikke frigjøre ODBC-resultat",
+	"odbcdatabase-fetch-object-error": "Feil under henting av objekt: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Feil under henting av rad: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "Funksjonen insertId() støttes ikke.",
+	"odbcdatabase-unknown-server-version": "Ukjent ODBC-tjenerversjon."
+}

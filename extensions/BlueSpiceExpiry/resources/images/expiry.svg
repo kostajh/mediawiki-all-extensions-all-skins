@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   id="svg3828"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="expiry.svg"
+   inkscape:export-filename="/_w/www/bs/master/extensions/BlueSpiceReminder/Expiry/resources/images/bs-infobar-unexpire.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3830" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="34.684337"
+     inkscape:cy="0.028684208"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1871"
+     inkscape:window-height="1056"
+     inkscape:window-x="1649"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4145" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3833">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1036.3622)">
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#c4c4c4;stroke-width:0.97809631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1.6835292,1036.9408 12.6330398,0 c 0,1.0602 0.06447,2.6473 -0.902361,4.2408 -0.732167,1.1402 -1.595938,2.2185 -2.707079,3.1806 1.122866,0.9862 2.112825,2.017 2.707079,3.1806 0.450084,1.3084 0.828605,2.6671 0.902361,4.2408 l -12.6330398,0 c 0.07977,-1.4137 0.3669132,-2.8273 0.9023599,-4.2408 0.731341,-1.3114 1.67298,-2.3139 2.7070799,-3.1806 -1.0437452,-0.811 -1.9668786,-1.8346 -2.7070799,-3.1806 -0.673457,-1.2259 -0.9023599,-3.1806 -0.9023599,-4.2408 z"
+       id="path4147"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       style="fill:#cdcdcd;fill-opacity:1;fill-rule:evenodd;stroke:#cdcdcd;stroke-width:0.83511895px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="m 10.411567,1041.6841 c -0.7153263,0.9744 -1.3522419,0.7035 -2.0603779,1.6786 -0.3474288,0.991 -0.3474288,2.0547 0.5272484,2.6215 1.0499675,1.1013 1.7902895,1.1576 2.6937925,3.6772 l -7.0813552,-0.031 c 0.9034183,-2.4887 1.5327415,-2.6794 2.612336,-3.6452 0.9005495,-0.5679 0.9005495,-1.6316 0.6087042,-2.6223 -0.7081355,-0.9747 -1.4559701,-0.7037 -2.1936484,-1.7097 1.6311139,0 3.2622157,0.02 4.8933004,0.031 z"
+       id="path4149"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-31.5"
+       y="1061.4336"
+       id="text4151"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4153"
+         x="-31.5"
+         y="1061.4336">Created by Hallo Welt! GmbH in 2017</tspan></text>
+  </g>
+</svg>

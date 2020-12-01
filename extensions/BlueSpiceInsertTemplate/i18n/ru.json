@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexey zakharenkov",
+			"Facenapalm"
+		]
+	},
+	"bs-insertTemplate-desc": "Диалог вставки шаблона",
+	"bs-insertTemplate-button-template-title": "Вставить или редактировать шаблон",
+	"bs-insertTemplate-dialog-title": "Вставить шаблон",
+	"bs-insertTemplate-dialog-label-choose": "Выбрать шаблон",
+	"bs-insertTemplate-dialog-label-modify": "Изменить шаблон",
+	"bs-insertTemplate-dialog-label-preview": "Предпросмотр",
+	"apihelp-bs-inserttemplate-store-description": "Перечисляет все шаблоны. Разрешает сортировку, фильтр и разбиение на страницы. Реализовывает параметры ExtJS Store.",
+	"apihelp-bs-inserttemplate-store-summary": "Перечисляет все шаблоны. Разрешает сортировку, фильтр и разбиение на страницы. Реализовывает параметры ExtJS Store."
+}

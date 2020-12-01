@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Harley Hartwell",
+			"Horus",
+			"Octahedron80"
+		]
+	},
+	"forcepreview": "$1 (ใช้แสดงตัวอย่างก่อน)",
+	"forcepreview-desc": "บังคับให้ต้องดูตัวอย่างก่อนทำการแก้ไข สำหรับผู้ใช้ที่ไม่มีสิทธิ์ forcepreviewexempt",
+	"right-forcepreviewexempt": "สามารถเซฟหน้าได้โดยไม่ต้องกดแสดงตัวอย่างก่อน"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justin Du",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"lifeweb": "{{doc-special|LifeWeb}}",
+	"lifeweb-desc": "{{desc|name=Life Web|url=https://www.mediawiki.org/wiki/Extension:LifeWeb}}",
+	"apihelp-query+LifeWeb-description": "{{doc-apihelp-description|query+LifeWeb}}",
+	"apihelp-query+LifeWeb-summary": "{{doc-apihelp-summary|query+LifeWeb}}",
+	"apihelp-query+LifeWeb-param-what": "{{doc-apihelp-param|query+LifeWeb|what}}",
+	"apihelp-query+LifeWeb-param-clearCache": "{{doc-apihelp-param|query+LifeWeb|clearCache}}",
+	"apihelp-query+LifeWeb-example-1": "{{doc-apihelp-example|query+LifeWeb}}",
+	"apihelp-query+LifeWeb-example-2": "{{doc-apihelp-example|query+LifeWeb}}"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Tomasdd"
+		]
+	},
+	"bs-to-top-desc": "Peršokti į viršų",
+	"bs-calumma-alert-oldpage": "Žiūrite seną puslapio versiją. [[Special:Redirect/page/$1|Grįžkite į naujausią versiją]].",
+	"bs-calumma-version-pager-prev-tooltip": "Perjungti į senesnes versijas",
+	"bs-calumma-version-pager-next-tooltip": "Perjungti į kitą versiją",
+	"bs-calumma-assoclink-history-label": "Istorija",
+	"bs-calumma-assoclink-history-tooltip": "Rodyti puslapio „$1“ pakeitimų istoriją",
+	"bs-calumma-context-pagebutton-label": "Puslapis",
+	"bs-calumma-context-pagebutton-tooltip": "Rodyti dabartinį temos puslpį",
+	"bs-calumma-context-discussionbutton-label": "Diskusija",
+	"bs-calumma-context-discussionbutton-tooltip": "Rodyti dabartinį aptarimo puslapį"
+}

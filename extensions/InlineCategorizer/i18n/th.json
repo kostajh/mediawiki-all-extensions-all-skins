@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Ans",
+			"Octahedron80"
+		]
+	},
+	"inlinecategorizer-add-category": "เพิ่มหมวดหมู่",
+	"inlinecategorizer-add-category-submit": "เพิ่ม",
+	"inlinecategorizer-add-category-summary": "เพิ่มหมวดหมู่ \"$1\"",
+	"inlinecategorizer-cancel": "ยกเลิกการแก้ไข",
+	"inlinecategorizer-category-already-present": "หน้านี้อยู่ในหมวดหมู่ \"$1\" แล้ว",
+	"inlinecategorizer-confirm-ok": "ตกลง",
+	"inlinecategorizer-confirm-save": "บันทึก",
+	"inlinecategorizer-confirm-save-all": "บันทึกการเปลี่ยนแปลงทั้งหมด",
+	"inlinecategorizer-confirm-title": "ยืนยันการกระทำ",
+	"inlinecategorizer-edit-category": "แก้ไขหมวดหมู่",
+	"inlinecategorizer-edit-category-summary": "เปลี่ยนหมวดหมู่ \"$1\" เป็น \"$2\"",
+	"inlinecategorizer-error-title": "เกิดข้อผิดพลาด",
+	"inlinecategorizer-remove-category": "เอาหมวดหมู่ออก",
+	"inlinecategorizer-remove-category-error": "ไม่สามารถลบหมวดหมู่นี้ได้\nมักจะเกิดขึ้นอันเนื่องมาจากหมวดหมู่นี้ได้ถูกเพิ่มจากการเพิ่มแม่แบบเข้าไป",
+	"inlinecategorizer-remove-category-summary": "นำหมวดหมู่ \"$1\" ออก"
+}

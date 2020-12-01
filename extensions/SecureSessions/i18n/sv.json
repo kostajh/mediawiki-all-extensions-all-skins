@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil",
+			"WikiPhoenix"
+		]
+	},
+	"securesessions-desc": "Gör användarsessioner och sessionsautentisering säkrare",
+	"securesessions-personalurl": "Öppna sessioner ($1)",
+	"securesessions-ipsession": "Logga ut alla andra sessioner.",
+	"securesessions-iprestrict": "Begränsa session till denna IP-adress,",
+	"securesessions-uarestrict": "Begränsa session till denna webbläsare.",
+	"securesessions-sessions": "Sessioner",
+	"securesessions-sessions-legend": "Sessionsinformation",
+	"securesessions-sessions-text": "Nedan följer alla öppna sessioner för ditt konto och information om dem. Du kan stänga alla andra sessioner med knappen nedan. Asterisken (*) betecknar den aktuella sessionen.",
+	"securesessions-sessions-ip": "IP-adress:",
+	"securesessions-sessions-activity": "Senaste aktivitet:",
+	"securesessions-sessions-clear": "Logga ut alla andra sessioner.",
+	"securesessions-prefs-country": "Begränsa inloggning per land:",
+	"securesessions-prefs-tor": "Neka inloggningar från Tor-utgångsnoder.",
+	"securesessions-disallowedcountry": "Detta konto tillåts inte att logga in från detta land.",
+	"securesessions-disallowedtor": "Detta konto tillåts inte att logga in från Tor-utgångsnoder."
+}

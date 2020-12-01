@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"onlinestatusbar-desc": "利用者ページにその利用者がオンラインかどうかを表示するステータス バー",
+	"prefs-onlinestatus": "オンライン状態",
+	"onlinestatusbar-used": "あなたのオンライン状態を利用者ページに表示",
+	"onlinestatusbar-hide": "マジックワードを使用するために、利用者ページのステータスバーを隠す (上級者向け)",
+	"onlinestatusbar-away": "定義された時間の経過後に自動的に退席中と見なす",
+	"onlinestatusbar-purge": "ログイン/ログアウトのたびに利用者ページのキャッシュを破棄",
+	"onlinestatusbar-status": "既定として使用する状態は?",
+	"onlinestatusbar-away-time": "退席中と見なすまでの時間は? (分単位)",
+	"onlinestatusbar-title-online": "{{GENDER:$1|オンライン}}",
+	"onlinestatusbar-title-busy": "{{GENDER:$1|多忙}}",
+	"onlinestatusbar-title-away": "{{GENDER:$1|退席中}}",
+	"onlinestatusbar-title-hidden": "{{GENDER:$1|非表示}}",
+	"onlinestatusbar-title-offline": "{{GENDER:$1|オフライン}}",
+	"onlinestatusbar-title-unknown": "{{GENDER:$1|不明}}",
+	"onlinestatusbar-tooltip-online": "{{GENDER:$1|この利用者}}は現在オンラインです",
+	"onlinestatusbar-tooltip-busy": "{{GENDER:$1|この利用者}}は多忙のため、応答できない可能性があります",
+	"onlinestatusbar-tooltip-away": "{{GENDER:$1|この利用者}}は退席中のため、応答できない可能性があります",
+	"onlinestatusbar-tooltip-offline": "{{GENDER:$1|この利用者}}はオフラインです",
+	"onlinestatusbar-tooltip-unknown": "{{GENDER:$1|この利用者}}の状態は不明です"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"addhtmlmetaandtitle-desc": "Tillater enklere SEO (søkemotoroptimalisering)",
+	"addhtmlmetaandtitle-empty-attr": "&lt;seo&gt;-taggen må inneholde minst ett ikke-tomt «title», «metak(eywords)» eller «metad(escription)»-attributt."
+}

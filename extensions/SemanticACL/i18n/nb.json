@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Event",
+			"Jon Harald Søby"
+		]
+	},
+	"sacl-desc": "Tillater å sette adgangsbegrensninger med egenskaper fra Semantic MediaWiki",
+	"sacl-denied": "Du er ikke på adgangslisten for denne siden.",
+	"action-sacl-exempt": "unntas fra Semantic ACL",
+	"right-sacl-exempt": "Fritatt fra Semantic ACL-er",
+	"action-view-non-categorized-media": "vise ukategoriserte mediefiler",
+	"right-view-non-categorized-media": "Vise ukategoriserte mediefiler",
+	"sacl-property-visibility": "Synlig for",
+	"sacl-property-visibility-wl-group": "Synlig for gruppe",
+	"sacl-property-visibility-wl-user": "Synlig for bruker",
+	"sacl-property-editable": "Redigerbar av",
+	"sacl-property-editable-wl-group": "Redigerbar av gruppe",
+	"sacl-property-editable-wl-user": "Redigerbar av bruker",
+	"sacl-template-render-denied-anonymous": "<div class=\"errorbox\">Du må [[Special:UserLogin|logge inn]] for å vise denne malen.</div>",
+	"sacl-template-render-denied-registered": "<div class=\"errorbox\">Du har ikke de nødvendige tillatelsene for å vise denne malen.</div>",
+	"sacl-key-too-short": "Nøkkelen må være lengre enn 6 tegn.",
+	"sacl-private-links-disabled": "Private_links_disabled_by_your_administrator"
+}

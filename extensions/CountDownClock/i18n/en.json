@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jayprakash12345"
+		]
+	},
+	"countDownClock-desc": "Adds a parser function to show a count down time",
+	"countDownClock-invalidtime": "Please provide a valid endTime parameter",
+	"countDownClock-days": "$1 {{PLURAL:$1|Day|Days}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|Hour|Hours}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|Minute|Minutes}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|Second|Seconds}}",
+	"countDownClock-expired" : "Expired"
+}

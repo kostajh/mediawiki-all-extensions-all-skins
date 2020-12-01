@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"swiftmailer-desc": "Fournit SwiftMailer comme gestionnaire de courrier de remplacement",
+	"swiftmailer-smtp-error": "Erreur en définissant le transport SMTP pour SwiftMailer : $1",
+	"swiftmailer-send-error": "Erreur à l’envoi de courriel en utilisant SwiftMailer : $1"
+}

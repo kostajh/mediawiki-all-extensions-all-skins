@@ -1,0 +1,123 @@
+{
+	"name": "TemplateWizard",
+	"version": "0.1.0",
+	"author": [
+		"Sam Wilson"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:TemplateWizard",
+	"descriptionmsg": "templatewizard-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"extensions": {
+			"TemplateData": "*",
+			"WikiEditor": ">= 0.5.3"
+		}
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\TemplateWizard\\": "includes/"
+	},
+	"Hooks": {
+		"EditPage::showEditForm:initial": "MediaWiki\\Extension\\TemplateWizard\\Hooks::onEditPageShowEditFormInitial"
+	},
+	"attributes": {
+		"EventLogging": {
+			"Schemas": {
+				"TemplateWizard": 20713042
+			}
+		}
+	},
+	"MessagesDirs": {
+		"TemplateWizard": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.TemplateWizard": {
+			"scripts": [
+				"ext.TemplateWizard.js",
+				"ext.TemplateWizard.AddRemoveAllButton.js",
+				"ext.TemplateWizard.Dialog.js",
+				"ext.TemplateWizard.Model.js",
+				"ext.TemplateWizard.Model/Parameters.js",
+				"ext.TemplateWizard.ParamButton.js",
+				"ext.TemplateWizard.ParamField.js",
+				"ext.TemplateWizard.SearchField.js",
+				"ext.TemplateWizard.SearchForm.js",
+				"ext.TemplateWizard.SearchResult.js",
+				"ext.TemplateWizard.TemplateForm.js",
+				"ext.TemplateWizard.TemplateFormatter.js",
+				"ext.TemplateWizard.TemplateTitleBar.js",
+				"ext.TemplateWizard.init.js"
+			],
+			"styles": [
+				"ext.TemplateWizard.less"
+			],
+			"messages": [
+				"templatewizard-add-all",
+				"templatewizard-cancel",
+				"templatewizard-close-dialog",
+				"templatewizard-close-dialog-body",
+				"templatewizard-close-dialog-retry",
+				"templatewizard-default",
+				"templatewizard-dialog-title",
+				"templatewizard-help",
+				"templatewizard-help-title",
+				"templatewizard-insert",
+				"templatewizard-invalid-title",
+				"templatewizard-invalid-values",
+				"templatewizard-invalid-values-edit",
+				"templatewizard-invalid-values-insert",
+				"templatewizard-no-description",
+				"templatewizard-no-params-with-td",
+				"templatewizard-no-params-without-td",
+				"templatewizard-no-templatedata",
+				"templatewizard-opens-in-new-tab",
+				"templatewizard-parameters-optional",
+				"templatewizard-parameters-required",
+				"templatewizard-parameters-suggested",
+				"templatewizard-placeholder-default",
+				"templatewizard-placeholder-example",
+				"templatewizard-remove-all",
+				"templatewizard-remove-template",
+				"templatewizard-remove-template-body",
+				"templatewizard-remove-template-retry",
+				"templatewizard-search-placeholder",
+				"templatewizard-parambutton-add-title",
+				"templatewizard-parambutton-remove-title",
+				"templatewizard-parambutton-required-title",
+				"templatewizard-remove-template-title",
+				"templatewizard-link-to-template-title",
+				"templatewizard-use"
+			],
+			"dependencies": [
+				"jquery.textSelection",
+				"oojs-ui-core",
+				"oojs-ui-widgets",
+				"oojs-ui-toolbars",
+				"oojs-ui-windows",
+				"oojs-ui.styles.icons-interactions",
+				"mediawiki.widgets",
+				"mediawiki.widgets.UserInputWidget",
+				"mediawiki.widgets.DateInputWidget"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "TemplateWizard/resources"
+	},
+	"QUnitTestModule": {
+		"localBasePath": "tests/qunit",
+		"remoteExtPath": "TemplateWizard/tests/qunit",
+		"scripts": [
+			"ext.TemplateWizard.test.js",
+			"ext.TemplateWizard.Model.Parameters.test.js"
+		],
+		"dependencies": [
+			"ext.TemplateWizard"
+		]
+	},
+	"manifest_version": 2
+}

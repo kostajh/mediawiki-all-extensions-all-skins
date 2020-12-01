@@ -1,0 +1,125 @@
+/* Suggestion control */
+
+.suggest-link {
+	padding-right: 22px;
+	padding-left: 2px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7F9DB9;
+	/* @embed */
+	background: url(images/ArrowButtonDown1px.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+.wiki-data-table td .suggest-link,
+.option-panel td .suggest-link {
+	display: table-cell;
+	zoom: 1;
+	left: 0px;
+	right: 1px;
+	top: 1px;
+	bottom: 0px;
+	background-color: #FFFFFF;
+}
+
+.suggest-link,
+.suggest-link:hover,
+.suggest-link:active,
+.suggest-link:visited {
+	color: #000000;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+td .suggest-link,
+td .suggest-link:hover,
+td .suggest-link:active,
+td .suggest-link:visited {
+	white-space: normal;
+}
+
+.suggest-div {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: 1px solid #000000;
+	display: none;
+	background-color: white;
+	padding: 4px;
+	z-index: 2;
+}
+
+.suggest-drop-down {
+	/*font-size: 1em;*/
+	font-size: 13px;
+	position: relative;
+}	
+
+.suggest-loading {
+	background-color: #DDDDDD;
+}
+
+.suggest-clear {
+	cursor: pointer;
+	color:blue;
+}
+.suggest-clear:hover {
+	text-decoration:underline;
+}
+
+.suggest-close {
+	cursor: pointer;
+	color:blue;
+}
+.suggest-close:hover {
+	text-decoration:underline;
+}
+
+.suggest-next {
+	color:blue;
+	margin-left: 2px;
+	margin-right: 8px;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.suggest-next:hover {
+	text-decoration:underline;
+}
+
+.suggest-previous {
+	color:blue;
+	margin-left: 8px;
+	margin-right: 2px;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.suggest-previous:hover {
+	text-decoration:underline;
+}
+
+.suggest-text {
+	width: 300px;
+}
+
+.suggestion-row {
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+}
+.suggestion-row.active td.column-even,
+.suggestion-row.active td.column-odd {
+	background-color: #CECCF7;
+}
+
+.suggestion-row td {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	white-space: nowrap;
+}
+

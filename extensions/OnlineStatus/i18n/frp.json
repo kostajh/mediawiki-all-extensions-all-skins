@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31",
+			"ChrisPtDe"
+		]
+	},
+	"onlinestatus-desc": "Apond na prèference por montrar se l’utilisator est ora present ou nan sur lo vouiqui",
+	"onlinestatus-js-anon": "Fôta : vos dête étre branchiê por empleyér cela fonccionalitât",
+	"onlinestatus-js-changed": "Voutron statut est étâ changiê a « $1 »",
+	"onlinestatus-js-error": "Empossiblo de changiér lo statut, la valor « $1 » est envalida",
+	"onlinestatus-subtitle-offline": "Ceti usanciér est ora en defôr de legne",
+	"onlinestatus-subtitle-online": "Ceti usanciér est ora en legne",
+	"onlinestatus-tab": "Statut",
+	"onlinestatus-toggles-desc": "Voutron statut :",
+	"onlinestatus-toggles-show": "Montrar lo statut en legne sur ma pâge utilisator",
+	"onlinestatus-toggle-offline": "Absent",
+	"onlinestatus-toggle-online": "Present",
+	"onlinestatus-pref-onlineonlogin": "Changiér mon statut a « en legne » quand mè brancho",
+	"onlinestatus-pref-offlineonlogout": "Changiér mon statut a « en defôr de legne » quand mè dèbrancho"
+}

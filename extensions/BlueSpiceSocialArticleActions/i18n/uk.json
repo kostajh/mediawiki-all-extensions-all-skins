@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bs-socialarticleactions-desc": "Додає базові записи щодо дій над статтями до BlueSpiceSocial",
+	"bs-socialarticleactions-type-articlesave": "Редагування статті",
+	"bs-socialarticleactions-type-articlecreate": "Створення статті",
+	"bs-socialarticleactions-type-articledelete": "Вилучення статті",
+	"bs-socialarticleactions-type-filesave": "Редагування файлу",
+	"bs-socialarticleactions-type-filecreate": "Створення файлу",
+	"bs-socialarticleactions-type-filedelete": "Вилучення файлу",
+	"bs-socialarticleactions-entityactionarticlesave-header": "[[User:$1|$2]] {{GENDER:$1|відредагував|відредагувала}} статтю [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticlecreate-header": "[[User:$1|$2]] {{GENDER:$1|створив|створила}} статтю [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionarticledelete-header": "[[User:$1|$2]] {{GENDER:$1|вилучив|вилучила}} статтю [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilesave-header": "[[User:$1|$2]] {{GENDER:$1|додав|додала}} нову версію файлу [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfilecreate-header": "[[User:$1|$2]] {{GENDER:$1|завантажив|завантажила}} файл [[:$6|$6]]",
+	"bs-socialarticleactions-entityactionfiledelete-header": "[[User:$1|$2]] {{GENDER:$1|вилучив|вилучила}} файл [[:$6|$6]]"
+}

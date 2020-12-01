@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"hierarchybuilder-desc": "Renderizze e permette 'u cangiamende e 'u scacchiamende da le gerarchie de pàgene",
+	"hierarchybuilder-reveal-editmessage": "Accume se ause quiste?",
+	"hierarchybuilder-editmessage": "L'elenghe d'a Radice de Gerarchie tène 'a gerarchie ca avène stipate quanne se reggìstre. L'elenghe de le Pàggene Non Ausate tène le pàggene jndr'à categorije $1 ca non ge stonne pe mò jndr'à gerarchie. Jè possibbele organizzare arrete l'elenghe d'a Radice de Gerarchie carrescianne le righe verse l'alte o verse 'u vasce e cangianne 'u riendre lore. Puè aggiungere pàggene a l'elenghe de le Pàggene Non Ausate a 'a gerarchie carresciannele e lassannele addò vuè jndr'à l'elenghe d'a Radice de Gerarchie. Jè possibbele luà le pàggene da 'a gerarchie carresciannele da l'elenghe d'a Radice de Gerarchie e lassannele jndr'à 'nu punde a uecchije jndr'à l'elenghe de le Pàggene Non Ausate.",
+	"hierarchybuilder-edit-error-message": "Sta gerarcihie non ge pò essere cangiate purcé tutte e doje le date d'a gerarchie e 'a categorije da addò pigghià le pàggene non ausate sò vacande.\nPe piacere statte secure ca almene une de ste sorgende de date so popolate.",
+	"hierarchybuilder-hierarchyroot": "Radice gerarcheche",
+	"hierarchybuilder-unusedpages": "Pàggene non ausate",
+	"hierarchybuilder-category-desc": "Queste jè 'na categorije addò le pàggene jndr'à gerarchie avessera sta.",
+	"hierarchybuilder-missing-category": "Manghe l'argomende d'a categorije.",
+	"hierarchybuilder-hierarchy-desc": "Queste jè 'na gerarchie de 'nu uicchiteste formattate.",
+	"hierarchybuilder-pagename-desc": "Quiste jè 'u nome d'a pàgene ca tène 'a gerarchie.",
+	"hierarchybuilder-propertyname-desc": "Quiste jè 'u nome d'a probbietà ca tène 'a gerarchie.",
+	"hierarchybuilder-collapsed-desc": "Ce stu parametre jè date, 'a gerarchie avessa essere renderizzate achiuse quanne jè 'a prima a essere 'ndrucate.",
+	"hierarchybuilder-missing-page-name": "Manghe 'u nome d'a pàgene.",
+	"hierarchybuilder-missing-property-name": "Manghe 'u nome d'a probbietà.",
+	"hierarchybuilder-invalid-collapsed": "'U valore de l'argomende achiuse jè invalide."
+}

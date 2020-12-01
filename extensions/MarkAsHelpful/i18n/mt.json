@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli"
+		]
+	},
+	"markashelpful-desc": "Tipprovdi interfaċċa għall-utent sabiex jimmarka kummenti bħala utli",
+	"mah-mark-text": "Immarka bħala utli",
+	"mah-you-marked-text": "Taħseb li dan huwa utli",
+	"mah-someone-marked-text": "{{GENDER:$1|$1 jaħseb li dan huwa utli}}",
+	"mah-undo-mark-text": "reġġa' lura",
+	"mah-action-error": "Inqalgħet problema fl-eżekuzzjoni ta' din l-azzjoni"
+}

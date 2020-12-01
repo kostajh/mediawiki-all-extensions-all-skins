@@ -1,0 +1,4 @@
+/* stylelint-disable-next-line selector-max-id */
+.client-nojs #t-performanceinspector {
+	display: none;
+}

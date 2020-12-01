@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Justincheng12345",
+			"Kly"
+		]
+	},
+	"geodata-desc": "新增地理座標存儲及檢索功能",
+	"geodata-bad-input": "傳遞給 <nowiki>{{#coordinates:}}</nowiki> 函式的參數無效",
+	"geodata-bad-latitude": "<nowiki>{{#coordinates:}}</nowiki>：緯度無效",
+	"geodata-bad-longitude": "<nowiki>{{#coordinates:}}</nowiki>：經度無效",
+	"geodata-bad-type": "<nowiki>{{#coordinates:}}</nowiki>：類型「$1」無法識別",
+	"geodata-bad-globe": "<nowiki>{{#coordinates:}}</nowiki>：星球「$1」無法識別",
+	"geodata-bad-region": "<nowiki>{{#coordinates:}}</nowiki>：無效地區代碼格式",
+	"geodata-multiple-primary": "<nowiki>{{#coordinates:}}</nowiki>：每頁只能有一個主標籤",
+	"geodata-limit-exceeded": "各頁面已超出 $1 個 <nowiki>{{#coordinates:}}</nowiki> {{PLURAL:$1|標籤|標籤}}上限",
+	"geodata-broken-tags-category": "帶有不正確座標標籤的頁面",
+	"geodata-broken-tags-category-desc": "頁面有不正確的 <code><nowiki>{{#coordinates:}}</nowiki></code> 標籤。",
+	"geodata-unknown-type-category": "帶有未知座標類型的頁面",
+	"geodata-unknown-type-category-desc": "頁面在座標的 <code>type</code> 參數使用了未知數值。",
+	"geodata-unknown-globe-category": "帶有未知星球值的頁面",
+	"geodata-unknown-globe-category-desc": "頁面在座標的 <code>globe</code> 參數使用了未知數值。",
+	"geodata-unknown-region-category": "帶有無效地區值的頁面",
+	"geodata-unknown-region-category-desc": "頁面在座標的 <code>region</code> 參數使用了未知數值。",
+	"geodata-api-help-coordinates-format": "格式：以豎線符號分隔的緯度與經度（<kbd>|</kbd>）。",
+	"geodata-search-feature-invalid-coordinates": "提供給「$1」的地理座標「$2」無法解析。",
+	"geodata-search-feature-invalid-distance": "提供給「$1」的地理距離「$2」無法解析。",
+	"geodata-search-feature-unknown-title": "提供給「$1」的標題「$2」不存在。",
+	"geodata-search-feature-title-no-coordinates": "提供給「$1」的標題「$2」未包含任何座標。",
+	"geodata-search-timeout": "GeoData 搜尋逾時，僅有部份結果可用。"
+}

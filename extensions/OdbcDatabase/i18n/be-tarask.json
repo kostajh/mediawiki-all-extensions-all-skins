@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"odbcdatabase": "OdbcDatabase",
+	"odbcdatabase-desc": "Драйвэр, які ўжывае PHP-бібліятэку камандаў <code>odbc_*</code>, для падтрымкі пашырэньняў вонкавых зьвестак",
+	"odbcdatabase-odbc-missing": "Адсутнічаюць функцыі ODBC. Упэўніцеся, што <code>PHP:ODBC</code> усталяваны.",
+	"odbcdatabase-connection-error": "Памылка далучэньня да сэрвэру [{{1}}]: {{2}}",
+	"odbcdatabase-free-error": "Немагчыма вызваліць ODBC-вынік",
+	"odbcdatabase-fetch-object-error": "Памылка пры атрыманьні аб’екту: [{{1}}] {{2}}",
+	"odbcdatabase-fetch-row-error": "Памылка пры атрыманьні радку: [{{1}}] {{2}}",
+	"odbcdatabase-insert-id-unsupported": "Функцыя insertId() не падтрымліваецца.",
+	"odbcdatabase-unknown-server-version": "Невядомая вэрсія ODBC-сэрвэра."
+}

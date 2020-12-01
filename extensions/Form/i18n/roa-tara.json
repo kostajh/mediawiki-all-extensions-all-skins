@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"form-desc": "'Nu [[Special:Form|module de inderfacce]] pe accumenzà 'na pàgena nove",
+	"form": "Accuminze 'na pàgena nove",
+	"form-captcha-error": "Errore de CAPTCHA",
+	"form-pick-form": "Scacchie 'u tipe d'a pàgene ca vuè ccu ccreje cu 'nu module.",
+	"form-no-name": "Nisciune nome pu module",
+	"form-no-name-text": "A dà 'nu nome d'u module, cumme \"Special:Form/Nameofform\".",
+	"form-bad-name": "Nome d'u module errate",
+	"form-bad-name-text": "Non ge stonne module cu quidde nome.",
+	"form-pattern": "$1-form",
+	"form-title-pattern": "Aggiunge nuève $1",
+	"form-save": "Reggistre",
+	"form-index-mismatch-title": "Modelle d'u nome e template non ge s'accocchiane",
+	"form-index-mismatch": "Stu module ave modelle de nome e template ca non ge s'accocchiane partenne da l'indice $1.",
+	"form-article-exists": "'A pàgene esiste",
+	"form-article-existstext": "'A pàgene [[$1]] già esiste.",
+	"form-bad-page-name": "Nome d'a pàgene errate",
+	"form-bad-page-name-text": "Le date mise jndr'à 'u module donne 'nu nome de pàgene errate, \"$1\".",
+	"form-required-field-error": "{{PLURAL:$2|'U cambe $1 jè|Le cambe $1 sò}} obbligatorie pe stu module.\n{{PLURAL:$2|Combilale}}.",
+	"form-save-summary": "'A pàgena nove ste ause 'u [[Special:Form/$1|module $1]]",
+	"form-save-error": "Errore duranne 'a reggìstrazione d'u module",
+	"form-save-error-text": "Ha assute 'n'errore scanusciute duranne 'a reggìstrazione d'a pàgene '$1'."
+}

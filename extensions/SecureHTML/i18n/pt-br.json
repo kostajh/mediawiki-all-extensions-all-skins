@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent",
+			"Fúlvio"
+		]
+	},
+	"securehtml": "HTML seguro",
+	"securehtml-desc": "Permite incluir código HTML de maneira autorizada e segura",
+	"securehtml-nokeys": "Erro: <code>$wgSecureHTMLSecrets</code> não está preenchido.",
+	"securehtml-hashrequired": "Erro: hash requerida.",
+	"securehtml-invalidhash": "Erro: Hash inválido.",
+	"securehtml-input-title": "Entrada HTML",
+	"securehtml-generatedoutput-title": "Saída gerada",
+	"securehtml-renderedhhtml-title": "HTML processado",
+	"securehtml-form-keyname": "Nome da chave (opcional)",
+	"securehtml-form-keysecret": "Chave secreta",
+	"securehtml-form-html": "HTML sem editar",
+	"securehtml-form-submit": "Enviar",
+	"securehtml-inputinstructions": "Digite um nome de chave (opcional), chave secreta e o HTML desejado.\nSe nenhum nome de chave for especificado, a primeira chave em <code>$wgSecureHTMLSecrets</code> será assumida.",
+	"securehtml-outputinstructions": "Copie o código acima EXATAMENTE e cole-o no editor wiki.\nSe o código gerado não funcionar, tente remover todos os alimentadores de linha da entrada HTML e gere o código novamente."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michaelbrabec",
+			"Mormegil"
+		]
+	},
+	"accountinfo": "Informace o účtu",
+	"accountinfo-desc": "Umožňuje uživateli prohlédnout si soukromé informace, které jsou o něm uchovávány",
+	"accountinfo-ts": "Časová značka",
+	"accountinfo-ip": "IP adresa",
+	"accountinfo-ua": "Prohlížeč",
+	"accountinfo-xff": "XFF hlavička",
+	"accountinfo-length": "Informace se uchovávají $1.",
+	"accountinfo-now": "Teď"
+}

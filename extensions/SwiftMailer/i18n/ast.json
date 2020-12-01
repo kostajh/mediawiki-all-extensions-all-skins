@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"swiftmailer-desc": "Ufre SwiftMailer como sirvidor de corréu alternativu",
+	"swiftmailer-smtp-error": "Error al configurar el tresporte SMTP pa SwiftMailer: $1",
+	"swiftmailer-send-error": "Error al unviar corréu usando SwiftMailer: $1"
+}

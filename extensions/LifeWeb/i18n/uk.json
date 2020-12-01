@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Piramidion"
+		]
+	},
+	"lifeweb": "Мережа життя",
+	"lifeweb-desc": "Генератор і редактор ідентифікаційного ключа",
+	"apihelp-query+LifeWeb-description": "Низхідна лінія зв'язку даних для LifeBase.",
+	"apihelp-query+LifeWeb-summary": "Посилання на завантаження даних для LifeBase.",
+	"apihelp-query+LifeWeb-param-what": "Який список даних отримати.",
+	"apihelp-query+LifeWeb-param-clearCache": "Чи має кеш бути очищеним протягом отримання даних",
+	"apihelp-query+LifeWeb-example-1": "Список таксонів",
+	"apihelp-query+LifeWeb-example-2": "Список запитань, зручно записаний (pretty-printed)"
+}

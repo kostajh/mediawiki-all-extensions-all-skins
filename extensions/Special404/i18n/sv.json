@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"special404-desc": "Ger en destination för \"404 Hittades inte\"-fel",
+	"error404": "404 Hittades inte",
+	"special404-body": "Adressen du begärde hittades inte.\n\nMenade du {{fullurl:$1}}?\n\nKanske du vill titta på:\n* [[{{MediaWiki:Mainpage}}|Huvudsidan]]"
+}

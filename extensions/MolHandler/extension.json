@@ -1,0 +1,50 @@
+{
+	"name": "MolHandler",
+	"author": [
+		"Rainer Rillke"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:MolHandler",
+	"version": "0.1.1",
+	"descriptionmsg": "molhandler-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"type": "media",
+	"MessagesDirs": {
+		"MolHandler": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MolHandlerMime":  "MolHandler.mime.php",
+		"MolHandler":      "MolHandler_body.php",
+		"MolMediaHandler": "MolMediaHandler.php",
+		"RxnMediaHandler": "RxnMediaHandler.php"
+	},
+	"Hooks": {
+		"MimeMagicImproveFromExtension": "MolHandlerMime::onMimeMagicImproveFromExtension",
+		"MimeMagicGuessFromContent": "MolHandlerMime::onMimeMagicGuessFromContent"
+	},
+	"MediaHandlers": {
+		"chemical/x-mdl-molfile": "MolMediaHandler",
+		"chemical/x-mdl-rxnfile": "RxnMediaHandler"
+	},
+	"config": {
+		"MolConverterPath": "/usr/bin",
+		"MolConvertCommands": {
+			"babel": {
+				"command": "$path/babel -i$format $input $output",
+				"supportedFormats": ["mol"],
+				"memory": 204800
+			},
+			"indigo": {
+				"command": "$path/indigo-depict $input $output",
+				"supportedFormats": ["mol", "rxn"],
+				"memory": 204800
+			}
+		},
+		"MolConverter": "indigo"
+	},
+	"manifest_version": 1
+}

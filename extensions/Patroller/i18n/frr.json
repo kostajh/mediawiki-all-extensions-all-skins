@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Murma174"
+		]
+	},
+	"patrol": "Feranerangen kontroliare",
+	"patrol-desc": "Ütjwidjet mögelkhaiden am feranerangen tu kontroliarin",
+	"patrol-endorse": "Tusteme",
+	"patrol-revert": "Turag saat",
+	"patrol-revert-reason": "Grünj:",
+	"patrol-skip": "Auerspring",
+	"patrol-reverting": "Saat $1 turag",
+	"patrol-nonefound": "Nian paaselk feranerangen tu kontroliarin fünjen",
+	"patrol-endorsed-ok": "Detdiar feranerang as kääntiakent üs kontroliaret",
+	"patrol-endorsed-failed": "Detdiar feranerang küd ei üs kontroliaret kääntiakend wurd.",
+	"patrol-reverted-ok": "Detdiar feranerang as turag saat wurden.",
+	"patrol-reverted-failed": "Detdiar feranerang küd ei turag saat wurd.",
+	"patrol-skipped-ok": "Feranerang woort ei beaachtet.",
+	"patrol-reasons": "* Ianfach wandalismus\n* Test faan en neien brüker\n* Luke üüb det diskusjuunssidj",
+	"patrol-another": "Wise muar feranerangen, wan mögelk.",
+	"patrol-stopped": "Dü wel ei muar feranerangen kontroliare. $1",
+	"patrol-resume": "Trak diar, am widjer tu maagin.",
+	"group-patroller": "Kontrolöören",
+	"group-patroller-member": "{{GENDER:$1|kontrolöör}}",
+	"grouppage-patroller": "{{ns:project}}:Kontrolöör",
+	"right-patroller": "Sidjen kontroliare"
+}

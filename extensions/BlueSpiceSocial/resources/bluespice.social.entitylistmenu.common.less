@@ -1,0 +1,146 @@
+.bs-social-entitylist-menu {
+	padding: 10px;
+	min-height: 36px;
+	position: relative;
+	float: right;
+
+    .bs-social-entitylist-menu-section-button {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        margin: 0 auto;
+        padding-bottom: 5px;
+        width: 100%;
+        color: @bs-color-header-information;
+        text-align: right;
+
+        .bs-social-entitylist-menu-item {
+            background: @bs-primary-light-background;
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            border-radius: 100px;
+            cursor: pointer;
+            margin-left: 10px;
+
+            &:hover, &.active {
+                background: @bs-primary-light-subelement-border;
+            }
+
+            div:before,
+            div div:before {
+                font-size: 16px;
+                color: @navigation-color;
+                position: relative;
+                display: inline-block;
+            }
+
+            &.bs-entitylist-menu-item-options .bs-social-entitylist-menu-item-actions-btn:before {
+                content: '\ea4c';
+                font-family: icomoon !important;
+            }
+
+            &.bs-entitylist-menu-item-filters .bs-social-entitylist-menu-item-actions-btn:before {
+                content: '\ea5b';
+                font-family: icomoon !important;
+            }
+
+            .bs-social-entityspawner-actions,
+            .bs-social-entitylist-menu-item-actions-btn {
+                line-height: 30px;
+                text-align: center;
+                position: relative;
+                color: @navigation-color;
+
+                .updateCounter {
+                    position: absolute;
+                    color: @bs-color-destructive !important;
+                }
+            }
+        }
+    }
+
+    .bs-social-entitylist-menu-section-menu {
+        z-index: 15;
+        position: relative;
+        background: white;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        width: 100%;
+        margin-top: -5px;
+
+        label {
+            display: block;
+        }
+
+        .bs-social-entitylist-menu-content {
+            padding: 10px;
+        }
+    }
+}
+
+.bs-social-entitylist-menu-item-actions-btn:hover {
+	color: #3e5389;
+}
+
+.bs-social-entitylist-menu-item.bs-entitylist-menu-item-options .bs-social-entitylist-menu-item-actions-btn:before {
+	content: '\ea4c';
+	font-family: icomoon !important;
+}
+.bs-social-entitylist-menu-content-filters {
+	padding-bottom: 5px;
+}
+.bs-social-entitylist-menu-item.bs-entitylist-menu-item-filters .bs-social-entitylist-menu-item-actions-btn:before {
+	content: '\ea5b';
+	font-family: icomoon !important;
+}
+
+
+
+.bs-social-timeline-filter div.mw-widgets-datetime-dateTimeInputWidget{
+	max-width: inherit !important;
+}
+.bs-social-timeline-filter div.mw-widgets-datetime-dateTimeInputWidget
+span.mw-widgets-datetime-dateTimeInputWidget-handle {
+	padding-left: 0.5em !important;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: 0.25em 0;
+    margin-right: 0px;
+    width: 100%;
+    max-width: 50em;
+}
+
+.bs-social-entitylist-menu-content span.bs-socialentitylist-menufilter-removeall:after,
+.bs-social-entitylist-menu-content span.bs-socialentitylist-menufilter-addall:after {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    font-size: 11px;
+    display: inline-block;
+    font-family: fontawesome !important;
+}
+.bs-social-entitylist-menu-content span.bs-socialentitylist-menufilter-removeall:after {
+    content: '\f204';
+}
+.bs-social-entitylist-menu-content span.bs-socialentitylist-menufilter-addall:after {
+    content: '\f205';
+}
+
+.bs-social-entity {
+	&.bs-social-entity-output-Short,
+	&.bs-social-entity-output-Default,
+	&.bs-social-entity-output-Page,
+	&.bs-social-entity-output-List {
+		&.dirty {
+			& > form {
+				background-color: @bs-color-warning !important;
+				&:before {
+					background-color: @bs-color-warning !important;
+				}
+			}
+		}
+	}
+}

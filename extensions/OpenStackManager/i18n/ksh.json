@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Purodha"
+		]
+	},
+	"openstackmanager-desc": "Määd et müjjelesch föt Metmaacher, <i lang=\"en\">Nova</i> un <i lang=\"en\">Swift</i> ze verwallde.",
+	"openstackmanager": "De <i lang=\"en\">OpenStack</i> Verwaldong",
+	"novakey": "Öffentlesche <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Secure Shell - „seschere Kommandoh-Bövverfläsch“\">SSH</i>-Schlößelle verwallde",
+	"specialpages-group-nova": "<i lang=\"en\" xml:lang=\"en\">OpenStack Nova</i>",
+	"openstackmanager-novakey": "Ene Nova-Schlößel",
+	"openstackmanager-delete": "fottschmiiße",
+	"openstackmanager-actions": "Akßjuhne",
+	"openstackmanager-notloggedin": "Enlogge es nüdich",
+	"openstackmanager-mustbeloggedin": "Do moß ald enjelogg sin, öm dat maache ze dörve.",
+	"openstackmanager-novapublickey": "Ene öffentlesche SSH-Schlößel",
+	"openstackmanager-prefs-novapublickey": "Öffentlesche <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Secure Shell - „seschere Kommandoh-Bövverfläsch“\">SSH</i>-Schlößelle:",
+	"openstackmanager-deletekey": "Donn ene öffentlesche Schlößel fott schmiiße",
+	"openstackmanager-deletekeyconfirm": "Wells De bovve dä Schlößel verhaftesch fott schmiiße?",
+	"openstackmanager-keylist": "Leß met öffentlesche Schlößele",
+	"openstackmanager-addkey": "Ene öffentlesche Schlößel derbei donn",
+	"openstackmanager-name": "Nahme",
+	"openstackmanager-fingerprint": "Fengeraffdrok",
+	"openstackmanager-keys": "Schlößele",
+	"openstackmanager-keypairimportfailed": "Kunnt dat Schlößßel-Paa nit empottehre.",
+	"openstackmanager-keypairimported": "Dat empottehrte Schlößel_Paa",
+	"openstackmanager-keypairimportedfingerprint": "Mer han dat Schlößel_Paa $1 mem Fengeraffdrok $2 empottehrt",
+	"openstackmanager-keypairformatwrong": "Dä aanjejovve Schlößel för <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Secure Shell - „seschere Kommandoh-Bövverfläsch“\">SSH</i> woh verkihrt udder en enem onbikannte Fommaht.",
+	"openstackmanager-keypairformatconverted": "Dat Fommaht vum Schlößel för <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Secure Shell - „seschere Kommandoh-Bövverfläsch“\">SSH</i> wohd automattesch jewanndelt.",
+	"openstackmanager-deletedkey": "Dä Schlößel es fottjeschmeße.",
+	"openstackmanager-deletedkeyfailed": "Mer kunnte dä Schlößel nit fott schmiiße.",
+	"openstackmanager-shellaccountnamehelp": "Ene Nahme för der shell-Zohjang es nühdesch.\nDä moß met a…z aanfange un et künne söns blohß kleine Bohchschtave a…z, 0…9, un Bendeschtresche - dren sin.",
+	"openstackmanager-shellaccountvalidationfail": "Dä aanjejovve Nahme för der shell-Zohjang es nit jöltesch.\nDä moß met a…z aanfange un et künne söns blohß kleine Bohchschtave a…z, 0…9, un Bendeschtresche - dren sin.",
+	"openstackmanager-shellaccountexists": "Dä Nahme för ene Zohjang övver de shell es ald en Jebruch.",
+	"prefs-openstack": "<i lang=\"en\" xml:lang=\"en\">OpenStack</i>",
+	"prefs-openstack-keys": "Leß vun de Schlößßelle"
+}

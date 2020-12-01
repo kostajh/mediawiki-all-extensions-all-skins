@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Malafaya"
+		]
+	},
+	"pagelanguage-desc": "Definir a língua de cada página",
+	"pagelanguage-invalid": "'''Aviso:''' Foi ignorado o código de língua inválido \"$1\" para a língua da página.",
+	"pagelanguage-duplicate": "'''Aviso:''' A língua da página \"$2\" sobrepõe-se à língua anterior da página \"$1\"."
+}

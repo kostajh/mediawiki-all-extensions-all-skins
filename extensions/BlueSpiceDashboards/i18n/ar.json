@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"bs-dashboards-desc": "يوفر لوحات معلومات للمستخدمين والإداريين",
+	"bs-specialadmindashboard-label": "لوحة البيانات",
+	"bs-dashboards-addportlet": "أضف portlet",
+	"bs-dashboards-portlets": "المداخل",
+	"prefs-dashboards": "لوحات البيانات",
+	"bs-dashboards-pref-userdashboardonlogo": "وصلات شعار الموقع للوحة تحكم المستخدم",
+	"admindashboard": "لوحة تحكم الإداري",
+	"userdashboard": "لوحة تحكم المستخدم",
+	"bs-dashboard-userportlet-calendar-title": "التقويم",
+	"bs-dashboard-userportlet-calendar-description": "التقويم",
+	"bs-dashboard-userportlet-wikipage-title": "صفحة الويكي",
+	"bs-dashboard-userportlet-wikipage-description": "استخدم صفحة ويكي لتعريف عنصر الواجهة",
+	"bs-dashboard-userportlet-wikipage-wiki-article": "صفحة الويكي",
+	"apihelp-bs-dashboard-task-param-dc": "وسيط التحكم في ذاكرة التخزين المؤقت، مستخدم من قبل ExtJS.",
+	"apihelp-bs-dashboards-store-description": "يسرد كل المداخل المتاحة",
+	"apihelp-bs-dashboards-store-summary": "يسرد كل المداخل المتاحة",
+	"apihelp-bs-dashboards-tasks-description": "يحفظ تكوين لوحة المعلومات",
+	"apihelp-bs-dashboards-tasks-summary": "يحفظ تكوين لوحة المعلومات",
+	"apihelp-bs-dashboards-widgets-tasks-description": "إرجاع المحتوى لبعض أدوات لوحة المعلومات",
+	"apihelp-bs-dashboards-widgets-tasks-summary": "إرجاع المحتوى لبعض أدوات لوحة المعلومات",
+	"action-dashboards-viewspecialpage-userdashboard": "عرض الصفحة الخاصة \"{{int:userdashboard}}\"",
+	"right-dashboards-viewspecialpage-userdashboard": "الوصول إلى الصفحة الخاصة [[Special:UserDashboard]]"
+}

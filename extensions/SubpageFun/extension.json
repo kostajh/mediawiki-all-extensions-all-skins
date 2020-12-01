@@ -1,0 +1,30 @@
+{
+	"name": "Subpage Fun",
+	"version": "0.7.0",
+	"author": "[https://www.mediawiki.org/wiki/User:Danwe Daniel Werner]",
+	"url": "https://www.mediawiki.org/wiki/Extension:Subpage_Fun",
+	"descriptionmsg": "subpagefun-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"MessagesDirs": {
+		"SubpageFun": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SubpageFunMagic": "SubpageFun.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"ExtSubpageFun": "ExtSubpageFun.class.php",
+		"SubpageInfo": "SFun_SubpageInfo.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "ExtSubpageFun::init",
+		"MagicWordwgVariableIDs": "ExtSubpageFun::onMagicWordwgVariableIDs",
+		"ParserGetVariableValueSwitch": "ExtSubpageFun::onParserGetVariableValueSwitch",
+		"GetThisVariableValueSwitch": "ExtSubpageFun::onGetThisVariableValueSwitch"
+	},
+	"manifest_version": 1
+}

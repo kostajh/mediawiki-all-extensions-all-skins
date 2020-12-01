@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"deleteuserpages-desc": "Ermöglicht Benutzern die Löschung ihrer eigenen Benutzerseiten",
+	"action-delete-rootuserpages": "deine eigene Benutzer- und Benutzerdiskussionsseite zu löschen",
+	"right-delete-rootuserpages": "Eigene Benutzer- und Benutzerdiskussionsseite löschen",
+	"action-delete-usersubpages": "Unterseiten ihrer eigenen Benutzerseite zu löschen",
+	"right-delete-usersubpages": "Unterseiten ihrer eigenen Benutzerseite löschen"
+}

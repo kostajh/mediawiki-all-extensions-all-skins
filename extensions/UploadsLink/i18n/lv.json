@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Papuass"
+		]
+	},
+	"uploadslink-portlet-label": "Augšupielādes",
+	"tooltip-pt-uploads": "Saraksts ar tevis augšupielādētajiem failiem",
+	"uploadslink-toobox-label": "{{GENDER:$1|Dalībnieka|Dalībnieces}} augšupielādes",
+	"tooltip-tb-uploads": "{{GENDER:$1|Šī dalībnieka|Šīs dalībnieces}} augšupielādēto failu saraksts"
+}

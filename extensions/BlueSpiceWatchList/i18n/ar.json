@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"bs-watchlist-desc": "يضيف عنصر تحكم ووسم قائمة المراقبة",
+	"bs-watchlist-title-sidebar": "قائمة المراقبة",
+	"bs-watchlist-pref-sort-time": "الوقت",
+	"bs-watchlist-pref-sort-title": "العنوان",
+	"bs-watchlist-tag-watchlist-desc": "يعرض المقالات التي تحتوي على أحدث التغييرات وموجودة في قائمة مراقبتك.",
+	"bs-watchlist-window-watchlist-title": "قائمة المراقبة",
+	"bs-watchlist-window-watchlist-intro": "هذه نظرة عامة على جميع صفحات قائمة مراقبتك، يمكنك أيضًا التبديل إلى [[Special:Watchlist|صفحة قائمة المراقبة الكلاسيكية]].",
+	"bs-watchlist-grid-watchlist-column-link-header": "الصفحة",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "تغييرات غير مقروءة",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "فحص التغييرات",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "صفحة النقاش",
+	"bs-watchlist-grid-watchlist-label-filter": "المرشح"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Zygimantus"
+		]
+	},
+	"apifeatureusage": "API funkcijos naudojimas",
+	"apifeatureusage-legend": "API funkcijos naudojimas",
+	"apifeatureusage-startdate-label": "Pradžios data:",
+	"apifeatureusage-enddate-label": "Pabaigos data:",
+	"apifeatureusage-submit": "Gauti duomenys",
+	"apifeatureusage-no-indexes": "Duomenų nėra nurodytoje duomenų sekoje.",
+	"apifeatureusage-missing-indexes": "Duomenų nėra nurodytoje duomenų sekos dalyje.",
+	"apifeatureusage-warnings": "Įspėjimas: $1",
+	"apifeatureusage-column-feature": "Funkcija",
+	"apifeatureusage-column-date": "Data",
+	"apifeatureusage-column-uses": "Panaudojimai",
+	"apihelp-query+featureusage-param-features": "Jei nurodyta, gražina informaciją tik pie šias funkcijas."
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"page-creation-notif-desc": "Unvia un avisu per corréu electrónicu cuando se creen páxines nueves",
+	"page-creation-notification": "Unviame un corréu cuando se cree una páxina nueva",
+	"page-creation-email-subject": "Páxina nueva – $1 {{GENDER:$3|creada}} el $2 por $3",
+	"page-creation-email-body": "Bones, $1:\n\nEsti ye un avisu de {{SITENAME}} para informar de que {{GENDER:$3|l'usuariu|la usuaria}} $3 creó la páxina \"$2\".\n\nPuedes vela en\n$4\n\nEl testu de la páxina ye:\n$5\n\nL'amistosu sistema d'avisu de {{SITENAME}}.\n\nPa camudar les preferencies d'avisu per corréu electrónicu, visita\n{{canonicalurl:{{#special:Preferences}}}}"
+}

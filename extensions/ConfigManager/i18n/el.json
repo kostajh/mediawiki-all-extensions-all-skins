@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"action-configmanager-viewspecialpage": "δείτε την ειδική σελίδα \"{{int:configmanager}}\"",
+	"configmanager-desc": "Προσφέρει την δυνατότητα στους διαχειριστές, να διαμορφώσουν ολόκληρο το wiki από μια ειδική σελίδα",
+	"configmanager-discardchanges": "Απόρριψη των αλλαγών;",
+	"configmanager-noentry": "Δεν βρέθηκε καταχώρηση",
+	"apihelp-configmanager-tasks-summary": "Διαχείριση εργασιών",
+	"apihelp-configmanager-store-summary": "Διαχείριση καταστημάτων"
+}

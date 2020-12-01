@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"onlinestatus-desc": "Add a preference to show if the user is currently present or not on the wiki",
+	"onlinestatus-js-anon": "Error: you must be logged in to use this feature",
+	"onlinestatus-js-changed": "Your status has been changed to \"$1\"",
+	"onlinestatus-js-error": "Impossible to change status, value \"$1\" is invalid",
+	"onlinestatus-levels": "* online\n* offline",
+	"onlinestatus-subtitle-offline": "This user is currently offline",
+	"onlinestatus-subtitle-online": "This user is currently online",
+	"onlinestatus-tab": "Status",
+	"onlinestatus-toggles-desc": "Your status:",
+	"onlinestatus-toggles-explain": "This allows you to show to other users if you are actually online or not by viewing your user page.",
+	"onlinestatus-toggles-show": "Show online status on my user page",
+	"onlinestatus-toggle-offline": "Offline",
+	"onlinestatus-toggle-online": "Online",
+	"onlinestatus-pref-onlineonlogin": "Change my status to online when logging-in",
+	"onlinestatus-pref-offlineonlogout": "Change my status to offline when logging-out"
+}

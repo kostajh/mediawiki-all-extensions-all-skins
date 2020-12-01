@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"odbcdatabase": "OdbcDatabase",
+	"odbcdatabase-connection-error": "Error al conectar con el servidor [{{1}}]: {{2}}",
+	"odbcdatabase-insert-id-unsupported": "No se admite la función insertId().",
+	"odbcdatabase-unknown-server-version": "La versión del servidor ODBC es desconocida."
+}

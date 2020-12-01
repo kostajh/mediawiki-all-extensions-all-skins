@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"Wrightbus"
+		]
+	},
+	"multiboilerplate-desc": "允許在編輯頁面時，可從編輯表單上方的下拉選單中選擇格式模板",
+	"multiboilerplate-legend": "選擇格式模板",
+	"multiboilerplate-submit": "載入",
+	"boilerplates": "格式模板",
+	"multiboilerplate-special-pagetext": "這些模板可以在頁面創建時預先載入 (<span class=plainlinks>[{{fullurl:不存在的頁面|action=edit}} 測試例子]</span>)",
+	"multiboilerplate-special-define-in-localsettings": "格式模板在本地設置裡定義。",
+	"multiboilerplate-special-define-in-interface": "格式模板在 [[MediaWiki:Multiboilerplate]] 裡定義。",
+	"multiboilerplate-special-no-boilerplates": "沒有在任何地方定義到格式模板。",
+	"multiboilerplate-nonexistant-page": "格式模板頁面不存在於：「$1」"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stephan Muggli <muggli@hallowelt.biz>"
+		]
+	},
+	"bs-watchlist-desc": "Adds a watchlist widget and tag",
+	"bs-watchlist-title-sidebar": "Watchlist",
+	"bs-watchlist-pref-sort-time": "Time",
+	"bs-watchlist-pref-sort-title": "Title",
+	"bs-watchlist-tag-watchlist-desc": "Shows the articles which have most recent changes and are on your watchlist.",
+	"bs-watchlist-window-watchlist-title": "Watchlist",
+	"bs-watchlist-window-watchlist-intro": "This is an overview of all pages on your watchlist. You can also switch to the [[Special:Watchlist|classic watchlist page]].",
+	"bs-watchlist-grid-watchlist-column-link-header": "Page",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Unread changes",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Inspect changes",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Talk page",
+	"bs-watchlist-grid-watchlist-label-filter": "Filter"
+}

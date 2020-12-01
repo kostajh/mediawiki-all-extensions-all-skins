@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"right-mintydocs-edit": "All MintyDos Säiten änneren",
+	"mintydocs-noparentpage": "Feeler: All $1 Säit muss eng Ënnersäit sinn.",
+	"mintydocs-invalidparentpage": "Feeler: D'Säit \"$1\" muss eng $2-Säit sinn.",
+	"mintydocs-product-versionlist": "Klickt op eng vun dëse fir d'Dokumentatioun vun där Versioun ze gesinn:",
+	"mintydocs-version-desc": "Dëst ass d'Dokumentatioun fir d'Versioun $1 vu(n) $2.",
+	"mintydocs-version-manuallist": "Hei sinn d'Handbicher fir dës Versioun:",
+	"mintydocs-manual-desc": "Dëst Handbuch ass fir d'Versioun $1 vu(n) $2.",
+	"mintydocs-manual-otherversions": "Liest dëst Handbuch fir aner Versiounen:",
+	"mintydocs-manual-contents": "Inhalter:",
+	"mintydocs-topic-desc": "Dëse Sujet ass en Deel vum Handbuch $1 fir d'Versioun $2 vu(n) $3",
+	"mintydocs-topic-otherversions": "Liest dëse Sujet fir aner Versiounen:",
+	"mintydocs-publish-button": "Verëffentlechen",
+	"mintydocs-publish-editsummary": "Verëffentlecht",
+	"mintydocs-createdraft-button": "Brouillon uleeën",
+	"mintydocs-copy-button": "Kopéieren",
+	"mintydocs-copy-singlepage": "Dës Säit kopéieren?",
+	"mintydocs-delete-success": "D'Säite gi geläscht.",
+	"mintydocs-delete-deletionreason": "Manuell läschen",
+	"mintydocs-tocinput-rename": "Ëmbenennen",
+	"mintydocs-tocinput-changetype": "Typ änneren"
+}

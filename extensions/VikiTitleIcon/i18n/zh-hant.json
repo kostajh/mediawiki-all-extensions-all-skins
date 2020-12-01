@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"vikititleicon-desc": "用於從使用標題圖示擴充的頁面來顯示標誌的 VIKI 套件",
+	"vikititleicon-error-fetch": "獲取節點圖示資料錯誤：$1",
+	"apihelp-getTitleIcons-description": "若有存在的話，取得所有頁面標題圖示的 URL。",
+	"apihelp-getTitleIcons-summary": "若有存在的話，取得所有頁面標題圖示的 URL。",
+	"apihelp-getTitleIcons-param-pageTitle": "您所想要檢索標題圖示的該頁面標題"
+}

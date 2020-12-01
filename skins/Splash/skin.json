@@ -1,0 +1,116 @@
+{
+	"name": "Splash",
+	"version": "2.0",
+	"author": [
+		"Calimonius the Estrange"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Splash",
+	"descriptionmsg": "splash-skin-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"ValidSkinNames": {
+		"splash": {
+			"displayname": "Splash",
+			"class": "SkinSplash",
+			"args": [
+				{
+					"name": "splash",
+					"styles": [
+						"mediawiki.skinning.content.externallinks",
+						"skins.splash"
+					]
+				}
+			]
+		}
+	},
+	"config": {
+		"SplashUseOverlayImage": {
+			"value": false,
+			"description": "Whether or not to use the crazy daji cutout, and associated silliness"
+		},
+		"SplashUseLogoImage": {
+			"value": true,
+			"description": "Whether or not to use $wgLogo with the site banner"
+		},
+		"SplashUseNewMainPage": {
+			"value": false,
+			"description": "Whether or not to use a special-cased mainpage layout"
+		}
+	},
+	"MessagesDirs": {
+		"SkinSplash": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"ResourceLoaderRegisterModules": "SkinSplash::registerCustomMainPageStyles"
+	},
+	"AutoloadClasses": {
+		"SkinSplash": "includes/SkinSplash.php",
+		"SplashTemplate": "includes/SplashTemplate.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Splash"
+	},
+	"ResourceModules": {
+		"skins.splash": {
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"class": "ResourceLoaderSkinModule",
+			"styles": {
+				"resources/libraries/normalise.css": {
+					"media": "screen"
+				},
+				"resources/screen-common.less": {
+					"media": "screen"
+				},
+				"resources/screen-desktop.less": {
+					"media": "screen and (min-width: 700px)"
+				},
+				"resources/screen-mobile.less": {
+					"media": "screen and (max-width: 699px)"
+				},
+				"resources/forms.less": {
+					"media": "screen"
+				},
+				"0": "resources/screen.less",
+				"resources/print.less": {
+					"media": "print"
+				}
+			}
+		},
+		"skins.splash.js": {
+			"targets": [
+				"desktop",
+				"mobile"
+			],
+			"scripts": [
+				"resources/main.js"
+			]
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"splash": {
+			"+ext.echo.styles.badge": "resources/extensions/Echo.styles.badge.less",
+			"+ext.echo.ui": "resources/extensions/Echo.ui.less",
+			"+ext.uls.pt": "resources/extensions/ULS.pt.less",
+			"+ext.uls.interface": "resources/extensions/ULS.interface.less",
+			"+ext.visualEditor.core": "resources/extensions/VisualEditor.core.less",
+			"+ext.visualEditor.desktopArticleTarget.noscript": "resources/extensions/VisualEditor.article.less",
+			"+ext.dismissableSiteNotice.styles": "resources/extensions/DismissableSiteNotice.less",
+			"+mediawiki.action.view.filepage": "resources/modules/filepage.less",
+			"+mediawiki.action.edit.styles": "resources/modules/edit.less",
+			"+mediawiki.special.preferences.styles.ooui": "resources/modules/preferences.less",
+			"+ext.screenplay": "resources/extensions/Screenplay.less",
+			"+ext.CodeMirror": "resources/extensions/CodeMirror.less",
+			"+ext.wikiEditor.styles": "resources/extensions/WikiEditor.less"
+		}
+	},
+	"manifest_version": 2
+}

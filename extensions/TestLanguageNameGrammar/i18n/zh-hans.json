@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"testlanguagenamegrammar": "测试带语言名称的语法形式",
+	"testlanguagenamegrammar-desc": "添加[[Special:TestLanguageNameGrammar|特殊页面]]以测试带语言名称的语法形式。",
+	"testlanguagenamegrammar-language": "语言",
+	"testlanguagenamegrammar-grammarform": "语法形式",
+	"testlanguagenamegrammar-submit": "提交"
+}

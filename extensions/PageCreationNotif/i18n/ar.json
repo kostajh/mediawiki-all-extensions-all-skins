@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"page-creation-notif-desc": "يرسل إشعارا بالبريد الإلكتروني عند إنشاء صفحات جديدة",
+	"page-creation-notification": "أرسل لي رسالة إلكترونية عند إنشاء صفحة جديدة",
+	"page-creation-email-subject": "صفحة جديدة: $1 {{GENDER:$3|أُنشِئت}} في $2 بواسطة $3",
+	"page-creation-email-body": "عزيزي $1، \n\nهذا إشعار من {{SITENAME}} بأن صفحة جديدة $1 {{GENDER:$3|أُنشِئت}} في $2 بواسطة $3\n\n\nيمكنك رؤيتها في\n$4 \n\nنص الصفحة هو: \n$5 \n\nنظام الإخطار الاجتماعي الخاص بك في {{SITENAME}}. \n\nلتغيير إعدادات إشعارات البريد الإلكتروني; قم بزيارة \n{{canonicalurl:{{#special:Preferences}}}}"
+}

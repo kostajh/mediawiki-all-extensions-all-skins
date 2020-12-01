@@ -1,0 +1,244 @@
+{
+	"name": "FlexiSkin",
+	"version": "3.4.0-alpha",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:FlexiSkin",
+	"author": [
+		"Robert Vogel",
+		"Daniel Vogel"
+	],
+	"descriptionmsg": "flexiskin-extension-desc",
+	"namemsg": "flexiskin-extension-name",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.36.0"
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"PermissionRegistry": {
+				"flexiskin-viewspecialpage": {
+					"type": "global",
+					"roles": [ "admin" ]
+				},
+				"flexiskin-api": {
+					"type": "global",
+					"roles": [ "admin" ]
+				}
+			}
+		},
+		"FlexiSkin": {
+			"PluginRegistry": {
+				"Images": "MediaWiki\\Extension\\FlexiSkin\\Plugin\\Images::factory",
+				"ColorPresets": "MediaWiki\\Extension\\FlexiSkin\\Plugin\\ColorPresets::factory",
+				"Colors": "MediaWiki\\Extension\\FlexiSkin\\Plugin\\Colors::factory",
+				"Content": "MediaWiki\\Extension\\FlexiSkin\\Plugin\\Content::factory",
+				"FreeCss": "MediaWiki\\Extension\\FlexiSkin\\Plugin\\FreeCss::factory"
+			},
+			"SubscriberRegistry": {}
+		}
+	},
+	"MessagesDirs": {
+		"FlexiSkin": [
+			"i18n"
+		]
+	},
+	"AvailableRights": [
+		"flexiskin-viewspecialpage",
+		"flexiskin-api"
+	],
+	"ServiceWiringFiles": [
+		"ServiceWiring.php"
+	],
+	"SpecialPages": {
+		"FlexiSkin": "MediaWiki\\Extension\\FlexiSkin\\Special\\FlexiSkin"
+	},
+	"ExtensionMessagesFiles": {
+		"FlexiSkinAlias": "languages/FlexiSkin.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\FlexiSkin\\": "src/"
+	},
+	"APIModules": {
+		"flexiskin-activation": "MediaWiki\\Extension\\FlexiSkin\\Api\\Activation",
+		"flexiskin-save": "MediaWiki\\Extension\\FlexiSkin\\Api\\Save",
+		"flexiskin-preview": "MediaWiki\\Extension\\FlexiSkin\\Api\\Preview",
+		"flexiskin-delete": "MediaWiki\\Extension\\FlexiSkin\\Api\\Delete"
+	},
+	"ResourceModules": {
+		"ext.flexiskin.specialpage.styles": {
+			"styles": [
+				"stylesheets/special.less"
+			]
+		},
+		"ext.flexiskin.specialpage.scripts": {
+			"class": "\\MediaWiki\\Extension\\FlexiSkin\\ResourceLoader\\Configurator",
+			"scripts": [
+				"js/ui/ColorPicker.js",
+				"js/ui/ColorOrNone.js",
+				"js/ui/BorderWidget.js",
+				"js/ui/FontPicker.js",
+				"js/ui/FontWeightPicker.js",
+				"js/ui/dialog/PreviewLoading.js",
+				"js/ui/StyleSizeWidget.js",
+				"js/ui/ConfigGroup.js",
+				"js/ui/Configurator.js",
+				"js/ui/flexiskin.js"
+			],
+			"dependencies": [
+				"ext.bluespice",
+				"mediawiki.api",
+				"oojs-ui",
+				"oojs-ui.styles.icons-editing-core",
+				"oojs-ui.styles.icons-interactions",
+				"ext.oOJSPlus.widgets.colorPicker"
+			],
+			"messages": [
+				"flexiskin-ui-preview-loading-message",
+				"flexiskin-ui-plugin-color-presets-label",
+				"flexiskin-ui-plugin-colors-label",
+				"flexiskin-ui-plugin-colors-background-label",
+				"flexiskin-ui-plugin-colors-background-primary-label",
+				"flexiskin-ui-plugin-colors-background-secondary-label",
+				"flexiskin-ui-plugin-colors-background-tertiary-label",
+				"flexiskin-ui-plugin-colors-background-quaternary-label",
+				"flexiskin-ui-plugin-colors-background-body-label",
+				"flexiskin-ui-plugin-colors-foreground-label",
+				"flexiskin-ui-plugin-colors-foreground-primary-label",
+				"flexiskin-ui-plugin-colors-foreground-secondary-label",
+				"flexiskin-ui-plugin-colors-foreground-tertiary-label",
+				"flexiskin-ui-plugin-colors-foreground-quaternary-label",
+				"flexiskin-ui-plugin-images-label",
+				"flexiskin-ui-plugin-images-logo-label",
+				"flexiskin-ui-plugin-images-favicon-label",
+				"flexiskin-ui-plugin-color-presets-custom-header",
+				"flexiskin-ui-plugin-color-presets-custom-dirty-warning",
+				"flexiskin-ui-configurator-button-preview-label",
+				"flexiskin-ui-configurator-button-save-label",
+				"flexiskin-ui-error-preview-fail",
+				"flexiskin-ui-error-save-fail",
+				"flexiskin-ui-plugin-color-presets-customize-label",
+				"flexiskin-configurator-prompt-on-save",
+				"flexiskin-ui-plugin-layout-label",
+				"flexiskin-ui-plugin-layout-content-width-label",
+				"flexiskin-ui-plugin-colors-foreground-content-label",
+				"flexiskin-ui-plugin-colors-background-content-label",
+				"flexiskin-ui-configurator-button-disable-label",
+				"flexiskin-configurator-prompt-on-disable",
+				"flexiskin-ui-error-disable-fail",
+				"flexiskin-ui-plugin-content-label",
+				"flexiskin-ui-plugin-content-header-label",
+				"flexiskin-ui-plugin-content-header-h1-label",
+				"flexiskin-ui-plugin-content-header-h2-label",
+				"flexiskin-ui-plugin-content-header-h3-label",
+				"flexiskin-ui-plugin-content-header-h4-label",
+				"flexiskin-ui-plugin-content-header-h5-label",
+				"flexiskin-ui-plugin-content-header-h6-label",
+				"flexiskin-ui-plugin-content-header-color-label",
+				"flexiskin-ui-plugin-content-header-font-size-label",
+				"flexiskin-ui-plugin-content-header-underline-label",
+				"flexiskin-font-weight-light",
+				"flexiskin-font-weight-regular",
+				"flexiskin-font-weight-medium",
+				"flexiskin-font-weight-bold",
+				"flexiskin-ui-plugin-content-colors-label",
+				"flexiskin-ui-plugin-content-font-label",
+				"flexiskin-ui-plugin-content-font-family-label",
+				"flexiskin-ui-plugin-content-font-weight-label",
+				"flexiskin-ui-widget-border-solid",
+				"flexiskin-ui-widget-border-dashed",
+				"flexiskin-ui-widget-border-dotted",
+				"flexiskin-ui-widget-border-double",
+				"flexiskin-ui-plugin-content-colors-link-label",
+				"flexiskin-ui-plugin-content-colors-new-link-label",
+				"flexiskin-ui-configurator-warning-disabled-skin",
+				"flexiskin-ui-plugin-free-css-label"
+			]
+		}
+	},
+	"config": {
+		"FlexiSkinColorPresets": {
+			"value": {
+				"bluespice": {
+					"colors/background/primary": "#3e5389",
+					"colors/background/secondary": "#ffffff",
+					"colors/background/tertiary": "#d9d9d9",
+					"colors/background/quaternary": "#999999",
+					"colors/foreground/primary": "#ffffff",
+					"colors/foreground/secondary": "#666666",
+					"colors/foreground/tertiary": "#ffffff",
+					"colors/foreground/quaternary": "#ffffff"
+				},
+				"turquoise": {
+					"colors/background/primary": "#1bbc9b",
+					"colors/background/secondary": "#f5f5f5",
+					"colors/background/tertiary": "#ffffff",
+					"colors/background/quaternary": "#454545",
+					"colors/foreground/primary": "#ffffff",
+					"colors/foreground/secondary": "#454545",
+					"colors/foreground/tertiary": "#1bbc9b",
+					"colors/foreground/quaternary": "#ffffff"
+				},
+				"orange": {
+					"colors/background/primary": "#f4912c",
+					"colors/background/secondary": "#4d4d4d",
+					"colors/background/tertiary": "#f6f6f6",
+					"colors/background/quaternary": "#dedede",
+					"colors/foreground/primary": "#ffffff",
+					"colors/foreground/secondary": "#ffffff",
+					"colors/foreground/tertiary": "#4d4d4d",
+					"colors/foreground/quaternary": "#4d4d4d"
+				},
+				"crimson": {
+					"colors/background/primary": "#bd0000",
+					"colors/background/secondary": "#f6f6f6",
+					"colors/background/tertiary": "#333333",
+					"colors/background/quaternary": "#f6f6f6",
+					"colors/foreground/primary": "#f6f6f6",
+					"colors/foreground/secondary": "#333333",
+					"colors/foreground/tertiary": "#bd0000",
+					"colors/foreground/quaternary": "#333333"
+				},
+				"lime": {
+					"colors/background/primary": "#97bc00",
+					"colors/background/secondary": "#e6e6e6",
+					"colors/background/tertiary": "#f6f6f6",
+					"colors/background/quaternary": "#97bc00",
+					"colors/foreground/primary": "#ffffff",
+					"colors/foreground/secondary": "#474747",
+					"colors/foreground/tertiary": "#474747",
+					"colors/foreground/quaternary": "#ffffff"
+				},
+				"turquoise dark": {
+					"colors/background/primary": "#4d4d4d",
+					"colors/background/secondary": "#4d4d4d",
+					"colors/background/tertiary": "#00adf1",
+					"colors/background/quaternary": "#4d4d4d",
+					"colors/foreground/primary": "#ffffff",
+					"colors/foreground/secondary": "#ffffff",
+					"colors/foreground/tertiary": "#4d4d4d",
+					"colors/foreground/quaternary": "#ffffff"
+				},
+				"sunflower dark": {
+					"colors/background/primary": "#d9d9d9",
+					"colors/background/secondary": "#d9d9d9",
+					"colors/background/tertiary": "#fdce05",
+					"colors/background/quaternary": "#353d40",
+					"colors/foreground/primary": "#666666",
+					"colors/foreground/secondary": "#666666",
+					"colors/foreground/tertiary": "#ffffff",
+					"colors/foreground/quaternary": "#ffffff"
+				}
+
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "FlexiSkin/resources"
+	},
+	"ExtensionFunctions": [
+		"MediaWiki\\Extension\\FlexiSkin\\Extension::overrideLessVars"
+	],
+	"manifest_version": 2,
+	"load_composer_autoloader": true
+}

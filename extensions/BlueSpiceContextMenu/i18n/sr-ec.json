@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Obsuser",
+			"Zoranzoki21"
+		]
+	},
+	"bs-contextmenu-desc": "Пружа контекстне меније за различите везије",
+	"prefs-contextmenu": "Контекстни мени",
+	"bs-contextmenu-page-edit": "Уреди страницу",
+	"bs-contextmenu-page-delete": "Обриши страницу",
+	"bs-contextmenu-page-move": "Премести страницу",
+	"bs-contextmenu-page-history": "Прикажи историју странице",
+	"bs-contextmenu-page-protect": "Заштити страницу",
+	"bs-contextmenu-page-purge": "Освежи кеш меморију и види страницу",
+	"bs-contextmenu-page-info": "Види информацију странице",
+	"bs-contextmenu-media-reupload": "Отпреми нову верзију",
+	"bs-contextmenu-media-view-page": "Види страницу описа датотеке и њену историју",
+	"bs-contextmenu-user-mail": "Пошаљи е-поруку",
+	"bs-contextmenu-user-talk": "Остави поруку на страници за разговор",
+	"bs-contextmenu-file-download": "Преузми датотеку",
+	"apihelp-bs-contextmenu-tasks-description": "Омогућава ставке контекствног менија у контексту"
+}

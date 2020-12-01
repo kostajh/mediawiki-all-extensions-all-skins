@@ -1,0 +1,64 @@
+{
+	"representatives": [
+		{
+			"firstName": "Lefteris",
+			"lastName": "Christoforou",
+			"email": "lefteris.christoforou@europarl.europa.eu",
+			"membershipInDelegations": "D-US",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45876",
+			"strasbourgPhone": "+33(0)3 88 1 75876",
+			"twitter": "@LefChristoforou"
+		},
+		{
+			"firstName": "Takis",
+			"lastName": "Hadjigeorgiou",
+			"email": "takis.hadjigeorgiou@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45657",
+			"strasbourgPhone": "+33(0)3 88 1 75657",
+			"twitter": "@thadjigeorgiou"
+		},
+		{
+			"firstName": "Costas",
+			"lastName": "Mavrides",
+			"email": "costas.mavrides@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45648",
+			"strasbourgPhone": "+33(0)3 88 1 75648",
+			"twitter": ""
+		},
+		{
+			"firstName": "Demetris",
+			"lastName": "Papadakis",
+			"email": "demetris.papadakis@europarl.europa.eu",
+			"membershipInDelegations": "D-RU",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45604",
+			"strasbourgPhone": "+33(0)3 88 1 75604",
+			"twitter": "@DemPapadakis"
+		},
+		{
+			"firstName": "Neoklis",
+			"lastName": "Sylikiotis",
+			"email": "neoklis.sylikiotis@europarl.europa.eu",
+			"membershipInDelegations": "DPAL",
+			"gender": "M",
+			"brusselsPhone": "+32(0)2 28 45754",
+			"strasbourgPhone": "+33(0)3 88 1 75754",
+			"twitter": "@sylikiotis"
+		},
+		{
+			"firstName": "Eleni",
+			"lastName": "Theocharous",
+			"email": "eleni.theocharous@europarl.europa.eu",
+			"membershipInDelegations": "",
+			"gender": "F",
+			"brusselsPhone": "+32(0)2 28 45293",
+			"strasbourgPhone": "+33(0)3 88 1 75293",
+			"twitter": "@THEOCHAROUSE"
+		}
+	]
+}

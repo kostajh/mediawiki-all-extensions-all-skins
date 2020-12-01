@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"phabtaskgraph": "Phabricator Görev Grafiği",
+	"phabtaskgraph-desc": "Phabricator görev ilişkilerini bir güce yönelik grafikte görselleştirir",
+	"phabtaskgraph-author-field-label": "Yazar",
+	"phabtaskgraph-owner-field-label": "Sahibi",
+	"phabtaskgraph-tasks-field-label": "Görevler",
+	"phabtaskgraph-projects-field-label": "Projeler",
+	"phabtaskgraph-status-field-label": "Durum",
+	"phabtaskgraph-width-field-label": "Genişlik",
+	"phabtaskgraph-height-field-label": "Yükseklik",
+	"phabtaskgraph-tasks-field-help": "görev kimliklerinin virgülle ayrılmış listesi (isteğe bağlı olarak \"T\" başlayarak); Örneğin. 'T123456, T654321'",
+	"phabtaskgraph-projects-field-help": "proje adlarının virgülle ayrılmış listesi; ör. 'MediaWiki-Platform-Team, Epic'",
+	"phabtaskgraph-width-field-help": "varsayılan: 800",
+	"phabtaskgraph-height-field-help": "Varsayılan: 800",
+	"phabtaskgraph-status-open": "Aç",
+	"phabtaskgraph-status-stalled": "Durmuş",
+	"phabtaskgraph-status-resolved": "Çözüldü",
+	"phabtaskgraph-status-invalid": "Geçersiz",
+	"phabtaskgraph-status-declined": "Reddedildi",
+	"phabtaskgraph-status-duplicate": "Kopya"
+}

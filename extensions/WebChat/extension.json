@@ -1,0 +1,78 @@
+{
+	"name": "WebChat",
+	"version": "1.4.0",
+	"author": [
+		"Robert Leverington",
+		"Marco 27"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WebChat",
+	"descriptionmsg": "webchat-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"GroupPermissions": {
+		"*": {
+			"webchat": false
+		},
+		"user": {
+			"webchat": true
+		},
+		"sysop": {
+			"webchat": true
+		}
+	},
+	"AvailableRights": [
+		"webchat"
+	],
+	"SpecialPages": {
+		"WebChat": "WebChat"
+	},
+	"MessagesDirs": {
+		"WebChat": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"WebChatAlias": "WebChat.alias.php"
+	},
+	"AutoloadClasses": {
+		"WebChat": "WebChat_body.php"
+	},
+	"config": {
+		"WebChatServer": {
+			"value": "",
+			"description": "IRC Server to connect to, not required when using the freenodeChat web client."
+		},
+		"WebChatChannel": {
+			"value": "",
+			"description": "Channel to connect to."
+		},
+		"WebChatClient": {
+			"value": "",
+			"description": "Which web chat client to use, 'freenodeChat' is required when connecting to freenode, but 'Mibbit' can be used for other networks."
+		},
+		"WebChatClients": {
+			"value": {
+				"Mibbit": {
+					"url": "//embed.mibbit.com/index.html",
+					"parameters": {
+						"noServerMotd": "true",
+						"server": "$$$server$$$",
+						"channel": "$$$channel$$$",
+						"nick": "$$$nick$$$"
+					}
+				},
+				"freenodeChat": {
+					"url": "//webchat.freenode.net/",
+					"parameters": {
+						"channels": "$$$channel$$$",
+						"nick": "$$$nick$$$"
+					}
+				}
+			}
+		}
+	},
+	"manifest_version": 2
+}

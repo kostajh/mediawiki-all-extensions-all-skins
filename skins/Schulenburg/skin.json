@@ -1,0 +1,25 @@
+{
+	"name": "Schulenburg",
+	"author": "Tim Starling",
+	"url": "https://www.mediawiki.org/wiki/Skin:Schulenburg",
+	"descriptionmsg": "schulenburg-desc",
+	"type": "skin",
+	"MessagesDirs": {
+		"Schulenburg": [
+			"i18n"
+		]
+	},
+	"ValidSkinNames": {
+		"schulenburg": "Schulenburg"
+	},
+	"SkipSkins": [
+		"schulenburg"
+	],
+	"AutoloadClasses": {
+		"SkinSchulenburg": "Schulenburg.class.php"
+	},
+	"config": {
+		"SchulenburgSkinPath": false
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Derbeth",
+			"Leinad",
+			"Rail",
+			"Railfail536",
+			"Sp5uhe",
+			"Wpedzich"
+		]
+	},
+	"form-desc": "[[Special:Form|Formularz interfejsu]] do rozpoczynania nowych stron",
+	"form": "Rozpocznij nową stronę",
+	"form-captcha-error": "Błąd CAPTCHA",
+	"form-pick-form": "Wybierz typ strony, którą chcesz utworzyć przy użyciu formularza.",
+	"form-no-name": "Brak nazwy formularza",
+	"form-no-name-text": "Musisz podać nazwę formularza, np. „{{ns:special}}:Formularz/Nazwaformularza”.",
+	"form-bad-name": "Zła nazwa formularza",
+	"form-bad-name-text": "Brak formularza o takiej nazwie.",
+	"form-pattern": "formularz $1",
+	"form-title-pattern": "Dodaj nowy $1",
+	"form-save": "Zapisz",
+	"form-index-mismatch-title": "Wzorzec nazwy i szablon nie pasują",
+	"form-index-mismatch": "W poniższym zestawieniu znajdują się niepasujące wzorce nazw i szablony, rozpoczynając od indeksu $1.",
+	"form-article-exists": "Strona istnieje",
+	"form-article-existstext": "Strona [[$1]] już istnieje.",
+	"form-bad-page-name": "Zła nazwa strony",
+	"form-bad-page-name-text": "Dane wpisane do formularza tworzą niepoprawną nazwę strony, „$1”.",
+	"form-required-field-error": "{{PLURAL:$2|Pole $1 jest|Pola $2 są}} wymagane w tym formularzu. Wypełnij je.",
+	"form-save-summary": "Nowa strona za pomocą [[Special:Form/$1|formularza $1]]",
+	"form-save-error": "Błąd przy zapisywaniu formularza",
+	"form-save-error-text": "Wystąpił nieznany błąd przy zapisywaniu strony '$1'."
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cacycle",
+			"Red Winged Duck"
+		]
+	},
+	"wiked-diff-desc": "Інструмэнт убудаванага параўнаньня з падтрымкай перамяшчэньня блёкаў",
+	"wiked-diff-empty": "(Розьніцы няма)",
+	"wiked-diff-same": "Няма розьніцы паміж вэрсіямі",
+	"wiked-diff-ins": "Устаўлена",
+	"wiked-diff-del": "Выдалена",
+	"wiked-diff-block-left": "◀ Перасунута",
+	"wiked-diff-block-right": "Перасунута ▶",
+	"wiked-diff-block-left-nounicode": "< Перасунута",
+	"wiked-diff-block-right-nounicode": "Перасунута >",
+	"wiked-diff-error": "Памылка: вынік wikEdDiff не адпавядае арыгінальным вэрсіям!"
+}

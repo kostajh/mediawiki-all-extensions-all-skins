@@ -1,0 +1,135 @@
+{
+	"name": "ExtJSBase",
+	"version": "1.31",
+	"author": [
+		"Robert Vogel"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ExtJSBase",
+	"descriptionmsg": "extjsbase-desc",
+	"license-name": "GPL-3.0-only",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ExtJSBase\\": "src/"
+	},
+	"MessagesDirs": {
+		"ExtJSBase": [
+			"i18n"
+		]
+	},
+	"config_prefix": "egExtJSBase",
+	"config": {
+		"Theme": {
+			"value": "MediaWiki\\Extension\\ExtJSBase\\Theme\\MediaWikiTouch",
+			"public": false
+		}
+	},
+	"ConfigRegistry": {
+		"extjsbase": "MediaWiki\\Extension\\ExtJSBase\\Config::newInstance"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ExtJSBase/resources"
+	},
+	"ResourceModules": {
+		"ext.extjsbase.all": {
+			"class": "\\MediaWiki\\Extension\\ExtJSBase\\ResourceModule\\ExtJSAll",
+			"languageScripts": {
+				"af": "extjs/locale/locale-af.js",
+				"bg": "extjs/locale/locale-bg.js",
+				"ca": "extjs/locale/locale-ca.js",
+				"cs": "extjs/locale/locale-cs.js",
+				"da": "extjs/locale/locale-da.js",
+				"de": "extjs/locale/locale-de.js",
+				"de-at": "extjs/locale/locale-de.js",
+				"de-ch": "extjs/locale/locale-de.js",
+				"de-formal": "extjs/locale/locale-de.js",
+				"el": "extjs/locale/locale-el_GR.js",
+				"en": "extjs/locale/locale-en.js",
+				"en-au": "extjs/locale/locale-en_AU.js",
+				"en-gb": "extjs/locale/locale-en_GB.js",
+				"es": "extjs/locale/locale-es.js",
+				"et": "extjs/locale/locale-et.js",
+				"fa": "extjs/locale/locale-fa.js",
+				"fi": "extjs/locale/locale-fi.js",
+				"fr": "extjs/locale/locale-fr.js",
+				"frp": "extjs/locale/locale-fr.js",
+				"fr-ca": "extjs/locale/locale-fr_CA.js",
+				"gr": "extjs/locale/locale-gr.js",
+				"he": "extjs/locale/locale-he.js",
+				"hr": "extjs/locale/locale-hr.js",
+				"hu": "extjs/locale/locale-hu.js",
+				"id": "extjs/locale/locale-id.js",
+				"it": "extjs/locale/locale-it.js",
+				"ja": "extjs/locale/locale-ja.js",
+				"ko": "extjs/locale/locale-ko.js",
+				"lt": "extjs/locale/locale-lt.js",
+				"lv": "extjs/locale/locale-lv.js",
+				"mk": "extjs/locale/locale-mk.js",
+				"nl": "extjs/locale/locale-nl.js",
+				"nb": "extjs/locale/locale-no_NB.js",
+				"nn": "extjs/locale/locale-no_NN.js",
+				"pl": "extjs/locale/locale-pl.js",
+				"pt": "extjs/locale/locale-pt.js",
+				"pt-br": "extjs/locale/locale-pt_BR.js",
+				"pt-pt": "extjs/locale/locale-pt_PT.js",
+				"ro": "extjs/locale/locale-ro.js",
+				"ru": "extjs/locale/locale-ru.js",
+				"sk": "extjs/locale/locale-sk.js",
+				"sl": "extjs/locale/locale-sl.js",
+				"sr": "extjs/locale/locale-sr_RS.js",
+				"sr-cyrl": "extjs/locale/locale-sr_RS.js",
+				"sr-latn": "extjs/locale/locale-sr.js",
+				"sv": "extjs/locale/locale-sv_SE.js",
+				"th": "extjs/locale/locale-th.js",
+				"tr": "extjs/locale/locale-tr.js",
+				"uk": "extjs/locale/locale-ukr.js",
+				"vn": "extjs/locale/locale-vn.js",
+				"zh": "extjs/locale/locale-zh_CN.js",
+				"zh-hans": "extjs/locale/locale-zh_CN.js",
+				"zh-hant": "extjs/locale/locale-zh_CN.js",
+				"zh-sg": "extjs/locale/locale-zh_CN.js",
+				"zh-tw": "extjs/locale/locale-zh_TW.js"
+			}
+		},
+		"ext.extjsbase.charts": {
+			"class": "\\MediaWiki\\Extension\\ExtJSBase\\ResourceModule\\ExtJSCharts",
+			"dependencies": [
+				"ext.extjsbase.all"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		},
+		"ext.extjsbase.ux": {
+			"class": "\\MediaWiki\\Extension\\ExtJSBase\\ResourceModule\\ExtJSUX",
+			"dependencies": [
+				"ext.extjsbase.all"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		},
+		"ext.extjsbase.MWExt": {
+			"scripts": [
+				"ext.extjsbase.MWExt.js"
+			],
+			"messages": [
+				"extjsbase-btn-done",
+				"extjsbase-btn-cancel"
+			],
+			"dependencies": [
+				"ext.extjsbase.all"
+			],
+			"targets": [
+				"mobile",
+				"desktop"
+			]
+		}
+	},
+	"manifest_version": 2
+}

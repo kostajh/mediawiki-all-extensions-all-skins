@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"viki-error-title": "Error:",
+	"apihelp-getContentNamespaces-description": "Obtener la lista de los espacios de nombres de contenido para este wiki."
+}
